@@ -6193,6 +6193,1072 @@ window.BANK2 = [
     "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
   },
   {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "sträcka under en period",
+    "poang": "(1/0/0)",
+    "t": "<p>En vikt i en fjäder svänger med amplituden 21 cm. Hur lång sträcka färdas vikten under en period?</p>",
+    "s": "<p>Under en period går vikten \\(4A\\).</p><p><strong>Svar:</strong> \\(0{,}84\\) m</p>",
+    "id": "2.465",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.84,
+    "tolerans": 0.0126,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Följ vikten från ena vändläget och tillbaka.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "period, frekvens och vinkelhastighet",
+    "poang": "(3/0/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt med massan 0,450 kg hänger i en fjäder med fjäderkonstanten 55,2 N/m och sätts i svängning.</p><ol type=\"a\"><li>Vilken period får svängningen?</li><li>Vilken frekvens får svängningen?</li><li>Bestäm svängningens vinkelhastighet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=2\\pi\\sqrt{\\dfrac{0{,}450}{55{,}2}}\\).</p><p><strong>Svar:</strong> \\(0{,}567\\) s</p></li><li><p>\\(f=\\dfrac1T\\).</p><p><strong>Svar:</strong> \\(1{,}76\\) Hz</p></li><li><p>\\(\\omega=\\dfrac{2\\pi}{T}\\).</p><p><strong>Svar:</strong> \\(11{,}1\\) rad/s</p></li></ol>",
+    "id": "2.466",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5673049674755889,
+      1.7627203309180084,
+      11.075498483890767
+    ],
+    "tolerans": [
+      0.00851,
+      0.0264,
+      0.166
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "Hz",
+      "rad/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt med massan 0,450 kg hänger i en fjäder med fjäderkonstanten 55,2 N/m och sätts i svängning.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken period får svängningen?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt med massan 0,450 kg hänger i en fjäder med fjäderkonstanten 55,2 N/m och sätts i svängning.</p><p>Vilken period får svängningen?</p>",
+        "s": "<p>\\(T=2\\pi\\sqrt{\\dfrac{0{,}450}{55{,}2}}\\).</p><p><strong>Svar:</strong> \\(0{,}567\\) s</p>",
+        "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken frekvens får svängningen?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt med massan 0,450 kg hänger i en fjäder med fjäderkonstanten 55,2 N/m och sätts i svängning.</p>Perioden är 0,567 s.<p>Vilken frekvens får svängningen?</p>",
+        "s": "<p>\\(f=\\dfrac1T\\).</p><p><strong>Svar:</strong> \\(1{,}76\\) Hz</p>",
+        "ledtrad": "<p>\\(f=\\dfrac1T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm svängningens vinkelhastighet.",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt med massan 0,450 kg hänger i en fjäder med fjäderkonstanten 55,2 N/m och sätts i svängning.</p>Perioden är 0,567 s.<p>Bestäm svängningens vinkelhastighet.</p>",
+        "s": "<p>\\(\\omega=\\dfrac{2\\pi}{T}\\).</p><p><strong>Svar:</strong> \\(11{,}1\\) rad/s</p>",
+        "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "tid till vändläget",
+    "poang": "(1/1/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En sten med massan 1,45 kg svänger i en fjäder med fjäderkonstanten 110 N/m. Hur lång tid tar det från jämviktsläget till översta vändläget?</p>",
+    "s": "<p>Det är en fjärdedels period: \\(\\dfrac T4=\\dfrac{2\\pi}{4}\\sqrt{\\dfrac{1{,}45}{110}}\\).</p><p><strong>Svar:</strong> \\(0{,}180\\) s</p>",
+    "id": "2.467",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.18034642409930982,
+    "tolerans": 0.00271,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur stor del av en period?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "s",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "fjäderkonstant ur period",
+    "poang": "(1/0/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Ett klot med massan 0,200 kg i en fjäder gör en hel svängning på 2,60 s. Beräkna fjäderkonstanten.</p>",
+    "s": "<p>\\(k=\\dfrac{4\\pi^2m}{T^2}=\\dfrac{4\\pi^2\\cdot0{,}200}{2{,}60^2}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) N/m</p>",
+    "id": "2.468",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.1680005208389772,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(k\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N/m",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "spindeltråd som fjäder",
+    "poang": "(1/0/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En spindel med massan 1,4 g svänger i änden av sin tråd med frekvensen 1,1 Hz. Vilken fjäderkonstant har tråden?</p>",
+    "s": "<p>\\(k=4\\pi^2f^2m=4\\pi^2\\cdot1{,}1^2\\cdot0{,}0014\\).</p><p><strong>Svar:</strong> \\(0{,}067\\) N/m</p>",
+    "id": "2.469",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.06687643942178148,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(T=\\dfrac1f\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N/m",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "fjäderkonstant för hoppgunga",
+    "poang": "(1/0/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Ett barn med massan 32 kg svänger i en hoppgunga med perioden 2,0 s. Beräkna gungans fjäderkonstant.</p>",
+    "s": "<p>\\(k=\\dfrac{4\\pi^2\\cdot32}{2{,}0^2}\\).</p><p><strong>Svar:</strong> \\(316\\) N/m</p>",
+    "id": "2.470",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 315.82734083485946,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(k\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N/m",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "tid till jämviktsläget",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt med massan 1,65 kg förlänger en fjäder 0,215 m. Vikten dras ned ytterligare 0,130 m och släpps. Hur lång tid tar det innan den passerar jämviktsläget första gången?</p>",
+    "s": "<p>\\(k=\\dfrac{1{,}65\\cdot9{,}82}{0{,}215}\\approx75{,}4\\) N/m. Tiden är en fjärdedels period: \\(\\dfrac{2\\pi}{4}\\sqrt{\\dfrac{1{,}65}{75{,}4}}\\).</p><p><strong>Svar:</strong> \\(0{,}232\\) s</p>",
+    "id": "2.471",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.23242528014649455,
+    "tolerans": 0.00349,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Amplituden påverkar inte perioden.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "flöte och flaska",
+    "poang": "(1/1/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Ett flöte med massan 52 g guppar upp och ned i vattnet med frekvensen 3,0 Hz. Se rörelsen som en fjädersvängning.</p><ol type=\"a\"><li>Vilken fjäderkonstant motsvarar vattnet?</li><li>En flaska med massan 0,28 kg och liknande form guppar i vattnet. Vilken frekvens bör den ha?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=4\\pi^2f^2m=4\\pi^2\\cdot3{,}0^2\\cdot0{,}052\\).</p><p><strong>Svar:</strong> \\(18\\) N/m</p></li><li><p>\\(f=\\dfrac1{2\\pi}\\sqrt{\\dfrac{18}{0{,}28}}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) Hz</p></li></ol>",
+    "id": "2.472",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18.475899438839278,
+      1.292837411057002
+    ],
+    "tolerans": [
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Ett flöte med massan 52 g guppar upp och ned i vattnet med frekvensen 3,0 Hz. Se rörelsen som en fjädersvängning.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fjäderkonstant motsvarar vattnet?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Ett flöte med massan 52 g guppar upp och ned i vattnet med frekvensen 3,0 Hz. Se rörelsen som en fjädersvängning.</p><p>Vilken fjäderkonstant motsvarar vattnet?</p>",
+        "s": "<p>\\(k=4\\pi^2f^2m=4\\pi^2\\cdot3{,}0^2\\cdot0{,}052\\).</p><p><strong>Svar:</strong> \\(18\\) N/m</p>",
+        "ledtrad": "<p>Lös ut \\(k\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En flaska med massan 0,28 kg och liknande form guppar i vattnet. Vilken frekvens bör den ha?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Ett flöte med massan 52 g guppar upp och ned i vattnet med frekvensen 3,0 Hz. Se rörelsen som en fjädersvängning.</p>Fjäderkonstanten är 18 N/m.<p>En flaska med massan 0,28 kg och liknande form guppar i vattnet. Vilken frekvens bör den ha?</p>",
+        "s": "<p>\\(f=\\dfrac1{2\\pi}\\sqrt{\\dfrac{18}{0{,}28}}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) Hz</p>",
+        "ledtrad": "<p>Samma fjäderkonstant.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "massa ur frekvens",
+    "poang": "(1/0/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Ett föremål i en fjäder med fjäderkonstanten 120 N/m svänger med frekvensen 6,00 Hz. Bestäm föremålets massa.</p>",
+    "s": "<p>\\(\\omega=2\\pi\\cdot6{,}00\\approx37{,}7\\) rad/s. \\(m=\\dfrac{k}{\\omega^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0844\\) kg</p>",
+    "id": "2.473",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.08443431970194815,
+    "tolerans": 0.00127,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\omega=\\sqrt{\\dfrac km}\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "spindelnät",
+    "poang": "(1/1/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En spindel med massan 0,30 g sitter i ett nät med försumbar massa. Nätet svänger med frekvensen 15 Hz.</p><ol type=\"a\"><li>Vilken fjäderkonstant har nätet?</li><li>I stället fastnar en insekt med massan 0,10 g i nätet. Vilken frekvens får nätet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=4\\pi^2\\cdot15^2\\cdot0{,}30\\cdot10^{-3}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) N/m</p></li><li><p>\\(f\\sim\\dfrac{1}{\\sqrt m}\\): \\(15\\sqrt{\\dfrac{0{,}30}{0{,}10}}\\).</p><p><strong>Svar:</strong> \\(26\\) Hz</p></li></ol>",
+    "id": "2.474",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.6647931882941265,
+      25.980762113533157
+    ],
+    "tolerans": [
+      0.051,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En spindel med massan 0,30 g sitter i ett nät med försumbar massa. Nätet svänger med frekvensen 15 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fjäderkonstant har nätet?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En spindel med massan 0,30 g sitter i ett nät med försumbar massa. Nätet svänger med frekvensen 15 Hz.</p><p>Vilken fjäderkonstant har nätet?</p>",
+        "s": "<p>\\(k=4\\pi^2\\cdot15^2\\cdot0{,}30\\cdot10^{-3}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) N/m</p>",
+        "ledtrad": "<p>Lös ut \\(k\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "I stället fastnar en insekt med massan 0,10 g i nätet. Vilken frekvens får nätet?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En spindel med massan 0,30 g sitter i ett nät med försumbar massa. Nätet svänger med frekvensen 15 Hz.</p><p>I stället fastnar en insekt med massan 0,10 g i nätet. Vilken frekvens får nätet?</p>",
+        "s": "<p>\\(f\\sim\\dfrac{1}{\\sqrt m}\\): \\(15\\sqrt{\\dfrac{0{,}30}{0{,}10}}\\).</p><p><strong>Svar:</strong> \\(26\\) Hz</p>",
+        "ledtrad": "<p>Hur beror frekvensen på massan?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(f=\\dfrac{1}{2\\pi}\\sqrt{\\dfrac km}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "vad påverkar perioden",
+    "poang": "(3/1/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt i en fjäder svänger med perioden 1,00 s och amplituden 5,00 cm. Vilken blir perioden om</p><ol type=\"a\"><li>amplituden fördubblas?</li><li>massan fördubblas?</li><li>fjäderkonstanten fördubblas?</li><li>försöket flyttas till månen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Perioden beror inte på amplituden.</p><p><strong>Svar:</strong> \\(1{,}00\\) s</p></li><li><p>\\(T\\sim\\sqrt m\\): \\(1{,}00\\sqrt2\\).</p><p><strong>Svar:</strong> \\(1{,}41\\) s</p></li><li><p>\\(T\\sim\\dfrac1{\\sqrt k}\\): \\(\\dfrac{1{,}00}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(0{,}707\\) s</p></li><li><p>Perioden beror inte på \\(g\\).</p><p><strong>Svar:</strong> \\(1{,}00\\) s</p></li></ol>",
+    "id": "2.475",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      1.4142135623730951,
+      0.7071067811865475,
+      1
+    ],
+    "tolerans": [
+      0.015,
+      0.0212,
+      0.0106,
+      0.015
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "s",
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt i en fjäder svänger med perioden 1,00 s och amplituden 5,00 cm. Vilken blir perioden om</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "amplituden fördubblas?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt i en fjäder svänger med perioden 1,00 s och amplituden 5,00 cm. Vilken blir perioden om</p><p>amplituden fördubblas?</p>",
+        "s": "<p>Perioden beror inte på amplituden.</p><p><strong>Svar:</strong> \\(1{,}00\\) s</p>",
+        "ledtrad": "<p>Finns amplituden i formeln?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "massan fördubblas?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt i en fjäder svänger med perioden 1,00 s och amplituden 5,00 cm. Vilken blir perioden om</p><p>massan fördubblas?</p>",
+        "s": "<p>\\(T\\sim\\sqrt m\\): \\(1{,}00\\sqrt2\\).</p><p><strong>Svar:</strong> \\(1{,}41\\) s</p>",
+        "ledtrad": "<p>\\(T\\sim\\sqrt m\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "fjäderkonstanten fördubblas?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt i en fjäder svänger med perioden 1,00 s och amplituden 5,00 cm. Vilken blir perioden om</p><p>fjäderkonstanten fördubblas?</p>",
+        "s": "<p>\\(T\\sim\\dfrac1{\\sqrt k}\\): \\(\\dfrac{1{,}00}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(0{,}707\\) s</p>",
+        "ledtrad": "<p>\\(T\\sim\\dfrac{1}{\\sqrt k}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "försöket flyttas till månen?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt i en fjäder svänger med perioden 1,00 s och amplituden 5,00 cm. Vilken blir perioden om</p><p>försöket flyttas till månen?</p>",
+        "s": "<p>Perioden beror inte på \\(g\\).</p><p><strong>Svar:</strong> \\(1{,}00\\) s</p>",
+        "ledtrad": "<p>Finns \\(g\\) i formeln?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "Sannas fjäder",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt på 0,35 kg förlänger en fjäder 15 cm. Vikten sätts i svängning med amplituden 3,5 cm.</p><ol type=\"a\"><li>Bestäm fjäderkonstanten.</li><li>Hur lång tid tar det från övre till nedre vändläget?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=\\dfrac{0{,}35\\cdot9{,}82}{0{,}15}\\).</p><p><strong>Svar:</strong> \\(23\\) N/m</p></li><li><p>En halv period: \\(\\pi\\sqrt{\\dfrac{0{,}35}{22{,}9}}\\).</p><p><strong>Svar:</strong> \\(0{,}39\\) s</p></li></ol>",
+    "id": "2.476",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      22.913333333333334,
+      0.3882752949917849
+    ],
+    "tolerans": [
+      0.51,
+      0.00582
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt på 0,35 kg förlänger en fjäder 15 cm. Vikten sätts i svängning med amplituden 3,5 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm fjäderkonstanten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt på 0,35 kg förlänger en fjäder 15 cm. Vikten sätts i svängning med amplituden 3,5 cm.</p><p>Bestäm fjäderkonstanten.</p>",
+        "s": "<p>\\(k=\\dfrac{0{,}35\\cdot9{,}82}{0{,}15}\\).</p><p><strong>Svar:</strong> \\(23\\) N/m</p>",
+        "ledtrad": "<p>\\(F=kx\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det från övre till nedre vändläget?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt på 0,35 kg förlänger en fjäder 15 cm. Vikten sätts i svängning med amplituden 3,5 cm.</p>Fjäderkonstanten är 22,9 N/m.<p>Hur lång tid tar det från övre till nedre vändläget?</p>",
+        "s": "<p>En halv period: \\(\\pi\\sqrt{\\dfrac{0{,}35}{22{,}9}}\\).</p><p><strong>Svar:</strong> \\(0{,}39\\) s</p>",
+        "ledtrad": "<p>Hur stor del av en period?</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "A",
+    "typ": "okänd fjäderkonstant ur två perioder",
+    "poang": "(0/1/1)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kula med massan \\(m\\) i en fjäder med fjäderkonstanten 20 N/m svänger med perioden 2,00 s. En kula med massan \\(3m\\) i en annan fjäder svänger med perioden 1,00 s. Bestäm den andra fjäderns fjäderkonstant.</p>",
+    "s": "<p>\\(T^2=\\dfrac{4\\pi^2m}{k}\\). Kvoten: \\(\\dfrac{1{,}00^2}{2{,}00^2}=\\dfrac{3m/k}{m/20}\\iff k=3\\cdot20\\cdot4\\).</p><p><strong>Svar:</strong> \\(240\\) N/m</p>",
+    "id": "2.477",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 240,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela uttrycken för \\(T^2\\) med varandra.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N/m",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "simhopp från svikt",
+    "poang": "(2/0/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En simhoppare med massan 75 kg svänger upp och ned längst ut på en svikt, som kan ses som en fjäder med fjäderkonstanten 4,1 kN/m. Avståndet mellan övre och nedre vändläget är 0,30 m.</p><ol type=\"a\"><li>Bestäm amplituden.</li><li>Bestäm perioden.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(A=\\dfrac{0{,}30}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\) m</p></li><li><p>\\(T=2\\pi\\sqrt{\\dfrac{75}{4\\,100}}\\). Den ändras inte om utslaget blir större.</p><p><strong>Svar:</strong> \\(0{,}85\\) s</p></li></ol>",
+    "id": "2.478",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.15,
+      0.8498036100708594
+    ],
+    "tolerans": [
+      0.0051,
+      0.0127
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En simhoppare med massan 75 kg svänger upp och ned längst ut på en svikt, som kan ses som en fjäder med fjäderkonstanten 4,1 kN/m. Avståndet mellan övre och nedre vändläget är 0,30 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm amplituden.",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En simhoppare med massan 75 kg svänger upp och ned längst ut på en svikt, som kan ses som en fjäder med fjäderkonstanten 4,1 kN/m. Avståndet mellan övre och nedre vändläget är 0,30 m.</p><p>Bestäm amplituden.</p>",
+        "s": "<p>\\(A=\\dfrac{0{,}30}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\) m</p>",
+        "ledtrad": "<p>Amplituden är halva avståndet mellan vändlägena.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm perioden.",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En simhoppare med massan 75 kg svänger upp och ned längst ut på en svikt, som kan ses som en fjäder med fjäderkonstanten 4,1 kN/m. Avståndet mellan övre och nedre vändläget är 0,30 m.</p><p>Bestäm perioden.</p>",
+        "s": "<p>\\(T=2\\pi\\sqrt{\\dfrac{75}{4\\,100}}\\). Den ändras inte om utslaget blir större.</p><p><strong>Svar:</strong> \\(0{,}85\\) s</p>",
+        "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Perioden beror inte på amplituden.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "studsmatta",
+    "poang": "(1/0/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En person med massan 60 kg gungar på en studsmatta och gör 10 svängningar på 19,0 s. Vilken fjäderkonstant har studsmattan?</p>",
+    "s": "<p>\\(T=1{,}90\\) s. \\(k=\\dfrac{4\\pi^2\\cdot60}{1{,}90^2}\\).</p><p><strong>Svar:</strong> \\(656\\) N/m</p>",
+    "id": "2.479",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 656.150985113974,
+    "tolerans": 9.84,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm perioden först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N/m",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "A",
+    "typ": "massa ur två frekvenser",
+    "poang": "(0/1/1)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt med massan \\(m\\) svänger i en fjäder med frekvensen 0,83 Hz. När massan ökas med 780 g blir frekvensen 0,60 Hz. Bestäm \\(m\\).</p>",
+    "s": "<p>\\(\\left(\\dfrac{0{,}83}{0{,}60}\\right)^2=\\dfrac{m+0{,}780}{m}\\iff m=\\dfrac{0{,}780}{1{,}914-1}\\).</p><p><strong>Svar:</strong> \\(0{,}85\\) kg</p>",
+    "id": "2.480",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8537549407114626,
+    "tolerans": 0.0128,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(f^2\\) är omvänt proportionell mot massan.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "kg",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "kula med ändrad massa",
+    "poang": "(1/2/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kula med massan 750 g svänger i en fjäder med frekvensen 1,33 Hz.</p><ol type=\"a\"><li>Bestäm fjäderkonstanten.</li><li>Vilken frekvens blir det om massan ökas med 220 g?</li><li>Vilken frekvens blir det om massan minskas med 220 g?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=4\\pi^2f^2m=4\\pi^2\\cdot1{,}33^2\\cdot0{,}750\\).</p><p><strong>Svar:</strong> \\(52{,}4\\) N/m</p></li><li><p>\\(f=1{,}33\\sqrt{\\dfrac{0{,}750}{0{,}970}}\\).</p><p><strong>Svar:</strong> \\(1{,}17\\) Hz</p></li><li><p>\\(f=1{,}33\\sqrt{\\dfrac{0{,}750}{0{,}530}}\\).</p><p><strong>Svar:</strong> \\(1{,}58\\) Hz</p></li></ol>",
+    "id": "2.481",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      52.375029675260905,
+      1.1694897116122955,
+      1.5821379135076976
+    ],
+    "tolerans": [
+      0.786,
+      0.0175,
+      0.0237
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "Hz",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kula med massan 750 g svänger i en fjäder med frekvensen 1,33 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm fjäderkonstanten.",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kula med massan 750 g svänger i en fjäder med frekvensen 1,33 Hz.</p><p>Bestäm fjäderkonstanten.</p>",
+        "s": "<p>\\(k=4\\pi^2f^2m=4\\pi^2\\cdot1{,}33^2\\cdot0{,}750\\).</p><p><strong>Svar:</strong> \\(52{,}4\\) N/m</p>",
+        "ledtrad": "<p>Lös ut \\(k\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken frekvens blir det om massan ökas med 220 g?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kula med massan 750 g svänger i en fjäder med frekvensen 1,33 Hz.</p><p>Vilken frekvens blir det om massan ökas med 220 g?</p>",
+        "s": "<p>\\(f=1{,}33\\sqrt{\\dfrac{0{,}750}{0{,}970}}\\).</p><p><strong>Svar:</strong> \\(1{,}17\\) Hz</p>",
+        "ledtrad": "<p>\\(f\\sim\\dfrac{1}{\\sqrt m}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken frekvens blir det om massan minskas med 220 g?",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kula med massan 750 g svänger i en fjäder med frekvensen 1,33 Hz.</p><p>Vilken frekvens blir det om massan minskas med 220 g?</p>",
+        "s": "<p>\\(f=1{,}33\\sqrt{\\dfrac{0{,}750}{0{,}530}}\\).</p><p><strong>Svar:</strong> \\(1{,}58\\) Hz</p>",
+        "ledtrad": "<p>\\(f\\sim\\dfrac{1}{\\sqrt m}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(f=\\dfrac{1}{2\\pi}\\sqrt{\\dfrac km}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "massökning ger längre period",
+    "poang": "(0/1/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En vikt med massan 0,200 kg svänger i en fjäder med perioden 0,55 s. När massan ökas med \\(\\Delta m\\) blir perioden 20 % längre. Bestäm \\(\\Delta m\\).</p>",
+    "s": "<p>\\(\\dfrac{m+\\Delta m}{m}=1{,}20^2\\iff\\Delta m=0{,}200(1{,}44-1)\\).</p><p><strong>Svar:</strong> \\(0{,}088\\) kg</p>",
+    "id": "2.482",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.088,
+    "tolerans": 0.00132,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(T^2\\) är proportionell mot massan.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "A",
+    "typ": "kula lossnar från fjäder",
+    "poang": "(1/2/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Två hoplimmade kulor, 1,50 kg och 2,00 kg, hänger stilla i en fjäder med fjäderkonstanten 165 N/m. Limfogen släpper och en kula lossnar. Den kvarvarande kulan svänger harmoniskt.</p><ol type=\"a\"><li>Den lätta kulan lossnar. Bestäm amplituden.</li><li>Bestäm perioden när den lätta kulan har lossnat.</li><li>Den tunga kulan lossnar i stället. Bestäm amplituden.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Jämviktsläget flyttas upp \\(\\dfrac{1{,}50\\cdot9{,}82}{165}\\), och kulan startar i vila där.</p><p><strong>Svar:</strong> \\(0{,}0893\\) m</p></li><li><p>\\(T=2\\pi\\sqrt{\\dfrac{2{,}00}{165}}\\).</p><p><strong>Svar:</strong> \\(0{,}692\\) s</p></li><li><p>Jämviktsläget flyttas upp \\(\\dfrac{2{,}00\\cdot9{,}82}{165}\\).</p><p><strong>Svar:</strong> \\(0{,}119\\) m</p></li></ol>",
+    "id": "2.483",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.08927272727272728,
+      0.6917559352779066,
+      0.11903030303030303
+    ],
+    "tolerans": [
+      0.00134,
+      0.0104,
+      0.00179
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Två hoplimmade kulor, 1,50 kg och 2,00 kg, hänger stilla i en fjäder med fjäderkonstanten 165 N/m. Limfogen släpper och en kula lossnar. Den kvarvarande kulan svänger harmoniskt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Den lätta kulan lossnar. Bestäm amplituden.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Två hoplimmade kulor, 1,50 kg och 2,00 kg, hänger stilla i en fjäder med fjäderkonstanten 165 N/m. Limfogen släpper och en kula lossnar. Den kvarvarande kulan svänger harmoniskt.</p><p>Den lätta kulan lossnar. Bestäm amplituden.</p>",
+        "s": "<p>Jämviktsläget flyttas upp \\(\\dfrac{1{,}50\\cdot9{,}82}{165}\\), och kulan startar i vila där.</p><p><strong>Svar:</strong> \\(0{,}0893\\) m</p>",
+        "ledtrad": "<p>Hur mycket flyttas jämviktsläget?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm perioden när den lätta kulan har lossnat.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Två hoplimmade kulor, 1,50 kg och 2,00 kg, hänger stilla i en fjäder med fjäderkonstanten 165 N/m. Limfogen släpper och en kula lossnar. Den kvarvarande kulan svänger harmoniskt.</p><p>Bestäm perioden när den lätta kulan har lossnat.</p>",
+        "s": "<p>\\(T=2\\pi\\sqrt{\\dfrac{2{,}00}{165}}\\).</p><p><strong>Svar:</strong> \\(0{,}692\\) s</p>",
+        "ledtrad": "<p>Vilken massa svänger?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Den tunga kulan lossnar i stället. Bestäm amplituden.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Två hoplimmade kulor, 1,50 kg och 2,00 kg, hänger stilla i en fjäder med fjäderkonstanten 165 N/m. Limfogen släpper och en kula lossnar. Den kvarvarande kulan svänger harmoniskt.</p><p>Den tunga kulan lossnar i stället. Bestäm amplituden.</p>",
+        "s": "<p>Jämviktsläget flyttas upp \\(\\dfrac{2{,}00\\cdot9{,}82}{165}\\).</p><p><strong>Svar:</strong> \\(0{,}119\\) m</p>",
+        "ledtrad": "<p>Hur mycket flyttas jämviktsläget?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Amplituden är avståndet mellan startläget och det nya jämviktsläget.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "bilens svängning efter gupp",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En bil har massan 1 700 kg. När en förare med massan 66,0 kg sätter sig i trycks fjädringen ihop 5,0 mm.</p><ol type=\"a\"><li>Beräkna bilens fjäderkonstant.</li><li>Bilen med föraren kör över ett gupp. Vilken period får svängningen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=\\dfrac{66{,}0\\cdot9{,}82}{0{,}0050}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{5}\\) N/m</p></li><li><p>Hela massan svänger: \\(T=2\\pi\\sqrt{\\dfrac{1\\,766}{1{,}3\\cdot10^5}}\\).</p><p><strong>Svar:</strong> \\(0{,}73\\) s</p></li></ol>",
+    "id": "2.484",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      129624.0,
+      0.7333858197496602
+    ],
+    "tolerans": [
+      5100.0,
+      0.011
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En bil har massan 1 700 kg. När en förare med massan 66,0 kg sätter sig i trycks fjädringen ihop 5,0 mm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna bilens fjäderkonstant.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En bil har massan 1 700 kg. När en förare med massan 66,0 kg sätter sig i trycks fjädringen ihop 5,0 mm.</p><p>Beräkna bilens fjäderkonstant.</p>",
+        "s": "<p>\\(k=\\dfrac{66{,}0\\cdot9{,}82}{0{,}0050}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{5}\\) N/m</p>",
+        "ledtrad": "<p>Förarens tyngd ger hoptryckningen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bilen med föraren kör över ett gupp. Vilken period får svängningen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En bil har massan 1 700 kg. När en förare med massan 66,0 kg sätter sig i trycks fjädringen ihop 5,0 mm.</p>Fjäderkonstanten är \\(1{,}3\\cdot10^5\\) N/m.<p>Bilen med föraren kör över ett gupp. Vilken period får svängningen?</p>",
+        "s": "<p>Hela massan svänger: \\(T=2\\pi\\sqrt{\\dfrac{1\\,766}{1{,}3\\cdot10^5}}\\).</p><p><strong>Svar:</strong> \\(0{,}73\\) s</p>",
+        "ledtrad": "<p>Vilken massa svänger?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "roddbåt som guppar",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En roddbåt med massan 47 kg sjunker 8,0 cm när Diana (92 kg) sätter sig i den. Hon kliver ur och båten guppar. Se rörelsen som en fjädersvängning. Vilken period får båten?</p>",
+    "s": "<p>\\(k=\\dfrac{92\\cdot9{,}82}{0{,}080}\\approx1{,}13\\cdot10^4\\) N/m. Bara båten svänger: \\(T=2\\pi\\sqrt{\\dfrac{47}{1{,}13\\cdot10^4}}\\).</p><p><strong>Svar:</strong> \\(0{,}41\\) s</p>",
+    "id": "2.485",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4053443587634266,
+    "tolerans": 0.00608,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken massa svänger efter att hon klivit ur?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "kloss mellan fjädrar",
+    "poang": "(1/2/0)",
+    "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kloss med massan 0,25 kg ligger på ett friktionsfritt bord. Fjädrarna har fjäderkonstanten 16 N/m var.</p><ol type=\"a\"><li>Klossen är fäst i en fjäder. Beräkna perioden.</li><li>Klossen sitter mellan två fjädrar, en på varje sida. Beräkna perioden.</li><li>Klossen hänger i två seriekopplade fjädrar. Beräkna perioden.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=2\\pi\\sqrt{\\dfrac{0{,}25}{16}}\\).</p><p><strong>Svar:</strong> \\(0{,}79\\) s</p></li><li><p>Båda fjädrarna drar tillbaka: \\(k=32\\) N/m.</p><p><strong>Svar:</strong> \\(0{,}56\\) s</p></li><li><p>I serie: \\(k=8{,}0\\) N/m.</p><p><strong>Svar:</strong> \\(1{,}1\\) s</p></li></ol>",
+    "id": "2.486",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.7853981633974483,
+      0.5553603672697958,
+      1.1107207345395915
+    ],
+    "tolerans": [
+      0.0118,
+      0.00833,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kloss med massan 0,25 kg ligger på ett friktionsfritt bord. Fjädrarna har fjäderkonstanten 16 N/m var.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Klossen är fäst i en fjäder. Beräkna perioden.",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kloss med massan 0,25 kg ligger på ett friktionsfritt bord. Fjädrarna har fjäderkonstanten 16 N/m var.</p><p>Klossen är fäst i en fjäder. Beräkna perioden.</p>",
+        "s": "<p>\\(T=2\\pi\\sqrt{\\dfrac{0{,}25}{16}}\\).</p><p><strong>Svar:</strong> \\(0{,}79\\) s</p>",
+        "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Klossen sitter mellan två fjädrar, en på varje sida. Beräkna perioden.",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kloss med massan 0,25 kg ligger på ett friktionsfritt bord. Fjädrarna har fjäderkonstanten 16 N/m var.</p><p>Klossen sitter mellan två fjädrar, en på varje sida. Beräkna perioden.</p>",
+        "s": "<p>Båda fjädrarna drar tillbaka: \\(k=32\\) N/m.</p><p><strong>Svar:</strong> \\(0{,}56\\) s</p>",
+        "ledtrad": "<p>Vilken total fjäderkonstant verkar på klossen?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Klossen hänger i två seriekopplade fjädrar. Beräkna perioden.",
+        "t": "<p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>En kloss med massan 0,25 kg ligger på ett friktionsfritt bord. Fjädrarna har fjäderkonstanten 16 N/m var.</p><p>Klossen hänger i två seriekopplade fjädrar. Beräkna perioden.</p>",
+        "s": "<p>I serie: \\(k=8{,}0\\) N/m.</p><p><strong>Svar:</strong> \\(1{,}1\\) s</p>",
+        "ledtrad": "<p>Seriekoppling halverar fjäderkonstanten för två lika fjädrar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Bestäm den sammanlagda fjäderkonstanten.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
     "id": "2.31",
     "kap": 2,
     "omr": "pendlar",
@@ -23250,6 +24316,1349 @@ window.BANK2 = [
     ],
     "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
     "ledtrad": "<p>Beräkna först seriekopplingens effektiva fjäderkonstant och använd sedan \\(mg=kx\\).</p>"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "handtränare",
+    "poang": "(1/0/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>För att trycka ihop fjädern i en handtränare 1,91 cm krävs kraften 89,0 N. Vilken kraft krävs för att trycka ihop den 5,08 cm?</p>",
+    "s": "<p>Kraften är proportionell mot hoptryckningen: \\(89{,}0\\cdot\\dfrac{5{,}08}{1{,}91}\\).</p><p><strong>Svar:</strong> \\(237\\) N</p>",
+    "id": "2.437",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "numeriskt",
+    "rättSvar": 236.71204188481676,
+    "tolerans": 3.55,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hookes lag.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "bräda i fjäder",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En 30 cm lång fjäder hänger i taket i ett rum som är 2,44 m högt. I fjädern hängs en 1,98 m lång bräda med massan 11,0 kg. Brädans nedre ände snuddar precis golvet. Beräkna fjäderkonstanten.</p>",
+    "s": "<p>Fjäderns längd blir \\(2{,}44-1{,}98=0{,}46\\) m, alltså förlängningen 0,16 m. \\(k=\\dfrac{11{,}0\\cdot9{,}82}{0{,}16}\\).</p><p><strong>Svar:</strong> \\(675\\) N/m</p>",
+    "id": "2.438",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "numeriskt",
+    "rättSvar": 675.125,
+    "tolerans": 10.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm förlängningen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N/m",
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "sten på bilfjäder",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En sten med massan 4,25 kg läggs på en spiralfjäder som då trycks ihop 2,62 cm. Beräkna fjäderkonstanten.</p>",
+    "s": "<p>\\(k=\\dfrac{4{,}25\\cdot9{,}82}{0{,}0262}\\).</p><p><strong>Svar:</strong> \\(1\\,593\\) N/m</p>",
+    "id": "2.439",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1592.9389312977098,
+    "tolerans": 23.9,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kraften är stenens tyngd.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N/m",
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "personvåg",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En personvåg är en fjäder. Oskar har tyngden 670 N och trycker ihop fjädern 0,79 cm.</p><ol type=\"a\"><li>Beräkna fjäderkonstanten.</li><li>Stina trycker ihop fjädern 0,34 cm. Vilken massa har hon?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=\\dfrac{670}{0{,}0079}\\).</p><p><strong>Svar:</strong> \\(84\\,810\\) N/m</p></li><li><p>\\(m=\\dfrac{kx}{g}=\\dfrac{670}{0{,}79}\\cdot\\dfrac{0{,}34}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(29\\) kg</p></li></ol>",
+    "id": "2.440",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      84810.12658227848,
+      29.36399494702106
+    ],
+    "tolerans": [
+      1270.0,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En personvåg är en fjäder. Oskar har tyngden 670 N och trycker ihop fjädern 0,79 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna fjäderkonstanten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En personvåg är en fjäder. Oskar har tyngden 670 N och trycker ihop fjädern 0,79 cm.</p><p>Beräkna fjäderkonstanten.</p>",
+        "s": "<p>\\(k=\\dfrac{670}{0{,}0079}\\).</p><p><strong>Svar:</strong> \\(84\\,810\\) N/m</p>",
+        "ledtrad": "<p>\\(F=kx\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Stina trycker ihop fjädern 0,34 cm. Vilken massa har hon?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En personvåg är en fjäder. Oskar har tyngden 670 N och trycker ihop fjädern 0,79 cm.</p>Fjäderkonstanten är \\(8{,}5\\cdot10^4\\) N/m.<p>Stina trycker ihop fjädern 0,34 cm. Vilken massa har hon?</p>",
+        "s": "<p>\\(m=\\dfrac{kx}{g}=\\dfrac{670}{0{,}79}\\cdot\\dfrac{0{,}34}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(29\\) kg</p>",
+        "ledtrad": "<p>Bestäm kraften och dela med \\(g\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F=kx\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "gummiband som fjäder",
+    "poang": "(0/1/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>Ett gummiband blir 61 cm långt med kraften 75 N och 85 cm långt med kraften 210 N. Vilken fjäderkonstant har det, om det beter sig som en fjäder?</p>",
+    "s": "<p>\\(k=\\dfrac{\\Delta F}{\\Delta x}=\\dfrac{210-75}{0{,}85-0{,}61}\\).</p><p><strong>Svar:</strong> \\(562\\) N/m</p>",
+    "id": "2.441",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "numeriskt",
+    "rättSvar": 562.5,
+    "tolerans": 8.44,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd skillnaderna i kraft och längd.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N/m",
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "tre gånger förlängningen",
+    "poang": "(1/0/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,70 kg hängs i en fjäder. En andra vikt hängs under den första, och då blir förlängningen tre gånger så stor. Vilken massa har den andra vikten?</p>",
+    "s": "<p>Tre gånger förlängningen kräver tre gånger tyngden: totalt 2,1 kg, alltså \\(2{,}1-0{,}70\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) kg</p>",
+    "id": "2.442",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förlängningen är proportionell mot tyngden.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "fjädrar i serie och parallellt",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,100 kg förlänger en fjäder 5,00 cm.</p><ol type=\"a\"><li>Beräkna fjäderkonstanten.</li><li>Två likadana fjädrar seriekopplas och vikten hängs i dem. Hur stor blir den sammanlagda förlängningen?</li><li>Hur stor är den sammanlagda fjäderkonstanten för de seriekopplade fjädrarna?</li><li>Fjädrarna kopplas i stället parallellt. Hur stor blir förlängningen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=\\dfrac{0{,}100\\cdot9{,}82}{0{,}0500}\\).</p><p><strong>Svar:</strong> \\(19{,}6\\) N/m</p></li><li><p>Båda fjädrarna bär hela tyngden och förlängs 5,00 cm var.</p><p><strong>Svar:</strong> \\(0{,}100\\) m</p></li><li><p>\\(k_s=\\dfrac{0{,}982}{0{,}100}\\).</p><p><strong>Svar:</strong> \\(9{,}82\\) N/m</p></li><li><p>Varje fjäder bär halva tyngden: \\(\\dfrac{5{,}00}{2}\\) cm.</p><p><strong>Svar:</strong> \\(0{,}0250\\) m</p></li></ol>",
+    "id": "2.443",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjädrar i serie och parallellt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      19.64,
+      0.1,
+      9.82,
+      0.025
+    ],
+    "tolerans": [
+      0.295,
+      0.0015,
+      0.147,
+      0.000375
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "m",
+      "N/m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,100 kg förlänger en fjäder 5,00 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna fjäderkonstanten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,100 kg förlänger en fjäder 5,00 cm.</p><p>Beräkna fjäderkonstanten.</p>",
+        "s": "<p>\\(k=\\dfrac{0{,}100\\cdot9{,}82}{0{,}0500}\\).</p><p><strong>Svar:</strong> \\(19{,}6\\) N/m</p>",
+        "ledtrad": "<p>\\(F=kx\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Två likadana fjädrar seriekopplas och vikten hängs i dem. Hur stor blir den sammanlagda förlängningen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,100 kg förlänger en fjäder 5,00 cm.</p><p>Två likadana fjädrar seriekopplas och vikten hängs i dem. Hur stor blir den sammanlagda förlängningen?</p>",
+        "s": "<p>Båda fjädrarna bär hela tyngden och förlängs 5,00 cm var.</p><p><strong>Svar:</strong> \\(0{,}100\\) m</p>",
+        "ledtrad": "<p>Vilken kraft verkar i varje fjäder?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är den sammanlagda fjäderkonstanten för de seriekopplade fjädrarna?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,100 kg förlänger en fjäder 5,00 cm.</p>Den sammanlagda förlängningen är 10,0 cm.<p>Hur stor är den sammanlagda fjäderkonstanten för de seriekopplade fjädrarna?</p>",
+        "s": "<p>\\(k_s=\\dfrac{0{,}982}{0{,}100}\\).</p><p><strong>Svar:</strong> \\(9{,}82\\) N/m</p>",
+        "ledtrad": "<p>Dela kraften med den totala förlängningen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Fjädrarna kopplas i stället parallellt. Hur stor blir förlängningen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,100 kg förlänger en fjäder 5,00 cm.</p><p>Fjädrarna kopplas i stället parallellt. Hur stor blir förlängningen?</p>",
+        "s": "<p>Varje fjäder bär halva tyngden: \\(\\dfrac{5{,}00}{2}\\) cm.</p><p><strong>Svar:</strong> \\(0{,}0250\\) m</p>",
+        "ledtrad": "<p>Hur fördelas tyngden?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>I serie: samma kraft i varje fjäder. Parallellt: samma förlängning.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallellt"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "A",
+    "typ": "delad fjäder",
+    "poang": "(0/1/1)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt förlänger en fjäder 0,160 m. Fjädern delas i två lika långa bitar, och vikten hängs i båda bitarna bredvid varandra. Hur mycket förlängs varje bit?</p>",
+    "s": "<p>En halv fjäder har dubbla fjäderkonstanten. Två halvor parallellt ger \\(4k\\), så förlängningen blir \\(\\dfrac{0{,}160}{4}\\).</p><p><strong>Svar:</strong> \\(0{,}040\\) m</p>",
+    "id": "2.444",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjädrar i serie och parallellt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.04,
+    "tolerans": 0.0006,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken fjäderkonstant har en halv fjäder?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallellt"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "järnklotets radie",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>Ett järnklot hängs i en fjäder med fjäderkonstanten 47,5 N/m som då förlängs 5,00 cm. Järn har densiteten 7,87 g/cm³. Vilken radie har klotet?</p>",
+    "s": "<p>\\(m=\\dfrac{kx}{g}\\approx0{,}242\\) kg. \\(V=\\dfrac{m}{\\rho}\\approx3{,}07\\cdot10^{-5}\\) m³. \\(r=\\sqrt[3]{\\dfrac{3V}{4\\pi}}\\).</p><p><strong>Svar:</strong> \\(0{,}0194\\) m</p>",
+    "id": "2.445",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.019431049651108975,
+    "tolerans": 0.000291,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm massan och sedan volymen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "bilens fjädring",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En familj med den totala massan 200 kg sätter sig i en bil, och fjädringen trycks ihop 3,0 cm. Se fjädringen som en enda fjäder.</p><ol type=\"a\"><li>Beräkna fjäderkonstanten.</li><li>Hur mycket mer trycks fjädringen ihop om de även lastar 100 kg bagage?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=\\dfrac{200\\cdot9{,}82}{0{,}030}\\).</p><p><strong>Svar:</strong> \\(65\\,467\\) N/m</p></li><li><p>Halva familjens massa ger halva hoptryckningen: \\(\\dfrac{3{,}0}{2}\\) cm.</p><p><strong>Svar:</strong> \\(0{,}015\\) m</p></li></ol>",
+    "id": "2.446",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      65466.66666666667,
+      0.015
+    ],
+    "tolerans": [
+      982.0,
+      0.00051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En familj med den totala massan 200 kg sätter sig i en bil, och fjädringen trycks ihop 3,0 cm. Se fjädringen som en enda fjäder.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna fjäderkonstanten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En familj med den totala massan 200 kg sätter sig i en bil, och fjädringen trycks ihop 3,0 cm. Se fjädringen som en enda fjäder.</p><p>Beräkna fjäderkonstanten.</p>",
+        "s": "<p>\\(k=\\dfrac{200\\cdot9{,}82}{0{,}030}\\).</p><p><strong>Svar:</strong> \\(65\\,467\\) N/m</p>",
+        "ledtrad": "<p>Det är familjens tyngd som ger hoptryckningen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket mer trycks fjädringen ihop om de även lastar 100 kg bagage?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En familj med den totala massan 200 kg sätter sig i en bil, och fjädringen trycks ihop 3,0 cm. Se fjädringen som en enda fjäder.</p><p>Hur mycket mer trycks fjädringen ihop om de även lastar 100 kg bagage?</p>",
+        "s": "<p>Halva familjens massa ger halva hoptryckningen: \\(\\dfrac{3{,}0}{2}\\) cm.</p><p><strong>Svar:</strong> \\(0{,}015\\) m</p>",
+        "ledtrad": "<p>Hookes lag är linjär.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F=kx\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "förlängning ur lagrad energi",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En 12,0 cm lång fjäder blir 13,40 cm lång när en vikt med massan 3,15 kg hängs i den. Hur mycket är fjädern förlängd när den lagrar energin 10,0 J?</p>",
+    "s": "<p>\\(k=\\dfrac{3{,}15\\cdot9{,}82}{0{,}0140}\\approx2\\,210\\) N/m. \\(x=\\sqrt{\\dfrac{2E}{k}}\\).</p><p><strong>Svar:</strong> \\(0{,}0951\\) m</p>",
+    "id": "2.447",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.09514106200328501,
+    "tolerans": 0.00143,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm fjäderkonstanten först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "energi i utdragen fjäder",
+    "poang": "(2/0/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En fjäder förlängs 0,200 m av kraften 800 N.</p><ol type=\"a\"><li>Hur stor energi är lagrad i fjädern?</li><li>Hur stor energi lagras om fjädern i stället trycks ihop 5,00 cm?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac{Fx}{2}=\\dfrac{800\\cdot0{,}200}{2}\\).</p><p><strong>Svar:</strong> \\(80\\) J</p></li><li><p>\\(k=4\\,000\\) N/m. \\(E=\\dfrac{4\\,000\\cdot0{,}0500^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) J</p></li></ol>",
+    "id": "2.448",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      80,
+      5
+    ],
+    "tolerans": [
+      1.2,
+      0.075
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En fjäder förlängs 0,200 m av kraften 800 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor energi är lagrad i fjädern?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En fjäder förlängs 0,200 m av kraften 800 N.</p><p>Hur stor energi är lagrad i fjädern?</p>",
+        "s": "<p>\\(E=\\dfrac{Fx}{2}=\\dfrac{800\\cdot0{,}200}{2}\\).</p><p><strong>Svar:</strong> \\(80\\) J</p>",
+        "ledtrad": "<p>\\(E_p=\\dfrac{kx^2}{2}=\\dfrac{Fx}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor energi lagras om fjädern i stället trycks ihop 5,00 cm?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En fjäder förlängs 0,200 m av kraften 800 N.</p><p>Hur stor energi lagras om fjädern i stället trycks ihop 5,00 cm?</p>",
+        "s": "<p>\\(k=4\\,000\\) N/m. \\(E=\\dfrac{4\\,000\\cdot0{,}0500^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) J</p>",
+        "ledtrad": "<p>Bestäm fjäderkonstanten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_p=\\dfrac{kx^2}{2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "sena som fjäder",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En sena kan ses som en fjäder. En vikt på 250 g förlänger en sena 1,23 cm.</p><ol type=\"a\"><li>Beräkna senans fjäderkonstant.</li><li>En sena tål högst 138 N. Hur långt förlängs den innan den går av?</li><li>Hur mycket energi är då lagrad i senan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=\\dfrac{0{,}250\\cdot9{,}82}{0{,}0123}\\).</p><p><strong>Svar:</strong> \\(200\\) N/m</p></li><li><p>\\(x=\\dfrac{138}{200}\\).</p><p><strong>Svar:</strong> \\(0{,}691\\) m</p></li><li><p>\\(E=\\dfrac{Fx}{2}=\\dfrac{138\\cdot0{,}691}{2}\\).</p><p><strong>Svar:</strong> \\(47{,}7\\) J</p></li></ol>",
+    "id": "2.449",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      199.59349593495935,
+      0.6914052953156823,
+      47.70696537678208
+    ],
+    "tolerans": [
+      2.99,
+      0.0104,
+      0.716
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "m",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En sena kan ses som en fjäder. En vikt på 250 g förlänger en sena 1,23 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna senans fjäderkonstant.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En sena kan ses som en fjäder. En vikt på 250 g förlänger en sena 1,23 cm.</p><p>Beräkna senans fjäderkonstant.</p>",
+        "s": "<p>\\(k=\\dfrac{0{,}250\\cdot9{,}82}{0{,}0123}\\).</p><p><strong>Svar:</strong> \\(200\\) N/m</p>",
+        "ledtrad": "<p>\\(F=kx\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En sena tål högst 138 N. Hur långt förlängs den innan den går av?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En sena kan ses som en fjäder. En vikt på 250 g förlänger en sena 1,23 cm.</p>Senans fjäderkonstant är 200 N/m.<p>En sena tål högst 138 N. Hur långt förlängs den innan den går av?</p>",
+        "s": "<p>\\(x=\\dfrac{138}{200}\\).</p><p><strong>Svar:</strong> \\(0{,}691\\) m</p>",
+        "ledtrad": "<p>\\(x=\\dfrac Fk\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket energi är då lagrad i senan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En sena kan ses som en fjäder. En vikt på 250 g förlänger en sena 1,23 cm.</p>Senans fjäderkonstant är 200 N/m.<p>Hur mycket energi är då lagrad i senan?</p>",
+        "s": "<p>\\(E=\\dfrac{Fx}{2}=\\dfrac{138\\cdot0{,}691}{2}\\).</p><p><strong>Svar:</strong> \\(47{,}7\\) J</p>",
+        "ledtrad": "<p>\\(E_p=\\dfrac{kx^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F=kx\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "slangbella",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Oskar skjuter en 20,0 g tung sten rakt upp med en slangbella. Stenen når 22,0 m över slangbellan. Se slangbellan som en fjäder.</p><ol type=\"a\"><li>Hur stor energi var lagrad i slangbellan?</li><li>Han drar ut slangbellan lika mycket men skjuter en sten som väger 25,0 g. Hur högt når den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=mgh=0{,}0200\\cdot9{,}82\\cdot22{,}0\\).</p><p><strong>Svar:</strong> \\(4{,}32\\) J</p></li><li><p>\\(h=\\dfrac{E}{mg}=22{,}0\\cdot\\dfrac{20{,}0}{25{,}0}\\).</p><p><strong>Svar:</strong> \\(17{,}6\\) m</p></li></ol>",
+    "id": "2.450",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.3208,
+      17.6
+    ],
+    "tolerans": [
+      0.0648,
+      0.264
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Oskar skjuter en 20,0 g tung sten rakt upp med en slangbella. Stenen når 22,0 m över slangbellan. Se slangbellan som en fjäder.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor energi var lagrad i slangbellan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Oskar skjuter en 20,0 g tung sten rakt upp med en slangbella. Stenen når 22,0 m över slangbellan. Se slangbellan som en fjäder.</p><p>Hur stor energi var lagrad i slangbellan?</p>",
+        "s": "<p>\\(E=mgh=0{,}0200\\cdot9{,}82\\cdot22{,}0\\).</p><p><strong>Svar:</strong> \\(4{,}32\\) J</p>",
+        "ledtrad": "<p>All fjäderenergi blir lägesenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Han drar ut slangbellan lika mycket men skjuter en sten som väger 25,0 g. Hur högt når den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Oskar skjuter en 20,0 g tung sten rakt upp med en slangbella. Stenen når 22,0 m över slangbellan. Se slangbellan som en fjäder.</p><p>Han drar ut slangbellan lika mycket men skjuter en sten som väger 25,0 g. Hur högt når den?</p>",
+        "s": "<p>\\(h=\\dfrac{E}{mg}=22{,}0\\cdot\\dfrac{20{,}0}{25{,}0}\\).</p><p><strong>Svar:</strong> \\(17{,}6\\) m</p>",
+        "ledtrad": "<p>Samma energi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Energiprincipen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "vikt på bord med fjäder",
+    "poang": "(3/1/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,60 kg ligger på ett friktionsfritt bord och är fäst i en fjäder med fjäderkonstanten 130 N/m. Fjädern dras ut 13 cm och vikten släpps.</p><ol type=\"a\"><li>Hur stor är fjäderns energi precis innan vikten släpps?</li><li>Hur stor är accelerationen när vikten släpps?</li><li>Vilken fart har vikten när den passerar jämviktsläget?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac{130\\cdot0{,}13^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) J</p></li><li><p>\\(F=kx=130\\cdot0{,}13\\approx16{,}9\\) N. \\(a=\\dfrac{F}{m}\\).</p><p><strong>Svar:</strong> \\(28\\) m/s²</p></li><li><p>\\(\\dfrac{mv^2}{2}=1{,}1\\) J \\(\\iff v=\\sqrt{\\dfrac{2\\cdot1{,}1}{0{,}60}}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) m/s</p></li></ol>",
+    "id": "2.451",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0985,
+      28.16666666666667,
+      1.913548187704367
+    ],
+    "tolerans": [
+      0.051,
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "m/s²",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,60 kg ligger på ett friktionsfritt bord och är fäst i en fjäder med fjäderkonstanten 130 N/m. Fjädern dras ut 13 cm och vikten släpps.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är fjäderns energi precis innan vikten släpps?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,60 kg ligger på ett friktionsfritt bord och är fäst i en fjäder med fjäderkonstanten 130 N/m. Fjädern dras ut 13 cm och vikten släpps.</p><p>Hur stor är fjäderns energi precis innan vikten släpps?</p>",
+        "s": "<p>\\(E=\\dfrac{130\\cdot0{,}13^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) J</p>",
+        "ledtrad": "<p>\\(E_p=\\dfrac{kx^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är accelerationen när vikten släpps?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,60 kg ligger på ett friktionsfritt bord och är fäst i en fjäder med fjäderkonstanten 130 N/m. Fjädern dras ut 13 cm och vikten släpps.</p><p>Hur stor är accelerationen när vikten släpps?</p>",
+        "s": "<p>\\(F=kx=130\\cdot0{,}13\\approx16{,}9\\) N. \\(a=\\dfrac{F}{m}\\).</p><p><strong>Svar:</strong> \\(28\\) m/s²</p>",
+        "ledtrad": "<p>Newtons andra lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken fart har vikten när den passerar jämviktsläget?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,60 kg ligger på ett friktionsfritt bord och är fäst i en fjäder med fjäderkonstanten 130 N/m. Fjädern dras ut 13 cm och vikten släpps.</p>Den lagrade energin är 1,1 J.<p>Vilken fart har vikten när den passerar jämviktsläget?</p>",
+        "s": "<p>\\(\\dfrac{mv^2}{2}=1{,}1\\) J \\(\\iff v=\\sqrt{\\dfrac{2\\cdot1{,}1}{0{,}60}}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) m/s</p>",
+        "ledtrad": "<p>All fjäderenergi blir rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Mekanisk energi bevaras.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "leksakspistol",
+    "poang": "(1/1/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En leksakspistol skjuter 100 g tunga pilar. Fjädern med fjäderkonstanten 250 N/m trycks ihop 6,0 cm. Verkningsgraden är 80 %. Vilken fart får pilen?</p>",
+    "s": "<p>\\(E=\\dfrac{250\\cdot0{,}060^2}{2}=0{,}45\\) J. \\(0{,}80\\cdot0{,}45=\\dfrac{0{,}100v^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) m/s</p>",
+    "id": "2.452",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.6832815729997477,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>80 % av fjäderenergin blir rörelseenergi.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "pilbåge",
+    "poang": "(3/1/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En pilbåge följer Hookes lag. Det krävs kraften 300 N för att spänna den 0,60 m.</p><ol type=\"a\"><li>Hur stor fjäderkonstant har bågen?</li><li>Hur stort arbete krävs för att spänna bågen?</li><li>En pil med massan 30 g får 75 % av den lagrade energin. Vilken fart får pilen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=\\dfrac{300}{0{,}60}\\).</p><p><strong>Svar:</strong> \\(500\\) N/m</p></li><li><p>\\(W=\\dfrac{kx^2}{2}=\\dfrac{500\\cdot0{,}60^2}{2}\\).</p><p><strong>Svar:</strong> \\(90\\) J</p></li><li><p>\\(0{,}75\\cdot90=\\dfrac{0{,}030v^2}{2}\\).</p><p><strong>Svar:</strong> \\(67\\) m/s</p></li></ol>",
+    "id": "2.453",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      500,
+      90,
+      67.08203932499369
+    ],
+    "tolerans": [
+      7.5,
+      1.35,
+      1.01
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "J",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En pilbåge följer Hookes lag. Det krävs kraften 300 N för att spänna den 0,60 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor fjäderkonstant har bågen?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En pilbåge följer Hookes lag. Det krävs kraften 300 N för att spänna den 0,60 m.</p><p>Hur stor fjäderkonstant har bågen?</p>",
+        "s": "<p>\\(k=\\dfrac{300}{0{,}60}\\).</p><p><strong>Svar:</strong> \\(500\\) N/m</p>",
+        "ledtrad": "<p>\\(F=kx\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stort arbete krävs för att spänna bågen?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En pilbåge följer Hookes lag. Det krävs kraften 300 N för att spänna den 0,60 m.</p><p>Hur stort arbete krävs för att spänna bågen?</p>",
+        "s": "<p>\\(W=\\dfrac{kx^2}{2}=\\dfrac{500\\cdot0{,}60^2}{2}\\).</p><p><strong>Svar:</strong> \\(90\\) J</p>",
+        "ledtrad": "<p>Arbetet blir lagrad energi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En pil med massan 30 g får 75 % av den lagrade energin. Vilken fart får pilen?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En pilbåge följer Hookes lag. Det krävs kraften 300 N för att spänna den 0,60 m.</p>Den lagrade energin är 90 J.<p>En pil med massan 30 g får 75 % av den lagrade energin. Vilken fart får pilen?</p>",
+        "s": "<p>\\(0{,}75\\cdot90=\\dfrac{0{,}030v^2}{2}\\).</p><p><strong>Svar:</strong> \\(67\\) m/s</p>",
+        "ledtrad": "<p>Energiprincipen.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_p=\\dfrac{kx^2}{2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "fart vid olika lägen",
+    "poang": "(1/2/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,200 kg ligger på ett friktionsfritt bord, fäst i en fjäder med fjäderkonstanten 5,00 N/m. Fjädern dras ut 0,100 m från jämviktsläget och vikten släpps.</p><ol type=\"a\"><li>Vilken fart har vikten 0,080 m från jämviktsläget?</li><li>Vilken fart har vikten i jämviktsläget?</li><li>Hur långt skulle vikten ha dragits ut för att få farten 2,50 m/s i jämviktsläget?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{k(A^2-x^2)}{2}=\\dfrac{mv^2}{2}\\iff v=\\sqrt{\\dfrac{5{,}00(0{,}100^2-0{,}080^2)}{0{,}200}}\\).</p><p><strong>Svar:</strong> \\(0{,}30\\) m/s</p></li><li><p>\\(v=\\sqrt{\\dfrac{5{,}00\\cdot0{,}100^2}{0{,}200}}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m/s</p></li><li><p>\\(A=v\\sqrt{\\dfrac mk}=2{,}50\\sqrt{\\dfrac{0{,}200}{5{,}00}}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m</p></li></ol>",
+    "id": "2.454",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.3,
+      0.5,
+      0.5
+    ],
+    "tolerans": [
+      0.0051,
+      0.0075,
+      0.0075
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,200 kg ligger på ett friktionsfritt bord, fäst i en fjäder med fjäderkonstanten 5,00 N/m. Fjädern dras ut 0,100 m från jämviktsläget och vikten släpps.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har vikten 0,080 m från jämviktsläget?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,200 kg ligger på ett friktionsfritt bord, fäst i en fjäder med fjäderkonstanten 5,00 N/m. Fjädern dras ut 0,100 m från jämviktsläget och vikten släpps.</p><p>Vilken fart har vikten 0,080 m från jämviktsläget?</p>",
+        "s": "<p>\\(\\dfrac{k(A^2-x^2)}{2}=\\dfrac{mv^2}{2}\\iff v=\\sqrt{\\dfrac{5{,}00(0{,}100^2-0{,}080^2)}{0{,}200}}\\).</p><p><strong>Svar:</strong> \\(0{,}30\\) m/s</p>",
+        "ledtrad": "<p>Skillnaden i fjäderenergi blir rörelseenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har vikten i jämviktsläget?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,200 kg ligger på ett friktionsfritt bord, fäst i en fjäder med fjäderkonstanten 5,00 N/m. Fjädern dras ut 0,100 m från jämviktsläget och vikten släpps.</p><p>Vilken fart har vikten i jämviktsläget?</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{5{,}00\\cdot0{,}100^2}{0{,}200}}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m/s</p>",
+        "ledtrad": "<p>All fjäderenergi blir rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt skulle vikten ha dragits ut för att få farten 2,50 m/s i jämviktsläget?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 0,200 kg ligger på ett friktionsfritt bord, fäst i en fjäder med fjäderkonstanten 5,00 N/m. Fjädern dras ut 0,100 m från jämviktsläget och vikten släpps.</p><p>Hur långt skulle vikten ha dragits ut för att få farten 2,50 m/s i jämviktsläget?</p>",
+        "s": "<p>\\(A=v\\sqrt{\\dfrac mk}=2{,}50\\sqrt{\\dfrac{0{,}200}{5{,}00}}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m</p>",
+        "ledtrad": "<p>Lös ut utdragningen ur energiekvationen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Mekanisk energi bevaras.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "största fart och acceleration",
+    "poang": "(1/1/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 2,5 kg pressas mot en fjäder med fjäderkonstanten 2 500 N/m på ett friktionsfritt bord. Fjädern lagrar energin 11,5 J när vikten släpps.</p><ol type=\"a\"><li>Bestäm viktens största fart.</li><li>Bestäm viktens största acceleration.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{\\dfrac{2\\cdot11{,}5}{2{,}5}}\\). Den nås när fjädern har sin naturliga längd.</p><p><strong>Svar:</strong> \\(3{,}0\\) m/s</p></li><li><p>\\(x=\\sqrt{\\dfrac{2\\cdot11{,}5}{2\\,500}}\\approx0{,}096\\) m. \\(a=\\dfrac{kx}{m}\\), precis när vikten släpps.</p><p><strong>Svar:</strong> \\(96\\) m/s²</p></li></ol>",
+    "id": "2.455",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.03315017762062,
+      95.91663046625439
+    ],
+    "tolerans": [
+      0.051,
+      1.44
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 2,5 kg pressas mot en fjäder med fjäderkonstanten 2 500 N/m på ett friktionsfritt bord. Fjädern lagrar energin 11,5 J när vikten släpps.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm viktens största fart.",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 2,5 kg pressas mot en fjäder med fjäderkonstanten 2 500 N/m på ett friktionsfritt bord. Fjädern lagrar energin 11,5 J när vikten släpps.</p><p>Bestäm viktens största fart.</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2\\cdot11{,}5}{2{,}5}}\\). Den nås när fjädern har sin naturliga längd.</p><p><strong>Svar:</strong> \\(3{,}0\\) m/s</p>",
+        "ledtrad": "<p>All energi blir rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm viktens största acceleration.",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En vikt med massan 2,5 kg pressas mot en fjäder med fjäderkonstanten 2 500 N/m på ett friktionsfritt bord. Fjädern lagrar energin 11,5 J när vikten släpps.</p><p>Bestäm viktens största acceleration.</p>",
+        "s": "<p>\\(x=\\sqrt{\\dfrac{2\\cdot11{,}5}{2\\,500}}\\approx0{,}096\\) m. \\(a=\\dfrac{kx}{m}\\), precis när vikten släpps.</p><p><strong>Svar:</strong> \\(96\\) m/s²</p>",
+        "ledtrad": "<p>Accelerationen är störst där fjäderkraften är störst.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Mekanisk energi bevaras.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "A",
+    "typ": "bok på fjäder",
+    "poang": "(1/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En fjäder med försumbar massa har fjäderkonstanten 1 600 N/m.</p><ol type=\"a\"><li>Hur mycket ska den tryckas ihop för att lagra energin 3,20 J?</li><li>Fjädern står lodrätt på golvet. En bok med massan 1,20 kg släpps 0,80 m ovanför fjäderns topp. Hur mycket trycks fjädern ihop som mest?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(x=\\sqrt{\\dfrac{2\\cdot3{,}20}{1\\,600}}\\).</p><p><strong>Svar:</strong> \\(0{,}0632\\) m</p></li><li><p>Boken faller \\(0{,}80+x\\): \\(1{,}20\\cdot9{,}82(0{,}80+x)=\\dfrac{1\\,600x^2}{2}\\). Andragradsekvationen ger den positiva roten.</p><p><strong>Svar:</strong> \\(0{,}116\\) m</p></li></ol>",
+    "id": "2.456",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.06324555320336758,
+      0.11616869122874464
+    ],
+    "tolerans": [
+      0.000949,
+      0.00174
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En fjäder med försumbar massa har fjäderkonstanten 1 600 N/m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket ska den tryckas ihop för att lagra energin 3,20 J?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En fjäder med försumbar massa har fjäderkonstanten 1 600 N/m.</p><p>Hur mycket ska den tryckas ihop för att lagra energin 3,20 J?</p>",
+        "s": "<p>\\(x=\\sqrt{\\dfrac{2\\cdot3{,}20}{1\\,600}}\\).</p><p><strong>Svar:</strong> \\(0{,}0632\\) m</p>",
+        "ledtrad": "<p>\\(E_p=\\dfrac{kx^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Fjädern står lodrätt på golvet. En bok med massan 1,20 kg släpps 0,80 m ovanför fjäderns topp. Hur mycket trycks fjädern ihop som mest?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En fjäder med försumbar massa har fjäderkonstanten 1 600 N/m.</p><p>Fjädern står lodrätt på golvet. En bok med massan 1,20 kg släpps 0,80 m ovanför fjäderns topp. Hur mycket trycks fjädern ihop som mest?</p>",
+        "s": "<p>Boken faller \\(0{,}80+x\\): \\(1{,}20\\cdot9{,}82(0{,}80+x)=\\dfrac{1\\,600x^2}{2}\\). Andragradsekvationen ger den positiva roten.</p><p><strong>Svar:</strong> \\(0{,}116\\) m</p>",
+        "ledtrad": "<p>Glöm inte att boken faller även medan fjädern trycks ihop.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Energiprincipen.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "friktionstal mot vägg",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En kloss med massan 1,60 kg pressas mot en lodrät vägg med en fjäder (fjäderkonstanten 510 N/m) som är vinkelrät mot väggen. Klossen slutar precis glida nedåt när fjädern är hoptryckt 3,9 cm. Bestäm friktionstalet.</p>",
+    "s": "<p>Normalkraften är fjäderkraften \\(510\\cdot0{,}039\\approx19{,}9\\) N. Friktionen ska bära tyngden: \\(\\mu=\\dfrac{1{,}60\\cdot9{,}82}{19{,}9}\\).</p><p><strong>Svar:</strong> \\(0{,}79\\) </p>",
+    "id": "2.457",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.7899446958270488,
+    "tolerans": 0.0118,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken kraft är normalkraft här?</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "E",
+    "typ": "leksaksgevär",
+    "poang": "(2/0/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>Ett leksaksgevär har en fjäder med fjäderkonstanten 50,0 N/m som trycks ihop 15,0 cm. Det skjuter en kula med massan 2,0 g.</p><ol type=\"a\"><li>Hur stor energi är lagrad i fjädern?</li><li>Vilken fart får kulan? Bortse från friktion.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac{50{,}0\\cdot0{,}150^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}562\\) J</p></li><li><p>\\(v=\\sqrt{\\dfrac{2\\cdot0{,}5625}{0{,}0020}}\\).</p><p><strong>Svar:</strong> \\(23{,}7\\) m/s</p></li></ol>",
+    "id": "2.458",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5625,
+      23.717082451262844
+    ],
+    "tolerans": [
+      0.00844,
+      0.356
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>Ett leksaksgevär har en fjäder med fjäderkonstanten 50,0 N/m som trycks ihop 15,0 cm. Det skjuter en kula med massan 2,0 g.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor energi är lagrad i fjädern?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>Ett leksaksgevär har en fjäder med fjäderkonstanten 50,0 N/m som trycks ihop 15,0 cm. Det skjuter en kula med massan 2,0 g.</p><p>Hur stor energi är lagrad i fjädern?</p>",
+        "s": "<p>\\(E=\\dfrac{50{,}0\\cdot0{,}150^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}562\\) J</p>",
+        "ledtrad": "<p>\\(E_p=\\dfrac{kx^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart får kulan? Bortse från friktion.",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>Ett leksaksgevär har en fjäder med fjäderkonstanten 50,0 N/m som trycks ihop 15,0 cm. Det skjuter en kula med massan 2,0 g.</p>Den lagrade energin är 0,563 J.<p>Vilken fart får kulan? Bortse från friktion.</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2\\cdot0{,}5625}{0{,}0020}}\\).</p><p><strong>Svar:</strong> \\(23{,}7\\) m/s</p>",
+        "ledtrad": "<p>All energi blir rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Energiprincipen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "kloss i vila med fjäder",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En kloss med massan 0,80 kg ligger på ett bord och är fäst i en fjäder (59 N/m) som sitter i en vägg. Friktionstalet är 0,74. Hur långt kan man dra ut klossen så att den fortfarande ligger still när man släpper?</p>",
+    "s": "<p>Fjäderkraften får högst vara lika stor som största friktionskraften: \\(kx=\\mu mg\\iff x=\\dfrac{0{,}74\\cdot0{,}80\\cdot9{,}82}{59}\\).</p><p><strong>Svar:</strong> \\(0{,}099\\) m</p>",
+    "id": "2.459",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0985328813559322,
+    "tolerans": 0.00148,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför fjäderkraften med största friktionskraften.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "dra låda med fjäder",
+    "poang": "(0/2/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En låda med massan 7,00 kg dras på friktionsfri is med en vågrät fjäder (415 N/m). Den startar från vila och flyttas 4,00 m på 0,750 s med konstant acceleration. Hur mycket är fjädern förlängd?</p>",
+    "s": "<p>\\(a=\\dfrac{2s}{t^2}=\\dfrac{8{,}00}{0{,}750^2}\\approx14{,}2\\) m/s². \\(F=ma\\approx99{,}6\\) N. \\(x=\\dfrac{F}{k}\\).</p><p><strong>Svar:</strong> \\(0{,}240\\) m</p>",
+    "id": "2.460",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hookes lag och fjäderkonstant",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.2398929049531459,
+    "tolerans": 0.0036,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm accelerationen först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "fjadrar__hookes_lag_och_fjaderkonstant"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "kula fastnar i kloss med fjäder",
+    "poang": "(1/2/0)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En kula med massan 7,50 g och farten 495 m/s fastnar i en träkloss med massan 1,76 kg. Klossen ligger stilla på ett friktionsfritt underlag och är fäst i en fjäder med fjäderkonstanten 85,0 N/m.</p><ol type=\"a\"><li>Vilken fart har kula och kloss direkt efter träffen?</li><li>Hur mycket trycks fjädern ihop som mest?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Rörelsemängden bevaras: \\(v=\\dfrac{0{,}00750\\cdot495}{1{,}7675}\\).</p><p><strong>Svar:</strong> \\(2{,}10\\) m/s</p></li><li><p>\\(\\dfrac{1{,}7675v^2}{2}=\\dfrac{85{,}0x^2}{2}\\iff x=v\\sqrt{\\dfrac{1{,}7675}{85{,}0}}\\).</p><p><strong>Svar:</strong> \\(0{,}303\\) m</p></li></ol>",
+    "id": "2.461",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.1004243281471005,
+      0.30288466681416987
+    ],
+    "tolerans": [
+      0.0315,
+      0.00454
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En kula med massan 7,50 g och farten 495 m/s fastnar i en träkloss med massan 1,76 kg. Klossen ligger stilla på ett friktionsfritt underlag och är fäst i en fjäder med fjäderkonstanten 85,0 N/m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har kula och kloss direkt efter träffen?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En kula med massan 7,50 g och farten 495 m/s fastnar i en träkloss med massan 1,76 kg. Klossen ligger stilla på ett friktionsfritt underlag och är fäst i en fjäder med fjäderkonstanten 85,0 N/m.</p><p>Vilken fart har kula och kloss direkt efter träffen?</p>",
+        "s": "<p>Rörelsemängden bevaras: \\(v=\\dfrac{0{,}00750\\cdot495}{1{,}7675}\\).</p><p><strong>Svar:</strong> \\(2{,}10\\) m/s</p>",
+        "ledtrad": "<p>Använd rörelsemängdens bevarande.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket trycks fjädern ihop som mest?",
+        "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En kula med massan 7,50 g och farten 495 m/s fastnar i en träkloss med massan 1,76 kg. Klossen ligger stilla på ett friktionsfritt underlag och är fäst i en fjäder med fjäderkonstanten 85,0 N/m.</p>Direkt efter träffen är farten 2,10 m/s.<p>Hur mycket trycks fjädern ihop som mest?</p>",
+        "s": "<p>\\(\\dfrac{1{,}7675v^2}{2}=\\dfrac{85{,}0x^2}{2}\\iff x=v\\sqrt{\\dfrac{1{,}7675}{85{,}0}}\\).</p><p><strong>Svar:</strong> \\(0{,}303\\) m</p>",
+        "ledtrad": "<p>Rörelseenergin blir fjäderenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Stöten är inte elastisk, men efteråt bevaras mekanisk energi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "C",
+    "typ": "friktionstal ur glidsträcka",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>En kloss med massan 0,50 kg pressas mot en vågrät fjäder (100 N/m) så att den trycks ihop 0,20 m och släpps. Klossen glider 1,00 m från startpunkten innan den stannar. Bestäm friktionstalet.</p>",
+    "s": "<p>\\(\\dfrac{100\\cdot0{,}20^2}{2}=2{,}0\\) J \\(=\\mu mgs\\iff\\mu=\\dfrac{2{,}0}{0{,}50\\cdot9{,}82\\cdot1{,}00}\\).</p><p><strong>Svar:</strong> \\(0{,}41\\) </p>",
+    "id": "2.462",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.40733197556008144,
+    "tolerans": 0.00611,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fjäderenergin går åt till friktionsarbete.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "A",
+    "typ": "fjäder i hisschakt",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>Kabeln till en hiss med massan 2 000 kg går av. Nödbromsarna ger den konstanta bromskraften 17 kN. Hissen träffar en fjäder i botten med farten 4,00 m/s och stannar när fjädern tryckts ihop 2,00 m. Hur stor är fjäderkonstanten?</p>",
+    "s": "<p>\\(\\dfrac{mv^2}{2}+mgx=F_bx+\\dfrac{kx^2}{2}\\). \\(16\\,000+39\\,280=34\\,000+2k\\).</p><p><strong>Svar:</strong> \\(10\\,640\\) N/m</p>",
+    "id": "2.463",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10640.0,
+    "tolerans": 510.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp energin för inbromsningssträckan.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "N/m",
+    "familjNyckel": "fjadrar__fjaderenergi"
+  },
+  {
+    "kap": 2,
+    "omr": "fjadrar",
+    "niva": "A",
+    "typ": "kulans fart ur fjäderpendel",
+    "poang": "(0/1/2)",
+    "t": "<p>Hookes lag: \\(F=kx\\). Lagrad energi i en fjäder: \\(E_p=\\dfrac{kx^2}{2}\\).</p><p>Åke skjuter en kula med massan 7,870 g in i ett träblock med massan 4,148 kg som är fäst i en fjäder med fjäderkonstanten 162,7 N/m. Kulan fastnar och fjädern trycks ihop högst 9,460 cm. Vilken fart hade kulan? Bortse från friktion.</p>",
+    "s": "<p>Efter stöten: \\(v=x\\sqrt{\\dfrac kM}=0{,}09460\\sqrt{\\dfrac{162{,}7}{4{,}156}}\\approx0{,}592\\) m/s. Rörelsemängd: \\(v_0=\\dfrac{4{,}156\\cdot0{,}592}{0{,}00787}\\).</p><p><strong>Svar:</strong> \\(313\\) m/s</p>",
+    "id": "2.464",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 312.5655843498585,
+    "tolerans": 4.69,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Arbeta baklänges: först energi, sedan rörelsemängd.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s",
+    "familjNyckel": "fjadrar__fjaderenergi"
   },
   {
     "id": "2.175",
@@ -43167,6 +45576,827 @@ window.BANK2 = [
     "familjTidigare": [
       "Experiment, felberäkning och modellprövning"
     ]
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "E",
+    "typ": "pendel ur räknade svängningar",
+    "poang": "(2/0/0)",
+    "t": "<p>En pendel gör 28 hela svängningar på exakt 50 s.</p><ol type=\"a\"><li>Beräkna perioden.</li><li>Beräkna frekvensen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{50}{28}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) s</p></li><li><p>\\(f=\\dfrac{28}{50}\\).</p><p><strong>Svar:</strong> \\(0{,}56\\) Hz</p></li></ol>",
+    "id": "2.487",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Pendelns period",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.7857142857142858,
+      0.56
+    ],
+    "tolerans": [
+      0.051,
+      0.0084
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En pendel gör 28 hela svängningar på exakt 50 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna perioden.",
+        "t": "<p>En pendel gör 28 hela svängningar på exakt 50 s.</p><p>Beräkna perioden.</p>",
+        "s": "<p>\\(T=\\dfrac{50}{28}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) s</p>",
+        "ledtrad": "<p>Tiden delat med antal svängningar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna frekvensen.",
+        "t": "<p>En pendel gör 28 hela svängningar på exakt 50 s.</p><p>Beräkna frekvensen.</p>",
+        "s": "<p>\\(f=\\dfrac{28}{50}\\).</p><p><strong>Svar:</strong> \\(0{,}56\\) Hz</p>",
+        "ledtrad": "<p>Antal svängningar per sekund.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(f=\\dfrac1T\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "pendlar__pendelns_period"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "E",
+    "typ": "lampor som svänger",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Lampor hänger i 1,50 m långa sladdar och sätts i svängning av en sprängning.</p><ol type=\"a\"><li>Beräkna perioden.</li><li>Beräkna frekvensen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=2\\pi\\sqrt{\\dfrac{1{,}50}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(2{,}46\\) s</p></li><li><p>\\(f=\\dfrac1T\\).</p><p><strong>Svar:</strong> \\(0{,}407\\) Hz</p></li></ol>",
+    "id": "2.488",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Pendelns period",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.4556685826956173,
+      0.4072210749637428
+    ],
+    "tolerans": [
+      0.0368,
+      0.00611
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Lampor hänger i 1,50 m långa sladdar och sätts i svängning av en sprängning.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna perioden.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Lampor hänger i 1,50 m långa sladdar och sätts i svängning av en sprängning.</p><p>Beräkna perioden.</p>",
+        "s": "<p>\\(T=2\\pi\\sqrt{\\dfrac{1{,}50}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(2{,}46\\) s</p>",
+        "ledtrad": "<p>Plan pendel.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna frekvensen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Lampor hänger i 1,50 m långa sladdar och sätts i svängning av en sprängning.</p>Perioden är 2,46 s.<p>Beräkna frekvensen.</p>",
+        "s": "<p>\\(f=\\dfrac1T\\).</p><p><strong>Svar:</strong> \\(0{,}407\\) Hz</p>",
+        "ledtrad": "<p>\\(f=\\dfrac1T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "pendlar__pendelns_period"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "E",
+    "typ": "pendel i kyrktorn",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En liten vikt hänger i ett 10,0 m långt snöre i ett kyrktorn och svänger med små utslag. Vilken frekvens har svängningen?</p>",
+    "s": "<p>\\(T=2\\pi\\sqrt{\\dfrac{10{,}0}{9{,}82}}\\approx6{,}34\\) s. \\(f=\\dfrac1T\\).</p><p><strong>Svar:</strong> \\(0{,}158\\) Hz</p>",
+    "id": "2.489",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Pendelns period",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.15771604415592577,
+    "tolerans": 0.00237,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm perioden först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "pendlar__pendelns_period"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "E",
+    "typ": "klätterväggens höjd",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En klätterlina med karbinhakar i änden hänger från toppen av en klättervägg och svänger en hel gång på 6,5 s. Hur hög är väggen?</p>",
+    "s": "<p>\\(l=\\dfrac{gT^2}{4\\pi^2}=\\dfrac{9{,}82\\cdot6{,}5^2}{4\\pi^2}\\).</p><p><strong>Svar:</strong> \\(11\\) m</p>",
+    "id": "2.490",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Pendelns period",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.509413121821934,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(l\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "pendlar__pendelns_period"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "C",
+    "typ": "period vid ekvator och pol",
+    "poang": "(0/1/0)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Tyngdaccelerationen är 9,78 m/s² vid ekvatorn och 9,83 m/s² vid polerna. Hur mycket längre är perioden för en 2,00 m lång pendel vid ekvatorn? Svara i ms.</p>",
+    "s": "<p>\\(\\Delta T=2\\pi\\sqrt{2{,}00}\\left(\\dfrac1{\\sqrt{9{,}78}}-\\dfrac1{\\sqrt{9{,}83}}\\right)\\).</p><p><strong>Svar:</strong> \\(7{,}24\\) ms</p>",
+    "id": "2.491",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.235444931327439,
+    "tolerans": 0.109,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna med många decimaler.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "ms",
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "E",
+    "typ": "pendellängd ur svängningar",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel gör 25 hela svängningar på 32 s.</p><ol type=\"a\"><li>Bestäm perioden.</li><li>Bestäm pendelns längd.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{32}{25}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) s</p></li><li><p>\\(l=\\dfrac{9{,}82\\cdot1{,}28^2}{4\\pi^2}\\).</p><p><strong>Svar:</strong> \\(0{,}41\\) m</p></li></ol>",
+    "id": "2.492",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Pendelns period",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.28,
+      0.40754135997143326
+    ],
+    "tolerans": [
+      0.051,
+      0.00611
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel gör 25 hela svängningar på 32 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm perioden.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel gör 25 hela svängningar på 32 s.</p><p>Bestäm perioden.</p>",
+        "s": "<p>\\(T=\\dfrac{32}{25}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) s</p>",
+        "ledtrad": "<p>Tiden delat med antal svängningar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm pendelns längd.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel gör 25 hela svängningar på 32 s.</p>Perioden är 1,28 s.<p>Bestäm pendelns längd.</p>",
+        "s": "<p>\\(l=\\dfrac{9{,}82\\cdot1{,}28^2}{4\\pi^2}\\).</p><p><strong>Svar:</strong> \\(0{,}41\\) m</p>",
+        "ledtrad": "<p>Lös ut \\(l\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "pendlar__pendelns_period"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "E",
+    "typ": "pendel för perioden 2,0 s",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Hur lång ska en plan pendel vara för att perioden ska bli 2,0 s?</p>",
+    "s": "<p>\\(l=\\dfrac{9{,}82\\cdot2{,}0^2}{4\\pi^2}\\).</p><p><strong>Svar:</strong> \\(0{,}99\\) m</p>",
+    "id": "2.493",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Pendelns period",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.994974023367757,
+    "tolerans": 0.0149,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(l\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "pendlar__pendelns_period"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "E",
+    "typ": "vad påverkar pendelns period",
+    "poang": "(3/0/0)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel har perioden 4,00 s. Vilken blir perioden om</p><ol type=\"a\"><li>massan fördubblas?</li><li>längden fördubblas?</li><li>längden halveras?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Perioden beror inte på massan.</p><p><strong>Svar:</strong> \\(4{,}00\\) s</p></li><li><p>\\(4{,}00\\sqrt2\\).</p><p><strong>Svar:</strong> \\(5{,}66\\) s</p></li><li><p>\\(\\dfrac{4{,}00}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(2{,}83\\) s</p></li></ol>",
+    "id": "2.494",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Pendelns period",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      5.656854249492381,
+      2.82842712474619
+    ],
+    "tolerans": [
+      0.06,
+      0.0849,
+      0.0424
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel har perioden 4,00 s. Vilken blir perioden om</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "massan fördubblas?",
+        "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel har perioden 4,00 s. Vilken blir perioden om</p><p>massan fördubblas?</p>",
+        "s": "<p>Perioden beror inte på massan.</p><p><strong>Svar:</strong> \\(4{,}00\\) s</p>",
+        "ledtrad": "<p>Finns massan i formeln?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "längden fördubblas?",
+        "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel har perioden 4,00 s. Vilken blir perioden om</p><p>längden fördubblas?</p>",
+        "s": "<p>\\(4{,}00\\sqrt2\\).</p><p><strong>Svar:</strong> \\(5{,}66\\) s</p>",
+        "ledtrad": "<p>\\(T\\sim\\sqrt l\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "längden halveras?",
+        "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel har perioden 4,00 s. Vilken blir perioden om</p><p>längden halveras?</p>",
+        "s": "<p>\\(\\dfrac{4{,}00}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(2{,}83\\) s</p>",
+        "ledtrad": "<p>\\(T\\sim\\sqrt l\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "pendlar__pendelns_period"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "C",
+    "typ": "sekundpendel i Tokyo och Cambridge",
+    "poang": "(0/1/0)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En sekundpendel har perioden 2,00 s. Den är 0,9927 m lång i Tokyo och 0,9942 m lång i Cambridge. Bestäm kvoten \\(\\dfrac{g_{Tokyo}}{g_{Cambridge}}\\).</p>",
+    "s": "<p>Samma period ger \\(g\\sim l\\): \\(\\dfrac{0{,}9927}{0{,}9942}\\).</p><p><strong>Svar:</strong> \\(0{,}9985\\) </p>",
+    "id": "2.495",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.9984912492456247,
+    "tolerans": 0.0005,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur beror \\(g\\) på \\(l\\) vid samma period?</p>",
+    "traningsniva": 3,
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "E",
+    "typ": "tyngdacceleration på planet",
+    "poang": "(1/0/0)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>På en planet har en 2,20 m lång plan pendel perioden 2,87 s. Vilken tyngdacceleration har planeten?</p>",
+    "s": "<p>\\(g=\\dfrac{4\\pi^2l}{T^2}=\\dfrac{4\\pi^2\\cdot2{,}20}{2{,}87^2}\\).</p><p><strong>Svar:</strong> \\(10{,}5\\) m/s²</p>",
+    "id": "2.496",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.544321131686235,
+    "tolerans": 0.158,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(g\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "C",
+    "typ": "tyngdacceleration på Mars",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel har perioden 1,500 s på jorden och 2,450 s på Mars. Bestäm tyngdaccelerationen på Mars.</p>",
+    "s": "<p>\\(g\\sim\\dfrac{1}{T^2}\\): \\(g_M=9{,}82\\left(\\dfrac{1{,}500}{2{,}450}\\right)^2\\).</p><p><strong>Svar:</strong> \\(3{,}68\\) m/s²</p>",
+    "id": "2.497",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.680966264056642,
+    "tolerans": 0.0552,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma längd.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "C",
+    "typ": "pendel och fjäder på månen",
+    "poang": "(2/1/0)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Tyngdaccelerationen är 9,82 m/s² på jorden och 1,62 m/s² på månen.</p><ol type=\"a\"><li>Hur lång ska en plan pendel vara för att få perioden 1,0 s på jorden?</li><li>Hur lång ska den vara på månen?</li><li>Vilken massa ger perioden 1,0 s i en fjäder med fjäderkonstanten 10 N/m på månen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(l=\\dfrac{9{,}82\\cdot1{,}0^2}{4\\pi^2}\\).</p><p><strong>Svar:</strong> \\(0{,}249\\) m</p></li><li><p>\\(l=\\dfrac{1{,}62\\cdot1{,}0^2}{4\\pi^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0410\\) m</p></li><li><p>\\(m=\\dfrac{kT^2}{4\\pi^2}=\\dfrac{10\\cdot1{,}0^2}{4\\pi^2}\\), samma som på jorden.</p><p><strong>Svar:</strong> \\(0{,}253\\) kg</p></li></ol>",
+    "id": "2.498",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.24874350584193924,
+      0.041035079375146805,
+      0.25330295910584444
+    ],
+    "tolerans": [
+      0.00373,
+      0.000616,
+      0.0038
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Tyngdaccelerationen är 9,82 m/s² på jorden och 1,62 m/s² på månen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång ska en plan pendel vara för att få perioden 1,0 s på jorden?",
+        "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Tyngdaccelerationen är 9,82 m/s² på jorden och 1,62 m/s² på månen.</p><p>Hur lång ska en plan pendel vara för att få perioden 1,0 s på jorden?</p>",
+        "s": "<p>\\(l=\\dfrac{9{,}82\\cdot1{,}0^2}{4\\pi^2}\\).</p><p><strong>Svar:</strong> \\(0{,}249\\) m</p>",
+        "ledtrad": "<p>Lös ut \\(l\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång ska den vara på månen?",
+        "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Tyngdaccelerationen är 9,82 m/s² på jorden och 1,62 m/s² på månen.</p><p>Hur lång ska den vara på månen?</p>",
+        "s": "<p>\\(l=\\dfrac{1{,}62\\cdot1{,}0^2}{4\\pi^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0410\\) m</p>",
+        "ledtrad": "<p>Lös ut \\(l\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken massa ger perioden 1,0 s i en fjäder med fjäderkonstanten 10 N/m på månen?",
+        "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En massa \\(m\\) i en fjäder med fjäderkonstanten \\(k\\) svänger med perioden \\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p><p>Tyngdaccelerationen är 9,82 m/s² på jorden och 1,62 m/s² på månen.</p><p>Vilken massa ger perioden 1,0 s i en fjäder med fjäderkonstanten 10 N/m på månen?</p>",
+        "s": "<p>\\(m=\\dfrac{kT^2}{4\\pi^2}=\\dfrac{10\\cdot1{,}0^2}{4\\pi^2}\\), samma som på jorden.</p><p><strong>Svar:</strong> \\(0{,}253\\) kg</p>",
+        "ledtrad": "<p>Beror fjäderns period på \\(g\\)?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Pendelns period beror på \\(g\\), fjäderns inte.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "E",
+    "typ": "apa i lian",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En apa med massan 38 kg svänger i en lian med perioden 4,1 s. Hur lång är lianen?</p>",
+    "s": "<p>\\(l=\\dfrac{9{,}82\\cdot4{,}1^2}{4\\pi^2}\\). En tyngre apa ger samma period.</p><p><strong>Svar:</strong> \\(4{,}2\\) m</p>",
+    "id": "2.499",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Pendelns period",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.181378333202998,
+    "tolerans": 0.0627,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(l\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "pendlar__pendelns_period"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "C",
+    "typ": "pendel på Mars",
+    "poang": "(0/1/0)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En plan pendel har perioden 1,85 s på jorden. Vilken period får den på Mars, där tyngdaccelerationen är 37 % av jordens?</p>",
+    "s": "<p>\\(T\\sim\\dfrac1{\\sqrt g}\\): \\(\\dfrac{1{,}85}{\\sqrt{0{,}37}}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) s</p>",
+    "id": "2.500",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.04138126514911,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur beror \\(T\\) på \\(g\\)?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "s",
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "A",
+    "typ": "pendelur som går för sakta",
+    "poang": "(0/1/2)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Ett pendelur flyttar visaren en sekund per hel svängning. Med pendellängden 0,9930 m går uret 21 s för sakta per dygn. Hur mycket ska pendeln kortas? Svara i mm.</p>",
+    "s": "<p>Antalet svängningar är omvänt proportionellt mot \\(T\\sim\\sqrt l\\). \\(l=0{,}9930\\left(\\dfrac{86\\,400}{86\\,421}\\right)^2\\). Kortning: \\(0{,}9930-l\\).</p><p><strong>Svar:</strong> \\(0{,}48\\) mm</p>",
+    "id": "2.501",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4825324029356878,
+    "tolerans": 0.00724,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många svängningar ska pendeln göra per dygn?</p>",
+    "traningsniva": 5,
+    "svarEnhet": "mm",
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "A",
+    "typ": "pendelur i varmt rum",
+    "poang": "(0/1/1)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Ett pendelur går exakt rätt i ett kylrum. I ett varmare rum blir pendeln 50 ppm (miljondelar) längre. Hur många sekunder för sakta går uret per dygn?</p>",
+    "s": "<p>\\(T\\sim\\sqrt l\\) ökar med faktorn \\(\\sqrt{1{,}000050}\\). Uret visar \\(\\dfrac{86\\,400}{\\sqrt{1{,}000050}}\\) s per dygn.</p><p><strong>Svar:</strong> \\(2{,}2\\) s</p>",
+    "id": "2.502",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.1599190033839477,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uret visar en sekund per svängning.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "s",
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "A",
+    "typ": "pendelur flyttas från Rio",
+    "poang": "(0/1/1)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Ett pendelur går exakt rätt i Rio de Janeiro (\\(g=9{,}788\\) m/s²). Det flyttas till Amsterdam (\\(g=9{,}813\\) m/s²). Hur många sekunder för fort går uret per dygn?</p>",
+    "s": "<p>\\(T\\sim\\dfrac1{\\sqrt g}\\) blir kortare. Uret visar \\(86\\,400\\sqrt{\\dfrac{9{,}813}{9{,}788}}\\) s per dygn.</p><p><strong>Svar:</strong> \\(110\\) s</p>",
+    "id": "2.503",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 110.26882502549569,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uret visar en sekund per svängning.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "s",
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "A",
+    "typ": "pendelur flyttas till lägre g",
+    "poang": "(0/1/1)",
+    "t": "<p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>Ett pendelur med perioden 1,0000 s går rätt där \\(g=9{,}82\\) m/s². Det flyttas till en plats där \\(g=9{,}80\\) m/s². Hur många sekunder för sakta går uret per dygn?</p>",
+    "s": "<p>Ny period: \\(1{,}0000\\sqrt{\\dfrac{9{,}82}{9{,}80}}\\approx1{,}00102\\) s. Svängningar per dygn: \\(\\dfrac{86\\,400}{1{,}00102}\\). Skillnad mot 86 400.</p><p><strong>Svar:</strong> \\(88\\) s</p>",
+    "id": "2.504",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 88.02855061985007,
+    "tolerans": 1.32,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uret visar en sekund per svängning.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "s",
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "A",
+    "typ": "krafter och fart i pendel",
+    "poang": "(1/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En kula med massan 55 g hänger i ett 85 cm långt snöre. Den dras ut så att snöret bildar 12° med lodlinjen och släpps.</p><ol type=\"a\"><li>Beräkna perioden.</li><li>Beräkna accelerationen i ögonblicket kulan släpps.</li><li>Bestäm farten i banans lägsta punkt.</li><li>Bestäm spännkraften i snöret i lägsta punkten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=2\\pi\\sqrt{\\dfrac{0{,}85}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) s</p></li><li><p>Farten är noll, så bara tangentiell acceleration: \\(a=g\\sin12^\\circ\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s²</p></li><li><p>Höjdskillnad: \\(0{,}85(1-\\cos12^\\circ)\\). \\(v=\\sqrt{2gh}\\).</p><p><strong>Svar:</strong> \\(0{,}60\\) m/s</p></li><li><p>\\(F_S=m\\left(g+\\dfrac{v^2}{l}\\right)=0{,}055\\left(9{,}82+\\dfrac{0{,}60^2}{0{,}85}\\right)\\).</p><p><strong>Svar:</strong> \\(0{,}56\\) N</p></li></ol>",
+    "id": "2.505",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.8485601531701294,
+      2.0416928038303968,
+      0.6039900275251635,
+      0.5637049616873432
+    ],
+    "tolerans": [
+      0.051,
+      0.051,
+      0.00906,
+      0.00846
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s²",
+      "m/s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En kula med massan 55 g hänger i ett 85 cm långt snöre. Den dras ut så att snöret bildar 12° med lodlinjen och släpps.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna perioden.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En kula med massan 55 g hänger i ett 85 cm långt snöre. Den dras ut så att snöret bildar 12° med lodlinjen och släpps.</p><p>Beräkna perioden.</p>",
+        "s": "<p>\\(T=2\\pi\\sqrt{\\dfrac{0{,}85}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) s</p>",
+        "ledtrad": "<p>Plan pendel.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna accelerationen i ögonblicket kulan släpps.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En kula med massan 55 g hänger i ett 85 cm långt snöre. Den dras ut så att snöret bildar 12° med lodlinjen och släpps.</p><p>Beräkna accelerationen i ögonblicket kulan släpps.</p>",
+        "s": "<p>Farten är noll, så bara tangentiell acceleration: \\(a=g\\sin12^\\circ\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s²</p>",
+        "ledtrad": "<p>Dela upp tyngden i komposanter.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm farten i banans lägsta punkt.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En kula med massan 55 g hänger i ett 85 cm långt snöre. Den dras ut så att snöret bildar 12° med lodlinjen och släpps.</p><p>Bestäm farten i banans lägsta punkt.</p>",
+        "s": "<p>Höjdskillnad: \\(0{,}85(1-\\cos12^\\circ)\\). \\(v=\\sqrt{2gh}\\).</p><p><strong>Svar:</strong> \\(0{,}60\\) m/s</p>",
+        "ledtrad": "<p>Energiprincipen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Bestäm spännkraften i snöret i lägsta punkten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En kula med massan 55 g hänger i ett 85 cm långt snöre. Den dras ut så att snöret bildar 12° med lodlinjen och släpps.</p>Farten i lägsta punkten är 0,60 m/s.<p>Bestäm spännkraften i snöret i lägsta punkten.</p>",
+        "s": "<p>\\(F_S=m\\left(g+\\dfrac{v^2}{l}\\right)=0{,}055\\left(9{,}82+\\dfrac{0{,}60^2}{0{,}85}\\right)\\).</p><p><strong>Svar:</strong> \\(0{,}56\\) N</p>",
+        "ledtrad": "<p>I lägsta punkten behövs en centripetalkraft.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Kulan rör sig i en cirkelbåge.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
+  },
+  {
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "C",
+    "typ": "takhöjd ur pendel",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En plan pendel med längden \\(l\\) har vid små utslag perioden \\(T=2\\pi\\sqrt{\\dfrac lg}\\).</p><p>En järnkula med diametern 80,0 mm hänger i en tunn tråd från taket. Kulans lägsta punkt är 20,0 cm över golvet. Tio hela svängningar tar 34,3 s. Beräkna takhöjden.</p>",
+    "s": "<p>\\(T=3{,}43\\) s ger \\(l=\\dfrac{9{,}82\\cdot3{,}43^2}{4\\pi^2}\\approx2{,}93\\) m till kulans mitt. Takhöjd: \\(l+0{,}040+0{,}200\\).</p><p><strong>Svar:</strong> \\(3{,}17\\) m</p>",
+    "id": "2.506",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration, energi och pendelförsök",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.166442471879831,
+    "tolerans": 0.0475,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Pendellängden räknas till kulans mittpunkt.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "pendlar__tyngdacceleration_energi_och_pendelforsok"
   },
   {
     "id": "GY25-FY2-EXP-03",

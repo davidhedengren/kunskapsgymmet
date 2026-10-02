@@ -63190,6 +63190,1123 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "C",
+    "typ": "bestämma konstant i täthetsfunktion",
+    "poang": "3/3/0",
+    "t": "<p>Bestäm konstanten \\(k\\) så att \\(f(x)\\) blir en täthetsfunktion på det angivna intervallet. Svara exakt.</p><ol type=\"a\"><li>\\(f(x)=kx\\), \\(1\\le x\\le4\\)</li><li>\\(f(x)=kx^2\\), \\(-1\\le x\\le1\\)</li><li>\\(f(x)=k(4-x^2)\\), \\(-2\\le x\\le2\\)</li><li>\\(f(x)=\\dfrac kx\\), \\(1\\le x\\le3\\)</li><li>\\(f(x)=ke^{-x/2}\\), \\(x\\ge0\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\displaystyle\\int_1^4kx\\,dx=k\\cdot\\frac{16-1}{2}=\\frac{15k}{2}=1\\iff k=\\frac{2}{15}\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac{2}{15}\\)</p></li><li><p>\\(\\displaystyle\\int_{-1}^1kx^2\\,dx=\\frac{2k}{3}=1\\iff k=\\frac32\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac32\\)</p></li><li><p>\\(\\displaystyle\\int_{-2}^2(4-x^2)\\,dx=16-\\frac{16}{3}=\\frac{32}{3}\\), så \\(k=\\dfrac{3}{32}\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac{3}{32}\\)</p></li><li><p>\\(\\displaystyle\\int_1^3\\frac kx\\,dx=k\\ln3=1\\iff k=\\frac1{\\ln3}\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac{1}{\\ln3}\\approx0{,}910\\)</p></li><li><p>\\(\\displaystyle\\int_0^\\infty ke^{-x/2}\\,dx=k\\left[-2e^{-x/2}\\right]_0^\\infty=2k=1\\iff k=\\frac12\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac12\\)</p></li></ol>",
+    "id": "4.528",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Normalisera täthetsfunktion och bestäm parameter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2/15",
+      "3/2",
+      "3/32",
+      "1/ln(3)",
+      "1/2"
+    ],
+    "tolerans": [
+      0.0001,
+      0.0001,
+      0.0001,
+      null,
+      0.0001
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm konstanten \\(k\\) så att \\(f(x)\\) blir en täthetsfunktion på det angivna intervallet. Svara exakt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(f(x)=kx\\), \\(1\\le x\\le4\\)",
+        "t": "<p>Bestäm konstanten \\(k\\) så att \\(f(x)\\) blir en täthetsfunktion på det angivna intervallet. Svara exakt.</p><p>\\(f(x)=kx\\), \\(1\\le x\\le4\\)</p>",
+        "s": "<p>\\(\\displaystyle\\int_1^4kx\\,dx=k\\cdot\\frac{16-1}{2}=\\frac{15k}{2}=1\\iff k=\\frac{2}{15}\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac{2}{15}\\)</p>",
+        "ledtrad": "<p>Arean under grafen ska vara 1.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(f(x)=kx^2\\), \\(-1\\le x\\le1\\)",
+        "t": "<p>Bestäm konstanten \\(k\\) så att \\(f(x)\\) blir en täthetsfunktion på det angivna intervallet. Svara exakt.</p><p>\\(f(x)=kx^2\\), \\(-1\\le x\\le1\\)</p>",
+        "s": "<p>\\(\\displaystyle\\int_{-1}^1kx^2\\,dx=\\frac{2k}{3}=1\\iff k=\\frac32\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac32\\)</p>",
+        "ledtrad": "<p>Arean under grafen ska vara 1.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(f(x)=k(4-x^2)\\), \\(-2\\le x\\le2\\)",
+        "t": "<p>Bestäm konstanten \\(k\\) så att \\(f(x)\\) blir en täthetsfunktion på det angivna intervallet. Svara exakt.</p><p>\\(f(x)=k(4-x^2)\\), \\(-2\\le x\\le2\\)</p>",
+        "s": "<p>\\(\\displaystyle\\int_{-2}^2(4-x^2)\\,dx=16-\\frac{16}{3}=\\frac{32}{3}\\), så \\(k=\\dfrac{3}{32}\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac{3}{32}\\)</p>",
+        "ledtrad": "<p>Beräkna integralen utan \\(k\\) först.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(f(x)=\\dfrac kx\\), \\(1\\le x\\le3\\)",
+        "t": "<p>Bestäm konstanten \\(k\\) så att \\(f(x)\\) blir en täthetsfunktion på det angivna intervallet. Svara exakt.</p><p>\\(f(x)=\\dfrac kx\\), \\(1\\le x\\le3\\)</p>",
+        "s": "<p>\\(\\displaystyle\\int_1^3\\frac kx\\,dx=k\\ln3=1\\iff k=\\frac1{\\ln3}\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac{1}{\\ln3}\\approx0{,}910\\)</p>",
+        "ledtrad": "<p>En primitiv funktion till \\(\\dfrac1x\\) är \\(\\ln x\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "e",
+        "fraga": "\\(f(x)=ke^{-x/2}\\), \\(x\\ge0\\)",
+        "t": "<p>Bestäm konstanten \\(k\\) så att \\(f(x)\\) blir en täthetsfunktion på det angivna intervallet. Svara exakt.</p><p>\\(f(x)=ke^{-x/2}\\), \\(x\\ge0\\)</p>",
+        "s": "<p>\\(\\displaystyle\\int_0^\\infty ke^{-x/2}\\,dx=k\\left[-2e^{-x/2}\\right]_0^\\infty=2k=1\\iff k=\\frac12\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac12\\)</p>",
+        "ledtrad": "<p>Integralen är generaliserad. Vad händer med \\(e^{-x/2}\\) när \\(x\\to\\infty\\)?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Den totala sannolikheten, alltså arean under grafen, är 1.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
+    "arbetsinsats": 3
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "E",
+    "typ": "sannolikheter för linjär täthet",
+    "poang": "3/0/0",
+    "t": "<p>Slumpvariabeln \\(x\\) har täthetsfunktionen \\(f(x)=\\dfrac{x}{50}\\) för \\(0\\le x\\le10\\).</p><ol type=\"a\"><li>Bestäm \\(P(0\\lt x\\lt6)\\).</li><li>Bestäm \\(P(4\\lt x\\lt6)\\).</li><li>Bestäm \\(P(x\\ge2)\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\displaystyle\\int_0^6\\frac{x}{50}\\,dx=\\frac{36}{100}=0{,}36\\).</p><p><strong>Svar:</strong> 0,36</p></li><li><p>\\(\\dfrac{36-16}{100}=0{,}20\\).</p><p><strong>Svar:</strong> 0,20</p></li><li><p>\\(1-\\dfrac{4}{100}=0{,}96\\).</p><p><strong>Svar:</strong> 0,96</p></li></ol>",
+    "id": "4.529",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.36,
+      0.2,
+      0.96
+    ],
+    "tolerans": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Slumpvariabeln \\(x\\) har täthetsfunktionen \\(f(x)=\\dfrac{x}{50}\\) för \\(0\\le x\\le10\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(P(0\\lt x\\lt6)\\).",
+        "t": "<p>Slumpvariabeln \\(x\\) har täthetsfunktionen \\(f(x)=\\dfrac{x}{50}\\) för \\(0\\le x\\le10\\).</p><p>Bestäm \\(P(0\\lt x\\lt6)\\).</p>",
+        "s": "<p>\\(\\displaystyle\\int_0^6\\frac{x}{50}\\,dx=\\frac{36}{100}=0{,}36\\).</p><p><strong>Svar:</strong> 0,36</p>",
+        "ledtrad": "<p>Sannolikheten är arean under grafen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(P(4\\lt x\\lt6)\\).",
+        "t": "<p>Slumpvariabeln \\(x\\) har täthetsfunktionen \\(f(x)=\\dfrac{x}{50}\\) för \\(0\\le x\\le10\\).</p><p>Bestäm \\(P(4\\lt x\\lt6)\\).</p>",
+        "s": "<p>\\(\\dfrac{36-16}{100}=0{,}20\\).</p><p><strong>Svar:</strong> 0,20</p>",
+        "ledtrad": "<p>En primitiv funktion är \\(\\dfrac{x^2}{100}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm \\(P(x\\ge2)\\).",
+        "t": "<p>Slumpvariabeln \\(x\\) har täthetsfunktionen \\(f(x)=\\dfrac{x}{50}\\) för \\(0\\le x\\le10\\).</p><p>Bestäm \\(P(x\\ge2)\\).</p>",
+        "s": "<p>\\(1-\\dfrac{4}{100}=0{,}96\\).</p><p><strong>Svar:</strong> 0,96</p>",
+        "ledtrad": "<p>Använd komplementet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(P(a\\lt x\\lt b)=\\int_a^bf(x)\\,dx\\).</p>",
+    "traningsniva": 2,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "C",
+    "typ": "sannolikheter för parabolisk täthet",
+    "poang": "2/2/0",
+    "t": "<p>Slumpvariabeln \\(x\\) har täthetsfunktionen \\(f(x)=\\dfrac{3}{256}(16-x^2)\\) för \\(-4\\le x\\le4\\).</p><ol type=\"a\"><li>Bestäm \\(P(x\\lt-2)\\).</li><li>Bestäm \\(P(-1\\lt x\\lt1)\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{3}{256}\\left[16x-\\dfrac{x^3}{3}\\right]_{-4}^{-2}=\\dfrac{3}{256}\\left(-\\dfrac{88}{3}+\\dfrac{128}{3}\\right)=\\dfrac{40}{256}=\\dfrac{5}{32}\\approx0{,}156\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{32}\\)</p></li><li><p>\\(\\dfrac{3}{256}\\left[16x-\\dfrac{x^3}{3}\\right]_{-1}^{1}=\\dfrac{3}{256}\\cdot\\dfrac{94}{3}=\\dfrac{94}{256}=\\dfrac{47}{128}\\approx0{,}367\\).</p><p><strong>Svar:</strong> \\(\\dfrac{47}{128}\\)</p></li></ol>",
+    "id": "4.530",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "5/32",
+      "47/128"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Slumpvariabeln \\(x\\) har täthetsfunktionen \\(f(x)=\\dfrac{3}{256}(16-x^2)\\) för \\(-4\\le x\\le4\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(P(x\\lt-2)\\).",
+        "t": "<p>Slumpvariabeln \\(x\\) har täthetsfunktionen \\(f(x)=\\dfrac{3}{256}(16-x^2)\\) för \\(-4\\le x\\le4\\).</p><p>Bestäm \\(P(x\\lt-2)\\).</p>",
+        "s": "<p>\\(\\dfrac{3}{256}\\left[16x-\\dfrac{x^3}{3}\\right]_{-4}^{-2}=\\dfrac{3}{256}\\left(-\\dfrac{88}{3}+\\dfrac{128}{3}\\right)=\\dfrac{40}{256}=\\dfrac{5}{32}\\approx0{,}156\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{32}\\)</p>",
+        "ledtrad": "<p>Integrera från −4 till −2.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(P(-1\\lt x\\lt1)\\).",
+        "t": "<p>Slumpvariabeln \\(x\\) har täthetsfunktionen \\(f(x)=\\dfrac{3}{256}(16-x^2)\\) för \\(-4\\le x\\le4\\).</p><p>Bestäm \\(P(-1\\lt x\\lt1)\\).</p>",
+        "s": "<p>\\(\\dfrac{3}{256}\\left[16x-\\dfrac{x^3}{3}\\right]_{-1}^{1}=\\dfrac{3}{256}\\cdot\\dfrac{94}{3}=\\dfrac{94}{256}=\\dfrac{47}{128}\\approx0{,}367\\).</p><p><strong>Svar:</strong> \\(\\dfrac{47}{128}\\)</p>",
+        "ledtrad": "<p>Funktionen är symmetrisk kring \\(x=0\\).</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Sannolikheten är arean under grafen.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "A",
+    "typ": "täthetsfunktion med sinus",
+    "poang": "0/3/1",
+    "t": "<p>Funktionen \\(f(x)=k\\sin^2x\\) är en täthetsfunktion på intervallet \\(0\\le x\\le\\pi\\).</p><ol type=\"a\"><li>Bestäm \\(k\\). Svara exakt.</li><li>Bestäm \\(P\\left(\\dfrac\\pi4\\lt x\\lt\\dfrac\\pi3\\right)\\). Svara med tre decimaler.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\sin^2x=\\dfrac{1-\\cos2x}{2}\\), så \\(\\displaystyle\\int_0^\\pi\\sin^2x\\,dx=\\left[\\frac x2-\\frac{\\sin2x}{4}\\right]_0^\\pi=\\frac\\pi2\\).</p><p>\\(k\\cdot\\dfrac\\pi2=1\\iff k=\\dfrac2\\pi\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac2\\pi\\)</p></li><li><p>\\(\\dfrac2\\pi\\left[\\dfrac x2-\\dfrac{\\sin2x}{4}\\right]_{\\pi/4}^{\\pi/3}=\\dfrac2\\pi\\left(\\dfrac\\pi{24}-\\dfrac{\\sqrt3}{8}+\\dfrac14\\right)\\approx0{,}105\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}105\\)</p></li></ol>",
+    "id": "4.531",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalisera täthetsfunktion och bestäm parameter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2/pi",
+      0.1047
+    ],
+    "tolerans": [
+      null,
+      0.0006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Funktionen \\(f(x)=k\\sin^2x\\) är en täthetsfunktion på intervallet \\(0\\le x\\le\\pi\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(k\\). Svara exakt.",
+        "t": "<p>Funktionen \\(f(x)=k\\sin^2x\\) är en täthetsfunktion på intervallet \\(0\\le x\\le\\pi\\).</p><p>Bestäm \\(k\\). Svara exakt.</p>",
+        "s": "<p>\\(\\sin^2x=\\dfrac{1-\\cos2x}{2}\\), så \\(\\displaystyle\\int_0^\\pi\\sin^2x\\,dx=\\left[\\frac x2-\\frac{\\sin2x}{4}\\right]_0^\\pi=\\frac\\pi2\\).</p><p>\\(k\\cdot\\dfrac\\pi2=1\\iff k=\\dfrac2\\pi\\).</p><p><strong>Svar:</strong> \\(k=\\dfrac2\\pi\\)</p>",
+        "ledtrad": "<p>Skriv om \\(\\sin^2x\\) med formeln för dubbla vinkeln.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(P\\left(\\dfrac\\pi4\\lt x\\lt\\dfrac\\pi3\\right)\\). Svara med tre decimaler.",
+        "t": "<p>Funktionen \\(f(x)=k\\sin^2x\\) är en täthetsfunktion på intervallet \\(0\\le x\\le\\pi\\).</p><p>Det gäller att \\(k=\\dfrac2\\pi\\).</p><p>Bestäm \\(P\\left(\\dfrac\\pi4\\lt x\\lt\\dfrac\\pi3\\right)\\). Svara med tre decimaler.</p>",
+        "s": "<p>\\(\\dfrac2\\pi\\left[\\dfrac x2-\\dfrac{\\sin2x}{4}\\right]_{\\pi/4}^{\\pi/3}=\\dfrac2\\pi\\left(\\dfrac\\pi{24}-\\dfrac{\\sqrt3}{8}+\\dfrac14\\right)\\approx0{,}105\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}105\\)</p>",
+        "ledtrad": "<p>Använd samma primitiva funktion som när \\(k\\) bestämdes.</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Arean under grafen ska vara 1.</p>",
+    "traningsniva": 4,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "E",
+    "typ": "likformig fördelning",
+    "poang": "1/0/0",
+    "t": "<p>Väntetiden \\(t\\) min vid en busshållplats där bussen går var 30:e minut har täthetsfunktionen \\(f(t)=\\dfrac1{30}\\) för \\(0\\le t\\le30\\).</p><p>Hur stor är sannolikheten att man får vänta minst 18 minuter?</p>",
+    "s": "<p>\\(\\displaystyle\\int_{18}^{30}\\frac1{30}\\,dt=\\frac{12}{30}=0{,}40\\).</p><p><strong>Svar:</strong> 0,40</p>",
+    "id": "4.532",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sannolikheten är arean av en rektangel.</p>",
+    "traningsniva": 1,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 1
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "E",
+    "typ": "sannolikhet för kvadratisk täthet",
+    "poang": "1/0/0",
+    "t": "<p>Vikten \\(x\\) kg på en påse bananer som en kund köper har täthetsfunktionen \\(f(x)=\\dfrac{3x^2}{125}\\) för \\(0\\le x\\le5\\).</p><p>Bestäm \\(P(4\\le x\\le5)\\).</p>",
+    "s": "<p>\\(\\displaystyle\\int_4^5\\frac{3x^2}{125}\\,dx=\\left[\\frac{x^3}{125}\\right]_4^5=\\frac{125-64}{125}=0{,}488\\).</p><p>Ungefär hälften av kunderna köper mellan 4 och 5 kg.</p><p><strong>Svar:</strong> 0,488</p>",
+    "id": "4.533",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.488,
+    "tolerans": 0.006,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Integrera täthetsfunktionen över intervallet.</p>",
+    "traningsniva": 2,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 1
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "E",
+    "typ": "täthet för bensinbehov",
+    "poang": "2/0/0",
+    "t": "<p>Dygnsbehovet \\(x\\) miljoner liter bensin i en stad har täthetsfunktionen \\(f(x)=0{,}41-0{,}08x\\) för \\(0\\le x\\le4\\).</p><ol type=\"a\"><li>Hur stor är sannolikheten att behovet inte överstiger 3 miljoner liter?</li><li>Hur stor är sannolikheten att behovet är minst 2 miljoner liter?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\displaystyle\\int_0^3(0{,}41-0{,}08x)\\,dx=1{,}23-0{,}36=0{,}87\\).</p><p><strong>Svar:</strong> 0,87</p></li><li><p>\\(1-\\displaystyle\\int_0^2(0{,}41-0{,}08x)\\,dx=1-(0{,}82-0{,}16)=0{,}34\\).</p><p><strong>Svar:</strong> 0,34</p></li></ol>",
+    "id": "4.534",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.87,
+      0.34
+    ],
+    "tolerans": [
+      0.006,
+      0.006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Dygnsbehovet \\(x\\) miljoner liter bensin i en stad har täthetsfunktionen \\(f(x)=0{,}41-0{,}08x\\) för \\(0\\le x\\le4\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att behovet inte överstiger 3 miljoner liter?",
+        "t": "<p>Dygnsbehovet \\(x\\) miljoner liter bensin i en stad har täthetsfunktionen \\(f(x)=0{,}41-0{,}08x\\) för \\(0\\le x\\le4\\).</p><p>Hur stor är sannolikheten att behovet inte överstiger 3 miljoner liter?</p>",
+        "s": "<p>\\(\\displaystyle\\int_0^3(0{,}41-0{,}08x)\\,dx=1{,}23-0{,}36=0{,}87\\).</p><p><strong>Svar:</strong> 0,87</p>",
+        "ledtrad": "<p>Integrera från 0 till 3.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att behovet är minst 2 miljoner liter?",
+        "t": "<p>Dygnsbehovet \\(x\\) miljoner liter bensin i en stad har täthetsfunktionen \\(f(x)=0{,}41-0{,}08x\\) för \\(0\\le x\\le4\\).</p><p>Hur stor är sannolikheten att behovet är minst 2 miljoner liter?</p>",
+        "s": "<p>\\(1-\\displaystyle\\int_0^2(0{,}41-0{,}08x)\\,dx=1-(0{,}82-0{,}16)=0{,}34\\).</p><p><strong>Svar:</strong> 0,34</p>",
+        "ledtrad": "<p>Använd komplementet eller integrera från 2 till 4.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Sannolikheter är areor under täthetsfunktionen.</p>",
+    "traningsniva": 2,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "C",
+    "typ": "täthet med sinusfunktion",
+    "poang": "2/4/0",
+    "t": "<p>Regnmängden \\(x\\) mm under ett dygn på en ort har täthetsfunktionen \\(f(x)=\\dfrac{\\pi}{30}\\sin\\dfrac{\\pi x}{15}\\) för \\(0\\le x\\le15\\).</p><ol type=\"a\"><li>Bestäm \\(P(0\\le x\\le10)\\).</li><li>Bestäm \\(P(12\\le x\\le15)\\). Svara med två värdesiffror.</li><li>Ungefär hur många dygn per år faller det mindre än 1 mm regn enligt modellen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\left[-\\dfrac12\\cos\\dfrac{\\pi x}{15}\\right]_0^{10}=\\dfrac12\\left(1-\\cos\\dfrac{2\\pi}{3}\\right)=\\dfrac12\\cdot\\dfrac32=0{,}75\\).</p><p><strong>Svar:</strong> 0,75</p></li><li><p>\\(\\dfrac12\\left(\\cos\\dfrac{12\\pi}{15}-\\cos\\pi\\right)=\\dfrac12(1+\\cos0{,}8\\pi)\\approx0{,}095\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}095\\)</p></li><li><p>\\(P(x\\lt1)=\\dfrac12\\left(1-\\cos\\dfrac{\\pi}{15}\\right)\\approx0{,}0109\\). \\(365\\cdot0{,}0109\\approx4\\).</p><p><strong>Svar:</strong> cirka 4 dygn</p></li></ol>",
+    "id": "4.535",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.75,
+      0.0955,
+      4
+    ],
+    "tolerans": [
+      0.006,
+      0.0006,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Regnmängden \\(x\\) mm under ett dygn på en ort har täthetsfunktionen \\(f(x)=\\dfrac{\\pi}{30}\\sin\\dfrac{\\pi x}{15}\\) för \\(0\\le x\\le15\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(P(0\\le x\\le10)\\).",
+        "t": "<p>Regnmängden \\(x\\) mm under ett dygn på en ort har täthetsfunktionen \\(f(x)=\\dfrac{\\pi}{30}\\sin\\dfrac{\\pi x}{15}\\) för \\(0\\le x\\le15\\).</p><p>Bestäm \\(P(0\\le x\\le10)\\).</p>",
+        "s": "<p>\\(\\left[-\\dfrac12\\cos\\dfrac{\\pi x}{15}\\right]_0^{10}=\\dfrac12\\left(1-\\cos\\dfrac{2\\pi}{3}\\right)=\\dfrac12\\cdot\\dfrac32=0{,}75\\).</p><p><strong>Svar:</strong> 0,75</p>",
+        "ledtrad": "<p>En primitiv funktion är \\(-\\dfrac12\\cos\\dfrac{\\pi x}{15}\\).</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(P(12\\le x\\le15)\\). Svara med två värdesiffror.",
+        "t": "<p>Regnmängden \\(x\\) mm under ett dygn på en ort har täthetsfunktionen \\(f(x)=\\dfrac{\\pi}{30}\\sin\\dfrac{\\pi x}{15}\\) för \\(0\\le x\\le15\\).</p><p>Bestäm \\(P(12\\le x\\le15)\\). Svara med två värdesiffror.</p>",
+        "s": "<p>\\(\\dfrac12\\left(\\cos\\dfrac{12\\pi}{15}-\\cos\\pi\\right)=\\dfrac12(1+\\cos0{,}8\\pi)\\approx0{,}095\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}095\\)</p>",
+        "ledtrad": "<p>Använd samma primitiva funktion.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ungefär hur många dygn per år faller det mindre än 1 mm regn enligt modellen?",
+        "t": "<p>Regnmängden \\(x\\) mm under ett dygn på en ort har täthetsfunktionen \\(f(x)=\\dfrac{\\pi}{30}\\sin\\dfrac{\\pi x}{15}\\) för \\(0\\le x\\le15\\).</p><p>Ungefär hur många dygn per år faller det mindre än 1 mm regn enligt modellen?</p>",
+        "s": "<p>\\(P(x\\lt1)=\\dfrac12\\left(1-\\cos\\dfrac{\\pi}{15}\\right)\\approx0{,}0109\\). \\(365\\cdot0{,}0109\\approx4\\).</p><p><strong>Svar:</strong> cirka 4 dygn</p>",
+        "ledtrad": "<p>Beräkna sannolikheten för ett dygn och multiplicera med antalet dygn.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Sannolikheten är arean under grafen.</p>",
+    "traningsniva": 4,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "C",
+    "typ": "exponentialfördelning med medelvärde",
+    "poang": "2/2/0",
+    "t": "<p>Kötiden \\(t\\) min i en affär är exponentialfördelad med medelvärdet 3 min, alltså med täthetsfunktionen \\(f(t)=\\dfrac13e^{-t/3}\\) för \\(t\\ge0\\).</p><ol type=\"a\"><li>Hur stor är sannolikheten att man får vänta mindre än 2 minuter? Svara med två decimaler.</li><li>Hur stor är sannolikheten att man får vänta mellan 2 och 4 minuter? Svara med två decimaler.</li><li>Inom hur många minuter har 25 % av kunderna kommit fram till kassan? Svara med två decimaler.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\displaystyle\\int_0^2\\frac13e^{-t/3}\\,dt=1-e^{-2/3}\\approx0{,}49\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}49\\)</p></li><li><p>\\(e^{-2/3}-e^{-4/3}\\approx0{,}25\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}25\\)</p></li><li><p>\\(1-e^{-a/3}=0{,}25\\iff e^{-a/3}=0{,}75\\iff a=-3\\ln0{,}75\\approx0{,}86\\) min.</p><p><strong>Svar:</strong> cirka 0,86 min</p></li></ol>",
+    "id": "4.536",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4866,
+      0.2498,
+      0.863
+    ],
+    "tolerans": [
+      0.006,
+      0.006,
+      0.006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Kötiden \\(t\\) min i en affär är exponentialfördelad med medelvärdet 3 min, alltså med täthetsfunktionen \\(f(t)=\\dfrac13e^{-t/3}\\) för \\(t\\ge0\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att man får vänta mindre än 2 minuter? Svara med två decimaler.",
+        "t": "<p>Kötiden \\(t\\) min i en affär är exponentialfördelad med medelvärdet 3 min, alltså med täthetsfunktionen \\(f(t)=\\dfrac13e^{-t/3}\\) för \\(t\\ge0\\).</p><p>Hur stor är sannolikheten att man får vänta mindre än 2 minuter? Svara med två decimaler.</p>",
+        "s": "<p>\\(\\displaystyle\\int_0^2\\frac13e^{-t/3}\\,dt=1-e^{-2/3}\\approx0{,}49\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}49\\)</p>",
+        "ledtrad": "<p>En primitiv funktion är \\(-e^{-t/3}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att man får vänta mellan 2 och 4 minuter? Svara med två decimaler.",
+        "t": "<p>Kötiden \\(t\\) min i en affär är exponentialfördelad med medelvärdet 3 min, alltså med täthetsfunktionen \\(f(t)=\\dfrac13e^{-t/3}\\) för \\(t\\ge0\\).</p><p>Hur stor är sannolikheten att man får vänta mellan 2 och 4 minuter? Svara med två decimaler.</p>",
+        "s": "<p>\\(e^{-2/3}-e^{-4/3}\\approx0{,}25\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}25\\)</p>",
+        "ledtrad": "<p>Integrera mellan 2 och 4.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Inom hur många minuter har 25 % av kunderna kommit fram till kassan? Svara med två decimaler.",
+        "t": "<p>Kötiden \\(t\\) min i en affär är exponentialfördelad med medelvärdet 3 min, alltså med täthetsfunktionen \\(f(t)=\\dfrac13e^{-t/3}\\) för \\(t\\ge0\\).</p><p>Inom hur många minuter har 25 % av kunderna kommit fram till kassan? Svara med två decimaler.</p>",
+        "s": "<p>\\(1-e^{-a/3}=0{,}25\\iff e^{-a/3}=0{,}75\\iff a=-3\\ln0{,}75\\approx0{,}86\\) min.</p><p><strong>Svar:</strong> cirka 0,86 min</p>",
+        "ledtrad": "<p>Ställ upp \\(P(t\\le a)=0{,}25\\) och lös ut \\(a\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>För exponentialfördelning är \\(P(t\\le a)=1-e^{-a/\\lambda}\\), där \\(\\lambda\\) är medelvärdet.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "C",
+    "typ": "livslängd som exponentialfördelning",
+    "poang": "1/3/0",
+    "t": "<p>Livslängden \\(t\\) år hos ett batteri är exponentialfördelad med medelvärdet 5 år, \\(f(t)=\\dfrac15e^{-t/5}\\) för \\(t\\ge0\\).</p><ol type=\"a\"><li>Hur stor är sannolikheten att batteriet håller mer än 8 år? Svara med två decimaler.</li><li>Bestäm \\(a\\) så att \\(P(t\\le a)=0{,}50\\). Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\displaystyle\\int_8^\\infty\\frac15e^{-t/5}\\,dt=e^{-8/5}\\approx0{,}20\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}20\\)</p></li><li><p>\\(1-e^{-a/5}=0{,}5\\iff a=5\\ln2\\approx3{,}5\\) år. Hälften av batterierna har gått sönder efter 3,5 år, trots att medellivslängden är 5 år.</p><p><strong>Svar:</strong> cirka 3,5 år</p></li></ol>",
+    "id": "4.537",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2019,
+      3.4657
+    ],
+    "tolerans": [
+      0.006,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Livslängden \\(t\\) år hos ett batteri är exponentialfördelad med medelvärdet 5 år, \\(f(t)=\\dfrac15e^{-t/5}\\) för \\(t\\ge0\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att batteriet håller mer än 8 år? Svara med två decimaler.",
+        "t": "<p>Livslängden \\(t\\) år hos ett batteri är exponentialfördelad med medelvärdet 5 år, \\(f(t)=\\dfrac15e^{-t/5}\\) för \\(t\\ge0\\).</p><p>Hur stor är sannolikheten att batteriet håller mer än 8 år? Svara med två decimaler.</p>",
+        "s": "<p>\\(\\displaystyle\\int_8^\\infty\\frac15e^{-t/5}\\,dt=e^{-8/5}\\approx0{,}20\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}20\\)</p>",
+        "ledtrad": "<p>Integralen är generaliserad. Eller använd komplementet.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(a\\) så att \\(P(t\\le a)=0{,}50\\). Svara med en decimal.",
+        "t": "<p>Livslängden \\(t\\) år hos ett batteri är exponentialfördelad med medelvärdet 5 år, \\(f(t)=\\dfrac15e^{-t/5}\\) för \\(t\\ge0\\).</p><p>Bestäm \\(a\\) så att \\(P(t\\le a)=0{,}50\\). Svara med en decimal.</p>",
+        "s": "<p>\\(1-e^{-a/5}=0{,}5\\iff a=5\\ln2\\approx3{,}5\\) år. Hälften av batterierna har gått sönder efter 3,5 år, trots att medellivslängden är 5 år.</p><p><strong>Svar:</strong> cirka 3,5 år</p>",
+        "ledtrad": "<p>Lös ekvationen med logaritmer.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Använd \\(P(t\\le a)=1-e^{-a/\\lambda}\\).</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "C",
+    "typ": "bestämma medelvärde ur sannolikhet",
+    "poang": "0/2/0",
+    "t": "<p>Avståndet \\(x\\) m mellan två bilar på en motorväg är exponentialfördelat med täthetsfunktionen \\(f(x)=\\dfrac1ae^{-x/a}\\), där \\(a\\) är medelavståndet. Sannolikheten att avståndet är mer än 15 m är 2 %.</p><p>Bestäm \\(a\\). Svara med två decimaler.</p>",
+    "s": "<p>\\(P(x\\gt15)=e^{-15/a}=0{,}02\\iff-\\dfrac{15}{a}=\\ln0{,}02\\iff a=\\dfrac{15}{\\ln50}\\approx3{,}83\\) m.</p><p><strong>Svar:</strong> \\(a\\approx3{,}83\\) m</p>",
+    "id": "4.538",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalisera täthetsfunktion och bestäm parameter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.8343,
+    "tolerans": 0.006,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp \\(P(x\\gt15)\\) och lös ut \\(a\\) med logaritmer.</p>",
+    "traningsniva": 4,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "C",
+    "typ": "bestämma medelvärde ur median",
+    "poang": "0/2/0",
+    "t": "<p>Tiden mellan två telefonsamtal till ett företag är exponentialfördelad. Det är 50 % chans att tiden mellan två samtal är längre än 20 s.</p><p>Bestäm medeltiden mellan två samtal. Svara i sekunder med en decimal.</p>",
+    "s": "<p>\\(P(t\\gt20)=e^{-20/\\lambda}=0{,}5\\iff\\lambda=\\dfrac{20}{\\ln2}\\approx28{,}9\\) s.</p><p><strong>Svar:</strong> cirka 28,9 s</p>",
+    "id": "4.539",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalisera täthetsfunktion och bestäm parameter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28.8539,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp \\(P(t\\gt20)=e^{-20/\\lambda}\\).</p>",
+    "traningsniva": 4,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "E",
+    "typ": "normalfördelning med räknare",
+    "poang": "3/0/0",
+    "t": "<p>Slumpvariabeln \\(x\\) är normalfördelad med medelvärdet \\(\\mu=22\\) och standardavvikelsen \\(\\sigma=5\\). Använd räknaren eller GeoGebra. Svara med två decimaler.</p><ol type=\"a\"><li>Bestäm \\(P(22\\lt x\\lt27)\\).</li><li>Bestäm \\(P(19\\lt x\\lt25)\\).</li><li>Bestäm \\(P(18\\lt x\\lt26)\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Intervallet är från \\(\\mu\\) till \\(\\mu+\\sigma\\): \\(\\approx0{,}34\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}34\\)</p></li><li><p>Med räknaren: \\(\\approx0{,}45\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}45\\)</p></li><li><p>Med räknaren: \\(\\approx0{,}58\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}58\\)</p></li></ol>",
+    "id": "4.540",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.3413,
+      0.4515,
+      0.5763
+    ],
+    "tolerans": [
+      0.006,
+      0.006,
+      0.006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Slumpvariabeln \\(x\\) är normalfördelad med medelvärdet \\(\\mu=22\\) och standardavvikelsen \\(\\sigma=5\\). Använd räknaren eller GeoGebra. Svara med två decimaler.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(P(22\\lt x\\lt27)\\).",
+        "t": "<p>Slumpvariabeln \\(x\\) är normalfördelad med medelvärdet \\(\\mu=22\\) och standardavvikelsen \\(\\sigma=5\\). Använd räknaren eller GeoGebra. Svara med två decimaler.</p><p>Bestäm \\(P(22\\lt x\\lt27)\\).</p>",
+        "s": "<p>Intervallet är från \\(\\mu\\) till \\(\\mu+\\sigma\\): \\(\\approx0{,}34\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}34\\)</p>",
+        "ledtrad": "<p>Hur många standardavvikelser från medelvärdet ligger gränserna?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(P(19\\lt x\\lt25)\\).",
+        "t": "<p>Slumpvariabeln \\(x\\) är normalfördelad med medelvärdet \\(\\mu=22\\) och standardavvikelsen \\(\\sigma=5\\). Använd räknaren eller GeoGebra. Svara med två decimaler.</p><p>Bestäm \\(P(19\\lt x\\lt25)\\).</p>",
+        "s": "<p>Med räknaren: \\(\\approx0{,}45\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}45\\)</p>",
+        "ledtrad": "<p>Använd normalfördelningsfunktionen på räknaren.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm \\(P(18\\lt x\\lt26)\\).",
+        "t": "<p>Slumpvariabeln \\(x\\) är normalfördelad med medelvärdet \\(\\mu=22\\) och standardavvikelsen \\(\\sigma=5\\). Använd räknaren eller GeoGebra. Svara med två decimaler.</p><p>Bestäm \\(P(18\\lt x\\lt26)\\).</p>",
+        "s": "<p>Med räknaren: \\(\\approx0{,}58\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}58\\)</p>",
+        "ledtrad": "<p>Använd normalfördelningsfunktionen på räknaren.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Normalfördelningens täthetsfunktion saknar elementär primitiv funktion, så sannolikheter beräknas numeriskt.</p>",
+    "traningsniva": 2,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "E",
+    "typ": "normalfördelning och 68–95-regeln",
+    "poang": "2/0/0",
+    "t": "<p>Slumpvariabeln \\(x\\) är normalfördelad med \\(\\mu=50\\) och \\(\\sigma=10\\).</p><ol type=\"a\"><li>Bestäm \\(P(40\\lt x\\lt60)\\). Svara med två decimaler.</li><li>Bestäm \\(P(x\\gt60)\\). Svara med två decimaler.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Intervallet är \\(\\mu\\pm\\sigma\\), som innehåller cirka 68 %: \\(\\approx0{,}68\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}68\\)</p></li><li><p>Utanför \\(\\mu\\pm\\sigma\\) ligger cirka 32 %, hälften på varje sida: \\(\\approx0{,}16\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}16\\)</p></li></ol>",
+    "id": "4.541",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6827,
+      0.1587
+    ],
+    "tolerans": [
+      0.006,
+      0.006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Slumpvariabeln \\(x\\) är normalfördelad med \\(\\mu=50\\) och \\(\\sigma=10\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(P(40\\lt x\\lt60)\\). Svara med två decimaler.",
+        "t": "<p>Slumpvariabeln \\(x\\) är normalfördelad med \\(\\mu=50\\) och \\(\\sigma=10\\).</p><p>Bestäm \\(P(40\\lt x\\lt60)\\). Svara med två decimaler.</p>",
+        "s": "<p>Intervallet är \\(\\mu\\pm\\sigma\\), som innehåller cirka 68 %: \\(\\approx0{,}68\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}68\\)</p>",
+        "ledtrad": "<p>Hur stor andel ligger inom en standardavvikelse från medelvärdet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(P(x\\gt60)\\). Svara med två decimaler.",
+        "t": "<p>Slumpvariabeln \\(x\\) är normalfördelad med \\(\\mu=50\\) och \\(\\sigma=10\\).</p><p>Bestäm \\(P(x\\gt60)\\). Svara med två decimaler.</p>",
+        "s": "<p>Utanför \\(\\mu\\pm\\sigma\\) ligger cirka 32 %, hälften på varje sida: \\(\\approx0{,}16\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}16\\)</p>",
+        "ledtrad": "<p>Använd symmetrin.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Inom \\(\\mu\\pm\\sigma\\) ligger cirka 68 % och inom \\(\\mu\\pm2\\sigma\\) cirka 95 %.</p>",
+    "traningsniva": 2,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "C",
+    "typ": "jämföra exponential- och normalfördelning",
+    "poang": "2/2/0",
+    "t": "<p>Livslängden \\(t\\) år hos ett bilbatteri har medelvärdet 4,5 år. Jämför två modeller. Svara med två decimaler.</p><ol type=\"a\"><li>Anta att livslängden är exponentialfördelad, \\(f(t)=\\dfrac{1}{4{,}5}e^{-t/4{,}5}\\). Hur stor är sannolikheten att batteriet håller högst 3 år?</li><li>Anta i stället att livslängden är normalfördelad med \\(\\sigma=1{,}5\\) år. Hur stor är sannolikheten att batteriet håller högst 3 år?</li><li>Med normalfördelningen (\\(\\sigma=1{,}5\\) år): bestäm \\(a\\) så att \\(P(t\\le a)=0{,}10\\). Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(1-e^{-3/4{,}5}\\approx0{,}49\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}49\\)</p></li><li><p>3 år ligger en standardavvikelse under medelvärdet: \\(P\\approx0{,}16\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}16\\)</p></li><li><p>Med räknarens invers: \\(a\\approx4{,}5-1{,}28\\cdot1{,}5\\approx2{,}6\\) år. 10 % av batterierna håller kortare tid än cirka 2,6 år.</p><p><strong>Svar:</strong> cirka 2,6 år</p></li></ol>",
+    "id": "4.542",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4866,
+      0.1587,
+      2.578
+    ],
+    "tolerans": [
+      0.006,
+      0.006,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Livslängden \\(t\\) år hos ett bilbatteri har medelvärdet 4,5 år. Jämför två modeller. Svara med två decimaler.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Anta att livslängden är exponentialfördelad, \\(f(t)=\\dfrac{1}{4{,}5}e^{-t/4{,}5}\\). Hur stor är sannolikheten att batteriet håller högst 3 år?",
+        "t": "<p>Livslängden \\(t\\) år hos ett bilbatteri har medelvärdet 4,5 år. Jämför två modeller. Svara med två decimaler.</p><p>Anta att livslängden är exponentialfördelad, \\(f(t)=\\dfrac{1}{4{,}5}e^{-t/4{,}5}\\). Hur stor är sannolikheten att batteriet håller högst 3 år?</p>",
+        "s": "<p>\\(1-e^{-3/4{,}5}\\approx0{,}49\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}49\\)</p>",
+        "ledtrad": "<p>Använd \\(P(t\\le a)=1-e^{-a/\\lambda}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Anta i stället att livslängden är normalfördelad med \\(\\sigma=1{,}5\\) år. Hur stor är sannolikheten att batteriet håller högst 3 år?",
+        "t": "<p>Livslängden \\(t\\) år hos ett bilbatteri har medelvärdet 4,5 år. Jämför två modeller. Svara med två decimaler.</p><p>Anta i stället att livslängden är normalfördelad med \\(\\sigma=1{,}5\\) år. Hur stor är sannolikheten att batteriet håller högst 3 år?</p>",
+        "s": "<p>3 år ligger en standardavvikelse under medelvärdet: \\(P\\approx0{,}16\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}16\\)</p>",
+        "ledtrad": "<p>Hur många standardavvikelser under medelvärdet är 3 år?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Med normalfördelningen (\\(\\sigma=1{,}5\\) år): bestäm \\(a\\) så att \\(P(t\\le a)=0{,}10\\). Svara med en decimal.",
+        "t": "<p>Livslängden \\(t\\) år hos ett bilbatteri har medelvärdet 4,5 år. Jämför två modeller. Svara med två decimaler.</p><p>Med normalfördelningen (\\(\\sigma=1{,}5\\) år): bestäm \\(a\\) så att \\(P(t\\le a)=0{,}10\\). Svara med en decimal.</p>",
+        "s": "<p>Med räknarens invers: \\(a\\approx4{,}5-1{,}28\\cdot1{,}5\\approx2{,}6\\) år. 10 % av batterierna håller kortare tid än cirka 2,6 år.</p><p><strong>Svar:</strong> cirka 2,6 år</p>",
+        "ledtrad": "<p>Använd inversen till normalfördelningen på räknaren.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Samma medelvärde kan ge mycket olika sannolikheter beroende på fördelningen.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "E",
+    "typ": "normalfördelning i medicin",
+    "poang": "2/0/0",
+    "t": "<p>Graviditetens längd \\(x\\) dagar är normalfördelad med medelvärdet 266 dagar och standardavvikelsen 16 dagar. Svara med två decimaler.</p><ol type=\"a\"><li>Hur stor är sannolikheten att graviditeten varar mellan 240 och 280 dagar?</li><li>Hur stor är sannolikheten att graviditeten varar längre än 285 dagar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Med räknaren: \\(P(240\\lt x\\lt280)\\approx0{,}76\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}76\\)</p></li><li><p>\\(P(x\\gt285)\\approx0{,}12\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}12\\)</p></li></ol>",
+    "id": "4.543",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sannolikhet och kvantiler från täthetsfunktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.7571,
+      0.1175
+    ],
+    "tolerans": [
+      0.006,
+      0.006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Graviditetens längd \\(x\\) dagar är normalfördelad med medelvärdet 266 dagar och standardavvikelsen 16 dagar. Svara med två decimaler.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att graviditeten varar mellan 240 och 280 dagar?",
+        "t": "<p>Graviditetens längd \\(x\\) dagar är normalfördelad med medelvärdet 266 dagar och standardavvikelsen 16 dagar. Svara med två decimaler.</p><p>Hur stor är sannolikheten att graviditeten varar mellan 240 och 280 dagar?</p>",
+        "s": "<p>Med räknaren: \\(P(240\\lt x\\lt280)\\approx0{,}76\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}76\\)</p>",
+        "ledtrad": "<p>Använd normalfördelningsfunktionen på räknaren.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att graviditeten varar längre än 285 dagar?",
+        "t": "<p>Graviditetens längd \\(x\\) dagar är normalfördelad med medelvärdet 266 dagar och standardavvikelsen 16 dagar. Svara med två decimaler.</p><p>Hur stor är sannolikheten att graviditeten varar längre än 285 dagar?</p>",
+        "s": "<p>\\(P(x\\gt285)\\approx0{,}12\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}12\\)</p>",
+        "ledtrad": "<p>Använd komplementet eller en övre gräns långt bort.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Normalfördelning med räknare.</p>",
+    "traningsniva": 2,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "C",
+    "typ": "bestämma gräns i normalfördelning",
+    "poang": "0/2/0",
+    "t": "<p>Livslängden \\(x\\) h för en glödlampa är normalfördelad med \\(\\mu=800\\) h och \\(\\sigma=39\\) h. Tillverkaren vill påstå att 90 % av lamporna lyser mer än \\(X\\) h.</p><p>Bestäm \\(X\\). Avrunda till heltal.</p>",
+    "s": "<p>\\(P(x\\gt X)=0{,}90\\iff P(x\\le X)=0{,}10\\). Med räknarens invers: \\(X\\approx800-1{,}28\\cdot39\\approx750\\) h.</p><p><strong>Svar:</strong> cirka 750 h</p>",
+    "id": "4.544",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalisera täthetsfunktion och bestäm parameter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 750,
+    "tolerans": 1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Formulera villkoret som \\(P(x\\le X)\\) och använd inversen.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
+    "niva": "A",
+    "typ": "symmetriskt intervall i normalfördelning",
+    "poang": "0/1/1",
+    "t": "<p>Längden hos 15-åriga pojkar är normalfördelad med \\(\\mu=171\\) cm och \\(\\sigma=7\\) cm. Bestäm \\(a\\) så att 80 % av pojkarna har en längd i intervallet \\(171\\pm a\\) cm. Svara med en decimal.</p>",
+    "s": "<p>10 % ska ligga under \\(171-a\\). Inversen ger \\(171-a\\approx171-1{,}28\\cdot7\\), alltså \\(a\\approx9{,}0\\) cm.</p><p><strong>Svar:</strong> \\(a\\approx9{,}0\\) cm</p>",
+    "id": "4.545",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalisera täthetsfunktion och bestäm parameter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.97,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur stor andel ligger under intervallet?</p>",
+    "traningsniva": 4,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
+    "arbetsinsats": 2
+  },
+  {
     "id": "3.21",
     "kap": 4,
     "omr": "skivmetoden",

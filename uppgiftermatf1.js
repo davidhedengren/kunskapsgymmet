@@ -36640,6 +36640,743 @@ window.BANKMATF1 = [
   },
   {
     "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "E",
+    "typ": "relaterade hastigheter",
+    "poang": "2/0/0",
+    "t": "<p>Arean av en cirkel minskar med 0,55 m²/s. Bestäm \\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\) när radien är 7,5 m. Svara i cm/s med två värdesiffror.</p>",
+    "s": "<p>\\(A=\\pi r^2\\Rightarrow\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi r\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\).</p><p>\\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=\\dfrac{-0{,}55}{2\\pi\\cdot7{,}5}\\approx-0{,}012\\) m/s \\(=-1{,}2\\) cm/s.</p><p><strong>Svar:</strong> −1,2 cm/s</p>",
+    "id": "3.289",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": -1.17,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Derivera \\(A=\\pi r^2\\) med avseende på tiden.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "cm/s"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "E",
+    "typ": "relaterade hastigheter",
+    "poang": "1/1/0",
+    "t": "<p>Radien i en cirkel ökar med 12 mm/h. Hur snabbt ökar arean när arean är 25 cm²? Svara i cm²/h med två värdesiffror.</p>",
+    "s": "<p>\\(r=\\sqrt{25/\\pi}\\approx2{,}82\\) cm och \\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=1{,}2\\) cm/h.</p><p>\\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi r\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\approx2\\pi\\cdot2{,}82\\cdot1{,}2\\approx21\\).</p><p><strong>Svar:</strong> cirka 21 cm²/h</p>",
+    "id": "3.290",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 21.3,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm radien ur arean. Se upp med enheterna.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "cm²/h"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "E",
+    "typ": "relaterade hastigheter",
+    "poang": "2/0/0",
+    "t": "<p>Arean av en kvadrat ökar med 1,00 m²/min. Hur snabbt ökar sidan när sidan är 25 cm? Svara i m/min.</p>",
+    "s": "<p>\\(A=x^2\\Rightarrow\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2x\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}\\).</p><p>\\(\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{1{,}00}{2\\cdot0{,}25}=2{,}0\\).</p><p><strong>Svar:</strong> 2,0 m/min</p>",
+    "id": "3.291",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Derivera \\(A=x^2\\) med avseende på tiden och räkna i meter.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/min"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "E",
+    "typ": "relaterade hastigheter",
+    "poang": "1/1/0",
+    "t": "<p>Den totala begränsningsarean av en kub minskar med 9,0 cm²/s. Bestäm \\(\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}\\) för kubens sida \\(x\\) när volymen är 125 cm³.</p>",
+    "s": "<p>\\(V=125\\Rightarrow x=5{,}0\\) cm. \\(A=6x^2\\Rightarrow\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=12x\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}\\).</p><p>\\(\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{-9{,}0}{12\\cdot5{,}0}=-0{,}15\\).</p><p><strong>Svar:</strong> −0,15 cm/s</p>",
+    "id": "3.292",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.15,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>En kub har sex sidoytor. Bestäm sidan ur volymen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "cm/s"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "0/2/0",
+    "t": "<p>En kub har volymen 0,125 m³, och volymen ökar med 0,25 m³/h. Hur snabbt ökar kubens totala begränsningsarea?</p>",
+    "s": "<p>\\(x=\\sqrt[3]{0{,}125}=0{,}5\\) m. \\(V=x^3\\Rightarrow\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{0{,}25}{3\\cdot0{,}5^2}=\\dfrac13\\) m/h.</p><p>\\(A=6x^2\\Rightarrow\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=12x\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=12\\cdot0{,}5\\cdot\\dfrac13=2{,}0\\).</p><p><strong>Svar:</strong> 2,0 m²/h</p>",
+    "id": "3.293",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gå via kubens sida: bestäm först hur snabbt sidan växer.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m²/h"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "1/1/0",
+    "t": "<p>En sfärisk ballong har volymen 50 liter. Genom ett litet hål minskar volymen med 0,75 liter per minut. Bestäm \\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\) i detta ögonblick. Svara i mm/min med två värdesiffror.</p>",
+    "s": "<p>Räkna i dm: \\(V=\\tfrac43\\pi r^3=50\\Rightarrow r\\approx2{,}285\\) dm.</p><p>\\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=4\\pi r^2\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\Rightarrow\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=\\dfrac{-0{,}75}{4\\pi\\cdot2{,}285^2}\\approx-0{,}011\\) dm/min.</p><p><strong>Svar:</strong> −1,1 mm/min</p>",
+    "id": "3.294",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": -1.14,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>1 liter är 1 dm³. Bestäm radien ur volymen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "mm/min"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "E",
+    "typ": "relaterade hastigheter",
+    "poang": "1/1/0",
+    "t": "<p>Vatten rinner ner i ett cylinderformat mätglas med radien 0,50 cm med hastigheten 3,0 cm³/s. Hur snabbt stiger vattenytan när vattnet står 7,0 cm högt? Svara med två värdesiffror.</p>",
+    "s": "<p>\\(V=\\pi r^2h=0{,}25\\pi h\\Rightarrow\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=0{,}25\\pi\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\).</p><p>\\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{3{,}0}{0{,}25\\pi}\\approx3{,}8\\) cm/s. Höjden 7,0 cm påverkar inte svaret, eftersom glaset är lika brett överallt.</p><p><strong>Svar:</strong> cirka 3,8 cm/s</p>",
+    "id": "3.295",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.82,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck volymen som funktion av höjden. Behöver du verkligen höjden 7,0 cm?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "cm/s"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "0/2/1",
+    "t": "<p>En konformad vas står med spetsen nedåt. Vasens höjd är dubbelt så stor som öppningens diameter. Man fyller på vatten med 30 cm³/s. Hur snabbt stiger vattenytan när vattnet står 5,0 cm högt? Svara med två värdesiffror.</p>",
+    "s": "<p>Vattnet bildar en mindre kon med samma form: höjden är fyra gånger radien, \\(r=\\dfrac h4\\).</p><p>\\(V=\\dfrac{\\pi r^2h}{3}=\\dfrac{\\pi h^3}{48}\\Rightarrow\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=\\dfrac{\\pi h^2}{16}\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\).</p><p>\\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{30\\cdot16}{\\pi\\cdot5{,}0^2}\\approx6{,}1\\).</p><p><strong>Svar:</strong> cirka 6,1 cm/s</p>",
+    "id": "3.296",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.11,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck radien i höjden med hjälp av likformighet, så att volymen bara beror på \\(h\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "cm/s"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "jämföra två kroppar",
+    "poang": "1/2/0",
+    "t": "<p>En kub och ett klot har samma volym. Båda volymerna ökar med 4,0 cm³/s. Just nu är kubens sida 12 cm.</p><ol type=\"a\"><li>Hur snabbt ökar kubens sida? Svara i µm/s med två värdesiffror.</li><li>Hur snabbt ökar klotets radie? Svara i µm/s med två värdesiffror.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=x^3\\Rightarrow\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{4{,}0}{3\\cdot12^2}\\approx0{,}0093\\) cm/s \\(=93\\) µm/s.</p><p><strong>Svar:</strong> cirka 93 µm/s</p></li><li><p>Klotets volym är \\(12^3=1\\,728\\) cm³, så \\(r=\\sqrt[3]{\\dfrac{3\\cdot1\\,728}{4\\pi}}\\approx7{,}44\\) cm.</p><p>\\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=\\dfrac{4{,}0}{4\\pi r^2}\\approx0{,}0057\\) cm/s \\(=57\\) µm/s.</p><p><strong>Svar:</strong> cirka 57 µm/s</p></li></ol>",
+    "id": "3.297",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      92.6,
+      57.5
+    ],
+    "tolerans": [
+      0.6,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "µm/s",
+      "µm/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kub och ett klot har samma volym. Båda volymerna ökar med 4,0 cm³/s. Just nu är kubens sida 12 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur snabbt ökar kubens sida? Svara i µm/s med två värdesiffror.",
+        "t": "<p>En kub och ett klot har samma volym. Båda volymerna ökar med 4,0 cm³/s. Just nu är kubens sida 12 cm.</p><p>Hur snabbt ökar kubens sida? Svara i µm/s med två värdesiffror.</p>",
+        "s": "<p>\\(V=x^3\\Rightarrow\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{4{,}0}{3\\cdot12^2}\\approx0{,}0093\\) cm/s \\(=93\\) µm/s.</p><p><strong>Svar:</strong> cirka 93 µm/s</p>",
+        "ledtrad": "<p>Derivera \\(V=x^3\\). 1 cm = 10 000 µm.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur snabbt ökar klotets radie? Svara i µm/s med två värdesiffror.",
+        "t": "<p>En kub och ett klot har samma volym. Båda volymerna ökar med 4,0 cm³/s. Just nu är kubens sida 12 cm.</p><p>Hur snabbt ökar klotets radie? Svara i µm/s med två värdesiffror.</p>",
+        "s": "<p>Klotets volym är \\(12^3=1\\,728\\) cm³, så \\(r=\\sqrt[3]{\\dfrac{3\\cdot1\\,728}{4\\pi}}\\approx7{,}44\\) cm.</p><p>\\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=\\dfrac{4{,}0}{4\\pi r^2}\\approx0{,}0057\\) cm/s \\(=57\\) µm/s.</p><p><strong>Svar:</strong> cirka 57 µm/s</p>",
+        "ledtrad": "<p>Bestäm klotets radie ur volymen \\(12^3\\) cm³.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Derivera volymformlerna med avseende på tiden.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "E",
+    "typ": "växande cirkulär våg",
+    "poang": "2/0/0",
+    "t": "<p>En sten kastas i en sjö. En cirkulär våg rör sig utåt från nedslagsplatsen med den konstanta farten 1,0 m/s.</p><ol type=\"a\"><li>Hur snabbt ökar arean innanför vågen efter 2,0 s? Svara med två värdesiffror.</li><li>Hur snabbt ökar arean innanför vågen efter 4,0 s? Svara med två värdesiffror.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=t\\), så \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi r\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=2\\pi\\cdot2{,}0\\cdot1{,}0\\approx13\\).</p><p><strong>Svar:</strong> cirka 13 m²/s</p></li><li><p>\\(r=4{,}0\\) m: \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi\\cdot4{,}0\\cdot1{,}0\\approx25\\). Areaökningen växer alltså med tiden trots att vågen rör sig med konstant fart.</p><p><strong>Svar:</strong> cirka 25 m²/s</p></li></ol>",
+    "id": "3.298",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12.566370614359172,
+      25.132741228718345
+    ],
+    "tolerans": [
+      0.6,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m²/s",
+      "m²/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sten kastas i en sjö. En cirkulär våg rör sig utåt från nedslagsplatsen med den konstanta farten 1,0 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur snabbt ökar arean innanför vågen efter 2,0 s? Svara med två värdesiffror.",
+        "t": "<p>En sten kastas i en sjö. En cirkulär våg rör sig utåt från nedslagsplatsen med den konstanta farten 1,0 m/s.</p><p>Hur snabbt ökar arean innanför vågen efter 2,0 s? Svara med två värdesiffror.</p>",
+        "s": "<p>\\(r=t\\), så \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi r\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=2\\pi\\cdot2{,}0\\cdot1{,}0\\approx13\\).</p><p><strong>Svar:</strong> cirka 13 m²/s</p>",
+        "ledtrad": "<p>Hur stor är radien efter 2,0 s?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur snabbt ökar arean innanför vågen efter 4,0 s? Svara med två värdesiffror.",
+        "t": "<p>En sten kastas i en sjö. En cirkulär våg rör sig utåt från nedslagsplatsen med den konstanta farten 1,0 m/s.</p><p>Hur snabbt ökar arean innanför vågen efter 4,0 s? Svara med två värdesiffror.</p>",
+        "s": "<p>\\(r=4{,}0\\) m: \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi\\cdot4{,}0\\cdot1{,}0\\approx25\\). Areaökningen växer alltså med tiden trots att vågen rör sig med konstant fart.</p><p><strong>Svar:</strong> cirka 25 m²/s</p>",
+        "ledtrad": "<p>Hur stor är radien efter 4,0 s?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Derivera \\(A=\\pi r^2\\) med avseende på tiden.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "E",
+    "typ": "relaterade hastigheter",
+    "poang": "2/0/0",
+    "t": "<p>En klotformad vattenmelon med radien 15 cm har glömts på en hylla. Radien minskar med 0,70 cm per vecka. Bestäm \\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}\\) i detta ögonblick. Svara i cm³/vecka med två värdesiffror.</p>",
+    "s": "<p>\\(V=\\tfrac43\\pi r^3\\Rightarrow\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=4\\pi r^2\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=4\\pi\\cdot15^2\\cdot(-0{,}70)\\approx-2\\,000\\).</p><p><strong>Svar:</strong> cirka −2 000 cm³/vecka</p>",
+    "id": "3.299",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": -1979.2033717615695,
+    "tolerans": 60,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Derivera klotets volymformel med avseende på tiden.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "cm³/vecka"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "0/2/0",
+    "t": "<p>Luft pumpas in i en sfärisk ballong med hastigheten \\(6\\pi\\) m³/min. Hur snabbt ökar ballongens area när radien är 2,0 m? Svara exakt.</p>",
+    "s": "<p>\\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=4\\pi r^2\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\Rightarrow\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=\\dfrac{6\\pi}{4\\pi\\cdot4}=\\dfrac38\\) m/min.</p><p>\\(A=4\\pi r^2\\Rightarrow\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=8\\pi r\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=8\\pi\\cdot2\\cdot\\dfrac38=6\\pi\\).</p><p><strong>Svar:</strong> \\(6\\pi\\) m²/min</p>",
+    "id": "3.300",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "uttryck",
+    "rättSvar": "6*pi",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först hur snabbt radien växer. Använd sedan areaformeln.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m²/min"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "1/1/0",
+    "t": "<p>Olja från ett läckande fartyg bildar en cirkulär fläck med den konstanta tjockleken 6,0 cm. När diametern är 300 m ökar den med 4,0 m/h. Hur snabbt läcker oljan ut då? Svara i m³/h med två värdesiffror.</p>",
+    "s": "<p>\\(V=0{,}060\\cdot\\pi r^2\\), där \\(r=150\\) m och \\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=2{,}0\\) m/h.</p><p>\\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=0{,}060\\cdot2\\pi r\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=0{,}060\\cdot2\\pi\\cdot150\\cdot2{,}0\\approx110\\).</p><p><strong>Svar:</strong> cirka 110 m³/h</p>",
+    "id": "3.301",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 113.09733552923255,
+    "tolerans": 6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fläcken är en mycket platt cylinder. Diametern ökar dubbelt så snabbt som radien.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m³/h"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "A",
+    "typ": "relaterade hastigheter",
+    "poang": "0/1/2",
+    "t": "<p>Vete rinner ut ur en silo med konstant hastighet och bildar en konformad hög. Högens bottenradie är hela tiden tre gånger så stor som höjden. Efter 1,0 minut är högen 20 cm hög. Hur snabbt ökar höjden då? Svara i mm/s med två värdesiffror.</p>",
+    "s": "<p>\\(r=3h\\Rightarrow V=\\dfrac{\\pi(3h)^2h}{3}=3\\pi h^3\\). Efter 1,0 min är \\(V=3\\pi\\cdot0{,}20^3\\) m³, så flödet är \\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=3\\pi\\cdot0{,}20^3\\) m³/min.</p><p>\\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=9\\pi h^2\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\Rightarrow\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{3\\pi\\cdot0{,}008}{9\\pi\\cdot0{,}04}\\approx0{,}067\\) m/min \\(\\approx1{,}1\\) mm/s.</p><p><strong>Svar:</strong> cirka 1,1 mm/s</p>",
+    "id": "3.302",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.11,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Det konstanta flödet får du ur högens volym efter 1,0 minut.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "mm/s"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "0/2/1",
+    "t": "<span class=\"fig\"><svg width=\"380\" height=\"210\" viewBox=\"0 0 380 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett tråg format som ett prisma. Gaveln är en likbent triangel med spetsen nedåt, bredden 3,0 m upptill och djupet 4,0 m. Tråget är 10,0 m långt. Vattnet står 1,0 m över botten.\"><g transform=\"translate(44,0)\"><polygon points=\"40,40 130,40 85,190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><polygon points=\"200,15 290,15 245,165\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><line x1=\"40\" y1=\"40\" x2=\"200\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"40\" x2=\"290\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"190\" x2=\"245\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"73.75,152.5 96.25,152.5 85,190\" fill=\"#5aa0e6\" fill-opacity=\"0.55\" stroke=\"#2f78c4\" stroke-width=\"1\"/><line x1=\"22\" y1=\"40\" x2=\"22\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"16\" y=\"120\" text-anchor=\"end\" font-size=\"13\" fill=\"currentColor\">4,0 m</text><text x=\"85\" y=\"31\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">3,0 m</text><text x=\"214\" y=\"196\" font-size=\"13\" fill=\"currentColor\">10,0 m</text><line x1=\"104\" y1=\"152.5\" x2=\"104\" y2=\"190\" stroke=\"#2f78c4\" stroke-width=\"1\"/><text x=\"110\" y=\"177\" font-size=\"12\" fill=\"#2f78c4\">1,0 m</text></g></svg></span><p>Ett tråg har formen av ett prisma, 10,0 m långt. Gaveln är en likbent triangel med spetsen nedåt, 3,0 m bred upptill och 4,0 m djup. Vatten rinner ut i botten med 5,0 m³/min. Bestäm \\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\) när vattnet står 1,0 m över botten. Svara med två värdesiffror.</p>",
+    "s": "<p>Vid djupet \\(h\\) är vattenytans bredd \\(\\dfrac34h\\) (likformighet). Tvärsnittsarean är \\(\\dfrac12\\cdot\\dfrac34h\\cdot h=\\dfrac38h^2\\) och \\(V=10\\cdot\\dfrac38h^2=\\dfrac{15}{4}h^2\\).</p><p>\\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=7{,}5h\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\Rightarrow\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{-5{,}0}{7{,}5\\cdot1{,}0}\\approx-0{,}67\\).</p><p><strong>Svar:</strong> cirka −0,67 m/min</p>",
+    "id": "3.303",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.6666666666666666,
+    "tolerans": 0.006,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd likformighet för att uttrycka vattenytans bredd i djupet \\(h\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/min"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "vätska i kon",
+    "poang": "1/3/0",
+    "t": "<p>En kon med spetsen nedåt har öppningens diameter 6,0 m och höjden 8,0 m. Vatten rinner ut genom spetsen med 0,20 m³/h.</p><ol type=\"a\"><li>Bestäm \\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\) när vattnet står 5,0 m högt. Svara i cm/h med två värdesiffror.</li><li>Bestäm \\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\) för vattenytans radie när vattnet står 5,0 m högt. Svara i cm/h med två värdesiffror.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Likformighet: \\(r=\\dfrac{3}{8}h\\), så \\(V=\\dfrac{\\pi}{3}\\left(\\dfrac{3h}{8}\\right)^2h=\\dfrac{3\\pi h^3}{64}\\).</p><p>\\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=\\dfrac{9\\pi h^2}{64}\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\Rightarrow\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{-0{,}20\\cdot64}{9\\pi\\cdot25}\\approx-0{,}018\\) m/h.</p><p><strong>Svar:</strong> cirka −1,8 cm/h</p></li><li><p>\\(r=\\dfrac38h\\), \\(V=\\dfrac{3\\pi h^3}{64}\\) och \\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{-0{,}20\\cdot64}{9\\pi\\cdot25}\\approx-0{,}0181\\) m/h.</p><p>\\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=\\dfrac38\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\approx-0{,}0068\\) m/h.</p><p><strong>Svar:</strong> cirka −0,68 cm/h</p></li></ol>",
+    "id": "3.304",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1.81,
+      -0.679
+    ],
+    "tolerans": [
+      0.06,
+      0.006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "cm/h",
+      "cm/h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kon med spetsen nedåt har öppningens diameter 6,0 m och höjden 8,0 m. Vatten rinner ut genom spetsen med 0,20 m³/h.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\) när vattnet står 5,0 m högt. Svara i cm/h med två värdesiffror.",
+        "t": "<p>En kon med spetsen nedåt har öppningens diameter 6,0 m och höjden 8,0 m. Vatten rinner ut genom spetsen med 0,20 m³/h.</p><p>Bestäm \\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\) när vattnet står 5,0 m högt. Svara i cm/h med två värdesiffror.</p>",
+        "s": "<p>Likformighet: \\(r=\\dfrac{3}{8}h\\), så \\(V=\\dfrac{\\pi}{3}\\left(\\dfrac{3h}{8}\\right)^2h=\\dfrac{3\\pi h^3}{64}\\).</p><p>\\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=\\dfrac{9\\pi h^2}{64}\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\Rightarrow\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{-0{,}20\\cdot64}{9\\pi\\cdot25}\\approx-0{,}018\\) m/h.</p><p><strong>Svar:</strong> cirka −1,8 cm/h</p>",
+        "ledtrad": "<p>Uttryck vattenytans radie i höjden med likformighet.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\) för vattenytans radie när vattnet står 5,0 m högt. Svara i cm/h med två värdesiffror.",
+        "t": "<p>En kon med spetsen nedåt har öppningens diameter 6,0 m och höjden 8,0 m. Vatten rinner ut genom spetsen med 0,20 m³/h.</p><p>Bestäm \\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\) för vattenytans radie när vattnet står 5,0 m högt. Svara i cm/h med två värdesiffror.</p>",
+        "s": "<p>\\(r=\\dfrac38h\\), \\(V=\\dfrac{3\\pi h^3}{64}\\) och \\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{-0{,}20\\cdot64}{9\\pi\\cdot25}\\approx-0{,}0181\\) m/h.</p><p>\\(\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=\\dfrac38\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\approx-0{,}0068\\) m/h.</p><p><strong>Svar:</strong> cirka −0,68 cm/h</p>",
+        "ledtrad": "<p>Radien och höjden hänger ihop genom likformighet.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Använd likformighet mellan vattnet och hela konen.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "0/2/0",
+    "t": "<p>Kroppens hudarea \\(A\\) m² kan uppskattas med Mostellers formel \\[A=\\frac{\\sqrt{hm}}{60},\\] där \\(h\\) är längden i cm och \\(m\\) massan i kg. Bengt är 165 cm lång och går ned 2,0 kg i månaden. Bestäm \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}\\) när han väger 70 kg. Svara i m²/månad med två värdesiffror.</p>",
+    "s": "<p>Med \\(h=165\\) konstant: \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=\\dfrac{1}{60}\\cdot\\dfrac{h}{2\\sqrt{hm}}\\cdot\\dfrac{\\mathrm{d}m}{\\mathrm{d}t}=\\dfrac{165}{120\\sqrt{165\\cdot70}}\\cdot(-2{,}0)\\approx-0{,}026\\).</p><p><strong>Svar:</strong> cirka −0,026 m²/månad</p>",
+    "id": "3.305",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.02558831578595795,
+    "tolerans": 0.0006,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Längden är konstant. Derivera med kedjeregeln.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m²/månad"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "triangel med två varierande sidor",
+    "poang": "0/4/0",
+    "t": "<p>I en rätvinklig triangel är den ena kateten 12 cm och ökar med 3,0 cm/h, medan den andra kateten är 16 cm och minskar med 3,0 cm/h.</p><ol type=\"a\"><li>Bestäm hur snabbt hypotenusan förändras. (Ett negativt svar betyder att den minskar.)</li><li>Bestäm hur snabbt triangelns area förändras.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s^2=x^2+y^2\\Rightarrow2s\\,s^{\\prime}=2x\\,x^{\\prime}+2y\\,y^{\\prime}\\). Här är \\(s=20\\).</p><p>\\(s^{\\prime}=\\dfrac{12\\cdot3{,}0+16\\cdot(-3{,}0)}{20}=-0{,}60\\).</p><p><strong>Svar:</strong> −0,60 cm/h (hypotenusan minskar)</p></li><li><p>\\(A=\\dfrac{xy}{2}\\Rightarrow A^{\\prime}=\\dfrac{x^{\\prime}y+xy^{\\prime}}{2}=\\dfrac{3{,}0\\cdot16+12\\cdot(-3{,}0)}{2}=6{,}0\\).</p><p><strong>Svar:</strong> 6,0 cm²/h (arean ökar)</p></li></ol>",
+    "id": "3.306",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -0.6,
+      6.0
+    ],
+    "tolerans": [
+      0.006,
+      0.01
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "cm/h",
+      "cm²/h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en rätvinklig triangel är den ena kateten 12 cm och ökar med 3,0 cm/h, medan den andra kateten är 16 cm och minskar med 3,0 cm/h.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm hur snabbt hypotenusan förändras. (Ett negativt svar betyder att den minskar.)",
+        "t": "<p>I en rätvinklig triangel är den ena kateten 12 cm och ökar med 3,0 cm/h, medan den andra kateten är 16 cm och minskar med 3,0 cm/h.</p><p>Bestäm hur snabbt hypotenusan förändras. (Ett negativt svar betyder att den minskar.)</p>",
+        "s": "<p>\\(s^2=x^2+y^2\\Rightarrow2s\\,s^{\\prime}=2x\\,x^{\\prime}+2y\\,y^{\\prime}\\). Här är \\(s=20\\).</p><p>\\(s^{\\prime}=\\dfrac{12\\cdot3{,}0+16\\cdot(-3{,}0)}{20}=-0{,}60\\).</p><p><strong>Svar:</strong> −0,60 cm/h (hypotenusan minskar)</p>",
+        "ledtrad": "<p>Derivera Pythagoras sats med avseende på tiden.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm hur snabbt triangelns area förändras.",
+        "t": "<p>I en rätvinklig triangel är den ena kateten 12 cm och ökar med 3,0 cm/h, medan den andra kateten är 16 cm och minskar med 3,0 cm/h.</p><p>Bestäm hur snabbt triangelns area förändras.</p>",
+        "s": "<p>\\(A=\\dfrac{xy}{2}\\Rightarrow A^{\\prime}=\\dfrac{x^{\\prime}y+xy^{\\prime}}{2}=\\dfrac{3{,}0\\cdot16+12\\cdot(-3{,}0)}{2}=6{,}0\\).</p><p><strong>Svar:</strong> 6,0 cm²/h (arean ökar)</p>",
+        "ledtrad": "<p>Arean är en produkt av två storheter som båda ändras. Använd produktregeln.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Båda kateterna ändras samtidigt.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "0/2/0",
+    "t": "<p>En rektangel har arean 100 cm². Basen är 16 cm och minskar med 1,0 cm/s. Hur snabbt måste höjden öka för att arean ska vara konstant? Svara med två värdesiffror.</p>",
+    "s": "<p>\\(h=\\dfrac{100}{16}=6{,}25\\) cm. \\(A=bh\\) konstant ger \\(0=b^{\\prime}h+bh^{\\prime}\\).</p><p>\\(h^{\\prime}=-\\dfrac{b^{\\prime}h}{b}=\\dfrac{1{,}0\\cdot6{,}25}{16}\\approx0{,}39\\).</p><p><strong>Svar:</strong> cirka 0,39 cm/s</p>",
+    "id": "3.307",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.39,
+    "tolerans": 0.006,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Om arean är konstant är dess derivata noll. Använd produktregeln.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "cm/s"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "0/2/0",
+    "t": "<span class=\"fig\"><svg width=\"220\" height=\"220\" viewBox=\"0 0 220 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kvadrat med sidan 12 cm. I mitten ligger en cirkel med radien 3,0 cm. Området mellan cirkeln och kvadraten är skuggat.\"><path d=\"M20,20 H200 V200 H20 Z M155,110 A45,45 0 1,0 65,110 A45,45 0 1,0 155,110 Z\" fill=\"#5aa0e6\" fill-opacity=\"0.35\" fill-rule=\"evenodd\" stroke=\"none\"/><rect x=\"20\" y=\"20\" width=\"180\" height=\"180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><circle cx=\"110\" cy=\"110\" r=\"45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"110\" y1=\"110\" x2=\"155\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"110\" cy=\"110\" r=\"2.2\" fill=\"currentColor\"/><text x=\"132\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">3,0 cm</text><text x=\"110\" y=\"214\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">12 cm</text></svg></span><p>En cirkel med radien 3,0 cm ligger mitt i en kvadrat med sidan 12 cm. Cirkelns radie ökar med 4,0 cm/min samtidigt som kvadratens sida ökar med 2,0 cm/min. Hur snabbt förändras arean av området mellan cirkeln och kvadraten? Svara med två värdesiffror.</p>",
+    "s": "<p>\\(A=x^2-\\pi r^2\\Rightarrow A^{\\prime}=2x\\,x^{\\prime}-2\\pi r\\,r^{\\prime}=2\\cdot12\\cdot2{,}0-2\\pi\\cdot3{,}0\\cdot4{,}0\\approx48-75{,}4\\approx-27\\).</p><p>Området minskar alltså, trots att kvadraten växer.</p><p><strong>Svar:</strong> cirka −27 cm²/min</p>",
+    "id": "3.308",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": -27.398223686155035,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv det skuggade områdets area som kvadratens area minus cirkelns.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "cm²/min"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "relaterade hastigheter",
+    "poang": "0/2/0",
+    "t": "<p>En 5,0 m lång stege lutar mot en lodrät vägg. När stegens fot är 3,0 m från väggen glider foten bort från väggen med 10 m/s. Bestäm hastigheten \\(\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}\\) för stegens övre ände längs väggen.</p>",
+    "s": "<p>\\(x^2+y^2=5{,}0^2\\). När \\(x=3{,}0\\) är \\(y=4{,}0\\).</p><p>\\(2x\\,x^{\\prime}+2y\\,y^{\\prime}=0\\Rightarrow y^{\\prime}=-\\dfrac{x\\,x^{\\prime}}{y}=-\\dfrac{3{,}0\\cdot10}{4{,}0}=-7{,}5\\).</p><p><strong>Svar:</strong> −7,5 m/s</p>",
+    "id": "3.309",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": -7.5,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Stegens längd är konstant. Derivera Pythagoras sats.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "A",
+    "typ": "relaterade hastigheter",
+    "poang": "0/1/1",
+    "t": "<p>En stege lutar mot en lodrät vägg. När foten är 1,8 m från väggen glider foten bort med 8,2 m/s samtidigt som den övre änden glider nedåt med 7,6 m/s. Hur lång är stegen? Svara med två värdesiffror.</p>",
+    "s": "<p>\\(x^2+y^2=L^2\\) med \\(L\\) konstant ger \\(x\\,x^{\\prime}+y\\,y^{\\prime}=0\\).</p><p>\\(1{,}8\\cdot8{,}2+y\\cdot(-7{,}6)=0\\iff y=\\dfrac{1{,}8\\cdot8{,}2}{7{,}6}\\approx1{,}94\\) m.</p><p>\\(L=\\sqrt{1{,}8^2+1{,}94^2}\\approx2{,}6\\) m.</p><p><strong>Svar:</strong> cirka 2,6 m</p>",
+    "id": "3.310",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.647975236512909,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Stegens längd är konstant. Använd sambandet mellan hastigheterna för att bestämma höjden.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m"
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "A",
+    "typ": "relaterade hastigheter",
+    "poang": "0/1/2",
+    "t": "<p>Två cyklister lämnar samma punkt samtidigt med farterna 12 m/s och 16 m/s. Vinkeln mellan deras raka färdvägar är 120°. Hur snabbt ökar avståndet mellan dem efter 2,0 minuter? Svara med två värdesiffror.</p>",
+    "s": "<p>Efter tiden \\(t\\) är sträckorna \\(12t\\) och \\(16t\\). Cosinussatsen ger \\(s^2=(12t)^2+(16t)^2-2\\cdot12t\\cdot16t\\cos120°=592t^2\\).</p><p>\\(s=\\sqrt{592}\\,t\\approx24{,}3t\\), så \\(s^{\\prime}\\approx24\\) m/s, oberoende av tiden.</p><p><strong>Svar:</strong> cirka 24 m/s</p>",
+    "id": "3.311",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Relaterade förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24.331050121192877,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck avståndet med cosinussatsen som funktion av tiden.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s"
+  },
+  {
+    "kap": 3,
     "omr": "generaliserade_integraler",
     "niva": "E",
     "typ": "generaliserad integral – standardfall",

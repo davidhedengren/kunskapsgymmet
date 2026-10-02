@@ -21576,6 +21576,36 @@ window.BANKMA1 = [
     "tolerans": 6e-16
   },
   {
+    "id": "0.1078",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Den närmaste stjärnan, Proxima Centauri, ligger 4,24 ljusår bort. Ett ljusår är \\(9{,}46\\cdot10^{15}\\) m. Rymdsonden Voyager 1 färdas med ungefär 17 km/s.</p><p>Hur många år skulle Voyager 1 behöva för att nå Proxima Centauri? Ett år är cirka \\(3{,}16\\cdot10^7\\) s. Svara i grundpotensform med två värdesiffror.</p>",
+    "s": "<p>Avstånd: \\(4{,}24\\cdot9{,}46\\cdot10^{15}\\approx4{,}01\\cdot10^{16}\\) m.</p><p>Fart: 17 km/s \\(=1{,}7\\cdot10^4\\) m/s.</p><p>Tid: \\(\\dfrac{4{,}01\\cdot10^{16}}{1{,}7\\cdot10^4}\\approx2{,}36\\cdot10^{12}\\) s.</p><p>I år: \\(\\dfrac{2{,}36\\cdot10^{12}}{3{,}16\\cdot10^7}\\approx7{,}5\\cdot10^4\\) år, alltså ungefär 75 000 år.</p><p><strong>Svar:</strong> cirka \\(7{,}5\\cdot10^4\\) år</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör om allt till meter och sekunder och räkna i grundpotensform. Dela mantissor och tiopotenser för sig.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 74700.0,
+    "tolerans": 1000.0,
+    "svarEnhet": "år"
+  },
+  {
     "id": "0.754",
     "kap": 0,
     "omr": "prefix",
@@ -21809,6 +21839,36 @@ window.BANKMA1 = [
     "rättSvar": 4,
     "tolerans": null,
     "svarEnhet": "ml"
+  },
+  {
+    "id": "0.1077",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett mobilbatteri har kapaciteten 4 500 mAh och spänningen 3,8 V. Den lagrade energin är \\(E=U\\cdot Q\\), där \\(Q\\) är laddningen i ampersekunder (As) och \\(E\\) blir i joule.</p><p>Hur många kilojoule energi lagrar batteriet? Svara med en decimal.</p>",
+    "s": "<p>4 500 mAh \\(=4{,}5\\) Ah. En timme är 3 600 s, så \\(Q=4{,}5\\cdot3\\,600=16\\,200\\) As.</p><p>\\(E=3{,}8\\cdot16\\,200=61\\,560\\) J \\(\\approx61{,}6\\) kJ.</p><p>Det är ungefär lika mycket energi som det krävs för att lyfta 100 kg 60 meter.</p><p><strong>Svar:</strong> cirka 61,6 kJ</p>",
+    "familj": "Välja och kontrollera beräkningar med prefix",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör om mAh till ampersekunder: milli betyder tusendel och en timme är 3 600 s.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 61.56,
+    "tolerans": 0.1,
+    "svarEnhet": "kJ"
   },
   {
     "id": "0.758",
@@ -40822,6 +40882,65 @@ window.BANKMA1 = [
     "svarFormat": "uttryck"
   },
   {
+    "id": "1.1120",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Det gäller att \\(a+b=7\\) och \\(ab=10\\).</p><p>Beräkna \\(a^2b+ab^2\\) utan att först bestämma \\(a\\) och \\(b\\).</p>",
+    "s": "<p>Bryt ut den gemensamma faktorn \\(ab\\):</p><p>\\[a^2b+ab^2=ab(a+b)=10\\cdot7=70.\\]</p><p>Kontroll: \\(a=2\\) och \\(b=5\\) uppfyller villkoren, och \\(4\\cdot5+2\\cdot25=70\\).</p><p><strong>Svar:</strong> 70</p>",
+    "familj": "Värdet av ett uttryck",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken faktor har båda termerna gemensam?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
+    "tolerans": null
+  },
+  {
+    "id": "1.1121",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En vuxenbiljett kostar \\(x\\) kr. En barnbiljett är 40 % billigare.</p><p>Teckna ett förenklat uttryck för vad 2 vuxenbiljetter och 3 barnbiljetter kostar tillsammans.</p>",
+    "s": "<p>En barnbiljett kostar \\(0{,}6x\\) kr.</p><p>\\(2x+3\\cdot0{,}6x=2x+1{,}8x=3{,}8x\\).</p><p><strong>Svar:</strong> \\(3{,}8x\\) kr</p>",
+    "familj": "Teckna och tolka uttryck",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>40 % billigare betyder att man betalar 60 % av priset.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "uttryck",
+    "rättSvar": "3.8x",
+    "tolerans": null,
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.1035",
     "kap": 1,
     "omr": "forenkla_uttryck",
@@ -41844,6 +41963,35 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
+    "tolerans": null
+  },
+  {
+    "id": "1.1125",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Hälften av ett tal plus en tredjedel av talet plus en fjärdedel av talet är 26 mer än talet självt.</p><p>Vilket är talet?</p>",
+    "s": "<p>\\[\\frac x2+\\frac x3+\\frac x4=x+26.\\]</p><p>Vänster led är \\(\\frac{6x+4x+3x}{12}=\\frac{13x}{12}\\). Då är \\(\\frac{13x}{12}-x=\\frac{x}{12}=26\\), alltså \\(x=312\\).</p><p>Kontroll: \\(156+104+78=338=312+26\\).</p><p><strong>Svar:</strong> 312</p>",
+    "familj": "Lösa enkla ekvationer",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ställ upp en ekvation och skriv vänster led med gemensam nämnare 12.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 312,
     "tolerans": null
   },
   {
@@ -75602,6 +75750,34 @@ window.BANKMA1 = [
     "svarsstruktur": "mängd"
   },
   {
+    "id": "3.546",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En bil tappar 15 % av sitt värde varje år.</p><p>Efter hur många hela år har bilen förlorat mer än två tredjedelar av sitt ursprungliga värde?</p>",
+    "s": "<p>Efter \\(n\\) år är värdet \\(0{,}85^n\\) av det ursprungliga. Mer än två tredjedelar förlorat betyder att mindre än en tredjedel är kvar:</p><p>\\[0{,}85^n&lt;\\frac13\\approx0{,}333.\\]</p><p>Prövning: \\(0{,}85^6\\approx0{,}377\\) och \\(0{,}85^7\\approx0{,}321\\).</p><p>Efter 7 år har bilen alltså förlorat mer än två tredjedelar.</p><p><strong>Svar:</strong> efter 7 år</p>",
+    "familj": "Ekvationer med okänd exponent",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor andel av värdet finns kvar efter \\(n\\) år? Pröva olika \\(n\\) eller rita en graf.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null
+  },
+  {
     "id": "3.440",
     "kap": 3,
     "omr": "procent",
@@ -76664,6 +76840,34 @@ window.BANKMA1 = [
     "rättSvar": 62.1,
     "tolerans": 0.01,
     "svarEnhet": "kr"
+  },
+  {
+    "id": "3.545",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett prisindex har basåret 2015 (index 100). År 2020 var indexet 112 och år 2024 var det 140.</p><p>Statistikmyndigheten byter basår till 2020, som då får index 100. Vilket index får år 2024 med det nya basåret?</p>",
+    "s": "<p>Det som ska bevaras är förhållandet mellan priserna åren 2024 och 2020: \\(\\frac{140}{112}=1{,}25\\).</p><p>Med 2020 som 100 blir 2024 \\(1{,}25\\cdot100=125\\).</p><p>Fel svar vore \\(140-12=128\\). Indexenheter kan inte subtraheras rakt av när basen byts.</p><p><strong>Svar:</strong> 125</p>",
+    "familj": "Index och priser",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många procent högre var priserna 2024 än 2020? Det förhållandet ändras inte när basåret byts.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 125,
+    "tolerans": null
   },
   {
     "id": "3.471",
@@ -89545,6 +89749,33 @@ window.BANKMA1 = [
     "svarEnhet": "°"
   },
   {
+    "id": "4.579",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En 6,0 m lång stege står lutad mot en lodrät vägg och bildar vinkeln \\(75^\\circ\\) med marken. Stegens fot glider 1,0 m längre ut från väggen, och stegens topp är fortfarande mot väggen.</p><p>Vilken vinkel bildar stegen med marken nu? Svara i grader med en decimal.</p>",
+    "s": "<p>Från början står foten \\(6{,}0\\cdot\\cos75^\\circ\\approx1{,}553\\) m från väggen.</p><p>Efter glidningen är avståndet \\(2{,}553\\) m. Stegen är fortfarande 6,0 m lång, och den är hypotenusa:</p><p>\\[\\cos v=\\frac{2{,}553}{6{,}0}\\approx0{,}4255\\;\\Rightarrow\\;v\\approx64{,}8^\\circ.\\]</p><p><strong>Svar:</strong> cirka \\(64{,}8^\\circ\\)</p>",
+    "familj": "Vinkel ur sidor och figurer",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först avståndet från väggen till foten. Vilket trigonometriskt samband kopplar ihop det avståndet, stegens längd och vinkeln?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 64.8,
+    "tolerans": 0.1,
+    "svarEnhet": "°"
+  },
+  {
     "id": "4.443",
     "kap": 4,
     "omr": "strackor_vinklar",
@@ -89950,6 +90181,34 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 102.2,
     "tolerans": 0.6,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.584",
+    "kap": 4,
+    "omr": "strackor_vinklar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Från toppen av en 40 m hög klippa ser man två båtar som ligger rakt ut från klippan, i samma riktning. Sänkningsvinkeln mot den närmaste båten är \\(30^\\circ\\) och mot den bortre båten \\(20^\\circ\\).</p><p>Hur långt är det mellan båtarna? Svara i meter med en decimal.</p>",
+    "s": "<p>Sänkningsvinkeln från toppen är lika stor som höjdvinkeln från båten upp mot toppen (alternatvinklar).</p><p>Avstånd till närmaste båten: \\(\\frac{40}{\\tan30^\\circ}\\approx69{,}28\\) m.</p><p>Avstånd till bortre båten: \\(\\frac{40}{\\tan20^\\circ}\\approx109{,}90\\) m.</p><p>Avståndet mellan båtarna: \\(109{,}90-69{,}28\\approx40{,}6\\) m.</p><p><strong>Svar:</strong> cirka 40,6 m</p>",
+    "familj": "Vinklar i tillämpningar",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita en figur med två rätvinkliga trianglar som har klippan som gemensam katet.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40.6,
+    "tolerans": 0.1,
     "svarEnhet": "m"
   },
   {
@@ -90522,6 +90781,41 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 10,
     "tolerans": null
+  },
+  {
+    "id": "4.580",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>\\(ABCD\\) är en parallellogram med \\(A=(1,\\,1)\\), \\(B=(6,\\,0)\\) och \\(C=(7,\\,5)\\). Hörnen kommer i ordningen \\(A\\), \\(B\\), \\(C\\), \\(D\\).</p><p>I en parallellogram delar diagonalerna varandra mitt itu. Använd det för att bestämma \\(D\\).</p>",
+    "s": "<p>Diagonalerna är \\(AC\\) och \\(BD\\). De har samma mittpunkt.</p><p>Mittpunkten på \\(AC\\): \\(\\left(\\frac{1+7}{2},\\ \\frac{1+5}{2}\\right)=(4,\\,3)\\).</p><p>Mittpunkten på \\(BD\\) ska också vara \\((4,\\,3)\\): \\(\\frac{6+x}{2}=4\\) ger \\(x=2\\) och \\(\\frac{0+y}{2}=3\\) ger \\(y=6\\).</p><p>Kontroll: från \\(A\\) till \\(B\\) är det \\(+5\\) och \\(-1\\). Från \\(D\\) till \\(C\\) är det också \\(+5\\) och \\(-1\\).</p><p><strong>Svar:</strong> \\(D=(2,\\,6)\\)</p>",
+    "familj": "Mittpunkt i koordinatsystem",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm mittpunkten på diagonalen \\(AC\\). Den ska också vara mittpunkt på \\(BD\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      6
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.471",
@@ -93013,6 +93307,33 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "4.582",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En rabatt har formen av ett parallelltrapets. De parallella sidorna är 8 m och 5 m och avståndet mellan dem är 3 m.</p><p>Hur stor är rabattens area?</p>",
+    "s": "<p>\\[A=\\frac{(a+b)\\cdot h}{2}=\\frac{(8+5)\\cdot3}{2}=19{,}5\\text{ m}^2.\\]</p><p><strong>Svar:</strong> 19,5 m²</p>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Arean av ett parallelltrapets är medelvärdet av de parallella sidorna gånger höjden.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19.5,
+    "tolerans": 0.01,
+    "svarEnhet": "m²"
+  },
+  {
     "id": "4.538",
     "kap": 4,
     "omr": "volym",
@@ -93435,6 +93756,33 @@ window.BANKMA1 = [
     "svarEnhet": "cm"
   },
   {
+    "id": "4.583",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En sluten cylinderformad burk har radien 3 cm och höjden 10 cm.</p><p>Hur stor är burkens begränsningsarea? Svara i cm² med en decimal.</p>",
+    "s": "<p>Begränsningsarean är botten, locket och mantelytan.</p><p>Botten och lock: \\(2\\cdot\\pi\\cdot3^2=18\\pi\\). Mantelytan: omkretsen gånger höjden, \\(2\\pi\\cdot3\\cdot10=60\\pi\\).</p><p>Totalt: \\(78\\pi\\approx245{,}0\\) cm².</p><p><strong>Svar:</strong> cirka 245,0 cm²</p>",
+    "familj": "Begränsningsarea",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Klipp upp burken i tankarna: två cirklar och en rektangel. Hur lång är rektangeln?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 245.04422698000386,
+    "tolerans": 0.1,
+    "svarEnhet": "cm²"
+  },
+  {
     "id": "4.551",
     "kap": 4,
     "omr": "kvadratrotter",
@@ -93787,6 +94135,41 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 900,
     "tolerans": null
+  },
+  {
+    "id": "4.581",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Beräkna</p><p><strong>a)</strong> \\(\\sqrt{16+9}\\) &nbsp;&nbsp; <strong>b)</strong> \\(\\sqrt{16}+\\sqrt9\\)</p>",
+    "s": "<p><strong>a)</strong> \\(\\sqrt{25}=5\\).</p><p><strong>b)</strong> \\(4+3=7\\).</p><p>Svaren är olika. Man kan alltså inte dra roten ur varje term i en summa för sig: \\(\\sqrt{a+b}\\ne\\sqrt a+\\sqrt b\\).</p><p><strong>Svar:</strong> a) 5 &nbsp; b) 7</p>",
+    "familj": "Kvadratrötter",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>I a ska du räkna ut summan under rottecknet först.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      7
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.562",
@@ -116676,6 +117059,35 @@ window.BANKMA1 = [
     "tolerans": null
   },
   {
+    "id": "1.1124",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För vilket värde på konstanten \\(a\\) har ekvationen</p><p>\\[3(2x-1)-2(3x-a)=5\\]</p><p>oändligt många lösningar?</p>",
+    "s": "<p>Förenkla vänster led: \\(6x-3-6x+2a=2a-3\\).</p><p>\\(x\\)-termerna tar ut varandra, så ekvationen blir \\(2a-3=5\\). Den innehåller inget \\(x\\).</p><ul><li>Om \\(2a-3=5\\), alltså \\(a=4\\), är ekvationen sann för alla \\(x\\): oändligt många lösningar.</li><li>För alla andra \\(a\\) är den falsk för alla \\(x\\): ingen lösning.</li></ul><p><strong>Svar:</strong> \\(a=4\\)</p>",
+    "familj": "Minustecken framför parentes",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Multiplicera in i parenteserna. Vad händer med \\(x\\)-termerna?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null
+  },
+  {
     "id": "1.1092",
     "kap": 1,
     "omr": "ekv_brak",
@@ -117025,6 +117437,64 @@ window.BANKMA1 = [
     "rättSvar": 3.6,
     "tolerans": 0.01,
     "svarEnhet": "h"
+  },
+  {
+    "id": "1.1122",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En bil kör till en stuga med medelhastigheten 90 km/h och samma väg hem med 60 km/h.</p><p>Vilken är medelhastigheten för hela resan?</p>",
+    "s": "<p>Kalla sträckan \\(d\\) km. Tiden dit är \\(\\frac d{90}\\) h och tiden hem \\(\\frac d{60}\\) h.</p><p>\\[v=\\frac{2d}{\\frac d{90}+\\frac d{60}}=\\frac{2}{\\frac{2}{180}+\\frac{3}{180}}=\\frac{2\\cdot180}{5}=72\\text{ km/h}.\\]</p><p>Det är inte 75 km/h. Bilen kör längre tid med den lägre hastigheten, så den väger tyngre.</p><p>Kontroll med \\(d=180\\) km: 2 h dit och 3 h hem, alltså 360 km på 5 h, vilket är 72 km/h.</p><p><strong>Svar:</strong> 72 km/h</p>",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Medelhastighet är total sträcka delad med total tid. Pröva gärna med en sträcka, till exempel 180 km.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 72,
+    "tolerans": null,
+    "svarEnhet": "km/h"
+  },
+  {
+    "id": "1.1123",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen</p><p>\\[\\frac{x+2}{4}-\\frac{x-1}{6}=1.\\]</p>",
+    "s": "<p>Multiplicera med 12:</p><p>\\[3(x+2)-2(x-1)=12\\;\\Leftrightarrow\\;3x+6-2x+2=12\\;\\Leftrightarrow\\;x=4.\\]</p><p>Kontroll: \\(\\frac64-\\frac36=1{,}5-0{,}5=1\\).</p><p><strong>Svar:</strong> \\(x=4\\)</p>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Multiplicera med 12. Minustecknet framför andra bråket gäller hela täljaren.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null
   },
   {
     "id": "1.1101",

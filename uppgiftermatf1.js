@@ -33130,6 +33130,1075 @@ window.BANKMATF1 = [
     "traningsniva": 2
   },
   {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "dragning ur kortlek",
+    "poang": "1/2/0",
+    "t": "<p>En vanlig kortlek har 52 kort i fyra färger (spader, hjärter, ruter, klöver) med 13 valörer i varje. Man drar ett kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att kortet är en kung?</li><li>Hur stor är sannolikheten att kortet är en fyra, en femma eller en spader?</li><li>Hur stor är sannolikheten att kortet är en sjua, en åtta, en spader eller en hjärter?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>4 kungar av 52 kort: \\(\\dfrac{4}{52}=\\dfrac{1}{13}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{13}\\approx0{,}0769\\), alltså cirka \\(7{,}69\\,\\%\\)</p></li><li><p>Fyror och femmor: 8 kort. Spader: 13 kort. Spader fyra och spader femma räknas två gånger.</p><p>\\(\\dfrac{8+13-2}{52}=\\dfrac{19}{52}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{19}{52}\\approx0{,}365\\), alltså cirka \\(36{,}5\\,\\%\\)</p></li><li><p>Sjuor och åttor: 8. Spader och hjärter: 26. Sjuor och åttor i spader eller hjärter räknas två gånger: 4.</p><p>\\(\\dfrac{8+26-4}{52}=\\dfrac{30}{52}=\\dfrac{15}{26}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{15}{26}\\approx0{,}577\\), alltså cirka \\(57{,}7\\,\\%\\)</p></li></ol>",
+    "id": "1.694",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/13",
+      "19/52",
+      "15/26"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En vanlig kortlek har 52 kort i fyra färger (spader, hjärter, ruter, klöver) med 13 valörer i varje. Man drar ett kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att kortet är en kung?",
+        "t": "<p>En vanlig kortlek har 52 kort i fyra färger (spader, hjärter, ruter, klöver) med 13 valörer i varje. Man drar ett kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att kortet är en kung?</p>",
+        "s": "<p>4 kungar av 52 kort: \\(\\dfrac{4}{52}=\\dfrac{1}{13}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{13}\\approx0{,}0769\\), alltså cirka \\(7{,}69\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur många kungar finns i leken?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att kortet är en fyra, en femma eller en spader?",
+        "t": "<p>En vanlig kortlek har 52 kort i fyra färger (spader, hjärter, ruter, klöver) med 13 valörer i varje. Man drar ett kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att kortet är en fyra, en femma eller en spader?</p>",
+        "s": "<p>Fyror och femmor: 8 kort. Spader: 13 kort. Spader fyra och spader femma räknas två gånger.</p><p>\\(\\dfrac{8+13-2}{52}=\\dfrac{19}{52}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{19}{52}\\approx0{,}365\\), alltså cirka \\(36{,}5\\,\\%\\)</p>",
+        "ledtrad": "<p>Räkna korten i varje grupp och dra bort dem som räknats två gånger.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att kortet är en sjua, en åtta, en spader eller en hjärter?",
+        "t": "<p>En vanlig kortlek har 52 kort i fyra färger (spader, hjärter, ruter, klöver) med 13 valörer i varje. Man drar ett kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att kortet är en sjua, en åtta, en spader eller en hjärter?</p>",
+        "s": "<p>Sjuor och åttor: 8. Spader och hjärter: 26. Sjuor och åttor i spader eller hjärter räknas två gånger: 4.</p><p>\\(\\dfrac{8+26-4}{52}=\\dfrac{30}{52}=\\dfrac{15}{26}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{15}{26}\\approx0{,}577\\), alltså cirka \\(57{,}7\\,\\%\\)</p>",
+        "ledtrad": "<p>Använd additionsprincipen och dra bort överlappet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Varje kort är lika sannolikt.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "två kort ur samma kortlek",
+    "poang": "1/1/0",
+    "t": "<p>Man drar två kort ur en vanlig kortlek med 52 kort utan återläggning.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att båda korten är kungar?</li><li>Hur stor är sannolikheten att minst ett av korten är en spader?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{4}{52}\\cdot\\dfrac{3}{51}=\\dfrac{12}{2\\,652}=\\dfrac{1}{221}\\), eller \\(\\dfrac{\\binom42}{\\binom{52}{2}}=\\dfrac{6}{1\\,326}=\\dfrac{1}{221}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{221}\\approx0{,}00452\\), alltså cirka \\(0{,}452\\,\\%\\)</p></li><li><p>Ingen spader: \\(\\dfrac{\\binom{39}{2}}{\\binom{52}{2}}=\\dfrac{741}{1\\,326}\\). Minst en spader: \\(1-\\dfrac{741}{1\\,326}=\\dfrac{585}{1\\,326}=\\dfrac{15}{34}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{15}{34}\\approx0{,}441\\), alltså cirka \\(44{,}1\\,\\%\\)</p></li></ol>",
+    "id": "1.695",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/221",
+      "15/34"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Man drar två kort ur en vanlig kortlek med 52 kort utan återläggning.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att båda korten är kungar?",
+        "t": "<p>Man drar två kort ur en vanlig kortlek med 52 kort utan återläggning.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att båda korten är kungar?</p>",
+        "s": "<p>\\(\\dfrac{4}{52}\\cdot\\dfrac{3}{51}=\\dfrac{12}{2\\,652}=\\dfrac{1}{221}\\), eller \\(\\dfrac{\\binom42}{\\binom{52}{2}}=\\dfrac{6}{1\\,326}=\\dfrac{1}{221}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{221}\\approx0{,}00452\\), alltså cirka \\(0{,}452\\,\\%\\)</p>",
+        "ledtrad": "<p>Använd ett träddiagram eller kombinationer.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att minst ett av korten är en spader?",
+        "t": "<p>Man drar två kort ur en vanlig kortlek med 52 kort utan återläggning.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst ett av korten är en spader?</p>",
+        "s": "<p>Ingen spader: \\(\\dfrac{\\binom{39}{2}}{\\binom{52}{2}}=\\dfrac{741}{1\\,326}\\). Minst en spader: \\(1-\\dfrac{741}{1\\,326}=\\dfrac{585}{1\\,326}=\\dfrac{15}{34}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{15}{34}\\approx0{,}441\\), alltså cirka \\(44{,}1\\,\\%\\)</p>",
+        "ledtrad": "<p>Använd komplementet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Korten dras utan återläggning.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "typ": "bridgehänder",
+    "poang": "2/3/2",
+    "t": "<p>I bridge får man 13 kort ur en vanlig kortlek med 52 kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att få exakt 2 ess?</li><li>Hur stor är sannolikheten att få alla fyra ess?</li><li>Hur många givar måste man få för att sannolikheten att minst en gång få alla fyra ess ska vara större än 0,50?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{\\binom42\\binom{48}{11}}{\\binom{52}{13}}\\approx0{,}213\\).</p><p><strong>Svar:</strong> \\(\\dfrac{4446}{20825}\\approx0{,}213\\), alltså cirka \\(21{,}3\\,\\%\\)</p></li><li><p>\\(\\dfrac{\\binom44\\binom{48}{9}}{\\binom{52}{13}}\\approx0{,}0026\\).</p><p><strong>Svar:</strong> \\(\\dfrac{11}{4165}\\approx0{,}00264\\), alltså cirka \\(0{,}264\\,\\%\\)</p></li><li><p>Sannolikheten för fyra ess på en giv är \\(p=\\dfrac{\\binom{48}{9}}{\\binom{52}{13}}\\approx0{,}00264\\).</p><p>\\(1-(1-p)^n\\gt0{,}5\\iff n\\gt\\dfrac{\\ln0{,}5}{\\ln(1-p)}\\approx262{,}1\\).</p><p><strong>Svar:</strong> 263 givar</p></li></ol>",
+    "id": "1.696",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4446/20825",
+      "11/4165",
+      263
+    ],
+    "tolerans": [
+      null,
+      null,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I bridge får man 13 kort ur en vanlig kortlek med 52 kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att få exakt 2 ess?",
+        "t": "<p>I bridge får man 13 kort ur en vanlig kortlek med 52 kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt 2 ess?</p>",
+        "s": "<p>\\(\\dfrac{\\binom42\\binom{48}{11}}{\\binom{52}{13}}\\approx0{,}213\\).</p><p><strong>Svar:</strong> \\(\\dfrac{4446}{20825}\\approx0{,}213\\), alltså cirka \\(21{,}3\\,\\%\\)</p>",
+        "ledtrad": "<p>Välj två ess och elva kort som inte är ess.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att få alla fyra ess?",
+        "t": "<p>I bridge får man 13 kort ur en vanlig kortlek med 52 kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få alla fyra ess?</p>",
+        "s": "<p>\\(\\dfrac{\\binom44\\binom{48}{9}}{\\binom{52}{13}}\\approx0{,}0026\\).</p><p><strong>Svar:</strong> \\(\\dfrac{11}{4165}\\approx0{,}00264\\), alltså cirka \\(0{,}264\\,\\%\\)</p>",
+        "ledtrad": "<p>Alla ess är med. Hur många andra kort ska väljas?</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många givar måste man få för att sannolikheten att minst en gång få alla fyra ess ska vara större än 0,50?",
+        "t": "<p>I bridge får man 13 kort ur en vanlig kortlek med 52 kort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur många givar måste man få för att sannolikheten att minst en gång få alla fyra ess ska vara större än 0,50?</p>",
+        "s": "<p>Sannolikheten för fyra ess på en giv är \\(p=\\dfrac{\\binom{48}{9}}{\\binom{52}{13}}\\approx0{,}00264\\).</p><p>\\(1-(1-p)^n\\gt0{,}5\\iff n\\gt\\dfrac{\\ln0{,}5}{\\ln(1-p)}\\approx262{,}1\\).</p><p><strong>Svar:</strong> 263 givar</p>",
+        "ledtrad": "<p>Använd komplementet: sannolikheten att aldrig få fyra ess på \\(n\\) givar.</p>",
+        "niva": "A",
+        "poang": "0/1/2",
+        "traningsniva": 5
+      }
+    ],
+    "ledtrad": "<p>Hypergeometrisk sannolikhet.</p>",
+    "traningsniva": 5
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "sannolikhet med kända kort",
+    "poang": "0/1/0",
+    "t": "<p>I poker har du fått fyra kort: ruter 2, spader 5, klöver 8 och hjärter dam. Det femte kortet tas slumpvis bland de 48 kort du inte har sett.</p><p>Hur stor är sannolikheten att du får ett par?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Ett par uppstår om det femte kortet är en tvåa, femma, åtta eller dam. Av varje valör finns 3 kvar: \\(4\\cdot3=12\\) gynnsamma kort av 48.</p><p>\\(\\dfrac{12}{48}=\\dfrac14\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{4}\\approx0{,}25\\), alltså cirka \\(25\\,\\%\\)</p>",
+    "id": "1.697",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Hur många kort finns kvar som ger ett par?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "typ": "byta kort i poker",
+    "poang": "0/2/1",
+    "t": "<p>I poker har du tre kungar, en klöver 10 och en hjärter 2. Du lägger bort tian och tvåan och får två nya kort ur de 47 kort som återstår i leken.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att du får fyrtal (fyra kungar)?</li><li>Hur stor är sannolikheten att du får kåk (tre kungar och ett par)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Den sista kungen och vilket annat kort som helst: \\(\\dfrac{1\\cdot46}{\\binom{47}{2}}=\\dfrac{46}{1\\,081}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{2}{47}\\approx0{,}0426\\), alltså cirka \\(4{,}26\\,\\%\\)</p></li><li><p>Paret får inte vara kungar. Tior och tvåor har 3 kort kvar var, övriga 10 valörer har 4 kvar: \\(2\\binom32+10\\binom42=6+60=66\\).</p><p>\\(\\dfrac{66}{1\\,081}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{66}{1081}\\approx0{,}0611\\), alltså cirka \\(6{,}11\\,\\%\\)</p></li></ol>",
+    "id": "1.698",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2/47",
+      "66/1081"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I poker har du tre kungar, en klöver 10 och en hjärter 2. Du lägger bort tian och tvåan och får två nya kort ur de 47 kort som återstår i leken.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att du får fyrtal (fyra kungar)?",
+        "t": "<p>I poker har du tre kungar, en klöver 10 och en hjärter 2. Du lägger bort tian och tvåan och får två nya kort ur de 47 kort som återstår i leken.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att du får fyrtal (fyra kungar)?</p>",
+        "s": "<p>Den sista kungen och vilket annat kort som helst: \\(\\dfrac{1\\cdot46}{\\binom{47}{2}}=\\dfrac{46}{1\\,081}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{2}{47}\\approx0{,}0426\\), alltså cirka \\(4{,}26\\,\\%\\)</p>",
+        "ledtrad": "<p>Ett av de nya korten måste vara den sista kungen.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att du får kåk (tre kungar och ett par)?",
+        "t": "<p>I poker har du tre kungar, en klöver 10 och en hjärter 2. Du lägger bort tian och tvåan och får två nya kort ur de 47 kort som återstår i leken.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att du får kåk (tre kungar och ett par)?</p>",
+        "s": "<p>Paret får inte vara kungar. Tior och tvåor har 3 kort kvar var, övriga 10 valörer har 4 kvar: \\(2\\binom32+10\\binom42=6+60=66\\).</p><p>\\(\\dfrac{66}{1\\,081}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{66}{1081}\\approx0{,}0611\\), alltså cirka \\(6{,}11\\,\\%\\)</p>",
+        "ledtrad": "<p>Räkna paren valör för valör. Tänk på vilka kort som redan har lagts bort.</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Två kort väljs bland 47.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "typ": "stege och färg i poker",
+    "poang": "0/3/1",
+    "t": "<p>I poker har du hjärter 4, hjärter 5, hjärter 7, spader 2 och ruter knekt. Du lägger bort spader 2 och ruter knekt och får två nya kort ur de 47 som återstår.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att du får en stege som inte är färgstege?</li><li>Hur stor är sannolikheten att du får färg som inte är färgstege?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Stege kräver 3 och 6 eller 6 och 8: \\(4\\cdot4+4\\cdot4=32\\) par. Två av dem (hjärter 3 och 6, hjärter 6 och 8) ger färgstege.</p><p>\\(\\dfrac{30}{1\\,081}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{30}{1081}\\approx0{,}0278\\), alltså cirka \\(2{,}78\\,\\%\\)</p></li><li><p>Två av de 10 återstående hjärterkorten: \\(\\binom{10}{2}=45\\). Två av dem ger färgstege.</p><p>\\(\\dfrac{43}{1\\,081}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{43}{1081}\\approx0{,}0398\\), alltså cirka \\(3{,}98\\,\\%\\)</p></li></ol>",
+    "id": "1.699",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "30/1081",
+      "43/1081"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I poker har du hjärter 4, hjärter 5, hjärter 7, spader 2 och ruter knekt. Du lägger bort spader 2 och ruter knekt och får två nya kort ur de 47 som återstår.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att du får en stege som inte är färgstege?",
+        "t": "<p>I poker har du hjärter 4, hjärter 5, hjärter 7, spader 2 och ruter knekt. Du lägger bort spader 2 och ruter knekt och får två nya kort ur de 47 som återstår.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att du får en stege som inte är färgstege?</p>",
+        "s": "<p>Stege kräver 3 och 6 eller 6 och 8: \\(4\\cdot4+4\\cdot4=32\\) par. Två av dem (hjärter 3 och 6, hjärter 6 och 8) ger färgstege.</p><p>\\(\\dfrac{30}{1\\,081}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{30}{1081}\\approx0{,}0278\\), alltså cirka \\(2{,}78\\,\\%\\)</p>",
+        "ledtrad": "<p>Vilka två kort kompletterar 4, 5, 7 till fem kort i följd?</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att du får färg som inte är färgstege?",
+        "t": "<p>I poker har du hjärter 4, hjärter 5, hjärter 7, spader 2 och ruter knekt. Du lägger bort spader 2 och ruter knekt och får två nya kort ur de 47 som återstår.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att du får färg som inte är färgstege?</p>",
+        "s": "<p>Två av de 10 återstående hjärterkorten: \\(\\binom{10}{2}=45\\). Två av dem ger färgstege.</p><p>\\(\\dfrac{43}{1\\,081}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{43}{1081}\\approx0{,}0398\\), alltså cirka \\(3{,}98\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur många hjärterkort finns kvar?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Två kort väljs bland 47.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "två tärningar",
+    "poang": "4/0/0",
+    "t": "<p>Du kastar en vanlig tärning två gånger. Det finns 36 lika sannolika utfall.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att summan blir 6?</li><li>Hur stor är sannolikheten att minst en tärning visar 4?</li><li>Hur stor är sannolikheten att exakt en tärning visar 5?</li><li>Hur stor är sannolikheten att summan blir större än 4?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>(1,5), (2,4), (3,3), (4,2), (5,1): 5 utfall.</p><p><strong>Svar:</strong> \\(\\dfrac{5}{36}\\approx0{,}139\\), alltså cirka \\(13{,}9\\,\\%\\)</p></li><li><p>Ingen fyra: \\(5\\cdot5=25\\) utfall. Minst en fyra: \\(36-25=11\\).</p><p><strong>Svar:</strong> \\(\\dfrac{11}{36}\\approx0{,}306\\), alltså cirka \\(30{,}6\\,\\%\\)</p></li><li><p>Femma på första men inte andra: 5 utfall, och tvärtom: 5 utfall.</p><p>\\(\\dfrac{10}{36}=\\dfrac{5}{18}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{18}\\approx0{,}278\\), alltså cirka \\(27{,}8\\,\\%\\)</p></li><li><p>Summa högst 4: (1,1), (1,2), (2,1), (1,3), (2,2), (3,1): 6 utfall.</p><p>\\(1-\\dfrac{6}{36}=\\dfrac56\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{6}\\approx0{,}833\\), alltså cirka \\(83{,}3\\,\\%\\)</p></li></ol>",
+    "id": "1.700",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "5/36",
+      "11/36",
+      "5/18",
+      "5/6"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Du kastar en vanlig tärning två gånger. Det finns 36 lika sannolika utfall.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att summan blir 6?",
+        "t": "<p>Du kastar en vanlig tärning två gånger. Det finns 36 lika sannolika utfall.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att summan blir 6?</p>",
+        "s": "<p>(1,5), (2,4), (3,3), (4,2), (5,1): 5 utfall.</p><p><strong>Svar:</strong> \\(\\dfrac{5}{36}\\approx0{,}139\\), alltså cirka \\(13{,}9\\,\\%\\)</p>",
+        "ledtrad": "<p>Räkna upp alla utfall med summan 6.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att minst en tärning visar 4?",
+        "t": "<p>Du kastar en vanlig tärning två gånger. Det finns 36 lika sannolika utfall.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst en tärning visar 4?</p>",
+        "s": "<p>Ingen fyra: \\(5\\cdot5=25\\) utfall. Minst en fyra: \\(36-25=11\\).</p><p><strong>Svar:</strong> \\(\\dfrac{11}{36}\\approx0{,}306\\), alltså cirka \\(30{,}6\\,\\%\\)</p>",
+        "ledtrad": "<p>Använd komplementet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att exakt en tärning visar 5?",
+        "t": "<p>Du kastar en vanlig tärning två gånger. Det finns 36 lika sannolika utfall.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att exakt en tärning visar 5?</p>",
+        "s": "<p>Femma på första men inte andra: 5 utfall, och tvärtom: 5 utfall.</p><p>\\(\\dfrac{10}{36}=\\dfrac{5}{18}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{18}\\approx0{,}278\\), alltså cirka \\(27{,}8\\,\\%\\)</p>",
+        "ledtrad": "<p>Vilken tärning visar femman?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor är sannolikheten att summan blir större än 4?",
+        "t": "<p>Du kastar en vanlig tärning två gånger. Det finns 36 lika sannolika utfall.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att summan blir större än 4?</p>",
+        "s": "<p>Summa högst 4: (1,1), (1,2), (2,1), (1,3), (2,2), (3,1): 6 utfall.</p><p>\\(1-\\dfrac{6}{36}=\\dfrac56\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{6}\\approx0{,}833\\), alltså cirka \\(83{,}3\\,\\%\\)</p>",
+        "ledtrad": "<p>Det är lättare att räkna de utfall som inte uppfyller villkoret.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Gör gärna en tabell över de 36 utfallen.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "tärningar med olika antal sidor",
+    "poang": "2/1/0",
+    "t": "<p>En tärning T\\(n\\) har \\(n\\) sidor numrerade 1 till \\(n\\). Två tärningar kastas och man vill ha summan 8.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten för summan 8 med två T8?</li><li>Hur stor är sannolikheten för summan 8 med en T6 och en T4?</li><li>Hur stor är sannolikheten för summan 8 med en T20 och en T12?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>(1,7), (2,6), …, (7,1): 7 utfall av \\(8^2=64\\).</p><p><strong>Svar:</strong> \\(\\dfrac{7}{64}\\approx0{,}109\\), alltså cirka \\(10{,}9\\,\\%\\)</p></li><li><p>(4,4), (5,3), (6,2): 3 utfall av \\(6\\cdot4=24\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{8}\\approx0{,}125\\), alltså cirka \\(12{,}5\\,\\%\\)</p></li><li><p>(1,7), (2,6), …, (7,1): 7 utfall av \\(20\\cdot12=240\\).</p><p><strong>Svar:</strong> \\(\\dfrac{7}{240}\\approx0{,}0292\\), alltså cirka \\(2{,}92\\,\\%\\)</p></li></ol>",
+    "id": "1.701",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "7/64",
+      "1/8",
+      "7/240"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En tärning T\\(n\\) har \\(n\\) sidor numrerade 1 till \\(n\\). Två tärningar kastas och man vill ha summan 8.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten för summan 8 med två T8?",
+        "t": "<p>En tärning T\\(n\\) har \\(n\\) sidor numrerade 1 till \\(n\\). Två tärningar kastas och man vill ha summan 8.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten för summan 8 med två T8?</p>",
+        "s": "<p>(1,7), (2,6), …, (7,1): 7 utfall av \\(8^2=64\\).</p><p><strong>Svar:</strong> \\(\\dfrac{7}{64}\\approx0{,}109\\), alltså cirka \\(10{,}9\\,\\%\\)</p>",
+        "ledtrad": "<p>Räkna utfallen med summan 8 och dela med antalet utfall.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten för summan 8 med en T6 och en T4?",
+        "t": "<p>En tärning T\\(n\\) har \\(n\\) sidor numrerade 1 till \\(n\\). Två tärningar kastas och man vill ha summan 8.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten för summan 8 med en T6 och en T4?</p>",
+        "s": "<p>(4,4), (5,3), (6,2): 3 utfall av \\(6\\cdot4=24\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{8}\\approx0{,}125\\), alltså cirka \\(12{,}5\\,\\%\\)</p>",
+        "ledtrad": "<p>T4 visar högst 4. Vilka par ger 8?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten för summan 8 med en T20 och en T12?",
+        "t": "<p>En tärning T\\(n\\) har \\(n\\) sidor numrerade 1 till \\(n\\). Två tärningar kastas och man vill ha summan 8.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten för summan 8 med en T20 och en T12?</p>",
+        "s": "<p>(1,7), (2,6), …, (7,1): 7 utfall av \\(20\\cdot12=240\\).</p><p><strong>Svar:</strong> \\(\\dfrac{7}{240}\\approx0{,}0292\\), alltså cirka \\(2{,}92\\,\\%\\)</p>",
+        "ledtrad": "<p>Vilka värden kan T12 visa för att summan ska bli 8?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Alla sidor är lika sannolika.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "jämföra två slumpexperiment",
+    "poang": "0/4/0",
+    "t": "<p>Nils kastar två vanliga tärningar och räknar summan. Jesper kastar en tärning T12 som visar 1–12. Den som får högst vinner. Lika betyder oavgjort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att Nils vinner?</li><li>Hur stor är sannolikheten att Jesper vinner?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Det finns \\(36\\cdot12=432\\) lika sannolika utfall. Nils summa \\(s\\) slår Jespers tal i \\(s-1\\) fall av 12. Summera över Nils 36 utfall: \\(\\sum(s-1)=36\\cdot7-36=216\\).</p><p>\\(\\dfrac{216}{432}=\\dfrac12\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{2}\\approx0{,}5\\), alltså cirka \\(50\\,\\%\\)</p></li><li><p>Jesper vinner om hans tal är större än \\(s\\): \\(12-s\\) av 12 fall. \\(\\sum(12-s)=36\\cdot12-36\\cdot7=180\\).</p><p>\\(\\dfrac{180}{432}=\\dfrac{5}{12}\\). Resten, \\(\\dfrac{1}{12}\\), blir oavgjort.</p><p><strong>Svar:</strong> \\(\\dfrac{5}{12}\\approx0{,}417\\), alltså cirka \\(41{,}7\\,\\%\\)</p></li></ol>",
+    "id": "1.702",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/2",
+      "5/12"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Nils kastar två vanliga tärningar och räknar summan. Jesper kastar en tärning T12 som visar 1–12. Den som får högst vinner. Lika betyder oavgjort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att Nils vinner?",
+        "t": "<p>Nils kastar två vanliga tärningar och räknar summan. Jesper kastar en tärning T12 som visar 1–12. Den som får högst vinner. Lika betyder oavgjort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att Nils vinner?</p>",
+        "s": "<p>Det finns \\(36\\cdot12=432\\) lika sannolika utfall. Nils summa \\(s\\) slår Jespers tal i \\(s-1\\) fall av 12. Summera över Nils 36 utfall: \\(\\sum(s-1)=36\\cdot7-36=216\\).</p><p>\\(\\dfrac{216}{432}=\\dfrac12\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{2}\\approx0{,}5\\), alltså cirka \\(50\\,\\%\\)</p>",
+        "ledtrad": "<p>Om Nils får summan \\(s\\), hur många av Jespers tal är mindre?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att Jesper vinner?",
+        "t": "<p>Nils kastar två vanliga tärningar och räknar summan. Jesper kastar en tärning T12 som visar 1–12. Den som får högst vinner. Lika betyder oavgjort.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att Jesper vinner?</p>",
+        "s": "<p>Jesper vinner om hans tal är större än \\(s\\): \\(12-s\\) av 12 fall. \\(\\sum(12-s)=36\\cdot12-36\\cdot7=180\\).</p><p>\\(\\dfrac{180}{432}=\\dfrac{5}{12}\\). Resten, \\(\\dfrac{1}{12}\\), blir oavgjort.</p><p><strong>Svar:</strong> \\(\\dfrac{5}{12}\\approx0{,}417\\), alltså cirka \\(41{,}7\\,\\%\\)</p>",
+        "ledtrad": "<p>Om Nils får summan \\(s\\), hur många av Jespers tal är större? Medelvärdet av summan av två tärningar är 7.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Räkna utfall i en tabell eller använd medelvärden.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "de Mérés vad",
+    "poang": "1/3/0",
+    "t": "<p>Spelaren de Méré slog vad om två saker: att få minst en sexa på 4 kast med en tärning, och att få minst en dubbelsexa på 24 kast med två tärningar. Han trodde att båda hade chansen 2/3.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att få minst en sexa på 4 kast?</li><li>Hur stor är sannolikheten att få minst en dubbelsexa på 24 kast med två tärningar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(1-\\left(\\dfrac56\\right)^4=1-\\dfrac{625}{1\\,296}\\approx0{,}518\\). Något över 50 %, så han vann i längden.</p><p><strong>Svar:</strong> \\(\\dfrac{671}{1296}\\approx0{,}518\\), alltså cirka \\(51{,}8\\,\\%\\)</p></li><li><p>\\(1-\\left(\\dfrac{35}{36}\\right)^{24}\\approx0{,}491\\). Under 50 %, så han förlorade i längden.</p><p><strong>Svar:</strong> \\(\\dfrac{11033126465283976852912127963392284191}{22452257707354557240087211123792674816}\\approx0{,}491\\), alltså cirka \\(49{,}1\\,\\%\\)</p></li></ol>",
+    "id": "1.703",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "671/1296",
+      "11033126465283976852912127963392284191/22452257707354557240087211123792674816"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Spelaren de Méré slog vad om två saker: att få minst en sexa på 4 kast med en tärning, och att få minst en dubbelsexa på 24 kast med två tärningar. Han trodde att båda hade chansen 2/3.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att få minst en sexa på 4 kast?",
+        "t": "<p>Spelaren de Méré slog vad om två saker: att få minst en sexa på 4 kast med en tärning, och att få minst en dubbelsexa på 24 kast med två tärningar. Han trodde att båda hade chansen 2/3.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få minst en sexa på 4 kast?</p>",
+        "s": "<p>\\(1-\\left(\\dfrac56\\right)^4=1-\\dfrac{625}{1\\,296}\\approx0{,}518\\). Något över 50 %, så han vann i längden.</p><p><strong>Svar:</strong> \\(\\dfrac{671}{1296}\\approx0{,}518\\), alltså cirka \\(51{,}8\\,\\%\\)</p>",
+        "ledtrad": "<p>Använd komplementet: ingen sexa på fyra kast.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att få minst en dubbelsexa på 24 kast med två tärningar?",
+        "t": "<p>Spelaren de Méré slog vad om två saker: att få minst en sexa på 4 kast med en tärning, och att få minst en dubbelsexa på 24 kast med två tärningar. Han trodde att båda hade chansen 2/3.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få minst en dubbelsexa på 24 kast med två tärningar?</p>",
+        "s": "<p>\\(1-\\left(\\dfrac{35}{36}\\right)^{24}\\approx0{,}491\\). Under 50 %, så han förlorade i längden.</p><p><strong>Svar:</strong> \\(\\dfrac{11033126465283976852912127963392284191}{22452257707354557240087211123792674816}\\approx0{,}491\\), alltså cirka \\(49{,}1\\,\\%\\)</p>",
+        "ledtrad": "<p>Sannolikheten för dubbelsexa i ett kast med två tärningar är \\(\\tfrac{1}{36}\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd komplementet.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "lediga platser bredvid varandra",
+    "poang": "0/2/0",
+    "t": "<p>En parkering har 12 rutor i rad, numrerade 1–12. Fyra slumpvis valda rutor är lediga.</p><p>Hur stor är sannolikheten att de fyra lediga rutorna ligger bredvid varandra?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Fyra rutor i följd kan börja på ruta 1, 2, …, 9: 9 gynnsamma fall. Alla urval: \\(\\binom{12}{4}=495\\).</p><p>\\(\\dfrac{9}{495}=\\dfrac{1}{55}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{55}\\approx0{,}0182\\), alltså cirka \\(1{,}82\\,\\%\\)</p>",
+    "id": "1.704",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/55",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>På hur många ställen kan fyra rutor i följd börja?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "inte bredvid varandra",
+    "poang": "0/2/0",
+    "t": "<p>En gul, en blå, en röd, en grön och en svart kula läggs i slumpvis ordning på en rad.</p><p>Hur stor är sannolikheten att den svarta kulan inte ligger bredvid den blå?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Bredvid varandra: svart och blå som ett block, \\(2\\cdot4!=48\\) av \\(5!=120\\) ordningar.</p><p>\\(1-\\dfrac{48}{120}=\\dfrac35\\).</p><p><strong>Svar:</strong> \\(\\dfrac{3}{5}\\approx0{,}6\\), alltså cirka \\(60\\,\\%\\)</p>",
+    "id": "1.705",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "3/5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Räkna först ordningarna där de ligger bredvid varandra.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "kombinationslås",
+    "poang": "1/1/0",
+    "t": "<p>Ett kombinationslås har 5 skivor med siffrorna 0–9. En kod ställs in slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att alla fem siffrorna är olika?</li><li>Hur stor är sannolikheten att alla siffrorna är olika och den första inte är 0?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{10\\cdot9\\cdot8\\cdot7\\cdot6}{10^5}=\\dfrac{30\\,240}{100\\,000}\\approx0{,}302\\).</p><p><strong>Svar:</strong> \\(\\dfrac{189}{625}\\approx0{,}302\\), alltså cirka \\(30{,}2\\,\\%\\)</p></li><li><p>\\(\\dfrac{9\\cdot9\\cdot8\\cdot7\\cdot6}{10^5}=\\dfrac{27\\,216}{100\\,000}\\approx0{,}272\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1701}{6250}\\approx0{,}272\\), alltså cirka \\(27{,}2\\,\\%\\)</p></li></ol>",
+    "id": "1.706",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "189/625",
+      "1701/6250"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett kombinationslås har 5 skivor med siffrorna 0–9. En kod ställs in slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att alla fem siffrorna är olika?",
+        "t": "<p>Ett kombinationslås har 5 skivor med siffrorna 0–9. En kod ställs in slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att alla fem siffrorna är olika?</p>",
+        "s": "<p>\\(\\dfrac{10\\cdot9\\cdot8\\cdot7\\cdot6}{10^5}=\\dfrac{30\\,240}{100\\,000}\\approx0{,}302\\).</p><p><strong>Svar:</strong> \\(\\dfrac{189}{625}\\approx0{,}302\\), alltså cirka \\(30{,}2\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur många koder har bara olika siffror?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att alla siffrorna är olika och den första inte är 0?",
+        "t": "<p>Ett kombinationslås har 5 skivor med siffrorna 0–9. En kod ställs in slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att alla siffrorna är olika och den första inte är 0?</p>",
+        "s": "<p>\\(\\dfrac{9\\cdot9\\cdot8\\cdot7\\cdot6}{10^5}=\\dfrac{27\\,216}{100\\,000}\\approx0{,}272\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1701}{6250}\\approx0{,}272\\), alltså cirka \\(27{,}2\\,\\%\\)</p>",
+        "ledtrad": "<p>Börja med den första skivan. Hur många val finns sedan för den andra?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Det finns \\(10^5\\) koder.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "typ": "par ur garderob",
+    "poang": "0/2/2",
+    "t": "<p>I en garderob finns 6 par skor, alltså 12 skor. I mörkret tar du skor slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Du tar 2 skor. Hur stor är sannolikheten att de bildar ett par?</li><li>Du tar 4 skor. Hur stor är sannolikheten att det finns minst ett par bland dem?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Den andra skon ska vara partnern till den första: 1 av 11 kvarvarande. \\(\\dfrac{1}{11}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{11}\\approx0{,}0909\\), alltså cirka \\(9{,}09\\,\\%\\)</p></li><li><p>Inget par: välj 4 olika par och en sko ur varje, \\(\\binom64\\cdot2^4=240\\) av \\(\\binom{12}{4}=495\\).</p><p>\\(1-\\dfrac{240}{495}=\\dfrac{255}{495}=\\dfrac{17}{33}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{17}{33}\\approx0{,}515\\), alltså cirka \\(51{,}5\\,\\%\\)</p></li></ol>",
+    "id": "1.707",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/11",
+      "17/33"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en garderob finns 6 par skor, alltså 12 skor. I mörkret tar du skor slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Du tar 2 skor. Hur stor är sannolikheten att de bildar ett par?",
+        "t": "<p>I en garderob finns 6 par skor, alltså 12 skor. I mörkret tar du skor slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Du tar 2 skor. Hur stor är sannolikheten att de bildar ett par?</p>",
+        "s": "<p>Den andra skon ska vara partnern till den första: 1 av 11 kvarvarande. \\(\\dfrac{1}{11}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{11}\\approx0{,}0909\\), alltså cirka \\(9{,}09\\,\\%\\)</p>",
+        "ledtrad": "<p>Vilken sko måste den andra vara?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Du tar 4 skor. Hur stor är sannolikheten att det finns minst ett par bland dem?",
+        "t": "<p>I en garderob finns 6 par skor, alltså 12 skor. I mörkret tar du skor slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Du tar 4 skor. Hur stor är sannolikheten att det finns minst ett par bland dem?</p>",
+        "s": "<p>Inget par: välj 4 olika par och en sko ur varje, \\(\\binom64\\cdot2^4=240\\) av \\(\\binom{12}{4}=495\\).</p><p>\\(1-\\dfrac{240}{495}=\\dfrac{255}{495}=\\dfrac{17}{33}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{17}{33}\\approx0{,}515\\), alltså cirka \\(51{,}5\\,\\%\\)</p>",
+        "ledtrad": "<p>Räkna urvalen utan något par: från hur många olika par ska skorna komma?</p>",
+        "niva": "A",
+        "poang": "0/1/2",
+        "traningsniva": 5
+      }
+    ],
+    "ledtrad": "<p>Använd komplementet.</p>",
+    "traningsniva": 5
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "typ": "födelsedagsproblemet",
+    "poang": "0/6/1",
+    "t": "<p>Anta att året har 366 dagar som alla är lika sannolika som födelsedag.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Tre personer träffas. Hur stor är sannolikheten att minst två av dem fyller år samma dag?</li><li>Jan fyller år den 1 maj. Han träffar tre andra personer. Hur stor är sannolikheten att minst en av dem fyller år samma dag som Jan?</li><li>Hur många personer måste träffas för att sannolikheten att minst två fyller år samma dag ska vara minst 0,5?</li><li>Hur många personer måste Jan träffa för att sannolikheten att minst en av dem fyller år den 1 maj ska vara minst 0,5?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Alla olika: \\(\\dfrac{365}{366}\\cdot\\dfrac{364}{366}\\). Minst två samma: \\(1-\\dfrac{365\\cdot364}{366^2}\\approx0{,}0082\\).</p><p><strong>Svar:</strong> \\(\\dfrac{274}{33489}\\approx0{,}00818\\), alltså cirka \\(0{,}818\\,\\%\\)</p></li><li><p>Ingen av dem: \\(\\left(\\dfrac{365}{366}\\right)^3\\). Minst en: \\(1-\\left(\\dfrac{365}{366}\\right)^3\\approx0{,}0082\\).</p><p><strong>Svar:</strong> \\(\\dfrac{400771}{49027896}\\approx0{,}00817\\), alltså cirka \\(0{,}817\\,\\%\\)</p></li><li><p>Sannolikheten att alla \\(n\\) har olika födelsedagar är \\(\\dfrac{366\\cdot365\\cdots(366-n+1)}{366^n}\\). Prövning ger att den första gången understiger 0,5 vid \\(n=23\\).</p><p><strong>Svar:</strong> 23 personer</p></li><li><p>\\(1-\\left(\\dfrac{365}{366}\\right)^n\\ge0{,}5\\iff n\\ge\\dfrac{\\ln0{,}5}{\\ln(365/366)}\\approx253{,}4\\).</p><p><strong>Svar:</strong> 254 personer</p></li></ol>",
+    "id": "1.708",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "274/33489",
+      "400771/49027896",
+      23,
+      254
+    ],
+    "tolerans": [
+      null,
+      null,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Anta att året har 366 dagar som alla är lika sannolika som födelsedag.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Tre personer träffas. Hur stor är sannolikheten att minst två av dem fyller år samma dag?",
+        "t": "<p>Anta att året har 366 dagar som alla är lika sannolika som födelsedag.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Tre personer träffas. Hur stor är sannolikheten att minst två av dem fyller år samma dag?</p>",
+        "s": "<p>Alla olika: \\(\\dfrac{365}{366}\\cdot\\dfrac{364}{366}\\). Minst två samma: \\(1-\\dfrac{365\\cdot364}{366^2}\\approx0{,}0082\\).</p><p><strong>Svar:</strong> \\(\\dfrac{274}{33489}\\approx0{,}00818\\), alltså cirka \\(0{,}818\\,\\%\\)</p>",
+        "ledtrad": "<p>Räkna sannolikheten att alla fyller år olika dagar.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Jan fyller år den 1 maj. Han träffar tre andra personer. Hur stor är sannolikheten att minst en av dem fyller år samma dag som Jan?",
+        "t": "<p>Anta att året har 366 dagar som alla är lika sannolika som födelsedag.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Jan fyller år den 1 maj. Han träffar tre andra personer. Hur stor är sannolikheten att minst en av dem fyller år samma dag som Jan?</p>",
+        "s": "<p>Ingen av dem: \\(\\left(\\dfrac{365}{366}\\right)^3\\). Minst en: \\(1-\\left(\\dfrac{365}{366}\\right)^3\\approx0{,}0082\\).</p><p><strong>Svar:</strong> \\(\\dfrac{400771}{49027896}\\approx0{,}00817\\), alltså cirka \\(0{,}817\\,\\%\\)</p>",
+        "ledtrad": "<p>Nu ska de matcha en bestämd dag. Använd komplementet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många personer måste träffas för att sannolikheten att minst två fyller år samma dag ska vara minst 0,5?",
+        "t": "<p>Anta att året har 366 dagar som alla är lika sannolika som födelsedag.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur många personer måste träffas för att sannolikheten att minst två fyller år samma dag ska vara minst 0,5?</p>",
+        "s": "<p>Sannolikheten att alla \\(n\\) har olika födelsedagar är \\(\\dfrac{366\\cdot365\\cdots(366-n+1)}{366^n}\\). Prövning ger att den första gången understiger 0,5 vid \\(n=23\\).</p><p><strong>Svar:</strong> 23 personer</p>",
+        "ledtrad": "<p>Ställ upp sannolikheten att alla har olika födelsedagar och pröva olika \\(n\\), till exempel i ett kalkylblad.</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur många personer måste Jan träffa för att sannolikheten att minst en av dem fyller år den 1 maj ska vara minst 0,5?",
+        "t": "<p>Anta att året har 366 dagar som alla är lika sannolika som födelsedag.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur många personer måste Jan träffa för att sannolikheten att minst en av dem fyller år den 1 maj ska vara minst 0,5?</p>",
+        "s": "<p>\\(1-\\left(\\dfrac{365}{366}\\right)^n\\ge0{,}5\\iff n\\ge\\dfrac{\\ln0{,}5}{\\ln(365/366)}\\approx253{,}4\\).</p><p><strong>Svar:</strong> 254 personer</p>",
+        "ledtrad": "<p>Ställ upp en olikhet och lös den med logaritmer.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Använd komplementet.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "lotto med vinstklasser",
+    "poang": "3/2/0",
+    "t": "<p>På Lotto väljer man 7 nummer av 35, och 7 vinstnummer dras.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att få 7 rätt?</li><li>Hur stor är sannolikheten att få exakt 5 rätt?</li><li>Hur stor är sannolikheten att få exakt 4 rätt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{1}{\\binom{35}{7}}=\\dfrac{1}{6\\,724\\,520}\\approx1{,}5\\cdot10^{-7}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{6724520}\\approx1{,}49e-07\\), alltså cirka \\(1{,}49e-05\\,\\%\\)</p></li><li><p>\\(\\dfrac{\\binom75\\binom{28}{2}}{\\binom{35}{7}}=\\dfrac{21\\cdot378}{6\\,724\\,520}=\\dfrac{7\\,938}{6\\,724\\,520}\\approx0{,}0012\\).</p><p><strong>Svar:</strong> \\(\\dfrac{3969}{3362260}\\approx0{,}00118\\), alltså cirka \\(0{,}118\\,\\%\\)</p></li><li><p>\\(\\dfrac{\\binom74\\binom{28}{3}}{\\binom{35}{7}}=\\dfrac{35\\cdot3\\,276}{6\\,724\\,520}=\\dfrac{114\\,660}{6\\,724\\,520}\\approx0{,}017\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5733}{336226}\\approx0{,}0171\\), alltså cirka \\(1{,}71\\,\\%\\)</p></li></ol>",
+    "id": "1.709",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/6724520",
+      "3969/3362260",
+      "5733/336226"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>På Lotto väljer man 7 nummer av 35, och 7 vinstnummer dras.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att få 7 rätt?",
+        "t": "<p>På Lotto väljer man 7 nummer av 35, och 7 vinstnummer dras.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få 7 rätt?</p>",
+        "s": "<p>\\(\\dfrac{1}{\\binom{35}{7}}=\\dfrac{1}{6\\,724\\,520}\\approx1{,}5\\cdot10^{-7}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{6724520}\\approx1{,}49e-07\\), alltså cirka \\(1{,}49e-05\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur många rader finns det?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att få exakt 5 rätt?",
+        "t": "<p>På Lotto väljer man 7 nummer av 35, och 7 vinstnummer dras.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt 5 rätt?</p>",
+        "s": "<p>\\(\\dfrac{\\binom75\\binom{28}{2}}{\\binom{35}{7}}=\\dfrac{21\\cdot378}{6\\,724\\,520}=\\dfrac{7\\,938}{6\\,724\\,520}\\approx0{,}0012\\).</p><p><strong>Svar:</strong> \\(\\dfrac{3969}{3362260}\\approx0{,}00118\\), alltså cirka \\(0{,}118\\,\\%\\)</p>",
+        "ledtrad": "<p>Välj 5 av vinstnumren och 2 av de övriga.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att få exakt 4 rätt?",
+        "t": "<p>På Lotto väljer man 7 nummer av 35, och 7 vinstnummer dras.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt 4 rätt?</p>",
+        "s": "<p>\\(\\dfrac{\\binom74\\binom{28}{3}}{\\binom{35}{7}}=\\dfrac{35\\cdot3\\,276}{6\\,724\\,520}=\\dfrac{114\\,660}{6\\,724\\,520}\\approx0{,}017\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5733}{336226}\\approx0{,}0171\\), alltså cirka \\(1{,}71\\,\\%\\)</p>",
+        "ledtrad": "<p>Välj 4 av vinstnumren och 3 av de övriga.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Hypergeometrisk sannolikhet.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "keno",
+    "poang": "1/2/0",
+    "t": "<p>I Keno dras 20 vinstnummer bland talen 1–70. Spelaren har valt några egna nummer i förväg.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Spelaren har valt ett nummer. Hur stor är sannolikheten att det dras?</li><li>Spelaren har valt tre nummer och vinner om minst två av dem dras. Hur stor är sannolikheten att vinna?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>20 av 70 nummer dras: \\(\\dfrac{20}{70}=\\dfrac27\\).</p><p><strong>Svar:</strong> \\(\\dfrac{2}{7}\\approx0{,}286\\), alltså cirka \\(28{,}6\\,\\%\\)</p></li><li><p>\\(\\dfrac{\\binom{20}{2}\\binom{50}{1}+\\binom{20}{3}}{\\binom{70}{3}}=\\dfrac{9\\,500+1\\,140}{54\\,740}=\\dfrac{10\\,640}{54\\,740}\\approx0{,}19\\).</p><p><strong>Svar:</strong> \\(\\dfrac{76}{391}\\approx0{,}194\\), alltså cirka \\(19{,}4\\,\\%\\)</p></li></ol>",
+    "id": "1.710",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2/7",
+      "76/391"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I Keno dras 20 vinstnummer bland talen 1–70. Spelaren har valt några egna nummer i förväg.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Spelaren har valt ett nummer. Hur stor är sannolikheten att det dras?",
+        "t": "<p>I Keno dras 20 vinstnummer bland talen 1–70. Spelaren har valt några egna nummer i förväg.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Spelaren har valt ett nummer. Hur stor är sannolikheten att det dras?</p>",
+        "s": "<p>20 av 70 nummer dras: \\(\\dfrac{20}{70}=\\dfrac27\\).</p><p><strong>Svar:</strong> \\(\\dfrac{2}{7}\\approx0{,}286\\), alltså cirka \\(28{,}6\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur stor andel av numren dras?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Spelaren har valt tre nummer och vinner om minst två av dem dras. Hur stor är sannolikheten att vinna?",
+        "t": "<p>I Keno dras 20 vinstnummer bland talen 1–70. Spelaren har valt några egna nummer i förväg.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Spelaren har valt tre nummer och vinner om minst två av dem dras. Hur stor är sannolikheten att vinna?</p>",
+        "s": "<p>\\(\\dfrac{\\binom{20}{2}\\binom{50}{1}+\\binom{20}{3}}{\\binom{70}{3}}=\\dfrac{9\\,500+1\\,140}{54\\,740}=\\dfrac{10\\,640}{54\\,740}\\approx0{,}19\\).</p><p><strong>Svar:</strong> \\(\\dfrac{76}{391}\\approx0{,}194\\), alltså cirka \\(19{,}4\\,\\%\\)</p>",
+        "ledtrad": "<p>Tänk på spelarens tre nummer: hur många av dem hör till de 20 dragna och hur många till de 50 andra?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Hypergeometrisk sannolikhet.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "rätt siffror i ordning",
+    "poang": "0/2/0",
+    "t": "<p>I ett lotteri har varje lott ett sexsiffrigt nummer från 000000 till 999999. Man vinner femte pris om exakt de två första siffrorna stämmer med vinstnumret, alltså de två första rätt men den tredje fel.</p><p>Hur stor är sannolikheten att vinna femte pris?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>De två första siffrorna rätt: \\(\\dfrac{1}{100}\\). Den tredje fel: \\(\\dfrac{9}{10}\\).</p><p>\\(\\dfrac{1}{100}\\cdot\\dfrac{9}{10}=\\dfrac{9}{1\\,000}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{9}{1000}\\approx0{,}009\\), alltså cirka \\(0{,}9\\,\\%\\)</p>",
+    "id": "1.711",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "9/1000",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Vilka siffror måste stämma och vilken måste vara fel?</p>",
+    "traningsniva": 3
+  },
+  {
     "kap": 2,
     "omr": "delbarhet_primtal",
     "niva": "E",

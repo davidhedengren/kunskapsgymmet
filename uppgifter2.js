@@ -11811,6 +11811,32 @@ window.BANK2 = [
     ]
   },
   {
+    "id": "3.309",
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Två långa, raka och parallella ledare är 10 cm från varandra. De leder strömmarna 8,0 A och 12 A i samma riktning.</p><p>På vilket avstånd från ledaren med 8,0 A, på linjen mellan ledarna, är det sammanlagda magnetfältet noll? Svara i cm.</p>",
+    "s": "<p>Mellan ledarna är fälten från de två strömmarna motriktade när strömmarna går åt samma håll (högerhandsregeln). Fältet är noll där de är lika starka.</p><p>\\(B=\\dfrac{\\mu_0I}{2\\pi r}\\). Med avståndet \\(x\\) från 8,0 A-ledaren:</p><p>\\[\\frac{8{,}0}{x}=\\frac{12}{0{,}10-x}\\;\\Leftrightarrow\\;0{,}80-8{,}0x=12x\\;\\Leftrightarrow\\;x=0{,}040\\text{ m}.\\]</p><p>Punkten ligger närmare den svagare strömmen, vilket är rimligt.</p><p><strong>Svar:</strong> 4,0 cm från ledaren med 8,0 A</p>",
+    "familj": "Magnetfält kring raka ledare",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Åt vilka håll pekar de två fälten mellan ledarna? Sätt fältstyrkorna lika.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": 0.05,
+    "svarEnhet": "cm",
+    "typ": "nollpunkt mellan två strömmar"
+  },
+  {
     "id": "3.161",
     "kap": 3,
     "omr": "magnetism",
@@ -21298,6 +21324,46 @@ window.BANK2 = [
     ]
   },
   {
+    "id": "3.308",
+    "kap": 3,
+    "omr": "jordens_magnetfalt",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>I Stockholm är den horisontella komposanten av jordens magnetfält ungefär 15 µT. Fältet lutar \\(72^\\circ\\) under horisontalplanet (inklinationen).</p><p>Bestäm jordmagnetfältets totala styrka och dess vertikala komposant. Svara i µT med en decimal.</p>",
+    "s": "<p>Det totala fältet \\(B\\), den horisontella komposanten och den vertikala komposanten bildar en rätvinklig triangel. Vinkeln mellan \\(B\\) och horisontalplanet är \\(72^\\circ\\).</p><p>\\(B_h=B\\cos72^\\circ\\) ger \\(B=\\frac{15}{\\cos72^\\circ}\\approx48{,}5\\) µT.</p><p>\\(B_v=B_h\\tan72^\\circ=15\\tan72^\\circ\\approx46{,}2\\) µT.</p><p>I Sverige är fältet alltså nästan lodrätt. En kompassnål känner bara av den svaga horisontella delen.</p><p><strong>Svar:</strong> cirka 48,5 µT totalt och cirka 46,2 µT vertikalt</p>",
+    "familj": "Jordens magnetfält som vektor",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita fältvektorn med dess horisontella och vertikala komposant. Vilken vinkel ligger mellan vektorn och horisontalplanet?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      48.54101966249684,
+      46.16525305762879
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Total fältstyrka",
+      "Vertikal komposant"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "jordfältets komposanter ur inklination",
+    "svarEnhet": [
+      "µT",
+      "µT"
+    ]
+  },
+  {
     "id": "3.111",
     "kap": 3,
     "omr": "elektriska_falt",
@@ -23001,6 +23067,46 @@ window.BANK2 = [
     ]
   },
   {
+    "id": "2.302",
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Vattenvågor rör sig på djupt vatten med farten 0,80 m/s och våglängden 4,0 cm. De når en rak gräns mot grunt vatten, där farten är 0,50 m/s. Infallsvinkeln mot gränsens normal är \\(40^\\circ\\).</p><p>Bestäm brytningsvinkeln och våglängden på det grunda vattnet.</p>",
+    "s": "<p>Frekvensen ändras inte vid gränsen, eftersom vågtopparna inte kan försvinna eller skapas där. Då är \\(\\lambda\\) proportionell mot \\(v\\):</p><p>\\[\\lambda_2=4{,}0\\cdot\\frac{0{,}50}{0{,}80}=2{,}5\\text{ cm}.\\]</p><p>Brytningslagen för vågor: \\(\\dfrac{\\sin\\theta_1}{\\sin\\theta_2}=\\dfrac{v_1}{v_2}\\), så</p><p>\\[\\sin\\theta_2=\\frac{0{,}50}{0{,}80}\\sin40^\\circ\\approx0{,}402\\;\\Rightarrow\\;\\theta_2\\approx23{,}7^\\circ.\\]</p><p>Vågorna bryts mot normalen när de saktar in.</p><p><strong>Svar:</strong> brytningsvinkeln är cirka \\(23{,}7^\\circ\\) och våglängden 2,5 cm</p>",
+    "familj": "Reflektion, brytning och diffraktion",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken storhet är densamma på båda sidor om gränsen? Använd brytningslagen med farterna.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      23.68714058733746,
+      2.5
+    ],
+    "tolerans": [
+      0.1,
+      0.01
+    ],
+    "svarEtiketter": [
+      "Brytningsvinkel",
+      "Våglängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "brytning av vattenvågor vid djupändring",
+    "svarEnhet": [
+      "°",
+      "cm"
+    ]
+  },
+  {
     "id": "2.189",
     "kap": 2,
     "omr": "staende_vagor",
@@ -24088,6 +24194,46 @@ window.BANK2 = [
     ]
   },
   {
+    "id": "3.311",
+    "kap": 3,
+    "omr": "vaxelstrom_spole_kondensator",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En LC-krets består av en spole med induktansen 2,5 mH och en kondensator.</p><p><strong>a)</strong> Vilken kapacitans ger resonansfrekvensen 100 kHz? Svara i nF med tre värdesiffror.</p><p><strong>b)</strong> Kapacitansen fyrdubblas. Vilken blir resonansfrekvensen? Svara i kHz.</p>",
+    "s": "<p>Resonansfrekvensen är \\(f=\\dfrac{1}{2\\pi\\sqrt{LC}}\\).</p><p><strong>a)</strong> \\(C=\\dfrac{1}{(2\\pi f)^2L}=\\dfrac{1}{(2\\pi\\cdot10^5)^2\\cdot2{,}5\\cdot10^{-3}}\\approx1{,}01\\cdot10^{-9}\\) F \\(=1{,}01\\) nF.</p><p><strong>b)</strong> \\(f\\) är proportionell mot \\(\\frac{1}{\\sqrt C}\\). Fyra gånger så stor kapacitans ger halva frekvensen: 50 kHz.</p><p><strong>Svar:</strong> a) cirka 1,01 nF &nbsp; b) 50 kHz</p>",
+    "familj": "Resonans i LC-krets",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Lös ut \\(C\\) ur formeln för resonansfrekvensen. Hur beror \\(f\\) på \\(C\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.013211836423378,
+      50
+    ],
+    "tolerans": [
+      0.01,
+      0.5
+    ],
+    "svarEtiketter": [
+      "a) Kapacitans",
+      "b) Frekvens"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "kapacitans för given resonansfrekvens",
+    "svarEnhet": [
+      "nF",
+      "kHz"
+    ]
+  },
+  {
     "id": "2.301",
     "kap": 2,
     "omr": "ljud_horsel",
@@ -24139,6 +24285,32 @@ window.BANK2 = [
     "familjTidigare": [
       "Rumtid och referenssystem"
     ]
+  },
+  {
+    "id": "6.302",
+    "kap": 6,
+    "omr": "tidsdilatation",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "t": "<p>Myoner bildas högt upp i atmosfären, 15 km över marken, och rör sig nedåt med farten \\(0{,}995c\\). I sitt eget vilosystem har myoner halveringstiden 1,56 µs.</p><p>Hur stor andel av myonerna når marken? Svara i procent med en decimal. Jämför med vad man skulle få utan relativitetsteori.</p>",
+    "s": "<p>Tid i jordens system: \\(t=\\dfrac{15\\,000}{0{,}995\\cdot3{,}00\\cdot10^8}\\approx50{,}3\\) µs.</p><p>Gammafaktorn: \\(\\gamma=\\dfrac1{\\sqrt{1-0{,}995^2}}\\approx10{,}0\\). Halveringstiden mätt från jorden blir \\(\\gamma\\cdot1{,}56\\approx15{,}6\\) µs.</p><p>Antal halveringar: \\(\\frac{50{,}3}{15{,}6}\\approx3{,}22\\). Andel kvar: \\(0{,}5^{3{,}22}\\approx0{,}108\\), alltså cirka 10,8 %.</p><p>Utan tidsdilatation skulle det bli \\(\\frac{50{,}3}{1{,}56}\\approx32\\) halveringar och andelen \\(0{,}5^{32}\\approx2\\cdot10^{-10}\\). Nästan inga myoner skulle nå marken. Att man faktiskt mäter många myoner vid marken är ett tydligt belägg för tidsdilatation.</p><p><strong>Svar:</strong> cirka 10,8 %</p>",
+    "familj": "Tidsdilatation och egentid",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna restiden i jordens system. Vilken halveringstid ska man använda i det systemet?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.75287749917558,
+    "tolerans": 0.2,
+    "svarEnhet": "%",
+    "typ": "myoner och tidsdilatation"
   },
   {
     "id": "5.301",
@@ -24522,6 +24694,31 @@ window.BANK2 = [
     ]
   },
   {
+    "id": "5.337",
+    "kap": 5,
+    "omr": "stjarnornas_utveckling",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En stjärnas livslängd på huvudserien är ungefär proportionell mot \\(\\frac{M}{L}\\), alltså tillgängligt bränsle delat med förbrukningstakt. För huvudseriestjärnor gäller ungefär \\(L\\propto M^{3{,}5}\\).</p><p>Solen lever ungefär 10 miljarder år på huvudserien. Hur länge lever en stjärna med 8 solmassor? Svara i miljoner år med två värdesiffror.</p>",
+    "s": "<p>\\(t\\propto\\frac{M}{M^{3{,}5}}=M^{-2{,}5}\\). Då är</p><p>\\[t=10^{10}\\cdot8^{-2{,}5}=\\frac{10^{10}}{181}\\approx5{,}5\\cdot10^7\\text{ år}.\\]</p><p>Det är ungefär 55 miljoner år. Stjärnan har 8 gånger mer bränsle men lyser cirka 1 450 gånger starkare.</p><p>En så tung stjärna slutar som en supernova och lämnar efter sig en neutronstjärna.</p><p><strong>Svar:</strong> cirka 55 miljoner år</p>",
+    "familj": "Stjärnors livslängd och slutstadier",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Kombinera de två proportionaliteterna till ett samband mellan livslängd och massa.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 55.24271728019903,
+    "tolerans": 1,
+    "typ": "livslängd ur massa–luminositet"
+  },
+  {
     "id": "5.316",
     "kap": 5,
     "omr": "kosmologi",
@@ -24751,6 +24948,32 @@ window.BANK2 = [
     "familjTidigare": [
       "Magnetfält i spole"
     ]
+  },
+  {
+    "id": "3.310",
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "t": "<p>En lång spole har 2 000 varv per meter. Den placeras med axeln i öst–västlig riktning. En liten kompass inne i spolen pekar mot norr när ingen ström går, eftersom jordfältets horisontella komposant är 15 µT.</p><p>När en ström sluts vrids kompassnålen \\(60^\\circ\\) från norr. Hur stor är strömmen? Svara i mA med tre värdesiffror.</p>",
+    "s": "<p>Kompassen ställer in sig längs det sammanlagda horisontella fältet. Spolens fält \\(B_s\\) är vinkelrätt mot jordfältet \\(B_j\\), så</p><p>\\[\\tan60^\\circ=\\frac{B_s}{B_j}\\;\\Rightarrow\\;B_s=15\\tan60^\\circ\\approx26{,}0\\text{ µT}.\\]</p><p>I en lång spole är \\(B=\\mu_0nI\\), alltså</p><p>\\[I=\\frac{B_s}{\\mu_0n}=\\frac{26{,}0\\cdot10^{-6}}{4\\pi\\cdot10^{-7}\\cdot2\\,000}\\approx0{,}0103\\text{ A}=10{,}3\\text{ mA}.\\]</p><p>Med den här metoden kan man mäta jordfältet om strömmen är känd, eller tvärtom.</p><p><strong>Svar:</strong> cirka 10,3 mA</p>",
+    "familj": "Magnetfält i en spole",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Kompassen pekar längs summan av jordfältet och spolens fält. Rita de två vinkelräta fälten.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.337416789158597,
+    "tolerans": 0.1,
+    "svarEnhet": "mA",
+    "typ": "kompassutslag i spole och jordfält"
   },
   {
     "id": "3.306",
@@ -26147,6 +26370,32 @@ window.BANK2 = [
     "familjTidigare": [
       "Fysik i kommunikations- och medicinteknik"
     ]
+  },
+  {
+    "id": "4.354",
+    "kap": 4,
+    "omr": "em_vagor",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En platta choklad läggs i en mikrovågsugn utan roterande tallrik. Efter en kort stund har chokladen smält i fläckar. Avståndet mellan två närliggande smälta fläckar är 6,0 cm. Mikrovågsugnen arbetar med frekvensen 2,45 GHz.</p><p>De smälta fläckarna ligger i bukarna i en stående våg. Använd mätningen för att beräkna ljusets hastighet. Svara i grundpotensform med tre värdesiffror.</p>",
+    "s": "<p>I en stående våg är avståndet mellan två närliggande bukar en halv våglängd. Alltså är \\(\\lambda=2\\cdot6{,}0=12\\) cm.</p><p>\\[c=f\\lambda=2{,}45\\cdot10^9\\cdot0{,}12\\approx2{,}94\\cdot10^8\\text{ m/s}.\\]</p><p>Det tabellerade värdet är \\(3{,}00\\cdot10^8\\) m/s. Avvikelsen är cirka 2 %, vilket är rimligt med tanke på hur svårt det är att mäta fläckarnas mittpunkter.</p><p><strong>Svar:</strong> cirka \\(2{,}94\\cdot10^8\\) m/s</p>",
+    "familj": "Våglängd och frekvens",
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur långt är det mellan två bukar i en stående våg, uttryckt i våglängder?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 294000000.0,
+    "tolerans": 2000000.0,
+    "svarEnhet": "m/s",
+    "typ": "ljusets hastighet med mikrovågsugn"
   },
   {
     "id": "GY25-FY2-TEK-02",

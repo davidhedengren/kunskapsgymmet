@@ -30835,6 +30835,786 @@ window.BANK2 = [
     "typ": "kompassutslag i spole och jordfält"
   },
   {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "flödestäthet i solenoid",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En 1,5 cm lång solenoid har 17 lindningsvarv och strömmen 1,2 A. Bestäm flödestätheten inuti spolen.</p>",
+    "s": "<p>\\(B=\\mu_0\\dfrac{NI}{l}=4\\pi\\cdot10^{-7}\\cdot\\dfrac{17\\cdot1{,}2}{0{,}015}\\).</p><p><strong>Svar:</strong> \\(0{,}0017\\) T</p>",
+    "id": "3.378",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0017090264035528476,
+    "tolerans": 5.1e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(B=\\mu_0\\dfrac{NI}{l}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "T",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "ström i platt spole",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>En platt spole har 10 lindningsvarv och radien 18 cm. Hur stor ström krävs för att flödestätheten i spolens centrum ska bli 150 µT?</p>",
+    "s": "<p>\\(I=\\dfrac{2rB}{\\mu_0N}=\\dfrac{2\\cdot0{,}18\\cdot150\\cdot10^{-6}}{4\\pi\\cdot10^{-7}\\cdot10}\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) A</p>",
+    "id": "3.379",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.297183463481173,
+    "tolerans": 0.0645,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(I\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "ström i solenoid",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En solenoid är 0,400 m lång och har 1 000 lindningsvarv. I mitten är flödestätheten \\(1{,}00\\cdot10^{-4}\\) T. Hur stor är strömmen?</p>",
+    "s": "<p>\\(I=\\dfrac{Bl}{\\mu_0N}=\\dfrac{1{,}00\\cdot10^{-4}\\cdot0{,}400}{4\\pi\\cdot10^{-7}\\cdot1\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}0318\\) A</p>",
+    "id": "3.380",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.031830988618379075,
+    "tolerans": 0.000477,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(I\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "flödestäthet i platt spole",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>En platt spole med radien 25 cm har 40 lindningsvarv och strömmen 1,5 A. Hur stor är flödestätheten i mitten?</p>",
+    "s": "<p>\\(B=\\dfrac{4\\pi\\cdot10^{-7}\\cdot40\\cdot1{,}5}{2\\cdot0{,}25}\\).</p><p><strong>Svar:</strong> \\(0{,}00015\\) T</p>",
+    "id": "3.381",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.00015079644737231007,
+    "tolerans": 5.1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(B=\\dfrac{\\mu_0NI}{2r}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "T",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "elektromagnet med järnspik",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Harald lindar 14 varv isolerad koppartråd runt en 50 mm lång järnspik och ansluter till ett batteri med spänningen 1,5 V. Kretsens resistans är 50 mΩ och spiken har den relativa permeabiliteten \\(\\mu_r=15\\). Bestäm flödestätheten mitt i elektromagneten.</p>",
+    "s": "<p>\\(I=\\dfrac UR=\\dfrac{1{,}5}{0{,}050}=30\\) A. \\(B=15\\cdot4\\pi\\cdot10^{-7}\\cdot\\dfrac{14\\cdot30}{0{,}050}\\).</p><p><strong>Svar:</strong> \\(0{,}16\\) T</p>",
+    "id": "3.382",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.15833626974092554,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först strömmen med Ohms lag.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "T",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "platt spole som jordens fält",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>En platt spole har 5,0 varv och radien 10,0 cm. Hur stor ström krävs för att flödestätheten i mitten ska bli lika stor som jordens magnetfält, \\(5{,}0\\cdot10^{-5}\\) T?</p>",
+    "s": "<p>\\(I=\\dfrac{2rB}{\\mu_0N}=\\dfrac{2\\cdot0{,}100\\cdot5{,}0\\cdot10^{-5}}{4\\pi\\cdot10^{-7}\\cdot5{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) A</p>",
+    "id": "3.383",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5915494309189535,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(I\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "spolens längd",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En spole med 20 lindningsvarv och strömmen 10,0 A ger flödestätheten 2,5 mT inuti spolen. Uppskatta spolens längd.</p>",
+    "s": "<p>\\(l=\\dfrac{\\mu_0NI}{B}=\\dfrac{4\\pi\\cdot10^{-7}\\cdot20\\cdot10{,}0}{2{,}5\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(0{,}10\\) m</p>",
+    "id": "3.384",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.10053096491487339,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(l\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "C",
+    "typ": "två platta spolar tar ut varandra",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>Två små platta spolar med diametern 62 mm sitter mycket nära varandra med samma mittpunkt. Den ena har 1 varv och strömmen 8,0 A, den andra har 5 varv. Hur stor ström ska gå i spolen med 5 varv för att den totala flödestätheten i mitten ska bli noll?</p>",
+    "s": "<p>Fälten ska vara lika stora: \\(N_1I_1=N_2I_2\\iff I_2=\\dfrac{1\\cdot8{,}0}{5}\\). Strömmarna ska gå åt motsatta håll.</p><p><strong>Svar:</strong> \\(1{,}6\\) A</p>",
+    "id": "3.385",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.6,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Radien är densamma, så det räcker att jämföra \\(NI\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "A",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "spole runt ekvatorn",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>Anta att man lindar en platt spole med 10 varv runt jordens ekvator (jordradien \\(6{,}37\\cdot10^6\\) m). Hur stor ström krävs för att flödestätheten i jordens mitt ska bli 50 µT?</p>",
+    "s": "<p>\\(I=\\dfrac{2rB}{\\mu_0N}=\\dfrac{2\\cdot6{,}37\\cdot10^6\\cdot50\\cdot10^{-6}}{4\\pi\\cdot10^{-7}\\cdot10}\\). Jämför med en blixt, ungefär 30 kA.</p><p><strong>Svar:</strong> \\(5{,}1\\cdot10^{7}\\) A</p>",
+    "id": "3.386",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 50690849.37476866,
+    "tolerans": 760000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jordradien är spolens radie.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "C",
+    "typ": "elektromagnet: permeabilitet och lindning",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Jasmine lindar 30 varv tätt i ett lager koppartråd med diametern 1,0 mm runt en 75 mm lång järnspik, så att spolen blir 30 mm lång. Strömmen är 2,8 A.</p><ol type=\"a\"><li>Hur stor flödestäthet bör hon mäta mitt i spolen om spiken tas bort?</li><li>Med spiken i spolen mäter hon 28 mT. Hur stor relativ permeabilitet har spiken?</li><li>Hon drar isär de 30 varven så att de täcker hela spiken. Hur stor blir flödestätheten nu?</li><li>Hon lindar i stället tråden tätt i ett lager längs hela spiken. Strömmen är fortfarande 2,8 A. Hur stor blir flödestätheten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(B=4\\pi\\cdot10^{-7}\\cdot\\dfrac{30\\cdot2{,}8}{0{,}030}\\).</p><p><strong>Svar:</strong> \\(0{,}0035\\) T</p></li><li><p>Utan spik är \\(B\\approx3{,}52\\) mT, så \\(\\mu_r=\\dfrac{28}{3{,}52}\\).</p><p><strong>Svar:</strong> \\(8{,}0\\)</p></li><li><p>\\(B=8{,}0\\cdot4\\pi\\cdot10^{-7}\\cdot\\dfrac{30\\cdot2{,}8}{0{,}075}\\).</p><p><strong>Svar:</strong> \\(0{,}011\\) T</p></li><li><p>Med trådens diameter 1,0 mm får 75 varv plats på 75 mm, alltså samma \\(\\dfrac Nl\\) som från början.</p><p>\\(B=8{,}0\\cdot4\\pi\\cdot10^{-7}\\cdot\\dfrac{75\\cdot2{,}8}{0{,}075}\\).</p><p><strong>Svar:</strong> \\(0{,}028\\) T</p></li></ol>",
+    "id": "3.387",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.003518583772020568,
+      7.957747154594768,
+      0.011259468070465819,
+      0.028148670176164545
+    ],
+    "tolerans": [
+      5.28e-05,
+      0.119,
+      0.00051,
+      0.00051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "T",
+      null,
+      "T",
+      "T"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Jasmine lindar 30 varv tätt i ett lager koppartråd med diametern 1,0 mm runt en 75 mm lång järnspik, så att spolen blir 30 mm lång. Strömmen är 2,8 A.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor flödestäthet bör hon mäta mitt i spolen om spiken tas bort?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Jasmine lindar 30 varv tätt i ett lager koppartråd med diametern 1,0 mm runt en 75 mm lång järnspik, så att spolen blir 30 mm lång. Strömmen är 2,8 A.</p><p>Hur stor flödestäthet bör hon mäta mitt i spolen om spiken tas bort?</p>",
+        "s": "<p>\\(B=4\\pi\\cdot10^{-7}\\cdot\\dfrac{30\\cdot2{,}8}{0{,}030}\\).</p><p><strong>Svar:</strong> \\(0{,}0035\\) T</p>",
+        "ledtrad": "<p>Utan kärna är \\(\\mu_r=1\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med spiken i spolen mäter hon 28 mT. Hur stor relativ permeabilitet har spiken?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Jasmine lindar 30 varv tätt i ett lager koppartråd med diametern 1,0 mm runt en 75 mm lång järnspik, så att spolen blir 30 mm lång. Strömmen är 2,8 A.</p><p>Med spiken i spolen mäter hon 28 mT. Hur stor relativ permeabilitet har spiken?</p>",
+        "s": "<p>Utan spik är \\(B\\approx3{,}52\\) mT, så \\(\\mu_r=\\dfrac{28}{3{,}52}\\).</p><p><strong>Svar:</strong> \\(8{,}0\\)</p>",
+        "ledtrad": "<p>Jämför med flödestätheten utan spik.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hon drar isär de 30 varven så att de täcker hela spiken. Hur stor blir flödestätheten nu?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Jasmine lindar 30 varv tätt i ett lager koppartråd med diametern 1,0 mm runt en 75 mm lång järnspik, så att spolen blir 30 mm lång. Strömmen är 2,8 A.</p>Spiken har den relativa permeabiliteten 8,0.<p>Hon drar isär de 30 varven så att de täcker hela spiken. Hur stor blir flödestätheten nu?</p>",
+        "s": "<p>\\(B=8{,}0\\cdot4\\pi\\cdot10^{-7}\\cdot\\dfrac{30\\cdot2{,}8}{0{,}075}\\).</p><p><strong>Svar:</strong> \\(0{,}011\\) T</p>",
+        "ledtrad": "<p>Nu är spolen 75 mm lång.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hon lindar i stället tråden tätt i ett lager längs hela spiken. Strömmen är fortfarande 2,8 A. Hur stor blir flödestätheten?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Jasmine lindar 30 varv tätt i ett lager koppartråd med diametern 1,0 mm runt en 75 mm lång järnspik, så att spolen blir 30 mm lång. Strömmen är 2,8 A.</p>Spiken har den relativa permeabiliteten 8,0.<p>Hon lindar i stället tråden tätt i ett lager längs hela spiken. Strömmen är fortfarande 2,8 A. Hur stor blir flödestätheten?</p>",
+        "s": "<p>Med trådens diameter 1,0 mm får 75 varv plats på 75 mm, alltså samma \\(\\dfrac Nl\\) som från början.</p><p>\\(B=8{,}0\\cdot4\\pi\\cdot10^{-7}\\cdot\\dfrac{75\\cdot2{,}8}{0{,}075}\\).</p><p><strong>Svar:</strong> \\(0{,}028\\) T</p>",
+        "ledtrad": "<p>Hur många varv får plats på 75 mm?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Flödestätheten beror på antal varv per längdenhet.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "C",
+    "typ": "solenoid och platt spole med samma fält",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) och i mitten av en platt spole \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>En solenoid har längden 25,0 cm, radien 3,0 cm och 550 lindningsvarv. Strömmen är 1,50 A.</p><ol type=\"a\"><li>Bestäm flödestätheten i mitten av solenoiden.</li><li>Solenoiden byts mot en platt spole med 10 varv och diametern 30,0 cm. Hur stor ström ger samma flödestäthet i mitten som solenoiden?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(B=4\\pi\\cdot10^{-7}\\cdot\\dfrac{550\\cdot1{,}50}{0{,}250}\\).</p><p><strong>Svar:</strong> \\(0{,}0041\\) T</p></li><li><p>\\(I=\\dfrac{2rB}{\\mu_0N}=\\dfrac{2\\cdot0{,}150\\cdot4{,}15\\cdot10^{-3}}{4\\pi\\cdot10^{-7}\\cdot10}\\).</p><p><strong>Svar:</strong> \\(99\\) A</p></li></ol>",
+    "id": "3.388",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.004146902302738527,
+      98.99999999999999
+    ],
+    "tolerans": [
+      6.22e-05,
+      1.48
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "T",
+      "A"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) och i mitten av en platt spole \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>En solenoid har längden 25,0 cm, radien 3,0 cm och 550 lindningsvarv. Strömmen är 1,50 A.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm flödestätheten i mitten av solenoiden.",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) och i mitten av en platt spole \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>En solenoid har längden 25,0 cm, radien 3,0 cm och 550 lindningsvarv. Strömmen är 1,50 A.</p><p>Bestäm flödestätheten i mitten av solenoiden.</p>",
+        "s": "<p>\\(B=4\\pi\\cdot10^{-7}\\cdot\\dfrac{550\\cdot1{,}50}{0{,}250}\\).</p><p><strong>Svar:</strong> \\(0{,}0041\\) T</p>",
+        "ledtrad": "<p>Radien behövs inte.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Solenoiden byts mot en platt spole med 10 varv och diametern 30,0 cm. Hur stor ström ger samma flödestäthet i mitten som solenoiden?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) och i mitten av en platt spole \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>En solenoid har längden 25,0 cm, radien 3,0 cm och 550 lindningsvarv. Strömmen är 1,50 A.</p>Solenoiden ger flödestätheten 4,15 mT.<p>Solenoiden byts mot en platt spole med 10 varv och diametern 30,0 cm. Hur stor ström ger samma flödestäthet i mitten som solenoiden?</p>",
+        "s": "<p>\\(I=\\dfrac{2rB}{\\mu_0N}=\\dfrac{2\\cdot0{,}150\\cdot4{,}15\\cdot10^{-3}}{4\\pi\\cdot10^{-7}\\cdot10}\\).</p><p><strong>Svar:</strong> \\(99\\) A</p>",
+        "ledtrad": "<p>Använd formeln för platt spole.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Lång spole och platt spole har olika formler.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "supraledande solenoid",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En 0,50 m lång supraledande solenoid ger flödestätheten 9,0 T när strömmen är 75 A. Hur många lindningsvarv har den?</p>",
+    "s": "<p>\\(N=\\dfrac{Bl}{\\mu_0I}=\\dfrac{9{,}0\\cdot0{,}50}{4\\pi\\cdot10^{-7}\\cdot75}\\).</p><p><strong>Svar:</strong> \\(47\\,746\\) varv</p>",
+    "id": "3.389",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 47746.4829275686,
+    "tolerans": 716.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(N\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "varv",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "spole med järnkärna",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En 0,500 m lång spole med 190 varv har strömmen 350 mA och en järnkärna med \\(\\mu_r=3\\,000\\). Hur stor är flödestätheten?</p>",
+    "s": "<p>\\(B=3\\,000\\cdot4\\pi\\cdot10^{-7}\\cdot\\dfrac{190\\cdot0{,}350}{0{,}500}\\).</p><p><strong>Svar:</strong> \\(0{,}501\\) T</p>",
+    "id": "3.390",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.501398187512931,
+    "tolerans": 0.00752,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Multiplicera med \\(\\mu_r\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "T",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "relativ permeabilitet ur mätning",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En 38 cm lång spole med 780 varv och järnkärna har strömmen 48 A. Flödestätheten inuti är 2,2 T. Bestäm järnkärnans relativa permeabilitet.</p>",
+    "s": "<p>\\(\\mu_r=\\dfrac{Bl}{\\mu_0NI}=\\dfrac{2{,}2\\cdot0{,}38}{4\\pi\\cdot10^{-7}\\cdot780\\cdot48}\\).</p><p><strong>Svar:</strong> \\(18\\) </p>",
+    "id": "3.391",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17.768901231947716,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(\\mu_r\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "ström ur Hallsondsmätning",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En 30,0 cm lång solenoid med diametern 1,25 cm har 935 varv. En Hallsond visar flödestätheten 4,65 mT inuti. Hur stor är strömmen?</p>",
+    "s": "<p>\\(I=\\dfrac{Bl}{\\mu_0N}=\\dfrac{4{,}65\\cdot10^{-3}\\cdot0{,}300}{4\\pi\\cdot10^{-7}\\cdot935}\\).</p><p><strong>Svar:</strong> \\(1{,}19\\) A</p>",
+    "id": "3.392",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.1872788535464918,
+    "tolerans": 0.0178,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Diametern behövs inte.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "E",
+    "typ": "solenoidens längd",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En solenoid har 460 lindningsvarv. Strömmen 2,0 A ger flödestätheten 9,6 mT inuti. Hur lång är solenoiden?</p>",
+    "s": "<p>\\(l=\\dfrac{\\mu_0NI}{B}=\\dfrac{4\\pi\\cdot10^{-7}\\cdot460\\cdot2{,}0}{9{,}6\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) m</p>",
+    "id": "3.393",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.12042771838760874,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(l\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "C",
+    "typ": "slinga tar ut jordens fält",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>Vid nordpolen är jordens magnetfält \\(6{,}0\\cdot10^{-5}\\) T och riktat rakt nedåt. En hjälm med diametern 20,0 cm har en inbyggd slinga med ett varv. Hur stor ström krävs för att det totala fältet i hjälmens mitt ska bli noll?</p>",
+    "s": "<p>\\(I=\\dfrac{2rB}{\\mu_0}=\\dfrac{2\\cdot0{,}100\\cdot6{,}0\\cdot10^{-5}}{4\\pi\\cdot10^{-7}}\\). Fältet från slingan ska peka uppåt, så strömmen går moturs sett ovanifrån.</p><p><strong>Svar:</strong> \\(9{,}5\\) A</p>",
+    "id": "3.394",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.549296585513721,
+    "tolerans": 0.143,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Slingans fält ska vara lika stort som jordens.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "A",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "C",
+    "typ": "antal varv ur spänning och resistans",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Över en 42 cm lång spole med resistansen 1,5 Ω ligger spänningen 7,0 V. Flödestätheten inuti blir 0,030 T. Hur många varv har spolen?</p>",
+    "s": "<p>\\(I=\\dfrac{7{,}0}{1{,}5}\\approx4{,}67\\) A. \\(N=\\dfrac{Bl}{\\mu_0I}=\\dfrac{0{,}030\\cdot0{,}42}{4\\pi\\cdot10^{-7}\\cdot4{,}67}\\).</p><p><strong>Svar:</strong> \\(2\\,149\\) varv</p>",
+    "id": "3.395",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2148.5917317405865,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först strömmen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "varv",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "C",
+    "typ": "två koncentriska slingor",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>Två cirkulära slingor med ett varv var ligger i samma plan med samma mittpunkt. Den yttre (radie 12,0 cm) har strömmen 5,00 A medurs och den inre har strömmen 3,00 A moturs.</p><ol type=\"a\"><li>Den inre slingan har radien 9,0 cm. Hur stor är den totala flödestätheten i mitten?</li><li>Vilken radie ska den inre slingan ha för att den totala flödestätheten i mitten ska bli noll?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(B_1=\\dfrac{4\\pi\\cdot10^{-7}\\cdot5{,}00}{2\\cdot0{,}120}\\approx26{,}2\\) µT och \\(B_2=\\dfrac{4\\pi\\cdot10^{-7}\\cdot3{,}00}{2\\cdot0{,}090}\\approx20{,}9\\) µT, motriktade.</p><p>\\(B=B_1-B_2\\), riktat som den yttre slingans fält.</p><p><strong>Svar:</strong> \\(5{,}2\\cdot10^{-6}\\) T</p></li><li><p>\\(\\dfrac{I_1}{r_1}=\\dfrac{I_2}{r_2}\\iff r_2=0{,}120\\cdot\\dfrac{3{,}00}{5{,}00}\\).</p><p><strong>Svar:</strong> \\(0{,}072\\) m</p></li></ol>",
+    "id": "3.396",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.23598775598299e-06,
+      0.072
+    ],
+    "tolerans": [
+      7.85e-08,
+      0.00108
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "T",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>Två cirkulära slingor med ett varv var ligger i samma plan med samma mittpunkt. Den yttre (radie 12,0 cm) har strömmen 5,00 A medurs och den inre har strömmen 3,00 A moturs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Den inre slingan har radien 9,0 cm. Hur stor är den totala flödestätheten i mitten?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>Två cirkulära slingor med ett varv var ligger i samma plan med samma mittpunkt. Den yttre (radie 12,0 cm) har strömmen 5,00 A medurs och den inre har strömmen 3,00 A moturs.</p><p>Den inre slingan har radien 9,0 cm. Hur stor är den totala flödestätheten i mitten?</p>",
+        "s": "<p>\\(B_1=\\dfrac{4\\pi\\cdot10^{-7}\\cdot5{,}00}{2\\cdot0{,}120}\\approx26{,}2\\) µT och \\(B_2=\\dfrac{4\\pi\\cdot10^{-7}\\cdot3{,}00}{2\\cdot0{,}090}\\approx20{,}9\\) µT, motriktade.</p><p>\\(B=B_1-B_2\\), riktat som den yttre slingans fält.</p><p><strong>Svar:</strong> \\(5{,}2\\cdot10^{-6}\\) T</p>",
+        "ledtrad": "<p>Motsatta strömriktningar ger motriktade fält.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken radie ska den inre slingan ha för att den totala flödestätheten i mitten ska bli noll?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I mitten av en platt spole är \\(B=\\dfrac{\\mu_0NI}{2r}\\).</p><p>Två cirkulära slingor med ett varv var ligger i samma plan med samma mittpunkt. Den yttre (radie 12,0 cm) har strömmen 5,00 A medurs och den inre har strömmen 3,00 A moturs.</p><p>Vilken radie ska den inre slingan ha för att den totala flödestätheten i mitten ska bli noll?</p>",
+        "s": "<p>\\(\\dfrac{I_1}{r_1}=\\dfrac{I_2}{r_2}\\iff r_2=0{,}120\\cdot\\dfrac{3{,}00}{5{,}00}\\).</p><p><strong>Svar:</strong> \\(0{,}072\\) m</p>",
+        "ledtrad": "<p>Fälten ska vara lika stora.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Fälten adderas som vektorer.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "C",
+    "typ": "dimensionera en spole",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En lång spole med diametern 10 cm och längden 1,0 m ska ge flödestätheten 25 mT när strömmen är 30 A. Spolen lindas med koppartråd i ett lager.</p><ol type=\"a\"><li>Hur många lindningsvarv ska spolen ha?</li><li>Uppskatta trådens längd.</li><li>Hur tjock får tråden högst vara?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{Bl}{\\mu_0I}=\\dfrac{0{,}025\\cdot1{,}0}{4\\pi\\cdot10^{-7}\\cdot30}\\approx663\\).</p><p><strong>Svar:</strong> \\(663\\) varv</p></li><li><p>Ett varv är \\(\\pi\\cdot0{,}10\\) m långt: \\(663\\cdot\\pi\\cdot0{,}10\\).</p><p><strong>Svar:</strong> \\(208\\) m</p></li><li><p>663 varv ska rymmas tätt på 1,0 m: \\(d=\\dfrac{1{,}0}{663}\\).</p><p><strong>Svar:</strong> \\(0{,}0015\\) m</p></li></ol>",
+    "id": "3.397",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      663.1455962162306,
+      208.33333333333337,
+      0.0015079644737231006
+    ],
+    "tolerans": [
+      9.95,
+      5.1,
+      5.1e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "varv",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En lång spole med diametern 10 cm och längden 1,0 m ska ge flödestätheten 25 mT när strömmen är 30 A. Spolen lindas med koppartråd i ett lager.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många lindningsvarv ska spolen ha?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En lång spole med diametern 10 cm och längden 1,0 m ska ge flödestätheten 25 mT när strömmen är 30 A. Spolen lindas med koppartråd i ett lager.</p><p>Hur många lindningsvarv ska spolen ha?</p>",
+        "s": "<p>\\(N=\\dfrac{Bl}{\\mu_0I}=\\dfrac{0{,}025\\cdot1{,}0}{4\\pi\\cdot10^{-7}\\cdot30}\\approx663\\).</p><p><strong>Svar:</strong> \\(663\\) varv</p>",
+        "ledtrad": "<p>Lös ut \\(N\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Uppskatta trådens längd.",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En lång spole med diametern 10 cm och längden 1,0 m ska ge flödestätheten 25 mT när strömmen är 30 A. Spolen lindas med koppartråd i ett lager.</p>Spolen ska ha 663 varv.<p>Uppskatta trådens längd.</p>",
+        "s": "<p>Ett varv är \\(\\pi\\cdot0{,}10\\) m långt: \\(663\\cdot\\pi\\cdot0{,}10\\).</p><p><strong>Svar:</strong> \\(208\\) m</p>",
+        "ledtrad": "<p>Räkna ut omkretsen på ett varv.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur tjock får tråden högst vara?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>En lång spole med diametern 10 cm och längden 1,0 m ska ge flödestätheten 25 mT när strömmen är 30 A. Spolen lindas med koppartråd i ett lager.</p>Spolen ska ha 663 varv.<p>Hur tjock får tråden högst vara?</p>",
+        "s": "<p>663 varv ska rymmas tätt på 1,0 m: \\(d=\\dfrac{1{,}0}{663}\\).</p><p><strong>Svar:</strong> \\(0{,}0015\\) m</p>",
+        "ledtrad": "<p>Varven ligger tätt i ett lager.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Börja med antalet varv.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "A",
+    "typ": "bilfjäder som spole",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Ett bilbatteri med spänningen 12 V och inre resistansen 20 mΩ kopplas till en bilfjäder av koppar. Fjädern har radien 4,0 cm och 30 tätt packade varv i ett lager, och tråden har diametern 5,0 mm. Hur stor blir flödestätheten i mitten av fjädern?</p>",
+    "s": "<p>Trådens längd: \\(30\\cdot2\\pi\\cdot0{,}040\\approx7{,}54\\) m. Area: \\(\\pi\\cdot0{,}0025^2\\). \\(R=\\dfrac{\\rho l}{A}\\approx6{,}5\\) mΩ.</p><p>\\(I=\\dfrac{12}{0{,}020+0{,}0065}\\approx450\\) A. Spolens längd: \\(30\\cdot5{,}0\\) mm \\(=0{,}15\\) m.</p><p>\\(B=4\\pi\\cdot10^{-7}\\cdot\\dfrac{30\\cdot450}{0{,}15}\\).</p><p><strong>Svar:</strong> \\(0{,}11\\) T</p>",
+    "id": "3.398",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.1136885158114521,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm trådens resistans, sedan strömmen och sedan spolens längd.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "T",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
+    "kap": 3,
+    "omr": "spolar",
+    "niva": "A",
+    "typ": "effekt för att driva en spole",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A. I en lång spole är \\(B=\\mu_r\\mu_0\\dfrac{NI}{l}\\) (\\(\\mu_r=1\\) utan kärna).</p><p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En lång spole med längden 75,0 cm och diametern 10,0 cm är tätt lindad i ett lager med koppartråd med diametern 1,00 mm. Hur stor elektrisk effekt krävs för att flödestätheten mitt i spolen ska bli 8,00 mT?</p>",
+    "s": "<p>\\(N=\\dfrac{0{,}750}{0{,}00100}=750\\). \\(I=\\dfrac{Bl}{\\mu_0N}\\approx6{,}37\\) A.</p><p>Trådens längd: \\(750\\cdot2\\pi\\cdot0{,}0500\\approx236\\) m, så \\(R=\\dfrac{\\rho l}{A}=\\dfrac{1{,}7\\cdot10^{-8}\\cdot236}{\\pi\\cdot0{,}000500^2}\\approx5{,}1\\) Ω.</p><p>\\(P=RI^2\\).</p><p><strong>Svar:</strong> \\(207\\) W</p>",
+    "id": "3.399",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält i en spole",
+    "svarstyp": "numeriskt",
+    "rättSvar": 206.69521463036912,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm antal varv, ström och trådens resistans.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "W",
+    "familjNyckel": "spolar__magnetfalt_i_en_spole"
+  },
+  {
     "id": "3.306",
     "kap": 3,
     "omr": "vaxelstrom",
@@ -32165,6 +32945,659 @@ window.BANK2 = [
     "familjTidigare": [
       "Generatorer och transformatorer"
     ]
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "E",
+    "typ": "toppvärde i jordens magnetfält",
+    "poang": "(1/0/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En kvadratisk spole med sidan 20,0 cm och 100 varv roterar kring en lodrät axel med 1 500 varv/min. Jordens vågräta fältkomposant är 20,0 µT. Beräkna toppvärdet av den inducerade spänningen.</p>",
+    "s": "<p>\\(\\omega=\\dfrac{1\\,500}{60}\\cdot2\\pi\\approx157\\) rad/s. \\(\\hat u=100\\cdot20{,}0\\cdot10^{-6}\\cdot0{,}0400\\cdot157\\).</p><p><strong>Svar:</strong> \\(0{,}0126\\) V</p>",
+    "id": "3.400",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.012566370614359173,
+    "tolerans": 0.000188,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla varvtalet till vinkelhastighet.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "V",
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "E",
+    "typ": "toppvärde för platt spole",
+    "poang": "(1/0/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En platt spole med arean 0,10 m² och 1 000 varv roterar med 60 varv/s i ett magnetfält med flödestätheten 0,20 T. Bestäm toppvärdet av den inducerade spänningen.</p>",
+    "s": "<p>\\(\\omega=2\\pi\\cdot60\\). \\(\\hat u=1\\,000\\cdot0{,}20\\cdot0{,}10\\cdot2\\pi\\cdot60\\).</p><p><strong>Svar:</strong> \\(7\\,540\\) V</p>",
+    "id": "3.401",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7539.822368615503,
+    "tolerans": 113.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "V",
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "C",
+    "typ": "spänning vid en viss tid",
+    "poang": "(1/2/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En rektangulär spole med sidorna 8,0 cm och 20 cm har 500 varv och roterar med 120 varv/min i ett magnetfält med flödestätheten 0,60 T. Vid \\(t=0\\) är \\(u=0\\).</p><ol type=\"a\"><li>Bestäm toppvärdet av spänningen.</li><li>Hur stor är spänningen efter 0,50 s?</li><li>Efter hur lång tid når spänningen första gången 30 V?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\omega=2\\pi\\cdot2{,}0=4\\pi\\) rad/s. \\(\\hat u=500\\cdot0{,}60\\cdot0{,}016\\cdot4\\pi\\).</p><p><strong>Svar:</strong> \\(60\\) V</p></li><li><p>\\(\\omega t=4\\pi\\cdot0{,}50=2\\pi\\), och \\(\\sin2\\pi=0\\).</p><p><strong>Svar:</strong> 0 V</p><p><strong>Svar:</strong> 0 V</p></li><li><p>\\(60\\sin(4\\pi t)=30\\iff4\\pi t=\\arcsin0{,}50\\approx0{,}524\\), så \\(t\\approx\\dfrac{0{,}524}{4\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}041\\) s</p></li></ol>",
+    "id": "3.402",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60.318578948924035,
+      0,
+      0.04142422103599675
+    ],
+    "tolerans": [
+      0.905,
+      0.05,
+      0.000621
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "V",
+      "V",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En rektangulär spole med sidorna 8,0 cm och 20 cm har 500 varv och roterar med 120 varv/min i ett magnetfält med flödestätheten 0,60 T. Vid \\(t=0\\) är \\(u=0\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm toppvärdet av spänningen.",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En rektangulär spole med sidorna 8,0 cm och 20 cm har 500 varv och roterar med 120 varv/min i ett magnetfält med flödestätheten 0,60 T. Vid \\(t=0\\) är \\(u=0\\).</p><p>Bestäm toppvärdet av spänningen.</p>",
+        "s": "<p>\\(\\omega=2\\pi\\cdot2{,}0=4\\pi\\) rad/s. \\(\\hat u=500\\cdot0{,}60\\cdot0{,}016\\cdot4\\pi\\).</p><p><strong>Svar:</strong> \\(60\\) V</p>",
+        "ledtrad": "<p>120 varv/min är 2,0 varv/s.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är spänningen efter 0,50 s?",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En rektangulär spole med sidorna 8,0 cm och 20 cm har 500 varv och roterar med 120 varv/min i ett magnetfält med flödestätheten 0,60 T. Vid \\(t=0\\) är \\(u=0\\).</p>Toppvärdet är 60 V och spolen roterar med 120 varv/min.<p>Hur stor är spänningen efter 0,50 s?</p>",
+        "s": "<p>\\(\\omega t=4\\pi\\cdot0{,}50=2\\pi\\), och \\(\\sin2\\pi=0\\).</p><p><strong>Svar:</strong> 0 V</p><p><strong>Svar:</strong> 0 V</p>",
+        "ledtrad": "<p>Hur många varv har spolen roterat?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Efter hur lång tid når spänningen första gången 30 V?",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En rektangulär spole med sidorna 8,0 cm och 20 cm har 500 varv och roterar med 120 varv/min i ett magnetfält med flödestätheten 0,60 T. Vid \\(t=0\\) är \\(u=0\\).</p>Toppvärdet är 60 V och spolen roterar med 120 varv/min.<p>Efter hur lång tid når spänningen första gången 30 V?</p>",
+        "s": "<p>\\(60\\sin(4\\pi t)=30\\iff4\\pi t=\\arcsin0{,}50\\approx0{,}524\\), så \\(t\\approx\\dfrac{0{,}524}{4\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}041\\) s</p>",
+        "ledtrad": "<p>Lös \\(\\hat u\\sin\\omega t=30\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(u=\\hat u\\sin\\omega t\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "E",
+    "typ": "toppvärde vid högre varvtal",
+    "poang": "(1/0/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En bilgenerator ger toppvärdet 12,7 V när spolen roterar med 1 100 varv/min. Hur stort blir toppvärdet vid 2 500 varv/min om inget annat ändras?</p>",
+    "s": "<p>\\(\\hat u\\) är proportionellt mot \\(\\omega\\): \\(12{,}7\\cdot\\dfrac{2\\,500}{1\\,100}\\).</p><p><strong>Svar:</strong> \\(28{,}9\\) V</p>",
+    "id": "3.403",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28.863636363636363,
+    "tolerans": 0.433,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur beror \\(\\hat u\\) på varvtalet?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "V",
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "C",
+    "typ": "toppvärde och effektivvärde",
+    "poang": "(2/1/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En cirkulär spole med 550 varv och radien 8,0 cm roterar med 120 varv/s i ett magnetfält med flödestätheten 0,55 T.</p><ol type=\"a\"><li>Bestäm toppvärdet av spänningen.</li><li>Bestäm spänningens effektivvärde.</li><li>Hur många varv per sekund ska spolen rotera för att effektivvärdet ska fördubblas?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\hat u=550\\cdot0{,}55\\cdot\\pi\\cdot0{,}080^2\\cdot2\\pi\\cdot120\\).</p><p><strong>Svar:</strong> \\(4\\,586\\) V</p></li><li><p>\\(U=\\dfrac{\\hat u}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(3\\,243\\) V</p></li><li><p>Spänningen är proportionell mot \\(\\omega\\): \\(2\\cdot120\\).</p><p><strong>Svar:</strong> \\(240\\) varv/s</p></li></ol>",
+    "id": "3.404",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4585.812988922159,
+      3242.6594617202086,
+      240
+    ],
+    "tolerans": [
+      68.8,
+      51.0,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "V",
+      "V",
+      "varv/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En cirkulär spole med 550 varv och radien 8,0 cm roterar med 120 varv/s i ett magnetfält med flödestätheten 0,55 T.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm toppvärdet av spänningen.",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En cirkulär spole med 550 varv och radien 8,0 cm roterar med 120 varv/s i ett magnetfält med flödestätheten 0,55 T.</p><p>Bestäm toppvärdet av spänningen.</p>",
+        "s": "<p>\\(\\hat u=550\\cdot0{,}55\\cdot\\pi\\cdot0{,}080^2\\cdot2\\pi\\cdot120\\).</p><p><strong>Svar:</strong> \\(4\\,586\\) V</p>",
+        "ledtrad": "<p>Arean är \\(\\pi r^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spänningens effektivvärde.",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En cirkulär spole med 550 varv och radien 8,0 cm roterar med 120 varv/s i ett magnetfält med flödestätheten 0,55 T.</p>Toppvärdet är 4,59 kV.<p>Bestäm spänningens effektivvärde.</p>",
+        "s": "<p>\\(U=\\dfrac{\\hat u}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(3\\,243\\) V</p>",
+        "ledtrad": "<p>\\(U=\\dfrac{\\hat u}{\\sqrt2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många varv per sekund ska spolen rotera för att effektivvärdet ska fördubblas?",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En cirkulär spole med 550 varv och radien 8,0 cm roterar med 120 varv/s i ett magnetfält med flödestätheten 0,55 T.</p>Spolen roterar med 120 varv/s.<p>Hur många varv per sekund ska spolen rotera för att effektivvärdet ska fördubblas?</p>",
+        "s": "<p>Spänningen är proportionell mot \\(\\omega\\): \\(2\\cdot120\\).</p><p><strong>Svar:</strong> \\(240\\) varv/s</p>",
+        "ledtrad": "<p>Hur beror spänningen på varvtalet?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\hat u=NBA\\omega\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "C",
+    "typ": "ström och area ur effektivvärden",
+    "poang": "(1/1/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En generatorspole med 950 varv roterar med frekvensen 85 Hz i ett magnetfält med flödestätheten 0,030 T. Effektivvärdena av spänning och ström är 150 V och 70,0 A.</p><ol type=\"a\"><li>Vilket toppvärde har strömmen?</li><li>Hur stor tvärsnittsarea har spolen? Svara i cm².</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\hat\\imath=\\sqrt2\\cdot70{,}0\\).</p><p><strong>Svar:</strong> \\(99\\) A</p></li><li><p>\\(\\hat u=\\sqrt2\\cdot150\\approx212\\) V. \\(A=\\dfrac{\\hat u}{NB\\omega}=\\dfrac{212}{950\\cdot0{,}030\\cdot2\\pi\\cdot85}\\approx0{,}0139\\) m².</p><p><strong>Svar:</strong> \\(139\\) cm²</p></li></ol>",
+    "id": "3.405",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      98.99494936611666,
+      139.36785079831367
+    ],
+    "tolerans": [
+      1.48,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "A",
+      "cm²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En generatorspole med 950 varv roterar med frekvensen 85 Hz i ett magnetfält med flödestätheten 0,030 T. Effektivvärdena av spänning och ström är 150 V och 70,0 A.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilket toppvärde har strömmen?",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En generatorspole med 950 varv roterar med frekvensen 85 Hz i ett magnetfält med flödestätheten 0,030 T. Effektivvärdena av spänning och ström är 150 V och 70,0 A.</p><p>Vilket toppvärde har strömmen?</p>",
+        "s": "<p>\\(\\hat\\imath=\\sqrt2\\cdot70{,}0\\).</p><p><strong>Svar:</strong> \\(99\\) A</p>",
+        "ledtrad": "<p>\\(\\hat\\imath=\\sqrt2\\,I\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor tvärsnittsarea har spolen? Svara i cm².",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En generatorspole med 950 varv roterar med frekvensen 85 Hz i ett magnetfält med flödestätheten 0,030 T. Effektivvärdena av spänning och ström är 150 V och 70,0 A.</p><p>Hur stor tvärsnittsarea har spolen? Svara i cm².</p>",
+        "s": "<p>\\(\\hat u=\\sqrt2\\cdot150\\approx212\\) V. \\(A=\\dfrac{\\hat u}{NB\\omega}=\\dfrac{212}{950\\cdot0{,}030\\cdot2\\pi\\cdot85}\\approx0{,}0139\\) m².</p><p><strong>Svar:</strong> \\(139\\) cm²</p>",
+        "ledtrad": "<p>Bestäm först spänningens toppvärde.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Toppvärdet är \\(\\sqrt2\\) gånger effektivvärdet.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "A",
+    "typ": "generator driver en lampa",
+    "poang": "(1/2/2)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En generator har en kvadratisk spole med sidan 6,0 cm och 85 varv koppartråd med diametern 0,59 mm. Spolen roterar i ett magnetfält med flödestätheten 0,65 T och driver en lampa märkt 12,0 V och 25,0 W. Lampan ska få effektivspänningen 12,0 V.</p><ol type=\"a\"><li>Hur många varv per sekund ska spolen rotera om spolens resistans försummas?</li><li>Hur många varv per sekund krävs om spolens resistans tas med?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\hat u=12{,}0\\sqrt2\\approx17{,}0\\) V. \\(\\omega=\\dfrac{\\hat u}{NBA}=\\dfrac{17{,}0}{85\\cdot0{,}65\\cdot0{,}0036}\\approx85\\) rad/s, så \\(f=\\dfrac{\\omega}{2\\pi}\\).</p><p><strong>Svar:</strong> \\(14\\) varv/s</p></li><li><p>Strömmen: \\(I=\\dfrac{25{,}0}{12{,}0}\\approx2{,}08\\) A. Trådens längd: \\(85\\cdot4\\cdot0{,}060=20{,}4\\) m, så \\(R=\\dfrac{\\rho l}{A}\\approx1{,}27\\) Ω.</p><p>Ems (effektivvärde): \\(12{,}0+1{,}27\\cdot2{,}08\\approx14{,}6\\) V. \\(f=\\dfrac{14{,}6\\sqrt2}{85\\cdot0{,}65\\cdot0{,}0036\\cdot2\\pi}\\).</p><p><strong>Svar:</strong> \\(17\\) varv/s</p></li></ol>",
+    "id": "3.406",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13.579431616245946,
+      16.569934965398627
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "varv/s",
+      "varv/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En generator har en kvadratisk spole med sidan 6,0 cm och 85 varv koppartråd med diametern 0,59 mm. Spolen roterar i ett magnetfält med flödestätheten 0,65 T och driver en lampa märkt 12,0 V och 25,0 W. Lampan ska få effektivspänningen 12,0 V.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många varv per sekund ska spolen rotera om spolens resistans försummas?",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En generator har en kvadratisk spole med sidan 6,0 cm och 85 varv koppartråd med diametern 0,59 mm. Spolen roterar i ett magnetfält med flödestätheten 0,65 T och driver en lampa märkt 12,0 V och 25,0 W. Lampan ska få effektivspänningen 12,0 V.</p><p>Hur många varv per sekund ska spolen rotera om spolens resistans försummas?</p>",
+        "s": "<p>\\(\\hat u=12{,}0\\sqrt2\\approx17{,}0\\) V. \\(\\omega=\\dfrac{\\hat u}{NBA}=\\dfrac{17{,}0}{85\\cdot0{,}65\\cdot0{,}0036}\\approx85\\) rad/s, så \\(f=\\dfrac{\\omega}{2\\pi}\\).</p><p><strong>Svar:</strong> \\(14\\) varv/s</p>",
+        "ledtrad": "<p>Bestäm toppvärdet och sedan \\(\\omega\\).</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många varv per sekund krävs om spolens resistans tas med?",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En generator har en kvadratisk spole med sidan 6,0 cm och 85 varv koppartråd med diametern 0,59 mm. Spolen roterar i ett magnetfält med flödestätheten 0,65 T och driver en lampa märkt 12,0 V och 25,0 W. Lampan ska få effektivspänningen 12,0 V.</p><p>Hur många varv per sekund krävs om spolens resistans tas med?</p>",
+        "s": "<p>Strömmen: \\(I=\\dfrac{25{,}0}{12{,}0}\\approx2{,}08\\) A. Trådens längd: \\(85\\cdot4\\cdot0{,}060=20{,}4\\) m, så \\(R=\\dfrac{\\rho l}{A}\\approx1{,}27\\) Ω.</p><p>Ems (effektivvärde): \\(12{,}0+1{,}27\\cdot2{,}08\\approx14{,}6\\) V. \\(f=\\dfrac{14{,}6\\sqrt2}{85\\cdot0{,}65\\cdot0{,}0036\\cdot2\\pi}\\).</p><p><strong>Svar:</strong> \\(17\\) varv/s</p>",
+        "ledtrad": "<p>Spänningsfallet i spolen gör att emsen måste vara större än 12,0 V.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5
+      }
+    ],
+    "ledtrad": "<p>Effektivvärde och toppvärde skiljer sig med faktorn \\(\\sqrt2\\).</p>",
+    "traningsniva": 5,
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "E",
+    "typ": "spänning och ström i spole",
+    "poang": "(4/0/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En kvadratisk spole med sidan 2,80 cm och 28 varv roterar i ett magnetfält med flödestätheten 1,25 T. Spolen har resistansen 0,780 Ω och utgör en sluten krets. Den roterar 90° på 0,335 s med konstant vinkelhastighet.</p><ol type=\"a\"><li>Bestäm spänningens toppvärde.</li><li>Beräkna spänningens effektivvärde.</li><li>Bestäm strömmens toppvärde.</li><li>Beräkna strömmens effektivvärde.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\omega=\\dfrac{\\pi/2}{0{,}335}\\approx4{,}69\\) rad/s. \\(\\hat u=28\\cdot1{,}25\\cdot0{,}0280^2\\cdot4{,}69\\).</p><p><strong>Svar:</strong> \\(0{,}13\\) V</p></li><li><p>\\(U=\\dfrac{0{,}129}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(0{,}091\\) V</p></li><li><p>\\(\\hat\\imath=\\dfrac{0{,}129}{0{,}780}\\).</p><p><strong>Svar:</strong> \\(0{,}16\\) A</p></li><li><p>\\(I=\\dfrac{0{,}165}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) A</p></li></ol>",
+    "id": "3.407",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.12866463046940885,
+      0.09097963270378027,
+      0.16495465444796006,
+      0.11664055474843625
+    ],
+    "tolerans": [
+      0.0051,
+      0.00136,
+      0.0051,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "V",
+      "V",
+      "A",
+      "A"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En kvadratisk spole med sidan 2,80 cm och 28 varv roterar i ett magnetfält med flödestätheten 1,25 T. Spolen har resistansen 0,780 Ω och utgör en sluten krets. Den roterar 90° på 0,335 s med konstant vinkelhastighet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spänningens toppvärde.",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En kvadratisk spole med sidan 2,80 cm och 28 varv roterar i ett magnetfält med flödestätheten 1,25 T. Spolen har resistansen 0,780 Ω och utgör en sluten krets. Den roterar 90° på 0,335 s med konstant vinkelhastighet.</p><p>Bestäm spänningens toppvärde.</p>",
+        "s": "<p>\\(\\omega=\\dfrac{\\pi/2}{0{,}335}\\approx4{,}69\\) rad/s. \\(\\hat u=28\\cdot1{,}25\\cdot0{,}0280^2\\cdot4{,}69\\).</p><p><strong>Svar:</strong> \\(0{,}13\\) V</p>",
+        "ledtrad": "<p>90° är \\(\\pi/2\\) rad.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna spänningens effektivvärde.",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En kvadratisk spole med sidan 2,80 cm och 28 varv roterar i ett magnetfält med flödestätheten 1,25 T. Spolen har resistansen 0,780 Ω och utgör en sluten krets. Den roterar 90° på 0,335 s med konstant vinkelhastighet.</p>Spänningens toppvärde är 0,129 V.<p>Beräkna spänningens effektivvärde.</p>",
+        "s": "<p>\\(U=\\dfrac{0{,}129}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(0{,}091\\) V</p>",
+        "ledtrad": "<p>\\(U=\\dfrac{\\hat u}{\\sqrt2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm strömmens toppvärde.",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En kvadratisk spole med sidan 2,80 cm och 28 varv roterar i ett magnetfält med flödestätheten 1,25 T. Spolen har resistansen 0,780 Ω och utgör en sluten krets. Den roterar 90° på 0,335 s med konstant vinkelhastighet.</p>Spänningens toppvärde är 0,129 V.<p>Bestäm strömmens toppvärde.</p>",
+        "s": "<p>\\(\\hat\\imath=\\dfrac{0{,}129}{0{,}780}\\).</p><p><strong>Svar:</strong> \\(0{,}16\\) A</p>",
+        "ledtrad": "<p>Ohms lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Beräkna strömmens effektivvärde.",
+        "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En kvadratisk spole med sidan 2,80 cm och 28 varv roterar i ett magnetfält med flödestätheten 1,25 T. Spolen har resistansen 0,780 Ω och utgör en sluten krets. Den roterar 90° på 0,335 s med konstant vinkelhastighet.</p>Strömmens toppvärde är 0,165 A.<p>Beräkna strömmens effektivvärde.</p>",
+        "s": "<p>\\(I=\\dfrac{0{,}165}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) A</p>",
+        "ledtrad": "<p>Dela med \\(\\sqrt2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Bestäm \\(\\omega\\) ur tiden för ett kvarts varv.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "C",
+    "typ": "flödestäthet ur effektivvärde",
+    "poang": "(1/1/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En generatorspole med 500 varv och arean 26 cm² roterar med frekvensen 60,0 Hz. Den inducerade spänningens effektivvärde är 120 V. Hur stor är flödestätheten?</p>",
+    "s": "<p>\\(\\hat u=120\\sqrt2\\approx170\\) V. \\(B=\\dfrac{\\hat u}{NA\\omega}=\\dfrac{170}{500\\cdot0{,}0026\\cdot2\\pi\\cdot60{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}35\\) T</p>",
+    "id": "3.408",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3462755062142716,
+    "tolerans": 0.00519,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja med toppvärdet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "T",
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "C",
+    "typ": "cykeldynamo och fart",
+    "poang": "(0/2/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En cykeldynamos gummihjul roterar 44 gånger så snabbt (i vinkelhastighet) som framhjulet, som har radien 0,33 m. Dynamons spole har 75 varv och arean 26 cm², och magnetfältet är 0,10 T. Toppvärdet av spänningen är 6,0 V. Hur fort cyklar cyklisten?</p>",
+    "s": "<p>\\(\\omega=\\dfrac{6{,}0}{75\\cdot0{,}10\\cdot0{,}0026}\\approx308\\) rad/s. Hjulets vinkelhastighet: \\(\\dfrac{308}{44}\\approx7{,}0\\) rad/s. \\(v=\\omega r=7{,}0\\cdot0{,}33\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s</p>",
+    "id": "3.409",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.3076923076923075,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm dynamons vinkelhastighet först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s",
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "E",
+    "typ": "kvadratisk spoles sida",
+    "poang": "(1/0/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En kvadratisk spole med 248 varv roterar med vinkelhastigheten 79,1 rad/s i ett magnetfält med flödestätheten 0,170 T. Toppvärdet av spänningen är 75,0 V. Hur lång är kvadratens sida?</p>",
+    "s": "<p>\\(A=\\dfrac{75{,}0}{248\\cdot0{,}170\\cdot79{,}1}\\approx0{,}0225\\) m², så \\(s=\\sqrt{A}\\).</p><p><strong>Svar:</strong> \\(0{,}150\\) m</p>",
+    "id": "3.410",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.14996575173300972,
+    "tolerans": 0.00225,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut arean och dra roten.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "E",
+    "typ": "flödestäthet för given generator",
+    "poang": "(1/0/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En generator ska ha en spole med 150 varv och arean 0,85 m². Vid frekvensen 60,0 Hz ska toppvärdet bli 5,5 kV. Vilken flödestäthet krävs?</p>",
+    "s": "<p>\\(B=\\dfrac{5\\,500}{150\\cdot0{,}85\\cdot2\\pi\\cdot60{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}11\\) T</p>",
+    "id": "3.411",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.1144251224843692,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(B\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "T",
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "C",
+    "typ": "generator i jordens magnetfält",
+    "poang": "(1/1/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>Nära sydpolen är jordens magnetfält 69 µT. En spole med arean 2,2 dm² roterar med frekvensen 50,0 Hz i fältet. Hur många varv måste spolen minst ha för att ge en växelspänning med effektivvärdet 230 V?</p>",
+    "s": "<p>\\(\\hat u=230\\sqrt2\\approx325\\) V. \\(N=\\dfrac{325}{69\\cdot10^{-6}\\cdot0{,}022\\cdot2\\pi\\cdot50{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}8\\cdot10^{5}\\) varv</p>",
+    "id": "3.412",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 682057.815270535,
+    "tolerans": 10200.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja med toppvärdet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "varv",
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "C",
+    "typ": "spolens radie ur effektivvärde",
+    "poang": "(1/1/0)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En cirkulär spole med 100 varv roterar med frekvensen 50,0 Hz i ett magnetfält med flödestätheten 0,50 T. Spänningens effektivvärde är 230 V. Hur stor radie har spolen?</p>",
+    "s": "<p>\\(A=\\dfrac{230\\sqrt2}{100\\cdot0{,}50\\cdot2\\pi\\cdot50{,}0}\\approx0{,}0207\\) m², så \\(r=\\sqrt{\\dfrac A\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}081\\) m</p>",
+    "id": "3.413",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.08118700902782229,
+    "tolerans": 0.00122,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm arean och sedan radien.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "vaxelstrom__generatorn"
+  },
+  {
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "A",
+    "typ": "dynamo under acceleration",
+    "poang": "(0/1/1)",
+    "t": "<p>En spole med \\(N\\) varv och arean \\(A\\) som roterar med vinkelhastigheten \\(\\omega\\) i ett homogent magnetfält \\(B\\) ger spänningen \\(u=\\hat u\\sin\\omega t\\), där \\(\\hat u=NBA\\omega\\).</p><p>En cykeldynamos gummihjul roterar 38 gånger så snabbt (i vinkelhastighet) som framhjulet, som har radien 0,33 m. Dynamons spole har 125 varv och arean 38,6 cm², och magnetfältet är 0,0900 T. Cyklisten startar från vila med accelerationen 0,0550 m/s². Hur stort är spänningens toppvärde efter 5,10 s?</p>",
+    "s": "<p>\\(v=0{,}0550\\cdot5{,}10\\approx0{,}281\\) m/s. Dynamons vinkelhastighet: \\(38\\cdot\\dfrac{0{,}281}{0{,}33}\\approx32{,}3\\) rad/s.</p><p>\\(\\hat u=125\\cdot0{,}0900\\cdot0{,}00386\\cdot32{,}3\\).</p><p><strong>Svar:</strong> \\(1{,}40\\) V</p>",
+    "id": "3.414",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Generatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4026275,
+    "tolerans": 0.021,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten och sedan dynamons vinkelhastighet.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "V",
+    "familjNyckel": "vaxelstrom__generatorn"
   },
   {
     "id": "GY25-FY2-FOTO-01",

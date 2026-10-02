@@ -3054,9 +3054,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "ladprincipen",
-    "niva": "C",
+    "niva": "A",
     "typ": "lådprincipen med parindelning",
-    "poang": "0/2/0",
+    "poang": "0/1/1",
     "t": "<p>Man väljer 73 olika heltal ur mängden \\(\\{1,2,3,\\ldots,144\\}\\).</p><p>Visa att det bland de valda talen alltid finns två på varandra följande heltal.</p>",
     "s": "<p>Dela in talen i 72 par:</p><p>\\[(1,2),(3,4),\\ldots,(143,144).\\]</p><p>Om man väljer 73 tal men bara har 72 par måste minst ett par innehålla två valda tal, enligt lådprincipen. Talen i detta par är på varandra följande. Alltså finns det alltid <strong>två valda heltal som skiljer 1</strong>.</p>",
     "id": "1.51",
@@ -3072,7 +3072,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "omrTidigare": [
       "kombinatoriska_principer"
     ]
@@ -3240,9 +3240,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "ladprincipen",
-    "niva": "C",
+    "niva": "A",
     "typ": "komplementära talpar",
-    "poang": "0/2/0",
+    "poang": "0/1/1",
     "t": "<p>Man väljer 7 olika heltal ur mängden \\(\\{1,2,\\ldots,12\\}\\). Visa att det alltid finns två valda tal vars summa är 13.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Para ihop talen efter vilka som summerar till 13:</p><p>\\[(1,12),(2,11),(3,10),(4,9),(5,8),(6,7).\\]</p></p><span class=\"fig\"><svg width=\"460\" height=\"200\" viewBox=\"0 0 470 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Talen 1 till 12 parade så att varje par summerar till 13\">\n<rect width=\"470\" height=\"205\" fill=\"white\"/>\n<text x=\"235\" y=\"36\" font-size=\"15\" text-anchor=\"middle\">6 par – lådorna</text>\n<rect x=\"30\" y=\"58\" width=\"62\" height=\"76\" rx=\"8\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"61\" y=\"88\" font-size=\"18\" text-anchor=\"middle\">1</text><text x=\"61\" y=\"123\" font-size=\"18\" text-anchor=\"middle\">12</text><text x=\"61\" y=\"152\" font-size=\"13\" text-anchor=\"middle\" fill=\"#B23A2E\">= 13</text><rect x=\"102\" y=\"58\" width=\"62\" height=\"76\" rx=\"8\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"133\" y=\"88\" font-size=\"18\" text-anchor=\"middle\">2</text><text x=\"133\" y=\"123\" font-size=\"18\" text-anchor=\"middle\">11</text><text x=\"133\" y=\"152\" font-size=\"13\" text-anchor=\"middle\" fill=\"#B23A2E\">= 13</text><rect x=\"174\" y=\"58\" width=\"62\" height=\"76\" rx=\"8\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"205\" y=\"88\" font-size=\"18\" text-anchor=\"middle\">3</text><text x=\"205\" y=\"123\" font-size=\"18\" text-anchor=\"middle\">10</text><text x=\"205\" y=\"152\" font-size=\"13\" text-anchor=\"middle\" fill=\"#B23A2E\">= 13</text><rect x=\"246\" y=\"58\" width=\"62\" height=\"76\" rx=\"8\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"277\" y=\"88\" font-size=\"18\" text-anchor=\"middle\">4</text><text x=\"277\" y=\"123\" font-size=\"18\" text-anchor=\"middle\">9</text><text x=\"277\" y=\"152\" font-size=\"13\" text-anchor=\"middle\" fill=\"#B23A2E\">= 13</text><rect x=\"318\" y=\"58\" width=\"62\" height=\"76\" rx=\"8\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"349\" y=\"88\" font-size=\"18\" text-anchor=\"middle\">5</text><text x=\"349\" y=\"123\" font-size=\"18\" text-anchor=\"middle\">8</text><text x=\"349\" y=\"152\" font-size=\"13\" text-anchor=\"middle\" fill=\"#B23A2E\">= 13</text><rect x=\"390\" y=\"58\" width=\"62\" height=\"76\" rx=\"8\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"421\" y=\"88\" font-size=\"18\" text-anchor=\"middle\">6</text><text x=\"421\" y=\"123\" font-size=\"18\" text-anchor=\"middle\">7</text><text x=\"421\" y=\"152\" font-size=\"13\" text-anchor=\"middle\" fill=\"#B23A2E\">= 13</text>\n<text x=\"235\" y=\"188\" font-size=\"14\" text-anchor=\"middle\" fill=\"#777\">7 valda tal i 6 par ger minst ett par med båda talen valda.</text>\n</svg></span><p>Det finns 6 par. Om 7 olika tal väljs måste två av dem komma från samma par. De två talen i det paret har summan <strong>13</strong>.</p>",
     "id": "1.63",
@@ -3266,9 +3266,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "ladprincipen",
-    "niva": "C",
+    "niva": "A",
     "typ": "två på varandra följande tal",
-    "poang": "0/2/0",
+    "poang": "0/1/1",
     "t": "<p>Man väljer 6 olika heltal ur mängden \\(\\{1,2,\\ldots,10\\}\\). Visa att två av de valda talen måste vara på varandra följande.</p>",
     "s": "<p>Dela mängden i fem par: \\[(1,2),(3,4),(5,6),(7,8),(9,10).\\]</p><p>Paren är lådorna. Om 6 olika tal väljs och bara 5 par finns måste två valda tal hamna i samma par. Talen i varje par är på varandra följande.</p>",
     "id": "1.64",
@@ -3619,9 +3619,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "ladprincipen",
-    "niva": "C",
+    "niva": "A",
     "typ": "lådprincipen heltal inom intervall",
-    "poang": "0/2/0",
+    "poang": "0/1/1",
     "t": "<p>Elva heltal väljs ur mängden \\(\\{1,2,\\ldots,20\\}\\). Visa att minst två av de valda talen skiljer högst 1.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Identifiera vad som är ”föremål” och vad som är ”lådor”. För att visa att någon låda måste innehålla många föremål jämför man antalet föremål med hur många som högst kan placeras utan att den önskade situationen uppstår.</p><p>Dela talen i 10 lådor:</p><p>\\[(1,2),(3,4),\\ldots,(19,20).\\]</p><p>Elva valda tal fördelas på tio par. Lådprincipen ger att något par innehåller två valda tal. Talen i det paret skiljer 1.</p>",
     "id": "1.151",
@@ -4067,9 +4067,9 @@ window.BANKMATF1 = [
     "id": "1.229",
     "kap": 1,
     "omr": "mult_add_principen",
-    "niva": "C",
+    "niva": "A",
     "typ": "fördela olika uppgifter så att alla får minst en",
-    "poang": "0/3/0",
+    "poang": "0/1/2",
     "t": "<p>Sex olika laboratorieuppgifter ska fördelas mellan tre elever. Varje uppgift tilldelas exakt en elev och varje elev måste få minst en uppgift.</p><p>På hur många sätt kan uppgifterna fördelas?</p>",
     "s": "<p>Utan kravet kan varje av de 6 uppgifterna tilldelas någon av 3 elever:</p><p>\\[3^6=729.\\]</p><p>Vi tar bort fördelningar där minst en elev inte får någon uppgift. Om en bestämd elev saknas kan varje uppgift gå till någon av de två andra:</p><p>\\[2^6=64.\\]</p><p>Det finns 3 val av den elev som saknas, så vi drar bort \\(3\\cdot64\\).</p><p>Fördelningar där två bestämda elever saknas har då dragits bort två gånger. Det finns 3 sådana fall, ett för varje elev som får alla uppgifter, så de läggs tillbaka:</p><p>\\[729-3\\cdot64+3=540.\\]</p><p><strong>Svar: 540 fördelningar.</strong></p>",
     "miniräknare": false,
@@ -4086,7 +4086,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -4635,7 +4635,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Prova komplement eller luckmetoden. Vid komplement räknar du alla ordningar och drar bort dem där de förbjudna objekten ligger tillsammans som ett block.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -4938,9 +4938,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "permutationer",
-    "niva": "E",
+    "niva": "C",
     "typ": "cirkulär placering introduktion",
-    "poang": "2/0/0",
+    "poang": "0/2/0",
     "t": "<span class=\"fig\"><svg width=\"450\" height=\"275\" viewBox=\"0 0 460 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Runt bord med sex platser där en plats är markerad som fixerad\">\n<rect width=\"460\" height=\"280\" fill=\"white\"/>\n<circle cx=\"225\" cy=\"140\" r=\"58\" fill=\"#999\" fill-opacity=\".10\" stroke=\"#666\" stroke-width=\"2\"/>\n<circle cx=\"225.0\" cy=\"48.0\" r=\"17\" fill=\"#B23A2E\" fill-opacity=\".14\" stroke=\"#B23A2E\" stroke-width=\"2\"/><text x=\"225.0\" y=\"54.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"#B23A2E\">1</text><circle cx=\"304.7\" cy=\"94.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/><circle cx=\"304.7\" cy=\"186.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/><circle cx=\"225.0\" cy=\"232.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/><circle cx=\"145.3\" cy=\"186.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/><circle cx=\"145.3\" cy=\"94.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<line x1=\"243\" y1=\"46\" x2=\"300\" y2=\"36\" stroke=\"#B23A2E\" stroke-width=\"1.2\"/>\n<text x=\"306\" y=\"40\" font-size=\"14\" fill=\"#B23A2E\">en person fixeras</text>\n<text x=\"225\" y=\"262\" font-size=\"14\" text-anchor=\"middle\" fill=\"#777\">Placeringar som bara är vridna räknas som samma.</text>\n</svg></span><p>Sex personer sitter runt ett runt bord. Rotationer av samma placering räknas som samma. På hur många sätt kan de placeras?</p>",
     "s": "<p>Fixera en person för att ta bort rotationerna. De övriga 5 kan ordnas på</p><p>\\[5!=120\\]</p><p>sätt.</p>",
     "id": "1.152",
@@ -4956,7 +4956,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -4964,9 +4964,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "kombinationer",
-    "niva": "C",
+    "niva": "A",
     "typ": "fördela identiska objekt med olika minimikrav",
-    "poang": "0/3/0",
+    "poang": "0/1/2",
     "t": "<p>20 identiska markörer ska fördelas mellan fyra lådor. Lådorna ska innehålla minst 2, 3, 1 respektive 2 markörer.</p><p>På hur många sätt kan fördelningen göras?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lägg först undan minimikraven. Då återstår \\(20-(8)=12\\) markörer att fördela fritt mellan fyra lådor.</p><p>Antalet icke-negativa heltalslösningar till \\(x_1+x_2+x_3+x_4=12\\) är</p><p>\\[\\binom{12+4-1}{4-1}=\\binom{15}3=455.\\]</p><p><strong>Svar:</strong> 455.</p>",
     "id": "1.466",
@@ -4984,7 +4984,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -5600,9 +5600,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "kombinationer",
-    "niva": "C",
+    "niva": "A",
     "typ": "kombinationer med upprepning och villkor",
-    "poang": "0/3/0",
+    "poang": "0/1/2",
     "id": "1.125",
     "t": "<p>David ska köpa 12 burkar energidryck. Det finns 4 olika smaker att välja mellan.</p><ol type=\"a\"><li>På hur många sätt kan han välja 12 burkar om bara antalet av varje smak spelar roll?</li><li>På hur många sätt kan han välja burkarna om han vill ha minst en av varje smak?</li></ol>",
     "s": "<p><strong>a)</strong> Låt \\(x_1,x_2,x_3,x_4\\) vara antalet burkar av de fyra smakerna. Då söker vi antalet heltalslösningar till</p><p>\\[x_1+x_2+x_3+x_4=12\\]</p><p>där varje \\(x_i\\) är 0 eller positivt.</p><p>Ett sätt att räkna är att tänka de 12 burkarna som 12 markeringar och skilja de fyra smakerna åt med tre streck. Vi ordnar alltså 12 markeringar och 3 streck i en rad. Det räcker att välja vilka 3 av de 15 platserna som ska innehålla streck:</p><p>\\[\\binom{15}{3}=455.\\]</p><p><strong>b)</strong> Om minst en burk av varje smak ska väljas lägger vi först undan en burk av varje smak. Då återstår 8 burkar att fördela fritt mellan de fyra smakerna.</p><p>Det motsvarar 8 markeringar och 3 streck, alltså</p><p>\\[\\binom{11}{3}=165.\\]</p><p><strong>Svar:</strong> a) 455 sätt, b) 165 sätt.</p>",
@@ -5631,7 +5631,7 @@ window.BANKMATF1 = [
       "b"
     ],
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Det finns fyra smaker och totalt 12 burkar. Bara antalet av varje smak spelar roll.</p>",
     "spelDelar": [
@@ -5833,7 +5833,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fixera en person för att ta bort rotationerna. Hantera sedan placeringsvillkoret med komplement eller genom att se två personer som ett block.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -5894,9 +5894,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "permutationer",
-    "niva": "C",
+    "niva": "A",
     "typ": "lärare separerade av elever",
-    "poang": "0/3/0",
+    "poang": "0/1/2",
     "t": "<p>Fem elever och tre lärare ska stå på rad. Ingen lärare får stå bredvid en annan lärare.</p><p>Hur många ordningar är möjliga?</p>",
     "s": "<p>Ordna först de fem eleverna: \\(5!\\) sätt.</p><p>De skapar 6 möjliga luckor för lärare:</p><p>\\[_E_E_E_E_E_\\]</p><p>Välj 3 av dessa 6 luckor och placera sedan de tre olika lärarna i de valda luckorna:</p><p>\\[5!\\binom63 3!=120\\cdot20\\cdot6=14\\,400.\\]</p><p><strong>Svar: 14 400.</strong></p>",
     "id": "1.196",
@@ -5949,9 +5949,9 @@ window.BANKMATF1 = [
     "id": "1.211",
     "kap": 1,
     "omr": "kombinationer",
-    "niva": "C",
+    "niva": "A",
     "typ": "heltalslösningar med övre gräns",
-    "poang": "0/2/0",
+    "poang": "0/1/1",
     "t": "<p>Hur många heltalslösningar har</p><p>\\[x+y+z=15\\]</p><p>om \\(x,y,z\\) är 0 eller positiva och \\(x\\le5\\)?</p>",
     "s": "<p>Utan villkoret \\(x\\le5\\) finns</p><p>\\[\\binom{17}{2}=136\\]</p><p>lösningar.</p><p>Vi tar bort lösningarna där \\(x\\ge6\\). Sätt då \\(x=6+a\\). Ekvationen blir</p><p>\\[a+y+z=9,\\]</p><p>vilket ger</p><p>\\[\\binom{11}{2}=55\\]</p><p>lösningar.</p><p>Alltså återstår</p><p>\\[136-55=81.\\]</p><p><strong>Svar: 81 lösningar.</strong></p>",
     "miniräknare": false,
@@ -5968,7 +5968,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -5977,9 +5977,9 @@ window.BANKMATF1 = [
     "id": "1.214",
     "kap": 1,
     "omr": "kombinationer",
-    "niva": "C",
+    "niva": "A",
     "typ": "kombinationer med upprepning och två obligatoriska sorter",
-    "poang": "0/2/0",
+    "poang": "0/1/1",
     "t": "<p>En kund väljer 7 bakverk från fyra sorter. Flera bakverk av samma sort får väljas. Kunden vill ha minst ett kanelbakverk och minst ett chokladbakverk.</p><p>Hur många olika val av antal finns?</p>",
     "s": "<p>Lägg först undan ett kanelbakverk och ett chokladbakverk. Då återstår 5 bakverk att fördela fritt mellan fyra sorter.</p><p>Fem markeringar och tre skiljestreck ger</p><p>\\[\\binom{8}{3}=56.\\]</p><p><strong>Det finns 56 olika val.</strong></p>",
     "miniräknare": false,
@@ -5996,7 +5996,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -6005,9 +6005,9 @@ window.BANKMATF1 = [
     "id": "1.215",
     "kap": 1,
     "omr": "kombinationer",
-    "niva": "C",
+    "niva": "A",
     "typ": "poängfördelning med minimi- och maximivillkor",
-    "poang": "0/2/0",
+    "poang": "0/1/1",
     "t": "<p>En bedömning består av fyra delområden. Totalt ska 14 poäng fördelas mellan delområdena. Varje delområde ska få minst 2 poäng och det första delområdet får högst 5 poäng.</p><p>På hur många sätt kan poängtalen fördelas?</p>",
     "s": "<p>Ge först varje delområde 2 poäng. Då återstår 6 poäng att fördela.</p><p>Låt de extra poängen vara \\(x_1,x_2,x_3,x_4\\). Då</p><p>\\[x_1+x_2+x_3+x_4=6.\\]</p><p>Utan maxvillkoret finns \\(\\binom93=84\\) fördelningar.</p><p>Det första delområdet får högst 5 poäng totalt, alltså högst 3 extra poäng. Vi tar därför bort fallen \\(x_1\\ge4\\). Sätt \\(x_1=4+y\\). Då återstår</p><p>\\[y+x_2+x_3+x_4=2,\\]</p><p>vilket ger \\(\\binom53=10\\) fall.</p><p>Alltså</p><p>\\[84-10=74.\\]</p><p><strong>Svar: 74 fördelningar.</strong></p>",
     "miniräknare": false,
@@ -6024,7 +6024,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -6140,9 +6140,9 @@ window.BANKMATF1 = [
     "id": "1.220",
     "kap": 1,
     "omr": "permutationer",
-    "niva": "C",
+    "niva": "A",
     "typ": "välja platser utan grannar och placera personer",
-    "poang": "0/3/0",
+    "poang": "0/1/2",
     "t": "<span class=\"fig smal\"><svg width=\"380\" height=\"105\" viewBox=\"0 0 420 116\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En rad med tio numrerade sittplatser\">\n<rect x=\"8\" y=\"10\" width=\"404\" height=\"92\" rx=\"7\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"22\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"37\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">1</text><rect x=\"60\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"75\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">2</text><rect x=\"98\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"113\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">3</text><rect x=\"136\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"151\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">4</text><rect x=\"174\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"189\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">5</text><rect x=\"212\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"227\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">6</text><rect x=\"250\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"265\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">7</text><rect x=\"288\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"303\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">8</text><rect x=\"326\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"341\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">9</text><rect x=\"364\" y=\"35\" width=\"30\" height=\"34\" rx=\"5\" fill=\"white\" stroke=\"#555\" stroke-width=\"1.6\"/><text x=\"379\" y=\"57\" text-anchor=\"middle\" font-size=\"12\">10</text></svg></span><p>Fyra olika elever ska placeras på fyra av de tio stolarna. Ingen av de använda stolarna får ligga bredvid en annan använd stol.</p><p>På hur många sätt kan eleverna placeras?</p>",
     "s": "<p><strong>Steg 1: välj stolarna.</strong> Antalet sätt att välja 4 platser bland 10 utan att två valda platser ligger intill varandra är</p><p>\\[\\binom{10-4+1}{4}=\\binom74=35.\\]</p><p>Ett sätt att förstå formeln är att först tänka en tom stol mellan varje par valda stolar. Då återstår 7 möjliga lägen för de 4 valda stolarna.</p><p><strong>Steg 2: placera eleverna.</strong> De fyra olika eleverna kan ordnas på de valda stolarna på</p><p>\\[4!=24\\]</p><p>sätt.</p><p>Totalt</p><p>\\[35\\cdot24=840.\\]</p><p><strong>Svar: 840 placeringar.</strong></p>",
     "miniräknare": false,
@@ -6159,7 +6159,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -6357,8 +6357,8 @@ window.BANKMATF1 = [
     "id": "1.301",
     "kap": 1,
     "omr": "kombinationer",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "A",
+    "poang": "0/0/1",
     "t": "<p>Åtta identiska kulor ska fördelas i tre märkta lådor. En låda får vara tom. På hur många sätt kan detta göras?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Fördelningen motsvarar icke-negativa heltalslösningar till \\(x_1+x_2+x_3=8\\). Ett konkret sätt att räkna dem är att tänka de 8 identiska kulorna i en rad och placera 2 avskiljare som delar raden i tre märkta lådor.</p><p>Vi har då totalt \\(8+2=10\\) positioner. Välj vilka 2 positioner som ska vara avskiljare:</p><p>\\[\\binom{10}{2}=45.\\]</p><p>Tomma lådor tillåts, vilket motsvarar att två avskiljare får stå bredvid varandra eller längst ut.</p><p><strong>Svar:</strong> 45 fördelningar.</p>",
     "familj": "Fördela identiska objekt med villkor",
@@ -6375,7 +6375,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 2,
+    "traningsniva": 4,
     "typ": "fördela identiska objekt mellan märkta lådor",
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6385,8 +6385,8 @@ window.BANKMATF1 = [
     "id": "1.302",
     "kap": 1,
     "omr": "kombinationer",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "A",
+    "poang": "0/0/1",
     "t": "<p>Tio identiska godisbitar ska fördelas mellan fyra barn så att varje barn får minst en bit. På hur många sätt kan det göras?</p>",
     "s": "<p><strong>Nyckelidé:</strong> När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p><p>Ge först varje barn en bit. Då återstår 6 identiska bitar att fördela fritt på 4 barn:</p><p>\\[\\binom{6+4-1}{4-1}=\\binom93=84.\\]</p><p><strong>Svar:</strong> 84.</p>",
     "familj": "Fördela identiska objekt med villkor",
@@ -6403,7 +6403,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 2,
+    "traningsniva": 4,
     "typ": "fördela identiska objekt med minst ett i varje grupp",
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6460,9 +6460,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "binomialsatsen",
-    "niva": "E",
+    "niva": "C",
     "typ": "utveckla binom med binomialsatsen",
-    "poang": "3/0/0",
+    "poang": "1/2/0",
     "t": "<p>Utveckla \\(\\left(2x+\\frac{1}{2}y\\right)^4\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Binomialsatsen ger alla termer systematiskt: binomialkoefficienterna bestämmer talfaktorerna och exponenterna på de två termerna summerar alltid till binomets exponent.</p><p>Med binomialsatsen:</p><p><strong>\\[16x^4+16x^3y+6x^2y^2+xy^3+\\frac{1}{16}y^4.\\]</strong></p>",
     "id": "1.30",
@@ -6479,7 +6479,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Använd binomialkoefficienterna och kontrollera att exponenterna på de två termerna tillsammans alltid summerar till binomets exponent.</p>",
-    "traningsniva": 2
+    "traningsniva": 3
   },
   {
     "kap": 1,
@@ -6508,9 +6508,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "binomialsatsen",
-    "niva": "E",
+    "niva": "C",
     "typ": "utveckla binom",
-    "poang": "3/0/0",
+    "poang": "1/1/0",
     "t": "<p>Utveckla \\((3x+2)^4\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Binomialsatsen ger alla termer systematiskt: binomialkoefficienterna bestämmer talfaktorerna och exponenterna på de två termerna summerar alltid till binomets exponent.</p><p>\\[\\binom40(3x)^4+\\binom41(3x)^3(2)+\\binom42(3x)^2(2^2)+\\binom43(3x)(2^3)+2^4\\]</p><p><strong>\\(=81x^4+216x^3+216x^2+96x+16\\)</strong>.</p>",
     "id": "1.31",
@@ -6527,7 +6527,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Använd binomialkoefficienterna och kontrollera att exponenterna på de två termerna tillsammans alltid summerar till binomets exponent.</p>",
-    "traningsniva": 1
+    "traningsniva": 3
   },
   {
     "kap": 1,
@@ -6750,9 +6750,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "binomialsatsen",
-    "niva": "E",
+    "niva": "C",
     "typ": "koefficient i enkel binomialutveckling",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>Bestäm koefficienten framför \\(x^3\\) i utvecklingen av \\((1+2x)^5\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p><p>För att få \\(x^3\\) väljs termen \\(2x\\) från exakt 3 av de 5 faktorerna. Det kan göras på \\(\\binom53\\) sätt.</p><p>\\[\\binom53 2^3=10\\cdot8=\\mathbf{80}.\\]</p>",
     "id": "1.95",
@@ -6769,7 +6769,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
-    "traningsniva": 1
+    "traningsniva": 3
   },
   {
     "kap": 1,
@@ -6967,9 +6967,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "binomialsatsen",
-    "niva": "E",
+    "niva": "C",
     "typ": "koefficient i enkelt binom",
-    "poang": "2/0/0",
+    "poang": "1/1/0",
     "t": "<p>Bestäm koefficienten framför \\(x^2\\) i \\((1+2x)^6\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p><p>Termen med \\(x^2\\) fås när två av de sex faktorerna bidrar med \\(2x\\):</p><p>\\[\\binom62 2^2=15\\cdot4=60.\\]</p>",
     "id": "1.157",
@@ -6986,7 +6986,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
-    "traningsniva": 1
+    "traningsniva": 3
   },
   {
     "kap": 1,
@@ -7016,9 +7016,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "binomialsatsen",
-    "niva": "E",
+    "niva": "C",
     "typ": "utveckla binom av grad fyra",
-    "poang": "3/0/0",
+    "poang": "1/1/0",
     "t": "<p>Utveckla \\((2x+3)^4\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Binomialsatsen ger alla termer systematiskt: binomialkoefficienterna bestämmer talfaktorerna och exponenterna på de två termerna summerar alltid till binomets exponent.</p><p>Med binomialsatsen:</p><p>\\[(2x+3)^4=(2x)^4+4(2x)^3(3)+6(2x)^2(3^2)+4(2x)(3^3)+3^4.\\]</p><p><strong>\\[16x^4+96x^3+216x^2+216x+81.\\]</strong></p>",
     "id": "1.179",
@@ -7035,7 +7035,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Skriv den term i binomialutvecklingen som ger den efterfrågade potensen. Räkna först därefter ut koefficienten.</p>",
-    "traningsniva": 2
+    "traningsniva": 3
   },
   {
     "kap": 1,
@@ -7218,9 +7218,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "kombinatorik_sannolikhet",
-    "niva": "C",
+    "niva": "A",
     "typ": "villkorad kombinatorisk sannolikhet",
-    "poang": "0/3/0",
+    "poang": "0/1/2",
     "t": "<p>Ur en grupp med 8 kvinnor och 6 män väljs slumpmässigt 5 personer. Givet att gruppen innehåller minst 3 kvinnor, bestäm sannolikheten att den innehåller exakt 4 kvinnor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
     "s": "<p>Villkoret begränsar utfallsrummet till grupper med 3, 4 eller 5 kvinnor.</p><p>\\[P=\\frac{\\binom84\\binom61}{\\binom83\\binom62+\\binom84\\binom61+\\binom85\\binom60}=\\frac{420}{840+420+56}=\\frac{105}{329}\\approx\\mathbf{0,319}.\\]</p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{15}{47}\\) = \\(0,3191\\) ≈ \\(31,9\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
     "id": "1.45",
@@ -7239,14 +7239,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Villkoret skapar ett nytt utfallsrum. Räkna först hur många utfall som uppfyller villkoret och därefter hur många av dessa som också uppfyller det som efterfrågas.</p>",
-    "traningsniva": 4
+    "traningsniva": 5
   },
   {
     "kap": 1,
     "omr": "kombinatorik_sannolikhet",
-    "niva": "C",
+    "niva": "A",
     "typ": "villkorad sannolikhet med kombinatorisk räkning",
-    "poang": "0/3/0",
+    "poang": "0/1/2",
     "t": "<p>Ur en samling med 44 olika kort, varav 4 är märkta, väljs två kort utan återläggning. Man vet att minst ett av de två är märkt.</p><p>Vad är sannolikheten att båda är märkta?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
     "s": "<p><strong>Metod:</strong> Beskriv utfallsrummet och de gynnsamma fallen med samma typ av urval. Vid urval utan återläggning är kombinationer ofta naturliga; vid minst-villkor kan komplementhändelsen förenkla.</p><p>När villkoret ”minst ett märkt” redan är känt begränsas utfallsrummet. Antalet möjliga par som uppfyller villkoret är</p><p>\\[\\binom{44}2-\\binom{40}2.\\]</p><p>Gynnsamma par är \\(\\binom{4}2\\). Därför</p><p>\\[P=\\frac{\\binom{4}2}{\\binom{44}2-\\binom{40}2}=0.036145.\\]</p><p><strong>Svar:</strong> 0,0361.</p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{3}{83}\\) = \\(0,03614\\) ≈ \\(3,61\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
     "id": "1.433",
@@ -7264,7 +7264,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Villkoret skapar ett nytt utfallsrum. Räkna först hur många utfall som uppfyller villkoret och därefter hur många av dessa som också uppfyller det som efterfrågas.</p>",
-    "traningsniva": 4
+    "traningsniva": 5
   },
   {
     "kap": 1,
@@ -7416,9 +7416,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "kombinatorik_sannolikhet",
-    "niva": "C",
+    "niva": "A",
     "typ": "villkorad sannolikhet i lagurval",
-    "poang": "0/3/0",
+    "poang": "0/1/2",
     "t": "<p>Fem personer väljs slumpmässigt bland 7 personer från grupp A och 6 från grupp B. Givet att den valda gruppen innehåller minst 2 personer från grupp B, bestäm sannolikheten att den innehåller exakt 3 personer från grupp B.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
     "s": "<p><strong>Viktigt:</strong> Eftersom sannolikheten är villkorad ska nämnaren bara innehålla grupper som uppfyller villkoret ”minst 2 från B”.</p><p>Exakt 3 från B: \\[\\binom63\\binom72=420.\\]</p><p>Villkoret tillåter 2, 3, 4 eller 5 från B:</p><p>\\[N=\\binom62\\binom73+\\binom63\\binom72+\\binom{6}{4}\\binom71+\\binom65\\binom70=1056.\\]</p><p>\\[P=\\frac{420}{1056}=\\mathbf{\\frac{35}{88}}\\approx0,398.\\]</p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{35}{88}\\) = \\(0,3977\\) ≈ \\(39,8\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
     "id": "1.106",
@@ -7437,7 +7437,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Villkoret skapar ett nytt utfallsrum. Räkna först hur många utfall som uppfyller villkoret och därefter hur många av dessa som också uppfyller det som efterfrågas.</p>",
-    "traningsniva": 4
+    "traningsniva": 5
   },
   {
     "kap": 1,
@@ -7672,9 +7672,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "kombinatorik_sannolikhet",
-    "niva": "E",
+    "niva": "C",
     "typ": "hypergeometrisk exakt en",
-    "poang": "2/0/0",
+    "poang": "1/1/0",
     "t": "<p>En låda innehåller 6 vita och 4 svarta kulor. Tre kulor dras samtidigt. Bestäm sannolikheten att exakt en är svart.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
     "s": "<p><strong>Nyckelidé:</strong> Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p><p>Gynnsamma val: välj 1 svart av 4 och 2 vita av 6. Totalt väljs 3 av 10:</p><p>\\[P=\\frac{\\binom41\\binom62}{\\binom{10}{3}}=\\frac{60}{120}=\\frac12.\\]</p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{1}{2}\\) = \\(0,5\\) ≈ \\(50\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
     "id": "1.159",
@@ -7692,7 +7692,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
-    "traningsniva": 2
+    "traningsniva": 3
   },
   {
     "kap": 1,
@@ -26502,8 +26502,8 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "mult_add_principen",
-    "niva": "E",
-    "poang": "1/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Hur många av heltalen 1–120 är delbara med 4 eller 6 (eller båda)?</p>",
     "s": "<p>\\(\\lfloor120/4\\rfloor+\\lfloor120/6\\rfloor-\\lfloor120/12\\rfloor=40\\).</p><p><strong>Svar:</strong> 40</p>",
     "id": "1.489",
@@ -26515,7 +26515,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "ledtrad": "<p>Tal som är delbara med båda räknas två gånger. Dra bort dem en gång.</p>",
     "svarstyp": "numeriskt",
     "rättSvar": 40,
@@ -26622,8 +26622,8 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "mult_add_principen",
-    "niva": "E",
-    "poang": "1/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Hur många av heltalen 1–120 är delbara med 4 eller 6 (eller båda)?</p>",
     "s": "<p>\\(\\lfloor120/4\\rfloor+\\lfloor120/6\\rfloor-\\lfloor120/12\\rfloor=40\\).</p><p><strong>Svar:</strong> 40</p>",
     "id": "1.493",
@@ -26635,7 +26635,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "ledtrad": "<p>Tal som är delbara med båda räknas två gånger. Dra bort dem en gång.</p>",
     "svarstyp": "numeriskt",
     "rättSvar": 40,
@@ -27276,9 +27276,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "permutationer",
-    "niva": "E",
+    "niva": "C",
     "typ": "permutationer och fakultet",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>Hur många olika ord kan bildas av bokstäverna i MINNE?</p>",
     "s": "<p><strong>Idé:</strong> Ordningen spelar roll.</p><p>\\[\\frac{5!}{2!}=60=\\mathbf{60}.\\]</p>",
     "id": "1.516",
@@ -27293,7 +27293,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
     "omrTidigare": [
@@ -27303,9 +27303,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "permutationer",
-    "niva": "E",
+    "niva": "C",
     "typ": "permutationer och fakultet",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>Hur många olika ord kan bildas av bokstäverna i PROPP?</p>",
     "s": "<p><strong>Idé:</strong> Ordningen spelar roll.</p><p>\\[\\frac{5!}{3!}=20=\\mathbf{20}.\\]</p>",
     "id": "1.517",
@@ -27320,7 +27320,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
     "omrTidigare": [
@@ -28136,7 +28136,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
   },
@@ -28160,7 +28160,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
   },
@@ -28287,9 +28287,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "kombinatorik_sannolikhet",
-    "niva": "E",
+    "niva": "C",
     "typ": "grundläggande kombinatorisk sannolikhet",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>En vanlig tärning kastas 3 gånger. Bestäm sannolikheten för exakt 1 etta.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
     "s": "<p><strong>Metod:</strong> Räkna gynnsamma utfall och dividera med alla lika sannolika utfall.</p><p><strong>Svar:</strong> \\(\\frac{25}{72}\\).</p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{25}{72}\\) = \\(0,3472\\) ≈ \\(34,7\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
     "id": "1.556",
@@ -28304,16 +28304,16 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
   },
   {
     "kap": 1,
     "omr": "kombinatorik_sannolikhet",
-    "niva": "E",
+    "niva": "C",
     "typ": "grundläggande kombinatorisk sannolikhet",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>En vanlig tärning kastas 4 gånger. Bestäm sannolikheten för exakt 2 etta.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
     "s": "<p><strong>Metod:</strong> Räkna gynnsamma utfall och dividera med alla lika sannolika utfall.</p><p><strong>Svar:</strong> \\(\\frac{25}{216}\\).</p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{25}{216}\\) = \\(0,1157\\) ≈ \\(11,6\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
     "id": "1.557",
@@ -28328,7 +28328,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
   },
@@ -28383,9 +28383,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "kombinatorik_sannolikhet",
-    "niva": "E",
+    "niva": "C",
     "typ": "grundläggande kombinatorisk sannolikhet",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>En grupp har 8 personer, varav 3 tillhör grupp A. 2 personer väljs slumpmässigt utan återläggning. Bestäm sannolikheten att exakt 1 av de valda tillhör A.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
     "s": "<p><strong>Metod:</strong> Räkna gynnsamma utfall och dividera med alla lika sannolika utfall.</p><p><strong>Svar:</strong> \\(\\frac{15}{28}\\).</p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{15}{28}\\) = \\(0,5357\\) ≈ \\(53,6\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
     "id": "1.560",
@@ -28400,16 +28400,16 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
   },
   {
     "kap": 1,
     "omr": "kombinatorik_sannolikhet",
-    "niva": "E",
+    "niva": "C",
     "typ": "grundläggande kombinatorisk sannolikhet",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>En grupp har 10 personer, varav 4 tillhör grupp A. 2 personer väljs slumpmässigt utan återläggning. Bestäm sannolikheten att exakt 2 av de valda tillhör A.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
     "s": "<p><strong>Metod:</strong> Räkna gynnsamma utfall och dividera med alla lika sannolika utfall.</p><p><strong>Svar:</strong> \\(\\frac{2}{15}\\).</p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{2}{15}\\) = \\(0,1333\\) ≈ \\(13,3\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
     "id": "1.561",
@@ -28424,16 +28424,16 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
   },
   {
     "kap": 1,
     "omr": "kombinatorik_sannolikhet",
-    "niva": "E",
+    "niva": "C",
     "typ": "grundläggande kombinatorisk sannolikhet",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>En grupp har 9 personer, varav 3 tillhör grupp A. 3 personer väljs slumpmässigt utan återläggning. Bestäm sannolikheten att exakt 1 av de valda tillhör A.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
     "s": "<p><strong>Metod:</strong> Räkna gynnsamma utfall och dividera med alla lika sannolika utfall.</p><p><strong>Svar:</strong> \\(\\frac{15}{28}\\).</p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{15}{28}\\) = \\(0,5357\\) ≈ \\(53,6\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
     "id": "1.562",
@@ -28448,7 +28448,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
   },
@@ -28475,6 +28475,129 @@ window.BANKMATF1 = [
     "rättSvar": 0.0011804560028076353,
     "tolerans": 5e-06,
     "typ": "lotto med exakt k rätt"
+  },
+  {
+    "id": "1.633",
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>I en låda ligger 10 röda och 15 gula lappar. Man drar 4 lappar samtidigt.</p><p>Hur stor är sannolikheten att alla fyra är röda?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Gynnsamma: \\(\\binom{10}4=210\\). Möjliga: \\(\\binom{25}4=12\\,650\\).</p><p>\\[P=\\frac{210}{12\\,650}=\\frac{21}{1\\,265}\\approx0{,}017.\\]</p><p><strong>Sannolikheten är \\(21/1265\\).</strong></p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{21}{1265}\\) = \\(0,0166\\) ≈ \\(1,66\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
+    "familj": "Kombinatorisk sannolikhet",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Sannolikheten är antalet sätt att välja fyra röda delat med antalet sätt att välja fyra lappar.</p>",
+    "spel": true,
+    "traningsniva": 1,
+    "svarstyp": "numeriskt",
+    "rättSvar": "21/1265",
+    "tolerans": null,
+    "svarFormat": "sannolikhet",
+    "typ": "sannolikhet att alla är av ett slag"
+  },
+  {
+    "id": "1.634",
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En basketspelare sätter ett straffkast med sannolikheten 0,8, oberoende av de andra kasten. Hon skjuter 5 straffkast.</p><p>Hur stor är sannolikheten att alla fem går i?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>\\[P=0{,}8^5\\approx0{,}328.\\]</p><p><strong>Sannolikheten är \\(\\approx0,3277\\).</strong></p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{1024}{3125}\\) = \\(0,3277\\) ≈ \\(32,8\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
+    "familj": "Kombinatorisk sannolikhet",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Kasten är oberoende. Hur räknar man sannolikheten att flera oberoende händelser alla inträffar?</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1024/3125",
+    "tolerans": null,
+    "svarFormat": "sannolikhet",
+    "typ": "binomial sannolikhet för alla lyckade"
+  },
+  {
+    "id": "1.635",
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "poang": "1/1/0",
+    "t": "<p>En basketspelare sätter ett straffkast med sannolikheten 0,8, oberoende av de andra kasten. Hon skjuter 5 straffkast.</p><p>Hur stor är sannolikheten att precis tre går i?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>De tre lyckade kasten kan ligga på \\(\\binom53=10\\) sätt bland de fem.</p><p>\\[P=\\binom53\\cdot0{,}8^3\\cdot0{,}2^2=10\\cdot0{,}512\\cdot0{,}04=0{,}2048.\\]</p><p><strong>Sannolikheten är \\(128/625\\).</strong></p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{128}{625}\\) = \\(0,2048\\) ≈ \\(20,5\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
+    "familj": "Kombinatorisk sannolikhet",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor är sannolikheten för en bestämd ordning med tre träffar och två missar? På hur många sätt kan träffarna ligga?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": "128/625",
+    "tolerans": null,
+    "svarFormat": "sannolikhet",
+    "typ": "binomial sannolikhet för exakt k"
+  },
+  {
+    "id": "1.636",
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "poang": "1/1/0",
+    "t": "<p>I en tombola finns 60 lotter, varav 6 är vinstlotter. Du köper 4 lotter.</p><p>Hur stor är sannolikheten att exakt en av dina lotter vinner?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Gynnsamma: en vinstlott och tre nitlotter, \\(\\binom61\\cdot\\binom{54}3=6\\cdot24\\,804=148\\,824\\).</p><p>Möjliga: \\(\\binom{60}4=487\\,635\\).</p><p>\\[P=\\frac{148\\,824}{487\\,635}\\approx0{,}305.\\]</p><p><strong>Sannolikheten är \\(\\approx0,3052\\).</strong></p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{49608}{162545}\\) = \\(0,3052\\) ≈ \\(30,5\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
+    "familj": "Kombinatorisk sannolikhet",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Välj vinstlotterna och nitlotterna var för sig. Dela med antalet sätt att välja fyra lotter.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": "49608/162545",
+    "tolerans": null,
+    "svarFormat": "sannolikhet",
+    "typ": "hypergeometrisk sannolikhet för exakt k"
+  },
+  {
+    "id": "1.640",
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En smyckesmakare tar slumpmässigt 12 pärlor ur en mycket stor burk där pärlorna är jämnt fördelade på fyra färger.</p><p>Hur stor är sannolikheten att hon får exakt 3 pärlor av varje färg?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Burken är så stor att varje pärla har färgen med sannolikheten \\(\\frac14\\), oberoende av de andra.</p><p>En bestämd färgföljd har sannolikheten \\(\\left(\\frac14\\right)^{12}\\).</p><p>Antalet färgföljder med tre av varje färg är \\(\\frac{12!}{3!\\,3!\\,3!\\,3!}=369\\,600\\).</p><p>\\[P=\\frac{369\\,600}{4^{12}}\\approx0{,}022.\\]</p><p><strong>Sannolikheten är \\(\\approx0,02203\\).</strong></p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{5775}{262144}\\) = \\(0,02203\\) ≈ \\(2,2\\,\\%\\)</p><p>Exakt bråk, motsvarande decimaltal och motsvarande procent godtas.</p></div>",
+    "familj": "Kombinatorisk sannolikhet",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor är sannolikheten för en bestämd ordning av färgerna? Hur många ordningar har exakt tre av varje färg?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": "5775/262144",
+    "tolerans": null,
+    "svarFormat": "sannolikhet",
+    "typ": "sannolikhet med upprepade objekt"
   },
   {
     "kap": 2,
@@ -30721,6 +30844,100 @@ window.BANKMATF1 = [
     "typ": "räkna via komplement"
   },
   {
+    "id": "1.625",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En dörrkod består av fyra bokstäver som väljs bland A, B, C, D, E och F. Samma bokstav får användas flera gånger.</p><p>Hur många koder finns?</p>",
+    "s": "<p>Varje position har 6 val: \\(6\\cdot6\\cdot6\\cdot6=6^4=1\\,296\\).</p><p><strong>Svar:</strong> 1 296 koder</p>",
+    "familj": "Multiplikations- och additionsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många val finns för varje position?</p>",
+    "spel": true,
+    "traningsniva": 1,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1296,
+    "tolerans": null,
+    "typ": "multiplikationsprincipen med upprepning"
+  },
+  {
+    "id": "1.626",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En dörrkod består av fyra bokstäver som väljs bland A, B, C, D, E och F. Samma bokstav får användas flera gånger.</p><p>Hur många av koderna börjar med BA?</p>",
+    "s": "<p>De två första bokstäverna är bestämda. De två sista kan väljas på 6 sätt var: \\(6\\cdot6=36\\).</p><p><strong>Svar:</strong> 36 koder</p>",
+    "familj": "Multiplikations- och additionsprincipen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilka positioner är redan bestämda, och hur många val finns för de övriga?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "typ": "koder med fast början"
+  },
+  {
+    "id": "1.627",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett café erbjuder antingen smörgås och dryck eller bulle och dryck. Det finns 4 smörgåsar, 3 bullar och 5 drycker.</p><p>Hur många olika erbjudanden kan man välja?</p>",
+    "s": "<p>Smörgås och dryck: \\(4\\cdot5=20\\). Bulle och dryck: \\(3\\cdot5=15\\).</p><p>Man väljer det ena eller det andra, så antalen adderas: \\(20+15=35\\).</p><p><strong>Svar:</strong> 35 erbjudanden</p>",
+    "familj": "Multiplikations- och additionsprincipen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna varje sorts erbjudande för sig. Ska antalen sedan multipliceras eller adderas?</p>",
+    "spel": true,
+    "traningsniva": 1,
+    "svarstyp": "numeriskt",
+    "rättSvar": 35,
+    "tolerans": null,
+    "typ": "additions- och multiplikationsprincipen"
+  },
+  {
+    "id": "1.641",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Ett armband har 5 pärlor i rad. Varje pärla är vit, svart eller guldfärgad.</p><p>Hur många olika armband, lästa från vänster till höger, innehåller minst en guldpärla?</p>",
+    "s": "<p>Alla armband: \\(3^5=243\\). Armband utan guld: \\(2^5=32\\).</p><p>\\[243-32=211.\\]</p><p><strong>Svar:</strong> 211 armband</p>",
+    "familj": "Multiplikations- och additionsprincipen",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>”Minst en” räknas enklast via komplementet: hur många armband saknar guld helt?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 211,
+    "tolerans": null,
+    "typ": "räkna via komplement"
+  },
+  {
     "kap": 1,
     "omr": "permutationer",
     "niva": "E",
@@ -30858,9 +31075,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "permutationer",
-    "niva": "E",
+    "niva": "C",
     "typ": "permutationer – rutin",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>Hur många olika bokstavsordningar kan bildas av ordet MINNE?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Fem bokstäver ordnas, men N förekommer två gånger.</p><div class=\"facit-arbete\"><p>Om alla fem vore olika hade vi \\(5!\\) ordningar. Bytet av de två N ger ingen ny ordning, så vi dividerar med \\(2!\\).</p><p>\\[\\frac{5!}{2!}=60.\\]</p><p><strong>Svar:</strong> 60</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att du inte dividerar bort ordning när ordningen faktiskt spelar roll.</p></div>",
     "id": "1.592",
@@ -30875,7 +31092,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
     "omrTidigare": [
@@ -30885,9 +31102,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "permutationer",
-    "niva": "E",
+    "niva": "C",
     "typ": "permutationer – rutin",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>Hur många olika bokstavsordningar kan bildas av ordet PROPP?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Fem bokstäver ordnas, men P förekommer tre gånger.</p><div class=\"facit-arbete\"><p>\\[\\frac{5!}{3!}=20.\\]</p><p><strong>Svar:</strong> 20</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att du inte dividerar bort ordning när ordningen faktiskt spelar roll.</p></div>",
     "id": "1.593",
@@ -30902,7 +31119,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
     "omrTidigare": [
@@ -30912,9 +31129,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "permutationer",
-    "niva": "E",
+    "niva": "C",
     "typ": "permutationer – rutin",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>Hur många olika bokstavsordningar kan bildas av ordet KANAN?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Fem bokstäver ordnas, med två A och två N.</p><div class=\"facit-arbete\"><p>\\[\\frac{5!}{2!\\,2!}=30.\\]</p><p><strong>Svar:</strong> 30</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att du inte dividerar bort ordning när ordningen faktiskt spelar roll.</p></div>",
     "id": "1.594",
@@ -30929,7 +31146,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
     "omrTidigare": [
@@ -30939,9 +31156,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "permutationer",
-    "niva": "E",
+    "niva": "C",
     "typ": "permutationer – rutin",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>Hur många olika bokstavsordningar kan bildas av ordet FLIPPFLOPP?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Ord med upprepade bokstäver kräver division med fakulteterna för upprepningarna.</p><div class=\"facit-arbete\"><p>Ordet har 10 bokstäver: F två gånger, L två gånger, P fyra gånger samt I och O en gång.</p><p>\\[\\frac{10!}{2!\\,2!\\,4!}=37\\,800.\\]</p><p><strong>Svar:</strong> 37800</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att du inte dividerar bort ordning när ordningen faktiskt spelar roll.</p></div>",
     "id": "1.595",
@@ -30956,12 +31173,59 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 4,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
+  },
+  {
+    "id": "1.620",
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Till en filmkväll kommer sju vänner, en i taget.</p><p>På hur många sätt kan ankomstordningen se ut?</p>",
+    "s": "<p>Den första som kommer kan vara vilken som helst av de 7, den andra någon av de 6 som är kvar, och så vidare.</p><p>\\[7!=7\\cdot6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1=5\\,040.\\]</p><p><strong>Svar:</strong> 5 040 sätt</p>",
+    "familj": "Permutationer och ordnade urval",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många kan komma först? Hur många finns kvar som kan komma som nummer två?</p>",
+    "spel": true,
+    "traningsniva": 1,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5040,
+    "tolerans": null,
+    "typ": "ordna alla n föremål"
+  },
+  {
+    "id": "1.632",
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "poang": "1/1/0",
+    "t": "<p>Bokstäverna i ordet MAGNOLIA ligger på lösa brickor. Man lägger ut 5 av brickorna i rad.</p><p>Hur många olika bokstavsföljder med 5 bokstäver kan bildas? Varje bricka får användas högst en gång.</p>",
+    "s": "<p>MAGNOLIA har 8 brickor med 7 olika bokstäver, där A finns två gånger.</p><p>Inga två A: välj och ordna 5 av de 7 olika bokstäverna, \\(7\\cdot6\\cdot5\\cdot4\\cdot3=2\\,520\\).</p><p>Två A: välj platser för A, \\(\\binom52=10\\), och fyll de tre övriga platserna med de 6 andra bokstäverna i ordning, \\(6\\cdot5\\cdot4=120\\). Det ger \\(1\\,200\\).</p><p>\\[2\\,520+1\\,200=3\\,720.\\]</p><p><strong>Svar:</strong> 3 720 bokstavsföljder</p>",
+    "familj": "Permutationer och ordnade urval",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela upp i fall: följder med högst ett A och följder med två A.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3720,
+    "tolerans": null,
+    "typ": "ordnade urval med upprepade bokstäver"
   },
   {
     "kap": 1,
@@ -31150,6 +31414,100 @@ window.BANKMATF1 = [
     "typ": "bollar och skiljeväggar med minimikrav"
   },
   {
+    "id": "1.628",
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>I en kör finns 7 sopraner och 9 altar. Till ett framträdande ska 2 sopraner och 3 altar väljas.</p><p>På hur många sätt kan gruppen väljas?</p>",
+    "s": "<p>Sopranerna: \\(\\binom72=21\\). Altarna: \\(\\binom93=84\\).</p><p>Varje val av sopraner kan kombineras med varje val av altar: \\(21\\cdot84=1\\,764\\).</p><p><strong>Svar:</strong> 1 764 sätt</p>",
+    "familj": "Kombinationer och urval",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Välj sopranerna och altarna var för sig och använd multiplikationsprincipen.</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1764,
+    "tolerans": null,
+    "typ": "urval ur två grupper"
+  },
+  {
+    "id": "1.629",
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En bartender har 10 olika smaksirap. Två av dem, mynta och chili, passar inte ihop.</p><p>På hur många sätt kan hon välja 4 sirap om inte både mynta och chili får komma med?</p>",
+    "s": "<p>Alla urval: \\(\\binom{10}4=210\\).</p><p>Urval med både mynta och chili: de två övriga väljs bland 8, \\(\\binom82=28\\).</p><p>\\[210-28=182.\\]</p><p><strong>Svar:</strong> 182 sätt</p>",
+    "familj": "Kombinationer och urval",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna alla urval och dra bort dem som innehåller båda de olämpliga sirapen.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 182,
+    "tolerans": null,
+    "typ": "urval med förbjudet par"
+  },
+  {
+    "id": "1.630",
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "poang": "1/1/0",
+    "t": "<p>En tränare har tre listor med 8 övningar var: styrka, rörlighet och kondition. Ett pass ska innehålla 2 styrkeövningar, 2 rörlighetsövningar och 1 konditionsövning.</p><p>Hur många olika pass kan tränaren sätta ihop om ordningen mellan övningarna inte spelar någon roll?</p>",
+    "s": "<p>\\(\\binom82\\cdot\\binom82\\cdot\\binom81=28\\cdot28\\cdot8=6\\,272\\).</p><p><strong>Svar:</strong> 6 272 pass</p>",
+    "familj": "Kombinationer och urval",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Välj ur varje lista för sig och multiplicera.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6272,
+    "tolerans": null,
+    "typ": "urval ur flera listor"
+  },
+  {
+    "id": "1.631",
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En tränare har tre listor med 8 övningar var: styrka, rörlighet och kondition. Ett pass ska innehålla 2 styrkeövningar, 2 rörlighetsövningar och 1 konditionsövning.</p><p>Hur många olika pass kan tränaren sätta ihop om ordningen mellan de fem övningarna spelar roll?</p>",
+    "s": "<p>Utan hänsyn till ordning: \\(\\binom82\\cdot\\binom82\\cdot\\binom81=6\\,272\\) sätt att välja övningarna.</p><p>De fem valda övningarna kan ordnas på \\(5!=120\\) sätt: \\(6\\,272\\cdot120=752\\,640\\).</p><p><strong>Svar:</strong> 752 640 pass</p>",
+    "familj": "Kombinationer och urval",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Välj först vilka övningar som ingår. På hur många sätt kan sedan fem övningar ordnas?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 752640,
+    "tolerans": null,
+    "typ": "välja och sedan ordna"
+  },
+  {
     "kap": 1,
     "omr": "binomialsatsen",
     "niva": "E",
@@ -31200,9 +31558,9 @@ window.BANKMATF1 = [
   {
     "kap": 1,
     "omr": "binomialsatsen",
-    "niva": "E",
+    "niva": "C",
     "typ": "binomialsatsen – koefficienter",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>Bestäm koefficienten framför \\(x^2\\) i \\((2x+1)^4\\).</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Termen med \\(x^2\\) fås när två av de fyra faktorerna bidrar med \\(2x\\).</p><div class=\"facit-arbete\"><p>\\[\\binom42(2x)^2=6\\cdot4x^2=24x^2.\\]</p><p><strong>Svar:</strong> 24</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att exponenterna i varje term tillsammans summerar till binomets exponent.</p></div>",
     "id": "1.604",
@@ -31217,16 +31575,16 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
   },
   {
     "kap": 1,
     "omr": "binomialsatsen",
-    "niva": "E",
+    "niva": "C",
     "typ": "binomialsatsen – koefficienter",
-    "poang": "1/0/0",
+    "poang": "1/1/0",
     "t": "<p>Bestäm koefficienten framför \\(x\\) i \\((3x-2)^3\\).</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Termen med \\(x\\) innehåller exakt en faktor \\(3x\\) och två faktorer \\(-2\\).</p><div class=\"facit-arbete\"><p>\\[\\binom31(3x)(-2)^2=3\\cdot3\\cdot4\\,x=36x.\\]</p><p><strong>Svar:</strong> 36</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att exponenterna i varje term tillsammans summerar till binomets exponent.</p></div>",
     "id": "1.605",
@@ -31241,7 +31599,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
   },
@@ -31340,6 +31698,79 @@ window.BANKMATF1 = [
     "traningsniva": 1,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
+  },
+  {
+    "id": "1.637",
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>Bestäm den tredje termen i utvecklingen av \\((2x-y)^6\\), ordnad efter fallande potenser av \\(x\\).</p>",
+    "s": "<p>Den allmänna termen är \\(\\binom6k(2x)^{6-k}(-y)^k\\). Den tredje termen har \\(k=2\\):</p><p>\\[\\binom62(2x)^4(-y)^2=15\\cdot16x^4\\cdot y^2=240x^4y^2.\\]</p><p><strong>Svar:</strong> \\(240x^4y^2\\)</p>",
+    "familj": "Använda binomialsatsen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Den första termen har \\(k=0\\). Vilket \\(k\\) har den tredje? Tänk på tecknet hos \\((-y)^k\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "uttryck",
+    "rättSvar": "240*x^4*y^2",
+    "tolerans": null,
+    "svarFormat": "uttryck",
+    "typ": "bestämma viss term"
+  },
+  {
+    "id": "1.638",
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>Bestäm de tre första termerna i utvecklingen av \\((3x-2)^5\\), ordnade efter fallande potenser av \\(x\\).</p>",
+    "s": "<p>\\(k=0\\): \\((3x)^5=243x^5\\).</p><p>\\(k=1\\): \\(\\binom51(3x)^4(-2)=5\\cdot81x^4\\cdot(-2)=-810x^4\\).</p><p>\\(k=2\\): \\(\\binom52(3x)^3(-2)^2=10\\cdot27x^3\\cdot4=1\\,080x^3\\).</p><p><strong>Svar:</strong> \\(243x^5-810x^4+1\\,080x^3\\)</p>",
+    "familj": "Använda binomialsatsen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd \\(\\binom5k(3x)^{5-k}(-2)^k\\) för \\(k=0,1,2\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "uttryck",
+    "rättSvar": "243*x^5-810*x^4+1080*x^3",
+    "tolerans": null,
+    "svarFormat": "uttryck",
+    "typ": "de första termerna i en utveckling"
+  },
+  {
+    "id": "1.639",
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm den konstanta termen i utvecklingen av \\[\\left(x^2-\\frac3x\\right)^9.\\]</p>",
+    "s": "<p>Den allmänna termen är \\(\\binom9k(x^2)^{9-k}\\left(-\\frac3x\\right)^k=\\binom9k(-3)^k x^{18-3k}\\).</p><p>Konstant term: \\(18-3k=0\\Rightarrow k=6\\).</p><p>\\[\\binom96(-3)^6=84\\cdot729=61\\,236.\\]</p><p><strong>Svar:</strong> 61 236</p>",
+    "familj": "Använda binomialsatsen",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv den allmänna termen och förenkla potensen av \\(x\\). För vilket \\(k\\) blir exponenten 0?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 61236,
+    "tolerans": null,
+    "typ": "konstant term med negativa potenser"
   },
   {
     "kap": 2,
@@ -32072,6 +32503,101 @@ window.BANKMATF1 = [
     "rättSvar": 11,
     "tolerans": null,
     "typ": "lådprincipen med parbildning"
+  },
+  {
+    "id": "1.621",
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många elever måste minst gå på en skola för att man säkert ska veta att minst fem av dem fyller år samma månad?</p>",
+    "s": "<p>Månaderna är 12 lådor. Med 4 elever per månad får \\(4\\cdot12=48\\) elever plats utan att någon månad har fem.</p><p>Elev nummer 49 måste hamna i en månad som redan har fyra.</p><p><strong>Svar:</strong> 49 elever</p>",
+    "familj": "Använda lådprincipen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många elever kan det som mest finnas om ingen månad har fem? Lägg sedan till en.</p>",
+    "spel": true,
+    "traningsniva": 1,
+    "svarstyp": "numeriskt",
+    "rättSvar": 49,
+    "tolerans": null,
+    "typ": "generaliserade lådprincipen"
+  },
+  {
+    "id": "1.622",
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en godisskål ligger 6 gröna och 9 gula karameller. Du tar karameller utan att titta.</p><p>Hur många karameller måste du minst ta för att säkert få två av samma färg?</p>",
+    "s": "<p>Färgerna är 2 lådor. Med 2 karameller kan du ha en av varje färg. Den tredje måste ha samma färg som någon av dem.</p><p><strong>Svar:</strong> 3 karameller</p>",
+    "familj": "Använda lådprincipen",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilket är det sämsta som kan hända med två karameller?</p>",
+    "spel": true,
+    "traningsniva": 1,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "typ": "lådprincipen med färger"
+  },
+  {
+    "id": "1.623",
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I en godisskål ligger 6 gröna och 9 gula karameller. Du tar karameller utan att titta.</p><p>Hur många karameller måste du minst ta för att säkert få två gula?</p>",
+    "s": "<p>I värsta fall tar du först alla 6 gröna. Därefter är alla som är kvar gula, så två till ger två gula.</p><p>\\[6+2=8.\\]</p><p><strong>Svar:</strong> 8 karameller</p>",
+    "familj": "Använda lådprincipen",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Tänk på det sämsta fallet: vad händer om du får alla gröna först?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "typ": "sämsta fallet"
+  },
+  {
+    "id": "1.624",
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett cykellås har en kod med fyra siffror, men hjulen har bara siffrorna 1–6.</p><p>Hur många personer måste minst välja en kod för att man säkert ska veta att två har valt samma kod?</p>",
+    "s": "<p>Antalet möjliga koder är \\(6^4=1\\,296\\). Det är lådorna.</p><p>1 296 personer kan välja olika koder. Med en person till måste två ha samma kod.</p><p><strong>Svar:</strong> 1 297 personer</p>",
+    "familj": "Använda lådprincipen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna först hur många olika koder som finns.</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1297,
+    "tolerans": null,
+    "typ": "lådprincipen med antal koder"
   },
   {
     "kap": 2,

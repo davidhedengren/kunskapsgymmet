@@ -3811,7 +3811,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-02-kvalitet";
+const BANK_VERSION="2026-10-02-ma5-kombinatorik";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9299,6 +9299,22 @@ function formatRatt(anv,facit,meta){
     }
     case "heltal": case "numeriskt":
       return rentNumerisktSvar(a,f,meta);
+    case "sannolikhet": {
+      /* Exakt bråk eller uttryck jämförs som vanligt längre ner. Ett decimaltal eller en procentsats
+         godtas om det är korrekt avrundat med minst två värdesiffror ("0,36", "35,7 %" för 5/14). */
+      const s=stadaSvar(hogerled(a)).replace(/\s+/g,"").replace(/^≈/,"");
+      const m=s.match(/^([+-]?(?:\d+(?:[.,]\d*)?|[.,]\d+))(%?)$/);
+      if(!m || !isPureNumberExpression(f)) return null;
+      const fv=numericValue(tillNerdamer(normalizeMathInput(f)));
+      const skala=m[2]?100:1, v=taltolk(m[1])/skala;
+      if(!Number.isFinite(v) || !Number.isFinite(fv)) return null;
+      if(naraNog(v,fv,tol)) return true;
+      if(typeof tol==="number") return false;
+      const decimaler=(m[1].split(/[.,]/)[1]||"").length;
+      const varde=m[1].replace(/^[+-]/,"").replace(/[.,]/,"").replace(/^0+/,"").length;
+      const steg=Math.pow(10,-decimaler)/skala;
+      return varde>=2 && Math.abs(v-fv)<=steg/2*(1+1e-9)+1e-12;
+    }
     case "procent": {
       const v=talAv(hogerled(a.replace(/%/g,""))), fv=talAv(String(f).replace(/%/g,""));
       return naraNog(v,fv,tol) || naraNog(v*100,fv,tol) || naraNog(v,fv*100,tol);

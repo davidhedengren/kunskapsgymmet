@@ -33836,6 +33836,2146 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "ljusets tid genom glas",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vatten har brytningsindex 1,33.</p><p>En glasskiva är 3,0 mm tjock och har brytningsindex 1,47.</p><ol type=\"a\"><li>Hur lång tid tar ljuset på sig att gå genom glasskivan?</li><li>Hur långt skulle ljuset gå i vatten på samma tid?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac cn\\), så \\(t=\\dfrac{nd}{c}=\\dfrac{1{,}47\\cdot0{,}0030}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(15\\) ps</p></li><li><p>\\(s=\\dfrac{c}{1{,}33}\\cdot t=\\dfrac{1{,}47}{1{,}33}\\cdot3{,}0\\) mm.</p><p><strong>Svar:</strong> \\(3{,}3\\) mm</p></li></ol>",
+    "id": "4.368",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14.699999999999998,
+      3.3157894736842106
+    ],
+    "tolerans": [
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "ps",
+      "mm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vatten har brytningsindex 1,33.</p><p>En glasskiva är 3,0 mm tjock och har brytningsindex 1,47.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar ljuset på sig att gå genom glasskivan?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vatten har brytningsindex 1,33.</p><p>En glasskiva är 3,0 mm tjock och har brytningsindex 1,47.</p><p>Hur lång tid tar ljuset på sig att gå genom glasskivan?</p>",
+        "s": "<p>\\(v=\\dfrac cn\\), så \\(t=\\dfrac{nd}{c}=\\dfrac{1{,}47\\cdot0{,}0030}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(15\\) ps</p>",
+        "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt skulle ljuset gå i vatten på samma tid?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vatten har brytningsindex 1,33.</p><p>En glasskiva är 3,0 mm tjock och har brytningsindex 1,47.</p>Ljuset går genom glasskivan på 14,7 ps.<p>Hur långt skulle ljuset gå i vatten på samma tid?</p>",
+        "s": "<p>\\(s=\\dfrac{c}{1{,}33}\\cdot t=\\dfrac{1{,}47}{1{,}33}\\cdot3{,}0\\) mm.</p><p><strong>Svar:</strong> \\(3{,}3\\) mm</p>",
+        "ledtrad": "<p>Jämför ljushastigheterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Ljusets hastighet i ett material är \\(v=\\dfrac cn\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "ljusets väg i olika material",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vakuum har brytningsindex exakt 1.</p><ol type=\"a\"><li>Hur lång tid tar det för ljuset att gå 1,00 m i vakuum?</li><li>Hur lång sträcka hinner ljuset i vatten (brytningsindex 1,33) på samma tid?</li><li>Hur lång sträcka hinner ljuset i diamant (brytningsindex 2,42) på samma tid?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{1{,}00}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(3{,}33\\) ns</p></li><li><p>\\(s=\\dfrac{1{,}00}{1{,}33}\\).</p><p><strong>Svar:</strong> \\(0{,}752\\) m</p></li><li><p>\\(s=\\dfrac{1{,}00}{2{,}42}\\).</p><p><strong>Svar:</strong> \\(0{,}413\\) m</p></li></ol>",
+    "id": "4.369",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.3333333333333335,
+      0.7518796992481203,
+      0.4132231404958678
+    ],
+    "tolerans": [
+      0.05,
+      0.0113,
+      0.0062
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "ns",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vakuum har brytningsindex exakt 1.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det för ljuset att gå 1,00 m i vakuum?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vakuum har brytningsindex exakt 1.</p><p>Hur lång tid tar det för ljuset att gå 1,00 m i vakuum?</p>",
+        "s": "<p>\\(t=\\dfrac{1{,}00}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(3{,}33\\) ns</p>",
+        "ledtrad": "<p>\\(t=\\dfrac sc\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång sträcka hinner ljuset i vatten (brytningsindex 1,33) på samma tid?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vakuum har brytningsindex exakt 1.</p>Ljuset går 1,00 m i vakuum på samma tid.<p>Hur lång sträcka hinner ljuset i vatten (brytningsindex 1,33) på samma tid?</p>",
+        "s": "<p>\\(s=\\dfrac{1{,}00}{1{,}33}\\).</p><p><strong>Svar:</strong> \\(0{,}752\\) m</p>",
+        "ledtrad": "<p>Ljuset går \\(n\\) gånger långsammare.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång sträcka hinner ljuset i diamant (brytningsindex 2,42) på samma tid?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vakuum har brytningsindex exakt 1.</p>Ljuset går 1,00 m i vakuum på samma tid.<p>Hur lång sträcka hinner ljuset i diamant (brytningsindex 2,42) på samma tid?</p>",
+        "s": "<p>\\(s=\\dfrac{1{,}00}{2{,}42}\\).</p><p><strong>Svar:</strong> \\(0{,}413\\) m</p>",
+        "ledtrad": "<p>Ljuset går \\(n\\) gånger långsammare.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "tid genom flera skikt",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus går vinkelrätt genom tre skikt: 1,0 cm glas (brytningsindex 1,50), 5,0 cm olja (1,46) och 2,0 cm plast (1,59). Hur lång tid tar det att passera alla tre skikten?</p>",
+    "s": "<p>\\(t=\\dfrac{1}{c}\\left(1{,}50\\cdot0{,}010+1{,}46\\cdot0{,}050+1{,}59\\cdot0{,}020\\right)=\\dfrac{0{,}1198}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) ns</p>",
+    "id": "4.370",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3993333333333333,
+    "tolerans": 0.00599,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna tiden för varje skikt och addera.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "ns",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "våglängd i material",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 670 nm i luft har våglängden 420 nm i ett genomskinligt material.</p><ol type=\"a\"><li>Vilken är ljushastigheten i materialet?</li><li>Vilken frekvens har ljuset i materialet?</li><li>Vilket brytningsindex har materialet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Frekvensen är densamma, så \\(v=c\\cdot\\dfrac{420}{670}\\).</p><p><strong>Svar:</strong> \\(1{,}88\\cdot10^{8}\\) m/s</p></li><li><p>\\(f=\\dfrac{c}{\\lambda_0}=\\dfrac{3{,}00\\cdot10^8}{670\\cdot10^{-9}}\\), samma som i luft.</p><p><strong>Svar:</strong> \\(448\\) THz</p></li><li><p>\\(n=\\dfrac{670}{420}\\).</p><p><strong>Svar:</strong> \\(1{,}60\\)</p></li></ol>",
+    "id": "4.371",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      188059701.49253732,
+      447.7611940298507,
+      1.5952380952380953
+    ],
+    "tolerans": [
+      2820000.0,
+      6.72,
+      0.0239
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "THz",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 670 nm i luft har våglängden 420 nm i ett genomskinligt material.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken är ljushastigheten i materialet?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 670 nm i luft har våglängden 420 nm i ett genomskinligt material.</p><p>Vilken är ljushastigheten i materialet?</p>",
+        "s": "<p>Frekvensen är densamma, så \\(v=c\\cdot\\dfrac{420}{670}\\).</p><p><strong>Svar:</strong> \\(1{,}88\\cdot10^{8}\\) m/s</p>",
+        "ledtrad": "<p>Frekvensen ändras inte när ljuset byter material.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken frekvens har ljuset i materialet?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 670 nm i luft har våglängden 420 nm i ett genomskinligt material.</p><p>Vilken frekvens har ljuset i materialet?</p>",
+        "s": "<p>\\(f=\\dfrac{c}{\\lambda_0}=\\dfrac{3{,}00\\cdot10^8}{670\\cdot10^{-9}}\\), samma som i luft.</p><p><strong>Svar:</strong> \\(448\\) THz</p>",
+        "ledtrad": "<p>\\(f=\\dfrac{c}{\\lambda}\\) i luft.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilket brytningsindex har materialet?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 670 nm i luft har våglängden 420 nm i ett genomskinligt material.</p><p>Vilket brytningsindex har materialet?</p>",
+        "s": "<p>\\(n=\\dfrac{670}{420}\\).</p><p><strong>Svar:</strong> \\(1{,}60\\)</p>",
+        "ledtrad": "<p>\\(n=\\dfrac{\\lambda_0}{\\lambda}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Frekvensen är densamma i båda materialen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "tid genom vatten",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vatten har brytningsindex 1,33.</p><p>En ljuspuls går genom 150 m vatten. Hur lång tid tar det?</p>",
+    "s": "<p>\\(t=\\dfrac{1{,}33\\cdot150}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(0{,}665\\) µs</p>",
+    "id": "4.372",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.665,
+    "tolerans": 0.00997,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "µs",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "brytningsindex ur gångtid",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En helium-neonlaser har våglängden 633 nm i luft. Ljuset tar 1,89 ns på sig att gå genom 40,0 cm av en okänd vätska.</p><ol type=\"a\"><li>Vilket brytningsindex har vätskan?</li><li>Vilken våglängd har ljuset i vätskan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{0{,}400}{1{,}89\\cdot10^{-9}}\\), så \\(n=\\dfrac cv=\\dfrac{3{,}00\\cdot10^8\\cdot1{,}89\\cdot10^{-9}}{0{,}400}\\).</p><p><strong>Svar:</strong> \\(1{,}42\\)</p></li><li><p>\\(\\lambda=\\dfrac{633}{1{,}42}\\).</p><p><strong>Svar:</strong> \\(447\\) nm</p></li></ol>",
+    "id": "4.373",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.4174999999999998,
+      446.56084656084664
+    ],
+    "tolerans": [
+      0.0213,
+      6.7
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "nm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En helium-neonlaser har våglängden 633 nm i luft. Ljuset tar 1,89 ns på sig att gå genom 40,0 cm av en okänd vätska.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilket brytningsindex har vätskan?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En helium-neonlaser har våglängden 633 nm i luft. Ljuset tar 1,89 ns på sig att gå genom 40,0 cm av en okänd vätska.</p><p>Vilket brytningsindex har vätskan?</p>",
+        "s": "<p>\\(v=\\dfrac{0{,}400}{1{,}89\\cdot10^{-9}}\\), så \\(n=\\dfrac cv=\\dfrac{3{,}00\\cdot10^8\\cdot1{,}89\\cdot10^{-9}}{0{,}400}\\).</p><p><strong>Svar:</strong> \\(1{,}42\\)</p>",
+        "ledtrad": "<p>Bestäm ljusets hastighet i vätskan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken våglängd har ljuset i vätskan?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En helium-neonlaser har våglängden 633 nm i luft. Ljuset tar 1,89 ns på sig att gå genom 40,0 cm av en okänd vätska.</p>Vätskan har brytningsindex 1,42.<p>Vilken våglängd har ljuset i vätskan?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{633}{1{,}42}\\).</p><p><strong>Svar:</strong> \\(447\\) nm</p>",
+        "ledtrad": "<p>\\(\\lambda=\\dfrac{\\lambda_0}{n}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(n=\\dfrac cv\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "våglängd från glas till vatten",
+    "poang": "(1/0/0)",
+    "t": "<p>Glas har brytningsindex 1,50 och vatten 1,33. Ljus har våglängden 285 nm i glaset. Vilken våglängd har ljuset i vattnet?</p>",
+    "s": "<p>\\(n_1\\lambda_1=n_2\\lambda_2\\iff\\lambda_2=\\dfrac{1{,}50\\cdot285}{1{,}33}\\).</p><p><strong>Svar:</strong> \\(321\\) nm</p>",
+    "id": "4.374",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 321.4285714285714,
+    "tolerans": 4.82,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Frekvensen är densamma, så \\(n\\lambda\\) är konstant.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "nm",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "våglängd ur ljushastighet",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 592 nm i luft går ned i vatten, där ljushastigheten är \\(2{,}25\\cdot10^8\\) m/s. Vilken våglängd har ljuset i vattnet?</p>",
+    "s": "<p>\\(\\lambda=592\\cdot\\dfrac{2{,}25}{3{,}00}\\).</p><p><strong>Svar:</strong> \\(444\\) nm</p>",
+    "id": "4.375",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 444.0,
+    "tolerans": 6.66,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Våglängden är proportionell mot hastigheten.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "nm",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "brytningsindex ur tidsskillnad i fiber",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Två signaler sänds samtidigt mellan två städer 400,0 km från varandra, den ena genom luft och den andra genom en optisk fiber. Signalen genom luften kommer fram 0,77 ms före den genom fibern. Vilket brytningsindex har fibern?</p>",
+    "s": "<p>\\(\\Delta t=\\dfrac{L(n-1)}{c}\\iff n=1+\\dfrac{c\\,\\Delta t}{L}=1+\\dfrac{3{,}00\\cdot10^8\\cdot0{,}77\\cdot10^{-3}}{400{,}0\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) </p>",
+    "id": "4.376",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5775000000000001,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Teckna tiden för varje väg.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "utsmetning av ljuspuls",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>I en glasfiber är brytningsindex 1,515 för rött ljus och 1,533 för violett ljus. En kort puls vitt ljus går 1,0 km genom fibern. Hur lång blir pulsen, alltså avståndet mellan det röda och det violetta ljuset, när den kommer ut?</p>",
+    "s": "<p>Tidsskillnad: \\(\\Delta t=\\dfrac{1\\,000\\,(1{,}533-1{,}515)}{3{,}00\\cdot10^8}=6{,}0\\cdot10^{-8}\\) s.</p><p>Under den tiden går ljuset i fibern \\(\\dfrac{c}{1{,}52}\\cdot\\Delta t\\).</p><p><strong>Svar:</strong> \\(12\\) m</p>",
+    "id": "4.377",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.811023622047244,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm tidsskillnaden och omvandla till en sträcka.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "ljushastighet i material",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Beräkna ljusets hastighet i</p><ol type=\"a\"><li>vatten (brytningsindex 1,33)</li><li>diamant (brytningsindex 2,42)</li><li>plexiglas (brytningsindex 1,60)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{3{,}00\\cdot10^8}{1{,}33}\\).</p><p><strong>Svar:</strong> \\(2{,}26\\cdot10^{8}\\) m/s</p></li><li><p>\\(v=\\dfrac{3{,}00\\cdot10^8}{2{,}42}\\).</p><p><strong>Svar:</strong> \\(1{,}24\\cdot10^{8}\\) m/s</p></li><li><p>\\(v=\\dfrac{3{,}00\\cdot10^8}{1{,}60}\\).</p><p><strong>Svar:</strong> \\(1{,}88\\cdot10^{8}\\) m/s</p></li></ol>",
+    "id": "4.378",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      225563909.7744361,
+      123966942.14876033,
+      187500000.0
+    ],
+    "tolerans": [
+      3380000.0,
+      1860000.0,
+      2810000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Beräkna ljusets hastighet i</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "vatten (brytningsindex 1,33)",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Beräkna ljusets hastighet i</p><p>vatten (brytningsindex 1,33)</p>",
+        "s": "<p>\\(v=\\dfrac{3{,}00\\cdot10^8}{1{,}33}\\).</p><p><strong>Svar:</strong> \\(2{,}26\\cdot10^{8}\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "diamant (brytningsindex 2,42)",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Beräkna ljusets hastighet i</p><p>diamant (brytningsindex 2,42)</p>",
+        "s": "<p>\\(v=\\dfrac{3{,}00\\cdot10^8}{2{,}42}\\).</p><p><strong>Svar:</strong> \\(1{,}24\\cdot10^{8}\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "plexiglas (brytningsindex 1,60)",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Beräkna ljusets hastighet i</p><p>plexiglas (brytningsindex 1,60)</p>",
+        "s": "<p>\\(v=\\dfrac{3{,}00\\cdot10^8}{1{,}60}\\).</p><p><strong>Svar:</strong> \\(1{,}88\\cdot10^{8}\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "ljushastighet ur brytningsvinklar",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vatten har brytningsindex 1,33.</p><p>En ljusstråle går från vatten till en okänd vätska. Infallsvinkeln är 37,0° och brytningsvinkeln 25,0°. Beräkna ljusets hastighet i vätskan.</p>",
+    "s": "<p>\\(\\dfrac{\\sin\\alpha_1}{\\sin\\alpha_2}=\\dfrac{v_1}{v_2}\\iff v_2=\\dfrac{3{,}00\\cdot10^8}{1{,}33}\\cdot\\dfrac{\\sin25{,}0^\\circ}{\\sin37{,}0^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}58\\cdot10^{8}\\) m/s</p>",
+    "id": "4.379",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 158399880.01798972,
+    "tolerans": 2380000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Brytningslagen kan skrivas med hastigheter.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "ljus in i vätska",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 650 nm i vakuum träffar en vätska med brytningsindex 1,47. Infallsvinkeln är 25,0°.</p><ol type=\"a\"><li>Hur stor är ljushastigheten i vätskan?</li><li>Hur stor är ljusets våglängd i vätskan?</li><li>Vilken frekvens har ljuset i vätskan?</li><li>Hur stor blir brytningsvinkeln?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{3{,}00\\cdot10^8}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(2{,}04\\cdot10^{8}\\) m/s</p></li><li><p>\\(\\lambda=\\dfrac{650}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(442\\) nm</p></li><li><p>\\(f=\\dfrac{3{,}00\\cdot10^8}{650\\cdot10^{-9}}\\).</p><p><strong>Svar:</strong> \\(462\\) THz</p></li><li><p>\\(\\sin\\alpha_2=\\dfrac{\\sin25{,}0^\\circ}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(16{,}7\\) °</p></li></ol>",
+    "id": "4.380",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      204081632.65306124,
+      442.17687074829934,
+      461.5384615384615,
+      16.708069503531767
+    ],
+    "tolerans": [
+      3060000.0,
+      6.63,
+      6.92,
+      0.251
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "nm",
+      "THz",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 650 nm i vakuum träffar en vätska med brytningsindex 1,47. Infallsvinkeln är 25,0°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är ljushastigheten i vätskan?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 650 nm i vakuum träffar en vätska med brytningsindex 1,47. Infallsvinkeln är 25,0°.</p><p>Hur stor är ljushastigheten i vätskan?</p>",
+        "s": "<p>\\(v=\\dfrac{3{,}00\\cdot10^8}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(2{,}04\\cdot10^{8}\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är ljusets våglängd i vätskan?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 650 nm i vakuum träffar en vätska med brytningsindex 1,47. Infallsvinkeln är 25,0°.</p><p>Hur stor är ljusets våglängd i vätskan?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{650}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(442\\) nm</p>",
+        "ledtrad": "<p>\\(\\lambda=\\dfrac{\\lambda_0}{n}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken frekvens har ljuset i vätskan?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 650 nm i vakuum träffar en vätska med brytningsindex 1,47. Infallsvinkeln är 25,0°.</p><p>Vilken frekvens har ljuset i vätskan?</p>",
+        "s": "<p>\\(f=\\dfrac{3{,}00\\cdot10^8}{650\\cdot10^{-9}}\\).</p><p><strong>Svar:</strong> \\(462\\) THz</p>",
+        "ledtrad": "<p>Frekvensen är densamma som i vakuum.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor blir brytningsvinkeln?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med våglängden 650 nm i vakuum träffar en vätska med brytningsindex 1,47. Infallsvinkeln är 25,0°.</p><p>Hur stor blir brytningsvinkeln?</p>",
+        "s": "<p>\\(\\sin\\alpha_2=\\dfrac{\\sin25{,}0^\\circ}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(16{,}7\\) °</p>",
+        "ledtrad": "<p>\\(n_1\\sin\\alpha_1=n_2\\sin\\alpha_2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Frekvensen ändras inte när ljuset byter material.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "ljus från glas till luft",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med frekvensen \\(5{,}80\\cdot10^{14}\\) Hz går från glas med brytningsindex 1,52 till luft. Infallsvinkeln är 30,0°.</p><ol type=\"a\"><li>Hur stor är ljusets våglängd i glaset?</li><li>Hur stor är ljusets våglängd i luft?</li><li>Hur stor blir brytningsvinkeln?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{v}{f}=\\dfrac{3{,}00\\cdot10^8}{1{,}52\\cdot5{,}80\\cdot10^{14}}\\).</p><p><strong>Svar:</strong> \\(340\\) nm</p></li><li><p>\\(\\lambda=\\dfrac{3{,}00\\cdot10^8}{5{,}80\\cdot10^{14}}\\).</p><p><strong>Svar:</strong> \\(517\\) nm</p></li><li><p>\\(\\sin\\alpha_2=1{,}52\\sin30{,}0^\\circ=0{,}760\\).</p><p><strong>Svar:</strong> \\(49{,}5\\) °</p></li></ol>",
+    "id": "4.381",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      340.2903811252269,
+      517.2413793103448,
+      49.46419788868344
+    ],
+    "tolerans": [
+      5.1,
+      7.76,
+      0.742
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "nm",
+      "nm",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med frekvensen \\(5{,}80\\cdot10^{14}\\) Hz går från glas med brytningsindex 1,52 till luft. Infallsvinkeln är 30,0°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är ljusets våglängd i glaset?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med frekvensen \\(5{,}80\\cdot10^{14}\\) Hz går från glas med brytningsindex 1,52 till luft. Infallsvinkeln är 30,0°.</p><p>Hur stor är ljusets våglängd i glaset?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{v}{f}=\\dfrac{3{,}00\\cdot10^8}{1{,}52\\cdot5{,}80\\cdot10^{14}}\\).</p><p><strong>Svar:</strong> \\(340\\) nm</p>",
+        "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är ljusets våglängd i luft?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med frekvensen \\(5{,}80\\cdot10^{14}\\) Hz går från glas med brytningsindex 1,52 till luft. Infallsvinkeln är 30,0°.</p><p>Hur stor är ljusets våglängd i luft?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{3{,}00\\cdot10^8}{5{,}80\\cdot10^{14}}\\).</p><p><strong>Svar:</strong> \\(517\\) nm</p>",
+        "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor blir brytningsvinkeln?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus med frekvensen \\(5{,}80\\cdot10^{14}\\) Hz går från glas med brytningsindex 1,52 till luft. Infallsvinkeln är 30,0°.</p><p>Hur stor blir brytningsvinkeln?</p>",
+        "s": "<p>\\(\\sin\\alpha_2=1{,}52\\sin30{,}0^\\circ=0{,}760\\).</p><p><strong>Svar:</strong> \\(49{,}5\\) °</p>",
+        "ledtrad": "<p>\\(n_1\\sin\\alpha_1=n_2\\sin\\alpha_2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "ljus ut ur kvartskristall",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus har hastigheten \\(1{,}94\\cdot10^8\\) m/s och våglängden 355 nm i en kvartskristall. Ljuset går från kristallen ut i luft, och brytningsvinkeln är 50,0°.</p><ol type=\"a\"><li>Beräkna kvartskristallens brytningsindex.</li><li>Beräkna ljusets våglängd i luft.</li><li>Beräkna infallsvinkeln i kristallen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(n=\\dfrac{3{,}00\\cdot10^8}{1{,}94\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(1{,}55\\)</p></li><li><p>\\(\\lambda_0=n\\lambda=1{,}546\\cdot355\\) nm. Det är synligt (grönt) ljus.</p><p><strong>Svar:</strong> \\(549\\) nm</p></li><li><p>\\(\\sin\\alpha_1=\\dfrac{\\sin50{,}0^\\circ}{1{,}546}\\).</p><p><strong>Svar:</strong> \\(29{,}7\\) °</p></li></ol>",
+    "id": "4.382",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5463917525773196,
+      548.9690721649484,
+      29.694508115394555
+    ],
+    "tolerans": [
+      0.0232,
+      8.23,
+      0.445
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "nm",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus har hastigheten \\(1{,}94\\cdot10^8\\) m/s och våglängden 355 nm i en kvartskristall. Ljuset går från kristallen ut i luft, och brytningsvinkeln är 50,0°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna kvartskristallens brytningsindex.",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus har hastigheten \\(1{,}94\\cdot10^8\\) m/s och våglängden 355 nm i en kvartskristall. Ljuset går från kristallen ut i luft, och brytningsvinkeln är 50,0°.</p><p>Beräkna kvartskristallens brytningsindex.</p>",
+        "s": "<p>\\(n=\\dfrac{3{,}00\\cdot10^8}{1{,}94\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(1{,}55\\)</p>",
+        "ledtrad": "<p>\\(n=\\dfrac cv\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna ljusets våglängd i luft.",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus har hastigheten \\(1{,}94\\cdot10^8\\) m/s och våglängden 355 nm i en kvartskristall. Ljuset går från kristallen ut i luft, och brytningsvinkeln är 50,0°.</p>Kristallens brytningsindex är 1,546.<p>Beräkna ljusets våglängd i luft.</p>",
+        "s": "<p>\\(\\lambda_0=n\\lambda=1{,}546\\cdot355\\) nm. Det är synligt (grönt) ljus.</p><p><strong>Svar:</strong> \\(549\\) nm</p>",
+        "ledtrad": "<p>\\(\\lambda_0=n\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna infallsvinkeln i kristallen.",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ljus har hastigheten \\(1{,}94\\cdot10^8\\) m/s och våglängden 355 nm i en kvartskristall. Ljuset går från kristallen ut i luft, och brytningsvinkeln är 50,0°.</p>Kristallens brytningsindex är 1,546.<p>Beräkna infallsvinkeln i kristallen.</p>",
+        "s": "<p>\\(\\sin\\alpha_1=\\dfrac{\\sin50{,}0^\\circ}{1{,}546}\\).</p><p><strong>Svar:</strong> \\(29{,}7\\) °</p>",
+        "ledtrad": "<p>\\(n_1\\sin\\alpha_1=n_2\\sin\\alpha_2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(n=\\dfrac cv\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "vinklar mot ytan",
+    "poang": "(2/0/0)",
+    "t": "<p>En ljusstråle i luft träffar en plan glasyta med infallsvinkeln 47,5°. Glaset har brytningsindex 1,66.</p><ol type=\"a\"><li>Bestäm vinkeln mellan glasytan och den reflekterade strålen.</li><li>Bestäm vinkeln mellan glasytan och den brutna strålen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Reflektionsvinkeln är 47,5° mot normalen, alltså \\(90^\\circ-47{,}5^\\circ\\) mot ytan.</p><p><strong>Svar:</strong> \\(42{,}5\\) °</p></li><li><p>\\(\\sin\\alpha_2=\\dfrac{\\sin47{,}5^\\circ}{1{,}66}\\iff\\alpha_2\\approx26{,}4^\\circ\\). Mot ytan: \\(90^\\circ-26{,}4^\\circ\\).</p><p><strong>Svar:</strong> \\(63{,}6\\) °</p></li></ol>",
+    "id": "4.383",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      42.5,
+      63.63148048079741
+    ],
+    "tolerans": [
+      0.637,
+      0.954
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En ljusstråle i luft träffar en plan glasyta med infallsvinkeln 47,5°. Glaset har brytningsindex 1,66.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vinkeln mellan glasytan och den reflekterade strålen.",
+        "t": "<p>En ljusstråle i luft träffar en plan glasyta med infallsvinkeln 47,5°. Glaset har brytningsindex 1,66.</p><p>Bestäm vinkeln mellan glasytan och den reflekterade strålen.</p>",
+        "s": "<p>Reflektionsvinkeln är 47,5° mot normalen, alltså \\(90^\\circ-47{,}5^\\circ\\) mot ytan.</p><p><strong>Svar:</strong> \\(42{,}5\\) °</p>",
+        "ledtrad": "<p>Normalen är vinkelrät mot ytan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm vinkeln mellan glasytan och den brutna strålen.",
+        "t": "<p>En ljusstråle i luft träffar en plan glasyta med infallsvinkeln 47,5°. Glaset har brytningsindex 1,66.</p><p>Bestäm vinkeln mellan glasytan och den brutna strålen.</p>",
+        "s": "<p>\\(\\sin\\alpha_2=\\dfrac{\\sin47{,}5^\\circ}{1{,}66}\\iff\\alpha_2\\approx26{,}4^\\circ\\). Mot ytan: \\(90^\\circ-26{,}4^\\circ\\).</p><p><strong>Svar:</strong> \\(63{,}6\\) °</p>",
+        "ledtrad": "<p>Bestäm brytningsvinkeln och räkna om till vinkel mot ytan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Vinklar i brytningslagen mäts mot normalen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "brytningsindex ur tidsskillnad",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En laserstråle delas i två strålar som går lika långt till en detektor. Den ena går 2,50 m genom en glasstav, den andra bara genom luft. Tidsskillnaden är 6,25 ns. Vilket brytningsindex har glaset?</p>",
+    "s": "<p>\\(\\Delta t=\\dfrac{L(n-1)}{c}\\iff n=1+\\dfrac{3{,}00\\cdot10^8\\cdot6{,}25\\cdot10^{-9}}{2{,}50}\\).</p><p><strong>Svar:</strong> \\(1{,}75\\) </p>",
+    "id": "4.384",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.75,
+    "tolerans": 0.0262,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Teckna tiderna i glas och i luft.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "ljushastighet i plast",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En stråle går från luft in i plast. Infallsvinkeln är 62,7° och brytningsvinkeln 48,1°. Beräkna ljusets hastighet i plasten.</p>",
+    "s": "<p>\\(n=\\dfrac{\\sin62{,}7^\\circ}{\\sin48{,}1^\\circ}\\approx1{,}194\\), \\(v=\\dfrac cn\\).</p><p><strong>Svar:</strong> \\(2{,}51\\cdot10^{8}\\) m/s</p>",
+    "id": "4.385",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 251281941.94727185,
+    "tolerans": 3770000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först brytningsindex.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "solljus i vattentank",
+    "poang": "(0/2/0)",
+    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En cylindrisk tank med radien 1,50 m är fylld till kanten med vatten. När solen står 28,0° över horisonten når solljuset precis ned till tankens botten, i hörnet längst bort från solen. Hur djup är tanken?</p>",
+    "s": "<p>Infallsvinkel: \\(90^\\circ-28{,}0^\\circ=62{,}0^\\circ\\). \\(\\sin\\alpha_2=\\dfrac{\\sin62{,}0^\\circ}{1{,}33}\\iff\\alpha_2\\approx41{,}6^\\circ\\).</p><p>Strålen som går in vid tankens närmaste kant ska nå bortre hörnet, 3,00 m bort i sidled: \\(h=\\dfrac{3{,}00}{\\tan41{,}6^\\circ}\\).</p><p><strong>Svar:</strong> \\(3{,}38\\) m</p>",
+    "id": "4.386",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.3794895758677694,
+    "tolerans": 0.0507,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rita strålen som går in vid kanten närmast solen.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "brytningsindex ur olja till vätska",
+    "poang": "(1/0/0)",
+    "t": "<p>Olja med brytningsindex 1,45 flyter på en okänd vätska. En stråle går från oljan ned i vätskan med infallsvinkeln 64,0° och brytningsvinkeln 53,0°. Bestäm vätskans brytningsindex.</p>",
+    "s": "<p>\\(n_2=\\dfrac{1{,}45\\sin64{,}0^\\circ}{\\sin53{,}0^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}63\\) </p>",
+    "id": "4.387",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.6318475083290718,
+    "tolerans": 0.0245,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(n_1\\sin\\alpha_1=n_2\\sin\\alpha_2\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "is jämfört med vatten",
+    "poang": "(1/1/0)",
+    "t": "<p>En ljusstråle träffar ett isblock (brytningsindex 1,309) med infallsvinkeln 60,0°. Isen smälter till vatten (1,33) och infallsvinkeln är densamma. Hur mycket mindre blir brytningsvinkeln i vattnet än i isen?</p>",
+    "s": "<p>Is: \\(\\sin\\alpha=\\dfrac{\\sin60{,}0^\\circ}{1{,}309}\\iff\\alpha\\approx41{,}42^\\circ\\). Vatten: \\(\\sin\\alpha=\\dfrac{\\sin60{,}0^\\circ}{1{,}33}\\iff\\alpha\\approx40{,}63^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}79\\) °</p>",
+    "id": "4.388",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.7933565604940185,
+    "tolerans": 0.0119,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna ut båda brytningsvinklarna med flera decimaler.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "laser mot sjöbotten",
+    "poang": "(2/1/0)",
+    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En laser riktas mot en sjö med infallsvinkeln 55° mot punkten A på ytan. Sjön är 3,0 m djup. Punkten B ligger på botten rakt under A.</p><ol type=\"a\"><li>Hur långt från B skulle strålen träffa om den inte bröts?</li><li>Hur långt från B träffar strålen när brytningen tas med?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(3{,}0\\tan55^\\circ\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) m</p></li><li><p>\\(\\sin\\alpha_2=\\dfrac{\\sin55^\\circ}{1{,}33}\\iff\\alpha_2\\approx38{,}0^\\circ\\). Avstånd: \\(3{,}0\\tan38{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m</p></li></ol>",
+    "id": "4.389",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.284444020226343,
+      2.3453430407845417
+    ],
+    "tolerans": [0.0643, 0.051],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Vatten har brytningsindex 1,33.</p><p>En laser riktas mot en sjö med infallsvinkeln 55° mot punkten A på ytan. Sjön är 3,0 m djup. Punkten B ligger på botten rakt under A.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt från B skulle strålen träffa om den inte bröts?",
+        "t": "<p>Vatten har brytningsindex 1,33.</p><p>En laser riktas mot en sjö med infallsvinkeln 55° mot punkten A på ytan. Sjön är 3,0 m djup. Punkten B ligger på botten rakt under A.</p><p>Hur långt från B skulle strålen träffa om den inte bröts?</p>",
+        "s": "<p>\\(3{,}0\\tan55^\\circ\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) m</p>",
+        "ledtrad": "<p>Strålen fortsätter rakt fram.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt från B träffar strålen när brytningen tas med?",
+        "t": "<p>Vatten har brytningsindex 1,33.</p><p>En laser riktas mot en sjö med infallsvinkeln 55° mot punkten A på ytan. Sjön är 3,0 m djup. Punkten B ligger på botten rakt under A.</p><p>Hur långt från B träffar strålen när brytningen tas med?</p>",
+        "s": "<p>\\(\\sin\\alpha_2=\\dfrac{\\sin55^\\circ}{1{,}33}\\iff\\alpha_2\\approx38{,}0^\\circ\\). Avstånd: \\(3{,}0\\tan38{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m</p>",
+        "ledtrad": "<p>Bestäm brytningsvinkeln först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Rita en figur med normalen genom A.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "planparallell glasskiva",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En 2,00 cm tjock plan glasskiva med brytningsindex 1,50 träffas av en ljusstråle med infallsvinkeln 30,0°. Efter skivan är strålen parallellförskjuten sträckan \\(d\\) i förhållande till den infallande strålen.</p><ol type=\"a\"><li>Beräkna \\(d\\), mätt vinkelrätt mot strålen.</li><li>Hur lång tid tar det för ljuset att passera glasskivan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\sin\\beta=\\dfrac{\\sin30{,}0^\\circ}{1{,}50}\\iff\\beta\\approx19{,}47^\\circ\\). Vägen i glaset: \\(\\dfrac{2{,}00}{\\cos\\beta}\\).</p><p>\\(d=\\dfrac{2{,}00}{\\cos\\beta}\\sin(30{,}0^\\circ-\\beta)\\).</p><p><strong>Svar:</strong> \\(0{,}388\\) cm</p></li><li><p>Vägen: \\(\\dfrac{0{,}0200}{\\cos19{,}47^\\circ}\\approx0{,}0212\\) m. \\(t=\\dfrac{1{,}50\\cdot0{,}0212}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(106\\) ps</p></li></ol>",
+    "id": "4.390",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.3876275643042054,
+      106.06601717798212
+    ],
+    "tolerans": [
+      0.00581,
+      1.59
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "cm",
+      "ps"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En 2,00 cm tjock plan glasskiva med brytningsindex 1,50 träffas av en ljusstråle med infallsvinkeln 30,0°. Efter skivan är strålen parallellförskjuten sträckan \\(d\\) i förhållande till den infallande strålen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna \\(d\\), mätt vinkelrätt mot strålen.",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En 2,00 cm tjock plan glasskiva med brytningsindex 1,50 träffas av en ljusstråle med infallsvinkeln 30,0°. Efter skivan är strålen parallellförskjuten sträckan \\(d\\) i förhållande till den infallande strålen.</p><p>Beräkna \\(d\\), mätt vinkelrätt mot strålen.</p>",
+        "s": "<p>\\(\\sin\\beta=\\dfrac{\\sin30{,}0^\\circ}{1{,}50}\\iff\\beta\\approx19{,}47^\\circ\\). Vägen i glaset: \\(\\dfrac{2{,}00}{\\cos\\beta}\\).</p><p>\\(d=\\dfrac{2{,}00}{\\cos\\beta}\\sin(30{,}0^\\circ-\\beta)\\).</p><p><strong>Svar:</strong> \\(0{,}388\\) cm</p>",
+        "ledtrad": "<p>Rita triangeln med strålens väg i glaset som hypotenusa.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det för ljuset att passera glasskivan?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En 2,00 cm tjock plan glasskiva med brytningsindex 1,50 träffas av en ljusstråle med infallsvinkeln 30,0°. Efter skivan är strålen parallellförskjuten sträckan \\(d\\) i förhållande till den infallande strålen.</p><p>Hur lång tid tar det för ljuset att passera glasskivan?</p>",
+        "s": "<p>Vägen: \\(\\dfrac{0{,}0200}{\\cos19{,}47^\\circ}\\approx0{,}0212\\) m. \\(t=\\dfrac{1{,}50\\cdot0{,}0212}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(106\\) ps</p>",
+        "ledtrad": "<p>Strålen går snett genom skivan.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Bestäm brytningsvinkeln först.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "brytningsindex ur vinklar",
+    "poang": "(1/0/0)",
+    "t": "<p>En ljusstråle går från luft in i ett okänt medium. Infallsvinkeln är 63,0° och brytningsvinkeln 47,0°. Beräkna mediets brytningsindex.</p>",
+    "s": "<p>\\(n=\\dfrac{\\sin63{,}0^\\circ}{\\sin47{,}0^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}22\\) </p>",
+    "id": "4.391",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.218297688540765,
+    "tolerans": 0.0183,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(n_1\\sin\\alpha_1=n_2\\sin\\alpha_2\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "olja som ger totalreflektion",
+    "poang": "(0/1/0)",
+    "t": "<p>En ljusstråle i glas (brytningsindex 1,52) träffar glasets yta med infallsvinkeln 57,2°. Man lägger ett tunt lager olja på glaset. Vilket är det största brytningsindex oljan kan ha om strålen ska totalreflekteras?</p>",
+    "s": "<p>Totalreflektion kräver att \\(1{,}52\\sin57{,}2^\\circ\\ge n\\), alltså \\(n\\le1{,}52\\sin57{,}2^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}28\\) </p>",
+    "id": "4.392",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2776612373134402,
+    "tolerans": 0.0192,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid gränsvinkeln blir brytningsvinkeln 90°.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "mynt i fyllt glas",
+    "poang": "(0/1/1)",
+    "t": "<p>Du tittar över kanten på ett tomt cylindriskt glas så att du precis ser bortre kanten av bottnen. Glaset är 16,0 cm högt och 8,0 cm i diameter. En kompis fyller glaset med en genomskinlig vätska utan att du flyttar ögonen. När glaset är fullt ser du precis ett mynt mitt på bottnen. Beräkna vätskans brytningsindex.</p>",
+    "s": "<p>Siktlinjen: \\(\\tan\\alpha_1=\\dfrac{8{,}0}{16{,}0}\\iff\\alpha_1\\approx26{,}6^\\circ\\). I vätskan: \\(\\tan\\alpha_2=\\dfrac{4{,}0}{16{,}0}\\iff\\alpha_2\\approx14{,}0^\\circ\\).</p><p>\\(n=\\dfrac{\\sin26{,}6^\\circ}{\\sin14{,}0^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) </p>",
+    "id": "4.393",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.8439088914585775,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Strålen bryts vid glasets kant. Rita båda strålgångarna.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "gränsvinkel mellan vatten och is",
+    "poang": "(2/1/0)",
+    "t": "<p>Ett tunt lager is (brytningsindex 1,309) har bildats på vattnet (1,333) i en hink. Ljus inifrån hinken går uppåt mot isen.</p><ol type=\"a\"><li>Hur stor är den största infallsvinkel ljuset kan ha i vattnet och ändå gå in i isen?</li><li>Isen smälter. Hur stor är nu gränsvinkeln när ljuset går från vattnet mot luften?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\sin\\alpha_g=\\dfrac{1{,}309}{1{,}333}\\).</p><p><strong>Svar:</strong> \\(79{,}1\\) °</p></li><li><p>\\(\\sin\\alpha_g=\\dfrac{1}{1{,}333}\\).</p><p><strong>Svar:</strong> \\(48{,}6\\) °</p></li></ol>",
+    "id": "4.394",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      79.11115182065015,
+      48.60662639169028
+    ],
+    "tolerans": [
+      1.19,
+      0.729
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett tunt lager is (brytningsindex 1,309) har bildats på vattnet (1,333) i en hink. Ljus inifrån hinken går uppåt mot isen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är den största infallsvinkel ljuset kan ha i vattnet och ändå gå in i isen?",
+        "t": "<p>Ett tunt lager is (brytningsindex 1,309) har bildats på vattnet (1,333) i en hink. Ljus inifrån hinken går uppåt mot isen.</p><p>Hur stor är den största infallsvinkel ljuset kan ha i vattnet och ändå gå in i isen?</p>",
+        "s": "<p>\\(\\sin\\alpha_g=\\dfrac{1{,}309}{1{,}333}\\).</p><p><strong>Svar:</strong> \\(79{,}1\\) °</p>",
+        "ledtrad": "<p>Det är gränsvinkeln för totalreflektion.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Isen smälter. Hur stor är nu gränsvinkeln när ljuset går från vattnet mot luften?",
+        "t": "<p>Ett tunt lager is (brytningsindex 1,309) har bildats på vattnet (1,333) i en hink. Ljus inifrån hinken går uppåt mot isen.</p><p>Isen smälter. Hur stor är nu gränsvinkeln när ljuset går från vattnet mot luften?</p>",
+        "s": "<p>\\(\\sin\\alpha_g=\\dfrac{1}{1{,}333}\\).</p><p><strong>Svar:</strong> \\(48{,}6\\) °</p>",
+        "ledtrad": "<p>\\(\\sin\\alpha_g=\\dfrac{n_2}{n_1}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\sin\\alpha_g=\\dfrac{n_2}{n_1}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "vätska på prismats hypotenusa",
+    "poang": "(0/2/0)",
+    "t": "<p>Ett prisma med vinklarna 30°, 60° och 90° har brytningsindex 1,62. Ljus faller in vinkelrätt mot den kortaste kateten och träffar sedan hypotenusan. Ett tunt lager vätska ligger på hypotenusan. Vilket är det största brytningsindex vätskan kan ha om ljuset ska totalreflekteras mot hypotenusan?</p>",
+    "s": "<p>Strålen går parallellt med den långa kateten och träffar hypotenusan med infallsvinkeln 60°.</p><p>\\(n\\le1{,}62\\sin60^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}40\\) </p>",
+    "id": "4.395",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4029611541307907,
+    "tolerans": 0.021,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm infallsvinkeln mot hypotenusan med geometri.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "gasens brytningsindex i tank",
+    "poang": "(0/1/1)",
+    "t": "<span class=\"fig\"><svg width=\"300\" height=\"215\" viewBox=\"0 0 300 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tvärsnitt av en liggande cylindrisk tank. Nedre halvan är fylld med vatten och övre halvan med gas. En laser på tankens vägg, sträckan S från lägsta punkten räknat längs väggen, riktas mot tankens mittpunkt på vattenytan.\"><path d=\"M65,110 A85,85 0 0,0 235,110 Z\" fill=\"#5aa0e6\" fill-opacity=\"0.45\"/><circle cx=\"150\" cy=\"110\" r=\"85\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"110\" x2=\"235\" y2=\"110\" stroke=\"#2f78c4\" stroke-width=\"1.2\"/><line x1=\"78.9\" y1=\"156.6\" x2=\"150\" y2=\"110\" stroke=\"#d9480f\" stroke-width=\"2\"/><circle cx=\"78.9\" cy=\"156.6\" r=\"4\" fill=\"#d9480f\"/><path d=\"M150,204 A94,94 0 0,1 71.4,161.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"97.2\" y=\"207.7\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">S</text><circle cx=\"150\" cy=\"110\" r=\"2.5\" fill=\"currentColor\"/><text x=\"190\" y=\"80\" font-size=\"12\" fill=\"currentColor\">gas</text><text x=\"180\" y=\"150\" font-size=\"12\" fill=\"currentColor\">vatten</text></svg></span><p>Vatten har brytningsindex 1,33.</p><p>En liggande cylindrisk tank med diametern 2,20 m är halvfull med vatten. Ovanför vattnet finns en gas. En laser på tankens vägg skickar en stråle genom vattnet mot tankens mittpunkt, mitt på vattenytan. Lasern flyttas längs väggen från tankens lägsta punkt. När den har flyttats sträckan \\(S=1{,}09\\) m (längs cirkelbågen) börjar strålen totalreflekteras. Bestäm gasens brytningsindex.</p>",
+    "s": "<p>Strålen går längs en radie, så den bryts inte vid väggen. Infallsvinkeln mot vattenytan är medelpunktsvinkeln \\(\\dfrac{S}{r}=\\dfrac{1{,}09}{1{,}10}\\approx0{,}991\\) rad \\(\\approx56{,}8^\\circ\\).</p><p>Gränsvinkeln: \\(n_{gas}=1{,}33\\sin56{,}8^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}11\\) </p>",
+    "id": "4.396",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.112577507900861,
+    "tolerans": 0.0167,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken vinkel bildar strålen med vattenytans normal?</p>",
+    "traningsniva": 4,
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "reflektionsvinkel i glas",
+    "poang": "(1/1/0)",
+    "t": "<p>En ljusstråle går från glas (brytningsindex 1,52) till vatten (1,33). Den både bryts och reflekteras. Brytningsvinkeln i vattnet är 19,6°. Bestäm reflektionsvinkeln.</p>",
+    "s": "<p>\\(1{,}52\\sin\\alpha_1=1{,}33\\sin19{,}6^\\circ\\). Reflektionsvinkeln är lika stor som infallsvinkeln.</p><p><strong>Svar:</strong> \\(17{,}1\\) °</p>",
+    "id": "4.397",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17.06881870015485,
+    "tolerans": 0.256,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm infallsvinkeln.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "E",
+    "typ": "brytningsindex för sirap",
+    "poang": "(5/0/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En laserstråle med våglängden 632,8 nm går från luft ned i sirap. Med infallsvinkeln 30,0° blir brytningsvinkeln 19,24°.</p><ol type=\"a\"><li>Bestäm sirapens brytningsindex.</li><li>Hur stor blir brytningsvinkeln om infallsvinkeln är 42,0°?</li><li>Hur stor är infallsvinkeln om brytningsvinkeln är 9,80°?</li><li>Bestäm ljusets frekvens.</li><li>Bestäm ljusets hastighet i sirapen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(n=\\dfrac{\\sin30{,}0^\\circ}{\\sin19{,}24^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}52\\)</p></li><li><p>\\(\\sin\\alpha_2=\\dfrac{\\sin42{,}0^\\circ}{1{,}517}\\).</p><p><strong>Svar:</strong> \\(26{,}2\\) °</p></li><li><p>\\(\\sin\\alpha_1=1{,}517\\sin9{,}80^\\circ\\).</p><p><strong>Svar:</strong> \\(15{,}0\\) °</p></li><li><p>\\(f=\\dfrac{3{,}00\\cdot10^8}{632{,}8\\cdot10^{-9}}\\).</p><p><strong>Svar:</strong> \\(474\\) THz</p></li><li><p>\\(v=\\dfrac{3{,}00\\cdot10^8}{1{,}517}\\).</p><p><strong>Svar:</strong> \\(1{,}98\\cdot10^{8}\\) m/s</p></li></ol>",
+    "id": "4.398",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5173315729056156,
+      26.167171641419728,
+      14.967093601185937,
+      474.08343868520865,
+      197715519.3742622
+    ],
+    "tolerans": [
+      0.0228,
+      0.393,
+      0.225,
+      7.11,
+      2970000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "svarEnhet": [
+      null,
+      "°",
+      "°",
+      "THz",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En laserstråle med våglängden 632,8 nm går från luft ned i sirap. Med infallsvinkeln 30,0° blir brytningsvinkeln 19,24°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm sirapens brytningsindex.",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En laserstråle med våglängden 632,8 nm går från luft ned i sirap. Med infallsvinkeln 30,0° blir brytningsvinkeln 19,24°.</p><p>Bestäm sirapens brytningsindex.</p>",
+        "s": "<p>\\(n=\\dfrac{\\sin30{,}0^\\circ}{\\sin19{,}24^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}52\\)</p>",
+        "ledtrad": "<p>Brytningslagen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor blir brytningsvinkeln om infallsvinkeln är 42,0°?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En laserstråle med våglängden 632,8 nm går från luft ned i sirap. Med infallsvinkeln 30,0° blir brytningsvinkeln 19,24°.</p>Sirapen har brytningsindex 1,517.<p>Hur stor blir brytningsvinkeln om infallsvinkeln är 42,0°?</p>",
+        "s": "<p>\\(\\sin\\alpha_2=\\dfrac{\\sin42{,}0^\\circ}{1{,}517}\\).</p><p><strong>Svar:</strong> \\(26{,}2\\) °</p>",
+        "ledtrad": "<p>Använd brytningsindex från a.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är infallsvinkeln om brytningsvinkeln är 9,80°?",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En laserstråle med våglängden 632,8 nm går från luft ned i sirap. Med infallsvinkeln 30,0° blir brytningsvinkeln 19,24°.</p>Sirapen har brytningsindex 1,517.<p>Hur stor är infallsvinkeln om brytningsvinkeln är 9,80°?</p>",
+        "s": "<p>\\(\\sin\\alpha_1=1{,}517\\sin9{,}80^\\circ\\).</p><p><strong>Svar:</strong> \\(15{,}0\\) °</p>",
+        "ledtrad": "<p>Lös ut infallsvinkeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Bestäm ljusets frekvens.",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En laserstråle med våglängden 632,8 nm går från luft ned i sirap. Med infallsvinkeln 30,0° blir brytningsvinkeln 19,24°.</p><p>Bestäm ljusets frekvens.</p>",
+        "s": "<p>\\(f=\\dfrac{3{,}00\\cdot10^8}{632{,}8\\cdot10^{-9}}\\).</p><p><strong>Svar:</strong> \\(474\\) THz</p>",
+        "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "e",
+        "fraga": "Bestäm ljusets hastighet i sirapen.",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En laserstråle med våglängden 632,8 nm går från luft ned i sirap. Med infallsvinkeln 30,0° blir brytningsvinkeln 19,24°.</p>Sirapen har brytningsindex 1,517.<p>Bestäm ljusets hastighet i sirapen.</p>",
+        "s": "<p>\\(v=\\dfrac{3{,}00\\cdot10^8}{1{,}517}\\).</p><p><strong>Svar:</strong> \\(1{,}98\\cdot10^{8}\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Börja med brytningsindex.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "höjd på glasskål",
+    "poang": "(0/1/2)",
+    "t": "<span class=\"fig\"><svg width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En låg skål sedd från sidan, bredd 4,0 cm och okänd höjd h. Ett öga tittar snett över skålens närmaste kant. Den streckade siktlinjen går över kanten till bortre hörnet av botten.\"><rect x=\"120\" y=\"70\" width=\"160\" height=\"94\" fill=\"#5aa0e6\" fill-opacity=\"0.25\" stroke=\"none\"/><polyline points=\"120,70 120,164 280,164 280,70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"32.0\" y1=\"18.3\" x2=\"280\" y2=\"164\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><ellipse cx=\"32.0\" cy=\"18.3\" rx=\"9\" ry=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><circle cx=\"32.0\" cy=\"18.3\" r=\"2.3\" fill=\"currentColor\"/><circle cx=\"200.0\" cy=\"164\" r=\"3\" fill=\"#d9480f\"/><text x=\"200.0\" y=\"182\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">4,0 cm</text><text x=\"288\" y=\"121.0\" font-size=\"13\" fill=\"currentColor\">h</text></svg></span><p>Vatten har brytningsindex 1,33.</p><p>En låg cylindrisk skål har diametern 4,0 cm. En betraktare tittar snett över skålens närmaste kant och ser precis bortre kanten av den tomma skålens botten. När skålen fylls med vatten till kanten ser betraktaren i stället precis mitten av bottnen, utan att flytta ögonen. Hur hög är skålen?</p>",
+    "s": "<p>Med höjden \\(h\\) (cm): \\(\\sin\\alpha_1=\\dfrac{4{,}0}{\\sqrt{4{,}0^2+h^2}}\\) och \\(\\sin\\alpha_2=\\dfrac{2{,}0}{\\sqrt{2{,}0^2+h^2}}\\).</p><p>\\(\\sin\\alpha_1=1{,}33\\sin\\alpha_2\\). Kvadrera och lös ut \\(h\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) cm</p>",
+    "id": "4.399",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.348201730004605,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck sinus för vinklarna med höjden \\(h\\).</p>",
+    "traningsniva": 5,
+    "svarEnhet": "cm",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "solens verkliga höjd",
+    "poang": "(0/2/0)",
+    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En dykare under vattnet tycker att solen står 45,0° över horisonten. Hur högt över horisonten står solen egentligen?</p>",
+    "s": "<p>I vattnet bildar strålen 45,0° med normalen. \\(\\sin\\alpha_1=1{,}33\\sin45{,}0^\\circ\\iff\\alpha_1\\approx70{,}1^\\circ\\) mot normalen.</p><p>Över horisonten: \\(90^\\circ-70{,}1^\\circ\\).</p><p><strong>Svar:</strong> \\(19{,}9\\) °</p>",
+    "id": "4.400",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 19.872393841342898,
+    "tolerans": 0.298,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ögat placerar solen längs strålen i vattnet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "skenbart djup",
+    "poang": "(0/1/1)",
+    "t": "<p>Vatten har brytningsindex 1,33.</p><p>Nycklar ligger på botten av en 2,0 m djup bassäng. Du tittar nästan rakt ned på dem. Hur djupt ser de ut att ligga?</p>",
+    "s": "<p>För små vinklar är \\(\\sin\\alpha\\approx\\tan\\alpha\\), så det skenbara djupet blir \\(\\dfrac{2{,}0}{1{,}33}\\).</p><p><strong>Svar:</strong> \\(1{,}50\\) m</p>",
+    "id": "4.401",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5037593984962405,
+    "tolerans": 0.0226,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd att \\(\\sin\\alpha\\approx\\tan\\alpha\\) för små vinklar.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "laser genom is och vatten",
+    "poang": "(0/2/0)",
+    "t": "<p>En sjö har 25 cm tjock is (brytningsindex 1,309) och därunder 1,10 m vatten (1,333). En laser träffar punkten A på isen med infallsvinkeln 30°. Den ger en ljuspunkt B på botten. Hur långt är det i sidled mellan A och B?</p>",
+    "s": "<p>I isen: \\(\\sin\\alpha=\\dfrac{\\sin30^\\circ}{1{,}309}\\iff\\alpha\\approx22{,}5^\\circ\\). I vattnet: \\(\\sin\\alpha=\\dfrac{\\sin30^\\circ}{1{,}333}\\iff\\alpha\\approx22{,}0^\\circ\\).</p><p>\\(0{,}25\\tan22{,}5^\\circ+1{,}10\\tan22{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}55\\) m</p>",
+    "id": "4.402",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5484290260536895,
+    "tolerans": 0.00823,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna isen och vattnet för sig.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "fisk under ytan",
+    "poang": "(0/2/0)",
+    "t": "<p>Vatten har brytningsindex 1,33.</p><p>Du står i vatten och tittar på en fisk. Dina ögon är 0,52 m över ytan och fisken är 0,65 m under ytan. Din siktlinje mot fisken bildar 45° med vattenytan. Hur långt bort är fisken i horisontell led?</p>",
+    "s": "<p>Över ytan: \\(0{,}52\\) m i sidled. I vattnet: \\(\\sin\\alpha_2=\\dfrac{\\sin45^\\circ}{1{,}33}\\iff\\alpha_2\\approx32{,}1^\\circ\\), så \\(0{,}65\\tan32{,}1^\\circ\\approx0{,}41\\) m.</p><p><strong>Svar:</strong> \\(0{,}93\\) m</p>",
+    "id": "4.403",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.9280230144991121,
+    "tolerans": 0.0139,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp strålen i en del i luft och en del i vatten.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "infallsvinkel ur deviation",
+    "poang": "(0/1/1)",
+    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En stråle går från luft ned i vatten. Vinkeln mellan den brutna strålen och den infallande strålens förlängning (deviationen) är 10,0°. Hur stor är infallsvinkeln?</p>",
+    "s": "<p>\\(\\sin i=1{,}33\\sin(i-10{,}0^\\circ)\\). Lös ekvationen grafiskt eller numeriskt.</p><p><strong>Svar:</strong> \\(36{,}7\\) °</p>",
+    "id": "4.404",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 36.70457864347342,
+    "tolerans": 0.551,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Brytningsvinkeln är \\(i-10{,}0^\\circ\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "stråle genom liksidigt prisma",
+    "poang": "(2/1/1)",
+    "t": "<span class=\"fig\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 360 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett liksidigt prisma med toppvinkeln 60°. En ljusstråle i luft träffar den vänstra ytan med infallsvinkeln 30,0° mot normalen, bryts in i prismat och går ut genom den högra ytan.\"><polygon points=\"60.0,190.0 260.0,190.0 160.0,16.8\" fill=\"#5aa0e6\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"62.4\" y1=\"75.9\" x2=\"149.0\" y2=\"125.9\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"15.0\" y1=\"103.4\" x2=\"110.0\" y2=\"103.4\" stroke=\"#d9480f\" stroke-width=\"2\"/><polygon points=\"70.0,99.4 80.0,103.4 70.0,107.4\" fill=\"#d9480f\"/><line x1=\"110.0\" y1=\"103.4\" x2=\"221.1\" y2=\"122.6\" stroke=\"#d9480f\" stroke-width=\"2\"/><line x1=\"221.1\" y1=\"122.6\" x2=\"284.0\" y2=\"172.2\" stroke=\"#d9480f\" stroke-width=\"2\"/><path d=\"M82.3,87.4 A32,32 0 0,0 78.0,103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"48.0\" y=\"93.4\" font-size=\"12\" fill=\"currentColor\">30,0°</text><text x=\"160.0\" y=\"46.8\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">60°</text><text x=\"160.0\" y=\"205\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">n = 1,45</text></svg></span><p>En ljusstråle i luft träffar ett liksidigt prisma (toppvinkel 60°) med infallsvinkeln 30,0°. Prismat har brytningsindex 1,45.</p><ol type=\"a\"><li>Beräkna brytningsvinkeln vid första ytan.</li><li>Beräkna infallsvinkeln vid andra ytan.</li><li>Beräkna brytningsvinkeln vid andra ytan.</li><li>Beräkna deviationen, alltså vinkeln mellan den infallande och den utgående strålen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\sin\\beta_1=\\dfrac{\\sin30{,}0^\\circ}{1{,}45}\\).</p><p><strong>Svar:</strong> \\(20{,}2\\) °</p></li><li><p>I ett prisma är \\(\\beta_1+i_2=60^\\circ\\), så \\(i_2=60^\\circ-20{,}2^\\circ\\).</p><p><strong>Svar:</strong> \\(39{,}8\\) °</p></li><li><p>\\(\\sin\\beta_2=1{,}45\\sin39{,}8^\\circ\\).</p><p><strong>Svar:</strong> \\(68{,}2\\) °</p></li><li><p>\\(\\delta=i_1+\\beta_2-60^\\circ=30{,}0^\\circ+68{,}2^\\circ-60^\\circ\\).</p><p><strong>Svar:</strong> \\(38{,}2\\) °</p></li></ol>",
+    "id": "4.405",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20.171271346464977,
+      39.82872865353502,
+      68.23577478428946,
+      38.23577478428946
+    ],
+    "tolerans": [
+      0.303,
+      0.597,
+      1.02,
+      0.574
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<span class=\"fig\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 360 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett liksidigt prisma med toppvinkeln 60°. En ljusstråle i luft träffar den vänstra ytan med infallsvinkeln 30,0° mot normalen, bryts in i prismat och går ut genom den högra ytan.\"><polygon points=\"60.0,190.0 260.0,190.0 160.0,16.8\" fill=\"#5aa0e6\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"62.4\" y1=\"75.9\" x2=\"149.0\" y2=\"125.9\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"15.0\" y1=\"103.4\" x2=\"110.0\" y2=\"103.4\" stroke=\"#d9480f\" stroke-width=\"2\"/><polygon points=\"70.0,99.4 80.0,103.4 70.0,107.4\" fill=\"#d9480f\"/><line x1=\"110.0\" y1=\"103.4\" x2=\"221.1\" y2=\"122.6\" stroke=\"#d9480f\" stroke-width=\"2\"/><line x1=\"221.1\" y1=\"122.6\" x2=\"284.0\" y2=\"172.2\" stroke=\"#d9480f\" stroke-width=\"2\"/><path d=\"M82.3,87.4 A32,32 0 0,0 78.0,103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"48.0\" y=\"93.4\" font-size=\"12\" fill=\"currentColor\">30,0°</text><text x=\"160.0\" y=\"46.8\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">60°</text><text x=\"160.0\" y=\"205\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">n = 1,45</text></svg></span><p>En ljusstråle i luft träffar ett liksidigt prisma (toppvinkel 60°) med infallsvinkeln 30,0°. Prismat har brytningsindex 1,45.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna brytningsvinkeln vid första ytan.",
+        "t": "<span class=\"fig\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 360 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett liksidigt prisma med toppvinkeln 60°. En ljusstråle i luft träffar den vänstra ytan med infallsvinkeln 30,0° mot normalen, bryts in i prismat och går ut genom den högra ytan.\"><polygon points=\"60.0,190.0 260.0,190.0 160.0,16.8\" fill=\"#5aa0e6\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"62.4\" y1=\"75.9\" x2=\"149.0\" y2=\"125.9\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"15.0\" y1=\"103.4\" x2=\"110.0\" y2=\"103.4\" stroke=\"#d9480f\" stroke-width=\"2\"/><polygon points=\"70.0,99.4 80.0,103.4 70.0,107.4\" fill=\"#d9480f\"/><line x1=\"110.0\" y1=\"103.4\" x2=\"221.1\" y2=\"122.6\" stroke=\"#d9480f\" stroke-width=\"2\"/><line x1=\"221.1\" y1=\"122.6\" x2=\"284.0\" y2=\"172.2\" stroke=\"#d9480f\" stroke-width=\"2\"/><path d=\"M82.3,87.4 A32,32 0 0,0 78.0,103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"48.0\" y=\"93.4\" font-size=\"12\" fill=\"currentColor\">30,0°</text><text x=\"160.0\" y=\"46.8\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">60°</text><text x=\"160.0\" y=\"205\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">n = 1,45</text></svg></span><p>En ljusstråle i luft träffar ett liksidigt prisma (toppvinkel 60°) med infallsvinkeln 30,0°. Prismat har brytningsindex 1,45.</p><p>Beräkna brytningsvinkeln vid första ytan.</p>",
+        "s": "<p>\\(\\sin\\beta_1=\\dfrac{\\sin30{,}0^\\circ}{1{,}45}\\).</p><p><strong>Svar:</strong> \\(20{,}2\\) °</p>",
+        "ledtrad": "<p>Brytningslagen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna infallsvinkeln vid andra ytan.",
+        "t": "<span class=\"fig\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 360 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett liksidigt prisma med toppvinkeln 60°. En ljusstråle i luft träffar den vänstra ytan med infallsvinkeln 30,0° mot normalen, bryts in i prismat och går ut genom den högra ytan.\"><polygon points=\"60.0,190.0 260.0,190.0 160.0,16.8\" fill=\"#5aa0e6\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"62.4\" y1=\"75.9\" x2=\"149.0\" y2=\"125.9\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"15.0\" y1=\"103.4\" x2=\"110.0\" y2=\"103.4\" stroke=\"#d9480f\" stroke-width=\"2\"/><polygon points=\"70.0,99.4 80.0,103.4 70.0,107.4\" fill=\"#d9480f\"/><line x1=\"110.0\" y1=\"103.4\" x2=\"221.1\" y2=\"122.6\" stroke=\"#d9480f\" stroke-width=\"2\"/><line x1=\"221.1\" y1=\"122.6\" x2=\"284.0\" y2=\"172.2\" stroke=\"#d9480f\" stroke-width=\"2\"/><path d=\"M82.3,87.4 A32,32 0 0,0 78.0,103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"48.0\" y=\"93.4\" font-size=\"12\" fill=\"currentColor\">30,0°</text><text x=\"160.0\" y=\"46.8\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">60°</text><text x=\"160.0\" y=\"205\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">n = 1,45</text></svg></span><p>En ljusstråle i luft träffar ett liksidigt prisma (toppvinkel 60°) med infallsvinkeln 30,0°. Prismat har brytningsindex 1,45.</p>Brytningsvinkeln vid första ytan är 20,2°.<p>Beräkna infallsvinkeln vid andra ytan.</p>",
+        "s": "<p>I ett prisma är \\(\\beta_1+i_2=60^\\circ\\), så \\(i_2=60^\\circ-20{,}2^\\circ\\).</p><p><strong>Svar:</strong> \\(39{,}8\\) °</p>",
+        "ledtrad": "<p>Normalerna och prismats sidor bildar en fyrhörning.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna brytningsvinkeln vid andra ytan.",
+        "t": "<span class=\"fig\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 360 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett liksidigt prisma med toppvinkeln 60°. En ljusstråle i luft träffar den vänstra ytan med infallsvinkeln 30,0° mot normalen, bryts in i prismat och går ut genom den högra ytan.\"><polygon points=\"60.0,190.0 260.0,190.0 160.0,16.8\" fill=\"#5aa0e6\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"62.4\" y1=\"75.9\" x2=\"149.0\" y2=\"125.9\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"15.0\" y1=\"103.4\" x2=\"110.0\" y2=\"103.4\" stroke=\"#d9480f\" stroke-width=\"2\"/><polygon points=\"70.0,99.4 80.0,103.4 70.0,107.4\" fill=\"#d9480f\"/><line x1=\"110.0\" y1=\"103.4\" x2=\"221.1\" y2=\"122.6\" stroke=\"#d9480f\" stroke-width=\"2\"/><line x1=\"221.1\" y1=\"122.6\" x2=\"284.0\" y2=\"172.2\" stroke=\"#d9480f\" stroke-width=\"2\"/><path d=\"M82.3,87.4 A32,32 0 0,0 78.0,103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"48.0\" y=\"93.4\" font-size=\"12\" fill=\"currentColor\">30,0°</text><text x=\"160.0\" y=\"46.8\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">60°</text><text x=\"160.0\" y=\"205\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">n = 1,45</text></svg></span><p>En ljusstråle i luft träffar ett liksidigt prisma (toppvinkel 60°) med infallsvinkeln 30,0°. Prismat har brytningsindex 1,45.</p>Infallsvinkeln vid andra ytan är 39,8°.<p>Beräkna brytningsvinkeln vid andra ytan.</p>",
+        "s": "<p>\\(\\sin\\beta_2=1{,}45\\sin39{,}8^\\circ\\).</p><p><strong>Svar:</strong> \\(68{,}2\\) °</p>",
+        "ledtrad": "<p>Nu går ljuset från prismat till luft.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Beräkna deviationen, alltså vinkeln mellan den infallande och den utgående strålen.",
+        "t": "<span class=\"fig\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 360 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett liksidigt prisma med toppvinkeln 60°. En ljusstråle i luft träffar den vänstra ytan med infallsvinkeln 30,0° mot normalen, bryts in i prismat och går ut genom den högra ytan.\"><polygon points=\"60.0,190.0 260.0,190.0 160.0,16.8\" fill=\"#5aa0e6\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"62.4\" y1=\"75.9\" x2=\"149.0\" y2=\"125.9\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"15.0\" y1=\"103.4\" x2=\"110.0\" y2=\"103.4\" stroke=\"#d9480f\" stroke-width=\"2\"/><polygon points=\"70.0,99.4 80.0,103.4 70.0,107.4\" fill=\"#d9480f\"/><line x1=\"110.0\" y1=\"103.4\" x2=\"221.1\" y2=\"122.6\" stroke=\"#d9480f\" stroke-width=\"2\"/><line x1=\"221.1\" y1=\"122.6\" x2=\"284.0\" y2=\"172.2\" stroke=\"#d9480f\" stroke-width=\"2\"/><path d=\"M82.3,87.4 A32,32 0 0,0 78.0,103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"48.0\" y=\"93.4\" font-size=\"12\" fill=\"currentColor\">30,0°</text><text x=\"160.0\" y=\"46.8\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">60°</text><text x=\"160.0\" y=\"205\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">n = 1,45</text></svg></span><p>En ljusstråle i luft träffar ett liksidigt prisma (toppvinkel 60°) med infallsvinkeln 30,0°. Prismat har brytningsindex 1,45.</p>Brytningsvinkeln vid andra ytan är 68,2°.<p>Beräkna deviationen, alltså vinkeln mellan den infallande och den utgående strålen.</p>",
+        "s": "<p>\\(\\delta=i_1+\\beta_2-60^\\circ=30{,}0^\\circ+68{,}2^\\circ-60^\\circ\\).</p><p><strong>Svar:</strong> \\(38{,}2\\) °</p>",
+        "ledtrad": "<p>Strålen vrids vid båda ytorna.</p>",
+        "niva": "A",
+        "poang": "(0/0/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Rita normalerna vid båda ytorna.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "totalreflektion i prisma",
+    "poang": "(0/1/1)",
+    "t": "<p>Ett liksidigt prisma (toppvinkel 60°) har brytningsindex 1,45. Vid vilken infallsvinkel mot första ytan träffar strålen andra ytan precis med gränsvinkeln för totalreflektion?</p>",
+    "s": "<p>Gränsvinkel: \\(\\sin\\alpha_g=\\dfrac1{1{,}45}\\iff\\alpha_g\\approx43{,}6^\\circ\\). Då är \\(\\beta_1=60^\\circ-43{,}6^\\circ\\approx16{,}4^\\circ\\).</p><p>\\(\\sin i_1=1{,}45\\sin16{,}4^\\circ\\).</p><p><strong>Svar:</strong> \\(24{,}2\\) °</p>",
+    "id": "4.406",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24.162544530311557,
+    "tolerans": 0.362,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Arbeta baklänges från andra ytan.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°",
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "prisma med känd gränsvinkel",
+    "poang": "(1/1/1)",
+    "t": "<p>En ljusstråle i luft träffar ett liksidigt prisma av plast (toppvinkel 60°). Den bryts vid första ytan och träffar sedan andra ytan precis med gränsvinkeln för totalreflektion, 42,0°.</p><ol type=\"a\"><li>Vilket brytningsindex har plasten?</li><li>Beräkna infallsvinkeln vid första ytan.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(n=\\dfrac{1}{\\sin42{,}0^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}49\\)</p></li><li><p>\\(\\beta_1=60^\\circ-42{,}0^\\circ=18{,}0^\\circ\\). \\(\\sin i_1=1{,}494\\sin18{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(27{,}5\\) °</p></li></ol>",
+    "id": "4.407",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.4944765498646086,
+      27.504524167258353
+    ],
+    "tolerans": [
+      0.0224,
+      0.413
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En ljusstråle i luft träffar ett liksidigt prisma av plast (toppvinkel 60°). Den bryts vid första ytan och träffar sedan andra ytan precis med gränsvinkeln för totalreflektion, 42,0°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilket brytningsindex har plasten?",
+        "t": "<p>En ljusstråle i luft träffar ett liksidigt prisma av plast (toppvinkel 60°). Den bryts vid första ytan och träffar sedan andra ytan precis med gränsvinkeln för totalreflektion, 42,0°.</p><p>Vilket brytningsindex har plasten?</p>",
+        "s": "<p>\\(n=\\dfrac{1}{\\sin42{,}0^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}49\\)</p>",
+        "ledtrad": "<p>\\(\\sin\\alpha_g=\\dfrac1n\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna infallsvinkeln vid första ytan.",
+        "t": "<p>En ljusstråle i luft träffar ett liksidigt prisma av plast (toppvinkel 60°). Den bryts vid första ytan och träffar sedan andra ytan precis med gränsvinkeln för totalreflektion, 42,0°.</p>Plasten har brytningsindex 1,494.<p>Beräkna infallsvinkeln vid första ytan.</p>",
+        "s": "<p>\\(\\beta_1=60^\\circ-42{,}0^\\circ=18{,}0^\\circ\\). \\(\\sin i_1=1{,}494\\sin18{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(27{,}5\\) °</p>",
+        "ledtrad": "<p>\\(\\beta_1+i_2=60^\\circ\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Börja vid andra ytan.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "dispersion i prisma",
+    "poang": "(0/1/1)",
+    "t": "<p>Vitt ljus i luft träffar ett liksidigt glasprisma (toppvinkel 60°) med infallsvinkeln 78,0°. Brytningsindex är 1,62 för rött ljus och 1,65 för violett ljus. Hur stor är vinkelskillnaden mellan det röda och det violetta ljuset när det lämnar prismat?</p>",
+    "s": "<p>Rött: \\(\\beta_1\\approx37{,}1^\\circ\\), \\(i_2\\approx22{,}9^\\circ\\), utgående vinkel \\(\\approx39{,}0^\\circ\\).</p><p>Violett: \\(\\beta_1\\approx36{,}4^\\circ\\), \\(i_2\\approx23{,}6^\\circ\\), utgående vinkel \\(\\approx41{,}4^\\circ\\).</p><p><strong>Svar:</strong> \\(2{,}43\\) °</p>",
+    "id": "4.408",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.4329609032358306,
+    "tolerans": 0.0365,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Följ varje färg genom prismat för sig.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "deviation för två färger",
+    "poang": "(0/2/2)",
+    "t": "<p>Vitt ljus i luft träffar ett liksidigt prisma av flintglas (toppvinkel 60°) med infallsvinkeln 50,0°. Brytningsindex är 1,66 för violett ljus och 1,62 för rött ljus.</p><ol type=\"a\"><li>Bestäm deviationen för det violetta ljuset.</li><li>Bestäm deviationen för det röda ljuset.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\beta_1\\approx27{,}5^\\circ\\), \\(i_2\\approx32{,}5^\\circ\\), \\(\\beta_2\\approx63{,}2^\\circ\\). \\(\\delta=50{,}0^\\circ+63{,}2^\\circ-60^\\circ\\).</p><p><strong>Svar:</strong> \\(53{,}2\\) °</p></li><li><p>\\(\\beta_1\\approx28{,}2^\\circ\\), \\(i_2\\approx31{,}8^\\circ\\), \\(\\beta_2\\approx58{,}6^\\circ\\). \\(\\delta=50{,}0^\\circ+58{,}6^\\circ-60^\\circ\\).</p><p><strong>Svar:</strong> \\(48{,}6\\) °</p></li></ol>",
+    "id": "4.409",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      53.17042831925778,
+      48.55862496906013
+    ],
+    "tolerans": [
+      0.798,
+      0.728
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Vitt ljus i luft träffar ett liksidigt prisma av flintglas (toppvinkel 60°) med infallsvinkeln 50,0°. Brytningsindex är 1,66 för violett ljus och 1,62 för rött ljus.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm deviationen för det violetta ljuset.",
+        "t": "<p>Vitt ljus i luft träffar ett liksidigt prisma av flintglas (toppvinkel 60°) med infallsvinkeln 50,0°. Brytningsindex är 1,66 för violett ljus och 1,62 för rött ljus.</p><p>Bestäm deviationen för det violetta ljuset.</p>",
+        "s": "<p>\\(\\beta_1\\approx27{,}5^\\circ\\), \\(i_2\\approx32{,}5^\\circ\\), \\(\\beta_2\\approx63{,}2^\\circ\\). \\(\\delta=50{,}0^\\circ+63{,}2^\\circ-60^\\circ\\).</p><p><strong>Svar:</strong> \\(53{,}2\\) °</p>",
+        "ledtrad": "<p>\\(\\delta=i_1+\\beta_2-60^\\circ\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm deviationen för det röda ljuset.",
+        "t": "<p>Vitt ljus i luft träffar ett liksidigt prisma av flintglas (toppvinkel 60°) med infallsvinkeln 50,0°. Brytningsindex är 1,66 för violett ljus och 1,62 för rött ljus.</p><p>Bestäm deviationen för det röda ljuset.</p>",
+        "s": "<p>\\(\\beta_1\\approx28{,}2^\\circ\\), \\(i_2\\approx31{,}8^\\circ\\), \\(\\beta_2\\approx58{,}6^\\circ\\). \\(\\delta=50{,}0^\\circ+58{,}6^\\circ-60^\\circ\\).</p><p><strong>Svar:</strong> \\(48{,}6\\) °</p>",
+        "ledtrad": "<p>\\(\\delta=i_1+\\beta_2-60^\\circ\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Följ strålen genom båda ytorna.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "laser genom olja ned i vatten",
+    "poang": "(2/1/0)",
+    "t": "<p>I ett glas med vatten (brytningsindex 1,33) flyter ett lager matolja (1,47). En laserstråle i luft träffar oljan med infallsvinkeln 71,4°.</p><ol type=\"a\"><li>Vad blir brytningsvinkeln i oljan?</li><li>Bestäm gränsvinkeln för totalreflektion när ljuset går från oljan mot vattnet.</li><li>Strålen fortsätter ned i vattnet. Hur stor är brytningsvinkeln i vattnet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\sin\\alpha_2=\\dfrac{\\sin71{,}4^\\circ}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(40{,}1\\) °</p></li><li><p>\\(\\sin\\alpha_g=\\dfrac{1{,}33}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(64{,}8\\) °</p></li><li><p>Infallsvinkeln i oljan mot vattnet är lika med brytningsvinkeln 40,1°. \\(\\sin\\alpha=\\dfrac{1{,}47\\sin40{,}1^\\circ}{1{,}33}=\\dfrac{\\sin71{,}4^\\circ}{1{,}33}\\).</p><p><strong>Svar:</strong> \\(45{,}4\\) °</p></li></ol>",
+    "id": "4.410",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40.14621546613603,
+      64.79123470324166,
+      45.447493377558494
+    ],
+    "tolerans": [
+      0.602,
+      0.972,
+      0.682
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "°",
+      "°",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I ett glas med vatten (brytningsindex 1,33) flyter ett lager matolja (1,47). En laserstråle i luft träffar oljan med infallsvinkeln 71,4°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vad blir brytningsvinkeln i oljan?",
+        "t": "<p>I ett glas med vatten (brytningsindex 1,33) flyter ett lager matolja (1,47). En laserstråle i luft träffar oljan med infallsvinkeln 71,4°.</p><p>Vad blir brytningsvinkeln i oljan?</p>",
+        "s": "<p>\\(\\sin\\alpha_2=\\dfrac{\\sin71{,}4^\\circ}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(40{,}1\\) °</p>",
+        "ledtrad": "<p>Brytningslagen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm gränsvinkeln för totalreflektion när ljuset går från oljan mot vattnet.",
+        "t": "<p>I ett glas med vatten (brytningsindex 1,33) flyter ett lager matolja (1,47). En laserstråle i luft träffar oljan med infallsvinkeln 71,4°.</p><p>Bestäm gränsvinkeln för totalreflektion när ljuset går från oljan mot vattnet.</p>",
+        "s": "<p>\\(\\sin\\alpha_g=\\dfrac{1{,}33}{1{,}47}\\).</p><p><strong>Svar:</strong> \\(64{,}8\\) °</p>",
+        "ledtrad": "<p>\\(\\sin\\alpha_g=\\dfrac{n_2}{n_1}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Strålen fortsätter ned i vattnet. Hur stor är brytningsvinkeln i vattnet?",
+        "t": "<p>I ett glas med vatten (brytningsindex 1,33) flyter ett lager matolja (1,47). En laserstråle i luft träffar oljan med infallsvinkeln 71,4°.</p>Brytningsvinkeln i oljan är 40,1°.<p>Strålen fortsätter ned i vattnet. Hur stor är brytningsvinkeln i vattnet?</p>",
+        "s": "<p>Infallsvinkeln i oljan mot vattnet är lika med brytningsvinkeln 40,1°. \\(\\sin\\alpha=\\dfrac{1{,}47\\sin40{,}1^\\circ}{1{,}33}=\\dfrac{\\sin71{,}4^\\circ}{1{,}33}\\).</p><p><strong>Svar:</strong> \\(45{,}4\\) °</p>",
+        "ledtrad": "<p>Ytorna är parallella.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Oljeskiktets ytor är parallella.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "vätska som ger totalreflektion",
+    "poang": "(0/1/0)",
+    "t": "<p>En ljusstråle i glas (brytningsindex 1,50) träffar gränsytan mot en vätska med infallsvinkeln 58,0°. Vilket är det största brytningsindex vätskan kan ha om strålen ska totalreflekteras?</p>",
+    "s": "<p>\\(n\\le1{,}50\\sin58{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}27\\) </p>",
+    "id": "4.411",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.272072144234639,
+    "tolerans": 0.0191,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid gränsvinkeln är \\(n_1\\sin\\alpha_1=n_2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "största brytningsindex för omgivande vätska",
+    "poang": "(0/1/2)",
+    "t": "<p>En rektangulär glasbit (brytningsindex 1,55) är helt omgiven av en vätska. En stråle i vätskan träffar glasbitens kortsida med infallsvinkeln 34,0°, bryts och träffar sedan långsidan i punkten P. Vilket är det största brytningsindex vätskan kan ha om totalreflektion ska ske i P?</p>",
+    "s": "<p>Vid kortsidan: \\(n\\sin34{,}0^\\circ=1{,}55\\sin\\theta_2\\). I P är infallsvinkeln \\(90^\\circ-\\theta_2\\), och precis totalreflektion ger \\(1{,}55\\cos\\theta_2=n\\).</p><p>Division ger \\(\\tan\\theta_2=\\sin34{,}0^\\circ\\iff\\theta_2\\approx29{,}2^\\circ\\), så \\(n=1{,}55\\cos29{,}2^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}35\\) </p>",
+    "id": "4.412",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.3528495480383655,
+    "tolerans": 0.0203,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Teckna brytningslagen vid båda ytorna. Vinklarna vid kortsidan och långsidan hänger ihop.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "tid ur gränsvinkel",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>En stråle går 4,60 m genom en vätska från A till B. I B träffar den ett annat medium (brytningsindex 1,63) precis med gränsvinkeln 48,1°. Hur lång tid tar det för ljuset att gå från A till B?</p>",
+    "s": "<p>\\(\\sin48{,}1^\\circ=\\dfrac{1{,}63}{n}\\iff n\\approx2{,}19\\). \\(t=\\dfrac{nL}{c}=\\dfrac{2{,}19\\cdot4{,}60}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(33{,}6\\) ns</p>",
+    "id": "4.413",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "numeriskt",
+    "rättSvar": 33.57912887404191,
+    "tolerans": 0.504,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm vätskans brytningsindex ur gränsvinkeln.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "ns",
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "kvot mellan brytningsindex",
+    "poang": "(0/2/0)",
+    "t": "<p>Vätska B flyter på vätska A. En stråle från A totalreflekteras mot B om infallsvinkeln överstiger 36,5°. B byts mot vätska C, och då totalreflekteras strålen om infallsvinkeln överstiger 47,0°. Bestäm kvoten \\(\\dfrac{n_B}{n_C}\\).</p>",
+    "s": "<p>\\(\\sin36{,}5^\\circ=\\dfrac{n_B}{n_A}\\) och \\(\\sin47{,}0^\\circ=\\dfrac{n_C}{n_A}\\). Kvoten: \\(\\dfrac{\\sin36{,}5^\\circ}{\\sin47{,}0^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}813\\) </p>",
+    "id": "4.414",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Totalreflektion och optisk fiber",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8133175308123026,
+    "tolerans": 0.0122,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Teckna gränsvinkeln i båda fallen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "C",
+    "typ": "dispersion från diamant till glas",
+    "poang": "(1/1/0)",
+    "t": "<p>Solljus går från diamant till glas med infallsvinkeln 35,00° i diamanten. Brytningsindex är för rött ljus 2,444 i diamant och 1,531 i glas, och för blått ljus 2,410 i diamant och 1,520 i glas. Beräkna vinkeln mellan det röda och det blå ljuset i glaset.</p>",
+    "s": "<p>Rött: \\(\\sin\\alpha=\\dfrac{2{,}444\\sin35{,}00^\\circ}{1{,}531}\\iff\\alpha\\approx66{,}29^\\circ\\). Blått: \\(\\sin\\alpha=\\dfrac{2{,}410\\sin35{,}00^\\circ}{1{,}520}\\iff\\alpha\\approx65{,}42^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}869\\) °</p>",
+    "id": "4.415",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8691466733945674,
+    "tolerans": 0.013,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna brytningsvinkeln för varje färg.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°",
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "typ": "brytningsindex ur två färger",
+    "poang": "(0/1/1)",
+    "t": "<p>Violett och rött ljus går från luft in i en plastplatta med samma infallsvinkel. Brytningsvinkeln är 30,400° för violett ljus och 31,200° för rött ljus. Brytningsindex för violett ljus är 0,0400 större än för rött ljus. Bestäm brytningsindex för det violetta ljuset.</p>",
+    "s": "<p>\\(n\\sin31{,}200^\\circ=(n+0{,}0400)\\sin30{,}400^\\circ\\) där \\(n\\) är rött ljus.</p><p>\\(n=\\dfrac{0{,}0400\\sin30{,}400^\\circ}{\\sin31{,}200^\\circ-\\sin30{,}400^\\circ}\\approx1{,}688\\), och violett: \\(n+0{,}0400\\).</p><p><strong>Svar:</strong> \\(1{,}73\\) </p>",
+    "id": "4.416",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snells brytningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.7277292292115634,
+    "tolerans": 0.0259,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Infallsvinkeln är densamma, så \\(n\\sin\\beta\\) är lika för båda färgerna.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "straloptik__snells_brytningslag"
+  },
+  {
     "id": "GY25-FY2-EXP-01",
     "kap": 3,
     "omr": "induktion",

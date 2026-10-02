@@ -10139,6 +10139,53 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt"
   },
   {
+    "id": "2.579",
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I en viss talbas \\(b\\) gäller att \\(21_b\\cdot3_b=103_b\\).</p><p>Bestäm \\(b\\).</p>",
+    "s": "<p>Skriv talen i tiobas: \\(21_b=2b+1\\), \\(3_b=3\\) och \\(103_b=b^2+3\\).</p><p>\\[(2b+1)\\cdot3=b^2+3\\;\\Leftrightarrow\\;6b=b^2\\;\\Leftrightarrow\\;b=6,\\]</p><p>eftersom \\(b=0\\) inte är en talbas. Siffran 3 är tillåten i basen 6.</p><p>Kontroll: \\(21_6=13\\), \\(13\\cdot3=39\\) och \\(103_6=36+3=39\\).</p><p><strong>Svar:</strong> \\(b=6\\)</p>",
+    "familj": "Talbaser och basomvandling",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv varje tal som ett uttryck i \\(b\\), till exempel \\(103_b=1\\cdot b^2+0\\cdot b+3\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "typ": "okänd talbas ur räkneexempel"
+  },
+  {
+    "id": "2.580",
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Skriv talet 2026 i basen 8.</p>",
+    "s": "<p>Potenser av 8: 1, 8, 64, 512.</p><p>\\(2026=3\\cdot512+490\\), \\(490=7\\cdot64+42\\), \\(42=5\\cdot8+2\\).</p><p>Alltså \\(2026=3752_8\\). Kontroll: \\(3\\cdot512+7\\cdot64+5\\cdot8+2=2026\\).</p><p><strong>Svar:</strong> \\(3752_8\\)</p>",
+    "familj": "Talbaser och basomvandling",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela upp talet i potenser av 8, börja med den största som får plats.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3752,
+    "tolerans": null,
+    "typ": "omvandla till bas 8"
+  },
+  {
     "kap": 2,
     "omr": "kongruens",
     "niva": "C",
@@ -12304,6 +12351,30 @@ window.BANKMATF1 = [
     ]
   },
   {
+    "id": "2.581",
+    "kap": 2,
+    "omr": "inledning_talfoljder",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det minsta heltal \\(N\\) som gör att</p><p>\\[\\sum_{n=1}^{N}\\frac{1}{n(n+1)}\\ge0{,}95.\\]</p>",
+    "s": "<p>Partialbråksuppdelning: \\(\\frac{1}{n(n+1)}=\\frac1n-\\frac1{n+1}\\). Summan teleskoperar:</p><p>\\[\\sum_{n=1}^{N}\\left(\\frac1n-\\frac1{n+1}\\right)=1-\\frac{1}{N+1}.\\]</p><p>\\(1-\\frac1{N+1}\\ge0{,}95\\Leftrightarrow\\frac1{N+1}\\le0{,}05\\Leftrightarrow N+1\\ge20\\Leftrightarrow N\\ge19\\).</p><p><strong>Svar:</strong> \\(N=19\\)</p>",
+    "familj": "Talföljder och sigmanotation",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv termen som en skillnad av två bråk. Vad händer när termerna summeras?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": null,
+    "typ": "teleskopsumma"
+  },
+  {
     "kap": 2,
     "omr": "aritm_geom_talfoljder",
     "niva": "E",
@@ -13477,6 +13548,31 @@ window.BANKMATF1 = [
     ]
   },
   {
+    "id": "2.582",
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Vid varje årsskifte sätter Lina in 1 000 kr på ett konto med 4 % årsränta. Hon gör tio insättningar.</p><p>Hur mycket finns på kontot direkt efter den tionde insättningen? Svara i hela kronor.</p>",
+    "s": "<p>Den sista insättningen har inte vuxit alls, den näst sista har vuxit ett år, och så vidare. Den första har vuxit nio år.</p><p>\\[1\\,000+1\\,000\\cdot1{,}04+\\dots+1\\,000\\cdot1{,}04^9=1\\,000\\cdot\\frac{1{,}04^{10}-1}{1{,}04-1}\\approx12\\,006\\text{ kr}.\\]</p><p>Hon har satt in 10 000 kr, så räntan har gett cirka 2 006 kr.</p><p><strong>Svar:</strong> cirka 12 006 kr</p>",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur länge har varje insättning vuxit? Summan är en geometrisk summa.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12006.107122958609,
+    "tolerans": 1,
+    "svarEnhet": "kr",
+    "typ": "geometrisk summa vid sparande"
+  },
+  {
     "kap": 2,
     "omr": "aritm_geom_talfoljder",
     "niva": "C",
@@ -13549,6 +13645,29 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "aritmetiska_geometriska"
     ]
+  },
+  {
+    "id": "2.587",
+    "kap": 2,
+    "omr": "aritm_geom_talfoljder",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I en aritmetisk talföljd är \\(a_3=11\\) och \\(a_{10}=39\\).</p><p>Beräkna summan av de 20 första talen.</p>",
+    "s": "<p>Från \\(a_3\\) till \\(a_{10}\\) är det 7 steg: \\(7d=39-11=28\\), alltså \\(d=4\\). Då är \\(a_1=11-2\\cdot4=3\\).</p><p>\\(a_{20}=3+19\\cdot4=79\\). Summan:</p><p>\\[S_{20}=\\frac{20\\,(a_1+a_{20})}{2}=10\\cdot82=820.\\]</p><p><strong>Svar:</strong> 820</p>",
+    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm differensen \\(d\\) ur de två kända termerna. Använd sedan summaformeln.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 820,
+    "tolerans": null,
+    "typ": "aritmetisk summa ur två termer"
   },
   {
     "kap": 2,
@@ -27884,6 +28003,30 @@ window.BANKMATF1 = [
     "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
   },
   {
+    "id": "1.619",
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I ett lotteri dras 7 nummer av 35. Du har en rad med 7 nummer.</p><p>Hur stor är sannolikheten att du får exakt 5 rätt? Svara i grundpotensform med tre värdesiffror.</p>",
+    "s": "<p>Antal möjliga dragningar: \\(\\binom{35}{7}=6\\,724\\,520\\).</p><p>Gynnsamma: 5 av dina 7 nummer dras, och 2 av de 28 andra: \\(\\binom75\\binom{28}{2}=21\\cdot378=7\\,938\\).</p><p>\\[P=\\frac{7\\,938}{6\\,724\\,520}\\approx1{,}18\\cdot10^{-3}.\\]</p><p><strong>Svar:</strong> cirka \\(1{,}18\\cdot10^{-3}\\)</p>",
+    "familj": "Kombinatorisk sannolikhet",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många sätt finns det att välja vilka 5 av dina nummer som är rätt, och vilka 2 felaktiga nummer som dras?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0011804560028076353,
+    "tolerans": 5e-06,
+    "typ": "lotto med exakt k rätt"
+  },
+  {
     "kap": 2,
     "omr": "delbarhet_primtal",
     "niva": "E",
@@ -29606,6 +29749,30 @@ window.BANKMATF1 = [
     ]
   },
   {
+    "id": "1.615",
+    "kap": 1,
+    "omr": "mangdoperatorer",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För två ändliga mängder gäller \\(|A|=30\\), \\(|B|=25\\) och \\(|A\\cup B|=45\\).</p><p>Hur många element finns i den symmetriska differensen \\((A\\setminus B)\\cup(B\\setminus A)\\)?</p>",
+    "s": "<p>Inklusion–exklusion: \\(|A\\cap B|=|A|+|B|-|A\\cup B|=30+25-45=10\\).</p><p>Den symmetriska differensen är de element som ligger i exakt en av mängderna, alltså unionen utan snittet:</p><p>\\[|A\\cup B|-|A\\cap B|=45-10=35.\\]</p><p>Kontroll: \\(|A\\setminus B|=20\\) och \\(|B\\setminus A|=15\\), och \\(20+15=35\\).</p><p><strong>Svar:</strong> 35</p>",
+    "familj": "Union, snitt, differens och komplement",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först snittets storlek med inklusion–exklusion. Rita ett Venndiagram.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 35,
+    "tolerans": null,
+    "typ": "symmetrisk differens med inklusion–exklusion"
+  },
+  {
     "kap": 1,
     "omr": "mangdlara_grund",
     "niva": "E",
@@ -29694,6 +29861,30 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Mängder och Venn-diagram"
     ]
+  },
+  {
+    "id": "1.614",
+    "kap": 1,
+    "omr": "mangdlara_grund",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Låt \\(M=\\{1,2,3,\\dots,10\\}\\).</p><p>Hur många delmängder till \\(M\\) innehåller både 1 och 2 men inte 3?</p>",
+    "s": "<p>Elementen 1, 2 och 3 är redan bestämda: 1 och 2 ska vara med och 3 ska inte vara med.</p><p>För vart och ett av de övriga sju elementen 4, 5, …, 10 finns två val: med eller inte med.</p><p>\\[2^7=128.\\]</p><p><strong>Svar:</strong> 128 delmängder</p>",
+    "familj": "Mängder, element och mängdbyggare",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Varje delmängd motsvarar ett val ”med” eller ”inte med” för varje element. Vilka element är redan bestämda?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 128,
+    "tolerans": null,
+    "typ": "antal delmängder med villkor"
   },
   {
     "kap": 1,
@@ -30054,6 +30245,30 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Multiplikationsprincipen"
     ]
+  },
+  {
+    "id": "1.616",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Hur många fyrsiffriga tal (1000–9999) innehåller minst en siffra 7?</p>",
+    "s": "<p>Räkna komplementet: fyrsiffriga tal utan någon sjua.</p><p>Första siffran: 1–9 utom 7, alltså 8 val. Övriga tre siffror: 0–9 utom 7, alltså 9 val var.</p><p>Utan sjua: \\(8\\cdot9\\cdot9\\cdot9=5\\,832\\). Totalt finns \\(9\\,000\\) fyrsiffriga tal.</p><p>Med minst en sjua: \\(9\\,000-5\\,832=3\\,168\\).</p><p><strong>Svar:</strong> 3 168</p>",
+    "familj": "Multiplikations- och additionsprincipen",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>”Minst en” är ofta lättare att räkna via komplementet: hur många tal saknar sjua helt?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3168,
+    "tolerans": null,
+    "typ": "räkna via komplement"
   },
   {
     "kap": 1,
@@ -30461,6 +30676,30 @@ window.BANKMATF1 = [
     ]
   },
   {
+    "id": "1.618",
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>På hur många sätt kan 12 identiska bollar fördelas i 4 olika lådor om varje låda ska få minst 2 bollar?</p>",
+    "s": "<p>Lägg först 2 bollar i varje låda. Då återstår \\(12-8=4\\) bollar, som kan fördelas fritt.</p><p>Att fördela 4 identiska bollar i 4 lådor är samma sak som att placera 3 skiljeväggar bland 4 bollar: \\(\\binom{4+3}{3}=\\binom73=35\\).</p><p><strong>Svar:</strong> 35 sätt</p>",
+    "familj": "Fördela identiska objekt med villkor",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Uppfyll villkoret först genom att lägga 2 bollar i varje låda. Fördela sedan resten med ”bollar och skiljeväggar”.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": 35,
+    "tolerans": null,
+    "typ": "bollar och skiljeväggar med minimikrav"
+  },
+  {
     "kap": 1,
     "omr": "binomialsatsen",
     "niva": "E",
@@ -30833,6 +31072,30 @@ window.BANKMATF1 = [
     ]
   },
   {
+    "id": "2.584",
+    "kap": 2,
+    "omr": "delbarhet_primtal",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Hur många positiva delare har talet 360?</p>",
+    "s": "<p>Primtalsfaktorisera: \\(360=2^3\\cdot3^2\\cdot5\\).</p><p>En delare har formen \\(2^a3^b5^c\\) med \\(0\\le a\\le3\\), \\(0\\le b\\le2\\) och \\(0\\le c\\le1\\).</p><p>Antalet delare: \\((3+1)(2+1)(1+1)=24\\).</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Primtalsfaktorisera 360. På hur många sätt kan exponenterna väljas?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "typ": "antal delare ur primtalsfaktorisering"
+  },
+  {
     "kap": 2,
     "omr": "gemensamma_faktorer",
     "niva": "E",
@@ -30891,6 +31154,30 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Delbarhet, primtalsfaktorisering och SGD/MGM"
     ]
+  },
+  {
+    "id": "2.585",
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Två kugghjul griper in i varandra. Det ena har 48 kuggar och det andra 84. Två markerade kuggar står mot varandra.</p><p>Hur många varv måste det mindre hjulet snurra innan samma två kuggar står mot varandra igen?</p>",
+    "s": "<p>Antalet kuggpassager måste vara en gemensam multipel av 48 och 84, och den första gången är den minsta gemensamma multipeln.</p><p>\\(48=2^4\\cdot3\\) och \\(84=2^2\\cdot3\\cdot7\\), så \\(\\text{MGM}=2^4\\cdot3\\cdot7=336\\).</p><p>Det mindre hjulet snurrar \\(\\frac{336}{48}=7\\) varv. Det större snurrar under tiden \\(\\frac{336}{84}=4\\) varv.</p><p><strong>Svar:</strong> 7 varv</p>",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Efter hur många kuggpassager har båda hjulen snurrat ett helt antal varv?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "typ": "MGM för kugghjul"
   },
   {
     "kap": 2,
@@ -31181,6 +31468,30 @@ window.BANKMATF1 = [
     "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
   },
   {
+    "id": "2.586",
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm den sista siffran i talet \\(7^{2026}\\).</p>",
+    "s": "<p>Den sista siffran är resten vid division med 10. Potenserna av 7 modulo 10:</p><p>\\(7^1\\equiv7\\), \\(7^2\\equiv9\\), \\(7^3\\equiv3\\), \\(7^4\\equiv1\\pmod{10}\\).</p><p>Mönstret upprepas med perioden 4. \\(2026=4\\cdot506+2\\), så \\(7^{2026}=(7^4)^{506}\\cdot7^2\\equiv1\\cdot9=9\\pmod{10}\\).</p><p><strong>Svar:</strong> 9</p>",
+    "familj": "Restklasser och tillämpningar av modulo",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Undersök sista siffran i \\(7, 7^2, 7^3, 7^4, \\dots\\). Hur långt är mönstret?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "typ": "sista siffran med periodicitet modulo 10"
+  },
+  {
     "kap": 1,
     "omr": "ladprincipen",
     "niva": "E",
@@ -31287,6 +31598,30 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "kombinatoriska_principer"
     ]
+  },
+  {
+    "id": "1.617",
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Man väljer olika tal ur mängden \\(\\{1,2,3,\\dots,20\\}\\).</p><p>Hur många tal måste man minst välja för att vara säker på att två av de valda talen har summan 21?</p>",
+    "s": "<p>Dela upp talen i tio par med summan 21: \\(\\{1,20\\}, \\{2,19\\}, \\dots, \\{10,11\\}\\). Paren är lådorna.</p><p>Man kan välja 10 tal utan att få summan 21, nämligen ett tal ur varje par, till exempel 1, 2, …, 10.</p><p>Med 11 tal måste två hamna i samma par enligt lådprincipen. Deras summa är 21.</p><p><strong>Svar:</strong> 11 tal</p>",
+    "familj": "Använda lådprincipen",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilka par av tal har summan 21? Låt varje par vara en låda.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "typ": "lådprincipen med parbildning"
   },
   {
     "kap": 2,
@@ -31494,6 +31829,30 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ]
+  },
+  {
+    "id": "2.583",
+    "kap": 2,
+    "omr": "direkta_bevis",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Produkten av tre på varandra följande heltal, \\(n(n+1)(n+2)\\), är alltid delbar med vissa tal.</p><p>Vilket är det största heltal som delar \\(n(n+1)(n+2)\\) för alla heltal \\(n\\)? Motivera.</p>",
+    "s": "<p>Bland två på varandra följande heltal är ett jämnt, så produkten är delbar med 2. Bland tre på varandra följande heltal är ett delbart med 3, så produkten är delbar med 3. Eftersom 2 och 3 saknar gemensamma faktorer är produkten delbar med 6.</p><p>Inget större tal fungerar: för \\(n=1\\) är produkten \\(1\\cdot2\\cdot3=6\\). Ett tal som delar alla produkter måste dela 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Direkta bevis och metodval",
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Pröva några värden på \\(n\\). Vad måste alltid finnas bland två, respektive tre, tal i rad?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "typ": "delbarhet för produkt av följande heltal"
   },
   {
     "kap": 2,

@@ -9268,8 +9268,66 @@ function formatRatt(anv,facit,meta){
   return null;
 }
 
+/* Lösningsmängder: "x = -3, 0, 3", "x=-3,0,3", "x = -3 eller x = 0 eller x = 3",
+   "-3; 0; 3" och "x = ±3" jämförs som mängder, oavsett ordning, skiljetecken
+   och om "x =" skrivs ut. Ett komma utan mellanslag kan vara decimalkomma
+   ("1,5") eller skiljetecken ("-3,0,3"); båda tolkningarna provas. */
+function rotVarde(p,decimal){
+  let s=String(p).trim(), tecken=[1];
+  if(/^±/.test(s)){ tecken=[1,-1]; s=s.slice(1).trim(); }
+  if(!s) return null;
+  if(decimal) s=s.replace(/(\d),(\d)/g,"$1.$2");
+  if(s.includes(",")) return null;
+  let v=helTalvarde(s);
+  if(!Number.isFinite(v) && isPureNumberExpression(s)) v=numericValue(tillNerdamer(normalizeMathInput(s)));
+  return Number.isFinite(v) ? tecken.map(k=>k*v) : null;
+}
+function rotListor(x){
+  let s=stadaSvar(latexToPlain(String(x??""))).replace(/\\pm|\+-|\+\/-/g,"±").replace(/\.\s*$/,"");
+  if(!s || /[<>≤≥()[\]{}]/.test(s.replace(/√\s*\(|sqrt\(|\)/g,""))) return [];
+  const grov=s.split(/\s+(?:eller|och|samt|or|and)\s+|\s*;\s*|,\s+/i).map(d=>d.trim()).filter(Boolean);
+  let namn=null, blandat=false;
+  const utanNamn=d=>{
+    const m=d.trim().match(/^([a-zåäö])(?:_?\{?\d\}?)?\s*=\s*/i);
+    if(!m) return d.trim();
+    const n=m[1].toLowerCase();
+    if(namn && n!==namn) blandat=true;
+    namn=n; return d.trim().slice(m[0].length);
+  };
+  const delar=grov.map(utanNamn);
+  const ut=[];
+  for(const decimal of [false,true]){
+    const bitar=decimal ? delar : delar.flatMap(d=>d.split(",")).map(utanNamn);
+    if(blandat) return [];
+    const v=[];
+    let ok=true;
+    for(const b of bitar){ const r=rotVarde(b,decimal); if(!r){ ok=false; break; } v.push(...r); }
+    if(ok && v.length && !ut.some(u=>u.length===v.length && u.every((x,i)=>x===v[i]))) ut.push(v);
+  }
+  return ut;
+}
+function arRotLista(facit){
+  const l=rotListor(facit);
+  return l.length>0 && l.every(x=>x.length>1);
+}
+function rotListaRatt(anv,facit,tol){
+  const alla=rotListor(facit);
+  // Ett enda tal med decimalkomma ("1,5") är ingen lista.
+  if(!alla.length || alla.some(l=>l.length<2)) return null;
+  const lf=alla;
+  const lu=rotListor(anv);
+  const lika=(a,b)=>{
+    if(a.length!==b.length) return false;
+    const kvar=[...b];
+    return a.every(v=>{ const i=kvar.findIndex(k=>naraNog(v,k,tol)); if(i<0) return false; kvar.splice(i,1); return true; });
+  };
+  return lu.some(u=>lf.some(f=>lika(u,f))) ? true : null;
+}
+
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
   const meta={format,tolerans:tol,enhet};
+  // Lösningsmängder godkänns oavsett ordning och skrivsätt. Kontrollen kan bara godkänna.
+  if(rotListaRatt(anv,facit,tol)) return true;
   if(format){
     const r=formatRatt(anv,facit,meta);
     if(r!==null) return r;
@@ -10716,7 +10774,7 @@ function renderTraining(){
               inputmode="${sifferlage(expectedInfo.answers[i],rutEnhet(i))?"decimal":"text"}"
               placeholder="${
                 rutEnhet(i) ? "Svar i "+esc(rutEnhet(i))
-                : inputCount<2 ? "Ditt svar"
+                : inputCount<2 ? (arRotLista(expectedInfo.answers[i]) ? "Alla lösningar, t.ex. x = 1, 4" : "Ditt svar")
                 : layout.ordnad ? "Svar "+String.fromCharCode(97+i) : "Svar "+(i+1)
               }"${laasta(i)?" disabled":""}
               onfocus="state.aktivRuta=${i}"

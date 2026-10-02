@@ -14104,7 +14104,7 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En framåtriktad differenskvot används för att approximera derivatan av \\(f\\) i punkten \\(x=a\\):</p><p>\\[D_h=\\frac{square}{h}.\\]</p><p>a) Fyll i uttrycket som ska stå i täljaren.<br>b) Använd sedan differenskvoten för att approximera derivatan av \\(f(x)=x^2+1\\) i punkten \\(x=3\\) med \\(h=0,1\\).</p>",
+    "t": "<p>Derivatan \\(f^{\\prime}(a)\\) kan approximeras med en framåtriktad differenskvot:</p><p>\\[f^{\\prime}(a)\\approx\\frac{\\boxed{\\phantom{f(a)}}}{h}\\]</p><p>a) Vilket uttryck ska stå i rutan i täljaren? Svara med \\(f\\), \\(a\\) och \\(h\\).<br>b) Använd sedan differenskvoten för att approximera derivatan av \\(f(x)=x^2+1\\) i punkten \\(x=3\\) med \\(h=0,1\\).</p>",
     "s": "<p><strong>a)</strong> En framåtriktad ändringskvot skrivs</p><p>\\[\\frac{f(a+h)-f(a)}{h}.\\]</p><p>Det saknade uttrycket är alltså \\(f(a+h)-f(a)\\).</p><p><strong>b)</strong> Här är \\(f(x)=x^2+1\\), \\(a=3\\) och \\(h=0,1\\).</p><p>Först beräknar vi</p><p>\\[f(3,1)=3,1^2+1=9,61+1=10,61\\]</p><p>och</p><p>\\[f(3)=3^2+1=10.\\]</p><p>Då blir approximationen</p><p>\\[\\frac{10,61-10}{0,1}=\\frac{0,61}{0,1}=6,1.\\]</p><p>Detta ligger nära det exakta värdet \\(f^{\\prime}(3)=6\\).</p><p><strong>Svar:</strong> a) \\(f(a+h)-f(a)\\) &nbsp;&nbsp; b) \\(\\boxed{6,1}\\).</p>",
     "familj": "Derivatans definition",
     "geogebra": false,
@@ -14133,9 +14133,9 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En framåtriktad differenskvot skrivs \\(D_h=\\square/h\\).</p><p><div class=\"spel-en-del\">Vilket uttryck ska stå i täljaren för att approximera \\(f^{\\prime}(a)\\)?</div></p>",
+        "t": "<p>Derivatan \\(f^{\\prime}(a)\\) kan approximeras med en framåtriktad differenskvot \\(f^{\\prime}(a)\\approx\\dfrac{\\boxed{\\phantom{f(a)}}}{h}\\).</p><p><div class=\"spel-en-del\">Vilket uttryck ska stå i rutan i täljaren? Svara med \\(f\\), \\(a\\) och \\(h\\).</div></p>",
         "s": "<p><strong>Svar:</strong> f(a+h)-f(a)</p>",
-        "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+        "ledtrad": "<p>Täljaren är skillnaden mellan funktionsvärdet en bit till höger, i \\(x=a+h\\), och funktionsvärdet i \\(x=a\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       },

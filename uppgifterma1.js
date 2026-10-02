@@ -132433,6 +132433,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1.65,
     "tolerans": 0.01,
+    "svarEnhet": "kg",
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -134879,7 +134880,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{1\\,243}{5}=248{,}60\\]</p><p>Var och en betalar 249 kr, tillsammans \\(5\\cdot249=1\\,245\\) kr.</p><p>\\[1\\,245-1\\,243=2\\]</p><p><strong>Svar:</strong> 2 kr</p></div></div>",
     "familj": "Avrundning i vardagen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
     "tolerans": 1e-09,

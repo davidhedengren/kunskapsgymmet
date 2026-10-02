@@ -851,6 +851,12 @@ html[data-theme="dark"] .kursavdelare{--linje:rgba(79,141,255,.55);--glod:rgba(9
 .kursstatus{display:flex;align-items:center;gap:12px;margin-top:auto;width:100%}
 .kursbar{flex:1;display:block;height:4px;border-radius:99px;background:var(--hair);overflow:hidden}
 .kursbar i{display:block;height:100%;width:0;border-radius:99px;transition:width 1s var(--ease)}
+.kursbar.delad{display:flex;gap:2px;height:6px}
+.kursbar.delad i{flex:none;border-radius:2px}
+.kursbar.delad i:first-child{border-radius:99px 2px 2px 99px}
+.kursbar.delad .kb-pagang{opacity:.45}
+.kursbar.delad .kb-svag{background:var(--low)}
+.kursprocent.kurspaborjad{min-width:0;text-align:left;font-weight:500}
 .kursprocent{
   flex:none;min-width:2.6em;text-align:right;font-size:12.5px;font-weight:600;
   color:var(--ink3);font-variant-numeric:tabular-nums;letter-spacing:0;
@@ -6277,6 +6283,31 @@ function provaKod(id){
   selectCourse(id);
 }
 
+/* Kurskortets mätare räknar kursens moment på samma sätt som kursens översikt:
+   Stark (minst 78 %), På gång (55–77 %), Behöver träning och ej påbörjade.
+   Momentlistan sparas lokalt när kursens översikt har ritats. */
+const KURSMOMENT_KEY="kunskapsgymmet-kursmoment";
+function sparaKursMoment(kort){
+  try{
+    const alla=JSON.parse(localStorage.getItem(KURSMOMENT_KEY)||"{}");
+    alla[state.course]={spar:state.track||null,kort:kort.map(k=>k.omr)};
+    localStorage.setItem(KURSMOMENT_KEY,JSON.stringify(alla));
+  }catch(_){}
+}
+function kursMomentLage(id){
+  let lista=null;
+  try{ lista=JSON.parse(localStorage.getItem(KURSMOMENT_KEY)||"{}")[id]?.kort; }catch(_){}
+  if(!Array.isArray(lista) || !lista.length) return null;
+  const areas=(profile.courses||{})[id]?.areas||{};
+  const r={stark:0,pagang:0,svag:0,ny:0,totalt:lista.length};
+  lista.forEach(omr=>{
+    const v=(omr||[]).map(k=>typeof areas[k]==="number"?areas[k]:null);
+    if(!v.some(x=>x!==null)){ r.ny++; return; }
+    const m=v.reduce((a,x)=>a+(x||0),0)/v.length;
+    if(m>=.78) r.stark++; else if(m>=.55) r.pagang++; else r.svag++;
+  });
+  return r;
+}
 function kursLage(id){
   const cp=(profile.courses||{})[id];
   if(!cp) return null;
@@ -6361,12 +6392,21 @@ function kursspann(n){
 
 function kurskortHtml(id,span,nr){
   const c=COURSES[id];
-  const l=kursLage(id);
-  const pct=l ? Math.round(l.snitt*100) : null;
-  const status=l ? `<span class="kursstatus">
-      <span class="kursbar"><i style="background:${c.tint}" data-w="${pct}%"></i></span>
-      <span class="kursprocent">${pct} %</span>
-    </span>` : "";
+  const l=kursLage(id), mom=kursMomentLage(id);
+  const andel=n=>mom?(100*n/mom.totalt).toFixed(1)+"%":"0%";
+  const beskr=mom ? `${mom.stark} av ${mom.totalt} moment starka`
+      +(mom.pagang?`, ${mom.pagang} på gång`:"")+(mom.svag?`, ${mom.svag} behöver träning`:"")
+      +(mom.ny?`, ${mom.ny} ej påbörjade`:"")
+    : l ? `${l.omraden} ${l.omraden===1?"område påbörjat":"områden påbörjade"}` : "";
+  const status = mom && mom.ny<mom.totalt ? `<span class="kursstatus" title="${esc(beskr)}">
+      <span class="kursbar delad">
+        <i class="kb-stark" style="background:${c.tint}" data-w="${andel(mom.stark)}"></i>
+        <i class="kb-pagang" style="background:${c.tint}" data-w="${andel(mom.pagang)}"></i>
+        <i class="kb-svag" data-w="${andel(mom.svag)}"></i>
+      </span>
+      <span class="kursprocent">${mom.stark}/${mom.totalt} starka</span>
+    </span>`
+    : l ? `<span class="kursstatus"><span class="kursprocent kurspaborjad">${esc(beskr)}</span></span>` : "";
   const flera=c.tracks.length>1;
   const last=c.under ? (alfaOpplast(id)?" under opplast":" under") : "";
   const spar=flera?`<div class="sparkoder">${c.tracks.map(t=>{
@@ -6383,7 +6423,7 @@ function kurskortHtml(id,span,nr){
     <span class="kurspil" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
     <div class="kortinne">
       ${spar}
-      <button class="kursoppna" onclick="oppnaKurs('${id}')"${l?` aria-label="${esc(c.name)}, ${pct} procent"`:""}>
+      <button class="kursoppna" onclick="oppnaKurs('${id}')"${beskr?` aria-label="${esc(c.name)}, ${esc(beskr)}"`:""}>
         ${flera?"":`<span class="kurskod" style="background:linear-gradient(160deg,${c.tint},${c.tint}bb)">${esc(c.code)}</span>`}
         <h3>${esc(c.name)}</h3>
         ${c.under?`<span class="kursstampel">Under uppbyggnad</span>`:""}
@@ -7719,6 +7759,7 @@ function renderDashboard(){
   state.view="dashboard";
   const c=COURSES[state.course];
   const kort=getCards(), cp=ensureCourseProfile();
+  sparaKursMoment(kort);
   const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level), st=currentStreak();
   const weak=weakCards(3);
 

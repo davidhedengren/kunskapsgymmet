@@ -3140,40 +3140,50 @@ button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
 @media(max-width:640px){
   .hm-grupp{flex:1 0 100%;justify-content:flex-end}
 }
-.hjalppanel{
-  position:fixed;top:0;right:0;bottom:0;width:var(--hpw,480px);z-index:60;
-  display:flex;flex-direction:column;min-height:0;
-  background:var(--surface);border-left:1px solid var(--hair);box-shadow:var(--e2);
+/* Fristående fönster som går att dra omkring. */
+.hmfonster{
+  position:fixed;z-index:60;display:flex;flex-direction:column;min-height:0;
+  background:color-mix(in srgb,var(--surface) 88%,transparent);
+  backdrop-filter:saturate(180%) blur(22px);-webkit-backdrop-filter:saturate(180%) blur(22px);
+  border:1px solid var(--hair2);border-radius:24px;overflow:hidden;
+  box-shadow:0 1px 0 rgba(255,255,255,.25) inset,0 2px 6px rgba(10,20,35,.10),0 24px 60px -18px rgba(10,20,35,.45);
+  animation:hmfIn .22s var(--ease);
 }
-.hjalppanel[hidden]{display:none}
-.hjalppanel.drar{user-select:none}
-.hp-drag{position:absolute;left:-5px;top:0;bottom:0;width:10px;cursor:ew-resize;z-index:2}
-.hp-drag:hover,.hjalppanel.drar .hp-drag{background:linear-gradient(90deg,transparent 4px,var(--acc) 4px,var(--acc) 6px,transparent 6px)}
-@media(min-width:1000px){
-  body.hjalp-oppen #app{padding-right:var(--hpw,480px)}
-  /* Bara miniräknaren: panelen svävar som ett kort. */
-  .hjalppanel:not(.med-formel){top:84px;right:16px;bottom:auto;width:min(var(--hpw,480px),440px);
-    border:1px solid var(--hair);border-radius:28px;overflow:hidden}
-  .hjalppanel:not(.med-formel) .hp-raknare{border-bottom:0}
-  .hjalppanel:not(.med-formel) .hp-drag{display:none}
-  body.hjalp-oppen:not(:has(.hjalppanel.med-formel)) #app{padding-right:min(var(--hpw,480px),456px)}
-}
-.hp-topp{display:flex;align-items:center;gap:8px;padding:12px 14px 10px}
-.hp-topp .spacer{flex:1}
+@keyframes hmfIn{from{opacity:0;transform:translateY(8px) scale(.98)}}
+.hmfonster[hidden]{display:none}
+.hmfonster.drar{user-select:none;box-shadow:0 1px 0 rgba(255,255,255,.25) inset,0 4px 10px rgba(10,20,35,.14),0 34px 80px -20px rgba(10,20,35,.55)}
+.hm-raknare{width:390px}
+.hmf-topp{display:flex;align-items:center;gap:8px;padding:10px 12px 9px 8px;cursor:grab;touch-action:none;flex:none}
+.hmfonster.drar .hmf-topp{cursor:grabbing}
+.hmf-topp .spacer{flex:1}
+.hmf-grepp{width:20px;height:20px;color:var(--ink3);opacity:.6;flex:none;display:grid;place-items:center}
+.hmf-grepp svg{width:16px;height:16px}
 .hp-titel{display:grid;min-width:0}
 .hp-titel small{font-size:12px;color:var(--ink3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.hp-liten,.hp-stang{width:32px;height:32px;border-radius:10px;font-size:15px;text-decoration:none;flex:none}
-.hp-not{margin:0 14px 8px;font-size:12.5px;color:var(--ink3)}
-.hp-not[hidden]{display:none}
-.hp-raknare{flex:none;border-bottom:1px solid var(--hair)}
-.hp-raknare[hidden],.hp-formel[hidden]{display:none}
-.hp-formel{flex:1 1 auto;min-height:0;display:flex;flex-direction:column}
-.hp-sidor{flex:1 1 auto;min-height:0;overflow:auto;scrollbar-gutter:stable;padding:4px 12px 16px;background:var(--surface2)}
+.hp-liten,.hp-stang{width:30px;height:30px;border-radius:10px;font-size:14px;text-decoration:none;flex:none}
+.hp-zoom{display:flex;align-items:center;padding:2px;border-radius:10px;background:var(--surface2);
+  box-shadow:inset 0 0 0 1px var(--hair);flex:none}
+.hp-zoom button{border:0;background:none;color:var(--ink2);height:26px;min-width:26px;border-radius:8px;
+  font:600 15px var(--ui);cursor:pointer}
+.hp-zoom button:hover{background:var(--surface);color:var(--ink)}
+.hp-zoom .hp-procent{font-size:11.5px;min-width:48px;font-variant-numeric:tabular-nums}
+.hm-formel{min-width:280px;min-height:220px}
+.hp-sidor{flex:1 1 auto;min-height:0;overflow:auto;padding:2px 12px 16px;background:var(--surface2);
+  touch-action:pan-x pan-y;overscroll-behavior:contain}
 .hp-sidor canvas{display:block;margin:10px auto 0;border-radius:6px;background:#fff;box-shadow:var(--e1)}
 .hp-sidor .empty{padding:24px 8px;text-align:center;color:var(--ink3);font-size:13.5px}
+.hmf-storlek{position:absolute;right:0;bottom:0;width:22px;height:22px;cursor:nwse-resize;touch-action:none;
+  background:linear-gradient(135deg,transparent 52%,var(--ink3) 52%,var(--ink3) 58%,transparent 58%,transparent 68%,var(--ink3) 68%,var(--ink3) 74%,transparent 74%);
+  opacity:.55;border-bottom-right-radius:24px}
+.hmf-storlek:hover{opacity:.9}
+.rk-sparr{display:none}
+.hm-raknare.sparrad .rk-sparr{display:block;position:absolute;inset:auto 22px 22px;padding:12px 14px;border-radius:14px;
+  text-align:center;font:600 13px var(--ui);color:var(--ink);background:var(--surface);box-shadow:var(--e2)}
+.hm-raknare.sparrad .rk-tangenter,.hm-raknare.sparrad .rk-skarm{opacity:.35;pointer-events:none}
+.hm-raknare .rk-kropp{position:relative}
 
 /* ── Miniräknaren: en fysisk apparat med upphöjda tangenter ── */
-.hp-raknare{
+.hm-raknare{
   --rk-font:-apple-system,"SF Pro Display","SF Pro Text",var(--ui);
   --rk-kropp:linear-gradient(180deg,#FDFEFF 0%,#EEF1F6 55%,#E6EAF1 100%);
   --rk-kant:inset 0 1px 0 rgba(255,255,255,.95),inset 0 0 0 1px rgba(20,35,60,.06);
@@ -3188,7 +3198,7 @@ button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
   --rk-topp:rgba(255,255,255,.9);--rk-botten:rgba(20,35,60,.10);
   --rk-tskugga:0 1px 1px rgba(20,35,60,.10),0 4px 9px -4px rgba(20,35,60,.30);
 }
-html[data-theme="dark"] .hp-raknare{
+html[data-theme="dark"] .hm-raknare{
   --rk-kropp:linear-gradient(180deg,#2A303B 0%,#1C2028 55%,#15181E 100%);
   --rk-kant:inset 0 1px 0 rgba(255,255,255,.09),inset 0 0 0 1px rgba(255,255,255,.04);
   --rk-skugga:0 1px 2px rgba(0,0,0,.4),0 12px 26px -10px rgba(0,0,0,.6),0 30px 60px -30px rgba(0,0,0,.8);
@@ -3211,7 +3221,7 @@ html[data-theme="dark"] .hp-raknare{
   color:var(--ink3);cursor:pointer;transition:color .2s}
 .rk-seg button[aria-pressed="true"]{color:var(--ink)}
 
-.rk-kropp{margin:0 12px 14px;padding:12px;border-radius:26px;background:var(--rk-kropp);
+.rk-kropp{margin:0 12px 12px;padding:12px;border-radius:26px;background:var(--rk-kropp);
   box-shadow:var(--rk-kant),var(--rk-skugga)}
 .rk-skarm{padding:9px 14px 7px;border-radius:17px;background:var(--rk-skarm);box-shadow:var(--rk-skarm-s)}
 .rk-hist{max-height:58px;overflow:auto;display:grid;gap:1px;justify-items:end;scrollbar-width:none}
@@ -3248,14 +3258,8 @@ html[data-theme="dark"] .hp-raknare{
 .rk-tangenter .lika{grid-column:span 2}
 .rk-tangenter .noll{grid-column:span 2}
 
-@media(max-width:999px){
-  .hjalppanel{top:auto;left:0;width:auto;height:auto;max-height:min(66vh,620px);overflow-y:auto;
-    border-left:0;border-top:1px solid var(--hair);border-radius:22px 22px 0 0}
-  .hjalppanel.med-formel{height:min(66vh,620px)}
-  .hp-drag{display:none}
-  .hp-formel{flex:none}
-  .hp-sidor{overflow:visible;min-height:200px}
-  body.hjalp-oppen #app{padding-bottom:var(--hph,0px)}
+@media(max-width:640px){
+  .hm-raknare{width:calc(100vw - 16px)}
   .rk-tangenter{gap:7px}
   .rk-tangenter button{height:40px}
 }
@@ -13732,10 +13736,12 @@ async function kgAdminSlaIhop(fran,till){
   if(host) kgAdminRitaSkolor(host);
 }
 /* ===== Hjälpmedel under träningen: formelblad och miniräknare =====
-   Panelen ligger utanför #app så att formelbladet inte ritas om vid varje
-   uppgift. Formelbladen är Skolverkets PDF:er i mappen formelblad/ och ritas
-   med pdf.js, som laddas först när ett formelblad öppnas. Miniräknaren finns
-   bara på uppgifter med "miniräknare": true. */
+   Två fristående fönster som går att dra omkring (i rubrikraden). Formelbladet
+   går också att ändra storlek på (hörnet nere till höger) och zooma i (knappar,
+   Ctrl/⌘ + scroll, nyp med två fingrar, dubbelklick). Fönstren ligger utanför
+   #app så att de inte ritas om vid varje uppgift. Formelbladen är Skolverkets
+   PDF:er i mappen formelblad/ och ritas med pdf.js, som laddas först när ett
+   formelblad öppnas. Miniräknaren är tillåten på uppgifter med "miniräknare": true. */
 const FORMELBLAD={
   ma1:  {fil:"formelblad/ma1.pdf",  namn:"Matematik 1"},
   ma2:  {fil:"formelblad/ma2.pdf",  namn:"Matematik nivå 2 och Matematik 2"},
@@ -13745,21 +13751,24 @@ const FORMELBLAD={
 };
 const PDFJS_URL="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js";
 const PDFJS_WORKER="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js";
-const HJALP_KEY="kunskapsgymmet-hjalpmedel";
-const HJALP_ZOOM=[1,1.35,1.7,2.2];
-const hjalp={formel:false,raknare:false,bredd:480,zoom:0,grader:true};
+const HJALP_KEY="kunskapsgymmet-hjalpmedel2";
+const ZOOM_MIN=0.5, ZOOM_MAX=4;
+const hjalp={formel:false,raknare:false,zoom:1,grader:true,pos:{}};
 try{ const s=JSON.parse(localStorage.getItem(HJALP_KEY)||"{}");
-  ["bredd","zoom","grader"].forEach(k=>{ if(k in s) hjalp[k]=s[k]; }); }catch(_){}
+  ["zoom","grader","pos"].forEach(k=>{ if(k in s) hjalp[k]=s[k]; }); }catch(_){}
+if(!(hjalp.zoom>=ZOOM_MIN && hjalp.zoom<=ZOOM_MAX)) hjalp.zoom=1;
+if(!hjalp.pos || typeof hjalp.pos!=="object") hjalp.pos={};
 function hjalpSpara(){
-  try{ localStorage.setItem(HJALP_KEY,JSON.stringify({bredd:hjalp.bredd,zoom:hjalp.zoom,grader:hjalp.grader})); }catch(_){}
+  try{ localStorage.setItem(HJALP_KEY,JSON.stringify({zoom:hjalp.zoom,grader:hjalp.grader,pos:hjalp.pos})); }catch(_){}
 }
 
 const HJALP_IKON={
   formel:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5h9l3.5 3.5v13.5H6z"/><path d="M14.5 3.5V7.5h4"/><path d="M9 12.5h3.2M10.6 10.9v3.2M9 17h3.2M14.2 11.4l2 2.2M16.2 11.4l-2 2.2M14 16.4h2.4M14 17.8h2.4"/></svg>`,
-  raknare:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2.6"/><rect x="8" y="6" width="8" height="3.4" rx=".8"/><path d="M8.6 13h.01M12 13h.01M15.4 13h.01M8.6 16.6h.01M12 16.6h.01M15.4 16.6h.01"/></svg>`
+  raknare:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2.6"/><rect x="8" y="6" width="8" height="3.4" rx=".8"/><path d="M8.6 13h.01M12 13h.01M15.4 13h.01M8.6 16.6h.01M12 16.6h.01M15.4 16.6h.01"/></svg>`,
+  greppa:`<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="9" cy="7" r="1.4"/><circle cx="15" cy="7" r="1.4"/><circle cx="9" cy="12" r="1.4"/><circle cx="15" cy="12" r="1.4"/><circle cx="9" cy="17" r="1.4"/><circle cx="15" cy="17" r="1.4"/></svg>`
 };
 
-/* Knapparna i uppgiftens topprad. */
+/* Knapparna i svarsraden. */
 function hjalpKnappar(t){
   const k=[];
   if(FORMELBLAD[state.course]) k.push(`<button class="btn hmknapp${hjalp.formel?" pa":""}" data-hjalp="formel"
@@ -13774,44 +13783,129 @@ function hjalpVaxla(vad){
     b.classList.toggle("pa",hjalp[vad]); b.setAttribute("aria-pressed",String(hjalp[vad]));
   });
   hjalpSynk();
+  const f=document.getElementById(vad==="formel"?"hm-formel":"hm-raknare");
+  if(hjalp[vad] && f) hjalpFram(f);
   if(vad==="raknare" && hjalp.raknare && !matchMedia("(pointer:coarse)").matches)
     setTimeout(()=>document.getElementById("rk-in")?.focus(),30);
 }
 
-/* Visar eller döljer panelen efter vyn och uppgiften. Körs varje gång #app ritas om. */
+/* Visar eller döljer fönstren efter vyn och uppgiften. Körs varje gång #app ritas om. */
 function hjalpSynk(){
   const t=state.view==="training"?state.currentTask:null;
   const fb=t?FORMELBLAD[state.course]:null;
-  const kanRaknare=!!(t && t["miniräknare"]===true);
-  const visaF=!!fb && hjalp.formel, visaR=kanRaknare && hjalp.raknare;
-  let p=document.getElementById("hjalppanel");
-  if(!visaF && !visaR){
-    if(p) p.hidden=true;
-    document.body.classList.remove("hjalp-oppen");
-    return;
-  }
-  if(!p) p=hjalpSkapaPanel();
-  p.hidden=false;
-  document.body.classList.add("hjalp-oppen");
-  document.documentElement.style.setProperty("--hpw",hjalpBredd()+"px");
-  p.querySelector("#hp-raknare").hidden=!visaR;
-  p.querySelector("#hp-formel").hidden=!visaF;
-  p.classList.toggle("med-formel",visaF);
-  requestAnimationFrame(()=>document.documentElement.style.setProperty("--hph",p.offsetHeight+"px"));
-  p.querySelector("#hp-ingen-raknare").hidden=!(hjalp.raknare && !kanRaknare && t && "miniräknare" in t);
+  const visaF=!!fb && hjalp.formel;
+  const visaR=!!t && hjalp.raknare && (t["miniräknare"]===true || "miniräknare" in t);
+  const tillaten=!!t && t["miniräknare"]===true;
+
+  let r=document.getElementById("hm-raknare");
+  if(visaR){
+    if(!r) r=hjalpSkapaRaknare();
+    r.hidden=false;
+    r.classList.toggle("sparrad",!tillaten);
+    r.querySelectorAll(".rk-tangenter button,#rk-in").forEach(el=>{ el.disabled=!tillaten; });
+    hjalpPlacera(r);
+  }else if(r) r.hidden=true;
+
+  let f=document.getElementById("hm-formel");
   if(visaF){
-    p.querySelector("#hp-formelnamn").textContent=fb.namn;
-    p.querySelector("#hp-pdf").href=fb.fil;
+    if(!f) f=hjalpSkapaFormel();
+    f.hidden=false;
+    f.querySelector("#hp-formelnamn").textContent=fb.namn;
+    f.querySelector("#hp-pdf").href=fb.fil;
+    hjalpPlacera(f);
     formelRita();
-  }
-}
-function hjalpBredd(){
-  return Math.round(Math.max(340,Math.min(hjalp.bredd,900,window.innerWidth*0.62)));
+  }else if(f) f.hidden=true;
 }
 
-function hjalpSkapaPanel(){
-  const p=document.createElement("aside");
-  p.id="hjalppanel"; p.className="hjalppanel"; p.setAttribute("aria-label","Hjälpmedel");
+/* ── Fönstren: position, storlek, dra och släpp ── */
+let hjalpZ=60;
+function hjalpFram(f){ f.style.zIndex=String(++hjalpZ); if(hjalpZ>68){ hjalpZ=61; document.querySelectorAll(".hmfonster").forEach(x=>x.style.zIndex="60"); f.style.zIndex="61"; } }
+function hjalpStandard(f){
+  const W=window.innerWidth, H=window.innerHeight, smal=W<640;
+  if(f.id==="hm-formel"){
+    const w=smal?W-16:Math.min(560,Math.max(360,W*0.36));
+    const h=smal?Math.round(H*0.55):H-100;
+    return {x:W-w-(smal?8:16),y:smal?64:84,w,h};
+  }
+  const w=smal?W-16:390, h=f.offsetHeight||560;
+  const formel=document.getElementById("hm-formel");
+  let x=W-w-16;
+  if(!smal && formel && !formel.hidden){
+    const fr=formel.getBoundingClientRect();
+    x=fr.left-w-14; if(x<16) x=16;
+  }
+  return {x:smal?8:x,y:Math.max(70,H-h-16),w};
+}
+function hjalpPlacera(f){
+  const nyckel=f.id==="hm-formel"?"formel":"raknare";
+  const p={...hjalpStandard(f),...(hjalp.pos[nyckel]||{})};
+  const W=window.innerWidth, H=window.innerHeight;
+  if(p.w){ p.w=Math.max(f.id==="hm-formel"?280:300,Math.min(p.w,W-16)); f.style.width=p.w+"px"; }
+  if(p.h && f.id==="hm-formel"){ p.h=Math.max(220,Math.min(p.h,H-16)); f.style.height=p.h+"px"; }
+  const bredd=f.offsetWidth||p.w||300;
+  p.x=Math.max(8-bredd+120,Math.min(p.x,W-120));
+  p.y=Math.max(8,Math.min(p.y,H-56));
+  f.style.left=Math.round(p.x)+"px"; f.style.top=Math.round(p.y)+"px";
+}
+function hjalpSparaPos(f){
+  const nyckel=f.id==="hm-formel"?"formel":"raknare";
+  const r=f.getBoundingClientRect();
+  hjalp.pos[nyckel]={x:Math.round(r.left),y:Math.round(r.top),w:Math.round(r.width),
+    ...(nyckel==="formel"?{h:Math.round(r.height)}:{})};
+  hjalpSpara();
+}
+/* Gör fönstret flyttbart i rubriken och, för formelbladet, storleksändringsbart i hörnet. */
+function hjalpDragbar(f){
+  f.addEventListener("pointerdown",()=>hjalpFram(f),true);
+  const topp=f.querySelector(".hmf-topp");
+  topp.addEventListener("pointerdown",e=>{
+    if(e.button!==0 || e.target.closest("button,a,input")) return;
+    e.preventDefault();
+    const r=f.getBoundingClientRect(), dx=e.clientX-r.left, dy=e.clientY-r.top;
+    topp.setPointerCapture(e.pointerId); f.classList.add("drar");
+    const flytta=ev=>{
+      const W=window.innerWidth, H=window.innerHeight;
+      const x=Math.max(8-r.width+120,Math.min(ev.clientX-dx,W-120));
+      const y=Math.max(8,Math.min(ev.clientY-dy,H-56));
+      f.style.left=x+"px"; f.style.top=y+"px";
+    };
+    const slapp=()=>{
+      topp.removeEventListener("pointermove",flytta); f.classList.remove("drar"); hjalpSparaPos(f);
+    };
+    topp.addEventListener("pointermove",flytta);
+    topp.addEventListener("pointerup",slapp,{once:true});
+    topp.addEventListener("pointercancel",slapp,{once:true});
+  });
+  const horn=f.querySelector(".hmf-storlek"); if(!horn) return;
+  horn.addEventListener("pointerdown",e=>{
+    e.preventDefault(); e.stopPropagation();
+    const r=f.getBoundingClientRect(), x0=e.clientX, y0=e.clientY;
+    horn.setPointerCapture(e.pointerId); f.classList.add("drar");
+    const andra=ev=>{
+      f.style.width=Math.max(280,Math.min(r.width+ev.clientX-x0,window.innerWidth-r.left-8))+"px";
+      f.style.height=Math.max(220,Math.min(r.height+ev.clientY-y0,window.innerHeight-r.top-8))+"px";
+    };
+    const slapp=()=>{
+      horn.removeEventListener("pointermove",andra); f.classList.remove("drar"); hjalpSparaPos(f); formelRita();
+    };
+    horn.addEventListener("pointermove",andra);
+    horn.addEventListener("pointerup",slapp,{once:true});
+    horn.addEventListener("pointercancel",slapp,{once:true});
+  });
+}
+let hjalpResizeTimer=null;
+window.addEventListener("resize",()=>{
+  clearTimeout(hjalpResizeTimer);
+  hjalpResizeTimer=setTimeout(()=>{
+    document.querySelectorAll(".hmfonster:not([hidden])").forEach(hjalpPlacera);
+    formelRita();
+  },200);
+});
+new MutationObserver(hjalpSynk).observe(app,{childList:true});
+
+function hjalpSkapaRaknare(){
+  const f=document.createElement("section");
+  f.id="hm-raknare"; f.className="hmfonster hm-raknare"; f.setAttribute("aria-label","Miniräknare");
   const tang=[
     ["sin","sin(","fn"],["cos","cos(","fn"],["tan","tan(","fn"],["ln","ln(","fn"],["log","log(","fn"],["√","√(","fn"],
     ["sin⁻¹","sin⁻¹(","fn"],["cos⁻¹","cos⁻¹(","fn"],["tan⁻¹","tan⁻¹(","fn"],["eˣ","e^(","fn"],["10ˣ","10^(","fn"],["x²","²","fn"],
@@ -13821,15 +13915,14 @@ function hjalpSkapaPanel(){
     ["1","1"],["2","2"],["3","3"],["Ans","Ans","fn"],["×10ⁿ","·10^(","fn"],["−","−","op"],
     ["0","0","noll"],[",",","],["=","lika","lika"],["+","+","op"]
   ];
-  p.innerHTML=`<div class="hp-drag" title="Dra för att ändra bredden" aria-hidden="true"></div>
-    <section class="hp-raknare" id="hp-raknare" hidden aria-label="Miniräknare">
-      <div class="hp-topp"><b>Miniräknare</b>
-        <div class="rk-seg${hjalp.grader?"":" rad"}" id="rk-lage" role="group" aria-label="Vinkelenhet">
-          <button type="button" onclick="raknVaxlaLage(true)" aria-pressed="${hjalp.grader}">Grader</button>
-          <button type="button" onclick="raknVaxlaLage(false)" aria-pressed="${!hjalp.grader}">Radianer</button></div>
-        <span class="spacer"></span>
-        <button class="iconbtn hp-stang" onclick="hjalpVaxla('raknare')" aria-label="Stäng miniräknaren">✕</button></div>
-      <div class="rk-kropp">
+  f.innerHTML=`<div class="hmf-topp" title="Dra för att flytta">
+      <span class="hmf-grepp" aria-hidden="true">${HJALP_IKON.greppa}</span><b>Miniräknare</b>
+      <div class="rk-seg${hjalp.grader?"":" rad"}" id="rk-lage" role="group" aria-label="Vinkelenhet">
+        <button type="button" onclick="raknVaxlaLage(true)" aria-pressed="${hjalp.grader}">Grader</button>
+        <button type="button" onclick="raknVaxlaLage(false)" aria-pressed="${!hjalp.grader}">Radianer</button></div>
+      <span class="spacer"></span>
+      <button class="iconbtn hp-stang" onclick="hjalpVaxla('raknare')" aria-label="Stäng miniräknaren">✕</button></div>
+    <div class="rk-kropp">
       <div class="rk-skarm">
         <div class="rk-hist" id="rk-hist"></div>
         <input id="rk-in" class="rk-in" autocomplete="off" spellcheck="false" aria-label="Uträkning"
@@ -13838,59 +13931,47 @@ function hjalpSkapaPanel(){
       </div>
       <div class="rk-tangenter">${tang.map(([txt,v,kl])=>
         `<button type="button" class="${kl||""}" data-v="${esc(v)}">${txt}</button>`).join("")}</div>
-      </div>
-    </section>
-    <section class="hp-formel" id="hp-formel" hidden aria-label="Formelblad">
-      <div class="hp-topp"><span class="hp-titel"><b>Formelblad</b><small id="hp-formelnamn"></small></span>
-        <span class="spacer"></span>
-        <button class="iconbtn hp-liten" onclick="formelZooma(-1)" aria-label="Förminska">−</button>
-        <button class="iconbtn hp-liten" onclick="formelZooma(1)" aria-label="Förstora">+</button>
-        <a class="iconbtn hp-liten" id="hp-pdf" target="_blank" rel="noopener" title="Öppna som PDF" aria-label="Öppna som PDF">↗</a>
-        <button class="iconbtn hp-stang" onclick="hjalpVaxla('formel')" aria-label="Stäng formelbladet">✕</button></div>
-      <p class="hp-not" id="hp-ingen-raknare" hidden>Miniräknare är inte tillåten på den här uppgiften.</p>
-      <div class="hp-sidor" id="hp-sidor"></div>
-    </section>`;
-  document.body.appendChild(p);
-
-  p.querySelector(".rk-tangenter").addEventListener("click",e=>{
+      <div class="rk-sparr">Miniräknare är inte tillåten på den här uppgiften.</div>
+    </div>`;
+  document.body.appendChild(f);
+  f.querySelector(".rk-tangenter").addEventListener("click",e=>{
     const b=e.target.closest("button[data-v]"); if(b) raknTangent(b.dataset.v);
   });
-  const inp=p.querySelector("#rk-in");
+  const inp=f.querySelector("#rk-in");
   inp.addEventListener("input",()=>{ rk.klar=false; raknForhands(); });
   inp.addEventListener("keydown",e=>{
     if(e.key==="Enter"){ e.preventDefault(); raknTangent("lika"); }
     else if(e.key==="Escape"){ e.preventDefault(); raknTangent("rensa"); }
     else if(rk.klar && e.key.length===1){
-      if("+-*/^!²".includes(e.key)){ inp.value="Ans"; }
-      else{ inp.value=""; }
+      inp.value="+-*/^!²".includes(e.key)?"Ans":"";
       rk.klar=false;
     }
   });
-
-  /* Bredden ändras genom att dra i vänsterkanten. */
-  const drag=p.querySelector(".hp-drag");
-  drag.addEventListener("pointerdown",e=>{
-    e.preventDefault(); drag.setPointerCapture(e.pointerId); p.classList.add("drar");
-    const flytta=ev=>{
-      hjalp.bredd=window.innerWidth-ev.clientX;
-      document.documentElement.style.setProperty("--hpw",hjalpBredd()+"px");
-    };
-    const slapp=()=>{
-      drag.removeEventListener("pointermove",flytta); p.classList.remove("drar");
-      hjalp.bredd=hjalpBredd(); hjalpSpara(); formelRita();
-    };
-    drag.addEventListener("pointermove",flytta);
-    drag.addEventListener("pointerup",slapp,{once:true});
-    drag.addEventListener("pointercancel",slapp,{once:true});
-  });
-  return p;
+  hjalpDragbar(f);
+  return f;
 }
-let hjalpResizeTimer=null;
-window.addEventListener("resize",()=>{
-  clearTimeout(hjalpResizeTimer);
-  hjalpResizeTimer=setTimeout(()=>{ if(document.body.classList.contains("hjalp-oppen")) hjalpSynk(); },200);
-});
-new MutationObserver(hjalpSynk).observe(app,{childList:true});
+
+function hjalpSkapaFormel(){
+  const f=document.createElement("section");
+  f.id="hm-formel"; f.className="hmfonster hm-formel"; f.setAttribute("aria-label","Formelblad");
+  f.innerHTML=`<div class="hmf-topp" title="Dra för att flytta">
+      <span class="hmf-grepp" aria-hidden="true">${HJALP_IKON.greppa}</span>
+      <span class="hp-titel"><b>Formelblad</b><small id="hp-formelnamn"></small></span>
+      <span class="spacer"></span>
+      <div class="hp-zoom" role="group" aria-label="Zoom">
+        <button type="button" onclick="formelZooma(1/1.25)" aria-label="Zooma ut">−</button>
+        <button type="button" class="hp-procent" id="hp-procent" onclick="formelZoomaTill(1)" title="Anpassa till bredden">100 %</button>
+        <button type="button" onclick="formelZooma(1.25)" aria-label="Zooma in">+</button>
+      </div>
+      <a class="iconbtn hp-liten" id="hp-pdf" target="_blank" rel="noopener" title="Öppna som PDF" aria-label="Öppna som PDF">↗</a>
+      <button class="iconbtn hp-stang" onclick="hjalpVaxla('formel')" aria-label="Stäng formelbladet">✕</button></div>
+    <div class="hp-sidor" id="hp-sidor"></div>
+    <div class="hmf-storlek" title="Dra för att ändra storlek" aria-hidden="true"></div>`;
+  document.body.appendChild(f);
+  hjalpDragbar(f);
+  formelZoomGester(f.querySelector("#hp-sidor"));
+  return f;
+}
 
 /* ── Formelbladet ── */
 let pdfjsLaddar=null;
@@ -13906,40 +13987,100 @@ function laddaPdfjs(){
   });
   return pdfjsLaddar;
 }
-function formelZooma(steg){
-  hjalp.zoom=Math.max(0,Math.min(HJALP_ZOOM.length-1,(Number(hjalp.zoom)||0)+steg));
-  hjalpSpara(); formelRita();
+function formelPassning(box){ return Math.max(200,box.clientWidth-24); }
+function formelVisaProcent(){
+  const el=document.getElementById("hp-procent"); if(el) el.textContent=Math.round(hjalp.zoom*100)+" %";
 }
+/* Zoomar direkt genom att skala sidorna med CSS, och ritar sedan om skarpt.
+   Punkten (px,py) i rutan står still medan man zoomar. */
+let formelSkarpTimer=null;
+function formelZoomaTill(ny,px,py){
+  const box=document.getElementById("hp-sidor"); if(!box) return;
+  ny=Math.max(ZOOM_MIN,Math.min(ZOOM_MAX,ny));
+  const gammal=hjalp.zoom; if(Math.abs(ny-gammal)<1e-4) return;
+  if(px===undefined){ px=box.clientWidth/2; py=box.clientHeight/2; }
+  const kvot=ny/gammal, sx=box.scrollLeft+px, sy=box.scrollTop+py;
+  hjalp.zoom=ny; formelVisaProcent();
+  const bredd=formelPassning(box)*ny;
+  box.querySelectorAll("canvas").forEach(c=>{
+    const a=Number(c.dataset.aspekt)||1.414;
+    c.style.width=Math.round(bredd)+"px"; c.style.height=Math.round(bredd*a)+"px";
+  });
+  box.scrollLeft=sx*kvot-px; box.scrollTop=sy*kvot-py;
+  clearTimeout(formelSkarpTimer);
+  formelSkarpTimer=setTimeout(()=>{ hjalpSpara(); formelRita(); },220);
+}
+function formelZooma(faktor){ formelZoomaTill(hjalp.zoom*faktor); }
+function formelZoomGester(box){
+  box.addEventListener("wheel",e=>{
+    if(!e.ctrlKey && !e.metaKey) return;
+    e.preventDefault();
+    const r=box.getBoundingClientRect();
+    formelZoomaTill(hjalp.zoom*Math.exp(-e.deltaY*0.0022),e.clientX-r.left,e.clientY-r.top);
+  },{passive:false});
+  box.addEventListener("dblclick",e=>{
+    const r=box.getBoundingClientRect();
+    formelZoomaTill(hjalp.zoom<1.6?2:1,e.clientX-r.left,e.clientY-r.top);
+  });
+  /* Nyp med två fingrar. */
+  const fingrar=new Map(); let start=null;
+  const avstand=()=>{ const [a,b]=[...fingrar.values()]; return Math.hypot(a.x-b.x,a.y-b.y); };
+  const mitt=()=>{ const [a,b]=[...fingrar.values()], r=box.getBoundingClientRect();
+    return {x:(a.x+b.x)/2-r.left,y:(a.y+b.y)/2-r.top}; };
+  box.addEventListener("pointerdown",e=>{
+    if(e.pointerType!=="touch") return;
+    fingrar.set(e.pointerId,{x:e.clientX,y:e.clientY});
+    if(fingrar.size===2) start={d:avstand(),z:hjalp.zoom};
+  });
+  box.addEventListener("pointermove",e=>{
+    if(!fingrar.has(e.pointerId)) return;
+    fingrar.set(e.pointerId,{x:e.clientX,y:e.clientY});
+    if(fingrar.size===2 && start){
+      e.preventDefault();
+      const m=mitt(); formelZoomaTill(start.z*avstand()/start.d,m.x,m.y);
+    }
+  });
+  const slut=e=>{ fingrar.delete(e.pointerId); if(fingrar.size<2) start=null; };
+  box.addEventListener("pointerup",slut); box.addEventListener("pointercancel",slut);
+}
+/* Ritar sidorna skarpt för aktuell zoom och bredd. Finns sidorna redan byts de
+   ut en i taget på plats, så att rullningen står still. */
+let formelRitning=0;
 async function formelRita(){
   const kurs=state.course, fb=FORMELBLAD[kurs];
-  const box=document.getElementById("hp-sidor"); if(!fb || !box) return;
-  const zoom=HJALP_ZOOM[Number(hjalp.zoom)||0]||1;
-  const bredd=Math.max(260,box.clientWidth-24)*zoom;
-  const nyckel=kurs+"|"+zoom+"|"+Math.round(bredd/24);
+  const box=document.getElementById("hp-sidor"); if(!fb || !box || box.closest("[hidden]")) return;
+  formelVisaProcent();
+  const bredd=formelPassning(box)*hjalp.zoom;
+  const nyckel=kurs+"|"+Math.round(bredd);
   if(box.dataset.nyckel===nyckel) return;
   box.dataset.nyckel=nyckel;
-  if(!box.children.length || box.dataset.kurs!==kurs) box.innerHTML='<div class="empty">Hämtar formelbladet …</div>';
+  const nr=++formelRitning;
+  const finns=box.dataset.kurs===kurs && box.querySelector("canvas");
+  if(!finns) box.innerHTML='<div class="empty">Hämtar formelbladet …</div>';
   try{
     const lib=await laddaPdfjs();
     if(!formelDok[kurs]) formelDok[kurs]=lib.getDocument(fb.fil).promise.catch(e=>{ delete formelDok[kurs]; throw e; });
     const dok=await formelDok[kurs];
     const dpr=Math.min(window.devicePixelRatio||1,2);
+    if(!finns){ box.innerHTML=""; box.dataset.kurs=kurs; }
     for(let i=1;i<=dok.numPages;i++){
       const sida=await dok.getPage(i);
-      if(box.dataset.nyckel!==nyckel) return;
-      const v1=sida.getViewport({scale:1}), skala=bredd/v1.width;
-      const vp=sida.getViewport({scale:skala*dpr});
+      if(nr!==formelRitning) return;
+      const v1=sida.getViewport({scale:1}), aspekt=v1.height/v1.width;
+      const b=formelPassning(box)*hjalp.zoom, skala=b/v1.width;
+      const vp=sida.getViewport({scale:skala*Math.min(dpr,3600/b)});
       const c=document.createElement("canvas");
       c.width=Math.floor(vp.width); c.height=Math.floor(vp.height);
-      c.style.width=Math.round(bredd)+"px"; c.style.height=Math.round(v1.height*skala)+"px";
+      c.dataset.aspekt=String(aspekt);
+      c.style.width=Math.round(b)+"px"; c.style.height=Math.round(b*aspekt)+"px";
       c.setAttribute("role","img"); c.setAttribute("aria-label",`Formelblad, sida ${i} av ${dok.numPages}`);
       await sida.render({canvasContext:c.getContext("2d"),viewport:vp}).promise;
-      if(box.dataset.nyckel!==nyckel) return;
-      if(i===1){ box.innerHTML=""; box.dataset.kurs=kurs; }
-      box.appendChild(c);
+      if(nr!==formelRitning) return;
+      const gammal=box.querySelectorAll("canvas")[i-1];
+      if(gammal) gammal.replaceWith(c); else box.appendChild(c);
     }
   }catch(_){
-    if(box.dataset.nyckel!==nyckel) return;
+    if(nr!==formelRitning) return;
     box.dataset.nyckel="";
     box.innerHTML=`<div class="empty">Formelbladet kunde inte visas här.
       <a href="${fb.fil}" target="_blank" rel="noopener">Öppna det som PDF</a>.</div>`;

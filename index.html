@@ -2822,6 +2822,17 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   content:"";position:absolute;inset:9px;border-radius:50%;border:1.5px solid rgba(255,255,255,.45);
 }
 .cheer-medal .marke{width:38px;max-width:none;stroke-width:1.7}
+.cheer-card.flera{width:min(600px,100%);padding-top:30px}
+.cheer-flera{display:flex;flex-wrap:wrap;justify-content:center;gap:18px 14px;margin:20px 0 4px;
+  max-height:min(52vh,460px);overflow-y:auto;padding:6px 2px}
+.cf-medalj{flex:0 1 118px;display:grid;justify-items:center;gap:6px;text-align:center;opacity:0;transform:translateY(10px) scale(.9)}
+.cheer.show .cf-medalj{animation:cfIn .5s var(--ease) forwards}
+@keyframes cfIn{to{opacity:1;transform:none}}
+.cf-medalj .cheer-medal{width:68px;height:68px;font-size:26px;margin-bottom:4px}
+.cf-medalj .cheer-medal .marke{width:30px}
+.cf-medalj b{font-size:14.5px;letter-spacing:-.02em}
+.cf-medalj small{font-size:12px;line-height:1.35;color:var(--ink3);font-family:var(--read)}
+.cheer-card.flera h2{margin-top:4px}
 .cheer-label{font-size:12.5px;color:var(--gold);font-weight:600;letter-spacing:-.01em}
 .cheer-card h2{margin:9px 0 0;font-size:25px;letter-spacing:-.045em}
 .cheer-card p{margin:8px 0 0;color:var(--ink2);font-family:var(--read);font-size:14.5px;letter-spacing:0}
@@ -3971,8 +3982,8 @@ function hamtaToppMedaljer(){
     }
     syncRevision=r.revision;
     cacheCloudProfile();
-    nya.map(k=>BADGES.find(b=>b.id===k)).filter(Boolean).forEach((b,i)=>
-      setTimeout(()=>cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc),1800+i*2600));
+    const nyaMedaljer=nya.map(k=>BADGES.find(b=>b.id===k)).filter(Boolean);
+    if(nyaMedaljer.length) setTimeout(()=>cheerMedaljer(nyaMedaljer),1800);
     return r;
   });
 }
@@ -4579,7 +4590,7 @@ function checkBadges(fordroj=0){
   const agare=ggAgare();
   const visa=()=>{
     if(agare!==ggAgare()) return;
-    gained.forEach(b=>cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc));
+    cheerMedaljer(gained);
   };
   if(gained.length){
     saveProfile();
@@ -4640,6 +4651,15 @@ function toast(msg,ms=1800){
   toast._t=setTimeout(()=>el.classList.remove("show"),ms);
 }
 const cheerQueue=[];
+/* Flera nya medaljer samtidigt visas på ett kort, sida vid sida. */
+function cheerMedaljer(lista){
+  lista=(lista||[]).filter(Boolean);
+  if(!lista.length) return;
+  if(lista.length===1){ const b=lista[0]; cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc); return; }
+  cheerQueue.push({typ:"flera",label:"Nya medaljer",title:`${lista.length} nya medaljer`,desc:"",
+    items:lista.map(b=>({icon:medaljIkon(b.icon),namn:b.name,desc:b.desc||""}))});
+  if(cheerQueue.length===1) pumpCheer();
+}
 function cheer(icon,label,title,desc,typ){
   cheerQueue.push({icon,label,title,desc:desc||"",typ:typ||"medalj"});
   if(cheerQueue.length===1) pumpCheer();
@@ -4649,18 +4669,20 @@ function pumpCheer(){
   const c=cheerQueue[0];
   if(!c) return;
   const topp = c.typ==="dag" ? dagsRing(c.icon)
+    : c.typ==="flera" ? `<div class="cheer-flera">${c.items.map((m,i)=>`<div class="cf-medalj" style="animation-delay:${(.12+i*.1).toFixed(2)}s">
+          <div class="cheer-medal">${m.icon}</div><b>${esc(m.namn)}</b>${m.desc?`<small>${esc(m.desc)}</small>`:""}</div>`).join("")}</div>`
     : `<div class="cheer-halo"><div class="cheer-medal">${c.icon}</div></div>`;
-  el.innerHTML=`<div class="cheer-card${c.typ==="dag"?" dag":""}">
-      ${topp}
-      <div class="cheer-label">${esc(c.label)}</div>
-      <h2>${esc(c.title)}</h2>
+  const rubrik=`<div class="cheer-label">${esc(c.label)}</div>
+      <h2>${esc(c.title)}</h2>`;
+  el.innerHTML=`<div class="cheer-card${c.typ==="dag"?" dag":""}${c.typ==="flera"?" flera":""}">
+      ${c.typ==="flera" ? rubrik+topp : topp+rubrik}
       ${c.desc?`<p>${esc(c.desc)}</p>`:""}
       <button class="btn primary" onclick="dismissCheer()">Fortsätt</button>
     </div>`;
   el.onclick=e=>{ if(e.target===el) dismissCheer(); };
   requestAnimationFrame(()=>el.classList.add("show"));
   clearTimeout(pumpCheer._t);
-  pumpCheer._t=setTimeout(dismissCheer,6000);
+  pumpCheer._t=setTimeout(dismissCheer, c.typ==="flera" ? Math.min(15000,6000+1500*(c.items.length-1)) : 6000);
 }
 /* Dagens mål visas som en sluten ring med en bit per uppgift, inte som
    en medalj. icon är här antalet uppgifter i dagsmålet. */

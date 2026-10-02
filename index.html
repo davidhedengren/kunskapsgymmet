@@ -3131,6 +3131,76 @@ button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
 .hitta-lista>.lank{justify-self:start}
 #hitta-sok{width:100%;min-width:0}
 .aklass-elev.avstangd{opacity:.6}
+/* ===== Hjälpmedel: formelblad och miniräknare ===== */
+.hmknapp{width:auto;padding:0 12px;display:flex;align-items:center;gap:7px;font:600 13px var(--ui);cursor:pointer;flex:none}
+.hmknapp svg{width:18px;height:18px;flex:none}
+.hmknapp.pa{background:var(--accSoft);color:var(--accInk);border-color:transparent}
+@media(max-width:760px){
+  .hmknapp{width:38px;padding:0;justify-content:center}
+  .hmknapp span{display:none}
+}
+.hjalppanel{
+  position:fixed;top:0;right:0;bottom:0;width:var(--hpw,480px);z-index:60;
+  display:flex;flex-direction:column;min-height:0;
+  background:var(--surface);border-left:1px solid var(--hair);box-shadow:var(--e2);
+}
+.hjalppanel[hidden]{display:none}
+.hjalppanel.drar{user-select:none}
+.hp-drag{position:absolute;left:-5px;top:0;bottom:0;width:10px;cursor:ew-resize;z-index:2}
+.hp-drag:hover,.hjalppanel.drar .hp-drag{background:linear-gradient(90deg,transparent 4px,var(--acc) 4px,var(--acc) 6px,transparent 6px)}
+@media(min-width:1000px){
+  body.hjalp-oppen #app{padding-right:var(--hpw,480px)}
+}
+.hp-topp{display:flex;align-items:center;gap:8px;padding:12px 14px 10px}
+.hp-topp .spacer{flex:1}
+.hp-titel{display:grid;min-width:0}
+.hp-titel small{font-size:12px;color:var(--ink3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hp-liten,.hp-stang{width:32px;height:32px;border-radius:10px;font-size:15px;text-decoration:none;flex:none}
+.hp-lage{border:1px solid var(--hair);background:var(--surface2);color:var(--ink2);border-radius:9px;
+  padding:4px 9px;font:600 12px var(--ui);cursor:pointer}
+.hp-not{margin:0 14px 8px;font-size:12.5px;color:var(--ink3)}
+.hp-not[hidden]{display:none}
+.hp-raknare{flex:none;border-bottom:1px solid var(--hair)}
+.hp-raknare[hidden],.hp-formel[hidden]{display:none}
+.hp-formel{flex:1 1 auto;min-height:0;display:flex;flex-direction:column}
+.hp-sidor{flex:1 1 auto;min-height:0;overflow:auto;scrollbar-gutter:stable;padding:4px 12px 16px;background:var(--surface2)}
+.hp-sidor canvas{display:block;margin:10px auto 0;border-radius:6px;background:#fff;box-shadow:var(--e1)}
+.hp-sidor .empty{padding:24px 8px;text-align:center;color:var(--ink3);font-size:13.5px}
+
+.rk-skarm{margin:0 14px;padding:8px 12px 6px;border-radius:14px;background:var(--surface2);border:1px solid var(--hair)}
+.rk-hist{max-height:62px;overflow:auto;display:grid;gap:1px;justify-items:end}
+.rk-hist:empty{display:none}
+.rk-hist button{all:unset;cursor:pointer;font:500 12.5px var(--read);color:var(--ink3);text-align:right;
+  max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rk-hist button:hover b{color:var(--acc)}
+.rk-hist b{color:var(--ink2);font-weight:600}
+.rk-in{width:100%;border:0;background:transparent;color:var(--ink);font:500 21px var(--read);text-align:right;outline:none;padding:4px 0 2px}
+.rk-res{min-height:26px;display:flex;justify-content:flex-end;align-items:center;gap:8px;
+  font:600 17px var(--read);color:var(--ink3)}
+.rk-res.klar{color:var(--ink)}
+.rk-res.fel{color:var(--bad);font-size:13.5px}
+.rk-infoga{border:0;border-radius:8px;padding:3px 8px;background:var(--accSoft);color:var(--accInk);font:600 12px var(--ui);cursor:pointer}
+.rk-tangenter{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;padding:10px 14px 14px}
+.rk-tangenter button{height:38px;min-width:0;border-radius:10px;border:1px solid var(--hair);background:var(--surface);
+  color:var(--ink);font:600 15px var(--read);cursor:pointer;transition:background .15s}
+.rk-tangenter button:hover{background:var(--surface2)}
+.rk-tangenter button:active{transform:translateY(1px)}
+.rk-tangenter .fn{font:600 12.5px var(--ui);color:var(--ink2);background:var(--surface2)}
+.rk-tangenter .op{background:var(--accSoft);color:var(--accInk);border-color:transparent;font-size:17px}
+.rk-tangenter .lika{grid-column:span 2;background:var(--acc);color:#fff;border-color:transparent;font-size:18px}
+.rk-tangenter .lika:hover{background:var(--acc2)}
+.rk-tangenter .noll{grid-column:span 2}
+
+@media(max-width:999px){
+  .hjalppanel{top:auto;left:0;width:auto;height:auto;max-height:min(66vh,620px);overflow-y:auto;
+    border-left:0;border-top:1px solid var(--hair);border-radius:22px 22px 0 0}
+  .hp-drag{display:none}
+  .hp-formel{flex:none}
+  .hp-sidor{overflow:visible;min-height:200px}
+  .hjalppanel.med-formel{height:min(66vh,620px)}
+  body.hjalp-oppen #app{padding-bottom:var(--hph,0px)}
+  .rk-tangenter button{height:36px}
+}
 </style>
 </head>
 
@@ -10602,6 +10672,7 @@ function renderTraining(){
         ${xpMeterHtml()}
         <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
+        ${hjalpKnappar(t)}
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
       <article class="task">
@@ -10839,6 +10910,7 @@ function renderAltTask(t){
         ${xpMeterHtml()}
         <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
+        ${hjalpKnappar(t)}
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
       <article class="task">
@@ -13600,6 +13672,419 @@ async function kgAdminSlaIhop(fran,till){
     toast(r?.ok?"Skolorna är ihopslagna.":"Kunde inte slå ihop skolorna.");
   }
   if(host) kgAdminRitaSkolor(host);
+}
+/* ===== Hjälpmedel under träningen: formelblad och miniräknare =====
+   Panelen ligger utanför #app så att formelbladet inte ritas om vid varje
+   uppgift. Formelbladen är Skolverkets PDF:er i mappen formelblad/ och ritas
+   med pdf.js, som laddas först när ett formelblad öppnas. Miniräknaren finns
+   bara på uppgifter med "miniräknare": true. */
+const FORMELBLAD={
+  ma1:  {fil:"formelblad/ma1.pdf",  namn:"Matematik 1"},
+  ma2:  {fil:"formelblad/ma2.pdf",  namn:"Matematik nivå 2 och Matematik 2"},
+  mato1:{fil:"formelblad/mato1.pdf",namn:"Fortsättning nivå 1 och Matematik 3"},
+  mato2:{fil:"formelblad/mato2.pdf",namn:"Fortsättning nivå 2 och Matematik 4"},
+  matf1:{fil:"formelblad/matf1.pdf",namn:"Matematik 5"}
+};
+const PDFJS_URL="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js";
+const PDFJS_WORKER="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js";
+const HJALP_KEY="kunskapsgymmet-hjalpmedel";
+const HJALP_ZOOM=[1,1.35,1.7,2.2];
+const hjalp={formel:false,raknare:false,bredd:480,zoom:0,grader:true};
+try{ const s=JSON.parse(localStorage.getItem(HJALP_KEY)||"{}");
+  ["bredd","zoom","grader"].forEach(k=>{ if(k in s) hjalp[k]=s[k]; }); }catch(_){}
+function hjalpSpara(){
+  try{ localStorage.setItem(HJALP_KEY,JSON.stringify({bredd:hjalp.bredd,zoom:hjalp.zoom,grader:hjalp.grader})); }catch(_){}
+}
+
+const HJALP_IKON={
+  formel:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5h9l3.5 3.5v13.5H6z"/><path d="M14.5 3.5V7.5h4"/><path d="M9 12.5h3.2M10.6 10.9v3.2M9 17h3.2M14.2 11.4l2 2.2M16.2 11.4l-2 2.2M14 16.4h2.4M14 17.8h2.4"/></svg>`,
+  raknare:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2.6"/><rect x="8" y="6" width="8" height="3.4" rx=".8"/><path d="M8.6 13h.01M12 13h.01M15.4 13h.01M8.6 16.6h.01M12 16.6h.01M15.4 16.6h.01"/></svg>`
+};
+
+/* Knapparna i uppgiftens topprad. */
+function hjalpKnappar(t){
+  const k=[];
+  if(FORMELBLAD[state.course]) k.push(`<button class="iconbtn hmknapp${hjalp.formel?" pa":""}" data-hjalp="formel"
+      onclick="hjalpVaxla('formel')" title="Formelblad" aria-pressed="${hjalp.formel}">${HJALP_IKON.formel}<span>Formelblad</span></button>`);
+  if(t?.["miniräknare"]===true) k.push(`<button class="iconbtn hmknapp${hjalp.raknare?" pa":""}" data-hjalp="raknare"
+      onclick="hjalpVaxla('raknare')" title="Miniräknare" aria-pressed="${hjalp.raknare}">${HJALP_IKON.raknare}<span>Miniräknare</span></button>`);
+  return k.join("");
+}
+function hjalpVaxla(vad){
+  hjalp[vad]=!hjalp[vad];
+  document.querySelectorAll(`[data-hjalp="${vad}"]`).forEach(b=>{
+    b.classList.toggle("pa",hjalp[vad]); b.setAttribute("aria-pressed",String(hjalp[vad]));
+  });
+  hjalpSynk();
+  if(vad==="raknare" && hjalp.raknare && !matchMedia("(pointer:coarse)").matches)
+    setTimeout(()=>document.getElementById("rk-in")?.focus(),30);
+}
+
+/* Visar eller döljer panelen efter vyn och uppgiften. Körs varje gång #app ritas om. */
+function hjalpSynk(){
+  const t=state.view==="training"?state.currentTask:null;
+  const fb=t?FORMELBLAD[state.course]:null;
+  const kanRaknare=!!(t && t["miniräknare"]===true);
+  const visaF=!!fb && hjalp.formel, visaR=kanRaknare && hjalp.raknare;
+  let p=document.getElementById("hjalppanel");
+  if(!visaF && !visaR){
+    if(p) p.hidden=true;
+    document.body.classList.remove("hjalp-oppen");
+    return;
+  }
+  if(!p) p=hjalpSkapaPanel();
+  p.hidden=false;
+  document.body.classList.add("hjalp-oppen");
+  document.documentElement.style.setProperty("--hpw",hjalpBredd()+"px");
+  p.querySelector("#hp-raknare").hidden=!visaR;
+  p.querySelector("#hp-formel").hidden=!visaF;
+  p.classList.toggle("med-formel",visaF);
+  requestAnimationFrame(()=>document.documentElement.style.setProperty("--hph",p.offsetHeight+"px"));
+  p.querySelector("#hp-ingen-raknare").hidden=!(hjalp.raknare && !kanRaknare && t && "miniräknare" in t);
+  if(visaF){
+    p.querySelector("#hp-formelnamn").textContent=fb.namn;
+    p.querySelector("#hp-pdf").href=fb.fil;
+    formelRita();
+  }
+}
+function hjalpBredd(){
+  return Math.round(Math.max(340,Math.min(hjalp.bredd,900,window.innerWidth*0.62)));
+}
+
+function hjalpSkapaPanel(){
+  const p=document.createElement("aside");
+  p.id="hjalppanel"; p.className="hjalppanel"; p.setAttribute("aria-label","Hjälpmedel");
+  const tang=[
+    ["sin","sin(","fn"],["cos","cos(","fn"],["tan","tan(","fn"],["ln","ln(","fn"],["log","log(","fn"],["√","√(","fn"],
+    ["sin⁻¹","sin⁻¹(","fn"],["cos⁻¹","cos⁻¹(","fn"],["tan⁻¹","tan⁻¹(","fn"],["eˣ","e^(","fn"],["10ˣ","10^(","fn"],["x²","²","fn"],
+    ["nCr"," nCr ","fn"],["nPr"," nPr ","fn"],["x!","!","fn"],["π","π","fn"],["e","e","fn"],["xʸ","^","fn"],
+    ["7","7"],["8","8"],["9","9"],["(","("],[")",")"],["÷","÷","op"],
+    ["4","4"],["5","5"],["6","6"],["⌫","bak","fn"],["C","rensa","fn"],["×","×","op"],
+    ["1","1"],["2","2"],["3","3"],["Ans","Ans","fn"],["×10ⁿ","·10^(","fn"],["−","−","op"],
+    ["0","0","noll"],[",",","],["=","lika","lika"],["+","+","op"]
+  ];
+  p.innerHTML=`<div class="hp-drag" title="Dra för att ändra bredden" aria-hidden="true"></div>
+    <section class="hp-raknare" id="hp-raknare" hidden aria-label="Miniräknare">
+      <div class="hp-topp"><b>Miniräknare</b>
+        <button class="hp-lage" id="rk-lage" onclick="raknVaxlaLage()" title="Vinkelenhet">${hjalp.grader?"Grader":"Radianer"}</button>
+        <span class="spacer"></span>
+        <button class="iconbtn hp-stang" onclick="hjalpVaxla('raknare')" aria-label="Stäng miniräknaren">✕</button></div>
+      <div class="rk-skarm">
+        <div class="rk-hist" id="rk-hist"></div>
+        <input id="rk-in" class="rk-in" autocomplete="off" spellcheck="false" aria-label="Uträkning"
+          ${matchMedia("(pointer:coarse)").matches?'inputmode="none"':""}>
+        <div class="rk-res" id="rk-res" aria-live="polite"></div>
+      </div>
+      <div class="rk-tangenter">${tang.map(([txt,v,kl])=>
+        `<button type="button" class="${kl||""}" data-v="${esc(v)}">${txt}</button>`).join("")}</div>
+    </section>
+    <section class="hp-formel" id="hp-formel" hidden aria-label="Formelblad">
+      <div class="hp-topp"><span class="hp-titel"><b>Formelblad</b><small id="hp-formelnamn"></small></span>
+        <span class="spacer"></span>
+        <button class="iconbtn hp-liten" onclick="formelZooma(-1)" aria-label="Förminska">−</button>
+        <button class="iconbtn hp-liten" onclick="formelZooma(1)" aria-label="Förstora">+</button>
+        <a class="iconbtn hp-liten" id="hp-pdf" target="_blank" rel="noopener" title="Öppna som PDF" aria-label="Öppna som PDF">↗</a>
+        <button class="iconbtn hp-stang" onclick="hjalpVaxla('formel')" aria-label="Stäng formelbladet">✕</button></div>
+      <p class="hp-not" id="hp-ingen-raknare" hidden>Miniräknare är inte tillåten på den här uppgiften.</p>
+      <div class="hp-sidor" id="hp-sidor"></div>
+    </section>`;
+  document.body.appendChild(p);
+
+  p.querySelector(".rk-tangenter").addEventListener("click",e=>{
+    const b=e.target.closest("button[data-v]"); if(b) raknTangent(b.dataset.v);
+  });
+  const inp=p.querySelector("#rk-in");
+  inp.addEventListener("input",()=>{ rk.klar=false; raknForhands(); });
+  inp.addEventListener("keydown",e=>{
+    if(e.key==="Enter"){ e.preventDefault(); raknTangent("lika"); }
+    else if(e.key==="Escape"){ e.preventDefault(); raknTangent("rensa"); }
+    else if(rk.klar && e.key.length===1){
+      if("+-*/^!²".includes(e.key)){ inp.value="Ans"; }
+      else{ inp.value=""; }
+      rk.klar=false;
+    }
+  });
+
+  /* Bredden ändras genom att dra i vänsterkanten. */
+  const drag=p.querySelector(".hp-drag");
+  drag.addEventListener("pointerdown",e=>{
+    e.preventDefault(); drag.setPointerCapture(e.pointerId); p.classList.add("drar");
+    const flytta=ev=>{
+      hjalp.bredd=window.innerWidth-ev.clientX;
+      document.documentElement.style.setProperty("--hpw",hjalpBredd()+"px");
+    };
+    const slapp=()=>{
+      drag.removeEventListener("pointermove",flytta); p.classList.remove("drar");
+      hjalp.bredd=hjalpBredd(); hjalpSpara(); formelRita();
+    };
+    drag.addEventListener("pointermove",flytta);
+    drag.addEventListener("pointerup",slapp,{once:true});
+    drag.addEventListener("pointercancel",slapp,{once:true});
+  });
+  return p;
+}
+let hjalpResizeTimer=null;
+window.addEventListener("resize",()=>{
+  clearTimeout(hjalpResizeTimer);
+  hjalpResizeTimer=setTimeout(()=>{ if(document.body.classList.contains("hjalp-oppen")) hjalpSynk(); },200);
+});
+new MutationObserver(hjalpSynk).observe(app,{childList:true});
+
+/* ── Formelbladet ── */
+let pdfjsLaddar=null;
+const formelDok={};
+function laddaPdfjs(){
+  if(window.pdfjsLib) return Promise.resolve(window.pdfjsLib);
+  if(!pdfjsLaddar) pdfjsLaddar=new Promise((res,rej)=>{
+    const s=document.createElement("script");
+    s.src=PDFJS_URL; s.async=true;
+    s.onload=()=>{ window.pdfjsLib.GlobalWorkerOptions.workerSrc=PDFJS_WORKER; res(window.pdfjsLib); };
+    s.onerror=()=>{ pdfjsLaddar=null; s.remove(); rej(new Error("pdf.js")); };
+    document.head.appendChild(s);
+  });
+  return pdfjsLaddar;
+}
+function formelZooma(steg){
+  hjalp.zoom=Math.max(0,Math.min(HJALP_ZOOM.length-1,(Number(hjalp.zoom)||0)+steg));
+  hjalpSpara(); formelRita();
+}
+async function formelRita(){
+  const kurs=state.course, fb=FORMELBLAD[kurs];
+  const box=document.getElementById("hp-sidor"); if(!fb || !box) return;
+  const zoom=HJALP_ZOOM[Number(hjalp.zoom)||0]||1;
+  const bredd=Math.max(260,box.clientWidth-24)*zoom;
+  const nyckel=kurs+"|"+zoom+"|"+Math.round(bredd/24);
+  if(box.dataset.nyckel===nyckel) return;
+  box.dataset.nyckel=nyckel;
+  if(!box.children.length || box.dataset.kurs!==kurs) box.innerHTML='<div class="empty">Hämtar formelbladet …</div>';
+  try{
+    const lib=await laddaPdfjs();
+    if(!formelDok[kurs]) formelDok[kurs]=lib.getDocument(fb.fil).promise.catch(e=>{ delete formelDok[kurs]; throw e; });
+    const dok=await formelDok[kurs];
+    const dpr=Math.min(window.devicePixelRatio||1,2);
+    for(let i=1;i<=dok.numPages;i++){
+      const sida=await dok.getPage(i);
+      if(box.dataset.nyckel!==nyckel) return;
+      const v1=sida.getViewport({scale:1}), skala=bredd/v1.width;
+      const vp=sida.getViewport({scale:skala*dpr});
+      const c=document.createElement("canvas");
+      c.width=Math.floor(vp.width); c.height=Math.floor(vp.height);
+      c.style.width=Math.round(bredd)+"px"; c.style.height=Math.round(v1.height*skala)+"px";
+      c.setAttribute("role","img"); c.setAttribute("aria-label",`Formelblad, sida ${i} av ${dok.numPages}`);
+      await sida.render({canvasContext:c.getContext("2d"),viewport:vp}).promise;
+      if(box.dataset.nyckel!==nyckel) return;
+      if(i===1){ box.innerHTML=""; box.dataset.kurs=kurs; }
+      box.appendChild(c);
+    }
+  }catch(_){
+    if(box.dataset.nyckel!==nyckel) return;
+    box.dataset.nyckel="";
+    box.innerHTML=`<div class="empty">Formelbladet kunde inte visas här.
+      <a href="${fb.fil}" target="_blank" rel="noopener">Öppna det som PDF</a>.</div>`;
+  }
+}
+
+/* ── Miniräknaren ──
+   Egen tolkare (ingen eval). Tar emot både komma och punkt som decimaltecken,
+   underförstådd multiplikation (2π, 3(4+1), 2sin(30)) och stänger parenteser
+   som saknas i slutet. */
+const rk={ans:0,klar:false,hist:[]};
+function raknVaxlaLage(){
+  hjalp.grader=!hjalp.grader; hjalpSpara();
+  const b=document.getElementById("rk-lage"); if(b) b.textContent=hjalp.grader?"Grader":"Radianer";
+  raknForhands();
+}
+function raknTangent(v){
+  const inp=document.getElementById("rk-in"); if(!inp) return;
+  if(v==="rensa"){ inp.value=""; rk.klar=false; raknVisa(""); return; }
+  if(v==="bak"){
+    if(rk.klar){ rk.klar=false; }
+    const s=inp.selectionStart??inp.value.length, e=inp.selectionEnd??s;
+    if(s!==e) inp.value=inp.value.slice(0,s)+inp.value.slice(e);
+    else if(s>0){
+      const m=inp.value.slice(0,s).match(/(sin⁻¹\(|cos⁻¹\(|tan⁻¹\(|sin\(|cos\(|tan\(|log\(|ln\(|√\(| nCr | nPr |Ans|·10\^\()$/);
+      const n=m?m[0].length:1;
+      inp.value=inp.value.slice(0,s-n)+inp.value.slice(s); inp.setSelectionRange(s-n,s-n);
+    }
+    raknForhands(); return;
+  }
+  if(v==="lika"){ raknRakna(); return; }
+  if(rk.klar){
+    inp.value=/^[+−×÷^!²]|^ n[CP]r /.test(v)?"Ans":"";
+    rk.klar=false;
+  }
+  const s=inp.selectionStart??inp.value.length, e=inp.selectionEnd??s;
+  inp.value=inp.value.slice(0,s)+v+inp.value.slice(e);
+  const pos=s+v.length;
+  try{ inp.setSelectionRange(pos,pos); }catch(_){}
+  if(!matchMedia("(pointer:coarse)").matches) inp.focus();
+  raknForhands();
+}
+function raknForhands(){
+  const inp=document.getElementById("rk-in"); if(!inp) return;
+  const txt=inp.value.trim();
+  if(!txt){ raknVisa(""); return; }
+  try{ raknVisa("= "+raknFormat(raknTolka(txt)),"forhands"); }
+  catch(_){ raknVisa(""); }
+}
+function raknRakna(){
+  const inp=document.getElementById("rk-in"); if(!inp) return;
+  const txt=inp.value.trim(); if(!txt) return;
+  try{
+    const x=raknTolka(txt), s=raknFormat(x);
+    rk.ans=x; rk.klar=true;
+    rk.hist.push({uttryck:txt,svar:s,x}); if(rk.hist.length>6) rk.hist.shift();
+    const h=document.getElementById("rk-hist");
+    if(h){
+      h.innerHTML=rk.hist.map((r,i)=>`<button type="button" onclick="raknTangent(rkHistVarde(${i}))" title="Använd ${esc(r.svar)}">${esc(r.uttryck)} = <b>${esc(r.svar)}</b></button>`).join("");
+      h.scrollTop=h.scrollHeight;
+    }
+    raknVisa("= "+s,"klar",s);
+  }catch(e){
+    raknVisa(typeof e==="string"?e:"Syntaxfel","fel");
+  }
+}
+function rkHistVarde(i){ return (rk.hist[i]?.svar||"").replace(/·10\^(−?\d+)/,"·10^($1)"); }
+function raknVisa(text,lage,svar){
+  const r=document.getElementById("rk-res"); if(!r) return;
+  r.className="rk-res"+(lage?" "+lage:"");
+  r.innerHTML=esc(text)+(svar&&document.getElementById("ans-"+(state.aktivRuta??state.partIndex??0))
+    ?`<button type="button" class="rk-infoga" onclick="raknInfoga()">Till svaret</button>`:"");
+}
+function raknInfoga(){
+  const s=rk.hist[rk.hist.length-1]?.svar; if(!s) return;
+  skrivTecken(s.replace(/−/g,"-"));
+}
+function raknFormat(x){
+  if(typeof x!=="number" || !isFinite(x)) throw "Matematiskt fel";
+  if(Math.abs(x)<1e-13) x=0;
+  const a=Math.abs(x);
+  let s;
+  if(a!==0 && (a>=1e10 || a<1e-6)){
+    const [m,ex]=x.toExponential(9).split("e");
+    s=String(+m)+"·10^"+Number(ex);
+  }else s=String(+x.toPrecision(10));
+  return s.replace(".",",").replace(/-/g,"−");
+}
+function raknTolka(txt){
+  const NAMN=["sin⁻¹","cos⁻¹","tan⁻¹","arcsin","arccos","arctan","asin","acos","atan","sqrt","sin","cos","tan",
+              "ln","log","lg","Ans","ans","nCr","nPr","pi","π","√","e"];
+  const tok=[]; let i=0;
+  const s=txt.replace(/\s+/g," ");
+  while(i<s.length){
+    const c=s[i];
+    if(c===" "){ i++; continue; }
+    const tal=s.slice(i).match(/^(\d+([.,]\d*)?|[.,]\d+)/);
+    if(tal){ tok.push({t:"tal",v:parseFloat(tal[0].replace(",","."))}); i+=tal[0].length; continue; }
+    const namn=NAMN.find(n=>s.startsWith(n,i));
+    if(namn){ tok.push({t:"namn",v:namn}); i+=namn.length; continue; }
+    const op={"+":"+","-":"-","−":"-","–":"-","*":"*","×":"*","·":"*","⋅":"*","/":"/","÷":"/",
+              "^":"^","!":"!","²":"²","³":"³","(":"(",")":")","[":"(","]":")"}[c];
+    if(op){ tok.push({t:op}); i++; continue; }
+    throw "Okänt tecken: "+c;
+  }
+  let p=0;
+  const titta=()=>tok[p], ta=()=>tok[p++];
+  const grad=x=>hjalp.grader?x*Math.PI/180:x, fraGrad=x=>hjalp.grader?x*180/Math.PI:x;
+  const heltal=x=>{ if(!Number.isInteger(Math.round(x*1e9)/1e9) || x<0) throw "Matematiskt fel"; return Math.round(x); };
+  const fak=n=>{ n=heltal(n); if(n>170) throw "För stort tal"; let r=1; for(let k=2;k<=n;k++) r*=k; return r; };
+  const FUNK={
+    sin:x=>Math.sin(grad(x)), cos:x=>Math.cos(grad(x)), tan:x=>{
+      if(hjalp.grader && Math.abs(((x%180)+180)%180-90)<1e-9) throw "Matematiskt fel"; return Math.tan(grad(x)); },
+    "sin⁻¹":x=>{ if(Math.abs(x)>1) throw "Matematiskt fel"; return fraGrad(Math.asin(x)); },
+    "cos⁻¹":x=>{ if(Math.abs(x)>1) throw "Matematiskt fel"; return fraGrad(Math.acos(x)); },
+    "tan⁻¹":x=>fraGrad(Math.atan(x)),
+    ln:x=>{ if(x<=0) throw "Matematiskt fel"; return Math.log(x); },
+    log:x=>{ if(x<=0) throw "Matematiskt fel"; return Math.log10(x); },
+    "√":x=>{ if(x<0) throw "Matematiskt fel"; return Math.sqrt(x); }
+  };
+  const ALIAS={arcsin:"sin⁻¹",asin:"sin⁻¹",arccos:"cos⁻¹",acos:"cos⁻¹",arctan:"tan⁻¹",atan:"tan⁻¹",sqrt:"√",lg:"log"};
+  const borjarFaktor=k=>k && (k.t==="tal" || k.t==="(" || (k.t==="namn" && k.v!=="nCr" && k.v!=="nPr"));
+
+  function uttryck(){
+    let v=term();
+    while(titta() && (titta().t==="+" || titta().t==="-")){
+      const op=ta().t, h=term(); v=op==="+"?v+h:v-h;
+    }
+    return v;
+  }
+  function term(){
+    let v=komb();
+    for(;;){
+      const k=titta();
+      if(k && (k.t==="*" || k.t==="/")){ ta(); const h=komb(); if(k.t==="/" && h===0) throw "Division med noll"; v=k.t==="*"?v*h:v/h; }
+      else if(borjarFaktor(k)) v*=komb();
+      else return v;
+    }
+  }
+  function komb(){
+    let v=unar();
+    while(titta()?.t==="namn" && (titta().v==="nCr" || titta().v==="nPr")){
+      const op=ta().v, n=heltal(v), k=heltal(unar());
+      if(k>n){ v=0; continue; }
+      let r=1; for(let j=0;j<k;j++) r*=(n-j);
+      v=op==="nPr"?r:Math.round(r/fak(k));
+    }
+    return v;
+  }
+  function unar(){
+    const k=titta();
+    if(k && (k.t==="-" || k.t==="+")){ ta(); const v=unar(); return k.t==="-"?-v:v; }
+    return potens();
+  }
+  function potens(){
+    const bas=postfix();
+    if(titta()?.t==="^"){
+      ta(); const ex=unar();
+      const v=Math.pow(bas,ex);
+      if(Number.isNaN(v)){
+        // Udda rot ur negativt tal, t.ex. (−8)^(1/3)
+        const q=1/ex;
+        if(bas<0 && Math.abs(q-Math.round(q))<1e-9 && Math.round(q)%2!==0) return -Math.pow(-bas,ex);
+        throw "Matematiskt fel";
+      }
+      return v;
+    }
+    return bas;
+  }
+  function postfix(){
+    let v=primar();
+    for(;;){
+      const k=titta()?.t;
+      if(k==="!"){ ta(); v=fak(v); }
+      else if(k==="²"){ ta(); v=v*v; }
+      else if(k==="³"){ ta(); v=v*v*v; }
+      else return v;
+    }
+  }
+  function primar(){
+    const k=ta();
+    if(!k) throw "Uttrycket är inte färdigt";
+    if(k.t==="tal") return k.v;
+    if(k.t==="("){
+      const v=uttryck();
+      if(titta()?.t===")") ta(); else if(titta()) throw "Syntaxfel";
+      return v;
+    }
+    if(k.t==="namn"){
+      if(k.v==="π" || k.v==="pi") return Math.PI;
+      if(k.v==="e") return Math.E;
+      if(k.v==="Ans" || k.v==="ans") return rk.ans;
+      const f=FUNK[ALIAS[k.v]||k.v];
+      if(f){
+        if(titta()?.t==="("){
+          ta(); const v=uttryck();
+          if(titta()?.t===")") ta(); else if(titta()) throw "Syntaxfel";
+          return f(v);
+        }
+        return f(potens());
+      }
+    }
+    throw "Syntaxfel";
+  }
+  const v=uttryck();
+  if(p<tok.length) throw tok[p].t===")"?"För många parenteser":"Syntaxfel";
+  return v;
 }
 </script>
 </body>

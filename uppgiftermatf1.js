@@ -32081,6 +32081,1055 @@ window.BANKMATF1 = [
     "typ": "sannolikhet med upprepade objekt"
   },
   {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "sannolikhet på lyckohjul",
+    "poang": "3/1/0",
+    "t": "<p>Ett lyckohjul har 32 lika stora sektorer numrerade 1–32. Varje sektor är i sin tur delad i tre lika stora delar: en röd och två gröna.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Man vinner om talet är en potens av 2 (räkna även \\(1=2^0\\)). Hur stor är sannolikheten att vinna?</li><li>Man vinner om talet är ett primtal. Hur stor är sannolikheten att vinna?</li><li>Man vinner bara om hjulet stannar på den röda delen av ett tal som är delbart med 6. Hur stor är sannolikheten att vinna?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Potenserna av 2 är 1, 2, 4, 8, 16 och 32, alltså 6 av 32 tal.</p><p><strong>Svar:</strong> \\(\\dfrac{3}{16}\\approx0{,}188\\), alltså cirka \\(18{,}8\\,\\%\\)</p></li><li><p>Primtalen är 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 och 31, alltså 11 av 32.</p><p><strong>Svar:</strong> \\(\\dfrac{11}{32}\\approx0{,}344\\), alltså cirka \\(34{,}4\\,\\%\\)</p></li><li><p>Talen 6, 12, 18, 24 och 30 ger \\(\\dfrac{5}{32}\\). Den röda delen är \\(\\dfrac13\\) av varje sektor.</p><p>\\(\\dfrac{5}{32}\\cdot\\dfrac13=\\dfrac{5}{96}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{96}\\approx0{,}0521\\), alltså cirka \\(5{,}21\\,\\%\\)</p></li></ol>",
+    "id": "1.673",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3/16",
+      "11/32",
+      "5/96"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett lyckohjul har 32 lika stora sektorer numrerade 1–32. Varje sektor är i sin tur delad i tre lika stora delar: en röd och två gröna.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Man vinner om talet är en potens av 2 (räkna även \\(1=2^0\\)). Hur stor är sannolikheten att vinna?",
+        "t": "<p>Ett lyckohjul har 32 lika stora sektorer numrerade 1–32. Varje sektor är i sin tur delad i tre lika stora delar: en röd och två gröna.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Man vinner om talet är en potens av 2 (räkna även \\(1=2^0\\)). Hur stor är sannolikheten att vinna?</p>",
+        "s": "<p>Potenserna av 2 är 1, 2, 4, 8, 16 och 32, alltså 6 av 32 tal.</p><p><strong>Svar:</strong> \\(\\dfrac{3}{16}\\approx0{,}188\\), alltså cirka \\(18{,}8\\,\\%\\)</p>",
+        "ledtrad": "<p>Räkna upp alla potenser av 2 som är högst 32.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Man vinner om talet är ett primtal. Hur stor är sannolikheten att vinna?",
+        "t": "<p>Ett lyckohjul har 32 lika stora sektorer numrerade 1–32. Varje sektor är i sin tur delad i tre lika stora delar: en röd och två gröna.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Man vinner om talet är ett primtal. Hur stor är sannolikheten att vinna?</p>",
+        "s": "<p>Primtalen är 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 och 31, alltså 11 av 32.</p><p><strong>Svar:</strong> \\(\\dfrac{11}{32}\\approx0{,}344\\), alltså cirka \\(34{,}4\\,\\%\\)</p>",
+        "ledtrad": "<p>Räkna upp primtalen upp till 32. Kom ihåg att 1 inte är ett primtal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Man vinner bara om hjulet stannar på den röda delen av ett tal som är delbart med 6. Hur stor är sannolikheten att vinna?",
+        "t": "<p>Ett lyckohjul har 32 lika stora sektorer numrerade 1–32. Varje sektor är i sin tur delad i tre lika stora delar: en röd och två gröna.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Man vinner bara om hjulet stannar på den röda delen av ett tal som är delbart med 6. Hur stor är sannolikheten att vinna?</p>",
+        "s": "<p>Talen 6, 12, 18, 24 och 30 ger \\(\\dfrac{5}{32}\\). Den röda delen är \\(\\dfrac13\\) av varje sektor.</p><p>\\(\\dfrac{5}{32}\\cdot\\dfrac13=\\dfrac{5}{96}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{96}\\approx0{,}0521\\), alltså cirka \\(5{,}21\\,\\%\\)</p>",
+        "ledtrad": "<p>Bestäm först sannolikheten för rätt tal och sedan för rätt färg inom sektorn.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Alla sektorer är lika stora.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "en eller två lotter",
+    "poang": "1/1/0",
+    "t": "<p>Ett lotteri har 100 lotter och en enda vinstlott.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Du köper två lotter i lotteriet. Hur stor är sannolikheten att du vinner?</li><li>Det finns i stället två sådana lotterier, och du köper en lott i vart och ett. Hur stor är sannolikheten att du vinner minst en gång?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Två av de 100 lotterna är dina: \\(\\dfrac{2}{100}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{50}\\approx0{,}02\\), alltså cirka \\(2\\,\\%\\)</p></li><li><p>Ingen vinst: \\(0{,}99\\cdot0{,}99=0{,}9801\\). Minst en vinst: \\(1-0{,}9801=0{,}0199\\).</p><p><strong>Svar:</strong> \\(\\dfrac{199}{10000}\\approx0{,}0199\\), alltså cirka \\(1{,}99\\,\\%\\)</p></li></ol>",
+    "id": "1.674",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/50",
+      "199/10000"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett lotteri har 100 lotter och en enda vinstlott.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Du köper två lotter i lotteriet. Hur stor är sannolikheten att du vinner?",
+        "t": "<p>Ett lotteri har 100 lotter och en enda vinstlott.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Du köper två lotter i lotteriet. Hur stor är sannolikheten att du vinner?</p>",
+        "s": "<p>Två av de 100 lotterna är dina: \\(\\dfrac{2}{100}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{50}\\approx0{,}02\\), alltså cirka \\(2\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur många av lotterna har du?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Det finns i stället två sådana lotterier, och du köper en lott i vart och ett. Hur stor är sannolikheten att du vinner minst en gång?",
+        "t": "<p>Ett lotteri har 100 lotter och en enda vinstlott.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Det finns i stället två sådana lotterier, och du köper en lott i vart och ett. Hur stor är sannolikheten att du vinner minst en gång?</p>",
+        "s": "<p>Ingen vinst: \\(0{,}99\\cdot0{,}99=0{,}9801\\). Minst en vinst: \\(1-0{,}9801=0{,}0199\\).</p><p><strong>Svar:</strong> \\(\\dfrac{199}{10000}\\approx0{,}0199\\), alltså cirka \\(1{,}99\\,\\%\\)</p>",
+        "ledtrad": "<p>Räkna ut sannolikheten att inte vinna någon gång.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Jämför de två situationerna.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "oberoende upprepningar och komplement",
+    "poang": "2/1/0",
+    "t": "<p>I ett land röker 68 % av alla vuxna män. Man väljer slumpvis ut män och antar att de är oberoende av varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att 3 utvalda män alla röker?</li><li>Hur stor är sannolikheten att ingen av 5 utvalda män röker?</li><li>Hur stor är sannolikheten att minst en av 5 utvalda män röker?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}68^3\\approx0{,}314\\).</p><p><strong>Svar:</strong> \\(\\dfrac{4913}{15625}\\approx0{,}314\\), alltså cirka \\(31{,}4\\,\\%\\)</p></li><li><p>\\(0{,}32^5\\approx0{,}0034\\).</p><p><strong>Svar:</strong> \\(\\dfrac{32768}{9765625}\\approx0{,}00336\\), alltså cirka \\(0{,}336\\,\\%\\)</p></li><li><p>\\(1-0{,}32^5\\approx0{,}997\\).</p><p><strong>Svar:</strong> \\(\\dfrac{9732857}{9765625}\\approx0{,}997\\), alltså cirka \\(99{,}7\\,\\%\\)</p></li></ol>",
+    "id": "1.675",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4913/15625",
+      "32768/9765625",
+      "9732857/9765625"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I ett land röker 68 % av alla vuxna män. Man väljer slumpvis ut män och antar att de är oberoende av varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att 3 utvalda män alla röker?",
+        "t": "<p>I ett land röker 68 % av alla vuxna män. Man väljer slumpvis ut män och antar att de är oberoende av varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att 3 utvalda män alla röker?</p>",
+        "s": "<p>\\(0{,}68^3\\approx0{,}314\\).</p><p><strong>Svar:</strong> \\(\\dfrac{4913}{15625}\\approx0{,}314\\), alltså cirka \\(31{,}4\\,\\%\\)</p>",
+        "ledtrad": "<p>Multiplicera sannolikheterna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att ingen av 5 utvalda män röker?",
+        "t": "<p>I ett land röker 68 % av alla vuxna män. Man väljer slumpvis ut män och antar att de är oberoende av varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att ingen av 5 utvalda män röker?</p>",
+        "s": "<p>\\(0{,}32^5\\approx0{,}0034\\).</p><p><strong>Svar:</strong> \\(\\dfrac{32768}{9765625}\\approx0{,}00336\\), alltså cirka \\(0{,}336\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur stor är sannolikheten att en man inte röker?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att minst en av 5 utvalda män röker?",
+        "t": "<p>I ett land röker 68 % av alla vuxna män. Man väljer slumpvis ut män och antar att de är oberoende av varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst en av 5 utvalda män röker?</p>",
+        "s": "<p>\\(1-0{,}32^5\\approx0{,}997\\).</p><p><strong>Svar:</strong> \\(\\dfrac{9732857}{9765625}\\approx0{,}997\\), alltså cirka \\(99{,}7\\,\\%\\)</p>",
+        "ledtrad": "<p>Vad är motsatsen till ”minst en röker”?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd multiplikationsprincipen för oberoende händelser.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "dragning utan återläggning ur klass",
+    "poang": "2/1/0",
+    "t": "<p>I en klass med 29 elever har 5 elever betyget A. Rektorn väljer slumpvis 3 elever för en intervju.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att alla tre har A?</li><li>Hur stor är sannolikheten att ingen av dem har A?</li><li>Hur stor är sannolikheten att minst en av dem har A?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{\\binom53}{\\binom{29}{3}}=\\dfrac{10}{3\\,654}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{1827}\\approx0{,}00274\\), alltså cirka \\(0{,}274\\,\\%\\)</p></li><li><p>\\(\\dfrac{\\binom{24}{3}}{\\binom{29}{3}}=\\dfrac{2\\,024}{3\\,654}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1012}{1827}\\approx0{,}554\\), alltså cirka \\(55{,}4\\,\\%\\)</p></li><li><p>Inget A: \\(\\dfrac{\\binom{24}{3}}{\\binom{29}{3}}=\\dfrac{2\\,024}{3\\,654}\\). Minst ett A: \\(1-\\dfrac{2\\,024}{3\\,654}=\\dfrac{1\\,630}{3\\,654}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{815}{1827}\\approx0{,}446\\), alltså cirka \\(44{,}6\\,\\%\\)</p></li></ol>",
+    "id": "1.676",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "5/1827",
+      "1012/1827",
+      "815/1827"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en klass med 29 elever har 5 elever betyget A. Rektorn väljer slumpvis 3 elever för en intervju.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att alla tre har A?",
+        "t": "<p>I en klass med 29 elever har 5 elever betyget A. Rektorn väljer slumpvis 3 elever för en intervju.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att alla tre har A?</p>",
+        "s": "<p>\\(\\dfrac{\\binom53}{\\binom{29}{3}}=\\dfrac{10}{3\\,654}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{1827}\\approx0{,}00274\\), alltså cirka \\(0{,}274\\,\\%\\)</p>",
+        "ledtrad": "<p>Välj tre bland de fem med A och dela med alla sätt att välja tre.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att ingen av dem har A?",
+        "t": "<p>I en klass med 29 elever har 5 elever betyget A. Rektorn väljer slumpvis 3 elever för en intervju.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att ingen av dem har A?</p>",
+        "s": "<p>\\(\\dfrac{\\binom{24}{3}}{\\binom{29}{3}}=\\dfrac{2\\,024}{3\\,654}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1012}{1827}\\approx0{,}554\\), alltså cirka \\(55{,}4\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur många elever har inte A?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att minst en av dem har A?",
+        "t": "<p>I en klass med 29 elever har 5 elever betyget A. Rektorn väljer slumpvis 3 elever för en intervju.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst en av dem har A?</p>",
+        "s": "<p>Inget A: \\(\\dfrac{\\binom{24}{3}}{\\binom{29}{3}}=\\dfrac{2\\,024}{3\\,654}\\). Minst ett A: \\(1-\\dfrac{2\\,024}{3\\,654}=\\dfrac{1\\,630}{3\\,654}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{815}{1827}\\approx0{,}446\\), alltså cirka \\(44{,}6\\,\\%\\)</p>",
+        "ledtrad": "<p>Använd komplementet till ”inget A”.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Eleverna väljs utan återläggning.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "minst en med komplement",
+    "poang": "1/1/0",
+    "t": "<p>Ett provfiske visar att fisken i en sjö består av 5 % gädda, 37 % abborre, 42 % mört, 13 % braxen och resten gös. Tre fiskar fångas.</p><p>Hur stor är sannolikheten att minst en av dem är en gös? Anta att fångsterna är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Andelen gös är \\(100-5-37-42-13=3\\) %. Ingen gös: \\(0{,}97^3\\approx0{,}913\\).</p><p>Minst en gös: \\(1-0{,}97^3\\approx0{,}087\\).</p><p><strong>Svar:</strong> \\(\\dfrac{87327}{1000000}\\approx0{,}0873\\), alltså cirka \\(8{,}73\\,\\%\\)</p>",
+    "id": "1.677",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "87327/1000000",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Hur stor är andelen gös? Räkna sedan med komplementet.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "urval utan en viss person",
+    "poang": "1/0/0",
+    "t": "<p>Bland 6 kvinnor och 1 man väljs slumpvis en grupp på 3 personer.</p><p>Hur stor är sannolikheten att mannen inte är med?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>\\(\\dfrac{\\binom63}{\\binom73}=\\dfrac{20}{35}=\\dfrac47\\).</p><p><strong>Svar:</strong> \\(\\dfrac{4}{7}\\approx0{,}571\\), alltså cirka \\(57{,}1\\,\\%\\)</p>",
+    "id": "1.678",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "4/7",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Hur många grupper består bara av kvinnor?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "myntkast",
+    "poang": "3/1/0",
+    "t": "<p>Ett mynt kastas flera gånger. Krona och klave är lika sannolika.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Myntet kastas tre gånger. Hur stor är sannolikheten för exakt en krona?</li><li>Myntet kastas fyra gånger. Hur stor är sannolikheten för minst en krona?</li><li>Myntet kastas fyra gånger. Hur stor är sannolikheten för exakt två krona och två klave?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Det finns \\(2^3=8\\) lika sannolika utfall. Exakt en krona: KLL, LKL, LLK, alltså 3.</p><p><strong>Svar:</strong> \\(\\dfrac{3}{8}\\approx0{,}375\\), alltså cirka \\(37{,}5\\,\\%\\)</p></li><li><p>Ingen krona: \\(\\left(\\tfrac12\\right)^4=\\tfrac1{16}\\). Minst en: \\(1-\\tfrac1{16}=\\tfrac{15}{16}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{15}{16}\\approx0{,}938\\), alltså cirka \\(93{,}8\\,\\%\\)</p></li><li><p>Platserna för de två kronorna kan väljas på \\(\\binom42=6\\) sätt av \\(2^4=16\\).</p><p><strong>Svar:</strong> \\(\\dfrac{3}{8}\\approx0{,}375\\), alltså cirka \\(37{,}5\\,\\%\\)</p></li></ol>",
+    "id": "1.679",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3/8",
+      "15/16",
+      "3/8"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett mynt kastas flera gånger. Krona och klave är lika sannolika.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Myntet kastas tre gånger. Hur stor är sannolikheten för exakt en krona?",
+        "t": "<p>Ett mynt kastas flera gånger. Krona och klave är lika sannolika.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Myntet kastas tre gånger. Hur stor är sannolikheten för exakt en krona?</p>",
+        "s": "<p>Det finns \\(2^3=8\\) lika sannolika utfall. Exakt en krona: KLL, LKL, LLK, alltså 3.</p><p><strong>Svar:</strong> \\(\\dfrac{3}{8}\\approx0{,}375\\), alltså cirka \\(37{,}5\\,\\%\\)</p>",
+        "ledtrad": "<p>Skriv upp alla utfall eller räkna ut på hur många platser kronan kan hamna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Myntet kastas fyra gånger. Hur stor är sannolikheten för minst en krona?",
+        "t": "<p>Ett mynt kastas flera gånger. Krona och klave är lika sannolika.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Myntet kastas fyra gånger. Hur stor är sannolikheten för minst en krona?</p>",
+        "s": "<p>Ingen krona: \\(\\left(\\tfrac12\\right)^4=\\tfrac1{16}\\). Minst en: \\(1-\\tfrac1{16}=\\tfrac{15}{16}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{15}{16}\\approx0{,}938\\), alltså cirka \\(93{,}8\\,\\%\\)</p>",
+        "ledtrad": "<p>Använd komplementet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Myntet kastas fyra gånger. Hur stor är sannolikheten för exakt två krona och två klave?",
+        "t": "<p>Ett mynt kastas flera gånger. Krona och klave är lika sannolika.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Myntet kastas fyra gånger. Hur stor är sannolikheten för exakt två krona och två klave?</p>",
+        "s": "<p>Platserna för de två kronorna kan väljas på \\(\\binom42=6\\) sätt av \\(2^4=16\\).</p><p><strong>Svar:</strong> \\(\\dfrac{3}{8}\\approx0{,}375\\), alltså cirka \\(37{,}5\\,\\%\\)</p>",
+        "ledtrad": "<p>På hur många sätt kan två av fyra kast bli krona?</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Varje kast har två lika sannolika utfall.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "med och utan återläggning",
+    "poang": "3/0/0",
+    "t": "<p>En påse innehåller 5 röda och 4 vita kulor. Man drar två kulor efter varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Kulan läggs tillbaka efter första dragningen. Hur stor är sannolikheten att båda kulorna är röda?</li><li>Kulan läggs inte tillbaka. Hur stor är sannolikheten att båda kulorna är röda?</li><li>Kulan läggs inte tillbaka. Hur stor är sannolikheten att den första är röd och den andra vit?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac59\\cdot\\dfrac59=\\dfrac{25}{81}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{25}{81}\\approx0{,}309\\), alltså cirka \\(30{,}9\\,\\%\\)</p></li><li><p>\\(\\dfrac59\\cdot\\dfrac48=\\dfrac{20}{72}=\\dfrac{5}{18}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{18}\\approx0{,}278\\), alltså cirka \\(27{,}8\\,\\%\\)</p></li><li><p>\\(\\dfrac59\\cdot\\dfrac48=\\dfrac{5}{18}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{18}\\approx0{,}278\\), alltså cirka \\(27{,}8\\,\\%\\)</p></li></ol>",
+    "id": "1.680",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "25/81",
+      "5/18",
+      "5/18"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En påse innehåller 5 röda och 4 vita kulor. Man drar två kulor efter varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Kulan läggs tillbaka efter första dragningen. Hur stor är sannolikheten att båda kulorna är röda?",
+        "t": "<p>En påse innehåller 5 röda och 4 vita kulor. Man drar två kulor efter varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Kulan läggs tillbaka efter första dragningen. Hur stor är sannolikheten att båda kulorna är röda?</p>",
+        "s": "<p>\\(\\dfrac59\\cdot\\dfrac59=\\dfrac{25}{81}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{25}{81}\\approx0{,}309\\), alltså cirka \\(30{,}9\\,\\%\\)</p>",
+        "ledtrad": "<p>Påsen ser likadan ut vid båda dragningarna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Kulan läggs inte tillbaka. Hur stor är sannolikheten att båda kulorna är röda?",
+        "t": "<p>En påse innehåller 5 röda och 4 vita kulor. Man drar två kulor efter varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Kulan läggs inte tillbaka. Hur stor är sannolikheten att båda kulorna är röda?</p>",
+        "s": "<p>\\(\\dfrac59\\cdot\\dfrac48=\\dfrac{20}{72}=\\dfrac{5}{18}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{18}\\approx0{,}278\\), alltså cirka \\(27{,}8\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur många kulor och hur många röda finns kvar vid andra dragningen?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Kulan läggs inte tillbaka. Hur stor är sannolikheten att den första är röd och den andra vit?",
+        "t": "<p>En påse innehåller 5 röda och 4 vita kulor. Man drar två kulor efter varandra.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Kulan läggs inte tillbaka. Hur stor är sannolikheten att den första är röd och den andra vit?</p>",
+        "s": "<p>\\(\\dfrac59\\cdot\\dfrac48=\\dfrac{5}{18}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{18}\\approx0{,}278\\), alltså cirka \\(27{,}8\\,\\%\\)</p>",
+        "ledtrad": "<p>Multiplicera sannolikheterna längs grenen i ett träddiagram.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Rita gärna ett träddiagram.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "tre dragningar med återläggning",
+    "poang": "1/1/0",
+    "t": "<p>En påse innehåller 5 vita och 8 blå bollar. Man drar en boll, noterar färgen och lägger tillbaka den. Detta görs tre gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att alla tre bollarna är vita?</li><li>Hur stor är sannolikheten att minst en boll är vit?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\left(\\dfrac{5}{13}\\right)^3=\\dfrac{125}{2\\,197}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{125}{2197}\\approx0{,}0569\\), alltså cirka \\(5{,}69\\,\\%\\)</p></li><li><p>Ingen vit: \\(\\left(\\dfrac{8}{13}\\right)^3=\\dfrac{512}{2\\,197}\\). Minst en vit: \\(1-\\dfrac{512}{2\\,197}=\\dfrac{1\\,685}{2\\,197}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1685}{2197}\\approx0{,}767\\), alltså cirka \\(76{,}7\\,\\%\\)</p></li></ol>",
+    "id": "1.681",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "125/2197",
+      "1685/2197"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En påse innehåller 5 vita och 8 blå bollar. Man drar en boll, noterar färgen och lägger tillbaka den. Detta görs tre gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att alla tre bollarna är vita?",
+        "t": "<p>En påse innehåller 5 vita och 8 blå bollar. Man drar en boll, noterar färgen och lägger tillbaka den. Detta görs tre gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att alla tre bollarna är vita?</p>",
+        "s": "<p>\\(\\left(\\dfrac{5}{13}\\right)^3=\\dfrac{125}{2\\,197}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{125}{2197}\\approx0{,}0569\\), alltså cirka \\(5{,}69\\,\\%\\)</p>",
+        "ledtrad": "<p>Dragningarna är oberoende.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att minst en boll är vit?",
+        "t": "<p>En påse innehåller 5 vita och 8 blå bollar. Man drar en boll, noterar färgen och lägger tillbaka den. Detta görs tre gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst en boll är vit?</p>",
+        "s": "<p>Ingen vit: \\(\\left(\\dfrac{8}{13}\\right)^3=\\dfrac{512}{2\\,197}\\). Minst en vit: \\(1-\\dfrac{512}{2\\,197}=\\dfrac{1\\,685}{2\\,197}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1685}{2197}\\approx0{,}767\\), alltså cirka \\(76{,}7\\,\\%\\)</p>",
+        "ledtrad": "<p>Använd komplementet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Med återläggning är dragningarna oberoende.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "summa av slumpvis valda mynt",
+    "poang": "0/3/0",
+    "t": "<p>I en plånbok finns fem 1-kronor, fyra 2-kronor och fyra 5-kronor. Fyra mynt ramlar ut slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att mynten tillsammans är värda 4 kr?</li><li>Hur stor är sannolikheten att mynten tillsammans är värda 8 kr?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>4 kr med fyra mynt kräver fyra 1-kronor: \\(\\dfrac{\\binom54}{\\binom{13}{4}}=\\dfrac{5}{715}=\\dfrac{1}{143}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{143}\\approx0{,}00699\\), alltså cirka \\(0{,}699\\,\\%\\)</p></li><li><p>8 kr med fyra mynt: \\(1+1+1+5\\) eller \\(2+2+2+2\\).</p><p>\\(\\binom53\\binom41+\\binom44=40+1=41\\) gynnsamma av \\(\\binom{13}{4}=715\\).</p><p><strong>Svar:</strong> \\(\\dfrac{41}{715}\\approx0{,}0573\\), alltså cirka \\(5{,}73\\,\\%\\)</p></li></ol>",
+    "id": "1.682",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/143",
+      "41/715"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en plånbok finns fem 1-kronor, fyra 2-kronor och fyra 5-kronor. Fyra mynt ramlar ut slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att mynten tillsammans är värda 4 kr?",
+        "t": "<p>I en plånbok finns fem 1-kronor, fyra 2-kronor och fyra 5-kronor. Fyra mynt ramlar ut slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att mynten tillsammans är värda 4 kr?</p>",
+        "s": "<p>4 kr med fyra mynt kräver fyra 1-kronor: \\(\\dfrac{\\binom54}{\\binom{13}{4}}=\\dfrac{5}{715}=\\dfrac{1}{143}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{143}\\approx0{,}00699\\), alltså cirka \\(0{,}699\\,\\%\\)</p>",
+        "ledtrad": "<p>Vilka fyra mynt kan tillsammans bli 4 kr?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att mynten tillsammans är värda 8 kr?",
+        "t": "<p>I en plånbok finns fem 1-kronor, fyra 2-kronor och fyra 5-kronor. Fyra mynt ramlar ut slumpmässigt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att mynten tillsammans är värda 8 kr?</p>",
+        "s": "<p>8 kr med fyra mynt: \\(1+1+1+5\\) eller \\(2+2+2+2\\).</p><p>\\(\\binom53\\binom41+\\binom44=40+1=41\\) gynnsamma av \\(\\binom{13}{4}=715\\).</p><p><strong>Svar:</strong> \\(\\dfrac{41}{715}\\approx0{,}0573\\), alltså cirka \\(5{,}73\\,\\%\\)</p>",
+        "ledtrad": "<p>Leta upp alla kombinationer av fyra mynt som ger 8 kr och räkna varje fall för sig.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Fyra mynt väljs utan återläggning bland 13.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "minst en via komplement",
+    "poang": "0/2/0",
+    "t": "<p>I en burk finns 20 sega råttor och 15 kolor. Du tar 4 godisbitar utan att titta.</p><p>Hur stor är sannolikheten att du får minst en kola?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Ingen kola: \\(\\dfrac{\\binom{20}{4}}{\\binom{35}{4}}=\\dfrac{4\\,845}{52\\,360}\\).</p><p>Minst en kola: \\(1-\\dfrac{4\\,845}{52\\,360}=\\dfrac{47\\,515}{52\\,360}\\approx0{,}907\\).</p><p><strong>Svar:</strong> \\(\\dfrac{559}{616}\\approx0{,}907\\), alltså cirka \\(90{,}7\\,\\%\\)</p>",
+    "id": "1.683",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "559/616",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Vad är motsatsen till ”minst en kola”?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "typ": "flerstegsförsök med skålar",
+    "poang": "1/2/2",
+    "t": "<p>Skål 1 innehåller 2 röda och 2 vita kulor, skål 2 innehåller 3 röda och 1 vit kula och skål 3 innehåller 3 vita kulor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Du väljer en skål på måfå och tar en kula. Hur stor är sannolikheten att den är röd?</li><li>Du flyttar en slumpvis vald kula från skål 1 till skål 2, sedan en slumpvis vald kula från skål 2 till skål 3. Till sist drar du en kula ur skål 3. Hur stor är sannolikheten att den är vit?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac13\\cdot\\dfrac24+\\dfrac13\\cdot\\dfrac34+\\dfrac13\\cdot0=\\dfrac13\\cdot\\dfrac54=\\dfrac{5}{12}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{12}\\approx0{,}417\\), alltså cirka \\(41{,}7\\,\\%\\)</p></li><li><p>Efter första flytten har skål 2 antingen 4 röda och 1 vit eller 3 röda och 2 vita, med sannolikheten \\(\\tfrac12\\) vardera.</p><p>Röd flyttas till skål 3: \\(\\tfrac12\\cdot\\tfrac45+\\tfrac12\\cdot\\tfrac35=\\tfrac{7}{10}\\). Vit: \\(\\tfrac{3}{10}\\).</p><p>Skål 3 har sedan 3 vita och en flyttad kula: \\(P(\\text{vit})=\\tfrac{7}{10}\\cdot\\tfrac34+\\tfrac{3}{10}\\cdot1=\\tfrac{33}{40}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{33}{40}\\approx0{,}825\\), alltså cirka \\(82{,}5\\,\\%\\)</p></li></ol>",
+    "id": "1.684",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "5/12",
+      "33/40"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Skål 1 innehåller 2 röda och 2 vita kulor, skål 2 innehåller 3 röda och 1 vit kula och skål 3 innehåller 3 vita kulor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Du väljer en skål på måfå och tar en kula. Hur stor är sannolikheten att den är röd?",
+        "t": "<p>Skål 1 innehåller 2 röda och 2 vita kulor, skål 2 innehåller 3 röda och 1 vit kula och skål 3 innehåller 3 vita kulor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Du väljer en skål på måfå och tar en kula. Hur stor är sannolikheten att den är röd?</p>",
+        "s": "<p>\\(\\dfrac13\\cdot\\dfrac24+\\dfrac13\\cdot\\dfrac34+\\dfrac13\\cdot0=\\dfrac13\\cdot\\dfrac54=\\dfrac{5}{12}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{12}\\approx0{,}417\\), alltså cirka \\(41{,}7\\,\\%\\)</p>",
+        "ledtrad": "<p>Rita ett träddiagram: först skål, sedan färg.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Du flyttar en slumpvis vald kula från skål 1 till skål 2, sedan en slumpvis vald kula från skål 2 till skål 3. Till sist drar du en kula ur skål 3. Hur stor är sannolikheten att den är vit?",
+        "t": "<p>Skål 1 innehåller 2 röda och 2 vita kulor, skål 2 innehåller 3 röda och 1 vit kula och skål 3 innehåller 3 vita kulor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Du flyttar en slumpvis vald kula från skål 1 till skål 2, sedan en slumpvis vald kula från skål 2 till skål 3. Till sist drar du en kula ur skål 3. Hur stor är sannolikheten att den är vit?</p>",
+        "s": "<p>Efter första flytten har skål 2 antingen 4 röda och 1 vit eller 3 röda och 2 vita, med sannolikheten \\(\\tfrac12\\) vardera.</p><p>Röd flyttas till skål 3: \\(\\tfrac12\\cdot\\tfrac45+\\tfrac12\\cdot\\tfrac35=\\tfrac{7}{10}\\). Vit: \\(\\tfrac{3}{10}\\).</p><p>Skål 3 har sedan 3 vita och en flyttad kula: \\(P(\\text{vit})=\\tfrac{7}{10}\\cdot\\tfrac34+\\tfrac{3}{10}\\cdot1=\\tfrac{33}{40}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{33}{40}\\approx0{,}825\\), alltså cirka \\(82{,}5\\,\\%\\)</p>",
+        "ledtrad": "<p>Följ kulorna steg för steg i ett träddiagram. Vilka två sorters skål 3 kan det bli?</p>",
+        "niva": "A",
+        "poang": "0/1/2",
+        "traningsniva": 5
+      }
+    ],
+    "ledtrad": "<p>Rita träddiagram.</p>",
+    "traningsniva": 5
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "defekta föremål i ett parti",
+    "poang": "2/3/0",
+    "t": "<p>En kartong innehåller 20 datorer, varav 3 är felinstallerade. Fem elever får var sin dator ur kartongen.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att ingen elev får en felinstallerad dator?</li><li>Hur stor är sannolikheten att exakt två elever får en felinstallerad dator?</li><li>Hur stor är sannolikheten att minst två elever får en felinstallerad dator?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{\\binom{17}{5}}{\\binom{20}{5}}=\\dfrac{6\\,188}{15\\,504}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{91}{228}\\approx0{,}399\\), alltså cirka \\(39{,}9\\,\\%\\)</p></li><li><p>\\(\\dfrac{\\binom32\\binom{17}{3}}{\\binom{20}{5}}=\\dfrac{3\\cdot680}{15\\,504}=\\dfrac{2\\,040}{15\\,504}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{38}\\approx0{,}132\\), alltså cirka \\(13{,}2\\,\\%\\)</p></li><li><p>Exakt två: \\(\\binom32\\binom{17}{3}=2\\,040\\). Exakt tre: \\(\\binom33\\binom{17}{2}=136\\).</p><p>\\(\\dfrac{2\\,040+136}{15\\,504}=\\dfrac{2\\,176}{15\\,504}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{8}{57}\\approx0{,}14\\), alltså cirka \\(14\\,\\%\\)</p></li></ol>",
+    "id": "1.685",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "91/228",
+      "5/38",
+      "8/57"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kartong innehåller 20 datorer, varav 3 är felinstallerade. Fem elever får var sin dator ur kartongen.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att ingen elev får en felinstallerad dator?",
+        "t": "<p>En kartong innehåller 20 datorer, varav 3 är felinstallerade. Fem elever får var sin dator ur kartongen.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att ingen elev får en felinstallerad dator?</p>",
+        "s": "<p>\\(\\dfrac{\\binom{17}{5}}{\\binom{20}{5}}=\\dfrac{6\\,188}{15\\,504}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{91}{228}\\approx0{,}399\\), alltså cirka \\(39{,}9\\,\\%\\)</p>",
+        "ledtrad": "<p>Alla fem datorer ska väljas bland de fungerande.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att exakt två elever får en felinstallerad dator?",
+        "t": "<p>En kartong innehåller 20 datorer, varav 3 är felinstallerade. Fem elever får var sin dator ur kartongen.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att exakt två elever får en felinstallerad dator?</p>",
+        "s": "<p>\\(\\dfrac{\\binom32\\binom{17}{3}}{\\binom{20}{5}}=\\dfrac{3\\cdot680}{15\\,504}=\\dfrac{2\\,040}{15\\,504}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{38}\\approx0{,}132\\), alltså cirka \\(13{,}2\\,\\%\\)</p>",
+        "ledtrad": "<p>Välj två felaktiga och tre fungerande.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att minst två elever får en felinstallerad dator?",
+        "t": "<p>En kartong innehåller 20 datorer, varav 3 är felinstallerade. Fem elever får var sin dator ur kartongen.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst två elever får en felinstallerad dator?</p>",
+        "s": "<p>Exakt två: \\(\\binom32\\binom{17}{3}=2\\,040\\). Exakt tre: \\(\\binom33\\binom{17}{2}=136\\).</p><p>\\(\\dfrac{2\\,040+136}{15\\,504}=\\dfrac{2\\,176}{15\\,504}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{8}{57}\\approx0{,}14\\), alltså cirka \\(14\\,\\%\\)</p>",
+        "ledtrad": "<p>”Minst två” betyder två eller tre. Räkna fallen var för sig.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Datorerna delas ut utan återläggning.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "alla av ett slag",
+    "poang": "1/0/0",
+    "t": "<p>En uppfödare har 10 kaniner, och 3 av dem kommer troligen att dö inom ett år. En familj köper 2 slumpvis valda kaniner.</p><p>Hur stor är sannolikheten att båda familjens kaniner lever efter ett år?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Båda ska väljas bland de 7 som överlever: \\(\\dfrac{\\binom72}{\\binom{10}{2}}=\\dfrac{21}{45}=\\dfrac{7}{15}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{7}{15}\\approx0{,}467\\), alltså cirka \\(46{,}7\\,\\%\\)</p>",
+    "id": "1.686",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "7/15",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Hur många av kaninerna överlever?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "urval ur tre grupper",
+    "poang": "2/2/0",
+    "t": "<p>Vid ett nordiskt möte finns 7 delegater från Sverige, 5 från Norge och 2 från Danmark. Sex personer väljs slumpvis till en arbetsgrupp.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att gruppen består av 2 svenskar, 3 norrmän och 1 dansk?</li><li>Hur stor är sannolikheten att gruppen består av 3 svenskar och 3 norrmän?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{\\binom72\\binom53\\binom21}{\\binom{14}{6}}=\\dfrac{21\\cdot10\\cdot2}{3\\,003}=\\dfrac{420}{3\\,003}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{20}{143}\\approx0{,}14\\), alltså cirka \\(14\\,\\%\\)</p></li><li><p>\\(\\dfrac{\\binom73\\binom53}{\\binom{14}{6}}=\\dfrac{35\\cdot10}{3\\,003}=\\dfrac{350}{3\\,003}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{50}{429}\\approx0{,}117\\), alltså cirka \\(11{,}7\\,\\%\\)</p></li></ol>",
+    "id": "1.687",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "20/143",
+      "50/429"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Vid ett nordiskt möte finns 7 delegater från Sverige, 5 från Norge och 2 från Danmark. Sex personer väljs slumpvis till en arbetsgrupp.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att gruppen består av 2 svenskar, 3 norrmän och 1 dansk?",
+        "t": "<p>Vid ett nordiskt möte finns 7 delegater från Sverige, 5 från Norge och 2 från Danmark. Sex personer väljs slumpvis till en arbetsgrupp.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att gruppen består av 2 svenskar, 3 norrmän och 1 dansk?</p>",
+        "s": "<p>\\(\\dfrac{\\binom72\\binom53\\binom21}{\\binom{14}{6}}=\\dfrac{21\\cdot10\\cdot2}{3\\,003}=\\dfrac{420}{3\\,003}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{20}{143}\\approx0{,}14\\), alltså cirka \\(14\\,\\%\\)</p>",
+        "ledtrad": "<p>Välj ur varje land för sig och dela med alla sätt att välja sex.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att gruppen består av 3 svenskar och 3 norrmän?",
+        "t": "<p>Vid ett nordiskt möte finns 7 delegater från Sverige, 5 från Norge och 2 från Danmark. Sex personer väljs slumpvis till en arbetsgrupp.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att gruppen består av 3 svenskar och 3 norrmän?</p>",
+        "s": "<p>\\(\\dfrac{\\binom73\\binom53}{\\binom{14}{6}}=\\dfrac{35\\cdot10}{3\\,003}=\\dfrac{350}{3\\,003}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{50}{429}\\approx0{,}117\\), alltså cirka \\(11{,}7\\,\\%\\)</p>",
+        "ledtrad": "<p>Välj ur varje land för sig.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Hypergeometrisk sannolikhet med flera grupper.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "hypergeometrisk sannolikhet med fyra grupper",
+    "poang": "1/1/0",
+    "t": "<p>I en grupp med 16 elever har 4 betyget A, 6 betyget B, 4 betyget C och 2 betyget D. Man väljer slumpvis 8 elever.</p><p>Hur stor är sannolikheten att det blir 3 med A, 2 med B, 2 med C och 1 med D?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>\\(\\dfrac{\\binom43\\binom62\\binom42\\binom21}{\\binom{16}{8}}=\\dfrac{4\\cdot15\\cdot6\\cdot2}{12\\,870}=\\dfrac{720}{12\\,870}=\\dfrac{8}{143}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{8}{143}\\approx0{,}0559\\), alltså cirka \\(5{,}59\\,\\%\\)</p>",
+    "id": "1.688",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "8/143",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Välj ur varje betygsgrupp för sig.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "exakt en av ett slag",
+    "poang": "1/1/0",
+    "t": "<p>I en bokhylla står 5 kemiböcker och 4 matematikböcker. Du tar 3 böcker slumpmässigt.</p><p>Hur stor är sannolikheten att exakt en av dem är en matematikbok?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>\\(\\dfrac{\\binom41\\binom52}{\\binom93}=\\dfrac{4\\cdot10}{84}=\\dfrac{10}{21}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{10}{21}\\approx0{,}476\\), alltså cirka \\(47{,}6\\,\\%\\)</p>",
+    "id": "1.689",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "10/21",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Välj en matematikbok och två kemiböcker.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "exakt en av två personer",
+    "poang": "0/2/0",
+    "t": "<p>En tennisklubb har 8 spelare, bland dem Eva och Lars. Fyra spelare väljs slumpvis till en dubbelmatch.</p><p>Hur stor är sannolikheten att exakt en av Eva och Lars är med?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Välj vem av dem (2 sätt) och 3 av de 6 andra: \\(2\\cdot\\binom63=40\\). Alla urval: \\(\\binom84=70\\).</p><p>\\(\\dfrac{40}{70}=\\dfrac47\\).</p><p><strong>Svar:</strong> \\(\\dfrac{4}{7}\\approx0{,}571\\), alltså cirka \\(57{,}1\\,\\%\\)</p>",
+    "id": "1.690",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "4/7",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Vem av dem är med, och hur många platser återstår?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "minst en via komplement",
+    "poang": "0/2/0",
+    "t": "<p>I en låda ligger 6 mobiler av ett märke och 8 av ett annat. En elev tar 4 mobiler på en gång.</p><p>Hur stor är sannolikheten att minst en av dem är av det första märket?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Inga av det första märket: \\(\\dfrac{\\binom84}{\\binom{14}{4}}=\\dfrac{70}{1\\,001}\\). Minst en: \\(1-\\dfrac{70}{1\\,001}=\\dfrac{931}{1\\,001}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{133}{143}\\approx0{,}93\\), alltså cirka \\(93\\,\\%\\)</p>",
+    "id": "1.691",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "133/143",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Använd komplementet.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "slumpvis ordning med likadana bokstäver",
+    "poang": "0/2/0",
+    "t": "<p>Bokstäverna R, Ö, N, T, G, E och N skrivs på var sin lapp. Lapparna dras en i taget och läggs i rad.</p><p>Hur stor är sannolikheten att det bildas ordet RÖNTGEN?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>Det finns \\(7!=5\\,040\\) lika sannolika ordningar av de sju lapparna. Två av dem ger RÖNTGEN, eftersom de två N-lapparna kan byta plats.</p><p>\\(\\dfrac{2}{5\\,040}=\\dfrac{1}{2\\,520}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{2520}\\approx0{,}000397\\), alltså cirka \\(0{,}0397\\,\\%\\)</p>",
+    "id": "1.692",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/2520",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Hur många ordningar av de sju lapparna stavar RÖNTGEN? Tänk på de två N.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "första bokstäverna i slumpvis ordning",
+    "poang": "3/0/0",
+    "t": "<p>Bokstäverna M, A, M, M och A skrivs på fem klossar. Klossarna dras på måfå och läggs i rad.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att ordet börjar på A?</li><li>Hur stor är sannolikheten att ordet börjar på AA?</li><li>Hur stor är sannolikheten att ordet börjar på MMM?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>2 av 5 klossar är A: \\(\\dfrac25\\).</p><p><strong>Svar:</strong> \\(\\dfrac{2}{5}\\approx0{,}4\\), alltså cirka \\(40\\,\\%\\)</p></li><li><p>\\(\\dfrac25\\cdot\\dfrac14=\\dfrac{1}{10}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{10}\\approx0{,}1\\), alltså cirka \\(10\\,\\%\\)</p></li><li><p>\\(\\dfrac35\\cdot\\dfrac24\\cdot\\dfrac13=\\dfrac{1}{10}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{10}\\approx0{,}1\\), alltså cirka \\(10\\,\\%\\)</p></li></ol>",
+    "id": "1.693",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2/5",
+      "1/10",
+      "1/10"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bokstäverna M, A, M, M och A skrivs på fem klossar. Klossarna dras på måfå och läggs i rad.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att ordet börjar på A?",
+        "t": "<p>Bokstäverna M, A, M, M och A skrivs på fem klossar. Klossarna dras på måfå och läggs i rad.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att ordet börjar på A?</p>",
+        "s": "<p>2 av 5 klossar är A: \\(\\dfrac25\\).</p><p><strong>Svar:</strong> \\(\\dfrac{2}{5}\\approx0{,}4\\), alltså cirka \\(40\\,\\%\\)</p>",
+        "ledtrad": "<p>Bara första klossen spelar roll.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att ordet börjar på AA?",
+        "t": "<p>Bokstäverna M, A, M, M och A skrivs på fem klossar. Klossarna dras på måfå och läggs i rad.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att ordet börjar på AA?</p>",
+        "s": "<p>\\(\\dfrac25\\cdot\\dfrac14=\\dfrac{1}{10}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{10}\\approx0{,}1\\), alltså cirka \\(10\\,\\%\\)</p>",
+        "ledtrad": "<p>Hur många A finns kvar till andra platsen?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att ordet börjar på MMM?",
+        "t": "<p>Bokstäverna M, A, M, M och A skrivs på fem klossar. Klossarna dras på måfå och läggs i rad.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att ordet börjar på MMM?</p>",
+        "s": "<p>\\(\\dfrac35\\cdot\\dfrac24\\cdot\\dfrac13=\\dfrac{1}{10}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{10}\\approx0{,}1\\), alltså cirka \\(10\\,\\%\\)</p>",
+        "ledtrad": "<p>Multiplicera sannolikheterna för de tre första platserna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Klossarna dras utan återläggning.</p>",
+    "traningsniva": 2
+  },
+  {
     "kap": 2,
     "omr": "delbarhet_primtal",
     "niva": "E",

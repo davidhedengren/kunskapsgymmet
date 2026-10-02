@@ -21836,6 +21836,1166 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "omloppstid, vinkelhastighet och fart",
+    "poang": "(4/0/0)",
+    "t": "<p>En skiva spelas med 45 varv per minut. Den spelbara ytan har ytterradien 15 cm och innerradien 5,0 cm.</p><ol type=\"a\"><li>Beräkna omloppstiden.</li><li>Beräkna vinkelhastigheten.</li><li>Beräkna farten för en punkt vid ytterkanten.</li><li>Beräkna farten för en punkt vid innerkanten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{60}{45}\\) s.</p><p><strong>Svar:</strong> \\(1{,}3\\) s</p></li><li><p>\\(\\omega=\\dfrac{2\\pi}{T}=\\dfrac{2\\pi\\cdot45}{60}\\).</p><p><strong>Svar:</strong> \\(4{,}7\\) rad/s</p></li><li><p>\\(v=\\omega r=4{,}71\\cdot0{,}15\\).</p><p><strong>Svar:</strong> \\(0{,}71\\) m/s</p></li><li><p>\\(v=\\omega r=4{,}71\\cdot0{,}050\\).</p><p><strong>Svar:</strong> \\(0{,}24\\) m/s</p></li></ol>",
+    "id": "1.89",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fart, varvtal och centripetalacceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.3333333333333333,
+      4.71238898038469,
+      0.7068583470577035,
+      0.23561944901923448
+    ],
+    "tolerans": [
+      0.051,
+      0.0707,
+      0.0106,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "rad/s",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En skiva spelas med 45 varv per minut. Den spelbara ytan har ytterradien 15 cm och innerradien 5,0 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna omloppstiden.",
+        "t": "<p>En skiva spelas med 45 varv per minut. Den spelbara ytan har ytterradien 15 cm och innerradien 5,0 cm.</p><p>Beräkna omloppstiden.</p>",
+        "s": "<p>\\(T=\\dfrac{60}{45}\\) s.</p><p><strong>Svar:</strong> \\(1{,}3\\) s</p>",
+        "ledtrad": "<p>Hur lång tid tar ett varv om det går 45 varv på 60 s?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna vinkelhastigheten.",
+        "t": "<p>En skiva spelas med 45 varv per minut. Den spelbara ytan har ytterradien 15 cm och innerradien 5,0 cm.</p><p>Beräkna vinkelhastigheten.</p>",
+        "s": "<p>\\(\\omega=\\dfrac{2\\pi}{T}=\\dfrac{2\\pi\\cdot45}{60}\\).</p><p><strong>Svar:</strong> \\(4{,}7\\) rad/s</p>",
+        "ledtrad": "<p>Ett varv är \\(2\\pi\\) rad.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna farten för en punkt vid ytterkanten.",
+        "t": "<p>En skiva spelas med 45 varv per minut. Den spelbara ytan har ytterradien 15 cm och innerradien 5,0 cm.</p><p>Beräkna farten för en punkt vid ytterkanten.</p>",
+        "s": "<p>\\(v=\\omega r=4{,}71\\cdot0{,}15\\).</p><p><strong>Svar:</strong> \\(0{,}71\\) m/s</p>",
+        "ledtrad": "<p>Använd \\(v=\\omega r\\) med radien i meter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Beräkna farten för en punkt vid innerkanten.",
+        "t": "<p>En skiva spelas med 45 varv per minut. Den spelbara ytan har ytterradien 15 cm och innerradien 5,0 cm.</p><p>Beräkna farten för en punkt vid innerkanten.</p>",
+        "s": "<p>\\(v=\\omega r=4{,}71\\cdot0{,}050\\).</p><p><strong>Svar:</strong> \\(0{,}24\\) m/s</p>",
+        "ledtrad": "<p>Samma vinkelhastighet men mindre radie.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Alla punkter på skivan har samma vinkelhastighet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "cirkel__fart_varvtal_och_centripetalacceleration"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "centrifug",
+    "poang": "(3/0/0)",
+    "t": "<p>En laboratoriecentrifug roterar med 5 400 varv per minut.</p><ol type=\"a\"><li>Bestäm frekvensen.</li><li>Bestäm vinkelhastigheten.</li><li>Vilken fart har änden på ett provrör 14 cm från centrum?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f=\\dfrac{5\\,400}{60}\\) varv/s.</p><p><strong>Svar:</strong> \\(90\\) Hz</p></li><li><p>\\(\\omega=2\\pi f=2\\pi\\cdot90\\).</p><p><strong>Svar:</strong> \\(565\\) rad/s</p></li><li><p>\\(v=\\omega r=565\\cdot0{,}14\\).</p><p><strong>Svar:</strong> \\(79\\) m/s</p></li></ol>",
+    "id": "1.90",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fart, varvtal och centripetalacceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      90.0,
+      565.4866776461628,
+      79.1681348704628
+    ],
+    "tolerans": [
+      1.35,
+      8.48,
+      1.19
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "rad/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En laboratoriecentrifug roterar med 5 400 varv per minut.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm frekvensen.",
+        "t": "<p>En laboratoriecentrifug roterar med 5 400 varv per minut.</p><p>Bestäm frekvensen.</p>",
+        "s": "<p>\\(f=\\dfrac{5\\,400}{60}\\) varv/s.</p><p><strong>Svar:</strong> \\(90\\) Hz</p>",
+        "ledtrad": "<p>Frekvensen är antalet varv per sekund.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm vinkelhastigheten.",
+        "t": "<p>En laboratoriecentrifug roterar med 5 400 varv per minut.</p><p>Bestäm vinkelhastigheten.</p>",
+        "s": "<p>\\(\\omega=2\\pi f=2\\pi\\cdot90\\).</p><p><strong>Svar:</strong> \\(565\\) rad/s</p>",
+        "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken fart har änden på ett provrör 14 cm från centrum?",
+        "t": "<p>En laboratoriecentrifug roterar med 5 400 varv per minut.</p><p>Vilken fart har änden på ett provrör 14 cm från centrum?</p>",
+        "s": "<p>\\(v=\\omega r=565\\cdot0{,}14\\).</p><p><strong>Svar:</strong> \\(79\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\omega r\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Räkna om varvtalet till varv per sekund.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "cirkel__fart_varvtal_och_centripetalacceleration"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "antal varv ur rullad sträcka",
+    "poang": "(1/0/0)",
+    "t": "<p>En boll med diametern 16 cm rullar 18 m utan att glida. Hur många varv snurrar den?</p>",
+    "s": "<p>Ett varv motsvarar omkretsen \\(\\pi\\cdot0{,}16\\) m. Antal varv: \\(\\dfrac{18}{\\pi\\cdot0{,}16}\\approx36\\).</p><p><strong>Svar:</strong> \\(36\\) varv</p>",
+    "id": "1.91",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fart, varvtal och centripetalacceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 35.80986219567645,
+    "tolerans": 0.537,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur långt rullar bollen på ett varv?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "varv",
+    "familjNyckel": "cirkel__fart_varvtal_och_centripetalacceleration"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "vinkelhastighet för hjul",
+    "poang": "(1/0/0)",
+    "t": "<p>En cykel färdas med farten 9,0 m/s. Däckets radie är 35 cm. Bestäm däckets vinkelhastighet.</p>",
+    "s": "<p>\\(\\omega=\\dfrac vr=\\dfrac{9{,}0}{0{,}35}\\).</p><p><strong>Svar:</strong> \\(26\\) rad/s</p>",
+    "id": "1.92",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fart, varvtal och centripetalacceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25.714285714285715,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hjulets periferi rör sig lika fort som cykeln.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "rad/s",
+    "familjNyckel": "cirkel__fart_varvtal_och_centripetalacceleration"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "trumma som lindar kabel",
+    "poang": "(2/0/0)",
+    "t": "<p>En hiss hänger i en kabel som lindas på en trumma med radien 90,0 cm. Hissen åker nedåt med 1,5 m/s.</p><ol type=\"a\"><li>Bestäm trummans vinkelhastighet.</li><li>Hur många varv har trumman snurrat när hissen rört sig 6,0 m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\omega=\\dfrac vr=\\dfrac{1{,}5}{0{,}900}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) rad/s</p></li><li><p>\\(\\dfrac{6{,}0}{2\\pi\\cdot0{,}900}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) varv</p></li></ol>",
+    "id": "1.93",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fart, varvtal och centripetalacceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.6666666666666665,
+      1.0610329539459689
+    ],
+    "tolerans": [
+      0.051,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "rad/s",
+      "varv"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En hiss hänger i en kabel som lindas på en trumma med radien 90,0 cm. Hissen åker nedåt med 1,5 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm trummans vinkelhastighet.",
+        "t": "<p>En hiss hänger i en kabel som lindas på en trumma med radien 90,0 cm. Hissen åker nedåt med 1,5 m/s.</p><p>Bestäm trummans vinkelhastighet.</p>",
+        "s": "<p>\\(\\omega=\\dfrac vr=\\dfrac{1{,}5}{0{,}900}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) rad/s</p>",
+        "ledtrad": "<p>Kabeln rör sig lika fort som trummans kant.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många varv har trumman snurrat när hissen rört sig 6,0 m?",
+        "t": "<p>En hiss hänger i en kabel som lindas på en trumma med radien 90,0 cm. Hissen åker nedåt med 1,5 m/s.</p><p>Hur många varv har trumman snurrat när hissen rört sig 6,0 m?</p>",
+        "s": "<p>\\(\\dfrac{6{,}0}{2\\pi\\cdot0{,}900}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) varv</p>",
+        "ledtrad": "<p>Hur mycket kabel lindas av på ett varv?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Kabelns fart är lika med trummans periferifart.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "cirkel__fart_varvtal_och_centripetalacceleration"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "centripetalacceleration och kraft",
+    "poang": "(2/0/0)",
+    "t": "<p>Stina, som väger 22,5 kg, sitter 1,20 m från centrum i en karusell och har farten 2,10 m/s.</p><ol type=\"a\"><li>Beräkna centripetalaccelerationen.</li><li>Beräkna centripetalkraften.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_c=\\dfrac{v^2}{r}=\\dfrac{2{,}10^2}{1{,}20}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p></li><li><p>\\(F_c=ma_c=22{,}5\\cdot\\dfrac{2{,}10^2}{1{,}20}\\).</p><p><strong>Svar:</strong> \\(83\\) N</p></li></ol>",
+    "id": "1.94",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Centripetalkraft och konisk pendel",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.6750000000000003,
+      82.6875
+    ],
+    "tolerans": [
+      0.0551,
+      1.24
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stina, som väger 22,5 kg, sitter 1,20 m från centrum i en karusell och har farten 2,10 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna centripetalaccelerationen.",
+        "t": "<p>Stina, som väger 22,5 kg, sitter 1,20 m från centrum i en karusell och har farten 2,10 m/s.</p><p>Beräkna centripetalaccelerationen.</p>",
+        "s": "<p>\\(a_c=\\dfrac{v^2}{r}=\\dfrac{2{,}10^2}{1{,}20}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p>",
+        "ledtrad": "<p>\\(a_c=\\dfrac{v^2}{r}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna centripetalkraften.",
+        "t": "<p>Stina, som väger 22,5 kg, sitter 1,20 m från centrum i en karusell och har farten 2,10 m/s.</p><p>Beräkna centripetalkraften.</p>",
+        "s": "<p>\\(F_c=ma_c=22{,}5\\cdot\\dfrac{2{,}10^2}{1{,}20}\\).</p><p><strong>Svar:</strong> \\(83\\) N</p>",
+        "ledtrad": "<p>\\(F_c=ma_c\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Centripetalaccelerationen är \\(\\dfrac{v^2}{r}\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "cirkel__centripetalkraft_och_konisk_pendel"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "acceleration i g",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett jetplan med farten 1 890 km/h svänger i en båge med radien 5,20 km.</p><ol type=\"a\"><li>Hur stor är centripetalaccelerationen?</li><li>Hur många g motsvarar det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{1\\,890}{3{,}6}=525\\) m/s. \\(a_c=\\dfrac{525^2}{5\\,200}\\).</p><p><strong>Svar:</strong> \\(53\\) m/s²</p></li><li><p>\\(\\dfrac{a_c}{g}=\\dfrac{53}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(5{,}4g\\)</p></li></ol>",
+    "id": "1.95",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Centripetalkraft och konisk pendel",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      53.00480769230769,
+      5.397638257872473
+    ],
+    "tolerans": [
+      0.795,
+      0.081
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett jetplan med farten 1 890 km/h svänger i en båge med radien 5,20 km.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är centripetalaccelerationen?",
+        "t": "<p>Ett jetplan med farten 1 890 km/h svänger i en båge med radien 5,20 km.</p><p>Hur stor är centripetalaccelerationen?</p>",
+        "s": "<p>\\(v=\\dfrac{1\\,890}{3{,}6}=525\\) m/s. \\(a_c=\\dfrac{525^2}{5\\,200}\\).</p><p><strong>Svar:</strong> \\(53\\) m/s²</p>",
+        "ledtrad": "<p>Räkna om till m/s och m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många g motsvarar det?",
+        "t": "<p>Ett jetplan med farten 1 890 km/h svänger i en båge med radien 5,20 km.</p><p>Hur många g motsvarar det?</p>",
+        "s": "<p>\\(\\dfrac{a_c}{g}=\\dfrac{53}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(5{,}4g\\)</p>",
+        "ledtrad": "<p>Dela accelerationen med \\(g=9{,}82\\) m/s².</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Använd SI-enheter.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "cirkel__centripetalkraft_och_konisk_pendel"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "största fart ur spännkraft",
+    "poang": "(2/0/0)",
+    "t": "<p>En puck med massan 0,30 kg är fäst i ett 80,0 cm långt snöre som är fäst i ett friktionsfritt bord. Snöret tål 25,0 N. Hur snabbt kan pucken röra sig utan att snöret går av?</p>",
+    "s": "<p>Snörets kraft är centripetalkraften: \\(\\dfrac{mv^2}{r}=25{,}0\\iff v=\\sqrt{\\dfrac{25{,}0\\cdot0{,}800}{0{,}30}}\\).</p><p><strong>Svar:</strong> \\(8{,}2\\) m/s</p>",
+    "id": "1.96",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Centripetalkraft och konisk pendel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.16496580927726,
+    "tolerans": 0.122,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken kraft håller pucken i cirkelbanan?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "cirkel__centripetalkraft_och_konisk_pendel"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "kraft ur omloppstid",
+    "poang": "(2/0/0)",
+    "t": "<p>Maria, 35 kg, sitter 2,5 m från centrum i en karusell med omloppstiden 4,5 s. Beräkna den resulterande kraften på henne.</p>",
+    "s": "<p>\\(v=\\dfrac{2\\pi r}{T}\\) och \\(F=\\dfrac{mv^2}{r}=\\dfrac{4\\pi^2mr}{T^2}=\\dfrac{4\\pi^2\\cdot35\\cdot2{,}5}{4{,}5^2}\\).</p><p><strong>Svar:</strong> \\(171\\) N</p>",
+    "id": "1.97",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Centripetalkraft och konisk pendel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 170.58575508055682,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck farten med omloppstiden.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "cirkel__centripetalkraft_och_konisk_pendel"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "acceleration ur frekvens",
+    "poang": "(1/0/0)",
+    "t": "<p>En partikel rör sig i en cirkelbana med radien 8,6 cm och frekvensen 150 Hz. Beräkna dess acceleration.</p>",
+    "s": "<p>\\(a=\\omega^2r=(2\\pi\\cdot150)^2\\cdot0{,}086\\).</p><p><strong>Svar:</strong> \\(76\\,391\\) m/s²</p>",
+    "id": "1.98",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Centripetalkraft och konisk pendel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 76390.73806443161,
+    "tolerans": 1150.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd \\(a=\\omega^2r\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "cirkel__centripetalkraft_och_konisk_pendel"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "jordens rotation",
+    "poang": "(2/0/0)",
+    "t": "<p>Beräkna centripetalaccelerationen för en person vid ekvatorn. Jordens radie är 6 370 km och ett varv tar 24 h.</p>",
+    "s": "<p>\\(a_c=\\dfrac{4\\pi^2r}{T^2}=\\dfrac{4\\pi^2\\cdot6{,}37\\cdot10^6}{(24\\cdot3\\,600)^2}\\). Accelerationen orsakas av att gravitationen är något större än normalkraften.</p><p><strong>Svar:</strong> \\(0{,}034\\) m/s²</p>",
+    "id": "1.99",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fart, varvtal och centripetalacceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.03368772507016204,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck accelerationen med radie och period.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "cirkel__fart_varvtal_och_centripetalacceleration"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "E",
+    "typ": "vinkelhastighet ur g-krav",
+    "poang": "(2/0/0)",
+    "t": "<p>I en människocentrifug sitter personen 11,0 m från centrum. Hur stor vinkelhastighet ger accelerationen 6g?</p>",
+    "s": "<p>\\(\\omega^2r=6g\\iff\\omega=\\sqrt{\\dfrac{6\\cdot9{,}82}{11{,}0}}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) rad/s</p>",
+    "id": "1.100",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fart, varvtal och centripetalacceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.3143819123825775,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd \\(a=\\omega^2r\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "rad/s",
+    "familjNyckel": "cirkel__fart_varvtal_och_centripetalacceleration"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "kraft vid ändrad fart",
+    "poang": "(0/2/0)",
+    "t": "<p>En bil kör genom en kurva med farten 14,0 m/s och påverkas då av en kraft på 130 N in mot kurvans centrum. Hur stor blir kraften om farten i stället är 18,0 m/s?</p>",
+    "s": "<p>\\(F\\propto v^2\\): \\(F=130\\cdot\\left(\\dfrac{18{,}0}{14{,}0}\\right)^2\\).</p><p><strong>Svar:</strong> \\(215\\) N</p>",
+    "id": "1.101",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Centripetalkraft och konisk pendel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 214.8979591836735,
+    "tolerans": 3.22,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur beror centripetalkraften på farten?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "cirkel__centripetalkraft_och_konisk_pendel"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "normalkraft på krön och i svacka",
+    "poang": "(1/4/0)",
+    "t": "<p>En bil med massan 1,2 ton kör i 72 km/h.</p><ol type=\"a\"><li>Hur stor är normalkraften på en rak vågrät väg?</li><li>Hur stor är normalkraften på krönet av en bro med krökningsradien 50 m?</li><li>Hur stor är normalkraften i botten av en svacka med krökningsradien 50 m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N=mg=1\\,200\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(11\\,784\\) N</p></li><li><p>\\(mg-F_N=\\dfrac{mv^2}{r}\\iff F_N=1\\,200\\left(9{,}82-\\dfrac{20^2}{50}\\right)\\).</p><p><strong>Svar:</strong> \\(2\\,184\\) N</p></li><li><p>\\(F_N-mg=\\dfrac{mv^2}{r}\\iff F_N=1\\,200\\left(9{,}82+\\dfrac{20^2}{50}\\right)\\).</p><p><strong>Svar:</strong> \\(21\\,384\\) N</p></li></ol>",
+    "id": "1.102",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krön, dalar, loopar och doserade kurvor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11784.0,
+      2184.0000000000005,
+      21384.0
+    ],
+    "tolerans": [
+      510.0,
+      51.0,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil med massan 1,2 ton kör i 72 km/h.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är normalkraften på en rak vågrät väg?",
+        "t": "<p>En bil med massan 1,2 ton kör i 72 km/h.</p><p>Hur stor är normalkraften på en rak vågrät väg?</p>",
+        "s": "<p>\\(F_N=mg=1\\,200\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(11\\,784\\) N</p>",
+        "ledtrad": "<p>Ingen acceleration i lodled.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är normalkraften på krönet av en bro med krökningsradien 50 m?",
+        "t": "<p>En bil med massan 1,2 ton kör i 72 km/h.</p><p>Hur stor är normalkraften på krönet av en bro med krökningsradien 50 m?</p>",
+        "s": "<p>\\(mg-F_N=\\dfrac{mv^2}{r}\\iff F_N=1\\,200\\left(9{,}82-\\dfrac{20^2}{50}\\right)\\).</p><p><strong>Svar:</strong> \\(2\\,184\\) N</p>",
+        "ledtrad": "<p>På krönet pekar accelerationen nedåt, mot krökningscentrum.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är normalkraften i botten av en svacka med krökningsradien 50 m?",
+        "t": "<p>En bil med massan 1,2 ton kör i 72 km/h.</p><p>Hur stor är normalkraften i botten av en svacka med krökningsradien 50 m?</p>",
+        "s": "<p>\\(F_N-mg=\\dfrac{mv^2}{r}\\iff F_N=1\\,200\\left(9{,}82+\\dfrac{20^2}{50}\\right)\\).</p><p><strong>Svar:</strong> \\(21\\,384\\) N</p>",
+        "ledtrad": "<p>I svackan pekar accelerationen uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>72 km/h = 20 m/s. Ställ upp Newtons andra lag i radiell riktning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "cirkel__kron_dalar_loopar_och_doserade_kurvor"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "spännkraft i pendel",
+    "poang": "(1/1/0)",
+    "t": "<p>En kula med massan 120 g hänger i ett 75 cm långt snöre och passerar jämviktsläget med farten 2,5 m/s. Beräkna spännkraften i snöret där.</p>",
+    "s": "<p>\\(S-mg=\\dfrac{mv^2}{r}\\iff S=0{,}120\\left(9{,}82+\\dfrac{2{,}5^2}{0{,}75}\\right)\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) N</p>",
+    "id": "1.103",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krön, dalar, loopar och doserade kurvor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.1784000000000003,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I lägsta punkten pekar accelerationen uppåt, mot upphängningen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "cirkel__kron_dalar_loopar_och_doserade_kurvor"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "pendel som släpps från vågrätt läge",
+    "poang": "(0/2/0)",
+    "t": "<p>En kula med massan 0,50 kg sitter i ett 80 cm långt snöre. Kulan lyfts så att snöret är vågrätt och släpps. Beräkna spännkraften när kulan passerar lägsta punkten.</p>",
+    "s": "<p>Energiprincipen: \\(v^2=2gL\\). Då blir \\(S=mg+\\dfrac{mv^2}{L}=mg+2mg=3mg=3\\cdot0{,}50\\cdot9{,}82\\), oberoende av snörets längd.</p><p><strong>Svar:</strong> \\(15\\) N</p>",
+    "id": "1.104",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krön, dalar, loopar och doserade kurvor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.73,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten med energiprincipen och ställ sedan upp kraftekvationen i lägsta punkten.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "cirkel__kron_dalar_loopar_och_doserade_kurvor"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "leksaksbil i loop",
+    "poang": "(0/4/0)",
+    "t": "<p>En leksaksbil med massan 150 g kör genom en loop. Tyngdpunkten rör sig i en cirkel med radien 35 cm.</p><ol type=\"a\"><li>Beräkna normalkraften i loopens högsta punkt när farten är 2,2 m/s.</li><li>Vilken är den lägsta fart bilen kan ha i högsta punkten utan att tappa kontakten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N+mg=\\dfrac{mv^2}{r}\\iff F_N=0{,}150\\left(\\dfrac{2{,}2^2}{0{,}35}-9{,}82\\right)\\).</p><p><strong>Svar:</strong> \\(0{,}60\\) N</p></li><li><p>Kontakten släpper när \\(F_N=0\\): \\(mg=\\dfrac{mv^2}{r}\\iff v=\\sqrt{gr}=\\sqrt{9{,}82\\cdot0{,}35}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) m/s</p></li></ol>",
+    "id": "1.105",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krön, dalar, loopar och doserade kurvor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6012857142857145,
+      1.8539147768977946
+    ],
+    "tolerans": [
+      0.00902,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En leksaksbil med massan 150 g kör genom en loop. Tyngdpunkten rör sig i en cirkel med radien 35 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna normalkraften i loopens högsta punkt när farten är 2,2 m/s.",
+        "t": "<p>En leksaksbil med massan 150 g kör genom en loop. Tyngdpunkten rör sig i en cirkel med radien 35 cm.</p><p>Beräkna normalkraften i loopens högsta punkt när farten är 2,2 m/s.</p>",
+        "s": "<p>\\(F_N+mg=\\dfrac{mv^2}{r}\\iff F_N=0{,}150\\left(\\dfrac{2{,}2^2}{0{,}35}-9{,}82\\right)\\).</p><p><strong>Svar:</strong> \\(0{,}60\\) N</p>",
+        "ledtrad": "<p>I högsta punkten pekar både tyngdkraften och normalkraften nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den lägsta fart bilen kan ha i högsta punkten utan att tappa kontakten?",
+        "t": "<p>En leksaksbil med massan 150 g kör genom en loop. Tyngdpunkten rör sig i en cirkel med radien 35 cm.</p><p>Vilken är den lägsta fart bilen kan ha i högsta punkten utan att tappa kontakten?</p>",
+        "s": "<p>Kontakten släpper när \\(F_N=0\\): \\(mg=\\dfrac{mv^2}{r}\\iff v=\\sqrt{gr}=\\sqrt{9{,}82\\cdot0{,}35}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) m/s</p>",
+        "ledtrad": "<p>Vad är normalkraften precis när bilen tappar kontakten?</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Ställ upp kraftekvationen mot centrum.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "cirkel__kron_dalar_loopar_och_doserade_kurvor"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "bil över bro",
+    "poang": "(0/4/0)",
+    "t": "<p>En bil med massan 1,35 ton kör över en bro med krökningsradien 60 m.</p><ol type=\"a\"><li>Hur stor är normalkraften på brons högsta punkt om farten är 70 km/h?</li><li>Hur fort kan bilen köra över krönet utan att lämna vägbanan? Svara i km/h.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N=m\\left(g-\\dfrac{v^2}{r}\\right)=1\\,350\\left(9{,}82-\\dfrac{19{,}4^2}{60}\\right)\\).</p><p><strong>Svar:</strong> \\(4\\,750\\) N</p></li><li><p>\\(F_N=0\\iff v=\\sqrt{gr}=\\sqrt{9{,}82\\cdot60}\\approx24{,}3\\) m/s.</p><p><strong>Svar:</strong> \\(87\\) km/h</p></li></ol>",
+    "id": "1.106",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krön, dalar, loopar och doserade kurvor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4750.055555555557,
+      87.38439219906493
+    ],
+    "tolerans": [
+      71.3,
+      1.31
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "km/h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil med massan 1,35 ton kör över en bro med krökningsradien 60 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är normalkraften på brons högsta punkt om farten är 70 km/h?",
+        "t": "<p>En bil med massan 1,35 ton kör över en bro med krökningsradien 60 m.</p><p>Hur stor är normalkraften på brons högsta punkt om farten är 70 km/h?</p>",
+        "s": "<p>\\(F_N=m\\left(g-\\dfrac{v^2}{r}\\right)=1\\,350\\left(9{,}82-\\dfrac{19{,}4^2}{60}\\right)\\).</p><p><strong>Svar:</strong> \\(4\\,750\\) N</p>",
+        "ledtrad": "<p>Accelerationen pekar nedåt mot krökningscentrum.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur fort kan bilen köra över krönet utan att lämna vägbanan? Svara i km/h.",
+        "t": "<p>En bil med massan 1,35 ton kör över en bro med krökningsradien 60 m.</p><p>Hur fort kan bilen köra över krönet utan att lämna vägbanan? Svara i km/h.</p>",
+        "s": "<p>\\(F_N=0\\iff v=\\sqrt{gr}=\\sqrt{9{,}82\\cdot60}\\approx24{,}3\\) m/s.</p><p><strong>Svar:</strong> \\(87\\) km/h</p>",
+        "ledtrad": "<p>Bilen lättar när normalkraften blir noll.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Ställ upp Newtons andra lag i radiell riktning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "cirkel__kron_dalar_loopar_och_doserade_kurvor"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "A",
+    "typ": "största varvtal ur spännkraft",
+    "poang": "(0/3/1)",
+    "t": "<p>En vikt med massan 200 g sitter i ett 0,80 m långt snöre som går av vid spännkraften 5,0 N. Vikten roterar i en cirkelbana.</p><ol type=\"a\"><li>Bestäm det största varvtalet om banan är vågrät (bortse från tyngdkraftens inverkan på snörets vinkel). Svara i varv per sekund.</li><li>Bestäm det största varvtalet om banan är lodrät. Svara i varv per sekund.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(S=m\\omega^2L\\iff\\omega=\\sqrt{\\dfrac{5{,}0}{0{,}200\\cdot0{,}80}}\\), \\(f=\\dfrac{\\omega}{2\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}89\\) Hz</p></li><li><p>Spännkraften är störst i lägsta punkten: \\(S-mg=m\\omega^2L\\iff\\omega=\\sqrt{\\dfrac{5{,}0-0{,}200\\cdot9{,}82}{0{,}200\\cdot0{,}80}}\\).</p><p><strong>Svar:</strong> \\(0{,}69\\) Hz</p></li></ol>",
+    "id": "1.107",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Centripetalkraft och konisk pendel",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8897031792714712,
+      0.6932837549685841
+    ],
+    "tolerans": [
+      0.0133,
+      0.0104
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En vikt med massan 200 g sitter i ett 0,80 m långt snöre som går av vid spännkraften 5,0 N. Vikten roterar i en cirkelbana.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm det största varvtalet om banan är vågrät (bortse från tyngdkraftens inverkan på snörets vinkel). Svara i varv per sekund.",
+        "t": "<p>En vikt med massan 200 g sitter i ett 0,80 m långt snöre som går av vid spännkraften 5,0 N. Vikten roterar i en cirkelbana.</p><p>Bestäm det största varvtalet om banan är vågrät (bortse från tyngdkraftens inverkan på snörets vinkel). Svara i varv per sekund.</p>",
+        "s": "<p>\\(S=m\\omega^2L\\iff\\omega=\\sqrt{\\dfrac{5{,}0}{0{,}200\\cdot0{,}80}}\\), \\(f=\\dfrac{\\omega}{2\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}89\\) Hz</p>",
+        "ledtrad": "<p>Snörets spännkraft är centripetalkraften.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm det största varvtalet om banan är lodrät. Svara i varv per sekund.",
+        "t": "<p>En vikt med massan 200 g sitter i ett 0,80 m långt snöre som går av vid spännkraften 5,0 N. Vikten roterar i en cirkelbana.</p><p>Bestäm det största varvtalet om banan är lodrät. Svara i varv per sekund.</p>",
+        "s": "<p>Spännkraften är störst i lägsta punkten: \\(S-mg=m\\omega^2L\\iff\\omega=\\sqrt{\\dfrac{5{,}0-0{,}200\\cdot9{,}82}{0{,}200\\cdot0{,}80}}\\).</p><p><strong>Svar:</strong> \\(0{,}69\\) Hz</p>",
+        "ledtrad": "<p>Var i den lodräta banan är spännkraften störst?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Varvtalet är \\(f=\\dfrac{\\omega}{2\\pi}\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "cirkel__centripetalkraft_och_konisk_pendel"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "jetplan i vertikal loop",
+    "poang": "(0/6/0)",
+    "t": "<p>Ett jetplan flyger en lodrät loop med farten 840 km/h. Accelerationen får inte överstiga 6g. Piloten väger 78 kg.</p><ol type=\"a\"><li>Hur liten får loopens radie vara?</li><li>Hur stor kraft verkar på piloten från stolen i loopens lägsta punkt, med den minsta radien?</li><li>Hur stor kraft verkar på piloten från stolen i loopens högsta punkt, med samma fart och radie?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{v^2}{r}=6g\\iff r=\\dfrac{233{,}3^2}{6\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(924\\) m</p></li><li><p>\\(F_N-mg=m\\cdot6g\\iff F_N=7mg=7\\cdot78\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(5\\,362\\) N</p></li><li><p>\\(F_N+mg=m\\cdot6g\\iff F_N=5mg=5\\cdot78\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(3\\,830\\) N</p></li></ol>",
+    "id": "1.108",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krön, dalar, loopar och doserade kurvor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      924.0401297427773,
+      5361.72,
+      3829.8
+    ],
+    "tolerans": [
+      13.9,
+      80.4,
+      57.4
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett jetplan flyger en lodrät loop med farten 840 km/h. Accelerationen får inte överstiga 6g. Piloten väger 78 kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur liten får loopens radie vara?",
+        "t": "<p>Ett jetplan flyger en lodrät loop med farten 840 km/h. Accelerationen får inte överstiga 6g. Piloten väger 78 kg.</p><p>Hur liten får loopens radie vara?</p>",
+        "s": "<p>\\(\\dfrac{v^2}{r}=6g\\iff r=\\dfrac{233{,}3^2}{6\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(924\\) m</p>",
+        "ledtrad": "<p>Använd \\(a=\\dfrac{v^2}{r}\\) och räkna om farten till m/s.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor kraft verkar på piloten från stolen i loopens lägsta punkt, med den minsta radien?",
+        "t": "<p>Ett jetplan flyger en lodrät loop med farten 840 km/h. Accelerationen får inte överstiga 6g. Piloten väger 78 kg.</p><p>Accelerationen i lägsta punkten är 6g.</p><p>Hur stor kraft verkar på piloten från stolen i loopens lägsta punkt, med den minsta radien?</p>",
+        "s": "<p>\\(F_N-mg=m\\cdot6g\\iff F_N=7mg=7\\cdot78\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(5\\,362\\) N</p>",
+        "ledtrad": "<p>I lägsta punkten pekar accelerationen uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor kraft verkar på piloten från stolen i loopens högsta punkt, med samma fart och radie?",
+        "t": "<p>Ett jetplan flyger en lodrät loop med farten 840 km/h. Accelerationen får inte överstiga 6g. Piloten väger 78 kg.</p><p>Accelerationen är 6g även i högsta punkten.</p><p>Hur stor kraft verkar på piloten från stolen i loopens högsta punkt, med samma fart och radie?</p>",
+        "s": "<p>\\(F_N+mg=m\\cdot6g\\iff F_N=5mg=5\\cdot78\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(3\\,830\\) N</p>",
+        "ledtrad": "<p>I högsta punkten pekar både tyngdkraften och normalkraften nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Ställ upp kraftekvationen mot loopens centrum.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "cirkel__kron_dalar_loopar_och_doserade_kurvor"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "konstgjord gravitation",
+    "poang": "(0/2/0)",
+    "t": "<p>En ringformad rymdstation med diametern 90 m roterar så att man vid ytterväggen upplever 0,9g. Hur många varv per dygn roterar den?</p>",
+    "s": "<p>\\(\\omega^2r=0{,}9g\\iff\\omega=\\sqrt{\\dfrac{0{,}9\\cdot9{,}82}{45}}\\). Varv per dygn: \\(\\dfrac{\\omega}{2\\pi}\\cdot86\\,400\\).</p><p><strong>Svar:</strong> \\(6\\,094\\) varv/dygn</p>",
+    "id": "1.109",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fart, varvtal och centripetalacceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6094.030392720147,
+    "tolerans": 91.4,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Normalkraften från ytterväggen ger centripetalkraften.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "varv/dygn",
+    "familjNyckel": "cirkel__fart_varvtal_och_centripetalacceleration"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "pariserhjul",
+    "poang": "(1/2/0)",
+    "t": "<p>Kalle, 80 kg, åker i ett pariserhjul med radien 10 m och den konstanta farten 6,1 m/s.</p><ol type=\"a\"><li>Beräkna perioden.</li><li>Beräkna normalkraften från stolen i hjulets högsta punkt.</li><li>Beräkna normalkraften från stolen i hjulets lägsta punkt.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{2\\pi r}{v}=\\dfrac{2\\pi\\cdot10}{6{,}1}\\).</p><p><strong>Svar:</strong> \\(10\\) s</p></li><li><p>\\(F_N=m\\left(g-\\dfrac{v^2}{r}\\right)=80\\left(9{,}82-\\dfrac{6{,}1^2}{10}\\right)\\).</p><p><strong>Svar:</strong> \\(488\\) N</p></li><li><p>\\(F_N=m\\left(g+\\dfrac{v^2}{r}\\right)=80\\left(9{,}82+\\dfrac{6{,}1^2}{10}\\right)\\).</p><p><strong>Svar:</strong> \\(1\\,083\\) N</p></li></ol>",
+    "id": "1.110",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krön, dalar, loopar och doserade kurvor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.300303782261617,
+      487.9200000000001,
+      1083.28
+    ],
+    "tolerans": [
+      0.51,
+      7.32,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Kalle, 80 kg, åker i ett pariserhjul med radien 10 m och den konstanta farten 6,1 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna perioden.",
+        "t": "<p>Kalle, 80 kg, åker i ett pariserhjul med radien 10 m och den konstanta farten 6,1 m/s.</p><p>Beräkna perioden.</p>",
+        "s": "<p>\\(T=\\dfrac{2\\pi r}{v}=\\dfrac{2\\pi\\cdot10}{6{,}1}\\).</p><p><strong>Svar:</strong> \\(10\\) s</p>",
+        "ledtrad": "<p>Ett varv är omkretsen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna normalkraften från stolen i hjulets högsta punkt.",
+        "t": "<p>Kalle, 80 kg, åker i ett pariserhjul med radien 10 m och den konstanta farten 6,1 m/s.</p><p>Beräkna normalkraften från stolen i hjulets högsta punkt.</p>",
+        "s": "<p>\\(F_N=m\\left(g-\\dfrac{v^2}{r}\\right)=80\\left(9{,}82-\\dfrac{6{,}1^2}{10}\\right)\\).</p><p><strong>Svar:</strong> \\(488\\) N</p>",
+        "ledtrad": "<p>Högst upp pekar accelerationen nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna normalkraften från stolen i hjulets lägsta punkt.",
+        "t": "<p>Kalle, 80 kg, åker i ett pariserhjul med radien 10 m och den konstanta farten 6,1 m/s.</p><p>Beräkna normalkraften från stolen i hjulets lägsta punkt.</p>",
+        "s": "<p>\\(F_N=m\\left(g+\\dfrac{v^2}{r}\\right)=80\\left(9{,}82+\\dfrac{6{,}1^2}{10}\\right)\\).</p><p><strong>Svar:</strong> \\(1\\,083\\) N</p>",
+        "ledtrad": "<p>Längst ned pekar accelerationen uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Ställ upp Newtons andra lag mot hjulets centrum.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "cirkel__kron_dalar_loopar_och_doserade_kurvor"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "tyngdlöshet i pariserhjul",
+    "poang": "(0/2/0)",
+    "t": "<p>Hur många varv per minut skulle ett pariserhjul med diametern 25 m behöva snurra för att passagerarna ska känna sig tyngdlösa i högsta punkten?</p>",
+    "s": "<p>Tyngdlöshet betyder \\(F_N=0\\): \\(\\omega^2r=g\\iff\\omega=\\sqrt{\\dfrac{9{,}82}{12{,}5}}\\). Varv per minut: \\(\\dfrac{\\omega}{2\\pi}\\cdot60\\).</p><p><strong>Svar:</strong> \\(8{,}5\\) varv/min</p>",
+    "id": "1.111",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krön, dalar, loopar och doserade kurvor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.463931101000203,
+    "tolerans": 0.127,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vad är normalkraften när man känner sig tyngdlös?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "varv/min",
+    "familjNyckel": "cirkel__kron_dalar_loopar_och_doserade_kurvor"
+  },
+  {
+    "kap": 1,
+    "omr": "cirkel",
+    "niva": "C",
+    "typ": "normalkraft i lägsta punkten ur högsta",
+    "poang": "(0/2/0)",
+    "t": "<p>En student med tyngden 667 N åker i ett pariserhjul med konstant fart. I den högsta punkten är normalkraften från stolen 556 N. Hur stor är normalkraften i den lägsta punkten?</p>",
+    "s": "<p>Högst upp: \\(mg-F_N=F_c\\iff F_c=667-556=111\\) N. Längst ned: \\(F_N=mg+F_c=667+111\\).</p><p><strong>Svar:</strong> \\(778\\) N</p>",
+    "id": "1.112",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krön, dalar, loopar och doserade kurvor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 778,
+    "tolerans": 11.7,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Centripetalkraften är lika stor i båda punkterna.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "cirkel__kron_dalar_loopar_och_doserade_kurvor"
+  },
+  {
     "id": "3.113",
     "kap": 3,
     "omr": "laddade_partiklar",

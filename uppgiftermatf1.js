@@ -26903,6 +26903,226 @@ window.BANKMATF1 = [
   },
   {
     "kap": 4,
+    "omr": "homogena_forsta",
+    "niva": "E",
+    "typ": "ställa upp och lösa y'=ky",
+    "poang": "2/0/0",
+    "t": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p><ol type=\"a\"><li>Bestäm \\(N(t)\\).</li><li>Hur många bakterier finns efter 7,0 minuter? Avrunda till hundratal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N^{\\prime}=0{,}05N\\) med \\(N(0)=1\\,500\\) ger \\(N=1\\,500e^{0{,}05t}\\).</p><p><strong>Svar:</strong> \\(N(t)=1\\,500e^{0{,}05t}\\)</p></li><li><p>\\(N(7)=1\\,500e^{0{,}35}\\approx2\\,129\\approx2\\,100\\).</p><p><strong>Svar:</strong> cirka 2 100 bakterier</p></li></ol>",
+    "id": "4.554",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1500*e^(0.05t)",
+      2100
+    ],
+    "tolerans": [
+      null,
+      50
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(N(t)\\).",
+        "t": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p><p>Bestäm \\(N(t)\\).</p>",
+        "s": "<p>\\(N^{\\prime}=0{,}05N\\) med \\(N(0)=1\\,500\\) ger \\(N=1\\,500e^{0{,}05t}\\).</p><p><strong>Svar:</strong> \\(N(t)=1\\,500e^{0{,}05t}\\)</p>",
+        "ledtrad": "<p>Lösningen till \\(y^{\\prime}=ky\\) är \\(y=Ce^{kt}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många bakterier finns efter 7,0 minuter? Avrunda till hundratal.",
+        "t": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p><p>Hur många bakterier finns efter 7,0 minuter? Avrunda till hundratal.</p>",
+        "s": "<p>\\(N(7)=1\\,500e^{0{,}35}\\approx2\\,129\\approx2\\,100\\).</p><p><strong>Svar:</strong> cirka 2 100 bakterier</p>",
+        "ledtrad": "<p>Lös differentialekvationen och sätt in \\(t=7{,}0\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Ställ upp \\(N^{\\prime}=kN\\).</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 4,
+    "omr": "homogena_forsta",
+    "niva": "E",
+    "typ": "bestämma k ur två värden",
+    "poang": "1/1/0",
+    "t": "<p>När Bertil kommer till sin stuga är det 14 °C inne. Två timmar efter att han börjat elda är det 17 °C. Anta att temperaturen \\(y\\) följer \\(y^{\\prime}=ky\\).</p><p>Hur många timmar efter att han började elda är det 20 °C? Svara med en decimal.</p>",
+    "s": "<p>\\(y=14e^{kt}\\). \\(17=14e^{2k}\\iff k=\\dfrac12\\ln\\dfrac{17}{14}\\approx0{,}097\\).</p><p>\\(20=14e^{kt}\\iff t=\\dfrac{\\ln(20/14)}{k}\\approx3{,}7\\).</p><p><strong>Svar:</strong> cirka 3,7 timmar</p>",
+    "id": "4.556",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.7,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös differentialekvationen och bestäm \\(k\\) ur mätningen efter två timmar.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "h"
+  },
+  {
+    "kap": 4,
+    "omr": "homogena_forsta",
+    "niva": "E",
+    "typ": "tillväxt ur två mätningar",
+    "poang": "1/1/0",
+    "t": "<p>En bakterieodling har 200 bakterier, och 8,0 timmar senare har den 500. Anta att tillväxthastigheten hela tiden är proportionell mot antalet bakterier.</p><p>Hur många bakterier finns efter ett dygn?</p>",
+    "s": "<p>\\(y=200e^{kt}\\) med \\(e^{8k}=\\dfrac{500}{200}=2{,}5\\).</p><p>Ett dygn är 24 h: \\(y(24)=200\\left(e^{8k}\\right)^3=200\\cdot2{,}5^3=3\\,125\\).</p><p><strong>Svar:</strong> 3 125 bakterier</p>",
+    "id": "4.557",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3125,
+    "tolerans": 1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ett dygn är tre perioder om 8 timmar.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 4,
+    "omr": "homogena_forsta",
+    "niva": "E",
+    "typ": "jämföra modell och verklighet",
+    "poang": "2/1/0",
+    "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><ol type=\"a\"><li>Hur många lodjur finns efter 7,0 år om \\(k=0{,}05\\)? Avrunda till heltal.</li><li>Vid en ny inventering efter 7,0 år fanns i stället 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=14e^{0{,}05t}\\) och \\(N(7)=14e^{0{,}35}\\approx20\\).</p><p><strong>Svar:</strong> cirka 20 lodjur</p></li><li><p>\\(122=14e^{7k}\\iff k=\\dfrac{\\ln(122/14)}{7}\\approx0{,}31\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}31\\ \\text{år}^{-1}\\)</p></li></ol>",
+    "id": "4.558",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      0.31
+    ],
+    "tolerans": [
+      0.6,
+      0.006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många lodjur finns efter 7,0 år om \\(k=0{,}05\\)? Avrunda till heltal.",
+        "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><p>Hur många lodjur finns efter 7,0 år om \\(k=0{,}05\\)? Avrunda till heltal.</p>",
+        "s": "<p>\\(N=14e^{0{,}05t}\\) och \\(N(7)=14e^{0{,}35}\\approx20\\).</p><p><strong>Svar:</strong> cirka 20 lodjur</p>",
+        "ledtrad": "<p>Lösningen till \\(N^{\\prime}=kN\\) är \\(N=N_0e^{kt}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vid en ny inventering efter 7,0 år fanns i stället 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.",
+        "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><p>Vid en ny inventering efter 7,0 år fanns i stället 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.</p>",
+        "s": "<p>\\(122=14e^{7k}\\iff k=\\dfrac{\\ln(122/14)}{7}\\approx0{,}31\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}31\\ \\text{år}^{-1}\\)</p>",
+        "ledtrad": "<p>Sätt in \\(t=7\\) och \\(N=122\\) och lös ut \\(k\\).</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Använd \\(N=N_0e^{kt}\\).</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 4,
+    "omr": "homogena_forsta",
+    "niva": "E",
+    "typ": "bestämma k ur två årtal",
+    "poang": "1/1/0",
+    "t": "<p>År 1960 fanns bara 20 häckande par sångsvan i Sverige, och år 2008 fanns cirka 4 000 par. Anta att tillväxthastigheten är proportionell mot antalet par, \\(N^{\\prime}=kN\\).</p><p>Bestäm \\(k\\). Svara med tre decimaler.</p>",
+    "s": "<p>\\(N=20e^{kt}\\) med \\(t\\) i år efter 1960. \\(4\\,000=20e^{48k}\\iff k=\\dfrac{\\ln200}{48}\\approx0{,}110\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}110\\ \\text{år}^{-1}\\)</p>",
+    "id": "4.559",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.11,
+    "tolerans": 0.0006,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många år har gått mellan mätningarna?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 4,
+    "omr": "homogena_forsta",
+    "niva": "E",
+    "typ": "avtagande lufttryck",
+    "poang": "1/1/0",
+    "t": "<p>Lufttrycket \\(p\\) avtar med höjden \\(x\\) km så att \\(\\dfrac{\\mathrm{d}p}{\\mathrm{d}x}=-kp\\). På höjden 5,50 km är trycket hälften så stort som vid havsytan.</p><p>Bestäm \\(k\\). Svara med tre decimaler.</p>",
+    "s": "<p>\\(p=p_0e^{-kx}\\). \\(\\dfrac{p_0}{2}=p_0e^{-5{,}50k}\\iff k=\\dfrac{\\ln2}{5{,}50}\\approx0{,}126\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}126\\ \\text{km}^{-1}\\)</p>",
+    "id": "4.560",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.126,
+    "tolerans": 0.0006,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ekvationen och använd att trycket halveras på 5,50 km.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 4,
     "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "inhomogen första ordningen med begynnelsevillkor",
@@ -37115,6 +37335,1038 @@ window.BANKMATF1 = [
   },
   {
     "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "tillväxthastighet i logistisk modell",
+    "poang": "1/3/0",
+    "t": "<p>En population växer enligt den logistiska ekvationen \\[y^{\\prime}=2{,}0\\,y\\left(1-\\frac{y}{160}\\right),\\] där \\(y\\) är antalet individer efter \\(t\\) år.</p><ol type=\"a\"><li>Hur stor är tillväxthastigheten när \\(y=30\\)? Svara med en decimal.</li><li>Tillväxthastigheten är 48,75 individer per år när \\(y=30\\). Vilket annat antal individer ger samma tillväxthastighet?</li><li>Hur stor är den största möjliga tillväxthastigheten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y^{\\prime}=2{,}0\\cdot30\\left(1-\\dfrac{30}{160}\\right)=60\\cdot\\dfrac{130}{160}=48{,}75\\).</p><p><strong>Svar:</strong> cirka 48,8 individer per år</p></li><li><p>\\(2y\\left(1-\\dfrac{y}{160}\\right)=48{,}75\\iff y^2-160y+3\\,900=0\\iff y=80\\pm50\\).</p><p>Den andra lösningen är \\(y=130\\). Kurvan \\(y^{\\prime}(y)\\) är en parabel som är symmetrisk kring \\(y=80\\).</p><p><strong>Svar:</strong> 130 individer</p></li><li><p>Tillväxten är störst när \\(y=\\dfrac{M}{2}=80\\): \\(y^{\\prime}=2{,}0\\cdot80\\cdot\\dfrac12=80\\).</p><p><strong>Svar:</strong> 80 individer per år</p></li></ol>",
+    "id": "4.523",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      48.75,
+      130,
+      80
+    ],
+    "tolerans": [
+      0.06,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En population växer enligt den logistiska ekvationen \\[y^{\\prime}=2{,}0\\,y\\left(1-\\frac{y}{160}\\right),\\] där \\(y\\) är antalet individer efter \\(t\\) år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är tillväxthastigheten när \\(y=30\\)? Svara med en decimal.",
+        "t": "<p>En population växer enligt den logistiska ekvationen \\[y^{\\prime}=2{,}0\\,y\\left(1-\\frac{y}{160}\\right),\\] där \\(y\\) är antalet individer efter \\(t\\) år.</p><p>Hur stor är tillväxthastigheten när \\(y=30\\)? Svara med en decimal.</p>",
+        "s": "<p>\\(y^{\\prime}=2{,}0\\cdot30\\left(1-\\dfrac{30}{160}\\right)=60\\cdot\\dfrac{130}{160}=48{,}75\\).</p><p><strong>Svar:</strong> cirka 48,8 individer per år</p>",
+        "ledtrad": "<p>Sätt in \\(y=30\\) i högerledet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Tillväxthastigheten är 48,75 individer per år när \\(y=30\\). Vilket annat antal individer ger samma tillväxthastighet?",
+        "t": "<p>En population växer enligt den logistiska ekvationen \\[y^{\\prime}=2{,}0\\,y\\left(1-\\frac{y}{160}\\right),\\] där \\(y\\) är antalet individer efter \\(t\\) år.</p><p>Tillväxthastigheten är 48,75 individer per år när \\(y=30\\). Vilket annat antal individer ger samma tillväxthastighet?</p>",
+        "s": "<p>\\(2y\\left(1-\\dfrac{y}{160}\\right)=48{,}75\\iff y^2-160y+3\\,900=0\\iff y=80\\pm50\\).</p><p>Den andra lösningen är \\(y=130\\). Kurvan \\(y^{\\prime}(y)\\) är en parabel som är symmetrisk kring \\(y=80\\).</p><p><strong>Svar:</strong> 130 individer</p>",
+        "ledtrad": "<p>Högerledet är ett andragradsuttryck i \\(y\\). Var ligger dess symmetrilinje?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är den största möjliga tillväxthastigheten?",
+        "t": "<p>En population växer enligt den logistiska ekvationen \\[y^{\\prime}=2{,}0\\,y\\left(1-\\frac{y}{160}\\right),\\] där \\(y\\) är antalet individer efter \\(t\\) år.</p><p>Hur stor är den största möjliga tillväxthastigheten?</p>",
+        "s": "<p>Tillväxten är störst när \\(y=\\dfrac{M}{2}=80\\): \\(y^{\\prime}=2{,}0\\cdot80\\cdot\\dfrac12=80\\).</p><p><strong>Svar:</strong> 80 individer per år</p>",
+        "ledtrad": "<p>För vilket \\(y\\) har parabeln \\(2y(1-y/160)\\) sitt maximum?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Tillväxthastigheten är en andragradsfunktion av \\(y\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "tolka logistisk differentialekvation",
+    "poang": "2/1/0",
+    "t": "<p>En björnstam i ett område växer enligt \\[P^{\\prime}=0{,}8P\\left(1-\\frac{P}{100}\\right),\\] där \\(P\\) är antalet björnar efter \\(t\\) år.</p><ol type=\"a\"><li>Hur många björnar kan området som mest försörja?</li><li>Hur många björnar finns det när stammen växer som snabbast?</li><li>Hur snabbt växer björnstammen när den växer som snabbast?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Bärförmågan är talet i nämnaren: \\(M=100\\). Där är \\(P^{\\prime}=0\\).</p><p><strong>Svar:</strong> 100 björnar</p></li><li><p>Den logistiska tillväxten är störst vid halva bärförmågan: \\(P=\\dfrac{100}{2}=50\\).</p><p><strong>Svar:</strong> 50 björnar</p></li><li><p>Vid \\(P=50\\): \\(P^{\\prime}=0{,}8\\cdot50\\cdot\\left(1-\\dfrac{50}{100}\\right)=20\\).</p><p><strong>Svar:</strong> 20 björnar per år</p></li></ol>",
+    "id": "4.524",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      100,
+      50,
+      20
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En björnstam i ett område växer enligt \\[P^{\\prime}=0{,}8P\\left(1-\\frac{P}{100}\\right),\\] där \\(P\\) är antalet björnar efter \\(t\\) år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många björnar kan området som mest försörja?",
+        "t": "<p>En björnstam i ett område växer enligt \\[P^{\\prime}=0{,}8P\\left(1-\\frac{P}{100}\\right),\\] där \\(P\\) är antalet björnar efter \\(t\\) år.</p><p>Hur många björnar kan området som mest försörja?</p>",
+        "s": "<p>Bärförmågan är talet i nämnaren: \\(M=100\\). Där är \\(P^{\\prime}=0\\).</p><p><strong>Svar:</strong> 100 björnar</p>",
+        "ledtrad": "<p>För vilket \\(P\\gt0\\) blir tillväxten noll?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många björnar finns det när stammen växer som snabbast?",
+        "t": "<p>En björnstam i ett område växer enligt \\[P^{\\prime}=0{,}8P\\left(1-\\frac{P}{100}\\right),\\] där \\(P\\) är antalet björnar efter \\(t\\) år.</p><p>Hur många björnar finns det när stammen växer som snabbast?</p>",
+        "s": "<p>Den logistiska tillväxten är störst vid halva bärförmågan: \\(P=\\dfrac{100}{2}=50\\).</p><p><strong>Svar:</strong> 50 björnar</p>",
+        "ledtrad": "<p>Högerledet är en parabel i \\(P\\) med nollställen i 0 och 100.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur snabbt växer björnstammen när den växer som snabbast?",
+        "t": "<p>En björnstam i ett område växer enligt \\[P^{\\prime}=0{,}8P\\left(1-\\frac{P}{100}\\right),\\] där \\(P\\) är antalet björnar efter \\(t\\) år.</p><p>Hur snabbt växer björnstammen när den växer som snabbast?</p>",
+        "s": "<p>Vid \\(P=50\\): \\(P^{\\prime}=0{,}8\\cdot50\\cdot\\left(1-\\dfrac{50}{100}\\right)=20\\).</p><p><strong>Svar:</strong> 20 björnar per år</p>",
+        "ledtrad": "<p>Bestäm först vid vilket antal tillväxten är störst.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Jämför med \\(y^{\\prime}=ky\\left(1-\\dfrac{y}{M}\\right)\\).</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "logistisk ekvation på annan form",
+    "poang": "1/3/0",
+    "t": "<p>En population växer enligt \\(y^{\\prime}=10y(1-0{,}005y)\\).</p><ol type=\"a\"><li>Vilket är det största antal individer populationen kan nå?</li><li>Hur stor är den största tillväxthastigheten?</li><li>För vilka värden på \\(y\\) är \\(y^{\\prime}=50\\)? Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(1-0{,}005y=0\\iff y=200\\).</p><p><strong>Svar:</strong> 200</p></li><li><p>Störst vid \\(y=100\\): \\(y^{\\prime}=10\\cdot100\\cdot(1-0{,}5)=500\\).</p><p><strong>Svar:</strong> 500 individer per tidsenhet</p></li><li><p>\\(10y-0{,}05y^2=50\\iff y^2-200y+1\\,000=0\\iff y=100\\pm\\sqrt{9\\,000}\\).</p><p>\\(y\\approx5{,}1\\) eller \\(y\\approx194{,}9\\).</p><p><strong>Svar:</strong> \\(y\\approx5{,}1\\) och \\(y\\approx194{,}9\\)</p></li></ol>",
+    "id": "4.525",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      200,
+      500,
+      "5.1, 194.9"
+    ],
+    "tolerans": [
+      null,
+      null,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "lösningsmängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En population växer enligt \\(y^{\\prime}=10y(1-0{,}005y)\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilket är det största antal individer populationen kan nå?",
+        "t": "<p>En population växer enligt \\(y^{\\prime}=10y(1-0{,}005y)\\).</p><p>Vilket är det största antal individer populationen kan nå?</p>",
+        "s": "<p>\\(1-0{,}005y=0\\iff y=200\\).</p><p><strong>Svar:</strong> 200</p>",
+        "ledtrad": "<p>Skriv om \\(0{,}005y\\) som \\(\\dfrac{y}{M}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den största tillväxthastigheten?",
+        "t": "<p>En population växer enligt \\(y^{\\prime}=10y(1-0{,}005y)\\).</p><p>Hur stor är den största tillväxthastigheten?</p>",
+        "s": "<p>Störst vid \\(y=100\\): \\(y^{\\prime}=10\\cdot100\\cdot(1-0{,}5)=500\\).</p><p><strong>Svar:</strong> 500 individer per tidsenhet</p>",
+        "ledtrad": "<p>Tillväxten är störst vid halva maxvärdet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "För vilka värden på \\(y\\) är \\(y^{\\prime}=50\\)? Svara med en decimal.",
+        "t": "<p>En population växer enligt \\(y^{\\prime}=10y(1-0{,}005y)\\).</p><p>För vilka värden på \\(y\\) är \\(y^{\\prime}=50\\)? Svara med en decimal.</p>",
+        "s": "<p>\\(10y-0{,}05y^2=50\\iff y^2-200y+1\\,000=0\\iff y=100\\pm\\sqrt{9\\,000}\\).</p><p>\\(y\\approx5{,}1\\) eller \\(y\\approx194{,}9\\).</p><p><strong>Svar:</strong> \\(y\\approx5{,}1\\) och \\(y\\approx194{,}9\\)</p>",
+        "ledtrad": "<p>Lös andragradsekvationen \\(10y(1-0{,}005y)=50\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Jämför med \\(y^{\\prime}=ky\\left(1-\\dfrac{y}{M}\\right)\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "symmetri i logistisk tillväxthastighet",
+    "poang": "1/2/0",
+    "t": "<p>En population växer enligt \\(y^{\\prime}=2y(1-0{,}002y)\\), där \\(y\\) är antalet individer efter \\(t\\) timmar. Vid \\(t=0\\) finns 50 individer.</p><ol type=\"a\"><li>Hur stor är tillväxthastigheten när \\(y=400\\)?</li><li>Bestäm lösningen \\(y(t)\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y^{\\prime}=2\\cdot400\\cdot(1-0{,}8)=160\\). Samma värde fås för \\(y=100\\), eftersom 100 och 400 ligger symmetriskt kring 250.</p><p><strong>Svar:</strong> 160 individer per timme</p></li><li><p>\\(M=\\dfrac{1}{0{,}002}=500\\), \\(k=2\\) och \\(y(0)=50\\). Den logistiska lösningen är</p><p>\\[y=\\frac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}=\\frac{500}{1+9e^{-2t}}.\\]</p><p><strong>Svar:</strong> \\(y=\\dfrac{500}{1+9e^{-2t}}\\)</p></li></ol>",
+    "id": "4.526",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      160,
+      "500/(1+9*e^(-2t))"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En population växer enligt \\(y^{\\prime}=2y(1-0{,}002y)\\), där \\(y\\) är antalet individer efter \\(t\\) timmar. Vid \\(t=0\\) finns 50 individer.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är tillväxthastigheten när \\(y=400\\)?",
+        "t": "<p>En population växer enligt \\(y^{\\prime}=2y(1-0{,}002y)\\), där \\(y\\) är antalet individer efter \\(t\\) timmar. Vid \\(t=0\\) finns 50 individer.</p><p>Hur stor är tillväxthastigheten när \\(y=400\\)?</p>",
+        "s": "<p>\\(y^{\\prime}=2\\cdot400\\cdot(1-0{,}8)=160\\). Samma värde fås för \\(y=100\\), eftersom 100 och 400 ligger symmetriskt kring 250.</p><p><strong>Svar:</strong> 160 individer per timme</p>",
+        "ledtrad": "<p>Sätt in \\(y=400\\) i differentialekvationen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm lösningen \\(y(t)\\).",
+        "t": "<p>En population växer enligt \\(y^{\\prime}=2y(1-0{,}002y)\\), där \\(y\\) är antalet individer efter \\(t\\) timmar. Vid \\(t=0\\) finns 50 individer.</p><p>Bestäm lösningen \\(y(t)\\).</p>",
+        "s": "<p>\\(M=\\dfrac{1}{0{,}002}=500\\), \\(k=2\\) och \\(y(0)=50\\). Den logistiska lösningen är</p><p>\\[y=\\frac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}=\\frac{500}{1+9e^{-2t}}.\\]</p><p><strong>Svar:</strong> \\(y=\\dfrac{500}{1+9e^{-2t}}\\)</p>",
+        "ledtrad": "<p>Bestäm \\(M\\) och \\(k\\) och använd den allmänna logistiska lösningen.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Jämför med \\(y^{\\prime}=ky\\left(1-\\dfrac{y}{M}\\right)\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "bestämma k ur tillväxthastighet",
+    "poang": "1/3/0",
+    "t": "<p>En population växer logistiskt med bärförmågan 3 600 individer. Från början finns 400 individer, och då växer populationen med 20 individer per vecka.</p><ol type=\"a\"><li>Bestäm proportionalitetskonstanten \\(k\\).</li><li>Hur många individer finns efter ett år (52 veckor)? Avrunda till tiotal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(20=k\\cdot400\\left(1-\\dfrac{400}{3\\,600}\\right)=k\\cdot400\\cdot\\dfrac89\\iff k=\\dfrac{20\\cdot9}{3\\,200}=0{,}05625\\).</p><p><strong>Svar:</strong> \\(k=0{,}05625\\) per vecka</p></li><li><p>Med \\(k=\\dfrac{20}{400\\cdot\\frac89}=0{,}05625\\): \\(y=\\dfrac{3\\,600}{1+8e^{-0{,}05625t}}\\).</p><p>\\(y(52)=\\dfrac{3\\,600}{1+8e^{-2{,}925}}\\approx2\\,520\\).</p><p><strong>Svar:</strong> cirka 2 520 individer</p></li></ol>",
+    "id": "4.527",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.05625,
+      2520
+    ],
+    "tolerans": [
+      0.0001,
+      10
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En population växer logistiskt med bärförmågan 3 600 individer. Från början finns 400 individer, och då växer populationen med 20 individer per vecka.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm proportionalitetskonstanten \\(k\\).",
+        "t": "<p>En population växer logistiskt med bärförmågan 3 600 individer. Från början finns 400 individer, och då växer populationen med 20 individer per vecka.</p><p>Bestäm proportionalitetskonstanten \\(k\\).</p>",
+        "s": "<p>\\(20=k\\cdot400\\left(1-\\dfrac{400}{3\\,600}\\right)=k\\cdot400\\cdot\\dfrac89\\iff k=\\dfrac{20\\cdot9}{3\\,200}=0{,}05625\\).</p><p><strong>Svar:</strong> \\(k=0{,}05625\\) per vecka</p>",
+        "ledtrad": "<p>Sätt in \\(y=400\\) och \\(y^{\\prime}=20\\) i den logistiska ekvationen.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många individer finns efter ett år (52 veckor)? Avrunda till tiotal.",
+        "t": "<p>En population växer logistiskt med bärförmågan 3 600 individer. Från början finns 400 individer, och då växer populationen med 20 individer per vecka.</p><p>Hur många individer finns efter ett år (52 veckor)? Avrunda till tiotal.</p>",
+        "s": "<p>Med \\(k=\\dfrac{20}{400\\cdot\\frac89}=0{,}05625\\): \\(y=\\dfrac{3\\,600}{1+8e^{-0{,}05625t}}\\).</p><p>\\(y(52)=\\dfrac{3\\,600}{1+8e^{-2{,}925}}\\approx2\\,520\\).</p><p><strong>Svar:</strong> cirka 2 520 individer</p>",
+        "ledtrad": "<p>Bestäm först \\(k\\) och ställ upp den logistiska lösningen.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd \\(y^{\\prime}=ky\\left(1-\\dfrac{y}{M}\\right)\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "logistisk bakterietillväxt",
+    "poang": "1/5/0",
+    "t": "<p>En bakterieodling har från början 500 bakterier och kan som mest rymma 10 000. Tillväxten är logistisk med \\(k=0{,}085\\ \\text{h}^{-1}\\).</p><ol type=\"a\"><li>Hur många bakterier finns efter 50 timmar? Avrunda till hundratal.</li><li>Efter hur lång tid har antalet nått 90 % av det maximala? Avrunda till hela timmar.</li><li>Hur stor är tillväxthastigheten efter 10 timmar? Avrunda till heltal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y=\\dfrac{10\\,000}{1+19e^{-0{,}085t}}\\), eftersom \\(\\dfrac{10\\,000}{500}-1=19\\).</p><p>\\(y(50)=\\dfrac{10\\,000}{1+19e^{-4{,}25}}\\approx7\\,900\\).</p><p><strong>Svar:</strong> cirka 7 900 bakterier</p></li><li><p>\\(\\dfrac{10\\,000}{1+19e^{-0{,}085t}}=9\\,000\\iff 19e^{-0{,}085t}=\\dfrac19\\iff t=\\dfrac{\\ln171}{0{,}085}\\approx60\\).</p><p><strong>Svar:</strong> cirka 60 timmar</p></li><li><p>\\(y(10)=\\dfrac{10\\,000}{1+19e^{-0{,}85}}\\approx1\\,096\\).</p><p>\\(y^{\\prime}=0{,}085\\cdot1\\,096\\left(1-\\dfrac{1\\,096}{10\\,000}\\right)\\approx83\\).</p><p><strong>Svar:</strong> cirka 83 bakterier per timme</p></li></ol>",
+    "id": "4.528",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7900,
+      60,
+      83
+    ],
+    "tolerans": [
+      50,
+      0.6,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bakterieodling har från början 500 bakterier och kan som mest rymma 10 000. Tillväxten är logistisk med \\(k=0{,}085\\ \\text{h}^{-1}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många bakterier finns efter 50 timmar? Avrunda till hundratal.",
+        "t": "<p>En bakterieodling har från början 500 bakterier och kan som mest rymma 10 000. Tillväxten är logistisk med \\(k=0{,}085\\ \\text{h}^{-1}\\).</p><p>Hur många bakterier finns efter 50 timmar? Avrunda till hundratal.</p>",
+        "s": "<p>\\(y=\\dfrac{10\\,000}{1+19e^{-0{,}085t}}\\), eftersom \\(\\dfrac{10\\,000}{500}-1=19\\).</p><p>\\(y(50)=\\dfrac{10\\,000}{1+19e^{-4{,}25}}\\approx7\\,900\\).</p><p><strong>Svar:</strong> cirka 7 900 bakterier</p>",
+        "ledtrad": "<p>Ställ upp den logistiska lösningen med \\(M\\), \\(y_0\\) och \\(k\\).</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur lång tid har antalet nått 90 % av det maximala? Avrunda till hela timmar.",
+        "t": "<p>En bakterieodling har från början 500 bakterier och kan som mest rymma 10 000. Tillväxten är logistisk med \\(k=0{,}085\\ \\text{h}^{-1}\\).</p><p>Efter hur lång tid har antalet nått 90 % av det maximala? Avrunda till hela timmar.</p>",
+        "s": "<p>\\(\\dfrac{10\\,000}{1+19e^{-0{,}085t}}=9\\,000\\iff 19e^{-0{,}085t}=\\dfrac19\\iff t=\\dfrac{\\ln171}{0{,}085}\\approx60\\).</p><p><strong>Svar:</strong> cirka 60 timmar</p>",
+        "ledtrad": "<p>Sätt lösningen lika med 9 000 och lös ut \\(t\\) med logaritmer.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är tillväxthastigheten efter 10 timmar? Avrunda till heltal.",
+        "t": "<p>En bakterieodling har från början 500 bakterier och kan som mest rymma 10 000. Tillväxten är logistisk med \\(k=0{,}085\\ \\text{h}^{-1}\\).</p><p>Hur stor är tillväxthastigheten efter 10 timmar? Avrunda till heltal.</p>",
+        "s": "<p>\\(y(10)=\\dfrac{10\\,000}{1+19e^{-0{,}85}}\\approx1\\,096\\).</p><p>\\(y^{\\prime}=0{,}085\\cdot1\\,096\\left(1-\\dfrac{1\\,096}{10\\,000}\\right)\\approx83\\).</p><p><strong>Svar:</strong> cirka 83 bakterier per timme</p>",
+        "ledtrad": "<p>Räkna ut \\(y(10)\\) och sätt in i differentialekvationen.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "maximal tillväxt och tidpunkt",
+    "poang": "2/4/0",
+    "t": "<p>100 fiskar sätts ut i en damm som kan rymma högst 6 000 fiskar. Tillväxten är logistisk med \\(k=0{,}012\\) per vecka.</p><ol type=\"a\"><li>Hur stor är den största tillväxthastigheten?</li><li>Efter hur många veckor växer beståndet som snabbast? Avrunda till hela veckor.</li><li>Hur många fiskar finns efter ett år (52 veckor)? Avrunda till heltal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Störst vid \\(y=3\\,000\\): \\(y^{\\prime}=0{,}012\\cdot3\\,000\\cdot\\dfrac12=18\\).</p><p><strong>Svar:</strong> 18 fiskar per vecka</p></li><li><p>Snabbast vid \\(y=3\\,000\\). \\(\\dfrac{6\\,000}{1+59e^{-0{,}012t}}=3\\,000\\iff59e^{-0{,}012t}=1\\iff t=\\dfrac{\\ln59}{0{,}012}\\approx340\\).</p><p><strong>Svar:</strong> efter cirka 340 veckor</p></li><li><p>\\(y(52)=\\dfrac{6\\,000}{1+59e^{-0{,}624}}\\approx184\\).</p><p><strong>Svar:</strong> cirka 184 fiskar</p></li></ol>",
+    "id": "4.529",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18,
+      340,
+      184
+    ],
+    "tolerans": [
+      null,
+      0.6,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>100 fiskar sätts ut i en damm som kan rymma högst 6 000 fiskar. Tillväxten är logistisk med \\(k=0{,}012\\) per vecka.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är den största tillväxthastigheten?",
+        "t": "<p>100 fiskar sätts ut i en damm som kan rymma högst 6 000 fiskar. Tillväxten är logistisk med \\(k=0{,}012\\) per vecka.</p><p>Hur stor är den största tillväxthastigheten?</p>",
+        "s": "<p>Störst vid \\(y=3\\,000\\): \\(y^{\\prime}=0{,}012\\cdot3\\,000\\cdot\\dfrac12=18\\).</p><p><strong>Svar:</strong> 18 fiskar per vecka</p>",
+        "ledtrad": "<p>Vid vilket antal är logistisk tillväxt snabbast?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många veckor växer beståndet som snabbast? Avrunda till hela veckor.",
+        "t": "<p>100 fiskar sätts ut i en damm som kan rymma högst 6 000 fiskar. Tillväxten är logistisk med \\(k=0{,}012\\) per vecka.</p><p>Efter hur många veckor växer beståndet som snabbast? Avrunda till hela veckor.</p>",
+        "s": "<p>Snabbast vid \\(y=3\\,000\\). \\(\\dfrac{6\\,000}{1+59e^{-0{,}012t}}=3\\,000\\iff59e^{-0{,}012t}=1\\iff t=\\dfrac{\\ln59}{0{,}012}\\approx340\\).</p><p><strong>Svar:</strong> efter cirka 340 veckor</p>",
+        "ledtrad": "<p>Bestäm vid vilket antal tillväxten är störst och när det antalet nås.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många fiskar finns efter ett år (52 veckor)? Avrunda till heltal.",
+        "t": "<p>100 fiskar sätts ut i en damm som kan rymma högst 6 000 fiskar. Tillväxten är logistisk med \\(k=0{,}012\\) per vecka.</p><p>Hur många fiskar finns efter ett år (52 veckor)? Avrunda till heltal.</p>",
+        "s": "<p>\\(y(52)=\\dfrac{6\\,000}{1+59e^{-0{,}624}}\\approx184\\).</p><p><strong>Svar:</strong> cirka 184 fiskar</p>",
+        "ledtrad": "<p>Ställ upp den logistiska lösningen.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "fördubblingstid i logistisk modell",
+    "poang": "1/1/0",
+    "t": "<p>20 ormar släpps ut på en ö som kan försörja högst 1 000 ormar. Antalet växer logistiskt med \\(k=0{,}45\\ \\text{år}^{-1}\\).</p><p>Hur lång tid tar det innan antalet ormar har fördubblats? Svara med en decimal.</p>",
+    "s": "<p>\\(y=\\dfrac{1\\,000}{1+49e^{-0{,}45t}}\\).</p><p>\\(y=40\\iff1+49e^{-0{,}45t}=25\\iff e^{-0{,}45t}=\\dfrac{24}{49}\\iff t=\\dfrac{\\ln(49/24)}{0{,}45}\\approx1{,}6\\).</p><p><strong>Svar:</strong> cirka 1,6 år</p>",
+    "id": "4.530",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.6,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp den logistiska lösningen och lös \\(y(t)=40\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "år"
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "A",
+    "typ": "bestämma k ur ett mätvärde",
+    "poang": "0/3/1",
+    "t": "<p>Antalet sjuka efter ett matförgiftningsutbrott följer \\[y^{\\prime}=ky\\left(1-\\frac{y}{200}\\right),\\quad y(0)=1,\\] där \\(t\\) är tiden i dygn. Efter 5 dygn är 68 personer sjuka.</p><ol type=\"a\"><li>Bestäm \\(k\\). Svara med tre decimaler.</li><li>Efter hur många dygn är fler än 199 personer sjuka? Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y=\\dfrac{200}{1+199e^{-kt}}\\). \\(y(5)=68\\iff199e^{-5k}=\\dfrac{200}{68}-1\\iff k=\\dfrac15\\ln\\dfrac{199}{200/68-1}\\approx0{,}926\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}926\\)</p></li><li><p>Med \\(k=\\dfrac15\\ln\\dfrac{199}{200/68-1}\\approx0{,}926\\): \\(\\dfrac{200}{1+199e^{-kt}}\\gt199\\iff199e^{-kt}\\lt\\dfrac{1}{199}\\iff t\\gt\\dfrac{\\ln(199^2)}{k}\\approx11{,}4\\).</p><p><strong>Svar:</strong> efter cirka 11,4 dygn</p></li></ol>",
+    "id": "4.531",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.926,
+      11.4
+    ],
+    "tolerans": [
+      0.0006,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Antalet sjuka efter ett matförgiftningsutbrott följer \\[y^{\\prime}=ky\\left(1-\\frac{y}{200}\\right),\\quad y(0)=1,\\] där \\(t\\) är tiden i dygn. Efter 5 dygn är 68 personer sjuka.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(k\\). Svara med tre decimaler.",
+        "t": "<p>Antalet sjuka efter ett matförgiftningsutbrott följer \\[y^{\\prime}=ky\\left(1-\\frac{y}{200}\\right),\\quad y(0)=1,\\] där \\(t\\) är tiden i dygn. Efter 5 dygn är 68 personer sjuka.</p><p>Bestäm \\(k\\). Svara med tre decimaler.</p>",
+        "s": "<p>\\(y=\\dfrac{200}{1+199e^{-kt}}\\). \\(y(5)=68\\iff199e^{-5k}=\\dfrac{200}{68}-1\\iff k=\\dfrac15\\ln\\dfrac{199}{200/68-1}\\approx0{,}926\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}926\\)</p>",
+        "ledtrad": "<p>Skriv den logistiska lösningen och sätt in \\(t=5\\), \\(y=68\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många dygn är fler än 199 personer sjuka? Svara med en decimal.",
+        "t": "<p>Antalet sjuka efter ett matförgiftningsutbrott följer \\[y^{\\prime}=ky\\left(1-\\frac{y}{200}\\right),\\quad y(0)=1,\\] där \\(t\\) är tiden i dygn. Efter 5 dygn är 68 personer sjuka.</p><p>Det gäller att \\(k\\approx0{,}926\\).</p><p>Efter hur många dygn är fler än 199 personer sjuka? Svara med en decimal.</p>",
+        "s": "<p>Med \\(k=\\dfrac15\\ln\\dfrac{199}{200/68-1}\\approx0{,}926\\): \\(\\dfrac{200}{1+199e^{-kt}}\\gt199\\iff199e^{-kt}\\lt\\dfrac{1}{199}\\iff t\\gt\\dfrac{\\ln(199^2)}{k}\\approx11{,}4\\).</p><p><strong>Svar:</strong> efter cirka 11,4 dygn</p>",
+        "ledtrad": "<p>Ställ upp olikheten \\(y(t)\\gt199\\) och lös den med logaritmer.</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "styra tillväxtkonstanten",
+    "poang": "0/4/0",
+    "t": "<p>En uppfödare kan hålla högst 1 000 kaniner. Antalet följer \\(y^{\\prime}=ky(1-0{,}001y)\\) med \\(y(0)=8\\), där \\(t\\) är tiden i månader. Genom miljön kan uppfödaren påverka \\(k\\).</p><ol type=\"a\"><li>Vilket värde på \\(k\\) ger 150 kaniner efter 6 månader? Svara med tre decimaler.</li><li>Vilket värde på \\(k\\) gör att antalet når 999 kaniner efter 18 månader? Svara med tre decimaler.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y=\\dfrac{1\\,000}{1+124e^{-kt}}\\). \\(y(6)=150\\iff124e^{-6k}=\\dfrac{1\\,000}{150}-1\\iff k=\\dfrac16\\ln\\dfrac{124}{17/3}\\approx0{,}514\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}514\\)</p></li><li><p>\\(\\dfrac{1\\,000}{1+124e^{-18k}}=999\\iff124e^{-18k}=\\dfrac{1}{999}\\iff k=\\dfrac{\\ln(124\\cdot999)}{18}\\approx0{,}652\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}652\\)</p></li></ol>",
+    "id": "4.532",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.514,
+      0.652
+    ],
+    "tolerans": [
+      0.0006,
+      0.0006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En uppfödare kan hålla högst 1 000 kaniner. Antalet följer \\(y^{\\prime}=ky(1-0{,}001y)\\) med \\(y(0)=8\\), där \\(t\\) är tiden i månader. Genom miljön kan uppfödaren påverka \\(k\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilket värde på \\(k\\) ger 150 kaniner efter 6 månader? Svara med tre decimaler.",
+        "t": "<p>En uppfödare kan hålla högst 1 000 kaniner. Antalet följer \\(y^{\\prime}=ky(1-0{,}001y)\\) med \\(y(0)=8\\), där \\(t\\) är tiden i månader. Genom miljön kan uppfödaren påverka \\(k\\).</p><p>Vilket värde på \\(k\\) ger 150 kaniner efter 6 månader? Svara med tre decimaler.</p>",
+        "s": "<p>\\(y=\\dfrac{1\\,000}{1+124e^{-kt}}\\). \\(y(6)=150\\iff124e^{-6k}=\\dfrac{1\\,000}{150}-1\\iff k=\\dfrac16\\ln\\dfrac{124}{17/3}\\approx0{,}514\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}514\\)</p>",
+        "ledtrad": "<p>Ställ upp den logistiska lösningen och sätt in \\(y(6)=150\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilket värde på \\(k\\) gör att antalet når 999 kaniner efter 18 månader? Svara med tre decimaler.",
+        "t": "<p>En uppfödare kan hålla högst 1 000 kaniner. Antalet följer \\(y^{\\prime}=ky(1-0{,}001y)\\) med \\(y(0)=8\\), där \\(t\\) är tiden i månader. Genom miljön kan uppfödaren påverka \\(k\\).</p><p>Vilket värde på \\(k\\) gör att antalet når 999 kaniner efter 18 månader? Svara med tre decimaler.</p>",
+        "s": "<p>\\(\\dfrac{1\\,000}{1+124e^{-18k}}=999\\iff124e^{-18k}=\\dfrac{1}{999}\\iff k=\\dfrac{\\ln(124\\cdot999)}{18}\\approx0{,}652\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}652\\)</p>",
+        "ledtrad": "<p>Sätt in \\(t=18\\) och \\(y=999\\) och lös ut \\(k\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "älgstam med logistisk modell",
+    "poang": "2/4/0",
+    "t": "<p>61 älgar flyttas till ett nytt område. Älgstammen följer \\(y^{\\prime}=0{,}3y(1-0{,}001y)\\) med \\(y(0)=61\\), där \\(t\\) är tiden i år.</p><ol type=\"a\"><li>Hur stor är tillväxthastigheten som störst?</li><li>Efter hur många år växer stammen som snabbast? Svara med en decimal.</li><li>Hur många älgar finns efter 25 år? Avrunda till heltal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(M=1\\,000\\). Störst vid \\(y=500\\): \\(y^{\\prime}=0{,}3\\cdot500\\cdot0{,}5=75\\).</p><p><strong>Svar:</strong> 75 älgar per år</p></li><li><p>\\(y=\\dfrac{1\\,000}{1+\\left(\\frac{1\\,000}{61}-1\\right)e^{-0{,}3t}}\\). \\(y=500\\iff\\left(\\frac{1\\,000}{61}-1\\right)e^{-0{,}3t}=1\\iff t=\\dfrac{\\ln(1\\,000/61-1)}{0{,}3}\\approx9{,}1\\).</p><p><strong>Svar:</strong> efter cirka 9,1 år</p></li><li><p>\\(y(25)=\\dfrac{1\\,000}{1+15{,}39e^{-7{,}5}}\\approx992\\).</p><p><strong>Svar:</strong> cirka 992 älgar</p></li></ol>",
+    "id": "4.533",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      75,
+      9.1,
+      992
+    ],
+    "tolerans": [
+      null,
+      0.06,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>61 älgar flyttas till ett nytt område. Älgstammen följer \\(y^{\\prime}=0{,}3y(1-0{,}001y)\\) med \\(y(0)=61\\), där \\(t\\) är tiden i år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är tillväxthastigheten som störst?",
+        "t": "<p>61 älgar flyttas till ett nytt område. Älgstammen följer \\(y^{\\prime}=0{,}3y(1-0{,}001y)\\) med \\(y(0)=61\\), där \\(t\\) är tiden i år.</p><p>Hur stor är tillväxthastigheten som störst?</p>",
+        "s": "<p>\\(M=1\\,000\\). Störst vid \\(y=500\\): \\(y^{\\prime}=0{,}3\\cdot500\\cdot0{,}5=75\\).</p><p><strong>Svar:</strong> 75 älgar per år</p>",
+        "ledtrad": "<p>Vilket är bärförmågan \\(M\\)? Tillväxten är störst vid halva bärförmågan.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många år växer stammen som snabbast? Svara med en decimal.",
+        "t": "<p>61 älgar flyttas till ett nytt område. Älgstammen följer \\(y^{\\prime}=0{,}3y(1-0{,}001y)\\) med \\(y(0)=61\\), där \\(t\\) är tiden i år.</p><p>Efter hur många år växer stammen som snabbast? Svara med en decimal.</p>",
+        "s": "<p>\\(y=\\dfrac{1\\,000}{1+\\left(\\frac{1\\,000}{61}-1\\right)e^{-0{,}3t}}\\). \\(y=500\\iff\\left(\\frac{1\\,000}{61}-1\\right)e^{-0{,}3t}=1\\iff t=\\dfrac{\\ln(1\\,000/61-1)}{0{,}3}\\approx9{,}1\\).</p><p><strong>Svar:</strong> efter cirka 9,1 år</p>",
+        "ledtrad": "<p>Lös \\(y(t)=500\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många älgar finns efter 25 år? Avrunda till heltal.",
+        "t": "<p>61 älgar flyttas till ett nytt område. Älgstammen följer \\(y^{\\prime}=0{,}3y(1-0{,}001y)\\) med \\(y(0)=61\\), där \\(t\\) är tiden i år.</p><p>Hur många älgar finns efter 25 år? Avrunda till heltal.</p>",
+        "s": "<p>\\(y(25)=\\dfrac{1\\,000}{1+15{,}39e^{-7{,}5}}\\approx992\\).</p><p><strong>Svar:</strong> cirka 992 älgar</p>",
+        "ledtrad": "<p>Ställ upp den logistiska lösningen.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "lösning och tolkning av logistisk modell",
+    "poang": "2/2/0",
+    "t": "<p>En fisktank rymmer högst 150 fiskar. Antalet fiskar \\(y\\) efter \\(t\\) veckor följer \\(y^{\\prime}=0{,}225y\\left(1-\\dfrac{y}{150}\\right)\\). Från början finns 6 fiskar.</p><ol type=\"a\"><li>Bestäm lösningen \\(y(t)\\).</li><li>Hur många fiskar finns efter 10 veckor? Avrunda till heltal.</li><li>Efter hur lång tid finns det fler än 100 fiskar? Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{150}{6}-1=24\\), så \\(y=\\dfrac{150}{1+24e^{-0{,}225t}}\\).</p><p><strong>Svar:</strong> \\(y=\\dfrac{150}{1+24e^{-0{,}225t}}\\)</p></li><li><p>\\(y(10)=\\dfrac{150}{1+24e^{-2{,}25}}\\approx42\\).</p><p><strong>Svar:</strong> cirka 42 fiskar</p></li><li><p>\\(\\dfrac{150}{1+24e^{-0{,}225t}}\\gt100\\iff24e^{-0{,}225t}\\lt0{,}5\\iff t\\gt\\dfrac{\\ln48}{0{,}225}\\approx17{,}2\\).</p><p><strong>Svar:</strong> efter cirka 17,2 veckor</p></li></ol>",
+    "id": "4.534",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "150/(1+24*e^(-0.225t))",
+      42,
+      17.2
+    ],
+    "tolerans": [
+      null,
+      0.6,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En fisktank rymmer högst 150 fiskar. Antalet fiskar \\(y\\) efter \\(t\\) veckor följer \\(y^{\\prime}=0{,}225y\\left(1-\\dfrac{y}{150}\\right)\\). Från början finns 6 fiskar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm lösningen \\(y(t)\\).",
+        "t": "<p>En fisktank rymmer högst 150 fiskar. Antalet fiskar \\(y\\) efter \\(t\\) veckor följer \\(y^{\\prime}=0{,}225y\\left(1-\\dfrac{y}{150}\\right)\\). Från början finns 6 fiskar.</p><p>Bestäm lösningen \\(y(t)\\).</p>",
+        "s": "<p>\\(\\dfrac{150}{6}-1=24\\), så \\(y=\\dfrac{150}{1+24e^{-0{,}225t}}\\).</p><p><strong>Svar:</strong> \\(y=\\dfrac{150}{1+24e^{-0{,}225t}}\\)</p>",
+        "ledtrad": "<p>Använd den allmänna logistiska lösningen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många fiskar finns efter 10 veckor? Avrunda till heltal.",
+        "t": "<p>En fisktank rymmer högst 150 fiskar. Antalet fiskar \\(y\\) efter \\(t\\) veckor följer \\(y^{\\prime}=0{,}225y\\left(1-\\dfrac{y}{150}\\right)\\). Från början finns 6 fiskar.</p><p>Hur många fiskar finns efter 10 veckor? Avrunda till heltal.</p>",
+        "s": "<p>\\(y(10)=\\dfrac{150}{1+24e^{-2{,}25}}\\approx42\\).</p><p><strong>Svar:</strong> cirka 42 fiskar</p>",
+        "ledtrad": "<p>Ställ upp den logistiska lösningen och sätt in \\(t=10\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Efter hur lång tid finns det fler än 100 fiskar? Svara med en decimal.",
+        "t": "<p>En fisktank rymmer högst 150 fiskar. Antalet fiskar \\(y\\) efter \\(t\\) veckor följer \\(y^{\\prime}=0{,}225y\\left(1-\\dfrac{y}{150}\\right)\\). Från början finns 6 fiskar.</p><p>Efter hur lång tid finns det fler än 100 fiskar? Svara med en decimal.</p>",
+        "s": "<p>\\(\\dfrac{150}{1+24e^{-0{,}225t}}\\gt100\\iff24e^{-0{,}225t}\\lt0{,}5\\iff t\\gt\\dfrac{\\ln48}{0{,}225}\\approx17{,}2\\).</p><p><strong>Svar:</strong> efter cirka 17,2 veckor</p>",
+        "ledtrad": "<p>Ställ upp olikheten \\(y(t)\\gt100\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "logistisk modell över årtal",
+    "poang": "1/3/0",
+    "t": "<p>Ett reservat för låglandsgorillor kan försörja 250 individer. År 1970 fanns 28 gorillor. Antalet \\(y\\) efter \\(t\\) år följer \\(y^{\\prime}=0{,}1y\\left(1-\\dfrac{y}{250}\\right)\\).</p><ol type=\"a\"><li>Hur många gorillor fanns år 1978 enligt modellen? Avrunda till heltal.</li><li>Hur många år efter 1970 passerade antalet 100 gorillor? Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y=\\dfrac{250}{1+\\left(\\frac{250}{28}-1\\right)e^{-0{,}1t}}\\) och \\(y(8)\\approx55\\).</p><p><strong>Svar:</strong> cirka 55 gorillor</p></li><li><p>\\(\\left(\\dfrac{250}{28}-1\\right)e^{-0{,}1t}=\\dfrac{250}{100}-1=1{,}5\\iff t=10\\ln\\dfrac{250/28-1}{1{,}5}\\approx16{,}7\\).</p><p><strong>Svar:</strong> cirka 16,7 år, alltså under 1986–1987</p></li></ol>",
+    "id": "4.535",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      55,
+      16.65
+    ],
+    "tolerans": [
+      0.6,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett reservat för låglandsgorillor kan försörja 250 individer. År 1970 fanns 28 gorillor. Antalet \\(y\\) efter \\(t\\) år följer \\(y^{\\prime}=0{,}1y\\left(1-\\dfrac{y}{250}\\right)\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många gorillor fanns år 1978 enligt modellen? Avrunda till heltal.",
+        "t": "<p>Ett reservat för låglandsgorillor kan försörja 250 individer. År 1970 fanns 28 gorillor. Antalet \\(y\\) efter \\(t\\) år följer \\(y^{\\prime}=0{,}1y\\left(1-\\dfrac{y}{250}\\right)\\).</p><p>Hur många gorillor fanns år 1978 enligt modellen? Avrunda till heltal.</p>",
+        "s": "<p>\\(y=\\dfrac{250}{1+\\left(\\frac{250}{28}-1\\right)e^{-0{,}1t}}\\) och \\(y(8)\\approx55\\).</p><p><strong>Svar:</strong> cirka 55 gorillor</p>",
+        "ledtrad": "<p>Vilket \\(t\\) motsvarar år 1978?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många år efter 1970 passerade antalet 100 gorillor? Svara med en decimal.",
+        "t": "<p>Ett reservat för låglandsgorillor kan försörja 250 individer. År 1970 fanns 28 gorillor. Antalet \\(y\\) efter \\(t\\) år följer \\(y^{\\prime}=0{,}1y\\left(1-\\dfrac{y}{250}\\right)\\).</p><p>Hur många år efter 1970 passerade antalet 100 gorillor? Svara med en decimal.</p>",
+        "s": "<p>\\(\\left(\\dfrac{250}{28}-1\\right)e^{-0{,}1t}=\\dfrac{250}{100}-1=1{,}5\\iff t=10\\ln\\dfrac{250/28-1}{1{,}5}\\approx16{,}7\\).</p><p><strong>Svar:</strong> cirka 16,7 år, alltså under 1986–1987</p>",
+        "ledtrad": "<p>Sätt lösningen lika med 100 och lös ut \\(t\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "tolka given logistisk lösning",
+    "poang": "2/3/0",
+    "t": "<p>Andelen smittade \\(y\\) i ett samhälle efter \\(t\\) dygn ges av \\[y=\\frac{0{,}90}{1+45e^{-0{,}15t}}.\\]</p><ol type=\"a\"><li>Hur stor andel är smittade från början? Svara med tre decimaler.</li><li>Hur stor andel är smittade efter 10 dygn? Svara med tre decimaler.</li><li>Efter hur många dygn är 80 % smittade? Avrunda till heltal.</li><li>Vilken andel smittade närmar sig modellen på lång sikt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y(0)=\\dfrac{0{,}90}{46}\\approx0{,}020\\), alltså cirka 2,0 %.</p><p><strong>Svar:</strong> 0,020</p></li><li><p>\\(y(10)=\\dfrac{0{,}90}{1+45e^{-1{,}5}}\\approx0{,}082\\).</p><p><strong>Svar:</strong> cirka 0,082 (8,2 %)</p></li><li><p>\\(\\dfrac{0{,}90}{1+45e^{-0{,}15t}}=0{,}80\\iff45e^{-0{,}15t}=0{,}125\\iff t=\\dfrac{\\ln360}{0{,}15}\\approx39\\).</p><p><strong>Svar:</strong> cirka 39 dygn</p></li><li><p>När \\(t\\to\\infty\\) går \\(e^{-0{,}15t}\\to0\\), så \\(y\\to0{,}90\\). Andelen kan alltså aldrig nå 100 % i modellen.</p><p><strong>Svar:</strong> 0,90 (90 %)</p></li></ol>",
+    "id": "4.536",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.0196,
+      0.0815,
+      39,
+      0.9
+    ],
+    "tolerans": [
+      0.0006,
+      0.0008,
+      0.6,
+      0.001
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Andelen smittade \\(y\\) i ett samhälle efter \\(t\\) dygn ges av \\[y=\\frac{0{,}90}{1+45e^{-0{,}15t}}.\\]</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor andel är smittade från början? Svara med tre decimaler.",
+        "t": "<p>Andelen smittade \\(y\\) i ett samhälle efter \\(t\\) dygn ges av \\[y=\\frac{0{,}90}{1+45e^{-0{,}15t}}.\\]</p><p>Hur stor andel är smittade från början? Svara med tre decimaler.</p>",
+        "s": "<p>\\(y(0)=\\dfrac{0{,}90}{46}\\approx0{,}020\\), alltså cirka 2,0 %.</p><p><strong>Svar:</strong> 0,020</p>",
+        "ledtrad": "<p>Sätt in \\(t=0\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor andel är smittade efter 10 dygn? Svara med tre decimaler.",
+        "t": "<p>Andelen smittade \\(y\\) i ett samhälle efter \\(t\\) dygn ges av \\[y=\\frac{0{,}90}{1+45e^{-0{,}15t}}.\\]</p><p>Hur stor andel är smittade efter 10 dygn? Svara med tre decimaler.</p>",
+        "s": "<p>\\(y(10)=\\dfrac{0{,}90}{1+45e^{-1{,}5}}\\approx0{,}082\\).</p><p><strong>Svar:</strong> cirka 0,082 (8,2 %)</p>",
+        "ledtrad": "<p>Sätt in \\(t=10\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Efter hur många dygn är 80 % smittade? Avrunda till heltal.",
+        "t": "<p>Andelen smittade \\(y\\) i ett samhälle efter \\(t\\) dygn ges av \\[y=\\frac{0{,}90}{1+45e^{-0{,}15t}}.\\]</p><p>Efter hur många dygn är 80 % smittade? Avrunda till heltal.</p>",
+        "s": "<p>\\(\\dfrac{0{,}90}{1+45e^{-0{,}15t}}=0{,}80\\iff45e^{-0{,}15t}=0{,}125\\iff t=\\dfrac{\\ln360}{0{,}15}\\approx39\\).</p><p><strong>Svar:</strong> cirka 39 dygn</p>",
+        "ledtrad": "<p>Sätt \\(y=0{,}80\\) och lös ut \\(t\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Vilken andel smittade närmar sig modellen på lång sikt?",
+        "t": "<p>Andelen smittade \\(y\\) i ett samhälle efter \\(t\\) dygn ges av \\[y=\\frac{0{,}90}{1+45e^{-0{,}15t}}.\\]</p><p>Vilken andel smittade närmar sig modellen på lång sikt?</p>",
+        "s": "<p>När \\(t\\to\\infty\\) går \\(e^{-0{,}15t}\\to0\\), så \\(y\\to0{,}90\\). Andelen kan alltså aldrig nå 100 % i modellen.</p><p><strong>Svar:</strong> 0,90 (90 %)</p>",
+        "ledtrad": "<p>Vad händer med \\(e^{-0{,}15t}\\) när \\(t\\) blir mycket stort?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Lösningen har formen \\(y=\\dfrac{M}{1+Ce^{-kt}}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "tillvaxt_begransning",
+    "niva": "C",
+    "typ": "största tillväxt ur given lösning",
+    "poang": "1/4/0",
+    "t": "<p>Antalet smittade \\(y\\) efter \\(t\\) dygn i ett samhälle ges av \\[y=\\frac{600}{1+59e^{-0{,}1t}}.\\]</p><ol type=\"a\"><li>Hur många var smittade när sjukdomen upptäcktes (\\(t=0\\))?</li><li>Hur stor är den största tillväxthastigheten?</li><li>Efter hur många dygn ökar antalet smittade som snabbast? Avrunda till heltal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y(0)=\\dfrac{600}{60}=10\\).</p><p><strong>Svar:</strong> 10</p></li><li><p>Lösningen hör till \\(y^{\\prime}=0{,}1y\\left(1-\\dfrac{y}{600}\\right)\\). Störst vid \\(y=300\\): \\(y^{\\prime}=0{,}1\\cdot300\\cdot0{,}5=15\\).</p><p><strong>Svar:</strong> 15 nya smittade per dygn</p></li><li><p>Snabbast vid \\(y=300\\): \\(59e^{-0{,}1t}=1\\iff t=10\\ln59\\approx41\\).</p><p><strong>Svar:</strong> efter cirka 41 dygn</p></li></ol>",
+    "id": "4.537",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Logistisk tillväxt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      15,
+      41
+    ],
+    "tolerans": [
+      null,
+      null,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Antalet smittade \\(y\\) efter \\(t\\) dygn i ett samhälle ges av \\[y=\\frac{600}{1+59e^{-0{,}1t}}.\\]</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många var smittade när sjukdomen upptäcktes (\\(t=0\\))?",
+        "t": "<p>Antalet smittade \\(y\\) efter \\(t\\) dygn i ett samhälle ges av \\[y=\\frac{600}{1+59e^{-0{,}1t}}.\\]</p><p>Hur många var smittade när sjukdomen upptäcktes (\\(t=0\\))?</p>",
+        "s": "<p>\\(y(0)=\\dfrac{600}{60}=10\\).</p><p><strong>Svar:</strong> 10</p>",
+        "ledtrad": "<p>Sätt in \\(t=0\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den största tillväxthastigheten?",
+        "t": "<p>Antalet smittade \\(y\\) efter \\(t\\) dygn i ett samhälle ges av \\[y=\\frac{600}{1+59e^{-0{,}1t}}.\\]</p><p>Hur stor är den största tillväxthastigheten?</p>",
+        "s": "<p>Lösningen hör till \\(y^{\\prime}=0{,}1y\\left(1-\\dfrac{y}{600}\\right)\\). Störst vid \\(y=300\\): \\(y^{\\prime}=0{,}1\\cdot300\\cdot0{,}5=15\\).</p><p><strong>Svar:</strong> 15 nya smittade per dygn</p>",
+        "ledtrad": "<p>Läs av \\(M\\) och \\(k\\) ur lösningen och teckna differentialekvationen.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Efter hur många dygn ökar antalet smittade som snabbast? Avrunda till heltal.",
+        "t": "<p>Antalet smittade \\(y\\) efter \\(t\\) dygn i ett samhälle ges av \\[y=\\frac{600}{1+59e^{-0{,}1t}}.\\]</p><p>Efter hur många dygn ökar antalet smittade som snabbast? Avrunda till heltal.</p>",
+        "s": "<p>Snabbast vid \\(y=300\\): \\(59e^{-0{,}1t}=1\\iff t=10\\ln59\\approx41\\).</p><p><strong>Svar:</strong> efter cirka 41 dygn</p>",
+        "ledtrad": "<p>Vid vilket antal smittade är tillväxten störst?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Lösningen har formen \\(y=\\dfrac{M}{1+Ce^{-kt}}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
     "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtons avsvalningslag – grundmodell",
@@ -37504,5 +38756,1070 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "modellering_digitalt"
     ]
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "avsvalning med k ur hastighet",
+    "poang": "1/2/0",
+    "t": "<p>En kopp kaffe som är 90 °C ställs i ett rum som är 20 °C. Kaffets temperatur \\(T\\) följer \\(T^{\\prime}=-k(T-20)\\). När kaffet är 70 °C sjunker temperaturen med 4,0 °C per minut.</p><ol type=\"a\"><li>Bestäm \\(k\\).</li><li>Efter hur många minuter är kaffet 32 °C? Avrunda till hela minuter.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(-4{,}0=-k(70-20)\\iff k=\\dfrac{4{,}0}{50}=0{,}08\\).</p><p><strong>Svar:</strong> \\(k=0{,}08\\ \\text{min}^{-1}\\)</p></li><li><p>\\(k=\\dfrac{4{,}0}{70-20}=0{,}08\\). Lösningen är \\(T=20+70e^{-0{,}08t}\\).</p><p>\\(20+70e^{-0{,}08t}=32\\iff e^{-0{,}08t}=\\dfrac{12}{70}\\iff t=\\dfrac{\\ln(70/12)}{0{,}08}\\approx22\\).</p><p><strong>Svar:</strong> cirka 22 minuter</p></li></ol>",
+    "id": "4.538",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.08,
+      22
+    ],
+    "tolerans": [
+      0.0005,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kopp kaffe som är 90 °C ställs i ett rum som är 20 °C. Kaffets temperatur \\(T\\) följer \\(T^{\\prime}=-k(T-20)\\). När kaffet är 70 °C sjunker temperaturen med 4,0 °C per minut.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(k\\).",
+        "t": "<p>En kopp kaffe som är 90 °C ställs i ett rum som är 20 °C. Kaffets temperatur \\(T\\) följer \\(T^{\\prime}=-k(T-20)\\). När kaffet är 70 °C sjunker temperaturen med 4,0 °C per minut.</p><p>Bestäm \\(k\\).</p>",
+        "s": "<p>\\(-4{,}0=-k(70-20)\\iff k=\\dfrac{4{,}0}{50}=0{,}08\\).</p><p><strong>Svar:</strong> \\(k=0{,}08\\ \\text{min}^{-1}\\)</p>",
+        "ledtrad": "<p>Sätt in \\(T=70\\) och \\(T^{\\prime}=-4{,}0\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många minuter är kaffet 32 °C? Avrunda till hela minuter.",
+        "t": "<p>En kopp kaffe som är 90 °C ställs i ett rum som är 20 °C. Kaffets temperatur \\(T\\) följer \\(T^{\\prime}=-k(T-20)\\). När kaffet är 70 °C sjunker temperaturen med 4,0 °C per minut.</p><p>Efter hur många minuter är kaffet 32 °C? Avrunda till hela minuter.</p>",
+        "s": "<p>\\(k=\\dfrac{4{,}0}{70-20}=0{,}08\\). Lösningen är \\(T=20+70e^{-0{,}08t}\\).</p><p>\\(20+70e^{-0{,}08t}=32\\iff e^{-0{,}08t}=\\dfrac{12}{70}\\iff t=\\dfrac{\\ln(70/12)}{0{,}08}\\approx22\\).</p><p><strong>Svar:</strong> cirka 22 minuter</p>",
+        "ledtrad": "<p>Lösningen till \\(T^{\\prime}=-k(T-T_{\\text{omg}})\\) är \\(T=T_{\\text{omg}}+(T_0-T_{\\text{omg}})e^{-kt}\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd Newtons avsvalningslag.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "avsvalning med k ur mätvärde",
+    "poang": "0/2/0",
+    "t": "<p>Kalle ställer ut soppa som är 100 °C där det är 10 °C. Efter 1,0 minut har soppan svalnat 20 °C. Anta att Newtons avsvalningslag gäller.</p><p>Hur många minuter efter att soppan ställdes ut är den 45 °C? Svara med en decimal.</p>",
+    "s": "<p>\\(T=10+90e^{-kt}\\). Efter 1 minut: \\(80=10+90e^{-k}\\iff e^{-k}=\\dfrac79\\iff k=\\ln\\dfrac97\\).</p><p>\\(45=10+90e^{-kt}\\iff e^{-kt}=\\dfrac{35}{90}\\iff t=\\dfrac{\\ln(90/35)}{\\ln(9/7)}\\approx3{,}8\\).</p><p><strong>Svar:</strong> cirka 3,8 minuter</p>",
+    "id": "4.539",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.8,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv lösningen \\(T=T_{\\text{omg}}+(T_0-T_{\\text{omg}})e^{-kt}\\) och bestäm \\(k\\) ur mätningen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "min"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "termometer som svalnar",
+    "poang": "1/3/0",
+    "t": "<p>En termometer som visar 100 °C tas upp ur kokande vatten och läggs i ett rum som är 22 °C. Efter 2,0 minuter visar den 50 °C. Anta att Newtons avsvalningslag gäller.</p><ol type=\"a\"><li>Vad visar termometern efter 4,0 minuter? Avrunda till heltal.</li><li>Efter hur många minuter visar termometern 23 °C? Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=22+78e^{-kt}\\). Efter 2 min: \\(e^{-2k}=\\dfrac{28}{78}\\).</p><p>Efter 4 min: \\(T=22+78\\left(\\dfrac{28}{78}\\right)^2\\approx32\\).</p><p><strong>Svar:</strong> cirka 32 °C</p></li><li><p>\\(T=22+78e^{-kt}\\) med \\(e^{-2k}=\\dfrac{28}{78}\\), alltså \\(k=\\dfrac12\\ln\\dfrac{78}{28}\\).</p><p>\\(1=78e^{-kt}\\iff t=\\dfrac{\\ln78}{k}=\\dfrac{2\\ln78}{\\ln(78/28)}\\approx8{,}5\\).</p><p><strong>Svar:</strong> cirka 8,5 minuter</p></li></ol>",
+    "id": "4.540",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      32,
+      8.5
+    ],
+    "tolerans": [
+      0.6,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°C",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En termometer som visar 100 °C tas upp ur kokande vatten och läggs i ett rum som är 22 °C. Efter 2,0 minuter visar den 50 °C. Anta att Newtons avsvalningslag gäller.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vad visar termometern efter 4,0 minuter? Avrunda till heltal.",
+        "t": "<p>En termometer som visar 100 °C tas upp ur kokande vatten och läggs i ett rum som är 22 °C. Efter 2,0 minuter visar den 50 °C. Anta att Newtons avsvalningslag gäller.</p><p>Vad visar termometern efter 4,0 minuter? Avrunda till heltal.</p>",
+        "s": "<p>\\(T=22+78e^{-kt}\\). Efter 2 min: \\(e^{-2k}=\\dfrac{28}{78}\\).</p><p>Efter 4 min: \\(T=22+78\\left(\\dfrac{28}{78}\\right)^2\\approx32\\).</p><p><strong>Svar:</strong> cirka 32 °C</p>",
+        "ledtrad": "<p>4 minuter är två perioder om 2 minuter. Vad händer med temperaturskillnaden under varje period?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många minuter visar termometern 23 °C? Svara med en decimal.",
+        "t": "<p>En termometer som visar 100 °C tas upp ur kokande vatten och läggs i ett rum som är 22 °C. Efter 2,0 minuter visar den 50 °C. Anta att Newtons avsvalningslag gäller.</p><p>Efter hur många minuter visar termometern 23 °C? Svara med en decimal.</p>",
+        "s": "<p>\\(T=22+78e^{-kt}\\) med \\(e^{-2k}=\\dfrac{28}{78}\\), alltså \\(k=\\dfrac12\\ln\\dfrac{78}{28}\\).</p><p>\\(1=78e^{-kt}\\iff t=\\dfrac{\\ln78}{k}=\\dfrac{2\\ln78}{\\ln(78/28)}\\approx8{,}5\\).</p><p><strong>Svar:</strong> cirka 8,5 minuter</p>",
+        "ledtrad": "<p>Bestäm \\(k\\) och lös \\(T(t)=23\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Lösningen är \\(T=T_{\\text{omg}}+(T_0-T_{\\text{omg}})e^{-kt}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "avsvalning i frysrum",
+    "poang": "0/2/0",
+    "t": "<p>En termometer som visar 22 °C flyttas in i ett frysrum som är −12 °C. Efter 30 s visar den 4,0 °C. Anta att Newtons avsvalningslag gäller.</p><p>Vad visar termometern efter 2,0 minuter? Svara med en decimal.</p>",
+    "s": "<p>\\(T=-12+34e^{-kt}\\). Efter 30 s: \\(16=34e^{-30k}\\), alltså multipliceras skillnaden mot omgivningen med \\(\\dfrac{16}{34}\\) var 30:e sekund.</p><p>2,0 min är fyra sådana perioder: \\(T=-12+34\\left(\\dfrac{16}{34}\\right)^4\\approx-10{,}3\\).</p><p><strong>Svar:</strong> cirka −10,3 °C</p>",
+    "id": "4.541",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": -10.3,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många gånger 30 s är 2 minuter?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "bestämma starttid ur två mätningar",
+    "poang": "0/4/0",
+    "t": "<p>Ett föremål som är 150 °C ställs ut där det är 35 °C. Klockan 12.15 är föremålet 120 °C och klockan 12.20 är det 90 °C. Anta att Newtons avsvalningslag gäller.</p><ol type=\"a\"><li>Hur många minuter före klockan 12.15 ställdes föremålet ut? Svara med en decimal.</li><li>Hur många minuter efter klockan 12.15 är föremålet 40 °C? Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Skillnaden mot omgivningen är 85 °C kl. 12.15 och 55 °C kl. 12.20: \\(e^{-5k}=\\dfrac{55}{85}\\), \\(k=\\dfrac15\\ln\\dfrac{85}{55}\\approx0{,}0871\\).</p><p>Från start, skillnaden 115 °C, till 85 °C: \\(t=\\dfrac{\\ln(115/85)}{k}\\approx3{,}5\\) min.</p><p><strong>Svar:</strong> cirka 3,5 minuter (kl. 12.11–12.12)</p></li><li><p>\\(k=\\dfrac15\\ln\\dfrac{85}{55}\\). Från 85 °C skillnad kl. 12.15 till 5 °C skillnad: \\(t=\\dfrac{\\ln(85/5)}{k}=\\dfrac{5\\ln17}{\\ln(85/55)}\\approx32{,}5\\).</p><p><strong>Svar:</strong> cirka 32,5 minuter (kl. 12.47–12.48)</p></li></ol>",
+    "id": "4.542",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.5,
+      32.5
+    ],
+    "tolerans": [
+      0.06,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "min",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett föremål som är 150 °C ställs ut där det är 35 °C. Klockan 12.15 är föremålet 120 °C och klockan 12.20 är det 90 °C. Anta att Newtons avsvalningslag gäller.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många minuter före klockan 12.15 ställdes föremålet ut? Svara med en decimal.",
+        "t": "<p>Ett föremål som är 150 °C ställs ut där det är 35 °C. Klockan 12.15 är föremålet 120 °C och klockan 12.20 är det 90 °C. Anta att Newtons avsvalningslag gäller.</p><p>Hur många minuter före klockan 12.15 ställdes föremålet ut? Svara med en decimal.</p>",
+        "s": "<p>Skillnaden mot omgivningen är 85 °C kl. 12.15 och 55 °C kl. 12.20: \\(e^{-5k}=\\dfrac{55}{85}\\), \\(k=\\dfrac15\\ln\\dfrac{85}{55}\\approx0{,}0871\\).</p><p>Från start, skillnaden 115 °C, till 85 °C: \\(t=\\dfrac{\\ln(115/85)}{k}\\approx3{,}5\\) min.</p><p><strong>Svar:</strong> cirka 3,5 minuter (kl. 12.11–12.12)</p>",
+        "ledtrad": "<p>Räkna med skillnaden mot omgivningens temperatur. Hur förändras den under de fem minuterna?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många minuter efter klockan 12.15 är föremålet 40 °C? Svara med en decimal.",
+        "t": "<p>Ett föremål som är 150 °C ställs ut där det är 35 °C. Klockan 12.15 är föremålet 120 °C och klockan 12.20 är det 90 °C. Anta att Newtons avsvalningslag gäller.</p><p>Hur många minuter efter klockan 12.15 är föremålet 40 °C? Svara med en decimal.</p>",
+        "s": "<p>\\(k=\\dfrac15\\ln\\dfrac{85}{55}\\). Från 85 °C skillnad kl. 12.15 till 5 °C skillnad: \\(t=\\dfrac{\\ln(85/5)}{k}=\\dfrac{5\\ln17}{\\ln(85/55)}\\approx32{,}5\\).</p><p><strong>Svar:</strong> cirka 32,5 minuter (kl. 12.47–12.48)</p>",
+        "ledtrad": "<p>Bestäm \\(k\\) ur de två mätningarna. Räkna sedan från klockan 12.15.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Temperaturskillnaden mot omgivningen avtar exponentiellt.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "A",
+    "typ": "starttemperatur ur två mätningar",
+    "poang": "0/1/2",
+    "t": "<p>En nyckel tappas ute där det är −15 °C. Efter 1,0 minut är nyckeln 13 °C och efter 5,0 minuter −1,0 °C. Anta att Newtons avsvalningslag gäller.</p><p>Hur varm var nyckeln när den tappades? Svara med en decimal.</p>",
+    "s": "<p>Skillnaden mot omgivningen: 28 °C efter 1 min och 14 °C efter 5 min. Den halveras alltså på 4 minuter: \\(e^{-4k}=\\dfrac12\\).</p><p>Från \\(t=0\\) till \\(t=1\\): \\(28=D_0e^{-k}=D_0\\cdot\\left(\\tfrac12\\right)^{1/4}\\iff D_0=28\\cdot2^{1/4}\\approx33{,}3\\).</p><p>\\(T_0=-15+33{,}3\\approx18{,}3\\).</p><p><strong>Svar:</strong> cirka 18,3 °C</p>",
+    "id": "4.543",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.3,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna med skillnaden mot omgivningen. Hur mycket minskar den mellan minut 1 och minut 5?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°C"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "bestämma tidpunkt bakåt i tiden",
+    "poang": "0/2/1",
+    "t": "<p>Klockan 02.45 hittas en kropp i ett rum som är 21,0 °C. Kroppen är då 29,1 °C, och en timme senare är den 26,4 °C. Anta att Newtons avsvalningslag gäller och att kroppstemperaturen var 37,5 °C vid dödsfallet.</p><p>Hur många timmar före klockan 02.45 inträffade dödsfallet? Svara med två decimaler.</p>",
+    "s": "<p>Skillnaden mot rummet: 8,1 °C kl. 02.45 och 5,4 °C en timme senare, så \\(e^{-k}=\\dfrac{5{,}4}{8{,}1}=\\dfrac23\\).</p><p>Från 16,5 °C skillnad till 8,1 °C: \\(t=\\dfrac{\\ln(16{,}5/8{,}1)}{\\ln1{,}5}\\approx1{,}75\\) h.</p><p>Det motsvarar cirka 1 h 45 min, alltså runt klockan 01.00.</p><p><strong>Svar:</strong> cirka 1,75 timmar</p>",
+    "id": "4.544",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.75,
+    "tolerans": 0.011,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm \\(k\\) ur de två mätningarna. Hur lång tid tar det för skillnaden att sjunka från 16,5 °C till 8,1 °C?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "h"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "A",
+    "typ": "okänd omgivningstemperatur",
+    "poang": "0/0/2",
+    "t": "<p>En kopp kokande vatten (100 °C) ställs i ett rum klockan 13.00. Klockan 13.01 är vattnet 67 °C och klockan 13.02 är det 44 °C. Anta att Newtons avsvalningslag gäller.</p><p>Vilken temperatur har rummet enligt modellen? Svara med en decimal.</p>",
+    "s": "<p>Låt rummets temperatur vara \\(R\\). Skillnaden mot rummet multipliceras med samma faktor \\(q=e^{-k}\\) varje minut:</p><p>\\[\\frac{67-R}{100-R}=\\frac{44-R}{67-R}\\iff(67-R)^2=(100-R)(44-R).\\]</p><p>\\(4\\,489-134R+R^2=4\\,400-144R+R^2\\iff10R=-89\\iff R=-8{,}9\\).</p><p>Modellen ger en orimlig rumstemperatur, så mätvärdena passar inte Newtons lag särskilt bra.</p><p><strong>Svar:</strong> −8,9 °C</p>",
+    "id": "4.545",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": -8.9,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Temperaturskillnaden mot rummet ändras med samma faktor varje minut. Ställ upp en ekvation med den faktorn.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "°C"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "A",
+    "typ": "okänd starttemperatur ur två förändringar",
+    "poang": "0/0/2",
+    "t": "<p>Ett föremål ställs i ett rum som är 20 °C. Efter 4,0 minuter har dess temperatur sjunkit 5,0 °C och efter 8,0 minuter har den sjunkit 7,0 °C jämfört med starten. Anta att Newtons avsvalningslag gäller.</p><p>Vilken temperatur hade föremålet från början? Svara med en decimal.</p>",
+    "s": "<p>Låt startskillnaden mot rummet vara \\(D\\). Efter 4 min är skillnaden \\(D-5\\) och efter 8 min \\(D-7\\). Varje 4-minutersperiod ger samma faktor:</p><p>\\[\\frac{D-5}{D}=\\frac{D-7}{D-5}\\iff(D-5)^2=D(D-7)\\iff-10D+25=-7D\\iff D=\\frac{25}{3}.\\]</p><p>Starttemperatur: \\(20+\\dfrac{25}{3}\\approx28{,}3\\) °C.</p><p><strong>Svar:</strong> cirka 28,3 °C</p>",
+    "id": "4.546",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28.3,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kalla startskillnaden mot rummet för \\(D\\). Skillnaden multipliceras med samma faktor under varje 4-minutersperiod.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "°C"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "E",
+    "typ": "uppvärmning enligt Newtons lag",
+    "poang": "2/0/0",
+    "t": "<p>En paj som är 5,0 °C ställs in i en ugn som är 200 °C. Pajens temperatur följer \\(T^{\\prime}=k(200-T)\\) med \\(k=0{,}01\\ \\text{min}^{-1}\\).</p><p>Efter hur många minuter är pajen 25 °C? Svara med en decimal.</p>",
+    "s": "<p>\\(T=200-195e^{-0{,}01t}\\).</p><p>\\(25=200-195e^{-0{,}01t}\\iff e^{-0{,}01t}=\\dfrac{175}{195}\\iff t=100\\ln\\dfrac{195}{175}\\approx10{,}8\\).</p><p><strong>Svar:</strong> cirka 10,8 minuter</p>",
+    "id": "4.547",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.8,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lösningen är \\(T=T_{\\text{omg}}-(T_{\\text{omg}}-T_0)e^{-kt}\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "min"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "E",
+    "typ": "uppvärmning till rumstemperatur",
+    "poang": "2/0/0",
+    "t": "<p>Ett glas saft som är 4,0 °C ställs på ett bord i ett rum som är 22 °C. Saftens temperatur följer \\(T^{\\prime}=k(22-T)\\) med \\(k=0{,}041\\ \\text{min}^{-1}\\).</p><p>Hur varm är saften efter 8,0 minuter? Svara med en decimal.</p>",
+    "s": "<p>\\(T=22-18e^{-0{,}041t}\\) och \\(T(8{,}0)=22-18e^{-0{,}328}\\approx9{,}0\\).</p><p><strong>Svar:</strong> cirka 9,0 °C</p>",
+    "id": "4.548",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv lösningen med rumstemperaturen och starttemperaturen.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°C"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "uppvärmning i kokande vatten",
+    "poang": "2/2/0",
+    "t": "<p>En metallbit som är 20 °C läggs i kokande vatten (100 °C). Efter 1,0 s har den blivit 2,0 °C varmare. Anta att Newtons lag för uppvärmning gäller.</p><ol type=\"a\"><li>Efter hur många sekunder är metallbiten 90 °C? Avrunda till heltal.</li><li>Efter hur många sekunder är metallbiten 98 °C? Avrunda till heltal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=100-80e^{-kt}\\). \\(22=100-80e^{-k}\\iff e^{-k}=\\dfrac{78}{80}\\iff k=\\ln\\dfrac{80}{78}\\).</p><p>\\(90=100-80e^{-kt}\\iff t=\\dfrac{\\ln8}{\\ln(80/78)}\\approx82\\).</p><p><strong>Svar:</strong> cirka 82 s</p></li><li><p>\\(k=\\ln\\dfrac{80}{78}\\). \\(98=100-80e^{-kt}\\iff t=\\dfrac{\\ln40}{\\ln(80/78)}\\approx146\\).</p><p><strong>Svar:</strong> cirka 146 s</p></li></ol>",
+    "id": "4.549",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      82,
+      146
+    ],
+    "tolerans": [
+      0.6,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En metallbit som är 20 °C läggs i kokande vatten (100 °C). Efter 1,0 s har den blivit 2,0 °C varmare. Anta att Newtons lag för uppvärmning gäller.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Efter hur många sekunder är metallbiten 90 °C? Avrunda till heltal.",
+        "t": "<p>En metallbit som är 20 °C läggs i kokande vatten (100 °C). Efter 1,0 s har den blivit 2,0 °C varmare. Anta att Newtons lag för uppvärmning gäller.</p><p>Efter hur många sekunder är metallbiten 90 °C? Avrunda till heltal.</p>",
+        "s": "<p>\\(T=100-80e^{-kt}\\). \\(22=100-80e^{-k}\\iff e^{-k}=\\dfrac{78}{80}\\iff k=\\ln\\dfrac{80}{78}\\).</p><p>\\(90=100-80e^{-kt}\\iff t=\\dfrac{\\ln8}{\\ln(80/78)}\\approx82\\).</p><p><strong>Svar:</strong> cirka 82 s</p>",
+        "ledtrad": "<p>Bestäm \\(k\\) ur temperaturen efter 1 s.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många sekunder är metallbiten 98 °C? Avrunda till heltal.",
+        "t": "<p>En metallbit som är 20 °C läggs i kokande vatten (100 °C). Efter 1,0 s har den blivit 2,0 °C varmare. Anta att Newtons lag för uppvärmning gäller.</p><p>Efter hur många sekunder är metallbiten 98 °C? Avrunda till heltal.</p>",
+        "s": "<p>\\(k=\\ln\\dfrac{80}{78}\\). \\(98=100-80e^{-kt}\\iff t=\\dfrac{\\ln40}{\\ln(80/78)}\\approx146\\).</p><p><strong>Svar:</strong> cirka 146 s</p>",
+        "ledtrad": "<p>Bestäm \\(k\\) ur temperaturen efter 1 s och lös \\(T(t)=98\\).</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Lösningen är \\(T=T_{\\text{omg}}-(T_{\\text{omg}}-T_0)e^{-kt}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "termometer i växthus",
+    "poang": "0/4/0",
+    "t": "<p>En termometer som visar 7,0 °C tas in i ett växthus som är 38 °C. Efter 4,0 minuter visar den 16 °C. Anta att Newtons lag för uppvärmning gäller.</p><ol type=\"a\"><li>Vad visar termometern efter 6,0 minuter? Svara med en decimal.</li><li>Efter hur många minuter visar termometern 30 °C? Avrunda till heltal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=38-31e^{-kt}\\). Efter 4 min: \\(e^{-4k}=\\dfrac{22}{31}\\).</p><p>Efter 6 min: \\(T=38-31\\left(\\dfrac{22}{31}\\right)^{6/4}\\approx19{,}5\\).</p><p><strong>Svar:</strong> cirka 19,5 °C</p></li><li><p>\\(e^{-4k}=\\dfrac{22}{31}\\iff k=\\dfrac14\\ln\\dfrac{31}{22}\\). \\(30=38-31e^{-kt}\\iff t=\\dfrac{4\\ln(31/8)}{\\ln(31/22)}\\approx16\\).</p><p><strong>Svar:</strong> cirka 16 minuter</p></li></ol>",
+    "id": "4.550",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      19.5,
+      16
+    ],
+    "tolerans": [
+      0.06,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°C",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En termometer som visar 7,0 °C tas in i ett växthus som är 38 °C. Efter 4,0 minuter visar den 16 °C. Anta att Newtons lag för uppvärmning gäller.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vad visar termometern efter 6,0 minuter? Svara med en decimal.",
+        "t": "<p>En termometer som visar 7,0 °C tas in i ett växthus som är 38 °C. Efter 4,0 minuter visar den 16 °C. Anta att Newtons lag för uppvärmning gäller.</p><p>Vad visar termometern efter 6,0 minuter? Svara med en decimal.</p>",
+        "s": "<p>\\(T=38-31e^{-kt}\\). Efter 4 min: \\(e^{-4k}=\\dfrac{22}{31}\\).</p><p>Efter 6 min: \\(T=38-31\\left(\\dfrac{22}{31}\\right)^{6/4}\\approx19{,}5\\).</p><p><strong>Svar:</strong> cirka 19,5 °C</p>",
+        "ledtrad": "<p>Bestäm \\(e^{-4k}\\) först. Hur kan du skriva \\(e^{-6k}\\) med hjälp av det?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många minuter visar termometern 30 °C? Avrunda till heltal.",
+        "t": "<p>En termometer som visar 7,0 °C tas in i ett växthus som är 38 °C. Efter 4,0 minuter visar den 16 °C. Anta att Newtons lag för uppvärmning gäller.</p><p>Efter hur många minuter visar termometern 30 °C? Avrunda till heltal.</p>",
+        "s": "<p>\\(e^{-4k}=\\dfrac{22}{31}\\iff k=\\dfrac14\\ln\\dfrac{31}{22}\\). \\(30=38-31e^{-kt}\\iff t=\\dfrac{4\\ln(31/8)}{\\ln(31/22)}\\approx16\\).</p><p><strong>Svar:</strong> cirka 16 minuter</p>",
+        "ledtrad": "<p>Bestäm \\(k\\) och lös \\(T(t)=30\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Lösningen är \\(T=T_{\\text{omg}}-(T_{\\text{omg}}-T_0)e^{-kt}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "stek i ugn",
+    "poang": "0/2/0",
+    "t": "<p>En stek som är 20 °C ställs in i en ugn som är 200 °C. Efter 30 minuter är steken 120 °C. Anta att Newtons lag för uppvärmning gäller.</p><p>Hur varm är steken efter 1 timme? Avrunda till heltal.</p>",
+    "s": "<p>Skillnaden mot ugnen är 180 °C från början och 80 °C efter 30 min, så den multipliceras med \\(\\dfrac{80}{180}=\\dfrac49\\) var 30:e minut.</p><p>Efter 60 min: skillnaden \\(180\\cdot\\left(\\dfrac49\\right)^2\\approx35{,}6\\), så \\(T\\approx200-35{,}6\\approx164\\).</p><p><strong>Svar:</strong> cirka 164 °C</p>",
+    "id": "4.551",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 164,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna med skillnaden mot ugnens temperatur.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "A",
+    "typ": "okänd omgivningstemperatur vid uppvärmning",
+    "poang": "0/0/2",
+    "t": "<p>Stina vill kontrollera sin ugn. När ugnen är varm lägger hon in en ugnstermometer som visar 22 °C. Efter 30 s visar den 43 °C och efter 1,0 min visar den 63 °C. Anta att Newtons lag för uppvärmning gäller.</p><p>Vilken ugnstemperatur ger dessa mätvärden?</p>",
+    "s": "<p>Låt ugnens temperatur vara \\(U\\). Skillnaden mot ugnen multipliceras med samma faktor varje halvminut:</p><p>\\[\\frac{U-43}{U-22}=\\frac{U-63}{U-43}\\iff(U-43)^2=(U-22)(U-63).\\]</p><p>\\(U^2-86U+1\\,849=U^2-85U+1\\,386\\iff U=463\\).</p><p>Det är en orimligt hög ugnstemperatur. Antingen är termometern trög på ett annat sätt än modellen antar, eller så är mätningarna osäkra.</p><p><strong>Svar:</strong> 463 °C</p>",
+    "id": "4.552",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 463,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kalla ugnens temperatur \\(U\\). Temperaturskillnaden mot ugnen ändras med samma faktor varje halvminut.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "°C"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "A",
+    "typ": "uppvärmning följt av avsvalning",
+    "poang": "0/1/2",
+    "t": "<p>Klockan 12.00 läggs en termometer som visar −10 °C i ett rum som är 21 °C. Klockan 12.03 visar den 13 °C, och då flyttas den ut där det är −15 °C. Anta att Newtons lag gäller med samma \\(k\\) hela tiden.</p><p>Vad visar termometern klockan 12.05? Svara med en decimal.</p>",
+    "s": "<p>Inne: skillnaden mot rummet går från 31 °C till 8 °C på 3 min, så \\(e^{-3k}=\\dfrac{8}{31}\\) och \\(e^{-k}=\\left(\\dfrac{8}{31}\\right)^{1/3}\\).</p><p>Ute: skillnaden mot utetemperaturen är 28 °C kl. 12.03. Efter 2 min: \\(28e^{-2k}=28\\left(\\dfrac{8}{31}\\right)^{2/3}\\approx11{,}3\\).</p><p>\\(T\\approx-15+11{,}3=-3{,}7\\).</p><p><strong>Svar:</strong> cirka −3,7 °C</p>",
+    "id": "4.553",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": -3.7,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm \\(e^{-k}\\) ur uppvärmningen inne. Börja sedan om med en ny omgivningstemperatur.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "°C"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "tillväxt med konstant uttag",
+    "poang": "1/2/0",
+    "t": "<p>Antalet mördarsniglar \\(M\\) i en trädgård efter \\(t\\) dygn ökar enligt \\(\\dfrac{\\mathrm{d}M}{\\mathrm{d}t}=0{,}03M\\), med \\(M(0)=175\\).</p><ol type=\"a\"><li>Hur många sniglar finns efter 5 dygn? Avrunda till heltal.</li><li>Trädgårdsägaren tar bort 24 sniglar per dygn, så att \\(\\dfrac{\\mathrm{d}M}{\\mathrm{d}t}=0{,}03M-24\\) med \\(M(0)=175\\). Hur många sniglar finns efter 5 dygn? Avrunda till heltal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(M=175e^{0{,}03t}\\) och \\(M(5)=175e^{0{,}15}\\approx203\\).</p><p><strong>Svar:</strong> cirka 203 sniglar</p></li><li><p>Partikulärlösning: \\(M_p=\\dfrac{24}{0{,}03}=800\\). Allmän lösning: \\(M=800+Ce^{0{,}03t}\\).</p><p>\\(M(0)=175\\Rightarrow C=-625\\), så \\(M=800-625e^{0{,}03t}\\).</p><p>\\(M(5)=800-625e^{0{,}15}\\approx74\\).</p><p><strong>Svar:</strong> cirka 74 sniglar</p></li></ol>",
+    "id": "4.555",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Modellering med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      203,
+      74
+    ],
+    "tolerans": [
+      0.6,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Antalet mördarsniglar \\(M\\) i en trädgård efter \\(t\\) dygn ökar enligt \\(\\dfrac{\\mathrm{d}M}{\\mathrm{d}t}=0{,}03M\\), med \\(M(0)=175\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många sniglar finns efter 5 dygn? Avrunda till heltal.",
+        "t": "<p>Antalet mördarsniglar \\(M\\) i en trädgård efter \\(t\\) dygn ökar enligt \\(\\dfrac{\\mathrm{d}M}{\\mathrm{d}t}=0{,}03M\\), med \\(M(0)=175\\).</p><p>Hur många sniglar finns efter 5 dygn? Avrunda till heltal.</p>",
+        "s": "<p>\\(M=175e^{0{,}03t}\\) och \\(M(5)=175e^{0{,}15}\\approx203\\).</p><p><strong>Svar:</strong> cirka 203 sniglar</p>",
+        "ledtrad": "<p>Lösningen till \\(y^{\\prime}=ky\\) är \\(y=Ce^{kt}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Trädgårdsägaren tar bort 24 sniglar per dygn, så att \\(\\dfrac{\\mathrm{d}M}{\\mathrm{d}t}=0{,}03M-24\\) med \\(M(0)=175\\). Hur många sniglar finns efter 5 dygn? Avrunda till heltal.",
+        "t": "<p>Antalet mördarsniglar \\(M\\) i en trädgård efter \\(t\\) dygn ökar enligt \\(\\dfrac{\\mathrm{d}M}{\\mathrm{d}t}=0{,}03M\\), med \\(M(0)=175\\).</p><p>Trädgårdsägaren tar bort 24 sniglar per dygn, så att \\(\\dfrac{\\mathrm{d}M}{\\mathrm{d}t}=0{,}03M-24\\) med \\(M(0)=175\\). Hur många sniglar finns efter 5 dygn? Avrunda till heltal.</p>",
+        "s": "<p>Partikulärlösning: \\(M_p=\\dfrac{24}{0{,}03}=800\\). Allmän lösning: \\(M=800+Ce^{0{,}03t}\\).</p><p>\\(M(0)=175\\Rightarrow C=-625\\), så \\(M=800-625e^{0{,}03t}\\).</p><p>\\(M(5)=800-625e^{0{,}15}\\approx74\\).</p><p><strong>Svar:</strong> cirka 74 sniglar</p>",
+        "ledtrad": "<p>Lös den inhomogena ekvationen: en konstant partikulärlösning plus lösningen till den homogena.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Utan uttag är tillväxten proportionell mot antalet.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "kol-14-datering med felmarginal",
+    "poang": "1/3/0",
+    "t": "<p>1,00 g kol i levande materia innehåller i genomsnitt \\(6{,}50\\cdot10^{10}\\) kol-14-atomer. När organismen dör avtar antalet med en hastighet som är proportionell mot antalet atomer. Halveringstiden är 5 700 år. I ett ben innehåller 1,00 g kol \\(1{,}80\\cdot10^{10}\\) kol-14-atomer.</p><ol type=\"a\"><li>Hur gammalt är benet? Avrunda till hundratal år.</li><li>Antalet atomer i benet är mätt med en felmarginal på ±10 %. Hur gammalt kan benet som mest vara? Avrunda till hundratal år.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=N_0e^{-kt}\\) med \\(k=\\dfrac{\\ln2}{5\\,700}\\).</p><p>\\(t=\\dfrac{\\ln(6{,}50/1{,}80)}{k}\\approx10\\,600\\) år.</p><p><strong>Svar:</strong> cirka 10 600 år</p></li><li><p>Äldst om antalet är som minst: \\(1{,}80\\cdot0{,}9=1{,}62\\cdot10^{10}\\).</p><p>\\(t=\\dfrac{5\\,700\\ln(6{,}50/1{,}62)}{\\ln2}\\approx11\\,400\\) år. (Det minsta värdet ger 9 780 år. Intervallet är inte symmetriskt kring 10 600 eftersom sambandet inte är linjärt.)</p><p><strong>Svar:</strong> cirka 11 400 år</p></li></ol>",
+    "id": "4.561",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10600,
+      11400
+    ],
+    "tolerans": [
+      50,
+      50
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "år",
+      "år"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>1,00 g kol i levande materia innehåller i genomsnitt \\(6{,}50\\cdot10^{10}\\) kol-14-atomer. När organismen dör avtar antalet med en hastighet som är proportionell mot antalet atomer. Halveringstiden är 5 700 år. I ett ben innehåller 1,00 g kol \\(1{,}80\\cdot10^{10}\\) kol-14-atomer.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur gammalt är benet? Avrunda till hundratal år.",
+        "t": "<p>1,00 g kol i levande materia innehåller i genomsnitt \\(6{,}50\\cdot10^{10}\\) kol-14-atomer. När organismen dör avtar antalet med en hastighet som är proportionell mot antalet atomer. Halveringstiden är 5 700 år. I ett ben innehåller 1,00 g kol \\(1{,}80\\cdot10^{10}\\) kol-14-atomer.</p><p>Hur gammalt är benet? Avrunda till hundratal år.</p>",
+        "s": "<p>\\(N=N_0e^{-kt}\\) med \\(k=\\dfrac{\\ln2}{5\\,700}\\).</p><p>\\(t=\\dfrac{\\ln(6{,}50/1{,}80)}{k}\\approx10\\,600\\) år.</p><p><strong>Svar:</strong> cirka 10 600 år</p>",
+        "ledtrad": "<p>Bestäm \\(k\\) ur halveringstiden.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Antalet atomer i benet är mätt med en felmarginal på ±10 %. Hur gammalt kan benet som mest vara? Avrunda till hundratal år.",
+        "t": "<p>1,00 g kol i levande materia innehåller i genomsnitt \\(6{,}50\\cdot10^{10}\\) kol-14-atomer. När organismen dör avtar antalet med en hastighet som är proportionell mot antalet atomer. Halveringstiden är 5 700 år. I ett ben innehåller 1,00 g kol \\(1{,}80\\cdot10^{10}\\) kol-14-atomer.</p><p>Antalet atomer i benet är mätt med en felmarginal på ±10 %. Hur gammalt kan benet som mest vara? Avrunda till hundratal år.</p>",
+        "s": "<p>Äldst om antalet är som minst: \\(1{,}80\\cdot0{,}9=1{,}62\\cdot10^{10}\\).</p><p>\\(t=\\dfrac{5\\,700\\ln(6{,}50/1{,}62)}{\\ln2}\\approx11\\,400\\) år. (Det minsta värdet ger 9 780 år. Intervallet är inte symmetriskt kring 10 600 eftersom sambandet inte är linjärt.)</p><p><strong>Svar:</strong> cirka 11 400 år</p>",
+        "ledtrad": "<p>Ger ett större eller mindre antal atomer en högre ålder?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Sönderfallet följer \\(N^{\\prime}=-kN\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "E",
+    "typ": "halveringstid och sönderfall",
+    "poang": "2/2/0",
+    "t": "<p>Cesium-137 sönderfaller enligt \\(\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}=-0{,}023y\\), där \\(y\\) är antalet atomkärnor och \\(t\\) är tiden i år.</p><ol type=\"a\"><li>Bestäm halveringstiden. Avrunda till hela år.</li><li>Efter hur många år har 95 % av ämnet sönderfallit? Avrunda till tiotal år.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y=y_0e^{-0{,}023t}\\). \\(\\dfrac12=e^{-0{,}023T}\\iff T=\\dfrac{\\ln2}{0{,}023}\\approx30\\).</p><p><strong>Svar:</strong> cirka 30 år</p></li><li><p>5 % återstår: \\(0{,}05=e^{-0{,}023t}\\iff t=\\dfrac{\\ln20}{0{,}023}\\approx130\\).</p><p><strong>Svar:</strong> cirka 130 år</p></li></ol>",
+    "id": "4.562",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      130
+    ],
+    "tolerans": [
+      0.6,
+      5
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "år",
+      "år"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Cesium-137 sönderfaller enligt \\(\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}=-0{,}023y\\), där \\(y\\) är antalet atomkärnor och \\(t\\) är tiden i år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm halveringstiden. Avrunda till hela år.",
+        "t": "<p>Cesium-137 sönderfaller enligt \\(\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}=-0{,}023y\\), där \\(y\\) är antalet atomkärnor och \\(t\\) är tiden i år.</p><p>Bestäm halveringstiden. Avrunda till hela år.</p>",
+        "s": "<p>\\(y=y_0e^{-0{,}023t}\\). \\(\\dfrac12=e^{-0{,}023T}\\iff T=\\dfrac{\\ln2}{0{,}023}\\approx30\\).</p><p><strong>Svar:</strong> cirka 30 år</p>",
+        "ledtrad": "<p>När är \\(y=\\dfrac{y_0}{2}\\)?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många år har 95 % av ämnet sönderfallit? Avrunda till tiotal år.",
+        "t": "<p>Cesium-137 sönderfaller enligt \\(\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}=-0{,}023y\\), där \\(y\\) är antalet atomkärnor och \\(t\\) är tiden i år.</p><p>Efter hur många år har 95 % av ämnet sönderfallit? Avrunda till tiotal år.</p>",
+        "s": "<p>5 % återstår: \\(0{,}05=e^{-0{,}023t}\\iff t=\\dfrac{\\ln20}{0{,}023}\\approx130\\).</p><p><strong>Svar:</strong> cirka 130 år</p>",
+        "ledtrad": "<p>Hur stor andel finns kvar när 95 % har sönderfallit?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Lösningen till \\(y^{\\prime}=ky\\) är \\(y=y_0e^{kt}\\).</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "räkna bakåt i ett sönderfall",
+    "poang": "0/2/0",
+    "t": "<p>Efter en olycka med giftiga ångor tas ett blodprov 20 timmar senare. Det visar 0,00372 mg/ml gift. Ytterligare 8,0 timmar senare är halten 0,00219 mg/ml. Anta att halten avtar med en hastighet som är proportionell mot halten.</p><p>Vilken halt hade giftet vid olyckan enligt modellen? Svara i mg/ml med tre värdesiffror.</p>",
+    "s": "<p>\\(k=\\dfrac{\\ln(0{,}00372/0{,}00219)}{8{,}0}\\approx0{,}0662\\ \\text{h}^{-1}\\).</p><p>20 h bakåt från första provet: \\(0{,}00372\\cdot e^{20k}\\approx0{,}0140\\) mg/ml.</p><p><strong>Svar:</strong> cirka 0,0140 mg/ml</p>",
+    "id": "4.563",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.014,
+    "tolerans": 6e-05,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm \\(k\\) ur de två proven och räkna sedan bakåt 20 timmar.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "mg/ml"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "E",
+    "typ": "tryckfall i däck",
+    "poang": "1/1/0",
+    "t": "<p>Trycket i ett däck är 2,9 bar när motorcykeln ställs in för vintern och 2,7 bar fyra veckor senare. Anta att trycket avtar med en hastighet som är proportionell mot trycket.</p><p>Vilket tryck har däcket efter totalt 24 veckor? Svara med en decimal.</p>",
+    "s": "<p>Var fjärde vecka multipliceras trycket med \\(\\dfrac{2{,}7}{2{,}9}\\). 24 veckor är sex sådana perioder:</p><p>\\(p=2{,}9\\left(\\dfrac{2{,}7}{2{,}9}\\right)^6\\approx1{,}9\\).</p><p><strong>Svar:</strong> cirka 1,9 bar</p>",
+    "id": "4.564",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.9,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lösningen är \\(p=p_0e^{-kt}\\). Hur många perioder om fyra veckor är 24 veckor?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "bar"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "E",
+    "typ": "sönderfall med promille",
+    "poang": "2/1/0",
+    "t": "<p>Kol-14 sönderfaller med 0,121 ‰ per år av det aktuella antalet atomer. Ett prov innehåller från början \\(5{,}41\\cdot10^{16}\\) kol-14-atomer.</p><ol type=\"a\"><li>Hur många kol-14-atomer finns kvar efter 2 000 år? Svara i grundpotensform med två värdesiffror.</li><li>Bestäm halveringstiden. Avrunda till tiotal år.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y^{\\prime}=-0{,}000121y\\), så \\(y=5{,}41\\cdot10^{16}e^{-0{,}000121t}\\).</p><p>\\(y(2\\,000)=5{,}41\\cdot10^{16}e^{-0{,}242}\\approx4{,}2\\cdot10^{16}\\).</p><p><strong>Svar:</strong> cirka \\(4{,}2\\cdot10^{16}\\)</p></li><li><p>\\(T=\\dfrac{\\ln2}{0{,}000121}\\approx5\\,730\\).</p><p><strong>Svar:</strong> cirka 5 730 år</p></li></ol>",
+    "id": "4.565",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.2e+16,
+      5730
+    ],
+    "tolerans": [
+      600000000000000.0,
+      5
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "år"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Kol-14 sönderfaller med 0,121 ‰ per år av det aktuella antalet atomer. Ett prov innehåller från början \\(5{,}41\\cdot10^{16}\\) kol-14-atomer.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många kol-14-atomer finns kvar efter 2 000 år? Svara i grundpotensform med två värdesiffror.",
+        "t": "<p>Kol-14 sönderfaller med 0,121 ‰ per år av det aktuella antalet atomer. Ett prov innehåller från början \\(5{,}41\\cdot10^{16}\\) kol-14-atomer.</p><p>Hur många kol-14-atomer finns kvar efter 2 000 år? Svara i grundpotensform med två värdesiffror.</p>",
+        "s": "<p>\\(y^{\\prime}=-0{,}000121y\\), så \\(y=5{,}41\\cdot10^{16}e^{-0{,}000121t}\\).</p><p>\\(y(2\\,000)=5{,}41\\cdot10^{16}e^{-0{,}242}\\approx4{,}2\\cdot10^{16}\\).</p><p><strong>Svar:</strong> cirka \\(4{,}2\\cdot10^{16}\\)</p>",
+        "ledtrad": "<p>0,121 ‰ är 0,000121. Ställ upp \\(y^{\\prime}=-ky\\).</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm halveringstiden. Avrunda till tiotal år.",
+        "t": "<p>Kol-14 sönderfaller med 0,121 ‰ per år av det aktuella antalet atomer. Ett prov innehåller från början \\(5{,}41\\cdot10^{16}\\) kol-14-atomer.</p><p>Bestäm halveringstiden. Avrunda till tiotal år.</p>",
+        "s": "<p>\\(T=\\dfrac{\\ln2}{0{,}000121}\\approx5\\,730\\).</p><p><strong>Svar:</strong> cirka 5 730 år</p>",
+        "ledtrad": "<p>När har hälften av atomerna sönderfallit?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Sönderfallshastigheten är proportionell mot antalet atomer.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "C",
+    "typ": "fall med luftmotstånd",
+    "poang": "0/2/0",
+    "t": "<p>En sten med massan 0,060 kg släpps från vila. Luftmotståndet är proportionellt mot hastigheten med konstanten 0,030 kg/s, så att \\(mv^{\\prime}=mg-0{,}030v\\). Använd \\(g=9{,}82\\ \\text{m/s}^2\\).</p><p>Vilken hastighet har stenen efter 1,0 s? Svara med en decimal.</p>",
+    "s": "<p>\\(v^{\\prime}=9{,}82-0{,}5v\\), \\(v(0)=0\\). Gränshastigheten är \\(\\dfrac{9{,}82}{0{,}5}=19{,}64\\) m/s.</p><p>\\(v=19{,}64\\left(1-e^{-0{,}5t}\\right)\\) och \\(v(1{,}0)\\approx7{,}7\\) m/s.</p><p><strong>Svar:</strong> cirka 7,7 m/s</p>",
+    "id": "4.566",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Modellering med differentialekvationer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.7,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela med massan. Lös den inhomogena ekvationen: konstant partikulärlösning plus homogen lösning.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s"
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "A",
+    "typ": "fallskärmshopp i två faser",
+    "poang": "1/2/1",
+    "t": "<p>En fallskärmshoppare väger 75 kg med utrustning och hoppar från vila. Luftmotståndet är proportionellt mot hastigheten, med konstanten 15 kg/s i fritt fall och 120 kg/s med utfälld fallskärm. Fallskärmen fälls ut efter 15,0 s. Använd \\(g=9{,}82\\ \\text{m/s}^2\\).</p><ol type=\"a\"><li>Vilken hastighet har hopparen efter 15 s? Avrunda till heltal.</li><li>Hopparen har hastigheten 46,7 m/s när fallskärmen fälls ut efter 15 s. Vilken hastighet har hen 5,0 s senare? Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(75v^{\\prime}=75g-15v\\iff v^{\\prime}=g-0{,}2v\\).</p><p>\\(v=\\dfrac{g}{0{,}2}\\left(1-e^{-0{,}2t}\\right)=49{,}1\\left(1-e^{-0{,}2t}\\right)\\) och \\(v(15)=49{,}1(1-e^{-3})\\approx47\\) m/s.</p><p><strong>Svar:</strong> cirka 47 m/s</p></li><li><p>Med fallskärm: \\(v^{\\prime}=g-1{,}6v\\). Gränshastigheten är \\(\\dfrac{9{,}82}{1{,}6}\\approx6{,}14\\) m/s.</p><p>\\(v=6{,}14+(46{,}7-6{,}14)e^{-1{,}6T}\\), där \\(T\\) är tiden efter utfällningen. \\(v(5)\\approx6{,}14+40{,}6e^{-8}\\approx6{,}2\\) m/s.</p><p><strong>Svar:</strong> cirka 6,2 m/s</p></li></ol>",
+    "id": "4.567",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Modellering med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      47,
+      6.2
+    ],
+    "tolerans": [
+      0.6,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En fallskärmshoppare väger 75 kg med utrustning och hoppar från vila. Luftmotståndet är proportionellt mot hastigheten, med konstanten 15 kg/s i fritt fall och 120 kg/s med utfälld fallskärm. Fallskärmen fälls ut efter 15,0 s. Använd \\(g=9{,}82\\ \\text{m/s}^2\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken hastighet har hopparen efter 15 s? Avrunda till heltal.",
+        "t": "<p>En fallskärmshoppare väger 75 kg med utrustning och hoppar från vila. Luftmotståndet är proportionellt mot hastigheten, med konstanten 15 kg/s i fritt fall och 120 kg/s med utfälld fallskärm. Fallskärmen fälls ut efter 15,0 s. Använd \\(g=9{,}82\\ \\text{m/s}^2\\).</p><p>Vilken hastighet har hopparen efter 15 s? Avrunda till heltal.</p>",
+        "s": "<p>\\(75v^{\\prime}=75g-15v\\iff v^{\\prime}=g-0{,}2v\\).</p><p>\\(v=\\dfrac{g}{0{,}2}\\left(1-e^{-0{,}2t}\\right)=49{,}1\\left(1-e^{-0{,}2t}\\right)\\) och \\(v(15)=49{,}1(1-e^{-3})\\approx47\\) m/s.</p><p><strong>Svar:</strong> cirka 47 m/s</p>",
+        "ledtrad": "<p>Ställ upp Newtons andra lag och dela med massan.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hopparen har hastigheten 46,7 m/s när fallskärmen fälls ut efter 15 s. Vilken hastighet har hen 5,0 s senare? Svara med en decimal.",
+        "t": "<p>En fallskärmshoppare väger 75 kg med utrustning och hoppar från vila. Luftmotståndet är proportionellt mot hastigheten, med konstanten 15 kg/s i fritt fall och 120 kg/s med utfälld fallskärm. Fallskärmen fälls ut efter 15,0 s. Använd \\(g=9{,}82\\ \\text{m/s}^2\\).</p><p>Hopparen har hastigheten 46,7 m/s när fallskärmen fälls ut efter 15 s. Vilken hastighet har hen 5,0 s senare? Svara med en decimal.</p>",
+        "s": "<p>Med fallskärm: \\(v^{\\prime}=g-1{,}6v\\). Gränshastigheten är \\(\\dfrac{9{,}82}{1{,}6}\\approx6{,}14\\) m/s.</p><p>\\(v=6{,}14+(46{,}7-6{,}14)e^{-1{,}6T}\\), där \\(T\\) är tiden efter utfällningen. \\(v(5)\\approx6{,}14+40{,}6e^{-8}\\approx6{,}2\\) m/s.</p><p><strong>Svar:</strong> cirka 6,2 m/s</p>",
+        "ledtrad": "<p>Ställ upp en ny differentialekvation med det nya luftmotståndet och starthastigheten 46,7 m/s.</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Använd \\(mv^{\\prime}=mg-kv\\).</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 4,
+    "omr": "forandringsmodeller",
+    "niva": "A",
+    "typ": "kast uppåt med luftmotstånd",
+    "poang": "0/3/2",
+    "t": "<p>En pil med massan 60 g skjuts rakt upp med hastigheten 49 m/s. Luftmotståndet är proportionellt mot hastigheten med konstanten 0,0024 kg/s. Välj positiv riktning uppåt och använd \\(g=9{,}82\\ \\text{m/s}^2\\).</p><ol type=\"a\"><li>Efter hur många sekunder vänder pilen? Svara med två decimaler.</li><li>Hur högt kommer pilen? Avrunda till hela meter.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}060v^{\\prime}=-0{,}060g-0{,}0024v\\iff v^{\\prime}=-g-0{,}04v\\).</p><p>\\(v=-245{,}5+294{,}5e^{-0{,}04t}\\), eftersom \\(\\dfrac{g}{0{,}04}=245{,}5\\) och \\(v(0)=49\\).</p><p>\\(v=0\\iff t=\\dfrac{\\ln(294{,}5/245{,}5)}{0{,}04}\\approx4{,}55\\).</p><p><strong>Svar:</strong> cirka 4,55 s</p></li><li><p>\\(v=-245{,}5+294{,}5e^{-0{,}04t}\\) och pilen vänder vid \\(t\\approx4{,}55\\) s.</p><p>\\(h=\\displaystyle\\int_0^{4{,}55}v\\,\\mathrm{d}t=-245{,}5\\cdot4{,}55+\\frac{294{,}5}{0{,}04}\\left(1-e^{-0{,}04\\cdot4{,}55}\\right)\\approx108\\) m.</p><p>Utan luftmotstånd hade den nått cirka 122 m.</p><p><strong>Svar:</strong> cirka 108 m</p></li></ol>",
+    "id": "4.568",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Modellering med differentialekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.55,
+      108
+    ],
+    "tolerans": [
+      0.006,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En pil med massan 60 g skjuts rakt upp med hastigheten 49 m/s. Luftmotståndet är proportionellt mot hastigheten med konstanten 0,0024 kg/s. Välj positiv riktning uppåt och använd \\(g=9{,}82\\ \\text{m/s}^2\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Efter hur många sekunder vänder pilen? Svara med två decimaler.",
+        "t": "<p>En pil med massan 60 g skjuts rakt upp med hastigheten 49 m/s. Luftmotståndet är proportionellt mot hastigheten med konstanten 0,0024 kg/s. Välj positiv riktning uppåt och använd \\(g=9{,}82\\ \\text{m/s}^2\\).</p><p>Efter hur många sekunder vänder pilen? Svara med två decimaler.</p>",
+        "s": "<p>\\(0{,}060v^{\\prime}=-0{,}060g-0{,}0024v\\iff v^{\\prime}=-g-0{,}04v\\).</p><p>\\(v=-245{,}5+294{,}5e^{-0{,}04t}\\), eftersom \\(\\dfrac{g}{0{,}04}=245{,}5\\) och \\(v(0)=49\\).</p><p>\\(v=0\\iff t=\\dfrac{\\ln(294{,}5/245{,}5)}{0{,}04}\\approx4{,}55\\).</p><p><strong>Svar:</strong> cirka 4,55 s</p>",
+        "ledtrad": "<p>Både tyngdkraften och luftmotståndet bromsar pilen på vägen upp.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt kommer pilen? Avrunda till hela meter.",
+        "t": "<p>En pil med massan 60 g skjuts rakt upp med hastigheten 49 m/s. Luftmotståndet är proportionellt mot hastigheten med konstanten 0,0024 kg/s. Välj positiv riktning uppåt och använd \\(g=9{,}82\\ \\text{m/s}^2\\).</p><p>Hur högt kommer pilen? Avrunda till hela meter.</p>",
+        "s": "<p>\\(v=-245{,}5+294{,}5e^{-0{,}04t}\\) och pilen vänder vid \\(t\\approx4{,}55\\) s.</p><p>\\(h=\\displaystyle\\int_0^{4{,}55}v\\,\\mathrm{d}t=-245{,}5\\cdot4{,}55+\\frac{294{,}5}{0{,}04}\\left(1-e^{-0{,}04\\cdot4{,}55}\\right)\\approx108\\) m.</p><p>Utan luftmotstånd hade den nått cirka 122 m.</p><p><strong>Svar:</strong> cirka 108 m</p>",
+        "ledtrad": "<p>Höjden är integralen av hastigheten från start till vändpunkten.</p>",
+        "niva": "A",
+        "poang": "0/1/2",
+        "traningsniva": 5
+      }
+    ],
+    "ledtrad": "<p>Använd \\(mv^{\\prime}=-mg-kv\\) på vägen upp.</p>",
+    "traningsniva": 5
   }
 ];

@@ -62729,6 +62729,45 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "2.548",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En rektangulär hage byggs mot en lång vägg med 60 m staket på de tre andra sidorna. De två sidor som går ut från väggen är \\(x\\) m långa.</p><p>Hagens area är \\(A(x)=x(60-2x)\\).</p><p>Bestäm funktionens definitionsmängd och värdemängd i detta sammanhang. Ange det största \\(x\\) som definitionsmängden närmar sig och den största arean. Bestäm arean grafiskt eller med en tabell.</p>",
+    "s": "<p>Sidorna måste ha positiv längd: \\(x&gt;0\\) och \\(60-2x&gt;0\\). Det ger \\(x&lt;30\\), så definitionsmängden är \\(0&lt;x&lt;30\\).</p><p>En värdetabell eller graf visar att arean är störst mitt mellan nollställena 0 och 30, alltså vid \\(x=15\\):</p><p>\\[A(15)=15\\cdot30=450\\text{ m}^2.\\]</p><p>Arean kan vara hur liten som helst men aldrig 0, så värdemängden är \\(0&lt;A\\le450\\).</p><p><strong>Svar:</strong> definitionsmängd \\(0&lt;x&lt;30\\), värdemängd \\(0&lt;A\\le450\\)</p>",
+    "familj": "Definitionsmängd i sammanhang",
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilka villkor måste \\(x\\) och \\(60-2x\\) uppfylla för att vara sidor i en hage? Gör en tabell för \\(x=5, 10, 15, 20, 25\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      450
+    ],
+    "tolerans": [
+      0,
+      0.5
+    ],
+    "svarEtiketter": [
+      "Övre gräns för x",
+      "Största area"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.514",
     "kap": 2,
     "omr": "funktionsbegreppet",
@@ -63119,6 +63158,36 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "2.547",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Två bakteriekulturer odlas. Kultur A har 500 bakterier från början och fördubblas var tredje timme. Kultur B har 4 000 bakterier från början och ökar med 20 % per timme.</p><p>Efter hur lång tid har kulturerna lika många bakterier? Lös grafiskt eller med prövning och svara i timmar med en decimal.</p>",
+    "s": "<p>Kultur A ökar med faktorn \\(2^{1/3}\\approx1{,}26\\) per timme, alltså cirka 26 % per timme. Den ökar snabbare än B och kommer därför ikapp.</p><p>\\[A(t)=500\\cdot2^{t/3},\\qquad B(t)=4000\\cdot1{,}2^t.\\]</p><p>Rita båda graferna och bestäm skärningspunkten, eller pröva:</p><ul><li>\\(t=40\\): \\(A\\approx5{,}2\\cdot10^6\\), \\(B\\approx5{,}9\\cdot10^6\\). B är fortfarande större.</li><li>\\(t=43\\): \\(A\\approx10{,}3\\cdot10^6\\), \\(B\\approx10{,}2\\cdot10^6\\). A har gått förbi.</li></ul><p>Finare prövning ger skärningen vid \\(t\\approx42{,}7\\) h.</p><p><strong>Svar:</strong> efter cirka 42,7 timmar</p>",
+    "familj": "Bestämma och använda exponentialfunktioner",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv en exponentialfunktion för varje kultur. Hur stor är A:s förändringsfaktor per timme om den fördubblas på 3 timmar?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42.7,
+    "tolerans": 0.2,
+    "svarEnhet": "h"
+  },
+  {
     "id": "2.526",
     "kap": 2,
     "omr": "potensfunktioner",
@@ -63285,6 +63354,71 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
+  },
+  {
+    "id": "2.545",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bromssträckan för en bil är proportionell mot kvadraten på hastigheten: \\(s=k\\cdot v^2\\). Vid 50 km/h är bromssträckan 14 m.</p><p>Vid vilken hastighet blir bromssträckan dubbelt så lång? Svara i km/h med en decimal.</p>",
+    "s": "<p>Dubbel bromssträcka: \\(k\\cdot v^2=2\\cdot k\\cdot50^2\\), alltså \\(v^2=2\\cdot50^2\\).</p><p>\\[v=50\\sqrt2\\approx70{,}7\\text{ km/h}.\\]</p><p>Man behöver alltså inte veta \\(k\\). En ökning från 50 till drygt 70 km/h, alltså cirka 41 %, fördubblar bromssträckan. Vid 100 km/h blir den fyra gånger så lång.</p><p><strong>Svar:</strong> cirka 70,7 km/h</p>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ställ upp \\(s\\) för båda hastigheterna och dela uttrycken med varandra. Konstanten \\(k\\) försvinner.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 70.7,
+    "tolerans": 0.1,
+    "svarEnhet": "km/h"
+  },
+  {
+    "id": "2.546",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I sagan om Gulliver är invånarna i Lilliput \\(\\frac1{12}\\) så långa som Gulliver i alla riktningar.</p><p><strong>a)</strong> Anta att matbehovet är proportionellt mot kroppens volym. Hur många lilliputportioner behöver Gulliver per dag?</p><p><strong>b)</strong> Biologer menar att värmeförlusten, och därmed matbehovet, snarare beror på kroppens yta. Hur många portioner blir det då?</p>",
+    "s": "<p>Längdskalan är 12 från lilliputian till Gulliver.</p><p><strong>a)</strong> Volymen skalas med \\(12^3=1728\\). I boken får Gulliver just 1 728 portioner.</p><p><strong>b)</strong> Arean skalas med \\(12^2=144\\), så det blir 144 portioner.</p><p>Valet av modell ändrar svaret mer än tio gånger. Därför måste man fundera på vad matbehovet egentligen beror på.</p><p><strong>Svar:</strong> a) 1 728 portioner &nbsp; b) 144 portioner</p>",
+    "familj": "Skalning med potensfunktioner",
+    "formaga": [
+      "modellering",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Om alla längder blir 12 gånger större, hur många gånger större blir då en area och en volym?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1728,
+      144
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a) Volym",
+      "b) Yta"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.532",
@@ -74910,6 +75044,34 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "3.540",
+    "kap": 3,
+    "omr": "potensregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm \\(x\\) så att</p><p>\\[2^x+2^x+2^x+2^x=2^{20}.\\]</p>",
+    "s": "<p>Vänster led är fyra likadana termer: \\(4\\cdot2^x\\).</p><p>\\(4=2^2\\), så \\(4\\cdot2^x=2^2\\cdot2^x=2^{x+2}\\).</p><p>\\[2^{x+2}=2^{20}\\;\\Leftrightarrow\\;x+2=20\\;\\Leftrightarrow\\;x=18.\\]</p><p>Fällan är att tro att \\(2^x+2^x+2^x+2^x=2^{4x}\\) eller \\(8^x\\). Addition av potenser följer inte potenslagarna.</p><p><strong>Svar:</strong> \\(x=18\\)</p>",
+    "familj": "Använda potensregler",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv summan som en produkt. Kan 4 skrivas som en potens av 2?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null
+  },
+  {
     "id": "3.426",
     "kap": 3,
     "omr": "potensekvationer",
@@ -75364,6 +75526,80 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Lösa och analysera potensekvationer"
     ]
+  },
+  {
+    "id": "3.537",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Mängden av ett radioaktivt ämne i ett prov har minskat till 30 % av ursprungsmängden på 20 år. Minskningen sker med samma procent varje år.</p><p><strong>a)</strong> Med hur många procent minskar mängden per år? Svara med två decimaler.</p><p><strong>b)</strong> Hur lång är halveringstiden, alltså tiden tills hälften finns kvar? Svara i år med en decimal.</p>",
+    "s": "<p><strong>a)</strong> Förändringsfaktorn \\(x\\) per år uppfyller \\(x^{20}=0{,}30\\):</p><p>\\[x=0{,}30^{1/20}\\approx0{,}94158.\\]</p><p>Minskningen är \\(1-0{,}94158\\approx0{,}0584\\), alltså cirka 5,84 % per år.</p><p><strong>b)</strong> Sök \\(t\\) så att \\(0{,}94158^t=0{,}5\\). Prövning eller graf ger \\(t\\approx11{,}5\\) år.</p><p>Rimlighet: efter två halveringstider (23 år) är 25 % kvar. Efter 20 år borde alltså lite mer än 25 % finnas kvar, och 30 % stämmer med det.</p><p><strong>Svar:</strong> a) cirka 5,84 % per år &nbsp; b) cirka 11,5 år</p>",
+    "familj": "Potensekvationer i tillämpningar",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ställ upp \\(x^{20}=0{,}30\\) och lös potensekvationen. I b söker du exponenten i stället för basen.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.84,
+      11.5
+    ],
+    "tolerans": [
+      0.01,
+      0.1
+    ],
+    "svarEtiketter": [
+      "a) Procent per år",
+      "b) Halveringstid"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "3.538",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(3x^4=243\\). Ange alla reella lösningar.</p>",
+    "s": "<p>Dela med 3: \\(x^4=81\\).</p><p>\\(3^4=81\\) och \\((-3)^4=81\\). Eftersom exponenten är jämn finns två reella lösningar.</p><p><strong>Svar:</strong> \\(x=3\\) eller \\(x=-3\\)</p>",
+    "familj": "Lösa potensekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Isolera \\(x^4\\). Glöm inte den negativa lösningen när exponenten är jämn.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      3
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "3.440",
@@ -75844,6 +76080,36 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra procent, procentenheter och procentuell skillnad"
     ]
+  },
+  {
+    "id": "3.541",
+    "kap": 3,
+    "omr": "procent",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En butik erbjuder två kampanjer på samma vara:</p><ul><li>Kampanj 1: först 20 % rabatt och sedan ytterligare 25 % rabatt på det nya priset.</li><li>Kampanj 2: 45 % rabatt direkt.</li></ul><p>Hur många procent dyrare blir varan med kampanj 1 än med kampanj 2? Svara med en decimal.</p>",
+    "s": "<p>Kampanj 1: förändringsfaktorn är \\(0{,}80\\cdot0{,}75=0{,}60\\), alltså 40 % rabatt totalt, inte 45 %.</p><p>Kampanj 2: förändringsfaktorn är \\(0{,}55\\).</p><p>Jämförelse: \\(\\frac{0{,}60}{0{,}55}\\approx1{,}091\\), så kampanj 1 är cirka 9,1 % dyrare.</p><p>Skillnaden är 5 procentenheter av ursprungspriset, men 9,1 % räknat från kampanj 2:s pris.</p><p><strong>Svar:</strong> cirka 9,1 % dyrare</p>",
+    "familj": "Procentuell ökning och minskning",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna med förändringsfaktorer. Vilket pris ska du jämföra med när du räknar ”hur många procent dyrare”?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.1,
+    "tolerans": 0.1,
+    "svarEnhet": "%"
   },
   {
     "id": "3.455",
@@ -76342,6 +76608,64 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "3.535",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Konsumentprisindex (KPI) var 106,5 år 2020 och 125,6 år 2023. En persons månadslön var 32 000 kr år 2020 och 35 500 kr år 2023.</p><p>Med hur många procent har reallönen förändrats? Svara med en decimal, och med minustecken om den har minskat.</p>",
+    "s": "<p>Lönen har ökat med faktorn \\(\\frac{35\\,500}{32\\,000}\\approx1{,}1094\\), alltså cirka 10,9 %.</p><p>Priserna har ökat med faktorn \\(\\frac{125{,}6}{106{,}5}\\approx1{,}1793\\), alltså cirka 17,9 %.</p><p>Reallönen, alltså vad lönen räcker till, har förändrats med faktorn</p><p>\\[\\frac{1{,}1094}{1{,}1793}\\approx0{,}941,\\]</p><p>alltså en minskning med cirka 5,9 %.</p><p>Det är fel att bara subtrahera 10,9 % − 17,9 % \\(=-7{,}0\\) %. Förändringsfaktorerna ska divideras.</p><p><strong>Svar:</strong> cirka \\(-5{,}9\\) %</p>",
+    "familj": "Procentuell förändring av index",
+    "formaga": [
+      "problemlösning",
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna förändringsfaktorn för lönen och för KPI. Vad betyder det att lönen ”räcker till” mindre?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5.9,
+    "tolerans": 0.1,
+    "svarEnhet": "%"
+  },
+  {
+    "id": "3.536",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ett prisindex för en varugrupp har basåret 2010 (index 100). År 2024 är indexet 138.</p><p>En vara i gruppen kostade 45 kr år 2010 och har följt indexet. Vad kostar den år 2024?</p>",
+    "s": "<p>Index 138 betyder att priserna är \\(\\frac{138}{100}=1{,}38\\) gånger så höga som basåret.</p><p>\\(45\\cdot1{,}38=62{,}10\\) kr.</p><p><strong>Svar:</strong> 62,10 kr</p>",
+    "familj": "Tolka och beräkna index",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många gånger högre än basårets priser är priserna när indexet är 138?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 62.1,
+    "tolerans": 0.01,
+    "svarEnhet": "kr"
+  },
+  {
     "id": "3.471",
     "kap": 3,
     "omr": "forandringsfaktor",
@@ -76692,6 +77016,36 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Bestämma och använda förändringsfaktor"
     ]
+  },
+  {
+    "id": "3.543",
+    "kap": 3,
+    "omr": "forandringsfaktor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett pris höjs först med \\(p\\) procent. Sedan sänks det nya priset med lika många procent. Slutpriset blir 4 % lägre än det ursprungliga priset.</p><p>Bestäm \\(p\\).</p>",
+    "s": "<p>Med \\(x=\\frac{p}{100}\\) blir förändringsfaktorerna \\(1+x\\) och \\(1-x\\). Den totala förändringsfaktorn är 0,96:</p><p>\\[(1+x)(1-x)=0{,}96\\;\\Leftrightarrow\\;1-x^2=0{,}96\\;\\Leftrightarrow\\;x^2=0{,}04.\\]</p><p>\\(x=0{,}2\\), eftersom \\(x\\) är positivt. Alltså \\(p=20\\).</p><p>Kontroll: \\(1{,}20\\cdot0{,}80=0{,}96\\).</p><p><strong>Svar:</strong> \\(p=20\\)</p>",
+    "familj": "Räkna med förändringsfaktor",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv båda förändringarna som förändringsfaktorer och multiplicera dem.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "svarEnhet": "%"
   },
   {
     "id": "3.482",
@@ -77704,6 +78058,35 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "3.544",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En fond ökade med 50 % ett år och minskade med 50 % året därpå. Någon säger att fonden ”i genomsnitt har gått med 0 % per år”.</p><p>Beräkna den verkliga genomsnittliga procentuella förändringen per år. Svara med en decimal.</p>",
+    "s": "<p>Den totala förändringsfaktorn är \\(1{,}5\\cdot0{,}5=0{,}75\\). Fonden har alltså minskat med 25 % på två år.</p><p>Den genomsnittliga förändringsfaktorn \\(x\\) per år uppfyller \\(x^2=0{,}75\\):</p><p>\\[x=\\sqrt{0{,}75}\\approx0{,}866.\\]</p><p>Det motsvarar en minskning med cirka 13,4 % per år.</p><p>Felet i påståendet är att procentsatserna adderas. Förändringsfaktorerna ska multipliceras.</p><p><strong>Svar:</strong> cirka \\(-13{,}4\\) % per år</p>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna den totala förändringsfaktorn för båda åren. Vilken lika stor faktor per år ger samma resultat?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": -13.4,
+    "tolerans": 0.1,
+    "svarEnhet": "%"
+  },
+  {
     "id": "3.514",
     "kap": 3,
     "omr": "ranta",
@@ -78098,6 +78481,35 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "3.542",
+    "kap": 3,
+    "omr": "ranta",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Du sätter in 50 000 kr i 5 år.</p><ul><li>Bank A ger 3,6 % ränta per år, med ränta på ränta en gång per år.</li><li>Bank B ger 0,3 % ränta per månad, med ränta på ränta varje månad.</li></ul><p>Hur många kronor mer får du i den bättre banken efter 5 år? Avrunda till hela kronor.</p>",
+    "s": "<p>Bank A: \\(50\\,000\\cdot1{,}036^5\\approx59\\,672\\) kr.</p><p>Bank B: 5 år är 60 månader: \\(50\\,000\\cdot1{,}003^{60}\\approx59\\,845\\) kr.</p><p>Bank B ger cirka 173 kr mer.</p><p>Båda räntorna motsvarar 3,6 % ”per år” räknat enkelt, men i bank B växer räntan på ränta varje månad. Därför blir den effektiva årsräntan \\(1{,}003^{12}-1\\approx3{,}66\\) %.</p><p><strong>Svar:</strong> bank B ger cirka 173 kr mer</p>",
+    "familj": "Jämföra sparformer",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna ut slutbeloppet i båda bankerna. Hur många månader är 5 år?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 173,
+    "tolerans": 2,
+    "svarEnhet": "kr"
+  },
+  {
     "id": "3.527",
     "kap": 3,
     "omr": "amortering",
@@ -78352,6 +78764,35 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
     ]
+  },
+  {
+    "id": "3.539",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett lån på 120 000 kr amorteras med lika stora belopp en gång per år i 10 år. Räntan är 4 % per år och betalas på den skuld som finns kvar under året.</p><p>Hur mycket betalar låntagaren totalt i ränta?</p>",
+    "s": "<p>Amorteringen är \\(\\frac{120\\,000}{10}=12\\,000\\) kr per år. Skulden under år 1, 2, …, 10 är 120 000, 108 000, …, 12 000 kr.</p><p>Räntan år \\(k\\) är 4 % av skulden. Summan av skulderna är</p><p>\\[12\\,000\\cdot(10+9+\\dots+1)=12\\,000\\cdot55=660\\,000\\text{ kr}.\\]</p><p>Total ränta: \\(0{,}04\\cdot660\\,000=26\\,400\\) kr.</p><p>Kontroll: första årets ränta är 4 800 kr och sista årets 480 kr. Medelvärdet 2 640 kr gånger 10 år blir 26 400 kr.</p><p><strong>Svar:</strong> 26 400 kr</p>",
+    "familj": "Räntekostnad vid amortering",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör en tabell med skulden och räntan för varje år. Räntan minskar lika mycket varje år.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 26400,
+    "tolerans": 1,
+    "svarEnhet": "kr"
   },
   {
     "id": "4.01",
@@ -112101,6 +112542,36 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Digital grafanalys"
     ]
+  },
+  {
+    "id": "2.549",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Två taxibolag tar betalt enligt tabellerna. Priset är linjärt mot sträckan för båda bolagen.</p><table class=\"data\"><tr><th>Bolag A: sträcka (km)</th><td>2</td><td>5</td><td>9</td></tr><tr><th>Pris (kr)</th><td>118</td><td>172</td><td>244</td></tr></table><table class=\"data\"><tr><th>Bolag B: sträcka (km)</th><td>4</td><td>10</td></tr><tr><th>Pris (kr)</th><td>160</td><td>235</td></tr></table><p>För vilken sträcka kostar bolagen lika mycket? Svara i km med en decimal.</p>",
+    "s": "<p>Bolag A: \\(k=\\frac{172-118}{5-2}=18\\) kr/km. \\(118=18\\cdot2+m\\) ger \\(m=82\\). Alltså \\(y=18x+82\\). Kontroll: \\(18\\cdot9+82=244\\).</p><p>Bolag B: \\(k=\\frac{235-160}{10-4}=12{,}5\\) kr/km. \\(160=12{,}5\\cdot4+m\\) ger \\(m=110\\). Alltså \\(y=12{,}5x+110\\).</p><p>Lika pris: \\(18x+82=12{,}5x+110\\Leftrightarrow5{,}5x=28\\Leftrightarrow x\\approx5{,}1\\) km.</p><p>För kortare resor är A billigast (lägre startavgift). För längre resor är B billigast (lägre pris per km).</p><p><strong>Svar:</strong> cirka 5,1 km</p>",
+    "familj": "Från tabell till formel",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm en formel för varje bolag: lutningen är priset per km och \\(m\\) är startavgiften.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.090909090909091,
+    "tolerans": 0.05,
+    "svarEnhet": "km"
   },
   {
     "id": "6.83",

@@ -10219,6 +10219,313 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
+    "omr": "talbaser",
+    "niva": "E",
+    "typ": "binärt och decimalt",
+    "poang": "3/0/0",
+    "t": "<p>Omvandla mellan bas 2 och bas 10.</p><ol type=\"a\"><li>Skriv \\(10111_{\\text{två}}\\) i bas tio.</li><li>Skriv \\(110010_{\\text{två}}\\) i bas tio.</li><li>Skriv 117 i bas två.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(16+0+4+2+1=23\\).</p><p><strong>Svar:</strong> 23</p></li><li><p>\\(32+16+2=50\\).</p><p><strong>Svar:</strong> 50</p></li><li><p>\\(117=64+32+16+4+1=1110101_{\\text{två}}\\).</p><p><strong>Svar:</strong> 1110101</p></li></ol>",
+    "id": "2.689",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talbaser och basomvandling",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      23,
+      50,
+      "1110101"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "kort_text"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Omvandla mellan bas 2 och bas 10.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Skriv \\(10111_{\\text{två}}\\) i bas tio.",
+        "t": "<p>Omvandla mellan bas 2 och bas 10.</p><p>Skriv \\(10111_{\\text{två}}\\) i bas tio.</p>",
+        "s": "<p>\\(16+0+4+2+1=23\\).</p><p><strong>Svar:</strong> 23</p>",
+        "ledtrad": "<p>Positionerna har värdena 16, 8, 4, 2 och 1.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Skriv \\(110010_{\\text{två}}\\) i bas tio.",
+        "t": "<p>Omvandla mellan bas 2 och bas 10.</p><p>Skriv \\(110010_{\\text{två}}\\) i bas tio.</p>",
+        "s": "<p>\\(32+16+2=50\\).</p><p><strong>Svar:</strong> 50</p>",
+        "ledtrad": "<p>Summera positionsvärdena för ettorna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv 117 i bas två.",
+        "t": "<p>Omvandla mellan bas 2 och bas 10.</p><p>Skriv 117 i bas två.</p>",
+        "s": "<p>\\(117=64+32+16+4+1=1110101_{\\text{två}}\\).</p><p><strong>Svar:</strong> 1110101</p>",
+        "ledtrad": "<p>Dra av den största tvåpotensen som ryms, och upprepa.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Varje position i bas två är värd en tvåpotens.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "C",
+    "typ": "oktalt och hexadecimalt",
+    "poang": "3/1/0",
+    "t": "<p>Omvandla mellan baserna.</p><ol type=\"a\"><li>Skriv \\(3217_{\\text{åtta}}\\) i bas tio.</li><li>Skriv 230 i bas åtta.</li><li>Skriv \\(\\text{2AB}_{\\text{sexton}}\\) i bas tio.</li><li>Skriv 44 252 i bas sexton.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(3\\cdot512+2\\cdot64+1\\cdot8+7=1\\,679\\).</p><p><strong>Svar:</strong> 1 679</p></li><li><p>\\(230=3\\cdot64+4\\cdot8+6\\), alltså \\(346_{\\text{åtta}}\\).</p><p><strong>Svar:</strong> 346</p></li><li><p>A = 10 och B = 11: \\(2\\cdot256+10\\cdot16+11=683\\).</p><p><strong>Svar:</strong> 683</p></li><li><p>\\(44\\,252=10\\cdot4\\,096+12\\cdot256+13\\cdot16+12\\). Siffrorna 10, 12, 13, 12 skrivs A, C, D, C: \\(\\text{ACDC}_{\\text{sexton}}\\).</p><p><strong>Svar:</strong> ACDC</p></li></ol>",
+    "id": "2.690",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talbaser och basomvandling",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1679,
+      "346",
+      683,
+      "ACDC"
+    ],
+    "tolerans": [
+      0,
+      null,
+      0,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "kort_text",
+      "numeriskt",
+      "kort_text"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Omvandla mellan baserna.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Skriv \\(3217_{\\text{åtta}}\\) i bas tio.",
+        "t": "<p>Omvandla mellan baserna.</p><p>Skriv \\(3217_{\\text{åtta}}\\) i bas tio.</p>",
+        "s": "<p>\\(3\\cdot512+2\\cdot64+1\\cdot8+7=1\\,679\\).</p><p><strong>Svar:</strong> 1 679</p>",
+        "ledtrad": "<p>Positionerna är värda 512, 64, 8 och 1.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Skriv 230 i bas åtta.",
+        "t": "<p>Omvandla mellan baserna.</p><p>Skriv 230 i bas åtta.</p>",
+        "s": "<p>\\(230=3\\cdot64+4\\cdot8+6\\), alltså \\(346_{\\text{åtta}}\\).</p><p><strong>Svar:</strong> 346</p>",
+        "ledtrad": "<p>Hur många 64:or och 8:or ryms i 230?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv \\(\\text{2AB}_{\\text{sexton}}\\) i bas tio.",
+        "t": "<p>Omvandla mellan baserna.</p><p>Skriv \\(\\text{2AB}_{\\text{sexton}}\\) i bas tio.</p>",
+        "s": "<p>A = 10 och B = 11: \\(2\\cdot256+10\\cdot16+11=683\\).</p><p><strong>Svar:</strong> 683</p>",
+        "ledtrad": "<p>A står för 10 och B för 11.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Skriv 44 252 i bas sexton.",
+        "t": "<p>Omvandla mellan baserna.</p><p>Skriv 44 252 i bas sexton.</p>",
+        "s": "<p>\\(44\\,252=10\\cdot4\\,096+12\\cdot256+13\\cdot16+12\\). Siffrorna 10, 12, 13, 12 skrivs A, C, D, C: \\(\\text{ACDC}_{\\text{sexton}}\\).</p><p><strong>Svar:</strong> ACDC</p>",
+        "ledtrad": "<p>Dividera upprepat med 16 och skriv resterna 10–15 som bokstäverna A–F.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Varje position är värd en potens av basen.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "C",
+    "typ": "bestämma bas",
+    "poang": "0/1/0",
+    "t": "<p>Bestäm basen \\(x\\) så att \\(43_x=120_{\\text{fem}}\\).</p>",
+    "s": "<p>\\(120_{\\text{fem}}=25+10=35\\). \\(4x+3=35\\iff x=8\\).</p><p><strong>Svar:</strong> \\(x=8\\)</p>",
+    "id": "2.691",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talbaser och basomvandling",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv båda talen i bas tio.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "C",
+    "typ": "bestämma bas ur ekvation",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm basen \\(x\\) så att \\(245_x+162_x-427_x=0\\).</p>",
+    "s": "<p>\\((2x^2+4x+5)+(x^2+6x+2)-(4x^2+2x+7)=-x^2+8x=0\\iff x=0\\) eller \\(x=8\\).</p><p>Basen måste vara större än den största siffran 7, så \\(x=8\\).</p><p><strong>Svar:</strong> \\(x=8\\)</p>",
+    "id": "2.692",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talbaser och basomvandling",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv varje tal som ett polynom i \\(x\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "C",
+    "typ": "minsta bas för tvåsiffrigt tal",
+    "poang": "0/2/0",
+    "t": "<p>Vilket är det minsta heltal \\(b\\) sådant att 47 kan skrivas med bara två siffror i bas \\(b\\)?</p>",
+    "s": "<p>Det största tvåsiffriga talet i bas \\(b\\) är \\(b^2-1\\). \\(b^2-1\\ge47\\iff b\\ge7\\). I bas 7 är \\(47=6\\cdot7+5=65_{\\text{sju}}\\).</p><p><strong>Svar:</strong> \\(b=7\\)</p>",
+    "id": "2.693",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talbaser och basomvandling",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilket är det största talet med två siffror i bas \\(b\\)?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "A",
+    "typ": "samma tal i två baser",
+    "poang": "0/1/2",
+    "t": "<p>Talet \\(47\\) i bas \\(a\\) är lika stort som talet \\(74\\) i bas \\(b\\). Vilket är det minsta möjliga värdet på \\(a+b\\)?</p>",
+    "s": "<p>Siffran 7 kräver att båda baserna är minst 8. \\(4a+7=7b+4\\iff4(a-1)=7(b-1)\\).</p><p>Alltså \\(a-1=7m\\) och \\(b-1=4m\\). \\(b\\ge8\\) kräver \\(m\\ge2\\), vilket ger \\(a=15\\) och \\(b=9\\).</p><p>Kontroll: \\(4\\cdot15+7=67=7\\cdot9+4\\).</p><p><strong>Svar:</strong> 24</p>",
+    "id": "2.694",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talbaser och basomvandling",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp ekvationen i bas tio. Tänk på att siffran 7 måste finnas i båda baserna.</p>",
+    "traningsniva": 5
+  },
+  {
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "C",
+    "typ": "tal och siffersumma",
+    "poang": "0/2/0",
+    "t": "<p>Ett tvåsiffrigt tal är 3 gånger så stort som sin siffersumma. Bestäm talet.</p>",
+    "s": "<p>Talet är \\(10A+B\\). \\(10A+B=3(A+B)\\iff7A=2B\\). Eftersom siffrorna är högst 9 måste \\(A=2\\) och \\(B=7\\).</p><p><strong>Svar:</strong> 27</p>",
+    "id": "2.695",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talbaser och basomvandling",
+    "svarstyp": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv talet som \\(10A+B\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "C",
+    "typ": "tal och siffersumma",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm alla tvåsiffriga tal som är 4 gånger så stora som sin siffersumma.</p>",
+    "s": "<p>\\(10A+B=4(A+B)\\iff6A=3B\\iff B=2A\\). \\(A=1,2,3,4\\) ger 12, 24, 36 och 48.</p><p><strong>Svar:</strong> 12, 24, 36 och 48</p>",
+    "id": "2.696",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talbaser och basomvandling",
+    "svarstyp": "numeriskt",
+    "rättSvar": "12, 24, 36, 48",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "lösningsmängd",
+    "ledtrad": "<p>Skriv talet som \\(10A+B\\) och lös ekvationen.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
     "omr": "kongruens",
     "niva": "C",
     "typ": "bestämma stor potens modulo ett heltal",
@@ -42150,6 +42457,211 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
+    "omr": "delbarhet_primtal",
+    "niva": "E",
+    "typ": "minsta tal med delbarhetsvillkor",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm det minsta positiva heltalet \\(x\\) sådant att \\(13\\mid x^2+1\\).</p>",
+    "s": "<p>Pröva: \\(x^2+1\\) blir 2, 5, 10, 17, 26 för \\(x=1,\\dots,5\\). 26 är det första som är delbart med 13.</p><p><strong>Svar:</strong> \\(x=5\\)</p>",
+    "id": "2.667",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Pröva små värden på \\(x\\).</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "delbarhet_primtal",
+    "niva": "E",
+    "typ": "delare och primfaktorer",
+    "poang": "2/0/0",
+    "t": "<p>Talet 124 undersöks.</p><ol type=\"a\"><li>Vilket är det största primtal som delar 124?</li><li>Hur många positiva delare större än 1 har 124?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(124=2^2\\cdot31\\). Det största primtalet är 31.</p><p><strong>Svar:</strong> 31</p></li><li><p>\\(124=2^2\\cdot31\\). Delarna är 1, 2, 4, 31, 62 och 124. Utom 1 blir det 5.</p><p><strong>Svar:</strong> 5 delare</p></li></ol>",
+    "id": "2.668",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      31,
+      5
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Talet 124 undersöks.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilket är det största primtal som delar 124?",
+        "t": "<p>Talet 124 undersöks.</p><p>Vilket är det största primtal som delar 124?</p>",
+        "s": "<p>\\(124=2^2\\cdot31\\). Det största primtalet är 31.</p><p><strong>Svar:</strong> 31</p>",
+        "ledtrad": "<p>Primtalsfaktorisera 124.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många positiva delare större än 1 har 124?",
+        "t": "<p>Talet 124 undersöks.</p><p>Hur många positiva delare större än 1 har 124?</p>",
+        "s": "<p>\\(124=2^2\\cdot31\\). Delarna är 1, 2, 4, 31, 62 och 124. Utom 1 blir det 5.</p><p><strong>Svar:</strong> 5 delare</p>",
+        "ledtrad": "<p>Kombinera primfaktorerna på alla sätt.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Börja med primtalsfaktoriseringen.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "delbarhet_primtal",
+    "niva": "E",
+    "typ": "summa av kvadrater av primfaktorer",
+    "poang": "1/1/0",
+    "t": "<p>Primtalen \\(w\\), \\(x\\), \\(y\\) och \\(z\\) uppfyller \\(wxyz=2\\,002\\). Bestäm \\(w^2+x^2+y^2+z^2\\).</p>",
+    "s": "<p>\\(2\\,002=2\\cdot7\\cdot11\\cdot13\\). \\(4+49+121+169=343\\).</p><p><strong>Svar:</strong> 343</p>",
+    "id": "2.669",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 343,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Primtalsfaktorisera 2 002.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "delbarhet_primtal",
+    "niva": "C",
+    "typ": "göra ett tal till en kub",
+    "poang": "0/2/0",
+    "t": "<p>Vilket är det minsta positiva heltal som 396 måste multipliceras med för att produkten ska bli en heltalskub?</p>",
+    "s": "<p>\\(396=2^2\\cdot3^2\\cdot11\\). I en kub är alla exponenter delbara med 3, så det behövs en faktor 2, en faktor 3 och två faktorer 11: \\(2\\cdot3\\cdot11^2=726\\).</p><p>\\(396\\cdot726=287\\,496=66^3\\).</p><p><strong>Svar:</strong> 726</p>",
+    "id": "2.670",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 726,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilka exponenter krävs i primtalsfaktoriseringen av en kub?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "delbarhet_primtal",
+    "niva": "E",
+    "typ": "fyra på varandra följande tal",
+    "poang": "1/1/0",
+    "t": "<p>Summan av fyra på varandra följande heltal är 210. Vilket av talen är ett primtal?</p>",
+    "s": "<p>\\(n+(n+1)+(n+2)+(n+3)=4n+6=210\\iff n=51\\). Talen är 51, 52, 53 och 54. \\(51=3\\cdot17\\), 52 och 54 är jämna, men 53 är ett primtal.</p><p><strong>Svar:</strong> 53</p>",
+    "id": "2.671",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 53,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp en ekvation för talen.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "delbarhet_primtal",
+    "niva": "A",
+    "typ": "primtalstrippel",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm alla heltal \\(n\\) sådana att \\(n\\), \\(n+10\\) och \\(n+14\\) alla är primtal.</p>",
+    "s": "<p>Modulo 3: \\(n\\), \\(n+10\\equiv n+1\\) och \\(n+14\\equiv n+2\\). Ett av talen är alltså delbart med 3, och då måste det vara 3 självt.</p><p>\\(n=3\\) ger 3, 13 och 17, som alla är primtal. \\(n+10=3\\) och \\(n+14=3\\) ger negativa \\(n\\).</p><p><strong>Svar:</strong> \\(n=3\\)</p>",
+    "id": "2.672",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Undersök talen modulo 3.</p>",
+    "traningsniva": 5
+  },
+  {
+    "kap": 2,
+    "omr": "delbarhet_primtal",
+    "niva": "E",
+    "typ": "minsta summa med given produkt",
+    "poang": "1/0/0",
+    "t": "<p>De positiva heltalen \\(x\\) och \\(y\\) uppfyller \\(xy=100\\). Vilket är det minsta möjliga värdet på \\(x+y\\)?</p>",
+    "s": "<p>Faktorparen är (1, 100), (2, 50), (4, 25), (5, 20) och (10, 10). Summan är minst för (10, 10): 20.</p><p><strong>Svar:</strong> 20</p>",
+    "id": "2.673",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gå igenom alla faktorpar.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
     "omr": "gemensamma_faktorer",
     "niva": "E",
     "poang": "1/0/0",
@@ -43141,6 +43653,836 @@ window.BANKMATF1 = [
     "rättSvar": 9,
     "tolerans": null,
     "typ": "sista siffran med periodicitet modulo 10"
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "E",
+    "typ": "minsta icke-negativa rest",
+    "poang": "3/0/0",
+    "t": "<p>Bestäm det minsta icke-negativa heltal som är kongruent med talet.</p><ol type=\"a\"><li>\\(18\\pmod 7\\)</li><li>\\(147\\pmod{17}\\)</li><li>\\(3\\,401\\pmod 3\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(18=2\\cdot7+4\\).</p><p><strong>Svar:</strong> 4</p></li><li><p>\\(147=8\\cdot17+11\\).</p><p><strong>Svar:</strong> 11</p></li><li><p>Siffersumman är \\(3+4+0+1=8\\equiv2\\pmod 3\\).</p><p><strong>Svar:</strong> 2</p></li></ol>",
+    "id": "2.674",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Räkna med modularitet och kongruenser",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      11,
+      2
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm det minsta icke-negativa heltal som är kongruent med talet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(18\\pmod 7\\)",
+        "t": "<p>Bestäm det minsta icke-negativa heltal som är kongruent med talet.</p><p>\\(18\\pmod 7\\)</p>",
+        "s": "<p>\\(18=2\\cdot7+4\\).</p><p><strong>Svar:</strong> 4</p>",
+        "ledtrad": "<p>Vad blir resten vid division med 7?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(147\\pmod{17}\\)",
+        "t": "<p>Bestäm det minsta icke-negativa heltal som är kongruent med talet.</p><p>\\(147\\pmod{17}\\)</p>",
+        "s": "<p>\\(147=8\\cdot17+11\\).</p><p><strong>Svar:</strong> 11</p>",
+        "ledtrad": "<p>Hur många gånger går 17 i 147?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(3\\,401\\pmod 3\\)",
+        "t": "<p>Bestäm det minsta icke-negativa heltal som är kongruent med talet.</p><p>\\(3\\,401\\pmod 3\\)</p>",
+        "s": "<p>Siffersumman är \\(3+4+0+1=8\\equiv2\\pmod 3\\).</p><p><strong>Svar:</strong> 2</p>",
+        "ledtrad": "<p>Ett tal och dess siffersumma ger samma rest vid division med 3.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Resten vid division är den minsta icke-negativa representanten.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "E",
+    "typ": "kongruens med villkor",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm det minsta heltal \\(n\\gt5\\) sådant att \\(n\\equiv5\\pmod{36}\\).</p>",
+    "s": "<p>Talen är \\(5,\\ 41,\\ 77,\\dots\\). Det första större än 5 är 41.</p><p><strong>Svar:</strong> 41</p>",
+    "id": "2.675",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "numeriskt",
+    "rättSvar": 41,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Talen skiljer sig med 36 från varandra.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "två kongruensvillkor",
+    "poang": "0/2/0",
+    "t": "<p>Ett positivt heltal \\(a\\lt120\\) uppfyller \\(a\\equiv5\\pmod 8\\) och \\(a\\equiv14\\pmod{15}\\). Bestäm \\(a\\).</p>",
+    "s": "<p>\\(a\\equiv14\\pmod{15}\\): 14, 29, 44, 59, 74, 89, 104, 119.</p><p>Vilka ger resten 5 vid division med 8? \\(29=3\\cdot8+5\\). De övriga gör det inte.</p><p><strong>Svar:</strong> \\(a=29\\)</p>",
+    "id": "2.676",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "numeriskt",
+    "rättSvar": 29,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lista talen som uppfyller det ena villkoret och pröva det andra.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "bestämma modul",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm alla heltal \\(k\\) med \\(3\\le k\\le10\\) som uppfyller kongruensen.</p><ol type=\"a\"><li>\\(13\\equiv4\\pmod k\\)</li><li>\\(38\\equiv18\\pmod k\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k\\mid13-4=9\\). Delare av 9 mellan 3 och 10: 3 och 9.</p><p><strong>Svar:</strong> \\(k=3\\) och \\(k=9\\)</p></li><li><p>\\(k\\mid20\\). Delare mellan 3 och 10: 4, 5 och 10.</p><p><strong>Svar:</strong> \\(k=4\\), \\(5\\) och \\(10\\)</p></li></ol>",
+    "id": "2.677",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3, 9",
+      "4, 5, 10"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": [
+      "lösningsmängd",
+      "lösningsmängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm alla heltal \\(k\\) med \\(3\\le k\\le10\\) som uppfyller kongruensen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(13\\equiv4\\pmod k\\)",
+        "t": "<p>Bestäm alla heltal \\(k\\) med \\(3\\le k\\le10\\) som uppfyller kongruensen.</p><p>\\(13\\equiv4\\pmod k\\)</p>",
+        "s": "<p>\\(k\\mid13-4=9\\). Delare av 9 mellan 3 och 10: 3 och 9.</p><p><strong>Svar:</strong> \\(k=3\\) och \\(k=9\\)</p>",
+        "ledtrad": "<p>\\(a\\equiv b\\pmod k\\) betyder att \\(k\\) delar \\(a-b\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(38\\equiv18\\pmod k\\)",
+        "t": "<p>Bestäm alla heltal \\(k\\) med \\(3\\le k\\le10\\) som uppfyller kongruensen.</p><p>\\(38\\equiv18\\pmod k\\)</p>",
+        "s": "<p>\\(k\\mid20\\). Delare mellan 3 och 10: 4, 5 och 10.</p><p><strong>Svar:</strong> \\(k=4\\), \\(5\\) och \\(10\\)</p>",
+        "ledtrad": "<p>Vilka tal delar \\(38-18\\)?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd att \\(k\\) delar differensen.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "E",
+    "typ": "representant i intervall",
+    "poang": "3/0/0",
+    "t": "<p>Bestäm heltalet \\(a\\) som uppfyller villkoren.</p><ol type=\"a\"><li>\\(a\\equiv43\\pmod{23}\\) och \\(-22\\le a\\le0\\)</li><li>\\(a\\equiv-11\\pmod{21}\\) och \\(90\\le a\\le110\\)</li><li>\\(a\\equiv24\\pmod{31}\\) och \\(-15\\le a\\le15\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(43-2\\cdot23=-3\\).</p><p><strong>Svar:</strong> \\(a=-3\\)</p></li><li><p>\\(-11+5\\cdot21=94\\).</p><p><strong>Svar:</strong> \\(a=94\\)</p></li><li><p>\\(24-31=-7\\).</p><p><strong>Svar:</strong> \\(a=-7\\)</p></li></ol>",
+    "id": "2.678",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      94,
+      -7
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm heltalet \\(a\\) som uppfyller villkoren.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(a\\equiv43\\pmod{23}\\) och \\(-22\\le a\\le0\\)",
+        "t": "<p>Bestäm heltalet \\(a\\) som uppfyller villkoren.</p><p>\\(a\\equiv43\\pmod{23}\\) och \\(-22\\le a\\le0\\)</p>",
+        "s": "<p>\\(43-2\\cdot23=-3\\).</p><p><strong>Svar:</strong> \\(a=-3\\)</p>",
+        "ledtrad": "<p>Lägg till eller dra ifrån multiplar av 23.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(a\\equiv-11\\pmod{21}\\) och \\(90\\le a\\le110\\)",
+        "t": "<p>Bestäm heltalet \\(a\\) som uppfyller villkoren.</p><p>\\(a\\equiv-11\\pmod{21}\\) och \\(90\\le a\\le110\\)</p>",
+        "s": "<p>\\(-11+5\\cdot21=94\\).</p><p><strong>Svar:</strong> \\(a=94\\)</p>",
+        "ledtrad": "<p>Lägg till multiplar av 21 tills du hamnar i intervallet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(a\\equiv24\\pmod{31}\\) och \\(-15\\le a\\le15\\)",
+        "t": "<p>Bestäm heltalet \\(a\\) som uppfyller villkoren.</p><p>\\(a\\equiv24\\pmod{31}\\) och \\(-15\\le a\\le15\\)</p>",
+        "s": "<p>\\(24-31=-7\\).</p><p><strong>Svar:</strong> \\(a=-7\\)</p>",
+        "ledtrad": "<p>Är 24 i intervallet? Annars, dra ifrån 31.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Alla tal som skiljer sig med en multipel av modulen är kongruenta.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "E",
+    "typ": "klockaritmetik",
+    "poang": "3/0/0",
+    "t": "<p>Räkna med klockor.</p><ol type=\"a\"><li>En analog klocka (12 timmar) visar 11. Vad visar den om 80 timmar?</li><li>En digital klocka (24 timmar) visar 12.00. Vad visar timvisningen om 45 timmar?</li><li>I dag är det tisdag. Vilken veckodag är det om exakt 1 000 dagar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(80\\equiv8\\pmod{12}\\) och \\(11+8=19\\equiv7\\).</p><p><strong>Svar:</strong> 7</p></li><li><p>\\(45\\equiv21\\pmod{24}\\) och \\(12+21=33\\equiv9\\).</p><p><strong>Svar:</strong> 9 (klockan 09.00)</p></li><li><p>\\(1\\,000=142\\cdot7+6\\). Sex dagar efter tisdag är måndag.</p><p><strong>Svar:</strong> måndag</p></li></ol>",
+    "id": "2.679",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      9,
+      "måndag"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "kort_text"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med klockor.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En analog klocka (12 timmar) visar 11. Vad visar den om 80 timmar?",
+        "t": "<p>Räkna med klockor.</p><p>En analog klocka (12 timmar) visar 11. Vad visar den om 80 timmar?</p>",
+        "s": "<p>\\(80\\equiv8\\pmod{12}\\) och \\(11+8=19\\equiv7\\).</p><p><strong>Svar:</strong> 7</p>",
+        "ledtrad": "<p>Räkna modulo 12.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En digital klocka (24 timmar) visar 12.00. Vad visar timvisningen om 45 timmar?",
+        "t": "<p>Räkna med klockor.</p><p>En digital klocka (24 timmar) visar 12.00. Vad visar timvisningen om 45 timmar?</p>",
+        "s": "<p>\\(45\\equiv21\\pmod{24}\\) och \\(12+21=33\\equiv9\\).</p><p><strong>Svar:</strong> 9 (klockan 09.00)</p>",
+        "ledtrad": "<p>Räkna modulo 24.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "I dag är det tisdag. Vilken veckodag är det om exakt 1 000 dagar?",
+        "t": "<p>Räkna med klockor.</p><p>I dag är det tisdag. Vilken veckodag är det om exakt 1 000 dagar?</p>",
+        "s": "<p>\\(1\\,000=142\\cdot7+6\\). Sex dagar efter tisdag är måndag.</p><p><strong>Svar:</strong> måndag</p>",
+        "ledtrad": "<p>Räkna modulo 7.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Räkna modulo klockans eller veckans längd.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "E",
+    "typ": "samma rest vid flera divisioner",
+    "poang": "1/1/0",
+    "t": "<p>Ett positivt heltal ger resten 2 vid division med 3, med 5 och med 7. Vilket är det minsta sådant tal?</p>",
+    "s": "<p>\\(a-2\\) är delbart med 3, 5 och 7, alltså med \\(\\text{MGM}=105\\). Minsta positiva: \\(a=2\\).</p><p>Om man kräver att \\(a\\) är större än divisorerna blir det \\(105+2=107\\). Talet 2 ger dock resten 2 vid alla tre divisionerna.</p><p><strong>Svar:</strong> 2</p>",
+    "id": "2.680",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vad måste gälla för \\(a-2\\)?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "samma rest vid flera divisioner",
+    "poang": "0/2/0",
+    "t": "<p>Kalle har mer än ett guldmynt. Om han delar mynten i 3, 12 eller 18 lika stora högar blir det alltid ett mynt över. Vilket är det minsta antal mynt han kan ha?</p>",
+    "s": "<p>Antalet minus 1 ska vara delbart med 3, 12 och 18, alltså med \\(\\text{MGM}=36\\). Minsta antal större än 1: \\(36+1=37\\).</p><p><strong>Svar:</strong> 37 mynt</p>",
+    "id": "2.681",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "numeriskt",
+    "rättSvar": 37,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vad måste gälla för antalet minus 1?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "räkneregler för kongruenser",
+    "poang": "3/1/0",
+    "t": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv2\\pmod 7\\) och \\(b\\equiv3\\pmod 7\\). Bestäm resten vid division med 7.</p><ol type=\"a\"><li>\\(a+b\\)</li><li>\\(ab\\)</li><li>\\(3a+b^2\\)</li><li>\\(a^{10}\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(2+3=5\\).</p><p><strong>Svar:</strong> 5</p></li><li><p>\\(2\\cdot3=6\\).</p><p><strong>Svar:</strong> 6</p></li><li><p>\\(3\\cdot2+3^2=15\\equiv1\\).</p><p><strong>Svar:</strong> 1</p></li><li><p>\\(2^3=8\\equiv1\\), så \\(2^{10}=(2^3)^3\\cdot2\\equiv1\\cdot2=2\\).</p><p><strong>Svar:</strong> 2</p></li></ol>",
+    "id": "2.682",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Räkna med modularitet och kongruenser",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      6,
+      1,
+      2
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv2\\pmod 7\\) och \\(b\\equiv3\\pmod 7\\). Bestäm resten vid division med 7.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(a+b\\)",
+        "t": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv2\\pmod 7\\) och \\(b\\equiv3\\pmod 7\\). Bestäm resten vid division med 7.</p><p>\\(a+b\\)</p>",
+        "s": "<p>\\(2+3=5\\).</p><p><strong>Svar:</strong> 5</p>",
+        "ledtrad": "<p>Kongruenser kan adderas.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(ab\\)",
+        "t": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv2\\pmod 7\\) och \\(b\\equiv3\\pmod 7\\). Bestäm resten vid division med 7.</p><p>\\(ab\\)</p>",
+        "s": "<p>\\(2\\cdot3=6\\).</p><p><strong>Svar:</strong> 6</p>",
+        "ledtrad": "<p>Kongruenser kan multipliceras.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(3a+b^2\\)",
+        "t": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv2\\pmod 7\\) och \\(b\\equiv3\\pmod 7\\). Bestäm resten vid division med 7.</p><p>\\(3a+b^2\\)</p>",
+        "s": "<p>\\(3\\cdot2+3^2=15\\equiv1\\).</p><p><strong>Svar:</strong> 1</p>",
+        "ledtrad": "<p>Ersätt \\(a\\) och \\(b\\) med sina rester.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(a^{10}\\)",
+        "t": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv2\\pmod 7\\) och \\(b\\equiv3\\pmod 7\\). Bestäm resten vid division med 7.</p><p>\\(a^{10}\\)</p>",
+        "s": "<p>\\(2^3=8\\equiv1\\), så \\(2^{10}=(2^3)^3\\cdot2\\equiv1\\cdot2=2\\).</p><p><strong>Svar:</strong> 2</p>",
+        "ledtrad": "<p>Leta efter en potens av 2 som är kongruent med 1.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Räkna med resterna i stället för talen.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "räkneregler med större modul",
+    "poang": "2/1/0",
+    "t": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv4\\pmod{13}\\) och \\(b\\equiv9\\pmod{13}\\). Bestäm \\(c\\) med \\(0\\le c\\le12\\).</p><ol type=\"a\"><li>\\(c\\equiv2a+3b\\pmod{13}\\)</li><li>\\(c\\equiv a^2+b^2\\pmod{13}\\)</li><li>\\(c\\equiv a^3-b^3\\pmod{13}\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(8+27=35=2\\cdot13+9\\).</p><p><strong>Svar:</strong> \\(c=9\\)</p></li><li><p>\\(16+81=97=7\\cdot13+6\\).</p><p><strong>Svar:</strong> \\(c=6\\)</p></li><li><p>\\(64-729=-665=-52\\cdot13+11\\). Eller: \\(4^3=64\\equiv12\\) och \\(9^3=729\\equiv1\\), så \\(12-1=11\\).</p><p><strong>Svar:</strong> \\(c=11\\)</p></li></ol>",
+    "id": "2.683",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Räkna med modularitet och kongruenser",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      6,
+      11
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv4\\pmod{13}\\) och \\(b\\equiv9\\pmod{13}\\). Bestäm \\(c\\) med \\(0\\le c\\le12\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(c\\equiv2a+3b\\pmod{13}\\)",
+        "t": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv4\\pmod{13}\\) och \\(b\\equiv9\\pmod{13}\\). Bestäm \\(c\\) med \\(0\\le c\\le12\\).</p><p>\\(c\\equiv2a+3b\\pmod{13}\\)</p>",
+        "s": "<p>\\(8+27=35=2\\cdot13+9\\).</p><p><strong>Svar:</strong> \\(c=9\\)</p>",
+        "ledtrad": "<p>Sätt in resterna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(c\\equiv a^2+b^2\\pmod{13}\\)",
+        "t": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv4\\pmod{13}\\) och \\(b\\equiv9\\pmod{13}\\). Bestäm \\(c\\) med \\(0\\le c\\le12\\).</p><p>\\(c\\equiv a^2+b^2\\pmod{13}\\)</p>",
+        "s": "<p>\\(16+81=97=7\\cdot13+6\\).</p><p><strong>Svar:</strong> \\(c=6\\)</p>",
+        "ledtrad": "<p>Sätt in resterna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(c\\equiv a^3-b^3\\pmod{13}\\)",
+        "t": "<p>För heltalen \\(a\\) och \\(b\\) gäller \\(a\\equiv4\\pmod{13}\\) och \\(b\\equiv9\\pmod{13}\\). Bestäm \\(c\\) med \\(0\\le c\\le12\\).</p><p>\\(c\\equiv a^3-b^3\\pmod{13}\\)</p>",
+        "s": "<p>\\(64-729=-665=-52\\cdot13+11\\). Eller: \\(4^3=64\\equiv12\\) och \\(9^3=729\\equiv1\\), så \\(12-1=11\\).</p><p><strong>Svar:</strong> \\(c=11\\)</p>",
+        "ledtrad": "<p>Reducera varje potens för sig.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Räkna med resterna.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "rest av stora potenser",
+    "poang": "0/4/0",
+    "t": "<p>Bestäm resten utan räknare.</p><ol type=\"a\"><li>\\(2^{101}\\) divideras med 3.</li><li>\\(2^{101}\\) divideras med 7.</li><li>\\(3^{456}\\) divideras med 7.</li><li>Vilken är sista siffran i \\(7^{104}\\)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(2\\equiv-1\\pmod 3\\), så \\(2^{101}\\equiv(-1)^{101}=-1\\equiv2\\).</p><p><strong>Svar:</strong> 2</p></li><li><p>\\(2^3=8\\equiv1\\pmod 7\\). \\(2^{101}=(2^3)^{33}\\cdot2^2\\equiv4\\).</p><p><strong>Svar:</strong> 4</p></li><li><p>\\(3^6=729\\equiv1\\pmod 7\\) och \\(456=6\\cdot76\\), så \\(3^{456}\\equiv1\\).</p><p><strong>Svar:</strong> 1</p></li><li><p>Modulo 10: \\(7^4=2\\,401\\equiv1\\). \\(7^{104}=(7^4)^{26}\\equiv1\\).</p><p><strong>Svar:</strong> 1</p></li></ol>",
+    "id": "2.684",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Räkna med modularitet och kongruenser",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      4,
+      1,
+      1
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm resten utan räknare.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(2^{101}\\) divideras med 3.",
+        "t": "<p>Bestäm resten utan räknare.</p><p>\\(2^{101}\\) divideras med 3.</p>",
+        "s": "<p>\\(2\\equiv-1\\pmod 3\\), så \\(2^{101}\\equiv(-1)^{101}=-1\\equiv2\\).</p><p><strong>Svar:</strong> 2</p>",
+        "ledtrad": "<p>Skriv 2 som \\(-1\\) modulo 3.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(2^{101}\\) divideras med 7.",
+        "t": "<p>Bestäm resten utan räknare.</p><p>\\(2^{101}\\) divideras med 7.</p>",
+        "s": "<p>\\(2^3=8\\equiv1\\pmod 7\\). \\(2^{101}=(2^3)^{33}\\cdot2^2\\equiv4\\).</p><p><strong>Svar:</strong> 4</p>",
+        "ledtrad": "<p>Vilken potens av 2 är kongruent med 1 modulo 7?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(3^{456}\\) divideras med 7.",
+        "t": "<p>Bestäm resten utan räknare.</p><p>\\(3^{456}\\) divideras med 7.</p>",
+        "s": "<p>\\(3^6=729\\equiv1\\pmod 7\\) och \\(456=6\\cdot76\\), så \\(3^{456}\\equiv1\\).</p><p><strong>Svar:</strong> 1</p>",
+        "ledtrad": "<p>Leta efter en potens av 3 som är kongruent med 1.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Vilken är sista siffran i \\(7^{104}\\)?",
+        "t": "<p>Bestäm resten utan räknare.</p><p>Vilken är sista siffran i \\(7^{104}\\)?</p>",
+        "s": "<p>Modulo 10: \\(7^4=2\\,401\\equiv1\\). \\(7^{104}=(7^4)^{26}\\equiv1\\).</p><p><strong>Svar:</strong> 1</p>",
+        "ledtrad": "<p>Sista siffran är resten modulo 10.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Hitta en potens som är kongruent med 1 eller med −1.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "samma rest vid tre divisioner",
+    "poang": "0/2/0",
+    "t": "<p>Ett heltal \\(a\\gt1\\) ger resten 1 vid division med 3, med 5 och med 7. Vilket är det minsta sådant tal?</p>",
+    "s": "<p>\\(a-1\\) är delbart med 3, 5 och 7, alltså med 105. Minsta \\(a\\gt1\\): \\(106\\).</p><p><strong>Svar:</strong> 106</p>",
+    "id": "2.685",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "numeriskt",
+    "rättSvar": 106,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vad måste gälla för \\(a-1\\)?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "linjär kongruens",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm det minsta positiva heltal \\(x\\) som uppfyller \\(5x-10\\equiv30\\pmod 7\\).</p>",
+    "s": "<p>\\(5x\\equiv40\\equiv5\\pmod 7\\). Eftersom 5 och 7 är relativt prima kan vi dividera med 5: \\(x\\equiv1\\pmod 7\\).</p><p><strong>Svar:</strong> \\(x=1\\)</p>",
+    "id": "2.686",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Räkna med modularitet och kongruenser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla högerledet och dela med 5. Varför är det tillåtet?</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "kvot och rest med variabler",
+    "poang": "2/1/0",
+    "t": "<p>För heltalen \\(m\\) och \\(n\\) gäller att \\(m\\) ger resten 3 och \\(n\\) resten 6 vid division med 8.</p><ol type=\"a\"><li>Vilken rest ger \\(5m+2n\\) vid division med 8?</li><li>Vilken rest ger \\(3mn\\) vid division med 8?</li><li>Vilken rest ger \\(3m-2n\\) vid division med 8?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(5\\cdot3+2\\cdot6=27=3\\cdot8+3\\).</p><p><strong>Svar:</strong> 3</p></li><li><p>\\(3\\cdot3\\cdot6=54=6\\cdot8+6\\).</p><p><strong>Svar:</strong> 6</p></li><li><p>\\(9-12=-3\\equiv5\\pmod 8\\). Resten ska vara mellan 0 och 7.</p><p><strong>Svar:</strong> 5</p></li></ol>",
+    "id": "2.687",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      6,
+      5
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>För heltalen \\(m\\) och \\(n\\) gäller att \\(m\\) ger resten 3 och \\(n\\) resten 6 vid division med 8.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken rest ger \\(5m+2n\\) vid division med 8?",
+        "t": "<p>För heltalen \\(m\\) och \\(n\\) gäller att \\(m\\) ger resten 3 och \\(n\\) resten 6 vid division med 8.</p><p>Vilken rest ger \\(5m+2n\\) vid division med 8?</p>",
+        "s": "<p>\\(5\\cdot3+2\\cdot6=27=3\\cdot8+3\\).</p><p><strong>Svar:</strong> 3</p>",
+        "ledtrad": "<p>Ersätt \\(m\\) och \\(n\\) med resterna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken rest ger \\(3mn\\) vid division med 8?",
+        "t": "<p>För heltalen \\(m\\) och \\(n\\) gäller att \\(m\\) ger resten 3 och \\(n\\) resten 6 vid division med 8.</p><p>Vilken rest ger \\(3mn\\) vid division med 8?</p>",
+        "s": "<p>\\(3\\cdot3\\cdot6=54=6\\cdot8+6\\).</p><p><strong>Svar:</strong> 6</p>",
+        "ledtrad": "<p>Ersätt \\(m\\) och \\(n\\) med resterna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken rest ger \\(3m-2n\\) vid division med 8?",
+        "t": "<p>För heltalen \\(m\\) och \\(n\\) gäller att \\(m\\) ger resten 3 och \\(n\\) resten 6 vid division med 8.</p><p>Vilken rest ger \\(3m-2n\\) vid division med 8?</p>",
+        "s": "<p>\\(9-12=-3\\equiv5\\pmod 8\\). Resten ska vara mellan 0 och 7.</p><p><strong>Svar:</strong> 5</p>",
+        "ledtrad": "<p>En negativ rest räknas om genom att lägga till 8.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Räkna med resterna.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "kongruens",
+    "niva": "C",
+    "typ": "kvot och rest",
+    "poang": "2/1/0",
+    "t": "<p>Använd att \\(a=k\\cdot b+r\\) med \\(0\\le r\\lt b\\).</p><ol type=\"a\"><li>Bestäm \\(r\\) om \\(-39=k\\cdot11+r\\).</li><li>Bestäm \\(a\\) om \\(102=11a+3\\) och \\(0\\le3\\lt a\\).</li><li>När 452 divideras med \\(a\\) blir kvoten 18 och resten 20. Bestäm \\(a\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(-39=-4\\cdot11+5\\).</p><p><strong>Svar:</strong> \\(r=5\\)</p></li><li><p>\\(11a=99\\iff a=9\\).</p><p><strong>Svar:</strong> \\(a=9\\)</p></li><li><p>\\(452=18a+20\\iff a=24\\). Kontroll: \\(20\\lt24\\).</p><p><strong>Svar:</strong> \\(a=24\\)</p></li></ol>",
+    "id": "2.688",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Restklasser och tillämpningar av modulo",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      9,
+      24
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd att \\(a=k\\cdot b+r\\) med \\(0\\le r\\lt b\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(r\\) om \\(-39=k\\cdot11+r\\).",
+        "t": "<p>Använd att \\(a=k\\cdot b+r\\) med \\(0\\le r\\lt b\\).</p><p>Bestäm \\(r\\) om \\(-39=k\\cdot11+r\\).</p>",
+        "s": "<p>\\(-39=-4\\cdot11+5\\).</p><p><strong>Svar:</strong> \\(r=5\\)</p>",
+        "ledtrad": "<p>Resten får inte vara negativ.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(a\\) om \\(102=11a+3\\) och \\(0\\le3\\lt a\\).",
+        "t": "<p>Använd att \\(a=k\\cdot b+r\\) med \\(0\\le r\\lt b\\).</p><p>Bestäm \\(a\\) om \\(102=11a+3\\) och \\(0\\le3\\lt a\\).</p>",
+        "s": "<p>\\(11a=99\\iff a=9\\).</p><p><strong>Svar:</strong> \\(a=9\\)</p>",
+        "ledtrad": "<p>Lös ekvationen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "När 452 divideras med \\(a\\) blir kvoten 18 och resten 20. Bestäm \\(a\\).",
+        "t": "<p>Använd att \\(a=k\\cdot b+r\\) med \\(0\\le r\\lt b\\).</p><p>När 452 divideras med \\(a\\) blir kvoten 18 och resten 20. Bestäm \\(a\\).</p>",
+        "s": "<p>\\(452=18a+20\\iff a=24\\). Kontroll: \\(20\\lt24\\).</p><p><strong>Svar:</strong> \\(a=24\\)</p>",
+        "ledtrad": "<p>Skriv sambandet \\(a=k\\cdot b+r\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Resten är alltid icke-negativ och mindre än divisorn.</p>",
+    "traningsniva": 3
   },
   {
     "kap": 1,

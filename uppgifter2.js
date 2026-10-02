@@ -29620,6 +29620,1786 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "stående våg med fyra bukar",
+    "poang": "(2/1/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 1,6 m lång sträng sätts i svängning med en vibrator med frekvensen 120 Hz. Den stående vågen har fyra bukar.</p><ol type=\"a\"><li>Ange våglängden.</li><li>Med vilken hastighet utbreder sig vågen i strängen?</li><li>Frekvensen ändras så att vågen får fem bukar. Vilken är den nya frekvensen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Fyra bukar: \\(l=4\\cdot\\dfrac\\lambda2\\iff\\lambda=\\dfrac{1{,}6}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}80\\) m</p></li><li><p>\\(v=f\\lambda=120\\cdot0{,}80\\).</p><p><strong>Svar:</strong> \\(96\\) m/s</p></li><li><p>\\(\\lambda=\\dfrac{2\\cdot1{,}6}{5}=0{,}64\\) m. \\(f=\\dfrac{96}{0{,}64}\\).</p><p><strong>Svar:</strong> \\(150\\) Hz</p></li></ol>",
+    "id": "2.388",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8,
+      96,
+      150
+    ],
+    "tolerans": [
+      0.012,
+      1.44,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 1,6 m lång sträng sätts i svängning med en vibrator med frekvensen 120 Hz. Den stående vågen har fyra bukar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ange våglängden.",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 1,6 m lång sträng sätts i svängning med en vibrator med frekvensen 120 Hz. Den stående vågen har fyra bukar.</p><p>Ange våglängden.</p>",
+        "s": "<p>Fyra bukar: \\(l=4\\cdot\\dfrac\\lambda2\\iff\\lambda=\\dfrac{1{,}6}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}80\\) m</p>",
+        "ledtrad": "<p>Varje buk är en halv våglängd.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med vilken hastighet utbreder sig vågen i strängen?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 1,6 m lång sträng sätts i svängning med en vibrator med frekvensen 120 Hz. Den stående vågen har fyra bukar.</p>Våglängden är 0,80 m.<p>Med vilken hastighet utbreder sig vågen i strängen?</p>",
+        "s": "<p>\\(v=f\\lambda=120\\cdot0{,}80\\).</p><p><strong>Svar:</strong> \\(96\\) m/s</p>",
+        "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Frekvensen ändras så att vågen får fem bukar. Vilken är den nya frekvensen?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 1,6 m lång sträng sätts i svängning med en vibrator med frekvensen 120 Hz. Den stående vågen har fyra bukar.</p>Våghastigheten är 96 m/s.<p>Frekvensen ändras så att vågen får fem bukar. Vilken är den nya frekvensen?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{2\\cdot1{,}6}{5}=0{,}64\\) m. \\(f=\\dfrac{96}{0{,}64}\\).</p><p><strong>Svar:</strong> \\(150\\) Hz</p>",
+        "ledtrad": "<p>Hastigheten är densamma.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Varje buk motsvarar en halv våglängd.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "snöre med tre bukar",
+    "poang": "(1/1/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Ett 2,4 m långt snöre svänger med frekvensen 60 Hz och har en stående våg med tre bukar.</p><ol type=\"a\"><li>Beräkna våghastigheten i snöret.</li><li>Frekvensen ändras till 80 Hz. Hur många bukar får den stående vågen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{2\\cdot2{,}4}{3}=1{,}6\\) m. \\(v=60\\cdot1{,}6\\).</p><p><strong>Svar:</strong> \\(96\\) m/s</p></li><li><p>\\(\\lambda=\\dfrac{96}{80}=1{,}2\\) m. \\(n=\\dfrac{2l}{\\lambda}=\\dfrac{4{,}8}{1{,}2}\\).</p><p><strong>Svar:</strong> 4 bukar</p></li></ol>",
+    "id": "2.389",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      96,
+      4
+    ],
+    "tolerans": [
+      1.44,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Ett 2,4 m långt snöre svänger med frekvensen 60 Hz och har en stående våg med tre bukar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna våghastigheten i snöret.",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Ett 2,4 m långt snöre svänger med frekvensen 60 Hz och har en stående våg med tre bukar.</p><p>Beräkna våghastigheten i snöret.</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{2\\cdot2{,}4}{3}=1{,}6\\) m. \\(v=60\\cdot1{,}6\\).</p><p><strong>Svar:</strong> \\(96\\) m/s</p>",
+        "ledtrad": "<p>Bestäm våglängden först.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Frekvensen ändras till 80 Hz. Hur många bukar får den stående vågen?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Ett 2,4 m långt snöre svänger med frekvensen 60 Hz och har en stående våg med tre bukar.</p>Våghastigheten är 96 m/s.<p>Frekvensen ändras till 80 Hz. Hur många bukar får den stående vågen?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{96}{80}=1{,}2\\) m. \\(n=\\dfrac{2l}{\\lambda}=\\dfrac{4{,}8}{1{,}2}\\).</p><p><strong>Svar:</strong> 4 bukar</p>",
+        "ledtrad": "<p>Hastigheten är densamma.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(l=n\\cdot\\dfrac\\lambda2\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "fjäder med stående våg",
+    "poang": "(1/1/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En fjäder fästs i en vägg och sträcks till 6,0 m. Den sätts i svängning med 30 Hz och får en stående våg med tre bukar.</p><ol type=\"a\"><li>Hur snabbt rör sig en våg genom fjädern?</li><li>Vilken frekvens behövs för fem bukar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{2\\cdot6{,}0}{3}=4{,}0\\) m. \\(v=30\\cdot4{,}0\\).</p><p><strong>Svar:</strong> \\(120\\) m/s</p></li><li><p>\\(\\lambda=\\dfrac{12}{5}=2{,}4\\) m. \\(f=\\dfrac{120}{2{,}4}\\).</p><p><strong>Svar:</strong> \\(50\\) Hz</p></li></ol>",
+    "id": "2.390",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      120,
+      50
+    ],
+    "tolerans": [
+      5.1,
+      0.75
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En fjäder fästs i en vägg och sträcks till 6,0 m. Den sätts i svängning med 30 Hz och får en stående våg med tre bukar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur snabbt rör sig en våg genom fjädern?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En fjäder fästs i en vägg och sträcks till 6,0 m. Den sätts i svängning med 30 Hz och får en stående våg med tre bukar.</p><p>Hur snabbt rör sig en våg genom fjädern?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{2\\cdot6{,}0}{3}=4{,}0\\) m. \\(v=30\\cdot4{,}0\\).</p><p><strong>Svar:</strong> \\(120\\) m/s</p>",
+        "ledtrad": "<p>Bestäm våglängden först.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken frekvens behövs för fem bukar?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En fjäder fästs i en vägg och sträcks till 6,0 m. Den sätts i svängning med 30 Hz och får en stående våg med tre bukar.</p>Våghastigheten är 120 m/s.<p>Vilken frekvens behövs för fem bukar?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{12}{5}=2{,}4\\) m. \\(f=\\dfrac{120}{2{,}4}\\).</p><p><strong>Svar:</strong> \\(50\\) Hz</p>",
+        "ledtrad": "<p>Hastigheten är densamma.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(l=n\\cdot\\dfrac\\lambda2\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "våglängder för pianosträng",
+    "poang": "(3/0/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En pianosträng är 75 cm lång. Bestäm våglängden för</p><ol type=\"a\"><li>grundtonen</li><li>första övertonen</li><li>andra övertonen</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=2l\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m</p></li><li><p>\\(\\lambda=l\\).</p><p><strong>Svar:</strong> \\(0{,}75\\) m</p></li><li><p>\\(\\lambda=\\dfrac{2l}{3}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m</p></li></ol>",
+    "id": "2.391",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5,
+      0.75,
+      0.5
+    ],
+    "tolerans": [
+      0.051,
+      0.0112,
+      0.0075
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En pianosträng är 75 cm lång. Bestäm våglängden för</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "grundtonen",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En pianosträng är 75 cm lång. Bestäm våglängden för</p><p>grundtonen</p>",
+        "s": "<p>\\(\\lambda=2l\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m</p>",
+        "ledtrad": "<p>En buk.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "första övertonen",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En pianosträng är 75 cm lång. Bestäm våglängden för</p><p>första övertonen</p>",
+        "s": "<p>\\(\\lambda=l\\).</p><p><strong>Svar:</strong> \\(0{,}75\\) m</p>",
+        "ledtrad": "<p>Två bukar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "andra övertonen",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En pianosträng är 75 cm lång. Bestäm våglängden för</p><p>andra övertonen</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{2l}{3}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m</p>",
+        "ledtrad": "<p>Tre bukar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Den \\(n\\):te tonen har \\(n\\) bukar.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "snöre med nodavstånd",
+    "poang": "(2/1/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Ett snöre har en stående våg med tre bukar. Avståndet mellan två närliggande noder är 1,23 m och frekvensen 2,50 Hz.</p><ol type=\"a\"><li>Hur långt är snöret?</li><li>Vilken hastighet har vågorna?</li><li>Vilken frekvens ger snörets grundsvängning?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Tre bukar: \\(3\\cdot1{,}23\\).</p><p><strong>Svar:</strong> \\(3{,}69\\) m</p></li><li><p>\\(\\lambda=2\\cdot1{,}23=2{,}46\\) m. \\(v=2{,}50\\cdot2{,}46\\).</p><p><strong>Svar:</strong> \\(6{,}15\\) m/s</p></li><li><p>En buk, alltså en tredjedel av frekvensen: \\(\\dfrac{2{,}50}{3}\\).</p><p><strong>Svar:</strong> \\(0{,}833\\) Hz</p></li></ol>",
+    "id": "2.392",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.69,
+      6.15,
+      0.8333333333333334
+    ],
+    "tolerans": [
+      0.0553,
+      0.0922,
+      0.0125
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Ett snöre har en stående våg med tre bukar. Avståndet mellan två närliggande noder är 1,23 m och frekvensen 2,50 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt är snöret?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Ett snöre har en stående våg med tre bukar. Avståndet mellan två närliggande noder är 1,23 m och frekvensen 2,50 Hz.</p><p>Hur långt är snöret?</p>",
+        "s": "<p>Tre bukar: \\(3\\cdot1{,}23\\).</p><p><strong>Svar:</strong> \\(3{,}69\\) m</p>",
+        "ledtrad": "<p>Nodavståndet är en buk.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken hastighet har vågorna?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Ett snöre har en stående våg med tre bukar. Avståndet mellan två närliggande noder är 1,23 m och frekvensen 2,50 Hz.</p><p>Vilken hastighet har vågorna?</p>",
+        "s": "<p>\\(\\lambda=2\\cdot1{,}23=2{,}46\\) m. \\(v=2{,}50\\cdot2{,}46\\).</p><p><strong>Svar:</strong> \\(6{,}15\\) m/s</p>",
+        "ledtrad": "<p>Nodavståndet är \\(\\dfrac\\lambda2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken frekvens ger snörets grundsvängning?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Ett snöre har en stående våg med tre bukar. Avståndet mellan två närliggande noder är 1,23 m och frekvensen 2,50 Hz.</p><p>Vilken frekvens ger snörets grundsvängning?</p>",
+        "s": "<p>En buk, alltså en tredjedel av frekvensen: \\(\\dfrac{2{,}50}{3}\\).</p><p><strong>Svar:</strong> \\(0{,}833\\) Hz</p>",
+        "ledtrad": "<p>Grundtonen har en buk.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Avståndet mellan två noder är en halv våglängd.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "övertoner i sträng",
+    "poang": "(2/0/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 60,5 cm lång sträng har första övertonen 104 Hz.</p><ol type=\"a\"><li>Beräkna våghastigheten i strängen.</li><li>Bestäm andra övertonens frekvens.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Första övertonen: \\(\\lambda=l=0{,}605\\) m. \\(v=104\\cdot0{,}605\\).</p><p><strong>Svar:</strong> \\(62{,}9\\) m/s</p></li><li><p>Grundtonen är 52 Hz och andra övertonen \\(3\\cdot52\\).</p><p><strong>Svar:</strong> \\(156\\) Hz</p></li></ol>",
+    "id": "2.393",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      62.92,
+      156
+    ],
+    "tolerans": [
+      0.944,
+      2.34
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 60,5 cm lång sträng har första övertonen 104 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna våghastigheten i strängen.",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 60,5 cm lång sträng har första övertonen 104 Hz.</p><p>Beräkna våghastigheten i strängen.</p>",
+        "s": "<p>Första övertonen: \\(\\lambda=l=0{,}605\\) m. \\(v=104\\cdot0{,}605\\).</p><p><strong>Svar:</strong> \\(62{,}9\\) m/s</p>",
+        "ledtrad": "<p>Första övertonen har två bukar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm andra övertonens frekvens.",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 60,5 cm lång sträng har första övertonen 104 Hz.</p><p>Bestäm andra övertonens frekvens.</p>",
+        "s": "<p>Grundtonen är 52 Hz och andra övertonen \\(3\\cdot52\\).</p><p><strong>Svar:</strong> \\(156\\) Hz</p>",
+        "ledtrad": "<p>Övertonerna är multipler av grundtonen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(f_n=n\\cdot f_1\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "fiolens a-sträng",
+    "poang": "(1/0/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En fiols a-sträng har grundtonen 440 Hz. Våghastigheten i strängen är 293 m/s. Hur lång är strängen?</p>",
+    "s": "<p>\\(l=\\dfrac\\lambda2=\\dfrac{293}{2\\cdot440}\\).</p><p><strong>Svar:</strong> \\(0{,}333\\) m</p>",
+    "id": "2.394",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.33295454545454545,
+    "tolerans": 0.00499,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Grundtonen: \\(l=\\dfrac\\lambda2\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "grundton för sträng",
+    "poang": "(2/0/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En sträng är 42 cm lång mellan fästpunkterna och har grundtonen 175 Hz.</p><ol type=\"a\"><li>Vilken våglängd har grundtonen?</li><li>Vilken hastighet har vågorna i strängen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=2\\cdot0{,}42\\).</p><p><strong>Svar:</strong> \\(0{,}84\\) m</p></li><li><p>\\(v=175\\cdot0{,}84\\).</p><p><strong>Svar:</strong> \\(147\\) m/s</p></li></ol>",
+    "id": "2.395",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.84,
+      147.0
+    ],
+    "tolerans": [
+      0.0126,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En sträng är 42 cm lång mellan fästpunkterna och har grundtonen 175 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken våglängd har grundtonen?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En sträng är 42 cm lång mellan fästpunkterna och har grundtonen 175 Hz.</p><p>Vilken våglängd har grundtonen?</p>",
+        "s": "<p>\\(\\lambda=2\\cdot0{,}42\\).</p><p><strong>Svar:</strong> \\(0{,}84\\) m</p>",
+        "ledtrad": "<p>\\(l=\\dfrac\\lambda2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken hastighet har vågorna i strängen?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En sträng är 42 cm lång mellan fästpunkterna och har grundtonen 175 Hz.</p>Våglängden är 0,84 m.<p>Vilken hastighet har vågorna i strängen?</p>",
+        "s": "<p>\\(v=175\\cdot0{,}84\\).</p><p><strong>Svar:</strong> \\(147\\) m/s</p>",
+        "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "kortare gitarrsträng",
+    "poang": "(0/1/0)",
+    "t": "<p>En 605 mm lång gitarrsträng har grundtonen 392 Hz. Strängen kortas 125 mm genom att trycka ned den mot ett band. Vilken grundton får den? Våghastigheten är densamma.</p>",
+    "s": "<p>Frekvensen är omvänt proportionell mot längden: \\(392\\cdot\\dfrac{605}{480}\\).</p><p><strong>Svar:</strong> \\(494\\) Hz</p>",
+    "id": "2.396",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "numeriskt",
+    "rättSvar": 494.0833333333333,
+    "tolerans": 7.41,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Våglängden ändras med längden.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "tråd med tre bukar",
+    "poang": "(1/1/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 180 cm lång tråd mellan ett stativ och en vibrator har vid frekvensen 16 Hz en stående våg med tre bukar.</p><ol type=\"a\"><li>Bestäm vågens hastighet.</li><li>Vilken frekvens ger fyra bukar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{2\\cdot1{,}80}{3}=1{,}2\\) m. \\(v=16\\cdot1{,}2\\).</p><p><strong>Svar:</strong> \\(19\\) m/s</p></li><li><p>\\(\\lambda=0{,}90\\) m. \\(f=\\dfrac{19{,}2}{0{,}90}\\).</p><p><strong>Svar:</strong> \\(21\\) Hz</p></li></ol>",
+    "id": "2.397",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      19.2,
+      21.333333333333332
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 180 cm lång tråd mellan ett stativ och en vibrator har vid frekvensen 16 Hz en stående våg med tre bukar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vågens hastighet.",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 180 cm lång tråd mellan ett stativ och en vibrator har vid frekvensen 16 Hz en stående våg med tre bukar.</p><p>Bestäm vågens hastighet.</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{2\\cdot1{,}80}{3}=1{,}2\\) m. \\(v=16\\cdot1{,}2\\).</p><p><strong>Svar:</strong> \\(19\\) m/s</p>",
+        "ledtrad": "<p>Bestäm våglängden först.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken frekvens ger fyra bukar?",
+        "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 180 cm lång tråd mellan ett stativ och en vibrator har vid frekvensen 16 Hz en stående våg med tre bukar.</p>Våghastigheten är 19,2 m/s.<p>Vilken frekvens ger fyra bukar?</p>",
+        "s": "<p>\\(\\lambda=0{,}90\\) m. \\(f=\\dfrac{19{,}2}{0{,}90}\\).</p><p><strong>Svar:</strong> \\(21\\) Hz</p>",
+        "ledtrad": "<p>Hastigheten är densamma.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(l=n\\cdot\\dfrac\\lambda2\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "lägsta frekvens för tråd",
+    "poang": "(1/0/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>Våghastigheten i en 1,80 m lång tråd är 24 m/s. Vilken är den lägsta frekvens som ger en stående våg?</p>",
+    "s": "<p>\\(f_1=\\dfrac{v}{2l}=\\dfrac{24}{3{,}60}\\). Nästa är \\(2f_1\\) och \\(3f_1\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) Hz</p>",
+    "id": "2.398",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.666666666666666,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Grundtonen.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "grundton ur pulsens gångtid",
+    "poang": "(0/2/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 2,0 m lång tråd är fäst i båda ändar. En puls från trådens mitt går till ena änden och tillbaka till mitten på 0,050 s. Vilken grundton har tråden?</p>",
+    "s": "<p>Pulsen går 2,0 m på 0,050 s: \\(v=40\\) m/s. \\(f_1=\\dfrac{40}{2\\cdot2{,}0}\\).</p><p><strong>Svar:</strong> \\(10\\) Hz</p>",
+    "id": "2.399",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur lång sträcka går pulsen?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Hz",
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "grundton ur två resonanser",
+    "poang": "(0/1/0)",
+    "t": "<p>En sträng fäst i båda ändar har stående vågor när \\(l=n\\cdot\\dfrac\\lambda2\\).</p><p>En 1,60 m lång tråd fäst i båda ändar har två på varandra följande resonansfrekvenser, 780 Hz och 1 040 Hz. Bestäm grundtonens frekvens.</p>",
+    "s": "<p>Två på varandra följande resonanser skiljer sig med grundtonen: \\(1\\,040-780\\).</p><p><strong>Svar:</strong> \\(260\\) Hz</p>",
+    "id": "2.400",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "numeriskt",
+    "rättSvar": 260,
+    "tolerans": 3.9,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(f_n=nf_1\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Hz",
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "A",
+    "typ": "gitarrens första band",
+    "poang": "(0/1/1)",
+    "t": "<p>En gitarrsträng är 64,8 cm lång. Varje band höjer frekvensen 5,95 % jämfört med föregående band. Hur långt från sadeln (strängens övre fästpunkt) ligger det tredje bandet?</p>",
+    "s": "<p>Frekvensen är omvänt proportionell mot längden: \\(l_3=\\dfrac{64{,}8}{1{,}0595^3}\\approx54{,}5\\) cm. Avstånd: \\(64{,}8-54{,}5\\).</p><p><strong>Svar:</strong> \\(10{,}3\\) cm</p>",
+    "id": "2.401",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Noder, bukar och övertoner på en sträng",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.315606264803485,
+    "tolerans": 0.155,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Varje band multiplicerar frekvensen med 1,0595.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "cm",
+    "familjNyckel": "staende_vagor__noder_bukar_och_overtoner_pa_en_strang"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "spännkraft i telefonledning",
+    "poang": "(2/1/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En telefonledning är 4,00 m lång och väger 0,200 kg. En puls går fram och tillbaka i ledningen på 0,600 s.</p><ol type=\"a\"><li>Bestäm pulsens hastighet.</li><li>Bestäm spännkraften.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{8{,}00}{0{,}600}\\).</p><p><strong>Svar:</strong> \\(13{,}3\\) m/s</p></li><li><p>\\(\\mu=\\dfrac{0{,}200}{4{,}00}=0{,}0500\\) kg/m. \\(F=\\mu v^2=0{,}0500\\cdot13{,}3^2\\).</p><p><strong>Svar:</strong> \\(8{,}89\\) N</p></li></ol>",
+    "id": "2.402",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13.333333333333334,
+      8.888888888888891
+    ],
+    "tolerans": [
+      0.2,
+      0.133
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En telefonledning är 4,00 m lång och väger 0,200 kg. En puls går fram och tillbaka i ledningen på 0,600 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm pulsens hastighet.",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En telefonledning är 4,00 m lång och väger 0,200 kg. En puls går fram och tillbaka i ledningen på 0,600 s.</p><p>Bestäm pulsens hastighet.</p>",
+        "s": "<p>\\(v=\\dfrac{8{,}00}{0{,}600}\\).</p><p><strong>Svar:</strong> \\(13{,}3\\) m/s</p>",
+        "ledtrad": "<p>Fram och tillbaka är 8,00 m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften.",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En telefonledning är 4,00 m lång och väger 0,200 kg. En puls går fram och tillbaka i ledningen på 0,600 s.</p>Pulsens hastighet är 13,3 m/s.<p>Bestäm spännkraften.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{0{,}200}{4{,}00}=0{,}0500\\) kg/m. \\(F=\\mu v^2=0{,}0500\\cdot13{,}3^2\\).</p><p><strong>Svar:</strong> \\(8{,}89\\) N</p>",
+        "ledtrad": "<p>\\(F=\\mu v^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F=\\mu v^2\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "lindansarens lina",
+    "poang": "(1/1/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 20 m lång lina väger 0,350 kg. En våg går från ena änden och tillbaka på 0,800 s. Bestäm spännkraften.</p>",
+    "s": "<p>\\(v=\\dfrac{40}{0{,}800}=50\\) m/s. \\(\\mu=\\dfrac{0{,}350}{20}\\). \\(F=\\mu v^2\\).</p><p><strong>Svar:</strong> \\(43{,}7\\) N</p>",
+    "id": "2.403",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 43.74999999999999,
+    "tolerans": 0.656,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm hastigheten och massan per meter.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "puls i spänd tråd",
+    "poang": "(2/0/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 6,30 m lång tråd väger 0,150 kg och har spännkraften 12,0 N.</p><ol type=\"a\"><li>Vilken hastighet får en transversell puls?</li><li>Hur lång tid tar det för pulsen att gå fram och tillbaka?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\mu=\\dfrac{0{,}150}{6{,}30}\\). \\(v=\\sqrt{\\dfrac{12{,}0}{\\mu}}\\).</p><p><strong>Svar:</strong> \\(22{,}4\\) m/s</p></li><li><p>\\(t=\\dfrac{12{,}6}{22{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}561\\) s</p></li></ol>",
+    "id": "2.404",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      22.44994432064365,
+      0.5612486080160912
+    ],
+    "tolerans": [
+      0.337,
+      0.00842
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 6,30 m lång tråd väger 0,150 kg och har spännkraften 12,0 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken hastighet får en transversell puls?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 6,30 m lång tråd väger 0,150 kg och har spännkraften 12,0 N.</p><p>Vilken hastighet får en transversell puls?</p>",
+        "s": "<p>\\(\\mu=\\dfrac{0{,}150}{6{,}30}\\). \\(v=\\sqrt{\\dfrac{12{,}0}{\\mu}}\\).</p><p><strong>Svar:</strong> \\(22{,}4\\) m/s</p>",
+        "ledtrad": "<p>Bestäm \\(\\mu\\) först.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det för pulsen att gå fram och tillbaka?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 6,30 m lång tråd väger 0,150 kg och har spännkraften 12,0 N.</p>Pulsens hastighet är 22,4 m/s.<p>Hur lång tid tar det för pulsen att gå fram och tillbaka?</p>",
+        "s": "<p>\\(t=\\dfrac{12{,}6}{22{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}561\\) s</p>",
+        "ledtrad": "<p>Sträckan är dubbla längden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=\\sqrt{\\dfrac F\\mu}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "tvättlina",
+    "poang": "(2/0/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 12,0 m lång tvättlina väger 0,375 kg. En puls går fram och tillbaka tre gånger på 2,96 s.</p><ol type=\"a\"><li>Bestäm pulsens hastighet.</li><li>Bestäm spännkraften.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{3\\cdot24{,}0}{2{,}96}\\).</p><p><strong>Svar:</strong> \\(24{,}3\\) m/s</p></li><li><p>\\(F=\\mu v^2=\\dfrac{0{,}375}{12{,}0}\\cdot24{,}3^2\\).</p><p><strong>Svar:</strong> \\(18{,}5\\) N</p></li></ol>",
+    "id": "2.405",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24.324324324324326,
+      18.489773557341127
+    ],
+    "tolerans": [
+      0.365,
+      0.277
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 12,0 m lång tvättlina väger 0,375 kg. En puls går fram och tillbaka tre gånger på 2,96 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm pulsens hastighet.",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 12,0 m lång tvättlina väger 0,375 kg. En puls går fram och tillbaka tre gånger på 2,96 s.</p><p>Bestäm pulsens hastighet.</p>",
+        "s": "<p>\\(v=\\dfrac{3\\cdot24{,}0}{2{,}96}\\).</p><p><strong>Svar:</strong> \\(24{,}3\\) m/s</p>",
+        "ledtrad": "<p>En gång fram och tillbaka är 24,0 m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften.",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 12,0 m lång tvättlina väger 0,375 kg. En puls går fram och tillbaka tre gånger på 2,96 s.</p>Pulsens hastighet är 24,3 m/s.<p>Bestäm spännkraften.</p>",
+        "s": "<p>\\(F=\\mu v^2=\\dfrac{0{,}375}{12{,}0}\\cdot24{,}3^2\\).</p><p><strong>Svar:</strong> \\(18{,}5\\) N</p>",
+        "ledtrad": "<p>\\(F=\\mu v^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F=\\mu v^2\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "ändrad spännkraft",
+    "poang": "(2/0/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En transversell våg har hastigheten 50,0 m/s i en 5,00 m lång lina som väger 0,060 kg.</p><ol type=\"a\"><li>Bestäm spännkraften.</li><li>Spännkraften ändras till 8,00 N. Vilken blir våghastigheten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\mu=0{,}012\\) kg/m. \\(F=0{,}012\\cdot50{,}0^2\\).</p><p><strong>Svar:</strong> \\(30{,}0\\) N</p></li><li><p>\\(v=\\sqrt{\\dfrac{8{,}00}{0{,}012}}\\).</p><p><strong>Svar:</strong> \\(25{,}8\\) m/s</p></li></ol>",
+    "id": "2.406",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      25.81988897471611
+    ],
+    "tolerans": [
+      0.45,
+      0.387
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En transversell våg har hastigheten 50,0 m/s i en 5,00 m lång lina som väger 0,060 kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spännkraften.",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En transversell våg har hastigheten 50,0 m/s i en 5,00 m lång lina som väger 0,060 kg.</p><p>Bestäm spännkraften.</p>",
+        "s": "<p>\\(\\mu=0{,}012\\) kg/m. \\(F=0{,}012\\cdot50{,}0^2\\).</p><p><strong>Svar:</strong> \\(30{,}0\\) N</p>",
+        "ledtrad": "<p>\\(F=\\mu v^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Spännkraften ändras till 8,00 N. Vilken blir våghastigheten?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En transversell våg har hastigheten 50,0 m/s i en 5,00 m lång lina som väger 0,060 kg.</p><p>Spännkraften ändras till 8,00 N. Vilken blir våghastigheten?</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{8{,}00}{0{,}012}}\\).</p><p><strong>Svar:</strong> \\(25{,}8\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\sqrt{\\dfrac F\\mu}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=\\sqrt{\\dfrac F\\mu}\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "tyngdaccelerationen på månen",
+    "poang": "(0/2/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>På månen fäster en astronaut en 1,60 m lång tråd med massan 4,00 g i ett stativ. Tråden går vågrätt över en trissa och bär en vikt med massan 3,00 kg. En puls tar 36,1 ms från ena änden till den andra. Bestäm tyngdaccelerationen på månen.</p>",
+    "s": "<p>\\(v=\\dfrac{1{,}60}{0{,}0361}\\approx44{,}3\\) m/s. \\(\\mu=0{,}00250\\) kg/m. \\(F=\\mu v^2\\approx4{,}91\\) N \\(=mg\\).</p><p>\\(g=\\dfrac{4{,}91}{3{,}00}\\).</p><p><strong>Svar:</strong> \\(1{,}64\\) m/s²</p>",
+    "id": "2.407",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.6369835508731008,
+    "tolerans": 0.0246,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Spännkraften är viktens tyngd.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "A",
+    "typ": "våghastighet i pendeltråd",
+    "poang": "(0/1/1)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En plan pendel består av en kula med massan 5,00 kg i en tråd med massan 0,060 kg. Pendelns period är 2,00 s. Pendeln hänger i vila. Vilken hastighet får en transversell våg i tråden? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>Längden ur perioden: \\(l=\\dfrac{gT^2}{4\\pi^2}\\approx0{,}995\\) m. \\(\\mu=\\dfrac{0{,}060}{0{,}995}\\). \\(F=5{,}00\\cdot9{,}82\\).</p><p>\\(v=\\sqrt{\\dfrac F\\mu}\\).</p><p><strong>Svar:</strong> \\(28{,}5\\) m/s</p>",
+    "id": "2.408",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28.53454764180807,
+    "tolerans": 0.428,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm trådens längd ur pendelns period.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "hälften så tung sträng",
+    "poang": "(0/1/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Två lika långa strängar spänns med samma kraft. I den ena är våghastigheten 5,00 m/s. Den andra har hälften så stor massa. Vilken våghastighet har den?</p>",
+    "s": "<p>\\(v\\sim\\dfrac{1}{\\sqrt\\mu}\\): \\(5{,}00\\cdot\\sqrt2\\).</p><p><strong>Svar:</strong> \\(7{,}07\\) m/s</p>",
+    "id": "2.409",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.0710678118654755,
+    "tolerans": 0.106,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur beror \\(v\\) på \\(\\mu\\)?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "vikter som spänner snöre",
+    "poang": "(1/2/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett snöre med \\(\\mu=5{,}6\\cdot10^{-3}\\) kg/m spänns av en vikt som hänger över en trissa. Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Med vikten \\(m_1\\) är våghastigheten 20 m/s. Bestäm \\(m_1\\).</li><li>En vikt \\(m_2\\) till hängs på, och då blir våghastigheten 45 m/s. Bestäm \\(m_2\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\mu v^2=5{,}6\\cdot10^{-3}\\cdot20^2=2{,}24\\) N. \\(m_1=\\dfrac{2{,}24}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}23\\) kg</p></li><li><p>\\(F=5{,}6\\cdot10^{-3}\\cdot45^2\\approx11{,}3\\) N, total massa \\(\\approx1{,}15\\) kg. \\(m_2=1{,}15-0{,}23\\).</p><p><strong>Svar:</strong> \\(0{,}93\\) kg</p></li></ol>",
+    "id": "2.410",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.22810590631364558,
+      0.9266802443991854
+    ],
+    "tolerans": [
+      0.0051,
+      0.0139
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett snöre med \\(\\mu=5{,}6\\cdot10^{-3}\\) kg/m spänns av en vikt som hänger över en trissa. Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Med vikten \\(m_1\\) är våghastigheten 20 m/s. Bestäm \\(m_1\\).",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett snöre med \\(\\mu=5{,}6\\cdot10^{-3}\\) kg/m spänns av en vikt som hänger över en trissa. Använd \\(g=9{,}82\\) m/s².</p><p>Med vikten \\(m_1\\) är våghastigheten 20 m/s. Bestäm \\(m_1\\).</p>",
+        "s": "<p>\\(F=\\mu v^2=5{,}6\\cdot10^{-3}\\cdot20^2=2{,}24\\) N. \\(m_1=\\dfrac{2{,}24}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}23\\) kg</p>",
+        "ledtrad": "<p>Spännkraften är viktens tyngd.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En vikt \\(m_2\\) till hängs på, och då blir våghastigheten 45 m/s. Bestäm \\(m_2\\).",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett snöre med \\(\\mu=5{,}6\\cdot10^{-3}\\) kg/m spänns av en vikt som hänger över en trissa. Använd \\(g=9{,}82\\) m/s².</p>\\(m_1\\approx0{,}23\\) kg ger våghastigheten 20 m/s.<p>En vikt \\(m_2\\) till hängs på, och då blir våghastigheten 45 m/s. Bestäm \\(m_2\\).</p>",
+        "s": "<p>\\(F=5{,}6\\cdot10^{-3}\\cdot45^2\\approx11{,}3\\) N, total massa \\(\\approx1{,}15\\) kg. \\(m_2=1{,}15-0{,}23\\).</p><p><strong>Svar:</strong> \\(0{,}93\\) kg</p>",
+        "ledtrad": "<p>Båda vikterna spänner snöret.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(F=\\mu v^2=mg\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "elastiskt snöre",
+    "poang": "(2/1/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett elastiskt snöre är 2,00 m långt, väger 1,20 g och spänns med kraften 5,0 N.</p><ol type=\"a\"><li>Beräkna pulsens hastighet.</li><li>Kraften fördubblas. Vilken blir hastigheten?</li><li>Snöret tänjs ut till 4,00 m med kraften 5,0 N. Vilken blir hastigheten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\mu=6{,}0\\cdot10^{-4}\\) kg/m. \\(v=\\sqrt{\\dfrac{5{,}0}{6{,}0\\cdot10^{-4}}}\\).</p><p><strong>Svar:</strong> \\(91{,}3\\) m/s</p></li><li><p>\\(v\\sim\\sqrt F\\): \\(91{,}3\\cdot\\sqrt2\\).</p><p><strong>Svar:</strong> \\(129\\) m/s</p></li><li><p>Massan per meter halveras: \\(\\mu=3{,}0\\cdot10^{-4}\\) kg/m.</p><p><strong>Svar:</strong> \\(129\\) m/s</p></li></ol>",
+    "id": "2.411",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      91.28709291752769,
+      129.09944487358058,
+      129.09944487358058
+    ],
+    "tolerans": [
+      1.37,
+      1.94,
+      1.94
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett elastiskt snöre är 2,00 m långt, väger 1,20 g och spänns med kraften 5,0 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna pulsens hastighet.",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett elastiskt snöre är 2,00 m långt, väger 1,20 g och spänns med kraften 5,0 N.</p><p>Beräkna pulsens hastighet.</p>",
+        "s": "<p>\\(\\mu=6{,}0\\cdot10^{-4}\\) kg/m. \\(v=\\sqrt{\\dfrac{5{,}0}{6{,}0\\cdot10^{-4}}}\\).</p><p><strong>Svar:</strong> \\(91{,}3\\) m/s</p>",
+        "ledtrad": "<p>Bestäm \\(\\mu\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Kraften fördubblas. Vilken blir hastigheten?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett elastiskt snöre är 2,00 m långt, väger 1,20 g och spänns med kraften 5,0 N.</p>Med 5,0 N är hastigheten 91,3 m/s.<p>Kraften fördubblas. Vilken blir hastigheten?</p>",
+        "s": "<p>\\(v\\sim\\sqrt F\\): \\(91{,}3\\cdot\\sqrt2\\).</p><p><strong>Svar:</strong> \\(129\\) m/s</p>",
+        "ledtrad": "<p>\\(v\\sim\\sqrt F\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Snöret tänjs ut till 4,00 m med kraften 5,0 N. Vilken blir hastigheten?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett elastiskt snöre är 2,00 m långt, väger 1,20 g och spänns med kraften 5,0 N.</p><p>Snöret tänjs ut till 4,00 m med kraften 5,0 N. Vilken blir hastigheten?</p>",
+        "s": "<p>Massan per meter halveras: \\(\\mu=3{,}0\\cdot10^{-4}\\) kg/m.</p><p><strong>Svar:</strong> \\(129\\) m/s</p>",
+        "ledtrad": "<p>Vad händer med \\(\\mu\\)?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=\\sqrt{\\dfrac F\\mu}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "linjär densitet ur stående våg",
+    "poang": "(0/2/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 2,00 m lång tråd går över en trissa och bär en vikt med massan 5,00 kg. En vibrator med frekvensen 150 Hz ger en stående våg med sex bukar. Bestäm trådens massa per längdenhet. Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(\\lambda=\\dfrac{2\\cdot2{,}00}{6}\\approx0{,}667\\) m, \\(v=150\\cdot0{,}667=100\\) m/s. \\(\\mu=\\dfrac{F}{v^2}=\\dfrac{5{,}00\\cdot9{,}82}{100^2}\\).</p><p><strong>Svar:</strong> \\(0{,}00491\\) kg/m</p>",
+    "id": "2.412",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.00491,
+    "tolerans": 7.37e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm våghastigheten ur den stående vågen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg/m",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "A",
+    "typ": "vibratorns frekvens ur två massor",
+    "poang": "(0/2/3)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 2,00 m lång tråd med \\(\\mu=2{,}00\\cdot10^{-3}\\) kg/m går över en trissa och bär en vikt. Vibratorns frekvens är konstant. Med massan 25,0 kg uppstår en stående våg, och nästa stående våg fås med 16,0 kg. Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Bestäm vibratorns frekvens.</li><li>Vilken är den största massa som ger en stående våg?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v_1=\\sqrt{\\dfrac{25{,}0\\cdot9{,}82}{0{,}00200}}\\approx350\\) m/s, \\(v_2\\approx280\\) m/s. Med \\(n\\) respektive \\(n+1\\) bukar: \\(\\dfrac{2lf}{v_2}-\\dfrac{2lf}{v_1}=1\\).</p><p>\\(f=\\dfrac{1}{4\\left(\\frac1{280}-\\frac1{350}\\right)}\\).</p><p><strong>Svar:</strong> \\(350\\) Hz</p></li><li><p>En buk: \\(\\lambda=4{,}00\\) m och \\(v=4{,}00\\cdot350=1\\,400\\) m/s. \\(m=\\dfrac{\\mu v^2}{g}\\).</p><p><strong>Svar:</strong> \\(400\\) kg</p></li></ol>",
+    "id": "2.413",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      350.3569608270972,
+      400.00000000000045
+    ],
+    "tolerans": [
+      5.26,
+      6.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 2,00 m lång tråd med \\(\\mu=2{,}00\\cdot10^{-3}\\) kg/m går över en trissa och bär en vikt. Vibratorns frekvens är konstant. Med massan 25,0 kg uppstår en stående våg, och nästa stående våg fås med 16,0 kg. Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vibratorns frekvens.",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 2,00 m lång tråd med \\(\\mu=2{,}00\\cdot10^{-3}\\) kg/m går över en trissa och bär en vikt. Vibratorns frekvens är konstant. Med massan 25,0 kg uppstår en stående våg, och nästa stående våg fås med 16,0 kg. Använd \\(g=9{,}82\\) m/s².</p><p>Bestäm vibratorns frekvens.</p>",
+        "s": "<p>\\(v_1=\\sqrt{\\dfrac{25{,}0\\cdot9{,}82}{0{,}00200}}\\approx350\\) m/s, \\(v_2\\approx280\\) m/s. Med \\(n\\) respektive \\(n+1\\) bukar: \\(\\dfrac{2lf}{v_2}-\\dfrac{2lf}{v_1}=1\\).</p><p>\\(f=\\dfrac{1}{4\\left(\\frac1{280}-\\frac1{350}\\right)}\\).</p><p><strong>Svar:</strong> \\(350\\) Hz</p>",
+        "ledtrad": "<p>Den lättare vikten ger en bukt till.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den största massa som ger en stående våg?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 2,00 m lång tråd med \\(\\mu=2{,}00\\cdot10^{-3}\\) kg/m går över en trissa och bär en vikt. Vibratorns frekvens är konstant. Med massan 25,0 kg uppstår en stående våg, och nästa stående våg fås med 16,0 kg. Använd \\(g=9{,}82\\) m/s².</p>Vibratorns frekvens är 350 Hz.<p>Vilken är den största massa som ger en stående våg?</p>",
+        "s": "<p>En buk: \\(\\lambda=4{,}00\\) m och \\(v=4{,}00\\cdot350=1\\,400\\) m/s. \\(m=\\dfrac{\\mu v^2}{g}\\).</p><p><strong>Svar:</strong> \\(400\\) kg</p>",
+        "ledtrad": "<p>Färst bukar ger störst våghastighet.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Tyngre vikt ger större våghastighet och färre bukar.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "tråd med känd spännkraft",
+    "poang": "(1/2/1)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,5 m lång tråd spänns med kraften 12 N. Dess massa per längdenhet är 1,2 g/m.</p><ol type=\"a\"><li>Vilken frekvens har trådens grundton?</li><li>Vilken spännkraft ger andra övertonen frekvensen 0,50 kHz?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{\\dfrac{12}{1{,}2\\cdot10^{-3}}}=100\\) m/s. \\(f_1=\\dfrac{100}{2\\cdot1{,}5}\\).</p><p><strong>Svar:</strong> \\(33\\) Hz</p></li><li><p>Andra övertonen: \\(f_3=\\dfrac{3v}{2l}=v\\), så \\(v=500\\) m/s. \\(F=\\mu v^2=1{,}2\\cdot10^{-3}\\cdot500^2\\).</p><p><strong>Svar:</strong> \\(300\\) N</p></li></ol>",
+    "id": "2.414",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      33.333333333333336,
+      300
+    ],
+    "tolerans": [
+      0.51,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,5 m lång tråd spänns med kraften 12 N. Dess massa per längdenhet är 1,2 g/m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken frekvens har trådens grundton?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,5 m lång tråd spänns med kraften 12 N. Dess massa per längdenhet är 1,2 g/m.</p><p>Vilken frekvens har trådens grundton?</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{12}{1{,}2\\cdot10^{-3}}}=100\\) m/s. \\(f_1=\\dfrac{100}{2\\cdot1{,}5}\\).</p><p><strong>Svar:</strong> \\(33\\) Hz</p>",
+        "ledtrad": "<p>Bestäm våghastigheten först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken spännkraft ger andra övertonen frekvensen 0,50 kHz?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,5 m lång tråd spänns med kraften 12 N. Dess massa per längdenhet är 1,2 g/m.</p><p>Vilken spännkraft ger andra övertonen frekvensen 0,50 kHz?</p>",
+        "s": "<p>Andra övertonen: \\(f_3=\\dfrac{3v}{2l}=v\\), så \\(v=500\\) m/s. \\(F=\\mu v^2=1{,}2\\cdot10^{-3}\\cdot500^2\\).</p><p><strong>Svar:</strong> \\(300\\) N</p>",
+        "ledtrad": "<p>Andra övertonen har tre bukar.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(v=\\sqrt{\\dfrac F\\mu}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "trådens massa ur resonanser",
+    "poang": "(0/2/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,6 m lång tråd fäst i båda ändar har resonanser vid 780 Hz och 1 040 Hz, som följer på varandra. Spännkraften är 1 200 N. Hur mycket väger tråden?</p>",
+    "s": "<p>\\(f_1=260\\) Hz, så \\(v=2\\cdot1{,}6\\cdot260=832\\) m/s. \\(\\mu=\\dfrac{1\\,200}{832^2}\\), \\(m=\\mu l\\).</p><p><strong>Svar:</strong> \\(0{,}0028\\) kg</p>",
+    "id": "2.415",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0027736686390532547,
+    "tolerans": 5.1e-05,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm grundtonen och våghastigheten.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "frekvens och spännkraft i procent",
+    "poang": "(0/2/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En gitarrsträng ger sin grundton. Längden och massan ändras inte.</p><ol type=\"a\"><li>Man vill sänka frekvensen 4,0 %. Med hur många procent ska spännkraften sänkas?</li><li>Spännkraften ökar 15 %. Med hur många procent ökar frekvensen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f\\sim\\sqrt F\\): \\(F_2=0{,}96^2F_1\\approx0{,}922F_1\\).</p><p><strong>Svar:</strong> \\(7{,}8\\) %</p></li><li><p>\\(\\sqrt{1{,}15}\\approx1{,}072\\).</p><p><strong>Svar:</strong> \\(7{,}2\\) %</p></li></ol>",
+    "id": "2.416",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.8400000000000025,
+      7.238052947636087
+    ],
+    "tolerans": [
+      0.118,
+      0.109
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "%",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En gitarrsträng ger sin grundton. Längden och massan ändras inte.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Man vill sänka frekvensen 4,0 %. Med hur många procent ska spännkraften sänkas?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En gitarrsträng ger sin grundton. Längden och massan ändras inte.</p><p>Man vill sänka frekvensen 4,0 %. Med hur många procent ska spännkraften sänkas?</p>",
+        "s": "<p>\\(f\\sim\\sqrt F\\): \\(F_2=0{,}96^2F_1\\approx0{,}922F_1\\).</p><p><strong>Svar:</strong> \\(7{,}8\\) %</p>",
+        "ledtrad": "<p>\\(f\\sim v\\sim\\sqrt F\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Spännkraften ökar 15 %. Med hur många procent ökar frekvensen?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En gitarrsträng ger sin grundton. Längden och massan ändras inte.</p><p>Spännkraften ökar 15 %. Med hur många procent ökar frekvensen?</p>",
+        "s": "<p>\\(\\sqrt{1{,}15}\\approx1{,}072\\).</p><p><strong>Svar:</strong> \\(7{,}2\\) %</p>",
+        "ledtrad": "<p>\\(f\\sim\\sqrt F\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Våglängden är konstant, så frekvensen är proportionell mot våghastigheten.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "snöre över trissa",
+    "poang": "(1/1/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Ett 5,00 m långt snöre med massan 8,00 g går över en trissa och bär en vikt med massan 4,00 kg. Vilken frekvens har grundtonen? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(F=39{,}3\\) N, \\(\\mu=1{,}60\\cdot10^{-3}\\) kg/m. \\(v=\\sqrt{\\dfrac{39{,}3}{1{,}60\\cdot10^{-3}}}\\approx157\\) m/s. \\(f_1=\\dfrac{v}{2l}\\).</p><p><strong>Svar:</strong> \\(15{,}7\\) Hz</p>",
+    "id": "2.417",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.668439615992398,
+    "tolerans": 0.235,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Spännkraften är viktens tyngd.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "E",
+    "typ": "grundton och övertoner ur spännkraft",
+    "poang": "(2/0/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 30,0 cm lång sträng med \\(\\mu=9{,}00\\cdot10^{-3}\\) kg/m spänns med kraften 20,0 N.</p><ol type=\"a\"><li>Bestäm grundtonens frekvens.</li><li>Bestäm andra övertonens frekvens.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{\\dfrac{20{,}0}{9{,}00\\cdot10^{-3}}}\\approx47{,}1\\) m/s. \\(f_1=\\dfrac{47{,}1}{0{,}600}\\).</p><p><strong>Svar:</strong> \\(78{,}6\\) Hz</p></li><li><p>\\(f_3=3f_1\\).</p><p><strong>Svar:</strong> \\(236\\) Hz</p></li></ol>",
+    "id": "2.418",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      78.56742013183862,
+      235.70226039551585
+    ],
+    "tolerans": [
+      1.18,
+      3.54
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 30,0 cm lång sträng med \\(\\mu=9{,}00\\cdot10^{-3}\\) kg/m spänns med kraften 20,0 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm grundtonens frekvens.",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 30,0 cm lång sträng med \\(\\mu=9{,}00\\cdot10^{-3}\\) kg/m spänns med kraften 20,0 N.</p><p>Bestäm grundtonens frekvens.</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{20{,}0}{9{,}00\\cdot10^{-3}}}\\approx47{,}1\\) m/s. \\(f_1=\\dfrac{47{,}1}{0{,}600}\\).</p><p><strong>Svar:</strong> \\(78{,}6\\) Hz</p>",
+        "ledtrad": "<p>Bestäm våghastigheten först.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm andra övertonens frekvens.",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 30,0 cm lång sträng med \\(\\mu=9{,}00\\cdot10^{-3}\\) kg/m spänns med kraften 20,0 N.</p>Grundtonen är 78,6 Hz.<p>Bestäm andra övertonens frekvens.</p>",
+        "s": "<p>\\(f_3=3f_1\\).</p><p><strong>Svar:</strong> \\(236\\) Hz</p>",
+        "ledtrad": "<p>Andra övertonen är tredje multipeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(f_n=n\\cdot\\dfrac{v}{2l}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "spännkraft i fiolsträng",
+    "poang": "(1/1/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En fiolsträng har grundtonen 440 Hz. Strängen är 32 cm lång och väger 0,35 g. Hur stor är spännkraften?</p>",
+    "s": "<p>\\(v=2\\cdot0{,}32\\cdot440\\approx282\\) m/s. \\(\\mu=\\dfrac{0{,}35\\cdot10^{-3}}{0{,}32}\\). \\(F=\\mu v^2\\).</p><p><strong>Svar:</strong> \\(87\\) N</p>",
+    "id": "2.419",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 86.7328,
+    "tolerans": 1.3,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm våghastigheten ur grundtonen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "harpsträng och ljud",
+    "poang": "(2/1/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,50 m lång harpsträng har \\(\\mu=25{,}0\\) mg/m och grundtonen 450,0 Hz.</p><ol type=\"a\"><li>Vilken hastighet har de transversella vågorna i strängen?</li><li>Hur stor är spännkraften?</li><li>Vilken våglängd har ljudvågorna i luften om ljudets hastighet är 340 m/s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=2\\cdot1{,}50\\cdot450{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,350\\) m/s</p></li><li><p>\\(F=\\mu v^2=25{,}0\\cdot10^{-6}\\cdot1\\,350^2\\).</p><p><strong>Svar:</strong> \\(45{,}6\\) N</p></li><li><p>Ljudet har samma frekvens som strängen: \\(\\lambda=\\dfrac{340}{450{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}756\\) m</p></li></ol>",
+    "id": "2.420",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1350,
+      45.5625,
+      0.7555555555555555
+    ],
+    "tolerans": [
+      20.2,
+      0.683,
+      0.0113
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,50 m lång harpsträng har \\(\\mu=25{,}0\\) mg/m och grundtonen 450,0 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken hastighet har de transversella vågorna i strängen?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,50 m lång harpsträng har \\(\\mu=25{,}0\\) mg/m och grundtonen 450,0 Hz.</p><p>Vilken hastighet har de transversella vågorna i strängen?</p>",
+        "s": "<p>\\(v=2\\cdot1{,}50\\cdot450{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,350\\) m/s</p>",
+        "ledtrad": "<p>\\(v=f\\cdot2l\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är spännkraften?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,50 m lång harpsträng har \\(\\mu=25{,}0\\) mg/m och grundtonen 450,0 Hz.</p>Våghastigheten är 1 350 m/s.<p>Hur stor är spännkraften?</p>",
+        "s": "<p>\\(F=\\mu v^2=25{,}0\\cdot10^{-6}\\cdot1\\,350^2\\).</p><p><strong>Svar:</strong> \\(45{,}6\\) N</p>",
+        "ledtrad": "<p>\\(F=\\mu v^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken våglängd har ljudvågorna i luften om ljudets hastighet är 340 m/s?",
+        "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 1,50 m lång harpsträng har \\(\\mu=25{,}0\\) mg/m och grundtonen 450,0 Hz.</p><p>Vilken våglängd har ljudvågorna i luften om ljudets hastighet är 340 m/s?</p>",
+        "s": "<p>Ljudet har samma frekvens som strängen: \\(\\lambda=\\dfrac{340}{450{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}756\\) m</p>",
+        "ledtrad": "<p>Frekvensen ändras inte när vågen går över till luften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Strängen och ljudet har samma frekvens men olika våghastighet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "massa per längd för gitarrsträng",
+    "poang": "(1/1/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>En 65 cm lång E-sträng på en gitarr spänns med kraften 82 N och har grundtonen 329,63 Hz. Bestäm strängens massa per längdenhet.</p>",
+    "s": "<p>\\(v=2\\cdot0{,}65\\cdot329{,}63\\approx428\\) m/s. \\(\\mu=\\dfrac{82}{428^2}\\).</p><p><strong>Svar:</strong> \\(0{,}00045\\) kg/m</p>",
+    "id": "2.421",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0004465536945655069,
+    "tolerans": 6.7e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm våghastigheten ur grundtonen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg/m",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "pianosträngens massa",
+    "poang": "(1/1/0)",
+    "t": "<p>Våghastigheten i en spänd sträng är \\(v=\\sqrt{\\dfrac{F}{\\mu}}\\), där \\(\\mu\\) är massan per längdenhet.</p><p>Den längsta strängen i ett piano är 2,0 m lång, har spännkraften 300,0 N och grundtonen 27,5 Hz. Vilken massa har strängen?</p>",
+    "s": "<p>\\(v=2\\cdot2{,}0\\cdot27{,}5=110\\) m/s. \\(\\mu=\\dfrac{300{,}0}{110^2}\\), \\(m=\\mu\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(0{,}050\\) kg</p>",
+    "id": "2.422",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.049586776859504134,
+    "tolerans": 0.000744,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm våghastigheten ur grundtonen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
+    "kap": 2,
+    "omr": "staende_vagor",
+    "niva": "C",
+    "typ": "kortare vibrerande del",
+    "poang": "(0/2/0)",
+    "t": "<p>En gitarrsträngs andra överton har frekvensen 540 Hz. Man trycker ned strängen så att den vibrerande delen bara är 70 % av längden. Vilken grundton får strängen då?</p>",
+    "s": "<p>Ursprunglig grundton: \\(\\dfrac{540}{3}=180\\) Hz. Kortare sträng ger högre frekvens: \\(\\dfrac{180}{0{,}70}\\).</p><p><strong>Svar:</strong> \\(257\\) Hz</p>",
+    "id": "2.423",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Frekvens, våghastighet och strängspänning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 257.14285714285717,
+    "tolerans": 3.86,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först grundtonen för hela strängen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Hz",
+    "familjNyckel": "staende_vagor__frekvens_vaghastighet_och_strangspanning"
+  },
+  {
     "id": "2.193",
     "kap": 2,
     "omr": "ljudvagor",
@@ -29702,6 +31482,1119 @@ window.BANK2 = [
         "poang": "0/0/1"
       }
     ]
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "öppen och halvöppen pipa",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Två pipor är båda 60 cm långa. Den ena är öppen i båda ändar, den andra är halvöppen.</p><ol type=\"a\"><li>Bestäm grundtonens frekvens i den öppna pipan.</li><li>Bestäm grundtonens frekvens i den halvöppna pipan.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=2l=1{,}2\\) m. \\(f=\\dfrac{340}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(283\\) Hz</p></li><li><p>\\(\\lambda=4l=2{,}4\\) m. \\(f=\\dfrac{340}{2{,}4}\\).</p><p><strong>Svar:</strong> \\(142\\) Hz</p></li></ol>",
+    "id": "2.362",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      283.33333333333337,
+      141.66666666666669
+    ],
+    "tolerans": [
+      5.1,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Två pipor är båda 60 cm långa. Den ena är öppen i båda ändar, den andra är halvöppen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm grundtonens frekvens i den öppna pipan.",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Två pipor är båda 60 cm långa. Den ena är öppen i båda ändar, den andra är halvöppen.</p><p>Bestäm grundtonens frekvens i den öppna pipan.</p>",
+        "s": "<p>\\(\\lambda=2l=1{,}2\\) m. \\(f=\\dfrac{340}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(283\\) Hz</p>",
+        "ledtrad": "<p>Grundtonen i en öppen pipa: \\(l=\\dfrac\\lambda2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm grundtonens frekvens i den halvöppna pipan.",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Två pipor är båda 60 cm långa. Den ena är öppen i båda ändar, den andra är halvöppen.</p><p>Bestäm grundtonens frekvens i den halvöppna pipan.</p>",
+        "s": "<p>\\(\\lambda=4l=2{,}4\\) m. \\(f=\\dfrac{340}{2{,}4}\\).</p><p><strong>Svar:</strong> \\(142\\) Hz</p>",
+        "ledtrad": "<p>Grundtonen i en halvöppen pipa: \\(l=\\dfrac\\lambda4\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Rita stående vågor med buk vid öppen ände och nod vid sluten ände.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "provrör som pipa",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Ett tomt provrör är ungefär 15 cm långt. Man blåser över kanten och får en ton. Vilken frekvens bör grundtonen ha?</p>",
+    "s": "<p>Provröret är en halvöppen pipa: \\(\\lambda=4\\cdot0{,}15=0{,}60\\) m. \\(f=\\dfrac{340}{0{,}60}\\). Fyller man på vatten blir pipan kortare och tonen högre.</p><p><strong>Svar:</strong> \\(567\\) Hz</p>",
+    "id": "2.363",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 566.6666666666667,
+    "tolerans": 8.5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Är provröret öppet eller halvöppet?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "orgelpipa för tonen C",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En tons frekvens fördubblas för varje oktav uppåt. En öppen orgelpipa ska ge grundtonen C med frekvensen 65,4 Hz.</p><ol type=\"a\"><li>Hur lång ska pipan vara?</li><li>Hur lång ska en öppen pipa vara för att ge C en oktav högre?</li><li>Hur lång ska en öppen pipa vara för att ge C en oktav lägre?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(l=\\dfrac\\lambda2=\\dfrac{340}{2\\cdot65{,}4}\\).</p><p><strong>Svar:</strong> \\(2{,}60\\) m</p></li><li><p>Dubbla frekvensen ger halva längden: \\(\\dfrac{2{,}60}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}30\\) m</p></li><li><p>Halva frekvensen ger dubbla längden: \\(2\\cdot2{,}60\\).</p><p><strong>Svar:</strong> \\(5{,}20\\) m</p></li></ol>",
+    "id": "2.364",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.5993883792048926,
+      1.2996941896024463,
+      5.198776758409785
+    ],
+    "tolerans": [
+      0.039,
+      0.0195,
+      0.078
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En tons frekvens fördubblas för varje oktav uppåt. En öppen orgelpipa ska ge grundtonen C med frekvensen 65,4 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång ska pipan vara?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En tons frekvens fördubblas för varje oktav uppåt. En öppen orgelpipa ska ge grundtonen C med frekvensen 65,4 Hz.</p><p>Hur lång ska pipan vara?</p>",
+        "s": "<p>\\(l=\\dfrac\\lambda2=\\dfrac{340}{2\\cdot65{,}4}\\).</p><p><strong>Svar:</strong> \\(2{,}60\\) m</p>",
+        "ledtrad": "<p>\\(l=\\dfrac\\lambda2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång ska en öppen pipa vara för att ge C en oktav högre?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En tons frekvens fördubblas för varje oktav uppåt. En öppen orgelpipa ska ge grundtonen C med frekvensen 65,4 Hz.</p>Pipan för 65,4 Hz är 2,60 m lång.<p>Hur lång ska en öppen pipa vara för att ge C en oktav högre?</p>",
+        "s": "<p>Dubbla frekvensen ger halva längden: \\(\\dfrac{2{,}60}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}30\\) m</p>",
+        "ledtrad": "<p>Frekvensen fördubblas.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång ska en öppen pipa vara för att ge C en oktav lägre?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En tons frekvens fördubblas för varje oktav uppåt. En öppen orgelpipa ska ge grundtonen C med frekvensen 65,4 Hz.</p>Pipan för 65,4 Hz är 2,60 m lång.<p>Hur lång ska en öppen pipa vara för att ge C en oktav lägre?</p>",
+        "s": "<p>Halva frekvensen ger dubbla längden: \\(2\\cdot2{,}60\\).</p><p><strong>Svar:</strong> \\(5{,}20\\) m</p>",
+        "ledtrad": "<p>Frekvensen halveras.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(f\\) och \\(l\\) är omvänt proportionella.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "håll för ena änden",
+    "poang": "(0/1/0)",
+    "t": "<p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En öppen pipa har grundtonen 330 Hz. Vilken grundton får den om man håller för den ena öppningen?</p>",
+    "s": "<p>Halvöppen pipa med samma längd: våglängden fördubblas och frekvensen halveras.</p><p><strong>Svar:</strong> \\(165\\) Hz</p>",
+    "id": "2.365",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 165,
+    "tolerans": 2.48,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför grundtonens våglängd i öppen och halvöppen pipa.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "första övertonen i flaska",
+    "poang": "(0/1/0)",
+    "t": "<p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>När man blåser över kanten på en glasflaska får man grundtonen 0,57 kHz. Blåser man hårdare får man första övertonen. Vilken frekvens har den?</p>",
+    "s": "<p>Flaskan är en halvöppen pipa, där övertonerna är udda multipler av grundtonen: \\(3\\cdot0{,}57\\) kHz.</p><p><strong>Svar:</strong> \\(1\\,710\\) Hz</p>",
+    "id": "2.366",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1710,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilka övertoner finns i en halvöppen pipa?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "orgelpipa i kyla",
+    "poang": "(0/1/0)",
+    "t": "<p>Ljudhastigheten i luft är \\(v=331+0{,}6\\,T\\) m/s där \\(T\\) är temperaturen i °C.</p><p>En öppen orgelpipa har grundtonen 130,8 Hz vid 20 °C. Vilken grundton ger den vid 0 °C?</p>",
+    "s": "<p>Våglängden bestäms av pipans längd, så \\(f\\) är proportionell mot \\(v\\): \\(130{,}8\\cdot\\dfrac{331}{343}\\).</p><p><strong>Svar:</strong> \\(126\\) Hz</p>",
+    "id": "2.367",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 126.22390670553936,
+    "tolerans": 1.89,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vad är konstant när temperaturen ändras?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "plaströr i blåst",
+    "poang": "(1/0/0)",
+    "t": "<p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 1,36 m långt plaströr, öppet i båda ändar, hålls ut i kraftig blåst och ger en dov ton. Vilken frekvens har grundtonen om ljudets hastighet är 338 m/s?</p>",
+    "s": "<p>\\(\\lambda=2\\cdot1{,}36\\). \\(f=\\dfrac{338}{2{,}72}\\).</p><p><strong>Svar:</strong> \\(124\\) Hz</p>",
+    "id": "2.368",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 124.26470588235293,
+    "tolerans": 1.86,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Öppen pipa.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "rör som förstärker toner",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 70 cm långt rör är öppet i båda ändar.</p><ol type=\"a\"><li>Vilken är den lägsta frekvens som röret förstärker?</li><li>Vilken är den näst lägsta frekvensen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=1{,}40\\) m. \\(f=\\dfrac{340}{1{,}40}\\).</p><p><strong>Svar:</strong> \\(243\\) Hz</p></li><li><p>Första övertonen i en öppen pipa har dubbla frekvensen.</p><p><strong>Svar:</strong> \\(486\\) Hz</p></li></ol>",
+    "id": "2.369",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      242.85714285714286,
+      485.7142857142857
+    ],
+    "tolerans": [
+      5.1,
+      7.29
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 70 cm långt rör är öppet i båda ändar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken är den lägsta frekvens som röret förstärker?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 70 cm långt rör är öppet i båda ändar.</p><p>Vilken är den lägsta frekvens som röret förstärker?</p>",
+        "s": "<p>\\(\\lambda=1{,}40\\) m. \\(f=\\dfrac{340}{1{,}40}\\).</p><p><strong>Svar:</strong> \\(243\\) Hz</p>",
+        "ledtrad": "<p>Grundtonen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den näst lägsta frekvensen?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 70 cm långt rör är öppet i båda ändar.</p>Grundtonen är 243 Hz.<p>Vilken är den näst lägsta frekvensen?</p>",
+        "s": "<p>Första övertonen i en öppen pipa har dubbla frekvensen.</p><p><strong>Svar:</strong> \\(486\\) Hz</p>",
+        "ledtrad": "<p>I en öppen pipa finns alla heltalsmultipler.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Öppen pipa: \\(f_n=n\\cdot\\dfrac{v}{2l}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "resonanser i slutet rör",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 34 cm långt glasrör är slutet i ena änden. En högtalare vid öppningen sveper frekvensen från 500 Hz till 1 500 Hz.</p><ol type=\"a\"><li>Vid vilken frekvens hörs den första resonansen i intervallet?</li><li>Vid vilken frekvens hörs den sista resonansen i intervallet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f=(2k+1)\\cdot\\dfrac{340}{4\\cdot0{,}34}=(2k+1)\\cdot250\\) Hz. Grundtonen 250 Hz ligger utanför; nästa är 750 Hz.</p><p><strong>Svar:</strong> \\(750\\) Hz</p></li><li><p>\\(5\\cdot250=1\\,250\\) Hz. Nästa, 1 750 Hz, ligger utanför.</p><p><strong>Svar:</strong> \\(1\\,250\\) Hz</p></li></ol>",
+    "id": "2.370",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resonansrör och Kundts rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      750,
+      1250
+    ],
+    "tolerans": [
+      11.2,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 34 cm långt glasrör är slutet i ena änden. En högtalare vid öppningen sveper frekvensen från 500 Hz till 1 500 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vid vilken frekvens hörs den första resonansen i intervallet?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 34 cm långt glasrör är slutet i ena änden. En högtalare vid öppningen sveper frekvensen från 500 Hz till 1 500 Hz.</p><p>Vid vilken frekvens hörs den första resonansen i intervallet?</p>",
+        "s": "<p>\\(f=(2k+1)\\cdot\\dfrac{340}{4\\cdot0{,}34}=(2k+1)\\cdot250\\) Hz. Grundtonen 250 Hz ligger utanför; nästa är 750 Hz.</p><p><strong>Svar:</strong> \\(750\\) Hz</p>",
+        "ledtrad": "<p>Halvöppen pipa ger udda multipler av grundtonen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vid vilken frekvens hörs den sista resonansen i intervallet?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 34 cm långt glasrör är slutet i ena änden. En högtalare vid öppningen sveper frekvensen från 500 Hz till 1 500 Hz.</p>Grundtonen är 250 Hz.<p>Vid vilken frekvens hörs den sista resonansen i intervallet?</p>",
+        "s": "<p>\\(5\\cdot250=1\\,250\\) Hz. Nästa, 1 750 Hz, ligger utanför.</p><p><strong>Svar:</strong> \\(1\\,250\\) Hz</p>",
+        "ledtrad": "<p>Halvöppen pipa ger udda multipler av grundtonen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Halvöppen pipa: \\(f=(2k+1)\\cdot\\dfrac{v}{4l}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljudvagor__resonansror_och_kundts_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "resonanser i öppet rör",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 45 cm långt glasrör är öppet i båda ändar. En högtalare sveper frekvensen från 200 Hz till 1 500 Hz.</p><ol type=\"a\"><li>Vid vilken frekvens hörs den lägsta resonansen?</li><li>Vid vilken frekvens hörs den högsta resonansen i intervallet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f_1=\\dfrac{340}{2\\cdot0{,}45}\\).</p><p><strong>Svar:</strong> \\(378\\) Hz</p></li><li><p>\\(3f_1\\approx1\\,133\\) Hz. \\(4f_1\\approx1\\,511\\) Hz ligger utanför.</p><p><strong>Svar:</strong> \\(1\\,133\\) Hz</p></li></ol>",
+    "id": "2.371",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resonansrör och Kundts rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      377.77777777777777,
+      1133.3333333333333
+    ],
+    "tolerans": [
+      5.67,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 45 cm långt glasrör är öppet i båda ändar. En högtalare sveper frekvensen från 200 Hz till 1 500 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vid vilken frekvens hörs den lägsta resonansen?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 45 cm långt glasrör är öppet i båda ändar. En högtalare sveper frekvensen från 200 Hz till 1 500 Hz.</p><p>Vid vilken frekvens hörs den lägsta resonansen?</p>",
+        "s": "<p>\\(f_1=\\dfrac{340}{2\\cdot0{,}45}\\).</p><p><strong>Svar:</strong> \\(378\\) Hz</p>",
+        "ledtrad": "<p>Grundtonen i en öppen pipa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vid vilken frekvens hörs den högsta resonansen i intervallet?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett 45 cm långt glasrör är öppet i båda ändar. En högtalare sveper frekvensen från 200 Hz till 1 500 Hz.</p>Grundtonen är 378 Hz.<p>Vid vilken frekvens hörs den högsta resonansen i intervallet?</p>",
+        "s": "<p>\\(3f_1\\approx1\\,133\\) Hz. \\(4f_1\\approx1\\,511\\) Hz ligger utanför.</p><p><strong>Svar:</strong> \\(1\\,133\\) Hz</p>",
+        "ledtrad": "<p>Pröva multipler av grundtonen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Öppen pipa: \\(f_n=n\\cdot\\dfrac{v}{2l}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljudvagor__resonansror_och_kundts_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "längd för resonans",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Längden på ett öppet metallrör kan varieras mellan 20 cm och 90 cm. En ton med frekvensen 520 Hz sänds in. Vid vilken längd ger röret resonans för grundtonen?</p>",
+    "s": "<p>\\(l=\\dfrac\\lambda2=\\dfrac{340}{2\\cdot520}\\).</p><p><strong>Svar:</strong> \\(0{,}33\\) m</p>",
+    "id": "2.372",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resonansrör och Kundts rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3269230769230769,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Grundtonen i öppen pipa.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "ljudvagor__resonansror_och_kundts_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "slutet rör för given ton",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett glasrör är slutet i ena änden. Hur långt ska det vara för att ge grundtonen 352 Hz?</p>",
+    "s": "<p>\\(l=\\dfrac\\lambda4=\\dfrac{340}{4\\cdot352}\\).</p><p><strong>Svar:</strong> \\(0{,}241\\) m</p>",
+    "id": "2.373",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.24147727272727273,
+    "tolerans": 0.00362,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Halvöppen pipa.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "resonansrör med stämgaffel",
+    "poang": "(2/1/0)",
+    "t": "<p>En stämgaffel med frekvensen 800 Hz hålls över ett glasrör med vatten. När vattennivån sänks hörs ljudmaximum när luftpelaren är 9,75 cm och nästa gång vid 31,25 cm.</p><ol type=\"a\"><li>Bestäm våglängden.</li><li>Beräkna ljudets hastighet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Två på varandra följande resonanser skiljer \\(\\dfrac\\lambda2\\): \\(\\lambda=2(31{,}25-9{,}75)\\) cm.</p><p><strong>Svar:</strong> \\(0{,}430\\) m</p></li><li><p>\\(v=f\\lambda=800\\cdot0{,}430\\).</p><p><strong>Svar:</strong> \\(344\\) m/s</p></li></ol>",
+    "id": "2.374",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resonansrör och Kundts rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.43,
+      344.0
+    ],
+    "tolerans": [
+      0.00645,
+      5.16
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En stämgaffel med frekvensen 800 Hz hålls över ett glasrör med vatten. När vattennivån sänks hörs ljudmaximum när luftpelaren är 9,75 cm och nästa gång vid 31,25 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm våglängden.",
+        "t": "<p>En stämgaffel med frekvensen 800 Hz hålls över ett glasrör med vatten. När vattennivån sänks hörs ljudmaximum när luftpelaren är 9,75 cm och nästa gång vid 31,25 cm.</p><p>Bestäm våglängden.</p>",
+        "s": "<p>Två på varandra följande resonanser skiljer \\(\\dfrac\\lambda2\\): \\(\\lambda=2(31{,}25-9{,}75)\\) cm.</p><p><strong>Svar:</strong> \\(0{,}430\\) m</p>",
+        "ledtrad": "<p>Hur mycket längre är luftpelaren vid nästa resonans?</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna ljudets hastighet.",
+        "t": "<p>En stämgaffel med frekvensen 800 Hz hålls över ett glasrör med vatten. När vattennivån sänks hörs ljudmaximum när luftpelaren är 9,75 cm och nästa gång vid 31,25 cm.</p>Våglängden är 0,430 m.<p>Beräkna ljudets hastighet.</p>",
+        "s": "<p>\\(v=f\\lambda=800\\cdot0{,}430\\).</p><p><strong>Svar:</strong> \\(344\\) m/s</p>",
+        "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Skillnaden mellan två resonanslängder är en halv våglängd.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljudvagor__resonansror_och_kundts_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "hundvissla",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En hundvissla kan ses som en öppen pipa. Hur lång ska den vara för att grundtonen ska bli 40 kHz?</p>",
+    "s": "<p>\\(l=\\dfrac{340}{2\\cdot40\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}0043\\) m</p>",
+    "id": "2.375",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.00425,
+    "tolerans": 6.38e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Öppen pipa.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "halvöppen pipa i kyla",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En halvöppen pipa har grundtonen 261,5 Hz när ljudhastigheten är 340 m/s.</p><ol type=\"a\"><li>Hur lång är pipan?</li><li>Temperaturen sjunker till 0 °C, då ljudhastigheten är 331 m/s. Vilken frekvens får grundtonen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(l=\\dfrac{340}{4\\cdot261{,}5}\\).</p><p><strong>Svar:</strong> \\(0{,}325\\) m</p></li><li><p>Våglängden är densamma: \\(f=261{,}5\\cdot\\dfrac{331}{340}\\).</p><p><strong>Svar:</strong> \\(255\\) Hz</p></li></ol>",
+    "id": "2.376",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.32504780114722753,
+      254.57794117647057
+    ],
+    "tolerans": [
+      0.00488,
+      3.82
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En halvöppen pipa har grundtonen 261,5 Hz när ljudhastigheten är 340 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång är pipan?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En halvöppen pipa har grundtonen 261,5 Hz när ljudhastigheten är 340 m/s.</p><p>Hur lång är pipan?</p>",
+        "s": "<p>\\(l=\\dfrac{340}{4\\cdot261{,}5}\\).</p><p><strong>Svar:</strong> \\(0{,}325\\) m</p>",
+        "ledtrad": "<p>Halvöppen pipa: \\(l=\\dfrac\\lambda4\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Temperaturen sjunker till 0 °C, då ljudhastigheten är 331 m/s. Vilken frekvens får grundtonen?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En halvöppen pipa har grundtonen 261,5 Hz när ljudhastigheten är 340 m/s.</p><p>Temperaturen sjunker till 0 °C, då ljudhastigheten är 331 m/s. Vilken frekvens får grundtonen?</p>",
+        "s": "<p>Våglängden är densamma: \\(f=261{,}5\\cdot\\dfrac{331}{340}\\).</p><p><strong>Svar:</strong> \\(255\\) Hz</p>",
+        "ledtrad": "<p>Pipans längd bestämmer våglängden.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Vid samma pipa är frekvensen proportionell mot ljudhastigheten.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "öppen orgelpipa i värme",
+    "poang": "(0/1/0)",
+    "t": "<p>Ljudhastigheten i luft är \\(v=331+0{,}6\\,T\\) m/s där \\(T\\) är temperaturen i °C.</p><p>En öppen orgelpipa har grundtonen 382 Hz vid 0,00 °C. Vilken grundton har den vid 20,0 °C?</p>",
+    "s": "<p>\\(f=382\\cdot\\dfrac{343}{331}\\).</p><p><strong>Svar:</strong> \\(396\\) Hz</p>",
+    "id": "2.377",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 395.8489425981873,
+    "tolerans": 5.94,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Frekvensen är proportionell mot ljudhastigheten.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "öppen eller halvöppen ur resonanser",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En pipa har resonanser vid 234 Hz, 390 Hz och 546 Hz, och inga resonanser däremellan.</p><ol type=\"a\"><li>Vilken frekvens har grundtonen?</li><li>Hur lång är pipan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Skillnaden är 156 Hz. 234 är inte en multipel av 156, men \\(234=3\\cdot78\\), \\(390=5\\cdot78\\), \\(546=7\\cdot78\\): udda multipler, alltså en halvöppen pipa.</p><p><strong>Svar:</strong> \\(78\\) Hz</p></li><li><p>Halvöppen pipa: \\(l=\\dfrac{340}{4\\cdot78}\\).</p><p><strong>Svar:</strong> \\(1{,}09\\) m</p></li></ol>",
+    "id": "2.378",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      78,
+      1.0897435897435896
+    ],
+    "tolerans": [
+      1.17,
+      0.0163
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En pipa har resonanser vid 234 Hz, 390 Hz och 546 Hz, och inga resonanser däremellan.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken frekvens har grundtonen?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En pipa har resonanser vid 234 Hz, 390 Hz och 546 Hz, och inga resonanser däremellan.</p><p>Vilken frekvens har grundtonen?</p>",
+        "s": "<p>Skillnaden är 156 Hz. 234 är inte en multipel av 156, men \\(234=3\\cdot78\\), \\(390=5\\cdot78\\), \\(546=7\\cdot78\\): udda multipler, alltså en halvöppen pipa.</p><p><strong>Svar:</strong> \\(78\\) Hz</p>",
+        "ledtrad": "<p>Undersök om frekvenserna är udda multipler av en grundton.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång är pipan?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En pipa har resonanser vid 234 Hz, 390 Hz och 546 Hz, och inga resonanser däremellan.</p>Pipan är halvöppen med grundtonen 78 Hz.<p>Hur lång är pipan?</p>",
+        "s": "<p>Halvöppen pipa: \\(l=\\dfrac{340}{4\\cdot78}\\).</p><p><strong>Svar:</strong> \\(1{,}09\\) m</p>",
+        "ledtrad": "<p>\\(l=\\dfrac\\lambda4\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Öppen pipa: alla multipler. Halvöppen pipa: bara udda multipler.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "A",
+    "typ": "luftens temperatur ur resonans",
+    "poang": "(0/1/2)",
+    "t": "<p>Ljudhastigheten i luft är \\(v=331+0{,}6\\,T\\) m/s där \\(T\\) är temperaturen i °C.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>I ett 2,0 m långt öppet rör får man kraftig förstärkning vid 702 Hz (inte nödvändigtvis grundtonen). Luftens temperatur ligger troligen mellan 20 °C och 35 °C. Bestäm temperaturen.</p>",
+    "s": "<p>\\(f=n\\cdot\\dfrac{v}{4{,}0}\\iff v=\\dfrac{2\\,808}{n}\\). Rimlig fart (343–352 m/s) fås för \\(n=8\\): \\(v=351\\) m/s.</p><p>\\(T=\\dfrac{351-331}{0{,}6}\\).</p><p><strong>Svar:</strong> \\(33\\) °C</p>",
+    "id": "2.379",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resonansrör och Kundts rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 33.333333333333336,
+    "tolerans": 1.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Pröva olika \\(n\\) tills ljudhastigheten blir rimlig.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "°C",
+    "familjNyckel": "ljudvagor__resonansror_och_kundts_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "kvot mellan första övertoner",
+    "poang": "(0/2/0)",
+    "t": "<p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Två lika långa rör: A är öppet i båda ändar och B är slutet i ena änden. I båda förstärks första övertonen. Bestäm kvoten \\(\\dfrac{f_B}{f_A}\\).</p>",
+    "s": "<p>A: \\(l=\\lambda\\), så \\(f_A=\\dfrac vl\\). B: \\(l=\\dfrac{3\\lambda}{4}\\), så \\(f_B=\\dfrac{3v}{4l}\\). Kvoten: \\(\\dfrac34\\).</p><p><strong>Svar:</strong> \\(0{,}75\\) </p>",
+    "id": "2.380",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
+    "tolerans": 0.0112,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Teckna längden uttryckt i våglängder för båda rören.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "tubans lägsta ton",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En tubas lägsta ton har frekvensen 130,8 Hz. Anta att tuban fungerar som en öppen pipa. Hur lång är den?</p>",
+    "s": "<p>\\(l=\\dfrac{340}{2\\cdot130{,}8}\\).</p><p><strong>Svar:</strong> \\(1{,}30\\) m</p>",
+    "id": "2.381",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2996941896024463,
+    "tolerans": 0.0195,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Öppen pipa.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "hörselgången",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Hörselgången kan liknas vid en halvöppen pipa med längden 2,8 cm. Vilken grundton har den? Örat är känsligast vid den frekvensen.</p>",
+    "s": "<p>\\(f=\\dfrac{340}{4\\cdot0{,}028}\\).</p><p><strong>Svar:</strong> \\(3\\,036\\) Hz</p>",
+    "id": "2.382",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3035.714285714286,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Halvöppen pipa.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "stämma blåsinstrument",
+    "poang": "(1/2/1)",
+    "t": "<p>Ljudhastigheten i luft är \\(v=331+0{,}6\\,T\\) m/s där \\(T\\) är temperaturen i °C.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En öppen pipa stäms så att grundtonen är 440 Hz vid 20 °C.</p><ol type=\"a\"><li>Hur lång är pipan?</li><li>Luften i pipan värms till 32 °C. Vilken grundton får pipan nu?</li><li>Hur mycket måste pipan förlängas för att ge 440 Hz vid 32 °C? Svara i mm.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=343\\) m/s. \\(l=\\dfrac{343}{2\\cdot440}\\).</p><p><strong>Svar:</strong> \\(0{,}390\\) m</p></li><li><p>\\(v=331+0{,}6\\cdot32=350{,}2\\) m/s. \\(f=\\dfrac{350{,}2}{2\\cdot0{,}390}\\).</p><p><strong>Svar:</strong> \\(449\\) Hz</p></li><li><p>\\(l=\\dfrac{350{,}2}{880}\\approx0{,}3980\\) m. Förlängning: \\(0{,}3980-0{,}3898\\).</p><p><strong>Svar:</strong> \\(8{,}2\\) mm</p></li></ol>",
+    "id": "2.383",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.38977272727272727,
+      449.2361516034985,
+      8.18181818181817
+    ],
+    "tolerans": [
+      0.00585,
+      6.74,
+      0.123
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz",
+      "mm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudhastigheten i luft är \\(v=331+0{,}6\\,T\\) m/s där \\(T\\) är temperaturen i °C.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En öppen pipa stäms så att grundtonen är 440 Hz vid 20 °C.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång är pipan?",
+        "t": "<p>Ljudhastigheten i luft är \\(v=331+0{,}6\\,T\\) m/s där \\(T\\) är temperaturen i °C.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En öppen pipa stäms så att grundtonen är 440 Hz vid 20 °C.</p><p>Hur lång är pipan?</p>",
+        "s": "<p>\\(v=343\\) m/s. \\(l=\\dfrac{343}{2\\cdot440}\\).</p><p><strong>Svar:</strong> \\(0{,}390\\) m</p>",
+        "ledtrad": "<p>Bestäm ljudhastigheten vid 20 °C.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Luften i pipan värms till 32 °C. Vilken grundton får pipan nu?",
+        "t": "<p>Ljudhastigheten i luft är \\(v=331+0{,}6\\,T\\) m/s där \\(T\\) är temperaturen i °C.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En öppen pipa stäms så att grundtonen är 440 Hz vid 20 °C.</p>Pipan är 0,390 m lång.<p>Luften i pipan värms till 32 °C. Vilken grundton får pipan nu?</p>",
+        "s": "<p>\\(v=331+0{,}6\\cdot32=350{,}2\\) m/s. \\(f=\\dfrac{350{,}2}{2\\cdot0{,}390}\\).</p><p><strong>Svar:</strong> \\(449\\) Hz</p>",
+        "ledtrad": "<p>Längden är densamma.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket måste pipan förlängas för att ge 440 Hz vid 32 °C? Svara i mm.",
+        "t": "<p>Ljudhastigheten i luft är \\(v=331+0{,}6\\,T\\) m/s där \\(T\\) är temperaturen i °C.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En öppen pipa stäms så att grundtonen är 440 Hz vid 20 °C.</p>Vid 20 °C är pipan 0,3898 m lång.<p>Hur mycket måste pipan förlängas för att ge 440 Hz vid 32 °C? Svara i mm.</p>",
+        "s": "<p>\\(l=\\dfrac{350{,}2}{880}\\approx0{,}3980\\) m. Förlängning: \\(0{,}3980-0{,}3898\\).</p><p><strong>Svar:</strong> \\(8{,}2\\) mm</p>",
+        "ledtrad": "<p>Beräkna den nya längden.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Ljudhastigheten ökar med temperaturen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "C",
+    "typ": "stämgaffel och utdragbart rör",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Ett öppet rör kan dras ut från 40 cm till 80 cm. Med en stämgaffel vid ena änden får man resonans vid längderna 42,5 cm, 56,7 cm och 70,9 cm. Vilken frekvens har stämgaffeln?</p>",
+    "s": "<p>Mellan två resonanser ökar längden med \\(\\dfrac\\lambda2=14{,}2\\) cm, så \\(\\lambda=0{,}284\\) m. \\(f=\\dfrac{340}{0{,}284}\\).</p><p><strong>Svar:</strong> \\(1\\,197\\) Hz</p>",
+    "id": "2.384",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resonansrör och Kundts rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1197.1830985915494,
+    "tolerans": 18.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur mycket ändras längden mellan två resonanser?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__resonansror_och_kundts_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "piccolaflöjt",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En piccolaflöjt kan ses som en öppen pipa.</p><ol type=\"a\"><li>Flöjten är 32,0 cm lång. Vilken är den lägsta ton som förstärks?</li><li>Genom hål i flöjten kan den effektiva längden kortas. Vilken effektiv längd ger tonen 4 000 Hz?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f=\\dfrac{340}{2\\cdot0{,}320}\\).</p><p><strong>Svar:</strong> \\(531\\) Hz</p></li><li><p>\\(l=\\dfrac{340}{2\\cdot4\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}0425\\) m</p></li></ol>",
+    "id": "2.385",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      531.25,
+      0.0425
+    ],
+    "tolerans": [
+      7.97,
+      0.000638
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En piccolaflöjt kan ses som en öppen pipa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Flöjten är 32,0 cm lång. Vilken är den lägsta ton som förstärks?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En piccolaflöjt kan ses som en öppen pipa.</p><p>Flöjten är 32,0 cm lång. Vilken är den lägsta ton som förstärks?</p>",
+        "s": "<p>\\(f=\\dfrac{340}{2\\cdot0{,}320}\\).</p><p><strong>Svar:</strong> \\(531\\) Hz</p>",
+        "ledtrad": "<p>Grundtonen i öppen pipa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Genom hål i flöjten kan den effektiva längden kortas. Vilken effektiv längd ger tonen 4 000 Hz?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En piccolaflöjt kan ses som en öppen pipa.</p><p>Genom hål i flöjten kan den effektiva längden kortas. Vilken effektiv längd ger tonen 4 000 Hz?</p>",
+        "s": "<p>\\(l=\\dfrac{340}{2\\cdot4\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}0425\\) m</p>",
+        "ledtrad": "<p>\\(l=\\dfrac\\lambda2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Öppen pipa: \\(l=\\dfrac\\lambda2\\) för grundtonen.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "E",
+    "typ": "stående våg i tunnel",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>En tunnel under en flod är 2,00 km lång och öppen i båda ändar. Vilken är den lägsta frekvens som ger en stående ljudvåg i tunneln?</p>",
+    "s": "<p>\\(f_1=\\dfrac{340}{2\\cdot2\\,000}\\). Hörbara toner motsvarar mycket höga övertoner, så någon resonans märks inte.</p><p><strong>Svar:</strong> \\(0{,}085\\) Hz</p>",
+    "id": "2.386",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.085,
+    "tolerans": 0.00128,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Öppen pipa.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
+  },
+  {
+    "kap": 2,
+    "omr": "ljudvagor",
+    "niva": "A",
+    "typ": "grundton ur två övertoner",
+    "poang": "(0/1/1)",
+    "t": "<p>Öppen pipa: \\(l=n\\cdot\\dfrac\\lambda2\\). Halvöppen pipa: \\(l=(2k+1)\\cdot\\dfrac\\lambda4\\).</p><p>Två på varandra följande övertoner i en orgelpipa har frekvenserna 550 Hz och 650 Hz. Vilken frekvens har grundtonen?</p>",
+    "s": "<p>Skillnaden är 100 Hz. En öppen pipa skulle ha alla multipler av 100 Hz, men 550 är ingen sådan. Halvöppen pipa: udda multipler som skiljer \\(2f_1\\), så \\(f_1=50\\) Hz (\\(550=11\\cdot50\\), \\(650=13\\cdot50\\)).</p><p><strong>Svar:</strong> \\(50\\) Hz</p>",
+    "id": "2.387",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundton och övertoner i öppna och halvöppna rör",
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 0.75,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Pröva både öppen och halvöppen pipa.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "Hz",
+    "familjNyckel": "ljudvagor__grundton_och_overtoner_i_oppna_och_halvoppna_ror"
   },
   {
     "id": "6.56",

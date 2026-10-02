@@ -88838,6 +88838,49 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "4.574",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En tv har bildskärmsdiagonalen 55 tum, och bredd och höjd förhåller sig som 16 : 9. En tum är 2,54 cm.</p><p>Bestäm skärmens bredd och höjd i cm med en decimal.</p>",
+    "s": "<p>Diagonalen är \\(55\\cdot2{,}54=139{,}7\\) cm.</p><p>Skriv bredden \\(16k\\) och höjden \\(9k\\). Pythagoras sats ger</p><p>\\[(16k)^2+(9k)^2=139{,}7^2\\;\\Leftrightarrow\\;337k^2=139{,}7^2\\;\\Leftrightarrow\\;k=\\frac{139{,}7}{\\sqrt{337}}\\approx7{,}610.\\]</p><p>Bredd \\(16k\\approx121{,}8\\) cm och höjd \\(9k\\approx68{,}5\\) cm.</p><p>Kontroll: \\(\\sqrt{121{,}8^2+68{,}5^2}\\approx139{,}7\\).</p><p><strong>Svar:</strong> bredd cirka 121,8 cm och höjd cirka 68,5 cm</p>",
+    "familj": "Pythagoras sats i problemlösning",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv bredden och höjden som \\(16k\\) och \\(9k\\). Använd Pythagoras sats med diagonalen i cm.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      121.8,
+      68.5
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Bredd",
+      "Höjd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ]
+  },
+  {
     "id": "4.422",
     "kap": 4,
     "omr": "sinus_cosinus_tangens",
@@ -89474,6 +89517,34 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "4.571",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I en kub dras en rymddiagonal från ett hörn i bottenytan till det motsatta hörnet i toppytan.</p><p>Bestäm vinkeln mellan rymddiagonalen och bottenytan. Svara i grader med en decimal.</p>",
+    "s": "<p>Låt kubens sida vara 1. Rymddiagonalens projektion på bottenytan är bottenytans diagonal, \\(\\sqrt{1^2+1^2}=\\sqrt2\\).</p><p>Rymddiagonalen, bottendiagonalen och en lodrät kant bildar en rätvinklig triangel. Kateterna är \\(\\sqrt2\\) (vågrät) och 1 (lodrät).</p><p>\\[\\tan v=\\frac{1}{\\sqrt2}\\;\\Rightarrow\\;v=\\tan^{-1}\\frac1{\\sqrt2}\\approx35{,}3^\\circ.\\]</p><p>Svaret är detsamma för alla kuber, eftersom vinkeln inte beror på storleken.</p><p><strong>Svar:</strong> cirka \\(35{,}3^\\circ\\)</p>",
+    "familj": "Vinkel ur sidor och figurer",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hitta en rätvinklig triangel där rymddiagonalen är hypotenusa och en katet ligger i bottenytan. Hur lång är bottenytans diagonal?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 35.3,
+    "tolerans": 0.1,
+    "svarEnhet": "°"
+  },
+  {
     "id": "4.443",
     "kap": 4,
     "omr": "strackor_vinklar",
@@ -89852,6 +89923,34 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Problemlösning med rätvinklig trigonometri"
     ]
+  },
+  {
+    "id": "4.573",
+    "kap": 4,
+    "omr": "strackor_vinklar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>Från en båt i punkten \\(A\\) syns toppen av en fyr under höjdvinkeln \\(12^\\circ\\). Båten ror 200 m rakt mot fyren till punkten \\(B\\). Där är höjdvinkeln \\(20^\\circ\\).</p><div class=\"fig smal\"><svg width=\"460\" height=\"152\" viewBox=\"0 0 460 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fyr med höjden h observeras från punkterna A och B på havet. Höjdvinkeln är 12 grader från A och 20 grader från B, och AB är 200 m\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"150\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"20\" y1=\"118\" x2=\"440\" y2=\"118\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"413\" y=\"40.3\" width=\"14\" height=\"77.7\" fill=\"#e8edf5\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"54.6\" y1=\"118\" x2=\"420.0\" y2=\"40.3\" stroke=\"#315f9e\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><path d=\"M100.6 118 A46 46 0 0 0 99.6 108.4\" fill=\"none\" stroke=\"#315f9e\" stroke-width=\"2\"/><text x=\"151\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">12°</text><circle cx=\"54.6\" cy=\"118\" r=\"3.5\" fill=\"#24262b\"/><line x1=\"206.6\" y1=\"118\" x2=\"420.0\" y2=\"40.3\" stroke=\"#315f9e\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><path d=\"M252.6 118 A46 46 0 0 0 249.8 102.3\" fill=\"none\" stroke=\"#315f9e\" stroke-width=\"2\"/><text x=\"303\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">20°</text><circle cx=\"206.6\" cy=\"118\" r=\"3.5\" fill=\"#24262b\"/><text x=\"55\" y=\"140\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">A</text><text x=\"207\" y=\"140\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">B</text><text x=\"131\" y=\"140\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">200 m</text><text x=\"442\" y=\"85\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" font-style=\"italic\">h</text></svg></div><p>Hur hög är fyren? Svara i hela meter.</p>",
+    "s": "<p>Kalla fyrens höjd \\(h\\) och avståndet från \\(B\\) till fyren \\(d\\). Två rätvinkliga trianglar ger</p><p>\\[h=d\\cdot\\tan20^\\circ\\quad\\text{och}\\quad h=(d+200)\\tan12^\\circ.\\]</p><p>Sätt uttrycken lika: \\(d\\tan20^\\circ=(d+200)\\tan12^\\circ\\), alltså</p><p>\\[d=\\frac{200\\tan12^\\circ}{\\tan20^\\circ-\\tan12^\\circ}\\approx\\frac{42{,}51}{0{,}1514}\\approx280{,}8\\text{ m}.\\]</p><p>\\(h\\approx280{,}8\\cdot\\tan20^\\circ\\approx102\\) m.</p><p>Kontroll: \\((280{,}8+200)\\cdot\\tan12^\\circ\\approx102\\) m.</p><p><strong>Svar:</strong> cirka 102 m</p>",
+    "familj": "Trigonometri i flera steg",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Det finns två rätvinkliga trianglar med samma höjd \\(h\\). Inför avståndet \\(d\\) från \\(B\\) till fyren och ställ upp två uttryck för \\(h\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 102.2,
+    "tolerans": 0.6,
+    "svarEnhet": "m"
   },
   {
     "id": "4.455",
@@ -90398,6 +90497,33 @@ window.BANKMA1 = [
     "spel": true
   },
   {
+    "id": "4.572",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En triangel har hörnen \\(A=(1,\\,1)\\), \\(B=(5,\\,3)\\) och \\(C=(3,\\,7)\\).</p><p>Visa att triangeln är både likbent och rätvinklig, och beräkna dess area.</p>",
+    "s": "<p>Beräkna sidornas längder i kvadrat med avståndsformeln:</p><ul><li>\\(AB^2=4^2+2^2=20\\)</li><li>\\(BC^2=(-2)^2+4^2=20\\)</li><li>\\(AC^2=2^2+6^2=40\\)</li></ul><p>\\(AB=BC\\), så triangeln är likbent. Dessutom är \\(AB^2+BC^2=40=AC^2\\), så enligt Pythagoras sats (omvänt) är vinkeln vid \\(B\\) rät.</p><p>Kateterna är \\(AB=BC=\\sqrt{20}\\), så arean är \\(\\frac{\\sqrt{20}\\cdot\\sqrt{20}}{2}=10\\) areaenheter.</p><p><strong>Svar:</strong> arean är 10 areaenheter</p>",
+    "familj": "Avstånd mellan punkter",
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna alla tre sidornas längder. Vad säger Pythagoras sats om en triangel där \\(a^2+b^2=c^2\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null
+  },
+  {
     "id": "4.471",
     "kap": 4,
     "omr": "vektorer",
@@ -90819,6 +90945,41 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
+  },
+  {
+    "id": "4.575",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Tre hörn i parallellogrammen \\(ABCD\\) är \\(A=(1,\\,2)\\), \\(B=(6,\\,3)\\) och \\(C=(8,\\,7)\\). Hörnen kommer i ordningen \\(A\\), \\(B\\), \\(C\\), \\(D\\) runt figuren.</p><p>Bestäm koordinaterna för \\(D\\).</p>",
+    "s": "<p>I en parallellogram är motstående sidor lika långa och parallella, så \\(\\overrightarrow{AD}=\\overrightarrow{BC}\\).</p><p>\\(\\overrightarrow{BC}=(8-6,\\ 7-3)=(2,\\,4)\\).</p><p>\\(D=A+\\overrightarrow{BC}=(1+2,\\ 2+4)=(3,\\,6)\\).</p><p>Kontroll: \\(\\overrightarrow{DC}=(5,\\,1)=\\overrightarrow{AB}\\).</p><p><strong>Svar:</strong> \\(D=(3,\\,6)\\)</p>",
+    "familj": "Vektor från start- och slutpunkt",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken vektor ska man gå från \\(A\\) för att komma till \\(D\\)? Jämför med sidan \\(BC\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      6
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.482",
@@ -91269,6 +91430,45 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Addera, subtrahera och lösa vektorekvationer"
+    ]
+  },
+  {
+    "id": "4.577",
+    "kap": 4,
+    "omr": "vektor_addition_subtraktion",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En båt styr rakt norrut och har farten 4 m/s i förhållande till vattnet. Vattnet i floden strömmar österut med 3 m/s. Floden är 200 m bred.</p><p><strong>a)</strong> Vilken fart har båten i förhållande till land?</p><p><strong>b)</strong> Hur långt österut har båten drivit när den kommer över till andra sidan?</p>",
+    "s": "<p>Hastigheterna är vektorer: \\(\\vec v_{\\text{båt}}=(0,\\,4)\\) och \\(\\vec v_{\\text{ström}}=(3,\\,0)\\), med öster som \\(x\\)-led.</p><p><strong>a)</strong> Summan är \\((3,\\,4)\\). Längden är \\(\\sqrt{9+16}=5\\) m/s.</p><p><strong>b)</strong> Norrut rör sig båten med 4 m/s, så överfarten tar \\(\\frac{200}{4}=50\\) s. Under den tiden driver den \\(3\\cdot50=150\\) m österut.</p><p><strong>Svar:</strong> a) 5 m/s &nbsp; b) 150 m</p>",
+    "familj": "Addera och subtrahera vektorer",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Lägg ihop hastighetsvektorerna. Hur lång tid tar överfarten om bara rörelsen norrut räknas?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      150
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a) Fart",
+      "b) Avdrift"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "m/s",
+      "m"
     ]
   },
   {
@@ -91750,6 +91950,41 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna en vektors längd"
     ]
+  },
+  {
+    "id": "4.576",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm alla värden på \\(t\\) så att vektorn \\(\\vec u=(3t,\\ 4t)\\) har längden 10.</p>",
+    "s": "<p>\\[|\\vec u|=\\sqrt{(3t)^2+(4t)^2}=\\sqrt{25t^2}=5|t|.\\]</p><p>\\(5|t|=10\\) ger \\(|t|=2\\), alltså \\(t=2\\) eller \\(t=-2\\).</p><p>De två vektorerna \\((6,\\,8)\\) och \\((-6,\\,-8)\\) är lika långa men motsatt riktade.</p><p><strong>Svar:</strong> \\(t=2\\) eller \\(t=-2\\)</p>",
+    "familj": "Längd i tillämpningar och resonemang",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd längdformeln och förenkla under rottecknet. Glöm inte negativa \\(t\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      2
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "t",
+      "t"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "4.509",
@@ -92709,6 +92944,75 @@ window.BANKMA1 = [
     "spel": true
   },
   {
+    "id": "4.567",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ett cykelhjul har diametern 70 cm. Hur många varv snurrar hjulet när cykeln rullar 1 km? Avrunda till heltal.</p>",
+    "s": "<p>Ett varv motsvarar hjulets omkrets: \\(\\pi\\cdot0{,}70\\approx2{,}199\\) m.</p><p>Antal varv: \\(\\frac{1000}{2{,}199}\\approx455\\).</p><p><strong>Svar:</strong> cirka 455 varv</p>",
+    "familj": "Cirkelns omkrets och area",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur långt rullar hjulet framåt på ett varv?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 455,
+    "tolerans": 1
+  },
+  {
+    "id": "4.568",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Med ett 40 m långt rep vill man stänga in en så stor yta som möjligt på en gräsmatta.</p><p>Om repet läggs som en kvadrat blir arean 100 m². Beräkna arean om repet i stället läggs som en cirkel. Hur många procent större blir den än kvadratens? Svara med en decimal.</p>",
+    "s": "<p>Kvadraten: sidan är 10 m och arean 100 m².</p><p>Cirkeln: omkretsen är 40 m, så \\(2\\pi r=40\\) och \\(r=\\frac{20}{\\pi}\\approx6{,}366\\) m.</p><p>\\[A=\\pi r^2=\\pi\\cdot\\left(\\frac{20}{\\pi}\\right)^2=\\frac{400}{\\pi}\\approx127{,}3\\text{ m}^2.\\]</p><p>\\(\\frac{127{,}3}{100}=1{,}273\\), alltså cirka 27,3 % större.</p><p>Av alla figurer med samma omkrets har cirkeln störst area.</p><p><strong>Svar:</strong> cirka 127,3 m², alltså cirka 27,3 % större</p>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm cirkelns radie ur omkretsen 40 m. Beräkna sedan arean.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      127.32395447351627,
+      27.3
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Cirkelns area",
+      "Procent större"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "m²",
+      "%"
+    ]
+  },
+  {
     "id": "4.538",
     "kap": 4,
     "omr": "volym",
@@ -93076,6 +93380,61 @@ window.BANKMA1 = [
     "spel": true
   },
   {
+    "id": "4.569",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ett cylinderformat glas har innerdiametern 7,0 cm och innerhöjden 12 cm. Hur många deciliter rymmer glaset? Svara med en decimal.</p>",
+    "s": "<p>Radien är 3,5 cm. Volymen är \\(\\pi r^2h=\\pi\\cdot3{,}5^2\\cdot12\\approx461{,}8\\) cm³.</p><p>1 dl \\(=100\\) cm³, så glaset rymmer cirka 4,6 dl.</p><p><strong>Svar:</strong> cirka 4,6 dl</p>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Volymen av en cylinder är basytan gånger höjden. 1 dl är 100 cm³.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.6,
+    "tolerans": 0.05,
+    "svarEnhet": "dl"
+  },
+  {
+    "id": "4.570",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En cylinderformad burk med innerradien 5 cm innehåller vatten. En metallkula med radien 3 cm sänks ned i burken så att den hamnar helt under vattenytan.</p><p>Hur mycket stiger vattenytan? Svara i cm med en decimal.</p>",
+    "s": "<p>Vattnet stiger lika mycket som kulans volym delad med burkens basyta.</p><p>Kulans volym: \\(\\frac43\\pi\\cdot3^3=36\\pi\\approx113{,}1\\) cm³.</p><p>Burkens basyta: \\(\\pi\\cdot5^2=25\\pi\\approx78{,}5\\) cm².</p><p>\\[\\Delta h=\\frac{36\\pi}{25\\pi}=1{,}44\\text{ cm}\\approx1{,}4\\text{ cm}.\\]</p><p><strong>Svar:</strong> cirka 1,4 cm</p>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Den undanträngda vattenvolymen är lika med kulans volym. Den volymen bildar en ”skiva” i burken. Hur tjock är skivan?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.44,
+    "tolerans": 0.05,
+    "svarEnhet": "cm"
+  },
+  {
     "id": "4.551",
     "kap": 4,
     "omr": "kvadratrotter",
@@ -93377,6 +93736,59 @@ window.BANKMA1 = [
     "spel": true
   },
   {
+    "id": "4.565",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En kvadratisk tomt har arean 1 200 m². Hur lång är tomtens sida? Svara i meter med en decimal.</p>",
+    "s": "<p>Om sidan är \\(x\\) m gäller \\(x^2=1200\\). Sidan är positiv, så</p><p>\\[x=\\sqrt{1200}\\approx34{,}6\\text{ m}.\\]</p><p>Rimlighet: \\(35^2=1225\\), så sidan ska vara strax under 35 m.</p><p><strong>Svar:</strong> cirka 34,6 m</p>",
+    "familj": "Ekvationen x² = a",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Arean av en kvadrat är sidan i kvadrat. Vilket tal i kvadrat blir 1 200?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 34.6,
+    "tolerans": 0.05,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.566",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett kvadratiskt golv har lagts med 400 kvadratiska plattor med sidan 30 cm, utan fogar.</p><p>Hur många plattor hade det gått åt om plattorna i stället hade haft sidan 20 cm?</p>",
+    "s": "<p>Golvets area är \\(400\\cdot0{,}30^2=400\\cdot0{,}09=36\\) m². Golvet är kvadratiskt, så sidan är \\(\\sqrt{36}=6\\) m.</p><p>Längs en sida får det plats \\(\\frac{6}{0{,}20}=30\\) plattor, så det går åt \\(30\\cdot30=900\\) plattor.</p><p>Snabbare: varje platta får \\(\\left(\\frac{20}{30}\\right)^2=\\frac49\\) av arean, så det går åt \\(400\\cdot\\frac94=900\\) plattor.</p><p><strong>Svar:</strong> 900 plattor</p>",
+    "familj": "Kvadratrötter",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många plattor ligger det längs en sida när det är 400 plattor totalt?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 900,
+    "tolerans": null
+  },
+  {
     "id": "4.562",
     "kap": 4,
     "omr": "vektor_skalar",
@@ -93458,6 +93870,41 @@ window.BANKMA1 = [
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true
+  },
+  {
+    "id": "4.578",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Punkterna \\(A=(2,\\,1)\\) och \\(B=(10,\\,9)\\) är givna. Punkten \\(P\\) ligger på sträckan \\(AB\\) så att \\(AP\\) är \\(\\frac34\\) av \\(AB\\).</p><p>Bestäm koordinaterna för \\(P\\).</p>",
+    "s": "<p>\\(\\overrightarrow{AB}=(10-2,\\ 9-1)=(8,\\,8)\\).</p><p>\\(\\overrightarrow{AP}=\\frac34\\overrightarrow{AB}=(6,\\,6)\\).</p><p>\\(P=A+\\overrightarrow{AP}=(2+6,\\ 1+6)=(8,\\,7)\\).</p><p>Kontroll: \\(\\overrightarrow{PB}=(2,\\,2)\\), alltså \\(\\frac14\\) av \\(\\overrightarrow{AB}\\).</p><p><strong>Svar:</strong> \\(P=(8,\\,7)\\)</p>",
+    "familj": "Linjärkombinationer och parallella vektorer",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm vektorn \\(\\overrightarrow{AB}\\) och multiplicera den med \\(\\frac34\\). Utgå sedan från \\(A\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      7
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.01",

@@ -9326,6 +9326,9 @@ function rotListaRatt(anv,facit,tol){
 
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
   const meta={format,tolerans:tol,enhet};
+  /* Alla primitiva funktioner (facit slutar på +C): konstanten får heta något annat, t.ex. +K eller +D. */
+  if(/\+\s*C\s*(?:\\\))?\s*$/.test(String(facit)) && /\+\s*[A-DF-WYZa-df-wyz]\s*$/.test(String(anv)))
+    anv=String(anv).replace(/\+\s*[A-Za-z]\s*$/,"+C");
   // Lösningsmängder godkänns oavsett ordning och skrivsätt. Kontrollen kan bara godkänna.
   if(rotListaRatt(anv,facit,tol)) return true;
   if(format){

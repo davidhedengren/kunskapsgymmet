@@ -30395,6 +30395,128 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 4,
+    "omr": "atomstruktur",
+    "niva": "A",
+    "typ": "våglängd ur två andra övergångar",
+    "poang": "(0/1/1)",
+    "t": "<p>En atom sänder ut ljus med våglängden 520 nm vid övergången från nivå 6 till nivå 3, och 410 nm vid övergången från nivå 7 till nivå 3. Vilken våglängd har ljuset vid övergången från nivå 7 till nivå 6?</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "s": "<p>Energierna adderas: \\(E_{7\\to3}=E_{7\\to6}+E_{6\\to3}\\), alltså \\(\\dfrac1{\\lambda}=\\dfrac1{410}-\\dfrac1{520}\\) (nm).</p><p><strong>Svar:</strong> \\(1{,}94\\cdot10^{-6}\\) m</p>",
+    "id": "4.366",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Spektrallinjer och fotoner",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.9381818181818184e-06,
+    "tolerans": 2.91e-08,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fotonenergin är proportionell mot \\(\\dfrac1\\lambda\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "atomstruktur__spektrallinjer_och_fotoner"
+  },
+  {
+    "kap": 4,
+    "omr": "atomstruktur",
+    "niva": "C",
+    "typ": "Lymanserien",
+    "poang": "(3/1/0)",
+    "t": "<p>Vätets spektrallinjer ges av \\(\\dfrac1\\lambda=R_H\\left(\\dfrac1{m^2}-\\dfrac1{n^2}\\right)\\), där \\(R_H=1{,}0967758\\cdot10^7\\ \\text{m}^{-1}\\), \\(m\\) är slutnivån och \\(n\\) startnivån.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><ol type=\"a\"><li>Beräkna våglängden för den första linjen i Lymanserien (\\(m=1\\), \\(n=2\\)).</li><li>Beräkna den kortaste möjliga våglängden i Lymanserien.</li><li>Beräkna våglängden för den första linjen i Balmerserien (\\(m=2\\), \\(n=3\\)).</li><li>Beräkna våglängden för den första linjen i Paschenserien (\\(m=3\\), \\(n=4\\)).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac1\\lambda=R_H\\left(1-\\dfrac14\\right)\\).</p><p><strong>Svar:</strong> \\(1{,}216\\cdot10^{-7}\\) m</p></li><li><p>\\(n\\to\\infty\\): \\(\\dfrac1\\lambda=R_H\\).</p><p><strong>Svar:</strong> \\(9{,}118\\cdot10^{-8}\\) m</p></li><li><p>\\(\\dfrac1\\lambda=R_H\\left(\\dfrac14-\\dfrac19\\right)\\).</p><p><strong>Svar:</strong> \\(6{,}565\\cdot10^{-7}\\) m</p></li><li><p>\\(\\dfrac1\\lambda=R_H\\left(\\dfrac19-\\dfrac1{16}\\right)\\).</p><p><strong>Svar:</strong> \\(1{,}876\\cdot10^{-6}\\) m</p></li></ol>",
+    "id": "4.367",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energinivåer i väteatomen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.2156844938895746e-07,
+      9.11763370417181e-08,
+      6.564696267003703e-07,
+      1.875627504858201e-06
+    ],
+    "tolerans": [
+      1.82e-09,
+      1.37e-09,
+      9.85e-09,
+      2.81e-08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Vätets spektrallinjer ges av \\(\\dfrac1\\lambda=R_H\\left(\\dfrac1{m^2}-\\dfrac1{n^2}\\right)\\), där \\(R_H=1{,}0967758\\cdot10^7\\ \\text{m}^{-1}\\), \\(m\\) är slutnivån och \\(n\\) startnivån.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna våglängden för den första linjen i Lymanserien (\\(m=1\\), \\(n=2\\)).",
+        "t": "<p>Vätets spektrallinjer ges av \\(\\dfrac1\\lambda=R_H\\left(\\dfrac1{m^2}-\\dfrac1{n^2}\\right)\\), där \\(R_H=1{,}0967758\\cdot10^7\\ \\text{m}^{-1}\\), \\(m\\) är slutnivån och \\(n\\) startnivån.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Beräkna våglängden för den första linjen i Lymanserien (\\(m=1\\), \\(n=2\\)).</p>",
+        "s": "<p>\\(\\dfrac1\\lambda=R_H\\left(1-\\dfrac14\\right)\\).</p><p><strong>Svar:</strong> \\(1{,}216\\cdot10^{-7}\\) m</p>",
+        "ledtrad": "<p>Sätt in \\(m=1\\) och \\(n=2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna den kortaste möjliga våglängden i Lymanserien.",
+        "t": "<p>Vätets spektrallinjer ges av \\(\\dfrac1\\lambda=R_H\\left(\\dfrac1{m^2}-\\dfrac1{n^2}\\right)\\), där \\(R_H=1{,}0967758\\cdot10^7\\ \\text{m}^{-1}\\), \\(m\\) är slutnivån och \\(n\\) startnivån.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Beräkna den kortaste möjliga våglängden i Lymanserien.</p>",
+        "s": "<p>\\(n\\to\\infty\\): \\(\\dfrac1\\lambda=R_H\\).</p><p><strong>Svar:</strong> \\(9{,}118\\cdot10^{-8}\\) m</p>",
+        "ledtrad": "<p>Vad händer med \\(\\dfrac1{n^2}\\) när \\(n\\) blir mycket stort?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna våglängden för den första linjen i Balmerserien (\\(m=2\\), \\(n=3\\)).",
+        "t": "<p>Vätets spektrallinjer ges av \\(\\dfrac1\\lambda=R_H\\left(\\dfrac1{m^2}-\\dfrac1{n^2}\\right)\\), där \\(R_H=1{,}0967758\\cdot10^7\\ \\text{m}^{-1}\\), \\(m\\) är slutnivån och \\(n\\) startnivån.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Beräkna våglängden för den första linjen i Balmerserien (\\(m=2\\), \\(n=3\\)).</p>",
+        "s": "<p>\\(\\dfrac1\\lambda=R_H\\left(\\dfrac14-\\dfrac19\\right)\\).</p><p><strong>Svar:</strong> \\(6{,}565\\cdot10^{-7}\\) m</p>",
+        "ledtrad": "<p>Sätt in \\(m=2\\) och \\(n=3\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Beräkna våglängden för den första linjen i Paschenserien (\\(m=3\\), \\(n=4\\)).",
+        "t": "<p>Vätets spektrallinjer ges av \\(\\dfrac1\\lambda=R_H\\left(\\dfrac1{m^2}-\\dfrac1{n^2}\\right)\\), där \\(R_H=1{,}0967758\\cdot10^7\\ \\text{m}^{-1}\\), \\(m\\) är slutnivån och \\(n\\) startnivån.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Beräkna våglängden för den första linjen i Paschenserien (\\(m=3\\), \\(n=4\\)).</p>",
+        "s": "<p>\\(\\dfrac1\\lambda=R_H\\left(\\dfrac19-\\dfrac1{16}\\right)\\).</p><p><strong>Svar:</strong> \\(1{,}876\\cdot10^{-6}\\) m</p>",
+        "ledtrad": "<p>Sätt in \\(m=3\\) och \\(n=4\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Rydbergs formel för väte.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "atomstruktur__energinivaer_i_vateatomen"
+  },
+  {
     "id": "4.329",
     "kap": 4,
     "omr": "vagrorelselara",
@@ -31623,5 +31745,539 @@ window.BANK2 = [
     "familjTidigare": [
       "Experiment, felberäkning och modellprövning"
     ]
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "utträdesarbete ur frekvens och energi",
+    "poang": "(1/0/0)",
+    "t": "<p>Ultraviolett ljus med frekvensen \\(3{,}00\\cdot10^{15}\\) Hz slår loss elektroner ur en metall. Elektronernas största rörelseenergi är 6,1 eV. Hur stort är utträdesarbetet? Svara i eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "s": "<p>\\(hf=\\dfrac{6{,}626\\cdot10^{-34}\\cdot3{,}00\\cdot10^{15}}{1{,}602\\cdot10^{-19}}\\approx12{,}4\\) eV. \\(E_0=hf-E_{k,max}=12{,}4-6{,}1\\).</p><p><strong>Svar:</strong> \\(6{,}3\\) eV</p>",
+    "id": "4.355",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.308239700374532,
+    "tolerans": 0.0946,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(hf=E_0+E_{k,max}\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "eV",
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "utträdesarbete ur gränsvåglängd",
+    "poang": "(1/0/0)",
+    "t": "<p>Fotoelektrisk effekt upphör när våglängden når 485 nm. Beräkna metallens utträdesarbete i eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "s": "<p>Vid gränsvåglängden är \\(E_0=\\dfrac{hc}{\\lambda_0}=\\dfrac{6{,}626\\cdot10^{-34}\\cdot2{,}998\\cdot10^8}{485\\cdot10^{-9}\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(2{,}56\\) eV</p>",
+    "id": "4.356",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5566943382627385,
+    "tolerans": 0.0384,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid gränsvåglängden får elektronerna ingen rörelseenergi.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "eV",
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "samma ljus mot två metaller",
+    "poang": "(1/0/0)",
+    "t": "<p>Strålning mot en metall med utträdesarbetet 2,75 eV ger elektroner med största rörelseenergin 0,68 eV. Samma strålning riktas mot en metall med utträdesarbetet 2,17 eV. Hur stor blir elektronernas största rörelseenergi där?</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "s": "<p>Fotonenergin: \\(2{,}75+0{,}68=3{,}43\\) eV. I den andra metallen: \\(3{,}43-2{,}17\\).</p><p><strong>Svar:</strong> \\(1{,}26\\) eV</p>",
+    "id": "4.357",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2600000000000002,
+    "tolerans": 0.0189,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först fotonernas energi.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "eV",
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "fotoelektroner ur känd våglängd",
+    "poang": "(1/2/0)",
+    "t": "<p>Elektroner som frigörs ur en metallyta som belyses med ljus med våglängden 625 nm får farter upp till \\(4{,}60\\cdot10^5\\) m/s.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><ol type=\"a\"><li>Beräkna fotonens energi i eV.</li><li>Beräkna metallens utträdesarbete i eV.</li><li>Beräkna gränsfrekvensen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac{hc}{\\lambda}\\), omräknat till eV.</p><p><strong>Svar:</strong> \\(1{,}98\\) eV</p></li><li><p>\\(E_{k,max}=\\dfrac{m_ev^2}{2}\\approx0{,}602\\) eV. \\(E_0=1{,}98-0{,}602\\).</p><p><strong>Svar:</strong> \\(1{,}38\\) eV</p></li><li><p>\\(f_0=\\dfrac{E_0}{h}\\).</p><p><strong>Svar:</strong> \\(3{,}34\\cdot10^{14}\\) Hz</p></li></ol>",
+    "id": "4.358",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.9839948064918849,
+      1.3824141573033706,
+      334232942952007.2
+    ],
+    "tolerans": [
+      0.0298,
+      0.0207,
+      5010000000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "eV",
+      "eV",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektroner som frigörs ur en metallyta som belyses med ljus med våglängden 625 nm får farter upp till \\(4{,}60\\cdot10^5\\) m/s.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna fotonens energi i eV.",
+        "t": "<p>Elektroner som frigörs ur en metallyta som belyses med ljus med våglängden 625 nm får farter upp till \\(4{,}60\\cdot10^5\\) m/s.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Beräkna fotonens energi i eV.</p>",
+        "s": "<p>\\(E=\\dfrac{hc}{\\lambda}\\), omräknat till eV.</p><p><strong>Svar:</strong> \\(1{,}98\\) eV</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{hc}{\\lambda}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna metallens utträdesarbete i eV.",
+        "t": "<p>Elektroner som frigörs ur en metallyta som belyses med ljus med våglängden 625 nm får farter upp till \\(4{,}60\\cdot10^5\\) m/s.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Fotonens energi är 1,98 eV.</p><p>Beräkna metallens utträdesarbete i eV.</p>",
+        "s": "<p>\\(E_{k,max}=\\dfrac{m_ev^2}{2}\\approx0{,}602\\) eV. \\(E_0=1{,}98-0{,}602\\).</p><p><strong>Svar:</strong> \\(1{,}38\\) eV</p>",
+        "ledtrad": "<p>Räkna ut elektronernas rörelseenergi i eV.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna gränsfrekvensen.",
+        "t": "<p>Elektroner som frigörs ur en metallyta som belyses med ljus med våglängden 625 nm får farter upp till \\(4{,}60\\cdot10^5\\) m/s.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Utträdesarbetet är 1,38 eV.</p><p>Beräkna gränsfrekvensen.</p>",
+        "s": "<p>\\(f_0=\\dfrac{E_0}{h}\\).</p><p><strong>Svar:</strong> \\(3{,}34\\cdot10^{14}\\) Hz</p>",
+        "ledtrad": "<p>Räkna om utträdesarbetet till joule.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Einsteins fotoelektriska ekvation: \\(hf=E_0+E_{k,max}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "molybden",
+    "poang": "(2/2/0)",
+    "t": "<p>Molybden har utträdesarbetet 4,20 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><ol type=\"a\"><li>Beräkna gränsfrekvensen.</li><li>Beräkna gränsvåglängden.</li><li>En fotocell med molybdenkatod belyses med ljus med våglängden 180 nm. Vilken motspänning gör strömmen noll?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f_0=\\dfrac{E_0}{h}=\\dfrac{4{,}20\\cdot1{,}602\\cdot10^{-19}}{6{,}626\\cdot10^{-34}}\\).</p><p><strong>Svar:</strong> \\(1{,}02\\cdot10^{15}\\) Hz</p></li><li><p>\\(\\lambda_0=\\dfrac{c}{f_0}\\).</p><p><strong>Svar:</strong> \\(2{,}95\\cdot10^{-7}\\) m</p></li><li><p>\\(eU=\\dfrac{hc}{\\lambda}-E_0=6{,}89-4{,}20\\) eV, så \\(U\\approx2{,}69\\) V.</p><p><strong>Svar:</strong> \\(2{,}69\\) V</p></li></ol>",
+    "id": "4.359",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1015454271053426.0,
+      2.9523732239462573e-07,
+      2.688870855874601
+    ],
+    "tolerans": [
+      15200000000000.0,
+      4.43e-09,
+      0.0403
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "m",
+      "V"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Molybden har utträdesarbetet 4,20 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna gränsfrekvensen.",
+        "t": "<p>Molybden har utträdesarbetet 4,20 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Beräkna gränsfrekvensen.</p>",
+        "s": "<p>\\(f_0=\\dfrac{E_0}{h}=\\dfrac{4{,}20\\cdot1{,}602\\cdot10^{-19}}{6{,}626\\cdot10^{-34}}\\).</p><p><strong>Svar:</strong> \\(1{,}02\\cdot10^{15}\\) Hz</p>",
+        "ledtrad": "<p>\\(E_0=hf_0\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna gränsvåglängden.",
+        "t": "<p>Molybden har utträdesarbetet 4,20 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Beräkna gränsvåglängden.</p>",
+        "s": "<p>\\(\\lambda_0=\\dfrac{c}{f_0}\\).</p><p><strong>Svar:</strong> \\(2{,}95\\cdot10^{-7}\\) m</p>",
+        "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En fotocell med molybdenkatod belyses med ljus med våglängden 180 nm. Vilken motspänning gör strömmen noll?",
+        "t": "<p>Molybden har utträdesarbetet 4,20 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>En fotocell med molybdenkatod belyses med ljus med våglängden 180 nm. Vilken motspänning gör strömmen noll?</p>",
+        "s": "<p>\\(eU=\\dfrac{hc}{\\lambda}-E_0=6{,}89-4{,}20\\) eV, så \\(U\\approx2{,}69\\) V.</p><p><strong>Svar:</strong> \\(2{,}69\\) V</p>",
+        "ledtrad": "<p>Motspänningen stoppar de snabbaste elektronerna: \\(eU=E_{k,max}\\).</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(hf=E_0+E_{k,max}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "fotocell med två ljuskällor",
+    "poang": "(0/3/0)",
+    "t": "<p>När grönt ljus med våglängden 546,1 nm lyser på en fotocell krävs motspänningen 0,376 V för att strömmen ska bli noll.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><ol type=\"a\"><li>Hur stort är katodens utträdesarbete i eV?</li><li>Vilken motspänning krävs med gult ljus med våglängden 587,5 nm?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E_0=\\dfrac{hc}{\\lambda}-eU=2{,}270-0{,}376\\) eV.</p><p><strong>Svar:</strong> \\(1{,}89\\) eV</p></li><li><p>\\(eU=\\dfrac{hc}{\\lambda}-E_0=2{,}110-1{,}894\\) eV.</p><p><strong>Svar:</strong> \\(0{,}216\\) V</p></li></ol>",
+    "id": "4.360",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.8946404578967737,
+      0.21599231496693383
+    ],
+    "tolerans": [
+      0.0284,
+      0.00324
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "eV",
+      "V"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>När grönt ljus med våglängden 546,1 nm lyser på en fotocell krävs motspänningen 0,376 V för att strömmen ska bli noll.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stort är katodens utträdesarbete i eV?",
+        "t": "<p>När grönt ljus med våglängden 546,1 nm lyser på en fotocell krävs motspänningen 0,376 V för att strömmen ska bli noll.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Hur stort är katodens utträdesarbete i eV?</p>",
+        "s": "<p>\\(E_0=\\dfrac{hc}{\\lambda}-eU=2{,}270-0{,}376\\) eV.</p><p><strong>Svar:</strong> \\(1{,}89\\) eV</p>",
+        "ledtrad": "<p>Motspänningen ger elektronernas största rörelseenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken motspänning krävs med gult ljus med våglängden 587,5 nm?",
+        "t": "<p>När grönt ljus med våglängden 546,1 nm lyser på en fotocell krävs motspänningen 0,376 V för att strömmen ska bli noll.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Utträdesarbetet är 1,89 eV.</p><p>Vilken motspänning krävs med gult ljus med våglängden 587,5 nm?</p>",
+        "s": "<p>\\(eU=\\dfrac{hc}{\\lambda}-E_0=2{,}110-1{,}894\\) eV.</p><p><strong>Svar:</strong> \\(0{,}216\\) V</p>",
+        "ledtrad": "<p>Använd utträdesarbetet från det gröna ljuset.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Motspänningen stoppar de snabbaste elektronerna.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "utträdesarbete ur gränsfrekvens",
+    "poang": "(1/0/0)",
+    "t": "<p>Gränsfrekvensen för fotoelektrisk effekt i silver är \\(1{,}04\\cdot10^{15}\\) Hz. Hur stor energi krävs minst för att slå loss en elektron? Svara i eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "s": "<p>\\(E_0=hf_0\\), omräknat till eV.</p><p><strong>Svar:</strong> \\(4{,}30\\) eV</p>",
+    "id": "4.361",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.301523096129838,
+    "tolerans": 0.0645,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E_0=hf_0\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "eV",
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "natrium",
+    "poang": "(3/0/0)",
+    "t": "<p>Ljus med våglängden 0,300 µm faller in mot natrium, som har utträdesarbetet 2,46 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><ol type=\"a\"><li>Beräkna fotonernas energi i eV.</li><li>Beräkna elektronernas största rörelseenergi i eV.</li><li>Bestäm gränsfrekvensen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac{hc}{\\lambda}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\) eV</p></li><li><p>\\(E_{k,max}=4{,}13-2{,}46\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) eV</p></li><li><p>\\(f_0=\\dfrac{E_0}{h}\\).</p><p><strong>Svar:</strong> \\(5{,}9\\cdot10^{14}\\) Hz</p></li></ol>",
+    "id": "4.362",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.133322513524761,
+      1.6733225135247611,
+      594766073045578.0
+    ],
+    "tolerans": [
+      0.062,
+      0.051,
+      8920000000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "eV",
+      "eV",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljus med våglängden 0,300 µm faller in mot natrium, som har utträdesarbetet 2,46 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna fotonernas energi i eV.",
+        "t": "<p>Ljus med våglängden 0,300 µm faller in mot natrium, som har utträdesarbetet 2,46 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Beräkna fotonernas energi i eV.</p>",
+        "s": "<p>\\(E=\\dfrac{hc}{\\lambda}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\) eV</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{hc}{\\lambda}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna elektronernas största rörelseenergi i eV.",
+        "t": "<p>Ljus med våglängden 0,300 µm faller in mot natrium, som har utträdesarbetet 2,46 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Fotonenergin är 4,13 eV.</p><p>Beräkna elektronernas största rörelseenergi i eV.</p>",
+        "s": "<p>\\(E_{k,max}=4{,}13-2{,}46\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) eV</p>",
+        "ledtrad": "<p>\\(E_{k,max}=hf-E_0\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm gränsfrekvensen.",
+        "t": "<p>Ljus med våglängden 0,300 µm faller in mot natrium, som har utträdesarbetet 2,46 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Bestäm gränsfrekvensen.</p>",
+        "s": "<p>\\(f_0=\\dfrac{E_0}{h}\\).</p><p><strong>Svar:</strong> \\(5{,}9\\cdot10^{14}\\) Hz</p>",
+        "ledtrad": "<p>Räkna om utträdesarbetet till joule.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(hf=E_0+E_{k,max}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "zink",
+    "poang": "(1/2/0)",
+    "t": "<p>Zink har utträdesarbetet 4,31 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><ol type=\"a\"><li>Bestäm gränsfrekvensen.</li><li>Fotoner med energin 5,50 eV träffar zink. Vilken är de frigjorda elektronernas största fart?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f_0=\\dfrac{E_0}{h}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{15}\\) Hz</p></li><li><p>\\(E_{k,max}=5{,}50-4{,}31=1{,}19\\) eV. \\(v=\\sqrt{\\dfrac{2E_k}{m_e}}\\).</p><p><strong>Svar:</strong> \\(6{,}5\\cdot10^{5}\\) m/s</p></li></ol>",
+    "id": "4.363",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1042049501961968.0,
+      646970.3582217729
+    ],
+    "tolerans": [
+      51000000000000.0,
+      9700.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Zink har utträdesarbetet 4,31 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm gränsfrekvensen.",
+        "t": "<p>Zink har utträdesarbetet 4,31 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Bestäm gränsfrekvensen.</p>",
+        "s": "<p>\\(f_0=\\dfrac{E_0}{h}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{15}\\) Hz</p>",
+        "ledtrad": "<p>\\(E_0=hf_0\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Fotoner med energin 5,50 eV träffar zink. Vilken är de frigjorda elektronernas största fart?",
+        "t": "<p>Zink har utträdesarbetet 4,31 eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p><p>Fotoner med energin 5,50 eV träffar zink. Vilken är de frigjorda elektronernas största fart?</p>",
+        "s": "<p>\\(E_{k,max}=5{,}50-4{,}31=1{,}19\\) eV. \\(v=\\sqrt{\\dfrac{2E_k}{m_e}}\\).</p><p><strong>Svar:</strong> \\(6{,}5\\cdot10^{5}\\) m/s</p>",
+        "ledtrad": "<p>Räkna om rörelseenergin till joule.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(hf=E_0+E_{k,max}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "vilken metall ger fotoelektroner",
+    "poang": "(1/1/0)",
+    "t": "<p>Litium, beryllium och kvicksilver har utträdesarbetena 2,30 eV, 3,90 eV och 4,50 eV. Ljus med våglängden 400 nm faller in mot metallerna. Bara en av dem sänder ut elektroner. Hur stor är elektronernas största rörelseenergi?</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "s": "<p>Fotonenergin är \\(\\dfrac{hc}{\\lambda}\\approx3{,}10\\) eV. Bara litium har lägre utträdesarbete: \\(E_{k,max}=3{,}10-2{,}30\\).</p><p><strong>Svar:</strong> \\(0{,}800\\) eV</p>",
+    "id": "4.364",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.7999918851435708,
+    "tolerans": 0.012,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför fotonenergin med utträdesarbetena.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "eV",
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "utträdesarbete ur två mätningar",
+    "poang": "(0/2/0)",
+    "t": "<p>I en fotocell med cesiumkatod krävs bromsspänningen 3,00 V vid våglängden 254 nm och 0,900 V vid 436 nm. Beräkna utträdesarbetet som medelvärdet av de två mätningarna. Svara i eV.</p><p>Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=2{,}998\\cdot10^8\\) m/s, \\(e=1{,}602\\cdot10^{-19}\\) C och \\(m_e=9{,}109\\cdot10^{-31}\\) kg.</p>",
+    "s": "<p>\\(E_0=\\dfrac{hc}{\\lambda}-eU\\): \\(4{,}88-3{,}00=1{,}88\\) eV och \\(2{,}84-0{,}900=1{,}94\\) eV. Medelvärde \\(\\approx1{,}91\\) eV.</p><p><strong>Svar:</strong> \\(1{,}91\\) eV</p>",
+    "id": "4.365",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotoelektrisk effekt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.9129531184516784,
+    "tolerans": 0.0287,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna utträdesarbetet för varje mätning.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "eV",
+    "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
   }
 ];

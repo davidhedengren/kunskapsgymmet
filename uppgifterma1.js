@@ -105071,6 +105071,35 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "5.573",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En basketspelare sätter 70 % av sina straffkast. Anta att kasten är oberoende av varandra.</p><p>Hur stor är sannolikheten att spelaren sätter exakt två av tre straffkast? Svara med tre decimaler.</p>",
+    "s": "<p>”Exakt två av tre” kan ske på tre sätt: TTM, TMT och MTT, där T är träff och M är miss.</p><p>Varje sätt har sannolikheten \\(0{,}7\\cdot0{,}7\\cdot0{,}3=0{,}147\\).</p><p>\\[P=3\\cdot0{,}147=0{,}441.\\]</p><p><strong>Svar:</strong> 0,441</p>",
+    "familj": "Exakt antal träffar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv upp alla ordningar med två träffar och en miss. Har de samma sannolikhet?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.441,
+    "tolerans": 0.001
+  },
+  {
     "id": "5.433",
     "kap": 5,
     "omr": "beroende_handelser",
@@ -106067,6 +106096,35 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "5.572",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Hur många gånger måste man minst kasta en tärning för att sannolikheten att få minst en sexa ska vara större än 90 %?</p>",
+    "s": "<p>Sannolikheten för minst en sexa på \\(n\\) kast är \\(1-\\left(\\frac56\\right)^n\\), eftersom komplementhändelsen är ”ingen sexa alls”.</p><p>Vi söker minsta \\(n\\) med \\(\\left(\\frac56\\right)^n&lt;0{,}10\\). Prövning:</p><ul><li>\\(n=12\\): \\(\\left(\\frac56\\right)^{12}\\approx0{,}112\\)</li><li>\\(n=13\\): \\(\\left(\\frac56\\right)^{13}\\approx0{,}093\\)</li></ul><p>Alltså krävs 13 kast.</p><p><strong>Svar:</strong> 13 kast</p>",
+    "familj": "Sannolikheten för minst en händelse",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna med komplementhändelsen: vad är sannolikheten att inte få någon sexa på \\(n\\) kast? Pröva olika \\(n\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null
+  },
+  {
     "id": "5.464",
     "kap": 5,
     "omr": "sannolikhet_flera_steg",
@@ -106545,6 +106603,35 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Multiplikationsprincipen och antal utfall"
     ]
+  },
+  {
+    "id": "5.574",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lag A och lag B spelar en serie i bäst av tre matcher. Det lag som först vinner två matcher vinner serien. Lag A vinner varje match med sannolikheten 0,6, oberoende av tidigare matcher.</p><p>Hur stor är sannolikheten att lag A vinner serien? Svara med tre decimaler.</p>",
+    "s": "<p>A vinner serien på något av dessa sätt:</p><ul><li>AA: \\(0{,}6\\cdot0{,}6=0{,}36\\)</li><li>ABA: \\(0{,}6\\cdot0{,}4\\cdot0{,}6=0{,}144\\)</li><li>BAA: \\(0{,}4\\cdot0{,}6\\cdot0{,}6=0{,}144\\)</li></ul><p>\\[P=0{,}36+0{,}144+0{,}144=0{,}648.\\]</p><p>Ett lag som vinner 60 % av matcherna vinner alltså nästan 65 % av serierna. Det bättre laget gynnas av att man spelar fler matcher.</p><p><strong>Svar:</strong> 0,648</p>",
+    "familj": "Sannolikhet med träddiagram",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita ett träddiagram. Serien kan sluta efter två eller tre matcher.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.648,
+    "tolerans": 0.001
   },
   {
     "id": "5.479",
@@ -107028,6 +107115,36 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ]
+  },
+  {
+    "id": "5.570",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>En sjukdom finns hos 1 % av befolkningen. Ett test upptäcker 95 % av dem som är sjuka. Men testet visar också positivt för 5 % av dem som är friska.</p><p>En slumpvis vald person testar positivt. Hur stor är sannolikheten att personen verkligen är sjuk? Svara i procent, avrundat till heltal.</p>",
+    "s": "<p>Tänk dig 10 000 personer:</p><ul><li>100 är sjuka. Av dem testar \\(0{,}95\\cdot100=95\\) positivt.</li><li>9 900 är friska. Av dem testar \\(0{,}05\\cdot9\\,900=495\\) positivt.</li></ul><p>Totalt testar \\(95+495=590\\) positivt, och 95 av dem är sjuka:</p><p>\\[\\frac{95}{590}\\approx0{,}16.\\]</p><p>Trots att testet verkar bra är bara cirka 16 % av de positiva sjuka. Det beror på att sjukdomen är ovanlig, så de falskt positiva blir många fler än de sant positiva.</p><p><strong>Svar:</strong> cirka 16 %</p>",
+    "familj": "Bedöma risk och säkerhet",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Tänk dig 10 000 personer. Hur många är sjuka och testar positivt? Hur många är friska men testar ändå positivt?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 0.6,
+    "svarEnhet": "%"
   },
   {
     "id": "5.494",
@@ -109283,6 +109400,86 @@ window.BANKMA1 = [
     "spel": true
   },
   {
+    "id": "5.568",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>På 1600-talet undrade spelare i Florens varför summan 10 verkade komma oftare än summan 9 när man kastar tre tärningar. Båda summorna kan ju delas upp på sex sätt:</p><ul><li>9: 1+2+6, 1+3+5, 1+4+4, 2+2+5, 2+3+4, 3+3+3</li><li>10: 1+3+6, 1+4+5, 2+2+6, 2+3+5, 2+4+4, 3+3+4</li></ul><p>Beräkna sannolikheten för summan 9 och för summan 10. Svara med tre decimaler.</p>",
+    "s": "<p>Det finns \\(6^3=216\\) lika sannolika utfall om man håller isär tärningarna. Uppdelningarna är inte lika sannolika, eftersom de kan ordnas på olika många sätt:</p><ul><li>tre olika tal (t.ex. 1+2+6): \\(3\\cdot2\\cdot1=6\\) ordningar</li><li>två lika (t.ex. 1+4+4): 3 ordningar</li><li>tre lika (3+3+3): 1 ordning</li></ul><p>Summa 9: \\(6+6+3+3+6+1=25\\) utfall, så \\(P=\\frac{25}{216}\\approx0{,}116\\).</p><p>Summa 10: \\(6+6+3+6+3+3=27\\) utfall, så \\(P=\\frac{27}{216}=0{,}125\\).</p><p>Summan 10 är alltså lite vanligare. Galileo Galilei förklarade detta just på det här sättet.</p><p><strong>Svar:</strong> \\(P(9)\\approx0{,}116\\) och \\(P(10)=0{,}125\\)</p>",
+    "familj": "Klassisk sannolikhet",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Är 1+2+6 och 3+3+3 lika sannolika? På hur många sätt kan tre tärningar visa 1, 2 och 6 i någon ordning?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.11574074074074074,
+      0.125
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "P(summa 9)",
+      "P(summa 10)"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "5.569",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En tärning kastas 600 gånger och visar sexa 130 gånger.</p><p><strong>a)</strong> Vad är den relativa frekvensen för sexa? Svara med tre decimaler.</p><p><strong>b)</strong> Hur många sexor hade man väntat sig med en vanlig, symmetrisk tärning?</p>",
+    "s": "<p><strong>a)</strong> \\(\\frac{130}{600}\\approx0{,}217\\).</p><p><strong>b)</strong> \\(600\\cdot\\frac16=100\\).</p><p>130 är betydligt fler än 100 på så många kast. Det tyder på att tärningen kanske inte är symmetrisk.</p><p><strong>Svar:</strong> a) cirka 0,217 &nbsp; b) 100 sexor</p>",
+    "familj": "Sannolikhet och relativ frekvens",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Relativ frekvens är antal gånger delat med antal försök.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.21666666666666667,
+      100
+    ],
+    "tolerans": [
+      0.001,
+      0
+    ],
+    "svarEtiketter": [
+      "a) Relativ frekvens",
+      "b) Väntat antal"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "5.563",
     "kap": 5,
     "omr": "urvalsmetoder",
@@ -109430,6 +109627,52 @@ window.BANKMA1 = [
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true
+  },
+  {
+    "id": "5.571",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En skola har 480 elever i åk 1, 420 i åk 2 och 300 i åk 3. Man gör ett stratifierat urval på 80 elever, där varje årskurs är representerad i proportion till sin storlek.</p><p><strong>a)</strong> Hur många elever väljs från varje årskurs?</p><p><strong>b)</strong> I urvalet svarar 60 % av eleverna i åk 1, 45 % i åk 2 och 30 % i åk 3 ja på en fråga. Uppskatta hur många procent av skolans alla elever som skulle svara ja. Svara med en decimal.</p>",
+    "s": "<p><strong>a)</strong> Skolan har 1 200 elever. Urvalet är \\(\\frac{80}{1200}=\\frac1{15}\\) av eleverna.</p><p>Åk 1: \\(\\frac{480}{15}=32\\), åk 2: \\(\\frac{420}{15}=28\\), åk 3: \\(\\frac{300}{15}=20\\).</p><p><strong>b)</strong> Väg årskursernas andelar med deras storlek:</p><p>\\[\\frac{480\\cdot0{,}60+420\\cdot0{,}45+300\\cdot0{,}30}{1200}=\\frac{288+189+90}{1200}=\\frac{567}{1200}\\approx0{,}473.\\]</p><p>Det är inte samma sak som medelvärdet av 60, 45 och 30, som blir 45 %. Det medelvärdet tar inte hänsyn till att åk 1 är störst.</p><p><strong>Svar:</strong> a) 32, 28 och 20 elever &nbsp; b) cirka 47,3 %</p>",
+    "familj": "Bedöma urval och representativitet",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor del av alla elever ingår i urvalet? I b ska andelarna vägas med hur många elever varje årskurs har.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      32,
+      28,
+      20,
+      47.25
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Åk 1",
+      "Åk 2",
+      "Åk 3",
+      "b) Andel ja"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "6.01",
@@ -115258,6 +115501,50 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "6.419",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett sparkonto ger 5 % ränta per år, och varje år tas 500 kr ut efter att räntan har lagts till. I ett kalkylblad skrivs startbeloppet i cell A1. I cell A2 står formeln <code>=A1*1,05-500</code>, och den kopieras nedåt.</p><p><strong>a)</strong> Startbeloppet är 12 000 kr. Vilket värde står i cell A11? Avrunda till hela kronor.</p><p><strong>b)</strong> Vilket startbelopp gör att alla celler visar samma värde?</p>",
+    "s": "<p><strong>b)</strong> Värdet ändras inte om räntan precis täcker uttaget: \\(0{,}05x=500\\), alltså \\(x=10\\,000\\) kr. Kontroll: \\(10\\,000\\cdot1{,}05-500=10\\,000\\).</p><p><strong>a)</strong> Det som ligger över 10 000 kr växer med 5 % per år utan uttag. Med start 12 000 kr är överskottet 2 000 kr. A11 ligger 10 år efter A1:</p><p>\\[10\\,000+2\\,000\\cdot1{,}05^{10}\\approx10\\,000+3\\,258=13\\,258\\text{ kr}.\\]</p><p>Man kan också kopiera formeln i ett kalkylblad och läsa av A11.</p><p><strong>Svar:</strong> a) cirka 13 258 kr &nbsp; b) 10 000 kr</p>",
+    "familj": "Privatekonomi",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör b först: när är räntan precis lika stor som uttaget? Pröva sedan formeln i ett kalkylblad.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13258,
+      10000
+    ],
+    "tolerans": [
+      1,
+      0
+    ],
+    "svarEtiketter": [
+      "a) A11",
+      "b) Startbelopp"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ]
+  },
+  {
     "id": "6.401",
     "kap": 6,
     "omr": "programmering",
@@ -115504,6 +115791,67 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Matematik och enkla algoritmer"
     ]
+  },
+  {
+    "id": "6.417",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Vad skriver programmet ut?</p><p><code>s = 0</code><br><code>n = 0</code><br><code>while s &lt; 1000:</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;n = n + 1</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;s = s + n*n</code><br><code>print(n, s)</code></p><p>Ange de två talen som skrivs ut.</p>",
+    "s": "<p>Programmet adderar kvadrattalen \\(1^2, 2^2, 3^2, \\dots\\) tills summan är minst 1 000. Sedan skrivs antalet termer och summan ut.</p><p>\\(1+4+9+16+25+36+49+64+81+100+121+144+169=819\\) med \\(n=13\\). Summan är fortfarande under 1 000, så slingan fortsätter.</p><p>\\(n=14\\): \\(819+196=1015\\). Nu är villkoret \\(s&lt;1000\\) falskt, och slingan avslutas.</p><p><strong>Svar:</strong> programmet skriver ut 14 och 1015</p>",
+    "familj": "Programmering som matematiskt verktyg",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Följ variablerna steg för steg i en tabell. När slutar slingan?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      1015
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "n",
+      "s"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "6.418",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Vad skriver programmet ut?</p><p><code>x = 5</code><br><code>for i in range(3):</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;x = 2*x - 1</code><br><code>print(x)</code></p>",
+    "s": "<p>Slingan körs tre gånger:</p><ul><li>\\(x=2\\cdot5-1=9\\)</li><li>\\(x=2\\cdot9-1=17\\)</li><li>\\(x=2\\cdot17-1=33\\)</li></ul><p><strong>Svar:</strong> 33</p>",
+    "familj": "Programmering som matematiskt verktyg",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p><code>range(3)</code> betyder att slingan körs tre gånger. Uppdatera \\(x\\) varje gång.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 33,
+    "tolerans": null
   },
   {
     "id": "6.409",
@@ -126544,6 +126892,45 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "7.526",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En segelbåt byggs först som modell i skala 1 : 20, i samma material som den riktiga båten. Modellens segel har arean 0,5 m², och modellen väger 3 kg.</p><p><strong>a)</strong> Hur stor är den riktiga båtens segelarea?</p><p><strong>b)</strong> Hur mycket väger den riktiga båten, i ton?</p>",
+    "s": "<p>Längdskalan är 20.</p><p><strong>a)</strong> Areaskalan är \\(20^2=400\\): \\(0{,}5\\cdot400=200\\) m².</p><p><strong>b)</strong> Vikten är proportionell mot volymen. Volymskalan är \\(20^3=8\\,000\\): \\(3\\cdot8\\,000=24\\,000\\) kg \\(=24\\) ton.</p><p>Vikten växer mycket snabbare än seglets area. Därför kan en modell som seglar bra inte alltid förstoras rakt av.</p><p><strong>Svar:</strong> a) 200 m² &nbsp; b) 24 ton</p>",
+    "familj": "Likformighet och areaskala",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Om alla längder blir 20 gånger större, hur många gånger större blir då en area och en volym?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      200,
+      24
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a) Segelarea",
+      "b) Vikt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "m²",
+      "ton"
+    ]
+  },
+  {
     "id": "7.418",
     "kap": 7,
     "omr": "matning_enheter",
@@ -126893,6 +127280,60 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
+  },
+  {
+    "id": "7.523",
+    "kap": 7,
+    "omr": "matning_enheter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett kar har innermåtten 2,4 m × 1,5 m × 0,8 m. Det fylls med en slang som ger 18 liter per minut. Samtidigt läcker karet 1,5 liter per minut.</p><p>Hur lång tid tar det att fylla karet? Svara i hela minuter.</p>",
+    "s": "<p>Volym: \\(2{,}4\\cdot1{,}5\\cdot0{,}8=2{,}88\\) m³ \\(=2\\,880\\) liter, eftersom 1 m³ = 1 000 liter.</p><p>Nettoflöde: \\(18-1{,}5=16{,}5\\) liter per minut.</p><p>Tid: \\(\\frac{2\\,880}{16{,}5}\\approx174{,}5\\) min, alltså cirka 175 min eller nästan 3 timmar.</p><p><strong>Svar:</strong> cirka 175 minuter</p>",
+    "familj": "Dosering, flöde och volym",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna volymen i liter. Hur mycket vatten kommer in i karet per minut när läckan räknas bort?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 174.54545454545453,
+    "tolerans": 1,
+    "svarEnhet": "min"
+  },
+  {
+    "id": "7.524",
+    "kap": 7,
+    "omr": "matning_enheter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En patient ska få 1 000 ml dropp under 8 timmar. Droppaggregatet ger 20 droppar per ml.</p><p>Hur många droppar per minut ska ställas in? Avrunda till heltal.</p>",
+    "s": "<p>Totalt antal droppar: \\(1\\,000\\cdot20=20\\,000\\). Tiden är \\(8\\cdot60=480\\) minuter.</p><p>\\(\\frac{20\\,000}{480}\\approx41{,}7\\), alltså cirka 42 droppar per minut.</p><p><strong>Svar:</strong> cirka 42 droppar per minut</p>",
+    "familj": "Dosering, flöde och volym",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna ut det totala antalet droppar och antalet minuter.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 0.5
   },
   {
     "id": "7.430",
@@ -127265,6 +127706,34 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Överslag och rimlighetsbedömning"
     ]
+  },
+  {
+    "id": "7.529",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Väggarna i ett rum ska målas två gånger. Rummet är 4,2 m × 3,8 m och takhöjden är 2,5 m. Dörr och fönster upptar tillsammans ungefär 4 m². En liter färg räcker till 8 m² per strykning.</p><p>Gör ett överslag: hur många liter färg går åt?</p>",
+    "s": "<p>Omkretsen är \\(2\\cdot(4{,}2+3{,}8)=16\\) m. Väggytan är \\(16\\cdot2{,}5=40\\) m².</p><p>Utan dörr och fönster: \\(40-4=36\\) m². Två strykningar: \\(72\\) m².</p><p>Färg: \\(\\frac{72}{8}=9\\) liter.</p><p>I praktiken köper man ofta lite extra, till exempel två burkar på 5 liter.</p><p><strong>Svar:</strong> cirka 9 liter</p>",
+    "familj": "Rimlighet och avrundade mått",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna ut väggarnas sammanlagda yta med omkretsen gånger takhöjden.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0.5,
+    "svarEnhet": "l"
   },
   {
     "id": "7.442",
@@ -128129,6 +128598,61 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna materialåtgång, spill och kostnad"
     ]
+  },
+  {
+    "id": "7.527",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett storkök behöver 12 kg skalad potatis. Vid skalningen försvinner 20 % av potatisens vikt.</p><p>Hur många kilogram oskalad potatis måste köpas?</p>",
+    "s": "<p>Efter skalning finns 80 % kvar. Om man köper \\(x\\) kg gäller \\(0{,}80x=12\\), alltså</p><p>\\[x=\\frac{12}{0{,}80}=15\\text{ kg}.\\]</p><p>Ett vanligt fel är att räkna \\(12\\cdot1{,}20=14{,}4\\) kg. Men 20 % svinn räknas på den <em>oskalade</em> vikten: \\(0{,}20\\cdot14{,}4=2{,}88\\) kg försvinner, och då blir det bara 11,52 kg kvar.</p><p><strong>Svar:</strong> 15 kg</p>",
+    "familj": "Svinn och utbyte",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor andel av den oskalade potatisen finns kvar efter skalning? Kontrollera ditt svar genom att räkna svinnet.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0.01,
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "7.528",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En vägg som är 3,0 m bred och 2,4 m hög ska kaklas. I väggen sitter ett fönster som är 1,0 m brett och 0,8 m högt. Man räknar med 10 % spill. Ett paket kakel räcker till 1,08 m².</p><p>Hur många paket behövs?</p>",
+    "s": "<p>Yta att kakla: \\(3{,}0\\cdot2{,}4-1{,}0\\cdot0{,}8=7{,}2-0{,}8=6{,}4\\) m².</p><p>Med spill: \\(6{,}4\\cdot1{,}10=7{,}04\\) m².</p><p>Antal paket: \\(\\frac{7{,}04}{1{,}08}\\approx6{,}5\\). Man kan bara köpa hela paket, så det behövs 7 paket.</p><p><strong>Svar:</strong> 7 paket</p>",
+    "familj": "Materialbehov med spill",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dra bort fönstret, lägg till spillet och avrunda uppåt till helt paket.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null
   },
   {
     "id": "7.470",
@@ -129119,6 +129643,34 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "7.525",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Två lyftband har vardera brottlasten 2 400 kg. Arbetsplatsen använder säkerhetsfaktorn 4, så ett band får belastas med högst en fjärdedel av brottlasten.</p><p>Lasten hänger snett, så det ena bandet bär 60 % av lastens vikt och det andra 40 %. Hur tung får lasten högst vara?</p>",
+    "s": "<p>Varje band får belastas med högst \\(\\frac{2\\,400}{4}=600\\) kg.</p><p>Det band som bär mest avgör: \\(0{,}60\\cdot L\\le600\\), alltså \\(L\\le1\\,000\\) kg.</p><p>Om lasten hade hängt jämnt hade varje band burit hälften, och då hade 1 200 kg varit tillåtet. Den sneda upphängningen minskar alltså den tillåtna lasten med 200 kg.</p><p><strong>Svar:</strong> högst 1 000 kg</p>",
+    "familj": "Säkerhetsfaktor",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först hur mycket ett band får bära. Vilket av banden sätter gränsen?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1000,
+    "tolerans": null,
+    "svarEnhet": "kg"
+  },
+  {
     "id": "7.502",
     "kap": 7,
     "omr": "yrkesformler",
@@ -129764,6 +130316,34 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Yrkesverktyg, mätinstrument och rimlighetskontroll"
     ]
+  },
+  {
+    "id": "7.530",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I ett lönekalkylblad står antalet arbetade timmar i cell B2 och timlönen i cell C2. Veckolönen beräknas med formeln</p><p><code>=OM(B2&gt;40; 40*C2+(B2-40)*C2*1,5; B2*C2)</code></p><p>En vecka arbetar en person 46 timmar med timlönen 180 kr. Vilken veckolön räknar kalkylbladet fram?</p>",
+    "s": "<p>Formeln betyder: om man har arbetat mer än 40 timmar får man vanlig lön för 40 timmar och 1,5 gånger timlönen för timmarna därutöver. Annars får man bara timmar gånger timlön.</p><p>\\(B2=46&gt;40\\), så \\(40\\cdot180+6\\cdot180\\cdot1{,}5=7\\,200+1\\,620=8\\,820\\) kr.</p><p><strong>Svar:</strong> 8 820 kr</p>",
+    "familj": "Tabeller och kalkylblad",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Läs formeln som ”OM villkor; värde om sant; värde om falskt”. Är villkoret sant här?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8820,
+    "tolerans": null,
+    "svarEnhet": "kr"
   },
   {
     "id": "0.806",

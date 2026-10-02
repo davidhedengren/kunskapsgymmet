@@ -10446,6 +10446,34 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
+    "id": "1.579",
+    "kap": 1,
+    "omr": "tangent_sekant",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För \\(f(x)=x^3\\) är tangentens lutning i \\(x=1\\) gränsvärdet av \\(\\dfrac{(1+h)^3-1}{h}\\) när \\(h\\to0\\).</p><p>Sekanten genom punkterna \\((0,\\,0)\\) och \\((a,\\,a^3)\\), där \\(a&gt;0\\), ska vara parallell med tangenten i \\(x=1\\). Bestäm \\(a\\) exakt eller med tre decimaler.</p>",
+    "s": "<p>Tangentens lutning: \\(\\dfrac{(1+h)^3-1}{h}=\\dfrac{3h+3h^2+h^3}{h}=3+3h+h^2\\to3\\) när \\(h\\to0\\).</p><p>Sekantens lutning: \\(\\dfrac{a^3-0}{a-0}=a^2\\).</p><p>Parallella linjer har samma lutning: \\(a^2=3\\), och med \\(a&gt;0\\) blir \\(a=\\sqrt3\\approx1{,}732\\).</p><p><strong>Svar:</strong> \\(a=\\sqrt3\\approx1{,}732\\)</p>",
+    "familj": "Sekant, tangent och gränsvärde",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna gränsvärdet genom att utveckla \\((1+h)^3\\). Vad är sekantens lutning uttryckt i \\(a\\)?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.7320508075688772,
+    "tolerans": 0.001
+  },
+  {
     "id": "1.262",
     "kap": 1,
     "omr": "kontinuitet",
@@ -11141,6 +11169,46 @@ window.BANKMATO1 = [
     "omrTidigare": [
       "polynom"
     ]
+  },
+  {
+    "id": "1.580",
+    "kap": 1,
+    "omr": "faktorisera_polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Faktorisera \\(x^4-5x^2+4\\) fullständigt och lös ekvationen \\(x^4-5x^2+4=0\\).</p>",
+    "s": "<p>Sätt \\(t=x^2\\): \\(t^2-5t+4=(t-1)(t-4)\\).</p><p>\\[x^4-5x^2+4=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2).\\]</p><p>Nollproduktmetoden ger \\(x=\\pm1\\) och \\(x=\\pm2\\).</p><p><strong>Svar:</strong> \\((x-1)(x+1)(x-2)(x+2)\\), alltså \\(x=-2,\\ -1,\\ 1,\\ 2\\)</p>",
+    "familj": "Faktorisera polynom",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Uttrycket är en andragradsfunktion i \\(x^2\\). Sätt \\(t=x^2\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      -1,
+      1,
+      2
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.283",
@@ -12738,6 +12806,34 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Förenkla rationellt uttryck"
     ]
+  },
+  {
+    "id": "1.582",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p><strong>a)</strong> Visa att \\(\\dfrac1{x}-\\dfrac1{x+1}=\\dfrac1{x(x+1)}\\).</p><p><strong>b)</strong> Använd sambandet för att beräkna</p><p>\\[\\frac1{1\\cdot2}+\\frac1{2\\cdot3}+\\frac1{3\\cdot4}+\\dots+\\frac1{99\\cdot100}.\\]</p>",
+    "s": "<p><strong>a)</strong> \\(\\dfrac1x-\\dfrac1{x+1}=\\dfrac{(x+1)-x}{x(x+1)}=\\dfrac1{x(x+1)}\\).</p><p><strong>b)</strong> Skriv varje term som en skillnad:</p><p>\\[\\left(1-\\frac12\\right)+\\left(\\frac12-\\frac13\\right)+\\dots+\\left(\\frac1{99}-\\frac1{100}\\right).\\]</p><p>Alla mellanliggande termer tar ut varandra. Kvar blir \\(1-\\frac1{100}=0{,}99\\).</p><p><strong>Svar:</strong> b) 0,99</p>",
+    "familj": "Räkna med rationella uttryck",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör liknämnigt i a. I b: skriv ut de första termerna som skillnader. Vad händer?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.99,
+    "tolerans": 0.0001
   },
   {
     "id": "1.448",
@@ -72617,6 +72713,34 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "1.584",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Uttrycket</p><p>\\[\\frac{x+1}{x^2-2x+a}\\]</p><p>ska vara definierat för alla reella tal \\(x\\).</p><p>Vilket är det minsta heltal \\(a\\) som uppfyller det?</p>",
+    "s": "<p>Uttrycket är definierat för alla \\(x\\) om nämnaren aldrig är 0.</p><p>Kvadratkomplettera: \\(x^2-2x+a=(x-1)^2+(a-1)\\). Det minsta värdet är \\(a-1\\), som antas när \\(x=1\\).</p><p>Nämnaren är aldrig 0 om \\(a-1&gt;0\\), alltså \\(a&gt;1\\). Om \\(a\\le1\\) har nämnaren nollställen.</p><p>Det minsta heltalet är \\(a=2\\).</p><p><strong>Svar:</strong> \\(a=2\\)</p>",
+    "familj": "Definitionsmängd för rationella uttryck",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>När saknar \\(x^2-2x+a=0\\) reella lösningar? Kvadratkomplettera eller använd pq-formeln.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null
+  },
+  {
     "id": "1.531",
     "kap": 1,
     "omr": "polynom",
@@ -91184,6 +91308,42 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "1.583",
+    "kap": 1,
+    "omr": "polynomfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En tredjegradsfunktion \\(f\\) har nollställena \\(x=-2\\), \\(x=1\\) och \\(x=3\\). Grafen skär \\(y\\)-axeln i \\((0,\\,12)\\).</p><p>Bestäm koefficienten framför \\(x^3\\) och värdet \\(f(2)\\).</p>",
+    "s": "<p>Nollställena ger \\(f(x)=k(x+2)(x-1)(x-3)\\).</p><p>\\(f(0)=k\\cdot2\\cdot(-1)\\cdot(-3)=6k=12\\), alltså \\(k=2\\). Koefficienten framför \\(x^3\\) är \\(k=2\\).</p><p>\\(f(2)=2\\cdot4\\cdot1\\cdot(-1)=-8\\).</p><p><strong>Svar:</strong> koefficienten är 2 och \\(f(2)=-8\\)</p>",
+    "familj": "Bestämma polynomfunktion från villkor",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv funktionen i faktorform med en okänd konstant \\(k\\) framför. Använd skärningen med \\(y\\)-axeln.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -8
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Koefficient",
+      "f(2)"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "1.555",
     "kap": 1,
     "omr": "algebra_polynom",
@@ -91250,6 +91410,34 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Förenkla potensuttryck"
     ]
+  },
+  {
+    "id": "1.581",
+    "kap": 1,
+    "omr": "algebra_polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Förenkla</p><p>\\[\\left(x+\\frac1x\\right)^2-\\left(x-\\frac1x\\right)^2.\\]</p>",
+    "s": "<p>Med kvadreringsreglerna:</p><p>\\[\\left(x^2+2+\\frac1{x^2}\\right)-\\left(x^2-2+\\frac1{x^2}\\right)=4.\\]</p><p>Snabbare med konjugatregeln: \\((A+B)(A-B)\\) där \\(A=2x\\) och \\(B=\\frac2x\\) ger \\(2x\\cdot\\frac2x=4\\).</p><p>Uttrycket är alltså konstant, för alla \\(x\\ne0\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Förenkla, utveckla och räkna med potenser",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd kvadreringsreglerna. Vad blir mittentermen \\(2\\cdot x\\cdot\\frac1x\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null
   },
   {
     "id": "4.472",
@@ -91521,6 +91709,34 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "1.576",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=x^2-4x\\).</p><p>Lös ekvationen \\(f(x+1)=f(x)\\) och tolka svaret med hjälp av grafen till \\(f\\).</p>",
+    "s": "<p>\\(f(x+1)=(x+1)^2-4(x+1)=x^2+2x+1-4x-4=x^2-2x-3\\).</p><p>\\[x^2-2x-3=x^2-4x\\;\\Leftrightarrow\\;2x=3\\;\\Leftrightarrow\\;x=1{,}5.\\]</p><p>Tolkning: \\(f(1{,}5)=f(2{,}5)\\). De två \\(x\\)-värdena ligger symmetriskt kring parabelns symmetrilinje \\(x=2\\), och där har funktionen samma värde.</p><p><strong>Svar:</strong> \\(x=1{,}5\\)</p>",
+    "familj": "Tolka och jämföra funktioner",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ersätt \\(x\\) med \\(x+1\\) i funktionsuttrycket. När har en parabel samma värde i två punkter som ligger 1 steg isär?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": 0.001
+  },
+  {
     "id": "1.560",
     "kap": 1,
     "omr": "polynom",
@@ -91550,6 +91766,80 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Polynomets grad"
     ]
+  },
+  {
+    "id": "1.574",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Polynomet \\(p(x)=x^3+ax^2+bx+6\\) har nollställena \\(x=1\\) och \\(x=2\\).</p><p>Bestäm \\(a\\) och \\(b\\) samt polynomets tredje nollställe.</p>",
+    "s": "<p>\\(p(1)=0\\): \\(1+a+b+6=0\\), alltså \\(a+b=-7\\).</p><p>\\(p(2)=0\\): \\(8+4a+2b+6=0\\), alltså \\(2a+b=-7\\).</p><p>Subtrahera: \\(a=0\\) och då \\(b=-7\\). Polynomet är \\(p(x)=x^3-7x+6\\).</p><p>Faktorerna \\((x-1)\\) och \\((x-2)\\) ger \\((x-1)(x-2)=x^2-3x+2\\). Konstanttermen 6 kräver att den tredje faktorn är \\((x+3)\\):</p><p>\\[(x-1)(x-2)(x+3)=x^3-7x+6.\\]</p><p><strong>Svar:</strong> \\(a=0\\), \\(b=-7\\) och det tredje nollstället är \\(x=-3\\)</p>",
+    "familj": "Polynombegrepp, grad och värden",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Sätt in de kända nollställena. Det ger två ekvationer. Vad måste den tredje faktorn vara för att konstanttermen ska bli 6?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      -7,
+      -3
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a",
+      "b",
+      "Tredje nollstället"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "1.575",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Förenkla polynomet \\((2x^3-x)(x^2+4)-2x^5\\).</p><p>Ange polynomets gradtal och koefficienten framför \\(x^3\\).</p>",
+    "s": "<p>\\((2x^3-x)(x^2+4)=2x^5+8x^3-x^3-4x=2x^5+7x^3-4x\\).</p><p>Minus \\(2x^5\\) ger \\(7x^3-4x\\).</p><p>\\(x^5\\)-termerna tar ut varandra, så gradtalet är 3 och inte 5.</p><p><strong>Svar:</strong> gradtal 3, koefficienten 7</p>",
+    "familj": "Polynombegrepp, grad och värden",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Multiplicera ut och samla termer innan du bestämmer gradtalet.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      7
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Gradtal",
+      "Koefficient för x³"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.561",
@@ -91652,6 +91942,74 @@ window.BANKMATO1 = [
     "rättSvar": 5,
     "tolerans": null,
     "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.577",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm konstanten \\(a\\) så att uttrycket</p><p>\\[\\frac{x^2+ax-12}{x-3}\\]</p><p>kan förkortas till ett polynom. Ange också polynomet.</p>",
+    "s": "<p>Täljaren måste ha faktorn \\((x-3)\\), alltså nollstället \\(x=3\\):</p><p>\\(9+3a-12=0\\), vilket ger \\(a=1\\).</p><p>\\(x^2+x-12=(x-3)(x+4)\\), så</p><p>\\[\\frac{(x-3)(x+4)}{x-3}=x+4,\\quad x\\ne3.\\]</p><p><strong>Svar:</strong> \\(a=1\\) och uttrycket blir \\(x+4\\) (för \\(x\\ne3\\))</p>",
+    "familj": "Förkorta rationella uttryck",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Om \\(x-3\\) ska kunna förkortas bort måste täljaren vara 0 när \\(x=3\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      "x+4"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a",
+      "Polynom"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ]
+  },
+  {
+    "id": "1.578",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{x^3-x}{x^2+x}.\\]</p>",
+    "s": "<p>Faktorisera täljare och nämnare:</p><p>\\[\\frac{x(x-1)(x+1)}{x(x+1)}=x-1,\\quad x\\ne0,\\ x\\ne-1.\\]</p><p><strong>Svar:</strong> \\(x-1\\), för \\(x\\ne0\\) och \\(x\\ne-1\\)</p>",
+    "familj": "Förenkla och ange definitionsvillkor",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bryt ut \\(x\\) ur både täljare och nämnare och använd konjugatregeln i täljaren.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "uttryck",
+    "rättSvar": "x-1",
+    "tolerans": null,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.1074",

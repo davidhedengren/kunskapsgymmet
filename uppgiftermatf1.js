@@ -13677,6 +13677,1882 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "E",
+    "typ": "aritmetisk summa i rörelse",
+    "poang": "2/0/0",
+    "t": "<p>En liten stålkula rullar nedför ett lutande plan. Under den första sekunden rullar den 1,0 cm, och varje följande sekund rullar den 3,0 cm längre än sekunden före. Kulan når slutet av planet efter 12 sekunder.</p><p>Hur långt är det lutande planet? Svara i meter.</p>",
+    "s": "<p>Sträckorna per sekund bildar en aritmetisk talföljd med \\(a_1=1{,}0\\) cm och \\(d=3{,}0\\) cm.</p><p>Sträckan under sekund 12: \\(a_{12}=1{,}0+11\\cdot3{,}0=34\\) cm.</p><p>Hela sträckan: \\[S_{12}=\\frac{12(a_1+a_{12})}{2}=\\frac{12(1{,}0+34)}{2}=210\\text{ cm}.\\]</p><p><strong>Svar:</strong> 2,1 m</p>",
+    "id": "2.592",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.1,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hela sträckan är summan av sträckorna under de tolv sekunderna. Vilken sorts talföljd bildar de?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m"
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "E",
+    "typ": "aritmetisk talföljd ur två termer",
+    "poang": "3/0/0",
+    "t": "<p>Platserna i en teatersalong är ordnade i 20 rader. Antalet platser per rad bildar en aritmetisk talföljd. Rad 6 har 23 platser och rad 15 har 50 platser.</p><ol type=\"a\"><li>Hur många platser har första raden?</li><li>Hur många platser har salongen totalt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Från rad 6 till rad 15 är det 9 steg: \\(9d=50-23=27\\), alltså \\(d=3\\).</p><p>\\(a_1=a_6-5d=23-15=8\\).</p><p><strong>Svar:</strong> 8 platser</p></li><li><p>Differensen är \\(d=\\dfrac{50-23}{9}=3\\) och första raden har \\(a_1=23-5\\cdot3=8\\) platser.</p><p>\\(a_{20}=8+19\\cdot3=65\\) och \\[S_{20}=\\frac{20(8+65)}{2}=730.\\]</p><p><strong>Svar:</strong> 730 platser</p></li></ol>",
+    "id": "2.593",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      730
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Platserna i en teatersalong är ordnade i 20 rader. Antalet platser per rad bildar en aritmetisk talföljd. Rad 6 har 23 platser och rad 15 har 50 platser.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många platser har första raden?",
+        "t": "<p>Platserna i en teatersalong är ordnade i 20 rader. Antalet platser per rad bildar en aritmetisk talföljd. Rad 6 har 23 platser och rad 15 har 50 platser.</p><p>Hur många platser har första raden?</p>",
+        "s": "<p>Från rad 6 till rad 15 är det 9 steg: \\(9d=50-23=27\\), alltså \\(d=3\\).</p><p>\\(a_1=a_6-5d=23-15=8\\).</p><p><strong>Svar:</strong> 8 platser</p>",
+        "ledtrad": "<p>Hur många steg är det mellan rad 6 och rad 15? Det ger differensen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många platser har salongen totalt?",
+        "t": "<p>Platserna i en teatersalong är ordnade i 20 rader. Antalet platser per rad bildar en aritmetisk talföljd. Rad 6 har 23 platser och rad 15 har 50 platser.</p><p>Hur många platser har salongen totalt?</p>",
+        "s": "<p>Differensen är \\(d=\\dfrac{50-23}{9}=3\\) och första raden har \\(a_1=23-5\\cdot3=8\\) platser.</p><p>\\(a_{20}=8+19\\cdot3=65\\) och \\[S_{20}=\\frac{20(8+65)}{2}=730.\\]</p><p><strong>Svar:</strong> 730 platser</p>",
+        "ledtrad": "<p>Bestäm differensen och första radens antal platser. Använd sedan summaformeln.</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Bestäm differensen ur de två givna raderna.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "sparande som aritmetisk summa",
+    "poang": "2/2/0",
+    "t": "<p>Fiona sparar varje månad i 48 månader. Första månaden sätter hon in 300 kr, och varje följande månad sätter hon in 5 kr mer än månaden före.</p><p>Peder sparar också i 48 månader. Han sätter in \\(a\\) kr första månaden och ökar insättningen med 15 kr varje månad.</p><ol type=\"a\"><li>Hur mycket sätter Fiona in den tolfte månaden?</li><li>Hur mycket har Fiona satt in totalt efter 48 månader?</li><li>Hur stor ska Peders första insättning \\(a\\) vara för att han ska ha satt in lika mycket som Fiona efter 48 månader?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{12}=300+11\\cdot5=355\\).</p><p><strong>Svar:</strong> 355 kr</p></li><li><p>\\(a_{48}=300+47\\cdot5=535\\).</p><p>\\[S_{48}=\\frac{48(300+535)}{2}=20\\,040.\\]</p><p><strong>Svar:</strong> 20 040 kr</p></li><li><p>Fiona sätter in totalt \\(\\dfrac{48(300+535)}{2}=20\\,040\\) kr.</p><p>Peders sista insättning är \\(a+47\\cdot15=a+705\\), så \\[\\frac{48(a+a+705)}{2}=20\\,040\\iff 24(2a+705)=20\\,040\\iff 2a+705=835.\\]</p><p>\\(a=65\\).</p><p><strong>Svar:</strong> 65 kr</p></li></ol>",
+    "id": "2.594",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      355,
+      20040,
+      65
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fiona sparar varje månad i 48 månader. Första månaden sätter hon in 300 kr, och varje följande månad sätter hon in 5 kr mer än månaden före.</p><p>Peder sparar också i 48 månader. Han sätter in \\(a\\) kr första månaden och ökar insättningen med 15 kr varje månad.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket sätter Fiona in den tolfte månaden?",
+        "t": "<p>Fiona sparar varje månad i 48 månader. Första månaden sätter hon in 300 kr, och varje följande månad sätter hon in 5 kr mer än månaden före.</p><p>Peder sparar också i 48 månader. Han sätter in \\(a\\) kr första månaden och ökar insättningen med 15 kr varje månad.</p><p>Hur mycket sätter Fiona in den tolfte månaden?</p>",
+        "s": "<p>\\(a_{12}=300+11\\cdot5=355\\).</p><p><strong>Svar:</strong> 355 kr</p>",
+        "ledtrad": "<p>Hur många ökningar på 5 kr har skett fram till månad 12?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket har Fiona satt in totalt efter 48 månader?",
+        "t": "<p>Fiona sparar varje månad i 48 månader. Första månaden sätter hon in 300 kr, och varje följande månad sätter hon in 5 kr mer än månaden före.</p><p>Peder sparar också i 48 månader. Han sätter in \\(a\\) kr första månaden och ökar insättningen med 15 kr varje månad.</p><p>Hur mycket har Fiona satt in totalt efter 48 månader?</p>",
+        "s": "<p>\\(a_{48}=300+47\\cdot5=535\\).</p><p>\\[S_{48}=\\frac{48(300+535)}{2}=20\\,040.\\]</p><p><strong>Svar:</strong> 20 040 kr</p>",
+        "ledtrad": "<p>Bestäm den sista insättningen och använd summaformeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor ska Peders första insättning \\(a\\) vara för att han ska ha satt in lika mycket som Fiona efter 48 månader?",
+        "t": "<p>Fiona sparar varje månad i 48 månader. Första månaden sätter hon in 300 kr, och varje följande månad sätter hon in 5 kr mer än månaden före.</p><p>Peder sparar också i 48 månader. Han sätter in \\(a\\) kr första månaden och ökar insättningen med 15 kr varje månad.</p><p>Hur stor ska Peders första insättning \\(a\\) vara för att han ska ha satt in lika mycket som Fiona efter 48 månader?</p>",
+        "s": "<p>Fiona sätter in totalt \\(\\dfrac{48(300+535)}{2}=20\\,040\\) kr.</p><p>Peders sista insättning är \\(a+47\\cdot15=a+705\\), så \\[\\frac{48(a+a+705)}{2}=20\\,040\\iff 24(2a+705)=20\\,040\\iff 2a+705=835.\\]</p><p>\\(a=65\\).</p><p><strong>Svar:</strong> 65 kr</p>",
+        "ledtrad": "<p>Räkna ut Fionas totala insättning. Skriv sedan Peders summa uttryckt i \\(a\\) och sätt dem lika.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Insättningarna bildar aritmetiska talföljder. Använd formlerna för \\(a_n\\) och \\(S_n\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "jämföra två aritmetiska avgiftsmodeller",
+    "poang": "2/2/0",
+    "t": "<p>Andrew betalar för en pensionsförsäkring varje år. Första året kostar den 800 kr och varje följande år ökar avgiften med 100 kr.</p><p>Madeleine betalar 1 580 kr första året för sin försäkring, och hennes avgift ökar med \\(d\\) kr varje år. Efter 40 år har de båda betalat lika mycket totalt.</p><ol type=\"a\"><li>Hur mycket kostar Andrews försäkring det tionde året?</li><li>Hur mycket har Andrew betalat totalt efter 20 år?</li><li>Bestäm \\(d\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{10}=800+9\\cdot100=1\\,700\\).</p><p><strong>Svar:</strong> 1 700 kr</p></li><li><p>\\(a_{20}=800+19\\cdot100=2\\,700\\) och \\(S_{20}=\\dfrac{20(800+2\\,700)}{2}=35\\,000\\).</p><p><strong>Svar:</strong> 35 000 kr</p></li><li><p>Andrew efter 40 år: \\(a_{40}=800+39\\cdot100=4\\,700\\), \\(S_{40}=\\dfrac{40(800+4\\,700)}{2}=110\\,000\\).</p><p>Madeleine: \\(\\dfrac{40(1\\,580+1\\,580+39d)}{2}=20(3\\,160+39d)\\).</p><p>\\(20(3\\,160+39d)=110\\,000\\iff 3\\,160+39d=5\\,500\\iff d=60\\).</p><p><strong>Svar:</strong> 60 kr</p></li></ol>",
+    "id": "2.595",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1700,
+      35000,
+      60
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Andrew betalar för en pensionsförsäkring varje år. Första året kostar den 800 kr och varje följande år ökar avgiften med 100 kr.</p><p>Madeleine betalar 1 580 kr första året för sin försäkring, och hennes avgift ökar med \\(d\\) kr varje år. Efter 40 år har de båda betalat lika mycket totalt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket kostar Andrews försäkring det tionde året?",
+        "t": "<p>Andrew betalar för en pensionsförsäkring varje år. Första året kostar den 800 kr och varje följande år ökar avgiften med 100 kr.</p><p>Madeleine betalar 1 580 kr första året för sin försäkring, och hennes avgift ökar med \\(d\\) kr varje år. Efter 40 år har de båda betalat lika mycket totalt.</p><p>Hur mycket kostar Andrews försäkring det tionde året?</p>",
+        "s": "<p>\\(a_{10}=800+9\\cdot100=1\\,700\\).</p><p><strong>Svar:</strong> 1 700 kr</p>",
+        "ledtrad": "<p>Hur många ökningar har skett till år 10?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket har Andrew betalat totalt efter 20 år?",
+        "t": "<p>Andrew betalar för en pensionsförsäkring varje år. Första året kostar den 800 kr och varje följande år ökar avgiften med 100 kr.</p><p>Madeleine betalar 1 580 kr första året för sin försäkring, och hennes avgift ökar med \\(d\\) kr varje år. Efter 40 år har de båda betalat lika mycket totalt.</p><p>Hur mycket har Andrew betalat totalt efter 20 år?</p>",
+        "s": "<p>\\(a_{20}=800+19\\cdot100=2\\,700\\) och \\(S_{20}=\\dfrac{20(800+2\\,700)}{2}=35\\,000\\).</p><p><strong>Svar:</strong> 35 000 kr</p>",
+        "ledtrad": "<p>Bestäm avgiften år 20 och använd summaformeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm \\(d\\).",
+        "t": "<p>Andrew betalar för en pensionsförsäkring varje år. Första året kostar den 800 kr och varje följande år ökar avgiften med 100 kr.</p><p>Madeleine betalar 1 580 kr första året för sin försäkring, och hennes avgift ökar med \\(d\\) kr varje år. Efter 40 år har de båda betalat lika mycket totalt.</p><p>Bestäm \\(d\\).</p>",
+        "s": "<p>Andrew efter 40 år: \\(a_{40}=800+39\\cdot100=4\\,700\\), \\(S_{40}=\\dfrac{40(800+4\\,700)}{2}=110\\,000\\).</p><p>Madeleine: \\(\\dfrac{40(1\\,580+1\\,580+39d)}{2}=20(3\\,160+39d)\\).</p><p>\\(20(3\\,160+39d)=110\\,000\\iff 3\\,160+39d=5\\,500\\iff d=60\\).</p><p><strong>Svar:</strong> 60 kr</p>",
+        "ledtrad": "<p>Räkna ut Andrews summa efter 40 år och ställ upp Madeleines summa uttryckt i \\(d\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Avgifterna bildar aritmetiska talföljder.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "bestämma antal termer ur summa",
+    "poang": "2/2/0",
+    "t": "<p>En författare skriver 15 sidor första veckan, 17 sidor andra veckan, 19 sidor tredje veckan och så vidare. Varje vecka skriver hen alltså 2 sidor mer än veckan före.</p><ol type=\"a\"><li>Hur många sidor skriver författaren den tionde veckan?</li><li>Hur många sidor har författaren skrivit totalt efter tio veckor?</li><li>Boken blir klar efter \\(n\\) veckor och har då 480 sidor. Bestäm \\(n\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{10}=15+9\\cdot2=33\\).</p><p><strong>Svar:</strong> 33 sidor</p></li><li><p>\\(a_{10}=33\\) och \\(S_{10}=\\dfrac{10(15+33)}{2}=240\\).</p><p><strong>Svar:</strong> 240 sidor</p></li><li><p>\\(a_n=15+2(n-1)=2n+13\\), så \\[S_n=\\frac{n(15+2n+13)}{2}=n(n+14).\\]</p><p>\\(n^2+14n-480=0\\iff n=-7\\pm\\sqrt{49+480}=-7\\pm23\\).</p><p>Den positiva lösningen är \\(n=16\\).</p><p><strong>Svar:</strong> 16 veckor</p></li></ol>",
+    "id": "2.596",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      33,
+      240,
+      16
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En författare skriver 15 sidor första veckan, 17 sidor andra veckan, 19 sidor tredje veckan och så vidare. Varje vecka skriver hen alltså 2 sidor mer än veckan före.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många sidor skriver författaren den tionde veckan?",
+        "t": "<p>En författare skriver 15 sidor första veckan, 17 sidor andra veckan, 19 sidor tredje veckan och så vidare. Varje vecka skriver hen alltså 2 sidor mer än veckan före.</p><p>Hur många sidor skriver författaren den tionde veckan?</p>",
+        "s": "<p>\\(a_{10}=15+9\\cdot2=33\\).</p><p><strong>Svar:</strong> 33 sidor</p>",
+        "ledtrad": "<p>Hur många ökningar på 2 sidor har skett till vecka 10?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många sidor har författaren skrivit totalt efter tio veckor?",
+        "t": "<p>En författare skriver 15 sidor första veckan, 17 sidor andra veckan, 19 sidor tredje veckan och så vidare. Varje vecka skriver hen alltså 2 sidor mer än veckan före.</p><p>Hur många sidor har författaren skrivit totalt efter tio veckor?</p>",
+        "s": "<p>\\(a_{10}=33\\) och \\(S_{10}=\\dfrac{10(15+33)}{2}=240\\).</p><p><strong>Svar:</strong> 240 sidor</p>",
+        "ledtrad": "<p>Använd summaformeln för en aritmetisk talföljd.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Boken blir klar efter \\(n\\) veckor och har då 480 sidor. Bestäm \\(n\\).",
+        "t": "<p>En författare skriver 15 sidor första veckan, 17 sidor andra veckan, 19 sidor tredje veckan och så vidare. Varje vecka skriver hen alltså 2 sidor mer än veckan före.</p><p>Boken blir klar efter \\(n\\) veckor och har då 480 sidor. Bestäm \\(n\\).</p>",
+        "s": "<p>\\(a_n=15+2(n-1)=2n+13\\), så \\[S_n=\\frac{n(15+2n+13)}{2}=n(n+14).\\]</p><p>\\(n^2+14n-480=0\\iff n=-7\\pm\\sqrt{49+480}=-7\\pm23\\).</p><p>Den positiva lösningen är \\(n=16\\).</p><p><strong>Svar:</strong> 16 veckor</p>",
+        "ledtrad": "<p>Skriv \\(S_n\\) som ett uttryck i \\(n\\) och lös andragradsekvationen \\(S_n=480\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Sidantalen bildar en aritmetisk talföljd med differensen 2.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "bestämma term ur sista term och summa",
+    "poang": "0/2/0",
+    "t": "<p>Hassan tränar inför ett maraton och springer varje dag i 16 dagar. Sträckorna bildar en aritmetisk talföljd. Den sextonde dagen springer han 15 km, och totalt springer han 288 km under de 16 dagarna.</p><p>Hur långt springer Hassan den elfte dagen?</p>",
+    "s": "<p>\\(S_{16}=\\dfrac{16(a_1+15)}{2}=288\\iff a_1+15=36\\iff a_1=21\\).</p><p>\\(a_{16}=a_1+15d\\Rightarrow 15=21+15d\\Rightarrow d=-0{,}4\\).</p><p>\\(a_{11}=21+10\\cdot(-0{,}4)=17\\).</p><p><strong>Svar:</strong> 17 km</p>",
+    "id": "2.597",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Summaformeln innehåller första och sista termen. Vilken term kan du då bestämma först?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "km"
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "antal termer ur summa med andragradsekvation",
+    "poang": "1/2/0",
+    "t": "<p>När Beata fyllde 1 år fick hon 50 kr av sin gudmor. På varje födelsedag därefter fick hon 20 kr mer än året före. Pengarna lades i en spargris, som tömdes på hennes \\(n\\):te födelsedag (efter att den dagens pengar lagts i). Då innehöll spargrisen 7 800 kr.</p><ol type=\"a\"><li>Hur mycket fick Beata på sin tionde födelsedag?</li><li>Bestäm \\(n\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{10}=50+9\\cdot20=230\\).</p><p><strong>Svar:</strong> 230 kr</p></li><li><p>\\(a_n=50+20(n-1)=20n+30\\) och \\(S_n=\\dfrac{n(50+20n+30)}{2}=n(10n+40)\\).</p><p>\\(10n^2+40n=7\\,800\\iff n^2+4n-780=0\\iff n=-2\\pm\\sqrt{4+780}=-2\\pm28\\).</p><p>\\(n=26\\).</p><p><strong>Svar:</strong> \\(n=26\\)</p></li></ol>",
+    "id": "2.598",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      230,
+      26
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>När Beata fyllde 1 år fick hon 50 kr av sin gudmor. På varje födelsedag därefter fick hon 20 kr mer än året före. Pengarna lades i en spargris, som tömdes på hennes \\(n\\):te födelsedag (efter att den dagens pengar lagts i). Då innehöll spargrisen 7 800 kr.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket fick Beata på sin tionde födelsedag?",
+        "t": "<p>När Beata fyllde 1 år fick hon 50 kr av sin gudmor. På varje födelsedag därefter fick hon 20 kr mer än året före. Pengarna lades i en spargris, som tömdes på hennes \\(n\\):te födelsedag (efter att den dagens pengar lagts i). Då innehöll spargrisen 7 800 kr.</p><p>Hur mycket fick Beata på sin tionde födelsedag?</p>",
+        "s": "<p>\\(a_{10}=50+9\\cdot20=230\\).</p><p><strong>Svar:</strong> 230 kr</p>",
+        "ledtrad": "<p>Hur många ökningar har skett till den tionde födelsedagen?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(n\\).",
+        "t": "<p>När Beata fyllde 1 år fick hon 50 kr av sin gudmor. På varje födelsedag därefter fick hon 20 kr mer än året före. Pengarna lades i en spargris, som tömdes på hennes \\(n\\):te födelsedag (efter att den dagens pengar lagts i). Då innehöll spargrisen 7 800 kr.</p><p>Bestäm \\(n\\).</p>",
+        "s": "<p>\\(a_n=50+20(n-1)=20n+30\\) och \\(S_n=\\dfrac{n(50+20n+30)}{2}=n(10n+40)\\).</p><p>\\(10n^2+40n=7\\,800\\iff n^2+4n-780=0\\iff n=-2\\pm\\sqrt{4+780}=-2\\pm28\\).</p><p>\\(n=26\\).</p><p><strong>Svar:</strong> \\(n=26\\)</p>",
+        "ledtrad": "<p>Ställ upp \\(S_n=7\\,800\\) och lös andragradsekvationen.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Beloppen bildar en aritmetisk talföljd.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "prognos med aritmetisk ökning",
+    "poang": "2/2/0",
+    "t": "<p>Ett nytt gym får 26 nya medlemmar den första månaden. Enligt en prognos ökar antalet <em>nya</em> medlemmar med \\(x\\) varje månad: andra månaden kommer \\(26+x\\) nya medlemmar, tredje månaden \\(26+2x\\) och så vidare. Ingen slutar.</p><ol type=\"a\"><li>Låt \\(x=15\\). Hur många nya medlemmar kommer den tolfte månaden?</li><li>Låt \\(x=15\\). Hur många medlemmar har gymmet efter 12 månader?</li><li>Gymmet behöver 1 500 medlemmar efter 12 månader. Hur stort måste \\(x\\) vara?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{12}=26+11\\cdot15=191\\).</p><p><strong>Svar:</strong> 191</p></li><li><p>\\(a_{12}=26+11\\cdot15=191\\) och \\(S_{12}=\\dfrac{12(26+191)}{2}=1\\,302\\).</p><p><strong>Svar:</strong> 1 302</p></li><li><p>\\(S_{12}=\\dfrac{12(26+26+11x)}{2}=6(52+11x)\\).</p><p>\\(6(52+11x)=1\\,500\\iff 52+11x=250\\iff x=18\\).</p><p><strong>Svar:</strong> \\(x=18\\)</p></li></ol>",
+    "id": "2.599",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      191,
+      1302,
+      18
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett nytt gym får 26 nya medlemmar den första månaden. Enligt en prognos ökar antalet <em>nya</em> medlemmar med \\(x\\) varje månad: andra månaden kommer \\(26+x\\) nya medlemmar, tredje månaden \\(26+2x\\) och så vidare. Ingen slutar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Låt \\(x=15\\). Hur många nya medlemmar kommer den tolfte månaden?",
+        "t": "<p>Ett nytt gym får 26 nya medlemmar den första månaden. Enligt en prognos ökar antalet <em>nya</em> medlemmar med \\(x\\) varje månad: andra månaden kommer \\(26+x\\) nya medlemmar, tredje månaden \\(26+2x\\) och så vidare. Ingen slutar.</p><p>Låt \\(x=15\\). Hur många nya medlemmar kommer den tolfte månaden?</p>",
+        "s": "<p>\\(a_{12}=26+11\\cdot15=191\\).</p><p><strong>Svar:</strong> 191</p>",
+        "ledtrad": "<p>Hur många ökningar med \\(x\\) har skett till månad 12?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Låt \\(x=15\\). Hur många medlemmar har gymmet efter 12 månader?",
+        "t": "<p>Ett nytt gym får 26 nya medlemmar den första månaden. Enligt en prognos ökar antalet <em>nya</em> medlemmar med \\(x\\) varje månad: andra månaden kommer \\(26+x\\) nya medlemmar, tredje månaden \\(26+2x\\) och så vidare. Ingen slutar.</p><p>Låt \\(x=15\\). Hur många medlemmar har gymmet efter 12 månader?</p>",
+        "s": "<p>\\(a_{12}=26+11\\cdot15=191\\) och \\(S_{12}=\\dfrac{12(26+191)}{2}=1\\,302\\).</p><p><strong>Svar:</strong> 1 302</p>",
+        "ledtrad": "<p>Antalet medlemmar är summan av alla nya medlemmar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Gymmet behöver 1 500 medlemmar efter 12 månader. Hur stort måste \\(x\\) vara?",
+        "t": "<p>Ett nytt gym får 26 nya medlemmar den första månaden. Enligt en prognos ökar antalet <em>nya</em> medlemmar med \\(x\\) varje månad: andra månaden kommer \\(26+x\\) nya medlemmar, tredje månaden \\(26+2x\\) och så vidare. Ingen slutar.</p><p>Gymmet behöver 1 500 medlemmar efter 12 månader. Hur stort måste \\(x\\) vara?</p>",
+        "s": "<p>\\(S_{12}=\\dfrac{12(26+26+11x)}{2}=6(52+11x)\\).</p><p>\\(6(52+11x)=1\\,500\\iff 52+11x=250\\iff x=18\\).</p><p><strong>Svar:</strong> \\(x=18\\)</p>",
+        "ledtrad": "<p>Skriv summan efter 12 månader uttryckt i \\(x\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Antalet nya medlemmar per månad bildar en aritmetisk talföljd.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "E",
+    "typ": "antal rader och summa",
+    "poang": "3/0/0",
+    "t": "<p>Ett sluttande tak har takpannor i horisontella rader. Den översta raden har 28 takpannor, och varje rad nedanför har 4 takpannor fler än raden ovanför. Den nedersta raden har 96 takpannor.</p><ol type=\"a\"><li>Hur många rader har taket?</li><li>Hur många takpannor finns det på taket?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(96=28+(n-1)\\cdot4\\iff n-1=17\\iff n=18\\).</p><p><strong>Svar:</strong> 18 rader</p></li><li><p>Antalet rader: \\(96=28+(n-1)\\cdot4\\Rightarrow n=18\\).</p><p>\\(S_{18}=\\dfrac{18(28+96)}{2}=1\\,116\\).</p><p><strong>Svar:</strong> 1 116 takpannor</p></li></ol>",
+    "id": "2.601",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18,
+      1116
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett sluttande tak har takpannor i horisontella rader. Den översta raden har 28 takpannor, och varje rad nedanför har 4 takpannor fler än raden ovanför. Den nedersta raden har 96 takpannor.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många rader har taket?",
+        "t": "<p>Ett sluttande tak har takpannor i horisontella rader. Den översta raden har 28 takpannor, och varje rad nedanför har 4 takpannor fler än raden ovanför. Den nedersta raden har 96 takpannor.</p><p>Hur många rader har taket?</p>",
+        "s": "<p>\\(96=28+(n-1)\\cdot4\\iff n-1=17\\iff n=18\\).</p><p><strong>Svar:</strong> 18 rader</p>",
+        "ledtrad": "<p>Använd \\(a_n=a_1+(n-1)d\\) och lös ut \\(n\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många takpannor finns det på taket?",
+        "t": "<p>Ett sluttande tak har takpannor i horisontella rader. Den översta raden har 28 takpannor, och varje rad nedanför har 4 takpannor fler än raden ovanför. Den nedersta raden har 96 takpannor.</p><p>Hur många takpannor finns det på taket?</p>",
+        "s": "<p>Antalet rader: \\(96=28+(n-1)\\cdot4\\Rightarrow n=18\\).</p><p>\\(S_{18}=\\dfrac{18(28+96)}{2}=1\\,116\\).</p><p><strong>Svar:</strong> 1 116 takpannor</p>",
+        "ledtrad": "<p>Du behöver antalet rader för att använda summaformeln.</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Antalet takpannor per rad bildar en aritmetisk talföljd.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "födelsedagspengar som aritmetisk summa",
+    "poang": "2/2/0",
+    "t": "<p>William fick pengar av sin farbror på varje födelsedag från och med 13-årsdagen. Första gången fick han 750 kr, och varje följande födelsedag fick han 150 kr mer än året före.</p><ol type=\"a\"><li>Hur mycket fick William när han fyllde 18 år?</li><li>Hur mycket hade William fått totalt när han fyllde 18 år?</li><li>Sista gången William fick pengar var på hans \\(k\\)-årsdag. Han hade då fått 30 000 kr totalt. Bestäm \\(k\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>18-årsdagen är den sjätte gången: \\(a_6=750+5\\cdot150=1\\,500\\).</p><p><strong>Svar:</strong> 1 500 kr</p></li><li><p>Sex belopp från 750 kr till \\(750+5\\cdot150=1\\,500\\) kr: \\(S_6=\\dfrac{6(750+1\\,500)}{2}=6\\,750\\).</p><p><strong>Svar:</strong> 6 750 kr</p></li><li><p>Efter \\(n\\) gånger: \\(a_n=750+150(n-1)=150n+600\\) och \\(S_n=\\dfrac{n(750+150n+600)}{2}=75n^2+675n\\).</p><p>\\(75n^2+675n=30\\,000\\iff n^2+9n-400=0\\iff n=\\dfrac{-9+\\sqrt{81+1\\,600}}{2}=16\\).</p><p>Den sextonde gången var på 28-årsdagen, eftersom första gången var 13-årsdagen.</p><p><strong>Svar:</strong> \\(k=28\\)</p></li></ol>",
+    "id": "2.602",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1500,
+      6750,
+      28
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>William fick pengar av sin farbror på varje födelsedag från och med 13-årsdagen. Första gången fick han 750 kr, och varje följande födelsedag fick han 150 kr mer än året före.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket fick William när han fyllde 18 år?",
+        "t": "<p>William fick pengar av sin farbror på varje födelsedag från och med 13-årsdagen. Första gången fick han 750 kr, och varje följande födelsedag fick han 150 kr mer än året före.</p><p>Hur mycket fick William när han fyllde 18 år?</p>",
+        "s": "<p>18-årsdagen är den sjätte gången: \\(a_6=750+5\\cdot150=1\\,500\\).</p><p><strong>Svar:</strong> 1 500 kr</p>",
+        "ledtrad": "<p>Vilken gång i ordningen är 18-årsdagen?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket hade William fått totalt när han fyllde 18 år?",
+        "t": "<p>William fick pengar av sin farbror på varje födelsedag från och med 13-årsdagen. Första gången fick han 750 kr, och varje följande födelsedag fick han 150 kr mer än året före.</p><p>Hur mycket hade William fått totalt när han fyllde 18 år?</p>",
+        "s": "<p>Sex belopp från 750 kr till \\(750+5\\cdot150=1\\,500\\) kr: \\(S_6=\\dfrac{6(750+1\\,500)}{2}=6\\,750\\).</p><p><strong>Svar:</strong> 6 750 kr</p>",
+        "ledtrad": "<p>Hur många belopp har han fått, och vilket var det sista?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Sista gången William fick pengar var på hans \\(k\\)-årsdag. Han hade då fått 30 000 kr totalt. Bestäm \\(k\\).",
+        "t": "<p>William fick pengar av sin farbror på varje födelsedag från och med 13-årsdagen. Första gången fick han 750 kr, och varje följande födelsedag fick han 150 kr mer än året före.</p><p>Sista gången William fick pengar var på hans \\(k\\)-årsdag. Han hade då fått 30 000 kr totalt. Bestäm \\(k\\).</p>",
+        "s": "<p>Efter \\(n\\) gånger: \\(a_n=750+150(n-1)=150n+600\\) och \\(S_n=\\dfrac{n(750+150n+600)}{2}=75n^2+675n\\).</p><p>\\(75n^2+675n=30\\,000\\iff n^2+9n-400=0\\iff n=\\dfrac{-9+\\sqrt{81+1\\,600}}{2}=16\\).</p><p>Den sextonde gången var på 28-årsdagen, eftersom första gången var 13-årsdagen.</p><p><strong>Svar:</strong> \\(k=28\\)</p>",
+        "ledtrad": "<p>Bestäm först hur många gånger han fick pengar. Vilken ålder motsvarar det?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Beloppen bildar en aritmetisk talföljd som börjar vid 13 års ålder.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "aritmetisk modell över årtal",
+    "poang": "2/2/0",
+    "t": "<p>En kommun hade ett bostadsprogram från år 2001 till och med år 2025. Antalet nya bostäder per år bildar en aritmetisk talföljd. År 2012 byggdes 760 bostäder och år 2025 byggdes 240 bostäder.</p><ol type=\"a\"><li>Hur många bostäder byggdes år 2001?</li><li>Hur många bostäder byggdes totalt under perioden 2001–2025?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Låt år 2001 vara \\(n=1\\). Då är 2012 \\(n=12\\) och 2025 \\(n=25\\).</p><p>\\(13d=240-760\\iff d=-40\\), så \\(a_1=a_{12}-11d=760+440=1\\,200\\).</p><p><strong>Svar:</strong> 1 200 bostäder</p></li><li><p>Med 2001 som \\(n=1\\): \\(d=\\dfrac{240-760}{25-12}=-40\\) och \\(a_1=760-11\\cdot(-40)=1\\,200\\).</p><p>\\(S_{25}=\\dfrac{25(1\\,200+240)}{2}=18\\,000\\).</p><p><strong>Svar:</strong> 18 000 bostäder</p></li></ol>",
+    "id": "2.604",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1200,
+      18000
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kommun hade ett bostadsprogram från år 2001 till och med år 2025. Antalet nya bostäder per år bildar en aritmetisk talföljd. År 2012 byggdes 760 bostäder och år 2025 byggdes 240 bostäder.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många bostäder byggdes år 2001?",
+        "t": "<p>En kommun hade ett bostadsprogram från år 2001 till och med år 2025. Antalet nya bostäder per år bildar en aritmetisk talföljd. År 2012 byggdes 760 bostäder och år 2025 byggdes 240 bostäder.</p><p>Hur många bostäder byggdes år 2001?</p>",
+        "s": "<p>Låt år 2001 vara \\(n=1\\). Då är 2012 \\(n=12\\) och 2025 \\(n=25\\).</p><p>\\(13d=240-760\\iff d=-40\\), så \\(a_1=a_{12}-11d=760+440=1\\,200\\).</p><p><strong>Svar:</strong> 1 200 bostäder</p>",
+        "ledtrad": "<p>Numrera åren så att 2001 är \\(n=1\\). Vilka termnummer har 2012 och 2025?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många bostäder byggdes totalt under perioden 2001–2025?",
+        "t": "<p>En kommun hade ett bostadsprogram från år 2001 till och med år 2025. Antalet nya bostäder per år bildar en aritmetisk talföljd. År 2012 byggdes 760 bostäder och år 2025 byggdes 240 bostäder.</p><p>Hur många bostäder byggdes totalt under perioden 2001–2025?</p>",
+        "s": "<p>Med 2001 som \\(n=1\\): \\(d=\\dfrac{240-760}{25-12}=-40\\) och \\(a_1=760-11\\cdot(-40)=1\\,200\\).</p><p>\\(S_{25}=\\dfrac{25(1\\,200+240)}{2}=18\\,000\\).</p><p><strong>Svar:</strong> 18 000 bostäder</p>",
+        "ledtrad": "<p>Du behöver första och sista termen samt antalet år.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Låt år 2001 vara term nummer 1.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "jämföra inkomstmodeller",
+    "poang": "2/5/0",
+    "t": "<p>Johanna säljer jultidningar varje år. Första året tjänar hon 18 000 kr, och sedan ökar inkomsten med 1 800 kr per år. Det \\(N\\):te året tjänar hon 36 000 kr, och därefter tjänar hon 36 000 kr varje år.</p><p>Johan börjar sälja samtidigt. Han tjänar \\(L\\) kr första året och 1 000 kr mer för varje år. Det femtonde året tjänar han 36 000 kr.</p><ol type=\"a\"><li>Bestäm \\(N\\).</li><li>Hur mycket tjänar Johanna totalt under de år då inkomsten ökar, alltså till och med det år hon första gången tjänar 36 000 kr?</li><li>Vilket år tjänar Johanna och Johan lika mycket för första gången?</li><li>Hur stor är skillnaden i total inkomst mellan Johanna och Johan efter 15 år?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(18\\,000+(N-1)\\cdot1\\,800=36\\,000\\iff N-1=10\\iff N=11\\).</p><p><strong>Svar:</strong> \\(N=11\\)</p></li><li><p>\\(36\\,000=18\\,000+(N-1)\\cdot1\\,800\\Rightarrow N=11\\).</p><p>\\(S_{11}=\\dfrac{11(18\\,000+36\\,000)}{2}=297\\,000\\).</p><p><strong>Svar:</strong> 297 000 kr</p></li><li><p>Johan: \\(L+14\\cdot1\\,000=36\\,000\\Rightarrow L=22\\,000\\).</p><p>År \\(n\\) (före år 11): \\(18\\,000+1\\,800(n-1)=22\\,000+1\\,000(n-1)\\iff 800(n-1)=4\\,000\\iff n=6\\).</p><p>Båda tjänar 27 000 kr det året.</p><p><strong>Svar:</strong> år 6</p></li><li><p>Johanna: de första 11 åren \\(\\dfrac{11(18\\,000+36\\,000)}{2}=297\\,000\\) kr, sedan \\(4\\cdot36\\,000=144\\,000\\) kr. Totalt 441 000 kr.</p><p>Johan: \\(L=36\\,000-14\\cdot1\\,000=22\\,000\\) och \\(S_{15}=\\dfrac{15(22\\,000+36\\,000)}{2}=435\\,000\\) kr.</p><p>\\(441\\,000-435\\,000=6\\,000\\).</p><p><strong>Svar:</strong> 6 000 kr (Johanna har tjänat mer)</p></li></ol>",
+    "id": "2.605",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11,
+      297000,
+      6,
+      6000
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      null,
+      "kr",
+      null,
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Johanna säljer jultidningar varje år. Första året tjänar hon 18 000 kr, och sedan ökar inkomsten med 1 800 kr per år. Det \\(N\\):te året tjänar hon 36 000 kr, och därefter tjänar hon 36 000 kr varje år.</p><p>Johan börjar sälja samtidigt. Han tjänar \\(L\\) kr första året och 1 000 kr mer för varje år. Det femtonde året tjänar han 36 000 kr.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(N\\).",
+        "t": "<p>Johanna säljer jultidningar varje år. Första året tjänar hon 18 000 kr, och sedan ökar inkomsten med 1 800 kr per år. Det \\(N\\):te året tjänar hon 36 000 kr, och därefter tjänar hon 36 000 kr varje år.</p><p>Johan börjar sälja samtidigt. Han tjänar \\(L\\) kr första året och 1 000 kr mer för varje år. Det femtonde året tjänar han 36 000 kr.</p><p>Bestäm \\(N\\).</p>",
+        "s": "<p>\\(18\\,000+(N-1)\\cdot1\\,800=36\\,000\\iff N-1=10\\iff N=11\\).</p><p><strong>Svar:</strong> \\(N=11\\)</p>",
+        "ledtrad": "<p>Använd \\(a_N=a_1+(N-1)d\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket tjänar Johanna totalt under de år då inkomsten ökar, alltså till och med det år hon första gången tjänar 36 000 kr?",
+        "t": "<p>Johanna säljer jultidningar varje år. Första året tjänar hon 18 000 kr, och sedan ökar inkomsten med 1 800 kr per år. Det \\(N\\):te året tjänar hon 36 000 kr, och därefter tjänar hon 36 000 kr varje år.</p><p>Johan börjar sälja samtidigt. Han tjänar \\(L\\) kr första året och 1 000 kr mer för varje år. Det femtonde året tjänar han 36 000 kr.</p><p>Hur mycket tjänar Johanna totalt under de år då inkomsten ökar, alltså till och med det år hon första gången tjänar 36 000 kr?</p>",
+        "s": "<p>\\(36\\,000=18\\,000+(N-1)\\cdot1\\,800\\Rightarrow N=11\\).</p><p>\\(S_{11}=\\dfrac{11(18\\,000+36\\,000)}{2}=297\\,000\\).</p><p><strong>Svar:</strong> 297 000 kr</p>",
+        "ledtrad": "<p>Hur många år ökar inkomsten? Använd sedan summaformeln.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilket år tjänar Johanna och Johan lika mycket för första gången?",
+        "t": "<p>Johanna säljer jultidningar varje år. Första året tjänar hon 18 000 kr, och sedan ökar inkomsten med 1 800 kr per år. Det \\(N\\):te året tjänar hon 36 000 kr, och därefter tjänar hon 36 000 kr varje år.</p><p>Johan börjar sälja samtidigt. Han tjänar \\(L\\) kr första året och 1 000 kr mer för varje år. Det femtonde året tjänar han 36 000 kr.</p><p>Vilket år tjänar Johanna och Johan lika mycket för första gången?</p>",
+        "s": "<p>Johan: \\(L+14\\cdot1\\,000=36\\,000\\Rightarrow L=22\\,000\\).</p><p>År \\(n\\) (före år 11): \\(18\\,000+1\\,800(n-1)=22\\,000+1\\,000(n-1)\\iff 800(n-1)=4\\,000\\iff n=6\\).</p><p>Båda tjänar 27 000 kr det året.</p><p><strong>Svar:</strong> år 6</p>",
+        "ledtrad": "<p>Bestäm först \\(L\\). Sätt sedan uttrycken för årsinkomsten år \\(n\\) lika.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor är skillnaden i total inkomst mellan Johanna och Johan efter 15 år?",
+        "t": "<p>Johanna säljer jultidningar varje år. Första året tjänar hon 18 000 kr, och sedan ökar inkomsten med 1 800 kr per år. Det \\(N\\):te året tjänar hon 36 000 kr, och därefter tjänar hon 36 000 kr varje år.</p><p>Johan börjar sälja samtidigt. Han tjänar \\(L\\) kr första året och 1 000 kr mer för varje år. Det femtonde året tjänar han 36 000 kr.</p><p>Hur stor är skillnaden i total inkomst mellan Johanna och Johan efter 15 år?</p>",
+        "s": "<p>Johanna: de första 11 åren \\(\\dfrac{11(18\\,000+36\\,000)}{2}=297\\,000\\) kr, sedan \\(4\\cdot36\\,000=144\\,000\\) kr. Totalt 441 000 kr.</p><p>Johan: \\(L=36\\,000-14\\cdot1\\,000=22\\,000\\) och \\(S_{15}=\\dfrac{15(22\\,000+36\\,000)}{2}=435\\,000\\) kr.</p><p>\\(441\\,000-435\\,000=6\\,000\\).</p><p><strong>Svar:</strong> 6 000 kr (Johanna har tjänat mer)</p>",
+        "ledtrad": "<p>Johannas inkomst ökar bara fram till ett visst år. Dela upp hennes summa i två delar.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Båda inkomsterna bildar aritmetiska talföljder, men Johannas slutar öka efter ett tag.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "mönster med tändstickor",
+    "poang": "2/2/0",
+    "t": "<span class=\"fig\"><svg width=\"360\" height=\"150\" viewBox=\"0 0 360 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre figurer av tändstickor formade som hus i rad: ett, två och tre hus.\"><line x1=\"22\" y1=\"112\" x2=\"22\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"22\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"112\" x2=\"55\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"76\" x2=\"55\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"58\" y1=\"112\" x2=\"58\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"24\" y1=\"74\" x2=\"39.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"39.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"56\" y1=\"74\" x2=\"41.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"41.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"40.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 1</text><line x1=\"104\" y1=\"112\" x2=\"104\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"104\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"112\" x2=\"137\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"76\" x2=\"137\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"140\" y1=\"112\" x2=\"140\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"106\" y1=\"74\" x2=\"121.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"121.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"138\" y1=\"74\" x2=\"123.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"123.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"112\" x2=\"173\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"76\" x2=\"173\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"176\" y1=\"112\" x2=\"176\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"142\" y1=\"74\" x2=\"157.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"157.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"174\" y1=\"74\" x2=\"159.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"159.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"140.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 2</text><line x1=\"222\" y1=\"112\" x2=\"222\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"222\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"112\" x2=\"255\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"76\" x2=\"255\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"258\" y1=\"112\" x2=\"258\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"258\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"224\" y1=\"74\" x2=\"239.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"239.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"256\" y1=\"74\" x2=\"241.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"241.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"112\" x2=\"291\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"76\" x2=\"291\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"294\" y1=\"112\" x2=\"294\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"294\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"260\" y1=\"74\" x2=\"275.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"275.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"292\" y1=\"74\" x2=\"277.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"277.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"112\" x2=\"327\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"76\" x2=\"327\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"330\" y1=\"112\" x2=\"330\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"330\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"296\" y1=\"74\" x2=\"311.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"311.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"328\" y1=\"74\" x2=\"313.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"313.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"276.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 3</text></svg></span><p>Olof bygger hus av tändstickor. Figur 1 består av 6 tändstickor, figur 2 av 11 och figur 3 av 16, och så vidare enligt samma mönster.</p><ol type=\"a\"><li>Hur många tändstickor behövs till figur 10?</li><li>Hur många tändstickor går det åt totalt till de tio första figurerna?</li><li>Olof har 1 200 tändstickor och bygger figur 1, figur 2, figur 3 och så vidare så länge tändstickorna räcker till en hel figur. Hur många hela figurer kan han bygga?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Varje nytt hus kräver 5 tändstickor, så \\(a_n=6+5(n-1)=5n+1\\).</p><p>\\(a_{10}=51\\).</p><p><strong>Svar:</strong> 51 tändstickor</p></li><li><p>\\(a_{10}=6+9\\cdot5=51\\) och \\(S_{10}=\\dfrac{10(6+51)}{2}=285\\).</p><p><strong>Svar:</strong> 285 tändstickor</p></li><li><p>\\(a_k=5k+1\\) och \\(S_k=\\dfrac{k(6+5k+1)}{2}=\\dfrac{k(5k+7)}{2}\\).</p><p>Villkoret \\(S_k\\le1\\,200\\) ger \\(k(5k+7)\\le2\\,400\\).</p><p>\\(k=21\\): \\(21\\cdot112=2\\,352\\le2\\,400\\). \\(k=22\\): \\(22\\cdot117=2\\,574\\gt2\\,400\\).</p><p><strong>Svar:</strong> 21 figurer</p></li></ol>",
+    "id": "2.606",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      51,
+      285,
+      21
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<span class=\"fig\"><svg width=\"360\" height=\"150\" viewBox=\"0 0 360 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre figurer av tändstickor formade som hus i rad: ett, två och tre hus.\"><line x1=\"22\" y1=\"112\" x2=\"22\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"22\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"112\" x2=\"55\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"76\" x2=\"55\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"58\" y1=\"112\" x2=\"58\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"24\" y1=\"74\" x2=\"39.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"39.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"56\" y1=\"74\" x2=\"41.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"41.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"40.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 1</text><line x1=\"104\" y1=\"112\" x2=\"104\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"104\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"112\" x2=\"137\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"76\" x2=\"137\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"140\" y1=\"112\" x2=\"140\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"106\" y1=\"74\" x2=\"121.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"121.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"138\" y1=\"74\" x2=\"123.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"123.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"112\" x2=\"173\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"76\" x2=\"173\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"176\" y1=\"112\" x2=\"176\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"142\" y1=\"74\" x2=\"157.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"157.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"174\" y1=\"74\" x2=\"159.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"159.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"140.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 2</text><line x1=\"222\" y1=\"112\" x2=\"222\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"222\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"112\" x2=\"255\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"76\" x2=\"255\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"258\" y1=\"112\" x2=\"258\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"258\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"224\" y1=\"74\" x2=\"239.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"239.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"256\" y1=\"74\" x2=\"241.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"241.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"112\" x2=\"291\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"76\" x2=\"291\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"294\" y1=\"112\" x2=\"294\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"294\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"260\" y1=\"74\" x2=\"275.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"275.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"292\" y1=\"74\" x2=\"277.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"277.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"112\" x2=\"327\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"76\" x2=\"327\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"330\" y1=\"112\" x2=\"330\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"330\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"296\" y1=\"74\" x2=\"311.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"311.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"328\" y1=\"74\" x2=\"313.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"313.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"276.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 3</text></svg></span><p>Olof bygger hus av tändstickor. Figur 1 består av 6 tändstickor, figur 2 av 11 och figur 3 av 16, och så vidare enligt samma mönster.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många tändstickor behövs till figur 10?",
+        "t": "<span class=\"fig\"><svg width=\"360\" height=\"150\" viewBox=\"0 0 360 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre figurer av tändstickor formade som hus i rad: ett, två och tre hus.\"><line x1=\"22\" y1=\"112\" x2=\"22\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"22\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"112\" x2=\"55\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"76\" x2=\"55\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"58\" y1=\"112\" x2=\"58\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"24\" y1=\"74\" x2=\"39.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"39.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"56\" y1=\"74\" x2=\"41.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"41.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"40.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 1</text><line x1=\"104\" y1=\"112\" x2=\"104\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"104\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"112\" x2=\"137\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"76\" x2=\"137\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"140\" y1=\"112\" x2=\"140\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"106\" y1=\"74\" x2=\"121.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"121.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"138\" y1=\"74\" x2=\"123.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"123.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"112\" x2=\"173\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"76\" x2=\"173\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"176\" y1=\"112\" x2=\"176\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"142\" y1=\"74\" x2=\"157.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"157.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"174\" y1=\"74\" x2=\"159.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"159.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"140.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 2</text><line x1=\"222\" y1=\"112\" x2=\"222\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"222\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"112\" x2=\"255\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"76\" x2=\"255\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"258\" y1=\"112\" x2=\"258\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"258\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"224\" y1=\"74\" x2=\"239.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"239.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"256\" y1=\"74\" x2=\"241.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"241.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"112\" x2=\"291\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"76\" x2=\"291\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"294\" y1=\"112\" x2=\"294\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"294\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"260\" y1=\"74\" x2=\"275.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"275.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"292\" y1=\"74\" x2=\"277.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"277.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"112\" x2=\"327\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"76\" x2=\"327\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"330\" y1=\"112\" x2=\"330\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"330\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"296\" y1=\"74\" x2=\"311.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"311.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"328\" y1=\"74\" x2=\"313.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"313.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"276.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 3</text></svg></span><p>Olof bygger hus av tändstickor. Figur 1 består av 6 tändstickor, figur 2 av 11 och figur 3 av 16, och så vidare enligt samma mönster.</p><p>Hur många tändstickor behövs till figur 10?</p>",
+        "s": "<p>Varje nytt hus kräver 5 tändstickor, så \\(a_n=6+5(n-1)=5n+1\\).</p><p>\\(a_{10}=51\\).</p><p><strong>Svar:</strong> 51 tändstickor</p>",
+        "ledtrad": "<p>Hur många tändstickor tillkommer från en figur till nästa?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många tändstickor går det åt totalt till de tio första figurerna?",
+        "t": "<span class=\"fig\"><svg width=\"360\" height=\"150\" viewBox=\"0 0 360 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre figurer av tändstickor formade som hus i rad: ett, två och tre hus.\"><line x1=\"22\" y1=\"112\" x2=\"22\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"22\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"112\" x2=\"55\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"76\" x2=\"55\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"58\" y1=\"112\" x2=\"58\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"24\" y1=\"74\" x2=\"39.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"39.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"56\" y1=\"74\" x2=\"41.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"41.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"40.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 1</text><line x1=\"104\" y1=\"112\" x2=\"104\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"104\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"112\" x2=\"137\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"76\" x2=\"137\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"140\" y1=\"112\" x2=\"140\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"106\" y1=\"74\" x2=\"121.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"121.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"138\" y1=\"74\" x2=\"123.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"123.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"112\" x2=\"173\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"76\" x2=\"173\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"176\" y1=\"112\" x2=\"176\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"142\" y1=\"74\" x2=\"157.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"157.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"174\" y1=\"74\" x2=\"159.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"159.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"140.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 2</text><line x1=\"222\" y1=\"112\" x2=\"222\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"222\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"112\" x2=\"255\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"76\" x2=\"255\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"258\" y1=\"112\" x2=\"258\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"258\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"224\" y1=\"74\" x2=\"239.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"239.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"256\" y1=\"74\" x2=\"241.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"241.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"112\" x2=\"291\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"76\" x2=\"291\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"294\" y1=\"112\" x2=\"294\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"294\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"260\" y1=\"74\" x2=\"275.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"275.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"292\" y1=\"74\" x2=\"277.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"277.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"112\" x2=\"327\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"76\" x2=\"327\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"330\" y1=\"112\" x2=\"330\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"330\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"296\" y1=\"74\" x2=\"311.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"311.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"328\" y1=\"74\" x2=\"313.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"313.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"276.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 3</text></svg></span><p>Olof bygger hus av tändstickor. Figur 1 består av 6 tändstickor, figur 2 av 11 och figur 3 av 16, och så vidare enligt samma mönster.</p><p>Hur många tändstickor går det åt totalt till de tio första figurerna?</p>",
+        "s": "<p>\\(a_{10}=6+9\\cdot5=51\\) och \\(S_{10}=\\dfrac{10(6+51)}{2}=285\\).</p><p><strong>Svar:</strong> 285 tändstickor</p>",
+        "ledtrad": "<p>Använd summaformeln med första och tionde figuren.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Olof har 1 200 tändstickor och bygger figur 1, figur 2, figur 3 och så vidare så länge tändstickorna räcker till en hel figur. Hur många hela figurer kan han bygga?",
+        "t": "<span class=\"fig\"><svg width=\"360\" height=\"150\" viewBox=\"0 0 360 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre figurer av tändstickor formade som hus i rad: ett, två och tre hus.\"><line x1=\"22\" y1=\"112\" x2=\"22\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"22\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"112\" x2=\"55\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"25\" y1=\"76\" x2=\"55\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"58\" y1=\"112\" x2=\"58\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"24\" y1=\"74\" x2=\"39.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"39.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"56\" y1=\"74\" x2=\"41.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"41.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"40.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 1</text><line x1=\"104\" y1=\"112\" x2=\"104\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"104\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"112\" x2=\"137\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"107\" y1=\"76\" x2=\"137\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"137\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"140\" y1=\"112\" x2=\"140\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"140\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"106\" y1=\"74\" x2=\"121.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"121.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"138\" y1=\"74\" x2=\"123.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"123.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"112\" x2=\"173\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"143\" y1=\"76\" x2=\"173\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"173\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"176\" y1=\"112\" x2=\"176\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"176\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"142\" y1=\"74\" x2=\"157.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"157.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"174\" y1=\"74\" x2=\"159.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"159.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"140.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 2</text><line x1=\"222\" y1=\"112\" x2=\"222\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"222\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"112\" x2=\"255\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"225\" y1=\"76\" x2=\"255\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"258\" y1=\"112\" x2=\"258\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"258\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"224\" y1=\"74\" x2=\"239.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"239.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"256\" y1=\"74\" x2=\"241.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"241.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"112\" x2=\"291\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"261\" y1=\"76\" x2=\"291\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"291\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"294\" y1=\"112\" x2=\"294\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"294\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"260\" y1=\"74\" x2=\"275.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"275.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"292\" y1=\"74\" x2=\"277.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"277.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"112\" x2=\"327\" y2=\"112\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"112\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"297\" y1=\"76\" x2=\"327\" y2=\"76\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"327\" cy=\"76\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"330\" y1=\"112\" x2=\"330\" y2=\"79\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"330\" cy=\"79\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"296\" y1=\"74\" x2=\"311.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"311.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><line x1=\"328\" y1=\"74\" x2=\"313.0\" y2=\"52\" stroke=\"#c8a165\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"313.0\" cy=\"52\" r=\"3.2\" fill=\"#c0392b\"/><text x=\"276.0\" y=\"138\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">Figur 3</text></svg></span><p>Olof bygger hus av tändstickor. Figur 1 består av 6 tändstickor, figur 2 av 11 och figur 3 av 16, och så vidare enligt samma mönster.</p><p>Olof har 1 200 tändstickor och bygger figur 1, figur 2, figur 3 och så vidare så länge tändstickorna räcker till en hel figur. Hur många hela figurer kan han bygga?</p>",
+        "s": "<p>\\(a_k=5k+1\\) och \\(S_k=\\dfrac{k(6+5k+1)}{2}=\\dfrac{k(5k+7)}{2}\\).</p><p>Villkoret \\(S_k\\le1\\,200\\) ger \\(k(5k+7)\\le2\\,400\\).</p><p>\\(k=21\\): \\(21\\cdot112=2\\,352\\le2\\,400\\). \\(k=22\\): \\(22\\cdot117=2\\,574\\gt2\\,400\\).</p><p><strong>Svar:</strong> 21 figurer</p>",
+        "ledtrad": "<p>Skriv summan av de \\(k\\) första figurerna som ett uttryck i \\(k\\) och kräv att den är högst 1 200.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Antalet tändstickor per figur bildar en aritmetisk talföljd.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "E",
+    "typ": "längd av upprullad slang",
+    "poang": "2/0/0",
+    "t": "<p>En brandslang är tätt upprullad. Det innersta varvet är 60 cm långt, och varje varv utanför är 3,5 cm längre än varvet innanför. Det yttersta varvet är 144 cm.</p><p>Hur lång är slangen? Svara i meter.</p>",
+    "s": "<p>Antal varv: \\(144=60+(n-1)\\cdot3{,}5\\iff n-1=24\\iff n=25\\).</p><p>\\(S_{25}=\\dfrac{25(60+144)}{2}=2\\,550\\) cm.</p><p><strong>Svar:</strong> 25,5 m</p>",
+    "id": "2.607",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25.5,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först antalet varv.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m"
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "lönetrappa",
+    "poang": "1/3/0",
+    "t": "<p>En bärodlare använder en lönetrappa under jordgubbssäsongens 40 dagar. Första dagen får man \\(L\\) kr, andra dagen \\(L+d\\) kr, tredje dagen \\(L+2d\\) kr och så vidare. Kalle arbetar alla 40 dagarna. Den sista dagen tjänar han 534 kr, och totalt tjänar han 16 680 kr.</p><ol type=\"a\"><li>Bestäm \\(L\\).</li><li>Hur mycket tjänar Kalle den tjugonde dagen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(S_{40}=\\dfrac{40(L+534)}{2}=16\\,680\\iff L+534=834\\iff L=300\\).</p><p><strong>Svar:</strong> 300 kr</p></li><li><p>\\(\\dfrac{40(L+534)}{2}=16\\,680\\Rightarrow L=300\\).</p><p>\\(534=300+39d\\Rightarrow d=6\\), så \\(a_{20}=300+19\\cdot6=414\\).</p><p><strong>Svar:</strong> 414 kr</p></li></ol>",
+    "id": "2.608",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      300,
+      414
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bärodlare använder en lönetrappa under jordgubbssäsongens 40 dagar. Första dagen får man \\(L\\) kr, andra dagen \\(L+d\\) kr, tredje dagen \\(L+2d\\) kr och så vidare. Kalle arbetar alla 40 dagarna. Den sista dagen tjänar han 534 kr, och totalt tjänar han 16 680 kr.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(L\\).",
+        "t": "<p>En bärodlare använder en lönetrappa under jordgubbssäsongens 40 dagar. Första dagen får man \\(L\\) kr, andra dagen \\(L+d\\) kr, tredje dagen \\(L+2d\\) kr och så vidare. Kalle arbetar alla 40 dagarna. Den sista dagen tjänar han 534 kr, och totalt tjänar han 16 680 kr.</p><p>Bestäm \\(L\\).</p>",
+        "s": "<p>\\(S_{40}=\\dfrac{40(L+534)}{2}=16\\,680\\iff L+534=834\\iff L=300\\).</p><p><strong>Svar:</strong> 300 kr</p>",
+        "ledtrad": "<p>Summaformeln innehåller första och sista dagens lön.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket tjänar Kalle den tjugonde dagen?",
+        "t": "<p>En bärodlare använder en lönetrappa under jordgubbssäsongens 40 dagar. Första dagen får man \\(L\\) kr, andra dagen \\(L+d\\) kr, tredje dagen \\(L+2d\\) kr och så vidare. Kalle arbetar alla 40 dagarna. Den sista dagen tjänar han 534 kr, och totalt tjänar han 16 680 kr.</p><p>Hur mycket tjänar Kalle den tjugonde dagen?</p>",
+        "s": "<p>\\(\\dfrac{40(L+534)}{2}=16\\,680\\Rightarrow L=300\\).</p><p>\\(534=300+39d\\Rightarrow d=6\\), så \\(a_{20}=300+19\\cdot6=414\\).</p><p><strong>Svar:</strong> 414 kr</p>",
+        "ledtrad": "<p>Bestäm först \\(L\\) och sedan \\(d\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Dagslönerna bildar en aritmetisk talföljd.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "A",
+    "typ": "avbetalning med minskande belopp",
+    "poang": "2/1/1",
+    "t": "<p>Ingrid betalar tillbaka ett lån med månadsbetalningar som bildar en aritmetisk talföljd: 350 kr första månaden, 340 kr andra månaden, 330 kr tredje månaden och så vidare.</p><ol type=\"a\"><li>Anta att lånet är återbetalt efter 12 månader. Hur stort var lånet?</li><li>Anta i stället att lånet var 6 200 kr. Hur många månader tar det att betala tillbaka det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{12}=350-11\\cdot10=240\\) och \\(S_{12}=\\dfrac{12(350+240)}{2}=3\\,540\\).</p><p><strong>Svar:</strong> 3 540 kr</p></li><li><p>\\(a_n=350-10(n-1)=360-10n\\) och \\(S_n=\\dfrac{n(350+360-10n)}{2}=355n-5n^2\\).</p><p>\\(355n-5n^2=6\\,200\\iff n^2-71n+1\\,240=0\\iff n=31\\) eller \\(n=40\\).</p><p>\\(a_{40}=360-400=-40\\lt0\\) är ingen betalning, men \\(a_{31}=50\\gt0\\). Lånet är alltså betalt efter 31 månader.</p><p><strong>Svar:</strong> 31 månader</p></li></ol>",
+    "id": "2.609",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3540,
+      31
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ingrid betalar tillbaka ett lån med månadsbetalningar som bildar en aritmetisk talföljd: 350 kr första månaden, 340 kr andra månaden, 330 kr tredje månaden och så vidare.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Anta att lånet är återbetalt efter 12 månader. Hur stort var lånet?",
+        "t": "<p>Ingrid betalar tillbaka ett lån med månadsbetalningar som bildar en aritmetisk talföljd: 350 kr första månaden, 340 kr andra månaden, 330 kr tredje månaden och så vidare.</p><p>Anta att lånet är återbetalt efter 12 månader. Hur stort var lånet?</p>",
+        "s": "<p>\\(a_{12}=350-11\\cdot10=240\\) och \\(S_{12}=\\dfrac{12(350+240)}{2}=3\\,540\\).</p><p><strong>Svar:</strong> 3 540 kr</p>",
+        "ledtrad": "<p>Bestäm sista betalningen och använd summaformeln.</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Anta i stället att lånet var 6 200 kr. Hur många månader tar det att betala tillbaka det?",
+        "t": "<p>Ingrid betalar tillbaka ett lån med månadsbetalningar som bildar en aritmetisk talföljd: 350 kr första månaden, 340 kr andra månaden, 330 kr tredje månaden och så vidare.</p><p>Anta i stället att lånet var 6 200 kr. Hur många månader tar det att betala tillbaka det?</p>",
+        "s": "<p>\\(a_n=350-10(n-1)=360-10n\\) och \\(S_n=\\dfrac{n(350+360-10n)}{2}=355n-5n^2\\).</p><p>\\(355n-5n^2=6\\,200\\iff n^2-71n+1\\,240=0\\iff n=31\\) eller \\(n=40\\).</p><p>\\(a_{40}=360-400=-40\\lt0\\) är ingen betalning, men \\(a_{31}=50\\gt0\\). Lånet är alltså betalt efter 31 månader.</p><p><strong>Svar:</strong> 31 månader</p>",
+        "ledtrad": "<p>Ställ upp \\(S_n=6\\,200\\). Ekvationen har två lösningar. Vilken är rimlig?</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Betalningarna minskar med 10 kr per månad.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "kostnad per borrsträcka",
+    "poang": "1/3/0",
+    "t": "<p>Ett företag borrar efter vatten. De första 10 metrarna kostar 50 000 kr att borra. Varje följande tiometerssträcka kostar 12 000 kr mer än sträckan ovanför.</p><ol type=\"a\"><li>Vad kostar det att borra ett 200 m djupt hål?</li><li>Företaget har 150 miljoner kr. Hur djupt kan de borra ett enda hål om de bara borrar hela tiometerssträckor?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>200 m är 20 sträckor: \\(a_{20}=50\\,000+19\\cdot12\\,000=278\\,000\\).</p><p>\\(S_{20}=\\dfrac{20(50\\,000+278\\,000)}{2}=3\\,280\\,000\\).</p><p><strong>Svar:</strong> 3 280 000 kr</p></li><li><p>Efter \\(n\\) sträckor: \\(S_n=\\dfrac{n(100\\,000+12\\,000(n-1))}{2}=6\\,000n^2+44\\,000n\\).</p><p>\\(6\\,000n^2+44\\,000n=150\\,000\\,000\\iff 3n^2+22n-75\\,000=0\\iff n\\approx154{,}5\\).</p><p>Pengarna räcker till 154 hela sträckor, alltså 1 540 m.</p><p><strong>Svar:</strong> 1 540 m</p></li></ol>",
+    "id": "2.610",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3280000,
+      1540
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett företag borrar efter vatten. De första 10 metrarna kostar 50 000 kr att borra. Varje följande tiometerssträcka kostar 12 000 kr mer än sträckan ovanför.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vad kostar det att borra ett 200 m djupt hål?",
+        "t": "<p>Ett företag borrar efter vatten. De första 10 metrarna kostar 50 000 kr att borra. Varje följande tiometerssträcka kostar 12 000 kr mer än sträckan ovanför.</p><p>Vad kostar det att borra ett 200 m djupt hål?</p>",
+        "s": "<p>200 m är 20 sträckor: \\(a_{20}=50\\,000+19\\cdot12\\,000=278\\,000\\).</p><p>\\(S_{20}=\\dfrac{20(50\\,000+278\\,000)}{2}=3\\,280\\,000\\).</p><p><strong>Svar:</strong> 3 280 000 kr</p>",
+        "ledtrad": "<p>Hur många tiometerssträckor är 200 m?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Företaget har 150 miljoner kr. Hur djupt kan de borra ett enda hål om de bara borrar hela tiometerssträckor?",
+        "t": "<p>Ett företag borrar efter vatten. De första 10 metrarna kostar 50 000 kr att borra. Varje följande tiometerssträcka kostar 12 000 kr mer än sträckan ovanför.</p><p>Företaget har 150 miljoner kr. Hur djupt kan de borra ett enda hål om de bara borrar hela tiometerssträckor?</p>",
+        "s": "<p>Efter \\(n\\) sträckor: \\(S_n=\\dfrac{n(100\\,000+12\\,000(n-1))}{2}=6\\,000n^2+44\\,000n\\).</p><p>\\(6\\,000n^2+44\\,000n=150\\,000\\,000\\iff 3n^2+22n-75\\,000=0\\iff n\\approx154{,}5\\).</p><p>Pengarna räcker till 154 hela sträckor, alltså 1 540 m.</p><p><strong>Svar:</strong> 1 540 m</p>",
+        "ledtrad": "<p>Ställ upp summan för \\(n\\) sträckor och lös \\(S_n=150\\,000\\,000\\). Avrunda nedåt.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Kostnaden per tiometerssträcka bildar en aritmetisk talföljd.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "antal termer ur summa",
+    "poang": "0/2/0",
+    "t": "<p>I en frågesport får man 500 kr för rätt svar på fråga 1, 1 000 kr för fråga 2, 1 500 kr för fråga 3 och så vidare. Vid första felsvaret är tävlingen slut, men man behåller pengarna. En deltagare vann 150 000 kr.</p><p>Hur många frågor svarade deltagaren rätt på?</p>",
+    "s": "<p>\\(S_n=500(1+2+\\dots+n)=500\\cdot\\dfrac{n(n+1)}{2}=250n(n+1)\\).</p><p>\\(250n(n+1)=150\\,000\\iff n(n+1)=600\\iff n=24\\).</p><p><strong>Svar:</strong> 24 frågor</p>",
+    "id": "2.611",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv summan av de \\(n\\) första vinsterna som ett uttryck i \\(n\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "A",
+    "typ": "avbetalning med okänd minskning",
+    "poang": "0/3/1",
+    "t": "<p>Eskil har lånat 26 000 kr av en kompis. Första månaden betalar han tillbaka 1 500 kr, andra månaden \\((1\\,500-x)\\) kr, tredje månaden \\((1\\,500-2x)\\) kr och så vidare. Under det första året (12 månader) betalar han totalt 15 360 kr.</p><ol type=\"a\"><li>Bestäm \\(x\\).</li><li>Efter hur många månader är lånet återbetalt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(S_{12}=\\dfrac{12(1\\,500+1\\,500-11x)}{2}=6(3\\,000-11x)\\).</p><p>\\(6(3\\,000-11x)=15\\,360\\iff 3\\,000-11x=2\\,560\\iff x=40\\).</p><p><strong>Svar:</strong> 40 kr</p></li><li><p>Med \\(x=40\\) blir betalningarna 1 500 kr, 1 460 kr, 1 420 kr, … och \\(S_n=\\dfrac{n(1\\,500+1\\,500-40(n-1))}{2}=20n(76-n)\\).</p><p>\\(20n(76-n)=26\\,000\\iff n^2-76n+1\\,300=0\\iff n=26\\) eller \\(n=50\\).</p><p>Månad 50 skulle betalningen bli \\(1\\,500-49\\cdot40\\lt0\\), så \\(n=26\\).</p><p><strong>Svar:</strong> 26 månader</p></li></ol>",
+    "id": "2.612",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      26
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Eskil har lånat 26 000 kr av en kompis. Första månaden betalar han tillbaka 1 500 kr, andra månaden \\((1\\,500-x)\\) kr, tredje månaden \\((1\\,500-2x)\\) kr och så vidare. Under det första året (12 månader) betalar han totalt 15 360 kr.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(x\\).",
+        "t": "<p>Eskil har lånat 26 000 kr av en kompis. Första månaden betalar han tillbaka 1 500 kr, andra månaden \\((1\\,500-x)\\) kr, tredje månaden \\((1\\,500-2x)\\) kr och så vidare. Under det första året (12 månader) betalar han totalt 15 360 kr.</p><p>Bestäm \\(x\\).</p>",
+        "s": "<p>\\(S_{12}=\\dfrac{12(1\\,500+1\\,500-11x)}{2}=6(3\\,000-11x)\\).</p><p>\\(6(3\\,000-11x)=15\\,360\\iff 3\\,000-11x=2\\,560\\iff x=40\\).</p><p><strong>Svar:</strong> 40 kr</p>",
+        "ledtrad": "<p>Vad betalar han den tolfte månaden, uttryckt i \\(x\\)?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många månader är lånet återbetalt?",
+        "t": "<p>Eskil har lånat 26 000 kr av en kompis. Första månaden betalar han tillbaka 1 500 kr, andra månaden \\((1\\,500-x)\\) kr, tredje månaden \\((1\\,500-2x)\\) kr och så vidare. Under det första året (12 månader) betalar han totalt 15 360 kr.</p><p>Under det första året minskar betalningen med 40 kr per månad.</p><p>Efter hur många månader är lånet återbetalt?</p>",
+        "s": "<p>Med \\(x=40\\) blir betalningarna 1 500 kr, 1 460 kr, 1 420 kr, … och \\(S_n=\\dfrac{n(1\\,500+1\\,500-40(n-1))}{2}=20n(76-n)\\).</p><p>\\(20n(76-n)=26\\,000\\iff n^2-76n+1\\,300=0\\iff n=26\\) eller \\(n=50\\).</p><p>Månad 50 skulle betalningen bli \\(1\\,500-49\\cdot40\\lt0\\), så \\(n=26\\).</p><p><strong>Svar:</strong> 26 månader</p>",
+        "ledtrad": "<p>Skriv summan efter \\(n\\) månader och lös \\(S_n=26\\,000\\). Pröva vilken lösning som är rimlig.</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Betalningarna bildar en aritmetisk talföljd med differensen \\(-x\\).</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "A",
+    "typ": "två lönestegar med parametrar",
+    "poang": "0/2/2",
+    "t": "<p>Ett företag har två lönestegar där årslönerna bildar aritmetiska talföljder.</p><p><strong>Modell A:</strong> årslönen första året är \\(X\\) kr och ökar med \\(2Y\\) kr per år.<br><strong>Modell B:</strong> årslönen första året är \\((X+20\\,000)\\) kr och ökar med \\(Y\\) kr per år.</p><p>Efter 9 år har en anställd enligt modell A fått totalt 36 000 kr mer än en anställd enligt modell B.</p><ol type=\"a\"><li>Bestäm \\(Y\\).</li><li>En anställd enligt modell A har årslönen 360 000 kr år 11. Bestäm \\(X\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Modell A: \\(S_9=\\dfrac{9(X+X+16Y)}{2}=9(X+8Y)\\).</p><p>Modell B: \\(S_9=\\dfrac{9(2(X+20\\,000)+8Y)}{2}=9(X+20\\,000+4Y)\\).</p><p>\\(9(X+8Y)-9(X+20\\,000+4Y)=36\\,000\\iff 4Y-20\\,000=4\\,000\\iff Y=6\\,000\\).</p><p><strong>Svar:</strong> 6 000 kr</p></li><li><p>Årslönen år 11 i modell A: \\(X+10\\cdot2Y=X+20Y\\). Med \\(Y=6\\,000\\): \\(X+120\\,000=360\\,000\\iff X=240\\,000\\).</p><p><strong>Svar:</strong> 240 000 kr</p></li></ol>",
+    "id": "2.614",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6000,
+      240000
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett företag har två lönestegar där årslönerna bildar aritmetiska talföljder.</p><p><strong>Modell A:</strong> årslönen första året är \\(X\\) kr och ökar med \\(2Y\\) kr per år.<br><strong>Modell B:</strong> årslönen första året är \\((X+20\\,000)\\) kr och ökar med \\(Y\\) kr per år.</p><p>Efter 9 år har en anställd enligt modell A fått totalt 36 000 kr mer än en anställd enligt modell B.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(Y\\).",
+        "t": "<p>Ett företag har två lönestegar där årslönerna bildar aritmetiska talföljder.</p><p><strong>Modell A:</strong> årslönen första året är \\(X\\) kr och ökar med \\(2Y\\) kr per år.<br><strong>Modell B:</strong> årslönen första året är \\((X+20\\,000)\\) kr och ökar med \\(Y\\) kr per år.</p><p>Efter 9 år har en anställd enligt modell A fått totalt 36 000 kr mer än en anställd enligt modell B.</p><p>Bestäm \\(Y\\).</p>",
+        "s": "<p>Modell A: \\(S_9=\\dfrac{9(X+X+16Y)}{2}=9(X+8Y)\\).</p><p>Modell B: \\(S_9=\\dfrac{9(2(X+20\\,000)+8Y)}{2}=9(X+20\\,000+4Y)\\).</p><p>\\(9(X+8Y)-9(X+20\\,000+4Y)=36\\,000\\iff 4Y-20\\,000=4\\,000\\iff Y=6\\,000\\).</p><p><strong>Svar:</strong> 6 000 kr</p>",
+        "ledtrad": "<p>Skriv båda summorna efter 9 år uttryckta i \\(X\\) och \\(Y\\). Vad händer med \\(X\\) när du tar skillnaden?</p>",
+        "niva": "A",
+        "poang": "0/1/2",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "En anställd enligt modell A har årslönen 360 000 kr år 11. Bestäm \\(X\\).",
+        "t": "<p>Ett företag har två lönestegar där årslönerna bildar aritmetiska talföljder.</p><p><strong>Modell A:</strong> årslönen första året är \\(X\\) kr och ökar med \\(2Y\\) kr per år.<br><strong>Modell B:</strong> årslönen första året är \\((X+20\\,000)\\) kr och ökar med \\(Y\\) kr per år.</p><p>Efter 9 år har en anställd enligt modell A fått totalt 36 000 kr mer än en anställd enligt modell B.</p><p>Det gäller att \\(Y=6\\,000\\).</p><p>En anställd enligt modell A har årslönen 360 000 kr år 11. Bestäm \\(X\\).</p>",
+        "s": "<p>Årslönen år 11 i modell A: \\(X+10\\cdot2Y=X+20Y\\). Med \\(Y=6\\,000\\): \\(X+120\\,000=360\\,000\\iff X=240\\,000\\).</p><p><strong>Svar:</strong> 240 000 kr</p>",
+        "ledtrad": "<p>Hur många ökningar på \\(2Y\\) har skett till år 11?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd \\(S_n=\\dfrac{n(a_1+a_n)}{2}\\) för båda modellerna.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "A",
+    "typ": "ekvationssystem med två summor",
+    "poang": "0/1/2",
+    "t": "<p>Ett företag har en skuld på 360 000 kr som ska betalas av under 40 månader. Månadsbetalningarna bildar en aritmetisk talföljd. Efter 30 betalningar går företaget i konkurs, och då är en tredjedel av skulden obetald.</p><p>Hur mycket betalade företaget första månaden?</p>",
+    "s": "<p>Hela planen: \\(S_{40}=\\dfrac{40(2a+39d)}{2}=360\\,000\\iff 2a+39d=18\\,000\\).</p><p>Betalt efter 30 månader är två tredjedelar: \\(S_{30}=\\dfrac{30(2a+29d)}{2}=240\\,000\\iff 2a+29d=16\\,000\\).</p><p>Subtraktion ger \\(10d=2\\,000\\), alltså \\(d=200\\), och \\(2a=18\\,000-7\\,800\\iff a=5\\,100\\).</p><p><strong>Svar:</strong> 5 100 kr</p>",
+    "id": "2.615",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5100,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp en ekvation för hela planen och en för de 30 första månaderna. Använd \\(S_n=\\dfrac{n(2a_1+(n-1)d)}{2}\\).</p>",
+    "traningsniva": 5,
+    "svarEnhet": "kr"
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "kundtillväxt med förlust",
+    "poang": "2/2/0",
+    "t": "<p>Ett städföretag har 125 kunder och vill nå 600 kunder. Efter en kampanj räknar man med 10 nya kunder första veckan, 12 nya den andra, 14 nya den tredje och så vidare.</p><ol type=\"a\"><li>Hur många kunder har företaget efter tolv veckor, om ingen kund slutar?</li><li>Anta i stället att företaget samtidigt förlorar 3 kunder varje vecka. Efter hur många veckor har företaget 600 kunder?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{12}=10+11\\cdot2=32\\) och \\(S_{12}=\\dfrac{12(10+32)}{2}=252\\).</p><p>\\(125+252=377\\).</p><p><strong>Svar:</strong> 377 kunder</p></li><li><p>Nettoökningen blir 7, 9, 11, … kunder per vecka, med \\(d=2\\).</p><p>\\(S_n=\\dfrac{n(14+2(n-1))}{2}=n(n+6)\\).</p><p>\\(125+n(n+6)\\ge600\\iff n^2+6n-475\\ge0\\). \\(n=19\\) ger precis \\(19\\cdot25=475\\).</p><p><strong>Svar:</strong> 19 veckor</p></li></ol>",
+    "id": "2.616",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      377,
+      19
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett städföretag har 125 kunder och vill nå 600 kunder. Efter en kampanj räknar man med 10 nya kunder första veckan, 12 nya den andra, 14 nya den tredje och så vidare.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många kunder har företaget efter tolv veckor, om ingen kund slutar?",
+        "t": "<p>Ett städföretag har 125 kunder och vill nå 600 kunder. Efter en kampanj räknar man med 10 nya kunder första veckan, 12 nya den andra, 14 nya den tredje och så vidare.</p><p>Hur många kunder har företaget efter tolv veckor, om ingen kund slutar?</p>",
+        "s": "<p>\\(a_{12}=10+11\\cdot2=32\\) och \\(S_{12}=\\dfrac{12(10+32)}{2}=252\\).</p><p>\\(125+252=377\\).</p><p><strong>Svar:</strong> 377 kunder</p>",
+        "ledtrad": "<p>Glöm inte de 125 kunder som fanns från början.</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Anta i stället att företaget samtidigt förlorar 3 kunder varje vecka. Efter hur många veckor har företaget 600 kunder?",
+        "t": "<p>Ett städföretag har 125 kunder och vill nå 600 kunder. Efter en kampanj räknar man med 10 nya kunder första veckan, 12 nya den andra, 14 nya den tredje och så vidare.</p><p>Anta i stället att företaget samtidigt förlorar 3 kunder varje vecka. Efter hur många veckor har företaget 600 kunder?</p>",
+        "s": "<p>Nettoökningen blir 7, 9, 11, … kunder per vecka, med \\(d=2\\).</p><p>\\(S_n=\\dfrac{n(14+2(n-1))}{2}=n(n+6)\\).</p><p>\\(125+n(n+6)\\ge600\\iff n^2+6n-475\\ge0\\). \\(n=19\\) ger precis \\(19\\cdot25=475\\).</p><p><strong>Svar:</strong> 19 veckor</p>",
+        "ledtrad": "<p>Vilken blir nettoökningen den första veckan? Den bildar också en aritmetisk talföljd.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Antalet nya kunder per vecka bildar en aritmetisk talföljd.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "E",
+    "typ": "lön som geometrisk talföljd",
+    "poang": "2/0/0",
+    "t": "<p>Frans arbetade 30 månader på ett företag. Första månadslönen var 22 000 kr, och varje följande månad ökade lönen med 5,0 %.</p><ol type=\"a\"><li>Hur stor var månadslönen den sista månaden? Avrunda till hela kronor.</li><li>Hur mycket tjänade Frans sammanlagt under de 30 månaderna? Avrunda till hela kronor.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{30}=22\\,000\\cdot1{,}05^{29}\\approx90\\,555\\).</p><p><strong>Svar:</strong> 90 555 kr</p></li><li><p>\\(S_{30}=\\dfrac{22\\,000(1{,}05^{30}-1)}{1{,}05-1}\\approx1\\,461\\,655\\).</p><p><strong>Svar:</strong> 1 461 655 kr</p></li></ol>",
+    "id": "2.617",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      90555,
+      1461655
+    ],
+    "tolerans": [
+      6,
+      60
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Frans arbetade 30 månader på ett företag. Första månadslönen var 22 000 kr, och varje följande månad ökade lönen med 5,0 %.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor var månadslönen den sista månaden? Avrunda till hela kronor.",
+        "t": "<p>Frans arbetade 30 månader på ett företag. Första månadslönen var 22 000 kr, och varje följande månad ökade lönen med 5,0 %.</p><p>Hur stor var månadslönen den sista månaden? Avrunda till hela kronor.</p>",
+        "s": "<p>\\(a_{30}=22\\,000\\cdot1{,}05^{29}\\approx90\\,555\\).</p><p><strong>Svar:</strong> 90 555 kr</p>",
+        "ledtrad": "<p>Förändringsfaktorn är 1,05. Hur många ökningar har skett till månad 30?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket tjänade Frans sammanlagt under de 30 månaderna? Avrunda till hela kronor.",
+        "t": "<p>Frans arbetade 30 månader på ett företag. Första månadslönen var 22 000 kr, och varje följande månad ökade lönen med 5,0 %.</p><p>Hur mycket tjänade Frans sammanlagt under de 30 månaderna? Avrunda till hela kronor.</p>",
+        "s": "<p>\\(S_{30}=\\dfrac{22\\,000(1{,}05^{30}-1)}{1{,}05-1}\\approx1\\,461\\,655\\).</p><p><strong>Svar:</strong> 1 461 655 kr</p>",
+        "ledtrad": "<p>Använd summaformeln för en geometrisk talföljd.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Lönerna bildar en geometrisk talföljd med kvoten 1,05.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "procentuell ökning och första term över gräns",
+    "poang": "1/2/0",
+    "t": "<p>Olga fick 100 kr av sin farfar när hon fyllde 1 år. Varje födelsedag därefter ökade beloppet med 20 % jämfört med året före.</p><ol type=\"a\"><li>Hur mycket fick Olga på sin 10-årsdag? Avrunda till hela kronor.</li><li>På vilken födelsedag fick hon för första gången mer än 10 000 kr? Ange åldern.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{10}=100\\cdot1{,}2^{9}\\approx516\\).</p><p><strong>Svar:</strong> 516 kr</p></li><li><p>På \\(n\\)-årsdagen får hon \\(100\\cdot1{,}2^{n-1}\\) kr.</p><p>\\(1{,}2^{n-1}\\gt100\\iff n-1\\gt\\dfrac{\\lg100}{\\lg1{,}2}\\approx25{,}3\\).</p><p>Minsta heltal är \\(n-1=26\\), alltså \\(n=27\\).</p><p><strong>Svar:</strong> 27-årsdagen</p></li></ol>",
+    "id": "2.619",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      516,
+      27
+    ],
+    "tolerans": [
+      0.6,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Olga fick 100 kr av sin farfar när hon fyllde 1 år. Varje födelsedag därefter ökade beloppet med 20 % jämfört med året före.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket fick Olga på sin 10-årsdag? Avrunda till hela kronor.",
+        "t": "<p>Olga fick 100 kr av sin farfar när hon fyllde 1 år. Varje födelsedag därefter ökade beloppet med 20 % jämfört med året före.</p><p>Hur mycket fick Olga på sin 10-årsdag? Avrunda till hela kronor.</p>",
+        "s": "<p>\\(a_{10}=100\\cdot1{,}2^{9}\\approx516\\).</p><p><strong>Svar:</strong> 516 kr</p>",
+        "ledtrad": "<p>Hur många ökningar har skett från 1-årsdagen till 10-årsdagen?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "På vilken födelsedag fick hon för första gången mer än 10 000 kr? Ange åldern.",
+        "t": "<p>Olga fick 100 kr av sin farfar när hon fyllde 1 år. Varje födelsedag därefter ökade beloppet med 20 % jämfört med året före.</p><p>På vilken födelsedag fick hon för första gången mer än 10 000 kr? Ange åldern.</p>",
+        "s": "<p>På \\(n\\)-årsdagen får hon \\(100\\cdot1{,}2^{n-1}\\) kr.</p><p>\\(1{,}2^{n-1}\\gt100\\iff n-1\\gt\\dfrac{\\lg100}{\\lg1{,}2}\\approx25{,}3\\).</p><p>Minsta heltal är \\(n-1=26\\), alltså \\(n=27\\).</p><p><strong>Svar:</strong> 27-årsdagen</p>",
+        "ledtrad": "<p>Ställ upp en olikhet och lös den med logaritmer.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Beloppen bildar en geometrisk talföljd.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "två geometriska produktionsmodeller",
+    "poang": "3/2/0",
+    "t": "<p>Ett företag fasar ut hörlursmodell A och ökar tillverkningen av modell B under 24 månader.</p><p>Första månaden tillverkas 5 000 av modell A, och sedan minskar tillverkningen med 20 % per månad.<br>Första månaden tillverkas 1 000 av modell B, och sedan ökar tillverkningen med 5 % per månad.</p><ol type=\"a\"><li>Hur många av modell A tillverkas den femte månaden?</li><li>Hur många av modell A tillverkas totalt under de 24 månaderna?</li><li>Hur många av modell B tillverkas den sista månaden?</li><li>Vilken månad tillverkas för första gången fler av modell B än av modell A?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_5=5\\,000\\cdot0{,}80^4=2\\,048\\).</p><p><strong>Svar:</strong> 2 048</p></li><li><p>\\(S_{24}=\\dfrac{5\\,000(1-0{,}80^{24})}{1-0{,}80}\\approx24\\,882\\).</p><p><strong>Svar:</strong> 24 882</p></li><li><p>\\(a_{24}=1\\,000\\cdot1{,}05^{23}\\approx3\\,072\\).</p><p><strong>Svar:</strong> 3 072</p></li><li><p>Villkoret är \\(1\\,000\\cdot1{,}05^{n-1}\\gt5\\,000\\cdot0{,}80^{n-1}\\iff\\left(\\dfrac{1{,}05}{0{,}80}\\right)^{n-1}\\gt5\\).</p><p>\\(n-1\\gt\\dfrac{\\lg5}{\\lg1{,}3125}\\approx5{,}9\\), alltså \\(n-1=6\\) och \\(n=7\\).</p><p><strong>Svar:</strong> månad 7</p></li></ol>",
+    "id": "2.620",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2048,
+      24882,
+      3072,
+      7
+    ],
+    "tolerans": [
+      null,
+      1,
+      1,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett företag fasar ut hörlursmodell A och ökar tillverkningen av modell B under 24 månader.</p><p>Första månaden tillverkas 5 000 av modell A, och sedan minskar tillverkningen med 20 % per månad.<br>Första månaden tillverkas 1 000 av modell B, och sedan ökar tillverkningen med 5 % per månad.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många av modell A tillverkas den femte månaden?",
+        "t": "<p>Ett företag fasar ut hörlursmodell A och ökar tillverkningen av modell B under 24 månader.</p><p>Första månaden tillverkas 5 000 av modell A, och sedan minskar tillverkningen med 20 % per månad.<br>Första månaden tillverkas 1 000 av modell B, och sedan ökar tillverkningen med 5 % per månad.</p><p>Hur många av modell A tillverkas den femte månaden?</p>",
+        "s": "<p>\\(a_5=5\\,000\\cdot0{,}80^4=2\\,048\\).</p><p><strong>Svar:</strong> 2 048</p>",
+        "ledtrad": "<p>Vilken förändringsfaktor motsvarar en minskning med 20 %?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många av modell A tillverkas totalt under de 24 månaderna?",
+        "t": "<p>Ett företag fasar ut hörlursmodell A och ökar tillverkningen av modell B under 24 månader.</p><p>Första månaden tillverkas 5 000 av modell A, och sedan minskar tillverkningen med 20 % per månad.<br>Första månaden tillverkas 1 000 av modell B, och sedan ökar tillverkningen med 5 % per månad.</p><p>Hur många av modell A tillverkas totalt under de 24 månaderna?</p>",
+        "s": "<p>\\(S_{24}=\\dfrac{5\\,000(1-0{,}80^{24})}{1-0{,}80}\\approx24\\,882\\).</p><p><strong>Svar:</strong> 24 882</p>",
+        "ledtrad": "<p>Använd summaformeln med kvoten 0,80.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många av modell B tillverkas den sista månaden?",
+        "t": "<p>Ett företag fasar ut hörlursmodell A och ökar tillverkningen av modell B under 24 månader.</p><p>Första månaden tillverkas 5 000 av modell A, och sedan minskar tillverkningen med 20 % per månad.<br>Första månaden tillverkas 1 000 av modell B, och sedan ökar tillverkningen med 5 % per månad.</p><p>Hur många av modell B tillverkas den sista månaden?</p>",
+        "s": "<p>\\(a_{24}=1\\,000\\cdot1{,}05^{23}\\approx3\\,072\\).</p><p><strong>Svar:</strong> 3 072</p>",
+        "ledtrad": "<p>Hur många ökningar sker från månad 1 till månad 24?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Vilken månad tillverkas för första gången fler av modell B än av modell A?",
+        "t": "<p>Ett företag fasar ut hörlursmodell A och ökar tillverkningen av modell B under 24 månader.</p><p>Första månaden tillverkas 5 000 av modell A, och sedan minskar tillverkningen med 20 % per månad.<br>Första månaden tillverkas 1 000 av modell B, och sedan ökar tillverkningen med 5 % per månad.</p><p>Vilken månad tillverkas för första gången fler av modell B än av modell A?</p>",
+        "s": "<p>Villkoret är \\(1\\,000\\cdot1{,}05^{n-1}\\gt5\\,000\\cdot0{,}80^{n-1}\\iff\\left(\\dfrac{1{,}05}{0{,}80}\\right)^{n-1}\\gt5\\).</p><p>\\(n-1\\gt\\dfrac{\\lg5}{\\lg1{,}3125}\\approx5{,}9\\), alltså \\(n-1=6\\) och \\(n=7\\).</p><p><strong>Svar:</strong> månad 7</p>",
+        "ledtrad": "<p>Ställ upp en olikhet mellan de två månadsproduktionerna och samla potenserna.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Tillverkningen av varje modell bildar en geometrisk talföljd.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "fördubblade vinster",
+    "poang": "1/2/0",
+    "t": "<p>I en frågesport ger första rätta svaret 100 kr, det andra 200 kr, det tredje 400 kr och så vidare. Vid första felsvaret är tävlingen slut och deltagaren får behålla en tiondel av summan av alla vinster dittills.</p><ol type=\"a\"><li>Bernard svarar rätt på 5 frågor och sedan fel. Hur mycket får han behålla?</li><li>Lisa fick behålla 20 971 510 kr. Hur många frågor svarade hon rätt på?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(100+200+400+800+1\\,600=3\\,100\\). En tiondel är 310.</p><p><strong>Svar:</strong> 310 kr</p></li><li><p>Efter \\(n\\) rätt är summan \\(\\dfrac{100(2^n-1)}{2-1}\\), och hon behåller \\(10(2^n-1)\\).</p><p>\\(10(2^n-1)=20\\,971\\,510\\iff 2^n=2\\,097\\,152\\iff n=21\\).</p><p><strong>Svar:</strong> 21 frågor</p></li></ol>",
+    "id": "2.621",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      310,
+      21
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en frågesport ger första rätta svaret 100 kr, det andra 200 kr, det tredje 400 kr och så vidare. Vid första felsvaret är tävlingen slut och deltagaren får behålla en tiondel av summan av alla vinster dittills.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bernard svarar rätt på 5 frågor och sedan fel. Hur mycket får han behålla?",
+        "t": "<p>I en frågesport ger första rätta svaret 100 kr, det andra 200 kr, det tredje 400 kr och så vidare. Vid första felsvaret är tävlingen slut och deltagaren får behålla en tiondel av summan av alla vinster dittills.</p><p>Bernard svarar rätt på 5 frågor och sedan fel. Hur mycket får han behålla?</p>",
+        "s": "<p>\\(100+200+400+800+1\\,600=3\\,100\\). En tiondel är 310.</p><p><strong>Svar:</strong> 310 kr</p>",
+        "ledtrad": "<p>Summera vinsterna och ta en tiondel.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Lisa fick behålla 20 971 510 kr. Hur många frågor svarade hon rätt på?",
+        "t": "<p>I en frågesport ger första rätta svaret 100 kr, det andra 200 kr, det tredje 400 kr och så vidare. Vid första felsvaret är tävlingen slut och deltagaren får behålla en tiondel av summan av alla vinster dittills.</p><p>Lisa fick behålla 20 971 510 kr. Hur många frågor svarade hon rätt på?</p>",
+        "s": "<p>Efter \\(n\\) rätt är summan \\(\\dfrac{100(2^n-1)}{2-1}\\), och hon behåller \\(10(2^n-1)\\).</p><p>\\(10(2^n-1)=20\\,971\\,510\\iff 2^n=2\\,097\\,152\\iff n=21\\).</p><p><strong>Svar:</strong> 21 frågor</p>",
+        "ledtrad": "<p>Skriv summan av de \\(n\\) första vinsterna med summaformeln och glöm inte tiondelen.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Vinsterna bildar en geometrisk talföljd med kvoten 2.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "ökande förbrukning som geometrisk summa",
+    "poang": "2/2/0",
+    "t": "<p>En gammal ångbåt förbrukar 5,0 ton kol på första turen över en sjö. På grund av slitage går det åt 2,0 % mer kol för varje ny tur.</p><ol type=\"a\"><li>Hur mycket kol går åt på den tionde turen? Svara med tre decimaler.</li><li>Hur mycket kol går åt sammanlagt på de tio första turerna? Svara med tre decimaler.</li><li>Inför säsongen finns 360 ton kol. Hur många hela turer räcker kolet till?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{10}=5{,}0\\cdot1{,}02^{9}\\approx5{,}975\\).</p><p><strong>Svar:</strong> 5,975 ton</p></li><li><p>\\(S_{10}=\\dfrac{5{,}0(1{,}02^{10}-1)}{1{,}02-1}\\approx54{,}749\\).</p><p><strong>Svar:</strong> 54,749 ton</p></li><li><p>\\(\\dfrac{5{,}0(1{,}02^{n}-1)}{0{,}02}\\le360\\iff 1{,}02^n\\le2{,}44\\iff n\\le\\dfrac{\\lg2{,}44}{\\lg1{,}02}\\approx45{,}04\\).</p><p><strong>Svar:</strong> 45 turer</p></li></ol>",
+    "id": "2.623",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.975,
+      54.749,
+      45
+    ],
+    "tolerans": [
+      0.0006,
+      0.0006,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "ton",
+      "ton",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En gammal ångbåt förbrukar 5,0 ton kol på första turen över en sjö. På grund av slitage går det åt 2,0 % mer kol för varje ny tur.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket kol går åt på den tionde turen? Svara med tre decimaler.",
+        "t": "<p>En gammal ångbåt förbrukar 5,0 ton kol på första turen över en sjö. På grund av slitage går det åt 2,0 % mer kol för varje ny tur.</p><p>Hur mycket kol går åt på den tionde turen? Svara med tre decimaler.</p>",
+        "s": "<p>\\(a_{10}=5{,}0\\cdot1{,}02^{9}\\approx5{,}975\\).</p><p><strong>Svar:</strong> 5,975 ton</p>",
+        "ledtrad": "<p>Hur många ökningar på 2 % har skett till tur 10?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket kol går åt sammanlagt på de tio första turerna? Svara med tre decimaler.",
+        "t": "<p>En gammal ångbåt förbrukar 5,0 ton kol på första turen över en sjö. På grund av slitage går det åt 2,0 % mer kol för varje ny tur.</p><p>Hur mycket kol går åt sammanlagt på de tio första turerna? Svara med tre decimaler.</p>",
+        "s": "<p>\\(S_{10}=\\dfrac{5{,}0(1{,}02^{10}-1)}{1{,}02-1}\\approx54{,}749\\).</p><p><strong>Svar:</strong> 54,749 ton</p>",
+        "ledtrad": "<p>Använd summaformeln för en geometrisk talföljd.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Inför säsongen finns 360 ton kol. Hur många hela turer räcker kolet till?",
+        "t": "<p>En gammal ångbåt förbrukar 5,0 ton kol på första turen över en sjö. På grund av slitage går det åt 2,0 % mer kol för varje ny tur.</p><p>Inför säsongen finns 360 ton kol. Hur många hela turer räcker kolet till?</p>",
+        "s": "<p>\\(\\dfrac{5{,}0(1{,}02^{n}-1)}{0{,}02}\\le360\\iff 1{,}02^n\\le2{,}44\\iff n\\le\\dfrac{\\lg2{,}44}{\\lg1{,}02}\\approx45{,}04\\).</p><p><strong>Svar:</strong> 45 turer</p>",
+        "ledtrad": "<p>Sätt summan av de \\(n\\) första turerna lika med 360 och lös med logaritmer.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Kolförbrukningen per tur bildar en geometrisk talföljd med kvoten 1,02.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "kortare tider som geometrisk talföljd",
+    "poang": "2/3/0",
+    "t": "<p>Max övar på gamla högskoleprov. Första provet tar honom 200 minuter och det andra 195 minuter. Anta att tiderna bildar en geometrisk talföljd.</p><ol type=\"a\"><li>Hur lång tid tar det sjätte provet? Avrunda till hela minuter.</li><li>Hur lång tid tar de tolv första proven sammanlagt? Avrunda till hela minuter.</li><li>Vilket prov är det första som Max klarar på under 2 timmar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Kvoten är \\(k=\\dfrac{195}{200}=0{,}975\\).</p><p>\\(a_6=200\\cdot0{,}975^5\\approx176\\).</p><p><strong>Svar:</strong> 176 minuter</p></li><li><p>\\(k=0{,}975\\) och \\(S_{12}=\\dfrac{200(1-0{,}975^{12})}{1-0{,}975}\\approx2\\,096\\) minuter, knappt 35 timmar.</p><p><strong>Svar:</strong> 2 096 minuter</p></li><li><p>\\(200\\cdot0{,}975^{n-1}\\lt120\\iff0{,}975^{n-1}\\lt0{,}6\\iff n-1\\gt\\dfrac{\\lg0{,}6}{\\lg0{,}975}\\approx20{,}2\\).</p><p>Alltså \\(n-1=21\\) och \\(n=22\\).</p><p><strong>Svar:</strong> prov 22</p></li></ol>",
+    "id": "2.624",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      176,
+      2096,
+      22
+    ],
+    "tolerans": [
+      0.6,
+      1,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "min",
+      "min",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Max övar på gamla högskoleprov. Första provet tar honom 200 minuter och det andra 195 minuter. Anta att tiderna bildar en geometrisk talföljd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det sjätte provet? Avrunda till hela minuter.",
+        "t": "<p>Max övar på gamla högskoleprov. Första provet tar honom 200 minuter och det andra 195 minuter. Anta att tiderna bildar en geometrisk talföljd.</p><p>Hur lång tid tar det sjätte provet? Avrunda till hela minuter.</p>",
+        "s": "<p>Kvoten är \\(k=\\dfrac{195}{200}=0{,}975\\).</p><p>\\(a_6=200\\cdot0{,}975^5\\approx176\\).</p><p><strong>Svar:</strong> 176 minuter</p>",
+        "ledtrad": "<p>Bestäm kvoten ur de två första tiderna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar de tolv första proven sammanlagt? Avrunda till hela minuter.",
+        "t": "<p>Max övar på gamla högskoleprov. Första provet tar honom 200 minuter och det andra 195 minuter. Anta att tiderna bildar en geometrisk talföljd.</p><p>Hur lång tid tar de tolv första proven sammanlagt? Avrunda till hela minuter.</p>",
+        "s": "<p>\\(k=0{,}975\\) och \\(S_{12}=\\dfrac{200(1-0{,}975^{12})}{1-0{,}975}\\approx2\\,096\\) minuter, knappt 35 timmar.</p><p><strong>Svar:</strong> 2 096 minuter</p>",
+        "ledtrad": "<p>Bestäm kvoten och använd summaformeln.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilket prov är det första som Max klarar på under 2 timmar?",
+        "t": "<p>Max övar på gamla högskoleprov. Första provet tar honom 200 minuter och det andra 195 minuter. Anta att tiderna bildar en geometrisk talföljd.</p><p>Vilket prov är det första som Max klarar på under 2 timmar?</p>",
+        "s": "<p>\\(200\\cdot0{,}975^{n-1}\\lt120\\iff0{,}975^{n-1}\\lt0{,}6\\iff n-1\\gt\\dfrac{\\lg0{,}6}{\\lg0{,}975}\\approx20{,}2\\).</p><p>Alltså \\(n-1=21\\) och \\(n=22\\).</p><p><strong>Svar:</strong> prov 22</p>",
+        "ledtrad": "<p>2 timmar är 120 minuter. Ställ upp en olikhet och lös den med logaritmer. Tänk på att olikheten byter riktning när du delar med ett negativt tal.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Tiderna bildar en geometrisk talföljd.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "kvot ur summa av tre termer",
+    "poang": "0/2/0",
+    "t": "<p>I ett lopp med 33 500 deltagare delas deltagarna in i tre startgrupper. Antalen i grupperna bildar en geometrisk talföljd. Den minsta gruppen, eliten, har 2 000 deltagare.</p><p>Hur många deltagare har den största gruppen?</p>",
+    "s": "<p>Grupperna har \\(2\\,000\\), \\(2\\,000k\\) och \\(2\\,000k^2\\) deltagare.</p><p>\\(2\\,000(1+k+k^2)=33\\,500\\iff k^2+k-15{,}75=0\\iff k=-\\tfrac12\\pm\\sqrt{\\tfrac14+15{,}75}=-\\tfrac12\\pm4\\).</p><p>Den positiva kvoten är \\(k=3{,}5\\), så största gruppen har \\(2\\,000\\cdot3{,}5^2=24\\,500\\) deltagare.</p><p><strong>Svar:</strong> 24 500 deltagare</p>",
+    "id": "2.625",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24500,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv de tre grupperna med kvoten \\(k\\) och ställ upp en andragradsekvation.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "avdunstning och upprepad påfyllning",
+    "poang": "1/2/0",
+    "t": "<p>En behållare innehåller 250 liter av en vätska. Under varje månad avdunstar 10 % av den volym som fanns i början av månaden.</p><ol type=\"a\"><li>Hur mycket vätska finns i behållaren i slutet av den tolfte månaden? Svara med en decimal.</li><li>I början av varje månad, under tolv månader, fylls en ny behållare med 250 liter av vätskan. Hur mycket vätska finns i de tolv behållarna tillsammans i slutet av den tolfte månaden? Avrunda till hela liter.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Efter varje månad återstår 90 %: \\(250\\cdot0{,}9^{12}\\approx70{,}6\\).</p><p><strong>Svar:</strong> 70,6 liter</p></li><li><p>Behållaren som fylldes i månad 12 har \\(250\\cdot0{,}9\\) liter kvar, den från månad 11 har \\(250\\cdot0{,}9^2\\) och så vidare till den första som har \\(250\\cdot0{,}9^{12}\\).</p><p>\\[S=\\frac{250\\cdot0{,}9(1-0{,}9^{12})}{1-0{,}9}\\approx1\\,615.\\]</p><p><strong>Svar:</strong> 1 615 liter</p></li></ol>",
+    "id": "2.627",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      70.6,
+      1615
+    ],
+    "tolerans": [
+      0.06,
+      1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "liter",
+      "liter"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En behållare innehåller 250 liter av en vätska. Under varje månad avdunstar 10 % av den volym som fanns i början av månaden.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket vätska finns i behållaren i slutet av den tolfte månaden? Svara med en decimal.",
+        "t": "<p>En behållare innehåller 250 liter av en vätska. Under varje månad avdunstar 10 % av den volym som fanns i början av månaden.</p><p>Hur mycket vätska finns i behållaren i slutet av den tolfte månaden? Svara med en decimal.</p>",
+        "s": "<p>Efter varje månad återstår 90 %: \\(250\\cdot0{,}9^{12}\\approx70{,}6\\).</p><p><strong>Svar:</strong> 70,6 liter</p>",
+        "ledtrad": "<p>Vilken förändringsfaktor gäller per månad, och hur många månader har gått?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "I början av varje månad, under tolv månader, fylls en ny behållare med 250 liter av vätskan. Hur mycket vätska finns i de tolv behållarna tillsammans i slutet av den tolfte månaden? Avrunda till hela liter.",
+        "t": "<p>En behållare innehåller 250 liter av en vätska. Under varje månad avdunstar 10 % av den volym som fanns i början av månaden.</p><p>I början av varje månad, under tolv månader, fylls en ny behållare med 250 liter av vätskan. Hur mycket vätska finns i de tolv behållarna tillsammans i slutet av den tolfte månaden? Avrunda till hela liter.</p>",
+        "s": "<p>Behållaren som fylldes i månad 12 har \\(250\\cdot0{,}9\\) liter kvar, den från månad 11 har \\(250\\cdot0{,}9^2\\) och så vidare till den första som har \\(250\\cdot0{,}9^{12}\\).</p><p>\\[S=\\frac{250\\cdot0{,}9(1-0{,}9^{12})}{1-0{,}9}\\approx1\\,615.\\]</p><p><strong>Svar:</strong> 1 615 liter</p>",
+        "ledtrad": "<p>Hur mycket finns kvar i den behållare som fylldes sist? Och i den som fylldes först?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Volymen minskar med faktorn 0,9 per månad.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
     "omr": "aritm_geom_talfoljder",
     "niva": "C",
     "typ": "bestäm antal termer från geometrisk tillväxt",
@@ -13771,6 +15647,288 @@ window.BANKMATF1 = [
     "rättSvar": 820,
     "tolerans": null,
     "typ": "aritmetisk summa ur två termer"
+  },
+  {
+    "kap": 2,
+    "omr": "aritm_geom_talfoljder",
+    "niva": "E",
+    "typ": "sidlängder som aritmetisk talföljd",
+    "poang": "2/1/0",
+    "t": "<p>En niohörning har sidor vars längder bildar en aritmetisk talföljd. Den längsta sidan är 6,0 cm och omkretsen är 45 cm.</p><ol type=\"a\"><li>Hur lång är den kortaste sidan?</li><li>Bestäm differensen \\(d\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Omkretsen är summan av de nio sidorna: \\(\\dfrac{9(a_1+6{,}0)}{2}=45\\iff a_1+6{,}0=10\\iff a_1=4{,}0\\).</p><p><strong>Svar:</strong> 4,0 cm</p></li><li><p>Kortaste sidan: \\(\\dfrac{9(a_1+6{,}0)}{2}=45\\Rightarrow a_1=4{,}0\\) cm.</p><p>\\(a_9=a_1+8d\\Rightarrow 6{,}0=4{,}0+8d\\Rightarrow d=0{,}25\\).</p><p><strong>Svar:</strong> 0,25 cm</p></li></ol>",
+    "id": "2.600",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      0.25
+    ],
+    "tolerans": [
+      0.01,
+      0.001
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En niohörning har sidor vars längder bildar en aritmetisk talföljd. Den längsta sidan är 6,0 cm och omkretsen är 45 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång är den kortaste sidan?",
+        "t": "<p>En niohörning har sidor vars längder bildar en aritmetisk talföljd. Den längsta sidan är 6,0 cm och omkretsen är 45 cm.</p><p>Hur lång är den kortaste sidan?</p>",
+        "s": "<p>Omkretsen är summan av de nio sidorna: \\(\\dfrac{9(a_1+6{,}0)}{2}=45\\iff a_1+6{,}0=10\\iff a_1=4{,}0\\).</p><p><strong>Svar:</strong> 4,0 cm</p>",
+        "ledtrad": "<p>Omkretsen är summan av alla sidor. Summaformeln innehåller kortaste och längsta sidan.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm differensen \\(d\\).",
+        "t": "<p>En niohörning har sidor vars längder bildar en aritmetisk talföljd. Den längsta sidan är 6,0 cm och omkretsen är 45 cm.</p><p>Bestäm differensen \\(d\\).</p>",
+        "s": "<p>Kortaste sidan: \\(\\dfrac{9(a_1+6{,}0)}{2}=45\\Rightarrow a_1=4{,}0\\) cm.</p><p>\\(a_9=a_1+8d\\Rightarrow 6{,}0=4{,}0+8d\\Rightarrow d=0{,}25\\).</p><p><strong>Svar:</strong> 0,25 cm</p>",
+        "ledtrad": "<p>Bestäm först den kortaste sidan med hjälp av omkretsen.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Omkretsen är en aritmetisk summa.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "aritm_geom_talfoljder",
+    "niva": "C",
+    "typ": "sidlängder med villkor",
+    "poang": "0/3/0",
+    "t": "<p>En tiohörning har sidor vars längder bildar en aritmetisk talföljd. Den längsta sidan är dubbelt så lång som den kortaste, och omkretsen är 405 cm.</p><ol type=\"a\"><li>Hur lång är den kortaste sidan?</li><li>Bestäm differensen \\(d\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Kalla kortaste sidan \\(a\\). Då är längsta \\(2a\\) och \\(\\dfrac{10(a+2a)}{2}=15a=405\\), så \\(a=27\\).</p><p><strong>Svar:</strong> 27 cm</p></li><li><p>Kortaste sidan \\(a\\): \\(\\dfrac{10(a+2a)}{2}=405\\Rightarrow a=27\\). Längsta sidan är 54 cm.</p><p>\\(54=27+9d\\Rightarrow d=3\\).</p><p><strong>Svar:</strong> 3 cm</p></li></ol>",
+    "id": "2.603",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      27,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En tiohörning har sidor vars längder bildar en aritmetisk talföljd. Den längsta sidan är dubbelt så lång som den kortaste, och omkretsen är 405 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång är den kortaste sidan?",
+        "t": "<p>En tiohörning har sidor vars längder bildar en aritmetisk talföljd. Den längsta sidan är dubbelt så lång som den kortaste, och omkretsen är 405 cm.</p><p>Hur lång är den kortaste sidan?</p>",
+        "s": "<p>Kalla kortaste sidan \\(a\\). Då är längsta \\(2a\\) och \\(\\dfrac{10(a+2a)}{2}=15a=405\\), så \\(a=27\\).</p><p><strong>Svar:</strong> 27 cm</p>",
+        "ledtrad": "<p>Kalla kortaste sidan \\(a\\). Uttryck omkretsen med summaformeln.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm differensen \\(d\\).",
+        "t": "<p>En tiohörning har sidor vars längder bildar en aritmetisk talföljd. Den längsta sidan är dubbelt så lång som den kortaste, och omkretsen är 405 cm.</p><p>Bestäm differensen \\(d\\).</p>",
+        "s": "<p>Kortaste sidan \\(a\\): \\(\\dfrac{10(a+2a)}{2}=405\\Rightarrow a=27\\). Längsta sidan är 54 cm.</p><p>\\(54=27+9d\\Rightarrow d=3\\).</p><p><strong>Svar:</strong> 3 cm</p>",
+        "ledtrad": "<p>Bestäm först kortaste och längsta sidan. Mellan dem finns nio steg.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Omkretsen är en aritmetisk summa där längsta sidan är \\(2a\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "aritm_geom_talfoljder",
+    "niva": "C",
+    "typ": "antal termer ur summa och ändtermer",
+    "poang": "0/2/0",
+    "t": "<p>En hel cirkulär skiva skärs i \\(n\\) cirkelsektorer. Sektorernas medelpunktsvinklar bildar en aritmetisk talföljd. Den minsta vinkeln är 7,25° och den största 32,75°.</p><p>Bestäm \\(n\\).</p>",
+    "s": "<p>Vinklarna fyller hela varvet: \\(S_n=360°\\).</p><p>\\(\\dfrac{n(7{,}25+32{,}75)}{2}=20n=360\\iff n=18\\).</p><p><strong>Svar:</strong> \\(n=18\\)</p>",
+    "id": "2.613",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vad är summan av alla medelpunktsvinklar i en hel cirkel?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "aritm_geom_talfoljder",
+    "niva": "C",
+    "typ": "mellanliggande term i geometrisk talföljd",
+    "poang": "1/1/0",
+    "t": "<p>Den högsta hastigheten på varje växel i en femväxlad bil bildar en geometrisk talföljd. På första växeln är den 32 km/h och på femte växeln 162 km/h.</p><p>Vilken är den högsta hastigheten på tredje växeln?</p>",
+    "s": "<p>\\(a_5=a_1k^4\\Rightarrow k^4=\\dfrac{162}{32}=5{,}0625\\Rightarrow k=1{,}5\\).</p><p>\\(a_3=32\\cdot1{,}5^2=72\\).</p><p>Man kan också se att tredje växeln ligger mitt emellan: \\(a_3=\\sqrt{a_1a_5}=\\sqrt{32\\cdot162}=72\\).</p><p><strong>Svar:</strong> 72 km/h</p>",
+    "id": "2.618",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 72,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Mellan första och femte växeln sker fyra multiplikationer med kvoten.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "km/h"
+  },
+  {
+    "kap": 2,
+    "omr": "aritm_geom_talfoljder",
+    "niva": "C",
+    "typ": "dela upp summa i geometrisk talföljd",
+    "poang": "0/2/0",
+    "t": "<p>Fyra syskon delar på en vinst på 18 000 kr så att andelarna bildar en geometrisk talföljd. Den största andelen är 8 gånger så stor som den minsta.</p><p>Hur stor är den minsta andelen?</p>",
+    "s": "<p>Andelarna är \\(a,\\ ak,\\ ak^2,\\ ak^3\\) med \\(ak^3=8a\\), alltså \\(k=2\\).</p><p>\\(a(1+2+4+8)=15a=18\\,000\\iff a=1\\,200\\).</p><p>Andelarna blir 1 200, 2 400, 4 800 och 9 600 kr.</p><p><strong>Svar:</strong> 1 200 kr</p>",
+    "id": "2.622",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1200,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många gånger multipliceras den minsta andelen med kvoten för att ge den största?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kr"
+  },
+  {
+    "kap": 2,
+    "omr": "aritm_geom_talfoljder",
+    "niva": "A",
+    "typ": "geometriskt mönster av cirklar",
+    "poang": "1/3/1",
+    "t": "<span class=\"fig\"><svg width=\"512\" height=\"304\" viewBox=\"0 0 512 304\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Fem cirklar i rad som tangerar varandra, från radie 3 till radie 48. Mittpunkterna ligger på en rät linje. Hela mönstrets bredd är L.\"><defs><marker id=\"pl\" markerWidth=\"8\" markerHeight=\"8\" refX=\"1\" refY=\"4\" orient=\"auto\"><path d=\"M8,0 L0,4 L8,8\" fill=\"none\" stroke=\"currentColor\"/></marker><marker id=\"pr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8\" fill=\"none\" stroke=\"currentColor\"/></marker></defs><circle cx=\"21.8\" cy=\"137\" r=\"7.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"45.2\" cy=\"137\" r=\"15.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"92.0\" cy=\"137\" r=\"31.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"185.6\" cy=\"137\" r=\"62.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"372.8\" cy=\"137\" r=\"124.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"14\" y1=\"137\" x2=\"497.6\" y2=\"137\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"14\" y1=\"277.8\" x2=\"497.6\" y2=\"277.8\" stroke=\"currentColor\" stroke-width=\"1.2\" marker-start=\"url(#pl)\" marker-end=\"url(#pr)\"/><text x=\"255.8\" y=\"293.8\" text-anchor=\"middle\" font-size=\"14\" font-style=\"italic\" fill=\"currentColor\">L</text><text x=\"21.8\" y=\"121.2\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">r = 3</text><line x1=\"372.8\" y1=\"137\" x2=\"372.8\" y2=\"12.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"378.8\" y=\"74.6\" font-size=\"12\" fill=\"currentColor\">r = 48</text></svg></span><p>Figuren visar fem cirklar som tangerar varandra. Mittpunkterna ligger på en rät linje. Radierna bildar en geometrisk talföljd där den minsta cirkeln har radien 3 l.e. och den största 48 l.e.</p><ol type=\"a\"><li>Bestäm kvoten \\(k\\).</li><li>Mönstret byggs ut med fem cirklar till på den största cirkelns sida, så att radierna fortsätter enligt samma talföljd. Hur stor blir mönstrets bredd \\(L\\) då?</li><li>Mönstret byggs ut med fem cirklar till på den största cirkelns sida, så att radierna fortsätter enligt samma talföljd. Bestäm den sammanlagda arean av alla tio cirklarna. Svara exakt.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(48=3k^4\\iff k^4=16\\iff k=2\\).</p><p><strong>Svar:</strong> \\(k=2\\)</p></li><li><p>Radierna är \\(3\\cdot2^{n-1}\\) för \\(n=1,\\dots,10\\). Bredden är summan av alla diametrar:</p><p>\\[L=2\\cdot\\frac{3(2^{10}-1)}{2-1}=6\\cdot1\\,023=6\\,138.\\]</p><p><strong>Svar:</strong> 6 138 l.e.</p></li><li><p>Areorna är \\(\\pi(3\\cdot2^{n-1})^2=9\\pi\\cdot4^{n-1}\\), en geometrisk talföljd med kvoten 4.</p><p>\\[A=\\frac{9\\pi(4^{10}-1)}{4-1}=3\\pi\\cdot1\\,048\\,575=3\\,145\\,725\\pi.\\]</p><p><strong>Svar:</strong> \\(3\\,145\\,725\\pi\\) a.e.</p></li></ol>",
+    "id": "2.626",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      6138,
+      "3145725*pi"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<span class=\"fig\"><svg width=\"512\" height=\"304\" viewBox=\"0 0 512 304\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Fem cirklar i rad som tangerar varandra, från radie 3 till radie 48. Mittpunkterna ligger på en rät linje. Hela mönstrets bredd är L.\"><defs><marker id=\"pl\" markerWidth=\"8\" markerHeight=\"8\" refX=\"1\" refY=\"4\" orient=\"auto\"><path d=\"M8,0 L0,4 L8,8\" fill=\"none\" stroke=\"currentColor\"/></marker><marker id=\"pr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8\" fill=\"none\" stroke=\"currentColor\"/></marker></defs><circle cx=\"21.8\" cy=\"137\" r=\"7.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"45.2\" cy=\"137\" r=\"15.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"92.0\" cy=\"137\" r=\"31.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"185.6\" cy=\"137\" r=\"62.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"372.8\" cy=\"137\" r=\"124.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"14\" y1=\"137\" x2=\"497.6\" y2=\"137\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"14\" y1=\"277.8\" x2=\"497.6\" y2=\"277.8\" stroke=\"currentColor\" stroke-width=\"1.2\" marker-start=\"url(#pl)\" marker-end=\"url(#pr)\"/><text x=\"255.8\" y=\"293.8\" text-anchor=\"middle\" font-size=\"14\" font-style=\"italic\" fill=\"currentColor\">L</text><text x=\"21.8\" y=\"121.2\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">r = 3</text><line x1=\"372.8\" y1=\"137\" x2=\"372.8\" y2=\"12.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"378.8\" y=\"74.6\" font-size=\"12\" fill=\"currentColor\">r = 48</text></svg></span><p>Figuren visar fem cirklar som tangerar varandra. Mittpunkterna ligger på en rät linje. Radierna bildar en geometrisk talföljd där den minsta cirkeln har radien 3 l.e. och den största 48 l.e.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm kvoten \\(k\\).",
+        "t": "<span class=\"fig\"><svg width=\"512\" height=\"304\" viewBox=\"0 0 512 304\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Fem cirklar i rad som tangerar varandra, från radie 3 till radie 48. Mittpunkterna ligger på en rät linje. Hela mönstrets bredd är L.\"><defs><marker id=\"pl\" markerWidth=\"8\" markerHeight=\"8\" refX=\"1\" refY=\"4\" orient=\"auto\"><path d=\"M8,0 L0,4 L8,8\" fill=\"none\" stroke=\"currentColor\"/></marker><marker id=\"pr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8\" fill=\"none\" stroke=\"currentColor\"/></marker></defs><circle cx=\"21.8\" cy=\"137\" r=\"7.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"45.2\" cy=\"137\" r=\"15.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"92.0\" cy=\"137\" r=\"31.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"185.6\" cy=\"137\" r=\"62.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"372.8\" cy=\"137\" r=\"124.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"14\" y1=\"137\" x2=\"497.6\" y2=\"137\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"14\" y1=\"277.8\" x2=\"497.6\" y2=\"277.8\" stroke=\"currentColor\" stroke-width=\"1.2\" marker-start=\"url(#pl)\" marker-end=\"url(#pr)\"/><text x=\"255.8\" y=\"293.8\" text-anchor=\"middle\" font-size=\"14\" font-style=\"italic\" fill=\"currentColor\">L</text><text x=\"21.8\" y=\"121.2\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">r = 3</text><line x1=\"372.8\" y1=\"137\" x2=\"372.8\" y2=\"12.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"378.8\" y=\"74.6\" font-size=\"12\" fill=\"currentColor\">r = 48</text></svg></span><p>Figuren visar fem cirklar som tangerar varandra. Mittpunkterna ligger på en rät linje. Radierna bildar en geometrisk talföljd där den minsta cirkeln har radien 3 l.e. och den största 48 l.e.</p><p>Bestäm kvoten \\(k\\).</p>",
+        "s": "<p>\\(48=3k^4\\iff k^4=16\\iff k=2\\).</p><p><strong>Svar:</strong> \\(k=2\\)</p>",
+        "ledtrad": "<p>Hur många multiplikationer med \\(k\\) leder från minsta till största radien?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Mönstret byggs ut med fem cirklar till på den största cirkelns sida, så att radierna fortsätter enligt samma talföljd. Hur stor blir mönstrets bredd \\(L\\) då?",
+        "t": "<span class=\"fig\"><svg width=\"512\" height=\"304\" viewBox=\"0 0 512 304\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Fem cirklar i rad som tangerar varandra, från radie 3 till radie 48. Mittpunkterna ligger på en rät linje. Hela mönstrets bredd är L.\"><defs><marker id=\"pl\" markerWidth=\"8\" markerHeight=\"8\" refX=\"1\" refY=\"4\" orient=\"auto\"><path d=\"M8,0 L0,4 L8,8\" fill=\"none\" stroke=\"currentColor\"/></marker><marker id=\"pr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8\" fill=\"none\" stroke=\"currentColor\"/></marker></defs><circle cx=\"21.8\" cy=\"137\" r=\"7.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"45.2\" cy=\"137\" r=\"15.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"92.0\" cy=\"137\" r=\"31.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"185.6\" cy=\"137\" r=\"62.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"372.8\" cy=\"137\" r=\"124.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"14\" y1=\"137\" x2=\"497.6\" y2=\"137\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"14\" y1=\"277.8\" x2=\"497.6\" y2=\"277.8\" stroke=\"currentColor\" stroke-width=\"1.2\" marker-start=\"url(#pl)\" marker-end=\"url(#pr)\"/><text x=\"255.8\" y=\"293.8\" text-anchor=\"middle\" font-size=\"14\" font-style=\"italic\" fill=\"currentColor\">L</text><text x=\"21.8\" y=\"121.2\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">r = 3</text><line x1=\"372.8\" y1=\"137\" x2=\"372.8\" y2=\"12.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"378.8\" y=\"74.6\" font-size=\"12\" fill=\"currentColor\">r = 48</text></svg></span><p>Figuren visar fem cirklar som tangerar varandra. Mittpunkterna ligger på en rät linje. Radierna bildar en geometrisk talföljd där den minsta cirkeln har radien 3 l.e. och den största 48 l.e.</p><p>Mönstret byggs ut med fem cirklar till på den största cirkelns sida, så att radierna fortsätter enligt samma talföljd. Hur stor blir mönstrets bredd \\(L\\) då?</p>",
+        "s": "<p>Radierna är \\(3\\cdot2^{n-1}\\) för \\(n=1,\\dots,10\\). Bredden är summan av alla diametrar:</p><p>\\[L=2\\cdot\\frac{3(2^{10}-1)}{2-1}=6\\cdot1\\,023=6\\,138.\\]</p><p><strong>Svar:</strong> 6 138 l.e.</p>",
+        "ledtrad": "<p>Bredden är summan av alla diametrar. Diametrarna bildar också en geometrisk talföljd.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Mönstret byggs ut med fem cirklar till på den största cirkelns sida, så att radierna fortsätter enligt samma talföljd. Bestäm den sammanlagda arean av alla tio cirklarna. Svara exakt.",
+        "t": "<span class=\"fig\"><svg width=\"512\" height=\"304\" viewBox=\"0 0 512 304\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Fem cirklar i rad som tangerar varandra, från radie 3 till radie 48. Mittpunkterna ligger på en rät linje. Hela mönstrets bredd är L.\"><defs><marker id=\"pl\" markerWidth=\"8\" markerHeight=\"8\" refX=\"1\" refY=\"4\" orient=\"auto\"><path d=\"M8,0 L0,4 L8,8\" fill=\"none\" stroke=\"currentColor\"/></marker><marker id=\"pr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8\" fill=\"none\" stroke=\"currentColor\"/></marker></defs><circle cx=\"21.8\" cy=\"137\" r=\"7.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"45.2\" cy=\"137\" r=\"15.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"92.0\" cy=\"137\" r=\"31.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"185.6\" cy=\"137\" r=\"62.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"372.8\" cy=\"137\" r=\"124.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"14\" y1=\"137\" x2=\"497.6\" y2=\"137\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"14\" y1=\"277.8\" x2=\"497.6\" y2=\"277.8\" stroke=\"currentColor\" stroke-width=\"1.2\" marker-start=\"url(#pl)\" marker-end=\"url(#pr)\"/><text x=\"255.8\" y=\"293.8\" text-anchor=\"middle\" font-size=\"14\" font-style=\"italic\" fill=\"currentColor\">L</text><text x=\"21.8\" y=\"121.2\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">r = 3</text><line x1=\"372.8\" y1=\"137\" x2=\"372.8\" y2=\"12.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"378.8\" y=\"74.6\" font-size=\"12\" fill=\"currentColor\">r = 48</text></svg></span><p>Figuren visar fem cirklar som tangerar varandra. Mittpunkterna ligger på en rät linje. Radierna bildar en geometrisk talföljd där den minsta cirkeln har radien 3 l.e. och den största 48 l.e.</p><p>Mönstret byggs ut med fem cirklar till på den största cirkelns sida, så att radierna fortsätter enligt samma talföljd. Bestäm den sammanlagda arean av alla tio cirklarna. Svara exakt.</p>",
+        "s": "<p>Areorna är \\(\\pi(3\\cdot2^{n-1})^2=9\\pi\\cdot4^{n-1}\\), en geometrisk talföljd med kvoten 4.</p><p>\\[A=\\frac{9\\pi(4^{10}-1)}{4-1}=3\\pi\\cdot1\\,048\\,575=3\\,145\\,725\\pi.\\]</p><p><strong>Svar:</strong> \\(3\\,145\\,725\\pi\\) a.e.</p>",
+        "ledtrad": "<p>Vilken kvot får areorna när radierna fördubblas?</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Radierna bildar en geometrisk talföljd.</p>",
+    "traningsniva": 4
   },
   {
     "kap": 2,

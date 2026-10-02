@@ -2845,6 +2845,13 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 }
 .cheer-medal .marke{width:38px;max-width:none;stroke-width:1.7}
 .cheer-card.flera{width:min(600px,100%);padding-top:30px}
+.cheer-card.tranare{box-shadow:var(--e2),0 0 90px -34px var(--acc)}
+.cheer-card.tranare .cheer-label{color:var(--accInk)}
+.cheer-card.tranare .cheer-halo:before,.cheer-card.tranare .cheer-halo:after{border-color:var(--acc)}
+.cheer-tranare .pt-avatar{width:88px;height:88px}
+.cheer-tranare .pt-avatar svg{width:46px;height:46px}
+.cheer.show .cheer-tranare{animation:tranarHopp .6s var(--ease) .1s both}
+@keyframes tranarHopp{0%{transform:translateY(18px) scale(.7);opacity:0}70%{transform:translateY(-4px) scale(1.04);opacity:1}100%{transform:none}}
 .cheer-flera{display:flex;flex-wrap:wrap;justify-content:center;gap:18px 14px;margin:20px 0 4px;
   max-height:min(52vh,460px);overflow-y:auto;padding:6px 2px}
 .cf-medalj{flex:0 1 118px;display:grid;justify-items:center;gap:6px;text-align:center;opacity:0;transform:translateY(10px) scale(.9)}
@@ -4691,12 +4698,13 @@ function pumpCheer(){
   const c=cheerQueue[0];
   if(!c) return;
   const topp = c.typ==="dag" ? dagsRing(c.icon)
+    : c.typ==="tranare" ? `<div class="cheer-halo"><div class="cheer-tranare">${tranarAvatar(false).replace('class="pt-avatar"','class="pt-avatar pratar"')}</div></div>`
     : c.typ==="flera" ? `<div class="cheer-flera">${c.items.map((m,i)=>`<div class="cf-medalj" style="animation-delay:${(.12+i*.1).toFixed(2)}s">
           <div class="cheer-medal">${m.icon}</div><b>${esc(m.namn)}</b>${m.desc?`<small>${esc(m.desc)}</small>`:""}</div>`).join("")}</div>`
     : `<div class="cheer-halo"><div class="cheer-medal">${c.icon}</div></div>`;
   const rubrik=`<div class="cheer-label">${esc(c.label)}</div>
       <h2>${esc(c.title)}</h2>`;
-  el.innerHTML=`<div class="cheer-card${c.typ==="dag"?" dag":""}${c.typ==="flera"?" flera":""}">
+  el.innerHTML=`<div class="cheer-card${c.typ==="dag"?" dag":""}${c.typ==="flera"?" flera":""}${c.typ==="tranare"?" tranare":""}">
       ${c.typ==="flera" ? rubrik+topp : topp+rubrik}
       ${c.desc?`<p>${esc(c.desc)}</p>`:""}
       <button class="btn primary" onclick="dismissCheer()">Fortsätt</button>
@@ -7454,7 +7462,10 @@ function uppdragSvar(t,correct,lagat){
     setTimeout(()=>cheer(medaljIkon("ljusstrale"),"Tränaren","Dagens uppdrag klara",
       UPPDRAG_XP_PA?`Alla uppdrag i ${COURSES[state.course]?.name||"kursen"} avklarade. +${UPPDRAG_DAG_XP} XP i bonus.`:"Alla uppdrag avklarade."),1700);
   }else if(nyss.length){
-    setTimeout(()=>toast("Uppdrag klart: "+nyss.map(x=>x.text).join(", ")+(UPPDRAG_XP_PA?` +${nyss.reduce((s,x)=>s+uppdragXp(x),0)} XP`:"")),900);
+    /* Tränaren kommer fram och berättar, som vid en ny nivå. */
+    const xpNu=UPPDRAG_XP_PA ? nyss.reduce((s,x)=>s+uppdragXp(x),0) : 0;
+    setTimeout(()=>cheer("","Tränaren",nyss.length===1?"Uppdrag klart!":`${nyss.length} uppdrag klara!`,
+      nyss.map(x=>x.text).join(" · ")+(xpNu?` · +${xpNu} XP`:""),"tranare"),900);
   }
 }
 function uppdragHTML(liten){

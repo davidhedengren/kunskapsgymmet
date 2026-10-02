@@ -10186,6 +10186,38 @@ window.BANKMATF1 = [
     "typ": "omvandla till bas 8"
   },
   {
+    "id": "2.590",
+    "kap": 2,
+    "omr": "talbaser",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Hur många siffror har talet \\(2^{100}\\) skrivet i basen 10, och hur många har det skrivet i basen 8?</p>",
+    "s": "<p>Basen 10: ett positivt heltal \\(N\\) har \\(\\lfloor\\lg N\\rfloor+1\\) siffror. \\(\\lg2^{100}=100\\lg2\\approx30{,}1\\), så det blir 31 siffror.</p><p>Basen 8: \\(2^{100}=2\\cdot2^{99}=2\\cdot8^{33}\\). I basen 8 skrivs det som en 2:a följd av 33 nollor, alltså 34 siffror.</p><p><strong>Svar:</strong> 31 siffror i basen 10 och 34 siffror i basen 8</p>",
+    "familj": "Talbaser och basomvandling",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många siffror har \\(10^k\\)? Skriv \\(2^{100}\\) med en potens av 8.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      31,
+      34
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Bas 10",
+      "Bas 8"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "antal siffror i olika baser"
+  },
+  {
     "kap": 2,
     "omr": "kongruens",
     "niva": "C",
@@ -12375,6 +12407,42 @@ window.BANKMATF1 = [
     "typ": "teleskopsumma"
   },
   {
+    "id": "2.589",
+    "kap": 2,
+    "omr": "inledning_talfoljder",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En talföljd ges rekursivt av \\(a_1=2\\) och \\(a_{n+1}=2a_n-1\\).</p><p>Bestäm \\(a_{10}\\) och en sluten formel för \\(a_n\\).</p>",
+    "s": "<p>De första termerna: 2, 3, 5, 9, 17, 33, … Varje term är en tvåpotens plus 1.</p><p>Gissning: \\(a_n=2^{n-1}+1\\). Kontroll: \\(a_1=2^0+1=2\\), och \\(2a_n-1=2(2^{n-1}+1)-1=2^n+1=a_{n+1}\\). Formeln stämmer för alla \\(n\\) (induktion).</p><p>\\(a_{10}=2^9+1=513\\).</p><p><strong>Svar:</strong> \\(a_{10}=513\\) och \\(a_n=2^{n-1}+1\\)</p>",
+    "familj": "Talföljder och sigmanotation",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna ut de första termerna och jämför med tvåpotenser.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      513,
+      "2^(n-1)+1"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a₁₀",
+      "aₙ"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "typ": "sluten formel ur rekursion"
+  },
+  {
     "kap": 2,
     "omr": "aritm_geom_talfoljder",
     "niva": "E",
@@ -13571,6 +13639,41 @@ window.BANKMATF1 = [
     "tolerans": 1,
     "svarEnhet": "kr",
     "typ": "geometrisk summa vid sparande"
+  },
+  {
+    "id": "2.591",
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En patient tar 100 mg av ett läkemedel en gång per dygn. Under ett dygn elimineras 30 % av den mängd som finns i kroppen.</p><p>Hur mycket finns i kroppen direkt efter den sjunde dosen? Vilket värde närmar sig mängden direkt efter en dos i längden? Svara med en decimal.</p>",
+    "s": "<p>Direkt efter dos \\(n\\) är mängden en geometrisk summa: den senaste dosen är hel, den förra har minskat med faktorn 0,7, och så vidare:</p><p>\\[a_n=100(1+0{,}7+0{,}7^2+\\dots+0{,}7^{n-1})=100\\cdot\\frac{1-0{,}7^n}{0{,}3}.\\]</p><p>\\(a_7=100\\cdot\\frac{1-0{,}7^7}{0{,}3}\\approx305{,}9\\) mg.</p><p>När \\(n\\to\\infty\\) går \\(0{,}7^n\\to0\\), och mängden närmar sig \\(\\frac{100}{0{,}3}\\approx333{,}3\\) mg.</p><p><strong>Svar:</strong> cirka 305,9 mg efter sjunde dosen och gränsvärdet cirka 333,3 mg</p>",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Följ en enskild dos: hur mycket finns kvar av den efter \\(k\\) dygn? Summera alla doser.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      305.88190000000003,
+      333.33333333333337
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Efter sjunde dosen",
+      "Gränsvärde"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "läkemedel som geometrisk summa"
   },
   {
     "kap": 2,
@@ -19728,6 +19831,30 @@ window.BANKMATF1 = [
     "typ": "medelvärde med okänd gräns"
   },
   {
+    "id": "3.288",
+    "kap": 3,
+    "omr": "integraler_area",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Kurvorna \\(y=\\sqrt x\\) och \\(y=\\dfrac x2\\) avgränsar ett område. Bestäm områdets area exakt.</p>",
+    "s": "<p>Skärning: \\(\\sqrt x=\\frac x2\\) ger \\(x=0\\) eller \\(\\sqrt x=2\\), alltså \\(x=4\\).</p><p>Mellan 0 och 4 ligger \\(\\sqrt x\\) överst (kontroll i \\(x=1\\): \\(1&gt;0{,}5\\)).</p><p>\\[A=\\int_0^4\\left(\\sqrt x-\\frac x2\\right)dx=\\left[\\frac23x^{3/2}-\\frac{x^2}4\\right]_0^4=\\frac{16}3-4=\\frac43.\\]</p><p><strong>Svar:</strong> \\(\\frac43\\) areaenheter</p>",
+    "familj": "Integraler, area och medelvärde",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm skärningspunkterna och vilken kurva som ligger överst.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.3333333333333333,
+    "tolerans": 0.001,
+    "typ": "area mellan rotkurva och linje"
+  },
+  {
     "kap": 4,
     "omr": "vad_ar_diffekv",
     "niva": "E",
@@ -22323,6 +22450,38 @@ window.BANKMATF1 = [
     "typ": "bestäm konstant i differentialekvation"
   },
   {
+    "id": "4.522",
+    "kap": 4,
+    "omr": "verifiering",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(y=(C_1+C_2x)e^{2x}\\) löser differentialekvationen \\(y''-4y'+4y=0\\) för alla konstanter.</p><p>Bestäm \\(C_1\\) och \\(C_2\\) så att \\(y(0)=1\\) och \\(y'(0)=3\\).</p>",
+    "s": "<p>\\(y(0)=C_1=1\\).</p><p>\\(y'=C_2e^{2x}+2(C_1+C_2x)e^{2x}\\), så \\(y'(0)=C_2+2C_1=C_2+2=3\\). Alltså \\(C_2=1\\).</p><p>Kontroll av att \\(y=(1+x)e^{2x}\\) löser ekvationen: \\(y'=(3+2x)e^{2x}\\), \\(y''=(8+4x)e^{2x}\\). \\((8+4x)-4(3+2x)+4(1+x)=0\\). Det stämmer.</p><p><strong>Svar:</strong> \\(C_1=1\\), \\(C_2=1\\)</p>",
+    "familj": "Verifiera och bestämma differentialekvation från lösning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Sätt in \\(x=0\\) i \\(y\\) och i \\(y'\\). Derivera med produktregeln.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      1
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "C₁",
+      "C₂"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "konstanter vid dubbelrot"
+  },
+  {
     "kap": 4,
     "omr": "homogena_andra",
     "niva": "E",
@@ -23447,6 +23606,41 @@ window.BANKMATF1 = [
     "typ": "begynnelsevärdesproblem y'=ky"
   },
   {
+    "id": "4.520",
+    "kap": 4,
+    "omr": "homogena_forsta",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En bakteriekultur växer enligt \\(y'=ky\\) och fördubblas på 20 minuter.</p><p>Bestäm \\(k\\) (per minut, fyra decimaler) och hur lång tid det tar för kulturen att bli 1 000 gånger så stor (minuter, en decimal).</p>",
+    "s": "<p>\\(y=y_0e^{kt}\\). Fördubbling på 20 min: \\(e^{20k}=2\\), alltså \\(k=\\frac{\\ln2}{20}\\approx0{,}0347\\) per minut.</p><p>\\(e^{kt}=1000\\) ger \\(t=\\frac{\\ln1000}{k}=20\\cdot\\frac{\\ln1000}{\\ln2}\\approx199{,}3\\) min.</p><p>Kontroll: \\(2^{10}=1024\\approx1000\\), alltså ungefär 10 fördubblingar, 200 minuter.</p><p><strong>Svar:</strong> \\(k\\approx0{,}0347\\) per minut och cirka 199,3 minuter</p>",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Lös \\(e^{20k}=2\\). Hur många fördubblingar behövs ungefär för att få 1 000 gånger så mycket?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.03465735902799726,
+      199.31568569324173
+    ],
+    "tolerans": [
+      0.0001,
+      0.1
+    ],
+    "svarEtiketter": [
+      "k",
+      "Tid"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "fördubblingstid och tillväxtkonstant"
+  },
+  {
     "kap": 4,
     "omr": "inhomogena_forsta",
     "niva": "E",
@@ -23676,6 +23870,41 @@ window.BANKMATF1 = [
     "tolerans": 0.1,
     "svarEnhet": "min",
     "typ": "Newtons avsvalningslag"
+  },
+  {
+    "id": "4.521",
+    "kap": 4,
+    "omr": "inhomogena_forsta",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En tank innehåller 100 liter rent vatten. Saltlösning med 0,2 kg salt per liter rinner in med 5 liter per minut, och den välblandade vätskan rinner ut med 5 liter per minut.</p><p>Saltmängden \\(y\\) kg uppfyller \\(y'=1-0{,}05y\\), \\(y(0)=0\\). Bestäm vilken saltmängd som nås i längden och när tanken innehåller 15 kg salt. Svara i minuter med en decimal.</p>",
+    "s": "<p>In: \\(0{,}2\\cdot5=1\\) kg/min. Ut: koncentrationen är \\(\\frac{y}{100}\\) kg/l, så \\(\\frac{y}{100}\\cdot5=0{,}05y\\) kg/min. Det förklarar ekvationen.</p><p>Partikulärlösning: konstant \\(y=20\\). Homogen lösning: \\(Ce^{-0{,}05t}\\). Med \\(y(0)=0\\): \\(y=20(1-e^{-0{,}05t})\\).</p><p>I längden: \\(y\\to20\\) kg, alltså samma koncentration som inflödet.</p><p>\\(y=15\\) ger \\(e^{-0{,}05t}=0{,}25\\), alltså \\(t=\\frac{\\ln4}{0{,}05}\\approx27{,}7\\) min.</p><p><strong>Svar:</strong> 20 kg i längden, och 15 kg efter cirka 27,7 minuter</p>",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilket konstant värde gör att \\(y'=0\\)? Lös sedan ekvationen och använd begynnelsevärdet.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      27.72588722239781
+    ],
+    "tolerans": [
+      0.01,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Gränsvärde",
+      "Tid"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "blandningsproblem"
   },
   {
     "kap": 4,
@@ -32074,6 +32303,30 @@ window.BANKMATF1 = [
     "rättSvar": 6,
     "tolerans": null,
     "typ": "delbarhet för produkt av följande heltal"
+  },
+  {
+    "id": "2.588",
+    "kap": 2,
+    "omr": "direkta_bevis",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det största heltal som delar \\(n^5-n\\) för alla heltal \\(n\\). Motivera.</p>",
+    "s": "<p>Faktorisera: \\(n^5-n=n(n^4-1)=(n-1)n(n+1)(n^2+1)\\).</p><p>\\((n-1)n(n+1)\\) är tre tal i rad och därför delbart med 2 och 3.</p><p>Delbarhet med 5: om \\(n\\equiv0,1,4\\pmod5\\) är någon av \\(n\\), \\(n-1\\), \\(n+1\\) delbar med 5. Om \\(n\\equiv2\\) eller \\(3\\pmod5\\) är \\(n^2\\equiv4\\), så \\(n^2+1\\equiv0\\pmod5\\).</p><p>Alltså är \\(n^5-n\\) alltid delbart med \\(2\\cdot3\\cdot5=30\\). Inget större tal fungerar, eftersom \\(n=2\\) ger \\(32-2=30\\).</p><p><strong>Svar:</strong> 30</p>",
+    "familj": "Direkta bevis och metodval",
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Faktorisera uttrycket så långt som möjligt. Pröva sedan små värden på \\(n\\) för att se vilket tal som kan vara svaret.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": null,
+    "typ": "största gemensamma delare för polynomvärden"
   },
   {
     "kap": 2,

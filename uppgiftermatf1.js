@@ -12751,6 +12751,199 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
+    "omr": "inledning_talfoljder",
+    "niva": "C",
+    "typ": "beräkna summor",
+    "poang": "4/1/0",
+    "t": "<p>Beräkna summan.</p><ol type=\"a\"><li>\\(\\displaystyle\\sum_{j=1}^{5}j^2\\)</li><li>\\(\\displaystyle\\sum_{k=1}^{6}(2k+3)\\)</li><li>\\(\\displaystyle\\sum_{i=1}^{7}(-3i)\\)</li><li>\\(\\displaystyle\\sum_{k=1}^{4}12\\)</li><li>\\(\\displaystyle\\sum_{k=0}^{4}\\frac{1}{k!}\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(1+4+9+16+25=55\\).</p><p><strong>Svar:</strong> 55</p></li><li><p>\\(5+7+9+11+13+15=60\\).</p><p><strong>Svar:</strong> 60</p></li><li><p>\\(-3(1+2+\\dots+7)=-3\\cdot28=-84\\).</p><p><strong>Svar:</strong> −84</p></li><li><p>Summan har fyra termer som alla är 12: \\(4\\cdot12=48\\).</p><p><strong>Svar:</strong> 48</p></li><li><p>\\(1+1+\\dfrac12+\\dfrac16+\\dfrac1{24}=\\dfrac{65}{24}\\approx2{,}708\\).</p><p><strong>Svar:</strong> \\(\\dfrac{65}{24}\\)</p></li></ol>",
+    "id": "2.697",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talföljder och sigmanotation",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      55,
+      60,
+      -84,
+      48,
+      "65/24"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0,
+      0.0006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Beräkna summan.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\displaystyle\\sum_{j=1}^{5}j^2\\)",
+        "t": "<p>Beräkna summan.</p><p>\\(\\displaystyle\\sum_{j=1}^{5}j^2\\)</p>",
+        "s": "<p>\\(1+4+9+16+25=55\\).</p><p><strong>Svar:</strong> 55</p>",
+        "ledtrad": "<p>Skriv ut alla termer.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\displaystyle\\sum_{k=1}^{6}(2k+3)\\)",
+        "t": "<p>Beräkna summan.</p><p>\\(\\displaystyle\\sum_{k=1}^{6}(2k+3)\\)</p>",
+        "s": "<p>\\(5+7+9+11+13+15=60\\).</p><p><strong>Svar:</strong> 60</p>",
+        "ledtrad": "<p>Sätt in \\(k=1,2,\\dots,6\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\displaystyle\\sum_{i=1}^{7}(-3i)\\)",
+        "t": "<p>Beräkna summan.</p><p>\\(\\displaystyle\\sum_{i=1}^{7}(-3i)\\)</p>",
+        "s": "<p>\\(-3(1+2+\\dots+7)=-3\\cdot28=-84\\).</p><p><strong>Svar:</strong> −84</p>",
+        "ledtrad": "<p>Bryt ut konstanten −3.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(\\displaystyle\\sum_{k=1}^{4}12\\)",
+        "t": "<p>Beräkna summan.</p><p>\\(\\displaystyle\\sum_{k=1}^{4}12\\)</p>",
+        "s": "<p>Summan har fyra termer som alla är 12: \\(4\\cdot12=48\\).</p><p><strong>Svar:</strong> 48</p>",
+        "ledtrad": "<p>Hur många termer finns det, och vad är varje term?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "e",
+        "fraga": "\\(\\displaystyle\\sum_{k=0}^{4}\\frac{1}{k!}\\)",
+        "t": "<p>Beräkna summan.</p><p>\\(\\displaystyle\\sum_{k=0}^{4}\\frac{1}{k!}\\)</p>",
+        "s": "<p>\\(1+1+\\dfrac12+\\dfrac16+\\dfrac1{24}=\\dfrac{65}{24}\\approx2{,}708\\).</p><p><strong>Svar:</strong> \\(\\dfrac{65}{24}\\)</p>",
+        "ledtrad": "<p>Kom ihåg att \\(0!=1\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Skriv ut termerna eller använd räkneregler för summor.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "inledning_talfoljder",
+    "niva": "C",
+    "typ": "summa i modell",
+    "poang": "0/2/0",
+    "t": "<p>Ett företags årliga intäkter \\(a_n\\) miljoner kronor åren 2005–2009 beskrivs av \\(a_n=22{,}9+3{,}63n+2{,}657n^2\\), där \\(n=0\\) motsvarar 2005.</p><p>Beräkna de totala intäkterna 2005–2009, alltså \\(\\displaystyle\\sum_{n=0}^{4}a_n\\).</p>",
+    "s": "<p>\\(\\displaystyle\\sum_{n=0}^4a_n=5\\cdot22{,}9+3{,}63\\sum_{n=0}^4n+2{,}657\\sum_{n=0}^4n^2=114{,}5+3{,}63\\cdot10+2{,}657\\cdot30\\).</p><p>\\(=114{,}5+36{,}3+79{,}71=230{,}51\\).</p><p><strong>Svar:</strong> cirka 231 miljoner kronor</p>",
+    "id": "2.698",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder och sigmanotation",
+    "svarstyp": "numeriskt",
+    "rättSvar": 230.51,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp summan i tre summor och använd att \\(\\sum n=10\\) och \\(\\sum n^2=30\\) för \\(n=0,\\dots,4\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "inledning_talfoljder",
+    "niva": "C",
+    "typ": "serieapproximation av exponentialfunktionen",
+    "poang": "1/3/0",
+    "t": "<p>Det gäller att \\(e^x=\\displaystyle\\sum_{k=0}^{\\infty}\\frac{x^k}{k!}\\). Genom att ta med de första termerna får man en approximation \\(e^x\\approx\\displaystyle\\sum_{k=0}^{n}\\frac{x^k}{k!}\\).</p><ol type=\"a\"><li>Approximera \\(e^{1{,}3}\\) med \\(n=4\\). Svara med fyra decimaler.</li><li>Approximera \\(e^{1{,}3}\\) med \\(n=7\\) och bestäm det relativa felet jämfört med räknarens värde. Svara i procent med två värdesiffror.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(1+1{,}3+\\dfrac{1{,}69}{2}+\\dfrac{2{,}197}{6}+\\dfrac{2{,}8561}{24}\\approx3{,}6302\\).</p><p><strong>Svar:</strong> \\(\\approx3{,}6302\\)</p></li><li><p>Med \\(n=7\\) blir summan \\(\\approx3{,}66906\\). Räknaren ger \\(e^{1{,}3}\\approx3{,}66930\\).</p><p>Relativt fel: \\(\\dfrac{3{,}66930-3{,}66906}{3{,}66930}\\approx6{,}4\\cdot10^{-5}=0{,}0064\\,\\%\\).</p><p><strong>Svar:</strong> cirka 0,0064 %</p></li></ol>",
+    "id": "2.699",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder och sigmanotation",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.6302,
+      0.0064
+    ],
+    "tolerans": [
+      6e-05,
+      0.0003
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Det gäller att \\(e^x=\\displaystyle\\sum_{k=0}^{\\infty}\\frac{x^k}{k!}\\). Genom att ta med de första termerna får man en approximation \\(e^x\\approx\\displaystyle\\sum_{k=0}^{n}\\frac{x^k}{k!}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Approximera \\(e^{1{,}3}\\) med \\(n=4\\). Svara med fyra decimaler.",
+        "t": "<p>Det gäller att \\(e^x=\\displaystyle\\sum_{k=0}^{\\infty}\\frac{x^k}{k!}\\). Genom att ta med de första termerna får man en approximation \\(e^x\\approx\\displaystyle\\sum_{k=0}^{n}\\frac{x^k}{k!}\\).</p><p>Approximera \\(e^{1{,}3}\\) med \\(n=4\\). Svara med fyra decimaler.</p>",
+        "s": "<p>\\(1+1{,}3+\\dfrac{1{,}69}{2}+\\dfrac{2{,}197}{6}+\\dfrac{2{,}8561}{24}\\approx3{,}6302\\).</p><p><strong>Svar:</strong> \\(\\approx3{,}6302\\)</p>",
+        "ledtrad": "<p>Beräkna termerna för \\(k=0,1,2,3,4\\) och summera.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Approximera \\(e^{1{,}3}\\) med \\(n=7\\) och bestäm det relativa felet jämfört med räknarens värde. Svara i procent med två värdesiffror.",
+        "t": "<p>Det gäller att \\(e^x=\\displaystyle\\sum_{k=0}^{\\infty}\\frac{x^k}{k!}\\). Genom att ta med de första termerna får man en approximation \\(e^x\\approx\\displaystyle\\sum_{k=0}^{n}\\frac{x^k}{k!}\\).</p><p>Approximera \\(e^{1{,}3}\\) med \\(n=7\\) och bestäm det relativa felet jämfört med räknarens värde. Svara i procent med två värdesiffror.</p>",
+        "s": "<p>Med \\(n=7\\) blir summan \\(\\approx3{,}66906\\). Räknaren ger \\(e^{1{,}3}\\approx3{,}66930\\).</p><p>Relativt fel: \\(\\dfrac{3{,}66930-3{,}66906}{3{,}66930}\\approx6{,}4\\cdot10^{-5}=0{,}0064\\,\\%\\).</p><p><strong>Svar:</strong> cirka 0,0064 %</p>",
+        "ledtrad": "<p>Lägg till termerna för \\(k=5,6,7\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Varje term är \\(\\dfrac{x^k}{k!}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
     "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "bestämma term i aritmetisk talföljd",
@@ -18357,6 +18550,95 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Räntan beräknas på den skuld som återstår.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "E",
+    "typ": "rekursiva modeller med ränta och tillskott",
+    "poang": "2/1/0",
+    "t": "<p>Beräkna med den rekursiva formeln.</p><ol type=\"a\"><li>Mårten har ett lån på 3 000 kr med 15 % ränta per månad. Varje månad betalar han 200 kr. Skulden efter \\(n\\) månader är \\(B_n=1{,}15B_{n-1}-200\\), \\(B_0=3\\,000\\). Bestäm \\(B_3\\). Avrunda till hela kronor.</li><li>En damm har 2 000 öringar. Varje månad ökar beståndet med 3,0 %, och dessutom planteras 20 nya. \\(p_n=1{,}03p_{n-1}+20\\), \\(p_0=2\\,000\\). Hur många öringar finns efter 4 månader? Avrunda till heltal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(B_1=3\\,250\\), \\(B_2=3\\,537{,}50\\), \\(B_3\\approx3\\,868\\). Skulden växer, eftersom räntan (450 kr första månaden) är större än betalningen.</p><p><strong>Svar:</strong> cirka 3 868 kr</p></li><li><p>\\(p_1=2\\,080\\), \\(p_2=2\\,162{,}4\\), \\(p_3\\approx2\\,247{,}3\\), \\(p_4\\approx2\\,334{,}7\\).</p><p><strong>Svar:</strong> cirka 2 335 öringar</p></li></ol>",
+    "id": "2.700",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3868,
+      2335
+    ],
+    "tolerans": [
+      0.6,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Beräkna med den rekursiva formeln.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Mårten har ett lån på 3 000 kr med 15 % ränta per månad. Varje månad betalar han 200 kr. Skulden efter \\(n\\) månader är \\(B_n=1{,}15B_{n-1}-200\\), \\(B_0=3\\,000\\). Bestäm \\(B_3\\). Avrunda till hela kronor.",
+        "t": "<p>Beräkna med den rekursiva formeln.</p><p>Mårten har ett lån på 3 000 kr med 15 % ränta per månad. Varje månad betalar han 200 kr. Skulden efter \\(n\\) månader är \\(B_n=1{,}15B_{n-1}-200\\), \\(B_0=3\\,000\\). Bestäm \\(B_3\\). Avrunda till hela kronor.</p>",
+        "s": "<p>\\(B_1=3\\,250\\), \\(B_2=3\\,537{,}50\\), \\(B_3\\approx3\\,868\\). Skulden växer, eftersom räntan (450 kr första månaden) är större än betalningen.</p><p><strong>Svar:</strong> cirka 3 868 kr</p>",
+        "ledtrad": "<p>Räkna ett steg i taget.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En damm har 2 000 öringar. Varje månad ökar beståndet med 3,0 %, och dessutom planteras 20 nya. \\(p_n=1{,}03p_{n-1}+20\\), \\(p_0=2\\,000\\). Hur många öringar finns efter 4 månader? Avrunda till heltal.",
+        "t": "<p>Beräkna med den rekursiva formeln.</p><p>En damm har 2 000 öringar. Varje månad ökar beståndet med 3,0 %, och dessutom planteras 20 nya. \\(p_n=1{,}03p_{n-1}+20\\), \\(p_0=2\\,000\\). Hur många öringar finns efter 4 månader? Avrunda till heltal.</p>",
+        "s": "<p>\\(p_1=2\\,080\\), \\(p_2=2\\,162{,}4\\), \\(p_3\\approx2\\,247{,}3\\), \\(p_4\\approx2\\,334{,}7\\).</p><p><strong>Svar:</strong> cirka 2 335 öringar</p>",
+        "ledtrad": "<p>Räkna ett steg i taget.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Använd den rekursiva formeln steg för steg.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "C",
+    "typ": "Herons metod för kvadratrot",
+    "poang": "1/1/0",
+    "t": "<p>Babylonierna beräknade \\(\\sqrt a\\) med den rekursiva formeln \\[x_n=\\frac12\\left(x_{n-1}+\\frac{a}{x_{n-1}}\\right),\\] där \\(x_0\\) är en grov gissning.</p><p>Beräkna \\(x_3\\) för \\(a=5\\) och \\(x_0=2\\). Svara med sex decimaler.</p>",
+    "s": "<p>\\(x_1=\\tfrac12(2+2{,}5)=2{,}25\\).</p><p>\\(x_2=\\tfrac12\\left(2{,}25+\\tfrac{5}{2{,}25}\\right)\\approx2{,}236111\\).</p><p>\\(x_3=\\tfrac12\\left(2{,}236111+\\tfrac{5}{2{,}236111}\\right)\\approx2{,}236068\\).</p><p>Jämför med \\(\\sqrt5\\approx2{,}2360680\\): redan tre steg ger nio korrekta decimaler.</p><p><strong>Svar:</strong> \\(x_3\\approx2{,}236068\\)</p>",
+    "id": "2.701",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.236068,
+    "tolerans": 6e-07,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt in \\(x_0=2\\) och räkna tre steg.</p>",
     "traningsniva": 3
   },
   {

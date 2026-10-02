@@ -3811,7 +3811,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-02-ake8";
+const BANK_VERSION="2026-10-02-fel3";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9297,8 +9297,17 @@ function formatRatt(anv,facit,meta){
       if(match[2] && (!unit || match[2]!==unit)) return false;
       return rentNumerisktSvar(match[1],f,meta);
     }
-    case "heltal": case "numeriskt":
-      return rentNumerisktSvar(a,f,meta);
+    case "heltal": case "numeriskt": {
+      if(rentNumerisktSvar(a,f,meta)) return true;
+      /* Exakt form av talet, t.ex. 10/3, √2 eller 2π, när svaret inte har någon enhet. */
+      const h=stadaSvar(hogerled(a));
+      if(format==="numeriskt" && /[\/√^π]|sqrt|pi/i.test(h) && isPureNumberExpression(h)){
+        const v=numericValue(tillNerdamer(normalizeMathInput(h)));
+        const fv=isPureNumberExpression(String(f)) ? numericValue(tillNerdamer(normalizeMathInput(String(f)))) : talAv(f);
+        return naraNog(v,fv,tol);
+      }
+      return false;
+    }
     case "sannolikhet": {
       /* Exakt bråk eller uttryck jämförs som vanligt längre ner. Ett decimaltal eller en procentsats
          godtas om det är korrekt avrundat med minst två värdesiffror ("0,36", "35,7 %" för 5/14). */
@@ -9460,6 +9469,16 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
   if(typeof facit==="string" && /\\[a-zA-Z]/.test(facit)){
     const p=latexToPlain(facit);
     if(p && !/\\[a-zA-Z]/.test(p)) facit=p;
+  }
+  /* Funktionsformel: "y = 3x − 1", "f(x) = 3x − 1" och bara "3x − 1" betyder samma sak. */
+  if(typeof facit==="string"){
+    const fvl=/^\s*(?:y|[a-zA-Z]\s*\(\s*x\s*\))\s*=\s*([^=]+)$/;
+    const mf=facit.replace(/\\[()\[\]]/g,"").trim().match(fvl);
+    if(mf){
+      const a=stadaSvar(anv), ma=a.match(fvl);
+      const hl=ma ? ma[1] : (a.includes("=") ? null : a);
+      if(hl!==null && /x/.test(hl) && algebraisktLika(hl,mf[1])===true) return true;
+    }
   }
   /* Ett tal med enhet efter när facit är ett rent tal utan angiven enhet ("1,65 kg", "48 kr"). */
   if((enhet===undefined||enhet===null||enhet==="") && (typeof facit==="number" || numerisktSvar(facit))){

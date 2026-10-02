@@ -20306,7 +20306,7 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.16666666666666666,
-    "tolerans": 1e-06,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",

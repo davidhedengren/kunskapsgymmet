@@ -11396,7 +11396,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Lös ekvationen</p><p>\\[2\\sin x+\\cos(2,3x)=0,7\\]</p><p>för \\(0\\le x&lt;360^\\circ\\). Svara med tre decimaler.</p>",
-    "s": "<p><strong>Metod:</strong> Ekvationen saknar en enkel algebraisk lösning. Bestäm därför skärningarna numeriskt på hela intervallet.</p><p>Studera vänsterledet som en funktion och bestäm dess skärning med nivån \\(0,7\\).</p><p>I intervallet finns en lösning:</p><p>\\[\\boxed{x\\approx3,112}.\\]</p>",
+    "s": "<p><strong>Metod:</strong> Ekvationen saknar en enkel algebraisk lösning. Bestäm därför skärningarna numeriskt, med räknaren inställd på grader.</p><p>Studera vänsterledet \\(f(x)=2\\sin x+\\cos(2{,}3x)\\) som en funktion och bestäm var den skär nivån \\(0{,}7\\) när \\(0\\le x\\lt360^\\circ\\).</p><p>I intervallet finns en lösning:</p><p>\\[\\boxed{x\\approx178{,}314^\\circ}.\\]</p>",
     "familj": "Sinus- och cosinuskurvor i grader",
     "formaga": [
       "procedur"
@@ -53759,7 +53759,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Avgör om den bestämda integralen direkt ger en geometrisk area eller en tecknad area, och beräkna värdet.</p><p>a) \\(\\int_0^2(x+1)dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_{-1}^x\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^\\pi\\sin x\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^{2\\pi}\\sin x\\,dx\\)</p>",
+    "t": "<p>Avgör om den bestämda integralen direkt ger en geometrisk area eller en tecknad area, och beräkna värdet.</p><p>a) \\(\\int_0^2(x+1)dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_{-1}^{1}x\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^\\pi\\sin x\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^{2\\pi}\\sin x\\,dx\\)</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>a) Funktionen är positiv: integral och geometrisk area är <strong>4</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Integralen är en tecknad area och blir <strong>0</strong>; geometrisk area är inte 0.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Funktionen är icke-negativ: <strong>2</strong> är även geometrisk area.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Integralen är tecknad area och blir <strong>0</strong>; positiv och negativ del tar ut varandra.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "familj": "Geometrisk area och area från graf med integral",
     "formaga": [
@@ -53801,7 +53801,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(\\int_{-1}^x\\,dx\\)</p>",
+        "fraga": "<p>\\(\\int_{-1}^{1}x\\,dx\\)</p>",
         "s": "<p>Integralen är en tecknad area och blir 0; geometrisk area är inte 0.</p>",
         "niva": "E",
         "poang": "1/0/0",

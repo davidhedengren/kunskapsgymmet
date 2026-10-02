@@ -47995,6 +47995,157 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "kap": 3,
+    "omr": "kurvor_asymptoter",
+    "niva": "C",
+    "typ": "asymptoter till förskjuten hyperbel",
+    "poang": "2/1/0",
+    "t": "<p>Funktionen är \\(y=\\dfrac{4}{x-1}+1\\).</p><ol type=\"a\"><li>Ange den lodräta asymptoten. Svara på formen \\(x=a\\).</li><li>Ange den vågräta asymptoten. Svara på formen \\(y=b\\).</li><li>Vilket värde kan \\(y\\) aldrig anta?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Nämnaren är noll när \\(x=1\\).</p><p><strong>Svar:</strong> \\(x=1\\)</p></li><li><p>När \\(|x|\\) blir stort går \\(\\dfrac4{x-1}\\to0\\), så \\(y\\to1\\).</p><p><strong>Svar:</strong> \\(y=1\\)</p></li><li><p>\\(\\dfrac{4}{x-1}\\) blir aldrig 0, så \\(y\\) blir aldrig 1. Värdemängden är alla reella tal utom 1.</p><p><strong>Svar:</strong> 1</p></li></ol>",
+    "id": "3.523",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Asymptoter för rationella funktioner",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "x=1",
+      "y=1",
+      1
+    ],
+    "tolerans": [
+      null,
+      null,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Funktionen är \\(y=\\dfrac{4}{x-1}+1\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ange den lodräta asymptoten. Svara på formen \\(x=a\\).",
+        "t": "<p>Funktionen är \\(y=\\dfrac{4}{x-1}+1\\).</p><p>Ange den lodräta asymptoten. Svara på formen \\(x=a\\).</p>",
+        "s": "<p>Nämnaren är noll när \\(x=1\\).</p><p><strong>Svar:</strong> \\(x=1\\)</p>",
+        "ledtrad": "<p>Var är funktionen inte definierad?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ange den vågräta asymptoten. Svara på formen \\(y=b\\).",
+        "t": "<p>Funktionen är \\(y=\\dfrac{4}{x-1}+1\\).</p><p>Ange den vågräta asymptoten. Svara på formen \\(y=b\\).</p>",
+        "s": "<p>När \\(|x|\\) blir stort går \\(\\dfrac4{x-1}\\to0\\), så \\(y\\to1\\).</p><p><strong>Svar:</strong> \\(y=1\\)</p>",
+        "ledtrad": "<p>Vad händer med bråket när \\(x\\) blir mycket stort?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilket värde kan \\(y\\) aldrig anta?",
+        "t": "<p>Funktionen är \\(y=\\dfrac{4}{x-1}+1\\).</p><p>Vilket värde kan \\(y\\) aldrig anta?</p>",
+        "s": "<p>\\(\\dfrac{4}{x-1}\\) blir aldrig 0, så \\(y\\) blir aldrig 1. Värdemängden är alla reella tal utom 1.</p><p><strong>Svar:</strong> 1</p>",
+        "ledtrad": "<p>Kan bråket \\(\\dfrac4{x-1}\\) bli noll?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Förskjutningar av \\(y=\\dfrac kx\\) flyttar asymptoterna.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 3,
+    "omr": "kurvor_asymptoter",
+    "niva": "E",
+    "typ": "asymptoter och definitionsmängd",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(y=-\\dfrac{3}{x+1}-2\\).</p><ol type=\"a\"><li>Ange den lodräta asymptoten. Svara på formen \\(x=a\\).</li><li>Ange den vågräta asymptoten. Svara på formen \\(y=b\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Nämnaren är noll när \\(x=-1\\).</p><p><strong>Svar:</strong> \\(x=-1\\)</p></li><li><p>Bråket går mot 0 när \\(|x|\\to\\infty\\), så \\(y\\to-2\\).</p><p><strong>Svar:</strong> \\(y=-2\\)</p></li></ol>",
+    "id": "3.524",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Asymptoter för rationella funktioner",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "x=-1",
+      "y=-2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Funktionen är \\(y=-\\dfrac{3}{x+1}-2\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ange den lodräta asymptoten. Svara på formen \\(x=a\\).",
+        "t": "<p>Funktionen är \\(y=-\\dfrac{3}{x+1}-2\\).</p><p>Ange den lodräta asymptoten. Svara på formen \\(x=a\\).</p>",
+        "s": "<p>Nämnaren är noll när \\(x=-1\\).</p><p><strong>Svar:</strong> \\(x=-1\\)</p>",
+        "ledtrad": "<p>När är nämnaren noll?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ange den vågräta asymptoten. Svara på formen \\(y=b\\).",
+        "t": "<p>Funktionen är \\(y=-\\dfrac{3}{x+1}-2\\).</p><p>Ange den vågräta asymptoten. Svara på formen \\(y=b\\).</p>",
+        "s": "<p>Bråket går mot 0 när \\(|x|\\to\\infty\\), så \\(y\\to-2\\).</p><p><strong>Svar:</strong> \\(y=-2\\)</p>",
+        "ledtrad": "<p>Vad går bråket mot när \\(x\\) blir stort?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Asymptoterna avläses ur funktionsuttrycket.</p>",
+    "traningsniva": 1,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
+    "arbetsinsats": 2
+  },
+  {
     "id": "2.536",
     "kap": 3,
     "omr": "sneda_asymptoter",
@@ -56670,6 +56821,273 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 2.8284271247461903,
     "tolerans": 0.001
+  },
+  {
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "niva": "E",
+    "typ": "area mellan kurvor i givet intervall",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm arean mellan graferna till \\(y=3x^2+12\\) och \\(y=4x+4\\) i intervallet \\(-3\\le x\\le3\\).</p>",
+    "s": "<p>\\(3x^2+12-(4x+4)=3x^2-4x+8\\gt0\\) överallt (diskriminanten är negativ), så parabeln ligger överst.</p><p>\\(\\displaystyle\\int_{-3}^{3}(3x^2-4x+8)\\,dx=\\left[x^3-2x^2+8x\\right]_{-3}^{3}=33-(-69)=102\\).</p><p><strong>Svar:</strong> 102 a.e.</p>",
+    "id": "4.546",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Area mellan kurvor med integral",
+    "svarstyp": "numeriskt",
+    "rättSvar": 102,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken graf ligger överst i hela intervallet?</p>",
+    "traningsniva": 2,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
+    "arbetsinsats": 1
+  },
+  {
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "niva": "E",
+    "typ": "innesluten area mellan parabel och linje",
+    "poang": "2/1/0",
+    "t": "<p>Bestäm arean av området som innesluts av graferna till \\(f(x)=x^2+2\\) och \\(g(x)=2x+5\\).</p>",
+    "s": "<p>Skärning: \\(x^2+2=2x+5\\iff x^2-2x-3=0\\iff x=-1\\) eller \\(x=3\\).</p><p>\\(\\displaystyle\\int_{-1}^{3}(2x+5-x^2-2)\\,dx=\\left[x^2+3x-\\frac{x^3}{3}\\right]_{-1}^{3}=9-\\left(-\\frac53\\right)=\\frac{32}{3}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{32}{3}\\) a.e.</p>",
+    "id": "4.547",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Area mellan kurvor med integral",
+    "svarstyp": "numeriskt",
+    "rättSvar": "32/3",
+    "tolerans": 0.006,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först skärningspunkterna. De blir integrationsgränser.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "niva": "C",
+    "typ": "area mellan tredjegradskurva och linje",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm arean av det område som innesluts av graferna till \\(f(x)=x^3-10x\\) och \\(g(x)=6x\\).</p>",
+    "s": "<p>\\(x^3-10x=6x\\iff x(x^2-16)=0\\iff x=-4,\\ 0,\\ 4\\).</p><p>På \\([-4,0]\\) ligger \\(f\\) överst, på \\([0,4]\\) ligger \\(g\\) överst. Symmetrin ger</p><p>\\(2\\displaystyle\\int_0^4(16x-x^3)\\,dx=2\\left[8x^2-\\frac{x^4}{4}\\right]_0^4=2\\cdot64=128\\).</p><p><strong>Svar:</strong> 128 a.e.</p>",
+    "id": "4.548",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Area mellan kurvor med integral",
+    "svarstyp": "numeriskt",
+    "rättSvar": 128,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Det finns tre skärningspunkter. Byter graferna plats om vilken som ligger överst?</p>",
+    "traningsniva": 4,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "niva": "C",
+    "typ": "area mellan sinus och cosinus",
+    "poang": "0/3/0",
+    "t": "<p>Bestäm arean av området mellan graferna till \\(y=\\sin x\\) och \\(y=\\cos x\\) i intervallet. Svara exakt.</p><ol type=\"a\"><li>\\(\\dfrac\\pi4\\le x\\le\\dfrac\\pi2\\)</li><li>\\(0\\le x\\le\\pi\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Här är \\(\\sin x\\ge\\cos x\\): \\(\\left[-\\cos x-\\sin x\\right]_{\\pi/4}^{\\pi/2}=-1+\\sqrt2\\).</p><p><strong>Svar:</strong> \\(\\sqrt2-1\\) a.e.</p></li><li><p>Graferna skär varandra vid \\(x=\\tfrac\\pi4\\). \\(\\displaystyle\\int_0^{\\pi/4}(\\cos x-\\sin x)\\,dx+\\int_{\\pi/4}^{\\pi}(\\sin x-\\cos x)\\,dx=(\\sqrt2-1)+(1+\\sqrt2)=2\\sqrt2\\).</p><p><strong>Svar:</strong> \\(2\\sqrt2\\) a.e.</p></li></ol>",
+    "id": "4.549",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Area mellan kurvor med integral",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "sqrt(2)-1",
+      "2*sqrt(2)"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm arean av området mellan graferna till \\(y=\\sin x\\) och \\(y=\\cos x\\) i intervallet. Svara exakt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac\\pi4\\le x\\le\\dfrac\\pi2\\)",
+        "t": "<p>Bestäm arean av området mellan graferna till \\(y=\\sin x\\) och \\(y=\\cos x\\) i intervallet. Svara exakt.</p><p>\\(\\dfrac\\pi4\\le x\\le\\dfrac\\pi2\\)</p>",
+        "s": "<p>Här är \\(\\sin x\\ge\\cos x\\): \\(\\left[-\\cos x-\\sin x\\right]_{\\pi/4}^{\\pi/2}=-1+\\sqrt2\\).</p><p><strong>Svar:</strong> \\(\\sqrt2-1\\) a.e.</p>",
+        "ledtrad": "<p>Vilken funktion är störst i intervallet?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(0\\le x\\le\\pi\\)",
+        "t": "<p>Bestäm arean av området mellan graferna till \\(y=\\sin x\\) och \\(y=\\cos x\\) i intervallet. Svara exakt.</p><p>\\(0\\le x\\le\\pi\\)</p>",
+        "s": "<p>Graferna skär varandra vid \\(x=\\tfrac\\pi4\\). \\(\\displaystyle\\int_0^{\\pi/4}(\\cos x-\\sin x)\\,dx+\\int_{\\pi/4}^{\\pi}(\\sin x-\\cos x)\\,dx=(\\sqrt2-1)+(1+\\sqrt2)=2\\sqrt2\\).</p><p><strong>Svar:</strong> \\(2\\sqrt2\\) a.e.</p>",
+        "ledtrad": "<p>Dela upp intervallet där graferna skär varandra.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Arean är integralen av övre minus undre funktion.</p>",
+    "traningsniva": 4,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "niva": "C",
+    "typ": "area mellan kurvor med faktorisering",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm arean av området mellan kurvorna \\(y=x(x^2-1)\\) och \\(y=1-x^2\\) i intervallet \\(-1\\le x\\le1\\).</p>",
+    "s": "<p>\\(x(x^2-1)-(1-x^2)=(x^2-1)(x+1)=(x-1)(x+1)^2\\le0\\) i intervallet, så \\(y=1-x^2\\) ligger överst.</p><p>\\(\\displaystyle\\int_{-1}^{1}(1-x)(1+x)^2\\,dx=\\int_{-1}^{1}(1+x-x^2-x^3)\\,dx=2-\\frac23=\\frac43\\).</p><p><strong>Svar:</strong> \\(\\dfrac43\\) a.e.</p>",
+    "id": "4.550",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Area mellan kurvor med integral",
+    "svarstyp": "numeriskt",
+    "rättSvar": "4/3",
+    "tolerans": 0.006,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Faktorisera skillnaden mellan funktionerna för att se vilken som ligger överst.</p>",
+    "traningsniva": 4,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "niva": "C",
+    "typ": "area med trigonometrisk funktion",
+    "poang": "0/2/0",
+    "t": "<p>Beräkna arean av området mellan kurvorna \\(y=\\dfrac{1}{\\cos^2x}\\) och \\(y=2\\) i intervallet \\(0\\le x\\le\\dfrac\\pi4\\). Svara exakt.</p>",
+    "s": "<p>\\(\\dfrac1{\\cos^2x}\\le2\\) i intervallet. En primitiv funktion till \\(\\dfrac1{\\cos^2x}\\) är \\(\\tan x\\).</p><p>\\(\\displaystyle\\int_0^{\\pi/4}\\left(2-\\frac1{\\cos^2x}\\right)dx=\\left[2x-\\tan x\\right]_0^{\\pi/4}=\\frac\\pi2-1\\).</p><p><strong>Svar:</strong> \\(\\dfrac\\pi2-1\\) a.e.</p>",
+    "id": "4.551",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Area mellan kurvor med integral",
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/2-1",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Vilken funktion har derivatan \\(\\dfrac1{\\cos^2x}\\)?</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "niva": "A",
+    "typ": "parameter ur area",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm \\(c\\gt0\\) så att området som innesluts av kurvorna \\(y=c-x^2\\) och \\(y=x^2-c\\) får arean 1 a.e. Svara med tre decimaler.</p>",
+    "s": "<p>Kurvorna skär varandra där \\(x=\\pm\\sqrt c\\). Arean är \\(\\displaystyle\\int_{-\\sqrt c}^{\\sqrt c}2(c-x^2)\\,dx=\\frac{8}{3}c^{3/2}\\).</p><p>\\(\\dfrac83c^{3/2}=1\\iff c=\\left(\\dfrac38\\right)^{2/3}\\approx0{,}520\\).</p><p><strong>Svar:</strong> \\(c\\approx0{,}520\\)</p>",
+    "id": "4.552",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Area mellan kurvor med integral",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.52,
+    "tolerans": 0.0006,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck arean med \\(c\\) och lös ekvationen.</p>",
+    "traningsniva": 5,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
+    "arbetsinsats": 3
+  },
+  {
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "niva": "A",
+    "typ": "linje som halverar area",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm \\(k\\) så att linjen \\(y=kx\\) delar arean under kurvan \\(y=x(1-x)\\), \\(0\\le x\\le1\\), i två lika stora delar. Svara med tre decimaler.</p>",
+    "s": "<p>Hela arean: \\(\\displaystyle\\int_0^1x(1-x)\\,dx=\\frac16\\). Linjen skär kurvan där \\(x=1-k\\).</p><p>\\(\\displaystyle\\int_0^{1-k}(x-x^2-kx)\\,dx=\\frac{(1-k)^3}{6}=\\frac1{12}\\iff(1-k)^3=\\frac12\\iff k=1-2^{-1/3}\\approx0{,}206\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}206\\)</p>",
+    "id": "4.553",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Area mellan kurvor med integral",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.206,
+    "tolerans": 0.0006,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm var linjen skär kurvan och teckna arean mellan dem.</p>",
+    "traningsniva": 5,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
+    "arbetsinsats": 3
   },
   {
     "id": "3.494",
@@ -92598,6 +93016,210 @@ window.BANKMATO2 = [
       "°",
       "°"
     ]
+  },
+  {
+    "kap": 1,
+    "omr": "trig_grundekvationer",
+    "niva": "C",
+    "typ": "lösningar i givet intervall",
+    "poang": "2/2/0",
+    "t": "<p>Lös ekvationen i det angivna intervallet. Svara med en decimal.</p><ol type=\"a\"><li>\\(\\sin v=0{,}95\\), \\(180^\\circ\\le v\\le540^\\circ\\)</li><li>\\(\\cos v=0{,}058\\), \\(180^\\circ\\le v\\le540^\\circ\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\arcsin0{,}95\\approx71{,}8^\\circ\\) eller \\(v=180^\\circ-71{,}8^\\circ=108{,}2^\\circ\\), plus multiplar av \\(360^\\circ\\).</p><p>I intervallet: \\(71{,}8^\\circ+360^\\circ=431{,}8^\\circ\\) och \\(108{,}2^\\circ+360^\\circ=468{,}2^\\circ\\).</p><p><strong>Svar:</strong> \\(v\\approx431{,}8^\\circ\\) och \\(v\\approx468{,}2^\\circ\\)</p></li><li><p>\\(v=\\pm86{,}7^\\circ+n\\cdot360^\\circ\\). I intervallet: \\(-86{,}7^\\circ+360^\\circ=273{,}3^\\circ\\) och \\(86{,}7^\\circ+360^\\circ=446{,}7^\\circ\\).</p><p><strong>Svar:</strong> \\(v\\approx273{,}3^\\circ\\) och \\(v\\approx446{,}7^\\circ\\)</p></li></ol>",
+    "id": "1.682",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundläggande trigonometriska ekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "431.8, 468.2",
+      "273.3, 446.7"
+    ],
+    "tolerans": [
+      0.06,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "lösningsmängd",
+      "lösningsmängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Lös ekvationen i det angivna intervallet. Svara med en decimal.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\sin v=0{,}95\\), \\(180^\\circ\\le v\\le540^\\circ\\)",
+        "t": "<p>Lös ekvationen i det angivna intervallet. Svara med en decimal.</p><p>\\(\\sin v=0{,}95\\), \\(180^\\circ\\le v\\le540^\\circ\\)</p>",
+        "s": "<p>\\(v=\\arcsin0{,}95\\approx71{,}8^\\circ\\) eller \\(v=180^\\circ-71{,}8^\\circ=108{,}2^\\circ\\), plus multiplar av \\(360^\\circ\\).</p><p>I intervallet: \\(71{,}8^\\circ+360^\\circ=431{,}8^\\circ\\) och \\(108{,}2^\\circ+360^\\circ=468{,}2^\\circ\\).</p><p><strong>Svar:</strong> \\(v\\approx431{,}8^\\circ\\) och \\(v\\approx468{,}2^\\circ\\)</p>",
+        "ledtrad": "<p>Bestäm de två lösningsfamiljerna och välj de lösningar som ligger i intervallet.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\cos v=0{,}058\\), \\(180^\\circ\\le v\\le540^\\circ\\)",
+        "t": "<p>Lös ekvationen i det angivna intervallet. Svara med en decimal.</p><p>\\(\\cos v=0{,}058\\), \\(180^\\circ\\le v\\le540^\\circ\\)</p>",
+        "s": "<p>\\(v=\\pm86{,}7^\\circ+n\\cdot360^\\circ\\). I intervallet: \\(-86{,}7^\\circ+360^\\circ=273{,}3^\\circ\\) och \\(86{,}7^\\circ+360^\\circ=446{,}7^\\circ\\).</p><p><strong>Svar:</strong> \\(v\\approx273{,}3^\\circ\\) och \\(v\\approx446{,}7^\\circ\\)</p>",
+        "ledtrad": "<p>Cosinusekvationen har lösningarna \\(\\pm v_0+n\\cdot360^\\circ\\).</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Skriv den allmänna lösningen och välj ut lösningarna i intervallet.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 1,
+    "omr": "trig_grundekvationer",
+    "niva": "C",
+    "typ": "lösningar i radianer i intervall",
+    "poang": "2/2/0",
+    "t": "<p>Lös ekvationen i intervallet \\(2\\pi\\le x\\le4\\pi\\). Svara med två decimaler.</p><ol type=\"a\"><li>\\(\\cos x=\\dfrac14\\)</li><li>\\(\\cos x=\\dfrac\\pi4\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\arccos\\dfrac14\\approx1{,}318\\). I intervallet: \\(2\\pi+1{,}318\\approx7{,}60\\) och \\(4\\pi-1{,}318\\approx11{,}25\\).</p><p><strong>Svar:</strong> \\(x\\approx7{,}60\\) och \\(x\\approx11{,}25\\)</p></li><li><p>\\(\\arccos\\dfrac\\pi4\\approx0{,}668\\). I intervallet: \\(2\\pi+0{,}668\\approx6{,}95\\) och \\(4\\pi-0{,}668\\approx11{,}90\\).</p><p><strong>Svar:</strong> \\(x\\approx6{,}95\\) och \\(x\\approx11{,}90\\)</p></li></ol>",
+    "id": "1.683",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundläggande trigonometriska ekvationer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "7.60, 11.25",
+      "6.95, 11.90"
+    ],
+    "tolerans": [
+      0.006,
+      0.006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "lösningsmängd",
+      "lösningsmängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Lös ekvationen i intervallet \\(2\\pi\\le x\\le4\\pi\\). Svara med två decimaler.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\cos x=\\dfrac14\\)",
+        "t": "<p>Lös ekvationen i intervallet \\(2\\pi\\le x\\le4\\pi\\). Svara med två decimaler.</p><p>\\(\\cos x=\\dfrac14\\)</p>",
+        "s": "<p>\\(\\arccos\\dfrac14\\approx1{,}318\\). I intervallet: \\(2\\pi+1{,}318\\approx7{,}60\\) och \\(4\\pi-1{,}318\\approx11{,}25\\).</p><p><strong>Svar:</strong> \\(x\\approx7{,}60\\) och \\(x\\approx11{,}25\\)</p>",
+        "ledtrad": "<p>Lösningarna är \\(\\pm x_0+n\\cdot2\\pi\\).</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\cos x=\\dfrac\\pi4\\)",
+        "t": "<p>Lös ekvationen i intervallet \\(2\\pi\\le x\\le4\\pi\\). Svara med två decimaler.</p><p>\\(\\cos x=\\dfrac\\pi4\\)</p>",
+        "s": "<p>\\(\\arccos\\dfrac\\pi4\\approx0{,}668\\). I intervallet: \\(2\\pi+0{,}668\\approx6{,}95\\) och \\(4\\pi-0{,}668\\approx11{,}90\\).</p><p><strong>Svar:</strong> \\(x\\approx6{,}95\\) och \\(x\\approx11{,}90\\)</p>",
+        "ledtrad": "<p>\\(\\dfrac\\pi4\\approx0{,}785\\) ligger mellan −1 och 1, så ekvationen har lösningar.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Räknaren ska stå i radianer.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 1,
+    "omr": "trig_grundekvationer",
+    "niva": "C",
+    "typ": "multipel vinkel i intervall",
+    "poang": "1/3/0",
+    "t": "<p>Lös ekvationen för \\(0^\\circ\\le x\\lt360^\\circ\\). Svara med en decimal.</p><ol type=\"a\"><li>\\(\\sin2x=0{,}78\\)</li><li>\\(\\sin(x-25^\\circ)=0{,}25\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(2x\\approx51{,}3^\\circ+n\\cdot360^\\circ\\) eller \\(2x\\approx128{,}7^\\circ+n\\cdot360^\\circ\\).</p><p>\\(x\\approx25{,}6^\\circ+n\\cdot180^\\circ\\) eller \\(x\\approx64{,}4^\\circ+n\\cdot180^\\circ\\). I intervallet: 25,6°, 64,4°, 205,6° och 244,4°.</p><p><strong>Svar:</strong> \\(x\\approx25{,}6^\\circ,\\ 64{,}4^\\circ,\\ 205{,}6^\\circ,\\ 244{,}4^\\circ\\)</p></li><li><p>\\(x-25^\\circ\\approx14{,}5^\\circ\\) eller \\(x-25^\\circ\\approx165{,}5^\\circ\\) (plus multiplar av 360°).</p><p>\\(x\\approx39{,}5^\\circ\\) eller \\(x\\approx190{,}5^\\circ\\).</p><p><strong>Svar:</strong> \\(x\\approx39{,}5^\\circ\\) och \\(x\\approx190{,}5^\\circ\\)</p></li></ol>",
+    "id": "1.684",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "25.6, 64.4, 205.6, 244.4",
+      "39.5, 190.5"
+    ],
+    "tolerans": [
+      0.06,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "lösningsmängd",
+      "lösningsmängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Lös ekvationen för \\(0^\\circ\\le x\\lt360^\\circ\\). Svara med en decimal.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\sin2x=0{,}78\\)",
+        "t": "<p>Lös ekvationen för \\(0^\\circ\\le x\\lt360^\\circ\\). Svara med en decimal.</p><p>\\(\\sin2x=0{,}78\\)</p>",
+        "s": "<p>\\(2x\\approx51{,}3^\\circ+n\\cdot360^\\circ\\) eller \\(2x\\approx128{,}7^\\circ+n\\cdot360^\\circ\\).</p><p>\\(x\\approx25{,}6^\\circ+n\\cdot180^\\circ\\) eller \\(x\\approx64{,}4^\\circ+n\\cdot180^\\circ\\). I intervallet: 25,6°, 64,4°, 205,6° och 244,4°.</p><p><strong>Svar:</strong> \\(x\\approx25{,}6^\\circ,\\ 64{,}4^\\circ,\\ 205{,}6^\\circ,\\ 244{,}4^\\circ\\)</p>",
+        "ledtrad": "<p>Lös först för \\(2x\\) och dela sedan med 2. Perioden halveras.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\sin(x-25^\\circ)=0{,}25\\)",
+        "t": "<p>Lös ekvationen för \\(0^\\circ\\le x\\lt360^\\circ\\). Svara med en decimal.</p><p>\\(\\sin(x-25^\\circ)=0{,}25\\)</p>",
+        "s": "<p>\\(x-25^\\circ\\approx14{,}5^\\circ\\) eller \\(x-25^\\circ\\approx165{,}5^\\circ\\) (plus multiplar av 360°).</p><p>\\(x\\approx39{,}5^\\circ\\) eller \\(x\\approx190{,}5^\\circ\\).</p><p><strong>Svar:</strong> \\(x\\approx39{,}5^\\circ\\) och \\(x\\approx190{,}5^\\circ\\)</p>",
+        "ledtrad": "<p>Lös för vinkeln \\(x-25^\\circ\\) först.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Lös för hela argumentet och räkna sedan ut \\(x\\).</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
+    "arbetsinsats": 2
   },
   {
     "id": "1.632",

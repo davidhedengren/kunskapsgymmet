@@ -3811,7 +3811,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-02-ma4a";
+const BANK_VERSION="2026-10-02-ma4b";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9366,7 +9366,9 @@ function formatRatt(anv,facit,meta){
       /* Den tomma mängden kan skrivas {}, ∅, Ø eller "tomma mängden". */
       const tom=x=>/^\s*(\{\s*\}|∅|Ø|ø|tomma mängden|den tomma mängden|saknar lösning|inga lösningar)\s*$/i.test(String(x));
       if(tom(f)||tom(a)) return tom(f)&&tom(a);
-      const la=listaAv(a).map(hogerled), lf=listaAv(f).map(hogerled);
+      /* Gradtecken skrivs ofta efter varje lösning ("25,6°, 64,4°") och påverkar inte värdet. */
+      const utanGrad=x=>String(x).replace(/\s*°/g,"");
+      const la=listaAv(utanGrad(a)).map(hogerled), lf=listaAv(utanGrad(f)).map(hogerled);
       if(la.length!==lf.length) return false;
       const kvar=[...lf];
       return la.every(v=>{

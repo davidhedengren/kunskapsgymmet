@@ -23386,6 +23386,974 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "E",
+    "typ": "magnetisk kraft vinkelrätt mot fältet",
+    "poang": "(1/0/0)",
+    "t": "<p>En elektron med farten 3,0 Mm/s rör sig vinkelrätt mot ett homogent magnetfält med flödestätheten 1,2 kT. Hur stor är den magnetiska kraften?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(F=qvB=1{,}602\\cdot10^{-19}\\cdot3{,}0\\cdot10^6\\cdot1{,}2\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{-10}\\) N</p>",
+    "id": "3.312",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.767199999999999e-10,
+    "tolerans": 8.65e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=qvB\\) när hastigheten är vinkelrät mot fältet.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "E",
+    "typ": "magnetisk kraft vid snett infall",
+    "poang": "(1/0/0)",
+    "t": "<p>En elektron med farten 50 km/s rör sig i vinkeln 72° mot ett homogent magnetfält med flödestätheten 45 mT. Hur stor är den magnetiska kraften?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>Bara hastighetskomposanten vinkelrät mot fältet ger kraft: \\(F=qvB\\sin72^\\circ\\).</p><p><strong>Svar:</strong> \\(3{,}4\\cdot10^{-16}\\) N</p>",
+    "id": "3.313",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.428083212985881e-16,
+    "tolerans": 5.14e-18,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken del av hastigheten är vinkelrät mot fältet?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "E",
+    "typ": "kraft på jon i blodflöde",
+    "poang": "(1/0/0)",
+    "t": "<p>En elektromagnetisk flödesmätare utsätter en artär för ett magnetfält på 0,20 T. Blodet strömmar vinkelrätt mot fältet med 15 cm/s. Hur stor magnetisk kraft verkar på en kloridjon Cl⁻?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>Kloridjonen har laddningen \\(-e\\): \\(F=evB=1{,}602\\cdot10^{-19}\\cdot0{,}15\\cdot0{,}20\\).</p><p><strong>Svar:</strong> \\(4{,}8\\cdot10^{-21}\\) N</p>",
+    "id": "3.314",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.806e-21,
+    "tolerans": 7.21e-23,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken laddning har en kloridjon?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "E",
+    "typ": "flödestäthet ur kraft",
+    "poang": "(1/0/0)",
+    "t": "<p>En elektron färdas norrut med farten \\(5{,}0\\cdot10^6\\) m/s vinkelrätt mot ett homogent magnetfält och påverkas av kraften \\(3{,}2\\cdot10^{-13}\\) N rakt uppåt. Hur stor är flödestätheten?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(B=\\dfrac{F}{qv}=\\dfrac{3{,}2\\cdot10^{-13}}{1{,}602\\cdot10^{-19}\\cdot5{,}0\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) T</p>",
+    "id": "3.315",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3995006242197253,
+    "tolerans": 0.00599,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(B\\) ur \\(F=qvB\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "T",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "fart ur kraft och vinkel",
+    "poang": "(1/1/0)",
+    "t": "<p>En elektron påverkas av kraften \\(3{,}5\\cdot10^{-15}\\) N när den rör sig i vinkeln 37° mot ett magnetfält med flödestätheten \\(2{,}5\\cdot10^{-3}\\) T. Vilken fart har elektronen?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(v=\\dfrac{F}{qB\\sin37^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{7}\\) m/s</p>",
+    "id": "3.316",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14521199.735152788,
+    "tolerans": 510000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=qvB\\sin\\alpha\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "vinkel ur kraft",
+    "poang": "(1/1/0)",
+    "t": "<p>En proton med farten \\(2{,}4\\cdot10^6\\) m/s rör sig i vinkeln \\(\\alpha\\) mot ett magnetfält med flödestätheten 2,5 T och påverkas av kraften \\(4{,}8\\cdot10^{-13}\\) N. Bestäm \\(\\alpha\\). Svara i grader.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(\\sin\\alpha=\\dfrac{F}{qvB}=\\dfrac{4{,}8\\cdot10^{-13}}{1{,}602\\cdot10^{-19}\\cdot2{,}4\\cdot10^6\\cdot2{,}5}\\approx0{,}50\\), så \\(\\alpha\\approx30^\\circ\\) (eller \\(150^\\circ\\)).</p><p><strong>Svar:</strong> \\(30\\) °</p>",
+    "id": "3.317",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 29.958710541270435,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(\\sin\\alpha\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "E",
+    "typ": "kraft på laddat flygplan",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett flygplan har laddningen 1 280 µC och flyger med 120 m/s vinkelrätt mot jordens magnetfält, \\(5{,}0\\cdot10^{-5}\\) T. Hur stor är den magnetiska kraften?</p>",
+    "s": "<p>\\(F=qvB=1{,}280\\cdot10^{-3}\\cdot120\\cdot5{,}0\\cdot10^{-5}\\).</p><p><strong>Svar:</strong> \\(7{,}7\\cdot10^{-6}\\) N</p>",
+    "id": "3.318",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.680000000000001e-06,
+    "tolerans": 1.15e-07,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=qvB\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "flödestäthet ur acceleration",
+    "poang": "(0/2/0)",
+    "t": "<p>En alfapartikel (massa \\(6{,}64\\cdot10^{-27}\\) kg, laddning \\(+2e\\)) rör sig med \\(2{,}0\\cdot10^6\\) m/s vinkelrätt mot ett magnetfält och får accelerationen \\(1{,}0\\cdot10^{14}\\) m/s². Hur stor är flödestätheten?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(ma=qvB\\iff B=\\dfrac{ma}{qv}=\\dfrac{6{,}64\\cdot10^{-27}\\cdot1{,}0\\cdot10^{14}}{2\\cdot1{,}602\\cdot10^{-19}\\cdot2{,}0\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) T</p>",
+    "id": "3.319",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0362047440699127,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kombinera Newtons andra lag med \\(F=qvB\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "T",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "fart och banradie ur rörelseenergi",
+    "poang": "(1/1/0)",
+    "t": "<p>En elektron med rörelseenergin \\(3{,}30\\cdot10^{-19}\\) J rör sig i en cirkelbana vinkelrätt mot ett magnetfält med flödestätheten 0,235 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><ol type=\"a\"><li>Vilken fart har elektronen?</li><li>Hur stor är banradien?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{\\dfrac{2E_k}{m}}\\).</p><p><strong>Svar:</strong> \\(8{,}5\\cdot10^{5}\\) m/s</p></li><li><p>\\(qvB=\\dfrac{mv^2}{r}\\iff r=\\dfrac{mv}{qB}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\cdot10^{-5}\\) m</p></li></ol>",
+    "id": "3.320",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      851209.8033520572,
+      2.0595718380571862e-05
+    ],
+    "tolerans": [
+      12800.0,
+      5.1e-07
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En elektron med rörelseenergin \\(3{,}30\\cdot10^{-19}\\) J rör sig i en cirkelbana vinkelrätt mot ett magnetfält med flödestätheten 0,235 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har elektronen?",
+        "t": "<p>En elektron med rörelseenergin \\(3{,}30\\cdot10^{-19}\\) J rör sig i en cirkelbana vinkelrätt mot ett magnetfält med flödestätheten 0,235 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Vilken fart har elektronen?</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2E_k}{m}}\\).</p><p><strong>Svar:</strong> \\(8{,}5\\cdot10^{5}\\) m/s</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är banradien?",
+        "t": "<p>En elektron med rörelseenergin \\(3{,}30\\cdot10^{-19}\\) J rör sig i en cirkelbana vinkelrätt mot ett magnetfält med flödestätheten 0,235 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Elektronens fart är \\(8{,}5\\cdot10^5\\) m/s.</p><p>Hur stor är banradien?</p>",
+        "s": "<p>\\(qvB=\\dfrac{mv^2}{r}\\iff r=\\dfrac{mv}{qB}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\cdot10^{-5}\\) m</p>",
+        "ledtrad": "<p>Den magnetiska kraften är centripetalkraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Den magnetiska kraften ger centripetalkraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "E",
+    "typ": "proton i cirkelbana",
+    "poang": "(3/0/0)",
+    "t": "<p>En proton rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,30 T i en cirkelbana med radien 5,5 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><ol type=\"a\"><li>Vilken fart har protonen?</li><li>Hur stor rörelseenergi har protonen? Svara i J.</li><li>Ange rörelseenergin i MeV.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{qBr}{m}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{6}\\) m/s</p></li><li><p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\cdot10^{-15}\\) J</p></li><li><p>\\(1\\ \\text{eV}=1{,}602\\cdot10^{-19}\\) J.</p><p><strong>Svar:</strong> \\(0{,}013\\) MeV</p></li></ol>",
+    "id": "3.321",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1579976.0908547516,
+      2.0881754004781826e-15,
+      0.013034802749551702
+    ],
+    "tolerans": [
+      51000.0,
+      5.1e-17,
+      0.00051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "J",
+      "MeV"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En proton rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,30 T i en cirkelbana med radien 5,5 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har protonen?",
+        "t": "<p>En proton rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,30 T i en cirkelbana med radien 5,5 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Vilken fart har protonen?</p>",
+        "s": "<p>\\(v=\\dfrac{qBr}{m}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{6}\\) m/s</p>",
+        "ledtrad": "<p>Sätt \\(qvB=\\dfrac{mv^2}{r}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor rörelseenergi har protonen? Svara i J.",
+        "t": "<p>En proton rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,30 T i en cirkelbana med radien 5,5 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Protonens fart är \\(1{,}6\\cdot10^6\\) m/s.</p><p>Hur stor rörelseenergi har protonen? Svara i J.</p>",
+        "s": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\cdot10^{-15}\\) J</p>",
+        "ledtrad": "<p>Använd farten från banradien.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ange rörelseenergin i MeV.",
+        "t": "<p>En proton rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,30 T i en cirkelbana med radien 5,5 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Rörelseenergin är \\(2{,}1\\cdot10^{-15}\\) J.</p><p>Ange rörelseenergin i MeV.</p>",
+        "s": "<p>\\(1\\ \\text{eV}=1{,}602\\cdot10^{-19}\\) J.</p><p><strong>Svar:</strong> \\(0{,}013\\) MeV</p>",
+        "ledtrad": "<p>Dela med \\(1{,}602\\cdot10^{-13}\\) J/MeV.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(qvB=\\dfrac{mv^2}{r}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "flödestäthet ur energi i eV",
+    "poang": "(1/1/0)",
+    "t": "<p>En elektron med rörelseenergin 5,0 eV rör sig i en cirkelbana med radien 4,5 cm vinkelrätt mot ett magnetfält. Bestäm flödestätheten.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(v=\\sqrt{\\dfrac{2E_k}{m}}\\) med \\(E_k=5{,}0\\cdot1{,}602\\cdot10^{-19}\\) J. \\(B=\\dfrac{mv}{qr}\\).</p><p><strong>Svar:</strong> \\(0{,}00017\\) T</p>",
+    "id": "3.322",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.00016756819106722573,
+    "tolerans": 5.1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna om energin till joule och bestäm farten först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "T",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "banradie ur energi i keV",
+    "poang": "(1/1/0)",
+    "t": "<p>En proton med rörelseenergin 55 keV rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,35 T. Bestäm banradien.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(v=\\sqrt{\\dfrac{2E_k}{m_p}}\\), \\(r=\\dfrac{m_pv}{eB}\\).</p><p><strong>Svar:</strong> \\(0{,}097\\) m</p>",
+    "id": "3.323",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.09683782194776086,
+    "tolerans": 0.00145,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten ur rörelseenergin.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "elektron i spiralbana",
+    "poang": "(1/3/0)",
+    "t": "<p>En elektron kommer in i en bubbelkammare vinkelrätt mot ett homogent magnetfält. Den bromsas av gasen och går i en spiral. Från början är farten \\(1{,}5\\cdot10^7\\) m/s och banradien 5,0 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><ol type=\"a\"><li>Vilken fart har elektronen när banradien har minskat till 2,0 cm?</li><li>Hur mycket har rörelseenergin minskat? Svara i keV.</li><li>Hur stor är magnetfältets flödestäthet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=\\dfrac{mv}{qB}\\), så \\(v\\propto r\\): \\(v=1{,}5\\cdot10^7\\cdot\\dfrac{2{,}0}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\cdot10^{6}\\) m/s</p></li><li><p>\\(\\Delta E_k=\\dfrac{m_e}{2}(v_0^2-v^2)\\) räknat i eV.</p><p><strong>Svar:</strong> \\(0{,}54\\) keV</p></li><li><p>\\(B=\\dfrac{m_ev_0}{er_0}=\\dfrac{9{,}109\\cdot10^{-31}\\cdot1{,}5\\cdot10^7}{1{,}602\\cdot10^{-19}\\cdot0{,}050}\\).</p><p><strong>Svar:</strong> \\(0{,}0017\\) T</p></li></ol>",
+    "id": "3.324",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6000000.0,
+      0.5373286516853932,
+      0.0017058052434456925
+    ],
+    "tolerans": [
+      90000.0,
+      0.00806,
+      5.1e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "keV",
+      "T"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En elektron kommer in i en bubbelkammare vinkelrätt mot ett homogent magnetfält. Den bromsas av gasen och går i en spiral. Från början är farten \\(1{,}5\\cdot10^7\\) m/s och banradien 5,0 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har elektronen när banradien har minskat till 2,0 cm?",
+        "t": "<p>En elektron kommer in i en bubbelkammare vinkelrätt mot ett homogent magnetfält. Den bromsas av gasen och går i en spiral. Från början är farten \\(1{,}5\\cdot10^7\\) m/s och banradien 5,0 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Vilken fart har elektronen när banradien har minskat till 2,0 cm?</p>",
+        "s": "<p>\\(r=\\dfrac{mv}{qB}\\), så \\(v\\propto r\\): \\(v=1{,}5\\cdot10^7\\cdot\\dfrac{2{,}0}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\cdot10^{6}\\) m/s</p>",
+        "ledtrad": "<p>Hur beror radien på farten när fältet är detsamma?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket har rörelseenergin minskat? Svara i keV.",
+        "t": "<p>En elektron kommer in i en bubbelkammare vinkelrätt mot ett homogent magnetfält. Den bromsas av gasen och går i en spiral. Från början är farten \\(1{,}5\\cdot10^7\\) m/s och banradien 5,0 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Farten minskar från \\(1{,}5\\cdot10^7\\) m/s till \\(6{,}0\\cdot10^6\\) m/s.</p><p>Hur mycket har rörelseenergin minskat? Svara i keV.</p>",
+        "s": "<p>\\(\\Delta E_k=\\dfrac{m_e}{2}(v_0^2-v^2)\\) räknat i eV.</p><p><strong>Svar:</strong> \\(0{,}54\\) keV</p>",
+        "ledtrad": "<p>Beräkna rörelseenergin före och efter.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är magnetfältets flödestäthet?",
+        "t": "<p>En elektron kommer in i en bubbelkammare vinkelrätt mot ett homogent magnetfält. Den bromsas av gasen och går i en spiral. Från början är farten \\(1{,}5\\cdot10^7\\) m/s och banradien 5,0 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Hur stor är magnetfältets flödestäthet?</p>",
+        "s": "<p>\\(B=\\dfrac{m_ev_0}{er_0}=\\dfrac{9{,}109\\cdot10^{-31}\\cdot1{,}5\\cdot10^7}{1{,}602\\cdot10^{-19}\\cdot0{,}050}\\).</p><p><strong>Svar:</strong> \\(0{,}0017\\) T</p>",
+        "ledtrad": "<p>Använd startvärdena.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Banradien är \\(r=\\dfrac{mv}{qB}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "energiförlust i spiral",
+    "poang": "(0/2/0)",
+    "t": "<p>En proton rör sig i en gas vinkelrätt mot ett magnetfält med flödestätheten 0,010 T och bromsas så att banan blir en spiral. I punkten P är banradien 10,0 mm och i punkten Q 8,5 mm. Hur mycket rörelseenergi har protonen förlorat? Svara i eV.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(v=\\dfrac{eBr}{m_p}\\) och \\(E_k=\\dfrac{(eBr)^2}{2m_p}\\). \\(\\Delta E_k=\\dfrac{(eB)^2}{2m_p}(r_P^2-r_Q^2)\\), omräknat till eV.</p><p><strong>Svar:</strong> \\(0{,}13\\) eV</p>",
+    "id": "3.325",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.13286162582187686,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck rörelseenergin med banradien.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "eV",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "flödestäthet efter acceleration",
+    "poang": "(1/1/0)",
+    "t": "<p>Elektroner accelereras från vila med spänningen 154 V och skickas vinkelrätt in i ett homogent magnetfält. De går i en cirkelbana med radien 19,3 cm. Hur stor är flödestätheten?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(eU=\\dfrac{m_ev^2}{2}\\iff v=\\sqrt{\\dfrac{2eU}{m_e}}\\). \\(B=\\dfrac{m_ev}{er}\\).</p><p><strong>Svar:</strong> \\(0{,}000217\\) T</p>",
+    "id": "3.326",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.00021683138527625603,
+    "tolerans": 3.25e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten med energiprincipen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "T",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "masspektrometer",
+    "poang": "(1/1/0)",
+    "t": "<p>En envärt positiv jon med massan \\(2{,}50\\cdot10^{-26}\\) kg accelereras med spänningen 250 V och skickas vinkelrätt in i ett magnetfält med flödestätheten 0,500 T. Hur stor blir banradien?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(v=\\sqrt{\\dfrac{2eU}{m}}\\), \\(r=\\dfrac{mv}{eB}=\\dfrac1B\\sqrt{\\dfrac{2mU}{e}}\\).</p><p><strong>Svar:</strong> \\(0{,}0177\\) m</p>",
+    "id": "3.327",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hastighetsfilter och masspektrometer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.017666631333439334,
+    "tolerans": 0.000265,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kombinera energiprincipen med \\(r=\\dfrac{mv}{qB}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "laddade_partiklar__hastighetsfilter_och_masspektrometer"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "alfapartikel i cirkelbana",
+    "poang": "(1/3/0)",
+    "t": "<p>En alfapartikel (massa \\(6{,}64\\cdot10^{-27}\\) kg, laddning \\(3{,}2\\cdot10^{-19}\\) C) går i en cirkelbana med radien 25 cm i ett magnetfält med flödestätheten 1,5 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><ol type=\"a\"><li>Hur stor fart har den?</li><li>Hur stor rörelseenergi har den? Svara i MeV.</li><li>Hur stor spänning krävs för att accelerera alfapartikeln från vila till denna energi? Svara i MV.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{qBr}{m}=\\dfrac{3{,}2\\cdot10^{-19}\\cdot1{,}5\\cdot0{,}25}{6{,}64\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\cdot10^{7}\\) m/s</p></li><li><p>\\(E_k=\\dfrac{mv^2}{2}\\), omräknat med \\(1\\ \\text{MeV}=1{,}602\\cdot10^{-13}\\) J.</p><p><strong>Svar:</strong> \\(6{,}8\\) MeV</p></li><li><p>\\(qU=E_k\\iff U=\\dfrac{E_k}{2e}\\). Med energin i eV blir spänningen hälften så många volt.</p><p><strong>Svar:</strong> \\(3{,}4\\) MV</p></li></ol>",
+    "id": "3.328",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18072289.156626504,
+      6.768647624204682,
+      3.3885542168674694
+    ],
+    "tolerans": [
+      510000.0,
+      0.102,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "MeV",
+      "MV"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En alfapartikel (massa \\(6{,}64\\cdot10^{-27}\\) kg, laddning \\(3{,}2\\cdot10^{-19}\\) C) går i en cirkelbana med radien 25 cm i ett magnetfält med flödestätheten 1,5 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor fart har den?",
+        "t": "<p>En alfapartikel (massa \\(6{,}64\\cdot10^{-27}\\) kg, laddning \\(3{,}2\\cdot10^{-19}\\) C) går i en cirkelbana med radien 25 cm i ett magnetfält med flödestätheten 1,5 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Hur stor fart har den?</p>",
+        "s": "<p>\\(v=\\dfrac{qBr}{m}=\\dfrac{3{,}2\\cdot10^{-19}\\cdot1{,}5\\cdot0{,}25}{6{,}64\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\cdot10^{7}\\) m/s</p>",
+        "ledtrad": "<p>\\(qvB=\\dfrac{mv^2}{r}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor rörelseenergi har den? Svara i MeV.",
+        "t": "<p>En alfapartikel (massa \\(6{,}64\\cdot10^{-27}\\) kg, laddning \\(3{,}2\\cdot10^{-19}\\) C) går i en cirkelbana med radien 25 cm i ett magnetfält med flödestätheten 1,5 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Farten är \\(1{,}8\\cdot10^7\\) m/s.</p><p>Hur stor rörelseenergi har den? Svara i MeV.</p>",
+        "s": "<p>\\(E_k=\\dfrac{mv^2}{2}\\), omräknat med \\(1\\ \\text{MeV}=1{,}602\\cdot10^{-13}\\) J.</p><p><strong>Svar:</strong> \\(6{,}8\\) MeV</p>",
+        "ledtrad": "<p>Beräkna energin i joule och räkna om.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor spänning krävs för att accelerera alfapartikeln från vila till denna energi? Svara i MV.",
+        "t": "<p>En alfapartikel (massa \\(6{,}64\\cdot10^{-27}\\) kg, laddning \\(3{,}2\\cdot10^{-19}\\) C) går i en cirkelbana med radien 25 cm i ett magnetfält med flödestätheten 1,5 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Rörelseenergin är 6,8 MeV.</p><p>Hur stor spänning krävs för att accelerera alfapartikeln från vila till denna energi? Svara i MV.</p>",
+        "s": "<p>\\(qU=E_k\\iff U=\\dfrac{E_k}{2e}\\). Med energin i eV blir spänningen hälften så många volt.</p><p><strong>Svar:</strong> \\(3{,}4\\) MV</p>",
+        "ledtrad": "<p>Arbetet \\(qU\\) blir rörelseenergi. Laddningen är \\(2e\\).</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Den magnetiska kraften ger centripetalkraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "accelerationsspänning ur banradie",
+    "poang": "(0/2/0)",
+    "t": "<p>En proton accelereras från vila och skjuts sedan vinkelrätt in i ett magnetfält med flödestätheten 1,16 T. Den går i en cirkelbana med radien 8,30 mm. Bestäm accelerationsspänningen.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(v=\\dfrac{eBr}{m_p}\\) och \\(eU=\\dfrac{m_pv^2}{2}\\iff U=\\dfrac{eB^2r^2}{2m_p}\\).</p><p><strong>Svar:</strong> \\(4\\,438\\) V</p>",
+    "id": "3.329",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4438.2191024506865,
+    "tolerans": 66.6,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kombinera \\(r=\\dfrac{mv}{qB}\\) med energiprincipen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "V",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "A",
+    "typ": "förhållande mellan banradier",
+    "poang": "(0/1/1)",
+    "t": "<p>En proton och en elektron har samma rörelseenergi och rör sig vinkelrätt mot samma homogena magnetfält. Bestäm förhållandet mellan protonens och elektronens banradie.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>\\(r=\\dfrac{mv}{qB}=\\dfrac{\\sqrt{2mE_k}}{qB}\\). Med samma laddning och energi är \\(\\dfrac{r_p}{r_e}=\\sqrt{\\dfrac{m_p}{m_e}}\\approx43\\).</p><p><strong>Svar:</strong> \\(43\\) </p>",
+    "id": "3.330",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 42.856097305962976,
+    "tolerans": 0.643,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck rörelsemängden \\(mv\\) med rörelseenergin.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "A",
+    "typ": "förhållande mellan massor",
+    "poang": "(0/1/2)",
+    "t": "<p>Två partiklar A och B med lika stor laddning accelereras med spänningarna \\(U\\) respektive \\(3U\\). I samma magnetfält går de i cirkelbanor med radierna \\(R\\) respektive \\(2R\\). Bestäm \\(\\dfrac{m_A}{m_B}\\).</p>",
+    "s": "<p>\\(r=\\dfrac1B\\sqrt{\\dfrac{2mU}{q}}\\), så \\(r^2\\propto mU\\). \\(\\dfrac{R^2}{(2R)^2}=\\dfrac{m_AU}{m_B\\cdot3U}\\iff\\dfrac{m_A}{m_B}=\\dfrac34\\).</p><p><strong>Svar:</strong> \\(\\dfrac34\\)</p><p><strong>Svar:</strong> \\(\\dfrac34\\)</p>",
+    "id": "3.331",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
+    "tolerans": 0.0112,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck radien med massa och spänning.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "radie och omloppstid",
+    "poang": "(1/1/0)",
+    "t": "<p>En proton med farten \\(5{,}0\\cdot10^5\\) m/s rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,67 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><ol type=\"a\"><li>Beräkna banradien.</li><li>Beräkna omloppstiden.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=\\dfrac{m_pv}{eB}\\).</p><p><strong>Svar:</strong> \\(0{,}0078\\) m</p></li><li><p>\\(T=\\dfrac{2\\pi m_p}{eB}\\), oberoende av farten.</p><p><strong>Svar:</strong> \\(9{,}8\\cdot10^{-8}\\) s</p></li></ol>",
+    "id": "3.332",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.007793429854472954,
+      9.793512790831841e-08
+    ],
+    "tolerans": [
+      0.000117,
+      1.47e-09
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En proton med farten \\(5{,}0\\cdot10^5\\) m/s rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,67 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna banradien.",
+        "t": "<p>En proton med farten \\(5{,}0\\cdot10^5\\) m/s rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,67 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Beräkna banradien.</p>",
+        "s": "<p>\\(r=\\dfrac{m_pv}{eB}\\).</p><p><strong>Svar:</strong> \\(0{,}0078\\) m</p>",
+        "ledtrad": "<p>\\(qvB=\\dfrac{mv^2}{r}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna omloppstiden.",
+        "t": "<p>En proton med farten \\(5{,}0\\cdot10^5\\) m/s rör sig vinkelrätt mot ett magnetfält med flödestätheten 0,67 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Beräkna omloppstiden.</p>",
+        "s": "<p>\\(T=\\dfrac{2\\pi m_p}{eB}\\), oberoende av farten.</p><p><strong>Svar:</strong> \\(9{,}8\\cdot10^{-8}\\) s</p>",
+        "ledtrad": "<p>\\(T=\\dfrac{2\\pi r}{v}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Den magnetiska kraften är centripetalkraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "jon accelereras och böjs av",
+    "poang": "(1/2/0)",
+    "t": "<p>En heliumjon med laddningen \\(+2e\\) och massan \\(6{,}64\\cdot10^{-27}\\) kg accelereras från vila med spänningen 2,7 kV och skickas vinkelrätt in i ett magnetfält med flödestätheten 0,340 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><ol type=\"a\"><li>Vilken fart får jonen?</li><li>Hur stor blir banradien?</li><li>Hur lång tid tar ett varv?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(qU=\\dfrac{mv^2}{2}\\iff v=\\sqrt{\\dfrac{2\\cdot2e\\cdot2\\,700}{m}}\\).</p><p><strong>Svar:</strong> \\(5{,}1\\cdot10^{5}\\) m/s</p></li><li><p>\\(r=\\dfrac{mv}{qB}\\).</p><p><strong>Svar:</strong> \\(0{,}031\\) m</p></li><li><p>\\(T=\\dfrac{2\\pi m}{qB}\\).</p><p><strong>Svar:</strong> \\(3{,}8\\cdot10^{-7}\\) s</p></li></ol>",
+    "id": "3.333",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hastighetsfilter och masspektrometer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      510456.91792769445,
+      0.031113992941175467,
+      3.829803778335211e-07
+    ],
+    "tolerans": [
+      7660.0,
+      0.00051,
+      5.74e-09
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En heliumjon med laddningen \\(+2e\\) och massan \\(6{,}64\\cdot10^{-27}\\) kg accelereras från vila med spänningen 2,7 kV och skickas vinkelrätt in i ett magnetfält med flödestätheten 0,340 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart får jonen?",
+        "t": "<p>En heliumjon med laddningen \\(+2e\\) och massan \\(6{,}64\\cdot10^{-27}\\) kg accelereras från vila med spänningen 2,7 kV och skickas vinkelrätt in i ett magnetfält med flödestätheten 0,340 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Vilken fart får jonen?</p>",
+        "s": "<p>\\(qU=\\dfrac{mv^2}{2}\\iff v=\\sqrt{\\dfrac{2\\cdot2e\\cdot2\\,700}{m}}\\).</p><p><strong>Svar:</strong> \\(5{,}1\\cdot10^{5}\\) m/s</p>",
+        "ledtrad": "<p>Använd energiprincipen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor blir banradien?",
+        "t": "<p>En heliumjon med laddningen \\(+2e\\) och massan \\(6{,}64\\cdot10^{-27}\\) kg accelereras från vila med spänningen 2,7 kV och skickas vinkelrätt in i ett magnetfält med flödestätheten 0,340 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Jonens fart är \\(5{,}1\\cdot10^5\\) m/s.</p><p>Hur stor blir banradien?</p>",
+        "s": "<p>\\(r=\\dfrac{mv}{qB}\\).</p><p><strong>Svar:</strong> \\(0{,}031\\) m</p>",
+        "ledtrad": "<p>\\(qvB=\\dfrac{mv^2}{r}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång tid tar ett varv?",
+        "t": "<p>En heliumjon med laddningen \\(+2e\\) och massan \\(6{,}64\\cdot10^{-27}\\) kg accelereras från vila med spänningen 2,7 kV och skickas vinkelrätt in i ett magnetfält med flödestätheten 0,340 T.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Hur lång tid tar ett varv?</p>",
+        "s": "<p>\\(T=\\dfrac{2\\pi m}{qB}\\).</p><p><strong>Svar:</strong> \\(3{,}8\\cdot10^{-7}\\) s</p>",
+        "ledtrad": "<p>Omloppstiden beror inte på farten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Energiprincipen ger farten; magnetkraften ger banan.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "laddade_partiklar__hastighetsfilter_och_masspektrometer"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "C",
+    "typ": "kvarts varv i magnetfält",
+    "poang": "(0/2/0)",
+    "t": "<p>Alfapartiklar (massa \\(6{,}64\\cdot10^{-27}\\) kg, laddning \\(+2e\\)) böjs av 90° i ett homogent magnetfält med flödestätheten 0,050 T. Hur lång tid befinner sig en partikel i fältet?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "s": "<p>En kvarts varv: \\(t=\\dfrac T4=\\dfrac{2\\pi m}{4\\cdot2eB}\\).</p><p><strong>Svar:</strong> \\(6{,}5\\cdot10^{-7}\\) s</p>",
+    "id": "3.334",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.510666423169859e-07,
+    "tolerans": 9.77e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken del av ett varv går partikeln?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
+    "kap": 3,
+    "omr": "laddade_partiklar",
+    "niva": "A",
+    "typ": "spiralbana",
+    "poang": "(0/3/2)",
+    "t": "<p>En elektron med farten \\(3{,}0\\cdot10^6\\) m/s rör sig i vinkeln 45° mot ett homogent magnetfält med flödestätheten 0,23 T. Den följer en spiralbana.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><ol type=\"a\"><li>Bestäm spiralens radie.</li><li>Bestäm avståndet längs fältet mellan två varv (stigningen).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Bara \\(v_\\perp=v\\sin45^\\circ\\) ger kraft: \\(r=\\dfrac{m_ev_\\perp}{eB}\\).</p><p><strong>Svar:</strong> \\(5{,}2\\cdot10^{-5}\\) m</p></li><li><p>\\(T=\\dfrac{2\\pi m_e}{eB}\\) och \\(p=v_\\parallel T=v\\cos45^\\circ\\cdot T\\).</p><p><strong>Svar:</strong> \\(0{,}00033\\) m</p></li></ol>",
+    "id": "3.335",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetisk kraft och banradie",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.2442889348870396e-05,
+      0.00032950839182286734
+    ],
+    "tolerans": [
+      7.87e-07,
+      5.1e-06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En elektron med farten \\(3{,}0\\cdot10^6\\) m/s rör sig i vinkeln 45° mot ett homogent magnetfält med flödestätheten 0,23 T. Den följer en spiralbana.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spiralens radie.",
+        "t": "<p>En elektron med farten \\(3{,}0\\cdot10^6\\) m/s rör sig i vinkeln 45° mot ett homogent magnetfält med flödestätheten 0,23 T. Den följer en spiralbana.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Bestäm spiralens radie.</p>",
+        "s": "<p>Bara \\(v_\\perp=v\\sin45^\\circ\\) ger kraft: \\(r=\\dfrac{m_ev_\\perp}{eB}\\).</p><p><strong>Svar:</strong> \\(5{,}2\\cdot10^{-5}\\) m</p>",
+        "ledtrad": "<p>Vilken hastighetskomposant är vinkelrät mot fältet?</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm avståndet längs fältet mellan två varv (stigningen).",
+        "t": "<p>En elektron med farten \\(3{,}0\\cdot10^6\\) m/s rör sig i vinkeln 45° mot ett homogent magnetfält med flödestätheten 0,23 T. Den följer en spiralbana.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Bestäm avståndet längs fältet mellan två varv (stigningen).</p>",
+        "s": "<p>\\(T=\\dfrac{2\\pi m_e}{eB}\\) och \\(p=v_\\parallel T=v\\cos45^\\circ\\cdot T\\).</p><p><strong>Svar:</strong> \\(0{,}00033\\) m</p>",
+        "ledtrad": "<p>Hur långt rör sig elektronen längs fältet under en omloppstid?</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5
+      }
+    ],
+    "ledtrad": "<p>Dela upp hastigheten i komposanter längs och vinkelrätt mot fältet.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+  },
+  {
     "id": "5.51",
     "kap": 5,
     "omr": "kosmologi",

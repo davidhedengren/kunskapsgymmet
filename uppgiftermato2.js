@@ -3668,6 +3668,60 @@ window.BANKMATO2 = [
     "tolerans": 0.001
   },
   {
+    "id": "1.679",
+    "kap": 1,
+    "omr": "enhetscirkeln_trianglar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Punkterna \\(P\\), \\(Q\\) och \\(R\\) ligger på enhetscirkeln vid vinklarna \\(v\\), \\(v+120^\\circ\\) och \\(v+240^\\circ\\).</p><p>Bestäm summan av punkternas \\(x\\)-koordinater, \\(\\cos v+\\cos(v+120^\\circ)+\\cos(v+240^\\circ)\\), när \\(v=10^\\circ\\). Förklara varför svaret inte beror på \\(v\\).</p>",
+    "s": "<p>Punkterna är hörnen i en liksidig triangel inskriven i enhetscirkeln. Triangelns tyngdpunkt är cirkelns medelpunkt, origo.</p><p>Tyngdpunktens \\(x\\)-koordinat är medelvärdet av hörnens \\(x\\)-koordinater. Det är 0, så summan är 0 för alla \\(v\\).</p><p>Kontroll för \\(v=10^\\circ\\): \\(\\cos10^\\circ+\\cos130^\\circ+\\cos250^\\circ\\approx0{,}985-0{,}643-0{,}342=0\\).</p><p>Algebraiskt: \\(\\cos(v+120^\\circ)+\\cos(v+240^\\circ)=2\\cos(v+180^\\circ)\\cos60^\\circ=-\\cos v\\).</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Exakta trigonometriska värden i enhetscirkeln",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita de tre punkterna. Vilken figur bildar de, och var ligger dess tyngdpunkt?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 0.001
+  },
+  {
+    "id": "1.680",
+    "kap": 1,
+    "omr": "enhetscirkeln_trianglar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Punkten \\((-0{,}6;\\ -0{,}8)\\) ligger på enhetscirkeln. Bestäm vinkeln \\(v\\), där \\(0^\\circ\\le v&lt;360^\\circ\\). Svara med en decimal.</p>",
+    "s": "<p>Båda koordinaterna är negativa, så punkten ligger i tredje kvadranten.</p><p>Referensvinkeln är \\(\\cos^{-1}0{,}6\\approx53{,}1^\\circ\\). I tredje kvadranten: \\(v=180^\\circ+53{,}1^\\circ=233{,}1^\\circ\\).</p><p><strong>Svar:</strong> \\(v\\approx233{,}1^\\circ\\)</p>",
+    "familj": "Koordinater och tecken i enhetscirkeln",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>I vilken kvadrant ligger punkten? Bestäm först en spetsig referensvinkel.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 233.13010235415598,
+    "tolerans": 0.1,
+    "svarEnhet": "°"
+  },
+  {
     "id": "1.565",
     "kap": 1,
     "omr": "enhetscirkeln_formler",
@@ -23998,6 +24052,34 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.573",
+    "kap": 2,
+    "omr": "cirkelsektorn",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>Ett cirkelsegment avgränsas av en korda och den mindre bågen i en cirkel med radien 10 cm. Segmentets area är 10 cm².</p><p>Bestäm medelpunktsvinkeln \\(\\theta\\) i radianer med två decimaler. Använd ett digitalt verktyg för att lösa ekvationen.</p>",
+    "s": "<p>Segmentet är sektorn minus triangeln:</p><p>\\[A=\\frac12r^2\\theta-\\frac12r^2\\sin\\theta=50(\\theta-\\sin\\theta).\\]</p><p>\\(50(\\theta-\\sin\\theta)=10\\) ger \\(\\theta-\\sin\\theta=0{,}2\\). Ekvationen kan inte lösas algebraiskt, men ett digitalt verktyg ger \\(\\theta\\approx1{,}08\\) rad, alltså cirka \\(62^\\circ\\).</p><p>Kontroll: \\(50(1{,}084-\\sin1{,}084)\\approx50\\cdot0{,}200=10\\).</p><p><strong>Svar:</strong> \\(\\theta\\approx1{,}08\\) rad</p>",
+    "familj": "Båglängd, sektorarea och radianer",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Segmentets area är sektorns area minus triangelns. Använd radianer.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.083691880314489,
+    "tolerans": 0.01,
+    "svarEnhet": "rad"
+  },
+  {
     "id": "1.599",
     "kap": 2,
     "omr": "radianbegreppet",
@@ -24097,6 +24179,75 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 2.6179938779914944,
     "tolerans": 0.001
+  },
+  {
+    "id": "2.575",
+    "kap": 2,
+    "omr": "radianbegreppet",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En cykel med hjuldiametern 0,70 m rullar med farten 18 km/h.</p><p>Bestäm hjulets vinkelhastighet i radianer per sekund och hur många varv per minut hjulet snurrar. Svara med en decimal respektive i hela varv.</p>",
+    "s": "<p>Farten är \\(\\frac{18}{3{,}6}=5{,}0\\) m/s och radien \\(0{,}35\\) m.</p><p>Vid rullning är farten båglängd per sekund: \\(v=\\omega r\\), så \\(\\omega=\\frac{5{,}0}{0{,}35}\\approx14{,}3\\) rad/s.</p><p>Ett varv är \\(2\\pi\\) rad: \\(\\frac{14{,}29}{2\\pi}\\cdot60\\approx136\\) varv per minut.</p><p><strong>Svar:</strong> cirka 14,3 rad/s och cirka 136 varv/min</p>",
+    "familj": "Omvandling mellan grader och radianer",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Med radianer är båglängden vinkeln gånger radien. Hur långt rullar hjulet på en sekund?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14.285714285714286,
+      136.41852265019602
+    ],
+    "tolerans": [
+      0.1,
+      1
+    ],
+    "svarEtiketter": [
+      "Vinkelhastighet",
+      "Varv per minut"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "rad/s",
+      null
+    ]
+  },
+  {
+    "id": "2.576",
+    "kap": 2,
+    "omr": "radianbegreppet",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Omvandla vinkeln 2,5 radianer till grader. Svara med en decimal.</p>",
+    "s": "<p>\\(\\pi\\) rad \\(=180^\\circ\\), så \\(2{,}5\\) rad \\(=2{,}5\\cdot\\frac{180^\\circ}{\\pi}\\approx143{,}2^\\circ\\).</p><p><strong>Svar:</strong> cirka \\(143{,}2^\\circ\\)</p>",
+    "familj": "Omvandling mellan grader och radianer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många grader motsvarar \\(\\pi\\) radianer?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 143.2394487827058,
+    "tolerans": 0.1,
+    "svarEnhet": "°"
   },
   {
     "id": "1.02",
@@ -31750,6 +31901,59 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": null
+  },
+  {
+    "id": "2.579",
+    "kap": 3,
+    "omr": "kort_om_derivator",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Tangenten till kurvan \\(y=\\dfrac ax\\) i punkten där \\(x=2\\) skär \\(y\\)-axeln i \\((0,\\,3)\\).</p><p>Bestäm \\(a\\).</p>",
+    "s": "<p>\\(y=ax^{-1}\\) ger \\(y'=-\\frac{a}{x^2}\\). I \\(x=2\\) är \\(y=\\frac a2\\) och lutningen \\(-\\frac a4\\).</p><p>Tangenten: \\(y=\\frac a2-\\frac a4(x-2)\\). I \\(x=0\\): \\(y=\\frac a2+\\frac a2=a\\).</p><p>Villkoret ger \\(a=3\\).</p><p><strong>Svar:</strong> \\(a=3\\)</p>",
+    "familj": "Grundläggande deriveringsregler",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ställ upp tangentens ekvation uttryckt i \\(a\\) och sätt \\(x=0\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null
+  },
+  {
+    "id": "2.580",
+    "kap": 3,
+    "omr": "kort_om_derivator",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm \\(f'(4)\\) för \\(f(x)=3\\sqrt x-\\dfrac2{x^2}\\). Svara exakt eller med fyra decimaler.</p>",
+    "s": "<p>Skriv som potenser: \\(f(x)=3x^{1/2}-2x^{-2}\\). Då är \\(f'(x)=\\frac32x^{-1/2}+4x^{-3}\\).</p><p>\\(f'(4)=\\frac32\\cdot\\frac12+\\frac4{64}=0{,}75+0{,}0625=0{,}8125\\).</p><p><strong>Svar:</strong> \\(f'(4)=0{,}8125\\)</p>",
+    "familj": "Grundläggande deriveringsregler",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv roten och bråket som potenser av \\(x\\) innan du deriverar.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8125,
+    "tolerans": 0.0001
   },
   {
     "id": "2.07",
@@ -47581,6 +47785,44 @@ window.BANKMATO2 = [
     "rättSvar": [
       0.36787944117144233,
       -0.36787944117144233
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "x",
+      "Minsta värde"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.582",
+    "kap": 3,
+    "omr": "olika_grafer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det minsta värdet av \\(f(x)=\\dfrac{e^x}{x}\\) för \\(x&gt;0\\) och var det antas. Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>\\(f'(x)=\\frac{e^x\\cdot x-e^x}{x^2}=\\frac{e^x(x-1)}{x^2}\\).</p><p>\\(f'(x)=0\\) ger \\(x=1\\). Derivatan är negativ för \\(0&lt;x&lt;1\\) och positiv för \\(x&gt;1\\), så \\(x=1\\) är ett minimum.</p><p>\\(f(1)=e\\approx2{,}718\\). När \\(x\\to0^+\\) och när \\(x\\to\\infty\\) växer \\(f\\) obegränsat, så \\(e\\) är det minsta värdet.</p><p><strong>Svar:</strong> minsta värdet \\(e\\) när \\(x=1\\)</p>",
+    "familj": "Grafanalys av specialfunktioner",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera med kvotregeln och bryt ut \\(e^x\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      2.718281828459045
     ],
     "tolerans": [
       0.001,
@@ -90124,6 +90366,41 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.578",
+    "kap": 2,
+    "omr": "tan_kurvan",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(y=a\\tan bx\\), där \\(a&gt;0\\) och \\(b&gt;0\\), har perioden \\(\\frac\\pi2\\) och går genom punkten \\(\\left(\\frac\\pi8,\\ 2\\right)\\).</p><p>Bestäm \\(a\\) och \\(b\\).</p>",
+    "s": "<p>\\(\\tan u\\) har perioden \\(\\pi\\), så \\(\\tan bx\\) har perioden \\(\\frac\\pi b\\). \\(\\frac\\pi b=\\frac\\pi2\\) ger \\(b=2\\).</p><p>Punkten: \\(a\\tan\\left(2\\cdot\\frac\\pi8\\right)=a\\tan\\frac\\pi4=a=2\\).</p><p><strong>Svar:</strong> \\(a=2\\), \\(b=2\\)</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur påverkar \\(b\\) perioden? Vad är \\(\\tan\\frac\\pi4\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "1.665",
     "kap": 2,
     "omr": "sinusformad_kurva",
@@ -90329,6 +90606,33 @@ window.BANKMATO2 = [
     "rättSvar": 2.6944271909999156,
     "tolerans": 0.01,
     "svarEnhet": "m"
+  },
+  {
+    "id": "2.577",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>I Stockholm är dagen längst kring dag 172 (21 juni), med 18,6 timmar dagsljus. Den är kortast kring dag 355, med 6,1 timmar. Anta att dagens längd varierar sinusformigt med perioden 365 dagar.</p><p>Vilken dag tidigare på året är det för första gången minst 12 timmars dagsljus? Svara med dagnummer, där 1 januari är dag 1.</p>",
+    "s": "<p>Medelvärde \\(\\frac{18{,}6+6{,}1}{2}=12{,}35\\) h och amplitud \\(\\frac{18{,}6-6{,}1}{2}=6{,}25\\) h. Med maximum vid dag 172:</p><p>\\[L(d)=12{,}35+6{,}25\\cos\\left(\\frac{2\\pi}{365}(d-172)\\right).\\]</p><p>\\(L=12\\) ger \\(\\cos\\left(\\frac{2\\pi}{365}(d-172)\\right)=-0{,}056\\), alltså \\(\\frac{2\\pi}{365}(d-172)=\\pm1{,}627\\).</p><p>Den första lösningen före sommaren: \\(d=172-\\frac{1{,}627\\cdot365}{2\\pi}\\approx172-94{,}5\\approx77{,}5\\).</p><p>Dag 78, alltså kring 19 mars, nära vårdagjämningen. Det är rimligt: vid dagjämning är dag och natt ungefär lika långa.</p><p><strong>Svar:</strong> kring dag 78</p>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm medelvärde, amplitud och period. Börja modellen i maximum med en cosinusfunktion och lös \\(L(d)=12\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 77.49517025818365,
+    "tolerans": 1.0
   },
   {
     "id": "1.669",
@@ -90648,6 +90952,51 @@ window.BANKMATO2 = [
       60,
       180,
       240
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "°"
+    ]
+  },
+  {
+    "id": "1.681",
+    "kap": 1,
+    "omr": "trig_grundekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen \\(\\cos3x=\\cos x\\) för \\(0^\\circ\\le x&lt;360^\\circ\\).</p>",
+    "s": "<p>\\(\\cos A=\\cos B\\) gäller när \\(A=\\pm B+n\\cdot360^\\circ\\).</p><ul><li>\\(3x=x+n\\cdot360^\\circ\\Rightarrow x=n\\cdot180^\\circ\\)</li><li>\\(3x=-x+n\\cdot360^\\circ\\Rightarrow x=n\\cdot90^\\circ\\)</li></ul><p>Den andra lösningsmängden innehåller den första. I intervallet: \\(0^\\circ,\\ 90^\\circ,\\ 180^\\circ,\\ 270^\\circ\\).</p><p>Kontroll för \\(x=90^\\circ\\): \\(\\cos270^\\circ=0=\\cos90^\\circ\\).</p><p><strong>Svar:</strong> \\(x=0^\\circ,\\ 90^\\circ,\\ 180^\\circ,\\ 270^\\circ\\)</p>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>När har två vinklar samma cosinusvärde? Tänk på både \\(+\\) och \\(-\\) i den generella lösningen.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      90,
+      180,
+      270
     ],
     "tolerans": null,
     "svarEtiketter": [
@@ -91303,6 +91652,45 @@ window.BANKMATO2 = [
     "svarEnhet": "°"
   },
   {
+    "id": "1.678",
+    "kap": 1,
+    "omr": "additionsformler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[\\cos x\\cos20^\\circ-\\sin x\\sin20^\\circ=0{,}5\\]</p><p>för \\(0^\\circ\\le x&lt;360^\\circ\\).</p>",
+    "s": "<p>Vänster led är additionsformeln för cosinus: \\(\\cos x\\cos20^\\circ-\\sin x\\sin20^\\circ=\\cos(x+20^\\circ)\\).</p><p>\\(\\cos(x+20^\\circ)=0{,}5\\) ger \\(x+20^\\circ=\\pm60^\\circ+n\\cdot360^\\circ\\).</p><p>\\(x=40^\\circ+n\\cdot360^\\circ\\) eller \\(x=-80^\\circ+n\\cdot360^\\circ\\). I intervallet: \\(x=40^\\circ\\) och \\(x=280^\\circ\\).</p><p><strong>Svar:</strong> \\(x=40^\\circ\\) eller \\(x=280^\\circ\\)</p>",
+    "familj": "Använda additionsformler för sinus och cosinus",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Känner du igen vänster led som en av additionsformlerna?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      280
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°"
+    ]
+  },
+  {
     "id": "1.648",
     "kap": 2,
     "omr": "kurvor_radianer",
@@ -91853,6 +92241,52 @@ window.BANKMATO2 = [
     "svarsstruktur": "ordnad"
   },
   {
+    "id": "2.574",
+    "kap": 2,
+    "omr": "derivatan_sin_cos",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En vikt i en fjäder svänger så att dess läge är \\(y(t)=5\\sin2t\\) cm, där \\(t\\) är tiden i sekunder.</p><p>Bestäm viktens största fart, dess största acceleration (belopp) och den första tidpunkten \\(t&gt;0\\) där farten är som störst.</p>",
+    "s": "<p>Hastighet: \\(v=y'=10\\cos2t\\). Största fart: 10 cm/s.</p><p>Acceleration: \\(a=v'=-20\\sin2t\\). Största belopp: 20 cm/s².</p><p>Farten är störst när \\(|\\cos2t|=1\\), alltså \\(2t=n\\pi\\). Den första tidpunkten efter 0 är \\(t=\\frac\\pi2\\approx1{,}571\\) s. Vikten passerar då jämviktsläget.</p><p>Accelerationen är störst i vändlägena, där farten är 0.</p><p><strong>Svar:</strong> 10 cm/s, 20 cm/s² och \\(t=\\frac\\pi2\\) s</p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera två gånger. När är \\(|\\cos2t|\\) som störst?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      20,
+      1.5707963267948966
+    ],
+    "tolerans": [
+      0.01,
+      0.01,
+      0.001
+    ],
+    "svarEtiketter": [
+      "Största fart",
+      "Största acceleration",
+      "t"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "cm/s",
+      "cm/s²",
+      "s"
+    ]
+  },
+  {
     "id": "2.542",
     "kap": 2,
     "omr": "derivata_sammansatta",
@@ -92149,6 +92583,47 @@ window.BANKMATO2 = [
     "svarsstruktur": "ordnad"
   },
   {
+    "id": "2.583",
+    "kap": 3,
+    "omr": "produktregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm de lokala extrempunkterna till \\(f(x)=x^2e^{-x}\\). Ange minimipunktens \\(x\\)-koordinat, maximipunktens \\(x\\)-koordinat och maximivärdet med tre decimaler.</p>",
+    "s": "<p>Produktregeln: \\(f'(x)=2xe^{-x}-x^2e^{-x}=x(2-x)e^{-x}\\).</p><p>\\(f'(x)=0\\) ger \\(x=0\\) och \\(x=2\\). Teckenstudium: negativ för \\(x&lt;0\\), positiv för \\(0&lt;x&lt;2\\), negativ för \\(x&gt;2\\).</p><p>Minimum i \\((0,\\,0)\\) och maximum i \\(\\left(2,\\,\\frac4{e^2}\\right)\\approx(2;\\ 0{,}541)\\).</p><p><strong>Svar:</strong> minimum där \\(x=0\\), maximum där \\(x=2\\) med värdet \\(\\frac4{e^2}\\approx0{,}541\\)</p>",
+    "familj": "Derivering med produktregeln",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bryt ut \\(xe^{-x}\\) ur derivatan. Vilket tecken har \\(e^{-x}\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      2,
+      0.5413411329464508
+    ],
+    "tolerans": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "Min x",
+      "Max x",
+      "Maxvärde"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.549",
     "kap": 3,
     "omr": "kvotregeln",
@@ -92311,6 +92786,45 @@ window.BANKMATO2 = [
     "svarsstruktur": "ordnad"
   },
   {
+    "id": "2.581",
+    "kap": 3,
+    "omr": "kvotregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm de lokala extrempunkterna till \\(f(x)=\\dfrac{x^2-3}{x-2}\\) och avgör deras karaktär.</p><p>Ange först maximipunktens \\(x\\)- och \\(y\\)-koordinat och sedan minimipunktens.</p>",
+    "s": "<p>Kvotregeln:</p><p>\\[f'(x)=\\frac{2x(x-2)-(x^2-3)}{(x-2)^2}=\\frac{x^2-4x+3}{(x-2)^2}=\\frac{(x-1)(x-3)}{(x-2)^2}.\\]</p><p>Nämnaren är positiv (\\(x\\ne2\\)). Täljaren är positiv för \\(x&lt;1\\), negativ för \\(1&lt;x&lt;3\\) (utom i \\(x=2\\), där funktionen inte är definierad) och positiv för \\(x&gt;3\\).</p><p>Maximum i \\(x=1\\): \\(f(1)=\\frac{-2}{-1}=2\\). Minimum i \\(x=3\\): \\(f(3)=\\frac{6}{1}=6\\).</p><p>Att maximivärdet är mindre än minimivärdet är möjligt, eftersom punkterna ligger på olika sidor om den lodräta asymptoten \\(x=2\\).</p><p><strong>Svar:</strong> maximum i \\((1,\\,2)\\) och minimum i \\((3,\\,6)\\)</p>",
+    "familj": "Derivering med kvotregeln",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera med kvotregeln, faktorisera täljaren och gör ett teckenschema. Glöm inte \\(x=2\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Max x",
+      "Max y",
+      "Min x",
+      "Min y"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.553",
     "kap": 3,
     "omr": "sneda_asymptoter",
@@ -92408,6 +92922,33 @@ window.BANKMATO2 = [
       "Lodrät asymptot x ="
     ],
     "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.584",
+    "kap": 3,
+    "omr": "sneda_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f(x)=\\dfrac{2x^2+ax+1}{x-1}\\) har den sneda asymptoten \\(y=2x+5\\).</p><p>Bestäm konstanten \\(a\\).</p>",
+    "s": "<p>Polynomdivision: \\(2x^2+ax+1=(x-1)\\big(2x+(a+2)\\big)+(a+3)\\).</p><p>Alltså \\(f(x)=2x+(a+2)+\\dfrac{a+3}{x-1}\\), och den sneda asymptoten är \\(y=2x+a+2\\).</p><p>\\(a+2=5\\) ger \\(a=3\\).</p><p>Kontroll: \\(\\frac{2x^2+3x+1}{x-1}=2x+5+\\frac6{x-1}\\).</p><p><strong>Svar:</strong> \\(a=3\\)</p>",
+    "familj": "Asymptoter med polynomdivision",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör polynomdivisionen med \\(a\\) kvar som en okänd. Vilken del av resultatet är asymptoten?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null
   },
   {
     "id": "2.555",

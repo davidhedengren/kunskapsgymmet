@@ -10474,6 +10474,45 @@ window.BANKMATO1 = [
     "tolerans": 0.001
   },
   {
+    "id": "1.589",
+    "kap": 1,
+    "omr": "tangent_sekant",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För \\(f(x)=\\dfrac1x\\) har sekanten genom punkterna där \\(x=1\\) och \\(x=1+h\\) lutningen \\(k(h)\\).</p><p><strong>a)</strong> Bestäm \\(h&gt;0\\) så att sekantens lutning är \\(-0{,}8\\).</p><p><strong>b)</strong> Bestäm tangentens lutning i \\(x=1\\) som gränsvärdet av \\(k(h)\\) när \\(h\\to0\\).</p>",
+    "s": "<p>\\[k(h)=\\frac{\\frac1{1+h}-1}{h}=\\frac{1-(1+h)}{h(1+h)}=\\frac{-1}{1+h}.\\]</p><p><strong>a)</strong> \\(\\frac{-1}{1+h}=-0{,}8\\) ger \\(1+h=1{,}25\\), alltså \\(h=0{,}25\\).</p><p><strong>b)</strong> \\(\\lim_{h\\to0}\\frac{-1}{1+h}=-1\\).</p><p><strong>Svar:</strong> a) \\(h=0{,}25\\) &nbsp; b) \\(-1\\)</p>",
+    "familj": "Sekant, tangent och gränsvärde",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Förenkla förändringskvoten genom att göra liknämnigt i täljaren.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.25,
+      -1
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "a) h",
+      "b) Lutning"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "1.262",
     "kap": 1,
     "omr": "kontinuitet",
@@ -69147,6 +69186,51 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "4.484",
+    "kap": 4,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen \\(2\\cos^2x-\\cos x-1=0\\) för \\(0^\\circ\\le x\\le360^\\circ\\).</p>",
+    "s": "<p>Sätt \\(t=\\cos x\\): \\(2t^2-t-1=0\\Leftrightarrow(2t+1)(t-1)=0\\).</p><p>\\(\\cos x=1\\) ger \\(x=0^\\circ\\) och \\(x=360^\\circ\\).</p><p>\\(\\cos x=-\\frac12\\) ger \\(x=120^\\circ\\) och \\(x=240^\\circ\\).</p><p><strong>Svar:</strong> \\(x=0^\\circ,\\ 120^\\circ,\\ 240^\\circ,\\ 360^\\circ\\)</p>",
+    "familj": "Lösa trigonometriska ekvationer",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ekvationen är en andragradsekvation i \\(\\cos x\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      120,
+      240,
+      360
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "°"
+    ]
+  },
+  {
     "id": "4.427",
     "kap": 4,
     "omr": "enhetscirkeln",
@@ -76541,6 +76625,42 @@ window.BANKMATO1 = [
       "b"
     ],
     "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "3.1149",
+    "kap": 3,
+    "omr": "deriverbarhet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I vilka punkter är funktionen \\(f(x)=|x^2-4|\\) inte deriverbar? Motivera.</p>",
+    "s": "<p>Där \\(x^2-4\\ge0\\), alltså \\(|x|\\ge2\\), är \\(f(x)=x^2-4\\). Där \\(|x|&lt;2\\) är \\(f(x)=4-x^2\\).</p><p>I \\(x=2\\): från höger är lutningen \\(2x=4\\), från vänster \\(-2x=-4\\). Lutningarna är olika, så grafen har en spets och \\(f\\) är inte deriverbar där.</p><p>På samma sätt i \\(x=-2\\): lutningen är \\(-4\\) från vänster och \\(4\\) från höger.</p><p>I alla andra punkter är \\(f\\) ett polynom lokalt och därför deriverbar.</p><p><strong>Svar:</strong> \\(x=-2\\) och \\(x=2\\)</p>",
+    "familj": "Deriverbarhet",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Var byter uttrycket innanför beloppstecknet tecken? Jämför lutningen från vänster och höger där.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      2
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.679",
@@ -90234,6 +90354,48 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "4.483",
+    "kap": 4,
+    "omr": "areasatsen",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En parallellogram har sidorna 6 cm och 9 cm och arean \\(27\\sqrt2\\) cm².</p><p>Bestäm den spetsiga vinkeln och längden av den kortare diagonalen. Svara med två decimaler för diagonalen.</p>",
+    "s": "<p>Parallellogrammens area är \\(ab\\sin v=54\\sin v\\). \\(54\\sin v=27\\sqrt2\\) ger \\(\\sin v=\\frac{\\sqrt2}2\\), så den spetsiga vinkeln är \\(45^\\circ\\).</p><p>Den kortare diagonalen ligger mitt emot den spetsiga vinkeln. Cosinussatsen:</p><p>\\[d^2=36+81-2\\cdot6\\cdot9\\cos45^\\circ=117-54\\sqrt2\\approx40{,}63\\;\\Rightarrow\\;d\\approx6{,}37\\text{ cm}.\\]</p><p><strong>Svar:</strong> \\(45^\\circ\\) och cirka 6,37 cm</p>",
+    "familj": "Areasatsen",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>En parallellogram består av två likadana trianglar. Använd areasatsen och sedan cosinussatsen.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      45,
+      6.374360174311839
+    ],
+    "tolerans": [
+      0.1,
+      0.01
+    ],
+    "svarEtiketter": [
+      "Vinkel",
+      "Diagonal"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "°",
+      "cm"
+    ]
+  },
+  {
     "id": "2.751",
     "kap": 2,
     "omr": "naturliga_logaritmer",
@@ -90687,6 +90849,42 @@ window.BANKMATO1 = [
     "svarsstruktur": "ordnad"
   },
   {
+    "id": "2.825",
+    "kap": 2,
+    "omr": "derivata_potens",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det minsta värdet av \\(f(x)=x+\\dfrac4x\\) för \\(x&gt;0\\) och det \\(x\\) där det antas.</p>",
+    "s": "<p>\\(f(x)=x+4x^{-1}\\), så \\(f'(x)=1-4x^{-2}=1-\\frac4{x^2}\\).</p><p>\\(f'(x)=0\\) ger \\(x^2=4\\), alltså \\(x=2\\) (eftersom \\(x&gt;0\\)). Derivatan är negativ för \\(0&lt;x&lt;2\\) och positiv för \\(x&gt;2\\), så det är ett minimum.</p><p>\\(f(2)=2+2=4\\).</p><p>Tolkning: av alla rektanglar med arean 4 har kvadraten med sidan 2 den minsta halva omkretsen.</p><p><strong>Svar:</strong> minsta värdet 4 när \\(x=2\\)</p>",
+    "familj": "Negativa exponenter",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv \\(\\frac4x\\) som en potens med negativ exponent och derivera.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      4
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "Minsta värde"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.761",
     "kap": 2,
     "omr": "deriveringsregler",
@@ -90942,6 +91140,72 @@ window.BANKMATO1 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
+    "tolerans": null
+  },
+  {
+    "id": "2.821",
+    "kap": 2,
+    "omr": "andringskvoter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En population växer enligt \\(N(t)=2000\\cdot1{,}05^t\\), där \\(t\\) är tiden i år.</p><p>Beräkna den genomsnittliga förändringshastigheten under de tio första åren, och den momentana förändringshastigheten när \\(t=5\\). Svara i individer per år med en decimal.</p>",
+    "s": "<p>Genomsnittlig: \\(\\dfrac{N(10)-N(0)}{10}=\\dfrac{2000(1{,}05^{10}-1)}{10}\\approx125{,}8\\) individer/år.</p><p>Momentan: \\(N'(t)=2000\\cdot1{,}05^t\\ln1{,}05\\). \\(N'(5)\\approx2552{,}6\\cdot0{,}04879\\approx124{,}5\\) individer/år.</p><p>Värdena är nästan lika. För en exponentialfunktion är den momentana förändringen i mittpunkten lite mindre än den genomsnittliga, eftersom grafen böjer uppåt.</p><p><strong>Svar:</strong> cirka 125,8 respektive 124,5 individer per år</p>",
+    "familj": "Genomsnittlig förändringshastighet i sammanhang",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Den genomsnittliga förändringen är en förändringskvot. Den momentana är derivatan.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      125.7789253554884,
+      124.53997392158851
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Genomsnittlig",
+      "Momentan vid t = 5"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.822",
+    "kap": 2,
+    "omr": "andringskvoter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Beräkna förändringskvoten för \\(f(x)=x^2+3x\\) mellan \\(x=1\\) och \\(x=3\\).</p>",
+    "s": "<p>\\(f(1)=4\\) och \\(f(3)=18\\). \\(\\dfrac{18-4}{3-1}=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Förändringskvot och sekantens lutning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela skillnaden i funktionsvärde med skillnaden i \\(x\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
     "tolerans": null
   },
   {
@@ -91417,6 +91681,61 @@ window.BANKMATO1 = [
     "svarsstruktur": "ordnad"
   },
   {
+    "id": "4.485",
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Från en punkt på marken syns toppen av en mast under vinkeln \\(35^\\circ\\). När man går 20 m rakt mot masten ser man toppen under vinkeln \\(50^\\circ\\).</p><p>Hur hög är masten? Svara i meter med en decimal.</p>",
+    "s": "<p>Kalla höjden \\(h\\) och avståndet från den närmare punkten till masten \\(d\\). Två rätvinkliga trianglar ger</p><p>\\[h=d\\tan50^\\circ=(d+20)\\tan35^\\circ.\\]</p><p>\\[d=\\frac{20\\tan35^\\circ}{\\tan50^\\circ-\\tan35^\\circ}\\approx\\frac{14{,}00}{0{,}4915}\\approx28{,}5\\text{ m}.\\]</p><p>\\(h\\approx28{,}49\\cdot\\tan50^\\circ\\approx34{,}0\\) m.</p><p><strong>Svar:</strong> cirka 34,0 m</p>",
+    "familj": "Trigonometri i rätvinkliga trianglar",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Inför det okända avståndet till masten. Ställ upp två uttryck för höjden.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 33.95306876251399,
+    "tolerans": 0.1,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.486",
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>I en rätvinklig triangel är hypotenusan 25 cm och en katet 7 cm. Hur stor är vinkeln mitt emot den kateten? Svara med en decimal.</p>",
+    "s": "<p>\\(\\sin v=\\frac{7}{25}=0{,}28\\), alltså \\(v\\approx16{,}3^\\circ\\).</p><p><strong>Svar:</strong> cirka \\(16{,}3^\\circ\\)</p>",
+    "familj": "Trigonometri i rätvinkliga trianglar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilket trigonometriskt förhållande kopplar ihop motstående katet och hypotenusa?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16.26020470831196,
+    "tolerans": 0.1,
+    "svarEnhet": "°"
+  },
+  {
     "id": "1.545",
     "kap": 1,
     "omr": "funktioner",
@@ -91708,6 +92027,45 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": -1.1358825679163034,
     "tolerans": 0.01
+  },
+  {
+    "id": "2.824",
+    "kap": 2,
+    "omr": "derivata_a_x",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f(x)=5\\cdot2^x\\) kan skrivas \\(f(x)=5e^{kx}\\).</p><p>Bestäm \\(k\\) och det \\(x\\) där \\(f'(x)=100\\). Svara med tre respektive två decimaler.</p>",
+    "s": "<p>\\(2=e^{\\ln2}\\), så \\(2^x=e^{x\\ln2}\\) och \\(k=\\ln2\\approx0{,}693\\).</p><p>\\(f'(x)=5k\\,e^{kx}=5\\ln2\\cdot2^x\\). \\(f'(x)=100\\) ger \\(2^x=\\frac{100}{5\\ln2}\\approx28{,}85\\).</p><p>\\(x=\\frac{\\ln28{,}85}{\\ln2}\\approx4{,}85\\).</p><p><strong>Svar:</strong> \\(k=\\ln2\\approx0{,}693\\) och \\(x\\approx4{,}85\\)</p>",
+    "familj": "Skriva a^x med basen e",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv basen 2 som en potens av \\(e\\). Derivera sedan med regeln för \\(e^{kx}\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6931471805599453,
+      4.85069446783226
+    ],
+    "tolerans": [
+      0.001,
+      0.01
+    ],
+    "svarEtiketter": [
+      "k",
+      "x"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.551",
@@ -92446,6 +92804,45 @@ window.BANKMATO1 = [
     "tolerans": 0.001
   },
   {
+    "id": "1.586",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Låt \\(f(x)=2x+3\\) och \\(g(x)=x^2-1\\).</p><p>Lös ekvationen \\(f(g(x))=g(f(x))\\). Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>\\(f(g(x))=2(x^2-1)+3=2x^2+1\\).</p><p>\\(g(f(x))=(2x+3)^2-1=4x^2+12x+8\\).</p><p>\\(2x^2+1=4x^2+12x+8\\Leftrightarrow2x^2+12x+7=0\\Leftrightarrow x^2+6x+3{,}5=0\\).</p><p>\\(x=-3\\pm\\sqrt{9-3{,}5}=-3\\pm\\sqrt{5{,}5}\\), alltså \\(x\\approx-0{,}655\\) eller \\(x\\approx-5{,}345\\).</p><p>Ordningen spelar alltså roll: \\(f(g(x))\\) och \\(g(f(x))\\) är olika funktioner, och de är bara lika i två punkter.</p><p><strong>Svar:</strong> \\(x=-3\\pm\\sqrt{5{,}5}\\)</p>",
+    "familj": "Funktionsvärden",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först de två sammansatta uttrycken. Sätt in hela \\(g(x)\\) där det står \\(x\\) i \\(f\\), och omvänt.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -0.6547921200882851,
+      -5.345207879911715
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
     "id": "1.560",
     "kap": 1,
     "omr": "polynom",
@@ -92547,6 +92944,69 @@ window.BANKMATO1 = [
     "svarEtiketter": [
       "Gradtal",
       "Koefficient för x³"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "1.587",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett andragradspolynom \\(p\\) uppfyller \\(p(0)=3\\), \\(p(1)=2\\) och \\(p(2)=5\\).</p><p>Bestäm \\(p(3)\\).</p>",
+    "s": "<p>Skriv \\(p(x)=ax^2+bx+c\\). \\(p(0)=3\\) ger \\(c=3\\).</p><p>\\(p(1)=a+b+3=2\\Rightarrow a+b=-1\\). \\(p(2)=4a+2b+3=5\\Rightarrow2a+b=1\\).</p><p>Subtrahera: \\(a=2\\), \\(b=-3\\). Alltså \\(p(x)=2x^2-3x+3\\) och \\(p(3)=18-9+3=12\\).</p><p>Alternativ: andra differenserna är konstanta för ett andragradspolynom. Värdena 3, 2, 5 har differenserna \\(-1\\), 3 och andradifferensen 4. Nästa differens är 7, så \\(p(3)=5+7=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Polynombegrepp, grad och värden",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ansätt \\(p(x)=ax^2+bx+c\\) och bestäm konstanterna. Eller undersök differenserna mellan funktionsvärdena.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null
+  },
+  {
+    "id": "1.588",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ange gradtal och konstantterm för polynomet \\(p(x)=(x^2-2)^3\\).</p>",
+    "s": "<p>Den högsta potensen blir \\((x^2)^3=x^6\\), så gradtalet är 6.</p><p>Konstanttermen är \\(p(0)=(-2)^3=-8\\).</p><p><strong>Svar:</strong> gradtal 6 och konstantterm \\(-8\\)</p>",
+    "familj": "Polynombegrepp, grad och värden",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Man behöver inte utveckla hela uttrycket. Vad blir den högsta potensen, och vad blir \\(p(0)\\)?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      -8
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Gradtal",
+      "Konstantterm"
     ],
     "svarsstruktur": "ordnad"
   },
@@ -92719,6 +93179,34 @@ window.BANKMATO1 = [
     "rättSvar": "x-1",
     "tolerans": null,
     "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.585",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Visa att uttrycket</p><p>\\[\\frac{x^2-9}{x^2+6x+9}\\cdot\\frac{x+3}{x-3}\\]</p><p>har samma värde för alla \\(x\\) där det är definierat. Ange värdet.</p>",
+    "s": "<p>Faktorisera: \\(x^2-9=(x-3)(x+3)\\) och \\(x^2+6x+9=(x+3)^2\\).</p><p>\\[\\frac{(x-3)(x+3)}{(x+3)^2}\\cdot\\frac{x+3}{x-3}=\\frac{(x-3)(x+3)^2}{(x+3)^2(x-3)}=1.\\]</p><p>Uttrycket är definierat när ingen nämnare är 0, alltså \\(x\\ne-3\\) och \\(x\\ne3\\). För alla andra \\(x\\) är värdet 1.</p><p><strong>Svar:</strong> 1 (för \\(x\\ne\\pm3\\))</p>",
+    "familj": "Förenkla och ange definitionsvillkor",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Faktorisera alla täljare och nämnare med konjugat- och kvadreringsregeln innan du förkortar.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null
   },
   {
     "id": "3.1074",
@@ -93270,6 +93758,45 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1,
     "tolerans": null
+  },
+  {
+    "id": "2.826",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det minsta värdet av \\(f(x)=e^{2x}-4e^x\\) och det \\(x\\) där det antas. Ange \\(x\\) exakt eller med tre decimaler.</p>",
+    "s": "<p>\\(f'(x)=2e^{2x}-4e^x=2e^x(e^x-2)\\).</p><p>\\(f'(x)=0\\) ger \\(e^x=2\\), alltså \\(x=\\ln2\\). Derivatan byter tecken från minus till plus där, så det är ett minimum.</p><p>\\(f(\\ln2)=e^{2\\ln2}-4e^{\\ln2}=4-8=-4\\).</p><p><strong>Svar:</strong> minsta värdet \\(-4\\) när \\(x=\\ln2\\approx0{,}693\\)</p>",
+    "familj": "Derivera e^kx",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera och bryt ut \\(2e^x\\). Vilket tecken har \\(e^x\\)?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6931471805599453,
+      -4
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "x",
+      "Minsta värde"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.1081",
@@ -94253,6 +94780,45 @@ window.BANKMATO1 = [
     "rättSvar": 125.66370614359172,
     "tolerans": 0.2,
     "svarEnhet": "cm³"
+  },
+  {
+    "id": "2.823",
+    "kap": 2,
+    "omr": "begreppet_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f(2)=5\\) och \\(f'(2)=-3\\).</p><p>Uppskatta \\(f(2{,}1)\\) med hjälp av tangenten, och bestäm var tangenten i \\(x=2\\) skär \\(x\\)-axeln. Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>Tangenten i \\(x=2\\): \\(y=5-3(x-2)\\).</p><p>Uppskattning: \\(f(2{,}1)\\approx5-3\\cdot0{,}1=4{,}7\\).</p><p>Tangentens nollställe: \\(5-3(x-2)=0\\Leftrightarrow x=2+\\frac53=\\frac{11}{3}\\approx3{,}667\\).</p><p>Uppskattningen är bara bra nära \\(x=2\\). Vi vet inget om grafens form längre bort.</p><p><strong>Svar:</strong> \\(f(2{,}1)\\approx4{,}7\\) och tangenten skär \\(x\\)-axeln i \\(x=\\frac{11}{3}\\)</p>",
+    "familj": "Derivata som tangentens lutning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ställ upp tangentens ekvation med enpunktsformeln.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.7,
+      3.6666666666666665
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "f(2,1) ≈",
+      "Nollställe"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.1107",

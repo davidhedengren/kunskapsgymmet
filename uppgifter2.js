@@ -3355,6 +3355,1052 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "C",
+    "typ": "kast rakt upp från byggnad",
+    "poang": "(3/2/0)",
+    "t": "<p>En boll kastas rakt upp med farten 20,0 m/s från kanten av en 50,0 m hög byggnad. På vägen ned missar den kanten och landar på marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><ol type=\"a\"><li>Hur lång tid tar det för bollen att nå sin högsta punkt?</li><li>Hur högt över marken kommer bollen som högst?</li><li>Hur lång tid tar det innan bollen slår i marken?</li><li>Vilken hastighet har bollen efter 5,00 s? (Positiv riktning uppåt.)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=v_0-gt=0\\iff t=\\dfrac{20{,}0}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}04\\) s</p></li><li><p>Stighöjd: \\(\\dfrac{v_0^2}{2g}=\\dfrac{20{,}0^2}{2\\cdot9{,}82}\\approx20{,}4\\) m. Över marken: \\(50{,}0+20{,}4\\).</p><p><strong>Svar:</strong> \\(70{,}4\\) m</p></li><li><p>\\(-50{,}0=20{,}0t-4{,}91t^2\\iff t=\\dfrac{20{,}0+\\sqrt{20{,}0^2+2\\cdot9{,}82\\cdot50{,}0}}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(5{,}82\\) s</p></li><li><p>\\(v=20{,}0-9{,}82\\cdot5{,}00\\).</p><p><strong>Svar:</strong> \\(-29{,}1\\) m/s</p></li></ol>",
+    "id": "1.113",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.0366598778004072,
+      70.36659877800408,
+      5.82232796241163,
+      -29.1
+    ],
+    "tolerans": [
+      0.0305,
+      1.06,
+      0.0873,
+      0.436
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En boll kastas rakt upp med farten 20,0 m/s från kanten av en 50,0 m hög byggnad. På vägen ned missar den kanten och landar på marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det för bollen att nå sin högsta punkt?",
+        "t": "<p>En boll kastas rakt upp med farten 20,0 m/s från kanten av en 50,0 m hög byggnad. På vägen ned missar den kanten och landar på marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Hur lång tid tar det för bollen att nå sin högsta punkt?</p>",
+        "s": "<p>\\(v=v_0-gt=0\\iff t=\\dfrac{20{,}0}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}04\\) s</p>",
+        "ledtrad": "<p>I högsta punkten är hastigheten noll.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt över marken kommer bollen som högst?",
+        "t": "<p>En boll kastas rakt upp med farten 20,0 m/s från kanten av en 50,0 m hög byggnad. På vägen ned missar den kanten och landar på marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Hur högt över marken kommer bollen som högst?</p>",
+        "s": "<p>Stighöjd: \\(\\dfrac{v_0^2}{2g}=\\dfrac{20{,}0^2}{2\\cdot9{,}82}\\approx20{,}4\\) m. Över marken: \\(50{,}0+20{,}4\\).</p><p><strong>Svar:</strong> \\(70{,}4\\) m</p>",
+        "ledtrad": "<p>Glöm inte byggnadens höjd.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång tid tar det innan bollen slår i marken?",
+        "t": "<p>En boll kastas rakt upp med farten 20,0 m/s från kanten av en 50,0 m hög byggnad. På vägen ned missar den kanten och landar på marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Hur lång tid tar det innan bollen slår i marken?</p>",
+        "s": "<p>\\(-50{,}0=20{,}0t-4{,}91t^2\\iff t=\\dfrac{20{,}0+\\sqrt{20{,}0^2+2\\cdot9{,}82\\cdot50{,}0}}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(5{,}82\\) s</p>",
+        "ledtrad": "<p>Ställ upp lägesekvationen med marken som \\(y=-50{,}0\\) m och lös andragradsekvationen.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Vilken hastighet har bollen efter 5,00 s? (Positiv riktning uppåt.)",
+        "t": "<p>En boll kastas rakt upp med farten 20,0 m/s från kanten av en 50,0 m hög byggnad. På vägen ned missar den kanten och landar på marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Vilken hastighet har bollen efter 5,00 s? (Positiv riktning uppåt.)</p>",
+        "s": "<p>\\(v=20{,}0-9{,}82\\cdot5{,}00\\).</p><p><strong>Svar:</strong> \\(-29{,}1\\) m/s</p>",
+        "ledtrad": "<p>\\(v=v_0-gt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Välj positiv riktning uppåt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "kast rakt upp",
+    "poang": "(2/0/0)",
+    "t": "<p>En boll kastas rakt upp med farten 25,0 m/s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><ol type=\"a\"><li>Beräkna stigtiden.</li><li>Beräkna stighöjden.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{v_0}{g}=\\dfrac{25{,}0}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}55\\) s</p></li><li><p>\\(h=\\dfrac{v_0^2}{2g}=\\dfrac{25{,}0^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(31{,}8\\) m</p></li></ol>",
+    "id": "1.114",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.545824847250509,
+      31.822810590631363
+    ],
+    "tolerans": [
+      0.0382,
+      0.477
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En boll kastas rakt upp med farten 25,0 m/s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna stigtiden.",
+        "t": "<p>En boll kastas rakt upp med farten 25,0 m/s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Beräkna stigtiden.</p>",
+        "s": "<p>\\(t=\\dfrac{v_0}{g}=\\dfrac{25{,}0}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}55\\) s</p>",
+        "ledtrad": "<p>Hastigheten är noll i högsta punkten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna stighöjden.",
+        "t": "<p>En boll kastas rakt upp med farten 25,0 m/s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Beräkna stighöjden.</p>",
+        "s": "<p>\\(h=\\dfrac{v_0^2}{2g}=\\dfrac{25{,}0^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(31{,}8\\) m</p>",
+        "ledtrad": "<p>Använd \\(v^2=v_0^2-2gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Rörelsen är symmetrisk utan luftmotstånd.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "C",
+    "typ": "kast rakt ned",
+    "poang": "(0/2/0)",
+    "t": "<p>En boll kastas rakt ned från en balkong 30,0 m över marken med farten 8,0 m/s. Hur lång tid tar det innan den når marken?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>\\(30{,}0=8{,}0t+4{,}91t^2\\iff t=\\dfrac{-8{,}0+\\sqrt{8{,}0^2+2\\cdot9{,}82\\cdot30{,}0}}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(1{,}79\\) s</p>",
+    "id": "1.115",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.7879610673286985,
+    "tolerans": 0.0268,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Välj positiv riktning nedåt och lös andragradsekvationen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "utgångsfart ur stigtid",
+    "poang": "(2/0/0)",
+    "t": "<p>En fotboll går rakt upp och når sin högsta punkt efter 1,8 s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><ol type=\"a\"><li>Beräkna utgångsfarten.</li><li>Hur högt kom bollen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v_0=gt=9{,}82\\cdot1{,}8\\).</p><p><strong>Svar:</strong> \\(18\\) m/s</p></li><li><p>\\(h=\\dfrac{gt^2}{2}=\\dfrac{9{,}82\\cdot1{,}8^2}{2}\\).</p><p><strong>Svar:</strong> \\(16\\) m</p></li></ol>",
+    "id": "1.116",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17.676000000000002,
+      15.908400000000002
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En fotboll går rakt upp och når sin högsta punkt efter 1,8 s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna utgångsfarten.",
+        "t": "<p>En fotboll går rakt upp och når sin högsta punkt efter 1,8 s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Beräkna utgångsfarten.</p>",
+        "s": "<p>\\(v_0=gt=9{,}82\\cdot1{,}8\\).</p><p><strong>Svar:</strong> \\(18\\) m/s</p>",
+        "ledtrad": "<p>Farten minskar med \\(g\\) varje sekund.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt kom bollen?",
+        "t": "<p>En fotboll går rakt upp och når sin högsta punkt efter 1,8 s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Hur högt kom bollen?</p>",
+        "s": "<p>\\(h=\\dfrac{gt^2}{2}=\\dfrac{9{,}82\\cdot1{,}8^2}{2}\\).</p><p><strong>Svar:</strong> \\(16\\) m</p>",
+        "ledtrad": "<p>Stigningen är som ett fritt fall baklänges.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Stigtiden bestämmer utgångsfarten.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "C",
+    "typ": "singla slant",
+    "poang": "(1/1/0)",
+    "t": "<p>En domare kastar ett mynt rakt upp med farten 5,00 m/s. Handen är 1,1 m över marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><ol type=\"a\"><li>Hur högt över handen kommer myntet?</li><li>Vilken fart har myntet om det inte fångas utan faller till marken?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{5{,}00^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(1{,}27\\) m</p></li><li><p>\\(v=\\sqrt{v_0^2+2gh}=\\sqrt{5{,}00^2+2\\cdot9{,}82\\cdot1{,}1}\\).</p><p><strong>Svar:</strong> \\(6{,}8\\) m/s</p></li></ol>",
+    "id": "1.117",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.2729124236252545,
+      6.8267122394312185
+    ],
+    "tolerans": [
+      0.0191,
+      0.102
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En domare kastar ett mynt rakt upp med farten 5,00 m/s. Handen är 1,1 m över marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur högt över handen kommer myntet?",
+        "t": "<p>En domare kastar ett mynt rakt upp med farten 5,00 m/s. Handen är 1,1 m över marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Hur högt över handen kommer myntet?</p>",
+        "s": "<p>\\(h=\\dfrac{5{,}00^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(1{,}27\\) m</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{v_0^2}{2g}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har myntet om det inte fångas utan faller till marken?",
+        "t": "<p>En domare kastar ett mynt rakt upp med farten 5,00 m/s. Handen är 1,1 m över marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Vilken fart har myntet om det inte fångas utan faller till marken?</p>",
+        "s": "<p>\\(v=\\sqrt{v_0^2+2gh}=\\sqrt{5{,}00^2+2\\cdot9{,}82\\cdot1{,}1}\\).</p><p><strong>Svar:</strong> \\(6{,}8\\) m/s</p>",
+        "ledtrad": "<p>Myntet passerar handens nivå med farten 5,00 m/s nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Utan luftmotstånd är rörelsen symmetrisk.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "landning på månen",
+    "poang": "(2/0/0)",
+    "t": "<p>När en månlandare är 5,00 m över månytan stängs motorn av. Då sjunker den med 0,80 m/s. Vilken fart har den när den når ytan? Månens tyngdacceleration är 1,6 m/s².</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>\\(v=\\sqrt{v_0^2+2ah}=\\sqrt{0{,}80^2+2\\cdot1{,}6\\cdot5{,}00}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\) m/s</p>",
+    "id": "1.118",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.079215610874228,
+    "tolerans": 0.0612,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd \\(v^2=v_0^2+2as\\) med månens tyngdacceleration.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "utgångsfart ur senare fart",
+    "poang": "(2/0/0)",
+    "t": "<p>En sten slungas rakt upp vid en explosion. 2,0 s senare rör den sig uppåt med 15 m/s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><ol type=\"a\"><li>Beräkna utgångsfarten.</li><li>Beräkna hastigheten 5,0 s efter explosionen (positiv riktning uppåt).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v_0=v+gt=15+9{,}82\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(35\\) m/s</p></li><li><p>\\(v=v_0-gt=34{,}6-9{,}82\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(-14\\) m/s</p></li></ol>",
+    "id": "1.119",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      34.64,
+      -14.46
+    ],
+    "tolerans": [
+      0.52,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sten slungas rakt upp vid en explosion. 2,0 s senare rör den sig uppåt med 15 m/s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna utgångsfarten.",
+        "t": "<p>En sten slungas rakt upp vid en explosion. 2,0 s senare rör den sig uppåt med 15 m/s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Beräkna utgångsfarten.</p>",
+        "s": "<p>\\(v_0=v+gt=15+9{,}82\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(35\\) m/s</p>",
+        "ledtrad": "<p>\\(v=v_0-gt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna hastigheten 5,0 s efter explosionen (positiv riktning uppåt).",
+        "t": "<p>En sten slungas rakt upp vid en explosion. 2,0 s senare rör den sig uppåt med 15 m/s.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Utgångsfarten är 34,6 m/s.</p><p>Beräkna hastigheten 5,0 s efter explosionen (positiv riktning uppåt).</p>",
+        "s": "<p>\\(v=v_0-gt=34{,}6-9{,}82\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(-14\\) m/s</p>",
+        "ledtrad": "<p>Negativt tecken betyder att stenen är på väg nedåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Välj positiv riktning uppåt.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "C",
+    "typ": "tidsskillnad mellan kast upp och ned",
+    "poang": "(0/2/0)",
+    "t": "<p>Två kulor skjuts från en klippkant med farten 30,0 m/s, den ena rakt upp och den andra rakt ned. Hur mycket senare landar den första än den andra?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>Kulan som skjuts uppåt kommer tillbaka till kanten med farten 30,0 m/s nedåt. Därifrån gör den samma rörelse som den andra. Skillnaden är tiden upp och ned: \\(\\Delta t=\\dfrac{2v_0}{g}=\\dfrac{60{,}0}{9{,}82}\\). Klippans höjd behövs inte.</p><p><strong>Svar:</strong> \\(6{,}1\\) s</p>",
+    "id": "1.120",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.109979633401222,
+    "tolerans": 0.0916,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken fart har den första kulan när den passerar startpunkten på väg ned?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "C",
+    "typ": "stighöjd ur nedslagsfart",
+    "poang": "(0/2/0)",
+    "t": "<p>En kula skjuts rakt ned från en 15 m hög klippa och slår i marken med 27 m/s. Hur högt över klippan hade den kommit om den i stället hade skjutits rakt upp med samma utgångsfart?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>\\(v_0^2=27^2-2\\cdot9{,}82\\cdot15\\approx434\\). Stighöjd: \\(\\dfrac{v_0^2}{2g}=\\dfrac{434}{19{,}64}\\).</p><p><strong>Svar:</strong> \\(22\\) m</p>",
+    "id": "1.121",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 22.11812627291242,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först utgångsfarten med \\(v^2=v_0^2+2gh\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "C",
+    "typ": "raket med brinntid",
+    "poang": "(1/3/0)",
+    "t": "<p>En raket skjuts rakt upp med den resulterande accelerationen 24,9 m/s² uppåt. Efter 4,00 s tar bränslet slut och raketen fortsätter uppåt.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><ol type=\"a\"><li>Vilken fart har raketen efter 4,00 s?</li><li>Hur högt når raketen?</li><li>Vilken fart har raketen precis innan den slår i marken?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=at=24{,}9\\cdot4{,}00\\).</p><p><strong>Svar:</strong> \\(99{,}6\\) m/s</p></li><li><p>Under brinntiden: \\(\\dfrac{at^2}{2}=199{,}2\\) m. Därefter stiger den \\(\\dfrac{99{,}6^2}{2\\cdot9{,}82}\\approx505\\) m till.</p><p><strong>Svar:</strong> \\(704\\) m</p></li><li><p>Fritt fall från högsta punkten: \\(v=\\sqrt{2gh_{max}}=\\sqrt{2\\cdot9{,}82\\cdot704}\\).</p><p><strong>Svar:</strong> \\(118\\) m/s</p></li></ol>",
+    "id": "1.122",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      99.6,
+      704.2997963340122,
+      117.61142801615836
+    ],
+    "tolerans": [
+      1.49,
+      10.6,
+      1.76
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En raket skjuts rakt upp med den resulterande accelerationen 24,9 m/s² uppåt. Efter 4,00 s tar bränslet slut och raketen fortsätter uppåt.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har raketen efter 4,00 s?",
+        "t": "<p>En raket skjuts rakt upp med den resulterande accelerationen 24,9 m/s² uppåt. Efter 4,00 s tar bränslet slut och raketen fortsätter uppåt.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Vilken fart har raketen efter 4,00 s?</p>",
+        "s": "<p>\\(v=at=24{,}9\\cdot4{,}00\\).</p><p><strong>Svar:</strong> \\(99{,}6\\) m/s</p>",
+        "ledtrad": "<p>\\(v=at\\) från vila.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt når raketen?",
+        "t": "<p>En raket skjuts rakt upp med den resulterande accelerationen 24,9 m/s² uppåt. Efter 4,00 s tar bränslet slut och raketen fortsätter uppåt.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Farten när bränslet tar slut är 99,6 m/s.</p><p>Hur högt når raketen?</p>",
+        "s": "<p>Under brinntiden: \\(\\dfrac{at^2}{2}=199{,}2\\) m. Därefter stiger den \\(\\dfrac{99{,}6^2}{2\\cdot9{,}82}\\approx505\\) m till.</p><p><strong>Svar:</strong> \\(704\\) m</p>",
+        "ledtrad": "<p>Dela upp rörelsen i två faser.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken fart har raketen precis innan den slår i marken?",
+        "t": "<p>En raket skjuts rakt upp med den resulterande accelerationen 24,9 m/s² uppåt. Efter 4,00 s tar bränslet slut och raketen fortsätter uppåt.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Raketen når 704 m.</p><p>Vilken fart har raketen precis innan den slår i marken?</p>",
+        "s": "<p>Fritt fall från högsta punkten: \\(v=\\sqrt{2gh_{max}}=\\sqrt{2\\cdot9{,}82\\cdot704}\\).</p><p><strong>Svar:</strong> \\(118\\) m/s</p>",
+        "ledtrad": "<p>Från högsta punkten är det ett fritt fall.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Två faser: med motor och utan motor.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "C",
+    "typ": "föremål tappas från stigande ballong",
+    "poang": "(0/2/0)",
+    "t": "<p>En luftballong stiger med 2,50 m/s. När den är 3,00 m över marken tappar någon en kompass. Hur lång tid tar det innan kompassen når marken?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>Kompassen har först farten 2,50 m/s uppåt. \\(-3{,}00=2{,}50t-4{,}91t^2\\iff t=\\dfrac{2{,}50+\\sqrt{2{,}50^2+2\\cdot9{,}82\\cdot3{,}00}}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(1{,}08\\) s</p>",
+    "id": "1.123",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.076659248092623,
+    "tolerans": 0.0161,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken hastighet har kompassen när den släpps?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "tyngdacceleration på okänd planet",
+    "poang": "(2/0/0)",
+    "t": "<p>På en avlägsen planet kastas en sten rakt upp med farten 15,0 m/s. Den kommer tillbaka till handen efter 20,0 s. Hur stor är tyngdaccelerationen där?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>Stigtiden är 10,0 s: \\(g=\\dfrac{15{,}0}{10{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m/s²</p>",
+    "id": "1.124",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur lång är stigtiden?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "A",
+    "typ": "stighöjd ur halverad fart",
+    "poang": "(0/1/1)",
+    "t": "<p>En boll kastas rakt upp. På höjden 4,00 m över startpunkten är farten hälften av utgångsfarten. Hur högt når bollen?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>\\(\\left(\\dfrac{v_0}{2}\\right)^2=v_0^2-2g\\cdot4{,}00\\iff\\dfrac34v_0^2=8{,}00g\\). \\(h=\\dfrac{v_0^2}{2g}=\\dfrac{32{,}0g/3}{2g}=\\dfrac{16}{3}\\).</p><p><strong>Svar:</strong> \\(5{,}3\\) m</p>",
+    "id": "1.125",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snett kast: komposanter, stigtid och höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.333333333333333,
+    "tolerans": 0.08,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp \\(v^2=v_0^2-2gh\\) för höjden 4,00 m.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "kast__snett_kast_komposanter_stigtid_och_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "A",
+    "typ": "djup på brunn med ljudets fördröjning",
+    "poang": "(0/1/2)",
+    "t": "<p>Du släpper en sten i en brunn och hör den slå i botten efter 3,20 s. Ljudets fart är 343 m/s. Hur djup är brunnen?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>Falltid \\(t_1\\) och ljudets tid \\(t_2\\): \\(t_1+t_2=3{,}20\\), \\(h=\\dfrac{gt_1^2}{2}=343t_2\\).</p><p>Lös numeriskt eller som andragradsekvation: \\(t_1\\approx3{,}07\\) s och \\(h\\approx46\\) m.</p><p><strong>Svar:</strong> \\(46\\) m</p>",
+    "id": "1.126",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 46.14011460232095,
+    "tolerans": 0.692,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tiden består av stenens fall och ljudets väg upp. Ställ upp två ekvationer.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "A",
+    "typ": "två stenar som landar samtidigt",
+    "poang": "(0/1/2)",
+    "t": "<p>Du släpper en sten från en 15,0 m hög bro. När den har fallit 3,20 m kastar du en ny sten rakt ned från samma ställe. Med vilken fart måste den kastas för att stenarna ska landa samtidigt?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>Första stenen: hela falltiden \\(\\sqrt{2\\cdot15{,}0/9{,}82}\\approx1{,}748\\) s och tiden för de första 3,20 m \\(\\sqrt{2\\cdot3{,}20/9{,}82}\\approx0{,}807\\) s. Den andra stenen har \\(0{,}941\\) s på sig.</p><p>\\(15{,}0=v_0\\cdot0{,}941+4{,}91\\cdot0{,}941^2\\iff v_0\\approx11{,}3\\) m/s.</p><p><strong>Svar:</strong> \\(11{,}3\\) m/s</p>",
+    "id": "1.127",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.32992236439623,
+    "tolerans": 0.17,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur lång tid har den andra stenen på sig att falla 15,0 m?</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "A",
+    "typ": "höjd ur passagetid förbi fönster",
+    "poang": "(0/1/2)",
+    "t": "<p>En takpanna faller från ett tak och passerar ett 1,6 m högt fönster på 0,20 s. Hur långt ovanför fönstrets överkant lossnade pannan?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>Farten vid överkanten \\(v\\): \\(1{,}6=0{,}20v+4{,}91\\cdot0{,}20^2\\iff v\\approx7{,}02\\) m/s. Fallhöjden dit: \\(\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(2{,}51\\) m</p>",
+    "id": "1.128",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5077558044806514,
+    "tolerans": 0.0376,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först farten när pannan når fönstrets överkant.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "C",
+    "typ": "vågrätt kast från klippa",
+    "poang": "(2/2/0)",
+    "t": "<p>En sten kastas vågrätt med farten 18,0 m/s från en 50 m hög klippa.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><ol type=\"a\"><li>Hur lång tid tar det innan stenen landar?</li><li>Hur långt från klippan landar den?</li><li>Hur stor är farten precis före nedslaget?</li><li>Vilken vinkel bildar hastigheten med horisontalplanet vid nedslaget? Svara i grader.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(50=\\dfrac{gt^2}{2}\\iff t=\\sqrt{\\dfrac{100}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) s</p></li><li><p>\\(x=v_xt=18{,}0\\cdot3{,}19\\).</p><p><strong>Svar:</strong> \\(57\\) m</p></li><li><p>\\(v_y=gt\\approx31{,}3\\) m/s. \\(v=\\sqrt{18{,}0^2+31{,}3^2}\\).</p><p><strong>Svar:</strong> \\(36\\) m/s</p></li><li><p>\\(\\tan\\beta=\\dfrac{v_y}{v_x}=\\dfrac{31{,}3}{18{,}0}\\).</p><p><strong>Svar:</strong> \\(60\\) °</p></li></ol>",
+    "id": "1.129",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.1911282313630136,
+      57.440308164534244,
+      36.138621999185304,
+      60.12680767711482
+    ],
+    "tolerans": [
+      0.051,
+      0.862,
+      0.542,
+      0.902
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "m/s",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sten kastas vågrätt med farten 18,0 m/s från en 50 m hög klippa.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det innan stenen landar?",
+        "t": "<p>En sten kastas vågrätt med farten 18,0 m/s från en 50 m hög klippa.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Hur lång tid tar det innan stenen landar?</p>",
+        "s": "<p>\\(50=\\dfrac{gt^2}{2}\\iff t=\\sqrt{\\dfrac{100}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) s</p>",
+        "ledtrad": "<p>Lodrätt är det ett fritt fall.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt från klippan landar den?",
+        "t": "<p>En sten kastas vågrätt med farten 18,0 m/s från en 50 m hög klippa.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Hur långt från klippan landar den?</p>",
+        "s": "<p>\\(x=v_xt=18{,}0\\cdot3{,}19\\).</p><p><strong>Svar:</strong> \\(57\\) m</p>",
+        "ledtrad": "<p>Vågrätt är farten konstant.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är farten precis före nedslaget?",
+        "t": "<p>En sten kastas vågrätt med farten 18,0 m/s från en 50 m hög klippa.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Hur stor är farten precis före nedslaget?</p>",
+        "s": "<p>\\(v_y=gt\\approx31{,}3\\) m/s. \\(v=\\sqrt{18{,}0^2+31{,}3^2}\\).</p><p><strong>Svar:</strong> \\(36\\) m/s</p>",
+        "ledtrad": "<p>Lägg ihop komposanterna med Pythagoras sats.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Vilken vinkel bildar hastigheten med horisontalplanet vid nedslaget? Svara i grader.",
+        "t": "<p>En sten kastas vågrätt med farten 18,0 m/s från en 50 m hög klippa.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Vilken vinkel bildar hastigheten med horisontalplanet vid nedslaget? Svara i grader.</p>",
+        "s": "<p>\\(\\tan\\beta=\\dfrac{v_y}{v_x}=\\dfrac{31{,}3}{18{,}0}\\).</p><p><strong>Svar:</strong> \\(60\\) °</p>",
+        "ledtrad": "<p>Använd tangens för komposanterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Behandla vågrät och lodrät rörelse var för sig.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "fall under kort flygtid",
+    "poang": "(2/0/0)",
+    "t": "<p>En baseboll kastas vågrätt med farten 162 km/h. Hur mycket har den fallit när den når slagmannen 18,5 m bort?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>\\(v=45{,}0\\) m/s, \\(t=\\dfrac{18{,}5}{45{,}0}\\approx0{,}411\\) s. \\(y=\\dfrac{gt^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}83\\) m</p>",
+    "id": "1.130",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8298506172839506,
+    "tolerans": 0.0124,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm tiden ur den vågräta rörelsen.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "höjd ur kastlängd",
+    "poang": "(2/0/0)",
+    "t": "<p>En tennisboll slås vågrätt med farten 28,0 m/s och landar 19,6 m bort. Hur högt över marken träffades bollen?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>\\(t=\\dfrac{19{,}6}{28{,}0}=0{,}700\\) s. \\(h=\\dfrac{gt^2}{2}=4{,}91\\cdot0{,}700^2\\).</p><p><strong>Svar:</strong> \\(2{,}41\\) m</p>",
+    "id": "1.131",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.4059,
+    "tolerans": 0.0361,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm tiden ur den vågräta rörelsen.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "hopp mellan hustak",
+    "poang": "(2/0/0)",
+    "t": "<p>En person springer ut vågrätt från ett tak med farten 5,3 m/s mot ett annat tak som ligger 2,0 m lägre. Hur långt får det högst vara mellan husen?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>\\(t=\\sqrt{\\dfrac{2\\cdot2{,}0}{9{,}82}}\\approx0{,}638\\) s. \\(x=5{,}3\\cdot0{,}638\\).</p><p><strong>Svar:</strong> \\(3{,}38\\) m</p>",
+    "id": "1.132",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.3825959252447944,
+    "tolerans": 0.0507,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur lång tid tar ett fall på 2,0 m?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "basehopp",
+    "poang": "(2/0/0)",
+    "t": "<p>En hoppare springer ut vågrätt med 4,00 m/s från en 910 m hög klippa och faller fritt tills hen är 150 m över marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><ol type=\"a\"><li>Hur länge pågår det fria fallet?</li><li>Hur långt från klippan är hoppen när fallskärmen vecklas ut?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Fallhöjd 760 m: \\(t=\\sqrt{\\dfrac{2\\cdot760}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(12{,}4\\) s</p></li><li><p>\\(x=4{,}00\\cdot12{,}4\\).</p><p><strong>Svar:</strong> \\(49{,}8\\) m</p></li></ol>",
+    "id": "1.133",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12.441308239603702,
+      49.765232958414806
+    ],
+    "tolerans": [
+      0.187,
+      0.746
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En hoppare springer ut vågrätt med 4,00 m/s från en 910 m hög klippa och faller fritt tills hen är 150 m över marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur länge pågår det fria fallet?",
+        "t": "<p>En hoppare springer ut vågrätt med 4,00 m/s från en 910 m hög klippa och faller fritt tills hen är 150 m över marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Hur länge pågår det fria fallet?</p>",
+        "s": "<p>Fallhöjd 760 m: \\(t=\\sqrt{\\dfrac{2\\cdot760}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(12{,}4\\) s</p>",
+        "ledtrad": "<p>Hur långt faller hoppen innan fallskärmen vecklas ut?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt från klippan är hoppen när fallskärmen vecklas ut?",
+        "t": "<p>En hoppare springer ut vågrätt med 4,00 m/s från en 910 m hög klippa och faller fritt tills hen är 150 m över marken.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p><p>Det fria fallet pågår i 12,4 s.</p><p>Hur långt från klippan är hoppen när fallskärmen vecklas ut?</p>",
+        "s": "<p>\\(x=4{,}00\\cdot12{,}4\\).</p><p><strong>Svar:</strong> \\(49{,}8\\) m</p>",
+        "ledtrad": "<p>Vågrätt är farten konstant.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Vågrätt kast utan luftmotstånd under det fria fallet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "minsta utgångsfart",
+    "poang": "(2/0/0)",
+    "t": "<p>Klippdykare i Acapulco hoppar från 35 m höjd och måste landa minst 5,0 m från klippväggen. Hur fort måste de springa ut vågrätt?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>\\(t=\\sqrt{\\dfrac{70}{9{,}82}}\\approx2{,}67\\) s. \\(v=\\dfrac{5{,}0}{2{,}67}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) m/s</p>",
+    "id": "1.134",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.8727367292662513,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm falltiden och dela sträckan med tiden.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "E",
+    "typ": "släppa last i rätt tid",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett flygplan flyger vågrätt i 250 km/h på höjden 235 m över några klättrare. Hur långt före klättrarna, räknat vågrätt, måste lasten släppas?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>\\(t=\\sqrt{\\dfrac{470}{9{,}82}}\\approx6{,}92\\) s, \\(v=69{,}4\\) m/s. \\(x=69{,}4\\cdot6{,}92\\).</p><p><strong>Svar:</strong> \\(480\\) m</p>",
+    "id": "1.135",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kast mot ett mål",
+    "svarstyp": "numeriskt",
+    "rättSvar": 480.4306352984612,
+    "tolerans": 7.21,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lasten har planets fart vågrätt.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "kast__kast_mot_ett_mal"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "A",
+    "typ": "utgångsfart ur avstånd från kanten",
+    "poang": "(0/1/1)",
+    "t": "<p>En radiostyrd bil kör ut från en klippkant. 1,1 s senare är den 7,0 m från klippkanten (räknat som rakt avstånd från kanten till bilen). Hur stor var bilens fart vid kanten?</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>Fallhöjd: \\(y=4{,}91\\cdot1{,}1^2\\approx5{,}94\\) m. Vågrätt avstånd: \\(x=\\sqrt{7{,}0^2-5{,}94^2}\\approx3{,}70\\) m. \\(v=\\dfrac{3{,}70}{1{,}1}\\).</p><p><strong>Svar:</strong> \\(3{,}4\\) m/s</p>",
+    "id": "1.136",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vågrätt kast och kast från hög höjd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.3652736543400215,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avståndet 7,0 m är hypotenusan i en rätvinklig triangel.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kast__vagratt_kast_och_kast_fran_hog_hojd"
+  },
+  {
+    "kap": 1,
+    "omr": "kast",
+    "niva": "A",
+    "typ": "träffa rörligt mål",
+    "poang": "(0/1/2)",
+    "t": "<p>En helikopter flyger vågrätt i 208 km/h på höjden 78,0 m. En bil kör i samma riktning på vägen nedanför i 156 km/h. Under vilken vinkel under horisontalplanet ska bilen synas från helikoptern när en last släpps för att lasten ska träffa bilen? Svara i grader.</p><p>Använd \\(g=9{,}82\\) m/s² och bortse från luftmotståndet.</p>",
+    "s": "<p>Falltid: \\(\\sqrt{\\dfrac{2\\cdot78{,}0}{9{,}82}}\\approx3{,}99\\) s. Relativt bilen rör sig lasten framåt med \\(\\dfrac{208-156}{3{,}6}\\approx14{,}4\\) m/s, alltså \\(14{,}4\\cdot3{,}99\\approx57{,}6\\) m.</p><p>Vinkel: \\(\\tan\\theta=\\dfrac{78{,}0}{57{,}6}\\).</p><p><strong>Svar:</strong> \\(53{,}6\\) °</p>",
+    "id": "1.137",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kast mot ett mål",
+    "svarstyp": "numeriskt",
+    "rättSvar": 53.56911716851608,
+    "tolerans": 0.804,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna med lastens hastighet relativt bilen.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "°",
+    "familjNyckel": "kast__kast_mot_ett_mal"
+  },
+  {
     "id": "2.1",
     "kap": 2,
     "omr": "fjadrar",

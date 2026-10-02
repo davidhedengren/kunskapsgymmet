@@ -56491,6 +56491,33 @@ window.BANKMATO2 = [
     "tolerans": 0.001
   },
   {
+    "id": "3.522",
+    "kap": 4,
+    "omr": "grafiska_metoder",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Integralen \\(\\displaystyle\\int_0^2e^{-x^2}\\,dx\\) kan inte beräknas med en primitiv funktion som består av elementära funktioner.</p><p>Uppskatta integralen med trapetsmetoden: dela intervallet i fyra lika breda delar och ersätt arean under grafen med fyra trapetser. Svara med tre decimaler.</p>",
+    "s": "<p>Bredden är \\(h=0{,}5\\). Funktionsvärden:</p><p>\\(f(0)=1\\), \\(f(0{,}5)\\approx0{,}7788\\), \\(f(1)\\approx0{,}3679\\), \\(f(1{,}5)\\approx0{,}1054\\), \\(f(2)\\approx0{,}0183\\).</p><p>Varje trapets har arean \\(h\\cdot\\frac{\\text{vänster höjd}+\\text{höger höjd}}{2}\\). Summan blir</p><p>\\[\\frac h2\\big(f_0+2f_1+2f_2+2f_3+f_4\\big)=0{,}25\\,(1+2\\cdot1{,}2521+0{,}0183)\\approx0{,}881.\\]</p><p>Ett digitalt verktyg ger \\(0{,}8821\\). Trapetsmetoden underskattar här, eftersom grafen är konkav på största delen av intervallet.</p><p><strong>Svar:</strong> cirka 0,881</p>",
+    "familj": "Geometrisk area och area från graf med integral",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna funktionsvärdet i \\(x=0;\\ 0{,}5;\\ 1;\\ 1{,}5;\\ 2\\). Varje trapets har en vänster och en höger höjd.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8806186341245393,
+    "tolerans": 0.001
+  },
+  {
     "id": "3.490",
     "kap": 4,
     "omr": "integraler_areor",
@@ -72445,6 +72472,60 @@ window.BANKMATO2 = [
     "svarFormat": "uttryck"
   },
   {
+    "id": "4.519",
+    "kap": 5,
+    "omr": "imaginara_tal",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För hur många heltal \\(n\\) med \\(1\\le n\\le20\\) gäller att \\(i^n+i^{2n}=0\\)?</p>",
+    "s": "<p>\\(i^{2n}=(i^2)^n=(-1)^n\\). Undersök \\(n\\) efter resten vid division med 4:</p><ul><li>\\(n=4k+1\\): \\(i+(-1)\\ne0\\)</li><li>\\(n=4k+2\\): \\(-1+1=0\\)</li><li>\\(n=4k+3\\): \\(-i+(-1)\\ne0\\)</li><li>\\(n=4k\\): \\(1+1\\ne0\\)</li></ul><p>Villkoret gäller när \\(n=2, 6, 10, 14, 18\\). Det är 5 tal.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Imaginära tal och potenser av i",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Potenserna av \\(i\\) upprepas med perioden 4. Undersök de fyra fallen.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null
+  },
+  {
+    "id": "4.520",
+    "kap": 5,
+    "omr": "imaginara_tal",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Förenkla \\(i^7+i^{10}\\) och skriv svaret på formen \\(a+bi\\).</p>",
+    "s": "<p>\\(i^7=i^4\\cdot i^3=-i\\) och \\(i^{10}=i^8\\cdot i^2=-1\\).</p><p>\\(i^7+i^{10}=-1-i\\).</p><p><strong>Svar:</strong> \\(-1-i\\)</p>",
+    "familj": "Imaginära tal och potenser av i",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dra bort multiplar av 4 i exponenten, eftersom \\(i^4=1\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "uttryck",
+    "rättSvar": "-1-i",
+    "tolerans": null,
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "4.471",
     "kap": 5,
     "omr": "konjugat_raknesatt",
@@ -72535,6 +72616,33 @@ window.BANKMATO2 = [
     "rättSvar": "2+3*i",
     "tolerans": null,
     "svarFormat": "uttryck"
+  },
+  {
+    "id": "4.523",
+    "kap": 5,
+    "omr": "konjugat_raknesatt",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det reella talet \\(a\\) så att</p><p>\\[\\frac{a+3i}{2-i}\\]</p><p>blir ett rent imaginärt tal.</p>",
+    "s": "<p>Förläng med nämnarens konjugat:</p><p>\\[\\frac{(a+3i)(2+i)}{(2-i)(2+i)}=\\frac{2a+ai+6i+3i^2}{5}=\\frac{(2a-3)+(a+6)i}{5}.\\]</p><p>Rent imaginärt betyder att realdelen är 0: \\(2a-3=0\\), alltså \\(a=1{,}5\\).</p><p>Då blir kvoten \\(\\frac{7{,}5i}{5}=1{,}5i\\).</p><p><strong>Svar:</strong> \\(a=1{,}5\\)</p>",
+    "familj": "Division av komplexa tal",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Förläng med konjugatet till nämnaren och skriv kvoten på formen \\(x+yi\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": 0.001
   },
   {
     "id": "4.06",
@@ -75761,6 +75869,71 @@ window.BANKMATO2 = [
       "uttryck",
       "uttryck"
     ]
+  },
+  {
+    "id": "4.521",
+    "kap": 5,
+    "omr": "komplexa_vektorer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Talen \\(z_1=1+2i\\), \\(z_2=5+3i\\) och \\(z_3=6+7i\\) är tre hörn i parallellogrammen \\(z_1z_2z_3z_4\\), där hörnen kommer i den ordningen.</p><p>Bestäm \\(z_4\\) och den punkt där diagonalerna skär varandra.</p>",
+    "s": "<p>I en parallellogram är \\(z_4-z_1=z_3-z_2\\), så \\(z_4=z_1+z_3-z_2=(1+6-5)+(2+7-3)i=2+6i\\).</p><p>Diagonalerna delar varandra mitt itu. Skärningspunkten är mittpunkten på \\(z_1z_3\\):</p><p>\\[\\frac{z_1+z_3}{2}=\\frac{7+9i}{2}=3{,}5+4{,}5i.\\]</p><p>Kontroll: \\(\\frac{z_2+z_4}{2}=\\frac{7+9i}{2}\\). Samma punkt.</p><p><strong>Svar:</strong> \\(z_4=2+6i\\), skärningspunkten \\(3{,}5+4{,}5i\\)</p>",
+    "familj": "Komplexa tal som punkter och vektorer",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Addition av komplexa tal fungerar som addition av vektorer. Vilken vektor går från \\(z_2\\) till \\(z_3\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2+6*i",
+      "7/2+9/2*i"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "z₄",
+      "Skärningspunkt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
+  },
+  {
+    "id": "4.522",
+    "kap": 5,
+    "omr": "komplexa_vektorer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm avståndet mellan punkterna \\(z_1=2+5i\\) och \\(z_2=-1+i\\) i det komplexa talplanet.</p>",
+    "s": "<p>Avståndet är \\(|z_1-z_2|=|3+4i|=\\sqrt{9+16}=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Komplexa tal som punkter och vektorer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Avståndet mellan två punkter är beloppet av skillnaden.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null
   },
   {
     "id": "4.04",
@@ -80683,6 +80856,46 @@ window.BANKMATO2 = [
     "svarsstruktur": "ordnad"
   },
   {
+    "id": "4.524",
+    "kap": 5,
+    "omr": "mult_div_polar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>\\(z=2(\\cos40^\\circ+i\\sin40^\\circ)\\) och \\(w=4(\\cos70^\\circ+i\\sin70^\\circ)\\).</p><p>Bestäm realdelen av \\(zw\\) med tre decimaler, samt \\(\\dfrac wz\\) på formen \\(a+bi\\) exakt.</p>",
+    "s": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas: \\(zw=8(\\cos110^\\circ+i\\sin110^\\circ)\\).</p><p>\\(\\text{Re}(zw)=8\\cos110^\\circ\\approx-2{,}736\\).</p><p>Vid division divideras beloppen och argumenten subtraheras: \\(\\frac wz=2(\\cos30^\\circ+i\\sin30^\\circ)=\\sqrt3+i\\).</p><p><strong>Svar:</strong> \\(\\text{Re}(zw)\\approx-2{,}736\\) och \\(\\frac wz=\\sqrt3+i\\)</p>",
+    "familj": "Multiplikation och division i polär form",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur förändras belopp och argument vid multiplikation och division?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2.7361611466053497,
+      1.7320508075688772,
+      1
+    ],
+    "tolerans": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "Re(zw)",
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "4.487",
     "kap": 5,
     "omr": "polar_form",
@@ -80712,6 +80925,48 @@ window.BANKMATO2 = [
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
     "omrTidigare": [
       "polar_exponentiell"
+    ]
+  },
+  {
+    "id": "4.525",
+    "kap": 5,
+    "omr": "polar_form",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Skriv \\(z=-2+2\\sqrt3\\,i\\) i polär form och beräkna \\(z^3\\).</p><p>Ange belopp, argument i grader (mellan \\(0^\\circ\\) och \\(360^\\circ\\)) och värdet av \\(z^3\\).</p>",
+    "s": "<p>\\(|z|=\\sqrt{4+12}=4\\). Punkten ligger i andra kvadranten med \\(\\tan v=\\frac{2\\sqrt3}{-2}=-\\sqrt3\\), alltså \\(v=120^\\circ\\).</p><p>\\(z=4(\\cos120^\\circ+i\\sin120^\\circ)\\).</p><p>\\(z^3=4^3(\\cos360^\\circ+i\\sin360^\\circ)=64\\).</p><p><strong>Svar:</strong> belopp 4, argument \\(120^\\circ\\) och \\(z^3=64\\)</p>",
+    "familj": "Växla mellan former för komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita talet i det komplexa talplanet för att se i vilken kvadrant det ligger.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      120,
+      64
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Belopp",
+      "Argument",
+      "z³"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      null,
+      "°",
+      null
     ]
   },
   {
@@ -83380,6 +83635,41 @@ window.BANKMATO2 = [
     "svarEtiketter": [
       "a",
       "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "4.517",
+    "kap": 5,
+    "omr": "de_moivre",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det minsta positiva heltal \\(n\\) för vilket \\((1+\\sqrt3\\,i)^n\\) är ett positivt reellt tal, och beräkna talet.</p>",
+    "s": "<p>\\(1+\\sqrt3\\,i\\) har beloppet \\(\\sqrt{1+3}=2\\) och argumentet \\(60^\\circ\\).</p><p>de Moivres formel: \\((1+\\sqrt3\\,i)^n=2^n(\\cos60n^\\circ+i\\sin60n^\\circ)\\).</p><p>Talet är positivt reellt när \\(60n^\\circ\\) är en multipel av \\(360^\\circ\\). Det minsta \\(n\\) är 6, och då är talet \\(2^6=64\\).</p><p>För \\(n=3\\) blir talet \\(-8\\), som är reellt men negativt.</p><p><strong>Svar:</strong> \\(n=6\\) och talet är 64</p>",
+    "familj": "Potenser av komplexa tal med de Moivres formel",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv talet i polär form. När är argumentet en multipel av \\(360^\\circ\\)?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      64
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "n",
+      "Talet"
     ],
     "svarsstruktur": "ordnad"
   },
@@ -88952,6 +89242,43 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "4.518",
+    "kap": 5,
+    "omr": "faktorsatsen",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Polynomet \\(p(x)=x^3+ax^2+bx-6\\) har faktorerna \\((x-1)\\) och \\((x+2)\\).</p><p>Bestäm \\(a\\), \\(b\\) och polynomets tredje nollställe.</p>",
+    "s": "<p>Faktorsatsen ger \\(p(1)=0\\) och \\(p(-2)=0\\):</p><p>\\(1+a+b-6=0\\Rightarrow a+b=5\\). \\(-8+4a-2b-6=0\\Rightarrow2a-b=7\\).</p><p>Addera: \\(3a=12\\), så \\(a=4\\) och \\(b=1\\).</p><p>\\(p(x)=x^3+4x^2+x-6\\). Produkten av nollställena är \\(-(-6)=6\\): \\(1\\cdot(-2)\\cdot x_3=6\\), alltså \\(x_3=-3\\).</p><p>Kontroll: \\((x-1)(x+2)(x+3)=x^3+4x^2+x-6\\).</p><p><strong>Svar:</strong> \\(a=4\\), \\(b=1\\) och tredje nollstället \\(x=-3\\)</p>",
+    "familj": "Faktorsatsen och faktorisering",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Sätt in nollställena i polynomet. Konstanttermen avslöjar produkten av alla tre nollställen.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      1,
+      -3
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a",
+      "b",
+      "Tredje nollstället"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "4.499",
     "kap": 5,
     "omr": "andragradsekv_komplexa",
@@ -89098,6 +89425,83 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "4.515",
+    "kap": 5,
+    "omr": "andragradsekv_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ekvationen</p><p>\\[z^2-(3+i)z+(2+i)=0\\]</p><p>har en reell lösning. Bestäm båda lösningarna.</p>",
+    "s": "<p>Pröva \\(z=1\\): \\(1-(3+i)+(2+i)=0\\). Alltså är \\(z_1=1\\) en lösning.</p><p>Produkten av rötterna är konstanttermen: \\(z_1z_2=2+i\\), så \\(z_2=2+i\\).</p><p>Kontroll med summan: \\(z_1+z_2=3+i\\), som ska vara koefficienten framför \\(-z\\). Det stämmer.</p><p>Rötterna är inte varandras konjugat, eftersom koefficienterna inte är reella.</p><p><strong>Svar:</strong> \\(z=1\\) eller \\(z=2+i\\)</p>",
+    "familj": "Andragradsekvationer med komplexa lösningar",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Pröva små heltal för den reella lösningen. Använd sedan sambandet mellan rötternas produkt och konstanttermen.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1",
+      "2+i"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "z",
+      "z"
+    ],
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
+  },
+  {
+    "id": "4.516",
+    "kap": 5,
+    "omr": "andragradsekv_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(z^2-6z+10=0\\).</p>",
+    "s": "<p>\\(z=3\\pm\\sqrt{9-10}=3\\pm i\\).</p><p><strong>Svar:</strong> \\(z=3+i\\) eller \\(z=3-i\\)</p>",
+    "familj": "Andragradsekvationer med komplexa lösningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd pq-formeln. \\(\\sqrt{-1}=i\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3+i",
+      "3-i"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "z",
+      "z"
+    ],
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
+  },
+  {
     "id": "4.501",
     "kap": 5,
     "omr": "polynomdivision",
@@ -89227,6 +89631,71 @@ window.BANKMATO2 = [
       "b"
     ],
     "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "4.526",
+    "kap": 5,
+    "omr": "polynomdivision",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm konstanten \\(k\\) så att polynomet \\(x^3-4x^2+kx+6\\) är delbart med \\(x-3\\). Ange också kvoten.</p>",
+    "s": "<p>Delbart med \\(x-3\\) betyder att \\(x=3\\) är ett nollställe: \\(27-36+3k+6=0\\), alltså \\(k=1\\).</p><p>Polynomdivision: \\(x^3-4x^2+x+6=(x-3)(x^2-x-2)\\).</p><p>Kvoten kan faktoriseras vidare: \\((x-2)(x+1)\\).</p><p><strong>Svar:</strong> \\(k=1\\) och kvoten är \\(x^2-x-2\\)</p>",
+    "familj": "Polynomdivision",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd faktorsatsen för att bestämma \\(k\\). Utför sedan divisionen.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      "x^2-x-2"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "k",
+      "Kvot"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ]
+  },
+  {
+    "id": "4.527",
+    "kap": 5,
+    "omr": "polynomdivision",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm resten när \\(x^4-3x+5\\) divideras med \\(x+2\\).</p>",
+    "s": "<p>Restsatsen: resten är \\(p(-2)=16+6+5=27\\).</p><p><strong>Svar:</strong> 27</p>",
+    "familj": "Restsatsen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vid division med \\(x-c\\) är resten \\(p(c)\\). Vad är \\(c\\) här?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": null
   },
   {
     "id": "4.504",

@@ -3811,7 +3811,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-02-fel3";
+const BANK_VERSION="2026-10-02-ake9";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9198,7 +9198,10 @@ function rentNumerisktSvar(anv,facit,meta){
   if(/^[+-]?10$/.test(taltext) && /^\^\(?[+-]?\d+\)?$/.test(enhet)){
     taltext+=enhet; enhet="";
   }
-  const v=taltolk(taltext),f=talAv(facit);
+  /* Facit som exakt tal ("-2/5", "15/4") värderas helt; talAv läser bara det inledande talet. */
+  const fs=String(facit);
+  const v=taltolk(taltext),f=(/[\/√^π]|sqrt|pi/i.test(fs) && isPureNumberExpression(fs))
+    ? numericValue(tillNerdamer(normalizeMathInput(fs))) : talAv(facit);
   if(!Number.isFinite(v)||!Number.isFinite(f)) return false;
   if(String(meta.format).toLowerCase()==="heltal" && !Number.isInteger(v)) return false;
   if(!enhet) return naraNog(v,f,meta.tolerans);

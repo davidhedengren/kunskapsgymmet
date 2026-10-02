@@ -41150,6 +41150,801 @@ window.BANKMATF1 = [
     "typ": "konstant term med negativa potenser"
   },
   {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "E",
+    "typ": "bestämma viss term",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den 24:e termen i utvecklingen av \\((a+b)^{25}\\), när termerna ordnas efter fallande potenser av \\(a\\).</p>",
+    "s": "<p>Term nummer \\(k+1\\) är \\(\\binom{25}{k}a^{25-k}b^k\\). Den 24:e termen har \\(k=23\\):</p><p>\\(\\binom{25}{23}a^2b^{23}=300a^2b^{23}\\).</p><p><strong>Svar:</strong> \\(300a^2b^{23}\\)</p>",
+    "id": "1.752",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "uttryck",
+    "rättSvar": "300*a^2*b^23",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Den första termen har \\(k=0\\). Vilket \\(k\\) har den 24:e? Tänk på att \\(\\binom{25}{23}=\\binom{25}{2}\\).</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "E",
+    "typ": "koefficient för viss potens",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm koefficienten framför \\(y^3\\) i utvecklingen av \\((2+y)^{12}\\).</p>",
+    "s": "<p>Termen med \\(y^3\\) är \\(\\binom{12}{3}2^9y^3=220\\cdot512\\,y^3=112\\,640y^3\\).</p><p><strong>Svar:</strong> 112 640</p>",
+    "id": "1.753",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 112640,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv den allmänna termen \\(\\binom{12}{k}2^{12-k}y^k\\). Vilket \\(k\\) ger \\(y^3\\)?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "term med kvadrerad variabel",
+    "poang": "0/1/0",
+    "t": "<p>Bestäm termen som innehåller \\(b^8\\) i utvecklingen av \\((a+b^2)^{12}\\).</p>",
+    "s": "<p>Den allmänna termen är \\(\\binom{12}{k}a^{12-k}(b^2)^k=\\binom{12}{k}a^{12-k}b^{2k}\\). \\(2k=8\\) ger \\(k=4\\):</p><p>\\(\\binom{12}{4}a^8b^8=495a^8b^8\\).</p><p><strong>Svar:</strong> \\(495a^8b^8\\)</p>",
+    "id": "1.754",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "uttryck",
+    "rättSvar": "495*a^8*b^8",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Vilken potens av \\(b\\) ger \\((b^2)^k\\)?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "konstant term",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm den konstanta termen i utvecklingen av \\[\\left(8x+\\frac{1}{2x}\\right)^8.\\]</p>",
+    "s": "<p>Allmän term: \\(\\binom8k(8x)^{8-k}\\left(\\dfrac1{2x}\\right)^k=\\binom8k\\dfrac{8^{8-k}}{2^k}x^{8-2k}\\). Konstant när \\(k=4\\):</p><p>\\(\\binom84\\cdot\\dfrac{8^4}{2^4}=70\\cdot256=17\\,920\\).</p><p><strong>Svar:</strong> 17 920</p>",
+    "id": "1.755",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17920,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla potensen av \\(x\\) i den allmänna termen. När blir exponenten 0?</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "E",
+    "typ": "förenkla differenskvot med binomialsatsen",
+    "poang": "2/0/0",
+    "t": "<p>Förenkla \\[\\frac{(x+h)^3-x^3}{h},\\quad h\\neq0.\\]</p>",
+    "s": "<p>\\((x+h)^3=x^3+3x^2h+3xh^2+h^3\\).</p><p>\\(\\dfrac{3x^2h+3xh^2+h^3}{h}=3x^2+3xh+h^2\\).</p><p>När \\(h\\to0\\) går uttrycket mot \\(3x^2\\), derivatan av \\(x^3\\).</p><p><strong>Svar:</strong> \\(3x^2+3xh+h^2\\)</p>",
+    "id": "1.756",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "uttryck",
+    "rättSvar": "3*x^2+3*x*h+h^2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Utveckla \\((x+h)^3\\) med binomialsatsen.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "okänd parameter ur koefficient",
+    "poang": "1/2/0",
+    "t": "<p>Uttrycket \\((3x+2)^6\\) utvecklas.</p><ol type=\"a\"><li>Bestäm de tre första termerna, ordnade efter stigande potenser av \\(x\\).</li><li>Bestäm \\(a\\) så att koefficienten framför \\(x^2\\) i \\((1+ax)(3x+2)^6\\) blir noll.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(2^6+\\binom61 2^5(3x)+\\binom62 2^4(3x)^2=64+576x+2\\,160x^2\\).</p><p><strong>Svar:</strong> \\(64+576x+2\\,160x^2\\)</p></li><li><p>\\((3x+2)^6=64+576x+2\\,160x^2+\\dots\\)</p><p>\\(x^2\\)-termen i produkten: \\(1\\cdot2\\,160x^2+ax\\cdot576x\\). \\(2\\,160+576a=0\\iff a=-\\dfrac{15}{4}\\).</p><p><strong>Svar:</strong> \\(a=-\\dfrac{15}{4}\\)</p></li></ol>",
+    "id": "1.757",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "64+576*x+2160*x^2",
+      "-15/4"
+    ],
+    "tolerans": [
+      null,
+      0.001
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Uttrycket \\((3x+2)^6\\) utvecklas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm de tre första termerna, ordnade efter stigande potenser av \\(x\\).",
+        "t": "<p>Uttrycket \\((3x+2)^6\\) utvecklas.</p><p>Bestäm de tre första termerna, ordnade efter stigande potenser av \\(x\\).</p>",
+        "s": "<p>\\(2^6+\\binom61 2^5(3x)+\\binom62 2^4(3x)^2=64+576x+2\\,160x^2\\).</p><p><strong>Svar:</strong> \\(64+576x+2\\,160x^2\\)</p>",
+        "ledtrad": "<p>Använd \\(\\binom6k2^{6-k}(3x)^k\\) för \\(k=0,1,2\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(a\\) så att koefficienten framför \\(x^2\\) i \\((1+ax)(3x+2)^6\\) blir noll.",
+        "t": "<p>Uttrycket \\((3x+2)^6\\) utvecklas.</p><p>Det gäller att \\((3x+2)^6=64+576x+2\\,160x^2+\\dots\\)</p><p>Bestäm \\(a\\) så att koefficienten framför \\(x^2\\) i \\((1+ax)(3x+2)^6\\) blir noll.</p>",
+        "s": "<p>\\((3x+2)^6=64+576x+2\\,160x^2+\\dots\\)</p><p>\\(x^2\\)-termen i produkten: \\(1\\cdot2\\,160x^2+ax\\cdot576x\\). \\(2\\,160+576a=0\\iff a=-\\dfrac{15}{4}\\).</p><p><strong>Svar:</strong> \\(a=-\\dfrac{15}{4}\\)</p>",
+        "ledtrad": "<p>Vilka par av termer i de två faktorerna ger tillsammans \\(x^2\\)?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd binomialsatsen.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "parameter ur nollkoefficient",
+    "poang": "0/2/0",
+    "t": "<p>Konstanten \\(p\\neq0\\). Bestäm \\(p\\) så att koefficienten framför \\(x^2\\) i \\((1-x)(1-px)^6\\) blir noll.</p>",
+    "s": "<p>\\((1-px)^6=1-6px+15p^2x^2-\\dots\\)</p><p>\\(x^2\\)-termen i produkten: \\(15p^2x^2+(-x)(-6px)=(15p^2+6p)x^2\\).</p><p>\\(15p^2+6p=0\\iff p(15p+6)=0\\iff p=-\\dfrac25\\), eftersom \\(p\\neq0\\).</p><p><strong>Svar:</strong> \\(p=-\\dfrac25\\)</p>",
+    "id": "1.758",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": "-2/5",
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm de tre första termerna i \\((1-px)^6\\). Vilka produkter ger \\(x^2\\)?</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "parameter ur given koefficient",
+    "poang": "0/2/0",
+    "t": "<p>Koefficienten framför \\(x\\) i \\((3+cx)(2+5x)^6\\) är 4 416. Bestäm \\(c\\).</p>",
+    "s": "<p>\\((2+5x)^6=64+960x+\\dots\\)</p><p>\\(x\\)-termen: \\(3\\cdot960x+cx\\cdot64=(2\\,880+64c)x\\).</p><p>\\(2\\,880+64c=4\\,416\\iff c=24\\).</p><p><strong>Svar:</strong> \\(c=24\\)</p>",
+    "id": "1.759",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Du behöver bara de två första termerna i \\((2+5x)^6\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "förhållande mellan koefficienter",
+    "poang": "0/8/0",
+    "t": "<p>Konstanten \\(b\\neq0\\).</p><ol type=\"a\"><li>Bestäm \\(b\\) om koefficienten framför \\(x^2\\) i \\((3+bx)^5\\) är dubbelt så stor som koefficienten framför \\(x\\).</li><li>Bestäm \\(b\\) om koefficienten framför \\(x^2\\) i \\((2+bx)^7\\) är 6 gånger så stor som koefficienten framför \\(x\\).</li><li>Bestäm \\(b\\) om koefficienterna framför \\(x\\) och \\(x^2\\) i \\((1+bx)^6\\) är lika.</li><li>Bestäm \\(b\\) om koefficienten framför \\(x^3\\) i \\((1+bx)^{10}\\) är dubbelt så stor som koefficienten framför \\(x^2\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\((3+bx)^5=243+405bx+270b^2x^2+\\dots\\)</p><p>\\(270b^2=2\\cdot405b\\iff b=3\\).</p><p><strong>Svar:</strong> \\(b=3\\)</p></li><li><p>\\((2+bx)^7=128+448bx+672b^2x^2+\\dots\\)</p><p>\\(672b^2=6\\cdot448b\\iff b=4\\).</p><p><strong>Svar:</strong> \\(b=4\\)</p></li><li><p>\\((1+bx)^6=1+6bx+15b^2x^2+\\dots\\)</p><p>\\(15b^2=6b\\iff b=\\dfrac25\\).</p><p><strong>Svar:</strong> \\(b=\\dfrac25\\)</p></li><li><p>\\((1+bx)^{10}=1+10bx+45b^2x^2+120b^3x^3+\\dots\\)</p><p>\\(120b^3=2\\cdot45b^2\\iff b=\\dfrac34\\).</p><p><strong>Svar:</strong> \\(b=\\dfrac34\\)</p></li></ol>",
+    "id": "1.760",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      4,
+      "2/5",
+      "3/4"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0.001,
+      0.001
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Konstanten \\(b\\neq0\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(b\\) om koefficienten framför \\(x^2\\) i \\((3+bx)^5\\) är dubbelt så stor som koefficienten framför \\(x\\).",
+        "t": "<p>Konstanten \\(b\\neq0\\).</p><p>Bestäm \\(b\\) om koefficienten framför \\(x^2\\) i \\((3+bx)^5\\) är dubbelt så stor som koefficienten framför \\(x\\).</p>",
+        "s": "<p>\\((3+bx)^5=243+405bx+270b^2x^2+\\dots\\)</p><p>\\(270b^2=2\\cdot405b\\iff b=3\\).</p><p><strong>Svar:</strong> \\(b=3\\)</p>",
+        "ledtrad": "<p>Skriv de tre första termerna och jämför koefficienterna.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(b\\) om koefficienten framför \\(x^2\\) i \\((2+bx)^7\\) är 6 gånger så stor som koefficienten framför \\(x\\).",
+        "t": "<p>Konstanten \\(b\\neq0\\).</p><p>Bestäm \\(b\\) om koefficienten framför \\(x^2\\) i \\((2+bx)^7\\) är 6 gånger så stor som koefficienten framför \\(x\\).</p>",
+        "s": "<p>\\((2+bx)^7=128+448bx+672b^2x^2+\\dots\\)</p><p>\\(672b^2=6\\cdot448b\\iff b=4\\).</p><p><strong>Svar:</strong> \\(b=4\\)</p>",
+        "ledtrad": "<p>Skriv de tre första termerna och jämför koefficienterna.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm \\(b\\) om koefficienterna framför \\(x\\) och \\(x^2\\) i \\((1+bx)^6\\) är lika.",
+        "t": "<p>Konstanten \\(b\\neq0\\).</p><p>Bestäm \\(b\\) om koefficienterna framför \\(x\\) och \\(x^2\\) i \\((1+bx)^6\\) är lika.</p>",
+        "s": "<p>\\((1+bx)^6=1+6bx+15b^2x^2+\\dots\\)</p><p>\\(15b^2=6b\\iff b=\\dfrac25\\).</p><p><strong>Svar:</strong> \\(b=\\dfrac25\\)</p>",
+        "ledtrad": "<p>Skriv de tre första termerna och sätt koefficienterna lika.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Bestäm \\(b\\) om koefficienten framför \\(x^3\\) i \\((1+bx)^{10}\\) är dubbelt så stor som koefficienten framför \\(x^2\\).",
+        "t": "<p>Konstanten \\(b\\neq0\\).</p><p>Bestäm \\(b\\) om koefficienten framför \\(x^3\\) i \\((1+bx)^{10}\\) är dubbelt så stor som koefficienten framför \\(x^2\\).</p>",
+        "s": "<p>\\((1+bx)^{10}=1+10bx+45b^2x^2+120b^3x^3+\\dots\\)</p><p>\\(120b^3=2\\cdot45b^2\\iff b=\\dfrac34\\).</p><p><strong>Svar:</strong> \\(b=\\dfrac34\\)</p>",
+        "ledtrad": "<p>Skriv de fyra första termerna och jämför.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Koefficienten framför \\(x^k\\) i \\((m+bx)^n\\) är \\(\\binom nk m^{n-k}b^k\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "kvot mellan binomialkoefficienter",
+    "poang": "0/2/0",
+    "t": "<p>Låt \\(p\\) och \\(q\\) vara koefficienterna framför \\(x^4\\) respektive \\(x^5\\) i \\((1+x)^{40}\\). Bestäm \\(\\dfrac pq\\).</p>",
+    "s": "<p>\\(p=\\binom{40}{4}\\) och \\(q=\\binom{40}{5}\\).</p><p>\\(\\dfrac pq=\\dfrac{40!/(4!\\,36!)}{40!/(5!\\,35!)}=\\dfrac{5!\\,35!}{4!\\,36!}=\\dfrac{5}{36}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{36}\\)</p>",
+    "id": "1.761",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": "5/36",
+    "tolerans": 0.0006,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv båda som fakulteter och förkorta.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "koefficient i produkt",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm koefficienten framför \\(x\\) i \\((1+2x)^7(3+2x)^4\\).</p>",
+    "s": "<p>\\((1+2x)^7=1+14x+\\dots\\) och \\((3+2x)^4=81+216x+\\dots\\)</p><p>\\(x\\)-termen: \\(1\\cdot216x+14x\\cdot81=(216+1\\,134)x\\).</p><p><strong>Svar:</strong> 1 350</p>",
+    "id": "1.762",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1350,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Du behöver bara konstanttermen och \\(x\\)-termen i varje faktor.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "koefficient i produkt",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm koefficienten framför \\(x\\) i \\((2+x)^4(2-3x)^4\\).</p>",
+    "s": "<p>\\((2+x)^4=16+32x+\\dots\\) och \\((2-3x)^4=16-96x+\\dots\\)</p><p>\\(x\\)-termen: \\(16\\cdot(-96)+32\\cdot16=-1\\,536+512=-1\\,024\\).</p><p><strong>Svar:</strong> −1 024</p>",
+    "id": "1.763",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": -1024,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Du behöver bara konstanttermen och \\(x\\)-termen i varje faktor.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "koefficient i produkt",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm koefficienten framför \\(x^2\\) i \\((2-3x)^2(1+4x)^7\\).</p>",
+    "s": "<p>\\((2-3x)^2=4-12x+9x^2\\) och \\((1+4x)^7=1+28x+336x^2+\\dots\\)</p><p>\\(x^2\\)-termen: \\(4\\cdot336-12\\cdot28+9\\cdot1=1\\,344-336+9=1\\,017\\).</p><p><strong>Svar:</strong> 1 017</p>",
+    "id": "1.764",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1017,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilka par av termer ger \\(x^2\\)? Det finns tre sådana par.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "koefficient i produkt",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm koefficienten framför \\(x^2\\) i \\((1-2x)^6(2+x)^7\\).</p>",
+    "s": "<p>\\((1-2x)^6=1-12x+60x^2+\\dots\\) och \\((2+x)^7=128+448x+672x^2+\\dots\\)</p><p>\\(x^2\\)-termen: \\(1\\cdot672+(-12)\\cdot448+60\\cdot128=672-5\\,376+7\\,680=2\\,976\\).</p><p><strong>Svar:</strong> 2 976</p>",
+    "id": "1.765",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2976,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilka par av termer ger \\(x^2\\)? Det finns tre sådana par.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "första termerna i en produkt",
+    "poang": "1/2/0",
+    "t": "<p>Bestäm de fyra första termerna i \\((2+3x)(1-2x)^8\\), ordnade efter stigande potenser av \\(x\\).</p>",
+    "s": "<p>\\((1-2x)^8=1-16x+112x^2-448x^3+\\dots\\)</p><p>Multiplicera med \\(2+3x\\): konstant 2, \\(x\\): \\(-32+3=-29\\), \\(x^2\\): \\(224-48=176\\), \\(x^3\\): \\(-896+336=-560\\).</p><p><strong>Svar:</strong> \\(2-29x+176x^2-560x^3\\)</p>",
+    "id": "1.766",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "uttryck",
+    "rättSvar": "2-29*x+176*x^2-560*x^3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Utveckla först \\((1-2x)^8\\) till och med \\(x^3\\).</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "parameter i kvadrerat binom",
+    "poang": "0/3/0",
+    "t": "<p>Utvecklingen av \\(\\left(k-\\dfrac x2\\right)^6\\) innehåller termen \\(960x^2\\), där \\(k\\gt0\\).</p><ol type=\"a\"><li>Bestäm \\(k\\).</li><li>Bestäm koefficienten framför \\(x^3\\) när \\(k=4\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(x^2\\)-termen: \\(\\binom62k^4\\left(-\\dfrac12\\right)^2x^2=\\dfrac{15}{4}k^4x^2\\).</p><p>\\(\\dfrac{15}{4}k^4=960\\iff k^4=256\\iff k=4\\).</p><p><strong>Svar:</strong> \\(k=4\\)</p></li><li><p>\\(\\binom63\\cdot4^3\\left(-\\dfrac12\\right)^3=20\\cdot64\\cdot\\left(-\\dfrac18\\right)=-160\\).</p><p><strong>Svar:</strong> −160</p></li></ol>",
+    "id": "1.767",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      -160
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Utvecklingen av \\(\\left(k-\\dfrac x2\\right)^6\\) innehåller termen \\(960x^2\\), där \\(k\\gt0\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(k\\).",
+        "t": "<p>Utvecklingen av \\(\\left(k-\\dfrac x2\\right)^6\\) innehåller termen \\(960x^2\\), där \\(k\\gt0\\).</p><p>Bestäm \\(k\\).</p>",
+        "s": "<p>\\(x^2\\)-termen: \\(\\binom62k^4\\left(-\\dfrac12\\right)^2x^2=\\dfrac{15}{4}k^4x^2\\).</p><p>\\(\\dfrac{15}{4}k^4=960\\iff k^4=256\\iff k=4\\).</p><p><strong>Svar:</strong> \\(k=4\\)</p>",
+        "ledtrad": "<p>Skriv \\(x^2\\)-termen med \\(k\\) och lös ekvationen.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm koefficienten framför \\(x^3\\) när \\(k=4\\).",
+        "t": "<p>Utvecklingen av \\(\\left(k-\\dfrac x2\\right)^6\\) innehåller termen \\(960x^2\\), där \\(k\\gt0\\).</p><p>Bestäm koefficienten framför \\(x^3\\) när \\(k=4\\).</p>",
+        "s": "<p>\\(\\binom63\\cdot4^3\\left(-\\dfrac12\\right)^3=20\\cdot64\\cdot\\left(-\\dfrac18\\right)=-160\\).</p><p><strong>Svar:</strong> −160</p>",
+        "ledtrad": "<p>Använd \\(\\binom63k^3\\left(-\\tfrac12\\right)^3\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Allmän term: \\(\\binom6jk^{6-j}\\left(-\\tfrac x2\\right)^j\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "A",
+    "typ": "binomialsatsen med rötter",
+    "poang": "0/3/1",
+    "t": "<p>Binomialsatsen kan användas för att räkna exakt med rötter.</p><ol type=\"a\"><li>Skriv \\((1+\\sqrt2)^5\\) på formen \\(a+b\\sqrt2\\). Ange \\(a\\).</li><li>Skriv \\((1+\\sqrt2)^5\\) på formen \\(a+b\\sqrt2\\). Ange \\(b\\).</li><li>Beräkna \\((3+\\sqrt8)^4-(3-\\sqrt8)^4\\) exakt.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\((1+\\sqrt2)^5=1+5\\sqrt2+10\\cdot2+10\\cdot2\\sqrt2+5\\cdot4+4\\sqrt2=41+29\\sqrt2\\).</p><p><strong>Svar:</strong> \\(a=41\\) (och \\(b=29\\))</p></li><li><p>Termerna med \\(\\sqrt2\\): \\(5\\sqrt2+20\\sqrt2+4\\sqrt2=29\\sqrt2\\).</p><p><strong>Svar:</strong> \\(b=29\\)</p></li><li><p>\\((3+y)^4-(3-y)^4=2\\left(4\\cdot27y+4\\cdot3y^3\\right)=216y+24y^3\\).</p><p>Med \\(y=\\sqrt8=2\\sqrt2\\): \\(432\\sqrt2+24\\cdot16\\sqrt2=816\\sqrt2\\).</p><p><strong>Svar:</strong> \\(816\\sqrt2\\)</p></li></ol>",
+    "id": "1.768",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      41,
+      29,
+      "816*sqrt(2)"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Binomialsatsen kan användas för att räkna exakt med rötter.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Skriv \\((1+\\sqrt2)^5\\) på formen \\(a+b\\sqrt2\\). Ange \\(a\\).",
+        "t": "<p>Binomialsatsen kan användas för att räkna exakt med rötter.</p><p>Skriv \\((1+\\sqrt2)^5\\) på formen \\(a+b\\sqrt2\\). Ange \\(a\\).</p>",
+        "s": "<p>\\((1+\\sqrt2)^5=1+5\\sqrt2+10\\cdot2+10\\cdot2\\sqrt2+5\\cdot4+4\\sqrt2=41+29\\sqrt2\\).</p><p><strong>Svar:</strong> \\(a=41\\) (och \\(b=29\\))</p>",
+        "ledtrad": "<p>Utveckla och använd att \\((\\sqrt2)^2=2\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Skriv \\((1+\\sqrt2)^5\\) på formen \\(a+b\\sqrt2\\). Ange \\(b\\).",
+        "t": "<p>Binomialsatsen kan användas för att räkna exakt med rötter.</p><p>Skriv \\((1+\\sqrt2)^5\\) på formen \\(a+b\\sqrt2\\). Ange \\(b\\).</p>",
+        "s": "<p>Termerna med \\(\\sqrt2\\): \\(5\\sqrt2+20\\sqrt2+4\\sqrt2=29\\sqrt2\\).</p><p><strong>Svar:</strong> \\(b=29\\)</p>",
+        "ledtrad": "<p>Samla de termer som innehåller en udda potens av \\(\\sqrt2\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna \\((3+\\sqrt8)^4-(3-\\sqrt8)^4\\) exakt.",
+        "t": "<p>Binomialsatsen kan användas för att räkna exakt med rötter.</p><p>Beräkna \\((3+\\sqrt8)^4-(3-\\sqrt8)^4\\) exakt.</p>",
+        "s": "<p>\\((3+y)^4-(3-y)^4=2\\left(4\\cdot27y+4\\cdot3y^3\\right)=216y+24y^3\\).</p><p>Med \\(y=\\sqrt8=2\\sqrt2\\): \\(432\\sqrt2+24\\cdot16\\sqrt2=816\\sqrt2\\).</p><p><strong>Svar:</strong> \\(816\\sqrt2\\)</p>",
+        "ledtrad": "<p>Vilka termer tar ut varandra när de två utvecklingarna subtraheras?</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Udda potenser av en rot ger rottermer.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "exakt beräkning med binomialsatsen",
+    "poang": "1/1/0",
+    "t": "<p>Beräkna \\(1\\,005^4\\) exakt genom att skriva \\(1\\,005=1\\,000+5\\).</p>",
+    "s": "<p>\\((1\\,000+5)^4=10^{12}+4\\cdot10^9\\cdot5+6\\cdot10^6\\cdot25+4\\cdot10^3\\cdot125+625\\)</p><p>\\(=1\\,000\\,000\\,000\\,000+20\\,000\\,000\\,000+150\\,000\\,000+500\\,000+625=1\\,020\\,150\\,500\\,625\\).</p><p><strong>Svar:</strong> 1 020 150 500 625</p>",
+    "id": "1.769",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1020150500625,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utveckla \\((1\\,000+5)^4\\) och räkna term för term.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "C",
+    "typ": "ekvation med binomialsatsen",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\((3+x)^4+(3-x)^4=386\\).</p>",
+    "s": "<p>Termerna med udda potenser tar ut varandra: \\((3+x)^4+(3-x)^4=2(81+54x^2+x^4)\\).</p><p>\\(2(81+54x^2+x^4)=386\\iff x^4+54x^2-112=0\\iff(x^2-2)(x^2+56)=0\\).</p><p>\\(x^2=2\\iff x=\\pm\\sqrt2\\).</p><p><strong>Svar:</strong> \\(x=\\pm\\sqrt2\\)</p>",
+    "id": "1.770",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": "-sqrt(2), sqrt(2)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "lösningsmängd",
+    "ledtrad": "<p>Vilka termer tar ut varandra när de två utvecklingarna adderas?</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "A",
+    "typ": "ekvation ur differens av utvecklingar",
+    "poang": "0/1/2",
+    "t": "<p>Låt \\(f(x)=(1+2x)^5\\). Lös ekvationen \\(f(x)-f(-x)=64x\\).</p>",
+    "s": "<p>\\(f(x)=1+10x+40x^2+80x^3+80x^4+32x^5\\). I \\(f(x)-f(-x)\\) blir de jämna potenserna noll:</p><p>\\(f(x)-f(-x)=20x+160x^3+64x^5\\).</p><p>\\(64x^5+160x^3-44x=0\\iff4x(16x^4+40x^2-11)=0\\iff x=0\\) eller \\(x^2=\\dfrac14\\) (den andra roten är negativ).</p><p><strong>Svar:</strong> \\(x=0\\) och \\(x=\\pm\\dfrac12\\)</p>",
+    "id": "1.771",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": "-1/2, 0, 1/2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "lösningsmängd",
+    "ledtrad": "<p>Vilka termer tar ut varandra när man bildar \\(f(x)-f(-x)\\)?</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "A",
+    "typ": "bestämma exponent och parameter",
+    "poang": "0/2/1",
+    "t": "<p>Utvecklingen av \\((1+ax)^n\\) börjar \\(1+8x+30x^2+\\dots\\)</p><ol type=\"a\"><li>Bestäm \\(n\\).</li><li>Bestäm koefficienten framför \\(x^3\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(na=8\\) och \\(\\dfrac{n(n-1)}{2}a^2=30\\). Insättning av \\(a=\\dfrac8n\\): \\(\\dfrac{n(n-1)}{2}\\cdot\\dfrac{64}{n^2}=30\\iff32(n-1)=30n\\iff n=16\\).</p><p><strong>Svar:</strong> \\(n=16\\)</p></li><li><p>\\(n=16\\) och \\(a=\\dfrac{8}{16}=\\dfrac12\\): \\(\\binom{16}{3}\\left(\\dfrac12\\right)^3=\\dfrac{560}{8}=70\\).</p><p><strong>Svar:</strong> 70</p></li></ol>",
+    "id": "1.772",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      16,
+      70
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Utvecklingen av \\((1+ax)^n\\) börjar \\(1+8x+30x^2+\\dots\\)</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(n\\).",
+        "t": "<p>Utvecklingen av \\((1+ax)^n\\) börjar \\(1+8x+30x^2+\\dots\\)</p><p>Bestäm \\(n\\).</p>",
+        "s": "<p>\\(na=8\\) och \\(\\dfrac{n(n-1)}{2}a^2=30\\). Insättning av \\(a=\\dfrac8n\\): \\(\\dfrac{n(n-1)}{2}\\cdot\\dfrac{64}{n^2}=30\\iff32(n-1)=30n\\iff n=16\\).</p><p><strong>Svar:</strong> \\(n=16\\)</p>",
+        "ledtrad": "<p>Ställ upp två ekvationer med koefficienterna för \\(x\\) och \\(x^2\\).</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm koefficienten framför \\(x^3\\).",
+        "t": "<p>Utvecklingen av \\((1+ax)^n\\) börjar \\(1+8x+30x^2+\\dots\\)</p><p>Det gäller att \\(n=16\\).</p><p>Bestäm koefficienten framför \\(x^3\\).</p>",
+        "s": "<p>\\(n=16\\) och \\(a=\\dfrac{8}{16}=\\dfrac12\\): \\(\\binom{16}{3}\\left(\\dfrac12\\right)^3=\\dfrac{560}{8}=70\\).</p><p><strong>Svar:</strong> 70</p>",
+        "ledtrad": "<p>Bestäm först \\(a\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Koefficienterna är \\(\\binom nk a^k\\).</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "A",
+    "typ": "lika koefficienter",
+    "poang": "0/1/2",
+    "t": "<p>I utvecklingen av \\((2+x)^n\\) är koefficienterna framför \\(x^2\\) och \\(x^3\\) lika. Bestäm koefficienten framför \\(x^4\\).</p>",
+    "s": "<p>\\(\\binom n22^{n-2}=\\binom n32^{n-3}\\iff2=\\dfrac{n-2}{3}\\iff n=8\\).</p><p>Koefficienten för \\(x^4\\): \\(\\binom842^4=70\\cdot16=1\\,120\\).</p><p><strong>Svar:</strong> 1 120</p>",
+    "id": "1.773",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1120,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv kvoten mellan de två koefficienterna och förenkla.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "A",
+    "typ": "trinom genom faktorisering",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm koefficienten framför \\(x^2\\) i \\((2x^2+3x+1)^7\\).</p>",
+    "s": "<p>\\(2x^2+3x+1=(1+x)(1+2x)\\), så uttrycket är \\((1+x)^7(1+2x)^7\\).</p><p>\\((1+x)^7=1+7x+21x^2+\\dots\\), \\((1+2x)^7=1+14x+84x^2+\\dots\\)</p><p>\\(x^2\\): \\(84+7\\cdot14+21=203\\).</p><p><strong>Svar:</strong> 203</p>",
+    "id": "1.774",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 203,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Faktorisera trinomet först.</p>",
+    "traningsniva": 5
+  },
+  {
+    "kap": 1,
+    "omr": "binomialsatsen",
+    "niva": "A",
+    "typ": "bestämma tre okända ur utveckling",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm \\(a\\), \\(b\\) och \\(n\\) så att \\((a+bx)^n=512+576x+288x^2+\\dots\\), där \\(a\\) är ett positivt heltal. Ange \\(b\\).</p>",
+    "s": "<p>\\(a^n=512=2^9\\). Pröva \\(a=2\\), \\(n=9\\): \\(9\\cdot2^8b=576\\iff b=\\dfrac14\\).</p><p>Kontroll: \\(\\binom92\\cdot2^7\\cdot\\dfrac{1}{16}=36\\cdot8=288\\). Stämmer.</p><p>(Med \\(a=8\\), \\(n=3\\) blir \\(b=3\\) men \\(x^2\\)-koefficienten \\(3\\cdot8\\cdot9=216\\), som inte stämmer.)</p><p><strong>Svar:</strong> \\(a=2\\), \\(b=\\dfrac14\\), \\(n=9\\)</p>",
+    "id": "1.775",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda binomialsatsen",
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/4",
+    "tolerans": 0.0001,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv 512 som en potens. Vilka kombinationer av \\(a\\) och \\(n\\) är möjliga? Pröva med \\(x^2\\)-koefficienten.</p>",
+    "traningsniva": 5
+  },
+  {
     "kap": 2,
     "omr": "delbarhet_primtal",
     "niva": "E",

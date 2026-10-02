@@ -24250,6 +24250,104 @@ window.BANKMATO2 = [
     "svarEnhet": "°"
   },
   {
+    "kap": 2,
+    "omr": "radianbegreppet",
+    "niva": "E",
+    "typ": "grader och radianer exakt",
+    "poang": "4/0/0",
+    "t": "<p>Omvandla vinkeln. Svara exakt.</p><ol type=\"a\"><li>\\(165^\\circ\\) till radianer</li><li>\\(-110^\\circ\\) till radianer</li><li>\\(\\dfrac{5\\pi}{12}\\) till grader</li><li>\\(-\\dfrac{33\\pi}{4}\\) till grader</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(165\\cdot\\dfrac{\\pi}{180}=\\dfrac{11\\pi}{12}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{11\\pi}{12}\\)</p></li><li><p>\\(-110\\cdot\\dfrac{\\pi}{180}=-\\dfrac{11\\pi}{18}\\).</p><p><strong>Svar:</strong> \\(-\\dfrac{11\\pi}{18}\\)</p></li><li><p>\\(\\dfrac{5\\pi}{12}\\cdot\\dfrac{180^\\circ}{\\pi}=75^\\circ\\).</p><p><strong>Svar:</strong> \\(75^\\circ\\)</p></li><li><p>\\(-\\dfrac{33\\pi}{4}\\cdot\\dfrac{180^\\circ}{\\pi}=-1\\,485^\\circ\\).</p><p><strong>Svar:</strong> \\(-1\\,485^\\circ\\)</p></li></ol>",
+    "id": "2.588",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Omvandling mellan grader och radianer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "11pi/12",
+      "-11pi/18",
+      75,
+      -1485
+    ],
+    "tolerans": [
+      null,
+      null,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Omvandla vinkeln. Svara exakt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(165^\\circ\\) till radianer",
+        "t": "<p>Omvandla vinkeln. Svara exakt.</p><p>\\(165^\\circ\\) till radianer</p>",
+        "s": "<p>\\(165\\cdot\\dfrac{\\pi}{180}=\\dfrac{11\\pi}{12}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{11\\pi}{12}\\)</p>",
+        "ledtrad": "<p>Multiplicera med \\(\\dfrac{\\pi}{180^\\circ}\\) och förkorta.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(-110^\\circ\\) till radianer",
+        "t": "<p>Omvandla vinkeln. Svara exakt.</p><p>\\(-110^\\circ\\) till radianer</p>",
+        "s": "<p>\\(-110\\cdot\\dfrac{\\pi}{180}=-\\dfrac{11\\pi}{18}\\).</p><p><strong>Svar:</strong> \\(-\\dfrac{11\\pi}{18}\\)</p>",
+        "ledtrad": "<p>Multiplicera med \\(\\dfrac{\\pi}{180^\\circ}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\dfrac{5\\pi}{12}\\) till grader",
+        "t": "<p>Omvandla vinkeln. Svara exakt.</p><p>\\(\\dfrac{5\\pi}{12}\\) till grader</p>",
+        "s": "<p>\\(\\dfrac{5\\pi}{12}\\cdot\\dfrac{180^\\circ}{\\pi}=75^\\circ\\).</p><p><strong>Svar:</strong> \\(75^\\circ\\)</p>",
+        "ledtrad": "<p>Multiplicera med \\(\\dfrac{180^\\circ}{\\pi}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(-\\dfrac{33\\pi}{4}\\) till grader",
+        "t": "<p>Omvandla vinkeln. Svara exakt.</p><p>\\(-\\dfrac{33\\pi}{4}\\) till grader</p>",
+        "s": "<p>\\(-\\dfrac{33\\pi}{4}\\cdot\\dfrac{180^\\circ}{\\pi}=-1\\,485^\\circ\\).</p><p><strong>Svar:</strong> \\(-1\\,485^\\circ\\)</p>",
+        "ledtrad": "<p>Multiplicera med \\(\\dfrac{180^\\circ}{\\pi}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad.</p>",
+    "traningsniva": 2,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
+    "arbetsinsats": 3
+  },
+  {
     "id": "1.02",
     "kap": 2,
     "omr": "trig_problemlosning_2",
@@ -94564,6 +94662,119 @@ window.BANKMATO2 = [
     "svarsstruktur": "ordnad"
   },
   {
+    "kap": 2,
+    "omr": "derivata_sammansatta",
+    "niva": "C",
+    "typ": "kedjeregeln med inre funktion",
+    "poang": "4/1/0",
+    "t": "<p>Derivera funktionen.</p><ol type=\"a\"><li>\\(y=-5e^{-5x}+1\\)</li><li>\\(y=4\\cos4x+3\\sin6x\\)</li><li>\\(y=\\sin(7x-2)\\)</li><li>\\(y=\\ln(4x+1)-x\\)</li><li>\\(y=x-\\ln(9x)\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y^{\\prime}=-5\\cdot(-5)e^{-5x}=25e^{-5x}\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=25e^{-5x}\\)</p></li><li><p>\\(y^{\\prime}=-16\\sin4x+18\\cos6x\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=-16\\sin4x+18\\cos6x\\)</p></li><li><p>\\(y^{\\prime}=7\\cos(7x-2)\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=7\\cos(7x-2)\\)</p></li><li><p>\\(y^{\\prime}=\\dfrac{4}{4x+1}-1\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=\\dfrac{4}{4x+1}-1\\)</p></li><li><p>\\(\\ln(9x)=\\ln9+\\ln x\\), så \\(y^{\\prime}=1-\\dfrac1x\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=1-\\dfrac1x\\)</p></li></ol>",
+    "id": "2.585",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "25e^(-5x)",
+      "-16sin(4x)+18cos(6x)",
+      "7cos(7x-2)",
+      "4/(4x+1)-1",
+      "1-1/x"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Derivera funktionen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(y=-5e^{-5x}+1\\)",
+        "t": "<p>Derivera funktionen.</p><p>\\(y=-5e^{-5x}+1\\)</p>",
+        "s": "<p>\\(y^{\\prime}=-5\\cdot(-5)e^{-5x}=25e^{-5x}\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=25e^{-5x}\\)</p>",
+        "ledtrad": "<p>Inre derivatan är −5.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(y=4\\cos4x+3\\sin6x\\)",
+        "t": "<p>Derivera funktionen.</p><p>\\(y=4\\cos4x+3\\sin6x\\)</p>",
+        "s": "<p>\\(y^{\\prime}=-16\\sin4x+18\\cos6x\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=-16\\sin4x+18\\cos6x\\)</p>",
+        "ledtrad": "<p>Derivera varje term och multiplicera med inre derivatan.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(y=\\sin(7x-2)\\)",
+        "t": "<p>Derivera funktionen.</p><p>\\(y=\\sin(7x-2)\\)</p>",
+        "s": "<p>\\(y^{\\prime}=7\\cos(7x-2)\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=7\\cos(7x-2)\\)</p>",
+        "ledtrad": "<p>Vad är inre derivatan av \\(7x-2\\)?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(y=\\ln(4x+1)-x\\)",
+        "t": "<p>Derivera funktionen.</p><p>\\(y=\\ln(4x+1)-x\\)</p>",
+        "s": "<p>\\(y^{\\prime}=\\dfrac{4}{4x+1}-1\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=\\dfrac{4}{4x+1}-1\\)</p>",
+        "ledtrad": "<p>Derivatan av \\(\\ln u\\) är \\(\\dfrac{u^{\\prime}}{u}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "e",
+        "fraga": "\\(y=x-\\ln(9x)\\)",
+        "t": "<p>Derivera funktionen.</p><p>\\(y=x-\\ln(9x)\\)</p>",
+        "s": "<p>\\(\\ln(9x)=\\ln9+\\ln x\\), så \\(y^{\\prime}=1-\\dfrac1x\\).</p><p><strong>Svar:</strong> \\(y^{\\prime}=1-\\dfrac1x\\)</p>",
+        "ledtrad": "<p>Använd logaritmlagen \\(\\ln(9x)=\\ln9+\\ln x\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Kedjeregeln: yttre derivata gånger inre derivata.</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
+    "arbetsinsats": 3
+  },
+  {
     "id": "2.543",
     "kap": 3,
     "omr": "produktregeln",
@@ -94832,6 +95043,104 @@ window.BANKMATO2 = [
     "svarsstruktur": "ordnad"
   },
   {
+    "kap": 2,
+    "omr": "produktregeln",
+    "niva": "C",
+    "typ": "derivera med produktregeln",
+    "poang": "3/1/0",
+    "t": "<p>Derivera funktionen med produktregeln.</p><ol type=\"a\"><li>\\(f(x)=e^x\\sin x\\)</li><li>\\(f(x)=x\\ln x\\)</li><li>\\(f(x)=x^4\\cos x\\)</li><li>\\(f(x)=\\sin x\\cos x\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f^{\\prime}(x)=e^x\\sin x+e^x\\cos x=e^x(\\sin x+\\cos x)\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=e^x(\\sin x+\\cos x)\\)</p></li><li><p>\\(f^{\\prime}(x)=1\\cdot\\ln x+x\\cdot\\dfrac1x=\\ln x+1\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=\\ln x+1\\)</p></li><li><p>\\(f^{\\prime}(x)=4x^3\\cos x-x^4\\sin x\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=4x^3\\cos x-x^4\\sin x\\)</p></li><li><p>\\(f^{\\prime}(x)=\\cos^2x-\\sin^2x=\\cos2x\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=\\cos2x\\)</p></li></ol>",
+    "id": "2.587",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Derivering med produktregeln",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "e^x*(sin(x)+cos(x))",
+      "ln(x)+1",
+      "4x^3*cos(x)-x^4*sin(x)",
+      "cos(2x)"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Derivera funktionen med produktregeln.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(f(x)=e^x\\sin x\\)",
+        "t": "<p>Derivera funktionen med produktregeln.</p><p>\\(f(x)=e^x\\sin x\\)</p>",
+        "s": "<p>\\(f^{\\prime}(x)=e^x\\sin x+e^x\\cos x=e^x(\\sin x+\\cos x)\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=e^x(\\sin x+\\cos x)\\)</p>",
+        "ledtrad": "<p>\\((uv)^{\\prime}=u^{\\prime}v+uv^{\\prime}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(f(x)=x\\ln x\\)",
+        "t": "<p>Derivera funktionen med produktregeln.</p><p>\\(f(x)=x\\ln x\\)</p>",
+        "s": "<p>\\(f^{\\prime}(x)=1\\cdot\\ln x+x\\cdot\\dfrac1x=\\ln x+1\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=\\ln x+1\\)</p>",
+        "ledtrad": "<p>Derivatan av \\(\\ln x\\) är \\(\\dfrac1x\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(f(x)=x^4\\cos x\\)",
+        "t": "<p>Derivera funktionen med produktregeln.</p><p>\\(f(x)=x^4\\cos x\\)</p>",
+        "s": "<p>\\(f^{\\prime}(x)=4x^3\\cos x-x^4\\sin x\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=4x^3\\cos x-x^4\\sin x\\)</p>",
+        "ledtrad": "<p>Derivatan av \\(\\cos x\\) är \\(-\\sin x\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(f(x)=\\sin x\\cos x\\)",
+        "t": "<p>Derivera funktionen med produktregeln.</p><p>\\(f(x)=\\sin x\\cos x\\)</p>",
+        "s": "<p>\\(f^{\\prime}(x)=\\cos^2x-\\sin^2x=\\cos2x\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=\\cos2x\\)</p>",
+        "ledtrad": "<p>Förenkla resultatet med formeln för dubbla vinkeln.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Produktregeln: \\((uv)^{\\prime}=u^{\\prime}v+uv^{\\prime}\\).</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "produktregeln__derivering_med_produktregeln",
+    "arbetsinsats": 3
+  },
+  {
     "id": "2.549",
     "kap": 3,
     "omr": "kvotregeln",
@@ -95031,6 +95340,89 @@ window.BANKMATO2 = [
       "Min y"
     ],
     "svarsstruktur": "ordnad"
+  },
+  {
+    "kap": 2,
+    "omr": "kvotregeln",
+    "niva": "C",
+    "typ": "derivera med kvotregeln",
+    "poang": "2/2/0",
+    "t": "<p>Derivera funktionen med kvotregeln. Förenkla så långt som möjligt.</p><ol type=\"a\"><li>\\(f(x)=\\dfrac{x+1}{x-1}\\)</li><li>\\(f(x)=\\dfrac{x^2}{2x+1}\\)</li><li>\\(f(x)=\\dfrac{x+1}{x^2+1}\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f^{\\prime}(x)=\\dfrac{(x-1)-(x+1)}{(x-1)^2}=-\\dfrac{2}{(x-1)^2}\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=-\\dfrac{2}{(x-1)^2}\\)</p></li><li><p>\\(f^{\\prime}(x)=\\dfrac{2x(2x+1)-2x^2}{(2x+1)^2}=\\dfrac{2x^2+2x}{(2x+1)^2}\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=\\dfrac{2x^2+2x}{(2x+1)^2}\\)</p></li><li><p>\\(f^{\\prime}(x)=\\dfrac{(x^2+1)-(x+1)2x}{(x^2+1)^2}=\\dfrac{1-2x-x^2}{(x^2+1)^2}\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=\\dfrac{1-2x-x^2}{(x^2+1)^2}\\)</p></li></ol>",
+    "id": "2.586",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Derivering med kvotregeln",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-2/(x-1)^2",
+      "(2x^2+2x)/(2x+1)^2",
+      "(1-2x-x^2)/(x^2+1)^2"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Derivera funktionen med kvotregeln. Förenkla så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(f(x)=\\dfrac{x+1}{x-1}\\)",
+        "t": "<p>Derivera funktionen med kvotregeln. Förenkla så långt som möjligt.</p><p>\\(f(x)=\\dfrac{x+1}{x-1}\\)</p>",
+        "s": "<p>\\(f^{\\prime}(x)=\\dfrac{(x-1)-(x+1)}{(x-1)^2}=-\\dfrac{2}{(x-1)^2}\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=-\\dfrac{2}{(x-1)^2}\\)</p>",
+        "ledtrad": "<p>\\(\\left(\\dfrac uv\\right)^{\\prime}=\\dfrac{u^{\\prime}v-uv^{\\prime}}{v^2}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(f(x)=\\dfrac{x^2}{2x+1}\\)",
+        "t": "<p>Derivera funktionen med kvotregeln. Förenkla så långt som möjligt.</p><p>\\(f(x)=\\dfrac{x^2}{2x+1}\\)</p>",
+        "s": "<p>\\(f^{\\prime}(x)=\\dfrac{2x(2x+1)-2x^2}{(2x+1)^2}=\\dfrac{2x^2+2x}{(2x+1)^2}\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=\\dfrac{2x^2+2x}{(2x+1)^2}\\)</p>",
+        "ledtrad": "<p>Använd kvotregeln och förenkla täljaren.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(f(x)=\\dfrac{x+1}{x^2+1}\\)",
+        "t": "<p>Derivera funktionen med kvotregeln. Förenkla så långt som möjligt.</p><p>\\(f(x)=\\dfrac{x+1}{x^2+1}\\)</p>",
+        "s": "<p>\\(f^{\\prime}(x)=\\dfrac{(x^2+1)-(x+1)2x}{(x^2+1)^2}=\\dfrac{1-2x-x^2}{(x^2+1)^2}\\).</p><p><strong>Svar:</strong> \\(f^{\\prime}(x)=\\dfrac{1-2x-x^2}{(x^2+1)^2}\\)</p>",
+        "ledtrad": "<p>Var noga med tecknen när täljaren förenklas.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\dfrac uv\\right)^{\\prime}=\\dfrac{u^{\\prime}v-uv^{\\prime}}{v^2}\\).</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
+    "arbetsinsats": 2
   },
   {
     "id": "2.553",
@@ -95255,5 +95647,228 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "tillampningar_derivata"
     ]
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "vinkel och höjd för drake",
+    "poang": "0/4/0",
+    "t": "<p>Tor flyger drake med en 65 m lång lina som hålls sträckt och lika lång hela tiden. Draken är på höjden \\(h\\) m och linan bildar vinkeln \\(\\theta\\) rad mot marken, så att \\(h=65\\sin\\theta\\). Just nu är \\(h=40\\) m.</p><ol type=\"a\"><li>Vinkeln ökar med 0,20 rad/s. Hur snabbt stiger draken? Svara med två värdesiffror.</li><li>Draken sjunker med 2,0 m/s. Bestäm \\(\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). Svara med två värdesiffror.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{\\mathrm dh}{\\mathrm dt}=65\\cos\\theta\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). \\(65\\cos\\theta=\\sqrt{65^2-40^2}\\approx51{,}2\\).</p><p>\\(\\dfrac{\\mathrm dh}{\\mathrm dt}\\approx51{,}2\\cdot0{,}20\\approx10\\) m/s.</p><p><strong>Svar:</strong> cirka 10 m/s</p></li><li><p>\\(-2{,}0=65\\cos\\theta\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\iff\\dfrac{\\mathrm d\\theta}{\\mathrm dt}=\\dfrac{-2{,}0}{51{,}2}\\approx-0{,}039\\) rad/s.</p><p><strong>Svar:</strong> \\(\\approx-0{,}039\\) rad/s</p></li></ol>",
+    "id": "3.525",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Samband mellan förändringshastigheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.25,
+      -0.039
+    ],
+    "tolerans": [
+      0.6,
+      0.0006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "rad/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tor flyger drake med en 65 m lång lina som hålls sträckt och lika lång hela tiden. Draken är på höjden \\(h\\) m och linan bildar vinkeln \\(\\theta\\) rad mot marken, så att \\(h=65\\sin\\theta\\). Just nu är \\(h=40\\) m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vinkeln ökar med 0,20 rad/s. Hur snabbt stiger draken? Svara med två värdesiffror.",
+        "t": "<p>Tor flyger drake med en 65 m lång lina som hålls sträckt och lika lång hela tiden. Draken är på höjden \\(h\\) m och linan bildar vinkeln \\(\\theta\\) rad mot marken, så att \\(h=65\\sin\\theta\\). Just nu är \\(h=40\\) m.</p><p>Vinkeln ökar med 0,20 rad/s. Hur snabbt stiger draken? Svara med två värdesiffror.</p>",
+        "s": "<p>\\(\\dfrac{\\mathrm dh}{\\mathrm dt}=65\\cos\\theta\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). \\(65\\cos\\theta=\\sqrt{65^2-40^2}\\approx51{,}2\\).</p><p>\\(\\dfrac{\\mathrm dh}{\\mathrm dt}\\approx51{,}2\\cdot0{,}20\\approx10\\) m/s.</p><p><strong>Svar:</strong> cirka 10 m/s</p>",
+        "ledtrad": "<p>Derivera \\(h=65\\sin\\theta\\) med avseende på tiden. \\(65\\cos\\theta\\) är den vågräta sträckan.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Draken sjunker med 2,0 m/s. Bestäm \\(\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). Svara med två värdesiffror.",
+        "t": "<p>Tor flyger drake med en 65 m lång lina som hålls sträckt och lika lång hela tiden. Draken är på höjden \\(h\\) m och linan bildar vinkeln \\(\\theta\\) rad mot marken, så att \\(h=65\\sin\\theta\\). Just nu är \\(h=40\\) m.</p><p>Draken sjunker med 2,0 m/s. Bestäm \\(\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). Svara med två värdesiffror.</p>",
+        "s": "<p>\\(-2{,}0=65\\cos\\theta\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\iff\\dfrac{\\mathrm d\\theta}{\\mathrm dt}=\\dfrac{-2{,}0}{51{,}2}\\approx-0{,}039\\) rad/s.</p><p><strong>Svar:</strong> \\(\\approx-0{,}039\\) rad/s</p>",
+        "ledtrad": "<p>Använd samma samband som för höjden, men lös ut vinkelhastigheten.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Vinklar i radianer, och derivatan av \\(\\sin\\theta\\) är \\(\\cos\\theta\\).</p>",
+    "traningsniva": 3,
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "A",
+    "typ": "följa raket med teleskop",
+    "poang": "0/1/2",
+    "t": "<p>Ett teleskop står 5,0 km från en raket som skjuts rakt upp. När elevationsvinkeln är \\(39^\\circ\\) vrids teleskopet med \\(25^\\circ\\)/s. Bestäm raketens fart då. Svara i km/s med två värdesiffror.</p>",
+    "s": "<p>Höjden är \\(y=5{,}0\\tan\\theta\\) km. \\(\\dfrac{\\mathrm dy}{\\mathrm dt}=\\dfrac{5{,}0}{\\cos^2\\theta}\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\), där vinkelhastigheten ska vara i rad/s: \\(25^\\circ\\)/s \\(\\approx0{,}436\\) rad/s.</p><p>\\(\\dfrac{\\mathrm dy}{\\mathrm dt}=\\dfrac{5{,}0}{\\cos^239^\\circ}\\cdot0{,}436\\approx3{,}6\\) km/s.</p><p><strong>Svar:</strong> cirka 3,6 km/s</p>",
+    "id": "3.526",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Samband mellan förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.61,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck höjden med \\(\\tan\\theta\\). Glöm inte att räkna om vinkelhastigheten till radianer.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "km/s",
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "A",
+    "typ": "ljusstråle längs strand",
+    "poang": "0/1/2",
+    "t": "<p>En fyr står 5,0 km från en rak strand. Ljuset roterar 12 varv per minut. Hur snabbt rör sig ljusfläcken längs stranden när den är 2,5 km från den punkt på stranden som ligger närmast fyren? Svara i km/s med två värdesiffror.</p>",
+    "s": "<p>\\(x=5{,}0\\tan\\theta\\), så \\(\\dfrac{\\mathrm dx}{\\mathrm dt}=5{,}0(1+\\tan^2\\theta)\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). När \\(x=2{,}5\\) är \\(\\tan\\theta=0{,}5\\).</p><p>\\(\\dfrac{\\mathrm d\\theta}{\\mathrm dt}=12\\cdot2\\pi\\) rad/min \\(=0{,}4\\pi\\) rad/s. \\(\\dfrac{\\mathrm dx}{\\mathrm dt}=5{,}0\\cdot1{,}25\\cdot0{,}4\\pi\\approx7{,}9\\) km/s.</p><p><strong>Svar:</strong> cirka 7,9 km/s</p>",
+    "id": "3.527",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Samband mellan förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.85,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck \\(x\\) med \\(\\tan\\theta\\) och använd att \\(\\dfrac{1}{\\cos^2\\theta}=1+\\tan^2\\theta\\).</p>",
+    "traningsniva": 5,
+    "svarEnhet": "km/s",
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+    "arbetsinsats": 3
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "gravitationskraft vid ändrat avstånd",
+    "poang": "0/2/0",
+    "t": "<p>Gravitationskraften är \\(F=\\dfrac{Gm_1m_2}{r^2}\\), där \\(G=6{,}672\\cdot10^{-11}\\ \\text{Nm}^2/\\text{kg}^2\\). En astronaut (120 kg) och en asteroid (25 ton) är 500 m från varandra, och avståndet minskar med 5,0 m/s.</p><p>Hur snabbt ökar kraften? Svara i N/s med två värdesiffror.</p>",
+    "s": "<p>\\(\\dfrac{\\mathrm dF}{\\mathrm dt}=-\\dfrac{2Gm_1m_2}{r^3}\\dfrac{\\mathrm dr}{\\mathrm dt}=-\\dfrac{2\\cdot6{,}672\\cdot10^{-11}\\cdot120\\cdot25\\,000}{500^3}\\cdot(-5{,}0)\\approx1{,}6\\cdot10^{-11}\\) N/s.</p><p><strong>Svar:</strong> \\(\\approx1{,}6\\cdot10^{-11}\\) N/s</p>",
+    "id": "3.528",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Samband mellan förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.6e-11,
+    "tolerans": 6e-13,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Derivera \\(F\\) med avseende på \\(r\\) och använd kedjeregeln.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N/s",
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "A",
+    "typ": "temperatur ur strålningslag",
+    "poang": "0/1/2",
+    "t": "<p>En glödtråd med arean \\(1{,}5\\cdot10^{-6}\\) m² strålar ut effekten 60 W enligt \\(P=\\sigma AT^4\\), där \\(\\sigma=5{,}67\\cdot10^{-8}\\ \\text{W/m}^2\\text{K}^4\\). Effekten ökas med 0,10 W/s.</p><p>Hur snabbt ökar temperaturen? Svara i K/s med två värdesiffror.</p>",
+    "s": "<p>\\(T=\\left(\\dfrac{P}{\\sigma A}\\right)^{1/4}\\approx5\\,150\\) K. \\(\\dfrac{\\mathrm dP}{\\mathrm dt}=4\\sigma AT^3\\dfrac{\\mathrm dT}{\\mathrm dt}\\), så \\(\\dfrac{\\mathrm dT}{\\mathrm dt}=\\dfrac{T}{4P}\\cdot\\dfrac{\\mathrm dP}{\\mathrm dt}\\approx\\dfrac{5\\,150}{240}\\cdot0{,}10\\approx2{,}1\\) K/s.</p><p><strong>Svar:</strong> cirka 2,1 K/s</p>",
+    "id": "3.529",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Samband mellan förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.147,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först temperaturen. Derivera sedan sambandet med avseende på tiden.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "K/s",
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+    "arbetsinsats": 2
+  },
+  {
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "niva": "C",
+    "typ": "ballong med areaökning",
+    "poang": "0/2/0",
+    "t": "<p>Arean av en sfärisk ballong ökar med 15 cm²/s när radien är 7,0 cm. Hur snabbt ökar volymen då? Svara med två värdesiffror.</p>",
+    "s": "<p>\\(A=4\\pi r^2\\Rightarrow\\dfrac{\\mathrm dA}{\\mathrm dt}=8\\pi r\\dfrac{\\mathrm dr}{\\mathrm dt}\\). \\(V=\\tfrac43\\pi r^3\\Rightarrow\\dfrac{\\mathrm dV}{\\mathrm dt}=4\\pi r^2\\dfrac{\\mathrm dr}{\\mathrm dt}=\\dfrac r2\\dfrac{\\mathrm dA}{\\mathrm dt}\\).</p><p>\\(\\dfrac{\\mathrm dV}{\\mathrm dt}=3{,}5\\cdot15\\approx53\\) cm³/s.</p><p><strong>Svar:</strong> cirka 53 cm³/s</p>",
+    "id": "3.530",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Samband mellan förändringshastigheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 52.5,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv både areans och volymens förändring med \\(\\dfrac{\\mathrm dr}{\\mathrm dt}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "cm³/s",
+    "kurs": [
+      "2c"
+    ],
+    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+    "arbetsinsats": 2
   }
 ];

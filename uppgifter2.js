@@ -29501,6 +29501,634 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "frekvens och hastighet ur vågberg",
+    "poang": "(2/1/0)",
+    "t": "<p>Avståndet mellan två vågberg i en transversell våg är 2,76 m. Från det att ett vågberg passerar en punkt tills det femte vågberget passerar samma punkt tar det 14,0 s.</p><ol type=\"a\"><li>Bestäm vågens frekvens.</li><li>Bestäm vågens hastighet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Mellan första och femte vågberget går fyra perioder: \\(T=\\dfrac{14{,}0}{4}=3{,}50\\) s. \\(f=\\dfrac1T\\).</p><p><strong>Svar:</strong> \\(0{,}286\\) Hz</p></li><li><p>\\(v=f\\lambda=0{,}286\\cdot2{,}76\\).</p><p><strong>Svar:</strong> \\(0{,}789\\) m/s</p></li></ol>",
+    "id": "2.424",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2857142857142857,
+      0.7885714285714285
+    ],
+    "tolerans": [
+      0.00429,
+      0.0118
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avståndet mellan två vågberg i en transversell våg är 2,76 m. Från det att ett vågberg passerar en punkt tills det femte vågberget passerar samma punkt tar det 14,0 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vågens frekvens.",
+        "t": "<p>Avståndet mellan två vågberg i en transversell våg är 2,76 m. Från det att ett vågberg passerar en punkt tills det femte vågberget passerar samma punkt tar det 14,0 s.</p><p>Bestäm vågens frekvens.</p>",
+        "s": "<p>Mellan första och femte vågberget går fyra perioder: \\(T=\\dfrac{14{,}0}{4}=3{,}50\\) s. \\(f=\\dfrac1T\\).</p><p><strong>Svar:</strong> \\(0{,}286\\) Hz</p>",
+        "ledtrad": "<p>Hur många perioder ryms mellan första och femte vågberget?</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm vågens hastighet.",
+        "t": "<p>Avståndet mellan två vågberg i en transversell våg är 2,76 m. Från det att ett vågberg passerar en punkt tills det femte vågberget passerar samma punkt tar det 14,0 s.</p>Vågens frekvens är 0,286 Hz.<p>Bestäm vågens hastighet.</p>",
+        "s": "<p>\\(v=f\\lambda=0{,}286\\cdot2{,}76\\).</p><p><strong>Svar:</strong> \\(0{,}789\\) m/s</p>",
+        "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "våglängd ur svängningar och hastighet",
+    "poang": "(1/1/0)",
+    "t": "<p>En vågkälla gör 40,0 svängningar på 30,0 s i en sträng. Ett vågberg går 425 cm på 10,0 s. Bestäm våglängden.</p>",
+    "s": "<p>\\(f=\\dfrac{40{,}0}{30{,}0}\\approx1{,}33\\) Hz, \\(v=\\dfrac{4{,}25}{10{,}0}=0{,}425\\) m/s. \\(\\lambda=\\dfrac vf\\).</p><p><strong>Svar:</strong> \\(0{,}319\\) m</p>",
+    "id": "2.425",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.31875000000000003,
+    "tolerans": 0.00478,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm frekvens och hastighet.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "fladdermusens upplösning",
+    "poang": "(1/0/0)",
+    "t": "<p>En fladdermus kan upptäcka insekter ungefär lika stora som våglängden i sitt ultraljud. Den sänder ut 60,0 kHz och ljudets hastighet är 340 m/s. Hur stor är våglängden?</p>",
+    "s": "<p>\\(\\lambda=\\dfrac{340}{60{,}0\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}0057\\) m</p>",
+    "id": "2.426",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.005666666666666667,
+    "tolerans": 8.5e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "korken och vågbergen",
+    "poang": "(1/1/0)",
+    "t": "<p>En kork guppar upp och ned två gånger per sekund på vattenvågor med våglängden 8,50 cm. Korken är 10 m från land. Hur lång tid tar det för ett vågberg att gå från korken till land?</p>",
+    "s": "<p>\\(v=f\\lambda=2{,}0\\cdot0{,}0850=0{,}17\\) m/s. \\(t=\\dfrac{10}{0{,}17}\\).</p><p><strong>Svar:</strong> \\(59\\) s</p>",
+    "id": "2.427",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "numeriskt",
+    "rättSvar": 58.8235294117647,
+    "tolerans": 0.882,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm vågens hastighet.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "s",
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "vågor vid bryggan",
+    "poang": "(2/0/0)",
+    "t": "<p>Betrice står i havet vid en lång brygga. Från första till sjätte vågtoppen som passerar hennes knän tar det 50,0 s. Avståndet mellan två vågtoppar är ungefär 32 m.</p><ol type=\"a\"><li>Bestäm vågens period.</li><li>Bestäm vågens hastighet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Mellan första och sjätte toppen går fem perioder: \\(T=\\dfrac{50{,}0}{5}\\).</p><p><strong>Svar:</strong> \\(10\\) s</p></li><li><p>\\(v=\\dfrac\\lambda T=\\dfrac{32}{10}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m/s</p></li></ol>",
+    "id": "2.428",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      3.2
+    ],
+    "tolerans": [
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Betrice står i havet vid en lång brygga. Från första till sjätte vågtoppen som passerar hennes knän tar det 50,0 s. Avståndet mellan två vågtoppar är ungefär 32 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vågens period.",
+        "t": "<p>Betrice står i havet vid en lång brygga. Från första till sjätte vågtoppen som passerar hennes knän tar det 50,0 s. Avståndet mellan två vågtoppar är ungefär 32 m.</p><p>Bestäm vågens period.</p>",
+        "s": "<p>Mellan första och sjätte toppen går fem perioder: \\(T=\\dfrac{50{,}0}{5}\\).</p><p><strong>Svar:</strong> \\(10\\) s</p>",
+        "ledtrad": "<p>Hur många perioder går mellan sex toppar?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm vågens hastighet.",
+        "t": "<p>Betrice står i havet vid en lång brygga. Från första till sjätte vågtoppen som passerar hennes knän tar det 50,0 s. Avståndet mellan två vågtoppar är ungefär 32 m.</p>Perioden är 10 s.<p>Bestäm vågens hastighet.</p>",
+        "s": "<p>\\(v=\\dfrac\\lambda T=\\dfrac{32}{10}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\dfrac\\lambda T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Amplituden går inte att bestämma med dessa mätningar.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "A",
+    "typ": "våg och partikel i sträng",
+    "poang": "(2/1/1)",
+    "t": "<p>En transversell våg i en sträng har hastigheten 450 m/s, våglängden 0,18 m och amplituden 2,0 mm.</p><ol type=\"a\"><li>Bestäm vågens frekvens.</li><li>Hur lång tid tar det för vågen att färdas 1,0 km?</li><li>Hur lång tid tar det för en punkt på strängen att röra sig sammanlagt 1,0 km upp och ned?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f=\\dfrac{450}{0{,}18}\\).</p><p><strong>Svar:</strong> \\(2\\,500\\) Hz</p></li><li><p>\\(t=\\dfrac{1\\,000}{450}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) s</p></li><li><p>Under en period rör sig punkten \\(4A=8{,}0\\) mm. Antal perioder: \\(\\dfrac{1\\,000}{0{,}0080}=1{,}25\\cdot10^5\\). \\(t=\\dfrac{1{,}25\\cdot10^5}{2\\,500}\\).</p><p><strong>Svar:</strong> \\(50\\) s</p></li></ol>",
+    "id": "2.429",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2500,
+      2.2222222222222223,
+      50
+    ],
+    "tolerans": [
+      51.0,
+      0.051,
+      0.75
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En transversell våg i en sträng har hastigheten 450 m/s, våglängden 0,18 m och amplituden 2,0 mm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vågens frekvens.",
+        "t": "<p>En transversell våg i en sträng har hastigheten 450 m/s, våglängden 0,18 m och amplituden 2,0 mm.</p><p>Bestäm vågens frekvens.</p>",
+        "s": "<p>\\(f=\\dfrac{450}{0{,}18}\\).</p><p><strong>Svar:</strong> \\(2\\,500\\) Hz</p>",
+        "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det för vågen att färdas 1,0 km?",
+        "t": "<p>En transversell våg i en sträng har hastigheten 450 m/s, våglängden 0,18 m och amplituden 2,0 mm.</p><p>Hur lång tid tar det för vågen att färdas 1,0 km?</p>",
+        "s": "<p>\\(t=\\dfrac{1\\,000}{450}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) s</p>",
+        "ledtrad": "<p>\\(t=\\dfrac sv\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång tid tar det för en punkt på strängen att röra sig sammanlagt 1,0 km upp och ned?",
+        "t": "<p>En transversell våg i en sträng har hastigheten 450 m/s, våglängden 0,18 m och amplituden 2,0 mm.</p>Vågens frekvens är 2 500 Hz.<p>Hur lång tid tar det för en punkt på strängen att röra sig sammanlagt 1,0 km upp och ned?</p>",
+        "s": "<p>Under en period rör sig punkten \\(4A=8{,}0\\) mm. Antal perioder: \\(\\dfrac{1\\,000}{0{,}0080}=1{,}25\\cdot10^5\\). \\(t=\\dfrac{1{,}25\\cdot10^5}{2\\,500}\\).</p><p><strong>Svar:</strong> \\(50\\) s</p>",
+        "ledtrad": "<p>Hur lång sträcka rör sig punkten under en period?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Skilj på vågens hastighet och strängpunkternas rörelse.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "vågor mot fiskebåt",
+    "poang": "(1/0/0)",
+    "t": "<p>En fiskebåt är 7,0 m lång. När en vågtopp lämnar aktern når nästa vågtopp fören. Det går 3,0 s mellan två vågtoppar vid fören. Vilken hastighet har vågorna?</p>",
+    "s": "<p>\\(\\lambda=7{,}0\\) m och \\(T=3{,}0\\) s. \\(v=\\dfrac{7{,}0}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s</p>",
+    "id": "2.430",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.3333333333333335,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Båtens längd är en våglängd.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "avstånd mellan förtätningar",
+    "poang": "(1/0/0)",
+    "t": "<p>En ljudvåg i luft har frekvensen 282 Hz och hastigheten 343 m/s. Hur långt är det mellan två förtätningar?</p>",
+    "s": "<p>\\(\\lambda=\\dfrac{343}{282}\\).</p><p><strong>Svar:</strong> \\(1{,}22\\) m</p>",
+    "id": "2.431",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2163120567375887,
+    "tolerans": 0.0182,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avståndet mellan två förtätningar är en våglängd.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "A",
+    "typ": "båt som guppar på vågor",
+    "poang": "(2/2/1)",
+    "t": "<p>En 6,0 m lång båt guppar på vågorna. Det tar 2,5 s från högsta till lägsta läget, och höjdskillnaden är 0,62 m. När en vågtopp når fören lämnar en vågtopp aktern, utan några toppar emellan.</p><ol type=\"a\"><li>Vilken hastighet har vågorna?</li><li>Vilken amplitud har vågorna?</li><li>Vilken är båtens största fart upp eller ned?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=6{,}0\\) m och \\(T=2\\cdot2{,}5=5{,}0\\) s. \\(v=\\dfrac{6{,}0}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m/s</p></li><li><p>\\(A=\\dfrac{0{,}62}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}31\\) m</p></li><li><p>Harmonisk svängning: \\(v_{max}=A\\omega=0{,}31\\cdot\\dfrac{2\\pi}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}39\\) m/s</p></li></ol>",
+    "id": "2.432",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.2,
+      0.31,
+      0.3895574890451344
+    ],
+    "tolerans": [
+      0.051,
+      0.0051,
+      0.00584
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En 6,0 m lång båt guppar på vågorna. Det tar 2,5 s från högsta till lägsta läget, och höjdskillnaden är 0,62 m. När en vågtopp når fören lämnar en vågtopp aktern, utan några toppar emellan.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken hastighet har vågorna?",
+        "t": "<p>En 6,0 m lång båt guppar på vågorna. Det tar 2,5 s från högsta till lägsta läget, och höjdskillnaden är 0,62 m. När en vågtopp når fören lämnar en vågtopp aktern, utan några toppar emellan.</p><p>Vilken hastighet har vågorna?</p>",
+        "s": "<p>\\(\\lambda=6{,}0\\) m och \\(T=2\\cdot2{,}5=5{,}0\\) s. \\(v=\\dfrac{6{,}0}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m/s</p>",
+        "ledtrad": "<p>Från topp till dal är en halv period.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken amplitud har vågorna?",
+        "t": "<p>En 6,0 m lång båt guppar på vågorna. Det tar 2,5 s från högsta till lägsta läget, och höjdskillnaden är 0,62 m. När en vågtopp når fören lämnar en vågtopp aktern, utan några toppar emellan.</p><p>Vilken amplitud har vågorna?</p>",
+        "s": "<p>\\(A=\\dfrac{0{,}62}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}31\\) m</p>",
+        "ledtrad": "<p>Amplituden är halva höjdskillnaden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken är båtens största fart upp eller ned?",
+        "t": "<p>En 6,0 m lång båt guppar på vågorna. Det tar 2,5 s från högsta till lägsta läget, och höjdskillnaden är 0,62 m. När en vågtopp når fören lämnar en vågtopp aktern, utan några toppar emellan.</p>Amplituden är 0,31 m och perioden 5,0 s.<p>Vilken är båtens största fart upp eller ned?</p>",
+        "s": "<p>Harmonisk svängning: \\(v_{max}=A\\omega=0{,}31\\cdot\\dfrac{2\\pi}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}39\\) m/s</p>",
+        "ledtrad": "<p>\\(v_{max}=A\\omega\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Båten gör en harmonisk svängning med vågens period.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "tsunamins hastighet",
+    "poang": "(1/0/0)",
+    "t": "<p>Vid tsunamin efter jordbävningen utanför Sumatra 2004 var avståndet mellan två vågtoppar 800 km och perioden 1,0 h. Beräkna vågens hastighet.</p>",
+    "s": "<p>\\(v=\\dfrac{800\\cdot10^3}{3\\,600}\\), ungefär 2,5 gånger toppfarten för en formel 1-bil.</p><p><strong>Svar:</strong> \\(222\\) m/s</p>",
+    "id": "2.433",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "numeriskt",
+    "rättSvar": 222.22222222222223,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v=\\dfrac\\lambda T\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m/s",
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "ultraljud för fosterundersökning",
+    "poang": "(1/0/0)",
+    "t": "<p>Vid ultraljudsundersökning får våglängden inte vara större än 1,0 mm. Ljudhastigheten i fostervattnet är 1 500 m/s. Vilken frekvens krävs minst?</p>",
+    "s": "<p>\\(f=\\dfrac{1\\,500}{1{,}0\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{6}\\) Hz</p>",
+    "id": "2.434",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1500000.0,
+    "tolerans": 51000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "Hz",
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "C",
+    "typ": "jordbävningens avstånd",
+    "poang": "(0/6/0)",
+    "t": "<p>P-vågor från en jordbävning går snabbare än S-vågor. Anta att vågorna går raka vägen.</p><ol type=\"a\"><li>P-vågen har hastigheten 8 000 m/s och S-vågen 4 500 m/s. S-vågen kommer 2,0 minuter efter P-vågen. Hur långt bort var jordbävningen?</li><li>P-vågen har hastigheten 8,5 km/s och S-vågen 5,5 km/s. S-vågen kommer 1,5 minuter efter P-vågen. Hur långt bort var jordbävningen?</li><li>Vid en underjordisk explosion har P-vågen hastigheten 10,0 km/s och S-vågen 8,0 km/s. De registreras med 2,0 s mellanrum. Hur långt bort var explosionen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{s}{4\\,500}-\\dfrac{s}{8\\,000}=120\\iff s=\\dfrac{120}{\\frac1{4\\,500}-\\frac1{8\\,000}}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{6}\\) m</p></li><li><p>\\(s=\\dfrac{90}{\\frac1{5\\,500}-\\frac1{8\\,500}}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{6}\\) m</p></li><li><p>\\(s=\\dfrac{2{,}0}{\\frac1{8\\,000}-\\frac1{10\\,000}}\\).</p><p><strong>Svar:</strong> \\(80\\,000\\) m</p></li></ol>",
+    "id": "2.435",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1234285.714285714,
+      1402500.0000000002,
+      80000.0
+    ],
+    "tolerans": [
+      51000.0,
+      51000.0,
+      1200.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>P-vågor från en jordbävning går snabbare än S-vågor. Anta att vågorna går raka vägen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "P-vågen har hastigheten 8 000 m/s och S-vågen 4 500 m/s. S-vågen kommer 2,0 minuter efter P-vågen. Hur långt bort var jordbävningen?",
+        "t": "<p>P-vågor från en jordbävning går snabbare än S-vågor. Anta att vågorna går raka vägen.</p><p>P-vågen har hastigheten 8 000 m/s och S-vågen 4 500 m/s. S-vågen kommer 2,0 minuter efter P-vågen. Hur långt bort var jordbävningen?</p>",
+        "s": "<p>\\(\\dfrac{s}{4\\,500}-\\dfrac{s}{8\\,000}=120\\iff s=\\dfrac{120}{\\frac1{4\\,500}-\\frac1{8\\,000}}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{6}\\) m</p>",
+        "ledtrad": "<p>Teckna tidsskillnaden som funktion av avståndet.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "P-vågen har hastigheten 8,5 km/s och S-vågen 5,5 km/s. S-vågen kommer 1,5 minuter efter P-vågen. Hur långt bort var jordbävningen?",
+        "t": "<p>P-vågor från en jordbävning går snabbare än S-vågor. Anta att vågorna går raka vägen.</p><p>P-vågen har hastigheten 8,5 km/s och S-vågen 5,5 km/s. S-vågen kommer 1,5 minuter efter P-vågen. Hur långt bort var jordbävningen?</p>",
+        "s": "<p>\\(s=\\dfrac{90}{\\frac1{5\\,500}-\\frac1{8\\,500}}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{6}\\) m</p>",
+        "ledtrad": "<p>Teckna tidsskillnaden som funktion av avståndet.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vid en underjordisk explosion har P-vågen hastigheten 10,0 km/s och S-vågen 8,0 km/s. De registreras med 2,0 s mellanrum. Hur långt bort var explosionen?",
+        "t": "<p>P-vågor från en jordbävning går snabbare än S-vågor. Anta att vågorna går raka vägen.</p><p>Vid en underjordisk explosion har P-vågen hastigheten 10,0 km/s och S-vågen 8,0 km/s. De registreras med 2,0 s mellanrum. Hur långt bort var explosionen?</p>",
+        "s": "<p>\\(s=\\dfrac{2{,}0}{\\frac1{8\\,000}-\\frac1{10\\,000}}\\).</p><p><strong>Svar:</strong> \\(80\\,000\\) m</p>",
+        "ledtrad": "<p>Teckna tidsskillnaden som funktion av avståndet.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta t=\\dfrac{s}{v_S}-\\dfrac{s}{v_P}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
+    "kap": 2,
+    "omr": "vagrorelser",
+    "niva": "E",
+    "typ": "P- och S-vågor till staden",
+    "poang": "(2/0/0)",
+    "t": "<p>En jordbävnings epicentrum ligger 45 km från en stad. P-vågorna har hastigheten 5 000 m/s och S-vågorna 3 000 m/s.</p><ol type=\"a\"><li>Efter hur lång tid når P-vågorna staden?</li><li>Hur lång tid efter P-vågorna kommer S-vågorna?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{45\\,000}{5\\,000}\\).</p><p><strong>Svar:</strong> \\(9{,}0\\) s</p></li><li><p>\\(\\dfrac{45\\,000}{3\\,000}-9{,}0=15-9{,}0\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) s</p></li></ol>",
+    "id": "2.436",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våghastighet och vågens form",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      6
+    ],
+    "tolerans": [
+      0.135,
+      0.09
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En jordbävnings epicentrum ligger 45 km från en stad. P-vågorna har hastigheten 5 000 m/s och S-vågorna 3 000 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Efter hur lång tid når P-vågorna staden?",
+        "t": "<p>En jordbävnings epicentrum ligger 45 km från en stad. P-vågorna har hastigheten 5 000 m/s och S-vågorna 3 000 m/s.</p><p>Efter hur lång tid når P-vågorna staden?</p>",
+        "s": "<p>\\(t=\\dfrac{45\\,000}{5\\,000}\\).</p><p><strong>Svar:</strong> \\(9{,}0\\) s</p>",
+        "ledtrad": "<p>\\(t=\\dfrac sv\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid efter P-vågorna kommer S-vågorna?",
+        "t": "<p>En jordbävnings epicentrum ligger 45 km från en stad. P-vågorna har hastigheten 5 000 m/s och S-vågorna 3 000 m/s.</p>P-vågorna når staden efter 9,0 s.<p>Hur lång tid efter P-vågorna kommer S-vågorna?</p>",
+        "s": "<p>\\(\\dfrac{45\\,000}{3\\,000}-9{,}0=15-9{,}0\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) s</p>",
+        "ledtrad": "<p>Beräkna S-vågornas gångtid.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(t=\\dfrac sv\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "vagrorelser__vaghastighet_och_vagens_form"
+  },
+  {
     "id": "2.189",
     "kap": 2,
     "omr": "staende_vagor",
@@ -40166,6 +40794,164 @@ window.BANK2 = [
     "tolerans": 2000000.0,
     "svarEnhet": "m/s",
     "typ": "ljusets hastighet med mikrovågsugn"
+  },
+  {
+    "kap": 4,
+    "omr": "em_vagor",
+    "niva": "E",
+    "typ": "radiovågor från FM-sändare",
+    "poang": "(2/0/0)",
+    "t": "<p>Elektromagnetiska vågor har hastigheten \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Radiokanalen Mix Megapol sänder på frekvensen 105,1 MHz.</p><ol type=\"a\"><li>Bestäm radiovågornas period.</li><li>Bestäm radiovågornas våglängd.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{1}{105{,}1\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(9{,}51\\cdot10^{-9}\\) s</p></li><li><p>\\(\\lambda=\\dfrac{3{,}00\\cdot10^8}{105{,}1\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(2{,}85\\) m</p></li></ol>",
+    "id": "4.447",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våglängd och frekvens",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.514747859181732e-09,
+      2.8544243577545196
+    ],
+    "tolerans": [
+      1.43e-10,
+      0.0428
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektromagnetiska vågor har hastigheten \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Radiokanalen Mix Megapol sänder på frekvensen 105,1 MHz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm radiovågornas period.",
+        "t": "<p>Elektromagnetiska vågor har hastigheten \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Radiokanalen Mix Megapol sänder på frekvensen 105,1 MHz.</p><p>Bestäm radiovågornas period.</p>",
+        "s": "<p>\\(T=\\dfrac{1}{105{,}1\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(9{,}51\\cdot10^{-9}\\) s</p>",
+        "ledtrad": "<p>\\(T=\\dfrac1f\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm radiovågornas våglängd.",
+        "t": "<p>Elektromagnetiska vågor har hastigheten \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Radiokanalen Mix Megapol sänder på frekvensen 105,1 MHz.</p><p>Bestäm radiovågornas våglängd.</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{3{,}00\\cdot10^8}{105{,}1\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(2{,}85\\) m</p>",
+        "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "em_vagor__vaglangd_och_frekvens"
+  },
+  {
+    "kap": 4,
+    "omr": "em_vagor",
+    "niva": "E",
+    "typ": "AM och FM",
+    "poang": "(2/0/0)",
+    "t": "<p>Elektromagnetiska vågor har hastigheten \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Beräkna avståndet mellan två vågberg i en radiovåg med frekvensen</p><ol type=\"a\"><li>1 230 kHz (AM)</li><li>91,9 MHz (FM)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{3{,}00\\cdot10^8}{1\\,230\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(244\\) m</p></li><li><p>\\(\\lambda=\\dfrac{3{,}00\\cdot10^8}{91{,}9\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(3{,}26\\) m</p></li></ol>",
+    "id": "4.448",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våglängd och frekvens",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      243.90243902439025,
+      3.264417845484222
+    ],
+    "tolerans": [
+      3.66,
+      0.049
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektromagnetiska vågor har hastigheten \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Beräkna avståndet mellan två vågberg i en radiovåg med frekvensen</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "1 230 kHz (AM)",
+        "t": "<p>Elektromagnetiska vågor har hastigheten \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Beräkna avståndet mellan två vågberg i en radiovåg med frekvensen</p><p>1 230 kHz (AM)</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{3{,}00\\cdot10^8}{1\\,230\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(244\\) m</p>",
+        "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "91,9 MHz (FM)",
+        "t": "<p>Elektromagnetiska vågor har hastigheten \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Beräkna avståndet mellan två vågberg i en radiovåg med frekvensen</p><p>91,9 MHz (FM)</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{3{,}00\\cdot10^8}{91{,}9\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(3{,}26\\) m</p>",
+        "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "em_vagor__vaglangd_och_frekvens"
+  },
+  {
+    "kap": 4,
+    "omr": "em_vagor",
+    "niva": "E",
+    "typ": "frekvens för gulgrönt ljus",
+    "poang": "(1/0/0)",
+    "t": "<p>Elektromagnetiska vågor har hastigheten \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Ögat är känsligast för gulgrönt ljus med våglängden 545 nm. Vilken frekvens har det?</p>",
+    "s": "<p>\\(f=\\dfrac{3{,}00\\cdot10^8}{545\\cdot10^{-9}}\\).</p><p><strong>Svar:</strong> \\(5{,}50\\cdot10^{14}\\) Hz</p>",
+    "id": "4.449",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Våglängd och frekvens",
+    "svarstyp": "numeriskt",
+    "rättSvar": 550458715596330.3,
+    "tolerans": 8260000000000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "Hz",
+    "familjNyckel": "em_vagor__vaglangd_och_frekvens"
   },
   {
     "id": "GY25-FY2-TEK-02",

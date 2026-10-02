@@ -3651,7 +3651,7 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm den sökta storheten för varje föremål. Avrunda inte.</p>",
+    "spelIntro": "<p>Bestäm den sökta storheten för föremålet. Avrunda inte.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -12549,7 +12549,7 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p>",
+    "spelIntro": "<p>Rörelsen är rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -21614,7 +21614,7 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För varje kropp gäller F_res = ma. Använd de givna storheterna.</p>",
+    "spelIntro": "<p>För kroppen gäller F_res = ma. Använd de givna storheterna.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -43984,7 +43984,7 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm rörelseenergin för varje föremål. Bortse från rotationsenergi och använd E_k = mv²/2.</p>",
+    "spelIntro": "<p>Bestäm föremålets rörelseenergi. Bortse från rotationsenergi och använd E_k = mv²/2.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -98602,7 +98602,7 @@ window.BANK = [
       "f"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Rörelserna är raka och accelerationen konstant. Beräkna den okända storheten i varje fall.</p>",
+    "spelIntro": "<p>Rörelserna är raka och accelerationen konstant. Beräkna den okända storheten.</p>",
     "spelDelar": [
       {
         "etikett": "a",

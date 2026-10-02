@@ -1507,7 +1507,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel indelad i fyra kvadranter\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"220\" cy=\"125\" r=\"82\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"125\" x2=\"395\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"220\" y1=\"20\" x2=\"220\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"285\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">I</text><text x=\"153\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">II</text><text x=\"150\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">III</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">IV</text><text x=\"402\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"228\" y=\"20\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span><p>Bestäm tecknet på följande uttryck. Svara med <strong>+</strong> eller <strong>−</strong>.</p><p>a) \\(\\sin140^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos220^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan310^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(-40^\\circ)\\).</p>",
+    "t": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel indelad i fyra kvadranter\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"220\" cy=\"125\" r=\"82\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"125\" x2=\"395\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"220\" y1=\"20\" x2=\"220\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"285\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">I</text><text x=\"153\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">II</text><text x=\"150\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">III</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">IV</text><text x=\"402\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"228\" y=\"20\" font-family=\"sans-serif\" font-size=\"11\">y</text><g font-family=\"sans-serif\" font-size=\"12\" fill=\"#6b7280\"><text x=\"306\" y=\"141\">0°</text><text x=\"226\" y=\"38\">90°</text><text x=\"105\" y=\"141\">180°</text><text x=\"226\" y=\"223\">270°</text></g></svg></span><p>Bestäm tecknet på följande uttryck. Svara med <strong>+</strong> eller <strong>−</strong>.</p><p>a) \\(\\sin140^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos220^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan310^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(-40^\\circ)\\).</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm en referensvinkel med kända exakta värden och använd sedan kvadrant, symmetri eller periodicitet för rätt tecken.</p><div class=\"facit-arbete\"><p>a) 140° ligger i II: <strong>positivt</strong>.</p><p>b) 220° ligger i III: <strong>negativt</strong>.</p><p>c) 310° ligger i IV: sinus negativ och cosinus positiv, alltså <strong>negativt</strong>.</p><p>d) Sinus är udda: \\(\\sin(-40^\\circ)=-\\sin40^\\circ\\), alltså <strong>negativt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera värdets tecken mot kvadranten och att resultatet är ett exakt standardvärde.</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
@@ -1587,7 +1587,7 @@ window.BANKMATO2 = [
         "arbetsinsats": 1
       }
     ],
-    "spelIntro": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><p>Bestäm tecknet på följande uttryck. Svara med <strong>+</strong> eller <strong>−</strong>.</p><span class=\"fig\"><svg aria-label=\"Enhetscirkel indelad i fyra kvadranter\" height=\"250\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 250\" width=\"440\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"248\" rx=\"10\" stroke=\"#E4E3E6\" width=\"438\" x=\"1\" y=\"1\"></rect><circle cx=\"220\" cy=\"125\" fill=\"#F7FAFB\" r=\"82\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"45\" x2=\"395\" y1=\"125\" y2=\"125\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"220\" x2=\"220\" y1=\"20\" y2=\"230\"></line><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"285\" y=\"70\">I</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"153\" y=\"70\">II</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"150\" y=\"185\">III</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"285\" y=\"185\">IV</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"402\" y=\"120\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"228\" y=\"20\">y</text></svg></span>",
+    "spelIntro": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><p>Bestäm tecknet på uttrycket. Svara med <strong>+</strong> eller <strong>−</strong>.</p><span class=\"fig\"><svg aria-label=\"Enhetscirkel indelad i fyra kvadranter\" height=\"250\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 250\" width=\"440\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"248\" rx=\"10\" stroke=\"#E4E3E6\" width=\"438\" x=\"1\" y=\"1\"></rect><circle cx=\"220\" cy=\"125\" fill=\"#F7FAFB\" r=\"82\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"45\" x2=\"395\" y1=\"125\" y2=\"125\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"220\" x2=\"220\" y1=\"20\" y2=\"230\"></line><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"285\" y=\"70\">I</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"153\" y=\"70\">II</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"150\" y=\"185\">III</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"285\" y=\"185\">IV</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"402\" y=\"120\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"228\" y=\"20\">y</text><g font-family=\"sans-serif\" font-size=\"12\" fill=\"#6b7280\"><text x=\"306\" y=\"141\">0°</text><text x=\"226\" y=\"38\">90°</text><text x=\"105\" y=\"141\">180°</text><text x=\"226\" y=\"223\">270°</text></g></svg></span>",
     "traningsniva": 1,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -3939,7 +3939,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spelIntro": "<p>Utveckla uttrycken.</p>",
+    "spelIntro": "<p>Utveckla uttrycket.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -8989,7 +8989,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Lös ekvationerna. Ange alla lösningar.</p>",
+    "spelIntro": "<p>Lös ekvationen. Ange alla lösningar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -12908,7 +12908,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Lös ekvationerna. Ange alla lösningar i det angivna intervallet.</p>",
+    "spelIntro": "<p>Lös ekvationen. Ange alla lösningar i det angivna intervallet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -13167,7 +13167,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
-    "spelIntro": "<p>Lös ekvationerna. Ange alla lösningar i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
+    "spelIntro": "<p>Lös ekvationen. Ange alla lösningar i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -15111,7 +15111,7 @@ window.BANKMATO2 = [
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Beskriv hur grafen till \\(y=\\sin x\\) förändras för funktionerna.</p>",
+    "spelIntro": "<p>Beskriv hur grafen till \\(y=\\sin x\\) förändras för funktionen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -16824,7 +16824,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
-    "spelIntro": "<p>För varje funktion, ange amplitud, period och medellinje.</p>",
+    "spelIntro": "<p>Ange funktionens amplitud, period och medellinje.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -17899,7 +17899,7 @@ window.BANKMATO2 = [
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För varje funktion, ange period och alla lodräta asymptoter.</p>",
+    "spelIntro": "<p>Ange funktionens period och alla lodräta asymptoter.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -18300,7 +18300,7 @@ window.BANKMATO2 = [
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För varje funktion, ange amplitud, period och medellinje.</p>",
+    "spelIntro": "<p>Ange funktionens amplitud, period och medellinje.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -38064,7 +38064,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
     "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
-    "spelIntro": "<p>Lös ekvationerna.</p>",
+    "spelIntro": "<p>Lös ekvationen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -38325,7 +38325,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
     "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
-    "spelIntro": "<p>Lös ekvationerna.</p>",
+    "spelIntro": "<p>Lös ekvationen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -38545,7 +38545,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
     "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
-    "spelIntro": "<p>För varje funktion, ange definitionsmängd.</p>",
+    "spelIntro": "<p>Ange funktionens definitionsmängd.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -45325,7 +45325,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm lodräta och vågräta asymptoter.</p><p>a) \\(f(x)=\\frac{3}{x-2}+1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\frac{2x+1}{x-4}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\frac{5x^2-1}{x^2+3}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=\\frac{1}{(x+1)(x-3)}\\)</p>",
+    "t": "<p>Bestäm lodräta och vågräta asymptoter. Skriv den vågräta asymptotens y-värde i svarsrutan för varje deluppgift.</p><p>a) \\(f(x)=\\frac{3}{x-2}+1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\frac{2x+1}{x-4}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\frac{5x^2-1}{x^2+3}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=\\frac{1}{(x+1)(x-3)}\\)</p>",
     "s": "<p>a) lodrät <strong>\\(x=2\\)</strong>, vågrät <strong>\\(y=1\\)</strong>.</p><p>b) lodrät <strong>\\(x=4\\)</strong>, vågrät <strong>\\(y=2\\)</strong>.</p><p>c) inga lodräta asymptoter eftersom \\(x^2+3&gt;0\\); vågrät <strong>\\(y=5\\)</strong>.</p><p>d) lodräta <strong>\\(x=-1\\)</strong> och <strong>\\(x=3\\)</strong>; vågrät <strong>\\(y=0\\)</strong>.</p>",
     "familj": "Asymptoter för rationella funktioner",
     "formaga": [
@@ -45405,7 +45405,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
-    "spelIntro": "<p>Bestäm lodräta och vågräta asymptoter.</p>",
+    "spelIntro": "<p>Bestäm funktionens lodräta och vågräta asymptoter. Skriv den vågräta asymptotens y-värde i svarsrutan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -49480,7 +49480,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
     "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
-    "spelIntro": "<p>Beräkna integralerna exakt.</p>",
+    "spelIntro": "<p>Beräkna integralen exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -51388,7 +51388,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -51485,7 +51485,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -51644,7 +51644,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -51741,7 +51741,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -51838,7 +51838,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -51935,7 +51935,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -52032,7 +52032,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -52129,7 +52129,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -52226,7 +52226,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -52323,7 +52323,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -52420,7 +52420,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -52517,7 +52517,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
     "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
-    "spelIntro": "<p>Bestäm en primitiv funktion till varje funktion.</p>",
+    "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -52964,7 +52964,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
     "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
-    "spelIntro": "<p>Beräkna integralerna.</p>",
+    "spelIntro": "<p>Beräkna integralen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -62311,7 +62311,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
     "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
-    "spelIntro": "<p>För varje funktion anges att \\(f(x)=kx^n\\) på intervallet och \\(f(x)=0\\) utanför. Bestäm \\(k\\) så att \\(f\\) blir en täthetsfunktion.</p>",
+    "spelIntro": "<p>För funktionen anges att \\(f(x)=kx^n\\) på intervallet och \\(f(x)=0\\) utanför. Bestäm \\(k\\) så att \\(f\\) blir en täthetsfunktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66615,7 +66615,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
     "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
-    "spelIntro": "<p>Lös ekvationerna och skriv \\(z\\) på formen \\(a+bi\\).</p>",
+    "spelIntro": "<p>Lös ekvationen och skriv \\(z\\) på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67491,7 +67491,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
     "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
-    "spelIntro": "<p>Förenkla uttrycken till formen \\(a+bi\\).</p>",
+    "spelIntro": "<p>Förenkla uttrycket till formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67735,7 +67735,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
     "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
-    "spelIntro": "<p>Lös ekvationerna och skriv svaret på formen \\(a+bi\\).</p>",
+    "spelIntro": "<p>Lös ekvationen och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -68105,7 +68105,7 @@ window.BANKMATO2 = [
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
     "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För varje tal, bestäm konjugatet och absolutbeloppet.</p>",
+    "spelIntro": "<p>Bestäm talets konjugat och absolutbelopp.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -81540,7 +81540,7 @@ window.BANKMATO2 = [
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
     "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Lös ekvationerna och ange alla komplexa lösningar.</p>",
+    "spelIntro": "<p>Lös ekvationen och ange alla komplexa lösningar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -84135,7 +84135,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
     "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
-    "spelIntro": "<p>Lös ekvationerna genom faktorisering.</p>",
+    "spelIntro": "<p>Lös ekvationen genom faktorisering.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -86276,7 +86276,7 @@ window.BANKMATO2 = [
     "familjNyckel": "andragradsekv_komplexa__andragradsekvationer_med_komplexa_losningar",
     "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Lös ekvationerna.</p>",
+    "spelIntro": "<p>Lös ekvationen.</p>",
     "spelDelar": [
       {
         "etikett": "a",

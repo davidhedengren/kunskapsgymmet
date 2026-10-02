@@ -11823,7 +11823,7 @@ window.BANK2 = [
       "problemlösning",
       "begrepp"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Åt vilka håll pekar de två fälten mellan ledarna? Sätt fältstyrkorna lika.</p>",
@@ -25020,7 +25020,7 @@ window.BANK2 = [
     "tolerans": 0.08,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "svarEnhet": "A",
     "ledtrad": "<p>För en ren resistor kan Ohms lag användas direkt med effektivvärden.</p>",
@@ -25047,7 +25047,7 @@ window.BANK2 = [
     "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>När temperaturen är samma gäller \\(L\\propto R^2\\). Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt.</p>",
     "omrTidigare": [
@@ -25075,7 +25075,7 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>I ett HR-diagram ökar luminositeten uppåt, medan temperaturen är högre åt vänster.</p>",
     "omrTidigare": [
@@ -25104,7 +25104,7 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Om den accelererande expansionen fortsätter växer avstånden mellan gravitationellt obundna strukturer allt snabbare.</p>",
     "omrTidigare": [
@@ -25133,7 +25133,7 @@ window.BANK2 = [
     "tolerans": 0.02,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>För galaxer som följer expansionen är det kosmologiska avståndet proportionellt mot skalfaktorn.</p>",
     "omrTidigare": [
@@ -26125,7 +26125,7 @@ window.BANK2 = [
     "rättSvar": 23,
     "tolerans": 0.2,
     "självrättning": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Jämför spolarnas varvtal med spänningarna: \\(U_s/U_p=N_s/N_p\\).</p>",
     "svarFormat": "numeriskt",
@@ -26175,7 +26175,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Utgå från \\(|\\mathcal E|=N|d\\Phi/dt|\\) och förändra en faktor i taget.</p>",
     "omrTidigare": [
@@ -26202,7 +26202,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Använd \\(E_{k,max}=hf-W\\) och avgör vilken term som förändras.</p>",
     "familjTidigare": [
@@ -26226,7 +26226,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Subtrahera först utträdesarbetet. Använd sedan \\(eU_s=E_{k,max}\\).</p>",
     "familjTidigare": [
@@ -26250,7 +26250,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Skilj på antalet fotoner per sekund och energin hos varje enskild foton.</p>",
     "familjTidigare": [
@@ -26301,7 +26301,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Använd energiprincipen för ett system vars medeltemperatur är konstant.</p>"
   },
@@ -26343,7 +26343,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Beskriv först obalansen mellan absorberad och utstrålad effekt. Koppla sedan temperaturen till utstrålningen.</p>"
   },
@@ -26364,7 +26364,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Jämför både hur strålningen bär information och hur olika material absorberar den.</p>",
     "familjTidigare": [
@@ -26414,7 +26414,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Rita normalen lokalt i böjen och fundera på vad som händer med infallsvinkeln.</p>",
     "familjTidigare": [
@@ -26438,7 +26438,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Identifiera oberoende, beroende och kontrollerade variabler. Lägg sedan till upprepningar och objektiv fartmätning.</p>",
     "familjTidigare": [
@@ -26486,7 +26486,7 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Skriv om fotoelektriska ekvationen på formen \\(y=kx+m\\).</p>",
     "familjTidigare": [

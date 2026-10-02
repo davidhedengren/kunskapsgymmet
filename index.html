@@ -2943,6 +2943,78 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .ttop .xpmeter .bar{flex:1;width:auto}
   .ttop .xpmeter .gain{right:auto;left:44px}
 }
+/* ── Plugga inför prov ───────────────────────────────────────────── */
+.provbanner{display:grid;gap:10px;margin:0 0 26px}
+.provkort{
+  display:flex;align-items:center;gap:16px;padding:16px 18px;border-radius:20px;
+  background:linear-gradient(135deg,var(--accSoft),var(--surface) 70%);
+  border:1px solid color-mix(in srgb,var(--acc) 30%,var(--hair));box-shadow:var(--e1);
+}
+.provkort.klart{background:linear-gradient(135deg,color-mix(in srgb,var(--good) 14%,transparent),var(--surface) 70%);
+  border-color:color-mix(in srgb,var(--good) 35%,var(--hair))}
+.provkort-ikon{font-size:30px;line-height:1;flex:none}
+.provkort-text{flex:1;min-width:0}
+.provkort-lbl{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accInk)}
+.provkort h3{margin:3px 0 2px;font-size:18px;letter-spacing:-.03em}
+.provkort-meta{font-family:var(--read);font-size:13px;color:var(--ink2)}
+.provkort-spar{margin-top:8px;height:7px;border-radius:99px;background:var(--surface3);overflow:hidden}
+.provkort-spar i{display:block;height:100%;border-radius:99px;background:var(--acc);transition:width .4s var(--ease)}
+.provkort.klart .provkort-spar i{background:var(--good)}
+.provkod-rad{margin:-14px 0 22px;text-align:right}
+.provbanner .provkod-rad{margin:0}
+button.lank{background:none;border:0;padding:0;color:var(--accInk);font:inherit;font-size:13px;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:560px){
+  .provkort{flex-wrap:wrap;padding:14px}
+  .provkort .btn{width:100%;justify-content:center}
+}
+.modal-kort.provmodal{width:min(760px,100%)}
+.provlista{display:grid;gap:8px}
+.provrad{border:1px solid var(--hair);border-radius:16px;background:var(--surface2)}
+.provrad.avslutad{opacity:.65}
+.provrad summary{display:flex;align-items:center;gap:12px;padding:12px 14px;cursor:pointer;list-style:none}
+.provrad summary::-webkit-details-marker{display:none}
+.provrad-titel{flex:1;min-width:0;display:grid}
+.provrad-titel small{color:var(--ink3);font-size:12px}
+.provrad-kropp{padding:0 14px 14px}
+.provkodbox{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 12px;border-radius:12px;
+  background:var(--surface);border:1px dashed var(--hair2);margin-bottom:12px}
+.provkodbox span{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--ink3)}
+.provkodbox b{font-size:16px;letter-spacing:.04em;flex:1}
+.provkodbox.stor b{font-size:24px}
+.provlank{font-family:var(--read);font-size:13px;color:var(--ink2);word-break:break-all;margin-top:-4px}
+.provres-topp{font-size:14px;margin-bottom:10px}
+.provres{display:grid;gap:7px}
+.provres-rad{display:grid;grid-template-columns:minmax(120px,1.4fr) 2fr 52px;align-items:center;gap:4px 10px}
+.provres-rad small{grid-column:1/-1;color:var(--ink3);font-size:11.5px;margin-top:-3px}
+.provres-namn{font-size:13px;font-weight:600}
+.provres-stapel{height:9px;border-radius:99px;background:var(--surface3);overflow:hidden}
+.provres-stapel i{display:block;height:100%;border-radius:99px;background:var(--ink3)}
+.provres-rad.bra .provres-stapel i{background:var(--good)}
+.provres-rad.mellan .provres-stapel i{background:var(--acc)}
+.provres-rad.svag .provres-stapel i{background:var(--low)}
+.provres-pct{font-size:13px;font-weight:700;text-align:right}
+.provform{display:grid;gap:16px}
+.provform-rad{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.provfalt{display:grid;gap:6px}
+.provfalt>span{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3)}
+.provfalt .admin-sok{min-width:0;width:100%}
+.provchips{display:flex;flex-wrap:wrap;gap:8px}
+.provchips .valruta{padding:9px 12px}
+.provkap{display:grid;gap:8px;margin-top:6px}
+.provkap-rubrik{display:flex;align-items:center;gap:9px;background:none;border:0;padding:0;font:inherit;font-weight:700;
+  font-size:14px;color:var(--ink);cursor:pointer;text-align:left}
+.provkap-rubrik .kryss{width:17px;height:17px;border-radius:5px;border:1.5px solid var(--hair2);display:grid;place-items:center}
+.provkap-rubrik .kryss.pa{background:var(--acc);border-color:var(--acc)}
+.provkap-rubrik .kryss.pa:after{content:"✓";color:#fff;font-size:11px;font-weight:700}
+.provkontroll{padding:14px 16px;border-radius:16px;background:var(--surface2);border:1px solid var(--hair)}
+.provkontroll-lista{list-style:none;margin:8px 0;padding:0;display:grid;gap:4px}
+.provkontroll-lista li{display:flex;gap:10px;align-items:baseline;font-size:13.5px}
+.provkontroll-lista li span{flex:1}
+.provkontroll-lista li small{color:var(--low);font-weight:600}
+.provkontroll-lista li.tunn b{color:var(--low)}
+.provkontroll-niva{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 4px}
+.provniva{font-size:12.5px;font-weight:700;padding:4px 10px;border-radius:99px;background:var(--surface);border:1px solid var(--hair)}
+.provniva.ok{color:var(--good)}.provniva.varn{color:var(--low)}.provniva.av{color:var(--ink3)}
 </style>
 </head>
 
@@ -3094,7 +3166,7 @@ function loggaIn(){ if(MOLN_PA()) bytGate("val"); }
 function returAdress(){ return location.origin+location.pathname; }
 async function loggaUt(){
   stangKunskap();
-  arLarare=false; arAdmin=false; felOppnaAntal=null;
+  arLarare=false; arAdmin=false; felOppnaAntal=null; provLista=null;
   clearInterval(kgHeartbeatTimer); kgHeartbeatTimer=null;
   try{ localStorage.removeItem(LARARE_KEY); }catch(_){}
   if(session){
@@ -4967,6 +5039,7 @@ function tranarenSager(text,{html=false,ms=null,kvar=false}={}){
   skrivFram(p,{tecken:1,ms:22}).then(()=>{ ava?.classList.remove("pratar"); clearTimeout(tchatTimer); if(!kvar) tchatTimer=setTimeout(tchatStang,tid); });
 }
 function afterRender(){
+  if(document.getElementById("provbanner")) provRitaBanner();
   tchatLage();
   matRullningslist();
   renderMath(app);
@@ -5141,6 +5214,7 @@ function kontoMeny(ev){
       <button class="btn sm wide" onclick="oppnaFelrapportLogg()">Felrapporter${
         felOppnaAntal?" ("+felOppnaAntal+")":""}</button>
       <button class="btn sm wide" onclick="oppnaStatistik()" style="margin-top:6px">Statistik</button>
+      <button class="btn sm wide" onclick="franMenyn(oppnaProvLarare)" style="margin-top:6px">Plugga inför prov</button>
     </div>`:""}
 
     ${arAdmin?`
@@ -5915,6 +5989,7 @@ function renderHome(){
         <div class="siffra"><b id="kg-stat-attempts">0</b><span>lösta uppgifter</span></div>
       </div>
     </section>
+    <div id="provbanner"></div>
     <div class="kursgrupper">
       ${grupper.map((g,gi)=>{
         const gt=COURSES[g.ids[0]]?.tint||"var(--acc)";
@@ -7375,6 +7450,7 @@ function renderDashboard(){
 
     <div class="dash">
       <div>
+        <div id="provbanner"></div>
         ${ptKort()}
         ${areaHTML || `<div class="empty">Inga uppgifter för den här kursvarianten.</div>`}
       </div>
@@ -7940,6 +8016,7 @@ function farskaUppgifter(pool,h){
 
 const UPPVARMNING=2;
 function chooseTask(){
+  if(state.prov) provRepetera();
 
   while(state.felKo && state.felKo.length){
     const id=state.felKo.shift();
@@ -7957,6 +8034,7 @@ function chooseTask(){
       return fs.some(f=>vill.includes(f));
     });
   }
+  if(state.prov) pool=pool.filter(t=>state.prov.nivaer.includes(assessmentLevelOf(t)));
   if(!pool.length) return null;
   if(state.focusNiva){
     const vill=[].concat(state.focusNiva).map(String);
@@ -7968,7 +8046,7 @@ function chooseTask(){
   const sedda=lasSedda();
   pool=farskaUppgifter(pool,sedda);
 
-  const area = state.focusArea || chooseArea(pool);
+  const area = state.focusArea || (state.prov ? provValjOmrade(pool) : chooseArea(pool));
   if(!state.focusArea) pool=pool.filter(t=>(t.omr||"ovrigt")===area);
 
   const buckets=Object.fromEntries(NIVAER.map(L=>[L,[]]));
@@ -7994,7 +8072,8 @@ function chooseTask(){
     if(lagre.length) level=lagre[lagre.length-1];
   }
 
-  const cands=buckets[level];
+  let cands=buckets[level];
+  if(state.prov){ const hogre=provNivaKandidater(pool,area); if(hogre) cands=hogre; }
   // Aldrig sedda uppgifter (och sådana som legat länge) får ett litet försprång.
   const nyhet=t=>{
     const a=uppgiftsAlder(sedda,t.id);
@@ -8018,6 +8097,7 @@ function chooseTask(){
 }
 
 function beginSession(typ){
+  if(typ!=="prov") state.prov=null;
   state.passTyp=PASS[typ]?typ:null;
   state.ptOppen=false;
   state.felKo=null;state.sessionFel=[];
@@ -8027,6 +8107,7 @@ function beginSession(typ){
   state.focusNiva=null;
 
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
+  if(state.prov) state.sessionTarget=provPassLangd();
 }
 
 function startPass(typ){
@@ -8236,7 +8317,7 @@ function startCardLevel(key,nivaer){
   state.focusNiva=L; state.sessionTarget=6;
   navRecord("training"); nextTask();
 }
-function continueSession(){ const niva=state.focusNiva; beginSession(); state.focusNiva=niva; navRecord("training",true); nextTask(); }
+function continueSession(){ const niva=state.focusNiva; beginSession(state.prov?"prov":undefined); state.focusNiva=niva; navRecord("training",true); nextTask(); }
 function nextTask(){
   tchatStang();
   const t=chooseTask();
@@ -8275,6 +8356,7 @@ function noteNewLevel(t){
 }
 
 function sessionLabel(){
+  if(state.prov) return provEtikett();
   if(state.focusFamily){
     const f=state.focusFamily;
     if(Array.isArray(f)) return f.length===1 ? familyName(f[0]) : f.length+" delmoment";
@@ -11034,6 +11116,7 @@ function finishAttempt(resultat){
     ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
   cp.history=cp.history.slice(-300);
   uppdragSvar(t,correct,lagat);
+  if(state.prov) provRegistrera(t,correct);
   const genomgangForslag=correct ? null : hittaGenomgangForslag(t,cp);
   state.ggForslag=genomgangForslag;
   tranarKommentar(t,nivaFore,tranarNivaLage(t.omr),genomgangForslag);
@@ -11814,6 +11897,7 @@ function render(){
 }
 
 window.addEventListener("load",async()=>{
+  provLasAdress();
 
   const nyInloggning=MOLN_PA() && fangaInloggning();
   const markeradInloggning=nyInloggning ? (inloggningsTyp==="signup"?"email":"oauth") : kgHamtaInloggningsmarke();
@@ -11857,6 +11941,7 @@ window.addEventListener("load",async()=>{
     const lararklass=await klassRpc("kg_auto_lararklass");
     if(lararklass?.flyttad) state.minKlass=undefined;
     hamtaToppMedaljer();
+    provAnslutVantande();
     setTimeout(()=>visaNyhetKlasser(),nyInloggning?1200:600);
   }
 
@@ -11955,6 +12040,510 @@ window.KG_TEST_MA4_SVAR=function(){
   return cases.every(x=>x.ok);
 };
 
+/* ═══════════════ Plugga inför prov ═══════════════
+   Läraren anger vad provet omfattar (kurs, spår, områden, nivåer, omfattning).
+   Kunskapsgymmets vanliga träningsmotor väljer sedan uppgifterna, så två
+   elever i samma provträning får olika uppgifter beroende på hur det går.
+   Databasdelen finns i sql/2026-10-02-provtraning.sql. */
+const PROV_VANT_KEY="kunskapsgymmet-prov-kod";
+const PROV_LOKAL_KEY="kunskapsgymmet-prov-v1:";
+const PROV_PASS=10;
+const PROV_OMFATTNING=[{n:15,namn:"Kort"},{n:30,namn:"Normal"},{n:50,namn:"Grundlig"}];
+let provLista=null;           /* elevens provträningar; false = inte installerat i databasen */
+let provRapportTimer=null;
+let provSkapa=null;           /* lärarens formulär under arbete */
+
+function provRpc(namn,kropp={}){ return klassRpc(namn,kropp,true); }
+function provDatum(d){
+  if(!d) return "";
+  const x=new Date(d+"T12:00:00");
+  return Number.isNaN(x.getTime()) ? String(d) : x.toLocaleDateString("sv-SE",{day:"numeric",month:"long"});
+}
+function provLokal(id){
+  try{
+    const d=JSON.parse(localStorage.getItem(PROV_LOKAL_KEY+ggAgare()+":"+id)||"null");
+    if(d && typeof d==="object") return {klara:d.klara|0,ratt:d.ratt|0,omr:d.omr||{},fel:Array.isArray(d.fel)?d.fel:[]};
+  }catch(_){}
+  return {klara:0,ratt:0,omr:{},fel:[]};
+}
+function provSparaLokal(id,d){
+  try{ localStorage.setItem(PROV_LOKAL_KEY+ggAgare()+":"+id,JSON.stringify(d)); }catch(_){}
+}
+/* Servern och den här enheten kan ligga olika långt fram; det största gäller. */
+function provKlara(p){ return Math.max(Number(p?.klara)||0, provLokal(p.id).klara); }
+
+async function provHamtaMina(){
+  if(!MOLN_PA() || !session){ provLista=null; return null; }
+  const r=await provRpc("kg_prov_for_mig");
+  provLista = Array.isArray(r) ? r : (r?.saknas ? false : provLista);
+  return provLista;
+}
+
+/* ── Elevens kort på startsidan och i kursvyn ── */
+function provKortHtml(p){
+  const klara=provKlara(p), antal=Number(p.antal)||30;
+  const pct=Math.min(100,Math.round(klara/antal*100));
+  const klart=klara>=antal;
+  const kurs=COURSES[p.kurs];
+  return `<article class="provkort${klart?" klart":""}">
+    <div class="provkort-ikon" aria-hidden="true">📚</div>
+    <div class="provkort-text">
+      <div class="provkort-lbl">Plugga inför prov${kurs?` · ${esc(kurs.code)}${p.spar?" "+esc(p.spar):""}`:""}</div>
+      <h3>${esc(p.titel)}</h3>
+      <div class="provkort-meta">${p.datum?`Prov ${esc(provDatum(p.datum))} · `:""}${klara} / ${antal} uppgifter klara${klart?" · klart!":""}</div>
+      <div class="provkort-spar" role="progressbar" aria-valuemin="0" aria-valuemax="${antal}" aria-valuenow="${Math.min(klara,antal)}"><i style="width:${pct}%"></i></div>
+    </div>
+    <button class="btn primary" onclick="provStarta(${Number(p.id)})">${klara?(klart?"Repetera":"Fortsätt"):"Börja"} <span aria-hidden="true">→</span></button>
+  </article>`;
+}
+async function provRitaBanner(){
+  const plats=document.getElementById("provbanner");
+  if(!plats) return;
+  if(!MOLN_PA() || !session){ plats.innerHTML=""; return; }
+  if(provLista===null) await provHamtaMina();
+  const el=document.getElementById("provbanner");
+  if(!el) return;
+  if(provLista===false){ el.innerHTML=""; return; }
+  const kursvy=state.view==="dashboard" && state.course;
+  const lista=(provLista||[]).filter(p=>!kursvy || p.kurs===state.course);
+  if(!lista.length){
+    el.innerHTML = kursvy ? "" : `<div class="provkod-rad"><button class="lank" onclick="oppnaProvkod()">Har du fått en kod till en provträning?</button></div>`;
+    return;
+  }
+  el.innerHTML=`<section class="provbanner" aria-label="Plugga inför prov">
+      ${lista.map(provKortHtml).join("")}
+      ${kursvy?"":`<div class="provkod-rad"><button class="lank" onclick="oppnaProvkod()">Gå med i en annan provträning med kod</button></div>`}
+    </section>`;
+}
+
+/* ── Gå med via kod eller länk (?prov=KOD) ── */
+function provLasAdress(){
+  try{
+    const q=new URLSearchParams(location.search);
+    const kod=q.get("prov");
+    if(!kod) return;
+    localStorage.setItem(PROV_VANT_KEY,kod.trim().slice(0,40));
+    q.delete("prov");
+    const s=q.toString();
+    history.replaceState(history.state,"",location.pathname+(s?"?"+s:"")+location.hash);
+  }catch(_){}
+}
+async function provAnslutVantande(){
+  let kod=null;
+  try{ kod=localStorage.getItem(PROV_VANT_KEY); }catch(_){}
+  if(!kod || !session) return;
+  const r=await provRpc("kg_prov_anslut",{p_kod:kod});
+  if(r && !r.saknas){ try{ localStorage.removeItem(PROV_VANT_KEY); }catch(_){} }
+  if(r?.ok){
+    provLista=null; await provHamtaMina(); provRitaBanner();
+    toast(`Du är med i provträningen ${r.prov?.titel||kod}.`);
+  }else if(r && !r.saknas){
+    toast("Provkoden hittades inte. Kontrollera koden med din lärare.");
+  }
+}
+function oppnaProvkod(){
+  if(!session){ loggaIn(); return; }
+  document.getElementById("provkodruta")?.remove();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="provkodruta";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Gå med i provträning" style="width:min(420px,100%)">
+      <div class="modal-topp"><div><div class="lbl">Plugga inför prov</div><h2>Gå med med kod</h2></div>
+        <button class="iconbtn" onclick="stangModal('provkodruta')" aria-label="Stäng">✕</button></div>
+      <p class="modal-text">Skriv koden du har fått av din lärare, till exempel MA2C-ALGEBRA-16OKT.</p>
+      <input id="provkodfalt" class="kodfalt" autocomplete="off" spellcheck="false" placeholder="Kod"
+        onkeydown="if(event.key==='Enter')provGaMed()">
+      <div class="kodhjalp" id="provkodhjalp"></div>
+      <div class="modal-fot"><span class="spacer"></span>
+        <button class="btn" onclick="stangModal('provkodruta')">Avbryt</button>
+        <button class="btn primary" onclick="provGaMed()">Gå med</button></div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangModal("provkodruta"); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  setTimeout(()=>document.getElementById("provkodfalt")?.focus(),80);
+}
+async function provGaMed(){
+  const kod=(document.getElementById("provkodfalt")?.value||"").trim();
+  const h=document.getElementById("provkodhjalp");
+  if(!kod) return;
+  const r=await provRpc("kg_prov_anslut",{p_kod:kod});
+  if(r?.saknas){ if(h){ h.textContent="Provträning är inte aktiverad än."; h.className="kodhjalp fel"; } return; }
+  if(!r?.ok){ if(h){ h.textContent="Koden hittades inte."; h.className="kodhjalp fel"; } return; }
+  stangModal("provkodruta");
+  provLista=null; await provHamtaMina(); provRitaBanner();
+  toast(`Du är med i ${r.prov?.titel||"provträningen"}.`);
+}
+function stangModal(id){
+  const el=document.getElementById(id); if(!el) return;
+  el.removeAttribute("id"); el.classList.remove("visa"); setTimeout(()=>el.remove(),250);
+}
+
+/* ── Själva träningen ── */
+function provPassLangd(){
+  const p=state.prov; if(!p) return PROV_PASS;
+  const kvar=(Number(p.antal)||30)-provKlara(p);
+  return kvar>=5 ? Math.min(PROV_PASS,kvar) : PROV_PASS;
+}
+function provPool(p){
+  return availableTasks().filter(t=>p.omraden.includes(t.omr||"ovrigt") && p.nivaer.includes(assessmentLevelOf(t)));
+}
+async function provStarta(id){
+  const p=(provLista||[]).find(x=>Number(x.id)===Number(id));
+  if(!p) return;
+  if(!COURSES[p.kurs]){ toast("Kursen finns inte i Kunskapsgymmet."); return; }
+  if(state.course!==p.kurs){
+    const ok=await selectCourse(p.kurs,{render:false,record:false});
+    if(!ok) return;
+  }
+  const c=COURSES[p.kurs];
+  if(p.spar && (c.tracks||[]).includes(p.spar)) state.track=p.spar;
+  applyAccent();
+  if(!provPool(p).length){ toast("Provträningen innehåller inga uppgifter för det här spåret."); return; }
+  state.prov={...p};
+  state.focusArea=null;state.focusFamily=null;state.focusNamn=null;
+  state.focusOmr=p.omraden.slice();
+  state.visaPassval=false;state.visaFokus=false;
+  beginSession("prov");
+  navRecord("training");nextTask();
+}
+/* Områdesval i provträning: teckna en väg genom provets områden i lärarens
+   ordning, men låt svaga områden komma tillbaka oftare och de eleven redan
+   behärskar komma mer sällan. */
+function provValjOmrade(pool){
+  const p=state.prov, cp=ensureCourseProfile(), d=provLokal(p.id);
+  const finns=[...new Set(pool.map(t=>t.omr||"ovrigt"))];
+  if(finns.length<2) return finns[0];
+  const ordning=p.omraden.filter(o=>finns.includes(o));
+  const n=ordning.length;
+  const tot=ordning.reduce((s,o)=>s+(d.omr[o]?.f||0),0);
+  const framsteg=Math.min(.999,provKlara(p)/(Number(p.antal)||30));
+  const vantat=Math.floor(framsteg*n);
+  return ordning.map((o,i)=>{
+      const f=d.omr[o]?.f||0, r=d.omr[o]?.r||0;
+      const andel=tot?f/tot:0;
+      const traffsakerhet=f?r/f:.6;
+      const k = (andel-1/n)*2.2                 /* jämn täckning */
+              + Math.abs(i-vantat)*.22          /* lärarens ordning som en röd tråd */
+              + mastery(cp.areas,o)*.6          /* starka områden mer sällan */
+              + traffsakerhet*.3
+              + (o===state.lastArea?.35:0)
+              + Math.random()*.35;
+      return {o,k};
+    }).sort((a,b)=>a.k-b.k)[0].o;
+}
+/* Var fjärde uppgift kan vara en uppgift som eleven tidigare missat i provträningen. */
+function provRepetera(){
+  const p=state.prov; if(!p) return;
+  if(state.felKo && state.felKo.length) return;
+  if(state.sessionDone<2 || state.sessionDone%4!==3) return;
+  const d=provLokal(p.id);
+  const id=d.fel.find(x=>!state.lastIds.includes(x));
+  if(id) state.felKo=[id];
+}
+/* I provträningen ska eleven möta alla nivåer läraren valt. När eleven
+   klarar ett område bra i provträningen lyfts uppgiften ibland till C- eller
+   A-nivå, även om den vanliga nivåstegen ännu inte hunnit dit. */
+function provNivaKandidater(pool,area){
+  const p=state.prov; if(!p) return null;
+  const x=provLokal(p.id).omr[area]||{f:0,r:0};
+  if(x.f<3) return null;
+  const andel=x.r/x.f;
+  let mal=null;
+  if(p.nivaer.includes("A") && x.f>=5 && andel>=.8 && Math.random()<.3) mal="A";
+  else if(p.nivaer.includes("C") && andel>=.65 && Math.random()<.45) mal="C";
+  if(!mal) return null;
+  const lista=pool.filter(t=>assessmentLevelOf(t)===mal);
+  return lista.length?lista:null;
+}
+function provRegistrera(t,correct){
+  const p=state.prov; if(!p||!t) return;
+  const d=provLokal(p.id);
+  const fore=d.klara;
+  d.klara+=1; if(correct) d.ratt+=1;
+  const o=t.omr||"ovrigt";
+  d.omr[o] ||= {f:0,r:0};
+  d.omr[o].f+=1; if(correct) d.omr[o].r+=1;
+  const id=t.id;
+  d.fel=d.fel.filter(x=>x!==id);
+  if(!correct){ d.fel.push(id); if(d.fel.length>30) d.fel=d.fel.slice(-30); }
+  provSparaLokal(p.id,d);
+  const antal=Number(p.antal)||30;
+  if(fore<antal && d.klara>=antal)
+    setTimeout(()=>cheer("📚","Provträning klar",p.titel,`Du har gjort alla ${antal} uppgifter. Fortsätt gärna och repetera.`),1900);
+  clearTimeout(provRapportTimer);
+  provRapportTimer=setTimeout(()=>provRapportera(p.id),3000);
+}
+async function provRapportera(id){
+  const d=provLokal(id);
+  await provRpc("kg_prov_rapportera",{p_prov:Number(id),p_klara:d.klara,p_ratt:d.ratt,p_omr:d.omr});
+}
+function provEtikett(){
+  const p=state.prov;
+  return `Provträning: ${p.titel} · ${provKlara(p)}/${p.antal}`;
+}
+
+/* ── Lärarens vy ── */
+async function oppnaProvLarare(){
+  document.getElementById("provlarare")?.remove();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="provlarare";
+  el.innerHTML=`<div class="modal-kort provmodal" role="dialog" aria-modal="true" aria-label="Provträning">
+      <div class="modal-topp"><div><div class="lbl">Lärare</div><h2>Plugga inför prov</h2></div>
+        <button class="iconbtn" onclick="stangModal('provlarare')" aria-label="Stäng">✕</button></div>
+      <div id="provlarare-kropp"><div class="empty">Hämtar provträningar …</div></div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangModal("provlarare"); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  await provRitaLararlista();
+}
+async function provRitaLararlista(){
+  const kropp=document.getElementById("provlarare-kropp"); if(!kropp) return;
+  const r=await provRpc("kg_prov_mina");
+  if(r?.saknas){
+    kropp.innerHTML=`<p class="modal-text">Provträning är inte aktiverad i databasen än. Kör
+      <code>sql/2026-10-02-provtraning.sql</code> i Supabase → SQL Editor och öppna sedan den här rutan igen.</p>`;
+    return;
+  }
+  if(!r?.ok){ kropp.innerHTML=`<div class="empty">Kunde inte hämta provträningarna. Är kontot upplagt som lärare?</div>`; return; }
+  const lista=r.prov||[];
+  kropp.innerHTML=`<p class="modal-text">Du anger vad provet omfattar. Kunskapsgymmet väljer och anpassar
+      uppgifterna för varje elev, och du ser hur klassen ligger till per område.</p>
+    <div class="modal-fot" style="margin-top:0;margin-bottom:14px">
+      <button class="btn primary" onclick="provSkapaStart()">Skapa provträning</button></div>
+    ${lista.length?`<div class="provlista">${lista.map(p=>{
+      const kurs=COURSES[p.kurs];
+      return `<details class="provrad${p.aktiv?"":" avslutad"}" ontoggle="if(this.open)provVisaResultat(${Number(p.id)})">
+        <summary><span class="provrad-titel"><b>${esc(p.titel)}</b>
+          <small>${esc(kurs?.code||p.kurs)}${p.spar?" "+esc(p.spar):""}${p.datum?" · prov "+esc(provDatum(p.datum)):""}${p.klass?" · "+esc(p.klass):""}${p.aktiv?"":" · avslutad"}</small></span>
+          <span class="pt-upp-chip">${Number(p.tranat)||0} har tränat</span></summary>
+        <div class="provrad-kropp">
+          <div class="provkodbox"><span>Kod</span><b>${esc(p.kod)}</b>
+            <button class="btn sm" onclick="provKopiera('${esc(p.kod)}',false)">Kopiera kod</button>
+            <button class="btn sm" onclick="provKopiera('${esc(p.kod)}',true)">Kopiera länk</button></div>
+          <div id="provres-${Number(p.id)}"><div class="empty">Hämtar resultat …</div></div>
+          <div class="modal-fot"><span class="spacer"></span>
+            <button class="btn sm quiet" onclick="provAvsluta(${Number(p.id)},${p.aktiv?"false":"true"})">${p.aktiv?"Avsluta provträningen":"Aktivera igen"}</button></div>
+        </div>
+      </details>`;}).join("")}</div>`
+      :`<div class="empty">Du har inte skapat någon provträning än.</div>`}`;
+}
+function provLank(kod){ return location.origin+location.pathname+"?prov="+encodeURIComponent(kod); }
+async function provKopiera(kod,lank){
+  const text=lank?provLank(kod):kod;
+  try{ await navigator.clipboard.writeText(text); toast(lank?"Länken är kopierad.":"Koden är kopierad."); }
+  catch(_){ prompt("Kopiera:",text); }
+}
+async function provAvsluta(id,aktiv){
+  const r=await provRpc("kg_prov_avsluta",{p_prov:id,p_aktiv:aktiv});
+  if(!r?.ok){ toast("Kunde inte ändra provträningen."); return; }
+  toast(aktiv?"Provträningen är aktiv igen.":"Provträningen är avslutad och syns inte längre för eleverna.");
+  provRitaLararlista();
+}
+async function provVisaResultat(id){
+  const box=document.getElementById("provres-"+id); if(!box) return;
+  const r=await provRpc("kg_prov_sammanstallning",{p_prov:id});
+  if(!r?.ok){ box.innerHTML=`<div class="empty">Kunde inte hämta resultatet.</div>`; return; }
+  const p=r.prov||{};
+  const kd=await provKursData(p.kurs).catch(()=>null);
+  const namn=o=>kd?.namn[o]||o;
+  const omr=r.omraden||{};
+  const rader=(p.omraden||[]).map(o=>{
+    const x=omr[o]||{forsok:0,ratt:0,elever:0};
+    const pct=x.forsok?Math.round(x.ratt/x.forsok*100):null;
+    const ton=pct===null?"":pct>=75?" bra":pct>=55?" mellan":" svag";
+    return `<div class="provres-rad${ton}">
+      <span class="provres-namn">${esc(namn(o))}</span>
+      <span class="provres-stapel"><i style="width:${pct||0}%"></i></span>
+      <span class="provres-pct">${pct===null?"–":pct+" %"}</span>
+      <small>${Number(x.forsok)||0} svar · ${Number(x.elever)||0} elever</small></div>`;
+  }).join("");
+  box.innerHTML=`<div class="provres-topp"><b>${Number(r.tranat)||0}/${Number(r.elever)||0}</b> elever har tränat ·
+      ${Number(r.uppgifter)||0} uppgifter lösta</div>
+    <div class="provres">${rader}</div>
+    <p class="menytext">Andel rätt per område bland elevernas svar. Låga staplar visar vad klassen kan behöva repetera före provet.</p>`;
+}
+
+/* Kursens struktur och bank för formuläret, utan att byta kurs för läraren. */
+async function provKursData(id){
+  const c=COURSES[id]; if(!c) throw new Error("okänd kurs");
+  for(const f of c.files) await loadScript(f);
+  const bank=window[c.globals.bank]||[];
+  const omr=window[c.globals.omr]||{};
+  const kap=window[c.globals.kap]||{};
+  const kapSpar=window[c.globals.kapSpar]||null;
+  const namn={}, kapitel=[];
+  Object.keys(omr).sort((a,b)=>Number(a)-Number(b)).forEach(k=>{
+    const lista=Object.entries(omr[k]||{}).map(([key,n])=>{ namn[key]=n; return key; });
+    if(lista.length) kapitel.push({kap:k,omraden:lista});
+  });
+  return {bank,omr,kap,kapSpar,namn,kapitel};
+}
+function provKapNamn(kd,kap,spar){
+  const s=spar&&kd.kapSpar&&kd.kapSpar[spar];
+  return (s&&s[kap]) || kd.kap[kap] || ("Kapitel "+kap);
+}
+function provRakna(kd,spar,nivaer){
+  const per={}, perNiva={E:0,C:0,A:0};
+  kd.bank.forEach(t=>{
+    if(t.spel===false) return;
+    if(spar && t.kurs){ const k=Array.isArray(t.kurs)?t.kurs:[t.kurs]; if(!k.includes(spar)) return; }
+    const L=assessmentLevelOf(t);
+    if(L==="G") return;
+    const o=t.omr||"ovrigt";
+    per[o] ||= {E:0,C:0,A:0,alla:0};
+    per[o][L]+=1;
+    if(nivaer.includes(L)) per[o].alla+=1;
+  });
+  return per;
+}
+function provForslagKod(){
+  const s=provSkapa; const c=COURSES[s.kurs];
+  const bas=(s.spar?(c.code.replace(/\s.*$/,"")+s.spar.replace(/^\d/,"")):c.code).replace(/[^A-Za-z0-9]/g,"").toUpperCase();
+  const ord=((s.titel||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toUpperCase()
+    .split(/[^A-Z0-9]+/).filter(w=>w.length>2 && w!=="PROV" && !/^\d+$/.test(w))[0])||"PROV";
+  const d=s.datum?new Date(s.datum+"T12:00:00"):null;
+  const dat=d&&!Number.isNaN(d.getTime())?d.getDate()+["JAN","FEB","MAR","APR","MAJ","JUN","JUL","AUG","SEP","OKT","NOV","DEC"][d.getMonth()]:"";
+  return [bas,ord,dat].filter(Boolean).join("-");
+}
+async function provSkapaStart(){
+  const kurs=state.course && COURSES[state.course] && state.course!=="hist" ? state.course : "ma2";
+  provSkapa={kurs,spar:COURSES[kurs].defaultTrack||null,titel:"",datum:"",klass:null,
+             nivaer:["E","C","A"],antal:30,omraden:[],klasser:null,kd:null};
+  const kl=await klassRpc("kg_klasser",{},false);
+  provSkapa.klasser=Array.isArray(kl)?kl.filter(k=>!k.larare):[];
+  await provSkapaLaddaKurs();
+  provRitaSkapa();
+}
+async function provSkapaLaddaKurs(){
+  try{ provSkapa.kd=await provKursData(provSkapa.kurs); }
+  catch(_){ provSkapa.kd=null; toast("Kunde inte läsa in kursen."); }
+}
+function provRitaSkapa(){
+  const kropp=document.getElementById("provlarare-kropp"); if(!kropp) return;
+  const s=provSkapa, kd=s.kd;
+  const c=COURSES[s.kurs];
+  const kurser=COURSE_ORDER.filter(id=>COURSES[id] && id!=="hist");
+  const per=kd?provRakna(kd,s.spar,s.nivaer):{};
+  kropp.innerHTML=`<div class="provform">
+    <label class="provfalt"><span>Provets namn</span>
+      <input class="admin-sok" id="prov-titel" maxlength="60" placeholder="Prov 2 – Algebra" value="${esc(s.titel)}" oninput="provSkapa.titel=this.value"></label>
+    <div class="provform-rad">
+      <label class="provfalt"><span>Kurs</span>
+        <select class="admin-sok" onchange="provBytKurs(this.value)">${kurser.map(id=>`<option value="${id}"${id===s.kurs?" selected":""}>${esc(COURSES[id].name)}</option>`).join("")}</select></label>
+      ${(c.tracks||[]).length>1?`<label class="provfalt"><span>Spår</span>
+        <select class="admin-sok" onchange="provSkapa.spar=this.value;provRitaSkapa()">${c.tracks.map(t=>`<option value="${t}"${t===s.spar?" selected":""}>${esc(t)}</option>`).join("")}</select></label>`:""}
+      <label class="provfalt"><span>Provdatum</span>
+        <input class="admin-sok" type="date" value="${esc(s.datum)}" onchange="provSkapa.datum=this.value"></label>
+    </div>
+    <label class="provfalt"><span>Klass</span>
+      <select class="admin-sok" onchange="provSkapa.klass=this.value?Number(this.value):null">
+        <option value="">Ingen klass – eleverna går med med kod eller länk</option>
+        ${(s.klasser||[]).map(k=>`<option value="${Number(k.id)}"${Number(k.id)===s.klass?" selected":""}>${esc(k.namn)}</option>`).join("")}
+      </select></label>
+
+    <div class="provfalt"><span>Nivåer som ska tränas</span>
+      <div class="provchips">${["E","C","A"].map(L=>`<button type="button" class="valruta${s.nivaer.includes(L)?" vald":""}" onclick="provVaxlaNiva('${L}')"><span class="kryss" aria-hidden="true"></span><span class="valnamn">${L}</span></button>`).join("")}</div></div>
+
+    <div class="provfalt"><span>Omfattning</span>
+      <div class="provchips">${PROV_OMFATTNING.map(o=>`<button type="button" class="valruta${s.antal===o.n?" vald":""}" onclick="provSkapa.antal=${o.n};provRitaSkapa()"><span class="kryss" aria-hidden="true"></span><span class="valnamn">${o.namn} – ca ${o.n} uppgifter</span></button>`).join("")}</div></div>
+
+    <div class="provfalt"><span>Välj innehåll</span>
+      ${kd?kd.kapitel.map(k=>{
+        const synliga=k.omraden.filter(o=>per[o]);
+        if(!synliga.length) return "";
+        const alla=synliga.every(o=>s.omraden.includes(o));
+        return `<div class="provkap">
+          <button type="button" class="provkap-rubrik" onclick="provVaxlaKapitel('${esc(k.kap)}')">
+            <span class="kryss${alla?" pa":""}" aria-hidden="true"></span>${esc(provKapNamn(kd,k.kap,s.spar))}</button>
+          <div class="valgrid">${synliga.map(o=>{
+            const n=per[o]?.alla||0;
+            return `<button type="button" class="valruta${s.omraden.includes(o)?" vald":""}${n<8?" t-low":""}" onclick="provVaxlaOmrade('${esc(o)}')">
+              <span class="kryss" aria-hidden="true"></span><span class="valnamn">${esc(kd.namn[o]||o)}</span>
+              <span class="valstate">${n}</span></button>`;}).join("")}</div></div>`;}).join("")
+        :`<div class="empty">Kursen kunde inte läsas in.</div>`}
+    </div>
+
+    <div class="provkontroll" id="provkontroll">${provKontrollHtml(per)}</div>
+
+    <div class="modal-fot">
+      <button class="btn quiet" onclick="provRitaLararlista()">Tillbaka</button><span class="spacer"></span>
+      <button class="btn primary" onclick="provSkapaSkicka()">Skapa provträning</button></div>
+  </div>`;
+}
+function provKontrollHtml(per){
+  const s=provSkapa, kd=s.kd;
+  if(!s.omraden.length) return `<b>Innehållskontroll</b><p class="menytext">Välj minst ett område.</p>`;
+  const sum={E:0,C:0,A:0}; let tot=0;
+  const rader=s.omraden.map(o=>{
+    const x=per[o]||{E:0,C:0,A:0,alla:0};
+    ["E","C","A"].forEach(L=>{ if(s.nivaer.includes(L)) sum[L]+=x[L]; });
+    tot+=x.alla;
+    const tunn=x.alla<10;
+    return `<li${tunn?' class="tunn"':""}><span>${esc(kd?.namn[o]||o)}</span><b>${x.alla}</b>${tunn?`<small>tunn täckning</small>`:""}</li>`;
+  }).join("");
+  const niv=["E","C","A"].map(L=>!s.nivaer.includes(L)?`<span class="provniva av">${L}: –</span>`
+    : `<span class="provniva ${sum[L]>=5?"ok":"varn"}">${L}: ${sum[L]>=5?"✓":"⚠"} ${sum[L]}</span>`).join("");
+  return `<b>Provträningen innehåller</b>
+    <ul class="provkontroll-lista">${rader}</ul>
+    <div class="provkontroll-niva">${niv}</div>
+    <p class="menytext">${tot} möjliga uppgifter. ${tot<s.antal?"Det är färre än omfattningen, så uppgifter kommer att upprepas.":"Varje elev får sitt eget urval."}</p>`;
+}
+function provVaxlaOmrade(o){
+  const s=provSkapa;
+  s.omraden=s.omraden.includes(o)?s.omraden.filter(x=>x!==o):[...s.omraden,o];
+  provSorteraOmraden(); provRitaSkapa();
+}
+function provVaxlaKapitel(kap){
+  const s=provSkapa, k=s.kd?.kapitel.find(x=>String(x.kap)===String(kap)); if(!k) return;
+  const per=provRakna(s.kd,s.spar,s.nivaer);
+  const synliga=k.omraden.filter(o=>per[o]);
+  const alla=synliga.every(o=>s.omraden.includes(o));
+  s.omraden=alla?s.omraden.filter(o=>!synliga.includes(o)):[...new Set([...s.omraden,...synliga])];
+  provSorteraOmraden(); provRitaSkapa();
+}
+/* Områdena sparas i kursens ordning, som också blir träningens röda tråd. */
+function provSorteraOmraden(){
+  const s=provSkapa; if(!s.kd) return;
+  const ord=s.kd.kapitel.flatMap(k=>k.omraden);
+  s.omraden.sort((a,b)=>ord.indexOf(a)-ord.indexOf(b));
+}
+function provVaxlaNiva(L){
+  const s=provSkapa;
+  s.nivaer=s.nivaer.includes(L)?s.nivaer.filter(x=>x!==L):[...s.nivaer,L].sort((a,b)=>"ECA".indexOf(a)-"ECA".indexOf(b));
+  provRitaSkapa();
+}
+async function provBytKurs(id){
+  provSkapa.kurs=id; provSkapa.spar=COURSES[id].defaultTrack||null; provSkapa.omraden=[];
+  await provSkapaLaddaKurs(); provRitaSkapa();
+}
+async function provSkapaSkicka(){
+  const s=provSkapa;
+  s.titel=(document.getElementById("prov-titel")?.value||s.titel||"").trim();
+  if(s.titel.length<2){ toast("Ge provet ett namn."); return; }
+  if(!s.omraden.length){ toast("Välj minst ett område."); return; }
+  if(!s.nivaer.length){ toast("Välj minst en nivå."); return; }
+  const r=await provRpc("kg_prov_skapa",{p_titel:s.titel,p_kurs:s.kurs,p_spar:s.spar,p_omraden:s.omraden,
+    p_nivaer:s.nivaer,p_antal:s.antal,p_datum:s.datum||null,p_klass:s.klass,p_kod:provForslagKod()});
+  if(r?.saknas){ toast("Provträning är inte aktiverad i databasen än."); return; }
+  if(!r?.ok){
+    const fel={titel:"Namnet ska vara 2–60 tecken.",omraden:"Välj minst ett område.",nivaer:"Välj minst en nivå.",
+      larare_kravs:"Bara lärarkonton kan skapa provträningar.",okand_klass:"Klassen finns inte längre."}[r?.code];
+    toast(fel||"Kunde inte skapa provträningen."); return;
+  }
+  const kropp=document.getElementById("provlarare-kropp"); if(!kropp) return;
+  kropp.innerHTML=`<div class="provklar">
+      <p class="modal-text">Provträningen <b>${esc(s.titel)}</b> är skapad.${s.klass?" Eleverna i klassen ser den direkt på sin startsida.":""}
+        Dela koden eller länken, till exempel i Classroom eller Teams.</p>
+      <div class="provkodbox stor"><span>Kod</span><b>${esc(r.kod)}</b></div>
+      <div class="provlank">${esc(provLank(r.kod))}</div>
+      <div class="modal-fot">
+        <button class="btn" onclick="provKopiera('${esc(r.kod)}',false)">Kopiera kod</button>
+        <button class="btn" onclick="provKopiera('${esc(r.kod)}',true)">Kopiera länk</button>
+        <span class="spacer"></span>
+        <button class="btn primary" onclick="provRitaLararlista()">Klar</button></div>
+    </div>`;
+}
 </script>
 </body>
 </html>

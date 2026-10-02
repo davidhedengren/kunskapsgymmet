@@ -109863,6 +109863,35 @@ window.BANKMA1 = [
     "svarsstruktur": "ordnad"
   },
   {
+    "id": "5.575",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En påse innehåller röda och blå kulor. Man vet att det finns 15 blå kulor, men inte hur många röda det finns. Man drar en kula, noterar färgen och lägger tillbaka den. Efter 200 dragningar har man fått röd 72 gånger.</p><p>Uppskatta hur många röda kulor det finns i påsen.</p>",
+    "s": "<p>Den relativa frekvensen för röd är \\(\\frac{72}{200}=0{,}36\\). Det används som uppskattning av sannolikheten.</p><p>Med \\(r\\) röda kulor är \\(P(\\text{röd})=\\frac{r}{r+15}\\):</p><p>\\[\\frac{r}{r+15}=0{,}36\\;\\Leftrightarrow\\;r=0{,}36r+5{,}4\\;\\Leftrightarrow\\;0{,}64r=5{,}4\\;\\Leftrightarrow\\;r\\approx8{,}4.\\]</p><p>Antalet måste vara ett heltal, så det finns troligen ungefär 8 röda kulor.</p><p><strong>Svar:</strong> ungefär 8 röda kulor</p>",
+    "familj": "Sannolikhet och relativ frekvens",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd den relativa frekvensen som uppskattning av sannolikheten. Ställ upp en ekvation för antalet röda kulor.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0.5
+  },
+  {
     "id": "5.563",
     "kap": 5,
     "omr": "urvalsmetoder",
@@ -116237,6 +116266,59 @@ window.BANKMA1 = [
     "tolerans": null
   },
   {
+    "id": "6.420",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Vad skriver programmet ut? Beskriv också vad programmet beräknar.</p><p><code>k = 1000</code><br><code>ar = 0</code><br><code>while k &lt; 2000:</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;k = k * 1.07</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;ar = ar + 1</code><br><code>print(ar)</code></p>",
+    "s": "<p>Programmet räknar hur många år det tar för 1 000 kr att växa till minst 2 000 kr med 7 % ränta per år. Det är fördubblingstiden.</p><p>\\(1{,}07^{10}\\approx1{,}967\\), så efter 10 år är \\(k\\approx1\\,967&lt;2\\,000\\) och slingan fortsätter.</p><p>\\(1{,}07^{11}\\approx2{,}105\\), så efter 11 år är \\(k\\ge2\\,000\\) och slingan avslutas.</p><p><strong>Svar:</strong> 11</p>",
+    "familj": "Programmering som matematiskt verktyg",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Varje varv i slingan motsvarar ett år. Hur många gånger måste 1 000 multipliceras med 1,07 för att bli minst 2 000?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null
+  },
+  {
+    "id": "6.421",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Vad skriver programmet ut?</p><p><code>s = 0</code><br><code>for k in range(1, 6):</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;s = s + k</code><br><code>print(s)</code></p>",
+    "s": "<p><code>range(1, 6)</code> ger talen 1, 2, 3, 4 och 5. Talet 6 ingår inte.</p><p>\\(s=1+2+3+4+5=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Programmering som matematiskt verktyg",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilka värden får \\(k\\)? Tänk på att det sista talet i <code>range</code> inte ingår.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null
+  },
+  {
     "id": "6.409",
     "kap": 6,
     "omr": "samhallsliv",
@@ -117742,6 +117824,35 @@ window.BANKMA1 = [
       "numeriskt",
       "uttryck"
     ]
+  },
+  {
+    "id": "1.1126",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Talföljden 7, 11, 15, 19, … fortsätter på samma sätt. Vilket är det 50:e talet i följden?</p>",
+    "s": "<p>Talen ökar med 4 varje steg. Från det första till det 50:e talet tar man 49 steg:</p><p>\\(7+49\\cdot4=203\\).</p><p>Allmänt är det \\(n\\):te talet \\(7+4(n-1)=4n+3\\). Kontroll: \\(4\\cdot50+3=203\\).</p><p><strong>Svar:</strong> 203</p>",
+    "familj": "Upptäcka och beskriva mönster",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur mycket ökar talen per steg? Hur många steg är det från det första till det 50:e talet?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 203,
+    "tolerans": null
   },
   {
     "id": "7.01",
@@ -127401,6 +127512,61 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "7.537",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>På en karta i skala 1 : 25 000 har en sjö arean 6 cm².</p><p>Hur stor är sjöns verkliga area i hektar? 1 hektar är 10 000 m².</p>",
+    "s": "<p>1 cm på kartan är \\(25\\,000\\) cm \\(=250\\) m i verkligheten.</p><p>1 cm² på kartan motsvarar därför \\(250\\cdot250=62\\,500\\) m².</p><p>\\(6\\cdot62\\,500=375\\,000\\) m² \\(=37{,}5\\) hektar.</p><p>Ett vanligt fel är att bara multiplicera 6 cm² med 25 000. Arean ska multipliceras med skalan i kvadrat.</p><p><strong>Svar:</strong> 37,5 hektar</p>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många meter motsvarar 1 cm på kartan? Hur stor yta motsvarar då en kvadrat på 1 cm × 1 cm?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 37.5,
+    "tolerans": 0.01,
+    "svarEnhet": "ha"
+  },
+  {
+    "id": "7.538",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En vägg är 7,2 m lång. Hur lång blir den på en ritning i skala 1 : 50? Svara i cm.</p>",
+    "s": "<p>7,2 m \\(=720\\) cm. \\(\\frac{720}{50}=14{,}4\\) cm.</p><p><strong>Svar:</strong> 14,4 cm</p>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör om till centimeter och dela med 50.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.4,
+    "tolerans": 0.01,
+    "svarEnhet": "cm"
+  },
+  {
     "id": "7.418",
     "kap": 7,
     "omr": "matning_enheter",
@@ -127806,6 +127972,32 @@ window.BANKMA1 = [
     "tolerans": 0.5
   },
   {
+    "id": "7.534",
+    "kap": 7,
+    "omr": "matning_enheter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En behållare rymmer 2,5 m³ vatten. Hur många hela hinkar som rymmer 12 liter kan fyllas från behållaren?</p>",
+    "s": "<p>2,5 m³ \\(=2\\,500\\) liter, eftersom 1 m³ = 1 000 liter.</p><p>\\(\\frac{2\\,500}{12}\\approx208{,}3\\). Det blir 208 fulla hinkar.</p><p><strong>Svar:</strong> 208 hinkar</p>",
+    "familj": "Mätning och enhetsomvandling",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör om m³ till liter. 1 m³ är 1 000 liter.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 208,
+    "tolerans": null
+  },
+  {
     "id": "7.430",
     "kap": 7,
     "omr": "uppskattning_overslag",
@@ -128206,6 +128398,33 @@ window.BANKMA1 = [
     "svarEnhet": "l"
   },
   {
+    "id": "7.541",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En kollega har räknat ut att det behövs 9 444 kakelplattor med måtten 30 cm × 30 cm till ett golv på 85 m².</p><p>Gör först ett överslag för att se om svaret är rimligt. Hur många plattor behövs egentligen? Avrunda uppåt till helt antal.</p>",
+    "s": "<p>Överslag: en platta är ungefär \\(0{,}1\\) m², så 85 m² kräver ungefär 850 plattor. 9 444 är alltså ungefär tio gånger för många.</p><p>Exakt: en platta är \\(0{,}30\\cdot0{,}30=0{,}09\\) m². \\(\\frac{85}{0{,}09}\\approx944{,}4\\), alltså 945 plattor.</p><p>Kollegan räknade troligen med \\(0{,}009\\) m² per platta, alltså fel med en tiopotens.</p><p><strong>Svar:</strong> 945 plattor</p>",
+    "familj": "Överslag i yrkeslivet",
+    "formaga": [
+      "resonemang",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor är en platta i m²? Ungefär hur många sådana går på en kvadratmeter?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 945,
+    "tolerans": 0.5
+  },
+  {
     "id": "7.442",
     "kap": 7,
     "omr": "matfel_felmarginal",
@@ -128575,6 +128794,34 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ]
+  },
+  {
+    "id": "7.533",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En kvadratisk platta mäts till sidan 50 cm. Mätningen kan vara fel med högst 0,5 cm.</p><p>Hur många procent kan den beräknade arean som mest vara för stor? Svara med en decimal.</p>",
+    "s": "<p>Det relativa felet i sidan är \\(\\frac{0{,}5}{50}=1\\,\\%\\).</p><p>Om den verkliga sidan är 49,5 cm är den verkliga arean \\(49{,}5^2=2\\,450{,}25\\) cm². Den beräknade arean är \\(50^2=2\\,500\\) cm².</p><p>\\[\\frac{2\\,500}{2\\,450{,}25}\\approx1{,}0203,\\]</p><p>alltså cirka 2,0 % för stor.</p><p>Det relativa felet ungefär fördubblas när man kvadrerar. Två faktorer med 1 % fel vardera ger cirka 2 % fel.</p><p><strong>Svar:</strong> cirka 2,0 %</p>",
+    "familj": "Absolut och relativt mätfel",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken är den minsta möjliga verkliga sidan? Jämför den beräknade arean med den verkliga.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0,
+    "tolerans": 0.1,
+    "svarEnhet": "%"
   },
   {
     "id": "7.454",
@@ -129125,6 +129372,71 @@ window.BANKMA1 = [
     "tolerans": null
   },
   {
+    "id": "7.539",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En snickare behöver 14 bitar som är 1,3 m långa. Brädorna säljs i längden 4,2 m, och bitarna kan inte skarvas.</p><p><strong>a)</strong> Hur många brädor behövs minst?</p><p><strong>b)</strong> Hur många procent av det köpta virket blir spill? Svara med en decimal.</p>",
+    "s": "<p><strong>a)</strong> Ur en bräda får man \\(\\left\\lfloor\\frac{4{,}2}{1{,}3}\\right\\rfloor=3\\) bitar, eftersom \\(3\\cdot1{,}3=3{,}9\\) m och 0,3 m blir över.</p><p>14 bitar kräver \\(\\frac{14}{3}\\approx4{,}7\\), alltså 5 brädor.</p><p><strong>b)</strong> Köpt virke: \\(5\\cdot4{,}2=21{,}0\\) m. Använt: \\(14\\cdot1{,}3=18{,}2\\) m. Spill: \\(2{,}8\\) m.</p><p>\\(\\frac{2{,}8}{21{,}0}\\approx13{,}3\\,\\%\\).</p><p>Att bara räkna \\(\\frac{18{,}2}{4{,}2}\\approx4{,}3\\) brädor ger fel svar, eftersom bitarna inte kan skarvas.</p><p><strong>Svar:</strong> a) 5 brädor &nbsp; b) cirka 13,3 %</p>",
+    "familj": "Materialbehov med spill",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många hela bitar får man ur en bräda?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      13.3
+    ],
+    "tolerans": [
+      0,
+      0.1
+    ],
+    "svarEtiketter": [
+      "a) Antal brädor",
+      "b) Spill"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "7.540",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>När man filéar en fisk blir utbytet 45 %, alltså 45 % av den hela fiskens vikt blir filé.</p><p>Hur många kilogram hel fisk behövs för att få 3,0 kg filé? Svara med en decimal.</p>",
+    "s": "<p>\\(0{,}45\\cdot x=3{,}0\\) ger \\(x=\\frac{3{,}0}{0{,}45}\\approx6{,}7\\) kg.</p><p><strong>Svar:</strong> cirka 6,7 kg</p>",
+    "familj": "Svinn och utbyte",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>45 % av den hela fisken ska bli 3,0 kg.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.666666666666666,
+    "tolerans": 0.05,
+    "svarEnhet": "kg"
+  },
+  {
     "id": "7.470",
     "kap": 7,
     "omr": "kostnadsberakningar",
@@ -129618,6 +129930,61 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Kostnadsberäkningar"
     ]
+  },
+  {
+    "id": "7.531",
+    "kap": 7,
+    "omr": "kostnadsberakningar",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>En hantverkare renoverar ett badrum. Materialet köps in för 8 000 kr exklusive moms, och hantverkaren tar 15 % påslag på materialet. Arbetet tar 12 timmar à 450 kr exklusive moms. Momsen är 25 % på både material och arbete.</p><p>Kunden får ROT-avdrag med 30 % av arbetskostnaden inklusive moms. Vad betalar kunden totalt?</p>",
+    "s": "<p>Material med påslag och moms: \\(8\\,000\\cdot1{,}15\\cdot1{,}25=11\\,500\\) kr.</p><p>Arbete med moms: \\(12\\cdot450\\cdot1{,}25=6\\,750\\) kr.</p><p>ROT-avdrag: \\(0{,}30\\cdot6\\,750=2\\,025\\) kr. Avdraget gäller bara arbetet, inte materialet.</p><p>Att betala: \\(11\\,500+6\\,750-2\\,025=16\\,225\\) kr.</p><p><strong>Svar:</strong> 16 225 kr</p>",
+    "familj": "Moms, rabatt och påslag",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna material och arbete för sig. Lägg på påslag och moms. Vilken del gäller ROT-avdraget?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16225,
+    "tolerans": null,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "7.532",
+    "kap": 7,
+    "omr": "kostnadsberakningar",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ett golv på 24 m² ska läggas med laminat som kostar 189 kr/m². Man räknar med 8 % spill. Dessutom behövs 20 m golvlist som kostar 45 kr/m.</p><p>Vad kostar materialet? Avrunda till hela kronor.</p>",
+    "s": "<p>Laminat med spill: \\(24\\cdot1{,}08=25{,}92\\) m², som kostar \\(25{,}92\\cdot189\\approx4\\,898{,}88\\) kr.</p><p>Golvlist: \\(20\\cdot45=900\\) kr.</p><p>Totalt: \\(4\\,898{,}88+900\\approx5\\,799\\) kr.</p><p><strong>Svar:</strong> cirka 5 799 kr</p>",
+    "familj": "Kostnad för material och arbete",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Lägg först till spillet på golvytan. Räkna sedan laminat och list för sig.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5799,
+    "tolerans": 1,
+    "svarEnhet": "kr"
   },
   {
     "id": "7.486",
@@ -130137,6 +130504,60 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
+    "tolerans": null,
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "7.535",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En kran får enligt tillverkaren lyfta högst 5,0 ton. På arbetsplatsen gäller att man bara får använda 80 % av maxlasten. Ett lyftok som väger 120 kg hänger alltid med i lyftet.</p><p>Hur många betongblock à 155 kg får lyftas samtidigt?</p>",
+    "s": "<p>Tillåten last: \\(0{,}80\\cdot5\\,000=4\\,000\\) kg.</p><p>Lyftoket tar 120 kg, så blocken får väga högst \\(3\\,880\\) kg.</p><p>\\(\\frac{3\\,880}{155}\\approx25{,}03\\). Det får alltså vara högst 25 block. 26 block skulle väga 4 030 kg, och med oket blir det 4 150 kg.</p><p><strong>Svar:</strong> 25 block</p>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna den tillåtna lasten och dra bort lyftokets vikt. Avrunda nedåt.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": null
+  },
+  {
+    "id": "7.536",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En lyftstropp har brottlasten 3 600 kg. Säkerhetsfaktorn är 6, så stroppen får belastas med högst en sjättedel av brottlasten.</p><p>Hur stor last får stroppen bära?</p>",
+    "s": "<p>\\(\\frac{3\\,600}{6}=600\\) kg.</p><p><strong>Svar:</strong> 600 kg</p>",
+    "familj": "Säkerhetsfaktor",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela brottlasten med säkerhetsfaktorn.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 600,
     "tolerans": null,
     "svarEnhet": "kg"
   },
@@ -130814,6 +131235,34 @@ window.BANKMA1 = [
     "rättSvar": 8820,
     "tolerans": null,
     "svarEnhet": "kr"
+  },
+  {
+    "id": "7.542",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En manometer på en gasflaska visar övertrycket 2,4 bar, alltså trycket över atmosfärstrycket. Atmosfärstrycket är 1,01 bar.</p><p>Vad är det absoluta trycket i flaskan i kilopascal? 1 bar = 100 kPa.</p>",
+    "s": "<p>Absolut tryck = övertryck + atmosfärstryck: \\(2{,}4+1{,}01=3{,}41\\) bar.</p><p>\\(3{,}41\\cdot100=341\\) kPa.</p><p>Det är lätt att glömma att manometern visar trycket <em>över</em> omgivningen, inte det totala trycket.</p><p><strong>Svar:</strong> 341 kPa</p>",
+    "familj": "Mätinstrument och avläsning",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vad mäter manometern: hela trycket eller skillnaden mot luften runtomkring?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 341,
+    "tolerans": 0.5,
+    "svarEnhet": "kPa"
   },
   {
     "id": "0.806",

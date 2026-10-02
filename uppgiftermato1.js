@@ -16191,6 +16191,34 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
+    "id": "2.817",
+    "kap": 2,
+    "omr": "derivatans_definition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm \\(f'(2)\\) för \\(f(x)=\\dfrac1x\\) med hjälp av derivatans definition.</p>",
+    "s": "<p>\\[f'(2)=\\lim_{h\\to0}\\frac{\\frac1{2+h}-\\frac12}{h}=\\lim_{h\\to0}\\frac{\\frac{2-(2+h)}{2(2+h)}}{h}=\\lim_{h\\to0}\\frac{-1}{2(2+h)}=-\\frac14.\\]</p><p>Kontroll med deriveringsregeln: \\(f'(x)=-\\frac1{x^2}\\), så \\(f'(2)=-\\frac14\\).</p><p><strong>Svar:</strong> \\(f'(2)=-\\frac14\\)</p>",
+    "familj": "Derivatans definition",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör liknämnigt i täljaren innan du delar med \\(h\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.25,
+    "tolerans": 0.0001
+  },
+  {
     "id": "2.74",
     "kap": 2,
     "omr": "derivata_potens",
@@ -78180,6 +78208,45 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "2.820",
+    "kap": 2,
+    "omr": "derivata_exponential",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En population växer så att tillväxthastigheten hela tiden är 4 % av populationens storlek per år. Från början finns 500 individer.</p><p><strong>a)</strong> Hur snabbt växer populationen när den har 2 000 individer? Svara i individer per år.</p><p><strong>b)</strong> Efter hur många år har populationen 2 000 individer? Svara med en decimal.</p>",
+    "s": "<p>Villkoret är \\(P'(t)=0{,}04P(t)\\). Det uppfylls av \\(P(t)=500e^{0{,}04t}\\).</p><p><strong>a)</strong> \\(P'=0{,}04\\cdot2\\,000=80\\) individer per år. Det kan beräknas direkt ur villkoret, utan att man vet när det inträffar.</p><p><strong>b)</strong> \\(500e^{0{,}04t}=2\\,000\\) ger \\(e^{0{,}04t}=4\\), alltså \\(t=\\frac{\\ln4}{0{,}04}\\approx34{,}7\\) år.</p><p><strong>Svar:</strong> a) 80 individer per år &nbsp; b) cirka 34,7 år</p>",
+    "familj": "Derivatan är proportionell mot funktionsvärdet",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken funktion har en derivata som är 0,04 gånger funktionen själv? I a behöver du inte veta tiden.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      80,
+      34.657359027997266
+    ],
+    "tolerans": [
+      0,
+      0.05
+    ],
+    "svarEtiketter": [
+      "a) Individer per år",
+      "b) År"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.731",
     "kap": 3,
     "omr": "extrempunkter",
@@ -78546,6 +78613,34 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Bestäm x från given lutning"
     ]
+  },
+  {
+    "id": "2.819",
+    "kap": 2,
+    "omr": "derivata_polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f(x)=x^3-3x^2+kx\\) ska vara växande för alla \\(x\\).</p><p>Bestäm det minsta värdet på \\(k\\) som uppfyller detta.</p>",
+    "s": "<p>\\(f'(x)=3x^2-6x+k=3(x-1)^2+(k-3)\\).</p><p>Derivatans minsta värde är \\(k-3\\) och antas när \\(x=1\\). Funktionen är växande för alla \\(x\\) om \\(f'(x)\\ge0\\) överallt, alltså om \\(k\\ge3\\).</p><p>För \\(k=3\\) är \\(f'(x)=3(x-1)^2\\), som bara är 0 i \\(x=1\\). Där har \\(f\\) en terrasspunkt men är ändå växande.</p><p><strong>Svar:</strong> \\(k=3\\)</p>",
+    "familj": "Parameterproblem med derivata",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Funktionen är växande när derivatan aldrig är negativ. Kvadratkomplettera derivatan.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null
   },
   {
     "id": "2.742",
@@ -89858,6 +89953,45 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "2.816",
+    "kap": 2,
+    "omr": "naturliga_logaritmer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[e^{2x}-5e^x+6=0.\\]</p><p>Svara exakt.</p>",
+    "s": "<p>Sätt \\(t=e^x\\). Då är \\(e^{2x}=t^2\\) och ekvationen blir \\(t^2-5t+6=0\\), alltså \\((t-2)(t-3)=0\\).</p><p>\\(e^x=2\\) ger \\(x=\\ln2\\). \\(e^x=3\\) ger \\(x=\\ln3\\).</p><p>Båda är giltiga, eftersom \\(e^x\\) kan anta alla positiva värden.</p><p><strong>Svar:</strong> \\(x=\\ln2\\) eller \\(x=\\ln3\\)</p>",
+    "familj": "Naturliga logaritmer och ekvationer",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>\\(e^{2x}=(e^x)^2\\). Inför \\(t=e^x\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6931471805599453,
+      1.0986122886681098
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
     "id": "2.752",
     "kap": 2,
     "omr": "talet_e",
@@ -90202,6 +90336,42 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "2.812",
+    "kap": 2,
+    "omr": "derivata_potens",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En tangent till kurvan \\(y=\\sqrt x\\) går genom punkten \\((-4,\\,0)\\) på \\(x\\)-axeln.</p><p>Bestäm tangeringspunkten.</p>",
+    "s": "<p>Låt tangeringspunkten vara \\((a,\\,\\sqrt a)\\). Derivatan är \\(y'=\\frac{1}{2\\sqrt x}\\), så tangenten är</p><p>\\[y=\\sqrt a+\\frac{1}{2\\sqrt a}(x-a).\\]</p><p>Punkten \\((-4,\\,0)\\) ska ligga på tangenten:</p><p>\\[0=\\sqrt a+\\frac{-4-a}{2\\sqrt a}\\;\\Leftrightarrow\\;0=2a-4-a\\;\\Leftrightarrow\\;a=4.\\]</p><p>Tangeringspunkten är \\((4,\\,2)\\). Tangenten \\(y=2+\\frac14(x-4)=\\frac14x+1\\) är 0 när \\(x=-4\\). Det stämmer.</p><p><strong>Svar:</strong> \\((4,\\,2)\\)</p>",
+    "familj": "Rötter och bråkexponenter",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Kalla tangeringspunktens \\(x\\)-koordinat \\(a\\) och ställ upp tangentens ekvation med \\(a\\). Sätt sedan in punkten \\((-4,\\,0)\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      2
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.761",
     "kap": 2,
     "omr": "deriveringsregler",
@@ -90403,6 +90573,61 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Genomsnittlig förändringshastighet i modell"
     ]
+  },
+  {
+    "id": "2.810",
+    "kap": 2,
+    "omr": "andringskvoter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För \\(f(x)=x^3\\) har sekanten genom punkterna där \\(x=1\\) och \\(x=4\\) en viss lutning.</p><p>I vilken punkt \\(x=c\\) mellan 1 och 4 har tangenten samma lutning som sekanten? Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>Sekantens lutning, alltså förändringskvoten:</p><p>\\[\\frac{f(4)-f(1)}{4-1}=\\frac{64-1}{3}=21.\\]</p><p>Tangentens lutning är \\(f'(c)=3c^2\\). Villkoret \\(3c^2=21\\) ger \\(c^2=7\\), och i intervallet är \\(c=\\sqrt7\\approx2{,}646\\).</p><p>Det finns alltid en sådan punkt för en deriverbar funktion: någonstans är den momentana förändringen lika med den genomsnittliga.</p><p><strong>Svar:</strong> \\(c=\\sqrt7\\approx2{,}646\\)</p>",
+    "familj": "Förändringskvot och sekantens lutning",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna sekantens lutning. När är derivatan lika med den?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.6457513110645907,
+    "tolerans": 0.001
+  },
+  {
+    "id": "2.811",
+    "kap": 2,
+    "omr": "andringskvoter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Beräkna förändringskvoten \\(\\dfrac{\\Delta y}{\\Delta x}\\) för \\(f(x)=2^x\\) mellan \\(x=1\\) och \\(x=3\\).</p>",
+    "s": "<p>\\[\\frac{f(3)-f(1)}{3-1}=\\frac{8-2}{2}=3.\\]</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Förändringskvot och sekantens lutning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna funktionsvärdena i ändpunkterna och dela skillnaden med skillnaden i \\(x\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null
   },
   {
     "id": "2.763",
@@ -90940,6 +91165,42 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "2.818",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För funktionen \\(f(x)=ax^3+bx\\) gäller att \\(f(1)=4\\) och \\(f'(1)=10\\).</p><p>Bestäm \\(a\\) och \\(b\\).</p>",
+    "s": "<p>\\(f(1)=a+b=4\\). \\(f'(x)=3ax^2+b\\), så \\(f'(1)=3a+b=10\\).</p><p>Subtrahera: \\(2a=6\\), alltså \\(a=3\\) och \\(b=1\\).</p><p>Kontroll: \\(f(x)=3x^3+x\\) ger \\(f(1)=4\\) och \\(f'(1)=9+1=10\\).</p><p><strong>Svar:</strong> \\(a=3\\), \\(b=1\\)</p>",
+    "familj": "Derivera polynom",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Varje villkor ger en ekvation i \\(a\\) och \\(b\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      1
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.770",
     "kap": 2,
     "omr": "talet_e",
@@ -91040,6 +91301,34 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Förändringsfaktor från exponentialmodell"
     ]
+  },
+  {
+    "id": "2.813",
+    "kap": 2,
+    "omr": "derivata_a_x",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Vid vilket \\(x\\)-värde har graferna till \\(f(x)=2^x\\) och \\(g(x)=3^x\\) samma lutning? Svara exakt eller med två decimaler.</p>",
+    "s": "<p>\\(f'(x)=2^x\\ln2\\) och \\(g'(x)=3^x\\ln3\\).</p><p>\\[2^x\\ln2=3^x\\ln3\\;\\Leftrightarrow\\;\\left(\\frac32\\right)^x=\\frac{\\ln2}{\\ln3}.\\]</p><p>\\[x=\\frac{\\ln\\left(\\frac{\\ln2}{\\ln3}\\right)}{\\ln1{,}5}\\approx-1{,}14.\\]</p><p>Rimlighet: för negativa \\(x\\) ligger \\(3^x\\) under \\(2^x\\) men har en större faktor \\(\\ln3\\) i derivatan. Lutningarna kan därför vara lika där.</p><p><strong>Svar:</strong> \\(x\\approx-1{,}14\\)</p>",
+    "familj": "Derivera a^x",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera båda funktionerna och sätt derivatorna lika. Samla potenserna på ena sidan.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1.1358825679163034,
+    "tolerans": 0.01
   },
   {
     "id": "1.551",
@@ -92507,6 +92796,34 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
+    "id": "2.815",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm konstanten \\(k\\ne0\\) så att tangenten till kurvan \\(y=e^{kx}\\) i punkten där \\(x=1\\) går genom origo.</p>",
+    "s": "<p>I \\(x=1\\) är \\(y=e^k\\) och \\(y'=ke^k\\). Tangenten är</p><p>\\[y=e^k+ke^k(x-1).\\]</p><p>Origo ska ligga på tangenten: \\(0=e^k-ke^k=e^k(1-k)\\). Eftersom \\(e^k&gt;0\\) måste \\(k=1\\).</p><p>Kontroll: för \\(y=e^x\\) är tangenten i \\(x=1\\) linjen \\(y=ex\\), som går genom origo.</p><p><strong>Svar:</strong> \\(k=1\\)</p>",
+    "familj": "Tangenter och lutning för e^kx",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ställ upp tangentens ekvation i \\(x=1\\) uttryckt med \\(k\\). Sätt in \\((0,\\,0)\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null
+  },
+  {
     "id": "3.1081",
     "kap": 2,
     "omr": "tangenter",
@@ -93459,6 +93776,35 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Tre fack mot vägg"
     ]
+  },
+  {
+    "id": "2.814",
+    "kap": 2,
+    "omr": "begreppet_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Volymen av ett klot med radien \\(r\\) cm är \\(V(r)=\\frac43\\pi r^3\\) cm³.</p><p>Använd derivatan för att uppskatta hur mycket volymen ökar när radien ökar från 10,0 cm till 10,1 cm. Svara i cm³ med en decimal.</p>",
+    "s": "<p>\\(V'(r)=4\\pi r^2\\), så \\(V'(10)=400\\pi\\approx1\\,256{,}6\\) cm³ per cm.</p><p>När radien ökar med \\(0{,}1\\) cm ökar volymen ungefär \\(V'(10)\\cdot0{,}1\\approx125{,}7\\) cm³.</p><p>Den exakta ökningen är \\(\\frac43\\pi(10{,}1^3-10^3)\\approx126{,}9\\) cm³, så uppskattningen är god.</p><p>Lägg märke till att \\(V'(r)=4\\pi r^2\\) är klotets area. Ett tunt skal med tjockleken \\(\\Delta r\\) har ungefär volymen area gånger tjocklek.</p><p><strong>Svar:</strong> cirka 125,7 cm³</p>",
+    "familj": "Derivata som förändringshastighet",
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivatan anger ungefär hur mycket \\(V\\) ändras per cm. Hur mycket blir det för 0,1 cm?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 125.66370614359172,
+    "tolerans": 0.2,
+    "svarEnhet": "cm³"
   },
   {
     "id": "3.1107",

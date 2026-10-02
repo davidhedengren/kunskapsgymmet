@@ -93067,7 +93067,7 @@ window.BANKMATO2 = [
       "procedur",
       "problemlösning"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Bryt ut \\(xe^{-x}\\) ur derivatan. Vilket tecken har \\(e^{-x}\\)?</p>",

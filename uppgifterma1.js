@@ -93334,6 +93334,34 @@ window.BANKMA1 = [
     "svarEnhet": "m²"
   },
   {
+    "id": "4.586",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Tänk dig ett rep som ligger stramt runt jorden längs ekvatorn, ungefär 40 000 km. Repet förlängs med 1 meter och lyfts sedan jämnt runt hela jorden.</p><p>Hur högt över marken hamnar repet? Svara i cm med en decimal.</p>",
+    "s": "<p>Omkretsen är \\(O=2\\pi r\\). Om omkretsen ökar med \\(\\Delta O\\) ökar radien med \\(\\Delta r=\\frac{\\Delta O}{2\\pi}\\).</p><p>\\(\\Delta r=\\frac{1}{2\\pi}\\approx0{,}159\\) m \\(\\approx15{,}9\\) cm.</p><p>Svaret beror inte på jordens storlek. Samma förlängning runt en fotboll ger samma höjd.</p><p><strong>Svar:</strong> cirka 15,9 cm</p>",
+    "familj": "Cirkelns omkrets och area",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv omkretsen före och efter med radien \\(r\\) och \\(r+h\\). Vad blir skillnaden?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.915494309189533,
+    "tolerans": 0.1,
+    "svarEnhet": "cm"
+  },
+  {
     "id": "4.538",
     "kap": 4,
     "omr": "volym",
@@ -93783,6 +93811,34 @@ window.BANKMA1 = [
     "svarEnhet": "cm²"
   },
   {
+    "id": "4.587",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En glasstrut har formen av en kon med radien 2,5 cm och höjden 10 cm. Struten fylls med glass till kanten, och ovanpå läggs en halvklotformad kula med samma radie.</p><p>Hur mycket glass finns det totalt? Svara i cm³ med en decimal.</p>",
+    "s": "<p>Konen: \\(\\frac13\\pi r^2h=\\frac13\\pi\\cdot2{,}5^2\\cdot10\\approx65{,}45\\) cm³.</p><p>Halvklotet: \\(\\frac12\\cdot\\frac43\\pi r^3=\\frac23\\pi\\cdot2{,}5^3\\approx32{,}72\\) cm³.</p><p>Totalt: cirka 98,2 cm³, ungefär 1 dl.</p><p><strong>Svar:</strong> cirka 98,2 cm³</p>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela upp glassen i en kon och ett halvklot. Vilka formler gäller?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 98.17477042468104,
+    "tolerans": 0.1,
+    "svarEnhet": "cm³"
+  },
+  {
     "id": "4.551",
     "kap": 4,
     "omr": "kvadratrotter",
@@ -94170,6 +94226,34 @@ window.BANKMA1 = [
       "b)"
     ],
     "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "4.585",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En cirkelformad rabatt ska göras om så att arean blir dubbelt så stor. Med hur många procent måste radien öka? Svara med en decimal.</p>",
+    "s": "<p>Arean är \\(\\pi r^2\\). Om den nya radien är \\(k\\cdot r\\) blir arean \\(\\pi k^2r^2\\). Dubbel area kräver \\(k^2=2\\), alltså \\(k=\\sqrt2\\approx1{,}414\\).</p><p>Radien ska öka med cirka 41,4 %, inte med 100 %.</p><p><strong>Svar:</strong> cirka 41,4 %</p>",
+    "familj": "Ekvationen x² = a",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur förändras arean om radien multipliceras med ett tal \\(k\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 41.42135623730952,
+    "tolerans": 0.1,
+    "svarEnhet": "%"
   },
   {
     "id": "4.562",
@@ -127996,6 +128080,48 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 208,
     "tolerans": null
+  },
+  {
+    "id": "7.543",
+    "kap": 7,
+    "omr": "matning_enheter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En kran droppar en droppe per sekund. 20 droppar är 1 ml. Kallvatten kostar 45 kr per kubikmeter.</p><p>Hur många liter vatten läcker ut på ett år (365 dygn), och vad kostar det? Avrunda till hela liter och hela kronor.</p>",
+    "s": "<p>Sekunder per år: \\(365\\cdot24\\cdot3\\,600=31\\,536\\,000\\).</p><p>Volym: \\(\\frac{31\\,536\\,000}{20}=1\\,576\\,800\\) ml \\(\\approx1\\,577\\) liter.</p><p>1 577 liter är 1,577 m³, som kostar \\(1{,}577\\cdot45\\approx71\\) kr.</p><p>Varmvatten kostar mycket mer, eftersom det också ska värmas.</p><p><strong>Svar:</strong> cirka 1 577 liter, som kostar cirka 71 kr</p>",
+    "familj": "Mätning och enhetsomvandling",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många sekunder har ett år? Gå från droppar till ml, liter och kubikmeter.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1577,
+      71
+    ],
+    "tolerans": [
+      1,
+      1
+    ],
+    "svarEtiketter": [
+      "Volym",
+      "Kostnad"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "l",
+      "kr"
+    ]
   },
   {
     "id": "7.430",

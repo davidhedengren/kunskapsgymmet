@@ -96495,6 +96495,46 @@ window.BANK = [
     ]
   },
   {
+    "id": "5.365",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En fotboll med massan 0,45 kg kommer mot en spelare med farten 8,0 m/s. Spelaren sparkar tillbaka den i motsatt riktning med farten 20 m/s. Kontakttiden är 12 ms.</p><p><strong>a)</strong> Hur stor är medelkraften på bollen?</p><p><strong>b)</strong> Hur många gånger större är kraften än om bollen bara hade stoppats på samma tid?</p>",
+    "s": "<p>Välj positiv riktning bort från spelaren. Före: \\(v_1=-8{,}0\\) m/s. Efter: \\(v_2=+20\\) m/s.</p><p><strong>a)</strong> \\(\\Delta p=0{,}45\\cdot(20-(-8{,}0))=12{,}6\\) Ns. \\(F=\\frac{\\Delta p}{\\Delta t}=\\frac{12{,}6}{0{,}012}=1\\,050\\) N.</p><p><strong>b)</strong> Att bara stoppa bollen kräver \\(\\Delta p=0{,}45\\cdot8{,}0=3{,}6\\) Ns, alltså \\(F=300\\) N. Kvoten är \\(\\frac{1\\,050}{300}=3{,}5\\).</p><p>Riktningsbytet gör att hastighetsändringen blir \\(8+20=28\\) m/s, inte \\(20-8=12\\) m/s.</p><p><strong>Svar:</strong> a) cirka 1 050 N &nbsp; b) 3,5 gånger</p>",
+    "familj": "Impuls och medelkraft",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hastighet har riktning. Vad blir hastighetsändringen när bollen byter riktning?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1050,
+      3.5
+    ],
+    "tolerans": [
+      10,
+      0.05
+    ],
+    "svarEtiketter": [
+      "a) Medelkraft",
+      "b) Kvot"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "medelkraft vid riktningsbyte",
+    "svarEnhet": [
+      "N",
+      null
+    ]
+  },
+  {
     "id": "7.59",
     "kap": 7,
     "omr": "varme",
@@ -97806,6 +97846,32 @@ window.BANK = [
     "familjTidigare": [
       "Seriekoppling"
     ]
+  },
+  {
+    "id": "8.392",
+    "kap": 8,
+    "omr": "seriekoppling",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "t": "<p>Två resistorer, \\(R_1=2{,}0\\) kΩ och \\(R_2=3{,}0\\) kΩ, är seriekopplade till en spänningskälla på 10,0 V. Enligt spänningsdelning borde spänningen över \\(R_2\\) vara 6,0 V.</p><p>En voltmeter med den inre resistansen 3,0 kΩ kopplas parallellt med \\(R_2\\). Vad visar voltmetern? Svara med tre värdesiffror.</p>",
+    "s": "<p>Voltmetern och \\(R_2\\) bildar en parallellkoppling: \\(\\frac{1}{R_p}=\\frac1{3{,}0}+\\frac1{3{,}0}\\), alltså \\(R_p=1{,}5\\) kΩ.</p><p>Kretsen är nu \\(R_1\\) i serie med \\(R_p\\). Spänningsdelning:</p><p>\\[U=10{,}0\\cdot\\frac{1{,}5}{2{,}0+1{,}5}\\approx4{,}29\\text{ V}.\\]</p><p>Mätinstrumentet påverkar kretsen. En bra voltmeter ska ha mycket större resistans än det den mäter över.</p><p><strong>Svar:</strong> cirka 4,29 V</p>",
+    "familj": "Spänningsdelning i seriekoppling",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Voltmetern är en resistor parallellt med \\(R_2\\). Vad blir den nya ersättningsresistansen för den delen?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.285714285714286,
+    "tolerans": 0.01,
+    "svarEnhet": "V",
+    "typ": "voltmeterns inverkan på spänningsdelning"
   },
   {
     "id": "8.370",
@@ -106000,6 +106066,32 @@ window.BANK = [
     ]
   },
   {
+    "id": "3.362",
+    "kap": 3,
+    "omr": "st_diagram",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En bils läge beskrivs av \\(s(t)=0{,}8t^2\\) (meter, sekunder) under de första 10 sekunderna. s-t-diagrammet är alltså en parabel.</p><p>Vid vilken tidpunkt är bilens momentana hastighet lika med medelhastigheten under hela intervallet 0–10 s? Bestäm tangentens lutning.</p>",
+    "s": "<p>Medelhastigheten är lutningen på kordan mellan \\(t=0\\) och \\(t=10\\): \\(\\frac{80-0}{10}=8\\) m/s.</p><p>Med konstant acceleration ökar hastigheten jämnt: \\(v=at\\) med \\(a=1{,}6\\) m/s², eftersom \\(s=\\frac12at^2\\). \\(1{,}6t=8\\) ger \\(t=5\\) s.</p><p>Grafiskt: tangenten till parabeln i \\(t=5\\) s är parallell med kordan. Vid konstant acceleration inträffar det alltid mitt i tidsintervallet.</p><p><strong>Svar:</strong> vid \\(t=5\\) s</p>",
+    "familj": "Hastighet ur s-t-diagram",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Medelhastigheten är lutningen på linjen mellan start- och slutpunkt. Hur ändras hastigheten vid konstant acceleration?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarEnhet": "s",
+    "typ": "tangent parallell med korda"
+  },
+  {
     "id": "3.269",
     "kap": 3,
     "omr": "vt_diagram",
@@ -106322,6 +106414,46 @@ window.BANK = [
     "omrTidigare": "konstacc",
     "familjTidigare": [
       "Konstant acceleration"
+    ]
+  },
+  {
+    "id": "3.360",
+    "kap": 3,
+    "omr": "acceleration",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Bil B kör med den konstanta farten 20 m/s och passerar en stillastående bil A. Exakt 2,0 s senare startar bil A och accelererar med den konstanta accelerationen 2,5 m/s² i samma riktning.</p><p>Hur lång tid efter starten hinner A ikapp B, och hur långt från startpunkten sker det? Svara med tre värdesiffror.</p>",
+    "s": "<p>När A startar har B redan kört \\(20\\cdot2{,}0=40\\) m. Räkna tiden \\(t\\) från A:s start.</p><p>A: \\(s_A=\\frac12\\cdot2{,}5\\cdot t^2=1{,}25t^2\\). B: \\(s_B=40+20t\\).</p><p>Ikapp när \\(1{,}25t^2=40+20t\\Leftrightarrow t^2-16t-32=0\\Leftrightarrow t=8+\\sqrt{96}\\approx17{,}8\\) s. Den negativa roten saknar betydelse.</p><p>Sträcka: \\(s=1{,}25\\cdot17{,}80^2\\approx396\\) m. Kontroll: \\(40+20\\cdot17{,}80\\approx396\\) m.</p><p>A har då farten \\(2{,}5\\cdot17{,}8\\approx44\\) m/s, mer än dubbelt så fort som B. Det gäller alltid vid ikapphämtning från stillastående, eftersom A:s medelfart då måste vara lika med B:s fart.</p><p><strong>Svar:</strong> efter cirka 17,8 s, cirka 396 m från startpunkten</p>",
+    "familj": "Hastighet och tid vid konstant acceleration",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur långt före A ligger B när A startar? Ställ upp ett uttryck för varje bils position och sätt dem lika.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17.79795897113271,
+      395.95917942265424
+    ],
+    "tolerans": [
+      0.1,
+      2
+    ],
+    "svarEtiketter": [
+      "Tid",
+      "Sträcka"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "ikapphämtning med försprång",
+    "svarEnhet": [
+      "s",
+      "m"
     ]
   },
   {
@@ -112751,6 +112883,46 @@ window.BANK = [
     ]
   },
   {
+    "id": "6.367",
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En hydraulisk domkraft har en liten kolv med diametern 2,0 cm och en stor kolv med diametern 12 cm. En bil med massan 1 200 kg ska lyftas 15 cm med den stora kolven.</p><p><strong>a)</strong> Hur stor kraft behövs på den lilla kolven?</p><p><strong>b)</strong> Hur lång sträcka måste den lilla kolven tryckas in totalt? Svara i meter.</p>",
+    "s": "<p>Areorna förhåller sig som diametrarna i kvadrat: \\(\\left(\\frac{12}{2{,}0}\\right)^2=36\\).</p><p><strong>a)</strong> Trycket är lika i vätskan, så kraften blir 36 gånger mindre: \\(F=\\frac{1\\,200\\cdot9{,}82}{36}\\approx327\\) N.</p><p><strong>b)</strong> Den volym vätska som trycks ut från den lilla cylindern fyller den stora. Den lilla kolven måste därför röra sig 36 gånger längre: \\(36\\cdot0{,}15=5{,}4\\) m.</p><p>Arbetet blir lika stort på båda sidor: \\(327\\cdot5{,}4\\approx1\\,200\\cdot9{,}82\\cdot0{,}15\\approx1\\,770\\) J. Kraften minskar, men sträckan ökar lika mycket.</p><p><strong>Svar:</strong> a) cirka 327 N &nbsp; b) 5,4 m</p>",
+    "familj": "Hydraulik",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur förhåller sig kolvarnas areor? Tänk på att vätskevolymen som flyttas är densamma på båda sidor.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      327.3333333333333,
+      5.4
+    ],
+    "tolerans": [
+      2,
+      0.05
+    ],
+    "svarEtiketter": [
+      "a) Kraft",
+      "b) Sträcka"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "hydraulisk domkraft: kraft och sträcka",
+    "svarEnhet": [
+      "N",
+      "m"
+    ]
+  },
+  {
     "id": "6.354",
     "kap": 6,
     "omr": "vatsketryck",
@@ -117791,6 +117963,43 @@ window.BANK = [
     "geogebra": false
   },
   {
+    "id": "3.361",
+    "kap": 3,
+    "omr": "at_diagram",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En vagn startar från vila. Diagrammet visar dess acceleration \\(a\\) i m/s² som funktion av tiden \\(t\\) i sekunder. Efter 6 s är accelerationen \\(-2\\) m/s² tills vagnen står stilla.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"a-t-diagram: accelerationen är 3 m/s² från 0 till 4 s, 0 från 4 till 6 s och −2 m/s² efter 6 s\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"39.1\" y1=\"26\" x2=\"39.1\" y2=\"234\" stroke=\"#eceef2\"/><line x1=\"91.7\" y1=\"26\" x2=\"91.7\" y2=\"234\" stroke=\"#eceef2\"/><line x1=\"91.7\" y1=\"141.9\" x2=\"91.7\" y2=\"147.9\" stroke=\"#24262b\"/><text x=\"91.7\" y=\"159.9\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">2</text><line x1=\"144.3\" y1=\"26\" x2=\"144.3\" y2=\"234\" stroke=\"#eceef2\"/><line x1=\"144.3\" y1=\"141.9\" x2=\"144.3\" y2=\"147.9\" stroke=\"#24262b\"/><text x=\"144.3\" y=\"159.9\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">4</text><line x1=\"196.9\" y1=\"26\" x2=\"196.9\" y2=\"234\" stroke=\"#eceef2\"/><line x1=\"196.9\" y1=\"141.9\" x2=\"196.9\" y2=\"147.9\" stroke=\"#24262b\"/><text x=\"196.9\" y=\"159.9\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">6</text><line x1=\"249.4\" y1=\"26\" x2=\"249.4\" y2=\"234\" stroke=\"#eceef2\"/><line x1=\"249.4\" y1=\"141.9\" x2=\"249.4\" y2=\"147.9\" stroke=\"#24262b\"/><text x=\"249.4\" y=\"159.9\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">8</text><line x1=\"302.0\" y1=\"26\" x2=\"302.0\" y2=\"234\" stroke=\"#eceef2\"/><line x1=\"302.0\" y1=\"141.9\" x2=\"302.0\" y2=\"147.9\" stroke=\"#24262b\"/><text x=\"302.0\" y=\"159.9\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">10</text><line x1=\"354.6\" y1=\"26\" x2=\"354.6\" y2=\"234\" stroke=\"#eceef2\"/><line x1=\"354.6\" y1=\"141.9\" x2=\"354.6\" y2=\"147.9\" stroke=\"#24262b\"/><text x=\"354.6\" y=\"159.9\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">12</text><line x1=\"26\" y1=\"234.0\" x2=\"394\" y2=\"234.0\" stroke=\"#eceef2\"/><line x1=\"36.1\" y1=\"234.0\" x2=\"42.1\" y2=\"234.0\" stroke=\"#24262b\"/><text x=\"33.1\" y=\"238.0\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">−3</text><line x1=\"26\" y1=\"204.3\" x2=\"394\" y2=\"204.3\" stroke=\"#eceef2\"/><line x1=\"36.1\" y1=\"204.3\" x2=\"42.1\" y2=\"204.3\" stroke=\"#24262b\"/><text x=\"33.1\" y=\"208.3\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">−2</text><line x1=\"26\" y1=\"174.6\" x2=\"394\" y2=\"174.6\" stroke=\"#eceef2\"/><line x1=\"36.1\" y1=\"174.6\" x2=\"42.1\" y2=\"174.6\" stroke=\"#24262b\"/><text x=\"33.1\" y=\"178.6\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">−1</text><line x1=\"26\" y1=\"144.9\" x2=\"394\" y2=\"144.9\" stroke=\"#eceef2\"/><line x1=\"26\" y1=\"115.1\" x2=\"394\" y2=\"115.1\" stroke=\"#eceef2\"/><line x1=\"36.1\" y1=\"115.1\" x2=\"42.1\" y2=\"115.1\" stroke=\"#24262b\"/><text x=\"33.1\" y=\"119.1\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">1</text><line x1=\"26\" y1=\"85.4\" x2=\"394\" y2=\"85.4\" stroke=\"#eceef2\"/><line x1=\"36.1\" y1=\"85.4\" x2=\"42.1\" y2=\"85.4\" stroke=\"#24262b\"/><text x=\"33.1\" y=\"89.4\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">2</text><line x1=\"26\" y1=\"55.7\" x2=\"394\" y2=\"55.7\" stroke=\"#eceef2\"/><line x1=\"36.1\" y1=\"55.7\" x2=\"42.1\" y2=\"55.7\" stroke=\"#24262b\"/><text x=\"33.1\" y=\"59.7\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">3</text><line x1=\"26\" y1=\"26.0\" x2=\"394\" y2=\"26.0\" stroke=\"#eceef2\"/><line x1=\"36.1\" y1=\"26.0\" x2=\"42.1\" y2=\"26.0\" stroke=\"#24262b\"/><text x=\"33.1\" y=\"30.0\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">4</text><line x1=\"20\" y1=\"144.9\" x2=\"400\" y2=\"144.9\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M407 144.9 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><text x=\"398\" y=\"135.9\" font-family=\"Arial\" font-size=\"14\" font-style=\"italic\">t</text><line x1=\"39.1\" y1=\"240\" x2=\"39.1\" y2=\"20\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M39.1 13 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"48.1\" y=\"22\" font-family=\"Arial\" font-size=\"14\" font-style=\"italic\">a</text><line x1=\"39.1\" y1=\"55.7\" x2=\"144.3\" y2=\"55.7\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><line x1=\"144.3\" y1=\"144.9\" x2=\"196.9\" y2=\"144.9\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><line x1=\"196.9\" y1=\"204.3\" x2=\"380.9\" y2=\"204.3\" stroke=\"#2b6cb0\" stroke-width=\"3\"/></svg></div><p>Vid vilken tidpunkt står vagnen stilla igen, och hur lång sträcka har den då rullat?</p>",
+    "s": "<p>Arean under a-t-diagrammet är hastighetsändringen.</p><ul><li>0–4 s: \\(\\Delta v=3\\cdot4=12\\) m/s, så \\(v(4)=12\\) m/s.</li><li>4–6 s: \\(a=0\\), farten är kvar på 12 m/s.</li><li>Efter 6 s: farten minskar med 2 m/s varje sekund. Den är 0 efter \\(\\frac{12}{2}=6\\) s, alltså vid \\(t=12\\) s.</li></ul><p>Sträckan är arean under v-t-diagrammet:</p><p>\\(0\\)–\\(4\\) s: \\(\\frac{4\\cdot12}{2}=24\\) m. \\(4\\)–\\(6\\) s: \\(2\\cdot12=24\\) m. \\(6\\)–\\(12\\) s: \\(\\frac{6\\cdot12}{2}=36\\) m.</p><p>Totalt 84 m.</p><p><strong>Svar:</strong> vid \\(t=12\\) s, efter 84 m</p>",
+    "familj": "Hastighetsändring ur a-t-diagram",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vad betyder arean under ett a-t-diagram? Rita sedan ett v-t-diagram och använd arean under det.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      84
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Tidpunkt",
+      "Sträcka"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "från a-t till v-t och sträcka",
+    "svarEnhet": [
+      "s",
+      "m"
+    ]
+  },
+  {
     "id": "4.455",
     "kap": 4,
     "omr": "newton3",
@@ -118472,6 +118681,46 @@ window.BANK = [
     "svarEnhet": "m/s²"
   },
   {
+    "id": "4.498",
+    "kap": 4,
+    "omr": "tyngdkraft",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Ett föremål hängs i en fjädervåg på jorden, och fjädervågen visar 4,90 N. På månen är tyngdaccelerationen 1,62 m/s².</p><p><strong>a)</strong> Vad visar fjädervågen på månen?</p><p><strong>b)</strong> Föremålet vägs i stället på en balansvåg, där det jämförs med vikter. Vilken massa visar balansvågen på månen? Svara med tre decimaler.</p>",
+    "s": "<p>Massan är \\(m=\\frac{4{,}90}{9{,}82}\\approx0{,}499\\) kg.</p><p><strong>a)</strong> En fjädervåg mäter tyngdkraften: \\(F=0{,}499\\cdot1{,}62\\approx0{,}81\\) N.</p><p><strong>b)</strong> En balansvåg jämför föremålet med vikter. Både föremålet och vikterna blir lika mycket lättare, så balansvågen visar fortfarande massan 0,499 kg.</p><p><strong>Svar:</strong> a) cirka 0,81 N &nbsp; b) cirka 0,499 kg</p>",
+    "familj": "Massa och tyngd",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken storhet ändras när man flyttar föremålet till månen: massan eller tyngden? Vad jämför en balansvåg?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8083503054989818,
+      0.49898167006109984
+    ],
+    "tolerans": [
+      0.01,
+      0.001
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "fjädervåg och balansvåg på månen",
+    "svarEnhet": [
+      "N",
+      "kg"
+    ]
+  },
+  {
     "id": "4.475",
     "kap": 4,
     "omr": "normalkraft",
@@ -118770,6 +119019,32 @@ window.BANK = [
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s²"
+  },
+  {
+    "id": "4.497",
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En person med massan 70 kg står på en personvåg i en hiss. Hissen startar uppåt och accelererar med 1,5 m/s² i 2,0 s. Sedan åker den med konstant fart och bromsar till slut in jämnt under 3,0 s.</p><p>Vilken massa visar vågen under inbromsningen? Svara med en decimal.</p>",
+    "s": "<p>Farten efter accelerationen: \\(1{,}5\\cdot2{,}0=3{,}0\\) m/s. Inbromsningen till 0 på 3,0 s ger accelerationen \\(-1{,}0\\) m/s², riktad nedåt.</p><p>Newtons andra lag uppåt: \\(N-mg=ma\\), så \\(N=m(g+a)=70(9{,}82-1{,}0)=617{,}4\\) N.</p><p>Vågen räknar om kraften till massa med \\(g\\): \\(\\frac{617{,}4}{9{,}82}\\approx62{,}9\\) kg.</p><p>Personen känner sig lättare medan hissen bromsar på väg uppåt.</p><p><strong>Svar:</strong> cirka 62,9 kg</p>",
+    "familj": "Normalkraft i hiss",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först farten och sedan inbromsningens acceleration med riktning. Vad visar en våg: massa eller kraft?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 62.87169042769857,
+    "tolerans": 0.1,
+    "svarEnhet": "kg",
+    "typ": "vågutslag vid inbromsning uppåt"
   },
   {
     "id": "4.485",
@@ -119256,6 +119531,42 @@ window.BANK = [
     "geogebra": false
   },
   {
+    "id": "8.391",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En liten metallkula har laddningen \\(-4{,}8\\) nC. Den får nudda en identisk oladdad metallkula, och laddningen fördelas lika mellan kulorna.</p><p><strong>a)</strong> Hur många extra elektroner hade den första kulan från början?</p><p><strong>b)</strong> Hur många elektroner gick över till den andra kulan?</p><p>Svara i grundpotensform med två värdesiffror. Elementarladdningen är \\(1{,}602\\cdot10^{-19}\\) C.</p>",
+    "s": "<p><strong>a)</strong> \\(n=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\) elektroner.</p><p><strong>b)</strong> Efteråt har varje kula \\(-2{,}4\\) nC. Hälften av elektronöverskottet har flyttat: \\(1{,}5\\cdot10^{10}\\) elektroner.</p><p>Det är bara elektroner som flyttar sig i en metall. De positiva atomkärnorna sitter kvar.</p><p><strong>Svar:</strong> a) cirka \\(3{,}0\\cdot10^{10}\\) &nbsp; b) cirka \\(1{,}5\\cdot10^{10}\\)</p>",
+    "familj": "Laddning och elementarladdning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många elementarladdningar ryms i 4,8 nC? Hur stor laddning har varje kula efteråt?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29962546816.4794,
+      14981273408.2397
+    ],
+    "tolerans": [
+      600000000.0,
+      300000000.0
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "antal elektroner vid laddningsfördelning"
+  },
+  {
     "id": "8.377",
     "kap": 8,
     "omr": "strom",
@@ -119615,6 +119926,32 @@ window.BANK = [
     "spel": true,
     "miniräknare": false,
     "geogebra": false
+  },
+  {
+    "id": "8.393",
+    "kap": 8,
+    "omr": "strom",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En koppartråd har tvärsnittsarean 1,5 mm² och leder strömmen 10 A. I koppar finns ungefär \\(8{,}5\\cdot10^{28}\\) fria elektroner per m³.</p><p>Strömmen kan skrivas \\(I=n\\,A\\,v\\,e\\), där \\(v\\) är elektronernas medelfart längs tråden. Hur stor är \\(v\\)? Svara i mm/s med två värdesiffror.</p>",
+    "s": "<p>\\[v=\\frac{I}{nAe}=\\frac{10}{8{,}5\\cdot10^{28}\\cdot1{,}5\\cdot10^{-6}\\cdot1{,}602\\cdot10^{-19}}\\approx4{,}9\\cdot10^{-4}\\text{ m/s}.\\]</p><p>Det är cirka 0,49 mm/s, alltså långsammare än en snigel.</p><p>Ändå tänds lampan direkt när man slår på strömbrytaren. Det är det elektriska fältet som sprids nästan med ljusets hastighet, och elektronerna i hela tråden börjar röra sig samtidigt.</p><p><strong>Svar:</strong> cirka 0,49 mm/s</p>",
+    "familj": "Ström och laddning i kretsar",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Lös ut \\(v\\) och tänk på enheterna: 1 mm² är \\(10^{-6}\\) m².</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.48958409830848704,
+    "tolerans": 0.01,
+    "svarEnhet": "mm/s",
+    "typ": "elektronernas driftfart"
   },
   {
     "id": "9.261",
@@ -120416,6 +120753,31 @@ window.BANK = [
     "spel": true,
     "miniräknare": false,
     "geogebra": false
+  },
+  {
+    "id": "9.326",
+    "kap": 9,
+    "omr": "fyra_krafterna",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Jämför den elektriska kraften med gravitationskraften mellan två protoner på avståndet \\(r\\) från varandra.</p><p>Använd \\(F_e=k\\dfrac{e^2}{r^2}\\) och \\(F_g=G\\dfrac{m_p^2}{r^2}\\) med \\(k=8{,}99\\cdot10^9\\) Nm²/C², \\(e=1{,}602\\cdot10^{-19}\\) C, \\(G=6{,}67\\cdot10^{-11}\\) Nm²/kg² och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Beräkna kvoten \\(F_e/F_g\\). Svara i grundpotensform med två värdesiffror.</p>",
+    "s": "<p>Avståndet \\(r\\) tar ut sig självt, eftersom båda krafterna är proportionella mot \\(\\frac1{r^2}\\):</p><p>\\[\\frac{F_e}{F_g}=\\frac{ke^2}{Gm_p^2}=\\frac{8{,}99\\cdot10^9\\cdot(1{,}602\\cdot10^{-19})^2}{6{,}67\\cdot10^{-11}\\cdot(1{,}673\\cdot10^{-27})^2}\\approx1{,}2\\cdot10^{36}.\\]</p><p>Gravitationen är alltså helt försumbar mellan enskilda partiklar. Den dominerar ändå för planeter och stjärnor, eftersom stora kroppar är nästan elektriskt neutrala medan massorna adderas.</p><p><strong>Svar:</strong> cirka \\(1{,}2\\cdot10^{36}\\)</p>",
+    "familj": "De fyra fundamentala krafterna",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ställ upp kvoten. Vad händer med \\(r^2\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2358535214253614e+36,
+    "tolerans": 6e+34,
+    "typ": "jämför elektrisk kraft och gravitation"
   },
   {
     "id": "9.281",
@@ -122035,6 +122397,46 @@ window.BANK = [
     "spel": true,
     "miniräknare": false,
     "geogebra": false
+  },
+  {
+    "id": "4.496",
+    "kap": 4,
+    "omr": "newton3",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Två lådor står i kontakt med varandra på ett friktionsfritt golv. Låda 1 väger 4,0 kg och låda 2 väger 6,0 kg.</p><p><strong>a)</strong> Du skjuter på låda 1 med en vågrät kraft på 20 N, så att den trycker låda 2 framför sig. Hur stor kraft verkar mellan lådorna?</p><p><strong>b)</strong> Du skjuter i stället på låda 2 från andra hållet med 20 N. Hur stor blir kraften mellan lådorna nu?</p>",
+    "s": "<p>Båda lådorna får samma acceleration: \\(a=\\frac{20}{4{,}0+6{,}0}=2{,}0\\) m/s².</p><p><strong>a)</strong> Den enda vågräta kraften på låda 2 är kraften från låda 1: \\(F=6{,}0\\cdot2{,}0=12\\) N. Enligt tredje lagen trycker låda 2 tillbaka på låda 1 med 12 N.</p><p><strong>b)</strong> Nu är det låda 1 som bara påverkas av kontaktkraften: \\(F=4{,}0\\cdot2{,}0=8{,}0\\) N.</p><p>Kontaktkraften blir större när den ska accelerera den tyngre lådan.</p><p><strong>Svar:</strong> a) 12 N &nbsp; b) 8,0 N</p>",
+    "familj": "Tredje lagen och rörelse",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först den gemensamma accelerationen. Frilägg sedan den låda som bara påverkas av kontaktkraften.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      8
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "kontaktkraft mellan lådor",
+    "svarEnhet": [
+      "N",
+      "N"
+    ]
   },
   {
     "id": "5.358",

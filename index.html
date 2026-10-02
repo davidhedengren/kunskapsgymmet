@@ -3132,12 +3132,13 @@ button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
 #hitta-sok{width:100%;min-width:0}
 .aklass-elev.avstangd{opacity:.6}
 /* ===== Hjälpmedel: formelblad och miniräknare ===== */
-.hmknapp{width:auto;padding:0 12px;display:flex;align-items:center;gap:7px;font:600 13px var(--ui);cursor:pointer;flex:none}
+.hm-grupp{margin-left:auto;display:flex;gap:8px;align-items:center}
+.hm-grupp:empty{display:none}
+.hmknapp{display:inline-flex;align-items:center;gap:7px}
 .hmknapp svg{width:18px;height:18px;flex:none}
 .hmknapp.pa{background:var(--accSoft);color:var(--accInk);border-color:transparent}
-@media(max-width:760px){
-  .hmknapp{width:38px;padding:0;justify-content:center}
-  .hmknapp span{display:none}
+@media(max-width:640px){
+  .hm-grupp{flex:1 0 100%;justify-content:flex-end}
 }
 .hjalppanel{
   position:fixed;top:0;right:0;bottom:0;width:var(--hpw,480px);z-index:60;
@@ -3150,14 +3151,18 @@ button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
 .hp-drag:hover,.hjalppanel.drar .hp-drag{background:linear-gradient(90deg,transparent 4px,var(--acc) 4px,var(--acc) 6px,transparent 6px)}
 @media(min-width:1000px){
   body.hjalp-oppen #app{padding-right:var(--hpw,480px)}
+  /* Bara miniräknaren: panelen svävar som ett kort. */
+  .hjalppanel:not(.med-formel){top:84px;right:16px;bottom:auto;width:min(var(--hpw,480px),440px);
+    border:1px solid var(--hair);border-radius:28px;overflow:hidden}
+  .hjalppanel:not(.med-formel) .hp-raknare{border-bottom:0}
+  .hjalppanel:not(.med-formel) .hp-drag{display:none}
+  body.hjalp-oppen:not(:has(.hjalppanel.med-formel)) #app{padding-right:min(var(--hpw,480px),456px)}
 }
 .hp-topp{display:flex;align-items:center;gap:8px;padding:12px 14px 10px}
 .hp-topp .spacer{flex:1}
 .hp-titel{display:grid;min-width:0}
 .hp-titel small{font-size:12px;color:var(--ink3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .hp-liten,.hp-stang{width:32px;height:32px;border-radius:10px;font-size:15px;text-decoration:none;flex:none}
-.hp-lage{border:1px solid var(--hair);background:var(--surface2);color:var(--ink2);border-radius:9px;
-  padding:4px 9px;font:600 12px var(--ui);cursor:pointer}
 .hp-not{margin:0 14px 8px;font-size:12.5px;color:var(--ink3)}
 .hp-not[hidden]{display:none}
 .hp-raknare{flex:none;border-bottom:1px solid var(--hair)}
@@ -3167,39 +3172,92 @@ button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
 .hp-sidor canvas{display:block;margin:10px auto 0;border-radius:6px;background:#fff;box-shadow:var(--e1)}
 .hp-sidor .empty{padding:24px 8px;text-align:center;color:var(--ink3);font-size:13.5px}
 
-.rk-skarm{margin:0 14px;padding:8px 12px 6px;border-radius:14px;background:var(--surface2);border:1px solid var(--hair)}
-.rk-hist{max-height:62px;overflow:auto;display:grid;gap:1px;justify-items:end}
+/* ── Miniräknaren: en fysisk apparat med upphöjda tangenter ── */
+.hp-raknare{
+  --rk-font:-apple-system,"SF Pro Display","SF Pro Text",var(--ui);
+  --rk-kropp:linear-gradient(180deg,#FDFEFF 0%,#EEF1F6 55%,#E6EAF1 100%);
+  --rk-kant:inset 0 1px 0 rgba(255,255,255,.95),inset 0 0 0 1px rgba(20,35,60,.06);
+  --rk-skugga:0 1px 2px rgba(20,35,60,.08),0 10px 22px -10px rgba(20,35,60,.28),0 30px 50px -30px rgba(20,35,60,.35);
+  --rk-skarm:linear-gradient(180deg,#E3E9F1 0%,#F3F6FA 100%);
+  --rk-skarm-s:inset 0 2px 5px rgba(20,35,60,.14),inset 0 0 0 1px rgba(20,35,60,.07),0 1px 0 rgba(255,255,255,.9);
+  --rk-ink:#0D131C;--rk-ink2:#5A6575;
+  --rk-tal:linear-gradient(180deg,#FFFFFF 0%,#F2F4F8 100%);--rk-tal-ink:#0D131C;
+  --rk-fn:linear-gradient(180deg,#EDF0F5 0%,#DFE4EC 100%);--rk-fn-ink:#3A4657;
+  --rk-ljus:linear-gradient(180deg,#D8DDE5 0%,#C6CDD8 100%);--rk-ljus-ink:#141A22;
+  --rk-op:linear-gradient(180deg,#FFB547 0%,#FF9500 100%);--rk-op-ink:#fff;
+  --rk-topp:rgba(255,255,255,.9);--rk-botten:rgba(20,35,60,.10);
+  --rk-tskugga:0 1px 1px rgba(20,35,60,.10),0 4px 9px -4px rgba(20,35,60,.30);
+}
+html[data-theme="dark"] .hp-raknare{
+  --rk-kropp:linear-gradient(180deg,#2A303B 0%,#1C2028 55%,#15181E 100%);
+  --rk-kant:inset 0 1px 0 rgba(255,255,255,.09),inset 0 0 0 1px rgba(255,255,255,.04);
+  --rk-skugga:0 1px 2px rgba(0,0,0,.4),0 12px 26px -10px rgba(0,0,0,.6),0 30px 60px -30px rgba(0,0,0,.8);
+  --rk-skarm:linear-gradient(180deg,#07090D 0%,#10141B 100%);
+  --rk-skarm-s:inset 0 2px 7px rgba(0,0,0,.75),inset 0 0 0 1px rgba(255,255,255,.035),0 1px 0 rgba(255,255,255,.06);
+  --rk-ink:#F5F7FA;--rk-ink2:#8E99A8;
+  --rk-tal:linear-gradient(180deg,#434A57 0%,#323843 100%);--rk-tal-ink:#F5F7FA;
+  --rk-fn:linear-gradient(180deg,#2E343E 0%,#232830 100%);--rk-fn-ink:#C8D0DC;
+  --rk-ljus:linear-gradient(180deg,#C3C8D0 0%,#A6ACB6 100%);--rk-ljus-ink:#0D1117;
+  --rk-topp:rgba(255,255,255,.16);--rk-botten:rgba(0,0,0,.38);
+  --rk-tskugga:0 1px 1px rgba(0,0,0,.45),0 5px 10px -4px rgba(0,0,0,.7);
+}
+.rk-seg{position:relative;display:grid;grid-template-columns:1fr 1fr;padding:2px;border-radius:10px;
+  background:var(--surface2);box-shadow:inset 0 0 0 1px var(--hair),inset 0 1px 2px rgba(0,0,0,.06)}
+.rk-seg:before{content:"";position:absolute;top:2px;bottom:2px;left:2px;width:calc(50% - 2px);border-radius:8px;
+  background:var(--surface);box-shadow:0 1px 2px rgba(0,0,0,.12),0 3px 8px -3px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.5);
+  transition:transform .28s var(--ease)}
+.rk-seg.rad:before{transform:translateX(100%)}
+.rk-seg button{position:relative;border:0;background:none;padding:4px 10px;font:600 12px var(--rk-font);
+  color:var(--ink3);cursor:pointer;transition:color .2s}
+.rk-seg button[aria-pressed="true"]{color:var(--ink)}
+
+.rk-kropp{margin:0 12px 14px;padding:12px;border-radius:26px;background:var(--rk-kropp);
+  box-shadow:var(--rk-kant),var(--rk-skugga)}
+.rk-skarm{padding:9px 14px 7px;border-radius:17px;background:var(--rk-skarm);box-shadow:var(--rk-skarm-s)}
+.rk-hist{max-height:58px;overflow:auto;display:grid;gap:1px;justify-items:end;scrollbar-width:none}
 .rk-hist:empty{display:none}
-.rk-hist button{all:unset;cursor:pointer;font:500 12.5px var(--read);color:var(--ink3);text-align:right;
-  max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.rk-hist button:hover b{color:var(--acc)}
-.rk-hist b{color:var(--ink2);font-weight:600}
-.rk-in{width:100%;border:0;background:transparent;color:var(--ink);font:500 21px var(--read);text-align:right;outline:none;padding:4px 0 2px}
+.rk-hist button{all:unset;cursor:pointer;font:400 12.5px var(--rk-font);color:var(--rk-ink2);text-align:right;
+  max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-variant-numeric:tabular-nums}
+.rk-hist b{font-weight:600;color:var(--rk-ink2)}
+.rk-hist button:hover b{color:#FF9500}
+.rk-in{width:100%;border:0;background:transparent;color:var(--rk-ink);font:300 30px/1.15 var(--rk-font);
+  letter-spacing:-.01em;text-align:right;outline:none;padding:2px 0 0;caret-color:#FF9500}
 .rk-res{min-height:26px;display:flex;justify-content:flex-end;align-items:center;gap:8px;
-  font:600 17px var(--read);color:var(--ink3)}
-.rk-res.klar{color:var(--ink)}
-.rk-res.fel{color:var(--bad);font-size:13.5px}
-.rk-infoga{border:0;border-radius:8px;padding:3px 8px;background:var(--accSoft);color:var(--accInk);font:600 12px var(--ui);cursor:pointer}
-.rk-tangenter{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;padding:10px 14px 14px}
-.rk-tangenter button{height:38px;min-width:0;border-radius:10px;border:1px solid var(--hair);background:var(--surface);
-  color:var(--ink);font:600 15px var(--read);cursor:pointer;transition:background .15s}
-.rk-tangenter button:hover{background:var(--surface2)}
-.rk-tangenter button:active{transform:translateY(1px)}
-.rk-tangenter .fn{font:600 12.5px var(--ui);color:var(--ink2);background:var(--surface2)}
-.rk-tangenter .op{background:var(--accSoft);color:var(--accInk);border-color:transparent;font-size:17px}
-.rk-tangenter .lika{grid-column:span 2;background:var(--acc);color:#fff;border-color:transparent;font-size:18px}
-.rk-tangenter .lika:hover{background:var(--acc2)}
+  font:500 18px var(--rk-font);color:var(--rk-ink2);font-variant-numeric:tabular-nums}
+.rk-res.klar{color:var(--rk-ink);font-weight:600}
+.rk-res.fel{color:#E5484D;font-size:13.5px}
+.rk-infoga{border:0;border-radius:999px;padding:4px 10px;font:600 12px var(--rk-font);cursor:pointer;
+  color:#fff;background:linear-gradient(180deg,#FFB547,#FF9500);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 2px 6px -2px rgba(255,140,0,.6)}
+.rk-tangenter{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:12px}
+.rk-tangenter button{
+  position:relative;height:44px;min-width:0;border:0;border-radius:14px;cursor:pointer;
+  background:var(--rk-tal);color:var(--rk-tal-ink);font:500 18px var(--rk-font);
+  box-shadow:inset 0 1px 0 var(--rk-topp),inset 0 -2px 0 var(--rk-botten),var(--rk-tskugga);
+  transition:transform .08s ease,box-shadow .08s ease,filter .15s ease;
+  -webkit-tap-highlight-color:transparent;
+}
+.rk-tangenter button:hover{filter:brightness(1.04)}
+.rk-tangenter button:active{transform:translateY(1.5px) scale(.98);filter:brightness(.95);
+  box-shadow:inset 0 1px 0 var(--rk-topp),inset 0 -1px 0 var(--rk-botten),0 1px 2px rgba(0,0,0,.18)}
+.rk-tangenter button:focus-visible{outline:2px solid #FF9500;outline-offset:2px}
+.rk-tangenter .fn{background:var(--rk-fn);color:var(--rk-fn-ink);font:500 13px var(--rk-font)}
+.rk-tangenter .ljus{background:var(--rk-ljus);color:var(--rk-ljus-ink);font-weight:600}
+.rk-tangenter .op,.rk-tangenter .lika{background:var(--rk-op);color:var(--rk-op-ink);font-size:22px;font-weight:500;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.5),inset 0 -2px 0 rgba(170,70,0,.35),0 1px 1px rgba(150,60,0,.25),0 5px 12px -5px rgba(255,140,0,.7)}
+.rk-tangenter .lika{grid-column:span 2}
 .rk-tangenter .noll{grid-column:span 2}
 
 @media(max-width:999px){
   .hjalppanel{top:auto;left:0;width:auto;height:auto;max-height:min(66vh,620px);overflow-y:auto;
     border-left:0;border-top:1px solid var(--hair);border-radius:22px 22px 0 0}
+  .hjalppanel.med-formel{height:min(66vh,620px)}
   .hp-drag{display:none}
   .hp-formel{flex:none}
   .hp-sidor{overflow:visible;min-height:200px}
-  .hjalppanel.med-formel{height:min(66vh,620px)}
   body.hjalp-oppen #app{padding-bottom:var(--hph,0px)}
-  .rk-tangenter button{height:36px}
+  .rk-tangenter{gap:7px}
+  .rk-tangenter button{height:40px}
 }
 </style>
 </head>
@@ -10672,7 +10730,6 @@ function renderTraining(){
         ${xpMeterHtml()}
         <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
-        ${hjalpKnappar(t)}
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
       <article class="task">
@@ -10692,6 +10749,7 @@ function renderTraining(){
                  <button class="btn" onclick="showSolution()">Visa lösning</button>`
               : `${t.ledtrad&&!state.hintVisible?`<button class="btn" id="ledtradknapp" onclick="visaLedtrad()">Visa ledtråd</button>`:""}
                  <button class="btn primary" onclick="showSolution()">Visa facit och jämför</button>`}
+            <span class="hm-grupp">${hjalpKnappar(t)}</span>
           </div>
           ${canAuto
             ? (layout.blandad
@@ -10910,7 +10968,6 @@ function renderAltTask(t){
         ${xpMeterHtml()}
         <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
-        ${hjalpKnappar(t)}
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
       <article class="task">
@@ -10925,6 +10982,7 @@ function renderAltTask(t){
             <button class="btn primary" id="altknapp" onclick="kollaAlt()" disabled>Kontrollera</button>
             ${t.ledtrad&&!state.hintVisible?`<button class="btn" id="ledtradknapp" onclick="visaLedtrad()">Visa ledtråd</button>`:""}
             <button class="btn" onclick="showSolution()">Visa svar</button>
+            <span class="hm-grupp">${hjalpKnappar(t)}</span>
           </div>
           <div id="answer-result" role="status" aria-live="polite"></div>
           <div id="solution-holder"></div>
@@ -13704,9 +13762,9 @@ const HJALP_IKON={
 /* Knapparna i uppgiftens topprad. */
 function hjalpKnappar(t){
   const k=[];
-  if(FORMELBLAD[state.course]) k.push(`<button class="iconbtn hmknapp${hjalp.formel?" pa":""}" data-hjalp="formel"
+  if(FORMELBLAD[state.course]) k.push(`<button class="btn hmknapp${hjalp.formel?" pa":""}" data-hjalp="formel"
       onclick="hjalpVaxla('formel')" title="Formelblad" aria-pressed="${hjalp.formel}">${HJALP_IKON.formel}<span>Formelblad</span></button>`);
-  if(t?.["miniräknare"]===true) k.push(`<button class="iconbtn hmknapp${hjalp.raknare?" pa":""}" data-hjalp="raknare"
+  if(t?.["miniräknare"]===true) k.push(`<button class="btn hmknapp${hjalp.raknare?" pa":""}" data-hjalp="raknare"
       onclick="hjalpVaxla('raknare')" title="Miniräknare" aria-pressed="${hjalp.raknare}">${HJALP_IKON.raknare}<span>Miniräknare</span></button>`);
   return k.join("");
 }
@@ -13759,16 +13817,19 @@ function hjalpSkapaPanel(){
     ["sin⁻¹","sin⁻¹(","fn"],["cos⁻¹","cos⁻¹(","fn"],["tan⁻¹","tan⁻¹(","fn"],["eˣ","e^(","fn"],["10ˣ","10^(","fn"],["x²","²","fn"],
     ["nCr"," nCr ","fn"],["nPr"," nPr ","fn"],["x!","!","fn"],["π","π","fn"],["e","e","fn"],["xʸ","^","fn"],
     ["7","7"],["8","8"],["9","9"],["(","("],[")",")"],["÷","÷","op"],
-    ["4","4"],["5","5"],["6","6"],["⌫","bak","fn"],["C","rensa","fn"],["×","×","op"],
+    ["4","4"],["5","5"],["6","6"],["⌫","bak","ljus"],["C","rensa","ljus"],["×","×","op"],
     ["1","1"],["2","2"],["3","3"],["Ans","Ans","fn"],["×10ⁿ","·10^(","fn"],["−","−","op"],
     ["0","0","noll"],[",",","],["=","lika","lika"],["+","+","op"]
   ];
   p.innerHTML=`<div class="hp-drag" title="Dra för att ändra bredden" aria-hidden="true"></div>
     <section class="hp-raknare" id="hp-raknare" hidden aria-label="Miniräknare">
       <div class="hp-topp"><b>Miniräknare</b>
-        <button class="hp-lage" id="rk-lage" onclick="raknVaxlaLage()" title="Vinkelenhet">${hjalp.grader?"Grader":"Radianer"}</button>
+        <div class="rk-seg${hjalp.grader?"":" rad"}" id="rk-lage" role="group" aria-label="Vinkelenhet">
+          <button type="button" onclick="raknVaxlaLage(true)" aria-pressed="${hjalp.grader}">Grader</button>
+          <button type="button" onclick="raknVaxlaLage(false)" aria-pressed="${!hjalp.grader}">Radianer</button></div>
         <span class="spacer"></span>
         <button class="iconbtn hp-stang" onclick="hjalpVaxla('raknare')" aria-label="Stäng miniräknaren">✕</button></div>
+      <div class="rk-kropp">
       <div class="rk-skarm">
         <div class="rk-hist" id="rk-hist"></div>
         <input id="rk-in" class="rk-in" autocomplete="off" spellcheck="false" aria-label="Uträkning"
@@ -13777,6 +13838,7 @@ function hjalpSkapaPanel(){
       </div>
       <div class="rk-tangenter">${tang.map(([txt,v,kl])=>
         `<button type="button" class="${kl||""}" data-v="${esc(v)}">${txt}</button>`).join("")}</div>
+      </div>
     </section>
     <section class="hp-formel" id="hp-formel" hidden aria-label="Formelblad">
       <div class="hp-topp"><span class="hp-titel"><b>Formelblad</b><small id="hp-formelnamn"></small></span>
@@ -13889,9 +13951,11 @@ async function formelRita(){
    underförstådd multiplikation (2π, 3(4+1), 2sin(30)) och stänger parenteser
    som saknas i slutet. */
 const rk={ans:0,klar:false,hist:[]};
-function raknVaxlaLage(){
-  hjalp.grader=!hjalp.grader; hjalpSpara();
-  const b=document.getElementById("rk-lage"); if(b) b.textContent=hjalp.grader?"Grader":"Radianer";
+function raknVaxlaLage(grader){
+  hjalp.grader=!!grader; hjalpSpara();
+  const g=document.getElementById("rk-lage");
+  if(g){ g.classList.toggle("rad",!grader);
+    g.querySelectorAll("button").forEach((b,i)=>b.setAttribute("aria-pressed",String(i===0?!!grader:!grader))); }
   raknForhands();
 }
 function raknTangent(v){

@@ -34199,6 +34199,996 @@ window.BANKMATF1 = [
     "traningsniva": 3
   },
   {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "binomialfördelning med tärning",
+    "poang": "3/2/0",
+    "t": "<p>En vanlig tärning kastas 4 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att få fyra ettor?</li><li>Hur stor är sannolikheten att få exakt tre ettor?</li><li>Hur stor är sannolikheten att få exakt två ettor?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\left(\\dfrac16\\right)^4=\\dfrac{1}{1\\,296}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{1296}\\approx7{,}72\\cdot10^{-4}\\)</p></li><li><p>Den kast som inte blir etta kan vara vilket som helst av de fyra: \\(\\binom43\\left(\\dfrac16\\right)^3\\cdot\\dfrac56=\\dfrac{20}{1\\,296}=\\dfrac{5}{324}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{324}\\approx0{,}0154\\)</p></li><li><p>\\(\\binom42\\left(\\dfrac16\\right)^2\\left(\\dfrac56\\right)^2=6\\cdot\\dfrac{25}{1\\,296}=\\dfrac{150}{1\\,296}=\\dfrac{25}{216}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{25}{216}\\approx0{,}116\\)</p></li></ol>",
+    "id": "1.712",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/1296",
+      "5/324",
+      "25/216"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En vanlig tärning kastas 4 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att få fyra ettor?",
+        "t": "<p>En vanlig tärning kastas 4 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få fyra ettor?</p>",
+        "s": "<p>\\(\\left(\\dfrac16\\right)^4=\\dfrac{1}{1\\,296}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1}{1296}\\approx7{,}72\\cdot10^{-4}\\)</p>",
+        "ledtrad": "<p>Alla fyra kasten ska bli etta.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att få exakt tre ettor?",
+        "t": "<p>En vanlig tärning kastas 4 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt tre ettor?</p>",
+        "s": "<p>Den kast som inte blir etta kan vara vilket som helst av de fyra: \\(\\binom43\\left(\\dfrac16\\right)^3\\cdot\\dfrac56=\\dfrac{20}{1\\,296}=\\dfrac{5}{324}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{5}{324}\\approx0{,}0154\\)</p>",
+        "ledtrad": "<p>Vilket kast är inte en etta? Använd \\(\\binom nk p^k(1-p)^{n-k}\\).</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att få exakt två ettor?",
+        "t": "<p>En vanlig tärning kastas 4 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt två ettor?</p>",
+        "s": "<p>\\(\\binom42\\left(\\dfrac16\\right)^2\\left(\\dfrac56\\right)^2=6\\cdot\\dfrac{25}{1\\,296}=\\dfrac{150}{1\\,296}=\\dfrac{25}{216}\\).</p><p><strong>Svar:</strong> \\(\\dfrac{25}{216}\\approx0{,}116\\)</p>",
+        "ledtrad": "<p>På hur många sätt kan de två ettorna fördelas på fyra kast?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Sannolikheten för exakt \\(k\\) lyckade av \\(n\\) är \\(\\binom nk p^k(1-p)^{n-k}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "beräkna binomialsannolikheter",
+    "poang": "2/1/0",
+    "t": "<p>En slumpvariabel är binomialfördelad med \\(n\\) försök och sannolikheten \\(p\\) att lyckas i varje försök.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Beräkna \\(P(X=3)\\) när \\(n=9\\) och \\(p=0{,}4\\).</li><li>Beräkna \\(P(X=6)\\) när \\(n=16\\) och \\(p=0{,}3\\).</li><li>Beräkna \\(P(X\\ge2)\\) när \\(n=20\\) och \\(p=0{,}25\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\binom93\\cdot0{,}4^3\\cdot0{,}6^6=84\\cdot0{,}064\\cdot0{,}046656\\approx0{,}251\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}251\\)</p></li><li><p>\\(\\binom{16}{6}\\cdot0{,}3^6\\cdot0{,}7^{10}\\approx0{,}165\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}165\\)</p></li><li><p>\\(P(X\\ge2)=1-P(0)-P(1)=1-0{,}75^{20}-20\\cdot0{,}25\\cdot0{,}75^{19}\\approx0{,}976\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}976\\)</p></li></ol>",
+    "id": "1.713",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "489888/1953125",
+      "0.1649043048",
+      "0.9756873751"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En slumpvariabel är binomialfördelad med \\(n\\) försök och sannolikheten \\(p\\) att lyckas i varje försök.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna \\(P(X=3)\\) när \\(n=9\\) och \\(p=0{,}4\\).",
+        "t": "<p>En slumpvariabel är binomialfördelad med \\(n\\) försök och sannolikheten \\(p\\) att lyckas i varje försök.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Beräkna \\(P(X=3)\\) när \\(n=9\\) och \\(p=0{,}4\\).</p>",
+        "s": "<p>\\(\\binom93\\cdot0{,}4^3\\cdot0{,}6^6=84\\cdot0{,}064\\cdot0{,}046656\\approx0{,}251\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}251\\)</p>",
+        "ledtrad": "<p>Sätt in i \\(\\binom nk p^k(1-p)^{n-k}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna \\(P(X=6)\\) när \\(n=16\\) och \\(p=0{,}3\\).",
+        "t": "<p>En slumpvariabel är binomialfördelad med \\(n\\) försök och sannolikheten \\(p\\) att lyckas i varje försök.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Beräkna \\(P(X=6)\\) när \\(n=16\\) och \\(p=0{,}3\\).</p>",
+        "s": "<p>\\(\\binom{16}{6}\\cdot0{,}3^6\\cdot0{,}7^{10}\\approx0{,}165\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}165\\)</p>",
+        "ledtrad": "<p>Sätt in i formeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna \\(P(X\\ge2)\\) när \\(n=20\\) och \\(p=0{,}25\\).",
+        "t": "<p>En slumpvariabel är binomialfördelad med \\(n\\) försök och sannolikheten \\(p\\) att lyckas i varje försök.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Beräkna \\(P(X\\ge2)\\) när \\(n=20\\) och \\(p=0{,}25\\).</p>",
+        "s": "<p>\\(P(X\\ge2)=1-P(0)-P(1)=1-0{,}75^{20}-20\\cdot0{,}25\\cdot0{,}75^{19}\\approx0{,}976\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}976\\)</p>",
+        "ledtrad": "<p>Använd komplementet: vilka utfall uppfyller inte villkoret?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "minst och högst med tärning",
+    "poang": "2/2/0",
+    "t": "<p>En vanlig tärning kastas 10 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att få exakt 2 sexor?</li><li>Hur stor är sannolikheten att få högst en sexa?</li><li>Hur stor är sannolikheten att få minst 2 sexor?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\binom{10}{2}\\left(\\dfrac16\\right)^2\\left(\\dfrac56\\right)^8\\approx0{,}291\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}291\\)</p></li><li><p>\\(P(0)+P(1)=\\left(\\dfrac56\\right)^{10}+10\\cdot\\dfrac16\\left(\\dfrac56\\right)^9\\approx0{,}485\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}485\\)</p></li><li><p>\\(1-P(0)-P(1)=1-\\left(\\dfrac56\\right)^{10}-10\\cdot\\dfrac16\\left(\\dfrac56\\right)^9\\approx0{,}515\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}515\\)</p></li></ol>",
+    "id": "1.714",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1953125/6718464",
+      "0.4845167487",
+      "0.5154832513"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En vanlig tärning kastas 10 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att få exakt 2 sexor?",
+        "t": "<p>En vanlig tärning kastas 10 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt 2 sexor?</p>",
+        "s": "<p>\\(\\binom{10}{2}\\left(\\dfrac16\\right)^2\\left(\\dfrac56\\right)^8\\approx0{,}291\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}291\\)</p>",
+        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att få högst en sexa?",
+        "t": "<p>En vanlig tärning kastas 10 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få högst en sexa?</p>",
+        "s": "<p>\\(P(0)+P(1)=\\left(\\dfrac56\\right)^{10}+10\\cdot\\dfrac16\\left(\\dfrac56\\right)^9\\approx0{,}485\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}485\\)</p>",
+        "ledtrad": "<p>”Högst en” betyder noll eller en.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att få minst 2 sexor?",
+        "t": "<p>En vanlig tärning kastas 10 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få minst 2 sexor?</p>",
+        "s": "<p>\\(1-P(0)-P(1)=1-\\left(\\dfrac56\\right)^{10}-10\\cdot\\dfrac16\\left(\\dfrac56\\right)^9\\approx0{,}515\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}515\\)</p>",
+        "ledtrad": "<p>Komplementet till ”minst 2” är ”högst 1”.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Varje kast är ett oberoende försök med \\(p=\\tfrac16\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "pröva en behandling",
+    "poang": "0/2/0",
+    "t": "<p>En sjukdom har dödligheten 80 %. I ett försök får 10 sjuka en ny medicin, och 7 av dem överlever.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att minst 7 av 10 sjuka skulle överleva utan medicin?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Utan medicin är överlevnaden \\(p=0{,}2\\). \\(P(X\\ge7)=\\sum_{k=7}^{10}\\binom{10}{k}0{,}2^k0{,}8^{10-k}\\approx0{,}00086\\).</p><p><strong>Svar:</strong> \\(\\approx8{,}64\\cdot10^{-4}\\)</p></li></ol><p>Sannolikheten är under 0,1 %. Utfallet är alltså mycket osannolikt om medicinen inte har effekt, vilket talar för att den fungerar.</p>",
+    "id": "1.715",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "8441/9765625"
+    ],
+    "tolerans": [
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sjukdom har dödligheten 80 %. I ett försök får 10 sjuka en ny medicin, och 7 av dem överlever.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att minst 7 av 10 sjuka skulle överleva utan medicin?",
+        "t": "<p>En sjukdom har dödligheten 80 %. I ett försök får 10 sjuka en ny medicin, och 7 av dem överlever.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst 7 av 10 sjuka skulle överleva utan medicin?</p>",
+        "s": "<p>Utan medicin är överlevnaden \\(p=0{,}2\\). \\(P(X\\ge7)=\\sum_{k=7}^{10}\\binom{10}{k}0{,}2^k0{,}8^{10-k}\\approx0{,}00086\\).</p><p><strong>Svar:</strong> \\(\\approx8{,}64\\cdot10^{-4}\\)</p>",
+        "ledtrad": "<p>Räkna \\(P(7)+P(8)+P(9)+P(10)\\) med \\(p=0{,}2\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Jämför med vad som skulle hända utan medicin.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "exakt k med tärningar",
+    "poang": "1/1/0",
+    "t": "<p>Man kastar 6 vanliga tärningar.</p><p>Hur stor är sannolikheten att få exakt 2 sexor?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>\\(\\binom62\\left(\\dfrac16\\right)^2\\left(\\dfrac56\\right)^4=15\\cdot\\dfrac{625}{46\\,656}=\\dfrac{9\\,375}{46\\,656}\\approx0{,}201\\).</p><p><strong>Svar:</strong> \\(\\dfrac{3125}{15552}\\approx0{,}201\\)</p>",
+    "id": "1.716",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "3125/15552",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Använd binomialformeln med \\(n=6\\).</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "träffsäker skytt",
+    "poang": "2/2/0",
+    "t": "<p>En bågskytt träffar mitten av tavlan med sannolikheten 80 % per pil, oberoende av de andra pilarna. Hon skjuter 7 pilar.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att hon träffar mitten med alla pilarna?</li><li>Hur stor är sannolikheten att hon träffar mitten minst en gång?</li><li>Hur stor är sannolikheten att hon träffar mitten minst 5 gånger?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}8^7\\approx0{,}210\\).</p><p><strong>Svar:</strong> \\(\\dfrac{16384}{78125}\\approx0{,}21\\)</p></li><li><p>\\(1-0{,}2^7\\approx0{,}99999\\).</p><p><strong>Svar:</strong> \\(\\dfrac{78124}{78125}\\approx1\\)</p></li><li><p>\\(P(5)+P(6)+P(7)=\\binom75 0{,}8^5 0{,}2^2+\\binom76 0{,}8^6 0{,}2+0{,}8^7\\approx0{,}852\\).</p><p><strong>Svar:</strong> \\(\\dfrac{13312}{15625}\\approx0{,}852\\)</p></li></ol>",
+    "id": "1.717",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "16384/78125",
+      "78124/78125",
+      "13312/15625"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bågskytt träffar mitten av tavlan med sannolikheten 80 % per pil, oberoende av de andra pilarna. Hon skjuter 7 pilar.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att hon träffar mitten med alla pilarna?",
+        "t": "<p>En bågskytt träffar mitten av tavlan med sannolikheten 80 % per pil, oberoende av de andra pilarna. Hon skjuter 7 pilar.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hon träffar mitten med alla pilarna?</p>",
+        "s": "<p>\\(0{,}8^7\\approx0{,}210\\).</p><p><strong>Svar:</strong> \\(\\dfrac{16384}{78125}\\approx0{,}21\\)</p>",
+        "ledtrad": "<p>Alla sju ska träffa.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att hon träffar mitten minst en gång?",
+        "t": "<p>En bågskytt träffar mitten av tavlan med sannolikheten 80 % per pil, oberoende av de andra pilarna. Hon skjuter 7 pilar.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hon träffar mitten minst en gång?</p>",
+        "s": "<p>\\(1-0{,}2^7\\approx0{,}99999\\).</p><p><strong>Svar:</strong> \\(\\dfrac{78124}{78125}\\approx1\\)</p>",
+        "ledtrad": "<p>Använd komplementet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att hon träffar mitten minst 5 gånger?",
+        "t": "<p>En bågskytt träffar mitten av tavlan med sannolikheten 80 % per pil, oberoende av de andra pilarna. Hon skjuter 7 pilar.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hon träffar mitten minst 5 gånger?</p>",
+        "s": "<p>\\(P(5)+P(6)+P(7)=\\binom75 0{,}8^5 0{,}2^2+\\binom76 0{,}8^6 0{,}2+0{,}8^7\\approx0{,}852\\).</p><p><strong>Svar:</strong> \\(\\dfrac{13312}{15625}\\approx0{,}852\\)</p>",
+        "ledtrad": "<p>Summera sannolikheterna för 5, 6 och 7 träffar.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Varje pil är ett oberoende försök.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "minst en via komplement",
+    "poang": "1/1/0",
+    "t": "<p>Sannolikheten att en fästing bär på borrelia är 10 %. Jesper hittar 4 fästingar på kroppen.</p><p>Hur stor är sannolikheten att minst en av dem bär på borrelia?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>\\(1-0{,}9^4=1-0{,}6561=0{,}3439\\).</p><p><strong>Svar:</strong> \\(\\dfrac{3439}{10000}\\approx0{,}344\\)</p>",
+    "id": "1.718",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "3439/10000",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Hur stor är sannolikheten att ingen bär på borrelia?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "blodgivare",
+    "poang": "1/2/0",
+    "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att exakt 4 av de 10 har blodgrupp 0?</li><li>Hur stor är sannolikheten att minst 4 av de 10 har blodgrupp 0?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\binom{10}{4}0{,}38^4\\,0{,}62^6\\approx0{,}249\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}249\\)</p></li><li><p>\\(1-P(0)-P(1)-P(2)-P(3)\\approx0{,}566\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}566\\)</p></li></ol>",
+    "id": "1.719",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "0.2487160537",
+      "0.5664030329"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att exakt 4 av de 10 har blodgrupp 0?",
+        "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att exakt 4 av de 10 har blodgrupp 0?</p>",
+        "s": "<p>\\(\\binom{10}{4}0{,}38^4\\,0{,}62^6\\approx0{,}249\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}249\\)</p>",
+        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att minst 4 av de 10 har blodgrupp 0?",
+        "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst 4 av de 10 har blodgrupp 0?</p>",
+        "s": "<p>\\(1-P(0)-P(1)-P(2)-P(3)\\approx0{,}566\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}566\\)</p>",
+        "ledtrad": "<p>Det är enklast att räkna komplementet: högst 3.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Antalet med blodgrupp 0 är binomialfördelat.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "pojkar och flickor",
+    "poang": "2/0/0",
+    "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att alla barnen är flickor?</li><li>Hur stor är sannolikheten att det är fem pojkar och fem flickor?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}48^{10}\\approx0{,}00065\\).</p><p><strong>Svar:</strong> \\(\\approx6{,}49\\cdot10^{-4}\\)</p></li><li><p>\\(\\binom{10}{5}0{,}52^5\\,0{,}48^5\\approx0{,}244\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}244\\)</p></li></ol>",
+    "id": "1.720",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "0.0006492506211",
+      "0.2441312899"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att alla barnen är flickor?",
+        "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att alla barnen är flickor?</p>",
+        "s": "<p>\\(0{,}48^{10}\\approx0{,}00065\\).</p><p><strong>Svar:</strong> \\(\\approx6{,}49\\cdot10^{-4}\\)</p>",
+        "ledtrad": "<p>Sannolikheten för flicka är \\(1-0{,}52\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att det är fem pojkar och fem flickor?",
+        "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att det är fem pojkar och fem flickor?</p>",
+        "s": "<p>\\(\\binom{10}{5}0{,}52^5\\,0{,}48^5\\approx0{,}244\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}244\\)</p>",
+        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Barnens kön är oberoende.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "exakt k defekta",
+    "poang": "1/1/0",
+    "t": "<p>I ett stort parti äpplen är 5 av 100 ruttna. Äpplena packas i påsar om 10.</p><p>Hur stor är sannolikheten att en påse innehåller exakt tre ruttna äpplen?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>\\(\\binom{10}{3}0{,}05^3\\,0{,}95^7\\approx0{,}010\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}0105\\)</p>",
+    "id": "1.721",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "0.01047505944",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Använd binomialformeln med \\(p=0{,}05\\).</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "kvalitetskontroll",
+    "poang": "1/1/0",
+    "t": "<p>En felinställd maskin gör 2 % trasiga säkringar. Varje timme kontrolleras 10 slumpvis valda säkringar, och hela timmens produktion kasseras om minst en är trasig.</p><p>Hur stor är sannolikheten att partiet kasseras vid nästa kontroll?</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "s": "<p>\\(1-0{,}98^{10}\\approx0{,}183\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}183\\)</p>",
+    "id": "1.722",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "numeriskt",
+    "rättSvar": "0.1829271931",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "sannolikhet",
+    "ledtrad": "<p>Vad är motsatsen till ”minst en trasig”?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "typ": "antal försök till fjärde lyckade",
+    "poang": "0/2/2",
+    "t": "<p>I ett rollspel måste Pelle träffa ett rep 4 gånger med ett slött svärd. Ett hugg träffar om han slår högst 3 med en tärning T20 (sidor 1–20), alltså med sannolikheten 0,15. Han hugger tills han har träffat 4 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att han lyckas på exakt 4 hugg?</li><li>Hur stor är sannolikheten att den fjärde träffen kommer på exakt det tionde hugget?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Alla fyra hugg ska träffa: \\(0{,}15^4\\approx0{,}00051\\).</p><p><strong>Svar:</strong> \\(\\approx5{,}06\\cdot10^{-4}\\)</p></li><li><p>Bland de nio första huggen ska det vara exakt 3 träffar, och det tionde ska träffa:</p><p>\\(\\binom93\\,0{,}15^3\\,0{,}85^6\\cdot0{,}15\\approx0{,}016\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}016\\)</p></li></ol>",
+    "id": "1.723",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "81/160000",
+      "0.01603828315"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I ett rollspel måste Pelle träffa ett rep 4 gånger med ett slött svärd. Ett hugg träffar om han slår högst 3 med en tärning T20 (sidor 1–20), alltså med sannolikheten 0,15. Han hugger tills han har träffat 4 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att han lyckas på exakt 4 hugg?",
+        "t": "<p>I ett rollspel måste Pelle träffa ett rep 4 gånger med ett slött svärd. Ett hugg träffar om han slår högst 3 med en tärning T20 (sidor 1–20), alltså med sannolikheten 0,15. Han hugger tills han har träffat 4 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att han lyckas på exakt 4 hugg?</p>",
+        "s": "<p>Alla fyra hugg ska träffa: \\(0{,}15^4\\approx0{,}00051\\).</p><p><strong>Svar:</strong> \\(\\approx5{,}06\\cdot10^{-4}\\)</p>",
+        "ledtrad": "<p>Vad måste hända i vart och ett av de fyra huggen?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att den fjärde träffen kommer på exakt det tionde hugget?",
+        "t": "<p>I ett rollspel måste Pelle träffa ett rep 4 gånger med ett slött svärd. Ett hugg träffar om han slår högst 3 med en tärning T20 (sidor 1–20), alltså med sannolikheten 0,15. Han hugger tills han har träffat 4 gånger.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att den fjärde träffen kommer på exakt det tionde hugget?</p>",
+        "s": "<p>Bland de nio första huggen ska det vara exakt 3 träffar, och det tionde ska träffa:</p><p>\\(\\binom93\\,0{,}15^3\\,0{,}85^6\\cdot0{,}15\\approx0{,}016\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}016\\)</p>",
+        "ledtrad": "<p>Vad måste gälla för de nio första huggen, och vad måste gälla för det tionde?</p>",
+        "niva": "A",
+        "poang": "0/1/2",
+        "traningsniva": 5
+      }
+    ],
+    "ledtrad": "<p>Den sista träffen kommer på det sista hugget.</p>",
+    "traningsniva": 5
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "läkemedel mot sjösjuka",
+    "poang": "2/1/0",
+    "t": "<p>Ett läkemedel mot sjösjuka gör att 75 % slipper bli sjösjuka. Sex personer som brukar bli sjösjuka tar medlet och åker båt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att ingen av dem blir sjösjuk?</li><li>Hur stor är sannolikheten att exakt 3 blir sjösjuka?</li><li>Hur stor är sannolikheten att minst 2 blir sjösjuka?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}75^6\\approx0{,}178\\).</p><p><strong>Svar:</strong> \\(\\dfrac{729}{4096}\\approx0{,}178\\)</p></li><li><p>\\(\\binom63\\,0{,}25^3\\,0{,}75^3\\approx0{,}132\\).</p><p><strong>Svar:</strong> \\(\\dfrac{135}{1024}\\approx0{,}132\\)</p></li><li><p>\\(1-P(0)-P(1)=1-0{,}75^6-6\\cdot0{,}25\\cdot0{,}75^5\\approx0{,}466\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1909}{4096}\\approx0{,}466\\)</p></li></ol>",
+    "id": "1.724",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "729/4096",
+      "135/1024",
+      "1909/4096"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett läkemedel mot sjösjuka gör att 75 % slipper bli sjösjuka. Sex personer som brukar bli sjösjuka tar medlet och åker båt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att ingen av dem blir sjösjuk?",
+        "t": "<p>Ett läkemedel mot sjösjuka gör att 75 % slipper bli sjösjuka. Sex personer som brukar bli sjösjuka tar medlet och åker båt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att ingen av dem blir sjösjuk?</p>",
+        "s": "<p>\\(0{,}75^6\\approx0{,}178\\).</p><p><strong>Svar:</strong> \\(\\dfrac{729}{4096}\\approx0{,}178\\)</p>",
+        "ledtrad": "<p>Alla sex ska slippa.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att exakt 3 blir sjösjuka?",
+        "t": "<p>Ett läkemedel mot sjösjuka gör att 75 % slipper bli sjösjuka. Sex personer som brukar bli sjösjuka tar medlet och åker båt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att exakt 3 blir sjösjuka?</p>",
+        "s": "<p>\\(\\binom63\\,0{,}25^3\\,0{,}75^3\\approx0{,}132\\).</p><p><strong>Svar:</strong> \\(\\dfrac{135}{1024}\\approx0{,}132\\)</p>",
+        "ledtrad": "<p>Sannolikheten att bli sjösjuk är 0,25.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att minst 2 blir sjösjuka?",
+        "t": "<p>Ett läkemedel mot sjösjuka gör att 75 % slipper bli sjösjuka. Sex personer som brukar bli sjösjuka tar medlet och åker båt.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst 2 blir sjösjuka?</p>",
+        "s": "<p>\\(1-P(0)-P(1)=1-0{,}75^6-6\\cdot0{,}25\\cdot0{,}75^5\\approx0{,}466\\).</p><p><strong>Svar:</strong> \\(\\dfrac{1909}{4096}\\approx0{,}466\\)</p>",
+        "ledtrad": "<p>Använd komplementet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Antalet sjösjuka är binomialfördelat med \\(p=0{,}25\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "telefonförsäljning",
+    "poang": "0/4/0",
+    "t": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att hen säljer till minst 2 personer under ett skift?</li><li>Hur många samtal måste hen minst ringa för att sannolikheten att sälja till minst en person ska vara större än 0,50?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(1-0{,}98^{100}-100\\cdot0{,}02\\cdot0{,}98^{99}\\approx0{,}597\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}597\\)</p></li><li><p>\\(1-0{,}98^n\\gt0{,}5\\iff n\\gt\\dfrac{\\ln0{,}5}{\\ln0{,}98}\\approx34{,}3\\).</p><p><strong>Svar:</strong> 35 samtal</p></li></ol>",
+    "id": "1.725",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "0.5967282892",
+      35
+    ],
+    "tolerans": [
+      null,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att hen säljer till minst 2 personer under ett skift?",
+        "t": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hen säljer till minst 2 personer under ett skift?</p>",
+        "s": "<p>\\(1-0{,}98^{100}-100\\cdot0{,}02\\cdot0{,}98^{99}\\approx0{,}597\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}597\\)</p>",
+        "ledtrad": "<p>Använd komplementet: noll eller en försäljning.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många samtal måste hen minst ringa för att sannolikheten att sälja till minst en person ska vara större än 0,50?",
+        "t": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur många samtal måste hen minst ringa för att sannolikheten att sälja till minst en person ska vara större än 0,50?</p>",
+        "s": "<p>\\(1-0{,}98^n\\gt0{,}5\\iff n\\gt\\dfrac{\\ln0{,}5}{\\ln0{,}98}\\approx34{,}3\\).</p><p><strong>Svar:</strong> 35 samtal</p>",
+        "ledtrad": "<p>Ställ upp en olikhet för ”minst en” och lös med logaritmer.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Antalet försäljningar är binomialfördelat.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "E",
+    "typ": "lerduveskytte",
+    "poang": "3/0/0",
+    "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att skytten inte missar någon?</li><li>Hur stor är sannolikheten att skytten missar exakt en?</li><li>Hur stor är sannolikheten att skytten missar exakt två?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}95^{25}\\approx0{,}277\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}277\\)</p></li><li><p>\\(25\\cdot0{,}05\\cdot0{,}95^{24}\\approx0{,}365\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}365\\)</p></li><li><p>\\(\\binom{25}{2}0{,}05^2\\,0{,}95^{23}\\approx0{,}231\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}231\\)</p></li></ol>",
+    "id": "1.726",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "0.2773895731",
+      "0.3649862804",
+      "0.2305176508"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att skytten inte missar någon?",
+        "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att skytten inte missar någon?</p>",
+        "s": "<p>\\(0{,}95^{25}\\approx0{,}277\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}277\\)</p>",
+        "ledtrad": "<p>Alla 25 ska träffas.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att skytten missar exakt en?",
+        "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att skytten missar exakt en?</p>",
+        "s": "<p>\\(25\\cdot0{,}05\\cdot0{,}95^{24}\\approx0{,}365\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}365\\)</p>",
+        "ledtrad": "<p>Vilken av lerduvorna missas?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att skytten missar exakt två?",
+        "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att skytten missar exakt två?</p>",
+        "s": "<p>\\(\\binom{25}{2}0{,}05^2\\,0{,}95^{23}\\approx0{,}231\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}231\\)</p>",
+        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Antalet träffar är binomialfördelat.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "C",
+    "typ": "skidskytte",
+    "poang": "2/2/0",
+    "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att hon skjuter fullt (inga bom) stående?</li><li>Hur stor är sannolikheten att hon skjuter fullt på alla 20 skotten?</li><li>Hur stor är sannolikheten att hon får exakt en bom totalt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}83^{10}\\approx0{,}155\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}155\\)</p></li><li><p>\\(0{,}83^{10}\\cdot0{,}95^{10}\\approx0{,}093\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}0929\\)</p></li><li><p>Bommen stående: \\(10\\cdot0{,}17\\cdot0{,}83^9\\cdot0{,}95^{10}\\). Bommen liggande: \\(0{,}83^{10}\\cdot10\\cdot0{,}05\\cdot0{,}95^9\\).</p><p>Summa \\(\\approx0{,}190+0{,}049\\approx0{,}239\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}239\\)</p></li></ol>",
+    "id": "1.727",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "0.1551604119",
+      "0.0929002701",
+      "0.2391725406"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att hon skjuter fullt (inga bom) stående?",
+        "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hon skjuter fullt (inga bom) stående?</p>",
+        "s": "<p>\\(0{,}83^{10}\\approx0{,}155\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}155\\)</p>",
+        "ledtrad": "<p>Alla tio stående skott ska träffa.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att hon skjuter fullt på alla 20 skotten?",
+        "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hon skjuter fullt på alla 20 skotten?</p>",
+        "s": "<p>\\(0{,}83^{10}\\cdot0{,}95^{10}\\approx0{,}093\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}0929\\)</p>",
+        "ledtrad": "<p>Båda serierna ska bli fulla.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är sannolikheten att hon får exakt en bom totalt?",
+        "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hon får exakt en bom totalt?</p>",
+        "s": "<p>Bommen stående: \\(10\\cdot0{,}17\\cdot0{,}83^9\\cdot0{,}95^{10}\\). Bommen liggande: \\(0{,}83^{10}\\cdot10\\cdot0{,}05\\cdot0{,}95^9\\).</p><p>Summa \\(\\approx0{,}190+0{,}049\\approx0{,}239\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}239\\)</p>",
+        "ledtrad": "<p>Dela upp i två fall: bommen kommer stående eller liggande.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Liggande och stående har olika träffsannolikhet.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "niva": "A",
+    "typ": "slumpvis tippning",
+    "poang": "2/3/1",
+    "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att få exakt 12 rätt?</li><li>Hur stor är sannolikheten att få exakt 10 rätt?</li><li>Vilket antal rätt är mest sannolikt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\binom{13}{12}\\left(\\tfrac13\\right)^{12}\\tfrac23=\\dfrac{26}{1\\,594\\,323}\\approx1{,}6\\cdot10^{-5}\\).</p><p><strong>Svar:</strong> \\(\\approx1{,}63\\cdot10^{-5}\\)</p></li><li><p>\\(\\binom{13}{10}\\left(\\tfrac13\\right)^{10}\\left(\\tfrac23\\right)^3=\\dfrac{286\\cdot8}{1\\,594\\,323}=\\dfrac{2\\,288}{1\\,594\\,323}\\approx0{,}0014\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}00144\\)</p></li><li><p>Prövning av \\(P(k)\\) för \\(k=0,1,\\dots,13\\) ger störst sannolikhet för \\(k=4\\), cirka 0,23. Det stämmer med att förväntat antal är \\(13\\cdot\\tfrac13\\approx4{,}3\\).</p><p><strong>Svar:</strong> 4 rätt</p></li></ol>",
+    "id": "1.728",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinatorisk sannolikhet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "26/1594323",
+      "2288/1594323",
+      4
+    ],
+    "tolerans": [
+      null,
+      null,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är sannolikheten att få exakt 12 rätt?",
+        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt 12 rätt?</p>",
+        "s": "<p>\\(\\binom{13}{12}\\left(\\tfrac13\\right)^{12}\\tfrac23=\\dfrac{26}{1\\,594\\,323}\\approx1{,}6\\cdot10^{-5}\\).</p><p><strong>Svar:</strong> \\(\\approx1{,}63\\cdot10^{-5}\\)</p>",
+        "ledtrad": "<p>Använd binomialformeln med \\(p=\\tfrac13\\).</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är sannolikheten att få exakt 10 rätt?",
+        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt 10 rätt?</p>",
+        "s": "<p>\\(\\binom{13}{10}\\left(\\tfrac13\\right)^{10}\\left(\\tfrac23\\right)^3=\\dfrac{286\\cdot8}{1\\,594\\,323}=\\dfrac{2\\,288}{1\\,594\\,323}\\approx0{,}0014\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}00144\\)</p>",
+        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilket antal rätt är mest sannolikt?",
+        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Vilket antal rätt är mest sannolikt?</p>",
+        "s": "<p>Prövning av \\(P(k)\\) för \\(k=0,1,\\dots,13\\) ger störst sannolikhet för \\(k=4\\), cirka 0,23. Det stämmer med att förväntat antal är \\(13\\cdot\\tfrac13\\approx4{,}3\\).</p><p><strong>Svar:</strong> 4 rätt</p>",
+        "ledtrad": "<p>Jämför \\(P(k)\\) för några \\(k\\) runt \\(13\\cdot\\tfrac13\\).</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Antalet rätt är binomialfördelat med \\(n=13\\) och \\(p=\\tfrac13\\).</p>",
+    "traningsniva": 4
+  },
+  {
     "kap": 2,
     "omr": "delbarhet_primtal",
     "niva": "E",

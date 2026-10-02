@@ -37243,6 +37243,433 @@ window.BANKMATF1 = [
   },
   {
     "kap": 1,
+    "omr": "mangdoperatorer",
+    "niva": "E",
+    "typ": "union, snitt och differens",
+    "poang": "3/0/0",
+    "t": "<p>Låt \\(A=\\{2,3,5,7,11,13\\}\\) och \\(B=\\{1,2,11,18\\}\\).</p><ol type=\"a\"><li>Bestäm \\(A\\cup B\\).</li><li>Bestäm \\(A\\cap B\\).</li><li>Bestäm \\(A\\setminus B\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Alla element som finns i \\(A\\) eller \\(B\\) eller båda.</p><p><strong>Svar:</strong> \\(\\{1,\\ 2,\\ 3,\\ 5,\\ 7,\\ 11,\\ 13,\\ 18\\}\\)</p></li><li><p>Element som finns i båda mängderna.</p><p><strong>Svar:</strong> \\(\\{2,\\ 11\\}\\)</p></li><li><p>Element i \\(A\\) som inte finns i \\(B\\).</p><p><strong>Svar:</strong> \\(\\{3,\\ 5,\\ 7,\\ 13\\}\\)</p></li></ol>",
+    "id": "1.785",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Union, snitt, differens och komplement",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "{1,2,3,5,7,11,13,18}",
+      "{2,11}",
+      "{3,5,7,13}"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "mängd",
+      "mängd",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Låt \\(A=\\{2,3,5,7,11,13\\}\\) och \\(B=\\{1,2,11,18\\}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(A\\cup B\\).",
+        "t": "<p>Låt \\(A=\\{2,3,5,7,11,13\\}\\) och \\(B=\\{1,2,11,18\\}\\).</p><p>Bestäm \\(A\\cup B\\).</p>",
+        "s": "<p>Alla element som finns i \\(A\\) eller \\(B\\) eller båda.</p><p><strong>Svar:</strong> \\(\\{1,\\ 2,\\ 3,\\ 5,\\ 7,\\ 11,\\ 13,\\ 18\\}\\)</p>",
+        "ledtrad": "<p>Unionen innehåller allt som finns i någon av mängderna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(A\\cap B\\).",
+        "t": "<p>Låt \\(A=\\{2,3,5,7,11,13\\}\\) och \\(B=\\{1,2,11,18\\}\\).</p><p>Bestäm \\(A\\cap B\\).</p>",
+        "s": "<p>Element som finns i båda mängderna.</p><p><strong>Svar:</strong> \\(\\{2,\\ 11\\}\\)</p>",
+        "ledtrad": "<p>Snittet innehåller det som är gemensamt.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm \\(A\\setminus B\\).",
+        "t": "<p>Låt \\(A=\\{2,3,5,7,11,13\\}\\) och \\(B=\\{1,2,11,18\\}\\).</p><p>Bestäm \\(A\\setminus B\\).</p>",
+        "s": "<p>Element i \\(A\\) som inte finns i \\(B\\).</p><p><strong>Svar:</strong> \\(\\{3,\\ 5,\\ 7,\\ 13\\}\\)</p>",
+        "ledtrad": "<p>Ta bort elementen i \\(B\\) från \\(A\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Union, snitt och differens.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "mangdoperatorer",
+    "niva": "E",
+    "typ": "differens åt båda hållen",
+    "poang": "2/0/0",
+    "t": "<p>Låt \\(A=\\{1,2,3,4,5\\}\\) och \\(B=\\{0,3,6\\}\\).</p><ol type=\"a\"><li>Bestäm \\(A\\cap B\\).</li><li>Bestäm \\(B\\setminus A\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Bara 3 finns i båda.</p><p><strong>Svar:</strong> \\(\\{3\\}\\)</p></li><li><p>Element i \\(B\\) som inte finns i \\(A\\).</p><p><strong>Svar:</strong> \\(\\{0,\\ 6\\}\\)</p></li></ol>",
+    "id": "1.786",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Union, snitt, differens och komplement",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "{3}",
+      "{0,6}"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "mängd",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Låt \\(A=\\{1,2,3,4,5\\}\\) och \\(B=\\{0,3,6\\}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(A\\cap B\\).",
+        "t": "<p>Låt \\(A=\\{1,2,3,4,5\\}\\) och \\(B=\\{0,3,6\\}\\).</p><p>Bestäm \\(A\\cap B\\).</p>",
+        "s": "<p>Bara 3 finns i båda.</p><p><strong>Svar:</strong> \\(\\{3\\}\\)</p>",
+        "ledtrad": "<p>Vilka element är gemensamma?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(B\\setminus A\\).",
+        "t": "<p>Låt \\(A=\\{1,2,3,4,5\\}\\) och \\(B=\\{0,3,6\\}\\).</p><p>Bestäm \\(B\\setminus A\\).</p>",
+        "s": "<p>Element i \\(B\\) som inte finns i \\(A\\).</p><p><strong>Svar:</strong> \\(\\{0,\\ 6\\}\\)</p>",
+        "ledtrad": "<p>Utgå från \\(B\\) och ta bort det som finns i \\(A\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Differensen beror på ordningen.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "mangdoperatorer",
+    "niva": "E",
+    "typ": "delmängder och tom differens",
+    "poang": "3/0/0",
+    "t": "<p>Låt \\(A=\\{a,b,c,d,e\\}\\) och \\(B=\\{a,b,c,d,e,f,g,h\\}\\).</p><ol type=\"a\"><li>Bestäm \\(A\\cap B\\).</li><li>Bestäm \\(A\\setminus B\\).</li><li>Bestäm \\(B\\setminus A\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Eftersom \\(A\\subset B\\) är snittet lika med \\(A\\).</p><p><strong>Svar:</strong> \\(\\{a,\\ b,\\ c,\\ d,\\ e\\}\\)</p></li><li><p>Alla element i \\(A\\) finns i \\(B\\), så differensen är tom.</p><p><strong>Svar:</strong> \\(\\emptyset\\)</p></li><li><p>De element i \\(B\\) som inte är med i \\(A\\).</p><p><strong>Svar:</strong> \\(\\{f,\\ g,\\ h\\}\\)</p></li></ol>",
+    "id": "1.787",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Union, snitt, differens och komplement",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "{a,b,c,d,e}",
+      "{}",
+      "{f,g,h}"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "mängd",
+      "mängd",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Låt \\(A=\\{a,b,c,d,e\\}\\) och \\(B=\\{a,b,c,d,e,f,g,h\\}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(A\\cap B\\).",
+        "t": "<p>Låt \\(A=\\{a,b,c,d,e\\}\\) och \\(B=\\{a,b,c,d,e,f,g,h\\}\\).</p><p>Bestäm \\(A\\cap B\\).</p>",
+        "s": "<p>Eftersom \\(A\\subset B\\) är snittet lika med \\(A\\).</p><p><strong>Svar:</strong> \\(\\{a,\\ b,\\ c,\\ d,\\ e\\}\\)</p>",
+        "ledtrad": "<p>Är \\(A\\) en delmängd av \\(B\\)?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(A\\setminus B\\).",
+        "t": "<p>Låt \\(A=\\{a,b,c,d,e\\}\\) och \\(B=\\{a,b,c,d,e,f,g,h\\}\\).</p><p>Bestäm \\(A\\setminus B\\).</p>",
+        "s": "<p>Alla element i \\(A\\) finns i \\(B\\), så differensen är tom.</p><p><strong>Svar:</strong> \\(\\emptyset\\)</p>",
+        "ledtrad": "<p>Finns det något element i \\(A\\) som inte finns i \\(B\\)?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm \\(B\\setminus A\\).",
+        "t": "<p>Låt \\(A=\\{a,b,c,d,e\\}\\) och \\(B=\\{a,b,c,d,e,f,g,h\\}\\).</p><p>Bestäm \\(B\\setminus A\\).</p>",
+        "s": "<p>De element i \\(B\\) som inte är med i \\(A\\).</p><p><strong>Svar:</strong> \\(\\{f,\\ g,\\ h\\}\\)</p>",
+        "ledtrad": "<p>Ta bort \\(A\\):s element från \\(B\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Jämför mängderna element för element.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mangdoperatorer",
+    "niva": "E",
+    "typ": "operationer med tre mängder",
+    "poang": "3/0/0",
+    "t": "<p>Låt \\(A=\\{1,3,4,6,7,9\\}\\), \\(B=\\{4,5,6,8\\}\\) och \\(C=\\{4,5,8\\}\\).</p><ol type=\"a\"><li>Bestäm \\(A\\cup B\\).</li><li>Bestäm \\(A\\setminus C\\).</li><li>Bestäm \\(C\\setminus B\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Allt som finns i \\(A\\) eller \\(B\\).</p><p><strong>Svar:</strong> \\(\\{1,\\ 3,\\ 4,\\ 5,\\ 6,\\ 7,\\ 8,\\ 9\\}\\)</p></li><li><p>Ta bort 4, 5 och 8 från \\(A\\). Bara 4 fanns i \\(A\\).</p><p><strong>Svar:</strong> \\(\\{1,\\ 3,\\ 6,\\ 7,\\ 9\\}\\)</p></li><li><p>Alla element i \\(C\\) finns i \\(B\\).</p><p><strong>Svar:</strong> \\(\\emptyset\\)</p></li></ol>",
+    "id": "1.788",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Union, snitt, differens och komplement",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "{1,3,4,5,6,7,8,9}",
+      "{1,3,6,7,9}",
+      "{}"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "mängd",
+      "mängd",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Låt \\(A=\\{1,3,4,6,7,9\\}\\), \\(B=\\{4,5,6,8\\}\\) och \\(C=\\{4,5,8\\}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(A\\cup B\\).",
+        "t": "<p>Låt \\(A=\\{1,3,4,6,7,9\\}\\), \\(B=\\{4,5,6,8\\}\\) och \\(C=\\{4,5,8\\}\\).</p><p>Bestäm \\(A\\cup B\\).</p>",
+        "s": "<p>Allt som finns i \\(A\\) eller \\(B\\).</p><p><strong>Svar:</strong> \\(\\{1,\\ 3,\\ 4,\\ 5,\\ 6,\\ 7,\\ 8,\\ 9\\}\\)</p>",
+        "ledtrad": "<p>Slå ihop mängderna och skriv varje element en gång.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(A\\setminus C\\).",
+        "t": "<p>Låt \\(A=\\{1,3,4,6,7,9\\}\\), \\(B=\\{4,5,6,8\\}\\) och \\(C=\\{4,5,8\\}\\).</p><p>Bestäm \\(A\\setminus C\\).</p>",
+        "s": "<p>Ta bort 4, 5 och 8 från \\(A\\). Bara 4 fanns i \\(A\\).</p><p><strong>Svar:</strong> \\(\\{1,\\ 3,\\ 6,\\ 7,\\ 9\\}\\)</p>",
+        "ledtrad": "<p>Vilka av \\(C\\):s element finns i \\(A\\)?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm \\(C\\setminus B\\).",
+        "t": "<p>Låt \\(A=\\{1,3,4,6,7,9\\}\\), \\(B=\\{4,5,6,8\\}\\) och \\(C=\\{4,5,8\\}\\).</p><p>Bestäm \\(C\\setminus B\\).</p>",
+        "s": "<p>Alla element i \\(C\\) finns i \\(B\\).</p><p><strong>Svar:</strong> \\(\\emptyset\\)</p>",
+        "ledtrad": "<p>Är \\(C\\) en delmängd av \\(B\\)?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Använd definitionerna av union och differens.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mangdoperatorer",
+    "niva": "C",
+    "typ": "komplement i grundmängd",
+    "poang": "2/2/0",
+    "t": "<p>Grundmängden är \\(G=\\{0,1,2,\\dots,10\\}\\). Låt \\(A=\\{1,3,4,6,7,9\\}\\) och \\(B=\\{4,5,6,8\\}\\). \\(A^{\\complement}\\) betecknar komplementet till \\(A\\) i \\(G\\).</p><ol type=\"a\"><li>Bestäm \\(A^{\\complement}\\).</li><li>Bestäm \\(A\\cap A^{\\complement}\\).</li><li>Bestäm \\(A^{\\complement}\\cap B\\).</li><li>Bestäm \\(A^{\\complement}\\cap B^{\\complement}\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Elementen i \\(G\\) som inte finns i \\(A\\).</p><p><strong>Svar:</strong> \\(\\{0,\\ 2,\\ 5,\\ 8,\\ 10\\}\\)</p></li><li><p>Ett element kan inte både finnas och inte finnas i \\(A\\).</p><p><strong>Svar:</strong> \\(\\emptyset\\)</p></li><li><p>\\(A^{\\complement}=\\{0,2,5,8,10\\}\\). Snittet med \\(B\\) blir \\(\\{5,8\\}\\).</p><p><strong>Svar:</strong> \\(\\{5,\\ 8\\}\\)</p></li><li><p>Element som varken finns i \\(A\\) eller \\(B\\): \\((A\\cup B)^{\\complement}\\).</p><p><strong>Svar:</strong> \\(\\{0,\\ 2,\\ 10\\}\\)</p></li></ol>",
+    "id": "1.789",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Union, snitt, differens och komplement",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "{0,2,5,8,10}",
+      "{}",
+      "{5,8}",
+      "{0,2,10}"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "mängd",
+      "mängd",
+      "mängd",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Grundmängden är \\(G=\\{0,1,2,\\dots,10\\}\\). Låt \\(A=\\{1,3,4,6,7,9\\}\\) och \\(B=\\{4,5,6,8\\}\\). \\(A^{\\complement}\\) betecknar komplementet till \\(A\\) i \\(G\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(A^{\\complement}\\).",
+        "t": "<p>Grundmängden är \\(G=\\{0,1,2,\\dots,10\\}\\). Låt \\(A=\\{1,3,4,6,7,9\\}\\) och \\(B=\\{4,5,6,8\\}\\). \\(A^{\\complement}\\) betecknar komplementet till \\(A\\) i \\(G\\).</p><p>Bestäm \\(A^{\\complement}\\).</p>",
+        "s": "<p>Elementen i \\(G\\) som inte finns i \\(A\\).</p><p><strong>Svar:</strong> \\(\\{0,\\ 2,\\ 5,\\ 8,\\ 10\\}\\)</p>",
+        "ledtrad": "<p>Vilka tal mellan 0 och 10 saknas i \\(A\\)?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(A\\cap A^{\\complement}\\).",
+        "t": "<p>Grundmängden är \\(G=\\{0,1,2,\\dots,10\\}\\). Låt \\(A=\\{1,3,4,6,7,9\\}\\) och \\(B=\\{4,5,6,8\\}\\). \\(A^{\\complement}\\) betecknar komplementet till \\(A\\) i \\(G\\).</p><p>Bestäm \\(A\\cap A^{\\complement}\\).</p>",
+        "s": "<p>Ett element kan inte både finnas och inte finnas i \\(A\\).</p><p><strong>Svar:</strong> \\(\\emptyset\\)</p>",
+        "ledtrad": "<p>Kan ett element ligga i både \\(A\\) och dess komplement?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm \\(A^{\\complement}\\cap B\\).",
+        "t": "<p>Grundmängden är \\(G=\\{0,1,2,\\dots,10\\}\\). Låt \\(A=\\{1,3,4,6,7,9\\}\\) och \\(B=\\{4,5,6,8\\}\\). \\(A^{\\complement}\\) betecknar komplementet till \\(A\\) i \\(G\\).</p><p>Bestäm \\(A^{\\complement}\\cap B\\).</p>",
+        "s": "<p>\\(A^{\\complement}=\\{0,2,5,8,10\\}\\). Snittet med \\(B\\) blir \\(\\{5,8\\}\\).</p><p><strong>Svar:</strong> \\(\\{5,\\ 8\\}\\)</p>",
+        "ledtrad": "<p>Bestäm komplementet först.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Bestäm \\(A^{\\complement}\\cap B^{\\complement}\\).",
+        "t": "<p>Grundmängden är \\(G=\\{0,1,2,\\dots,10\\}\\). Låt \\(A=\\{1,3,4,6,7,9\\}\\) och \\(B=\\{4,5,6,8\\}\\). \\(A^{\\complement}\\) betecknar komplementet till \\(A\\) i \\(G\\).</p><p>Bestäm \\(A^{\\complement}\\cap B^{\\complement}\\).</p>",
+        "s": "<p>Element som varken finns i \\(A\\) eller \\(B\\): \\((A\\cup B)^{\\complement}\\).</p><p><strong>Svar:</strong> \\(\\{0,\\ 2,\\ 10\\}\\)</p>",
+        "ledtrad": "<p>Det är samma sak som komplementet till \\(A\\cup B\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Komplementet består av det som saknas i mängden.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "mangdoperatorer",
+    "niva": "C",
+    "typ": "villkor med delmängder",
+    "poang": "0/2/0",
+    "t": "<p>Låt \\(A=\\{1,2,3,4,5,6\\}\\), \\(B=\\{4,5,6,7,8,9\\}\\), \\(C=\\{2,4,6,8\\}\\), \\(D=\\{4,5\\}\\), \\(E=\\{5,6\\}\\) och \\(F=\\{4,6\\}\\).</p><p>Mängden \\(X\\) är en av mängderna \\(A\\)–\\(F\\) och uppfyller \\(X\\subset A\\), \\(X\\subset B\\) och \\(X\\not\\subset C\\). Vilka mängder kan \\(X\\) vara? Svara med bokstäverna.</p>",
+    "s": "<p>\\(X\\) måste ligga i \\(A\\cap B=\\{4,5,6\\}\\). Det gör \\(D\\), \\(E\\) och \\(F\\). Av dessa är \\(F=\\{4,6\\}\\subset C\\), men \\(D\\) och \\(E\\) innehåller 5, som inte finns i \\(C\\).</p><p><strong>Svar:</strong> \\(D\\) och \\(E\\)</p>",
+    "id": "1.790",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Union, snitt, differens och komplement",
+    "svarstyp": "mängd",
+    "rättSvar": "{D,E}",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "mängd",
+    "ledtrad": "<p>Både \\(A\\) och \\(B\\) ska innehålla \\(X\\). Vilka element får \\(X\\) då ha?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "mangdoperatorer",
+    "niva": "C",
+    "typ": "snitt av oändliga mängder",
+    "poang": "0/2/0",
+    "t": "<p>Låt \\(A=\\{x\\in\\mathbb Z\\mid 10\\text{ delar }x\\}\\) och \\(B=\\{x\\in\\mathbb Z\\mid 15\\text{ delar }x\\}\\). Beskriv \\(A\\cap B\\). Ange de fyra minsta positiva elementen.</p>",
+    "s": "<p>Ett tal ligger i båda mängderna om det är delbart med både 10 och 15, alltså med \\(\\text{MGM}(10,15)=30\\). \\(A\\cap B=\\{30k\\mid k\\in\\mathbb Z\\}\\).</p><p><strong>Svar:</strong> \\(\\{30,\\ 60,\\ 90,\\ 120\\}\\)</p>",
+    "id": "1.791",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Union, snitt, differens och komplement",
+    "svarstyp": "numeriskt",
+    "rättSvar": "{30,60,90,120}",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "mängd",
+    "ledtrad": "<p>Vilka tal är delbara med både 10 och 15?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
     "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "mängdlära – grundträning",
@@ -37354,6 +37781,337 @@ window.BANKMATF1 = [
     "rättSvar": 128,
     "tolerans": null,
     "typ": "antal delmängder med villkor"
+  },
+  {
+    "kap": 1,
+    "omr": "mangdlara_grund",
+    "niva": "E",
+    "typ": "skriva ut mängder från villkor",
+    "poang": "5/0/0",
+    "t": "<p>Skriv ut mängden genom att räkna upp alla element. \\(\\mathbb N\\) är de naturliga talen 0, 1, 2, …, \\(\\mathbb Z\\) heltalen och \\(\\mathbb R\\) de reella talen.</p><ol type=\"a\"><li>\\(\\{x\\in\\mathbb N\\mid x\\gt4\\text{ och }x\\lt8\\}\\)</li><li>\\(\\{x\\in\\mathbb Z\\mid x^3-x=0\\}\\)</li><li>\\(\\{x\\in\\mathbb R\\mid x^3+5x^2+6x=0\\}\\)</li><li>\\(\\{x\\in\\mathbb Z\\mid |x|\\lt3\\}\\)</li><li>\\(\\{x\\in\\mathbb Z\\mid x^2+2=0\\}\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>De naturliga talen mellan 4 och 8 är 5, 6 och 7.</p><p><strong>Svar:</strong> \\(\\{5,\\ 6,\\ 7\\}\\)</p></li><li><p>\\(x^3-x=x(x-1)(x+1)=0\\), alltså \\(x=-1\\), 0 eller 1.</p><p><strong>Svar:</strong> \\(\\{−1,\\ 0,\\ 1\\}\\)</p></li><li><p>\\(x(x^2+5x+6)=x(x+2)(x+3)=0\\).</p><p><strong>Svar:</strong> \\(\\{−3,\\ −2,\\ 0\\}\\)</p></li><li><p>Heltalen med absolutbelopp mindre än 3 är −2, −1, 0, 1 och 2.</p><p><strong>Svar:</strong> \\(\\{−2,\\ −1,\\ 0,\\ 1,\\ 2\\}\\)</p></li><li><p>\\(x^2=-2\\) saknar reella och därmed heltaliga lösningar. Mängden är tom.</p><p><strong>Svar:</strong> \\(\\emptyset\\)</p></li></ol>",
+    "id": "1.781",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Mängder, element och mängdbyggare",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "{5,6,7}",
+      "{-1,0,1}",
+      "{-3,-2,0}",
+      "{-2,-1,0,1,2}",
+      "{}"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "mängd",
+      "mängd",
+      "mängd",
+      "mängd",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Skriv ut mängden genom att räkna upp alla element. \\(\\mathbb N\\) är de naturliga talen 0, 1, 2, …, \\(\\mathbb Z\\) heltalen och \\(\\mathbb R\\) de reella talen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\{x\\in\\mathbb N\\mid x\\gt4\\text{ och }x\\lt8\\}\\)",
+        "t": "<p>Skriv ut mängden genom att räkna upp alla element. \\(\\mathbb N\\) är de naturliga talen 0, 1, 2, …, \\(\\mathbb Z\\) heltalen och \\(\\mathbb R\\) de reella talen.</p><p>\\(\\{x\\in\\mathbb N\\mid x\\gt4\\text{ och }x\\lt8\\}\\)</p>",
+        "s": "<p>De naturliga talen mellan 4 och 8 är 5, 6 och 7.</p><p><strong>Svar:</strong> \\(\\{5,\\ 6,\\ 7\\}\\)</p>",
+        "ledtrad": "<p>Vilka naturliga tal ligger strikt mellan 4 och 8?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\{x\\in\\mathbb Z\\mid x^3-x=0\\}\\)",
+        "t": "<p>Skriv ut mängden genom att räkna upp alla element. \\(\\mathbb N\\) är de naturliga talen 0, 1, 2, …, \\(\\mathbb Z\\) heltalen och \\(\\mathbb R\\) de reella talen.</p><p>\\(\\{x\\in\\mathbb Z\\mid x^3-x=0\\}\\)</p>",
+        "s": "<p>\\(x^3-x=x(x-1)(x+1)=0\\), alltså \\(x=-1\\), 0 eller 1.</p><p><strong>Svar:</strong> \\(\\{−1,\\ 0,\\ 1\\}\\)</p>",
+        "ledtrad": "<p>Faktorisera vänsterledet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\{x\\in\\mathbb R\\mid x^3+5x^2+6x=0\\}\\)",
+        "t": "<p>Skriv ut mängden genom att räkna upp alla element. \\(\\mathbb N\\) är de naturliga talen 0, 1, 2, …, \\(\\mathbb Z\\) heltalen och \\(\\mathbb R\\) de reella talen.</p><p>\\(\\{x\\in\\mathbb R\\mid x^3+5x^2+6x=0\\}\\)</p>",
+        "s": "<p>\\(x(x^2+5x+6)=x(x+2)(x+3)=0\\).</p><p><strong>Svar:</strong> \\(\\{−3,\\ −2,\\ 0\\}\\)</p>",
+        "ledtrad": "<p>Bryt ut \\(x\\) och faktorisera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(\\{x\\in\\mathbb Z\\mid |x|\\lt3\\}\\)",
+        "t": "<p>Skriv ut mängden genom att räkna upp alla element. \\(\\mathbb N\\) är de naturliga talen 0, 1, 2, …, \\(\\mathbb Z\\) heltalen och \\(\\mathbb R\\) de reella talen.</p><p>\\(\\{x\\in\\mathbb Z\\mid |x|\\lt3\\}\\)</p>",
+        "s": "<p>Heltalen med absolutbelopp mindre än 3 är −2, −1, 0, 1 och 2.</p><p><strong>Svar:</strong> \\(\\{−2,\\ −1,\\ 0,\\ 1,\\ 2\\}\\)</p>",
+        "ledtrad": "<p>Vilka heltal ligger strikt mellan −3 och 3?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "e",
+        "fraga": "\\(\\{x\\in\\mathbb Z\\mid x^2+2=0\\}\\)",
+        "t": "<p>Skriv ut mängden genom att räkna upp alla element. \\(\\mathbb N\\) är de naturliga talen 0, 1, 2, …, \\(\\mathbb Z\\) heltalen och \\(\\mathbb R\\) de reella talen.</p><p>\\(\\{x\\in\\mathbb Z\\mid x^2+2=0\\}\\)</p>",
+        "s": "<p>\\(x^2=-2\\) saknar reella och därmed heltaliga lösningar. Mängden är tom.</p><p><strong>Svar:</strong> \\(\\emptyset\\)</p>",
+        "ledtrad": "<p>Kan en kvadrat vara negativ?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Pröva vilka element som uppfyller villkoret.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mangdlara_grund",
+    "niva": "E",
+    "typ": "mängder ur uttryck",
+    "poang": "3/0/0",
+    "t": "<p>Skriv ut mängden genom att räkna upp alla element.</p><ol type=\"a\"><li>\\(\\{x^2\\mid x\\in\\{1,2,3\\}\\}\\)</li><li>\\(\\{x\\in\\mathbb N\\mid x\\text{ är ett primtal och }x\\lt12\\}\\)</li><li>\\(\\{5x\\mid x\\in\\mathbb Z,\\ |x|\\lt4\\}\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Kvadrera varje element: 1, 4 och 9.</p><p><strong>Svar:</strong> \\(\\{1,\\ 4,\\ 9\\}\\)</p></li><li><p>Primtalen under 12 är 2, 3, 5, 7 och 11.</p><p><strong>Svar:</strong> \\(\\{2,\\ 3,\\ 5,\\ 7,\\ 11\\}\\)</p></li><li><p>\\(x\\in\\{-3,\\dots,3\\}\\) ger \\(5x\\in\\{-15,-10,-5,0,5,10,15\\}\\).</p><p><strong>Svar:</strong> \\(\\{−15,\\ −10,\\ −5,\\ 0,\\ 5,\\ 10,\\ 15\\}\\)</p></li></ol>",
+    "id": "1.782",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Mängder, element och mängdbyggare",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "{1,4,9}",
+      "{2,3,5,7,11}",
+      "{-15,-10,-5,0,5,10,15}"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "mängd",
+      "mängd",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Skriv ut mängden genom att räkna upp alla element.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\{x^2\\mid x\\in\\{1,2,3\\}\\}\\)",
+        "t": "<p>Skriv ut mängden genom att räkna upp alla element.</p><p>\\(\\{x^2\\mid x\\in\\{1,2,3\\}\\}\\)</p>",
+        "s": "<p>Kvadrera varje element: 1, 4 och 9.</p><p><strong>Svar:</strong> \\(\\{1,\\ 4,\\ 9\\}\\)</p>",
+        "ledtrad": "<p>Vad blir \\(x^2\\) för varje \\(x\\)?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\{x\\in\\mathbb N\\mid x\\text{ är ett primtal och }x\\lt12\\}\\)",
+        "t": "<p>Skriv ut mängden genom att räkna upp alla element.</p><p>\\(\\{x\\in\\mathbb N\\mid x\\text{ är ett primtal och }x\\lt12\\}\\)</p>",
+        "s": "<p>Primtalen under 12 är 2, 3, 5, 7 och 11.</p><p><strong>Svar:</strong> \\(\\{2,\\ 3,\\ 5,\\ 7,\\ 11\\}\\)</p>",
+        "ledtrad": "<p>Kom ihåg att 1 inte är ett primtal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\{5x\\mid x\\in\\mathbb Z,\\ |x|\\lt4\\}\\)",
+        "t": "<p>Skriv ut mängden genom att räkna upp alla element.</p><p>\\(\\{5x\\mid x\\in\\mathbb Z,\\ |x|\\lt4\\}\\)</p>",
+        "s": "<p>\\(x\\in\\{-3,\\dots,3\\}\\) ger \\(5x\\in\\{-15,-10,-5,0,5,10,15\\}\\).</p><p><strong>Svar:</strong> \\(\\{−15,\\ −10,\\ −5,\\ 0,\\ 5,\\ 10,\\ 15\\}\\)</p>",
+        "ledtrad": "<p>Bestäm först vilka \\(x\\) som är tillåtna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Elementen bildas av uttrycket före strecket.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mangdlara_grund",
+    "niva": "C",
+    "typ": "kardinaltal",
+    "poang": "3/1/0",
+    "t": "<p>Bestäm mängdens kardinaltal, alltså antalet element.</p><ol type=\"a\"><li>\\(\\{1,3,5,\\dots,97,99\\}\\)</li><li>\\(\\{x\\in\\mathbb Z\\mid x^2\\lt10\\}\\)</li><li>\\(\\{x\\in\\mathbb N\\mid 5x\\le20\\}\\)</li><li>\\(\\{ab+a\\mid a\\in\\{-1,0,1\\},\\ b\\in\\{-2,1,2\\}\\}\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>De udda talen från 1 till 99 är 50 stycken.</p><p><strong>Svar:</strong> 50</p></li><li><p>\\(x\\in\\{-3,-2,-1,0,1,2,3\\}\\): 7 element.</p><p><strong>Svar:</strong> 7</p></li><li><p>\\(x\\le4\\): \\(x\\in\\{0,1,2,3,4\\}\\), 5 element.</p><p><strong>Svar:</strong> 5</p></li><li><p>\\(ab+a=a(b+1)\\). \\(a=0\\) ger 0. \\(a=1\\) ger \\(-1,\\ 2,\\ 3\\). \\(a=-1\\) ger \\(1,\\ -2,\\ -3\\).</p><p>Mängden är \\(\\{-3,-2,-1,0,1,2,3\\}\\): 7 element.</p><p><strong>Svar:</strong> 7</p></li></ol>",
+    "id": "1.783",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Mängder, element och mängdbyggare",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      7,
+      5,
+      7
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm mängdens kardinaltal, alltså antalet element.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\{1,3,5,\\dots,97,99\\}\\)",
+        "t": "<p>Bestäm mängdens kardinaltal, alltså antalet element.</p><p>\\(\\{1,3,5,\\dots,97,99\\}\\)</p>",
+        "s": "<p>De udda talen från 1 till 99 är 50 stycken.</p><p><strong>Svar:</strong> 50</p>",
+        "ledtrad": "<p>Hur många udda tal finns det mellan 1 och 100?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\{x\\in\\mathbb Z\\mid x^2\\lt10\\}\\)",
+        "t": "<p>Bestäm mängdens kardinaltal, alltså antalet element.</p><p>\\(\\{x\\in\\mathbb Z\\mid x^2\\lt10\\}\\)</p>",
+        "s": "<p>\\(x\\in\\{-3,-2,-1,0,1,2,3\\}\\): 7 element.</p><p><strong>Svar:</strong> 7</p>",
+        "ledtrad": "<p>Vilka heltal har kvadraten mindre än 10?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\{x\\in\\mathbb N\\mid 5x\\le20\\}\\)",
+        "t": "<p>Bestäm mängdens kardinaltal, alltså antalet element.</p><p>\\(\\{x\\in\\mathbb N\\mid 5x\\le20\\}\\)</p>",
+        "s": "<p>\\(x\\le4\\): \\(x\\in\\{0,1,2,3,4\\}\\), 5 element.</p><p><strong>Svar:</strong> 5</p>",
+        "ledtrad": "<p>Glöm inte att 0 är ett naturligt tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(\\{ab+a\\mid a\\in\\{-1,0,1\\},\\ b\\in\\{-2,1,2\\}\\}\\)",
+        "t": "<p>Bestäm mängdens kardinaltal, alltså antalet element.</p><p>\\(\\{ab+a\\mid a\\in\\{-1,0,1\\},\\ b\\in\\{-2,1,2\\}\\}\\)</p>",
+        "s": "<p>\\(ab+a=a(b+1)\\). \\(a=0\\) ger 0. \\(a=1\\) ger \\(-1,\\ 2,\\ 3\\). \\(a=-1\\) ger \\(1,\\ -2,\\ -3\\).</p><p>Mängden är \\(\\{-3,-2,-1,0,1,2,3\\}\\): 7 element.</p><p><strong>Svar:</strong> 7</p>",
+        "ledtrad": "<p>Räkna ut alla värden och räkna varje värde bara en gång.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Ett element räknas bara en gång.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "mangdlara_grund",
+    "niva": "E",
+    "typ": "antal delmängder",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm antalet delmängder (inklusive den tomma mängden och mängden själv).</p><ol type=\"a\"><li>\\(\\{a,b,c,d,e\\}\\)</li><li>\\(\\{x\\in\\mathbb N\\mid x\\text{ är ett primtal och }30\\lt x\\lt40\\}\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Varje element är med eller inte: \\(2^5=32\\).</p><p><strong>Svar:</strong> 32</p></li><li><p>Mängden är \\(\\{31,37\\}\\), så antalet delmängder är \\(2^2=4\\).</p><p><strong>Svar:</strong> 4</p></li></ol>",
+    "id": "1.784",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Mängder, element och mängdbyggare",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      32,
+      4
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm antalet delmängder (inklusive den tomma mängden och mängden själv).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\{a,b,c,d,e\\}\\)",
+        "t": "<p>Bestäm antalet delmängder (inklusive den tomma mängden och mängden själv).</p><p>\\(\\{a,b,c,d,e\\}\\)</p>",
+        "s": "<p>Varje element är med eller inte: \\(2^5=32\\).</p><p><strong>Svar:</strong> 32</p>",
+        "ledtrad": "<p>Hur många val finns för varje element?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\{x\\in\\mathbb N\\mid x\\text{ är ett primtal och }30\\lt x\\lt40\\}\\)",
+        "t": "<p>Bestäm antalet delmängder (inklusive den tomma mängden och mängden själv).</p><p>\\(\\{x\\in\\mathbb N\\mid x\\text{ är ett primtal och }30\\lt x\\lt40\\}\\)</p>",
+        "s": "<p>Mängden är \\(\\{31,37\\}\\), så antalet delmängder är \\(2^2=4\\).</p><p><strong>Svar:</strong> 4</p>",
+        "ledtrad": "<p>Vilka primtal finns mellan 30 och 40?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>En mängd med \\(n\\) element har \\(2^n\\) delmängder.</p>",
+    "traningsniva": 2
   },
   {
     "kap": 1,

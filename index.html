@@ -3811,7 +3811,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-02-ake11";
+const BANK_VERSION="2026-10-02-ake12";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9363,6 +9363,9 @@ function formatRatt(anv,facit,meta){
       return la.every((v,i)=>naraNog(helTalvarde(v),helTalvarde(lf[i]),tol) || algebraisktLika(v,lf[i])===true);
     }
     case "lösningsmängd": case "losningsmangd": case "mängd": case "mangd": {
+      /* Den tomma mängden kan skrivas {}, ∅, Ø eller "tomma mängden". */
+      const tom=x=>/^\s*(\{\s*\}|∅|Ø|ø|tomma mängden|den tomma mängden|saknar lösning|inga lösningar)\s*$/i.test(String(x));
+      if(tom(f)||tom(a)) return tom(f)&&tom(a);
       const la=listaAv(a).map(hogerled), lf=listaAv(f).map(hogerled);
       if(la.length!==lf.length) return false;
       const kvar=[...lf];

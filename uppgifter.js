@@ -39730,6 +39730,32 @@ window.BANK = [
     ]
   },
   {
+    "id": "4.499",
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "t": "<p>En låda knuffas uppför ett plan som lutar \\(20^\\circ\\). Den får starthastigheten 6,0 m/s uppför planet. Friktionstalet mellan låda och plan är 0,25.</p><p>Hur långt glider lådan uppför planet innan den stannar? Svara i meter med två decimaler.</p>",
+    "s": "<p>Längs planet verkar två bromsande krafter: tyngdkraftens komposant \\(mg\\sin20^\\circ\\) och friktionen \\(\\mu N=\\mu mg\\cos20^\\circ\\).</p><p>\\[a=g(\\sin20^\\circ+0{,}25\\cos20^\\circ)\\approx9{,}82(0{,}342+0{,}235)\\approx5{,}67\\text{ m/s}^2.\\]</p><p>Massan tar ut sig själv. \\(v^2=v_0^2-2as\\) med \\(v=0\\) ger \\(s=\\frac{6{,}0^2}{2\\cdot5{,}67}\\approx3{,}18\\) m.</p><p><strong>Svar:</strong> cirka 3,18 m</p>",
+    "familj": "Friktion och Newtons andra lag",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela upp tyngdkraften längs och vinkelrätt mot planet. Normalkraften är inte \\(mg\\) här.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.177078050331158,
+    "tolerans": 0.02,
+    "svarEnhet": "m",
+    "typ": "låda uppför lutande plan med friktion"
+  },
+  {
     "id": "4.291",
     "kap": 4,
     "omr": "moment",
@@ -95698,6 +95724,46 @@ window.BANK = [
     "omrTidigare": "newton"
   },
   {
+    "id": "4.500",
+    "kap": 4,
+    "omr": "newton1",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "t": "<p>En lampa med massan 4,0 kg hänger stilla i två snören från taket. Det ena snöret bildar vinkeln \\(30^\\circ\\) med taket och det andra \\(60^\\circ\\).</p><p>Bestäm kraften i varje snöre. Svara i N med en decimal.</p>",
+    "s": "<p>Lampan är i jämvikt, så de vågräta komposanterna tar ut varandra och de lodräta bär tyngden \\(mg=39{,}28\\) N.</p><p>Vågrätt: \\(T_1\\cos30^\\circ=T_2\\cos60^\\circ\\). Lodrätt: \\(T_1\\sin30^\\circ+T_2\\sin60^\\circ=39{,}28\\).</p><p>Ur den första: \\(T_1=T_2\\frac{\\cos60^\\circ}{\\cos30^\\circ}\\approx0{,}577T_2\\). Insatt: \\(1{,}155T_2=39{,}28\\), så \\(T_2\\approx34{,}0\\) N och \\(T_1\\approx19{,}6\\) N.</p><p>Det brantare snöret bär mest. Vinklarna är komplementära, så snörena är vinkelräta mot varandra, och \\(\\sqrt{19{,}6^2+34{,}0^2}\\approx39{,}3\\) N som kontroll.</p><p><strong>Svar:</strong> cirka 19,6 N i snöret med \\(30^\\circ\\) och cirka 34,0 N i snöret med \\(60^\\circ\\)</p>",
+    "familj": "Snörkrafter och jämvikt",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela upp varje snörkraft i vågrät och lodrät komposant. Ställ upp jämvikt i båda riktningarna.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      19.640000000000004,
+      34.017477860652754
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Snöret med 30°",
+      "Snöret med 60°"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "lampa i två snören",
+    "svarEnhet": [
+      "N",
+      "N"
+    ]
+  },
+  {
     "id": "4.318",
     "kap": 4,
     "omr": "lutande_plan",
@@ -96533,6 +96599,57 @@ window.BANK = [
       "N",
       null
     ]
+  },
+  {
+    "id": "5.366",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "t": "<p>En tennisboll med massan 60 g ligger still och träffas av ett racket. Kraften på bollen ökar jämnt från 0 till 600 N under 2,0 ms och minskar sedan jämnt till 0 under ytterligare 3,0 ms.</p><p>Vilken fart får bollen?</p>",
+    "s": "<p>Impulsen är arean under kraft–tid-grafen. Grafen är en triangel med basen 5,0 ms och höjden 600 N:</p><p>\\[I=\\frac{0{,}0050\\cdot600}{2}=1{,}5\\text{ Ns}.\\]</p><p>Impulsen är lika med ändringen i rörelsemängd: \\(1{,}5=0{,}060\\cdot v\\), alltså \\(v=25\\) m/s.</p><p>Det spelar ingen roll hur triangeln är fördelad i tid. Bara arean räknas.</p><p><strong>Svar:</strong> 25 m/s</p>",
+    "familj": "Impuls och medelkraft",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita kraften som funktion av tiden. Vad betyder arean under grafen?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 0.1,
+    "svarEnhet": "m/s",
+    "typ": "impuls ur triangelformad kraftpuls"
+  },
+  {
+    "id": "5.367",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>En boll med massan 0,50 kg rör sig med farten 12 m/s. Hur stor rörelsemängd har den?</p>",
+    "s": "<p>\\(p=mv=0{,}50\\cdot12=6{,}0\\) kgm/s.</p><p><strong>Svar:</strong> 6,0 kgm/s</p>",
+    "familj": "Rörelsemängd p = mv",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rörelsemängd är massa gånger hastighet.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.0,
+    "tolerans": 0.01,
+    "svarEnhet": "kg·m/s",
+    "typ": "rörelsemängd ur massa och fart"
   },
   {
     "id": "7.59",
@@ -97817,6 +97934,48 @@ window.BANK = [
     ]
   },
   {
+    "id": "8.395",
+    "kap": 8,
+    "omr": "parallellkoppling",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Du har tre resistorer på 12 Ω vardera och ska koppla in alla tre.</p><p>Bestäm alla fyra olika ersättningsresistanser som kan fås.</p>",
+    "s": "<ul><li>Alla i serie: \\(3\\cdot12=36\\) Ω.</li><li>Alla parallellt: \\(\\frac{12}{3}=4\\) Ω.</li><li>Två parallellt (6 Ω) i serie med den tredje: \\(6+12=18\\) Ω.</li><li>Två i serie (24 Ω) parallellt med den tredje: \\(\\frac{24\\cdot12}{24+12}=8\\) Ω.</li></ul><p>Parallellkoppling ger alltid lägre resistans än den minsta grenen, och seriekoppling högre än den största.</p><p><strong>Svar:</strong> 4 Ω, 8 Ω, 18 Ω och 36 Ω</p>",
+    "familj": "Ersättningsresistans vid parallellkoppling",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Det finns två ”rena” kopplingar och två blandade. Beräkna de blandade stegvis.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      8,
+      18,
+      36
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "svarsstruktur": "mängd",
+    "typ": "alla kopplingar av tre lika resistorer",
+    "svarEnhet": [
+      "Ω",
+      "Ω",
+      "Ω",
+      "Ω"
+    ]
+  },
+  {
     "id": "8.369",
     "kap": 8,
     "omr": "seriekoppling",
@@ -97872,6 +98031,32 @@ window.BANK = [
     "tolerans": 0.01,
     "svarEnhet": "V",
     "typ": "voltmeterns inverkan på spänningsdelning"
+  },
+  {
+    "id": "8.396",
+    "kap": 8,
+    "omr": "seriekoppling",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "t": "<p>En ljusslinga har 20 likadana lampor seriekopplade till 230 V. Varje lampa ger effekten 4,6 W. En lampa går sönder på ett sådant sätt att den kortsluts, och de övriga 19 fortsätter lysa.</p><p>Vilken effekt får nu varje lampa? Anta att resistansen är konstant. Svara i W med två decimaler.</p>",
+    "s": "<p>Från början får varje lampa \\(\\frac{230}{20}=11{,}5\\) V. Resistansen är \\(R=\\frac{U^2}{P}=\\frac{11{,}5^2}{4{,}6}=28{,}75\\) Ω.</p><p>Med 19 lampor: \\(I=\\frac{230}{19\\cdot28{,}75}\\approx0{,}421\\) A.</p><p>Effekt per lampa: \\(P=I^2R\\approx0{,}421^2\\cdot28{,}75\\approx5{,}10\\) W.</p><p>Varje lampa får cirka 11 % högre effekt och slits snabbare. Därför kan fler lampor gå sönder efter den första.</p><p><strong>Svar:</strong> cirka 5,10 W</p>",
+    "familj": "Ersättningsresistans och ström i serie",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först en lampas resistans. Vilken ström går när en lampa är kortsluten?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.096952908587257,
+    "tolerans": 0.01,
+    "svarEnhet": "W",
+    "typ": "kortsluten lampa i serieslinga"
   },
   {
     "id": "8.370",
@@ -106092,6 +106277,32 @@ window.BANK = [
     "typ": "tangent parallell med korda"
   },
   {
+    "id": "3.365",
+    "kap": 3,
+    "omr": "st_diagram",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En löpare springer 400 m. De första 200 m tar 25 s. Den andra halvan springer hon med medelfarten 6,0 m/s.</p><p>Bestäm medelfarten för hela loppet. Svara med två decimaler.</p>",
+    "s": "<p>Första halvan: medelfart \\(\\frac{200}{25}=8{,}0\\) m/s. Andra halvan tar \\(\\frac{200}{6{,}0}\\approx33{,}3\\) s.</p><p>Medelfart: \\(\\frac{400}{25+33{,}3}\\approx6{,}86\\) m/s.</p><p>Medelvärdet av farterna, \\(\\frac{8{,}0+6{,}0}{2}=7{,}0\\) m/s, blir fel. Löparen springer längre tid med den lägre farten, och den väger därför tyngre. I ett s-t-diagram är medelfarten lutningen på linjen mellan start- och slutpunkt.</p><p><strong>Svar:</strong> cirka 6,86 m/s</p>",
+    "familj": "Hastighet ur s-t-diagram",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Medelfart är total sträcka delad med total tid. Hur lång tid tar andra halvan?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.857142857142857,
+    "tolerans": 0.01,
+    "svarEnhet": "m/s",
+    "typ": "medelfart är inte medelvärdet av farter"
+  },
+  {
     "id": "3.269",
     "kap": 3,
     "omr": "vt_diagram",
@@ -106454,6 +106665,46 @@ window.BANK = [
     "svarEnhet": [
       "s",
       "m"
+    ]
+  },
+  {
+    "id": "3.363",
+    "kap": 3,
+    "omr": "acceleration",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En bil som kör i 90 km/h tvärbromsar och stannar på 40 m. Anta att retardationen är konstant och lika stor oavsett fart.</p><p><strong>a)</strong> Hur lång blir bromssträckan från 120 km/h? Svara i meter med en decimal.</p><p><strong>b)</strong> Om bilen i stället kör i 120 km/h, vilken fart har den kvar efter 40 m bromsning? Svara i km/h med en decimal.</p>",
+    "s": "<p>Vid konstant retardation gäller \\(v^2=v_0^2-2as\\). Från 90 km/h \\(=25\\) m/s till stopp på 40 m: \\(a=\\frac{25^2}{2\\cdot40}\\approx7{,}81\\) m/s².</p><p><strong>a)</strong> Bromssträckan är proportionell mot \\(v_0^2\\): \\(40\\cdot\\left(\\frac{120}{90}\\right)^2\\approx71{,}1\\) m.</p><p><strong>b)</strong> 120 km/h \\(\\approx33{,}33\\) m/s. \\(v^2=33{,}33^2-2\\cdot7{,}81\\cdot40\\approx486\\), så \\(v\\approx22{,}0\\) m/s \\(\\approx79{,}4\\) km/h.</p><p>Där den långsamma bilen redan står still kör den snabba fortfarande i nästan 80 km/h.</p><p><strong>Svar:</strong> a) cirka 71,1 m &nbsp; b) cirka 79,4 km/h</p>",
+    "familj": "Hastighet och tid vid konstant acceleration",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm retardationen ur det första fallet. Använd sambandet mellan fart, acceleration och sträcka.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      71.11111111111111,
+      79.37253933193773
+    ],
+    "tolerans": [
+      0.2,
+      0.2
+    ],
+    "svarEtiketter": [
+      "a) Bromssträcka",
+      "b) Fart kvar"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "bromssträcka och restfart",
+    "svarEnhet": [
+      "m",
+      "km/h"
     ]
   },
   {
@@ -109487,6 +109738,32 @@ window.BANK = [
     "familjTidigare": [
       "Densitet och flytförmåga"
     ]
+  },
+  {
+    "id": "2.290",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "t": "<p>En ihålig stålkula har ytterradien 10,0 cm. Stålets densitet är 7 850 kg/m³. Kulan svävar helt nedsänkt i vatten (densitet 1 000 kg/m³), alltså varken sjunker eller stiger.</p><p>Hur stor är kulans innerradie? Svara i cm med en decimal.</p>",
+    "s": "<p>Kulan svävar när dess medeldensitet är lika med vattnets. Kulans massa (stålet) ska då vara lika med massan av lika stor volym vatten:</p><p>\\[7\\,850\\cdot\\tfrac43\\pi(R^3-r^3)=1\\,000\\cdot\\tfrac43\\pi R^3.\\]</p><p>\\(R^3-r^3=\\frac{1000}{7850}R^3\\), så \\(r^3=R^3\\left(1-\\frac{1000}{7850}\\right)\\approx0{,}8726\\cdot1\\,000\\) cm³.</p><p>\\(r=\\sqrt[3]{872{,}6}\\approx9{,}6\\) cm. Stålskalet är alltså bara cirka 4,4 mm tjockt.</p><p><strong>Svar:</strong> cirka 9,6 cm</p>",
+    "familj": "Sammansatta och ihåliga föremål",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>När svävar ett föremål? Jämför stålets massa med massan av den vattenvolym som kulan tränger undan.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.555944929157688,
+    "tolerans": 0.05,
+    "svarEnhet": "cm",
+    "typ": "ihålig kula som svävar"
   },
   {
     "id": "GY25-FY1-STD-01",
@@ -112920,6 +113197,46 @@ window.BANK = [
     "svarEnhet": [
       "N",
       "m"
+    ]
+  },
+  {
+    "id": "6.368",
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En sugkopp med diametern 6,0 cm sitter i ett tak. Lufttrycket är 101,3 kPa.</p><p><strong>a)</strong> Hur stor massa kan sugkoppen högst bära om det är helt lufttomt under den? Svara i kg med en decimal.</p><p><strong>b)</strong> I praktiken finns ett restryck på 30 kPa under sugkoppen. Hur stor massa kan den då bära?</p>",
+    "s": "<p>Arean är \\(\\pi\\cdot0{,}030^2\\approx2{,}83\\cdot10^{-3}\\) m². Sugkoppen hålls fast av tryckskillnaden mellan luften utanför och utrymmet under koppen.</p><p><strong>a)</strong> \\(F=101\\,300\\cdot2{,}83\\cdot10^{-3}\\approx286\\) N, alltså \\(m=\\frac{286}{9{,}82}\\approx29{,}2\\) kg.</p><p><strong>b)</strong> Tryckskillnaden är \\(71{,}3\\) kPa: \\(F\\approx202\\) N, alltså \\(m\\approx20{,}5\\) kg.</p><p>Sugkoppens egen tyngd är försummad. Tillverkare anger ofta mycket lägre maxlaster för säkerhets skull.</p><p><strong>Svar:</strong> a) cirka 29,2 kg &nbsp; b) cirka 20,5 kg</p>",
+    "familj": "Övertryck och sugkoppar",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vad är det som håller fast sugkoppen? Beräkna kraften från tryckskillnaden.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29.166904503847398,
+      20.529124295402955
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "sugkopp i tak med och utan restryck",
+    "svarEnhet": [
+      "kg",
+      "kg"
     ]
   },
   {
@@ -117663,6 +117980,32 @@ window.BANK = [
     ]
   },
   {
+    "id": "3.366",
+    "kap": 3,
+    "omr": "vektorer",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Två krafter på 30 N och 40 N verkar på samma punkt. Resultanten har storleken 60 N.</p><p>Hur stor är vinkeln mellan de två krafterna? Svara i grader med en decimal.</p>",
+    "s": "<p>Dela upp kraften på 40 N i en komposant längs kraften på 30 N och en vinkelrät komposant. Med vinkeln \\(v\\) mellan krafterna:</p><p>\\[R^2=(30+40\\cos v)^2+(40\\sin v)^2=30^2+40^2+2\\cdot30\\cdot40\\cos v.\\]</p><p>\\(3\\,600=2\\,500+2\\,400\\cos v\\), så \\(\\cos v\\approx0{,}458\\) och \\(v\\approx62{,}7^\\circ\\).</p><p>Rimlighet: vid \\(90^\\circ\\) skulle resultanten vara 50 N och vid \\(0^\\circ\\) 70 N. 60 N ligger mellan, så vinkeln ska vara mindre än \\(90^\\circ\\).</p><p><strong>Svar:</strong> cirka \\(62{,}7^\\circ\\)</p>",
+    "familj": "Addera vektorer",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela upp den ena kraften i komposanter längs och vinkelrätt mot den andra. Använd Pythagoras sats för resultanten.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 62.72038726402191,
+    "tolerans": 0.1,
+    "svarEnhet": "°",
+    "typ": "vinkel mellan krafter ur resultant"
+  },
+  {
     "id": "3.346",
     "kap": 3,
     "omr": "at_diagram",
@@ -117997,6 +118340,46 @@ window.BANK = [
     "svarEnhet": [
       "s",
       "m"
+    ]
+  },
+  {
+    "id": "3.364",
+    "kap": 3,
+    "omr": "at_diagram",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En vagn har farten 2,0 m/s vid \\(t=0\\). Dess acceleration ökar jämnt från 0 till 4,0 m/s² under de första 6,0 sekunderna, så att a-t-diagrammet är en rät linje genom origo.</p><p>Bestäm farten vid \\(t=6{,}0\\) s och den tidpunkt då farten är 8,0 m/s. Svara med två decimaler för tiden.</p>",
+    "s": "<p>Arean under a-t-diagrammet är hastighetsändringen. Accelerationen är \\(a(t)=\\frac{4{,}0}{6{,}0}t=\\frac23t\\).</p><p>Fram till \\(t=6{,}0\\) s är arean en triangel: \\(\\frac{6{,}0\\cdot4{,}0}{2}=12\\) m/s. Farten blir \\(2{,}0+12=14\\) m/s.</p><p>Fram till tiden \\(t\\) är arean \\(\\frac12\\cdot t\\cdot\\frac23t=\\frac{t^2}{3}\\). Farten 8,0 m/s kräver ökningen 6,0 m/s: \\(\\frac{t^2}{3}=6\\), alltså \\(t=\\sqrt{18}\\approx4{,}24\\) s.</p><p><strong>Svar:</strong> 14 m/s och cirka 4,24 s</p>",
+    "familj": "Tolka a-t-diagram",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vad betyder arean under ett a-t-diagram? Arean från 0 till \\(t\\) är en triangel.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      4.242640687119285
+    ],
+    "tolerans": [
+      0.05,
+      0.01
+    ],
+    "svarEtiketter": [
+      "Fart vid 6 s",
+      "Tidpunkt"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "ökande acceleration i a-t-diagram",
+    "svarEnhet": [
+      "m/s",
+      "s"
     ]
   },
   {
@@ -118721,6 +119104,57 @@ window.BANK = [
     ]
   },
   {
+    "id": "4.503",
+    "kap": 4,
+    "omr": "tyngdkraft",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En astronaut hoppar rakt upp och lyfter tyngdpunkten 0,40 m på jorden. På Mars är tyngdaccelerationen 3,71 m/s².</p><p>Hur högt kommer astronauten på Mars med samma utgångsfart? Försumma luftmotståndet och utrustningens extra massa. Svara i meter med två decimaler.</p>",
+    "s": "<p>Med utgångsfarten \\(v\\) blir höjden \\(h=\\frac{v^2}{2g}\\). Samma \\(v\\) ger alltså en höjd som är omvänt proportionell mot \\(g\\).</p><p>\\[h_{\\text{Mars}}=0{,}40\\cdot\\frac{9{,}82}{3{,}71}\\approx1{,}06\\text{ m}.\\]</p><p>Massan är densamma på Mars, men tyngden är bara cirka 38 % av tyngden på jorden.</p><p><strong>Svar:</strong> cirka 1,06 m</p>",
+    "familj": "Massa och tyngd",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur beror hopphöjden på tyngdaccelerationen när utgångsfarten är densamma?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0587601078167117,
+    "tolerans": 0.01,
+    "svarEnhet": "m",
+    "typ": "hopphöjd på Mars"
+  },
+  {
+    "id": "4.504",
+    "kap": 4,
+    "omr": "tyngdkraft",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>Hur stor är tyngdkraften på en person med massan 60 kg på jorden? Svara i N.</p>",
+    "s": "<p>\\(F=mg=60\\cdot9{,}82\\approx589\\) N.</p><p><strong>Svar:</strong> cirka 589 N</p>",
+    "familj": "Massa och tyngd",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Tyngdkraften är massan gånger tyngdaccelerationen.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 589.2,
+    "tolerans": 1,
+    "svarEnhet": "N",
+    "typ": "tyngd ur massa"
+  },
+  {
     "id": "4.475",
     "kap": 4,
     "omr": "normalkraft",
@@ -119045,6 +119479,46 @@ window.BANK = [
     "tolerans": 0.1,
     "svarEnhet": "kg",
     "typ": "vågutslag vid inbromsning uppåt"
+  },
+  {
+    "id": "4.502",
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En låda med massan 20 kg står still på ett golv.</p><p><strong>a)</strong> Du drar i ett rep med kraften 80 N snett uppåt, \\(30^\\circ\\) över horisontalen, utan att lådan rör sig. Hur stor är normalkraften?</p><p><strong>b)</strong> Du trycker i stället med 80 N snett nedåt, \\(30^\\circ\\) under horisontalen. Hur stor är normalkraften nu?</p>",
+    "s": "<p>Tyngden är \\(20\\cdot9{,}82=196{,}4\\) N. Kraftens lodräta komposant är \\(80\\sin30^\\circ=40\\) N.</p><p><strong>a)</strong> Draget lyfter lite: \\(N=196{,}4-40=156{,}4\\) N.</p><p><strong>b)</strong> Trycket pressar lådan mot golvet: \\(N=196{,}4+40=236{,}4\\) N.</p><p>Eftersom friktionen är proportionell mot normalkraften är det lättare att dra en låda snett uppåt än att skjuta den snett nedåt.</p><p><strong>Svar:</strong> a) cirka 156 N &nbsp; b) cirka 236 N</p>",
+    "familj": "Normalkraft vid vila",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela upp kraften i en vågrät och en lodrät komposant. Hur påverkar den lodräta komposanten normalkraften?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      156.4,
+      236.4
+    ],
+    "tolerans": [
+      1,
+      1
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "normalkraft vid sned dragkraft",
+    "svarEnhet": [
+      "N",
+      "N"
+    ]
   },
   {
     "id": "4.485",
@@ -119567,6 +120041,30 @@ window.BANK = [
     "typ": "antal elektroner vid laddningsfördelning"
   },
   {
+    "id": "8.394",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>Hur många elektroner motsvarar laddningen \\(-1{,}0\\) C? Svara i grundpotensform med tre värdesiffror.</p>",
+    "s": "<p>\\(n=\\frac{1{,}0}{1{,}602\\cdot10^{-19}}\\approx6{,}24\\cdot10^{18}\\).</p><p><strong>Svar:</strong> cirka \\(6{,}24\\cdot10^{18}\\) elektroner</p>",
+    "familj": "Laddning och elementarladdning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela laddningen med elementarladdningen.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.242197253433209e+18,
+    "tolerans": 1e+16,
+    "typ": "antal elektroner i en coulomb"
+  },
+  {
     "id": "8.377",
     "kap": 8,
     "omr": "strom",
@@ -119954,6 +120452,46 @@ window.BANK = [
     "typ": "elektronernas driftfart"
   },
   {
+    "id": "8.397",
+    "kap": 8,
+    "omr": "strom",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Ett idealt batteri på 6,0 V är kopplat till en resistor på 10 Ω. En amperemeter med den inre resistansen 0,50 Ω kopplas in i serie för att mäta strömmen.</p><p>Vad visar amperemetern, och hur många procent lägre är det än strömmen utan amperemetern? Svara med tre decimaler respektive en decimal.</p>",
+    "s": "<p>Utan amperemeter: \\(I_0=\\frac{6{,}0}{10}=0{,}600\\) A.</p><p>Med amperemeter: \\(I=\\frac{6{,}0}{10{,}5}\\approx0{,}571\\) A.</p><p>Skillnad: \\(\\frac{0{,}600-0{,}571}{0{,}600}\\approx4{,}8\\,\\%\\).</p><p>En amperemeter ska ha mycket liten resistans jämfört med kretsen, annars ändrar den det den mäter.</p><p><strong>Svar:</strong> cirka 0,571 A, vilket är cirka 4,8 % för lågt</p>",
+    "familj": "Kretsar och mätinstrument",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Amperemetern är en resistor i serie. Vad blir den totala resistansen?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5714285714285714,
+      4.761904761904764
+    ],
+    "tolerans": [
+      0.001,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Ström",
+      "Procent lägre"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "amperemeterns inverkan på kretsen",
+    "svarEnhet": [
+      "A",
+      "%"
+    ]
+  },
+  {
     "id": "9.261",
     "kap": 9,
     "omr": "standardmodellen",
@@ -120291,6 +120829,39 @@ window.BANK = [
     "miniräknare": false,
     "geogebra": false,
     "svarFormat": "numeriskt"
+  },
+  {
+    "id": "9.329",
+    "kap": 9,
+    "omr": "standardmodellen",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Baryoner består av tre kvarkar. En u-kvark har laddningen \\(+\\frac23e\\) och en d-kvark \\(-\\frac13e\\).</p><p><strong>a)</strong> En baryon som bara innehåller u- och d-kvarkar har laddningen \\(+2e\\). Hur många u-kvarkar har den?</p><p><strong>b)</strong> En annan sådan baryon har laddningen \\(-e\\). Hur många u-kvarkar har den?</p>",
+    "s": "<p>Med \\(n\\) u-kvarkar och \\(3-n\\) d-kvarkar blir laddningen \\(\\frac23n-\\frac13(3-n)=n-1\\) (i enheter av \\(e\\)).</p><p><strong>a)</strong> \\(n-1=2\\) ger \\(n=3\\): uuu, partikeln \\(\\Delta^{++}\\).</p><p><strong>b)</strong> \\(n-1=-1\\) ger \\(n=0\\): ddd, partikeln \\(\\Delta^{-}\\).</p><p>Formeln visar också varför protonen (uud, \\(n=2\\)) har laddningen \\(+1\\) och neutronen (udd, \\(n=1\\)) laddningen 0.</p><p><strong>Svar:</strong> a) 3 &nbsp; b) 0</p>",
+    "familj": "Kvarkarnas laddning",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv laddningen som en funktion av antalet u-kvarkar.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      0
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "kvarkinnehåll ur laddning"
   },
   {
     "id": "9.271",
@@ -120778,6 +121349,32 @@ window.BANK = [
     "rättSvar": 1.2358535214253614e+36,
     "tolerans": 6e+34,
     "typ": "jämför elektrisk kraft och gravitation"
+  },
+  {
+    "id": "9.328",
+    "kap": 9,
+    "omr": "fyra_krafterna",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "t": "<p>Tänk dig att jorden och månen hade lika stora laddningar av samma tecken. Hur stor skulle laddningen behöva vara för att den elektriska repulsionen skulle ta ut gravitationen mellan dem?</p><p>Använd \\(M_J=5{,}97\\cdot10^{24}\\) kg, \\(M_M=7{,}35\\cdot10^{22}\\) kg, \\(G=6{,}67\\cdot10^{-11}\\) Nm²/kg² och \\(k=8{,}99\\cdot10^9\\) Nm²/C². Svara i grundpotensform med två värdesiffror.</p>",
+    "s": "<p>Båda krafterna är omvänt proportionella mot \\(r^2\\), så avståndet tar ut sig självt:</p><p>\\[k\\frac{Q^2}{r^2}=G\\frac{M_JM_M}{r^2}\\;\\Rightarrow\\;Q=\\sqrt{\\frac{GM_JM_M}{k}}\\approx5{,}7\\cdot10^{13}\\text{ C}.\\]</p><p>Det motsvarar cirka \\(3{,}6\\cdot10^{32}\\) elektroner. Det är ändå en försumbar andel av jordens elektroner. Att himlakroppar styrs av gravitationen beror alltså på att de är nästan exakt elektriskt neutrala, inte på att gravitationen är stark.</p><p><strong>Svar:</strong> cirka \\(5{,}7\\cdot10^{13}\\) C</p>",
+    "familj": "De fyra fundamentala krafterna",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Sätt den elektriska kraften lika med gravitationskraften. Vad händer med avståndet?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 57057653355633.305,
+    "tolerans": 600000000000.0,
+    "svarEnhet": "C",
+    "typ": "laddning som balanserar gravitationen"
   },
   {
     "id": "9.281",
@@ -122300,6 +122897,32 @@ window.BANK = [
     "geogebra": false
   },
   {
+    "id": "3.367",
+    "kap": 3,
+    "omr": "vt_diagram",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Ett tåg startar från en station och accelererar jämnt till 20 m/s på 40 s. Sedan kör det med konstant fart och bromsar till sist jämnt till stillastående på 25 s. Avståndet till nästa station är 3,0 km.</p><p>Hur lång tid tar resan? Svara i sekunder med en decimal.</p>",
+    "s": "<p>Rita ett v-t-diagram. Arean under diagrammet är sträckan.</p><p>Acceleration: \\(\\frac{40\\cdot20}{2}=400\\) m. Inbromsning: \\(\\frac{25\\cdot20}{2}=250\\) m.</p><p>Konstant fart: \\(3\\,000-650=2\\,350\\) m, som tar \\(\\frac{2\\,350}{20}=117{,}5\\) s.</p><p>Total tid: \\(40+117{,}5+25=182{,}5\\) s, alltså drygt 3 minuter.</p><p><strong>Svar:</strong> 182,5 s</p>",
+    "familj": "Sträcka och förflyttning ur v-t-diagram",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Diagrammet blir ett parallelltrapets. Hur lång sträcka avverkas under accelerationen och inbromsningen?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 182.5,
+    "tolerans": 0.1,
+    "svarEnhet": "s",
+    "typ": "restid ur trapetsformat v-t-diagram"
+  },
+  {
     "id": "4.493",
     "kap": 4,
     "omr": "newton3",
@@ -122436,6 +123059,46 @@ window.BANK = [
     "svarEnhet": [
       "N",
       "N"
+    ]
+  },
+  {
+    "id": "4.501",
+    "kap": 4,
+    "omr": "newton3",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>Ett lok på 80 ton drar två vagnar på 40 ton vardera på ett plant spår. Tåget accelererar med 0,50 m/s². Försumma friktion och luftmotstånd.</p><p>Hur stor är kraften i kopplingen mellan loket och den första vagnen, och i kopplingen mellan de två vagnarna? Svara i kN.</p>",
+    "s": "<p>Kopplingen mellan vagnarna drar bara den sista vagnen: \\(F_2=40\\,000\\cdot0{,}50=20\\) kN.</p><p>Kopplingen mellan loket och den första vagnen drar båda vagnarna: \\(F_1=80\\,000\\cdot0{,}50=40\\) kN.</p><p>Enligt tredje lagen drar vagnarna lika mycket bakåt på loket. Lokets drivkraft måste därför vara \\(160\\,000\\cdot0{,}50=80\\) kN för att också accelerera loket.</p><p><strong>Svar:</strong> 40 kN och 20 kN</p>",
+    "familj": "Kraft och motkraft",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Frilägg den del av tåget som varje koppling drar.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      20
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Lok–vagn 1",
+      "Vagn 1–vagn 2"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "kopplingskrafter i tåg",
+    "svarEnhet": [
+      "kN",
+      "kN"
     ]
   },
   {
@@ -122958,5 +123621,30 @@ window.BANK = [
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "µeV"
+  },
+  {
+    "id": "9.327",
+    "kap": 9,
+    "omr": "em_stralning",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "t": "<p>En röd laserpekare har effekten 5,0 mW och våglängden 650 nm.</p><p>Hur många fotoner sänder den ut per sekund? Svara i grundpotensform med två värdesiffror. Använd \\(h=6{,}626\\cdot10^{-34}\\) Js och \\(c=3{,}00\\cdot10^8\\) m/s.</p>",
+    "s": "<p>En foton har energin \\(E=\\frac{hc}{\\lambda}=\\frac{6{,}626\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{650\\cdot10^{-9}}\\approx3{,}06\\cdot10^{-19}\\) J.</p><p>Effekten är energi per sekund: \\(n=\\frac{5{,}0\\cdot10^{-3}}{3{,}06\\cdot10^{-19}}\\approx1{,}6\\cdot10^{16}\\) fotoner per sekund.</p><p>Varje foton har mycket liten energi, så även en svag laser sänder ut enormt många fotoner.</p><p><strong>Svar:</strong> cirka \\(1{,}6\\cdot10^{16}\\) fotoner per sekund</p>",
+    "familj": "Fotonenergi",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm energin för en foton. Effekten anger hur mycket energi som sänds ut per sekund.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.6349733373578832e+16,
+    "tolerans": 600000000000000.0,
+    "typ": "antal fotoner från laser"
   }
 ];

@@ -69061,6 +69061,92 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "4.476",
+    "kap": 4,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[2\\sin^2x=\\sin x\\]</p><p>för \\(0^\\circ\\le x\\le360^\\circ\\). Ange alla lösningar.</p>",
+    "s": "<p>Dela inte med \\(\\sin x\\), för då försvinner lösningarna där \\(\\sin x=0\\). Faktorisera i stället:</p><p>\\[2\\sin^2x-\\sin x=0\\;\\Leftrightarrow\\;\\sin x\\,(2\\sin x-1)=0.\\]</p><p>\\(\\sin x=0\\) ger \\(x=0^\\circ,\\ 180^\\circ,\\ 360^\\circ\\).</p><p>\\(\\sin x=\\frac12\\) ger \\(x=30^\\circ\\) och \\(x=150^\\circ\\).</p><p><strong>Svar:</strong> \\(x=0^\\circ,\\ 30^\\circ,\\ 150^\\circ,\\ 180^\\circ,\\ 360^\\circ\\)</p>",
+    "familj": "Lösa trigonometriska ekvationer",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Flytta över allt till ena sidan och bryt ut \\(\\sin x\\). Glöm inte ändpunkterna i intervallet.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      30,
+      150,
+      180,
+      360
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "°",
+      "°"
+    ]
+  },
+  {
+    "id": "4.477",
+    "kap": 4,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(\\sin x=0{,}5\\) för \\(0^\\circ\\le x\\le360^\\circ\\).</p>",
+    "s": "<p>\\(\\sin30^\\circ=0{,}5\\). Enhetscirkeln ger ytterligare en lösning med samma \\(y\\)-koordinat: \\(180^\\circ-30^\\circ=150^\\circ\\).</p><p><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(x=150^\\circ\\)</p>",
+    "familj": "Lösa trigonometriska ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita enhetscirkeln. Var har punkterna \\(y\\)-koordinaten 0,5?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      150
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°"
+    ]
+  },
+  {
     "id": "4.427",
     "kap": 4,
     "omr": "enhetscirkeln",
@@ -76419,6 +76505,42 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Derivatans tecken och monotoni"
     ]
+  },
+  {
+    "id": "3.1143",
+    "kap": 3,
+    "omr": "deriverbarhet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f\\) är definierad av</p><p>\\[f(x)=\\begin{cases}x^2, &amp; x\\le1\\\\ ax+b, &amp; x&gt;1\\end{cases}\\]</p><p>Bestäm \\(a\\) och \\(b\\) så att \\(f\\) blir deriverbar i \\(x=1\\).</p>",
+    "s": "<p>För att \\(f\\) ska vara deriverbar i \\(x=1\\) måste den först vara kontinuerlig där. Dessutom måste lutningarna från vänster och höger vara lika.</p><p>Kontinuitet: \\(1^2=a\\cdot1+b\\), alltså \\(a+b=1\\).</p><p>Lika lutning: derivatan av \\(x^2\\) är \\(2x\\), som är 2 i \\(x=1\\). Linjens lutning är \\(a\\). Alltså \\(a=2\\) och \\(b=-1\\).</p><p>Linjen \\(y=2x-1\\) är just tangenten till \\(y=x^2\\) i \\((1,\\,1)\\), så graferna går ihop utan knyck.</p><p><strong>Svar:</strong> \\(a=2\\), \\(b=-1\\)</p>",
+    "familj": "Deriverbarhet",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Två villkor behövs: graferna ska mötas, och de ska ha samma lutning i mötespunkten.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -1
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.679",
@@ -88584,6 +88706,48 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "4.480",
+    "kap": 4,
+    "omr": "trig_tillampningar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Två lantmätare står i punkterna \\(A\\) och \\(B\\), 500 m från varandra. De siktar mot ett torn \\(T\\) på andra sidan en flod. Vinkeln \\(TAB\\) är \\(62^\\circ\\) och vinkeln \\(TBA\\) är \\(71^\\circ\\).</p><p>Bestäm avståndet \\(AT\\) och det kortaste avståndet från tornet till linjen \\(AB\\). Svara i meter med en decimal.</p>",
+    "s": "<p>Vinkeln vid tornet: \\(180^\\circ-62^\\circ-71^\\circ=47^\\circ\\).</p><p>Sinussatsen: \\(\\dfrac{AT}{\\sin71^\\circ}=\\dfrac{500}{\\sin47^\\circ}\\), alltså \\(AT=\\dfrac{500\\sin71^\\circ}{\\sin47^\\circ}\\approx646{,}4\\) m.</p><p>Kortaste avståndet till linjen är höjden från \\(T\\): \\(h=AT\\cdot\\sin62^\\circ\\approx570{,}8\\) m.</p><p><strong>Svar:</strong> \\(AT\\approx646{,}4\\) m och avståndet till linjen är cirka 570,8 m</p>",
+    "familj": "Avstånd och triangulering",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm vinkeln vid tornet och använd sinussatsen. Det kortaste avståndet är en höjd i triangeln.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      646.416756697887,
+      570.7521193100739
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "svarEtiketter": [
+      "AT",
+      "Avstånd till AB"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "m",
+      "m"
+    ]
+  },
+  {
     "id": "4.440",
     "kap": 4,
     "omr": "geometriska_summor",
@@ -88706,6 +88870,34 @@ window.BANKMATO1 = [
     "omrTidigare": [
       "triangelsatser"
     ]
+  },
+  {
+    "id": "4.481",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I triangeln \\(ABC\\) är \\(a=7\\) cm, \\(b=5\\) cm och vinkeln \\(A=40^\\circ\\).</p><p>Bestäm vinkeln \\(C\\). Förklara varför det bara finns en möjlig triangel. Svara i grader med en decimal.</p>",
+    "s": "<p>Sinussatsen: \\(\\sin B=\\dfrac{5\\sin40^\\circ}{7}\\approx0{,}4591\\). Det ger \\(B\\approx27{,}3^\\circ\\) eller \\(B\\approx152{,}7^\\circ\\).</p><p>Det trubbiga alternativet går inte: \\(40^\\circ+152{,}7^\\circ&gt;180^\\circ\\). Dessutom är \\(b&lt;a\\), så \\(B\\) måste vara mindre än \\(A\\).</p><p>\\(C=180^\\circ-40^\\circ-27{,}3^\\circ\\approx112{,}7^\\circ\\).</p><p><strong>Svar:</strong> \\(C\\approx112{,}7^\\circ\\)</p>",
+    "familj": "Använda sinussatsen",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm vinkel \\(B\\) med sinussatsen. Pröva om även den trubbiga vinkeln med samma sinusvärde fungerar.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 112.66875934140919,
+    "tolerans": 0.1,
+    "svarEnhet": "°"
   },
   {
     "id": "4.444",
@@ -88900,6 +89092,48 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Analysera det tvetydiga fallet i sinussatsen"
+    ]
+  },
+  {
+    "id": "4.482",
+    "kap": 4,
+    "omr": "sinussatsen_tva_fall",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I triangeln \\(ABC\\) är \\(a=6\\) cm, \\(b=8\\) cm och vinkeln \\(A=35^\\circ\\). Det finns två trianglar med dessa mått.</p><p>Bestäm de två möjliga längderna på sidan \\(c\\). Svara med två decimaler.</p>",
+    "s": "<p>\\(\\sin B=\\dfrac{8\\sin35^\\circ}{6}\\approx0{,}7648\\), vilket ger \\(B_1\\approx49{,}9^\\circ\\) eller \\(B_2\\approx130{,}1^\\circ\\). Båda fungerar, eftersom \\(35^\\circ+130{,}1^\\circ&lt;180^\\circ\\).</p><p>Fall 1: \\(C_1\\approx95{,}1^\\circ\\) och \\(c_1=\\dfrac{6\\sin C_1}{\\sin35^\\circ}\\approx10{,}42\\) cm.</p><p>Fall 2: \\(C_2\\approx14{,}9^\\circ\\) och \\(c_2=\\dfrac{6\\sin C_2}{\\sin35^\\circ}\\approx2{,}69\\) cm.</p><p><strong>Svar:</strong> \\(c\\approx2{,}69\\) cm eller \\(c\\approx10{,}42\\) cm</p>",
+    "familj": "Sinussatsen med två fall",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm de två möjliga vinklarna \\(B\\). Beräkna sedan \\(C\\) och \\(c\\) i varje fall.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.6874,
+      10.419
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "svarEtiketter": [
+      "c",
+      "c"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "cm",
+      "cm"
     ]
   },
   {
@@ -89305,6 +89539,48 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Triangelsatser i indirekt avståndsmätning"
+    ]
+  },
+  {
+    "id": "4.478",
+    "kap": 4,
+    "omr": "cosinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En parallellogram har sidorna 5 cm och 8 cm. Den spetsiga vinkeln är \\(60^\\circ\\).</p><p>Bestäm längden av båda diagonalerna. Svara med två decimaler.</p>",
+    "s": "<p>Den korta diagonalen ligger mitt emot den spetsiga vinkeln \\(60^\\circ\\):</p><p>\\[d_1^2=5^2+8^2-2\\cdot5\\cdot8\\cos60^\\circ=89-40=49\\;\\Rightarrow\\;d_1=7\\text{ cm}.\\]</p><p>Den långa diagonalen ligger mitt emot den trubbiga vinkeln \\(120^\\circ\\), och \\(\\cos120^\\circ=-\\frac12\\):</p><p>\\[d_2^2=89+40=129\\;\\Rightarrow\\;d_2=\\sqrt{129}\\approx11{,}36\\text{ cm}.\\]</p><p><strong>Svar:</strong> 7,00 cm och cirka 11,36 cm</p>",
+    "familj": "Använda cosinussatsen",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Varje diagonal delar parallellogrammen i två trianglar. Vilken vinkel ligger mitt emot respektive diagonal?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      11.357816691600547
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "svarEtiketter": [
+      "Kort diagonal",
+      "Lång diagonal"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "cm",
+      "cm"
     ]
   },
   {
@@ -89916,6 +90192,45 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Triangelarea med triangelsatser"
+    ]
+  },
+  {
+    "id": "4.473",
+    "kap": 4,
+    "omr": "areasatsen",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En triangel har två sidor med längderna 8 cm och 10 cm. Triangelns area är \\(20\\sqrt3\\) cm².</p><p>Bestäm alla möjliga värden på vinkeln mellan de två sidorna.</p>",
+    "s": "<p>Areasatsen: \\(A=\\frac12\\cdot8\\cdot10\\cdot\\sin v=40\\sin v\\).</p><p>\\(40\\sin v=20\\sqrt3\\) ger \\(\\sin v=\\frac{\\sqrt3}{2}\\).</p><p>I en triangel är \\(0^\\circ&lt;v&lt;180^\\circ\\). Där har ekvationen två lösningar: \\(v=60^\\circ\\) och \\(v=120^\\circ\\).</p><p>Båda ger samma area, eftersom \\(\\sin120^\\circ=\\sin60^\\circ\\). Trianglarna är olika men lika stora.</p><p><strong>Svar:</strong> \\(60^\\circ\\) eller \\(120^\\circ\\)</p>",
+    "familj": "Areasatsen",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd areasatsen och lös ut \\(\\sin v\\). Hur många vinklar mellan \\(0^\\circ\\) och \\(180^\\circ\\) har samma sinusvärde?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      120
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Vinkel",
+      "Vinkel"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°"
     ]
   },
   {
@@ -91038,6 +91353,70 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "4.474",
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En regelbunden sexhörning är inskriven i en cirkel med radien 1.</p><p>Bestäm sexhörningens area exakt, med hjälp av exakta trigonometriska värden. Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>Dra sträckor från cirkelns medelpunkt till hörnen. Det ger sex likbenta trianglar med två sidor 1 och toppvinkeln \\(\\frac{360^\\circ}{6}=60^\\circ\\).</p><p>Varje triangel har arean \\(\\frac12\\cdot1\\cdot1\\cdot\\sin60^\\circ=\\frac{\\sqrt3}{4}\\).</p><p>Sexhörningens area: \\(6\\cdot\\frac{\\sqrt3}{4}=\\frac{3\\sqrt3}{2}\\approx2{,}598\\).</p><p>Det är cirka 83 % av cirkelns area, \\(\\pi\\approx3{,}14\\).</p><p><strong>Svar:</strong> \\(\\frac{3\\sqrt3}{2}\\approx2{,}598\\)</p>",
+    "familj": "Exakta trigonometriska värden",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela sexhörningen i sex trianglar med ett hörn i cirkelns medelpunkt. Vilken vinkel har de vid medelpunkten?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.598076211353316,
+    "tolerans": 0.001
+  },
+  {
+    "id": "4.475",
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>I en rätvinklig triangel är \\(\\sin v=\\frac35\\), där \\(v\\) är en av de spetsiga vinklarna.</p><p>Bestäm \\(\\cos v\\) och \\(\\tan v\\) exakt.</p>",
+    "s": "<p>Rita en triangel med motstående katet 3 och hypotenusa 5. Pythagoras sats ger den närliggande kateten \\(\\sqrt{25-9}=4\\).</p><p>\\(\\cos v=\\frac45\\) och \\(\\tan v=\\frac34\\).</p><p><strong>Svar:</strong> \\(\\cos v=\\frac45\\), \\(\\tan v=\\frac34\\)</p>",
+    "familj": "Trigonometri i rätvinkliga trianglar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita en rätvinklig triangel där sinusvärdet stämmer och bestäm den tredje sidan.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8,
+      0.75
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "cos v",
+      "tan v"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "1.545",
     "kap": 1,
     "omr": "funktioner",
@@ -91763,6 +92142,47 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "4.479",
+    "kap": 4,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Det gäller att \\(\\sin v=0{,}6\\) och \\(90^\\circ&lt;v&lt;180^\\circ\\).</p><p>Bestäm utan att bestämma \\(v\\):</p><p><strong>a)</strong> \\(\\cos v\\) &nbsp; <strong>b)</strong> \\(\\sin(180^\\circ-v)\\) &nbsp; <strong>c)</strong> \\(\\cos(180^\\circ+v)\\)</p>",
+    "s": "<p><strong>a)</strong> Trigonometriska ettan: \\(\\cos^2v=1-0{,}36=0{,}64\\). Eftersom \\(v\\) ligger i andra kvadranten är \\(\\cos v\\) negativ: \\(\\cos v=-0{,}8\\).</p><p><strong>b)</strong> Spegling i \\(y\\)-axeln: \\(\\sin(180^\\circ-v)=\\sin v=0{,}6\\).</p><p><strong>c)</strong> Spegling i origo: \\(\\cos(180^\\circ+v)=-\\cos v=0{,}8\\).</p><p><strong>Svar:</strong> a) \\(-0{,}8\\) &nbsp; b) 0,6 &nbsp; c) 0,8</p>",
+    "familj": "Symmetri och exakta värden i enhetscirkeln",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd trigonometriska ettan och tänk på i vilken kvadrant vinkeln ligger. Rita punkterna för \\(v\\), \\(180^\\circ-v\\) och \\(180^\\circ+v\\) i enhetscirkeln.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -0.8,
+      0.6,
+      0.8
+    ],
+    "tolerans": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "1.557",
     "kap": 1,
     "omr": "rationella_ekvationer",
@@ -92333,6 +92753,34 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Bestäm primitiv funktion med begynnelsevillkor"
     ]
+  },
+  {
+    "id": "3.1147",
+    "kap": 3,
+    "omr": "primitiva_villkor",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f'(x)=6x-4\\). Grafen till \\(f\\) tangerar \\(x\\)-axeln.</p><p>Bestäm \\(f(0)\\). Svara exakt.</p>",
+    "s": "<p>\\(f(x)=3x^2-4x+C\\). Grafen är en parabel med minimipunkt där \\(f'(x)=0\\), alltså \\(x=\\frac23\\).</p><p>Att grafen tangerar \\(x\\)-axeln betyder att minimipunkten ligger på \\(x\\)-axeln:</p><p>\\[f\\left(\\tfrac23\\right)=3\\cdot\\tfrac49-\\tfrac83+C=-\\tfrac43+C=0\\;\\Rightarrow\\;C=\\tfrac43.\\]</p><p>\\(f(0)=C=\\frac43\\).</p><p><strong>Svar:</strong> \\(f(0)=\\frac43\\)</p>",
+    "familj": "Återskapa funktion från derivata",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm en primitiv funktion med en okänd konstant. Var på grafen sker tangeringen med \\(x\\)-axeln?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.3333333333333333,
+    "tolerans": 0.001
   },
   {
     "id": "2.775",
@@ -94096,6 +94544,34 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "3.1146",
+    "kap": 3,
+    "omr": "storsta_minsta",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>Funktionen \\(f(x)=x^3-3x\\) betraktas på intervallet \\(-2\\le x\\le a\\), där \\(a&gt;-1\\).</p><p>Bestäm det största värde på \\(a\\) som gör att funktionens största värde på intervallet är 2.</p>",
+    "s": "<p>\\(f'(x)=3x^2-3=0\\) ger \\(x=\\pm1\\). \\(f(-1)=2\\) är ett lokalt maximum och \\(f(1)=-2\\) ett lokalt minimum. I vänstra ändpunkten är \\(f(-2)=-2\\).</p><p>När \\(a&gt;-1\\) ingår \\(x=-1\\), så det största värdet är minst 2. Det blir större än 2 först när \\(f(a)&gt;2\\).</p><p>\\(f(x)=2\\Leftrightarrow x^3-3x-2=0\\Leftrightarrow(x+1)^2(x-2)=0\\). Alltså är \\(f(x)\\le2\\) för alla \\(x\\le2\\), och \\(f(x)&gt;2\\) för \\(x&gt;2\\).</p><p>Det största värdet är 2 så länge \\(-1&lt;a\\le2\\), och det största \\(a\\) är 2.</p><p><strong>Svar:</strong> \\(a=2\\)</p>",
+    "familj": "Största och minsta värde på ett intervall",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm det lokala maximivärdet. Var på kurvan blir funktionen lika stor igen? Faktorisera \\(x^3-3x-2\\) med hjälp av ett känt nollställe.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null
+  },
+  {
     "id": "3.1114",
     "kap": 3,
     "omr": "extremvarde_modellering",
@@ -94989,6 +95465,34 @@ window.BANKMATO1 = [
     ]
   },
   {
+    "id": "3.1148",
+    "kap": 3,
+    "omr": "integralberakning",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Linjen \\(y=kx\\), där \\(k&gt;0\\), och parabeln \\(y=x^2\\) avgränsar ett område. Bestäm \\(k\\) så att områdets area blir 36.</p>",
+    "s": "<p>Skärningspunkter: \\(x^2=kx\\) ger \\(x=0\\) och \\(x=k\\). Mellan dem ligger linjen över parabeln.</p><p>\\[A=\\int_0^k(kx-x^2)\\,dx=\\left[\\frac{kx^2}{2}-\\frac{x^3}{3}\\right]_0^k=\\frac{k^3}{2}-\\frac{k^3}{3}=\\frac{k^3}{6}.\\]</p><p>\\(\\frac{k^3}{6}=36\\) ger \\(k^3=216\\), alltså \\(k=6\\).</p><p><strong>Svar:</strong> \\(k=6\\)</p>",
+    "familj": "Area mellan två grafer",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm skärningspunkterna uttryckt i \\(k\\) och ställ upp arean som en integral.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null
+  },
+  {
     "id": "3.1140",
     "kap": 3,
     "omr": "integral_area",
@@ -95091,6 +95595,62 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Integral och geometrisk area"
     ]
+  },
+  {
+    "id": "3.1144",
+    "kap": 3,
+    "omr": "integral_area",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För en funktion \\(f\\) gäller att</p><p>\\[\\int_0^3f(x)\\,dx=7\\quad\\text{och}\\quad\\int_0^5f(x)\\,dx=12.\\]</p><p>Beräkna \\(\\displaystyle\\int_3^5\\big(2f(x)+1\\big)\\,dx\\).</p>",
+    "s": "<p>\\(\\int_3^5f(x)\\,dx=\\int_0^5f(x)\\,dx-\\int_0^3f(x)\\,dx=12-7=5\\).</p><p>Integralen är linjär:</p><p>\\[\\int_3^5\\big(2f(x)+1\\big)\\,dx=2\\int_3^5f(x)\\,dx+\\int_3^51\\,dx=2\\cdot5+2=12.\\]</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Integralens egenskaper",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela upp integralen från 0 till 5 i två delar. Hur stor är integralen av konstanten 1 från 3 till 5?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null
+  },
+  {
+    "id": "3.1145",
+    "kap": 3,
+    "omr": "integral_area",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Beräkna \\(\\displaystyle\\int_0^5|x-2|\\,dx\\) genom att tolka integralen som en area.</p>",
+    "s": "<p>Grafen till \\(y=|x-2|\\) är ett ”V” med spetsen i \\((2,\\,0)\\). Området mellan grafen och \\(x\\)-axeln från 0 till 5 består av två trianglar:</p><ul><li>från 0 till 2: bas 2 och höjd \\(|0-2|=2\\), area \\(\\frac{2\\cdot2}{2}=2\\)</li><li>från 2 till 5: bas 3 och höjd \\(|5-2|=3\\), area \\(\\frac{3\\cdot3}{2}=4{,}5\\)</li></ul><p>Integralen är \\(2+4{,}5=6{,}5\\).</p><p><strong>Svar:</strong> 6,5</p>",
+    "familj": "Integral som area under en graf",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skissa grafen till \\(y=|x-2|\\). Vilka geometriska figurer bildar området under grafen?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.5,
+    "tolerans": 0.001
   },
   {
     "id": "2.780",

@@ -23277,6 +23277,541 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "E",
+    "typ": "punkt på tredje nodlinjen",
+    "poang": "(2/1/0)",
+    "t": "<p>Två vågkällor A och B i en vattenbassäng svänger i fas med frekvensen 7,5 Hz. Vågorna har hastigheten 18 cm/s. En punkt P ligger på tredje nodlinjen.</p><ol type=\"a\"><li>Bestäm våglängden.</li><li>Bestäm vägskillnaden \\(AP-BP\\) (positiv).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac vf=\\dfrac{18}{7{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\) cm</p></li><li><p>Tredje nodlinjen: \\(\\Delta s=2{,}5\\lambda=2{,}5\\cdot2{,}4\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) cm</p></li></ol>",
+    "id": "2.351",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Bestämma våglängd och frekvens",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.4,
+      6.0
+    ],
+    "tolerans": [
+      0.051,
+      0.09
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två vågkällor A och B i en vattenbassäng svänger i fas med frekvensen 7,5 Hz. Vågorna har hastigheten 18 cm/s. En punkt P ligger på tredje nodlinjen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm våglängden.",
+        "t": "<p>Två vågkällor A och B i en vattenbassäng svänger i fas med frekvensen 7,5 Hz. Vågorna har hastigheten 18 cm/s. En punkt P ligger på tredje nodlinjen.</p><p>Bestäm våglängden.</p>",
+        "s": "<p>\\(\\lambda=\\dfrac vf=\\dfrac{18}{7{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\) cm</p>",
+        "ledtrad": "<p>\\(v=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm vägskillnaden \\(AP-BP\\) (positiv).",
+        "t": "<p>Två vågkällor A och B i en vattenbassäng svänger i fas med frekvensen 7,5 Hz. Vågorna har hastigheten 18 cm/s. En punkt P ligger på tredje nodlinjen.</p>Våglängden är 2,4 cm.<p>Bestäm vägskillnaden \\(AP-BP\\) (positiv).</p>",
+        "s": "<p>Tredje nodlinjen: \\(\\Delta s=2{,}5\\lambda=2{,}5\\cdot2{,}4\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) cm</p>",
+        "ledtrad": "<p>Nodlinjerna har vägskillnaderna \\(0{,}5\\lambda\\), \\(1{,}5\\lambda\\), \\(2{,}5\\lambda\\), …</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Nodlinjer har vägskillnaden ett halvtaligt antal våglängder.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "C",
+    "typ": "svängningstillstånd och nodlinjer",
+    "poang": "(1/3/1)",
+    "t": "<p>Två vågkällor A och B, 5,0 cm från varandra, svänger i fas med frekvensen 9,0 Hz. Våghastigheten är 16,2 cm/s.</p><ol type=\"a\"><li>Punkten P är 28,9 cm från A och 25,3 cm från B. Hur många våglängder är vägskillnaden?</li><li>Punkten Q ligger på andra nodlinjen, närmare B än A, och är 24,0 cm från A. Hur långt från B ligger Q?</li><li>Hur många nodlinjer finns det mellan A och B?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{16{,}2}{9{,}0}=1{,}8\\) cm. \\(\\dfrac{\\Delta s}{\\lambda}=\\dfrac{3{,}6}{1{,}8}\\). Ett helt antal våglängder ger maximum i P.</p><p><strong>Svar:</strong> \\(2{,}0\\)</p></li><li><p>Andra nodlinjen: \\(\\Delta s=1{,}5\\lambda=2{,}7\\) cm. \\(QB=24{,}0-2{,}7\\).</p><p><strong>Svar:</strong> \\(21{,}3\\) cm</p></li><li><p>Vägskillnaden kan högst vara 5,0 cm. \\((k+0{,}5)\\cdot1{,}8\\lt5{,}0\\) ger \\(k=0,1,2\\) på varje sida om mittlinjen.</p><p><strong>Svar:</strong> 6 st</p></li></ol>",
+    "id": "2.352",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Maximum eller minimum ur vägskillnaden",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      21.3,
+      6
+    ],
+    "tolerans": [
+      0,
+      0.32,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "cm",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två vågkällor A och B, 5,0 cm från varandra, svänger i fas med frekvensen 9,0 Hz. Våghastigheten är 16,2 cm/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Punkten P är 28,9 cm från A och 25,3 cm från B. Hur många våglängder är vägskillnaden?",
+        "t": "<p>Två vågkällor A och B, 5,0 cm från varandra, svänger i fas med frekvensen 9,0 Hz. Våghastigheten är 16,2 cm/s.</p><p>Punkten P är 28,9 cm från A och 25,3 cm från B. Hur många våglängder är vägskillnaden?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{16{,}2}{9{,}0}=1{,}8\\) cm. \\(\\dfrac{\\Delta s}{\\lambda}=\\dfrac{3{,}6}{1{,}8}\\). Ett helt antal våglängder ger maximum i P.</p><p><strong>Svar:</strong> \\(2{,}0\\)</p>",
+        "ledtrad": "<p>Bestäm våglängden först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Punkten Q ligger på andra nodlinjen, närmare B än A, och är 24,0 cm från A. Hur långt från B ligger Q?",
+        "t": "<p>Två vågkällor A och B, 5,0 cm från varandra, svänger i fas med frekvensen 9,0 Hz. Våghastigheten är 16,2 cm/s.</p>Våglängden är 1,8 cm.<p>Punkten Q ligger på andra nodlinjen, närmare B än A, och är 24,0 cm från A. Hur långt från B ligger Q?</p>",
+        "s": "<p>Andra nodlinjen: \\(\\Delta s=1{,}5\\lambda=2{,}7\\) cm. \\(QB=24{,}0-2{,}7\\).</p><p><strong>Svar:</strong> \\(21{,}3\\) cm</p>",
+        "ledtrad": "<p>Vilken vägskillnad har andra nodlinjen?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många nodlinjer finns det mellan A och B?",
+        "t": "<p>Två vågkällor A och B, 5,0 cm från varandra, svänger i fas med frekvensen 9,0 Hz. Våghastigheten är 16,2 cm/s.</p>Våglängden är 1,8 cm.<p>Hur många nodlinjer finns det mellan A och B?</p>",
+        "s": "<p>Vägskillnaden kan högst vara 5,0 cm. \\((k+0{,}5)\\cdot1{,}8\\lt5{,}0\\) ger \\(k=0,1,2\\) på varje sida om mittlinjen.</p><p><strong>Svar:</strong> 6 st</p>",
+        "ledtrad": "<p>Vägskillnaden kan inte vara större än avståndet AB.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Maximum: \\(\\Delta s=k\\lambda\\). Minimum: \\(\\Delta s=(k+0{,}5)\\lambda\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "A",
+    "typ": "Pelles högtalare",
+    "poang": "(1/3/1)",
+    "t": "<p>Två högtalare står 8,0 m från varandra och sänder i fas en ton med frekvensen 115 Hz. Ljudhastigheten är 345 m/s.</p><ol type=\"a\"><li>Pelle står på linjen mellan högtalarna, 2,5 m från den ena. Hur många våglängder är vägskillnaden?</li><li>Hur många nodlinjer finns det mellan högtalarna?</li><li>Hur långt från den ena högtalaren ligger den nodpunkt på linjen mellan högtalarna som är närmast den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{345}{115}=3{,}0\\) m. \\(\\Delta s=5{,}5-2{,}5=3{,}0\\) m \\(=1\\lambda\\), alltså maximum.</p><p><strong>Svar:</strong> \\(1{,}0\\)</p></li><li><p>\\((k+0{,}5)\\cdot3{,}0\\lt8{,}0\\) ger \\(k=0,1,2\\) på varje sida.</p><p><strong>Svar:</strong> 6 st</p></li><li><p>På linjen är \\(\\Delta s=|8{,}0-2x|\\). Största vägskillnaden för en nod är \\(2{,}5\\lambda=7{,}5\\) m: \\(8{,}0-2x=7{,}5\\).</p><p><strong>Svar:</strong> \\(0{,}25\\) m</p></li></ol>",
+    "id": "2.353",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Maximum eller minimum ur vägskillnaden",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      6,
+      0.25
+    ],
+    "tolerans": [
+      0,
+      0,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två högtalare står 8,0 m från varandra och sänder i fas en ton med frekvensen 115 Hz. Ljudhastigheten är 345 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Pelle står på linjen mellan högtalarna, 2,5 m från den ena. Hur många våglängder är vägskillnaden?",
+        "t": "<p>Två högtalare står 8,0 m från varandra och sänder i fas en ton med frekvensen 115 Hz. Ljudhastigheten är 345 m/s.</p><p>Pelle står på linjen mellan högtalarna, 2,5 m från den ena. Hur många våglängder är vägskillnaden?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{345}{115}=3{,}0\\) m. \\(\\Delta s=5{,}5-2{,}5=3{,}0\\) m \\(=1\\lambda\\), alltså maximum.</p><p><strong>Svar:</strong> \\(1{,}0\\)</p>",
+        "ledtrad": "<p>Bestäm avståndet till båda högtalarna.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många nodlinjer finns det mellan högtalarna?",
+        "t": "<p>Två högtalare står 8,0 m från varandra och sänder i fas en ton med frekvensen 115 Hz. Ljudhastigheten är 345 m/s.</p>Våglängden är 3,0 m.<p>Hur många nodlinjer finns det mellan högtalarna?</p>",
+        "s": "<p>\\((k+0{,}5)\\cdot3{,}0\\lt8{,}0\\) ger \\(k=0,1,2\\) på varje sida.</p><p><strong>Svar:</strong> 6 st</p>",
+        "ledtrad": "<p>Vägskillnaden kan högst vara 8,0 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt från den ena högtalaren ligger den nodpunkt på linjen mellan högtalarna som är närmast den?",
+        "t": "<p>Två högtalare står 8,0 m från varandra och sänder i fas en ton med frekvensen 115 Hz. Ljudhastigheten är 345 m/s.</p>Våglängden är 3,0 m.<p>Hur långt från den ena högtalaren ligger den nodpunkt på linjen mellan högtalarna som är närmast den?</p>",
+        "s": "<p>På linjen är \\(\\Delta s=|8{,}0-2x|\\). Största vägskillnaden för en nod är \\(2{,}5\\lambda=7{,}5\\) m: \\(8{,}0-2x=7{,}5\\).</p><p><strong>Svar:</strong> \\(0{,}25\\) m</p>",
+        "ledtrad": "<p>Teckna vägskillnaden som funktion av avståndet \\(x\\) till ena högtalaren.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Maximum: \\(\\Delta s=k\\lambda\\). Minimum: \\(\\Delta s=(k+0{,}5)\\lambda\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "C",
+    "typ": "frekvens ur flyttad högtalare",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Två högtalare står på en x-axel och sänder i fas. Högtalare 1 står i origo och högtalare 2 flyttas längs axeln. En person längre bort på axeln hör ett maximum när högtalare 2 står vid \\(x=0{,}75\\) m och nästa maximum när den står vid \\(x=1{,}00\\) m. Beräkna frekvensen.</p>",
+    "s": "<p>Vägskillnaden ändras med en våglängd mellan två maximum: \\(\\lambda=0{,}25\\) m. \\(f=\\dfrac{340}{0{,}25}\\).</p><p><strong>Svar:</strong> \\(1\\,360\\) Hz</p>",
+    "id": "2.354",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Bestämma våglängd och frekvens",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1360.0,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur mycket ändras vägskillnaden mellan två maximum?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Hz",
+    "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "A",
+    "typ": "högtalare på rad",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Susanne står 5,0 m från den ena och 6,0 m från den andra av två högtalare som står på rad framför henne och sänder i fas. Med frekvensen 680 Hz hör hon ett maximum. Frekvensen höjs långsamt tills hon hör ett minimum. Vilken frekvens har tonen då?</p>",
+    "s": "<p>\\(\\Delta s=1{,}0\\) m. Vid 680 Hz är \\(\\lambda=0{,}50\\) m, så \\(\\Delta s=2\\lambda\\). Nästa minimum: \\(\\Delta s=2{,}5\\lambda\\iff\\lambda=0{,}40\\) m. \\(f=\\dfrac{340}{0{,}40}\\).</p><p><strong>Svar:</strong> \\(850\\) Hz</p>",
+    "id": "2.355",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Bestämma våglängd och frekvens",
+    "svarstyp": "numeriskt",
+    "rättSvar": 850,
+    "tolerans": 12.8,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vägskillnaden är konstant men våglängden ändras.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "Hz",
+    "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "A",
+    "typ": "flytta mikrofonen till första minimum",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Två högtalare 3,00 m från varandra sänder i fas en ton med frekvensen 474 Hz. En mikrofon står på mittpunktsnormalen, 3,20 m från linjen genom högtalarna, och registrerar ett maximum. Hur långt måste mikrofonen flyttas parallellt med linjen genom högtalarna för att registrera det första minimumet?</p>",
+    "s": "<p>\\(\\lambda=\\dfrac{340}{474}\\approx0{,}717\\) m. Första minimum: \\(\\Delta s=0{,}359\\) m.</p><p>Efter förflyttningen \\(x\\): \\(\\sqrt{(1{,}50+x)^2+3{,}20^2}-\\sqrt{(1{,}50-x)^2+3{,}20^2}=0{,}359\\). Lös numeriskt.</p><p><strong>Svar:</strong> \\(0{,}425\\) m</p>",
+    "id": "2.356",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägskillnad med Pythagoras sats",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4250075495595971,
+    "tolerans": 0.00638,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Teckna avstånden till båda högtalarna med Pythagoras sats.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "A",
+    "typ": "minimum längs linje genom en högtalare",
+    "poang": "(0/3/2)",
+    "t": "<p>Två högtalare H1 och H2 står 0,800 m från varandra och sänder i fas med frekvensen 1,0 kHz. Ljudets fart är 336 m/s. En mottagare flyttas från mycket långt bort fram mot H1 längs en linje genom H1 som är vinkelrät mot H1H2.</p><ol type=\"a\"><li>Hur många minimum registreras på vägen?</li><li>Hur långt från H1 ligger minimumet som är längst bort?</li><li>Hur långt från H1 ligger minimumet som är närmast H1?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=0{,}336\\) m. Vägskillnaden ökar från 0 till 0,800 m \\(\\approx2{,}4\\lambda\\). Minimum vid \\(0{,}5\\lambda\\) och \\(1{,}5\\lambda\\).</p><p><strong>Svar:</strong> 2 st</p></li><li><p>\\(\\sqrt{s^2+0{,}800^2}-s=0{,}5\\lambda=0{,}168\\iff s=\\dfrac{0{,}640-0{,}168^2}{2\\cdot0{,}168}\\).</p><p><strong>Svar:</strong> \\(1{,}82\\) m</p></li><li><p>\\(\\sqrt{s^2+0{,}800^2}-s=1{,}5\\lambda=0{,}504\\iff s=\\dfrac{0{,}640-0{,}504^2}{2\\cdot0{,}504}\\).</p><p><strong>Svar:</strong> \\(0{,}383\\) m</p></li></ol>",
+    "id": "2.357",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägskillnad med Pythagoras sats",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      1.8207619047619046,
+      0.38292063492063494
+    ],
+    "tolerans": [
+      0,
+      0.0273,
+      0.00574
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två högtalare H1 och H2 står 0,800 m från varandra och sänder i fas med frekvensen 1,0 kHz. Ljudets fart är 336 m/s. En mottagare flyttas från mycket långt bort fram mot H1 längs en linje genom H1 som är vinkelrät mot H1H2.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många minimum registreras på vägen?",
+        "t": "<p>Två högtalare H1 och H2 står 0,800 m från varandra och sänder i fas med frekvensen 1,0 kHz. Ljudets fart är 336 m/s. En mottagare flyttas från mycket långt bort fram mot H1 längs en linje genom H1 som är vinkelrät mot H1H2.</p><p>Hur många minimum registreras på vägen?</p>",
+        "s": "<p>\\(\\lambda=0{,}336\\) m. Vägskillnaden ökar från 0 till 0,800 m \\(\\approx2{,}4\\lambda\\). Minimum vid \\(0{,}5\\lambda\\) och \\(1{,}5\\lambda\\).</p><p><strong>Svar:</strong> 2 st</p>",
+        "ledtrad": "<p>Vilka värden kan vägskillnaden anta?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt från H1 ligger minimumet som är längst bort?",
+        "t": "<p>Två högtalare H1 och H2 står 0,800 m från varandra och sänder i fas med frekvensen 1,0 kHz. Ljudets fart är 336 m/s. En mottagare flyttas från mycket långt bort fram mot H1 längs en linje genom H1 som är vinkelrät mot H1H2.</p>Våglängden är 0,336 m.<p>Hur långt från H1 ligger minimumet som är längst bort?</p>",
+        "s": "<p>\\(\\sqrt{s^2+0{,}800^2}-s=0{,}5\\lambda=0{,}168\\iff s=\\dfrac{0{,}640-0{,}168^2}{2\\cdot0{,}168}\\).</p><p><strong>Svar:</strong> \\(1{,}82\\) m</p>",
+        "ledtrad": "<p>Kvadrera ekvationen för vägskillnaden.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt från H1 ligger minimumet som är närmast H1?",
+        "t": "<p>Två högtalare H1 och H2 står 0,800 m från varandra och sänder i fas med frekvensen 1,0 kHz. Ljudets fart är 336 m/s. En mottagare flyttas från mycket långt bort fram mot H1 längs en linje genom H1 som är vinkelrät mot H1H2.</p>Våglängden är 0,336 m.<p>Hur långt från H1 ligger minimumet som är närmast H1?</p>",
+        "s": "<p>\\(\\sqrt{s^2+0{,}800^2}-s=1{,}5\\lambda=0{,}504\\iff s=\\dfrac{0{,}640-0{,}504^2}{2\\cdot0{,}504}\\).</p><p><strong>Svar:</strong> \\(0{,}383\\) m</p>",
+        "ledtrad": "<p>Kvadrera ekvationen för vägskillnaden.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Vägskillnaden är \\(\\sqrt{s^2+0{,}800^2}-s\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "C",
+    "typ": "lägsta frekvens för destruktiv interferens",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Två högtalare sänder i fas. En person står 3,00 m från den ena och 3,50 m från den andra.</p><ol type=\"a\"><li>Vilken är den lägsta frekvens som ger destruktiv interferens hos personen?</li><li>Vilken är den näst lägsta frekvensen som ger destruktiv interferens?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta s=0{,}50\\) m \\(=0{,}5\\lambda\\iff\\lambda=1{,}0\\) m. \\(f=\\dfrac{340}{1{,}0}\\).</p><p><strong>Svar:</strong> \\(340\\) Hz</p></li><li><p>\\(\\Delta s=1{,}5\\lambda\\iff\\lambda=\\dfrac{1}{3}\\) m. \\(f=3\\cdot340\\).</p><p><strong>Svar:</strong> \\(1\\,020\\) Hz</p></li></ol>",
+    "id": "2.358",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Maximum eller minimum ur vägskillnaden",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      340,
+      1020
+    ],
+    "tolerans": [
+      5.1,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd ljudhastigheten 340 m/s.</p><p>Två högtalare sänder i fas. En person står 3,00 m från den ena och 3,50 m från den andra.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken är den lägsta frekvens som ger destruktiv interferens hos personen?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Två högtalare sänder i fas. En person står 3,00 m från den ena och 3,50 m från den andra.</p><p>Vilken är den lägsta frekvens som ger destruktiv interferens hos personen?</p>",
+        "s": "<p>\\(\\Delta s=0{,}50\\) m \\(=0{,}5\\lambda\\iff\\lambda=1{,}0\\) m. \\(f=\\dfrac{340}{1{,}0}\\).</p><p><strong>Svar:</strong> \\(340\\) Hz</p>",
+        "ledtrad": "<p>Lägsta frekvensen ger längsta våglängden.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den näst lägsta frekvensen som ger destruktiv interferens?",
+        "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Två högtalare sänder i fas. En person står 3,00 m från den ena och 3,50 m från den andra.</p><p>Vilken är den näst lägsta frekvensen som ger destruktiv interferens?</p>",
+        "s": "<p>\\(\\Delta s=1{,}5\\lambda\\iff\\lambda=\\dfrac{1}{3}\\) m. \\(f=3\\cdot340\\).</p><p><strong>Svar:</strong> \\(1\\,020\\) Hz</p>",
+        "ledtrad": "<p>Nästa minimum har vägskillnaden \\(1{,}5\\lambda\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Minimum: \\(\\Delta s=(k+0{,}5)\\lambda\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "A",
+    "typ": "gå bort från högtalaren till ett minimum",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>Du står 2,50 m rakt framför den ena av två högtalare som står 3,00 m från varandra och sänder 686 Hz i fas. Du går långsamt rakt bort från högtalaren. Hur långt har du gått när du hör det första minimumet?</p>",
+    "s": "<p>\\(\\lambda=\\dfrac{340}{686}\\approx0{,}496\\) m. Från början: \\(\\Delta s=\\sqrt{2{,}50^2+3{,}00^2}-2{,}50\\approx1{,}41\\) m \\(\\approx2{,}8\\lambda\\). Vägskillnaden minskar när man går bort, så nästa minimum har \\(\\Delta s=2{,}5\\lambda\\approx1{,}24\\) m.</p><p>\\(\\sqrt{x^2+9{,}00}-x=1{,}24\\iff x\\approx3{,}01\\) m. Sträckan: \\(3{,}01-2{,}50\\).</p><p><strong>Svar:</strong> \\(0{,}512\\) m</p>",
+    "id": "2.359",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägskillnad med Pythagoras sats",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.51223117818556,
+    "tolerans": 0.00768,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vägskillnaden där du står.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "A",
+    "typ": "avstånd mellan dörrar",
+    "poang": "(0/1/1)",
+    "t": "<p>Två öppna dörrar i ett magasin har avståndet \\(d\\) mellan mittpunkterna. Person A står på mittpunktsnormalen 150 m från dörrarna. Person B står 20 m rakt åt sidan från A. En båt utanför tutar med våglängden 3,00 m. A hör ett maximum och B hör det första minimumet. Bestäm \\(d\\).</p>",
+    "s": "<p>\\(\\sin\\alpha=\\dfrac{20}{\\sqrt{150^2+20^2}}\\approx0{,}132\\). Första minimum: \\(d\\sin\\alpha=0{,}5\\lambda\\iff d=\\dfrac{1{,}50}{0{,}132}\\).</p><p><strong>Svar:</strong> \\(11\\) m</p>",
+    "id": "2.360",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägskillnad med Pythagoras sats",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.349559462816167,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dörrarna fungerar som en dubbelspalt.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+  },
+  {
+    "kap": 2,
+    "omr": "interferens",
+    "niva": "C",
+    "typ": "motljud mot maskinbrus",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd ljudhastigheten 340 m/s.</p><p>En maskin 5,0 m från en arbetare brummar med 80 Hz. En högtalare sänder samma ton i fas med maskinen. Högtalaren ska stå längre bort från arbetaren än maskinen och ge första minimumet hos arbetaren. Hur långt från arbetaren ska den stå?</p>",
+    "s": "<p>\\(\\lambda=\\dfrac{340}{80}=4{,}25\\) m. \\(\\Delta s=0{,}5\\lambda\\approx2{,}1\\) m: \\(5{,}0+2{,}1\\).</p><p><strong>Svar:</strong> \\(7{,}1\\) m</p>",
+    "id": "2.361",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Maximum eller minimum ur vägskillnaden",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.125,
+    "tolerans": 0.107,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Första minimum har vägskillnaden \\(0{,}5\\lambda\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+  },
+  {
     "id": "2.176",
     "kap": 2,
     "omr": "pendlar",
@@ -30117,6 +30652,1614 @@ window.BANK2 = [
     "familjTidigare": [
       "Infraljud och ultraljud"
     ]
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "intensitet vid smärtgränsen",
+    "poang": "(1/0/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Smärtgränsen ligger vid ljudnivån 120 dB. Vilken ljudintensitet motsvarar det?</p>",
+    "s": "<p>\\(I=I_0\\cdot10^{L/10}=10^{-12}\\cdot10^{12}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) W/m²</p>",
+    "id": "2.319",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(I\\) ur formeln för ljudnivå.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "W/m²",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "ljudnivå ur intensitet",
+    "poang": "(1/0/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Vilken ljudnivå motsvarar intensiteten \\(1{,}5\\cdot10^{-6}\\) W/m²?</p>",
+    "s": "<p>\\(L=10\\lg\\dfrac{1{,}5\\cdot10^{-6}}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(62\\) dB</p>",
+    "id": "2.320",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 61.76091259055681,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt in i formeln.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "dB",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "punktkällans effekt och energi",
+    "poang": "(3/0/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En punktformig ljudkälla sänder ut ljud lika mycket åt alla håll. På avståndet 4,3 m är intensiteten 0,026 W/m².</p><ol type=\"a\"><li>Vilken ljudeffekt har källan?</li><li>Vilken intensitet är det på avståndet 3,1 m?</li><li>Hur mycket ljudenergi ger källan ifrån sig under 1,0 h?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=I\\cdot4\\pi r^2=0{,}026\\cdot4\\pi\\cdot4{,}3^2\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) W</p></li><li><p>\\(I=\\dfrac{6{,}0}{4\\pi\\cdot3{,}1^2}\\).</p><p><strong>Svar:</strong> \\(0{,}050\\) W/m²</p></li><li><p>\\(E=Pt=6{,}0\\cdot3\\,600\\).</p><p><strong>Svar:</strong> \\(21\\,748\\) J</p></li></ol>",
+    "id": "2.321",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.041157009147028,
+      0.05002497398543183,
+      21748.165232929303
+    ],
+    "tolerans": [
+      0.0906,
+      0.00075,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "W/m²",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En punktformig ljudkälla sänder ut ljud lika mycket åt alla håll. På avståndet 4,3 m är intensiteten 0,026 W/m².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken ljudeffekt har källan?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En punktformig ljudkälla sänder ut ljud lika mycket åt alla håll. På avståndet 4,3 m är intensiteten 0,026 W/m².</p><p>Vilken ljudeffekt har källan?</p>",
+        "s": "<p>\\(P=I\\cdot4\\pi r^2=0{,}026\\cdot4\\pi\\cdot4{,}3^2\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) W</p>",
+        "ledtrad": "<p>Effekten fördelas på en sfär.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken intensitet är det på avståndet 3,1 m?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En punktformig ljudkälla sänder ut ljud lika mycket åt alla håll. På avståndet 4,3 m är intensiteten 0,026 W/m².</p>Källans effekt är 6,0 W.<p>Vilken intensitet är det på avståndet 3,1 m?</p>",
+        "s": "<p>\\(I=\\dfrac{6{,}0}{4\\pi\\cdot3{,}1^2}\\).</p><p><strong>Svar:</strong> \\(0{,}050\\) W/m²</p>",
+        "ledtrad": "<p>\\(I=\\dfrac{P}{4\\pi r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket ljudenergi ger källan ifrån sig under 1,0 h?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En punktformig ljudkälla sänder ut ljud lika mycket åt alla håll. På avståndet 4,3 m är intensiteten 0,026 W/m².</p>Källans effekt är 6,0 W.<p>Hur mycket ljudenergi ger källan ifrån sig under 1,0 h?</p>",
+        "s": "<p>\\(E=Pt=6{,}0\\cdot3\\,600\\).</p><p><strong>Svar:</strong> \\(21\\,748\\) J</p>",
+        "ledtrad": "<p>\\(E=Pt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(I=\\dfrac{P}{4\\pi r^2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "energi till trumhinnan",
+    "poang": "(2/1/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En siren långt bort ger ljudnivån 55 dB vid örat. Trumhinnan har arean \\(5{,}0\\cdot10^{-5}\\) m².</p><ol type=\"a\"><li>Beräkna ljudintensiteten vid örat.</li><li>Hur mycket energi träffar trumhinnan varje sekund?</li><li>Hur många år dröjer det innan trumhinnan har tagit emot energin 1,0 J?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=10^{-12}\\cdot10^{5{,}5}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{-7}\\) W/m²</p></li><li><p>\\(E=IAt=3{,}16\\cdot10^{-7}\\cdot5{,}0\\cdot10^{-5}\\cdot1{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{-11}\\) J</p></li><li><p>\\(t=\\dfrac{1{,}0}{1{,}58\\cdot10^{-11}}\\approx6{,}3\\cdot10^{10}\\) s. Ett år är ungefär \\(3{,}16\\cdot10^7\\) s.</p><p><strong>Svar:</strong> \\(2\\,004\\) år</p></li></ol>",
+    "id": "2.322",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.162277660168379e-07,
+      1.5811388300841897e-11,
+      2004.130643755152
+    ],
+    "tolerans": [
+      5.1e-09,
+      5.1e-13,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W/m²",
+      "J",
+      "år"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En siren långt bort ger ljudnivån 55 dB vid örat. Trumhinnan har arean \\(5{,}0\\cdot10^{-5}\\) m².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna ljudintensiteten vid örat.",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En siren långt bort ger ljudnivån 55 dB vid örat. Trumhinnan har arean \\(5{,}0\\cdot10^{-5}\\) m².</p><p>Beräkna ljudintensiteten vid örat.</p>",
+        "s": "<p>\\(I=10^{-12}\\cdot10^{5{,}5}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{-7}\\) W/m²</p>",
+        "ledtrad": "<p>Lös ut \\(I\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi träffar trumhinnan varje sekund?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En siren långt bort ger ljudnivån 55 dB vid örat. Trumhinnan har arean \\(5{,}0\\cdot10^{-5}\\) m².</p>Intensiteten vid örat är \\(3{,}16\\cdot10^{-7}\\) W/m².<p>Hur mycket energi träffar trumhinnan varje sekund?</p>",
+        "s": "<p>\\(E=IAt=3{,}16\\cdot10^{-7}\\cdot5{,}0\\cdot10^{-5}\\cdot1{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{-11}\\) J</p>",
+        "ledtrad": "<p>Intensitet är effekt per area.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många år dröjer det innan trumhinnan har tagit emot energin 1,0 J?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En siren långt bort ger ljudnivån 55 dB vid örat. Trumhinnan har arean \\(5{,}0\\cdot10^{-5}\\) m².</p>Trumhinnan får \\(1{,}58\\cdot10^{-11}\\) J per sekund.<p>Hur många år dröjer det innan trumhinnan har tagit emot energin 1,0 J?</p>",
+        "s": "<p>\\(t=\\dfrac{1{,}0}{1{,}58\\cdot10^{-11}}\\approx6{,}3\\cdot10^{10}\\) s. Ett år är ungefär \\(3{,}16\\cdot10^7\\) s.</p><p><strong>Svar:</strong> \\(2\\,004\\) år</p>",
+        "ledtrad": "<p>Dela energin med effekten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Intensitet är effekt per area.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "rockkonsert och gränsvärde",
+    "poang": "(1/2/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Vid en rockkonsert är ljudnivån 130 dB på avståndet 2,5 m från scenen. Anta att ljudet sprids lika åt alla håll och inte absorberas.</p><ol type=\"a\"><li>Vilken ljudeffekt har konserten?</li><li>Hur långt från scenen måste man vara för att ljudnivån ska vara under gränsvärdet 94 dB?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=10\\) W/m². \\(P=10\\cdot4\\pi\\cdot2{,}5^2\\).</p><p><strong>Svar:</strong> \\(785\\) W</p></li><li><p>\\(I=10^{-12}\\cdot10^{9{,}4}\\approx2{,}5\\cdot10^{-3}\\) W/m². \\(r=\\sqrt{\\dfrac{P}{4\\pi I}}=\\sqrt{\\dfrac{785}{4\\pi\\cdot2{,}5\\cdot10^{-3}}}\\).</p><p><strong>Svar:</strong> \\(158\\) m</p></li></ol>",
+    "id": "2.323",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      785.3981633974482,
+      157.73933612004825
+    ],
+    "tolerans": [
+      11.8,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Vid en rockkonsert är ljudnivån 130 dB på avståndet 2,5 m från scenen. Anta att ljudet sprids lika åt alla håll och inte absorberas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken ljudeffekt har konserten?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Vid en rockkonsert är ljudnivån 130 dB på avståndet 2,5 m från scenen. Anta att ljudet sprids lika åt alla håll och inte absorberas.</p><p>Vilken ljudeffekt har konserten?</p>",
+        "s": "<p>\\(I=10\\) W/m². \\(P=10\\cdot4\\pi\\cdot2{,}5^2\\).</p><p><strong>Svar:</strong> \\(785\\) W</p>",
+        "ledtrad": "<p>Bestäm intensiteten först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt från scenen måste man vara för att ljudnivån ska vara under gränsvärdet 94 dB?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Vid en rockkonsert är ljudnivån 130 dB på avståndet 2,5 m från scenen. Anta att ljudet sprids lika åt alla håll och inte absorberas.</p>Ljudeffekten är 785 W.<p>Hur långt från scenen måste man vara för att ljudnivån ska vara under gränsvärdet 94 dB?</p>",
+        "s": "<p>\\(I=10^{-12}\\cdot10^{9{,}4}\\approx2{,}5\\cdot10^{-3}\\) W/m². \\(r=\\sqrt{\\dfrac{P}{4\\pi I}}=\\sqrt{\\dfrac{785}{4\\pi\\cdot2{,}5\\cdot10^{-3}}}\\).</p><p><strong>Svar:</strong> \\(158\\) m</p>",
+        "ledtrad": "<p>Lös ut \\(r\\) ur \\(I=\\dfrac{P}{4\\pi r^2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(I=\\dfrac{P}{4\\pi r^2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "avstånd till smärtgränsen",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett föremål sänder ut ljud lika mycket åt alla håll. På avståndet 7,5 m är intensiteten 0,11 W/m². Hur nära kan man gå innan intensiteten når smärtgränsen 1,0 W/m²?</p>",
+    "s": "<p>\\(I\\) är omvänt proportionell mot \\(r^2\\): \\(r=7{,}5\\sqrt{\\dfrac{0{,}11}{1{,}0}}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m</p>",
+    "id": "2.324",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.48746859276655,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(I_1r_1^2=I_2r_2^2\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "viskning mot trumhinnan",
+    "poang": "(1/2/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Trumhinnan har diametern 8,4 mm. När någon viskar i ditt öra är ljudnivån ungefär 20 dB.</p><ol type=\"a\"><li>Hur mycket energi tar trumhinnan emot under 1,0 s?</li><li>En mygga med massan 2,0 mg har lika stor rörelseenergi. Hur fort flyger den? Svara i mm/s.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=10^{-10}\\) W/m². \\(E=IAt=10^{-10}\\cdot\\pi\\cdot0{,}0042^2\\cdot1{,}0\\).</p><p><strong>Svar:</strong> \\(5{,}5\\cdot10^{-15}\\) J</p></li><li><p>\\(v=\\sqrt{\\dfrac{2E}{m}}=\\sqrt{\\dfrac{2\\cdot5{,}5\\cdot10^{-15}}{2{,}0\\cdot10^{-6}}}\\).</p><p><strong>Svar:</strong> \\(0{,}074\\) mm/s</p></li></ol>",
+    "id": "2.325",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.541769440932394e-15,
+      0.07444306173803167
+    ],
+    "tolerans": [
+      8.31e-17,
+      0.00112
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "mm/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Trumhinnan har diametern 8,4 mm. När någon viskar i ditt öra är ljudnivån ungefär 20 dB.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi tar trumhinnan emot under 1,0 s?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Trumhinnan har diametern 8,4 mm. När någon viskar i ditt öra är ljudnivån ungefär 20 dB.</p><p>Hur mycket energi tar trumhinnan emot under 1,0 s?</p>",
+        "s": "<p>\\(I=10^{-10}\\) W/m². \\(E=IAt=10^{-10}\\cdot\\pi\\cdot0{,}0042^2\\cdot1{,}0\\).</p><p><strong>Svar:</strong> \\(5{,}5\\cdot10^{-15}\\) J</p>",
+        "ledtrad": "<p>Bestäm intensiteten och trumhinnans area.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En mygga med massan 2,0 mg har lika stor rörelseenergi. Hur fort flyger den? Svara i mm/s.",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Trumhinnan har diametern 8,4 mm. När någon viskar i ditt öra är ljudnivån ungefär 20 dB.</p>Trumhinnan tar emot \\(5{,}5\\cdot10^{-15}\\) J.<p>En mygga med massan 2,0 mg har lika stor rörelseenergi. Hur fort flyger den? Svara i mm/s.</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2E}{m}}=\\sqrt{\\dfrac{2\\cdot5{,}5\\cdot10^{-15}}{2{,}0\\cdot10^{-6}}}\\).</p><p><strong>Svar:</strong> \\(0{,}074\\) mm/s</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Örat är extremt känsligt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "rockkonsert mot trumhinnan",
+    "poang": "(1/2/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Trumhinnan har diametern 8,4 mm. På en rockkonsert är ljudnivån 110 dB där du står.</p><ol type=\"a\"><li>Hur mycket energi tar trumhinnan emot under 1,0 s?</li><li>En mygga med massan 2,0 mg har lika stor rörelseenergi. Hur fort flyger den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=10^{-12}\\cdot10^{11}=0{,}10\\) W/m². \\(E=IAt=0{,}10\\cdot\\pi\\cdot0{,}0042^2\\cdot1{,}0\\).</p><p><strong>Svar:</strong> \\(5{,}5\\cdot10^{-6}\\) J</p></li><li><p>\\(v=\\sqrt{\\dfrac{2E}{m}}=\\sqrt{\\dfrac{2\\cdot5{,}5\\cdot10^{-6}}{2{,}0\\cdot10^{-6}}}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\) m/s</p></li></ol>",
+    "id": "2.326",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.541769440932394e-06,
+      2.35409631088713
+    ],
+    "tolerans": [
+      8.31e-08,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Trumhinnan har diametern 8,4 mm. På en rockkonsert är ljudnivån 110 dB där du står.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi tar trumhinnan emot under 1,0 s?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Trumhinnan har diametern 8,4 mm. På en rockkonsert är ljudnivån 110 dB där du står.</p><p>Hur mycket energi tar trumhinnan emot under 1,0 s?</p>",
+        "s": "<p>\\(I=10^{-12}\\cdot10^{11}=0{,}10\\) W/m². \\(E=IAt=0{,}10\\cdot\\pi\\cdot0{,}0042^2\\cdot1{,}0\\).</p><p><strong>Svar:</strong> \\(5{,}5\\cdot10^{-6}\\) J</p>",
+        "ledtrad": "<p>Bestäm intensiteten och trumhinnans area.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En mygga med massan 2,0 mg har lika stor rörelseenergi. Hur fort flyger den?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Trumhinnan har diametern 8,4 mm. På en rockkonsert är ljudnivån 110 dB där du står.</p>Trumhinnan tar emot \\(5{,}5\\cdot10^{-6}\\) J.<p>En mygga med massan 2,0 mg har lika stor rörelseenergi. Hur fort flyger den?</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2E}{m}}=\\sqrt{\\dfrac{2\\cdot5{,}5\\cdot10^{-6}}{2{,}0\\cdot10^{-6}}}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\) m/s</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Jämför med en viskning, 20 dB.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "fyrverkeripjäs",
+    "poang": "(2/1/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En fyrverkeripjäs exploderar 100 m över marken. En observatör rakt under uppfattar medelintensiteten \\(7{,}00\\cdot10^{-2}\\) W/m² under 0,200 s.</p><ol type=\"a\"><li>Hur mycket ljudenergi frigjordes vid explosionen?</li><li>Vilken ljudnivå uppfattade observatören?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=I\\cdot4\\pi r^2\\cdot t=0{,}0700\\cdot4\\pi\\cdot100^2\\cdot0{,}200\\).</p><p><strong>Svar:</strong> \\(1\\,759\\) J</p></li><li><p>\\(L=10\\lg\\dfrac{0{,}0700}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(108\\) dB</p></li></ol>",
+    "id": "2.327",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1759.2918860102845,
+      108.45098040014257
+    ],
+    "tolerans": [
+      26.4,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "dB"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En fyrverkeripjäs exploderar 100 m över marken. En observatör rakt under uppfattar medelintensiteten \\(7{,}00\\cdot10^{-2}\\) W/m² under 0,200 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket ljudenergi frigjordes vid explosionen?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En fyrverkeripjäs exploderar 100 m över marken. En observatör rakt under uppfattar medelintensiteten \\(7{,}00\\cdot10^{-2}\\) W/m² under 0,200 s.</p><p>Hur mycket ljudenergi frigjordes vid explosionen?</p>",
+        "s": "<p>\\(E=I\\cdot4\\pi r^2\\cdot t=0{,}0700\\cdot4\\pi\\cdot100^2\\cdot0{,}200\\).</p><p><strong>Svar:</strong> \\(1\\,759\\) J</p>",
+        "ledtrad": "<p>Energin fördelas på en sfär med radien 100 m.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken ljudnivå uppfattade observatören?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En fyrverkeripjäs exploderar 100 m över marken. En observatör rakt under uppfattar medelintensiteten \\(7{,}00\\cdot10^{-2}\\) W/m² under 0,200 s.</p><p>Vilken ljudnivå uppfattade observatören?</p>",
+        "s": "<p>\\(L=10\\lg\\dfrac{0{,}0700}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(108\\) dB</p>",
+        "ledtrad": "<p>Sätt in i formeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(E=Pt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "energi till trumhinnan under tre minuter",
+    "poang": "(1/0/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>En ljudvåg med ljudnivån 80,0 dB träffar en trumhinna med arean \\(0{,}600\\cdot10^{-4}\\) m². Hur mycket energi absorberar trumhinnan under 3,0 minuter?</p>",
+    "s": "<p>\\(I=10^{-4}\\) W/m². \\(E=IAt=10^{-4}\\cdot0{,}600\\cdot10^{-4}\\cdot180\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{-6}\\) J</p>",
+    "id": "2.328",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.08e-06,
+    "tolerans": 5.1e-08,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E=IAt\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "J",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "högtalarens effekt",
+    "poang": "(1/1/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>På 25 m avstånd från en högtalare är ljudnivån 71 dB. Hur stor ljudeffekt har högtalaren?</p>",
+    "s": "<p>\\(I=10^{-12}\\cdot10^{7{,}1}\\approx1{,}26\\cdot10^{-5}\\) W/m². \\(P=I\\cdot4\\pi\\cdot25^2\\).</p><p><strong>Svar:</strong> \\(0{,}099\\) W</p>",
+    "id": "2.329",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.09887577062775145,
+    "tolerans": 0.00148,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm intensiteten först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "intensitet och avstånd",
+    "poang": "(1/1/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>I punkten A, 3,0 m från en punktformig ljudkälla, är ljudnivån 53 dB.</p><ol type=\"a\"><li>Vilken ljudintensitet är det i A?</li><li>Hur långt från källan ska man gå för att intensiteten ska sjunka till en fjärdedel av den i A?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=10^{-12}\\cdot10^{5{,}3}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{-7}\\) W/m²</p></li><li><p>\\(I\\sim\\dfrac1{r^2}\\): en fjärdedel av intensiteten ger dubbla avståndet.</p><p><strong>Svar:</strong> \\(6{,}0\\) m</p></li></ol>",
+    "id": "2.330",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.995262314968879e-07,
+      6.0
+    ],
+    "tolerans": [
+      5.1e-09,
+      0.09
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W/m²",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>I punkten A, 3,0 m från en punktformig ljudkälla, är ljudnivån 53 dB.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken ljudintensitet är det i A?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>I punkten A, 3,0 m från en punktformig ljudkälla, är ljudnivån 53 dB.</p><p>Vilken ljudintensitet är det i A?</p>",
+        "s": "<p>\\(I=10^{-12}\\cdot10^{5{,}3}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{-7}\\) W/m²</p>",
+        "ledtrad": "<p>Lös ut \\(I\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt från källan ska man gå för att intensiteten ska sjunka till en fjärdedel av den i A?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>I punkten A, 3,0 m från en punktformig ljudkälla, är ljudnivån 53 dB.</p><p>Hur långt från källan ska man gå för att intensiteten ska sjunka till en fjärdedel av den i A?</p>",
+        "s": "<p>\\(I\\sim\\dfrac1{r^2}\\): en fjärdedel av intensiteten ger dubbla avståndet.</p><p><strong>Svar:</strong> \\(6{,}0\\) m</p>",
+        "ledtrad": "<p>Hur beror \\(I\\) på \\(r\\)?</p>",
+        "niva": "E",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(I=\\dfrac{P}{4\\pi r^2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "Krakatoa",
+    "poang": "(0/2/0)",
+    "t": "<p>När vulkanen Krakatoa exploderade 1883 beräknas ljudnivån ha varit 180 dB på 161 km avstånd. Vilken ljudnivå borde explosionen ha haft på ön Rodriguez, 4 500 km bort? Anta att luften inte absorberar ljud.</p>",
+    "s": "<p>\\(\\Delta L=10\\lg\\dfrac{I_2}{I_1}=10\\lg\\left(\\dfrac{161}{4\\,500}\\right)^2\\approx-28{,}9\\) dB.</p><p><strong>Svar:</strong> \\(151\\) dB</p>",
+    "id": "2.331",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 151.07226724513012,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Intensiteten minskar med kvadraten på avståndet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "dB",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "kvot mellan intensiteter",
+    "poang": "(1/0/0)",
+    "t": "<p>En lag sänker tillåten ljudnivå för lövblåsare från 95,0 dB till 70,0 dB. Hur många gånger större var intensiteten före jämfört med efter?</p>",
+    "s": "<p>\\(\\dfrac{I_1}{I_2}=10^{(95{,}0-70{,}0)/10}=10^{2{,}5}\\).</p><p><strong>Svar:</strong> \\(316\\) </p>",
+    "id": "2.332",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 316.22776601683796,
+    "tolerans": 4.74,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>25 dB skillnad.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "ljuddämpande fönster",
+    "poang": "(2/0/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Kalle sätter in fönster som dämpar trafikljudet.</p><ol type=\"a\"><li>Fönstren sänker ljudnivån med 30 dB. Hur många procent minskar intensiteten?</li><li>Om fönstren i stället halverar intensiteten, hur många dB sjunker ljudnivån?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{I_2}{I_1}=10^{-3}\\), alltså minskar intensiteten med \\(99{,}9\\) %.</p><p><strong>Svar:</strong> \\(99{,}9\\) %</p></li><li><p>\\(\\Delta L=10\\lg2\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) dB</p></li></ol>",
+    "id": "2.333",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      99.9,
+      3.010299956639812
+    ],
+    "tolerans": [
+      0.06,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "%",
+      "dB"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Kalle sätter in fönster som dämpar trafikljudet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Fönstren sänker ljudnivån med 30 dB. Hur många procent minskar intensiteten?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Kalle sätter in fönster som dämpar trafikljudet.</p><p>Fönstren sänker ljudnivån med 30 dB. Hur många procent minskar intensiteten?</p>",
+        "s": "<p>\\(\\dfrac{I_2}{I_1}=10^{-3}\\), alltså minskar intensiteten med \\(99{,}9\\) %.</p><p><strong>Svar:</strong> \\(99{,}9\\) %</p>",
+        "ledtrad": "<p>30 dB motsvarar en faktor 1 000.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Om fönstren i stället halverar intensiteten, hur många dB sjunker ljudnivån?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Kalle sätter in fönster som dämpar trafikljudet.</p><p>Om fönstren i stället halverar intensiteten, hur många dB sjunker ljudnivån?</p>",
+        "s": "<p>\\(\\Delta L=10\\lg2\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) dB</p>",
+        "ledtrad": "<p>\\(\\Delta L=10\\lg\\dfrac{I_1}{I_2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta L=10\\lg\\dfrac{I_1}{I_2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "flera lika ljudkällor",
+    "poang": "(1/1/0)",
+    "t": "<p>Ljudintensiteter från flera källor på samma ställe adderas.</p><ol type=\"a\"><li>Först skriker en bebis, sedan fyra bebisar lika starkt. Hur många dB högre blir ljudnivån?</li><li>Hur många bebisar behövs för att ljudnivån ska öka med ytterligare lika mycket, jämfört med en bebis?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta L=10\\lg4\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) dB</p></li><li><p>Ytterligare 6 dB betyder ytterligare en faktor 4: \\(4\\cdot4\\).</p><p><strong>Svar:</strong> 16 st</p></li></ol>",
+    "id": "2.334",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.020599913279624,
+      16
+    ],
+    "tolerans": [
+      0.0903,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "dB",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudintensiteter från flera källor på samma ställe adderas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Först skriker en bebis, sedan fyra bebisar lika starkt. Hur många dB högre blir ljudnivån?",
+        "t": "<p>Ljudintensiteter från flera källor på samma ställe adderas.</p><p>Först skriker en bebis, sedan fyra bebisar lika starkt. Hur många dB högre blir ljudnivån?</p>",
+        "s": "<p>\\(\\Delta L=10\\lg4\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) dB</p>",
+        "ledtrad": "<p>Fyra gånger så stor intensitet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många bebisar behövs för att ljudnivån ska öka med ytterligare lika mycket, jämfört med en bebis?",
+        "t": "<p>Ljudintensiteter från flera källor på samma ställe adderas.</p><p>Hur många bebisar behövs för att ljudnivån ska öka med ytterligare lika mycket, jämfört med en bebis?</p>",
+        "s": "<p>Ytterligare 6 dB betyder ytterligare en faktor 4: \\(4\\cdot4\\).</p><p><strong>Svar:</strong> 16 st</p>",
+        "ledtrad": "<p>Varje ökning med 6 dB motsvarar en faktor 4.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta L=10\\lg\\dfrac{I_2}{I_1}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "tre maskiner",
+    "poang": "(3/0/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Tre maskiner ger var för sig ljudnivåerna 85 dB, 90 dB och 93 dB i en punkt.</p><ol type=\"a\"><li>Beräkna intensiteten från den starkaste maskinen.</li><li>Beräkna den totala intensiteten från alla tre maskinerna.</li><li>Beräkna den totala ljudnivån i punkten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=10^{-12}\\cdot10^{9{,}3}\\).</p><p><strong>Svar:</strong> \\(0{,}0020\\) W/m²</p></li><li><p>\\(I=10^{-12}\\left(10^{8{,}5}+10^{9{,}0}+10^{9{,}3}\\right)\\).</p><p><strong>Svar:</strong> \\(0{,}0033\\) W/m²</p></li><li><p>\\(L=10\\lg\\dfrac{3{,}3\\cdot10^{-3}}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(95\\) dB</p></li></ol>",
+    "id": "2.335",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.001995262314968883,
+      0.003311490080985721,
+      95.20023458528425
+    ],
+    "tolerans": [
+      5.1e-05,
+      5.1e-05,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W/m²",
+      "W/m²",
+      "dB"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Tre maskiner ger var för sig ljudnivåerna 85 dB, 90 dB och 93 dB i en punkt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna intensiteten från den starkaste maskinen.",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Tre maskiner ger var för sig ljudnivåerna 85 dB, 90 dB och 93 dB i en punkt.</p><p>Beräkna intensiteten från den starkaste maskinen.</p>",
+        "s": "<p>\\(I=10^{-12}\\cdot10^{9{,}3}\\).</p><p><strong>Svar:</strong> \\(0{,}0020\\) W/m²</p>",
+        "ledtrad": "<p>Lös ut \\(I\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna den totala intensiteten från alla tre maskinerna.",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Tre maskiner ger var för sig ljudnivåerna 85 dB, 90 dB och 93 dB i en punkt.</p><p>Beräkna den totala intensiteten från alla tre maskinerna.</p>",
+        "s": "<p>\\(I=10^{-12}\\left(10^{8{,}5}+10^{9{,}0}+10^{9{,}3}\\right)\\).</p><p><strong>Svar:</strong> \\(0{,}0033\\) W/m²</p>",
+        "ledtrad": "<p>Intensiteterna adderas, inte ljudnivåerna.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna den totala ljudnivån i punkten.",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Tre maskiner ger var för sig ljudnivåerna 85 dB, 90 dB och 93 dB i en punkt.</p>Den totala intensiteten är \\(3{,}3\\cdot10^{-3}\\) W/m².<p>Beräkna den totala ljudnivån i punkten.</p>",
+        "s": "<p>\\(L=10\\lg\\dfrac{3{,}3\\cdot10^{-3}}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(95\\) dB</p>",
+        "ledtrad": "<p>Använd den totala intensiteten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Addera intensiteter, inte decibel.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "åtta racerbilar",
+    "poang": "(1/1/0)",
+    "t": "<p>När en racerbil startar är ljudnivån 98,0 dB i punkten P. Sedan startar sju bilar till på ungefär samma ställe, lika starka. Hur stor blir ljudnivån i P?</p>",
+    "s": "<p>Åtta gånger så stor intensitet: \\(L=98{,}0+10\\lg8\\).</p><p><strong>Svar:</strong> \\(107\\) dB</p>",
+    "id": "2.336",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 107.03089986991944,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många gånger större blir intensiteten?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "dB",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "en smällare i stället för två",
+    "poang": "(1/0/0)",
+    "t": "<p>Två likadana smällare ger tillsammans ljudnivån 85 dB i en punkt. Hur stor blir ljudnivån om bara en smällare smäller?</p>",
+    "s": "<p>Halva intensiteten: \\(L=85-10\\lg2\\).</p><p><strong>Svar:</strong> \\(82\\) dB</p>",
+    "id": "2.337",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 81.98970004336019,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Halverad intensitet.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "dB",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "tågets tuta",
+    "poang": "(1/2/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>När ett tåg är 10 km från en korsning är ljudnivån från tutan 50 dB vid korsningen. Bortse från absorption i luften.</p><ol type=\"a\"><li>Vilken ljudeffekt har tutan?</li><li>Vilken ljudnivå uppfattar en person 50 m från tåget?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=10^{-7}\\) W/m². \\(P=10^{-7}\\cdot4\\pi\\cdot(10\\cdot10^3)^2\\).</p><p><strong>Svar:</strong> \\(126\\) W</p></li><li><p>Avståndet är 200 gånger kortare: \\(L=50+10\\lg200^2\\).</p><p><strong>Svar:</strong> \\(96\\) dB</p></li></ol>",
+    "id": "2.338",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      125.66370614359172,
+      96.02059991327963
+    ],
+    "tolerans": [
+      5.1,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "dB"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>När ett tåg är 10 km från en korsning är ljudnivån från tutan 50 dB vid korsningen. Bortse från absorption i luften.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken ljudeffekt har tutan?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>När ett tåg är 10 km från en korsning är ljudnivån från tutan 50 dB vid korsningen. Bortse från absorption i luften.</p><p>Vilken ljudeffekt har tutan?</p>",
+        "s": "<p>\\(I=10^{-7}\\) W/m². \\(P=10^{-7}\\cdot4\\pi\\cdot(10\\cdot10^3)^2\\).</p><p><strong>Svar:</strong> \\(126\\) W</p>",
+        "ledtrad": "<p>Bestäm intensiteten först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken ljudnivå uppfattar en person 50 m från tåget?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>När ett tåg är 10 km från en korsning är ljudnivån från tutan 50 dB vid korsningen. Bortse från absorption i luften.</p><p>Vilken ljudnivå uppfattar en person 50 m från tåget?</p>",
+        "s": "<p>Avståndet är 200 gånger kortare: \\(L=50+10\\lg200^2\\).</p><p><strong>Svar:</strong> \\(96\\) dB</p>",
+        "ledtrad": "<p>Intensiteten ökar med kvadraten på avståndskvoten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(I=\\dfrac{P}{4\\pi r^2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "musik och skrikande barn",
+    "poang": "(2/0/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Vid en isshow är ljudnivån från musiken 80,0 dB hos en mamma. Hennes barn börjar skrika med ljudnivån 75,0 dB.</p><ol type=\"a\"><li>Vilken är den totala ljudintensiteten vid mamman?</li><li>Hur stor är den totala ljudnivån?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=10^{-4}+10^{-4{,}5}\\).</p><p><strong>Svar:</strong> \\(0{,}000132\\) W/m²</p></li><li><p>\\(L=10\\lg\\dfrac{1{,}32\\cdot10^{-4}}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(81{,}2\\) dB</p></li></ol>",
+    "id": "2.339",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.00013162277660168378,
+      81.19331048066094
+    ],
+    "tolerans": [
+      1.97e-06,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W/m²",
+      "dB"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Vid en isshow är ljudnivån från musiken 80,0 dB hos en mamma. Hennes barn börjar skrika med ljudnivån 75,0 dB.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken är den totala ljudintensiteten vid mamman?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Vid en isshow är ljudnivån från musiken 80,0 dB hos en mamma. Hennes barn börjar skrika med ljudnivån 75,0 dB.</p><p>Vilken är den totala ljudintensiteten vid mamman?</p>",
+        "s": "<p>\\(I=10^{-4}+10^{-4{,}5}\\).</p><p><strong>Svar:</strong> \\(0{,}000132\\) W/m²</p>",
+        "ledtrad": "<p>Addera intensiteterna.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den totala ljudnivån?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Vid en isshow är ljudnivån från musiken 80,0 dB hos en mamma. Hennes barn börjar skrika med ljudnivån 75,0 dB.</p>Den totala intensiteten är \\(1{,}32\\cdot10^{-4}\\) W/m².<p>Hur stor är den totala ljudnivån?</p>",
+        "s": "<p>\\(L=10\\lg\\dfrac{1{,}32\\cdot10^{-4}}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(81{,}2\\) dB</p>",
+        "ledtrad": "<p>Använd den totala intensiteten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Addera intensiteter, inte decibel.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "decibel och intensitetskvoter",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(\\Delta L=10\\lg\\dfrac{I_2}{I_1}\\).</p><ol type=\"a\"><li>Två ljudkällor skiljer sig 5,0 dB i ljudnivå. Hur många gånger större intensitet har den starkare?</li><li>En ljudkälla har 100 gånger större intensitet än en annan. Hur stor är skillnaden i ljudnivå?</li><li>Ljudnivån ökar 1,00 dB. Hur många procent ökar intensiteten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(10^{0{,}50}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\)</p></li><li><p>\\(10\\lg100\\).</p><p><strong>Svar:</strong> \\(20\\) dB</p></li><li><p>\\(10^{0{,}100}\\approx1{,}26\\).</p><p><strong>Svar:</strong> \\(26\\) %</p></li></ol>",
+    "id": "2.340",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.1622776601683795,
+      20,
+      25.892541179416728
+    ],
+    "tolerans": [
+      0.051,
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "dB",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(\\Delta L=10\\lg\\dfrac{I_2}{I_1}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Två ljudkällor skiljer sig 5,0 dB i ljudnivå. Hur många gånger större intensitet har den starkare?",
+        "t": "<p>Använd \\(\\Delta L=10\\lg\\dfrac{I_2}{I_1}\\).</p><p>Två ljudkällor skiljer sig 5,0 dB i ljudnivå. Hur många gånger större intensitet har den starkare?</p>",
+        "s": "<p>\\(10^{0{,}50}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\)</p>",
+        "ledtrad": "<p>Lös ut kvoten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En ljudkälla har 100 gånger större intensitet än en annan. Hur stor är skillnaden i ljudnivå?",
+        "t": "<p>Använd \\(\\Delta L=10\\lg\\dfrac{I_2}{I_1}\\).</p><p>En ljudkälla har 100 gånger större intensitet än en annan. Hur stor är skillnaden i ljudnivå?</p>",
+        "s": "<p>\\(10\\lg100\\).</p><p><strong>Svar:</strong> \\(20\\) dB</p>",
+        "ledtrad": "<p>Sätt in kvoten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ljudnivån ökar 1,00 dB. Hur många procent ökar intensiteten?",
+        "t": "<p>Använd \\(\\Delta L=10\\lg\\dfrac{I_2}{I_1}\\).</p><p>Ljudnivån ökar 1,00 dB. Hur många procent ökar intensiteten?</p>",
+        "s": "<p>\\(10^{0{,}100}\\approx1{,}26\\).</p><p><strong>Svar:</strong> \\(26\\) %</p>",
+        "ledtrad": "<p>Bestäm kvoten och räkna om till procent.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Varje 10 dB motsvarar en faktor 10 i intensitet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "flygplan med en motor",
+    "poang": "(1/0/0)",
+    "t": "<p>Framför ett flygplan med fyra motorer igång är ljudnivån 140 dB. Alla motorer utom en stängs av. Vilken ljudnivå blir det nu?</p>",
+    "s": "<p>En fjärdedel av intensiteten: \\(L=140-10\\lg4\\).</p><p><strong>Svar:</strong> \\(134\\) dB</p>",
+    "id": "2.341",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 133.97940008672037,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur ändras intensiteten?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "dB",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "hörapparat",
+    "poang": "(1/0/0)",
+    "t": "<p>En hörapparat förstärker alla ljud med 30,0 dB. Ett svagt ljud har intensiteten \\(3{,}0\\cdot10^{-11}\\) W/m². Vilken intensitet ger hörapparaten till örat?</p>",
+    "s": "<p>30 dB motsvarar en faktor 1 000: \\(3{,}0\\cdot10^{-11}\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{-8}\\) W/m²</p>",
+    "id": "2.342",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3e-08,
+    "tolerans": 5.1e-10,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken faktor motsvarar 30 dB?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W/m²",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "elefantens infraljud",
+    "poang": "(0/1/0)",
+    "t": "<p>Elefanter kommunicerar med infraljud. Ljudnivån är 103 dB på 5,0 m avstånd. Hur stor är ljudnivån på 10 km avstånd om ljudet inte absorberas?</p>",
+    "s": "<p>\\(\\Delta L=10\\lg\\left(\\dfrac{5{,}0}{10\\,000}\\right)^2\\approx-66\\) dB.</p><p><strong>Svar:</strong> \\(37\\) dB</p>",
+    "id": "2.343",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 36.979400086720375,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Intensiteten minskar med kvadraten på avståndet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "dB",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "raket över tre personer",
+    "poang": "(2/2/0)",
+    "t": "<p>En raket exploderar 100 m ovanför marken. Adam står rakt under. Bo står 100 m från Adam och Cecilia 200 m från Adam, längs samma linje på marken.</p><ol type=\"a\"><li>Hur många gånger större intensitet uppfattar Adam än Bo?</li><li>Hur många gånger större intensitet uppfattar Adam än Cecilia?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r_B^2=100^2+100^2\\). \\(\\dfrac{I_A}{I_B}=\\dfrac{r_B^2}{r_A^2}=\\dfrac{20\\,000}{10\\,000}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\)</p></li><li><p>\\(r_C^2=100^2+200^2=50\\,000\\). \\(\\dfrac{I_A}{I_C}=\\dfrac{50\\,000}{10\\,000}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\)</p></li></ol>",
+    "id": "2.344",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      5
+    ],
+    "tolerans": [
+      0.051,
+      0.075
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En raket exploderar 100 m ovanför marken. Adam står rakt under. Bo står 100 m från Adam och Cecilia 200 m från Adam, längs samma linje på marken.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många gånger större intensitet uppfattar Adam än Bo?",
+        "t": "<p>En raket exploderar 100 m ovanför marken. Adam står rakt under. Bo står 100 m från Adam och Cecilia 200 m från Adam, längs samma linje på marken.</p><p>Hur många gånger större intensitet uppfattar Adam än Bo?</p>",
+        "s": "<p>\\(r_B^2=100^2+100^2\\). \\(\\dfrac{I_A}{I_B}=\\dfrac{r_B^2}{r_A^2}=\\dfrac{20\\,000}{10\\,000}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\)</p>",
+        "ledtrad": "<p>Använd Pythagoras sats för avståndet.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många gånger större intensitet uppfattar Adam än Cecilia?",
+        "t": "<p>En raket exploderar 100 m ovanför marken. Adam står rakt under. Bo står 100 m från Adam och Cecilia 200 m från Adam, längs samma linje på marken.</p><p>Hur många gånger större intensitet uppfattar Adam än Cecilia?</p>",
+        "s": "<p>\\(r_C^2=100^2+200^2=50\\,000\\). \\(\\dfrac{I_A}{I_C}=\\dfrac{50\\,000}{10\\,000}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\)</p>",
+        "ledtrad": "<p>Använd Pythagoras sats för avståndet.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(I\\sim\\dfrac{1}{r^2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "E",
+    "typ": "skillnad mellan mamma och pappa",
+    "poang": "(1/1/0)",
+    "t": "<p>En bebis skriker med munnen 30 cm från mammans öra och 1,50 m från pappans öra. Hur stor är skillnaden i ljudnivå?</p>",
+    "s": "<p>\\(\\Delta L=10\\lg\\left(\\dfrac{1{,}50}{0{,}30}\\right)^2=20\\lg5\\).</p><p><strong>Svar:</strong> \\(14\\) dB</p>",
+    "id": "2.345",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.979400086720377,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Intensiteten är omvänt proportionell mot \\(r^2\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "dB",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "antal personer i hejarklack",
+    "poang": "(0/1/0)",
+    "t": "<p>När en person i en hejarklack vrålar är ljudnivån 90 dB vid läktaren. När alla vrålar lika starkt är den 109 dB. Ungefär hur många personer är det i klacken?</p>",
+    "s": "<p>\\(N=10^{(109-90)/10}=10^{1{,}9}\\approx79\\).</p><p><strong>Svar:</strong> ungefär 80 personer</p>",
+    "id": "2.346",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 79.43282347242814,
+    "tolerans": 4,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Intensiteterna adderas.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "trafik på kvällen",
+    "poang": "(0/1/0)",
+    "t": "<p>Vid en väg är ljudnivån 80,0 dB på dagen, då 100 bilar passerar per minut. På kvällen passerar 5 bilar per minut. Vilken ljudnivå blir det på kvällen?</p>",
+    "s": "<p>Intensiteten är proportionell mot antalet bilar: \\(L=80{,}0+10\\lg\\dfrac{5}{100}\\).</p><p><strong>Svar:</strong> \\(67\\) dB</p>",
+    "id": "2.347",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "numeriskt",
+    "rättSvar": 66.98970004336019,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många gånger mindre blir intensiteten?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "dB",
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "högtalare mellan två lyssnare",
+    "poang": "(0/2/0)",
+    "t": "<p>En högtalare står mellan två lyssnare som är 36 m från varandra. Den ena uppfattar 60 dB och den andra 80 dB.</p><ol type=\"a\"><li>Hur långt från högtalaren står den som hör 80 dB?</li><li>Hur långt från högtalaren står den som hör 60 dB?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>20 dB skillnad ger \\(\\dfrac{I_1}{I_2}=100\\), alltså \\(\\dfrac{r_2}{r_1}=10\\). \\(r_1+10r_1=36\\).</p><p><strong>Svar:</strong> \\(3{,}27\\) m</p></li><li><p>\\(r_2=10r_1=10\\cdot3{,}27\\).</p><p><strong>Svar:</strong> \\(32{,}7\\) m</p></li></ol>",
+    "id": "2.348",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.272727272727273,
+      32.72727272727273
+    ],
+    "tolerans": [
+      0.0491,
+      0.491
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En högtalare står mellan två lyssnare som är 36 m från varandra. Den ena uppfattar 60 dB och den andra 80 dB.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt från högtalaren står den som hör 80 dB?",
+        "t": "<p>En högtalare står mellan två lyssnare som är 36 m från varandra. Den ena uppfattar 60 dB och den andra 80 dB.</p><p>Hur långt från högtalaren står den som hör 80 dB?</p>",
+        "s": "<p>20 dB skillnad ger \\(\\dfrac{I_1}{I_2}=100\\), alltså \\(\\dfrac{r_2}{r_1}=10\\). \\(r_1+10r_1=36\\).</p><p><strong>Svar:</strong> \\(3{,}27\\) m</p>",
+        "ledtrad": "<p>Hur många gånger längre är det ena avståndet?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt från högtalaren står den som hör 60 dB?",
+        "t": "<p>En högtalare står mellan två lyssnare som är 36 m från varandra. Den ena uppfattar 60 dB och den andra 80 dB.</p><p>Hur långt från högtalaren står den som hör 60 dB?</p>",
+        "s": "<p>\\(r_2=10r_1=10\\cdot3{,}27\\).</p><p><strong>Svar:</strong> \\(32{,}7\\) m</p>",
+        "ledtrad": "<p>Hur många gånger längre är det ena avståndet?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(I\\sim\\dfrac{1}{r^2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "fem trumpeter",
+    "poang": "(1/3/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Fem trumpeter spelar i en stor lokal. På avståndet 1,00 m från en trumpet är ljudnivån 115 dB. Anta att ljudet sprids lika åt alla håll.</p><ol type=\"a\"><li>Hur stor är intensiteten från fem trumpeter på 1,00 m avstånd?</li><li>Hur stor är ljudnivån på första raden, 8,0 m från trumpeterna?</li><li>Hur långt bort ska man vara för att ljudnivån ska vara 30 dB, om ljudet inte absorberas? Svara i km.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>En trumpet: \\(10^{-12}\\cdot10^{11{,}5}\\approx0{,}316\\) W/m². Fem: \\(5\\cdot0{,}316\\).</p><p><strong>Svar:</strong> \\(1{,}58\\) W/m²</p></li><li><p>\\(I=\\dfrac{1{,}58}{8{,}0^2}\\approx0{,}0247\\) W/m². \\(L=10\\lg\\dfrac{0{,}0247}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(104\\) dB</p></li><li><p>\\(I=10^{-9}\\) W/m². \\(r=1{,}00\\cdot\\sqrt{\\dfrac{1{,}58}{10^{-9}}}\\).</p><p><strong>Svar:</strong> \\(39{,}8\\) km</p></li></ol>",
+    "id": "2.349",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5811388300841898,
+      103.92790030352131,
+      39.76353643835253
+    ],
+    "tolerans": [
+      0.0237,
+      0.51,
+      0.596
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W/m²",
+      "dB",
+      "km"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Fem trumpeter spelar i en stor lokal. På avståndet 1,00 m från en trumpet är ljudnivån 115 dB. Anta att ljudet sprids lika åt alla håll.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är intensiteten från fem trumpeter på 1,00 m avstånd?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Fem trumpeter spelar i en stor lokal. På avståndet 1,00 m från en trumpet är ljudnivån 115 dB. Anta att ljudet sprids lika åt alla håll.</p><p>Hur stor är intensiteten från fem trumpeter på 1,00 m avstånd?</p>",
+        "s": "<p>En trumpet: \\(10^{-12}\\cdot10^{11{,}5}\\approx0{,}316\\) W/m². Fem: \\(5\\cdot0{,}316\\).</p><p><strong>Svar:</strong> \\(1{,}58\\) W/m²</p>",
+        "ledtrad": "<p>Intensiteterna adderas.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är ljudnivån på första raden, 8,0 m från trumpeterna?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Fem trumpeter spelar i en stor lokal. På avståndet 1,00 m från en trumpet är ljudnivån 115 dB. Anta att ljudet sprids lika åt alla håll.</p>Fem trumpeter ger 1,58 W/m² på 1,00 m avstånd.<p>Hur stor är ljudnivån på första raden, 8,0 m från trumpeterna?</p>",
+        "s": "<p>\\(I=\\dfrac{1{,}58}{8{,}0^2}\\approx0{,}0247\\) W/m². \\(L=10\\lg\\dfrac{0{,}0247}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(104\\) dB</p>",
+        "ledtrad": "<p>Intensiteten avtar med \\(r^2\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt bort ska man vara för att ljudnivån ska vara 30 dB, om ljudet inte absorberas? Svara i km.",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>Fem trumpeter spelar i en stor lokal. På avståndet 1,00 m från en trumpet är ljudnivån 115 dB. Anta att ljudet sprids lika åt alla håll.</p>Fem trumpeter ger 1,58 W/m² på 1,00 m avstånd.<p>Hur långt bort ska man vara för att ljudnivån ska vara 30 dB, om ljudet inte absorberas? Svara i km.</p>",
+        "s": "<p>\\(I=10^{-9}\\) W/m². \\(r=1{,}00\\cdot\\sqrt{\\dfrac{1{,}58}{10^{-9}}}\\).</p><p><strong>Svar:</strong> \\(39{,}8\\) km</p>",
+        "ledtrad": "<p>\\(I_1r_1^2=I_2r_2^2\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>I praktiken absorberar luft och mark ljudet, så det hörs inte alls så långt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
+  },
+  {
+    "kap": 2,
+    "omr": "ljud_horsel",
+    "niva": "C",
+    "typ": "sång ut genom kyrkans fönster",
+    "poang": "(2/2/0)",
+    "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>I en kyrka är ljudnivån överallt 101 dB. Ljud kommer ut bara genom öppna fönster och dörrar med den totala arean 22,0 m². Anta att ljudet sedan sprids lika åt alla håll.</p><ol type=\"a\"><li>Hur mycket ljudenergi strålar ut på 20,0 minuter?</li><li>Hur stor är ljudnivån 1,00 km bort, om ljudet inte absorberas?</li><li>Hur stor är ljudnivån 1,00 km bort om luften dämpar ljudet med 11 dB/km?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=10^{-12}\\cdot10^{10{,}1}\\approx0{,}0126\\) W/m². \\(P=IA\\approx0{,}277\\) W. \\(E=Pt=0{,}277\\cdot1\\,200\\).</p><p><strong>Svar:</strong> \\(332\\) J</p></li><li><p>\\(I=\\dfrac{0{,}277}{4\\pi\\cdot1\\,000^2}\\). \\(L=10\\lg\\dfrac{I}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(43{,}4\\) dB</p></li><li><p>\\(43{,}4-11\\).</p><p><strong>Svar:</strong> \\(32{,}4\\) dB</p></li></ol>",
+    "id": "2.350",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ljudintensitet och ljudnivå",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      332.3563087136598,
+      43.4321281680011,
+      32.4321281680011
+    ],
+    "tolerans": [
+      4.99,
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "dB",
+      "dB"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>I en kyrka är ljudnivån överallt 101 dB. Ljud kommer ut bara genom öppna fönster och dörrar med den totala arean 22,0 m². Anta att ljudet sedan sprids lika åt alla håll.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket ljudenergi strålar ut på 20,0 minuter?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>I en kyrka är ljudnivån överallt 101 dB. Ljud kommer ut bara genom öppna fönster och dörrar med den totala arean 22,0 m². Anta att ljudet sedan sprids lika åt alla håll.</p><p>Hur mycket ljudenergi strålar ut på 20,0 minuter?</p>",
+        "s": "<p>\\(I=10^{-12}\\cdot10^{10{,}1}\\approx0{,}0126\\) W/m². \\(P=IA\\approx0{,}277\\) W. \\(E=Pt=0{,}277\\cdot1\\,200\\).</p><p><strong>Svar:</strong> \\(332\\) J</p>",
+        "ledtrad": "<p>Effekten är intensiteten gånger arean.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är ljudnivån 1,00 km bort, om ljudet inte absorberas?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>I en kyrka är ljudnivån överallt 101 dB. Ljud kommer ut bara genom öppna fönster och dörrar med den totala arean 22,0 m². Anta att ljudet sedan sprids lika åt alla håll.</p>Ljudeffekten ut från kyrkan är 0,277 W.<p>Hur stor är ljudnivån 1,00 km bort, om ljudet inte absorberas?</p>",
+        "s": "<p>\\(I=\\dfrac{0{,}277}{4\\pi\\cdot1\\,000^2}\\). \\(L=10\\lg\\dfrac{I}{10^{-12}}\\).</p><p><strong>Svar:</strong> \\(43{,}4\\) dB</p>",
+        "ledtrad": "<p>\\(I=\\dfrac{P}{4\\pi r^2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är ljudnivån 1,00 km bort om luften dämpar ljudet med 11 dB/km?",
+        "t": "<p>Ljudnivå: \\(L=10\\lg\\dfrac{I}{I_0}\\) där \\(I_0=1{,}0\\cdot10^{-12}\\) W/m². En punktformig källa med effekten \\(P\\) ger \\(I=\\dfrac{P}{4\\pi r^2}\\).</p><p>I en kyrka är ljudnivån överallt 101 dB. Ljud kommer ut bara genom öppna fönster och dörrar med den totala arean 22,0 m². Anta att ljudet sedan sprids lika åt alla håll.</p>Utan dämpning är ljudnivån 43,4 dB på 1,00 km avstånd.<p>Hur stor är ljudnivån 1,00 km bort om luften dämpar ljudet med 11 dB/km?</p>",
+        "s": "<p>\\(43{,}4-11\\).</p><p><strong>Svar:</strong> \\(32{,}4\\) dB</p>",
+        "ledtrad": "<p>Dra av dämpningen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Effekten ut från kyrkan är \\(P=IA\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljud_horsel__ljudintensitet_och_ljudniva"
   },
   {
     "id": "6.301",

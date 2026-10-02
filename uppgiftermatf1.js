@@ -20189,6 +20189,307 @@ window.BANKMATF1 = [
   },
   {
     "kap": 3,
+    "omr": "partiell_integration",
+    "niva": "C",
+    "typ": "partiell integration med polynom",
+    "poang": "2/2/0",
+    "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><ol type=\"a\"><li>\\(\\displaystyle\\int2xe^x\\,dx\\)</li><li>\\(\\displaystyle\\int(x+1)\\sin x\\,dx\\)</li><li>\\(\\displaystyle\\int t\\cos3t\\,dt\\)</li><li>\\(\\displaystyle\\int xe^{-2x}\\,dx\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(u=2x\\), \\(v^{\\prime}=e^x\\): \\(2xe^x-\\displaystyle\\int2e^x\\,dx=2xe^x-2e^x+C\\).</p><p><strong>Svar:</strong> \\(2xe^x-2e^x+C\\)</p></li><li><p>\\(u=x+1\\), \\(v^{\\prime}=\\sin x\\): \\(-(x+1)\\cos x+\\displaystyle\\int\\cos x\\,dx=-(x+1)\\cos x+\\sin x+C\\).</p><p><strong>Svar:</strong> \\(-(x+1)\\cos x+\\sin x+C\\)</p></li><li><p>\\(u=t\\), \\(v=\\dfrac{\\sin3t}{3}\\): \\(\\dfrac{t\\sin3t}{3}-\\displaystyle\\int\\dfrac{\\sin3t}{3}\\,dt=\\dfrac{t\\sin3t}{3}+\\dfrac{\\cos3t}{9}+C\\).</p><p><strong>Svar:</strong> \\(\\dfrac{t\\sin3t}{3}+\\dfrac{\\cos3t}{9}+C\\)</p></li><li><p>\\(u=x\\), \\(v=-\\dfrac{e^{-2x}}{2}\\): \\(-\\dfrac{xe^{-2x}}{2}+\\displaystyle\\int\\dfrac{e^{-2x}}{2}\\,dx=-\\dfrac{xe^{-2x}}{2}-\\dfrac{e^{-2x}}{4}+C\\).</p><p><strong>Svar:</strong> \\(-\\dfrac{xe^{-2x}}{2}-\\dfrac{e^{-2x}}{4}+C\\)</p></li></ol>",
+    "id": "3.318",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Partiell integration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2x*e^x-2e^x+C",
+      "-(x+1)*cos(x)+sin(x)+C",
+      "t*sin(3t)/3+cos(3t)/9+C",
+      "-x*e^(-2x)/2-e^(-2x)/4+C"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm alla primitiva funktioner med partiell integration.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\displaystyle\\int2xe^x\\,dx\\)",
+        "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int2xe^x\\,dx\\)</p>",
+        "s": "<p>\\(u=2x\\), \\(v^{\\prime}=e^x\\): \\(2xe^x-\\displaystyle\\int2e^x\\,dx=2xe^x-2e^x+C\\).</p><p><strong>Svar:</strong> \\(2xe^x-2e^x+C\\)</p>",
+        "ledtrad": "<p>Låt polynomet vara den faktor som deriveras.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\displaystyle\\int(x+1)\\sin x\\,dx\\)",
+        "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int(x+1)\\sin x\\,dx\\)</p>",
+        "s": "<p>\\(u=x+1\\), \\(v^{\\prime}=\\sin x\\): \\(-(x+1)\\cos x+\\displaystyle\\int\\cos x\\,dx=-(x+1)\\cos x+\\sin x+C\\).</p><p><strong>Svar:</strong> \\(-(x+1)\\cos x+\\sin x+C\\)</p>",
+        "ledtrad": "<p>Vilken faktor blir enklare när den deriveras?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\displaystyle\\int t\\cos3t\\,dt\\)",
+        "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int t\\cos3t\\,dt\\)</p>",
+        "s": "<p>\\(u=t\\), \\(v=\\dfrac{\\sin3t}{3}\\): \\(\\dfrac{t\\sin3t}{3}-\\displaystyle\\int\\dfrac{\\sin3t}{3}\\,dt=\\dfrac{t\\sin3t}{3}+\\dfrac{\\cos3t}{9}+C\\).</p><p><strong>Svar:</strong> \\(\\dfrac{t\\sin3t}{3}+\\dfrac{\\cos3t}{9}+C\\)</p>",
+        "ledtrad": "<p>En primitiv funktion till \\(\\cos3t\\) är \\(\\dfrac{\\sin3t}{3}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(\\displaystyle\\int xe^{-2x}\\,dx\\)",
+        "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int xe^{-2x}\\,dx\\)</p>",
+        "s": "<p>\\(u=x\\), \\(v=-\\dfrac{e^{-2x}}{2}\\): \\(-\\dfrac{xe^{-2x}}{2}+\\displaystyle\\int\\dfrac{e^{-2x}}{2}\\,dx=-\\dfrac{xe^{-2x}}{2}-\\dfrac{e^{-2x}}{4}+C\\).</p><p><strong>Svar:</strong> \\(-\\dfrac{xe^{-2x}}{2}-\\dfrac{e^{-2x}}{4}+C\\)</p>",
+        "ledtrad": "<p>Integrera exponentialfaktorn och tänk på den inre derivatan.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(\\displaystyle\\int uv^{\\prime}\\,dx=uv-\\int u^{\\prime}v\\,dx\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "partiell_integration",
+    "niva": "A",
+    "typ": "partiell integration med logaritm och upprepning",
+    "poang": "0/6/2",
+    "t": "<p>Bestäm alla primitiva funktioner.</p><ol type=\"a\"><li>\\(\\displaystyle\\int x\\ln x\\,dx\\)</li><li>\\(\\displaystyle\\int x^2\\sin x\\,dx\\)</li><li>\\(\\displaystyle\\int\\dfrac{\\ln x}{x^2}\\,dx\\)</li><li>\\(\\displaystyle\\int e^x\\cos x\\,dx\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Låt \\(\\ln x\\) deriveras: \\(u=\\ln x\\), \\(v=\\dfrac{x^2}{2}\\).</p><p>\\(\\dfrac{x^2\\ln x}{2}-\\displaystyle\\int\\dfrac x2\\,dx=\\dfrac{x^2\\ln x}{2}-\\dfrac{x^2}{4}+C\\).</p><p><strong>Svar:</strong> \\(\\dfrac{x^2\\ln x}{2}-\\dfrac{x^2}{4}+C\\)</p></li><li><p>Två partiella integrationer: \\(-x^2\\cos x+\\displaystyle\\int2x\\cos x\\,dx=-x^2\\cos x+2x\\sin x-\\int2\\sin x\\,dx\\).</p><p>\\(=-x^2\\cos x+2x\\sin x+2\\cos x+C\\).</p><p><strong>Svar:</strong> \\(-x^2\\cos x+2x\\sin x+2\\cos x+C\\)</p></li><li><p>\\(u=\\ln x\\), \\(v=-\\dfrac1x\\): \\(-\\dfrac{\\ln x}{x}+\\displaystyle\\int\\dfrac{1}{x^2}\\,dx=-\\dfrac{\\ln x}{x}-\\dfrac1x+C\\).</p><p><strong>Svar:</strong> \\(-\\dfrac{\\ln x}{x}-\\dfrac1x+C\\)</p></li><li><p>Två partiella integrationer ger samma integral \\(I\\) igen: \\(I=e^x\\sin x+e^x\\cos x-I\\).</p><p>\\(2I=e^x(\\sin x+\\cos x)\\iff I=\\dfrac{e^x(\\sin x+\\cos x)}{2}+C\\).</p><p><strong>Svar:</strong> \\(\\dfrac{e^x(\\sin x+\\cos x)}{2}+C\\)</p></li></ol>",
+    "id": "3.319",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Partiell integration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "x^2*ln(x)/2-x^2/4+C",
+      "-x^2*cos(x)+2x*sin(x)+2cos(x)+C",
+      "-ln(x)/x-1/x+C",
+      "e^x*(sin(x)+cos(x))/2+C"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm alla primitiva funktioner.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\displaystyle\\int x\\ln x\\,dx\\)",
+        "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int x\\ln x\\,dx\\)</p>",
+        "s": "<p>Låt \\(\\ln x\\) deriveras: \\(u=\\ln x\\), \\(v=\\dfrac{x^2}{2}\\).</p><p>\\(\\dfrac{x^2\\ln x}{2}-\\displaystyle\\int\\dfrac x2\\,dx=\\dfrac{x^2\\ln x}{2}-\\dfrac{x^2}{4}+C\\).</p><p><strong>Svar:</strong> \\(\\dfrac{x^2\\ln x}{2}-\\dfrac{x^2}{4}+C\\)</p>",
+        "ledtrad": "<p>\\(\\ln x\\) blir enklare när den deriveras.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\displaystyle\\int x^2\\sin x\\,dx\\)",
+        "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int x^2\\sin x\\,dx\\)</p>",
+        "s": "<p>Två partiella integrationer: \\(-x^2\\cos x+\\displaystyle\\int2x\\cos x\\,dx=-x^2\\cos x+2x\\sin x-\\int2\\sin x\\,dx\\).</p><p>\\(=-x^2\\cos x+2x\\sin x+2\\cos x+C\\).</p><p><strong>Svar:</strong> \\(-x^2\\cos x+2x\\sin x+2\\cos x+C\\)</p>",
+        "ledtrad": "<p>Partiell integration behövs två gånger. Håll ordning på tecknen.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\displaystyle\\int\\dfrac{\\ln x}{x^2}\\,dx\\)",
+        "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int\\dfrac{\\ln x}{x^2}\\,dx\\)</p>",
+        "s": "<p>\\(u=\\ln x\\), \\(v=-\\dfrac1x\\): \\(-\\dfrac{\\ln x}{x}+\\displaystyle\\int\\dfrac{1}{x^2}\\,dx=-\\dfrac{\\ln x}{x}-\\dfrac1x+C\\).</p><p><strong>Svar:</strong> \\(-\\dfrac{\\ln x}{x}-\\dfrac1x+C\\)</p>",
+        "ledtrad": "<p>Skriv integranden som \\(\\ln x\\cdot x^{-2}\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(\\displaystyle\\int e^x\\cos x\\,dx\\)",
+        "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int e^x\\cos x\\,dx\\)</p>",
+        "s": "<p>Två partiella integrationer ger samma integral \\(I\\) igen: \\(I=e^x\\sin x+e^x\\cos x-I\\).</p><p>\\(2I=e^x(\\sin x+\\cos x)\\iff I=\\dfrac{e^x(\\sin x+\\cos x)}{2}+C\\).</p><p><strong>Svar:</strong> \\(\\dfrac{e^x(\\sin x+\\cos x)}{2}+C\\)</p>",
+        "ledtrad": "<p>Integrera partiellt två gånger. Vilken integral dyker upp igen?</p>",
+        "niva": "A",
+        "poang": "0/1/2",
+        "traningsniva": 5
+      }
+    ],
+    "ledtrad": "<p>Välj \\(u\\) och \\(v^{\\prime}\\) med omsorg.</p>",
+    "traningsniva": 5
+  },
+  {
+    "kap": 3,
+    "omr": "partiell_integration",
+    "niva": "C",
+    "typ": "primitiv funktion med villkor",
+    "poang": "2/2/0",
+    "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><ol type=\"a\"><li>\\(f(x)=(x+2)\\sin x\\) och \\(F(0)=2\\)</li><li>\\(f(x)=2xe^{-x}\\) och \\(F(0)=3\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F(x)=-(x+2)\\cos x+\\sin x+C\\). \\(F(0)=-2+C=2\\iff C=4\\).</p><p><strong>Svar:</strong> \\(F(x)=-(x+2)\\cos x+\\sin x+4\\)</p></li><li><p>\\(F(x)=-2xe^{-x}-2e^{-x}+C\\). \\(F(0)=-2+C=3\\iff C=5\\).</p><p><strong>Svar:</strong> \\(F(x)=-2xe^{-x}-2e^{-x}+5\\)</p></li></ol>",
+    "id": "3.320",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Partiell integration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-(x+2)*cos(x)+sin(x)+4",
+      "-2x*e^(-x)-2e^(-x)+5"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(f(x)=(x+2)\\sin x\\) och \\(F(0)=2\\)",
+        "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><p>\\(f(x)=(x+2)\\sin x\\) och \\(F(0)=2\\)</p>",
+        "s": "<p>\\(F(x)=-(x+2)\\cos x+\\sin x+C\\). \\(F(0)=-2+C=2\\iff C=4\\).</p><p><strong>Svar:</strong> \\(F(x)=-(x+2)\\cos x+\\sin x+4\\)</p>",
+        "ledtrad": "<p>Bestäm först alla primitiva funktioner och sedan konstanten.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(f(x)=2xe^{-x}\\) och \\(F(0)=3\\)",
+        "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><p>\\(f(x)=2xe^{-x}\\) och \\(F(0)=3\\)</p>",
+        "s": "<p>\\(F(x)=-2xe^{-x}-2e^{-x}+C\\). \\(F(0)=-2+C=3\\iff C=5\\).</p><p><strong>Svar:</strong> \\(F(x)=-2xe^{-x}-2e^{-x}+5\\)</p>",
+        "ledtrad": "<p>Integrera partiellt och sätt in villkoret.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Integrera partiellt och bestäm konstanten ur villkoret.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "partiell_integration",
+    "niva": "C",
+    "typ": "bestämd integral med partiell integration",
+    "poang": "0/4/0",
+    "t": "<p>Beräkna integralen exakt.</p><ol type=\"a\"><li>\\(\\displaystyle\\int_0^{\\pi/2}x\\sin2x\\,dx\\)</li><li>\\(\\displaystyle\\int_1^2x^2\\ln x\\,dx\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\left[-\\dfrac{x\\cos2x}{2}\\right]_0^{\\pi/2}+\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\cos2x}{2}\\,dx=\\dfrac\\pi4+\\left[\\dfrac{\\sin2x}{4}\\right]_0^{\\pi/2}=\\dfrac\\pi4\\).</p><p><strong>Svar:</strong> \\(\\dfrac\\pi4\\)</p></li><li><p>\\(\\left[\\dfrac{x^3\\ln x}{3}\\right]_1^2-\\displaystyle\\int_1^2\\dfrac{x^2}{3}\\,dx=\\dfrac{8\\ln2}{3}-\\dfrac79\\).</p><p><strong>Svar:</strong> \\(\\dfrac{8\\ln2}{3}-\\dfrac79\\approx1{,}071\\)</p></li></ol>",
+    "id": "3.321",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Partiell integration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/4",
+      "8ln(2)/3-7/9"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Beräkna integralen exakt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\displaystyle\\int_0^{\\pi/2}x\\sin2x\\,dx\\)",
+        "t": "<p>Beräkna integralen exakt.</p><p>\\(\\displaystyle\\int_0^{\\pi/2}x\\sin2x\\,dx\\)</p>",
+        "s": "<p>\\(\\left[-\\dfrac{x\\cos2x}{2}\\right]_0^{\\pi/2}+\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\cos2x}{2}\\,dx=\\dfrac\\pi4+\\left[\\dfrac{\\sin2x}{4}\\right]_0^{\\pi/2}=\\dfrac\\pi4\\).</p><p><strong>Svar:</strong> \\(\\dfrac\\pi4\\)</p>",
+        "ledtrad": "<p>Integrera partiellt med \\(u=x\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\displaystyle\\int_1^2x^2\\ln x\\,dx\\)",
+        "t": "<p>Beräkna integralen exakt.</p><p>\\(\\displaystyle\\int_1^2x^2\\ln x\\,dx\\)</p>",
+        "s": "<p>\\(\\left[\\dfrac{x^3\\ln x}{3}\\right]_1^2-\\displaystyle\\int_1^2\\dfrac{x^2}{3}\\,dx=\\dfrac{8\\ln2}{3}-\\dfrac79\\).</p><p><strong>Svar:</strong> \\(\\dfrac{8\\ln2}{3}-\\dfrac79\\approx1{,}071\\)</p>",
+        "ledtrad": "<p>Låt \\(\\ln x\\) vara faktorn som deriveras.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Partiell integration för bestämda integraler: \\(\\left[uv\\right]_a^b-\\int_a^bu^{\\prime}v\\,dx\\).</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 3,
     "omr": "generaliserade_integraler",
     "niva": "E",
     "typ": "beräkna konvergent p-integral på oändligt intervall",
@@ -47182,6 +47483,158 @@ window.BANKMATF1 = [
   },
   {
     "kap": 3,
+    "omr": "generaliserade_integraler",
+    "niva": "C",
+    "typ": "beräkna konvergenta integraler",
+    "poang": "3/1/0",
+    "t": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p><ol type=\"a\"><li>\\(\\displaystyle\\int_2^\\infty\\frac{1}{x^2}\\,dx\\)</li><li>\\(\\displaystyle\\int_0^\\infty4e^{-4x}\\,dx\\)</li><li>\\(\\displaystyle\\int_1^\\infty\\frac{dx}{x^4}\\)</li><li>\\(\\displaystyle\\int_{-\\infty}^0e^{2x}\\,dx\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\left[-\\dfrac1x\\right]_2^b=\\dfrac12-\\dfrac1b\\to\\dfrac12\\) när \\(b\\to\\infty\\).</p><p><strong>Svar:</strong> \\(\\dfrac12\\)</p></li><li><p>\\(\\left[-e^{-4x}\\right]_0^b=1-e^{-4b}\\to1\\).</p><p><strong>Svar:</strong> 1</p></li><li><p>\\(\\left[-\\dfrac{1}{3x^3}\\right]_1^b\\to\\dfrac13\\).</p><p><strong>Svar:</strong> \\(\\dfrac13\\)</p></li><li><p>\\(\\left[\\dfrac{e^{2x}}{2}\\right]_a^0=\\dfrac12-\\dfrac{e^{2a}}{2}\\to\\dfrac12\\) när \\(a\\to-\\infty\\).</p><p><strong>Svar:</strong> \\(\\dfrac12\\)</p></li></ol>",
+    "id": "3.322",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Generaliserade integraler",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/2",
+      1,
+      "1/3",
+      "1/2"
+    ],
+    "tolerans": [
+      0.0001,
+      0.0001,
+      0.0001,
+      0.0001
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\displaystyle\\int_2^\\infty\\frac{1}{x^2}\\,dx\\)",
+        "t": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p><p>\\(\\displaystyle\\int_2^\\infty\\frac{1}{x^2}\\,dx\\)</p>",
+        "s": "<p>\\(\\left[-\\dfrac1x\\right]_2^b=\\dfrac12-\\dfrac1b\\to\\dfrac12\\) när \\(b\\to\\infty\\).</p><p><strong>Svar:</strong> \\(\\dfrac12\\)</p>",
+        "ledtrad": "<p>Integrera till en övre gräns \\(b\\) och låt \\(b\\to\\infty\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\displaystyle\\int_0^\\infty4e^{-4x}\\,dx\\)",
+        "t": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p><p>\\(\\displaystyle\\int_0^\\infty4e^{-4x}\\,dx\\)</p>",
+        "s": "<p>\\(\\left[-e^{-4x}\\right]_0^b=1-e^{-4b}\\to1\\).</p><p><strong>Svar:</strong> 1</p>",
+        "ledtrad": "<p>Vad händer med \\(e^{-4b}\\) när \\(b\\) växer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\displaystyle\\int_1^\\infty\\frac{dx}{x^4}\\)",
+        "t": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p><p>\\(\\displaystyle\\int_1^\\infty\\frac{dx}{x^4}\\)</p>",
+        "s": "<p>\\(\\left[-\\dfrac{1}{3x^3}\\right]_1^b\\to\\dfrac13\\).</p><p><strong>Svar:</strong> \\(\\dfrac13\\)</p>",
+        "ledtrad": "<p>Skriv integranden som \\(x^{-4}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(\\displaystyle\\int_{-\\infty}^0e^{2x}\\,dx\\)",
+        "t": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p><p>\\(\\displaystyle\\int_{-\\infty}^0e^{2x}\\,dx\\)</p>",
+        "s": "<p>\\(\\left[\\dfrac{e^{2x}}{2}\\right]_a^0=\\dfrac12-\\dfrac{e^{2a}}{2}\\to\\dfrac12\\) när \\(a\\to-\\infty\\).</p><p><strong>Svar:</strong> \\(\\dfrac12\\)</p>",
+        "ledtrad": "<p>Nu är det den undre gränsen som går mot oändligheten.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>En generaliserad integral beräknas som ett gränsvärde.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "generaliserade_integraler",
+    "niva": "C",
+    "typ": "integral med parameter",
+    "poang": "0/2/0",
+    "t": "<p>Beräkna integralerna. Konstanterna är positiva.</p><ol type=\"a\"><li>\\(\\displaystyle\\int_0^\\infty me^{-mx}\\,dx\\), där \\(m\\gt0\\)</li><li>\\(\\displaystyle\\int_0^\\infty Qe^{-kx}\\,dx\\), där \\(k\\gt0\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\left[-e^{-mx}\\right]_0^b=1-e^{-mb}\\to1\\). Värdet beror inte på \\(m\\).</p><p><strong>Svar:</strong> 1</p></li><li><p>\\(\\left[-\\dfrac Qke^{-kx}\\right]_0^b\\to\\dfrac Qk\\).</p><p><strong>Svar:</strong> \\(\\dfrac Qk\\)</p></li></ol>",
+    "id": "3.323",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Generaliserade integraler",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1",
+      "Q/k"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Beräkna integralerna. Konstanterna är positiva.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\displaystyle\\int_0^\\infty me^{-mx}\\,dx\\), där \\(m\\gt0\\)",
+        "t": "<p>Beräkna integralerna. Konstanterna är positiva.</p><p>\\(\\displaystyle\\int_0^\\infty me^{-mx}\\,dx\\), där \\(m\\gt0\\)</p>",
+        "s": "<p>\\(\\left[-e^{-mx}\\right]_0^b=1-e^{-mb}\\to1\\). Värdet beror inte på \\(m\\).</p><p><strong>Svar:</strong> 1</p>",
+        "ledtrad": "<p>En primitiv funktion till \\(me^{-mx}\\) är \\(-e^{-mx}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\displaystyle\\int_0^\\infty Qe^{-kx}\\,dx\\), där \\(k\\gt0\\)",
+        "t": "<p>Beräkna integralerna. Konstanterna är positiva.</p><p>\\(\\displaystyle\\int_0^\\infty Qe^{-kx}\\,dx\\), där \\(k\\gt0\\)</p>",
+        "s": "<p>\\(\\left[-\\dfrac Qke^{-kx}\\right]_0^b\\to\\dfrac Qk\\).</p><p><strong>Svar:</strong> \\(\\dfrac Qk\\)</p>",
+        "ledtrad": "<p>Tänk på den inre derivatan \\(-k\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Behandla konstanterna som tal.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
     "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation – grundträning",
@@ -47434,6 +47887,399 @@ window.BANKMATF1 = [
       null,
       null
     ]
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "C",
+    "typ": "tangentapproximation i en punkt",
+    "poang": "3/1/0",
+    "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><ol type=\"a\"><li>\\(f(x)=x^2\\) kring \\(a=3\\)</li><li>\\(f(x)=x^3-2x+3\\) kring \\(a=2\\)</li><li>\\(f(x)=e^{2x}\\) kring \\(a=0\\)</li><li>\\(f(x)=\\tan x\\) kring \\(a=\\dfrac\\pi4\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f(3)=9\\), \\(f^{\\prime}(x)=2x\\), \\(f^{\\prime}(3)=6\\).</p><p>\\(y=9+6(x-3)=6x-9\\).</p><p><strong>Svar:</strong> \\(y=6x-9\\)</p></li><li><p>\\(f(2)=8-4+3=7\\), \\(f^{\\prime}(x)=3x^2-2\\), \\(f^{\\prime}(2)=10\\).</p><p>\\(y=7+10(x-2)=10x-13\\).</p><p><strong>Svar:</strong> \\(y=10x-13\\)</p></li><li><p>\\(f(0)=1\\), \\(f^{\\prime}(x)=2e^{2x}\\), \\(f^{\\prime}(0)=2\\).</p><p><strong>Svar:</strong> \\(y=2x+1\\)</p></li><li><p>\\(f\\left(\\tfrac\\pi4\\right)=1\\), \\(f^{\\prime}(x)=\\dfrac{1}{\\cos^2x}\\), \\(f^{\\prime}\\left(\\tfrac\\pi4\\right)=2\\).</p><p>\\(y=1+2\\left(x-\\dfrac\\pi4\\right)=2x+1-\\dfrac\\pi2\\).</p><p><strong>Svar:</strong> \\(y=2x+1-\\dfrac\\pi2\\)</p></li></ol>",
+    "id": "3.312",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "6x-9",
+      "10x-13",
+      "2x+1",
+      "2x+1-pi/2"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(f(x)=x^2\\) kring \\(a=3\\)",
+        "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=x^2\\) kring \\(a=3\\)</p>",
+        "s": "<p>\\(f(3)=9\\), \\(f^{\\prime}(x)=2x\\), \\(f^{\\prime}(3)=6\\).</p><p>\\(y=9+6(x-3)=6x-9\\).</p><p><strong>Svar:</strong> \\(y=6x-9\\)</p>",
+        "ledtrad": "<p>Bestäm funktionsvärdet och derivatans värde i punkten.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(f(x)=x^3-2x+3\\) kring \\(a=2\\)",
+        "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=x^3-2x+3\\) kring \\(a=2\\)</p>",
+        "s": "<p>\\(f(2)=8-4+3=7\\), \\(f^{\\prime}(x)=3x^2-2\\), \\(f^{\\prime}(2)=10\\).</p><p>\\(y=7+10(x-2)=10x-13\\).</p><p><strong>Svar:</strong> \\(y=10x-13\\)</p>",
+        "ledtrad": "<p>Använd \\(y=f(a)+f^{\\prime}(a)(x-a)\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(f(x)=e^{2x}\\) kring \\(a=0\\)",
+        "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=e^{2x}\\) kring \\(a=0\\)</p>",
+        "s": "<p>\\(f(0)=1\\), \\(f^{\\prime}(x)=2e^{2x}\\), \\(f^{\\prime}(0)=2\\).</p><p><strong>Svar:</strong> \\(y=2x+1\\)</p>",
+        "ledtrad": "<p>Glöm inte den inre derivatan.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(f(x)=\\tan x\\) kring \\(a=\\dfrac\\pi4\\)",
+        "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=\\tan x\\) kring \\(a=\\dfrac\\pi4\\)</p>",
+        "s": "<p>\\(f\\left(\\tfrac\\pi4\\right)=1\\), \\(f^{\\prime}(x)=\\dfrac{1}{\\cos^2x}\\), \\(f^{\\prime}\\left(\\tfrac\\pi4\\right)=2\\).</p><p>\\(y=1+2\\left(x-\\dfrac\\pi4\\right)=2x+1-\\dfrac\\pi2\\).</p><p><strong>Svar:</strong> \\(y=2x+1-\\dfrac\\pi2\\)</p>",
+        "ledtrad": "<p>Derivatan av \\(\\tan x\\) är \\(\\dfrac1{\\cos^2x}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Tangentens ekvation är den linjära approximationen.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "C",
+    "typ": "välja lämplig punkt",
+    "poang": "2/2/0",
+    "t": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p><ol type=\"a\"><li>\\(f(x)=(1+x)^3\\). Uppskatta \\(f(2{,}1)\\).</li><li>\\(f(x)=\\sqrt[3]{x}\\). Uppskatta \\(\\sqrt[3]{8{,}5}\\). Svara med tre decimaler.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Välj \\(a=2\\): \\(f(2)=27\\), \\(f^{\\prime}(x)=3(1+x)^2\\), \\(f^{\\prime}(2)=27\\).</p><p>\\(f(2{,}1)\\approx27+27\\cdot0{,}1=29{,}7\\).</p><p><strong>Svar:</strong> 29,7</p></li><li><p>Välj \\(a=8\\): \\(f(8)=2\\), \\(f^{\\prime}(x)=\\dfrac{1}{3x^{2/3}}\\), \\(f^{\\prime}(8)=\\dfrac1{12}\\).</p><p>\\(\\sqrt[3]{8{,}5}\\approx2+\\dfrac{0{,}5}{12}=\\dfrac{49}{24}\\approx2{,}042\\).</p><p><strong>Svar:</strong> \\(\\approx2{,}042\\)</p></li></ol>",
+    "id": "3.313",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29.7,
+      2.042
+    ],
+    "tolerans": [
+      0.001,
+      0.0006
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(f(x)=(1+x)^3\\). Uppskatta \\(f(2{,}1)\\).",
+        "t": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p><p>\\(f(x)=(1+x)^3\\). Uppskatta \\(f(2{,}1)\\).</p>",
+        "s": "<p>Välj \\(a=2\\): \\(f(2)=27\\), \\(f^{\\prime}(x)=3(1+x)^2\\), \\(f^{\\prime}(2)=27\\).</p><p>\\(f(2{,}1)\\approx27+27\\cdot0{,}1=29{,}7\\).</p><p><strong>Svar:</strong> 29,7</p>",
+        "ledtrad": "<p>Välj \\(a\\) så att \\(f(a)\\) och \\(f^{\\prime}(a)\\) är lätta att räkna ut.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(f(x)=\\sqrt[3]{x}\\). Uppskatta \\(\\sqrt[3]{8{,}5}\\). Svara med tre decimaler.",
+        "t": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p><p>\\(f(x)=\\sqrt[3]{x}\\). Uppskatta \\(\\sqrt[3]{8{,}5}\\). Svara med tre decimaler.</p>",
+        "s": "<p>Välj \\(a=8\\): \\(f(8)=2\\), \\(f^{\\prime}(x)=\\dfrac{1}{3x^{2/3}}\\), \\(f^{\\prime}(8)=\\dfrac1{12}\\).</p><p>\\(\\sqrt[3]{8{,}5}\\approx2+\\dfrac{0{,}5}{12}=\\dfrac{49}{24}\\approx2{,}042\\).</p><p><strong>Svar:</strong> \\(\\approx2{,}042\\)</p>",
+        "ledtrad": "<p>Vilket tal nära 8,5 har en känd kubikrot?</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Välj en punkt där funktionen är lätt att beräkna.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "C",
+    "typ": "approximationen (1+x)^k ≈ 1+kx",
+    "poang": "2/2/0",
+    "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><ol type=\"a\"><li>\\(1{,}002^{50}\\)</li><li>\\(0{,}998^{40}\\)</li><li>\\(1{,}004^{-15}\\)</li><li>\\(\\sqrt[3]{1{,}009}\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(x=0{,}002\\), \\(k=50\\): \\(1+50\\cdot0{,}002=1{,}1\\). (Exakt värde \\(\\approx1{,}105\\).)</p><p><strong>Svar:</strong> 1,1</p></li><li><p>\\(x=-0{,}002\\), \\(k=40\\): \\(1-0{,}08=0{,}92\\).</p><p><strong>Svar:</strong> 0,92</p></li><li><p>\\(x=0{,}004\\), \\(k=-15\\): \\(1-0{,}06=0{,}94\\).</p><p><strong>Svar:</strong> 0,94</p></li><li><p>\\(x=0{,}009\\), \\(k=\\tfrac13\\): \\(1+0{,}003=1{,}003\\).</p><p><strong>Svar:</strong> 1,003</p></li></ol>",
+    "id": "3.314",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.1,
+      0.92,
+      0.94,
+      1.003
+    ],
+    "tolerans": [
+      0.0001,
+      0.0001,
+      0.0001,
+      1e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(1{,}002^{50}\\)",
+        "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(1{,}002^{50}\\)</p>",
+        "s": "<p>\\(x=0{,}002\\), \\(k=50\\): \\(1+50\\cdot0{,}002=1{,}1\\). (Exakt värde \\(\\approx1{,}105\\).)</p><p><strong>Svar:</strong> 1,1</p>",
+        "ledtrad": "<p>Identifiera \\(x\\) och \\(k\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(0{,}998^{40}\\)",
+        "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(0{,}998^{40}\\)</p>",
+        "s": "<p>\\(x=-0{,}002\\), \\(k=40\\): \\(1-0{,}08=0{,}92\\).</p><p><strong>Svar:</strong> 0,92</p>",
+        "ledtrad": "<p>Skriv 0,998 som \\(1+x\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(1{,}004^{-15}\\)",
+        "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(1{,}004^{-15}\\)</p>",
+        "s": "<p>\\(x=0{,}004\\), \\(k=-15\\): \\(1-0{,}06=0{,}94\\).</p><p><strong>Svar:</strong> 0,94</p>",
+        "ledtrad": "<p>Exponenten kan vara negativ.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(\\sqrt[3]{1{,}009}\\)",
+        "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(\\sqrt[3]{1{,}009}\\)</p>",
+        "s": "<p>\\(x=0{,}009\\), \\(k=\\tfrac13\\): \\(1+0{,}003=1{,}003\\).</p><p><strong>Svar:</strong> 1,003</p>",
+        "ledtrad": "<p>Skriv kubikroten som en potens.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Linjär approximation av \\((1+x)^k\\) kring \\(x=0\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "C",
+    "typ": "lösa ekvation med approximation",
+    "poang": "0/2/0",
+    "t": "<p>Ekvationen \\(e^{x-1}=5x-4{,}5\\) kan inte lösas algebraiskt. Den har en lösning nära \\(x=1\\).</p><p>Ersätt vänsterledet med sin linjära approximation kring \\(x=1\\) och lös den nya ekvationen.</p>",
+    "s": "<p>Kring \\(x=1\\): \\(e^{x-1}\\approx1+(x-1)=x\\).</p><p>\\(x=5x-4{,}5\\iff x=1{,}125\\). (Räknaren ger \\(x\\approx1{,}127\\).)</p><p><strong>Svar:</strong> \\(x\\approx1{,}125\\)</p>",
+    "id": "3.315",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.125,
+    "tolerans": 0.003,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm tangenten till \\(e^{x-1}\\) i \\(x=1\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "C",
+    "typ": "approximation av modell",
+    "poang": "2/2/0",
+    "t": "<p>Temperaturen \\(T(t)\\) °C under ett dygn ges av \\(T(t)=21+8{,}0\\sin\\dfrac{\\pi(t-8)}{24}\\), där \\(t\\) är timmar efter midnatt.</p><ol type=\"a\"><li>Bestäm \\(T^{\\prime}(6)\\). Svara med två decimaler.</li><li>Använd den linjära approximationen kring \\(t=6\\) för att uppskatta temperaturen klockan 06.15. Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T^{\\prime}(t)=8{,}0\\cdot\\dfrac{\\pi}{24}\\cos\\dfrac{\\pi(t-8)}{24}\\), så \\(T^{\\prime}(6)=\\dfrac\\pi3\\cos\\left(-\\dfrac\\pi{12}\\right)\\approx1{,}01\\).</p><p><strong>Svar:</strong> cirka 1,01 °C/h</p></li><li><p>\\(T(6)=21+8\\sin\\left(-\\tfrac\\pi{12}\\right)\\approx18{,}93\\) och \\(T^{\\prime}(6)\\approx1{,}01\\).</p><p>\\(T(6{,}25)\\approx18{,}93+1{,}01\\cdot0{,}25\\approx19{,}2\\).</p><p><strong>Svar:</strong> cirka 19,2 °C</p></li></ol>",
+    "id": "3.316",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0115,
+      19.2
+    ],
+    "tolerans": [
+      0.006,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Temperaturen \\(T(t)\\) °C under ett dygn ges av \\(T(t)=21+8{,}0\\sin\\dfrac{\\pi(t-8)}{24}\\), där \\(t\\) är timmar efter midnatt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(T^{\\prime}(6)\\). Svara med två decimaler.",
+        "t": "<p>Temperaturen \\(T(t)\\) °C under ett dygn ges av \\(T(t)=21+8{,}0\\sin\\dfrac{\\pi(t-8)}{24}\\), där \\(t\\) är timmar efter midnatt.</p><p>Bestäm \\(T^{\\prime}(6)\\). Svara med två decimaler.</p>",
+        "s": "<p>\\(T^{\\prime}(t)=8{,}0\\cdot\\dfrac{\\pi}{24}\\cos\\dfrac{\\pi(t-8)}{24}\\), så \\(T^{\\prime}(6)=\\dfrac\\pi3\\cos\\left(-\\dfrac\\pi{12}\\right)\\approx1{,}01\\).</p><p><strong>Svar:</strong> cirka 1,01 °C/h</p>",
+        "ledtrad": "<p>Derivera med kedjeregeln.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Använd den linjära approximationen kring \\(t=6\\) för att uppskatta temperaturen klockan 06.15. Svara med en decimal.",
+        "t": "<p>Temperaturen \\(T(t)\\) °C under ett dygn ges av \\(T(t)=21+8{,}0\\sin\\dfrac{\\pi(t-8)}{24}\\), där \\(t\\) är timmar efter midnatt.</p><p>Använd den linjära approximationen kring \\(t=6\\) för att uppskatta temperaturen klockan 06.15. Svara med en decimal.</p>",
+        "s": "<p>\\(T(6)=21+8\\sin\\left(-\\tfrac\\pi{12}\\right)\\approx18{,}93\\) och \\(T^{\\prime}(6)\\approx1{,}01\\).</p><p>\\(T(6{,}25)\\approx18{,}93+1{,}01\\cdot0{,}25\\approx19{,}2\\).</p><p><strong>Svar:</strong> cirka 19,2 °C</p>",
+        "ledtrad": "<p>06.15 motsvarar \\(t=6{,}25\\).</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Den linjära approximationen kring \\(t=6\\) är \\(T(6)+T^{\\prime}(6)(t-6)\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "C",
+    "typ": "relativt fel i approximation",
+    "poang": "1/3/0",
+    "t": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p><ol type=\"a\"><li>Bestäm den linjära approximationen kring \\(x=0\\). Svara på formen \\(y=kx+m\\).</li><li>Hur stort är det relativa felet i approximationen när \\(x=0{,}50\\)? Svara i procent med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T(0)=98\\) och \\(T^{\\prime}(x)=-22{,}16e^{-0{,}277x}\\), så \\(T^{\\prime}(0)=-22{,}16\\).</p><p><strong>Svar:</strong> \\(y=98-22{,}16x\\)</p></li><li><p>\\(T(0{,}50)\\approx87{,}65\\) och \\(y(0{,}50)=98-11{,}08=86{,}92\\).</p><p>Relativt fel: \\(\\dfrac{87{,}65-86{,}92}{87{,}65}\\approx0{,}008=0{,}8\\,\\%\\).</p><p><strong>Svar:</strong> cirka 0,8 %</p></li></ol>",
+    "id": "3.317",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "98-22.16x",
+      0.8
+    ],
+    "tolerans": [
+      null,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den linjära approximationen kring \\(x=0\\). Svara på formen \\(y=kx+m\\).",
+        "t": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p><p>Bestäm den linjära approximationen kring \\(x=0\\). Svara på formen \\(y=kx+m\\).</p>",
+        "s": "<p>\\(T(0)=98\\) och \\(T^{\\prime}(x)=-22{,}16e^{-0{,}277x}\\), så \\(T^{\\prime}(0)=-22{,}16\\).</p><p><strong>Svar:</strong> \\(y=98-22{,}16x\\)</p>",
+        "ledtrad": "<p>Bestäm \\(T(0)\\) och \\(T^{\\prime}(0)\\).</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stort är det relativa felet i approximationen när \\(x=0{,}50\\)? Svara i procent med en decimal.",
+        "t": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p><p>Den linjära approximationen kring \\(x=0\\) är \\(y=98-22{,}16x\\).</p><p>Hur stort är det relativa felet i approximationen när \\(x=0{,}50\\)? Svara i procent med en decimal.</p>",
+        "s": "<p>\\(T(0{,}50)\\approx87{,}65\\) och \\(y(0{,}50)=98-11{,}08=86{,}92\\).</p><p>Relativt fel: \\(\\dfrac{87{,}65-86{,}92}{87{,}65}\\approx0{,}008=0{,}8\\,\\%\\).</p><p><strong>Svar:</strong> cirka 0,8 %</p>",
+        "ledtrad": "<p>Relativt fel = |exakt − approximation| / exakt.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Jämför modellen med tangenten.</p>",
+    "traningsniva": 3
   },
   {
     "kap": 4,

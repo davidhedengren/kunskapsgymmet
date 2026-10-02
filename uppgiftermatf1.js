@@ -34710,6 +34710,739 @@ window.BANKMATF1 = [
   },
   {
     "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "permutationer med likadana föremål",
+    "poang": "2/1/0",
+    "t": "<p>Kulor med samma färg går inte att skilja åt. Kulorna läggs i en rad.</p><ol type=\"a\"><li>På hur många sätt kan två blå och fyra röda kulor läggas i rad?</li><li>På hur många sätt kan fem röda, två vita och sju blå kulor läggas i rad?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Välj vilka 2 av de 6 platserna som får blå kulor: \\(\\binom62=15\\).</p><p><strong>Svar:</strong> 15 sätt</p></li><li><p>\\(\\dfrac{14!}{5!\\,2!\\,7!}=72\\,072\\).</p><p><strong>Svar:</strong> 72 072 sätt</p></li></ol>",
+    "id": "1.656",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15,
+      72072
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Kulor med samma färg går inte att skilja åt. Kulorna läggs i en rad.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan två blå och fyra röda kulor läggas i rad?",
+        "t": "<p>Kulor med samma färg går inte att skilja åt. Kulorna läggs i en rad.</p><p>På hur många sätt kan två blå och fyra röda kulor läggas i rad?</p>",
+        "s": "<p>Välj vilka 2 av de 6 platserna som får blå kulor: \\(\\binom62=15\\).</p><p><strong>Svar:</strong> 15 sätt</p>",
+        "ledtrad": "<p>Det räcker att bestämma var de blå kulorna ligger.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan fem röda, två vita och sju blå kulor läggas i rad?",
+        "t": "<p>Kulor med samma färg går inte att skilja åt. Kulorna läggs i en rad.</p><p>På hur många sätt kan fem röda, två vita och sju blå kulor läggas i rad?</p>",
+        "s": "<p>\\(\\dfrac{14!}{5!\\,2!\\,7!}=72\\,072\\).</p><p><strong>Svar:</strong> 72 072 sätt</p>",
+        "ledtrad": "<p>Dela antalet ordningar av 14 föremål med antalet sätt att byta plats på likadana kulor.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Kulor med samma färg är likadana.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "E",
+    "typ": "ordnat urval",
+    "poang": "2/0/0",
+    "t": "<p>I en biosalong finns 6 tomma platser i rad. Ett sällskap på 10 personer kommer. Sex av dem sätter sig på platserna.</p><p>På hur många sätt kan platserna fyllas?</p>",
+    "s": "<p>Ordningen spelar roll: \\(P(10,6)=10\\cdot9\\cdot8\\cdot7\\cdot6\\cdot5=151\\,200\\).</p><p><strong>Svar:</strong> 151 200 sätt</p>",
+    "id": "1.658",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 151200,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många kan sätta sig på första platsen, andra platsen och så vidare?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "E",
+    "typ": "ordnat urval till poster",
+    "poang": "1/0/0",
+    "t": "<p>En förening med 15 medlemmar ska välja ordförande, sekreterare och kassör. Ingen får ha två poster.</p><p>På hur många sätt kan posterna tillsättas?</p>",
+    "s": "<p>\\(15\\cdot14\\cdot13=2\\,730\\).</p><p><strong>Svar:</strong> 2 730 sätt</p>",
+    "id": "1.662",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2730,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många kan bli ordförande? Hur många finns kvar till sekreterare?</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "E",
+    "typ": "med och utan upprepning",
+    "poang": "2/0/0",
+    "t": "<p>Man bildar ”ord” med tre bokstäver ur alfabetets åtta första bokstäver, A–H.</p><ol type=\"a\"><li>Hur många ord kan bildas om varje bokstav bara får användas en gång?</li><li>Hur många ord kan bildas om samma bokstav får användas flera gånger?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(8\\cdot7\\cdot6=336\\).</p><p><strong>Svar:</strong> 336 ord</p></li><li><p>\\(8^3=512\\).</p><p><strong>Svar:</strong> 512 ord</p></li></ol>",
+    "id": "1.663",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      336,
+      512
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Man bildar ”ord” med tre bokstäver ur alfabetets åtta första bokstäver, A–H.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många ord kan bildas om varje bokstav bara får användas en gång?",
+        "t": "<p>Man bildar ”ord” med tre bokstäver ur alfabetets åtta första bokstäver, A–H.</p><p>Hur många ord kan bildas om varje bokstav bara får användas en gång?</p>",
+        "s": "<p>\\(8\\cdot7\\cdot6=336\\).</p><p><strong>Svar:</strong> 336 ord</p>",
+        "ledtrad": "<p>Hur många bokstäver finns kvar till andra positionen?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många ord kan bildas om samma bokstav får användas flera gånger?",
+        "t": "<p>Man bildar ”ord” med tre bokstäver ur alfabetets åtta första bokstäver, A–H.</p><p>Hur många ord kan bildas om samma bokstav får användas flera gånger?</p>",
+        "s": "<p>\\(8^3=512\\).</p><p><strong>Svar:</strong> 512 ord</p>",
+        "ledtrad": "<p>Hur många val finns för varje position?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "E",
+    "typ": "placeringsvillkor i rad",
+    "poang": "3/0/0",
+    "t": "<p>Adam, Bertil, Cesar, David och Erik sätter sig på en rad med fem platser.</p><ol type=\"a\"><li>På hur många sätt kan de sätta sig?</li><li>På hur många sätt kan de sätta sig om Adam ska sitta i mitten?</li><li>På hur många sätt kan de sätta sig om Adam eller Bertil ska sitta först?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(5!=120\\).</p><p><strong>Svar:</strong> 120 sätt</p></li><li><p>Adam är placerad. De fyra andra ordnas på \\(4!=24\\) sätt.</p><p><strong>Svar:</strong> 24 sätt</p></li><li><p>Första platsen: 2 val. De övriga fyra: \\(4!=24\\). \\(2\\cdot24=48\\).</p><p><strong>Svar:</strong> 48 sätt</p></li></ol>",
+    "id": "1.664",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordningar med placeringsvillkor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      120,
+      24,
+      48
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Adam, Bertil, Cesar, David och Erik sätter sig på en rad med fem platser.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan de sätta sig?",
+        "t": "<p>Adam, Bertil, Cesar, David och Erik sätter sig på en rad med fem platser.</p><p>På hur många sätt kan de sätta sig?</p>",
+        "s": "<p>\\(5!=120\\).</p><p><strong>Svar:</strong> 120 sätt</p>",
+        "ledtrad": "<p>Hur många kan sitta på första platsen, andra platsen och så vidare?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan de sätta sig om Adam ska sitta i mitten?",
+        "t": "<p>Adam, Bertil, Cesar, David och Erik sätter sig på en rad med fem platser.</p><p>På hur många sätt kan de sätta sig om Adam ska sitta i mitten?</p>",
+        "s": "<p>Adam är placerad. De fyra andra ordnas på \\(4!=24\\) sätt.</p><p><strong>Svar:</strong> 24 sätt</p>",
+        "ledtrad": "<p>Placera Adam först. Hur många återstår att placera?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan de sätta sig om Adam eller Bertil ska sitta först?",
+        "t": "<p>Adam, Bertil, Cesar, David och Erik sätter sig på en rad med fem platser.</p><p>På hur många sätt kan de sätta sig om Adam eller Bertil ska sitta först?</p>",
+        "s": "<p>Första platsen: 2 val. De övriga fyra: \\(4!=24\\). \\(2\\cdot24=48\\).</p><p><strong>Svar:</strong> 48 sätt</p>",
+        "ledtrad": "<p>Hur många val finns för första platsen?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Placera de personer som har villkor först.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "bredvid och inte bredvid",
+    "poang": "0/3/0",
+    "t": "<p>Sex kompisar har platser bredvid varandra på bio. Två av dem är Beata och Cissi.</p><ol type=\"a\"><li>På hur många sätt kan de sätta sig om Beata och Cissi måste sitta bredvid varandra?</li><li>På hur många sätt kan de sätta sig om Beata och Cissi inte får sitta bredvid varandra?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Se Beata och Cissi som ett ”block”. Då ska 5 enheter ordnas: \\(5!=120\\). Inom blocket kan de sitta på 2 sätt.</p><p>\\(2\\cdot120=240\\).</p><p><strong>Svar:</strong> 240 sätt</p></li><li><p>Alla ordningar: \\(6!=720\\). Ordningar där de sitter bredvid varandra: \\(2\\cdot5!=240\\).</p><p>\\(720-240=480\\).</p><p><strong>Svar:</strong> 480 sätt</p></li></ol>",
+    "id": "1.665",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordningar med placeringsvillkor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      240,
+      480
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Sex kompisar har platser bredvid varandra på bio. Två av dem är Beata och Cissi.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan de sätta sig om Beata och Cissi måste sitta bredvid varandra?",
+        "t": "<p>Sex kompisar har platser bredvid varandra på bio. Två av dem är Beata och Cissi.</p><p>På hur många sätt kan de sätta sig om Beata och Cissi måste sitta bredvid varandra?</p>",
+        "s": "<p>Se Beata och Cissi som ett ”block”. Då ska 5 enheter ordnas: \\(5!=120\\). Inom blocket kan de sitta på 2 sätt.</p><p>\\(2\\cdot120=240\\).</p><p><strong>Svar:</strong> 240 sätt</p>",
+        "ledtrad": "<p>Behandla Beata och Cissi som en enhet. Glöm inte att de kan byta plats med varandra.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan de sätta sig om Beata och Cissi inte får sitta bredvid varandra?",
+        "t": "<p>Sex kompisar har platser bredvid varandra på bio. Två av dem är Beata och Cissi.</p><p>På hur många sätt kan de sätta sig om Beata och Cissi inte får sitta bredvid varandra?</p>",
+        "s": "<p>Alla ordningar: \\(6!=720\\). Ordningar där de sitter bredvid varandra: \\(2\\cdot5!=240\\).</p><p>\\(720-240=480\\).</p><p><strong>Svar:</strong> 480 sätt</p>",
+        "ledtrad": "<p>Räkna alla ordningar och dra bort dem där de sitter bredvid varandra.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd ”block” för personer som ska sitta tillsammans.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "villkor på vissa platser",
+    "poang": "1/1/0",
+    "t": "<p>Fyra män och fyra kvinnor ska sätta sig på en rad med 8 stolar.</p><ol type=\"a\"><li>På hur många sätt kan de sätta sig om en man ska sitta på första stolen?</li><li>På hur många sätt kan de sätta sig om kvinnor ska sitta på både första och sista stolen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Första stolen: 4 män. Övriga 7 personer: \\(7!\\).</p><p>\\(4\\cdot7!=20\\,160\\).</p><p><strong>Svar:</strong> 20 160 sätt</p></li><li><p>Första stolen: 4 kvinnor. Sista stolen: 3 kvarvarande kvinnor. Övriga 6 personer: \\(6!\\).</p><p>\\(4\\cdot3\\cdot6!=8\\,640\\).</p><p><strong>Svar:</strong> 8 640 sätt</p></li></ol>",
+    "id": "1.666",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordningar med placeringsvillkor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20160,
+      8640
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fyra män och fyra kvinnor ska sätta sig på en rad med 8 stolar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan de sätta sig om en man ska sitta på första stolen?",
+        "t": "<p>Fyra män och fyra kvinnor ska sätta sig på en rad med 8 stolar.</p><p>På hur många sätt kan de sätta sig om en man ska sitta på första stolen?</p>",
+        "s": "<p>Första stolen: 4 män. Övriga 7 personer: \\(7!\\).</p><p>\\(4\\cdot7!=20\\,160\\).</p><p><strong>Svar:</strong> 20 160 sätt</p>",
+        "ledtrad": "<p>Placera personen på första stolen först.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan de sätta sig om kvinnor ska sitta på både första och sista stolen?",
+        "t": "<p>Fyra män och fyra kvinnor ska sätta sig på en rad med 8 stolar.</p><p>På hur många sätt kan de sätta sig om kvinnor ska sitta på både första och sista stolen?</p>",
+        "s": "<p>Första stolen: 4 kvinnor. Sista stolen: 3 kvarvarande kvinnor. Övriga 6 personer: \\(6!\\).</p><p>\\(4\\cdot3\\cdot6!=8\\,640\\).</p><p><strong>Svar:</strong> 8 640 sätt</p>",
+        "ledtrad": "<p>Fyll de två villkorsplatserna först.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Placera de personer som har villkor först.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "runt bord",
+    "poang": "0/3/0",
+    "t": "<p>Personer ska sätta sig runt ett runt bord. Två placeringar räknas som samma om den ena är en vridning av den andra.</p><ol type=\"a\"><li>På hur många sätt kan 5 personer sätta sig?</li><li>Sex personer, bland dem Abdi och Karl, sätter sig runt bordet. På hur många sätt kan de sätta sig om Abdi och Karl ska sitta bredvid varandra?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Låt en person sätta sig först. Hennes plats bestämmer bara vridningen. De andra fyra ordnas på \\(4!=24\\) sätt.</p><p><strong>Svar:</strong> 24 sätt</p></li><li><p>Se Abdi och Karl som ett block: 5 enheter runt bordet ger \\(4!=24\\) sätt. Inom blocket: 2 sätt.</p><p>\\(2\\cdot24=48\\).</p><p><strong>Svar:</strong> 48 sätt</p></li></ol>",
+    "id": "1.667",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordningar med placeringsvillkor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24,
+      48
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Personer ska sätta sig runt ett runt bord. Två placeringar räknas som samma om den ena är en vridning av den andra.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan 5 personer sätta sig?",
+        "t": "<p>Personer ska sätta sig runt ett runt bord. Två placeringar räknas som samma om den ena är en vridning av den andra.</p><p>På hur många sätt kan 5 personer sätta sig?</p>",
+        "s": "<p>Låt en person sätta sig först. Hennes plats bestämmer bara vridningen. De andra fyra ordnas på \\(4!=24\\) sätt.</p><p><strong>Svar:</strong> 24 sätt</p>",
+        "ledtrad": "<p>Hur många av de \\(5!\\) ordningarna är bara vridningar av varandra?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Sex personer, bland dem Abdi och Karl, sätter sig runt bordet. På hur många sätt kan de sätta sig om Abdi och Karl ska sitta bredvid varandra?",
+        "t": "<p>Personer ska sätta sig runt ett runt bord. Två placeringar räknas som samma om den ena är en vridning av den andra.</p><p>Sex personer, bland dem Abdi och Karl, sätter sig runt bordet. På hur många sätt kan de sätta sig om Abdi och Karl ska sitta bredvid varandra?</p>",
+        "s": "<p>Se Abdi och Karl som ett block: 5 enheter runt bordet ger \\(4!=24\\) sätt. Inom blocket: 2 sätt.</p><p>\\(2\\cdot24=48\\).</p><p><strong>Svar:</strong> 48 sätt</p>",
+        "ledtrad": "<p>Behandla Abdi och Karl som en enhet, och tänk på att placeringen är runt ett bord.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Vid ett runt bord ger en vridning ingen ny placering.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "E",
+    "typ": "ordnade urval med villkor",
+    "poang": "4/0/0",
+    "t": "<p>Ett stafettlag på 4 × 100 m ska tas ut, och ordningen mellan sträckorna spelar roll. Tränaren har 5 herrar och 7 damer att välja bland, och mixade lag är tillåtna.</p><ol type=\"a\"><li>Hur många olika lag kan bildas med bara damer?</li><li>Hur många olika lag kan bildas om alla 12 får väljas?</li><li>Hur många olika lag kan bildas om en dam springer första sträckan och herrar de tre sista?</li><li>Hur många olika lag kan bildas om damer springer de två första sträckorna och herrar de två sista?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P(7,4)=7\\cdot6\\cdot5\\cdot4=840\\).</p><p><strong>Svar:</strong> 840 lag</p></li><li><p>\\(P(12,4)=12\\cdot11\\cdot10\\cdot9=11\\,880\\).</p><p><strong>Svar:</strong> 11 880 lag</p></li><li><p>\\(7\\cdot5\\cdot4\\cdot3=420\\).</p><p><strong>Svar:</strong> 420 lag</p></li><li><p>\\(P(7,2)\\cdot P(5,2)=42\\cdot20=840\\).</p><p><strong>Svar:</strong> 840 lag</p></li></ol>",
+    "id": "1.668",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      840,
+      11880,
+      420,
+      840
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett stafettlag på 4 × 100 m ska tas ut, och ordningen mellan sträckorna spelar roll. Tränaren har 5 herrar och 7 damer att välja bland, och mixade lag är tillåtna.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många olika lag kan bildas med bara damer?",
+        "t": "<p>Ett stafettlag på 4 × 100 m ska tas ut, och ordningen mellan sträckorna spelar roll. Tränaren har 5 herrar och 7 damer att välja bland, och mixade lag är tillåtna.</p><p>Hur många olika lag kan bildas med bara damer?</p>",
+        "s": "<p>\\(P(7,4)=7\\cdot6\\cdot5\\cdot4=840\\).</p><p><strong>Svar:</strong> 840 lag</p>",
+        "ledtrad": "<p>Ordningen spelar roll.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många olika lag kan bildas om alla 12 får väljas?",
+        "t": "<p>Ett stafettlag på 4 × 100 m ska tas ut, och ordningen mellan sträckorna spelar roll. Tränaren har 5 herrar och 7 damer att välja bland, och mixade lag är tillåtna.</p><p>Hur många olika lag kan bildas om alla 12 får väljas?</p>",
+        "s": "<p>\\(P(12,4)=12\\cdot11\\cdot10\\cdot9=11\\,880\\).</p><p><strong>Svar:</strong> 11 880 lag</p>",
+        "ledtrad": "<p>Hur många kan springa första sträckan?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många olika lag kan bildas om en dam springer första sträckan och herrar de tre sista?",
+        "t": "<p>Ett stafettlag på 4 × 100 m ska tas ut, och ordningen mellan sträckorna spelar roll. Tränaren har 5 herrar och 7 damer att välja bland, och mixade lag är tillåtna.</p><p>Hur många olika lag kan bildas om en dam springer första sträckan och herrar de tre sista?</p>",
+        "s": "<p>\\(7\\cdot5\\cdot4\\cdot3=420\\).</p><p><strong>Svar:</strong> 420 lag</p>",
+        "ledtrad": "<p>Gå igenom sträckorna i tur och ordning.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur många olika lag kan bildas om damer springer de två första sträckorna och herrar de två sista?",
+        "t": "<p>Ett stafettlag på 4 × 100 m ska tas ut, och ordningen mellan sträckorna spelar roll. Tränaren har 5 herrar och 7 damer att välja bland, och mixade lag är tillåtna.</p><p>Hur många olika lag kan bildas om damer springer de två första sträckorna och herrar de två sista?</p>",
+        "s": "<p>\\(P(7,2)\\cdot P(5,2)=42\\cdot20=840\\).</p><p><strong>Svar:</strong> 840 lag</p>",
+        "ledtrad": "<p>Välj damerna i ordning och herrarna i ordning.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Ordningen mellan sträckorna spelar roll.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "A",
+    "typ": "två villkor på en rad",
+    "poang": "0/4/1",
+    "t": "<p>Tio personer i en familj ställer upp sig på en rad för ett foto. Bland dem finns Mia, Per, Stina och Pelle.</p><ol type=\"a\"><li>På hur många sätt kan de ställa upp sig om Mia och Per ska stå bredvid varandra?</li><li>På hur många sätt kan de ställa upp sig om Mia och Per inte ska stå bredvid varandra?</li><li>På hur många sätt kan de ställa upp sig om Mia och Per ska stå bredvid varandra, medan Stina och Pelle inte ska göra det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Mia och Per som ett block: 9 enheter, \\(9!\\) ordningar, och 2 ordningar inom blocket.</p><p>\\(2\\cdot9!=725\\,760\\).</p><p><strong>Svar:</strong> 725 760 sätt</p></li><li><p>\\(10!-2\\cdot9!=3\\,628\\,800-725\\,760=2\\,903\\,040\\).</p><p><strong>Svar:</strong> 2 903 040 sätt</p></li><li><p>Mia och Per tillsammans: \\(2\\cdot9!=725\\,760\\).</p><p>Av dessa står även Stina och Pelle tillsammans i \\(2\\cdot2\\cdot8!=161\\,280\\) fall (två block, 8 enheter).</p><p>\\(725\\,760-161\\,280=564\\,480\\).</p><p><strong>Svar:</strong> 564 480 sätt</p></li></ol>",
+    "id": "1.669",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordningar med placeringsvillkor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      725760,
+      2903040,
+      564480
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tio personer i en familj ställer upp sig på en rad för ett foto. Bland dem finns Mia, Per, Stina och Pelle.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan de ställa upp sig om Mia och Per ska stå bredvid varandra?",
+        "t": "<p>Tio personer i en familj ställer upp sig på en rad för ett foto. Bland dem finns Mia, Per, Stina och Pelle.</p><p>På hur många sätt kan de ställa upp sig om Mia och Per ska stå bredvid varandra?</p>",
+        "s": "<p>Mia och Per som ett block: 9 enheter, \\(9!\\) ordningar, och 2 ordningar inom blocket.</p><p>\\(2\\cdot9!=725\\,760\\).</p><p><strong>Svar:</strong> 725 760 sätt</p>",
+        "ledtrad": "<p>Behandla Mia och Per som en enhet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan de ställa upp sig om Mia och Per inte ska stå bredvid varandra?",
+        "t": "<p>Tio personer i en familj ställer upp sig på en rad för ett foto. Bland dem finns Mia, Per, Stina och Pelle.</p><p>På hur många sätt kan de ställa upp sig om Mia och Per inte ska stå bredvid varandra?</p>",
+        "s": "<p>\\(10!-2\\cdot9!=3\\,628\\,800-725\\,760=2\\,903\\,040\\).</p><p><strong>Svar:</strong> 2 903 040 sätt</p>",
+        "ledtrad": "<p>Använd komplementet.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan de ställa upp sig om Mia och Per ska stå bredvid varandra, medan Stina och Pelle inte ska göra det?",
+        "t": "<p>Tio personer i en familj ställer upp sig på en rad för ett foto. Bland dem finns Mia, Per, Stina och Pelle.</p><p>På hur många sätt kan de ställa upp sig om Mia och Per ska stå bredvid varandra, medan Stina och Pelle inte ska göra det?</p>",
+        "s": "<p>Mia och Per tillsammans: \\(2\\cdot9!=725\\,760\\).</p><p>Av dessa står även Stina och Pelle tillsammans i \\(2\\cdot2\\cdot8!=161\\,280\\) fall (två block, 8 enheter).</p><p>\\(725\\,760-161\\,280=564\\,480\\).</p><p><strong>Svar:</strong> 564 480 sätt</p>",
+        "ledtrad": "<p>Utgå från uppställningarna där Mia och Per står tillsammans och dra bort dem där även Stina och Pelle gör det.</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Använd block och komplement.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "grupper som ska stå samlade",
+    "poang": "0/2/0",
+    "t": "<p>Josefin har 5 olika nummer av Min Häst, 4 olika nummer av Bamse och 3 olika nummer av Fantomen. Hon ställer alla tidningarna i en rad i bokhyllan så att varje tidning står samlad med sina egna nummer.</p><p>På hur många sätt kan tidningarna ställas?</p>",
+    "s": "<p>Ordna inom varje tidning: \\(5!\\cdot4!\\cdot3!=120\\cdot24\\cdot6\\). Ordna de tre grupperna: \\(3!=6\\).</p><p>\\(120\\cdot24\\cdot6\\cdot6=103\\,680\\).</p><p><strong>Svar:</strong> 103 680 sätt</p>",
+    "id": "1.670",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordningar med placeringsvillkor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 103680,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordna först numren inom varje tidning. I vilken ordning kan sedan de tre grupperna stå?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "ordningar med upprepade slag",
+    "poang": "1/1/0",
+    "t": "<p>Under 14 dagar äter Mohammed en glass om dagen: tre vaniljglassar, två isglassar, fyra jordgubbsglassar och fem chokladglassar. Glassar av samma sort är likadana.</p><p>I hur många olika ordningar kan han ha ätit glassarna?</p>",
+    "s": "<p>\\[\\frac{14!}{3!\\,2!\\,4!\\,5!}=2\\,522\\,520.\\]</p><p><strong>Svar:</strong> 2 522 520 ordningar</p>",
+    "id": "1.671",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2522520,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många ordningar har 14 olika glassar? Hur många av dem blir likadana när glassar av samma sort byter plats?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "ekvationer med P(n,k)",
+    "poang": "1/5/0",
+    "t": "<p>Lös ekvationerna. \\(P(n,k)=n(n-1)\\cdots(n-k+1)\\) är antalet ordnade urval av \\(k\\) bland \\(n\\).</p><ol type=\"a\"><li>\\(P(n,2)=72\\)</li><li>\\(P(n,5)=7\\cdot P(n,4)\\)</li><li>\\(P(n,4)=42\\cdot P(n,2)\\)</li><li>\\(2P(n,2)+50=P(2n,2)\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(n(n-1)=72\\iff n^2-n-72=0\\iff n=9\\) eller \\(n=-8\\). Endast \\(n=9\\) duger.</p><p><strong>Svar:</strong> \\(n=9\\)</p></li><li><p>\\(P(n,5)=P(n,4)\\cdot(n-4)\\), så \\(n-4=7\\iff n=11\\).</p><p><strong>Svar:</strong> \\(n=11\\)</p></li><li><p>\\(P(n,4)=P(n,2)(n-2)(n-3)\\), så \\((n-2)(n-3)=42\\iff n^2-5n-36=0\\iff n=9\\) (eller \\(n=-4\\), som inte duger).</p><p><strong>Svar:</strong> \\(n=9\\)</p></li><li><p>\\(2n(n-1)+50=2n(2n-1)\\iff2n^2-2n+50=4n^2-2n\\iff n^2=25\\).</p><p>\\(n=5\\) (negativa \\(n\\) duger inte).</p><p><strong>Svar:</strong> \\(n=5\\)</p></li></ol>",
+    "id": "1.672",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      11,
+      9,
+      5
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Lös ekvationerna. \\(P(n,k)=n(n-1)\\cdots(n-k+1)\\) är antalet ordnade urval av \\(k\\) bland \\(n\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(P(n,2)=72\\)",
+        "t": "<p>Lös ekvationerna. \\(P(n,k)=n(n-1)\\cdots(n-k+1)\\) är antalet ordnade urval av \\(k\\) bland \\(n\\).</p><p>\\(P(n,2)=72\\)</p>",
+        "s": "<p>\\(n(n-1)=72\\iff n^2-n-72=0\\iff n=9\\) eller \\(n=-8\\). Endast \\(n=9\\) duger.</p><p><strong>Svar:</strong> \\(n=9\\)</p>",
+        "ledtrad": "<p>Skriv \\(P(n,2)\\) som en produkt.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(P(n,5)=7\\cdot P(n,4)\\)",
+        "t": "<p>Lös ekvationerna. \\(P(n,k)=n(n-1)\\cdots(n-k+1)\\) är antalet ordnade urval av \\(k\\) bland \\(n\\).</p><p>\\(P(n,5)=7\\cdot P(n,4)\\)</p>",
+        "s": "<p>\\(P(n,5)=P(n,4)\\cdot(n-4)\\), så \\(n-4=7\\iff n=11\\).</p><p><strong>Svar:</strong> \\(n=11\\)</p>",
+        "ledtrad": "<p>Hur skiljer sig \\(P(n,5)\\) från \\(P(n,4)\\)?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(P(n,4)=42\\cdot P(n,2)\\)",
+        "t": "<p>Lös ekvationerna. \\(P(n,k)=n(n-1)\\cdots(n-k+1)\\) är antalet ordnade urval av \\(k\\) bland \\(n\\).</p><p>\\(P(n,4)=42\\cdot P(n,2)\\)</p>",
+        "s": "<p>\\(P(n,4)=P(n,2)(n-2)(n-3)\\), så \\((n-2)(n-3)=42\\iff n^2-5n-36=0\\iff n=9\\) (eller \\(n=-4\\), som inte duger).</p><p><strong>Svar:</strong> \\(n=9\\)</p>",
+        "ledtrad": "<p>Dela båda leden med \\(P(n,2)\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(2P(n,2)+50=P(2n,2)\\)",
+        "t": "<p>Lös ekvationerna. \\(P(n,k)=n(n-1)\\cdots(n-k+1)\\) är antalet ordnade urval av \\(k\\) bland \\(n\\).</p><p>\\(2P(n,2)+50=P(2n,2)\\)</p>",
+        "s": "<p>\\(2n(n-1)+50=2n(2n-1)\\iff2n^2-2n+50=4n^2-2n\\iff n^2=25\\).</p><p>\\(n=5\\) (negativa \\(n\\) duger inte).</p><p><strong>Svar:</strong> \\(n=5\\)</p>",
+        "ledtrad": "<p>Skriv båda sidor som produkter och förenkla.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Skriv \\(P(n,k)\\) som en produkt av \\(k\\) faktorer.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
     "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – tillämpning",
@@ -34987,6 +35720,1019 @@ window.BANKMATF1 = [
     "rättSvar": 752640,
     "tolerans": null,
     "typ": "välja och sedan ordna"
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "E",
+    "typ": "antal urval ur kortlek",
+    "poang": "1/0/0",
+    "t": "<p>En pokerhand består av 5 kort ur en vanlig kortlek med 52 kort. Ordningen spelar ingen roll.</p><p>Hur många olika pokerhänder finns det?</p>",
+    "s": "<p>\\(\\binom{52}{5}=\\dfrac{52\\cdot51\\cdot50\\cdot49\\cdot48}{5!}=2\\,598\\,960\\).</p><p><strong>Svar:</strong> 2 598 960 händer</p>",
+    "id": "1.642",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2598960,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Spelar ordningen roll? Välj rätt räknesätt.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "E",
+    "typ": "urval med ett givet element",
+    "poang": "2/0/0",
+    "t": "<p>Oskar har 8 golfklubbor och tar med sig 5 av dem till en runda.</p><ol type=\"a\"><li>På hur många sätt kan han välja klubborna?</li><li>Puttern måste vara med. På hur många sätt kan han välja klubborna?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\binom85=56\\).</p><p><strong>Svar:</strong> 56 sätt</p></li><li><p>Puttern är redan vald. Resten: 4 klubbor av de 7 andra, \\(\\binom74=35\\).</p><p><strong>Svar:</strong> 35 sätt</p></li></ol>",
+    "id": "1.643",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      56,
+      35
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Oskar har 8 golfklubbor och tar med sig 5 av dem till en runda.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan han välja klubborna?",
+        "t": "<p>Oskar har 8 golfklubbor och tar med sig 5 av dem till en runda.</p><p>På hur många sätt kan han välja klubborna?</p>",
+        "s": "<p>\\(\\binom85=56\\).</p><p><strong>Svar:</strong> 56 sätt</p>",
+        "ledtrad": "<p>Ordningen spelar ingen roll.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Puttern måste vara med. På hur många sätt kan han välja klubborna?",
+        "t": "<p>Oskar har 8 golfklubbor och tar med sig 5 av dem till en runda.</p><p>Puttern måste vara med. På hur många sätt kan han välja klubborna?</p>",
+        "s": "<p>Puttern är redan vald. Resten: 4 klubbor av de 7 andra, \\(\\binom74=35\\).</p><p><strong>Svar:</strong> 35 sätt</p>",
+        "ledtrad": "<p>Om puttern redan är vald, hur många klubbor återstår att välja och bland hur många?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Använd kombinationer.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "urval ur flera grupper",
+    "poang": "3/2/0",
+    "t": "<p>Vid ett möte finns 4 deltagare från Norge, 5 från Sverige och 3 från Danmark. En delegation med 3 personer ska väljas.</p><ol type=\"a\"><li>På hur många sätt kan delegationen väljas om det ska vara en från varje land?</li><li>På hur många sätt kan delegationen väljas om exakt två ska komma från Sverige?</li><li>På hur många sätt kan delegationen väljas om två ska komma från samma land och den tredje från ett annat land?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(4\\cdot5\\cdot3=60\\).</p><p><strong>Svar:</strong> 60 sätt</p></li><li><p>Två svenskar: \\(\\binom52=10\\). Den tredje väljs bland de 7 som inte är svenskar: 7.</p><p>\\(10\\cdot7=70\\).</p><p><strong>Svar:</strong> 70 sätt</p></li><li><p>Två norrmän och en annan: \\(\\binom42\\cdot8=48\\). Två svenskar och en annan: \\(\\binom52\\cdot7=70\\). Två danskar och en annan: \\(\\binom32\\cdot9=27\\).</p><p>\\(48+70+27=145\\).</p><p>Kontroll: alla urval \\(\\binom{12}{3}=220\\), minus en från varje land (60), minus alla från samma land (\\(4+10+1=15\\)) ger 145.</p><p><strong>Svar:</strong> 145 sätt</p></li></ol>",
+    "id": "1.644",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      70,
+      145
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Vid ett möte finns 4 deltagare från Norge, 5 från Sverige och 3 från Danmark. En delegation med 3 personer ska väljas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan delegationen väljas om det ska vara en från varje land?",
+        "t": "<p>Vid ett möte finns 4 deltagare från Norge, 5 från Sverige och 3 från Danmark. En delegation med 3 personer ska väljas.</p><p>På hur många sätt kan delegationen väljas om det ska vara en från varje land?</p>",
+        "s": "<p>\\(4\\cdot5\\cdot3=60\\).</p><p><strong>Svar:</strong> 60 sätt</p>",
+        "ledtrad": "<p>Välj en från varje land och använd multiplikationsprincipen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan delegationen väljas om exakt två ska komma från Sverige?",
+        "t": "<p>Vid ett möte finns 4 deltagare från Norge, 5 från Sverige och 3 från Danmark. En delegation med 3 personer ska väljas.</p><p>På hur många sätt kan delegationen väljas om exakt två ska komma från Sverige?</p>",
+        "s": "<p>Två svenskar: \\(\\binom52=10\\). Den tredje väljs bland de 7 som inte är svenskar: 7.</p><p>\\(10\\cdot7=70\\).</p><p><strong>Svar:</strong> 70 sätt</p>",
+        "ledtrad": "<p>Välj först två svenskar. Bland vilka väljs den tredje?</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan delegationen väljas om två ska komma från samma land och den tredje från ett annat land?",
+        "t": "<p>Vid ett möte finns 4 deltagare från Norge, 5 från Sverige och 3 från Danmark. En delegation med 3 personer ska väljas.</p><p>På hur många sätt kan delegationen väljas om två ska komma från samma land och den tredje från ett annat land?</p>",
+        "s": "<p>Två norrmän och en annan: \\(\\binom42\\cdot8=48\\). Två svenskar och en annan: \\(\\binom52\\cdot7=70\\). Två danskar och en annan: \\(\\binom32\\cdot9=27\\).</p><p>\\(48+70+27=145\\).</p><p>Kontroll: alla urval \\(\\binom{12}{3}=220\\), minus en från varje land (60), minus alla från samma land (\\(4+10+1=15\\)) ger 145.</p><p><strong>Svar:</strong> 145 sätt</p>",
+        "ledtrad": "<p>Dela upp i fall efter vilket land paret kommer från, och addera.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Kombinera urval ur grupperna med multiplikations- och additionsprincipen.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "E",
+    "typ": "urval ur flera grupper",
+    "poang": "2/0/0",
+    "t": "<p>Ett hockeylag har 3 målvakter, 10 backar och 15 forwards. På isen ska det stå 1 målvakt, 2 backar och 3 forwards. Ordningen inom varje grupp spelar ingen roll.</p><p>På hur många sätt kan laget ställa upp?</p>",
+    "s": "<p>\\(3\\cdot\\binom{10}{2}\\cdot\\binom{15}{3}=3\\cdot45\\cdot455=61\\,425\\).</p><p><strong>Svar:</strong> 61 425 sätt</p>",
+    "id": "1.645",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 61425,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Välj ur varje grupp för sig och multiplicera.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "E",
+    "typ": "urval ur två grupper",
+    "poang": "2/0/0",
+    "t": "<p>I en tennisklubb finns 10 kvinnor och 10 män. På en träning spelas en dubbelmatch där två män möter två kvinnor.</p><p>På hur många sätt kan en sådan match sättas ihop?</p>",
+    "s": "<p>Männen: \\(\\binom{10}{2}=45\\). Kvinnorna: \\(\\binom{10}{2}=45\\).</p><p>\\(45\\cdot45=2\\,025\\).</p><p><strong>Svar:</strong> 2 025 sätt</p>",
+    "id": "1.646",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2025,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Välj männen och kvinnorna var för sig.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "E",
+    "typ": "urval med villkor på grupper",
+    "poang": "3/0/0",
+    "t": "<p>I en klass finns 10 flickor och 22 pojkar. En grupp med fyra elever ska väljas för ett studiebesök.</p><ol type=\"a\"><li>På hur många sätt kan gruppen väljas om den bara ska bestå av flickor?</li><li>På hur många sätt kan gruppen väljas om det ska vara två pojkar och två flickor?</li><li>På hur många sätt kan gruppen väljas om könet inte spelar någon roll?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\binom{10}{4}=210\\).</p><p><strong>Svar:</strong> 210 sätt</p></li><li><p>\\(\\binom{22}{2}\\cdot\\binom{10}{2}=231\\cdot45=10\\,395\\).</p><p><strong>Svar:</strong> 10 395 sätt</p></li><li><p>\\(\\binom{32}{4}=35\\,960\\).</p><p><strong>Svar:</strong> 35 960 sätt</p></li></ol>",
+    "id": "1.647",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      210,
+      10395,
+      35960
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en klass finns 10 flickor och 22 pojkar. En grupp med fyra elever ska väljas för ett studiebesök.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan gruppen väljas om den bara ska bestå av flickor?",
+        "t": "<p>I en klass finns 10 flickor och 22 pojkar. En grupp med fyra elever ska väljas för ett studiebesök.</p><p>På hur många sätt kan gruppen väljas om den bara ska bestå av flickor?</p>",
+        "s": "<p>\\(\\binom{10}{4}=210\\).</p><p><strong>Svar:</strong> 210 sätt</p>",
+        "ledtrad": "<p>Välj fyra bland flickorna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan gruppen väljas om det ska vara två pojkar och två flickor?",
+        "t": "<p>I en klass finns 10 flickor och 22 pojkar. En grupp med fyra elever ska väljas för ett studiebesök.</p><p>På hur många sätt kan gruppen väljas om det ska vara två pojkar och två flickor?</p>",
+        "s": "<p>\\(\\binom{22}{2}\\cdot\\binom{10}{2}=231\\cdot45=10\\,395\\).</p><p><strong>Svar:</strong> 10 395 sätt</p>",
+        "ledtrad": "<p>Välj pojkarna och flickorna var för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan gruppen väljas om könet inte spelar någon roll?",
+        "t": "<p>I en klass finns 10 flickor och 22 pojkar. En grupp med fyra elever ska väljas för ett studiebesök.</p><p>På hur många sätt kan gruppen väljas om könet inte spelar någon roll?</p>",
+        "s": "<p>\\(\\binom{32}{4}=35\\,960\\).</p><p><strong>Svar:</strong> 35 960 sätt</p>",
+        "ledtrad": "<p>Hur många elever finns det totalt?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Använd kombinationer.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "E",
+    "typ": "linjer och trianglar ur punkter",
+    "poang": "2/0/0",
+    "t": "<p>I ett koordinatsystem ritas 8 punkter så att inga tre av dem ligger på samma räta linje.</p><ol type=\"a\"><li>Hur många räta linjer kan dras genom två av punkterna?</li><li>Hur många trianglar kan bildas med hörnen i punkterna?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Varje linje bestäms av två punkter: \\(\\binom82=28\\).</p><p><strong>Svar:</strong> 28 linjer</p></li><li><p>Varje val av tre punkter ger en triangel, eftersom inga tre ligger på en linje: \\(\\binom83=56\\).</p><p><strong>Svar:</strong> 56 trianglar</p></li></ol>",
+    "id": "1.648",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      28,
+      56
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I ett koordinatsystem ritas 8 punkter så att inga tre av dem ligger på samma räta linje.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många räta linjer kan dras genom två av punkterna?",
+        "t": "<p>I ett koordinatsystem ritas 8 punkter så att inga tre av dem ligger på samma räta linje.</p><p>Hur många räta linjer kan dras genom två av punkterna?</p>",
+        "s": "<p>Varje linje bestäms av två punkter: \\(\\binom82=28\\).</p><p><strong>Svar:</strong> 28 linjer</p>",
+        "ledtrad": "<p>Hur många punkter bestämmer en linje?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många trianglar kan bildas med hörnen i punkterna?",
+        "t": "<p>I ett koordinatsystem ritas 8 punkter så att inga tre av dem ligger på samma räta linje.</p><p>Hur många trianglar kan bildas med hörnen i punkterna?</p>",
+        "s": "<p>Varje val av tre punkter ger en triangel, eftersom inga tre ligger på en linje: \\(\\binom83=56\\).</p><p><strong>Svar:</strong> 56 trianglar</p>",
+        "ledtrad": "<p>Hur många punkter bestämmer en triangel?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Ordningen mellan punkterna spelar ingen roll.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "fördela personer på grupper av olika storlek",
+    "poang": "1/1/0",
+    "t": "<p>Sju studenter ska övernatta. Det finns ett rum för tre personer, ett för två och ett för en person. Den sjunde får sova i bilen.</p><p>På hur många sätt kan studenterna fördelas?</p>",
+    "s": "<p>Välj tre till det största rummet, två av de återstående till nästa och en till enkelrummet. Den sista hamnar i bilen.</p><p>\\[\\binom73\\binom42\\binom21\\binom11=35\\cdot6\\cdot2\\cdot1=420.\\]</p><p><strong>Svar:</strong> 420 sätt</p>",
+    "id": "1.649",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 420,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fyll rummen i tur och ordning. Hur många finns kvar att välja bland varje gång?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "fördela personer på roller",
+    "poang": "1/1/0",
+    "t": "<p>Åtta personer arbetar på ett företag. En ska vara chef, två ska sköta servrarna och fem ska programmera.</p><p>På hur många sätt kan de åtta fördelas på uppgifterna?</p>",
+    "s": "<p>\\(\\binom81\\binom72\\binom55=8\\cdot21\\cdot1=168\\).</p><p><strong>Svar:</strong> 168 sätt</p>",
+    "id": "1.650",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 168,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Välj chefen först, sedan serverteknikerna. Resten programmerar.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "minst k via komplement",
+    "poang": "0/2/0",
+    "t": "<p>I en klass finns 16 pojkar och 9 flickor. En grupp med 6 personer ska väljas.</p><p>På hur många sätt kan gruppen väljas om den måste innehålla minst två flickor?</p>",
+    "s": "<p>Alla grupper: \\(\\binom{25}{6}=177\\,100\\).</p><p>Ingen flicka: \\(\\binom{16}{6}=8\\,008\\). Exakt en flicka: \\(9\\cdot\\binom{16}{5}=39\\,312\\).</p><p>\\(177\\,100-8\\,008-39\\,312=129\\,780\\).</p><p><strong>Svar:</strong> 129 780 sätt</p>",
+    "id": "1.651",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 129780,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna alla grupper och dra bort dem som har för få flickor.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "urval med krav på vissa element",
+    "poang": "3/1/0",
+    "t": "<p>Du har bokstäverna A, B, C, D, E och F och väljer ut en grupp bokstäver. Ordningen spelar ingen roll.</p><ol type=\"a\"><li>På hur många sätt kan du välja tre bokstäver?</li><li>På hur många sätt kan du välja tre bokstäver om A måste vara med?</li><li>På hur många sätt kan du välja fyra bokstäver om både A och B måste vara med?</li><li>På hur många sätt kan du välja fyra bokstäver om minst en av A och B måste vara med?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\binom63=20\\).</p><p><strong>Svar:</strong> 20 sätt</p></li><li><p>A är redan vald. Välj 2 av de 5 andra: \\(\\binom52=10\\).</p><p><strong>Svar:</strong> 10 sätt</p></li><li><p>Välj 2 av de 4 andra: \\(\\binom42=6\\).</p><p><strong>Svar:</strong> 6 sätt</p></li><li><p>Alla urval av fyra: \\(\\binom64=15\\). Urval utan både A och B: \\(\\binom44=1\\) (CDEF).</p><p>\\(15-1=14\\).</p><p><strong>Svar:</strong> 14 sätt</p></li></ol>",
+    "id": "1.652",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      10,
+      6,
+      14
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Du har bokstäverna A, B, C, D, E och F och väljer ut en grupp bokstäver. Ordningen spelar ingen roll.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan du välja tre bokstäver?",
+        "t": "<p>Du har bokstäverna A, B, C, D, E och F och väljer ut en grupp bokstäver. Ordningen spelar ingen roll.</p><p>På hur många sätt kan du välja tre bokstäver?</p>",
+        "s": "<p>\\(\\binom63=20\\).</p><p><strong>Svar:</strong> 20 sätt</p>",
+        "ledtrad": "<p>Ordningen spelar ingen roll.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan du välja tre bokstäver om A måste vara med?",
+        "t": "<p>Du har bokstäverna A, B, C, D, E och F och väljer ut en grupp bokstäver. Ordningen spelar ingen roll.</p><p>På hur många sätt kan du välja tre bokstäver om A måste vara med?</p>",
+        "s": "<p>A är redan vald. Välj 2 av de 5 andra: \\(\\binom52=10\\).</p><p><strong>Svar:</strong> 10 sätt</p>",
+        "ledtrad": "<p>Hur många bokstäver återstår att välja, och bland hur många?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan du välja fyra bokstäver om både A och B måste vara med?",
+        "t": "<p>Du har bokstäverna A, B, C, D, E och F och väljer ut en grupp bokstäver. Ordningen spelar ingen roll.</p><p>På hur många sätt kan du välja fyra bokstäver om både A och B måste vara med?</p>",
+        "s": "<p>Välj 2 av de 4 andra: \\(\\binom42=6\\).</p><p><strong>Svar:</strong> 6 sätt</p>",
+        "ledtrad": "<p>A och B är redan valda.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "På hur många sätt kan du välja fyra bokstäver om minst en av A och B måste vara med?",
+        "t": "<p>Du har bokstäverna A, B, C, D, E och F och väljer ut en grupp bokstäver. Ordningen spelar ingen roll.</p><p>På hur många sätt kan du välja fyra bokstäver om minst en av A och B måste vara med?</p>",
+        "s": "<p>Alla urval av fyra: \\(\\binom64=15\\). Urval utan både A och B: \\(\\binom44=1\\) (CDEF).</p><p>\\(15-1=14\\).</p><p><strong>Svar:</strong> 14 sätt</p>",
+        "ledtrad": "<p>Räkna alla urval och dra bort dem som saknar både A och B.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd kombinationer.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "exakt k och minst en",
+    "poang": "2/1/0",
+    "t": "<p>I en tävling deltar 4 tjejer och 9 killar. Tre av dem går vidare till final.</p><ol type=\"a\"><li>På hur många sätt kan finalisterna väljas om exakt en tjej ska vara med?</li><li>På hur många sätt kan finalisterna väljas om exakt en kille ska vara med?</li><li>På hur många sätt kan finalisterna väljas om minst en tjej ska vara med?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\binom41\\cdot\\binom92=4\\cdot36=144\\).</p><p><strong>Svar:</strong> 144 sätt</p></li><li><p>\\(\\binom91\\cdot\\binom42=9\\cdot6=54\\).</p><p><strong>Svar:</strong> 54 sätt</p></li><li><p>Alla urval minus urval med bara killar: \\(\\binom{13}{3}-\\binom93=286-84=202\\).</p><p><strong>Svar:</strong> 202 sätt</p></li></ol>",
+    "id": "1.653",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      144,
+      54,
+      202
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en tävling deltar 4 tjejer och 9 killar. Tre av dem går vidare till final.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan finalisterna väljas om exakt en tjej ska vara med?",
+        "t": "<p>I en tävling deltar 4 tjejer och 9 killar. Tre av dem går vidare till final.</p><p>På hur många sätt kan finalisterna väljas om exakt en tjej ska vara med?</p>",
+        "s": "<p>\\(\\binom41\\cdot\\binom92=4\\cdot36=144\\).</p><p><strong>Svar:</strong> 144 sätt</p>",
+        "ledtrad": "<p>Exakt en tjej betyder att de två andra är killar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan finalisterna väljas om exakt en kille ska vara med?",
+        "t": "<p>I en tävling deltar 4 tjejer och 9 killar. Tre av dem går vidare till final.</p><p>På hur många sätt kan finalisterna väljas om exakt en kille ska vara med?</p>",
+        "s": "<p>\\(\\binom91\\cdot\\binom42=9\\cdot6=54\\).</p><p><strong>Svar:</strong> 54 sätt</p>",
+        "ledtrad": "<p>Exakt en kille betyder att de två andra är tjejer.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan finalisterna väljas om minst en tjej ska vara med?",
+        "t": "<p>I en tävling deltar 4 tjejer och 9 killar. Tre av dem går vidare till final.</p><p>På hur många sätt kan finalisterna väljas om minst en tjej ska vara med?</p>",
+        "s": "<p>Alla urval minus urval med bara killar: \\(\\binom{13}{3}-\\binom93=286-84=202\\).</p><p><strong>Svar:</strong> 202 sätt</p>",
+        "ledtrad": "<p>Vad är motsatsen till ”minst en tjej”?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Välj tjejer och killar var för sig.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "E",
+    "typ": "urval med och utan en viss person",
+    "poang": "4/0/0",
+    "t": "<p>I en klass finns 10 tjejer och 20 killar. Tre personer ska representera klassen. En av tjejerna heter Lisa.</p><ol type=\"a\"><li>På hur många sätt kan de tre väljas om Lisa måste vara med?</li><li>På hur många sätt kan de tre väljas om Lisa inte får vara med?</li><li>På hur många sätt kan de tre väljas om det ska vara två killar och en tjej?</li><li>På hur många sätt kan de tre väljas om det ska vara tre tjejer och Lisa måste vara med?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Välj 2 av de 29 andra: \\(\\binom{29}{2}=406\\).</p><p><strong>Svar:</strong> 406 sätt</p></li><li><p>Välj 3 av de 29 andra: \\(\\binom{29}{3}=3\\,654\\).</p><p><strong>Svar:</strong> 3 654 sätt</p></li><li><p>\\(\\binom{20}{2}\\cdot\\binom{10}{1}=190\\cdot10=1\\,900\\).</p><p><strong>Svar:</strong> 1 900 sätt</p></li><li><p>Lisa är vald. Välj 2 av de 9 andra tjejerna: \\(\\binom92=36\\).</p><p><strong>Svar:</strong> 36 sätt</p></li></ol>",
+    "id": "1.654",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      406,
+      3654,
+      1900,
+      36
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en klass finns 10 tjejer och 20 killar. Tre personer ska representera klassen. En av tjejerna heter Lisa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan de tre väljas om Lisa måste vara med?",
+        "t": "<p>I en klass finns 10 tjejer och 20 killar. Tre personer ska representera klassen. En av tjejerna heter Lisa.</p><p>På hur många sätt kan de tre väljas om Lisa måste vara med?</p>",
+        "s": "<p>Välj 2 av de 29 andra: \\(\\binom{29}{2}=406\\).</p><p><strong>Svar:</strong> 406 sätt</p>",
+        "ledtrad": "<p>Lisa är redan vald.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan de tre väljas om Lisa inte får vara med?",
+        "t": "<p>I en klass finns 10 tjejer och 20 killar. Tre personer ska representera klassen. En av tjejerna heter Lisa.</p><p>På hur många sätt kan de tre väljas om Lisa inte får vara med?</p>",
+        "s": "<p>Välj 3 av de 29 andra: \\(\\binom{29}{3}=3\\,654\\).</p><p><strong>Svar:</strong> 3 654 sätt</p>",
+        "ledtrad": "<p>Bland hur många personer väljer man nu?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan de tre väljas om det ska vara två killar och en tjej?",
+        "t": "<p>I en klass finns 10 tjejer och 20 killar. Tre personer ska representera klassen. En av tjejerna heter Lisa.</p><p>På hur många sätt kan de tre väljas om det ska vara två killar och en tjej?</p>",
+        "s": "<p>\\(\\binom{20}{2}\\cdot\\binom{10}{1}=190\\cdot10=1\\,900\\).</p><p><strong>Svar:</strong> 1 900 sätt</p>",
+        "ledtrad": "<p>Välj killar och tjejer var för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "På hur många sätt kan de tre väljas om det ska vara tre tjejer och Lisa måste vara med?",
+        "t": "<p>I en klass finns 10 tjejer och 20 killar. Tre personer ska representera klassen. En av tjejerna heter Lisa.</p><p>På hur många sätt kan de tre väljas om det ska vara tre tjejer och Lisa måste vara med?</p>",
+        "s": "<p>Lisa är vald. Välj 2 av de 9 andra tjejerna: \\(\\binom92=36\\).</p><p><strong>Svar:</strong> 36 sätt</p>",
+        "ledtrad": "<p>Hur många tjejer återstår att välja bland?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Använd kombinationer.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "minst en ur varje grupp",
+    "poang": "0/2/0",
+    "t": "<p>Bland 12 lärare och 14 elever ska en grupp på 5 personer väljas. Gruppen ska innehålla minst en lärare och minst en elev.</p><p>På hur många sätt kan gruppen väljas?</p>",
+    "s": "<p>Alla grupper: \\(\\binom{26}{5}=65\\,780\\). Bara elever: \\(\\binom{14}{5}=2\\,002\\). Bara lärare: \\(\\binom{12}{5}=792\\).</p><p>\\(65\\,780-2\\,002-792=62\\,986\\).</p><p><strong>Svar:</strong> 62 986 sätt</p>",
+    "id": "1.655",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 62986,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilka grupper uppfyller inte villkoret? Dra bort dem från alla grupper.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "dela in i grupper",
+    "poang": "1/4/0",
+    "t": "<p>En tränare har 10 spelare.</p><ol type=\"a\"><li>På hur många sätt kan spelarna delas i en grupp med 4 och en grupp med 6?</li><li>På hur många sätt kan spelarna delas i två lag med fem i varje? Lagen har inga namn.</li><li>De två bästa spelarna måste hamna i olika lag. På hur många sätt kan spelarna delas i två lag med fem i varje?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>När fyra är valda är gruppen med sex bestämd: \\(\\binom{10}{4}=210\\).</p><p><strong>Svar:</strong> 210 sätt</p></li><li><p>\\(\\binom{10}{5}=252\\) räknar varje indelning två gånger: att välja ABCDE ger samma indelning som att välja FGHIJ.</p><p>\\(\\dfrac{252}{2}=126\\).</p><p><strong>Svar:</strong> 126 sätt</p></li><li><p>Låt den bästa spelaren bestämma sitt lag. Laget ska ha 4 spelare till, som väljs bland de 8 som inte är de två bästa: \\(\\binom84=70\\).</p><p><strong>Svar:</strong> 70 sätt</p></li></ol>",
+    "id": "1.657",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      210,
+      126,
+      70
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En tränare har 10 spelare.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan spelarna delas i en grupp med 4 och en grupp med 6?",
+        "t": "<p>En tränare har 10 spelare.</p><p>På hur många sätt kan spelarna delas i en grupp med 4 och en grupp med 6?</p>",
+        "s": "<p>När fyra är valda är gruppen med sex bestämd: \\(\\binom{10}{4}=210\\).</p><p><strong>Svar:</strong> 210 sätt</p>",
+        "ledtrad": "<p>När den ena gruppen är vald, är då den andra bestämd?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan spelarna delas i två lag med fem i varje? Lagen har inga namn.",
+        "t": "<p>En tränare har 10 spelare.</p><p>På hur många sätt kan spelarna delas i två lag med fem i varje? Lagen har inga namn.</p>",
+        "s": "<p>\\(\\binom{10}{5}=252\\) räknar varje indelning två gånger: att välja ABCDE ger samma indelning som att välja FGHIJ.</p><p>\\(\\dfrac{252}{2}=126\\).</p><p><strong>Svar:</strong> 126 sätt</p>",
+        "ledtrad": "<p>Om du väljer det ena laget, har du då samtidigt valt det andra? Räknas samma indelning flera gånger?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "c",
+        "fraga": "De två bästa spelarna måste hamna i olika lag. På hur många sätt kan spelarna delas i två lag med fem i varje?",
+        "t": "<p>En tränare har 10 spelare.</p><p>De två bästa spelarna måste hamna i olika lag. På hur många sätt kan spelarna delas i två lag med fem i varje?</p>",
+        "s": "<p>Låt den bästa spelaren bestämma sitt lag. Laget ska ha 4 spelare till, som väljs bland de 8 som inte är de två bästa: \\(\\binom84=70\\).</p><p><strong>Svar:</strong> 70 sätt</p>",
+        "ledtrad": "<p>Utgå från laget där den bästa spelaren finns. Vilka får inte väljas dit?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Fundera på om lagen kan skiljas åt.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "urval med två specifika personer",
+    "poang": "2/1/0",
+    "t": "<p>En förening har 15 medlemmar, bland dem Stina och Olle. En grupp med 5 medlemmar ska väljas.</p><ol type=\"a\"><li>På hur många sätt kan gruppen väljas om både Stina och Olle ska vara med?</li><li>På hur många sätt kan gruppen väljas om varken Stina eller Olle ska vara med?</li><li>På hur många sätt kan gruppen väljas om exakt en av Stina och Olle ska vara med?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Välj 3 av de 13 andra: \\(\\binom{13}{3}=286\\).</p><p><strong>Svar:</strong> 286 sätt</p></li><li><p>\\(\\binom{13}{5}=1\\,287\\).</p><p><strong>Svar:</strong> 1 287 sätt</p></li><li><p>Välj vem av dem (2 sätt) och 4 av de 13 andra: \\(2\\cdot\\binom{13}{4}=2\\cdot715=1\\,430\\).</p><p><strong>Svar:</strong> 1 430 sätt</p></li></ol>",
+    "id": "1.659",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      286,
+      1287,
+      1430
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En förening har 15 medlemmar, bland dem Stina och Olle. En grupp med 5 medlemmar ska väljas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan gruppen väljas om både Stina och Olle ska vara med?",
+        "t": "<p>En förening har 15 medlemmar, bland dem Stina och Olle. En grupp med 5 medlemmar ska väljas.</p><p>På hur många sätt kan gruppen väljas om både Stina och Olle ska vara med?</p>",
+        "s": "<p>Välj 3 av de 13 andra: \\(\\binom{13}{3}=286\\).</p><p><strong>Svar:</strong> 286 sätt</p>",
+        "ledtrad": "<p>Två platser är redan tagna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan gruppen väljas om varken Stina eller Olle ska vara med?",
+        "t": "<p>En förening har 15 medlemmar, bland dem Stina och Olle. En grupp med 5 medlemmar ska väljas.</p><p>På hur många sätt kan gruppen väljas om varken Stina eller Olle ska vara med?</p>",
+        "s": "<p>\\(\\binom{13}{5}=1\\,287\\).</p><p><strong>Svar:</strong> 1 287 sätt</p>",
+        "ledtrad": "<p>Bland hur många väljer man?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan gruppen väljas om exakt en av Stina och Olle ska vara med?",
+        "t": "<p>En förening har 15 medlemmar, bland dem Stina och Olle. En grupp med 5 medlemmar ska väljas.</p><p>På hur många sätt kan gruppen väljas om exakt en av Stina och Olle ska vara med?</p>",
+        "s": "<p>Välj vem av dem (2 sätt) och 4 av de 13 andra: \\(2\\cdot\\binom{13}{4}=2\\cdot715=1\\,430\\).</p><p><strong>Svar:</strong> 1 430 sätt</p>",
+        "ledtrad": "<p>Vem av dem är med? Hur många platser återstår?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd kombinationer.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "lotto med rätta och felaktiga nummer",
+    "poang": "2/2/0",
+    "t": "<p>På Lotto väljer man 7 nummer av 35. Sedan dras 7 vinstnummer.</p><ol type=\"a\"><li>Hur många olika lottorader finns det?</li><li>Hur många rader har exakt 6 rätt?</li><li>Hur många rader har 0 rätt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\binom{35}{7}=6\\,724\\,520\\).</p><p><strong>Svar:</strong> 6 724 520 rader</p></li><li><p>6 av de 7 vinstnumren och 1 av de 28 andra: \\(\\binom76\\cdot\\binom{28}{1}=7\\cdot28=196\\).</p><p><strong>Svar:</strong> 196 rader</p></li><li><p>Alla 7 nummer väljs bland de 28 som inte dras: \\(\\binom{28}{7}=1\\,184\\,040\\).</p><p><strong>Svar:</strong> 1 184 040 rader</p></li></ol>",
+    "id": "1.660",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6724520,
+      196,
+      1184040
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>På Lotto väljer man 7 nummer av 35. Sedan dras 7 vinstnummer.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många olika lottorader finns det?",
+        "t": "<p>På Lotto väljer man 7 nummer av 35. Sedan dras 7 vinstnummer.</p><p>Hur många olika lottorader finns det?</p>",
+        "s": "<p>\\(\\binom{35}{7}=6\\,724\\,520\\).</p><p><strong>Svar:</strong> 6 724 520 rader</p>",
+        "ledtrad": "<p>Ordningen spelar ingen roll.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många rader har exakt 6 rätt?",
+        "t": "<p>På Lotto väljer man 7 nummer av 35. Sedan dras 7 vinstnummer.</p><p>Hur många rader har exakt 6 rätt?</p>",
+        "s": "<p>6 av de 7 vinstnumren och 1 av de 28 andra: \\(\\binom76\\cdot\\binom{28}{1}=7\\cdot28=196\\).</p><p><strong>Svar:</strong> 196 rader</p>",
+        "ledtrad": "<p>Hur många av numren ska vara vinstnummer och hur många ska vara felaktiga?</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många rader har 0 rätt?",
+        "t": "<p>På Lotto väljer man 7 nummer av 35. Sedan dras 7 vinstnummer.</p><p>Hur många rader har 0 rätt?</p>",
+        "s": "<p>Alla 7 nummer väljs bland de 28 som inte dras: \\(\\binom{28}{7}=1\\,184\\,040\\).</p><p><strong>Svar:</strong> 1 184 040 rader</p>",
+        "ledtrad": "<p>Bland vilka nummer väljs alla sju?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Dela upp numren i vinstnummer och övriga.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "kombinationer",
+    "niva": "C",
+    "typ": "stryktips med rätta och felaktiga tecken",
+    "poang": "1/4/0",
+    "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2.</p><ol type=\"a\"><li>Hur många olika rader finns det?</li><li>Hur många rader har exakt 12 rätt?</li><li>Hur många rader har 0 rätt?</li><li>Hur många rader har exakt 9 rätt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(3^{13}=1\\,594\\,323\\).</p><p><strong>Svar:</strong> 1 594 323 rader</p></li><li><p>Välj vilken match som är fel (13 sätt) och vilket felaktigt tecken (2 sätt): \\(13\\cdot2=26\\).</p><p><strong>Svar:</strong> 26 rader</p></li><li><p>Varje match har 2 felaktiga tecken: \\(2^{13}=8\\,192\\).</p><p><strong>Svar:</strong> 8 192 rader</p></li><li><p>Välj de 9 rätta matcherna, \\(\\binom{13}{9}=715\\), och ett felaktigt tecken i var och en av de övriga fyra, \\(2^4=16\\).</p><p>\\(715\\cdot16=11\\,440\\).</p><p><strong>Svar:</strong> 11 440 rader</p></li></ol>",
+    "id": "1.661",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kombinationer och urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1594323,
+      26,
+      8192,
+      11440
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många olika rader finns det?",
+        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2.</p><p>Hur många olika rader finns det?</p>",
+        "s": "<p>\\(3^{13}=1\\,594\\,323\\).</p><p><strong>Svar:</strong> 1 594 323 rader</p>",
+        "ledtrad": "<p>Hur många val finns för varje match?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många rader har exakt 12 rätt?",
+        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2.</p><p>Hur många rader har exakt 12 rätt?</p>",
+        "s": "<p>Välj vilken match som är fel (13 sätt) och vilket felaktigt tecken (2 sätt): \\(13\\cdot2=26\\).</p><p><strong>Svar:</strong> 26 rader</p>",
+        "ledtrad": "<p>Vilken match är fel, och på hur många sätt kan den vara fel?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många rader har 0 rätt?",
+        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2.</p><p>Hur många rader har 0 rätt?</p>",
+        "s": "<p>Varje match har 2 felaktiga tecken: \\(2^{13}=8\\,192\\).</p><p><strong>Svar:</strong> 8 192 rader</p>",
+        "ledtrad": "<p>Hur många felaktiga tecken finns det för varje match?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur många rader har exakt 9 rätt?",
+        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2.</p><p>Hur många rader har exakt 9 rätt?</p>",
+        "s": "<p>Välj de 9 rätta matcherna, \\(\\binom{13}{9}=715\\), och ett felaktigt tecken i var och en av de övriga fyra, \\(2^4=16\\).</p><p>\\(715\\cdot16=11\\,440\\).</p><p><strong>Svar:</strong> 11 440 rader</p>",
+        "ledtrad": "<p>Välj först vilka matcher som är rätt. På hur många sätt kan de andra vara fel?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Varje match har ett rätt och två felaktiga tecken.</p>",
+    "traningsniva": 4
   },
   {
     "kap": 1,

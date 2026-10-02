@@ -21547,6 +21547,35 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "0.1073",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Jordens massa är cirka \\(5{,}97\\cdot10^{24}\\) kg. Det finns ungefär \\(8\\cdot10^9\\) människor, och anta att en människa i genomsnitt väger 70 kg.</p><p>Hur stor andel av jordens massa utgör alla människor tillsammans? Svara i grundpotensform med två värdesiffror.</p>",
+    "s": "<p>Mänsklighetens massa: \\(8\\cdot10^9\\cdot70=560\\cdot10^9=5{,}6\\cdot10^{11}\\) kg.</p><p>Andelen:</p><p>\\[\\frac{5{,}6\\cdot10^{11}}{5{,}97\\cdot10^{24}}=\\frac{5{,}6}{5{,}97}\\cdot10^{11-24}\\approx0{,}938\\cdot10^{-13}=9{,}4\\cdot10^{-14}.\\]</p><p>Det motsvarar ungefär en tiotusendels miljarddel av jordens massa.</p><p><strong>Svar:</strong> cirka \\(9{,}4\\cdot10^{-14}\\)</p>",
+    "familj": "Normalisera och jämföra i grundpotensform",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna först alla människors massa i grundpotensform. Dela sedan mantissorna för sig och tiopotenserna för sig.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.38e-14,
+    "tolerans": 6e-16
+  },
+  {
     "id": "0.754",
     "kap": 0,
     "omr": "prefix",
@@ -21677,6 +21706,109 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Omvandla med tiopotenser och prefix"
     ]
+  },
+  {
+    "id": "0.1070",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ljuset färdas med hastigheten 300 Mm/s, alltså 300 megameter per sekund.</p><p><strong>a)</strong> Hur många nanosekunder tar det för ljuset att färdas 1 m? Svara med två decimaler.</p><p><strong>b)</strong> En processor arbetar med klockfrekvensen 3 GHz, alltså 3 miljarder klockcykler per sekund. Hur många centimeter hinner ljuset färdas under en klockcykel?</p>",
+    "s": "<p>300 Mm/s \\(=300\\cdot10^6\\) m/s \\(=3\\cdot10^8\\) m/s.</p><p><strong>a)</strong> Tiden för 1 m: \\(t=\\dfrac{1}{3\\cdot10^8}\\) s \\(\\approx3{,}33\\cdot10^{-9}\\) s \\(=3{,}33\\) ns.</p><p><strong>b)</strong> En klockcykel varar \\(\\dfrac{1}{3\\cdot10^9}\\) s. Under den tiden färdas ljuset</p><p>\\[3\\cdot10^8\\cdot\\frac{1}{3\\cdot10^9}\\text{ m}=0{,}1\\text{ m}=10\\text{ cm}.\\]</p><p>Signaler i en dator kan alltså inte hinna särskilt långt under en klockcykel. Det är ett skäl till att datorchip är små.</p><p><strong>Svar:</strong> a) cirka 3,33 ns &nbsp; b) 10 cm</p>",
+    "familj": "Prefix i tillämpningar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv om hastigheten i m/s med tiopotenser. Mega = \\(10^6\\), giga = \\(10^9\\) och nano = \\(10^{-9}\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.3333333333333335,
+      10
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "ns",
+      "cm"
+    ]
+  },
+  {
+    "id": "0.1071",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Skriv \\(0{,}045\\) Mg i hektogram.</p>",
+    "s": "<p>1 Mg \\(=10^6\\) g och 1 hg \\(=10^2\\) g.</p><p>\\(0{,}045\\) Mg \\(=0{,}045\\cdot10^6\\) g \\(=45\\,000\\) g \\(=\\dfrac{45\\,000}{100}\\) hg \\(=450\\) hg.</p><p>Rimlighet: 0,045 Mg är 45 kg, och 1 kg är 10 hg.</p><p><strong>Svar:</strong> 450 hg</p>",
+    "familj": "Omvandla med prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gå via gram. Hur många gram är 1 Mg, och hur många gram är 1 hg?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 450,
+    "tolerans": null,
+    "svarEnhet": "hg"
+  },
+  {
+    "id": "0.1072",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Tre provrör innehåller 3 500 µl, 0,4 cl respektive 3,2 ml vätska.</p><p>Hur många milliliter innehåller provröret med mest vätska?</p>",
+    "s": "<p>Skriv allt i milliliter. 1 ml \\(=1000\\) µl och 1 cl \\(=10\\) ml.</p><ul><li>3 500 µl \\(=3{,}5\\) ml</li><li>0,4 cl \\(=4\\) ml</li><li>3,2 ml</li></ul><p>Störst är 0,4 cl \\(=4\\) ml, trots att talet 0,4 ser minst ut.</p><p><strong>Svar:</strong> 4 ml</p>",
+    "familj": "Välja och kontrollera beräkningar med prefix",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Omvandla alla tre mängderna till samma enhet innan du jämför.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "svarEnhet": "ml"
   },
   {
     "id": "0.758",
@@ -40602,6 +40734,94 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "1.1108",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Tre heltal följer direkt efter varandra. Det minsta talet är \\(n\\).</p><p>Teckna ett så enkelt uttryck som möjligt för medelvärdet av de tre talen.</p>",
+    "s": "<p>Talen är \\(n\\), \\(n+1\\) och \\(n+2\\). Summan är \\(3n+3\\).</p><p>\\[\\text{medelvärde}=\\frac{3n+3}{3}=n+1.\\]</p><p>Medelvärdet är alltså alltid det mittersta talet.</p><p><strong>Svar:</strong> \\(n+1\\)</p>",
+    "familj": "Teckna och tolka uttryck",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv de tre talen med hjälp av \\(n\\), addera och dela med 3.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "uttryck",
+    "rättSvar": "n+1",
+    "tolerans": null,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.1109",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Beräkna värdet av \\(3a^2-2ab\\) när \\(a=-2\\) och \\(b=3\\).</p>",
+    "s": "<p>\\(a^2=(-2)^2=4\\), så \\(3a^2=12\\).</p><p>\\(2ab=2\\cdot(-2)\\cdot3=-12\\), så \\(-2ab=12\\).</p><p>\\(3a^2-2ab=12+12=24\\).</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Värdet av ett uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Sätt in värdena inom parentes. Tänk på att \\((-2)^2\\) är positivt.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null
+  },
+  {
+    "id": "1.1110",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Med tändstickor bygger man en rad av \\(n\\) kvadrater bredvid varandra. Det kräver \\(3n+1\\) tändstickor.</p><p>Nu bygger man i stället en rektangel med två rader, där varje rad har \\(n\\) kvadrater. Raderna delar på tändstickorna i mitten.</p><p>Teckna ett uttryck för antalet tändstickor som behövs.</p>",
+    "s": "<p>Räkna vågräta och lodräta stickor för sig.</p><p>Vågräta: det finns tre vågräta linjer (överst, i mitten, nederst) med \\(n\\) stickor var: \\(3n\\).</p><p>Lodräta: det finns \\(n+1\\) lodräta linjer med 2 stickor var: \\(2(n+1)=2n+2\\).</p><p>Totalt: \\(3n+2n+2=5n+2\\).</p><p>Kontroll med \\(n=1\\): en 2 × 1-rektangel med två kvadrater kräver 7 stickor, och \\(5+2=7\\).</p><p><strong>Svar:</strong> \\(5n+2\\)</p>",
+    "familj": "Teckna och tolka uttryck",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita figuren för \\(n=1\\), 2 och 3. Räkna vågräta och lodräta stickor var för sig.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "uttryck",
+    "rättSvar": "5n+2",
+    "tolerans": null,
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.1035",
     "kap": 1,
     "omr": "forenkla_uttryck",
@@ -41567,6 +41787,64 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ]
+  },
+  {
+    "id": "1.1117",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm konstanten \\(a\\) så att \\(x=3\\) är en lösning till ekvationen</p><p>\\[ax-7=2x+a.\\]</p>",
+    "s": "<p>Sätt in \\(x=3\\): \\(3a-7=6+a\\).</p><p>\\(2a=13\\), alltså \\(a=6{,}5\\).</p><p>Kontroll: \\(6{,}5\\cdot3-7=12{,}5\\) och \\(2\\cdot3+6{,}5=12{,}5\\).</p><p><strong>Svar:</strong> \\(a=6{,}5\\)</p>",
+    "familj": "Förstå ekvationer och lösningar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>En lösning gör att vänster och höger led blir lika. Sätt in \\(x=3\\) och lös ut \\(a\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.5,
+    "tolerans": 0.001
+  },
+  {
+    "id": "1.1118",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För vilket värde på konstanten \\(a\\) saknar ekvationen</p><p>\\[ax+3=5x-2\\]</p><p>lösning?</p>",
+    "s": "<p>Samla \\(x\\)-termerna: \\(ax-5x=-5\\), alltså \\((a-5)x=-5\\).</p><p>Om \\(a\\ne5\\) är \\(x=\\dfrac{-5}{a-5}\\) en lösning.</p><p>Om \\(a=5\\) blir vänster led \\(0\\cdot x=0\\) för alla \\(x\\), men höger led är \\(-5\\). Påståendet \\(0=-5\\) är aldrig sant, så ekvationen saknar lösning.</p><p>Grafiskt: linjerna \\(y=ax+3\\) och \\(y=5x-2\\) är parallella när \\(a=5\\).</p><p><strong>Svar:</strong> \\(a=5\\)</p>",
+    "familj": "Förstå ekvationer och lösningar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Samla alla \\(x\\)-termer på ena sidan och bryt ut \\(x\\). När kan man inte dela med det som står framför \\(x\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null
   },
   {
     "id": "1.1063",
@@ -115047,6 +115325,91 @@ window.BANKMA1 = [
     "spel": true
   },
   {
+    "id": "1.1114",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen</p><p>\\[5-(2x-3)=3(x-4)+1.\\]</p>",
+    "s": "<p>Ta bort parenteserna. Minustecknet framför parentesen byter tecken på båda termerna:</p><p>\\[5-2x+3=3x-12+1\\;\\Leftrightarrow\\;8-2x=3x-11.\\]</p><p>\\(19=5x\\), alltså \\(x=3{,}8\\).</p><p>Kontroll: VL \\(=5-(7{,}6-3)=0{,}4\\), HL \\(=3\\cdot(-0{,}2)+1=0{,}4\\).</p><p><strong>Svar:</strong> \\(x=3{,}8\\)</p>",
+    "familj": "Minustecken framför parentes",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ett minustecken framför en parentes byter tecken på allt inuti parentesen.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.8,
+    "tolerans": 0.001
+  },
+  {
+    "id": "1.1115",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen</p><p>\\[2(3x-1)-4(x+2)=0.\\]</p>",
+    "s": "<p>\\(6x-2-4x-8=0\\Leftrightarrow 2x-10=0\\Leftrightarrow x=5\\).</p><p>Kontroll: \\(2\\cdot14-4\\cdot7=0\\).</p><p><strong>Svar:</strong> \\(x=5\\)</p>",
+    "familj": "Ekvationer med parenteser",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Multiplicera in i båda parenteserna. Var noga med tecknet framför 4.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null
+  },
+  {
+    "id": "1.1116",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[(x+3)(x-2)=(x+1)(x-1)+5.\\]</p>",
+    "s": "<p>Multiplicera ut båda produkterna:</p><p>VL: \\(x^2-2x+3x-6=x^2+x-6\\). HL: \\(x^2-1+5=x^2+4\\).</p><p>\\[x^2+x-6=x^2+4\\;\\Leftrightarrow\\;x-6=4\\;\\Leftrightarrow\\;x=10.\\]</p><p>\\(x^2\\)-termerna tar ut varandra, så ekvationen blir linjär.</p><p>Kontroll: \\(13\\cdot8=104\\) och \\(11\\cdot9+5=104\\).</p><p><strong>Svar:</strong> \\(x=10\\)</p>",
+    "familj": "Ekvationer med parenteser",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Multiplicera ut båda leden. Vad händer med \\(x^2\\)-termerna?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null
+  },
+  {
     "id": "1.1092",
     "kap": 1,
     "omr": "ekv_brak",
@@ -115312,6 +115675,92 @@ window.BANKMA1 = [
     "spel": true
   },
   {
+    "id": "1.1111",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen</p><p>\\[\\frac x3+\\frac x4=14.\\]</p>",
+    "s": "<p>Multiplicera båda leden med 12, som är minsta gemensamma nämnare:</p><p>\\[4x+3x=168\\;\\Leftrightarrow\\;7x=168\\;\\Leftrightarrow\\;x=24.\\]</p><p>Kontroll: \\(8+6=14\\).</p><p><strong>Svar:</strong> \\(x=24\\)</p>",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Multiplicera hela ekvationen med en gemensam nämnare.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null
+  },
+  {
+    "id": "1.1112",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen</p><p>\\[\\frac{2x-1}{5}=\\frac{x+4}{3}.\\]</p>",
+    "s": "<p>Multiplicera båda leden med 15:</p><p>\\[3(2x-1)=5(x+4)\\;\\Leftrightarrow\\;6x-3=5x+20\\;\\Leftrightarrow\\;x=23.\\]</p><p>Kontroll: \\(\\frac{45}{5}=9\\) och \\(\\frac{27}{3}=9\\).</p><p><strong>Svar:</strong> \\(x=23\\)</p>",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Multiplicera båda leden med 15. Glöm inte parenteserna kring täljarna.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 23,
+    "tolerans": null
+  },
+  {
+    "id": "1.1113",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En pool kan fyllas med en stor slang på 6 timmar eller med en liten slang på 9 timmar.</p><p>Hur lång tid tar det om båda slangarna används samtidigt? Svara i timmar med en decimal.</p>",
+    "s": "<p>På en timme fyller den stora slangen \\(\\frac16\\) av poolen och den lilla \\(\\frac19\\).</p><p>På \\(t\\) timmar fyller de tillsammans \\(\\frac t6+\\frac t9\\), och det ska vara hela poolen:</p><p>\\[\\frac t6+\\frac t9=1\\;\\Leftrightarrow\\;3t+2t=18\\;\\Leftrightarrow\\;t=3{,}6.\\]</p><p>Rimlighet: tiden måste vara kortare än 6 h. Den är inte hälften av 6 h, eftersom den lilla slangen är långsammare.</p><p><strong>Svar:</strong> 3,6 timmar, alltså 3 h 36 min</p>",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor del av poolen fyller varje slang på en timme?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.6,
+    "tolerans": 0.01,
+    "svarEnhet": "h"
+  },
+  {
     "id": "1.1101",
     "kap": 1,
     "omr": "monster_samband",
@@ -115516,6 +115965,47 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
+  },
+  {
+    "id": "1.1119",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Undersök summorna av de första udda talen:</p><p>\\(1=1\\), \\(1+3=4\\), \\(1+3+5=9\\), \\(1+3+5+7=16\\), …</p><p><strong>a)</strong> Beräkna \\(1+3+5+\\dots+99\\).</p><p><strong>b)</strong> Teckna ett uttryck för summan av de \\(n\\) första udda talen.</p>",
+    "s": "<p>Summorna är 1, 4, 9, 16, …, alltså kvadrattal. Summan av de \\(n\\) första udda talen verkar vara \\(n^2\\).</p><p>Förklaring med figur: lägg ut \\(1\\) prick, sedan \\(3\\) prickar som en vinkel runt den, sedan \\(5\\) … Varje nytt udda tal gör kvadraten en rad och en kolumn större.</p><p><strong>a)</strong> Det \\(n\\):te udda talet är \\(2n-1\\). \\(2n-1=99\\) ger \\(n=50\\), så summan är \\(50^2=2500\\).</p><p><strong>b)</strong> \\(n^2\\)</p><p><strong>Svar:</strong> a) 2500 &nbsp; b) \\(n^2\\)</p>",
+    "familj": "Upptäcka och uttrycka generella samband",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken sorts tal är 1, 4, 9, 16? Hur många udda tal ingår i summan upp till 99?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2500,
+      "n^2"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "7.01",
@@ -134812,6 +135302,50 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "0.1075",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett rektangulärt golv mäts till 4,3 m gånger 3,7 m. Båda måtten är avrundade till närmaste decimeter.</p><p>Inom vilka gränser ligger golvets verkliga area? Svara med två decimaler.</p>",
+    "s": "<p>Avrundat till decimeter betyder att det verkliga värdet ligger högst 0,05 m från det angivna.</p><p>Längden ligger mellan 4,25 m och 4,35 m. Bredden ligger mellan 3,65 m och 3,75 m.</p><p>Minsta area: \\(4{,}25\\cdot3{,}65\\approx15{,}51\\) m². Största area: \\(4{,}35\\cdot3{,}75\\approx16{,}31\\) m².</p><p>Den beräknade arean \\(4{,}3\\cdot3{,}7=15{,}91\\) m² kan alltså vara fel med ungefär 0,4 m². Därför ska man inte ange arean med fler värdesiffror än måtten har.</p><p><strong>Svar:</strong> mellan cirka 15,51 m² och 16,31 m²</p>",
+    "familj": "Avrundningsgränser och värdesiffror",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilka är de minsta och största möjliga värdena på längden och bredden?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15.51,
+      16.31
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "svarEtiketter": [
+      "Minsta area",
+      "Största area"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "m²",
+      "m²"
+    ]
+  },
+  {
     "id": "0.1006",
     "kap": 0,
     "omr": "overslag_grunder",
@@ -135982,6 +136516,36 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "0.1076",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett arv delas mellan fyra syskon. Anna får \\(\\frac13\\) av arvet. Bo får \\(\\frac14\\) av det som är kvar. Cia får \\(\\frac25\\) av det som då är kvar. David får resten, som är 54 000 kr.</p><p>Hur stort var arvet?</p>",
+    "s": "<p>Följ vad som är kvar, som andel av hela arvet:</p><ul><li>Efter Anna: \\(1-\\frac13=\\frac23\\).</li><li>Bo får \\(\\frac14\\cdot\\frac23=\\frac16\\). Kvar: \\(\\frac23-\\frac16=\\frac12\\).</li><li>Cia får \\(\\frac25\\cdot\\frac12=\\frac15\\). Kvar: \\(\\frac12-\\frac15=\\frac3{10}\\).</li></ul><p>David får \\(\\frac3{10}\\) av arvet, alltså 54 000 kr. Hela arvet är \\(54\\,000\\cdot\\frac{10}{3}=180\\,000\\) kr.</p><p>Kontroll: Anna 60 000, Bo 30 000, Cia 36 000 och David 54 000. Summan är 180 000.</p><p><strong>Svar:</strong> 180 000 kr</p>",
+    "familj": "Bråk i problemlösning",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna med andelar av hela arvet. Hur stor andel är kvar efter varje syskon?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 180000,
+    "tolerans": null,
+    "svarEnhet": "kr"
+  },
+  {
     "id": "0.1043",
     "kap": 0,
     "omr": "brakform",
@@ -136548,6 +137112,35 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Överslag och rimlighetsbedömning"
     ]
+  },
+  {
+    "id": "0.1074",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Gör ett överslag: ungefär hur många gånger slår ett människohjärta under ett 80 år långt liv? Anta 70 slag per minut i genomsnitt.</p><p>Svara i grundpotensform med en värdesiffra.</p>",
+    "s": "<p>Avrunda för att kunna räkna i huvudet:</p><ul><li>slag per timme: \\(70\\cdot60\\approx4\\,000\\)</li><li>timmar per år: \\(24\\cdot365\\approx9\\,000\\)</li><li>år: 80</li></ul><p>\\[4\\,000\\cdot9\\,000\\cdot80=2\\,880\\,000\\,000\\approx3\\cdot10^9.\\]</p><p>En exakt beräkning med de givna antagandena ger \\(70\\cdot60\\cdot24\\cdot365\\cdot80\\approx2{,}94\\cdot10^9\\). Överslaget stämmer alltså bra.</p><p><strong>Svar:</strong> ungefär \\(3\\cdot10^9\\) slag</p>",
+    "familj": "Överslag och rimlighet",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna slag per timme, timmar per år och antal år. Avrunda varje tal så att du kan multiplicera i huvudet.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3000000000.0,
+    "tolerans": 400000000.0
   },
   {
     "id": "0.1061",

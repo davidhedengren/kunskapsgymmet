@@ -6,7 +6,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla densitet mellan fyra olika sammansatta enheter, ur text, sökt densitet",
     "poang": "(5/0/0)",
-    "t": "<p>Omvandla densiteten till den angivna enheten. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,7 g/cm³ till kg/dm³</div><div>b) 1000 kg/m³ till g/l</div><div>c) 5,0 g/ml till kg/m³</div><div>d) 850 kg/m³ till g/cm³</div><div>e) 1,0 kg/l till kg/m³</div></div>",
+    "t": "<p>Omvandla densiteten till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,7 g/cm³ till kg/dm³</div><div>b) 1000 kg/m³ till g/l</div><div>c) 5,0 g/ml till kg/m³</div><div>d) 850 kg/m³ till g/cm³</div><div>e) 1,0 kg/l till kg/m³</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 1 dm³ innehåller 1000 cm³. Massan för denna volym är 2700 g = 2,7 kg. Densiteten är 2,7 kg/dm³.</p><p>b) 1 m³ innehåller 1000 liter, så massan per liter är 1 kg = 1000 g. Svaret är 1000 g/l.</p><p>c) 1 m³ innehåller en miljon ml. Massan är då 5 000 000 g = 5000 kg. Svaret är 5000 kg/m³.</p><p>d) 850 kg = 850 000 g och 1 m³ = 1 000 000 cm³. Kvoten blir 0,850 g/cm³.</p><p>e) En kubikmeter innehåller 1000 liter. Massan för den volymen blir 1000 kg, så densiteten är 1000 kg/m³.</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
@@ -52,7 +52,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla densiteten till den angivna enheten. Avrunda inte.</p><p>2,7 g/cm³ till kg/dm³</p>",
+        "t": "<p>Omvandla 2,7 g/cm³ till kg/dm³.</p>",
         "s": "<p>1 dm³ innehåller 1000 cm³. Massan för denna volym är 2700 g = 2,7 kg. Densiteten är 2,7 kg/dm³.</p>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
@@ -62,7 +62,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla densiteten till den angivna enheten. Avrunda inte.</p><p>1000 kg/m³ till g/l</p>",
+        "t": "<p>Omvandla 1000 kg/m³ till g/l.</p>",
         "s": "<p>1 m³ innehåller 1000 liter, så massan per liter är 1 kg = 1000 g. Svaret är 1000 g/l.</p>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
@@ -72,7 +72,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla densiteten till den angivna enheten. Avrunda inte.</p><p>5,0 g/ml till kg/m³</p>",
+        "t": "<p>Omvandla 5,0 g/ml till kg/m³.</p>",
         "s": "<p>1 m³ innehåller en miljon ml. Massan är då 5 000 000 g = 5000 kg. Svaret är 5000 kg/m³.</p>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
@@ -82,7 +82,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla densiteten till den angivna enheten. Avrunda inte.</p><p>850 kg/m³ till g/cm³</p>",
+        "t": "<p>Omvandla 850 kg/m³ till g/cm³.</p>",
         "s": "<p>850 kg = 850 000 g och 1 m³ = 1 000 000 cm³. Kvoten blir 0,850 g/cm³.</p>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
@@ -92,7 +92,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla densiteten till den angivna enheten. Avrunda inte.</p><p>1,0 kg/l till kg/m³</p>",
+        "t": "<p>Omvandla 1,0 kg/l till kg/m³.</p>",
         "s": "<p>En kubikmeter innehåller 1000 liter. Massan för den volymen blir 1000 kg, så densiteten är 1000 kg/m³.</p>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
@@ -515,7 +515,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla längder till meter, ur text, sökt längd",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla längden till meter. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 45 cm</div><div>b) 8,4 mm</div><div>c) 0,75 km</div><div>d) 3,2 mil</div><div>e) 620 nm</div><div>f) 15 dm</div></div>",
+    "t": "<p>Omvandla längden till meter.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 45 cm</div><div>b) 8,4 mm</div><div>c) 0,75 km</div><div>d) 3,2 mil</div><div>e) 620 nm</div><div>f) 15 dm</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) Centi betyder hundradel: 45 cm = 45 · 0,01 m = 0,45 m.</p><p>b) Milli betyder tusendel: 8,4 mm = 8,4 · 0,001 m = 0,0084 m.</p><p>c) Kilo betyder tusen: 0,75 km = 0,75 · 1000 m = 750 m.</p><p>d) En svensk mil är 10 000 m. Därför är 3,2 mil = 32 000 m.</p><p>e) Nano betyder \\(10^{-9}\\): \\(620\\ \\mathrm{nm}=620\\cdot10^{-9}\\ \\mathrm m=6{,}2\\cdot10^{-7}\\ \\mathrm m\\).</p><p>f) Deci betyder tiondel: 15 dm = 1,5 m.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -566,7 +566,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla längden till meter. Avrunda inte.</p><p>45 cm</p>",
+        "t": "<p>Omvandla 45 cm till meter.</p>",
         "s": "<p>Centi betyder hundradel: 45 cm = 45 · 0,01 m = 0,45 m.</p>",
         "ledtrad": "<p>Vad betyder centi?</p>",
         "niva": "E",
@@ -576,7 +576,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla längden till meter. Avrunda inte.</p><p>8,4 mm</p>",
+        "t": "<p>Omvandla 8,4 mm till meter.</p>",
         "s": "<p>Milli betyder tusendel: 8,4 mm = 8,4 · 0,001 m = 0,0084 m.</p>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
@@ -586,7 +586,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla längden till meter. Avrunda inte.</p><p>0,75 km</p>",
+        "t": "<p>Omvandla 0,75 km till meter.</p>",
         "s": "<p>Kilo betyder tusen: 0,75 km = 0,75 · 1000 m = 750 m.</p>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
@@ -596,7 +596,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla längden till meter. Avrunda inte.</p><p>3,2 mil</p>",
+        "t": "<p>Omvandla 3,2 mil till meter. En svensk mil är 10 000 m.</p>",
         "s": "<p>En svensk mil är 10 000 m. Därför är 3,2 mil = 32 000 m.</p>",
         "ledtrad": "<p>Hur många kilometer går på en svensk mil?</p>",
         "niva": "E",
@@ -606,7 +606,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla längden till meter. Avrunda inte.</p><p>620 nm</p>",
+        "t": "<p>Omvandla 620 nm till meter.</p>",
         "s": "<p>Nano betyder \\(10^{-9}\\): \\(620\\ \\mathrm{nm}=620\\cdot10^{-9}\\ \\mathrm m=6{,}2\\cdot10^{-7}\\ \\mathrm m\\).</p>",
         "ledtrad": "<p>Vad betyder nano?</p>",
         "niva": "E",
@@ -616,7 +616,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Omvandla längden till meter. Avrunda inte.</p><p>15 dm</p>",
+        "t": "<p>Omvandla 15 dm till meter.</p>",
         "s": "<p>Deci betyder tiondel: 15 dm = 1,5 m.</p>",
         "ledtrad": "<p>Vad betyder deci?</p>",
         "niva": "E",
@@ -1928,7 +1928,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla frekvens aktivitet och stråldos till grundenheter, ur text, sökt frekvens och dos",
     "poang": "(6/0/0)",
-    "t": "<p>Skriv värdet utan prefix, i Hz, Bq, Gy respektive Sv. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,4 GHz</div><div>b) 88 MHz</div><div>c) 37 kBq</div><div>d) 12 MBq</div><div>e) 150 µGy</div><div>f) 2,4 mSv</div></div>",
+    "t": "<p>Skriv värdet utan prefix, i Hz, Bq, Gy respektive Sv.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,4 GHz</div><div>b) 88 MHz</div><div>c) 37 kBq</div><div>d) 12 MBq</div><div>e) 150 µGy</div><div>f) 2,4 mSv</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) Giga betyder en miljard: 2,4 GHz = 2,4 · 10⁹ Hz.</p><p>b) Mega betyder en miljon: 88 MHz = 88 · 10⁶ Hz = 8,8 · 10⁷ Hz.</p><p>c) Kilo betyder tusen: 37 kBq = 37 000 Bq.</p><p>d) Mega betyder en miljon: 12 MBq = 12 000 000 Bq.</p><p>e) Mikro betyder miljondel: 150 µGy = 150 · 10⁻⁶ Gy = 0,000150 Gy.</p><p>f) Milli betyder tusendel: 2,4 mSv = 0,0024 Sv.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -1979,7 +1979,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Skriv värdet utan prefix, i Hz, Bq, Gy respektive Sv. Avrunda inte.</p><p>2,4 GHz</p>",
+        "t": "<p>Skriv 2,4 GHz i Hz, utan prefix.</p>",
         "s": "<p>Giga betyder en miljard: 2,4 GHz = 2,4 · 10⁹ Hz.</p>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
@@ -1989,7 +1989,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Skriv värdet utan prefix, i Hz, Bq, Gy respektive Sv. Avrunda inte.</p><p>88 MHz</p>",
+        "t": "<p>Skriv 88 MHz i Hz, utan prefix.</p>",
         "s": "<p>Mega betyder en miljon: 88 MHz = 88 · 10⁶ Hz = 8,8 · 10⁷ Hz.</p>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
@@ -1999,7 +1999,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Skriv värdet utan prefix, i Hz, Bq, Gy respektive Sv. Avrunda inte.</p><p>37 kBq</p>",
+        "t": "<p>Skriv 37 kBq i Bq, utan prefix.</p>",
         "s": "<p>Kilo betyder tusen: 37 kBq = 37 000 Bq.</p>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
@@ -2009,7 +2009,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Skriv värdet utan prefix, i Hz, Bq, Gy respektive Sv. Avrunda inte.</p><p>12 MBq</p>",
+        "t": "<p>Skriv 12 MBq i Bq, utan prefix.</p>",
         "s": "<p>Mega betyder en miljon: 12 MBq = 12 000 000 Bq.</p>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
@@ -2019,7 +2019,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Skriv värdet utan prefix, i Hz, Bq, Gy respektive Sv. Avrunda inte.</p><p>150 µGy</p>",
+        "t": "<p>Skriv 150 µGy i Gy, utan prefix.</p>",
         "s": "<p>Mikro betyder miljondel: 150 µGy = 150 · 10⁻⁶ Gy = 0,000150 Gy.</p>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
@@ -2029,7 +2029,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Skriv värdet utan prefix, i Hz, Bq, Gy respektive Sv. Avrunda inte.</p><p>2,4 mSv</p>",
+        "t": "<p>Skriv 2,4 mSv i Sv, utan prefix.</p>",
         "s": "<p>Milli betyder tusendel: 2,4 mSv = 0,0024 Sv.</p>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
@@ -2886,7 +2886,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla effekter till watt, ur text, sökt effekt",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla effekten till watt. Räkna med att 1 hk = 735 W. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,4 kW</div><div>b) 850 MW</div><div>c) 45 mW</div><div>d) 1,5 hk</div><div>e) 0,60 kW</div><div>f) 12 GW</div></div>",
+    "t": "<p>Omvandla effekten till watt. Räkna med att 1 hk = 735 W.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,4 kW</div><div>b) 850 MW</div><div>c) 45 mW</div><div>d) 1,5 hk</div><div>e) 0,60 kW</div><div>f) 12 GW</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 2,4 · 1000 W = 2400 W.</p><p>b) 850 · 10⁶ W = 850 000 000 W.</p><p>c) 45 · 10⁻³ W = 0,045 W.</p><p>d) 1,5 · 735 W = 1102,5 W.</p><p>e) 0,60 · 1000 W = 600 W.</p><p>f) 12 · 10⁹ W = 12 000 000 000 W.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -2937,7 +2937,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla effekten till watt. Räkna med att 1 hk = 735 W. Avrunda inte.</p><p>2,4 kW</p>",
+        "t": "<p>Omvandla 2,4 kW till watt.</p>",
         "s": "<p>2,4 · 1000 W = 2400 W.</p>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
@@ -2947,7 +2947,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla effekten till watt. Räkna med att 1 hk = 735 W. Avrunda inte.</p><p>850 MW</p>",
+        "t": "<p>Omvandla 850 MW till watt.</p>",
         "s": "<p>850 · 10⁶ W = 850 000 000 W.</p>",
         "ledtrad": "<p>Vad betyder mega?</p>",
         "niva": "E",
@@ -2957,7 +2957,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla effekten till watt. Räkna med att 1 hk = 735 W. Avrunda inte.</p><p>45 mW</p>",
+        "t": "<p>Omvandla 45 mW till watt.</p>",
         "s": "<p>45 · 10⁻³ W = 0,045 W.</p>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
@@ -2967,7 +2967,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla effekten till watt. Räkna med att 1 hk = 735 W. Avrunda inte.</p><p>1,5 hk</p>",
+        "t": "<p>Omvandla 1,5 hk till watt. Räkna med att 1 hk = 735 W.</p>",
         "s": "<p>1,5 · 735 W = 1102,5 W.</p>",
         "ledtrad": "<p>Vilken effekt motsvarar en hästkraft enligt uppgiften?</p>",
         "niva": "E",
@@ -2977,7 +2977,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla effekten till watt. Räkna med att 1 hk = 735 W. Avrunda inte.</p><p>0,60 kW</p>",
+        "t": "<p>Omvandla 0,60 kW till watt.</p>",
         "s": "<p>0,60 · 1000 W = 600 W.</p>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
@@ -2987,7 +2987,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Omvandla effekten till watt. Räkna med att 1 hk = 735 W. Avrunda inte.</p><p>12 GW</p>",
+        "t": "<p>Omvandla 12 GW till watt.</p>",
         "s": "<p>12 · 10⁹ W = 12 000 000 000 W.</p>",
         "ledtrad": "<p>Vad betyder giga?</p>",
         "niva": "E",
@@ -3036,7 +3036,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla energier till joule, ur text, sökt energi",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla energin till joule. Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 Wh = 3600 J och 1 cal = 4,184 J. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 45 kJ</div><div>b) 2,5 MJ</div><div>c) 3,0 kWh</div><div>d) 250 Wh</div><div>e) 1,5 mJ</div><div>f) 500 kcal</div></div>",
+    "t": "<p>Omvandla energin till joule. Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 Wh = 3600 J och 1 cal = 4,184 J.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 45 kJ</div><div>b) 2,5 MJ</div><div>c) 3,0 kWh</div><div>d) 250 Wh</div><div>e) 1,5 mJ</div><div>f) 500 kcal</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 45 · 1000 J = 45 000 J.</p><p>b) 2,5 · 10⁶ J = 2 500 000 J.</p><p>c) 3,0 · 3,6 · 10⁶ J = 10 800 000 J.</p><p>d) 250 · 3600 J = 900 000 J.</p><p>e) 1,5 · 10⁻³ J = 0,0015 J.</p><p>f) 500 kcal = 500 000 cal. Energin blir 500 000 · 4,184 J = 2 092 000 J.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -3087,9 +3087,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla energin till joule. Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 Wh = 3600 J och 1 cal = 4,184 J. Avrunda inte.</p><p>45 kJ</p>",
+        "t": "<p>Omvandla 45 kJ till joule.</p>",
         "s": "<p>45 · 1000 J = 45 000 J.</p>",
-        "ledtrad": "<p>Vilka värden kräver bara ett prefixbyte, och vilka kräver en särskild omvandlingsfaktor?</p>",
+        "ledtrad": "<p>Vad betyder prefixet kilo?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -3097,9 +3097,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla energin till joule. Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 Wh = 3600 J och 1 cal = 4,184 J. Avrunda inte.</p><p>2,5 MJ</p>",
+        "t": "<p>Omvandla 2,5 MJ till joule.</p>",
         "s": "<p>2,5 · 10⁶ J = 2 500 000 J.</p>",
-        "ledtrad": "<p>Vilka värden kräver bara ett prefixbyte, och vilka kräver en särskild omvandlingsfaktor?</p>",
+        "ledtrad": "<p>Vad betyder prefixet mega?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -3107,9 +3107,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla energin till joule. Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 Wh = 3600 J och 1 cal = 4,184 J. Avrunda inte.</p><p>3,0 kWh</p>",
+        "t": "<p>Omvandla 3,0 kWh till joule. Använd att 1 kWh = 3,6 · 10⁶ J.</p>",
         "s": "<p>3,0 · 3,6 · 10⁶ J = 10 800 000 J.</p>",
-        "ledtrad": "<p>Vilka värden kräver bara ett prefixbyte, och vilka kräver en särskild omvandlingsfaktor?</p>",
+        "ledtrad": "<p>Multiplicera med den givna omvandlingsfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -3117,9 +3117,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla energin till joule. Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 Wh = 3600 J och 1 cal = 4,184 J. Avrunda inte.</p><p>250 Wh</p>",
+        "t": "<p>Omvandla 250 Wh till joule. Använd att 1 Wh = 3600 J.</p>",
         "s": "<p>250 · 3600 J = 900 000 J.</p>",
-        "ledtrad": "<p>Vilka värden kräver bara ett prefixbyte, och vilka kräver en särskild omvandlingsfaktor?</p>",
+        "ledtrad": "<p>Multiplicera med den givna omvandlingsfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -3127,9 +3127,9 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla energin till joule. Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 Wh = 3600 J och 1 cal = 4,184 J. Avrunda inte.</p><p>1,5 mJ</p>",
+        "t": "<p>Omvandla 1,5 mJ till joule.</p>",
         "s": "<p>1,5 · 10⁻³ J = 0,0015 J.</p>",
-        "ledtrad": "<p>Vilka värden kräver bara ett prefixbyte, och vilka kräver en särskild omvandlingsfaktor?</p>",
+        "ledtrad": "<p>Vad betyder prefixet milli?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -3137,9 +3137,9 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Omvandla energin till joule. Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 Wh = 3600 J och 1 cal = 4,184 J. Avrunda inte.</p><p>500 kcal</p>",
+        "t": "<p>Omvandla 500 kcal till joule. Använd att 1 cal = 4,184 J.</p>",
         "s": "<p>500 kcal = 500 000 cal. Energin blir 500 000 · 4,184 J = 2 092 000 J.</p>",
-        "ledtrad": "<p>Vilka värden kräver bara ett prefixbyte, och vilka kräver en särskild omvandlingsfaktor?</p>",
+        "ledtrad": "<p>Skriv först kcal som cal och multiplicera sedan med den givna faktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -3439,12 +3439,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En massiv järnbalk har volymen 0,25 m³. Järnets densitet är 7870 kg/m³. Avrunda inte.</p>",
+    "spelIntro": "<p>En massiv järnbalk har volymen 0,25 m³. Järnets densitet är 7870 kg/m³.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm massan i kg.",
-        "t": "<p>En massiv järnbalk har volymen 0,25 m³. Järnets densitet är 7870 kg/m³. Avrunda inte.</p><p>Bestäm massan i kg.</p>",
+        "t": "<p>En massiv järnbalk har volymen 0,25 m³. Järnets densitet är 7870 kg/m³.</p><p>Bestäm massan i kg.</p>",
         "s": "<p>m = 7870·0,25 = 1967,5 kg.</p>",
         "ledtrad": "<p>Densiteten anger massan hos en kubikmeter järn.</p>",
         "niva": "E",
@@ -3455,7 +3455,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm massan i ton.",
-        "t": "<p>En massiv järnbalk har volymen 0,25 m³. Järnets densitet är 7870 kg/m³. Avrunda inte.</p><p>Bestäm massan i ton.</p>",
+        "t": "<p>En massiv järnbalk har volymen 0,25 m³. Järnets densitet är 7870 kg/m³.</p><p>Bestäm massan i ton.</p>",
         "s": "<p>m = 7870·0,25 = 1967,5 kg = 1,9675 ton.</p>",
         "ledtrad": "<p>Densiteten anger massan hos en kubikmeter järn.</p>",
         "niva": "E",
@@ -3604,7 +3604,7 @@ window.BANK = [
     "niva": "E",
     "typ": "fylla i saknade värden för densitet massa och volym, ur tabell, sökt densitet massa och volym",
     "poang": "(4/0/0)",
-    "t": "<p>Bestäm den sökta storheten för varje föremål. Avrunda inte.</p><ol><li>Massan är 540 g och volymen 200 cm³. Bestäm densiteten i g/cm³.</li><li>Densiteten är 11,3 g/cm³ och volymen 50 cm³. Bestäm massan i g.</li><li>Densiteten är 0,92 g/cm³ och massan 460 g. Bestäm volymen i cm³.</li><li>Massan är 1,5 kg och volymen 0,20 dm³. Bestäm densiteten i g/cm³.</li></ol>",
+    "t": "<p>Bestäm den sökta storheten för varje föremål.</p><ol><li>Massan är 540 g och volymen 200 cm³. Bestäm densiteten i g/cm³.</li><li>Densiteten är 11,3 g/cm³ och volymen 50 cm³. Bestäm massan i g.</li><li>Densiteten är 0,92 g/cm³ och massan 460 g. Bestäm volymen i cm³.</li><li>Massan är 1,5 kg och volymen 0,20 dm³. Bestäm densiteten i g/cm³.</li></ol>",
     "s": "<p>a) ρ = m/V = 540/200 = 2,70 g/cm³.</p><p>b) m = ρV = 11,3·50 = 565 g.</p><p>c) V = m/ρ = 460/0,92 = 500 cm³.</p><p>d) 1,5 kg = 1500 g och 0,20 dm³ = 200 cm³. Densiteten är 1500/200 = 7,5 g/cm³.</p>",
     "familj": "Massa, volym och densitet",
     "formaga": [
@@ -3651,12 +3651,12 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm den sökta storheten för föremålet. Avrunda inte.</p>",
+    "spelIntro": "<p>Bestäm den sökta storheten för föremålet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Massan är 540 g och volymen 200 cm³. Bestäm densiteten i g/cm³.",
-        "t": "<p>Bestäm den sökta storheten för varje föremål. Avrunda inte.</p><p>Massan är 540 g och volymen 200 cm³. Bestäm densiteten i g/cm³.</p>",
+        "t": "<p>Massan är 540 g och volymen 200 cm³. Bestäm densiteten i g/cm³.</p>",
         "s": "<p>ρ = m/V = 540/200 = 2,70 g/cm³.</p>",
         "ledtrad": "<p>Vilken storhet söks? Välj en lämplig form av densitetssambandet och kontrollera enheterna.</p>",
         "niva": "E",
@@ -3667,7 +3667,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Densiteten är 11,3 g/cm³ och volymen 50 cm³. Bestäm massan i g.",
-        "t": "<p>Bestäm den sökta storheten för varje föremål. Avrunda inte.</p><p>Densiteten är 11,3 g/cm³ och volymen 50 cm³. Bestäm massan i g.</p>",
+        "t": "<p>Densiteten är 11,3 g/cm³ och volymen 50 cm³. Bestäm massan i g.</p>",
         "s": "<p>m = ρV = 11,3·50 = 565 g.</p>",
         "ledtrad": "<p>Vilken storhet söks? Välj en lämplig form av densitetssambandet och kontrollera enheterna.</p>",
         "niva": "E",
@@ -3678,7 +3678,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Densiteten är 0,92 g/cm³ och massan 460 g. Bestäm volymen i cm³.",
-        "t": "<p>Bestäm den sökta storheten för varje föremål. Avrunda inte.</p><p>Densiteten är 0,92 g/cm³ och massan 460 g. Bestäm volymen i cm³.</p>",
+        "t": "<p>Densiteten är 0,92 g/cm³ och massan 460 g. Bestäm volymen i cm³.</p>",
         "s": "<p>V = m/ρ = 460/0,92 = 500 cm³.</p>",
         "ledtrad": "<p>Vilken storhet söks? Välj en lämplig form av densitetssambandet och kontrollera enheterna.</p>",
         "niva": "E",
@@ -3689,7 +3689,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Massan är 1,5 kg och volymen 0,20 dm³. Bestäm densiteten i g/cm³.",
-        "t": "<p>Bestäm den sökta storheten för varje föremål. Avrunda inte.</p><p>Massan är 1,5 kg och volymen 0,20 dm³. Bestäm densiteten i g/cm³.</p>",
+        "t": "<p>Massan är 1,5 kg och volymen 0,20 dm³. Bestäm densiteten i g/cm³.</p>",
         "s": "<p>1,5 kg = 1500 g och 0,20 dm³ = 200 cm³. Densiteten är 1500/200 = 7,5 g/cm³.</p>",
         "ledtrad": "<p>Vilken storhet söks? Välj en lämplig form av densitetssambandet och kontrollera enheterna.</p>",
         "niva": "E",
@@ -4982,7 +4982,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla krafter till newton och tryck till pascal, ur text, sökt kraft och tryck",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla krafterna till N och trycken till Pa. Räkna med att 1 bar = 100 000 Pa. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 4,5 kN</div><div>b) 250 mN</div><div>c) 1,2 MN</div><div>d) 300 kPa</div><div>e) 2,5 bar</div><div>f) 1013 hPa</div></div>",
+    "t": "<p>Omvandla krafterna till N och trycken till Pa. Räkna med att 1 bar = 100 000 Pa.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 4,5 kN</div><div>b) 250 mN</div><div>c) 1,2 MN</div><div>d) 300 kPa</div><div>e) 2,5 bar</div><div>f) 1013 hPa</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) Kilo betyder tusen: 4,5 · 1000 N = 4500 N.</p><p>b) Milli betyder tusendel: 250 · 0,001 N = 0,250 N.</p><p>c) Mega betyder en miljon: 1,2 · 10⁶ N = 1 200 000 N.</p><p>d) 300 · 1000 Pa = 300 000 Pa.</p><p>e) 2,5 · 100 000 Pa = 250 000 Pa.</p><p>f) Hekto betyder hundra: 1013 · 100 Pa = 101 300 Pa.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -5033,7 +5033,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla krafterna till N och trycken till Pa. Räkna med att 1 bar = 100 000 Pa. Avrunda inte.</p><p>4,5 kN</p>",
+        "t": "<p>Omvandla 4,5 kN till N.</p>",
         "s": "<p>Kilo betyder tusen: 4,5 · 1000 N = 4500 N.</p>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
@@ -5043,7 +5043,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla krafterna till N och trycken till Pa. Räkna med att 1 bar = 100 000 Pa. Avrunda inte.</p><p>250 mN</p>",
+        "t": "<p>Omvandla 250 mN till N.</p>",
         "s": "<p>Milli betyder tusendel: 250 · 0,001 N = 0,250 N.</p>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
@@ -5053,7 +5053,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla krafterna till N och trycken till Pa. Räkna med att 1 bar = 100 000 Pa. Avrunda inte.</p><p>1,2 MN</p>",
+        "t": "<p>Omvandla 1,2 MN till N.</p>",
         "s": "<p>Mega betyder en miljon: 1,2 · 10⁶ N = 1 200 000 N.</p>",
         "ledtrad": "<p>Vad betyder mega?</p>",
         "niva": "E",
@@ -5063,7 +5063,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla krafterna till N och trycken till Pa. Räkna med att 1 bar = 100 000 Pa. Avrunda inte.</p><p>300 kPa</p>",
+        "t": "<p>Omvandla 300 kPa till Pa.</p>",
         "s": "<p>300 · 1000 Pa = 300 000 Pa.</p>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
@@ -5073,7 +5073,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla krafterna till N och trycken till Pa. Räkna med att 1 bar = 100 000 Pa. Avrunda inte.</p><p>2,5 bar</p>",
+        "t": "<p>Omvandla 2,5 bar till Pa. Använd att 1 bar = 100 000 Pa.</p>",
         "s": "<p>2,5 · 100 000 Pa = 250 000 Pa.</p>",
         "ledtrad": "<p>Vilket samband anges mellan bar och pascal?</p>",
         "niva": "E",
@@ -5083,7 +5083,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Omvandla krafterna till N och trycken till Pa. Räkna med att 1 bar = 100 000 Pa. Avrunda inte.</p><p>1013 hPa</p>",
+        "t": "<p>Omvandla 1013 hPa till Pa.</p>",
         "s": "<p>Hekto betyder hundra: 1013 · 100 Pa = 101 300 Pa.</p>",
         "ledtrad": "<p>Vad betyder hekto?</p>",
         "niva": "E",
@@ -5132,7 +5132,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla densitet mellan gram per kubikcentimeter och kilogram per kubikmeter, ur text, sökt densitet",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla densiteten mellan g/cm³ och kg/m³. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,7 g/cm³ till kg/m³</div><div>b) 998 kg/m³ till g/cm³</div><div>c) 13,6 g/cm³ till kg/m³</div><div>d) 1,29 kg/m³ till g/cm³</div><div>e) 0,92 g/cm³ till kg/m³</div><div>f) 7870 kg/m³ till g/cm³</div></div>",
+    "t": "<p>Omvandla densiteten mellan g/cm³ och kg/m³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,7 g/cm³ till kg/m³</div><div>b) 998 kg/m³ till g/cm³</div><div>c) 13,6 g/cm³ till kg/m³</div><div>d) 1,29 kg/m³ till g/cm³</div><div>e) 0,92 g/cm³ till kg/m³</div><div>f) 7870 kg/m³ till g/cm³</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 2,7 · 1000 = 2700. Svaret är 2700 kg/m³.</p><p>b) 998 / 1000 = 0,998. Svaret är 0,998 g/cm³.</p><p>c) 13,6 · 1000 = 13 600. Svaret är 13 600 kg/m³.</p><p>d) 1,29 / 1000 = 0,00129. Svaret är 0,00129 g/cm³.</p><p>e) 0,92 · 1000 = 920. Svaret är 920 kg/m³.</p><p>f) 7870 / 1000 = 7,87. Svaret är 7,87 g/cm³.</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
@@ -5183,9 +5183,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla densiteten mellan g/cm³ och kg/m³. Avrunda inte.</p><p>2,7 g/cm³ till kg/m³</p>",
+        "t": "<p>Omvandla 2,7 g/cm³ till kg/m³.</p>",
         "s": "<p>2,7 · 1000 = 2700. Svaret anges i kg/m³.</p>",
-        "ledtrad": "<p>Utgå från den givna likheten. Ska siffervärdet bli större eller mindre i den efterfrågade enheten?</p>",
+        "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -5193,9 +5193,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla densiteten mellan g/cm³ och kg/m³. Avrunda inte.</p><p>998 kg/m³ till g/cm³</p>",
+        "t": "<p>Omvandla 998 kg/m³ till g/cm³.</p>",
         "s": "<p>998 / 1000 = 0,998. Svaret anges i g/cm³.</p>",
-        "ledtrad": "<p>Utgå från den givna likheten. Ska siffervärdet bli större eller mindre i den efterfrågade enheten?</p>",
+        "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -5203,9 +5203,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla densiteten mellan g/cm³ och kg/m³. Avrunda inte.</p><p>13,6 g/cm³ till kg/m³</p>",
+        "t": "<p>Omvandla 13,6 g/cm³ till kg/m³.</p>",
         "s": "<p>13,6 · 1000 = 13 600. Svaret anges i kg/m³.</p>",
-        "ledtrad": "<p>Utgå från den givna likheten. Ska siffervärdet bli större eller mindre i den efterfrågade enheten?</p>",
+        "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -5213,9 +5213,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla densiteten mellan g/cm³ och kg/m³. Avrunda inte.</p><p>1,29 kg/m³ till g/cm³</p>",
+        "t": "<p>Omvandla 1,29 kg/m³ till g/cm³.</p>",
         "s": "<p>1,29 / 1000 = 0,00129. Svaret anges i g/cm³.</p>",
-        "ledtrad": "<p>Utgå från den givna likheten. Ska siffervärdet bli större eller mindre i den efterfrågade enheten?</p>",
+        "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -5223,9 +5223,9 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla densiteten mellan g/cm³ och kg/m³. Avrunda inte.</p><p>0,92 g/cm³ till kg/m³</p>",
+        "t": "<p>Omvandla 0,92 g/cm³ till kg/m³.</p>",
         "s": "<p>0,92 · 1000 = 920. Svaret anges i kg/m³.</p>",
-        "ledtrad": "<p>Utgå från den givna likheten. Ska siffervärdet bli större eller mindre i den efterfrågade enheten?</p>",
+        "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -5233,9 +5233,9 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Omvandla densiteten mellan g/cm³ och kg/m³. Avrunda inte.</p><p>7870 kg/m³ till g/cm³</p>",
+        "t": "<p>Omvandla 7870 kg/m³ till g/cm³.</p>",
         "s": "<p>7870 / 1000 = 7,87. Svaret anges i g/cm³.</p>",
-        "ledtrad": "<p>Utgå från den givna likheten. Ska siffervärdet bli större eller mindre i den efterfrågade enheten?</p>",
+        "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -5348,7 +5348,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla tider till sekunder, ur text, sökt tid",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla tiden till sekunder. Räkna med att 1 år = 3,156 · 10⁷ s. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 25 min</div><div>b) 3,5 h</div><div>c) 2,0 dygn</div><div>d) 480 ms</div><div>e) 25 µs</div><div>f) 1,5 år</div></div>",
+    "t": "<p>Omvandla tiden till sekunder. Räkna med att 1 år = 3,156 · 10⁷ s.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 25 min</div><div>b) 3,5 h</div><div>c) 2,0 dygn</div><div>d) 480 ms</div><div>e) 25 µs</div><div>f) 1,5 år</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 25 · 60 s = 1500 s.</p><p>b) 3,5 · 3600 s = 12 600 s.</p><p>c) 2,0 · 86 400 s = 172 800 s.</p><p>d) Milli betyder tusendel: 480 ms = 0,480 s.</p><p>e) Mikro betyder miljondel: 25 µs = 25 · 10⁻⁶ s = 0,000025 s.</p><p>f) 1,5 · 3,156 · 10⁷ s = 47 340 000 s.</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
@@ -5398,7 +5398,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla tiden till sekunder. Räkna med att 1 år = 3,156 · 10⁷ s. Avrunda inte.</p><p>25 min</p>",
+        "t": "<p>Omvandla 25 min till sekunder.</p>",
         "s": "<p>25 · 60 s = 1500 s.</p>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
@@ -5408,7 +5408,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla tiden till sekunder. Räkna med att 1 år = 3,156 · 10⁷ s. Avrunda inte.</p><p>3,5 h</p>",
+        "t": "<p>Omvandla 3,5 h till sekunder.</p>",
         "s": "<p>3,5 · 3600 s = 12 600 s.</p>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
@@ -5418,7 +5418,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla tiden till sekunder. Räkna med att 1 år = 3,156 · 10⁷ s. Avrunda inte.</p><p>2,0 dygn</p>",
+        "t": "<p>Omvandla 2,0 dygn till sekunder.</p>",
         "s": "<p>2,0 · 86 400 s = 172 800 s.</p>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
@@ -5428,7 +5428,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla tiden till sekunder. Räkna med att 1 år = 3,156 · 10⁷ s. Avrunda inte.</p><p>480 ms</p>",
+        "t": "<p>Omvandla 480 ms till sekunder.</p>",
         "s": "<p>Milli betyder tusendel: 480 ms = 0,480 s.</p>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
@@ -5438,7 +5438,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla tiden till sekunder. Räkna med att 1 år = 3,156 · 10⁷ s. Avrunda inte.</p><p>25 µs</p>",
+        "t": "<p>Omvandla 25 µs till sekunder.</p>",
         "s": "<p>Mikro betyder miljondel: 25 µs = 25 · 10⁻⁶ s = 0,000025 s.</p>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
@@ -5448,7 +5448,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Omvandla tiden till sekunder. Räkna med att 1 år = 3,156 · 10⁷ s. Avrunda inte.</p><p>1,5 år</p>",
+        "t": "<p>Omvandla 1,5 år till sekunder. Räkna med att 1 år = 3,156 · 10⁷ s.</p>",
         "s": "<p>1,5 · 3,156 · 10⁷ s = 47 340 000 s.</p>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
@@ -5497,7 +5497,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla areor till kvadratmeter, ur text, sökt area",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla arean till kvadratmeter. Räkna med att 1 hektar = 10 000 m². Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 350 cm²</div><div>b) 4,2 dm²</div><div>c) 1200 mm²</div><div>d) 0,25 km²</div><div>e) 3,0 hektar</div><div>f) 45 dm²</div></div>",
+    "t": "<p>Omvandla arean till kvadratmeter. Räkna med att 1 hektar = 10 000 m².</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 350 cm²</div><div>b) 4,2 dm²</div><div>c) 1200 mm²</div><div>d) 0,25 km²</div><div>e) 3,0 hektar</div><div>f) 45 dm²</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 1 cm² = (0,01 m)² = 0,0001 m². Därför är 350 cm² = 0,035 m².</p><p>b) 1 dm² = (0,1 m)² = 0,01 m². Därför är 4,2 dm² = 0,042 m².</p><p>c) 1 mm² = (0,001 m)² = 10⁻⁶ m². Därför är 1200 mm² = 0,0012 m².</p><p>d) 1 km² = (1000 m)² = 1 000 000 m². Därför är 0,25 km² = 250 000 m².</p><p>e) 3,0 · 10 000 m² = 30 000 m².</p><p>f) 45 · (0,1 m)² = 0,45 m².</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
@@ -5547,7 +5547,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla arean till kvadratmeter. Räkna med att 1 hektar = 10 000 m². Avrunda inte.</p><p>350 cm²</p>",
+        "t": "<p>Omvandla 350 cm² till kvadratmeter.</p>",
         "s": "<p>1 cm² = (0,01 m)² = 0,0001 m². Därför är 350 cm² = 0,035 m².</p>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
@@ -5557,7 +5557,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla arean till kvadratmeter. Räkna med att 1 hektar = 10 000 m². Avrunda inte.</p><p>4,2 dm²</p>",
+        "t": "<p>Omvandla 4,2 dm² till kvadratmeter.</p>",
         "s": "<p>1 dm² = (0,1 m)² = 0,01 m². Därför är 4,2 dm² = 0,042 m².</p>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
@@ -5567,7 +5567,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla arean till kvadratmeter. Räkna med att 1 hektar = 10 000 m². Avrunda inte.</p><p>1200 mm²</p>",
+        "t": "<p>Omvandla 1200 mm² till kvadratmeter.</p>",
         "s": "<p>1 mm² = (0,001 m)² = 10⁻⁶ m². Därför är 1200 mm² = 0,0012 m².</p>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
@@ -5577,7 +5577,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla arean till kvadratmeter. Räkna med att 1 hektar = 10 000 m². Avrunda inte.</p><p>0,25 km²</p>",
+        "t": "<p>Omvandla 0,25 km² till kvadratmeter.</p>",
         "s": "<p>1 km² = (1000 m)² = 1 000 000 m². Därför är 0,25 km² = 250 000 m².</p>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
@@ -5587,7 +5587,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla arean till kvadratmeter. Räkna med att 1 hektar = 10 000 m². Avrunda inte.</p><p>3,0 hektar</p>",
+        "t": "<p>Omvandla 3,0 hektar till kvadratmeter. Använd att 1 hektar = 10 000 m².</p>",
         "s": "<p>3,0 · 10 000 m² = 30 000 m².</p>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
@@ -5597,7 +5597,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Omvandla arean till kvadratmeter. Räkna med att 1 hektar = 10 000 m². Avrunda inte.</p><p>45 dm²</p>",
+        "t": "<p>Omvandla 45 dm² till kvadratmeter.</p>",
         "s": "<p>45 · (0,1 m)² = 0,45 m².</p>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
@@ -5831,7 +5831,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla elektriska storheter till grundenheter, ur text, sökt ström spänning och resistans",
     "poang": "(6/0/0)",
-    "t": "<p>Skriv värdena utan prefix, alltså i grundenheten ampere (A), ohm (Ω) eller volt (V). Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 mA</div><div>b) 45 µA</div><div>c) 4,7 kΩ</div><div>d) 2,2 MΩ</div><div>e) 12 mV</div><div>f) 400 kV</div></div>",
+    "t": "<p>Skriv värdena utan prefix, alltså i grundenheten ampere (A), ohm (Ω) eller volt (V).</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 mA</div><div>b) 45 µA</div><div>c) 4,7 kΩ</div><div>d) 2,2 MΩ</div><div>e) 12 mV</div><div>f) 400 kV</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) Milli betyder tusendel: 250 mA = 0,250 A.</p><p>b) Mikro betyder miljondel: 45 µA = 0,000045 A.</p><p>c) Kilo betyder tusen: 4,7 kΩ = 4700 Ω.</p><p>d) Mega betyder en miljon: 2,2 MΩ = 2 200 000 Ω.</p><p>e) Milli betyder tusendel: 12 mV = 0,012 V.</p><p>f) Kilo betyder tusen: 400 kV = 400 000 V.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -5882,7 +5882,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Skriv värdet i ampere (A), utan prefix. Avrunda inte.</p><p>250 mA</p>",
+        "t": "<p>Skriv 250 mA i A, utan prefix.</p>",
         "s": "<p>Milli betyder tusendel: 250 mA = 0,250 A.</p>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
@@ -5892,7 +5892,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Skriv värdet i ampere (A), utan prefix. Avrunda inte.</p><p>45 µA</p>",
+        "t": "<p>Skriv 45 µA i A, utan prefix.</p>",
         "s": "<p>Mikro betyder miljondel: 45 µA = 0,000045 A.</p>",
         "ledtrad": "<p>Vad betyder mikro?</p>",
         "niva": "E",
@@ -5902,7 +5902,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Skriv värdet i ohm (Ω), utan prefix. Avrunda inte.</p><p>4,7 kΩ</p>",
+        "t": "<p>Skriv 4,7 kΩ i Ω, utan prefix.</p>",
         "s": "<p>Kilo betyder tusen: 4,7 kΩ = 4700 Ω.</p>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
@@ -5912,7 +5912,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Skriv värdet i ohm (Ω), utan prefix. Avrunda inte.</p><p>2,2 MΩ</p>",
+        "t": "<p>Skriv 2,2 MΩ i Ω, utan prefix.</p>",
         "s": "<p>Mega betyder en miljon: 2,2 MΩ = 2 200 000 Ω.</p>",
         "ledtrad": "<p>Vad betyder mega?</p>",
         "niva": "E",
@@ -5922,7 +5922,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Skriv värdet i volt (V), utan prefix. Avrunda inte.</p><p>12 mV</p>",
+        "t": "<p>Skriv 12 mV i V, utan prefix.</p>",
         "s": "<p>Milli betyder tusendel: 12 mV = 0,012 V.</p>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
@@ -5932,7 +5932,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Skriv värdet i volt (V), utan prefix. Avrunda inte.</p><p>400 kV</p>",
+        "t": "<p>Skriv 400 kV i V, utan prefix.</p>",
         "s": "<p>Kilo betyder tusen: 400 kV = 400 000 V.</p>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
@@ -6159,7 +6159,7 @@ window.BANK = [
     "omr": "enheter",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En rätblocksformad bassäng har invändiga måtten 12 m × 5,0 m × 1,6 m. Den fylls till kanten. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Hur stor är vattenvolymen i m³?</div><div>b) Hur stor är vattenvolymen i liter?</div></div>",
+    "t": "<p>En rätblocksformad bassäng har invändiga måtten 12 m × 5,0 m × 1,6 m. Den fylls till kanten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Hur stor är vattenvolymen i m³?</div><div>b) Hur stor är vattenvolymen i liter?</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) Volymen är längd · bredd · djup = 12 · 5,0 · 1,6 = 96 m³.</p><p>b) Volymen är 12 · 5,0 · 1,6 = 96 m³. En kubikmeter innehåller 1000 liter, så volymen är 96 000 liter.</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
@@ -6193,7 +6193,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En rätblocksformad bassäng har invändiga måtten 12 m × 5,0 m × 1,6 m. Den fylls till kanten. Avrunda inte.</p><p>Hur stor är vattenvolymen i m³?</p>",
+        "t": "<p>En rätblocksformad bassäng har invändiga måtten 12 m × 5,0 m × 1,6 m. Den fylls till kanten.</p><p>Hur stor är vattenvolymen i m³?</p>",
         "s": "<p>Volymen är längd · bredd · djup = 12 · 5,0 · 1,6 = 96 m³.</p>",
         "ledtrad": "<p>Vilka tre mått bestämmer volymen, och hur många liter ryms i en kubikmeter?</p>",
         "niva": "E",
@@ -6203,7 +6203,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>En rätblocksformad bassäng har invändiga måtten 12 m × 5,0 m × 1,6 m. Den fylls till kanten. Avrunda inte.</p><p>Hur stor är vattenvolymen i liter?</p>",
+        "t": "<p>En rätblocksformad bassäng har invändiga måtten 12 m × 5,0 m × 1,6 m. Den fylls till kanten.</p><p>Hur stor är vattenvolymen i liter?</p>",
         "s": "<p>Volymen är 12 · 5,0 · 1,6 = 96 m³. En kubikmeter innehåller 1000 liter, så volymen är 96 000 liter.</p>",
         "ledtrad": "<p>Vilka tre mått bestämmer volymen, och hur många liter ryms i en kubikmeter?</p>",
         "niva": "E",
@@ -6257,7 +6257,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla volymflöde och massflöde mellan olika enheter, ur text, sökt flöde",
     "poang": "(5/0/0)",
-    "t": "<p>Omvandla flödet till den angivna enheten. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 30 liter/min till m³/s</div><div>b) 1,2 m³/s till liter/min</div><div>c) 18 ton/h till kg/s</div><div>d) 250 ml/s till liter/h</div><div>e) 2,0 kg/s till ton/dygn</div></div>",
+    "t": "<p>Omvandla flödet till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 30 liter/min till m³/s</div><div>b) 1,2 m³/s till liter/min</div><div>c) 18 ton/h till kg/s</div><div>d) 250 ml/s till liter/h</div><div>e) 2,0 kg/s till ton/dygn</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 30 liter är 0,030 m³ och en minut är 60 s. Flödet blir 0,030/60 = 0,0005 m³/s.</p><p>b) 1,2 m³ är 1200 liter varje sekund. På en minut blir det 1200 · 60 = 72 000 liter: 72 000 l/min.</p><p>c) 18 ton är 18 000 kg och en timme är 3600 s. Flödet blir 18 000/3600 = 5 kg/s.</p><p>d) 250 ml är 0,250 liter. Under en timme passerar 0,250 · 3600 = 900 liter: 900 l/h.</p><p>e) På ett dygn passerar 2,0 · 86 400 = 172 800 kg = 172,8 ton. Flödet är 172,8 ton/dygn.</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
@@ -6304,7 +6304,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla flödet till den angivna enheten. Avrunda inte.</p><p>30 liter/min till m³/s</p>",
+        "t": "<p>Omvandla 30 liter/min till m³/s.</p>",
         "s": "<p>30 liter är 0,030 m³ och en minut är 60 s. Flödet blir 0,030/60 = 0,0005 m³/s.</p>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
@@ -6314,7 +6314,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla flödet till den angivna enheten. Avrunda inte.</p><p>1,2 m³/s till liter/min</p>",
+        "t": "<p>Omvandla 1,2 m³/s till liter/min.</p>",
         "s": "<p>1,2 m³ är 1200 liter varje sekund. På en minut blir det 1200 · 60 = 72 000 liter: 72 000 l/min.</p>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
@@ -6324,7 +6324,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla flödet till den angivna enheten. Avrunda inte.</p><p>18 ton/h till kg/s</p>",
+        "t": "<p>Omvandla 18 ton/h till kg/s.</p>",
         "s": "<p>18 ton är 18 000 kg och en timme är 3600 s. Flödet blir 18 000/3600 = 5 kg/s.</p>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
@@ -6334,7 +6334,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla flödet till den angivna enheten. Avrunda inte.</p><p>250 ml/s till liter/h</p>",
+        "t": "<p>Omvandla 250 ml/s till liter/h.</p>",
         "s": "<p>250 ml är 0,250 liter. Under en timme passerar 0,250 · 3600 = 900 liter: 900 l/h.</p>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
@@ -6344,7 +6344,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla flödet till den angivna enheten. Avrunda inte.</p><p>2,0 kg/s till ton/dygn</p>",
+        "t": "<p>Omvandla 2,0 kg/s till ton/dygn.</p>",
         "s": "<p>På ett dygn passerar 2,0 · 86 400 = 172 800 kg = 172,8 ton. Flödet är 172,8 ton/dygn.</p>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
@@ -6492,7 +6492,7 @@ window.BANK = [
     "niva": "E",
     "typ": "undersöka hur area och volym ändras när längdmåtten skalas om, ur text, sökt area och volym",
     "poang": "(5/0/0)",
-    "t": "<p>En kub har sidan 3,0 cm. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Bestäm arean av en sidoyta i m².</div><div>b) Bestäm kubens volym i m³.</div><div>c) Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar sidoytans area?</div><div>d) Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar volymen?</div><div>e) En likformig modell har en tiondel av kubens sidlängd. Bestäm kvoten mellan kubens och modellens volym.</div></div>",
+    "t": "<p>En kub har sidan 3,0 cm.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Bestäm arean av en sidoyta i m².</div><div>b) Bestäm kubens volym i m³.</div><div>c) Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar sidoytans area?</div><div>d) Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar volymen?</div><div>e) En likformig modell har en tiondel av kubens sidlängd. Bestäm kvoten mellan kubens och modellens volym.</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) Sidan är 0,030 m. Arean blir 0,030² = 0,0009 m².</p><p>b) Sidan är 0,030 m. Volymen blir 0,030³ = 0,000027 m³.</p><p>c) Sidan fördubblas. En area innehåller två längdfaktorer, så arean multipliceras med 2² = 4.</p><p>d) Sidan fördubblas. En volym innehåller tre längdfaktorer, så volymen multipliceras med 2³ = 8.</p><p>e) Modellens volym är (1/10)³ = 1/1000 av kubens. Kvoten kubens volym / modellens volym är därför 1000.</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
@@ -6540,7 +6540,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En kub har sidan 3,0 cm. Avrunda inte.</p><p>Bestäm arean av en sidoyta i m².</p>",
+        "t": "<p>En kub har sidan 3,0 cm.</p><p>Bestäm arean av en sidoyta i m².</p>",
         "s": "<p>Sidan är 0,030 m. Arean blir 0,030² = 0,0009 m².</p>",
         "ledtrad": "<p>Hur många meter är sidlängden?</p>",
         "niva": "E",
@@ -6550,7 +6550,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>En kub har sidan 3,0 cm. Avrunda inte.</p><p>Bestäm kubens volym i m³.</p>",
+        "t": "<p>En kub har sidan 3,0 cm.</p><p>Bestäm kubens volym i m³.</p>",
         "s": "<p>Sidan är 0,030 m. Volymen blir 0,030³ = 0,000027 m³.</p>",
         "ledtrad": "<p>Vilken enhet behöver sidan ha före kuberingen?</p>",
         "niva": "E",
@@ -6560,7 +6560,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>En kub har sidan 3,0 cm. Avrunda inte.</p><p>Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar sidoytans area?</p>",
+        "t": "<p>En kub har sidan 3,0 cm.</p><p>Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar sidoytans area?</p>",
         "s": "<p>Sidan fördubblas. En area innehåller två längdfaktorer, så arean multipliceras med 2² = 4.</p>",
         "ledtrad": "<p>Hur många längdfaktorer finns i en area?</p>",
         "niva": "E",
@@ -6570,7 +6570,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>En kub har sidan 3,0 cm. Avrunda inte.</p><p>Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar volymen?</p>",
+        "t": "<p>En kub har sidan 3,0 cm.</p><p>Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar volymen?</p>",
         "s": "<p>Sidan fördubblas. En volym innehåller tre längdfaktorer, så volymen multipliceras med 2³ = 8.</p>",
         "ledtrad": "<p>Hur många längdfaktorer finns i en volym?</p>",
         "niva": "E",
@@ -6580,7 +6580,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>En kub har sidan 3,0 cm. Avrunda inte.</p><p>En likformig modell har en tiondel av kubens sidlängd. Bestäm kvoten mellan kubens och modellens volym.</p>",
+        "t": "<p>En kub har sidan 3,0 cm.</p><p>En likformig modell har en tiondel av kubens sidlängd. Bestäm kvoten mellan kubens och modellens volym.</p>",
         "s": "<p>Modellens volym är (1/10)³ = 1/1000 av kubens. Kvoten kubens volym / modellens volym är därför 1000.</p>",
         "ledtrad": "<p>Tänk på att alla tre dimensioner minskar i modellen.</p>",
         "niva": "E",
@@ -6633,7 +6633,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla volymer till kubikmeter, ur text, sökt volym",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla volymen till kubikmeter. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 cm³</div><div>b) 3,5 dm³</div><div>c) 12 liter</div><div>d) 800 mm³</div><div>e) 250 ml</div><div>f) 4,0 hektoliter</div></div>",
+    "t": "<p>Omvandla volymen till kubikmeter.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 cm³</div><div>b) 3,5 dm³</div><div>c) 12 liter</div><div>d) 800 mm³</div><div>e) 250 ml</div><div>f) 4,0 hektoliter</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 1 cm³ = (0,01 m)³ = 10⁻⁶ m³. Därför är 250 cm³ = 0,000250 m³.</p><p>b) 1 dm³ = (0,1 m)³ = 0,001 m³. Därför är 3,5 dm³ = 0,0035 m³.</p><p>c) En liter är 0,001 m³, så 12 liter = 0,012 m³.</p><p>d) 1 mm³ = (0,001 m)³ = 10⁻⁹ m³. Därför är 800 mm³ = 8 · 10⁻⁷ m³.</p><p>e) 250 ml = 0,250 liter = 0,000250 m³.</p><p>f) Hekto betyder hundra: 4,0 hl = 400 liter = 0,40 m³.</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
@@ -6683,7 +6683,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla volymen till kubikmeter. Avrunda inte.</p><p>250 cm³</p>",
+        "t": "<p>Omvandla 250 cm³ till kubikmeter.</p>",
         "s": "<p>1 cm³ = (0,01 m)³ = 10⁻⁶ m³. Därför är 250 cm³ = 0,000250 m³.</p>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
@@ -6693,7 +6693,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla volymen till kubikmeter. Avrunda inte.</p><p>3,5 dm³</p>",
+        "t": "<p>Omvandla 3,5 dm³ till kubikmeter.</p>",
         "s": "<p>1 dm³ = (0,1 m)³ = 0,001 m³. Därför är 3,5 dm³ = 0,0035 m³.</p>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
@@ -6703,7 +6703,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla volymen till kubikmeter. Avrunda inte.</p><p>12 liter</p>",
+        "t": "<p>Omvandla 12 liter till kubikmeter.</p>",
         "s": "<p>En liter är 0,001 m³, så 12 liter = 0,012 m³.</p>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
@@ -6713,7 +6713,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla volymen till kubikmeter. Avrunda inte.</p><p>800 mm³</p>",
+        "t": "<p>Omvandla 800 mm³ till kubikmeter.</p>",
         "s": "<p>1 mm³ = (0,001 m)³ = 10⁻⁹ m³. Därför är 800 mm³ = 8 · 10⁻⁷ m³.</p>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
@@ -6723,7 +6723,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla volymen till kubikmeter. Avrunda inte.</p><p>250 ml</p>",
+        "t": "<p>Omvandla 250 ml till kubikmeter.</p>",
         "s": "<p>250 ml = 0,250 liter = 0,000250 m³.</p>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
@@ -6733,7 +6733,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Omvandla volymen till kubikmeter. Avrunda inte.</p><p>4,0 hektoliter</p>",
+        "t": "<p>Omvandla 4,0 hektoliter till kubikmeter.</p>",
         "s": "<p>Hekto betyder hundra: 4,0 hl = 400 liter = 0,40 m³.</p>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
@@ -6816,7 +6816,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla massor till kilogram, ur text, sökt massa",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla massan till kilogram. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 g</div><div>b) 45 mg</div><div>c) 2,4 ton</div><div>d) 780 hg</div><div>e) 0,60 µg</div><div>f) 12 000 g</div></div>",
+    "t": "<p>Omvandla massan till kilogram.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 g</div><div>b) 45 mg</div><div>c) 2,4 ton</div><div>d) 780 hg</div><div>e) 0,60 µg</div><div>f) 12 000 g</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 250 g / 1000 = 0,250 kg.</p><p>b) 45 mg = 0,045 g = 0,000045 kg.</p><p>c) Ett ton är 1000 kg: 2,4 ton = 2400 kg.</p><p>d) Ett hekto är 0,1 kg: 780 hg = 78 kg.</p><p>e) 0,60 µg = 0,60 · 10⁻⁶ g = 0,60 · 10⁻⁹ kg = 6,0 · 10⁻¹⁰ kg.</p><p>f) 12 000 g / 1000 = 12 kg.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -6867,7 +6867,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Omvandla massan till kilogram. Avrunda inte.</p><p>250 g</p>",
+        "t": "<p>Omvandla 250 g till kilogram.</p>",
         "s": "<p>250 g / 1000 = 0,250 kg.</p>",
         "ledtrad": "<p>Hur många gram går på ett kilogram?</p>",
         "niva": "E",
@@ -6877,7 +6877,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Omvandla massan till kilogram. Avrunda inte.</p><p>45 mg</p>",
+        "t": "<p>Omvandla 45 mg till kilogram.</p>",
         "s": "<p>45 mg = 0,045 g = 0,000045 kg.</p>",
         "ledtrad": "<p>Omvandla först milligram till gram.</p>",
         "niva": "E",
@@ -6887,7 +6887,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Omvandla massan till kilogram. Avrunda inte.</p><p>2,4 ton</p>",
+        "t": "<p>Omvandla 2,4 ton till kilogram.</p>",
         "s": "<p>Ett ton är 1000 kg: 2,4 ton = 2400 kg.</p>",
         "ledtrad": "<p>Hur många kilogram går på ett ton?</p>",
         "niva": "E",
@@ -6897,7 +6897,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Omvandla massan till kilogram. Avrunda inte.</p><p>780 hg</p>",
+        "t": "<p>Omvandla 780 hg till kilogram.</p>",
         "s": "<p>Ett hekto är 0,1 kg: 780 hg = 78 kg.</p>",
         "ledtrad": "<p>Hur många hekto går på ett kilogram?</p>",
         "niva": "E",
@@ -6907,7 +6907,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Omvandla massan till kilogram. Avrunda inte.</p><p>0,60 µg</p>",
+        "t": "<p>Omvandla 0,60 µg till kilogram.</p>",
         "s": "<p>0,60 µg = 0,60 · 10⁻⁶ g = 0,60 · 10⁻⁹ kg = 6,0 · 10⁻¹⁰ kg.</p>",
         "ledtrad": "<p>Omvandla först mikrogram till gram.</p>",
         "niva": "E",
@@ -6917,7 +6917,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Omvandla massan till kilogram. Avrunda inte.</p><p>12 000 g</p>",
+        "t": "<p>Omvandla 12 000 g till kilogram.</p>",
         "s": "<p>12 000 g / 1000 = 12 kg.</p>",
         "ledtrad": "<p>Hur många gram går på ett kilogram?</p>",
         "niva": "E",

@@ -3284,7 +3284,7 @@ async function loggaUt(){
   stangKunskap();
   arLarare=false; arAdmin=false; felOppnaAntal=null; provLista=null;
   larData={grupper:null,elever:{}}; state.larGrupp=null; state.larElev=null;
-  larProfil=null; arGruppLarare=false; larProfilHamtad=false;
+  larProfil=null; arGruppLarare=false; larProfilHamtad=false; minSkola=undefined;
   try{ localStorage.removeItem(GRUPPLARARE_KEY); }catch(_){}
   clearInterval(kgHeartbeatTimer); kgHeartbeatTimer=null;
   try{ localStorage.removeItem(LARARE_KEY); }catch(_){}
@@ -5351,7 +5351,8 @@ function kontoMeny(ev){
       <button class="btn sm wide" onclick="oppnaMinaGrupper()">Mina lärares grupper</button>
       <button class="btn sm wide" onclick="oppnaHittaLarare()" style="margin-top:6px">Hitta min lärare</button>
       <button class="btn sm wide" onclick="oppnaProvkod()" style="margin-top:6px">Gå med med kod</button>
-      ${arNagonLarare()?"":`<button class="btn sm wide quiet" onclick="oppnaLararprofil()" style="margin-top:6px">Jag är lärare</button>`}
+      ${arNagonLarare()?"":`<button class="btn sm wide" onclick="oppnaMinSkola()" style="margin-top:6px">Min skola</button>
+      <button class="btn sm wide quiet" onclick="oppnaLararprofil()" style="margin-top:6px">Jag är lärare</button>`}
     </div>
 
     <button class="btn sm wide" onclick="loggaUt()">Logga ut</button>`;
@@ -5506,6 +5507,7 @@ function kgAdminRita(){
       <button class="${kgAdminFlik==="rapporter"?"pa":""}" onclick="kgAdminBytFlik('rapporter')">Felrapporter</button>
       <button class="${kgAdminFlik==="klasser"?"pa":""}" onclick="kgAdminBytFlik('klasser')">Klasser</button>
       <button class="${kgAdminFlik==="larare"?"pa":""}" onclick="kgAdminBytFlik('larare')">Lärare</button>
+      <button class="${kgAdminFlik==="skolor"?"pa":""}" onclick="kgAdminBytFlik('skolor')">Skolor</button>
     </div>
     <div id="adminlista"></div>
     <div class="admin-notis">Online nu betyder heartbeat under de senaste två minuterna. Dagsstatistik använder svensk kalenderdag. Aktiv tid är en uppskattning från synliga heartbeat-signaler och räknas därför inte som exakt skärmtid.${har?"":" Kör SQL-filen för adminstatistik v8 för att börja samla dagsstatistik."}</div>`;
@@ -5594,6 +5596,7 @@ function kgAdminRitaLista(){
   if(kgAdminFlik==="detalj"){ kgAdminRitaDetalj(host); return; }
   if(kgAdminFlik==="klasser"){ kgAdminRitaKlasser(host); return; }
   if(kgAdminFlik==="larare"){ kgAdminRitaLarare(host); return; }
+  if(kgAdminFlik==="skolor"){ kgAdminRitaSkolor(host); return; }
   if(kgAdminFlik==="anvandare"){
     const gammal=document.getElementById("admin-sok")?.value||"";
     const q=gammal.trim().toLowerCase();
@@ -12078,7 +12081,7 @@ window.addEventListener("load",async()=>{
     if(lararklass?.flyttad) state.minKlass=undefined;
     hamtaToppMedaljer();
     provAnslutVantande();
-    setTimeout(async()=>{ if(!(await visaRollval())) visaNyhetKlasser(); },nyInloggning?1200:600);
+    setTimeout(async()=>{ if(await visaRollval() || await visaSkolfraga()) return; visaNyhetKlasser(); },nyInloggning?1200:600);
   }
 
   /* Lärarknappen visas direkt från cachen och verifieras sedan mot databasen. */
@@ -13288,14 +13291,7 @@ async function oppnaLararprofil(franRollval){
   larSkolForslag(skola);
 }
 let larSkolTimer=null;
-function larSkolForslag(sok){
-  clearTimeout(larSkolTimer);
-  larSkolTimer=setTimeout(async()=>{
-    const r=await klassRpc("kg_skolor",{p_sok:String(sok||"").trim()});
-    const dl=document.getElementById("larprofil-skolor"); if(!dl || !Array.isArray(r)) return;
-    dl.innerHTML=r.map(s=>`<option value="${esc(s.namn)}">${Number(s.larare)||0} lärare</option>`).join("");
-  },250);
-}
+function larSkolForslag(sok){ skolForslag(sok,"larprofil-skolor"); }
 async function sparaLararprofil(franRollval){
   const namn=(document.getElementById("larprofil-namn")?.value||"").trim();
   const skola=(document.getElementById("larprofil-skola")?.value||"").trim();
@@ -13371,7 +13367,10 @@ async function oppnaHittaLarare(){
   el.addEventListener("click",e=>{ if(e.target===el) stangModal("hittalarare"); });
   requestAnimationFrame(()=>el.classList.add("visa"));
   setTimeout(()=>document.getElementById("hitta-sok")?.focus(),80);
-  hittaSokSkola("");
+  if(minSkola===undefined && !larProfil) await hamtaMinSkola();
+  const egen=larProfil?.skola || (minSkola && Number(minSkola.larare)>0 ? minSkola : null);
+  if(egen) hittaVisaSkola(Number(egen.id),null,egen.namn);
+  else hittaSokSkola("");
 }
 let hittaTimer=null;
 function hittaSokSkola(sok){
@@ -13386,8 +13385,8 @@ function hittaSokSkola(sok){
       :`<div class="empty">${sok?"Ingen skola matchar sökningen.":"Inga skolor har lärare i Kunskapsgymmet än."} Fråga din lärare om en kod.</div>`;
   },250);
 }
-async function hittaVisaSkola(id,knapp){
-  const skola=knapp?.querySelector("b")?.textContent||"";
+async function hittaVisaSkola(id,knapp,namn){
+  const skola=namn||knapp?.querySelector("b")?.textContent||"";
   const box=document.getElementById("hitta-lista"); if(!box) return;
   box.innerHTML=`<div class="empty">Hämtar lärare …</div>`;
   const r=await klassRpc("kg_skola_larare",{p_skola:id});
@@ -13454,6 +13453,153 @@ function provEjGjorda(pool){
 async function provRedigera(id){
   const p=provLararLista.find(x=>Number(x.id)===Number(id)); if(!p) return;
   await provSkapaStart({redigera:p});
+}
+/* ── Elevens skola (frivillig) ──
+   Används för att visa skolans lärare först under Hitta min lärare och för
+   admins skolstatistik. Skolan syns inte för andra elever eller lärare.
+   Databasdelen finns i sql/2026-10-05-elevskola.sql. */
+let minSkola;   // undefined = inte hämtad, null = ingen skola, false = saknas i databasen
+async function hamtaMinSkola(){
+  if(!MOLN_PA() || !session){ minSkola=undefined; return null; }
+  const r=await klassRpc("kg_min_skola");
+  if(r?.saknas){ minSkola=false; return null; }
+  if(r?.ok) minSkola=r.skola||null;
+  return r;
+}
+
+/* Frågan visas en gång per konto, för elever som inte har valt skola. */
+async function visaSkolfraga(){
+  if(!MOLN_PA() || !session || profile.nyheter?.skola) return false;
+  if(!larProfilHamtad) await hamtaLarprofil();
+  if(arNagonLarare() || larProfil) return false;
+  await hamtaMinSkola();
+  if(minSkola===false || minSkola===undefined) return false;
+  profile.nyheter={...(profile.nyheter||{}),skola:Date.now()};
+  saveProfile();
+  if(minSkola) return false;
+  setTimeout(()=>oppnaMinSkola(true),document.querySelector(".modal")?280:0);
+  return true;
+}
+
+async function oppnaMinSkola(franFraga){
+  document.getElementById("kontomeny")?.remove();
+  if(!session){ loggaIn(); return; }
+  if(minSkola===undefined) await hamtaMinSkola();
+  if(minSkola===false){ toast("Skolval är inte aktiverat än."); return; }
+  document.getElementById("minskola")?.remove();
+  const nu=minSkola?.namn||"";
+  const el=document.createElement("div");
+  el.className="modal"; el.id="minskola";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-labelledby="minskola-rubrik" style="width:min(460px,100%)">
+      <div class="modal-topp"><div><div class="lbl">Frivilligt</div><h2 id="minskola-rubrik">Vilken skola går du på?</h2></div>
+        <button class="iconbtn" onclick="stangModal('minskola')" aria-label="Stäng">✕</button></div>
+      <p class="modal-text">Då ser du din skolas lärare först när du letar efter din lärare. Skolan visas inte för andra elever eller lärare.</p>
+      <div class="provform">
+        <label class="provfalt"><span>Skola</span>
+          <input class="admin-sok" id="minskola-namn" maxlength="80" list="minskola-skolor" autocomplete="off"
+            placeholder="Sök eller skriv din skola" value="${esc(nu)}" oninput="skolForslag(this.value,'minskola-skolor')">
+          <datalist id="minskola-skolor"></datalist></label>
+        <p class="menytext">Välj skolan i listan om den finns. Annars skriver du hela namnet.</p>
+      </div>
+      <div class="kodhjalp" id="minskola-hjalp"></div>
+      <div class="modal-fot">
+        ${nu?`<button class="btn quiet" onclick="sparaMinSkola('')">Ta bort</button>`:""}
+        <span class="spacer"></span>
+        ${franFraga
+          ? `<button class="btn" onclick="stangModal('minskola');toast('Du kan välja skola senare under Min skola i kontomenyn.')">Hoppa över</button>`
+          : `<button class="btn" onclick="stangModal('minskola')">Avbryt</button>`}
+        <button class="btn primary" onclick="sparaMinSkola()">Spara</button></div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangModal("minskola"); });
+  el.querySelector("#minskola-namn").addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); sparaMinSkola(); } });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  setTimeout(()=>document.getElementById("minskola-namn")?.focus(),80);
+  skolForslag(nu,"minskola-skolor");
+}
+async function sparaMinSkola(namn){
+  const varde=namn!==undefined?namn:(document.getElementById("minskola-namn")?.value||"").trim();
+  const h=document.getElementById("minskola-hjalp");
+  const fel=t=>{ if(h){ h.textContent=t; h.className="kodhjalp fel"; } };
+  if(namn===undefined && varde.length<2) return fel("Skriv namnet på din skola.");
+  const r=await klassRpc("kg_satt_skola",{p_skola:varde});
+  if(r?.saknas) return fel("Skolval är inte aktiverat i databasen än.");
+  if(!r?.ok) return fel(r?.code==="skola"?"Skolans namn ska vara 2–80 tecken.":"Kunde inte spara skolan.");
+  minSkola=r.skola||null;
+  stangModal("minskola");
+  if(!minSkola){ toast("Skolan är borttagen."); return; }
+  const n=Number(minSkola.larare)||0;
+  toast(n?`Sparat. ${n===1?"En lärare":n+" lärare"} på ${minSkola.namn} finns här. Du hittar dem under Hitta min lärare.`:"Skolan är sparad.");
+}
+
+/* Förslag på skolor i en datalist. Alla skolor, även de utan lärare. */
+let skolForslagTimer=null;
+function skolForslag(sok,listId){
+  clearTimeout(skolForslagTimer);
+  skolForslagTimer=setTimeout(async()=>{
+    const p={p_sok:String(sok||"").trim()};
+    let r=await klassRpc("kg_skola_sok",p);
+    if(r?.saknas) r=await klassRpc("kg_skolor",p);
+    const dl=document.getElementById(listId); if(!dl || !Array.isArray(r)) return;
+    dl.innerHTML=r.map(s=>{ const n=Number(s.larare)||0;
+      return `<option value="${esc(s.namn)}">${n?n+" lärare":""}</option>`; }).join("");
+  },250);
+}
+
+/* ── Admin: skolor ── */
+let kgAdminSkolLista=[];
+async function kgAdminRitaSkolor(host){
+  host.innerHTML='<p class="modal-text">Hämtar skolor…</p>';
+  const r=await klassRpc("kg_admin_skolor");
+  if(r?.saknas){ host.innerHTML='<p class="modal-text">Skolstatistiken är inte aktiverad. Kör sql/2026-10-05-elevskola.sql i Supabase.</p>'; return; }
+  if(!r?.ok){ host.innerHTML='<p class="modal-text">Kunde inte hämta skolorna.</p>'; return; }
+  kgAdminSkolLista=r.skolor||[];
+  const n=v=>Number(v)||0;
+  const sum=k=>kgAdminSkolLista.reduce((a,s)=>a+n(s[k]),0);
+  host.innerHTML=`<p class="modal-text">${kgAdminSkolLista.length} skolor · ${sum("larare")} lärare · ${sum("elever")} elever med skola ·
+      ${n(r.utan_skola)} konton utan skola. Aktiva och uppgifter gäller de senaste 7 dagarna, för elever som valt skolan.</p>
+    ${kgAdminSkolLista.length?kgAdminSkolLista.map(s=>`<div class="aklass-elev"><span><b>${esc(s.namn)}</b>
+        <small>${n(s.larare)} lärare · ${n(s.elever)} elever · ${n(s.aktiva)} aktiva · ${n(s.uppgifter)} uppgifter · ${n(s.grupper)} grupper</small></span>
+        <select onchange="kgAdminSkolaAtgard(${n(s.id)},this)" aria-label="Åtgärd för ${esc(s.namn)}">
+          <option value="">Åtgärd …</option><option value="namn">Byt namn</option>
+          <option value="ihop">Slå ihop med …</option><option value="bort">Ta bort</option></select></div>`).join("")
+      :'<p class="modal-text">Inga skolor än.</p>'}`;
+}
+async function kgAdminSkolaAtgard(id,sel){
+  const val=sel.value; sel.value="";
+  const s=kgAdminSkolLista.find(x=>Number(x.id)===id); if(!s) return;
+  const host=document.getElementById("adminlista");
+  if(val==="namn"){
+    const namn=prompt("Nytt namn på skolan:",s.namn);
+    if(namn===null || namn.trim()===s.namn) return;
+    const r=await klassRpc("kg_admin_skola_namn",{p_skola:id,p_namn:namn});
+    if(!r?.ok){ toast(r?.code==="finns"?"Det finns redan en skola med det namnet. Slå ihop dem i stället.":"Kunde inte byta namn."); return; }
+    toast("Skolan har bytt namn.");
+  }else if(val==="ihop"){
+    const andra=kgAdminSkolLista.filter(x=>Number(x.id)!==id);
+    if(!andra.length){ toast("Det finns ingen annan skola att slå ihop med."); return; }
+    sel.outerHTML=`<select onchange="kgAdminSlaIhop(${id},Number(this.value))" aria-label="Slå ihop ${esc(s.namn)} med">
+        <option value="">Slå ihop med …</option>${andra.map(x=>`<option value="${Number(x.id)}">${esc(x.namn)}</option>`).join("")}</select>`;
+    return;
+  }else if(val==="bort"){
+    const ok=await larBekrafta("Ta bort skolan?",`${s.namn} tas bort. Lärarna på skolan blir utan skola och elevernas skolval försvinner.`,"Ta bort",true);
+    if(!ok) return;
+    const r=await klassRpc("kg_admin_skola_ta_bort",{p_skola:id});
+    if(!r?.ok){ toast("Kunde inte ta bort skolan."); return; }
+    toast("Skolan är borttagen.");
+  }else return;
+  if(host) kgAdminRitaSkolor(host);
+}
+async function kgAdminSlaIhop(fran,till){
+  const host=document.getElementById("adminlista");
+  const a=kgAdminSkolLista.find(x=>Number(x.id)===fran), b=kgAdminSkolLista.find(x=>Number(x.id)===till);
+  if(!a || !b){ if(host) kgAdminRitaSkolor(host); return; }
+  const ok=await larBekrafta("Slå ihop skolorna?",`Lärare och elever på ${a.namn} flyttas till ${b.namn}, och ${a.namn} tas bort.`,"Slå ihop",true);
+  if(ok){
+    const r=await klassRpc("kg_admin_skola_sla_ihop",{p_fran:fran,p_till:till});
+    toast(r?.ok?"Skolorna är ihopslagna.":"Kunde inte slå ihop skolorna.");
+  }
+  if(host) kgAdminRitaSkolor(host);
 }
 </script>
 </body>

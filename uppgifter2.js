@@ -32145,6 +32145,1326 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "A",
+    "typ": "tre lasrar genom samma gitter",
+    "poang": "(3/5/1)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Laserljus skickas genom ett gitter mot en skärm 2,0 m bort.</p><ol type=\"a\"><li>En laser med våglängden 660 nm ger 156 cm mellan de båda första ordningens maximum. Beräkna gitterkonstanten.</li><li>Hur många maximum kan man se totalt med den första lasern (660 nm)?</li><li>En annan laser ger 123 cm mellan de båda första ordningens maximum. Vilken våglängd har den?</li><li>Hur långt är det mellan de båda andra ordningens maximum för den andra lasern?</li><li>För en tredje laser är vinkeln till tredje ordningens maximum 42°. Vilken våglängd har lasern?</li><li>Hur långt är det mellan de yttersta maximumen på ömse sidor om centralmaximum för den tredje lasern?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\tan\\alpha_1=\\dfrac{0{,}78}{2{,}0}\\iff\\alpha_1\\approx21{,}3^\\circ\\). \\(d=\\dfrac{660\\cdot10^{-9}}{\\sin21{,}3^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}82\\) µm</p></li><li><p>\\(n\\le\\dfrac{d}{\\lambda}=\\dfrac{1{,}82}{0{,}660}\\approx2{,}8\\), så \\(n=0,\\pm1,\\pm2\\).</p><p><strong>Svar:</strong> 5 st</p><p><strong>Svar:</strong> 5 st</p></li><li><p>\\(\\tan\\alpha_1=\\dfrac{0{,}615}{2{,}0}\\iff\\alpha_1\\approx17{,}1^\\circ\\). \\(\\lambda=1{,}82\\cdot10^{-6}\\sin17{,}1^\\circ\\). Ljuset är grönt.</p><p><strong>Svar:</strong> \\(535\\) nm</p></li><li><p>\\(\\sin\\alpha_2=\\dfrac{2\\cdot535\\cdot10^{-9}}{1{,}82\\cdot10^{-6}}\\iff\\alpha_2\\approx36{,}0^\\circ\\). \\(y=2{,}0\\tan36{,}0^\\circ\\approx1{,}45\\) m. Avståndet: \\(2y\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) m</p></li><li><p>\\(\\lambda=\\dfrac{1{,}82\\cdot10^{-6}\\sin42^\\circ}{3}\\). Ljuset är violett.</p><p><strong>Svar:</strong> \\(406\\) nm</p></li><li><p>\\(\\dfrac{d}{\\lambda}=\\dfrac{1\\,820}{405}\\approx4{,}5\\), så högsta ordningen är 4. \\(\\sin\\alpha_4=\\dfrac{4\\cdot405}{1\\,820}\\iff\\alpha_4\\approx63{,}2^\\circ\\).</p><p>\\(y=2{,}0\\tan63{,}2^\\circ\\approx3{,}95\\) m. Avståndet: \\(2y\\).</p><p><strong>Svar:</strong> \\(7{,}8\\) m</p></li></ol>",
+    "id": "4.417",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.8164540526651884,
+      5,
+      534.9306291454368,
+      2.907128414272469,
+      405.939234524374,
+      7.812333719160673
+    ],
+    "tolerans": [
+      0.0272,
+      0,
+      8.02,
+      0.051,
+      6.09,
+      0.117
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "svarEnhet": [
+      "µm",
+      null,
+      "nm",
+      "m",
+      "nm",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Laserljus skickas genom ett gitter mot en skärm 2,0 m bort.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En laser med våglängden 660 nm ger 156 cm mellan de båda första ordningens maximum. Beräkna gitterkonstanten.",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Laserljus skickas genom ett gitter mot en skärm 2,0 m bort.</p><p>En laser med våglängden 660 nm ger 156 cm mellan de båda första ordningens maximum. Beräkna gitterkonstanten.</p>",
+        "s": "<p>\\(\\tan\\alpha_1=\\dfrac{0{,}78}{2{,}0}\\iff\\alpha_1\\approx21{,}3^\\circ\\). \\(d=\\dfrac{660\\cdot10^{-9}}{\\sin21{,}3^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}82\\) µm</p>",
+        "ledtrad": "<p>Avståndet från centralmaximum är halva sträckan.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många maximum kan man se totalt med den första lasern (660 nm)?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Laserljus skickas genom ett gitter mot en skärm 2,0 m bort.</p>Gitterkonstanten är 1,82 µm.<p>Hur många maximum kan man se totalt med den första lasern (660 nm)?</p>",
+        "s": "<p>\\(n\\le\\dfrac{d}{\\lambda}=\\dfrac{1{,}82}{0{,}660}\\approx2{,}8\\), så \\(n=0,\\pm1,\\pm2\\).</p><p><strong>Svar:</strong> 5 st</p><p><strong>Svar:</strong> 5 st</p>",
+        "ledtrad": "<p>\\(\\sin\\alpha\\) kan inte bli större än 1.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "En annan laser ger 123 cm mellan de båda första ordningens maximum. Vilken våglängd har den?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Laserljus skickas genom ett gitter mot en skärm 2,0 m bort.</p>Gitterkonstanten är 1,82 µm.<p>En annan laser ger 123 cm mellan de båda första ordningens maximum. Vilken våglängd har den?</p>",
+        "s": "<p>\\(\\tan\\alpha_1=\\dfrac{0{,}615}{2{,}0}\\iff\\alpha_1\\approx17{,}1^\\circ\\). \\(\\lambda=1{,}82\\cdot10^{-6}\\sin17{,}1^\\circ\\). Ljuset är grönt.</p><p><strong>Svar:</strong> \\(535\\) nm</p>",
+        "ledtrad": "<p>Bestäm vinkeln först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur långt är det mellan de båda andra ordningens maximum för den andra lasern?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Laserljus skickas genom ett gitter mot en skärm 2,0 m bort.</p>Gitterkonstanten är 1,82 µm och lasern har våglängden 535 nm.<p>Hur långt är det mellan de båda andra ordningens maximum för den andra lasern?</p>",
+        "s": "<p>\\(\\sin\\alpha_2=\\dfrac{2\\cdot535\\cdot10^{-9}}{1{,}82\\cdot10^{-6}}\\iff\\alpha_2\\approx36{,}0^\\circ\\). \\(y=2{,}0\\tan36{,}0^\\circ\\approx1{,}45\\) m. Avståndet: \\(2y\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) m</p>",
+        "ledtrad": "<p>Vinkeln är inte liten, så \\(\\sin\\alpha\\ne\\tan\\alpha\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "e",
+        "fraga": "För en tredje laser är vinkeln till tredje ordningens maximum 42°. Vilken våglängd har lasern?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Laserljus skickas genom ett gitter mot en skärm 2,0 m bort.</p>Gitterkonstanten är 1,82 µm.<p>För en tredje laser är vinkeln till tredje ordningens maximum 42°. Vilken våglängd har lasern?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{1{,}82\\cdot10^{-6}\\sin42^\\circ}{3}\\). Ljuset är violett.</p><p><strong>Svar:</strong> \\(406\\) nm</p>",
+        "ledtrad": "<p>\\(n=3\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "f",
+        "fraga": "Hur långt är det mellan de yttersta maximumen på ömse sidor om centralmaximum för den tredje lasern?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Laserljus skickas genom ett gitter mot en skärm 2,0 m bort.</p>Gitterkonstanten är 1,82 µm och lasern har våglängden 405 nm.<p>Hur långt är det mellan de yttersta maximumen på ömse sidor om centralmaximum för den tredje lasern?</p>",
+        "s": "<p>\\(\\dfrac{d}{\\lambda}=\\dfrac{1\\,820}{405}\\approx4{,}5\\), så högsta ordningen är 4. \\(\\sin\\alpha_4=\\dfrac{4\\cdot405}{1\\,820}\\iff\\alpha_4\\approx63{,}2^\\circ\\).</p><p>\\(y=2{,}0\\tan63{,}2^\\circ\\approx3{,}95\\) m. Avståndet: \\(2y\\).</p><p><strong>Svar:</strong> \\(7{,}8\\) m</p>",
+        "ledtrad": "<p>Bestäm först den högsta ordningen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Rita en figur med gitter, skärm och vinkeln till maximumet.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "våglängd ur dubbelspalt",
+    "poang": "(1/0/0)",
+    "t": "<p>Ljus går genom en dubbelspalt med spaltavståndet 0,500 mm. På en skärm 3,30 m bort är avståndet mellan centralmaximum och första ordningens maximum 3,40 mm. Bestäm ljusets våglängd.</p>",
+    "s": "<p>Små vinklar: \\(\\lambda=\\dfrac{d\\,y}{L}=\\dfrac{0{,}500\\cdot10^{-3}\\cdot3{,}40\\cdot10^{-3}}{3{,}30}\\).</p><p><strong>Svar:</strong> \\(515\\) nm</p>",
+    "id": "4.418",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Interferens i dubbelspalt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 515.1515151515151,
+    "tolerans": 7.73,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>För små vinklar är \\(\\sin\\alpha\\approx\\tan\\alpha=\\dfrac yL\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "nm",
+    "familjNyckel": "vagrorelselara__interferens_i_dubbelspalt"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "spaltavstånd ur tionde maximum",
+    "poang": "(1/0/0)",
+    "t": "<p>Natriumljus med våglängden 589 nm går genom en dubbelspalt. På en skärm 2,00 m bort är avståndet mellan centralmaximum och tionde ordningens maximum 7,26 mm. Bestäm spaltavståndet.</p>",
+    "s": "<p>\\(d=\\dfrac{10\\lambda L}{y}=\\dfrac{10\\cdot589\\cdot10^{-9}\\cdot2{,}00}{7{,}26\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(1{,}62\\) mm</p>",
+    "id": "4.419",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Interferens i dubbelspalt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.6225895316804406,
+    "tolerans": 0.0243,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(d\\sin\\alpha=n\\lambda\\) med \\(\\sin\\alpha\\approx\\dfrac yL\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "mm",
+    "familjNyckel": "vagrorelselara__interferens_i_dubbelspalt"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "våglängd för argonlaser",
+    "poang": "(1/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>En argonlaser lyser på ett gitter med 5 310 ritsor per centimeter. På en skärm 1,72 m bort är avståndet mellan centralmaximum och första ordningens maximum 0,488 m. Bestäm våglängden.</p>",
+    "s": "<p>\\(d=\\dfrac{0{,}01}{5\\,310}\\) m. \\(\\tan\\alpha=\\dfrac{0{,}488}{1{,}72}\\iff\\alpha\\approx15{,}8^\\circ\\). \\(\\lambda=d\\sin\\alpha\\).</p><p><strong>Svar:</strong> \\(514\\) nm</p>",
+    "id": "4.420",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 514.0258471632249,
+    "tolerans": 7.71,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm gitterkonstanten och vinkeln.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "nm",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "vinkel mellan två spektrallinjer",
+    "poang": "(1/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Vätets spektrum har en röd linje (656 nm) och en blå linje (434 nm). Ljuset går genom ett gitter med 450 ritsor/mm. Bestäm vinkeln mellan den röda och den blå linjen i första ordningen.</p>",
+    "s": "<p>\\(d=\\dfrac{1}{450}\\) mm. Röd: \\(\\sin\\alpha=\\dfrac{656\\cdot10^{-9}}{d}\\iff\\alpha\\approx17{,}2^\\circ\\). Blå: \\(\\alpha\\approx11{,}3^\\circ\\).</p><p><strong>Svar:</strong> \\(5{,}91\\) °</p>",
+    "id": "4.421",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.907281345299179,
+    "tolerans": 0.0886,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna ut båda vinklarna.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "gitterkonstant ur vinkel",
+    "poang": "(1/0/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>En helium-neonlaser (632,8 nm) ger första ordningens maximum vid vinkeln 20,5°. Beräkna gitterkonstanten.</p>",
+    "s": "<p>\\(d=\\dfrac{632{,}8\\cdot10^{-9}}{\\sin20{,}5^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}81\\) µm</p>",
+    "id": "4.422",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.80692936203752,
+    "tolerans": 0.0271,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(n=1\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "µm",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "ritsor per mm och antal maximum",
+    "poang": "(1/2/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 500 nm ger tredje ordningens maximum vid vinkeln 32,0°.</p><ol type=\"a\"><li>Hur många ritsor per mm har gittret?</li><li>Hur många maximum kan man se totalt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(d=\\dfrac{3\\cdot500\\cdot10^{-9}}{\\sin32{,}0^\\circ}\\approx2{,}83\\cdot10^{-6}\\) m. Antal per mm: \\(\\dfrac{10^{-3}}{d}\\).</p><p><strong>Svar:</strong> \\(353\\) ritsor/mm</p></li><li><p>\\(n\\le\\dfrac{d}{\\lambda}=\\dfrac{2{,}83}{0{,}500}\\approx5{,}7\\), så \\(n=0,\\pm1,\\dots,\\pm5\\).</p><p><strong>Svar:</strong> 11 st</p><p><strong>Svar:</strong> 11 st</p></li></ol>",
+    "id": "4.423",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      353.2795094888033,
+      11
+    ],
+    "tolerans": [
+      5.3,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "ritsor/mm",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 500 nm ger tredje ordningens maximum vid vinkeln 32,0°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många ritsor per mm har gittret?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 500 nm ger tredje ordningens maximum vid vinkeln 32,0°.</p><p>Hur många ritsor per mm har gittret?</p>",
+        "s": "<p>\\(d=\\dfrac{3\\cdot500\\cdot10^{-9}}{\\sin32{,}0^\\circ}\\approx2{,}83\\cdot10^{-6}\\) m. Antal per mm: \\(\\dfrac{10^{-3}}{d}\\).</p><p><strong>Svar:</strong> \\(353\\) ritsor/mm</p>",
+        "ledtrad": "<p>Bestäm gitterkonstanten först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många maximum kan man se totalt?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 500 nm ger tredje ordningens maximum vid vinkeln 32,0°.</p>Gitterkonstanten är 2,83 µm.<p>Hur många maximum kan man se totalt?</p>",
+        "s": "<p>\\(n\\le\\dfrac{d}{\\lambda}=\\dfrac{2{,}83}{0{,}500}\\approx5{,}7\\), så \\(n=0,\\pm1,\\dots,\\pm5\\).</p><p><strong>Svar:</strong> 11 st</p><p><strong>Svar:</strong> 11 st</p>",
+        "ledtrad": "<p>\\(\\sin\\alpha\\le1\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(d\\sin\\alpha=n\\lambda\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "våglängd ur gitterbredd",
+    "poang": "(1/0/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett 1,50 cm brett gitter har 2 400 ritsor. Tredje ordningens maximum ligger vid vinkeln 18,0°. Beräkna ljusets våglängd.</p>",
+    "s": "<p>\\(d=\\dfrac{0{,}0150}{2\\,400}=6{,}25\\cdot10^{-6}\\) m. \\(\\lambda=\\dfrac{d\\sin18{,}0^\\circ}{3}\\).</p><p><strong>Svar:</strong> \\(644\\) nm</p>",
+    "id": "4.424",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 643.785404947807,
+    "tolerans": 9.66,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gitterkonstanten är bredden delad med antalet ritsor.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "nm",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "ritsor per mm ur andra ordningen",
+    "poang": "(1/0/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 495 nm ger andra ordningens maximum vid vinkeln 9,34°. Hur många ritsor per mm har gittret?</p>",
+    "s": "<p>\\(d=\\dfrac{2\\cdot495\\cdot10^{-9}}{\\sin9{,}34^\\circ}\\approx6{,}10\\cdot10^{-6}\\) m. Antal per mm: \\(\\dfrac{10^{-3}}{d}\\).</p><p><strong>Svar:</strong> \\(164\\) ritsor/mm</p>",
+    "id": "4.425",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 163.9320575002665,
+    "tolerans": 2.46,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm gitterkonstanten först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "ritsor/mm",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "gitter i CD-spelare",
+    "poang": "(1/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Laserljuset i en CD-spelare har våglängden 780 nm. 3,00 mm från gittret är avståndet mellan de båda första ordningens maximum 1,2 mm. Beräkna gitterkonstanten.</p>",
+    "s": "<p>\\(\\tan\\alpha=\\dfrac{0{,}60}{3{,}00}\\iff\\alpha\\approx11{,}3^\\circ\\). \\(d=\\dfrac{780\\cdot10^{-9}}{\\sin11{,}3^\\circ}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) µm</p>",
+    "id": "4.426",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.977235220602372,
+    "tolerans": 0.0597,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vinkeln är inte så liten att man kan bortse från skillnaden mellan sin och tan.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "µm",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "gitterkonstant ur antal maximum",
+    "poang": "(0/2/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 654 nm går genom ett gitter. En halvcylindrisk skärm fångar allt ljus bakom gittret, och man ser totalt 15 maximum.</p><ol type=\"a\"><li>Bestäm det minsta möjliga värdet på gitterkonstanten.</li><li>Bestäm det största möjliga värdet på gitterkonstanten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>15 maximum betyder att den högsta ordningen är 7, så \\(d\\ge7\\lambda=7\\cdot654\\) nm.</p><p><strong>Svar:</strong> \\(4{,}58\\) µm</p></li><li><p>Åttonde ordningen får inte synas, så \\(d\\lt 8\\lambda=8\\cdot654\\) nm.</p><p><strong>Svar:</strong> \\(5{,}23\\) µm</p></li></ol>",
+    "id": "4.427",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.578,
+      5.232
+    ],
+    "tolerans": [
+      0.0687,
+      0.0785
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "µm",
+      "µm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 654 nm går genom ett gitter. En halvcylindrisk skärm fångar allt ljus bakom gittret, och man ser totalt 15 maximum.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm det minsta möjliga värdet på gitterkonstanten.",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 654 nm går genom ett gitter. En halvcylindrisk skärm fångar allt ljus bakom gittret, och man ser totalt 15 maximum.</p><p>Bestäm det minsta möjliga värdet på gitterkonstanten.</p>",
+        "s": "<p>15 maximum betyder att den högsta ordningen är 7, så \\(d\\ge7\\lambda=7\\cdot654\\) nm.</p><p><strong>Svar:</strong> \\(4{,}58\\) µm</p>",
+        "ledtrad": "<p>Vilken är den högsta ordningen?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm det största möjliga värdet på gitterkonstanten.",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 654 nm går genom ett gitter. En halvcylindrisk skärm fångar allt ljus bakom gittret, och man ser totalt 15 maximum.</p><p>Bestäm det största möjliga värdet på gitterkonstanten.</p>",
+        "s": "<p>Åttonde ordningen får inte synas, så \\(d\\lt 8\\lambda=8\\cdot654\\) nm.</p><p><strong>Svar:</strong> \\(5{,}23\\) µm</p>",
+        "ledtrad": "<p>Vilken ordning får inte synas?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Antal maximum är \\(2n_{max}+1\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "okänd våglängd i samma ordning",
+    "poang": "(0/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 420 nm ger ett maximum vid 26° med ett visst gitter. En annan ljuskälla ger med samma gitter maximum av samma ordning vid 41°. Beräkna den okända våglängden.</p>",
+    "s": "<p>\\(\\dfrac{\\lambda_2}{\\lambda_1}=\\dfrac{\\sin41^\\circ}{\\sin26^\\circ}\\iff\\lambda_2=420\\cdot\\dfrac{\\sin41^\\circ}{\\sin26^\\circ}\\).</p><p><strong>Svar:</strong> \\(629\\) nm</p>",
+    "id": "4.428",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 628.5650736693938,
+    "tolerans": 9.43,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela gitterekvationerna med varandra.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "nm",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "tredje ordningen ur första",
+    "poang": "(0/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Första ordningens maximum bakom ett gitter ligger vid vinkeln 18,0°. Vid vilken vinkel ligger tredje ordningens maximum med samma gitter och ljus?</p>",
+    "s": "<p>\\(\\sin\\alpha_3=3\\sin18{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(68{,}0\\) °</p>",
+    "id": "4.429",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 67.97968633137295,
+    "tolerans": 1.02,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\sin\\alpha_n=n\\cdot\\dfrac\\lambda d\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "A",
+    "typ": "vilka våglängder ger maximum",
+    "poang": "(0/2/2)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett gitter har 2 604 ritsor/cm. Det belyses med ljus med alla våglängder mellan 410 nm och 660 nm. Vid vinkeln 30,0° får man ett maximum. Två olika våglängder i intervallet ger maximum just där.</p><ol type=\"a\"><li>Vilken är den längre av de två våglängderna?</li><li>Vilken är den kortare av de två våglängderna?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(d\\sin30{,}0^\\circ=\\dfrac{0{,}01}{2\\,604}\\cdot0{,}500\\approx1\\,920\\) nm \\(=n\\lambda\\). \\(n=2\\) ger 960 nm (för långt), \\(n=3\\) ger 640 nm och \\(n=4\\) ger 480 nm. \\(n=5\\) ger 384 nm (för kort).</p><p><strong>Svar:</strong> \\(640\\) nm</p></li><li><p>\\(n\\lambda=1\\,920\\) nm. \\(n=4\\) ger 480 nm.</p><p><strong>Svar:</strong> \\(480\\) nm</p></li></ol>",
+    "id": "4.430",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      640.0409626216078,
+      480.0307219662058
+    ],
+    "tolerans": [
+      9.6,
+      7.2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "nm",
+      "nm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett gitter har 2 604 ritsor/cm. Det belyses med ljus med alla våglängder mellan 410 nm och 660 nm. Vid vinkeln 30,0° får man ett maximum. Två olika våglängder i intervallet ger maximum just där.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken är den längre av de två våglängderna?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett gitter har 2 604 ritsor/cm. Det belyses med ljus med alla våglängder mellan 410 nm och 660 nm. Vid vinkeln 30,0° får man ett maximum. Två olika våglängder i intervallet ger maximum just där.</p><p>Vilken är den längre av de två våglängderna?</p>",
+        "s": "<p>\\(d\\sin30{,}0^\\circ=\\dfrac{0{,}01}{2\\,604}\\cdot0{,}500\\approx1\\,920\\) nm \\(=n\\lambda\\). \\(n=2\\) ger 960 nm (för långt), \\(n=3\\) ger 640 nm och \\(n=4\\) ger 480 nm. \\(n=5\\) ger 384 nm (för kort).</p><p><strong>Svar:</strong> \\(640\\) nm</p>",
+        "ledtrad": "<p>Pröva olika ordningar \\(n\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den kortare av de två våglängderna?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett gitter har 2 604 ritsor/cm. Det belyses med ljus med alla våglängder mellan 410 nm och 660 nm. Vid vinkeln 30,0° får man ett maximum. Två olika våglängder i intervallet ger maximum just där.</p><p>Vilken är den kortare av de två våglängderna?</p>",
+        "s": "<p>\\(n\\lambda=1\\,920\\) nm. \\(n=4\\) ger 480 nm.</p><p><strong>Svar:</strong> \\(480\\) nm</p>",
+        "ledtrad": "<p>Pröva olika ordningar \\(n\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Samma vinkel kan ge maximum för olika ordningar.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "vinkel när d=20λ",
+    "poang": "(1/0/0)",
+    "t": "<p>Ljus med våglängden \\(\\lambda\\) träffar en dubbelspalt med spaltavståndet \\(d=20\\lambda\\). Hur stor är vinkeln till första ordningens maximum?</p>",
+    "s": "<p>\\(\\sin\\alpha=\\dfrac{\\lambda}{20\\lambda}=0{,}050\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) °</p>",
+    "id": "4.431",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Interferens i dubbelspalt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.8659839825988622,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(d\\sin\\alpha=\\lambda\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°",
+    "familjNyckel": "vagrorelselara__interferens_i_dubbelspalt"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "spaltavstånd ur mönstrets bredd",
+    "poang": "(0/2/0)",
+    "t": "<p>Laserljus med våglängden 633 nm belyser en dubbelspalt. Interferensmönstret på en skärm 3,0 m bort består av 11 maximum som tillsammans har bredden 52 mm (från första till sista maximum). Bestäm spaltavståndet.</p>",
+    "s": "<p>11 maximum ger 10 mellanrum: \\(\\Delta y=5{,}2\\) mm. \\(d=\\dfrac{\\lambda L}{\\Delta y}=\\dfrac{633\\cdot10^{-9}\\cdot3{,}0}{5{,}2\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(0{,}37\\) mm</p>",
+    "id": "4.432",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Interferens i dubbelspalt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3651923076923077,
+    "tolerans": 0.00548,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många mellanrum finns mellan 11 maximum?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "mm",
+    "familjNyckel": "vagrorelselara__interferens_i_dubbelspalt"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "antal maximum och skärmbredd",
+    "poang": "(1/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett gitter med gitterkonstanten 1,50 µm belyses med ljus med våglängden 0,600 µm.</p><ol type=\"a\"><li>Hur många maximum kan man se totalt?</li><li>Hur bred skärm behövs för att alla maximum ska synas, om den står 3,00 m från gittret?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{d}{\\lambda}=2{,}5\\), så högsta ordningen är 2.</p><p><strong>Svar:</strong> 5 st</p><p><strong>Svar:</strong> 5 st</p></li><li><p>\\(\\sin\\alpha_2=\\dfrac{2\\cdot0{,}600}{1{,}50}=0{,}80\\iff\\tan\\alpha_2=\\dfrac43\\). \\(y=3{,}00\\cdot\\dfrac43=4{,}0\\) m på varje sida.</p><p><strong>Svar:</strong> \\(8{,}0\\) m</p></li></ol>",
+    "id": "4.433",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      8.0
+    ],
+    "tolerans": [
+      0,
+      0.12
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett gitter med gitterkonstanten 1,50 µm belyses med ljus med våglängden 0,600 µm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många maximum kan man se totalt?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett gitter med gitterkonstanten 1,50 µm belyses med ljus med våglängden 0,600 µm.</p><p>Hur många maximum kan man se totalt?</p>",
+        "s": "<p>\\(\\dfrac{d}{\\lambda}=2{,}5\\), så högsta ordningen är 2.</p><p><strong>Svar:</strong> 5 st</p><p><strong>Svar:</strong> 5 st</p>",
+        "ledtrad": "<p>\\(\\sin\\alpha\\le1\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur bred skärm behövs för att alla maximum ska synas, om den står 3,00 m från gittret?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett gitter med gitterkonstanten 1,50 µm belyses med ljus med våglängden 0,600 µm.</p>Högsta synliga ordningen är 2.<p>Hur bred skärm behövs för att alla maximum ska synas, om den står 3,00 m från gittret?</p>",
+        "s": "<p>\\(\\sin\\alpha_2=\\dfrac{2\\cdot0{,}600}{1{,}50}=0{,}80\\iff\\tan\\alpha_2=\\dfrac43\\). \\(y=3{,}00\\cdot\\dfrac43=4{,}0\\) m på varje sida.</p><p><strong>Svar:</strong> \\(8{,}0\\) m</p>",
+        "ledtrad": "<p>Bestäm vinkeln till det yttersta maximumet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(\\sin\\alpha\\) kan högst vara 1.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "antal maximum",
+    "poang": "(0/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Hur många maximum kan man se totalt när ett gitter med 650 linjer/mm belyses med laserljus med våglängden 490 nm?</p>",
+    "s": "<p>\\(d=\\dfrac{1}{650}\\) mm \\(\\approx1\\,538\\) nm. \\(\\dfrac{d}{\\lambda}\\approx3{,}1\\), så \\(n=0,\\pm1,\\pm2,\\pm3\\).</p><p><strong>Svar:</strong> 7 st</p>",
+    "id": "4.434",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\sin\\alpha\\le1\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "vinkel till andra ordningen",
+    "poang": "(1/0/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 510 nm går genom ett gitter med gitterkonstanten \\(1{,}35\\cdot10^{-3}\\) cm. Vilken vinkel får andra ordningens maximum?</p>",
+    "s": "<p>\\(\\sin\\alpha=\\dfrac{2\\cdot510\\cdot10^{-9}}{1{,}35\\cdot10^{-5}}\\).</p><p><strong>Svar:</strong> \\(4{,}33\\) °</p>",
+    "id": "4.435",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.3331438678654965,
+    "tolerans": 0.065,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla gitterkonstanten till meter.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "våglängd jämfört med HeNe-laser",
+    "poang": "(1/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>En helium-neonlaser (632,8 nm) ger andra ordningens maximum vid 53,2° med ett gitter. En annan ljuskälla ger med samma gitter första ordningens maximum vid 20,6°. Bestäm den andra ljuskällans våglängd.</p>",
+    "s": "<p>\\(d=\\dfrac{2\\cdot632{,}8}{\\sin53{,}2^\\circ}\\approx1\\,581\\) nm. \\(\\lambda=d\\sin20{,}6^\\circ\\).</p><p><strong>Svar:</strong> \\(556\\) nm</p>",
+    "id": "4.436",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 556.1050888931642,
+    "tolerans": 8.34,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm gitterkonstanten med HeNe-lasern.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "nm",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "våglängd ur ritsor per mm",
+    "poang": "(1/0/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ett gitter med 380 ritsor/mm ger andra ordningens maximum vid vinkeln 22,0°. Vilken våglängd har ljuset?</p>",
+    "s": "<p>\\(d=\\dfrac{1}{380}\\) mm. \\(\\lambda=\\dfrac{d\\sin22{,}0^\\circ}{2}\\).</p><p><strong>Svar:</strong> \\(493\\) nm</p>",
+    "id": "4.437",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 492.9034123893579,
+    "tolerans": 7.39,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(n=2\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "nm",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "ritsor per mm ur tredje ordningen",
+    "poang": "(1/0/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Hur många ritsor per mm har ett gitter som ger tredje ordningens maximum vid vinkeln 15,0° med ljus med våglängden 620 nm?</p>",
+    "s": "<p>\\(d=\\dfrac{3\\cdot620\\cdot10^{-9}}{\\sin15{,}0^\\circ}\\approx7{,}19\\cdot10^{-6}\\) m. Antal per mm: \\(\\dfrac{10^{-3}}{d}\\).</p><p><strong>Svar:</strong> \\(139\\) ritsor/mm</p>",
+    "id": "4.438",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 139.15002424866708,
+    "tolerans": 2.09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm gitterkonstanten först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "ritsor/mm",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "fyra spektrallinjer",
+    "poang": "(4/0/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>En ljuskälla ger fyra maximum av första ordningen med ett gitter med 9 800 ritsor/cm. Bestäm våglängden för linjen vid</p><ol type=\"a\"><li>28,8°</li><li>36,7°</li><li>38,6°</li><li>41,2°</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=d\\sin28{,}8^\\circ\\) med \\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p><p><strong>Svar:</strong> \\(492\\) nm</p></li><li><p>\\(\\lambda=d\\sin36{,}7^\\circ\\) med \\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p><p><strong>Svar:</strong> \\(610\\) nm</p></li><li><p>\\(\\lambda=d\\sin38{,}6^\\circ\\) med \\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p><p><strong>Svar:</strong> \\(637\\) nm</p></li><li><p>\\(\\lambda=d\\sin41{,}2^\\circ\\) med \\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p><p><strong>Svar:</strong> \\(672\\) nm</p></li></ol>",
+    "id": "4.439",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      491.5853817364442,
+      609.82157854645,
+      636.6118333769246,
+      672.1321021619187
+    ],
+    "tolerans": [
+      7.37,
+      9.15,
+      9.55,
+      10.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "nm",
+      "nm",
+      "nm",
+      "nm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>En ljuskälla ger fyra maximum av första ordningen med ett gitter med 9 800 ritsor/cm. Bestäm våglängden för linjen vid</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "28,8°",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>En ljuskälla ger fyra maximum av första ordningen med ett gitter med 9 800 ritsor/cm. Bestäm våglängden för linjen vid</p><p>28,8°</p>",
+        "s": "<p>\\(\\lambda=d\\sin28{,}8^\\circ\\) med \\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p><p><strong>Svar:</strong> \\(492\\) nm</p>",
+        "ledtrad": "<p>\\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "36,7°",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>En ljuskälla ger fyra maximum av första ordningen med ett gitter med 9 800 ritsor/cm. Bestäm våglängden för linjen vid</p><p>36,7°</p>",
+        "s": "<p>\\(\\lambda=d\\sin36{,}7^\\circ\\) med \\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p><p><strong>Svar:</strong> \\(610\\) nm</p>",
+        "ledtrad": "<p>\\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "38,6°",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>En ljuskälla ger fyra maximum av första ordningen med ett gitter med 9 800 ritsor/cm. Bestäm våglängden för linjen vid</p><p>38,6°</p>",
+        "s": "<p>\\(\\lambda=d\\sin38{,}6^\\circ\\) med \\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p><p><strong>Svar:</strong> \\(637\\) nm</p>",
+        "ledtrad": "<p>\\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "41,2°",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>En ljuskälla ger fyra maximum av första ordningen med ett gitter med 9 800 ritsor/cm. Bestäm våglängden för linjen vid</p><p>41,2°</p>",
+        "s": "<p>\\(\\lambda=d\\sin41{,}2^\\circ\\) med \\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p><p><strong>Svar:</strong> \\(672\\) nm</p>",
+        "ledtrad": "<p>\\(d=\\dfrac{0{,}01}{9\\,800}\\) m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Gitterkonstanten är \\(\\dfrac{1}{9\\,800}\\) cm.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "natriumljus genom gitter",
+    "poang": "(2/0/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Natriumljus med våglängden 589 nm ger första ordningens maximum vid vinkeln 14,5°.</p><ol type=\"a\"><li>Bestäm gitterkonstanten.</li><li>Bestäm vinkeln till tredje ordningens maximum.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(d=\\dfrac{589\\cdot10^{-9}}{\\sin14{,}5^\\circ}\\).</p><p><strong>Svar:</strong> \\(2{,}35\\) µm</p></li><li><p>\\(\\sin\\alpha_3=3\\sin14{,}5^\\circ\\).</p><p><strong>Svar:</strong> \\(48{,}7\\) °</p></li></ol>",
+    "id": "4.440",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.352424276947973,
+      48.68922598485905
+    ],
+    "tolerans": [
+      0.0353,
+      0.73
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "µm",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Natriumljus med våglängden 589 nm ger första ordningens maximum vid vinkeln 14,5°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm gitterkonstanten.",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Natriumljus med våglängden 589 nm ger första ordningens maximum vid vinkeln 14,5°.</p><p>Bestäm gitterkonstanten.</p>",
+        "s": "<p>\\(d=\\dfrac{589\\cdot10^{-9}}{\\sin14{,}5^\\circ}\\).</p><p><strong>Svar:</strong> \\(2{,}35\\) µm</p>",
+        "ledtrad": "<p>\\(n=1\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm vinkeln till tredje ordningens maximum.",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Natriumljus med våglängden 589 nm ger första ordningens maximum vid vinkeln 14,5°.</p><p>Bestäm vinkeln till tredje ordningens maximum.</p>",
+        "s": "<p>\\(\\sin\\alpha_3=3\\sin14{,}5^\\circ\\).</p><p><strong>Svar:</strong> \\(48{,}7\\) °</p>",
+        "ledtrad": "<p>\\(\\sin\\alpha_3=3\\cdot\\dfrac\\lambda d\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(d\\sin\\alpha=n\\lambda\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "A",
+    "typ": "gitter nedsänkt i vatten",
+    "poang": "(1/2/1)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 410 nm (i luft) riktas vinkelrätt mot ett gitter med \\(d=1{,}2\\cdot10^{-5}\\) m. En skärm står 15 cm bakom gittret.</p><ol type=\"a\"><li>Bestäm avståndet från centralmaximum till andra ordningens maximum på skärmen.</li><li>Hela uppställningen sänks ned i vatten (brytningsindex 1,33). Bestäm samma avstånd nu.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\sin\\alpha_2=\\dfrac{2\\cdot410\\cdot10^{-9}}{1{,}2\\cdot10^{-5}}\\iff\\alpha_2\\approx3{,}92^\\circ\\). \\(y=0{,}15\\tan3{,}92^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}03\\) cm</p></li><li><p>I vattnet är våglängden \\(\\dfrac{410}{1{,}33}\\) nm, så \\(\\sin\\alpha_2=\\dfrac{2\\cdot410\\cdot10^{-9}}{1{,}33\\cdot1{,}2\\cdot10^{-5}}\\iff\\alpha_2\\approx2{,}95^\\circ\\). \\(y=0{,}15\\tan2{,}95^\\circ\\).</p><p>Gittrets eget brytningsindex påverkar inte resultatet.</p><p><strong>Svar:</strong> \\(0{,}77\\) cm</p></li></ol>",
+    "id": "4.441",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0274015038245656,
+      0.7716959048866322
+    ],
+    "tolerans": [
+      0.0154,
+      0.0116
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 410 nm (i luft) riktas vinkelrätt mot ett gitter med \\(d=1{,}2\\cdot10^{-5}\\) m. En skärm står 15 cm bakom gittret.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm avståndet från centralmaximum till andra ordningens maximum på skärmen.",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 410 nm (i luft) riktas vinkelrätt mot ett gitter med \\(d=1{,}2\\cdot10^{-5}\\) m. En skärm står 15 cm bakom gittret.</p><p>Bestäm avståndet från centralmaximum till andra ordningens maximum på skärmen.</p>",
+        "s": "<p>\\(\\sin\\alpha_2=\\dfrac{2\\cdot410\\cdot10^{-9}}{1{,}2\\cdot10^{-5}}\\iff\\alpha_2\\approx3{,}92^\\circ\\). \\(y=0{,}15\\tan3{,}92^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}03\\) cm</p>",
+        "ledtrad": "<p>Bestäm vinkeln först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hela uppställningen sänks ned i vatten (brytningsindex 1,33). Bestäm samma avstånd nu.",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Ljus med våglängden 410 nm (i luft) riktas vinkelrätt mot ett gitter med \\(d=1{,}2\\cdot10^{-5}\\) m. En skärm står 15 cm bakom gittret.</p><p>Hela uppställningen sänks ned i vatten (brytningsindex 1,33). Bestäm samma avstånd nu.</p>",
+        "s": "<p>I vattnet är våglängden \\(\\dfrac{410}{1{,}33}\\) nm, så \\(\\sin\\alpha_2=\\dfrac{2\\cdot410\\cdot10^{-9}}{1{,}33\\cdot1{,}2\\cdot10^{-5}}\\iff\\alpha_2\\approx2{,}95^\\circ\\). \\(y=0{,}15\\tan2{,}95^\\circ\\).</p><p>Gittrets eget brytningsindex påverkar inte resultatet.</p><p><strong>Svar:</strong> \\(0{,}77\\) cm</p>",
+        "ledtrad": "<p>Vad händer med våglängden i vatten?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Vägskillnaden ska vara ett helt antal våglängder i det medium där ljuset går.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "vitt ljus och spektrumordningar",
+    "poang": "(3/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Vitt ljus med våglängder mellan 410 nm (violett) och 660 nm (rött) går genom ett gitter med 400 ritsor/mm.</p><ol type=\"a\"><li>Vid vilken vinkel börjar första ordningens spektrum (violett)?</li><li>Vid vilken vinkel slutar första ordningens spektrum (rött)?</li><li>Vid vilken vinkel slutar tredje ordningens spektrum?</li><li>Fjärde ordningens spektrum syns bara delvis. Vilken är den längsta våglängden som syns i fjärde ordningen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(d=2{,}5\\) µm. \\(\\sin\\alpha=\\dfrac{410\\cdot10^{-9}}{2{,}5\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(9{,}4\\) °</p></li><li><p>\\(\\sin\\alpha=\\dfrac{660\\cdot10^{-9}}{2{,}5\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(15{,}3\\) °</p></li><li><p>\\(\\sin\\alpha=\\dfrac{3\\cdot660\\cdot10^{-9}}{2{,}5\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(52{,}4\\) °</p></li><li><p>\\(\\sin\\alpha\\le1\\) ger \\(\\lambda\\le\\dfrac d4=\\dfrac{2\\,500}{4}\\) nm.</p><p><strong>Svar:</strong> \\(625\\) nm</p></li></ol>",
+    "id": "4.442",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.439147370636205,
+      15.307541108520013,
+      52.37280937116627,
+      625
+    ],
+    "tolerans": [
+      0.142,
+      0.23,
+      0.786,
+      9.38
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "nm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Vitt ljus med våglängder mellan 410 nm (violett) och 660 nm (rött) går genom ett gitter med 400 ritsor/mm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vid vilken vinkel börjar första ordningens spektrum (violett)?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Vitt ljus med våglängder mellan 410 nm (violett) och 660 nm (rött) går genom ett gitter med 400 ritsor/mm.</p><p>Vid vilken vinkel börjar första ordningens spektrum (violett)?</p>",
+        "s": "<p>\\(d=2{,}5\\) µm. \\(\\sin\\alpha=\\dfrac{410\\cdot10^{-9}}{2{,}5\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(9{,}4\\) °</p>",
+        "ledtrad": "<p>\\(d=\\dfrac{1}{400}\\) mm.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vid vilken vinkel slutar första ordningens spektrum (rött)?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Vitt ljus med våglängder mellan 410 nm (violett) och 660 nm (rött) går genom ett gitter med 400 ritsor/mm.</p><p>Vid vilken vinkel slutar första ordningens spektrum (rött)?</p>",
+        "s": "<p>\\(\\sin\\alpha=\\dfrac{660\\cdot10^{-9}}{2{,}5\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(15{,}3\\) °</p>",
+        "ledtrad": "<p>\\(d=\\dfrac{1}{400}\\) mm.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vid vilken vinkel slutar tredje ordningens spektrum?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Vitt ljus med våglängder mellan 410 nm (violett) och 660 nm (rött) går genom ett gitter med 400 ritsor/mm.</p><p>Vid vilken vinkel slutar tredje ordningens spektrum?</p>",
+        "s": "<p>\\(\\sin\\alpha=\\dfrac{3\\cdot660\\cdot10^{-9}}{2{,}5\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(52{,}4\\) °</p>",
+        "ledtrad": "<p>\\(n=3\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Fjärde ordningens spektrum syns bara delvis. Vilken är den längsta våglängden som syns i fjärde ordningen?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Vitt ljus med våglängder mellan 410 nm (violett) och 660 nm (rött) går genom ett gitter med 400 ritsor/mm.</p><p>Fjärde ordningens spektrum syns bara delvis. Vilken är den längsta våglängden som syns i fjärde ordningen?</p>",
+        "s": "<p>\\(\\sin\\alpha\\le1\\) ger \\(\\lambda\\le\\dfrac d4=\\dfrac{2\\,500}{4}\\) nm.</p><p><strong>Svar:</strong> \\(625\\) nm</p>",
+        "ledtrad": "<p>Vinkeln kan högst vara 90°.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Gitterkonstanten är \\(\\dfrac{1}{400}\\) mm.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "två gitter med sammanfallande maximum",
+    "poang": "(0/1/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Med gitter A hamnar första ordningens maximum på samma ställe som andra ordningens maximum med gitter B, för samma ljus. Bestäm kvoten \\(\\dfrac{d_B}{d_A}\\).</p>",
+    "s": "<p>Samma vinkel: \\(\\dfrac{\\lambda}{d_A}=\\dfrac{2\\lambda}{d_B}\\iff\\dfrac{d_B}{d_A}=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "id": "4.443",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt \\(\\sin\\alpha\\) lika för de två gittren.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "bredd på första ordningens spektrum",
+    "poang": "(0/2/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Vitt ljus med våglängder mellan 410 nm och 750 nm går genom ett gitter med 780 linjer/mm. Hur brett är första ordningens spektrum på en skärm 3,40 m från gittret?</p>",
+    "s": "<p>\\(d=\\dfrac1{780}\\) mm. 410 nm: \\(\\alpha\\approx18{,}6^\\circ\\), \\(y\\approx1{,}15\\) m. 750 nm: \\(\\alpha\\approx35{,}8^\\circ\\), \\(y\\approx2{,}45\\) m.</p><p>Bredd: \\(2{,}45-1{,}15\\).</p><p><strong>Svar:</strong> \\(1{,}30\\) m</p>",
+    "id": "4.444",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.3048417076411039,
+    "tolerans": 0.0196,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm läget för båda ändarna av spektrumet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "E",
+    "typ": "vinkel mellan rött och blått i andra ordningen",
+    "poang": "(1/0/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Vitt ljus går genom ett gitter med \\(6{,}5\\cdot10^5\\) ritsor/m. Hur stor är vinkeln mellan rött ljus (\\(7{,}0\\cdot10^{-7}\\) m) och blått ljus (\\(4{,}5\\cdot10^{-7}\\) m) i andra ordningens spektrum?</p>",
+    "s": "<p>Rött: \\(\\sin\\alpha=2\\cdot7{,}0\\cdot10^{-7}\\cdot6{,}5\\cdot10^5=0{,}91\\). Blått: \\(\\sin\\alpha=0{,}585\\).</p><p><strong>Svar:</strong> \\(29{,}7\\) °</p>",
+    "id": "4.445",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 29.70236151696622,
+    "tolerans": 0.446,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna ut båda vinklarna.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°",
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
+    "kap": 4,
+    "omr": "vagrorelselara",
+    "niva": "C",
+    "typ": "kvicksilvrets spektrum",
+    "poang": "(1/2/0)",
+    "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Kvicksilvrets spektrum har bland annat en grön linje (546 nm), en gulorange linje (578 nm) och en violett linje (405 nm).</p><ol type=\"a\"><li>Vilken vinkel får den gröna linjens tredje ordningens maximum med ett 2,54 cm brett gitter med exakt 8 000 ritsor?</li><li>Med ett annat gitter sammanfaller den gulorange linjens tredje ordning med en blå linjes fjärde ordning. Beräkna den blå linjens våglängd.</li><li>Hur många maximum av den violetta linjen kan man få med ett gitter med 5 000,0 linjer/cm?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(d=\\dfrac{0{,}0254}{8\\,000}\\) m. \\(\\sin\\alpha=\\dfrac{3\\cdot546\\cdot10^{-9}}{d}\\).</p><p><strong>Svar:</strong> \\(31{,}1\\) °</p></li><li><p>\\(3\\cdot578=4\\lambda\\iff\\lambda=\\dfrac{3\\cdot578}{4}\\).</p><p><strong>Svar:</strong> \\(434\\) nm</p></li><li><p>\\(d=2\\,000\\) nm. \\(\\dfrac{d}{\\lambda}=\\dfrac{2\\,000}{405}\\approx4{,}9\\), så \\(n=0,\\pm1,\\dots,\\pm4\\).</p><p><strong>Svar:</strong> 9 st</p><p><strong>Svar:</strong> 9 st</p></li></ol>",
+    "id": "4.446",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gitterekvationen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      31.057999881107946,
+      433.5,
+      9
+    ],
+    "tolerans": [
+      0.466,
+      6.5,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "°",
+      "nm",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Kvicksilvrets spektrum har bland annat en grön linje (546 nm), en gulorange linje (578 nm) och en violett linje (405 nm).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken vinkel får den gröna linjens tredje ordningens maximum med ett 2,54 cm brett gitter med exakt 8 000 ritsor?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Kvicksilvrets spektrum har bland annat en grön linje (546 nm), en gulorange linje (578 nm) och en violett linje (405 nm).</p><p>Vilken vinkel får den gröna linjens tredje ordningens maximum med ett 2,54 cm brett gitter med exakt 8 000 ritsor?</p>",
+        "s": "<p>\\(d=\\dfrac{0{,}0254}{8\\,000}\\) m. \\(\\sin\\alpha=\\dfrac{3\\cdot546\\cdot10^{-9}}{d}\\).</p><p><strong>Svar:</strong> \\(31{,}1\\) °</p>",
+        "ledtrad": "<p>Bestäm gitterkonstanten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med ett annat gitter sammanfaller den gulorange linjens tredje ordning med en blå linjes fjärde ordning. Beräkna den blå linjens våglängd.",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Kvicksilvrets spektrum har bland annat en grön linje (546 nm), en gulorange linje (578 nm) och en violett linje (405 nm).</p><p>Med ett annat gitter sammanfaller den gulorange linjens tredje ordning med en blå linjes fjärde ordning. Beräkna den blå linjens våglängd.</p>",
+        "s": "<p>\\(3\\cdot578=4\\lambda\\iff\\lambda=\\dfrac{3\\cdot578}{4}\\).</p><p><strong>Svar:</strong> \\(434\\) nm</p>",
+        "ledtrad": "<p>Samma vinkel ger samma \\(n\\lambda\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många maximum av den violetta linjen kan man få med ett gitter med 5 000,0 linjer/cm?",
+        "t": "<p>Gitterekvationen: \\(d\\sin\\alpha_n=n\\lambda\\).</p><p>Kvicksilvrets spektrum har bland annat en grön linje (546 nm), en gulorange linje (578 nm) och en violett linje (405 nm).</p><p>Hur många maximum av den violetta linjen kan man få med ett gitter med 5 000,0 linjer/cm?</p>",
+        "s": "<p>\\(d=2\\,000\\) nm. \\(\\dfrac{d}{\\lambda}=\\dfrac{2\\,000}{405}\\approx4{,}9\\), så \\(n=0,\\pm1,\\dots,\\pm4\\).</p><p><strong>Svar:</strong> 9 st</p><p><strong>Svar:</strong> 9 st</p>",
+        "ledtrad": "<p>\\(\\sin\\alpha\\le1\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(d\\sin\\alpha=n\\lambda\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vagrorelselara__gitterekvationen"
+  },
+  {
     "id": "4.334",
     "kap": 4,
     "omr": "em_vagor",
@@ -34863,7 +36183,10 @@ window.BANK2 = [
       4.284444020226343,
       2.3453430407845417
     ],
-    "tolerans": [0.0643, 0.051],
+    "tolerans": [
+      0.0643,
+      0.051
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",

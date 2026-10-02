@@ -13907,6 +13907,444 @@ window.BANK2 = [
     "typ": "nollpunkt mellan två strömmar"
   },
   {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "E",
+    "typ": "fält kring startkabel",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>En startkabel leder strömmen 65 A. Hur stor är flödestätheten 4,5 cm från kabeln?</p>",
+    "s": "<p>\\(B=\\dfrac{\\mu_0I}{2\\pi a}=\\dfrac{2\\cdot10^{-7}\\cdot65}{0{,}045}\\).</p><p><strong>Svar:</strong> \\(0{,}00029\\) T</p>",
+    "id": "3.366",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0002888888888888889,
+    "tolerans": 5.1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(B=\\dfrac{\\mu_0I}{2\\pi a}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "T",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "E",
+    "typ": "ström ur flödestäthet",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Hur stor ström krävs i en lång rak ledare för att flödestätheten ska vara 50 µT på avståndet 12 cm?</p>",
+    "s": "<p>\\(I=\\dfrac{2\\pi aB}{\\mu_0}=\\dfrac{0{,}12\\cdot50\\cdot10^{-6}}{2\\cdot10^{-7}}\\).</p><p><strong>Svar:</strong> \\(30\\) A</p>",
+    "id": "3.367",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.000000000000004,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(I\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "A",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "E",
+    "typ": "säkert avstånd för pacemaker",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>En pacemaker kan störas av ett magnetfält på 1,7 mT. Hur nära en lång rak ledare med strömmen 20,0 A kan en person komma utan att fältet blir så starkt?</p>",
+    "s": "<p>\\(a=\\dfrac{\\mu_0I}{2\\pi B}=\\dfrac{2\\cdot10^{-7}\\cdot20{,}0}{1{,}7\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(0{,}0024\\) m</p>",
+    "id": "3.368",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0023529411764705885,
+    "tolerans": 5.1e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut avståndet.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "E",
+    "typ": "ström i nervcell",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>En nervcell kan ses som en lång rak ledare. Ett mätinstrument registrerar flödestätheten \\(1{,}0\\cdot10^{-15}\\) T på avståndet 4,0 cm. Hur stor ström går i nervcellen?</p>",
+    "s": "<p>\\(I=\\dfrac{2\\pi aB}{\\mu_0}=\\dfrac{0{,}040\\cdot1{,}0\\cdot10^{-15}}{2\\cdot10^{-7}}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{-10}\\) A</p>",
+    "id": "3.369",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0000000000000003e-10,
+    "tolerans": 5.1e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(I\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "E",
+    "typ": "fält kring blixt",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>En blixt kan ses som en rak ledare med strömmen 10,0 kA. Hur stor är flödestätheten 100 m från blixten?</p>",
+    "s": "<p>\\(B=\\dfrac{2\\cdot10^{-7}\\cdot10{,}0\\cdot10^3}{100}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{-5}\\) T</p>",
+    "id": "3.370",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2e-05,
+    "tolerans": 5.1e-07,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(B=\\dfrac{\\mu_0I}{2\\pi a}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "T",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "C",
+    "typ": "fält kring protonstråle",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Varje punkt i en protonstråle passeras av \\(2{,}5\\cdot10^9\\) protoner per sekund. Hur stor är flödestätheten 1,5 m från strålen? Använd \\(e=1{,}602\\cdot10^{-19}\\) C.</p>",
+    "s": "<p>Strömmen: \\(I=2{,}5\\cdot10^9\\cdot1{,}602\\cdot10^{-19}\\approx4{,}0\\cdot10^{-10}\\) A. \\(B=\\dfrac{2\\cdot10^{-7}I}{1{,}5}\\).</p><p><strong>Svar:</strong> \\(5{,}3\\cdot10^{-17}\\) T</p>",
+    "id": "3.371",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.3399999999999996e-17,
+    "tolerans": 8.01e-19,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ström är laddning per tid.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "T",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "E",
+    "typ": "kortslutet batteri",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Ett 9,0 V-batteri kortsluts med sladdar som har den totala resistansen 0,75 Ω. Hur stor är flödestätheten 2,0 cm från sladden?</p>",
+    "s": "<p>\\(I=\\dfrac{9{,}0}{0{,}75}=12\\) A. \\(B=\\dfrac{2\\cdot10^{-7}\\cdot12}{0{,}020}\\), ungefär 2,4 gånger jordens magnetfält.</p><p><strong>Svar:</strong> \\(0{,}00012\\) T</p>",
+    "id": "3.372",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.00011999999999999999,
+    "tolerans": 5.1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm strömmen med Ohms lag.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "T",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "E",
+    "typ": "kraft mellan parallella ledare",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Kraften per meter mellan två parallella ledare är \\(\\dfrac Fl=\\dfrac{\\mu_0I_1I_2}{2\\pi a}\\).</p><ol type=\"a\"><li>Två ledare 2,50 cm från varandra leder 1,25 A och 3,50 A åt motsatta håll. Hur stor är kraften per meter?</li><li>Två ledare 4,0 cm från varandra stöter bort varandra med \\(2{,}0\\cdot10^{-4}\\) N per meter. Den ena leder 5,0 A. Hur stor är strömmen i den andra?</li><li>Två 25 m långa ledare 4,0 cm från varandra leder 25 A var åt samma håll. Hur stor är kraften på en ledare?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac Fl=\\dfrac{2\\cdot10^{-7}\\cdot1{,}25\\cdot3{,}50}{0{,}0250}\\). Kraften är repulsiv.</p><p><strong>Svar:</strong> \\(3{,}5\\cdot10^{-5}\\) N/m</p></li><li><p>\\(I_2=\\dfrac{(F/l)\\,a}{2\\cdot10^{-7}I_1}=\\dfrac{2{,}0\\cdot10^{-4}\\cdot0{,}040}{2\\cdot10^{-7}\\cdot5{,}0}\\). Strömmarna går åt motsatta håll.</p><p><strong>Svar:</strong> \\(8{,}0\\) A</p></li><li><p>\\(F=\\dfrac{2\\cdot10^{-7}\\cdot25\\cdot25}{0{,}040}\\cdot25\\). Kraften är attraktiv.</p><p><strong>Svar:</strong> \\(0{,}078\\) N</p></li></ol>",
+    "id": "3.373",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.5e-05,
+      8.000000000000002,
+      0.078125
+    ],
+    "tolerans": [
+      5.25e-07,
+      0.12,
+      0.00117
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "A",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Kraften per meter mellan två parallella ledare är \\(\\dfrac Fl=\\dfrac{\\mu_0I_1I_2}{2\\pi a}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Två ledare 2,50 cm från varandra leder 1,25 A och 3,50 A åt motsatta håll. Hur stor är kraften per meter?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Kraften per meter mellan två parallella ledare är \\(\\dfrac Fl=\\dfrac{\\mu_0I_1I_2}{2\\pi a}\\).</p><p>Två ledare 2,50 cm från varandra leder 1,25 A och 3,50 A åt motsatta håll. Hur stor är kraften per meter?</p>",
+        "s": "<p>\\(\\dfrac Fl=\\dfrac{2\\cdot10^{-7}\\cdot1{,}25\\cdot3{,}50}{0{,}0250}\\). Kraften är repulsiv.</p><p><strong>Svar:</strong> \\(3{,}5\\cdot10^{-5}\\) N/m</p>",
+        "ledtrad": "<p>Använd formeln för kraft mellan ledare.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Två ledare 4,0 cm från varandra stöter bort varandra med \\(2{,}0\\cdot10^{-4}\\) N per meter. Den ena leder 5,0 A. Hur stor är strömmen i den andra?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Kraften per meter mellan två parallella ledare är \\(\\dfrac Fl=\\dfrac{\\mu_0I_1I_2}{2\\pi a}\\).</p><p>Två ledare 4,0 cm från varandra stöter bort varandra med \\(2{,}0\\cdot10^{-4}\\) N per meter. Den ena leder 5,0 A. Hur stor är strömmen i den andra?</p>",
+        "s": "<p>\\(I_2=\\dfrac{(F/l)\\,a}{2\\cdot10^{-7}I_1}=\\dfrac{2{,}0\\cdot10^{-4}\\cdot0{,}040}{2\\cdot10^{-7}\\cdot5{,}0}\\). Strömmarna går åt motsatta håll.</p><p><strong>Svar:</strong> \\(8{,}0\\) A</p>",
+        "ledtrad": "<p>Lös ut den okända strömmen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Två 25 m långa ledare 4,0 cm från varandra leder 25 A var åt samma håll. Hur stor är kraften på en ledare?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Kraften per meter mellan två parallella ledare är \\(\\dfrac Fl=\\dfrac{\\mu_0I_1I_2}{2\\pi a}\\).</p><p>Två 25 m långa ledare 4,0 cm från varandra leder 25 A var åt samma håll. Hur stor är kraften på en ledare?</p>",
+        "s": "<p>\\(F=\\dfrac{2\\cdot10^{-7}\\cdot25\\cdot25}{0{,}040}\\cdot25\\). Kraften är attraktiv.</p><p><strong>Svar:</strong> \\(0{,}078\\) N</p>",
+        "ledtrad": "<p>Multiplicera kraften per meter med längden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Strömmar åt samma håll attraherar varandra.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "C",
+    "typ": "svävande ledare ovanför annan",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>En ledare med tyngden 0,080 N per meter hänger parallellt ovanför en annan ledare. Den övre leder 30,0 A och den nedre 60,0 A. På vilket avstånd svävar den övre ledaren?</p>",
+    "s": "<p>Kraften per meter ska vara 0,080 N/m: \\(a=\\dfrac{2\\cdot10^{-7}\\cdot30{,}0\\cdot60{,}0}{0{,}080}\\). Strömmarna måste gå åt motsatta håll så att kraften är repulsiv.</p><p><strong>Svar:</strong> \\(0{,}0045\\) m</p>",
+    "id": "3.374",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0045000000000000005,
+    "tolerans": 6.75e-05,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Den magnetiska kraften per meter ska balansera tyngden per meter.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "C",
+    "typ": "Newtons tredje lag för ledare",
+    "poang": "(3/1/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Två parallella ledare 10,0 cm från varandra leder strömmarna 5,00 A och 8,00 A.</p><ol type=\"a\"><li>Hur stor är flödestätheten från ledare 1 (5,00 A) vid ledare 2?</li><li>Hur stor är kraften per meter på ledare 2?</li><li>Hur stor är flödestätheten från ledare 2 vid ledare 1?</li><li>Hur stor är kraften per meter på ledare 1?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(B=\\dfrac{2\\cdot10^{-7}\\cdot5{,}00}{0{,}100}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-5}\\) T</p></li><li><p>\\(\\dfrac Fl=BI_2=1{,}0\\cdot10^{-5}\\cdot8{,}00\\).</p><p><strong>Svar:</strong> \\(8{,}0\\cdot10^{-5}\\) N/m</p></li><li><p>\\(B=\\dfrac{2\\cdot10^{-7}\\cdot8{,}00}{0{,}100}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{-5}\\) T</p></li><li><p>\\(\\dfrac Fl=1{,}6\\cdot10^{-5}\\cdot5{,}00\\). Krafterna är lika stora, enligt Newtons tredje lag.</p><p><strong>Svar:</strong> \\(8{,}0\\cdot10^{-5}\\) N/m</p></li></ol>",
+    "id": "3.375",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.999999999999999e-06,
+      7.999999999999999e-05,
+      1.6e-05,
+      7.999999999999999e-05
+    ],
+    "tolerans": [
+      5.1e-07,
+      1.2e-06,
+      5.1e-07,
+      1.2e-06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "T",
+      "N/m",
+      "T",
+      "N/m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Två parallella ledare 10,0 cm från varandra leder strömmarna 5,00 A och 8,00 A.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är flödestätheten från ledare 1 (5,00 A) vid ledare 2?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Två parallella ledare 10,0 cm från varandra leder strömmarna 5,00 A och 8,00 A.</p><p>Hur stor är flödestätheten från ledare 1 (5,00 A) vid ledare 2?</p>",
+        "s": "<p>\\(B=\\dfrac{2\\cdot10^{-7}\\cdot5{,}00}{0{,}100}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-5}\\) T</p>",
+        "ledtrad": "<p>Fältet kring ledare 1.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är kraften per meter på ledare 2?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Två parallella ledare 10,0 cm från varandra leder strömmarna 5,00 A och 8,00 A.</p><p>Hur stor är kraften per meter på ledare 2?</p>",
+        "s": "<p>\\(\\dfrac Fl=BI_2=1{,}0\\cdot10^{-5}\\cdot8{,}00\\).</p><p><strong>Svar:</strong> \\(8{,}0\\cdot10^{-5}\\) N/m</p>",
+        "ledtrad": "<p>\\(F=BIl\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är flödestätheten från ledare 2 vid ledare 1?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Två parallella ledare 10,0 cm från varandra leder strömmarna 5,00 A och 8,00 A.</p><p>Hur stor är flödestätheten från ledare 2 vid ledare 1?</p>",
+        "s": "<p>\\(B=\\dfrac{2\\cdot10^{-7}\\cdot8{,}00}{0{,}100}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{-5}\\) T</p>",
+        "ledtrad": "<p>Fältet kring ledare 2.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor är kraften per meter på ledare 1?",
+        "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Två parallella ledare 10,0 cm från varandra leder strömmarna 5,00 A och 8,00 A.</p><p>Hur stor är kraften per meter på ledare 1?</p>",
+        "s": "<p>\\(\\dfrac Fl=1{,}6\\cdot10^{-5}\\cdot5{,}00\\). Krafterna är lika stora, enligt Newtons tredje lag.</p><p><strong>Svar:</strong> \\(8{,}0\\cdot10^{-5}\\) N/m</p>",
+        "ledtrad": "<p>Jämför med kraften på ledare 2.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Fälten är olika men krafterna lika stora.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "A",
+    "typ": "våg som mäter magnetisk kraft",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>En 1,00 m lång tunn ledare ligger på en våg som visar 4,00 g. En likadan ledare spänns upp 1,00 mm ovanför och parallellt med den. Båda leder 12,0 A åt samma håll. Vad visar vågen? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>Kraften är attraktiv, alltså uppåt på den nedre ledaren: \\(F=\\dfrac{2\\cdot10^{-7}\\cdot12{,}0^2}{0{,}00100}\\cdot1{,}00\\approx0{,}0288\\) N, motsvarande \\(\\dfrac{0{,}0288}{9{,}82}\\approx2{,}93\\) g.</p><p>Vågen visar \\(4{,}00-2{,}93\\).</p><p><strong>Svar:</strong> \\(1{,}07\\) g</p>",
+    "id": "3.376",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0672097759674135,
+    "tolerans": 0.016,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Åt vilket håll verkar kraften på ledaren på vågen?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "g",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "orsted",
+    "niva": "C",
+    "typ": "avstånd ur kraft mellan ledare",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Tm/A, alltså \\(B=\\dfrac{\\mu_0I}{2\\pi a}\\) kring en lång rak ledare.</p><p>Två parallella 5,0 m långa ledare leder 7,2 A och 5,0 A och attraherar varandra med kraften 66,0 µN. Hur långt från varandra är de?</p>",
+    "s": "<p>\\(F=\\dfrac{\\mu_0I_1I_2l}{2\\pi a}\\iff a=\\dfrac{2\\cdot10^{-7}\\cdot7{,}2\\cdot5{,}0\\cdot5{,}0}{66{,}0\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(0{,}55\\) m</p>",
+    "id": "3.377",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnetfält kring raka ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5454545454545454,
+    "tolerans": 0.00818,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut avståndet ur kraftformeln.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+  },
+  {
     "id": "3.161",
     "kap": 3,
     "omr": "magnetism",
@@ -14217,6 +14655,296 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ]
+  },
+  {
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "E",
+    "typ": "kraft på ledare vinkelrätt mot fältet",
+    "poang": "(1/0/0)",
+    "t": "<p>En 4,0 cm lång ledare med strömmen 3,5 A ligger vinkelrätt mot ett magnetfält med flödestätheten 40 mT. Beräkna kraften på ledaren.</p>",
+    "s": "<p>\\(F=BIl=0{,}040\\cdot3{,}5\\cdot0{,}040\\).</p><p><strong>Svar:</strong> \\(0{,}0056\\) N</p>",
+    "id": "3.357",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraft på en strömförande ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.005600000000000001,
+    "tolerans": 8.4e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=BIl\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "E",
+    "typ": "kraft per meter vid olika vinklar",
+    "poang": "(3/0/0)",
+    "t": "<p>En rak ledare med strömmen 6,40 A ligger i ett magnetfält med flödestätheten 0,90 T. Beräkna kraften per meter ledare.</p><ol type=\"a\"><li>Ledaren är vinkelrät mot fältet.</li><li>Ledaren bildar vinkeln 35,0° med fältet.</li><li>Ledaren är parallell med fältet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac Fl=BI=0{,}90\\cdot6{,}40\\).</p><p><strong>Svar:</strong> \\(5{,}8\\) N/m</p></li><li><p>\\(\\dfrac Fl=BI\\sin35{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) N/m</p></li><li><p>\\(\\sin0^\\circ=0\\).</p><p><strong>Svar:</strong> 0 N/m</p><p><strong>Svar:</strong> 0 N/m</p></li></ol>",
+    "id": "3.358",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraft på en strömförande ledare",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.760000000000001,
+      3.3038002733820258,
+      0
+    ],
+    "tolerans": [
+      0.0864,
+      0.051,
+      0.01
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "N/m",
+      "N/m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En rak ledare med strömmen 6,40 A ligger i ett magnetfält med flödestätheten 0,90 T. Beräkna kraften per meter ledare.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ledaren är vinkelrät mot fältet.",
+        "t": "<p>En rak ledare med strömmen 6,40 A ligger i ett magnetfält med flödestätheten 0,90 T. Beräkna kraften per meter ledare.</p><p>Ledaren är vinkelrät mot fältet.</p>",
+        "s": "<p>\\(\\dfrac Fl=BI=0{,}90\\cdot6{,}40\\).</p><p><strong>Svar:</strong> \\(5{,}8\\) N/m</p>",
+        "ledtrad": "<p>\\(F=BIl\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ledaren bildar vinkeln 35,0° med fältet.",
+        "t": "<p>En rak ledare med strömmen 6,40 A ligger i ett magnetfält med flödestätheten 0,90 T. Beräkna kraften per meter ledare.</p><p>Ledaren bildar vinkeln 35,0° med fältet.</p>",
+        "s": "<p>\\(\\dfrac Fl=BI\\sin35{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) N/m</p>",
+        "ledtrad": "<p>Bara den del av ledaren som är vinkelrät mot fältet ger kraft.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ledaren är parallell med fältet.",
+        "t": "<p>En rak ledare med strömmen 6,40 A ligger i ett magnetfält med flödestätheten 0,90 T. Beräkna kraften per meter ledare.</p><p>Ledaren är parallell med fältet.</p>",
+        "s": "<p>\\(\\sin0^\\circ=0\\).</p><p><strong>Svar:</strong> 0 N/m</p><p><strong>Svar:</strong> 0 N/m</p>",
+        "ledtrad": "<p>Vad blir \\(\\sin\\alpha\\) när ledaren är parallell med fältet?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F=BIl\\sin\\alpha\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "E",
+    "typ": "ström ur största kraft",
+    "poang": "(1/1/0)",
+    "t": "<p>En 4,80 m lång ledare ligger i ett magnetfält med flödestätheten 0,0800 T. När ledaren vrids varierar kraften mellan 0 N och 0,625 N. Bestäm strömmen.</p>",
+    "s": "<p>Största kraften fås när ledaren är vinkelrät mot fältet: \\(I=\\dfrac{F}{Bl}=\\dfrac{0{,}625}{0{,}0800\\cdot4{,}80}\\).</p><p><strong>Svar:</strong> \\(1{,}63\\) A</p>",
+    "id": "3.359",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraft på en strömförande ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.6276041666666667,
+    "tolerans": 0.0244,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När är kraften störst?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "E",
+    "typ": "jordens magnetfält på kraftledning",
+    "poang": "(1/0/0)",
+    "t": "<p>En 240 m lång ledning mellan två radiomaster leder strömmen 120 A. Jordens magnetfält har flödestätheten 51 µT och bildar vinkeln 68° med ledningen. Hur stor är kraften på ledningen?</p>",
+    "s": "<p>\\(F=BIl\\sin68^\\circ=51\\cdot10^{-6}\\cdot120\\cdot240\\sin68^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) N</p>",
+    "id": "3.360",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraft på en strömförande ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.3618476455876973,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=BIl\\sin\\alpha\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "C",
+    "typ": "vinkel ur andel av största kraft",
+    "poang": "(0/1/0)",
+    "t": "<p>Kraften på en strömförande ledare i ett magnetfält är 45,0 % av sitt största möjliga värde. Bestäm vinkeln mellan ledaren och fältet.</p>",
+    "s": "<p>\\(\\sin\\alpha=0{,}450\\iff\\alpha\\approx26{,}7^\\circ\\) (eller \\(153{,}3^\\circ\\)).</p><p><strong>Svar:</strong> \\(26{,}7\\) °</p>",
+    "id": "3.361",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraft på en strömförande ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 26.74368395040301,
+    "tolerans": 0.401,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Största kraften fås vid 90°.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°",
+    "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "C",
+    "typ": "andel av ledare i fält",
+    "poang": "(1/1/0)",
+    "t": "<p>En 1,4 m lång ledare med strömmen 3,5 A ligger delvis i ett magnetfält med flödestätheten 1,5 T, vinkelrätt mot ledaren. Kraften på ledaren är 5,0 N. Hur stor andel av ledaren är i fältet? Svara i procent.</p>",
+    "s": "<p>\\(l=\\dfrac{F}{BI}=\\dfrac{5{,}0}{1{,}5\\cdot3{,}5}\\approx0{,}95\\) m. Andel: \\(\\dfrac{0{,}95}{1{,}4}\\).</p><p><strong>Svar:</strong> \\(68\\) %</p>",
+    "id": "3.362",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraft på en strömförande ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.02721088435374,
+    "tolerans": 1.02,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm längden i fältet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "%",
+    "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "C",
+    "typ": "flödestäthet ur största kraft",
+    "poang": "(0/2/0)",
+    "t": "<p>Mellan två cirkulära poler med diametern 55,5 cm finns ett homogent magnetfält. En kabel med strömmen 6,45 A förs genom gapet vinkelrätt mot fältet. Den största kraften blir 1,28 N. Uppskatta flödestätheten.</p>",
+    "s": "<p>Kraften är störst när kabeln går genom polernas diameter: \\(B=\\dfrac{F}{Il}=\\dfrac{1{,}28}{6{,}45\\cdot0{,}555}\\).</p><p><strong>Svar:</strong> \\(0{,}358\\) T</p>",
+    "id": "3.363",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraft på en strömförande ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.35756686919477615,
+    "tolerans": 0.00536,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur lång del av kabeln är som mest i fältet?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "T",
+    "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "C",
+    "typ": "svävande ledare i jordens fält",
+    "poang": "(0/2/0)",
+    "t": "<p>En lång rak aluminiumledare med diametern 1,0 mm ska sväva vågrätt tack vare jordens magnetfält, vars vågräta komposant är 50 µT. Ledaren är vinkelrät mot fältet. Hur stor ström krävs? Aluminiums densitet är 2,70 g/cm³ och \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>Massa per meter: \\(\\rho\\pi r^2=2\\,700\\cdot\\pi\\cdot0{,}00050^2\\approx2{,}12\\cdot10^{-3}\\) kg/m. \\(BI=\\dfrac{mg}{l}\\iff I=\\dfrac{2{,}12\\cdot10^{-3}\\cdot9{,}82}{50\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(416\\) A</p>",
+    "id": "3.364",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraft på en strömförande ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 416.48093808639885,
+    "tolerans": 6.25,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Den magnetiska kraften ska balansera tyngden per meter.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "A",
+    "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+  },
+  {
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "A",
+    "typ": "svävande koppartråd",
+    "poang": "(0/1/2)",
+    "t": "<p>En koppartråd med diametern 1,00 mm och längden 2,00 m kopplas till ett batteri med spänningen 1,5 V. Tråden ligger vinkelrätt mot ett homogent magnetfält och svävar precis. Bestäm flödestätheten. Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm, densiteten 8,96 g/cm³ och \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(R=\\dfrac{\\rho_{el}l}{A}\\approx0{,}043\\) Ω, så \\(I=\\dfrac UR\\approx35\\) A. Massa: \\(8\\,960\\cdot A\\cdot2{,}00\\approx0{,}0141\\) kg.</p><p>\\(BIl=mg\\iff B=\\dfrac{mg}{Il}\\).</p><p><strong>Svar:</strong> \\(0{,}0020\\) T</p>",
+    "id": "3.365",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraft på en strömförande ledare",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.001994376533333333,
+    "tolerans": 5.1e-05,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm strömmen med Ohms lag och resistansformeln, och massan ur densiteten.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "T",
+    "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
   },
   {
     "id": "3.185",

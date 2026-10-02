@@ -3615,6 +3615,59 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "1.671",
+    "kap": 1,
+    "omr": "enhetscirkeln_trianglar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Beräkna exakt:</p><p>\\[\\sin150^\\circ+\\cos240^\\circ+\\tan315^\\circ\\]</p>",
+    "s": "<p>\\(\\sin150^\\circ=\\sin30^\\circ=\\frac12\\) (spegling i \\(y\\)-axeln).</p><p>\\(\\cos240^\\circ=-\\cos60^\\circ=-\\frac12\\) (tredje kvadranten).</p><p>\\(\\tan315^\\circ=-\\tan45^\\circ=-1\\) (fjärde kvadranten).</p><p>Summan: \\(\\frac12-\\frac12-1=-1\\).</p><p><strong>Svar:</strong> \\(-1\\)</p>",
+    "familj": "Exakta trigonometriska värden i enhetscirkeln",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm referensvinkeln och tecknet i rätt kvadrant för varje term.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null
+  },
+  {
+    "id": "1.672",
+    "kap": 1,
+    "omr": "enhetscirkeln_trianglar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En regelbunden åttahörning är inskriven i enhetscirkeln med ett hörn i punkten \\((1,\\,0)\\).</p><p>Bestäm åttahörningens area exakt. Ange svaret exakt eller med tre decimaler.</p>",
+    "s": "<p>Hörnen ligger vid vinklarna \\(0^\\circ, 45^\\circ, 90^\\circ, \\dots\\) på enhetscirkeln. Åttahörningen består av åtta likbenta trianglar med två sidor 1 och toppvinkeln \\(45^\\circ\\).</p><p>Varje triangel har arean \\(\\frac12\\cdot1\\cdot1\\cdot\\sin45^\\circ=\\frac{\\sqrt2}{4}\\).</p><p>Totalt: \\(8\\cdot\\frac{\\sqrt2}{4}=2\\sqrt2\\approx2{,}828\\).</p><p>Kontroll med koordinater: triangeln med hörnen \\((0,0)\\), \\((1,0)\\) och \\(\\left(\\frac{\\sqrt2}2,\\frac{\\sqrt2}2\\right)\\) har basen 1 och höjden \\(\\frac{\\sqrt2}{2}\\).</p><p><strong>Svar:</strong> \\(2\\sqrt2\\approx2{,}828\\)</p>",
+    "familj": "Koordinater och tecken i enhetscirkeln",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dela åttahörningen i trianglar med ett hörn i origo. Använd koordinaterna för hörnet vid \\(45^\\circ\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.8284271247461903,
+    "tolerans": 0.001
+  },
+  {
     "id": "1.565",
     "kap": 1,
     "omr": "enhetscirkeln_formler",
@@ -8509,6 +8562,33 @@ window.BANKMATO2 = [
     "familjTidigare": [
       "Använda trigonometriska ettan"
     ]
+  },
+  {
+    "id": "1.676",
+    "kap": 1,
+    "omr": "trig_identiteter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Det gäller att \\(\\sin x+\\cos x=1{,}2\\).</p><p>Beräkna \\(\\sin x\\cos x\\) utan att bestämma \\(x\\).</p>",
+    "s": "<p>Kvadrera båda leden:</p><p>\\[\\sin^2x+2\\sin x\\cos x+\\cos^2x=1{,}44.\\]</p><p>Trigonometriska ettan ger \\(1+2\\sin x\\cos x=1{,}44\\), alltså \\(\\sin x\\cos x=0{,}22\\).</p><p><strong>Svar:</strong> 0,22</p>",
+    "familj": "Trigonometriska ettan och identiteter",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Kvadrera uttrycket. Vilken identitet förenklar \\(\\sin^2x+\\cos^2x\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.22,
+    "tolerans": 0.0001
   },
   {
     "id": "1.574",
@@ -13487,6 +13567,48 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "omrTidigare": [
       "trig_ekvationer"
+    ]
+  },
+  {
+    "id": "1.677",
+    "kap": 1,
+    "omr": "trig_ekv_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[2\\cos^2x+3\\sin x-3=0\\]</p><p>för \\(0^\\circ\\le x&lt;360^\\circ\\).</p>",
+    "s": "<p>Skriv om med trigonometriska ettan, \\(\\cos^2x=1-\\sin^2x\\):</p><p>\\[2-2\\sin^2x+3\\sin x-3=0\\;\\Leftrightarrow\\;2\\sin^2x-3\\sin x+1=0.\\]</p><p>Med \\(t=\\sin x\\): \\((2t-1)(t-1)=0\\), så \\(t=\\frac12\\) eller \\(t=1\\).</p><p>\\(\\sin x=\\frac12\\) ger \\(x=30^\\circ\\) och \\(x=150^\\circ\\). \\(\\sin x=1\\) ger \\(x=90^\\circ\\).</p><p><strong>Svar:</strong> \\(x=30^\\circ,\\ 90^\\circ,\\ 150^\\circ\\)</p>",
+    "familj": "Trigonometriska ekvationer med andragradssubstitution",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv allt med \\(\\sin x\\) med hjälp av trigonometriska ettan. Då får du en andragradsekvation.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      90,
+      150
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°",
+      "°"
     ]
   },
   {
@@ -23834,6 +23956,48 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.561",
+    "kap": 2,
+    "omr": "cirkelsektorn",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>En cirkelsektor ska ha omkretsen 20 cm. Omkretsen är två radier plus bågen.</p><p>Bestäm radien och medelpunktsvinkeln (i radianer) som ger den största möjliga arean, samt den största arean.</p>",
+    "s": "<p>Med radien \\(r\\) och vinkeln \\(\\theta\\) är bågen \\(r\\theta\\). Omkretsen ger \\(2r+r\\theta=20\\), alltså \\(\\theta=\\frac{20-2r}{r}\\).</p><p>Arean är \\(A=\\frac12r^2\\theta=\\frac12r(20-2r)=10r-r^2\\).</p><p>\\(A'(r)=10-2r=0\\) ger \\(r=5\\). Det är ett maximum eftersom \\(A''=-2&lt;0\\).</p><p>Då är \\(\\theta=\\frac{10}{5}=2\\) rad och \\(A=50-25=25\\) cm².</p><p>Vid största arean är bågen 10 cm, alltså precis halva omkretsen.</p><p><strong>Svar:</strong> \\(r=5\\) cm, \\(\\theta=2\\) rad och arean 25 cm²</p>",
+    "familj": "Båglängd, sektorarea och radianer",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Uttryck vinkeln med \\(r\\) med hjälp av omkretsen. Skriv sedan arean som en funktion av \\(r\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      2,
+      25
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Radie",
+      "Vinkel",
+      "Area"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "cm",
+      "rad",
+      "cm²"
+    ]
+  },
+  {
     "id": "1.599",
     "kap": 2,
     "omr": "radianbegreppet",
@@ -23865,6 +24029,74 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "radianer"
     ]
+  },
+  {
+    "id": "2.559",
+    "kap": 2,
+    "omr": "radianbegreppet",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Jorden roterar ett varv kring sin axel på 24 timmar. Jordens radie är 6 371 km.</p><p><strong>a)</strong> Bestäm jordens vinkelhastighet i radianer per timme. Svara med tre decimaler.</p><p><strong>b)</strong> Hur stor fart i km/h har en punkt i Stockholm, på latitud \\(59{,}3^\\circ\\), på grund av rotationen? Svara i hela km/h.</p>",
+    "s": "<p><strong>a)</strong> \\(\\omega=\\frac{2\\pi}{24}\\approx0{,}262\\) rad/h.</p><p><strong>b)</strong> Stockholm rör sig i en cirkel med radien \\(r=6\\,371\\cdot\\cos59{,}3^\\circ\\approx3\\,253\\) km kring jordaxeln.</p><p>Farten är båglängden per timme: \\(v=\\omega r\\approx0{,}2618\\cdot3\\,253\\approx852\\) km/h.</p><p>Med radianer blir båglängden helt enkelt vinkeln gånger radien. Därför är radianer bekväma här.</p><p><strong>Svar:</strong> a) cirka 0,262 rad/h &nbsp; b) cirka 852 km/h</p>",
+    "familj": "Omvandling mellan grader och radianer",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ett varv är \\(2\\pi\\) radianer. Vilken radie har den cirkel som Stockholm rör sig i?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2617993877991494,
+      851.5467345911997
+    ],
+    "tolerans": [
+      0.001,
+      1
+    ],
+    "svarEtiketter": [
+      "a) Vinkelhastighet",
+      "b) Fart"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "rad/h",
+      "km/h"
+    ]
+  },
+  {
+    "id": "2.560",
+    "kap": 2,
+    "omr": "radianbegreppet",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Hur många radianer vrider sig minutvisaren på 25 minuter? Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>På 60 minuter vrider sig visaren \\(2\\pi\\) radianer. På 25 minuter vrider den sig \\(\\frac{25}{60}\\cdot2\\pi=\\frac{5\\pi}{6}\\approx2{,}618\\) radianer.</p><p><strong>Svar:</strong> \\(\\frac{5\\pi}{6}\\approx2{,}618\\)</p>",
+    "familj": "Omvandling mellan grader och radianer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor del av ett varv är 25 minuter?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.6179938779914944,
+    "tolerans": 0.001
   },
   {
     "id": "1.02",
@@ -89343,6 +89575,48 @@ window.BANKMATO2 = [
     "familjNyckel": "tan_kurvan__period_och_asymptoter_for_tangensfunktioner"
   },
   {
+    "id": "2.558",
+    "kap": 2,
+    "omr": "tan_kurvan",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Betrakta funktionen \\(y=\\tan(3x-45^\\circ)\\).</p><p>Bestäm funktionens period och den minsta positiva \\(x\\)-koordinaten för en lodrät asymptot.</p>",
+    "s": "<p>\\(\\tan u\\) har perioden \\(180^\\circ\\). Med \\(u=3x-45^\\circ\\) blir perioden \\(\\frac{180^\\circ}{3}=60^\\circ\\).</p><p>Asymptoter finns där \\(u=90^\\circ+n\\cdot180^\\circ\\): \\(3x-45^\\circ=90^\\circ+n\\cdot180^\\circ\\), alltså \\(x=45^\\circ+n\\cdot60^\\circ\\).</p><p>Den minsta positiva är \\(x=45^\\circ\\).</p><p><strong>Svar:</strong> perioden \\(60^\\circ\\) och asymptoten \\(x=45^\\circ\\)</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Var har \\(\\tan u\\) sina asymptoter? Sätt \\(u=3x-45^\\circ\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      45
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "Period",
+      "Asymptot"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "°",
+      "°"
+    ]
+  },
+  {
     "id": "1.665",
     "kap": 2,
     "omr": "sinusformad_kurva",
@@ -89522,6 +89796,34 @@ window.BANKMATO2 = [
     "familjNyckel": "sinusformad_kurva__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper"
   },
   {
+    "id": "2.563",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>I en hamn är det högvatten kl. 04.00 med vattennivån 3,8 m och lågvatten kl. 10.15 med nivån 0,6 m. Anta att nivån varierar som en sinusformad funktion av tiden.</p><p>Vilken är vattennivån kl. 14.00? Svara i meter med två decimaler.</p>",
+    "s": "<p>Från högvatten till lågvatten är det en halv period: 6,25 h. Perioden är alltså 12,5 h.</p><p>Jämviktsnivå \\(\\frac{3{,}8+0{,}6}{2}=2{,}2\\) m och amplitud \\(\\frac{3{,}8-0{,}6}{2}=1{,}6\\) m.</p><p>Med maximum vid \\(t=4\\) är cosinus naturlig:</p><p>\\[h(t)=2{,}2+1{,}6\\cos\\left(\\frac{2\\pi}{12{,}5}(t-4)\\right).\\]</p><p>\\(h(14)=2{,}2+1{,}6\\cos(1{,}6\\pi)=2{,}2+1{,}6\\cdot0{,}309\\approx2{,}69\\) m.</p><p>Rimlighet: kl. 14 är det 3,75 h efter lågvattnet, mer än en fjärdedels period. Nivån har alltså passerat medelnivån på väg upp.</p><p><strong>Svar:</strong> cirka 2,69 m</p>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm period, amplitud och jämviktsnivå. Börja modellen i högvattnet med en cosinusfunktion.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.6944271909999156,
+    "tolerans": 0.01,
+    "svarEnhet": "m"
+  },
+  {
     "id": "1.669",
     "kap": 2,
     "omr": "asinx_bcosx",
@@ -89593,6 +89895,48 @@ window.BANKMATO2 = [
     "familjNyckel": "asinx_bcosx__skriva_om_kombinationer_av_sinus_och_cosinus"
   },
   {
+    "id": "2.564",
+    "kap": 2,
+    "omr": "asinx_bcosx",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det största värdet av \\(f(x)=3\\sin x+4\\cos x+2\\) och det minsta \\(x&gt;0^\\circ\\) där det antas. Ange \\(x\\) i grader med en decimal.</p>",
+    "s": "<p>Skriv \\(3\\sin x+4\\cos x=R\\sin(x+\\varphi)\\) med \\(R=\\sqrt{3^2+4^2}=5\\) och \\(\\tan\\varphi=\\frac43\\), alltså \\(\\varphi\\approx53{,}13^\\circ\\).</p><p>Största värdet: \\(5+2=7\\). Det antas när \\(x+53{,}13^\\circ=90^\\circ\\), alltså \\(x\\approx36{,}9^\\circ\\).</p><p>Kontroll: \\(3\\sin36{,}87^\\circ+4\\cos36{,}87^\\circ=3\\cdot0{,}6+4\\cdot0{,}8=5\\).</p><p><strong>Svar:</strong> största värdet 7, när \\(x\\approx36{,}9^\\circ\\)</p>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv om \\(3\\sin x+4\\cos x\\) som en enda sinusfunktion. Vad blir amplituden?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      36.86989764584402
+    ],
+    "tolerans": [
+      0.001,
+      0.1
+    ],
+    "svarEtiketter": [
+      "Största värde",
+      "x"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      null,
+      "°"
+    ]
+  },
+  {
     "id": "1.628",
     "kap": 2,
     "omr": "sinus_cosinuskurvor",
@@ -89661,6 +90005,51 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.565",
+    "kap": 2,
+    "omr": "sinus_cosinuskurvor",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm alla skärningspunkter mellan kurvorna \\(y=3\\sin2x\\) och \\(y=1{,}5\\) för \\(0^\\circ\\le x\\le360^\\circ\\). Ange \\(x\\)-koordinaterna.</p>",
+    "s": "<p>\\(3\\sin2x=1{,}5\\Leftrightarrow\\sin2x=0{,}5\\).</p><p>\\(2x=30^\\circ+n\\cdot360^\\circ\\) eller \\(2x=150^\\circ+n\\cdot360^\\circ\\), alltså \\(x=15^\\circ+n\\cdot180^\\circ\\) eller \\(x=75^\\circ+n\\cdot180^\\circ\\).</p><p>I intervallet: \\(15^\\circ,\\ 75^\\circ,\\ 195^\\circ,\\ 255^\\circ\\).</p><p>Kurvan har perioden \\(180^\\circ\\) och går alltså två hela svängningar i intervallet. Varje svängning skär linjen två gånger.</p><p><strong>Svar:</strong> \\(x=15^\\circ,\\ 75^\\circ,\\ 195^\\circ,\\ 255^\\circ\\)</p>",
+    "familj": "Sinus- och cosinuskurvor i grader",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Lös \\(\\sin2x=0{,}5\\) med generell lösning. Hur många perioder ryms i intervallet?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15,
+      75,
+      195,
+      255
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "°"
+    ]
+  },
+  {
     "id": "1.630",
     "kap": 1,
     "omr": "trig_grundekvationer",
@@ -89721,6 +90110,51 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_funktioner"
+    ]
+  },
+  {
+    "id": "1.674",
+    "kap": 1,
+    "omr": "trig_grundekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[\\sin(2x+30^\\circ)=0{,}5\\]</p><p>för \\(0^\\circ\\le x&lt;360^\\circ\\). Ange alla lösningar.</p>",
+    "s": "<p>\\(\\sin u=0{,}5\\) har lösningarna \\(u=30^\\circ+n\\cdot360^\\circ\\) och \\(u=150^\\circ+n\\cdot360^\\circ\\).</p><p>Med \\(u=2x+30^\\circ\\):</p><ul><li>\\(2x+30^\\circ=30^\\circ+n\\cdot360^\\circ\\Rightarrow x=n\\cdot180^\\circ\\)</li><li>\\(2x+30^\\circ=150^\\circ+n\\cdot360^\\circ\\Rightarrow x=60^\\circ+n\\cdot180^\\circ\\)</li></ul><p>I intervallet: \\(x=0^\\circ,\\ 60^\\circ,\\ 180^\\circ,\\ 240^\\circ\\).</p><p>Eftersom vinkeln är \\(2x\\) är perioden \\(180^\\circ\\), och då blir det dubbelt så många lösningar i ett varv.</p><p><strong>Svar:</strong> \\(x=0^\\circ,\\ 60^\\circ,\\ 180^\\circ,\\ 240^\\circ\\)</p>",
+    "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Lös först för \\(u=2x+30^\\circ\\) med generell lösning. Dela sedan med 2 och tänk på perioden.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      60,
+      180,
+      240
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "°"
     ]
   },
   {
@@ -90203,6 +90637,44 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "1.675",
+    "kap": 1,
+    "omr": "enhetscirkeln_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Det gäller att \\(\\cos v=-\\frac{5}{13}\\) och \\(180^\\circ&lt;v&lt;270^\\circ\\).</p><p>Bestäm \\(\\sin2v\\) och \\(\\cos2v\\) exakt.</p>",
+    "s": "<p>Trigonometriska ettan: \\(\\sin^2v=1-\\frac{25}{169}=\\frac{144}{169}\\). I tredje kvadranten är sinus negativ, så \\(\\sin v=-\\frac{12}{13}\\).</p><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\left(-\\frac{12}{13}\\right)\\left(-\\frac5{13}\\right)=\\frac{120}{169}.\\]</p><p>\\[\\cos2v=\\cos^2v-\\sin^2v=\\frac{25}{169}-\\frac{144}{169}=-\\frac{119}{169}.\\]</p><p>Rimlighet: \\(360^\\circ&lt;2v&lt;540^\\circ\\), alltså andra kvadranten efter ett varv. Där är sinus positiv och cosinus negativ. Det stämmer.</p><p><strong>Svar:</strong> \\(\\sin2v=\\frac{120}{169}\\), \\(\\cos2v=-\\frac{119}{169}\\)</p>",
+    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först \\(\\sin v\\) med rätt tecken. Använd sedan formlerna för dubbla vinkeln.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.7100591715976331,
+      -0.7041420118343196
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "sin 2v",
+      "cos 2v"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "1.645",
     "kap": 1,
     "omr": "additionsformler",
@@ -90294,6 +90766,34 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "trig_formler"
     ]
+  },
+  {
+    "id": "1.673",
+    "kap": 1,
+    "omr": "additionsformler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>De spetsiga vinklarna \\(A\\) och \\(B\\) uppfyller \\(\\tan A=\\frac12\\) och \\(\\tan B=\\frac13\\).</p><p>Bestäm \\(A+B\\) exakt i grader.</p>",
+    "s": "<p>Använd additionsformeln för tangens, eller bestäm sinus och cosinus. Med additionsformeln:</p><p>\\[\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}=\\frac{\\frac12+\\frac13}{1-\\frac16}=\\frac{\\frac56}{\\frac56}=1.\\]</p><p>Båda vinklarna är spetsiga och mindre än \\(45^\\circ\\), eftersom tangensvärdena är mindre än 1. Då är \\(0^\\circ&lt;A+B&lt;90^\\circ\\), och \\(\\tan(A+B)=1\\) ger \\(A+B=45^\\circ\\).</p><p>Utan tangensformeln: \\(\\sin A=\\frac1{\\sqrt5}\\), \\(\\cos A=\\frac2{\\sqrt5}\\), \\(\\sin B=\\frac1{\\sqrt{10}}\\), \\(\\cos B=\\frac3{\\sqrt{10}}\\). Då är \\(\\cos(A+B)=\\frac{6-1}{\\sqrt{50}}=\\frac{1}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(A+B=45^\\circ\\)</p>",
+    "familj": "Använda additionsformler för sinus och cosinus",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Rita rätvinkliga trianglar för \\(A\\) och \\(B\\) och bestäm sinus och cosinus. Beräkna sedan \\(\\cos(A+B)\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 45,
+    "tolerans": null,
+    "svarEnhet": "°"
   },
   {
     "id": "1.648",
@@ -90673,6 +91173,48 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.566",
+    "kap": 2,
+    "omr": "forskjutna_kurvor",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(y=2\\sin(x-40^\\circ)+1\\) betraktas för \\(0^\\circ\\le x\\le360^\\circ\\).</p><p>Bestäm funktionens största värde, det \\(x\\) där det antas, och funktionens minsta värde.</p>",
+    "s": "<p>Sinus varierar mellan \\(-1\\) och 1, så \\(y\\) varierar mellan \\(2\\cdot(-1)+1=-1\\) och \\(2\\cdot1+1=3\\).</p><p>Största värdet antas när \\(x-40^\\circ=90^\\circ\\), alltså \\(x=130^\\circ\\). Minsta värdet antas när \\(x-40^\\circ=270^\\circ\\), alltså \\(x=310^\\circ\\). Båda ligger i intervallet.</p><p>Grafen är \\(y=\\sin x\\) förskjuten \\(40^\\circ\\) åt höger, sträckt till dubbel höjd och flyttad 1 uppåt.</p><p><strong>Svar:</strong> största värdet 3 när \\(x=130^\\circ\\), minsta värdet \\(-1\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vad är det största och minsta värdet av \\(\\sin\\)? När är \\(x-40^\\circ=90^\\circ\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      130,
+      -1
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "Största värde",
+      "x",
+      "Minsta värde"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      null,
+      "°",
+      null
+    ]
+  },
+  {
     "id": "2.539",
     "kap": 2,
     "omr": "derivatan_sin_cos",
@@ -90766,6 +91308,44 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.562",
+    "kap": 2,
+    "omr": "derivatan_sin_cos",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det största värdet av \\(f(x)=\\sin x+\\cos x\\) för \\(0\\le x\\le2\\pi\\), och det \\(x\\) där det antas. Ange \\(x\\) exakt eller med tre decimaler.</p>",
+    "s": "<p>\\(f'(x)=\\cos x-\\sin x=0\\) ger \\(\\tan x=1\\), alltså \\(x=\\frac\\pi4\\) eller \\(x=\\frac{5\\pi}4\\).</p><p>\\(f\\left(\\frac\\pi4\\right)=\\frac{\\sqrt2}2+\\frac{\\sqrt2}2=\\sqrt2\\) och \\(f\\left(\\frac{5\\pi}4\\right)=-\\sqrt2\\). I ändpunkterna är \\(f(0)=f(2\\pi)=1\\).</p><p>Det största värdet är \\(\\sqrt2\\approx1{,}414\\), när \\(x=\\frac\\pi4\\approx0{,}785\\).</p><p><strong>Svar:</strong> största värdet \\(\\sqrt2\\) när \\(x=\\frac\\pi4\\)</p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera och sätt derivatan lika med 0. Jämför med värdena i ändpunkterna.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.4142135623730951,
+      0.7853981633974483
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "Största värde",
+      "x"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.542",
     "kap": 2,
     "omr": "derivata_sammansatta",
@@ -90795,6 +91375,44 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "trig_derivator"
     ]
+  },
+  {
+    "id": "2.567",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f(x)=e^{\\sin x}\\) betraktas för \\(0\\le x\\le2\\pi\\).</p><p>Bestäm \\(f'(\\pi)\\) och funktionens största värde.</p>",
+    "s": "<p>Kedjeregeln: \\(f'(x)=\\cos x\\cdot e^{\\sin x}\\).</p><p>\\(f'(\\pi)=\\cos\\pi\\cdot e^{\\sin\\pi}=-1\\cdot e^0=-1\\).</p><p>\\(f'(x)=0\\) när \\(\\cos x=0\\), eftersom \\(e^{\\sin x}&gt;0\\). Det ger \\(x=\\frac\\pi2\\) eller \\(x=\\frac{3\\pi}2\\).</p><p>\\(f\\left(\\frac\\pi2\\right)=e^1=e\\) och \\(f\\left(\\frac{3\\pi}2\\right)=e^{-1}\\). Det största värdet är \\(e\\approx2{,}718\\).</p><p><strong>Svar:</strong> \\(f'(\\pi)=-1\\) och största värdet \\(e\\)</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Den yttre funktionen är \\(e^u\\) och den inre \\(u=\\sin x\\). När är \\(e^{\\sin x}\\) störst?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      2.718281828459045
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "f'(π)",
+      "Största värde"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.543",

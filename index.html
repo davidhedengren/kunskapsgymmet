@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-03-fy2a";
+const BANK_VERSION="2026-10-03-fy2b";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11144,7 +11144,7 @@ function renderTraining(){
           <div id="ledtrad-holder">${state.hintVisible?ledtradRuta(t):""}</div>
           <div class="aacts">
             ${canAuto
-              ? `<button class="btn primary" onclick="checkAnswer()">Kontrollera</button>
+              ? `<button class="btn primary" id="kollaknapp" onclick="checkAnswer()">Kontrollera</button>
                  ${t.ledtrad&&!state.hintVisible?`<button class="btn" id="ledtradknapp" onclick="visaLedtrad()">Visa ledtråd</button>`:""}
                  <button class="btn" onclick="showSolution()">Visa lösning</button>`
               : `${t.ledtrad&&!state.hintVisible?`<button class="btn" id="ledtradknapp" onclick="visaLedtrad()">Visa ledtråd</button>`:""}
@@ -11848,7 +11848,13 @@ function finishAttempt(resultat){
           ${last?"Se passrapport":"Nästa uppgift"} <span aria-hidden="true">→</span>
         </button>
       </div>`;
-    setTimeout(()=>document.getElementById("nextbtn")?.focus(),80);
+    /* Kontrollera-knappen blir Nästa, så att man inte behöver scrolla ned till resultatet. */
+    const kolla=document.getElementById("kollaknapp");
+    if(kolla){
+      kolla.textContent=last?"Se passrapport →":"Nästa uppgift →";
+      kolla.onclick=()=>last?renderSessionDone():nextTask();
+    }
+    setTimeout(()=>document.getElementById("nextbtn")?.focus({preventScroll:true}),80);
     if(genomgangForslag) setTimeout(()=>tranarForeslarGenomgang(genomgangForslag),700);
   }
 }

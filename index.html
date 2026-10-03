@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-03-fy1z";
+const BANK_VERSION="2026-10-03-fy2a";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9513,6 +9513,19 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
           if(delSvarRatt(anv,f,enhet,tol,t,idx,format)) return true;
         }
       }
+    }
+  }
+  /* Exakt facit (11/3, 3/ln2, 2π) och ett korrekt avrundat decimalsvar med minst tre värdesiffror,
+     när uppgiften inte kräver exakt svar: "3,67" eller "3,667" för 11/3, men inte "3,7". */
+  if(typeof facit==="string" && /[\/√^π]|sqrt|pi|ln|lg|log|sin|cos|tan|e/i.test(facit)
+     && !/exakt|algebraiskt|bråkform/i.test(String(t?.t||""))){
+    const a=stadaSvar(anv).replace(/\s/g,"");
+    const m=a.match(/^-?(\d+)(?:[.,](\d+))?$/);
+    if(m && isPureNumberExpression(facit)){
+      const val=numericValue(tillNerdamer(normalizeMathInput(facit)));
+      const d=(m[2]||"").length;
+      const siffror=(m[1].replace(/^0+/,"")+(m[2]||"")).replace(/^0+/,"").length;
+      if(Number.isFinite(val) && siffror>=3 && Math.abs(talAv(a)-val)<=0.5*Math.pow(10,-d)*(1+1e-9)) return true;
     }
   }
   /* Funktionsformel: "y = 3x − 1", "f(x) = 3x − 1" och bara "3x − 1" betyder samma sak. */

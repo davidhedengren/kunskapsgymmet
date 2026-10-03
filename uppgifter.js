@@ -133586,6 +133586,1787 @@ window.BANK = [
     "spel": true
   },
   {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "okänd massa ur oelastisk stöt",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Partikel A (2,0 kg) med farten 4,0 m/s kör ikapp partikel B (massa \\(m\\)) med farten 2,0 m/s i samma riktning. De fastnar i varandra och får farten 3,6 m/s. Bestäm \\(m\\).</p>",
+    "s": "<p>\\(2{,}0\\cdot4{,}0+2{,}0m=3{,}6(2{,}0+m)\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) kg</p>",
+    "id": "5.430",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": 0.0075,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp rörelsemängdens bevarande.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "hastigheter ur impuls",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Kula A (4,0 kg, 3,0 m/s) och kula B (1,0 kg, 2,0 m/s) rör sig mot varandra. Vid stöten ger A impulsen 6,0 Ns till B. Välj A:s rörelseriktning som positiv.</p><ol type=\"a\"><li>Vilken hastighet har B efter stöten?</li><li>Vilken hastighet har A efter stöten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v_B=-2{,}0+\\dfrac{6{,}0}{1{,}0}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s</p></li><li><p>A får impulsen −6,0 Ns: \\(v_A=3{,}0-\\dfrac{6{,}0}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m/s</p></li></ol>",
+    "id": "5.431",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elastisk stöt och energikontroll",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.0,
+      1.5
+    ],
+    "tolerans": [
+      0.06,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Kula A (4,0 kg, 3,0 m/s) och kula B (1,0 kg, 2,0 m/s) rör sig mot varandra. Vid stöten ger A impulsen 6,0 Ns till B. Välj A:s rörelseriktning som positiv.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken hastighet har B efter stöten?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Kula A (4,0 kg, 3,0 m/s) och kula B (1,0 kg, 2,0 m/s) rör sig mot varandra. Vid stöten ger A impulsen 6,0 Ns till B. Välj A:s rörelseriktning som positiv.</p><p>Vilken hastighet har B efter stöten?</p>",
+        "s": "<p>\\(v_B=-2{,}0+\\dfrac{6{,}0}{1{,}0}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s</p>",
+        "ledtrad": "<p>Impulsen ändrar B:s rörelsemängd.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken hastighet har A efter stöten?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Kula A (4,0 kg, 3,0 m/s) och kula B (1,0 kg, 2,0 m/s) rör sig mot varandra. Vid stöten ger A impulsen 6,0 Ns till B. Välj A:s rörelseriktning som positiv.</p><p>Vilken hastighet har A efter stöten?</p>",
+        "s": "<p>A får impulsen −6,0 Ns: \\(v_A=3{,}0-\\dfrac{6{,}0}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m/s</p>",
+        "ledtrad": "<p>Newtons tredje lag.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Impulserna på kulorna är lika stora men motriktade.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "massa ur skateboardhopp",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Tom (50 kg) hoppar av en stillastående skateboard med den vågräta farten 1,2 m/s, och brädan rullar bakåt med 15 m/s. William hoppar av samma bräda med 1,0 m/s, och då rullar den bakåt med 14 m/s. Bestäm Williams massa.</p>",
+    "s": "<p>Brädans massa: \\(m_b=\\dfrac{50\\cdot1{,}2}{15}=4{,}0\\) kg. William: \\(m=\\dfrac{4{,}0\\cdot14}{1{,}0}\\).</p><p><strong>Svar:</strong> \\(56\\) kg</p>",
+    "id": "5.432",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 56,
+    "tolerans": 0.84,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först brädans massa.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "hammare slår i spik",
+    "poang": "(1/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En hammare (0,40 kg) träffar en spik (50 g) med 4,5 m/s, och de rör sig sedan tillsammans. Plankan bromsar med kraften 120 N.</p><ol type=\"a\"><li>Vilken fart har spiken direkt efter slaget?</li><li>Hur lång tid tar inbromsningen?</li><li>Hur långt slås spiken in?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{0{,}40\\cdot4{,}5}{0{,}45}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s</p></li><li><p>\\(t=\\dfrac{0{,}45\\cdot4{,}0}{120}\\).</p><p><strong>Svar:</strong> \\(0{,}015\\) s</p></li><li><p>\\(d=\\dfrac{4{,}0}{2}\\cdot t\\).</p><p><strong>Svar:</strong> \\(0{,}030\\) m</p></li></ol>",
+    "id": "5.433",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.0,
+      0.015000000000000001,
+      0.030000000000000002
+    ],
+    "tolerans": [
+      0.06,
+      0.00051,
+      0.00051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En hammare (0,40 kg) träffar en spik (50 g) med 4,5 m/s, och de rör sig sedan tillsammans. Plankan bromsar med kraften 120 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har spiken direkt efter slaget?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En hammare (0,40 kg) träffar en spik (50 g) med 4,5 m/s, och de rör sig sedan tillsammans. Plankan bromsar med kraften 120 N.</p><p>Vilken fart har spiken direkt efter slaget?</p>",
+        "s": "<p>\\(v=\\dfrac{0{,}40\\cdot4{,}5}{0{,}45}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s</p>",
+        "ledtrad": "<p>Hammare och spik rör sig tillsammans.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar inbromsningen?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En hammare (0,40 kg) träffar en spik (50 g) med 4,5 m/s, och de rör sig sedan tillsammans. Plankan bromsar med kraften 120 N.</p>Farten efter slaget är 4,0 m/s.<p>Hur lång tid tar inbromsningen?</p>",
+        "s": "<p>\\(t=\\dfrac{0{,}45\\cdot4{,}0}{120}\\).</p><p><strong>Svar:</strong> \\(0{,}015\\) s</p>",
+        "ledtrad": "<p>Impulslagen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt slås spiken in?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En hammare (0,40 kg) träffar en spik (50 g) med 4,5 m/s, och de rör sig sedan tillsammans. Plankan bromsar med kraften 120 N.</p>Farten efter slaget är 4,0 m/s och inbromsningen tar 15 ms.<p>Hur långt slås spiken in?</p>",
+        "s": "<p>\\(d=\\dfrac{4{,}0}{2}\\cdot t\\).</p><p><strong>Svar:</strong> \\(0{,}030\\) m</p>",
+        "ledtrad": "<p>Medelfarten är halva starthastigheten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängd vid slaget, impuls vid inbromsningen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "två kollisioner i ränna",
+    "poang": "(1/1/1)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Föremål P (2,0 kg, 4,0 m/s) kör ikapp föremål Q (3,0 kg, 2,5 m/s). De fastnar och bildar föremålet R.</p><ol type=\"a\"><li>Vilken fart har R?</li><li>R kolliderar med ett stillastående föremål S (15,0 kg). Efteråt rör sig R och S åt var sitt håll med lika stor fart. Hur långt från varandra är de 3,6 s senare?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{2{,}0\\cdot4{,}0+3{,}0\\cdot2{,}5}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(3{,}1\\) m/s</p></li><li><p>\\(5{,}0\\cdot3{,}1=-5{,}0v+15{,}0v\\iff v=1{,}55\\) m/s. Avstånd: \\(2\\cdot1{,}55\\cdot3{,}6\\).</p><p><strong>Svar:</strong> \\(11\\) m</p></li></ol>",
+    "id": "5.434",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.1,
+      11.16
+    ],
+    "tolerans": [
+      0.051,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Föremål P (2,0 kg, 4,0 m/s) kör ikapp föremål Q (3,0 kg, 2,5 m/s). De fastnar och bildar föremålet R.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har R?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Föremål P (2,0 kg, 4,0 m/s) kör ikapp föremål Q (3,0 kg, 2,5 m/s). De fastnar och bildar föremålet R.</p><p>Vilken fart har R?</p>",
+        "s": "<p>\\(v=\\dfrac{2{,}0\\cdot4{,}0+3{,}0\\cdot2{,}5}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(3{,}1\\) m/s</p>",
+        "ledtrad": "<p>Oelastisk stöt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "R kolliderar med ett stillastående föremål S (15,0 kg). Efteråt rör sig R och S åt var sitt håll med lika stor fart. Hur långt från varandra är de 3,6 s senare?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Föremål P (2,0 kg, 4,0 m/s) kör ikapp föremål Q (3,0 kg, 2,5 m/s). De fastnar och bildar föremålet R.</p>R har farten 3,1 m/s.<p>R kolliderar med ett stillastående föremål S (15,0 kg). Efteråt rör sig R och S åt var sitt håll med lika stor fart. Hur långt från varandra är de 3,6 s senare?</p>",
+        "s": "<p>\\(5{,}0\\cdot3{,}1=-5{,}0v+15{,}0v\\iff v=1{,}55\\) m/s. Avstånd: \\(2\\cdot1{,}55\\cdot3{,}6\\).</p><p><strong>Svar:</strong> \\(11\\) m</p>",
+        "ledtrad": "<p>R:s hastighet är negativ efter stöten.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Tänk på riktningarna.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "partikel exploderar",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En partikel i vila exploderar i två bitar, A (0,40 kg) och B (0,60 kg). A får farten 12 m/s. Vilken fart får B?</p>",
+    "s": "<p>\\(0{,}60v=0{,}40\\cdot12\\).</p><p><strong>Svar:</strong> \\(8{,}0\\) m/s</p>",
+    "id": "5.435",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.0,
+    "tolerans": 0.12,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "avstånd efter stöt",
+    "poang": "(0/1/1)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Kloss A (3,0 kg, 7,0 m/s) kör ikapp kloss B (2,0 kg, 5,0 m/s) på friktionsfritt underlag. 3,0 s efter stöten är avståndet mellan dem 2,7 m. Bestäm A:s fart efter stöten.</p>",
+    "s": "<p>\\(v_B-v_A=\\dfrac{2{,}7}{3{,}0}=0{,}90\\) m/s. \\(3{,}0v_A+2{,}0(v_A+0{,}90)=31\\iff v_A=\\dfrac{29{,}2}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(5{,}8\\) m/s</p>",
+    "id": "5.436",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elastisk stöt och energikontroll",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.84,
+    "tolerans": 0.0876,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två ekvationer: rörelsemängd och avstånd.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "kloss faller på kloss",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kloss (4,0 kg) släpps från vila 6,0 m ovanför en kloss (1,0 kg) som ligger på marken. Stöten är helt oelastisk, och de tränger tillsammans 20 cm ned i marken. Hur stor är medelkraften från marken?</p>",
+    "s": "<p>\\(v=\\sqrt{2g\\cdot6{,}0}\\approx10{,}9\\) m/s. Efter stöten: \\(v_2=\\dfrac{4{,}0v}{5{,}0}\\). Energi: \\(F\\cdot0{,}20=\\dfrac{5{,}0v_2^2}{2}+5{,}0\\cdot9{,}82\\cdot0{,}20\\).</p><p><strong>Svar:</strong> \\(992\\) N</p>",
+    "id": "5.437",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 991.8200000000002,
+    "tolerans": 14.9,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fall, stöt och inbromsning för sig.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "N",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "farmor fångar Pelle",
+    "poang": "(2/0/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Farmor Stina (80 kg) åker på rullskridskor med 6,0 m/s rakt mot Pelle (40 kg) som står still. Hon fångar honom.</p><ol type=\"a\"><li>Vilken fart får de tillsammans?</li><li>Hur mycket minskar rörelseenergin?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{80\\cdot6{,}0}{120}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s</p></li><li><p>\\(\\Delta E=\\dfrac{80\\cdot6{,}0^2}{2}-\\dfrac{120\\cdot4{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(480\\) J</p></li></ol>",
+    "id": "5.438",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.0,
+      480
+    ],
+    "tolerans": [
+      0.06,
+      7.2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Farmor Stina (80 kg) åker på rullskridskor med 6,0 m/s rakt mot Pelle (40 kg) som står still. Hon fångar honom.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart får de tillsammans?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Farmor Stina (80 kg) åker på rullskridskor med 6,0 m/s rakt mot Pelle (40 kg) som står still. Hon fångar honom.</p><p>Vilken fart får de tillsammans?</p>",
+        "s": "<p>\\(v=\\dfrac{80\\cdot6{,}0}{120}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s</p>",
+        "ledtrad": "<p>Oelastisk stöt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket minskar rörelseenergin?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Farmor Stina (80 kg) åker på rullskridskor med 6,0 m/s rakt mot Pelle (40 kg) som står still. Hon fångar honom.</p>Farten efter är 4,0 m/s.<p>Hur mycket minskar rörelseenergin?</p>",
+        "s": "<p>\\(\\Delta E=\\dfrac{80\\cdot6{,}0^2}{2}-\\dfrac{120\\cdot4{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(480\\) J</p>",
+        "ledtrad": "<p>Jämför före och efter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Vid en oelastisk stöt minskar rörelseenergin.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "lastbil puttar bil",
+    "poang": "(1/1/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En lastbil (3 000 kg) kör med 10 m/s in i en stillastående bil (1 000 kg), som efter stöten får farten 15 m/s.</p><ol type=\"a\"><li>Vilken fart har lastbilen efter stöten?</li><li>Hur mycket ändras den totala rörelseenergin?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(3\\,000\\cdot10=3\\,000v+1\\,000\\cdot15\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) m/s</p></li><li><p>Före: 150 kJ. Efter: \\(\\dfrac{3\\,000\\cdot5{,}0^2}{2}+\\dfrac{1\\,000\\cdot15^2}{2}=150\\) kJ. Stöten är fullständigt elastisk.</p><p><strong>Svar:</strong> 0 J</p></li></ol>",
+    "id": "5.439",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elastisk stöt och energikontroll",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.0,
+      0
+    ],
+    "tolerans": [
+      0.075,
+      50
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En lastbil (3 000 kg) kör med 10 m/s in i en stillastående bil (1 000 kg), som efter stöten får farten 15 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har lastbilen efter stöten?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En lastbil (3 000 kg) kör med 10 m/s in i en stillastående bil (1 000 kg), som efter stöten får farten 15 m/s.</p><p>Vilken fart har lastbilen efter stöten?</p>",
+        "s": "<p>\\(3\\,000\\cdot10=3\\,000v+1\\,000\\cdot15\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) m/s</p>",
+        "ledtrad": "<p>Rörelsemängden bevaras.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket ändras den totala rörelseenergin?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En lastbil (3 000 kg) kör med 10 m/s in i en stillastående bil (1 000 kg), som efter stöten får farten 15 m/s.</p>Lastbilen har farten 5,0 m/s efter stöten.<p>Hur mycket ändras den totala rörelseenergin?</p>",
+        "s": "<p>Före: 150 kJ. Efter: \\(\\dfrac{3\\,000\\cdot5{,}0^2}{2}+\\dfrac{1\\,000\\cdot15^2}{2}=150\\) kJ. Stöten är fullständigt elastisk.</p><p><strong>Svar:</strong> 0 J</p>",
+        "ledtrad": "<p>Beräkna rörelseenergin före och efter.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Kontrollera rörelseenergin för att avgöra typen av stöt.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "pil och äpple",
+    "poang": "(3/1/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pil (22,5 g) med farten 30 m/s träffar ett stillastående äpple (200 g).</p><ol type=\"a\"><li>Pilen fastnar. Vilken fart får äpplet med pilen?</li><li>Hur mycket rörelseenergi försvinner då?</li><li>Pilen går i stället rakt igenom och har farten 23 m/s efteråt. Vilken fart får äpplet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{0{,}0225\\cdot30}{0{,}2225}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) m/s</p></li><li><p>\\(\\Delta E=\\dfrac{0{,}0225\\cdot30^2}{2}-\\dfrac{0{,}2225v^2}{2}\\).</p><p><strong>Svar:</strong> \\(9{,}1\\) J</p></li><li><p>\\(0{,}200v=0{,}0225(30-23)\\).</p><p><strong>Svar:</strong> \\(0{,}79\\) m/s</p></li></ol>",
+    "id": "5.440",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.033707865168539,
+      9.101123595505618,
+      0.7875
+    ],
+    "tolerans": [
+      0.051,
+      0.137,
+      0.0118
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "J",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pil (22,5 g) med farten 30 m/s träffar ett stillastående äpple (200 g).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Pilen fastnar. Vilken fart får äpplet med pilen?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pil (22,5 g) med farten 30 m/s träffar ett stillastående äpple (200 g).</p><p>Pilen fastnar. Vilken fart får äpplet med pilen?</p>",
+        "s": "<p>\\(v=\\dfrac{0{,}0225\\cdot30}{0{,}2225}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) m/s</p>",
+        "ledtrad": "<p>Oelastisk stöt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket rörelseenergi försvinner då?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pil (22,5 g) med farten 30 m/s träffar ett stillastående äpple (200 g).</p>Farten efter är 3,0 m/s.<p>Hur mycket rörelseenergi försvinner då?</p>",
+        "s": "<p>\\(\\Delta E=\\dfrac{0{,}0225\\cdot30^2}{2}-\\dfrac{0{,}2225v^2}{2}\\).</p><p><strong>Svar:</strong> \\(9{,}1\\) J</p>",
+        "ledtrad": "<p>Jämför före och efter.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Pilen går i stället rakt igenom och har farten 23 m/s efteråt. Vilken fart får äpplet?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pil (22,5 g) med farten 30 m/s träffar ett stillastående äpple (200 g).</p><p>Pilen går i stället rakt igenom och har farten 23 m/s efteråt. Vilken fart får äpplet?</p>",
+        "s": "<p>\\(0{,}200v=0{,}0225(30-23)\\).</p><p><strong>Svar:</strong> \\(0{,}79\\) m/s</p>",
+        "ledtrad": "<p>Rörelsemängden bevaras.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängden bevaras i båda fallen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "krock mellan bil och pickup",
+    "poang": "(0/1/1)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En personbil (1,1 ton) i 90 km/h och en mötande pickup (2,5 ton) krockar och fastnar i varandra. Efteråt rör de sig med 10 km/h i pickupens riktning. Hur stor andel av rörelseenergin försvann? Svara i procent.</p>",
+    "s": "<p>Pickupens fart: \\(2{,}5v-1{,}1\\cdot90=3{,}6\\cdot10\\iff v=54\\) km/h. Jämför rörelseenergin före och efter.</p><p><strong>Svar:</strong> \\(98\\) %</p>",
+    "id": "5.441",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 97.77777777777777,
+    "tolerans": 1.47,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först pickupens fart.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "%",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "baseboll mot tegelsten",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En baseboll (144 g) med farten 28,0 m/s träffar en stillaliggande tegelsten (5,25 kg) på friktionsfritt underlag. Stenen får farten 1,10 m/s och bollen studsar tillbaka. Hur stor andel av sin rörelseenergi förlorade bollen? Svara i procent.</p>",
+    "s": "<p>\\(0{,}144\\cdot28{,}0=0{,}144v+5{,}25\\cdot1{,}10\\iff v\\approx-12{,}1\\) m/s. Andel: \\(1-\\left(\\dfrac{12{,}1}{28{,}0}\\right)^2\\).</p><p><strong>Svar:</strong> \\(81\\) %</p>",
+    "id": "5.442",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elastisk stöt och energikontroll",
+    "svarstyp": "numeriskt",
+    "rättSvar": 81.31239149305554,
+    "tolerans": 1.22,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm bollens fart efter stöten.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "%",
+    "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "kula genom träkloss",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (3,0 g) med farten 500 m/s går rakt igenom en träkloss (2,7 kg) och lämnar den med 220 m/s. Vilken fart får klossen?</p>",
+    "s": "<p>\\(2{,}7v=0{,}0030(500-220)\\).</p><p><strong>Svar:</strong> \\(0{,}31\\) m/s</p>",
+    "id": "5.443",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elastisk stöt och energikontroll",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.31111111111111106,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelsemängden bevaras.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "kulans massa",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula går rakt igenom en träkloss (2,0 kg). Kulans fart minskar från 240 m/s till 150 m/s, och klossen får farten 1,50 m/s. Bestäm kulans massa.</p>",
+    "s": "<p>\\(m(240-150)=2{,}0\\cdot1{,}50\\).</p><p><strong>Svar:</strong> \\(0{,}033\\) kg</p>",
+    "id": "5.444",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elastisk stöt och energikontroll",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.03333333333333333,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelsemängden bevaras.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "stoppa en rullande SUV",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En SUV (2,0 ton) rullar med 1,6 m/s. Du kör din bil (1,2 ton) rakt mot den, och efter krocken står båda bilarna still. Hur fort körde du?</p>",
+    "s": "<p>Total rörelsemängd noll: \\(v=\\dfrac{2{,}0\\cdot1{,}6}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) m/s</p>",
+    "id": "5.445",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.666666666666667,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelsemängderna tar ut varandra.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "isblock som kör ikapp",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Ett isblock (2,0 kg) glider med 1,0 m/s. Ett annat isblock med farten 4,0 m/s kommer bakifrån, kolliderar och fastnar. De fortsätter med 2,0 m/s. Hur mycket rörelseenergi försvann?</p>",
+    "s": "<p>Det andra blockets massa: \\(2{,}0\\cdot1{,}0+4{,}0m=2{,}0(2{,}0+m)\\iff m=1{,}0\\) kg. \\(\\Delta E=\\dfrac{2{,}0\\cdot1{,}0^2}{2}+\\dfrac{1{,}0\\cdot4{,}0^2}{2}-\\dfrac{3{,}0\\cdot2{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) J</p>",
+    "id": "5.446",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först det andra blockets massa.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "skridskokrock",
+    "poang": "(2/0/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En skridskoåkare (75,0 kg) i 10,0 m/s kör in i en stillastående skridskoåkare (50,0 kg). De håller fast i varandra och far iväg med 6,00 m/s. Stöten tar 100 ms.</p><ol type=\"a\"><li>Hur stor impuls får den lättare åkaren?</li><li>Hur stor medelkraft verkar på varje åkare?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=50{,}0\\cdot6{,}00\\).</p><p><strong>Svar:</strong> \\(300\\) Ns</p></li><li><p>\\(F=\\dfrac{300}{0{,}100}\\), mindre än 4,5 kN som krävs för benbrott.</p><p><strong>Svar:</strong> \\(3\\,000\\) N</p></li></ol>",
+    "id": "5.447",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      300,
+      3000
+    ],
+    "tolerans": [
+      5.1,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Ns",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En skridskoåkare (75,0 kg) i 10,0 m/s kör in i en stillastående skridskoåkare (50,0 kg). De håller fast i varandra och far iväg med 6,00 m/s. Stöten tar 100 ms.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor impuls får den lättare åkaren?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En skridskoåkare (75,0 kg) i 10,0 m/s kör in i en stillastående skridskoåkare (50,0 kg). De håller fast i varandra och far iväg med 6,00 m/s. Stöten tar 100 ms.</p><p>Hur stor impuls får den lättare åkaren?</p>",
+        "s": "<p>\\(I=50{,}0\\cdot6{,}00\\).</p><p><strong>Svar:</strong> \\(300\\) Ns</p>",
+        "ledtrad": "<p>Impuls = ändring i rörelsemängd.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor medelkraft verkar på varje åkare?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En skridskoåkare (75,0 kg) i 10,0 m/s kör in i en stillastående skridskoåkare (50,0 kg). De håller fast i varandra och far iväg med 6,00 m/s. Stöten tar 100 ms.</p>Den lättare åkaren får impulsen 300 Ns.<p>Hur stor medelkraft verkar på varje åkare?</p>",
+        "s": "<p>\\(F=\\dfrac{300}{0{,}100}\\), mindre än 4,5 kN som krävs för benbrott.</p><p><strong>Svar:</strong> \\(3\\,000\\) N</p>",
+        "ledtrad": "<p>\\(F=\\dfrac{I}{\\Delta t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Åkarna får lika stora men motriktade impulser.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "studsande boll",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En boll (14 g) släpps från 1,5 m och studsar upp till 0,85 m.</p><ol type=\"a\"><li>Hur stor impuls får bollen från golvet?</li><li>Hur mycket mekanisk energi blir värme?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=0{,}014\\left(\\sqrt{2g\\cdot1{,}5}+\\sqrt{2g\\cdot0{,}85}\\right)\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(0{,}13\\) Ns</p></li><li><p>\\(\\Delta E=mg(1{,}5-0{,}85)\\).</p><p><strong>Svar:</strong> \\(0{,}089\\) J</p></li></ol>",
+    "id": "5.448",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elastisk stöt och energikontroll",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.13318950214162276,
+      0.08936200000000001
+    ],
+    "tolerans": [
+      0.0051,
+      0.00134
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Ns",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En boll (14 g) släpps från 1,5 m och studsar upp till 0,85 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor impuls får bollen från golvet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En boll (14 g) släpps från 1,5 m och studsar upp till 0,85 m.</p><p>Hur stor impuls får bollen från golvet?</p>",
+        "s": "<p>\\(I=0{,}014\\left(\\sqrt{2g\\cdot1{,}5}+\\sqrt{2g\\cdot0{,}85}\\right)\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(0{,}13\\) Ns</p>",
+        "ledtrad": "<p>Farten byter riktning vid studsen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket mekanisk energi blir värme?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En boll (14 g) släpps från 1,5 m och studsar upp till 0,85 m.</p><p>Hur mycket mekanisk energi blir värme?</p>",
+        "s": "<p>\\(\\Delta E=mg(1{,}5-0{,}85)\\).</p><p><strong>Svar:</strong> \\(0{,}089\\) J</p>",
+        "ledtrad": "<p>Jämför lägesenergin.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Energiprincipen och impulslagen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "isbitar uppför backe",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En isbit (5,00 kg, 12,0 m/s) träffar en stillastående isbit (5,00 kg) och fastnar. Hur högt upp i en friktionsfri backe kommer de?</p>",
+    "s": "<p>\\(v=6{,}0\\) m/s. \\(h=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(1{,}83\\) m</p>",
+    "id": "5.449",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.8329938900203666,
+    "tolerans": 0.0275,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Stöt, sedan energiprincipen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "pulka med passagerare",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Gabriel (50,0 kg) springer med 4,00 m/s och kastar sig på en stillastående pulka (5,00 kg) på toppen av en backe. Efter 5,00 m höjdminskning plockar han upp sin stillastående bror Juan (60,0 kg). De åker sedan ned ytterligare 15,0 m. Vilken fart har de längst ned? Bortse från friktion.</p>",
+    "s": "<p>\\(v_1=\\dfrac{200}{55{,}0}\\). \\(v_2=\\sqrt{v_1^2+2g\\cdot5{,}00}\\). \\(v_3=\\dfrac{55{,}0v_2}{115}\\). \\(v=\\sqrt{v_3^2+2g\\cdot15{,}0}\\).</p><p><strong>Svar:</strong> \\(17{,}9\\) m/s</p>",
+    "id": "5.450",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17.890953031576373,
+    "tolerans": 0.268,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Växla mellan rörelsemängd och energi.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "kula i träbit uppåt",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (25,0 g) skjuts rakt upp in i en träbit (1,40 kg) med farten 230 m/s och fastnar. Hur högt kommer träbiten?</p>",
+    "s": "<p>\\(v=\\dfrac{0{,}0250\\cdot230}{1{,}425}\\). \\(h=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(0{,}829\\) m</p>",
+    "id": "5.451",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8290189868855151,
+    "tolerans": 0.0124,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Stöt, sedan energiprincipen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "kula genom två klossar",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (4,00 g) med farten 355 m/s går igenom en träkloss (1 150 g), som får farten 0,550 m/s. Sedan fastnar kulan i en andra träkloss (1 530 g). Vilken fart får den andra klossen?</p>",
+    "s": "<p>Kulans fart efter första klossen: \\(\\dfrac{0{,}004\\cdot355-1{,}15\\cdot0{,}550}{0{,}004}\\approx197\\) m/s. \\(v=\\dfrac{0{,}004\\cdot197}{1{,}534}\\).</p><p><strong>Svar:</strong> \\(0{,}513\\) m/s</p>",
+    "id": "5.452",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5133637548891786,
+    "tolerans": 0.0077,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två stötar efter varandra.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "raketsteg separeras",
+    "poang": "(1/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En raket (3 600 kg) färdas med 4 900 m/s. Den delas i två steg. Det övre steget (1 200 kg) får farten 5 700 m/s framåt.</p><ol type=\"a\"><li>Vilken fart får det nedre steget (2 400 kg)?</li><li>Hur mycket energi frigjordes?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(3\\,600\\cdot4\\,900=1\\,200\\cdot5\\,700+2\\,400v\\).</p><p><strong>Svar:</strong> \\(4\\,500\\) m/s</p></li><li><p>Ökningen i rörelseenergi: \\(\\dfrac{1\\,200\\cdot5\\,700^2}{2}+\\dfrac{2\\,400\\cdot4\\,500^2}{2}-\\dfrac{3\\,600\\cdot4\\,900^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{8}\\) J</p></li></ol>",
+    "id": "5.453",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4500.0,
+      576000000.0
+    ],
+    "tolerans": [
+      67.5,
+      8640000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En raket (3 600 kg) färdas med 4 900 m/s. Den delas i två steg. Det övre steget (1 200 kg) får farten 5 700 m/s framåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart får det nedre steget (2 400 kg)?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En raket (3 600 kg) färdas med 4 900 m/s. Den delas i två steg. Det övre steget (1 200 kg) får farten 5 700 m/s framåt.</p><p>Vilken fart får det nedre steget (2 400 kg)?</p>",
+        "s": "<p>\\(3\\,600\\cdot4\\,900=1\\,200\\cdot5\\,700+2\\,400v\\).</p><p><strong>Svar:</strong> \\(4\\,500\\) m/s</p>",
+        "ledtrad": "<p>Rörelsemängden bevaras.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi frigjordes?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En raket (3 600 kg) färdas med 4 900 m/s. Den delas i två steg. Det övre steget (1 200 kg) får farten 5 700 m/s framåt.</p>Det nedre steget får farten 4 500 m/s.<p>Hur mycket energi frigjordes?</p>",
+        "s": "<p>Ökningen i rörelseenergi: \\(\\dfrac{1\\,200\\cdot5\\,700^2}{2}+\\dfrac{2\\,400\\cdot4\\,500^2}{2}-\\dfrac{3\\,600\\cdot4\\,900^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{8}\\) J</p>",
+        "ledtrad": "<p>Jämför rörelseenergin före och efter.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Vid en explosion ökar rörelseenergin.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "bomb delas",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En bomb (7,0 kg) i vila delas i två delar: 2,0 kg och 5,0 kg. Den tyngre delen får rörelseenergin 100 J. Hur stor rörelseenergi får den lättare?</p>",
+    "s": "<p>Lika stora rörelsemängder ger \\(E=\\dfrac{p^2}{2m}\\): \\(E_{lätt}=100\\cdot\\dfrac{5{,}0}{2{,}0}\\).</p><p><strong>Svar:</strong> \\(250\\) J</p>",
+    "id": "5.454",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 250,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E_k=\\dfrac{p^2}{2m}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "energin delas vid explosion",
+    "poang": "(0/1/1)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En explosion delar ett föremål i två delar, där den ena har 1,5 gånger så stor massa som den andra. Energin 5,5 kJ blir rörelseenergi hos delarna. Hur stor rörelseenergi får den lättare delen?</p>",
+    "s": "<p>\\(E\\sim\\dfrac1m\\), så den lättare får \\(\\dfrac{1{,}5}{2{,}5}\\) av energin.</p><p><strong>Svar:</strong> \\(3\\,300\\) J</p>",
+    "id": "5.455",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3300.0,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E_k=\\dfrac{p^2}{2m}\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "J",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "klossar når väggarna samtidigt",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En fjäder trycks ihop mellan klossarna A (0,60 kg) och B på ett friktionsfritt bord. A är 1,0 m och B 3,0 m från var sin vägg. Klossarna når väggarna samtidigt. Bestäm B:s massa.</p>",
+    "s": "<p>B rör sig tre gånger så fort, så \\(m_B=\\dfrac{0{,}60}{3}\\).</p><p><strong>Svar:</strong> \\(0{,}20\\) kg</p>",
+    "id": "5.456",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.2,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma tid ger farter i proportion till sträckorna.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "kanon som kan rulla",
+    "poang": "(0/1/2)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En fastsatt kanon (5,8 ton) skjuter en projektil (85,0 kg) med 551 m/s. Samma laddning används när kanonen kan rulla fritt. Vilken rekylfart får kanonen? (Samma energi delas nu mellan kanon och projektil.)</p>",
+    "s": "<p>\\(E=\\dfrac{85{,}0\\cdot551^2}{2}\\). Med \\(MV=mv\\): \\(E=\\dfrac{MV^2}{2}\\left(1+\\dfrac Mm\\right)\\iff V=\\sqrt{\\dfrac{2E}{M(1+M/m)}}\\).</p><p><strong>Svar:</strong> \\(8{,}0\\) m/s</p>",
+    "id": "5.457",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.016472262012298,
+    "tolerans": 0.12,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kombinera rörelsemängd och energi.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "superhjälte fångar skurk",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En superhjälte (80,0 kg) svingar sig i ett rep från 5,0 m höjd och fångar en skurk (70,0 kg) i banans lägsta punkt. Hur högt kommer de?</p>",
+    "s": "<p>\\(v=\\sqrt{2g\\cdot5{,}0}\\), efter fångsten \\(v_2=\\dfrac{80{,}0v}{150}\\). \\(h=\\dfrac{v_2^2}{2g}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) m</p>",
+    "id": "5.458",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4222222222222218,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Energi, rörelsemängd och energi igen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "Jane räddar Tarzan",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Jane svingar sig i en lian från 10 m höjd och fångar Tarzan (70 kg) i banans lägsta punkt. Tillsammans kommer de precis upp till en avsats 3,0 m upp. Hur mycket väger Jane?</p>",
+    "s": "<p>\\(v=\\sqrt{2g\\cdot10}\\), \\(v_2=\\sqrt{2g\\cdot3{,}0}\\). \\(mv=(m+70)v_2\\iff m=\\dfrac{70v_2}{v-v_2}\\).</p><p><strong>Svar:</strong> \\(85\\) kg</p>",
+    "id": "5.459",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 84.77225575051663,
+    "tolerans": 1.27,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp rörelsemängden vid fångsten.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "kg",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "ballistisk pendel",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (5,00 g) skjuts in i en hängande träkloss (1,000 kg) och fastnar. Klossen svingar upp till höjden 5,00 cm.</p><ol type=\"a\"><li>Vilken fart har klossen direkt efter träffen?</li><li>Vilken fart hade kulan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot0{,}0500}\\).</p><p><strong>Svar:</strong> \\(0{,}991\\) m/s</p></li><li><p>\\(u=\\dfrac{1{,}005v}{0{,}00500}\\).</p><p><strong>Svar:</strong> \\(199\\) m/s</p></li></ol>",
+    "id": "5.460",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.9909591313469996,
+      199.1827854007469
+    ],
+    "tolerans": [
+      0.0149,
+      2.99
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (5,00 g) skjuts in i en hängande träkloss (1,000 kg) och fastnar. Klossen svingar upp till höjden 5,00 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har klossen direkt efter träffen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (5,00 g) skjuts in i en hängande träkloss (1,000 kg) och fastnar. Klossen svingar upp till höjden 5,00 cm.</p><p>Vilken fart har klossen direkt efter träffen?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot0{,}0500}\\).</p><p><strong>Svar:</strong> \\(0{,}991\\) m/s</p>",
+        "ledtrad": "<p>Energiprincipen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart hade kulan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (5,00 g) skjuts in i en hängande träkloss (1,000 kg) och fastnar. Klossen svingar upp till höjden 5,00 cm.</p>Klossens fart direkt efter träffen är 0,991 m/s.<p>Vilken fart hade kulan?</p>",
+        "s": "<p>\\(u=\\dfrac{1{,}005v}{0{,}00500}\\).</p><p><strong>Svar:</strong> \\(199\\) m/s</p>",
+        "ledtrad": "<p>Rörelsemängden bevaras vid träffen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängd vid träffen, energi vid svingen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "gevärskula i ballistisk pendel",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (12,0 g) med farten 380 m/s skjuts in i en ballistisk pendel (6,00 kg).</p><ol type=\"a\"><li>Hur högt svingar pendeln?</li><li>Hur stor rörelseenergi finns kvar direkt efter träffen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{0{,}0120\\cdot380}{6{,}012}\\). \\(h=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(0{,}029\\) m</p></li><li><p>\\(E=\\dfrac{6{,}012v^2}{2}\\), att jämföra med kulans 866 J.</p><p><strong>Svar:</strong> \\(1{,}7\\) J</p></li></ol>",
+    "id": "5.461",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.029292083134567087,
+      1.72934131736527
+    ],
+    "tolerans": [
+      0.00051,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (12,0 g) med farten 380 m/s skjuts in i en ballistisk pendel (6,00 kg).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur högt svingar pendeln?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (12,0 g) med farten 380 m/s skjuts in i en ballistisk pendel (6,00 kg).</p><p>Hur högt svingar pendeln?</p>",
+        "s": "<p>\\(v=\\dfrac{0{,}0120\\cdot380}{6{,}012}\\). \\(h=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(0{,}029\\) m</p>",
+        "ledtrad": "<p>Stöt, sedan energiprincipen.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor rörelseenergi finns kvar direkt efter träffen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (12,0 g) med farten 380 m/s skjuts in i en ballistisk pendel (6,00 kg).</p><p>Hur stor rörelseenergi finns kvar direkt efter träffen?</p>",
+        "s": "<p>\\(E=\\dfrac{6{,}012v^2}{2}\\), att jämföra med kulans 866 J.</p><p><strong>Svar:</strong> \\(1{,}7\\) J</p>",
+        "ledtrad": "<p>Använd farten efter träffen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Nästan all rörelseenergi blir värme.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "kulans fart ur höjd",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (10,0 g) skjuts in i en ballistisk pendel (2,50 kg), som svingar upp till 0,650 m. Vilken fart hade kulan?</p>",
+    "s": "<p>\\(v=\\sqrt{2g\\cdot0{,}650}\\). \\(u=\\dfrac{2{,}51v}{0{,}0100}\\).</p><p><strong>Svar:</strong> \\(897\\) m/s</p>",
+    "id": "5.462",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 896.8114439501761,
+    "tolerans": 13.5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Arbeta baklänges.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "andel energi som blir värme",
+    "poang": "(0/1/1)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (18,0 g) skjuts in i en ballistisk pendel (0,380 kg) och fastnar. Hur stor andel av kulans rörelseenergi blir värme? Svara i procent.</p>",
+    "s": "<p>Andelen som blir kvar är \\(\\dfrac{m}{m+M}\\), så andelen värme är \\(\\dfrac{M}{m+M}=\\dfrac{0{,}380}{0{,}398}\\).</p><p><strong>Svar:</strong> \\(95\\) %</p>",
+    "id": "5.463",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 95.47738693467336,
+    "tolerans": 1.43,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Teckna rörelseenergin före och efter.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "%",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "pendel som träffas av kula",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pendel (3,1 kg) hänger i en 2,8 m lång tråd. En kula (28 g) med farten 190 m/s fastnar i den.</p><ol type=\"a\"><li>Hur högt svingar pendeln?</li><li>Hur långt ut i sidled kommer pendeln?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{0{,}028\\cdot190}{3{,}128}\\). \\(h=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\) m</p></li><li><p>\\(x=\\sqrt{L^2-(L-h)^2}\\).</p><p><strong>Svar:</strong> \\(0{,}90\\) m</p></li></ol>",
+    "id": "5.464",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.14728153178947764,
+      0.896149947505896
+    ],
+    "tolerans": [
+      0.0051,
+      0.0134
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pendel (3,1 kg) hänger i en 2,8 m lång tråd. En kula (28 g) med farten 190 m/s fastnar i den.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur högt svingar pendeln?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pendel (3,1 kg) hänger i en 2,8 m lång tråd. En kula (28 g) med farten 190 m/s fastnar i den.</p><p>Hur högt svingar pendeln?</p>",
+        "s": "<p>\\(v=\\dfrac{0{,}028\\cdot190}{3{,}128}\\). \\(h=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\) m</p>",
+        "ledtrad": "<p>Stöt, sedan energiprincipen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt ut i sidled kommer pendeln?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pendel (3,1 kg) hänger i en 2,8 m lång tråd. En kula (28 g) med farten 190 m/s fastnar i den.</p>Pendeln svingar upp 0,147 m.<p>Hur långt ut i sidled kommer pendeln?</p>",
+        "s": "<p>\\(x=\\sqrt{L^2-(L-h)^2}\\).</p><p><strong>Svar:</strong> \\(0{,}90\\) m</p>",
+        "ledtrad": "<p>Rita pendeln i ytterläget.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Pendeln rör sig längs en cirkelbåge.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "kula i kloss som glider",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (5,00 g) fastnar i en träkloss (1,20 kg) som glider 0,230 m innan den stannar. Friktionstalet är 0,200. Vilken fart hade kulan?</p>",
+    "s": "<p>Klossens fart: \\(v=\\sqrt{2\\mu gs}\\). \\(u=\\dfrac{1{,}205v}{0{,}00500}\\).</p><p><strong>Svar:</strong> \\(229\\) m/s</p>",
+    "id": "5.465",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 229.0692005486552,
+    "tolerans": 3.44,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Arbeta baklänges.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "klossar uppför plan",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kloss (1,1 kg) med farten 9,50 m/s kolliderar helt oelastiskt med en stillastående kloss (2,0 kg). De glider sedan uppför ett friktionsfritt plan med lutningen 37°. Hur långt uppför planet kommer de?</p>",
+    "s": "<p>\\(v=\\dfrac{1{,}1\\cdot9{,}50}{3{,}1}\\). \\(s=\\dfrac{v^2}{2g\\sin37^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}96\\) m</p>",
+    "id": "5.466",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.9614012554330074,
+    "tolerans": 0.0144,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Stöt, sedan rörelse uppför planet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "kula i kloss med fjäder",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (5,00 g) fastnar i en kloss (2,000 kg) som är fäst i en fjäder (600 N/m) på friktionsfritt underlag. Fjädern trycks ihop som mest 6,00 cm. Vilken fart hade kulan?</p>",
+    "s": "<p>\\(\\dfrac{2{,}005v^2}{2}=\\dfrac{600\\cdot0{,}0600^2}{2}\\). \\(u=\\dfrac{2{,}005v}{0{,}00500}\\).</p><p><strong>Svar:</strong> \\(416\\) m/s</p>",
+    "id": "5.467",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 416.211484704591,
+    "tolerans": 6.24,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Arbeta baklänges.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "sten studsar mot kloss med fjäder",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En sten (3,0 kg) med farten 8,00 m/s träffar en kloss (15,0 kg) i vila, som är fäst i en fjäder (500,0 N/m). Stenen studsar tillbaka med 3,00 m/s. Hur mycket trycks fjädern ihop som mest?</p>",
+    "s": "<p>\\(15{,}0V=3{,}0(8{,}00+3{,}00)\\iff V=2{,}2\\) m/s. \\(x=V\\sqrt{\\dfrac{15{,}0}{500{,}0}}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\) m</p>",
+    "id": "5.468",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elastisk stöt och energikontroll",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.38105117766515306,
+    "tolerans": 0.00572,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Stöt, sedan energiprincipen för klossen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "klättrare som knuffar ifrån",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Lars (120 kg) och Fredrik (78 kg) hänger i samma rep i jämnhöjd. Lars knuffar iväg Fredrik och svingar sedan upp 0,65 m. Hur högt svingar Fredrik?</p>",
+    "s": "<p>\\(v_L=\\sqrt{2g\\cdot0{,}65}\\), \\(v_F=\\dfrac{120v_L}{78}\\). \\(h=\\dfrac{v_F^2}{2g}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m</p>",
+    "id": "5.469",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5384615384615385,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Höjden är proportionell mot farten i kvadrat.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "luftgevär",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Ett luftgevär (1,200 kg) frigör energin 5,000 J, som blir rörelseenergi hos en blykula (0,5000 g) och gevärets rekyl.</p><ol type=\"a\"><li>Hur stor rörelseenergi får kulan?</li><li>Vilken fart får kulan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E\\sim\\dfrac1m\\): kulan får andelen \\(\\dfrac{1{,}200}{1{,}2005}\\).</p><p><strong>Svar:</strong> \\(4{,}998\\) J</p></li><li><p>\\(v=\\sqrt{\\dfrac{2E}{m}}\\).</p><p><strong>Svar:</strong> \\(141{,}4\\) m/s</p></li></ol>",
+    "id": "5.470",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.997917534360684,
+      141.39190265868388
+    ],
+    "tolerans": [
+      0.005,
+      0.5
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Ett luftgevär (1,200 kg) frigör energin 5,000 J, som blir rörelseenergi hos en blykula (0,5000 g) och gevärets rekyl.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor rörelseenergi får kulan?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Ett luftgevär (1,200 kg) frigör energin 5,000 J, som blir rörelseenergi hos en blykula (0,5000 g) och gevärets rekyl.</p><p>Hur stor rörelseenergi får kulan?</p>",
+        "s": "<p>\\(E\\sim\\dfrac1m\\): kulan får andelen \\(\\dfrac{1{,}200}{1{,}2005}\\).</p><p><strong>Svar:</strong> \\(4{,}998\\) J</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{p^2}{2m}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart får kulan?",
+        "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Ett luftgevär (1,200 kg) frigör energin 5,000 J, som blir rörelseenergi hos en blykula (0,5000 g) och gevärets rekyl.</p><p>Vilken fart får kulan?</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2E}{m}}\\).</p><p><strong>Svar:</strong> \\(141{,}4\\) m/s</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}2\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Nästan all energi går till kulan.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "krut i patron",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>Ett gevär (5,0 kg) skjuter en kula (10 g) med 850 m/s. Krutet avger 3,0 kJ per gram, och 48 % blir rörelseenergi. Hur mycket krut behövs?</p>",
+    "s": "<p>Rekyl: \\(V=\\dfrac{0{,}010\\cdot850}{5{,}0}\\). Rörelseenergi: \\(\\dfrac{0{,}010\\cdot850^2}{2}+\\dfrac{5{,}0V^2}{2}\\). Krut: \\(\\dfrac{E}{0{,}48\\cdot3\\,000}\\) gram.</p><p><strong>Svar:</strong> \\(2{,}5\\) g</p>",
+    "id": "5.471",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5136979166666666,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna med både kulans och gevärets rörelseenergi.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "g",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "proton studsar mot guldatom",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En proton med farten \\(5{,}0\\cdot10^7\\) m/s träffar en guldatom i vila med 197 gånger protonens massa. Protonen studsar rakt tillbaka med 90 % av sin fart. Vilken fart får guldatomen?</p>",
+    "s": "<p>\\(m\\cdot5{,}0\\cdot10^7=-m\\cdot0{,}90\\cdot5{,}0\\cdot10^7+197mV\\iff V=\\dfrac{1{,}90\\cdot5{,}0\\cdot10^7}{197}\\).</p><p><strong>Svar:</strong> \\(4{,}8\\cdot10^{5}\\) m/s</p>",
+    "id": "5.472",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elastisk stöt och energikontroll",
+    "svarstyp": "numeriskt",
+    "rättSvar": 482233.5025380711,
+    "tolerans": 7230.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tänk på riktningen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "8.387",
     "kap": 8,
     "omr": "coulomb",

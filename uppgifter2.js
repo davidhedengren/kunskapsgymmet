@@ -40098,6 +40098,272 @@ window.BANK2 = [
     "familjNyckel": "atomstruktur__energinivaer_i_vateatomen"
   },
   {
+    "kap": 4,
+    "omr": "atomstruktur",
+    "niva": "E",
+    "typ": "Bohrradien och banfarten",
+    "poang": "(2/0/0)",
+    "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><ol type=\"a\"><li>Beräkna Bohrradien \\(r_1\\).</li><li>Beräkna \\(v_1\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r_1=\\dfrac{8{,}854\\cdot10^{-12}\\cdot(6{,}626\\cdot10^{-34})^2}{\\pi\\cdot9{,}109\\cdot10^{-31}\\cdot(1{,}602\\cdot10^{-19})^2}\\).</p><p><strong>Svar:</strong> \\(5{,}29\\cdot10^{-11}\\) m</p></li><li><p>\\(v_1=\\dfrac{(1{,}602\\cdot10^{-19})^2}{2\\cdot8{,}854\\cdot10^{-12}\\cdot6{,}626\\cdot10^{-34}}\\).</p><p><strong>Svar:</strong> \\(2{,}19\\cdot10^{6}\\) m/s</p></li></ol>",
+    "id": "4.507",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energinivåer i väteatomen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.292937703265638e-11,
+      2187278.472774733
+    ],
+    "tolerans": [
+      7.94e-13,
+      32800.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna Bohrradien \\(r_1\\).",
+        "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Beräkna Bohrradien \\(r_1\\).</p>",
+        "s": "<p>\\(r_1=\\dfrac{8{,}854\\cdot10^{-12}\\cdot(6{,}626\\cdot10^{-34})^2}{\\pi\\cdot9{,}109\\cdot10^{-31}\\cdot(1{,}602\\cdot10^{-19})^2}\\).</p><p><strong>Svar:</strong> \\(5{,}29\\cdot10^{-11}\\) m</p>",
+        "ledtrad": "<p>Sätt in konstanterna.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna \\(v_1\\).",
+        "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Beräkna \\(v_1\\).</p>",
+        "s": "<p>\\(v_1=\\dfrac{(1{,}602\\cdot10^{-19})^2}{2\\cdot8{,}854\\cdot10^{-12}\\cdot6{,}626\\cdot10^{-34}}\\).</p><p><strong>Svar:</strong> \\(2{,}19\\cdot10^{6}\\) m/s</p>",
+        "ledtrad": "<p>Sätt in konstanterna.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Var noga med parenteser och potenser.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "atomstruktur__energinivaer_i_vateatomen"
+  },
+  {
+    "kap": 4,
+    "omr": "atomstruktur",
+    "niva": "C",
+    "typ": "elektronen i tillståndet n = 3",
+    "poang": "(2/1/0)",
+    "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En väteatom är i tillståndet \\(n=3\\). Här är \\(r_1=5{,}29\\cdot10^{-11}\\) m och \\(v_1=2{,}19\\cdot10^6\\) m/s.</p><ol type=\"a\"><li>Bestäm banradien.</li><li>Bestäm elektronens fart.</li><li>Bestäm elektronens de Broglie-våglängd.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r_3=9r_1\\).</p><p><strong>Svar:</strong> \\(4{,}76\\cdot10^{-10}\\) m</p></li><li><p>\\(v_3=\\dfrac{v_1}{3}\\).</p><p><strong>Svar:</strong> \\(7{,}30\\cdot10^{5}\\) m/s</p></li><li><p>\\(\\lambda=\\dfrac{h}{m_ev_3}\\). Kontroll: \\(3\\lambda=2\\pi r_3\\).</p><p><strong>Svar:</strong> \\(9{,}96\\cdot10^{-10}\\) m</p></li></ol>",
+    "id": "4.508",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energinivåer i väteatomen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.761e-10,
+      730000.0,
+      9.964554098986852e-10
+    ],
+    "tolerans": [
+      7.14e-12,
+      11000.0,
+      1.49e-11
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En väteatom är i tillståndet \\(n=3\\). Här är \\(r_1=5{,}29\\cdot10^{-11}\\) m och \\(v_1=2{,}19\\cdot10^6\\) m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm banradien.",
+        "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En väteatom är i tillståndet \\(n=3\\). Här är \\(r_1=5{,}29\\cdot10^{-11}\\) m och \\(v_1=2{,}19\\cdot10^6\\) m/s.</p><p>Bestäm banradien.</p>",
+        "s": "<p>\\(r_3=9r_1\\).</p><p><strong>Svar:</strong> \\(4{,}76\\cdot10^{-10}\\) m</p>",
+        "ledtrad": "<p>\\(r_n=n^2r_1\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm elektronens fart.",
+        "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En väteatom är i tillståndet \\(n=3\\). Här är \\(r_1=5{,}29\\cdot10^{-11}\\) m och \\(v_1=2{,}19\\cdot10^6\\) m/s.</p><p>Bestäm elektronens fart.</p>",
+        "s": "<p>\\(v_3=\\dfrac{v_1}{3}\\).</p><p><strong>Svar:</strong> \\(7{,}30\\cdot10^{5}\\) m/s</p>",
+        "ledtrad": "<p>\\(v_n=\\dfrac{v_1}{n}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm elektronens de Broglie-våglängd.",
+        "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En väteatom är i tillståndet \\(n=3\\). Här är \\(r_1=5{,}29\\cdot10^{-11}\\) m och \\(v_1=2{,}19\\cdot10^6\\) m/s.</p>Elektronens fart är \\(7{,}30\\cdot10^5\\) m/s.<p>Bestäm elektronens de Broglie-våglängd.</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{h}{m_ev_3}\\). Kontroll: \\(3\\lambda=2\\pi r_3\\).</p><p><strong>Svar:</strong> \\(9{,}96\\cdot10^{-10}\\) m</p>",
+        "ledtrad": "<p>\\(\\lambda=\\dfrac{h}{mv}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Bohrs postulat: \\(2\\pi r_n=n\\lambda\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "atomstruktur__energinivaer_i_vateatomen"
+  },
+  {
+    "kap": 4,
+    "omr": "atomstruktur",
+    "niva": "C",
+    "typ": "omloppstid i Bohrs modell",
+    "poang": "(1/1/0)",
+    "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Omloppstiden i tillståndet \\(n\\) är \\(T_n=\\dfrac{2\\pi r_n}{v_n}=n^3t_0\\). Här är \\(r_1=5{,}29\\cdot10^{-11}\\) m och \\(v_1=2{,}19\\cdot10^6\\) m/s.</p><ol type=\"a\"><li>Bestäm \\(t_0\\).</li><li>En elektron stannar i genomsnitt 10 µs i tillståndet \\(n=2\\). Hur många varv hinner den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t_0=\\dfrac{2\\pi r_1}{v_1}\\).</p><p><strong>Svar:</strong> \\(1{,}52\\cdot10^{-16}\\) s</p></li><li><p>\\(T_2=8t_0\\approx1{,}21\\cdot10^{-15}\\) s. Antal varv: \\(\\dfrac{10\\cdot10^{-6}}{T_2}\\).</p><p><strong>Svar:</strong> \\(8{,}2\\cdot10^{9}\\)</p></li></ol>",
+    "id": "4.509",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energinivåer i väteatomen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5177191906383566e-16,
+      8236042660.001202
+    ],
+    "tolerans": [
+      2.28e-18,
+      124000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Omloppstiden i tillståndet \\(n\\) är \\(T_n=\\dfrac{2\\pi r_n}{v_n}=n^3t_0\\). Här är \\(r_1=5{,}29\\cdot10^{-11}\\) m och \\(v_1=2{,}19\\cdot10^6\\) m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(t_0\\).",
+        "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Omloppstiden i tillståndet \\(n\\) är \\(T_n=\\dfrac{2\\pi r_n}{v_n}=n^3t_0\\). Här är \\(r_1=5{,}29\\cdot10^{-11}\\) m och \\(v_1=2{,}19\\cdot10^6\\) m/s.</p><p>Bestäm \\(t_0\\).</p>",
+        "s": "<p>\\(t_0=\\dfrac{2\\pi r_1}{v_1}\\).</p><p><strong>Svar:</strong> \\(1{,}52\\cdot10^{-16}\\) s</p>",
+        "ledtrad": "<p>\\(n=1\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En elektron stannar i genomsnitt 10 µs i tillståndet \\(n=2\\). Hur många varv hinner den?",
+        "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Omloppstiden i tillståndet \\(n\\) är \\(T_n=\\dfrac{2\\pi r_n}{v_n}=n^3t_0\\). Här är \\(r_1=5{,}29\\cdot10^{-11}\\) m och \\(v_1=2{,}19\\cdot10^6\\) m/s.</p>\\(t_0=1{,}52\\cdot10^{-16}\\) s.<p>En elektron stannar i genomsnitt 10 µs i tillståndet \\(n=2\\). Hur många varv hinner den?</p>",
+        "s": "<p>\\(T_2=8t_0\\approx1{,}21\\cdot10^{-15}\\) s. Antal varv: \\(\\dfrac{10\\cdot10^{-6}}{T_2}\\).</p><p><strong>Svar:</strong> \\(8{,}2\\cdot10^{9}\\)</p>",
+        "ledtrad": "<p>Bestäm omloppstiden för \\(n=2\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(T_n=n^3t_0\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "atomstruktur__energinivaer_i_vateatomen"
+  },
+  {
+    "kap": 4,
+    "omr": "atomstruktur",
+    "niva": "C",
+    "typ": "energi ur banans diameter",
+    "poang": "(0/2/0)",
+    "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Hur stor energi har en väteatom vars elektron går i en bana med diametern 5,18 nm? Använd \\(r_1=5{,}29\\cdot10^{-11}\\) m.</p>",
+    "s": "<p>\\(r=2{,}59\\) nm, \\(n^2=\\dfrac{2{,}59\\cdot10^{-9}}{5{,}29\\cdot10^{-11}}\\approx49\\), så \\(n=7\\). \\(E_7=-\\dfrac{13{,}6}{49}\\) eV.</p><p><strong>Svar:</strong> \\(-0{,}278\\) eV</p>",
+    "id": "4.510",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energinivåer i väteatomen",
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.27755102040816326,
+    "tolerans": 0.00416,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm \\(n\\) först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "eV",
+    "familjNyckel": "atomstruktur__energinivaer_i_vateatomen"
+  },
+  {
+    "kap": 4,
+    "omr": "atomstruktur",
+    "niva": "C",
+    "typ": "huvudkvanttal ur banradie",
+    "poang": "(0/1/0)",
+    "t": "<p>I Bohrs modell för väte är \\(r_n=n^2r_1\\), \\(v_n=\\dfrac{v_1}{n}\\) och \\(E_n=-\\dfrac{13{,}6\\text{ eV}}{n^2}\\), där \\(r_1=\\dfrac{\\varepsilon_0h^2}{\\pi m_ee^2}\\) och \\(v_1=\\dfrac{e^2}{2\\varepsilon_0h}\\). Använd \\(\\varepsilon_0=8{,}854\\cdot10^{-12}\\) F/m, \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>I vilket tillstånd \\(n\\) har vätets elektronbana diametern ungefär 500 nm? Använd \\(r_1=5{,}29\\cdot10^{-11}\\) m.</p>",
+    "s": "<p>\\(n=\\sqrt{\\dfrac{250\\cdot10^{-9}}{5{,}29\\cdot10^{-11}}}\\approx68{,}7\\), alltså \\(n\\approx69\\).</p><p><strong>Svar:</strong> \\(69\\) </p>",
+    "id": "4.511",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energinivåer i väteatomen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 69,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(r_n=n^2r_1\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "atomstruktur__energinivaer_i_vateatomen"
+  },
+  {
     "id": "4.329",
     "kap": 4,
     "omr": "vagrorelselara",
@@ -43092,6 +43358,322 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 4,
+    "omr": "de_broglie",
+    "niva": "E",
+    "typ": "fart ur de Broglie-våglängd",
+    "poang": "(2/0/0)",
+    "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En partikel har de Broglie-våglängden 1,00 nm. Bestäm farten om partikeln är</p><ol type=\"a\"><li>en elektron.</li><li>en proton.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{h}{m_e\\lambda}\\).</p><p><strong>Svar:</strong> \\(7{,}27\\cdot10^{5}\\) m/s</p></li><li><p>\\(v=\\dfrac{h}{m_p\\lambda}\\).</p><p><strong>Svar:</strong> \\(396\\) m/s</p></li></ol>",
+    "id": "4.500",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Materievågor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      727412.4492260402,
+      396.05499103407044
+    ],
+    "tolerans": [
+      10900.0,
+      5.94
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En partikel har de Broglie-våglängden 1,00 nm. Bestäm farten om partikeln är</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "en elektron.",
+        "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En partikel har de Broglie-våglängden 1,00 nm. Bestäm farten om partikeln är</p><p>en elektron.</p>",
+        "s": "<p>\\(v=\\dfrac{h}{m_e\\lambda}\\).</p><p><strong>Svar:</strong> \\(7{,}27\\cdot10^{5}\\) m/s</p>",
+        "ledtrad": "<p>Lös ut \\(v\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "en proton.",
+        "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En partikel har de Broglie-våglängden 1,00 nm. Bestäm farten om partikeln är</p><p>en proton.</p>",
+        "s": "<p>\\(v=\\dfrac{h}{m_p\\lambda}\\).</p><p><strong>Svar:</strong> \\(396\\) m/s</p>",
+        "ledtrad": "<p>Lös ut \\(v\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\lambda=\\dfrac{h}{mv}\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "de_broglie__materievagor"
+  },
+  {
+    "kap": 4,
+    "omr": "de_broglie",
+    "niva": "E",
+    "typ": "elektron i elektronmikroskop",
+    "poang": "(1/0/0)",
+    "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En elektron i ett elektronmikroskop har farten 4,0 Mm/s. Hur stor är dess de Broglie-våglängd?</p>",
+    "s": "<p>\\(\\lambda=\\dfrac{h}{m_ev}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\cdot10^{-10}\\) m</p>",
+    "id": "4.501",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Materievågor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.8185311230651005e-10,
+    "tolerans": 5.1e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\lambda=\\dfrac{h}{mv}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "de_broglie__materievagor"
+  },
+  {
+    "kap": 4,
+    "omr": "de_broglie",
+    "niva": "E",
+    "typ": "accelererade elektroner",
+    "poang": "(3/3/0)",
+    "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Elektroner accelereras från vila med spänningen \\(U\\) så att \\(eU=\\dfrac{m_ev^2}{2}\\). Beräkna de Broglie-våglängden när</p><ol type=\"a\"><li>\\(U=12\\) V</li><li>\\(U=30\\) V</li><li>\\(U=60\\) V</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{\\dfrac{2eU}{m_e}}\\), \\(\\lambda=\\dfrac{h}{m_ev}\\).</p><p><strong>Svar:</strong> \\(3{,}5\\cdot10^{-10}\\) m</p></li><li><p>\\(v=\\sqrt{\\dfrac{2eU}{m_e}}\\), \\(\\lambda=\\dfrac{h}{m_ev}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\cdot10^{-10}\\) m</p></li><li><p>\\(v=\\sqrt{\\dfrac{2eU}{m_e}}\\), \\(\\lambda=\\dfrac{h}{m_ev}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{-10}\\) m</p></li></ol>",
+    "id": "4.502",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Materievågor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.540619066834928e-10,
+      2.2392841156436614e-10,
+      1.5834129831749542e-10
+    ],
+    "tolerans": [
+      5.31e-12,
+      5.1e-12,
+      5.1e-12
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Elektroner accelereras från vila med spänningen \\(U\\) så att \\(eU=\\dfrac{m_ev^2}{2}\\). Beräkna de Broglie-våglängden när</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(U=12\\) V",
+        "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Elektroner accelereras från vila med spänningen \\(U\\) så att \\(eU=\\dfrac{m_ev^2}{2}\\). Beräkna de Broglie-våglängden när</p><p>\\(U=12\\) V</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2eU}{m_e}}\\), \\(\\lambda=\\dfrac{h}{m_ev}\\).</p><p><strong>Svar:</strong> \\(3{,}5\\cdot10^{-10}\\) m</p>",
+        "ledtrad": "<p>Bestäm farten först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(U=30\\) V",
+        "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Elektroner accelereras från vila med spänningen \\(U\\) så att \\(eU=\\dfrac{m_ev^2}{2}\\). Beräkna de Broglie-våglängden när</p><p>\\(U=30\\) V</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2eU}{m_e}}\\), \\(\\lambda=\\dfrac{h}{m_ev}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\cdot10^{-10}\\) m</p>",
+        "ledtrad": "<p>Bestäm farten först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(U=60\\) V",
+        "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Elektroner accelereras från vila med spänningen \\(U\\) så att \\(eU=\\dfrac{m_ev^2}{2}\\). Beräkna de Broglie-våglängden när</p><p>\\(U=60\\) V</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2eU}{m_e}}\\), \\(\\lambda=\\dfrac{h}{m_ev}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{-10}\\) m</p>",
+        "ledtrad": "<p>Bestäm farten först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Rörelseenergin kommer från accelerationsspänningen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "de_broglie__materievagor"
+  },
+  {
+    "kap": 4,
+    "omr": "de_broglie",
+    "niva": "E",
+    "typ": "rörelseenergi ur våglängd",
+    "poang": "(2/1/0)",
+    "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En partikel har de Broglie-våglängden 0,30 nm. Beräkna rörelseenergin om partikeln är</p><ol type=\"a\"><li>en elektron.</li><li>en neutron.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E_k=\\dfrac{p^2}{2m}=\\dfrac{(h/\\lambda)^2}{2m_e}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\cdot10^{-18}\\) J</p></li><li><p>\\(E_k=\\dfrac{(h/\\lambda)^2}{2m_n}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{-21}\\) J</p></li></ol>",
+    "id": "4.503",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Materievågor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.677686049206524e-18,
+      1.456181625207297e-21
+    ],
+    "tolerans": [
+      5.1e-20,
+      5.1e-23
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En partikel har de Broglie-våglängden 0,30 nm. Beräkna rörelseenergin om partikeln är</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "en elektron.",
+        "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En partikel har de Broglie-våglängden 0,30 nm. Beräkna rörelseenergin om partikeln är</p><p>en elektron.</p>",
+        "s": "<p>\\(E_k=\\dfrac{p^2}{2m}=\\dfrac{(h/\\lambda)^2}{2m_e}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\cdot10^{-18}\\) J</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{p^2}{2m}\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "en neutron.",
+        "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En partikel har de Broglie-våglängden 0,30 nm. Beräkna rörelseenergin om partikeln är</p><p>en neutron.</p>",
+        "s": "<p>\\(E_k=\\dfrac{(h/\\lambda)^2}{2m_n}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{-21}\\) J</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{p^2}{2m}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Samma rörelsemängd, olika massa.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "de_broglie__materievagor"
+  },
+  {
+    "kap": 4,
+    "omr": "de_broglie",
+    "niva": "C",
+    "typ": "accelerationsspänning för given våglängd",
+    "poang": "(0/1/0)",
+    "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Hur stor spänning krävs för att accelerera en elektron från vila så att dess de Broglie-våglängd blir 0,050 nm?</p>",
+    "s": "<p>\\(p=\\dfrac h\\lambda\\), \\(eU=\\dfrac{p^2}{2m_e}\\iff U=\\dfrac{(h/\\lambda)^2}{2m_ee}\\).</p><p><strong>Svar:</strong> \\(602\\) V</p>",
+    "id": "4.504",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Materievågor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 601.7272020688815,
+    "tolerans": 9.03,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(eU=\\dfrac{p^2}{2m}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "V",
+    "familjNyckel": "de_broglie__materievagor"
+  },
+  {
+    "kap": 4,
+    "omr": "de_broglie",
+    "niva": "E",
+    "typ": "bilens de Broglie-våglängd",
+    "poang": "(1/0/0)",
+    "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En bil med massan 1 200 kg kör med 90 km/h. Beräkna bilens de Broglie-våglängd.</p>",
+    "s": "<p>\\(\\lambda=\\dfrac{6{,}626\\cdot10^{-34}}{1\\,200\\cdot25}\\). Så kort våglängd ger inga märkbara vågegenskaper.</p><p><strong>Svar:</strong> \\(2{,}2\\cdot10^{-38}\\) m</p>",
+    "id": "4.505",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Materievågor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.2086666666666667e-38,
+    "tolerans": 5.1e-40,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>90 km/h = 25 m/s.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "de_broglie__materievagor"
+  },
+  {
+    "kap": 4,
+    "omr": "de_broglie",
+    "niva": "C",
+    "typ": "proton och elektron med samma våglängd",
+    "poang": "(0/1/0)",
+    "t": "<p>de Broglie-våglängd: \\(\\lambda=\\dfrac hp=\\dfrac{h}{mv}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(m_e=9{,}109\\cdot10^{-31}\\) kg, \\(m_p=1{,}673\\cdot10^{-27}\\) kg, \\(m_n=1{,}675\\cdot10^{-27}\\) kg och \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En proton och en elektron har samma de Broglie-våglängd. Beräkna kvoten \\(\\dfrac{v_p}{v_e}\\).</p>",
+    "s": "<p>Samma \\(\\lambda\\) ger samma rörelsemängd: \\(\\dfrac{v_p}{v_e}=\\dfrac{m_e}{m_p}\\).</p><p><strong>Svar:</strong> \\(0{,}00054\\) </p>",
+    "id": "4.506",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Materievågor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0005444710101613866,
+    "tolerans": 8.17e-06,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma våglängd betyder samma \\(mv\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "de_broglie__materievagor"
+  },
+  {
     "id": "GY25-FY2-STR-01",
     "kap": 4,
     "omr": "temperaturstralning",
@@ -43153,6 +43735,1116 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Beskriv först obalansen mellan absorberad och utstrålad effekt. Koppla sedan temperaturen till utstrålningen.</p>"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "svart kropp vid 0 °C",
+    "poang": "(1/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Beräkna effekten som en svart kropp med arean 1,0 m² och temperaturen 0 °C strålar ut.</p>",
+    "s": "<p>\\(P=\\sigma AT^4=5{,}67\\cdot10^{-8}\\cdot1{,}0\\cdot273^4\\).</p><p><strong>Svar:</strong> \\(316\\) W</p>",
+    "id": "4.450",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 315.63697918226694,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna i kelvin.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "upphettad kula",
+    "poang": "(1/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svartmålad kula med diametern 12 cm är upphettad till 600 °C. Beräkna den utstrålade effekten om kulan är en svart kropp.</p>",
+    "s": "<p>\\(A=4\\pi r^2=4\\pi\\cdot0{,}060^2\\). \\(P=\\sigma A\\cdot873^4\\).</p><p><strong>Svar:</strong> \\(1\\,491\\) W</p>",
+    "id": "4.451",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1490.908040960604,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kulans area är \\(4\\pi r^2\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "procentuell ökning av emittans",
+    "poang": "(1/3/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svart kropp har temperaturen 20 °C.</p><ol type=\"a\"><li>Med hur många procent ökar den utstrålade effekten om temperaturen höjs till 40 °C?</li><li>Till vilken temperatur i °C ska kroppen värmas för att emittansen ska fördubblas?</li><li>Till vilken temperatur i °C ska kroppen värmas för att emittansen ska öka med 10 %?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\left(\\dfrac{313}{293}\\right)^4\\approx1{,}30\\).</p><p><strong>Svar:</strong> \\(30\\) %</p></li><li><p>\\(T=293\\cdot2^{1/4}\\approx348\\) K.</p><p><strong>Svar:</strong> \\(75\\) °C</p></li><li><p>\\(T=293\\cdot1{,}10^{1/4}\\approx300\\) K.</p><p><strong>Svar:</strong> \\(27\\) °C</p></li></ol>",
+    "id": "4.452",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30.211718326593196,
+      75.46606576304765,
+      27.068927955105096
+    ],
+    "tolerans": [
+      0.51,
+      0.6,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "%",
+      "°C",
+      "°C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svart kropp har temperaturen 20 °C.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Med hur många procent ökar den utstrålade effekten om temperaturen höjs till 40 °C?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svart kropp har temperaturen 20 °C.</p><p>Med hur många procent ökar den utstrålade effekten om temperaturen höjs till 40 °C?</p>",
+        "s": "<p>\\(\\left(\\dfrac{313}{293}\\right)^4\\approx1{,}30\\).</p><p><strong>Svar:</strong> \\(30\\) %</p>",
+        "ledtrad": "<p>\\(M\\sim T^4\\) i kelvin.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Till vilken temperatur i °C ska kroppen värmas för att emittansen ska fördubblas?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svart kropp har temperaturen 20 °C.</p><p>Till vilken temperatur i °C ska kroppen värmas för att emittansen ska fördubblas?</p>",
+        "s": "<p>\\(T=293\\cdot2^{1/4}\\approx348\\) K.</p><p><strong>Svar:</strong> \\(75\\) °C</p>",
+        "ledtrad": "<p>Lös \\(T^4=2T_0^4\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Till vilken temperatur i °C ska kroppen värmas för att emittansen ska öka med 10 %?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svart kropp har temperaturen 20 °C.</p><p>Till vilken temperatur i °C ska kroppen värmas för att emittansen ska öka med 10 %?</p>",
+        "s": "<p>\\(T=293\\cdot1{,}10^{1/4}\\approx300\\) K.</p><p><strong>Svar:</strong> \\(27\\) °C</p>",
+        "ledtrad": "<p>Lös \\(T^4=1{,}10T_0^4\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Räkna alltid i kelvin.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "nettoenergi till omgivningen",
+    "poang": "(1/1/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svart kropp med arean 238 cm² har temperaturen 100 °C i en omgivning med temperaturen 20 °C. Hur mycket nettoenergi strålar den ut under 1,0 min?</p>",
+    "s": "<p>\\(P=\\sigma A\\left(373^4-293^4\\right)\\), \\(E=P\\cdot60\\).</p><p><strong>Svar:</strong> \\(972\\) J</p>",
+    "id": "4.453",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 971.8443745331435,
+    "tolerans": 14.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ta hänsyn till instrålningen från omgivningen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "glödtrådens temperatur",
+    "poang": "(0/2/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En 60 W glödlampa har en glödtråd med längden 3,0 cm och diametern 0,20 mm. Tråden strålar 60 % av vad en svart kropp skulle göra. Beräkna trådens temperatur i °C.</p>",
+    "s": "<p>Trådens mantelarea: \\(A=\\pi dl=\\pi\\cdot0{,}20\\cdot10^{-3}\\cdot0{,}030\\). \\(T=\\sqrt[4]{\\dfrac{60}{0{,}60\\sigma A}}\\).</p><p><strong>Svar:</strong> \\(2\\,837\\) °C</p>",
+    "id": "4.454",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2836.9829509834344,
+    "tolerans": 45,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Trådens area är en cylindermantel.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "strålningsförlust från varmvattenrör",
+    "poang": "(1/1/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Ett tunt kopparrör med diametern 2,0 cm har en yttemperatur som är 40 °C högre än luften runt omkring, som har temperaturen 22 °C. Emissionstalet är 0,12. Hur stor är strålningsförlusten per meter rör?</p>",
+    "s": "<p>\\(\\dfrac Pl=e\\sigma\\pi d\\left(335^4-295^4\\right)\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) W</p>",
+    "id": "4.455",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.1496198196199376,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörets area per meter är \\(\\pi d\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "nickels smältpunkt",
+    "poang": "(0/2/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svärtad nickeltråd med längden 95,5 cm och diametern 0,445 mm värms elektriskt i vakuum. Den börjar smälta när spänningen är 56,5 V och strömmen 12,0 A. Anta att all effekt strålas ut och att tråden är en svart kropp. Beräkna smältpunkten i °C.</p>",
+    "s": "<p>\\(P=UI=678\\) W. \\(A=\\pi dl\\). \\(T=\\sqrt[4]{\\dfrac{P}{\\sigma A}}\\).</p><p><strong>Svar:</strong> \\(1\\,457\\) °C</p>",
+    "id": "4.456",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1456.7991788114887,
+    "tolerans": 12,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tillförd effekt är lika med utstrålad effekt.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°C",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "asfalt i solen",
+    "poang": "(0/1/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En asfaltväg tar emot 0,80 kW/m² från solen. Asfalten har emissionstalet 0,90. Beräkna asfaltens temperatur i °C om in- och utstrålningen är lika stora.</p>",
+    "s": "<p>\\(800=0{,}90\\sigma T^4\\iff T=\\sqrt[4]{\\dfrac{800}{0{,}90\\cdot5{,}67\\cdot10^{-8}}}\\).</p><p><strong>Svar:</strong> \\(81\\) °C</p>",
+    "id": "4.457",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 80.69747807149628,
+    "tolerans": 2.5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt utstrålad effekt per m² lika med 800 W/m².</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "utstrålad effekt med emissionstal",
+    "poang": "(1/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En kropp med arean 0,60 m² har temperaturen 240 °C och emissionstalet 0,74. Bestäm den utstrålade effekten.</p>",
+    "s": "<p>\\(P=0{,}74\\cdot5{,}67\\cdot10^{-8}\\cdot0{,}60\\cdot513^4\\).</p><p><strong>Svar:</strong> \\(1\\,746\\) W</p>",
+    "id": "4.458",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1745.5944883211616,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=e\\sigma AT^4\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "nettoutstrålning vid två temperaturer",
+    "poang": "(0/1/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En kropp i ett rum med temperaturen 20,0 °C värms från 100 °C till 400 °C. Hur många gånger större blir nettoutstrålningen?</p>",
+    "s": "<p>\\(\\dfrac{673^4-293^4}{373^4-293^4}\\).</p><p><strong>Svar:</strong> \\(16{,}5\\) </p>",
+    "id": "4.459",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 16.491248829663906,
+    "tolerans": 0.247,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nettoeffekten är proportionell mot \\(T^4-T_0^4\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "A",
+    "typ": "kula med tillförd effekt",
+    "poang": "(0/1/1)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svart kula med diametern 5,0 cm tillförs hela tiden effekten 100 W. Omgivningen har temperaturen 20 °C. Bestäm kulans yttemperatur i °C vid jämvikt.</p>",
+    "s": "<p>\\(A=\\pi d^2\\approx7{,}85\\cdot10^{-3}\\) m². \\(100=\\sigma A\\left(T^4-293^4\\right)\\iff T=\\sqrt[4]{\\dfrac{100}{\\sigma A}+293^4}\\).</p><p><strong>Svar:</strong> \\(421\\) °C</p>",
+    "id": "4.460",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 420.8269304727189,
+    "tolerans": 8,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utstrålad effekt = tillförd effekt + instrålad effekt.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°C",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "glödlampa med lägre effekt",
+    "poang": "(0/2/1)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Glödtråden i en 60,0 W glödlampa har temperaturen 2 700 K vid full effekt. Anta att all effekt strålas ut och att omgivningens strålning kan försummas.</p><ol type=\"a\"><li>Vilken temperatur har tråden om lampan bara får 40,0 W?</li><li>Vilken effekt avger lampan när strålningsmaximum ligger vid 2,0 µm?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P\\sim T^4\\): \\(T=2\\,700\\left(\\dfrac{40{,}0}{60{,}0}\\right)^{1/4}\\).</p><p><strong>Svar:</strong> \\(2\\,440\\) K</p></li><li><p>\\(T=\\dfrac{2{,}898\\cdot10^{-3}}{2{,}0\\cdot10^{-6}}\\approx1\\,450\\) K. \\(P=60{,}0\\left(\\dfrac{1\\,450}{2\\,700}\\right)^4\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) W</p></li></ol>",
+    "id": "4.461",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2439.7254097465807,
+      4.977024007407406
+    ],
+    "tolerans": [
+      36.6,
+      0.0747
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "K",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Glödtråden i en 60,0 W glödlampa har temperaturen 2 700 K vid full effekt. Anta att all effekt strålas ut och att omgivningens strålning kan försummas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken temperatur har tråden om lampan bara får 40,0 W?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Glödtråden i en 60,0 W glödlampa har temperaturen 2 700 K vid full effekt. Anta att all effekt strålas ut och att omgivningens strålning kan försummas.</p><p>Vilken temperatur har tråden om lampan bara får 40,0 W?</p>",
+        "s": "<p>\\(P\\sim T^4\\): \\(T=2\\,700\\left(\\dfrac{40{,}0}{60{,}0}\\right)^{1/4}\\).</p><p><strong>Svar:</strong> \\(2\\,440\\) K</p>",
+        "ledtrad": "<p>\\(P\\sim T^4\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken effekt avger lampan när strålningsmaximum ligger vid 2,0 µm?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Glödtråden i en 60,0 W glödlampa har temperaturen 2 700 K vid full effekt. Anta att all effekt strålas ut och att omgivningens strålning kan försummas.</p><p>Vilken effekt avger lampan när strålningsmaximum ligger vid 2,0 µm?</p>",
+        "s": "<p>\\(T=\\dfrac{2{,}898\\cdot10^{-3}}{2{,}0\\cdot10^{-6}}\\approx1\\,450\\) K. \\(P=60{,}0\\left(\\dfrac{1\\,450}{2\\,700}\\right)^4\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) W</p>",
+        "ledtrad": "<p>Bestäm temperaturen med Wiens lag.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Samma glödtråd, så \\(P\\sim T^4\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "svartmålad cylinder",
+    "poang": "(0/1/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En svartmålad cylinder med längden 25 cm och diametern 1,5 cm tillförs effekten 1,0 kW. Bortse från ändytorna och från strålningen från omgivningen. Vilken temperatur får cylindern i °C?</p>",
+    "s": "<p>\\(A=\\pi dl\\). \\(T=\\sqrt[4]{\\dfrac{1\\,000}{\\sigma A}}\\).</p><p><strong>Svar:</strong> \\(833\\) °C</p>",
+    "id": "4.462",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 832.9870778434871,
+    "tolerans": 12,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utstrålad effekt = tillförd effekt.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "svart tak på natten",
+    "poang": "(1/1/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Ett svart tak med arean 275 m² har temperaturen 30,0 °C på natten då luften har temperaturen 15,0 °C. Emissionstalet är 0,900. Hur stor nettoeffekt strålar taket ut?</p>",
+    "s": "<p>\\(P=0{,}900\\sigma\\cdot275\\left(303{,}15^4-288{,}15^4\\right)\\).</p><p><strong>Svar:</strong> \\(21\\,773\\) W</p>",
+    "id": "4.463",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 21773.214590792988,
+    "tolerans": 327.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nettoeffekt = utstrålad − instrålad.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "glödande kol",
+    "poang": "(1/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Glödande kol i en brasa har temperaturen 850 °C, arean 0,200 m² och emissionstalet 0,980. Rummet har temperaturen 18,0 °C. Hur stor nettoeffekt strålar kolen ut?</p>",
+    "s": "<p>\\(P=0{,}980\\sigma\\cdot0{,}200\\left(1\\,123^4-291^4\\right)\\).</p><p><strong>Svar:</strong> \\(17\\,605\\) W</p>",
+    "id": "4.464",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17604.537976923075,
+    "tolerans": 264.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nettoeffekt = utstrålad − instrålad.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "bilkylare",
+    "poang": "(1/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En bilkylare har temperaturen 110 °C, arean 1,20 m² och emissionstalet 0,750. Omgivningen har temperaturen 50,0 °C. Hur stor nettoeffekt strålar kylaren ut?</p>",
+    "s": "<p>\\(P=0{,}750\\sigma\\cdot1{,}20\\left(383^4-323^4\\right)\\).</p><p><strong>Svar:</strong> \\(543\\) W</p>",
+    "id": "4.465",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 543.2969354930522,
+    "tolerans": 8.15,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nettoeffekt = utstrålad − instrålad.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "skidåkare i vit overall",
+    "poang": "(1/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En skidåkares vita overall har emissionstalet 0,200, arean 1,60 m² och yttemperaturen 10,0 °C. Omgivningen har temperaturen −15,0 °C. Hur stor nettoeffekt strålar skidåkaren ut?</p>",
+    "s": "<p>\\(P=0{,}200\\sigma\\cdot1{,}60\\left(283^4-258^4\\right)\\).</p><p><strong>Svar:</strong> \\(36{,}0\\) W</p>",
+    "id": "4.466",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 36.0481119383196,
+    "tolerans": 0.541,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nettoeffekt = utstrålad − instrålad.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "strålning in i bastu",
+    "poang": "(1/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Du går in i en bastu med temperaturen 50,0 °C. Huden har arean 1,50 m², temperaturen 35,0 °C och emissionstalet 0,98. Hur stor nettoeffekt strålar in mot kroppen?</p>",
+    "s": "<p>\\(P=0{,}98\\sigma\\cdot1{,}50\\left(323^4-308^4\\right)\\).</p><p><strong>Svar:</strong> \\(157\\) W</p>",
+    "id": "4.467",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 157.3671724656087,
+    "tolerans": 2.36,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nu är omgivningen varmare än kroppen.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "termografi",
+    "poang": "(2/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Värmekameror mäter skillnader i utstrålad effekt.</p><ol type=\"a\"><li>Med hur många procent ökar den utstrålade effekten om temperaturen höjs från 33,0 °C till 34,0 °C?</li><li>Hur många procent större är den utstrålade effekten vid 34,0 °C än vid 20,0 °C?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\left(\\dfrac{307{,}15}{306{,}15}\\right)^4\\).</p><p><strong>Svar:</strong> \\(1{,}31\\) %</p></li><li><p>\\(\\left(\\dfrac{307{,}15}{293{,}15}\\right)^4\\).</p><p><strong>Svar:</strong> \\(20{,}5\\) %</p></li></ol>",
+    "id": "4.468",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.3129645427962355,
+      20.51538278946039
+    ],
+    "tolerans": [
+      0.0197,
+      0.308
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "%",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Värmekameror mäter skillnader i utstrålad effekt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Med hur många procent ökar den utstrålade effekten om temperaturen höjs från 33,0 °C till 34,0 °C?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Värmekameror mäter skillnader i utstrålad effekt.</p><p>Med hur många procent ökar den utstrålade effekten om temperaturen höjs från 33,0 °C till 34,0 °C?</p>",
+        "s": "<p>\\(\\left(\\dfrac{307{,}15}{306{,}15}\\right)^4\\).</p><p><strong>Svar:</strong> \\(1{,}31\\) %</p>",
+        "ledtrad": "<p>\\(M\\sim T^4\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många procent större är den utstrålade effekten vid 34,0 °C än vid 20,0 °C?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Värmekameror mäter skillnader i utstrålad effekt.</p><p>Hur många procent större är den utstrålade effekten vid 34,0 °C än vid 20,0 °C?</p>",
+        "s": "<p>\\(\\left(\\dfrac{307{,}15}{293{,}15}\\right)^4\\).</p><p><strong>Svar:</strong> \\(20{,}5\\) %</p>",
+        "ledtrad": "<p>\\(M\\sim T^4\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Räkna i kelvin.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "människa i rum",
+    "poang": "(1/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En person har huden bar på 1,50 m² med temperaturen 33,0 °C och emissionstalet 0,97. Rummet har temperaturen 22,0 °C. Beräkna nettoeffekten personen strålar ut.</p>",
+    "s": "<p>\\(P=0{,}97\\sigma\\cdot1{,}50\\left(306^4-295^4\\right)\\).</p><p><strong>Svar:</strong> \\(99\\) W</p>",
+    "id": "4.469",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 98.67966572090135,
+    "tolerans": 1.48,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nettoeffekt = utstrålad − instrålad.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "solens yttemperatur",
+    "poang": "(2/2/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Solstrålningens intensitet vid jorden (utanför atmosfären) är 1,35 kW/m². Avståndet till solen är \\(1{,}496\\cdot10^{11}\\) m och solens radie \\(6{,}96\\cdot10^8\\) m.</p><ol type=\"a\"><li>Beräkna solens totala utstrålade effekt.</li><li>Beräkna solens emittans.</li><li>Beräkna solens yttemperatur om solen är en svart kropp.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=1\\,350\\cdot4\\pi\\left(1{,}496\\cdot10^{11}\\right)^2\\).</p><p><strong>Svar:</strong> \\(3{,}8\\cdot10^{26}\\) W</p></li><li><p>\\(M=\\dfrac{P}{4\\pi R_\\odot^2}\\).</p><p><strong>Svar:</strong> \\(6{,}2\\cdot10^{7}\\) W/m²</p></li><li><p>\\(T=\\sqrt[4]{\\dfrac{M}{\\sigma}}\\).</p><p><strong>Svar:</strong> \\(5\\,759\\) K</p></li></ol>",
+    "id": "4.470",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.796704697076864e+26,
+      62370392.39001189,
+      5759.023548591484
+    ],
+    "tolerans": [
+      5.7e+24,
+      936000.0,
+      86.4
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "W/m²",
+      "K"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Solstrålningens intensitet vid jorden (utanför atmosfären) är 1,35 kW/m². Avståndet till solen är \\(1{,}496\\cdot10^{11}\\) m och solens radie \\(6{,}96\\cdot10^8\\) m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna solens totala utstrålade effekt.",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Solstrålningens intensitet vid jorden (utanför atmosfären) är 1,35 kW/m². Avståndet till solen är \\(1{,}496\\cdot10^{11}\\) m och solens radie \\(6{,}96\\cdot10^8\\) m.</p><p>Beräkna solens totala utstrålade effekt.</p>",
+        "s": "<p>\\(P=1\\,350\\cdot4\\pi\\left(1{,}496\\cdot10^{11}\\right)^2\\).</p><p><strong>Svar:</strong> \\(3{,}8\\cdot10^{26}\\) W</p>",
+        "ledtrad": "<p>Effekten fördelas på en sfär med radien jord–sol.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna solens emittans.",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Solstrålningens intensitet vid jorden (utanför atmosfären) är 1,35 kW/m². Avståndet till solen är \\(1{,}496\\cdot10^{11}\\) m och solens radie \\(6{,}96\\cdot10^8\\) m.</p>Solens utstrålade effekt är \\(3{,}8\\cdot10^{26}\\) W.<p>Beräkna solens emittans.</p>",
+        "s": "<p>\\(M=\\dfrac{P}{4\\pi R_\\odot^2}\\).</p><p><strong>Svar:</strong> \\(6{,}2\\cdot10^{7}\\) W/m²</p>",
+        "ledtrad": "<p>Dela med solens yta.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna solens yttemperatur om solen är en svart kropp.",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Solstrålningens intensitet vid jorden (utanför atmosfären) är 1,35 kW/m². Avståndet till solen är \\(1{,}496\\cdot10^{11}\\) m och solens radie \\(6{,}96\\cdot10^8\\) m.</p>Solens emittans är \\(6{,}2\\cdot10^7\\) W/m².<p>Beräkna solens yttemperatur om solen är en svart kropp.</p>",
+        "s": "<p>\\(T=\\sqrt[4]{\\dfrac{M}{\\sigma}}\\).</p><p><strong>Svar:</strong> \\(5\\,759\\) K</p>",
+        "ledtrad": "<p>\\(M=\\sigma T^4\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Samma totala effekt passerar varje sfär runt solen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "varm sfär i rum",
+    "poang": "(3/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En svart sfär med diametern 20,0 cm har temperaturen 800 K. Omgivningen har temperaturen 23,0 °C.</p><ol type=\"a\"><li>Hur stor effekt strålar sfären ut?</li><li>Hur stor effekt strålar in mot sfären från omgivningen?</li><li>Vid vilken våglängd har sfärens strålning sitt maximum?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\sigma\\cdot4\\pi\\cdot0{,}100^2\\cdot800^4\\).</p><p><strong>Svar:</strong> \\(2\\,918\\) W</p></li><li><p>\\(P=\\sigma\\cdot4\\pi\\cdot0{,}100^2\\cdot296{,}15^4\\).</p><p><strong>Svar:</strong> \\(54{,}8\\) W</p></li><li><p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{800}\\).</p><p><strong>Svar:</strong> \\(3{,}62\\cdot10^{-6}\\) m</p></li></ol>",
+    "id": "4.471",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2918.4541238647403,
+      54.80748464059532,
+      3.6225e-06
+    ],
+    "tolerans": [
+      43.8,
+      0.822,
+      5.43e-08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "W",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En svart sfär med diametern 20,0 cm har temperaturen 800 K. Omgivningen har temperaturen 23,0 °C.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor effekt strålar sfären ut?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En svart sfär med diametern 20,0 cm har temperaturen 800 K. Omgivningen har temperaturen 23,0 °C.</p><p>Hur stor effekt strålar sfären ut?</p>",
+        "s": "<p>\\(P=\\sigma\\cdot4\\pi\\cdot0{,}100^2\\cdot800^4\\).</p><p><strong>Svar:</strong> \\(2\\,918\\) W</p>",
+        "ledtrad": "<p>\\(A=4\\pi r^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor effekt strålar in mot sfären från omgivningen?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En svart sfär med diametern 20,0 cm har temperaturen 800 K. Omgivningen har temperaturen 23,0 °C.</p><p>Hur stor effekt strålar in mot sfären från omgivningen?</p>",
+        "s": "<p>\\(P=\\sigma\\cdot4\\pi\\cdot0{,}100^2\\cdot296{,}15^4\\).</p><p><strong>Svar:</strong> \\(54{,}8\\) W</p>",
+        "ledtrad": "<p>Använd omgivningens temperatur.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vid vilken våglängd har sfärens strålning sitt maximum?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En svart sfär med diametern 20,0 cm har temperaturen 800 K. Omgivningen har temperaturen 23,0 °C.</p><p>Vid vilken våglängd har sfärens strålning sitt maximum?</p>",
+        "s": "<p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{800}\\).</p><p><strong>Svar:</strong> \\(3{,}62\\cdot10^{-6}\\) m</p>",
+        "ledtrad": "<p>Wiens lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Nettoeffekten är skillnaden mellan ut- och instrålning.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "upphettad kub",
+    "poang": "(2/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En svart kub med sidan 20 cm är upphettad till 800 °C och hänger i en tunn tråd.</p><ol type=\"a\"><li>Hur stor effekt strålar kuben ut?</li><li>Vid vilken våglängd har strålningen sitt maximum?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(A=6\\cdot0{,}20^2\\). \\(P=\\sigma A\\cdot1\\,073^4\\).</p><p><strong>Svar:</strong> \\(18\\,048\\) W</p></li><li><p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{1\\,073}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\cdot10^{-6}\\) m</p></li></ol>",
+    "id": "4.472",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18048.28832199174,
+      2.7004612589106833e-06
+    ],
+    "tolerans": [
+      510.0,
+      5.1e-08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En svart kub med sidan 20 cm är upphettad till 800 °C och hänger i en tunn tråd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor effekt strålar kuben ut?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En svart kub med sidan 20 cm är upphettad till 800 °C och hänger i en tunn tråd.</p><p>Hur stor effekt strålar kuben ut?</p>",
+        "s": "<p>\\(A=6\\cdot0{,}20^2\\). \\(P=\\sigma A\\cdot1\\,073^4\\).</p><p><strong>Svar:</strong> \\(18\\,048\\) W</p>",
+        "ledtrad": "<p>En kub har sex sidor.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vid vilken våglängd har strålningen sitt maximum?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En svart kub med sidan 20 cm är upphettad till 800 °C och hänger i en tunn tråd.</p><p>Vid vilken våglängd har strålningen sitt maximum?</p>",
+        "s": "<p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{1\\,073}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\cdot10^{-6}\\) m</p>",
+        "ledtrad": "<p>Räkna i kelvin.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Räkna i kelvin.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "glödtråd med emissionstal",
+    "poang": "(2/0/0)",
+    "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Glödtråden i en lampa har temperaturen 2 500 K och emissionstalet 0,85.</p><ol type=\"a\"><li>Hur stor är trådens emittans?</li><li>Vid vilken våglängd har strålningen sitt maximum?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(M=0{,}85\\cdot5{,}67\\cdot10^{-8}\\cdot2\\,500^4\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) W/m²</p></li><li><p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{2\\,500}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{-6}\\) m</p></li></ol>",
+    "id": "4.473",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stefan–Boltzmanns lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1882617.1874999998,
+      1.1592e-06
+    ],
+    "tolerans": [
+      51000.0,
+      5.1e-08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W/m²",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Glödtråden i en lampa har temperaturen 2 500 K och emissionstalet 0,85.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är trådens emittans?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Glödtråden i en lampa har temperaturen 2 500 K och emissionstalet 0,85.</p><p>Hur stor är trådens emittans?</p>",
+        "s": "<p>\\(M=0{,}85\\cdot5{,}67\\cdot10^{-8}\\cdot2\\,500^4\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) W/m²</p>",
+        "ledtrad": "<p>\\(M=e\\sigma T^4\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vid vilken våglängd har strålningen sitt maximum?",
+        "t": "<p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Glödtråden i en lampa har temperaturen 2 500 K och emissionstalet 0,85.</p><p>Vid vilken våglängd har strålningen sitt maximum?</p>",
+        "s": "<p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{2\\,500}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{-6}\\) m</p>",
+        "ledtrad": "<p>Wiens lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(M=e\\sigma T^4\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "temperaturstralning__stefanboltzmanns_lag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "strålningsmaximum för olika temperaturer",
+    "poang": "(3/0/0)",
+    "t": "<p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Vid vilken våglängd har strålningen sitt maximum för</p><ol type=\"a\"><li>solens yta, 5 800 K?</li><li>solens kärna, 15 miljoner K?</li><li>den kosmiska bakgrundsstrålningen, 2,7 K?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{5\\,800}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\cdot10^{-7}\\) m</p></li><li><p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{15\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{-10}\\) m</p></li><li><p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{2{,}7}\\).</p><p><strong>Svar:</strong> \\(0{,}0011\\) m</p></li></ol>",
+    "id": "4.474",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Wiens förskjutningslag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.996551724137931e-07,
+      1.932e-10,
+      0.0010733333333333333
+    ],
+    "tolerans": [
+      7.49e-09,
+      5.1e-12,
+      5.1e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Vid vilken våglängd har strålningen sitt maximum för</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "solens yta, 5 800 K?",
+        "t": "<p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Vid vilken våglängd har strålningen sitt maximum för</p><p>solens yta, 5 800 K?</p>",
+        "s": "<p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{5\\,800}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\cdot10^{-7}\\) m</p>",
+        "ledtrad": "<p>Wiens lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "solens kärna, 15 miljoner K?",
+        "t": "<p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Vid vilken våglängd har strålningen sitt maximum för</p><p>solens kärna, 15 miljoner K?</p>",
+        "s": "<p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{15\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{-10}\\) m</p>",
+        "ledtrad": "<p>Wiens lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "den kosmiska bakgrundsstrålningen, 2,7 K?",
+        "t": "<p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Vid vilken våglängd har strålningen sitt maximum för</p><p>den kosmiska bakgrundsstrålningen, 2,7 K?</p>",
+        "s": "<p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{2{,}7}\\).</p><p><strong>Svar:</strong> \\(0{,}0011\\) m</p>",
+        "ledtrad": "<p>Wiens lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\lambda_{max}T\\) är konstant.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "temperaturstralning__wiens_forskjutningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "temperatur ur strålningsmaximum",
+    "poang": "(1/0/0)",
+    "t": "<p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Vilken temperatur har en svart kropp med strålningsmaximum vid 750 nm?</p>",
+    "s": "<p>\\(T=\\dfrac{2{,}898\\cdot10^{-3}}{750\\cdot10^{-9}}\\).</p><p><strong>Svar:</strong> \\(3\\,864\\) K</p>",
+    "id": "4.475",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Wiens förskjutningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3864.0,
+    "tolerans": 58.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Wiens lag.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "K",
+    "familjNyckel": "temperaturstralning__wiens_forskjutningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "typ": "kropp vid 850 °C",
+    "poang": "(1/0/0)",
+    "t": "<p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En kropp har temperaturen 850 °C. Vid vilken våglängd är strålningen störst? (Den ligger i det infraröda området.)</p>",
+    "s": "<p>\\(\\lambda_{max}=\\dfrac{2{,}898\\cdot10^{-3}}{1\\,123}\\).</p><p><strong>Svar:</strong> \\(2{,}6\\cdot10^{-6}\\) m</p>",
+    "id": "4.476",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Wiens förskjutningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.580243066375818e-06,
+    "tolerans": 5.1e-08,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna i kelvin.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "temperaturstralning__wiens_forskjutningslag"
+  },
+  {
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "typ": "stjärna med 16 gånger större emittans",
+    "poang": "(0/2/0)",
+    "t": "<p>Wiens förskjutningslag: \\(\\lambda_{max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>Stefan–Boltzmanns lag: \\(M=e\\sigma T^4\\) där \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴) och \\(e\\) är emissionstalet (1 för en svart kropp). Nettoeffekt: \\(P=e\\sigma A\\left(T^4-T_0^4\\right)\\).</p><p>En stjärna har strålningsmaximum vid 28 µm. En annan stjärna har 16 gånger större emittans. Vid vilken våglängd har den sitt maximum?</p>",
+    "s": "<p>\\(M\\sim T^4\\): 16 gånger större emittans ger dubbla temperaturen och halva våglängden.</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{-5}\\) m</p>",
+    "id": "4.477",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Wiens förskjutningslag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4e-05,
+    "tolerans": 5.1e-07,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många gånger högre är temperaturen?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "temperaturstralning__wiens_forskjutningslag"
   },
   {
     "id": "GY25-FY2-TEK-01",
@@ -43361,6 +45053,191 @@ window.BANK2 = [
     "traningsniva": 1,
     "svarEnhet": "Hz",
     "familjNyckel": "em_vagor__vaglangd_och_frekvens"
+  },
+  {
+    "kap": 4,
+    "omr": "em_vagor",
+    "niva": "E",
+    "typ": "antennlängd",
+    "poang": "(1/0/0)",
+    "t": "<p>En trådlös telefon sänder mikrovågor med frekvensen 2,0 GHz. Antennen får högst vara en halv våglängd lång. Hur lång är den högst? Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p>",
+    "s": "<p>\\(\\dfrac\\lambda2=\\dfrac{3{,}00\\cdot10^8}{2\\cdot2{,}0\\cdot10^9}\\).</p><p><strong>Svar:</strong> \\(0{,}075\\) m</p>",
+    "id": "4.496",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Spektrum och tillämpningar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.075,
+    "tolerans": 0.00112,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "em_vagor__spektrum_och_tillampningar"
+  },
+  {
+    "kap": 4,
+    "omr": "em_vagor",
+    "niva": "E",
+    "typ": "radiosignal till Mars",
+    "poang": "(1/0/0)",
+    "t": "<p>Som närmast är Mars \\(2{,}28\\cdot10^{11}\\) m från jorden. Hur lång tid tar en radiosignal dit? Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p>",
+    "s": "<p>\\(t=\\dfrac{2{,}28\\cdot10^{11}}{3{,}00\\cdot10^8}\\), ungefär 12 min 40 s.</p><p><strong>Svar:</strong> \\(760\\) s</p>",
+    "id": "4.497",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Spektrum och tillämpningar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 760.0,
+    "tolerans": 11.4,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(t=\\dfrac sc\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "s",
+    "familjNyckel": "em_vagor__spektrum_och_tillampningar"
+  },
+  {
+    "kap": 4,
+    "omr": "em_vagor",
+    "niva": "E",
+    "typ": "laserstråle till månen",
+    "poang": "(2/0/0)",
+    "t": "<p>En laser med effekten 10 W har strålens diameter 4,0 mm. När strålen når månen är diametern 85 km. Beräkna intensiteten</p><ol type=\"a\"><li>när strålen lämnar lasern.</li><li>när strålen träffar månen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=\\dfrac{10}{\\pi\\cdot0{,}0020^2}\\).</p><p><strong>Svar:</strong> \\(8{,}0\\cdot10^{5}\\) W/m²</p></li><li><p>\\(I=\\dfrac{10}{\\pi\\cdot42\\,500^2}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\cdot10^{-9}\\) W/m²</p></li></ol>",
+    "id": "4.498",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Spektrum och tillämpningar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      795774.7154594768,
+      1.7622692660694292e-09
+    ],
+    "tolerans": [
+      11900.0,
+      5.1e-11
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W/m²",
+      "W/m²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En laser med effekten 10 W har strålens diameter 4,0 mm. När strålen når månen är diametern 85 km. Beräkna intensiteten</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "när strålen lämnar lasern.",
+        "t": "<p>En laser med effekten 10 W har strålens diameter 4,0 mm. När strålen når månen är diametern 85 km. Beräkna intensiteten</p><p>när strålen lämnar lasern.</p>",
+        "s": "<p>\\(I=\\dfrac{10}{\\pi\\cdot0{,}0020^2}\\).</p><p><strong>Svar:</strong> \\(8{,}0\\cdot10^{5}\\) W/m²</p>",
+        "ledtrad": "<p>Intensitet är effekt per area.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "när strålen träffar månen.",
+        "t": "<p>En laser med effekten 10 W har strålens diameter 4,0 mm. När strålen når månen är diametern 85 km. Beräkna intensiteten</p><p>när strålen träffar månen.</p>",
+        "s": "<p>\\(I=\\dfrac{10}{\\pi\\cdot42\\,500^2}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\cdot10^{-9}\\) W/m²</p>",
+        "ledtrad": "<p>Använd radien.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(I=\\dfrac PA\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "em_vagor__spektrum_och_tillampningar"
+  },
+  {
+    "kap": 4,
+    "omr": "em_vagor",
+    "niva": "C",
+    "typ": "solsegel",
+    "poang": "(1/1/0)",
+    "t": "<p>Ett rymdskepp har ett solsegel som reflekterar solljuset rakt tillbaka. Seglet och skeppet har massan 0,100 kg per m² segel. Solstrålningens intensitet är 1,30 kW/m². Strålningen ger kraften \\(F=\\dfrac{2P}{c}\\) vid reflektion. Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><ol type=\"a\"><li>Hur stor kraft verkar på varje kvadratmeter?</li><li>Vilken fart har skeppet efter 24 h om det startar från vila?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{2\\cdot1\\,300}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(8{,}67\\cdot10^{-6}\\) N</p></li><li><p>\\(a=\\dfrac{8{,}67\\cdot10^{-6}}{0{,}100}\\). \\(v=a\\cdot86\\,400\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m/s</p></li></ol>",
+    "id": "4.499",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Spektrum och tillämpningar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.666666666666666e-06,
+      7.487999999999999
+    ],
+    "tolerans": [
+      1.3e-07,
+      0.112
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett rymdskepp har ett solsegel som reflekterar solljuset rakt tillbaka. Seglet och skeppet har massan 0,100 kg per m² segel. Solstrålningens intensitet är 1,30 kW/m². Strålningen ger kraften \\(F=\\dfrac{2P}{c}\\) vid reflektion. Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor kraft verkar på varje kvadratmeter?",
+        "t": "<p>Ett rymdskepp har ett solsegel som reflekterar solljuset rakt tillbaka. Seglet och skeppet har massan 0,100 kg per m² segel. Solstrålningens intensitet är 1,30 kW/m². Strålningen ger kraften \\(F=\\dfrac{2P}{c}\\) vid reflektion. Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Hur stor kraft verkar på varje kvadratmeter?</p>",
+        "s": "<p>\\(F=\\dfrac{2\\cdot1\\,300}{3{,}00\\cdot10^8}\\).</p><p><strong>Svar:</strong> \\(8{,}67\\cdot10^{-6}\\) N</p>",
+        "ledtrad": "<p>Reflektion ger dubbel impuls.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har skeppet efter 24 h om det startar från vila?",
+        "t": "<p>Ett rymdskepp har ett solsegel som reflekterar solljuset rakt tillbaka. Seglet och skeppet har massan 0,100 kg per m² segel. Solstrålningens intensitet är 1,30 kW/m². Strålningen ger kraften \\(F=\\dfrac{2P}{c}\\) vid reflektion. Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p>Kraften är \\(8{,}67\\cdot10^{-6}\\) N per kvadratmeter.<p>Vilken fart har skeppet efter 24 h om det startar från vila?</p>",
+        "s": "<p>\\(a=\\dfrac{8{,}67\\cdot10^{-6}}{0{,}100}\\). \\(v=a\\cdot86\\,400\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m/s</p>",
+        "ledtrad": "<p>Bestäm accelerationen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Newtons andra lag.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "em_vagor__spektrum_och_tillampningar"
   },
   {
     "id": "GY25-FY2-TEK-02",
@@ -46955,5 +48832,817 @@ window.BANK2 = [
     "traningsniva": 3,
     "svarEnhet": "eV",
     "familjNyckel": "ljus_partikelstrom__fotoelektrisk_effekt"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "våglängd för UV-foton",
+    "poang": "(1/0/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Vilken våglängd har en ultraviolett foton med energin \\(6{,}4\\cdot10^{-19}\\) J?</p>",
+    "s": "<p>\\(\\lambda=\\dfrac{hc}{E}\\).</p><p><strong>Svar:</strong> \\(3{,}1\\cdot10^{-7}\\) m</p>",
+    "id": "4.478",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.1059375000000003e-07,
+    "tolerans": 5.1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E=\\dfrac{hc}{\\lambda}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "foton med energin 3,1 eV",
+    "poang": "(2/0/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En foton har energin 3,1 eV.</p><ol type=\"a\"><li>Bestäm fotonens frekvens.</li><li>Bestäm fotonens våglängd.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f=\\dfrac{3{,}1\\cdot1{,}602\\cdot10^{-19}}{6{,}626\\cdot10^{-34}}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\cdot10^{14}\\) Hz</p></li><li><p>\\(\\lambda=\\dfrac cf\\).</p><p><strong>Svar:</strong> \\(4{,}0\\cdot10^{-7}\\) m</p></li></ol>",
+    "id": "4.479",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      749501961968004.9,
+      4.0026579678627524e-07
+    ],
+    "tolerans": [
+      11200000000000.0,
+      6e-09
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En foton har energin 3,1 eV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm fotonens frekvens.",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En foton har energin 3,1 eV.</p><p>Bestäm fotonens frekvens.</p>",
+        "s": "<p>\\(f=\\dfrac{3{,}1\\cdot1{,}602\\cdot10^{-19}}{6{,}626\\cdot10^{-34}}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\cdot10^{14}\\) Hz</p>",
+        "ledtrad": "<p>Omvandla till joule.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm fotonens våglängd.",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En foton har energin 3,1 eV.</p><p>Bestäm fotonens våglängd.</p>",
+        "s": "<p>\\(\\lambda=\\dfrac cf\\).</p><p><strong>Svar:</strong> \\(4{,}0\\cdot10^{-7}\\) m</p>",
+        "ledtrad": "<p>\\(c=f\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(E=hf\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "fotoner per kvadratmeter",
+    "poang": "(1/1/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ljus med våglängden 730 nm träffar marken vinkelrätt med intensiteten 680 W/m². Hur många fotoner träffar varje kvadratmeter per sekund?</p>",
+    "s": "<p>\\(N=\\dfrac{680}{hc/\\lambda}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{21}\\) </p>",
+    "id": "4.480",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.497233122044471e+21,
+    "tolerans": 5.1e+19,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela effekten med en fotons energi.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "fotoner från FM-sändare",
+    "poang": "(1/0/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En FM-sändare har effekten 150 kW och sänder på 99,7 MHz. Hur många fotoner sänds ut per sekund?</p>",
+    "s": "<p>\\(N=\\dfrac{150\\cdot10^3}{6{,}626\\cdot10^{-34}\\cdot99{,}7\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(2{,}27\\cdot10^{30}\\) </p>",
+    "id": "4.481",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.270621099640606e+30,
+    "tolerans": 3.41e+28,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E=hf\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "fotoner in i ögat i mörker",
+    "poang": "(1/1/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>För mörkerseende krävs intensiteten \\(4{,}00\\cdot10^{-11}\\) W/m² mot ögat. Pupillen har diametern 8,50 mm. Ljuset har våglängden 500 nm. Hur många fotoner kommer in i ögat per sekund?</p>",
+    "s": "<p>\\(P=IA=4{,}00\\cdot10^{-11}\\cdot\\pi\\cdot0{,}00425^2\\). \\(N=\\dfrac{P\\lambda}{hc}\\).</p><p><strong>Svar:</strong> \\(5\\,709\\) </p>",
+    "id": "4.482",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5709.3286352214145,
+    "tolerans": 85.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm effekten in genom pupillen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "laser och UV-lampa",
+    "poang": "(3/0/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En infraröd laser med effekten 200 W har våglängden \\(2{,}0\\cdot10^{-6}\\) m. En UV-lampa med effekten 200 W har våglängden \\(7{,}0\\cdot10^{-8}\\) m.</p><ol type=\"a\"><li>Bestäm energin i eV hos en foton från lasern.</li><li>Bestäm energin i eV hos en foton från UV-lampan.</li><li>Hur många fotoner per sekund sänder lasern ut?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac{hc}{\\lambda e}\\).</p><p><strong>Svar:</strong> \\(0{,}62\\) eV</p></li><li><p>\\(E=\\dfrac{hc}{\\lambda e}\\).</p><p><strong>Svar:</strong> \\(18\\) eV</p></li><li><p>\\(N=\\dfrac{200}{E}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{21}\\)</p></li></ol>",
+    "id": "4.483",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6204119850187266,
+      17.726056714820757,
+      2.0122748767481637e+21
+    ],
+    "tolerans": [
+      0.00931,
+      0.51,
+      5.1e+19
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "eV",
+      "eV",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En infraröd laser med effekten 200 W har våglängden \\(2{,}0\\cdot10^{-6}\\) m. En UV-lampa med effekten 200 W har våglängden \\(7{,}0\\cdot10^{-8}\\) m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm energin i eV hos en foton från lasern.",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En infraröd laser med effekten 200 W har våglängden \\(2{,}0\\cdot10^{-6}\\) m. En UV-lampa med effekten 200 W har våglängden \\(7{,}0\\cdot10^{-8}\\) m.</p><p>Bestäm energin i eV hos en foton från lasern.</p>",
+        "s": "<p>\\(E=\\dfrac{hc}{\\lambda e}\\).</p><p><strong>Svar:</strong> \\(0{,}62\\) eV</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{hc}\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm energin i eV hos en foton från UV-lampan.",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En infraröd laser med effekten 200 W har våglängden \\(2{,}0\\cdot10^{-6}\\) m. En UV-lampa med effekten 200 W har våglängden \\(7{,}0\\cdot10^{-8}\\) m.</p><p>Bestäm energin i eV hos en foton från UV-lampan.</p>",
+        "s": "<p>\\(E=\\dfrac{hc}{\\lambda e}\\).</p><p><strong>Svar:</strong> \\(18\\) eV</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{hc}\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många fotoner per sekund sänder lasern ut?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En infraröd laser med effekten 200 W har våglängden \\(2{,}0\\cdot10^{-6}\\) m. En UV-lampa med effekten 200 W har våglängden \\(7{,}0\\cdot10^{-8}\\) m.</p><p>Hur många fotoner per sekund sänder lasern ut?</p>",
+        "s": "<p>\\(N=\\dfrac{200}{E}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{21}\\)</p>",
+        "ledtrad": "<p>Dela effekten med fotonenergin.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Samma effekt men olika fotonenergi.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "foton som bryter molekyl",
+    "poang": "(2/0/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Det krävs energin \\(1{,}22\\cdot10^{-18}\\) J för att bryta sönder en viss molekyl. Energin kommer från en enda foton.</p><ol type=\"a\"><li>Beräkna fotonens våglängd.</li><li>Beräkna fotonens frekvens.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{hc}{E}\\). Det är UV-strålning.</p><p><strong>Svar:</strong> \\(1{,}63\\cdot10^{-7}\\) m</p></li><li><p>\\(f=\\dfrac Eh\\).</p><p><strong>Svar:</strong> \\(1{,}84\\cdot10^{15}\\) Hz</p></li></ol>",
+    "id": "4.484",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.629344262295082e-07,
+      1841231512224570.0
+    ],
+    "tolerans": [
+      2.44e-09,
+      27600000000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Det krävs energin \\(1{,}22\\cdot10^{-18}\\) J för att bryta sönder en viss molekyl. Energin kommer från en enda foton.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna fotonens våglängd.",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Det krävs energin \\(1{,}22\\cdot10^{-18}\\) J för att bryta sönder en viss molekyl. Energin kommer från en enda foton.</p><p>Beräkna fotonens våglängd.</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{hc}{E}\\). Det är UV-strålning.</p><p><strong>Svar:</strong> \\(1{,}63\\cdot10^{-7}\\) m</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{hc}\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna fotonens frekvens.",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Det krävs energin \\(1{,}22\\cdot10^{-18}\\) J för att bryta sönder en viss molekyl. Energin kommer från en enda foton.</p><p>Beräkna fotonens frekvens.</p>",
+        "s": "<p>\\(f=\\dfrac Eh\\).</p><p><strong>Svar:</strong> \\(1{,}84\\cdot10^{15}\\) Hz</p>",
+        "ledtrad": "<p>\\(E=hf\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(E=hf\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "AM-fotoner mot FM-foton",
+    "poang": "(0/1/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En AM-sändare sänder på 665 kHz och en FM-sändare på 91,9 MHz. Hur många AM-fotoner har tillsammans lika mycket energi som en FM-foton?</p>",
+    "s": "<p>\\(\\dfrac{hf_{FM}}{hf_{AM}}=\\dfrac{91{,}9\\cdot10^6}{665\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(138\\) </p>",
+    "id": "4.485",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 138.1954887218045,
+    "tolerans": 2.07,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E\\sim f\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "en foton och en bakterie",
+    "poang": "(1/1/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ögat är känsligast för ljus med våglängden 505 nm.</p><ol type=\"a\"><li>Vilken energi i eV har en sådan foton?</li><li>En bakterie med massan 0,5 pg får lika mycket rörelseenergi som fotonen har. Vilken fart får den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac{hc}{\\lambda e}\\).</p><p><strong>Svar:</strong> \\(2{,}46\\) eV</p></li><li><p>\\(v=\\sqrt{\\dfrac{2E}{m}}=\\sqrt{\\dfrac{2\\cdot3{,}9\\cdot10^{-19}}{0{,}5\\cdot10^{-15}}}\\).</p><p><strong>Svar:</strong> \\(0{,}040\\) m/s</p></li></ol>",
+    "id": "4.486",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.457077168390996,
+      0.039679907377726455
+    ],
+    "tolerans": [
+      0.0369,
+      0.000595
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "eV",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ögat är känsligast för ljus med våglängden 505 nm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken energi i eV har en sådan foton?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ögat är känsligast för ljus med våglängden 505 nm.</p><p>Vilken energi i eV har en sådan foton?</p>",
+        "s": "<p>\\(E=\\dfrac{hc}{\\lambda e}\\).</p><p><strong>Svar:</strong> \\(2{,}46\\) eV</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{hc}\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bakterie med massan 0,5 pg får lika mycket rörelseenergi som fotonen har. Vilken fart får den?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ögat är känsligast för ljus med våglängden 505 nm.</p>Fotonens energi är \\(3{,}9\\cdot10^{-19}\\) J.<p>En bakterie med massan 0,5 pg får lika mycket rörelseenergi som fotonen har. Vilken fart får den?</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2E}{m}}=\\sqrt{\\dfrac{2\\cdot3{,}9\\cdot10^{-19}}{0{,}5\\cdot10^{-15}}}\\).</p><p><strong>Svar:</strong> \\(0{,}040\\) m/s</p>",
+        "ledtrad": "<p>1 pg = \\(10^{-15}\\) kg.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(E=\\dfrac{hc}\\lambda\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "laserpuls mot näthinnan",
+    "poang": "(2/1/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En pulsad laser med våglängden 652 nm används för att fästa näthinnan. En puls varar 20,0 ms och har medeleffekten 0,600 W.</p><ol type=\"a\"><li>Hur mycket energi innehåller en puls?</li><li>Hur många fotoner innehåller en puls?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=Pt=0{,}600\\cdot0{,}0200\\).</p><p><strong>Svar:</strong> \\(0{,}0120\\) J</p></li><li><p>\\(N=\\dfrac{0{,}0120}{hc/\\lambda}\\).</p><p><strong>Svar:</strong> \\(3{,}94\\cdot10^{16}\\)</p></li></ol>",
+    "id": "4.487",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.012,
+      3.936009658919408e+16
+    ],
+    "tolerans": [
+      0.00018,
+      590000000000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En pulsad laser med våglängden 652 nm används för att fästa näthinnan. En puls varar 20,0 ms och har medeleffekten 0,600 W.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi innehåller en puls?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En pulsad laser med våglängden 652 nm används för att fästa näthinnan. En puls varar 20,0 ms och har medeleffekten 0,600 W.</p><p>Hur mycket energi innehåller en puls?</p>",
+        "s": "<p>\\(E=Pt=0{,}600\\cdot0{,}0200\\).</p><p><strong>Svar:</strong> \\(0{,}0120\\) J</p>",
+        "ledtrad": "<p>\\(E=Pt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många fotoner innehåller en puls?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En pulsad laser med våglängden 652 nm används för att fästa näthinnan. En puls varar 20,0 ms och har medeleffekten 0,600 W.</p>En puls innehåller 12,0 mJ.<p>Hur många fotoner innehåller en puls?</p>",
+        "s": "<p>\\(N=\\dfrac{0{,}0120}{hc/\\lambda}\\).</p><p><strong>Svar:</strong> \\(3{,}94\\cdot10^{16}\\)</p>",
+        "ledtrad": "<p>Dela med en fotons energi.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E=Pt\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "fotoner värmer glasplatta",
+    "poang": "(1/2/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En glasplatta med massan 0,50 kg och specifika värmekapaciteten 840 J/(kg·K) ska värmas 2,0 °C med ljus som absorberas helt. Hur många fotoner krävs med</p><ol type=\"a\"><li>infrarött ljus med våglängden \\(6{,}0\\cdot10^{-5}\\) m?</li><li>blått ljus med våglängden \\(4{,}70\\cdot10^{-7}\\) m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=0{,}50\\cdot840\\cdot2{,}0=840\\) J. \\(N=\\dfrac{Q\\lambda}{hc}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{23}\\)</p></li><li><p>\\(N=\\dfrac{840\\cdot4{,}70\\cdot10^{-7}}{hc}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{21}\\)</p></li></ol>",
+    "id": "4.488",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.5354663447026867e+23,
+      1.9861153033504377e+21
+    ],
+    "tolerans": [
+      5.1e+21,
+      5.1e+19
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En glasplatta med massan 0,50 kg och specifika värmekapaciteten 840 J/(kg·K) ska värmas 2,0 °C med ljus som absorberas helt. Hur många fotoner krävs med</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "infrarött ljus med våglängden \\(6{,}0\\cdot10^{-5}\\) m?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En glasplatta med massan 0,50 kg och specifika värmekapaciteten 840 J/(kg·K) ska värmas 2,0 °C med ljus som absorberas helt. Hur många fotoner krävs med</p><p>infrarött ljus med våglängden \\(6{,}0\\cdot10^{-5}\\) m?</p>",
+        "s": "<p>\\(Q=0{,}50\\cdot840\\cdot2{,}0=840\\) J. \\(N=\\dfrac{Q\\lambda}{hc}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{23}\\)</p>",
+        "ledtrad": "<p>Bestäm energin som behövs.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "blått ljus med våglängden \\(4{,}70\\cdot10^{-7}\\) m?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En glasplatta med massan 0,50 kg och specifika värmekapaciteten 840 J/(kg·K) ska värmas 2,0 °C med ljus som absorberas helt. Hur många fotoner krävs med</p>Det behövs 840 J.<p>blått ljus med våglängden \\(4{,}70\\cdot10^{-7}\\) m?</p>",
+        "s": "<p>\\(N=\\dfrac{840\\cdot4{,}70\\cdot10^{-7}}{hc}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{21}\\)</p>",
+        "ledtrad": "<p>Samma energi, kortare våglängd.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "foton med känd rörelsemängd",
+    "poang": "(2/0/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En foton har rörelsemängden \\(8{,}24\\cdot10^{-28}\\) kg·m/s. Fotonens rörelsemängd är \\(p=\\dfrac h\\lambda=\\dfrac Ec\\).</p><ol type=\"a\"><li>Vilken energi i eV har fotonen?</li><li>Vilken våglängd har fotonen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=pc=8{,}24\\cdot10^{-28}\\cdot3{,}00\\cdot10^8\\), dividera med \\(1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(1{,}54\\) eV</p></li><li><p>\\(\\lambda=\\dfrac hp\\). Det är infrarött.</p><p><strong>Svar:</strong> \\(8{,}04\\cdot10^{-7}\\) m</p></li></ol>",
+    "id": "4.489",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.543071161048689,
+      8.04126213592233e-07
+    ],
+    "tolerans": [
+      0.0231,
+      1.21e-08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "eV",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En foton har rörelsemängden \\(8{,}24\\cdot10^{-28}\\) kg·m/s. Fotonens rörelsemängd är \\(p=\\dfrac h\\lambda=\\dfrac Ec\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken energi i eV har fotonen?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En foton har rörelsemängden \\(8{,}24\\cdot10^{-28}\\) kg·m/s. Fotonens rörelsemängd är \\(p=\\dfrac h\\lambda=\\dfrac Ec\\).</p><p>Vilken energi i eV har fotonen?</p>",
+        "s": "<p>\\(E=pc=8{,}24\\cdot10^{-28}\\cdot3{,}00\\cdot10^8\\), dividera med \\(1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(1{,}54\\) eV</p>",
+        "ledtrad": "<p>\\(E=pc\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken våglängd har fotonen?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En foton har rörelsemängden \\(8{,}24\\cdot10^{-28}\\) kg·m/s. Fotonens rörelsemängd är \\(p=\\dfrac h\\lambda=\\dfrac Ec\\).</p><p>Vilken våglängd har fotonen?</p>",
+        "s": "<p>\\(\\lambda=\\dfrac hp\\). Det är infrarött.</p><p><strong>Svar:</strong> \\(8{,}04\\cdot10^{-7}\\) m</p>",
+        "ledtrad": "<p>\\(\\lambda=\\dfrac hp\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\dfrac h\\lambda\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "fotoner i laserpuls",
+    "poang": "(1/1/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En laser med våglängden 640 nm sänder pulser som är 25 ms långa med medeleffekten 0,68 W. Hur många fotoner finns i en puls?</p>",
+    "s": "<p>\\(E=0{,}68\\cdot0{,}025\\). \\(N=\\dfrac{E\\lambda}{hc}\\).</p><p><strong>Svar:</strong> \\(5{,}5\\cdot10^{16}\\) </p>",
+    "id": "4.490",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.473387664755006e+16,
+    "tolerans": 821000000000000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm pulsens energi.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "fotoner till näthinnan",
+    "poang": "(0/1/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ögat kan uppfatta en ljusblixt med energin \\(4{,}0\\cdot10^{-17}\\) J och våglängden 510 nm. 60 % av ljuset förloras innan det når näthinnan. Hur många fotoner når näthinnan?</p>",
+    "s": "<p>40 % når fram: \\(N=\\dfrac{0{,}40\\cdot4{,}0\\cdot10^{-17}}{hc/\\lambda}\\).</p><p><strong>Svar:</strong> \\(41\\) </p>",
+    "id": "4.491",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 41.05040748566255,
+    "tolerans": 0.616,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur stor del av energin når fram?</p>",
+    "traningsniva": 3,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "självlysande plankton",
+    "poang": "(1/0/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett encelligt djur sänder ut \\(1{,}0\\cdot10^8\\) fotoner med våglängden 460 nm på 0,10 s. Vilken effekt har ljusblixten?</p>",
+    "s": "<p>\\(P=\\dfrac{N\\,hc/\\lambda}{t}\\).</p><p><strong>Svar:</strong> \\(4{,}3\\cdot10^{-10}\\) W</p>",
+    "id": "4.492",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.321304347826087e-10,
+    "tolerans": 6.48e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Total energi delat med tiden.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "minsta effekt för solcell",
+    "poang": "(0/2/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En solcell ger en elektron per foton. En amperemeter kan mäta strömmar ned till 0,42 µA. Ljuset har våglängden 550 nm. Hur stor effekt måste ljuset minst ha för att strömmen ska märkas?</p>",
+    "s": "<p>Elektroner per sekund: \\(\\dfrac{0{,}42\\cdot10^{-6}}{1{,}602\\cdot10^{-19}}\\). Lika många fotoner per sekund: \\(P=N\\dfrac{hc}{\\lambda}\\).</p><p><strong>Svar:</strong> \\(9{,}5\\cdot10^{-7}\\) W</p>",
+    "id": "4.493",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.47538304392237e-07,
+    "tolerans": 1.42e-08,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ström är laddning per sekund.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "W",
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "typ": "eldflugans ljus",
+    "poang": "(2/2/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En eldfluga sänder ut ljus med våglängden 550 nm.</p><ol type=\"a\"><li>Vilken energi i eV har en foton?</li><li>Varje ATP-reaktion ger 0,30 eV. Hur många reaktioner behövs minst för en foton?</li><li>Bakdelen lyser 100 ms med effekten 1,2 mW. Hur många fotoner sänds ut?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac{hc}{\\lambda e}\\).</p><p><strong>Svar:</strong> \\(2{,}26\\) eV</p></li><li><p>\\(\\dfrac{2{,}25}{0{,}30}=7{,}5\\), alltså minst 8 reaktioner.</p><p><strong>Svar:</strong> 8 st</p></li><li><p>\\(N=\\dfrac{1{,}2\\cdot10^{-3}\\cdot0{,}100}{hc/\\lambda}\\).</p><p><strong>Svar:</strong> \\(3{,}32\\cdot10^{14}\\)</p></li></ol>",
+    "id": "4.494",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.2560435818862783,
+      8,
+      332025354663447.06
+    ],
+    "tolerans": [
+      0.0338,
+      0,
+      4980000000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "eV",
+      null,
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En eldfluga sänder ut ljus med våglängden 550 nm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken energi i eV har en foton?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En eldfluga sänder ut ljus med våglängden 550 nm.</p><p>Vilken energi i eV har en foton?</p>",
+        "s": "<p>\\(E=\\dfrac{hc}{\\lambda e}\\).</p><p><strong>Svar:</strong> \\(2{,}26\\) eV</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{hc}\\lambda\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Varje ATP-reaktion ger 0,30 eV. Hur många reaktioner behövs minst för en foton?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En eldfluga sänder ut ljus med våglängden 550 nm.</p>En foton har energin 2,25 eV.<p>Varje ATP-reaktion ger 0,30 eV. Hur många reaktioner behövs minst för en foton?</p>",
+        "s": "<p>\\(\\dfrac{2{,}25}{0{,}30}=7{,}5\\), alltså minst 8 reaktioner.</p><p><strong>Svar:</strong> 8 st</p>",
+        "ledtrad": "<p>Avrunda uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bakdelen lyser 100 ms med effekten 1,2 mW. Hur många fotoner sänds ut?",
+        "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En eldfluga sänder ut ljus med våglängden 550 nm.</p><p>Bakdelen lyser 100 ms med effekten 1,2 mW. Hur många fotoner sänds ut?</p>",
+        "s": "<p>\\(N=\\dfrac{1{,}2\\cdot10^{-3}\\cdot0{,}100}{hc/\\lambda}\\).</p><p><strong>Svar:</strong> \\(3{,}32\\cdot10^{14}\\)</p>",
+        "ledtrad": "<p>Total energi delat med fotonenergin.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E=\\dfrac{hc}\\lambda\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
+  },
+  {
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "typ": "fotoner för grafitstruktur",
+    "poang": "(1/0/0)",
+    "t": "<p>Fotonens energi: \\(E=hf=\\dfrac{hc}{\\lambda}\\). Använd \\(h=6{,}626\\cdot10^{-34}\\) Js, \\(c=3{,}00\\cdot10^8\\) m/s och \\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>För att undersöka grafitens kristallstruktur behövs fotoner med våglängden 0,25 nm. Vilken energi i eV har sådana fotoner?</p>",
+    "s": "<p>\\(E=\\dfrac{hc}{\\lambda e}\\).</p><p><strong>Svar:</strong> \\(4\\,963\\) eV</p>",
+    "id": "4.495",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fotonens energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4963.295880149813,
+    "tolerans": 74.4,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E=\\dfrac{hc}\\lambda\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "eV",
+    "familjNyckel": "ljus_partikelstrom__fotonens_energi"
   }
 ];

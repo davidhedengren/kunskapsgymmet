@@ -434,6 +434,7 @@ a{color:inherit}
   position:fixed;z-index:60;width:236px;padding:15px;border-radius:18px;
   background:var(--surface);border:1px solid var(--hair);box-shadow:var(--e2);
   animation:rise .25s var(--ease) both;
+  overflow-y:auto;overscroll-behavior:contain;   /* lång meny (lärare/admin) ska kunna scrollas */
 }
 .kontomeny b{display:block;font-size:14px;letter-spacing:-.02em}
 .kontomeny small{display:block;margin:5px 0 13px;font-size:12px;color:var(--ink3);line-height:1.45}
@@ -5561,6 +5562,7 @@ function kontoMeny(ev){
   const r=ev.currentTarget.getBoundingClientRect();
   el.style.top=(r.bottom+8)+"px";
   el.style.right=Math.max(12,window.innerWidth-r.right)+"px";
+  el.style.maxHeight=`calc(100dvh - ${Math.round(r.bottom+8+12)}px)`;
 
   el.addEventListener("click",e=>e.stopPropagation());
   setTimeout(()=>document.addEventListener("click",()=>el.remove(),{once:true}),0);

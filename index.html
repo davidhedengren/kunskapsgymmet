@@ -3811,7 +3811,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-03-fy1k";
+const BANK_VERSION="2026-10-03-fy1l";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9618,6 +9618,7 @@ function tolkaEnhet(str){
   if(str===null||str===undefined) return null;
   let x=String(str).trim()
     .replace(/[⋅∙·×x]/g,"*").replace(/²/g,"^2").replace(/³/g,"^3")
+    .replace(/[()]/g,"")   // "J/(kg·K)": allt efter "/" är redan nämnare
     .replace(/\s+/g,"");
   if(!x) return {f:1,d:{}};
   const delar=x.split("/");

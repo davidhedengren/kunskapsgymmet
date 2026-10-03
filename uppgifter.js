@@ -110702,6 +110702,2117 @@ window.BANK = [
     ]
   },
   {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "typ": "energi och temperaturändring för vatten",
+    "poang": "(3/0/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><ol type=\"a\"><li>Hur mycket energi krävs för att värma 34,0 kg vatten från 15 °C till 95 °C?</li><li>Hur många kelvin stiger temperaturen i 3,0 kg vatten om det tillförs 8,2 kJ?</li><li>Ett kylsystem innehåller 18,0 liter vatten som värms från 15 °C till 95 °C. Hur mycket energi tas upp?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=34{,}0\\cdot4\\,180\\cdot80\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{7}\\) J</p></li><li><p>\\(\\Delta T=\\dfrac{8\\,200}{3{,}0\\cdot4\\,180}\\).</p><p><strong>Svar:</strong> \\(0{,}65\\) K</p></li><li><p>\\(Q=18{,}0\\cdot4\\,180\\cdot80\\).</p><p><strong>Svar:</strong> \\(6{,}0\\cdot10^{6}\\) J</p></li></ol>",
+    "id": "7.137",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11369600,
+      0.6539074960127592,
+      6019200
+    ],
+    "tolerans": [
+      510000.0,
+      0.00981,
+      90300.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "K",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi krävs för att värma 34,0 kg vatten från 15 °C till 95 °C?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Hur mycket energi krävs för att värma 34,0 kg vatten från 15 °C till 95 °C?</p>",
+        "s": "<p>\\(Q=34{,}0\\cdot4\\,180\\cdot80\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{7}\\) J</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många kelvin stiger temperaturen i 3,0 kg vatten om det tillförs 8,2 kJ?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Hur många kelvin stiger temperaturen i 3,0 kg vatten om det tillförs 8,2 kJ?</p>",
+        "s": "<p>\\(\\Delta T=\\dfrac{8\\,200}{3{,}0\\cdot4\\,180}\\).</p><p><strong>Svar:</strong> \\(0{,}65\\) K</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett kylsystem innehåller 18,0 liter vatten som värms från 15 °C till 95 °C. Hur mycket energi tas upp?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ett kylsystem innehåller 18,0 liter vatten som värms från 15 °C till 95 °C. Hur mycket energi tas upp?</p>",
+        "s": "<p>\\(Q=18{,}0\\cdot4\\,180\\cdot80\\).</p><p><strong>Svar:</strong> \\(6{,}0\\cdot10^{6}\\) J</p>",
+        "ledtrad": "<p>1 liter vatten har massan 1 kg.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "typ": "kopparcylinder värms och kyls",
+    "poang": "(2/0/0)",
+    "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (50,0 g) har temperaturen 25,0 °C. Vilken sluttemperatur får den om man</p><ol type=\"a\"><li>tillför 1 200 J?</li><li>bortför 1 200 J?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta T=\\dfrac{1\\,200}{0{,}0500\\cdot385}=62{,}3\\) K.</p><p><strong>Svar:</strong> \\(87{,}3\\) °C</p></li><li><p>\\(25{,}0-62{,}3\\).</p><p><strong>Svar:</strong> \\(-37{,}3\\) °C</p></li></ol>",
+    "id": "7.138",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      87.33766233766234,
+      -37.33766233766234
+    ],
+    "tolerans": [
+      1.31,
+      0.56
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (50,0 g) har temperaturen 25,0 °C. Vilken sluttemperatur får den om man</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "tillför 1 200 J?",
+        "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (50,0 g) har temperaturen 25,0 °C. Vilken sluttemperatur får den om man</p><p>tillför 1 200 J?</p>",
+        "s": "<p>\\(\\Delta T=\\dfrac{1\\,200}{0{,}0500\\cdot385}=62{,}3\\) K.</p><p><strong>Svar:</strong> \\(87{,}3\\) °C</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "bortför 1 200 J?",
+        "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (50,0 g) har temperaturen 25,0 °C. Vilken sluttemperatur får den om man</p><p>bortför 1 200 J?</p>",
+        "s": "<p>\\(25{,}0-62{,}3\\).</p><p><strong>Svar:</strong> \\(-37{,}3\\) °C</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "typ": "specifik värmekapacitet ur mätning",
+    "poang": "(3/0/0)",
+    "t": "<p>Bestäm den specifika värmekapaciteten.</p><ol type=\"a\"><li>En metallbit på 4,1 kg värms från 18,0 °C till 37,2 °C med 135 kJ.</li><li>En silverkub på 525 g värms 10 K av 1,23 kJ.</li><li>350 g bly värms från 0 °C till 20,0 °C med 880 J.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(c=\\dfrac{135\\cdot10^3}{4{,}1\\cdot19{,}2}\\).</p><p><strong>Svar:</strong> \\(1\\,715\\) J/(kg·K)</p></li><li><p>\\(c=\\dfrac{1\\,230}{0{,}525\\cdot10}\\).</p><p><strong>Svar:</strong> \\(234\\) J/(kg·K)</p></li><li><p>\\(c=\\dfrac{880}{0{,}350\\cdot20{,}0}\\).</p><p><strong>Svar:</strong> \\(126\\) J/(kg·K)</p></li></ol>",
+    "id": "7.139",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1714.9390243902442,
+      234.28571428571428,
+      125.71428571428571
+    ],
+    "tolerans": [
+      51.0,
+      5.1,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J/(kg·K)",
+      "J/(kg·K)",
+      "J/(kg·K)"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm den specifika värmekapaciteten.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En metallbit på 4,1 kg värms från 18,0 °C till 37,2 °C med 135 kJ.",
+        "t": "<p>Bestäm den specifika värmekapaciteten.</p><p>En metallbit på 4,1 kg värms från 18,0 °C till 37,2 °C med 135 kJ.</p>",
+        "s": "<p>\\(c=\\dfrac{135\\cdot10^3}{4{,}1\\cdot19{,}2}\\).</p><p><strong>Svar:</strong> \\(1\\,715\\) J/(kg·K)</p>",
+        "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En silverkub på 525 g värms 10 K av 1,23 kJ.",
+        "t": "<p>Bestäm den specifika värmekapaciteten.</p><p>En silverkub på 525 g värms 10 K av 1,23 kJ.</p>",
+        "s": "<p>\\(c=\\dfrac{1\\,230}{0{,}525\\cdot10}\\).</p><p><strong>Svar:</strong> \\(234\\) J/(kg·K)</p>",
+        "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "350 g bly värms från 0 °C till 20,0 °C med 880 J.",
+        "t": "<p>Bestäm den specifika värmekapaciteten.</p><p>350 g bly värms från 0 °C till 20,0 °C med 880 J.</p>",
+        "s": "<p>\\(c=\\dfrac{880}{0{,}350\\cdot20{,}0}\\).</p><p><strong>Svar:</strong> \\(126\\) J/(kg·K)</p>",
+        "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "typ": "is, kvicksilver och zink",
+    "poang": "(3/0/0)",
+    "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p><ol type=\"a\"><li>Hur mycket energi måste bortföras för att kyla 200 g is från 0 °C till −30 °C?</li><li>Hur mycket energi krävs för att värma 20 g kvicksilver från 20 °C till kokpunkten 357 °C?</li><li>En zinkkula tillförs 5,2 kJ och temperaturen stiger 45 K. Bestäm massan.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=0{,}200\\cdot2\\,200\\cdot30\\).</p><p><strong>Svar:</strong> \\(13\\,200\\) J</p></li><li><p>\\(Q=0{,}020\\cdot140\\cdot337\\).</p><p><strong>Svar:</strong> \\(944\\) J</p></li><li><p>\\(m=\\dfrac{5\\,200}{390\\cdot45}\\).</p><p><strong>Svar:</strong> \\(0{,}30\\) kg</p></li></ol>",
+    "id": "7.140",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13200.0,
+      943.6000000000001,
+      0.2962962962962963
+    ],
+    "tolerans": [
+      510.0,
+      14.2,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi måste bortföras för att kyla 200 g is från 0 °C till −30 °C?",
+        "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p><p>Hur mycket energi måste bortföras för att kyla 200 g is från 0 °C till −30 °C?</p>",
+        "s": "<p>\\(Q=0{,}200\\cdot2\\,200\\cdot30\\).</p><p><strong>Svar:</strong> \\(13\\,200\\) J</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi krävs för att värma 20 g kvicksilver från 20 °C till kokpunkten 357 °C?",
+        "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p><p>Hur mycket energi krävs för att värma 20 g kvicksilver från 20 °C till kokpunkten 357 °C?</p>",
+        "s": "<p>\\(Q=0{,}020\\cdot140\\cdot337\\).</p><p><strong>Svar:</strong> \\(944\\) J</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En zinkkula tillförs 5,2 kJ och temperaturen stiger 45 K. Bestäm massan.",
+        "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p><p>En zinkkula tillförs 5,2 kJ och temperaturen stiger 45 K. Bestäm massan.</p>",
+        "s": "<p>\\(m=\\dfrac{5\\,200}{390\\cdot45}\\).</p><p><strong>Svar:</strong> \\(0{,}30\\) kg</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "koppar och vatten med samma temperaturökning",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>En kopparbit (massa \\(m\\)) och vatten (massa \\(M\\)) tillförs lika mycket energi och får lika stor temperaturökning. Bestäm \\(\\dfrac{M}{m}\\).</p>",
+    "s": "<p>\\(mc_{Cu}\\Delta T=Mc_v\\Delta T\\iff\\dfrac Mm=\\dfrac{385}{4\\,180}\\).</p><p><strong>Svar:</strong> \\(0{,}092\\) </p>",
+    "id": "7.141",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.09210526315789473,
+    "tolerans": 0.00138,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt energierna lika.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "badkar som svalnar",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ett badkar med 0,20 m³ vatten svalnar från 35 °C till 22 °C på 35 minuter. Hur stor är den genomsnittliga värmeeffekten som avges?</p>",
+    "s": "<p>\\(Q=200\\cdot4\\,180\\cdot13\\), \\(P=\\dfrac{Q}{35\\cdot60}\\).</p><p><strong>Svar:</strong> \\(5\\,175\\) W</p>",
+    "id": "7.142",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5175.238095238095,
+    "tolerans": 77.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=\\dfrac{Q}{t}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "W",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "läskburk i snön",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: aluminium 0,90 kJ/(kg·K).</p><p>En tom aluminiumburk (6,2 g) ligger i snön och har till slut temperaturen −12 °C. Den har då avgett 0,15 kJ. Vilken temperatur hade den från början?</p>",
+    "s": "<p>\\(\\Delta T=\\dfrac{150}{0{,}0062\\cdot900}=26{,}9\\) K. Starttemperatur: \\(-12+26{,}9\\).</p><p><strong>Svar:</strong> \\(15\\) °C</p>",
+    "id": "7.143",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.881720430107528,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "typ": "kvicksilver jämfört med vatten",
+    "poang": "(2/0/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K).</p><ol type=\"a\"><li>Hur många kelvin stiger temperaturen hos 20 g kvicksilver om det tillförs 100 J?</li><li>Hur mycket energi krävs för samma temperaturökning hos 20 g vatten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta T=\\dfrac{100}{0{,}020\\cdot140}\\).</p><p><strong>Svar:</strong> \\(36\\) K</p></li><li><p>\\(Q=0{,}020\\cdot4\\,180\\cdot35{,}7\\).</p><p><strong>Svar:</strong> \\(2\\,986\\) J</p></li></ol>",
+    "id": "7.144",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      35.71428571428571,
+      2985.7142857142853
+    ],
+    "tolerans": [
+      0.536,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "K",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många kelvin stiger temperaturen hos 20 g kvicksilver om det tillförs 100 J?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K).</p><p>Hur många kelvin stiger temperaturen hos 20 g kvicksilver om det tillförs 100 J?</p>",
+        "s": "<p>\\(\\Delta T=\\dfrac{100}{0{,}020\\cdot140}\\).</p><p><strong>Svar:</strong> \\(36\\) K</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi krävs för samma temperaturökning hos 20 g vatten?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K).</p>Temperaturen stiger 35,7 K.<p>Hur mycket energi krävs för samma temperaturökning hos 20 g vatten?</p>",
+        "s": "<p>\\(Q=0{,}020\\cdot4\\,180\\cdot35{,}7\\).</p><p><strong>Svar:</strong> \\(2\\,986\\) J</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "varmvattenberedare med genomflöde",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare (8,8 kW) värmer vatten från 12 °C till 42 °C när det passerar. Hur många kilogram vatten kan den värma per timme?</p>",
+    "s": "<p>\\(m=\\dfrac{8\\,800\\cdot3\\,600}{4\\,180\\cdot30}\\).</p><p><strong>Svar:</strong> \\(253\\) kg</p>",
+    "id": "7.145",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 252.6315789473684,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Energin under en timme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "vattenfall värmer vattnet",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ett vattenfall har fallhöjden 95 m. Hur många kelvin stiger vattnets temperatur om all lägesenergi blir värme i vattnet? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(mgh=mc\\Delta T\\iff\\Delta T=\\dfrac{9{,}82\\cdot95}{4\\,180}\\).</p><p><strong>Svar:</strong> \\(0{,}22\\) K</p>",
+    "id": "7.146",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.22318181818181818,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Massan tar ut sig.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "K",
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "kol för att koka vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>En järnkastrull (350 g) med 6,5 liter vatten har temperaturen 8,0 °C. Hur mycket kol (30 MJ/kg) måste minst förbrännas för att vattnet ska börja koka?</p>",
+    "s": "<p>\\(Q=(0{,}350\\cdot450+6{,}5\\cdot4\\,180)\\cdot92\\), \\(m=\\dfrac{Q}{30\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}084\\) kg</p>",
+    "id": "7.147",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.08380433333333333,
+    "tolerans": 0.00126,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Både kastrullen och vattnet ska värmas.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "typ": "kastrull och vatten",
+    "poang": "(2/0/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (0,50 kg) innehåller 0,25 liter vatten. Båda värms från 20 °C till 80 °C.</p><ol type=\"a\"><li>Hur mycket energi går åt?</li><li>Hur många procent av energin gick till vattnet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=(0{,}50\\cdot900+0{,}25\\cdot4\\,180)\\cdot60\\).</p><p><strong>Svar:</strong> \\(89\\,700\\) J</p></li><li><p>\\(\\dfrac{0{,}25\\cdot4\\,180\\cdot60}{89\\,700}\\).</p><p><strong>Svar:</strong> \\(70\\) %</p></li></ol>",
+    "id": "7.148",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      89700.0,
+      69.89966555183946
+    ],
+    "tolerans": [
+      1350.0,
+      1.05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (0,50 kg) innehåller 0,25 liter vatten. Båda värms från 20 °C till 80 °C.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi går åt?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (0,50 kg) innehåller 0,25 liter vatten. Båda värms från 20 °C till 80 °C.</p><p>Hur mycket energi går åt?</p>",
+        "s": "<p>\\(Q=(0{,}50\\cdot900+0{,}25\\cdot4\\,180)\\cdot60\\).</p><p><strong>Svar:</strong> \\(89\\,700\\) J</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många procent av energin gick till vattnet?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (0,50 kg) innehåller 0,25 liter vatten. Båda värms från 20 °C till 80 °C.</p>Totalt går det åt 89,7 kJ.<p>Hur många procent av energin gick till vattnet?</p>",
+        "s": "<p>\\(\\dfrac{0{,}25\\cdot4\\,180\\cdot60}{89\\,700}\\).</p><p><strong>Svar:</strong> \\(70\\) %</p>",
+        "ledtrad": "<p>Vattnets del av energin.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "kroppen svalnar",
+    "poang": "(0/1/0)",
+    "t": "<p>En kropp (65 kg, specifik värmekapacitet 3,5 kJ/(kg·K)) avger värmeeffekten 200 W. Hur många minuter tar det innan temperaturen sjunkit från 37,2 °C till 35,6 °C?</p>",
+    "s": "<p>\\(Q=65\\cdot3\\,500\\cdot1{,}6\\), \\(t=\\dfrac{Q}{200}\\) s.</p><p><strong>Svar:</strong> \\(30\\) min</p>",
+    "id": "7.149",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.333333333333332,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(t=\\dfrac{Q}{P}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "min",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "typ": "varmvattenberedare fylls på",
+    "poang": "(2/0/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare rymmer 245 liter vatten med temperaturen 10,0 °C.</p><ol type=\"a\"><li>Hur mycket energi krävs för att värma vattnet till 45 °C?</li><li>Hur många minuter tar det med effekten 9,5 kW?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=245\\cdot4\\,180\\cdot35\\).</p><p><strong>Svar:</strong> \\(3{,}6\\cdot10^{7}\\) J</p></li><li><p>\\(t=\\dfrac{35{,}8\\cdot10^6}{9\\,500}\\) s.</p><p><strong>Svar:</strong> \\(63\\) min</p></li></ol>",
+    "id": "7.150",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      35843500,
+      62.88333333333333
+    ],
+    "tolerans": [
+      538000.0,
+      0.943
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare rymmer 245 liter vatten med temperaturen 10,0 °C.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi krävs för att värma vattnet till 45 °C?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare rymmer 245 liter vatten med temperaturen 10,0 °C.</p><p>Hur mycket energi krävs för att värma vattnet till 45 °C?</p>",
+        "s": "<p>\\(Q=245\\cdot4\\,180\\cdot35\\).</p><p><strong>Svar:</strong> \\(3{,}6\\cdot10^{7}\\) J</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många minuter tar det med effekten 9,5 kW?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare rymmer 245 liter vatten med temperaturen 10,0 °C.</p>Det krävs 35,8 MJ.<p>Hur många minuter tar det med effekten 9,5 kW?</p>",
+        "s": "<p>\\(t=\\dfrac{35{,}8\\cdot10^6}{9\\,500}\\) s.</p><p><strong>Svar:</strong> \\(63\\) min</p>",
+        "ledtrad": "<p>\\(t=\\dfrac{Q}{P}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "kopparföremål värms av friktion",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>Ett kopparföremål (2,4 kg) glider 29 m på ett vågrätt underlag med friktionstalet 0,25 och stannar. 30 % av friktionsvärmen värmer föremålet. Hur många kelvin stiger temperaturen? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(Q=0{,}30\\cdot0{,}25\\cdot2{,}4\\cdot9{,}82\\cdot29\\), \\(\\Delta T=\\dfrac{Q}{2{,}4\\cdot385}\\).</p><p><strong>Svar:</strong> \\(0{,}055\\) K</p>",
+    "id": "7.151",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.05547662337662338,
+    "tolerans": 0.000832,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Friktionsarbete \\(=\\mu mgs\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "K",
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "kostnad för en dusch",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Håkan duschar 8,0 minuter. Duschen ger 12 liter vatten per minut, och vattnet värms från 10 °C till 40 °C. Vad kostar duschen om 1 kWh kostar 0,86 kr?</p>",
+    "s": "<p>\\(Q=96\\cdot4\\,180\\cdot30\\) J \\(=3{,}34\\) kWh. Pris: \\(3{,}34\\cdot0{,}86\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) kr</p>",
+    "id": "7.152",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.8758399999999997,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>1 kWh = 3,6 MJ.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kr",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "rymdkapsel bromsas i atmosfären",
+    "poang": "(0/1/0)",
+    "t": "<p>En rymdkapsel (1,8 ton, specifik värmekapacitet 0,40 kJ/(kg·K)) bromsas från 400 m/s till 50,0 m/s. Hur många kelvin stiger temperaturen om all förlorad rörelseenergi värmer kapseln?</p>",
+    "s": "<p>\\(\\Delta T=\\dfrac{400^2-50{,}0^2}{2\\cdot400}\\).</p><p><strong>Svar:</strong> \\(197\\) K</p>",
+    "id": "7.153",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 196.875,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\tfrac12m(v_1^2-v_2^2)=mc\\Delta T\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "K",
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "doppvärmare i vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En doppvärmare (250 W) värmer 5,0 dl vatten i 3,0 minuter. Hur många kelvin stiger temperaturen?</p>",
+    "s": "<p>\\(Q=250\\cdot180\\), \\(\\Delta T=\\dfrac{Q}{0{,}50\\cdot4\\,180}\\).</p><p><strong>Svar:</strong> \\(22\\) K</p>",
+    "id": "7.154",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 21.5311004784689,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(Q=Pt\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "K",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "värmespiral i aluminiumkärl",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En värmespiral (4,5 W) värmer ett aluminiumkärl (52,0 g) med 20,0 g vatten i 15 minuter. Hur många kelvin stiger temperaturen?</p>",
+    "s": "<p>\\(\\Delta T=\\dfrac{4{,}5\\cdot900}{0{,}0520\\cdot900+0{,}0200\\cdot4\\,180}\\).</p><p><strong>Svar:</strong> \\(31\\) K</p>",
+    "id": "7.155",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 31.058282208588956,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Både kärlet och vattnet värms.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "K",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "minsta effekt för att koka vatten i mugg",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En mugg (0,35 kg, 0,90 kJ/(kg·K)) med 2,5 dl vatten har temperaturen 15 °C. En värmespiral värmer muggen och vattnet till 100 °C på 3,0 minuter. Vilken är den minsta effekt spiralen kan ha?</p>",
+    "s": "<p>\\(Q=(0{,}35\\cdot900+0{,}25\\cdot4\\,180)\\cdot85\\), \\(P=\\dfrac{Q}{180}\\).</p><p><strong>Svar:</strong> \\(642\\) W</p>",
+    "id": "7.156",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 642.2222222222222,
+    "tolerans": 9.63,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=\\dfrac{Q}{t}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "W",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "A",
+    "typ": "spik dras ur planka",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: järn 0,45 kJ/(kg·K).</p><p>En järnspik (25 g, 12 cm lång) dras upp ur en planka med medelkraften 45 N. Hur många kelvin kan spikens temperatur som mest stiga? Ta hänsyn till att spiken också får lägesenergi. Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(W=45\\cdot0{,}12=5{,}4\\) J. \\(E_p=0{,}025\\cdot9{,}82\\cdot0{,}12\\). \\(\\Delta T=\\dfrac{W-E_p}{0{,}025\\cdot450}\\).</p><p><strong>Svar:</strong> \\(0{,}48\\) K</p>",
+    "id": "7.157",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4773813333333333,
+    "tolerans": 0.00716,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Arbetet blir värme och lägesenergi.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "K",
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "typ": "vattenkokare av aluminium",
+    "poang": "(1/0/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En vattenkokare av aluminium (0,400 kg) innehåller 2,00 kg vatten. Hur mycket energi krävs för att värma båda från 15,0 °C till 100,0 °C?</p>",
+    "s": "<p>\\(Q=(0{,}400\\cdot900+2{,}00\\cdot4\\,180)\\cdot85{,}0\\).</p><p><strong>Svar:</strong> \\(7{,}41\\cdot10^{5}\\) J</p>",
+    "id": "7.158",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 741200.0,
+    "tolerans": 11100.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "J",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "typ": "kastrull på spisplatta",
+    "poang": "(2/0/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En kastrull med 700 g vatten (8,0 °C) står på en spisplatta på 1 000 W. Anta att all värme går till vattnet.</p><ol type=\"a\"><li>Vilken temperatur har vattnet efter 2,0 minuter?</li><li>Efter hur många sekunder börjar vattnet koka?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta T=\\dfrac{1\\,000\\cdot120}{0{,}700\\cdot4\\,180}=41{,}0\\) K.</p><p><strong>Svar:</strong> \\(49\\) °C</p></li><li><p>\\(t=\\dfrac{0{,}700\\cdot4\\,180\\cdot92}{1\\,000}\\).</p><p><strong>Svar:</strong> \\(269\\) s</p></li></ol>",
+    "id": "7.159",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      49.01161995898838,
+      269.192
+    ],
+    "tolerans": [
+      0.735,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°C",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En kastrull med 700 g vatten (8,0 °C) står på en spisplatta på 1 000 W. Anta att all värme går till vattnet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken temperatur har vattnet efter 2,0 minuter?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En kastrull med 700 g vatten (8,0 °C) står på en spisplatta på 1 000 W. Anta att all värme går till vattnet.</p><p>Vilken temperatur har vattnet efter 2,0 minuter?</p>",
+        "s": "<p>\\(\\Delta T=\\dfrac{1\\,000\\cdot120}{0{,}700\\cdot4\\,180}=41{,}0\\) K.</p><p><strong>Svar:</strong> \\(49\\) °C</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur många sekunder börjar vattnet koka?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En kastrull med 700 g vatten (8,0 °C) står på en spisplatta på 1 000 W. Anta att all värme går till vattnet.</p><p>Efter hur många sekunder börjar vattnet koka?</p>",
+        "s": "<p>\\(t=\\dfrac{0{,}700\\cdot4\\,180\\cdot92}{1\\,000}\\).</p><p><strong>Svar:</strong> \\(269\\) s</p>",
+        "ledtrad": "<p>\\(t=\\dfrac{Q}{P}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "verkningsgrad vid uppvärmning",
+    "poang": "(0/2/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><ol type=\"a\"><li>Hur många sekunder tar det att värma 250 g soppa (som vatten) från 15 °C till 75 °C på en spisplatta (375 W) med verkningsgraden 80 %?</li><li>En mikrovågsugn (800 W) värmer 240 g vatten från 12 °C till 85 °C på 1 min 52 s. Bestäm verkningsgraden i procent.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{0{,}250\\cdot4\\,180\\cdot60}{0{,}80\\cdot375}\\).</p><p><strong>Svar:</strong> \\(209\\) s</p></li><li><p>\\(\\eta=\\dfrac{0{,}240\\cdot4\\,180\\cdot73}{800\\cdot112}\\).</p><p><strong>Svar:</strong> \\(82\\) %</p></li></ol>",
+    "id": "7.160",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      209.0,
+      81.73392857142858
+    ],
+    "tolerans": [
+      5.1,
+      1.23
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många sekunder tar det att värma 250 g soppa (som vatten) från 15 °C till 75 °C på en spisplatta (375 W) med verkningsgraden 80 %?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Hur många sekunder tar det att värma 250 g soppa (som vatten) från 15 °C till 75 °C på en spisplatta (375 W) med verkningsgraden 80 %?</p>",
+        "s": "<p>\\(t=\\dfrac{0{,}250\\cdot4\\,180\\cdot60}{0{,}80\\cdot375}\\).</p><p><strong>Svar:</strong> \\(209\\) s</p>",
+        "ledtrad": "<p>Nyttig effekt \\(=\\eta P\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En mikrovågsugn (800 W) värmer 240 g vatten från 12 °C till 85 °C på 1 min 52 s. Bestäm verkningsgraden i procent.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En mikrovågsugn (800 W) värmer 240 g vatten från 12 °C till 85 °C på 1 min 52 s. Bestäm verkningsgraden i procent.</p>",
+        "s": "<p>\\(\\eta=\\dfrac{0{,}240\\cdot4\\,180\\cdot73}{800\\cdot112}\\).</p><p><strong>Svar:</strong> \\(82\\) %</p>",
+        "ledtrad": "<p>Nyttig energi delat med tillförd energi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\eta=\\dfrac{E_\\text{nyttig}}{E_\\text{tillförd}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "vattenkokare med kokare och vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En vattenkokare (750 W) av aluminium (280 g) innehåller 750 ml vatten vid 11,0 °C. Efter hur många sekunder kokar vattnet?</p>",
+    "s": "<p>\\(t=\\dfrac{(0{,}750\\cdot4\\,180+0{,}280\\cdot900)\\cdot89{,}0}{750}\\).</p><p><strong>Svar:</strong> \\(402\\) s</p>",
+    "id": "7.161",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 401.924,
+    "tolerans": 6.03,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Både kokaren och vattnet värms.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "blykula värms vid nedslag",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula släpps från 55 m höjd. 65 % av energin som frigörs vid nedslaget värmer kulan. Hur många kelvin stiger temperaturen? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(\\Delta T=\\dfrac{0{,}65\\cdot9{,}82\\cdot55}{130}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) K</p>",
+    "id": "7.162",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.7005,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Massan tar ut sig.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "K",
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "solpanel värmer vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En solpanel (6,00 m², verkningsgrad 75 %) träffas av solljus med intensiteten 550 W/m². Hur många timmar tar det att värma 1,00 m³ vatten från 20,0 °C till 60,0 °C?</p>",
+    "s": "<p>\\(P=0{,}75\\cdot550\\cdot6{,}00\\), \\(t=\\dfrac{1\\,000\\cdot4\\,180\\cdot40{,}0}{P}\\) s.</p><p><strong>Svar:</strong> \\(18{,}8\\) h</p>",
+    "id": "7.163",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och verkningsgrad vid uppvärmning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.765432098765434,
+    "tolerans": 0.281,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nyttig effekt först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "h",
+    "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "squashboll värms",
+    "poang": "(0/1/0)",
+    "t": "<p>En squashboll (specifik värmekapacitet 1,2 kJ/(kg·K)) träffar väggen med 22 m/s och studsar tillbaka med 18 m/s. Hur många kelvin stiger temperaturen om all förlorad rörelseenergi värmer bollen?</p>",
+    "s": "<p>\\(\\Delta T=\\dfrac{22^2-18^2}{2\\cdot1\\,200}\\).</p><p><strong>Svar:</strong> \\(0{,}067\\) K</p>",
+    "id": "7.164",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.06666666666666667,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Massan tar ut sig.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "K",
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "spik värms av hammarslag",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: järn 0,45 kJ/(kg·K).</p><p>Ett hammarhuvud (1,20 kg) träffar en järnspik (14 g) med farten 7,5 m/s och stannar. 30 % av energin värmer spiken. Hur många kelvin stiger spikens temperatur efter 8 slag?</p>",
+    "s": "<p>\\(Q=8\\cdot0{,}30\\cdot\\tfrac12\\cdot1{,}20\\cdot7{,}5^2\\), \\(\\Delta T=\\dfrac{Q}{0{,}014\\cdot450}\\).</p><p><strong>Svar:</strong> \\(13\\) K</p>",
+    "id": "7.165",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Specifik värmekapacitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.857142857142858,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelseenergin per slag.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "K",
+    "familjNyckel": "varme__specifik_varmekapacitet",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "jämviktstemperatur vid blandning",
+    "poang": "(1/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>Bestäm jämviktstemperaturen i en termos när man blandar</p><ol type=\"a\"><li>2,0 liter vatten (62,5 °C) och 1,2 liter vatten (17,2 °C).</li><li>1,5 liter vatten (51 °C) och 0,80 liter etanol (15 °C).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{2{,}0\\cdot62{,}5+1{,}2\\cdot17{,}2}{3{,}2}\\).</p><p><strong>Svar:</strong> \\(46\\) °C</p></li><li><p>\\(1{,}5\\cdot4\\,180(51-T)=0{,}632\\cdot2\\,400(T-15)\\).</p><p><strong>Svar:</strong> \\(44\\) °C</p></li></ol>",
+    "id": "7.166",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      45.512499999999996,
+      43.987517337031896
+    ],
+    "tolerans": [
+      0.683,
+      0.66
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>Bestäm jämviktstemperaturen i en termos när man blandar</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "2,0 liter vatten (62,5 °C) och 1,2 liter vatten (17,2 °C).",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>Bestäm jämviktstemperaturen i en termos när man blandar</p><p>2,0 liter vatten (62,5 °C) och 1,2 liter vatten (17,2 °C).</p>",
+        "s": "<p>\\(T=\\dfrac{2{,}0\\cdot62{,}5+1{,}2\\cdot17{,}2}{3{,}2}\\).</p><p><strong>Svar:</strong> \\(46\\) °C</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "1,5 liter vatten (51 °C) och 0,80 liter etanol (15 °C).",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>Bestäm jämviktstemperaturen i en termos när man blandar</p><p>1,5 liter vatten (51 °C) och 0,80 liter etanol (15 °C).</p>",
+        "s": "<p>\\(1{,}5\\cdot4\\,180(51-T)=0{,}632\\cdot2\\,400(T-15)\\).</p><p><strong>Svar:</strong> \\(44\\) °C</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "het metall i vatten",
+    "poang": "(0/2/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Bestäm jämviktstemperaturen.</p><ol type=\"a\"><li>En kopparspik (30 g, 300 °C) läggs i 100 ml vatten (20 °C).</li><li>En järnkula (75,0 g, 200 °C) läggs i 200 ml vatten (12 °C).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}030\\cdot385(300-T)=0{,}100\\cdot4\\,180(T-20)\\).</p><p><strong>Svar:</strong> \\(28\\) °C</p></li><li><p>\\(0{,}0750\\cdot450(200-T)=0{,}200\\cdot4\\,180(T-12)\\).</p><p><strong>Svar:</strong> \\(19\\) °C</p></li></ol>",
+    "id": "7.167",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      27.528809218950062,
+      19.295199770048864
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Bestäm jämviktstemperaturen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En kopparspik (30 g, 300 °C) läggs i 100 ml vatten (20 °C).",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Bestäm jämviktstemperaturen.</p><p>En kopparspik (30 g, 300 °C) läggs i 100 ml vatten (20 °C).</p>",
+        "s": "<p>\\(0{,}030\\cdot385(300-T)=0{,}100\\cdot4\\,180(T-20)\\).</p><p><strong>Svar:</strong> \\(28\\) °C</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En järnkula (75,0 g, 200 °C) läggs i 200 ml vatten (12 °C).",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Bestäm jämviktstemperaturen.</p><p>En järnkula (75,0 g, 200 °C) läggs i 200 ml vatten (12 °C).</p>",
+        "s": "<p>\\(0{,}0750\\cdot450(200-T)=0{,}200\\cdot4\\,180(T-12)\\).</p><p><strong>Svar:</strong> \\(19\\) °C</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "massa hos kopparcylinder",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (300 °C) läggs i 100 ml vatten (20,0 °C). Jämviktstemperaturen blir 25,5 °C. Bestäm cylinderns massa.</p>",
+    "s": "<p>\\(m\\cdot385\\cdot274{,}5=0{,}100\\cdot4\\,180\\cdot5{,}5\\).</p><p><strong>Svar:</strong> \\(0{,}0218\\) kg</p>",
+    "id": "7.168",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.021753838147280772,
+    "tolerans": 0.000326,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "aluminiumkastrullens starttemperatur",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (750 g) läggs direkt från spisen i 10,0 kg vatten (20,0 °C). Vattnets temperatur stiger till 24,0 °C. Vilken temperatur hade kastrullen?</p>",
+    "s": "<p>\\(0{,}750\\cdot900(T-24{,}0)=10{,}0\\cdot4\\,180\\cdot4{,}0\\).</p><p><strong>Svar:</strong> \\(272\\) °C</p>",
+    "id": "7.169",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 271.7037037037037,
+    "tolerans": 4.08,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "metall i kvicksilver",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: kvicksilver 0,14 kJ/(kg·K).</p><p>En metallsfär (500 g, 300 °C) läggs i 4,08 kg kvicksilver (20,0 °C). Jämviktstemperaturen blir 99,0 °C. Bestäm metallens specifika värmekapacitet.</p>",
+    "s": "<p>\\(0{,}500\\cdot c\\cdot201=4{,}08\\cdot140\\cdot79{,}0\\).</p><p><strong>Svar:</strong> \\(449\\) J/(kg·K)</p>",
+    "id": "7.170",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 449.0029850746269,
+    "tolerans": 6.74,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J/(kg·K)",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "bål med läsk och melon",
+    "poang": "(0/1/0)",
+    "t": "<p>12 flaskor läsk (0,35 kg var, 5,0 °C, 3,8 kJ/(kg·K)) blandas med en melon (6,5 kg, 27 °C, 4,18 kJ/(kg·K)). Bestäm jämviktstemperaturen.</p>",
+    "s": "<p>\\(4{,}2\\cdot3\\,800(T-5{,}0)=6{,}5\\cdot4\\,180(27-T)\\).</p><p><strong>Svar:</strong> \\(19\\) °C</p>",
+    "id": "7.171",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.859030837004404,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "vätska över glasstav",
+    "poang": "(0/1/0)",
+    "t": "<p>En glasstav (83,0 °C, 840 J/(kg·K)) täcks av lika stor massa av en okänd vätska (43,0 °C). Jämviktstemperaturen blir 53,0 °C. Bestäm vätskans specifika värmekapacitet.</p>",
+    "s": "<p>\\(m\\cdot840\\cdot30{,}0=m\\cdot c\\cdot10{,}0\\).</p><p><strong>Svar:</strong> \\(2\\,520\\) J/(kg·K)</p>",
+    "id": "7.172",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2520,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J/(kg·K)",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "blykulans starttemperatur",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), bly 0,13 kJ/(kg·K).</p><p>En blykula (2,30 kg) läggs i en termos med 2,50 liter vatten (20,0 °C). Jämviktstemperaturen blir 32,0 °C. Vilken temperatur hade kulan?</p>",
+    "s": "<p>\\(2{,}30\\cdot130(T-32{,}0)=2{,}50\\cdot4\\,180\\cdot12{,}0\\).</p><p><strong>Svar:</strong> \\(451\\) °C</p>",
+    "id": "7.173",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 451.39799331103677,
+    "tolerans": 6.77,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "granitkuber som kyler vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Tre granitkuber (sida 2,0 cm, densitet 2,8 g/cm³, 0,79 kJ/(kg·K)) med temperaturen −18 °C läggs i 2 dl vatten (22 °C). Bestäm sluttemperaturen.</p>",
+    "s": "<p>Granitens massa: \\(3\\cdot8{,}0\\cdot2{,}8=67\\) g. \\(0{,}0672\\cdot790(T+18)=0{,}20\\cdot4\\,180(22-T)\\).</p><p><strong>Svar:</strong> \\(20\\) °C</p>",
+    "id": "7.174",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 19.61157500719839,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm granitens massa först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "A",
+    "typ": "termometer i varmt vatten",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), glas 0,84 kJ/(kg·K).</p><p>En glastermometer (31,5 g) visar 23,6 °C och placeras i 135 ml vatten. Den visar sedan 41,8 °C. Vilken temperatur hade vattnet från början?</p>",
+    "s": "<p>\\(0{,}0315\\cdot840\\cdot18{,}2=0{,}135\\cdot4\\,180(T-41{,}8)\\).</p><p><strong>Svar:</strong> \\(42{,}7\\) °C</p>",
+    "id": "7.175",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 42.6533971291866,
+    "tolerans": 0.64,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Termometern tar upp värme från vattnet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "specifik värmekapacitet ur blandning",
+    "poang": "(0/3/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><ol type=\"a\"><li>Aluminium (22,0 g, 100,0 °C) läggs i 67,0 g vatten (15,1 °C). Blandningstemperaturen blir 20,6 °C. Bestäm aluminiums specifika värmekapacitet.</li><li>Koppar (100 g, 90 °C) läggs i 200 g vatten (15 °C). Sluttemperaturen blir 18 °C. Bestäm kopparns specifika värmekapacitet.</li><li>En okänd metall (54 g, 100,7 °C) läggs i 46,30 g vatten (25,00 °C). Temperaturen stiger till 32,40 °C. Bestäm metallens specifika värmekapacitet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}0220\\cdot c\\cdot79{,}4=0{,}0670\\cdot4\\,180\\cdot5{,}5\\).</p><p><strong>Svar:</strong> \\(882\\) J/(kg·K)</p></li><li><p>\\(0{,}100\\cdot c\\cdot72=0{,}200\\cdot4\\,180\\cdot3\\).</p><p><strong>Svar:</strong> \\(348\\) J/(kg·K)</p></li><li><p>\\(0{,}054\\cdot c\\cdot68{,}3=0{,}04630\\cdot4\\,180\\cdot7{,}40\\).</p><p><strong>Svar:</strong> \\(388\\) J/(kg·K)</p></li></ol>",
+    "id": "7.176",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      881.8010075566749,
+      348.3333333333333,
+      388.30638251721706
+    ],
+    "tolerans": [
+      13.2,
+      5.22,
+      5.82
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J/(kg·K)",
+      "J/(kg·K)",
+      "J/(kg·K)"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Aluminium (22,0 g, 100,0 °C) läggs i 67,0 g vatten (15,1 °C). Blandningstemperaturen blir 20,6 °C. Bestäm aluminiums specifika värmekapacitet.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Aluminium (22,0 g, 100,0 °C) läggs i 67,0 g vatten (15,1 °C). Blandningstemperaturen blir 20,6 °C. Bestäm aluminiums specifika värmekapacitet.</p>",
+        "s": "<p>\\(0{,}0220\\cdot c\\cdot79{,}4=0{,}0670\\cdot4\\,180\\cdot5{,}5\\).</p><p><strong>Svar:</strong> \\(882\\) J/(kg·K)</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Koppar (100 g, 90 °C) läggs i 200 g vatten (15 °C). Sluttemperaturen blir 18 °C. Bestäm kopparns specifika värmekapacitet.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Koppar (100 g, 90 °C) läggs i 200 g vatten (15 °C). Sluttemperaturen blir 18 °C. Bestäm kopparns specifika värmekapacitet.</p>",
+        "s": "<p>\\(0{,}100\\cdot c\\cdot72=0{,}200\\cdot4\\,180\\cdot3\\).</p><p><strong>Svar:</strong> \\(348\\) J/(kg·K)</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En okänd metall (54 g, 100,7 °C) läggs i 46,30 g vatten (25,00 °C). Temperaturen stiger till 32,40 °C. Bestäm metallens specifika värmekapacitet.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En okänd metall (54 g, 100,7 °C) läggs i 46,30 g vatten (25,00 °C). Temperaturen stiger till 32,40 °C. Bestäm metallens specifika värmekapacitet.</p>",
+        "s": "<p>\\(0{,}054\\cdot c\\cdot68{,}3=0{,}04630\\cdot4\\,180\\cdot7{,}40\\).</p><p><strong>Svar:</strong> \\(388\\) J/(kg·K)</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "jämvikt med kall och varm metall",
+    "poang": "(0/3/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><ol type=\"a\"><li>Aluminium (80 g, 100 °C) läggs i 200 g vatten (21 °C). Bestäm jämviktstemperaturen.</li><li>En kopparcylinder (75 g, −18 °C) läggs i 300 g vatten (65 °C). Bestäm jämviktstemperaturen.</li><li>En järnspik (18,0 g, 7,6 °C) läggs i 200,0 g vatten (75,0 °C). Bestäm jämviktstemperaturen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}080\\cdot900(100-T)=0{,}200\\cdot4\\,180(T-21)\\).</p><p><strong>Svar:</strong> \\(27\\) °C</p></li><li><p>\\(0{,}075\\cdot385(T+18)=0{,}300\\cdot4\\,180(65-T)\\).</p><p><strong>Svar:</strong> \\(63\\) °C</p></li><li><p>\\(0{,}0180\\cdot450(T-7{,}6)=0{,}2000\\cdot4\\,180(75{,}0-T)\\).</p><p><strong>Svar:</strong> \\(74{,}4\\) °C</p></li></ol>",
+    "id": "7.177",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      27.26431718061674,
+      63.131832797427656,
+      74.35322829048691
+    ],
+    "tolerans": [
+      0.51,
+      0.947,
+      1.12
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C",
+      "°C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Aluminium (80 g, 100 °C) läggs i 200 g vatten (21 °C). Bestäm jämviktstemperaturen.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Aluminium (80 g, 100 °C) läggs i 200 g vatten (21 °C). Bestäm jämviktstemperaturen.</p>",
+        "s": "<p>\\(0{,}080\\cdot900(100-T)=0{,}200\\cdot4\\,180(T-21)\\).</p><p><strong>Svar:</strong> \\(27\\) °C</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kopparcylinder (75 g, −18 °C) läggs i 300 g vatten (65 °C). Bestäm jämviktstemperaturen.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>En kopparcylinder (75 g, −18 °C) läggs i 300 g vatten (65 °C). Bestäm jämviktstemperaturen.</p>",
+        "s": "<p>\\(0{,}075\\cdot385(T+18)=0{,}300\\cdot4\\,180(65-T)\\).</p><p><strong>Svar:</strong> \\(63\\) °C</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En järnspik (18,0 g, 7,6 °C) läggs i 200,0 g vatten (75,0 °C). Bestäm jämviktstemperaturen.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>En järnspik (18,0 g, 7,6 °C) läggs i 200,0 g vatten (75,0 °C). Bestäm jämviktstemperaturen.</p>",
+        "s": "<p>\\(0{,}0180\\cdot450(T-7{,}6)=0{,}2000\\cdot4\\,180(75{,}0-T)\\).</p><p><strong>Svar:</strong> \\(74{,}4\\) °C</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "vatten tillsätts etanol",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>En bägare innehåller 3,0 dl etanol (20 °C). Hur mycket vatten (55 °C) måste tillsättas för att sluttemperaturen ska bli 32 °C?</p>",
+    "s": "<p>\\(m\\cdot4\\,180\\cdot23=0{,}237\\cdot2\\,400\\cdot12\\).</p><p><strong>Svar:</strong> \\(0{,}071\\) kg</p>",
+    "id": "7.178",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.07099646349074266,
+    "tolerans": 0.00106,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "A",
+    "typ": "kopparkärl med vatten",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ett kopparkärl (150 g) innehåller 150 ml vatten, båda 21,5 °C. Man häller i 100 ml vatten (35,5 °C), och jämviktstemperaturen blir 26,8 °C. Bestäm kopparns specifika värmekapacitet.</p>",
+    "s": "<p>\\(0{,}100\\cdot4\\,180\\cdot8{,}7=(0{,}150\\cdot4\\,180+0{,}150c)\\cdot5{,}3\\).</p><p><strong>Svar:</strong> \\(394\\) J/(kg·K)</p>",
+    "id": "7.179",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 394.3396226415095,
+    "tolerans": 5.92,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "J/(kg·K)",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "A",
+    "typ": "silver och guld i termos",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>I en termos läggs 100 g silver och 20 g guld. Guldet är 10 K varmare än silvret. Sluttemperaturen blir 191 °C. Vilken temperatur hade guldet?</p>",
+    "s": "<p>Silvret har \\(T\\), guldet \\(T+10\\): \\(0{,}020\\cdot130(T+10-191)=0{,}100\\cdot235(191-T)\\).</p><p><strong>Svar:</strong> \\(200\\) °C</p>",
+    "id": "7.180",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 200.00383141762453,
+    "tolerans": 3.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "A",
+    "typ": "järn i två bad",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), järn 0,45 kJ/(kg·K), etanol 2,4 kJ/(kg·K).</p><p>En järnbit (300 g, 100 °C) läggs i 500 g vatten (30 °C). Vid jämvikt flyttas den till 200 g etanol (30 °C). Bestäm etanolens sluttemperatur.</p>",
+    "s": "<p>Vattenbad: \\(T_1=\\dfrac{0{,}300\\cdot450\\cdot100+0{,}500\\cdot4\\,180\\cdot30}{0{,}300\\cdot450+0{,}500\\cdot4\\,180}=34{,}3\\) °C. Etanolbad: \\(0{,}300\\cdot450(34{,}3-T)=0{,}200\\cdot2\\,400(T-30)\\).</p><p><strong>Svar:</strong> \\(30{,}9\\) °C</p>",
+    "id": "7.181",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.932310221978625,
+    "tolerans": 0.464,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna ett bad i taget.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "specifik värmekapacitet för bly",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En blybit (14,2 g, 92,5 °C) läggs i 165 g vatten (20,00 °C). Jämviktstemperaturen blir 20,20 °C. Bestäm blyets specifika värmekapacitet.</p>",
+    "s": "<p>\\(0{,}0142\\cdot c\\cdot72{,}3=0{,}165\\cdot4\\,180\\cdot0{,}20\\).</p><p><strong>Svar:</strong> \\(134\\) J/(kg·K)</p>",
+    "id": "7.182",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 134.35801531178774,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J/(kg·K)",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "terpentin",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (76,8 g, 86,5 °C) läggs i 68,7 g terpentin (19,5 °C). Sluttemperaturen blir 31,9 °C. Bestäm terpentinets specifika värmekapacitet.</p>",
+    "s": "<p>\\(0{,}0768\\cdot385\\cdot54{,}6=0{,}0687\\cdot c\\cdot12{,}4\\).</p><p><strong>Svar:</strong> \\(1\\,895\\) J/(kg·K)</p>",
+    "id": "7.183",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1895.1176222003098,
+    "tolerans": 28.4,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J/(kg·K)",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "mjölk i kaffe",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>25 g mjölk (10 °C, 3,8 kJ/(kg·K)) hälls i 1,5 dl kaffe (70 °C, som vatten) i en isolerad mugg. Bestäm sluttemperaturen.</p>",
+    "s": "<p>\\(0{,}025\\cdot3\\,800(T-10)=0{,}150\\cdot4\\,180(70-T)\\).</p><p><strong>Svar:</strong> \\(62\\) °C</p>",
+    "id": "7.184",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 62.10526315789474,
+    "tolerans": 0.932,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "koppar i aluminiumbehållare med vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>En aluminiumbehållare (145 g) innehåller 825 g vatten (12,0 °C). En kopparbit (265 g, 245 °C) läggs i. Bestäm jämviktstemperaturen.</p>",
+    "s": "<p>\\((0{,}145\\cdot900+0{,}825\\cdot4\\,180)(T-12{,}0)=0{,}265\\cdot385(245-T)\\).</p><p><strong>Svar:</strong> \\(18{,}5\\) °C</p>",
+    "id": "7.185",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.45793630850103,
+    "tolerans": 0.277,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "hästsko i vattenbad",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>En smed lägger en järnhästsko (0,40 kg) i 1,25 liter vatten (20,0 °C). Jämviktstemperaturen blir 25,0 °C. Vilken temperatur hade hästskon? Bortse från förångning.</p>",
+    "s": "<p>\\(0{,}40\\cdot450(T-25{,}0)=1{,}25\\cdot4\\,180\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(170\\) °C</p>",
+    "id": "7.186",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 170.13888888888889,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "A",
+    "typ": "glycerinets specifika värmekapacitet",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: järn 0,45 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En järnbit (290 g, 180 °C) läggs i en aluminiumbehållare (95 g) med 250 g glycerin. Behållaren och glycerinet värms från 10,0 °C till 38,0 °C. Bestäm glycerinets specifika värmekapacitet.</p>",
+    "s": "<p>\\(0{,}290\\cdot450\\cdot142=(0{,}095\\cdot900+0{,}250c)\\cdot28{,}0\\).</p><p><strong>Svar:</strong> \\(2\\,305\\) J/(kg·K)</p>",
+    "id": "7.187",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2305.285714285714,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "J/(kg·K)",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "A",
+    "typ": "okänt prov i kalorimeter med termometer",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), glas 0,84 kJ/(kg·K).</p><p>Ett prov (215 g, 330 °C) läggs i en aluminiumbehållare (105 g) med 185 g vatten och en glastermometer (17 g), alla vid 10,5 °C. Jämviktstemperaturen blir 35,0 °C. Bestäm provets specifika värmekapacitet.</p>",
+    "s": "<p>\\(0{,}215\\cdot c\\cdot295=(0{,}105\\cdot900+0{,}185\\cdot4\\,180+0{,}017\\cdot840)\\cdot24{,}5\\).</p><p><strong>Svar:</strong> \\(341\\) J/(kg·K)</p>",
+    "id": "7.188",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 340.7325187229011,
+    "tolerans": 5.11,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "J/(kg·K)",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "typ": "två metaller i vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), bly 0,13 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>En blybit (125 g, 85,0 °C) och en silverbit (320 g, 34,0 °C) läggs i 0,500 kg vatten (22,0 °C). Bestäm sluttemperaturen.</p>",
+    "s": "<p>\\(T=\\dfrac{\\sum mcT}{\\sum mc}\\).</p><p><strong>Svar:</strong> \\(22{,}9\\) °C</p>",
+    "id": "7.189",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Värmebalans och termisk jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 22.882967750807953,
+    "tolerans": 0.343,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "7.129",
     "kap": 7,
     "omr": "fasandring",
@@ -110928,6 +113039,1451 @@ window.BANK = [
     "familjTidigare": [
       "Fasövergångar – begrepp"
     ]
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "E",
+    "typ": "smältning och kondensation",
+    "poang": "(2/0/0)",
+    "t": "<p>Smältvärme för aluminium 397 kJ/kg. Ångbildningsvärme för etanol 840 kJ/kg.</p><ol type=\"a\"><li>Hur mycket energi krävs för att smälta 1,2 kg aluminium vid smältpunkten?</li><li>Hur mycket energi frigörs när 25 g etanolånga kondenserar vid kokpunkten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=1{,}2\\cdot397\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(4{,}8\\cdot10^{5}\\) J</p></li><li><p>\\(Q=0{,}025\\cdot840\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(21\\,000\\) J</p></li></ol>",
+    "id": "7.190",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      476400.0,
+      21000.0
+    ],
+    "tolerans": [
+      7150.0,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Smältvärme för aluminium 397 kJ/kg. Ångbildningsvärme för etanol 840 kJ/kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi krävs för att smälta 1,2 kg aluminium vid smältpunkten?",
+        "t": "<p>Smältvärme för aluminium 397 kJ/kg. Ångbildningsvärme för etanol 840 kJ/kg.</p><p>Hur mycket energi krävs för att smälta 1,2 kg aluminium vid smältpunkten?</p>",
+        "s": "<p>\\(Q=1{,}2\\cdot397\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(4{,}8\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>\\(Q=ml\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi frigörs när 25 g etanolånga kondenserar vid kokpunkten?",
+        "t": "<p>Smältvärme för aluminium 397 kJ/kg. Ångbildningsvärme för etanol 840 kJ/kg.</p><p>Hur mycket energi frigörs när 25 g etanolånga kondenserar vid kokpunkten?</p>",
+        "s": "<p>\\(Q=0{,}025\\cdot840\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(21\\,000\\) J</p>",
+        "ledtrad": "<p>\\(Q=ml\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=ml\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "värma och smälta",
+    "poang": "(0/3/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p><ol type=\"a\"><li>Hur mycket energi krävs för att smälta 55 g järn som har temperaturen 25 °C?</li><li>Hur mycket energi krävs för att smälta en isbit (18 g, −18 °C)?</li><li>Vatten (21 °C) värms och kokar bort helt med 0,10 MJ. Vilken massa hade vattnet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=0{,}055(450\\cdot1\\,513+276\\cdot10^3)\\).</p><p><strong>Svar:</strong> \\(52\\,627\\) J</p></li><li><p>\\(Q=0{,}018(2\\,200\\cdot18+334\\cdot10^3)\\).</p><p><strong>Svar:</strong> \\(6\\,725\\) J</p></li><li><p>\\(m=\\dfrac{0{,}10\\cdot10^6}{4\\,180\\cdot79+2\\,260\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}039\\) kg</p></li></ol>",
+    "id": "7.191",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      52626.75,
+      6724.799999999999,
+      0.03860675927141324
+    ],
+    "tolerans": [
+      789.0,
+      101.0,
+      0.000579
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi krävs för att smälta 55 g järn som har temperaturen 25 °C?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p><p>Hur mycket energi krävs för att smälta 55 g järn som har temperaturen 25 °C?</p>",
+        "s": "<p>\\(Q=0{,}055(450\\cdot1\\,513+276\\cdot10^3)\\).</p><p><strong>Svar:</strong> \\(52\\,627\\) J</p>",
+        "ledtrad": "<p>Först uppvärmning, sedan smältning.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi krävs för att smälta en isbit (18 g, −18 °C)?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p><p>Hur mycket energi krävs för att smälta en isbit (18 g, −18 °C)?</p>",
+        "s": "<p>\\(Q=0{,}018(2\\,200\\cdot18+334\\cdot10^3)\\).</p><p><strong>Svar:</strong> \\(6\\,725\\) J</p>",
+        "ledtrad": "<p>Först uppvärmning till 0 °C.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vatten (21 °C) värms och kokar bort helt med 0,10 MJ. Vilken massa hade vattnet?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p><p>Vatten (21 °C) värms och kokar bort helt med 0,10 MJ. Vilken massa hade vattnet?</p>",
+        "s": "<p>\\(m=\\dfrac{0{,}10\\cdot10^6}{4\\,180\\cdot79+2\\,260\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}039\\) kg</p>",
+        "ledtrad": "<p>Energi per kilogram först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(Q=mc\\Delta T\\) och \\(Q=ml\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "is till överhettad ånga",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K). Vattenånga 2,08 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Hur mycket energi krävs för att omvandla 40,0 g is (−10,0 °C) till vattenånga (110 °C)?</p>",
+    "s": "<p>\\(Q=0{,}0400(2\\,200\\cdot10+334\\cdot10^3+4\\,180\\cdot100+2\\,260\\cdot10^3+2\\,080\\cdot10)\\).</p><p><strong>Svar:</strong> \\(1{,}22\\cdot10^{5}\\) J</p>",
+    "id": "7.192",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "numeriskt",
+    "rättSvar": 122192.0,
+    "tolerans": 1830.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fem steg.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J",
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "E",
+    "typ": "flytande syre förångas",
+    "poang": "(1/0/0)",
+    "t": "<p>Flytande syre vid kokpunkten (−183 °C) tillförs 0,340 MJ. Ångbildningsvärmet är 213 kJ/kg. Hur mycket syre förångas?</p>",
+    "s": "<p>\\(m=\\dfrac{0{,}340\\cdot10^6}{213\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(1{,}60\\) kg</p>",
+    "id": "7.193",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.596244131455399,
+    "tolerans": 0.0239,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(Q=ml\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "smälta silver och guld",
+    "poang": "(0/2/0)",
+    "t": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>Silver smälter vid 962 °C (smältvärme 105 kJ/kg) och guld vid 1 064 °C (smältvärme 64 kJ/kg). Hur stor massa kan helt smältas med 100 kJ om metallen från början har temperaturen 15 °C?</p><ol type=\"a\"><li>Silver.</li><li>Guld.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m=\\dfrac{100\\cdot10^3}{235\\cdot947+105\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}31\\) kg</p></li><li><p>\\(m=\\dfrac{100\\cdot10^3}{130\\cdot1\\,049+64\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) kg</p></li></ol>",
+    "id": "7.194",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.30530156161748767,
+      0.49907670809003346
+    ],
+    "tolerans": [
+      0.0051,
+      0.00749
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>Silver smälter vid 962 °C (smältvärme 105 kJ/kg) och guld vid 1 064 °C (smältvärme 64 kJ/kg). Hur stor massa kan helt smältas med 100 kJ om metallen från början har temperaturen 15 °C?</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Silver.",
+        "t": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>Silver smälter vid 962 °C (smältvärme 105 kJ/kg) och guld vid 1 064 °C (smältvärme 64 kJ/kg). Hur stor massa kan helt smältas med 100 kJ om metallen från början har temperaturen 15 °C?</p><p>Silver.</p>",
+        "s": "<p>\\(m=\\dfrac{100\\cdot10^3}{235\\cdot947+105\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}31\\) kg</p>",
+        "ledtrad": "<p>Energi per kilogram först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Guld.",
+        "t": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>Silver smälter vid 962 °C (smältvärme 105 kJ/kg) och guld vid 1 064 °C (smältvärme 64 kJ/kg). Hur stor massa kan helt smältas med 100 kJ om metallen från början har temperaturen 15 °C?</p><p>Guld.</p>",
+        "s": "<p>\\(m=\\dfrac{100\\cdot10^3}{130\\cdot1\\,049+64\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) kg</p>",
+        "ledtrad": "<p>Energi per kilogram först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Uppvärmning plus smältning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "vatten som delvis förångas",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En bägare innehåller 450 g vatten (80 °C) som tillförs 0,27 MJ. Hur mycket vatten förångas?</p>",
+    "s": "<p>Uppvärmning: \\(0{,}450\\cdot4\\,180\\cdot20=37{,}6\\) kJ. \\(m=\\dfrac{270-37{,}6}{2\\,260}\\) kg.</p><p><strong>Svar:</strong> \\(0{,}10\\) kg</p>",
+    "id": "7.195",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.10282300884955753,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Först till kokpunkten.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "A",
+    "typ": "järnmeteorit smälter",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: järn 0,45 kJ/(kg·K).</p><p>En järnmeteorit (−105 °C) värms i atmosfären så att den helt smälter (smältpunkt 1 538 °C, smältvärme 276 kJ/kg). Vilken är den minsta fart den kan ha haft?</p>",
+    "s": "<p>\\(\\tfrac12v^2=450\\cdot1\\,643+276\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(1\\,425\\) m/s</p>",
+    "id": "7.196",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1425.0263155464884,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelseenergi per kilogram.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "blykula genom vägg",
+    "poang": "(1/1/0)",
+    "t": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula (20 °C) går genom en vägg och farten minskar från 220 m/s till 160 m/s. Kulan tar upp 50 % av friktionsvärmen. Bly smälter vid 327 °C.</p><ol type=\"a\"><li>Hur många kelvin stiger kulans temperatur?</li><li>Vilken temperatur får kulan? (Den smälter alltså inte.)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta T=\\dfrac{0{,}50\\cdot\\tfrac12(220^2-160^2)}{130}\\).</p><p><strong>Svar:</strong> \\(44\\) K</p></li><li><p>\\(20+43{,}8\\).</p><p><strong>Svar:</strong> \\(64\\) °C</p></li></ol>",
+    "id": "7.197",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      43.84615384615385,
+      63.84615384615385
+    ],
+    "tolerans": [
+      0.658,
+      0.958
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "K",
+      "°C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula (20 °C) går genom en vägg och farten minskar från 220 m/s till 160 m/s. Kulan tar upp 50 % av friktionsvärmen. Bly smälter vid 327 °C.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många kelvin stiger kulans temperatur?",
+        "t": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula (20 °C) går genom en vägg och farten minskar från 220 m/s till 160 m/s. Kulan tar upp 50 % av friktionsvärmen. Bly smälter vid 327 °C.</p><p>Hur många kelvin stiger kulans temperatur?</p>",
+        "s": "<p>\\(\\Delta T=\\dfrac{0{,}50\\cdot\\tfrac12(220^2-160^2)}{130}\\).</p><p><strong>Svar:</strong> \\(44\\) K</p>",
+        "ledtrad": "<p>Räkna per kilogram.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken temperatur får kulan? (Den smälter alltså inte.)",
+        "t": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula (20 °C) går genom en vägg och farten minskar från 220 m/s till 160 m/s. Kulan tar upp 50 % av friktionsvärmen. Bly smälter vid 327 °C.</p>Temperaturen stiger 43,8 K.<p>Vilken temperatur får kulan? (Den smälter alltså inte.)</p>",
+        "s": "<p>\\(20+43{,}8\\).</p><p><strong>Svar:</strong> \\(64\\) °C</p>",
+        "ledtrad": "<p>Jämför med smältpunkten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Förlorad rörelseenergi blir värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "mikrovågsugn kokar vatten",
+    "poang": "(1/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En mikrovågsugn värmer 250 g vatten från 20 °C till 100 °C på 1 min 45 s.</p><ol type=\"a\"><li>Vilken effekt har ugnen?</li><li>Ett nytt glas med 250 g vatten (20 °C) värms i 2 minuter. Hur mycket vatten kokar bort?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\dfrac{0{,}250\\cdot4\\,180\\cdot80}{105}\\).</p><p><strong>Svar:</strong> \\(796\\) W</p></li><li><p>\\(Q=796\\cdot120\\). Uppvärmning: 83,6 kJ. \\(m=\\dfrac{Q-83\\,600}{2\\,260\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}0053\\) kg</p></li></ol>",
+    "id": "7.198",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      796.1904761904761,
+      0.00528445006321112
+    ],
+    "tolerans": [
+      11.9,
+      7.93e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En mikrovågsugn värmer 250 g vatten från 20 °C till 100 °C på 1 min 45 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken effekt har ugnen?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En mikrovågsugn värmer 250 g vatten från 20 °C till 100 °C på 1 min 45 s.</p><p>Vilken effekt har ugnen?</p>",
+        "s": "<p>\\(P=\\dfrac{0{,}250\\cdot4\\,180\\cdot80}{105}\\).</p><p><strong>Svar:</strong> \\(796\\) W</p>",
+        "ledtrad": "<p>\\(P=\\dfrac{Q}{t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett nytt glas med 250 g vatten (20 °C) värms i 2 minuter. Hur mycket vatten kokar bort?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En mikrovågsugn värmer 250 g vatten från 20 °C till 100 °C på 1 min 45 s.</p>Ugnens effekt är 796 W.<p>Ett nytt glas med 250 g vatten (20 °C) värms i 2 minuter. Hur mycket vatten kokar bort?</p>",
+        "s": "<p>\\(Q=796\\cdot120\\). Uppvärmning: 83,6 kJ. \\(m=\\dfrac{Q-83\\,600}{2\\,260\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}0053\\) kg</p>",
+        "ledtrad": "<p>Först uppvärmning till 100 °C.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Samma effekt i båda försöken.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "E",
+    "typ": "is till varmt vatten",
+    "poang": "(1/0/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Hur mycket energi krävs för att omvandla 5,0 kg is (0,0 °C) till vatten med temperaturen 30,0 °C?</p>",
+    "s": "<p>\\(Q=5{,}0(334\\cdot10^3+4\\,180\\cdot30{,}0)\\).</p><p><strong>Svar:</strong> \\(2{,}3\\cdot10^{6}\\) J</p>",
+    "id": "7.199",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2297000.0,
+    "tolerans": 51000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Smältning plus uppvärmning.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "J",
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "vatten fryser delvis",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Man bortför 0,10 MJ från 0,60 kg vatten (20 °C). Hur mycket vatten fryser?</p>",
+    "s": "<p>Kylning till 0 °C: \\(0{,}60\\cdot4\\,180\\cdot20=50{,}2\\) kJ. \\(m=\\dfrac{100-50{,}2}{334}\\) kg.</p><p><strong>Svar:</strong> \\(0{,}15\\) kg</p>",
+    "id": "7.200",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.14922155688622754,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Först kylning till 0 °C.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "skridskoåkare smälter is",
+    "poang": "(0/1/0)",
+    "t": "<p>Smältvärme för is 334 kJ/kg. Pelle (64 kg) glider på skridskor med farten 7,5 m/s och stannar av friktion. 50 % av friktionsvärmen smälter is vid 0 °C. Hur mycket is smälter?</p>",
+    "s": "<p>\\(m=\\dfrac{0{,}50\\cdot\\tfrac12\\cdot64\\cdot7{,}5^2}{334\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}0027\\) kg</p>",
+    "id": "7.201",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.002694610778443114,
+    "tolerans": 5.1e-05,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelseenergin blir värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "solljus smälter isskiva",
+    "poang": "(0/1/0)",
+    "t": "<p>Smältvärme för is 334 kJ/kg. En isskiva (0 °C) har arean 56 cm², tjockleken 2,0 mm och densiteten 917 kg/m³. Solljus med intensiteten 700 W/m² träffar ytan. Efter hur många sekunder har isen smält?</p>",
+    "s": "<p>\\(m=56\\cdot10^{-4}\\cdot2{,}0\\cdot10^{-3}\\cdot917\\), \\(P=700\\cdot56\\cdot10^{-4}\\), \\(t=\\dfrac{m\\cdot334\\cdot10^3}{P}\\).</p><p><strong>Svar:</strong> \\(875\\) s</p>",
+    "id": "7.202",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 875.0799999999999,
+    "tolerans": 13.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Massa och effekt först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "vattenkar skyddar bananer",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. En jordkällare förlorar värme med effekten 1,2 kW. Ett kar med 50 kg vatten (10 °C) ställs in. Hur många timmar längre dröjer det innan källaren kyls under 0 °C, om vattnet först måste svalna och frysa helt?</p>",
+    "s": "<p>\\(Q=50(4\\,180\\cdot10+334\\cdot10^3)\\), \\(t=\\dfrac{Q}{1\\,200}\\) s.</p><p><strong>Svar:</strong> \\(4{,}3\\) h</p>",
+    "id": "7.203",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.349537037037037,
+    "tolerans": 0.0652,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vattnet avger värme när det svalnar och fryser.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "h",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "is kyler feberpatient",
+    "poang": "(0/1/0)",
+    "t": "<p>Smältvärme för is 334 kJ/kg. Hur mycket is (0 °C) smälter när kroppstemperaturen hos en patient (60 kg, 3,5 kJ/(kg·K)) sänks från 40 °C till 39 °C?</p>",
+    "s": "<p>\\(m=\\dfrac{60\\cdot3\\,500\\cdot1}{334\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}63\\) kg</p>",
+    "id": "7.204",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6287425149700598,
+    "tolerans": 0.00943,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "blykula i isblock",
+    "poang": "(0/1/0)",
+    "t": "<p>Smältvärme för is 334 kJ/kg. En blykula (55 g) skjuts med farten 250 m/s in i ett isblock (0 °C) och fastnar. Hur mycket is smälter om kulans temperatur inte ändras?</p>",
+    "s": "<p>\\(m=\\dfrac{\\tfrac12\\cdot0{,}055\\cdot250^2}{334\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}0051\\) kg</p>",
+    "id": "7.205",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.005145958083832335,
+    "tolerans": 7.72e-05,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelseenergin smälter isen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "smält blykula",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula (20 °C) har helt smält när den träffar en dörrkarm. Bly smälter vid 327 °C med smältvärmet 23 kJ/kg. Vilken fart hade kulan minst, om all rörelseenergi blev värme i kulan?</p>",
+    "s": "<p>\\(\\tfrac12v^2=130\\cdot307+23\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(355\\) m/s</p>",
+    "id": "7.206",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 354.71115009257886,
+    "tolerans": 5.32,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna per kilogram.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "isbit som smälter vid nedslag",
+    "poang": "(0/1/0)",
+    "t": "<p>Smältvärme för is 334 kJ/kg. Från vilken höjd måste en isbit (0 °C) släppas för att den ska smälta helt vid nedslaget, om all lägesenergi blir värme i isbiten? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(gh=334\\cdot10^3\\iff h=\\dfrac{334\\cdot10^3}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(34\\,012\\) m</p>",
+    "id": "7.207",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 34012.219959266804,
+    "tolerans": 510.0,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna per kilogram.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "A",
+    "typ": "tid för att koka bort vatten",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. Vatten (0 °C) börjar koka efter 2,0 min på en spisplatta. Hur lång tid tar det därefter att koka bort allt vatten? Anta konstant effekt och bortse från kastrullen.</p>",
+    "s": "<p>\\(\\dfrac{t}{120}=\\dfrac{2\\,260\\cdot10^3}{4\\,180\\cdot100}\\).</p><p><strong>Svar:</strong> \\(649\\) s</p>",
+    "id": "7.208",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 648.8038277511962,
+    "tolerans": 9.73,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför energierna per kilogram.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "vatten fryser i kylskåp",
+    "poang": "(0/2/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 0,2 kg vatten (16 °C) står i ett kylskåp som bortför värme med 0,1 kW.</p><ol type=\"a\"><li>Hur många sekunder tar det innan allt vatten blivit is vid 0 °C (plastmugg, bortse från muggen)?</li><li>Vattnet står i stället i ett kopparkärl (0,2 kg). Hur många sekunder tar det nu?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{0{,}2(4\\,180\\cdot16+334\\cdot10^3)}{100}\\).</p><p><strong>Svar:</strong> \\(802\\) s</p></li><li><p>Lägg till \\(0{,}2\\cdot385\\cdot16\\) J.</p><p><strong>Svar:</strong> \\(814\\) s</p></li></ol>",
+    "id": "7.209",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      801.76,
+      814.08
+    ],
+    "tolerans": [
+      12.0,
+      12.2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 0,2 kg vatten (16 °C) står i ett kylskåp som bortför värme med 0,1 kW.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många sekunder tar det innan allt vatten blivit is vid 0 °C (plastmugg, bortse från muggen)?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 0,2 kg vatten (16 °C) står i ett kylskåp som bortför värme med 0,1 kW.</p><p>Hur många sekunder tar det innan allt vatten blivit is vid 0 °C (plastmugg, bortse från muggen)?</p>",
+        "s": "<p>\\(t=\\dfrac{0{,}2(4\\,180\\cdot16+334\\cdot10^3)}{100}\\).</p><p><strong>Svar:</strong> \\(802\\) s</p>",
+        "ledtrad": "<p>Kylning och frysning.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vattnet står i stället i ett kopparkärl (0,2 kg). Hur många sekunder tar det nu?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 0,2 kg vatten (16 °C) står i ett kylskåp som bortför värme med 0,1 kW.</p>Utan kärl tar det 802 s.<p>Vattnet står i stället i ett kopparkärl (0,2 kg). Hur många sekunder tar det nu?</p>",
+        "s": "<p>Lägg till \\(0{,}2\\cdot385\\cdot16\\) J.</p><p><strong>Svar:</strong> \\(814\\) s</p>",
+        "ledtrad": "<p>Kärlet måste också kylas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(t=\\dfrac{Q}{P}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "doppvärmare kokar bort vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. 2,0 liter vatten (20 °C) tillförs 1,0 MJ. Hur mycket vatten förångas?</p>",
+    "s": "<p>Uppvärmning: \\(2{,}0\\cdot4\\,180\\cdot80=0{,}669\\) MJ. \\(m=\\dfrac{1{,}0\\cdot10^6-0{,}669\\cdot10^6}{2\\,260\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\) kg</p>",
+    "id": "7.210",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.1465486725663717,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Först till kokpunkten.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "is på en sjö",
+    "poang": "(0/1/0)",
+    "t": "<p>Smältvärme för is 334 kJ/kg. En sjö (2,2 km²) har is som i snitt är 12 cm tjock. Isens densitet är 917 kg/m³. Hur mycket energi krävs för att smälta isen?</p>",
+    "s": "<p>\\(m=2{,}2\\cdot10^6\\cdot0{,}12\\cdot917\\), \\(Q=m\\cdot334\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(8{,}1\\cdot10^{13}\\) J</p>",
+    "id": "7.211",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Latent värme",
+    "svarstyp": "numeriskt",
+    "rättSvar": 80857392000000.0,
+    "tolerans": 1210000000000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm isens massa.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J",
+    "familjNyckel": "fasandring__latent_varme",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "A",
+    "typ": "bortglömd kastrull",
+    "poang": "(0/1/2)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En kastrull med 1,2 kg vatten (15 °C) står på en spisplatta. Efter 2,0 minuter är vattnet 30 °C. Efter totalt 20 minuter kommer Kalle tillbaka. Hur mycket vatten finns kvar? Anta konstant nyttig effekt.</p>",
+    "s": "<p>Nyttig effekt: \\(\\dfrac{1{,}2\\cdot4\\,180\\cdot15}{120}=627\\) W. Energi på 20 min: \\(627\\cdot1\\,200\\). Uppvärmning till 100 °C: \\(1{,}2\\cdot4\\,180\\cdot85\\). Resten förångar vatten.</p><p><strong>Svar:</strong> \\(1{,}1\\) kg</p>",
+    "id": "7.212",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0557345132743363,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den nyttiga effekten först.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "tina bär i mikrovågsugn",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Frysta bär (750 g, −15 °C, som is) tinas i en mikrovågsugn med effekten 400 W och verkningsgraden 80 %. Hur många sekunder tar det att precis tina bären?</p>",
+    "s": "<p>\\(Q=0{,}750(2\\,200\\cdot15+334\\cdot10^3)\\), \\(t=\\dfrac{Q}{0{,}80\\cdot400}\\).</p><p><strong>Svar:</strong> \\(860\\) s</p>",
+    "id": "7.213",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 860.15625,
+    "tolerans": 12.9,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uppvärmning till 0 °C och smältning.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "isblock dras över grus",
+    "poang": "(0/1/0)",
+    "t": "<p>Smältvärme för is 334 kJ/kg. Ett isblock (3,0 kg, 0 °C) dras 15 m över ett vågrätt underlag med friktionstalet 0,55. Hur mycket is smälter om all friktionsvärme går till isen? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(Q=0{,}55\\cdot3{,}0\\cdot9{,}82\\cdot15\\), \\(m=\\dfrac{Q}{334\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}00073\\) kg</p>",
+    "id": "7.214",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.000727679640718563,
+    "tolerans": 1.09e-05,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Friktionsarbete \\(=\\mu mgs\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "vårsol smälter sjöis",
+    "poang": "(0/1/0)",
+    "t": "<p>Smältvärme för is 334 kJ/kg. Snöfri sjöis (0 °C, densitet 917 kg/m³) får nettoinstrålningen 300 W/m² i 6 h. Hur tjockt lager smälter?</p>",
+    "s": "<p>Per m²: \\(Q=300\\cdot6\\cdot3\\,600\\). Tjocklek: \\(\\dfrac{Q}{334\\cdot10^3\\cdot917}\\).</p><p><strong>Svar:</strong> \\(0{,}021\\) m</p>",
+    "id": "7.215",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.02115724929639086,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna per kvadratmeter.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "aluminiumkulor i isblock",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: aluminium 0,90 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 400 g aluminiumkulor (30 °C) läggs i ett hål i ett stort isblock (0 °C). Hur mycket is smälter?</p>",
+    "s": "<p>\\(m=\\dfrac{0{,}400\\cdot900\\cdot30}{334\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}032\\) kg</p>",
+    "id": "7.216",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.032335329341317366,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "tennisboll studsar på is",
+    "poang": "(0/1/0)",
+    "t": "<p>Smältvärme för is 334 kJ/kg. En tennisboll (60 g) släpps från 2,0 m mot is (0 °C) och studsar upp till 1,8 m. Hur mycket is smälter om all förlorad energi smälter is? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(Q=0{,}060\\cdot9{,}82\\cdot0{,}2\\), \\(m=\\dfrac{Q}{334\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(3{,}5\\cdot10^{-7}\\) kg</p>",
+    "id": "7.217",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.52814371257485e-07,
+    "tolerans": 5.29e-09,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förlorad lägesenergi.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "A",
+    "typ": "is i vatten",
+    "poang": "(0/3/1)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p><ol type=\"a\"><li>En isbit (100 g, 0 °C) läggs i 664 g vatten (20 °C). Bestäm jämviktstemperaturen.</li><li>Hur mycket vatten (10 °C) krävs för att precis smälta 40 g is (0 °C)?</li><li>200 g vatten (20 °C) och 100 g is (0 °C) blandas. Hur mycket is smälter?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}100\\cdot334\\cdot10^3+0{,}100\\cdot4\\,180\\,T=0{,}664\\cdot4\\,180(20-T)\\).</p><p><strong>Svar:</strong> \\(6{,}9\\) °C</p></li><li><p>\\(m\\cdot4\\,180\\cdot10=0{,}040\\cdot334\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(0{,}32\\) kg</p></li><li><p>Vattnet kan avge \\(0{,}200\\cdot4\\,180\\cdot20=16{,}7\\) kJ, vilket smälter \\(\\dfrac{16{,}7}{334}\\) kg. Sluttemperaturen blir 0 °C.</p><p><strong>Svar:</strong> \\(0{,}050\\) kg</p></li></ol>",
+    "id": "7.218",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.923520128259726,
+      0.3196172248803828,
+      0.05005988023952096
+    ],
+    "tolerans": [
+      0.104,
+      0.0051,
+      0.000751
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "°C",
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En isbit (100 g, 0 °C) läggs i 664 g vatten (20 °C). Bestäm jämviktstemperaturen.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p><p>En isbit (100 g, 0 °C) läggs i 664 g vatten (20 °C). Bestäm jämviktstemperaturen.</p>",
+        "s": "<p>\\(0{,}100\\cdot334\\cdot10^3+0{,}100\\cdot4\\,180\\,T=0{,}664\\cdot4\\,180(20-T)\\).</p><p><strong>Svar:</strong> \\(6{,}9\\) °C</p>",
+        "ledtrad": "<p>Isen smälter och det smälta vattnet värms.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket vatten (10 °C) krävs för att precis smälta 40 g is (0 °C)?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p><p>Hur mycket vatten (10 °C) krävs för att precis smälta 40 g is (0 °C)?</p>",
+        "s": "<p>\\(m\\cdot4\\,180\\cdot10=0{,}040\\cdot334\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(0{,}32\\) kg</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "200 g vatten (20 °C) och 100 g is (0 °C) blandas. Hur mycket is smälter?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p><p>200 g vatten (20 °C) och 100 g is (0 °C) blandas. Hur mycket is smälter?</p>",
+        "s": "<p>Vattnet kan avge \\(0{,}200\\cdot4\\,180\\cdot20=16{,}7\\) kJ, vilket smälter \\(\\dfrac{16{,}7}{334}\\) kg. Sluttemperaturen blir 0 °C.</p><p><strong>Svar:</strong> \\(0{,}050\\) kg</p>",
+        "ledtrad": "<p>Räcker vattnets värme till all is?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "kall kopparstav fryser vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. En kopparstav (250 g, −130 °C) läggs i en blandning av is och vatten vid 0 °C. Hur mycket is bildas?</p>",
+    "s": "<p>\\(m\\cdot334\\cdot10^3=0{,}250\\cdot385\\cdot130\\).</p><p><strong>Svar:</strong> \\(0{,}037\\) kg</p>",
+    "id": "7.219",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0374625748502994,
+    "tolerans": 0.000562,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "A",
+    "typ": "isbitar i glas med vatten",
+    "poang": "(0/1/1)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Fyra isbitar (10 g var, −18 °C) läggs i 2,5 dl vatten (18 °C). Bestäm sluttemperaturen.</p>",
+    "s": "<p>Isen behöver \\(0{,}040(2\\,200\\cdot18+334\\cdot10^3)=14{,}9\\) kJ för att smälta. Sedan: \\(0{,}25\\cdot4\\,180(18-T)=14\\,944+0{,}040\\cdot4\\,180\\,T\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) °C</p>",
+    "id": "7.220",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.189242699224551,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Smälter all is?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°C",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "A",
+    "typ": "vattenånga kondenserar",
+    "poang": "(0/3/1)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p><ol type=\"a\"><li>50 g vattenånga (100 °C) leds ner i 5,0 liter vatten (11 °C). Bestäm sluttemperaturen.</li><li>Hur mycket vattenånga (100 °C) krävs för att smälta 0,50 kg is (0 °C)? Allt hamnar på 0 °C.</li><li>Is (0 °C) och ånga (100 °C) blandas och sluttemperaturen blir 50 °C. Bestäm kvoten \\(\\dfrac{m_\\text{is}}{m_\\text{ånga}}\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}050(2\\,260\\cdot10^3+4\\,180(100-T))=5{,}0\\cdot4\\,180(T-11)\\).</p><p><strong>Svar:</strong> \\(17\\) °C</p></li><li><p>\\(m(2\\,260\\cdot10^3+4\\,180\\cdot100)=0{,}50\\cdot334\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(0{,}062\\) kg</p></li><li><p>\\(m_i(334\\cdot10^3+4\\,180\\cdot50)=m_å(2\\,260\\cdot10^3+4\\,180\\cdot50)\\).</p><p><strong>Svar:</strong> \\(4{,}5\\)</p></li></ol>",
+    "id": "7.221",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17.234355014448813,
+      0.062359970126960415,
+      4.54696132596685
+    ],
+    "tolerans": [
+      0.51,
+      0.000935,
+      0.0682
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "°C",
+      "kg",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "50 g vattenånga (100 °C) leds ner i 5,0 liter vatten (11 °C). Bestäm sluttemperaturen.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p><p>50 g vattenånga (100 °C) leds ner i 5,0 liter vatten (11 °C). Bestäm sluttemperaturen.</p>",
+        "s": "<p>\\(0{,}050(2\\,260\\cdot10^3+4\\,180(100-T))=5{,}0\\cdot4\\,180(T-11)\\).</p><p><strong>Svar:</strong> \\(17\\) °C</p>",
+        "ledtrad": "<p>Ångan kondenserar och det bildade vattnet svalnar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket vattenånga (100 °C) krävs för att smälta 0,50 kg is (0 °C)? Allt hamnar på 0 °C.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p><p>Hur mycket vattenånga (100 °C) krävs för att smälta 0,50 kg is (0 °C)? Allt hamnar på 0 °C.</p>",
+        "s": "<p>\\(m(2\\,260\\cdot10^3+4\\,180\\cdot100)=0{,}50\\cdot334\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(0{,}062\\) kg</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Is (0 °C) och ånga (100 °C) blandas och sluttemperaturen blir 50 °C. Bestäm kvoten \\(\\dfrac{m_\\text{is}}{m_\\text{ånga}}\\).",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p><p>Is (0 °C) och ånga (100 °C) blandas och sluttemperaturen blir 50 °C. Bestäm kvoten \\(\\dfrac{m_\\text{is}}{m_\\text{ånga}}\\).</p>",
+        "s": "<p>\\(m_i(334\\cdot10^3+4\\,180\\cdot50)=m_å(2\\,260\\cdot10^3+4\\,180\\cdot50)\\).</p><p><strong>Svar:</strong> \\(4{,}5\\)</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "kylvatten i kondensor",
+    "poang": "(0/1/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. 8,0 kg vattenånga (100 °C) per timme kondenseras i en kylare och lämnar den vid 50 °C. Kylvattnet värms från 10 °C till 45 °C. Hur mycket kylvatten krävs per timme?</p>",
+    "s": "<p>\\(m\\cdot4\\,180\\cdot35=8{,}0(2\\,260\\cdot10^3+4\\,180\\cdot50)\\).</p><p><strong>Svar:</strong> \\(135\\) kg</p>",
+    "id": "7.222",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "numeriskt",
+    "rättSvar": 135.01025290498976,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "isbitar i termos",
+    "poang": "(0/2/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Isbitar (totalt 65 g, −8,0 °C) läggs i en termos.</p><ol type=\"a\"><li>Termosen innehåller 200 g vatten (35 °C). Bestäm sluttemperaturen.</li><li>Hur mycket vatten (35 °C) skulle precis smälta isbitarna?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Isen behöver \\(0{,}065(2\\,200\\cdot8+334\\cdot10^3)=22{,}9\\) kJ. \\(0{,}200\\cdot4\\,180(35-T)=22\\,854+0{,}065\\cdot4\\,180\\,T\\).</p><p><strong>Svar:</strong> \\(5{,}8\\) °C</p></li><li><p>\\(m\\cdot4\\,180\\cdot35=22\\,854\\).</p><p><strong>Svar:</strong> \\(0{,}16\\) kg</p></li></ol>",
+    "id": "7.223",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.783154283650807,
+      0.15621326042378675
+    ],
+    "tolerans": [
+      0.0867,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°C",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Isbitar (totalt 65 g, −8,0 °C) läggs i en termos.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Termosen innehåller 200 g vatten (35 °C). Bestäm sluttemperaturen.",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Isbitar (totalt 65 g, −8,0 °C) läggs i en termos.</p><p>Termosen innehåller 200 g vatten (35 °C). Bestäm sluttemperaturen.</p>",
+        "s": "<p>Isen behöver \\(0{,}065(2\\,200\\cdot8+334\\cdot10^3)=22{,}9\\) kJ. \\(0{,}200\\cdot4\\,180(35-T)=22\\,854+0{,}065\\cdot4\\,180\\,T\\).</p><p><strong>Svar:</strong> \\(5{,}8\\) °C</p>",
+        "ledtrad": "<p>Smälter all is?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket vatten (35 °C) skulle precis smälta isbitarna?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Isbitar (totalt 65 g, −8,0 °C) läggs i en termos.</p><p>Hur mycket vatten (35 °C) skulle precis smälta isbitarna?</p>",
+        "s": "<p>\\(m\\cdot4\\,180\\cdot35=22\\,854\\).</p><p><strong>Svar:</strong> \\(0{,}16\\) kg</p>",
+        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 7,
+    "omr": "fasandring",
+    "niva": "C",
+    "typ": "smält silver kyls",
+    "poang": "(0/2/0)",
+    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En guldsmed kyler 56 g smält silver från 962 °C (smältpunkten, smältvärme 105 kJ/kg) till 20 °C med vatten (10 °C).</p><ol type=\"a\"><li>Silvret läggs i en balja med vatten som når 20 °C. Hur mycket vatten krävs?</li><li>Vatten sprayas i stället på silvret och förångas vid 100 °C. Hur mycket vatten krävs?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=0{,}056(105\\cdot10^3+235\\cdot942)\\), \\(m=\\dfrac{Q}{4\\,180\\cdot10}\\).</p><p><strong>Svar:</strong> \\(0{,}44\\) kg</p></li><li><p>\\(m=\\dfrac{Q}{4\\,180\\cdot90+2\\,260\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}0069\\) kg</p></li></ol>",
+    "id": "7.224",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energikedjor och värmebalans med fasövergång",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.43724210526315793,
+      0.006932979288369623
+    ],
+    "tolerans": [
+      0.00656,
+      0.000104
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En guldsmed kyler 56 g smält silver från 962 °C (smältpunkten, smältvärme 105 kJ/kg) till 20 °C med vatten (10 °C).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Silvret läggs i en balja med vatten som når 20 °C. Hur mycket vatten krävs?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En guldsmed kyler 56 g smält silver från 962 °C (smältpunkten, smältvärme 105 kJ/kg) till 20 °C med vatten (10 °C).</p><p>Silvret läggs i en balja med vatten som når 20 °C. Hur mycket vatten krävs?</p>",
+        "s": "<p>\\(Q=0{,}056(105\\cdot10^3+235\\cdot942)\\), \\(m=\\dfrac{Q}{4\\,180\\cdot10}\\).</p><p><strong>Svar:</strong> \\(0{,}44\\) kg</p>",
+        "ledtrad": "<p>Stelning plus avsvalning.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vatten sprayas i stället på silvret och förångas vid 100 °C. Hur mycket vatten krävs?",
+        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En guldsmed kyler 56 g smält silver från 962 °C (smältpunkten, smältvärme 105 kJ/kg) till 20 °C med vatten (10 °C).</p><p>Vatten sprayas i stället på silvret och förångas vid 100 °C. Hur mycket vatten krävs?</p>",
+        "s": "<p>\\(m=\\dfrac{Q}{4\\,180\\cdot90+2\\,260\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}0069\\) kg</p>",
+        "ledtrad": "<p>Vattnet värms och förångas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "8.183",

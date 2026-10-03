@@ -31592,6 +31592,547 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "fotboll på olika avstånd",
+    "poang": "(3/0/0)",
+    "t": "<p>En fotboll har diametern 22 cm. Hur långt bort ska den vara för att synvinkeln ska bli</p><ol type=\"a\"><li>1 grad?</li><li>1 bågminut?</li><li>1 bågsekund?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(d=\\dfrac{0{,}22}{\\tan1^\\circ}\\).</p><p><strong>Svar:</strong> \\(13\\) m</p></li><li><p>1′ \\(=\\dfrac{1}{60}^\\circ\\). \\(d=\\dfrac{0{,}22}{\\tan(1/60)^\\circ}\\).</p><p><strong>Svar:</strong> \\(756\\) m</p></li><li><p>1″ \\(=\\dfrac{1}{3\\,600}^\\circ\\).</p><p><strong>Svar:</strong> \\(45\\,378\\) m</p></li></ol>",
+    "id": "5.338",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12.603791558767075,
+      756.3042682408845,
+      45378.25737400567
+    ],
+    "tolerans": [
+      0.51,
+      11.3,
+      681.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En fotboll har diametern 22 cm. Hur långt bort ska den vara för att synvinkeln ska bli</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "1 grad?",
+        "t": "<p>En fotboll har diametern 22 cm. Hur långt bort ska den vara för att synvinkeln ska bli</p><p>1 grad?</p>",
+        "s": "<p>\\(d=\\dfrac{0{,}22}{\\tan1^\\circ}\\).</p><p><strong>Svar:</strong> \\(13\\) m</p>",
+        "ledtrad": "<p>Synvinkeln är diametern delad med avståndet (i radianer).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "1 bågminut?",
+        "t": "<p>En fotboll har diametern 22 cm. Hur långt bort ska den vara för att synvinkeln ska bli</p><p>1 bågminut?</p>",
+        "s": "<p>1′ \\(=\\dfrac{1}{60}^\\circ\\). \\(d=\\dfrac{0{,}22}{\\tan(1/60)^\\circ}\\).</p><p><strong>Svar:</strong> \\(756\\) m</p>",
+        "ledtrad": "<p>Omvandla till grader.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "1 bågsekund?",
+        "t": "<p>En fotboll har diametern 22 cm. Hur långt bort ska den vara för att synvinkeln ska bli</p><p>1 bågsekund?</p>",
+        "s": "<p>1″ \\(=\\dfrac{1}{3\\,600}^\\circ\\).</p><p><strong>Svar:</strong> \\(45\\,378\\) m</p>",
+        "ledtrad": "<p>Omvandla till grader.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>För små vinklar är \\(\\alpha\\approx\\dfrac{D}{d}\\) i radianer.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "avståndet till månen",
+    "poang": "(2/0/0)",
+    "t": "<p>Månens diameter är 3 474 km. Månens synvinkel varierar mellan 0,4908° och 0,5683°.</p><ol type=\"a\"><li>Beräkna det största avståndet till månen.</li><li>Beräkna det minsta avståndet till månen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Minsta synvinkeln: \\(d=\\dfrac{3\\,474}{\\tan0{,}4908^\\circ}\\).</p><p><strong>Svar:</strong> \\(4{,}06\\cdot10^{8}\\) m</p></li><li><p>\\(d=\\dfrac{3\\,474}{\\tan0{,}5683^\\circ}\\).</p><p><strong>Svar:</strong> \\(3{,}50\\cdot10^{8}\\) m</p></li></ol>",
+    "id": "5.339",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      405543336.40218604,
+      350235809.55556375
+    ],
+    "tolerans": [
+      6080000.0,
+      5250000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Månens diameter är 3 474 km. Månens synvinkel varierar mellan 0,4908° och 0,5683°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna det största avståndet till månen.",
+        "t": "<p>Månens diameter är 3 474 km. Månens synvinkel varierar mellan 0,4908° och 0,5683°.</p><p>Beräkna det största avståndet till månen.</p>",
+        "s": "<p>Minsta synvinkeln: \\(d=\\dfrac{3\\,474}{\\tan0{,}4908^\\circ}\\).</p><p><strong>Svar:</strong> \\(4{,}06\\cdot10^{8}\\) m</p>",
+        "ledtrad": "<p>Liten synvinkel betyder stort avstånd.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna det minsta avståndet till månen.",
+        "t": "<p>Månens diameter är 3 474 km. Månens synvinkel varierar mellan 0,4908° och 0,5683°.</p><p>Beräkna det minsta avståndet till månen.</p>",
+        "s": "<p>\\(d=\\dfrac{3\\,474}{\\tan0{,}5683^\\circ}\\).</p><p><strong>Svar:</strong> \\(3{,}50\\cdot10^{8}\\) m</p>",
+        "ledtrad": "<p>Använd den största synvinkeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(d=\\dfrac{D}{\\tan\\alpha}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "avståndet till solen",
+    "poang": "(2/1/0)",
+    "t": "<p>Solens diameter är 1 392 700 km. Dess synvinkel varierar mellan 31′27″ och 32′32″.</p><ol type=\"a\"><li>Beräkna det största avståndet till solen.</li><li>Beräkna det minsta avståndet till solen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>31′27″ \\(\\approx0{,}5242^\\circ\\). \\(d=\\dfrac{1\\,392\\,700}{\\tan0{,}5242^\\circ}\\) km.</p><p><strong>Svar:</strong> \\(1{,}52\\cdot10^{11}\\) m</p></li><li><p>32′32″ \\(\\approx0{,}5422^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}47\\cdot10^{11}\\) m</p></li></ol>",
+    "id": "5.340",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      152229454960.97345,
+      147160051170.46725
+    ],
+    "tolerans": [
+      2280000000.0,
+      2210000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Solens diameter är 1 392 700 km. Dess synvinkel varierar mellan 31′27″ och 32′32″.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna det största avståndet till solen.",
+        "t": "<p>Solens diameter är 1 392 700 km. Dess synvinkel varierar mellan 31′27″ och 32′32″.</p><p>Beräkna det största avståndet till solen.</p>",
+        "s": "<p>31′27″ \\(\\approx0{,}5242^\\circ\\). \\(d=\\dfrac{1\\,392\\,700}{\\tan0{,}5242^\\circ}\\) km.</p><p><strong>Svar:</strong> \\(1{,}52\\cdot10^{11}\\) m</p>",
+        "ledtrad": "<p>Omvandla bågminuter och bågsekunder till grader.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna det minsta avståndet till solen.",
+        "t": "<p>Solens diameter är 1 392 700 km. Dess synvinkel varierar mellan 31′27″ och 32′32″.</p><p>Beräkna det minsta avståndet till solen.</p>",
+        "s": "<p>32′32″ \\(\\approx0{,}5422^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}47\\cdot10^{11}\\) m</p>",
+        "ledtrad": "<p>Använd den största synvinkeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Jämför med 1 AU \\(=1{,}496\\cdot10^{11}\\) m.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "Mars synvinkel",
+    "poang": "(1/0/0)",
+    "t": "<p>När Mars är närmast jorden är avståndet \\(55{,}76\\cdot10^6\\) km. Mars diameter är 6 679 km. Vilken synvinkel har Mars? Svara i grader.</p>",
+    "s": "<p>\\(\\alpha=\\dfrac{6\\,679}{55{,}76\\cdot10^6}\\) rad, omräknat till grader.</p><p><strong>Svar:</strong> \\(0{,}0069\\) °</p>",
+    "id": "5.341",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.006862957520944706,
+    "tolerans": 0.0001,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vinkeln i radianer är diametern delad med avståndet.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°",
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "Venus synvinkel",
+    "poang": "(1/0/0)",
+    "t": "<p>Venus är vid ett tillfälle \\(40\\cdot10^6\\) km från jorden. Dess diameter är 12 104 km. Vilken synvinkel har Venus? Svara i bågsekunder.</p>",
+    "s": "<p>\\(\\alpha=\\dfrac{12\\,104}{40\\cdot10^6}\\) rad \\(=\\dfrac{12\\,104}{40\\cdot10^6}\\cdot\\dfrac{180}{\\pi}\\cdot3\\,600\\)″.</p><p><strong>Svar:</strong> \\(62\\) ″</p>",
+    "id": "5.342",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 62.41573037037135,
+    "tolerans": 0.936,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>1° = 3 600″.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "″",
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "stora Magellanska molnet",
+    "poang": "(2/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Stora Magellanska molnet ligger 50 000 pc från oss.</p><ol type=\"a\"><li>Bestäm avståndet i meter.</li><li>Bestäm avståndet i ljusår.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(50\\,000\\cdot3{,}086\\cdot10^{16}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{21}\\) m</p></li><li><p>\\(50\\,000\\cdot3{,}264\\).</p><p><strong>Svar:</strong> \\(1{,}63\\cdot10^{5}\\) ljusår</p></li></ol>",
+    "id": "5.343",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.543e+21,
+      163200.0
+    ],
+    "tolerans": [
+      5.1e+19,
+      2450.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "ljusår"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Stora Magellanska molnet ligger 50 000 pc från oss.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm avståndet i meter.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Stora Magellanska molnet ligger 50 000 pc från oss.</p><p>Bestäm avståndet i meter.</p>",
+        "s": "<p>\\(50\\,000\\cdot3{,}086\\cdot10^{16}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{21}\\) m</p>",
+        "ledtrad": "<p>1 pc \\(=3{,}086\\cdot10^{16}\\) m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm avståndet i ljusår.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Stora Magellanska molnet ligger 50 000 pc från oss.</p><p>Bestäm avståndet i ljusår.</p>",
+        "s": "<p>\\(50\\,000\\cdot3{,}264\\).</p><p><strong>Svar:</strong> \\(1{,}63\\cdot10^{5}\\) ljusår</p>",
+        "ledtrad": "<p>1 pc \\(=3{,}264\\) ljusår.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Enhetsomvandling.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "avstånd ur parallax",
+    "poang": "(2/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>En stjärnas parallax är 0,393″.</p><ol type=\"a\"><li>Hur långt bort är stjärnan i parsec?</li><li>Hur långt bort är stjärnan i meter?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=\\dfrac{1}{0{,}393}\\).</p><p><strong>Svar:</strong> \\(2{,}54\\) pc</p></li><li><p>\\(2{,}54\\cdot3{,}086\\cdot10^{16}\\).</p><p><strong>Svar:</strong> \\(7{,}85\\cdot10^{16}\\) m</p></li></ol>",
+    "id": "5.344",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.544529262086514,
+      7.852417302798982e+16
+    ],
+    "tolerans": [
+      0.0382,
+      1180000000000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "pc",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>En stjärnas parallax är 0,393″.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt bort är stjärnan i parsec?",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>En stjärnas parallax är 0,393″.</p><p>Hur långt bort är stjärnan i parsec?</p>",
+        "s": "<p>\\(r=\\dfrac{1}{0{,}393}\\).</p><p><strong>Svar:</strong> \\(2{,}54\\) pc</p>",
+        "ledtrad": "<p>\\(r=\\dfrac1p\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt bort är stjärnan i meter?",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>En stjärnas parallax är 0,393″.</p>Avståndet är 2,54 pc.<p>Hur långt bort är stjärnan i meter?</p>",
+        "s": "<p>\\(2{,}54\\cdot3{,}086\\cdot10^{16}\\).</p><p><strong>Svar:</strong> \\(7{,}85\\cdot10^{16}\\) m</p>",
+        "ledtrad": "<p>Omvandla parsec till meter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(r=\\dfrac1p\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "Procyons parallax",
+    "poang": "(2/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Procyon är 11,40 ljusår bort.</p><ol type=\"a\"><li>Hur många parsec är det?</li><li>Bestäm parallaxen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{11{,}40}{3{,}264}\\).</p><p><strong>Svar:</strong> \\(3{,}49\\) pc</p></li><li><p>\\(p=\\dfrac{1}{3{,}49}\\).</p><p><strong>Svar:</strong> \\(0{,}286\\) ″</p></li></ol>",
+    "id": "5.345",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.49264705882353,
+      0.2863157894736842
+    ],
+    "tolerans": [
+      0.0524,
+      0.00429
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "pc",
+      "″"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Procyon är 11,40 ljusår bort.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många parsec är det?",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Procyon är 11,40 ljusår bort.</p><p>Hur många parsec är det?</p>",
+        "s": "<p>\\(\\dfrac{11{,}40}{3{,}264}\\).</p><p><strong>Svar:</strong> \\(3{,}49\\) pc</p>",
+        "ledtrad": "<p>Omvandla ljusår till parsec.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm parallaxen.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Procyon är 11,40 ljusår bort.</p>Avståndet är 3,49 pc.<p>Bestäm parallaxen.</p>",
+        "s": "<p>\\(p=\\dfrac{1}{3{,}49}\\).</p><p><strong>Svar:</strong> \\(0{,}286\\) ″</p>",
+        "ledtrad": "<p>\\(p=\\dfrac1r\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(r=\\dfrac1p\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "Barnards stjärna",
+    "poang": "(1/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Barnards stjärna har parallaxen 0,54831″. Hur långt bort är den i ljusår?</p>",
+    "s": "<p>\\(r=\\dfrac{1}{0{,}54831}\\) pc \\(\\cdot3{,}264\\).</p><p><strong>Svar:</strong> \\(5{,}953\\) ljusår</p>",
+    "id": "5.346",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.952836898834601,
+    "tolerans": 0.0893,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna i parsec och omvandla.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "ljusår",
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "55 Cancri",
+    "poang": "(1/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Stjärnan 55 Cancri har parallaxen 0,07943″. Hur långt bort är den i ljusår?</p>",
+    "s": "<p>\\(r=\\dfrac{1}{0{,}07943}\\cdot3{,}264\\).</p><p><strong>Svar:</strong> \\(41{,}09\\) ljusår</p>",
+    "id": "5.347",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 41.092786100969406,
+    "tolerans": 0.616,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(r=\\dfrac1p\\) i parsec.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "ljusår",
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
+    "kap": 5,
+    "omr": "avstandsmatning",
+    "niva": "E",
+    "typ": "Epsilon Eridanis parallax",
+    "poang": "(1/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Epsilon Eridani är 10,8 ljusår bort. Hur stor är dess parallax?</p>",
+    "s": "<p>\\(r=\\dfrac{10{,}8}{3{,}264}\\approx3{,}31\\) pc. \\(p=\\dfrac1r\\).</p><p><strong>Svar:</strong> \\(0{,}302\\) ″</p>",
+    "id": "5.348",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Synvinkel, parallax och avståndsenheter",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.30222222222222217,
+    "tolerans": 0.00453,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla till parsec först.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "″",
+    "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter"
+  },
+  {
     "id": "5.61",
     "kap": 5,
     "omr": "magnituder",
@@ -31680,6 +32221,447 @@ window.BANK2 = [
     "familjTidigare": [
       "Astronomisk avståndsmätning"
     ]
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "Tau Ceti",
+    "poang": "(2/1/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p><ol type=\"a\"><li>Bestäm avståndet till stjärnan.</li><li>Vilken parallax har stjärnan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lg r=\\dfrac{m-M+5}{5}=\\dfrac{3{,}49-5{,}69+5}{5}=0{,}56\\).</p><p><strong>Svar:</strong> \\(3{,}63\\) pc</p></li><li><p>\\(p=\\dfrac{1}{3{,}63}\\).</p><p><strong>Svar:</strong> \\(0{,}275\\) ″</p></li></ol>",
+    "id": "5.349",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Apparent och absolut magnitud",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.630780547701014,
+      0.2754228703338166
+    ],
+    "tolerans": [
+      0.0545,
+      0.00413
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "pc",
+      "″"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm avståndet till stjärnan.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p><p>Bestäm avståndet till stjärnan.</p>",
+        "s": "<p>\\(\\lg r=\\dfrac{m-M+5}{5}=\\dfrac{3{,}49-5{,}69+5}{5}=0{,}56\\).</p><p><strong>Svar:</strong> \\(3{,}63\\) pc</p>",
+        "ledtrad": "<p>Lös ut \\(\\lg r\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken parallax har stjärnan?",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p>Avståndet är 3,63 pc.<p>Vilken parallax har stjärnan?</p>",
+        "s": "<p>\\(p=\\dfrac{1}{3{,}63}\\).</p><p><strong>Svar:</strong> \\(0{,}275\\) ″</p>",
+        "ledtrad": "<p>\\(p=\\dfrac1r\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "magnituder__apparent_och_absolut_magnitud"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "DX Cancri",
+    "poang": "(2/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p><ol type=\"a\"><li>Bestäm avståndet.</li><li>Vilken absolut magnitud har stjärnan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=\\dfrac{1}{0{,}2758}\\).</p><p><strong>Svar:</strong> \\(3{,}63\\) pc</p></li><li><p>\\(M=14{,}78+5-5\\lg3{,}626\\).</p><p><strong>Svar:</strong> \\(16{,}98\\)</p></li></ol>",
+    "id": "5.350",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Apparent och absolut magnitud",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.6258158085569256,
+      16.982971309199154
+    ],
+    "tolerans": [
+      0.0544,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "pc",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm avståndet.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p><p>Bestäm avståndet.</p>",
+        "s": "<p>\\(r=\\dfrac{1}{0{,}2758}\\).</p><p><strong>Svar:</strong> \\(3{,}63\\) pc</p>",
+        "ledtrad": "<p>\\(r=\\dfrac1p\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken absolut magnitud har stjärnan?",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p>Avståndet är 3,626 pc.<p>Vilken absolut magnitud har stjärnan?</p>",
+        "s": "<p>\\(M=14{,}78+5-5\\lg3{,}626\\).</p><p><strong>Svar:</strong> \\(16{,}98\\)</p>",
+        "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "magnituder__apparent_och_absolut_magnitud"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "61 Cygni B",
+    "poang": "(2/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p><ol type=\"a\"><li>Bestäm stjärnans parallax.</li><li>Bestäm stjärnans absoluta magnitud.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=\\dfrac{11{,}52}{3{,}264}\\approx3{,}529\\) pc. \\(p=\\dfrac1r\\).</p><p><strong>Svar:</strong> \\(0{,}283\\) ″</p></li><li><p>\\(M=6{,}09+5-5\\lg3{,}529\\).</p><p><strong>Svar:</strong> \\(8{,}35\\)</p></li></ol>",
+    "id": "5.351",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Apparent och absolut magnitud",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2833333333333333,
+      8.351488354973151
+    ],
+    "tolerans": [
+      0.00425,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "″",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm stjärnans parallax.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p><p>Bestäm stjärnans parallax.</p>",
+        "s": "<p>\\(r=\\dfrac{11{,}52}{3{,}264}\\approx3{,}529\\) pc. \\(p=\\dfrac1r\\).</p><p><strong>Svar:</strong> \\(0{,}283\\) ″</p>",
+        "ledtrad": "<p>Omvandla till parsec.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm stjärnans absoluta magnitud.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p>Avståndet är 3,529 pc.<p>Bestäm stjärnans absoluta magnitud.</p>",
+        "s": "<p>\\(M=6{,}09+5-5\\lg3{,}529\\).</p><p><strong>Svar:</strong> \\(8{,}35\\)</p>",
+        "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "magnituder__apparent_och_absolut_magnitud"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "Kapteyns stjärna",
+    "poang": "(2/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p><ol type=\"a\"><li>Beräkna avståndet.</li><li>Beräkna den apparenta magnituden.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=\\dfrac1{0{,}250}\\).</p><p><strong>Svar:</strong> \\(4{,}00\\) pc</p></li><li><p>\\(m=M-5+5\\lg r=10{,}89-5+5\\lg4{,}00\\). Större än 6,0, så stjärnan syns inte med blotta ögat.</p><p><strong>Svar:</strong> \\(8{,}90\\)</p></li></ol>",
+    "id": "5.352",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Apparent och absolut magnitud",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      8.900299956639813
+    ],
+    "tolerans": [
+      0.06,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "pc",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna avståndet.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p><p>Beräkna avståndet.</p>",
+        "s": "<p>\\(r=\\dfrac1{0{,}250}\\).</p><p><strong>Svar:</strong> \\(4{,}00\\) pc</p>",
+        "ledtrad": "<p>\\(r=\\dfrac1p\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna den apparenta magnituden.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p>Avståndet är 4,00 pc.<p>Beräkna den apparenta magnituden.</p>",
+        "s": "<p>\\(m=M-5+5\\lg r=10{,}89-5+5\\lg4{,}00\\). Större än 6,0, så stjärnan syns inte med blotta ögat.</p><p><strong>Svar:</strong> \\(8{,}90\\)</p>",
+        "ledtrad": "<p>Lös ut \\(m\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "magnituder__apparent_och_absolut_magnitud"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "avstånd till Rigel",
+    "poang": "(1/0/0)",
+    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Rigel har den absoluta magnituden −7,0 och den apparenta magnituden +0,1. Hur långt bort är Rigel?</p>",
+    "s": "<p>\\(\\lg r=\\dfrac{0{,}1+7{,}0+5}{5}=2{,}42\\).</p><p><strong>Svar:</strong> \\(263\\) pc</p>",
+    "id": "5.353",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Apparent och absolut magnitud",
+    "svarstyp": "numeriskt",
+    "rättSvar": 263.02679918953817,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(\\lg r\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "pc",
+    "familjNyckel": "magnituder__apparent_och_absolut_magnitud"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "Alfa Centauris absoluta magnitud",
+    "poang": "(1/0/0)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Alfa Centauri har parallaxen 0,760″ och den apparenta magnituden −0,27. Vilken absolut magnitud har den?</p>",
+    "s": "<p>\\(r=\\dfrac1{0{,}760}\\approx1{,}316\\) pc. \\(M=-0{,}27+5-5\\lg1{,}316\\).</p><p><strong>Svar:</strong> \\(4{,}13\\) </p>",
+    "id": "5.354",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Apparent och absolut magnitud",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.134067961403957,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm avståndet först.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "magnituder__apparent_och_absolut_magnitud"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "A",
+    "typ": "hur långt bort syns solen",
+    "poang": "(0/1/1)",
+    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Solen har den apparenta magnituden −26,74 på avståndet 1 AU \\(=4{,}848\\cdot10^{-6}\\) pc. Med blotta ögat syns stjärnor ned till magnitud +6,0. Hur långt bort kan man vara och fortfarande se solen?</p>",
+    "s": "<p>\\(M_\\odot=-26{,}74+5-5\\lg(4{,}848\\cdot10^{-6})\\approx4{,}83\\). \\(\\lg r=\\dfrac{6{,}0-4{,}83+5}{5}\\).</p><p><strong>Svar:</strong> \\(17\\) pc</p>",
+    "id": "5.355",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Apparent och absolut magnitud",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17.12125800417261,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm solens absoluta magnitud först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "pc",
+    "familjNyckel": "magnituder__apparent_och_absolut_magnitud"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "Vegas luminositet",
+    "poang": "(1/0/0)",
+    "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Vega har den absoluta magnituden +0,582. Bestäm stjärnans luminositet i W.</p>",
+    "s": "<p>\\(P=P_\\odot\\cdot10^{-0{,}4\\cdot0{,}582+1{,}932}\\approx50\\,P_\\odot\\).</p><p><strong>Svar:</strong> \\(1{,}92\\cdot10^{28}\\) W</p>",
+    "id": "5.356",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnitud och luminositet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.9150138933476098e+28,
+    "tolerans": 2.87e+26,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt in i formeln.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "W",
+    "familjNyckel": "magnituder__magnitud_och_luminositet"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "absolut magnitud ur luminositet",
+    "poang": "(1/0/0)",
+    "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Stjärnan Ross 248 har luminositeten \\(6{,}89\\cdot10^{23}\\) W. Vilken absolut magnitud har den?</p>",
+    "s": "<p>\\(\\lg\\dfrac{P}{P_\\odot}=-0{,}4M+1{,}932\\iff M=\\dfrac{1{,}932-\\lg(6{,}89\\cdot10^{23}/3{,}828\\cdot10^{26})}{0{,}4}\\).</p><p><strong>Svar:</strong> \\(11{,}7\\) </p>",
+    "id": "5.357",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnitud och luminositet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.691881767992948,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Logaritmera.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "magnituder__magnitud_och_luminositet"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "Canopus",
+    "poang": "(1/0/0)",
+    "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Canopus har luminositeten \\(10\\,700\\,P_\\odot\\). Vilken absolut magnitud har den?</p>",
+    "s": "<p>\\(M=\\dfrac{1{,}932-\\lg10\\,700}{0{,}4}\\).</p><p><strong>Svar:</strong> \\(-5{,}24\\) </p>",
+    "id": "5.358",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnitud och luminositet",
+    "svarstyp": "numeriskt",
+    "rättSvar": -5.243459444213024,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Logaritmera.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "magnituder__magnitud_och_luminositet"
+  },
+  {
+    "kap": 5,
+    "omr": "magnituder",
+    "niva": "E",
+    "typ": "magnitudskillnad och luminositet",
+    "poang": "(1/0/0)",
+    "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Två stjärnors absoluta magnituder skiljer sig 3,83. Hur många gånger större luminositet har den med lägst magnitud?</p>",
+    "s": "<p>\\(\\dfrac{P_1}{P_2}=10^{0{,}4\\cdot3{,}83}\\).</p><p><strong>Svar:</strong> \\(34\\) </p>",
+    "id": "5.359",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Magnitud och luminositet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 34.04081897010009,
+    "tolerans": 0.511,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\Delta\\lg P=0{,}4\\,\\Delta M\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "magnituder__magnitud_och_luminositet"
   },
   {
     "id": "5.54",
@@ -39796,6 +40778,615 @@ window.BANK2 = [
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
     ]
+  },
+  {
+    "kap": 5,
+    "omr": "farg_ljusstyrka",
+    "niva": "C",
+    "typ": "Alkaid",
+    "poang": "(1/1/0)",
+    "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Alkaid har radien \\(2{,}37\\cdot10^9\\) m och yttemperaturen 15 500 K.</p><ol type=\"a\"><li>Beräkna stjärnans luminositet.</li><li>Bestäm stjärnans absoluta magnitud.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\sigma\\cdot4\\pi R^2T^4\\).</p><p><strong>Svar:</strong> \\(2{,}31\\cdot10^{29}\\) W</p></li><li><p>\\(\\dfrac{P}{P_\\odot}\\approx603\\). \\(M=\\dfrac{1{,}932-\\lg603}{0{,}4}\\).</p><p><strong>Svar:</strong> \\(-2{,}12\\)</p></li></ol>",
+    "id": "5.360",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Luminositet, radie och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.3100235510593415e+29,
+      -2.121611196278926
+    ],
+    "tolerans": [
+      3.47e+27,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Alkaid har radien \\(2{,}37\\cdot10^9\\) m och yttemperaturen 15 500 K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna stjärnans luminositet.",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Alkaid har radien \\(2{,}37\\cdot10^9\\) m och yttemperaturen 15 500 K.</p><p>Beräkna stjärnans luminositet.</p>",
+        "s": "<p>\\(P=\\sigma\\cdot4\\pi R^2T^4\\).</p><p><strong>Svar:</strong> \\(2{,}31\\cdot10^{29}\\) W</p>",
+        "ledtrad": "<p>Stefan–Boltzmanns lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm stjärnans absoluta magnitud.",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Alkaid har radien \\(2{,}37\\cdot10^9\\) m och yttemperaturen 15 500 K.</p>Luminositeten är \\(2{,}31\\cdot10^{29}\\) W.<p>Bestäm stjärnans absoluta magnitud.</p>",
+        "s": "<p>\\(\\dfrac{P}{P_\\odot}\\approx603\\). \\(M=\\dfrac{1{,}932-\\lg603}{0{,}4}\\).</p><p><strong>Svar:</strong> \\(-2{,}12\\)</p>",
+        "ledtrad": "<p>Logaritmera formeln för luminositet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Uttryck gärna luminositeten i solluminositeter.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur"
+  },
+  {
+    "kap": 5,
+    "omr": "farg_ljusstyrka",
+    "niva": "C",
+    "typ": "Spica",
+    "poang": "(1/1/0)",
+    "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Spica har den absoluta magnituden −3,55 och yttemperaturen 21 000 K.</p><ol type=\"a\"><li>Vilken luminositet har stjärnan?</li><li>Hur stor radie har stjärnan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=P_\\odot\\cdot10^{1{,}42+1{,}932}\\).</p><p><strong>Svar:</strong> \\(8{,}61\\cdot10^{29}\\) W</p></li><li><p>\\(R=\\sqrt{\\dfrac{P}{4\\pi\\sigma T^4}}\\).</p><p><strong>Svar:</strong> \\(2{,}49\\cdot10^{9}\\) m</p></li></ol>",
+    "id": "5.361",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Luminositet, radie och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.609381031139368e+29,
+      2492590374.669214
+    ],
+    "tolerans": [
+      1.29e+28,
+      37400000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Spica har den absoluta magnituden −3,55 och yttemperaturen 21 000 K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken luminositet har stjärnan?",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Spica har den absoluta magnituden −3,55 och yttemperaturen 21 000 K.</p><p>Vilken luminositet har stjärnan?</p>",
+        "s": "<p>\\(P=P_\\odot\\cdot10^{1{,}42+1{,}932}\\).</p><p><strong>Svar:</strong> \\(8{,}61\\cdot10^{29}\\) W</p>",
+        "ledtrad": "<p>Sätt in i formeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor radie har stjärnan?",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Spica har den absoluta magnituden −3,55 och yttemperaturen 21 000 K.</p>Luminositeten är \\(8{,}61\\cdot10^{29}\\) W.<p>Hur stor radie har stjärnan?</p>",
+        "s": "<p>\\(R=\\sqrt{\\dfrac{P}{4\\pi\\sigma T^4}}\\).</p><p><strong>Svar:</strong> \\(2{,}49\\cdot10^{9}\\) m</p>",
+        "ledtrad": "<p>Lös ut \\(R\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\sigma\\cdot4\\pi R^2T^4\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur"
+  },
+  {
+    "kap": 5,
+    "omr": "farg_ljusstyrka",
+    "niva": "C",
+    "typ": "Deneb",
+    "poang": "(1/1/0)",
+    "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Deneb har den absoluta magnituden −6,93 och radien \\(1{,}41\\cdot10^{11}\\) m.</p><ol type=\"a\"><li>Vilken luminositet har stjärnan?</li><li>Vilken yttemperatur har stjärnan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=P_\\odot\\cdot10^{2{,}772+1{,}932}\\).</p><p><strong>Svar:</strong> \\(1{,}94\\cdot10^{31}\\) W</p></li><li><p>\\(T=\\sqrt[4]{\\dfrac{P}{4\\pi R^2\\sigma}}\\).</p><p><strong>Svar:</strong> \\(6\\,080\\) K</p></li></ol>",
+    "id": "5.362",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Luminositet, radie och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.9362968061479235e+31,
+      6080.442630433805
+    ],
+    "tolerans": [
+      2.9e+29,
+      91.2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "K"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Deneb har den absoluta magnituden −6,93 och radien \\(1{,}41\\cdot10^{11}\\) m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken luminositet har stjärnan?",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Deneb har den absoluta magnituden −6,93 och radien \\(1{,}41\\cdot10^{11}\\) m.</p><p>Vilken luminositet har stjärnan?</p>",
+        "s": "<p>\\(P=P_\\odot\\cdot10^{2{,}772+1{,}932}\\).</p><p><strong>Svar:</strong> \\(1{,}94\\cdot10^{31}\\) W</p>",
+        "ledtrad": "<p>Sätt in i formeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken yttemperatur har stjärnan?",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Deneb har den absoluta magnituden −6,93 och radien \\(1{,}41\\cdot10^{11}\\) m.</p>Luminositeten är \\(1{,}94\\cdot10^{31}\\) W.<p>Vilken yttemperatur har stjärnan?</p>",
+        "s": "<p>\\(T=\\sqrt[4]{\\dfrac{P}{4\\pi R^2\\sigma}}\\).</p><p><strong>Svar:</strong> \\(6\\,080\\) K</p>",
+        "ledtrad": "<p>Lös ut \\(T\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\sigma\\cdot4\\pi R^2T^4\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur"
+  },
+  {
+    "kap": 5,
+    "omr": "farg_ljusstyrka",
+    "niva": "C",
+    "typ": "två stjärnor med olika radie och temperatur",
+    "poang": "(0/2/0)",
+    "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Stjärna A har radien \\(R\\) och temperaturen \\(T\\). Stjärna B har radien \\(0{,}5R\\) och temperaturen \\(2T\\). Luminositeten är proportionell mot \\(R^2T^4\\).</p><ol type=\"a\"><li>Bestäm kvoten \\(\\dfrac{P_A}{P_B}\\).</li><li>Hur mycket större är A:s absoluta magnitud än B:s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{P_A}{P_B}=\\dfrac{R^2T^4}{0{,}25R^2\\cdot16T^4}=\\dfrac14\\).</p><p><strong>Svar:</strong> \\(0{,}250\\)</p></li><li><p>\\(\\Delta M=2{,}5\\lg4\\).</p><p><strong>Svar:</strong> \\(1{,}51\\)</p></li></ol>",
+    "id": "5.363",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Luminositet, radie och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.25,
+      1.505149978319906
+    ],
+    "tolerans": [
+      0.00375,
+      0.0226
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Stjärna A har radien \\(R\\) och temperaturen \\(T\\). Stjärna B har radien \\(0{,}5R\\) och temperaturen \\(2T\\). Luminositeten är proportionell mot \\(R^2T^4\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm kvoten \\(\\dfrac{P_A}{P_B}\\).",
+        "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Stjärna A har radien \\(R\\) och temperaturen \\(T\\). Stjärna B har radien \\(0{,}5R\\) och temperaturen \\(2T\\). Luminositeten är proportionell mot \\(R^2T^4\\).</p><p>Bestäm kvoten \\(\\dfrac{P_A}{P_B}\\).</p>",
+        "s": "<p>\\(\\dfrac{P_A}{P_B}=\\dfrac{R^2T^4}{0{,}25R^2\\cdot16T^4}=\\dfrac14\\).</p><p><strong>Svar:</strong> \\(0{,}250\\)</p>",
+        "ledtrad": "<p>Sätt in faktorerna för radie och temperatur.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket större är A:s absoluta magnitud än B:s?",
+        "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Stjärna A har radien \\(R\\) och temperaturen \\(T\\). Stjärna B har radien \\(0{,}5R\\) och temperaturen \\(2T\\). Luminositeten är proportionell mot \\(R^2T^4\\).</p>B har fyra gånger större luminositet än A.<p>Hur mycket större är A:s absoluta magnitud än B:s?</p>",
+        "s": "<p>\\(\\Delta M=2{,}5\\lg4\\).</p><p><strong>Svar:</strong> \\(1{,}51\\)</p>",
+        "ledtrad": "<p>\\(\\Delta M=2{,}5\\lg\\dfrac{P_B}{P_A}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Lägre magnitud betyder större luminositet.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur"
+  },
+  {
+    "kap": 5,
+    "omr": "farg_ljusstyrka",
+    "niva": "C",
+    "typ": "jämföra stjärnor med solen",
+    "poang": "(1/2/1)",
+    "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><ol type=\"a\"><li>Beräkna solens yttemperatur.</li><li>En stjärna har samma luminositet som solen men halva radien. Hur många gånger högre temperatur har den?</li><li>En stjärna har luminositeten \\(5P_\\odot\\) och temperaturen \\(4T_\\odot\\). Hur många solradier är dess radie?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T_\\odot=\\sqrt[4]{\\dfrac{P_\\odot}{4\\pi R_\\odot^2\\sigma}}\\).</p><p><strong>Svar:</strong> \\(5\\,772\\) K</p></li><li><p>\\(R^2T^4\\) ska vara samma: \\(T^4\\) blir fyra gånger större, så \\(T=\\sqrt2\\,T_\\odot\\).</p><p><strong>Svar:</strong> \\(1{,}41\\)</p></li><li><p>\\(\\dfrac{R}{R_\\odot}=\\dfrac{\\sqrt5}{4^2}\\).</p><p><strong>Svar:</strong> \\(0{,}140\\)</p></li></ol>",
+    "id": "5.364",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Luminositet, radie och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5772.098715487874,
+      1.4142135623730951,
+      0.13975424859373686
+    ],
+    "tolerans": [
+      86.6,
+      0.0212,
+      0.0021
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "K",
+      null,
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna solens yttemperatur.",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Beräkna solens yttemperatur.</p>",
+        "s": "<p>\\(T_\\odot=\\sqrt[4]{\\dfrac{P_\\odot}{4\\pi R_\\odot^2\\sigma}}\\).</p><p><strong>Svar:</strong> \\(5\\,772\\) K</p>",
+        "ledtrad": "<p>Lös ut \\(T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En stjärna har samma luminositet som solen men halva radien. Hur många gånger högre temperatur har den?",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>En stjärna har samma luminositet som solen men halva radien. Hur många gånger högre temperatur har den?</p>",
+        "s": "<p>\\(R^2T^4\\) ska vara samma: \\(T^4\\) blir fyra gånger större, så \\(T=\\sqrt2\\,T_\\odot\\).</p><p><strong>Svar:</strong> \\(1{,}41\\)</p>",
+        "ledtrad": "<p>\\(R^2T^4\\) är konstant.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "En stjärna har luminositeten \\(5P_\\odot\\) och temperaturen \\(4T_\\odot\\). Hur många solradier är dess radie?",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>En stjärna har luminositeten \\(5P_\\odot\\) och temperaturen \\(4T_\\odot\\). Hur många solradier är dess radie?</p>",
+        "s": "<p>\\(\\dfrac{R}{R_\\odot}=\\dfrac{\\sqrt5}{4^2}\\).</p><p><strong>Svar:</strong> \\(0{,}140\\)</p>",
+        "ledtrad": "<p>Räkna med förhållanden till solen.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Räkna med förhållanden: \\(\\dfrac{P}{P_\\odot}=\\left(\\dfrac{R}{R_\\odot}\\right)^2\\left(\\dfrac{T}{T_\\odot}\\right)^4\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur"
+  },
+  {
+    "kap": 5,
+    "omr": "farg_ljusstyrka",
+    "niva": "C",
+    "typ": "Procyon",
+    "poang": "(1/2/0)",
+    "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Procyon har yttemperaturen 6 530 K och radien \\(2{,}05R_\\odot\\). Solens yttemperatur är 5 772 K.</p><ol type=\"a\"><li>Hur många gånger större luminositet än solen har Procyon?</li><li>Vilken absolut magnitud har Procyon?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{P}{P_\\odot}=2{,}05^2\\left(\\dfrac{6\\,530}{5\\,772}\\right)^4\\).</p><p><strong>Svar:</strong> \\(6{,}88\\)</p></li><li><p>\\(M=\\dfrac{1{,}932-\\lg6{,}89}{0{,}4}\\).</p><p><strong>Svar:</strong> \\(2{,}74\\)</p></li></ol>",
+    "id": "5.365",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Luminositet, radie och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.884226607511908,
+      2.7353621061850553
+    ],
+    "tolerans": [
+      0.103,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Procyon har yttemperaturen 6 530 K och radien \\(2{,}05R_\\odot\\). Solens yttemperatur är 5 772 K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många gånger större luminositet än solen har Procyon?",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Procyon har yttemperaturen 6 530 K och radien \\(2{,}05R_\\odot\\). Solens yttemperatur är 5 772 K.</p><p>Hur många gånger större luminositet än solen har Procyon?</p>",
+        "s": "<p>\\(\\dfrac{P}{P_\\odot}=2{,}05^2\\left(\\dfrac{6\\,530}{5\\,772}\\right)^4\\).</p><p><strong>Svar:</strong> \\(6{,}88\\)</p>",
+        "ledtrad": "<p>Räkna med förhållanden.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken absolut magnitud har Procyon?",
+        "t": "<p>En stjärnas luminositet är \\(P=\\sigma\\cdot4\\pi R^2T^4\\) med \\(\\sigma=5{,}67\\cdot10^{-8}\\) W/(m²K⁴). Solens radie är \\(R_\\odot=6{,}957\\cdot10^8\\) m och \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Procyon har yttemperaturen 6 530 K och radien \\(2{,}05R_\\odot\\). Solens yttemperatur är 5 772 K.</p>Procyon har luminositeten \\(6{,}89P_\\odot\\).<p>Vilken absolut magnitud har Procyon?</p>",
+        "s": "<p>\\(M=\\dfrac{1{,}932-\\lg6{,}89}{0{,}4}\\).</p><p><strong>Svar:</strong> \\(2{,}74\\)</p>",
+        "ledtrad": "<p>Logaritmera.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{P}{P_\\odot}=\\left(\\dfrac{R}{R_\\odot}\\right)^2\\left(\\dfrac{T}{T_\\odot}\\right)^4\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur"
+  },
+  {
+    "kap": 5,
+    "omr": "farg_ljusstyrka",
+    "niva": "A",
+    "typ": "Betelgeuse",
+    "poang": "(3/1/1)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p><ol type=\"a\"><li>Bestäm avståndet.</li><li>Bestäm den absoluta magnituden.</li><li>Hur många gånger större luminositet än solen har Betelgeuse?</li><li>Hur många solradier är Betelgeuses radie?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=\\dfrac{1}{0{,}00451}\\).</p><p><strong>Svar:</strong> \\(222\\) pc</p></li><li><p>\\(M=0{,}50+5-5\\lg222\\).</p><p><strong>Svar:</strong> \\(-6{,}23\\)</p></li><li><p>\\(\\dfrac{P}{P_\\odot}=10^{-0{,}4\\cdot(-6{,}23)+1{,}932}\\).</p><p><strong>Svar:</strong> \\(26\\,524\\)</p></li><li><p>\\(\\dfrac{R}{R_\\odot}=\\sqrt{\\dfrac{P}{P_\\odot}}\\left(\\dfrac{5\\,772}{3\\,500}\\right)^2\\).</p><p><strong>Svar:</strong> \\(443\\)</p></li></ol>",
+    "id": "5.366",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Luminositet, radie och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      221.72949002217294,
+      -6.229117290610198,
+      26524.482304173936,
+      442.9350156894079
+    ],
+    "tolerans": [
+      3.33,
+      0.051,
+      510.0,
+      6.64
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "pc",
+      null,
+      null,
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm avståndet.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p><p>Bestäm avståndet.</p>",
+        "s": "<p>\\(r=\\dfrac{1}{0{,}00451}\\).</p><p><strong>Svar:</strong> \\(222\\) pc</p>",
+        "ledtrad": "<p>\\(r=\\dfrac1p\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm den absoluta magnituden.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>Avståndet är 222 pc.<p>Bestäm den absoluta magnituden.</p>",
+        "s": "<p>\\(M=0{,}50+5-5\\lg222\\).</p><p><strong>Svar:</strong> \\(-6{,}23\\)</p>",
+        "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många gånger större luminositet än solen har Betelgeuse?",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>Den absoluta magnituden är −6,23.<p>Hur många gånger större luminositet än solen har Betelgeuse?</p>",
+        "s": "<p>\\(\\dfrac{P}{P_\\odot}=10^{-0{,}4\\cdot(-6{,}23)+1{,}932}\\).</p><p><strong>Svar:</strong> \\(26\\,524\\)</p>",
+        "ledtrad": "<p>Sätt in i formeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur många solradier är Betelgeuses radie?",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>Luminositeten är \\(2{,}6\\cdot10^4P_\\odot\\).<p>Hur många solradier är Betelgeuses radie?</p>",
+        "s": "<p>\\(\\dfrac{R}{R_\\odot}=\\sqrt{\\dfrac{P}{P_\\odot}}\\left(\\dfrac{5\\,772}{3\\,500}\\right)^2\\).</p><p><strong>Svar:</strong> \\(443\\)</p>",
+        "ledtrad": "<p>Räkna med förhållanden till solen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>En röd jättestjärna.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur"
+  },
+  {
+    "kap": 5,
+    "omr": "farg_ljusstyrka",
+    "niva": "A",
+    "typ": "Sirius parallax",
+    "poang": "(0/1/2)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Sirius har radien \\(1{,}711R_\\odot\\), yttemperaturen 9 940 K och den apparenta magnituden −1,47. Solens yttemperatur är 5 772 K. Bestäm Sirius parallax.</p>",
+    "s": "<p>\\(\\dfrac{P}{P_\\odot}=1{,}711^2\\left(\\dfrac{9\\,940}{5\\,772}\\right)^4\\approx25{,}7\\), så \\(M\\approx1{,}30\\). \\(\\lg r=\\dfrac{m-M+5}{5}\\), \\(p=\\dfrac1r\\).</p><p><strong>Svar:</strong> \\(0{,}359\\) ″</p>",
+    "id": "5.367",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Luminositet, radie och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3586161687655924,
+    "tolerans": 0.00538,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Luminositet → absolut magnitud → avstånd.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "″",
+    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur"
+  },
+  {
+    "kap": 5,
+    "omr": "farg_ljusstyrka",
+    "niva": "A",
+    "typ": "Gamma Comae Berenices",
+    "poang": "(2/2/1)",
+    "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm. Wiens lag: \\(\\lambda_{max}T=2{,}8978\\cdot10^{-3}\\) m·K.</p><ol type=\"a\"><li>Bestäm den absoluta magnituden.</li><li>Beräkna stjärnans yttemperatur.</li><li>Hur stor intensitet når jorden från stjärnan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=\\dfrac1{0{,}01925}\\approx51{,}9\\) pc. \\(M=4{,}36+5-5\\lg51{,}9\\).</p><p><strong>Svar:</strong> \\(0{,}782\\)</p></li><li><p>\\(T=\\dfrac{2{,}8978\\cdot10^{-3}}{632\\cdot10^{-9}}\\).</p><p><strong>Svar:</strong> \\(4\\,585\\) K</p></li><li><p>\\(P\\approx41{,}6P_\\odot\\). \\(I=\\dfrac{P}{4\\pi r^2}\\) med \\(r=51{,}9\\cdot3{,}086\\cdot10^{16}\\) m.</p><p><strong>Svar:</strong> \\(4{,}93\\cdot10^{-10}\\) W/m²</p></li></ol>",
+    "id": "5.368",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Luminositet, radie och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.7821536692225965,
+      4585.126582278481,
+      4.931399895504026e-10
+    ],
+    "tolerans": [
+      0.051,
+      68.8,
+      7.4e-12
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "K",
+      "W/m²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm. Wiens lag: \\(\\lambda_{max}T=2{,}8978\\cdot10^{-3}\\) m·K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den absoluta magnituden.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm. Wiens lag: \\(\\lambda_{max}T=2{,}8978\\cdot10^{-3}\\) m·K.</p><p>Bestäm den absoluta magnituden.</p>",
+        "s": "<p>\\(r=\\dfrac1{0{,}01925}\\approx51{,}9\\) pc. \\(M=4{,}36+5-5\\lg51{,}9\\).</p><p><strong>Svar:</strong> \\(0{,}782\\)</p>",
+        "ledtrad": "<p>Bestäm avståndet först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna stjärnans yttemperatur.",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm. Wiens lag: \\(\\lambda_{max}T=2{,}8978\\cdot10^{-3}\\) m·K.</p><p>Beräkna stjärnans yttemperatur.</p>",
+        "s": "<p>\\(T=\\dfrac{2{,}8978\\cdot10^{-3}}{632\\cdot10^{-9}}\\).</p><p><strong>Svar:</strong> \\(4\\,585\\) K</p>",
+        "ledtrad": "<p>Wiens lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor intensitet når jorden från stjärnan?",
+        "t": "<p>Avstånd i parsec: \\(r=\\dfrac1p\\) med parallaxen \\(p\\) i bågsekunder. 1 pc \\(=3{,}264\\) ljusår \\(=3{,}086\\cdot10^{16}\\) m.</p><p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm. Wiens lag: \\(\\lambda_{max}T=2{,}8978\\cdot10^{-3}\\) m·K.</p>Den absoluta magnituden är 0,782 och avståndet 51,9 pc.<p>Hur stor intensitet når jorden från stjärnan?</p>",
+        "s": "<p>\\(P\\approx41{,}6P_\\odot\\). \\(I=\\dfrac{P}{4\\pi r^2}\\) med \\(r=51{,}9\\cdot3{,}086\\cdot10^{16}\\) m.</p><p><strong>Svar:</strong> \\(4{,}93\\cdot10^{-10}\\) W/m²</p>",
+        "ledtrad": "<p>Bestäm luminositeten och fördela den på en sfär.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Avstånd → absolut magnitud → luminositet.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur"
   },
   {
     "id": "5.325",

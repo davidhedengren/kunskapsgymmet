@@ -43462,6 +43462,447 @@ window.BANK = [
     "spel": true
   },
   {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "kloss på plan och hängande vikt",
+    "poang": "(0/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (21 kg) på ett plan med lutningen 37° är via ett snöre över en trissa i planets topp förbunden med en hängande kloss (3,6 kg). Friktionstalet mot planet är 0,20.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i snöret.</li><li>Klossarna byter plats (3,6 kg på planet). Vilken acceleration får systemet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Komposanten längs planet \\(21\\cdot9{,}82\\sin37^\\circ\\approx124\\) N är större än friktion plus hängande tyngd, så den stora klossen glider nedåt: \\(a=\\dfrac{124-32{,}9-35{,}4}{24{,}6}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s²</p></li><li><p>Hängande kloss: \\(F_S=3{,}6(9{,}82+a)\\).</p><p><strong>Svar:</strong> \\(44\\) N</p></li><li><p>\\(a=\\dfrac{21\\cdot9{,}82-3{,}6\\cdot9{,}82\\sin37^\\circ-0{,}20\\cdot3{,}6\\cdot9{,}82\\cos37^\\circ}{24{,}6}\\).</p><p><strong>Svar:</strong> \\(7{,}3\\) m/s²</p></li></ol>",
+    "id": "4.596",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.268917524309953,
+      43.52010308751583,
+      7.288535072816683
+    ],
+    "tolerans": [
+      0.051,
+      0.653,
+      0.109
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (21 kg) på ett plan med lutningen 37° är via ett snöre över en trissa i planets topp förbunden med en hängande kloss (3,6 kg). Friktionstalet mot planet är 0,20.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (21 kg) på ett plan med lutningen 37° är via ett snöre över en trissa i planets topp förbunden med en hängande kloss (3,6 kg). Friktionstalet mot planet är 0,20.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>Komposanten längs planet \\(21\\cdot9{,}82\\sin37^\\circ\\approx124\\) N är större än friktion plus hängande tyngd, så den stora klossen glider nedåt: \\(a=\\dfrac{124-32{,}9-35{,}4}{24{,}6}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s²</p>",
+        "ledtrad": "<p>Avgör först åt vilket håll systemet rör sig.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i snöret.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (21 kg) på ett plan med lutningen 37° är via ett snöre över en trissa i planets topp förbunden med en hängande kloss (3,6 kg). Friktionstalet mot planet är 0,20.</p>Accelerationen är 2,3 m/s².<p>Bestäm spännkraften i snöret.</p>",
+        "s": "<p>Hängande kloss: \\(F_S=3{,}6(9{,}82+a)\\).</p><p><strong>Svar:</strong> \\(44\\) N</p>",
+        "ledtrad": "<p>Den hängande klossen accelererar uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Klossarna byter plats (3,6 kg på planet). Vilken acceleration får systemet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (21 kg) på ett plan med lutningen 37° är via ett snöre över en trissa i planets topp förbunden med en hängande kloss (3,6 kg). Friktionstalet mot planet är 0,20.</p><p>Klossarna byter plats (3,6 kg på planet). Vilken acceleration får systemet?</p>",
+        "s": "<p>\\(a=\\dfrac{21\\cdot9{,}82-3{,}6\\cdot9{,}82\\sin37^\\circ-0{,}20\\cdot3{,}6\\cdot9{,}82\\cos37^\\circ}{24{,}6}\\).</p><p><strong>Svar:</strong> \\(7{,}3\\) m/s²</p>",
+        "ledtrad": "<p>Nu drar den tunga klossen den lätta uppför.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg båda klossarna.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "lika massor på plan",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Två klossar med massan 2,7 kg var: den ena på ett plan med lutningen 34° (friktionstal 0,15), den andra hänger i ett snöre över en trissa i planets topp.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Vilket friktionstal ger konstant fart uppför planet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{2{,}7\\cdot9{,}82-2{,}7\\cdot9{,}82(\\sin34^\\circ+0{,}15\\cos34^\\circ)}{5{,}4}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) m/s²</p></li><li><p>\\(1=\\sin34^\\circ+\\mu\\cos34^\\circ\\iff\\mu=\\dfrac{1-\\sin34^\\circ}{\\cos34^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}53\\)</p></li></ol>",
+    "id": "4.597",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5537766717718444,
+      0.5317094316614787
+    ],
+    "tolerans": [
+      0.051,
+      0.00798
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Två klossar med massan 2,7 kg var: den ena på ett plan med lutningen 34° (friktionstal 0,15), den andra hänger i ett snöre över en trissa i planets topp.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Två klossar med massan 2,7 kg var: den ena på ett plan med lutningen 34° (friktionstal 0,15), den andra hänger i ett snöre över en trissa i planets topp.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{2{,}7\\cdot9{,}82-2{,}7\\cdot9{,}82(\\sin34^\\circ+0{,}15\\cos34^\\circ)}{5{,}4}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) m/s²</p>",
+        "ledtrad": "<p>Den hängande klossen drar den andra uppför.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilket friktionstal ger konstant fart uppför planet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Två klossar med massan 2,7 kg var: den ena på ett plan med lutningen 34° (friktionstal 0,15), den andra hänger i ett snöre över en trissa i planets topp.</p><p>Vilket friktionstal ger konstant fart uppför planet?</p>",
+        "s": "<p>\\(1=\\sin34^\\circ+\\mu\\cos34^\\circ\\iff\\mu=\\dfrac{1-\\sin34^\\circ}{\\cos34^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}53\\)</p>",
+        "ledtrad": "<p>Jämvikt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg båda klossarna.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "motvikt för konstant fart",
+    "poang": "(0/2/0)",
+    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Klossen A (5,0 kg) ligger på ett plan med lutningen 40° (friktionstal 0,29) och är via ett snöre över en trissa i planets topp förbunden med den hängande klossen B. Vilken massa ska B ha för att systemet ska glida med konstant fart</p><ol type=\"a\"><li>uppför planet?</li><li>nedför planet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m_B=5{,}0(\\sin40^\\circ+0{,}29\\cos40^\\circ)\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) kg</p></li><li><p>\\(m_B=5{,}0(\\sin40^\\circ-0{,}29\\cos40^\\circ)\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) kg</p></li></ol>",
+    "id": "4.598",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.3247024909552145,
+      2.1031736059101784
+    ],
+    "tolerans": [
+      0.0649,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Klossen A (5,0 kg) ligger på ett plan med lutningen 40° (friktionstal 0,29) och är via ett snöre över en trissa i planets topp förbunden med den hängande klossen B. Vilken massa ska B ha för att systemet ska glida med konstant fart</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "uppför planet?",
+        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Klossen A (5,0 kg) ligger på ett plan med lutningen 40° (friktionstal 0,29) och är via ett snöre över en trissa i planets topp förbunden med den hängande klossen B. Vilken massa ska B ha för att systemet ska glida med konstant fart</p><p>uppför planet?</p>",
+        "s": "<p>\\(m_B=5{,}0(\\sin40^\\circ+0{,}29\\cos40^\\circ)\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) kg</p>",
+        "ledtrad": "<p>Friktionen verkar nedför planet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "nedför planet?",
+        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Klossen A (5,0 kg) ligger på ett plan med lutningen 40° (friktionstal 0,29) och är via ett snöre över en trissa i planets topp förbunden med den hängande klossen B. Vilken massa ska B ha för att systemet ska glida med konstant fart</p><p>nedför planet?</p>",
+        "s": "<p>\\(m_B=5{,}0(\\sin40^\\circ-0{,}29\\cos40^\\circ)\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) kg</p>",
+        "ledtrad": "<p>Friktionen verkar uppför planet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Jämvikt för båda klossarna.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "hur långt faller vikten",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Kloss A (30 kg) på ett plan med lutningen 25° (friktionstal 0,23) är via en trissa förbunden med en hängande kloss B (20 kg). Systemet släpps från vila. Hur långt faller B på 2,0 s?</p>",
+    "s": "<p>\\(a=\\dfrac{20\\cdot9{,}82-30\\cdot9{,}82(\\sin25^\\circ+0{,}23\\cos25^\\circ)}{50}\\approx0{,}21\\) m/s². \\(s=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}42\\) m</p>",
+    "id": "4.599",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4194822822864239,
+    "tolerans": 0.00629,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm accelerationen först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "block och hink",
+    "poang": "(1/1/0)",
+    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Ett block (\\(m_1\\)) på ett friktionsfritt plan med lutningen \\(\\alpha\\) är via en trissa förbundet med en hängande hink (\\(m_2\\)). Systemet ska röra sig med konstant fart.</p><ol type=\"a\"><li>\\(m_2=18\\) kg och \\(\\alpha=32^\\circ\\). Vilken massa ska blocket ha?</li><li>\\(m_1=35\\) kg och \\(m_2=15\\) kg. Vilken lutning krävs?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m_1\\sin32^\\circ=m_2\\iff m_1=\\dfrac{18}{\\sin32^\\circ}\\).</p><p><strong>Svar:</strong> \\(34\\) kg</p></li><li><p>\\(\\sin\\alpha=\\dfrac{15}{35}\\).</p><p><strong>Svar:</strong> \\(25\\) °</p></li></ol>",
+    "id": "4.630",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      33.967438466397454,
+      25.376933525152303
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Ett block (\\(m_1\\)) på ett friktionsfritt plan med lutningen \\(\\alpha\\) är via en trissa förbundet med en hängande hink (\\(m_2\\)). Systemet ska röra sig med konstant fart.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(m_2=18\\) kg och \\(\\alpha=32^\\circ\\). Vilken massa ska blocket ha?",
+        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Ett block (\\(m_1\\)) på ett friktionsfritt plan med lutningen \\(\\alpha\\) är via en trissa förbundet med en hängande hink (\\(m_2\\)). Systemet ska röra sig med konstant fart.</p><p>\\(m_2=18\\) kg och \\(\\alpha=32^\\circ\\). Vilken massa ska blocket ha?</p>",
+        "s": "<p>\\(m_1\\sin32^\\circ=m_2\\iff m_1=\\dfrac{18}{\\sin32^\\circ}\\).</p><p><strong>Svar:</strong> \\(34\\) kg</p>",
+        "ledtrad": "<p>Jämvikt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(m_1=35\\) kg och \\(m_2=15\\) kg. Vilken lutning krävs?",
+        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Ett block (\\(m_1\\)) på ett friktionsfritt plan med lutningen \\(\\alpha\\) är via en trissa förbundet med en hängande hink (\\(m_2\\)). Systemet ska röra sig med konstant fart.</p><p>\\(m_1=35\\) kg och \\(m_2=15\\) kg. Vilken lutning krävs?</p>",
+        "s": "<p>\\(\\sin\\alpha=\\dfrac{15}{35}\\).</p><p><strong>Svar:</strong> \\(25\\) °</p>",
+        "ledtrad": "<p>Jämvikt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(m_1g\\sin\\alpha=m_2g\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "kloss på plan och tyngre hängande kloss",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (3,0 kg) på ett friktionsfritt plan med lutningen 34° är via en trissa förbunden med en hängande kloss (5,0 kg).</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i snöret.</li><li>Klossarna byter plats. Bestäm den nya accelerationen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{5{,}0\\cdot9{,}82-3{,}0\\cdot9{,}82\\sin34^\\circ}{8{,}0}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\) m/s²</p></li><li><p>\\(F_S=5{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(29\\) N</p></li><li><p>\\(a=\\dfrac{3{,}0\\cdot9{,}82-5{,}0\\cdot9{,}82\\sin34^\\circ}{8{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}25\\) m/s²</p></li></ol>",
+    "id": "4.632",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.078272132968975,
+      28.708639335155127,
+      0.2504535549482907
+    ],
+    "tolerans": [
+      0.0612,
+      0.51,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (3,0 kg) på ett friktionsfritt plan med lutningen 34° är via en trissa förbunden med en hängande kloss (5,0 kg).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (3,0 kg) på ett friktionsfritt plan med lutningen 34° är via en trissa förbunden med en hängande kloss (5,0 kg).</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{5{,}0\\cdot9{,}82-3{,}0\\cdot9{,}82\\sin34^\\circ}{8{,}0}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\) m/s²</p>",
+        "ledtrad": "<p>Se systemet som en helhet.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i snöret.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (3,0 kg) på ett friktionsfritt plan med lutningen 34° är via en trissa förbunden med en hängande kloss (5,0 kg).</p>Accelerationen är 4,1 m/s².<p>Bestäm spännkraften i snöret.</p>",
+        "s": "<p>\\(F_S=5{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(29\\) N</p>",
+        "ledtrad": "<p>Frilägg den hängande klossen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Klossarna byter plats. Bestäm den nya accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (3,0 kg) på ett friktionsfritt plan med lutningen 34° är via en trissa förbunden med en hängande kloss (5,0 kg).</p><p>Klossarna byter plats. Bestäm den nya accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{3{,}0\\cdot9{,}82-5{,}0\\cdot9{,}82\\sin34^\\circ}{8{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}25\\) m/s²</p>",
+        "ledtrad": "<p>Jämför de drivande krafterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg båda klossarna.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "vajer snett vid acceleration",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En betongklump hänger i en vajer i en kran och förs i sidled med konstant acceleration. Vajern bildar då 5,0° med lodlinjen. Bestäm accelerationen.</p>",
+    "s": "<p>Vajerns vågräta komposant ger accelerationen: \\(a=g\\tan5{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}86\\) m/s²</p>",
+    "id": "4.643",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8591386758245738,
+    "tolerans": 0.0129,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rita krafttriangeln.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "4.299",
     "kap": 4,
     "omr": "moment",
@@ -123166,6 +123607,559 @@ window.BANK = [
     ]
   },
   {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "E",
+    "typ": "låda i rep",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda med massan 50 kg hänger i ett rep. Hur stor är spännkraften när lådan</p><ol type=\"a\"><li>hänger stilla?</li><li>rör sig uppåt och accelererar med 5,0 m/s²?</li><li>rör sig uppåt men bromsar med 5,0 m/s²?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_S=50\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(491\\) N</p></li><li><p>\\(F_S=50(9{,}82+5{,}0)\\).</p><p><strong>Svar:</strong> \\(741\\) N</p></li><li><p>\\(F_S=50(9{,}82-5{,}0)\\).</p><p><strong>Svar:</strong> \\(241\\) N</p></li></ol>",
+    "id": "4.636",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      491.0,
+      741.0,
+      241.0
+    ],
+    "tolerans": [
+      7.36,
+      11.1,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda med massan 50 kg hänger i ett rep. Hur stor är spännkraften när lådan</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "hänger stilla?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda med massan 50 kg hänger i ett rep. Hur stor är spännkraften när lådan</p><p>hänger stilla?</p>",
+        "s": "<p>\\(F_S=50\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(491\\) N</p>",
+        "ledtrad": "<p>Jämvikt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "rör sig uppåt och accelererar med 5,0 m/s²?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda med massan 50 kg hänger i ett rep. Hur stor är spännkraften när lådan</p><p>rör sig uppåt och accelererar med 5,0 m/s²?</p>",
+        "s": "<p>\\(F_S=50(9{,}82+5{,}0)\\).</p><p><strong>Svar:</strong> \\(741\\) N</p>",
+        "ledtrad": "<p>\\(F_S-mg=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "rör sig uppåt men bromsar med 5,0 m/s²?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda med massan 50 kg hänger i ett rep. Hur stor är spännkraften när lådan</p><p>rör sig uppåt men bromsar med 5,0 m/s²?</p>",
+        "s": "<p>\\(F_S=50(9{,}82-5{,}0)\\).</p><p><strong>Svar:</strong> \\(241\\) N</p>",
+        "ledtrad": "<p>Accelerationen är riktad nedåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Accelerationens riktning avgör, inte rörelsens.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "E",
+    "typ": "största acceleration för hiss",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (2 125 kg) hänger i en kabel som tål 21 750 N. Vilken är den största accelerationen uppåt?</p>",
+    "s": "<p>\\(a=\\dfrac{21\\,750}{2\\,125}-9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}415\\) m/s²</p>",
+    "id": "4.637",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4152941176470577,
+    "tolerans": 0.00623,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F_S-mg=ma\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "E",
+    "typ": "hissens massa",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss accelererar nedåt med 0,75 m/s². Spännkraften i linan är 19 kN. Beräkna hissens massa.</p>",
+    "s": "<p>\\(mg-F_S=ma\\iff m=\\dfrac{19\\,000}{9{,}82-0{,}75}\\).</p><p><strong>Svar:</strong> \\(2\\,095\\) kg</p>",
+    "id": "4.638",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2094.8180815876517,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Accelerationen är riktad nedåt.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "C",
+    "typ": "hink som sänks",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hink (14,0 kg) sänks nedåt i ett rep med spännkraften 163 N. Hur stor är hinkens acceleration (positiv uppåt)?</p>",
+    "s": "<p>\\(a=\\dfrac{163-14{,}0\\cdot9{,}82}{14{,}0}\\), alltså uppåt: hinken bromsar.</p><p><strong>Svar:</strong> \\(1{,}8\\) m/s²</p>",
+    "id": "4.639",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.8228571428571416,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför spännkraften med tyngden.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "E",
+    "typ": "hisskabelns krafter",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (4 850 kg) får ha accelerationen högst 0,67 m/s², uppåt eller nedåt.</p><ol type=\"a\"><li>Hur stor är den största kraften i kabeln?</li><li>Hur stor är den minsta kraften i kabeln?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=4\\,850(9{,}82+0{,}67)\\).</p><p><strong>Svar:</strong> \\(50\\,876\\) N</p></li><li><p>\\(F=4\\,850(9{,}82-0{,}67)\\).</p><p><strong>Svar:</strong> \\(44\\,378\\) N</p></li></ol>",
+    "id": "4.640",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50876.5,
+      44377.5
+    ],
+    "tolerans": [
+      763.0,
+      666.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (4 850 kg) får ha accelerationen högst 0,67 m/s², uppåt eller nedåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är den största kraften i kabeln?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (4 850 kg) får ha accelerationen högst 0,67 m/s², uppåt eller nedåt.</p><p>Hur stor är den största kraften i kabeln?</p>",
+        "s": "<p>\\(F=4\\,850(9{,}82+0{,}67)\\).</p><p><strong>Svar:</strong> \\(50\\,876\\) N</p>",
+        "ledtrad": "<p>Acceleration uppåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den minsta kraften i kabeln?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (4 850 kg) får ha accelerationen högst 0,67 m/s², uppåt eller nedåt.</p><p>Hur stor är den minsta kraften i kabeln?</p>",
+        "s": "<p>\\(F=4\\,850(9{,}82-0{,}67)\\).</p><p><strong>Svar:</strong> \\(44\\,378\\) N</p>",
+        "ledtrad": "<p>Acceleration nedåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F_S-mg=ma\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "E",
+    "typ": "betongblock hissas",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett betongblock (3,2 ton) hissas upp från vila till farten 0,55 m/s på 1,2 s. Bestäm spännkraften i linan under accelerationen.</p>",
+    "s": "<p>\\(a=\\dfrac{0{,}55}{1{,}2}\\). \\(F_S=3\\,200(9{,}82+a)\\).</p><p><strong>Svar:</strong> \\(32\\,891\\) N</p>",
+    "id": "4.641",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "numeriskt",
+    "rättSvar": 32890.66666666667,
+    "tolerans": 493.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm accelerationen först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "C",
+    "typ": "dra upp fisk",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En fisk (5,0 kg) ska dras upp 1,8 m till en brygga från vila. Linan tål 54 N. Hur lång tid tar det som kortast?</p>",
+    "s": "<p>\\(a=\\dfrac{54}{5{,}0}-9{,}82\\approx0{,}98\\) m/s². \\(t=\\sqrt{\\dfrac{2s}{a}}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) s</p>",
+    "id": "4.642",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.9166296949998194,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm största möjliga acceleration.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "C",
+    "typ": "Johanna på våg i hiss",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Johanna (65 kg) står på en våg i en hiss. Hissen accelererar från vila till 10,0 m/s uppåt på 4,0 s, åker med konstant fart och bromsar sedan till stillastående på 3,0 s. Vågen visar normalkraften delad med \\(g\\), i kg.</p><ol type=\"a\"><li>Vad visar vågen när hissen accelererar?</li><li>Vad visar vågen när hissen bromsar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=2{,}5\\) m/s². \\(F_N=65(9{,}82+2{,}5)\\), dela med 9,82.</p><p><strong>Svar:</strong> \\(81{,}5\\) kg</p></li><li><p>\\(a=-3{,}33\\) m/s². \\(F_N=65(9{,}82-3{,}33)\\), dela med 9,82.</p><p><strong>Svar:</strong> \\(42{,}9\\) kg</p></li></ol>",
+    "id": "4.644",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      81.54786150712832,
+      42.93618465716225
+    ],
+    "tolerans": [
+      1.22,
+      0.644
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Johanna (65 kg) står på en våg i en hiss. Hissen accelererar från vila till 10,0 m/s uppåt på 4,0 s, åker med konstant fart och bromsar sedan till stillastående på 3,0 s. Vågen visar normalkraften delad med \\(g\\), i kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vad visar vågen när hissen accelererar?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Johanna (65 kg) står på en våg i en hiss. Hissen accelererar från vila till 10,0 m/s uppåt på 4,0 s, åker med konstant fart och bromsar sedan till stillastående på 3,0 s. Vågen visar normalkraften delad med \\(g\\), i kg.</p><p>Vad visar vågen när hissen accelererar?</p>",
+        "s": "<p>\\(a=2{,}5\\) m/s². \\(F_N=65(9{,}82+2{,}5)\\), dela med 9,82.</p><p><strong>Svar:</strong> \\(81{,}5\\) kg</p>",
+        "ledtrad": "<p>\\(F_N-mg=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vad visar vågen när hissen bromsar?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Johanna (65 kg) står på en våg i en hiss. Hissen accelererar från vila till 10,0 m/s uppåt på 4,0 s, åker med konstant fart och bromsar sedan till stillastående på 3,0 s. Vågen visar normalkraften delad med \\(g\\), i kg.</p><p>Vad visar vågen när hissen bromsar?</p>",
+        "s": "<p>\\(a=-3{,}33\\) m/s². \\(F_N=65(9{,}82-3{,}33)\\), dela med 9,82.</p><p><strong>Svar:</strong> \\(42{,}9\\) kg</p>",
+        "ledtrad": "<p>Accelerationen är riktad nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Vågen mäter normalkraften.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "C",
+    "typ": "vågen visar 75 %",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>När en hiss startar visar en våg en kort stund bara 75 % av personens vanliga vikt. Bestäm accelerationen (positiv uppåt).</p>",
+    "s": "<p>\\(F_N=0{,}75mg\\), så \\(ma=0{,}75mg-mg\\iff a=-0{,}25g\\).</p><p><strong>Svar:</strong> \\(-2{,}5\\) m/s²</p>",
+    "id": "4.645",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "numeriskt",
+    "rättSvar": -2.455,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F_N-mg=ma\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "C",
+    "typ": "två vikter i hisstak",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Två vikter (3,50 kg var) hänger under varandra i snören från taket i en hiss: det övre snöret bär båda vikterna.</p><ol type=\"a\"><li>Hissen accelererar uppåt med 1,60 m/s². Hur stor är spännkraften i det övre snöret?</li><li>Snörena tål 115 N. Hur stor får accelerationen uppåt högst vara?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=7{,}00(9{,}82+1{,}60)\\).</p><p><strong>Svar:</strong> \\(80\\) N</p></li><li><p>Det övre snöret går först: \\(a=\\dfrac{115}{7{,}00}-9{,}82\\).</p><p><strong>Svar:</strong> \\(6{,}6\\) m/s²</p></li></ol>",
+    "id": "4.646",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      79.94,
+      6.608571428571427
+    ],
+    "tolerans": [
+      1.2,
+      0.0991
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Två vikter (3,50 kg var) hänger under varandra i snören från taket i en hiss: det övre snöret bär båda vikterna.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hissen accelererar uppåt med 1,60 m/s². Hur stor är spännkraften i det övre snöret?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Två vikter (3,50 kg var) hänger under varandra i snören från taket i en hiss: det övre snöret bär båda vikterna.</p><p>Hissen accelererar uppåt med 1,60 m/s². Hur stor är spännkraften i det övre snöret?</p>",
+        "s": "<p>\\(F=7{,}00(9{,}82+1{,}60)\\).</p><p><strong>Svar:</strong> \\(80\\) N</p>",
+        "ledtrad": "<p>Det övre snöret accelererar båda vikterna.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Snörena tål 115 N. Hur stor får accelerationen uppåt högst vara?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Två vikter (3,50 kg var) hänger under varandra i snören från taket i en hiss: det övre snöret bär båda vikterna.</p><p>Snörena tål 115 N. Hur stor får accelerationen uppåt högst vara?</p>",
+        "s": "<p>Det övre snöret går först: \\(a=\\dfrac{115}{7{,}00}-9{,}82\\).</p><p><strong>Svar:</strong> \\(6{,}6\\) m/s²</p>",
+        "ledtrad": "<p>Vilket snöre har störst kraft?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg vikterna.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "normalkraft",
+    "niva": "E",
+    "typ": "fjäder i hiss",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vikt (2,00 kg) hänger i en fjäder (405 N/m) i taket på en hiss. Hur mycket är fjädern förlängd när hissen</p><ol type=\"a\"><li>står stilla?</li><li>accelererar uppåt med 3,2 m/s²?</li><li>accelererar nedåt med 2,5 m/s²?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(x=\\dfrac{2{,}00\\cdot9{,}82}{405}\\).</p><p><strong>Svar:</strong> \\(0{,}048\\) m</p></li><li><p>\\(x=\\dfrac{2{,}00(9{,}82+3{,}2)}{405}\\).</p><p><strong>Svar:</strong> \\(0{,}064\\) m</p></li><li><p>\\(x=\\dfrac{2{,}00(9{,}82-2{,}5)}{405}\\).</p><p><strong>Svar:</strong> \\(0{,}036\\) m</p></li></ol>",
+    "id": "4.647",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Normalkraft i hiss",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.04849382716049383,
+      0.0642962962962963,
+      0.03614814814814815
+    ],
+    "tolerans": [
+      0.000727,
+      0.000964,
+      0.000542
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vikt (2,00 kg) hänger i en fjäder (405 N/m) i taket på en hiss. Hur mycket är fjädern förlängd när hissen</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "står stilla?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vikt (2,00 kg) hänger i en fjäder (405 N/m) i taket på en hiss. Hur mycket är fjädern förlängd när hissen</p><p>står stilla?</p>",
+        "s": "<p>\\(x=\\dfrac{2{,}00\\cdot9{,}82}{405}\\).</p><p><strong>Svar:</strong> \\(0{,}048\\) m</p>",
+        "ledtrad": "<p>Jämvikt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "accelererar uppåt med 3,2 m/s²?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vikt (2,00 kg) hänger i en fjäder (405 N/m) i taket på en hiss. Hur mycket är fjädern förlängd när hissen</p><p>accelererar uppåt med 3,2 m/s²?</p>",
+        "s": "<p>\\(x=\\dfrac{2{,}00(9{,}82+3{,}2)}{405}\\).</p><p><strong>Svar:</strong> \\(0{,}064\\) m</p>",
+        "ledtrad": "<p>\\(kx-mg=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "accelererar nedåt med 2,5 m/s²?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vikt (2,00 kg) hänger i en fjäder (405 N/m) i taket på en hiss. Hur mycket är fjädern förlängd när hissen</p><p>accelererar nedåt med 2,5 m/s²?</p>",
+        "s": "<p>\\(x=\\dfrac{2{,}00(9{,}82-2{,}5)}{405}\\).</p><p><strong>Svar:</strong> \\(0{,}036\\) m</p>",
+        "ledtrad": "<p>Accelerationen är riktad nedåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(kx-mg=ma\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "normalkraft__normalkraft_i_hiss",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "4.485",
     "kap": 4,
     "omr": "lutande_plan",
@@ -123412,6 +124406,2686 @@ window.BANK = [
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "kg"
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "skidåkare med konstant fart",
+    "poang": "(3/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p><ol type=\"a\"><li>Hur stor är normalkraften?</li><li>Hur stor är friktionskraften?</li><li>Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N=105\\cdot9{,}82\\cos22^\\circ\\).</p><p><strong>Svar:</strong> \\(956\\) N</p></li><li><p>Konstant fart: \\(F_{fr}=105\\cdot9{,}82\\sin22^\\circ\\).</p><p><strong>Svar:</strong> \\(386\\) N</p></li><li><p>\\(\\mu=\\dfrac{F_{fr}}{F_N}=\\tan22^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}40\\)</p></li></ol>",
+    "id": "4.578",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      956.0192724438147,
+      386.2568584711469,
+      0.4040262258351568
+    ],
+    "tolerans": [
+      14.3,
+      5.79,
+      0.00606
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är normalkraften?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p><p>Hur stor är normalkraften?</p>",
+        "s": "<p>\\(F_N=105\\cdot9{,}82\\cos22^\\circ\\).</p><p><strong>Svar:</strong> \\(956\\) N</p>",
+        "ledtrad": "<p>Normalkraften tar ut den vinkelräta komposanten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är friktionskraften?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p><p>Hur stor är friktionskraften?</p>",
+        "s": "<p>Konstant fart: \\(F_{fr}=105\\cdot9{,}82\\sin22^\\circ\\).</p><p><strong>Svar:</strong> \\(386\\) N</p>",
+        "ledtrad": "<p>Friktionen tar ut komposanten längs planet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p><p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}=\\tan22^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}40\\)</p>",
+        "ledtrad": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Vid konstant fart är summan av krafterna noll.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "puck med konstant fart",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p><ol type=\"a\"><li>Bestäm normalkraften.</li><li>Bestäm friktionskraften.</li><li>Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N=0{,}180\\cdot9{,}82\\cos15{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}71\\) N</p></li><li><p>\\(F_{fr}=0{,}180\\cdot9{,}82\\sin15{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}457\\) N</p></li><li><p>\\(\\mu=\\tan15{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}268\\)</p></li></ol>",
+    "id": "4.579",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.7073704905485572,
+      0.45748854412321566,
+      0.2679491924311227
+    ],
+    "tolerans": [
+      0.0256,
+      0.00686,
+      0.00402
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm normalkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p><p>Bestäm normalkraften.</p>",
+        "s": "<p>\\(F_N=0{,}180\\cdot9{,}82\\cos15{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}71\\) N</p>",
+        "ledtrad": "<p>Vinkelräta komposanten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p><p>Bestäm friktionskraften.</p>",
+        "s": "<p>\\(F_{fr}=0{,}180\\cdot9{,}82\\sin15{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}457\\) N</p>",
+        "ledtrad": "<p>Komposanten längs planet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p><p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\tan15{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}268\\)</p>",
+        "ledtrad": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Konstant fart: jämvikt.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "skjuta låda uppför",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Greger skjuter en låda (75 kg) med konstant fart uppför ett plan med lutningen 28°, parallellt med planet. Friktionstalet är 0,35.</p><ol type=\"a\"><li>Hur stor är friktionskraften?</li><li>Hur stor kraft måste han skjuta med?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_{fr}=0{,}35\\cdot75\\cdot9{,}82\\cos28^\\circ\\).</p><p><strong>Svar:</strong> \\(228\\) N</p></li><li><p>Både friktionen och tyngdens komposant verkar nedåt: \\(F=75\\cdot9{,}82\\sin28^\\circ+F_{fr}\\).</p><p><strong>Svar:</strong> \\(573\\) N</p></li></ol>",
+    "id": "4.580",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      227.60181574920995,
+      573.3676217410184
+    ],
+    "tolerans": [
+      5.1,
+      8.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Greger skjuter en låda (75 kg) med konstant fart uppför ett plan med lutningen 28°, parallellt med planet. Friktionstalet är 0,35.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är friktionskraften?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Greger skjuter en låda (75 kg) med konstant fart uppför ett plan med lutningen 28°, parallellt med planet. Friktionstalet är 0,35.</p><p>Hur stor är friktionskraften?</p>",
+        "s": "<p>\\(F_{fr}=0{,}35\\cdot75\\cdot9{,}82\\cos28^\\circ\\).</p><p><strong>Svar:</strong> \\(228\\) N</p>",
+        "ledtrad": "<p>\\(F_{fr}=\\mu mg\\cos\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor kraft måste han skjuta med?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Greger skjuter en låda (75 kg) med konstant fart uppför ett plan med lutningen 28°, parallellt med planet. Friktionstalet är 0,35.</p>Friktionskraften är 228 N.<p>Hur stor kraft måste han skjuta med?</p>",
+        "s": "<p>Både friktionen och tyngdens komposant verkar nedåt: \\(F=75\\cdot9{,}82\\sin28^\\circ+F_{fr}\\).</p><p><strong>Svar:</strong> \\(573\\) N</p>",
+        "ledtrad": "<p>Vilka krafter verkar nedför planet?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Konstant fart: jämvikt längs planet.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "bil parkerad i brant backe",
+    "poang": "(0/1/0)",
+    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil står parkerad i en backe med lutningen 38°. Vilket är det minsta friktionstalet som krävs?</p>",
+    "s": "<p>Precis på gränsen är \\(\\mu mg\\cos38^\\circ=mg\\sin38^\\circ\\iff\\mu=\\tan38^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}78\\) </p>",
+    "id": "4.581",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilofriktion och friktionsgräns på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.7812856265067174,
+    "tolerans": 0.0117,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt största friktionen lika med komposanten längs planet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "kloss när lutningen ökar",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p><ol type=\"a\"><li>Hur stor är friktionskraften vid lutningen 10°?</li><li>Vilken acceleration får klossen vid lutningen 35°?</li><li>Vid vilken lutning glider klossen med konstant fart?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Komposanten längs planet \\(2{,}0\\cdot9{,}82\\sin10^\\circ\\approx3{,}4\\) N är mindre än största friktionen \\(\\approx7{,}0\\) N, så klossen ligger still och friktionen är 3,4 N.</p><p><strong>Svar:</strong> \\(3{,}4\\) N</p></li><li><p>\\(a=9{,}82(\\sin35^\\circ-0{,}36\\cos35^\\circ)\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) m/s²</p></li><li><p>\\(\\tan\\alpha=0{,}36\\).</p><p><strong>Svar:</strong> \\(20\\) °</p></li></ol>",
+    "id": "4.582",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilofriktion och friktionsgräns på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.410450209378512,
+      2.7366542979968287,
+      19.798876354524932
+    ],
+    "tolerans": [
+      0.0512,
+      0.051,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är friktionskraften vid lutningen 10°?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p><p>Hur stor är friktionskraften vid lutningen 10°?</p>",
+        "s": "<p>Komposanten längs planet \\(2{,}0\\cdot9{,}82\\sin10^\\circ\\approx3{,}4\\) N är mindre än största friktionen \\(\\approx7{,}0\\) N, så klossen ligger still och friktionen är 3,4 N.</p><p><strong>Svar:</strong> \\(3{,}4\\) N</p>",
+        "ledtrad": "<p>Jämför med största möjliga friktion.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får klossen vid lutningen 35°?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p><p>Vilken acceleration får klossen vid lutningen 35°?</p>",
+        "s": "<p>\\(a=9{,}82(\\sin35^\\circ-0{,}36\\cos35^\\circ)\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) m/s²</p>",
+        "ledtrad": "<p>Nu glider klossen.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vid vilken lutning glider klossen med konstant fart?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p><p>Vid vilken lutning glider klossen med konstant fart?</p>",
+        "s": "<p>\\(\\tan\\alpha=0{,}36\\).</p><p><strong>Svar:</strong> \\(20\\) °</p>",
+        "ledtrad": "<p>\\(\\mu=\\tan\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Friktionen är bara så stor som behövs, upp till \\(\\mu F_N\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "dra kloss uppför",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p><ol type=\"a\"><li>Hur stor är friktionskraften?</li><li>Bestäm friktionstalet.</li><li>Klossen släpps och glider nedför. Vilken acceleration får den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_{fr}=18-5{,}0\\cdot9{,}82\\sin15^\\circ\\).</p><p><strong>Svar:</strong> \\(5{,}3\\) N</p></li><li><p>\\(\\mu=\\dfrac{F_{fr}}{5{,}0\\cdot9{,}82\\cos15^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}11\\)</p></li><li><p>\\(a=9{,}82(\\sin15^\\circ-0{,}11\\cos15^\\circ)\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m/s²</p></li></ol>",
+    "id": "4.583",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.291984885466231,
+      0.1115817902039383,
+      1.4832060458135075
+    ],
+    "tolerans": [
+      0.0794,
+      0.0051,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      null,
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är friktionskraften?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p><p>Hur stor är friktionskraften?</p>",
+        "s": "<p>\\(F_{fr}=18-5{,}0\\cdot9{,}82\\sin15^\\circ\\).</p><p><strong>Svar:</strong> \\(5{,}3\\) N</p>",
+        "ledtrad": "<p>Dragkraften tar ut tyngdens komposant och friktionen.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p>Friktionskraften är 5,3 N.<p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{F_{fr}}{5{,}0\\cdot9{,}82\\cos15^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}11\\)</p>",
+        "ledtrad": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Klossen släpps och glider nedför. Vilken acceleration får den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p>Friktionstalet är 0,11.<p>Klossen släpps och glider nedför. Vilken acceleration får den?</p>",
+        "s": "<p>\\(a=9{,}82(\\sin15^\\circ-0{,}11\\cos15^\\circ)\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m/s²</p>",
+        "ledtrad": "<p>Nu verkar friktionen uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionen motverkar alltid rörelsen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "skjuta låda i backe",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Peter skjuter en låda (55 kg) med konstant fart uppför en backe med lutningen 20°, parallellt med backen.</p><ol type=\"a\"><li>Hur stor kraft krävs utan friktion?</li><li>Hur stor kraft krävs om friktionstalet är 0,35?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=55\\cdot9{,}82\\sin20^\\circ\\).</p><p><strong>Svar:</strong> \\(185\\) N</p></li><li><p>\\(F=55\\cdot9{,}82(\\sin20^\\circ+0{,}35\\cos20^\\circ)\\).</p><p><strong>Svar:</strong> \\(362\\) N</p></li></ol>",
+    "id": "4.584",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      184.72507941019367,
+      362.3598739804579
+    ],
+    "tolerans": [
+      5.1,
+      5.44
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Peter skjuter en låda (55 kg) med konstant fart uppför en backe med lutningen 20°, parallellt med backen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor kraft krävs utan friktion?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Peter skjuter en låda (55 kg) med konstant fart uppför en backe med lutningen 20°, parallellt med backen.</p><p>Hur stor kraft krävs utan friktion?</p>",
+        "s": "<p>\\(F=55\\cdot9{,}82\\sin20^\\circ\\).</p><p><strong>Svar:</strong> \\(185\\) N</p>",
+        "ledtrad": "<p>Komposanten längs planet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor kraft krävs om friktionstalet är 0,35?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Peter skjuter en låda (55 kg) med konstant fart uppför en backe med lutningen 20°, parallellt med backen.</p><p>Hur stor kraft krävs om friktionstalet är 0,35?</p>",
+        "s": "<p>\\(F=55\\cdot9{,}82(\\sin20^\\circ+0{,}35\\cos20^\\circ)\\).</p><p><strong>Svar:</strong> \\(362\\) N</p>",
+        "ledtrad": "<p>Lägg till friktionen.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Konstant fart: jämvikt längs planet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "pulka i backe",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p><ol type=\"a\"><li>Vilken acceleration får hon utan friktion?</li><li>Vilken acceleration får hon om friktionstalet är 0,15?</li><li>Vilket friktionstal ger konstant fart?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=9{,}82\\sin25^\\circ\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) m/s²</p></li><li><p>\\(a=9{,}82(\\sin25^\\circ-0{,}15\\cos25^\\circ)\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m/s²</p></li><li><p>\\(\\mu=\\tan25^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}47\\)</p></li></ol>",
+    "id": "4.585",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.150111330293669,
+      2.8151199599886834,
+      0.4663076581549986
+    ],
+    "tolerans": [
+      0.0623,
+      0.051,
+      0.00699
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken acceleration får hon utan friktion?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p><p>Vilken acceleration får hon utan friktion?</p>",
+        "s": "<p>\\(a=9{,}82\\sin25^\\circ\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får hon om friktionstalet är 0,15?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p><p>Vilken acceleration får hon om friktionstalet är 0,15?</p>",
+        "s": "<p>\\(a=9{,}82(\\sin25^\\circ-0{,}15\\cos25^\\circ)\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m/s²</p>",
+        "ledtrad": "<p>Dra av friktionen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilket friktionstal ger konstant fart?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p><p>Vilket friktionstal ger konstant fart?</p>",
+        "s": "<p>\\(\\mu=\\tan25^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}47\\)</p>",
+        "ledtrad": "<p>\\(\\mu=\\tan\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Accelerationen beror inte på massan.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "kälke i backe",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Hans åker kälke nedför en backe med lutningen 20°. Tyngdens komposant längs backen är 136,8 N och friktionskraften 20,0 N.</p><ol type=\"a\"><li>Vilken massa har Hans och kälken tillsammans?</li><li>Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m=\\dfrac{136{,}8}{9{,}82\\sin20^\\circ}\\).</p><p><strong>Svar:</strong> \\(41\\) kg</p></li><li><p>\\(\\mu=\\dfrac{20{,}0}{m\\cdot9{,}82\\cos20^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}053\\)</p></li></ol>",
+    "id": "4.586",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40.73079856846338,
+      0.05321202255353835
+    ],
+    "tolerans": [
+      0.611,
+      0.000798
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Hans åker kälke nedför en backe med lutningen 20°. Tyngdens komposant längs backen är 136,8 N och friktionskraften 20,0 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken massa har Hans och kälken tillsammans?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Hans åker kälke nedför en backe med lutningen 20°. Tyngdens komposant längs backen är 136,8 N och friktionskraften 20,0 N.</p><p>Vilken massa har Hans och kälken tillsammans?</p>",
+        "s": "<p>\\(m=\\dfrac{136{,}8}{9{,}82\\sin20^\\circ}\\).</p><p><strong>Svar:</strong> \\(41\\) kg</p>",
+        "ledtrad": "<p>\\(F_\\parallel=mg\\sin\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Hans åker kälke nedför en backe med lutningen 20°. Tyngdens komposant längs backen är 136,8 N och friktionskraften 20,0 N.</p>Massan är 40,7 kg.<p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{20{,}0}{m\\cdot9{,}82\\cos20^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}053\\)</p>",
+        "ledtrad": "<p>Bestäm normalkraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Komposanterna av tyngden.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "bil i backe",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1,2 ton) står stilla i en backe med lutningen 12°. Hur stor är friktionskraften?</p>",
+    "s": "<p>\\(F_{fr}=1\\,200\\cdot9{,}82\\sin12^\\circ\\).</p><p><strong>Svar:</strong> \\(2\\,450\\) N</p>",
+    "id": "4.587",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilofriktion och friktionsgräns på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2450.031364596476,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Friktionen tar ut komposanten längs backen.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "största lutning för lastbil",
+    "poang": "(1/0/0)",
+    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Friktionstalet mellan en lastbils däck och en backe är 0,85. Hur brant får backen högst vara om lastbilen ska stå still?</p>",
+    "s": "<p>\\(\\tan\\alpha=0{,}85\\).</p><p><strong>Svar:</strong> \\(40\\) °</p>",
+    "id": "4.588",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilofriktion och friktionsgräns på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 40.36453657309736,
+    "tolerans": 0.605,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\mu=\\tan\\alpha\\) vid gränsen.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°",
+    "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "låda som släpps på plan",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (6,7 kg) släpps på ett plan med lutningen 29°. Friktionstalet är 0,18. Beräkna accelerationen.</p>",
+    "s": "<p>\\(a=9{,}82(\\sin29^\\circ-0{,}18\\cos29^\\circ)\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m/s²</p>",
+    "id": "4.589",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.2148526764794343,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(a=g(\\sin\\alpha-\\mu\\cos\\alpha)\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "cyklist som rullar",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (80 kg) rullar med konstant fart nedför en backe med lutningen 15°. Bortse från luftmotståndet.</p><ol type=\"a\"><li>Beräkna friktionskraften.</li><li>Beräkna friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_{fr}=80\\cdot9{,}82\\sin15^\\circ\\).</p><p><strong>Svar:</strong> \\(203\\) N</p></li><li><p>\\(\\mu=\\tan15^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}27\\)</p></li></ol>",
+    "id": "4.590",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      203.3282418325403,
+      0.2679491924311227
+    ],
+    "tolerans": [
+      5.1,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (80 kg) rullar med konstant fart nedför en backe med lutningen 15°. Bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna friktionskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (80 kg) rullar med konstant fart nedför en backe med lutningen 15°. Bortse från luftmotståndet.</p><p>Beräkna friktionskraften.</p>",
+        "s": "<p>\\(F_{fr}=80\\cdot9{,}82\\sin15^\\circ\\).</p><p><strong>Svar:</strong> \\(203\\) N</p>",
+        "ledtrad": "<p>Konstant fart.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (80 kg) rullar med konstant fart nedför en backe med lutningen 15°. Bortse från luftmotståndet.</p><p>Beräkna friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\tan15^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}27\\)</p>",
+        "ledtrad": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Konstant fart: jämvikt.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "cyklist som trampar uppför",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (85 kg) accelererar uppför en backe med lutningen 14° med 1,1 m/s². Bortse från rull- och luftmotstånd. Hur stor är friktionskraften från vägen på däcken?</p>",
+    "s": "<p>Friktionen driver cyklisten uppför: \\(F_{fr}-mg\\sin14^\\circ=ma\\iff F_{fr}=85(1{,}1+9{,}82\\sin14^\\circ)\\).</p><p><strong>Svar:</strong> \\(295\\) N</p>",
+    "id": "4.591",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 295.43220625704265,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Det är friktionen som driver cykeln framåt.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "patient i lutande läge",
+    "poang": "(1/0/0)",
+    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En patient läggs på ett lutande underlag med friktionstalet 1,20. Vilken är den största vinkeln innan patienten glider?</p>",
+    "s": "<p>\\(\\tan\\alpha=1{,}20\\).</p><p><strong>Svar:</strong> \\(50\\) °</p>",
+    "id": "4.592",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilofriktion och friktionsgräns på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 50.19442890773481,
+    "tolerans": 0.753,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\mu=\\tan\\alpha\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°",
+    "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "dra låda med rep",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Fredrik drar en låda (30 kg) uppför ett plan med lutningen 30° i ett rep parallellt med planet. Friktionstalet är 0,30.</p><ol type=\"a\"><li>Hur stor kraft krävs för konstant fart?</li><li>Hur stor kraft ger accelerationen 0,50 m/s² uppför planet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=30\\cdot9{,}82(\\sin30^\\circ+0{,}30\\cos30^\\circ)\\).</p><p><strong>Svar:</strong> \\(224\\) N</p></li><li><p>Lägg till \\(ma=30\\cdot0{,}50\\).</p><p><strong>Svar:</strong> \\(239\\) N</p></li></ol>",
+    "id": "4.593",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      223.83932518646867,
+      238.83932518646867
+    ],
+    "tolerans": [
+      5.1,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Fredrik drar en låda (30 kg) uppför ett plan med lutningen 30° i ett rep parallellt med planet. Friktionstalet är 0,30.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor kraft krävs för konstant fart?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Fredrik drar en låda (30 kg) uppför ett plan med lutningen 30° i ett rep parallellt med planet. Friktionstalet är 0,30.</p><p>Hur stor kraft krävs för konstant fart?</p>",
+        "s": "<p>\\(F=30\\cdot9{,}82(\\sin30^\\circ+0{,}30\\cos30^\\circ)\\).</p><p><strong>Svar:</strong> \\(224\\) N</p>",
+        "ledtrad": "<p>Friktion och tyngdkomposant verkar nedåt.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor kraft ger accelerationen 0,50 m/s² uppför planet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Fredrik drar en låda (30 kg) uppför ett plan med lutningen 30° i ett rep parallellt med planet. Friktionstalet är 0,30.</p>Vid konstant fart krävs 224 N.<p>Hur stor kraft ger accelerationen 0,50 m/s² uppför planet?</p>",
+        "s": "<p>Lägg till \\(ma=30\\cdot0{,}50\\).</p><p><strong>Svar:</strong> \\(239\\) N</p>",
+        "ledtrad": "<p>Newtons andra lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Newtons andra lag längs planet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "replift på plan mark",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina (75 kg) dras av en replift med konstant fart uppför en backe med lutningen 40°. Friktionstalet är 0,13. Hur stor acceleration fick hon när hon tog tag i repet på plan mark (samma kraft, parallellt med marken)?</p>",
+    "s": "<p>Kraften i backen: \\(F=75\\cdot9{,}82(\\sin40^\\circ+0{,}13\\cos40^\\circ)\\approx547\\) N. På plan mark: \\(a=\\dfrac{547-0{,}13\\cdot75\\cdot9{,}82}{75}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) m/s²</p>",
+    "id": "4.594",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.013506663207503,
+    "tolerans": 0.0902,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm repkraften i backen först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "friktionstal ur två krafter",
+    "poang": "(0/1/2)",
+    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss på ett plan med lutningen 15° dras med konstant fart uppför planet med kraften \\(F_1\\) och nedför planet med kraften \\(F_2\\), båda parallella med planet. Det gäller att \\(F_1=6F_2\\). Bestäm friktionstalet.</p>",
+    "s": "<p>\\(F_1=mg(\\sin15^\\circ+\\mu\\cos15^\\circ)\\) och \\(F_2=mg(\\mu\\cos15^\\circ-\\sin15^\\circ)\\). \\(F_1=6F_2\\) ger \\(7\\sin15^\\circ=5\\mu\\cos15^\\circ\\iff\\mu=1{,}4\\tan15^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}38\\) </p>",
+    "id": "4.595",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.37512886940357176,
+    "tolerans": 0.00563,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Teckna båda krafterna och använd villkoret.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "vågrät kraft uppför ramp",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (40 kg) skjuts med konstant fart uppför ett plan med lutningen 30° med en vågrät kraft. Friktionstalet är 0,40. Hur stor är kraften?</p>",
+    "s": "<p>\\(F\\cos30^\\circ=mg\\sin30^\\circ+0{,}40(mg\\cos30^\\circ+F\\sin30^\\circ)\\iff F=\\dfrac{mg(\\sin30^\\circ+0{,}40\\cos30^\\circ)}{\\cos30^\\circ-0{,}40\\sin30^\\circ}\\).</p><p><strong>Svar:</strong> \\(499\\) N</p>",
+    "id": "4.600",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 499.1850304109661,
+    "tolerans": 7.49,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Den vågräta kraften trycker också lådan mot planet.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "friktionstal ur vågrät kraft",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En vågrät kraft på 250 N skjuter en låda (29 kg) med konstant fart uppför en ramp med lutningen 27°. Bestäm friktionstalet.</p>",
+    "s": "<p>Längs planet: \\(F_{fr}=250\\cos27^\\circ-mg\\sin27^\\circ\\). Vinkelrätt: \\(F_N=mg\\cos27^\\circ+250\\sin27^\\circ\\).</p><p><strong>Svar:</strong> \\(0{,}25\\) </p>",
+    "id": "4.601",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.25450552154835765,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp både tyngden och den vågräta kraften.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "trycka kloss mot planet",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) ligger på ett plan med lutningen 37°. Friktionstalet är 0,50. Med hur stor kraft vinkelrätt mot planet måste man minst trycka för att klossen inte ska glida?</p>",
+    "s": "<p>\\(0{,}50(mg\\cos37^\\circ+F)=mg\\sin37^\\circ\\iff F=\\dfrac{mg\\sin37^\\circ}{0{,}50}-mg\\cos37^\\circ\\).</p><p><strong>Svar:</strong> \\(8{,}0\\) N</p>",
+    "id": "4.602",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilofriktion och friktionsgräns på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.954092692083625,
+    "tolerans": 0.119,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kraften ökar normalkraften.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "dra låda med sned lina",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En man drar en låda (100 kg) med konstant fart uppför ett plan med lutningen 35°. Repet bildar 20° med planet. Friktionstalet är 0,65. Hur stor är kraften?</p>",
+    "s": "<p>\\(F\\cos20^\\circ=mg\\sin35^\\circ+0{,}65(mg\\cos35^\\circ-F\\sin20^\\circ)\\).</p><p><strong>Svar:</strong> \\(935\\) N</p>",
+    "id": "4.603",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 934.6914540347732,
+    "tolerans": 14.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Repet lyfter lådan lite och minskar normalkraften.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "låda dras med sned kraft",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (100 kg) dras uppför ett plan med lutningen 15° med kraften 600 N riktad 20° över planet. Friktionstalet är 0,20.</p><ol type=\"a\"><li>Bestäm friktionskraften.</li><li>Bestäm accelerationen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N=mg\\cos15^\\circ-600\\sin20^\\circ\\). \\(F_{fr}=0{,}20F_N\\).</p><p><strong>Svar:</strong> \\(149\\) N</p></li><li><p>\\(a=\\dfrac{600\\cos20^\\circ-mg\\sin15^\\circ-F_{fr}}{100}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) m/s²</p></li></ol>",
+    "id": "4.604",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      148.66541508409279,
+      1.6098985509677686
+    ],
+    "tolerans": [
+      5.1,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (100 kg) dras uppför ett plan med lutningen 15° med kraften 600 N riktad 20° över planet. Friktionstalet är 0,20.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm friktionskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (100 kg) dras uppför ett plan med lutningen 15° med kraften 600 N riktad 20° över planet. Friktionstalet är 0,20.</p><p>Bestäm friktionskraften.</p>",
+        "s": "<p>\\(F_N=mg\\cos15^\\circ-600\\sin20^\\circ\\). \\(F_{fr}=0{,}20F_N\\).</p><p><strong>Svar:</strong> \\(149\\) N</p>",
+        "ledtrad": "<p>Dragkraften minskar normalkraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (100 kg) dras uppför ett plan med lutningen 15° med kraften 600 N riktad 20° över planet. Friktionstalet är 0,20.</p>Friktionskraften är 149 N.<p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{600\\cos20^\\circ-mg\\sin15^\\circ-F_{fr}}{100}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) m/s²</p>",
+        "ledtrad": "<p>Resultant längs planet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp alla krafter längs och vinkelrätt mot planet.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "kraft för att hålla låda",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (10 kg) ligger på ett plan med lutningen 45°. Friktionstalet är 0,50. En kraft \\(F\\) parallell med planet verkar uppför planet.</p><ol type=\"a\"><li>Vilken är den minsta kraft som hindrar lådan från att glida?</li><li>Vilken är den största kraften innan lådan börjar glida uppåt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Friktionen hjälper uppåt: \\(F=mg(\\sin45^\\circ-0{,}50\\cos45^\\circ)\\).</p><p><strong>Svar:</strong> \\(35\\) N</p></li><li><p>Friktionen verkar nedåt: \\(F=mg(\\sin45^\\circ+0{,}50\\cos45^\\circ)\\).</p><p><strong>Svar:</strong> \\(104\\) N</p></li></ol>",
+    "id": "4.605",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilofriktion och friktionsgräns på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      34.71894295625949,
+      104.15682886877846
+    ],
+    "tolerans": [
+      0.521,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (10 kg) ligger på ett plan med lutningen 45°. Friktionstalet är 0,50. En kraft \\(F\\) parallell med planet verkar uppför planet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken är den minsta kraft som hindrar lådan från att glida?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (10 kg) ligger på ett plan med lutningen 45°. Friktionstalet är 0,50. En kraft \\(F\\) parallell med planet verkar uppför planet.</p><p>Vilken är den minsta kraft som hindrar lådan från att glida?</p>",
+        "s": "<p>Friktionen hjälper uppåt: \\(F=mg(\\sin45^\\circ-0{,}50\\cos45^\\circ)\\).</p><p><strong>Svar:</strong> \\(35\\) N</p>",
+        "ledtrad": "<p>Lådan vill glida nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den största kraften innan lådan börjar glida uppåt?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (10 kg) ligger på ett plan med lutningen 45°. Friktionstalet är 0,50. En kraft \\(F\\) parallell med planet verkar uppför planet.</p><p>Vilken är den största kraften innan lådan börjar glida uppåt?</p>",
+        "s": "<p>Friktionen verkar nedåt: \\(F=mg(\\sin45^\\circ+0{,}50\\cos45^\\circ)\\).</p><p><strong>Svar:</strong> \\(104\\) N</p>",
+        "ledtrad": "<p>Lådan vill glida uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionen kan verka åt båda hållen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "störtlopp",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare startar från vila i en backe med lutningen 35°. Friktionstalet är 0,10. Vilken fart har hon efter 5,0 s?</p>",
+    "s": "<p>\\(a=9{,}82(\\sin35^\\circ-0{,}10\\cos35^\\circ)\\). \\(v=a\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(24\\) m/s</p>",
+    "id": "4.606",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24.14056648737741,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm accelerationen först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "tid nedför backe",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare startar från vila i en 50 m lång backe med lutningen 20°. Friktionstalet är 0,10. Hur lång tid tar det att åka ned?</p>",
+    "s": "<p>\\(a=9{,}82(\\sin20^\\circ-0{,}10\\cos20^\\circ)\\). \\(t=\\sqrt{\\dfrac{2s}{a}}\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) s</p>",
+    "id": "4.607",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.40728244552585,
+    "tolerans": 0.0961,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(s=\\dfrac{at^2}2\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "s",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "tvål på ramp",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En tvål glider från vila längs en 9,0 m lång ramp med lutningen 8,0°. Friktionstalet är 0,060. Hur lång tid tar det?</p>",
+    "s": "<p>\\(a=9{,}82(\\sin8{,}0^\\circ-0{,}060\\cos8{,}0^\\circ)\\). \\(t=\\sqrt{\\dfrac{2s}{a}}\\).</p><p><strong>Svar:</strong> \\(4{,}8\\) s</p>",
+    "id": "4.608",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.793978233597286,
+    "tolerans": 0.0719,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(s=\\dfrac{at^2}2\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "s",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "backens lutning ur tid",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist har farten 2,0 m/s överst i en 18 m lång backe och rullar ned på 3,3 s. Bortse från friktion. Vilken lutning har backen?</p>",
+    "s": "<p>\\(18=2{,}0\\cdot3{,}3+\\dfrac{a\\cdot3{,}3^2}{2}\\iff a\\approx2{,}09\\) m/s². \\(\\sin\\alpha=\\dfrac{a}{g}\\).</p><p><strong>Svar:</strong> \\(12\\) °</p>",
+    "id": "4.609",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.310185004094045,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelse med begynnelsefart.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "låda upp och ned",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p><ol type=\"a\"><li>Lådan släpps. Vilken acceleration får den?</li><li>Lådan skickas i stället uppför planet med 3,0 m/s. Hur långt kommer den?</li><li>Hur lång tid tar det innan lådan är tillbaka vid startpunkten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=9{,}82(\\sin25{,}0^\\circ-0{,}19\\cos25{,}0^\\circ)\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s²</p></li><li><p>Nu verkar friktionen nedför: retardation \\(9{,}82(\\sin25{,}0^\\circ+0{,}19\\cos25{,}0^\\circ)\\approx5{,}84\\) m/s². \\(s=\\dfrac{v^2}{2a}\\).</p><p><strong>Svar:</strong> \\(0{,}77\\) m</p></li><li><p>Upp: \\(t_1=\\dfrac{3{,}0}{5{,}84}\\). Ned: \\(t_2=\\sqrt{\\dfrac{2\\cdot0{,}770}{2{,}46}}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) s</p></li></ol>",
+    "id": "4.610",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.459122261240687,
+      0.7704027824112291,
+      1.3051618889787815
+    ],
+    "tolerans": [
+      0.051,
+      0.0116,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Lådan släpps. Vilken acceleration får den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p><p>Lådan släpps. Vilken acceleration får den?</p>",
+        "s": "<p>\\(a=9{,}82(\\sin25{,}0^\\circ-0{,}19\\cos25{,}0^\\circ)\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s²</p>",
+        "ledtrad": "<p>Friktionen verkar uppför.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Lådan skickas i stället uppför planet med 3,0 m/s. Hur långt kommer den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p><p>Lådan skickas i stället uppför planet med 3,0 m/s. Hur långt kommer den?</p>",
+        "s": "<p>Nu verkar friktionen nedför: retardation \\(9{,}82(\\sin25{,}0^\\circ+0{,}19\\cos25{,}0^\\circ)\\approx5{,}84\\) m/s². \\(s=\\dfrac{v^2}{2a}\\).</p><p><strong>Svar:</strong> \\(0{,}77\\) m</p>",
+        "ledtrad": "<p>Friktionen byter riktning med rörelsen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång tid tar det innan lådan är tillbaka vid startpunkten?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p>Lådan kommer 0,770 m upp.<p>Hur lång tid tar det innan lådan är tillbaka vid startpunkten?</p>",
+        "s": "<p>Upp: \\(t_1=\\dfrac{3{,}0}{5{,}84}\\). Ned: \\(t_2=\\sqrt{\\dfrac{2\\cdot0{,}770}{2{,}46}}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) s</p>",
+        "ledtrad": "<p>Olika acceleration upp och ned.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionen motverkar alltid rörelsen.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "puffa kälke i backe",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kälke (22,0 kg) skjuts från vila nedför en 75 m lång backe med lutningen 6,0°. Friktionstalet är 0,10. Med vilken konstant kraft längs backen måste man skjuta för att kälken ska ha farten 60 km/h längst ned?</p>",
+    "s": "<p>\\(a=\\dfrac{v^2}{2s}=\\dfrac{16{,}7^2}{150}\\approx1{,}85\\) m/s². \\(F=ma-mg(\\sin6{,}0^\\circ-0{,}10\\cos6{,}0^\\circ)\\).</p><p><strong>Svar:</strong> \\(40\\) N</p>",
+    "id": "4.611",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 39.64406256393307,
+    "tolerans": 0.595,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den nödvändiga accelerationen.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "kloss nedför planet",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) startar från vila överst på ett 5,0 m långt plan med lutningen 37°. Vilken fart har den längst ned om</p><ol type=\"a\"><li>friktionen försummas?</li><li>friktionstalet är 0,25?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\sin37^\\circ\\cdot5{,}0}\\).</p><p><strong>Svar:</strong> \\(7{,}7\\) m/s</p></li><li><p>\\(a=9{,}82(\\sin37^\\circ-0{,}25\\cos37^\\circ)\\). \\(v=\\sqrt{2as}\\).</p><p><strong>Svar:</strong> \\(6{,}3\\) m/s</p></li></ol>",
+    "id": "4.612",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.687537659974821,
+      6.284244863296632
+    ],
+    "tolerans": [
+      0.115,
+      0.0943
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) startar från vila överst på ett 5,0 m långt plan med lutningen 37°. Vilken fart har den längst ned om</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "friktionen försummas?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) startar från vila överst på ett 5,0 m långt plan med lutningen 37°. Vilken fart har den längst ned om</p><p>friktionen försummas?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\sin37^\\circ\\cdot5{,}0}\\).</p><p><strong>Svar:</strong> \\(7{,}7\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "friktionstalet är 0,25?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) startar från vila överst på ett 5,0 m långt plan med lutningen 37°. Vilken fart har den längst ned om</p><p>friktionstalet är 0,25?</p>",
+        "s": "<p>\\(a=9{,}82(\\sin37^\\circ-0{,}25\\cos37^\\circ)\\). \\(v=\\sqrt{2as}\\).</p><p><strong>Svar:</strong> \\(6{,}3\\) m/s</p>",
+        "ledtrad": "<p>Bestäm accelerationen.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v^2=2as\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "kloss skjuten uppför",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss skjuts uppför ett plan med lutningen 30,0° med farten 3,00 m/s. Friktionstalet är 0,400. Hur långt kommer den?</p>",
+    "s": "<p>Retardation: \\(9{,}82(\\sin30{,}0^\\circ+0{,}400\\cos30{,}0^\\circ)\\). \\(s=\\dfrac{v^2}{2a}\\).</p><p><strong>Svar:</strong> \\(0{,}541\\) m</p>",
+    "id": "4.613",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5414023759893548,
+    "tolerans": 0.00812,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Friktionen verkar nedför när klossen glider uppåt.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "skateboard uppför backe",
+    "poang": "(2/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p><ol type=\"a\"><li>Hur lång tid tar det innan han stannar?</li><li>Hur långt upp kommer han?</li><li>Vilken fart har han när han kommit tillbaka ned till backens fot?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Retardation \\(9{,}82(\\sin30^\\circ+0{,}12\\cos30^\\circ)\\approx5{,}93\\) m/s². \\(t=\\dfrac{5{,}0}{5{,}93}\\).</p><p><strong>Svar:</strong> \\(0{,}84\\) s</p></li><li><p>\\(s=\\dfrac{5{,}0^2}{2\\cdot5{,}93}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) m</p></li><li><p>Ned: \\(a=9{,}82(\\sin30^\\circ-0{,}12\\cos30^\\circ)\\approx3{,}89\\) m/s². \\(v=\\sqrt{2\\cdot3{,}89\\cdot2{,}11}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s</p></li></ol>",
+    "id": "4.614",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8430957731343689,
+      2.1077394328359222,
+      4.049197755222324
+    ],
+    "tolerans": [
+      0.0126,
+      0.051,
+      0.0607
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det innan han stannar?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p><p>Hur lång tid tar det innan han stannar?</p>",
+        "s": "<p>Retardation \\(9{,}82(\\sin30^\\circ+0{,}12\\cos30^\\circ)\\approx5{,}93\\) m/s². \\(t=\\dfrac{5{,}0}{5{,}93}\\).</p><p><strong>Svar:</strong> \\(0{,}84\\) s</p>",
+        "ledtrad": "<p>Friktionen verkar nedför.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt upp kommer han?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p>Retardationen är 5,93 m/s².<p>Hur långt upp kommer han?</p>",
+        "s": "<p>\\(s=\\dfrac{5{,}0^2}{2\\cdot5{,}93}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) m</p>",
+        "ledtrad": "<p>\\(v^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken fart har han när han kommit tillbaka ned till backens fot?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p>Han kommer 2,11 m upp.<p>Vilken fart har han när han kommit tillbaka ned till backens fot?</p>",
+        "s": "<p>Ned: \\(a=9{,}82(\\sin30^\\circ-0{,}12\\cos30^\\circ)\\approx3{,}89\\) m/s². \\(v=\\sqrt{2\\cdot3{,}89\\cdot2{,}11}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s</p>",
+        "ledtrad": "<p>Nu verkar friktionen uppför.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionen motverkar alltid rörelsen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "berg-och-dalbana",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En vagn passerar toppen av en 45 m lång backe med lutningen 50° med farten 6,0 km/h. Friktionstalet är 0,12. Vilken fart har vagnen längst ned? Svara i km/h.</p>",
+    "s": "<p>\\(a=9{,}82(\\sin50^\\circ-0{,}12\\cos50^\\circ)\\). \\(v^2=v_0^2+2as\\).</p><p><strong>Svar:</strong> \\(89\\) km/h</p>",
+    "id": "4.615",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 89.0326198951792,
+    "tolerans": 1.34,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna i m/s och omvandla.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "km/h",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "skidåkare i uppförsbacke",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare når en 2,50 m hög uppförsbacke med lutningen 35,0° med farten 21,0 m/s. Friktionstalet är 0,14.</p><ol type=\"a\"><li>Vilken fart har hon överst i backen?</li><li>Vilken är den minsta farten som räcker för att komma upp?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Backens längd \\(\\dfrac{2{,}50}{\\sin35{,}0^\\circ}\\). Retardation \\(9{,}82(\\sin35{,}0^\\circ+0{,}14\\cos35{,}0^\\circ)\\). \\(v^2=v_0^2-2as\\).</p><p><strong>Svar:</strong> \\(19{,}5\\) m/s</p></li><li><p>\\(v_0=\\sqrt{2as}\\).</p><p><strong>Svar:</strong> \\(7{,}7\\) m/s</p></li></ol>",
+    "id": "4.616",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      19.54694120832348,
+      7.675746830005879
+    ],
+    "tolerans": [
+      0.293,
+      0.115
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare når en 2,50 m hög uppförsbacke med lutningen 35,0° med farten 21,0 m/s. Friktionstalet är 0,14.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har hon överst i backen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare når en 2,50 m hög uppförsbacke med lutningen 35,0° med farten 21,0 m/s. Friktionstalet är 0,14.</p><p>Vilken fart har hon överst i backen?</p>",
+        "s": "<p>Backens längd \\(\\dfrac{2{,}50}{\\sin35{,}0^\\circ}\\). Retardation \\(9{,}82(\\sin35{,}0^\\circ+0{,}14\\cos35{,}0^\\circ)\\). \\(v^2=v_0^2-2as\\).</p><p><strong>Svar:</strong> \\(19{,}5\\) m/s</p>",
+        "ledtrad": "<p>Bestäm backens längd.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den minsta farten som räcker för att komma upp?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare når en 2,50 m hög uppförsbacke med lutningen 35,0° med farten 21,0 m/s. Friktionstalet är 0,14.</p><p>Vilken är den minsta farten som räcker för att komma upp?</p>",
+        "s": "<p>\\(v_0=\\sqrt{2as}\\).</p><p><strong>Svar:</strong> \\(7{,}7\\) m/s</p>",
+        "ledtrad": "<p>Farten ska vara noll överst.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionen verkar nedför.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "friktionstal för skateboard",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skateboardåkare åker uppför en backe med lutningen 20° med farten 10,0 m/s och stannar efter 14,2 m. Bestäm friktionstalet.</p>",
+    "s": "<p>\\(a=\\dfrac{10{,}0^2}{2\\cdot14{,}2}\\approx3{,}52\\) m/s². \\(\\mu=\\dfrac{a-g\\sin20^\\circ}{g\\cos20^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}018\\) </p>",
+    "id": "4.617",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.017608669263498522,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm retardationen först.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "staka uppför backe",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Arnold (98 kg med skidor) har farten 8,0 m/s när han når en 8,0 m lång backe med höjden 1,8 m. Han glider uppför utan att staka.</p><ol type=\"a\"><li>Vilken fart har han överst om friktionen försummas?</li><li>Vilken fart har han överst om friktionskraften är 80 N?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{8{,}0^2-2\\cdot9{,}82\\cdot1{,}8}\\).</p><p><strong>Svar:</strong> \\(5{,}4\\) m/s</p></li><li><p>Retardation: \\(9{,}82\\cdot\\dfrac{1{,}8}{8{,}0}+\\dfrac{80}{98}\\). \\(v=\\sqrt{8{,}0^2-2a\\cdot8{,}0}\\).</p><p><strong>Svar:</strong> \\(3{,}9\\) m/s</p></li></ol>",
+    "id": "4.618",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.352382647008713,
+      3.948009056499754
+    ],
+    "tolerans": [
+      0.0803,
+      0.0592
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Arnold (98 kg med skidor) har farten 8,0 m/s när han når en 8,0 m lång backe med höjden 1,8 m. Han glider uppför utan att staka.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har han överst om friktionen försummas?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Arnold (98 kg med skidor) har farten 8,0 m/s när han når en 8,0 m lång backe med höjden 1,8 m. Han glider uppför utan att staka.</p><p>Vilken fart har han överst om friktionen försummas?</p>",
+        "s": "<p>\\(v=\\sqrt{8{,}0^2-2\\cdot9{,}82\\cdot1{,}8}\\).</p><p><strong>Svar:</strong> \\(5{,}4\\) m/s</p>",
+        "ledtrad": "<p>Retardation \\(g\\sin\\alpha\\) med \\(\\sin\\alpha=\\dfrac{1{,}8}{8{,}0}\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har han överst om friktionskraften är 80 N?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Arnold (98 kg med skidor) har farten 8,0 m/s när han når en 8,0 m lång backe med höjden 1,8 m. Han glider uppför utan att staka.</p><p>Vilken fart har han överst om friktionskraften är 80 N?</p>",
+        "s": "<p>Retardation: \\(9{,}82\\cdot\\dfrac{1{,}8}{8{,}0}+\\dfrac{80}{98}\\). \\(v=\\sqrt{8{,}0^2-2a\\cdot8{,}0}\\).</p><p><strong>Svar:</strong> \\(3{,}9\\) m/s</p>",
+        "ledtrad": "<p>Bestäm retardationen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v^2=v_0^2+2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "nedför backe och ut på grus",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skateboardåkare startar från vila i en 8,0 m lång friktionsfri backe med lutningen 30°. Nedanför finns en plan grusyta med friktionstalet 0,40.</p><ol type=\"a\"><li>Hur långt rullar han på gruset?</li><li>Hur lång tid tar det totalt innan han står still?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v^2=2\\cdot9{,}82\\sin30^\\circ\\cdot8{,}0\\). \\(s=\\dfrac{v^2}{2\\cdot0{,}40\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(10{,}0\\) m</p></li><li><p>Backe: \\(t_1=\\dfrac{v}{g\\sin30^\\circ}\\). Grus: \\(t_2=\\dfrac{v}{0{,}40g}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\) s</p></li></ol>",
+    "id": "4.619",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.999999999999996,
+      4.061643141658717
+    ],
+    "tolerans": [
+      0.15,
+      0.0609
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skateboardåkare startar från vila i en 8,0 m lång friktionsfri backe med lutningen 30°. Nedanför finns en plan grusyta med friktionstalet 0,40.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt rullar han på gruset?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skateboardåkare startar från vila i en 8,0 m lång friktionsfri backe med lutningen 30°. Nedanför finns en plan grusyta med friktionstalet 0,40.</p><p>Hur långt rullar han på gruset?</p>",
+        "s": "<p>\\(v^2=2\\cdot9{,}82\\sin30^\\circ\\cdot8{,}0\\). \\(s=\\dfrac{v^2}{2\\cdot0{,}40\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(10{,}0\\) m</p>",
+        "ledtrad": "<p>Bestäm farten vid backens fot.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det totalt innan han står still?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skateboardåkare startar från vila i en 8,0 m lång friktionsfri backe med lutningen 30°. Nedanför finns en plan grusyta med friktionstalet 0,40.</p><p>Hur lång tid tar det totalt innan han står still?</p>",
+        "s": "<p>Backe: \\(t_1=\\dfrac{v}{g\\sin30^\\circ}\\). Grus: \\(t_2=\\dfrac{v}{0{,}40g}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\) s</p>",
+        "ledtrad": "<p>Räkna tiden för varje del.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp rörelsen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "bromssträcka i backe",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil med farten 42 m/s tvärbromsar i en backe med lutningen 9,0°. Friktionstalet är 0,98.</p><ol type=\"a\"><li>Hur lång blir bromssträckan om bilen kör uppför?</li><li>Hur lång blir bromssträckan om bilen kör nedför?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Retardation \\(9{,}82(\\sin9{,}0^\\circ+0{,}98\\cos9{,}0^\\circ)\\). \\(s=\\dfrac{v^2}{2a}\\).</p><p><strong>Svar:</strong> \\(80\\) m</p></li><li><p>Retardation \\(9{,}82(0{,}98\\cos9{,}0^\\circ-\\sin9{,}0^\\circ)\\).</p><p><strong>Svar:</strong> \\(111\\) m</p></li></ol>",
+    "id": "4.620",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      79.88186930599022,
+      110.67983804724568
+    ],
+    "tolerans": [
+      1.2,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil med farten 42 m/s tvärbromsar i en backe med lutningen 9,0°. Friktionstalet är 0,98.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång blir bromssträckan om bilen kör uppför?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil med farten 42 m/s tvärbromsar i en backe med lutningen 9,0°. Friktionstalet är 0,98.</p><p>Hur lång blir bromssträckan om bilen kör uppför?</p>",
+        "s": "<p>Retardation \\(9{,}82(\\sin9{,}0^\\circ+0{,}98\\cos9{,}0^\\circ)\\). \\(s=\\dfrac{v^2}{2a}\\).</p><p><strong>Svar:</strong> \\(80\\) m</p>",
+        "ledtrad": "<p>Både friktion och tyngdkomposant bromsar.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång blir bromssträckan om bilen kör nedför?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil med farten 42 m/s tvärbromsar i en backe med lutningen 9,0°. Friktionstalet är 0,98.</p><p>Hur lång blir bromssträckan om bilen kör nedför?</p>",
+        "s": "<p>Retardation \\(9{,}82(0{,}98\\cos9{,}0^\\circ-\\sin9{,}0^\\circ)\\).</p><p><strong>Svar:</strong> \\(111\\) m</p>",
+        "ledtrad": "<p>Tyngdkomposanten motverkar inbromsningen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=\\dfrac{v^2}{2a}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "friktionstal ur stoppsträcka",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skidåkare startar från vila 20,0 m över marken i en backe med lutningen 20,0° och stannar 45,0 m ut på plan mark. Friktionstalet \\(\\mu\\) är detsamma överallt. Bestäm \\(\\mu\\).</p>",
+    "s": "<p>Backens längd \\(L=\\dfrac{20{,}0}{\\sin20{,}0^\\circ}\\). Energi: \\(mgh=\\mu mg(L\\cos20{,}0^\\circ+45{,}0)\\iff\\mu=\\dfrac{20{,}0}{L\\cos20{,}0^\\circ+45{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}200\\) </p>",
+    "id": "4.621",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.20010095415481247,
+    "tolerans": 0.003,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hela lägesenergin går åt till friktionsarbete.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "snowboard ut på plan mark",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Olle åker snowboard nedför en 110 m lång backe med lutningen 28,0° och har farten 5,00 m/s överst. Friktionstalet i backen är 0,180 och på den plana marken nedanför 0,150. Hur långt kommer han på den plana marken?</p>",
+    "s": "<p>Backen: \\(a=9{,}82(\\sin28{,}0^\\circ-0{,}180\\cos28{,}0^\\circ)\\), \\(v^2=5{,}00^2+2a\\cdot110\\). Plan mark: \\(x=\\dfrac{v^2}{2\\cdot0{,}150\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(236\\) m</p>",
+    "id": "4.622",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 236.2161466097766,
+    "tolerans": 3.54,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten vid backens fot.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "tyngdens komposanter",
+    "poang": "(3/0/0)",
+    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Hur stor är komposanten längs backen?</li><li>Hur stor är normalkraften?</li><li>Vilken acceleration får skidåkaren?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_\\parallel=850\\sin22^\\circ\\).</p><p><strong>Svar:</strong> \\(318\\) N</p></li><li><p>\\(F_N=850\\cos22^\\circ\\).</p><p><strong>Svar:</strong> \\(788\\) N</p></li><li><p>\\(a=g\\sin22^\\circ\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p></li></ol>",
+    "id": "4.623",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      318.4156044035252,
+      788.1062763817694,
+      3.6786367473442563
+    ],
+    "tolerans": [
+      5.1,
+      11.8,
+      0.0552
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är komposanten längs backen?",
+        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p><p>Hur stor är komposanten längs backen?</p>",
+        "s": "<p>\\(F_\\parallel=850\\sin22^\\circ\\).</p><p><strong>Svar:</strong> \\(318\\) N</p>",
+        "ledtrad": "<p>\\(mg\\sin\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är normalkraften?",
+        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p><p>Hur stor är normalkraften?</p>",
+        "s": "<p>\\(F_N=850\\cos22^\\circ\\).</p><p><strong>Svar:</strong> \\(788\\) N</p>",
+        "ledtrad": "<p>\\(mg\\cos\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken acceleration får skidåkaren?",
+        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p><p>Vilken acceleration får skidåkaren?</p>",
+        "s": "<p>\\(a=g\\sin22^\\circ\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p>",
+        "ledtrad": "<p>Använd massan, inte tyngden, i \\(F=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Dela upp tyngden i komposanter.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "cyklist i nedförsbacke",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (95 kg med cykel) rullar nedför en backe med lutningen 10°. Bortse från friktion och luftmotstånd.</p><ol type=\"a\"><li>Bestäm normalkraften.</li><li>Bestäm accelerationen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N=95\\cdot9{,}82\\cos10^\\circ\\).</p><p><strong>Svar:</strong> \\(919\\) N</p></li><li><p>\\(a=9{,}82\\sin10^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) m/s²</p></li></ol>",
+    "id": "4.624",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      918.7271527850888,
+      1.705225104689256
+    ],
+    "tolerans": [
+      13.8,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (95 kg med cykel) rullar nedför en backe med lutningen 10°. Bortse från friktion och luftmotstånd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm normalkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (95 kg med cykel) rullar nedför en backe med lutningen 10°. Bortse från friktion och luftmotstånd.</p><p>Bestäm normalkraften.</p>",
+        "s": "<p>\\(F_N=95\\cdot9{,}82\\cos10^\\circ\\).</p><p><strong>Svar:</strong> \\(919\\) N</p>",
+        "ledtrad": "<p>\\(mg\\cos\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (95 kg med cykel) rullar nedför en backe med lutningen 10°. Bortse från friktion och luftmotstånd.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=9{,}82\\sin10^\\circ\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Komposanterna av tyngden.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "skidåkare dras i lift",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare (67 kg) dras med konstant fart uppför en backe med lutningen 8,0° med ett rep parallellt med backen. Bortse från friktion.</p><ol type=\"a\"><li>Hur stor är spännkraften i repet?</li><li>Vilken acceleration får skidåkaren om repet går av?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_S=67\\cdot9{,}82\\sin8{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(92\\) N</p></li><li><p>\\(a=9{,}82\\sin8{,}0^\\circ\\), nedför backen.</p><p><strong>Svar:</strong> \\(1{,}4\\) m/s²</p></li></ol>",
+    "id": "4.625",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      91.56755004566546,
+      1.3666798514278427
+    ],
+    "tolerans": [
+      1.37,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare (67 kg) dras med konstant fart uppför en backe med lutningen 8,0° med ett rep parallellt med backen. Bortse från friktion.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är spännkraften i repet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare (67 kg) dras med konstant fart uppför en backe med lutningen 8,0° med ett rep parallellt med backen. Bortse från friktion.</p><p>Hur stor är spännkraften i repet?</p>",
+        "s": "<p>\\(F_S=67\\cdot9{,}82\\sin8{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(92\\) N</p>",
+        "ledtrad": "<p>Konstant fart: jämvikt längs backen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får skidåkaren om repet går av?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare (67 kg) dras med konstant fart uppför en backe med lutningen 8,0° med ett rep parallellt med backen. Bortse från friktion.</p><p>Vilken acceleration får skidåkaren om repet går av?</p>",
+        "s": "<p>\\(a=9{,}82\\sin8{,}0^\\circ\\), nedför backen.</p><p><strong>Svar:</strong> \\(1{,}4\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Jämvikt längs backen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "massa ur dragkraft",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss dras med konstant fart uppför ett friktionsfritt plan med lutningen 20° med kraften 100 N parallellt med planet. Bestäm klossens massa.</p>",
+    "s": "<p>\\(m=\\dfrac{100}{9{,}82\\sin20^\\circ}\\).</p><p><strong>Svar:</strong> \\(30\\) kg</p>",
+    "id": "4.626",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 29.773975561742233,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämvikt längs planet.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "lutning ur dynamometer",
+    "poang": "(0/1/0)",
+    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En vagn hänger i en dynamometer som visar 3,95 N. Sedan dras vagnen med konstant fart uppför ett friktionsfritt plan med dynamometern parallell med planet, och då visar den 0,86 N. Vilken lutning har planet?</p>",
+    "s": "<p>\\(\\sin\\alpha=\\dfrac{0{,}86}{3{,}95}\\).</p><p><strong>Svar:</strong> \\(13\\) °</p>",
+    "id": "4.627",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.575241999109528,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dynamometern visar tyngden respektive komposanten längs planet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°",
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "fjäder håller vikt på plan",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En vikt (2,0 kg) ligger stilla på ett friktionsfritt plan med lutningen 53°, fäst i en fjäder (845 N/m) parallell med planet. Hur mycket är fjädern förlängd?</p>",
+    "s": "<p>\\(kx=mg\\sin53^\\circ\\iff x=\\dfrac{2{,}0\\cdot9{,}82\\sin53^\\circ}{845}\\).</p><p><strong>Svar:</strong> \\(0{,}019\\) m</p>",
+    "id": "4.628",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.018562368541217553,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fjäderkraften tar ut komposanten längs planet.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "A",
+    "typ": "bil bogseras med sned vajer",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1 230 kg) bogseras med konstant fart uppför en backe med lutningen 25,0°. Vajern bildar 31,0° med backen. Bortse från friktion.</p><ol type=\"a\"><li>Bestäm spännkraften i vajern.</li><li>Bestäm normalkraften.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_S\\cos31{,}0^\\circ=mg\\sin25{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(5\\,955\\) N</p></li><li><p>\\(F_N=mg\\cos25{,}0^\\circ-F_S\\sin31{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(7\\,880\\) N</p></li></ol>",
+    "id": "4.629",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5955.239930501274,
+      7879.753927068019
+    ],
+    "tolerans": [
+      89.3,
+      118.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1 230 kg) bogseras med konstant fart uppför en backe med lutningen 25,0°. Vajern bildar 31,0° med backen. Bortse från friktion.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spännkraften i vajern.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1 230 kg) bogseras med konstant fart uppför en backe med lutningen 25,0°. Vajern bildar 31,0° med backen. Bortse från friktion.</p><p>Bestäm spännkraften i vajern.</p>",
+        "s": "<p>\\(F_S\\cos31{,}0^\\circ=mg\\sin25{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(5\\,955\\) N</p>",
+        "ledtrad": "<p>Bara vajerns komposant längs backen drar bilen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm normalkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1 230 kg) bogseras med konstant fart uppför en backe med lutningen 25,0°. Vajern bildar 31,0° med backen. Bortse från friktion.</p>Spännkraften är 5,96 kN.<p>Bestäm normalkraften.</p>",
+        "s": "<p>\\(F_N=mg\\cos25{,}0^\\circ-F_S\\sin31{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(7\\,880\\) N</p>",
+        "ledtrad": "<p>Vajern lyfter bilen lite.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp vajerkraften i komposanter.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "kloss hålls av vågrät kraft",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss hålls i vila på ett friktionsfritt plan med lutningen 35° av en vågrät kraft på 40 N.</p><ol type=\"a\"><li>Bestäm klossens massa.</li><li>Hur stor är normalkraften?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Längs planet: \\(40\\cos35^\\circ=mg\\sin35^\\circ\\iff m=\\dfrac{40}{9{,}82\\tan35^\\circ}\\).</p><p><strong>Svar:</strong> \\(5{,}8\\) kg</p></li><li><p>\\(F_N=mg\\cos35^\\circ+40\\sin35^\\circ\\).</p><p><strong>Svar:</strong> \\(70\\) N</p></li></ol>",
+    "id": "4.631",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Krafter på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.817303489784581,
+      69.73787182484392
+    ],
+    "tolerans": [
+      0.0873,
+      1.05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss hålls i vila på ett friktionsfritt plan med lutningen 35° av en vågrät kraft på 40 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm klossens massa.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss hålls i vila på ett friktionsfritt plan med lutningen 35° av en vågrät kraft på 40 N.</p><p>Bestäm klossens massa.</p>",
+        "s": "<p>Längs planet: \\(40\\cos35^\\circ=mg\\sin35^\\circ\\iff m=\\dfrac{40}{9{,}82\\tan35^\\circ}\\).</p><p><strong>Svar:</strong> \\(5{,}8\\) kg</p>",
+        "ledtrad": "<p>Dela upp den vågräta kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är normalkraften?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss hålls i vila på ett friktionsfritt plan med lutningen 35° av en vågrät kraft på 40 N.</p>Massan är 5,8 kg.<p>Hur stor är normalkraften?</p>",
+        "s": "<p>\\(F_N=mg\\cos35^\\circ+40\\sin35^\\circ\\).</p><p><strong>Svar:</strong> \\(70\\) N</p>",
+        "ledtrad": "<p>Båda krafterna har komposanter mot planet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp krafterna längs och vinkelrätt mot planet.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "E",
+    "typ": "snowboard nedför backe",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Oskar startar från vila och åker snowboard nedför en 50 m lång backe med lutningen 13°. Bortse från friktion och luftmotstånd.</p><ol type=\"a\"><li>Hur lång tid tar det?</li><li>Vilken fart har han längst ned?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=9{,}82\\sin13^\\circ\\). \\(t=\\sqrt{\\dfrac{2s}{a}}\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) s</p></li><li><p>\\(v=\\sqrt{2as}\\).</p><p><strong>Svar:</strong> \\(15\\) m/s</p></li></ol>",
+    "id": "4.633",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.728220866951279,
+      14.862770110772603
+    ],
+    "tolerans": [
+      0.101,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Oskar startar från vila och åker snowboard nedför en 50 m lång backe med lutningen 13°. Bortse från friktion och luftmotstånd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Oskar startar från vila och åker snowboard nedför en 50 m lång backe med lutningen 13°. Bortse från friktion och luftmotstånd.</p><p>Hur lång tid tar det?</p>",
+        "s": "<p>\\(a=9{,}82\\sin13^\\circ\\). \\(t=\\sqrt{\\dfrac{2s}{a}}\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{at^2}2\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har han längst ned?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Oskar startar från vila och åker snowboard nedför en 50 m lång backe med lutningen 13°. Bortse från friktion och luftmotstånd.</p><p>Vilken fart har han längst ned?</p>",
+        "s": "<p>\\(v=\\sqrt{2as}\\).</p><p><strong>Svar:</strong> \\(15\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "skidåkare över backkrön",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skidåkare glider med farten 12,0 m/s upp för en 2,5 m hög backe. Bortse från friktion. Vilken fart har hon på toppen?</p>",
+    "s": "<p>\\(v=\\sqrt{12{,}0^2-2\\cdot9{,}82\\cdot2{,}5}\\).</p><p><strong>Svar:</strong> \\(9{,}7\\) m/s</p>",
+    "id": "4.634",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.741663102366044,
+    "tolerans": 0.146,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lutningen spelar ingen roll, bara höjden.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "lutande_plan",
+    "niva": "C",
+    "typ": "två backar",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s längst ned. Sedan glider han uppför en backe med lutningen 20° tills han stannar. Bortse från friktion.</p><ol type=\"a\"><li>Vilken lutning har den första backen?</li><li>Hur långt upp i den andra backen kommer han?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{19{,}0^2}{2\\cdot40{,}0}\\). \\(\\sin\\alpha=\\dfrac ag\\).</p><p><strong>Svar:</strong> \\(27\\) °</p></li><li><p>\\(s=\\dfrac{19{,}0^2}{2\\cdot9{,}82\\sin20^\\circ}\\).</p><p><strong>Svar:</strong> \\(54\\) m</p></li></ol>",
+    "id": "4.635",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Glidning på lutande plan",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      27.35622765923655,
+      53.74202588894473
+    ],
+    "tolerans": [
+      0.51,
+      0.806
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s längst ned. Sedan glider han uppför en backe med lutningen 20° tills han stannar. Bortse från friktion.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken lutning har den första backen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s längst ned. Sedan glider han uppför en backe med lutningen 20° tills han stannar. Bortse från friktion.</p><p>Vilken lutning har den första backen?</p>",
+        "s": "<p>\\(a=\\dfrac{19{,}0^2}{2\\cdot40{,}0}\\). \\(\\sin\\alpha=\\dfrac ag\\).</p><p><strong>Svar:</strong> \\(27\\) °</p>",
+        "ledtrad": "<p>Bestäm accelerationen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt upp i den andra backen kommer han?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s längst ned. Sedan glider han uppför en backe med lutningen 20° tills han stannar. Bortse från friktion.</p><p>Hur långt upp i den andra backen kommer han?</p>",
+        "s": "<p>\\(s=\\dfrac{19{,}0^2}{2\\cdot9{,}82\\sin20^\\circ}\\).</p><p><strong>Svar:</strong> \\(54\\) m</p>",
+        "ledtrad": "<p>Retardation \\(g\\sin20^\\circ\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "8.371",

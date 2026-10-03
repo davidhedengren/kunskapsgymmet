@@ -97154,7 +97154,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bindningsenergi per nukleon",
     "poang": "(0/2/0)",
-    "t": "<p>Bindningsenergin för \\(^12C\\) är \\(92,16\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
+    "t": "<p>Bindningsenergin för \\(^{12}\\mathrm{C}\\) är \\(92,16\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bindningsenergi per nukleon fås genom att dividera kärnans totala bindningsenergi med masstalet.</p><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{92,16}{12}=7,68\\ \\mathrm{MeV/nukleon}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7,68\\ \\mathrm{MeV/nukleon}\\).</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -97244,7 +97244,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bindningsenergi per nukleon",
     "poang": "(0/2/0)",
-    "t": "<p>Bindningsenergin för \\(^16O\\) är \\(127,7\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
+    "t": "<p>Bindningsenergin för \\(^{16}\\mathrm{O}\\) är \\(127,7\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bindningsenergi per nukleon fås genom att dividera kärnans totala bindningsenergi med masstalet.</p><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{127,7}{16}=7,98\\ \\mathrm{MeV/nukleon}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7,98\\ \\mathrm{MeV/nukleon}\\).</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -97275,7 +97275,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bindningsenergi per nukleon",
     "poang": "(0/2/0)",
-    "t": "<p>Bindningsenergin för \\(^56Fe\\) är \\(492,2\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
+    "t": "<p>Bindningsenergin för \\(^{56}\\mathrm{Fe}\\) är \\(492,2\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bindningsenergi per nukleon fås genom att dividera kärnans totala bindningsenergi med masstalet.</p><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{492,2}{56}=8,79\\ \\mathrm{MeV/nukleon}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8,79\\ \\mathrm{MeV/nukleon}\\).</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -106968,7 +106968,7 @@ window.BANK = [
     "niva": "A",
     "typ": "energiutbyte från makroskopisk mängd kärnbränsle",
     "poang": "(0/1/2)",
-    "t": "<p>Anta att varje fission av \\(^235U\\) frigör \\(190\\,\\mathrm{MeV}\\). Hur mycket energi frigörs om \\(0,5\\,\\mathrm{kg}\\) rent \\(^235U\\) fissionerar fullständigt? Data: \\(N_A=6,022\\cdot10^{23}\\,\\mathrm{mol^-1}\\) och \\(1\\,\\mathrm{eV}=1,602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
+    "t": "<p>Anta att varje fission av \\(^{235}\\mathrm{U}\\) frigör \\(190\\,\\mathrm{MeV}\\). Hur mycket energi frigörs om \\(0,5\\,\\mathrm{kg}\\) rent \\(^{235}\\mathrm{U}\\) fissionerar fullständigt? Data: \\(N_A=6,022\\cdot10^{23}\\,\\mathrm{mol^-1}\\) och \\(1\\,\\mathrm{eV}=1,602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm antalet urankärnor från substansmängden och multiplicera med energin per fission.</p><div class=\"facit-matte\">\\[N=\\frac{500}{235}N_A=1,281\\cdot10^{24}\\]\\[E=N\\cdot190\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=3,9\\cdot10^{13}\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3,9\\cdot10^{13}\\ \\mathrm J\\).</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
@@ -123127,7 +123127,7 @@ window.BANK = [
     "niva": "A",
     "typ": "energiutbyte från makroskopisk mängd kärnbränsle",
     "poang": "(0/1/2)",
-    "t": "<p>Anta att varje fission av \\(^235U\\) frigör \\(195\\,\\mathrm{MeV}\\). Hur mycket energi frigörs om \\(0,6\\,\\mathrm{kg}\\) rent \\(^235U\\) fissionerar fullständigt? Data: \\(N_A=6,022\\cdot10^{23}\\,\\mathrm{mol^-1}\\) och \\(1\\,\\mathrm{eV}=1,602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
+    "t": "<p>Anta att varje fission av \\(^{235}\\mathrm{U}\\) frigör \\(195\\,\\mathrm{MeV}\\). Hur mycket energi frigörs om \\(0,6\\,\\mathrm{kg}\\) rent \\(^{235}\\mathrm{U}\\) fissionerar fullständigt? Data: \\(N_A=6,022\\cdot10^{23}\\,\\mathrm{mol^-1}\\) och \\(1\\,\\mathrm{eV}=1,602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm antalet urankärnor från substansmängden och multiplicera med energin per fission.</p><div class=\"facit-matte\">\\[N=\\frac{600}{235}N_A=1,538\\cdot10^{24}\\]\\[E=N\\cdot195\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=4,803\\cdot10^{13}\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4,803\\cdot10^{13}\\ \\mathrm J\\).</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
@@ -123481,7 +123481,7 @@ window.BANK = [
     "niva": "A",
     "typ": "energiutbyte från makroskopisk mängd kärnbränsle",
     "poang": "(0/1/2)",
-    "t": "<p>Anta att varje fission av \\(^235U\\) frigör \\(200\\,\\mathrm{MeV}\\). Hur mycket energi frigörs om \\(0,7\\,\\mathrm{kg}\\) rent \\(^235U\\) fissionerar fullständigt? Data: \\(N_A=6,022\\cdot10^{23}\\,\\mathrm{mol^-1}\\) och \\(1\\,\\mathrm{eV}=1,602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
+    "t": "<p>Anta att varje fission av \\(^{235}\\mathrm{U}\\) frigör \\(200\\,\\mathrm{MeV}\\). Hur mycket energi frigörs om \\(0,7\\,\\mathrm{kg}\\) rent \\(^{235}\\mathrm{U}\\) fissionerar fullständigt? Data: \\(N_A=6,022\\cdot10^{23}\\,\\mathrm{mol^-1}\\) och \\(1\\,\\mathrm{eV}=1,602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm antalet urankärnor från substansmängden och multiplicera med energin per fission.</p><div class=\"facit-matte\">\\[N=\\frac{700}{235}N_A=1,794\\cdot10^{24}\\]\\[E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=5,747\\cdot10^{13}\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5,747\\cdot10^{13}\\ \\mathrm J\\).</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [

@@ -49456,8 +49456,8 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Beräkna.</p><p>a) \\(\\int_0^{\\pi}\\cos(2x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_0^{\\pi/2}2\\sin(2x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^{\\pi/4}4\\cos(4x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^{\\pi/6}6\\sin(3x)\\,dx\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm en primitiv funktion med de trigonometriska deriveringsreglerna och sätt sedan in övre minus undre gräns. Håll reda på eventuella inre koefficienter.</p><div class=\"facit-arbete\"><p>a) Primitiv \\(\\frac12\\sin2x\\): <strong>0</strong>.</p><p>b) Primitiv \\(-\\cos2x\\): \\(-\\cos\\pi)-(-\\cos0)=1-(-1)=\\boxed{2}\\).</p><p>c) Primitiv \\(\\sin4x\\): <strong>\\(1\\)</strong>.</p><p>d) Primitiv \\(-2\\cos3x\\): \\(-2\\cos\\frac\\pi2)-(-2\\cos0)=\\boxed{2}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att du får tillbaka integranden.</p></div>",
+    "t": "<p>Beräkna.</p><p>a) \\(\\int_0^{\\pi}\\cos(2x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_0^{\\pi/2}2\\sin(2x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^{\\pi/8}4\\cos(4x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^{\\pi/6}6\\sin(3x)\\,dx\\)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm en primitiv funktion med de trigonometriska deriveringsreglerna och sätt sedan in övre minus undre gräns. Håll reda på eventuella inre koefficienter.</p><div class=\"facit-arbete\"><p>a) Primitiv \\(\\frac12\\sin2x\\): <strong>0</strong>.</p><p>b) Primitiv \\(-\\cos2x\\): \\(-\\cos\\pi)-(-\\cos0)=1-(-1)=\\boxed{2}\\).</p><p>c) Primitiv \\(\\sin4x\\): \\(\\sin\\frac{\\pi}{2}-\\sin0=1-0=\\boxed{1}\\).</p><p>d) Primitiv \\(-2\\cos3x\\): \\(-2\\cos\\frac\\pi2)-(-2\\cos0)=\\boxed{2}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att du får tillbaka integranden.</p></div>",
     "familj": "Bestämda integraler med trigonometriska funktioner",
     "formaga": [
       "procedur"
@@ -49516,8 +49516,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(\\int_0^{\\pi/4}4\\cos(4x)\\,dx\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">Primitiv \\(\\sin4x\\): <strong>\\(1\\)</strong>.</div></p><p></p>",
+        "fraga": "<p>\\(\\int_0^{\\pi/8}4\\cos(4x)\\,dx\\)</p>",
+        "s": "<p><div class=\"spel-en-del\">Primitiv \\(\\sin4x\\): \\(\\sin\\frac{\\pi}{2}-\\sin0=1-0=1\\). <strong>Svar:</strong> \\(1\\).</div></p><p></p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,

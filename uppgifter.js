@@ -129405,6 +129405,2999 @@ window.BANK = [
     ]
   },
   {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "mekanisk energi",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En fallskärmshoppare (95 kg) faller med 8,0 m/s på 4,5 m höjd. Bestäm den mekaniska energin relativt marken.</li><li>En pil (0,140 kg) är 45,0 m över marken och har rörelseenergin 250 J. Bestäm den mekaniska energin.</li><li>Ett föremål med farten 29,2 m/s har den mekaniska energin 563 J och lägesenergin 175 J. Bestäm massan.</li><li>En boll med farten 7,5 m/s på 15 m höjd har den mekaniska energin 50 J. Bestäm massan.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=95\\cdot9{,}82\\cdot4{,}5+\\dfrac{95\\cdot8{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(7\\,238\\) J</p></li><li><p>\\(E=0{,}140\\cdot9{,}82\\cdot45{,}0+250\\).</p><p><strong>Svar:</strong> \\(312\\) J</p></li><li><p>\\(E_k=388\\) J, \\(m=\\dfrac{2\\cdot388}{29{,}2^2}\\).</p><p><strong>Svar:</strong> \\(0{,}910\\) kg</p></li><li><p>\\(m=\\dfrac{50}{\\tfrac12\\cdot7{,}5^2+9{,}82\\cdot15}\\).</p><p><strong>Svar:</strong> \\(0{,}29\\) kg</p></li></ol>",
+    "id": "5.473",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7238.05,
+      311.866,
+      0.9101144680052543,
+      0.2850220892119139
+    ],
+    "tolerans": [
+      109.0,
+      4.68,
+      0.0137,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En fallskärmshoppare (95 kg) faller med 8,0 m/s på 4,5 m höjd. Bestäm den mekaniska energin relativt marken.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En fallskärmshoppare (95 kg) faller med 8,0 m/s på 4,5 m höjd. Bestäm den mekaniska energin relativt marken.</p>",
+        "s": "<p>\\(E=95\\cdot9{,}82\\cdot4{,}5+\\dfrac{95\\cdot8{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(7\\,238\\) J</p>",
+        "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En pil (0,140 kg) är 45,0 m över marken och har rörelseenergin 250 J. Bestäm den mekaniska energin.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pil (0,140 kg) är 45,0 m över marken och har rörelseenergin 250 J. Bestäm den mekaniska energin.</p>",
+        "s": "<p>\\(E=0{,}140\\cdot9{,}82\\cdot45{,}0+250\\).</p><p><strong>Svar:</strong> \\(312\\) J</p>",
+        "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett föremål med farten 29,2 m/s har den mekaniska energin 563 J och lägesenergin 175 J. Bestäm massan.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett föremål med farten 29,2 m/s har den mekaniska energin 563 J och lägesenergin 175 J. Bestäm massan.</p>",
+        "s": "<p>\\(E_k=388\\) J, \\(m=\\dfrac{2\\cdot388}{29{,}2^2}\\).</p><p><strong>Svar:</strong> \\(0{,}910\\) kg</p>",
+        "ledtrad": "<p>Bestäm rörelseenergin först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En boll med farten 7,5 m/s på 15 m höjd har den mekaniska energin 50 J. Bestäm massan.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En boll med farten 7,5 m/s på 15 m höjd har den mekaniska energin 50 J. Bestäm massan.</p>",
+        "s": "<p>\\(m=\\dfrac{50}{\\tfrac12\\cdot7{,}5^2+9{,}82\\cdot15}\\).</p><p><strong>Svar:</strong> \\(0{,}29\\) kg</p>",
+        "ledtrad": "<p>Bryt ut \\(m\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "golfboll",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p><ol type=\"a\"><li>Bestäm bollens mekaniska energi relativt marken.</li><li>Hur högt skulle bollen som mest kunna komma med denna energi?</li><li>Med vilken fart slår bollen i marken?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=0{,}0459\\left(\\dfrac{23{,}4^2}{2}+9{,}82\\cdot15{,}0\\right)\\).</p><p><strong>Svar:</strong> \\(19{,}3\\) J</p></li><li><p>\\(h=\\dfrac{E}{mg}=\\dfrac{421{,}1}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(42{,}9\\) m</p></li><li><p>\\(v=\\sqrt{2\\cdot421{,}1}\\).</p><p><strong>Svar:</strong> \\(29{,}0\\) m/s</p></li></ol>",
+    "id": "5.474",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      19.327572,
+      42.87983706720977,
+      29.01999310820042
+    ],
+    "tolerans": [
+      0.29,
+      0.643,
+      0.435
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm bollens mekaniska energi relativt marken.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p><p>Bestäm bollens mekaniska energi relativt marken.</p>",
+        "s": "<p>\\(E=0{,}0459\\left(\\dfrac{23{,}4^2}{2}+9{,}82\\cdot15{,}0\\right)\\).</p><p><strong>Svar:</strong> \\(19{,}3\\) J</p>",
+        "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt skulle bollen som mest kunna komma med denna energi?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p><p>Hur högt skulle bollen som mest kunna komma med denna energi?</p>",
+        "s": "<p>\\(h=\\dfrac{E}{mg}=\\dfrac{421{,}1}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(42{,}9\\) m</p>",
+        "ledtrad": "<p>All energi som lägesenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Med vilken fart slår bollen i marken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p><p>Med vilken fart slår bollen i marken?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot421{,}1}\\).</p><p><strong>Svar:</strong> \\(29{,}0\\) m/s</p>",
+        "ledtrad": "<p>All energi som rörelseenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "sten som släpps",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p><ol type=\"a\"><li>Bestäm lägesenergin från början.</li><li>Med vilken fart slår stenen i marken?</li><li>Vilken fart har stenen 1,0 m över marken?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E_p=5{,}4\\cdot9{,}82\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(159\\) J</p></li><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(7{,}7\\) m/s</p></li><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot2{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}3\\) m/s</p></li></ol>",
+    "id": "5.475",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      159.084,
+      7.675936424958196,
+      6.267375846396959
+    ],
+    "tolerans": [
+      5.1,
+      0.115,
+      0.094
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm lägesenergin från början.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p><p>Bestäm lägesenergin från början.</p>",
+        "s": "<p>\\(E_p=5{,}4\\cdot9{,}82\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(159\\) J</p>",
+        "ledtrad": "<p>\\(E_p=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med vilken fart slår stenen i marken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p><p>Med vilken fart slår stenen i marken?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(7{,}7\\) m/s</p>",
+        "ledtrad": "<p>\\(mgh=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken fart har stenen 1,0 m över marken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p><p>Vilken fart har stenen 1,0 m över marken?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot2{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}3\\) m/s</p>",
+        "ledtrad": "<p>Hur långt har den fallit?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "raket och boll rakt upp",
+    "poang": "(3/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En raket (140 g) skjuts rakt upp med 22 m/s. Bestäm rörelseenergin vid starten.</li><li>Hur högt kommer raketen?</li><li>En boll kastas rakt upp och vänder 10 m upp. Med vilken fart kastades den?</li><li>Hur högt är bollen när farten är halva utgångsfarten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E_k=\\dfrac{0{,}140\\cdot22^2}{2}\\).</p><p><strong>Svar:</strong> \\(34\\) J</p></li><li><p>\\(h=\\dfrac{22^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(25\\) m</p></li><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot10}\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p></li><li><p>Kvar finns \\(\\tfrac14\\) av rörelseenergin: \\(h=\\tfrac34\\cdot10\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m</p></li></ol>",
+    "id": "5.476",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      33.88,
+      24.643584521384927,
+      14.01427843308388,
+      7.5
+    ],
+    "tolerans": [
+      0.51,
+      0.51,
+      0.51,
+      0.112
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "J",
+      "m",
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En raket (140 g) skjuts rakt upp med 22 m/s. Bestäm rörelseenergin vid starten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En raket (140 g) skjuts rakt upp med 22 m/s. Bestäm rörelseenergin vid starten.</p>",
+        "s": "<p>\\(E_k=\\dfrac{0{,}140\\cdot22^2}{2}\\).</p><p><strong>Svar:</strong> \\(34\\) J</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt kommer raketen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Hur högt kommer raketen?</p>",
+        "s": "<p>\\(h=\\dfrac{22^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(25\\) m</p>",
+        "ledtrad": "<p>\\(\\dfrac{mv^2}{2}=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En boll kastas rakt upp och vänder 10 m upp. Med vilken fart kastades den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En boll kastas rakt upp och vänder 10 m upp. Med vilken fart kastades den?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot10}\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p>",
+        "ledtrad": "<p>\\(\\dfrac{mv^2}{2}=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur högt är bollen när farten är halva utgångsfarten?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Hur högt är bollen när farten är halva utgångsfarten?</p>",
+        "s": "<p>Kvar finns \\(\\tfrac14\\) av rörelseenergin: \\(h=\\tfrac34\\cdot10\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m</p>",
+        "ledtrad": "<p>Halva farten ger en fjärdedel av rörelseenergin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "fall och lodrätt kast",
+    "poang": "(3/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En hammare faller 5,6 m. Bestäm farten vid marken.</li><li>En pil skjuts rakt upp med 40 m/s. Hur högt kommer den?</li><li>En loppa hoppar 10 mm högt. Bestäm utgångsfarten.</li><li>En kolv kastas ut från ett fönster 5,6 m upp med farten 12 m/s. Bestäm farten vid marken.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot5{,}6}\\).</p><p><strong>Svar:</strong> \\(10\\) m/s</p></li><li><p>\\(h=\\dfrac{40^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(81\\) m</p></li><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot0{,}010}\\).</p><p><strong>Svar:</strong> \\(0{,}44\\) m/s</p></li><li><p>\\(v=\\sqrt{12^2+2\\cdot9{,}82\\cdot5{,}6}\\).</p><p><strong>Svar:</strong> \\(16\\) m/s</p></li></ol>",
+    "id": "5.477",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.487325683891008,
+      81.46639511201629,
+      0.4431703961232068,
+      15.936875477959912
+    ],
+    "tolerans": [
+      0.51,
+      1.22,
+      0.00665,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En hammare faller 5,6 m. Bestäm farten vid marken.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En hammare faller 5,6 m. Bestäm farten vid marken.</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot5{,}6}\\).</p><p><strong>Svar:</strong> \\(10\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En pil skjuts rakt upp med 40 m/s. Hur högt kommer den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pil skjuts rakt upp med 40 m/s. Hur högt kommer den?</p>",
+        "s": "<p>\\(h=\\dfrac{40^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(81\\) m</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{v^2}{2g}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En loppa hoppar 10 mm högt. Bestäm utgångsfarten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En loppa hoppar 10 mm högt. Bestäm utgångsfarten.</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot0{,}010}\\).</p><p><strong>Svar:</strong> \\(0{,}44\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En kolv kastas ut från ett fönster 5,6 m upp med farten 12 m/s. Bestäm farten vid marken.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kolv kastas ut från ett fönster 5,6 m upp med farten 12 m/s. Bestäm farten vid marken.</p>",
+        "s": "<p>\\(v=\\sqrt{12^2+2\\cdot9{,}82\\cdot5{,}6}\\).</p><p><strong>Svar:</strong> \\(16\\) m/s</p>",
+        "ledtrad": "<p>Riktningen spelar ingen roll för energin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "fönstrets höjd",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten faller förbi ett fönster. Vid överkanten är farten 15,2 m/s och vid underkanten 16,6 m/s. Hur högt är fönstret?</p>",
+    "s": "<p>\\(h=\\dfrac{16{,}6^2-15{,}2^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}27\\) m</p>",
+    "id": "5.478",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.266802443991857,
+    "tolerans": 0.034,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ändringen i rörelseenergi.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "pulka uppför backe",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pulka åker med 22,5 m/s uppför en isig backe vars topp är 11,0 m högre. Bortse från friktion. Bestäm farten på toppen.</p>",
+    "s": "<p>\\(v=\\sqrt{22{,}5^2-2\\cdot9{,}82\\cdot11{,}0}\\).</p><p><strong>Svar:</strong> \\(17{,}0\\) m/s</p>",
+    "id": "5.479",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17.03555106241063,
+    "tolerans": 0.256,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "simhopp från tio meter",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p><ol type=\"a\"><li>Vilken fart har hen 5,00 m över vattnet, utan sats?</li><li>Med vilken fart når hen vattnet, utan sats?</li><li>Med vilken fart når hen vattnet efter ett hopp snett uppåt med 3,00 m/s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot5{,}00}\\).</p><p><strong>Svar:</strong> \\(9{,}9\\) m/s</p></li><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot10{,}0}\\).</p><p><strong>Svar:</strong> \\(14{,}0\\) m/s</p></li><li><p>\\(v=\\sqrt{3{,}00^2+2\\cdot9{,}82\\cdot10{,}0}\\).</p><p><strong>Svar:</strong> \\(14{,}3\\) m/s</p></li></ol>",
+    "id": "5.480",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.909591313469996,
+      14.01427843308388,
+      14.331782861877304
+    ],
+    "tolerans": [
+      0.149,
+      0.21,
+      0.215
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har hen 5,00 m över vattnet, utan sats?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p><p>Vilken fart har hen 5,00 m över vattnet, utan sats?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot5{,}00}\\).</p><p><strong>Svar:</strong> \\(9{,}9\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med vilken fart når hen vattnet, utan sats?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p><p>Med vilken fart når hen vattnet, utan sats?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot10{,}0}\\).</p><p><strong>Svar:</strong> \\(14{,}0\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Med vilken fart når hen vattnet efter ett hopp snett uppåt med 3,00 m/s?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p><p>Med vilken fart når hen vattnet efter ett hopp snett uppåt med 3,00 m/s?</p>",
+        "s": "<p>\\(v=\\sqrt{3{,}00^2+2\\cdot9{,}82\\cdot10{,}0}\\).</p><p><strong>Svar:</strong> \\(14{,}3\\) m/s</p>",
+        "ledtrad": "<p>Riktningen spelar ingen roll.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "energi utan friktion",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>Greta åker nedför en 2,7 m hög backe med 12 m/s och passerar sedan en 1,0 m hög backe. Bestäm farten där.</li><li>En vikt skjuts uppåt med 8,0 m/s längs en pelare. Hur högt når den?</li><li>En sten kastas rakt upp med 15,5 m/s från en klippa 75 m över havet. Hur högt över havet kommer den?</li><li>Med vilken fart når samma sten havet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{12^2+2\\cdot9{,}82\\cdot1{,}7}\\).</p><p><strong>Svar:</strong> \\(13\\) m/s</p></li><li><p>\\(h=\\dfrac{8{,}0^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) m</p></li><li><p>\\(h=75+\\dfrac{15{,}5^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(87\\) m</p></li><li><p>\\(v=\\sqrt{15{,}5^2+2\\cdot9{,}82\\cdot75}\\).</p><p><strong>Svar:</strong> \\(41\\) m/s</p></li></ol>",
+    "id": "5.481",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13.318708646111304,
+      3.2586558044806515,
+      87.23268839103869,
+      41.391424232562954
+    ],
+    "tolerans": [
+      0.51,
+      0.051,
+      1.31,
+      0.621
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Greta åker nedför en 2,7 m hög backe med 12 m/s och passerar sedan en 1,0 m hög backe. Bestäm farten där.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Greta åker nedför en 2,7 m hög backe med 12 m/s och passerar sedan en 1,0 m hög backe. Bestäm farten där.</p>",
+        "s": "<p>\\(v=\\sqrt{12^2+2\\cdot9{,}82\\cdot1{,}7}\\).</p><p><strong>Svar:</strong> \\(13\\) m/s</p>",
+        "ledtrad": "<p>Höjdskillnaden är 1,7 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En vikt skjuts uppåt med 8,0 m/s längs en pelare. Hur högt når den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En vikt skjuts uppåt med 8,0 m/s längs en pelare. Hur högt når den?</p>",
+        "s": "<p>\\(h=\\dfrac{8{,}0^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) m</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{v^2}{2g}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En sten kastas rakt upp med 15,5 m/s från en klippa 75 m över havet. Hur högt över havet kommer den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten kastas rakt upp med 15,5 m/s från en klippa 75 m över havet. Hur högt över havet kommer den?</p>",
+        "s": "<p>\\(h=75+\\dfrac{15{,}5^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(87\\) m</p>",
+        "ledtrad": "<p>Lägg till stigningen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Med vilken fart når samma sten havet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Med vilken fart når samma sten havet?</p>",
+        "s": "<p>\\(v=\\sqrt{15{,}5^2+2\\cdot9{,}82\\cdot75}\\).</p><p><strong>Svar:</strong> \\(41\\) m/s</p>",
+        "ledtrad": "<p>Energin från utkastet plus fallet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "längdhopp",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En längdhoppare lämnar plankan med 10,2 m/s när tyngdpunkten är 0,920 m över marken.</p><ol type=\"a\"><li>I högsta punkten är farten 9,61 m/s. Hur högt är tyngdpunkten där?</li><li>Med vilken fart landar hen om tyngdpunkten då är 0,460 m över marken?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=0{,}920+\\dfrac{10{,}2^2-9{,}61^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(1{,}52\\) m</p></li><li><p>\\(v=\\sqrt{10{,}2^2+2\\cdot9{,}82\\cdot0{,}460}\\).</p><p><strong>Svar:</strong> \\(10{,}6\\) m/s</p></li></ol>",
+    "id": "5.482",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5151069246435847,
+      10.633644718533716
+    ],
+    "tolerans": [
+      0.0227,
+      0.16
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En längdhoppare lämnar plankan med 10,2 m/s när tyngdpunkten är 0,920 m över marken.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "I högsta punkten är farten 9,61 m/s. Hur högt är tyngdpunkten där?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En längdhoppare lämnar plankan med 10,2 m/s när tyngdpunkten är 0,920 m över marken.</p><p>I högsta punkten är farten 9,61 m/s. Hur högt är tyngdpunkten där?</p>",
+        "s": "<p>\\(h=0{,}920+\\dfrac{10{,}2^2-9{,}61^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(1{,}52\\) m</p>",
+        "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med vilken fart landar hen om tyngdpunkten då är 0,460 m över marken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En längdhoppare lämnar plankan med 10,2 m/s när tyngdpunkten är 0,920 m över marken.</p><p>Med vilken fart landar hen om tyngdpunkten då är 0,460 m över marken?</p>",
+        "s": "<p>\\(v=\\sqrt{10{,}2^2+2\\cdot9{,}82\\cdot0{,}460}\\).</p><p><strong>Svar:</strong> \\(10{,}6\\) m/s</p>",
+        "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "andel lägesenergi",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En flicka (35 kg) lämnar en studsmatta med rörelseenergin 440 J. Hur högt är hon när rörelseenergin är 210 J?</li><li>En sten har farten 22 m/s på 8,0 m höjd. Hur högt är den när lägesenergin är 80 % av den mekaniska energin?</li><li>En motorcykel lämnar en ramp med 35,0 m/s och har 33,0 m/s i högsta punkten. Hur högt över rampen kommer den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{440-210}{35\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}67\\) m</p></li><li><p>\\(gh=0{,}80\\left(\\dfrac{22^2}{2}+9{,}82\\cdot8{,}0\\right)\\).</p><p><strong>Svar:</strong> \\(26\\) m</p></li><li><p>\\(h=\\dfrac{35{,}0^2-33{,}0^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(6{,}92\\) m</p></li></ol>",
+    "id": "5.483",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6691882455629911,
+      26.114867617107947,
+      6.924643584521385
+    ],
+    "tolerans": [
+      0.01,
+      0.51,
+      0.104
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En flicka (35 kg) lämnar en studsmatta med rörelseenergin 440 J. Hur högt är hon när rörelseenergin är 210 J?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En flicka (35 kg) lämnar en studsmatta med rörelseenergin 440 J. Hur högt är hon när rörelseenergin är 210 J?</p>",
+        "s": "<p>\\(h=\\dfrac{440-210}{35\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}67\\) m</p>",
+        "ledtrad": "<p>Minskningen blev lägesenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En sten har farten 22 m/s på 8,0 m höjd. Hur högt är den när lägesenergin är 80 % av den mekaniska energin?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten har farten 22 m/s på 8,0 m höjd. Hur högt är den när lägesenergin är 80 % av den mekaniska energin?</p>",
+        "s": "<p>\\(gh=0{,}80\\left(\\dfrac{22^2}{2}+9{,}82\\cdot8{,}0\\right)\\).</p><p><strong>Svar:</strong> \\(26\\) m</p>",
+        "ledtrad": "<p>Räkna per kilogram.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En motorcykel lämnar en ramp med 35,0 m/s och har 33,0 m/s i högsta punkten. Hur högt över rampen kommer den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En motorcykel lämnar en ramp med 35,0 m/s och har 33,0 m/s i högsta punkten. Hur högt över rampen kommer den?</p>",
+        "s": "<p>\\(h=\\dfrac{35{,}0^2-33{,}0^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(6{,}92\\) m</p>",
+        "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "pendel som släpps vågrätt",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendelkula (0,50 kg) dras ut vågrätt och släpps. På 0,60 m höjd över jämviktsläget har den farten 3,0 m/s.</p><ol type=\"a\"><li>Bestäm farten i jämviktsläget.</li><li>Bestäm pendelns längd.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{3{,}0^2+2\\cdot9{,}82\\cdot0{,}60}\\).</p><p><strong>Svar:</strong> \\(4{,}6\\) m/s</p></li><li><p>Kulan släpptes på höjden \\(l\\): \\(l=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m</p></li></ol>",
+    "id": "5.484",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.558947246898126,
+      1.0582484725050916
+    ],
+    "tolerans": [
+      0.0684,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendelkula (0,50 kg) dras ut vågrätt och släpps. På 0,60 m höjd över jämviktsläget har den farten 3,0 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm farten i jämviktsläget.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendelkula (0,50 kg) dras ut vågrätt och släpps. På 0,60 m höjd över jämviktsläget har den farten 3,0 m/s.</p><p>Bestäm farten i jämviktsläget.</p>",
+        "s": "<p>\\(v=\\sqrt{3{,}0^2+2\\cdot9{,}82\\cdot0{,}60}\\).</p><p><strong>Svar:</strong> \\(4{,}6\\) m/s</p>",
+        "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm pendelns längd.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendelkula (0,50 kg) dras ut vågrätt och släpps. På 0,60 m höjd över jämviktsläget har den farten 3,0 m/s.</p><p>Bestäm pendelns längd.</p>",
+        "s": "<p>Kulan släpptes på höjden \\(l\\): \\(l=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m</p>",
+        "ledtrad": "<p>Från vågrätt läge faller kulan en pendellängd.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "vattenstråle rakt upp",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Jenny håller en vattenslang rakt upp 1,80 m över marken. Vattnet lämnar slangen med farten \\(v\\) och når marken med farten \\(v+1{,}20\\) m/s.</p><ol type=\"a\"><li>Bestäm \\(v\\).</li><li>Hur högt över marken når vattnet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\((v+1{,}20)^2=v^2+2\\cdot9{,}82\\cdot1{,}80\\iff2{,}40v=35{,}35-1{,}44\\).</p><p><strong>Svar:</strong> \\(14{,}1\\) m/s</p></li><li><p>\\(h=1{,}80+\\dfrac{v^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(12{,}0\\) m</p></li></ol>",
+    "id": "5.485",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14.130000000000003,
+      11.965829938900207
+    ],
+    "tolerans": [
+      0.212,
+      0.179
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Jenny håller en vattenslang rakt upp 1,80 m över marken. Vattnet lämnar slangen med farten \\(v\\) och når marken med farten \\(v+1{,}20\\) m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(v\\).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Jenny håller en vattenslang rakt upp 1,80 m över marken. Vattnet lämnar slangen med farten \\(v\\) och når marken med farten \\(v+1{,}20\\) m/s.</p><p>Bestäm \\(v\\).</p>",
+        "s": "<p>\\((v+1{,}20)^2=v^2+2\\cdot9{,}82\\cdot1{,}80\\iff2{,}40v=35{,}35-1{,}44\\).</p><p><strong>Svar:</strong> \\(14{,}1\\) m/s</p>",
+        "ledtrad": "<p>Ställ upp energiekvationen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt över marken når vattnet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Jenny håller en vattenslang rakt upp 1,80 m över marken. Vattnet lämnar slangen med farten \\(v\\) och når marken med farten \\(v+1{,}20\\) m/s.</p>Vattnet lämnar slangen med 14,1 m/s.<p>Hur högt över marken når vattnet?</p>",
+        "s": "<p>\\(h=1{,}80+\\dfrac{v^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(12{,}0\\) m</p>",
+        "ledtrad": "<p>Lägg till slangens höjd.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "vikter över trissa",
+    "poang": "(0/4/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa.</p><ol type=\"a\"><li>En vikt på 4,00 kg släpps från 5,00 m höjd medan en vikt på 2,00 kg står på bordet. Vilken fart har vikterna när den tyngre slår i bordet?</li><li>En vikt på 3,0 kg är 0,80 m över bordet och en på 1,20 kg är 0,30 m över bordet. Vilken fart har de när den tyngre slår i bordet?</li><li>Vikterna 5,0 kg och 15 kg hänger på samma höjd, 0,65 m över bordet. Vilken fart har de när den tyngre slår i bordet?</li><li>En vikt (3,0 kg) på ett friktionsfritt bord är förbunden med en hängande vikt (0,80 kg). Vilken fart har de efter 1,3 m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\((4{,}00-2{,}00)\\cdot9{,}82\\cdot5{,}00=\\dfrac{6{,}00v^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}72\\) m/s</p></li><li><p>\\((3{,}0-1{,}20)\\cdot9{,}82\\cdot0{,}80=\\dfrac{4{,}2v^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}6\\) m/s</p></li><li><p>\\(10\\cdot9{,}82\\cdot0{,}65=\\dfrac{20v^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s</p></li><li><p>\\(0{,}80\\cdot9{,}82\\cdot1{,}3=\\dfrac{3{,}8v^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s</p></li></ol>",
+    "id": "5.486",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.721305212391079,
+      2.594940131431607,
+      2.5264599739556535,
+      2.3184386760785465
+    ],
+    "tolerans": [
+      0.0858,
+      0.051,
+      0.051,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En vikt på 4,00 kg släpps från 5,00 m höjd medan en vikt på 2,00 kg står på bordet. Vilken fart har vikterna när den tyngre slår i bordet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa.</p><p>En vikt på 4,00 kg släpps från 5,00 m höjd medan en vikt på 2,00 kg står på bordet. Vilken fart har vikterna när den tyngre slår i bordet?</p>",
+        "s": "<p>\\((4{,}00-2{,}00)\\cdot9{,}82\\cdot5{,}00=\\dfrac{6{,}00v^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}72\\) m/s</p>",
+        "ledtrad": "<p>Systemets lägesenergi minskar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En vikt på 3,0 kg är 0,80 m över bordet och en på 1,20 kg är 0,30 m över bordet. Vilken fart har de när den tyngre slår i bordet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa.</p><p>En vikt på 3,0 kg är 0,80 m över bordet och en på 1,20 kg är 0,30 m över bordet. Vilken fart har de när den tyngre slår i bordet?</p>",
+        "s": "<p>\\((3{,}0-1{,}20)\\cdot9{,}82\\cdot0{,}80=\\dfrac{4{,}2v^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}6\\) m/s</p>",
+        "ledtrad": "<p>Båda flyttas 0,80 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vikterna 5,0 kg och 15 kg hänger på samma höjd, 0,65 m över bordet. Vilken fart har de när den tyngre slår i bordet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa.</p><p>Vikterna 5,0 kg och 15 kg hänger på samma höjd, 0,65 m över bordet. Vilken fart har de när den tyngre slår i bordet?</p>",
+        "s": "<p>\\(10\\cdot9{,}82\\cdot0{,}65=\\dfrac{20v^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s</p>",
+        "ledtrad": "<p>Systemets lägesenergi minskar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En vikt (3,0 kg) på ett friktionsfritt bord är förbunden med en hängande vikt (0,80 kg). Vilken fart har de efter 1,3 m?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa.</p><p>En vikt (3,0 kg) på ett friktionsfritt bord är förbunden med en hängande vikt (0,80 kg). Vilken fart har de efter 1,3 m?</p>",
+        "s": "<p>\\(0{,}80\\cdot9{,}82\\cdot1{,}3=\\dfrac{3{,}8v^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s</p>",
+        "ledtrad": "<p>Bara den hängande vikten förlorar lägesenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Lägesenergin blir rörelseenergi hos båda vikterna.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "pendel och lian",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En pendel (1,00 m) släpps när snöret bildar 30° med lodlinjen. Bestäm farten i jämviktsläget.</li><li>Oskar springer med 6,0 m/s, tar tag i ett 10,0 m långt rep och svingar ut. Vilken vinkel med lodlinjen har repet när han stannar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=1{,}00(1-\\cos30^\\circ)\\), \\(v=\\sqrt{2gh}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) m/s</p></li><li><p>\\(h=\\dfrac{6{,}0^2}{2\\cdot9{,}82}\\), \\(\\cos\\theta=1-\\dfrac{h}{10{,}0}\\).</p><p><strong>Svar:</strong> \\(35\\) °</p></li></ol>",
+    "id": "5.487",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energiprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.6221162318630635,
+      35.244136839003914
+    ],
+    "tolerans": [
+      0.051,
+      0.529
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En pendel (1,00 m) släpps när snöret bildar 30° med lodlinjen. Bestäm farten i jämviktsläget.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendel (1,00 m) släpps när snöret bildar 30° med lodlinjen. Bestäm farten i jämviktsläget.</p>",
+        "s": "<p>\\(h=1{,}00(1-\\cos30^\\circ)\\), \\(v=\\sqrt{2gh}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) m/s</p>",
+        "ledtrad": "<p>Bestäm höjdskillnaden.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Oskar springer med 6,0 m/s, tar tag i ett 10,0 m långt rep och svingar ut. Vilken vinkel med lodlinjen har repet när han stannar?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Oskar springer med 6,0 m/s, tar tag i ett 10,0 m långt rep och svingar ut. Vilken vinkel med lodlinjen har repet när han stannar?</p>",
+        "s": "<p>\\(h=\\dfrac{6{,}0^2}{2\\cdot9{,}82}\\), \\(\\cos\\theta=1-\\dfrac{h}{10{,}0}\\).</p><p><strong>Svar:</strong> \\(35\\) °</p>",
+        "ledtrad": "<p>Bestäm höjden först.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "rorelseenergi__energiprincipen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "inbromsning efter fall",
+    "poang": "(0/4/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En flicka (62 kg) faller 18,0 m ner i ett brandsegel som bromsar henne på 1,00 m. Bestäm den genomsnittliga kraften från seglet.</li><li>En person (80,0 kg) hoppar ner från 60,0 cm och landar med raka ben (stoppsträcka 1,5 cm). Bestäm kraften från golvet.</li><li>Personen böjer knäna så att stoppsträckan blir 30,0 cm. Bestäm kraften från golvet.</li><li>En cykelhjälm med huvudmodell (5,0 kg) släpps från 2,0 m och frigoliten trycks ihop 3,0 cm. Bestäm den bromsande kraften.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F\\cdot1{,}00=62\\cdot9{,}82\\cdot19{,}0\\).</p><p><strong>Svar:</strong> \\(11\\,568\\) N</p></li><li><p>\\(F\\cdot0{,}015=80{,}0\\cdot9{,}82\\cdot0{,}615\\).</p><p><strong>Svar:</strong> \\(32\\,210\\) N</p></li><li><p>\\(F\\cdot0{,}300=80{,}0\\cdot9{,}82\\cdot0{,}900\\).</p><p><strong>Svar:</strong> \\(2\\,357\\) N</p></li><li><p>\\(F\\cdot0{,}030=5{,}0\\cdot9{,}82\\cdot2{,}03\\).</p><p><strong>Svar:</strong> \\(3\\,322\\) N</p></li></ol>",
+    "id": "5.488",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11567.960000000001,
+      32209.600000000002,
+      2356.8,
+      3322.433333333333
+    ],
+    "tolerans": [
+      510.0,
+      510.0,
+      51.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En flicka (62 kg) faller 18,0 m ner i ett brandsegel som bromsar henne på 1,00 m. Bestäm den genomsnittliga kraften från seglet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En flicka (62 kg) faller 18,0 m ner i ett brandsegel som bromsar henne på 1,00 m. Bestäm den genomsnittliga kraften från seglet.</p>",
+        "s": "<p>\\(F\\cdot1{,}00=62\\cdot9{,}82\\cdot19{,}0\\).</p><p><strong>Svar:</strong> \\(11\\,568\\) N</p>",
+        "ledtrad": "<p>Hela fallhöjden är 19,0 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En person (80,0 kg) hoppar ner från 60,0 cm och landar med raka ben (stoppsträcka 1,5 cm). Bestäm kraften från golvet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En person (80,0 kg) hoppar ner från 60,0 cm och landar med raka ben (stoppsträcka 1,5 cm). Bestäm kraften från golvet.</p>",
+        "s": "<p>\\(F\\cdot0{,}015=80{,}0\\cdot9{,}82\\cdot0{,}615\\).</p><p><strong>Svar:</strong> \\(32\\,210\\) N</p>",
+        "ledtrad": "<p>Hela fallhöjden är 0,615 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Personen böjer knäna så att stoppsträckan blir 30,0 cm. Bestäm kraften från golvet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Personen böjer knäna så att stoppsträckan blir 30,0 cm. Bestäm kraften från golvet.</p>",
+        "s": "<p>\\(F\\cdot0{,}300=80{,}0\\cdot9{,}82\\cdot0{,}900\\).</p><p><strong>Svar:</strong> \\(2\\,357\\) N</p>",
+        "ledtrad": "<p>Hela fallhöjden är 0,900 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En cykelhjälm med huvudmodell (5,0 kg) släpps från 2,0 m och frigoliten trycks ihop 3,0 cm. Bestäm den bromsande kraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En cykelhjälm med huvudmodell (5,0 kg) släpps från 2,0 m och frigoliten trycks ihop 3,0 cm. Bestäm den bromsande kraften.</p>",
+        "s": "<p>\\(F\\cdot0{,}030=5{,}0\\cdot9{,}82\\cdot2{,}03\\).</p><p><strong>Svar:</strong> \\(3\\,322\\) N</p>",
+        "ledtrad": "<p>Hela fallhöjden är 2,03 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Bromskraftens arbete = minskningen i lägesenergi under hela förloppet.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "kloss bromsas av friktion",
+    "poang": "(0/2/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En kloss med 6,0 m/s glider friktionsfritt upp 1,1 m och sedan på en vågrät sträcka med friktionstalet 0,60. Hur långt glider den där?</li><li>En kloss med 7,0 m/s på 6,0 m höjd glider friktionsfritt ner till 2,0 m och sedan på vågrätt underlag med friktionstalet 0,70. Hur långt glider den där?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{6{,}0^2}{2}-9{,}82\\cdot1{,}1=0{,}60\\cdot9{,}82\\cdot d\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m</p></li><li><p>\\(\\dfrac{7{,}0^2}{2}+9{,}82\\cdot4{,}0=0{,}70\\cdot9{,}82\\cdot s\\).</p><p><strong>Svar:</strong> \\(9{,}3\\) m</p></li></ol>",
+    "id": "5.489",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.2216564833672774,
+      9.278440500436428
+    ],
+    "tolerans": [
+      0.051,
+      0.139
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En kloss med 6,0 m/s glider friktionsfritt upp 1,1 m och sedan på en vågrät sträcka med friktionstalet 0,60. Hur långt glider den där?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss med 6,0 m/s glider friktionsfritt upp 1,1 m och sedan på en vågrät sträcka med friktionstalet 0,60. Hur långt glider den där?</p>",
+        "s": "<p>\\(\\dfrac{6{,}0^2}{2}-9{,}82\\cdot1{,}1=0{,}60\\cdot9{,}82\\cdot d\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m</p>",
+        "ledtrad": "<p>Räkna per kilogram.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kloss med 7,0 m/s på 6,0 m höjd glider friktionsfritt ner till 2,0 m och sedan på vågrätt underlag med friktionstalet 0,70. Hur långt glider den där?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss med 7,0 m/s på 6,0 m höjd glider friktionsfritt ner till 2,0 m och sedan på vågrätt underlag med friktionstalet 0,70. Hur långt glider den där?</p>",
+        "s": "<p>\\(\\dfrac{7{,}0^2}{2}+9{,}82\\cdot4{,}0=0{,}70\\cdot9{,}82\\cdot s\\).</p><p><strong>Svar:</strong> \\(9{,}3\\) m</p>",
+        "ledtrad": "<p>Räkna per kilogram.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionsarbete \\(=\\mu mgs\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "kula i sand från olika höjd",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En stålkula släpps från 25 cm höjd och gör en 1,5 cm djup grop i sand. Hur djup blir gropen om kulan släpps från 75 cm med samma bromsande kraft?</p>",
+    "s": "<p>\\(F\\cdot0{,}015=mg\\cdot0{,}265\\iff F=17{,}7mg\\). \\(17{,}7mg\\cdot d=mg(0{,}75+d)\\iff d=\\dfrac{0{,}75}{16{,}7}\\).</p><p><strong>Svar:</strong> \\(0{,}045\\) m</p>",
+    "id": "5.490",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.045,
+    "tolerans": 0.000675,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm bromskraften ur första fallet.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "hopp ner i barnpool",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En person (75,0 kg) hoppar från 10,8 m ner i en barnpool med 0,305 m vatten, som bromsar hela rörelsen.</p><ol type=\"a\"><li>Bestäm den genomsnittliga bromskraften.</li><li>Bestäm retardationen uttryckt i antal \\(g\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F\\cdot0{,}305=75{,}0\\cdot9{,}82\\cdot11{,}105\\).</p><p><strong>Svar:</strong> \\(26\\,816\\) N</p></li><li><p>\\(a=\\dfrac{F-mg}{m}\\), dela med 9,82.</p><p><strong>Svar:</strong> \\(35\\)</p></li></ol>",
+    "id": "5.491",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      26815.844262295082,
+      35.40983606557377
+    ],
+    "tolerans": [
+      402.0,
+      0.531
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En person (75,0 kg) hoppar från 10,8 m ner i en barnpool med 0,305 m vatten, som bromsar hela rörelsen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den genomsnittliga bromskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En person (75,0 kg) hoppar från 10,8 m ner i en barnpool med 0,305 m vatten, som bromsar hela rörelsen.</p><p>Bestäm den genomsnittliga bromskraften.</p>",
+        "s": "<p>\\(F\\cdot0{,}305=75{,}0\\cdot9{,}82\\cdot11{,}105\\).</p><p><strong>Svar:</strong> \\(26\\,816\\) N</p>",
+        "ledtrad": "<p>Hela fallhöjden.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm retardationen uttryckt i antal \\(g\\).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En person (75,0 kg) hoppar från 10,8 m ner i en barnpool med 0,305 m vatten, som bromsar hela rörelsen.</p>Bromskraften är 26,8 kN.<p>Bestäm retardationen uttryckt i antal \\(g\\).</p>",
+        "s": "<p>\\(a=\\dfrac{F-mg}{m}\\), dela med 9,82.</p><p><strong>Svar:</strong> \\(35\\)</p>",
+        "ledtrad": "<p>Den resulterande kraften är bromskraft minus tyngd.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Bromskraftens arbete = minskningen i lägesenergi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "energiförluster",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En studsboll (45 g) släpps från 2,0 m och studsar upp till 1,6 m. Hur mycket energi blev värme?</li><li>En tennisboll (57 g) kastas rakt upp med 8,8 m/s och når 3,7 m. Hur mycket energi förlorades till luftmotståndet?</li><li>Pelle (80 kg) åker från vila nedför en 150 m hög backe och har 12 m/s längst ner. Hur mycket energi blev värme?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=0{,}045\\cdot9{,}82\\cdot0{,}4\\).</p><p><strong>Svar:</strong> \\(0{,}18\\) J</p></li><li><p>\\(Q=\\dfrac{0{,}057\\cdot8{,}8^2}{2}-0{,}057\\cdot9{,}82\\cdot3{,}7\\).</p><p><strong>Svar:</strong> \\(0{,}14\\) J</p></li><li><p>\\(Q=80\\cdot9{,}82\\cdot150-\\dfrac{80\\cdot12^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) J</p></li></ol>",
+    "id": "5.492",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.17676000000000003,
+      0.13600200000000015,
+      112080.0
+    ],
+    "tolerans": [
+      0.0051,
+      0.0051,
+      5100.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En studsboll (45 g) släpps från 2,0 m och studsar upp till 1,6 m. Hur mycket energi blev värme?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En studsboll (45 g) släpps från 2,0 m och studsar upp till 1,6 m. Hur mycket energi blev värme?</p>",
+        "s": "<p>\\(Q=0{,}045\\cdot9{,}82\\cdot0{,}4\\).</p><p><strong>Svar:</strong> \\(0{,}18\\) J</p>",
+        "ledtrad": "<p>Skillnaden i lägesenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En tennisboll (57 g) kastas rakt upp med 8,8 m/s och når 3,7 m. Hur mycket energi förlorades till luftmotståndet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En tennisboll (57 g) kastas rakt upp med 8,8 m/s och når 3,7 m. Hur mycket energi förlorades till luftmotståndet?</p>",
+        "s": "<p>\\(Q=\\dfrac{0{,}057\\cdot8{,}8^2}{2}-0{,}057\\cdot9{,}82\\cdot3{,}7\\).</p><p><strong>Svar:</strong> \\(0{,}14\\) J</p>",
+        "ledtrad": "<p>Start-energi minus slutenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Pelle (80 kg) åker från vila nedför en 150 m hög backe och har 12 m/s längst ner. Hur mycket energi blev värme?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Pelle (80 kg) åker från vila nedför en 150 m hög backe och har 12 m/s längst ner. Hur mycket energi blev värme?</p>",
+        "s": "<p>\\(Q=80\\cdot9{,}82\\cdot150-\\dfrac{80\\cdot12^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>Start-energi minus slutenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Förlorad mekanisk energi blir värme.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "friktionsarbete i backar",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En skateboardåkare (55 kg) har 20 m/s och åker upp för en 5,0 m hög backe, där farten blir 12 m/s. Hur stort är friktionsarbetet?</li><li>Åke (100 kg) åker ner för en 100 m hög backe och friktionen gör bromsarbetet 30,0 kJ. Bestäm farten längst ner.</li><li>En skidåkare (75 kg) har 8,0 m/s vid foten av en 8,0 m lång och 1,8 m hög backe. Friktionen är 80 N. Bestäm farten på toppen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=\\dfrac{55(20^2-12^2)}{2}-55\\cdot9{,}82\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(4\\,340\\) J</p></li><li><p>\\(\\dfrac{100v^2}{2}=100\\cdot9{,}82\\cdot100-30\\,000\\).</p><p><strong>Svar:</strong> \\(36{,}9\\) m/s</p></li><li><p>\\(\\dfrac{75v^2}{2}=\\dfrac{75\\cdot8{,}0^2}{2}-75\\cdot9{,}82\\cdot1{,}8-80\\cdot8{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}4\\) m/s</p></li></ol>",
+    "id": "5.493",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4339.5,
+      36.932370625238775,
+      3.403135808828871
+    ],
+    "tolerans": [
+      65.1,
+      0.554,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En skateboardåkare (55 kg) har 20 m/s och åker upp för en 5,0 m hög backe, där farten blir 12 m/s. Hur stort är friktionsarbetet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En skateboardåkare (55 kg) har 20 m/s och åker upp för en 5,0 m hög backe, där farten blir 12 m/s. Hur stort är friktionsarbetet?</p>",
+        "s": "<p>\\(W=\\dfrac{55(20^2-12^2)}{2}-55\\cdot9{,}82\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(4\\,340\\) J</p>",
+        "ledtrad": "<p>Energiförlusten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Åke (100 kg) åker ner för en 100 m hög backe och friktionen gör bromsarbetet 30,0 kJ. Bestäm farten längst ner.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Åke (100 kg) åker ner för en 100 m hög backe och friktionen gör bromsarbetet 30,0 kJ. Bestäm farten längst ner.</p>",
+        "s": "<p>\\(\\dfrac{100v^2}{2}=100\\cdot9{,}82\\cdot100-30\\,000\\).</p><p><strong>Svar:</strong> \\(36{,}9\\) m/s</p>",
+        "ledtrad": "<p>Lägesenergi minus friktionsarbete.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En skidåkare (75 kg) har 8,0 m/s vid foten av en 8,0 m lång och 1,8 m hög backe. Friktionen är 80 N. Bestäm farten på toppen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En skidåkare (75 kg) har 8,0 m/s vid foten av en 8,0 m lång och 1,8 m hög backe. Friktionen är 80 N. Bestäm farten på toppen.</p>",
+        "s": "<p>\\(\\dfrac{75v^2}{2}=\\dfrac{75\\cdot8{,}0^2}{2}-75\\cdot9{,}82\\cdot1{,}8-80\\cdot8{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}4\\) m/s</p>",
+        "ledtrad": "<p>Både lägesenergi och friktion.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_\\text{start}=E_\\text{slut}+W_\\text{friktion}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "brännboll och luftmotstånd",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En boll (75 g) slås iväg med 40 m/s från 1,2 m höjd och landar med 30 m/s i toppen av ett 20 m högt träd. Hur stort arbete gjorde luftmotståndet?</p>",
+    "s": "<p>\\(W=0{,}075\\left(\\dfrac{40^2-30^2}{2}-9{,}82\\cdot18{,}8\\right)\\).</p><p><strong>Svar:</strong> \\(12\\) J</p>",
+    "id": "5.494",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.403799999999999,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Start-energi minus slutenergi.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "bil rullar uppför backe",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1,2 ton) med 110 km/h stänger av motorn i början av en backe med lutningen 2,5° och stannar 22,0 m högre upp.</p><ol type=\"a\"><li>Hur mycket energi blev värme?</li><li>Hur långt uppför backen kom bilen?</li><li>Bestäm den genomsnittliga friktionskraften.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=\\dfrac{1\\,200\\cdot30{,}6^2}{2}-1\\,200\\cdot9{,}82\\cdot22{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p></li><li><p>\\(s=\\dfrac{22{,}0}{\\sin2{,}5^\\circ}\\).</p><p><strong>Svar:</strong> \\(504\\) m</p></li><li><p>\\(F=\\dfrac{Q}{s}\\).</p><p><strong>Svar:</strong> \\(597\\) N</p></li></ol>",
+    "id": "5.495",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      300937.18518518505,
+      504.3628837731736,
+      596.6679842375655
+    ],
+    "tolerans": [
+      5100.0,
+      7.57,
+      8.95
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "m",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1,2 ton) med 110 km/h stänger av motorn i början av en backe med lutningen 2,5° och stannar 22,0 m högre upp.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi blev värme?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1,2 ton) med 110 km/h stänger av motorn i början av en backe med lutningen 2,5° och stannar 22,0 m högre upp.</p><p>Hur mycket energi blev värme?</p>",
+        "s": "<p>\\(Q=\\dfrac{1\\,200\\cdot30{,}6^2}{2}-1\\,200\\cdot9{,}82\\cdot22{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>Rörelseenergi minus lägesenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt uppför backen kom bilen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1,2 ton) med 110 km/h stänger av motorn i början av en backe med lutningen 2,5° och stannar 22,0 m högre upp.</p><p>Hur långt uppför backen kom bilen?</p>",
+        "s": "<p>\\(s=\\dfrac{22{,}0}{\\sin2{,}5^\\circ}\\).</p><p><strong>Svar:</strong> \\(504\\) m</p>",
+        "ledtrad": "<p>Trigonometri.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm den genomsnittliga friktionskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1,2 ton) med 110 km/h stänger av motorn i början av en backe med lutningen 2,5° och stannar 22,0 m högre upp.</p>Värmen är 0,30 MJ och sträckan 0,50 km.<p>Bestäm den genomsnittliga friktionskraften.</p>",
+        "s": "<p>\\(F=\\dfrac{Q}{s}\\).</p><p><strong>Svar:</strong> \\(597\\) N</p>",
+        "ledtrad": "<p>\\(Q=Fs\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Energiförlusten är friktionsarbete.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "skidåkare uppför brant backe",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En skidåkare (60,0 kg) glider med 12,0 m/s upp för en 2,5 m hög backe med lutningen 35° och friktionstalet 0,80. Bestäm farten på toppen.</p>",
+    "s": "<p>\\(s=\\dfrac{2{,}5}{\\sin35^\\circ}\\), \\(W_f=0{,}80\\cdot60{,}0\\cdot9{,}82\\cos35^\\circ\\cdot s\\). \\(\\dfrac{60{,}0v^2}{2}=\\dfrac{60{,}0\\cdot12{,}0^2}{2}-60{,}0\\cdot9{,}82\\cdot2{,}5-W_f\\).</p><p><strong>Svar:</strong> \\(6{,}2\\) m/s</p>",
+    "id": "5.496",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.229152935606072,
+    "tolerans": 0.0934,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Normalkraften är \\(mg\\cos\\alpha\\).</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "E",
+    "typ": "rörelseenergi i vardagen",
+    "poang": "(4/0/0)",
+    "t": "<p>Bestäm rörelseenergin.</p><ol type=\"a\"><li>En gepard (72 kg) med 32 m/s.</li><li>En bil (1,2 ton) med 80 km/h.</li><li>En meteor (5,0 kg) med 48 km/s.</li><li>En astronaut (80,0 kg) med 27 500 km/h.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E_k=\\dfrac{72\\cdot32^2}{2}\\).</p><p><strong>Svar:</strong> \\(36\\,864\\) J</p></li><li><p>\\(E_k=\\dfrac{1\\,200\\cdot22{,}2^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p></li><li><p>\\(E_k=\\dfrac{5{,}0\\cdot48\\,000^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{9}\\) J</p></li><li><p>\\(E_k=\\dfrac{80{,}0\\cdot7\\,639^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\cdot10^{9}\\) J</p></li></ol>",
+    "id": "5.503",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      36864,
+      296296.2962962963,
+      5760000000.0,
+      2334104938.2716045
+    ],
+    "tolerans": [
+      553.0,
+      5100.0,
+      86400000.0,
+      51000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm rörelseenergin.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En gepard (72 kg) med 32 m/s.",
+        "t": "<p>Bestäm rörelseenergin.</p><p>En gepard (72 kg) med 32 m/s.</p>",
+        "s": "<p>\\(E_k=\\dfrac{72\\cdot32^2}{2}\\).</p><p><strong>Svar:</strong> \\(36\\,864\\) J</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil (1,2 ton) med 80 km/h.",
+        "t": "<p>Bestäm rörelseenergin.</p><p>En bil (1,2 ton) med 80 km/h.</p>",
+        "s": "<p>\\(E_k=\\dfrac{1\\,200\\cdot22{,}2^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>Gör om till m/s.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En meteor (5,0 kg) med 48 km/s.",
+        "t": "<p>Bestäm rörelseenergin.</p><p>En meteor (5,0 kg) med 48 km/s.</p>",
+        "s": "<p>\\(E_k=\\dfrac{5{,}0\\cdot48\\,000^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{9}\\) J</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En astronaut (80,0 kg) med 27 500 km/h.",
+        "t": "<p>Bestäm rörelseenergin.</p><p>En astronaut (80,0 kg) med 27 500 km/h.</p>",
+        "s": "<p>\\(E_k=\\dfrac{80{,}0\\cdot7\\,639^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\cdot10^{9}\\) J</p>",
+        "ledtrad": "<p>Gör om till m/s.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "fart ur rörelseenergi",
+    "poang": "(2/2/0)",
+    "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><ol type=\"a\"><li>En blykula (0,50 g) har rörelseenergin 2,0 J. Bestäm farten.</li><li>En kvävemolekyl (\\(4{,}65\\cdot10^{-26}\\) kg) har rörelseenergin \\(6{,}07\\cdot10^{-21}\\) J. Bestäm farten.</li><li>Vid vilken fart har en bil (1 000 kg) samma rörelseenergi som en lastbil (20 ton) med 25 km/h? Svara i km/h.</li><li>Hur fort måste en elefant (3,0 ton) springa för att ha samma rörelseenergi som en löpare (65,0 kg) med 10,0 m/s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{\\dfrac{2\\cdot2{,}0}{0{,}00050}}\\).</p><p><strong>Svar:</strong> \\(89\\) m/s</p></li><li><p>\\(v=\\sqrt{\\dfrac{2\\cdot6{,}07\\cdot10^{-21}}{4{,}65\\cdot10^{-26}}}\\).</p><p><strong>Svar:</strong> \\(511\\) m/s</p></li><li><p>\\(v=25\\sqrt{20}\\).</p><p><strong>Svar:</strong> \\(112\\) km/h</p></li><li><p>\\(v=10{,}0\\sqrt{\\dfrac{65{,}0}{3\\,000}}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m/s</p></li></ol>",
+    "id": "5.504",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      89.44271909999159,
+      510.95525128645494,
+      111.80339887498948,
+      1.4719601443879746
+    ],
+    "tolerans": [
+      1.34,
+      7.66,
+      5.1,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "km/h",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En blykula (0,50 g) har rörelseenergin 2,0 J. Bestäm farten.",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En blykula (0,50 g) har rörelseenergin 2,0 J. Bestäm farten.</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2\\cdot2{,}0}{0{,}00050}}\\).</p><p><strong>Svar:</strong> \\(89\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\sqrt{\\dfrac{2E_k}{m}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kvävemolekyl (\\(4{,}65\\cdot10^{-26}\\) kg) har rörelseenergin \\(6{,}07\\cdot10^{-21}\\) J. Bestäm farten.",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En kvävemolekyl (\\(4{,}65\\cdot10^{-26}\\) kg) har rörelseenergin \\(6{,}07\\cdot10^{-21}\\) J. Bestäm farten.</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2\\cdot6{,}07\\cdot10^{-21}}{4{,}65\\cdot10^{-26}}}\\).</p><p><strong>Svar:</strong> \\(511\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\sqrt{\\dfrac{2E_k}{m}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vid vilken fart har en bil (1 000 kg) samma rörelseenergi som en lastbil (20 ton) med 25 km/h? Svara i km/h.",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>Vid vilken fart har en bil (1 000 kg) samma rörelseenergi som en lastbil (20 ton) med 25 km/h? Svara i km/h.</p>",
+        "s": "<p>\\(v=25\\sqrt{20}\\).</p><p><strong>Svar:</strong> \\(112\\) km/h</p>",
+        "ledtrad": "<p>\\(v\\propto\\dfrac{1}{\\sqrt m}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur fort måste en elefant (3,0 ton) springa för att ha samma rörelseenergi som en löpare (65,0 kg) med 10,0 m/s?",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>Hur fort måste en elefant (3,0 ton) springa för att ha samma rörelseenergi som en löpare (65,0 kg) med 10,0 m/s?</p>",
+        "s": "<p>\\(v=10{,}0\\sqrt{\\dfrac{65{,}0}{3\\,000}}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m/s</p>",
+        "ledtrad": "<p>Sätt rörelseenergierna lika.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "rörelseenergi och fart",
+    "poang": "(3/1/0)",
+    "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><ol type=\"a\"><li>Bestäm massan.</li><li>Bestäm rörelseenergin om farten fördubblas.</li><li>Bestäm rörelseenergin om farten halveras.</li><li>En bil har farten 10 m/s. Vilken fart ger dubbla rörelseenergin?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m=\\dfrac{2\\cdot305}{12{,}4^2}\\).</p><p><strong>Svar:</strong> \\(3{,}97\\) kg</p></li><li><p>\\(4\\cdot305\\).</p><p><strong>Svar:</strong> \\(1\\,220\\) J</p></li><li><p>\\(\\dfrac{305}{4}\\).</p><p><strong>Svar:</strong> \\(76{,}2\\) J</p></li><li><p>\\(v=10\\sqrt2\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p></li></ol>",
+    "id": "5.505",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.967221644120707,
+      1220,
+      76.25,
+      14.142135623730951
+    ],
+    "tolerans": [
+      0.0595,
+      18.3,
+      1.14,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "kg",
+      "J",
+      "J",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm massan.",
+        "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><p>Bestäm massan.</p>",
+        "s": "<p>\\(m=\\dfrac{2\\cdot305}{12{,}4^2}\\).</p><p><strong>Svar:</strong> \\(3{,}97\\) kg</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm rörelseenergin om farten fördubblas.",
+        "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><p>Bestäm rörelseenergin om farten fördubblas.</p>",
+        "s": "<p>\\(4\\cdot305\\).</p><p><strong>Svar:</strong> \\(1\\,220\\) J</p>",
+        "ledtrad": "<p>\\(E_k\\propto v^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm rörelseenergin om farten halveras.",
+        "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><p>Bestäm rörelseenergin om farten halveras.</p>",
+        "s": "<p>\\(\\dfrac{305}{4}\\).</p><p><strong>Svar:</strong> \\(76{,}2\\) J</p>",
+        "ledtrad": "<p>\\(E_k\\propto v^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En bil har farten 10 m/s. Vilken fart ger dubbla rörelseenergin?",
+        "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><p>En bil har farten 10 m/s. Vilken fart ger dubbla rörelseenergin?</p>",
+        "s": "<p>\\(v=10\\sqrt2\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p>",
+        "ledtrad": "<p>\\(E_k\\propto v^2\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "månens rörelseenergi",
+    "poang": "(0/1/0)",
+    "t": "<p>Månen (\\(7{,}36\\cdot10^{22}\\) kg) går i en cirkelbana med radien \\(3{,}84\\cdot10^8\\) m runt jorden med omloppstiden 27,3 dygn. Bestäm månens rörelseenergi.</p>",
+    "s": "<p>\\(v=\\dfrac{2\\pi\\cdot3{,}84\\cdot10^8}{27{,}3\\cdot86\\,400}=1\\,023\\) m/s. \\(E_k=\\dfrac{7{,}36\\cdot10^{22}\\cdot v^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}9\\cdot10^{28}\\) J</p>",
+    "id": "5.506",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.8505008631896638e+28,
+    "tolerans": 5.78e+26,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten ur omkrets och tid.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J",
+    "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "kvot mellan farter",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett föremål (5,0 kg) har tre gånger så stor rörelseenergi som ett annat föremål (8,0 kg). Bestäm kvoten mellan det lättare och det tyngre föremålets fart.</p>",
+    "s": "<p>\\(\\dfrac{5{,}0v_1^2}{2}=3\\cdot\\dfrac{8{,}0v_2^2}{2}\\iff\\dfrac{v_1}{v_2}=\\sqrt{\\dfrac{24}{5{,}0}}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) </p>",
+    "id": "5.507",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.1908902300206643,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "två bilar med olika massa",
+    "poang": "(0/1/3)",
+    "t": "<p>Bil A har dubbelt så stor massa som bil B men bara halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p><ol type=\"a\"><li>Bestäm bil A:s fart från början.</li><li>Bestäm bil B:s fart från början.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(2m\\dfrac{v_A^2}{2}=\\tfrac12m\\dfrac{v_B^2}{2}\\iff v_B=2v_A\\). \\(2(v_A+8)^2=(2v_A+8)^2\\iff v_A=\\dfrac{8(\\sqrt2-1)}{2-\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(5{,}7\\) m/s</p></li><li><p>\\(v_B=2v_A\\).</p><p><strong>Svar:</strong> \\(11\\) m/s</p></li></ol>",
+    "id": "5.508",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.656854249492382,
+      11.313708498984765
+    ],
+    "tolerans": [
+      0.0849,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bil A har dubbelt så stor massa som bil B men bara halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm bil A:s fart från början.",
+        "t": "<p>Bil A har dubbelt så stor massa som bil B men bara halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p><p>Bestäm bil A:s fart från början.</p>",
+        "s": "<p>\\(2m\\dfrac{v_A^2}{2}=\\tfrac12m\\dfrac{v_B^2}{2}\\iff v_B=2v_A\\). \\(2(v_A+8)^2=(2v_A+8)^2\\iff v_A=\\dfrac{8(\\sqrt2-1)}{2-\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(5{,}7\\) m/s</p>",
+        "ledtrad": "<p>Uttryck \\(v_B\\) i \\(v_A\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm bil B:s fart från början.",
+        "t": "<p>Bil A har dubbelt så stor massa som bil B men bara halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p>Bil A har 5,7 m/s från början.<p>Bestäm bil B:s fart från början.</p>",
+        "s": "<p>\\(v_B=2v_A\\).</p><p><strong>Svar:</strong> \\(11\\) m/s</p>",
+        "ledtrad": "<p>Uttryck \\(v_B\\) i \\(v_A\\).</p>",
+        "niva": "A",
+        "poang": "(0/0/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+    "traningsniva": 5,
+    "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "ändring i rörelseenergi",
+    "poang": "(2/2/0)",
+    "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><ol type=\"a\"><li>En bil (925 kg) bromsar från 95 km/h till stillastående. Hur stort är bromsarbetet?</li><li>En löpare (57 kg) ökar farten från 6,0 m/s till 7,0 m/s. Hur stort är accelerationsarbetet?</li><li>En curlingsten (18,0 kg) har 12,0 m/s och stannar efter 45,0 m. Bestäm friktionskraften.</li><li>En målbur (22,0 kg) skjuts från vila till 0,40 m/s med kraften 4,0 N. Hur långt flyttas den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=\\dfrac{925\\cdot26{,}4^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{5}\\) J</p></li><li><p>\\(W=\\dfrac{57(7{,}0^2-6{,}0^2)}{2}\\).</p><p><strong>Svar:</strong> \\(370\\) J</p></li><li><p>\\(F=\\dfrac{18{,}0\\cdot12{,}0^2}{2\\cdot45{,}0}\\).</p><p><strong>Svar:</strong> \\(28{,}8\\) N</p></li><li><p>\\(s=\\dfrac{22{,}0\\cdot0{,}40^2}{2\\cdot4{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}44\\) m</p></li></ol>",
+    "id": "5.509",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      322072.7237654321,
+      370.5,
+      28.8,
+      0.44
+    ],
+    "tolerans": [
+      5100.0,
+      5.56,
+      0.432,
+      0.0066
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bil (925 kg) bromsar från 95 km/h till stillastående. Hur stort är bromsarbetet?",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En bil (925 kg) bromsar från 95 km/h till stillastående. Hur stort är bromsarbetet?</p>",
+        "s": "<p>\\(W=\\dfrac{925\\cdot26{,}4^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>Arbetet = ändringen i rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En löpare (57 kg) ökar farten från 6,0 m/s till 7,0 m/s. Hur stort är accelerationsarbetet?",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En löpare (57 kg) ökar farten från 6,0 m/s till 7,0 m/s. Hur stort är accelerationsarbetet?</p>",
+        "s": "<p>\\(W=\\dfrac{57(7{,}0^2-6{,}0^2)}{2}\\).</p><p><strong>Svar:</strong> \\(370\\) J</p>",
+        "ledtrad": "<p>Arbetet = ändringen i rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En curlingsten (18,0 kg) har 12,0 m/s och stannar efter 45,0 m. Bestäm friktionskraften.",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En curlingsten (18,0 kg) har 12,0 m/s och stannar efter 45,0 m. Bestäm friktionskraften.</p>",
+        "s": "<p>\\(F=\\dfrac{18{,}0\\cdot12{,}0^2}{2\\cdot45{,}0}\\).</p><p><strong>Svar:</strong> \\(28{,}8\\) N</p>",
+        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En målbur (22,0 kg) skjuts från vila till 0,40 m/s med kraften 4,0 N. Hur långt flyttas den?",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En målbur (22,0 kg) skjuts från vila till 0,40 m/s med kraften 4,0 N. Hur långt flyttas den?</p>",
+        "s": "<p>\\(s=\\dfrac{22{,}0\\cdot0{,}40^2}{2\\cdot4{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}44\\) m</p>",
+        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Arbete = ändring i rörelseenergi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "basebollar",
+    "poang": "(0/2/0)",
+    "t": "<p>En baseboll väger 145 g.</p><ol type=\"a\"><li>Bollen har 32,0 m/s och fångas i en handske som förflyttas 25,0 cm. Bestäm den genomsnittliga kraften.</li><li>Bollen saktar in från 39,0 m/s till 36,2 m/s på 18,4 m. Bestäm luftmotståndets medelkraft.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{0{,}145\\cdot32{,}0^2}{2\\cdot0{,}250}\\).</p><p><strong>Svar:</strong> \\(297\\) N</p></li><li><p>\\(F=\\dfrac{0{,}145(39{,}0^2-36{,}2^2)}{2\\cdot18{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}830\\) N</p></li></ol>",
+    "id": "5.510",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      296.96,
+      0.8296521739130424
+    ],
+    "tolerans": [
+      4.45,
+      0.0124
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En baseboll väger 145 g.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bollen har 32,0 m/s och fångas i en handske som förflyttas 25,0 cm. Bestäm den genomsnittliga kraften.",
+        "t": "<p>En baseboll väger 145 g.</p><p>Bollen har 32,0 m/s och fångas i en handske som förflyttas 25,0 cm. Bestäm den genomsnittliga kraften.</p>",
+        "s": "<p>\\(F=\\dfrac{0{,}145\\cdot32{,}0^2}{2\\cdot0{,}250}\\).</p><p><strong>Svar:</strong> \\(297\\) N</p>",
+        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bollen saktar in från 39,0 m/s till 36,2 m/s på 18,4 m. Bestäm luftmotståndets medelkraft.",
+        "t": "<p>En baseboll väger 145 g.</p><p>Bollen saktar in från 39,0 m/s till 36,2 m/s på 18,4 m. Bestäm luftmotståndets medelkraft.</p>",
+        "s": "<p>\\(F=\\dfrac{0{,}145(39{,}0^2-36{,}2^2)}{2\\cdot18{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}830\\) N</p>",
+        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Arbete = ändring i rörelseenergi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "flygplan startar",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p><ol type=\"a\"><li>Hur stort accelerationsarbete krävs?</li><li>Vilken resulterande kraft krävs minst?</li><li>Två motorer ger 117 kN var. Hur kort startsträcka räcker då (utan motstånd)?</li><li>Hur stort lyftarbete krävs till marschhöjden 10,5 km?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=\\dfrac{68\\,000\\cdot69{,}4^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}64\\cdot10^{8}\\) J</p></li><li><p>\\(F=\\dfrac{W}{1\\,200}\\).</p><p><strong>Svar:</strong> \\(1{,}37\\cdot10^{5}\\) N</p></li><li><p>\\(s=\\dfrac{164\\cdot10^6}{234\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(701\\) m</p></li><li><p>\\(W=68\\,000\\cdot9{,}82\\cdot10\\,500\\).</p><p><strong>Svar:</strong> \\(7{,}01\\cdot10^{9}\\) J</p></li></ol>",
+    "id": "5.511",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      163966049.38271603,
+      136638.3744855967,
+      700.7096127466497,
+      7011480000.0
+    ],
+    "tolerans": [
+      2460000.0,
+      2050.0,
+      10.5,
+      105000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "J",
+      "N",
+      "m",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stort accelerationsarbete krävs?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p><p>Hur stort accelerationsarbete krävs?</p>",
+        "s": "<p>\\(W=\\dfrac{68\\,000\\cdot69{,}4^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}64\\cdot10^{8}\\) J</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken resulterande kraft krävs minst?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p>Arbetet är 164 MJ.<p>Vilken resulterande kraft krävs minst?</p>",
+        "s": "<p>\\(F=\\dfrac{W}{1\\,200}\\).</p><p><strong>Svar:</strong> \\(1{,}37\\cdot10^{5}\\) N</p>",
+        "ledtrad": "<p>\\(W=Fs\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Två motorer ger 117 kN var. Hur kort startsträcka räcker då (utan motstånd)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p>Arbetet är 164 MJ.<p>Två motorer ger 117 kN var. Hur kort startsträcka räcker då (utan motstånd)?</p>",
+        "s": "<p>\\(s=\\dfrac{164\\cdot10^6}{234\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(701\\) m</p>",
+        "ledtrad": "<p>\\(W=Fs\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stort lyftarbete krävs till marschhöjden 10,5 km?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p><p>Hur stort lyftarbete krävs till marschhöjden 10,5 km?</p>",
+        "s": "<p>\\(W=68\\,000\\cdot9{,}82\\cdot10\\,500\\).</p><p><strong>Svar:</strong> \\(7{,}01\\cdot10^{9}\\) J</p>",
+        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Arbete = ändring i energi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "E",
+    "typ": "bob skjuts igång",
+    "poang": "(1/0/0)",
+    "t": "<p>En bob (390 kg) puttas från vila med den resulterande kraften 270 N under 50 m. Bestäm farten.</p>",
+    "s": "<p>\\(270\\cdot50=\\dfrac{390v^2}{2}\\).</p><p><strong>Svar:</strong> \\(8{,}3\\) m/s</p>",
+    "id": "5.512",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.320502943378436,
+    "tolerans": 0.125,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "E",
+    "typ": "ökning i rörelseenergi",
+    "poang": "(2/0/0)",
+    "t": "<p>En bil (1 000 kg) ökar farten med 5,0 m/s.</p><ol type=\"a\"><li>Farten ökar från 5,0 m/s till 10,0 m/s. Hur mycket ökar rörelseenergin?</li><li>Farten ökar från 10,0 m/s till 15,0 m/s. Hur mycket ökar rörelseenergin?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{1\\,000(10{,}0^2-5{,}0^2)}{2}\\).</p><p><strong>Svar:</strong> \\(37\\,500\\) J</p></li><li><p>\\(\\dfrac{1\\,000(15{,}0^2-10{,}0^2)}{2}\\).</p><p><strong>Svar:</strong> \\(62\\,500\\) J</p></li></ol>",
+    "id": "5.513",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      37500,
+      62500
+    ],
+    "tolerans": [
+      562.0,
+      938.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil (1 000 kg) ökar farten med 5,0 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Farten ökar från 5,0 m/s till 10,0 m/s. Hur mycket ökar rörelseenergin?",
+        "t": "<p>En bil (1 000 kg) ökar farten med 5,0 m/s.</p><p>Farten ökar från 5,0 m/s till 10,0 m/s. Hur mycket ökar rörelseenergin?</p>",
+        "s": "<p>\\(\\dfrac{1\\,000(10{,}0^2-5{,}0^2)}{2}\\).</p><p><strong>Svar:</strong> \\(37\\,500\\) J</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Farten ökar från 10,0 m/s till 15,0 m/s. Hur mycket ökar rörelseenergin?",
+        "t": "<p>En bil (1 000 kg) ökar farten med 5,0 m/s.</p><p>Farten ökar från 10,0 m/s till 15,0 m/s. Hur mycket ökar rörelseenergin?</p>",
+        "s": "<p>\\(\\dfrac{1\\,000(15{,}0^2-10{,}0^2)}{2}\\).</p><p><strong>Svar:</strong> \\(62\\,500\\) J</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Samma fartökning ger olika energiökning.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "bromskraft ur bromssträcka",
+    "poang": "(0/4/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En bil (1 250 kg) bromsar från 21 m/s till stillastående på 65 m. Bestäm friktionskraften.</li><li>Bestäm friktionstalet.</li><li>Bromsspår är 78 m långa och friktionstalet 0,30. Bestäm farten före inbromsningen.</li><li>En gevärskula (15 g, 310 m/s) går in 15 cm i ett träd. Bestäm den genomsnittliga bromskraften.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{1\\,250\\cdot21^2}{2\\cdot65}\\).</p><p><strong>Svar:</strong> \\(4\\,240\\) N</p></li><li><p>\\(\\mu=\\dfrac{F}{mg}\\).</p><p><strong>Svar:</strong> \\(0{,}35\\)</p></li><li><p>\\(v=\\sqrt{2\\cdot0{,}30\\cdot9{,}82\\cdot78}\\).</p><p><strong>Svar:</strong> \\(21\\) m/s</p></li><li><p>\\(F=\\dfrac{0{,}015\\cdot310^2}{2\\cdot0{,}15}\\).</p><p><strong>Svar:</strong> \\(4\\,805\\) N</p></li></ol>",
+    "id": "5.514",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4240.384615384615,
+      0.3454488485038383,
+      21.43772375976517,
+      4805.0
+    ],
+    "tolerans": [
+      63.6,
+      0.00518,
+      0.51,
+      72.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N",
+      null,
+      "m/s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bil (1 250 kg) bromsar från 21 m/s till stillastående på 65 m. Bestäm friktionskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1 250 kg) bromsar från 21 m/s till stillastående på 65 m. Bestäm friktionskraften.</p>",
+        "s": "<p>\\(F=\\dfrac{1\\,250\\cdot21^2}{2\\cdot65}\\).</p><p><strong>Svar:</strong> \\(4\\,240\\) N</p>",
+        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>Friktionskraften är 4,2 kN.<p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{F}{mg}\\).</p><p><strong>Svar:</strong> \\(0{,}35\\)</p>",
+        "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bromsspår är 78 m långa och friktionstalet 0,30. Bestäm farten före inbromsningen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Bromsspår är 78 m långa och friktionstalet 0,30. Bestäm farten före inbromsningen.</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot0{,}30\\cdot9{,}82\\cdot78}\\).</p><p><strong>Svar:</strong> \\(21\\) m/s</p>",
+        "ledtrad": "<p>Massan tar ut sig.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En gevärskula (15 g, 310 m/s) går in 15 cm i ett träd. Bestäm den genomsnittliga bromskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En gevärskula (15 g, 310 m/s) går in 15 cm i ett träd. Bestäm den genomsnittliga bromskraften.</p>",
+        "s": "<p>\\(F=\\dfrac{0{,}015\\cdot310^2}{2\\cdot0{,}15}\\).</p><p><strong>Svar:</strong> \\(4\\,805\\) N</p>",
+        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Bromsarbete = rörelseenergi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "E",
+    "typ": "krock och boxning",
+    "poang": "(4/0/0)",
+    "t": "<p>Bestäm den genomsnittliga bromskraften.</p><ol type=\"a\"><li>En bil (950 kg) med 90,0 km/h stannar mjukt på 120 m.</li><li>Samma bil krockar med ett räcke och stannar på 2,0 m.</li><li>En boxhandske med hand (7,0 kg) med 10,0 m/s stannar på 7,50 cm.</li><li>Utan handske stannar handen på 2,00 cm.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot120}\\).</p><p><strong>Svar:</strong> \\(2\\,474\\) N</p></li><li><p>\\(F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot2{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></li><li><p>\\(F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0750}\\).</p><p><strong>Svar:</strong> \\(4\\,667\\) N</p></li><li><p>\\(F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0200}\\).</p><p><strong>Svar:</strong> \\(17\\,500\\) N</p></li></ol>",
+    "id": "5.515",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2473.9583333333335,
+      148437.5,
+      4666.666666666667,
+      17500.0
+    ],
+    "tolerans": [
+      51.0,
+      5100.0,
+      70.0,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm den genomsnittliga bromskraften.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bil (950 kg) med 90,0 km/h stannar mjukt på 120 m.",
+        "t": "<p>Bestäm den genomsnittliga bromskraften.</p><p>En bil (950 kg) med 90,0 km/h stannar mjukt på 120 m.</p>",
+        "s": "<p>\\(F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot120}\\).</p><p><strong>Svar:</strong> \\(2\\,474\\) N</p>",
+        "ledtrad": "<p>Gör om till m/s.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Samma bil krockar med ett räcke och stannar på 2,0 m.",
+        "t": "<p>Bestäm den genomsnittliga bromskraften.</p><p>Samma bil krockar med ett räcke och stannar på 2,0 m.</p>",
+        "s": "<p>\\(F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot2{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p>",
+        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En boxhandske med hand (7,0 kg) med 10,0 m/s stannar på 7,50 cm.",
+        "t": "<p>Bestäm den genomsnittliga bromskraften.</p><p>En boxhandske med hand (7,0 kg) med 10,0 m/s stannar på 7,50 cm.</p>",
+        "s": "<p>\\(F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0750}\\).</p><p><strong>Svar:</strong> \\(4\\,667\\) N</p>",
+        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Utan handske stannar handen på 2,00 cm.",
+        "t": "<p>Bestäm den genomsnittliga bromskraften.</p><p>Utan handske stannar handen på 2,00 cm.</p>",
+        "s": "<p>\\(F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0200}\\).</p><p><strong>Svar:</strong> \\(17\\,500\\) N</p>",
+        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Längre bromssträcka ger mindre kraft.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "kula genom träskivor",
+    "poang": "(0/1/1)",
+    "t": "<p>En kula med 335 m/s stoppas av precis 8 lika träskivor. Med vilken fart lämnar en likadan kula en enda skiva? Anta samma bromskraft.</p>",
+    "s": "<p>Varje skiva tar \\(\\tfrac18\\) av rörelseenergin: \\(v=335\\sqrt{\\tfrac78}\\).</p><p><strong>Svar:</strong> \\(313\\) m/s</p>",
+    "id": "5.516",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 313.36380614231757,
+    "tolerans": 4.7,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lika stort arbete per skiva.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "dragkraft och friktion",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En låda (3,9 kg) med 8,0 m/s dras 12 m med 15 N mot friktionstalet 0,25. Bestäm slutfarten.</li><li>En släde (16 kg) dras från vila 8,0 m med 24 N och får farten 2,0 m/s. Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{3{,}9v^2}{2}=\\dfrac{3{,}9\\cdot8{,}0^2}{2}+(15-0{,}25\\cdot3{,}9\\cdot9{,}82)\\cdot12\\).</p><p><strong>Svar:</strong> \\(9{,}9\\) m/s</p></li><li><p>\\(24\\cdot8{,}0=\\dfrac{16\\cdot2{,}0^2}{2}+\\mu\\cdot16\\cdot9{,}82\\cdot8{,}0\\).</p><p><strong>Svar:</strong> \\(0{,}13\\)</p></li></ol>",
+    "id": "5.517",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.868520269406773,
+      0.12729124236252545
+    ],
+    "tolerans": [
+      0.148,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En låda (3,9 kg) med 8,0 m/s dras 12 m med 15 N mot friktionstalet 0,25. Bestäm slutfarten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En låda (3,9 kg) med 8,0 m/s dras 12 m med 15 N mot friktionstalet 0,25. Bestäm slutfarten.</p>",
+        "s": "<p>\\(\\dfrac{3{,}9v^2}{2}=\\dfrac{3{,}9\\cdot8{,}0^2}{2}+(15-0{,}25\\cdot3{,}9\\cdot9{,}82)\\cdot12\\).</p><p><strong>Svar:</strong> \\(9{,}9\\) m/s</p>",
+        "ledtrad": "<p>Nettoarbetet ändrar rörelseenergin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En släde (16 kg) dras från vila 8,0 m med 24 N och får farten 2,0 m/s. Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En släde (16 kg) dras från vila 8,0 m med 24 N och får farten 2,0 m/s. Bestäm friktionstalet.</p>",
+        "s": "<p>\\(24\\cdot8{,}0=\\dfrac{16\\cdot2{,}0^2}{2}+\\mu\\cdot16\\cdot9{,}82\\cdot8{,}0\\).</p><p><strong>Svar:</strong> \\(0{,}13\\)</p>",
+        "ledtrad": "<p>Arbetet går till rörelseenergi och friktion.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Nettoarbete = ändring i rörelseenergi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "kloss uppför lutande plan",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss (3,0 kg) skjuts uppför ett plan med lutningen 35° med farten 5,0 m/s.</p><ol type=\"a\"><li>Hur långt glider den utan friktion?</li><li>Hur långt glider den med friktionstalet 0,20?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=\\dfrac{5{,}0^2}{2\\cdot9{,}82\\sin35^\\circ}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m</p></li><li><p>\\(s=\\dfrac{5{,}0^2}{2\\cdot9{,}82(\\sin35^\\circ+0{,}20\\cos35^\\circ)}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) m</p></li></ol>",
+    "id": "5.518",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.219255086075736,
+      1.726200986464598
+    ],
+    "tolerans": [
+      0.051,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss (3,0 kg) skjuts uppför ett plan med lutningen 35° med farten 5,0 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt glider den utan friktion?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss (3,0 kg) skjuts uppför ett plan med lutningen 35° med farten 5,0 m/s.</p><p>Hur långt glider den utan friktion?</p>",
+        "s": "<p>\\(s=\\dfrac{5{,}0^2}{2\\cdot9{,}82\\sin35^\\circ}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m</p>",
+        "ledtrad": "<p>Tyngdkomposanten bromsar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt glider den med friktionstalet 0,20?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss (3,0 kg) skjuts uppför ett plan med lutningen 35° med farten 5,0 m/s.</p><p>Hur långt glider den med friktionstalet 0,20?</p>",
+        "s": "<p>\\(s=\\dfrac{5{,}0^2}{2\\cdot9{,}82(\\sin35^\\circ+0{,}20\\cos35^\\circ)}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) m</p>",
+        "ledtrad": "<p>Både tyngdkomposant och friktion bromsar.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Bromsarbete = rörelseenergi.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "snowboard med friktion",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En snowboardåkare (80 kg) åker från vila nedför en sluttning med lutningen 20° från 45 m höjd. Friktionen är 50 N. Bestäm farten längst ner.</p>",
+    "s": "<p>\\(s=\\dfrac{45}{\\sin20^\\circ}\\). \\(\\dfrac{80v^2}{2}=80\\cdot9{,}82\\cdot45-50s\\).</p><p><strong>Svar:</strong> \\(27\\) m/s</p>",
+    "id": "5.519",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 26.82044001299804,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm backens längd.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "GY25-FY1-VET-01",
     "kap": 9,
     "omr": "em_stralning",
@@ -156722,6 +159715,468 @@ window.BANK = [
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "J"
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "lägesenergi och lyftarbete",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>Anna (52 kg) går upp i ett 80 m högt torn. Bestäm hennes lägesenergi relativt marken.</li><li>Tio oljefat (150 kg var) lastas upp på ett 1,2 m högt flak. Hur stort är lyftarbetet?</li><li>En höjdhoppare har lägesenergin 1,59 kJ på 2,45 m höjd. Bestäm massan.</li><li>En cyklist (66,2 kg) tar sig från 1 270 m till 2 260 m över havet. Hur mycket ökar lägesenergin?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E_p=52\\cdot9{,}82\\cdot80\\).</p><p><strong>Svar:</strong> \\(40\\,851\\) J</p></li><li><p>\\(W=10\\cdot150\\cdot9{,}82\\cdot1{,}2\\).</p><p><strong>Svar:</strong> \\(17\\,676\\) J</p></li><li><p>\\(m=\\dfrac{1\\,590}{9{,}82\\cdot2{,}45}\\).</p><p><strong>Svar:</strong> \\(66\\) kg</p></li><li><p>\\(\\Delta E_p=66{,}2\\cdot9{,}82\\cdot990\\).</p><p><strong>Svar:</strong> \\(6{,}44\\cdot10^{5}\\) J</p></li></ol>",
+    "id": "5.497",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lägesenergi och lyftarbete",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40851.2,
+      17676.0,
+      66.0875348102581,
+      643583.16
+    ],
+    "tolerans": [
+      613.0,
+      510.0,
+      0.991,
+      9650.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "kg",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Anna (52 kg) går upp i ett 80 m högt torn. Bestäm hennes lägesenergi relativt marken.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Anna (52 kg) går upp i ett 80 m högt torn. Bestäm hennes lägesenergi relativt marken.</p>",
+        "s": "<p>\\(E_p=52\\cdot9{,}82\\cdot80\\).</p><p><strong>Svar:</strong> \\(40\\,851\\) J</p>",
+        "ledtrad": "<p>\\(E_p=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Tio oljefat (150 kg var) lastas upp på ett 1,2 m högt flak. Hur stort är lyftarbetet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Tio oljefat (150 kg var) lastas upp på ett 1,2 m högt flak. Hur stort är lyftarbetet?</p>",
+        "s": "<p>\\(W=10\\cdot150\\cdot9{,}82\\cdot1{,}2\\).</p><p><strong>Svar:</strong> \\(17\\,676\\) J</p>",
+        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En höjdhoppare har lägesenergin 1,59 kJ på 2,45 m höjd. Bestäm massan.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En höjdhoppare har lägesenergin 1,59 kJ på 2,45 m höjd. Bestäm massan.</p>",
+        "s": "<p>\\(m=\\dfrac{1\\,590}{9{,}82\\cdot2{,}45}\\).</p><p><strong>Svar:</strong> \\(66\\) kg</p>",
+        "ledtrad": "<p>\\(E_p=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En cyklist (66,2 kg) tar sig från 1 270 m till 2 260 m över havet. Hur mycket ökar lägesenergin?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En cyklist (66,2 kg) tar sig från 1 270 m till 2 260 m över havet. Hur mycket ökar lägesenergin?</p>",
+        "s": "<p>\\(\\Delta E_p=66{,}2\\cdot9{,}82\\cdot990\\).</p><p><strong>Svar:</strong> \\(6{,}44\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>\\(\\Delta E_p=mg\\Delta h\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(E_p=mgh\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "energi i mat och lyftarbete",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p><ol type=\"a\"><li>Ett glas mjölk ger 80 kcal. Hur många glas behöver en person (65 kg) för att gå upp för ett 125 m högt berg, om all energi blir lyftarbete?</li><li>Kroppen kan använda 20 % av energin i en glass (280 kcal) till arbete. Hur högt berg måste en person (75 kg) gå upp för att arbeta bort den?</li><li>Hur många lyft med kraften 20,0 N och sträckan 45,0 cm krävs för samma nyttiga energi?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{65\\cdot9{,}82\\cdot125}{80\\cdot4\\,186}\\).</p><p><strong>Svar:</strong> \\(0{,}24\\)</p></li><li><p>\\(h=\\dfrac{0{,}20\\cdot280\\cdot4\\,186}{75\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(318\\) m</p></li><li><p>\\(\\dfrac{0{,}20\\cdot280\\cdot4\\,186}{20{,}0\\cdot0{,}450}\\).</p><p><strong>Svar:</strong> \\(26\\,046\\)</p></li></ol>",
+    "id": "5.498",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lägesenergi och lyftarbete",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2382569875776398,
+      318.2837746096402,
+      26046.222222222223
+    ],
+    "tolerans": [
+      0.0051,
+      5.1,
+      391.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "m",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett glas mjölk ger 80 kcal. Hur många glas behöver en person (65 kg) för att gå upp för ett 125 m högt berg, om all energi blir lyftarbete?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p><p>Ett glas mjölk ger 80 kcal. Hur många glas behöver en person (65 kg) för att gå upp för ett 125 m högt berg, om all energi blir lyftarbete?</p>",
+        "s": "<p>\\(\\dfrac{65\\cdot9{,}82\\cdot125}{80\\cdot4\\,186}\\).</p><p><strong>Svar:</strong> \\(0{,}24\\)</p>",
+        "ledtrad": "<p>Lyftarbete delat med energi per glas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Kroppen kan använda 20 % av energin i en glass (280 kcal) till arbete. Hur högt berg måste en person (75 kg) gå upp för att arbeta bort den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p><p>Kroppen kan använda 20 % av energin i en glass (280 kcal) till arbete. Hur högt berg måste en person (75 kg) gå upp för att arbeta bort den?</p>",
+        "s": "<p>\\(h=\\dfrac{0{,}20\\cdot280\\cdot4\\,186}{75\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(318\\) m</p>",
+        "ledtrad": "<p>Nyttig energi först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många lyft med kraften 20,0 N och sträckan 45,0 cm krävs för samma nyttiga energi?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p><p>Hur många lyft med kraften 20,0 N och sträckan 45,0 cm krävs för samma nyttiga energi?</p>",
+        "s": "<p>\\(\\dfrac{0{,}20\\cdot280\\cdot4\\,186}{20{,}0\\cdot0{,}450}\\).</p><p><strong>Svar:</strong> \\(26\\,046\\)</p>",
+        "ledtrad": "<p>Arbete per lyft.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(W=mgh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "från Death Valley till Mount Whitney",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p><ol type=\"a\"><li>Bestäm lägesenergin på botten av dalen relativt havsnivån.</li><li>Hur mycket ökar lägesenergin från dalen till toppen?</li><li>Vid ett tillfälle är lägesenergin 1,60 MJ relativt havsnivån. På vilken höjd är vandraren?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E_p=65{,}0\\cdot9{,}82\\cdot(-85{,}0)\\).</p><p><strong>Svar:</strong> \\(-54\\,256\\) J</p></li><li><p>\\(\\Delta E_p=65{,}0\\cdot9{,}82\\cdot4\\,505\\).</p><p><strong>Svar:</strong> \\(2{,}88\\cdot10^{6}\\) J</p></li><li><p>\\(h=\\dfrac{1{,}60\\cdot10^6}{65{,}0\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(2\\,507\\) m</p></li></ol>",
+    "id": "5.499",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lägesenergi och lyftarbete",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -54255.50000000001,
+      2875541.5000000005,
+      2506.6583111389627
+    ],
+    "tolerans": [
+      814.0,
+      43100.0,
+      37.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm lägesenergin på botten av dalen relativt havsnivån.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p><p>Bestäm lägesenergin på botten av dalen relativt havsnivån.</p>",
+        "s": "<p>\\(E_p=65{,}0\\cdot9{,}82\\cdot(-85{,}0)\\).</p><p><strong>Svar:</strong> \\(-54\\,256\\) J</p>",
+        "ledtrad": "<p>Under nollnivån blir lägesenergin negativ.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket ökar lägesenergin från dalen till toppen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p><p>Hur mycket ökar lägesenergin från dalen till toppen?</p>",
+        "s": "<p>\\(\\Delta E_p=65{,}0\\cdot9{,}82\\cdot4\\,505\\).</p><p><strong>Svar:</strong> \\(2{,}88\\cdot10^{6}\\) J</p>",
+        "ledtrad": "<p>Höjdskillnaden är 4 505 m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vid ett tillfälle är lägesenergin 1,60 MJ relativt havsnivån. På vilken höjd är vandraren?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p><p>Vid ett tillfälle är lägesenergin 1,60 MJ relativt havsnivån. På vilken höjd är vandraren?</p>",
+        "s": "<p>\\(h=\\dfrac{1{,}60\\cdot10^6}{65{,}0\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(2\\,507\\) m</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{E_p}{mg}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(E_p=mgh\\) med \\(h\\) från nollnivån.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "lägesenergi med vinklar",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En cyklist (72,0 kg) cyklar 1,2 km upp för en backe med lutningen 4,3°. Hur mycket ökar lägesenergin?</li><li>En flicka (20 kg) gungar i en 3,0 m lång gunga upp till vinkeln 45° från lodlinjen. Hur mycket ökar lägesenergin?</li><li>En rivningskula (600 kg) hänger i en 8,0 m lång vajer. Vilken vinkel med lodlinjen ger lägesenergiökningen 4,5 kJ?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta E_p=72{,}0\\cdot9{,}82\\cdot1\\,200\\sin4{,}3^\\circ\\).</p><p><strong>Svar:</strong> \\(63\\,616\\) J</p></li><li><p>\\(\\Delta E_p=20\\cdot9{,}82\\cdot3{,}0(1-\\cos45^\\circ)\\).</p><p><strong>Svar:</strong> \\(173\\) J</p></li><li><p>\\(1-\\cos\\theta=\\dfrac{4\\,500}{600\\cdot9{,}82\\cdot8{,}0}\\).</p><p><strong>Svar:</strong> \\(25\\) °</p></li></ol>",
+    "id": "5.500",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lägesenergi och lyftarbete",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      63615.55081834408,
+      172.57268452488617,
+      25.23973310984517
+    ],
+    "tolerans": [
+      954.0,
+      5.1,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En cyklist (72,0 kg) cyklar 1,2 km upp för en backe med lutningen 4,3°. Hur mycket ökar lägesenergin?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En cyklist (72,0 kg) cyklar 1,2 km upp för en backe med lutningen 4,3°. Hur mycket ökar lägesenergin?</p>",
+        "s": "<p>\\(\\Delta E_p=72{,}0\\cdot9{,}82\\cdot1\\,200\\sin4{,}3^\\circ\\).</p><p><strong>Svar:</strong> \\(63\\,616\\) J</p>",
+        "ledtrad": "<p>Höjdskillnaden är \\(s\\sin\\alpha\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En flicka (20 kg) gungar i en 3,0 m lång gunga upp till vinkeln 45° från lodlinjen. Hur mycket ökar lägesenergin?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En flicka (20 kg) gungar i en 3,0 m lång gunga upp till vinkeln 45° från lodlinjen. Hur mycket ökar lägesenergin?</p>",
+        "s": "<p>\\(\\Delta E_p=20\\cdot9{,}82\\cdot3{,}0(1-\\cos45^\\circ)\\).</p><p><strong>Svar:</strong> \\(173\\) J</p>",
+        "ledtrad": "<p>Höjden ökar med \\(l(1-\\cos\\theta)\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En rivningskula (600 kg) hänger i en 8,0 m lång vajer. Vilken vinkel med lodlinjen ger lägesenergiökningen 4,5 kJ?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En rivningskula (600 kg) hänger i en 8,0 m lång vajer. Vilken vinkel med lodlinjen ger lägesenergiökningen 4,5 kJ?</p>",
+        "s": "<p>\\(1-\\cos\\theta=\\dfrac{4\\,500}{600\\cdot9{,}82\\cdot8{,}0}\\).</p><p><strong>Svar:</strong> \\(25\\) °</p>",
+        "ledtrad": "<p>Höjden ökar med \\(l(1-\\cos\\theta)\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E_p=mgh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "hiss med motvikt",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En hiss med passagerare (1 202 kg) är förbunden med en motvikt (801 kg). Hissen åker 40 m upp och motvikten 40 m ner.</p><ol type=\"a\"><li>Hur mycket ändras hissens lägesenergi?</li><li>Hur stort arbete måste motorn minst göra?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta E_p=1\\,202\\cdot9{,}82\\cdot40\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{5}\\) J</p></li><li><p>\\(W=(1\\,202-801)\\cdot9{,}82\\cdot40\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{5}\\) J</p></li></ol>",
+    "id": "5.501",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lägesenergi och lyftarbete",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      472145.60000000003,
+      157512.80000000002
+    ],
+    "tolerans": [
+      7080.0,
+      5100.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En hiss med passagerare (1 202 kg) är förbunden med en motvikt (801 kg). Hissen åker 40 m upp och motvikten 40 m ner.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket ändras hissens lägesenergi?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En hiss med passagerare (1 202 kg) är förbunden med en motvikt (801 kg). Hissen åker 40 m upp och motvikten 40 m ner.</p><p>Hur mycket ändras hissens lägesenergi?</p>",
+        "s": "<p>\\(\\Delta E_p=1\\,202\\cdot9{,}82\\cdot40\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>\\(\\Delta E_p=mg\\Delta h\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stort arbete måste motorn minst göra?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En hiss med passagerare (1 202 kg) är förbunden med en motvikt (801 kg). Hissen åker 40 m upp och motvikten 40 m ner.</p><p>Hur stort arbete måste motorn minst göra?</p>",
+        "s": "<p>\\(W=(1\\,202-801)\\cdot9{,}82\\cdot40\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>Motviktens lägesenergi minskar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Motorn behöver bara stå för skillnaden.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "fjäder skjuter upp kula",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En fjäder (88,0 N/m) trycks ihop 4,0 cm och skjuter rakt upp en kula (40 g). Hur högt når kulan om all fjäderenergi blir lägesenergi?</p>",
+    "s": "<p>\\(\\dfrac{88{,}0\\cdot0{,}040^2}{2}=0{,}040\\cdot9{,}82\\cdot h\\).</p><p><strong>Svar:</strong> \\(0{,}18\\) m</p>",
+    "id": "5.502",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.17922606924643583,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fjäderenergi \\(\\dfrac{kx^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "arbete__fjaderenergi",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "5.362",

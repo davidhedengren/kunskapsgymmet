@@ -128676,6 +128676,1303 @@ window.BANK = [
     ]
   },
   {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "E",
+    "typ": "effekt och energi",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En brandman (95 kg) klättrar 8,0 m upp på 28,0 s. Bestäm effekten.</li><li>En maskin avger 72 kJ på 5,0 min. Bestäm effekten.</li><li>En vattenkokare (2,0 kW) är på i 83 s. Hur mycket energi avger den?</li><li>Johan utvecklar 0,35 kW och förbränner 607 kJ. Hur många minuter springer han?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\dfrac{95\\cdot9{,}82\\cdot8{,}0}{28{,}0}\\).</p><p><strong>Svar:</strong> \\(267\\) W</p></li><li><p>\\(P=\\dfrac{72\\,000}{300}\\).</p><p><strong>Svar:</strong> \\(240\\) W</p></li><li><p>\\(E=2\\,000\\cdot83\\).</p><p><strong>Svar:</strong> \\(1{,}7\\cdot10^{5}\\) J</p></li><li><p>\\(t=\\dfrac{607\\,000}{350}\\) s.</p><p><strong>Svar:</strong> \\(29\\) min</p></li></ol>",
+    "id": "5.551",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt P = W/t",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      266.54285714285714,
+      240,
+      166000,
+      28.904761904761905
+    ],
+    "tolerans": [
+      5.1,
+      5.1,
+      5100.0,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "W",
+      "W",
+      "J",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En brandman (95 kg) klättrar 8,0 m upp på 28,0 s. Bestäm effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (95 kg) klättrar 8,0 m upp på 28,0 s. Bestäm effekten.</p>",
+        "s": "<p>\\(P=\\dfrac{95\\cdot9{,}82\\cdot8{,}0}{28{,}0}\\).</p><p><strong>Svar:</strong> \\(267\\) W</p>",
+        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En maskin avger 72 kJ på 5,0 min. Bestäm effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En maskin avger 72 kJ på 5,0 min. Bestäm effekten.</p>",
+        "s": "<p>\\(P=\\dfrac{72\\,000}{300}\\).</p><p><strong>Svar:</strong> \\(240\\) W</p>",
+        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En vattenkokare (2,0 kW) är på i 83 s. Hur mycket energi avger den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vattenkokare (2,0 kW) är på i 83 s. Hur mycket energi avger den?</p>",
+        "s": "<p>\\(E=2\\,000\\cdot83\\).</p><p><strong>Svar:</strong> \\(1{,}7\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>\\(E=Pt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Johan utvecklar 0,35 kW och förbränner 607 kJ. Hur många minuter springer han?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Johan utvecklar 0,35 kW och förbränner 607 kJ. Hur många minuter springer han?</p>",
+        "s": "<p>\\(t=\\dfrac{607\\,000}{350}\\) s.</p><p><strong>Svar:</strong> \\(29\\) min</p>",
+        "ledtrad": "<p>\\(t=\\dfrac EP\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "effekt__effekt_p_w_t",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "effekt vid lyft",
+    "poang": "(2/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En man (75 kg) springer upp för 1 600 trappsteg (20 cm vardera) på 10 min 59 s. Bestäm medeleffekten.</li><li>En vinsch (550 W) hissar en korg (50 kg) 10 m med konstant fart. Hur lång tid tar det?</li><li>Samma vinsch hissar korgen med en person (65 kg). Hur lång tid tar det?</li><li>En hissmotor (42 kW) lyfter en hisskorg (900 kg) 25 m på 12 s. Hur många personer à 75 kg kan den högst lyfta?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\dfrac{75\\cdot9{,}82\\cdot320}{659}\\).</p><p><strong>Svar:</strong> \\(358\\) W</p></li><li><p>\\(t=\\dfrac{50\\cdot9{,}82\\cdot10}{550}\\).</p><p><strong>Svar:</strong> \\(8{,}9\\) s</p></li><li><p>\\(t=\\dfrac{115\\cdot9{,}82\\cdot10}{550}\\).</p><p><strong>Svar:</strong> \\(21\\) s</p></li><li><p>\\(m=\\dfrac{42\\,000\\cdot12}{9{,}82\\cdot25}=2\\,053\\) kg. \\(\\dfrac{2\\,053-900}{75}=15{,}4\\): 15 personer.</p><p><strong>Svar:</strong> \\(15\\)</p></li></ol>",
+    "id": "5.552",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt P = W/t",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      357.63277693474964,
+      8.927272727272728,
+      20.53272727272727,
+      15
+    ],
+    "tolerans": [
+      5.36,
+      0.134,
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "W",
+      "s",
+      "s",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En man (75 kg) springer upp för 1 600 trappsteg (20 cm vardera) på 10 min 59 s. Bestäm medeleffekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En man (75 kg) springer upp för 1 600 trappsteg (20 cm vardera) på 10 min 59 s. Bestäm medeleffekten.</p>",
+        "s": "<p>\\(P=\\dfrac{75\\cdot9{,}82\\cdot320}{659}\\).</p><p><strong>Svar:</strong> \\(358\\) W</p>",
+        "ledtrad": "<p>Total höjd 320 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En vinsch (550 W) hissar en korg (50 kg) 10 m med konstant fart. Hur lång tid tar det?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vinsch (550 W) hissar en korg (50 kg) 10 m med konstant fart. Hur lång tid tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{50\\cdot9{,}82\\cdot10}{550}\\).</p><p><strong>Svar:</strong> \\(8{,}9\\) s</p>",
+        "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Samma vinsch hissar korgen med en person (65 kg). Hur lång tid tar det?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Samma vinsch hissar korgen med en person (65 kg). Hur lång tid tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{115\\cdot9{,}82\\cdot10}{550}\\).</p><p><strong>Svar:</strong> \\(21\\) s</p>",
+        "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En hissmotor (42 kW) lyfter en hisskorg (900 kg) 25 m på 12 s. Hur många personer à 75 kg kan den högst lyfta?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hissmotor (42 kW) lyfter en hisskorg (900 kg) 25 m på 12 s. Hur många personer à 75 kg kan den högst lyfta?</p>",
+        "s": "<p>\\(m=\\dfrac{42\\,000\\cdot12}{9{,}82\\cdot25}=2\\,053\\) kg. \\(\\dfrac{2\\,053-900}{75}=15{,}4\\): 15 personer.</p><p><strong>Svar:</strong> \\(15\\)</p>",
+        "ledtrad": "<p>Total massa först.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_p_w_t",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "E",
+    "typ": "jogga bort socker",
+    "poang": "(1/0/0)",
+    "t": "<p>100 g socker ger 1 700 kJ. Hur många sekunder måste man jogga med effekten 300 W för att förbränna 1 g socker?</p>",
+    "s": "<p>1 g ger 17 kJ. \\(t=\\dfrac{17\\,000}{300}\\).</p><p><strong>Svar:</strong> \\(57\\) s</p>",
+    "id": "5.553",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt P = W/t",
+    "svarstyp": "numeriskt",
+    "rättSvar": 56.666666666666664,
+    "tolerans": 0.85,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "s",
+    "familjNyckel": "effekt__effekt_p_w_t",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "luftmotstånd för medeldistanslöpare",
+    "poang": "(0/1/1)",
+    "t": "<p>En löpare springer 1 500 m på 3 min 26 s med konstant fart och utvecklar 350 W. Luftmotståndet är \\(F=A\\rho v^2\\) med \\(A=0{,}6\\) m² och \\(\\rho=1{,}29\\) kg/m³. Hur många procent av effekten går till luftmotståndet?</p>",
+    "s": "<p>\\(v=\\dfrac{1\\,500}{206}\\), \\(P=Fv=A\\rho v^3\\), andel \\(=\\dfrac{P}{350}\\).</p><p><strong>Svar:</strong> \\(85\\) %</p>",
+    "id": "5.554",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 85.37781427304614,
+    "tolerans": 1.28,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "%",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "energienheter och hästkrafter",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p><ol type=\"a\"><li>En vikt (5,0 kg) lyfts 90 cm på 1,2 s. Bestäm effekten i hk.</li><li>En bil (900 kg) accelererar från 0 till 100 km/h på 4,2 s. Bestäm medeleffekten i hk.</li><li>Hur stort arbete gör en motor på 2,0 hk på 4,0 h? Svara i kWh.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\dfrac{5{,}0\\cdot9{,}82\\cdot0{,}90}{1{,}2}\\), dela med 735,5.</p><p><strong>Svar:</strong> \\(0{,}050\\) hk</p></li><li><p>\\(P=\\dfrac{900\\cdot27{,}8^2}{2\\cdot4{,}2}\\), dela med 735,5.</p><p><strong>Svar:</strong> \\(112\\) hk</p></li><li><p>\\(W=2{,}0\\cdot0{,}7355\\cdot4{,}0\\) kWh.</p><p><strong>Svar:</strong> \\(5{,}9\\) kWh</p></li></ol>",
+    "id": "5.555",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energi i kWh och vardagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.05006798096532971,
+      112.40238976472831,
+      5.884
+    ],
+    "tolerans": [
+      0.000751,
+      5.1,
+      0.0883
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "hk",
+      "hk",
+      "kWh"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En vikt (5,0 kg) lyfts 90 cm på 1,2 s. Bestäm effekten i hk.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p><p>En vikt (5,0 kg) lyfts 90 cm på 1,2 s. Bestäm effekten i hk.</p>",
+        "s": "<p>\\(P=\\dfrac{5{,}0\\cdot9{,}82\\cdot0{,}90}{1{,}2}\\), dela med 735,5.</p><p><strong>Svar:</strong> \\(0{,}050\\) hk</p>",
+        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil (900 kg) accelererar från 0 till 100 km/h på 4,2 s. Bestäm medeleffekten i hk.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p><p>En bil (900 kg) accelererar från 0 till 100 km/h på 4,2 s. Bestäm medeleffekten i hk.</p>",
+        "s": "<p>\\(P=\\dfrac{900\\cdot27{,}8^2}{2\\cdot4{,}2}\\), dela med 735,5.</p><p><strong>Svar:</strong> \\(112\\) hk</p>",
+        "ledtrad": "<p>Ökningen i rörelseenergi delat med tiden.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stort arbete gör en motor på 2,0 hk på 4,0 h? Svara i kWh.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p><p>Hur stort arbete gör en motor på 2,0 hk på 4,0 h? Svara i kWh.</p>",
+        "s": "<p>\\(W=2{,}0\\cdot0{,}7355\\cdot4{,}0\\) kWh.</p><p><strong>Svar:</strong> \\(5{,}9\\) kWh</p>",
+        "ledtrad": "<p>\\(W=Pt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__energi_i_kwh_och_vardagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "vad räcker en kilowattimme till",
+    "poang": "(3/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><ol type=\"a\"><li>Hur många timmar kan en lampa på 40 W lysa?</li><li>Hur många datorer på 400 W kan vara igång en hel lektion på 40 minuter?</li><li>Hur högt kan en person (95 kg) lyftas?</li><li>Vilken fart får en lastbil (10 ton)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{1\\,000}{40}\\) h.</p><p><strong>Svar:</strong> \\(25\\) h</p></li><li><p>En dator använder \\(0{,}400\\cdot\\tfrac{40}{60}=0{,}267\\) kWh. \\(\\dfrac{1}{0{,}267}=3{,}75\\): tre datorer.</p><p><strong>Svar:</strong> \\(3{,}0\\)</p></li><li><p>\\(h=\\dfrac{3{,}6\\cdot10^6}{95\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(3\\,859\\) m</p></li><li><p>\\(v=\\sqrt{\\dfrac{2\\cdot3{,}6\\cdot10^6}{10\\,000}}\\).</p><p><strong>Svar:</strong> \\(27\\) m/s</p></li></ol>",
+    "id": "5.556",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energi i kWh och vardagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      25,
+      3,
+      3858.934505306035,
+      26.832815729997478
+    ],
+    "tolerans": [
+      0.51,
+      0.051,
+      57.9,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "h",
+      null,
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många timmar kan en lampa på 40 W lysa?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><p>Hur många timmar kan en lampa på 40 W lysa?</p>",
+        "s": "<p>\\(t=\\dfrac{1\\,000}{40}\\) h.</p><p><strong>Svar:</strong> \\(25\\) h</p>",
+        "ledtrad": "<p>\\(t=\\dfrac EP\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många datorer på 400 W kan vara igång en hel lektion på 40 minuter?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><p>Hur många datorer på 400 W kan vara igång en hel lektion på 40 minuter?</p>",
+        "s": "<p>En dator använder \\(0{,}400\\cdot\\tfrac{40}{60}=0{,}267\\) kWh. \\(\\dfrac{1}{0{,}267}=3{,}75\\): tre datorer.</p><p><strong>Svar:</strong> \\(3{,}0\\)</p>",
+        "ledtrad": "<p>Bara hela datorer räknas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur högt kan en person (95 kg) lyftas?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><p>Hur högt kan en person (95 kg) lyftas?</p>",
+        "s": "<p>\\(h=\\dfrac{3{,}6\\cdot10^6}{95\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(3\\,859\\) m</p>",
+        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Vilken fart får en lastbil (10 ton)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><p>Vilken fart får en lastbil (10 ton)?</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2\\cdot3{,}6\\cdot10^6}{10\\,000}}\\).</p><p><strong>Svar:</strong> \\(27\\) m/s</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>1 kWh = 3,6 MJ.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__energi_i_kwh_och_vardagen",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "elkostnader",
+    "poang": "(1/2/1)",
+    "t": "<p>Energipriset är 1,10 kr/kWh.</p><ol type=\"a\"><li>Vad kostar det att ha en lampa på 60 W tänd i 14 h?</li><li>Uppvärmningen av en villa kostar 22 500 kr per år. Bestäm medeleffekten i kW (ett år = 8 760 h).</li><li>En glödlampa (60,0 W, 750 h, 5,90 kr) jämförs med en lågenergilampa (11,0 W, 10 000 h, 39 kr). Hur mycket sparar man på 10 000 h?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}060\\cdot14\\cdot1{,}10\\).</p><p><strong>Svar:</strong> \\(0{,}92\\) kr</p></li><li><p>\\(E=\\dfrac{22\\,500}{1{,}10}\\) kWh, \\(P=\\dfrac{E}{8\\,760}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) kW</p></li><li><p>Glödlampor: \\(\\tfrac{10\\,000}{750}\\cdot5{,}90+0{,}060\\cdot10\\,000\\cdot1{,}10\\). Lågenergi: \\(39+0{,}011\\cdot10\\,000\\cdot1{,}10\\). Skillnaden.</p><p><strong>Svar:</strong> \\(579\\) kr</p></li></ol>",
+    "id": "5.557",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energi i kWh och vardagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.924,
+      2.3349937733499373,
+      578.6666666666666
+    ],
+    "tolerans": [
+      0.0139,
+      0.051,
+      8.68
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kW",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Energipriset är 1,10 kr/kWh.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vad kostar det att ha en lampa på 60 W tänd i 14 h?",
+        "t": "<p>Energipriset är 1,10 kr/kWh.</p><p>Vad kostar det att ha en lampa på 60 W tänd i 14 h?</p>",
+        "s": "<p>\\(0{,}060\\cdot14\\cdot1{,}10\\).</p><p><strong>Svar:</strong> \\(0{,}92\\) kr</p>",
+        "ledtrad": "<p>Energi i kWh gånger pris.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Uppvärmningen av en villa kostar 22 500 kr per år. Bestäm medeleffekten i kW (ett år = 8 760 h).",
+        "t": "<p>Energipriset är 1,10 kr/kWh.</p><p>Uppvärmningen av en villa kostar 22 500 kr per år. Bestäm medeleffekten i kW (ett år = 8 760 h).</p>",
+        "s": "<p>\\(E=\\dfrac{22\\,500}{1{,}10}\\) kWh, \\(P=\\dfrac{E}{8\\,760}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) kW</p>",
+        "ledtrad": "<p>Energi delat med tid.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En glödlampa (60,0 W, 750 h, 5,90 kr) jämförs med en lågenergilampa (11,0 W, 10 000 h, 39 kr). Hur mycket sparar man på 10 000 h?",
+        "t": "<p>Energipriset är 1,10 kr/kWh.</p><p>En glödlampa (60,0 W, 750 h, 5,90 kr) jämförs med en lågenergilampa (11,0 W, 10 000 h, 39 kr). Hur mycket sparar man på 10 000 h?</p>",
+        "s": "<p>Glödlampor: \\(\\tfrac{10\\,000}{750}\\cdot5{,}90+0{,}060\\cdot10\\,000\\cdot1{,}10\\). Lågenergi: \\(39+0{,}011\\cdot10\\,000\\cdot1{,}10\\). Skillnaden.</p><p><strong>Svar:</strong> \\(579\\) kr</p>",
+        "ledtrad": "<p>Räkna både inköp och energi.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Kostnad = energi · pris.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__energi_i_kwh_och_vardagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "effekt vid acceleration",
+    "poang": "(2/1/1)",
+    "t": "<p>Bestäm effekten.</p><ol type=\"a\"><li>En sprinter (70,0 kg) accelererar från 0 till 10 m/s på 3,0 s.</li><li>En vinthund (30 kg) accelererar från 0 till 20 m/s på 3,0 s.</li><li>En löpare (50,0 kg) springer 50 m på 7,0 s med konstant acceleration från vila. Bestäm medeleffekten under de sista 2,0 s.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\dfrac{70{,}0\\cdot10^2}{2\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(1\\,167\\) W</p></li><li><p>\\(P=\\dfrac{30\\cdot20^2}{2\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) W</p></li><li><p>\\(a=\\dfrac{2\\cdot50}{7{,}0^2}\\), \\(v_5=5a\\), \\(v_7=7a\\). \\(P=\\dfrac{50{,}0(v_7^2-v_5^2)}{2\\cdot2{,}0}\\).</p><p><strong>Svar:</strong> \\(1\\,249\\) W</p></li></ol>",
+    "id": "5.558",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt P = W/t",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1166.6666666666667,
+      2000.0,
+      1249.479383590171
+    ],
+    "tolerans": [
+      51.0,
+      51.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "W",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm effekten.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En sprinter (70,0 kg) accelererar från 0 till 10 m/s på 3,0 s.",
+        "t": "<p>Bestäm effekten.</p><p>En sprinter (70,0 kg) accelererar från 0 till 10 m/s på 3,0 s.</p>",
+        "s": "<p>\\(P=\\dfrac{70{,}0\\cdot10^2}{2\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(1\\,167\\) W</p>",
+        "ledtrad": "<p>Rörelseenergi delat med tid.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En vinthund (30 kg) accelererar från 0 till 20 m/s på 3,0 s.",
+        "t": "<p>Bestäm effekten.</p><p>En vinthund (30 kg) accelererar från 0 till 20 m/s på 3,0 s.</p>",
+        "s": "<p>\\(P=\\dfrac{30\\cdot20^2}{2\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) W</p>",
+        "ledtrad": "<p>Rörelseenergi delat med tid.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En löpare (50,0 kg) springer 50 m på 7,0 s med konstant acceleration från vila. Bestäm medeleffekten under de sista 2,0 s.",
+        "t": "<p>Bestäm effekten.</p><p>En löpare (50,0 kg) springer 50 m på 7,0 s med konstant acceleration från vila. Bestäm medeleffekten under de sista 2,0 s.</p>",
+        "s": "<p>\\(a=\\dfrac{2\\cdot50}{7{,}0^2}\\), \\(v_5=5a\\), \\(v_7=7a\\). \\(P=\\dfrac{50{,}0(v_7^2-v_5^2)}{2\\cdot2{,}0}\\).</p><p><strong>Svar:</strong> \\(1\\,249\\) W</p>",
+        "ledtrad": "<p>Ändringen i rörelseenergi.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__effekt_p_w_t",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "tid för lyft med given effekt",
+    "poang": "(3/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><ol type=\"a\"><li>Ett piano (385 kg) vinschas 16,0 m med en motor på 2 750 W. Hur lång tid tar det?</li><li>Lars (82,4 kg) utvecklar 1,0 hk. Hur lång tid tar en trappa med höjden 12,0 m?</li><li>En pump lyfter 27,0 kg vatten per minut 3,50 m. Bestäm den minsta effekten.</li><li>Skidliftar lyfter 47 000 skidåkare (75 kg) per timme 200 m. Bestäm den minsta totala effekten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{385\\cdot9{,}82\\cdot16{,}0}{2\\,750}\\).</p><p><strong>Svar:</strong> \\(22{,}0\\) s</p></li><li><p>\\(t=\\dfrac{82{,}4\\cdot9{,}82\\cdot12{,}0}{735{,}5}\\).</p><p><strong>Svar:</strong> \\(13\\) s</p></li><li><p>\\(P=\\dfrac{27{,}0\\cdot9{,}82\\cdot3{,}50}{60}\\).</p><p><strong>Svar:</strong> \\(15{,}5\\) W</p></li><li><p>\\(P=\\dfrac{47\\,000\\cdot75\\cdot9{,}82\\cdot200}{3\\,600}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) W</p></li></ol>",
+    "id": "5.559",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt P = W/t",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      21.9968,
+      13.20192522093814,
+      15.4665,
+      1923083.3333333333
+    ],
+    "tolerans": [
+      0.33,
+      0.51,
+      0.232,
+      51000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "s",
+      "W",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett piano (385 kg) vinschas 16,0 m med en motor på 2 750 W. Hur lång tid tar det?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>Ett piano (385 kg) vinschas 16,0 m med en motor på 2 750 W. Hur lång tid tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{385\\cdot9{,}82\\cdot16{,}0}{2\\,750}\\).</p><p><strong>Svar:</strong> \\(22{,}0\\) s</p>",
+        "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Lars (82,4 kg) utvecklar 1,0 hk. Hur lång tid tar en trappa med höjden 12,0 m?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>Lars (82,4 kg) utvecklar 1,0 hk. Hur lång tid tar en trappa med höjden 12,0 m?</p>",
+        "s": "<p>\\(t=\\dfrac{82{,}4\\cdot9{,}82\\cdot12{,}0}{735{,}5}\\).</p><p><strong>Svar:</strong> \\(13\\) s</p>",
+        "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En pump lyfter 27,0 kg vatten per minut 3,50 m. Bestäm den minsta effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En pump lyfter 27,0 kg vatten per minut 3,50 m. Bestäm den minsta effekten.</p>",
+        "s": "<p>\\(P=\\dfrac{27{,}0\\cdot9{,}82\\cdot3{,}50}{60}\\).</p><p><strong>Svar:</strong> \\(15{,}5\\) W</p>",
+        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Skidliftar lyfter 47 000 skidåkare (75 kg) per timme 200 m. Bestäm den minsta totala effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>Skidliftar lyfter 47 000 skidåkare (75 kg) per timme 200 m. Bestäm den minsta totala effekten.</p>",
+        "s": "<p>\\(P=\\dfrac{47\\,000\\cdot75\\cdot9{,}82\\cdot200}{3\\,600}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) W</p>",
+        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_p_w_t",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "dragracingbil",
+    "poang": "(0/1/0)",
+    "t": "<p>En dragracingbil (1,1 ton) har den nyttiga effekten 2,3 MW och kör från vila i 4,2 s. Bestäm sluthastigheten. Bortse från förluster.</p>",
+    "s": "<p>\\(\\dfrac{1\\,100v^2}{2}=2{,}3\\cdot10^6\\cdot4{,}2\\).</p><p><strong>Svar:</strong> \\(133\\) m/s</p>",
+    "id": "5.560",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt P = W/t",
+    "svarstyp": "numeriskt",
+    "rättSvar": 132.52787013921397,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(W=Pt\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "effekt__effekt_p_w_t",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "E",
+    "typ": "människans värmeeffekt",
+    "poang": "(1/0/0)",
+    "t": "<p>En människa som sitter still behöver 2 000 kcal per dygn (1 kcal = 4,186 kJ). Bestäm medeleffekten.</p>",
+    "s": "<p>\\(P=\\dfrac{2\\,000\\cdot4\\,186}{86\\,400}\\).</p><p><strong>Svar:</strong> \\(97\\) W</p>",
+    "id": "5.561",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Energi i kWh och vardagen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 96.89814814814815,
+    "tolerans": 1.45,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "effekt__energi_i_kwh_och_vardagen",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "effekt och fart",
+    "poang": "(3/1/0)",
+    "t": "<p>1 hk = 735,5 W.</p><ol type=\"a\"><li>En bil har toppfarten 180 km/h med motoreffekten 100 kW. Bestäm den drivande kraften.</li><li>En bil kör med 95 km/h och motorn avger 18 hk. Bestäm de bromsande krafterna.</li><li>En flygmotor ger 120 kN vid 234 m/s. Bestäm effekten.</li><li>En cyklist utvecklar 120 W och bromsas av 16 N. Bestäm farten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{100\\cdot10^3}{50}\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p></li><li><p>\\(F=\\dfrac{18\\cdot735{,}5}{95/3{,}6}\\).</p><p><strong>Svar:</strong> \\(502\\) N</p></li><li><p>\\(P=120\\cdot10^3\\cdot234\\).</p><p><strong>Svar:</strong> \\(2{,}8\\cdot10^{7}\\) W</p></li><li><p>\\(v=\\dfrac{120}{16}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m/s</p></li></ol>",
+    "id": "5.562",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2000,
+      501.68842105263155,
+      28080000.0,
+      7.5
+    ],
+    "tolerans": [
+      51.0,
+      7.53,
+      510000.0,
+      0.112
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "W",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>1 hk = 735,5 W.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bil har toppfarten 180 km/h med motoreffekten 100 kW. Bestäm den drivande kraften.",
+        "t": "<p>1 hk = 735,5 W.</p><p>En bil har toppfarten 180 km/h med motoreffekten 100 kW. Bestäm den drivande kraften.</p>",
+        "s": "<p>\\(F=\\dfrac{100\\cdot10^3}{50}\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil kör med 95 km/h och motorn avger 18 hk. Bestäm de bromsande krafterna.",
+        "t": "<p>1 hk = 735,5 W.</p><p>En bil kör med 95 km/h och motorn avger 18 hk. Bestäm de bromsande krafterna.</p>",
+        "s": "<p>\\(F=\\dfrac{18\\cdot735{,}5}{95/3{,}6}\\).</p><p><strong>Svar:</strong> \\(502\\) N</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En flygmotor ger 120 kN vid 234 m/s. Bestäm effekten.",
+        "t": "<p>1 hk = 735,5 W.</p><p>En flygmotor ger 120 kN vid 234 m/s. Bestäm effekten.</p>",
+        "s": "<p>\\(P=120\\cdot10^3\\cdot234\\).</p><p><strong>Svar:</strong> \\(2{,}8\\cdot10^{7}\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En cyklist utvecklar 120 W och bromsas av 16 N. Bestäm farten.",
+        "t": "<p>1 hk = 735,5 W.</p><p>En cyklist utvecklar 120 W och bromsas av 16 N. Bestäm farten.</p>",
+        "s": "<p>\\(v=\\dfrac{120}{16}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m/s</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "bilens bromsande krafter",
+    "poang": "(0/2/0)",
+    "t": "<p>En bil (1 080 kg) saktar in från 95 km/h till 65 km/h på 7,0 s på plan väg utan gas.</p><ol type=\"a\"><li>Bestäm den genomsnittliga bromsande kraften.</li><li>Vilken effekt krävs för konstant 80 km/h med samma bromsande kraft?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{(95-65)/3{,}6}{7{,}0}\\), \\(F=1\\,080a\\).</p><p><strong>Svar:</strong> \\(1\\,286\\) N</p></li><li><p>\\(P=F\\cdot\\dfrac{80}{3{,}6}\\).</p><p><strong>Svar:</strong> \\(28\\,571\\) W</p></li></ol>",
+    "id": "5.563",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1285.7142857142858,
+      28571.428571428572
+    ],
+    "tolerans": [
+      51.0,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil (1 080 kg) saktar in från 95 km/h till 65 km/h på 7,0 s på plan väg utan gas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den genomsnittliga bromsande kraften.",
+        "t": "<p>En bil (1 080 kg) saktar in från 95 km/h till 65 km/h på 7,0 s på plan väg utan gas.</p><p>Bestäm den genomsnittliga bromsande kraften.</p>",
+        "s": "<p>\\(a=\\dfrac{(95-65)/3{,}6}{7{,}0}\\), \\(F=1\\,080a\\).</p><p><strong>Svar:</strong> \\(1\\,286\\) N</p>",
+        "ledtrad": "<p>\\(F=ma\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken effekt krävs för konstant 80 km/h med samma bromsande kraft?",
+        "t": "<p>En bil (1 080 kg) saktar in från 95 km/h till 65 km/h på 7,0 s på plan väg utan gas.</p>Den bromsande kraften är 1,3 kN.<p>Vilken effekt krävs för konstant 80 km/h med samma bromsande kraft?</p>",
+        "s": "<p>\\(P=F\\cdot\\dfrac{80}{3{,}6}\\).</p><p><strong>Svar:</strong> \\(28\\,571\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "hissens effekt",
+    "poang": "(2/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En hiss (650 kg) accelererar från vila till 1,75 m/s på 3,0 s. Bestäm medeleffekten under accelerationen.</li><li>Bestäm effekten när hissen sedan rör sig med konstant fart.</li><li>En hiss (3,0 ton) åker 21 m uppåt på 23 s med konstant fart. Bestäm den minsta effekten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Höjd: \\(\\tfrac12\\cdot1{,}75\\cdot3{,}0\\). \\(P=\\dfrac{650\\cdot9{,}82\\cdot2{,}625+\\tfrac12\\cdot650\\cdot1{,}75^2}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(5\\,917\\) W</p></li><li><p>\\(P=650\\cdot9{,}82\\cdot1{,}75\\).</p><p><strong>Svar:</strong> \\(11\\,170\\) W</p></li><li><p>\\(P=\\dfrac{3\\,000\\cdot9{,}82\\cdot21}{23}\\).</p><p><strong>Svar:</strong> \\(26\\,898\\) W</p></li></ol>",
+    "id": "5.564",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt P = W/t",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5916.895833333333,
+      11170.25,
+      26898.260869565216
+    ],
+    "tolerans": [
+      88.8,
+      510.0,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "W",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En hiss (650 kg) accelererar från vila till 1,75 m/s på 3,0 s. Bestäm medeleffekten under accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (650 kg) accelererar från vila till 1,75 m/s på 3,0 s. Bestäm medeleffekten under accelerationen.</p>",
+        "s": "<p>Höjd: \\(\\tfrac12\\cdot1{,}75\\cdot3{,}0\\). \\(P=\\dfrac{650\\cdot9{,}82\\cdot2{,}625+\\tfrac12\\cdot650\\cdot1{,}75^2}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(5\\,917\\) W</p>",
+        "ledtrad": "<p>Både läges- och rörelseenergi.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm effekten när hissen sedan rör sig med konstant fart.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Bestäm effekten när hissen sedan rör sig med konstant fart.</p>",
+        "s": "<p>\\(P=650\\cdot9{,}82\\cdot1{,}75\\).</p><p><strong>Svar:</strong> \\(11\\,170\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En hiss (3,0 ton) åker 21 m uppåt på 23 s med konstant fart. Bestäm den minsta effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (3,0 ton) åker 21 m uppåt på 23 s med konstant fart. Bestäm den minsta effekten.</p>",
+        "s": "<p>\\(P=\\dfrac{3\\,000\\cdot9{,}82\\cdot21}{23}\\).</p><p><strong>Svar:</strong> \\(26\\,898\\) W</p>",
+        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__effekt_p_w_t",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "tid för acceleration med konstant effekt",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (850 kg) har motoreffekten 40,0 hk. Bortse från förluster.</p><ol type=\"a\"><li>Hur lång tid tar det från 0 till 15,0 m/s på plan väg?</li><li>Hur lång tid tar det om bilen samtidigt kör upp 3,00 m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{850\\cdot15{,}0^2/2}{40{,}0\\cdot735{,}5}\\).</p><p><strong>Svar:</strong> \\(3{,}25\\) s</p></li><li><p>\\(t=\\dfrac{850\\cdot15{,}0^2/2+850\\cdot9{,}82\\cdot3{,}00}{40{,}0\\cdot735{,}5}\\).</p><p><strong>Svar:</strong> \\(4{,}10\\) s</p></li></ol>",
+    "id": "5.565",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt P = W/t",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.2503399048266486,
+      4.101495581237254
+    ],
+    "tolerans": [
+      0.0488,
+      0.0615
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (850 kg) har motoreffekten 40,0 hk. Bortse från förluster.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det från 0 till 15,0 m/s på plan väg?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (850 kg) har motoreffekten 40,0 hk. Bortse från förluster.</p><p>Hur lång tid tar det från 0 till 15,0 m/s på plan väg?</p>",
+        "s": "<p>\\(t=\\dfrac{850\\cdot15{,}0^2/2}{40{,}0\\cdot735{,}5}\\).</p><p><strong>Svar:</strong> \\(3{,}25\\) s</p>",
+        "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det om bilen samtidigt kör upp 3,00 m?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (850 kg) har motoreffekten 40,0 hk. Bortse från förluster.</p><p>Hur lång tid tar det om bilen samtidigt kör upp 3,00 m?</p>",
+        "s": "<p>\\(t=\\dfrac{850\\cdot15{,}0^2/2+850\\cdot9{,}82\\cdot3{,}00}{40{,}0\\cdot735{,}5}\\).</p><p><strong>Svar:</strong> \\(4{,}10\\) s</p>",
+        "ledtrad": "<p>Lägg till lägesenergin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_p_w_t",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "extra effekt i uppförsbacke",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Hur stor extra effekt krävs för en bil (1 200 kg) med konstant 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt?</li><li>En bil (710 kg) kör med 23,0 m/s mot den bromsande kraften 500 N uppför en backe som lutar 2,0°. Bestäm motoreffekten.</li><li>En bil (950 kg) ska hålla 30,0 m/s uppför en backe som lutar 5,0° mot den bromsande kraften 600 N. Bestäm den minsta effekten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\sin\\theta=\\dfrac{15}{\\sqrt{100^2+15^2}}\\), \\(P=1\\,200\\cdot9{,}82\\sin\\theta\\cdot25\\).</p><p><strong>Svar:</strong> \\(43\\,701\\) W</p></li><li><p>\\(P=(500+710\\cdot9{,}82\\sin2{,}0^\\circ)\\cdot23{,}0\\).</p><p><strong>Svar:</strong> \\(17\\,097\\) W</p></li><li><p>\\(P=(600+950\\cdot9{,}82\\sin5{,}0^\\circ)\\cdot30{,}0\\).</p><p><strong>Svar:</strong> \\(42\\,392\\) W</p></li></ol>",
+    "id": "5.566",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      43701.09743325007,
+      17096.50423091108,
+      42392.27772278709
+    ],
+    "tolerans": [
+      656.0,
+      256.0,
+      636.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "W",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor extra effekt krävs för en bil (1 200 kg) med konstant 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hur stor extra effekt krävs för en bil (1 200 kg) med konstant 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt?</p>",
+        "s": "<p>\\(\\sin\\theta=\\dfrac{15}{\\sqrt{100^2+15^2}}\\), \\(P=1\\,200\\cdot9{,}82\\sin\\theta\\cdot25\\).</p><p><strong>Svar:</strong> \\(43\\,701\\) W</p>",
+        "ledtrad": "<p>Tyngdens komposant längs backen gånger farten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil (710 kg) kör med 23,0 m/s mot den bromsande kraften 500 N uppför en backe som lutar 2,0°. Bestäm motoreffekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (710 kg) kör med 23,0 m/s mot den bromsande kraften 500 N uppför en backe som lutar 2,0°. Bestäm motoreffekten.</p>",
+        "s": "<p>\\(P=(500+710\\cdot9{,}82\\sin2{,}0^\\circ)\\cdot23{,}0\\).</p><p><strong>Svar:</strong> \\(17\\,097\\) W</p>",
+        "ledtrad": "<p>Summan av krafterna gånger farten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En bil (950 kg) ska hålla 30,0 m/s uppför en backe som lutar 5,0° mot den bromsande kraften 600 N. Bestäm den minsta effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (950 kg) ska hålla 30,0 m/s uppför en backe som lutar 5,0° mot den bromsande kraften 600 N. Bestäm den minsta effekten.</p>",
+        "s": "<p>\\(P=(600+950\\cdot9{,}82\\sin5{,}0^\\circ)\\cdot30{,}0\\).</p><p><strong>Svar:</strong> \\(42\\,392\\) W</p>",
+        "ledtrad": "<p>Summan av krafterna gånger farten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\) med \\(F=F_\\text{broms}+mg\\sin\\alpha\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "cyklist uppför backe",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p><ol type=\"a\"><li>Vilken effekt krävs för 6,0 m/s uppför en backe som lutar 10°?</li><li>Vilken fart får han uppför backen med 200 W?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_b=\\dfrac{200}{6{,}0}\\). \\(P=(F_b+90\\cdot9{,}82\\sin10^\\circ)\\cdot6{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,121\\) W</p></li><li><p>\\(v=\\dfrac{200}{F_b+90\\cdot9{,}82\\sin10^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m/s</p></li></ol>",
+    "id": "5.567",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1120.8215565321984,
+      1.070643219704641
+    ],
+    "tolerans": [
+      51.0,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken effekt krävs för 6,0 m/s uppför en backe som lutar 10°?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p><p>Vilken effekt krävs för 6,0 m/s uppför en backe som lutar 10°?</p>",
+        "s": "<p>\\(F_b=\\dfrac{200}{6{,}0}\\). \\(P=(F_b+90\\cdot9{,}82\\sin10^\\circ)\\cdot6{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,121\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart får han uppför backen med 200 W?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p><p>Vilken fart får han uppför backen med 200 W?</p>",
+        "s": "<p>\\(v=\\dfrac{200}{F_b+90\\cdot9{,}82\\sin10^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\dfrac PF\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "största lutning för given effekt",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (1 000 kg) har den nyttiga effekten 45 hk. Den bromsande kraften är 300 N. Vilken är den största lutningen bilen klarar med konstant 50 km/h?</p>",
+    "s": "<p>\\(F=\\dfrac{45\\cdot735{,}5}{13{,}9}\\), \\(\\sin\\alpha=\\dfrac{F-300}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(12\\) °</p>",
+    "id": "5.568",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.246628213400143,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "5.334",
     "kap": 5,
     "omr": "arbete",
@@ -132395,6 +133692,795 @@ window.BANK = [
     "svarEnhet": "m/s",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "friktionstal ur energiförlust",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En låda glider 10,0 m från vila nedför ett plan som lutar 30° med friktionstalet 0,250. Bestäm farten (tre värdesiffror).</li><li>En låda (0,80 kg) bromsas från 15 m/s till 10 m/s på 20 m vågrätt. Bestäm friktionstalet.</li><li>En sten (2,0 kg) med 8,0 m/s stannar efter 12 m. Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v^2=2\\cdot9{,}82\\cdot10{,}0(\\sin30^\\circ-0{,}250\\cos30^\\circ)\\).</p><p><strong>Svar:</strong> \\(7{,}46\\) m/s</p></li><li><p>\\(W=\\dfrac{0{,}80(15^2-10^2)}{2}=50\\) J, \\(\\mu=\\dfrac{50}{0{,}80\\cdot9{,}82\\cdot20}\\).</p><p><strong>Svar:</strong> \\(0{,}32\\)</p></li><li><p>\\(\\mu=\\dfrac{64}{2{,}0\\cdot9{,}82\\cdot12}\\).</p><p><strong>Svar:</strong> \\(0{,}27\\)</p></li></ol>",
+    "id": "5.536",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.461779457621624,
+      0.3182281059063136,
+      0.27155465037338766
+    ],
+    "tolerans": [
+      0.112,
+      0.0051,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      null,
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En låda glider 10,0 m från vila nedför ett plan som lutar 30° med friktionstalet 0,250. Bestäm farten (tre värdesiffror).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda glider 10,0 m från vila nedför ett plan som lutar 30° med friktionstalet 0,250. Bestäm farten (tre värdesiffror).</p>",
+        "s": "<p>\\(v^2=2\\cdot9{,}82\\cdot10{,}0(\\sin30^\\circ-0{,}250\\cos30^\\circ)\\).</p><p><strong>Svar:</strong> \\(7{,}46\\) m/s</p>",
+        "ledtrad": "<p>Räkna per kilogram.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En låda (0,80 kg) bromsas från 15 m/s till 10 m/s på 20 m vågrätt. Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (0,80 kg) bromsas från 15 m/s till 10 m/s på 20 m vågrätt. Bestäm friktionstalet.</p>",
+        "s": "<p>\\(W=\\dfrac{0{,}80(15^2-10^2)}{2}=50\\) J, \\(\\mu=\\dfrac{50}{0{,}80\\cdot9{,}82\\cdot20}\\).</p><p><strong>Svar:</strong> \\(0{,}32\\)</p>",
+        "ledtrad": "<p>Friktionsarbetet först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En sten (2,0 kg) med 8,0 m/s stannar efter 12 m. Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En sten (2,0 kg) med 8,0 m/s stannar efter 12 m. Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{64}{2{,}0\\cdot9{,}82\\cdot12}\\).</p><p><strong>Svar:</strong> \\(0{,}27\\)</p>",
+        "ledtrad": "<p>Rörelseenergin går åt till friktion.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionsarbete \\(=\\mu F_N s\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "luftmotstånd vid lodrätt kast",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (2,0 kg) skjuts rakt upp med 20 m/s och vänder på 15 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p><ol type=\"a\"><li>Bestäm \\(F\\).</li><li>Med vilken fart landar det om samma kraft verkar på vägen ner?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{2{,}0\\cdot20^2}{2}=2{,}0\\cdot9{,}82\\cdot15+F\\cdot15\\).</p><p><strong>Svar:</strong> \\(7{,}0\\) N</p></li><li><p>\\(\\dfrac{2{,}0v^2}{2}=2{,}0\\cdot9{,}82\\cdot15-7{,}0\\cdot15\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p></li></ol>",
+    "id": "5.537",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.0266666666666655,
+      13.75499909123952
+    ],
+    "tolerans": [
+      0.105,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (2,0 kg) skjuts rakt upp med 20 m/s och vänder på 15 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(F\\).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (2,0 kg) skjuts rakt upp med 20 m/s och vänder på 15 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p><p>Bestäm \\(F\\).</p>",
+        "s": "<p>\\(\\dfrac{2{,}0\\cdot20^2}{2}=2{,}0\\cdot9{,}82\\cdot15+F\\cdot15\\).</p><p><strong>Svar:</strong> \\(7{,}0\\) N</p>",
+        "ledtrad": "<p>Rörelseenergin blir lägesenergi och friktionsarbete.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med vilken fart landar det om samma kraft verkar på vägen ner?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (2,0 kg) skjuts rakt upp med 20 m/s och vänder på 15 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p>\\(F=7{,}0\\) N.<p>Med vilken fart landar det om samma kraft verkar på vägen ner?</p>",
+        "s": "<p>\\(\\dfrac{2{,}0v^2}{2}=2{,}0\\cdot9{,}82\\cdot15-7{,}0\\cdot15\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p>",
+        "ledtrad": "<p>Nu motverkar \\(F\\) fallet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Arbete och energi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "friktionskraft med sned dragkraft",
+    "poang": "(0/1/0)",
+    "t": "<p>En låda (4,00 kg) dras med 50,0 N i ett snöre i vinkeln 53,0° mot marken. Farten ökar från 10,0 m/s till 12,0 m/s på 20,0 m. Bestäm den konstanta bromsande kraften.</p>",
+    "s": "<p>\\(50{,}0\\cos53{,}0^\\circ\\cdot20{,}0-F\\cdot20{,}0=\\dfrac{4{,}00(12{,}0^2-10{,}0^2)}{2}\\).</p><p><strong>Svar:</strong> \\(25{,}7\\) N</p>",
+    "id": "5.538",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25.69075115760242,
+    "tolerans": 0.385,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nettoarbetet ändrar rörelseenergin.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "cyklistens arbete",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (80 kg med cykel) startar med 10 m/s, åker ner för en 40 m hög backe och upp för en 30 m hög backe, totalt 600 m. Farten vid slutet är 12 m/s. Friktionen är 25 N. Hur stort arbete gör cyklisten?</p>",
+    "s": "<p>\\(W=\\dfrac{80(12^2-10^2)}{2}-80\\cdot9{,}82\\cdot10+25\\cdot600\\).</p><p><strong>Svar:</strong> \\(8\\,904\\) J</p>",
+    "id": "5.539",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8904.0,
+    "tolerans": 134.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Slutet ligger 10 m lägre än starten.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "J",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "backens höjd ur motoreffekt",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,5 ton) kör uppför en backe i 1,0 min med motoreffekten 13 kW, och farten ökar från 7,0 m/s till 24 m/s. Friktion och luftmotstånd kräver 80 kJ. Hur hög är backen?</p>",
+    "s": "<p>\\(13\\,000\\cdot60=\\dfrac{1\\,500(24^2-7{,}0^2)}{2}+1\\,500\\cdot9{,}82h+80\\,000\\).</p><p><strong>Svar:</strong> \\(21\\) m</p>",
+    "id": "5.540",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.68906992532247,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Motorns arbete fördelas på tre poster.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "upp och ner längs plan med friktion",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 37° och vänder i B, 2,5 m längre upp. Friktionstalet är \\(\\tfrac27\\).</p><ol type=\"a\"><li>Bestäm farten i A på vägen upp.</li><li>Bestäm farten i A på vägen ner.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{u^2}{2}=9{,}82\\cdot2{,}5\\left(\\sin37^\\circ+\\tfrac27\\cos37^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m/s</p></li><li><p>\\(\\dfrac{v^2}{2}=9{,}82\\cdot2{,}5\\left(\\sin37^\\circ-\\tfrac27\\cos37^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) m/s</p></li></ol>",
+    "id": "5.541",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.383794556128635,
+      4.283153317203757
+    ],
+    "tolerans": [
+      0.0958,
+      0.0642
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 37° och vänder i B, 2,5 m längre upp. Friktionstalet är \\(\\tfrac27\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm farten i A på vägen upp.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 37° och vänder i B, 2,5 m längre upp. Friktionstalet är \\(\\tfrac27\\).</p><p>Bestäm farten i A på vägen upp.</p>",
+        "s": "<p>\\(\\dfrac{u^2}{2}=9{,}82\\cdot2{,}5\\left(\\sin37^\\circ+\\tfrac27\\cos37^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m/s</p>",
+        "ledtrad": "<p>Räkna per kilogram.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm farten i A på vägen ner.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 37° och vänder i B, 2,5 m längre upp. Friktionstalet är \\(\\tfrac27\\).</p><p>Bestäm farten i A på vägen ner.</p>",
+        "s": "<p>\\(\\dfrac{v^2}{2}=9{,}82\\cdot2{,}5\\left(\\sin37^\\circ-\\tfrac27\\cos37^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) m/s</p>",
+        "ledtrad": "<p>Nu motverkar friktionen fallet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionsarbete \\(=\\mu mg\\cos\\alpha\\cdot s\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "friktionstal ur fart på plan",
+    "poang": "(0/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En låda (0,50 kg) glider nedför ett plan som lutar 30°. Farten är 10 m/s i A och 9,0 m/s i B, 12 m längre ner. Hur mycket mekanisk energi förloras?</li><li>Bestäm friktionstalet.</li><li>Ett föremål glider från vila 10 m nedför ett plan med \\(\\tan\\alpha=\\tfrac43\\) och får farten 7,0 m/s. Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta E=\\dfrac{0{,}50(10^2-9{,}0^2)}{2}+0{,}50\\cdot9{,}82\\cdot12\\sin30^\\circ\\).</p><p><strong>Svar:</strong> \\(34\\) J</p></li><li><p>\\(\\mu=\\dfrac{34{,}2}{0{,}50\\cdot9{,}82\\cos30^\\circ\\cdot12}\\).</p><p><strong>Svar:</strong> \\(0{,}67\\)</p></li><li><p>\\(\\sin\\alpha=0{,}8\\), \\(\\cos\\alpha=0{,}6\\). \\(\\dfrac{7{,}0^2}{2}=9{,}82\\cdot10(0{,}8-0{,}6\\mu)\\).</p><p><strong>Svar:</strong> \\(0{,}92\\)</p></li></ol>",
+    "id": "5.542",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      34.21,
+      0.6704396710447079,
+      0.9175152749490836
+    ],
+    "tolerans": [
+      0.513,
+      0.0101,
+      0.0138
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      null,
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En låda (0,50 kg) glider nedför ett plan som lutar 30°. Farten är 10 m/s i A och 9,0 m/s i B, 12 m längre ner. Hur mycket mekanisk energi förloras?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (0,50 kg) glider nedför ett plan som lutar 30°. Farten är 10 m/s i A och 9,0 m/s i B, 12 m längre ner. Hur mycket mekanisk energi förloras?</p>",
+        "s": "<p>\\(\\Delta E=\\dfrac{0{,}50(10^2-9{,}0^2)}{2}+0{,}50\\cdot9{,}82\\cdot12\\sin30^\\circ\\).</p><p><strong>Svar:</strong> \\(34\\) J</p>",
+        "ledtrad": "<p>Både rörelse- och lägesenergi minskar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p>Förlusten är 34 J.<p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{34{,}2}{0{,}50\\cdot9{,}82\\cos30^\\circ\\cdot12}\\).</p><p><strong>Svar:</strong> \\(0{,}67\\)</p>",
+        "ledtrad": "<p>Energiförlusten är friktionsarbete.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett föremål glider från vila 10 m nedför ett plan med \\(\\tan\\alpha=\\tfrac43\\) och får farten 7,0 m/s. Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål glider från vila 10 m nedför ett plan med \\(\\tan\\alpha=\\tfrac43\\) och får farten 7,0 m/s. Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\sin\\alpha=0{,}8\\), \\(\\cos\\alpha=0{,}6\\). \\(\\dfrac{7{,}0^2}{2}=9{,}82\\cdot10(0{,}8-0{,}6\\mu)\\).</p><p><strong>Svar:</strong> \\(0{,}92\\)</p>",
+        "ledtrad": "<p>Bestäm sin och cos ur tan.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionsarbete \\(=\\mu mg\\cos\\alpha\\cdot s\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "bromsande kraft vid olika lutning",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,50 kg) skjuts med 5,0 m/s uppför ett plan som lutar 20° och vänder efter 2,0 m. En konstant bromsande kraft verkar.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Lutningen ökas till 40° och klossen skjuts med 8,0 m/s. Hur långt kommer den med samma bromsande kraft?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{0{,}50\\cdot5{,}0^2}{2}=0{,}50\\cdot9{,}82\\sin20^\\circ\\cdot2{,}0+F\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) N</p></li><li><p>\\(16=d(0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45)\\).</p><p><strong>Svar:</strong> \\(3{,}5\\) m</p></li></ol>",
+    "id": "5.543",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.4456810962709665,
+      3.4769243248647554
+    ],
+    "tolerans": [
+      0.051,
+      0.0522
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,50 kg) skjuts med 5,0 m/s uppför ett plan som lutar 20° och vänder efter 2,0 m. En konstant bromsande kraft verkar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den bromsande kraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,50 kg) skjuts med 5,0 m/s uppför ett plan som lutar 20° och vänder efter 2,0 m. En konstant bromsande kraft verkar.</p><p>Bestäm den bromsande kraften.</p>",
+        "s": "<p>\\(\\dfrac{0{,}50\\cdot5{,}0^2}{2}=0{,}50\\cdot9{,}82\\sin20^\\circ\\cdot2{,}0+F\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) N</p>",
+        "ledtrad": "<p>Rörelseenergin blir lägesenergi och friktionsarbete.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Lutningen ökas till 40° och klossen skjuts med 8,0 m/s. Hur långt kommer den med samma bromsande kraft?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,50 kg) skjuts med 5,0 m/s uppför ett plan som lutar 20° och vänder efter 2,0 m. En konstant bromsande kraft verkar.</p>Den bromsande kraften är 1,45 N.<p>Lutningen ökas till 40° och klossen skjuts med 8,0 m/s. Hur långt kommer den med samma bromsande kraft?</p>",
+        "s": "<p>\\(16=d(0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45)\\).</p><p><strong>Svar:</strong> \\(3{,}5\\) m</p>",
+        "ledtrad": "<p>Samma metod.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Energiprincipen med friktion.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "C",
+    "typ": "cykling i backe",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Petra och cykeln väger 72 kg. Backen har \\(\\sin\\theta=\\tfrac{2}{21}\\) och friktionen är 25 N.</p><ol type=\"a\"><li>Vilken effekt krävs uppför backen med konstant fart 5,0 m/s?</li><li>Hon rullar fritt nedför 180 m från 5,0 m/s. Bestäm farten därefter.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\left(72\\cdot9{,}82\\cdot\\tfrac{2}{21}+25\\right)\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(462\\) W</p></li><li><p>\\(\\dfrac{72(u^2-5{,}0^2)}{2}=72\\cdot9{,}82\\cdot\\tfrac{2}{21}\\cdot180-25\\cdot180\\).</p><p><strong>Svar:</strong> \\(15\\) m/s</p></li></ol>",
+    "id": "5.544",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      461.68571428571425,
+      15.384593406577707
+    ],
+    "tolerans": [
+      6.93,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Petra och cykeln väger 72 kg. Backen har \\(\\sin\\theta=\\tfrac{2}{21}\\) och friktionen är 25 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken effekt krävs uppför backen med konstant fart 5,0 m/s?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Petra och cykeln väger 72 kg. Backen har \\(\\sin\\theta=\\tfrac{2}{21}\\) och friktionen är 25 N.</p><p>Vilken effekt krävs uppför backen med konstant fart 5,0 m/s?</p>",
+        "s": "<p>\\(P=\\left(72\\cdot9{,}82\\cdot\\tfrac{2}{21}+25\\right)\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(462\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hon rullar fritt nedför 180 m från 5,0 m/s. Bestäm farten därefter.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Petra och cykeln väger 72 kg. Backen har \\(\\sin\\theta=\\tfrac{2}{21}\\) och friktionen är 25 N.</p><p>Hon rullar fritt nedför 180 m från 5,0 m/s. Bestäm farten därefter.</p>",
+        "s": "<p>\\(\\dfrac{72(u^2-5{,}0^2)}{2}=72\\cdot9{,}82\\cdot\\tfrac{2}{21}\\cdot180-25\\cdot180\\).</p><p><strong>Svar:</strong> \\(15\\) m/s</p>",
+        "ledtrad": "<p>Energiprincipen med friktion.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Tyngdens komposant längs backen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "låda dras uppför plan",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (2,0 kg) dras med 49 N längs ett plan som lutar 30° (friktionstal 0,50). I A är farten 10 m/s. Bestäm farten 4,0 m längre upp.</p>",
+    "s": "<p>\\(\\dfrac{2{,}0v^2}{2}=\\dfrac{2{,}0\\cdot10^2}{2}+49\\cdot4{,}0-2{,}0\\cdot9{,}82\\cdot2{,}0-0{,}50\\cdot2{,}0\\cdot9{,}82\\cos30^\\circ\\cdot4{,}0\\).</p><p><strong>Svar:</strong> \\(15\\) m/s</p>",
+    "id": "5.545",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.923220903657068,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Alla arbeten och energier.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "bilmotorns arbete i backe",
+    "poang": "(1/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 230 kg) kör 615 m uppför en backe med \\(\\tan\\theta=0{,}225\\). Farten ökar från 6,0 m/s till 20 m/s på 50 s. Den bromsande kraften är 400 N.</p><ol type=\"a\"><li>Hur stort arbete gör motorn minst?</li><li>Bestäm motorns medeleffekt.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\sin\\theta=\\dfrac{0{,}225}{\\sqrt{1+0{,}225^2}}\\). \\(W=mg\\cdot615\\sin\\theta+\\dfrac{m(20^2-6{,}0^2)}{2}+400\\cdot615\\).</p><p><strong>Svar:</strong> \\(2{,}1\\cdot10^{6}\\) J</p></li><li><p>\\(P=\\dfrac{W}{50}\\).</p><p><strong>Svar:</strong> \\(42\\,009\\) W</p></li></ol>",
+    "id": "5.546",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2100471.0,
+      42009.42
+    ],
+    "tolerans": [
+      51000.0,
+      630.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 230 kg) kör 615 m uppför en backe med \\(\\tan\\theta=0{,}225\\). Farten ökar från 6,0 m/s till 20 m/s på 50 s. Den bromsande kraften är 400 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stort arbete gör motorn minst?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 230 kg) kör 615 m uppför en backe med \\(\\tan\\theta=0{,}225\\). Farten ökar från 6,0 m/s till 20 m/s på 50 s. Den bromsande kraften är 400 N.</p><p>Hur stort arbete gör motorn minst?</p>",
+        "s": "<p>\\(\\sin\\theta=\\dfrac{0{,}225}{\\sqrt{1+0{,}225^2}}\\). \\(W=mg\\cdot615\\sin\\theta+\\dfrac{m(20^2-6{,}0^2)}{2}+400\\cdot615\\).</p><p><strong>Svar:</strong> \\(2{,}1\\cdot10^{6}\\) J</p>",
+        "ledtrad": "<p>Tre poster.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm motorns medeleffekt.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 230 kg) kör 615 m uppför en backe med \\(\\tan\\theta=0{,}225\\). Farten ökar från 6,0 m/s till 20 m/s på 50 s. Den bromsande kraften är 400 N.</p>Arbetet är 2,1 MJ.<p>Bestäm motorns medeleffekt.</p>",
+        "s": "<p>\\(P=\\dfrac{W}{50}\\).</p><p><strong>Svar:</strong> \\(42\\,009\\) W</p>",
+        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Energiprincipen med arbete.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "fyrdubblad fart",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (5,0 kg) dras 7,0 m med 47 N på ett vågrätt underlag med friktionstalet 0,50. Farten i slutet är fyra gånger farten i början. Bestäm startfarten.</p>",
+    "s": "<p>\\(47\\cdot7{,}0-0{,}50\\cdot5{,}0\\cdot9{,}82\\cdot7{,}0=\\dfrac{5{,}0(16-1)v_A^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s</p>",
+    "id": "5.547",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.047111786558484,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nettoarbete = ändring i rörelseenergi.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "bil med konstant effekt i backe",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 30 m/s på 30 s.</p><ol type=\"a\"><li>Bestäm accelerationen när farten är 10 m/s.</li><li>Hur lång är backen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_\\text{driv}=\\dfrac{30\\,000}{10}\\). \\(a=\\dfrac{3\\,000-400-1\\,300\\cdot9{,}82\\cdot0{,}10}{1\\,300}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s²</p></li><li><p>\\(30\\,000\\cdot30=\\dfrac{1\\,300(30^2-10^2)}{2}+(1\\,300\\cdot9{,}82\\cdot0{,}10+400)l\\).</p><p><strong>Svar:</strong> \\(227\\) m</p></li></ol>",
+    "id": "5.548",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0179999999999998,
+      226.64917094119048
+    ],
+    "tolerans": [
+      0.051,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 30 m/s på 30 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen när farten är 10 m/s.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 30 m/s på 30 s.</p><p>Bestäm accelerationen när farten är 10 m/s.</p>",
+        "s": "<p>\\(F_\\text{driv}=\\dfrac{30\\,000}{10}\\). \\(a=\\dfrac{3\\,000-400-1\\,300\\cdot9{,}82\\cdot0{,}10}{1\\,300}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s²</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång är backen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 30 m/s på 30 s.</p><p>Hur lång är backen?</p>",
+        "s": "<p>\\(30\\,000\\cdot30=\\dfrac{1\\,300(30^2-10^2)}{2}+(1\\,300\\cdot9{,}82\\cdot0{,}10+400)l\\).</p><p><strong>Svar:</strong> \\(227\\) m</p>",
+        "ledtrad": "<p>Motorns arbete fördelas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\) och energiprincipen.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "bromsande kraft ur effekt",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (2,0 ton) kör 80 m uppför en backe som lutar 5,7° på 10 s, och farten ökar från 10 m/s till 12 m/s. Motorns nyttiga effekt är 24 kW. Bestäm den bromsande kraften.</p>",
+    "s": "<p>\\(24\\,000\\cdot10=\\dfrac{2\\,000(12^2-10^2)}{2}+2\\,000\\cdot9{,}82\\cdot80\\sin5{,}7^\\circ+80F\\).</p><p><strong>Svar:</strong> \\(499\\) N</p>",
+    "id": "5.549",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 499.3601150349299,
+    "tolerans": 7.49,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Motorns arbete fördelas.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "niva": "A",
+    "typ": "låda med vajer i vinkel",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) dras uppför ett plan med \\(\\tan\\alpha=\\tfrac34\\) av en vajer med kraften 1,5 kN, som bildar vinkeln \\(\\alpha\\) med planet. Friktionen är 180 N. I A är farten 5,0 m/s. Bestäm farten 10 m längre upp.</p>",
+    "s": "<p>\\(\\sin\\alpha=0{,}6\\), \\(\\cos\\alpha=0{,}8\\). \\(\\dfrac{120(v^2-25)}{2}=1\\,500\\cdot0{,}8\\cdot10-120\\cdot9{,}82\\cdot0{,}6\\cdot10-180\\cdot10\\).</p><p><strong>Svar:</strong> \\(8{,}8\\) m/s</p>",
+    "id": "5.550",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Nettoarbete och energiförluster",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.784076502399099,
+    "tolerans": 0.132,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bara vajerns komposant längs planet gör arbete.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -160174,6 +162260,1256 @@ window.BANK = [
     "ledtrad": "<p>Fjäderenergi \\(\\dfrac{kx^2}{2}\\).</p>",
     "traningsniva": 3,
     "svarEnhet": "m",
+    "familjNyckel": "arbete__fjaderenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "arbete med vågrät kraft",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Ett föremål skjuts 2,4 m med kraften 15 N. Bestäm arbetet.</li><li>En bil bromsas 25 m av friktionskraften 500 N. Hur stort arbete gör friktionen (belopp)?</li><li>En byrå (46,0 kg) knuffas 10,3 m med konstant fart. Friktionstalet är 0,50. Hur stort arbete gör man?</li><li>En pojke puttar en låda med konstant fart 0,82 m/s och kraften 20 N i 16 s. Bestäm arbetet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=15\\cdot2{,}4\\).</p><p><strong>Svar:</strong> \\(36\\) J</p></li><li><p>\\(W=500\\cdot25\\).</p><p><strong>Svar:</strong> \\(12\\,500\\) J</p></li><li><p>\\(F=0{,}50\\cdot46{,}0\\cdot9{,}82\\), \\(W=F\\cdot10{,}3\\).</p><p><strong>Svar:</strong> \\(2\\,326\\) J</p></li><li><p>\\(s=0{,}82\\cdot16\\), \\(W=20s\\).</p><p><strong>Svar:</strong> \\(262\\) J</p></li></ol>",
+    "id": "5.520",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      36,
+      12500,
+      2326.358,
+      262.4
+    ],
+    "tolerans": [
+      0.54,
+      510.0,
+      51.0,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett föremål skjuts 2,4 m med kraften 15 N. Bestäm arbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts 2,4 m med kraften 15 N. Bestäm arbetet.</p>",
+        "s": "<p>\\(W=15\\cdot2{,}4\\).</p><p><strong>Svar:</strong> \\(36\\) J</p>",
+        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil bromsas 25 m av friktionskraften 500 N. Hur stort arbete gör friktionen (belopp)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil bromsas 25 m av friktionskraften 500 N. Hur stort arbete gör friktionen (belopp)?</p>",
+        "s": "<p>\\(W=500\\cdot25\\).</p><p><strong>Svar:</strong> \\(12\\,500\\) J</p>",
+        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En byrå (46,0 kg) knuffas 10,3 m med konstant fart. Friktionstalet är 0,50. Hur stort arbete gör man?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En byrå (46,0 kg) knuffas 10,3 m med konstant fart. Friktionstalet är 0,50. Hur stort arbete gör man?</p>",
+        "s": "<p>\\(F=0{,}50\\cdot46{,}0\\cdot9{,}82\\), \\(W=F\\cdot10{,}3\\).</p><p><strong>Svar:</strong> \\(2\\,326\\) J</p>",
+        "ledtrad": "<p>Konstant fart: kraften är lika stor som friktionen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En pojke puttar en låda med konstant fart 0,82 m/s och kraften 20 N i 16 s. Bestäm arbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En pojke puttar en låda med konstant fart 0,82 m/s och kraften 20 N i 16 s. Bestäm arbetet.</p>",
+        "s": "<p>\\(s=0{,}82\\cdot16\\), \\(W=20s\\).</p><p><strong>Svar:</strong> \\(262\\) J</p>",
+        "ledtrad": "<p>Bestäm sträckan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "klippa gräsmatta",
+    "poang": "(0/1/0)",
+    "t": "<p>Uppskatta arbetet för att klippa en gräsmatta (10 m × 20 m) med en gräsklippare som är 50 cm bred och kräver kraften 15 N.</p>",
+    "s": "<p>Sträcka: \\(\\dfrac{10\\cdot20}{0{,}50}=400\\) m. \\(W=15\\cdot400\\).</p><p><strong>Svar:</strong> \\(6\\,000\\) J</p>",
+    "id": "5.521",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6000,
+    "tolerans": 90.0,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur lång sträcka måste klipparen gå?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J",
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "träd släpas bort",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett träd (800 kg) släpas med konstant fart. Friktionstalet är 0,61 och arbetet blir 1,2 MJ. Hur lång sträcka släpades trädet?</p>",
+    "s": "<p>\\(s=\\dfrac{1{,}2\\cdot10^6}{0{,}61\\cdot800\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(250\\) m</p>",
+    "id": "5.522",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "numeriskt",
+    "rättSvar": 250.40900136890255,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "skottkärra",
+    "poang": "(3/0/0)",
+    "t": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p><ol type=\"a\"><li>Bestäm arbetet.</li><li>Hur långt flyttas den med samma arbete om kraften är 120 N?</li><li>Hur stor är kraften med samma arbete om sträckan är 2,5 m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=178\\cdot3{,}00\\).</p><p><strong>Svar:</strong> \\(534\\) J</p></li><li><p>\\(s=\\dfrac{534}{120}\\).</p><p><strong>Svar:</strong> \\(4{,}45\\) m</p></li><li><p>\\(F=\\dfrac{534}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(214\\) N</p></li></ol>",
+    "id": "5.523",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      534,
+      4.45,
+      213.6
+    ],
+    "tolerans": [
+      8.01,
+      0.0668,
+      3.2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "m",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm arbetet.",
+        "t": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p><p>Bestäm arbetet.</p>",
+        "s": "<p>\\(W=178\\cdot3{,}00\\).</p><p><strong>Svar:</strong> \\(534\\) J</p>",
+        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt flyttas den med samma arbete om kraften är 120 N?",
+        "t": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p>Arbetet är 534 J.<p>Hur långt flyttas den med samma arbete om kraften är 120 N?</p>",
+        "s": "<p>\\(s=\\dfrac{534}{120}\\).</p><p><strong>Svar:</strong> \\(4{,}45\\) m</p>",
+        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är kraften med samma arbete om sträckan är 2,5 m?",
+        "t": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p>Arbetet är 534 J.<p>Hur stor är kraften med samma arbete om sträckan är 2,5 m?</p>",
+        "s": "<p>\\(F=\\dfrac{534}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(214\\) N</p>",
+        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "bromsarbete ur rörelseenergi",
+    "poang": "(2/0/0)",
+    "t": "<p>Bestäm bromsarbetets belopp.</p><ol type=\"a\"><li>En cyklist med cykel (113 kg) bromsar från 15 m/s till stillastående.</li><li>En bil (1,3 ton) bromsar från 21,5 m/s till stillastående.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=\\dfrac{113\\cdot15^2}{2}\\).</p><p><strong>Svar:</strong> \\(12\\,712\\) J</p></li><li><p>\\(W=\\dfrac{1\\,300\\cdot21{,}5^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p></li></ol>",
+    "id": "5.524",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12712.5,
+      300462.5
+    ],
+    "tolerans": [
+      510.0,
+      5100.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm bromsarbetets belopp.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En cyklist med cykel (113 kg) bromsar från 15 m/s till stillastående.",
+        "t": "<p>Bestäm bromsarbetets belopp.</p><p>En cyklist med cykel (113 kg) bromsar från 15 m/s till stillastående.</p>",
+        "s": "<p>\\(W=\\dfrac{113\\cdot15^2}{2}\\).</p><p><strong>Svar:</strong> \\(12\\,712\\) J</p>",
+        "ledtrad": "<p>Bromsarbetet tar all rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil (1,3 ton) bromsar från 21,5 m/s till stillastående.",
+        "t": "<p>Bestäm bromsarbetets belopp.</p><p>En bil (1,3 ton) bromsar från 21,5 m/s till stillastående.</p>",
+        "s": "<p>\\(W=\\dfrac{1\\,300\\cdot21{,}5^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>Bromsarbetet tar all rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Bromsarbete = minskning i rörelseenergi.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "lyftarbete",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En resväska (22 kg) lyfts 45 cm. Bestäm lyftarbetet.</li><li>En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.</li><li>En skivstång (175 kg) lyfts 2,2 m. Bestäm lyftarbetet.</li><li>Ett lyftarbete på 550 J lyfter ett klot 1,5 m. Bestäm klotets massa.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=22\\cdot9{,}82\\cdot0{,}45\\).</p><p><strong>Svar:</strong> \\(97\\) J</p></li><li><p>\\(W=90{,}0\\cdot9{,}82\\cdot28{,}0\\).</p><p><strong>Svar:</strong> \\(24\\,746\\) J</p></li><li><p>\\(W=175\\cdot9{,}82\\cdot2{,}2\\).</p><p><strong>Svar:</strong> \\(3\\,781\\) J</p></li><li><p>\\(m=\\dfrac{550}{9{,}82\\cdot1{,}5}\\).</p><p><strong>Svar:</strong> \\(37\\) kg</p></li></ol>",
+    "id": "5.525",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lägesenergi och lyftarbete",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      97.21800000000002,
+      24746.4,
+      3780.7000000000003,
+      37.3387644263408
+    ],
+    "tolerans": [
+      1.46,
+      371.0,
+      56.7,
+      0.56
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "J",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En resväska (22 kg) lyfts 45 cm. Bestäm lyftarbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En resväska (22 kg) lyfts 45 cm. Bestäm lyftarbetet.</p>",
+        "s": "<p>\\(W=22\\cdot9{,}82\\cdot0{,}45\\).</p><p><strong>Svar:</strong> \\(97\\) J</p>",
+        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.</p>",
+        "s": "<p>\\(W=90{,}0\\cdot9{,}82\\cdot28{,}0\\).</p><p><strong>Svar:</strong> \\(24\\,746\\) J</p>",
+        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En skivstång (175 kg) lyfts 2,2 m. Bestäm lyftarbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skivstång (175 kg) lyfts 2,2 m. Bestäm lyftarbetet.</p>",
+        "s": "<p>\\(W=175\\cdot9{,}82\\cdot2{,}2\\).</p><p><strong>Svar:</strong> \\(3\\,781\\) J</p>",
+        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Ett lyftarbete på 550 J lyfter ett klot 1,5 m. Bestäm klotets massa.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett lyftarbete på 550 J lyfter ett klot 1,5 m. Bestäm klotets massa.</p>",
+        "s": "<p>\\(m=\\dfrac{550}{9{,}82\\cdot1{,}5}\\).</p><p><strong>Svar:</strong> \\(37\\) kg</p>",
+        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(W=mgh\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "lyfta eller skjuta en låda",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) flyttas med konstant fart.</p><ol type=\"a\"><li>Bestäm arbetet när den lyfts 5,0 m rakt upp.</li><li>Bestäm arbetet när den skjuts 5,0 m längs golvet med friktionstalet 0,55.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=120\\cdot9{,}82\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(5\\,892\\) J</p></li><li><p>\\(W=0{,}55\\cdot120\\cdot9{,}82\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(3\\,241\\) J</p></li></ol>",
+    "id": "5.526",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5892.0,
+      3240.6
+    ],
+    "tolerans": [
+      88.4,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) flyttas med konstant fart.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm arbetet när den lyfts 5,0 m rakt upp.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) flyttas med konstant fart.</p><p>Bestäm arbetet när den lyfts 5,0 m rakt upp.</p>",
+        "s": "<p>\\(W=120\\cdot9{,}82\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(5\\,892\\) J</p>",
+        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm arbetet när den skjuts 5,0 m längs golvet med friktionstalet 0,55.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) flyttas med konstant fart.</p><p>Bestäm arbetet när den skjuts 5,0 m längs golvet med friktionstalet 0,55.</p>",
+        "s": "<p>\\(W=0{,}55\\cdot120\\cdot9{,}82\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(3\\,241\\) J</p>",
+        "ledtrad": "<p>Kraften är lika med friktionen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "A",
+    "typ": "lyftarbete med tyngdpunkt",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En väska (4,5 kg) lyfts från ett 95 cm högt bord till en hylla 1,75 m över golvet. Bestäm arbetet.</li><li>En liggande konservburk (400 g, radie 3,5 cm, höjd 13,0 cm) ställs upp. Bestäm det minsta lyftarbetet.</li><li>Fem murstenar (15,0 cm höga, 25,0 kg var) ligger på marken och staplas. Bestäm det minsta lyftarbetet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=4{,}5\\cdot9{,}82\\cdot0{,}80\\).</p><p><strong>Svar:</strong> \\(35\\) J</p></li><li><p>Tyngdpunkten höjs från 3,5 cm till 6,5 cm: \\(W=0{,}400\\cdot9{,}82\\cdot0{,}030\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) J</p></li><li><p>Stenarna lyfts 0,15 + 0,30 + 0,45 + 0,60 = 1,50 m sammanlagt: \\(W=25{,}0\\cdot9{,}82\\cdot1{,}50\\).</p><p><strong>Svar:</strong> \\(368\\) J</p></li></ol>",
+    "id": "5.527",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lägesenergi och lyftarbete",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      35.352,
+      0.11784,
+      368.25
+    ],
+    "tolerans": [
+      0.53,
+      0.0051,
+      5.52
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En väska (4,5 kg) lyfts från ett 95 cm högt bord till en hylla 1,75 m över golvet. Bestäm arbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En väska (4,5 kg) lyfts från ett 95 cm högt bord till en hylla 1,75 m över golvet. Bestäm arbetet.</p>",
+        "s": "<p>\\(W=4{,}5\\cdot9{,}82\\cdot0{,}80\\).</p><p><strong>Svar:</strong> \\(35\\) J</p>",
+        "ledtrad": "<p>Höjdskillnaden är 0,80 m.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En liggande konservburk (400 g, radie 3,5 cm, höjd 13,0 cm) ställs upp. Bestäm det minsta lyftarbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En liggande konservburk (400 g, radie 3,5 cm, höjd 13,0 cm) ställs upp. Bestäm det minsta lyftarbetet.</p>",
+        "s": "<p>Tyngdpunkten höjs från 3,5 cm till 6,5 cm: \\(W=0{,}400\\cdot9{,}82\\cdot0{,}030\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) J</p>",
+        "ledtrad": "<p>Hur mycket höjs tyngdpunkten?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Fem murstenar (15,0 cm höga, 25,0 kg var) ligger på marken och staplas. Bestäm det minsta lyftarbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Fem murstenar (15,0 cm höga, 25,0 kg var) ligger på marken och staplas. Bestäm det minsta lyftarbetet.</p>",
+        "s": "<p>Stenarna lyfts 0,15 + 0,30 + 0,45 + 0,60 = 1,50 m sammanlagt: \\(W=25{,}0\\cdot9{,}82\\cdot1{,}50\\).</p><p><strong>Svar:</strong> \\(368\\) J</p>",
+        "ledtrad": "<p>Hur högt lyfts varje sten?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(W=mg\\Delta h\\) för tyngdpunkten.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "bänkpress",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p><ol type=\"a\"><li>Hur stor kraft lyfter han med?</li><li>Hur stort arbete gör han när han lyfter?</li><li>Hur stort arbete gör han när han sänker stången? (Ange med tecken.)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=72\\cdot9{,}82\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(707\\) N</p></li><li><p>\\(W=707\\cdot0{,}65\\).</p><p><strong>Svar:</strong> \\(460\\) J</p></li><li><p>Kraften är uppåt och rörelsen nedåt: \\(W=-707\\cdot0{,}65\\).</p><p><strong>Svar:</strong> \\(-460\\) J</p></li></ol>",
+    "id": "5.528",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      707.04,
+      459.57599999999996,
+      -459.57599999999996
+    ],
+    "tolerans": [
+      10.6,
+      6.89,
+      6.89
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor kraft lyfter han med?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p><p>Hur stor kraft lyfter han med?</p>",
+        "s": "<p>\\(F=72\\cdot9{,}82\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(707\\) N</p>",
+        "ledtrad": "<p>Konstant fart: jämvikt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stort arbete gör han när han lyfter?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p><p>Hur stort arbete gör han när han lyfter?</p>",
+        "s": "<p>\\(W=707\\cdot0{,}65\\).</p><p><strong>Svar:</strong> \\(460\\) J</p>",
+        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stort arbete gör han när han sänker stången? (Ange med tecken.)",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p><p>Hur stort arbete gör han när han sänker stången? (Ange med tecken.)</p>",
+        "s": "<p>Kraften är uppåt och rörelsen nedåt: \\(W=-707\\cdot0{,}65\\).</p><p><strong>Svar:</strong> \\(-460\\) J</p>",
+        "ledtrad": "<p>Kraft och förflyttning är motriktade.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "arbete med sned dragkraft",
+    "poang": "(3/0/0)",
+    "t": "<p>Bestäm arbetet.</p><ol type=\"a\"><li>Frida drar en låda 5,5 m med 70 N i ett snöre som bildar 35° med golvet.</li><li>Oskar drar en tvättkorg 5,0 m med 85 N i vinkeln 60° mot golvet.</li><li>Helena drar en släde med 240 N i vinkeln 30,0° mot marken med farten 1,5 m/s i 10,0 s.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=70\\cos35^\\circ\\cdot5{,}5\\).</p><p><strong>Svar:</strong> \\(315\\) J</p></li><li><p>\\(W=85\\cos60^\\circ\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(212\\) J</p></li><li><p>\\(s=15\\) m, \\(W=240\\cos30{,}0^\\circ\\cdot15\\).</p><p><strong>Svar:</strong> \\(3\\,118\\) J</p></li></ol>",
+    "id": "5.529",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      315.37353705126185,
+      212.5,
+      3117.691453623979
+    ],
+    "tolerans": [
+      5.1,
+      5.1,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm arbetet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Frida drar en låda 5,5 m med 70 N i ett snöre som bildar 35° med golvet.",
+        "t": "<p>Bestäm arbetet.</p><p>Frida drar en låda 5,5 m med 70 N i ett snöre som bildar 35° med golvet.</p>",
+        "s": "<p>\\(W=70\\cos35^\\circ\\cdot5{,}5\\).</p><p><strong>Svar:</strong> \\(315\\) J</p>",
+        "ledtrad": "<p>Bara den vågräta komposanten gör arbete.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Oskar drar en tvättkorg 5,0 m med 85 N i vinkeln 60° mot golvet.",
+        "t": "<p>Bestäm arbetet.</p><p>Oskar drar en tvättkorg 5,0 m med 85 N i vinkeln 60° mot golvet.</p>",
+        "s": "<p>\\(W=85\\cos60^\\circ\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(212\\) J</p>",
+        "ledtrad": "<p>Bara den vågräta komposanten gör arbete.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Helena drar en släde med 240 N i vinkeln 30,0° mot marken med farten 1,5 m/s i 10,0 s.",
+        "t": "<p>Bestäm arbetet.</p><p>Helena drar en släde med 240 N i vinkeln 30,0° mot marken med farten 1,5 m/s i 10,0 s.</p>",
+        "s": "<p>\\(s=15\\) m, \\(W=240\\cos30{,}0^\\circ\\cdot15\\).</p><p><strong>Svar:</strong> \\(3\\,118\\) J</p>",
+        "ledtrad": "<p>Bestäm sträckan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(W=F\\cos\\alpha\\cdot s\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "vagn uppför backe",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p><ol type=\"a\"><li>Vilken kraft längs backen krävs utan friktion?</li><li>Bestäm arbetet utan friktion.</li><li>Bestäm arbetet om friktionen är 40 N.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=18\\cdot9{,}82\\sin20^\\circ\\).</p><p><strong>Svar:</strong> \\(60\\) N</p></li><li><p>\\(W=60{,}5\\cdot26\\).</p><p><strong>Svar:</strong> \\(1\\,572\\) J</p></li><li><p>\\(W=(60{,}5+40)\\cdot26\\).</p><p><strong>Svar:</strong> \\(2\\,612\\) J</p></li></ol>",
+    "id": "5.530",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60.4554805342452,
+      1571.8424938903752,
+      2611.842493890375
+    ],
+    "tolerans": [
+      0.907,
+      51.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken kraft längs backen krävs utan friktion?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p><p>Vilken kraft längs backen krävs utan friktion?</p>",
+        "s": "<p>\\(F=18\\cdot9{,}82\\sin20^\\circ\\).</p><p><strong>Svar:</strong> \\(60\\) N</p>",
+        "ledtrad": "<p>Tyngdens komposant längs backen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm arbetet utan friktion.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p><p>Bestäm arbetet utan friktion.</p>",
+        "s": "<p>\\(W=60{,}5\\cdot26\\).</p><p><strong>Svar:</strong> \\(1\\,572\\) J</p>",
+        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm arbetet om friktionen är 40 N.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p><p>Bestäm arbetet om friktionen är 40 N.</p>",
+        "s": "<p>\\(W=(60{,}5+40)\\cdot26\\).</p><p><strong>Svar:</strong> \\(2\\,612\\) J</p>",
+        "ledtrad": "<p>Friktionen ska också övervinnas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "låda glider nedför plan",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (15 kg) glider 1,20 m nedför ett plan som lutar 28°. Friktionstalet är 0,25.</p><ol type=\"a\"><li>Hur stort arbete gör friktionen (belopp)?</li><li>Hur stort arbete gör tyngdkraften?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=0{,}25\\cdot15\\cdot9{,}82\\cos28^\\circ\\cdot1{,}20\\).</p><p><strong>Svar:</strong> \\(39\\) J</p></li><li><p>\\(W=15\\cdot9{,}82\\sin28^\\circ\\cdot1{,}20\\). Större än friktionsarbetet, så farten ökar.</p><p><strong>Svar:</strong> \\(83\\) J</p></li></ol>",
+    "id": "5.531",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      39.017454128435986,
+      82.98379343803406
+    ],
+    "tolerans": [
+      0.585,
+      1.24
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (15 kg) glider 1,20 m nedför ett plan som lutar 28°. Friktionstalet är 0,25.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stort arbete gör friktionen (belopp)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (15 kg) glider 1,20 m nedför ett plan som lutar 28°. Friktionstalet är 0,25.</p><p>Hur stort arbete gör friktionen (belopp)?</p>",
+        "s": "<p>\\(W=0{,}25\\cdot15\\cdot9{,}82\\cos28^\\circ\\cdot1{,}20\\).</p><p><strong>Svar:</strong> \\(39\\) J</p>",
+        "ledtrad": "<p>Normalkraften är \\(mg\\cos\\alpha\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stort arbete gör tyngdkraften?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (15 kg) glider 1,20 m nedför ett plan som lutar 28°. Friktionstalet är 0,25.</p><p>Hur stort arbete gör tyngdkraften?</p>",
+        "s": "<p>\\(W=15\\cdot9{,}82\\sin28^\\circ\\cdot1{,}20\\). Större än friktionsarbetet, så farten ökar.</p><p><strong>Svar:</strong> \\(83\\) J</p>",
+        "ledtrad": "<p>Komposanten längs planet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "ramp eller rakt lyft",
+    "poang": "(3/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><ol type=\"a\"><li>Hur stort arbete krävs för det raka lyftet?</li><li>Vilken vinkel har rampen?</li><li>Hur stor kraft krävs längs rampen?</li><li>Hur stort arbete krävs längs rampen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=150\\cdot9{,}82\\cdot1{,}00\\).</p><p><strong>Svar:</strong> \\(1\\,473\\) J</p></li><li><p>\\(\\sin\\alpha=\\dfrac{1{,}00}{5{,}00}\\).</p><p><strong>Svar:</strong> \\(11{,}5\\) °</p></li><li><p>\\(F=150\\cdot9{,}82\\cdot\\dfrac{1{,}00}{5{,}00}\\).</p><p><strong>Svar:</strong> \\(295\\) N</p></li><li><p>\\(W=295\\cdot5{,}00\\), samma som det raka lyftet.</p><p><strong>Svar:</strong> \\(1\\,473\\) J</p></li></ol>",
+    "id": "5.532",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1473.0,
+      11.536959032815489,
+      294.6,
+      1473.0
+    ],
+    "tolerans": [
+      22.1,
+      0.173,
+      4.42,
+      22.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "J",
+      "°",
+      "N",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stort arbete krävs för det raka lyftet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><p>Hur stort arbete krävs för det raka lyftet?</p>",
+        "s": "<p>\\(W=150\\cdot9{,}82\\cdot1{,}00\\).</p><p><strong>Svar:</strong> \\(1\\,473\\) J</p>",
+        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken vinkel har rampen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><p>Vilken vinkel har rampen?</p>",
+        "s": "<p>\\(\\sin\\alpha=\\dfrac{1{,}00}{5{,}00}\\).</p><p><strong>Svar:</strong> \\(11{,}5\\) °</p>",
+        "ledtrad": "<p>Trigonometri.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor kraft krävs längs rampen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><p>Hur stor kraft krävs längs rampen?</p>",
+        "s": "<p>\\(F=150\\cdot9{,}82\\cdot\\dfrac{1{,}00}{5{,}00}\\).</p><p><strong>Svar:</strong> \\(295\\) N</p>",
+        "ledtrad": "<p>Komposanten längs rampen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stort arbete krävs längs rampen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><p>Hur stort arbete krävs längs rampen?</p>",
+        "s": "<p>\\(W=295\\cdot5{,}00\\), samma som det raka lyftet.</p><p><strong>Svar:</strong> \\(1\\,473\\) J</p>",
+        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Det man vinner i kraft förlorar man i väg.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "hockeypuck bromsas",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p><ol type=\"a\"><li>Bestäm friktionskraften.</li><li>Efter hur lång tid stannar pucken?</li><li>Hur stort arbete gör friktionen (belopp)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=0{,}030\\cdot0{,}25\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}074\\) N</p></li><li><p>\\(a=0{,}030\\cdot9{,}82\\), \\(t=\\dfrac{25}{a}\\).</p><p><strong>Svar:</strong> \\(85\\) s</p></li><li><p>\\(W=\\dfrac{0{,}25\\cdot25^2}{2}\\).</p><p><strong>Svar:</strong> \\(78\\) J</p></li></ol>",
+    "id": "5.533",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.07365,
+      84.86082824168365,
+      78.125
+    ],
+    "tolerans": [
+      0.0011,
+      1.27,
+      1.17
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "s",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm friktionskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p><p>Bestäm friktionskraften.</p>",
+        "s": "<p>\\(F=0{,}030\\cdot0{,}25\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}074\\) N</p>",
+        "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur lång tid stannar pucken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p><p>Efter hur lång tid stannar pucken?</p>",
+        "s": "<p>\\(a=0{,}030\\cdot9{,}82\\), \\(t=\\dfrac{25}{a}\\).</p><p><strong>Svar:</strong> \\(85\\) s</p>",
+        "ledtrad": "<p>Bestäm retardationen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stort arbete gör friktionen (belopp)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p><p>Hur stort arbete gör friktionen (belopp)?</p>",
+        "s": "<p>\\(W=\\dfrac{0{,}25\\cdot25^2}{2}\\).</p><p><strong>Svar:</strong> \\(78\\) J</p>",
+        "ledtrad": "<p>All rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Friktionen bromsar pucken.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "A",
+    "typ": "sned dragkraft med friktion",
+    "poang": "(1/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (5,0 kg) dras 4,5 m längs marken med ett snöre i vinkeln 30° uppåt. Spännkraften är 40 N och friktionstalet 0,25.</p><ol type=\"a\"><li>Hur stort arbete gör snöret?</li><li>Hur stort arbete gör friktionen (belopp)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=40\\cos30^\\circ\\cdot4{,}5\\).</p><p><strong>Svar:</strong> \\(156\\) J</p></li><li><p>\\(F_N=5{,}0\\cdot9{,}82-40\\sin30^\\circ\\), \\(W=0{,}25F_N\\cdot4{,}5\\).</p><p><strong>Svar:</strong> \\(33\\) J</p></li></ol>",
+    "id": "5.534",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Arbete W = F·s",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      155.88457268119896,
+      32.737500000000004
+    ],
+    "tolerans": [
+      5.1,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (5,0 kg) dras 4,5 m längs marken med ett snöre i vinkeln 30° uppåt. Spännkraften är 40 N och friktionstalet 0,25.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stort arbete gör snöret?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (5,0 kg) dras 4,5 m längs marken med ett snöre i vinkeln 30° uppåt. Spännkraften är 40 N och friktionstalet 0,25.</p><p>Hur stort arbete gör snöret?</p>",
+        "s": "<p>\\(W=40\\cos30^\\circ\\cdot4{,}5\\).</p><p><strong>Svar:</strong> \\(156\\) J</p>",
+        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stort arbete gör friktionen (belopp)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (5,0 kg) dras 4,5 m längs marken med ett snöre i vinkeln 30° uppåt. Spännkraften är 40 N och friktionstalet 0,25.</p><p>Hur stort arbete gör friktionen (belopp)?</p>",
+        "s": "<p>\\(F_N=5{,}0\\cdot9{,}82-40\\sin30^\\circ\\), \\(W=0{,}25F_N\\cdot4{,}5\\).</p><p><strong>Svar:</strong> \\(33\\) J</p>",
+        "ledtrad": "<p>Snöret lyfter lite: normalkraften minskar.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arbete__arbete_w_fs",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "arbete på fjäder",
+    "poang": "(1/2/0)",
+    "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><ol type=\"a\"><li>Hur stort arbete krävs för att förlänga en fjäder (25,0 N/m) 0,450 m?</li><li>En fjäder (150 N/m) förlängs från 10 cm till 30 cm. Hur stort arbete krävs?</li><li>Ett arbete på 13,4 J trycker ihop en fjäder 2,37 cm. Bestäm fjäderkonstanten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=\\dfrac{25{,}0\\cdot0{,}450^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}53\\) J</p></li><li><p>\\(W=\\dfrac{150(0{,}30^2-0{,}10^2)}{2}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) J</p></li><li><p>\\(k=\\dfrac{2\\cdot13{,}4}{0{,}0237^2}\\).</p><p><strong>Svar:</strong> \\(47\\,713\\) N/m</p></li></ol>",
+    "id": "5.535",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.53125,
+      6.0,
+      47713.15138243515
+    ],
+    "tolerans": [
+      0.038,
+      0.09,
+      716.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "J",
+      "N/m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stort arbete krävs för att förlänga en fjäder (25,0 N/m) 0,450 m?",
+        "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><p>Hur stort arbete krävs för att förlänga en fjäder (25,0 N/m) 0,450 m?</p>",
+        "s": "<p>\\(W=\\dfrac{25{,}0\\cdot0{,}450^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}53\\) J</p>",
+        "ledtrad": "<p>Arean under \\(F\\)-\\(s\\)-grafen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En fjäder (150 N/m) förlängs från 10 cm till 30 cm. Hur stort arbete krävs?",
+        "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><p>En fjäder (150 N/m) förlängs från 10 cm till 30 cm. Hur stort arbete krävs?</p>",
+        "s": "<p>\\(W=\\dfrac{150(0{,}30^2-0{,}10^2)}{2}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) J</p>",
+        "ledtrad": "<p>Skillnaden i fjäderenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett arbete på 13,4 J trycker ihop en fjäder 2,37 cm. Bestäm fjäderkonstanten.",
+        "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><p>Ett arbete på 13,4 J trycker ihop en fjäder 2,37 cm. Bestäm fjäderkonstanten.</p>",
+        "s": "<p>\\(k=\\dfrac{2\\cdot13{,}4}{0{,}0237^2}\\).</p><p><strong>Svar:</strong> \\(47\\,713\\) N/m</p>",
+        "ledtrad": "<p>Lös ut \\(k\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(W=\\dfrac{kx^2}{2}\\).</p>",
+    "traningsniva": 3,
     "familjNyckel": "arbete__fjaderenergi",
     "arbetsinsats": 2,
     "spel": true

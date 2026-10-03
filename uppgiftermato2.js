@@ -58724,7 +58724,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Grafen visar ett vattenflöde \\(q(t)\\) i liter per minut.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"255\" viewBox=\"0 0 470 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Flödesgraf\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55\" y1=\"215\" x2=\"425\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"55\" y1=\"35\" x2=\"55\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><polyline points=\"55,185 145,95 280,95 415,155\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"3\"/><line x1=\"145\" y1=\"215\" x2=\"145\" y2=\"95\" stroke=\"#E8ECEF\"/><line x1=\"280\" y1=\"215\" x2=\"280\" y2=\"95\" stroke=\"#E8ECEF\"/><text x=\"55\" y=\"235\" font-family=\"sans-serif\" font-size=\"11\">0</text><text x=\"145\" y=\"235\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\">4</text><text x=\"280\" y=\"235\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\">10</text><text x=\"415\" y=\"235\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\">16</text><text x=\"47\" y=\"99\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">30</text><text x=\"47\" y=\"159\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">15</text><text x=\"390\" y=\"205\" font-family=\"sans-serif\" font-size=\"11\">t (min)</text><text x=\"65\" y=\"48\" font-family=\"sans-serif\" font-size=\"11\">q (L/min)</text></svg></span><p>Bestäm hur mycket vatten som passerar under de första 16 minuterna.</p>",
+    "t": "<p>Grafen visar ett vattenflöde \\(q(t)\\) i liter per minut.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"255\" viewBox=\"0 0 470 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Flödesgraf\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55\" y1=\"215\" x2=\"425\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"55\" y1=\"35\" x2=\"55\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><polyline points=\"55,155 145,95 280,95 415,155\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"3\"/><line x1=\"145\" y1=\"215\" x2=\"145\" y2=\"95\" stroke=\"#E8ECEF\"/><line x1=\"280\" y1=\"215\" x2=\"280\" y2=\"95\" stroke=\"#E8ECEF\"/><text x=\"55\" y=\"235\" font-family=\"sans-serif\" font-size=\"11\">0</text><text x=\"145\" y=\"235\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\">4</text><text x=\"280\" y=\"235\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\">10</text><text x=\"415\" y=\"235\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\">16</text><text x=\"47\" y=\"99\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">30</text><text x=\"47\" y=\"159\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">15</text><text x=\"390\" y=\"205\" font-family=\"sans-serif\" font-size=\"11\">t (min)</text><text x=\"65\" y=\"48\" font-family=\"sans-serif\" font-size=\"11\">q (L/min)</text></svg></span><p>Bestäm hur mycket vatten som passerar under de första 16 minuterna.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Volymen är arean under flödesgrafen.</p><p>0–4 min: trapets \\((15+30)\\cdot4/2=90\\) L.</p><p>4–10 min: rektangel \\(30\\cdot6=180\\) L.</p><p>10–16 min: trapets \\((30+15)\\cdot6/2=135\\) L.</p><p>Totalt \\(\\boxed{405\\text{ L}}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "familj": "Volym som integral av flöde",
     "formaga": [
@@ -62956,7 +62956,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 68.2,
-    "tolerans": 0.1,
+    "tolerans": 0.3,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
@@ -62965,7 +62965,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "omrTidigare": [
       "sannolikhetsintegraler"
-    ]
+    ],
+    "svarEnhet": "%"
   },
   {
     "id": "3.456",

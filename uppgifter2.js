@@ -48853,7 +48853,7 @@ window.BANK2 = [
       {
         "etikett": "b",
         "fraga": "Hur lång sträcka hinner ljuset i vatten (brytningsindex 1,33) på samma tid?",
-        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vakuum har brytningsindex exakt 1.</p>Ljuset går 1,00 m i vakuum på samma tid.<p>Hur lång sträcka hinner ljuset i vatten (brytningsindex 1,33) på samma tid?</p>",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vakuum har brytningsindex exakt 1.</p>Ljuset går 1,00 m i vakuum på en viss tid.<p>Hur lång sträcka hinner ljuset i vatten (brytningsindex 1,33) på samma tid?</p>",
         "s": "<p>\\(s=\\dfrac{1{,}00}{1{,}33}\\).</p><p><strong>Svar:</strong> \\(0{,}752\\) m</p>",
         "ledtrad": "<p>Ljuset går \\(n\\) gånger långsammare.</p>",
         "niva": "E",
@@ -48863,7 +48863,7 @@ window.BANK2 = [
       {
         "etikett": "c",
         "fraga": "Hur lång sträcka hinner ljuset i diamant (brytningsindex 2,42) på samma tid?",
-        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vakuum har brytningsindex exakt 1.</p>Ljuset går 1,00 m i vakuum på samma tid.<p>Hur lång sträcka hinner ljuset i diamant (brytningsindex 2,42) på samma tid?</p>",
+        "t": "<p>Använd \\(c=3{,}00\\cdot10^8\\) m/s.</p><p>Vakuum har brytningsindex exakt 1.</p>Ljuset går 1,00 m i vakuum på en viss tid.<p>Hur lång sträcka hinner ljuset i diamant (brytningsindex 2,42) på samma tid?</p>",
         "s": "<p>\\(s=\\dfrac{1{,}00}{2{,}42}\\).</p><p><strong>Svar:</strong> \\(0{,}413\\) m</p>",
         "ledtrad": "<p>Ljuset går \\(n\\) gånger långsammare.</p>",
         "niva": "E",

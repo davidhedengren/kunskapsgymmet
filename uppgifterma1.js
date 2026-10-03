@@ -126258,7 +126258,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "svarEnhet": "m",
+    "svarEnhet": "cm",
     "ledtrad": "<p>När du går från verklighet till ritning dividerar du den verkliga längden med skalans nämnare.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,

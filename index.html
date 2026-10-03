@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-03-fy1v";
+const BANK_VERSION="2026-10-03-fy1w";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9205,7 +9205,7 @@ function rentNumerisktSvar(anv,facit,meta){
   }
   /* Facit som exakt tal ("-2/5", "15/4") värderas helt; talAv läser bara det inledande talet. */
   const fs=String(facit);
-  const v=taltolk(taltext),f=(/[\/√^π]|sqrt|pi/i.test(fs) && isPureNumberExpression(fs))
+  const v=taltolk(taltext),f=(/[\/√^π]|sqrt|pi|ln|lg|log|sin|cos|tan/i.test(fs) && isPureNumberExpression(fs))
     ? numericValue(tillNerdamer(normalizeMathInput(fs))) : talAv(facit);
   if(!Number.isFinite(v)||!Number.isFinite(f)) return false;
   if(String(meta.format).toLowerCase()==="heltal" && !Number.isInteger(v)) return false;
@@ -9309,7 +9309,7 @@ function formatRatt(anv,facit,meta){
       if(rentNumerisktSvar(a,f,meta)) return true;
       /* Exakt form av talet, t.ex. 10/3, √2 eller 2π, när svaret inte har någon enhet. */
       const h=stadaSvar(hogerled(a));
-      if(format==="numeriskt" && /[\/√^π]|sqrt|pi/i.test(h) && isPureNumberExpression(h)){
+      if(format==="numeriskt" && /[\/√^π]|sqrt|pi|ln|lg|log|sin|cos|tan/i.test(h) && isPureNumberExpression(h)){
         const v=numericValue(tillNerdamer(normalizeMathInput(h)));
         const fv=isPureNumberExpression(String(f)) ? numericValue(tillNerdamer(normalizeMathInput(String(f)))) : talAv(f);
         return naraNog(v,fv,tol);
@@ -9498,6 +9498,22 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
       if(hl!==null && /x/.test(hl) && algebraisktLika(hl,mf[1])===true) return true;
     }
   }
+  /* Förändring med ord: "13,8 % minskning" eller "minskar med 9 %" när facit är negativt,
+     "ökning med 5 %" när det är positivt. Frågar uppgiften efter en minskning räknas
+     "20 % minskning" mot ett positivt facit. */
+  if(typeof facit==="number" || numerisktSvar(facit)){
+    const NEG=/^(minskning|minskningen|minskar|minskat|minskade|sänkning|sänks|sänkt|nedgång)$/i;
+    const POS=/^(ökning|ökningen|ökar|ökat|ökade|höjning|höjs|höjt|uppgång)$/i;
+    const FYLL=/^(den|det|en|med|på|är|blir|av|ca|cirka)$/i;
+    const ord=stadaSvar(anv).replace(/[.!]$/,"").split(/\s+/).filter(Boolean).map(w=>/^procent$/i.test(w)?"%":w);
+    const neg=ord.some(w=>NEG.test(w)), pos=ord.some(w=>POS.test(w));
+    const rest=ord.filter(w=>!NEG.test(w)&&!POS.test(w)&&!FYLL.test(w)).join(" ");
+    if(neg!==pos && rest && /^\d/.test(rest) && !/\p{L}{3,}/u.test(rest)){
+      if(delSvarRatt((neg?"-":"")+rest,facit,enhet,tol,t,idx,format)) return true;
+      const tt=String(t?.t||"");
+      if(neg && /minsk|sänk|lägre/i.test(tt) && !/ök|höj/i.test(tt) && delSvarRatt(rest,facit,enhet,tol,t,idx,format)) return true;
+    }
+  }
   /* Ett tal med enhet efter när facit är ett rent tal utan angiven enhet ("1,65 kg", "48 kr"). */
   if((enhet===undefined||enhet===null||enhet==="") && (typeof facit==="number" || numerisktSvar(facit))){
     const m=String(anv).trim().match(/^(.*?\d)\s*([a-zåäöµΩ°%][a-zåäöµΩ°%²³/·*()^0-9]*)\s*$/i);
@@ -9592,7 +9608,7 @@ const ENHETER={
   min:{b:"s",f:60}, tim:{b:"s",f:3600}, dygn:{b:"s",f:86400},
   "år":{b:"s",f:31557600},
   l:{b:"l",f:1}, L:{b:"l",f:1},
-  ton:{b:"g",f:1e6}, bar:{b:"Pa",f:1e5}, atm:{b:"Pa",f:101325},
+  ton:{b:"g",f:1e6}, t:{b:"g",f:1e6}, bar:{b:"Pa",f:1e5}, atm:{b:"Pa",f:101325},
   eV:{b:"J",f:1.602176634e-19}, u:{b:"g",f:1.66053906660e-24},
   Wh:{b:"J",f:3600}, Ah:{b:"C",f:3600}, kWh:{b:"J",f:3.6e6},
   "°":{b:"°",f:1}, rad:{b:"rad",f:1}, "%":{b:"%",f:1}
@@ -9621,7 +9637,8 @@ function tolkaEnhet(str){
   let x=String(str).trim()
     .replace(/[⋅∙·×x]/g,"*").replace(/²/g,"^2").replace(/³/g,"^3")
     .replace(/[()]/g,"")   // "J/(kg·K)": allt efter "/" är redan nämnare
-    .replace(/\s+/g,"");
+    .replace(/\s+/g,"")
+    .replace(/^varv(?:per|\/)(?:s|sek|sekund)$/i,"Hz");   // "varv/s", "varv per sekund"
   if(!x) return {f:1,d:{}};
   const delar=x.split("/");
   const res={f:1,d:{}};

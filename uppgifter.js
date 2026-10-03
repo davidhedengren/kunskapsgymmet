@@ -45517,6 +45517,3499 @@ window.BANK = [
     "spel": true
   },
   {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "resulterande kraft ur massa och acceleration med tiopotenser",
+    "poang": "(3/0/0)",
+    "t": "<p>Bestäm den resulterande kraften på föremålet.</p><ol type=\"a\"><li>\\(m=6{,}00\\cdot10^{-6}\\) kg och \\(a=20{,}5\\) m/s²</li><li>\\(m=350\\) kg och \\(a=0{,}045\\) m/s²</li><li>\\(m=25{,}0\\) g och \\(a=8{,}00\\cdot10^{-5}\\) m/s²</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_R=6{,}00\\cdot10^{-6}\\cdot20{,}5\\).</p><p><strong>Svar:</strong> \\(0{,}000123\\) N</p></li><li><p>\\(F_R=350\\cdot0{,}045\\).</p><p><strong>Svar:</strong> \\(16\\) N</p></li><li><p>\\(F_R=0{,}0250\\cdot8{,}00\\cdot10^{-5}\\).</p><p><strong>Svar:</strong> \\(2{,}00\\cdot10^{-6}\\) N</p></li></ol>",
+    "id": "4.675",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.000123,
+      15.75,
+      2.0000000000000003e-06
+    ],
+    "tolerans": [
+      1.85e-06,
+      0.51,
+      3e-08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm den resulterande kraften på föremålet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(m=6{,}00\\cdot10^{-6}\\) kg och \\(a=20{,}5\\) m/s²",
+        "t": "<p>Bestäm den resulterande kraften på föremålet.</p><p>\\(m=6{,}00\\cdot10^{-6}\\) kg och \\(a=20{,}5\\) m/s²</p>",
+        "s": "<p>\\(F_R=6{,}00\\cdot10^{-6}\\cdot20{,}5\\).</p><p><strong>Svar:</strong> \\(0{,}000123\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(m=350\\) kg och \\(a=0{,}045\\) m/s²",
+        "t": "<p>Bestäm den resulterande kraften på föremålet.</p><p>\\(m=350\\) kg och \\(a=0{,}045\\) m/s²</p>",
+        "s": "<p>\\(F_R=350\\cdot0{,}045\\).</p><p><strong>Svar:</strong> \\(16\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(m=25{,}0\\) g och \\(a=8{,}00\\cdot10^{-5}\\) m/s²",
+        "t": "<p>Bestäm den resulterande kraften på föremålet.</p><p>\\(m=25{,}0\\) g och \\(a=8{,}00\\cdot10^{-5}\\) m/s²</p>",
+        "s": "<p>\\(F_R=0{,}0250\\cdot8{,}00\\cdot10^{-5}\\).</p><p><strong>Svar:</strong> \\(2{,}00\\cdot10^{-6}\\) N</p>",
+        "ledtrad": "<p>Gör om massan till kg.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F_R=ma\\) med massan i kg.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "acceleration ur massa och kraft med prefix",
+    "poang": "(4/0/0)",
+    "t": "<p>Bestäm accelerationen hos föremålet.</p><ol type=\"a\"><li>\\(m=15{,}0\\) kg och \\(F_R=2{,}00\\) N</li><li>\\(m=6{,}00\\cdot10^{-6}\\) kg och \\(F_R=83{,}5\\) MN</li><li>\\(m=350\\) kg och \\(F_R=34{,}0\\cdot10^{-3}\\) N</li><li>\\(m=25{,}0\\) g och \\(F_R=3{,}78\\) mN</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{2{,}00}{15{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}133\\) m/s²</p></li><li><p>\\(a=\\dfrac{83{,}5\\cdot10^6}{6{,}00\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(1{,}39\\cdot10^{13}\\) m/s²</p></li><li><p>\\(a=\\dfrac{34{,}0\\cdot10^{-3}}{350}\\).</p><p><strong>Svar:</strong> \\(9{,}71\\cdot10^{-5}\\) m/s²</p></li><li><p>\\(a=\\dfrac{3{,}78\\cdot10^{-3}}{0{,}0250}\\).</p><p><strong>Svar:</strong> \\(0{,}151\\) m/s²</p></li></ol>",
+    "id": "4.676",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.13333333333333333,
+      13916666666666.666,
+      9.714285714285715e-05,
+      0.1512
+    ],
+    "tolerans": [
+      0.002,
+      209000000000.0,
+      1.46e-06,
+      0.00227
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²",
+      "m/s²",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm accelerationen hos föremålet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(m=15{,}0\\) kg och \\(F_R=2{,}00\\) N",
+        "t": "<p>Bestäm accelerationen hos föremålet.</p><p>\\(m=15{,}0\\) kg och \\(F_R=2{,}00\\) N</p>",
+        "s": "<p>\\(a=\\dfrac{2{,}00}{15{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}133\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=\\dfrac{F_R}{m}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(m=6{,}00\\cdot10^{-6}\\) kg och \\(F_R=83{,}5\\) MN",
+        "t": "<p>Bestäm accelerationen hos föremålet.</p><p>\\(m=6{,}00\\cdot10^{-6}\\) kg och \\(F_R=83{,}5\\) MN</p>",
+        "s": "<p>\\(a=\\dfrac{83{,}5\\cdot10^6}{6{,}00\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(1{,}39\\cdot10^{13}\\) m/s²</p>",
+        "ledtrad": "<p>M betyder \\(10^6\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(m=350\\) kg och \\(F_R=34{,}0\\cdot10^{-3}\\) N",
+        "t": "<p>Bestäm accelerationen hos föremålet.</p><p>\\(m=350\\) kg och \\(F_R=34{,}0\\cdot10^{-3}\\) N</p>",
+        "s": "<p>\\(a=\\dfrac{34{,}0\\cdot10^{-3}}{350}\\).</p><p><strong>Svar:</strong> \\(9{,}71\\cdot10^{-5}\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=\\dfrac{F_R}{m}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(m=25{,}0\\) g och \\(F_R=3{,}78\\) mN",
+        "t": "<p>Bestäm accelerationen hos föremålet.</p><p>\\(m=25{,}0\\) g och \\(F_R=3{,}78\\) mN</p>",
+        "s": "<p>\\(a=\\dfrac{3{,}78\\cdot10^{-3}}{0{,}0250}\\).</p><p><strong>Svar:</strong> \\(0{,}151\\) m/s²</p>",
+        "ledtrad": "<p>Gör om till kg och N.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(a=\\dfrac{F_R}{m}\\) i SI-enheter.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "massa ur acceleration och kraft med prefix",
+    "poang": "(4/0/0)",
+    "t": "<p>Bestäm massan hos föremålet.</p><ol type=\"a\"><li>\\(a=0{,}650\\) m/s² och \\(F_R=34{,}0\\) kN</li><li>\\(a=4{,}11\\cdot10^5\\) m/s² och \\(F_R=55{,}0\\) N</li><li>\\(a=8{,}00\\cdot10^{-5}\\) m/s² och \\(F_R=6{,}20\\) µN</li><li>\\(a=1{,}45\\cdot10^{15}\\) m/s² och \\(F_R=0{,}0378\\) N</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m=\\dfrac{34{,}0\\cdot10^3}{0{,}650}\\).</p><p><strong>Svar:</strong> \\(52\\,308\\) kg</p></li><li><p>\\(m=\\dfrac{55{,}0}{4{,}11\\cdot10^5}\\).</p><p><strong>Svar:</strong> \\(0{,}000134\\) kg</p></li><li><p>\\(m=\\dfrac{6{,}20\\cdot10^{-6}}{8{,}00\\cdot10^{-5}}\\).</p><p><strong>Svar:</strong> \\(0{,}0775\\) kg</p></li><li><p>\\(m=\\dfrac{0{,}0378}{1{,}45\\cdot10^{15}}\\).</p><p><strong>Svar:</strong> \\(2{,}61\\cdot10^{-17}\\) kg</p></li></ol>",
+    "id": "4.677",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      52307.692307692305,
+      0.00013381995133819952,
+      0.0775,
+      2.606896551724138e-17
+    ],
+    "tolerans": [
+      785.0,
+      2.01e-06,
+      0.00116,
+      3.91e-19
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg",
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm massan hos föremålet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(a=0{,}650\\) m/s² och \\(F_R=34{,}0\\) kN",
+        "t": "<p>Bestäm massan hos föremålet.</p><p>\\(a=0{,}650\\) m/s² och \\(F_R=34{,}0\\) kN</p>",
+        "s": "<p>\\(m=\\dfrac{34{,}0\\cdot10^3}{0{,}650}\\).</p><p><strong>Svar:</strong> \\(52\\,308\\) kg</p>",
+        "ledtrad": "<p>\\(m=\\dfrac{F_R}{a}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(a=4{,}11\\cdot10^5\\) m/s² och \\(F_R=55{,}0\\) N",
+        "t": "<p>Bestäm massan hos föremålet.</p><p>\\(a=4{,}11\\cdot10^5\\) m/s² och \\(F_R=55{,}0\\) N</p>",
+        "s": "<p>\\(m=\\dfrac{55{,}0}{4{,}11\\cdot10^5}\\).</p><p><strong>Svar:</strong> \\(0{,}000134\\) kg</p>",
+        "ledtrad": "<p>\\(m=\\dfrac{F_R}{a}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(a=8{,}00\\cdot10^{-5}\\) m/s² och \\(F_R=6{,}20\\) µN",
+        "t": "<p>Bestäm massan hos föremålet.</p><p>\\(a=8{,}00\\cdot10^{-5}\\) m/s² och \\(F_R=6{,}20\\) µN</p>",
+        "s": "<p>\\(m=\\dfrac{6{,}20\\cdot10^{-6}}{8{,}00\\cdot10^{-5}}\\).</p><p><strong>Svar:</strong> \\(0{,}0775\\) kg</p>",
+        "ledtrad": "<p>µ betyder \\(10^{-6}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "\\(a=1{,}45\\cdot10^{15}\\) m/s² och \\(F_R=0{,}0378\\) N",
+        "t": "<p>Bestäm massan hos föremålet.</p><p>\\(a=1{,}45\\cdot10^{15}\\) m/s² och \\(F_R=0{,}0378\\) N</p>",
+        "s": "<p>\\(m=\\dfrac{0{,}0378}{1{,}45\\cdot10^{15}}\\).</p><p><strong>Svar:</strong> \\(2{,}61\\cdot10^{-17}\\) kg</p>",
+        "ledtrad": "<p>\\(m=\\dfrac{F_R}{a}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(m=\\dfrac{F_R}{a}\\) i SI-enheter.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "gående person",
+    "poang": "(2/0/0)",
+    "t": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den resulterande kraften på honom är 25 N vågrätt.</p><ol type=\"a\"><li>Bestäm Pelles acceleration.</li><li>Vilken fart har Pelle efter 1,50 s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{25}{86}\\).</p><p><strong>Svar:</strong> \\(0{,}29\\) m/s²</p></li><li><p>\\(v=at=0{,}29\\cdot1{,}50\\).</p><p><strong>Svar:</strong> \\(0{,}44\\) m/s</p></li></ol>",
+    "id": "4.678",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.29069767441860467,
+      0.436046511627907
+    ],
+    "tolerans": [
+      0.0051,
+      0.00654
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den resulterande kraften på honom är 25 N vågrätt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm Pelles acceleration.",
+        "t": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den resulterande kraften på honom är 25 N vågrätt.</p><p>Bestäm Pelles acceleration.</p>",
+        "s": "<p>\\(a=\\dfrac{25}{86}\\).</p><p><strong>Svar:</strong> \\(0{,}29\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har Pelle efter 1,50 s?",
+        "t": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den resulterande kraften på honom är 25 N vågrätt.</p>Accelerationen är 0,29 m/s².<p>Vilken fart har Pelle efter 1,50 s?</p>",
+        "s": "<p>\\(v=at=0{,}29\\cdot1{,}50\\).</p><p><strong>Svar:</strong> \\(0{,}44\\) m/s</p>",
+        "ledtrad": "<p>\\(v=v_0+at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Bestäm accelerationen först.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "cyklist som ökar farten",
+    "poang": "(2/0/0)",
+    "t": "<p>En cyklist (110 kg inklusive cykel) kör med farten 15 m/s på en vågrät väg och trampar extra under 8,0 s. Under denna tid är den resulterande kraften 32 N framåt.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Vilken fart har cyklisten efter de 8,0 s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{32}{110}\\).</p><p><strong>Svar:</strong> \\(0{,}29\\) m/s²</p></li><li><p>\\(v=15+0{,}29\\cdot8{,}0\\).</p><p><strong>Svar:</strong> \\(17\\) m/s</p></li></ol>",
+    "id": "4.679",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2909090909090909,
+      17.327272727272728
+    ],
+    "tolerans": [
+      0.0051,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En cyklist (110 kg inklusive cykel) kör med farten 15 m/s på en vågrät väg och trampar extra under 8,0 s. Under denna tid är den resulterande kraften 32 N framåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>En cyklist (110 kg inklusive cykel) kör med farten 15 m/s på en vågrät väg och trampar extra under 8,0 s. Under denna tid är den resulterande kraften 32 N framåt.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{32}{110}\\).</p><p><strong>Svar:</strong> \\(0{,}29\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har cyklisten efter de 8,0 s?",
+        "t": "<p>En cyklist (110 kg inklusive cykel) kör med farten 15 m/s på en vågrät väg och trampar extra under 8,0 s. Under denna tid är den resulterande kraften 32 N framåt.</p>Accelerationen är 0,29 m/s².<p>Vilken fart har cyklisten efter de 8,0 s?</p>",
+        "s": "<p>\\(v=15+0{,}29\\cdot8{,}0\\).</p><p><strong>Svar:</strong> \\(17\\) m/s</p>",
+        "ledtrad": "<p>\\(v=v_0+at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Bestäm accelerationen först.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "slalomåkare som sladdar",
+    "poang": "(1/1/0)",
+    "t": "<p>En slalomåkare (92 kg) glider in i målområdet med farten 23 m/s. Genom att sladda bromsas hen av en friktionskraft på 650 N.</p><ol type=\"a\"><li>Bestäm retardationens storlek.</li><li>Hur lång blir stoppsträckan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{650}{92}\\).</p><p><strong>Svar:</strong> \\(7{,}1\\) m/s²</p></li><li><p>\\(s=\\dfrac{23^2}{2\\cdot7{,}07}\\).</p><p><strong>Svar:</strong> \\(37\\) m</p></li></ol>",
+    "id": "4.680",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.065217391304348,
+      37.43692307692308
+    ],
+    "tolerans": [
+      0.106,
+      0.562
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En slalomåkare (92 kg) glider in i målområdet med farten 23 m/s. Genom att sladda bromsas hen av en friktionskraft på 650 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm retardationens storlek.",
+        "t": "<p>En slalomåkare (92 kg) glider in i målområdet med farten 23 m/s. Genom att sladda bromsas hen av en friktionskraft på 650 N.</p><p>Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(a=\\dfrac{650}{92}\\).</p><p><strong>Svar:</strong> \\(7{,}1\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång blir stoppsträckan?",
+        "t": "<p>En slalomåkare (92 kg) glider in i målområdet med farten 23 m/s. Genom att sladda bromsas hen av en friktionskraft på 650 N.</p>Retardationen är 7,1 m/s².<p>Hur lång blir stoppsträckan?</p>",
+        "s": "<p>\\(s=\\dfrac{23^2}{2\\cdot7{,}07}\\).</p><p><strong>Svar:</strong> \\(37\\) m</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionen är den resulterande kraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "fotbollsspark",
+    "poang": "(2/2/0)",
+    "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p><ol type=\"a\"><li>Vilken acceleration får bollen under sparken?</li><li>Vilken fart lämnar bollen foten med?</li><li>Efter hur lång tid stannar bollen?</li><li>Hur stor är friktionskraften på bollen när den rullar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{250}{0{,}400}\\).</p><p><strong>Svar:</strong> \\(625\\) m/s²</p></li><li><p>\\(v=625\\cdot0{,}022\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p></li><li><p>Medelfarten är \\(\\dfrac{13{,}75}{2}\\): \\(t=\\dfrac{45}{6{,}88}\\).</p><p><strong>Svar:</strong> \\(6{,}5\\) s</p></li><li><p>\\(a=\\dfrac{13{,}75^2}{2\\cdot45}\\), \\(F=0{,}400a\\).</p><p><strong>Svar:</strong> \\(0{,}84\\) N</p></li></ol>",
+    "id": "4.681",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      625,
+      13.75,
+      6.545454545454546,
+      0.8402777777777778
+    ],
+    "tolerans": [
+      9.38,
+      0.51,
+      0.0982,
+      0.0126
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s",
+      "s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken acceleration får bollen under sparken?",
+        "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p><p>Vilken acceleration får bollen under sparken?</p>",
+        "s": "<p>\\(a=\\dfrac{250}{0{,}400}\\).</p><p><strong>Svar:</strong> \\(625\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart lämnar bollen foten med?",
+        "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p>Accelerationen under sparken är 625 m/s².<p>Vilken fart lämnar bollen foten med?</p>",
+        "s": "<p>\\(v=625\\cdot0{,}022\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p>",
+        "ledtrad": "<p>\\(v=at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Efter hur lång tid stannar bollen?",
+        "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p>Bollen lämnar foten med 13,75 m/s.<p>Efter hur lång tid stannar bollen?</p>",
+        "s": "<p>Medelfarten är \\(\\dfrac{13{,}75}{2}\\): \\(t=\\dfrac{45}{6{,}88}\\).</p><p><strong>Svar:</strong> \\(6{,}5\\) s</p>",
+        "ledtrad": "<p>Likformig retardation: medelfarten är halva startfarten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor är friktionskraften på bollen när den rullar?",
+        "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p>Bollen lämnar foten med 13,75 m/s.<p>Hur stor är friktionskraften på bollen när den rullar?</p>",
+        "s": "<p>\\(a=\\dfrac{13{,}75^2}{2\\cdot45}\\), \\(F=0{,}400a\\).</p><p><strong>Svar:</strong> \\(0{,}84\\) N</p>",
+        "ledtrad": "<p>Friktionen är den resulterande kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp i sparken och rullningen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "löpare som spurtar",
+    "poang": "(3/0/0)",
+    "t": "<p>En löpare (76 kg) ökar farten från 6,5 m/s till 8,2 m/s på 1,2 s.</p><ol type=\"a\"><li>Hur lång sträcka spurtar löparen?</li><li>Bestäm accelerationen.</li><li>Hur stor är den resulterande kraften?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=\\dfrac{6{,}5+8{,}2}{2}\\cdot1{,}2\\).</p><p><strong>Svar:</strong> \\(8{,}8\\) m</p></li><li><p>\\(a=\\dfrac{8{,}2-6{,}5}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) m/s²</p></li><li><p>\\(F_R=76\\cdot1{,}42\\).</p><p><strong>Svar:</strong> \\(108\\) N</p></li></ol>",
+    "id": "4.682",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.819999999999999,
+      1.4166666666666667,
+      107.66666666666667
+    ],
+    "tolerans": [
+      0.132,
+      0.051,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En löpare (76 kg) ökar farten från 6,5 m/s till 8,2 m/s på 1,2 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång sträcka spurtar löparen?",
+        "t": "<p>En löpare (76 kg) ökar farten från 6,5 m/s till 8,2 m/s på 1,2 s.</p><p>Hur lång sträcka spurtar löparen?</p>",
+        "s": "<p>\\(s=\\dfrac{6{,}5+8{,}2}{2}\\cdot1{,}2\\).</p><p><strong>Svar:</strong> \\(8{,}8\\) m</p>",
+        "ledtrad": "<p>Medelfart gånger tid.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>En löpare (76 kg) ökar farten från 6,5 m/s till 8,2 m/s på 1,2 s.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{8{,}2-6{,}5}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=\\dfrac{\\Delta v}{\\Delta t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är den resulterande kraften?",
+        "t": "<p>En löpare (76 kg) ökar farten från 6,5 m/s till 8,2 m/s på 1,2 s.</p>Accelerationen är 1,42 m/s².<p>Hur stor är den resulterande kraften?</p>",
+        "s": "<p>\\(F_R=76\\cdot1{,}42\\).</p><p><strong>Svar:</strong> \\(108\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Likformigt accelererad rörelse.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "simmare som tröttnar",
+    "poang": "(3/0/0)",
+    "t": "<p>En simmare (68 kg) saktar in från 1,8 m/s till 1,3 m/s under sista bassänglängden på 50 m. Anta likformig retardation.</p><ol type=\"a\"><li>Hur lång tid tar de sista 50 m?</li><li>Bestäm retardationens storlek.</li><li>Hur stor är den resulterande kraften på simmaren?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{50}{(1{,}8+1{,}3)/2}\\).</p><p><strong>Svar:</strong> \\(32\\) s</p></li><li><p>\\(a=\\dfrac{0{,}5}{32{,}3}\\).</p><p><strong>Svar:</strong> \\(0{,}016\\) m/s²</p></li><li><p>\\(F_R=68\\cdot0{,}0155\\), riktad bakåt.</p><p><strong>Svar:</strong> \\(1{,}1\\) N</p></li></ol>",
+    "id": "4.683",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      32.25806451612903,
+      0.0155,
+      1.054
+    ],
+    "tolerans": [
+      0.51,
+      0.00051,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En simmare (68 kg) saktar in från 1,8 m/s till 1,3 m/s under sista bassänglängden på 50 m. Anta likformig retardation.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar de sista 50 m?",
+        "t": "<p>En simmare (68 kg) saktar in från 1,8 m/s till 1,3 m/s under sista bassänglängden på 50 m. Anta likformig retardation.</p><p>Hur lång tid tar de sista 50 m?</p>",
+        "s": "<p>\\(t=\\dfrac{50}{(1{,}8+1{,}3)/2}\\).</p><p><strong>Svar:</strong> \\(32\\) s</p>",
+        "ledtrad": "<p>Medelfarten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm retardationens storlek.",
+        "t": "<p>En simmare (68 kg) saktar in från 1,8 m/s till 1,3 m/s under sista bassänglängden på 50 m. Anta likformig retardation.</p>Tiden är 32,3 s.<p>Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(a=\\dfrac{0{,}5}{32{,}3}\\).</p><p><strong>Svar:</strong> \\(0{,}016\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=\\dfrac{\\Delta v}{\\Delta t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är den resulterande kraften på simmaren?",
+        "t": "<p>En simmare (68 kg) saktar in från 1,8 m/s till 1,3 m/s under sista bassänglängden på 50 m. Anta likformig retardation.</p>Retardationen är 0,0155 m/s².<p>Hur stor är den resulterande kraften på simmaren?</p>",
+        "s": "<p>\\(F_R=68\\cdot0{,}0155\\), riktad bakåt.</p><p><strong>Svar:</strong> \\(1{,}1\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Simmaren rör sig framåt men retarderar.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "inbromsning vid övergångsställe",
+    "poang": "(2/0/0)",
+    "t": "<p>En bil (1 450 kg) bromsar från 42 km/h till stillastående på 42 m.</p><ol type=\"a\"><li>Bestäm retardationens storlek.</li><li>Hur stor är den resulterande kraften på bilen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(42\\) km/h \\(=11{,}67\\) m/s. \\(a=\\dfrac{11{,}67^2}{2\\cdot42}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) m/s²</p></li><li><p>\\(F_R=1\\,450\\cdot1{,}62\\).</p><p><strong>Svar:</strong> \\(2\\,350\\) N</p></li></ol>",
+    "id": "4.684",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.62037037037037,
+      2349.5370370370365
+    ],
+    "tolerans": [
+      0.051,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil (1 450 kg) bromsar från 42 km/h till stillastående på 42 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm retardationens storlek.",
+        "t": "<p>En bil (1 450 kg) bromsar från 42 km/h till stillastående på 42 m.</p><p>Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(42\\) km/h \\(=11{,}67\\) m/s. \\(a=\\dfrac{11{,}67^2}{2\\cdot42}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) m/s²</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den resulterande kraften på bilen?",
+        "t": "<p>En bil (1 450 kg) bromsar från 42 km/h till stillastående på 42 m.</p>Retardationen är 1,62 m/s².<p>Hur stor är den resulterande kraften på bilen?</p>",
+        "s": "<p>\\(F_R=1\\,450\\cdot1{,}62\\).</p><p><strong>Svar:</strong> \\(2\\,350\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Gör om farten till m/s.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "stridsflygplan",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p><ol type=\"a\"><li>Bestäm planets massa.</li><li>Bestäm topphastigheten.</li><li>Hur långt har planet färdats då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m=\\dfrac{2\\cdot156\\cdot10^3}{10{,}6}\\).</p><p><strong>Svar:</strong> \\(29\\,434\\) kg</p></li><li><p>\\(v=10{,}6\\cdot56\\).</p><p><strong>Svar:</strong> \\(594\\) m/s</p></li><li><p>\\(s=\\dfrac{10{,}6\\cdot56^2}{2}\\).</p><p><strong>Svar:</strong> \\(16\\,621\\) m</p></li></ol>",
+    "id": "4.685",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29433.962264150945,
+      593.6,
+      16620.8
+    ],
+    "tolerans": [
+      442.0,
+      8.9,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kg",
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm planets massa.",
+        "t": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p><p>Bestäm planets massa.</p>",
+        "s": "<p>\\(m=\\dfrac{2\\cdot156\\cdot10^3}{10{,}6}\\).</p><p><strong>Svar:</strong> \\(29\\,434\\) kg</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm topphastigheten.",
+        "t": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p><p>Bestäm topphastigheten.</p>",
+        "s": "<p>\\(v=10{,}6\\cdot56\\).</p><p><strong>Svar:</strong> \\(594\\) m/s</p>",
+        "ledtrad": "<p>\\(v=at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt har planet färdats då?",
+        "t": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p><p>Hur långt har planet färdats då?</p>",
+        "s": "<p>\\(s=\\dfrac{10{,}6\\cdot56^2}{2}\\).</p><p><strong>Svar:</strong> \\(16\\,621\\) m</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{at^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Båda motorernas krafter samverkar.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "formel 1-bil på målrakan",
+    "poang": "(3/1/0)",
+    "t": "<p>En formel 1-bil accelererar från 120 km/h till 300 km/h på 3,2 s. Den resulterande kraften är 13 kN.</p><ol type=\"a\"><li>Hur lång sträcka accelererar bilen?</li><li>Bestäm accelerationen.</li><li>Bestäm bilens massa.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(33{,}3\\) m/s och \\(83{,}3\\) m/s: \\(s=\\dfrac{33{,}3+83{,}3}{2}\\cdot3{,}2\\).</p><p><strong>Svar:</strong> \\(187\\) m</p></li><li><p>\\(a=\\dfrac{83{,}3-33{,}3}{3{,}2}\\).</p><p><strong>Svar:</strong> \\(16\\) m/s²</p></li><li><p>\\(m=\\dfrac{13\\cdot10^3}{15{,}6}\\).</p><p><strong>Svar:</strong> \\(832\\) kg</p></li></ol>",
+    "id": "4.686",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      186.66666666666666,
+      15.625,
+      832.0
+    ],
+    "tolerans": [
+      5.1,
+      0.51,
+      12.5
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s²",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En formel 1-bil accelererar från 120 km/h till 300 km/h på 3,2 s. Den resulterande kraften är 13 kN.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång sträcka accelererar bilen?",
+        "t": "<p>En formel 1-bil accelererar från 120 km/h till 300 km/h på 3,2 s. Den resulterande kraften är 13 kN.</p><p>Hur lång sträcka accelererar bilen?</p>",
+        "s": "<p>\\(33{,}3\\) m/s och \\(83{,}3\\) m/s: \\(s=\\dfrac{33{,}3+83{,}3}{2}\\cdot3{,}2\\).</p><p><strong>Svar:</strong> \\(187\\) m</p>",
+        "ledtrad": "<p>Gör om till m/s och använd medelfarten.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>En formel 1-bil accelererar från 120 km/h till 300 km/h på 3,2 s. Den resulterande kraften är 13 kN.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{83{,}3-33{,}3}{3{,}2}\\).</p><p><strong>Svar:</strong> \\(16\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=\\dfrac{\\Delta v}{\\Delta t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm bilens massa.",
+        "t": "<p>En formel 1-bil accelererar från 120 km/h till 300 km/h på 3,2 s. Den resulterande kraften är 13 kN.</p>Accelerationen är 15,6 m/s².<p>Bestäm bilens massa.</p>",
+        "s": "<p>\\(m=\\dfrac{13\\cdot10^3}{15{,}6}\\).</p><p><strong>Svar:</strong> \\(832\\) kg</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Gör om farterna till m/s.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "bil som kraschar i bergvägg",
+    "poang": "(2/1/0)",
+    "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p><ol type=\"a\"><li>Bestäm retardationens storlek.</li><li>Hur lång tid tar inbromsningen?</li><li>Hur lång är stoppsträckan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{110\\cdot10^3}{1\\,200}\\).</p><p><strong>Svar:</strong> \\(92\\) m/s²</p></li><li><p>\\(t=\\dfrac{27{,}8}{91{,}7}\\).</p><p><strong>Svar:</strong> \\(0{,}30\\) s</p></li><li><p>\\(s=\\dfrac{27{,}8^2}{2\\cdot91{,}7}\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) m</p></li></ol>",
+    "id": "4.687",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      91.66666666666667,
+      0.30303030303030304,
+      4.2087542087542085
+    ],
+    "tolerans": [
+      1.38,
+      0.0051,
+      0.0631
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm retardationens storlek.",
+        "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p><p>Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(a=\\dfrac{110\\cdot10^3}{1\\,200}\\).</p><p><strong>Svar:</strong> \\(92\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar inbromsningen?",
+        "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p>Retardationen är 91,7 m/s².<p>Hur lång tid tar inbromsningen?</p>",
+        "s": "<p>\\(t=\\dfrac{27{,}8}{91{,}7}\\).</p><p><strong>Svar:</strong> \\(0{,}30\\) s</p>",
+        "ledtrad": "<p>\\(v=at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång är stoppsträckan?",
+        "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p>Retardationen är 91,7 m/s².<p>Hur lång är stoppsträckan?</p>",
+        "s": "<p>\\(s=\\dfrac{27{,}8^2}{2\\cdot91{,}7}\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) m</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Gör om farten till m/s.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "person springer in i vägg",
+    "poang": "(1/0/0)",
+    "t": "<p>En person (80 kg) springer in i en vägg med farten 4,5 m/s och stannar på 0,10 s. Hur stor är den resulterande kraften under kollisionen?</p>",
+    "s": "<p>\\(a=\\dfrac{4{,}5}{0{,}10}\\), \\(F_R=80a\\).</p><p><strong>Svar:</strong> \\(3\\,600\\) N</p>",
+    "id": "4.688",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3600,
+    "tolerans": 54.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm retardationen först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "proton i accelerator",
+    "poang": "(1/2/0)",
+    "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p><ol type=\"a\"><li>Bestäm protonens acceleration.</li><li>Hur lång tid är protonen i acceleratorn?</li><li>Vilken fart har protonen när den lämnar acceleratorn?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{1{,}2\\cdot10^{-17}}{1{,}67\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(7{,}2\\cdot10^{9}\\) m/s²</p></li><li><p>\\(t=\\sqrt{\\dfrac{2\\cdot3\\,200}{7{,}19\\cdot10^9}}\\).</p><p><strong>Svar:</strong> \\(0{,}00094\\) s</p></li><li><p>\\(v=at\\).</p><p><strong>Svar:</strong> \\(6{,}8\\cdot10^{6}\\) m/s</p></li></ol>",
+    "id": "4.689",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7185628742.514969,
+      0.0009437513796899408,
+      6781447.039688196
+    ],
+    "tolerans": [
+      108000000.0,
+      1.42e-05,
+      102000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm protonens acceleration.",
+        "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p><p>Bestäm protonens acceleration.</p>",
+        "s": "<p>\\(a=\\dfrac{1{,}2\\cdot10^{-17}}{1{,}67\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(7{,}2\\cdot10^{9}\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid är protonen i acceleratorn?",
+        "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p>Accelerationen är \\(7{,}19\\cdot10^9\\) m/s².<p>Hur lång tid är protonen i acceleratorn?</p>",
+        "s": "<p>\\(t=\\sqrt{\\dfrac{2\\cdot3\\,200}{7{,}19\\cdot10^9}}\\).</p><p><strong>Svar:</strong> \\(0{,}00094\\) s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{at^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken fart har protonen när den lämnar acceleratorn?",
+        "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p>Accelerationen är \\(7{,}19\\cdot10^9\\) m/s² och tiden 0,943 ms.<p>Vilken fart har protonen när den lämnar acceleratorn?</p>",
+        "s": "<p>\\(v=at\\).</p><p><strong>Svar:</strong> \\(6{,}8\\cdot10^{6}\\) m/s</p>",
+        "ledtrad": "<p>\\(v=at\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Protonen startar från vila.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "berg-och-dalbana med magnetbroms",
+    "poang": "(1/0/0)",
+    "t": "<p>En vagn med åkare (5 500 kg) bromsas av magnetbromsar från 45 m/s till stillastående på 7,0 s. Hur stor är den resulterande kraften på vagnen?</p>",
+    "s": "<p>\\(a=\\dfrac{45}{7{,}0}\\), \\(F_R=5\\,500a\\).</p><p><strong>Svar:</strong> \\(35\\,357\\) N</p>",
+    "id": "4.690",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 35357.142857142855,
+    "tolerans": 530.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm retardationen först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "flygplan och pilot vid start",
+    "poang": "(2/0/0)",
+    "t": "<p>När ett flygplan (31 ton) startar är den resulterande kraften på det 37 kN.</p><ol type=\"a\"><li>Bestäm planets acceleration.</li><li>Hur stor är den resulterande kraften på piloten (78 kg)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{37\\cdot10^3}{31\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m/s²</p></li><li><p>\\(F_R=78\\cdot1{,}19\\).</p><p><strong>Svar:</strong> \\(93\\) N</p></li></ol>",
+    "id": "4.691",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.1935483870967742,
+      93.09677419354838
+    ],
+    "tolerans": [
+      0.051,
+      1.4
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>När ett flygplan (31 ton) startar är den resulterande kraften på det 37 kN.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm planets acceleration.",
+        "t": "<p>När ett flygplan (31 ton) startar är den resulterande kraften på det 37 kN.</p><p>Bestäm planets acceleration.</p>",
+        "s": "<p>\\(a=\\dfrac{37\\cdot10^3}{31\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den resulterande kraften på piloten (78 kg)?",
+        "t": "<p>När ett flygplan (31 ton) startar är den resulterande kraften på det 37 kN.</p>Accelerationen är 1,19 m/s².<p>Hur stor är den resulterande kraften på piloten (78 kg)?</p>",
+        "s": "<p>\\(F_R=78\\cdot1{,}19\\).</p><p><strong>Svar:</strong> \\(93\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Piloten har samma acceleration som planet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "hjärtat pumpar blod",
+    "poang": "(1/0/0)",
+    "t": "<p>Vid ett hjärtslag ökar farten hos 20 g blod från 0,25 m/s till 0,35 m/s på 0,10 s. Hur stor är den resulterande kraften på blodet?</p>",
+    "s": "<p>\\(a=\\dfrac{0{,}10}{0{,}10}=1{,}0\\) m/s², \\(F_R=0{,}020\\cdot1{,}0\\).</p><p><strong>Svar:</strong> \\(0{,}020\\) N</p>",
+    "id": "4.692",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.02,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör om massan till kg.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "barn i bilbarnstol vid krock",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett barn (18 kg) sitter fastspänt i en bil som krockar med farten 45 km/h och stannar på 0,20 s. Hur stor är den genomsnittliga resulterande kraften på barnet?</p>",
+    "s": "<p>\\(12{,}5\\) m/s. \\(F_R=18\\cdot\\dfrac{12{,}5}{0{,}20}\\).</p><p><strong>Svar:</strong> \\(1\\,125\\) N</p>",
+    "id": "4.693",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1125.0,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör om farten till m/s.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "rymdsond med jondrift",
+    "poang": "(0/1/0)",
+    "t": "<p>En rymdsond (474 kg) drivs av en jonmotor med den resulterande kraften 56 mN. Hur många timmar tar det för sonden att nå farten 120 km/h från vila?</p>",
+    "s": "<p>\\(a=\\dfrac{0{,}056}{474}\\), \\(t=\\dfrac{33{,}3}{a}\\) s, dela med 3 600.</p><p><strong>Svar:</strong> \\(78\\) h</p>",
+    "id": "4.694",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 78.37301587301587,
+    "tolerans": 1.18,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v=at\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "h",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "roddbåt vid första årtaget",
+    "poang": "(0/1/0)",
+    "t": "<p>Vid första årtaget accelereras en roddbåt med roddare (totalt 120 kg) från vila till 0,60 m/s på sträckan 0,41 m. Hur stor är den resulterande kraften?</p>",
+    "s": "<p>\\(a=\\dfrac{0{,}60^2}{2\\cdot0{,}41}\\), \\(F_R=120a\\).</p><p><strong>Svar:</strong> \\(53\\) N</p>",
+    "id": "4.695",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 52.68292682926829,
+    "tolerans": 0.79,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "bromskraft för given stoppsträcka",
+    "poang": "(0/1/0)",
+    "t": "<p>En bil (1 580 kg) kör med farten 15,0 m/s. Hur stor resulterande bromsande kraft krävs för att bilen ska stanna på 50,0 m?</p>",
+    "s": "<p>\\(a=\\dfrac{15{,}0^2}{2\\cdot50{,}0}\\), \\(F=1\\,580a\\).</p><p><strong>Svar:</strong> \\(3\\,555\\) N</p>",
+    "id": "4.696",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3555.0,
+    "tolerans": 53.3,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "kulstötning",
+    "poang": "(0/1/0)",
+    "t": "<p>En kula (7,0 kg) flyttas 2,8 m under stöten och lämnar handen med farten 13 m/s. Hur stor är den resulterande kraften från handen? Anta konstant kraft och att kulan startar från vila.</p>",
+    "s": "<p>\\(a=\\dfrac{13^2}{2\\cdot2{,}8}\\), \\(F_R=7{,}0a\\).</p><p><strong>Svar:</strong> \\(211\\) N</p>",
+    "id": "4.697",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 211.25,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2=2as\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "baseboll fångas",
+    "poang": "(0/1/0)",
+    "t": "<p>En baseboll (0,140 kg) med farten 35,0 m/s fångas i en handske som förflyttas 11,0 cm bakåt. Hur stor är den genomsnittliga kraften från bollen på handsken?</p>",
+    "s": "<p>\\(a=\\dfrac{35{,}0^2}{2\\cdot0{,}110}\\), \\(F=0{,}140a\\).</p><p><strong>Svar:</strong> \\(780\\) N</p>",
+    "id": "4.698",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 779.5454545454546,
+    "tolerans": 11.7,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "kanon för satelliter",
+    "poang": "(0/1/0)",
+    "t": "<p>En projektil (5,0 kg) accelereras från vila till 4,0 km/s av den resulterande kraften 0,49 MN. Hur lång tid tar det?</p>",
+    "s": "<p>\\(a=\\dfrac{0{,}49\\cdot10^6}{5{,}0}\\), \\(t=\\dfrac{4\\,000}{a}\\).</p><p><strong>Svar:</strong> \\(0{,}041\\) s</p>",
+    "id": "4.699",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.04081632653061224,
+    "tolerans": 0.000612,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v=at\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "inbromsning med 30g",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En människa tål en acceleration på upp till \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p><ol type=\"a\"><li>Hur stor resulterande kraft verkar på föraren?</li><li>Hur lång blir bromssträckan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_R=68\\cdot30\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(20\\,033\\) N</p></li><li><p>\\(26{,}4\\) m/s. \\(s=\\dfrac{26{,}4^2}{2\\cdot295}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m</p></li></ol>",
+    "id": "4.700",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20032.800000000003,
+      1.1818965661746832
+    ],
+    "tolerans": [
+      510.0,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En människa tål en acceleration på upp till \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor resulterande kraft verkar på föraren?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En människa tål en acceleration på upp till \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p><p>Hur stor resulterande kraft verkar på föraren?</p>",
+        "s": "<p>\\(F_R=68\\cdot30\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(20\\,033\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång blir bromssträckan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En människa tål en acceleration på upp till \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p><p>Hur lång blir bromssträckan?</p>",
+        "s": "<p>\\(26{,}4\\) m/s. \\(s=\\dfrac{26{,}4^2}{2\\cdot295}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(30g=295\\) m/s².</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "båt med drivkraft och motstånd",
+    "poang": "(1/0/0)",
+    "t": "<p>En båt (6 800 kg) drivs österut av motorn med 4 100 N. Luftmotståndet är 800 N och vattnets friktion 1 200 N, båda västerut. Bestäm accelerationens storlek.</p>",
+    "s": "<p>\\(F_R=4\\,100-2\\,000\\), \\(a=\\dfrac{2\\,100}{6\\,800}\\) österut.</p><p><strong>Svar:</strong> \\(0{,}31\\) m/s²</p>",
+    "id": "4.701",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3088235294117647,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den resulterande kraften först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "låda med fyra vågräta krafter",
+    "poang": "(0/1/0)",
+    "t": "<p>En låda påverkas av fyra vågräta krafter: 4,00 N norrut, 3,00 N västerut, 3,80 N österut och 3,30 N söderut. Accelerationen blir 1,8 m/s². Bestäm lådans massa.</p>",
+    "s": "<p>\\(F_N=0{,}70\\) N norrut, \\(F_\\ddot{O}=0{,}80\\) N österut. \\(F_R=\\sqrt{0{,}70^2+0{,}80^2}\\), \\(m=\\dfrac{F_R}{1{,}8}\\).</p><p><strong>Svar:</strong> \\(0{,}59\\) kg</p>",
+    "id": "4.702",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.590563656263036,
+    "tolerans": 0.00886,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Summera nord–syd och öst–väst var för sig.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "förhållande mellan massor",
+    "poang": "(0/1/0)",
+    "t": "<p>En viss kraft ger föremål A accelerationen 5,0 m/s² och föremål B accelerationen 3,0 m/s². Bestäm \\(\\dfrac{m_A}{m_B}\\).</p>",
+    "s": "<p>\\(\\dfrac{m_A}{m_B}=\\dfrac{F/5{,}0}{F/3{,}0}=\\dfrac{3{,}0}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}60\\) </p>",
+    "id": "4.703",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6,
+    "tolerans": 0.009,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(m=\\dfrac{F}{a}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "ändrad kraft eller massa ger ny acceleration",
+    "poang": "(4/0/0)",
+    "t": "<p>Ett föremål får accelerationen 10 m/s² av en viss resulterande kraft. Hur stor blir accelerationen om</p><ol type=\"a\"><li>kraften halveras?</li><li>massan halveras?</li><li>både kraften och massan halveras?</li><li>kraften halveras och massan fördubblas?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a\\propto F\\): \\(5{,}0\\) m/s².</p><p><strong>Svar:</strong> \\(5{,}0\\) m/s²</p></li><li><p>\\(a\\propto\\dfrac1m\\): \\(20\\) m/s².</p><p><strong>Svar:</strong> \\(20\\) m/s²</p></li><li><p>Kvoten är oförändrad.</p><p><strong>Svar:</strong> \\(10\\) m/s²</p></li><li><p>\\(\\dfrac{1}{2}\\cdot\\dfrac12\\cdot10\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s²</p></li></ol>",
+    "id": "4.704",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      20,
+      10,
+      2.5
+    ],
+    "tolerans": [
+      0.075,
+      0.51,
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²",
+      "m/s²",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett föremål får accelerationen 10 m/s² av en viss resulterande kraft. Hur stor blir accelerationen om</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "kraften halveras?",
+        "t": "<p>Ett föremål får accelerationen 10 m/s² av en viss resulterande kraft. Hur stor blir accelerationen om</p><p>kraften halveras?</p>",
+        "s": "<p>\\(a\\propto F\\): \\(5{,}0\\) m/s².</p><p><strong>Svar:</strong> \\(5{,}0\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=\\dfrac{F}{m}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "massan halveras?",
+        "t": "<p>Ett föremål får accelerationen 10 m/s² av en viss resulterande kraft. Hur stor blir accelerationen om</p><p>massan halveras?</p>",
+        "s": "<p>\\(a\\propto\\dfrac1m\\): \\(20\\) m/s².</p><p><strong>Svar:</strong> \\(20\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=\\dfrac{F}{m}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "både kraften och massan halveras?",
+        "t": "<p>Ett föremål får accelerationen 10 m/s² av en viss resulterande kraft. Hur stor blir accelerationen om</p><p>både kraften och massan halveras?</p>",
+        "s": "<p>Kvoten är oförändrad.</p><p><strong>Svar:</strong> \\(10\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=\\dfrac{F}{m}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "kraften halveras och massan fördubblas?",
+        "t": "<p>Ett föremål får accelerationen 10 m/s² av en viss resulterande kraft. Hur stor blir accelerationen om</p><p>kraften halveras och massan fördubblas?</p>",
+        "s": "<p>\\(\\dfrac{1}{2}\\cdot\\dfrac12\\cdot10\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=\\dfrac{F}{m}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(a=\\dfrac{F}{m}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "ändrad massa eller acceleration ger ny kraft",
+    "poang": "(4/0/0)",
+    "t": "<p>Den resulterande kraften på ett föremål är 30 N. Hur stor blir den om</p><ol type=\"a\"><li>massan fördubblas och accelerationen är oförändrad?</li><li>massan är oförändrad och accelerationen fördubblas?</li><li>både massan och accelerationen fördubblas?</li><li>massan halveras och accelerationen fördubblas?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(2\\cdot30\\).</p><p><strong>Svar:</strong> \\(60\\) N</p></li><li><p>\\(2\\cdot30\\).</p><p><strong>Svar:</strong> \\(60\\) N</p></li><li><p>\\(4\\cdot30\\).</p><p><strong>Svar:</strong> \\(120\\) N</p></li><li><p>\\(\\dfrac12\\cdot2\\cdot30\\).</p><p><strong>Svar:</strong> \\(30\\) N</p></li></ol>",
+    "id": "4.705",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      60,
+      120,
+      30
+    ],
+    "tolerans": [
+      0.9,
+      0.9,
+      5.1,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Den resulterande kraften på ett föremål är 30 N. Hur stor blir den om</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "massan fördubblas och accelerationen är oförändrad?",
+        "t": "<p>Den resulterande kraften på ett föremål är 30 N. Hur stor blir den om</p><p>massan fördubblas och accelerationen är oförändrad?</p>",
+        "s": "<p>\\(2\\cdot30\\).</p><p><strong>Svar:</strong> \\(60\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "massan är oförändrad och accelerationen fördubblas?",
+        "t": "<p>Den resulterande kraften på ett föremål är 30 N. Hur stor blir den om</p><p>massan är oförändrad och accelerationen fördubblas?</p>",
+        "s": "<p>\\(2\\cdot30\\).</p><p><strong>Svar:</strong> \\(60\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "både massan och accelerationen fördubblas?",
+        "t": "<p>Den resulterande kraften på ett föremål är 30 N. Hur stor blir den om</p><p>både massan och accelerationen fördubblas?</p>",
+        "s": "<p>\\(4\\cdot30\\).</p><p><strong>Svar:</strong> \\(120\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "massan halveras och accelerationen fördubblas?",
+        "t": "<p>Den resulterande kraften på ett föremål är 30 N. Hur stor blir den om</p><p>massan halveras och accelerationen fördubblas?</p>",
+        "s": "<p>\\(\\dfrac12\\cdot2\\cdot30\\).</p><p><strong>Svar:</strong> \\(30\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F=ma\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "full kundvagn",
+    "poang": "(0/1/0)",
+    "t": "<p>En tom kundvagn får accelerationen 1,4 m/s² när Kalle puttar den. Vilken acceleration får vagnen med samma kraft när den är full med varor som har tre gånger vagnens massa?</p>",
+    "s": "<p>Total massa \\(4m\\): \\(a=\\dfrac{1{,}4}{4}\\).</p><p><strong>Svar:</strong> \\(0{,}35\\) m/s²</p>",
+    "id": "4.706",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.35,
+    "tolerans": 0.00525,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många gånger större blir massan?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "bil som bogserar likadan bil",
+    "poang": "(1/0/0)",
+    "t": "<p>En bil har den största accelerationen 5,0 m/s². Hur stor blir den största accelerationen när bilen bogserar en likadan bil? Bortse från friktion.</p>",
+    "s": "<p>Dubbel massa, samma kraft: \\(\\dfrac{5{,}0}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s²</p>",
+    "id": "4.707",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kraften är densamma.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "boll sparkas från två håll",
+    "poang": "(1/0/0)",
+    "t": "<p>En boll (400 g) sparkas samtidigt med 75 N åt höger och 68 N åt vänster. Bestäm accelerationens storlek i det ögonblicket.</p>",
+    "s": "<p>\\(F_R=7\\) N åt höger, \\(a=\\dfrac{7}{0{,}400}\\). Hastigheten kan däremot inte bestämmas.</p><p><strong>Svar:</strong> \\(18\\) m/s²</p>",
+    "id": "4.708",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17.5,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den resulterande kraften.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "bil som puttas av tre personer",
+    "poang": "(1/0/0)",
+    "t": "<p>Föraren och två förbipasserande puttar en bil (1,2 ton) i friläge med de vågräta krafterna 30 N, 50 N och 45 N åt samma håll. Bortse från friktion. Bestäm accelerationen.</p>",
+    "s": "<p>\\(a=\\dfrac{125}{1\\,200}\\).</p><p><strong>Svar:</strong> \\(0{,}10\\) m/s²</p>",
+    "id": "4.709",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.10416666666666667,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Krafterna samverkar.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "skidåkare tar stavtag",
+    "poang": "(1/0/0)",
+    "t": "<p>Vid ett stavtag påverkas en skidåkare (68 kg) av 25 N framåt. Friktionen mot snön är 8,2 N bakåt. Bestäm accelerationen.</p>",
+    "s": "<p>\\(a=\\dfrac{25-8{,}2}{68}\\).</p><p><strong>Svar:</strong> \\(0{,}25\\) m/s²</p>",
+    "id": "4.710",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.24705882352941178,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den resulterande kraften först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "två personer puttar låda",
+    "poang": "(1/1/0)",
+    "t": "<p>Kalle och Olle puttar en låda (52 kg) på ett friktionsfritt underlag. Lådan får accelerationen 2,1 m/s². Kalle puttar med 62 N.</p><ol type=\"a\"><li>Olle puttar åt samma håll som Kalle. Hur stor är Olles kraft?</li><li>Olle puttar i stället åt motsatt håll. Hur stor är Olles kraft?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(62+F=52\\cdot2{,}1\\).</p><p><strong>Svar:</strong> \\(47\\) N</p></li><li><p>Lådan måste accelerera i Olles riktning: \\(F-62=52\\cdot2{,}1\\).</p><p><strong>Svar:</strong> \\(171\\) N</p></li></ol>",
+    "id": "4.711",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      47.2,
+      171.2
+    ],
+    "tolerans": [
+      0.708,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Kalle och Olle puttar en låda (52 kg) på ett friktionsfritt underlag. Lådan får accelerationen 2,1 m/s². Kalle puttar med 62 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Olle puttar åt samma håll som Kalle. Hur stor är Olles kraft?",
+        "t": "<p>Kalle och Olle puttar en låda (52 kg) på ett friktionsfritt underlag. Lådan får accelerationen 2,1 m/s². Kalle puttar med 62 N.</p><p>Olle puttar åt samma håll som Kalle. Hur stor är Olles kraft?</p>",
+        "s": "<p>\\(62+F=52\\cdot2{,}1\\).</p><p><strong>Svar:</strong> \\(47\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Olle puttar i stället åt motsatt håll. Hur stor är Olles kraft?",
+        "t": "<p>Kalle och Olle puttar en låda (52 kg) på ett friktionsfritt underlag. Lådan får accelerationen 2,1 m/s². Kalle puttar med 62 N.</p><p>Olle puttar i stället åt motsatt håll. Hur stor är Olles kraft?</p>",
+        "s": "<p>Lådan måste accelerera i Olles riktning: \\(F-62=52\\cdot2{,}1\\).</p><p><strong>Svar:</strong> \\(171\\) N</p>",
+        "ledtrad": "<p>Åt vilket håll måste lådan accelerera?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_R=ma=109\\) N.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "okänd kraft med tecken",
+    "poang": "(2/1/0)",
+    "t": "<p>En låda (3,0 kg) på ett friktionsfritt underlag påverkas av \\(F_1=9{,}0\\) N åt höger och en kraft \\(F_2\\) som kan vara riktad åt höger eller vänster. Ange \\(F_2\\) positiv åt höger och negativ åt vänster. Bestäm \\(F_2\\) om accelerationen är (positiv åt höger)</p><ol type=\"a\"><li>\\(a=5{,}0\\) m/s².</li><li>\\(a=-5{,}0\\) m/s².</li><li>\\(a=0\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(9{,}0+F_2=3{,}0\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) N</p></li><li><p>\\(9{,}0+F_2=3{,}0\\cdot(-5{,}0)\\).</p><p><strong>Svar:</strong> \\(-24\\) N</p></li><li><p>\\(9{,}0+F_2=0\\).</p><p><strong>Svar:</strong> \\(-9{,}0\\) N</p></li></ol>",
+    "id": "4.712",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      -24,
+      -9
+    ],
+    "tolerans": [
+      0.09,
+      0.51,
+      0.135
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En låda (3,0 kg) på ett friktionsfritt underlag påverkas av \\(F_1=9{,}0\\) N åt höger och en kraft \\(F_2\\) som kan vara riktad åt höger eller vänster. Ange \\(F_2\\) positiv åt höger och negativ åt vänster. Bestäm \\(F_2\\) om accelerationen är (positiv åt höger)</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(a=5{,}0\\) m/s².",
+        "t": "<p>En låda (3,0 kg) på ett friktionsfritt underlag påverkas av \\(F_1=9{,}0\\) N åt höger och en kraft \\(F_2\\) som kan vara riktad åt höger eller vänster. Ange \\(F_2\\) positiv åt höger och negativ åt vänster. Bestäm \\(F_2\\) om accelerationen är (positiv åt höger)</p><p>\\(a=5{,}0\\) m/s².</p>",
+        "s": "<p>\\(9{,}0+F_2=3{,}0\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(a=-5{,}0\\) m/s².",
+        "t": "<p>En låda (3,0 kg) på ett friktionsfritt underlag påverkas av \\(F_1=9{,}0\\) N åt höger och en kraft \\(F_2\\) som kan vara riktad åt höger eller vänster. Ange \\(F_2\\) positiv åt höger och negativ åt vänster. Bestäm \\(F_2\\) om accelerationen är (positiv åt höger)</p><p>\\(a=-5{,}0\\) m/s².</p>",
+        "s": "<p>\\(9{,}0+F_2=3{,}0\\cdot(-5{,}0)\\).</p><p><strong>Svar:</strong> \\(-24\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(a=0\\).",
+        "t": "<p>En låda (3,0 kg) på ett friktionsfritt underlag påverkas av \\(F_1=9{,}0\\) N åt höger och en kraft \\(F_2\\) som kan vara riktad åt höger eller vänster. Ange \\(F_2\\) positiv åt höger och negativ åt vänster. Bestäm \\(F_2\\) om accelerationen är (positiv åt höger)</p><p>\\(a=0\\).</p>",
+        "s": "<p>\\(9{,}0+F_2=0\\).</p><p><strong>Svar:</strong> \\(-9{,}0\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F_1+F_2=ma\\) med tecken.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "två krafter i samma och motsatt riktning",
+    "poang": "(0/2/1)",
+    "t": "<p>Två krafter \\(F_1\\) och \\(F_2\\) verkar på ett föremål (8,0 kg), där \\(F_2\\) är störst. Om båda verkar österut blir accelerationen 0,50 m/s². Om \\(F_2\\) verkar österut och \\(F_1\\) västerut blir accelerationen 0,40 m/s².</p><ol type=\"a\"><li>Bestäm \\(F_1\\).</li><li>Bestäm \\(F_2\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_1+F_2=4{,}0\\) och \\(F_2-F_1=3{,}2\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) N</p></li><li><p>\\(F_2=\\dfrac{4{,}0+3{,}2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}6\\) N</p></li></ol>",
+    "id": "4.713",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4,
+      3.6
+    ],
+    "tolerans": [
+      0.006,
+      0.054
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två krafter \\(F_1\\) och \\(F_2\\) verkar på ett föremål (8,0 kg), där \\(F_2\\) är störst. Om båda verkar österut blir accelerationen 0,50 m/s². Om \\(F_2\\) verkar österut och \\(F_1\\) västerut blir accelerationen 0,40 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(F_1\\).",
+        "t": "<p>Två krafter \\(F_1\\) och \\(F_2\\) verkar på ett föremål (8,0 kg), där \\(F_2\\) är störst. Om båda verkar österut blir accelerationen 0,50 m/s². Om \\(F_2\\) verkar österut och \\(F_1\\) västerut blir accelerationen 0,40 m/s².</p><p>Bestäm \\(F_1\\).</p>",
+        "s": "<p>\\(F_1+F_2=4{,}0\\) och \\(F_2-F_1=3{,}2\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) N</p>",
+        "ledtrad": "<p>Ställ upp ett ekvationssystem.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(F_2\\).",
+        "t": "<p>Två krafter \\(F_1\\) och \\(F_2\\) verkar på ett föremål (8,0 kg), där \\(F_2\\) är störst. Om båda verkar österut blir accelerationen 0,50 m/s². Om \\(F_2\\) verkar österut och \\(F_1\\) västerut blir accelerationen 0,40 m/s².</p><p>Bestäm \\(F_2\\).</p>",
+        "s": "<p>\\(F_2=\\dfrac{4{,}0+3{,}2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}6\\) N</p>",
+        "ledtrad": "<p>Ställ upp ett ekvationssystem.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Två ekvationer med två obekanta.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "boll under vatten",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Pär håller en boll (300 g) vid botten av en bassäng. Vattnet ger bollen en lyftkraft på 15 N.</p><ol type=\"a\"><li>Hur stor kraft måste Pär hålla bollen med för att den ska vara i vila?</li><li>Vilken acceleration får bollen när han släpper den?</li><li>Bollen flyter stilla på ytan. Hur stor är lyftkraften då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=15-0{,}300\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(12\\) N</p></li><li><p>\\(a=\\dfrac{12{,}05}{0{,}300}\\).</p><p><strong>Svar:</strong> \\(40\\) m/s²</p></li><li><p>Jämvikt: \\(0{,}300\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) N</p></li></ol>",
+    "id": "4.714",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12.054,
+      40.18,
+      2.946
+    ],
+    "tolerans": [
+      0.51,
+      0.603,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Pär håller en boll (300 g) vid botten av en bassäng. Vattnet ger bollen en lyftkraft på 15 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor kraft måste Pär hålla bollen med för att den ska vara i vila?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Pär håller en boll (300 g) vid botten av en bassäng. Vattnet ger bollen en lyftkraft på 15 N.</p><p>Hur stor kraft måste Pär hålla bollen med för att den ska vara i vila?</p>",
+        "s": "<p>\\(F=15-0{,}300\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(12\\) N</p>",
+        "ledtrad": "<p>Jämvikt: lyftkraft = tyngd + Pärs kraft.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får bollen när han släpper den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Pär håller en boll (300 g) vid botten av en bassäng. Vattnet ger bollen en lyftkraft på 15 N.</p><p>Vilken acceleration får bollen när han släpper den?</p>",
+        "s": "<p>\\(a=\\dfrac{12{,}05}{0{,}300}\\).</p><p><strong>Svar:</strong> \\(40\\) m/s²</p>",
+        "ledtrad": "<p>Den resulterande kraften är lika stor som Pärs kraft var.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bollen flyter stilla på ytan. Hur stor är lyftkraften då?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Pär håller en boll (300 g) vid botten av en bassäng. Vattnet ger bollen en lyftkraft på 15 N.</p><p>Bollen flyter stilla på ytan. Hur stor är lyftkraften då?</p>",
+        "s": "<p>Jämvikt: \\(0{,}300\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) N</p>",
+        "ledtrad": "<p>Jämvikt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg bollen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "heliumballong i snöre",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En heliumballong har tyngden 2,00 N. Lyftkraften från luften är 2,35 N. Ballongen hålls i ett snöre.</p><ol type=\"a\"><li>Bestäm ballongens massa.</li><li>Hur stor kraft krävs i snöret för att ballongen ska vara i vila?</li><li>Vilken acceleration får ballongen precis när man släpper snöret?</li><li>Ballongen fastnar i taket. Hur stor är normalkraften från taket?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m=\\dfrac{2{,}00}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}204\\) kg</p></li><li><p>\\(2{,}35-2{,}00\\).</p><p><strong>Svar:</strong> \\(0{,}350\\) N</p></li><li><p>\\(a=\\dfrac{0{,}350}{0{,}204}\\).</p><p><strong>Svar:</strong> \\(1{,}72\\) m/s²</p></li><li><p>Jämvikt: \\(2{,}35-2{,}00\\), riktad nedåt.</p><p><strong>Svar:</strong> \\(0{,}350\\) N</p></li></ol>",
+    "id": "4.715",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.20366598778004072,
+      0.35,
+      1.7185,
+      0.35
+    ],
+    "tolerans": [
+      0.00305,
+      0.00525,
+      0.0258,
+      0.00525
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "kg",
+      "N",
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En heliumballong har tyngden 2,00 N. Lyftkraften från luften är 2,35 N. Ballongen hålls i ett snöre.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm ballongens massa.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En heliumballong har tyngden 2,00 N. Lyftkraften från luften är 2,35 N. Ballongen hålls i ett snöre.</p><p>Bestäm ballongens massa.</p>",
+        "s": "<p>\\(m=\\dfrac{2{,}00}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}204\\) kg</p>",
+        "ledtrad": "<p>\\(F_G=mg\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor kraft krävs i snöret för att ballongen ska vara i vila?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En heliumballong har tyngden 2,00 N. Lyftkraften från luften är 2,35 N. Ballongen hålls i ett snöre.</p><p>Hur stor kraft krävs i snöret för att ballongen ska vara i vila?</p>",
+        "s": "<p>\\(2{,}35-2{,}00\\).</p><p><strong>Svar:</strong> \\(0{,}350\\) N</p>",
+        "ledtrad": "<p>Jämvikt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken acceleration får ballongen precis när man släpper snöret?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En heliumballong har tyngden 2,00 N. Lyftkraften från luften är 2,35 N. Ballongen hålls i ett snöre.</p><p>Vilken acceleration får ballongen precis när man släpper snöret?</p>",
+        "s": "<p>\\(a=\\dfrac{0{,}350}{0{,}204}\\).</p><p><strong>Svar:</strong> \\(1{,}72\\) m/s²</p>",
+        "ledtrad": "<p>Bestäm den resulterande kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Ballongen fastnar i taket. Hur stor är normalkraften från taket?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En heliumballong har tyngden 2,00 N. Lyftkraften från luften är 2,35 N. Ballongen hålls i ett snöre.</p><p>Ballongen fastnar i taket. Hur stor är normalkraften från taket?</p>",
+        "s": "<p>Jämvikt: \\(2{,}35-2{,}00\\), riktad nedåt.</p><p><strong>Svar:</strong> \\(0{,}350\\) N</p>",
+        "ledtrad": "<p>Taket trycker nedåt på ballongen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg ballongen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "drivkraft vid omkörning",
+    "poang": "(2/0/0)",
+    "t": "<p>En bil (1,75 ton) har accelerationen 3,00 m/s² vid en omkörning. Luftmotståndet är 1,2 kN och friktionen 350 N.</p><ol type=\"a\"><li>Bestäm den resulterande kraften.</li><li>Hur stor är den drivande kraften?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_R=1\\,750\\cdot3{,}00\\).</p><p><strong>Svar:</strong> \\(5\\,250\\) N</p></li><li><p>\\(F=5\\,250+1\\,200+350\\).</p><p><strong>Svar:</strong> \\(6\\,800\\) N</p></li></ol>",
+    "id": "4.716",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5250,
+      6800
+    ],
+    "tolerans": [
+      78.8,
+      102.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil (1,75 ton) har accelerationen 3,00 m/s² vid en omkörning. Luftmotståndet är 1,2 kN och friktionen 350 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den resulterande kraften.",
+        "t": "<p>En bil (1,75 ton) har accelerationen 3,00 m/s² vid en omkörning. Luftmotståndet är 1,2 kN och friktionen 350 N.</p><p>Bestäm den resulterande kraften.</p>",
+        "s": "<p>\\(F_R=1\\,750\\cdot3{,}00\\).</p><p><strong>Svar:</strong> \\(5\\,250\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den drivande kraften?",
+        "t": "<p>En bil (1,75 ton) har accelerationen 3,00 m/s² vid en omkörning. Luftmotståndet är 1,2 kN och friktionen 350 N.</p>Den resulterande kraften är 5,25 kN.<p>Hur stor är den drivande kraften?</p>",
+        "s": "<p>\\(F=5\\,250+1\\,200+350\\).</p><p><strong>Svar:</strong> \\(6\\,800\\) N</p>",
+        "ledtrad": "<p>Drivkraften måste också övervinna motstånden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F_{driv}-F_{luft}-F_{fr}=ma\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "friktionskraft vid inbromsning",
+    "poang": "(2/0/0)",
+    "t": "<p>En bil (1,2 ton) retarderar med 1,5 m/s² vid ett trafikljus. Två bromsande krafter verkar: luftmotståndet 0,60 kN och friktionskraften \\(F_{fr}\\) från vägbanan.</p><ol type=\"a\"><li>Bestäm storleken på den resulterande kraften.</li><li>Bestäm \\(F_{fr}\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_R=1\\,200\\cdot1{,}5\\).</p><p><strong>Svar:</strong> \\(1\\,800\\) N</p></li><li><p>\\(F_{fr}=1\\,800-600\\).</p><p><strong>Svar:</strong> \\(1\\,200\\) N</p></li></ol>",
+    "id": "4.717",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1800,
+      1200
+    ],
+    "tolerans": [
+      51.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil (1,2 ton) retarderar med 1,5 m/s² vid ett trafikljus. Två bromsande krafter verkar: luftmotståndet 0,60 kN och friktionskraften \\(F_{fr}\\) från vägbanan.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm storleken på den resulterande kraften.",
+        "t": "<p>En bil (1,2 ton) retarderar med 1,5 m/s² vid ett trafikljus. Två bromsande krafter verkar: luftmotståndet 0,60 kN och friktionskraften \\(F_{fr}\\) från vägbanan.</p><p>Bestäm storleken på den resulterande kraften.</p>",
+        "s": "<p>\\(F_R=1\\,200\\cdot1{,}5\\).</p><p><strong>Svar:</strong> \\(1\\,800\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm \\(F_{fr}\\).",
+        "t": "<p>En bil (1,2 ton) retarderar med 1,5 m/s² vid ett trafikljus. Två bromsande krafter verkar: luftmotståndet 0,60 kN och friktionskraften \\(F_{fr}\\) från vägbanan.</p>Den resulterande kraften är 1,8 kN.<p>Bestäm \\(F_{fr}\\).</p>",
+        "s": "<p>\\(F_{fr}=1\\,800-600\\).</p><p><strong>Svar:</strong> \\(1\\,200\\) N</p>",
+        "ledtrad": "<p>Båda krafterna bromsar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Båda krafterna är riktade bakåt.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "boll med luftmotstånd",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En boll (2,5 kg) släpps från ett tak. Luftmotståndet ökar med farten.</p><ol type=\"a\"><li>Bestäm accelerationen när luftmotståndet är 21 N.</li><li>Efter en stund är accelerationen 7,0 m/s². Hur stort är luftmotståndet då?</li><li>Bollen kastas i stället uppåt. Bestäm accelerationens storlek när luftmotståndet är 21 N.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{2{,}5\\cdot9{,}82-21}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(1{,}42\\) m/s²</p></li><li><p>\\(F=2{,}5(9{,}82-7{,}0)\\).</p><p><strong>Svar:</strong> \\(7{,}05\\) N</p></li><li><p>Nu är både tyngd och luftmotstånd riktade nedåt: \\(a=\\dfrac{24{,}55+21}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(18{,}2\\) m/s²</p></li></ol>",
+    "id": "4.718",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.4200000000000004,
+      7.050000000000001,
+      18.22
+    ],
+    "tolerans": [
+      0.0213,
+      0.106,
+      0.273
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En boll (2,5 kg) släpps från ett tak. Luftmotståndet ökar med farten.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen när luftmotståndet är 21 N.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En boll (2,5 kg) släpps från ett tak. Luftmotståndet ökar med farten.</p><p>Bestäm accelerationen när luftmotståndet är 21 N.</p>",
+        "s": "<p>\\(a=\\dfrac{2{,}5\\cdot9{,}82-21}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(1{,}42\\) m/s²</p>",
+        "ledtrad": "<p>Luftmotståndet är riktat uppåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter en stund är accelerationen 7,0 m/s². Hur stort är luftmotståndet då?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En boll (2,5 kg) släpps från ett tak. Luftmotståndet ökar med farten.</p><p>Efter en stund är accelerationen 7,0 m/s². Hur stort är luftmotståndet då?</p>",
+        "s": "<p>\\(F=2{,}5(9{,}82-7{,}0)\\).</p><p><strong>Svar:</strong> \\(7{,}05\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bollen kastas i stället uppåt. Bestäm accelerationens storlek när luftmotståndet är 21 N.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En boll (2,5 kg) släpps från ett tak. Luftmotståndet ökar med farten.</p><p>Bollen kastas i stället uppåt. Bestäm accelerationens storlek när luftmotståndet är 21 N.</p>",
+        "s": "<p>Nu är både tyngd och luftmotstånd riktade nedåt: \\(a=\\dfrac{24{,}55+21}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(18{,}2\\) m/s²</p>",
+        "ledtrad": "<p>Luftmotståndet är alltid motriktat rörelsen.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg bollen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "tandemhopp med fallskärm",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett par hoppar tandem med fallskärm. Deras totala massa är 132 kg.</p><ol type=\"a\"><li>Bestäm accelerationen när luftmotståndet är en fjärdedel av tyngden.</li><li>Efter att skärmen öppnats faller de med konstant fart. Hur stort är luftmotståndet då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac34\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(7{,}37\\) m/s²</p></li><li><p>Jämvikt: \\(132\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(1\\,296\\) N</p></li></ol>",
+    "id": "4.719",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.365,
+      1296.24
+    ],
+    "tolerans": [
+      0.11,
+      19.4
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett par hoppar tandem med fallskärm. Deras totala massa är 132 kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen när luftmotståndet är en fjärdedel av tyngden.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett par hoppar tandem med fallskärm. Deras totala massa är 132 kg.</p><p>Bestäm accelerationen när luftmotståndet är en fjärdedel av tyngden.</p>",
+        "s": "<p>\\(a=\\dfrac34\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(7{,}37\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=\\dfrac34 mg\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter att skärmen öppnats faller de med konstant fart. Hur stort är luftmotståndet då?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett par hoppar tandem med fallskärm. Deras totala massa är 132 kg.</p><p>Efter att skärmen öppnats faller de med konstant fart. Hur stort är luftmotståndet då?</p>",
+        "s": "<p>Jämvikt: \\(132\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(1\\,296\\) N</p>",
+        "ledtrad": "<p>Konstant fart ger jämvikt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg hopparna.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "luftmotstånd ur acceleration",
+    "poang": "(2/1/0)",
+    "t": "<p>En fallskärmshoppare med massan 93,4 kg har tyngden 915 N. Bestäm luftmotståndet när accelerationen (positiv nedåt) är</p><ol type=\"a\"><li>\\(0{,}500\\) m/s².</li><li>\\(0\\).</li><li>\\(-0{,}300\\) m/s².</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=915-93{,}4\\cdot0{,}500\\).</p><p><strong>Svar:</strong> \\(868\\) N</p></li><li><p>Jämvikt.</p><p><strong>Svar:</strong> \\(915\\) N</p></li><li><p>\\(F=915+93{,}4\\cdot0{,}300\\).</p><p><strong>Svar:</strong> \\(943\\) N</p></li></ol>",
+    "id": "4.720",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      868.3,
+      915,
+      943.02
+    ],
+    "tolerans": [
+      13.0,
+      13.7,
+      14.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En fallskärmshoppare med massan 93,4 kg har tyngden 915 N. Bestäm luftmotståndet när accelerationen (positiv nedåt) är</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(0{,}500\\) m/s².",
+        "t": "<p>En fallskärmshoppare med massan 93,4 kg har tyngden 915 N. Bestäm luftmotståndet när accelerationen (positiv nedåt) är</p><p>\\(0{,}500\\) m/s².</p>",
+        "s": "<p>\\(F=915-93{,}4\\cdot0{,}500\\).</p><p><strong>Svar:</strong> \\(868\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(0\\).",
+        "t": "<p>En fallskärmshoppare med massan 93,4 kg har tyngden 915 N. Bestäm luftmotståndet när accelerationen (positiv nedåt) är</p><p>\\(0\\).</p>",
+        "s": "<p>Jämvikt.</p><p><strong>Svar:</strong> \\(915\\) N</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(-0{,}300\\) m/s².",
+        "t": "<p>En fallskärmshoppare med massan 93,4 kg har tyngden 915 N. Bestäm luftmotståndet när accelerationen (positiv nedåt) är</p><p>\\(-0{,}300\\) m/s².</p>",
+        "s": "<p>\\(F=915+93{,}4\\cdot0{,}300\\).</p><p><strong>Svar:</strong> \\(943\\) N</p>",
+        "ledtrad": "<p>Hopparen bromsas in.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F_G-F_{luft}=ma\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "raket vid start",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vid starten ger raketmotorn en uppåtriktad kraft på 7,15 MN. Raketen får accelerationen 3,2 m/s² uppåt. Bestäm raketens massa.</p>",
+    "s": "<p>\\(F-mg=ma\\iff m=\\dfrac{7{,}15\\cdot10^6}{9{,}82+3{,}2}\\).</p><p><strong>Svar:</strong> \\(5{,}5\\cdot10^{5}\\) kg</p>",
+    "id": "4.721",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 549155.1459293395,
+    "tolerans": 8240.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tyngden verkar nedåt.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "simhopp och inbromsning i vatten",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En simhoppare (60 kg) når som högst 5,0 m över vattenytan och kommer till vila 0,40 s efter att ha slagit i vattnet. Hur stor är den genomsnittliga resulterande kraften under inbromsningen?</p>",
+    "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot5{,}0}\\), \\(F_R=\\dfrac{60v}{0{,}40}\\).</p><p><strong>Svar:</strong> \\(1\\,486\\) N</p>",
+    "id": "4.722",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1486.4386970204991,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten vid vattenytan först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "äpple faller i sand",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett äpple (0,10 kg) faller 2,0 m ner i sand och gör en 6,0 cm djup grop innan det stannar. Hur stor är den genomsnittliga resulterande kraften under inbromsningen?</p>",
+    "s": "<p>\\(v^2=2\\cdot9{,}82\\cdot2{,}0\\), \\(a=\\dfrac{v^2}{2\\cdot0{,}060}\\), \\(F_R=0{,}10a\\).</p><p><strong>Svar:</strong> \\(33\\) N</p>",
+    "id": "4.723",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 32.733333333333334,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten när äpplet når sanden.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "brandman glider nedför stång",
+    "poang": "(2/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (80 kg) glider nedför en 5,0 m lång stång. Friktionen mot stången är konstant 500 N. Vid golvet böjer han knäna och sjunker ihop 40 cm innan han stannar. Under inbromsningen har han släppt stången.</p><ol type=\"a\"><li>Bestäm accelerationen nedför stången.</li><li>Vilken fart har han när han når golvet?</li><li>Hur stor är den genomsnittliga resulterande kraften under inbromsningen?</li><li>Hur stor är den genomsnittliga normalkraften från golvet under inbromsningen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{80\\cdot9{,}82-500}{80}\\).</p><p><strong>Svar:</strong> \\(3{,}6\\) m/s²</p></li><li><p>\\(v=\\sqrt{2\\cdot3{,}57\\cdot5{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) m/s</p></li><li><p>\\(a=\\dfrac{5{,}98^2}{2\\cdot0{,}40}=44{,}6\\) m/s², \\(F_R=80a\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(3\\,570\\) N</p></li><li><p>\\(F_N-mg=F_R\\iff F_N=785{,}6+3\\,570\\).</p><p><strong>Svar:</strong> \\(4\\,356\\) N</p></li></ol>",
+    "id": "4.724",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.5700000000000003,
+      5.974947698515862,
+      3570.0,
+      4355.6
+    ],
+    "tolerans": [
+      0.0536,
+      0.0896,
+      53.5,
+      65.3
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (80 kg) glider nedför en 5,0 m lång stång. Friktionen mot stången är konstant 500 N. Vid golvet böjer han knäna och sjunker ihop 40 cm innan han stannar. Under inbromsningen har han släppt stången.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen nedför stången.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (80 kg) glider nedför en 5,0 m lång stång. Friktionen mot stången är konstant 500 N. Vid golvet böjer han knäna och sjunker ihop 40 cm innan han stannar. Under inbromsningen har han släppt stången.</p><p>Bestäm accelerationen nedför stången.</p>",
+        "s": "<p>\\(a=\\dfrac{80\\cdot9{,}82-500}{80}\\).</p><p><strong>Svar:</strong> \\(3{,}6\\) m/s²</p>",
+        "ledtrad": "<p>Friktionen är riktad uppåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har han när han når golvet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (80 kg) glider nedför en 5,0 m lång stång. Friktionen mot stången är konstant 500 N. Vid golvet böjer han knäna och sjunker ihop 40 cm innan han stannar. Under inbromsningen har han släppt stången.</p>Accelerationen är 3,57 m/s².<p>Vilken fart har han när han når golvet?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot3{,}57\\cdot5{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är den genomsnittliga resulterande kraften under inbromsningen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (80 kg) glider nedför en 5,0 m lång stång. Friktionen mot stången är konstant 500 N. Vid golvet böjer han knäna och sjunker ihop 40 cm innan han stannar. Under inbromsningen har han släppt stången.</p>Farten vid golvet är 5,98 m/s.<p>Hur stor är den genomsnittliga resulterande kraften under inbromsningen?</p>",
+        "s": "<p>\\(a=\\dfrac{5{,}98^2}{2\\cdot0{,}40}=44{,}6\\) m/s², \\(F_R=80a\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(3\\,570\\) N</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor är den genomsnittliga normalkraften från golvet under inbromsningen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (80 kg) glider nedför en 5,0 m lång stång. Friktionen mot stången är konstant 500 N. Vid golvet böjer han knäna och sjunker ihop 40 cm innan han stannar. Under inbromsningen har han släppt stången.</p>Farten vid golvet är 5,98 m/s.<p>Hur stor är den genomsnittliga normalkraften från golvet under inbromsningen?</p>",
+        "s": "<p>\\(F_N-mg=F_R\\iff F_N=785{,}6+3\\,570\\).</p><p><strong>Svar:</strong> \\(4\\,356\\) N</p>",
+        "ledtrad": "<p>Normalkraften ska både bära tyngden och bromsa.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp i glidning och inbromsning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "kulstötning med stötsträcka",
+    "poang": "(0/1/0)",
+    "t": "<p>En kula (7,0 kg) får farten 13 m/s när den lämnar handen. Under stöten har handen flyttat kulan 1,7 m. Bestäm den resulterande kraften på kulan. Anta konstant kraft och start från vila.</p>",
+    "s": "<p>\\(a=\\dfrac{13^2}{2\\cdot1{,}7}\\), \\(F_R=7{,}0a\\).</p><p><strong>Svar:</strong> \\(348\\) N</p>",
+    "id": "4.725",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 347.94117647058823,
+    "tolerans": 5.22,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2=2as\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "vagn på is",
+    "poang": "(1/0/0)",
+    "t": "<p>En bonde puttar sin vagn (500 kg) från vila över en frusen sjö med den vågräta kraften 125 N. Bortse från friktion. Vilken fart har vagnen efter 5,0 s?</p>",
+    "s": "<p>\\(a=\\dfrac{125}{500}=0{,}25\\) m/s², \\(v=0{,}25\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) m/s</p>",
+    "id": "4.726",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.25,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v=at\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "pilot vid katapultstart",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett jetplan accelererar från vila till 265 km/h på 90 m vid start från ett hangarfartyg. Hur stor resulterande kraft verkar på piloten (95 kg)?</p>",
+    "s": "<p>\\(73{,}6\\) m/s. \\(a=\\dfrac{73{,}6^2}{2\\cdot90}\\), \\(F_R=95a\\).</p><p><strong>Svar:</strong> \\(2\\,860\\) N</p>",
+    "id": "4.727",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2859.814386145405,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2=2as\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "acceleration för sammanlagd massa",
+    "poang": "(0/0/1)",
+    "t": "<p>En viss kraft ger föremål A accelerationen 5,0 m/s² och föremål B accelerationen 3,0 m/s². Föremål C har samma massa som A och B tillsammans. Vilken acceleration får C av samma kraft?</p>",
+    "s": "<p>\\(m_C=\\dfrac{F}{5{,}0}+\\dfrac{F}{3{,}0}=\\dfrac{8F}{15}\\), \\(a=\\dfrac{15}{8}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) m/s²</p>",
+    "id": "4.728",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.875,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck massorna med \\(F\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "partikel som bromsas",
+    "poang": "(1/1/0)",
+    "t": "<p>En partikel rör sig med farten 25,0 m/s längs en rät linje. En konstant resulterande kraft på 15,0 N får den att stanna på 62,5 m.</p><ol type=\"a\"><li>Hur lång tid tar inbromsningen?</li><li>Bestäm partikelns massa.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{62{,}5}{12{,}5}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) s</p></li><li><p>\\(a=\\dfrac{25{,}0}{5{,}0}=5{,}0\\) m/s², \\(m=\\dfrac{15{,}0}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) kg</p></li></ol>",
+    "id": "4.729",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      3
+    ],
+    "tolerans": [
+      0.075,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En partikel rör sig med farten 25,0 m/s längs en rät linje. En konstant resulterande kraft på 15,0 N får den att stanna på 62,5 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar inbromsningen?",
+        "t": "<p>En partikel rör sig med farten 25,0 m/s längs en rät linje. En konstant resulterande kraft på 15,0 N får den att stanna på 62,5 m.</p><p>Hur lång tid tar inbromsningen?</p>",
+        "s": "<p>\\(t=\\dfrac{62{,}5}{12{,}5}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) s</p>",
+        "ledtrad": "<p>Medelfarten är halva startfarten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm partikelns massa.",
+        "t": "<p>En partikel rör sig med farten 25,0 m/s längs en rät linje. En konstant resulterande kraft på 15,0 N får den att stanna på 62,5 m.</p>Inbromsningen tar 5,0 s.<p>Bestäm partikelns massa.</p>",
+        "s": "<p>\\(a=\\dfrac{25{,}0}{5{,}0}=5{,}0\\) m/s², \\(m=\\dfrac{15{,}0}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) kg</p>",
+        "ledtrad": "<p>\\(F_R=ma\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Kraften är motriktad rörelsen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "två bogserbåtar",
+    "poang": "(0/0/1)",
+    "t": "<p>En bogserbåt drar ett fartyg med kraften \\(F_1\\), så att farten ökar med 4,0 km/h på 10 s. När en andra bogserbåt hjälper till med kraften \\(F_2\\) ökar farten med 16,0 km/h på 10 s. Bestäm \\(\\dfrac{F_1}{F_2}\\). Bortse från motstånd.</p>",
+    "s": "<p>\\(F_1+F_2\\) ger fyra gånger så stor acceleration som \\(F_1\\): \\(F_2=3F_1\\).</p><p><strong>Svar:</strong> \\(0{,}33\\) </p>",
+    "id": "4.730",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3333333333333333,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Accelerationen är proportionell mot kraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "skillnad och summa av massor",
+    "poang": "(0/0/2)",
+    "t": "<p>Kraften \\(F_0\\) ger ett föremål med massan \\(m_1\\) accelerationen 12,0 m/s² och ett föremål med massan \\(m_2\\) accelerationen 3,0 m/s² (friktionsfritt). Vilken acceleration ger \\(F_0\\) ett föremål med massan</p><ol type=\"a\"><li>\\(m_2-m_1\\)?</li><li>\\(m_2+m_1\\)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m_2=4m_1\\), så \\(m_2-m_1=3m_1\\): \\(a=\\dfrac{12{,}0}{3}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s²</p></li><li><p>\\(5m_1\\): \\(a=\\dfrac{12{,}0}{5}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\) m/s²</p></li></ol>",
+    "id": "4.731",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      2.4
+    ],
+    "tolerans": [
+      0.06,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Kraften \\(F_0\\) ger ett föremål med massan \\(m_1\\) accelerationen 12,0 m/s² och ett föremål med massan \\(m_2\\) accelerationen 3,0 m/s² (friktionsfritt). Vilken acceleration ger \\(F_0\\) ett föremål med massan</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(m_2-m_1\\)?",
+        "t": "<p>Kraften \\(F_0\\) ger ett föremål med massan \\(m_1\\) accelerationen 12,0 m/s² och ett föremål med massan \\(m_2\\) accelerationen 3,0 m/s² (friktionsfritt). Vilken acceleration ger \\(F_0\\) ett föremål med massan</p><p>\\(m_2-m_1\\)?</p>",
+        "s": "<p>\\(m_2=4m_1\\), så \\(m_2-m_1=3m_1\\): \\(a=\\dfrac{12{,}0}{3}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) m/s²</p>",
+        "ledtrad": "<p>Uttryck \\(m_2\\) i \\(m_1\\).</p>",
+        "niva": "A",
+        "poang": "(0/0/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(m_2+m_1\\)?",
+        "t": "<p>Kraften \\(F_0\\) ger ett föremål med massan \\(m_1\\) accelerationen 12,0 m/s² och ett föremål med massan \\(m_2\\) accelerationen 3,0 m/s² (friktionsfritt). Vilken acceleration ger \\(F_0\\) ett föremål med massan</p><p>\\(m_2+m_1\\)?</p>",
+        "s": "<p>\\(5m_1\\): \\(a=\\dfrac{12{,}0}{5}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\) m/s²</p>",
+        "ledtrad": "<p>Uttryck \\(m_2\\) i \\(m_1\\).</p>",
+        "niva": "A",
+        "poang": "(0/0/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Massan är omvänt proportionell mot accelerationen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "gevärskula i trädstam",
+    "poang": "(0/2/0)",
+    "t": "<p>En kula (1,80 g) träffar en trädstam med farten 500 m/s och stannar efter 6,00 cm. Anta konstant retardation.</p><ol type=\"a\"><li>Bestäm storleken på den bromsande kraften.</li><li>En kula med halva massan och samma fart bromsas av lika stor kraft. Hur långt in kommer den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{500^2}{2\\cdot0{,}0600}\\), \\(F=0{,}00180a\\).</p><p><strong>Svar:</strong> \\(3\\,750\\) N</p></li><li><p>Dubbel retardation ger halva sträckan.</p><p><strong>Svar:</strong> \\(0{,}0300\\) m</p></li></ol>",
+    "id": "4.732",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3750.0,
+      0.03
+    ],
+    "tolerans": [
+      56.2,
+      0.00045
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kula (1,80 g) träffar en trädstam med farten 500 m/s och stannar efter 6,00 cm. Anta konstant retardation.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm storleken på den bromsande kraften.",
+        "t": "<p>En kula (1,80 g) träffar en trädstam med farten 500 m/s och stannar efter 6,00 cm. Anta konstant retardation.</p><p>Bestäm storleken på den bromsande kraften.</p>",
+        "s": "<p>\\(a=\\dfrac{500^2}{2\\cdot0{,}0600}\\), \\(F=0{,}00180a\\).</p><p><strong>Svar:</strong> \\(3\\,750\\) N</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kula med halva massan och samma fart bromsas av lika stor kraft. Hur långt in kommer den?",
+        "t": "<p>En kula (1,80 g) träffar en trädstam med farten 500 m/s och stannar efter 6,00 cm. Anta konstant retardation.</p><p>En kula med halva massan och samma fart bromsas av lika stor kraft. Hur långt in kommer den?</p>",
+        "s": "<p>Dubbel retardation ger halva sträckan.</p><p><strong>Svar:</strong> \\(0{,}0300\\) m</p>",
+        "ledtrad": "<p>Hur ändras retardationen?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Konstant retardation.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "fläktdriven vagn",
+    "poang": "(0/2/0)",
+    "t": "<p>En lättrullad vagn med fläkt (355 g) startar från vila och rullar 1,50 m på 1,55 s.</p><ol type=\"a\"><li>Bestäm den resulterande kraften på vagnen.</li><li>Massan ökas till 722 g med samma fläktkraft. Hur lång tid tar 1,50 m nu?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{2\\cdot1{,}50}{1{,}55^2}\\), \\(F_R=0{,}355a\\).</p><p><strong>Svar:</strong> \\(0{,}443\\) N</p></li><li><p>\\(a=\\dfrac{0{,}443}{0{,}722}\\), \\(t=\\sqrt{\\dfrac{2\\cdot1{,}50}{a}}\\).</p><p><strong>Svar:</strong> \\(2{,}21\\) s</p></li></ol>",
+    "id": "4.733",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.44328824141519246,
+      2.2104776107451607
+    ],
+    "tolerans": [
+      0.00665,
+      0.0332
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En lättrullad vagn med fläkt (355 g) startar från vila och rullar 1,50 m på 1,55 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den resulterande kraften på vagnen.",
+        "t": "<p>En lättrullad vagn med fläkt (355 g) startar från vila och rullar 1,50 m på 1,55 s.</p><p>Bestäm den resulterande kraften på vagnen.</p>",
+        "s": "<p>\\(a=\\dfrac{2\\cdot1{,}50}{1{,}55^2}\\), \\(F_R=0{,}355a\\).</p><p><strong>Svar:</strong> \\(0{,}443\\) N</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{at^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Massan ökas till 722 g med samma fläktkraft. Hur lång tid tar 1,50 m nu?",
+        "t": "<p>En lättrullad vagn med fläkt (355 g) startar från vila och rullar 1,50 m på 1,55 s.</p>Fläktens kraft är 0,443 N.<p>Massan ökas till 722 g med samma fläktkraft. Hur lång tid tar 1,50 m nu?</p>",
+        "s": "<p>\\(a=\\dfrac{0{,}443}{0{,}722}\\), \\(t=\\sqrt{\\dfrac{2\\cdot1{,}50}{a}}\\).</p><p><strong>Svar:</strong> \\(2{,}21\\) s</p>",
+        "ledtrad": "<p>Fläkten ger samma kraft.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Fläkten ger en konstant kraft.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "löpare i startblock",
+    "poang": "(0/1/0)",
+    "t": "<p>En löpare (86 kg) trycker ifrån i startblocken och påverkas av en resulterande kraft på 1,7 kN riktad 20° upp från marken under 0,32 s. Bestäm löparens vågräta fart efter starten.</p>",
+    "s": "<p>\\(a_x=\\dfrac{1\\,700\\cos20^\\circ}{86}\\), \\(v=a_x\\cdot0{,}32\\).</p><p><strong>Svar:</strong> \\(5{,}9\\) m/s</p>",
+    "id": "4.734",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "F = ma",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.944102159389932,
+    "tolerans": 0.0892,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bara den vågräta komposanten ändrar den vågräta farten.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "newton2__f_ma",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "4.299",
     "kap": 4,
     "omr": "moment",

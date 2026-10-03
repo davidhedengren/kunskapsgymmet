@@ -126796,6 +126796,1297 @@ window.BANK = [
     ]
   },
   {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "E",
+    "typ": "antal kärnor före och efter",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett radioaktivt preparat har halveringstiden 10 s. Vid \\(t=20\\) s finns 10 000 kärnor kvar.</p><ol type=\"a\"><li>Hur många kärnor fanns vid \\(t=0\\)?</li><li>Hur många kärnor finns vid \\(t=40\\) s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Två halveringstider bakåt: \\(4\\cdot10\\,000\\).</p><p><strong>Svar:</strong> \\(40\\,000\\)</p></li><li><p>Två halveringstider till: \\(\\dfrac{10\\,000}{4}\\).</p><p><strong>Svar:</strong> \\(2\\,500\\)</p></li></ol>",
+    "id": "9.330",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Halveringstid i hela steg",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40000,
+      2500
+    ],
+    "tolerans": [
+      600.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett radioaktivt preparat har halveringstiden 10 s. Vid \\(t=20\\) s finns 10 000 kärnor kvar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många kärnor fanns vid \\(t=0\\)?",
+        "t": "<p>Ett radioaktivt preparat har halveringstiden 10 s. Vid \\(t=20\\) s finns 10 000 kärnor kvar.</p><p>Hur många kärnor fanns vid \\(t=0\\)?</p>",
+        "s": "<p>Två halveringstider bakåt: \\(4\\cdot10\\,000\\).</p><p><strong>Svar:</strong> \\(40\\,000\\)</p>",
+        "ledtrad": "<p>Hur många halveringstider är 20 s?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många kärnor finns vid \\(t=40\\) s?",
+        "t": "<p>Ett radioaktivt preparat har halveringstiden 10 s. Vid \\(t=20\\) s finns 10 000 kärnor kvar.</p><p>Hur många kärnor finns vid \\(t=40\\) s?</p>",
+        "s": "<p>Två halveringstider till: \\(\\dfrac{10\\,000}{4}\\).</p><p><strong>Svar:</strong> \\(2\\,500\\)</p>",
+        "ledtrad": "<p>Hur många halveringstider är det från 20 s till 40 s?</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Räkna i hela halveringstider.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "E",
+    "typ": "moderkärnor och dotterkärnor",
+    "poang": "(1/0/0)",
+    "t": "<p>Nukliden A har halveringstiden 10 s och sönderfaller till den stabila nukliden B. Vid \\(t=0\\) finns 1 000 A-kärnor och inga B-kärnor. Efter hur lång tid finns det 750 B-kärnor?</p>",
+    "s": "<p>Då finns 250 A-kärnor kvar, alltså \\(\\tfrac14\\): två halveringstider.</p><p><strong>Svar:</strong> \\(20\\) s</p>",
+    "id": "9.331",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Halveringstid i hela steg",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många A-kärnor finns kvar då?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "s",
+    "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "E",
+    "typ": "tritium i hela halveringstider",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett prov innehåller 5 000 tritiumkärnor (\\(T_{1/2}=12{,}3\\) år). Efter hur lång tid finns 625 kärnor kvar?</p>",
+    "s": "<p>\\(\\dfrac{625}{5\\,000}=\\dfrac18\\): tre halveringstider, \\(3\\cdot12{,}3\\).</p><p><strong>Svar:</strong> \\(37\\) år</p>",
+    "id": "9.332",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Halveringstid i hela steg",
+    "svarstyp": "numeriskt",
+    "rättSvar": 36.9,
+    "tolerans": 0.553,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många gånger har antalet halverats?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "år",
+    "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "massa kol-11 som återstår",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett prov innehåller 1,000 g kol-11 (\\(T_{1/2}=20{,}39\\) min). Efter hur lång tid återstår 0,723 g?</p>",
+    "s": "<p>\\(0{,}723=\\left(\\tfrac12\\right)^{t/20{,}39}\\iff t=20{,}39\\cdot\\dfrac{\\lg(1/0{,}723)}{\\lg2}\\).</p><p><strong>Svar:</strong> \\(9{,}5\\) min</p>",
+    "id": "9.333",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.541142608826663,
+    "tolerans": 0.143,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "min",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "halveringstid ur tabell med snabb avklingning",
+    "poang": "(0/1/0)",
+    "t": "<p>Aktiviteten hos en kvävenuklid mäts:</p><table class=\"data\"><tr><th>\\(t\\) (s)</th><td>0</td><td>20</td><td>40</td><td>60</td><td>80</td><td>100</td></tr><tr><th>\\(A\\) (kBq)</th><td>142</td><td>20,3</td><td>2,91</td><td>0,416</td><td>0,0596</td><td>0,00853</td></tr></table><p>Bestäm halveringstiden.</p>",
+    "s": "<p>Var 20:e sekund minskar aktiviteten med faktorn \\(\\dfrac{142}{20{,}3}=7{,}0\\). \\(T_{1/2}=20\\cdot\\dfrac{\\ln2}{\\ln7{,}0}\\).</p><p><strong>Svar:</strong> \\(7{,}1\\) s</p>",
+    "id": "9.334",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Halveringstid ur diagram och mätdata",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.126721996839753,
+    "tolerans": 0.107,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Med vilken faktor minskar aktiviteten per 20 s?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "aktivitet__halveringstid_ur_diagram_och_matdata",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "E",
+    "typ": "sönderfallskonstant och halveringstid",
+    "poang": "(2/0/0)",
+    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><ol type=\"a\"><li>Bestäm sönderfallskonstanten för U-238 (\\(T_{1/2}=4{,}5\\cdot10^9\\) år) i s⁻¹.</li><li>Bestäm halveringstiden i timmar för en nuklid med \\(\\lambda=3{,}2\\cdot10^{-5}\\) s⁻¹.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{\\ln2}{4{,}5\\cdot10^9\\cdot3{,}156\\cdot10^7}\\).</p><p><strong>Svar:</strong> \\(4{,}9\\cdot10^{-18}\\) 1/s</p></li><li><p>\\(T_{1/2}=\\dfrac{\\ln2}{3{,}2\\cdot10^{-5}}\\) s, dela med 3 600.</p><p><strong>Svar:</strong> \\(6{,}0\\) h</p></li></ol>",
+    "id": "9.335",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.881001939028917e-18,
+      6.016902609027303
+    ],
+    "tolerans": [
+      7.32e-20,
+      0.0903
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "1/s",
+      "h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm sönderfallskonstanten för U-238 (\\(T_{1/2}=4{,}5\\cdot10^9\\) år) i s⁻¹.",
+        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm sönderfallskonstanten för U-238 (\\(T_{1/2}=4{,}5\\cdot10^9\\) år) i s⁻¹.</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{\\ln2}{4{,}5\\cdot10^9\\cdot3{,}156\\cdot10^7}\\).</p><p><strong>Svar:</strong> \\(4{,}9\\cdot10^{-18}\\) 1/s</p>",
+        "ledtrad": "<p>\\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm halveringstiden i timmar för en nuklid med \\(\\lambda=3{,}2\\cdot10^{-5}\\) s⁻¹.",
+        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i timmar för en nuklid med \\(\\lambda=3{,}2\\cdot10^{-5}\\) s⁻¹.</p>",
+        "s": "<p>\\(T_{1/2}=\\dfrac{\\ln2}{3{,}2\\cdot10^{-5}}\\) s, dela med 3 600.</p><p><strong>Svar:</strong> \\(6{,}0\\) h</p>",
+        "ledtrad": "<p>\\(T_{1/2}=\\dfrac{\\ln2}{\\lambda}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "E",
+    "typ": "halveringstid ur två aktiviteter",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett preparat har aktiviteten 1 120 Bq. Efter 3,6 h är aktiviteten 140 Bq. Bestäm halveringstiden.</p>",
+    "s": "<p>\\(\\dfrac{140}{1\\,120}=\\dfrac18\\): tre halveringstider på 3,6 h.</p><p><strong>Svar:</strong> \\(1{,}2\\) h</p>",
+    "id": "9.336",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Halveringstid i hela steg",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många gånger har aktiviteten halverats?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "h",
+    "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "andel kvar efter 2,5 år",
+    "poang": "(0/1/0)",
+    "t": "<p>Hur stor andel av ett prov med Sc-46 (\\(T_{1/2}=83{,}8\\) dygn) finns kvar efter 2,5 år (1 år = 365,25 dygn)?</p>",
+    "s": "<p>\\(\\left(\\tfrac12\\right)^{913{,}1/83{,}8}\\).</p><p><strong>Svar:</strong> \\(0{,}00052\\) </p>",
+    "id": "9.337",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0005246054028928608,
+    "tolerans": 7.87e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "aktivitet och antal kärnor",
+    "poang": "(0/2/0)",
+    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>C-14 har halveringstiden 5 730 år och U-238 halveringstiden \\(4{,}47\\cdot10^9\\) år.</p><ol type=\"a\"><li>Bestäm aktiviteten hos ett prov med \\(6{,}5\\cdot10^{20}\\) C-14-kärnor.</li><li>Hur många U-238-kärnor finns i ett mineral med aktiviteten 420 Bq?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(A=\\dfrac{\\ln2}{5\\,730\\cdot3{,}156\\cdot10^7}\\cdot6{,}5\\cdot10^{20}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{9}\\) Bq</p></li><li><p>\\(N=\\dfrac{A}{\\lambda}=\\dfrac{420\\cdot4{,}47\\cdot10^9\\cdot3{,}156\\cdot10^7}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(8{,}5\\cdot10^{19}\\)</p></li></ol>",
+    "id": "9.338",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2491610937.462405,
+      8.547425410017408e+19
+    ],
+    "tolerans": [
+      51000000.0,
+      1.28e+18
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Bq",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>C-14 har halveringstiden 5 730 år och U-238 halveringstiden \\(4{,}47\\cdot10^9\\) år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm aktiviteten hos ett prov med \\(6{,}5\\cdot10^{20}\\) C-14-kärnor.",
+        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>C-14 har halveringstiden 5 730 år och U-238 halveringstiden \\(4{,}47\\cdot10^9\\) år.</p><p>Bestäm aktiviteten hos ett prov med \\(6{,}5\\cdot10^{20}\\) C-14-kärnor.</p>",
+        "s": "<p>\\(A=\\dfrac{\\ln2}{5\\,730\\cdot3{,}156\\cdot10^7}\\cdot6{,}5\\cdot10^{20}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{9}\\) Bq</p>",
+        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många U-238-kärnor finns i ett mineral med aktiviteten 420 Bq?",
+        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>C-14 har halveringstiden 5 730 år och U-238 halveringstiden \\(4{,}47\\cdot10^9\\) år.</p><p>Hur många U-238-kärnor finns i ett mineral med aktiviteten 420 Bq?</p>",
+        "s": "<p>\\(N=\\dfrac{A}{\\lambda}=\\dfrac{420\\cdot4{,}47\\cdot10^9\\cdot3{,}156\\cdot10^7}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(8{,}5\\cdot10^{19}\\)</p>",
+        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "halveringstid ur mätserie",
+    "poang": "(0/1/0)",
+    "t": "<p>Aktiviteten hos ett preparat mäts:</p><table class=\"data\"><tr><th>\\(t\\) (h)</th><td>0</td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td><td>20</td><td>22</td></tr><tr><th>\\(A\\) (Bq)</th><td>2 100</td><td>1 650</td><td>1 290</td><td>990</td><td>780</td><td>600</td><td>480</td><td>390</td><td>300</td><td>240</td><td>174</td><td>135</td></tr></table><p>Bestäm halveringstiden.</p>",
+    "s": "<p>Till exempel: \\(2\\,100\\to1\\,050\\) tar drygt 5 h, och \\(\\dfrac{2\\,100}{135}\\) under 22 h ger \\(T_{1/2}=22\\cdot\\dfrac{\\ln2}{\\ln(2\\,100/135)}\\).</p><p><strong>Svar:</strong> \\(5{,}6\\) h</p>",
+    "id": "9.339",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Halveringstid ur diagram och mätdata",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.5564563532421625,
+    "tolerans": 0.0833,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur lång tid tar det för aktiviteten att halveras?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "h",
+    "familjNyckel": "aktivitet__halveringstid_ur_diagram_och_matdata",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "E",
+    "typ": "andel efter fem halveringstider",
+    "poang": "(1/0/0)",
+    "t": "<p>Hur stor andel av ett radioaktivt preparat finns kvar efter fem halveringstider?</p>",
+    "s": "<p>\\(\\left(\\tfrac12\\right)^5=\\dfrac{1}{32}\\).</p><p><strong>Svar:</strong> \\(0{,}0312\\) </p>",
+    "id": "9.340",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Halveringstid i hela steg",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.03125,
+    "tolerans": 0.000469,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Halvera fem gånger.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "massa ur aktivitet",
+    "poang": "(1/2/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><ol type=\"a\"><li>Ett Co-60-preparat (\\(T_{1/2}=5{,}27\\) år, 59,93 u) har aktiviteten 8,0 PBq. Bestäm massan Co-60.</li><li>En instrumentbräda med radium-226 (\\(T_{1/2}=1\\,600\\) år, 226,03 u) hade aktiviteten 150 kBq som ny. Hur stor massa Ra-226 innehöll den?</li><li>Hur stor är instrumentbrädans aktivitet 75 år senare?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{A}{\\lambda}=\\dfrac{8{,}0\\cdot10^{15}\\cdot5{,}27\\cdot3{,}156\\cdot10^7}{\\ln2}\\), \\(m=N\\cdot59{,}93\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(0{,}19\\) kg</p></li><li><p>\\(N=\\dfrac{150\\cdot10^3\\cdot1\\,600\\cdot3{,}156\\cdot10^7}{\\ln2}\\), \\(m=N\\cdot226{,}03\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\cdot10^{-9}\\) kg</p></li><li><p>\\(A=150\\cdot\\left(\\tfrac12\\right)^{75/1\\,600}\\).</p><p><strong>Svar:</strong> \\(1{,}45\\cdot10^{5}\\) Bq</p></li></ol>",
+    "id": "9.341",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.19101270985880597,
+      4.101046680588382e-09,
+      145204.63451192208
+    ],
+    "tolerans": [
+      0.0051,
+      6.15e-11,
+      2180.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg",
+      "Bq"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett Co-60-preparat (\\(T_{1/2}=5{,}27\\) år, 59,93 u) har aktiviteten 8,0 PBq. Bestäm massan Co-60.",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Ett Co-60-preparat (\\(T_{1/2}=5{,}27\\) år, 59,93 u) har aktiviteten 8,0 PBq. Bestäm massan Co-60.</p>",
+        "s": "<p>\\(N=\\dfrac{A}{\\lambda}=\\dfrac{8{,}0\\cdot10^{15}\\cdot5{,}27\\cdot3{,}156\\cdot10^7}{\\ln2}\\), \\(m=N\\cdot59{,}93\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(0{,}19\\) kg</p>",
+        "ledtrad": "<p>Bestäm antalet kärnor först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En instrumentbräda med radium-226 (\\(T_{1/2}=1\\,600\\) år, 226,03 u) hade aktiviteten 150 kBq som ny. Hur stor massa Ra-226 innehöll den?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En instrumentbräda med radium-226 (\\(T_{1/2}=1\\,600\\) år, 226,03 u) hade aktiviteten 150 kBq som ny. Hur stor massa Ra-226 innehöll den?</p>",
+        "s": "<p>\\(N=\\dfrac{150\\cdot10^3\\cdot1\\,600\\cdot3{,}156\\cdot10^7}{\\ln2}\\), \\(m=N\\cdot226{,}03\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\cdot10^{-9}\\) kg</p>",
+        "ledtrad": "<p>Bestäm antalet kärnor först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är instrumentbrädans aktivitet 75 år senare?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Hur stor är instrumentbrädans aktivitet 75 år senare?</p>",
+        "s": "<p>\\(A=150\\cdot\\left(\\tfrac12\\right)^{75/1\\,600}\\).</p><p><strong>Svar:</strong> \\(1{,}45\\cdot10^{5}\\) Bq</p>",
+        "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "A",
+    "typ": "kalium-40 i kroppen",
+    "poang": "(0/1/1)",
+    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En människa (60 kg) består till 0,30 % (massa) av kalium (39,10 g/mol). Av kaliumatomerna är 0,012 % K-40 med halveringstiden \\(1{,}28\\cdot10^9\\) år. Avogadros konstant är \\(6{,}022\\cdot10^{23}\\) mol⁻¹. Bestäm aktiviteten från K-40.</p>",
+    "s": "<p>\\(n_K=\\dfrac{180}{39{,}10}\\) mol, \\(N=n_K\\cdot6{,}022\\cdot10^{23}\\cdot1{,}2\\cdot10^{-4}\\). \\(A=\\dfrac{\\ln2}{1{,}28\\cdot10^9\\cdot3{,}156\\cdot10^7}N\\).</p><p><strong>Svar:</strong> \\(5\\,709\\) Bq</p>",
+    "id": "9.342",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5708.595479116215,
+    "tolerans": 85.6,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm antalet K-40-kärnor.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "Bq",
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "E",
+    "typ": "aktivitet ur sönderfallskonstant",
+    "poang": "(1/0/0)",
+    "t": "<p>Sönderfallskonstanten för Ra-226 är \\(1{,}38\\cdot10^{-11}\\) s⁻¹. Ett radiumpreparat på 1,00 mg innehåller \\(2{,}65\\cdot10^{18}\\) atomer. Bestäm aktiviteten.</p>",
+    "s": "<p>\\(A=\\lambda N=1{,}38\\cdot10^{-11}\\cdot2{,}65\\cdot10^{18}\\).</p><p><strong>Svar:</strong> \\(3{,}66\\cdot10^{7}\\) Bq</p>",
+    "id": "9.343",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 36570000.0,
+    "tolerans": 549000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "Bq",
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "aktivitet hos fosfor-32",
+    "poang": "(0/1/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Bestäm aktiviteten hos 6,7 µg P-32 (31,97 u, \\(T_{1/2}=14{,}3\\) dygn).</p>",
+    "s": "<p>\\(N=\\dfrac{6{,}7\\cdot10^{-9}}{31{,}97\\cdot1{,}6605\\cdot10^{-27}}\\), \\(A=\\dfrac{\\ln2}{14{,}3\\cdot86\\,400}N\\).</p><p><strong>Svar:</strong> \\(7{,}1\\cdot10^{10}\\) Bq</p>",
+    "id": "9.344",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 70805821776.25278,
+    "tolerans": 1060000000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm antalet kärnor ur massan.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Bq",
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "kol-11-prov",
+    "poang": "(3/1/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p><ol type=\"a\"><li>Bestäm sönderfallskonstanten.</li><li>Hur många kärnor finns i provet?</li><li>Bestäm aktiviteten.</li><li>Hur stor är aktiviteten 8,0 h senare?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\lambda=\\dfrac{\\ln2}{20{,}39\\cdot60}\\).</p><p><strong>Svar:</strong> \\(0{,}000567\\) 1/s</p></li><li><p>\\(N=\\dfrac{3{,}50\\cdot10^{-9}}{11{,}011\\cdot1{,}6605\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(1{,}91\\cdot10^{17}\\)</p></li><li><p>\\(A=\\lambda N\\).</p><p><strong>Svar:</strong> \\(1{,}08\\cdot10^{14}\\) Bq</p></li><li><p>\\(A=1{,}08\\cdot10^{14}\\cdot\\left(\\tfrac12\\right)^{480/20{,}39}\\).</p><p><strong>Svar:</strong> \\(8{,}89\\cdot10^{6}\\) Bq</p></li></ol>",
+    "id": "9.345",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.0005665744487166464,
+      1.9142665114579382e+17,
+      108457449342601.94,
+      8886420.802179508
+    ],
+    "tolerans": [
+      8.5e-06,
+      2870000000000000.0,
+      1630000000000.0,
+      133000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "1/s",
+      null,
+      "Bq",
+      "Bq"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm sönderfallskonstanten.",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p><p>Bestäm sönderfallskonstanten.</p>",
+        "s": "<p>\\(\\lambda=\\dfrac{\\ln2}{20{,}39\\cdot60}\\).</p><p><strong>Svar:</strong> \\(0{,}000567\\) 1/s</p>",
+        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många kärnor finns i provet?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p><p>Hur många kärnor finns i provet?</p>",
+        "s": "<p>\\(N=\\dfrac{3{,}50\\cdot10^{-9}}{11{,}011\\cdot1{,}6605\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(1{,}91\\cdot10^{17}\\)</p>",
+        "ledtrad": "<p>Massan i kg delat med en atoms massa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm aktiviteten.",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p>\\(\\lambda=5{,}67\\cdot10^{-4}\\) s⁻¹ och \\(N=1{,}91\\cdot10^{17}\\).<p>Bestäm aktiviteten.</p>",
+        "s": "<p>\\(A=\\lambda N\\).</p><p><strong>Svar:</strong> \\(1{,}08\\cdot10^{14}\\) Bq</p>",
+        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor är aktiviteten 8,0 h senare?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p>Aktiviteten är från början \\(1{,}08\\cdot10^{14}\\) Bq.<p>Hur stor är aktiviteten 8,0 h senare?</p>",
+        "s": "<p>\\(A=1{,}08\\cdot10^{14}\\cdot\\left(\\tfrac12\\right)^{480/20{,}39}\\).</p><p><strong>Svar:</strong> \\(8{,}89\\cdot10^{6}\\) Bq</p>",
+        "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "vismut-210 ett år senare",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett prov med Bi-210 (\\(T_{1/2}=5{,}01\\) dygn) har aktiviteten 0,37 GBq. Hur stor är aktiviteten 365 dygn senare?</p>",
+    "s": "<p>\\(A=0{,}37\\cdot10^9\\cdot\\left(\\tfrac12\\right)^{365/5{,}01}\\). I praktiken har allt sönderfallit.</p><p><strong>Svar:</strong> \\(4{,}3\\cdot10^{-14}\\) Bq</p>",
+    "id": "9.346",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.333858171754666e-14,
+    "tolerans": 6.5e-16,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Bq",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "transporttid för jod-131",
+    "poang": "(0/1/0)",
+    "t": "<p>1 Ci \\(=3{,}7\\cdot10^{10}\\) Bq.</p><p>Ett prov med I-131 (\\(T_{1/2}=8{,}04\\) dygn) skickas med aktiviteten 5,0 mCi och har aktiviteten 2,1 mCi när det kommer fram. Hur lång tid tog transporten?</p>",
+    "s": "<p>\\(\\dfrac{2{,}1}{5{,}0}=\\left(\\tfrac12\\right)^{t/8{,}04}\\iff t=8{,}04\\cdot\\dfrac{\\ln(5{,}0/2{,}1)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(10{,}1\\) dygn</p>",
+    "id": "9.347",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.062371686647552,
+    "tolerans": 0.151,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "dygn",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "A",
+    "typ": "kvot mellan två nuklider",
+    "poang": "(0/1/1)",
+    "t": "<p>Ett prov innehåller Sr-90 (\\(T_{1/2}=29{,}1\\) år) och Cs-134 (\\(T_{1/2}=2{,}06\\) år). Kvoten mellan antalet kärnor är \\(\\dfrac{N_{Sr}}{N_{Cs}}=7{,}8\\cdot10^{-3}\\). Bestäm kvoten 15 år senare.</p>",
+    "s": "<p>\\(7{,}8\\cdot10^{-3}\\cdot\\dfrac{(1/2)^{15/29{,}1}}{(1/2)^{15/2{,}06}}=7{,}8\\cdot10^{-3}\\cdot2^{15/2{,}06-15/29{,}1}\\).</p><p><strong>Svar:</strong> \\(0{,}85\\) </p>",
+    "id": "9.348",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8489663753684902,
+    "tolerans": 0.0127,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Varje nuklid avklingar för sig.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "aktivitet efter sex dygn",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett prov har aktiviteten 398 sönderfall/min. Två dygn senare är den 285 sönderfall/min. Hur stor är aktiviteten sex dygn efter första mätningen (i sönderfall per minut)?</p>",
+    "s": "<p>Varje tvådygnsperiod multipliceras aktiviteten med \\(\\dfrac{285}{398}\\): \\(398\\cdot\\left(\\dfrac{285}{398}\\right)^3\\).</p><p><strong>Svar:</strong> \\(146\\) </p>",
+    "id": "9.349",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 146.13977551071946,
+    "tolerans": 2.19,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma faktor varannan dag.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "massa guld-198 för given aktivitet",
+    "poang": "(0/1/1)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>1 Ci \\(=3{,}7\\cdot10^{10}\\) Bq.</p><p>Au-198 (197,968 u, \\(T_{1/2}=2{,}69\\) dygn) används i cancerbehandling. Vilken massa krävs för aktiviteten 315 Ci?</p>",
+    "s": "<p>\\(A=315\\cdot3{,}7\\cdot10^{10}\\) Bq, \\(N=\\dfrac{A\\cdot2{,}69\\cdot86\\,400}{\\ln2}\\), \\(m=N\\cdot197{,}968\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}28\\cdot10^{-6}\\) kg</p>",
+    "id": "9.350",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.284655601252233e-06,
+    "tolerans": 1.93e-08,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm antalet kärnor först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "kg",
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "A",
+    "typ": "sönderfallande neutronstråle",
+    "poang": "(0/1/2)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Fria neutroner (\\(1{,}675\\cdot10^{-27}\\) kg) sönderfaller med halveringstiden 10,4 min. En neutronstråle har rörelseenergin 0,0050 eV. Hur lång sträcka hinner neutronerna innan 25 % har sönderfallit?</p>",
+    "s": "<p>\\(v=\\sqrt{\\dfrac{2E}{m}}\\). 75 % kvar: \\(t=10{,}4\\cdot60\\cdot\\dfrac{\\ln(1/0{,}75)}{\\ln2}\\). \\(s=vt\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{5}\\) m</p>",
+    "id": "9.351",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 253277.01404794116,
+    "tolerans": 5100.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten och tiden.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "A",
+    "typ": "halveringstid ur kvot efter tre dygn",
+    "poang": "(0/1/1)",
+    "t": "<p>Ett prov innehåller från början lika många kärnor av A och B. B har halveringstiden 1,50 dygn. Efter 3,0 dygn finns tre gånger så många A-kärnor som B-kärnor. Bestäm halveringstiden för A.</p>",
+    "s": "<p>B: \\(\\tfrac14\\) kvar. A: \\(\\tfrac34\\) kvar. \\(\\left(\\tfrac12\\right)^{3{,}0/T}=\\tfrac34\\iff T=\\dfrac{3{,}0\\ln2}{\\ln(4/3)}\\).</p><p><strong>Svar:</strong> \\(7{,}2\\) dygn</p>",
+    "id": "9.352",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.228262518959628,
+    "tolerans": 0.108,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur stor andel av B finns kvar?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "dygn",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "jod-131 i mjölk",
+    "poang": "(0/1/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>1 Ci \\(=3{,}7\\cdot10^{10}\\) Bq.</p><p>Ett mjölktest kan påvisa ner till 1,00 pCi I-131 (131 u, \\(T_{1/2}=8{,}04\\) dygn) per liter. Vilken massa I-131 motsvarar det?</p>",
+    "s": "<p>\\(A=0{,}037\\) Bq, \\(N=\\dfrac{A\\cdot8{,}04\\cdot86\\,400}{\\ln2}\\), \\(m=N\\cdot131\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(8{,}07\\cdot10^{-21}\\) kg</p>",
+    "id": "9.353",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.065963080769512e-21,
+    "tolerans": 1.21e-22,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm antalet kärnor först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "halveringstid ur massa och aktivitet",
+    "poang": "(0/2/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i år.</p><ol type=\"a\"><li>1,00 mg U-235 (235 u) har aktiviteten 80,0 Bq.</li><li>1,00 kg V-50 (50 u) har aktiviteten 1,75 Bq.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{1{,}00\\cdot10^{-6}}{235\\,\\text{u}}\\), \\(T_{1/2}=\\dfrac{N\\ln2}{A}\\) s, dela med \\(3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(7{,}04\\cdot10^{8}\\) år</p></li><li><p>\\(N=\\dfrac{1{,}00}{50\\,\\text{u}}\\), \\(T_{1/2}=\\dfrac{N\\ln2}{A}\\).</p><p><strong>Svar:</strong> \\(1{,}51\\cdot10^{17}\\) år</p></li></ol>",
+    "id": "9.354",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      703598272.9384935,
+      1.511731146427849e+17
+    ],
+    "tolerans": [
+      10600000.0,
+      2270000000000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "år",
+      "år"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "1,00 mg U-235 (235 u) har aktiviteten 80,0 Bq.",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i år.</p><p>1,00 mg U-235 (235 u) har aktiviteten 80,0 Bq.</p>",
+        "s": "<p>\\(N=\\dfrac{1{,}00\\cdot10^{-6}}{235\\,\\text{u}}\\), \\(T_{1/2}=\\dfrac{N\\ln2}{A}\\) s, dela med \\(3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(7{,}04\\cdot10^{8}\\) år</p>",
+        "ledtrad": "<p>\\(T_{1/2}=\\dfrac{\\ln2\\cdot N}{A}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "1,00 kg V-50 (50 u) har aktiviteten 1,75 Bq.",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i år.</p><p>1,00 kg V-50 (50 u) har aktiviteten 1,75 Bq.</p>",
+        "s": "<p>\\(N=\\dfrac{1{,}00}{50\\,\\text{u}}\\), \\(T_{1/2}=\\dfrac{N\\ln2}{A}\\).</p><p><strong>Svar:</strong> \\(1{,}51\\cdot10^{17}\\) år</p>",
+        "ledtrad": "<p>\\(T_{1/2}=\\dfrac{\\ln2\\cdot N}{A}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "glödstrumpa med torium",
+    "poang": "(0/1/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En glödstrumpa innehåller 300 mg Th-232 (232 u, \\(T_{1/2}=1{,}405\\cdot10^{10}\\) år). Bestäm aktiviteten.</p>",
+    "s": "<p>\\(N=\\dfrac{0{,}300\\cdot10^{-3}}{232\\,\\text{u}}\\), \\(A=\\dfrac{\\ln2}{1{,}405\\cdot10^{10}\\cdot3{,}156\\cdot10^7}N\\).</p><p><strong>Svar:</strong> \\(1\\,217\\) Bq</p>",
+    "id": "9.355",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1217.417554108818,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm antalet kärnor ur massan.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Bq",
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "användningstid för koboltkälla",
+    "poang": "(0/1/0)",
+    "t": "<p>En Co-60-källa (\\(T_{1/2}=5{,}27\\) år) har aktiviteten 5 000 Ci. Den kan inte användas när aktiviteten är under 3 500 Ci. Hur länge kan den användas?</p>",
+    "s": "<p>\\(t=5{,}27\\cdot\\dfrac{\\ln(5\\,000/3\\,500)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) år</p>",
+    "id": "9.356",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.711800620812826,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "år",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "A",
+    "typ": "uranets sammansättning när jorden bildades",
+    "poang": "(0/1/2)",
+    "t": "<p>Naturligt uran består i dag av 0,720 % U-235 (\\(T_{1/2}=7{,}04\\cdot10^8\\) år) och 99,275 % U-238 (\\(T_{1/2}=4{,}468\\cdot10^9\\) år). Hur många procent av uranet var U-235 när jorden bildades för \\(4{,}5\\cdot10^9\\) år sedan? Bortse från övriga isotoper.</p>",
+    "s": "<p>Räkna bakåt: \\(0{,}720\\cdot2^{4{,}5\\cdot10^9/7{,}04\\cdot10^8}=60{,}5\\) och \\(99{,}275\\cdot2^{4{,}5/4{,}468}=199{,}5\\). Andel: \\(\\dfrac{60{,}5}{60{,}5+199{,}5}\\).</p><p><strong>Svar:</strong> \\(23\\) %</p>",
+    "id": "9.357",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 23.256552492383648,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna bakåt för varje isotop.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "%",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "utarmat uran",
+    "poang": "(0/1/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm aktiviteten hos 60 g ren U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år).</p>",
+    "s": "<p>\\(N=\\dfrac{0{,}060}{238{,}05\\,\\text{u}}\\), \\(A=\\dfrac{\\ln2}{4{,}468\\cdot10^9\\cdot3{,}156\\cdot10^7}N\\).</p><p><strong>Svar:</strong> \\(7{,}46\\cdot10^{5}\\) Bq</p>",
+    "id": "9.358",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 746195.3084141955,
+    "tolerans": 11200.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm antalet kärnor ur massan.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Bq",
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "uranglaserad tallrik",
+    "poang": "(0/3/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p><ol type=\"a\"><li>Bestäm tallrikens aktivitet.</li><li>Vilken effekt avger tallriken genom sönderfallen?</li><li>Hur mycket energi har frigjorts under 40 år?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{50{,}0\\cdot10^{-6}}{238{,}05\\,\\text{u}}\\), \\(A=\\lambda N\\).</p><p><strong>Svar:</strong> \\(622\\) Bq</p></li><li><p>\\(P=A\\cdot4{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(4{,}25\\cdot10^{-10}\\) W</p></li><li><p>Aktiviteten är i praktiken konstant: \\(E=P\\cdot40\\cdot3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(0{,}537\\) J</p></li></ol>",
+    "id": "9.359",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      621.8294236784964,
+      4.253649045849702e-10,
+      0.5369398205172262
+    ],
+    "tolerans": [
+      9.33,
+      6.38e-12,
+      0.00805
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Bq",
+      "W",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm tallrikens aktivitet.",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p><p>Bestäm tallrikens aktivitet.</p>",
+        "s": "<p>\\(N=\\dfrac{50{,}0\\cdot10^{-6}}{238{,}05\\,\\text{u}}\\), \\(A=\\lambda N\\).</p><p><strong>Svar:</strong> \\(622\\) Bq</p>",
+        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken effekt avger tallriken genom sönderfallen?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p>Aktiviteten är 622 Bq.<p>Vilken effekt avger tallriken genom sönderfallen?</p>",
+        "s": "<p>\\(P=A\\cdot4{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(4{,}25\\cdot10^{-10}\\) W</p>",
+        "ledtrad": "<p>Energi per sekund.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket energi har frigjorts under 40 år?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p>Effekten är \\(4{,}26\\cdot10^{-10}\\) W.<p>Hur mycket energi har frigjorts under 40 år?</p>",
+        "s": "<p>Aktiviteten är i praktiken konstant: \\(E=P\\cdot40\\cdot3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(0{,}537\\) J</p>",
+        "ledtrad": "<p>Ändras aktiviteten märkbart på 40 år?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "plutoniumbatteri i rymdsond",
+    "poang": "(0/3/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p><ol type=\"a\"><li>Bestäm aktiviteten vid uppskjutningen.</li><li>Bestäm effekten, om all sönderfallsenergi tas till vara.</li><li>Hur stor är effekten 12,0 år efter uppskjutningen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{11{,}0}{238{,}05\\,\\text{u}}\\), \\(A=\\lambda N\\).</p><p><strong>Svar:</strong> \\(7{,}0\\cdot10^{15}\\) Bq</p></li><li><p>\\(P=A\\cdot5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(6\\,241\\) W</p></li><li><p>\\(P=6{,}2\\cdot\\left(\\tfrac12\\right)^{12{,}0/87{,}7}\\) kW.</p><p><strong>Svar:</strong> \\(5\\,677\\) W</p></li></ol>",
+    "id": "9.360",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Aktivitet och antal kärnor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6969594644230500.0,
+      6241.397456612009,
+      5676.646814450296
+    ],
+    "tolerans": [
+      105000000000000.0,
+      93.6,
+      85.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Bq",
+      "W",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm aktiviteten vid uppskjutningen.",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p><p>Bestäm aktiviteten vid uppskjutningen.</p>",
+        "s": "<p>\\(N=\\dfrac{11{,}0}{238{,}05\\,\\text{u}}\\), \\(A=\\lambda N\\).</p><p><strong>Svar:</strong> \\(7{,}0\\cdot10^{15}\\) Bq</p>",
+        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm effekten, om all sönderfallsenergi tas till vara.",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p>Aktiviteten är \\(7{,}0\\cdot10^{15}\\) Bq.<p>Bestäm effekten, om all sönderfallsenergi tas till vara.</p>",
+        "s": "<p>\\(P=A\\cdot5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(6\\,241\\) W</p>",
+        "ledtrad": "<p>Energi per sekund.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är effekten 12,0 år efter uppskjutningen?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p>Effekten är från början 6,2 kW.<p>Hur stor är effekten 12,0 år efter uppskjutningen?</p>",
+        "s": "<p>\\(P=6{,}2\\cdot\\left(\\tfrac12\\right)^{12{,}0/87{,}7}\\) kW.</p><p><strong>Svar:</strong> \\(5\\,677\\) W</p>",
+        "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "jod-131 i mjölk efter Tjernobyl",
+    "poang": "(0/1/0)",
+    "t": "<p>Mjölk innehöll I-131 (\\(T_{1/2}=8{,}04\\) dygn) med aktiviteten 2 900 Bq/liter. Gränsvärdet är 2 000 Bq/liter. Efter hur lång tid är mjölken under gränsvärdet?</p>",
+    "s": "<p>\\(t=8{,}04\\cdot\\dfrac{\\ln(2\\,900/2\\,000)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) dygn</p>",
+    "id": "9.361",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.309865317931285,
+    "tolerans": 0.0646,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "dygn",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "9.256",
     "kap": 9,
     "omr": "stralning_materia",
@@ -126978,6 +128269,1148 @@ window.BANK = [
     "familjTidigare": [
       "Joniserande strålning och strålskydd"
     ]
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "typ": "energi ur absorberad dos",
+    "poang": "(1/0/0)",
+    "t": "<p>En person (75,0 kg) får den absorberade dosen 0,25 Gy över hela kroppen. Hur mycket energi absorberas?</p>",
+    "s": "<p>\\(E=Dm=0{,}25\\cdot75{,}0\\).</p><p><strong>Svar:</strong> \\(19\\) J</p>",
+    "id": "9.362",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absorberad dos (Gy)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.75,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "J",
+    "familjNyckel": "straldoser__absorberad_dos_gy",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "temperaturökning i bestrålad tumör",
+    "poang": "(0/1/0)",
+    "t": "<p>En tumör får den absorberade dosen 2,00 Gy. Anta att den har samma specifika värmekapacitet som vatten, 4,18 kJ/(kg·K). Hur många kelvin stiger temperaturen?</p>",
+    "s": "<p>2,00 Gy = 2,00 J/kg. \\(\\Delta T=\\dfrac{2{,}00}{4\\,180}\\).</p><p><strong>Svar:</strong> \\(0{,}000478\\) K</p>",
+    "id": "9.363",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absorberad dos (Gy)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0004784688995215311,
+    "tolerans": 7.18e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>1 Gy = 1 J/kg.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "K",
+    "familjNyckel": "straldoser__absorberad_dos_gy",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "tevatten i röntgenmaskin",
+    "poang": "(0/1/0)",
+    "t": "<p>En röntgenmaskin ger dosraten 1,0 Gy/s. Hur många timmar tar det att värma vatten från 12 °C till 90 °C på detta sätt? Bortse från värmeförluster. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p>",
+    "s": "<p>Per kg krävs \\(4\\,180\\cdot78\\) J, alltså \\(326\\,000\\) Gy. \\(t=326\\,000\\) s.</p><p><strong>Svar:</strong> \\(91\\) h</p>",
+    "id": "9.364",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Dosrat, avstånd och strålskydd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 90.56666666666666,
+    "tolerans": 1.36,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>1 Gy = 1 J/kg.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "h",
+    "familjNyckel": "straldoser__dosrat_avstand_och_stralskydd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "bestrålning av livsmedel",
+    "poang": "(1/1/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En gurka (0,30 kg) ska få den absorberade dosen 2 000 Gy med röntgenfotoner som har energin 100 keV.</p><ol type=\"a\"><li>Hur många fotoner måste gurkan absorbera?</li><li>Hur många kelvin stiger gurkans temperatur, om den har vattnets specifika värmekapacitet 4,18 kJ/(kg·K)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=2\\,000\\cdot0{,}30=600\\) J. \\(n=\\dfrac{600}{100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\cdot10^{16}\\)</p></li><li><p>\\(\\Delta T=\\dfrac{2\\,000}{4\\,180}\\).</p><p><strong>Svar:</strong> \\(0{,}48\\) K</p></li></ol>",
+    "id": "9.365",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absorberad dos (Gy)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.745318352059925e+16,
+      0.4784688995215311
+    ],
+    "tolerans": [
+      562000000000000.0,
+      0.00718
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "K"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En gurka (0,30 kg) ska få den absorberade dosen 2 000 Gy med röntgenfotoner som har energin 100 keV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många fotoner måste gurkan absorbera?",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En gurka (0,30 kg) ska få den absorberade dosen 2 000 Gy med röntgenfotoner som har energin 100 keV.</p><p>Hur många fotoner måste gurkan absorbera?</p>",
+        "s": "<p>\\(E=2\\,000\\cdot0{,}30=600\\) J. \\(n=\\dfrac{600}{100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\cdot10^{16}\\)</p>",
+        "ledtrad": "<p>Bestäm den totala energin först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många kelvin stiger gurkans temperatur, om den har vattnets specifika värmekapacitet 4,18 kJ/(kg·K)?",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En gurka (0,30 kg) ska få den absorberade dosen 2 000 Gy med röntgenfotoner som har energin 100 keV.</p><p>Hur många kelvin stiger gurkans temperatur, om den har vattnets specifika värmekapacitet 4,18 kJ/(kg·K)?</p>",
+        "s": "<p>\\(\\Delta T=\\dfrac{2\\,000}{4\\,180}\\).</p><p><strong>Svar:</strong> \\(0{,}48\\) K</p>",
+        "ledtrad": "<p>1 Gy = 1 J/kg.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straldoser__absorberad_dos_gy",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "protonterapi",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>\\(1{,}16\\cdot10^{12}\\) protoner med energin 950 keV absorberas av en tumör med massan 3,82 g. Kvalitetsfaktorn är 3,0. Bestäm den ekvivalenta dosen.</p>",
+    "s": "<p>\\(E=1{,}16\\cdot10^{12}\\cdot950\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\), \\(D=\\dfrac{E}{0{,}00382}\\), \\(H=3{,}0D\\).</p><p><strong>Svar:</strong> \\(139\\) Sv</p>",
+    "id": "9.366",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 138.64429319371726,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Sv",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "A",
+    "typ": "radon i lungorna",
+    "poang": "(0/1/2)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Radon i lungorna ger en ekvivalent dos på 1,0 mSv per år räknat på hela kroppen (75 kg). Rn-222 (222 u, \\(T_{1/2}=3{,}8\\) dygn) är en alfastrålare (kvalitetsfaktor 20) med sönderfallsenergin 5,59 MeV. Uppskatta massan radon i lungorna, om mängden är konstant.</p>",
+    "s": "<p>\\(D=\\dfrac{1{,}0\\cdot10^{-3}}{20}\\) Gy, \\(E=75D\\) per år. Sönderfall per sekund: \\(A=\\dfrac{E}{5{,}59\\,\\text{MeV}\\cdot3{,}156\\cdot10^7}\\). \\(N=\\dfrac{A\\cdot3{,}8\\cdot86\\,400}{\\ln2}\\), \\(m=N\\cdot222\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\cdot10^{-17}\\) kg</p>",
+    "id": "9.367",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.316950275649222e-17,
+    "tolerans": 5.1e-19,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna ut aktiviteten först.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "kg",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "svald koboltkälla",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En person (65 kg) sväljer en Co-57-källa med aktiviteten 57,4 kBq. Varje sönderfall ger en gammafoton med energin 122 keV, och 50 % av fotonerna absorberas i kroppen. Bestäm den absorberade dosen under första dygnet. Aktiviteten kan räknas som konstant.</p>",
+    "s": "<p>\\(E=57{,}4\\cdot10^3\\cdot86\\,400\\cdot0{,}50\\cdot122\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\), \\(D=\\dfrac{E}{65}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\cdot10^{-7}\\) Gy</p>",
+    "id": "9.368",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absorberad dos (Gy)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.455978121846154e-07,
+    "tolerans": 1.12e-08,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många sönderfall sker under ett dygn?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Gy",
+    "familjNyckel": "straldoser__absorberad_dos_gy",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "bestrålning av kött",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>5,0 kg frystorkat kött ska få den absorberade dosen 4,5 kGy med betapartiklar som har energin 1,6 MeV. Hur många betapartiklar krävs?</p>",
+    "s": "<p>\\(E=4\\,500\\cdot5{,}0\\) J. \\(n=\\dfrac{E}{1{,}6\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(8{,}8\\cdot10^{16}\\) </p>",
+    "id": "9.369",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absorberad dos (Gy)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.77808988764045e+16,
+    "tolerans": 1320000000000000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den totala energin först.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straldoser__absorberad_dos_gy",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "A",
+    "typ": "inopererad fosfor-32-källa",
+    "poang": "(0/1/2)",
+    "t": "<p>En P-32-källa (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 59,2 MBq opereras in vid en tumör, som behöver den absorberade dosen 32 Gy. Aktiviteten 37 MBq ger dosraten 10 mGy/min. Hur många dygn tar behandlingen?</p>",
+    "s": "<p>Dos per sönderfall: \\(\\dfrac{0{,}010}{60\\cdot37\\cdot10^6}\\) Gy. Antal sönderfall som behövs: \\(\\dfrac{32}{4{,}5\\cdot10^{-12}}=7{,}1\\cdot10^{12}\\). \\(N_0=\\dfrac{A_0}{\\lambda}=1{,}06\\cdot10^{14}\\). \\(N_0\\left(1-2^{-t/14{,}3}\\right)=7{,}1\\cdot10^{12}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) dygn</p>",
+    "id": "9.370",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Dosrat, avstånd och strålskydd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4378505229097371,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur stor dos ger varje sönderfall?</p>",
+    "traningsniva": 5,
+    "svarEnhet": "dygn",
+    "familjNyckel": "straldoser__dosrat_avstand_och_stralskydd",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "protoner i tumör",
+    "poang": "(1/1/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,20 kg) bestrålas med protoner (energi 1,2 MeV, kvalitetsfaktor 1) och får den ekvivalenta dosen 10 mSv.</p><ol type=\"a\"><li>Bestäm den absorberade dosen.</li><li>Hur många protoner absorberades?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(D=\\dfrac{H}{Q}\\).</p><p><strong>Svar:</strong> \\(0{,}010\\) Gy</p></li><li><p>\\(E=0{,}010\\cdot0{,}20\\), \\(n=\\dfrac{E}{1{,}2\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{10}\\)</p></li></ol>",
+    "id": "9.371",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.01,
+      10403662089.055347
+    ],
+    "tolerans": [
+      0.00051,
+      510000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Gy",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,20 kg) bestrålas med protoner (energi 1,2 MeV, kvalitetsfaktor 1) och får den ekvivalenta dosen 10 mSv.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den absorberade dosen.",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,20 kg) bestrålas med protoner (energi 1,2 MeV, kvalitetsfaktor 1) och får den ekvivalenta dosen 10 mSv.</p><p>Bestäm den absorberade dosen.</p>",
+        "s": "<p>\\(D=\\dfrac{H}{Q}\\).</p><p><strong>Svar:</strong> \\(0{,}010\\) Gy</p>",
+        "ledtrad": "<p>\\(H=QD\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många protoner absorberades?",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,20 kg) bestrålas med protoner (energi 1,2 MeV, kvalitetsfaktor 1) och får den ekvivalenta dosen 10 mSv.</p>Den absorberade dosen är 10 mGy.<p>Hur många protoner absorberades?</p>",
+        "s": "<p>\\(E=0{,}010\\cdot0{,}20\\), \\(n=\\dfrac{E}{1{,}2\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{10}\\)</p>",
+        "ledtrad": "<p>Bestäm energin först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "typ": "dos per röntgenundersökning",
+    "poang": "(1/0/0)",
+    "t": "<p>En sjukhusfysiker arbetar 5 dagar i veckan i 50 veckor per år och gör i snitt 8 röntgenundersökningar per dag. Den ekvivalenta dosen blir 50 mSv per år. Hur stor ekvivalent dos får fysikern per undersökning?</p>",
+    "s": "<p>\\(\\dfrac{50}{5\\cdot50\\cdot8}\\) mSv.</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{-5}\\) Sv</p>",
+    "id": "9.372",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5e-05,
+    "tolerans": 5.1e-07,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många undersökningar per år?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Sv",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "A",
+    "typ": "fosfor-32 som läkemedel",
+    "poang": "(1/2/1)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett läkemedel innehåller P-32 (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 1,31 MBq från början. Betapartiklarna har medelenergin 700 keV.</p><ol type=\"a\"><li>Hur många betapartiklar sänds ut under de första 10 dygnen?</li><li>Hur mycket energi avges under dessa 10 dygn?</li><li>Energin tas upp av 100 g vävnad. Bestäm den absorberade dosen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N_0=\\dfrac{A_0}{\\lambda}\\), \\(\\Delta N=N_0\\left(1-\\left(\\tfrac12\\right)^{10/14{,}3}\\right)\\).</p><p><strong>Svar:</strong> \\(8{,}97\\cdot10^{11}\\)</p></li><li><p>\\(E=\\Delta N\\cdot700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(0{,}101\\) J</p></li><li><p>\\(D=\\dfrac{E}{0{,}100}\\).</p><p><strong>Svar:</strong> \\(1{,}01\\) Gy</p></li></ol>",
+    "id": "9.373",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absorberad dos (Gy)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      896960042699.62,
+      0.10058509918833539,
+      1.0058509918833538
+    ],
+    "tolerans": [
+      13500000000.0,
+      0.00151,
+      0.0151
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "J",
+      "Gy"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett läkemedel innehåller P-32 (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 1,31 MBq från början. Betapartiklarna har medelenergin 700 keV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många betapartiklar sänds ut under de första 10 dygnen?",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett läkemedel innehåller P-32 (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 1,31 MBq från början. Betapartiklarna har medelenergin 700 keV.</p><p>Hur många betapartiklar sänds ut under de första 10 dygnen?</p>",
+        "s": "<p>\\(N_0=\\dfrac{A_0}{\\lambda}\\), \\(\\Delta N=N_0\\left(1-\\left(\\tfrac12\\right)^{10/14{,}3}\\right)\\).</p><p><strong>Svar:</strong> \\(8{,}97\\cdot10^{11}\\)</p>",
+        "ledtrad": "<p>Antal sönderfall = minskningen av antalet kärnor.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi avges under dessa 10 dygn?",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett läkemedel innehåller P-32 (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 1,31 MBq från början. Betapartiklarna har medelenergin 700 keV.</p>\\(8{,}97\\cdot10^{11}\\) betapartiklar sänds ut.<p>Hur mycket energi avges under dessa 10 dygn?</p>",
+        "s": "<p>\\(E=\\Delta N\\cdot700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(0{,}101\\) J</p>",
+        "ledtrad": "<p>Energi per sönderfall gånger antal.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Energin tas upp av 100 g vävnad. Bestäm den absorberade dosen.",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett läkemedel innehåller P-32 (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 1,31 MBq från början. Betapartiklarna har medelenergin 700 keV.</p>Energin är 0,101 J.<p>Energin tas upp av 100 g vävnad. Bestäm den absorberade dosen.</p>",
+        "s": "<p>\\(D=\\dfrac{E}{0{,}100}\\).</p><p><strong>Svar:</strong> \\(1{,}01\\) Gy</p>",
+        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "straldoser__absorberad_dos_gy",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "A",
+    "typ": "dosrat och avstånd",
+    "poang": "(1/1/1)",
+    "t": "<p>En gammakälla ger dosraten 1,00 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><ol type=\"a\"><li>Hur länge kan man stå där innan den ekvivalenta dosen blir 10 mSv?</li><li>Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,100 mGy/h?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{10}{1{,}00}\\) h.</p><p><strong>Svar:</strong> \\(10\\) h</p></li><li><p>Dosraten avtar med \\(\\dfrac1{r^2}\\): \\(r=1{,}0\\cdot\\sqrt{10}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m</p></li></ol>",
+    "id": "9.374",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Dosrat, avstånd och strålskydd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      3.1622776601683795
+    ],
+    "tolerans": [
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "h",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En gammakälla ger dosraten 1,00 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur länge kan man stå där innan den ekvivalenta dosen blir 10 mSv?",
+        "t": "<p>En gammakälla ger dosraten 1,00 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><p>Hur länge kan man stå där innan den ekvivalenta dosen blir 10 mSv?</p>",
+        "s": "<p>\\(\\dfrac{10}{1{,}00}\\) h.</p><p><strong>Svar:</strong> \\(10\\) h</p>",
+        "ledtrad": "<p>\\(H=QD\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,100 mGy/h?",
+        "t": "<p>En gammakälla ger dosraten 1,00 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><p>Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,100 mGy/h?</p>",
+        "s": "<p>Dosraten avtar med \\(\\dfrac1{r^2}\\): \\(r=1{,}0\\cdot\\sqrt{10}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m</p>",
+        "ledtrad": "<p>Intensiteten avtar med kvadraten på avståndet.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dosraten är omvänt proportionell mot \\(r^2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straldoser__dosrat_avstand_och_stralskydd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "inandat plutonium",
+    "poang": "(0/2/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En arbetare andas in Pu-239 (239,05 u, \\(T_{1/2}=24\\,100\\) år) med aktiviteten 37 kBq. Den bestrålade delen av lungorna har massan 2,0 kg. Pu-239 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 5,23 MeV.</p><ol type=\"a\"><li>Vilken massa plutonium andades in?</li><li>Hur stor ekvivalent dos per år får lungorna?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{A\\cdot24\\,100\\cdot3{,}156\\cdot10^7}{\\ln2}\\), \\(m=N\\cdot239{,}05\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{-8}\\) kg</p></li><li><p>\\(E=37\\cdot10^3\\cdot3{,}156\\cdot10^7\\cdot5{,}23\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\), \\(H=20\\cdot\\dfrac{E}{2{,}0}\\).</p><p><strong>Svar:</strong> \\(9{,}8\\) Sv</p></li></ol>",
+    "id": "9.375",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.611479928660893e-08,
+      9.782951303952
+    ],
+    "tolerans": [
+      5.1e-10,
+      0.147
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "Sv"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En arbetare andas in Pu-239 (239,05 u, \\(T_{1/2}=24\\,100\\) år) med aktiviteten 37 kBq. Den bestrålade delen av lungorna har massan 2,0 kg. Pu-239 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 5,23 MeV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken massa plutonium andades in?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En arbetare andas in Pu-239 (239,05 u, \\(T_{1/2}=24\\,100\\) år) med aktiviteten 37 kBq. Den bestrålade delen av lungorna har massan 2,0 kg. Pu-239 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 5,23 MeV.</p><p>Vilken massa plutonium andades in?</p>",
+        "s": "<p>\\(N=\\dfrac{A\\cdot24\\,100\\cdot3{,}156\\cdot10^7}{\\ln2}\\), \\(m=N\\cdot239{,}05\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{-8}\\) kg</p>",
+        "ledtrad": "<p>Bestäm antalet kärnor.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor ekvivalent dos per år får lungorna?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En arbetare andas in Pu-239 (239,05 u, \\(T_{1/2}=24\\,100\\) år) med aktiviteten 37 kBq. Den bestrålade delen av lungorna har massan 2,0 kg. Pu-239 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 5,23 MeV.</p><p>Hur stor ekvivalent dos per år får lungorna?</p>",
+        "s": "<p>\\(E=37\\cdot10^3\\cdot3{,}156\\cdot10^7\\cdot5{,}23\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\), \\(H=20\\cdot\\dfrac{E}{2{,}0}\\).</p><p><strong>Svar:</strong> \\(9{,}8\\) Sv</p>",
+        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "tunga joner i strålterapi",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En stråle av kvävekärnor (energi 168 MeV, kvalitetsfaktor 20) riktas mot en tumör (0,200 kg), som får den ekvivalenta dosen 2,00 Sv. Hur många kvävekärnor absorberades?</p>",
+    "s": "<p>\\(D=\\dfrac{2{,}00}{20}\\) Gy, \\(E=0{,}200D\\), \\(n=\\dfrac{E}{168\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(7{,}43\\cdot10^{8}\\) </p>",
+    "id": "9.376",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 743118720.6468105,
+    "tolerans": 11100000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "lungröntgen",
+    "poang": "(0/1/0)",
+    "t": "<p>Vid en lungröntgen har strålningen intensiteten 1,50 W/m² över arean 7,5 dm² i 250 ms. Den träffade kroppsdelen väger 20,0 kg och absorberar 35 % av strålningen. Röntgenstrålning har kvalitetsfaktorn 1. Bestäm den ekvivalenta dosen.</p>",
+    "s": "<p>\\(E=1{,}50\\cdot0{,}075\\cdot0{,}250\\cdot0{,}35\\), \\(H=\\dfrac{E}{20{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}00049\\) Sv</p>",
+    "id": "9.377",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0004921874999999999,
+    "tolerans": 7.38e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Energi = intensitet · area · tid.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Sv",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "koboltkanon",
+    "poang": "(0/2/0)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En patient bestrålas i 32,0 s med en Co-60-källa (59,93 u, \\(T_{1/2}=5{,}27\\) år) med aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. Den riktade strålen innehåller 1,00 % av fotonerna, och 20,0 % av dem absorberas i tumören (1,50 kg). Gammastrålning har kvalitetsfaktorn 1.</p><ol type=\"a\"><li>Hur stor massa Co-60 finns i källan?</li><li>Bestäm tumörens ekvivalenta dos.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{A\\cdot5{,}27\\cdot3{,}156\\cdot10^7}{\\ln2}\\), \\(m=N\\cdot59{,}93\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(4{,}42\\cdot10^{-6}\\) kg</p></li><li><p>Fotoner i tumören: \\(185\\cdot10^9\\cdot32{,}0\\cdot0{,}0100\\cdot0{,}200\\). \\(E=n\\cdot1{,}25\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\), \\(H=\\dfrac{E}{1{,}50}\\).</p><p><strong>Svar:</strong> \\(0{,}00158\\) Sv</p></li></ol>",
+    "id": "9.378",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.417168915484888e-06,
+      0.0015806400000000001
+    ],
+    "tolerans": [
+      6.63e-08,
+      2.37e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "Sv"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En patient bestrålas i 32,0 s med en Co-60-källa (59,93 u, \\(T_{1/2}=5{,}27\\) år) med aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. Den riktade strålen innehåller 1,00 % av fotonerna, och 20,0 % av dem absorberas i tumören (1,50 kg). Gammastrålning har kvalitetsfaktorn 1.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor massa Co-60 finns i källan?",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En patient bestrålas i 32,0 s med en Co-60-källa (59,93 u, \\(T_{1/2}=5{,}27\\) år) med aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. Den riktade strålen innehåller 1,00 % av fotonerna, och 20,0 % av dem absorberas i tumören (1,50 kg). Gammastrålning har kvalitetsfaktorn 1.</p><p>Hur stor massa Co-60 finns i källan?</p>",
+        "s": "<p>\\(N=\\dfrac{A\\cdot5{,}27\\cdot3{,}156\\cdot10^7}{\\ln2}\\), \\(m=N\\cdot59{,}93\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(4{,}42\\cdot10^{-6}\\) kg</p>",
+        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm tumörens ekvivalenta dos.",
+        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En patient bestrålas i 32,0 s med en Co-60-källa (59,93 u, \\(T_{1/2}=5{,}27\\) år) med aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. Den riktade strålen innehåller 1,00 % av fotonerna, och 20,0 % av dem absorberas i tumören (1,50 kg). Gammastrålning har kvalitetsfaktorn 1.</p><p>Bestäm tumörens ekvivalenta dos.</p>",
+        "s": "<p>Fotoner i tumören: \\(185\\cdot10^9\\cdot32{,}0\\cdot0{,}0100\\cdot0{,}200\\). \\(E=n\\cdot1{,}25\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\), \\(H=\\dfrac{E}{1{,}50}\\).</p><p><strong>Svar:</strong> \\(0{,}00158\\) Sv</p>",
+        "ledtrad": "<p>Hur många fotoner absorberas av tumören?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "inandat zink-65",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En fysiker (75,0 kg) andas in Zn-65 med aktiviteten 1,85 MBq. Varje sönderfall ger en gammafoton på 0,550 MeV, och 40 % av strålningen absorberas i kroppen (kvalitetsfaktor 1). Bestäm den ekvivalenta dosen under första dygnet. Aktiviteten kan räknas som konstant.</p>",
+    "s": "<p>\\(E=1{,}85\\cdot10^6\\cdot86\\,400\\cdot0{,}40\\cdot0{,}550\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\), \\(H=\\dfrac{E}{75{,}0}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\cdot10^{-5}\\) Sv</p>",
+    "id": "9.379",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.51120128e-05,
+    "tolerans": 1.13e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många sönderfall sker under ett dygn?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Sv",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "typ": "två tumörer med samma dos",
+    "poang": "(2/0/0)",
+    "t": "<p>Två tumörer får samma absorberade dos. Den mindre (0,12 kg) absorberar 1,7 J.</p><ol type=\"a\"><li>Bestäm den absorberade dosen.</li><li>Hur mycket energi absorberar den andra tumören (0,15 kg)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(D=\\dfrac{1{,}7}{0{,}12}\\).</p><p><strong>Svar:</strong> \\(14\\) Gy</p></li><li><p>\\(E=14{,}2\\cdot0{,}15\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) J</p></li></ol>",
+    "id": "9.380",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absorberad dos (Gy)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14.166666666666666,
+      2.125
+    ],
+    "tolerans": [
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Gy",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två tumörer får samma absorberade dos. Den mindre (0,12 kg) absorberar 1,7 J.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den absorberade dosen.",
+        "t": "<p>Två tumörer får samma absorberade dos. Den mindre (0,12 kg) absorberar 1,7 J.</p><p>Bestäm den absorberade dosen.</p>",
+        "s": "<p>\\(D=\\dfrac{1{,}7}{0{,}12}\\).</p><p><strong>Svar:</strong> \\(14\\) Gy</p>",
+        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi absorberar den andra tumören (0,15 kg)?",
+        "t": "<p>Två tumörer får samma absorberade dos. Den mindre (0,12 kg) absorberar 1,7 J.</p>Den absorberade dosen är 14 Gy.<p>Hur mycket energi absorberar den andra tumören (0,15 kg)?</p>",
+        "s": "<p>\\(E=14{,}2\\cdot0{,}15\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) J</p>",
+        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "straldoser__absorberad_dos_gy",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "massa ur kosmisk strålning",
+    "poang": "(0/1/0)",
+    "t": "<p>Kosmisk strålning (kvalitetsfaktor 10) ger en person den ekvivalenta dosen 0,24 mSv per år, och personen tar emot energin 1,9 mJ. Hur mycket väger personen?</p>",
+    "s": "<p>\\(D=\\dfrac{0{,}24\\cdot10^{-3}}{10}\\) Gy, \\(m=\\dfrac{1{,}9\\cdot10^{-3}}{D}\\).</p><p><strong>Svar:</strong> \\(79\\) kg</p>",
+    "id": "9.381",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 79.16666666666667,
+    "tolerans": 1.19,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "aktivitet ur absorberad dos",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (2,0 kg) bestrålas i 850 s och får den absorberade dosen 12 Gy. Varje sönderfall i strålkällan ger i genomsnitt 0,40 MeV, och all strålning absorberas i tumören. Bestäm källans aktivitet.</p>",
+    "s": "<p>\\(E=12\\cdot2{,}0=24\\) J. Antal sönderfall: \\(\\dfrac{24}{0{,}40\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\). \\(A=\\dfrac{n}{850}\\).</p><p><strong>Svar:</strong> \\(4{,}4\\cdot10^{11}\\) Bq</p>",
+    "id": "9.382",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Dosrat, avstånd och strålskydd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 440625688477.63824,
+    "tolerans": 6610000000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm antalet sönderfall först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Bq",
+    "familjNyckel": "straldoser__dosrat_avstand_och_stralskydd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "dos för att förånga is",
+    "poang": "(0/1/0)",
+    "t": "<p>Hur stor absorberad dos krävs för att is vid 0 °C ska bli vattenånga vid 100 °C? Smältvärme 334 kJ/kg, vattnets specifika värmekapacitet 4,18 kJ/(kg·K), ångbildningsvärme 2 260 kJ/kg.</p>",
+    "s": "<p>Per kg: \\(334+4{,}18\\cdot100+2\\,260\\) kJ. 1 Gy = 1 J/kg.</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{6}\\) Gy</p>",
+    "id": "9.383",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absorberad dos (Gy)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3012000.0,
+    "tolerans": 51000.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Summera energin per kilogram.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Gy",
+    "familjNyckel": "straldoser__absorberad_dos_gy",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "A",
+    "typ": "radium i kroppen",
+    "poang": "(0/1/2)",
+    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En person (80,0 kg) får den ekvivalenta dosen 2,50 mSv per år från Ra-226 (226 u, \\(T_{1/2}=1\\,600\\) år) i kroppen. Ra-226 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 4,80 MeV. Vilken massa Ra-226 har personen i kroppen?</p>",
+    "s": "<p>\\(D=\\dfrac{2{,}50\\cdot10^{-3}}{20}\\), \\(E=80{,}0D\\) per år. \\(A=\\dfrac{E}{4{,}80\\,\\text{MeV}\\cdot3{,}156\\cdot10^7}\\), \\(N=\\dfrac{A}{\\lambda}\\), \\(m=N\\cdot226\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{-11}\\) kg</p>",
+    "id": "9.384",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.1265178861413318e-11,
+    "tolerans": 5.1e-13,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm aktiviteten först.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "kg",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "protonstråle mot tumör",
+    "poang": "(2/1/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,015 kg) behöver den ekvivalenta dosen 240 Sv. Protonerna har energin 4,0 MeV och kvalitetsfaktorn 14. Strålen ger \\(1{,}8\\cdot10^{10}\\) protoner per sekund.</p><ol type=\"a\"><li>Hur stor absorberad dos krävs?</li><li>Hur mycket energi krävs?</li><li>Hur länge måste tumören bestrålas?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(D=\\dfrac{240}{14}\\).</p><p><strong>Svar:</strong> \\(17\\) Gy</p></li><li><p>\\(E=17{,}1\\cdot0{,}015\\).</p><p><strong>Svar:</strong> \\(0{,}26\\) J</p></li><li><p>Effekt: \\(1{,}8\\cdot10^{10}\\cdot4{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\) W. \\(t=\\dfrac{E}{P}\\).</p><p><strong>Svar:</strong> \\(22\\) s</p></li></ol>",
+    "id": "9.385",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17.142857142857142,
+      0.2571428571428571,
+      22.293561619404315
+    ],
+    "tolerans": [
+      0.51,
+      0.0051,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Gy",
+      "J",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,015 kg) behöver den ekvivalenta dosen 240 Sv. Protonerna har energin 4,0 MeV och kvalitetsfaktorn 14. Strålen ger \\(1{,}8\\cdot10^{10}\\) protoner per sekund.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor absorberad dos krävs?",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,015 kg) behöver den ekvivalenta dosen 240 Sv. Protonerna har energin 4,0 MeV och kvalitetsfaktorn 14. Strålen ger \\(1{,}8\\cdot10^{10}\\) protoner per sekund.</p><p>Hur stor absorberad dos krävs?</p>",
+        "s": "<p>\\(D=\\dfrac{240}{14}\\).</p><p><strong>Svar:</strong> \\(17\\) Gy</p>",
+        "ledtrad": "<p>\\(H=QD\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi krävs?",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,015 kg) behöver den ekvivalenta dosen 240 Sv. Protonerna har energin 4,0 MeV och kvalitetsfaktorn 14. Strålen ger \\(1{,}8\\cdot10^{10}\\) protoner per sekund.</p>Den absorberade dosen är 17,1 Gy.<p>Hur mycket energi krävs?</p>",
+        "s": "<p>\\(E=17{,}1\\cdot0{,}015\\).</p><p><strong>Svar:</strong> \\(0{,}26\\) J</p>",
+        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur länge måste tumören bestrålas?",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,015 kg) behöver den ekvivalenta dosen 240 Sv. Protonerna har energin 4,0 MeV och kvalitetsfaktorn 14. Strålen ger \\(1{,}8\\cdot10^{10}\\) protoner per sekund.</p>Energin är 0,257 J.<p>Hur länge måste tumören bestrålas?</p>",
+        "s": "<p>Effekt: \\(1{,}8\\cdot10^{10}\\cdot4{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\) W. \\(t=\\dfrac{E}{P}\\).</p><p><strong>Svar:</strong> \\(22\\) s</p>",
+        "ledtrad": "<p>Energi per sekund från strålen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "oskyddad hantering av cesiumkälla",
+    "poang": "(0/2/0)",
+    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En Cs-137-källa med aktiviteten 45 MBq hanteras i 1,4 h av en arbetare (62 kg). Varje sönderfall ger en betapartikel på 190 keV och en gammafoton på 660 keV. Anta att all strålning absorberas och att kvalitetsfaktorn är 1.</p><ol type=\"a\"><li>Hur mycket energi avger källan per sekund?</li><li>Bestäm den ekvivalenta dosen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=45\\cdot10^6\\cdot850\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(6{,}1\\cdot10^{-6}\\) W</p></li><li><p>\\(E=P\\cdot1{,}4\\cdot3\\,600\\), \\(H=\\dfrac{E}{62}\\).</p><p><strong>Svar:</strong> \\(0{,}00050\\) Sv</p></li></ol>",
+    "id": "9.386",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.12765e-06,
+      0.0004981186451612903
+    ],
+    "tolerans": [
+      9.19e-08,
+      7.47e-06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "Sv"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En Cs-137-källa med aktiviteten 45 MBq hanteras i 1,4 h av en arbetare (62 kg). Varje sönderfall ger en betapartikel på 190 keV och en gammafoton på 660 keV. Anta att all strålning absorberas och att kvalitetsfaktorn är 1.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi avger källan per sekund?",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En Cs-137-källa med aktiviteten 45 MBq hanteras i 1,4 h av en arbetare (62 kg). Varje sönderfall ger en betapartikel på 190 keV och en gammafoton på 660 keV. Anta att all strålning absorberas och att kvalitetsfaktorn är 1.</p><p>Hur mycket energi avger källan per sekund?</p>",
+        "s": "<p>\\(P=45\\cdot10^6\\cdot850\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(6{,}1\\cdot10^{-6}\\) W</p>",
+        "ledtrad": "<p>Energi per sönderfall gånger aktivitet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm den ekvivalenta dosen.",
+        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En Cs-137-källa med aktiviteten 45 MBq hanteras i 1,4 h av en arbetare (62 kg). Varje sönderfall ger en betapartikel på 190 keV och en gammafoton på 660 keV. Anta att all strålning absorberas och att kvalitetsfaktorn är 1.</p>Källan avger \\(6{,}1\\cdot10^{-6}\\) W.<p>Bestäm den ekvivalenta dosen.</p>",
+        "s": "<p>\\(E=P\\cdot1{,}4\\cdot3\\,600\\), \\(H=\\dfrac{E}{62}\\).</p><p><strong>Svar:</strong> \\(0{,}00050\\) Sv</p>",
+        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "typ": "kalium-40 ger årsdos",
+    "poang": "(0/1/0)",
+    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>K-40 i kroppen har aktiviteten 4,9 kBq, och varje sönderfall frigör i genomsnitt 1,4 MeV som absorberas av kroppen (70 kg, kvalitetsfaktor 1). Bestäm den ekvivalenta dosen per år.</p>",
+    "s": "<p>\\(E=4\\,900\\cdot3{,}156\\cdot10^7\\cdot1{,}4\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\), \\(H=\\dfrac{E}{70}\\).</p><p><strong>Svar:</strong> \\(0{,}00050\\) Sv</p>",
+    "id": "9.387",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0004954416969599999,
+    "tolerans": 7.43e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Sv",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "9.260",

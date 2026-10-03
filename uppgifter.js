@@ -39546,6 +39546,2311 @@ window.BANK = [
     "typ": "låda uppför lutande plan med friktion"
   },
   {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "friktion vid olika dragkrafter",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En släde med massan 55 kg ligger på plant underlag. Friktionstalet är 0,15. Hur stor är friktionskraften när dragkraften är</p><ol type=\"a\"><li>70 N?</li><li>90 N?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Största friktionen är \\(0{,}15\\cdot55\\cdot9{,}82\\approx81\\) N. 70 N räcker inte, så släden står still och friktionen är lika stor som dragkraften.</p><p><strong>Svar:</strong> \\(70\\) N</p></li><li><p>Dragkraften är större än 81 N, så släden glider och friktionen är den största: \\(0{,}15\\cdot55\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(81\\) N</p></li></ol>",
+    "id": "4.516",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      70,
+      81.015
+    ],
+    "tolerans": [
+      1.05,
+      1.22
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En släde med massan 55 kg ligger på plant underlag. Friktionstalet är 0,15. Hur stor är friktionskraften när dragkraften är</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "70 N?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En släde med massan 55 kg ligger på plant underlag. Friktionstalet är 0,15. Hur stor är friktionskraften när dragkraften är</p><p>70 N?</p>",
+        "s": "<p>Största friktionen är \\(0{,}15\\cdot55\\cdot9{,}82\\approx81\\) N. 70 N räcker inte, så släden står still och friktionen är lika stor som dragkraften.</p><p><strong>Svar:</strong> \\(70\\) N</p>",
+        "ledtrad": "<p>Jämför med den största möjliga friktionen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "90 N?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En släde med massan 55 kg ligger på plant underlag. Friktionstalet är 0,15. Hur stor är friktionskraften när dragkraften är</p><p>90 N?</p>",
+        "s": "<p>Dragkraften är större än 81 N, så släden glider och friktionen är den största: \\(0{,}15\\cdot55\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(81\\) N</p>",
+        "ledtrad": "<p>Friktionen kan inte bli större än \\(\\mu F_N\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Friktionen är bara så stor som behövs, upp till \\(\\mu F_N\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "låda som skjuts",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Oskar skjuter en 43 kg tung låda med konstant fart på plant golv med kraften 210 N.</p><ol type=\"a\"><li>Beräkna friktionstalet.</li><li>Vilken acceleration får lådan om han i stället skjuter med 240 N?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\mu=\\dfrac{210}{43\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\)</p></li><li><p>\\(a=\\dfrac{240-210}{43}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) m/s²</p></li></ol>",
+    "id": "4.517",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4973239236489367,
+      0.6976744186046512
+    ],
+    "tolerans": [
+      0.00746,
+      0.0105
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Oskar skjuter en 43 kg tung låda med konstant fart på plant golv med kraften 210 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Oskar skjuter en 43 kg tung låda med konstant fart på plant golv med kraften 210 N.</p><p>Beräkna friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{210}{43\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\)</p>",
+        "ledtrad": "<p>Konstant fart: friktionen är lika stor som skjutkraften.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får lådan om han i stället skjuter med 240 N?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Oskar skjuter en 43 kg tung låda med konstant fart på plant golv med kraften 210 N.</p><p>Vilken acceleration får lådan om han i stället skjuter med 240 N?</p>",
+        "s": "<p>\\(a=\\dfrac{240-210}{43}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) m/s²</p>",
+        "ledtrad": "<p>Friktionen är fortfarande 210 N.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Newtons lagar med friktion.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "curlingstenens massa",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Friktionstalet mellan en curlingsten och isen är 0,0168. Det krävs en vågrät kraft på 3,21 N för att sätta stenen i rörelse. Bestäm stenens massa.</p>",
+    "s": "<p>\\(m=\\dfrac{F}{\\mu g}=\\dfrac{3{,}21}{0{,}0168\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(19{,}5\\) kg</p>",
+    "id": "4.518",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 19.45737561827175,
+    "tolerans": 0.292,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "dragkraft vid ändrade förutsättningar",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p><ol type=\"a\"><li>Hur stort är friktionstalet?</li><li>Vilken dragkraft krävs om lådans massa fördubblas?</li><li>Vilken dragkraft krävs om lådans kontaktyta mot marken fördubblas?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\mu=\\dfrac{300}{120\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}25\\)</p></li><li><p>Dubbel normalkraft ger dubbel friktion.</p><p><strong>Svar:</strong> \\(600\\) N</p></li><li><p>Friktionen beror inte på kontaktytans storlek.</p><p><strong>Svar:</strong> \\(300\\) N</p></li></ol>",
+    "id": "4.519",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2545824847250509,
+      600,
+      300
+    ],
+    "tolerans": [
+      0.0051,
+      9.0,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stort är friktionstalet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p><p>Hur stort är friktionstalet?</p>",
+        "s": "<p>\\(\\mu=\\dfrac{300}{120\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}25\\)</p>",
+        "ledtrad": "<p>Friktionen är lika stor som dragkraften.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken dragkraft krävs om lådans massa fördubblas?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p><p>Vilken dragkraft krävs om lådans massa fördubblas?</p>",
+        "s": "<p>Dubbel normalkraft ger dubbel friktion.</p><p><strong>Svar:</strong> \\(600\\) N</p>",
+        "ledtrad": "<p>\\(F_{fr}\\sim F_N\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken dragkraft krävs om lådans kontaktyta mot marken fördubblas?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p><p>Vilken dragkraft krävs om lådans kontaktyta mot marken fördubblas?</p>",
+        "s": "<p>Friktionen beror inte på kontaktytans storlek.</p><p><strong>Svar:</strong> \\(300\\) N</p>",
+        "ledtrad": "<p>Finns arean i formeln?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F_{fr}=\\mu F_N\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "flytta kylskåp",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett kylskåp har massan 91,0 kg och friktionstalet mot golvet är 0,60. Vilken är den minsta vågräta kraft som behövs för att flytta det?</p>",
+    "s": "<p>\\(F=\\mu mg=0{,}60\\cdot91{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(536\\) N</p>",
+    "id": "4.520",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 536.172,
+    "tolerans": 8.04,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "friktionstal för spis",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En spis med massan 65 kg börjar precis glida när man drar med 450 N. Beräkna friktionstalet.</p>",
+    "s": "<p>\\(\\mu=\\dfrac{450}{65\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) </p>",
+    "id": "4.521",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.7049976500078332,
+    "tolerans": 0.0106,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\mu=\\dfrac{F}{mg}\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "låda med potatis",
+    "poang": "(0/1/0)",
+    "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 3,4 kg dras med konstant fart med kraften 7,8 N. En säck potatis på 2,5 kg läggs i lådan. Vilken kraft krävs nu för konstant fart?</p>",
+    "s": "<p>Friktionen är proportionell mot massan: \\(7{,}8\\cdot\\dfrac{5{,}9}{3{,}4}\\).</p><p><strong>Svar:</strong> \\(14\\) N</p>",
+    "id": "4.522",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.53529411764706,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F_{fr}\\sim m\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "aluminiumkub på bord",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En aluminiumkub med sidan 25,0 cm dras med konstant fart på ett bord. Friktionstalet är 0,350 och aluminium har densiteten 2,70 g/cm³. Vilken kraft krävs?</p>",
+    "s": "<p>\\(m=2\\,700\\cdot0{,}250^3\\approx42{,}2\\) kg. \\(F=0{,}350\\cdot42{,}2\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(145\\) N</p>",
+    "id": "4.523",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 144.9984375,
+    "tolerans": 2.17,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm massan ur densiteten.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "kopparblock",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett rätblock av koppar (15 cm × 12,4 cm × 8,6 cm, densitet 8,96 g/cm³) dras med konstant fart med kraften 52 N. Bestäm friktionstalet.</p>",
+    "s": "<p>\\(m=8\\,960\\cdot0{,}15\\cdot0{,}124\\cdot0{,}086\\approx14{,}3\\) kg. \\(\\mu=\\dfrac{52}{14{,}3\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}37\\) </p>",
+    "id": "4.524",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3694642747099344,
+    "tolerans": 0.00554,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm massan ur densiteten.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "från grov till smord yta",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett järnblock (6,0 kg) dras med konstant fart över en yta med friktionstalet 0,42. Samma dragkraft används när blocket kommer in på en smord yta med friktionstalet 0,05. Vilken acceleration får blocket där?</p>",
+    "s": "<p>\\(F=0{,}42\\cdot6{,}0\\cdot9{,}82\\approx24{,}7\\) N. \\(a=\\dfrac{24{,}7-0{,}05\\cdot6{,}0\\cdot9{,}82}{6{,}0}\\).</p><p><strong>Svar:</strong> \\(3{,}6\\) m/s²</p>",
+    "id": "4.525",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.6334,
+    "tolerans": 0.0545,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm dragkraften först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "tre klossar med dynamometer",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p><ol type=\"a\"><li>Klossen med massan 1,97 kg kräver 9,2 N. Bestäm friktionstalet.</li><li>En kloss med massan 8,8 kg har friktionstalet 0,25. Vilken kraft krävs?</li><li>En kloss med friktionstalet 0,67 kräver 75 N. Vilken massa har den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\mu=\\dfrac{9{,}2}{1{,}97\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}48\\)</p></li><li><p>\\(F=0{,}25\\cdot8{,}8\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(22\\) N</p></li><li><p>\\(m=\\dfrac{75}{0{,}67\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(11\\) kg</p></li></ol>",
+    "id": "4.526",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.47556525065390215,
+      21.604000000000003,
+      11.399215733957503
+    ],
+    "tolerans": [
+      0.00713,
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "N",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Klossen med massan 1,97 kg kräver 9,2 N. Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p><p>Klossen med massan 1,97 kg kräver 9,2 N. Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{9{,}2}{1{,}97\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}48\\)</p>",
+        "ledtrad": "<p>\\(\\mu=\\dfrac F{mg}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kloss med massan 8,8 kg har friktionstalet 0,25. Vilken kraft krävs?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p><p>En kloss med massan 8,8 kg har friktionstalet 0,25. Vilken kraft krävs?</p>",
+        "s": "<p>\\(F=0{,}25\\cdot8{,}8\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(22\\) N</p>",
+        "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En kloss med friktionstalet 0,67 kräver 75 N. Vilken massa har den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p><p>En kloss med friktionstalet 0,67 kräver 75 N. Vilken massa har den?</p>",
+        "s": "<p>\\(m=\\dfrac{75}{0{,}67\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(11\\) kg</p>",
+        "ledtrad": "<p>\\(m=\\dfrac{F}{\\mu g}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Konstant fart: dragkraften är lika stor som friktionen.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "två personer skjuter en packlår",
+    "poang": "(3/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p><ol type=\"a\"><li>Hur stor är Oscars kraft?</li><li>Vilken acceleration får lådan när bara Pelle skjuter?</li><li>Vilken acceleration får lådan när båda skjuter åt samma håll?</li><li>De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=0{,}35\\cdot120\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(412\\) N</p></li><li><p>\\(a=\\dfrac{540-412}{120}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m/s²</p></li><li><p>\\(a=\\dfrac{540+412-412}{120}\\).</p><p><strong>Svar:</strong> \\(4{,}5\\) m/s²</p></li><li><p>Nettokraften \\(540-412=128\\) N är mindre än största friktionen, så lådan står still och friktionen är 128 N.</p><p><strong>Svar:</strong> \\(128\\) N</p></li></ol>",
+    "id": "4.527",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      412.44,
+      1.063,
+      4.5,
+      127.56
+    ],
+    "tolerans": [
+      6.19,
+      0.051,
+      0.0675,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²",
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är Oscars kraft?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p><p>Hur stor är Oscars kraft?</p>",
+        "s": "<p>\\(F=0{,}35\\cdot120\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(412\\) N</p>",
+        "ledtrad": "<p>Konstant fart.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får lådan när bara Pelle skjuter?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p>Friktionen vid glidning är 412 N.<p>Vilken acceleration får lådan när bara Pelle skjuter?</p>",
+        "s": "<p>\\(a=\\dfrac{540-412}{120}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m/s²</p>",
+        "ledtrad": "<p>Resultant = skjutkraft − friktion.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken acceleration får lådan när båda skjuter åt samma håll?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p>Oscar skjuter med 412 N.<p>Vilken acceleration får lådan när båda skjuter åt samma håll?</p>",
+        "s": "<p>\\(a=\\dfrac{540+412-412}{120}\\).</p><p><strong>Svar:</strong> \\(4{,}5\\) m/s²</p>",
+        "ledtrad": "<p>Lägg ihop krafterna.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p>Oscar skjuter med 412 N.<p>De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?</p>",
+        "s": "<p>Nettokraften \\(540-412=128\\) N är mindre än största friktionen, så lådan står still och friktionen är 128 N.</p><p><strong>Svar:</strong> \\(128\\) N</p>",
+        "ledtrad": "<p>Räcker nettokraften för att rubba lådan?</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionen är bara så stor som behövs, upp till \\(\\mu F_N\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "skidlift",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Anna-Lena (85 kg med skidor) dras av en lift på plan mark från vila med accelerationen 0,80 m/s². Friktionstalet mot snön är 0,070. Hur stor kraft verkar från liften?</p>",
+    "s": "<p>\\(F=ma+\\mu mg=85(0{,}80+0{,}070\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(126\\) N</p>",
+    "id": "4.528",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 126.429,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Liften ska både övervinna friktionen och ge accelerationen.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "skidåkare på plan mark",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kent (97 kg med skidor) kommer ut på plan mark med farten 52 km/h. Friktionstalet mellan skidor och snö är 0,090.</p><ol type=\"a\"><li>Bestäm retardationen.</li><li>Luftmotståndet är \\(0{,}25v^2\\) N. Bestäm retardationen med luftmotståndet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\mu g=0{,}090\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}88\\) m/s²</p></li><li><p>\\(v=14{,}4\\) m/s ger luftmotståndet \\(0{,}25\\cdot14{,}4^2\\approx52\\) N. \\(a=\\dfrac{85{,}7+52}{97}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) m/s²</p></li></ol>",
+    "id": "4.529",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8838,
+      1.4215370497645412
+    ],
+    "tolerans": [
+      0.0133,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kent (97 kg med skidor) kommer ut på plan mark med farten 52 km/h. Friktionstalet mellan skidor och snö är 0,090.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm retardationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kent (97 kg med skidor) kommer ut på plan mark med farten 52 km/h. Friktionstalet mellan skidor och snö är 0,090.</p><p>Bestäm retardationen.</p>",
+        "s": "<p>\\(a=\\mu g=0{,}090\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}88\\) m/s²</p>",
+        "ledtrad": "<p>Bara friktionen bromsar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Luftmotståndet är \\(0{,}25v^2\\) N. Bestäm retardationen med luftmotståndet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kent (97 kg med skidor) kommer ut på plan mark med farten 52 km/h. Friktionstalet mellan skidor och snö är 0,090.</p><p>Luftmotståndet är \\(0{,}25v^2\\) N. Bestäm retardationen med luftmotståndet.</p>",
+        "s": "<p>\\(v=14{,}4\\) m/s ger luftmotståndet \\(0{,}25\\cdot14{,}4^2\\approx52\\) N. \\(a=\\dfrac{85{,}7+52}{97}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) m/s²</p>",
+        "ledtrad": "<p>Lägg ihop de bromsande krafterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Retardationen beror inte på massan när bara friktion bromsar.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "konståkerska",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En konståkerska (51 kg) glider på en skridsko med retardationen 0,75 m/s².</p><ol type=\"a\"><li>Bestäm friktionskraften.</li><li>Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=ma=51\\cdot0{,}75\\).</p><p><strong>Svar:</strong> \\(38\\) N</p></li><li><p>\\(\\mu=\\dfrac{a}{g}=\\dfrac{0{,}75}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}076\\)</p></li></ol>",
+    "id": "4.530",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      38.25,
+      0.07637474541751527
+    ],
+    "tolerans": [
+      0.574,
+      0.00115
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En konståkerska (51 kg) glider på en skridsko med retardationen 0,75 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm friktionskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En konståkerska (51 kg) glider på en skridsko med retardationen 0,75 m/s².</p><p>Bestäm friktionskraften.</p>",
+        "s": "<p>\\(F=ma=51\\cdot0{,}75\\).</p><p><strong>Svar:</strong> \\(38\\) N</p>",
+        "ledtrad": "<p>Friktionen är den enda vågräta kraften.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En konståkerska (51 kg) glider på en skridsko med retardationen 0,75 m/s².</p><p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{a}{g}=\\dfrac{0{,}75}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}076\\)</p>",
+        "ledtrad": "<p>\\(\\mu mg=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Med två skridskor blir friktionen lika stor, eftersom varje skridsko bär halva tyngden.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "puck som glider",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En puck skjuts iväg med farten 22 m/s. Friktionstalet mot isen är 0,085. Hur långt glider den?</p>",
+    "s": "<p>\\(a=\\mu g\\), \\(s=\\dfrac{v^2}{2\\mu g}=\\dfrac{22^2}{2\\cdot0{,}085\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(290\\) m</p>",
+    "id": "4.531",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 289.9245237809991,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm retardationen och använd \\(v^2=2as\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "curlingstenens utgångsfart",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En curlingsten glider 36,21 m innan den stannar. Friktionstalet är 0,13. Bestäm utgångsfarten.</p>",
+    "s": "<p>\\(v_0=\\sqrt{2\\mu gs}=\\sqrt{2\\cdot0{,}13\\cdot9{,}82\\cdot36{,}21}\\).</p><p><strong>Svar:</strong> \\(9{,}6\\) m/s</p>",
+    "id": "4.532",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.615163649153352,
+    "tolerans": 0.144,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v_0^2=2as\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "friktionstal ur glidsträcka",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En puck skjuts iväg med 20,0 m/s och stannar efter 112 m. Bestäm friktionstalet.</p>",
+    "s": "<p>\\(\\mu=\\dfrac{v^2}{2gs}=\\dfrac{20{,}0^2}{2\\cdot9{,}82\\cdot112}\\).</p><p><strong>Svar:</strong> \\(0{,}18\\) </p>",
+    "id": "4.533",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.1818446319464649,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2=2\\mu gs\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "häst drar släde",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En häst drar en släde med massan 3 000 kg från vila med den konstanta kraften 7,0 kN. Friktionstalet är 0,22.</p><ol type=\"a\"><li>Hur lång tid tar det att flytta släden 25 m?</li><li>Vilken fart har släden då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{7\\,000-0{,}22\\cdot3\\,000\\cdot9{,}82}{3\\,000}\\approx0{,}17\\) m/s². \\(t=\\sqrt{\\dfrac{2s}{a}}\\).</p><p><strong>Svar:</strong> \\(17\\) s</p></li><li><p>\\(v=at\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) m/s</p></li></ol>",
+    "id": "4.534",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17.003786598104043,
+      2.940521495698793
+    ],
+    "tolerans": [
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En häst drar en släde med massan 3 000 kg från vila med den konstanta kraften 7,0 kN. Friktionstalet är 0,22.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det att flytta släden 25 m?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En häst drar en släde med massan 3 000 kg från vila med den konstanta kraften 7,0 kN. Friktionstalet är 0,22.</p><p>Hur lång tid tar det att flytta släden 25 m?</p>",
+        "s": "<p>\\(a=\\dfrac{7\\,000-0{,}22\\cdot3\\,000\\cdot9{,}82}{3\\,000}\\approx0{,}17\\) m/s². \\(t=\\sqrt{\\dfrac{2s}{a}}\\).</p><p><strong>Svar:</strong> \\(17\\) s</p>",
+        "ledtrad": "<p>Bestäm accelerationen först.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har släden då?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En häst drar en släde med massan 3 000 kg från vila med den konstanta kraften 7,0 kN. Friktionstalet är 0,22.</p>Accelerationen är 0,173 m/s².<p>Vilken fart har släden då?</p>",
+        "s": "<p>\\(v=at\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) m/s</p>",
+        "ledtrad": "<p>\\(v=at\\) eller \\(v^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Newtons andra lag och konstant acceleration.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "raketsläde",
+    "poang": "(1/3/1)",
+    "t": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p><ol type=\"a\"><li>Vilken fart har släden efter 3,00 s?</li><li>Hur lång tid tar det sedan innan släden stannar?</li><li>Hur lång måste rälsen minst vara?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{39\\,600-790}{2\\,910}\\approx13{,}3\\) m/s². \\(v=3{,}00a\\).</p><p><strong>Svar:</strong> \\(40{,}0\\) m/s</p></li><li><p>Retardation: \\(\\dfrac{790}{2\\,910}\\approx0{,}271\\) m/s². \\(t=\\dfrac{40{,}0}{0{,}271}\\).</p><p><strong>Svar:</strong> \\(147\\) s</p></li><li><p>\\(s=\\dfrac{13{,}3\\cdot3{,}00^2}{2}+\\dfrac{40{,}0^2}{2\\cdot0{,}271}\\).</p><p><strong>Svar:</strong> \\(3\\,008\\) m</p></li></ol>",
+    "id": "4.535",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40.01030927835052,
+      147.37974683544306,
+      3008.3700900430645
+    ],
+    "tolerans": [
+      0.6,
+      2.21,
+      45.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har släden efter 3,00 s?",
+        "t": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p><p>Vilken fart har släden efter 3,00 s?</p>",
+        "s": "<p>\\(a=\\dfrac{39\\,600-790}{2\\,910}\\approx13{,}3\\) m/s². \\(v=3{,}00a\\).</p><p><strong>Svar:</strong> \\(40{,}0\\) m/s</p>",
+        "ledtrad": "<p>Newtons andra lag.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det sedan innan släden stannar?",
+        "t": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p>Farten efter 3,00 s är 40,0 m/s.<p>Hur lång tid tar det sedan innan släden stannar?</p>",
+        "s": "<p>Retardation: \\(\\dfrac{790}{2\\,910}\\approx0{,}271\\) m/s². \\(t=\\dfrac{40{,}0}{0{,}271}\\).</p><p><strong>Svar:</strong> \\(147\\) s</p>",
+        "ledtrad": "<p>Bara friktionen bromsar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång måste rälsen minst vara?",
+        "t": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p>Farten efter 3,00 s är 40,0 m/s.<p>Hur lång måste rälsen minst vara?</p>",
+        "s": "<p>\\(s=\\dfrac{13{,}3\\cdot3{,}00^2}{2}+\\dfrac{40{,}0^2}{2\\cdot0{,}271}\\).</p><p><strong>Svar:</strong> \\(3\\,008\\) m</p>",
+        "ledtrad": "<p>Räkna sträckan för båda faserna.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp rörelsen i två faser.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "pulka som glider ut",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En pulka med ett barn (sammanlagt 25,0 kg) kommer ut på plan mark med 4,0 m/s och stannar efter 15,0 m.</p><ol type=\"a\"><li>Bestäm retardationen.</li><li>Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{v^2}{2s}=\\dfrac{4{,}0^2}{2\\cdot15{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}53\\) m/s²</p></li><li><p>\\(\\mu=\\dfrac ag\\).</p><p><strong>Svar:</strong> \\(0{,}054\\)</p></li></ol>",
+    "id": "4.536",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5333333333333333,
+      0.05431093007467753
+    ],
+    "tolerans": [
+      0.008,
+      0.000815
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En pulka med ett barn (sammanlagt 25,0 kg) kommer ut på plan mark med 4,0 m/s och stannar efter 15,0 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm retardationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En pulka med ett barn (sammanlagt 25,0 kg) kommer ut på plan mark med 4,0 m/s och stannar efter 15,0 m.</p><p>Bestäm retardationen.</p>",
+        "s": "<p>\\(a=\\dfrac{v^2}{2s}=\\dfrac{4{,}0^2}{2\\cdot15{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}53\\) m/s²</p>",
+        "ledtrad": "<p>\\(v^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En pulka med ett barn (sammanlagt 25,0 kg) kommer ut på plan mark med 4,0 m/s och stannar efter 15,0 m.</p>Retardationen är 0,53 m/s².<p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac ag\\).</p><p><strong>Svar:</strong> \\(0{,}054\\)</p>",
+        "ledtrad": "<p>\\(\\mu mg=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Bromssträckan beror inte på massan.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "bromsspår",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p><ol type=\"a\"><li>Hur långa blir bromsspåren?</li><li>Hur långa blir de om farten är dubbelt så stor?</li><li>Hur långa blir de om friktionstalet halveras (vid 120 km/h)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=\\dfrac{v^2}{2\\mu g}=\\dfrac{33{,}3^2}{2\\cdot0{,}68\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(83\\) m</p></li><li><p>\\(s\\sim v^2\\): fyra gånger så långa.</p><p><strong>Svar:</strong> \\(333\\) m</p></li><li><p>\\(s\\sim\\dfrac1\\mu\\): dubbelt så långa.</p><p><strong>Svar:</strong> \\(166\\) m</p></li></ol>",
+    "id": "4.537",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      83.19689043302319,
+      332.78756173209274,
+      166.39378086604637
+    ],
+    "tolerans": [
+      1.25,
+      5.1,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långa blir bromsspåren?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p><p>Hur långa blir bromsspåren?</p>",
+        "s": "<p>\\(s=\\dfrac{v^2}{2\\mu g}=\\dfrac{33{,}3^2}{2\\cdot0{,}68\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(83\\) m</p>",
+        "ledtrad": "<p>Omvandla till m/s.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långa blir de om farten är dubbelt så stor?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p><p>Hur långa blir de om farten är dubbelt så stor?</p>",
+        "s": "<p>\\(s\\sim v^2\\): fyra gånger så långa.</p><p><strong>Svar:</strong> \\(333\\) m</p>",
+        "ledtrad": "<p>Hur beror \\(s\\) på \\(v\\)?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långa blir de om friktionstalet halveras (vid 120 km/h)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p><p>Hur långa blir de om friktionstalet halveras (vid 120 km/h)?</p>",
+        "s": "<p>\\(s\\sim\\dfrac1\\mu\\): dubbelt så långa.</p><p><strong>Svar:</strong> \\(166\\) m</p>",
+        "ledtrad": "<p>Hur beror \\(s\\) på \\(\\mu\\)?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(s=\\dfrac{v^2}{2\\mu g}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "fart ur bromsspår",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil lämnar 72,0 m långa bromsspår och står nästan still när den krockar. Friktionstalet är 0,80. Uppskatta farten innan inbromsningen i km/h.</p>",
+    "s": "<p>\\(v=\\sqrt{2\\mu gs}=\\sqrt{2\\cdot0{,}80\\cdot9{,}82\\cdot72{,}0}\\approx33{,}6\\) m/s, multiplicera med 3,6.</p><p><strong>Svar:</strong> \\(121\\) km/h</p>",
+    "id": "4.538",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 121.08336566184474,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2=2\\mu gs\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "km/h",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "dragracing",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En dragracingbil startar från vila och kör 1,00 km på 12 s med konstant acceleration. Det är friktionen mellan drivhjulen och vägen som driver bilen. Vilket friktionstal krävs minst?</p>",
+    "s": "<p>\\(a=\\dfrac{2s}{t^2}=\\dfrac{2\\,000}{144}\\approx13{,}9\\) m/s². \\(\\mu mg=ma\\iff\\mu=\\dfrac ag\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) </p>",
+    "id": "4.539",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.414347137361394,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Friktionen är den drivande kraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "motorcykel i sand",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En motorcykel rullar i friläge in i en 15 m lång sandig sträcka med farten 20,0 m/s. Friktionstalet i sanden är 0,70. Vilken fart har den när den lämnar sanden?</p>",
+    "s": "<p>\\(v^2=v_0^2-2\\mu gs=20{,}0^2-2\\cdot0{,}70\\cdot9{,}82\\cdot15\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p>",
+    "id": "4.540",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.920488497175665,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2=v_0^2+2as\\) med negativt \\(a\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "A",
+    "typ": "låda som skjuts och släpps",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (45 kg) på ett golv med friktionstalet 0,22 skjuts från vila med 145 N i 5,0 s och släpps sedan. Hur långt har lådan färdats totalt när den stannar?</p>",
+    "s": "<p>Fas 1: \\(a=\\dfrac{145-97{,}2}{45}\\approx1{,}06\\) m/s², \\(v\\approx5{,}3\\) m/s, \\(s_1\\approx13{,}3\\) m. Fas 2: \\(s_2=\\dfrac{v^2}{2\\mu g}\\approx6{,}5\\) m.</p><p><strong>Svar:</strong> \\(20\\) m</p>",
+    "id": "4.541",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 19.796259723279412,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp rörelsen i två faser.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "glida under en dörr",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>James Bond springer med 8,0 m/s, kastar sig ned 5,0 m före en dörr och glider under den. Han stannar 2,0 m bakom dörren. Bestäm friktionstalet mellan honom och golvet.</p>",
+    "s": "<p>Glidsträcka 7,0 m. \\(\\mu=\\dfrac{v^2}{2gs}=\\dfrac{8{,}0^2}{2\\cdot9{,}82\\cdot7{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}47\\) </p>",
+    "id": "4.542",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4655222577829502,
+    "tolerans": 0.00698,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur lång är glidsträckan?</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "kloss mot fjäder",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (350 g) trycks in 15 cm mot en fjäder och släpps på ett bord med friktionstalet 0,28. Klossen får då accelerationen 0,75 m/s².</p><ol type=\"a\"><li>Bestäm fjäderkonstanten.</li><li>Hur stor är hoptryckningen när accelerationen är noll?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(kx-\\mu mg=ma\\iff k=\\dfrac{0{,}350(0{,}75+0{,}28\\cdot9{,}82)}{0{,}15}\\).</p><p><strong>Svar:</strong> \\(8{,}2\\) N/m</p></li><li><p>\\(kx=\\mu mg\\iff x=\\dfrac{0{,}28\\cdot0{,}350\\cdot9{,}82}{8{,}17}\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) m</p></li></ol>",
+    "id": "4.543",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.165733333333334,
+      0.11785346896788206
+    ],
+    "tolerans": [
+      0.122,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (350 g) trycks in 15 cm mot en fjäder och släpps på ett bord med friktionstalet 0,28. Klossen får då accelerationen 0,75 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm fjäderkonstanten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (350 g) trycks in 15 cm mot en fjäder och släpps på ett bord med friktionstalet 0,28. Klossen får då accelerationen 0,75 m/s².</p><p>Bestäm fjäderkonstanten.</p>",
+        "s": "<p>\\(kx-\\mu mg=ma\\iff k=\\dfrac{0{,}350(0{,}75+0{,}28\\cdot9{,}82)}{0{,}15}\\).</p><p><strong>Svar:</strong> \\(8{,}2\\) N/m</p>",
+        "ledtrad": "<p>Resultant = fjäderkraft − friktion.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är hoptryckningen när accelerationen är noll?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (350 g) trycks in 15 cm mot en fjäder och släpps på ett bord med friktionstalet 0,28. Klossen får då accelerationen 0,75 m/s².</p>Fjäderkonstanten är 8,17 N/m.<p>Hur stor är hoptryckningen när accelerationen är noll?</p>",
+        "s": "<p>\\(kx=\\mu mg\\iff x=\\dfrac{0{,}28\\cdot0{,}350\\cdot9{,}82}{8{,}17}\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) m</p>",
+        "ledtrad": "<p>Fjäderkraften och friktionen är lika stora.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Newtons andra lag med fjäderkraft och friktion.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "friktionstal med fjäder",
+    "poang": "(0/1/0)",
+    "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss förlänger en fjäder (15 N/m) 4,5 cm när den hänger i den. Klossen dras sedan med fjädern med konstant fart över ett bord, och då är förlängningen 1,3 cm. Bestäm friktionstalet.</p>",
+    "s": "<p>\\(mg=15\\cdot0{,}045\\) och \\(F_{fr}=15\\cdot0{,}013\\). \\(\\mu=\\dfrac{0{,}013}{0{,}045}\\).</p><p><strong>Svar:</strong> \\(0{,}29\\) </p>",
+    "id": "4.544",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.28888888888888886,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kvoten mellan förlängningarna ger kvoten mellan krafterna.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "isblock med sned kraft",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><ol type=\"a\"><li>Hur stor är normalkraften när blocket ligger i vila utan yttre kraft?</li><li>Vilken acceleration får blocket?</li><li>Hur stor är normalkraften när han trycker snett nedåt?</li><li>Hur stor är normalkraften när han drar snett uppåt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N=mg=25{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(246\\) N</p></li><li><p>\\(a=\\dfrac{60{,}0\\cos25{,}0^\\circ}{25{,}0}\\), lika i båda fallen.</p><p><strong>Svar:</strong> \\(2{,}18\\) m/s²</p></li><li><p>\\(F_N=mg+60{,}0\\sin25{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(271\\) N</p></li><li><p>\\(F_N=mg-60{,}0\\sin25{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(220\\) N</p></li></ol>",
+    "id": "4.545",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      245.5,
+      2.17513868888796,
+      270.857095704442,
+      220.14290429555803
+    ],
+    "tolerans": [
+      3.68,
+      0.0326,
+      4.06,
+      3.3
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är normalkraften när blocket ligger i vila utan yttre kraft?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><p>Hur stor är normalkraften när blocket ligger i vila utan yttre kraft?</p>",
+        "s": "<p>\\(F_N=mg=25{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(246\\) N</p>",
+        "ledtrad": "<p>\\(F_N=mg\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får blocket?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><p>Vilken acceleration får blocket?</p>",
+        "s": "<p>\\(a=\\dfrac{60{,}0\\cos25{,}0^\\circ}{25{,}0}\\), lika i båda fallen.</p><p><strong>Svar:</strong> \\(2{,}18\\) m/s²</p>",
+        "ledtrad": "<p>Bara den vågräta komposanten accelererar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är normalkraften när han trycker snett nedåt?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><p>Hur stor är normalkraften när han trycker snett nedåt?</p>",
+        "s": "<p>\\(F_N=mg+60{,}0\\sin25{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(271\\) N</p>",
+        "ledtrad": "<p>Den lodräta komposanten trycker ned blocket.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor är normalkraften när han drar snett uppåt?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><p>Hur stor är normalkraften när han drar snett uppåt?</p>",
+        "s": "<p>\\(F_N=mg-60{,}0\\sin25{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(220\\) N</p>",
+        "ledtrad": "<p>Den lodräta komposanten lyfter blocket.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Dela upp kraften i komposanter.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "låda som dras snett uppåt",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Gösta drar en låda (310 kg) med kraften 400 N riktad 38° över vågrätt. Friktionskraften är 125 N.</p><ol type=\"a\"><li>Bestäm lådans acceleration.</li><li>Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{400\\cos38^\\circ-125}{310}\\).</p><p><strong>Svar:</strong> \\(0{,}61\\) m/s²</p></li><li><p>\\(F_N=310\\cdot9{,}82-400\\sin38^\\circ\\). \\(\\mu=\\dfrac{125}{F_N}\\).</p><p><strong>Svar:</strong> \\(0{,}045\\)</p></li></ol>",
+    "id": "4.546",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6135622627183508,
+      0.04467579900488826
+    ],
+    "tolerans": [
+      0.0092,
+      0.00067
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Gösta drar en låda (310 kg) med kraften 400 N riktad 38° över vågrätt. Friktionskraften är 125 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm lådans acceleration.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Gösta drar en låda (310 kg) med kraften 400 N riktad 38° över vågrätt. Friktionskraften är 125 N.</p><p>Bestäm lådans acceleration.</p>",
+        "s": "<p>\\(a=\\dfrac{400\\cos38^\\circ-125}{310}\\).</p><p><strong>Svar:</strong> \\(0{,}61\\) m/s²</p>",
+        "ledtrad": "<p>Använd den vågräta komposanten.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Gösta drar en låda (310 kg) med kraften 400 N riktad 38° över vågrätt. Friktionskraften är 125 N.</p><p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(F_N=310\\cdot9{,}82-400\\sin38^\\circ\\). \\(\\mu=\\dfrac{125}{F_N}\\).</p><p><strong>Svar:</strong> \\(0{,}045\\)</p>",
+        "ledtrad": "<p>Normalkraften är mindre än tyngden.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp kraften i komposanter.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "A",
+    "typ": "gräsklippare",
+    "poang": "(2/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p><ol type=\"a\"><li>Bestäm friktionskraften.</li><li>Bestäm normalkraften.</li><li>Vilken kraft (i samma riktning) ger farten 1,5 m/s från vila på 2,5 s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_{fr}=88\\cos45^\\circ\\).</p><p><strong>Svar:</strong> \\(62\\) N</p></li><li><p>\\(F_N=14{,}0\\cdot9{,}82+88\\sin45^\\circ\\).</p><p><strong>Svar:</strong> \\(200\\) N</p></li><li><p>\\(\\mu=\\dfrac{62{,}2}{199{,}7}\\approx0{,}31\\), \\(a=0{,}60\\) m/s². \\(F\\cos45^\\circ-\\mu(mg+F\\sin45^\\circ)=ma\\).</p><p><strong>Svar:</strong> \\(105\\) N</p></li></ol>",
+    "id": "4.547",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      62.22539674441619,
+      199.7053967444162,
+      105.25617600132705
+    ],
+    "tolerans": [
+      0.933,
+      5.1,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm friktionskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p><p>Bestäm friktionskraften.</p>",
+        "s": "<p>\\(F_{fr}=88\\cos45^\\circ\\).</p><p><strong>Svar:</strong> \\(62\\) N</p>",
+        "ledtrad": "<p>Konstant fart.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm normalkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p><p>Bestäm normalkraften.</p>",
+        "s": "<p>\\(F_N=14{,}0\\cdot9{,}82+88\\sin45^\\circ\\).</p><p><strong>Svar:</strong> \\(200\\) N</p>",
+        "ledtrad": "<p>Den lodräta komposanten trycker ned klipparen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken kraft (i samma riktning) ger farten 1,5 m/s från vila på 2,5 s?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p>Friktionstalet är 0,31.<p>Vilken kraft (i samma riktning) ger farten 1,5 m/s från vila på 2,5 s?</p>",
+        "s": "<p>\\(\\mu=\\dfrac{62{,}2}{199{,}7}\\approx0{,}31\\), \\(a=0{,}60\\) m/s². \\(F\\cos45^\\circ-\\mu(mg+F\\sin45^\\circ)=ma\\).</p><p><strong>Svar:</strong> \\(105\\) N</p>",
+        "ledtrad": "<p>Friktionen ökar när kraften ökar.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Normalkraften beror på kraftens lodräta komposant.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "A",
+    "typ": "minsta kraft snett nedåt",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Caroline skjuter en låda (32 kg) med en kraft riktad 37° snett nedåt. Friktionstalet är 0,38. Vilken är den minsta kraft som får lådan att röra sig?</p>",
+    "s": "<p>\\(F\\cos37^\\circ=0{,}38\\left(mg+F\\sin37^\\circ\\right)\\iff F=\\dfrac{0{,}38\\cdot32\\cdot9{,}82}{\\cos37^\\circ-0{,}38\\sin37^\\circ}\\).</p><p><strong>Svar:</strong> \\(210\\) N</p>",
+    "id": "4.548",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 209.51325501163473,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Normalkraften ökar med kraftens lodräta komposant.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "dra pulka snett uppåt",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Jonas drar Lisa i en pulka (sammanlagt 60,0 kg) med 100 N riktat 30° över vågrätt. Friktionstalet är 0,110.</p><ol type=\"a\"><li>Hur stor är friktionskraften?</li><li>Vilken acceleration får pulkan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N=60{,}0\\cdot9{,}82-100\\sin30^\\circ\\). \\(F_{fr}=0{,}110F_N\\).</p><p><strong>Svar:</strong> \\(59\\) N</p></li><li><p>\\(a=\\dfrac{100\\cos30^\\circ-59{,}3}{60{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}45\\) m/s²</p></li></ol>",
+    "id": "4.549",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      59.312000000000005,
+      0.4548423396407312
+    ],
+    "tolerans": [
+      0.89,
+      0.00682
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Jonas drar Lisa i en pulka (sammanlagt 60,0 kg) med 100 N riktat 30° över vågrätt. Friktionstalet är 0,110.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är friktionskraften?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Jonas drar Lisa i en pulka (sammanlagt 60,0 kg) med 100 N riktat 30° över vågrätt. Friktionstalet är 0,110.</p><p>Hur stor är friktionskraften?</p>",
+        "s": "<p>\\(F_N=60{,}0\\cdot9{,}82-100\\sin30^\\circ\\). \\(F_{fr}=0{,}110F_N\\).</p><p><strong>Svar:</strong> \\(59\\) N</p>",
+        "ledtrad": "<p>Normalkraften är mindre än tyngden.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får pulkan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Jonas drar Lisa i en pulka (sammanlagt 60,0 kg) med 100 N riktat 30° över vågrätt. Friktionstalet är 0,110.</p>Friktionskraften är 59,3 N.<p>Vilken acceleration får pulkan?</p>",
+        "s": "<p>\\(a=\\dfrac{100\\cos30^\\circ-59{,}3}{60{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}45\\) m/s²</p>",
+        "ledtrad": "<p>Resultant i vågrät led.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Dela upp kraften i komposanter.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "isblock som trycks snett nedåt",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Johan trycker ett isblock (30 kg) med 80 N riktat 25° snett nedåt. Friktionstalet är 0,125. Bestäm accelerationen.</p>",
+    "s": "<p>\\(F_N=30\\cdot9{,}82+80\\sin25^\\circ\\). \\(a=\\dfrac{80\\cos25^\\circ-0{,}125F_N}{30}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s²</p>",
+    "id": "4.550",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0484480115175,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp kraften i komposanter.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "skjuta eller dra en låda",
+    "poang": "(0/2/1)",
+    "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med tyngden 1 000 N skjuts med konstant fart med 300 N riktat 20° snett nedåt. Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Bestäm friktionstalet.</li><li>Man drar i stället med 300 N riktat 20° snett uppåt. Vilken acceleration får lådan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\mu=\\dfrac{300\\cos20^\\circ}{1\\,000+300\\sin20^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}26\\)</p></li><li><p>\\(F_N=1\\,000-300\\sin20^\\circ\\). \\(a=\\dfrac{300\\cos20^\\circ-\\mu F_N}{1\\,000/9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}52\\) m/s²</p></li></ol>",
+    "id": "4.551",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2556740805350007,
+      0.5152299799631589
+    ],
+    "tolerans": [
+      0.0051,
+      0.00773
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med tyngden 1 000 N skjuts med konstant fart med 300 N riktat 20° snett nedåt. Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm friktionstalet.",
+        "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med tyngden 1 000 N skjuts med konstant fart med 300 N riktat 20° snett nedåt. Använd \\(g=9{,}82\\) m/s².</p><p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{300\\cos20^\\circ}{1\\,000+300\\sin20^\\circ}\\).</p><p><strong>Svar:</strong> \\(0{,}26\\)</p>",
+        "ledtrad": "<p>Konstant fart: vågräta krafterna tar ut varandra.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Man drar i stället med 300 N riktat 20° snett uppåt. Vilken acceleration får lådan?",
+        "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med tyngden 1 000 N skjuts med konstant fart med 300 N riktat 20° snett nedåt. Använd \\(g=9{,}82\\) m/s².</p>Friktionstalet är 0,256.<p>Man drar i stället med 300 N riktat 20° snett uppåt. Vilken acceleration får lådan?</p>",
+        "s": "<p>\\(F_N=1\\,000-300\\sin20^\\circ\\). \\(a=\\dfrac{300\\cos20^\\circ-\\mu F_N}{1\\,000/9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}52\\) m/s²</p>",
+        "ledtrad": "<p>Normalkraften blir mindre.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Det är lättare att dra snett uppåt än att skjuta snett nedåt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "A",
+    "typ": "två personer flyttar en låda",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (25 kg) skjuts med 82 N riktat 23° snett nedåt och dras samtidigt framåt med 65 N riktat 37° snett uppåt.</p><ol type=\"a\"><li>Vilken acceleration får lådan utan friktion?</li><li>Vilken acceleration får lådan om friktionstalet är 0,15?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{82\\cos23^\\circ+65\\cos37^\\circ}{25}\\).</p><p><strong>Svar:</strong> \\(5{,}1\\) m/s²</p></li><li><p>\\(F_N=25\\cdot9{,}82+82\\sin23^\\circ-65\\sin37^\\circ\\). \\(a=\\dfrac{127-0{,}15F_N}{25}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p></li></ol>",
+    "id": "4.552",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.095708245446966,
+      3.665176389259542
+    ],
+    "tolerans": [
+      0.0764,
+      0.055
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (25 kg) skjuts med 82 N riktat 23° snett nedåt och dras samtidigt framåt med 65 N riktat 37° snett uppåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken acceleration får lådan utan friktion?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (25 kg) skjuts med 82 N riktat 23° snett nedåt och dras samtidigt framåt med 65 N riktat 37° snett uppåt.</p><p>Vilken acceleration får lådan utan friktion?</p>",
+        "s": "<p>\\(a=\\dfrac{82\\cos23^\\circ+65\\cos37^\\circ}{25}\\).</p><p><strong>Svar:</strong> \\(5{,}1\\) m/s²</p>",
+        "ledtrad": "<p>Lägg ihop de vågräta komposanterna.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får lådan om friktionstalet är 0,15?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (25 kg) skjuts med 82 N riktat 23° snett nedåt och dras samtidigt framåt med 65 N riktat 37° snett uppåt.</p><p>Vilken acceleration får lådan om friktionstalet är 0,15?</p>",
+        "s": "<p>\\(F_N=25\\cdot9{,}82+82\\sin23^\\circ-65\\sin37^\\circ\\). \\(a=\\dfrac{127-0{,}15F_N}{25}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p>",
+        "ledtrad": "<p>Båda krafternas lodräta komposanter påverkar normalkraften.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp krafterna i komposanter.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "personen i dörröppningen",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En person (40 kg) håller sig uppe i en dörröppning genom att pressa händer och fötter mot ena dörrposten och ryggen mot den andra. Friktionstalet är 0,80. Hur stor normalkraft måste varje dörrpost ge?</p>",
+    "s": "<p>Normalkrafterna är lika stora, och de två friktionskrafterna bär tyngden: \\(2\\mu F_N=mg\\iff F_N=\\dfrac{40\\cdot9{,}82}{2\\cdot0{,}80}\\).</p><p><strong>Svar:</strong> \\(246\\) N</p>",
+    "id": "4.553",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 245.5,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Det finns friktion mot båda dörrposterna.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "hålla en bok mellan händerna",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En student håller en 3,5 kg tung bok genom att pressa båda händerna vågrätt mot bokens sidor. Friktionstalet är 0,40. Vilken är den minsta kraft varje hand måste trycka med?</p>",
+    "s": "<p>Varje hand bär halva tyngden: \\(\\mu F=\\dfrac{mg}{2}\\iff F=\\dfrac{3{,}5\\cdot9{,}82}{2\\cdot0{,}40}\\).</p><p><strong>Svar:</strong> \\(43\\) N</p>",
+    "id": "4.554",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "numeriskt",
+    "rättSvar": 42.962500000000006,
+    "tolerans": 0.644,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två friktionskrafter delar på tyngden.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "A",
+    "typ": "kloss mot vägg med sned kraft",
+    "poang": "(1/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (1,2 kg) trycks mot en lodrät vägg med kraften 38,0 N riktad snett uppåt, 50,0° över vågrätt. Friktionstalet är 0,15.</p><ol type=\"a\"><li>Bestäm normalkraften från väggen.</li><li>Bestäm klossens acceleration.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_N=38{,}0\\cos50{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(24\\) N</p></li><li><p>Uppåt: \\(38{,}0\\sin50{,}0^\\circ\\approx29{,}1\\) N, nedåt tyngd \\(11{,}8\\) N och friktion \\(0{,}15\\cdot24{,}4\\approx3{,}7\\) N. \\(a=\\dfrac{29{,}1-11{,}8-3{,}7}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(11\\) m/s²</p></li></ol>",
+    "id": "4.555",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24.425929168088494,
+      11.38483288608991
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (1,2 kg) trycks mot en lodrät vägg med kraften 38,0 N riktad snett uppåt, 50,0° över vågrätt. Friktionstalet är 0,15.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm normalkraften från väggen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (1,2 kg) trycks mot en lodrät vägg med kraften 38,0 N riktad snett uppåt, 50,0° över vågrätt. Friktionstalet är 0,15.</p><p>Bestäm normalkraften från väggen.</p>",
+        "s": "<p>\\(F_N=38{,}0\\cos50{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(24\\) N</p>",
+        "ledtrad": "<p>Den vågräta komposanten trycker mot väggen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm klossens acceleration.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (1,2 kg) trycks mot en lodrät vägg med kraften 38,0 N riktad snett uppåt, 50,0° över vågrätt. Friktionstalet är 0,15.</p>Normalkraften är 24,4 N.<p>Bestäm klossens acceleration.</p>",
+        "s": "<p>Uppåt: \\(38{,}0\\sin50{,}0^\\circ\\approx29{,}1\\) N, nedåt tyngd \\(11{,}8\\) N och friktion \\(0{,}15\\cdot24{,}4\\approx3{,}7\\) N. \\(a=\\dfrac{29{,}1-11{,}8-3{,}7}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(11\\) m/s²</p>",
+        "ledtrad": "<p>Åt vilket håll vill klossen röra sig? Friktionen motverkar det.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Rita alla krafter på klossen.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "A",
+    "typ": "kloss pressad mot vägg",
+    "poang": "(0/2/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,80 kg) pressas mot en lodrät vägg med en kraft riktad snett uppåt, 55,0° över vågrätt. Friktionstalet är 0,300. Klossen ska ligga still.</p><ol type=\"a\"><li>Vilken är den minsta kraft som håller klossen i vila?</li><li>Vilken är den största kraft som håller klossen i vila?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Friktionen hjälper till uppåt: \\(F\\sin55{,}0^\\circ+0{,}300F\\cos55{,}0^\\circ=mg\\).</p><p><strong>Svar:</strong> \\(57{,}5\\) N</p></li><li><p>Friktionen verkar nedåt: \\(F\\sin55{,}0^\\circ-0{,}300F\\cos55{,}0^\\circ=mg\\).</p><p><strong>Svar:</strong> \\(88{,}0\\) N</p></li></ol>",
+    "id": "4.556",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      57.46021481030092,
+      88.02014903891452
+    ],
+    "tolerans": [
+      0.862,
+      1.32
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,80 kg) pressas mot en lodrät vägg med en kraft riktad snett uppåt, 55,0° över vågrätt. Friktionstalet är 0,300. Klossen ska ligga still.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken är den minsta kraft som håller klossen i vila?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,80 kg) pressas mot en lodrät vägg med en kraft riktad snett uppåt, 55,0° över vågrätt. Friktionstalet är 0,300. Klossen ska ligga still.</p><p>Vilken är den minsta kraft som håller klossen i vila?</p>",
+        "s": "<p>Friktionen hjälper till uppåt: \\(F\\sin55{,}0^\\circ+0{,}300F\\cos55{,}0^\\circ=mg\\).</p><p><strong>Svar:</strong> \\(57{,}5\\) N</p>",
+        "ledtrad": "<p>Vid minsta kraften vill klossen glida nedåt.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den största kraft som håller klossen i vila?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,80 kg) pressas mot en lodrät vägg med en kraft riktad snett uppåt, 55,0° över vågrätt. Friktionstalet är 0,300. Klossen ska ligga still.</p><p>Vilken är den största kraft som håller klossen i vila?</p>",
+        "s": "<p>Friktionen verkar nedåt: \\(F\\sin55{,}0^\\circ-0{,}300F\\cos55{,}0^\\circ=mg\\).</p><p><strong>Svar:</strong> \\(88{,}0\\) N</p>",
+        "ledtrad": "<p>Vid största kraften vill klossen glida uppåt.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionen kan verka åt båda hållen.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "A",
+    "typ": "pulka på is och sand",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Pelle skjuter Stina i en pulka (sammanlagt 55,0 kg) från vila med den konstanta kraften 70 N. Först 11,0 m friktionsfri is, sedan sandad is med friktionstalet 0,30, där han fortsätter skjuta lika hårt. Hur långt in på sanden kommer pulkan?</p>",
+    "s": "<p>Isen: \\(v^2=2\\cdot\\dfrac{70}{55{,}0}\\cdot11{,}0\\approx28\\). Sanden: retardation \\(0{,}30\\cdot9{,}82-\\dfrac{70}{55{,}0}\\approx1{,}67\\) m/s². \\(s=\\dfrac{v^2}{2\\cdot1{,}67}\\).</p><p><strong>Svar:</strong> \\(8{,}4\\) m</p>",
+    "id": "4.563",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Friktion och Newtons andra lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.366836901010538,
+    "tolerans": 0.126,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp rörelsen i två delar.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "C",
+    "typ": "vilo- och glidfriktion",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (6,0 kg) står på ett golv. Det krävs 35,0 N för att rubba den.</p><ol type=\"a\"><li>Bestäm vilofriktionstalet.</li><li>Man fortsätter skjuta med 35,0 N och lådan får accelerationen 0,60 m/s². Bestäm glidfriktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\mu_s=\\dfrac{35{,}0}{6{,}0\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}59\\)</p></li><li><p>\\(F_{fr}=35{,}0-6{,}0\\cdot0{,}60\\). \\(\\mu_k=\\dfrac{F_{fr}}{6{,}0\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}53\\)</p></li></ol>",
+    "id": "4.576",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5940257976917854,
+      0.5329260013577732
+    ],
+    "tolerans": [
+      0.00891,
+      0.00799
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (6,0 kg) står på ett golv. Det krävs 35,0 N för att rubba den.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vilofriktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (6,0 kg) står på ett golv. Det krävs 35,0 N för att rubba den.</p><p>Bestäm vilofriktionstalet.</p>",
+        "s": "<p>\\(\\mu_s=\\dfrac{35{,}0}{6{,}0\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}59\\)</p>",
+        "ledtrad": "<p>Största vilofriktionen är 35,0 N.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Man fortsätter skjuta med 35,0 N och lådan får accelerationen 0,60 m/s². Bestäm glidfriktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (6,0 kg) står på ett golv. Det krävs 35,0 N för att rubba den.</p><p>Man fortsätter skjuta med 35,0 N och lådan får accelerationen 0,60 m/s². Bestäm glidfriktionstalet.</p>",
+        "s": "<p>\\(F_{fr}=35{,}0-6{,}0\\cdot0{,}60\\). \\(\\mu_k=\\dfrac{F_{fr}}{6{,}0\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}53\\)</p>",
+        "ledtrad": "<p>Newtons andra lag ger friktionen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Vilofriktionen är ofta något större än glidfriktionen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "friktion",
+    "niva": "E",
+    "typ": "släde med vilo- och glidfriktion",
+    "poang": "(2/0/0)",
+    "t": "<p>En flicka (tyngd 250 N) sitter i en släde (tyngd 200 N). Vilofriktionstalet är 0,18 och glidfriktionstalet 0,15.</p><ol type=\"a\"><li>Hur stor vågrät kraft krävs för att få släden att börja röra sig?</li><li>Hur stor kraft krävs för konstant fart?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=0{,}18\\cdot450\\).</p><p><strong>Svar:</strong> \\(81\\) N</p></li><li><p>\\(F=0{,}15\\cdot450\\).</p><p><strong>Svar:</strong> \\(68\\) N</p></li></ol>",
+    "id": "4.577",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vilo- och glidfriktion",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      81.0,
+      67.5
+    ],
+    "tolerans": [
+      1.21,
+      1.01
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En flicka (tyngd 250 N) sitter i en släde (tyngd 200 N). Vilofriktionstalet är 0,18 och glidfriktionstalet 0,15.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor vågrät kraft krävs för att få släden att börja röra sig?",
+        "t": "<p>En flicka (tyngd 250 N) sitter i en släde (tyngd 200 N). Vilofriktionstalet är 0,18 och glidfriktionstalet 0,15.</p><p>Hur stor vågrät kraft krävs för att få släden att börja röra sig?</p>",
+        "s": "<p>\\(F=0{,}18\\cdot450\\).</p><p><strong>Svar:</strong> \\(81\\) N</p>",
+        "ledtrad": "<p>Använd vilofriktionstalet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor kraft krävs för konstant fart?",
+        "t": "<p>En flicka (tyngd 250 N) sitter i en släde (tyngd 200 N). Vilofriktionstalet är 0,18 och glidfriktionstalet 0,15.</p><p>Hur stor kraft krävs för konstant fart?</p>",
+        "s": "<p>\\(F=0{,}15\\cdot450\\).</p><p><strong>Svar:</strong> \\(68\\) N</p>",
+        "ledtrad": "<p>Använd glidfriktionstalet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Normalkraften är den totala tyngden.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "friktion__vilo_och_glidfriktion",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "4.291",
     "kap": 4,
     "omr": "moment",
@@ -39850,6 +42155,1311 @@ window.BANK = [
       }
     ],
     "omrTidigare": "newton"
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "Bobs fotfäste",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Bob (70 kg) drar en släde (300 kg) med konstant fart på plan snö. Friktionstalet mellan släden och snön är 0,20. Vilket friktionstal krävs minst mellan Bobs fötter och snön?</p>",
+    "s": "<p>Dragkraften är \\(0{,}20\\cdot300\\cdot9{,}82\\approx589\\) N. Bobs fötter måste få lika stor friktion: \\(\\mu=\\dfrac{589}{70\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}86\\) </p>",
+    "id": "4.557",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8571428571428571,
+    "tolerans": 0.0129,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Friktionen på Bob är det som driver honom framåt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "häst och släde",
+    "poang": "(1/1/0)",
+    "t": "<p>En häst (500 kg) drar en släde (100 kg). Båda har accelerationen 1,0 m/s². Friktionskraften på släden är 500 N.</p><ol type=\"a\"><li>Bestäm spännkraften i repet.</li><li>Bestäm friktionskraften från marken på hästen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Släden: \\(F_S-500=100\\cdot1{,}0\\).</p><p><strong>Svar:</strong> \\(600\\) N</p></li><li><p>Hästen: \\(F_{fr}-600=500\\cdot1{,}0\\), riktad framåt.</p><p><strong>Svar:</strong> \\(1\\,100\\) N</p></li></ol>",
+    "id": "4.558",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      600,
+      1100
+    ],
+    "tolerans": [
+      9.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En häst (500 kg) drar en släde (100 kg). Båda har accelerationen 1,0 m/s². Friktionskraften på släden är 500 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spännkraften i repet.",
+        "t": "<p>En häst (500 kg) drar en släde (100 kg). Båda har accelerationen 1,0 m/s². Friktionskraften på släden är 500 N.</p><p>Bestäm spännkraften i repet.</p>",
+        "s": "<p>Släden: \\(F_S-500=100\\cdot1{,}0\\).</p><p><strong>Svar:</strong> \\(600\\) N</p>",
+        "ledtrad": "<p>Frilägg släden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionskraften från marken på hästen.",
+        "t": "<p>En häst (500 kg) drar en släde (100 kg). Båda har accelerationen 1,0 m/s². Friktionskraften på släden är 500 N.</p>Spännkraften är 600 N.<p>Bestäm friktionskraften från marken på hästen.</p>",
+        "s": "<p>Hästen: \\(F_{fr}-600=500\\cdot1{,}0\\), riktad framåt.</p><p><strong>Svar:</strong> \\(1\\,100\\) N</p>",
+        "ledtrad": "<p>Frilägg hästen. Det är marken som driver den framåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg varje kropp för sig.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "två klossar med rep",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 160 N drar en kloss med massan 20 kg, som via ett rep drar en kloss med massan 10 kg. Friktionstalet är 0,52.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i repet.</li><li>Efter hur lång tid har klossarna farten 4,5 m/s från vila?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{160-0{,}52\\cdot30\\cdot9{,}82}{30}\\).</p><p><strong>Svar:</strong> \\(0{,}23\\) m/s²</p></li><li><p>Bakre klossen: \\(F_S=10(a+0{,}52\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(53\\) N</p></li><li><p>\\(t=\\dfrac{4{,}5}{a}\\).</p><p><strong>Svar:</strong> \\(20\\) s</p></li></ol>",
+    "id": "4.559",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2269333333333331,
+      53.33333333333334,
+      19.82961222091659
+    ],
+    "tolerans": [
+      0.0051,
+      0.8,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 160 N drar en kloss med massan 20 kg, som via ett rep drar en kloss med massan 10 kg. Friktionstalet är 0,52.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 160 N drar en kloss med massan 20 kg, som via ett rep drar en kloss med massan 10 kg. Friktionstalet är 0,52.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{160-0{,}52\\cdot30\\cdot9{,}82}{30}\\).</p><p><strong>Svar:</strong> \\(0{,}23\\) m/s²</p>",
+        "ledtrad": "<p>Se klossarna som ett system.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i repet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 160 N drar en kloss med massan 20 kg, som via ett rep drar en kloss med massan 10 kg. Friktionstalet är 0,52.</p>Accelerationen är 0,23 m/s².<p>Bestäm spännkraften i repet.</p>",
+        "s": "<p>Bakre klossen: \\(F_S=10(a+0{,}52\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(53\\) N</p>",
+        "ledtrad": "<p>Frilägg den bakre klossen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Efter hur lång tid har klossarna farten 4,5 m/s från vila?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 160 N drar en kloss med massan 20 kg, som via ett rep drar en kloss med massan 10 kg. Friktionstalet är 0,52.</p>Accelerationen är 0,227 m/s².<p>Efter hur lång tid har klossarna farten 4,5 m/s från vila?</p>",
+        "s": "<p>\\(t=\\dfrac{4{,}5}{a}\\).</p><p><strong>Svar:</strong> \\(20\\) s</p>",
+        "ledtrad": "<p>\\(v=at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg den bakre klossen för spännkraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "klossar med olika friktionstal",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 57 N drar en kloss (4,2 kg, friktionstal 0,20), som via ett rep drar en kloss (5,1 kg, friktionstal 0,10).</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i repet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{57-0{,}10\\cdot5{,}1\\cdot9{,}82-0{,}20\\cdot4{,}2\\cdot9{,}82}{9{,}3}\\).</p><p><strong>Svar:</strong> \\(4{,}7\\) m/s²</p></li><li><p>Bakre klossen: \\(F_S=5{,}1(a+0{,}10\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(29\\) N</p></li></ol>",
+    "id": "4.560",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.703548387096773,
+      28.996296774193542
+    ],
+    "tolerans": [
+      0.0706,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 57 N drar en kloss (4,2 kg, friktionstal 0,20), som via ett rep drar en kloss (5,1 kg, friktionstal 0,10).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 57 N drar en kloss (4,2 kg, friktionstal 0,20), som via ett rep drar en kloss (5,1 kg, friktionstal 0,10).</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{57-0{,}10\\cdot5{,}1\\cdot9{,}82-0{,}20\\cdot4{,}2\\cdot9{,}82}{9{,}3}\\).</p><p><strong>Svar:</strong> \\(4{,}7\\) m/s²</p>",
+        "ledtrad": "<p>Varje kloss har sin egen friktion.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i repet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 57 N drar en kloss (4,2 kg, friktionstal 0,20), som via ett rep drar en kloss (5,1 kg, friktionstal 0,10).</p>Accelerationen är 4,7 m/s².<p>Bestäm spännkraften i repet.</p>",
+        "s": "<p>Bakre klossen: \\(F_S=5{,}1(a+0{,}10\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(29\\) N</p>",
+        "ledtrad": "<p>Frilägg den bakre klossen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg den bakre klossen för spännkraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "hund drar två slädar",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En slädhund drar två slädar efter varandra: först en på 80 kg och bakom den en på 100 kg. Friktionstalet är 0,10. Spännkraften i repet mellan slädarna är 150 N. Hur stor är spännkraften i repet mellan hunden och den främre släden?</p>",
+    "s": "<p>Bakre släden: \\(a=\\dfrac{150-0{,}10\\cdot100\\cdot9{,}82}{100}\\approx0{,}52\\) m/s². Främre släden: \\(F=150+80(a+0{,}982)\\).</p><p><strong>Svar:</strong> \\(270\\) N</p>",
+    "id": "4.561",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 270.0,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja med den bakre släden.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "krafter på vagn och låda",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett föremål med massan 3,50 kg påverkas av 11,2 N framåt och 4,9 N bakåt.</p><ol type=\"a\"><li>Vilken acceleration får en lättrullad vagn?</li><li>Vilken acceleration får en låda med friktionstalet 0,15 mot golvet?</li><li>Vilket friktionstal ger konstant fart?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{11{,}2-4{,}9}{3{,}50}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) m/s²</p></li><li><p>\\(a=\\dfrac{6{,}3-0{,}15\\cdot3{,}50\\cdot9{,}82}{3{,}50}\\).</p><p><strong>Svar:</strong> \\(0{,}33\\) m/s²</p></li><li><p>\\(\\mu=\\dfrac{6{,}3}{3{,}50\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}18\\)</p></li></ol>",
+    "id": "4.562",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.8,
+      0.32699999999999996,
+      0.18329938900203663
+    ],
+    "tolerans": [
+      0.051,
+      0.0051,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett föremål med massan 3,50 kg påverkas av 11,2 N framåt och 4,9 N bakåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken acceleration får en lättrullad vagn?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett föremål med massan 3,50 kg påverkas av 11,2 N framåt och 4,9 N bakåt.</p><p>Vilken acceleration får en lättrullad vagn?</p>",
+        "s": "<p>\\(a=\\dfrac{11{,}2-4{,}9}{3{,}50}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) m/s²</p>",
+        "ledtrad": "<p>Newtons andra lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får en låda med friktionstalet 0,15 mot golvet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett föremål med massan 3,50 kg påverkas av 11,2 N framåt och 4,9 N bakåt.</p><p>Vilken acceleration får en låda med friktionstalet 0,15 mot golvet?</p>",
+        "s": "<p>\\(a=\\dfrac{6{,}3-0{,}15\\cdot3{,}50\\cdot9{,}82}{3{,}50}\\).</p><p><strong>Svar:</strong> \\(0{,}33\\) m/s²</p>",
+        "ledtrad": "<p>Dra av friktionen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilket friktionstal ger konstant fart?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett föremål med massan 3,50 kg påverkas av 11,2 N framåt och 4,9 N bakåt.</p><p>Vilket friktionstal ger konstant fart?</p>",
+        "s": "<p>\\(\\mu=\\dfrac{6{,}3}{3{,}50\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}18\\)</p>",
+        "ledtrad": "<p>Friktionen ska vara lika med nettokraften.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Newtons andra lag.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "två lådor i kontakt",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två lådor (65 kg och 125 kg) står intill varandra på ett golv med friktionstalet 0,18. Man skjuter på den mindre lådan med 650 N.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Hur stor kraft verkar mellan lådorna?</li><li>Lådorna byter plats. Hur stor blir kraften mellan dem?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{650-0{,}18\\cdot190\\cdot9{,}82}{190}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) m/s²</p></li><li><p>Stora lådan: \\(F=125(a+0{,}18\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(428\\) N</p></li><li><p>Nu skjuter den stora på den lilla: \\(F=65(a+0{,}18\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(222\\) N</p></li></ol>",
+    "id": "4.564",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.6534526315789475,
+      427.6315789473685,
+      222.36842105263162
+    ],
+    "tolerans": [
+      0.051,
+      6.41,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två lådor (65 kg och 125 kg) står intill varandra på ett golv med friktionstalet 0,18. Man skjuter på den mindre lådan med 650 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två lådor (65 kg och 125 kg) står intill varandra på ett golv med friktionstalet 0,18. Man skjuter på den mindre lådan med 650 N.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{650-0{,}18\\cdot190\\cdot9{,}82}{190}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) m/s²</p>",
+        "ledtrad": "<p>Se lådorna som ett system.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor kraft verkar mellan lådorna?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två lådor (65 kg och 125 kg) står intill varandra på ett golv med friktionstalet 0,18. Man skjuter på den mindre lådan med 650 N.</p>Accelerationen är 1,65 m/s².<p>Hur stor kraft verkar mellan lådorna?</p>",
+        "s": "<p>Stora lådan: \\(F=125(a+0{,}18\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(428\\) N</p>",
+        "ledtrad": "<p>Frilägg den stora lådan.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Lådorna byter plats. Hur stor blir kraften mellan dem?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två lådor (65 kg och 125 kg) står intill varandra på ett golv med friktionstalet 0,18. Man skjuter på den mindre lådan med 650 N.</p>Accelerationen är 1,65 m/s².<p>Lådorna byter plats. Hur stor blir kraften mellan dem?</p>",
+        "s": "<p>Nu skjuter den stora på den lilla: \\(F=65(a+0{,}18\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(222\\) N</p>",
+        "ledtrad": "<p>Frilägg den låda som skjuts.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg en låda i taget.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "tre lådor i rad",
+    "poang": "(1/2/0)",
+    "t": "<p>Tre lådor (4,0 kg, 1,0 kg och 8,0 kg i den ordningen) ligger intill varandra på ett friktionsfritt bord. Man skjuter på lådan på 4,0 kg med 48 N.</p><ol type=\"a\"><li>Beräkna accelerationen.</li><li>Hur stor kraft verkar mellan lådan på 4,0 kg och lådan på 1,0 kg?</li><li>Hur stor kraft verkar mellan lådan på 1,0 kg och lådan på 8,0 kg?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{48}{13}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p></li><li><p>Den kraften accelererar 9,0 kg: \\(F=9{,}0a\\).</p><p><strong>Svar:</strong> \\(33\\) N</p></li><li><p>\\(F=8{,}0a\\).</p><p><strong>Svar:</strong> \\(30\\) N</p></li></ol>",
+    "id": "4.565",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.6923076923076925,
+      33.23076923076923,
+      29.53846153846154
+    ],
+    "tolerans": [
+      0.0554,
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tre lådor (4,0 kg, 1,0 kg och 8,0 kg i den ordningen) ligger intill varandra på ett friktionsfritt bord. Man skjuter på lådan på 4,0 kg med 48 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna accelerationen.",
+        "t": "<p>Tre lådor (4,0 kg, 1,0 kg och 8,0 kg i den ordningen) ligger intill varandra på ett friktionsfritt bord. Man skjuter på lådan på 4,0 kg med 48 N.</p><p>Beräkna accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{48}{13}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p>",
+        "ledtrad": "<p>Hela systemet har massan 13 kg.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor kraft verkar mellan lådan på 4,0 kg och lådan på 1,0 kg?",
+        "t": "<p>Tre lådor (4,0 kg, 1,0 kg och 8,0 kg i den ordningen) ligger intill varandra på ett friktionsfritt bord. Man skjuter på lådan på 4,0 kg med 48 N.</p>Accelerationen är 3,69 m/s².<p>Hur stor kraft verkar mellan lådan på 4,0 kg och lådan på 1,0 kg?</p>",
+        "s": "<p>Den kraften accelererar 9,0 kg: \\(F=9{,}0a\\).</p><p><strong>Svar:</strong> \\(33\\) N</p>",
+        "ledtrad": "<p>Vilka lådor skjuts av den kraften?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor kraft verkar mellan lådan på 1,0 kg och lådan på 8,0 kg?",
+        "t": "<p>Tre lådor (4,0 kg, 1,0 kg och 8,0 kg i den ordningen) ligger intill varandra på ett friktionsfritt bord. Man skjuter på lådan på 4,0 kg med 48 N.</p>Accelerationen är 3,69 m/s².<p>Hur stor kraft verkar mellan lådan på 1,0 kg och lådan på 8,0 kg?</p>",
+        "s": "<p>\\(F=8{,}0a\\).</p><p><strong>Svar:</strong> \\(30\\) N</p>",
+        "ledtrad": "<p>Frilägg sista lådan.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg lådorna bakifrån.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "två lådor i rep med friktion",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två lådor (450 g och 300 g) är förbundna med ett rep. Den mindre lådan dras i ett annat rep. Systemet har accelerationen 2,0 m/s² och friktionstalet är 0,20.</p><ol type=\"a\"><li>Bestäm spännkraften i repet mellan lådorna.</li><li>Bestäm spännkraften i dragrepet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=0{,}450(2{,}0+0{,}20\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) N</p></li><li><p>\\(F=0{,}750(2{,}0+0{,}20\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) N</p></li></ol>",
+    "id": "4.566",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.7838000000000003,
+      2.9730000000000003
+    ],
+    "tolerans": [
+      0.051,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två lådor (450 g och 300 g) är förbundna med ett rep. Den mindre lådan dras i ett annat rep. Systemet har accelerationen 2,0 m/s² och friktionstalet är 0,20.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spännkraften i repet mellan lådorna.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två lådor (450 g och 300 g) är förbundna med ett rep. Den mindre lådan dras i ett annat rep. Systemet har accelerationen 2,0 m/s² och friktionstalet är 0,20.</p><p>Bestäm spännkraften i repet mellan lådorna.</p>",
+        "s": "<p>\\(F=0{,}450(2{,}0+0{,}20\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) N</p>",
+        "ledtrad": "<p>Frilägg den bakre lådan.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i dragrepet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två lådor (450 g och 300 g) är förbundna med ett rep. Den mindre lådan dras i ett annat rep. Systemet har accelerationen 2,0 m/s² och friktionstalet är 0,20.</p><p>Bestäm spännkraften i dragrepet.</p>",
+        "s": "<p>\\(F=0{,}750(2{,}0+0{,}20\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) N</p>",
+        "ledtrad": "<p>Dragrepet accelererar båda lådorna.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg lådorna.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "låda bunden till vägg",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (1,0 kg) är fäst med ett rep i väggen och ligger på en låda (2,0 kg). Den nedre lådan dras med 20 N. Friktionstalet är 0,40 både mellan lådorna och mot golvet.</p><ol type=\"a\"><li>Hur stor är spännkraften i repet?</li><li>Vilken acceleration får den nedre lådan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Övre lådan står still: \\(F_S=\\mu m_1g=0{,}40\\cdot1{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(3{,}9\\) N</p></li><li><p>Friktion från övre lådan 3,9 N och från golvet \\(0{,}40\\cdot3{,}0\\cdot9{,}82\\). \\(a=\\dfrac{20-3{,}9-11{,}8}{2{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) m/s²</p></li></ol>",
+    "id": "4.567",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.9280000000000004,
+      2.1439999999999984
+    ],
+    "tolerans": [
+      0.0589,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (1,0 kg) är fäst med ett rep i väggen och ligger på en låda (2,0 kg). Den nedre lådan dras med 20 N. Friktionstalet är 0,40 både mellan lådorna och mot golvet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är spännkraften i repet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (1,0 kg) är fäst med ett rep i väggen och ligger på en låda (2,0 kg). Den nedre lådan dras med 20 N. Friktionstalet är 0,40 både mellan lådorna och mot golvet.</p><p>Hur stor är spännkraften i repet?</p>",
+        "s": "<p>Övre lådan står still: \\(F_S=\\mu m_1g=0{,}40\\cdot1{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(3{,}9\\) N</p>",
+        "ledtrad": "<p>Frilägg den övre lådan.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får den nedre lådan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (1,0 kg) är fäst med ett rep i väggen och ligger på en låda (2,0 kg). Den nedre lådan dras med 20 N. Friktionstalet är 0,40 både mellan lådorna och mot golvet.</p>Friktionen mellan lådorna är 3,9 N.<p>Vilken acceleration får den nedre lådan?</p>",
+        "s": "<p>Friktion från övre lådan 3,9 N och från golvet \\(0{,}40\\cdot3{,}0\\cdot9{,}82\\). \\(a=\\dfrac{20-3{,}9-11{,}8}{2{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) m/s²</p>",
+        "ledtrad": "<p>Den nedre lådan har friktion både uppifrån och nedifrån.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Newtons tredje lag ger friktionen på den nedre lådan.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "trissa mellan två klossar",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (2,0 kg) ligger på en kloss (4,0 kg). De är förbundna med ett snöre via en trissa i väggen, så att de rör sig åt motsatta håll. Den nedre klossen dras med kraften \\(P\\). Friktionstalet är 0,400 både mellan klossarna och mot golvet. Vilket \\(P\\) ger konstant fart?</p>",
+    "s": "<p>Övre klossen: \\(F_S=0{,}400\\cdot2{,}0\\cdot9{,}82\\approx7{,}9\\) N. Nedre klossen: \\(P=F_S+7{,}9+0{,}400\\cdot6{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(39\\) N</p>",
+    "id": "4.568",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 39.28000000000001,
+    "tolerans": 0.589,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Frilägg båda klossarna.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "hink och låda på tak",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En hink (30,0 kg) hänger i ett snöre över en trissa och är fäst i en låda (70,0 kg) på ett plant tak. Friktionstalet mellan lådan och taket är 0,40.</p><ol type=\"a\"><li>En säck på 50,0 kg ligger på lådan och systemet står still. Hur stor är friktionskraften?</li><li>Säcken tas bort. Vilken acceleration får systemet?</li><li>Hur stor är spännkraften i snöret då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Största friktionen är \\(0{,}40\\cdot120\\cdot9{,}82\\approx471\\) N, mer än hinkens tyngd. Friktionen blir lika stor som hinkens tyngd: \\(30{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(295\\) N</p></li><li><p>\\(a=\\dfrac{30{,}0\\cdot9{,}82-0{,}40\\cdot70{,}0\\cdot9{,}82}{100}\\).</p><p><strong>Svar:</strong> \\(0{,}20\\) m/s²</p></li><li><p>Hinken: \\(F_S=30{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(289\\) N</p></li></ol>",
+    "id": "4.569",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      294.6,
+      0.19639999999999985,
+      288.70799999999997
+    ],
+    "tolerans": [
+      5.1,
+      0.0051,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En hink (30,0 kg) hänger i ett snöre över en trissa och är fäst i en låda (70,0 kg) på ett plant tak. Friktionstalet mellan lådan och taket är 0,40.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En säck på 50,0 kg ligger på lådan och systemet står still. Hur stor är friktionskraften?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En hink (30,0 kg) hänger i ett snöre över en trissa och är fäst i en låda (70,0 kg) på ett plant tak. Friktionstalet mellan lådan och taket är 0,40.</p><p>En säck på 50,0 kg ligger på lådan och systemet står still. Hur stor är friktionskraften?</p>",
+        "s": "<p>Största friktionen är \\(0{,}40\\cdot120\\cdot9{,}82\\approx471\\) N, mer än hinkens tyngd. Friktionen blir lika stor som hinkens tyngd: \\(30{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(295\\) N</p>",
+        "ledtrad": "<p>Friktionen är bara så stor som behövs.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Säcken tas bort. Vilken acceleration får systemet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En hink (30,0 kg) hänger i ett snöre över en trissa och är fäst i en låda (70,0 kg) på ett plant tak. Friktionstalet mellan lådan och taket är 0,40.</p><p>Säcken tas bort. Vilken acceleration får systemet?</p>",
+        "s": "<p>\\(a=\\dfrac{30{,}0\\cdot9{,}82-0{,}40\\cdot70{,}0\\cdot9{,}82}{100}\\).</p><p><strong>Svar:</strong> \\(0{,}20\\) m/s²</p>",
+        "ledtrad": "<p>Se hink och låda som ett system.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är spännkraften i snöret då?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En hink (30,0 kg) hänger i ett snöre över en trissa och är fäst i en låda (70,0 kg) på ett plant tak. Friktionstalet mellan lådan och taket är 0,40.</p>Accelerationen är 0,196 m/s².<p>Hur stor är spännkraften i snöret då?</p>",
+        "s": "<p>Hinken: \\(F_S=30{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(289\\) N</p>",
+        "ledtrad": "<p>Frilägg hinken.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Kontrollera först om systemet rör sig.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "E",
+    "typ": "vikt över trissa",
+    "poang": "(3/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (3,0 kg). Friktionstalet mot bordet är 0,20.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i snöret.</li><li>Vikterna byter plats (3,0 kg på bordet). Bestäm accelerationen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{3{,}0\\cdot9{,}82-0{,}20\\cdot5{,}0\\cdot9{,}82}{8{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s²</p></li><li><p>\\(F_S=3{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(22\\) N</p></li><li><p>\\(a=\\dfrac{5{,}0\\cdot9{,}82-0{,}20\\cdot3{,}0\\cdot9{,}82}{8{,}0}\\).</p><p><strong>Svar:</strong> \\(5{,}4\\) m/s²</p></li></ol>",
+    "id": "4.570",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.455,
+      22.095,
+      5.401000000000001
+    ],
+    "tolerans": [
+      0.051,
+      0.51,
+      0.081
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (3,0 kg). Friktionstalet mot bordet är 0,20.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (3,0 kg). Friktionstalet mot bordet är 0,20.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{3{,}0\\cdot9{,}82-0{,}20\\cdot5{,}0\\cdot9{,}82}{8{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s²</p>",
+        "ledtrad": "<p>Se systemet som en helhet.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i snöret.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (3,0 kg). Friktionstalet mot bordet är 0,20.</p>Accelerationen är 2,5 m/s².<p>Bestäm spännkraften i snöret.</p>",
+        "s": "<p>\\(F_S=3{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(22\\) N</p>",
+        "ledtrad": "<p>Frilägg den hängande vikten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vikterna byter plats (3,0 kg på bordet). Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (3,0 kg). Friktionstalet mot bordet är 0,20.</p><p>Vikterna byter plats (3,0 kg på bordet). Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{5{,}0\\cdot9{,}82-0{,}20\\cdot3{,}0\\cdot9{,}82}{8{,}0}\\).</p><p><strong>Svar:</strong> \\(5{,}4\\) m/s²</p>",
+        "ledtrad": "<p>Nu är friktionen mindre och den drivande tyngden större.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg varje kropp.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "låda med två hängande vikter",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (80,0 kg) på ett bord är förbunden via trissor med en hängande vikt på 10,0 kg på ena sidan och 25,0 kg på andra sidan. Friktionstalet är 0,100.</p><ol type=\"a\"><li>Vilken acceleration får systemet?</li><li>Hur stor är spännkraften i snöret till vikten på 25,0 kg?</li><li>Hur stor är spännkraften i snöret till vikten på 10,0 kg?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{(25{,}0-10{,}0)\\cdot9{,}82-0{,}100\\cdot80{,}0\\cdot9{,}82}{115}\\).</p><p><strong>Svar:</strong> \\(0{,}598\\) m/s²</p></li><li><p>\\(F_S=25{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(231\\) N</p></li><li><p>\\(F_S=10{,}0(9{,}82+a)\\).</p><p><strong>Svar:</strong> \\(104\\) N</p></li></ol>",
+    "id": "4.571",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5977391304347827,
+      230.55652173913046,
+      104.17739130434782
+    ],
+    "tolerans": [
+      0.00897,
+      3.46,
+      1.56
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (80,0 kg) på ett bord är förbunden via trissor med en hängande vikt på 10,0 kg på ena sidan och 25,0 kg på andra sidan. Friktionstalet är 0,100.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken acceleration får systemet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (80,0 kg) på ett bord är förbunden via trissor med en hängande vikt på 10,0 kg på ena sidan och 25,0 kg på andra sidan. Friktionstalet är 0,100.</p><p>Vilken acceleration får systemet?</p>",
+        "s": "<p>\\(a=\\dfrac{(25{,}0-10{,}0)\\cdot9{,}82-0{,}100\\cdot80{,}0\\cdot9{,}82}{115}\\).</p><p><strong>Svar:</strong> \\(0{,}598\\) m/s²</p>",
+        "ledtrad": "<p>Se systemet som en helhet.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är spännkraften i snöret till vikten på 25,0 kg?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (80,0 kg) på ett bord är förbunden via trissor med en hängande vikt på 10,0 kg på ena sidan och 25,0 kg på andra sidan. Friktionstalet är 0,100.</p>Accelerationen är 0,598 m/s².<p>Hur stor är spännkraften i snöret till vikten på 25,0 kg?</p>",
+        "s": "<p>\\(F_S=25{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(231\\) N</p>",
+        "ledtrad": "<p>Frilägg den tunga vikten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är spännkraften i snöret till vikten på 10,0 kg?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (80,0 kg) på ett bord är förbunden via trissor med en hängande vikt på 10,0 kg på ena sidan och 25,0 kg på andra sidan. Friktionstalet är 0,100.</p>Accelerationen är 0,598 m/s².<p>Hur stor är spännkraften i snöret till vikten på 10,0 kg?</p>",
+        "s": "<p>\\(F_S=10{,}0(9{,}82+a)\\).</p><p><strong>Svar:</strong> \\(104\\) N</p>",
+        "ledtrad": "<p>Den lätta vikten accelererar uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg varje vikt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "friktionstal ur fallande vikt",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (4,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (1,0 kg). Vikten faller 0,75 m på 2,0 s från vila.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i snöret.</li><li>Bestäm friktionstalet mot bordet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{2s}{t^2}=\\dfrac{1{,}5}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\) m/s²</p></li><li><p>\\(F_S=1{,}0(9{,}82-0{,}375)\\).</p><p><strong>Svar:</strong> \\(9{,}4\\) N</p></li><li><p>\\(\\mu=\\dfrac{F_S-4{,}0a}{4{,}0\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}20\\)</p></li></ol>",
+    "id": "4.572",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.375,
+      9.445,
+      0.20226578411405297
+    ],
+    "tolerans": [
+      0.00562,
+      0.142,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (4,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (1,0 kg). Vikten faller 0,75 m på 2,0 s från vila.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (4,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (1,0 kg). Vikten faller 0,75 m på 2,0 s från vila.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{2s}{t^2}=\\dfrac{1{,}5}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\) m/s²</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{at^2}2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i snöret.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (4,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (1,0 kg). Vikten faller 0,75 m på 2,0 s från vila.</p>Accelerationen är 0,375 m/s².<p>Bestäm spännkraften i snöret.</p>",
+        "s": "<p>\\(F_S=1{,}0(9{,}82-0{,}375)\\).</p><p><strong>Svar:</strong> \\(9{,}4\\) N</p>",
+        "ledtrad": "<p>Frilägg vikten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm friktionstalet mot bordet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (4,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (1,0 kg). Vikten faller 0,75 m på 2,0 s från vila.</p>Spännkraften är 9,45 N och accelerationen 0,375 m/s².<p>Bestäm friktionstalet mot bordet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{F_S-4{,}0a}{4{,}0\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}20\\)</p>",
+        "ledtrad": "<p>Frilägg klossen på bordet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg båda kropparna.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "vila med två vikter",
+    "poang": "(0/2/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (2,0 kg) på ett bord har ett snöre i varje ände över trissor. I ena snöret hänger 3,0 kg och i det andra \\(m\\) kg. Friktionstalet mellan kloss och bord är 0,40.</p><ol type=\"a\"><li>Vilken är den minsta massan \\(m\\) som gör att systemet står still?</li><li>Vilken är den största massan \\(m\\) som gör att systemet står still?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Friktionen kan som mest vara \\(0{,}40\\cdot2{,}0\\cdot9{,}82\\), motsvarande 0,80 kg: \\(m\\ge3{,}0-0{,}80\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) kg</p></li><li><p>\\(m\\le3{,}0+0{,}80\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) kg</p></li></ol>",
+    "id": "4.573",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.2,
+      3.8
+    ],
+    "tolerans": [
+      0.051,
+      0.057
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (2,0 kg) på ett bord har ett snöre i varje ände över trissor. I ena snöret hänger 3,0 kg och i det andra \\(m\\) kg. Friktionstalet mellan kloss och bord är 0,40.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken är den minsta massan \\(m\\) som gör att systemet står still?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (2,0 kg) på ett bord har ett snöre i varje ände över trissor. I ena snöret hänger 3,0 kg och i det andra \\(m\\) kg. Friktionstalet mellan kloss och bord är 0,40.</p><p>Vilken är den minsta massan \\(m\\) som gör att systemet står still?</p>",
+        "s": "<p>Friktionen kan som mest vara \\(0{,}40\\cdot2{,}0\\cdot9{,}82\\), motsvarande 0,80 kg: \\(m\\ge3{,}0-0{,}80\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) kg</p>",
+        "ledtrad": "<p>Friktionen kan verka åt båda hållen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den största massan \\(m\\) som gör att systemet står still?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (2,0 kg) på ett bord har ett snöre i varje ände över trissor. I ena snöret hänger 3,0 kg och i det andra \\(m\\) kg. Friktionstalet mellan kloss och bord är 0,40.</p><p>Vilken är den största massan \\(m\\) som gör att systemet står still?</p>",
+        "s": "<p>\\(m\\le3{,}0+0{,}80\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) kg</p>",
+        "ledtrad": "<p>Friktionen kan verka åt båda hållen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Skillnaden i tyngd får högst vara lika stor som största friktionen.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "två klossar och en vikt",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två klossar (1,0 kg var) ligger på ett bord, förbundna med ett snöre. Den främre är via ett snöre över en trissa förbunden med en hängande vikt (1,0 kg). Friktionstalet mellan klossarna och bordet är 0,15.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i snöret över trissan.</li><li>Bestäm spännkraften i snöret mellan klossarna.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{9{,}82-0{,}15\\cdot2{,}0\\cdot9{,}82}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s²</p></li><li><p>\\(F_S=1{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) N</p></li><li><p>\\(F_S=1{,}0(a+0{,}15\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) N</p></li></ol>",
+    "id": "4.574",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.2913333333333337,
+      7.528666666666666,
+      3.764333333333334
+    ],
+    "tolerans": [
+      0.051,
+      0.113,
+      0.0565
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två klossar (1,0 kg var) ligger på ett bord, förbundna med ett snöre. Den främre är via ett snöre över en trissa förbunden med en hängande vikt (1,0 kg). Friktionstalet mellan klossarna och bordet är 0,15.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två klossar (1,0 kg var) ligger på ett bord, förbundna med ett snöre. Den främre är via ett snöre över en trissa förbunden med en hängande vikt (1,0 kg). Friktionstalet mellan klossarna och bordet är 0,15.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{9{,}82-0{,}15\\cdot2{,}0\\cdot9{,}82}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s²</p>",
+        "ledtrad": "<p>Båda klossarna har friktion.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i snöret över trissan.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två klossar (1,0 kg var) ligger på ett bord, förbundna med ett snöre. Den främre är via ett snöre över en trissa förbunden med en hängande vikt (1,0 kg). Friktionstalet mellan klossarna och bordet är 0,15.</p>Accelerationen är 2,29 m/s².<p>Bestäm spännkraften i snöret över trissan.</p>",
+        "s": "<p>\\(F_S=1{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) N</p>",
+        "ledtrad": "<p>Frilägg den hängande vikten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm spännkraften i snöret mellan klossarna.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två klossar (1,0 kg var) ligger på ett bord, förbundna med ett snöre. Den främre är via ett snöre över en trissa förbunden med en hängande vikt (1,0 kg). Friktionstalet mellan klossarna och bordet är 0,15.</p>Accelerationen är 2,29 m/s².<p>Bestäm spännkraften i snöret mellan klossarna.</p>",
+        "s": "<p>\\(F_S=1{,}0(a+0{,}15\\cdot9{,}82)\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) N</p>",
+        "ledtrad": "<p>Frilägg den bakre klossen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg varje kropp.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "två hängande vikter i rad",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (30 kg) på ett bord är via ett snöre över en trissa förbunden med vikten B (10 kg). Under B hänger vikten C (40 kg) i ett eget snöre. Friktionstalet mot bordet är 0,20.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i snöret mellan B och C.</li><li>Bestäm spännkraften i snöret mellan lådan och B.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{50\\cdot9{,}82-0{,}20\\cdot30\\cdot9{,}82}{80}\\).</p><p><strong>Svar:</strong> \\(5{,}4\\) m/s²</p></li><li><p>\\(F_S=40(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(177\\) N</p></li><li><p>\\(F_S=50(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(221\\) N</p></li></ol>",
+    "id": "4.575",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.401,
+      176.76000000000002,
+      220.95000000000002
+    ],
+    "tolerans": [
+      0.081,
+      5.1,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (30 kg) på ett bord är via ett snöre över en trissa förbunden med vikten B (10 kg). Under B hänger vikten C (40 kg) i ett eget snöre. Friktionstalet mot bordet är 0,20.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (30 kg) på ett bord är via ett snöre över en trissa förbunden med vikten B (10 kg). Under B hänger vikten C (40 kg) i ett eget snöre. Friktionstalet mot bordet är 0,20.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{50\\cdot9{,}82-0{,}20\\cdot30\\cdot9{,}82}{80}\\).</p><p><strong>Svar:</strong> \\(5{,}4\\) m/s²</p>",
+        "ledtrad": "<p>Se systemet som en helhet.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i snöret mellan B och C.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (30 kg) på ett bord är via ett snöre över en trissa förbunden med vikten B (10 kg). Under B hänger vikten C (40 kg) i ett eget snöre. Friktionstalet mot bordet är 0,20.</p>Accelerationen är 5,40 m/s².<p>Bestäm spännkraften i snöret mellan B och C.</p>",
+        "s": "<p>\\(F_S=40(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(177\\) N</p>",
+        "ledtrad": "<p>Frilägg C.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm spännkraften i snöret mellan lådan och B.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (30 kg) på ett bord är via ett snöre över en trissa förbunden med vikten B (10 kg). Under B hänger vikten C (40 kg) i ett eget snöre. Friktionstalet mot bordet är 0,20.</p>Accelerationen är 5,40 m/s².<p>Bestäm spännkraften i snöret mellan lådan och B.</p>",
+        "s": "<p>\\(F_S=50(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(221\\) N</p>",
+        "ledtrad": "<p>Frilägg B och C tillsammans.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg vikterna nerifrån.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "4.299",

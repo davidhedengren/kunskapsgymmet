@@ -43903,6 +43903,1620 @@ window.BANK = [
     "spel": true
   },
   {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "kulor över trissa med luftmotstånd",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (5,0 kg) och B (9,0 kg) hänger i var sin ände av ett snöre över en trissa. De släpps från vila i jämnhöjd 1,75 m över golvet. Luftmotståndet ger en konstant bromsande kraft på 3,5 N på varje kula.</p><ol type=\"a\"><li>Bestäm spännkraften i snöret innan B slår i golvet.</li><li>Vilken fart har B när den slår i golvet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{(9{,}0-5{,}0)\\cdot9{,}82-2\\cdot3{,}5}{14}\\). A: \\(F_S=5{,}0(9{,}82+a)+3{,}5\\).</p><p><strong>Svar:</strong> \\(64\\) N</p></li><li><p>\\(v=\\sqrt{2a\\cdot1{,}75}\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m/s</p></li></ol>",
+    "id": "4.648",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      64.12857142857143,
+      2.8407745422683583
+    ],
+    "tolerans": [
+      0.962,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (5,0 kg) och B (9,0 kg) hänger i var sin ände av ett snöre över en trissa. De släpps från vila i jämnhöjd 1,75 m över golvet. Luftmotståndet ger en konstant bromsande kraft på 3,5 N på varje kula.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spännkraften i snöret innan B slår i golvet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (5,0 kg) och B (9,0 kg) hänger i var sin ände av ett snöre över en trissa. De släpps från vila i jämnhöjd 1,75 m över golvet. Luftmotståndet ger en konstant bromsande kraft på 3,5 N på varje kula.</p><p>Bestäm spännkraften i snöret innan B slår i golvet.</p>",
+        "s": "<p>\\(a=\\dfrac{(9{,}0-5{,}0)\\cdot9{,}82-2\\cdot3{,}5}{14}\\). A: \\(F_S=5{,}0(9{,}82+a)+3{,}5\\).</p><p><strong>Svar:</strong> \\(64\\) N</p>",
+        "ledtrad": "<p>Luftmotståndet motverkar rörelsen för båda kulorna.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har B när den slår i golvet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (5,0 kg) och B (9,0 kg) hänger i var sin ände av ett snöre över en trissa. De släpps från vila i jämnhöjd 1,75 m över golvet. Luftmotståndet ger en konstant bromsande kraft på 3,5 N på varje kula.</p>Accelerationen är 2,31 m/s².<p>Vilken fart har B när den slår i golvet?</p>",
+        "s": "<p>\\(v=\\sqrt{2a\\cdot1{,}75}\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m/s</p>",
+        "ledtrad": "<p>Konstant acceleration.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg kulorna var för sig.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "två klossar dras åt olika håll",
+    "poang": "(0/3/0)",
+    "t": "<p>Klossarna A (4,0 kg) och B (6,0 kg) på friktionsfritt underlag är sammanbundna med ett snöre. A dras med kraften \\(F\\) åt vänster och B med 30 N åt höger. Accelerationen har storleken 2,0 m/s².</p><ol type=\"a\"><li>Klossarna accelererar åt vänster. Bestäm \\(F\\).</li><li>Klossarna accelererar åt vänster. Bestäm spännkraften i snöret.</li><li>Klossarna accelererar i stället åt höger. Bestäm \\(F\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F-30=10\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(50\\) N</p></li><li><p>B: \\(F_S-30=6{,}0\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(42\\) N</p></li><li><p>\\(30-F=10\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(10\\) N</p></li></ol>",
+    "id": "4.649",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      42,
+      10
+    ],
+    "tolerans": [
+      0.75,
+      0.63,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Klossarna A (4,0 kg) och B (6,0 kg) på friktionsfritt underlag är sammanbundna med ett snöre. A dras med kraften \\(F\\) åt vänster och B med 30 N åt höger. Accelerationen har storleken 2,0 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Klossarna accelererar åt vänster. Bestäm \\(F\\).",
+        "t": "<p>Klossarna A (4,0 kg) och B (6,0 kg) på friktionsfritt underlag är sammanbundna med ett snöre. A dras med kraften \\(F\\) åt vänster och B med 30 N åt höger. Accelerationen har storleken 2,0 m/s².</p><p>Klossarna accelererar åt vänster. Bestäm \\(F\\).</p>",
+        "s": "<p>\\(F-30=10\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(50\\) N</p>",
+        "ledtrad": "<p>Se systemet som en helhet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Klossarna accelererar åt vänster. Bestäm spännkraften i snöret.",
+        "t": "<p>Klossarna A (4,0 kg) och B (6,0 kg) på friktionsfritt underlag är sammanbundna med ett snöre. A dras med kraften \\(F\\) åt vänster och B med 30 N åt höger. Accelerationen har storleken 2,0 m/s².</p><p>Klossarna accelererar åt vänster. Bestäm spännkraften i snöret.</p>",
+        "s": "<p>B: \\(F_S-30=6{,}0\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(42\\) N</p>",
+        "ledtrad": "<p>Frilägg B.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Klossarna accelererar i stället åt höger. Bestäm \\(F\\).",
+        "t": "<p>Klossarna A (4,0 kg) och B (6,0 kg) på friktionsfritt underlag är sammanbundna med ett snöre. A dras med kraften \\(F\\) åt vänster och B med 30 N åt höger. Accelerationen har storleken 2,0 m/s².</p><p>Klossarna accelererar i stället åt höger. Bestäm \\(F\\).</p>",
+        "s": "<p>\\(30-F=10\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(10\\) N</p>",
+        "ledtrad": "<p>Nu är 30 N den större kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Accelerationens riktning avgör vilken kraft som är störst.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "Atwoods maskin med okänd massa",
+    "poang": "(1/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (3,00 kg) och kula B hänger i var sin ände av ett snöre över en trissa, i jämnhöjd 1,28 m över golvet. När de släpps accelererar B nedåt med 1,96 m/s².</p><ol type=\"a\"><li>Bestäm spännkraften i snöret.</li><li>Bestäm B:s massa.</li><li>B stannar när den slår i golvet. Hur högt över golvet kommer A som högst?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>A accelererar uppåt: \\(F_S=3{,}00(9{,}82+1{,}96)\\).</p><p><strong>Svar:</strong> \\(35{,}3\\) N</p></li><li><p>B: \\(m(9{,}82-1{,}96)=35{,}3\\).</p><p><strong>Svar:</strong> \\(4{,}50\\) kg</p></li><li><p>\\(v=\\sqrt{2\\cdot1{,}96\\cdot1{,}28}\\). A är då 2,56 m upp och stiger ytterligare \\(\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(2{,}82\\) m</p></li></ol>",
+    "id": "4.650",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      35.34,
+      4.4961832061068705,
+      2.815478615071283
+    ],
+    "tolerans": [
+      0.53,
+      0.0674,
+      0.0422
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "kg",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (3,00 kg) och kula B hänger i var sin ände av ett snöre över en trissa, i jämnhöjd 1,28 m över golvet. När de släpps accelererar B nedåt med 1,96 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spännkraften i snöret.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (3,00 kg) och kula B hänger i var sin ände av ett snöre över en trissa, i jämnhöjd 1,28 m över golvet. När de släpps accelererar B nedåt med 1,96 m/s².</p><p>Bestäm spännkraften i snöret.</p>",
+        "s": "<p>A accelererar uppåt: \\(F_S=3{,}00(9{,}82+1{,}96)\\).</p><p><strong>Svar:</strong> \\(35{,}3\\) N</p>",
+        "ledtrad": "<p>Frilägg A.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm B:s massa.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (3,00 kg) och kula B hänger i var sin ände av ett snöre över en trissa, i jämnhöjd 1,28 m över golvet. När de släpps accelererar B nedåt med 1,96 m/s².</p>Spännkraften är 35,3 N.<p>Bestäm B:s massa.</p>",
+        "s": "<p>B: \\(m(9{,}82-1{,}96)=35{,}3\\).</p><p><strong>Svar:</strong> \\(4{,}50\\) kg</p>",
+        "ledtrad": "<p>Frilägg B.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "B stannar när den slår i golvet. Hur högt över golvet kommer A som högst?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (3,00 kg) och kula B hänger i var sin ände av ett snöre över en trissa, i jämnhöjd 1,28 m över golvet. När de släpps accelererar B nedåt med 1,96 m/s².</p><p>B stannar när den slår i golvet. Hur högt över golvet kommer A som högst?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot1{,}96\\cdot1{,}28}\\). A är då 2,56 m upp och stiger ytterligare \\(\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(2{,}82\\) m</p>",
+        "ledtrad": "<p>Efter att B landat gör A ett lodrätt kast.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Kulorna har lika stor acceleration åt olika håll.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "kloss uppför plan med friktion",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss A (2,0 kg) på ett plan med lutningen 30° (friktionstal 0,87) är via en trissa överst förbunden med en hängande kula B (5,0 kg). Klossen accelererar uppför planet. Bestäm spännkraften i snöret.</p>",
+    "s": "<p>\\(a=\\dfrac{5{,}0\\cdot9{,}82-2{,}0\\cdot9{,}82(\\sin30^\\circ+0{,}87\\cos30^\\circ)}{7{,}0}\\). B: \\(F_S=5{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(32\\) N</p>",
+    "id": "4.651",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 31.61257347813139,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Frilägg båda kropparna.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "bil med husvagn i backe",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar en husvagn (600 kg) uppför en backe med lutningen 16°. Bromsande krafter: 400 N på bilen och 300 N på husvagnen. Den drivande kraften är 8,4 kN.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm kraften i kopplingen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{8\\,400-700-2\\,100\\cdot9{,}82\\sin16^\\circ}{2\\,100}\\).</p><p><strong>Svar:</strong> \\(0{,}96\\) m/s²</p></li><li><p>Husvagnen: \\(F_S=600(a+9{,}82\\sin16^\\circ)+300\\).</p><p><strong>Svar:</strong> \\(2\\,500\\) N</p></li></ol>",
+    "id": "4.652",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.9599078325437347,
+      2500.0
+    ],
+    "tolerans": [
+      0.0144,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar en husvagn (600 kg) uppför en backe med lutningen 16°. Bromsande krafter: 400 N på bilen och 300 N på husvagnen. Den drivande kraften är 8,4 kN.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar en husvagn (600 kg) uppför en backe med lutningen 16°. Bromsande krafter: 400 N på bilen och 300 N på husvagnen. Den drivande kraften är 8,4 kN.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{8\\,400-700-2\\,100\\cdot9{,}82\\sin16^\\circ}{2\\,100}\\).</p><p><strong>Svar:</strong> \\(0{,}96\\) m/s²</p>",
+        "ledtrad": "<p>Ta med tyngdens komposant längs backen.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm kraften i kopplingen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar en husvagn (600 kg) uppför en backe med lutningen 16°. Bromsande krafter: 400 N på bilen och 300 N på husvagnen. Den drivande kraften är 8,4 kN.</p>Accelerationen är 0,96 m/s².<p>Bestäm kraften i kopplingen.</p>",
+        "s": "<p>Husvagnen: \\(F_S=600(a+9{,}82\\sin16^\\circ)+300\\).</p><p><strong>Svar:</strong> \\(2\\,500\\) N</p>",
+        "ledtrad": "<p>Frilägg husvagnen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg husvagnen för kopplingskraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "bil och släp",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar ett släp (1,0 ton). Luftmotståndet är 200 N på bilen och 300 N på släpet. På plan väg är den drivande kraften 750 N.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm kraften i kopplingen.</li><li>Ekipaget kör med konstant fart uppför en backe med lutningen 5,0°. Bestäm kopplingskraften.</li><li>Vilken drivande kraft krävs i backen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{750-500}{2\\,500}\\).</p><p><strong>Svar:</strong> \\(0{,}10\\) m/s²</p></li><li><p>Släpet: \\(F_S=1\\,000\\cdot0{,}10+300\\).</p><p><strong>Svar:</strong> \\(400\\) N</p></li><li><p>\\(F_S=300+1\\,000\\cdot9{,}82\\sin5{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(1\\,156\\) N</p></li><li><p>\\(F=500+2\\,500\\cdot9{,}82\\sin5{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(2\\,640\\) N</p></li></ol>",
+    "id": "4.653",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.1,
+      400,
+      1155.869393782003,
+      2639.673484455008
+    ],
+    "tolerans": [
+      0.0051,
+      6.0,
+      51.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar ett släp (1,0 ton). Luftmotståndet är 200 N på bilen och 300 N på släpet. På plan väg är den drivande kraften 750 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar ett släp (1,0 ton). Luftmotståndet är 200 N på bilen och 300 N på släpet. På plan väg är den drivande kraften 750 N.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{750-500}{2\\,500}\\).</p><p><strong>Svar:</strong> \\(0{,}10\\) m/s²</p>",
+        "ledtrad": "<p>Se ekipaget som en helhet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm kraften i kopplingen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar ett släp (1,0 ton). Luftmotståndet är 200 N på bilen och 300 N på släpet. På plan väg är den drivande kraften 750 N.</p><p>Bestäm kraften i kopplingen.</p>",
+        "s": "<p>Släpet: \\(F_S=1\\,000\\cdot0{,}10+300\\).</p><p><strong>Svar:</strong> \\(400\\) N</p>",
+        "ledtrad": "<p>Frilägg släpet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ekipaget kör med konstant fart uppför en backe med lutningen 5,0°. Bestäm kopplingskraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar ett släp (1,0 ton). Luftmotståndet är 200 N på bilen och 300 N på släpet. På plan väg är den drivande kraften 750 N.</p><p>Ekipaget kör med konstant fart uppför en backe med lutningen 5,0°. Bestäm kopplingskraften.</p>",
+        "s": "<p>\\(F_S=300+1\\,000\\cdot9{,}82\\sin5{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(1\\,156\\) N</p>",
+        "ledtrad": "<p>Konstant fart: jämvikt för släpet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Vilken drivande kraft krävs i backen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,5 ton) drar ett släp (1,0 ton). Luftmotståndet är 200 N på bilen och 300 N på släpet. På plan väg är den drivande kraften 750 N.</p><p>Vilken drivande kraft krävs i backen?</p>",
+        "s": "<p>\\(F=500+2\\,500\\cdot9{,}82\\sin5{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(2\\,640\\) N</p>",
+        "ledtrad": "<p>Jämvikt för hela ekipaget.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg släpet för kopplingskraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "bromsande bil med släp",
+    "poang": "(2/1/1)",
+    "t": "<p>En bil (1,5 ton) drar ett släp (500 kg). Luftmotståndet är 300 N på bilen och 100 N på släpet. Kopplingskraften är 200 N.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm den drivande kraften.</li><li>Den drivande kraften upphör och bilen bromsar med 400 N. Bestäm kraften i kopplingen (positiv om den drar).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Släpet: \\(200-100=500a\\).</p><p><strong>Svar:</strong> \\(0{,}20\\) m/s²</p></li><li><p>Bilen: \\(F-300-200=1\\,500\\cdot0{,}20\\).</p><p><strong>Svar:</strong> \\(800\\) N</p></li><li><p>\\(a=-\\dfrac{400+400}{2\\,000}=-0{,}40\\) m/s². Släpet: \\(F_S-100=500\\cdot(-0{,}40)\\).</p><p><strong>Svar:</strong> \\(-100\\) N</p></li></ol>",
+    "id": "4.654",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2,
+      800,
+      -100
+    ],
+    "tolerans": [
+      0.0051,
+      12.0,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil (1,5 ton) drar ett släp (500 kg). Luftmotståndet är 300 N på bilen och 100 N på släpet. Kopplingskraften är 200 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>En bil (1,5 ton) drar ett släp (500 kg). Luftmotståndet är 300 N på bilen och 100 N på släpet. Kopplingskraften är 200 N.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>Släpet: \\(200-100=500a\\).</p><p><strong>Svar:</strong> \\(0{,}20\\) m/s²</p>",
+        "ledtrad": "<p>Frilägg släpet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm den drivande kraften.",
+        "t": "<p>En bil (1,5 ton) drar ett släp (500 kg). Luftmotståndet är 300 N på bilen och 100 N på släpet. Kopplingskraften är 200 N.</p>Accelerationen är 0,20 m/s².<p>Bestäm den drivande kraften.</p>",
+        "s": "<p>Bilen: \\(F-300-200=1\\,500\\cdot0{,}20\\).</p><p><strong>Svar:</strong> \\(800\\) N</p>",
+        "ledtrad": "<p>Frilägg bilen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Den drivande kraften upphör och bilen bromsar med 400 N. Bestäm kraften i kopplingen (positiv om den drar).",
+        "t": "<p>En bil (1,5 ton) drar ett släp (500 kg). Luftmotståndet är 300 N på bilen och 100 N på släpet. Kopplingskraften är 200 N.</p><p>Den drivande kraften upphör och bilen bromsar med 400 N. Bestäm kraften i kopplingen (positiv om den drar).</p>",
+        "s": "<p>\\(a=-\\dfrac{400+400}{2\\,000}=-0{,}40\\) m/s². Släpet: \\(F_S-100=500\\cdot(-0{,}40)\\).</p><p><strong>Svar:</strong> \\(-100\\) N</p>",
+        "ledtrad": "<p>En negativ kraft betyder att kopplingen trycker.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg släpet.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "bogsering med sned lina",
+    "poang": "(1/2/0)",
+    "t": "<p>En bogserbil (2 800 kg) bogserar en bil (1 200 kg) med en lina som bildar 41° med marken. Fordonen accelererar likformigt från 12 m/s till 27 m/s på 2,34 km. Bromsande krafter: 600 N på bogserbilen och 270 N på bilen.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i linan.</li><li>Bestäm den drivande kraften på bogserbilen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{27^2-12^2}{2\\cdot2\\,340}\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) m/s²</p></li><li><p>Bilen: \\(F_S\\cos41^\\circ-270=1\\,200a\\).</p><p><strong>Svar:</strong> \\(557\\) N</p></li><li><p>\\(F=600+2\\,800a+F_S\\cos41^\\circ\\).</p><p><strong>Svar:</strong> \\(1\\,370\\) N</p></li></ol>",
+    "id": "4.655",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.125,
+      556.5054572065008,
+      1370.0
+    ],
+    "tolerans": [
+      0.0051,
+      8.35,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bogserbil (2 800 kg) bogserar en bil (1 200 kg) med en lina som bildar 41° med marken. Fordonen accelererar likformigt från 12 m/s till 27 m/s på 2,34 km. Bromsande krafter: 600 N på bogserbilen och 270 N på bilen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>En bogserbil (2 800 kg) bogserar en bil (1 200 kg) med en lina som bildar 41° med marken. Fordonen accelererar likformigt från 12 m/s till 27 m/s på 2,34 km. Bromsande krafter: 600 N på bogserbilen och 270 N på bilen.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{27^2-12^2}{2\\cdot2\\,340}\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) m/s²</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i linan.",
+        "t": "<p>En bogserbil (2 800 kg) bogserar en bil (1 200 kg) med en lina som bildar 41° med marken. Fordonen accelererar likformigt från 12 m/s till 27 m/s på 2,34 km. Bromsande krafter: 600 N på bogserbilen och 270 N på bilen.</p>Accelerationen är 0,125 m/s².<p>Bestäm spännkraften i linan.</p>",
+        "s": "<p>Bilen: \\(F_S\\cos41^\\circ-270=1\\,200a\\).</p><p><strong>Svar:</strong> \\(557\\) N</p>",
+        "ledtrad": "<p>Bara linans vågräta komposant drar bilen framåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm den drivande kraften på bogserbilen.",
+        "t": "<p>En bogserbil (2 800 kg) bogserar en bil (1 200 kg) med en lina som bildar 41° med marken. Fordonen accelererar likformigt från 12 m/s till 27 m/s på 2,34 km. Bromsande krafter: 600 N på bogserbilen och 270 N på bilen.</p>Accelerationen är 0,125 m/s².<p>Bestäm den drivande kraften på bogserbilen.</p>",
+        "s": "<p>\\(F=600+2\\,800a+F_S\\cos41^\\circ\\).</p><p><strong>Svar:</strong> \\(1\\,370\\) N</p>",
+        "ledtrad": "<p>Frilägg bogserbilen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Dela upp linkraften i komposanter.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "Atwoods maskin och lodrätt kast",
+    "poang": "(2/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (2,0 kg) och B (5,0 kg) hänger i var sin ände av ett snöre över en trissa och släpps från vila i jämnhöjd. B slår i golvet efter 0,50 s och stannar.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften.</li><li>Hur högt över golvet kommer A som högst?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{3{,}0\\cdot9{,}82}{7{,}0}\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) m/s²</p></li><li><p>A: \\(F_S=2{,}0(9{,}82+a)\\).</p><p><strong>Svar:</strong> \\(28\\) N</p></li><li><p>Fallhöjd för B: \\(h=\\dfrac{a\\cdot0{,}50^2}{2}\\), som också är starthöjden. A är då på höjden \\(2h\\) med farten \\(v=0{,}50a\\) och stiger ytterligare \\(\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) m</p></li></ol>",
+    "id": "4.656",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.208571428571429,
+      28.057142857142857,
+      1.2776020408163267
+    ],
+    "tolerans": [
+      0.0631,
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (2,0 kg) och B (5,0 kg) hänger i var sin ände av ett snöre över en trissa och släpps från vila i jämnhöjd. B slår i golvet efter 0,50 s och stannar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (2,0 kg) och B (5,0 kg) hänger i var sin ände av ett snöre över en trissa och släpps från vila i jämnhöjd. B slår i golvet efter 0,50 s och stannar.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{3{,}0\\cdot9{,}82}{7{,}0}\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) m/s²</p>",
+        "ledtrad": "<p>Se systemet som en helhet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (2,0 kg) och B (5,0 kg) hänger i var sin ände av ett snöre över en trissa och släpps från vila i jämnhöjd. B slår i golvet efter 0,50 s och stannar.</p>Accelerationen är 4,2 m/s².<p>Bestäm spännkraften.</p>",
+        "s": "<p>A: \\(F_S=2{,}0(9{,}82+a)\\).</p><p><strong>Svar:</strong> \\(28\\) N</p>",
+        "ledtrad": "<p>Frilägg A.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur högt över golvet kommer A som högst?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (2,0 kg) och B (5,0 kg) hänger i var sin ände av ett snöre över en trissa och släpps från vila i jämnhöjd. B slår i golvet efter 0,50 s och stannar.</p>Accelerationen är 4,2 m/s².<p>Hur högt över golvet kommer A som högst?</p>",
+        "s": "<p>Fallhöjd för B: \\(h=\\dfrac{a\\cdot0{,}50^2}{2}\\), som också är starthöjden. A är då på höjden \\(2h\\) med farten \\(v=0{,}50a\\) och stiger ytterligare \\(\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) m</p>",
+        "ledtrad": "<p>Efter att B landat gör A ett lodrätt kast.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Kulorna startar i jämnhöjd.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "friktionstal ur rörelse",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (0,50 kg) glider nedför ett friktionsfritt plan med lutningen 37° och drar via en trissa kula B (0,20 kg) längs ett vågrätt, strävt underlag. Från vila rör sig A 2,25 m på 1,5 s.</p><ol type=\"a\"><li>Bestäm spännkraften i snöret.</li><li>Bestäm friktionstalet för B.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{2\\cdot2{,}25}{1{,}5^2}=2{,}0\\) m/s². A: \\(F_S=0{,}50(9{,}82\\sin37^\\circ-2{,}0)\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) N</p></li><li><p>B: \\(F_S-\\mu\\cdot0{,}20\\cdot9{,}82=0{,}20\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(0{,}79\\)</p></li></ol>",
+    "id": "4.657",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.9549117636765572,
+      0.7917066006499781
+    ],
+    "tolerans": [
+      0.051,
+      0.0119
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (0,50 kg) glider nedför ett friktionsfritt plan med lutningen 37° och drar via en trissa kula B (0,20 kg) längs ett vågrätt, strävt underlag. Från vila rör sig A 2,25 m på 1,5 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spännkraften i snöret.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (0,50 kg) glider nedför ett friktionsfritt plan med lutningen 37° och drar via en trissa kula B (0,20 kg) längs ett vågrätt, strävt underlag. Från vila rör sig A 2,25 m på 1,5 s.</p><p>Bestäm spännkraften i snöret.</p>",
+        "s": "<p>\\(a=\\dfrac{2\\cdot2{,}25}{1{,}5^2}=2{,}0\\) m/s². A: \\(F_S=0{,}50(9{,}82\\sin37^\\circ-2{,}0)\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) N</p>",
+        "ledtrad": "<p>Bestäm accelerationen först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm friktionstalet för B.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (0,50 kg) glider nedför ett friktionsfritt plan med lutningen 37° och drar via en trissa kula B (0,20 kg) längs ett vågrätt, strävt underlag. Från vila rör sig A 2,25 m på 1,5 s.</p>Accelerationen är 2,0 m/s² och spännkraften 1,95 N.<p>Bestäm friktionstalet för B.</p>",
+        "s": "<p>B: \\(F_S-\\mu\\cdot0{,}20\\cdot9{,}82=0{,}20\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(0{,}79\\)</p>",
+        "ledtrad": "<p>Frilägg B.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Bestäm accelerationen ur rörelsen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "minitåg på tivoli",
+    "poang": "(1/2/0)",
+    "t": "<p>Ett lok (500 kg) drar två vagnar: först en på 300 kg, sedan en på 200 kg. Loket och vagnarna har var och en den bromsande kraften 100 N. Loket kan ge drivkraften 425 N.</p><ol type=\"a\"><li>Bestäm den största accelerationen.</li><li>Bestäm kraften i kopplingen mellan loket och första vagnen.</li><li>Bestäm kraften i kopplingen mellan vagnarna.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{425-300}{1\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}125\\) m/s²</p></li><li><p>Båda vagnarna: \\(F=500\\cdot0{,}125+200\\).</p><p><strong>Svar:</strong> \\(262\\) N</p></li><li><p>Sista vagnen: \\(F=200\\cdot0{,}125+100\\).</p><p><strong>Svar:</strong> \\(125\\) N</p></li></ol>",
+    "id": "4.658",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.125,
+      262.5,
+      125
+    ],
+    "tolerans": [
+      0.00187,
+      3.94,
+      1.88
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett lok (500 kg) drar två vagnar: först en på 300 kg, sedan en på 200 kg. Loket och vagnarna har var och en den bromsande kraften 100 N. Loket kan ge drivkraften 425 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den största accelerationen.",
+        "t": "<p>Ett lok (500 kg) drar två vagnar: först en på 300 kg, sedan en på 200 kg. Loket och vagnarna har var och en den bromsande kraften 100 N. Loket kan ge drivkraften 425 N.</p><p>Bestäm den största accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{425-300}{1\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}125\\) m/s²</p>",
+        "ledtrad": "<p>Se tåget som en helhet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm kraften i kopplingen mellan loket och första vagnen.",
+        "t": "<p>Ett lok (500 kg) drar två vagnar: först en på 300 kg, sedan en på 200 kg. Loket och vagnarna har var och en den bromsande kraften 100 N. Loket kan ge drivkraften 425 N.</p>Accelerationen är 0,125 m/s².<p>Bestäm kraften i kopplingen mellan loket och första vagnen.</p>",
+        "s": "<p>Båda vagnarna: \\(F=500\\cdot0{,}125+200\\).</p><p><strong>Svar:</strong> \\(262\\) N</p>",
+        "ledtrad": "<p>Frilägg båda vagnarna tillsammans.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm kraften i kopplingen mellan vagnarna.",
+        "t": "<p>Ett lok (500 kg) drar två vagnar: först en på 300 kg, sedan en på 200 kg. Loket och vagnarna har var och en den bromsande kraften 100 N. Loket kan ge drivkraften 425 N.</p>Accelerationen är 0,125 m/s².<p>Bestäm kraften i kopplingen mellan vagnarna.</p>",
+        "s": "<p>Sista vagnen: \\(F=200\\cdot0{,}125+100\\).</p><p><strong>Svar:</strong> \\(125\\) N</p>",
+        "ledtrad": "<p>Frilägg sista vagnen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg det som ligger bakom kopplingen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "Atwoods maskin med luftmotstånd",
+    "poang": "(1/3/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (5,0 kg) och B (2,0 kg) hänger över en trissa och släpps från vila i jämnhöjd 1,54 m över golvet. Varje kula bromsas av luftmotståndet 7,0 N.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften.</li><li>A landar och stannar. Hur högt över golvet kommer B som högst? B bromsas fortfarande av 7,0 N.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{3{,}0\\cdot9{,}82-14}{7{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m/s²</p></li><li><p>A: \\(F_S=5{,}0\\cdot9{,}82-7{,}0-5{,}0a\\).</p><p><strong>Svar:</strong> \\(31\\) N</p></li><li><p>B är då 3,08 m upp med farten \\(v=\\sqrt{2a\\cdot1{,}54}\\). Retardation: \\(9{,}82+\\dfrac{7{,}0}{2{,}0}\\). Extra höjd: \\(\\dfrac{v^2}{2\\cdot13{,}3}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) m</p></li></ol>",
+    "id": "4.659",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.2085714285714286,
+      31.057142857142857,
+      3.3353453453453454
+    ],
+    "tolerans": [
+      0.051,
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (5,0 kg) och B (2,0 kg) hänger över en trissa och släpps från vila i jämnhöjd 1,54 m över golvet. Varje kula bromsas av luftmotståndet 7,0 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (5,0 kg) och B (2,0 kg) hänger över en trissa och släpps från vila i jämnhöjd 1,54 m över golvet. Varje kula bromsas av luftmotståndet 7,0 N.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{3{,}0\\cdot9{,}82-14}{7{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m/s²</p>",
+        "ledtrad": "<p>Båda luftmotstånden motverkar rörelsen.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (5,0 kg) och B (2,0 kg) hänger över en trissa och släpps från vila i jämnhöjd 1,54 m över golvet. Varje kula bromsas av luftmotståndet 7,0 N.</p>Accelerationen är 2,2 m/s².<p>Bestäm spännkraften.</p>",
+        "s": "<p>A: \\(F_S=5{,}0\\cdot9{,}82-7{,}0-5{,}0a\\).</p><p><strong>Svar:</strong> \\(31\\) N</p>",
+        "ledtrad": "<p>Frilägg A.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "A landar och stannar. Hur högt över golvet kommer B som högst? B bromsas fortfarande av 7,0 N.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kulorna A (5,0 kg) och B (2,0 kg) hänger över en trissa och släpps från vila i jämnhöjd 1,54 m över golvet. Varje kula bromsas av luftmotståndet 7,0 N.</p>Accelerationen är 2,2 m/s².<p>A landar och stannar. Hur högt över golvet kommer B som högst? B bromsas fortfarande av 7,0 N.</p>",
+        "s": "<p>B är då 3,08 m upp med farten \\(v=\\sqrt{2a\\cdot1{,}54}\\). Retardation: \\(9{,}82+\\dfrac{7{,}0}{2{,}0}\\). Extra höjd: \\(\\dfrac{v^2}{2\\cdot13{,}3}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) m</p>",
+        "ledtrad": "<p>Luftmotståndet ökar retardationen uppåt.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg kulorna.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "bil med husvagn nedför backe",
+    "poang": "(1/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,4 ton) drar en husvagn (600 kg). Luftmotståndet är 200 N på bilen och 300 N på husvagnen. På plan väg är den drivande kraften 2,0 kN.</p><ol type=\"a\"><li>Bestäm kopplingskraften på plan väg.</li><li>Nedför en backe med lutningen 10° bromsar bilen så att retardationen blir 0,10 m/s². Bestäm kopplingskraften (positiv om den drar).</li><li>Hur stor är bilens bromskraft då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{2\\,000-500}{2\\,000}=0{,}75\\) m/s². Husvagnen: \\(F_S=600\\cdot0{,}75+300\\).</p><p><strong>Svar:</strong> \\(750\\) N</p></li><li><p>Husvagnen nedför: \\(600\\cdot9{,}82\\sin10^\\circ-300+F_S=600\\cdot(-0{,}10)\\).</p><p><strong>Svar:</strong> \\(-783\\) N</p></li><li><p>Hela ekipaget: \\(2\\,000\\cdot9{,}82\\sin10^\\circ-500-F=2\\,000\\cdot(-0{,}10)\\).</p><p><strong>Svar:</strong> \\(3\\,110\\) N</p></li></ol>",
+    "id": "4.660",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      750,
+      -783.1350628135535,
+      3110.4502093785118
+    ],
+    "tolerans": [
+      11.2,
+      11.7,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,4 ton) drar en husvagn (600 kg). Luftmotståndet är 200 N på bilen och 300 N på husvagnen. På plan väg är den drivande kraften 2,0 kN.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm kopplingskraften på plan väg.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,4 ton) drar en husvagn (600 kg). Luftmotståndet är 200 N på bilen och 300 N på husvagnen. På plan väg är den drivande kraften 2,0 kN.</p><p>Bestäm kopplingskraften på plan väg.</p>",
+        "s": "<p>\\(a=\\dfrac{2\\,000-500}{2\\,000}=0{,}75\\) m/s². Husvagnen: \\(F_S=600\\cdot0{,}75+300\\).</p><p><strong>Svar:</strong> \\(750\\) N</p>",
+        "ledtrad": "<p>Bestäm accelerationen först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Nedför en backe med lutningen 10° bromsar bilen så att retardationen blir 0,10 m/s². Bestäm kopplingskraften (positiv om den drar).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,4 ton) drar en husvagn (600 kg). Luftmotståndet är 200 N på bilen och 300 N på husvagnen. På plan väg är den drivande kraften 2,0 kN.</p><p>Nedför en backe med lutningen 10° bromsar bilen så att retardationen blir 0,10 m/s². Bestäm kopplingskraften (positiv om den drar).</p>",
+        "s": "<p>Husvagnen nedför: \\(600\\cdot9{,}82\\sin10^\\circ-300+F_S=600\\cdot(-0{,}10)\\).</p><p><strong>Svar:</strong> \\(-783\\) N</p>",
+        "ledtrad": "<p>Frilägg husvagnen med tyngdkomposant, luftmotstånd och kopplingskraft.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är bilens bromskraft då?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En bil (1,4 ton) drar en husvagn (600 kg). Luftmotståndet är 200 N på bilen och 300 N på husvagnen. På plan väg är den drivande kraften 2,0 kN.</p><p>Hur stor är bilens bromskraft då?</p>",
+        "s": "<p>Hela ekipaget: \\(2\\,000\\cdot9{,}82\\sin10^\\circ-500-F=2\\,000\\cdot(-0{,}10)\\).</p><p><strong>Svar:</strong> \\(3\\,110\\) N</p>",
+        "ledtrad": "<p>Se ekipaget som en helhet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>En negativ kopplingskraft betyder att kopplingen trycker.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "kloss med vikter åt båda håll",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss C (4,0 kg) ligger på ett bord med friktionstalet 0,65. Från var sin sida hänger vikterna A (3,0 kg) och B (7,0 kg) i snören över trissor vid bordskanterna.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i snöret till A.</li><li>Bestäm spännkraften i snöret till B.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{(7{,}0-3{,}0)\\cdot9{,}82-0{,}65\\cdot4{,}0\\cdot9{,}82}{14}\\).</p><p><strong>Svar:</strong> \\(0{,}98\\) m/s²</p></li><li><p>\\(F_S=3{,}0(9{,}82+a)\\).</p><p><strong>Svar:</strong> \\(32\\) N</p></li><li><p>\\(F_S=7{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(62\\) N</p></li></ol>",
+    "id": "4.661",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.9820000000000005,
+      32.406000000000006,
+      61.86599999999999
+    ],
+    "tolerans": [
+      0.0147,
+      0.51,
+      0.928
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss C (4,0 kg) ligger på ett bord med friktionstalet 0,65. Från var sin sida hänger vikterna A (3,0 kg) och B (7,0 kg) i snören över trissor vid bordskanterna.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss C (4,0 kg) ligger på ett bord med friktionstalet 0,65. Från var sin sida hänger vikterna A (3,0 kg) och B (7,0 kg) i snören över trissor vid bordskanterna.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{(7{,}0-3{,}0)\\cdot9{,}82-0{,}65\\cdot4{,}0\\cdot9{,}82}{14}\\).</p><p><strong>Svar:</strong> \\(0{,}98\\) m/s²</p>",
+        "ledtrad": "<p>Se systemet som en helhet.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i snöret till A.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss C (4,0 kg) ligger på ett bord med friktionstalet 0,65. Från var sin sida hänger vikterna A (3,0 kg) och B (7,0 kg) i snören över trissor vid bordskanterna.</p>Accelerationen är 0,98 m/s².<p>Bestäm spännkraften i snöret till A.</p>",
+        "s": "<p>\\(F_S=3{,}0(9{,}82+a)\\).</p><p><strong>Svar:</strong> \\(32\\) N</p>",
+        "ledtrad": "<p>A accelererar uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm spännkraften i snöret till B.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss C (4,0 kg) ligger på ett bord med friktionstalet 0,65. Från var sin sida hänger vikterna A (3,0 kg) och B (7,0 kg) i snören över trissor vid bordskanterna.</p>Accelerationen är 0,98 m/s².<p>Bestäm spännkraften i snöret till B.</p>",
+        "s": "<p>\\(F_S=7{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(62\\) N</p>",
+        "ledtrad": "<p>B accelererar nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg varje kropp.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "snöret går av",
+    "poang": "(1/2/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss A (3,00 kg) på ett plan med lutningen 37,0° påverkas av en konstant friktionskraft på 10,5 N. Via en trissa överst är den förbunden med en hängande kula B (4,00 kg). Systemet släpps från vila och A glider uppför.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Snöret går av efter 2,00 s. Hur långt uppför planet har A rört sig totalt när den vänder?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{4{,}00\\cdot9{,}82-3{,}00\\cdot9{,}82\\sin37{,}0^\\circ-10{,}5}{7{,}00}\\).</p><p><strong>Svar:</strong> \\(1{,}58\\) m/s²</p></li><li><p>Efter 2,00 s: \\(v=2{,}00a\\), \\(s_1=\\dfrac{a\\cdot2{,}00^2}{2}\\). Retardation: \\(9{,}82\\sin37{,}0^\\circ+\\dfrac{10{,}5}{3{,}00}\\). \\(s_2=\\dfrac{v^2}{2\\cdot9{,}41}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m</p></li></ol>",
+    "id": "4.662",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5786470597058084,
+      3.686980256855855
+    ],
+    "tolerans": [
+      0.0237,
+      0.0553
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss A (3,00 kg) på ett plan med lutningen 37,0° påverkas av en konstant friktionskraft på 10,5 N. Via en trissa överst är den förbunden med en hängande kula B (4,00 kg). Systemet släpps från vila och A glider uppför.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss A (3,00 kg) på ett plan med lutningen 37,0° påverkas av en konstant friktionskraft på 10,5 N. Via en trissa överst är den förbunden med en hängande kula B (4,00 kg). Systemet släpps från vila och A glider uppför.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{4{,}00\\cdot9{,}82-3{,}00\\cdot9{,}82\\sin37{,}0^\\circ-10{,}5}{7{,}00}\\).</p><p><strong>Svar:</strong> \\(1{,}58\\) m/s²</p>",
+        "ledtrad": "<p>Se systemet som en helhet.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Snöret går av efter 2,00 s. Hur långt uppför planet har A rört sig totalt när den vänder?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss A (3,00 kg) på ett plan med lutningen 37,0° påverkas av en konstant friktionskraft på 10,5 N. Via en trissa överst är den förbunden med en hängande kula B (4,00 kg). Systemet släpps från vila och A glider uppför.</p>Accelerationen är 1,58 m/s².<p>Snöret går av efter 2,00 s. Hur långt uppför planet har A rört sig totalt när den vänder?</p>",
+        "s": "<p>Efter 2,00 s: \\(v=2{,}00a\\), \\(s_1=\\dfrac{a\\cdot2{,}00^2}{2}\\). Retardation: \\(9{,}82\\sin37{,}0^\\circ+\\dfrac{10{,}5}{3{,}00}\\). \\(s_2=\\dfrac{v^2}{2\\cdot9{,}41}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m</p>",
+        "ledtrad": "<p>Dela upp rörelsen i två faser.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Friktionen motverkar rörelsen.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "massa ur fart efter sträcka",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Vikterna A (massa \\(m\\)) och B (4,0 kg) hänger över en trissa och släpps från vila. A rör sig uppåt och har farten 1,4 m/s när den har stigit 0,70 m. Bestäm \\(m\\).</p>",
+    "s": "<p>\\(a=\\dfrac{1{,}4^2}{2\\cdot0{,}70}=1{,}4\\) m/s². \\(a=\\dfrac{4{,}0-m}{4{,}0+m}g\\iff m=\\dfrac{4{,}0(g-a)}{g+a}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) kg</p>",
+    "id": "4.663",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0017825311942956,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm accelerationen ur rörelsen.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "kg",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "låda på tak med friktion på slutet",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En kula A (2,0 kg) hänger över takkanten och är via en trissa förbunden med en låda B (3,0 kg) på taket, 4,0 m från trissan. De första 2,5 m är friktionsfria, därefter är friktionstalet 0,75. Systemet släpps från vila. Vilken fart har lådan när den når trissan?</p>",
+    "s": "<p>Fas 1: \\(a=\\dfrac{2{,}0\\cdot9{,}82}{5{,}0}\\), \\(v^2=2a\\cdot2{,}5\\). Fas 2: \\(a=\\dfrac{2{,}0\\cdot9{,}82-0{,}75\\cdot3{,}0\\cdot9{,}82}{5{,}0}\\), \\(v^2=v_1^2+2a\\cdot1{,}5\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) m/s</p>",
+    "id": "4.664",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.262276387096454,
+    "tolerans": 0.0639,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp rörelsen i två faser.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "tåg med tjugo vagnar",
+    "poang": "(1/3/0)",
+    "t": "<p>Ett lok (40 ton) drar 20 vagnar (10 ton var). Den bromsande kraften är \\(4R\\) på loket och \\(R\\) på varje vagn. Med drivkraften 51 kN accelererar tåget likformigt från vila till 40 m/s på 16 km.</p><ol type=\"a\"><li>Bestäm \\(R\\).</li><li>Bestäm kraften i kopplingen mellan de två sista vagnarna.</li><li>Bestäm kraften i kopplingen mellan loket och första vagnen.</li><li>Vilken drivkraft krävs när tåget håller konstant fart?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{40^2}{2\\cdot16\\,000}=0{,}050\\) m/s². \\(51\\,000-24R=240\\,000\\cdot0{,}050\\).</p><p><strong>Svar:</strong> \\(1\\,625\\) N</p></li><li><p>Sista vagnen: \\(F=10\\,000\\cdot0{,}050+R\\).</p><p><strong>Svar:</strong> \\(2\\,125\\) N</p></li><li><p>Alla vagnar: \\(F=200\\,000\\cdot0{,}050+20R\\).</p><p><strong>Svar:</strong> \\(42\\,500\\) N</p></li><li><p>\\(F=24R\\).</p><p><strong>Svar:</strong> \\(39\\,000\\) N</p></li></ol>",
+    "id": "4.665",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1625.0,
+      2125,
+      42500,
+      39000
+    ],
+    "tolerans": [
+      51.0,
+      51.0,
+      638.0,
+      585.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett lok (40 ton) drar 20 vagnar (10 ton var). Den bromsande kraften är \\(4R\\) på loket och \\(R\\) på varje vagn. Med drivkraften 51 kN accelererar tåget likformigt från vila till 40 m/s på 16 km.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(R\\).",
+        "t": "<p>Ett lok (40 ton) drar 20 vagnar (10 ton var). Den bromsande kraften är \\(4R\\) på loket och \\(R\\) på varje vagn. Med drivkraften 51 kN accelererar tåget likformigt från vila till 40 m/s på 16 km.</p><p>Bestäm \\(R\\).</p>",
+        "s": "<p>\\(a=\\dfrac{40^2}{2\\cdot16\\,000}=0{,}050\\) m/s². \\(51\\,000-24R=240\\,000\\cdot0{,}050\\).</p><p><strong>Svar:</strong> \\(1\\,625\\) N</p>",
+        "ledtrad": "<p>Bestäm accelerationen först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm kraften i kopplingen mellan de två sista vagnarna.",
+        "t": "<p>Ett lok (40 ton) drar 20 vagnar (10 ton var). Den bromsande kraften är \\(4R\\) på loket och \\(R\\) på varje vagn. Med drivkraften 51 kN accelererar tåget likformigt från vila till 40 m/s på 16 km.</p>\\(R=1{,}625\\) kN.<p>Bestäm kraften i kopplingen mellan de två sista vagnarna.</p>",
+        "s": "<p>Sista vagnen: \\(F=10\\,000\\cdot0{,}050+R\\).</p><p><strong>Svar:</strong> \\(2\\,125\\) N</p>",
+        "ledtrad": "<p>Frilägg sista vagnen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm kraften i kopplingen mellan loket och första vagnen.",
+        "t": "<p>Ett lok (40 ton) drar 20 vagnar (10 ton var). Den bromsande kraften är \\(4R\\) på loket och \\(R\\) på varje vagn. Med drivkraften 51 kN accelererar tåget likformigt från vila till 40 m/s på 16 km.</p>\\(R=1{,}625\\) kN.<p>Bestäm kraften i kopplingen mellan loket och första vagnen.</p>",
+        "s": "<p>Alla vagnar: \\(F=200\\,000\\cdot0{,}050+20R\\).</p><p><strong>Svar:</strong> \\(42\\,500\\) N</p>",
+        "ledtrad": "<p>Frilägg alla vagnarna tillsammans.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Vilken drivkraft krävs när tåget håller konstant fart?",
+        "t": "<p>Ett lok (40 ton) drar 20 vagnar (10 ton var). Den bromsande kraften är \\(4R\\) på loket och \\(R\\) på varje vagn. Med drivkraften 51 kN accelererar tåget likformigt från vila till 40 m/s på 16 km.</p>\\(R=1{,}625\\) kN.<p>Vilken drivkraft krävs när tåget håller konstant fart?</p>",
+        "s": "<p>\\(F=24R\\).</p><p><strong>Svar:</strong> \\(39\\,000\\) N</p>",
+        "ledtrad": "<p>Jämvikt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Frilägg det som ligger bakom kopplingen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "stav som trycks uppåt",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En lodrät masslös stav har en vikt på 0,20 kg i övre änden och en vikt på 0,30 kg i nedre änden. Staven trycks uppåt i nedre änden med 6,0 N. Hur stor kraft verkar i staven?</p>",
+    "s": "<p>\\(a=\\dfrac{6{,}0}{0{,}50}-9{,}82\\). Övre vikten: \\(F=0{,}20(9{,}82+a)\\), en tryckkraft.</p><p><strong>Svar:</strong> \\(2{,}4\\) N</p>",
+    "id": "4.666",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.4000000000000004,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Frilägg den övre vikten.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "låda på tak som stannar vid trissan",
+    "poang": "(2/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt A (5,0 kg) hänger över takkanten och är via en trissa förbunden med en låda B (7,5 kg) på taket. Friktionstalet mellan lådan och taket är 0,20. Systemet släpps från vila.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften.</li><li>När vikten har fallit 2,8 m går snöret av. Lådan stannar precis vid trissan. Hur långt från trissan startade den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{5{,}0\\cdot9{,}82-0{,}20\\cdot7{,}5\\cdot9{,}82}{12{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) m/s²</p></li><li><p>\\(F_S=5{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(35\\) N</p></li><li><p>\\(v^2=2a\\cdot2{,}8\\). Retardation \\(0{,}20\\cdot9{,}82\\). \\(d=2{,}8+\\dfrac{v^2}{2\\cdot1{,}96}\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) m</p></li></ol>",
+    "id": "4.667",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.7496000000000005,
+      35.352,
+      6.72
+    ],
+    "tolerans": [
+      0.051,
+      0.53,
+      0.101
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt A (5,0 kg) hänger över takkanten och är via en trissa förbunden med en låda B (7,5 kg) på taket. Friktionstalet mellan lådan och taket är 0,20. Systemet släpps från vila.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt A (5,0 kg) hänger över takkanten och är via en trissa förbunden med en låda B (7,5 kg) på taket. Friktionstalet mellan lådan och taket är 0,20. Systemet släpps från vila.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{5{,}0\\cdot9{,}82-0{,}20\\cdot7{,}5\\cdot9{,}82}{12{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}7\\) m/s²</p>",
+        "ledtrad": "<p>Se systemet som en helhet.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt A (5,0 kg) hänger över takkanten och är via en trissa förbunden med en låda B (7,5 kg) på taket. Friktionstalet mellan lådan och taket är 0,20. Systemet släpps från vila.</p>Accelerationen är 2,75 m/s².<p>Bestäm spännkraften.</p>",
+        "s": "<p>\\(F_S=5{,}0(9{,}82-a)\\).</p><p><strong>Svar:</strong> \\(35\\) N</p>",
+        "ledtrad": "<p>Frilägg vikten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "När vikten har fallit 2,8 m går snöret av. Lådan stannar precis vid trissan. Hur långt från trissan startade den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt A (5,0 kg) hänger över takkanten och är via en trissa förbunden med en låda B (7,5 kg) på taket. Friktionstalet mellan lådan och taket är 0,20. Systemet släpps från vila.</p>Accelerationen är 2,75 m/s².<p>När vikten har fallit 2,8 m går snöret av. Lådan stannar precis vid trissan. Hur långt från trissan startade den?</p>",
+        "s": "<p>\\(v^2=2a\\cdot2{,}8\\). Retardation \\(0{,}20\\cdot9{,}82\\). \\(d=2{,}8+\\dfrac{v^2}{2\\cdot1{,}96}\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) m</p>",
+        "ledtrad": "<p>Dela upp rörelsen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg kropparna.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "kraft på trissan",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kloss A (4,5 kg) glider nedför ett plan med lutningen 37° (friktionstal 0,50) och drar via en trissa överst upp en hängande kula B (0,40 kg). Hur stor kraft verkar på trissan från snöret? (Vinkeln mellan snörets två delar är 53°.)</p>",
+    "s": "<p>\\(a=\\dfrac{4{,}5g\\sin37^\\circ-0{,}50\\cdot4{,}5g\\cos37^\\circ-0{,}40g}{4{,}9}\\), \\(F_S=0{,}40(g+a)\\). Kraften: \\(2F_S\\cos26{,}5^\\circ\\).</p><p><strong>Svar:</strong> \\(7{,}8\\) N</p>",
+    "id": "4.668",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.764137006187075,
+    "tolerans": 0.116,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två lika stora snörkrafter med vinkeln 53° mellan sig.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "N",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "C",
+    "typ": "tre kulor över trissa",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (massa \\(m\\)) hänger på ena sidan av en trissa och kula B (1,0 kg) på den andra. Under B hänger kula C (9,0 kg) i ett eget snöre. Systemet släpps med A vid golvet. Spännkraften mellan B och C är 50,4 N.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften mellan A och B.</li><li>Bestäm \\(m\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>C: \\(9{,}0\\cdot9{,}82-50{,}4=9{,}0a\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) m/s²</p></li><li><p>B: \\(1{,}0\\cdot9{,}82+50{,}4-F_S=1{,}0a\\).</p><p><strong>Svar:</strong> \\(56\\) N</p></li><li><p>A: \\(F_S-mg=ma\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) kg</p></li></ol>",
+    "id": "4.669",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.22,
+      56.0,
+      3.988603988603989
+    ],
+    "tolerans": [
+      0.0633,
+      0.84,
+      0.0598
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (massa \\(m\\)) hänger på ena sidan av en trissa och kula B (1,0 kg) på den andra. Under B hänger kula C (9,0 kg) i ett eget snöre. Systemet släpps med A vid golvet. Spännkraften mellan B och C är 50,4 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (massa \\(m\\)) hänger på ena sidan av en trissa och kula B (1,0 kg) på den andra. Under B hänger kula C (9,0 kg) i ett eget snöre. Systemet släpps med A vid golvet. Spännkraften mellan B och C är 50,4 N.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>C: \\(9{,}0\\cdot9{,}82-50{,}4=9{,}0a\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) m/s²</p>",
+        "ledtrad": "<p>Frilägg C.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften mellan A och B.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (massa \\(m\\)) hänger på ena sidan av en trissa och kula B (1,0 kg) på den andra. Under B hänger kula C (9,0 kg) i ett eget snöre. Systemet släpps med A vid golvet. Spännkraften mellan B och C är 50,4 N.</p>Accelerationen är 4,2 m/s².<p>Bestäm spännkraften mellan A och B.</p>",
+        "s": "<p>B: \\(1{,}0\\cdot9{,}82+50{,}4-F_S=1{,}0a\\).</p><p><strong>Svar:</strong> \\(56\\) N</p>",
+        "ledtrad": "<p>Frilägg B.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm \\(m\\).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (massa \\(m\\)) hänger på ena sidan av en trissa och kula B (1,0 kg) på den andra. Under B hänger kula C (9,0 kg) i ett eget snöre. Systemet släpps med A vid golvet. Spännkraften mellan B och C är 50,4 N.</p>Accelerationen är 4,2 m/s² och spännkraften 56 N.<p>Bestäm \\(m\\).</p>",
+        "s": "<p>A: \\(F_S-mg=ma\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) kg</p>",
+        "ledtrad": "<p>Frilägg A.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Frilägg kulorna en i taget.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton2",
+    "niva": "A",
+    "typ": "snörets längd",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>Kula A (4,0 kg) och kula B (1,0 kg) hänger i ett snöre över en trissa 1,6 m över golvet. B står på golvet när systemet släpps. A faller till golvet och stannar, och B fortsätter uppåt och vänder precis vid trissan. Hur långt är snöret?</p>",
+    "s": "<p>\\(a=\\dfrac35g\\). Om A faller \\(h\\) får B farten \\(v^2=2ah\\) och stiger sedan \\(\\dfrac{v^2}{2g}=0{,}6h\\). \\(h+0{,}6h=1{,}6\\iff h=1{,}0\\) m. Snörets längd: \\((1{,}6-1{,}0)+1{,}6\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m</p>",
+    "id": "4.670",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Motståndskrafter och kopplade kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.2,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>B gör ett lodrätt kast när A landat.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
     "id": "4.299",
     "kap": 4,
     "omr": "moment",
@@ -101121,6 +102735,234 @@ window.BANK = [
       "N",
       "N"
     ]
+  },
+  {
+    "kap": 4,
+    "omr": "newton1",
+    "niva": "C",
+    "typ": "person och motvikt",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En person (60 kg) hänger i ett rep över en trissa. I repets andra ände sitter en motvikt (100 kg) som står på golvet. Allt är i jämvikt.</p><ol type=\"a\"><li>Bestäm spännkraften i repet.</li><li>Bestäm normalkraften på motvikten.</li><li>Hur stor kraft måste trissans fäste klara?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_S=60\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(589\\) N</p></li><li><p>\\(F_N=100\\cdot9{,}82-589\\).</p><p><strong>Svar:</strong> \\(393\\) N</p></li><li><p>Två repdelar drar nedåt: \\(2\\cdot589\\).</p><p><strong>Svar:</strong> \\(1\\,178\\) N</p></li></ol>",
+    "id": "4.671",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snörkrafter och jämvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      589.2,
+      392.8,
+      1178.4
+    ],
+    "tolerans": [
+      8.84,
+      5.89,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En person (60 kg) hänger i ett rep över en trissa. I repets andra ände sitter en motvikt (100 kg) som står på golvet. Allt är i jämvikt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spännkraften i repet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En person (60 kg) hänger i ett rep över en trissa. I repets andra ände sitter en motvikt (100 kg) som står på golvet. Allt är i jämvikt.</p><p>Bestäm spännkraften i repet.</p>",
+        "s": "<p>\\(F_S=60\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(589\\) N</p>",
+        "ledtrad": "<p>Frilägg personen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm normalkraften på motvikten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En person (60 kg) hänger i ett rep över en trissa. I repets andra ände sitter en motvikt (100 kg) som står på golvet. Allt är i jämvikt.</p><p>Bestäm normalkraften på motvikten.</p>",
+        "s": "<p>\\(F_N=100\\cdot9{,}82-589\\).</p><p><strong>Svar:</strong> \\(393\\) N</p>",
+        "ledtrad": "<p>Repet bär en del av motviktens tyngd.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor kraft måste trissans fäste klara?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En person (60 kg) hänger i ett rep över en trissa. I repets andra ände sitter en motvikt (100 kg) som står på golvet. Allt är i jämvikt.</p><p>Hur stor kraft måste trissans fäste klara?</p>",
+        "s": "<p>Två repdelar drar nedåt: \\(2\\cdot589\\).</p><p><strong>Svar:</strong> \\(1\\,178\\) N</p>",
+        "ledtrad": "<p>Fästet håller båda repdelarna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Spännkraften är lika stor i hela repet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton1__snorkrafter_och_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton1",
+    "niva": "C",
+    "typ": "vikt på bord och hängande vikt",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt (7,0 kg) står på ett bord under en trissa i taket. Ett snöre från vikten går över trissan till en hängande vikt (4,0 kg). Allt är i jämvikt.</p><ol type=\"a\"><li>Bestäm spännkraften.</li><li>Bestäm normalkraften från bordet på den tyngre vikten.</li><li>Hur stor kraft verkar på trissans fäste?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_S=4{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(39\\) N</p></li><li><p>\\(F_N=7{,}0\\cdot9{,}82-39{,}3\\).</p><p><strong>Svar:</strong> \\(29\\) N</p></li><li><p>\\(2\\cdot39{,}3\\).</p><p><strong>Svar:</strong> \\(79\\) N</p></li></ol>",
+    "id": "4.672",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snörkrafter och jämvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      39.28,
+      29.46,
+      78.56
+    ],
+    "tolerans": [
+      0.589,
+      0.51,
+      1.18
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt (7,0 kg) står på ett bord under en trissa i taket. Ett snöre från vikten går över trissan till en hängande vikt (4,0 kg). Allt är i jämvikt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm spännkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt (7,0 kg) står på ett bord under en trissa i taket. Ett snöre från vikten går över trissan till en hängande vikt (4,0 kg). Allt är i jämvikt.</p><p>Bestäm spännkraften.</p>",
+        "s": "<p>\\(F_S=4{,}0\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(39\\) N</p>",
+        "ledtrad": "<p>Frilägg den hängande vikten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm normalkraften från bordet på den tyngre vikten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt (7,0 kg) står på ett bord under en trissa i taket. Ett snöre från vikten går över trissan till en hängande vikt (4,0 kg). Allt är i jämvikt.</p><p>Bestäm normalkraften från bordet på den tyngre vikten.</p>",
+        "s": "<p>\\(F_N=7{,}0\\cdot9{,}82-39{,}3\\).</p><p><strong>Svar:</strong> \\(29\\) N</p>",
+        "ledtrad": "<p>Snöret bär en del av tyngden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor kraft verkar på trissans fäste?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt (7,0 kg) står på ett bord under en trissa i taket. Ett snöre från vikten går över trissan till en hängande vikt (4,0 kg). Allt är i jämvikt.</p><p>Hur stor kraft verkar på trissans fäste?</p>",
+        "s": "<p>\\(2\\cdot39{,}3\\).</p><p><strong>Svar:</strong> \\(79\\) N</p>",
+        "ledtrad": "<p>Två snördelar drar nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Spännkraften är lika stor i hela snöret.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "newton1__snorkrafter_och_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton1",
+    "niva": "A",
+    "typ": "klossar över trissa mot vägg",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En kloss Y (2,0 kg) ligger på en kloss X (3,0 kg) på ett bord. Klossarna är förbundna med ett snöre över en trissa i väggen. Man drar X bort från väggen med 20 N, och klossarna glider med konstant fart åt var sitt håll. Friktionstalet är detsamma mellan klossarna och mot bordet. Bestäm det.</p>",
+    "s": "<p>Y: \\(F_S=\\mu\\cdot2{,}0g\\). X: \\(20=F_S+\\mu\\cdot2{,}0g+\\mu\\cdot5{,}0g\\), alltså \\(20=9{,}0\\mu g\\).</p><p><strong>Svar:</strong> \\(0{,}23\\) </p>",
+    "id": "4.673",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snörkrafter och jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.22629554197782306,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>X har friktion både mot Y och mot bordet.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "newton1__snorkrafter_och_jamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "newton1",
+    "niva": "E",
+    "typ": "fjäder och vikt över trissa",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En fjäder (50 N/m) är fäst i ett bord. Ett snöre från fjädern går över en trissa i taket till en hängande vikt (1,0 kg). Hur mycket är fjädern förlängd?</p>",
+    "s": "<p>\\(kx=mg\\iff x=\\dfrac{9{,}82}{50}\\).</p><p><strong>Svar:</strong> \\(0{,}20\\) m</p>",
+    "id": "4.674",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Snörkrafter och jämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.19640000000000002,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Spännkraften är viktens tyngd.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "newton1__snorkrafter_och_jamvikt",
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "4.318",

@@ -129973,6 +129973,1960 @@ window.BANK = [
     "spel": true
   },
   {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "acceleration med konstant effekt",
+    "poang": "(0/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En lastbil (6,0 ton) på plan väg har motoreffekten 42 kW och den bromsande kraften 2,8 kN. Bestäm accelerationen vid 6,0 m/s.</li><li>En lastbil (5,0 ton) kör uppför en backe som lutar 10,0° med 6,0 m/s och accelererar med 0,20 m/s². Den bromsande kraften är 600 N. Bestäm effekten.</li><li>En bil (1,60 ton) kör nedför en backe som lutar 2,0° med accelerationen 0,75 m/s². Den bromsande kraften är 260 N och effekten 10,8 kW. Bestäm farten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{42\\,000}{6{,}0}\\), \\(a=\\dfrac{7\\,000-2\\,800}{6\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) m/s²</p></li><li><p>\\(F=5\\,000\\cdot9{,}82\\sin10{,}0^\\circ+600+5\\,000\\cdot0{,}20\\), \\(P=6{,}0F\\).</p><p><strong>Svar:</strong> \\(60\\,757\\) W</p></li><li><p>\\(F+1\\,600\\cdot9{,}82\\sin2{,}0^\\circ-260=1\\,600\\cdot0{,}75\\iff F=912\\) N, \\(v=\\dfrac{10\\,800}{F}\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p></li></ol>",
+    "id": "5.569",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.7,
+      60756.75314067767,
+      11.846533323119315
+    ],
+    "tolerans": [
+      0.0105,
+      911.0,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "W",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En lastbil (6,0 ton) på plan väg har motoreffekten 42 kW och den bromsande kraften 2,8 kN. Bestäm accelerationen vid 6,0 m/s.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (6,0 ton) på plan väg har motoreffekten 42 kW och den bromsande kraften 2,8 kN. Bestäm accelerationen vid 6,0 m/s.</p>",
+        "s": "<p>\\(F=\\dfrac{42\\,000}{6{,}0}\\), \\(a=\\dfrac{7\\,000-2\\,800}{6\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En lastbil (5,0 ton) kör uppför en backe som lutar 10,0° med 6,0 m/s och accelererar med 0,20 m/s². Den bromsande kraften är 600 N. Bestäm effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (5,0 ton) kör uppför en backe som lutar 10,0° med 6,0 m/s och accelererar med 0,20 m/s². Den bromsande kraften är 600 N. Bestäm effekten.</p>",
+        "s": "<p>\\(F=5\\,000\\cdot9{,}82\\sin10{,}0^\\circ+600+5\\,000\\cdot0{,}20\\), \\(P=6{,}0F\\).</p><p><strong>Svar:</strong> \\(60\\,757\\) W</p>",
+        "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En bil (1,60 ton) kör nedför en backe som lutar 2,0° med accelerationen 0,75 m/s². Den bromsande kraften är 260 N och effekten 10,8 kW. Bestäm farten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,60 ton) kör nedför en backe som lutar 2,0° med accelerationen 0,75 m/s². Den bromsande kraften är 260 N och effekten 10,8 kW. Bestäm farten.</p>",
+        "s": "<p>\\(F+1\\,600\\cdot9{,}82\\sin2{,}0^\\circ-260=1\\,600\\cdot0{,}75\\iff F=912\\) N, \\(v=\\dfrac{10\\,800}{F}\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p>",
+        "ledtrad": "<p>Nedför hjälper tyngden till.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "konstant fart i backe",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En bil (1,0 ton) kör med konstant 12 m/s uppför en backe som lutar 6,0°. Den bromsande kraften är 250 N. Bestäm effekten.</li><li>En bil (1 200 kg) kör med konstant 90 km/h uppför en backe som lutar 4,0° med effekten 31 kW. Bestäm den bromsande kraften.</li><li>En lastbil (5,0 ton) kör med konstant 54 km/h uppför en backe som lutar 6,0°. Den bromsande kraften är 2,5 kN. Bestäm effekten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=(1\\,000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\).</p><p><strong>Svar:</strong> \\(15\\,318\\) W</p></li><li><p>\\(F_b=\\dfrac{31\\,000}{25}-1\\,200\\cdot9{,}82\\sin4{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(418\\) N</p></li><li><p>\\(P=(5\\,000\\cdot9{,}82\\sin6{,}0^\\circ+2\\,500)\\cdot15\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) W</p></li></ol>",
+    "id": "5.570",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15317.634111460286,
+      417.9897133992274,
+      114485.21319662678
+    ],
+    "tolerans": [
+      510.0,
+      6.27,
+      5100.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "N",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bil (1,0 ton) kör med konstant 12 m/s uppför en backe som lutar 6,0°. Den bromsande kraften är 250 N. Bestäm effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,0 ton) kör med konstant 12 m/s uppför en backe som lutar 6,0°. Den bromsande kraften är 250 N. Bestäm effekten.</p>",
+        "s": "<p>\\(P=(1\\,000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\).</p><p><strong>Svar:</strong> \\(15\\,318\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil (1 200 kg) kör med konstant 90 km/h uppför en backe som lutar 4,0° med effekten 31 kW. Bestäm den bromsande kraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 200 kg) kör med konstant 90 km/h uppför en backe som lutar 4,0° med effekten 31 kW. Bestäm den bromsande kraften.</p>",
+        "s": "<p>\\(F_b=\\dfrac{31\\,000}{25}-1\\,200\\cdot9{,}82\\sin4{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(418\\) N</p>",
+        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En lastbil (5,0 ton) kör med konstant 54 km/h uppför en backe som lutar 6,0°. Den bromsande kraften är 2,5 kN. Bestäm effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (5,0 ton) kör med konstant 54 km/h uppför en backe som lutar 6,0°. Den bromsande kraften är 2,5 kN. Bestäm effekten.</p>",
+        "s": "<p>\\(P=(5\\,000\\cdot9{,}82\\sin6{,}0^\\circ+2\\,500)\\cdot15\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "acceleration uppför och nedför",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p><ol type=\"a\"><li>nedför backen.</li><li>uppför backen (negativt om den saktar in).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{500+1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(0{,}37\\) m/s²</p></li><li><p>\\(a=\\dfrac{500-1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(-0{,}0085\\) m/s²</p></li></ol>",
+    "id": "5.571",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.36851888436495256,
+      -0.008518884364952555
+    ],
+    "tolerans": [
+      0.00553,
+      0.000128
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "nedför backen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p><p>nedför backen.</p>",
+        "s": "<p>\\(a=\\dfrac{500+1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(0{,}37\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "uppför backen (negativt om den saktar in).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p><p>uppför backen (negativt om den saktar in).</p>",
+        "s": "<p>\\(a=\\dfrac{500-1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(-0{,}0085\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "backens lutning ur effekt",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,5 ton) kör uppför en backe med 72 km/h och accelererar med 0,25 m/s². Motoreffekten är 65,1 kW och den bromsande kraften 360 N. Bestäm backens lutning.</p>",
+    "s": "<p>\\(F=\\dfrac{65\\,100}{20}\\). \\(\\sin\\alpha=\\dfrac{F-360-1\\,500\\cdot0{,}25}{1\\,500\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(9{,}9\\) °</p>",
+    "id": "5.572",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.85058530328354,
+    "tolerans": 0.148,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "bil med släp och effekt",
+    "poang": "(1/1/0)",
+    "t": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p><ol type=\"a\"><li>Bestäm kraften i kopplingen.</li><li>Bestäm bilens nyttiga effekt.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Släpet: \\(F_S-200=500\\cdot0{,}500\\).</p><p><strong>Svar:</strong> \\(450\\) N</p></li><li><p>\\(F=1\\,600\\cdot0{,}500+500\\), \\(P=F\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(19\\,500\\) W</p></li></ol>",
+    "id": "5.573",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      450,
+      19500
+    ],
+    "tolerans": [
+      6.75,
+      292.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm kraften i kopplingen.",
+        "t": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p><p>Bestäm kraften i kopplingen.</p>",
+        "s": "<p>Släpet: \\(F_S-200=500\\cdot0{,}500\\).</p><p><strong>Svar:</strong> \\(450\\) N</p>",
+        "ledtrad": "<p>Frilägg släpet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm bilens nyttiga effekt.",
+        "t": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p><p>Bestäm bilens nyttiga effekt.</p>",
+        "s": "<p>\\(F=1\\,600\\cdot0{,}500+500\\), \\(P=F\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(19\\,500\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "luftmotstånd som beror på farten",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Luftmotståndet på en cyklist (80 kg med cykel) är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° med konstant 3,5 m/s. Bortse från annan friktion.</p><ol type=\"a\"><li>Bestäm \\(k\\) (i kg/m).</li><li>Vilken effekt krävs uppför en backe som lutar 1,5° med konstant 2,0 m/s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k\\cdot3{,}5^2=80\\cdot9{,}82\\sin3{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(3{,}4\\) kg/m</p></li><li><p>\\(P=(80\\cdot9{,}82\\sin1{,}5^\\circ+k\\cdot2{,}0^2)\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(68\\) W</p></li></ol>",
+    "id": "5.574",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.356336916282178,
+      67.97991651158773
+    ],
+    "tolerans": [
+      0.051,
+      1.02
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg/m",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Luftmotståndet på en cyklist (80 kg med cykel) är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° med konstant 3,5 m/s. Bortse från annan friktion.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(k\\) (i kg/m).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Luftmotståndet på en cyklist (80 kg med cykel) är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° med konstant 3,5 m/s. Bortse från annan friktion.</p><p>Bestäm \\(k\\) (i kg/m).</p>",
+        "s": "<p>\\(k\\cdot3{,}5^2=80\\cdot9{,}82\\sin3{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(3{,}4\\) kg/m</p>",
+        "ledtrad": "<p>Jämvikt längs backen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken effekt krävs uppför en backe som lutar 1,5° med konstant 2,0 m/s?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Luftmotståndet på en cyklist (80 kg med cykel) är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° med konstant 3,5 m/s. Bortse från annan friktion.</p>\\(k=3{,}4\\) kg/m.<p>Vilken effekt krävs uppför en backe som lutar 1,5° med konstant 2,0 m/s?</p>",
+        "s": "<p>\\(P=(80\\cdot9{,}82\\sin1{,}5^\\circ+k\\cdot2{,}0^2)\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(68\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "cykeldatorn",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Vilken effekt krävs med konstant 3,0 m/s uppför en backe som lutar 4,0°, med samma bromsande kraft?</li><li>Anta i stället att den bromsande kraften är luftmotstånd \\(kv^2\\). Vilken effekt krävs då i backen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{120}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(30\\) N</p></li><li><p>\\(P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(213\\) W</p></li><li><p>\\(k=\\dfrac{30}{4{,}0^2}\\). \\(P=(k\\cdot3{,}0^2+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(174\\) W</p></li></ol>",
+    "id": "5.575",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      213.3015429901159,
+      173.92654299011588
+    ],
+    "tolerans": [
+      0.51,
+      5.1,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "W",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den bromsande kraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p><p>Bestäm den bromsande kraften.</p>",
+        "s": "<p>\\(F=\\dfrac{120}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(30\\) N</p>",
+        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken effekt krävs med konstant 3,0 m/s uppför en backe som lutar 4,0°, med samma bromsande kraft?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p><p>Vilken effekt krävs med konstant 3,0 m/s uppför en backe som lutar 4,0°, med samma bromsande kraft?</p>",
+        "s": "<p>\\(P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(213\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Anta i stället att den bromsande kraften är luftmotstånd \\(kv^2\\). Vilken effekt krävs då i backen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p><p>Anta i stället att den bromsande kraften är luftmotstånd \\(kv^2\\). Vilken effekt krävs då i backen?</p>",
+        "s": "<p>\\(k=\\dfrac{30}{4{,}0^2}\\). \\(P=(k\\cdot3{,}0^2+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(174\\) W</p>",
+        "ledtrad": "<p>Bestäm \\(k\\) på plan väg.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "högsta fart uppför backe",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (4 000 kg) kör uppför en backe som lutar 3,5° med motoreffekten 90 kW och en konstant bromsande kraft. Vid 14,4 m/s är accelerationen 0,20 m/s². Bestäm högsta farten uppför backen.</p>",
+    "s": "<p>\\(F_b=\\dfrac{90\\,000}{14{,}4}-4\\,000\\cdot9{,}82\\sin3{,}5^\\circ-800\\). Högsta fart när \\(a=0\\): \\(v=\\dfrac{90\\,000}{F_b+4\\,000\\cdot9{,}82\\sin3{,}5^\\circ}\\).</p><p><strong>Svar:</strong> \\(17\\) m/s</p>",
+    "id": "5.576",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 16.513761467889907,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den bromsande kraften först.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "effekt ur högsta fart",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,5 ton) kör uppför en backe som lutar 2,3° med konstant effekt och konstant bromsande kraft. Vid 16 m/s är accelerationen 0,30 m/s², och högsta farten är 23,2 m/s. Bestäm effekten.</p>",
+    "s": "<p>\\(\\dfrac{P}{16}-\\dfrac{P}{23{,}2}=1\\,500\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(23\\,200\\) W</p>",
+    "id": "5.577",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 23200.000000000004,
+    "tolerans": 348.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp ekvationer för båda tillfällena.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "W",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "bromsande kraft och lutning ur två körningar",
+    "poang": "(0/2/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Bestäm backens lutning.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Upp: \\(4\\,800-F_b-mg\\sin\\alpha=300\\). Ner: \\(3\\,000-F_b+mg\\sin\\alpha=450\\). Addera: \\(7\\,800-2F_b=750\\).</p><p><strong>Svar:</strong> \\(3\\,525\\) N</p></li><li><p>\\(mg\\sin\\alpha=4\\,800-3\\,525-300\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) °</p></li></ol>",
+    "id": "5.578",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3525.0,
+      3.79526531611836
+    ],
+    "tolerans": [
+      52.9,
+      0.0569
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den bromsande kraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p><p>Bestäm den bromsande kraften.</p>",
+        "s": "<p>Upp: \\(4\\,800-F_b-mg\\sin\\alpha=300\\). Ner: \\(3\\,000-F_b+mg\\sin\\alpha=450\\). Addera: \\(7\\,800-2F_b=750\\).</p><p><strong>Svar:</strong> \\(3\\,525\\) N</p>",
+        "ledtrad": "<p>Två ekvationer.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm backens lutning.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p>Den bromsande kraften är 3,5 kN.<p>Bestäm backens lutning.</p>",
+        "s": "<p>\\(mg\\sin\\alpha=4\\,800-3\\,525-300\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) °</p>",
+        "ledtrad": "<p>Sätt in i en av ekvationerna.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "motorcykel med fartberoende motstånd",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En motorcykel (300 kg) har största effekten 54 kW och den bromsande kraften \\(a+bv\\). Högsta farten är 60 m/s på plan väg och 50 m/s uppför en backe som lutar 5,0°. Bestäm accelerationen på plan väg vid 30 m/s.</p>",
+    "s": "<p>\\(900=a+60b\\) och \\(1\\,080=a+50b+300\\cdot9{,}82\\sin5{,}0^\\circ\\) ger \\(b=7{,}68\\), \\(a=439\\). Vid 30 m/s: \\(\\dfrac{54\\,000/30-(a+30b)}{300}\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) m/s²</p>",
+    "id": "5.579",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.7676081813460103,
+    "tolerans": 0.0565,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två ekvationer för \\(a\\) och \\(b\\).</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "acceleration ur högsta farter",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 000 kg) har konstant effekt och konstant bromsande kraft. Uppför en backe som lutar 4,0° är högsta farten 15 m/s, nedför samma backe 21 m/s. Bestäm accelerationen på plan väg vid 14 m/s.</p>",
+    "s": "<p>\\(\\dfrac P{15}=F_b+mg\\sin4^\\circ\\), \\(\\dfrac P{21}=F_b-mg\\sin4^\\circ\\). Ger \\(P\\) och \\(F_b\\). \\(a=\\dfrac{P/14-F_b}{1\\,000}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s²</p>",
+    "id": "5.580",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.027512858250966,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två ekvationer.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "helikopter lyfter",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En helikopter (810 kg) går från vila till 11,0 m/s rakt upp på 3,5 s och stiger då 8,5 m. Bestäm medeleffekten.</p>",
+    "s": "<p>\\(P=\\dfrac{\\tfrac12\\cdot810\\cdot11{,}0^2+810\\cdot9{,}82\\cdot8{,}5}{3{,}5}\\).</p><p><strong>Svar:</strong> \\(33\\,319\\) W</p>",
+    "id": "5.581",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt P = W/t",
+    "svarstyp": "numeriskt",
+    "rättSvar": 33318.771428571425,
+    "tolerans": 510.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Både rörelse- och lägesenergi.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "W",
+    "familjNyckel": "effekt__effekt_p_w_t",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "cyklist med fartberoende motstånd",
+    "poang": "(1/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>John och cykeln väger 90,0 kg. På plan väg med konstant 3,20 m/s utvecklar han 560 W.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Nedför en backe som lutar 5,50° utvecklar han 144 W med konstant fart \\(v\\). Den bromsande kraften är \\(8v\\) N. Bestäm \\(v\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{560}{3{,}20}\\).</p><p><strong>Svar:</strong> \\(175\\) N</p></li><li><p>\\(\\dfrac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\iff8v^2-84{,}7v-144=0\\).</p><p><strong>Svar:</strong> \\(12{,}1\\) m/s</p></li></ol>",
+    "id": "5.582",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      175,
+      12.078776650145427
+    ],
+    "tolerans": [
+      2.62,
+      0.181
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>John och cykeln väger 90,0 kg. På plan väg med konstant 3,20 m/s utvecklar han 560 W.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den bromsande kraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>John och cykeln väger 90,0 kg. På plan väg med konstant 3,20 m/s utvecklar han 560 W.</p><p>Bestäm den bromsande kraften.</p>",
+        "s": "<p>\\(F=\\dfrac{560}{3{,}20}\\).</p><p><strong>Svar:</strong> \\(175\\) N</p>",
+        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Nedför en backe som lutar 5,50° utvecklar han 144 W med konstant fart \\(v\\). Den bromsande kraften är \\(8v\\) N. Bestäm \\(v\\).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>John och cykeln väger 90,0 kg. På plan väg med konstant 3,20 m/s utvecklar han 560 W.</p><p>Nedför en backe som lutar 5,50° utvecklar han 144 W med konstant fart \\(v\\). Den bromsande kraften är \\(8v\\) N. Bestäm \\(v\\).</p>",
+        "s": "<p>\\(\\dfrac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\iff8v^2-84{,}7v-144=0\\).</p><p><strong>Svar:</strong> \\(12{,}1\\) m/s</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "kolvagn dras uppför",
+    "poang": "(0/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelereras från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><ol type=\"a\"><li>Vilken effekt krävs vid konstant fart?</li><li>Vilken är den största effekten under färden?</li><li>Hur stort arbete gör motorn minst under hela färden?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=950\\cdot9{,}82\\sin30^\\circ\\cdot2{,}20\\).</p><p><strong>Svar:</strong> \\(10\\,262\\) W</p></li><li><p>Under accelerationen: \\(F=mg\\sin30^\\circ+m\\cdot\\dfrac{2{,}20}{12{,}0}\\), störst effekt vid 2,20 m/s.</p><p><strong>Svar:</strong> \\(10\\,645\\) W</p></li><li><p>\\(W=950\\cdot9{,}82\\cdot625+\\tfrac12\\cdot950\\cdot2{,}20^2\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{6}\\) J</p></li></ol>",
+    "id": "5.583",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10261.900000000001,
+      10645.066666666668,
+      5832924.0
+    ],
+    "tolerans": [
+      154.0,
+      160.0,
+      87500.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "W",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelereras från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken effekt krävs vid konstant fart?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelereras från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><p>Vilken effekt krävs vid konstant fart?</p>",
+        "s": "<p>\\(P=950\\cdot9{,}82\\sin30^\\circ\\cdot2{,}20\\).</p><p><strong>Svar:</strong> \\(10\\,262\\) W</p>",
+        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den största effekten under färden?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelereras från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><p>Vilken är den största effekten under färden?</p>",
+        "s": "<p>Under accelerationen: \\(F=mg\\sin30^\\circ+m\\cdot\\dfrac{2{,}20}{12{,}0}\\), störst effekt vid 2,20 m/s.</p><p><strong>Svar:</strong> \\(10\\,645\\) W</p>",
+        "ledtrad": "<p>Kraften är störst under accelerationen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stort arbete gör motorn minst under hela färden?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelereras från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><p>Hur stort arbete gör motorn minst under hela färden?</p>",
+        "s": "<p>\\(W=950\\cdot9{,}82\\cdot625+\\tfrac12\\cdot950\\cdot2{,}20^2\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{6}\\) J</p>",
+        "ledtrad": "<p>Läges- och rörelseenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "effekt med luftmotstånd kv²",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (6,0 ton) har den bromsande kraften \\(kv^2\\). Med effekten \\(P\\) håller den 20 m/s på plan väg och 10 m/s uppför en backe som lutar 4,0°. Bestäm \\(P\\).</p>",
+    "s": "<p>\\(P=k\\cdot20^3\\) och \\(P=(k\\cdot10^2+6\\,000\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot10\\). Ger \\(7\\,000k=10\\cdot6\\,000\\cdot9{,}82\\sin4{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{5}\\) W</p>",
+    "id": "5.584",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 469720.1637718701,
+    "tolerans": 7050.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två ekvationer.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "W",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "fart ur effekt och fartberoende motstånd",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 200 kg) kör uppför en backe som lutar 4,00°. Effekten är 21,6 kW och accelerationen 0,500 m/s². Den bromsande kraften är \\(30v\\) N. Bestäm \\(v\\).</p>",
+    "s": "<p>\\(\\dfrac{21\\,600}{v}-30v-1\\,200\\cdot9{,}82\\sin4{,}00^\\circ=600\\iff30v^2+1\\,422v-21\\,600=0\\).</p><p><strong>Svar:</strong> \\(12{,}1\\) m/s</p>",
+    "id": "5.585",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.100640369292943,
+    "tolerans": 0.182,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Andragradsekvation.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "löpare i medvind uppför backe",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Lina (80 kg) springer med konstant 3,0 m/s uppför en backe som lutar 5,0°. Medvinden ger en konstant kraft på 7,0 N framåt. Bestäm hennes effekt.</p>",
+    "s": "<p>\\(P=(80\\cdot9{,}82\\sin5{,}0^\\circ-7{,}0)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(184\\) W</p>",
+    "id": "5.586",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 184.40865450768075,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "W",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "lutning ur effektskillnad",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (1 900 kg) kör med konstant 100 km/h uppför och nedför samma backe med samma bromsande kraft. Uppför krävs 47 hk mer än nedför. Bestäm backens lutning.</p>",
+    "s": "<p>\\(P_\\text{upp}-P_\\text{ner}=2mg\\sin\\alpha\\cdot v\\iff\\sin\\alpha=\\dfrac{47\\cdot735{,}5}{2\\cdot1\\,900\\cdot9{,}82\\cdot27{,}8}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) °</p>",
+    "id": "5.587",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Effekt och fart (P = F·v)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.9111339127597606,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Subtrahera ekvationerna.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°",
+    "familjNyckel": "effekt__effekt_och_fart_p_fv",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "E",
+    "typ": "verkningsgrad grunder",
+    "poang": "(4/0/0)",
+    "t": "<p>1 hk = 735,5 W.</p><ol type=\"a\"><li>En bilmotor avger 44 hk med verkningsgraden 29 %. Bestäm den tillförda effekten i hk.</li><li>En reaktor ger värmeeffekten 3 900 MW och den elektriska effekten 1 400 MW. Bestäm verkningsgraden.</li><li>En pump med verkningsgraden 75 % ger 1 200 W nyttig effekt. Bestäm den tillförda effekten.</li><li>En glödlampa (60 W, verkningsgrad 5,0 %) ersätts av en lågenergilampa (25 %) med samma ljus. Bestäm lågenergilampans effekt.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\dfrac{44}{0{,}29}\\).</p><p><strong>Svar:</strong> \\(152\\) hk</p></li><li><p>\\(\\eta=\\dfrac{1\\,400}{3\\,900}\\).</p><p><strong>Svar:</strong> \\(0{,}36\\)</p></li><li><p>\\(P=\\dfrac{1\\,200}{0{,}75}\\).</p><p><strong>Svar:</strong> \\(1\\,600\\) W</p></li><li><p>\\(P=\\dfrac{0{,}050\\cdot60}{0{,}25}\\).</p><p><strong>Svar:</strong> \\(12\\) W</p></li></ol>",
+    "id": "5.588",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      151.7241379310345,
+      0.358974358974359,
+      1600,
+      12
+    ],
+    "tolerans": [
+      5.1,
+      0.00538,
+      51.0,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "hk",
+      null,
+      "W",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>1 hk = 735,5 W.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bilmotor avger 44 hk med verkningsgraden 29 %. Bestäm den tillförda effekten i hk.",
+        "t": "<p>1 hk = 735,5 W.</p><p>En bilmotor avger 44 hk med verkningsgraden 29 %. Bestäm den tillförda effekten i hk.</p>",
+        "s": "<p>\\(P=\\dfrac{44}{0{,}29}\\).</p><p><strong>Svar:</strong> \\(152\\) hk</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En reaktor ger värmeeffekten 3 900 MW och den elektriska effekten 1 400 MW. Bestäm verkningsgraden.",
+        "t": "<p>1 hk = 735,5 W.</p><p>En reaktor ger värmeeffekten 3 900 MW och den elektriska effekten 1 400 MW. Bestäm verkningsgraden.</p>",
+        "s": "<p>\\(\\eta=\\dfrac{1\\,400}{3\\,900}\\).</p><p><strong>Svar:</strong> \\(0{,}36\\)</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En pump med verkningsgraden 75 % ger 1 200 W nyttig effekt. Bestäm den tillförda effekten.",
+        "t": "<p>1 hk = 735,5 W.</p><p>En pump med verkningsgraden 75 % ger 1 200 W nyttig effekt. Bestäm den tillförda effekten.</p>",
+        "s": "<p>\\(P=\\dfrac{1\\,200}{0{,}75}\\).</p><p><strong>Svar:</strong> \\(1\\,600\\) W</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En glödlampa (60 W, verkningsgrad 5,0 %) ersätts av en lågenergilampa (25 %) med samma ljus. Bestäm lågenergilampans effekt.",
+        "t": "<p>1 hk = 735,5 W.</p><p>En glödlampa (60 W, verkningsgrad 5,0 %) ersätts av en lågenergilampa (25 %) med samma ljus. Bestäm lågenergilampans effekt.</p>",
+        "s": "<p>\\(P=\\dfrac{0{,}050\\cdot60}{0{,}25}\\).</p><p><strong>Svar:</strong> \\(12\\) W</p>",
+        "ledtrad": "<p>Samma nyttiga effekt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "chokladbitar för kroppsarbete",
+    "poang": "(0/1/0)",
+    "t": "<p>Kalle utför ett arbete på 5,0 kJ med kroppens verkningsgrad 20 %. Varje chokladbit innehåller 320 J, varav kroppen tar upp 60 %. Hur många hela bitar behövs?</p>",
+    "s": "<p>Energi som behövs: \\(\\dfrac{5{,}0}{0{,}20}=25\\) kJ. Per bit: \\(0{,}60\\cdot320=192\\) J. \\(\\dfrac{25\\,000}{192}=130{,}2\\): 131 bitar.</p><p><strong>Svar:</strong> \\(131\\) </p>",
+    "id": "5.589",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "numeriskt",
+    "rättSvar": 131,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två verkningsgrader.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "el i vardagen",
+    "poang": "(2/1/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En solcell (32 cm × 15 cm, verkningsgrad 14 %) träffas av 0,95 kW/m². Bestäm den nyttiga effekten.</li><li>En laddare (verkningsgrad 80 %) ger 4,8 W i 5,0 h. Vad kostar laddningen i öre om elpriset är 0,98 kr/kWh?</li><li>En spisplatta (1,2 kW, verkningsgrad 90 %) används i 28 minuter. Hur mycket energi går förlorad?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=0{,}14\\cdot950\\cdot0{,}32\\cdot0{,}15\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) W</p></li><li><p>Tillförd energi: \\(\\dfrac{4{,}8\\cdot5{,}0}{0{,}80}=30\\) Wh. \\(0{,}030\\cdot98\\) öre.</p><p><strong>Svar:</strong> \\(2{,}9\\) öre</p></li><li><p>\\(E=0{,}10\\cdot1\\,200\\cdot28\\cdot60\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{5}\\) J</p></li></ol>",
+    "id": "5.590",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.384,
+      2.94,
+      201600.0
+    ],
+    "tolerans": [
+      0.0958,
+      0.051,
+      5100.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "öre",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En solcell (32 cm × 15 cm, verkningsgrad 14 %) träffas av 0,95 kW/m². Bestäm den nyttiga effekten.",
+        "t": "<p>Bestäm.</p><p>En solcell (32 cm × 15 cm, verkningsgrad 14 %) träffas av 0,95 kW/m². Bestäm den nyttiga effekten.</p>",
+        "s": "<p>\\(P=0{,}14\\cdot950\\cdot0{,}32\\cdot0{,}15\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) W</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En laddare (verkningsgrad 80 %) ger 4,8 W i 5,0 h. Vad kostar laddningen i öre om elpriset är 0,98 kr/kWh?",
+        "t": "<p>Bestäm.</p><p>En laddare (verkningsgrad 80 %) ger 4,8 W i 5,0 h. Vad kostar laddningen i öre om elpriset är 0,98 kr/kWh?</p>",
+        "s": "<p>Tillförd energi: \\(\\dfrac{4{,}8\\cdot5{,}0}{0{,}80}=30\\) Wh. \\(0{,}030\\cdot98\\) öre.</p><p><strong>Svar:</strong> \\(2{,}9\\) öre</p>",
+        "ledtrad": "<p>Tillförd energi i kWh.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En spisplatta (1,2 kW, verkningsgrad 90 %) används i 28 minuter. Hur mycket energi går förlorad?",
+        "t": "<p>Bestäm.</p><p>En spisplatta (1,2 kW, verkningsgrad 90 %) används i 28 minuter. Hur mycket energi går förlorad?</p>",
+        "s": "<p>\\(E=0{,}10\\cdot1\\,200\\cdot28\\cdot60\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{5}\\) J</p>",
+        "ledtrad": "<p>Förlusten är 10 %.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "vindkraft mot kärnkraft",
+    "poang": "(1/1/0)",
+    "t": "<p>Ett vindkraftverk ger 3,0 MW när det är i drift, vilket det är 90 % av året (8 760 h).</p><ol type=\"a\"><li>Hur mycket energi ger det per år? Svara i kWh.</li><li>Hur många verk behövs för att ersätta 63 TWh per år?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=3\\,000\\cdot0{,}90\\cdot8\\,760\\) kWh.</p><p><strong>Svar:</strong> \\(2{,}4\\cdot10^{7}\\) kWh</p></li><li><p>\\(\\dfrac{63\\cdot10^9}{2{,}37\\cdot10^7}\\) kWh.</p><p><strong>Svar:</strong> \\(2\\,664\\)</p></li></ol>",
+    "id": "5.591",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      23652000.0,
+      2663.6225266362253
+    ],
+    "tolerans": [
+      510000.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kWh",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett vindkraftverk ger 3,0 MW när det är i drift, vilket det är 90 % av året (8 760 h).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi ger det per år? Svara i kWh.",
+        "t": "<p>Ett vindkraftverk ger 3,0 MW när det är i drift, vilket det är 90 % av året (8 760 h).</p><p>Hur mycket energi ger det per år? Svara i kWh.</p>",
+        "s": "<p>\\(E=3\\,000\\cdot0{,}90\\cdot8\\,760\\) kWh.</p><p><strong>Svar:</strong> \\(2{,}4\\cdot10^{7}\\) kWh</p>",
+        "ledtrad": "<p>\\(E=Pt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många verk behövs för att ersätta 63 TWh per år?",
+        "t": "<p>Ett vindkraftverk ger 3,0 MW när det är i drift, vilket det är 90 % av året (8 760 h).</p><p>Hur många verk behövs för att ersätta 63 TWh per år?</p>",
+        "s": "<p>\\(\\dfrac{63\\cdot10^9}{2{,}37\\cdot10^7}\\) kWh.</p><p><strong>Svar:</strong> \\(2\\,664\\)</p>",
+        "ledtrad": "<p>Dela total energi med ett verks energi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E=Pt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "lyft med verkningsgrad",
+    "poang": "(0/4/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En hiss (600 kg) lyfts 10 m på 12 s med maskineriets verkningsgrad 83 %. Bestäm den tillförda effekten.</li><li>En brandman (89 kg) klättrar 12,0 m på 8,0 s med kroppens verkningsgrad 20 %. Bestäm den totala effekten.</li><li>En lyftkran (25 kW, verkningsgrad 85 %) lyfter 600 kg 20 m. Hur lång tid tar det?</li><li>En motor (7 350 W) driver en kran med verkningsgraden 60 %. Med vilken fart lyfts 1,5 ton?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=\\dfrac{600\\cdot9{,}82\\cdot10}{12\\cdot0{,}83}\\).</p><p><strong>Svar:</strong> \\(5\\,916\\) W</p></li><li><p>\\(P=\\dfrac{89\\cdot9{,}82\\cdot12{,}0}{8{,}0\\cdot0{,}20}\\).</p><p><strong>Svar:</strong> \\(6\\,555\\) W</p></li><li><p>\\(t=\\dfrac{600\\cdot9{,}82\\cdot20}{0{,}85\\cdot25\\,000}\\).</p><p><strong>Svar:</strong> \\(5{,}5\\) s</p></li><li><p>\\(v=\\dfrac{0{,}60\\cdot7\\,350}{1\\,500\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}30\\) m/s</p></li></ol>",
+    "id": "5.592",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5915.6626506024095,
+      6554.849999999999,
+      5.545411764705882,
+      0.29938900203665986
+    ],
+    "tolerans": [
+      88.7,
+      98.3,
+      0.0832,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "W",
+      "W",
+      "s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En hiss (600 kg) lyfts 10 m på 12 s med maskineriets verkningsgrad 83 %. Bestäm den tillförda effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (600 kg) lyfts 10 m på 12 s med maskineriets verkningsgrad 83 %. Bestäm den tillförda effekten.</p>",
+        "s": "<p>\\(P=\\dfrac{600\\cdot9{,}82\\cdot10}{12\\cdot0{,}83}\\).</p><p><strong>Svar:</strong> \\(5\\,916\\) W</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En brandman (89 kg) klättrar 12,0 m på 8,0 s med kroppens verkningsgrad 20 %. Bestäm den totala effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (89 kg) klättrar 12,0 m på 8,0 s med kroppens verkningsgrad 20 %. Bestäm den totala effekten.</p>",
+        "s": "<p>\\(P=\\dfrac{89\\cdot9{,}82\\cdot12{,}0}{8{,}0\\cdot0{,}20}\\).</p><p><strong>Svar:</strong> \\(6\\,555\\) W</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En lyftkran (25 kW, verkningsgrad 85 %) lyfter 600 kg 20 m. Hur lång tid tar det?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lyftkran (25 kW, verkningsgrad 85 %) lyfter 600 kg 20 m. Hur lång tid tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{600\\cdot9{,}82\\cdot20}{0{,}85\\cdot25\\,000}\\).</p><p><strong>Svar:</strong> \\(5{,}5\\) s</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En motor (7 350 W) driver en kran med verkningsgraden 60 %. Med vilken fart lyfts 1,5 ton?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En motor (7 350 W) driver en kran med verkningsgraden 60 %. Med vilken fart lyfts 1,5 ton?</p>",
+        "s": "<p>\\(v=\\dfrac{0{,}60\\cdot7\\,350}{1\\,500\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}30\\) m/s</p>",
+        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "batteri till vinsch",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett batteri innehåller 0,50 kWh. Varje lyft hissar 55 kg 15 m. Verkningsgraden är 60 %. Hur många hela lyft räcker batteriet till?</p>",
+    "s": "<p>\\(\\dfrac{0{,}60\\cdot0{,}50\\cdot3{,}6\\cdot10^6}{55\\cdot9{,}82\\cdot15}=133{,}3\\): 133 lyft.</p><p><strong>Svar:</strong> \\(133\\) </p>",
+    "id": "5.593",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "numeriskt",
+    "rättSvar": 133,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nyttig energi delat med energi per lyft.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "pumpar och vatten",
+    "poang": "(0/4/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><ol type=\"a\"><li>Ett pumpverk pumpar 5,0 m³ vatten 20 m upp på en timme och förbrukar 1,3 MJ. Bestäm verkningsgraden.</li><li>En bassäng (75 m³) töms med en pump (1,0 kW, verkningsgrad 80 %). Vattnet lyfts i snitt 2,4 m. Hur många minuter tar det?</li><li>Hur många m³ vatten per timme kan en pump (2,5 kW, verkningsgrad 60 %) lyfta 30 m?</li><li>Ett reningsverk pumpar 1 890 m³ avloppsvatten (1 050 kg/m³) 5,49 m upp per dygn med eleffekten 5,90 kW. Bestäm verkningsgraden.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\eta=\\dfrac{5\\,000\\cdot9{,}82\\cdot20}{1{,}3\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}76\\)</p></li><li><p>\\(t=\\dfrac{75\\,000\\cdot9{,}82\\cdot2{,}4}{800}\\) s.</p><p><strong>Svar:</strong> \\(37\\) min</p></li><li><p>\\(V=\\dfrac{0{,}60\\cdot2\\,500\\cdot3\\,600}{1\\,000\\cdot9{,}82\\cdot30}\\).</p><p><strong>Svar:</strong> \\(18\\) m³</p></li><li><p>\\(\\eta=\\dfrac{1\\,890\\cdot1\\,050\\cdot9{,}82\\cdot5{,}49}{5\\,900\\cdot86\\,400}\\).</p><p><strong>Svar:</strong> \\(0{,}21\\)</p></li></ol>",
+    "id": "5.594",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.7553846153846154,
+      36.825,
+      18.329938900203665,
+      0.20987909427966103
+    ],
+    "tolerans": [
+      0.0113,
+      0.552,
+      0.51,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      null,
+      "min",
+      "m³",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett pumpverk pumpar 5,0 m³ vatten 20 m upp på en timme och förbrukar 1,3 MJ. Bestäm verkningsgraden.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><p>Ett pumpverk pumpar 5,0 m³ vatten 20 m upp på en timme och förbrukar 1,3 MJ. Bestäm verkningsgraden.</p>",
+        "s": "<p>\\(\\eta=\\dfrac{5\\,000\\cdot9{,}82\\cdot20}{1{,}3\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}76\\)</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bassäng (75 m³) töms med en pump (1,0 kW, verkningsgrad 80 %). Vattnet lyfts i snitt 2,4 m. Hur många minuter tar det?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><p>En bassäng (75 m³) töms med en pump (1,0 kW, verkningsgrad 80 %). Vattnet lyfts i snitt 2,4 m. Hur många minuter tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{75\\,000\\cdot9{,}82\\cdot2{,}4}{800}\\) s.</p><p><strong>Svar:</strong> \\(37\\) min</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många m³ vatten per timme kan en pump (2,5 kW, verkningsgrad 60 %) lyfta 30 m?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><p>Hur många m³ vatten per timme kan en pump (2,5 kW, verkningsgrad 60 %) lyfta 30 m?</p>",
+        "s": "<p>\\(V=\\dfrac{0{,}60\\cdot2\\,500\\cdot3\\,600}{1\\,000\\cdot9{,}82\\cdot30}\\).</p><p><strong>Svar:</strong> \\(18\\) m³</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Ett reningsverk pumpar 1 890 m³ avloppsvatten (1 050 kg/m³) 5,49 m upp per dygn med eleffekten 5,90 kW. Bestäm verkningsgraden.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><p>Ett reningsverk pumpar 1 890 m³ avloppsvatten (1 050 kg/m³) 5,49 m upp per dygn med eleffekten 5,90 kW. Bestäm verkningsgraden.</p>",
+        "s": "<p>\\(\\eta=\\dfrac{1\\,890\\cdot1\\,050\\cdot9{,}82\\cdot5{,}49}{5\\,900\\cdot86\\,400}\\).</p><p><strong>Svar:</strong> \\(0{,}21\\)</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "vattenkraft",
+    "poang": "(1/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><ol type=\"a\"><li>Ett kraftverk har fallhöjden 75 m, flödet 450 m³/s och verkningsgraden 90 %. Bestäm effekten.</li><li>Vilket flöde (m³/s) krävs för 500 kW vid fallhöjden 3,0 m och verkningsgraden 65 %?</li><li>Ett magasin (2,0 km²) sänks 5,0 cm per dygn med fallhöjden 20 m och verkningsgraden 75 %. Bestäm effekten.</li><li>En sjö (500 km²) driver ett kraftverk (120 MW, fallhöjd 18,5 m, verkningsgrad 75 %). Hur mycket sjunker vattenytan per dygn?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=0{,}90\\cdot450\\cdot1\\,000\\cdot9{,}82\\cdot75\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{8}\\) W</p></li><li><p>\\(Q=\\dfrac{500\\cdot10^3}{0{,}65\\cdot1\\,000\\cdot9{,}82\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(26\\) m³/s</p></li><li><p>\\(m=2{,}0\\cdot10^6\\cdot0{,}050\\cdot1\\,000\\), \\(P=\\dfrac{0{,}75\\cdot m\\cdot9{,}82\\cdot20}{86\\,400}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\cdot10^{5}\\) W</p></li><li><p>\\(m=\\dfrac{120\\cdot10^6\\cdot86\\,400}{0{,}75\\cdot9{,}82\\cdot18{,}5}\\), \\(h=\\dfrac{m}{1\\,000\\cdot500\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\) m</p></li></ol>",
+    "id": "5.595",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      298282500.0,
+      26.111024074364195,
+      170486.11111111112,
+      0.15218803324709637
+    ],
+    "tolerans": [
+      5100000.0,
+      0.51,
+      5100.0,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "W",
+      "m³/s",
+      "W",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett kraftverk har fallhöjden 75 m, flödet 450 m³/s och verkningsgraden 90 %. Bestäm effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><p>Ett kraftverk har fallhöjden 75 m, flödet 450 m³/s och verkningsgraden 90 %. Bestäm effekten.</p>",
+        "s": "<p>\\(P=0{,}90\\cdot450\\cdot1\\,000\\cdot9{,}82\\cdot75\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{8}\\) W</p>",
+        "ledtrad": "<p>Lägesenergi per sekund.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilket flöde (m³/s) krävs för 500 kW vid fallhöjden 3,0 m och verkningsgraden 65 %?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><p>Vilket flöde (m³/s) krävs för 500 kW vid fallhöjden 3,0 m och verkningsgraden 65 %?</p>",
+        "s": "<p>\\(Q=\\dfrac{500\\cdot10^3}{0{,}65\\cdot1\\,000\\cdot9{,}82\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(26\\) m³/s</p>",
+        "ledtrad": "<p>Lös ut flödet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett magasin (2,0 km²) sänks 5,0 cm per dygn med fallhöjden 20 m och verkningsgraden 75 %. Bestäm effekten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><p>Ett magasin (2,0 km²) sänks 5,0 cm per dygn med fallhöjden 20 m och verkningsgraden 75 %. Bestäm effekten.</p>",
+        "s": "<p>\\(m=2{,}0\\cdot10^6\\cdot0{,}050\\cdot1\\,000\\), \\(P=\\dfrac{0{,}75\\cdot m\\cdot9{,}82\\cdot20}{86\\,400}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\cdot10^{5}\\) W</p>",
+        "ledtrad": "<p>Energi per dygn.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En sjö (500 km²) driver ett kraftverk (120 MW, fallhöjd 18,5 m, verkningsgrad 75 %). Hur mycket sjunker vattenytan per dygn?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Vatten har densiteten 1 000 kg/m³.</p><p>En sjö (500 km²) driver ett kraftverk (120 MW, fallhöjd 18,5 m, verkningsgrad 75 %). Hur mycket sjunker vattenytan per dygn?</p>",
+        "s": "<p>\\(m=\\dfrac{120\\cdot10^6\\cdot86\\,400}{0{,}75\\cdot9{,}82\\cdot18{,}5}\\), \\(h=\\dfrac{m}{1\\,000\\cdot500\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\) m</p>",
+        "ledtrad": "<p>Massa vatten per dygn.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "turbin med restfart",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En turbin sitter 15 m under övre vattenytan och genomströmmas av 300 m³ vatten (1 000 kg/m³) per minut. Efter turbinen har vattnet farten 2,0 m/s. Verkningsgraden är 80 %. Bestäm turbinens effekt.</p>",
+    "s": "<p>\\(P=0{,}80\\cdot5\\,000\\left(9{,}82\\cdot15-\\dfrac{2{,}0^2}{2}\\right)\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{5}\\) W</p>",
+    "id": "5.596",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "numeriskt",
+    "rättSvar": 581200.0,
+    "tolerans": 8720.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vattnet behåller lite rörelseenergi.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "W",
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "vindkraftverkets effekt",
+    "poang": "(0/2/1)",
+    "t": "<p>Luften har densiteten 1,29 kg/m³ och vinden 8,0 m/s.</p><ol type=\"a\"><li>Bestäm rörelseenergin i en luftcylinder med radien 20 m och längden 100 m.</li><li>En rotor (diameter 40 m) har verkningsgraden 59 %. Bestäm effekten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\tfrac12\\cdot1{,}29\\cdot\\pi\\cdot20^2\\cdot100\\cdot8{,}0^2\\).</p><p><strong>Svar:</strong> \\(5{,}2\\cdot10^{6}\\) J</p></li><li><p>Massa per sekund: \\(\\rho Av\\). \\(P=0{,}59\\cdot\\tfrac12\\rho Av^3\\).</p><p><strong>Svar:</strong> \\(2{,}4\\cdot10^{5}\\) W</p></li></ol>",
+    "id": "5.597",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5187397.789607466,
+      244845.17566947243
+    ],
+    "tolerans": [
+      77800.0,
+      5100.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Luften har densiteten 1,29 kg/m³ och vinden 8,0 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm rörelseenergin i en luftcylinder med radien 20 m och längden 100 m.",
+        "t": "<p>Luften har densiteten 1,29 kg/m³ och vinden 8,0 m/s.</p><p>Bestäm rörelseenergin i en luftcylinder med radien 20 m och längden 100 m.</p>",
+        "s": "<p>\\(E=\\tfrac12\\cdot1{,}29\\cdot\\pi\\cdot20^2\\cdot100\\cdot8{,}0^2\\).</p><p><strong>Svar:</strong> \\(5{,}2\\cdot10^{6}\\) J</p>",
+        "ledtrad": "<p>\\(m=\\rho V\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En rotor (diameter 40 m) har verkningsgraden 59 %. Bestäm effekten.",
+        "t": "<p>Luften har densiteten 1,29 kg/m³ och vinden 8,0 m/s.</p><p>En rotor (diameter 40 m) har verkningsgraden 59 %. Bestäm effekten.</p>",
+        "s": "<p>Massa per sekund: \\(\\rho Av\\). \\(P=0{,}59\\cdot\\tfrac12\\rho Av^3\\).</p><p><strong>Svar:</strong> \\(2{,}4\\cdot10^{5}\\) W</p>",
+        "ledtrad": "<p>Hur mycket luft passerar per sekund?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(P=\\tfrac12\\rho Av^3\\) gånger verkningsgraden.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "bensin och bilar",
+    "poang": "(1/2/0)",
+    "t": "<p>1 liter bensin ger 40 MJ.</p><ol type=\"a\"><li>Hur långt kan en bil köra på 1 liter med dragkraften 2,5 kN och verkningsgraden 35 %?</li><li>En bil drar 0,80 liter per mil med verkningsgraden 20 %. Bestäm den drivande kraften.</li><li>En bil (1 000 kg) accelererar från 0 till 40 m/s med verkningsgraden 22 %. Hur många milliliter bensin går åt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=\\dfrac{0{,}35\\cdot40\\cdot10^6}{2\\,500}\\).</p><p><strong>Svar:</strong> \\(5\\,600\\) m</p></li><li><p>\\(F=\\dfrac{0{,}20\\cdot0{,}80\\cdot40\\cdot10^6}{10\\,000}\\).</p><p><strong>Svar:</strong> \\(640\\) N</p></li><li><p>\\(V=\\dfrac{\\tfrac12\\cdot1\\,000\\cdot40^2}{0{,}22\\cdot40\\cdot10^6}\\) liter.</p><p><strong>Svar:</strong> \\(91\\) ml</p></li></ol>",
+    "id": "5.598",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5600.0,
+      640.0000000000001,
+      90.9090909090909
+    ],
+    "tolerans": [
+      84.0,
+      9.6,
+      1.36
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "N",
+      "ml"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>1 liter bensin ger 40 MJ.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt kan en bil köra på 1 liter med dragkraften 2,5 kN och verkningsgraden 35 %?",
+        "t": "<p>1 liter bensin ger 40 MJ.</p><p>Hur långt kan en bil köra på 1 liter med dragkraften 2,5 kN och verkningsgraden 35 %?</p>",
+        "s": "<p>\\(s=\\dfrac{0{,}35\\cdot40\\cdot10^6}{2\\,500}\\).</p><p><strong>Svar:</strong> \\(5\\,600\\) m</p>",
+        "ledtrad": "<p>\\(W=Fs\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil drar 0,80 liter per mil med verkningsgraden 20 %. Bestäm den drivande kraften.",
+        "t": "<p>1 liter bensin ger 40 MJ.</p><p>En bil drar 0,80 liter per mil med verkningsgraden 20 %. Bestäm den drivande kraften.</p>",
+        "s": "<p>\\(F=\\dfrac{0{,}20\\cdot0{,}80\\cdot40\\cdot10^6}{10\\,000}\\).</p><p><strong>Svar:</strong> \\(640\\) N</p>",
+        "ledtrad": "<p>1 mil = 10 km.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En bil (1 000 kg) accelererar från 0 till 40 m/s med verkningsgraden 22 %. Hur många milliliter bensin går åt?",
+        "t": "<p>1 liter bensin ger 40 MJ.</p><p>En bil (1 000 kg) accelererar från 0 till 40 m/s med verkningsgraden 22 %. Hur många milliliter bensin går åt?</p>",
+        "s": "<p>\\(V=\\dfrac{\\tfrac12\\cdot1\\,000\\cdot40^2}{0{,}22\\cdot40\\cdot10^6}\\) liter.</p><p><strong>Svar:</strong> \\(91\\) ml</p>",
+        "ledtrad": "<p>Tillförd energi delat med 40 MJ.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "A",
+    "typ": "bil som rullar i backe",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,2 ton) rullar utan motor nedför en backe som lutar 3,0° med konstant 80 km/h. På plan mark i samma fart drar den 0,75 liter bensin per mil. Bensin har densiteten 0,80 kg/liter och energin 32 MJ/kg.</p><ol type=\"a\"><li>Vilken effekt krävs på plan mark i 80 km/h?</li><li>Bestäm motorns verkningsgrad.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Bromsande kraft: \\(1\\,200\\cdot9{,}82\\sin3{,}0^\\circ\\). \\(P=F\\cdot22{,}2\\).</p><p><strong>Svar:</strong> \\(13\\,705\\) W</p></li><li><p>Per timme: 6,0 liter, \\(E=6{,}0\\cdot0{,}80\\cdot32\\cdot10^6\\). \\(\\eta=\\dfrac{P\\cdot3\\,600}{E}\\).</p><p><strong>Svar:</strong> \\(0{,}32\\)</p></li></ol>",
+    "id": "5.599",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13705.042408152225,
+      0.32121193144106774
+    ],
+    "tolerans": [
+      510.0,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,2 ton) rullar utan motor nedför en backe som lutar 3,0° med konstant 80 km/h. På plan mark i samma fart drar den 0,75 liter bensin per mil. Bensin har densiteten 0,80 kg/liter och energin 32 MJ/kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken effekt krävs på plan mark i 80 km/h?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,2 ton) rullar utan motor nedför en backe som lutar 3,0° med konstant 80 km/h. På plan mark i samma fart drar den 0,75 liter bensin per mil. Bensin har densiteten 0,80 kg/liter och energin 32 MJ/kg.</p><p>Vilken effekt krävs på plan mark i 80 km/h?</p>",
+        "s": "<p>Bromsande kraft: \\(1\\,200\\cdot9{,}82\\sin3{,}0^\\circ\\). \\(P=F\\cdot22{,}2\\).</p><p><strong>Svar:</strong> \\(13\\,705\\) W</p>",
+        "ledtrad": "<p>I backen balanserar tyngdkomposanten motståndet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm motorns verkningsgrad.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,2 ton) rullar utan motor nedför en backe som lutar 3,0° med konstant 80 km/h. På plan mark i samma fart drar den 0,75 liter bensin per mil. Bensin har densiteten 0,80 kg/liter och energin 32 MJ/kg.</p>Effekten är 13,7 kW.<p>Bestäm motorns verkningsgrad.</p>",
+        "s": "<p>Per timme: 6,0 liter, \\(E=6{,}0\\cdot0{,}80\\cdot32\\cdot10^6\\). \\(\\eta=\\dfrac{P\\cdot3\\,600}{E}\\).</p><p><strong>Svar:</strong> \\(0{,}32\\)</p>",
+        "ledtrad": "<p>Bensin per timme.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "typ": "elverk och solceller",
+    "poang": "(0/4/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En motor behöver 300 g bensin (32 MJ/kg) per kWh. Bestäm verkningsgraden.</li><li>Ett elverk drar 2,3 liter bensin (40 MJ/liter) per timme och ger 3,4 kW. Bestäm verkningsgraden.</li><li>Solpaneler (17 m²) får i snitt 0,12 kW/m² och ger 2 600 kWh per år (8 760 h). Bestäm verkningsgraden.</li><li>Paketet kostar 64 000 kr och el kostar 0,95 kr/kWh. Efter hur många år har det betalat sig?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\eta=\\dfrac{3{,}6}{0{,}300\\cdot32}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\)</p></li><li><p>\\(\\eta=\\dfrac{3\\,400\\cdot3\\,600}{2{,}3\\cdot40\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}13\\)</p></li><li><p>\\(\\eta=\\dfrac{2\\,600}{0{,}12\\cdot17\\cdot8\\,760}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\)</p></li><li><p>\\(\\dfrac{64\\,000}{2\\,600\\cdot0{,}95}\\).</p><p><strong>Svar:</strong> \\(26\\) år</p></li></ol>",
+    "id": "5.600",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Verkningsgrad",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.375,
+      0.13304347826086957,
+      0.14549198674903752,
+      25.910931174089068
+    ],
+    "tolerans": [
+      0.00562,
+      0.0051,
+      0.0051,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      "år"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En motor behöver 300 g bensin (32 MJ/kg) per kWh. Bestäm verkningsgraden.",
+        "t": "<p>Bestäm.</p><p>En motor behöver 300 g bensin (32 MJ/kg) per kWh. Bestäm verkningsgraden.</p>",
+        "s": "<p>\\(\\eta=\\dfrac{3{,}6}{0{,}300\\cdot32}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\)</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett elverk drar 2,3 liter bensin (40 MJ/liter) per timme och ger 3,4 kW. Bestäm verkningsgraden.",
+        "t": "<p>Bestäm.</p><p>Ett elverk drar 2,3 liter bensin (40 MJ/liter) per timme och ger 3,4 kW. Bestäm verkningsgraden.</p>",
+        "s": "<p>\\(\\eta=\\dfrac{3\\,400\\cdot3\\,600}{2{,}3\\cdot40\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}13\\)</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Solpaneler (17 m²) får i snitt 0,12 kW/m² och ger 2 600 kWh per år (8 760 h). Bestäm verkningsgraden.",
+        "t": "<p>Bestäm.</p><p>Solpaneler (17 m²) får i snitt 0,12 kW/m² och ger 2 600 kWh per år (8 760 h). Bestäm verkningsgraden.</p>",
+        "s": "<p>\\(\\eta=\\dfrac{2\\,600}{0{,}12\\cdot17\\cdot8\\,760}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\)</p>",
+        "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Paketet kostar 64 000 kr och el kostar 0,95 kr/kWh. Efter hur många år har det betalat sig?",
+        "t": "<p>Bestäm.</p><p>Paketet kostar 64 000 kr och el kostar 0,95 kr/kWh. Efter hur många år har det betalat sig?</p>",
+        "s": "<p>\\(\\dfrac{64\\,000}{2\\,600\\cdot0{,}95}\\).</p><p><strong>Svar:</strong> \\(26\\) år</p>",
+        "ledtrad": "<p>Besparing per år.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "effekt__verkningsgrad",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
     "id": "5.334",
     "kap": 5,
     "omr": "arbete",

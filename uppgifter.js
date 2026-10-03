@@ -141104,6 +141104,1832 @@ window.BANK = [
     ]
   },
   {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "typ": "tryck vid konstant volym",
+    "poang": "(4/0/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><ol type=\"a\"><li>En tank har luft vid 10,0 °C och 8,00 MPa. Temperaturen höjs till 100 °C.</li><li>En behållare har 240 kPa vid 20,0 °C. Temperaturen sjunker till −25,0 °C.</li><li>En korkad flaska har 1 010 mbar vid 17 °C och läggs i kokande vatten (100 °C).</li><li>En halogenlampa har 115 kPa vid 20,0 °C. Gasen värms till 70,0 °C.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=8{,}00\\cdot\\dfrac{373}{283}\\).</p><p><strong>Svar:</strong> \\(1{,}05\\cdot10^{7}\\) Pa</p></li><li><p>\\(p=240\\cdot\\dfrac{248}{293}\\).</p><p><strong>Svar:</strong> \\(2{,}03\\cdot10^{5}\\) Pa</p></li><li><p>\\(p=1\\,010\\cdot\\dfrac{373}{290}\\) mbar.</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{5}\\) Pa</p></li><li><p>\\(p=115\\cdot\\dfrac{343}{293}\\).</p><p><strong>Svar:</strong> \\(1{,}35\\cdot10^{5}\\) Pa</p></li></ol>",
+    "id": "6.513",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10544169.61130742,
+      203139.93174061432,
+      129906.89655172414,
+      134624.5733788396
+    ],
+    "tolerans": [
+      158000.0,
+      3050.0,
+      5100.0,
+      2020.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa",
+      "Pa",
+      "Pa"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En tank har luft vid 10,0 °C och 8,00 MPa. Temperaturen höjs till 100 °C.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><p>En tank har luft vid 10,0 °C och 8,00 MPa. Temperaturen höjs till 100 °C.</p>",
+        "s": "<p>\\(p=8{,}00\\cdot\\dfrac{373}{283}\\).</p><p><strong>Svar:</strong> \\(1{,}05\\cdot10^{7}\\) Pa</p>",
+        "ledtrad": "<p>\\(\\dfrac{p}{T}\\) är konstant.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En behållare har 240 kPa vid 20,0 °C. Temperaturen sjunker till −25,0 °C.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><p>En behållare har 240 kPa vid 20,0 °C. Temperaturen sjunker till −25,0 °C.</p>",
+        "s": "<p>\\(p=240\\cdot\\dfrac{248}{293}\\).</p><p><strong>Svar:</strong> \\(2{,}03\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>\\(\\dfrac{p}{T}\\) är konstant.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En korkad flaska har 1 010 mbar vid 17 °C och läggs i kokande vatten (100 °C).",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><p>En korkad flaska har 1 010 mbar vid 17 °C och läggs i kokande vatten (100 °C).</p>",
+        "s": "<p>\\(p=1\\,010\\cdot\\dfrac{373}{290}\\) mbar.</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>1 mbar = 100 Pa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En halogenlampa har 115 kPa vid 20,0 °C. Gasen värms till 70,0 °C.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><p>En halogenlampa har 115 kPa vid 20,0 °C. Gasen värms till 70,0 °C.</p>",
+        "s": "<p>\\(p=115\\cdot\\dfrac{343}{293}\\).</p><p><strong>Svar:</strong> \\(1{,}35\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>\\(\\dfrac{p}{T}\\) är konstant.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{p_1}{T_1}=\\dfrac{p_2}{T_2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "volym vid konstant tryck",
+    "poang": "(2/2/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><ol type=\"a\"><li>En gas har volymen 47 cm³ vid 100 °C. Bestäm volymen vid 22 °C.</li><li>75 cm³ gas vid 18 °C värms till 100 °C. Hur mycket ökar volymen?</li><li>Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?</li><li>Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=47\\cdot\\dfrac{295}{373}\\).</p><p><strong>Svar:</strong> \\(37\\) cm³</p></li><li><p>\\(\\Delta V=75\\left(\\dfrac{373}{291}-1\\right)\\).</p><p><strong>Svar:</strong> \\(21\\) cm³</p></li><li><p>\\(T=2\\cdot283=566\\) K.</p><p><strong>Svar:</strong> \\(293\\) °C</p></li><li><p>\\(T=1{,}600\\cdot293=469\\) K.</p><p><strong>Svar:</strong> \\(196\\) °C</p></li></ol>",
+    "id": "6.514",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      37.171581769437,
+      21.134020618556708,
+      293,
+      195.8
+    ],
+    "tolerans": [
+      0.558,
+      0.51,
+      4.39,
+      2.94
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "cm³",
+      "cm³",
+      "°C",
+      "°C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En gas har volymen 47 cm³ vid 100 °C. Bestäm volymen vid 22 °C.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>En gas har volymen 47 cm³ vid 100 °C. Bestäm volymen vid 22 °C.</p>",
+        "s": "<p>\\(V=47\\cdot\\dfrac{295}{373}\\).</p><p><strong>Svar:</strong> \\(37\\) cm³</p>",
+        "ledtrad": "<p>\\(\\dfrac{V}{T}\\) är konstant.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "75 cm³ gas vid 18 °C värms till 100 °C. Hur mycket ökar volymen?",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>75 cm³ gas vid 18 °C värms till 100 °C. Hur mycket ökar volymen?</p>",
+        "s": "<p>\\(\\Delta V=75\\left(\\dfrac{373}{291}-1\\right)\\).</p><p><strong>Svar:</strong> \\(21\\) cm³</p>",
+        "ledtrad": "<p>Beräkna den nya volymen först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?</p>",
+        "s": "<p>\\(T=2\\cdot283=566\\) K.</p><p><strong>Svar:</strong> \\(293\\) °C</p>",
+        "ledtrad": "<p>\\(V\\propto T\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?</p>",
+        "s": "<p>\\(T=1{,}600\\cdot293=469\\) K.</p><p><strong>Svar:</strong> \\(196\\) °C</p>",
+        "ledtrad": "<p>\\(V\\propto T\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{V_1}{T_1}=\\dfrac{V_2}{T_2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "typ": "gasbehållare vid brand",
+    "poang": "(1/0/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gasbehållare har trycket 6,4 MPa vid 20 °C. Bestäm trycket om den värms till 250 °C.</p>",
+    "s": "<p>\\(p=6{,}4\\cdot\\dfrac{523}{293}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{7}\\) Pa</p>",
+    "id": "6.515",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11423890.784982935,
+    "tolerans": 510000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Pa",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "typ": "kvävgas pressas in i behållare",
+    "poang": "(1/0/0)",
+    "t": "<p>Kvävgas pressas in i en behållare på 25 liter tills trycket är 84 atm. Vilken volym har gasen vid 1 atm och samma temperatur?</p>",
+    "s": "<p>\\(V=25\\cdot\\dfrac{84}{1}\\) liter.</p><p><strong>Svar:</strong> \\(2{,}1\\) m³</p>",
+    "id": "6.516",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Boyles lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.1,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m³",
+    "familjNyckel": "gaslagen__boyles_lag",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "typ": "temperatur för dubbelt tryck",
+    "poang": "(1/0/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En dosa med luft (20,0 °C, 1,00 atm) värms vid konstant volym. Vid vilken temperatur (°C) har trycket fördubblats?</p>",
+    "s": "<p>\\(T=2\\cdot293=586\\) K.</p><p><strong>Svar:</strong> \\(313\\) °C</p>",
+    "id": "6.517",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 313,
+    "tolerans": 4.69,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "°C",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "chipspåse i flygplan",
+    "poang": "(0/1/0)",
+    "t": "<p>En lufttät chipspåse förseglades vid 1,00 atm. I ett flygplan är trycket 0,75 atm och temperaturen densamma. Hur många procent större volym har påsen där?</p>",
+    "s": "<p>\\(\\dfrac{V_2}{V_1}=\\dfrac{1{,}00}{0{,}75}=1{,}33\\).</p><p><strong>Svar:</strong> \\(33\\) %</p>",
+    "id": "6.518",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Boyles lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 33.333333333333336,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "%",
+    "familjNyckel": "gaslagen__boyles_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "A",
+    "typ": "bildäck och temperatur",
+    "poang": "(0/2/1)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><ol type=\"a\"><li>Det totala trycket var 290 kPa vid 12 °C och är 320 kPa efter körning. Bestäm temperaturen i °C.</li><li>Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=285\\cdot\\dfrac{320}{290}\\) K.</p><p><strong>Svar:</strong> \\(41\\) °C</p></li><li><p>Totalt: \\(371{,}3\\cdot\\dfrac{278}{323}=319{,}6\\) kPa. Övertryck: \\(319{,}6-101{,}3\\).</p><p><strong>Svar:</strong> \\(2{,}18\\cdot10^{5}\\) Pa</p></li></ol>",
+    "id": "6.519",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      41.48275862068965,
+      218270.89783281734
+    ],
+    "tolerans": [
+      0.622,
+      3270.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°C",
+      "Pa"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Det totala trycket var 290 kPa vid 12 °C och är 320 kPa efter körning. Bestäm temperaturen i °C.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><p>Det totala trycket var 290 kPa vid 12 °C och är 320 kPa efter körning. Bestäm temperaturen i °C.</p>",
+        "s": "<p>\\(T=285\\cdot\\dfrac{320}{290}\\) K.</p><p><strong>Svar:</strong> \\(41\\) °C</p>",
+        "ledtrad": "<p>\\(\\dfrac{p}{T}\\) är konstant.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><p>Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.</p>",
+        "s": "<p>Totalt: \\(371{,}3\\cdot\\dfrac{278}{323}=319{,}6\\) kPa. Övertryck: \\(319{,}6-101{,}3\\).</p><p><strong>Svar:</strong> \\(2{,}18\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>Gaslagen gäller det totala trycket.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "kabintryck och temperatur",
+    "poang": "(0/1/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Temperaturen i en flygplanskabin höjs från 18 °C till 24 °C med samma volym och mängd luft. Hur många procent ökar trycket?</p>",
+    "s": "<p>\\(\\dfrac{297}{291}=1{,}021\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) %</p>",
+    "id": "6.520",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0618556701030855,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "%",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "glasballong tål begränsat övertryck",
+    "poang": "(0/1/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En glasballong försluts vid 22,0 °C och 1 040 mbar. Den tål ett övertryck på högst 500 mbar. Till vilken temperatur (°C) får den högst värmas?</p>",
+    "s": "<p>Högsta totaltryck 1 540 mbar. \\(T=295\\cdot\\dfrac{1\\,540}{1\\,040}\\) K.</p><p><strong>Svar:</strong> \\(164\\) °C</p>",
+    "id": "6.521",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 163.8269230769231,
+    "tolerans": 2.46,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Övertrycket räknas mot 1 040 mbar.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "dykartub i kallt vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En dykartub fylldes till 204 atm vid 29 °C. På djupet visar den 191 atm (nästan ingen luft använd). Bestäm vattnets temperatur i °C.</p>",
+    "s": "<p>\\(T=302\\cdot\\dfrac{191}{204}\\) K.</p><p><strong>Svar:</strong> \\(9{,}8\\) °C</p>",
+    "id": "6.522",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.75490196078431,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "tryckökning mellan ammoniak och kokande vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En glaskula med helium flyttas från flytande ammoniak (−33 °C) till kokande vatten (100 °C). Hur många procent ökar trycket?</p>",
+    "s": "<p>\\(\\dfrac{373}{240}=1{,}554\\).</p><p><strong>Svar:</strong> \\(55\\) %</p>",
+    "id": "6.523",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 55.41666666666667,
+    "tolerans": 0.831,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "%",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "cykelpump öppnar ventil",
+    "poang": "(0/1/0)",
+    "t": "<p>En cykelpump är 46 cm lång och fylld med luft vid 101,3 kPa. Ventilen öppnar vid totaltrycket 0,28 MPa. Hur långt måste kolven föras in? Anta konstant temperatur.</p>",
+    "s": "<p>\\(L_2=46\\cdot\\dfrac{101{,}3}{280}=16{,}6\\) cm. \\(\\Delta L=46-16{,}6\\).</p><p><strong>Svar:</strong> \\(0{,}29\\) m</p>",
+    "id": "6.524",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Boyles lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.29357857142857147,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Volymen är proportionell mot längden.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "gaslagen__boyles_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "A",
+    "typ": "säkerhetsventil öppnas",
+    "poang": "(0/1/1)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En sluten ventil innehåller luft (101,3 kPa, 18 °C). Den runda ventilen (diameter 1,50 cm) öppnar när nettokraften från gasen överstiger 10,0 N. Trycket utanför är 101,3 kPa. Vid vilken temperatur (°C) öppnar den? Volymen är konstant.</p>",
+    "s": "<p>\\(\\Delta p=\\dfrac{10{,}0}{\\pi\\cdot0{,}0075^2}=56{,}6\\) kPa. \\(T=291\\cdot\\dfrac{157{,}9}{101{,}3}\\) K.</p><p><strong>Svar:</strong> \\(181\\) °C</p>",
+    "id": "6.525",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 180.5590468434496,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm trycket inuti när ventilen öppnar.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°C",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "A",
+    "typ": "uppvärmd kubisk låda",
+    "poang": "(0/1/1)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En kubisk låda (volym \\(6{,}15\\cdot10^{-2}\\) m³) med luft vid 101,3 kPa och 15 °C försluts och värms till 165 °C. Hur stor nettokraft verkar på en sida? Bortse från att lådan expanderar.</p>",
+    "s": "<p>\\(p=101{,}3\\cdot\\dfrac{438}{288}\\), \\(\\Delta p=p-101{,}3\\) kPa. Sidans area: \\(V^{2/3}\\). \\(F=\\Delta p\\cdot A\\).</p><p><strong>Svar:</strong> \\(8\\,220\\) N</p>",
+    "id": "6.526",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8220.374950428726,
+    "tolerans": 123.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tryckskillnad gånger sidans area.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "typ": "luft i lungorna värms",
+    "poang": "(1/0/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Du andas in 3,0 liter luft vid 0 °C. Hur stor volym har luften när den värmts till 37 °C vid samma tryck?</p>",
+    "s": "<p>\\(V=3{,}0\\cdot\\dfrac{310}{273}\\).</p><p><strong>Svar:</strong> \\(3{,}4\\) l</p>",
+    "id": "6.527",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.4065934065934065,
+    "tolerans": 0.0511,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "l",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "syltburk med undertryck",
+    "poang": "(0/1/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luften under locket på en syltburk hade 101,3 kPa vid 80 °C. Vid öppningen är temperaturen 20 °C och lufttrycket 101,3 kPa. Hur stor kraft krävs minst för att öppna locket (diameter 12 cm)?</p>",
+    "s": "<p>\\(p=101{,}3\\cdot\\dfrac{293}{353}=84{,}1\\) kPa. \\(F=(101{,}3-84{,}1)\\cdot10^3\\cdot\\pi\\cdot0{,}060^2\\).</p><p><strong>Svar:</strong> \\(195\\) N</p>",
+    "id": "6.528",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 194.7324661038741,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tryckskillnad gånger area.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "vikt på tryckkokare",
+    "poang": "(0/1/0)",
+    "t": "<p>I en tryckkokare är trycket 200 kPa och utanför är det 101 kPa. En vikt ligger på ett hål (diameter 3,0 mm) i locket. Hur stor massa måste vikten ha? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(mg=(200-101)\\cdot10^3\\cdot\\pi\\cdot0{,}0015^2\\).</p><p><strong>Svar:</strong> \\(0{,}071\\) kg</p>",
+    "id": "6.529",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.07126168671966664,
+    "tolerans": 0.00107,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tryckskillnad gånger area.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "allmänna gaslagen med tre storheter",
+    "poang": "(0/4/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>En gas har 150 cm³ vid 0 °C och 1 013 mbar. Bestäm volymen vid 75,0 °C och 1 540 mbar.</li><li>En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.</li><li>Luft (61,5 liter, 18,0 °C, 2,45 atm) komprimeras till 38,1 liter och värms till 56,0 °C. Bestäm trycket i atm.</li><li>En gas har 3,50 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 3,20 atm och 38,0 °C.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=150\\cdot\\dfrac{1\\,013}{1\\,540}\\cdot\\dfrac{348}{273}\\).</p><p><strong>Svar:</strong> \\(126\\) cm³</p></li><li><p>\\(p=1{,}0\\cdot10^5\\cdot\\dfrac{1{,}2}{0{,}60}\\cdot\\dfrac{500}{300}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\cdot10^{5}\\) Pa</p></li><li><p>\\(p=2{,}45\\cdot\\dfrac{61{,}5}{38{,}1}\\cdot\\dfrac{329}{291}\\).</p><p><strong>Svar:</strong> \\(4{,}47\\) atm</p></li><li><p>\\(V=3{,}50\\cdot\\dfrac{1{,}00}{3{,}20}\\cdot\\dfrac{311}{273}\\).</p><p><strong>Svar:</strong> \\(1{,}25\\) m³</p></li></ol>",
+    "id": "6.530",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Allmänna gaslagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      125.77565291851008,
+      333333.3333333333,
+      4.471148902778905,
+      1.2459935897435896
+    ],
+    "tolerans": [
+      1.89,
+      5100.0,
+      0.0671,
+      0.0187
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "cm³",
+      "Pa",
+      "atm",
+      "m³"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En gas har 150 cm³ vid 0 °C och 1 013 mbar. Bestäm volymen vid 75,0 °C och 1 540 mbar.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har 150 cm³ vid 0 °C och 1 013 mbar. Bestäm volymen vid 75,0 °C och 1 540 mbar.</p>",
+        "s": "<p>\\(V=150\\cdot\\dfrac{1\\,013}{1\\,540}\\cdot\\dfrac{348}{273}\\).</p><p><strong>Svar:</strong> \\(126\\) cm³</p>",
+        "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.</p>",
+        "s": "<p>\\(p=1{,}0\\cdot10^5\\cdot\\dfrac{1{,}2}{0{,}60}\\cdot\\dfrac{500}{300}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Luft (61,5 liter, 18,0 °C, 2,45 atm) komprimeras till 38,1 liter och värms till 56,0 °C. Bestäm trycket i atm.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (61,5 liter, 18,0 °C, 2,45 atm) komprimeras till 38,1 liter och värms till 56,0 °C. Bestäm trycket i atm.</p>",
+        "s": "<p>\\(p=2{,}45\\cdot\\dfrac{61{,}5}{38{,}1}\\cdot\\dfrac{329}{291}\\).</p><p><strong>Svar:</strong> \\(4{,}47\\) atm</p>",
+        "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En gas har 3,50 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 3,20 atm och 38,0 °C.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har 3,50 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 3,20 atm och 38,0 °C.</p>",
+        "s": "<p>\\(V=3{,}50\\cdot\\dfrac{1{,}00}{3{,}20}\\cdot\\dfrac{311}{273}\\).</p><p><strong>Svar:</strong> \\(1{,}25\\) m³</p>",
+        "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "temperatur vid kompression i motor",
+    "poang": "(0/2/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>Luft (30 °C) i en cylinder komprimeras så att volymen minskar med 90 % och trycket ökar 20 gånger. Bestäm temperaturen i kelvin.</li><li>Luft (20 °C, 100 kPa) pressas ihop till 1/9 av volymen och trycket blir 4,0 MPa. Bestäm temperaturen i kelvin.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=303\\cdot0{,}10\\cdot20\\).</p><p><strong>Svar:</strong> \\(606\\) K</p></li><li><p>\\(T=293\\cdot\\dfrac19\\cdot40\\).</p><p><strong>Svar:</strong> \\(1\\,302\\) K</p></li></ol>",
+    "id": "6.531",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Allmänna gaslagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      606.0,
+      1302.2222222222222
+    ],
+    "tolerans": [
+      9.09,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "K",
+      "K"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Luft (30 °C) i en cylinder komprimeras så att volymen minskar med 90 % och trycket ökar 20 gånger. Bestäm temperaturen i kelvin.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (30 °C) i en cylinder komprimeras så att volymen minskar med 90 % och trycket ökar 20 gånger. Bestäm temperaturen i kelvin.</p>",
+        "s": "<p>\\(T=303\\cdot0{,}10\\cdot20\\).</p><p><strong>Svar:</strong> \\(606\\) K</p>",
+        "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Luft (20 °C, 100 kPa) pressas ihop till 1/9 av volymen och trycket blir 4,0 MPa. Bestäm temperaturen i kelvin.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (20 °C, 100 kPa) pressas ihop till 1/9 av volymen och trycket blir 4,0 MPa. Bestäm temperaturen i kelvin.</p>",
+        "s": "<p>\\(T=293\\cdot\\dfrac19\\cdot40\\).</p><p><strong>Svar:</strong> \\(1\\,302\\) K</p>",
+        "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "väderballong på hög höjd",
+    "poang": "(0/1/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En vätgasballong har volymen 5,0 m³ vid 27 °C och \\(1{,}0\\cdot10^5\\) Pa. Vilken volym borde den ha på 40 km höjd, där trycket är 330 Pa och temperaturen −13 °C?</p>",
+    "s": "<p>\\(V=5{,}0\\cdot\\dfrac{1{,}0\\cdot10^5}{330}\\cdot\\dfrac{260}{300}\\).</p><p><strong>Svar:</strong> \\(1\\,313\\) m³</p>",
+    "id": "6.532",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Allmänna gaslagen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1313.1313131313132,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m³",
+    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "typ": "tryck i stigande väderballong",
+    "poang": "(1/0/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En väderballong växer från 4,0 m³ till 12 m³ samtidigt som temperaturen sjunker från 20 °C till −10 °C. Trycket var 101,3 kPa från början. Bestäm det nya trycket.</p>",
+    "s": "<p>\\(p=101{,}3\\cdot\\dfrac{4{,}0}{12}\\cdot\\dfrac{263}{293}\\).</p><p><strong>Svar:</strong> \\(30\\,309\\) Pa</p>",
+    "id": "6.533",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Allmänna gaslagen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 30309.328782707616,
+    "tolerans": 510.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Pa",
+    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "typ": "temperatur ur kvoter",
+    "poang": "(1/0/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har volymen \\(V\\), trycket \\(p\\) och temperaturen 20 °C. Bestäm temperaturen i kelvin när volymen är \\(1{,}6V\\) och trycket \\(0{,}1p\\).</p>",
+    "s": "<p>\\(T=293\\cdot1{,}6\\cdot0{,}1\\).</p><p><strong>Svar:</strong> \\(47\\) K</p>",
+    "id": "6.534",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Allmänna gaslagen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 46.88,
+    "tolerans": 0.703,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "K",
+    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "syrgastub på sjukhus",
+    "poang": "(1/1/0)",
+    "t": "<p>En syrgastub (17,0 liter) har trycket 15,0 MPa. Temperaturen är konstant.</p><ol type=\"a\"><li>Vilken volym upptar syrgasen vid 101,3 kPa?</li><li>Patienten andas 8,0 liter/min vid 101,3 kPa. Hur många timmar räcker tuben?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=17{,}0\\cdot\\dfrac{15{,}0\\cdot10^6}{101{,}3\\cdot10^3}\\) liter.</p><p><strong>Svar:</strong> \\(2{,}52\\) m³</p></li><li><p>\\(t=\\dfrac{2\\,517}{8{,}0}\\) min.</p><p><strong>Svar:</strong> \\(5{,}2\\) h</p></li></ol>",
+    "id": "6.535",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Boyles lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.5172754195459035,
+      5.244323790720632
+    ],
+    "tolerans": [
+      0.0378,
+      0.0787
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m³",
+      "h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En syrgastub (17,0 liter) har trycket 15,0 MPa. Temperaturen är konstant.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken volym upptar syrgasen vid 101,3 kPa?",
+        "t": "<p>En syrgastub (17,0 liter) har trycket 15,0 MPa. Temperaturen är konstant.</p><p>Vilken volym upptar syrgasen vid 101,3 kPa?</p>",
+        "s": "<p>\\(V=17{,}0\\cdot\\dfrac{15{,}0\\cdot10^6}{101{,}3\\cdot10^3}\\) liter.</p><p><strong>Svar:</strong> \\(2{,}52\\) m³</p>",
+        "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Patienten andas 8,0 liter/min vid 101,3 kPa. Hur många timmar räcker tuben?",
+        "t": "<p>En syrgastub (17,0 liter) har trycket 15,0 MPa. Temperaturen är konstant.</p>Gasen upptar 2,52 m³ vid normalt tryck.<p>Patienten andas 8,0 liter/min vid 101,3 kPa. Hur många timmar räcker tuben?</p>",
+        "s": "<p>\\(t=\\dfrac{2\\,517}{8{,}0}\\) min.</p><p><strong>Svar:</strong> \\(5{,}2\\) h</p>",
+        "ledtrad": "<p>Total volym delat med förbrukning.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__boyles_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "dykare som inte andas ut",
+    "poang": "(0/1/0)",
+    "t": "<p>En dykare stiger snabbt från 5,0 m djup utan att andas ut. Hur många procent ökar lungvolymen? Havsvatten har densiteten 1 030 kg/m³, lufttrycket är 101 kPa och \\(g=9{,}82\\) m/s². Temperaturen är konstant.</p>",
+    "s": "<p>\\(p_1=101+1\\,030\\cdot9{,}82\\cdot5{,}0\\cdot10^{-3}=151{,}6\\) kPa. \\(\\dfrac{V_2}{V_1}=\\dfrac{151{,}6}{101}\\).</p><p><strong>Svar:</strong> \\(50\\) %</p>",
+    "id": "6.536",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Boyles lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 50.07227722772277,
+    "tolerans": 0.751,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Totaltrycket på djupet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "%",
+    "familjNyckel": "gaslagen__boyles_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "dykflaskans räckvidd",
+    "poang": "(0/2/0)",
+    "t": "<p>En dykflaska innehåller 0,010 m³ luft vid \\(1{,}00\\cdot10^7\\) Pa. Dykaren andas 0,500 liter per sekund vid omgivningens tryck. Vattnet har densiteten 1 000 kg/m³, lufttrycket är 101,3 kPa och \\(g=9{,}82\\) m/s². Hur många minuter räcker luften på</p><ol type=\"a\"><li>2,0 m djup?</li><li>20 m djup?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=101{,}3+19{,}6\\) kPa. \\(V=0{,}010\\cdot\\dfrac{1{,}00\\cdot10^7}{p}\\), \\(t=\\dfrac{V}{0{,}500\\cdot10^{-3}}\\) s.</p><p><strong>Svar:</strong> \\(28\\) min</p></li><li><p>\\(p=101{,}3+196{,}4\\) kPa. Samma beräkning.</p><p><strong>Svar:</strong> \\(11\\) min</p></li></ol>",
+    "id": "6.537",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Boyles lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      27.561876412546166,
+      11.196954428395477
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "min",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En dykflaska innehåller 0,010 m³ luft vid \\(1{,}00\\cdot10^7\\) Pa. Dykaren andas 0,500 liter per sekund vid omgivningens tryck. Vattnet har densiteten 1 000 kg/m³, lufttrycket är 101,3 kPa och \\(g=9{,}82\\) m/s². Hur många minuter räcker luften på</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "2,0 m djup?",
+        "t": "<p>En dykflaska innehåller 0,010 m³ luft vid \\(1{,}00\\cdot10^7\\) Pa. Dykaren andas 0,500 liter per sekund vid omgivningens tryck. Vattnet har densiteten 1 000 kg/m³, lufttrycket är 101,3 kPa och \\(g=9{,}82\\) m/s². Hur många minuter räcker luften på</p><p>2,0 m djup?</p>",
+        "s": "<p>\\(p=101{,}3+19{,}6\\) kPa. \\(V=0{,}010\\cdot\\dfrac{1{,}00\\cdot10^7}{p}\\), \\(t=\\dfrac{V}{0{,}500\\cdot10^{-3}}\\) s.</p><p><strong>Svar:</strong> \\(28\\) min</p>",
+        "ledtrad": "<p>Volymen vid omgivningens tryck.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "20 m djup?",
+        "t": "<p>En dykflaska innehåller 0,010 m³ luft vid \\(1{,}00\\cdot10^7\\) Pa. Dykaren andas 0,500 liter per sekund vid omgivningens tryck. Vattnet har densiteten 1 000 kg/m³, lufttrycket är 101,3 kPa och \\(g=9{,}82\\) m/s². Hur många minuter räcker luften på</p><p>20 m djup?</p>",
+        "s": "<p>\\(p=101{,}3+196{,}4\\) kPa. Samma beräkning.</p><p><strong>Svar:</strong> \\(11\\) min</p>",
+        "ledtrad": "<p>Högre tryck ger mindre volym.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__boyles_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "luftbubblor och lungor vid uppstigning",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><ol type=\"a\"><li>En dykare fyller lungorna med 5,5 liter på 9,0 m djup (lufttryck 101,3 kPa) och stiger utan att andas ut. Vilken volym skulle luften få vid ytan?</li><li>En gasbubbla stiger från botten av en 4,5 m djup sjö (lufttryck 100 kPa). Hur många procent ökar volymen?</li><li>En basketboll (radie 0,12 m) förs snabbt ner till 15 m djup (lufttryck 101 kPa). Anta konstant temperatur och att bollen pressas ihop fritt. Bestäm volymen i liter.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=5{,}5\\cdot\\dfrac{101{,}3+88{,}4}{101{,}3}\\).</p><p><strong>Svar:</strong> \\(10\\) l</p></li><li><p>\\(\\dfrac{V_2}{V_1}=\\dfrac{100+44{,}2}{100}\\).</p><p><strong>Svar:</strong> \\(44\\) %</p></li><li><p>\\(V=\\tfrac43\\pi\\cdot1{,}2^3\\cdot\\dfrac{101}{101+147{,}3}\\) liter.</p><p><strong>Svar:</strong> \\(2{,}9\\) l</p></li></ol>",
+    "id": "6.538",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Boyles lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.298519249753209,
+      44.19,
+      2.9442657143010833
+    ],
+    "tolerans": [
+      0.51,
+      0.663,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "l",
+      "%",
+      "l"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En dykare fyller lungorna med 5,5 liter på 9,0 m djup (lufttryck 101,3 kPa) och stiger utan att andas ut. Vilken volym skulle luften få vid ytan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En dykare fyller lungorna med 5,5 liter på 9,0 m djup (lufttryck 101,3 kPa) och stiger utan att andas ut. Vilken volym skulle luften få vid ytan?</p>",
+        "s": "<p>\\(V=5{,}5\\cdot\\dfrac{101{,}3+88{,}4}{101{,}3}\\).</p><p><strong>Svar:</strong> \\(10\\) l</p>",
+        "ledtrad": "<p>Konstant temperatur.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En gasbubbla stiger från botten av en 4,5 m djup sjö (lufttryck 100 kPa). Hur många procent ökar volymen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En gasbubbla stiger från botten av en 4,5 m djup sjö (lufttryck 100 kPa). Hur många procent ökar volymen?</p>",
+        "s": "<p>\\(\\dfrac{V_2}{V_1}=\\dfrac{100+44{,}2}{100}\\).</p><p><strong>Svar:</strong> \\(44\\) %</p>",
+        "ledtrad": "<p>Konstant temperatur.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En basketboll (radie 0,12 m) förs snabbt ner till 15 m djup (lufttryck 101 kPa). Anta konstant temperatur och att bollen pressas ihop fritt. Bestäm volymen i liter.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En basketboll (radie 0,12 m) förs snabbt ner till 15 m djup (lufttryck 101 kPa). Anta konstant temperatur och att bollen pressas ihop fritt. Bestäm volymen i liter.</p>",
+        "s": "<p>\\(V=\\tfrac43\\pi\\cdot1{,}2^3\\cdot\\dfrac{101}{101+147{,}3}\\) liter.</p><p><strong>Svar:</strong> \\(2{,}9\\) l</p>",
+        "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Totaltryck \\(=p_0+\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__boyles_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "A",
+    "typ": "stigande luftbubblor som värms",
+    "poang": "(0/3/2)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><ol type=\"a\"><li>En bubbla (1,00 cm³) stiger från 20,0 m djup (10,0 °C) till ytan (25,0 °C). Bestäm volymen vid ytan.</li><li>En bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.</li><li>En bubbla har 1,00 cm³ vid botten (5,5 °C) och 5,0 cm³ vid ytan (18,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=1{,}00\\cdot\\dfrac{101{,}3+196{,}4}{101{,}3}\\cdot\\dfrac{298}{283}\\).</p><p><strong>Svar:</strong> \\(3{,}09\\) cm³</p></li><li><p>\\(\\dfrac{V_2}{V_1}=\\dfrac{101{,}3+785{,}6}{101{,}3}\\cdot\\dfrac{291}{277}\\), \\(d=1{,}00\\sqrt[3]{V_2/V_1}\\) mm.</p><p><strong>Svar:</strong> \\(0{,}00210\\) m</p></li><li><p>\\(p_1=101\\cdot5{,}0\\cdot\\dfrac{278{,}5}{291{,}5}=482{,}5\\) kPa. \\(h=\\dfrac{(482{,}5-101)\\cdot10^3}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(38{,}8\\) m</p></li></ol>",
+    "id": "6.539",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Allmänna gaslagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.0945622106955866,
+      0.0020952031731673176,
+      38.847103785811846
+    ],
+    "tolerans": [
+      0.0464,
+      3.14e-05,
+      0.583
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "cm³",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bubbla (1,00 cm³) stiger från 20,0 m djup (10,0 °C) till ytan (25,0 °C). Bestäm volymen vid ytan.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla (1,00 cm³) stiger från 20,0 m djup (10,0 °C) till ytan (25,0 °C). Bestäm volymen vid ytan.</p>",
+        "s": "<p>\\(V=1{,}00\\cdot\\dfrac{101{,}3+196{,}4}{101{,}3}\\cdot\\dfrac{298}{283}\\).</p><p><strong>Svar:</strong> \\(3{,}09\\) cm³</p>",
+        "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.</p>",
+        "s": "<p>\\(\\dfrac{V_2}{V_1}=\\dfrac{101{,}3+785{,}6}{101{,}3}\\cdot\\dfrac{291}{277}\\), \\(d=1{,}00\\sqrt[3]{V_2/V_1}\\) mm.</p><p><strong>Svar:</strong> \\(0{,}00210\\) m</p>",
+        "ledtrad": "<p>Diametern växer med kubikroten ur volymen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En bubbla har 1,00 cm³ vid botten (5,5 °C) och 5,0 cm³ vid ytan (18,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla har 1,00 cm³ vid botten (5,5 °C) och 5,0 cm³ vid ytan (18,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?</p>",
+        "s": "<p>\\(p_1=101\\cdot5{,}0\\cdot\\dfrac{278{,}5}{291{,}5}=482{,}5\\) kPa. \\(h=\\dfrac{(482{,}5-101)\\cdot10^3}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(38{,}8\\) m</p>",
+        "ledtrad": "<p>Bestäm trycket vid botten först.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "heliumflaskans massa",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En heliumflaska (2,52 liter, 3,2 kg tom) fylls till trycket 1,6 MPa vid 20 °C. Helium har molmassan 4,0 g/mol. Hur mycket väger den fulla flaskan?</p>",
+    "s": "<p>\\(n=\\dfrac{1{,}6\\cdot10^6\\cdot2{,}52\\cdot10^{-3}}{8{,}314\\cdot293}=1{,}66\\) mol, alltså 6,6 g helium.</p><p><strong>Svar:</strong> \\(3{,}21\\) kg</p>",
+    "id": "6.540",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ideala gaslagen och gasmängd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.2066206842194713,
+    "tolerans": 0.0481,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(pV=nRT\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "A",
+    "typ": "tråd mellan två kolvar",
+    "poang": "(0/1/1)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Två lättrörliga kolvar (area 20 cm² var) i en cylinder hålls ihop av en tråd som tål 30 N. Gasen mellan dem har från början omgivningens tryck 101 kPa och temperaturen 24 °C, och volymen är konstant. Vid vilken temperatur (°C) brister tråden?</p>",
+    "s": "<p>\\(\\Delta p=\\dfrac{30}{20\\cdot10^{-4}}=15\\) kPa. \\(T=297\\cdot\\dfrac{116}{101}\\) K.</p><p><strong>Svar:</strong> \\(68\\) °C</p>",
+    "id": "6.541",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck, volym och temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.10891089108912,
+    "tolerans": 1.02,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tråden tar upp tryckskillnaden.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "°C",
+    "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "A",
+    "typ": "kolv mellan kvävgas och vätgas",
+    "poang": "(0/1/1)",
+    "t": "<p>En sluten cylinder (1,00 m lång) delas av en lättrörlig kolv. På ena sidan finns kvävgas (28 g/mol) och på den andra vätgas (2,0 g/mol), med samma massa och temperatur. Hur långt från kvävgasänden sitter kolven?</p>",
+    "s": "<p>Samma tryck och temperatur: \\(V\\propto n\\). \\(\\dfrac{n_{H_2}}{n_{N_2}}=14\\), så kvävgasen får \\(\\dfrac{1}{15}\\) av längden.</p><p><strong>Svar:</strong> \\(0{,}067\\) m</p>",
+    "id": "6.542",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ideala gaslagen och gasmängd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.06666666666666667,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma tryck på båda sidor.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "helium i behållare",
+    "poang": "(1/1/0)",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 16,00 mol helium vid 10,0 °C och 35,0 kPa.</p><ol type=\"a\"><li>Bestäm volymen.</li><li>Volymen halveras och trycket blir 100 kPa. Bestäm temperaturen i °C.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=\\dfrac{16{,}00\\cdot8{,}314\\cdot283}{35{,}0\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(1{,}08\\) m³</p></li><li><p>\\(T=283\\cdot\\dfrac12\\cdot\\dfrac{100}{35{,}0}\\) K.</p><p><strong>Svar:</strong> \\(131\\) °C</p></li></ol>",
+    "id": "6.543",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ideala gaslagen och gasmängd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0755940571428573,
+      131.28571428571428
+    ],
+    "tolerans": [
+      0.0161,
+      1.97
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m³",
+      "°C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 16,00 mol helium vid 10,0 °C och 35,0 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm volymen.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 16,00 mol helium vid 10,0 °C och 35,0 kPa.</p><p>Bestäm volymen.</p>",
+        "s": "<p>\\(V=\\dfrac{16{,}00\\cdot8{,}314\\cdot283}{35{,}0\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(1{,}08\\) m³</p>",
+        "ledtrad": "<p>\\(pV=nRT\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Volymen halveras och trycket blir 100 kPa. Bestäm temperaturen i °C.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 16,00 mol helium vid 10,0 °C och 35,0 kPa.</p><p>Volymen halveras och trycket blir 100 kPa. Bestäm temperaturen i °C.</p>",
+        "s": "<p>\\(T=283\\cdot\\dfrac12\\cdot\\dfrac{100}{35{,}0}\\) K.</p><p><strong>Svar:</strong> \\(131\\) °C</p>",
+        "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(pV=nRT\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "kvävgas i tank",
+    "poang": "(2/1/0)",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p><ol type=\"a\"><li>Hur många mol är det?</li><li>Bestäm tankens volym.</li><li>Ytterligare 32,2 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(n=\\dfrac{28\\,500}{28}\\).</p><p><strong>Svar:</strong> \\(1\\,018\\) mol</p></li><li><p>\\(V=\\dfrac{1\\,018\\cdot8{,}314\\cdot273}{101{,}3\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(22{,}8\\) m³</p></li><li><p>\\(p=101{,}3\\cdot\\dfrac{60{,}7}{28{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}16\\cdot10^{5}\\) Pa</p></li></ol>",
+    "id": "6.544",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ideala gaslagen och gasmängd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1017.8571428571429,
+      22.806048864758143,
+      215751.22807017545
+    ],
+    "tolerans": [
+      15.3,
+      0.342,
+      3240.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "mol",
+      "m³",
+      "Pa"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många mol är det?",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p><p>Hur många mol är det?</p>",
+        "s": "<p>\\(n=\\dfrac{28\\,500}{28}\\).</p><p><strong>Svar:</strong> \\(1\\,018\\) mol</p>",
+        "ledtrad": "<p>\\(n=\\dfrac mM\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm tankens volym.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p>Det är 1 018 mol.<p>Bestäm tankens volym.</p>",
+        "s": "<p>\\(V=\\dfrac{1\\,018\\cdot8{,}314\\cdot273}{101{,}3\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(22{,}8\\) m³</p>",
+        "ledtrad": "<p>\\(pV=nRT\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ytterligare 32,2 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p><p>Ytterligare 32,2 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.</p>",
+        "s": "<p>\\(p=101{,}3\\cdot\\dfrac{60{,}7}{28{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}16\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>Trycket är proportionellt mot mängden gas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(pV=nRT\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "ideala gaslagen",
+    "poang": "(0/3/0)",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>En behållare (15,0 liter) med 7,5 mol helium har trycket 440 kPa. Bestäm temperaturen i °C.</li><li>3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.</li><li>0,532 kg syrgas (32 g/mol) har trycket 0,100 MPa och temperaturen 0,0 °C. Bestäm volymen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{440\\cdot10^3\\cdot0{,}0150}{7{,}5\\cdot8{,}314}\\) K.</p><p><strong>Svar:</strong> \\(-167\\) °C</p></li><li><p>\\(p=\\dfrac{3{,}00\\cdot8{,}314\\cdot153}{2{,}00\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p></li><li><p>\\(V=\\dfrac{(532/32)\\cdot8{,}314\\cdot273}{0{,}100\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\) m³</p></li></ol>",
+    "id": "6.545",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ideala gaslagen och gasmängd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -167.1544382968487,
+      1908063.0,
+      0.37734128250000004
+    ],
+    "tolerans": [
+      2.51,
+      51000.0,
+      0.00566
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "°C",
+      "Pa",
+      "m³"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En behållare (15,0 liter) med 7,5 mol helium har trycket 440 kPa. Bestäm temperaturen i °C.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare (15,0 liter) med 7,5 mol helium har trycket 440 kPa. Bestäm temperaturen i °C.</p>",
+        "s": "<p>\\(T=\\dfrac{440\\cdot10^3\\cdot0{,}0150}{7{,}5\\cdot8{,}314}\\) K.</p><p><strong>Svar:</strong> \\(-167\\) °C</p>",
+        "ledtrad": "<p>\\(pV=nRT\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.</p>",
+        "s": "<p>\\(p=\\dfrac{3{,}00\\cdot8{,}314\\cdot153}{2{,}00\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p>",
+        "ledtrad": "<p>\\(pV=nRT\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "0,532 kg syrgas (32 g/mol) har trycket 0,100 MPa och temperaturen 0,0 °C. Bestäm volymen.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>0,532 kg syrgas (32 g/mol) har trycket 0,100 MPa och temperaturen 0,0 °C. Bestäm volymen.</p>",
+        "s": "<p>\\(V=\\dfrac{(532/32)\\cdot8{,}314\\cdot273}{0{,}100\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\) m³</p>",
+        "ledtrad": "<p>\\(n=\\dfrac mM\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(pV=nRT\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "luftens densitet",
+    "poang": "(0/3/0)",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa. Bestäm luftens densitet vid</p><ol type=\"a\"><li>−10 °C.</li><li>30 °C.</li><li>Hur mycket väger luften i ett hus (1 200 m³) vid 15 °C?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\rho=\\dfrac{pM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot263}\\).</p><p><strong>Svar:</strong> \\(1{,}34\\) kg/m³</p></li><li><p>\\(\\rho=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot303}\\).</p><p><strong>Svar:</strong> \\(1{,}17\\) kg/m³</p></li><li><p>\\(m=\\dfrac{pVM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot1\\,200\\cdot0{,}029}{8{,}314\\cdot288}\\).</p><p><strong>Svar:</strong> \\(1\\,472\\) kg</p></li></ol>",
+    "id": "6.546",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ideala gaslagen och gasmängd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.3435123859978726,
+      1.1661510149090446,
+      1472.2656563226687
+    ],
+    "tolerans": [
+      0.0202,
+      0.0175,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kg/m³",
+      "kg/m³",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa. Bestäm luftens densitet vid</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "−10 °C.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa. Bestäm luftens densitet vid</p><p>−10 °C.</p>",
+        "s": "<p>\\(\\rho=\\dfrac{pM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot263}\\).</p><p><strong>Svar:</strong> \\(1{,}34\\) kg/m³</p>",
+        "ledtrad": "<p>\\(\\rho=\\dfrac{pM}{RT}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "30 °C.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa. Bestäm luftens densitet vid</p><p>30 °C.</p>",
+        "s": "<p>\\(\\rho=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot303}\\).</p><p><strong>Svar:</strong> \\(1{,}17\\) kg/m³</p>",
+        "ledtrad": "<p>\\(\\rho=\\dfrac{pM}{RT}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket väger luften i ett hus (1 200 m³) vid 15 °C?",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa. Bestäm luftens densitet vid</p><p>Hur mycket väger luften i ett hus (1 200 m³) vid 15 °C?</p>",
+        "s": "<p>\\(m=\\dfrac{pVM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot1\\,200\\cdot0{,}029}{8{,}314\\cdot288}\\).</p><p><strong>Svar:</strong> \\(1\\,472\\) kg</p>",
+        "ledtrad": "<p>\\(m=nM\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(pV=\\dfrac mM RT\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "antal molekyler",
+    "poang": "(0/3/0)",
+    "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>Hur många luftmolekyler finns i ett rum (6,0 m × 3,0 m × 2,5 m) vid 101,3 kPa och 22 °C?</li><li>I rymden finns ungefär 1 atom per cm³ och temperaturen är 3 K. Bestäm trycket.</li><li>En tank (1,0 m³, 273 K) släpper ut luft tills trycket sjunkit från 20,0 atm till 15,0 atm (1 atm = 101,3 kPa). Hur många molekyler släpptes ut?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{pV}{kT}=\\dfrac{101{,}3\\cdot10^3\\cdot45}{1{,}381\\cdot10^{-23}\\cdot295}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{27}\\)</p></li><li><p>\\(p=\\dfrac NV kT=10^6\\cdot1{,}381\\cdot10^{-23}\\cdot3\\).</p><p><strong>Svar:</strong> \\(4{,}1\\cdot10^{-17}\\) Pa</p></li><li><p>\\(\\Delta N=\\dfrac{\\Delta p\\,V}{kT}=\\dfrac{5{,}0\\cdot101{,}3\\cdot10^3\\cdot1{,}0}{1{,}381\\cdot10^{-23}\\cdot273}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{26}\\)</p></li></ol>",
+    "id": "6.547",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ideala gaslagen och gasmängd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.1189386222216768e+27,
+      4.143e-17,
+      1.3434550002254563e+26
+    ],
+    "tolerans": [
+      5.1e+25,
+      6.21e-19,
+      5.1e+24
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "Pa",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många luftmolekyler finns i ett rum (6,0 m × 3,0 m × 2,5 m) vid 101,3 kPa och 22 °C?",
+        "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p><p>Hur många luftmolekyler finns i ett rum (6,0 m × 3,0 m × 2,5 m) vid 101,3 kPa och 22 °C?</p>",
+        "s": "<p>\\(N=\\dfrac{pV}{kT}=\\dfrac{101{,}3\\cdot10^3\\cdot45}{1{,}381\\cdot10^{-23}\\cdot295}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{27}\\)</p>",
+        "ledtrad": "<p>\\(pV=NkT\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "I rymden finns ungefär 1 atom per cm³ och temperaturen är 3 K. Bestäm trycket.",
+        "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p><p>I rymden finns ungefär 1 atom per cm³ och temperaturen är 3 K. Bestäm trycket.</p>",
+        "s": "<p>\\(p=\\dfrac NV kT=10^6\\cdot1{,}381\\cdot10^{-23}\\cdot3\\).</p><p><strong>Svar:</strong> \\(4{,}1\\cdot10^{-17}\\) Pa</p>",
+        "ledtrad": "<p>1 cm³ = \\(10^{-6}\\) m³.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En tank (1,0 m³, 273 K) släpper ut luft tills trycket sjunkit från 20,0 atm till 15,0 atm (1 atm = 101,3 kPa). Hur många molekyler släpptes ut?",
+        "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p><p>En tank (1,0 m³, 273 K) släpper ut luft tills trycket sjunkit från 20,0 atm till 15,0 atm (1 atm = 101,3 kPa). Hur många molekyler släpptes ut?</p>",
+        "s": "<p>\\(\\Delta N=\\dfrac{\\Delta p\\,V}{kT}=\\dfrac{5{,}0\\cdot101{,}3\\cdot10^3\\cdot1{,}0}{1{,}381\\cdot10^{-23}\\cdot273}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{26}\\)</p>",
+        "ledtrad": "<p>\\(pV=NkT\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(pV=NkT\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "typ": "luft som lämnar uppvärmt utrymme",
+    "poang": "(0/2/0)",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket och volymen är oförändrade. Hur många procent av luftmolekylerna lämnar</p><ol type=\"a\"><li>ett hus när temperaturen höjs från 16,0 °C till 20,0 °C?</li><li>ett bildäck (230 kPa) som värms från 15,0 °C till 38,0 °C om trycket ska behållas?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(n\\propto\\dfrac1T\\): \\(1-\\dfrac{289}{293}\\).</p><p><strong>Svar:</strong> \\(1{,}37\\) %</p></li><li><p>\\(1-\\dfrac{288}{311}\\).</p><p><strong>Svar:</strong> \\(7{,}40\\) %</p></li></ol>",
+    "id": "6.548",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ideala gaslagen och gasmängd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.3651877133105783,
+      7.395498392282962
+    ],
+    "tolerans": [
+      0.0205,
+      0.111
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "%",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket och volymen är oförändrade. Hur många procent av luftmolekylerna lämnar</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "ett hus när temperaturen höjs från 16,0 °C till 20,0 °C?",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket och volymen är oförändrade. Hur många procent av luftmolekylerna lämnar</p><p>ett hus när temperaturen höjs från 16,0 °C till 20,0 °C?</p>",
+        "s": "<p>\\(n\\propto\\dfrac1T\\): \\(1-\\dfrac{289}{293}\\).</p><p><strong>Svar:</strong> \\(1{,}37\\) %</p>",
+        "ledtrad": "<p>\\(nT\\) är konstant.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "ett bildäck (230 kPa) som värms från 15,0 °C till 38,0 °C om trycket ska behållas?",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket och volymen är oförändrade. Hur många procent av luftmolekylerna lämnar</p><p>ett bildäck (230 kPa) som värms från 15,0 °C till 38,0 °C om trycket ska behållas?</p>",
+        "s": "<p>\\(1-\\dfrac{288}{311}\\).</p><p><strong>Svar:</strong> \\(7{,}40\\) %</p>",
+        "ledtrad": "<p>\\(nT\\) är konstant.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(pV=nRT\\) med konstant \\(p\\) och \\(V\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "3.280",
     "kap": 3,
     "omr": "vektorer",

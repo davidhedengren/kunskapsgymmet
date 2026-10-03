@@ -136004,6 +136004,1038 @@ window.BANK = [
     ]
   },
   {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "E",
+    "typ": "tryck i vardagen",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><ol type=\"a\"><li>En hammare träffar en tumme (2,0 cm²) med kraften 400 N. Bestäm trycket.</li><li>En person (90,0 kg) står på skosulor med arean 0,020 m². Bestäm trycket mot marken.</li><li>En kvinna (56 kg) balanserar på en stilettklack med arean 0,45 cm². Bestäm trycket.</li><li>Samma kvinna balanserar på en klack med arean 16 cm². Bestäm trycket.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=\\dfrac{400}{2{,}0\\cdot10^{-4}}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{6}\\) Pa</p></li><li><p>\\(p=\\dfrac{90{,}0\\cdot9{,}82}{0{,}020}\\).</p><p><strong>Svar:</strong> \\(44\\,190\\) Pa</p></li><li><p>\\(p=\\dfrac{56\\cdot9{,}82}{0{,}45\\cdot10^{-4}}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{7}\\) Pa</p></li><li><p>\\(p=\\dfrac{56\\cdot9{,}82}{16\\cdot10^{-4}}\\).</p><p><strong>Svar:</strong> \\(3{,}4\\cdot10^{5}\\) Pa</p></li></ol>",
+    "id": "6.419",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2000000.0,
+      44190.0,
+      12220444.444444446,
+      343700.0
+    ],
+    "tolerans": [
+      51000.0,
+      663.0,
+      510000.0,
+      5160.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa",
+      "Pa",
+      "Pa"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En hammare träffar en tumme (2,0 cm²) med kraften 400 N. Bestäm trycket.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En hammare träffar en tumme (2,0 cm²) med kraften 400 N. Bestäm trycket.</p>",
+        "s": "<p>\\(p=\\dfrac{400}{2{,}0\\cdot10^{-4}}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{6}\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En person (90,0 kg) står på skosulor med arean 0,020 m². Bestäm trycket mot marken.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En person (90,0 kg) står på skosulor med arean 0,020 m². Bestäm trycket mot marken.</p>",
+        "s": "<p>\\(p=\\dfrac{90{,}0\\cdot9{,}82}{0{,}020}\\).</p><p><strong>Svar:</strong> \\(44\\,190\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En kvinna (56 kg) balanserar på en stilettklack med arean 0,45 cm². Bestäm trycket.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En kvinna (56 kg) balanserar på en stilettklack med arean 0,45 cm². Bestäm trycket.</p>",
+        "s": "<p>\\(p=\\dfrac{56\\cdot9{,}82}{0{,}45\\cdot10^{-4}}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{7}\\) Pa</p>",
+        "ledtrad": "<p>1 cm² = \\(10^{-4}\\) m².</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Samma kvinna balanserar på en klack med arean 16 cm². Bestäm trycket.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Samma kvinna balanserar på en klack med arean 16 cm². Bestäm trycket.</p>",
+        "s": "<p>\\(p=\\dfrac{56\\cdot9{,}82}{16\\cdot10^{-4}}\\).</p><p><strong>Svar:</strong> \\(3{,}4\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "elefantens tryck mot marken",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En elefant (5,0 ton) fördelar tyngden lika på fyra cirkulära fötter med omkretsen 1,4 m. Bestäm trycket mot marken.</p>",
+    "s": "<p>\\(r=\\dfrac{1{,}4}{2\\pi}\\), \\(A=4\\pi r^2\\), \\(p=\\dfrac{5\\,000\\cdot9{,}82}{A}\\).</p><p><strong>Svar:</strong> \\(78\\,700\\) Pa</p>",
+    "id": "6.420",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "numeriskt",
+    "rättSvar": 78700.10167921371,
+    "tolerans": 1180.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm radien ur omkretsen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Pa",
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "E",
+    "typ": "häftstift",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett häftstift trycks in med kraften 20 N. Den platta änden har radien 4,0 mm och spetsen radien 0,3 mm. Bestäm trycket</p><ol type=\"a\"><li>vid den platta änden.</li><li>vid spetsen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=\\dfrac{20}{\\pi\\cdot0{,}0040^2}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\cdot10^{5}\\) Pa</p></li><li><p>\\(p=\\dfrac{20}{\\pi\\cdot0{,}0003^2}\\).</p><p><strong>Svar:</strong> \\(7{,}1\\cdot10^{7}\\) Pa</p></li></ol>",
+    "id": "6.421",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      397887.3577297384,
+      70735530.26306461
+    ],
+    "tolerans": [
+      5970.0,
+      1060000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett häftstift trycks in med kraften 20 N. Den platta änden har radien 4,0 mm och spetsen radien 0,3 mm. Bestäm trycket</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "vid den platta änden.",
+        "t": "<p>Ett häftstift trycks in med kraften 20 N. Den platta änden har radien 4,0 mm och spetsen radien 0,3 mm. Bestäm trycket</p><p>vid den platta änden.</p>",
+        "s": "<p>\\(p=\\dfrac{20}{\\pi\\cdot0{,}0040^2}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "vid spetsen.",
+        "t": "<p>Ett häftstift trycks in med kraften 20 N. Den platta änden har radien 4,0 mm och spetsen radien 0,3 mm. Bestäm trycket</p><p>vid spetsen.</p>",
+        "s": "<p>\\(p=\\dfrac{20}{\\pi\\cdot0{,}0003^2}\\).</p><p><strong>Svar:</strong> \\(7{,}1\\cdot10^{7}\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Samma kraft, olika area.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "E",
+    "typ": "lufttryck på skrivbord",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Ett skrivbord är 2,5 m långt och 1,2 m brett. Lufttrycket är 101,3 kPa.</p><ol type=\"a\"><li>Hur stor tryckkraft verkar på ovansidan?</li><li>Vilken massa har en tyngd som är lika stor?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=101{,}3\\cdot10^3\\cdot2{,}5\\cdot1{,}2\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) N</p></li><li><p>\\(m=\\dfrac{F}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(30\\,947\\) kg</p></li></ol>",
+    "id": "6.422",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck i vardag och teknik",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      303900.0,
+      30947.046843177188
+    ],
+    "tolerans": [
+      5100.0,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Ett skrivbord är 2,5 m långt och 1,2 m brett. Lufttrycket är 101,3 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor tryckkraft verkar på ovansidan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Ett skrivbord är 2,5 m långt och 1,2 m brett. Lufttrycket är 101,3 kPa.</p><p>Hur stor tryckkraft verkar på ovansidan?</p>",
+        "s": "<p>\\(F=101{,}3\\cdot10^3\\cdot2{,}5\\cdot1{,}2\\).</p><p><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) N</p>",
+        "ledtrad": "<p>\\(F=pA\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken massa har en tyngd som är lika stor?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Ett skrivbord är 2,5 m långt och 1,2 m brett. Lufttrycket är 101,3 kPa.</p>Tryckkraften är 0,30 MN.<p>Vilken massa har en tyngd som är lika stor?</p>",
+        "s": "<p>\\(m=\\dfrac{F}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(30\\,947\\) kg</p>",
+        "ledtrad": "<p>\\(F=mg\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Lufttrycket verkar också underifrån, så bordet går inte sönder.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "tryck__tryck_i_vardag_och_teknik",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "däcktryck",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Övertrycket i ett bildäck är 200 kPa.</p><ol type=\"a\"><li>En spik med tvärsnittsarean 2,0 mm² har gått in i däcket. Hur stor kraft trycker spiken utåt?</li><li>Varje däck har kontaktytan 140 cm² mot marken. Uppskatta bilens massa.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=200\\cdot10^3\\cdot2{,}0\\cdot10^{-6}\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) N</p></li><li><p>\\(F=4\\cdot200\\cdot10^3\\cdot0{,}0140\\), \\(m=\\dfrac{F}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(1\\,141\\) kg</p></li></ol>",
+    "id": "6.423",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck i vardag och teknik",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4,
+      1140.529531568228
+    ],
+    "tolerans": [
+      0.006,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Övertrycket i ett bildäck är 200 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En spik med tvärsnittsarean 2,0 mm² har gått in i däcket. Hur stor kraft trycker spiken utåt?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Övertrycket i ett bildäck är 200 kPa.</p><p>En spik med tvärsnittsarean 2,0 mm² har gått in i däcket. Hur stor kraft trycker spiken utåt?</p>",
+        "s": "<p>\\(F=200\\cdot10^3\\cdot2{,}0\\cdot10^{-6}\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) N</p>",
+        "ledtrad": "<p>1 mm² = \\(10^{-6}\\) m².</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Varje däck har kontaktytan 140 cm² mot marken. Uppskatta bilens massa.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Övertrycket i ett bildäck är 200 kPa.</p><p>Varje däck har kontaktytan 140 cm² mot marken. Uppskatta bilens massa.</p>",
+        "s": "<p>\\(F=4\\cdot200\\cdot10^3\\cdot0{,}0140\\), \\(m=\\dfrac{F}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(1\\,141\\) kg</p>",
+        "ledtrad": "<p>Däcktrycket bär bilen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F=pA\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "tryck__tryck_i_vardag_och_teknik",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "vakuum och undertryck",
+    "poang": "(1/1/0)",
+    "t": "<p>Lufttrycket är 101,3 kPa.</p><ol type=\"a\"><li>Luften pumpas ur en låda. Hur stor kraft krävs för att lyfta locket (40 cm × 30 cm)? Bortse från lockets tyngd.</li><li>Trycket inne i ett kylskåp är 5,0 % lägre än utanför. Hur stor kraft krävs för att öppna dörren (0,55 m × 1,75 m)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=101{,}3\\cdot10^3\\cdot0{,}40\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(12\\,156\\) N</p></li><li><p>\\(F=0{,}050\\cdot101{,}3\\cdot10^3\\cdot0{,}55\\cdot1{,}75\\).</p><p><strong>Svar:</strong> \\(4\\,875\\) N</p></li></ol>",
+    "id": "6.424",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Övertryck och sugkoppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12156.0,
+      4875.0625
+    ],
+    "tolerans": [
+      510.0,
+      73.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Lufttrycket är 101,3 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Luften pumpas ur en låda. Hur stor kraft krävs för att lyfta locket (40 cm × 30 cm)? Bortse från lockets tyngd.",
+        "t": "<p>Lufttrycket är 101,3 kPa.</p><p>Luften pumpas ur en låda. Hur stor kraft krävs för att lyfta locket (40 cm × 30 cm)? Bortse från lockets tyngd.</p>",
+        "s": "<p>\\(F=101{,}3\\cdot10^3\\cdot0{,}40\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(12\\,156\\) N</p>",
+        "ledtrad": "<p>Trycket inuti är noll.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Trycket inne i ett kylskåp är 5,0 % lägre än utanför. Hur stor kraft krävs för att öppna dörren (0,55 m × 1,75 m)?",
+        "t": "<p>Lufttrycket är 101,3 kPa.</p><p>Trycket inne i ett kylskåp är 5,0 % lägre än utanför. Hur stor kraft krävs för att öppna dörren (0,55 m × 1,75 m)?</p>",
+        "s": "<p>\\(F=0{,}050\\cdot101{,}3\\cdot10^3\\cdot0{,}55\\cdot1{,}75\\).</p><p><strong>Svar:</strong> \\(4\\,875\\) N</p>",
+        "ledtrad": "<p>Det är tryckskillnaden som ger kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F=\\Delta p\\cdot A\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "tryck__overtryck_och_sugkoppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "pall och stol med samma tryck",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Ett barn (10 kg) sitter på en pall med tre runda ben (diameter 2,0 cm). En kvinna sitter på en stol med fyra ben (diameter 4,0 cm). Trycket mot golvet är lika stort. Hur mycket väger kvinnan? Bortse från möblernas massa.</p>",
+    "s": "<p>\\(\\dfrac{10}{3\\cdot\\pi\\cdot0{,}010^2}=\\dfrac{m}{4\\cdot\\pi\\cdot0{,}020^2}\\iff m=10\\cdot\\dfrac{4\\cdot4}{3}\\).</p><p><strong>Svar:</strong> \\(53\\) kg</p>",
+    "id": "6.425",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "numeriskt",
+    "rättSvar": 53.333333333333336,
+    "tolerans": 0.8,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt trycken lika.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "minsta tryck från rätblock",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: järn 7 870 kg/m³.</p><p>Ett järnrätblock är 3,0 cm × 4,0 cm × 5,0 cm. Bestäm det minsta tryck det kan ge mot ett bord.</p>",
+    "s": "<p>Minst tryck när den största sidan är nedåt, alltså höjden 3,0 cm: \\(p=\\rho gh=7\\,870\\cdot9{,}82\\cdot0{,}030\\).</p><p><strong>Svar:</strong> \\(2\\,319\\) Pa</p>",
+    "id": "6.426",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2318.502,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(p=\\rho gh\\) för ett rätblock.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Pa",
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "E",
+    "typ": "fonografens nål",
+    "poang": "(1/0/0)",
+    "t": "<p>En fonografnål med spetsradien 0,10 mm trycks mot en yta med kraften 20 mN. Bestäm trycket vid spetsen.</p>",
+    "s": "<p>\\(p=\\dfrac{0{,}020}{\\pi\\cdot(0{,}10\\cdot10^{-3})^2}\\).</p><p><strong>Svar:</strong> \\(6{,}4\\cdot10^{5}\\) Pa</p>",
+    "id": "6.427",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "numeriskt",
+    "rättSvar": 636619.7723675814,
+    "tolerans": 9550.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Pa",
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "E",
+    "typ": "kork i läskflaska",
+    "poang": "(1/0/0)",
+    "t": "<p>Trycket i en läskflaska är \\(1{,}80\\cdot10^5\\) Pa och lufttrycket \\(1{,}01\\cdot10^5\\) Pa. Korken har arean \\(4{,}1\\cdot10^{-4}\\) m². Hur stor nettokraft trycker korken uppåt?</p>",
+    "s": "<p>\\(F=(1{,}80-1{,}01)\\cdot10^5\\cdot4{,}1\\cdot10^{-4}\\).</p><p><strong>Svar:</strong> \\(32\\) N</p>",
+    "id": "6.428",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Övertryck och sugkoppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 32.39,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tryckskillnaden ger kraften.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "tryck__overtryck_och_sugkoppar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "stapel av klossar",
+    "poang": "(0/1/0)",
+    "t": "<p>Klossar (0,400 m × 0,200 m × 0,100 m) har tyngden 169 N var. De staplas på varandra. Hur många hela klossar krävs minst för att det totala trycket under stapeln (lufttryck + klossarnas tryck) ska bli dubbelt så stort som lufttrycket 101,3 kPa?</p>",
+    "s": "<p>Klossarna ska ge 101,3 kPa. Minsta area 0,0200 m² ger \\(\\dfrac{169}{0{,}0200}=8\\,450\\) Pa per kloss. \\(\\dfrac{101\\,300}{8\\,450}=11{,}99\\): 12 klossar.</p><p><strong>Svar:</strong> \\(12\\) </p>",
+    "id": "6.429",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ klossarna på den minsta sidan.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "A",
+    "typ": "skidåkare",
+    "poang": "(2/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En skidåkare (85 kg) står på två skidor som är 5,5 cm breda och 2,15 m långa.</p><ol type=\"a\"><li>Bestäm trycket mot snön.</li><li>Bestäm trycket när han lyfter ena skidan.</li><li>Bestäm trycket mot snön (två skidor) i en backe med lutningen 25°.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=\\dfrac{85\\cdot9{,}82}{2\\cdot0{,}055\\cdot2{,}15}\\).</p><p><strong>Svar:</strong> \\(3\\,529\\) Pa</p></li><li><p>Halva arean ger dubbla trycket.</p><p><strong>Svar:</strong> \\(7\\,059\\) Pa</p></li><li><p>Bara normalkraften \\(mg\\cos25^\\circ\\) trycker mot snön.</p><p><strong>Svar:</strong> \\(3\\,199\\) Pa</p></li></ol>",
+    "id": "6.430",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3529.38689217759,
+      7058.77378435518,
+      3198.7108238456312
+    ],
+    "tolerans": [
+      52.9,
+      106.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa",
+      "Pa"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En skidåkare (85 kg) står på två skidor som är 5,5 cm breda och 2,15 m långa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm trycket mot snön.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En skidåkare (85 kg) står på två skidor som är 5,5 cm breda och 2,15 m långa.</p><p>Bestäm trycket mot snön.</p>",
+        "s": "<p>\\(p=\\dfrac{85\\cdot9{,}82}{2\\cdot0{,}055\\cdot2{,}15}\\).</p><p><strong>Svar:</strong> \\(3\\,529\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm trycket när han lyfter ena skidan.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En skidåkare (85 kg) står på två skidor som är 5,5 cm breda och 2,15 m långa.</p><p>Bestäm trycket när han lyfter ena skidan.</p>",
+        "s": "<p>Halva arean ger dubbla trycket.</p><p><strong>Svar:</strong> \\(7\\,059\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm trycket mot snön (två skidor) i en backe med lutningen 25°.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En skidåkare (85 kg) står på två skidor som är 5,5 cm breda och 2,15 m långa.</p><p>Bestäm trycket mot snön (två skidor) i en backe med lutningen 25°.</p>",
+        "s": "<p>Bara normalkraften \\(mg\\cos25^\\circ\\) trycker mot snön.</p><p><strong>Svar:</strong> \\(3\\,199\\) Pa</p>",
+        "ledtrad": "<p>Vilken kraft är vinkelrät mot snön?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "höjd hos kopparblock",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: koppar 8 960 kg/m³.</p><p>Ett rätblock av koppar ger trycket 8,50 kPa mot bordet. Bestäm rätblockets höjd.</p>",
+    "s": "<p>\\(p=\\rho gh\\iff h=\\dfrac{8\\,500}{8\\,960\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}097\\) m</p>",
+    "id": "6.431",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0966049607215595,
+    "tolerans": 0.00145,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(p=\\dfrac{mg}{A}=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "E",
+    "typ": "storm lyfter tak",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett tak är 9,1 m × 7,6 m. Inne i huset är trycket 101,3 kPa, och utanför sjunker det till 98,60 kPa under en storm. Hur stor nettokraft verkar uppåt på taket?</p>",
+    "s": "<p>\\(F=(101{,}3-98{,}60)\\cdot10^3\\cdot9{,}1\\cdot7{,}6\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{5}\\) N</p>",
+    "id": "6.432",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Övertryck och sugkoppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 186732.0,
+    "tolerans": 5100.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tryckskillnad gånger area.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "tryck__overtryck_och_sugkoppar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "kolv och fjäder vid vakuum",
+    "poang": "(0/1/0)",
+    "t": "<p>En kolv (radie 2,4 cm) sitter i en cylinder och är fäst i en fjäder (3 600 N/m). Luften under kolven pumpas ut så att det blir vakuum där. Lufttrycket är 101,3 kPa. Hur mycket trycks fjädern ihop?</p>",
+    "s": "<p>\\(F=101{,}3\\cdot10^3\\cdot\\pi\\cdot0{,}024^2\\), \\(x=\\dfrac{F}{3\\,600}\\).</p><p><strong>Svar:</strong> \\(0{,}051\\) m</p>",
+    "id": "6.433",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Övertryck och sugkoppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.050918933729383366,
+    "tolerans": 0.000764,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tryckkraften balanseras av fjädern.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "tryck__overtryck_och_sugkoppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "A",
+    "typ": "väska i accelererande hiss",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En väska (16 kg) med botten 0,50 m × 0,15 m står i en hiss som accelererar uppåt med 1,5 m/s². Bestäm trycket mot golvet.</p>",
+    "s": "<p>\\(F_N=16(9{,}82+1{,}5)\\), \\(p=\\dfrac{F_N}{0{,}50\\cdot0{,}15}\\).</p><p><strong>Svar:</strong> \\(2\\,415\\) Pa</p>",
+    "id": "6.434",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck p = F/A",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2414.9333333333334,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm normalkraften först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Pa",
+    "familjNyckel": "tryck__tryck_p_f_a",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "luftens kraft på rummets ytor",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett rum är 5,50 m långt, 4,25 m brett och 2,40 m högt. Lufttrycket är 101,3 kPa. Hur stor är den sammanlagda tryckkraften på väggar, golv och tak?</p>",
+    "s": "<p>\\(A=2(5{,}50\\cdot4{,}25+5{,}50\\cdot2{,}40+4{,}25\\cdot2{,}40)\\), \\(F=pA\\).</p><p><strong>Svar:</strong> \\(9{,}5\\cdot10^{6}\\) N</p>",
+    "id": "6.435",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tryck i vardag och teknik",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9476615.000000002,
+    "tolerans": 142000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Summera alla sex ytor.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "tryck__tryck_i_vardag_och_teknik",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "flytande träskiva i oljecylinder",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En träskiva (45,0 N, diameter 30,0 cm) flyter i en cylinder med olja (850 kg/m³) och täcker hela tvärsnittet. Oljan når 75,0 cm upp.</p><ol type=\"a\"><li>Bestäm övertrycket vid botten.</li><li>En vikt på 0,800 kg läggs på skivan. Hur mycket ökar trycket halvvägs ner i oljan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=850\\cdot9{,}82\\cdot0{,}750+\\dfrac{45{,}0}{\\pi\\cdot0{,}150^2}\\).</p><p><strong>Svar:</strong> \\(6\\,897\\) Pa</p></li><li><p>\\(\\Delta p=\\dfrac{0{,}800\\cdot9{,}82}{\\pi\\cdot0{,}150^2}\\), lika mycket överallt.</p><p><strong>Svar:</strong> \\(111\\) Pa</p></li></ol>",
+    "id": "6.447",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hydraulik",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6896.869772367581,
+      111.1396651493271
+    ],
+    "tolerans": [
+      103.0,
+      1.67
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En träskiva (45,0 N, diameter 30,0 cm) flyter i en cylinder med olja (850 kg/m³) och täcker hela tvärsnittet. Oljan når 75,0 cm upp.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm övertrycket vid botten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En träskiva (45,0 N, diameter 30,0 cm) flyter i en cylinder med olja (850 kg/m³) och täcker hela tvärsnittet. Oljan når 75,0 cm upp.</p><p>Bestäm övertrycket vid botten.</p>",
+        "s": "<p>\\(p=850\\cdot9{,}82\\cdot0{,}750+\\dfrac{45{,}0}{\\pi\\cdot0{,}150^2}\\).</p><p><strong>Svar:</strong> \\(6\\,897\\) Pa</p>",
+        "ledtrad": "<p>Både oljan och skivan trycker.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En vikt på 0,800 kg läggs på skivan. Hur mycket ökar trycket halvvägs ner i oljan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En träskiva (45,0 N, diameter 30,0 cm) flyter i en cylinder med olja (850 kg/m³) och täcker hela tvärsnittet. Oljan når 75,0 cm upp.</p><p>En vikt på 0,800 kg läggs på skivan. Hur mycket ökar trycket halvvägs ner i oljan?</p>",
+        "s": "<p>\\(\\Delta p=\\dfrac{0{,}800\\cdot9{,}82}{\\pi\\cdot0{,}150^2}\\), lika mycket överallt.</p><p><strong>Svar:</strong> \\(111\\) Pa</p>",
+        "ledtrad": "<p>Pascals princip.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>En tryckökning sprids lika i hela vätskan.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "tryck__hydraulik",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "hydraulisk bil-lift",
+    "poang": "(1/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En hydraulisk lift har en liten kolv och en stor kolv.</p><ol type=\"a\"><li>\\(A_1=0{,}250\\) dm² och \\(A_2=1{,}00\\) m². Vilken kraft krävs på den lilla kolven för att lyfta en bil (1 200 kg)?</li><li>Hur långt måste den lilla kolven pressas in för att bilen ska lyftas 10 mm?</li><li>Kolvarnas radier är i stället 7,70 mm och 0,125 m. Vilken kraft krävs för att lyfta bilen?</li><li>Vilket förhållande \\(A_2/A_1\\) behövs för att 125 N ska lyfta en bil på 1 520 kg?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_1=1\\,200\\cdot9{,}82\\cdot\\dfrac{0{,}00250}{1{,}00}\\).</p><p><strong>Svar:</strong> \\(29{,}5\\) N</p></li><li><p>Volymen bevaras: \\(s_1=0{,}010\\cdot\\dfrac{1{,}00}{0{,}00250}\\).</p><p><strong>Svar:</strong> \\(4{,}00\\) m</p></li><li><p>\\(F_1=1\\,200\\cdot9{,}82\\cdot\\left(\\dfrac{7{,}70}{125}\\right)^2\\).</p><p><strong>Svar:</strong> \\(44{,}7\\) N</p></li><li><p>\\(\\dfrac{A_2}{A_1}=\\dfrac{1\\,520\\cdot9{,}82}{125}\\).</p><p><strong>Svar:</strong> \\(119\\)</p></li></ol>",
+    "id": "6.448",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hydraulik",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29.46,
+      4.0,
+      44.71509504,
+      119.4112
+    ],
+    "tolerans": [
+      0.442,
+      0.06,
+      0.671,
+      1.79
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N",
+      "m",
+      "N",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En hydraulisk lift har en liten kolv och en stor kolv.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(A_1=0{,}250\\) dm² och \\(A_2=1{,}00\\) m². Vilken kraft krävs på den lilla kolven för att lyfta en bil (1 200 kg)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En hydraulisk lift har en liten kolv och en stor kolv.</p><p>\\(A_1=0{,}250\\) dm² och \\(A_2=1{,}00\\) m². Vilken kraft krävs på den lilla kolven för att lyfta en bil (1 200 kg)?</p>",
+        "s": "<p>\\(F_1=1\\,200\\cdot9{,}82\\cdot\\dfrac{0{,}00250}{1{,}00}\\).</p><p><strong>Svar:</strong> \\(29{,}5\\) N</p>",
+        "ledtrad": "<p>Samma tryck i hela vätskan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt måste den lilla kolven pressas in för att bilen ska lyftas 10 mm?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En hydraulisk lift har en liten kolv och en stor kolv.</p><p>Hur långt måste den lilla kolven pressas in för att bilen ska lyftas 10 mm?</p>",
+        "s": "<p>Volymen bevaras: \\(s_1=0{,}010\\cdot\\dfrac{1{,}00}{0{,}00250}\\).</p><p><strong>Svar:</strong> \\(4{,}00\\) m</p>",
+        "ledtrad": "<p>Samma volym vätska flyttas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Kolvarnas radier är i stället 7,70 mm och 0,125 m. Vilken kraft krävs för att lyfta bilen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En hydraulisk lift har en liten kolv och en stor kolv.</p><p>Kolvarnas radier är i stället 7,70 mm och 0,125 m. Vilken kraft krävs för att lyfta bilen?</p>",
+        "s": "<p>\\(F_1=1\\,200\\cdot9{,}82\\cdot\\left(\\dfrac{7{,}70}{125}\\right)^2\\).</p><p><strong>Svar:</strong> \\(44{,}7\\) N</p>",
+        "ledtrad": "<p>Areorna förhåller sig som radierna i kvadrat.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Vilket förhållande \\(A_2/A_1\\) behövs för att 125 N ska lyfta en bil på 1 520 kg?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En hydraulisk lift har en liten kolv och en stor kolv.</p><p>Vilket förhållande \\(A_2/A_1\\) behövs för att 125 N ska lyfta en bil på 1 520 kg?</p>",
+        "s": "<p>\\(\\dfrac{A_2}{A_1}=\\dfrac{1\\,520\\cdot9{,}82}{125}\\).</p><p><strong>Svar:</strong> \\(119\\)</p>",
+        "ledtrad": "<p>\\(\\dfrac{F_2}{F_1}=\\dfrac{A_2}{A_1}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{F_1}{A_1}=\\dfrac{F_2}{A_2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "tryck__hydraulik",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "A",
+    "typ": "kolvradie ur kraftförhållande",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En hydraulisk press har en liten kolv med radien \\(r\\) cm och en stor kolv med radien \\((r+2)\\) cm. Den lilla kolven pressas med 100 N och den stora lyfter ett paket på 120 kg. Bestäm \\(r\\) (i cm).</p>",
+    "s": "<p>\\(\\left(\\dfrac{r+2}{r}\\right)^2=\\dfrac{120\\cdot9{,}82}{100}=11{,}78\\iff\\dfrac{r+2}{r}=3{,}433\\iff r=\\dfrac{2}{2{,}433}\\).</p><p><strong>Svar:</strong> \\(0{,}82\\) cm</p>",
+    "id": "6.449",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hydraulik",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.822103695740847,
+    "tolerans": 0.0123,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kraftförhållandet är areaförhållandet.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "cm",
+    "familjNyckel": "tryck__hydraulik",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "hydraulisk broms",
+    "poang": "(0/1/0)",
+    "t": "<p>Bromspedalen pressar en kolv (radie 9,50 mm) med 9,00 N. Trycket överförs till två bromskolvar (radie 1,9 cm var) som pressar mot bromsskivan. Hur stor är den sammanlagda kraften mot skivan?</p>",
+    "s": "<p>Per kolv: \\(9{,}00\\cdot\\left(\\dfrac{19}{9{,}50}\\right)^2=36\\) N. Två kolvar.</p><p><strong>Svar:</strong> \\(72\\) N</p>",
+    "id": "6.450",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hydraulik",
+    "svarstyp": "numeriskt",
+    "rättSvar": 72.0,
+    "tolerans": 1.08,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Areorna förhåller sig som radierna i kvadrat.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "tryck__hydraulik",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "tryck",
+    "niva": "C",
+    "typ": "hydraulik med fjäder",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>I en hydraulisk behållare pressas en kolv (15 cm²) ner av en fjäder (1 600 N/m). På den andra kolven (65 cm²) läggs en sten (40,0 kg). Hur mycket mer trycks fjädern ihop?</p>",
+    "s": "<p>\\(p=\\dfrac{40{,}0\\cdot9{,}82}{65\\cdot10^{-4}}\\), \\(F=p\\cdot15\\cdot10^{-4}\\), \\(x=\\dfrac{F}{1\\,600}\\).</p><p><strong>Svar:</strong> \\(0{,}057\\) m</p>",
+    "id": "6.451",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hydraulik",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.05665384615384616,
+    "tolerans": 0.00085,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma tryckökning på båda kolvarna.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "tryck__hydraulik",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "6.354",
     "kap": 6,
     "omr": "vatsketryck",
@@ -136121,6 +137153,1413 @@ window.BANK = [
     "familjTidigare": [
       "Tryckskillnad mellan två djup"
     ]
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "tryck i en insjö",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Vattnet i en insjö har densiteten 998 kg/m³ och lufttrycket är 101,3 kPa.</p><ol type=\"a\"><li>Bestäm vätsketrycket på 10,0 m djup.</li><li>Bestäm det totala trycket på 20,0 m djup.</li><li>På vilket djup är det totala trycket 350 kPa?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=998\\cdot9{,}82\\cdot10{,}0\\).</p><p><strong>Svar:</strong> \\(98\\,004\\) Pa</p></li><li><p>\\(p=101{,}3\\cdot10^3+998\\cdot9{,}82\\cdot20{,}0\\).</p><p><strong>Svar:</strong> \\(2{,}97\\cdot10^{5}\\) Pa</p></li><li><p>\\(h=\\dfrac{(350-101{,}3)\\cdot10^3}{998\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(25{,}4\\) m</p></li></ol>",
+    "id": "6.436",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      98003.6,
+      297307.2,
+      25.376618818084232
+    ],
+    "tolerans": [
+      1470.0,
+      4460.0,
+      0.381
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Vattnet i en insjö har densiteten 998 kg/m³ och lufttrycket är 101,3 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vätsketrycket på 10,0 m djup.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Vattnet i en insjö har densiteten 998 kg/m³ och lufttrycket är 101,3 kPa.</p><p>Bestäm vätsketrycket på 10,0 m djup.</p>",
+        "s": "<p>\\(p=998\\cdot9{,}82\\cdot10{,}0\\).</p><p><strong>Svar:</strong> \\(98\\,004\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm det totala trycket på 20,0 m djup.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Vattnet i en insjö har densiteten 998 kg/m³ och lufttrycket är 101,3 kPa.</p><p>Bestäm det totala trycket på 20,0 m djup.</p>",
+        "s": "<p>\\(p=101{,}3\\cdot10^3+998\\cdot9{,}82\\cdot20{,}0\\).</p><p><strong>Svar:</strong> \\(2{,}97\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>Lägg till lufttrycket.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "På vilket djup är det totala trycket 350 kPa?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Vattnet i en insjö har densiteten 998 kg/m³ och lufttrycket är 101,3 kPa.</p><p>På vilket djup är det totala trycket 350 kPa?</p>",
+        "s": "<p>\\(h=\\dfrac{(350-101{,}3)\\cdot10^3}{998\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(25{,}4\\) m</p>",
+        "ledtrad": "<p>Dra bort lufttrycket först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "tryck i havet",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lufttrycket är 101,3 kPa.</p><ol type=\"a\"><li>Bestäm det totala trycket på 55,0 m djup.</li><li>Bestäm vätsketrycket vid en hydrotermal öppning på 3,2 km djup.</li><li>Organismer tål ett totalt tryck på högst 1 000 gånger lufttrycket. Bestäm största djupet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=101{,}3\\cdot10^3+1\\,025\\cdot9{,}82\\cdot55{,}0\\).</p><p><strong>Svar:</strong> \\(6{,}55\\cdot10^{5}\\) Pa</p></li><li><p>\\(p=1\\,025\\cdot9{,}82\\cdot3\\,200\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{7}\\) Pa</p></li><li><p>\\(h=\\dfrac{999\\cdot101{,}3\\cdot10^3}{1\\,025\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(10\\,054\\) m</p></li></ol>",
+    "id": "6.437",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      654902.5,
+      32209600.0,
+      10054.01619392976
+    ],
+    "tolerans": [
+      9820.0,
+      510000.0,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lufttrycket är 101,3 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm det totala trycket på 55,0 m djup.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lufttrycket är 101,3 kPa.</p><p>Bestäm det totala trycket på 55,0 m djup.</p>",
+        "s": "<p>\\(p=101{,}3\\cdot10^3+1\\,025\\cdot9{,}82\\cdot55{,}0\\).</p><p><strong>Svar:</strong> \\(6{,}55\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>Lägg till lufttrycket.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm vätsketrycket vid en hydrotermal öppning på 3,2 km djup.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lufttrycket är 101,3 kPa.</p><p>Bestäm vätsketrycket vid en hydrotermal öppning på 3,2 km djup.</p>",
+        "s": "<p>\\(p=1\\,025\\cdot9{,}82\\cdot3\\,200\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{7}\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Organismer tål ett totalt tryck på högst 1 000 gånger lufttrycket. Bestäm största djupet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lufttrycket är 101,3 kPa.</p><p>Organismer tål ett totalt tryck på högst 1 000 gånger lufttrycket. Bestäm största djupet.</p>",
+        "s": "<p>\\(h=\\dfrac{999\\cdot101{,}3\\cdot10^3}{1\\,025\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(10\\,054\\) m</p>",
+        "ledtrad": "<p>Vätsketrycket är 999 gånger lufttrycket.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "E",
+    "typ": "luft och vatten med samma höjdskillnad",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Hur mycket ändras trycket om man klättrar 35,0 m uppåt i luft med densiteten 1,20 kg/m³?</p>",
+    "s": "<p>\\(\\Delta p=1{,}20\\cdot9{,}82\\cdot35{,}0\\). Att dyka 35 m i vatten ger ungefär 1 000 gånger mer.</p><p><strong>Svar:</strong> \\(412\\) Pa</p>",
+    "id": "6.438",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "numeriskt",
+    "rättSvar": 412.44,
+    "tolerans": 6.19,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "Pa",
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "hav på Mars",
+    "poang": "(1/1/0)",
+    "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p><ol type=\"a\"><li>Bestäm vätsketrycket vid botten.</li><li>På vilket djup på jorden (\\(g=9{,}82\\) m/s²) är vätsketrycket lika stort?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=998\\cdot3{,}71\\cdot500\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p></li><li><p>\\(h=\\dfrac{1{,}85\\cdot10^6}{998\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(189\\) m</p></li></ol>",
+    "id": "6.439",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1851290.0,
+      188.90020366598776
+    ],
+    "tolerans": [
+      51000.0,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vätsketrycket vid botten.",
+        "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p><p>Bestäm vätsketrycket vid botten.</p>",
+        "s": "<p>\\(p=998\\cdot3{,}71\\cdot500\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "På vilket djup på jorden (\\(g=9{,}82\\) m/s²) är vätsketrycket lika stort?",
+        "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p>Trycket på Mars är 1,85 MPa.<p>På vilket djup på jorden (\\(g=9{,}82\\) m/s²) är vätsketrycket lika stort?</p>",
+        "s": "<p>\\(h=\\dfrac{1{,}85\\cdot10^6}{998\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(189\\) m</p>",
+        "ledtrad": "<p>Samma densitet, annan tyngdfaktor.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "djup för givet totaltryck",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><ol type=\"a\"><li>Lufttrycket är 1,0 atm (101,3 kPa). Hur djupt ska man dyka i en sjö (1 000 kg/m³) för att det totala trycket ska bli 5,0 atm?</li><li>Lufttrycket på Venus är \\(9{,}0\\cdot10^6\\) Pa. Hur djupt i havet (1 025 kg/m³) är det totala trycket lika stort?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{4{,}0\\cdot101{,}3\\cdot10^3}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(41\\) m</p></li><li><p>\\(h=\\dfrac{9{,}0\\cdot10^6-101{,}3\\cdot10^3}{1\\,025\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(884\\) m</p></li></ol>",
+    "id": "6.440",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absoluttryck, övertryck och lufttryck",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      41.26272912423625,
+      884.0792807113407
+    ],
+    "tolerans": [
+      0.619,
+      13.3
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Lufttrycket är 1,0 atm (101,3 kPa). Hur djupt ska man dyka i en sjö (1 000 kg/m³) för att det totala trycket ska bli 5,0 atm?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Lufttrycket är 1,0 atm (101,3 kPa). Hur djupt ska man dyka i en sjö (1 000 kg/m³) för att det totala trycket ska bli 5,0 atm?</p>",
+        "s": "<p>\\(h=\\dfrac{4{,}0\\cdot101{,}3\\cdot10^3}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(41\\) m</p>",
+        "ledtrad": "<p>Vätsketrycket ska vara 4,0 atm.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Lufttrycket på Venus är \\(9{,}0\\cdot10^6\\) Pa. Hur djupt i havet (1 025 kg/m³) är det totala trycket lika stort?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Lufttrycket på Venus är \\(9{,}0\\cdot10^6\\) Pa. Hur djupt i havet (1 025 kg/m³) är det totala trycket lika stort?</p>",
+        "s": "<p>\\(h=\\dfrac{9{,}0\\cdot10^6-101{,}3\\cdot10^3}{1\\,025\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(884\\) m</p>",
+        "ledtrad": "<p>Dra bort lufttrycket.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p_\\text{tot}=p_0+\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__absoluttryck_overtryck_och_lufttryck",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "tryck i mätglas",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett mätglas med innerdiametern 2,00 cm innehåller 100 ml vatten. Bestäm vätsketrycket vid botten.</p>",
+    "s": "<p>\\(h=\\dfrac{100}{\\pi\\cdot1{,}00^2}=31{,}8\\) cm. \\(p=1\\,000\\cdot9{,}82\\cdot0{,}318\\).</p><p><strong>Svar:</strong> \\(3\\,126\\) Pa</p>",
+    "id": "6.441",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3125.803082324825,
+    "tolerans": 46.9,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm vattenhöjden.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Pa",
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "kvicksilverbarometer",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><ol type=\"a\"><li>Bestäm trycket 760 mmHg i pascal.</li><li>Hur hög vinpelare (984 kg/m³) balanseras av samma lufttryck?</li><li>Lufttrycket sjunker 75,0 mmHg från 760 mmHg. Bestäm det nya trycket i pascal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=13\\,600\\cdot9{,}82\\cdot0{,}760\\).</p><p><strong>Svar:</strong> \\(1{,}01\\cdot10^{5}\\) Pa</p></li><li><p>\\(h=\\dfrac{1{,}015\\cdot10^5}{984\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(10{,}5\\) m</p></li><li><p>\\(p=13\\,600\\cdot9{,}82\\cdot0{,}685\\).</p><p><strong>Svar:</strong> \\(91\\,483\\) Pa</p></li></ol>",
+    "id": "6.442",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absoluttryck, övertryck och lufttryck",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      101499.52,
+      10.504065040650406,
+      91483.12000000001
+    ],
+    "tolerans": [
+      1520.0,
+      0.158,
+      1370.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "m",
+      "Pa"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm trycket 760 mmHg i pascal.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Bestäm trycket 760 mmHg i pascal.</p>",
+        "s": "<p>\\(p=13\\,600\\cdot9{,}82\\cdot0{,}760\\).</p><p><strong>Svar:</strong> \\(1{,}01\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur hög vinpelare (984 kg/m³) balanseras av samma lufttryck?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p>760 mmHg är 101,5 kPa.<p>Hur hög vinpelare (984 kg/m³) balanseras av samma lufttryck?</p>",
+        "s": "<p>\\(h=\\dfrac{1{,}015\\cdot10^5}{984\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(10{,}5\\) m</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Lufttrycket sjunker 75,0 mmHg från 760 mmHg. Bestäm det nya trycket i pascal.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Lufttrycket sjunker 75,0 mmHg från 760 mmHg. Bestäm det nya trycket i pascal.</p>",
+        "s": "<p>\\(p=13\\,600\\cdot9{,}82\\cdot0{,}685\\).</p><p><strong>Svar:</strong> \\(91\\,483\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__absoluttryck_overtryck_och_lufttryck",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "dropp och blodtryck",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><ol type=\"a\"><li>Övertrycket i en ven är 1,33 kPa. Hur högt måste droppet (1,02 g/cm³) hängas för att lösningen ska rinna in?</li><li>Ett dropp (1,02 g/cm³) måste hängas 0,610 m högt. Bestäm övertrycket i venen i mmHg.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{1\\,330}{1\\,020\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}133\\) m</p></li><li><p>\\(\\Delta p=1\\,020\\cdot9{,}82\\cdot0{,}610\\). Motsvarande kvicksilverhöjd: \\(\\dfrac{\\Delta p}{13\\,600\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(45{,}7\\) mmHg</p></li></ol>",
+    "id": "6.443",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absoluttryck, övertryck och lufttryck",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.13278223713110499,
+      45.74999999999999
+    ],
+    "tolerans": [
+      0.00199,
+      0.686
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "mmHg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Övertrycket i en ven är 1,33 kPa. Hur högt måste droppet (1,02 g/cm³) hängas för att lösningen ska rinna in?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Övertrycket i en ven är 1,33 kPa. Hur högt måste droppet (1,02 g/cm³) hängas för att lösningen ska rinna in?</p>",
+        "s": "<p>\\(h=\\dfrac{1\\,330}{1\\,020\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}133\\) m</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett dropp (1,02 g/cm³) måste hängas 0,610 m högt. Bestäm övertrycket i venen i mmHg.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Ett dropp (1,02 g/cm³) måste hängas 0,610 m högt. Bestäm övertrycket i venen i mmHg.</p>",
+        "s": "<p>\\(\\Delta p=1\\,020\\cdot9{,}82\\cdot0{,}610\\). Motsvarande kvicksilverhöjd: \\(\\dfrac{\\Delta p}{13\\,600\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(45{,}7\\) mmHg</p>",
+        "ledtrad": "<p>1 mmHg är trycket från 1 mm kvicksilver.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__absoluttryck_overtryck_och_lufttryck",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "blodtryck i kroppen",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Hjärtat sitter 1,37 m över golvet hos en person som är 1,75 m lång. Blodtrycket (övertrycket) i hjärtat är 104 mmHg och blodets densitet 1 060 kg/m³.</p><ol type=\"a\"><li>Bestäm blodtrycket i hjärtat i pascal.</li><li>Uppskatta blodtrycket i fötterna.</li><li>Uppskatta blodtrycket i huvudets topp (1,75 m upp).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=13\\,600\\cdot9{,}82\\cdot0{,}104\\).</p><p><strong>Svar:</strong> \\(13\\,889\\) Pa</p></li><li><p>\\(p=13{,}9\\cdot10^3+1\\,060\\cdot9{,}82\\cdot1{,}37\\).</p><p><strong>Svar:</strong> \\(28\\,150\\) Pa</p></li><li><p>\\(p=13{,}9\\cdot10^3-1\\,060\\cdot9{,}82\\cdot0{,}38\\).</p><p><strong>Svar:</strong> \\(9\\,934\\) Pa</p></li></ol>",
+    "id": "6.444",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absoluttryck, övertryck och lufttryck",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13889.408,
+      28150.012000000002,
+      9933.911999999998
+    ],
+    "tolerans": [
+      208.0,
+      422.0,
+      149.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa",
+      "Pa"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Hjärtat sitter 1,37 m över golvet hos en person som är 1,75 m lång. Blodtrycket (övertrycket) i hjärtat är 104 mmHg och blodets densitet 1 060 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm blodtrycket i hjärtat i pascal.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Hjärtat sitter 1,37 m över golvet hos en person som är 1,75 m lång. Blodtrycket (övertrycket) i hjärtat är 104 mmHg och blodets densitet 1 060 kg/m³.</p><p>Bestäm blodtrycket i hjärtat i pascal.</p>",
+        "s": "<p>\\(p=13\\,600\\cdot9{,}82\\cdot0{,}104\\).</p><p><strong>Svar:</strong> \\(13\\,889\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Uppskatta blodtrycket i fötterna.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Hjärtat sitter 1,37 m över golvet hos en person som är 1,75 m lång. Blodtrycket (övertrycket) i hjärtat är 104 mmHg och blodets densitet 1 060 kg/m³.</p>Blodtrycket i hjärtat är 13,9 kPa.<p>Uppskatta blodtrycket i fötterna.</p>",
+        "s": "<p>\\(p=13{,}9\\cdot10^3+1\\,060\\cdot9{,}82\\cdot1{,}37\\).</p><p><strong>Svar:</strong> \\(28\\,150\\) Pa</p>",
+        "ledtrad": "<p>Trycket ökar nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Uppskatta blodtrycket i huvudets topp (1,75 m upp).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Hjärtat sitter 1,37 m över golvet hos en person som är 1,75 m lång. Blodtrycket (övertrycket) i hjärtat är 104 mmHg och blodets densitet 1 060 kg/m³.</p>Blodtrycket i hjärtat är 13,9 kPa.<p>Uppskatta blodtrycket i huvudets topp (1,75 m upp).</p>",
+        "s": "<p>\\(p=13{,}9\\cdot10^3-1\\,060\\cdot9{,}82\\cdot0{,}38\\).</p><p><strong>Svar:</strong> \\(9\\,934\\) Pa</p>",
+        "ledtrad": "<p>Trycket minskar uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__absoluttryck_overtryck_och_lufttryck",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "tryckskillnad mellan fötter och huvud",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Blod har densiteten 1 060 kg/m³. En person är 1,65 m lång och står upp.</p><ol type=\"a\"><li>Bestäm tryckskillnaden i blodet mellan fötterna och huvudet.</li><li>Ett blodkärl i foten liknas vid en cylinder (diameter 1,50 mm, längd 2,00 cm). Hur mycket större utåtriktad kraft verkar på mantelytan jämfört med i huvudet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta p=1\\,060\\cdot9{,}82\\cdot1{,}65\\).</p><p><strong>Svar:</strong> \\(17\\,175\\) Pa</p></li><li><p>\\(A=\\pi\\cdot1{,}50\\cdot10^{-3}\\cdot0{,}0200\\), \\(F=\\Delta p\\cdot A\\).</p><p><strong>Svar:</strong> \\(1{,}62\\) N</p></li></ol>",
+    "id": "6.445",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17175.18,
+      1.6187225793624707
+    ],
+    "tolerans": [
+      258.0,
+      0.0243
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Blod har densiteten 1 060 kg/m³. En person är 1,65 m lång och står upp.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm tryckskillnaden i blodet mellan fötterna och huvudet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Blod har densiteten 1 060 kg/m³. En person är 1,65 m lång och står upp.</p><p>Bestäm tryckskillnaden i blodet mellan fötterna och huvudet.</p>",
+        "s": "<p>\\(\\Delta p=1\\,060\\cdot9{,}82\\cdot1{,}65\\).</p><p><strong>Svar:</strong> \\(17\\,175\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett blodkärl i foten liknas vid en cylinder (diameter 1,50 mm, längd 2,00 cm). Hur mycket större utåtriktad kraft verkar på mantelytan jämfört med i huvudet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Blod har densiteten 1 060 kg/m³. En person är 1,65 m lång och står upp.</p>Tryckskillnaden är 17,2 kPa.<p>Ett blodkärl i foten liknas vid en cylinder (diameter 1,50 mm, längd 2,00 cm). Hur mycket större utåtriktad kraft verkar på mantelytan jämfört med i huvudet?</p>",
+        "s": "<p>\\(A=\\pi\\cdot1{,}50\\cdot10^{-3}\\cdot0{,}0200\\), \\(F=\\Delta p\\cdot A\\).</p><p><strong>Svar:</strong> \\(1{,}62\\) N</p>",
+        "ledtrad": "<p>Mantelytan \\(\\pi dh\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "byggnadens höjd ur barometer",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>En barometer visar 760 mmHg vid marken och 747,0 mmHg på taket av en byggnad. Luftens densitet är 1,29 kg/m³. Bestäm byggnadens höjd.</p>",
+    "s": "<p>\\(\\Delta p=13\\,600\\cdot9{,}82\\cdot0{,}013\\). \\(h=\\dfrac{\\Delta p}{1{,}29\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(137\\) m</p>",
+    "id": "6.446",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absoluttryck, övertryck och lufttryck",
+    "svarstyp": "numeriskt",
+    "rättSvar": 137.05426356589146,
+    "tolerans": 2.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Behandla luften som en vätska med konstant densitet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "vatsketryck__absoluttryck_overtryck_och_lufttryck",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "fönster i ubåt",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En ubåt har ett runt fönster (diameter 35,0 cm) på 27,5 m djup. Lufttrycket inne i ubåten är detsamma som ovanför vattnet. Bestäm nettokraften på fönstret.</p>",
+    "s": "<p>\\(F=1\\,025\\cdot9{,}82\\cdot27{,}5\\cdot\\pi\\cdot0{,}175^2\\).</p><p><strong>Svar:</strong> \\(26\\,631\\) N</p>",
+    "id": "6.452",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "numeriskt",
+    "rättSvar": 26631.401188574444,
+    "tolerans": 399.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bara vätsketrycket ger nettokraft.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "tryckmätare med fjäder",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En tryckmätare har vakuum inuti och en kolv (radie 1,20 cm) fäst i en fjäder (1 250 N/m). Under vattnet i en sjö har kolven pressats in 0,75 cm mer än vid ytan. Bestäm djupet.</p>",
+    "s": "<p>\\(\\Delta p=\\dfrac{1\\,250\\cdot0{,}0075}{\\pi\\cdot0{,}0120^2}\\), \\(h=\\dfrac{\\Delta p}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) m</p>",
+    "id": "6.453",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.1103156702400416,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Extra fjäderkraft delat med area ger extra tryck.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "snorkling",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lungorna klarar en tryckskillnad på högst en tjugondel av lufttrycket 101,3 kPa.</p><ol type=\"a\"><li>Bestäm tryckskillnaden på 40 cm djup.</li><li>Vilket är största djupet man kan snorkla på?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta p=1\\,025\\cdot9{,}82\\cdot0{,}40\\).</p><p><strong>Svar:</strong> \\(4\\,026\\) Pa</p></li><li><p>\\(h=\\dfrac{101{,}3\\cdot10^3/20}{1\\,025\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m</p></li></ol>",
+    "id": "6.454",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4026.2000000000003,
+      0.5032040137101982
+    ],
+    "tolerans": [
+      60.4,
+      0.00755
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lungorna klarar en tryckskillnad på högst en tjugondel av lufttrycket 101,3 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm tryckskillnaden på 40 cm djup.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lungorna klarar en tryckskillnad på högst en tjugondel av lufttrycket 101,3 kPa.</p><p>Bestäm tryckskillnaden på 40 cm djup.</p>",
+        "s": "<p>\\(\\Delta p=1\\,025\\cdot9{,}82\\cdot0{,}40\\).</p><p><strong>Svar:</strong> \\(4\\,026\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilket är största djupet man kan snorkla på?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lungorna klarar en tryckskillnad på högst en tjugondel av lufttrycket 101,3 kPa.</p><p>Vilket är största djupet man kan snorkla på?</p>",
+        "s": "<p>\\(h=\\dfrac{101{,}3\\cdot10^3/20}{1\\,025\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "trumhinnan",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Trumhinnan (diameter 8,2 mm) kan skadas om nettokraften på den överstiger 1,5 N. Trycket är utjämnat vid start.</p><ol type=\"a\"><li>På vilket djup i havet (1 030 kg/m³) händer det?</li><li>Hur högt måste man klättra i luft (0,80 kg/m³) för samma tryckskillnad?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta p=\\dfrac{1{,}5}{\\pi\\cdot0{,}0041^2}\\), \\(h=\\dfrac{\\Delta p}{1\\,030\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m</p></li><li><p>\\(h=\\dfrac{\\Delta p}{0{,}80\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(3\\,616\\) m</p></li></ol>",
+    "id": "6.455",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.808180119457936,
+      3615.5319038020925
+    ],
+    "tolerans": [
+      0.051,
+      54.2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Trumhinnan (diameter 8,2 mm) kan skadas om nettokraften på den överstiger 1,5 N. Trycket är utjämnat vid start.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På vilket djup i havet (1 030 kg/m³) händer det?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Trumhinnan (diameter 8,2 mm) kan skadas om nettokraften på den överstiger 1,5 N. Trycket är utjämnat vid start.</p><p>På vilket djup i havet (1 030 kg/m³) händer det?</p>",
+        "s": "<p>\\(\\Delta p=\\dfrac{1{,}5}{\\pi\\cdot0{,}0041^2}\\), \\(h=\\dfrac{\\Delta p}{1\\,030\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m</p>",
+        "ledtrad": "<p>Bestäm tryckskillnaden först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt måste man klättra i luft (0,80 kg/m³) för samma tryckskillnad?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Trumhinnan (diameter 8,2 mm) kan skadas om nettokraften på den överstiger 1,5 N. Trycket är utjämnat vid start.</p>Tryckskillnaden är 28 kPa.<p>Hur högt måste man klättra i luft (0,80 kg/m³) för samma tryckskillnad?</p>",
+        "s": "<p>\\(h=\\dfrac{\\Delta p}{0{,}80\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(3\\,616\\) m</p>",
+        "ledtrad": "<p>Samma tryckskillnad.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "finger i dammen",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett hål (diameter 1,0 cm) i en damm ligger 3,0 m under havsytan (1 030 kg/m³). Hur stor kraft krävs för att hålla emot vattnet? Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(F=1\\,030\\cdot9{,}82\\cdot3{,}0\\cdot\\pi\\cdot0{,}0050^2\\).</p><p><strong>Svar:</strong> \\(2{,}4\\) N</p>",
+    "id": "6.456",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.3831964790499494,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Radien är halva diametern.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "träbit i ett glas vatten",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett glas med bottenarean 40 cm² innehåller vatten till höjden 20 cm. En träbit (100 g) läggs i och flyter.</p><ol type=\"a\"><li>Bestäm vätsketrycket vid botten före.</li><li>Hur mycket ökar trycket vid botten?</li><li>Hur mycket stiger vattenytan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=1\\,000\\cdot9{,}82\\cdot0{,}20\\).</p><p><strong>Svar:</strong> \\(1\\,964\\) Pa</p></li><li><p>Tryckkraften ökar med träbitens tyngd: \\(\\Delta p=\\dfrac{0{,}100\\cdot9{,}82}{40\\cdot10^{-4}}\\).</p><p><strong>Svar:</strong> \\(246\\) Pa</p></li><li><p>\\(\\Delta h=\\dfrac{\\Delta p}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}025\\) m</p></li></ol>",
+    "id": "6.457",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1964.0,
+      245.50000000000003,
+      0.025
+    ],
+    "tolerans": [
+      51.0,
+      5.1,
+      0.00051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett glas med bottenarean 40 cm² innehåller vatten till höjden 20 cm. En träbit (100 g) läggs i och flyter.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vätsketrycket vid botten före.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett glas med bottenarean 40 cm² innehåller vatten till höjden 20 cm. En träbit (100 g) läggs i och flyter.</p><p>Bestäm vätsketrycket vid botten före.</p>",
+        "s": "<p>\\(p=1\\,000\\cdot9{,}82\\cdot0{,}20\\).</p><p><strong>Svar:</strong> \\(1\\,964\\) Pa</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket ökar trycket vid botten?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett glas med bottenarean 40 cm² innehåller vatten till höjden 20 cm. En träbit (100 g) läggs i och flyter.</p><p>Hur mycket ökar trycket vid botten?</p>",
+        "s": "<p>Tryckkraften ökar med träbitens tyngd: \\(\\Delta p=\\dfrac{0{,}100\\cdot9{,}82}{40\\cdot10^{-4}}\\).</p><p><strong>Svar:</strong> \\(246\\) Pa</p>",
+        "ledtrad": "<p>Botten bär nu även träbiten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket stiger vattenytan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett glas med bottenarean 40 cm² innehåller vatten till höjden 20 cm. En träbit (100 g) läggs i och flyter.</p><p>Hur mycket stiger vattenytan?</p>",
+        "s": "<p>\\(\\Delta h=\\dfrac{\\Delta p}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}025\\) m</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "skiktade vätskor",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><ol type=\"a\"><li>En tunna innehåller 42,0 cm vatten och ovanpå det 18,0 cm olja (850 kg/m³). Bestäm vätsketrycket vid botten.</li><li>Ett mätglas har 4,0 cm vatten och ovanpå 7,0 cm matolja (910 kg/m³). Bestäm vätsketrycket vid botten.</li><li>Sirap (1 300 kg/m³) hälls i och lägger sig under vattnet. Hur tjockt ska sirapsskiktet vara för att vätsketrycket ska fördubblas?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=1\\,000\\cdot9{,}82\\cdot0{,}420+850\\cdot9{,}82\\cdot0{,}180\\).</p><p><strong>Svar:</strong> \\(5\\,627\\) Pa</p></li><li><p>\\(p=1\\,000\\cdot9{,}82\\cdot0{,}040+910\\cdot9{,}82\\cdot0{,}070\\).</p><p><strong>Svar:</strong> \\(1\\,018\\) Pa</p></li><li><p>\\(1\\,300\\cdot9{,}82\\cdot h=1\\,018\\) Pa.</p><p><strong>Svar:</strong> \\(0{,}080\\) m</p></li></ol>",
+    "id": "6.458",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5626.86,
+      1018.3340000000001,
+      0.07976923076923077
+    ],
+    "tolerans": [
+      84.4,
+      51.0,
+      0.0012
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En tunna innehåller 42,0 cm vatten och ovanpå det 18,0 cm olja (850 kg/m³). Bestäm vätsketrycket vid botten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En tunna innehåller 42,0 cm vatten och ovanpå det 18,0 cm olja (850 kg/m³). Bestäm vätsketrycket vid botten.</p>",
+        "s": "<p>\\(p=1\\,000\\cdot9{,}82\\cdot0{,}420+850\\cdot9{,}82\\cdot0{,}180\\).</p><p><strong>Svar:</strong> \\(5\\,627\\) Pa</p>",
+        "ledtrad": "<p>Summera skikten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett mätglas har 4,0 cm vatten och ovanpå 7,0 cm matolja (910 kg/m³). Bestäm vätsketrycket vid botten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett mätglas har 4,0 cm vatten och ovanpå 7,0 cm matolja (910 kg/m³). Bestäm vätsketrycket vid botten.</p>",
+        "s": "<p>\\(p=1\\,000\\cdot9{,}82\\cdot0{,}040+910\\cdot9{,}82\\cdot0{,}070\\).</p><p><strong>Svar:</strong> \\(1\\,018\\) Pa</p>",
+        "ledtrad": "<p>Summera skikten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Sirap (1 300 kg/m³) hälls i och lägger sig under vattnet. Hur tjockt ska sirapsskiktet vara för att vätsketrycket ska fördubblas?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p>Vätsketrycket är 1,02 kPa.<p>Sirap (1 300 kg/m³) hälls i och lägger sig under vattnet. Hur tjockt ska sirapsskiktet vara för att vätsketrycket ska fördubblas?</p>",
+        "s": "<p>\\(1\\,300\\cdot9{,}82\\cdot h=1\\,018\\) Pa.</p><p><strong>Svar:</strong> \\(0{,}080\\) m</p>",
+        "ledtrad": "<p>Sirapen ska ge lika mycket tryck som det som redan finns.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Vätsketrycken från skikten adderas.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "A",
+    "typ": "kvicksilver och vatten i container",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, kvicksilver 13 600 kg/m³.</p><p>En öppen container (1,00 m hög) är fylld till kanten: kvicksilver i botten och vatten ovanpå. Det totala trycket vid botten ska vara dubbelt så stort som lufttrycket 101,3 kPa. Hur tjockt är kvicksilverskiktet?</p>",
+    "s": "<p>\\(13\\,600\\cdot9{,}82\\,h+1\\,000\\cdot9{,}82(1{,}00-h)=101{,}3\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(0{,}74\\) m</p>",
+    "id": "6.459",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vätsketryck p = ρgh",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.739339863576116,
+    "tolerans": 0.0111,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vätsketrycket ska vara 101,3 kPa.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "A",
+    "typ": "olja och vatten i U-rör",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>I ett U-rör med vatten hälls olja (780 kg/m³) i högra skänkeln till höjden 5,0 cm. Hur stor blir höjdskillnaden mellan de fria vätskeytorna?</p>",
+    "s": "<p>Vattenpelaren som balanserar oljan: \\(\\dfrac{780\\cdot5{,}0}{1\\,000}=3{,}9\\) cm. Skillnad: \\(5{,}0-3{,}9\\).</p><p><strong>Svar:</strong> \\(0{,}011\\) m</p>",
+    "id": "6.460",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "U-rör och manometrar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.011,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma tryck på samma nivå i vattnet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "vatsketryck__u_ror_och_manometrar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "atmosfärens höjd med konstant densitet",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Hur hög skulle atmosfären vara om luftens densitet överallt var halva värdet vid havsytan, 0,645 kg/m³? Lufttrycket vid havsytan är 101,3 kPa.</p>",
+    "s": "<p>\\(h=\\dfrac{101{,}3\\cdot10^3}{0{,}645\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(15\\,993\\) m</p>",
+    "id": "6.461",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Absoluttryck, övertryck och lufttryck",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15993.305862107072,
+    "tolerans": 510.0,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "vatsketryck__absoluttryck_overtryck_och_lufttryck",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "A",
+    "typ": "vatten på kvicksilver i U-rör",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, kvicksilver 13 600 kg/m³.</p><p>I ett U-rör med kvicksilver fylls vänstra skänkeln med vatten till höjden 15,0 cm. Hur stor är höjdskillnaden mellan vattenytan till vänster och kvicksilverytan till höger?</p>",
+    "s": "<p>Kvicksilverskillnad: \\(\\dfrac{1\\,000\\cdot15{,}0}{13\\,600}=1{,}10\\) cm. \\(h=15{,}0-1{,}10\\).</p><p><strong>Svar:</strong> \\(0{,}139\\) m</p>",
+    "id": "6.462",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "U-rör och manometrar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.13897058823529412,
+    "tolerans": 0.00208,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma tryck vid kvicksilverytan under vattnet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "vatsketryck__u_ror_och_manometrar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "A",
+    "typ": "U-rör med olika tvärsnitt",
+    "poang": "(1/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Ett U-rör med kvicksilver har vänster tvärsnitt 10 cm² och höger 5,00 cm². 100 g vatten hälls i högra skänkeln.</p><ol type=\"a\"><li>Hur hög är vattenpelaren?</li><li>Hur mycket stiger kvicksilverytan i vänstra skänkeln?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{100\\,\\text{cm}^3}{5{,}00\\,\\text{cm}^2}\\).</p><p><strong>Svar:</strong> \\(0{,}20\\) m</p></li><li><p>Nivåskillnad: \\(\\dfrac{20\\cdot1\\,000}{13\\,600}=1{,}47\\) cm. Höger sjunker \\(x\\), vänster stiger \\(y\\) med \\(10y=5x\\). \\(x+y=3y=1{,}47\\) cm.</p><p><strong>Svar:</strong> \\(0{,}0049\\) m</p></li></ol>",
+    "id": "6.463",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "U-rör och manometrar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2,
+      0.004901960784313725
+    ],
+    "tolerans": [
+      0.0051,
+      7.35e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Ett U-rör med kvicksilver har vänster tvärsnitt 10 cm² och höger 5,00 cm². 100 g vatten hälls i högra skänkeln.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur hög är vattenpelaren?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Ett U-rör med kvicksilver har vänster tvärsnitt 10 cm² och höger 5,00 cm². 100 g vatten hälls i högra skänkeln.</p><p>Hur hög är vattenpelaren?</p>",
+        "s": "<p>\\(h=\\dfrac{100\\,\\text{cm}^3}{5{,}00\\,\\text{cm}^2}\\).</p><p><strong>Svar:</strong> \\(0{,}20\\) m</p>",
+        "ledtrad": "<p>Volym delat med area.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket stiger kvicksilverytan i vänstra skänkeln?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Ett U-rör med kvicksilver har vänster tvärsnitt 10 cm² och höger 5,00 cm². 100 g vatten hälls i högra skänkeln.</p><p>Hur mycket stiger kvicksilverytan i vänstra skänkeln?</p>",
+        "s": "<p>Nivåskillnad: \\(\\dfrac{20\\cdot1\\,000}{13\\,600}=1{,}47\\) cm. Höger sjunker \\(x\\), vänster stiger \\(y\\) med \\(10y=5x\\). \\(x+y=3y=1{,}47\\) cm.</p><p><strong>Svar:</strong> \\(0{,}0049\\) m</p>",
+        "ledtrad": "<p>Kvicksilvrets volym bevaras.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Samma tryck på samma nivå i kvicksilvret.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "vatsketryck__u_ror_och_manometrar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "kvicksilvermanometer",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Lufttrycket är 101,3 kPa. En gasflaska kopplas till en kvicksilvermanometer.</p><ol type=\"a\"><li>Kvicksilvret pressas bort från gasen och nivåskillnaden blir 18,0 cm. Bestäm gasens tryck.</li><li>Kvicksilvret dras mot gasen och nivåskillnaden blir 55 mm. Bestäm gasens tryck.</li><li>Gasens tryck är 175 kPa. Hur stor blir nivåskillnaden?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(p=101{,}3\\cdot10^3+13\\,600\\cdot9{,}82\\cdot0{,}180\\).</p><p><strong>Svar:</strong> \\(1{,}25\\cdot10^{5}\\) Pa</p></li><li><p>\\(p=101{,}3\\cdot10^3-13\\,600\\cdot9{,}82\\cdot0{,}055\\).</p><p><strong>Svar:</strong> \\(93\\,955\\) Pa</p></li><li><p>\\(h=\\dfrac{(175-101{,}3)\\cdot10^3}{13\\,600\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}552\\) m</p></li></ol>",
+    "id": "6.464",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "U-rör och manometrar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      125339.36,
+      93954.64,
+      0.5518449742422428
+    ],
+    "tolerans": [
+      1880.0,
+      1410.0,
+      0.00828
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "Pa",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Lufttrycket är 101,3 kPa. En gasflaska kopplas till en kvicksilvermanometer.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Kvicksilvret pressas bort från gasen och nivåskillnaden blir 18,0 cm. Bestäm gasens tryck.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Lufttrycket är 101,3 kPa. En gasflaska kopplas till en kvicksilvermanometer.</p><p>Kvicksilvret pressas bort från gasen och nivåskillnaden blir 18,0 cm. Bestäm gasens tryck.</p>",
+        "s": "<p>\\(p=101{,}3\\cdot10^3+13\\,600\\cdot9{,}82\\cdot0{,}180\\).</p><p><strong>Svar:</strong> \\(1{,}25\\cdot10^{5}\\) Pa</p>",
+        "ledtrad": "<p>Övertryck.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Kvicksilvret dras mot gasen och nivåskillnaden blir 55 mm. Bestäm gasens tryck.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Lufttrycket är 101,3 kPa. En gasflaska kopplas till en kvicksilvermanometer.</p><p>Kvicksilvret dras mot gasen och nivåskillnaden blir 55 mm. Bestäm gasens tryck.</p>",
+        "s": "<p>\\(p=101{,}3\\cdot10^3-13\\,600\\cdot9{,}82\\cdot0{,}055\\).</p><p><strong>Svar:</strong> \\(93\\,955\\) Pa</p>",
+        "ledtrad": "<p>Undertryck.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Gasens tryck är 175 kPa. Hur stor blir nivåskillnaden?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Lufttrycket är 101,3 kPa. En gasflaska kopplas till en kvicksilvermanometer.</p><p>Gasens tryck är 175 kPa. Hur stor blir nivåskillnaden?</p>",
+        "s": "<p>\\(h=\\dfrac{(175-101{,}3)\\cdot10^3}{13\\,600\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}552\\) m</p>",
+        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(p_\\text{gas}=p_0\\pm\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "vatsketryck__u_ror_och_manometrar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "vatsketryck",
+    "niva": "C",
+    "typ": "okänd manometervätska",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En gas har trycket 115 kPa och lufttrycket är 96 kPa. Nivåskillnaden i en manometer med okänd vätska är 55 cm. Bestäm vätskans densitet.</p>",
+    "s": "<p>\\(\\rho=\\dfrac{(115-96)\\cdot10^3}{9{,}82\\cdot0{,}55}\\).</p><p><strong>Svar:</strong> \\(3\\,518\\) kg/m³</p>",
+    "id": "6.465",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "U-rör och manometrar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3517.8670616552486,
+    "tolerans": 52.8,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg/m³",
+    "familjNyckel": "vatsketryck__u_ror_och_manometrar",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.358",
@@ -136243,6 +138682,2276 @@ window.BANK = [
     "familjTidigare": [
       "Lyftkraft och resultant"
     ]
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "lyftkraft på olika föremål",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><ol type=\"a\"><li>En kopparkub med sidan 5,0 cm är helt under vatten. Bestäm lyftkraften.</li><li>En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=1\\,000\\cdot(0{,}050)^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) N</p></li><li><p>Flyter: \\(F=mg=917\\cdot100\\cdot10^{-6}\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}90\\) N</p></li></ol>",
+    "id": "6.466",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och undanträngd volym",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.2275000000000003,
+      0.900494
+    ],
+    "tolerans": [
+      0.051,
+      0.0135
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En kopparkub med sidan 5,0 cm är helt under vatten. Bestäm lyftkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>En kopparkub med sidan 5,0 cm är helt under vatten. Bestäm lyftkraften.</p>",
+        "s": "<p>\\(F=1\\,000\\cdot(0{,}050)^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften.</p>",
+        "s": "<p>Flyter: \\(F=mg=917\\cdot100\\cdot10^{-6}\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}90\\) N</p>",
+        "ledtrad": "<p>Ett flytande föremål har lyftkraft lika med tyngden.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__lyftkraft_och_undantrangd_volym",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "E",
+    "typ": "klot som precis flyter",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett klot med radien 3,00 cm och massan 89,3 g flyter precis (helt under ytan) i en vätska. Bestäm vätskans densitet.</p>",
+    "s": "<p>\\(\\rho=\\dfrac{89{,}3}{\\tfrac43\\pi\\cdot3{,}00^3}\\) g/cm³.</p><p><strong>Svar:</strong> \\(790\\) kg/m³</p>",
+    "id": "6.467",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Flytande kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 789.5853565614586,
+    "tolerans": 11.8,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Svävar: samma densitet som vätskan.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg/m³",
+    "familjNyckel": "arkimedes__flytande_kroppar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "järnkula i dynamometer",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En järnkula med radien 3,0 cm hänger i en dynamometer.</p><ol type=\"a\"><li>Vad visar dynamometern i luft?</li><li>Vad visar den när kulan är helt under vatten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=7\\,870\\cdot\\tfrac43\\pi\\cdot0{,}030^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(8{,}7\\) N</p></li><li><p>\\(F=8{,}74-1\\,000\\cdot V\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(7{,}6\\) N</p></li></ol>",
+    "id": "6.468",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägning i vätska",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.740546620639888,
+      7.629930785742825
+    ],
+    "tolerans": [
+      0.131,
+      0.114
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En järnkula med radien 3,0 cm hänger i en dynamometer.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vad visar dynamometern i luft?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En järnkula med radien 3,0 cm hänger i en dynamometer.</p><p>Vad visar dynamometern i luft?</p>",
+        "s": "<p>\\(F=7\\,870\\cdot\\tfrac43\\pi\\cdot0{,}030^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(8{,}7\\) N</p>",
+        "ledtrad": "<p>\\(m=\\rho V\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vad visar den när kulan är helt under vatten?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En järnkula med radien 3,0 cm hänger i en dynamometer.</p>I luft visar den 8,74 N.<p>Vad visar den när kulan är helt under vatten?</p>",
+        "s": "<p>\\(F=8{,}74-1\\,000\\cdot V\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(7{,}6\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__vagning_i_vatska",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "densitet ur vägning i vatten",
+    "poang": "(0/3/0)",
+    "t": "<p>Bestäm densiteten.</p><ol type=\"a\"><li>En metall väger 0,624 N i luft och 0,544 N helt under vatten.</li><li>En månsten väger 91,1 N i luft och 60,1 N under vatten.</li><li>En krona väger 144 N i luft och 132 N under vatten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\rho=\\dfrac{0{,}624}{0{,}624-0{,}544}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(7\\,800\\) kg/m³</p></li><li><p>\\(\\rho=\\dfrac{91{,}1}{31{,}0}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(2\\,939\\) kg/m³</p></li><li><p>\\(\\rho=\\dfrac{144}{12}\\cdot1\\,000\\), mindre än guldets 19 300 kg/m³.</p><p><strong>Svar:</strong> \\(12\\,000\\) kg/m³</p></li></ol>",
+    "id": "6.469",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägning i vätska",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7800.0,
+      2938.7096774193546,
+      12000
+    ],
+    "tolerans": [
+      117.0,
+      44.1,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kg/m³",
+      "kg/m³",
+      "kg/m³"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm densiteten.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En metall väger 0,624 N i luft och 0,544 N helt under vatten.",
+        "t": "<p>Bestäm densiteten.</p><p>En metall väger 0,624 N i luft och 0,544 N helt under vatten.</p>",
+        "s": "<p>\\(\\rho=\\dfrac{0{,}624}{0{,}624-0{,}544}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(7\\,800\\) kg/m³</p>",
+        "ledtrad": "<p>Lyftkraften ger volymen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En månsten väger 91,1 N i luft och 60,1 N under vatten.",
+        "t": "<p>Bestäm densiteten.</p><p>En månsten väger 91,1 N i luft och 60,1 N under vatten.</p>",
+        "s": "<p>\\(\\rho=\\dfrac{91{,}1}{31{,}0}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(2\\,939\\) kg/m³</p>",
+        "ledtrad": "<p>Lyftkraften ger volymen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En krona väger 144 N i luft och 132 N under vatten.",
+        "t": "<p>Bestäm densiteten.</p><p>En krona väger 144 N i luft och 132 N under vatten.</p>",
+        "s": "<p>\\(\\rho=\\dfrac{144}{12}\\cdot1\\,000\\), mindre än guldets 19 300 kg/m³.</p><p><strong>Svar:</strong> \\(12\\,000\\) kg/m³</p>",
+        "ledtrad": "<p>Lyftkraften ger volymen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{\\rho}{\\rho_\\text{vatten}}=\\dfrac{F_\\text{luft}}{F_\\text{luft}-F_\\text{vatten}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__vagning_i_vatska",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "bärgning med kran",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p><ol type=\"a\"><li>Ett stålfartyg (18 ton) lyfts med konstant fart under vattnet. Bestäm spännkraften i vajern.</li><li>En staty (70 kg, 30 liter) lyfts under vattnet. Bestäm spännkraften.</li><li>Vilken spännkraft krävs när statyn är ovanför vattnet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=18\\,000\\cdot9{,}82\\left(1-\\dfrac{1\\,000}{7\\,850}\\right)\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></li><li><p>\\(F=(70-30)\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(393\\) N</p></li><li><p>\\(F=70\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(687\\) N</p></li></ol>",
+    "id": "6.470",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      154242.8025477707,
+      392.8,
+      687.4
+    ],
+    "tolerans": [
+      5100.0,
+      5.89,
+      10.3
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett stålfartyg (18 ton) lyfts med konstant fart under vattnet. Bestäm spännkraften i vajern.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p><p>Ett stålfartyg (18 ton) lyfts med konstant fart under vattnet. Bestäm spännkraften i vajern.</p>",
+        "s": "<p>\\(F=18\\,000\\cdot9{,}82\\left(1-\\dfrac{1\\,000}{7\\,850}\\right)\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En staty (70 kg, 30 liter) lyfts under vattnet. Bestäm spännkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p><p>En staty (70 kg, 30 liter) lyfts under vattnet. Bestäm spännkraften.</p>",
+        "s": "<p>\\(F=(70-30)\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(393\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken spännkraft krävs när statyn är ovanför vattnet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p><p>Vilken spännkraft krävs när statyn är ovanför vattnet?</p>",
+        "s": "<p>\\(F=70\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(687\\) N</p>",
+        "ledtrad": "<p>Ingen lyftkraft.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Konstant fart: jämvikt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "E",
+    "typ": "dykare sjunker eller flyter",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En dykare har volymen 69,6 liter och massan 72,8 kg med utrustning. Bestäm lyftkraften när dykaren är helt under vattnet. (Tyngden är 715 N, så dykaren sjunker.)</p>",
+    "s": "<p>\\(F=1\\,025\\cdot0{,}0696\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(701\\) N</p>",
+    "id": "6.471",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 700.5587999999999,
+    "tolerans": 10.5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "okänd vätska ur vägning",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: aluminium 2 700 kg/m³.</p><p>En aluminiumboll har tyngden 37,3 N och visar 20,6 N när den hänger helt nedsänkt i en vätska. Bestäm vätskans densitet.</p>",
+    "s": "<p>\\(V=\\dfrac{37{,}3}{2\\,700\\cdot9{,}82}\\), \\(\\rho=\\dfrac{16{,}7}{9{,}82V}\\).</p><p><strong>Svar:</strong> \\(1\\,209\\) kg/m³</p>",
+    "id": "6.472",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägning i vätska",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1208.8471849865953,
+    "tolerans": 18.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm volymen ur tyngden.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg/m³",
+    "familjNyckel": "arkimedes__vagning_i_vatska",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "aluminium i olja",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: aluminium 2 700 kg/m³.</p><p>Ett aluminiumrätblock (2,0 cm × 3,0 cm × 5,0 cm) hänger i en dynamometer, helt nedsänkt i olja (850 kg/m³). Vad visar dynamometern?</p>",
+    "s": "<p>\\(F=(2\\,700-850)\\cdot30\\cdot10^{-6}\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}55\\) N</p>",
+    "id": "6.473",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägning i vätska",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.54501,
+    "tolerans": 0.00818,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "arkimedes__vagning_i_vatska",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "acceleration när föremål släpps under vatten",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><ol type=\"a\"><li>En metallbit (5,00 g/cm³) släpps under vatten. Bestäm accelerationen.</li><li>En bit balsaträ (0,16 g/cm³) släpps under vatten. Bestäm accelerationen (uppåt).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=g\\left(1-\\dfrac{1\\,000}{5\\,000}\\right)\\).</p><p><strong>Svar:</strong> \\(7{,}86\\) m/s²</p></li><li><p>\\(a=g\\left(\\dfrac{1\\,000}{160}-1\\right)\\).</p><p><strong>Svar:</strong> \\(52\\) m/s²</p></li></ol>",
+    "id": "6.474",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.856000000000001,
+      51.555
+    ],
+    "tolerans": [
+      0.118,
+      0.773
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En metallbit (5,00 g/cm³) släpps under vatten. Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En metallbit (5,00 g/cm³) släpps under vatten. Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=g\\left(1-\\dfrac{1\\,000}{5\\,000}\\right)\\).</p><p><strong>Svar:</strong> \\(7{,}86\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=mg-F_\\text{lyft}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bit balsaträ (0,16 g/cm³) släpps under vatten. Bestäm accelerationen (uppåt).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En bit balsaträ (0,16 g/cm³) släpps under vatten. Bestäm accelerationen (uppåt).</p>",
+        "s": "<p>\\(a=g\\left(\\dfrac{1\\,000}{160}-1\\right)\\).</p><p><strong>Svar:</strong> \\(52\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=F_\\text{lyft}-mg\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Bortse från vattnets motstånd.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "bensinfat som flyter",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett fat innehåller 210 liter bensin (750 kg/m³). Hur stor massa stål kan fatet högst ha för att det fyllda fatet ska flyta? Bortse från stålets egen volym.</p>",
+    "s": "<p>\\(m+157{,}5=1\\,000\\cdot0{,}210\\).</p><p><strong>Svar:</strong> \\(52\\) kg</p>",
+    "id": "6.475",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Flytande kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 52.5,
+    "tolerans": 0.787,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Flyter så länge tyngden är högst lika med lyftkraften.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "arkimedes__flytande_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "förankrat undervattenslaboratorium",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Ett sfäriskt laboratorium (diameter 5,20 m, massa 74,4 ton) är förankrat med en kedja i havsbotten.</p><ol type=\"a\"><li>Bestäm lyftkraften.</li><li>Bestäm spännkraften i kedjan.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=1\\,025\\cdot\\tfrac43\\pi\\cdot2{,}60^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(7{,}41\\cdot10^{5}\\) N</p></li><li><p>\\(F_S=F_\\text{lyft}-74\\,400\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(10\\,436\\) N</p></li></ol>",
+    "id": "6.476",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      741044.0189631319,
+      10436.018963131937
+    ],
+    "tolerans": [
+      11100.0,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Ett sfäriskt laboratorium (diameter 5,20 m, massa 74,4 ton) är förankrat med en kedja i havsbotten.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm lyftkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Ett sfäriskt laboratorium (diameter 5,20 m, massa 74,4 ton) är förankrat med en kedja i havsbotten.</p><p>Bestäm lyftkraften.</p>",
+        "s": "<p>\\(F=1\\,025\\cdot\\tfrac43\\pi\\cdot2{,}60^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(7{,}41\\cdot10^{5}\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i kedjan.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Ett sfäriskt laboratorium (diameter 5,20 m, massa 74,4 ton) är förankrat med en kedja i havsbotten.</p>Lyftkraften är 741 kN.<p>Bestäm spännkraften i kedjan.</p>",
+        "s": "<p>\\(F_S=F_\\text{lyft}-74\\,400\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(10\\,436\\) N</p>",
+        "ledtrad": "<p>Jämvikt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Kedjan drar nedåt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "träbit som sjunker i etanol",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: etanol 790 kg/m³.</p><p>En träbit (480 g) sjunker i etanol, och den resulterande kraften är 0,46 N nedåt. Bestäm träets densitet.</p>",
+    "s": "<p>\\(F_\\text{lyft}=0{,}480\\cdot9{,}82-0{,}46\\), \\(V=\\dfrac{F_\\text{lyft}}{790\\cdot9{,}82}\\), \\(\\rho=\\dfrac{0{,}480}{V}\\).</p><p><strong>Svar:</strong> \\(875\\) kg/m³</p>",
+    "id": "6.477",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägning i vätska",
+    "svarstyp": "numeriskt",
+    "rättSvar": 875.4335151401167,
+    "tolerans": 13.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm lyftkraften först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg/m³",
+    "familjNyckel": "arkimedes__vagning_i_vatska",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "E",
+    "typ": "aluminium i etanol",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: aluminium 2 700 kg/m³, etanol 790 kg/m³.</p><p>Ett aluminiumblock (100 cm³) hänger i ett snöre helt nedsänkt i etanol. Bestäm spännkraften.</p>",
+    "s": "<p>\\(F=(2\\,700-790)\\cdot100\\cdot10^{-6}\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(1{,}88\\) N</p>",
+    "id": "6.478",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägning i vätska",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.87562,
+    "tolerans": 0.0281,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "arkimedes__vagning_i_vatska",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "kub fäst i fjäder under vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En kub (sida 4,00 cm, 800 kg/m³) är fäst i en fjäder i botten av en bägare. När kuben är helt under vatten är fjädern sträckt 1,00 cm. Bestäm fjäderkonstanten.</p>",
+    "s": "<p>\\(kx=(1\\,000-800)\\cdot0{,}0400^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(12{,}6\\) N/m</p>",
+    "id": "6.479",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.569600000000003,
+    "tolerans": 0.189,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fjädern tar upp skillnaden mellan lyftkraft och tyngd.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N/m",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "E",
+    "typ": "flytdjup",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><ol type=\"a\"><li>En träkub (sida 10,0 cm, 700 kg/m³) flyter i sötvatten. Hur djupt?</li><li>Samma kub i saltvatten (1 030 kg/m³).</li><li>En pråm (20 m × 10 m) lastas med 300 ton kol. Hur mycket djupare flyter den?</li><li>En cylinderformad kloss (höjd 6,0 cm) flyter med 4,0 cm under ytan. Bestäm densiteten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(d=\\dfrac{700}{1\\,000}\\cdot10{,}0\\) cm.</p><p><strong>Svar:</strong> \\(0{,}0700\\) m</p></li><li><p>\\(d=\\dfrac{700}{1\\,030}\\cdot10{,}0\\) cm.</p><p><strong>Svar:</strong> \\(0{,}0680\\) m</p></li><li><p>\\(\\Delta d=\\dfrac{300\\,000}{1\\,000\\cdot200}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m</p></li><li><p>\\(\\rho=\\dfrac{4{,}0}{6{,}0}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(667\\) kg/m³</p></li></ol>",
+    "id": "6.480",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Flytande kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.07,
+      0.06796116504854369,
+      1.5,
+      666.6666666666666
+    ],
+    "tolerans": [
+      0.00105,
+      0.00102,
+      0.051,
+      10.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m",
+      "kg/m³"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En träkub (sida 10,0 cm, 700 kg/m³) flyter i sötvatten. Hur djupt?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En träkub (sida 10,0 cm, 700 kg/m³) flyter i sötvatten. Hur djupt?</p>",
+        "s": "<p>\\(d=\\dfrac{700}{1\\,000}\\cdot10{,}0\\) cm.</p><p><strong>Svar:</strong> \\(0{,}0700\\) m</p>",
+        "ledtrad": "<p>Andelen under ytan = densitetskvoten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Samma kub i saltvatten (1 030 kg/m³).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Samma kub i saltvatten (1 030 kg/m³).</p>",
+        "s": "<p>\\(d=\\dfrac{700}{1\\,030}\\cdot10{,}0\\) cm.</p><p><strong>Svar:</strong> \\(0{,}0680\\) m</p>",
+        "ledtrad": "<p>Andelen under ytan = densitetskvoten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En pråm (20 m × 10 m) lastas med 300 ton kol. Hur mycket djupare flyter den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En pråm (20 m × 10 m) lastas med 300 ton kol. Hur mycket djupare flyter den?</p>",
+        "s": "<p>\\(\\Delta d=\\dfrac{300\\,000}{1\\,000\\cdot200}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m</p>",
+        "ledtrad": "<p>Undanträngd vattenmassa = lastens massa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En cylinderformad kloss (höjd 6,0 cm) flyter med 4,0 cm under ytan. Bestäm densiteten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En cylinderformad kloss (höjd 6,0 cm) flyter med 4,0 cm under ytan. Bestäm densiteten.</p>",
+        "s": "<p>\\(\\rho=\\dfrac{4{,}0}{6{,}0}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(667\\) kg/m³</p>",
+        "ledtrad": "<p>Andelen under ytan = densitetskvoten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Flytande föremål: \\(\\dfrac{V_\\text{under}}{V}=\\dfrac{\\rho}{\\rho_\\text{vätska}}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "arkimedes__flytande_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "dykartub full och tom",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En dykartub (14,0 kg, yttre volym 15,7 liter) fylls med 3,0 kg luft. Bestäm den resulterande kraften när den fulla tuben är under vattnet (positiv nedåt).</p>",
+    "s": "<p>\\(F_R=17{,}0\\cdot9{,}82-1\\,025\\cdot0{,}0157\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(8{,}9\\) N</p>",
+    "id": "6.481",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.911650000000009,
+    "tolerans": 0.134,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tyngd minus lyftkraft.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "andel under ytan",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p><ol type=\"a\"><li>Hur många procent av ett isberg (917 kg/m³) ligger under havsytan (1 025 kg/m³)?</li><li>Hur många procent av en järnbit ligger ovanför ytan när den flyter i kvicksilver?</li><li>Ett föremål har 14 % av volymen under vattenytan. Hur många procent är under ytan i etanol?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{917}{1\\,025}\\).</p><p><strong>Svar:</strong> \\(89{,}5\\) %</p></li><li><p>\\(1-\\dfrac{7\\,870}{13\\,600}\\).</p><p><strong>Svar:</strong> \\(42{,}1\\) %</p></li><li><p>\\(\\rho=140\\) kg/m³. \\(\\dfrac{140}{790}\\).</p><p><strong>Svar:</strong> \\(18\\) %</p></li></ol>",
+    "id": "6.482",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Flytande kroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      89.46341463414635,
+      42.132352941176464,
+      17.72151898734177
+    ],
+    "tolerans": [
+      1.34,
+      0.632,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "%",
+      "%",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många procent av ett isberg (917 kg/m³) ligger under havsytan (1 025 kg/m³)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Hur många procent av ett isberg (917 kg/m³) ligger under havsytan (1 025 kg/m³)?</p>",
+        "s": "<p>\\(\\dfrac{917}{1\\,025}\\).</p><p><strong>Svar:</strong> \\(89{,}5\\) %</p>",
+        "ledtrad": "<p>Densitetskvoten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många procent av en järnbit ligger ovanför ytan när den flyter i kvicksilver?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Hur många procent av en järnbit ligger ovanför ytan när den flyter i kvicksilver?</p>",
+        "s": "<p>\\(1-\\dfrac{7\\,870}{13\\,600}\\).</p><p><strong>Svar:</strong> \\(42{,}1\\) %</p>",
+        "ledtrad": "<p>Densitetskvoten ger delen under ytan.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett föremål har 14 % av volymen under vattenytan. Hur många procent är under ytan i etanol?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Ett föremål har 14 % av volymen under vattenytan. Hur många procent är under ytan i etanol?</p>",
+        "s": "<p>\\(\\rho=140\\) kg/m³. \\(\\dfrac{140}{790}\\).</p><p><strong>Svar:</strong> \\(18\\) %</p>",
+        "ledtrad": "<p>Bestäm föremålets densitet först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{V_\\text{under}}{V}=\\dfrac{\\rho}{\\rho_\\text{vätska}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__flytande_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "is flyter eller trycks ner",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><ol type=\"a\"><li>Bestäm lyftkraften på 0,90 kg is som flyter fritt.</li><li>Bestäm lyftkraften när isen trycks ned helt under ytan.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=mg=0{,}90\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(8{,}8\\) N</p></li><li><p>\\(F=1\\,000\\cdot\\dfrac{0{,}90}{917}\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(9{,}6\\) N</p></li></ol>",
+    "id": "6.483",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och undanträngd volym",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.838000000000001,
+      9.63794983642312
+    ],
+    "tolerans": [
+      0.133,
+      0.145
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm lyftkraften på 0,90 kg is som flyter fritt.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>Bestäm lyftkraften på 0,90 kg is som flyter fritt.</p>",
+        "s": "<p>\\(F=mg=0{,}90\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(8{,}8\\) N</p>",
+        "ledtrad": "<p>Flyter: lyftkraft = tyngd.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm lyftkraften när isen trycks ned helt under ytan.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>Bestäm lyftkraften när isen trycks ned helt under ytan.</p>",
+        "s": "<p>\\(F=1\\,000\\cdot\\dfrac{0{,}90}{917}\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(9{,}6\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__lyftkraft_och_undantrangd_volym",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "kanot som halvcylinder",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p><ol type=\"a\"><li>Hur många procent av kanotens volym är under vatten?</li><li>Hur mycket last kan kanoten bära innan den sjunker?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=\\tfrac12\\pi\\cdot0{,}475^2\\cdot3{,}23\\), andel \\(=\\dfrac{0{,}0850}{V}\\).</p><p><strong>Svar:</strong> \\(7{,}43\\) %</p></li><li><p>\\(m=1\\,000V-85{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,060\\) kg</p></li></ol>",
+    "id": "6.484",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.425219680624947,
+      1059.7472755829083
+    ],
+    "tolerans": [
+      0.111,
+      15.9
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "%",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många procent av kanotens volym är under vatten?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p><p>Hur många procent av kanotens volym är under vatten?</p>",
+        "s": "<p>\\(V=\\tfrac12\\pi\\cdot0{,}475^2\\cdot3{,}23\\), andel \\(=\\dfrac{0{,}0850}{V}\\).</p><p><strong>Svar:</strong> \\(7{,}43\\) %</p>",
+        "ledtrad": "<p>Undanträngd volym = massan delat med vattnets densitet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket last kan kanoten bära innan den sjunker?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p><p>Hur mycket last kan kanoten bära innan den sjunker?</p>",
+        "s": "<p>\\(m=1\\,000V-85{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,060\\) kg</p>",
+        "ledtrad": "<p>Hela volymen under ytan.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "frigolitboll med nyckel",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En boll av frigolit (300 kg/m³, diameter 5,0 cm) har en järnnyckel hängande under sig i vattnet. Hur stor massa kan nyckeln högst ha?</p>",
+    "s": "<p>\\((65{,}4+V)\\cdot1{,}00=19{,}6+7{,}87V\\), där \\(V\\) är nyckelns volym i cm³. \\(m=7{,}87V\\).</p><p><strong>Svar:</strong> \\(52\\) g</p>",
+    "id": "6.485",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 52.48372734299542,
+    "tolerans": 0.787,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Glöm inte lyftkraften på nyckeln.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "g",
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "pråm från hav till flod",
+    "poang": "(0/1/0)",
+    "t": "<p>En pråm har djupgåendet 0,80 m i havet (1 025 kg/m³). Bestäm djupgåendet i sötvatten (1 000 kg/m³).</p>",
+    "s": "<p>Samma undanträngda massa: \\(d=0{,}80\\cdot\\dfrac{1\\,025}{1\\,000}\\). Pråmen sjunker djupare.</p><p><strong>Svar:</strong> \\(0{,}82\\) m</p>",
+    "id": "6.486",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Flytande kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.82,
+    "tolerans": 0.0123,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lyftkraften är lika stor.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "arkimedes__flytande_kroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "träkloss lastad med bly",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><ol type=\"a\"><li>Hur djupt flyter klossen?</li><li>Hur mycket bly kan läggas ovanpå innan klossen sjunker?</li><li>Hur mycket bly kan fästas under klossen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(d=\\dfrac{3{,}65}{1\\,000\\cdot0{,}60\\cdot0{,}20}\\).</p><p><strong>Svar:</strong> \\(0{,}030\\) m</p></li><li><p>Hela klossen under: \\(1\\,000\\cdot0{,}00730-3{,}65\\).</p><p><strong>Svar:</strong> \\(3{,}6\\) kg</p></li><li><p>\\(m\\left(1-\\dfrac{1\\,000}{11\\,340}\\right)=3{,}65\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) kg</p></li></ol>",
+    "id": "6.487",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.030416666666666665,
+      3.65,
+      4.002998065764023
+    ],
+    "tolerans": [
+      0.00051,
+      0.0548,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur djupt flyter klossen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><p>Hur djupt flyter klossen?</p>",
+        "s": "<p>\\(d=\\dfrac{3{,}65}{1\\,000\\cdot0{,}60\\cdot0{,}20}\\).</p><p><strong>Svar:</strong> \\(0{,}030\\) m</p>",
+        "ledtrad": "<p>Undanträngd volym.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket bly kan läggas ovanpå innan klossen sjunker?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><p>Hur mycket bly kan läggas ovanpå innan klossen sjunker?</p>",
+        "s": "<p>Hela klossen under: \\(1\\,000\\cdot0{,}00730-3{,}65\\).</p><p><strong>Svar:</strong> \\(3{,}6\\) kg</p>",
+        "ledtrad": "<p>Klossens volym är 7,30 dm³.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket bly kan fästas under klossen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><p>Hur mycket bly kan fästas under klossen?</p>",
+        "s": "<p>\\(m\\left(1-\\dfrac{1\\,000}{11\\,340}\\right)=3{,}65\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) kg</p>",
+        "ledtrad": "<p>Blyet får också lyftkraft.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "boll hålls under vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En gummiboll (diameter 25,0 cm, massa 0,540 kg) hålls helt under vatten. Hur stor kraft krävs?</p>",
+    "s": "<p>\\(F=1\\,000\\cdot\\tfrac43\\pi\\cdot0{,}125^3\\cdot9{,}82-0{,}540\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(75{,}0\\) N</p>",
+    "id": "6.488",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 75.03688713086399,
+    "tolerans": 1.13,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lyftkraft minus tyngd.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "E",
+    "typ": "lastbil på färja",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En färja (6,00 m × 4,00 m) sjunker 4,00 cm när en lastbil kör på. Bestäm lastbilens massa.</p>",
+    "s": "<p>\\(m=1\\,000\\cdot6{,}00\\cdot4{,}00\\cdot0{,}0400\\).</p><p><strong>Svar:</strong> \\(960\\) kg</p>",
+    "id": "6.489",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Flytande kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 960,
+    "tolerans": 14.4,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Extra undanträngd vattenmassa.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "arkimedes__flytande_kroppar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "skeppsbruten på frigolit",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><ol type=\"a\"><li>Bestäm lyftkraften.</li><li>Bestäm frigolitens densitet.</li><li>Hur många personer till (62,0 kg var) kan blocket bära?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=1\\,025\\cdot2{,}00\\cdot2{,}00\\cdot0{,}024\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(966\\) N</p></li><li><p>\\(m=1\\,025\\cdot0{,}096-62{,}0=36{,}4\\) kg, \\(\\rho=\\dfrac{36{,}4}{0{,}360}\\).</p><p><strong>Svar:</strong> \\(101\\) kg/m³</p></li><li><p>Maximal last: \\(1\\,025\\cdot0{,}360-36{,}4=332\\) kg, alltså 5 personer totalt, 4 till.</p><p><strong>Svar:</strong> \\(4{,}0\\)</p></li></ol>",
+    "id": "6.490",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      966.2880000000001,
+      101.11111111111113,
+      4
+    ],
+    "tolerans": [
+      14.5,
+      5.1,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "kg/m³",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm lyftkraften.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><p>Bestäm lyftkraften.</p>",
+        "s": "<p>\\(F=1\\,025\\cdot2{,}00\\cdot2{,}00\\cdot0{,}024\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(966\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm frigolitens densitet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><p>Bestäm frigolitens densitet.</p>",
+        "s": "<p>\\(m=1\\,025\\cdot0{,}096-62{,}0=36{,}4\\) kg, \\(\\rho=\\dfrac{36{,}4}{0{,}360}\\).</p><p><strong>Svar:</strong> \\(101\\) kg/m³</p>",
+        "ledtrad": "<p>Bestäm frigolitens massa först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många personer till (62,0 kg var) kan blocket bära?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><p>Hur många personer till (62,0 kg var) kan blocket bära?</p>",
+        "s": "<p>Maximal last: \\(1\\,025\\cdot0{,}360-36{,}4=332\\) kg, alltså 5 personer totalt, 4 till.</p><p><strong>Svar:</strong> \\(4{,}0\\)</p>",
+        "ledtrad": "<p>Hela blocket under ytan.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "träblock med stålboll",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett träblock (0,524 dm³) flyter med en stålboll (0,310 kg) ovanpå, precis i nivå med vattenytan. Bestäm träets densitet.</p>",
+    "s": "<p>\\(m_\\text{trä}=0{,}524-0{,}310\\) kg, \\(\\rho=\\dfrac{0{,}214}{0{,}524\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(408\\) kg/m³</p>",
+    "id": "6.491",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 408.3969465648855,
+    "tolerans": 6.13,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Undanträngd massa = total massa.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg/m³",
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "fjäder när block sänks i vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett block (10,0 kg, 12,0 cm × 10,0 cm × 10,0 cm) hänger i en fjäder (450 N/m). Hur mycket minskar förlängningen när blocket sänks helt ned i vatten?</p>",
+    "s": "<p>\\(\\Delta x=\\dfrac{1\\,000\\cdot1{,}20\\cdot10^{-3}\\cdot9{,}82}{450}\\).</p><p><strong>Svar:</strong> \\(0{,}026\\) m</p>",
+    "id": "6.492",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.026186666666666667,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lyftkraften avlastar fjädern.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "batysfär sjunker med konstant fart",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En batysfär (radie 1,50 m, 12 ton) i havet (1 030 kg/m³) bromsas av en friktionskraft på 1 100 N. Hur mycket vatten måste fyllas i tankarna för att den ska sjunka med konstant fart?</p>",
+    "s": "<p>\\((12\\,000+m)\\cdot9{,}82=1\\,030\\cdot\\tfrac43\\pi\\cdot1{,}50^3\\cdot9{,}82+1\\,100\\).</p><p><strong>Svar:</strong> \\(2\\,673\\) kg</p>",
+    "id": "6.493",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2673.2982426677117,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämvikt: tyngd = lyftkraft + friktion.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "kg",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "träkloss i fjäder under vatten",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En träkloss (5,0 kg, 650 kg/m³) är fäst i en fjäder (160 N/m) i botten av en bägare och täcks helt av vatten. Hur mycket är fjädern sträckt?</p>",
+    "s": "<p>\\(F=5{,}0\\cdot9{,}82\\left(\\dfrac{1\\,000}{650}-1\\right)\\), \\(x=\\dfrac{F}{160}\\).</p><p><strong>Svar:</strong> \\(0{,}17\\) m</p>",
+    "id": "6.494",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.16524038461538465,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fjädern tar upp lyftkraft minus tyngd.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "cylinder i vatten med olja ovanpå",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En cylinder (radie 0,150 m, höjd 0,120 m, massa 7,00 kg) flyter i vatten. Olja (725 kg/m³) hälls på tills cylindern är helt täckt. Hur stor del av höjden ligger i oljeskiktet?</p>",
+    "s": "<p>Per area: \\(725h+1\\,000(0{,}120-h)=\\dfrac{7{,}00}{\\pi\\cdot0{,}150^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0763\\) m</p>",
+    "id": "6.495",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Flytande kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.07625548229712571,
+    "tolerans": 0.00114,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lyftkraft från båda vätskorna.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "familjNyckel": "arkimedes__flytande_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "densiteter ur dynamometer",
+    "poang": "(0/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><ol type=\"a\"><li>Ett föremål visar 300 N i luft och 200 N i alkohol (700 kg/m³). Bestäm föremålets densitet.</li><li>En kloss visar 300 N i luft, 265 N i vatten och 275 N i olja. Bestäm oljans densitet.</li><li>En kula visar 15,2 N i etanol (790 kg/m³) och 13,7 N i vatten. Bestäm kulans volym.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\rho=\\dfrac{300}{100}\\cdot700\\).</p><p><strong>Svar:</strong> \\(2\\,100\\) kg/m³</p></li><li><p>\\(\\rho=\\dfrac{25}{35}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(714\\) kg/m³</p></li><li><p>\\((1\\,000-790)\\cdot9{,}82\\,V=1{,}5\\).</p><p><strong>Svar:</strong> \\(0{,}000727\\) m³</p></li></ol>",
+    "id": "6.496",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Vägning i vätska",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2100,
+      714.2857142857143,
+      0.0007273785277858597
+    ],
+    "tolerans": [
+      51.0,
+      10.7,
+      1.09e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kg/m³",
+      "kg/m³",
+      "m³"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett föremål visar 300 N i luft och 200 N i alkohol (700 kg/m³). Bestäm föremålets densitet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett föremål visar 300 N i luft och 200 N i alkohol (700 kg/m³). Bestäm föremålets densitet.</p>",
+        "s": "<p>\\(\\rho=\\dfrac{300}{100}\\cdot700\\).</p><p><strong>Svar:</strong> \\(2\\,100\\) kg/m³</p>",
+        "ledtrad": "<p>Lyftkraften ger volymen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kloss visar 300 N i luft, 265 N i vatten och 275 N i olja. Bestäm oljans densitet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En kloss visar 300 N i luft, 265 N i vatten och 275 N i olja. Bestäm oljans densitet.</p>",
+        "s": "<p>\\(\\rho=\\dfrac{25}{35}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(714\\) kg/m³</p>",
+        "ledtrad": "<p>Lyftkrafterna förhåller sig som densiteterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En kula visar 15,2 N i etanol (790 kg/m³) och 13,7 N i vatten. Bestäm kulans volym.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En kula visar 15,2 N i etanol (790 kg/m³) och 13,7 N i vatten. Bestäm kulans volym.</p>",
+        "s": "<p>\\((1\\,000-790)\\cdot9{,}82\\,V=1{,}5\\).</p><p><strong>Svar:</strong> \\(0{,}000727\\) m³</p>",
+        "ledtrad": "<p>Skillnaden i lyftkraft.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__vagning_i_vatska",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "flotte av stockar",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Hur många stockar (längd 3,00 m, radie 0,0800 m, 725 kg/m³) krävs minst i en flotte som ska bära fyra personer på 80 kg?</p>",
+    "s": "<p>Varje stock bär \\((1\\,000-725)\\cdot\\pi\\cdot0{,}0800^2\\cdot3{,}00=16{,}6\\) kg. \\(\\dfrac{320}{16{,}6}=19{,}3\\): 20 stockar.</p><p><strong>Svar:</strong> \\(20\\) </p>",
+    "id": "6.497",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur mycket kan en stock bära?</p>",
+    "traningsniva": 4,
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "flytväst",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En person (81,0 kg) flyter i en sjö med flytväst. Västen (31 dm³) är helt under ytan, och 62 dm³ av personen är under ytan. Bestäm västens densitet.</p>",
+    "s": "<p>\\(81{,}0+m=1\\,000\\cdot0{,}093\\iff m=12\\) kg. \\(\\rho=\\dfrac{12}{0{,}031}\\).</p><p><strong>Svar:</strong> \\(387\\) kg/m³</p>",
+    "id": "6.498",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 387.0967741935484,
+    "tolerans": 5.81,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Undanträngd massa = total massa.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "kg/m³",
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "isflak som bär en bil",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>Ett isflak (30 cm tjockt) i en sjö ska bära en bil (1 100 kg). Hur stor area måste flaket minst ha?</p>",
+    "s": "<p>\\((1\\,000-917)\\cdot0{,}30\\cdot A=1\\,100\\).</p><p><strong>Svar:</strong> \\(44\\) m²</p>",
+    "id": "6.499",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 44.17670682730924,
+    "tolerans": 0.663,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hela flaket under ytan.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m²",
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "låda som fylls med vatten",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En kubisk låda utan lock (sida 0,30 m, tunna väggar) flyter med en tredjedel av höjden under ytan. Den fylls med vatten. Hur högt står vattnet i lådan när kanten når vattenytan?</p>",
+    "s": "<p>Lådans massa: \\(1\\,000\\cdot0{,}30^2\\cdot0{,}10=9{,}0\\) kg. \\(9{,}0+1\\,000\\cdot0{,}090\\,x=1\\,000\\cdot0{,}090\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(0{,}20\\) m</p>",
+    "id": "6.500",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.2,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm lådans massa först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "mynt sjunker i bassäng",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, koppar 8 960 kg/m³.</p><p>Ett kopparmynt släpps vid ytan av en 3,0 m djup bassäng. Hur lång tid tar det att nå botten? Bortse från vattnets motstånd.</p>",
+    "s": "<p>\\(a=9{,}82\\left(1-\\dfrac{1\\,000}{8\\,960}\\right)\\), \\(t=\\sqrt{\\dfrac{2\\cdot3{,}0}{a}}\\).</p><p><strong>Svar:</strong> \\(0{,}83\\) s</p>",
+    "id": "6.501",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8293108593574413,
+    "tolerans": 0.0124,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm accelerationen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "boll som skjuts upp ur vattnet",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En ihålig boll (1,0 kg, ytterradie 0,10 m) släpps från vila på 2,0 m djup. Hur högt över ytan kommer den? Bortse från friktion och från övergången genom ytan.</p>",
+    "s": "<p>\\(a=\\dfrac{1\\,000\\cdot\\tfrac43\\pi\\cdot0{,}10^3\\cdot9{,}82-9{,}82}{1{,}0}\\). \\(v^2=2a\\cdot2{,}0\\), \\(h=\\dfrac{v^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m</p>",
+    "id": "6.502",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och kraftjämvikt",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.377580409572783,
+    "tolerans": 0.0957,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Accelerationen under vattnet först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "träbit mellan olja och vatten",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Olja (930 kg/m³) ligger ovanpå vatten. En träbit (höjd 4,0 cm, 960 kg/m³) flyter i gränsskiktet, helt täckt av olja. Hur långt ner i vattnet når träbiten?</p>",
+    "s": "<p>Per area: \\(930(0{,}040-h)+1\\,000h=960\\cdot0{,}040\\).</p><p><strong>Svar:</strong> \\(0{,}017\\) m</p>",
+    "id": "6.503",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Flytande kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.017142857142857144,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lyftkraft från båda vätskorna.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "familjNyckel": "arkimedes__flytande_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "ihålig järnboll",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En ihålig järnboll (ytterradie 60,0 cm) flyter precis helt under ytan. Bestäm innerradien. Bortse från luftens massa.</p>",
+    "s": "<p>\\(7\\,870(V_y-V_i)=1\\,000V_y\\iff V_i=V_y\\left(1-\\dfrac{1\\,000}{7\\,870}\\right)\\). \\(r_i=60{,}0\\sqrt[3]{0{,}8729}\\).</p><p><strong>Svar:</strong> \\(0{,}573\\) m</p>",
+    "id": "6.504",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Flytande kroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5734275905894868,
+    "tolerans": 0.0086,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Massan av järnet = massan av undanträngt vatten.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "familjNyckel": "arkimedes__flytande_kroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "luftens lyftkraft",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><ol type=\"a\"><li>En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum.</li><li>Vilken lyftkraft får en ballong (radie 1,00 m) i luft?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m=\\dfrac{4{,}0000}{1-1{,}29/2\\,700}\\).</p><p><strong>Svar:</strong> \\(4{,}0019\\) kg</p></li><li><p>\\(F=1{,}29\\cdot\\tfrac43\\pi\\cdot1{,}00^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(53{,}1\\) N</p></li></ol>",
+    "id": "6.505",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.001912024633992,
+      53.06275655619304
+    ],
+    "tolerans": [
+      0.00011,
+      0.796
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><p>En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum.</p>",
+        "s": "<p>\\(m=\\dfrac{4{,}0000}{1-1{,}29/2\\,700}\\).</p><p><strong>Svar:</strong> \\(4{,}0019\\) kg</p>",
+        "ledtrad": "<p>Luftens lyftkraft minskar vägningen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken lyftkraft får en ballong (radie 1,00 m) i luft?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><p>Vilken lyftkraft får en ballong (radie 1,00 m) i luft?</p>",
+        "s": "<p>\\(F=1{,}29\\cdot\\tfrac43\\pi\\cdot1{,}00^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(53{,}1\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "ballongvolym för last",
+    "poang": "(0/4/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><ol type=\"a\"><li>Vilken volym måste en heliumballong minst ha för att lyfta 180 kg last? Höljet väger 10 kg.</li><li>Samma fråga för en vätgasballong.</li><li>En heliumballong (radie 7,15 m) har hölje och nät på 930 kg. Hur stor last kan den bära?</li><li>En heliumballong bär 7,70 ton last, och korg och nät väger 196 kg. Bestäm radien.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V(1{,}29-0{,}179)=190\\).</p><p><strong>Svar:</strong> \\(171\\) m³</p></li><li><p>\\(V(1{,}29-0{,}090)=190\\).</p><p><strong>Svar:</strong> \\(158\\) m³</p></li><li><p>\\(m=(1{,}29-0{,}179)\\cdot\\tfrac43\\pi\\cdot7{,}15^3-930\\).</p><p><strong>Svar:</strong> \\(771\\) kg</p></li><li><p>\\(V=\\dfrac{7\\,896}{1{,}111}\\), \\(r=\\sqrt[3]{\\dfrac{3V}{4\\pi}}\\).</p><p><strong>Svar:</strong> \\(11{,}9\\) m</p></li></ol>",
+    "id": "6.506",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      171.017101710171,
+      158.33333333333334,
+      771.064548528328,
+      11.927098991986444
+    ],
+    "tolerans": [
+      5.1,
+      5.1,
+      11.6,
+      0.179
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m³",
+      "m³",
+      "kg",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken volym måste en heliumballong minst ha för att lyfta 180 kg last? Höljet väger 10 kg.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Vilken volym måste en heliumballong minst ha för att lyfta 180 kg last? Höljet väger 10 kg.</p>",
+        "s": "<p>\\(V(1{,}29-0{,}179)=190\\).</p><p><strong>Svar:</strong> \\(171\\) m³</p>",
+        "ledtrad": "<p>Glöm inte heliumets massa.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Samma fråga för en vätgasballong.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Samma fråga för en vätgasballong.</p>",
+        "s": "<p>\\(V(1{,}29-0{,}090)=190\\).</p><p><strong>Svar:</strong> \\(158\\) m³</p>",
+        "ledtrad": "<p>Glöm inte vätgasens massa.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En heliumballong (radie 7,15 m) har hölje och nät på 930 kg. Hur stor last kan den bära?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>En heliumballong (radie 7,15 m) har hölje och nät på 930 kg. Hur stor last kan den bära?</p>",
+        "s": "<p>\\(m=(1{,}29-0{,}179)\\cdot\\tfrac43\\pi\\cdot7{,}15^3-930\\).</p><p><strong>Svar:</strong> \\(771\\) kg</p>",
+        "ledtrad": "<p>Nettolyft per kubikmeter.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En heliumballong bär 7,70 ton last, och korg och nät väger 196 kg. Bestäm radien.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>En heliumballong bär 7,70 ton last, och korg och nät väger 196 kg. Bestäm radien.</p>",
+        "s": "<p>\\(V=\\dfrac{7\\,896}{1{,}111}\\), \\(r=\\sqrt[3]{\\dfrac{3V}{4\\pi}}\\).</p><p><strong>Svar:</strong> \\(11{,}9\\) m</p>",
+        "ledtrad": "<p>Nettolyft per kubikmeter.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Nettolyft per kubikmeter: \\(\\rho_\\text{luft}-\\rho_\\text{gas}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "ballongers acceleration",
+    "poang": "(0/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p><ol type=\"a\"><li>En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps.</li><li>Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas.</li><li>En bubbla (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm bubblans massa.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{1{,}29\\cdot0{,}12\\cdot9{,}82-0{,}12\\cdot9{,}82}{0{,}12}\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m/s²</p></li><li><p>\\(a=9{,}82\\left(\\dfrac{1{,}29}{0{,}93}-1\\right)\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) m/s²</p></li><li><p>\\(F_\\text{lyft}=1\\,000\\cdot\\tfrac43\\pi(0{,}500\\cdot10^{-3})^3\\cdot9{,}82\\), \\(m=\\dfrac{F_\\text{lyft}}{9{,}82+0{,}225}\\).</p><p><strong>Svar:</strong> \\(5{,}1\\cdot10^{-7}\\) kg</p></li></ol>",
+    "id": "6.507",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.8478000000000003,
+      3.8012903225806443,
+      5.118705800274062e-07
+    ],
+    "tolerans": [
+      0.051,
+      0.057,
+      7.68e-09
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p><p>En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps.</p>",
+        "s": "<p>\\(a=\\dfrac{1{,}29\\cdot0{,}12\\cdot9{,}82-0{,}12\\cdot9{,}82}{0{,}12}\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=F_\\text{lyft}-mg\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p><p>Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas.</p>",
+        "s": "<p>\\(a=9{,}82\\left(\\dfrac{1{,}29}{0{,}93}-1\\right)\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) m/s²</p>",
+        "ledtrad": "<p>\\(F_R=F_\\text{lyft}-mg\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En bubbla (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm bubblans massa.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p><p>En bubbla (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm bubblans massa.</p>",
+        "s": "<p>\\(F_\\text{lyft}=1\\,000\\cdot\\tfrac43\\pi(0{,}500\\cdot10^{-3})^3\\cdot9{,}82\\), \\(m=\\dfrac{F_\\text{lyft}}{9{,}82+0{,}225}\\).</p><p><strong>Svar:</strong> \\(5{,}1\\cdot10^{-7}\\) kg</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}-mg=ma\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Lyftkraft minus tyngd ger accelerationen.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "ballong pressas ihop under vatten",
+    "poang": "(2/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p><ol type=\"a\"><li>Bestäm lyftkraften i luft.</li><li>Bestäm lyftkraften när ballongen precis är under vattenytan.</li><li>Bestäm lyftkraften på 20 m djup (konstant temperatur).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=1{,}29\\cdot0{,}0020\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}025\\) N</p></li><li><p>\\(F=1\\,000\\cdot0{,}0020\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(20\\) N</p></li><li><p>\\(p=101{,}3+196{,}4=297{,}7\\) kPa. \\(V=2{,}0\\cdot\\dfrac{101{,}3}{297{,}7}\\) liter. \\(F=1\\,000\\cdot V\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) N</p></li></ol>",
+    "id": "6.508",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Lyftkraft och undanträngd volym",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.025335600000000003,
+      19.64,
+      6.683009741350353
+    ],
+    "tolerans": [
+      0.00051,
+      0.51,
+      0.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm lyftkraften i luft.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p><p>Bestäm lyftkraften i luft.</p>",
+        "s": "<p>\\(F=1{,}29\\cdot0{,}0020\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(0{,}025\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm lyftkraften när ballongen precis är under vattenytan.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p><p>Bestäm lyftkraften när ballongen precis är under vattenytan.</p>",
+        "s": "<p>\\(F=1\\,000\\cdot0{,}0020\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(20\\) N</p>",
+        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm lyftkraften på 20 m djup (konstant temperatur).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p><p>Bestäm lyftkraften på 20 m djup (konstant temperatur).</p>",
+        "s": "<p>\\(p=101{,}3+196{,}4=297{,}7\\) kPa. \\(V=2{,}0\\cdot\\dfrac{101{,}3}{297{,}7}\\) liter. \\(F=1\\,000\\cdot V\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) N</p>",
+        "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "arkimedes__lyftkraft_och_undantrangd_volym",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "C",
+    "typ": "mutter håller ballong",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³.</p><p>En ballong (4,0 g) fylls med 11,0 liter helium. Hur tung mutter krävs minst för att hålla den kvar? Bortse från mutterns volym.</p>",
+    "s": "<p>\\(m=1{,}29\\cdot11{,}0-0{,}179\\cdot11{,}0-4{,}0\\) g.</p><p><strong>Svar:</strong> \\(8{,}2\\) g</p>",
+    "id": "6.509",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.221,
+    "tolerans": 0.123,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nettolyft minus ballongens massa.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "g",
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "guldtacka lyfts med ballong",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³, helium 0,179 kg/m³, guld 19 300 kg/m³.</p><p>En guldtacka (25 cm × 6,0 cm × 4,0 cm) ligger på botten av en sjö. Den är fäst med ett snöre i en heliumballong (hölje 750 g) vid ytan. Hur stor volym helium krävs för att tackan ska lyftas?</p>",
+    "s": "<p>Tackan: \\(m=19\\,300\\cdot0{,}00060=11{,}58\\) kg, lyftkraft i vatten motsvarar 0,60 kg. Ballongen ska bära \\(11{,}58-0{,}60+0{,}75\\) kg: \\(V=\\dfrac{11{,}73}{1{,}29-0{,}179}\\).</p><p><strong>Svar:</strong> \\(11\\) m³</p>",
+    "id": "6.510",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.558055805580558,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tackan får lyftkraft i vattnet.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m³",
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "helium- och vätgasballong",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (3,0 g var, 35 liter) fylls med helium respektive vätgas och släpps samtidigt. Hur långt ifrån varandra är de efter 1,0 s? Bortse från luftmotstånd.</p>",
+    "s": "<p>\\(a=\\dfrac{F_\\text{lyft}-mg}{m}\\) för var och en. \\(\\Delta s=\\tfrac12(a_{H_2}-a_{He})\\cdot1{,}0^2\\).</p><p><strong>Svar:</strong> \\(12\\) m</p>",
+    "id": "6.511",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.119278296236821,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Olika massa, samma lyftkraft.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 6,
+    "omr": "arkimedes",
+    "niva": "A",
+    "typ": "två sammanbundna ballonger",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i snöret.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{2F_\\text{lyft}-(m_1+m_2)g}{m_1+m_2}\\).</p><p><strong>Svar:</strong> \\(4{,}28\\) m/s²</p></li><li><p>Övre ballongen: \\(F_\\text{lyft}-m_1g-F_S=m_1a\\).</p><p><strong>Svar:</strong> \\(0{,}329\\) N</p></li></ol>",
+    "id": "6.512",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ballonger och lastförmåga",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.279714452389378,
+      0.32852539844827344
+    ],
+    "tolerans": [
+      0.0642,
+      0.00493
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm accelerationen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p><p>Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{2F_\\text{lyft}-(m_1+m_2)g}{m_1+m_2}\\).</p><p><strong>Svar:</strong> \\(4{,}28\\) m/s²</p>",
+        "ledtrad": "<p>Se ballongerna som ett system.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm spännkraften i snöret.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>Accelerationen är 4,28 m/s².<p>Bestäm spännkraften i snöret.</p>",
+        "s": "<p>Övre ballongen: \\(F_\\text{lyft}-m_1g-F_S=m_1a\\).</p><p><strong>Svar:</strong> \\(0{,}329\\) N</p>",
+        "ledtrad": "<p>Frilägg den övre ballongen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Samma acceleration för båda.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "arkimedes__ballonger_och_lastformaga",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.362",

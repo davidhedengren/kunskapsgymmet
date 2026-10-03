@@ -67576,8 +67576,8 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       0.0001,
-      0.01,
-      0.01
+      1,
+      1
     ],
     "självrättning": true,
     "formaga": [
@@ -96277,7 +96277,10 @@ window.BANKMA1 = [
       0.578125,
       0.421875
     ],
-    "tolerans": null,
+    "tolerans": [
+      0.001,
+      0.001
+    ],
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -112168,7 +112171,7 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       null,
-      0.01,
+      1,
       null
     ],
     "självrättning": [

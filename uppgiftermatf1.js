@@ -17603,7 +17603,10 @@ window.BANKMATF1 = [
       null,
       17109.07
     ],
-    "tolerans": 0.01,
+    "tolerans": [
+      0.01,
+      1
+    ],
     "självrättning": [
       false,
       true
@@ -17975,7 +17978,10 @@ window.BANKMATF1 = [
       null,
       9370.24
     ],
-    "tolerans": 0.01,
+    "tolerans": [
+      0.01,
+      1
+    ],
     "självrättning": [
       false,
       true
@@ -21602,7 +21608,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 12.566370614359172,
-    "tolerans": 0.02,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -21675,7 +21681,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "linjär approximation med derivata",
     "poang": "2/0/0",
-    "t": "<p>Använd linjär approximation kring \\(x=49\\) för att uppskatta \\(\\sqrt{49,4}\\).</p>",
+    "t": "<p>Använd linjär approximation kring \\(x=49\\) för att uppskatta \\(\\sqrt{49,4}\\). Svara med fyra decimaler.</p>",
     "s": "<p><strong>Metod:</strong> Definiera den storhet som förändras och skriv sambandet mellan storheterna innan du deriverar. Sätt in numeriska värden först efter deriveringen för att behålla sambandet tydligt.</p><p>För \\(f(x)=\\sqrt x\\) är \\(f'(49)=1/(2\\sqrt{49})\\). Den linjära approximationen är</p><p>\\[f(49+h)\\approx f(49)+f'(49)h.\\]</p><p>Med \\(h=0,4\\) fås \\(7,02857\\).</p>",
     "id": "3.192",
     "miniräknare": true,
@@ -22045,7 +22051,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "linjär approximation med derivata",
     "poang": "2/0/0",
-    "t": "<p>Använd linjär approximation kring \\(x=49\\) för att uppskatta \\(\\sqrt{49,2}\\).</p>",
+    "t": "<p>Använd linjär approximation kring \\(x=49\\) för att uppskatta \\(\\sqrt{49,2}\\). Svara med fyra decimaler.</p>",
     "s": "<p><strong>Metod:</strong> Definiera den storhet som förändras och skriv sambandet mellan storheterna innan du deriverar. Sätt in numeriska värden först efter deriveringen för att behålla sambandet tydligt.</p><p>För \\(f(x)=\\sqrt x\\) är \\(f'(49)=1/(2\\sqrt{49})\\). Den linjära approximationen är</p><p>\\[f(49+h)\\approx f(49)+f'(49)h.\\]</p><p>Med \\(h=0,2\\) fås \\(7,01429\\).</p>",
     "id": "3.196",
     "miniräknare": true,
@@ -23615,7 +23621,7 @@ window.BANKMATF1 = [
     "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "numeriskt",
     "rättSvar": 4.496664173006161,
-    "tolerans": 0.002,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37143,7 +37149,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 11309.7336,
-    "tolerans": 0.02,
+    "tolerans": 10,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37170,7 +37176,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 62.8319,
-    "tolerans": 0.02,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37197,7 +37203,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 188.4956,
-    "tolerans": 0.02,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37386,7 +37392,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 50.2655,
-    "tolerans": 0.02,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37413,7 +37419,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 56.5487,
-    "tolerans": 0.02,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37494,7 +37500,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 12.5664,
-    "tolerans": 0.02,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",

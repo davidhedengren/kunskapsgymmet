@@ -25937,7 +25937,7 @@ window.BANK2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 426.6666666666667,
-    "tolerans": 0.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s²",

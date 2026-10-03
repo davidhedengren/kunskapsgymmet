@@ -565,7 +565,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)",
+      "(-1/2, √3/2)",
       null
     ],
     "tolerans": [
@@ -22888,7 +22888,7 @@ window.BANKMATO2 = [
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
     "svarstyp": "numeriskt",
     "rättSvar": 18.849556,
-    "tolerans": 0.02,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
     "svarFormat": "numeriskt",
@@ -41594,7 +41594,7 @@ window.BANKMATO2 = [
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 18.849556,
-    "tolerans": 0.01,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
     "svarFormat": "numeriskt",
@@ -47750,7 +47750,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1.0986122886681098,
-    "tolerans": 0.001,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "olika_grafer__grafanalys_av_specialfunktioner",
@@ -65576,7 +65576,7 @@ window.BANKMATO2 = [
     "familjNyckel": "skivmetoden__rotationsvolymer",
     "svarstyp": "numeriskt",
     "rättSvar": 16.75516082,
-    "tolerans": 0.02,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
     "svarFormat": "numeriskt",
@@ -65739,7 +65739,7 @@ window.BANKMATO2 = [
     "familjNyckel": "skivmetoden__rotationsvolymer",
     "svarstyp": "numeriskt",
     "rättSvar": 25.13274123,
-    "tolerans": 0.02,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
     "svarFormat": "numeriskt",
@@ -66095,7 +66095,7 @@ window.BANKMATO2 = [
     "familjNyckel": "skivmetoden__rotationsvolymer",
     "svarstyp": "numeriskt",
     "rättSvar": 125.66370614,
-    "tolerans": 0.02,
+    "tolerans": 0.5,
     "självrättning": true,
     "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
     "svarFormat": "numeriskt",
@@ -78907,7 +78907,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv \\(z=-1+i\\sqrt3\\) på polär form.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> På polär form hålls absolutbelopp och argument isär. Multiplikation påverkar dem på enkla sätt: absolutbelopp multipliceras och argument adderas, vilket också är grunden för potenser och rötter.</p><p><strong>Nyckelidé:</strong> På exponentiell form multipliceras absolutbeloppen och argumenten adderas.</p><p>Absolutbelopp: 2·3=6. Argument: π/6−π/4=−π/12.</p><p><strong>Svar:</strong> \\(\\boxed{6e^{-i\\pi/12}}\\).</p>",
+    "s": "<p>\\(|z|=\\sqrt{(-1)^2+(\\sqrt3)^2}=\\sqrt4=2\\).</p><p>Realdelen är negativ och imaginärdelen positiv, så \\(z\\) ligger i andra kvadranten. Eftersom \\(\\tan v=\\dfrac{\\sqrt3}{-1}\\) blir referensvinkeln \\(\\dfrac{\\pi}{3}\\) och \\(\\arg z=\\pi-\\dfrac{\\pi}{3}=\\dfrac{2\\pi}{3}\\).</p><p><strong>Svar:</strong> \\(z=2\\left(\\cos\\dfrac{2\\pi}{3}+i\\sin\\dfrac{2\\pi}{3}\\right)\\)</p>",
     "familj": "Växla mellan former för komplexa tal",
     "formaga": [
       "procedur",
@@ -94653,7 +94653,7 @@ window.BANKMATO2 = [
     ],
     "tolerans": [
       0.001,
-      0.001
+      0.005
     ],
     "svarEtiketter": [
       "f'(π)",

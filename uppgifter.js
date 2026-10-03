@@ -77622,13 +77622,13 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4,
-      20,
+      4000,
+      2e-05,
       null
     ],
     "tolerans": [
-      0.06,
-      0.3,
+      60,
+      3e-07,
       null
     ],
     "självrättning": [
@@ -77642,8 +77642,8 @@ window.BANK = [
       null
     ],
     "svarEnhet": [
-      null,
-      null,
+      "V/m",
+      "N",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -77768,12 +77768,12 @@ window.BANK = [
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2,
+      2000000000.0,
       556,
       33
     ],
     "tolerans": [
-      0.03,
+      30000000.0,
       8.34,
       0.495
     ],
@@ -77784,9 +77784,9 @@ window.BANK = [
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
-      null
+      "J",
+      "kWh",
+      "m"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -78935,14 +78935,14 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      0.14,
-      0.562,
+      0.00014,
+      0.00014,
       null
     ],
     "tolerans": [
       null,
-      0.004200000000000001,
-      0.01,
+      4.2e-06,
+      4.2e-06,
       null
     ],
     "självrättning": [
@@ -78959,8 +78959,8 @@ window.BANK = [
     ],
     "svarEnhet": [
       null,
-      null,
-      null,
+      "N",
+      "N",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -79062,11 +79062,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      87
+      8.74e-05
     ],
     "tolerans": [
       null,
-      1.305
+      1.3e-06
     ],
     "självrättning": [
       false,
@@ -79078,7 +79078,7 @@ window.BANK = [
     ],
     "svarEnhet": [
       null,
-      null
+      "N"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -79530,11 +79530,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      3
+      3000
     ],
     "tolerans": [
       null,
-      0.045
+      45
     ],
     "självrättning": [
       false,
@@ -79546,7 +79546,7 @@ window.BANK = [
     ],
     "svarEnhet": [
       null,
-      null
+      "V/m"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -82746,12 +82746,12 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       480,
-      1.9,
+      1.92e-06,
       null
     ],
     "tolerans": [
-      7.199999999999999,
-      0.028499999999999998,
+      7.2,
+      3e-08,
       null
     ],
     "självrättning": [
@@ -82765,8 +82765,8 @@ window.BANK = [
       null
     ],
     "svarEnhet": [
-      null,
-      null,
+      "V/m",
+      "N",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -83881,14 +83881,14 @@ window.BANK = [
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      539,
-      135,
-      2.16
+      0.0005394,
+      0.000135,
+      0.00216
     ],
     "tolerans": [
-      8.084999999999999,
-      2.025,
-      0.0324
+      8e-06,
+      2e-06,
+      3.2e-05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -83897,9 +83897,9 @@ window.BANK = [
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
-      null
+      "N",
+      "N",
+      "N"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -84113,11 +84113,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       4.42,
-      1.02
+      1017
     ],
     "tolerans": [
       0.0663,
-      0.0153
+      15
     ],
     "självrättning": true,
     "svarFormat": [
@@ -84125,8 +84125,8 @@ window.BANK = [
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null
+      "A",
+      "W"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -88919,12 +88919,12 @@ window.BANK = [
     "rättSvar": [
       null,
       300,
-      30
+      0.03
     ],
     "tolerans": [
       null,
       4.5,
-      0.44999999999999996
+      0.00045
     ],
     "självrättning": [
       false,
@@ -88938,8 +88938,8 @@ window.BANK = [
     ],
     "svarEnhet": [
       null,
-      null,
-      null
+      "Ω",
+      "A"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -91966,7 +91966,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Bestäm ersättningsresistansen på två sätt, dels ur totalströmmen, dels med formeln.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Båda metoderna ger samma värde.</p><div class=\"facit-matte\">\\[R_e=\\frac{6{,}0}{0{,}120}=50\\ \\Omega\\]\\[\\frac1{R_e}=\\frac1{100}+\\frac1{200}+\\frac1{200}=\\frac1{50}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{50}\\).</p></div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Båda metoderna ger samma värde.</p><div class=\"facit-matte\">\\[R_e=\\frac{6{,}0}{0{,}120}=50\\ \\Omega\\]\\[\\frac1{R_e}=\\frac1{100}+\\frac1{200}+\\frac1{200}=\\frac1{50}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_e=50\\ \\Omega\\).</p></div>",
         "ledtrad": "<p>Alla tre parallellgrenar har batterispänningen. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
         "niva": "C"
       }
@@ -92855,7 +92855,7 @@ window.BANK = [
     "typ": "tecken på potentialenergi för negativ laddning",
     "poang": "(0/1/2)",
     "t": "<p>En jon med laddningen \\(-2e\\) rör sig i en partikelaccelerator från en punkt med potentialen \\(0\\,\\mathrm V\\) till en punkt med potentialen \\(+225\\,\\mathrm V\\). Bestäm förändringen i jonens elektriska potentiella energi, uttryckt i eV inklusive tecken.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Potentialenergin är \\(E_p=qV\\). En negativ laddning får lägre potentiell energi när potentialen ökar.</p><div class=\"facit-matte\">\\[\\Delta E_p=q\\Delta V=(-2e)(225\\,\\mathrm V)=-450.00000000000006\\ \\mathrm{eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-450.00000000000006\\ \\mathrm{eV}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Potentialenergin är \\(E_p=qV\\). En negativ laddning får lägre potentiell energi när potentialen ökar.</p><div class=\"facit-matte\">\\[\\Delta E_p=q\\Delta V=(-2e)(225\\,\\mathrm V)=-450\\ \\mathrm{eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-450\\ \\mathrm{eV}\\).</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "resonemang",
@@ -93065,7 +93065,7 @@ window.BANK = [
     "typ": "tecken på potentialenergi för negativ laddning",
     "poang": "(0/1/2)",
     "t": "<p>I en masspektrometer flyttas en laddad partikel med laddningen \\(-2e\\) från potentialen \\(0\\,\\mathrm V\\) till potentialen \\(+175\\,\\mathrm V\\). Bestäm förändringen i partikelns elektriska potentiella energi, uttryckt i eV inklusive tecken.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Potentialenergin är \\(E_p=qV\\). En negativ laddning får lägre potentiell energi när potentialen ökar.</p><div class=\"facit-matte\">\\[\\Delta E_p=q\\Delta V=(-2e)(175\\,\\mathrm V)=-350.00000000000006\\ \\mathrm{eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-350.00000000000006\\ \\mathrm{eV}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Potentialenergin är \\(E_p=qV\\). En negativ laddning får lägre potentiell energi när potentialen ökar.</p><div class=\"facit-matte\">\\[\\Delta E_p=q\\Delta V=(-2e)(175\\,\\mathrm V)=-350\\ \\mathrm{eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-350\\ \\mathrm{eV}\\).</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "resonemang",
@@ -93360,12 +93360,12 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.2e-05,
-      1.2,
+      1.222,
       null
     ],
     "tolerans": [
       3.6e-07,
-      0.018,
+      0.03,
       null
     ],
     "självrättning": [
@@ -95308,8 +95308,8 @@ window.BANK = [
       null
     ],
     "svarEnhet": [
-      null,
-      null,
+      "L",
+      "mil",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -97770,14 +97770,14 @@ window.BANK = [
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3,
-      96000000000000000,
-      1.2
+      3030,
+      9.56e+16,
+      1.166
     ],
     "tolerans": [
-      0.045,
-      1440000000000000,
-      0.018
+      45,
+      1440000000000000.0,
+      0.035
     ],
     "självrättning": true,
     "svarFormat": [
@@ -97786,9 +97786,9 @@ window.BANK = [
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
-      null
+      "MW",
+      "J",
+      "t"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -122621,7 +122621,7 @@ window.BANK = [
     "typ": "bestämma djup med gaslagen",
     "poang": "(0/2/0)",
     "t": "<p>En luftbubbla har volymen 1,00 cm³ och temperaturen 5,50 °C när den bildas på botten av en sjö. Vid ytan är volymen 5,00 cm³, temperaturen 18,5 °C och lufttrycket 101 kPa. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Gasbubbla eller luftvolym på djup och vid vattenytan\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><rect x=\"70\" y=\"62\" width=\"480\" height=\"225\" fill=\"#CBE7F5\"/><line x1=\"70\" y1=\"62\" x2=\"550\" y2=\"62\" stroke=\"#2878A8\" stroke-width=\"4\"/><text x=\"82\" y=\"49\" fill=\"#256A8A\">vattenyta</text><circle cx=\"415\" cy=\"102\" r=\"28\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"244\" r=\"15\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><text x=\"415\" y=\"108\" text-anchor=\"middle\">5,00 cm³</text><text x=\"200\" y=\"250\" text-anchor=\"middle\" font-size=\"13\">1,00 cm³</text><line x1=\"135\" y1=\"62\" x2=\"135\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"62\" x2=\"144\" y2=\"62\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"244\" x2=\"144\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><text x=\"122\" y=\"159\" text-anchor=\"end\">h = ?</text></g></svg></span><p>Bestäm sjöns djup. Svara i m. Avrunda till 1 decimal.</p>",
-    "s": "<p>Gaslagen ger bottentrycket p₁ = 101·(5,00/1,00)·(278,65/291,65) ≈ 483,92 kPa. Vätsketrycket är då 483,92−101 = 382,92 kPa. Djupet blir h = 382 920/(1000·9,82) ≈ 38,99 m. Svar: 39,0 m.</p>",
+    "s": "<p>Gaslagen ger bottentrycket p₁ = 101·(5,00/1,00)·(278,65/291,65) ≈ 482,49 kPa. Vätsketrycket är då 482,49−101 = 381,49 kPa. Djupet blir h = 381 490/(1000·9,82) ≈ 38,85 m. Svar: 38,8 m.</p>",
     "familj": "Boyles lag",
     "formaga": [
       "modellering",
@@ -122631,7 +122631,7 @@ window.BANK = [
     "familjNyckel": "gaslagen__bestamma_djup_med_gaslagen",
     "svarstyp": "numeriskt",
     "rättSvar": 38.8,
-    "tolerans": 0,
+    "tolerans": 0.1,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -123606,7 +123606,7 @@ window.BANK = [
     ],
     "tolerans": [
       0,
-      0
+      0.1
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -142432,7 +142432,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beryllium-7 delas upp",
     "poang": "(3/0/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p><ol type=\"a\"><li>Bestäm den sammanlagda massan av de fria partiklarna.</li><li>Bestäm massdefekten.</li><li>Bestäm bindningsenergin.</li></ol>",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p><ol type=\"a\"><li>Bestäm den sammanlagda massan av de fria partiklarna. Svara med fyra decimaler.</li><li>Bestäm massdefekten.</li><li>Bestäm bindningsenergin.</li></ol>",
     "s": "<ol type=\"a\"><li><p>\\(4\\cdot1{,}0078250+3\\cdot1{,}0086649\\).</p><p><strong>Svar:</strong> \\(7{,}05729\\) u</p></li><li><p>\\(\\Delta m=7{,}0572947-7{,}0169287\\).</p><p><strong>Svar:</strong> \\(0{,}0404\\) u</p></li><li><p>\\(E_b=0{,}040366\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(37{,}6\\) MeV</p></li></ol>",
     "id": "9.389",
     "miniräknare": true,
@@ -142475,8 +142475,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den sammanlagda massan av de fria partiklarna.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p><p>Bestäm den sammanlagda massan av de fria partiklarna.</p>",
+        "fraga": "Bestäm den sammanlagda massan av de fria partiklarna. Svara med fyra decimaler.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p><p>Bestäm den sammanlagda massan av de fria partiklarna. Svara med fyra decimaler.</p>",
         "s": "<p>\\(4\\cdot1{,}0078250+3\\cdot1{,}0086649\\).</p><p><strong>Svar:</strong> \\(7{,}05729\\) u</p>",
         "ledtrad": "<p>Fyra väteatomer och tre neutroner.</p>",
         "niva": "E",
@@ -142617,7 +142617,7 @@ window.BANK = [
     "niva": "C",
     "typ": "atommassa ur massdefekt",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>Na-21 (\\(Z=11\\)) har massdefekten 0,17507 u. Bestäm atommassan.</p>",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>Na-21 (\\(Z=11\\)) har massdefekten 0,17507 u. Bestäm atommassan. Svara med fyra decimaler.</p>",
     "s": "<p>\\(m=11\\cdot1{,}0078250+10\\cdot1{,}0086649-0{,}17507\\).</p><p><strong>Svar:</strong> \\(20{,}99765\\) u</p>",
     "id": "9.392",
     "miniräknare": true,
@@ -142881,7 +142881,7 @@ window.BANK = [
     "niva": "A",
     "typ": "atommassa ur bindningsenergi",
     "poang": "(0/1/1)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Xe-133 (\\(Z=54\\)) har bindningsenergin 1,118 GeV. Bestäm atommassan.</p>",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Xe-133 (\\(Z=54\\)) har bindningsenergin 1,118 GeV. Bestäm atommassan. Svara med tre decimaler.</p>",
     "s": "<p>\\(\\Delta m=\\dfrac{1\\,118}{931{,}49}\\) u. \\(m=54\\cdot1{,}0078250+79\\cdot1{,}0086649-\\Delta m\\).</p><p><strong>Svar:</strong> \\(132{,}9068\\) u</p>",
     "id": "9.397",
     "miniräknare": true,
@@ -143327,7 +143327,7 @@ window.BANK = [
     "niva": "A",
     "typ": "fragmentens sammanlagda massa",
     "poang": "(0/1/1)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Neutronens massa är 1,008665 u och U-235 har massan 235,0439231 u.</p><p>Vid klyvningen n + U-235 → X₁ + X₂ + 3n frigörs 225,0 MeV. Bestäm summan av fragmentens massor.</p>",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Neutronens massa är 1,008665 u och U-235 har massan 235,0439231 u.</p><p>Vid klyvningen n + U-235 → X₁ + X₂ + 3n frigörs 225,0 MeV. Bestäm summan av fragmentens massor. Svara med två decimaler.</p>",
     "s": "<p>\\(m_1+m_2=235{,}0439231+1{,}008665-3\\cdot1{,}008665-\\dfrac{225{,}0}{931{,}49}\\).</p><p><strong>Svar:</strong> \\(232{,}8\\) u</p>",
     "id": "9.403",
     "miniräknare": true,
@@ -152825,7 +152825,7 @@ window.BANK = [
     "niva": "C",
     "typ": "luftens lyftkraft",
     "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><ol type=\"a\"><li>En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum.</li><li>Vilken lyftkraft får en ballong (radie 1,00 m) i luft?</li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><ol type=\"a\"><li>En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum. Svara med fyra decimaler.</li><li>Vilken lyftkraft får en ballong (radie 1,00 m) i luft?</li></ol>",
     "s": "<ol type=\"a\"><li><p>\\(m=\\dfrac{4{,}0000}{1-1{,}29/2\\,700}\\).</p><p><strong>Svar:</strong> \\(4{,}0019\\) kg</p></li><li><p>\\(F=1{,}29\\cdot\\tfrac43\\pi\\cdot1{,}00^3\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(53{,}1\\) N</p></li></ol>",
     "id": "6.505",
     "miniräknare": true,
@@ -152863,8 +152863,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><p>En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum.</p>",
+        "fraga": "En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum. Svara med fyra decimaler.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><p>En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum. Svara med fyra decimaler.</p>",
         "s": "<p>\\(m=\\dfrac{4{,}0000}{1-1{,}29/2\\,700}\\).</p><p><strong>Svar:</strong> \\(4{,}0019\\) kg</p>",
         "ledtrad": "<p>Luftens lyftkraft minskar vägningen.</p>",
         "niva": "C",

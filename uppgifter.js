@@ -93694,7 +93694,9 @@ window.BANK = [
     "ledtrad": "<p>Momenten åt båda hållen ska vara lika stora.</p>",
     "traningsniva": 2,
     "svarEnhet": "m",
-    "familjNyckel": "moment__momentjamvikt_och_havstanger"
+    "familjNyckel": "moment__momentjamvikt_och_havstanger",
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93720,7 +93722,9 @@ window.BANK = [
     "ledtrad": "<p>Stavens tyngd angriper i mitten.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
-    "familjNyckel": "moment__momentjamvikt_och_havstanger"
+    "familjNyckel": "moment__momentjamvikt_och_havstanger",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93746,7 +93750,9 @@ window.BANK = [
     "ledtrad": "<p>Vid tippning är bordskanten vridpunkt.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
-    "familjNyckel": "moment__momentjamvikt_och_havstanger"
+    "familjNyckel": "moment__momentjamvikt_och_havstanger",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93798,7 +93804,8 @@ window.BANK = [
         "ledtrad": "<p>Välj vridpunkt i ena snöret.</p>",
         "niva": "E",
         "poang": "(1/1/0)",
-        "traningsniva": 2
+        "traningsniva": 2,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
@@ -93808,12 +93815,15 @@ window.BANK = [
         "ledtrad": "<p>Summan av krafterna är tyngden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 2
+        "traningsniva": 2,
+        "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Momentjämvikt och kraftjämvikt.</p>",
     "traningsniva": 2,
-    "familjNyckel": "moment__stodkrafter_och_balkar"
+    "familjNyckel": "moment__stodkrafter_och_balkar",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93839,7 +93849,9 @@ window.BANK = [
     "ledtrad": "<p>Välj vridpunkt vid huvudet.</p>",
     "traningsniva": 3,
     "svarEnhet": "m",
-    "familjNyckel": "moment__tyngdpunkt_och_tippning"
+    "familjNyckel": "moment__tyngdpunkt_och_tippning",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93865,7 +93877,9 @@ window.BANK = [
     "ledtrad": "<p>Välj vridpunkt vid stegens fot.</p>",
     "traningsniva": 5,
     "svarEnhet": "N",
-    "familjNyckel": "moment__stodkrafter_och_balkar"
+    "familjNyckel": "moment__stodkrafter_och_balkar",
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93891,7 +93905,9 @@ window.BANK = [
     "ledtrad": "<p>Bara snörkraftens vinkelräta komposant ger moment.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
-    "familjNyckel": "moment__stodkrafter_och_balkar"
+    "familjNyckel": "moment__stodkrafter_och_balkar",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93917,7 +93933,9 @@ window.BANK = [
     "ledtrad": "<p>Välj vridpunkt i leden.</p>",
     "traningsniva": 3,
     "svarEnhet": "m",
-    "familjNyckel": "moment__stodkrafter_och_balkar"
+    "familjNyckel": "moment__stodkrafter_och_balkar",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93943,7 +93961,9 @@ window.BANK = [
     "ledtrad": "<p>När hamnar tyngdpunkten rakt ovanför det nedre hjulet?</p>",
     "traningsniva": 3,
     "svarEnhet": "°",
-    "familjNyckel": "moment__tyngdpunkt_och_tippning"
+    "familjNyckel": "moment__tyngdpunkt_och_tippning",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93969,7 +93989,9 @@ window.BANK = [
     "ledtrad": "<p>Välj vridpunkt i armbågen.</p>",
     "traningsniva": 3,
     "svarEnhet": "N",
-    "familjNyckel": "moment__momentjamvikt_och_havstanger"
+    "familjNyckel": "moment__momentjamvikt_och_havstanger",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "kap": 4,
@@ -93995,7 +94017,9 @@ window.BANK = [
     "ledtrad": "<p>Välj kantens hörn som vridpunkt.</p>",
     "traningsniva": 4,
     "svarEnhet": "N",
-    "familjNyckel": "moment__momentjamvikt_och_havstanger"
+    "familjNyckel": "moment__momentjamvikt_och_havstanger",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.55",

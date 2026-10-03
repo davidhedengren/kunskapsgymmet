@@ -3811,7 +3811,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-03-fy1e";
+const BANK_VERSION="2026-10-03-fy1f";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9626,7 +9626,7 @@ function tolkaEnhet(str){
     const tecken=i===0?1:-1;
     if(!delar[i]) continue;
     for(const bit of delar[i].split("*")){
-      if(!bit) continue;
+      if(!bit || bit==="1") continue;   // "1/s", "1/K"
       const m=bit.match(/^([^\^\d]+)(?:\^?(-?\d+))?$/);
       if(!m) return null;
       const e=tolkaEnhetsord(m[1]);

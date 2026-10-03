@@ -99224,6 +99224,1279 @@ window.BANK = [
     "spel": true
   },
   {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "silvertråd",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Silver har resistiviteten \\(1{,}6\\cdot10^{-8}\\) Ωm. Bestäm resistansen hos en 8,0 m lång silvertråd med diametern 0,10 mm.</p>",
+    "s": "<p>\\(A=\\pi\\cdot0{,}050\\cdot10^{-3\\,2}\\). \\(R=\\dfrac{1{,}6\\cdot10^{-8}\\cdot8{,}0}{A}\\).</p><p><strong>Svar:</strong> \\(16\\) Ω</p>",
+    "id": "8.410",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 16.297466172610083,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Arean är \\(\\pi r^2\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "resistivitet för järn",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En 15,0 m lång järntråd med tvärsnittsarean 0,50 mm² har resistansen 3,0 Ω. Bestäm järnets resistivitet.</p>",
+    "s": "<p>\\(\\rho=\\dfrac{RA}{l}=\\dfrac{3{,}0\\cdot0{,}50\\cdot10^{-6}}{15{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-7}\\) Ωm</p>",
+    "id": "8.411",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0000000000000001e-07,
+    "tolerans": 5.1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(\\rho\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Ωm",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "längd på kopparledare",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Hur lång ska en kopparledare med diametern 0,40 mm vara för att få resistansen 10 Ω?</p>",
+    "s": "<p>\\(l=\\dfrac{RA}{\\rho}=\\dfrac{10\\cdot\\pi\\cdot0{,}20\\cdot10^{-3\\,2}}{1{,}7\\cdot10^{-8}}\\).</p><p><strong>Svar:</strong> \\(74\\) m</p>",
+    "id": "8.412",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 73.91982714328925,
+    "tolerans": 1.11,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(l\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "kort koppartråd",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Vilken resistans har en 5,4 m lång koppartråd med diametern 1,5 mm?</p>",
+    "s": "<p>\\(R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot5{,}4}{\\pi\\cdot0{,}75\\cdot10^{-3\\,2}}\\).</p><p><strong>Svar:</strong> \\(0{,}052\\) Ω</p>",
+    "id": "8.413",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.051948173425194644,
+    "tolerans": 0.000779,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(R=\\rho\\dfrac lA\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "diameter på volframtråd",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Volfram har resistiviteten \\(5{,}5\\cdot10^{-8}\\) Ωm. Vilken diameter har en 1,00 m lång volframtråd med resistansen 0,32 Ω?</p>",
+    "s": "<p>\\(A=\\dfrac{\\rho l}{R}\\), \\(d=2\\sqrt{\\dfrac A\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}00047\\) m</p>",
+    "id": "8.414",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0004678012898136944,
+    "tolerans": 7.02e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm arean först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "kvot mellan två trådar",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>Bestäm kvoten mellan resistanserna hos en aluminiumtråd (10,0 m, diameter 2,2 mm) och en koppartråd (24,0 m, diameter 1,8 mm).</p>",
+    "s": "<p>\\(\\dfrac{R_{Al}}{R_{Cu}}=\\dfrac{2{,}7\\cdot10{,}0/2{,}2^2}{1{,}7\\cdot24{,}0/1{,}8^2}\\).</p><p><strong>Svar:</strong> \\(0{,}44\\) </p>",
+    "id": "8.415",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4429995138551288,
+    "tolerans": 0.00664,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Arean är proportionell mot \\(d^2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "dela en tråd",
+    "poang": "(2/0/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har fyra gånger så stor resistans som den andra.</p><ol type=\"a\"><li>Hur stor resistans får den längre delen?</li><li>Hur stor resistans får den kortare delen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Resistansen är proportionell mot längden: \\(\\dfrac45\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(12\\) Ω</p></li><li><p>\\(\\dfrac15\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) Ω</p></li></ol>",
+    "id": "8.416",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      3
+    ],
+    "tolerans": [
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "Ω"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har fyra gånger så stor resistans som den andra.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor resistans får den längre delen?",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har fyra gånger så stor resistans som den andra.</p><p>Hur stor resistans får den längre delen?</p>",
+        "s": "<p>Resistansen är proportionell mot längden: \\(\\dfrac45\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(12\\) Ω</p>",
+        "ledtrad": "<p>Dela i fem lika stora delar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor resistans får den kortare delen?",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har fyra gånger så stor resistans som den andra.</p><p>Hur stor resistans får den kortare delen?</p>",
+        "s": "<p>\\(\\dfrac15\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) Ω</p>",
+        "ledtrad": "<p>Summan är 15,0 Ω.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(R\\sim l\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "smält och dragen tråd",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En metalltråd har resistansen 21,0 Ω. Den smälts ned, och av samma volym görs en tråd som är tre gånger så lång. Vilken resistans får den nya tråden?</p>",
+    "s": "<p>Tre gånger längden och en tredjedel av arean: \\(R=21{,}0\\cdot3\\cdot3\\).</p><p><strong>Svar:</strong> \\(189\\) Ω</p>",
+    "id": "8.417",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 189,
+    "tolerans": 2.83,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Volymen är \\(lA\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "aluminium mot koppar",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>Två ledare är lika långa och lika tjocka. Aluminiumledaren har resistansen 0,20 Ω. Vilken resistans har kopparledaren?</p>",
+    "s": "<p>\\(R=0{,}20\\cdot\\dfrac{1{,}7}{2{,}7}\\).</p><p><strong>Svar:</strong> \\(0{,}13\\) Ω</p>",
+    "id": "8.418",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.1259259259259259,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(R\\sim\\rho\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "tråd som sträcks ut",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En tråd har resistansen 0,010 Ω. Den sträcks ut till dubbla längden utan att volymen ändras. Hur stor blir resistansen?</p>",
+    "s": "<p>Dubbla längden och halva arean: fyra gånger resistansen.</p><p><strong>Svar:</strong> \\(0{,}040\\) Ω</p>",
+    "id": "8.419",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.04,
+    "tolerans": 0.0006,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Volymen är \\(lA\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "resistivitet för majsblad",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Ett 20 cm långt majsblad med bredden 2,5 cm och tjockleken 0,20 mm har resistansen 2,0 MΩ på längden. Beräkna bladets resistivitet.</p>",
+    "s": "<p>\\(\\rho=\\dfrac{RA}{l}=\\dfrac{2{,}0\\cdot10^6\\cdot0{,}025\\cdot0{,}20\\cdot10^{-3}}{0{,}20}\\).</p><p><strong>Svar:</strong> \\(50\\) Ωm</p>",
+    "id": "8.420",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 50.0,
+    "tolerans": 0.75,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(\\rho\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Ωm",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "högspänningsledning",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En högspänningsledning av aluminium har tvärsnittsarean 4,9 cm². Hur stor resistans har 10,0 km av ledningen?</p>",
+    "s": "<p>\\(R=\\dfrac{2{,}7\\cdot10^{-8}\\cdot10{,}0\\cdot10^3}{4{,}9\\cdot10^{-4}}\\).</p><p><strong>Svar:</strong> \\(0{,}55\\) Ω</p>",
+    "id": "8.421",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5510204081632654,
+    "tolerans": 0.00827,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla till m².</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "kopparrör",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Ett 10,0 m långt kopparrör har innerdiametern 3,00 cm och ytterdiametern 5,00 cm. Bestäm resistansen längs röret.</p>",
+    "s": "<p>\\(A=\\pi(0{,}0250^2-0{,}0150^2)\\). \\(R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot10{,}0}{A}\\).</p><p><strong>Svar:</strong> \\(0{,}00014\\) Ω</p>",
+    "id": "8.422",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.000135281701628111,
+    "tolerans": 5.1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tvärsnittet är en ring.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "tråd i sex delar",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En tråd med resistansen 48 Ω delas i sex lika stora delar som läggs ihop till en tjock tråd. Hur stor resistans får den?</p>",
+    "s": "<p>Varje del har 8,0 Ω, och sex parallella delar ger \\(\\dfrac{8{,}0}{6}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) Ω</p>",
+    "id": "8.423",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.3333333333333333,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Delarna fungerar som parallellkopplade.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "A",
+    "typ": "tråd av ett gram koppar",
+    "poang": "(0/2/2)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Av exakt 1,00 g koppar (densitet 8,96 g/cm³) ska du göra en tråd med resistansen 1,00 Ω.</p><ol type=\"a\"><li>Hur lång ska tråden vara?</li><li>Vilken diameter får den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=lA\\) och \\(R=\\rho\\dfrac{l^2}{V}\\iff l=\\sqrt{\\dfrac{RV}{\\rho}}\\).</p><p><strong>Svar:</strong> \\(2{,}56\\) m</p></li><li><p>\\(A=\\dfrac{V}{l}\\), \\(d=2\\sqrt{\\dfrac A\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}000235\\) m</p></li></ol>",
+    "id": "8.424",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.562250192783712,
+      0.00023549966151202378
+    ],
+    "tolerans": [
+      0.0384,
+      3.53e-06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Av exakt 1,00 g koppar (densitet 8,96 g/cm³) ska du göra en tråd med resistansen 1,00 Ω.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång ska tråden vara?",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Av exakt 1,00 g koppar (densitet 8,96 g/cm³) ska du göra en tråd med resistansen 1,00 Ω.</p><p>Hur lång ska tråden vara?</p>",
+        "s": "<p>\\(V=lA\\) och \\(R=\\rho\\dfrac{l^2}{V}\\iff l=\\sqrt{\\dfrac{RV}{\\rho}}\\).</p><p><strong>Svar:</strong> \\(2{,}56\\) m</p>",
+        "ledtrad": "<p>Uttryck arean med volymen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken diameter får den?",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Av exakt 1,00 g koppar (densitet 8,96 g/cm³) ska du göra en tråd med resistansen 1,00 Ω.</p>Tråden är 2,56 m lång.<p>Vilken diameter får den?</p>",
+        "s": "<p>\\(A=\\dfrac{V}{l}\\), \\(d=2\\sqrt{\\dfrac A\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}000235\\) m</p>",
+        "ledtrad": "<p>Bestäm arean ur volymen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>All koppar ska användas.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "spänning över aluminiumledare",
+    "poang": "(1/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 40 m lång aluminiumledare med diametern 0,40 mm har strömmen 4,5 A. Hur stor är spänningen över ledaren?</p>",
+    "s": "<p>\\(R=\\dfrac{2{,}7\\cdot10^{-8}\\cdot40}{\\pi\\cdot0{,}20\\cdot10^{-3\\,2}}\\approx8{,}6\\) Ω. \\(U=RI\\).</p><p><strong>Svar:</strong> \\(39\\) V</p>",
+    "id": "8.425",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 38.674651171330574,
+    "tolerans": 0.58,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm resistansen först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "V",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "värmeväst",
+    "poang": "(1/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En värmeväst kopplas till 12,0 V och ska ha strömmen 4,0 A genom en koppartråd med diametern 0,25 mm. Hur lång ska tråden vara?</p>",
+    "s": "<p>\\(R=\\dfrac{12{,}0}{4{,}0}=3{,}0\\) Ω. \\(l=\\dfrac{RA}{\\rho}\\).</p><p><strong>Svar:</strong> \\(8{,}7\\) m</p>",
+    "id": "8.426",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.66247974335421,
+    "tolerans": 0.13,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm resistansen med Ohms lag.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "laborationssladd",
+    "poang": "(1/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 20 cm lång kopparsladd med diametern 1,0 mm har strömmen 3,0 A. Hur stor spänning ligger över sladden?</p>",
+    "s": "<p>\\(R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot0{,}20}{\\pi\\cdot0{,}50\\cdot10^{-3\\,2}}\\). \\(U=RI\\).</p><p><strong>Svar:</strong> \\(0{,}013\\) V</p>",
+    "id": "8.427",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.012987043356298661,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sladdens resistans är mycket liten.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "V",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "nikromtråd",
+    "poang": "(1/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Nikrom har resistiviteten \\(1{,}0\\cdot10^{-6}\\) Ωm. En 50 cm lång nikromtråd med diametern 0,80 mm kopplas till 3,0 V. Hur stor blir strömmen?</p>",
+    "s": "<p>\\(R=\\dfrac{1{,}0\\cdot10^{-6}\\cdot0{,}50}{\\pi\\cdot0{,}40\\cdot10^{-3\\,2}}\\approx1{,}0\\) Ω. \\(I=\\dfrac UR\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) A</p>",
+    "id": "8.428",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0159289474462017,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm resistansen först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "tråd i ficklampa",
+    "poang": "(1/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En ficklampa drivs med 1,5 V. En koppartråd med diametern 0,60 mm har strömmen 0,53 A. Hur lång är tråden?</p>",
+    "s": "<p>\\(R=\\dfrac{1{,}5}{0{,}53}\\). \\(l=\\dfrac{RA}{\\rho}\\).</p><p><strong>Svar:</strong> \\(47\\) m</p>",
+    "id": "8.429",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 47.07158803935871,
+    "tolerans": 0.706,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm resistansen med Ohms lag.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "diameter ur ström",
+    "poang": "(0/2/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 50,0 m lång kopparledare får strömmen 6,7 A när spänningen är 3,0 V. Vilken diameter har den?</p>",
+    "s": "<p>\\(R=\\dfrac{3{,}0}{6{,}7}\\). \\(A=\\dfrac{\\rho l}{R}\\), \\(d=2\\sqrt{\\dfrac A\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}0016\\) m</p>",
+    "id": "8.430",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.001554681018437196,
+    "tolerans": 5.1e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm resistans och sedan area.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "tråd kvar på rullen",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En rulle med 75 m koppartråd ger strömmen 2,4 A med ett visst batteri. Efter att en del tråd använts ger samma batteri strömmen 3,1 A. Hur mycket tråd finns kvar?</p>",
+    "s": "<p>Strömmen är omvänt proportionell mot längden: \\(l=75\\cdot\\dfrac{2{,}4}{3{,}1}\\).</p><p><strong>Svar:</strong> \\(58\\) m</p>",
+    "id": "8.431",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 58.064516129032256,
+    "tolerans": 0.871,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(R\\sim l\\) och \\(I\\sim\\dfrac1R\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "fågel på ledning",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En fågel sitter med fötterna 2,0 cm isär på en aluminiumledning med diametern 2,0 cm. Strömmen i ledningen är 150 A. Hur stor spänning ligger mellan fötterna?</p>",
+    "s": "<p>\\(R=\\dfrac{2{,}7\\cdot10^{-8}\\cdot0{,}020}{\\pi\\cdot0{,}010^2}\\). \\(U=RI\\).</p><p><strong>Svar:</strong> \\(0{,}00026\\) V</p>",
+    "id": "8.432",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.00025783100780887044,
+    "tolerans": 5.1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Resistansen för 2,0 cm ledning.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "V",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "ström i trådrulle",
+    "poang": "(0/2/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En rulle koppartråd väger 200 g och tråden har diametern 0,80 mm. Koppar har densiteten 8,96 g/cm³. Ett batteri på 1,5 V ansluts till trådens ändar. Hur stor blir strömmen?</p>",
+    "s": "<p>\\(l=\\dfrac{m}{\\rho_mA}\\approx44\\) m. \\(R=\\rho\\dfrac lA\\approx1{,}5\\) Ω. \\(I=\\dfrac UR\\).</p><p><strong>Svar:</strong> \\(1{,}00\\) A</p>",
+    "id": "8.433",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.9987575201930615,
+    "tolerans": 0.015,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm trådens längd ur massan.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "A",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "kabelns massa",
+    "poang": "(0/2/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 175 m lång aluminiumkabel har strömmen 125 A när spänningen över den är 0,300 V. Aluminium har densiteten 2,70 g/cm³. Bestäm kabelns massa.</p>",
+    "s": "<p>\\(R=\\dfrac{0{,}300}{125}\\). \\(A=\\dfrac{\\rho l}{R}\\). \\(m=\\rho_mlA\\).</p><p><strong>Svar:</strong> \\(930\\) kg</p>",
+    "id": "8.434",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 930.234375,
+    "tolerans": 14.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm arean först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "kg",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "koppar och järn i serie och parallellt",
+    "poang": "(0/2/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Järn har resistiviteten \\(1{,}0\\cdot10^{-7}\\) Ωm. En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p><ol type=\"a\"><li>De seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?</li><li>De parallellkopplas och får den totala strömmen 5,0 A. Hur stor ström går genom kopparstaven?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Spänningen delas i förhållande till resistanserna: \\(12\\cdot\\dfrac{1{,}7}{1{,}7+10}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) V</p></li><li><p>Strömmen delas omvänt mot resistanserna: \\(5{,}0\\cdot\\dfrac{10}{11{,}7}\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) A</p></li></ol>",
+    "id": "8.435",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.7435897435897436,
+      4.273504273504273
+    ],
+    "tolerans": [
+      0.051,
+      0.0641
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "V",
+      "A"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Järn har resistiviteten \\(1{,}0\\cdot10^{-7}\\) Ωm. En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "De seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Järn har resistiviteten \\(1{,}0\\cdot10^{-7}\\) Ωm. En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p><p>De seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?</p>",
+        "s": "<p>Spänningen delas i förhållande till resistanserna: \\(12\\cdot\\dfrac{1{,}7}{1{,}7+10}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) V</p>",
+        "ledtrad": "<p>Samma ström, så \\(U\\sim R\\sim\\rho\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "De parallellkopplas och får den totala strömmen 5,0 A. Hur stor ström går genom kopparstaven?",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Järn har resistiviteten \\(1{,}0\\cdot10^{-7}\\) Ωm. En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p><p>De parallellkopplas och får den totala strömmen 5,0 A. Hur stor ström går genom kopparstaven?</p>",
+        "s": "<p>Strömmen delas omvänt mot resistanserna: \\(5{,}0\\cdot\\dfrac{10}{11{,}7}\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) A</p>",
+        "ledtrad": "<p>Samma spänning, så \\(I\\sim\\dfrac1\\rho\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Jämför resistiviteterna.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "skarvad kabel",
+    "poang": "(1/2/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 10,0 m lång kabel består av 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Spänningen över hela kabeln är 95 mV.</p><ol type=\"a\"><li>Vilken resistans har kabeln?</li><li>Hur stor spänning ligger över aluminiumdelen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(R=\\dfrac{(1{,}7+2{,}7)\\cdot10^{-8}\\cdot5{,}0}{\\pi\\cdot0{,}70\\cdot10^{-3\\,2}}\\).</p><p><strong>Svar:</strong> \\(0{,}14\\) Ω</p></li><li><p>\\(U=0{,}095\\cdot\\dfrac{2{,}7}{4{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}058\\) V</p></li></ol>",
+    "id": "8.436",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.14291464277639582,
+      0.05829545454545454
+    ],
+    "tolerans": [
+      0.0051,
+      0.000874
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "V"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 10,0 m lång kabel består av 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Spänningen över hela kabeln är 95 mV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken resistans har kabeln?",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 10,0 m lång kabel består av 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Spänningen över hela kabeln är 95 mV.</p><p>Vilken resistans har kabeln?</p>",
+        "s": "<p>\\(R=\\dfrac{(1{,}7+2{,}7)\\cdot10^{-8}\\cdot5{,}0}{\\pi\\cdot0{,}70\\cdot10^{-3\\,2}}\\).</p><p><strong>Svar:</strong> \\(0{,}14\\) Ω</p>",
+        "ledtrad": "<p>Delarna är seriekopplade.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor spänning ligger över aluminiumdelen?",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 10,0 m lång kabel består av 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Spänningen över hela kabeln är 95 mV.</p><p>Hur stor spänning ligger över aluminiumdelen?</p>",
+        "s": "<p>\\(U=0{,}095\\cdot\\dfrac{2{,}7}{4{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}058\\) V</p>",
+        "ledtrad": "<p>Spänningen delas i förhållande till resistanserna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Seriekoppling.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "förlängningssladd till grästrimmer",
+    "poang": "(0/2/0)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En grästrimmer (15 Ω) ansluts till 230 V via en förlängningssladd med 80 m koppartråd (fram och tillbaka) med tvärsnittsarean \\(1{,}3\\cdot10^{-6}\\) m². Hur stor spänning ligger över sladden?</p>",
+    "s": "<p>\\(R_s=\\dfrac{1{,}7\\cdot10^{-8}\\cdot80}{1{,}3\\cdot10^{-6}}\\approx1{,}05\\) Ω. \\(I=\\dfrac{230}{16{,}05}\\). \\(U=R_sI\\).</p><p><strong>Svar:</strong> \\(15\\) V</p>",
+    "id": "8.437",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.995206136145736,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sladden och trimmern är seriekopplade.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "V",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "A",
+    "typ": "sladd till grindlampa",
+    "poang": "(0/1/1)",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En lampa märkt 200 V/60 W ska drivas från ett uttag på 230 V via en kopparsladd med två ledare med diametern 0,40 mm. Hur lång får sladden högst vara?</p>",
+    "s": "<p>\\(I=\\dfrac{60}{200}=0{,}30\\) A. Sladden får ta 30 V: \\(R=100\\) Ω. Ledarlängden är dubbla sladdlängden: \\(2l=\\dfrac{RA}{\\rho}\\).</p><p><strong>Svar:</strong> \\(370\\) m</p>",
+    "id": "8.438",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 369.5991357164462,
+    "tolerans": 5.54,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Strömmen går fram och tillbaka.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "silvertråd blir varmare",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>En silvertråd har resistansen 6,0 Ω vid 20,0 °C. Silver har \\(\\alpha=0{,}0038\\) K⁻¹. Hur stor är resistansen vid 34,0 °C?</p>",
+    "s": "<p>\\(R=6{,}0(1+0{,}0038\\cdot14{,}0)\\).</p><p><strong>Svar:</strong> \\(6{,}3\\) Ω</p>",
+    "id": "8.439",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.3191999999999995,
+    "tolerans": 0.0948,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt in i formeln.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "temperaturökning för 12 procent",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>Koppar har \\(\\alpha=0{,}0043\\) K⁻¹. Hur mycket måste temperaturen öka för att resistansen ska öka 12 %?</p>",
+    "s": "<p>\\(\\alpha\\Delta T=0{,}12\\iff\\Delta T=\\dfrac{0{,}12}{0{,}0043}\\).</p><p><strong>Svar:</strong> \\(28\\) K</p>",
+    "id": "8.440",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 27.906976744186046,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(\\Delta T\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "K",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "temperaturkoefficient ur mätning",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>En tråd har resistansen 38,0 Ω vid 20 °C och 43,7 Ω vid 55 °C. Bestäm temperaturkoefficienten.</p>",
+    "s": "<p>\\(\\alpha=\\dfrac{43{,}7/38{,}0-1}{35}\\).</p><p><strong>Svar:</strong> \\(0{,}0043\\) 1/K</p>",
+    "id": "8.441",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.004285714285714289,
+    "tolerans": 6.43e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(\\alpha\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "1/K",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "glödtrådens temperatur",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>En glödlampa har resistansen 12 Ω vid 20 °C och 140 Ω när den lyser. Glödtråden har \\(\\alpha=0{,}0045\\) K⁻¹. Vilken temperatur har tråden när lampan lyser?</p>",
+    "s": "<p>\\(\\dfrac{140}{12}=1+0{,}0045\\Delta T\\iff\\Delta T\\approx2\\,370\\) K. \\(T=20+\\Delta T\\).</p><p><strong>Svar:</strong> \\(2\\,390\\) °C</p>",
+    "id": "8.442",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2390.3703703703704,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(\\Delta T\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "termistor",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>En termistor har \\(\\alpha=-0{,}0440\\) K⁻¹. Hos en patient är termistorns resistans 15,0 % lägre än vid normal kroppstemperatur 37,0 °C. Vilken temperatur har patienten?</p>",
+    "s": "<p>\\(0{,}850=1-0{,}0440\\Delta T\\iff\\Delta T=\\dfrac{0{,}150}{0{,}0440}\\). \\(T=37{,}0+\\Delta T\\).</p><p><strong>Svar:</strong> \\(40{,}4\\) °C</p>",
+    "id": "8.443",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 40.40909090909091,
+    "tolerans": 0.606,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Negativ temperaturkoefficient: resistansen sjunker när temperaturen stiger.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°C",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "guld och volfram",
+    "poang": "(0/1/0)",
+    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>Guld har \\(\\alpha=0{,}0034\\) K⁻¹ och volfram \\(\\alpha=0{,}0045\\) K⁻¹. En temperaturökning höjer guldtrådens resistans 7,0 %. Hur många procent ökar volframtrådens resistans vid samma temperaturökning?</p>",
+    "s": "<p>\\(\\Delta T=\\dfrac{0{,}070}{0{,}0034}\\). Ökning: \\(0{,}0045\\Delta T\\).</p><p><strong>Svar:</strong> \\(9{,}3\\) %</p>",
+    "id": "8.444",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Resistivitet och ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.264705882352942,
+    "tolerans": 0.139,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm temperaturökningen.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "%",
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "spänning mellan fågelns fötter",
+    "poang": "(1/0/0)",
+    "t": "<p>En högspänningsledning har resistansen 0,25 µΩ per meter och strömmen 4,1 kA. Hur stor spänning ligger mellan en fågels fötter som står 4,0 cm isär?</p>",
+    "s": "<p>\\(R=0{,}25\\cdot10^{-6}\\cdot0{,}040\\). \\(U=RI\\).</p><p><strong>Svar:</strong> \\(4{,}1\\cdot10^{-5}\\) V</p>",
+    "id": "8.472",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ohms lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.1e-05,
+    "tolerans": 6.15e-07,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ohms lag.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "V",
+    "familjNyckel": "kretsar__ohms_lag",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "typ": "jonström genom cellvägg",
+    "poang": "(2/0/0)",
+    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En cellvägg har resistansen \\(5{,}0\\cdot10^9\\) Ω och spänningen 75 mV.</p><ol type=\"a\"><li>Hur stor ström går genom cellväggen?</li><li>Strömmen består av Na⁺-joner. Hur många passerar på 0,50 s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=\\dfrac{0{,}075}{5{,}0\\cdot10^9}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{-11}\\) A</p></li><li><p>\\(n=\\dfrac{It}{e}\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{7}\\)</p></li></ol>",
+    "id": "8.473",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ohms lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5e-11,
+      46816479.400749065
+    ],
+    "tolerans": [
+      5.1e-13,
+      702000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "A",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En cellvägg har resistansen \\(5{,}0\\cdot10^9\\) Ω och spänningen 75 mV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor ström går genom cellväggen?",
+        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En cellvägg har resistansen \\(5{,}0\\cdot10^9\\) Ω och spänningen 75 mV.</p><p>Hur stor ström går genom cellväggen?</p>",
+        "s": "<p>\\(I=\\dfrac{0{,}075}{5{,}0\\cdot10^9}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{-11}\\) A</p>",
+        "ledtrad": "<p>Ohms lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Strömmen består av Na⁺-joner. Hur många passerar på 0,50 s?",
+        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En cellvägg har resistansen \\(5{,}0\\cdot10^9\\) Ω och spänningen 75 mV.</p>Strömmen är 15 pA.<p>Strömmen består av Na⁺-joner. Hur många passerar på 0,50 s?</p>",
+        "s": "<p>\\(n=\\dfrac{It}{e}\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{7}\\)</p>",
+        "ledtrad": "<p>\\(Q=It=ne\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(U=RI\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kretsar__ohms_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "typ": "resistans ur energi",
+    "poang": "(0/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett batteri på 9,0 V är kopplat över en resistor i 6,0 h, och resistorn omsätter 110 kJ. Beräkna resistansen.</p>",
+    "s": "<p>\\(E=\\dfrac{U^2}{R}t\\iff R=\\dfrac{9{,}0^2\\cdot6{,}0\\cdot3\\,600}{110\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(16\\) Ω</p>",
+    "id": "8.474",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ohms lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.905454545454546,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=\\dfrac{U^2}R\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kretsar__ohms_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "3.178",
     "kap": 2,
     "omr": "medelhastighet",
@@ -103934,6 +105207,1531 @@ window.BANK = [
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
     ]
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "typ": "polspänning vid olika belastning",
+    "poang": "(2/0/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 6,00 V och inre resistans 0,900 Ω. Hur stor är polspänningen när batteriet belastas med</p><ol type=\"a\"><li>71,0 Ω?</li><li>710 Ω?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=\\dfrac{6{,}00}{71{,}9}\\). \\(U=71{,}0I\\).</p><p><strong>Svar:</strong> \\(5{,}92\\) V</p></li><li><p>\\(I=\\dfrac{6{,}00}{710{,}9}\\). \\(U=710I\\).</p><p><strong>Svar:</strong> \\(5{,}99\\) V</p></li></ol>",
+    "id": "8.398",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.924895688456188,
+      5.992403994935997
+    ],
+    "tolerans": [
+      0.0889,
+      0.0899
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "V",
+      "V"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 6,00 V och inre resistans 0,900 Ω. Hur stor är polspänningen när batteriet belastas med</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "71,0 Ω?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 6,00 V och inre resistans 0,900 Ω. Hur stor är polspänningen när batteriet belastas med</p><p>71,0 Ω?</p>",
+        "s": "<p>\\(I=\\dfrac{6{,}00}{71{,}9}\\). \\(U=71{,}0I\\).</p><p><strong>Svar:</strong> \\(5{,}92\\) V</p>",
+        "ledtrad": "<p>Strömmen går genom både yttre och inre resistans.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "710 Ω?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 6,00 V och inre resistans 0,900 Ω. Hur stor är polspänningen när batteriet belastas med</p><p>710 Ω?</p>",
+        "s": "<p>\\(I=\\dfrac{6{,}00}{710{,}9}\\). \\(U=710I\\).</p><p><strong>Svar:</strong> \\(5{,}99\\) V</p>",
+        "ledtrad": "<p>Större yttre resistans ger polspänning nära ems.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(I=\\dfrac{E}{R+R_i}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "inre resistans i ficklampa",
+    "poang": "(0/1/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Fyra likadana batterier (ems 1,5 V var) seriekopplas i en ficklampa med resistansen 12,0 Ω. Strömmen blir 0,45 A. Hur stor inre resistans har varje batteri?</p>",
+    "s": "<p>Total ems 6,0 V. \\(R_{tot}=\\dfrac{6{,}0}{0{,}45}\\approx13{,}3\\) Ω, så den inre resistansen är 1,33 Ω för fyra batterier.</p><p><strong>Svar:</strong> \\(0{,}33\\) Ω</p>",
+    "id": "8.399",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.33333333333333304,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först den totala resistansen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "typ": "bilbatteri med startmotor",
+    "poang": "(1/0/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri med ems 12,0 V har polspänningen 8,80 V när startmotorn drar 45 A. Hur stor är batteriets inre resistans?</p>",
+    "s": "<p>\\(R_i=\\dfrac{12{,}0-8{,}80}{45}\\).</p><p><strong>Svar:</strong> \\(0{,}071\\) Ω</p>",
+    "id": "8.400",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.07111111111111111,
+    "tolerans": 0.00107,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Spänningsfallet inne i batteriet.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "parallellkopplade batterier",
+    "poang": "(0/2/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två likadana batterier (ems 6,0 V, inre resistans \\(r\\)) parallellkopplas till ett motstånd på 11 Ω. Strömmen genom motståndet blir 0,50 A. Bestäm \\(r\\).</p>",
+    "s": "<p>Polspänning \\(0{,}50\\cdot11=5{,}5\\) V. Varje batteri ger 0,25 A: \\(r=\\dfrac{6{,}0-5{,}5}{0{,}25}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) Ω</p>",
+    "id": "8.401",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Batterierna delar lika på strömmen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "A",
+    "typ": "värmeelement och spänningskälla",
+    "poang": "(3/1/1)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p><ol type=\"a\"><li>Bestäm strömmen.</li><li>Bestäm polspänningen.</li><li>Hur stor är den inre resistansen?</li><li>Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=\\sqrt{\\dfrac{P}{R}}=\\sqrt{\\dfrac{8{,}0}{0{,}32}}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) A</p></li><li><p>\\(U=0{,}32\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) V</p></li><li><p>\\(R_i=\\dfrac{2{,}0-1{,}6}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}080\\) Ω</p></li><li><p>Yttre resistans 0,16 Ω: \\(I=\\dfrac{2{,}0}{0{,}24}\\). \\(P=0{,}16I^2\\).</p><p><strong>Svar:</strong> \\(11\\) W</p></li></ol>",
+    "id": "8.402",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.0,
+      1.6,
+      0.08,
+      11.111111111111112
+    ],
+    "tolerans": [
+      0.075,
+      0.051,
+      0.0012,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "A",
+      "V",
+      "Ω",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm strömmen.",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p><p>Bestäm strömmen.</p>",
+        "s": "<p>\\(I=\\sqrt{\\dfrac{P}{R}}=\\sqrt{\\dfrac{8{,}0}{0{,}32}}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) A</p>",
+        "ledtrad": "<p>\\(P=RI^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm polspänningen.",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p>Strömmen är 5,0 A.<p>Bestäm polspänningen.</p>",
+        "s": "<p>\\(U=0{,}32\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) V</p>",
+        "ledtrad": "<p>\\(U=RI\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är den inre resistansen?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p>Strömmen är 5,0 A och polspänningen 1,6 V.<p>Hur stor är den inre resistansen?</p>",
+        "s": "<p>\\(R_i=\\dfrac{2{,}0-1{,}6}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}080\\) Ω</p>",
+        "ledtrad": "<p>\\(U=E-R_iI\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p>Den inre resistansen är 0,080 Ω.<p>Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?</p>",
+        "s": "<p>Yttre resistans 0,16 Ω: \\(I=\\dfrac{2{,}0}{0{,}24}\\). \\(P=0{,}16I^2\\).</p><p><strong>Svar:</strong> \\(11\\) W</p>",
+        "ledtrad": "<p>Den inre resistansen finns kvar.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Den inre resistansen tar en del av spänningen.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "resistans och värme i batteri",
+    "poang": "(1/2/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 15,0 V. När ett motstånd \\(R\\) kopplas in sjunker polspänningen till 11,6 V, och motståndet utvecklar effekten 20 W.</p><ol type=\"a\"><li>Bestäm \\(R\\).</li><li>Hur stor är den inre resistansen?</li><li>Hur stor värmeeffekt utvecklas i batteriet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(R=\\dfrac{U^2}{P}=\\dfrac{11{,}6^2}{20}\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) Ω</p></li><li><p>\\(I=\\dfrac{11{,}6}{6{,}73}\\approx1{,}72\\) A. \\(R_i=\\dfrac{15{,}0-11{,}6}{1{,}72}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) Ω</p></li><li><p>\\(P=R_iI^2\\).</p><p><strong>Svar:</strong> \\(5{,}9\\) W</p></li></ol>",
+    "id": "8.403",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.728,
+      1.9719999999999998,
+      5.862068965517242
+    ],
+    "tolerans": [
+      0.101,
+      0.051,
+      0.0879
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "Ω",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 15,0 V. När ett motstånd \\(R\\) kopplas in sjunker polspänningen till 11,6 V, och motståndet utvecklar effekten 20 W.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(R\\).",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 15,0 V. När ett motstånd \\(R\\) kopplas in sjunker polspänningen till 11,6 V, och motståndet utvecklar effekten 20 W.</p><p>Bestäm \\(R\\).</p>",
+        "s": "<p>\\(R=\\dfrac{U^2}{P}=\\dfrac{11{,}6^2}{20}\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) Ω</p>",
+        "ledtrad": "<p>\\(P=\\dfrac{U^2}{R}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den inre resistansen?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 15,0 V. När ett motstånd \\(R\\) kopplas in sjunker polspänningen till 11,6 V, och motståndet utvecklar effekten 20 W.</p>\\(R\\approx6{,}7\\) Ω.<p>Hur stor är den inre resistansen?</p>",
+        "s": "<p>\\(I=\\dfrac{11{,}6}{6{,}73}\\approx1{,}72\\) A. \\(R_i=\\dfrac{15{,}0-11{,}6}{1{,}72}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) Ω</p>",
+        "ledtrad": "<p>Bestäm strömmen först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor värmeeffekt utvecklas i batteriet?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 15,0 V. När ett motstånd \\(R\\) kopplas in sjunker polspänningen till 11,6 V, och motståndet utvecklar effekten 20 W.</p>Strömmen är 1,72 A.<p>Hur stor värmeeffekt utvecklas i batteriet?</p>",
+        "s": "<p>\\(P=R_iI^2\\).</p><p><strong>Svar:</strong> \\(5{,}9\\) W</p>",
+        "ledtrad": "<p>\\(P=R_iI^2\\) eller \\((E-U)I\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(U=E-R_iI\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "värme i batteriet",
+    "poang": "(0/1/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med ems 12,0 V kopplas över ett motstånd på 21,0 Ω. Strömmen blir 0,500 A. Hur stor värmeeffekt utvecklas inuti batteriet?</p>",
+    "s": "<p>\\(R_{tot}=\\dfrac{12{,}0}{0{,}500}=24{,}0\\) Ω, så \\(R_i=3{,}0\\) Ω. \\(P=3{,}0\\cdot0{,}500^2\\).</p><p><strong>Svar:</strong> \\(0{,}75\\) W</p>",
+    "id": "8.404",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
+    "tolerans": 0.0112,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den inre resistansen först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "W",
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "två batterier i serie med lampa",
+    "poang": "(1/2/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två batterier med ems 1,5 V var och inre resistanserna 0,255 Ω och 0,155 Ω seriekopplas till en glödlampa. Strömmen blir 600 mA.</p><ol type=\"a\"><li>Hur stor resistans har lampan?</li><li>Hur stor andel av den totala effekten blir värme i batterierna? Svara i procent.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(R_{tot}=\\dfrac{3{,}0}{0{,}600}=5{,}0\\) Ω. \\(R=5{,}0-0{,}410\\).</p><p><strong>Svar:</strong> \\(4{,}59\\) Ω</p></li><li><p>Samma ström: andelen är \\(\\dfrac{0{,}410}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(8{,}2\\) %</p></li></ol>",
+    "id": "8.405",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.59,
+      8.2
+    ],
+    "tolerans": [
+      0.0688,
+      0.123
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två batterier med ems 1,5 V var och inre resistanserna 0,255 Ω och 0,155 Ω seriekopplas till en glödlampa. Strömmen blir 600 mA.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor resistans har lampan?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två batterier med ems 1,5 V var och inre resistanserna 0,255 Ω och 0,155 Ω seriekopplas till en glödlampa. Strömmen blir 600 mA.</p><p>Hur stor resistans har lampan?</p>",
+        "s": "<p>\\(R_{tot}=\\dfrac{3{,}0}{0{,}600}=5{,}0\\) Ω. \\(R=5{,}0-0{,}410\\).</p><p><strong>Svar:</strong> \\(4{,}59\\) Ω</p>",
+        "ledtrad": "<p>Dra av de inre resistanserna.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor andel av den totala effekten blir värme i batterierna? Svara i procent.",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två batterier med ems 1,5 V var och inre resistanserna 0,255 Ω och 0,155 Ω seriekopplas till en glödlampa. Strömmen blir 600 mA.</p><p>Hur stor andel av den totala effekten blir värme i batterierna? Svara i procent.</p>",
+        "s": "<p>Samma ström: andelen är \\(\\dfrac{0{,}410}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(8{,}2\\) %</p>",
+        "ledtrad": "<p>Effekten är proportionell mot resistansen vid samma ström.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(I=\\dfrac{E}{R+R_i}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "A",
+    "typ": "strålkastare och startmotor",
+    "poang": "(1/1/1)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri (ems 12,6 V, inre resistans 0,0800 Ω) driver strålkastare med den totala resistansen 5,00 Ω.</p><ol type=\"a\"><li>Hur stor är spänningen över lamporna?</li><li>Startmotorn kopplas in parallellt och drar 35,0 A. Hur stor blir spänningen över lamporna?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=\\dfrac{12{,}6}{5{,}08}\\). \\(U=5{,}00I\\).</p><p><strong>Svar:</strong> \\(12{,}4\\) V</p></li><li><p>\\(U=12{,}6-0{,}0800\\left(\\dfrac U{5{,}00}+35{,}0\\right)\\iff U=\\dfrac{12{,}6-2{,}80}{1{,}016}\\).</p><p><strong>Svar:</strong> \\(9{,}65\\) V</p></li></ol>",
+    "id": "8.406",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12.401574803149606,
+      9.645669291338583
+    ],
+    "tolerans": [
+      0.186,
+      0.145
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "V",
+      "V"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri (ems 12,6 V, inre resistans 0,0800 Ω) driver strålkastare med den totala resistansen 5,00 Ω.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är spänningen över lamporna?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri (ems 12,6 V, inre resistans 0,0800 Ω) driver strålkastare med den totala resistansen 5,00 Ω.</p><p>Hur stor är spänningen över lamporna?</p>",
+        "s": "<p>\\(I=\\dfrac{12{,}6}{5{,}08}\\). \\(U=5{,}00I\\).</p><p><strong>Svar:</strong> \\(12{,}4\\) V</p>",
+        "ledtrad": "<p>\\(I=\\dfrac{E}{R+R_i}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Startmotorn kopplas in parallellt och drar 35,0 A. Hur stor blir spänningen över lamporna?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri (ems 12,6 V, inre resistans 0,0800 Ω) driver strålkastare med den totala resistansen 5,00 Ω.</p><p>Startmotorn kopplas in parallellt och drar 35,0 A. Hur stor blir spänningen över lamporna?</p>",
+        "s": "<p>\\(U=12{,}6-0{,}0800\\left(\\dfrac U{5{,}00}+35{,}0\\right)\\iff U=\\dfrac{12{,}6-2{,}80}{1{,}016}\\).</p><p><strong>Svar:</strong> \\(9{,}65\\) V</p>",
+        "ledtrad": "<p>All ström går genom den inre resistansen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Stor ström ger stort spänningsfall i batteriet.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "motstånd i serie och parallellt",
+    "poang": "(0/2/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri (ems 6,0 V, inre resistans 1,2 Ω) är kopplat till ett motstånd på 5,0 Ω. Strömmen är \\(I_1\\).</p><ol type=\"a\"><li>Ett likadant motstånd seriekopplas. Den nya strömmen är \\(I_2\\). Bestäm \\(\\dfrac{I_2}{I_1}\\).</li><li>Ett likadant motstånd parallellkopplas i stället. Den nya strömmen är \\(I_3\\). Bestäm \\(\\dfrac{I_3}{I_1}\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{I_2}{I_1}=\\dfrac{6{,}2}{11{,}2}\\).</p><p><strong>Svar:</strong> \\(0{,}55\\)</p></li><li><p>Yttre resistans 2,5 Ω: \\(\\dfrac{I_3}{I_1}=\\dfrac{6{,}2}{3{,}7}\\).</p><p><strong>Svar:</strong> \\(1{,}68\\)</p></li></ol>",
+    "id": "8.407",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5535714285714286,
+      1.6756756756756757
+    ],
+    "tolerans": [
+      0.0083,
+      0.0251
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri (ems 6,0 V, inre resistans 1,2 Ω) är kopplat till ett motstånd på 5,0 Ω. Strömmen är \\(I_1\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett likadant motstånd seriekopplas. Den nya strömmen är \\(I_2\\). Bestäm \\(\\dfrac{I_2}{I_1}\\).",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri (ems 6,0 V, inre resistans 1,2 Ω) är kopplat till ett motstånd på 5,0 Ω. Strömmen är \\(I_1\\).</p><p>Ett likadant motstånd seriekopplas. Den nya strömmen är \\(I_2\\). Bestäm \\(\\dfrac{I_2}{I_1}\\).</p>",
+        "s": "<p>\\(\\dfrac{I_2}{I_1}=\\dfrac{6{,}2}{11{,}2}\\).</p><p><strong>Svar:</strong> \\(0{,}55\\)</p>",
+        "ledtrad": "<p>Strömmen är omvänt proportionell mot den totala resistansen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett likadant motstånd parallellkopplas i stället. Den nya strömmen är \\(I_3\\). Bestäm \\(\\dfrac{I_3}{I_1}\\).",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri (ems 6,0 V, inre resistans 1,2 Ω) är kopplat till ett motstånd på 5,0 Ω. Strömmen är \\(I_1\\).</p><p>Ett likadant motstånd parallellkopplas i stället. Den nya strömmen är \\(I_3\\). Bestäm \\(\\dfrac{I_3}{I_1}\\).</p>",
+        "s": "<p>Yttre resistans 2,5 Ω: \\(\\dfrac{I_3}{I_1}=\\dfrac{6{,}2}{3{,}7}\\).</p><p><strong>Svar:</strong> \\(1{,}68\\)</p>",
+        "ledtrad": "<p>Räkna med den inre resistansen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(I=\\dfrac{E}{R+R_i}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "typ": "värmehandske",
+    "poang": "(1/1/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En värmehandske har ett element på 3,6 Ω som drivs av två seriekopplade batterier med ems 1,5 V och inre resistans 0,20 Ω var. Hur stor effekt avger elementet?</p>",
+    "s": "<p>\\(I=\\dfrac{3{,}0}{3{,}6+0{,}40}=0{,}75\\) A. \\(P=3{,}6\\cdot0{,}75^2\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) W</p>",
+    "id": "8.408",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.025,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm strömmen först.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "W",
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "voltmeter med och utan last",
+    "poang": "(0/2/0)",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,8 V.</p><ol type=\"a\"><li>Bestäm \\(R\\).</li><li>Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=\\dfrac{9{,}0-7{,}8}{2{,}0}=0{,}60\\) A. \\(R=\\dfrac{7{,}8}{0{,}60}\\).</p><p><strong>Svar:</strong> \\(13\\) Ω</p></li><li><p>Yttre resistans \\(\\dfrac{13\\cdot30}{43}\\approx9{,}07\\) Ω. \\(I=\\dfrac{9{,}0}{11{,}07}\\). \\(U=9{,}0-2{,}0I\\).</p><p><strong>Svar:</strong> \\(7{,}4\\) V</p></li></ol>",
+    "id": "8.409",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ems, polspänning och inre resistans",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13,
+      7.373949579831933
+    ],
+    "tolerans": [
+      0.51,
+      0.111
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "V"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,8 V.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(R\\).",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,8 V.</p><p>Bestäm \\(R\\).</p>",
+        "s": "<p>\\(I=\\dfrac{9{,}0-7{,}8}{2{,}0}=0{,}60\\) A. \\(R=\\dfrac{7{,}8}{0{,}60}\\).</p><p><strong>Svar:</strong> \\(13\\) Ω</p>",
+        "ledtrad": "<p>Öppen brytare: voltmetern visar ems.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,8 V.</p>\\(R=13\\) Ω och ems är 9,0 V.<p>Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?</p>",
+        "s": "<p>Yttre resistans \\(\\dfrac{13\\cdot30}{43}\\approx9{,}07\\) Ω. \\(I=\\dfrac{9{,}0}{11{,}07}\\). \\(U=9{,}0-2{,}0I\\).</p><p><strong>Svar:</strong> \\(7{,}4\\) V</p>",
+        "ledtrad": "<p>Bestäm den nya yttre resistansen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Med öppen krets visar voltmetern batteriets ems.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "typ": "torktumlare och dator",
+    "poang": "(2/0/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En torktumlare kopplad till 230 V drar 16 A i 45 minuter. En dator kopplad till 120 V drar 2,7 A.</p><ol type=\"a\"><li>Hur stor energi omsätter torktumlaren?</li><li>Hur många timmar kan datorn användas för samma energi?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=UIt=230\\cdot16\\cdot2\\,700\\).</p><p><strong>Svar:</strong> \\(9{,}9\\cdot10^{6}\\) J</p></li><li><p>\\(t=\\dfrac{9{,}9\\cdot10^6}{120\\cdot2{,}7}\\) s, omräknat till timmar.</p><p><strong>Svar:</strong> \\(8{,}5\\) h</p></li></ol>",
+    "id": "8.445",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9936000,
+      8.518518518518519
+    ],
+    "tolerans": [
+      149000.0,
+      0.128
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En torktumlare kopplad till 230 V drar 16 A i 45 minuter. En dator kopplad till 120 V drar 2,7 A.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor energi omsätter torktumlaren?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En torktumlare kopplad till 230 V drar 16 A i 45 minuter. En dator kopplad till 120 V drar 2,7 A.</p><p>Hur stor energi omsätter torktumlaren?</p>",
+        "s": "<p>\\(E=UIt=230\\cdot16\\cdot2\\,700\\).</p><p><strong>Svar:</strong> \\(9{,}9\\cdot10^{6}\\) J</p>",
+        "ledtrad": "<p>\\(E=UIt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många timmar kan datorn användas för samma energi?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En torktumlare kopplad till 230 V drar 16 A i 45 minuter. En dator kopplad till 120 V drar 2,7 A.</p>Torktumlaren omsätter 9,9 MJ.<p>Hur många timmar kan datorn användas för samma energi?</p>",
+        "s": "<p>\\(t=\\dfrac{9{,}9\\cdot10^6}{120\\cdot2{,}7}\\) s, omräknat till timmar.</p><p><strong>Svar:</strong> \\(8{,}5\\) h</p>",
+        "ledtrad": "<p>Lös ut tiden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(E=UIt\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "blixtnedslag",
+    "poang": "(2/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En blixt varar i genomsnitt 0,52 s med spänningen 300 kV och strömmen 30,0 kA.</p><ol type=\"a\"><li>Hur stor effekt har blixten?</li><li>Hur stor energi omsätts vid ett nedslag?</li><li>Det slår ned 45 blixtar per sekund på jorden. Hur stor energi blir det under ett år (365,25 dygn)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(P=300\\cdot10^3\\cdot30{,}0\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(9{,}0\\cdot10^{9}\\) W</p></li><li><p>\\(E=Pt=9{,}0\\cdot10^9\\cdot0{,}52\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{9}\\) J</p></li><li><p>\\(E=45\\cdot3{,}156\\cdot10^7\\cdot4{,}7\\cdot10^9\\).</p><p><strong>Svar:</strong> \\(6{,}6\\cdot10^{18}\\) J</p></li></ol>",
+    "id": "8.446",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9000000000.0,
+      4680000000.0,
+      6.64603056e+18
+    ],
+    "tolerans": [
+      135000000.0,
+      70200000.0,
+      9.97e+16
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "W",
+      "J",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En blixt varar i genomsnitt 0,52 s med spänningen 300 kV och strömmen 30,0 kA.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor effekt har blixten?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En blixt varar i genomsnitt 0,52 s med spänningen 300 kV och strömmen 30,0 kA.</p><p>Hur stor effekt har blixten?</p>",
+        "s": "<p>\\(P=300\\cdot10^3\\cdot30{,}0\\cdot10^3\\).</p><p><strong>Svar:</strong> \\(9{,}0\\cdot10^{9}\\) W</p>",
+        "ledtrad": "<p>\\(P=UI\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor energi omsätts vid ett nedslag?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En blixt varar i genomsnitt 0,52 s med spänningen 300 kV och strömmen 30,0 kA.</p><p>Hur stor energi omsätts vid ett nedslag?</p>",
+        "s": "<p>\\(E=Pt=9{,}0\\cdot10^9\\cdot0{,}52\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{9}\\) J</p>",
+        "ledtrad": "<p>\\(E=Pt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Det slår ned 45 blixtar per sekund på jorden. Hur stor energi blir det under ett år (365,25 dygn)?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En blixt varar i genomsnitt 0,52 s med spänningen 300 kV och strömmen 30,0 kA.</p>Varje nedslag omsätter 4,7 GJ.<p>Det slår ned 45 blixtar per sekund på jorden. Hur stor energi blir det under ett år (365,25 dygn)?</p>",
+        "s": "<p>\\(E=45\\cdot3{,}156\\cdot10^7\\cdot4{,}7\\cdot10^9\\).</p><p><strong>Svar:</strong> \\(6{,}6\\cdot10^{18}\\) J</p>",
+        "ledtrad": "<p>Antal nedslag per år gånger energin per nedslag.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(P=UI\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "typ": "vattenkraftverk",
+    "poang": "(1/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett vattenkraftverk ger 1 500 hk (1 hk = 736 W) mekanisk effekt till en generator med verkningsgraden 80 %. Hur stor ström ger generatorn vid 2,00 kV?</p>",
+    "s": "<p>\\(P_{el}=0{,}80\\cdot1\\,500\\cdot736\\). \\(I=\\dfrac{P}{U}\\).</p><p><strong>Svar:</strong> \\(442\\) A</p>",
+    "id": "8.447",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 441.6,
+    "tolerans": 6.62,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den elektriska effekten.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "typ": "kostnad för lampa",
+    "poang": "(1/0/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En lampa drar 1,70 A vid 230 V. Vad kostar det att ha den tänd ett dygn om elpriset är 2,00 kr/kWh?</p>",
+    "s": "<p>\\(P=230\\cdot1{,}70=391\\) W. \\(E=0{,}391\\cdot24\\) kWh. Kostnad: \\(2{,}00E\\).</p><p><strong>Svar:</strong> \\(18{,}8\\) kr</p>",
+    "id": "8.448",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.768,
+    "tolerans": 0.282,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna energin i kWh.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kr",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "typ": "energi i bilbatteri",
+    "poang": "(2/0/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett fulladdat batteri rymmer 55,0 Ah och har spänningen 12,0 V.</p><ol type=\"a\"><li>Hur stor energi är lagrad? Svara i kWh.</li><li>Hur länge räcker det med två strålkastare på 36,0 W var?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=12{,}0\\cdot55{,}0\\) Wh.</p><p><strong>Svar:</strong> \\(0{,}66\\) kWh</p></li><li><p>\\(t=\\dfrac{660\\text{ Wh}}{72{,}0\\text{ W}}\\).</p><p><strong>Svar:</strong> \\(9{,}2\\) h</p></li></ol>",
+    "id": "8.449",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.66,
+      9.166666666666666
+    ],
+    "tolerans": [
+      0.0099,
+      0.137
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kWh",
+      "h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett fulladdat batteri rymmer 55,0 Ah och har spänningen 12,0 V.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor energi är lagrad? Svara i kWh.",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett fulladdat batteri rymmer 55,0 Ah och har spänningen 12,0 V.</p><p>Hur stor energi är lagrad? Svara i kWh.</p>",
+        "s": "<p>\\(E=12{,}0\\cdot55{,}0\\) Wh.</p><p><strong>Svar:</strong> \\(0{,}66\\) kWh</p>",
+        "ledtrad": "<p>\\(E=UQ\\) med \\(Q\\) i Ah ger Wh.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur länge räcker det med två strålkastare på 36,0 W var?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett fulladdat batteri rymmer 55,0 Ah och har spänningen 12,0 V.</p>Batteriet lagrar 660 Wh.<p>Hur länge räcker det med två strålkastare på 36,0 W var?</p>",
+        "s": "<p>\\(t=\\dfrac{660\\text{ Wh}}{72{,}0\\text{ W}}\\).</p><p><strong>Svar:</strong> \\(9{,}2\\) h</p>",
+        "ledtrad": "<p>\\(t=\\dfrac EP\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Ah är en laddningsenhet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "byta till LED-lampa",
+    "poang": "(0/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En glödlampa drar 0,26 A vid 230 V och är tänd 4,0 h per dag. Hur mycket sparar man på ett år (365 dygn) genom att byta till en LED-lampa på 9,0 W om elpriset är 2,00 kr/kWh?</p>",
+    "s": "<p>Effektskillnad: \\(230\\cdot0{,}26-9{,}0\\approx50{,}8\\) W. Energi: \\(50{,}8\\cdot4{,}0\\cdot365\\) Wh. Kostnad: \\(2{,}00\\) kr per kWh.</p><p><strong>Svar:</strong> \\(148\\) kr</p>",
+    "id": "8.450",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 148.336,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna med effektskillnaden.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kr",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "kaffebryggare",
+    "poang": "(1/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En kaffebryggare har strömmen 1,10 A vid 230 V. Hur lång tid tar det att värma 475 g vatten från 32 °C till 100 °C om all energi går till vattnet?</p>",
+    "s": "<p>\\(Q=0{,}475\\cdot4\\,180\\cdot68\\). \\(P=230\\cdot1{,}10\\). \\(t=\\dfrac QP\\).</p><p><strong>Svar:</strong> \\(534\\) s</p>",
+    "id": "8.451",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 533.6521739130434,
+    "tolerans": 8.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Värmeenergi delat med effekt.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "laddningsbart batteri",
+    "poang": "(0/2/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett laddningsbart batteri (15,0 g) ger 18,0 mA vid 1,60 V i 2,40 h. Laddaren ger 13,5 mA vid 2,30 V i 4,20 h.</p><ol type=\"a\"><li>Hur stor andel av den tillförda energin lagras? Svara i procent.</li><li>Batteriet har specifika värmekapaciteten 975 J/(kg·K). Hur mycket blir det varmare om den förlorade energin värmer batteriet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Ut: \\(1{,}60\\cdot0{,}0180\\cdot2{,}40\\cdot3\\,600\\). In: \\(2{,}30\\cdot0{,}0135\\cdot4{,}20\\cdot3\\,600\\).</p><p><strong>Svar:</strong> \\(53\\) %</p></li><li><p>Förlust: \\(469-249\\approx221\\) J. \\(\\Delta T=\\dfrac{221}{0{,}0150\\cdot975}\\).</p><p><strong>Svar:</strong> \\(15\\) K</p></li></ol>",
+    "id": "8.452",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      53.002070393374744,
+      15.08676923076923
+    ],
+    "tolerans": [
+      0.795,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "%",
+      "K"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett laddningsbart batteri (15,0 g) ger 18,0 mA vid 1,60 V i 2,40 h. Laddaren ger 13,5 mA vid 2,30 V i 4,20 h.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor andel av den tillförda energin lagras? Svara i procent.",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett laddningsbart batteri (15,0 g) ger 18,0 mA vid 1,60 V i 2,40 h. Laddaren ger 13,5 mA vid 2,30 V i 4,20 h.</p><p>Hur stor andel av den tillförda energin lagras? Svara i procent.</p>",
+        "s": "<p>Ut: \\(1{,}60\\cdot0{,}0180\\cdot2{,}40\\cdot3\\,600\\). In: \\(2{,}30\\cdot0{,}0135\\cdot4{,}20\\cdot3\\,600\\).</p><p><strong>Svar:</strong> \\(53\\) %</p>",
+        "ledtrad": "<p>Jämför energierna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Batteriet har specifika värmekapaciteten 975 J/(kg·K). Hur mycket blir det varmare om den förlorade energin värmer batteriet?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett laddningsbart batteri (15,0 g) ger 18,0 mA vid 1,60 V i 2,40 h. Laddaren ger 13,5 mA vid 2,30 V i 4,20 h.</p><p>Batteriet har specifika värmekapaciteten 975 J/(kg·K). Hur mycket blir det varmare om den förlorade energin värmer batteriet?</p>",
+        "s": "<p>Förlust: \\(469-249\\approx221\\) J. \\(\\Delta T=\\dfrac{221}{0{,}0150\\cdot975}\\).</p><p><strong>Svar:</strong> \\(15\\) K</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E=UIt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "typ": "laddning genom elbilsbatteri",
+    "poang": "(1/0/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett elbilsbatteri lagrar 16 kWh och arbetar vid 340 V. Hur stor laddning passerar till dess att det är urladdat?</p>",
+    "s": "<p>\\(Q=\\dfrac{E}{U}=\\dfrac{16\\cdot3{,}6\\cdot10^6}{340}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\cdot10^{5}\\) C</p>",
+    "id": "8.453",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 169411.76470588235,
+    "tolerans": 5100.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E=QU\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "C",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "avfrostning av bakruta",
+    "poang": "(0/2/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En bakruta (0,52 m²) är täckt av is vid 0 °C. Värmetrådarna drivs med 12 V och 23 A. Isens smältvärme är 334 kJ/kg och densitet 917 kg/m³. Hur tjock kan isen högst vara för att smälta på 3,0 min?</p>",
+    "s": "<p>\\(E=12\\cdot23\\cdot180\\). \\(m=\\dfrac{E}{334\\cdot10^3}\\). Tjocklek: \\(\\dfrac{m}{917\\cdot0{,}52}\\).</p><p><strong>Svar:</strong> \\(0{,}00031\\) m</p>",
+    "id": "8.454",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0003119338037288396,
+    "tolerans": 5.1e-06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Energi, massa, volym och sedan tjocklek.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "kylvatten till elektromagnet",
+    "poang": "(0/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En elektromagnet drivs med 240 V och 21,5 A och kyls med vatten. Hur mycket vatten måste passera per minut för att vattnet ska värmas högst 6,50 °C?</p>",
+    "s": "<p>\\(E=240\\cdot21{,}5\\cdot60\\) per minut. \\(m=\\dfrac{E}{4\\,180\\cdot6{,}50}\\).</p><p><strong>Svar:</strong> \\(11\\) kg</p>",
+    "id": "8.455",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.394920868605078,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>All elenergi blir värme i vattnet.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "typ": "kraftledning och transformering",
+    "poang": "(2/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En kraftstation levererar 750 kW vid 12 000 V via ledningar med den totala resistansen 3,0 Ω.</p><ol type=\"a\"><li>Hur stor effekt förloras i ledningarna?</li><li>Spänningen höjs till 50 000 V. Hur stor blir förlusten nu?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=\\dfrac{750\\cdot10^3}{12\\,000}=62{,}5\\) A. \\(P=RI^2\\).</p><p><strong>Svar:</strong> \\(11\\,719\\) W</p></li><li><p>\\(I=15\\) A. \\(P=3{,}0\\cdot15^2\\).</p><p><strong>Svar:</strong> \\(675\\) W</p></li></ol>",
+    "id": "8.456",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11718.75,
+      675
+    ],
+    "tolerans": [
+      510.0,
+      10.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "W"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En kraftstation levererar 750 kW vid 12 000 V via ledningar med den totala resistansen 3,0 Ω.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor effekt förloras i ledningarna?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En kraftstation levererar 750 kW vid 12 000 V via ledningar med den totala resistansen 3,0 Ω.</p><p>Hur stor effekt förloras i ledningarna?</p>",
+        "s": "<p>\\(I=\\dfrac{750\\cdot10^3}{12\\,000}=62{,}5\\) A. \\(P=RI^2\\).</p><p><strong>Svar:</strong> \\(11\\,719\\) W</p>",
+        "ledtrad": "<p>Bestäm strömmen först.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Spänningen höjs till 50 000 V. Hur stor blir förlusten nu?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En kraftstation levererar 750 kW vid 12 000 V via ledningar med den totala resistansen 3,0 Ω.</p><p>Spänningen höjs till 50 000 V. Hur stor blir förlusten nu?</p>",
+        "s": "<p>\\(I=15\\) A. \\(P=3{,}0\\cdot15^2\\).</p><p><strong>Svar:</strong> \\(675\\) W</p>",
+        "ledtrad": "<p>Högre spänning ger lägre ström.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Förlusten är \\(RI^2\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "vattenkokare i husvagn",
+    "poang": "(0/2/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En vattenkokare för 12 V värmer 120 g vatten från 25 °C till 95 °C på 8,0 min med verkningsgraden 85 %. Hur stor ström drar den?</p>",
+    "s": "<p>\\(Q=0{,}120\\cdot4\\,180\\cdot70\\). Tillförd energi \\(\\dfrac{Q}{0{,}85}\\). \\(I=\\dfrac{E}{Ut}\\).</p><p><strong>Svar:</strong> \\(7{,}2\\) A</p>",
+    "id": "8.457",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.171568627450981,
+    "tolerans": 0.108,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna med verkningsgraden.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "A",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "doppvärmare",
+    "poang": "(1/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En doppvärmare (100 Ω) kopplas till 230 V. Hur lång tid tar det att värma 0,50 kg vatten från 20 °C till 100 °C om all värme går till vattnet?</p>",
+    "s": "<p>\\(P=\\dfrac{230^2}{100}\\). \\(Q=0{,}50\\cdot4\\,180\\cdot80\\). \\(t=\\dfrac QP\\).</p><p><strong>Svar:</strong> \\(316\\) s</p>",
+    "id": "8.458",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 316.0680529300567,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=\\dfrac{U^2}R\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "varmvattenberedare",
+    "poang": "(0/2/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare värmer 109 kg vatten från 20,0 °C till 49,0 °C på 25,0 min vid 230 V. Hur stor resistans har värmeelementet?</p>",
+    "s": "<p>\\(P=\\dfrac{109\\cdot4\\,180\\cdot29{,}0}{1\\,500}\\). \\(R=\\dfrac{U^2}{P}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) Ω</p>",
+    "id": "8.459",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.005458269065722,
+    "tolerans": 0.0901,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm effekten först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Ω",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "varmkorv",
+    "poang": "(1/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>I en varmkorvmaskin sitter ett värmeelement med resistansen 900 Ω kopplat till 230 V. Hur lång tid tar det att värma en korv (60 g, specifik värmekapacitet 2,5 kJ/(kg·K)) från 8,0 °C till 80 °C?</p>",
+    "s": "<p>\\(Q=0{,}060\\cdot2\\,500\\cdot72\\). \\(P=\\dfrac{230^2}{900}\\). \\(t=\\dfrac QP\\).</p><p><strong>Svar:</strong> \\(184\\) s</p>",
+    "id": "8.460",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 183.74291115311908,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=\\dfrac{U^2}R\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "förluster i sladd",
+    "poang": "(0/2/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En luftkonditionering drivs med 220 V och 18 A. Sladden har två kopparledare, var och en 3,5 m lång med diametern 1,628 mm.</p><ol type=\"a\"><li>Hur stor effekt utvecklas i sladden?</li><li>Apparaten används 12 h per dag i 30 dygn. Vad kostar förlusten i sladden vid 2,00 kr/kWh?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Ledarlängd 7,0 m: \\(R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot0{,}814\\cdot10^{-3\\,2}}\\). \\(P=RI^2\\).</p><p><strong>Svar:</strong> \\(19\\) W</p></li><li><p>\\(E=P\\cdot12\\cdot30\\) Wh. Kostnad \\(2{,}00\\) kr per kWh.</p><p><strong>Svar:</strong> \\(13\\) kr</p></li></ol>",
+    "id": "8.461",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18.522230698196534,
+      13.336006102701504
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "W",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En luftkonditionering drivs med 220 V och 18 A. Sladden har två kopparledare, var och en 3,5 m lång med diametern 1,628 mm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor effekt utvecklas i sladden?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En luftkonditionering drivs med 220 V och 18 A. Sladden har två kopparledare, var och en 3,5 m lång med diametern 1,628 mm.</p><p>Hur stor effekt utvecklas i sladden?</p>",
+        "s": "<p>Ledarlängd 7,0 m: \\(R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot0{,}814\\cdot10^{-3\\,2}}\\). \\(P=RI^2\\).</p><p><strong>Svar:</strong> \\(19\\) W</p>",
+        "ledtrad": "<p>Strömmen går fram och tillbaka.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Apparaten används 12 h per dag i 30 dygn. Vad kostar förlusten i sladden vid 2,00 kr/kWh?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En luftkonditionering drivs med 220 V och 18 A. Sladden har två kopparledare, var och en 3,5 m lång med diametern 1,628 mm.</p>Förlusteffekten är 18,5 W.<p>Apparaten används 12 h per dag i 30 dygn. Vad kostar förlusten i sladden vid 2,00 kr/kWh?</p>",
+        "s": "<p>\\(E=P\\cdot12\\cdot30\\) Wh. Kostnad \\(2{,}00\\) kr per kWh.</p><p><strong>Svar:</strong> \\(13\\) kr</p>",
+        "ledtrad": "<p>Räkna energin i kWh.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Förlusten är \\(RI^2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "avfrostning av frys",
+    "poang": "(1/1/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En avfrostningstråd i en frys kopplas till 230 V och har strömmen 1,50 A. Isens specifika värmekapacitet är 2,1 kJ/(kg·K) och smältvärmet 334 kJ/kg.</p><ol type=\"a\"><li>Hur stor resistans har tråden?</li><li>Hur lång tid tar det att smälta 720 g is som håller −18 °C?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(R=\\dfrac{230}{1{,}50}\\).</p><p><strong>Svar:</strong> \\(153\\) Ω</p></li><li><p>\\(Q=0{,}720(2\\,100\\cdot18+334\\,000)\\). \\(t=\\dfrac{Q}{230\\cdot1{,}50}\\).</p><p><strong>Svar:</strong> \\(776\\) s</p></li></ol>",
+    "id": "8.462",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      153.33333333333334,
+      775.9304347826087
+    ],
+    "tolerans": [
+      2.3,
+      11.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En avfrostningstråd i en frys kopplas till 230 V och har strömmen 1,50 A. Isens specifika värmekapacitet är 2,1 kJ/(kg·K) och smältvärmet 334 kJ/kg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor resistans har tråden?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En avfrostningstråd i en frys kopplas till 230 V och har strömmen 1,50 A. Isens specifika värmekapacitet är 2,1 kJ/(kg·K) och smältvärmet 334 kJ/kg.</p><p>Hur stor resistans har tråden?</p>",
+        "s": "<p>\\(R=\\dfrac{230}{1{,}50}\\).</p><p><strong>Svar:</strong> \\(153\\) Ω</p>",
+        "ledtrad": "<p>Ohms lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det att smälta 720 g is som håller −18 °C?",
+        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En avfrostningstråd i en frys kopplas till 230 V och har strömmen 1,50 A. Isens specifika värmekapacitet är 2,1 kJ/(kg·K) och smältvärmet 334 kJ/kg.</p><p>Hur lång tid tar det att smälta 720 g is som håller −18 °C?</p>",
+        "s": "<p>\\(Q=0{,}720(2\\,100\\cdot18+334\\,000)\\). \\(t=\\dfrac{Q}{230\\cdot1{,}50}\\).</p><p><strong>Svar:</strong> \\(776\\) s</p>",
+        "ledtrad": "<p>Värm isen till 0 °C och smält den.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E=Pt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "typ": "värmefilt med koppartråd",
+    "poang": "(0/2/0)",
+    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En värmefilt ska avge 18 W från ett batteri på 1,5 V med en koppartråd med diametern 0,50 mm. Hur lång ska tråden vara?</p>",
+    "s": "<p>\\(R=\\dfrac{U^2}{P}=\\dfrac{1{,}5^2}{18}\\). \\(l=\\dfrac{RA}{\\rho}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) m</p>",
+    "id": "8.463",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk effekt och energi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.443746623892368,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm resistansen först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "3.180",
@@ -129570,6 +132368,389 @@ window.BANK = [
       "A",
       "%"
     ]
+  },
+  {
+    "kap": 8,
+    "omr": "strom",
+    "niva": "E",
+    "typ": "elektroner genom ledare",
+    "poang": "(3/0/0)",
+    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Strömmen är laddning per tid: \\(I=\\dfrac{Q}{t}\\).</p><ol type=\"a\"><li>Hur många elektroner per sekund passerar ett tvärsnitt när strömmen är 1,60 A?</li><li>En laddstation laddar med 6,7 A i 5,0 h. Hur stor laddning passerar?</li><li>1 200 natriumjoner (+e) passerar ett cellmembran på 3,7 µs. Hur stor ström motsvarar det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(n=\\dfrac{1{,}60}{1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(9{,}99\\cdot10^{18}\\)</p></li><li><p>\\(Q=6{,}7\\cdot5{,}0\\cdot3\\,600\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{5}\\) C</p></li><li><p>\\(I=\\dfrac{1\\,200\\cdot1{,}602\\cdot10^{-19}}{3{,}7\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(5{,}2\\cdot10^{-11}\\) A</p></li></ol>",
+    "id": "8.464",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ström och laddning i kretsar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.987515605493133e+18,
+      120600.0,
+      5.195675675675675e-11
+    ],
+    "tolerans": [
+      1.5e+17,
+      5100.0,
+      7.79e-13
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "C",
+      "A"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Strömmen är laddning per tid: \\(I=\\dfrac{Q}{t}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många elektroner per sekund passerar ett tvärsnitt när strömmen är 1,60 A?",
+        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Strömmen är laddning per tid: \\(I=\\dfrac{Q}{t}\\).</p><p>Hur många elektroner per sekund passerar ett tvärsnitt när strömmen är 1,60 A?</p>",
+        "s": "<p>\\(n=\\dfrac{1{,}60}{1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(9{,}99\\cdot10^{18}\\)</p>",
+        "ledtrad": "<p>\\(Q=ne\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En laddstation laddar med 6,7 A i 5,0 h. Hur stor laddning passerar?",
+        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Strömmen är laddning per tid: \\(I=\\dfrac{Q}{t}\\).</p><p>En laddstation laddar med 6,7 A i 5,0 h. Hur stor laddning passerar?</p>",
+        "s": "<p>\\(Q=6{,}7\\cdot5{,}0\\cdot3\\,600\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{5}\\) C</p>",
+        "ledtrad": "<p>\\(Q=It\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "1 200 natriumjoner (+e) passerar ett cellmembran på 3,7 µs. Hur stor ström motsvarar det?",
+        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Strömmen är laddning per tid: \\(I=\\dfrac{Q}{t}\\).</p><p>1 200 natriumjoner (+e) passerar ett cellmembran på 3,7 µs. Hur stor ström motsvarar det?</p>",
+        "s": "<p>\\(I=\\dfrac{1\\,200\\cdot1{,}602\\cdot10^{-19}}{3{,}7\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(5{,}2\\cdot10^{-11}\\) A</p>",
+        "ledtrad": "<p>\\(I=\\dfrac{ne}t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=It=ne\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "strom__strom_och_laddning_i_kretsar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "strom",
+    "niva": "E",
+    "typ": "laddning i batterier",
+    "poang": "(3/0/0)",
+    "t": "<p>1 Ah är laddningen som passerar på en timme vid strömmen 1 A.</p><ol type=\"a\"><li>Hur stor laddning finns i ett bilbatteri märkt 90 Ah?</li><li>Lamporna glöms på och batteriet är tomt efter 24 h. Hur stor ström drog lamporna?</li><li>Ett mobilbatteri är märkt 2 100 mAh och räcker 2 dygn i viloläge. Hur stor ström drar telefonen då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=90\\cdot3\\,600\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{5}\\) C</p></li><li><p>\\(I=\\dfrac{90}{24}\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) A</p></li><li><p>\\(I=\\dfrac{2\\,100}{48}\\) mA.</p><p><strong>Svar:</strong> \\(0{,}044\\) A</p></li></ol>",
+    "id": "8.465",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ström och laddning i kretsar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      324000,
+      3.75,
+      0.043750000000000004
+    ],
+    "tolerans": [
+      5100.0,
+      0.0562,
+      0.000656
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "C",
+      "A",
+      "A"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>1 Ah är laddningen som passerar på en timme vid strömmen 1 A.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor laddning finns i ett bilbatteri märkt 90 Ah?",
+        "t": "<p>1 Ah är laddningen som passerar på en timme vid strömmen 1 A.</p><p>Hur stor laddning finns i ett bilbatteri märkt 90 Ah?</p>",
+        "s": "<p>\\(Q=90\\cdot3\\,600\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{5}\\) C</p>",
+        "ledtrad": "<p>Omvandla timmar till sekunder.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Lamporna glöms på och batteriet är tomt efter 24 h. Hur stor ström drog lamporna?",
+        "t": "<p>1 Ah är laddningen som passerar på en timme vid strömmen 1 A.</p><p>Lamporna glöms på och batteriet är tomt efter 24 h. Hur stor ström drog lamporna?</p>",
+        "s": "<p>\\(I=\\dfrac{90}{24}\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) A</p>",
+        "ledtrad": "<p>\\(I=\\dfrac Qt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett mobilbatteri är märkt 2 100 mAh och räcker 2 dygn i viloläge. Hur stor ström drar telefonen då?",
+        "t": "<p>1 Ah är laddningen som passerar på en timme vid strömmen 1 A.</p><p>Ett mobilbatteri är märkt 2 100 mAh och räcker 2 dygn i viloläge. Hur stor ström drar telefonen då?</p>",
+        "s": "<p>\\(I=\\dfrac{2\\,100}{48}\\) mA.</p><p><strong>Svar:</strong> \\(0{,}044\\) A</p>",
+        "ledtrad": "<p>\\(I=\\dfrac Qt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=It\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "strom__strom_och_laddning_i_kretsar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "strom",
+    "niva": "E",
+    "typ": "blixturladdning",
+    "poang": "(1/0/0)",
+    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Vid ett blixtnedslag passerar 2,5 C på 0,20 ms. Hur stor ström motsvarar det?</p>",
+    "s": "<p>\\(I=\\dfrac{2{,}5}{0{,}20\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(12\\,500\\) A</p>",
+    "id": "8.466",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ström och laddning i kretsar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12500.0,
+    "tolerans": 510.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(I=\\dfrac Qt\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "A",
+    "familjNyckel": "strom__strom_och_laddning_i_kretsar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "strom",
+    "niva": "C",
+    "typ": "gnista från bandgenerator",
+    "poang": "(0/1/0)",
+    "t": "<p>Kulan på en bandgenerator har laddningen \\(6{,}0\\cdot10^{-7}\\) C. En gnista varar i 40 µs, och efteråt finns 13 % av laddningen kvar. Hur stor var medelströmmen?</p>",
+    "s": "<p>\\(I=\\dfrac{0{,}87\\cdot6{,}0\\cdot10^{-7}}{40\\cdot10^{-6}}\\).</p><p><strong>Svar:</strong> \\(0{,}013\\) A</p>",
+    "id": "8.467",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ström och laddning i kretsar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.013049999999999997,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur stor laddning passerade?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "A",
+    "familjNyckel": "strom__strom_och_laddning_i_kretsar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "strom",
+    "niva": "C",
+    "typ": "joner åt båda hållen",
+    "poang": "(0/1/1)",
+    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>I en jonlösning vandrar varje sekund \\(5{,}0\\cdot10^{15}\\) joner med laddningen +2e åt höger och \\(6{,}0\\cdot10^{15}\\) joner med laddningen −e åt vänster. Hur stor är strömmen?</p>",
+    "s": "<p>Negativa laddningar åt vänster ger ström åt höger. Båda bidragen adderas: \\(I=(2\\cdot5{,}0+6{,}0)\\cdot10^{15}\\cdot1{,}602\\cdot10^{-19}\\), åt höger.</p><p><strong>Svar:</strong> \\(0{,}0026\\) A</p>",
+    "id": "8.468",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ström och laddning i kretsar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0025632,
+    "tolerans": 5.1e-05,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken riktning har strömmen från de negativa jonerna?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "A",
+    "familjNyckel": "strom__strom_och_laddning_i_kretsar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "strom",
+    "niva": "C",
+    "typ": "ström i lysrör",
+    "poang": "(0/1/1)",
+    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>I ett lysrör passerar varje sekund \\(3{,}8\\cdot10^{16}\\) elektroner åt ena hållet och \\(1{,}2\\cdot10^{16}\\) envärt positiva joner åt andra hållet genom ett tvärsnitt. Hur stor är strömmen?</p>",
+    "s": "<p>Båda bidragen ger ström åt samma håll: \\(I=(3{,}8+1{,}2)\\cdot10^{16}\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(0{,}0080\\) A</p>",
+    "id": "8.469",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ström och laddning i kretsar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.00801,
+    "tolerans": 0.00012,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Elektroner åt ett håll och positiva joner åt andra hållet ger ström åt samma håll.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "A",
+    "familjNyckel": "strom__strom_och_laddning_i_kretsar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "strom",
+    "niva": "C",
+    "typ": "protonstråle värmer aluminium",
+    "poang": "(1/1/0)",
+    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En protonstråle motsvarar strömmen 0,50 µA och träffar ett strålmål av aluminium (15 g, specifik värmekapacitet 900 J/(kg·K)).</p><ol type=\"a\"><li>Hur många protoner träffar målet på 15 s?</li><li>Varje proton har energin \\(4{,}9\\cdot10^{-12}\\) J som blir värme i målet. Hur mycket varmare blir målet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(n=\\dfrac{0{,}50\\cdot10^{-6}\\cdot15}{1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{13}\\)</p></li><li><p>\\(E=4{,}7\\cdot10^{13}\\cdot4{,}9\\cdot10^{-12}\\). \\(\\Delta T=\\dfrac{E}{0{,}015\\cdot900}\\).</p><p><strong>Svar:</strong> \\(17\\) K</p></li></ol>",
+    "id": "8.470",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ström och laddning i kretsar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      46816479400749.06,
+      16.9926480787904
+    ],
+    "tolerans": [
+      702000000000.0,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "K"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En protonstråle motsvarar strömmen 0,50 µA och träffar ett strålmål av aluminium (15 g, specifik värmekapacitet 900 J/(kg·K)).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många protoner träffar målet på 15 s?",
+        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En protonstråle motsvarar strömmen 0,50 µA och träffar ett strålmål av aluminium (15 g, specifik värmekapacitet 900 J/(kg·K)).</p><p>Hur många protoner träffar målet på 15 s?</p>",
+        "s": "<p>\\(n=\\dfrac{0{,}50\\cdot10^{-6}\\cdot15}{1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{13}\\)</p>",
+        "ledtrad": "<p>\\(Q=It=ne\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Varje proton har energin \\(4{,}9\\cdot10^{-12}\\) J som blir värme i målet. Hur mycket varmare blir målet?",
+        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En protonstråle motsvarar strömmen 0,50 µA och träffar ett strålmål av aluminium (15 g, specifik värmekapacitet 900 J/(kg·K)).</p>Målet träffas av \\(4{,}7\\cdot10^{13}\\) protoner.<p>Varje proton har energin \\(4{,}9\\cdot10^{-12}\\) J som blir värme i målet. Hur mycket varmare blir målet?</p>",
+        "s": "<p>\\(E=4{,}7\\cdot10^{13}\\cdot4{,}9\\cdot10^{-12}\\). \\(\\Delta T=\\dfrac{E}{0{,}015\\cdot900}\\).</p><p><strong>Svar:</strong> \\(17\\) K</p>",
+        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(Q=It\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "strom__strom_och_laddning_i_kretsar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "strom",
+    "niva": "A",
+    "typ": "elektroner i ringaccelerator",
+    "poang": "(0/1/1)",
+    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>\\(9{,}5\\cdot10^{10}\\) elektroner färdas runt en cirkulär bana med diametern 20 km med farten \\(0{,}999c\\) (\\(c=2{,}998\\cdot10^8\\) m/s). Vilken ström motsvarar det?</p>",
+    "s": "<p>Ett varv tar \\(T=\\dfrac{\\pi\\cdot20\\,000}{0{,}999c}\\). \\(I=\\dfrac{9{,}5\\cdot10^{10}\\cdot1{,}602\\cdot10^{-19}}{T}\\).</p><p><strong>Svar:</strong> \\(7{,}3\\cdot10^{-5}\\) A</p>",
+    "id": "8.471",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ström och laddning i kretsar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.254431185710245e-05,
+    "tolerans": 1.09e-06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hela laddningen passerar en punkt en gång per varv.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "A",
+    "familjNyckel": "strom__strom_och_laddning_i_kretsar",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "9.261",

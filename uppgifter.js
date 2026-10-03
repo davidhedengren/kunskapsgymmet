@@ -35202,6 +35202,1030 @@ window.BANK = [
     ]
   },
   {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "E",
+    "typ": "gravitationskraft mellan vardagsföremål",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm gravitationskraften mellan</p><ol type=\"a\"><li>två boxare (75 kg och 86 kg) på avståndet 3,50 m.</li><li>två blyklot (25 kg och 40 kg) vars tyngdpunkter är 45 cm från varandra.</li><li>en astronaut (120 kg) och ett rymdskepp (32 ton) på avståndet 13,0 m.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{75\\cdot86}{3{,}50^2}\\).</p><p><strong>Svar:</strong> \\(3{,}5\\cdot10^{-8}\\) N</p></li><li><p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{25\\cdot40}{0{,}45^2}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\cdot10^{-7}\\) N</p></li><li><p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{120\\cdot32\\cdot10^3}{13{,}0^2}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{-6}\\) N</p></li></ol>",
+    "id": "4.735",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gravitationslagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.511959183673469e-08,
+      3.293827160493827e-07,
+      1.5155502958579882e-06
+    ],
+    "tolerans": [
+      5.27e-10,
+      5.1e-09,
+      5.1e-08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm gravitationskraften mellan</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "två boxare (75 kg och 86 kg) på avståndet 3,50 m.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm gravitationskraften mellan</p><p>två boxare (75 kg och 86 kg) på avståndet 3,50 m.</p>",
+        "s": "<p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{75\\cdot86}{3{,}50^2}\\).</p><p><strong>Svar:</strong> \\(3{,}5\\cdot10^{-8}\\) N</p>",
+        "ledtrad": "<p>\\(F=G\\dfrac{m_1m_2}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "två blyklot (25 kg och 40 kg) vars tyngdpunkter är 45 cm från varandra.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm gravitationskraften mellan</p><p>två blyklot (25 kg och 40 kg) vars tyngdpunkter är 45 cm från varandra.</p>",
+        "s": "<p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{25\\cdot40}{0{,}45^2}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\cdot10^{-7}\\) N</p>",
+        "ledtrad": "<p>\\(F=G\\dfrac{m_1m_2}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "en astronaut (120 kg) och ett rymdskepp (32 ton) på avståndet 13,0 m.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm gravitationskraften mellan</p><p>en astronaut (120 kg) och ett rymdskepp (32 ton) på avståndet 13,0 m.</p>",
+        "s": "<p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{120\\cdot32\\cdot10^3}{13{,}0^2}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{-6}\\) N</p>",
+        "ledtrad": "<p>\\(F=G\\dfrac{m_1m_2}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Avståndet räknas mellan tyngdpunkterna.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "gravitation__gravitationslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "E",
+    "typ": "gravitationskraft i stor och liten skala",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm gravitationskraften</p><ol type=\"a\"><li>mellan två stjärnor (\\(2{,}3\\cdot10^{30}\\) kg och \\(6{,}8\\cdot10^{30}\\) kg) på avståndet \\(8{,}8\\cdot10^{11}\\) m.</li><li>mellan protonen (\\(1{,}67\\cdot10^{-27}\\) kg) och elektronen (\\(9{,}11\\cdot10^{-31}\\) kg) i en väteatom, på avståndet \\(5{,}3\\cdot10^{-11}\\) m.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{2{,}3\\cdot10^{30}\\cdot6{,}8\\cdot10^{30}}{(8{,}8\\cdot10^{11})^2}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{27}\\) N</p></li><li><p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{1{,}67\\cdot10^{-27}\\cdot9{,}11\\cdot10^{-31}}{(5{,}3\\cdot10^{-11})^2}\\).</p><p><strong>Svar:</strong> \\(3{,}6\\cdot10^{-47}\\) N</p></li></ol>",
+    "id": "4.736",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gravitationslagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.3470919421487604e+27,
+      3.612509042363831e-47
+    ],
+    "tolerans": [
+      5.1e+25,
+      5.42e-49
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm gravitationskraften</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "mellan två stjärnor (\\(2{,}3\\cdot10^{30}\\) kg och \\(6{,}8\\cdot10^{30}\\) kg) på avståndet \\(8{,}8\\cdot10^{11}\\) m.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm gravitationskraften</p><p>mellan två stjärnor (\\(2{,}3\\cdot10^{30}\\) kg och \\(6{,}8\\cdot10^{30}\\) kg) på avståndet \\(8{,}8\\cdot10^{11}\\) m.</p>",
+        "s": "<p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{2{,}3\\cdot10^{30}\\cdot6{,}8\\cdot10^{30}}{(8{,}8\\cdot10^{11})^2}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{27}\\) N</p>",
+        "ledtrad": "<p>\\(F=G\\dfrac{m_1m_2}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "mellan protonen (\\(1{,}67\\cdot10^{-27}\\) kg) och elektronen (\\(9{,}11\\cdot10^{-31}\\) kg) i en väteatom, på avståndet \\(5{,}3\\cdot10^{-11}\\) m.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm gravitationskraften</p><p>mellan protonen (\\(1{,}67\\cdot10^{-27}\\) kg) och elektronen (\\(9{,}11\\cdot10^{-31}\\) kg) i en väteatom, på avståndet \\(5{,}3\\cdot10^{-11}\\) m.</p>",
+        "s": "<p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{1{,}67\\cdot10^{-27}\\cdot9{,}11\\cdot10^{-31}}{(5{,}3\\cdot10^{-11})^2}\\).</p><p><strong>Svar:</strong> \\(3{,}6\\cdot10^{-47}\\) N</p>",
+        "ledtrad": "<p>\\(F=G\\dfrac{m_1m_2}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Räkna med tiopotenser.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "gravitation__gravitationslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "E",
+    "typ": "avstånd ur gravitationskraft",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm avståndet mellan föremålen.</p><ol type=\"a\"><li>Två kulor (1,0 kg och 3,0 kg) påverkar varandra med \\(2{,}5\\cdot10^{-10}\\) N.</li><li>En kula (40,0 g) och ett bowlingklot (5,50 kg) påverkar varandra med \\(1{,}2\\cdot10^{-9}\\) N.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(r=\\sqrt{\\dfrac{6{,}67\\cdot10^{-11}\\cdot1{,}0\\cdot3{,}0}{2{,}5\\cdot10^{-10}}}\\).</p><p><strong>Svar:</strong> \\(0{,}89\\) m</p></li><li><p>\\(r=\\sqrt{\\dfrac{6{,}67\\cdot10^{-11}\\cdot0{,}0400\\cdot5{,}50}{1{,}2\\cdot10^{-9}}}\\).</p><p><strong>Svar:</strong> \\(0{,}11\\) m</p></li></ol>",
+    "id": "4.737",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gravitationslagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8946507698538017,
+      0.1105817947644789
+    ],
+    "tolerans": [
+      0.0134,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm avståndet mellan föremålen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Två kulor (1,0 kg och 3,0 kg) påverkar varandra med \\(2{,}5\\cdot10^{-10}\\) N.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm avståndet mellan föremålen.</p><p>Två kulor (1,0 kg och 3,0 kg) påverkar varandra med \\(2{,}5\\cdot10^{-10}\\) N.</p>",
+        "s": "<p>\\(r=\\sqrt{\\dfrac{6{,}67\\cdot10^{-11}\\cdot1{,}0\\cdot3{,}0}{2{,}5\\cdot10^{-10}}}\\).</p><p><strong>Svar:</strong> \\(0{,}89\\) m</p>",
+        "ledtrad": "<p>Lös ut \\(r\\) ur gravitationslagen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kula (40,0 g) och ett bowlingklot (5,50 kg) påverkar varandra med \\(1{,}2\\cdot10^{-9}\\) N.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm avståndet mellan föremålen.</p><p>En kula (40,0 g) och ett bowlingklot (5,50 kg) påverkar varandra med \\(1{,}2\\cdot10^{-9}\\) N.</p>",
+        "s": "<p>\\(r=\\sqrt{\\dfrac{6{,}67\\cdot10^{-11}\\cdot0{,}0400\\cdot5{,}50}{1{,}2\\cdot10^{-9}}}\\).</p><p><strong>Svar:</strong> \\(0{,}11\\) m</p>",
+        "ledtrad": "<p>Massan i kg.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(r=\\sqrt{\\dfrac{Gm_1m_2}{F}}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "gravitation__gravitationslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "massa hos två bollar som nuddar",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Två identiska bollar med radien 12 cm ligger så att de nuddar varandra. Gravitationskraften mellan dem är \\(8{,}8\\cdot10^{-6}\\) N. Bestäm massan för en boll.</p>",
+    "s": "<p>\\(r=0{,}24\\) m. \\(m=\\sqrt{\\dfrac{8{,}8\\cdot10^{-6}\\cdot0{,}24^2}{6{,}67\\cdot10^{-11}}}\\).</p><p><strong>Svar:</strong> \\(87\\) kg</p>",
+    "id": "4.738",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gravitationslagen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 87.1745392867096,
+    "tolerans": 1.31,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avståndet mellan centrum är två radier.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "gravitation__gravitationslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "tyngd vid ekvatorn och polen",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Jordens massa är \\(5{,}977\\cdot10^{24}\\) kg. Jordradien är 6 378 km vid ekvatorn och 6 357 km vid nordpolen. Hur mycket större är gravitationskraften på en forskare (95 kg) vid nordpolen än vid ekvatorn?</p>",
+    "s": "<p>\\(F=G\\dfrac{Mm}{r^2}\\) ger 937,2 N vid polen och 931,0 N vid ekvatorn.</p><p><strong>Svar:</strong> \\(6{,}2\\) N</p>",
+    "id": "4.739",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.161372791333115,
+    "tolerans": 0.0924,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna kraften på båda ställena.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "tyngd ombord på ISS",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Jordens massa är \\(5{,}97\\cdot10^{24}\\) kg och radie 6 370 km. Hur stor är tyngden på en astronaut (78 kg) ombord på rymdstationen ISS, 362 km över jordytan?</p>",
+    "s": "<p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{5{,}97\\cdot10^{24}\\cdot78}{(6{,}370+0{,}362)^2\\cdot10^{12}}\\).</p><p><strong>Svar:</strong> \\(685\\) N</p>",
+    "id": "4.740",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 685.3407462482643,
+    "tolerans": 10.3,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avståndet räknas från jordens centrum.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "tyngd på Mount Everest",
+    "poang": "(0/1/0)",
+    "t": "<p>Hur många procent mindre är gravitationskraften på en bergsklättrare på Mount Everest (8 848 m högt) än vid havsytan? Jordens radie är 6 370 km.</p>",
+    "s": "<p>\\(\\dfrac{F_2}{F_1}=\\left(\\dfrac{6\\,370}{6\\,378{,}848}\\right)^2=0{,}99723\\), alltså 0,28 % mindre.</p><p><strong>Svar:</strong> \\(0{,}28\\) %</p>",
+    "id": "4.741",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.27722446244200505,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kraften är omvänt proportionell mot avståndet i kvadrat.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "%",
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "E",
+    "typ": "tyngdfaktor på andra himlakroppar",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm tyngdfaktorn \\(g=\\dfrac{GM}{R^2}\\) vid ytan av</p><ol type=\"a\"><li>Månen: \\(M=7{,}35\\cdot10^{22}\\) kg, \\(R=1\\,737\\) km.</li><li>Mars: \\(M=6{,}42\\cdot10^{23}\\) kg, \\(R=3\\,390\\) km.</li><li>Venus: \\(M=4{,}87\\cdot10^{24}\\) kg, \\(R=6\\,052\\) km.</li><li>Jupiter: \\(M=1{,}90\\cdot10^{27}\\) kg, \\(R=69\\,900\\) km.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(g=\\dfrac{6{,}67\\cdot10^{-11}\\cdot7{,}35\\cdot10^{22}}{(1{,}737\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) N/kg</p></li><li><p>\\(g=\\dfrac{6{,}67\\cdot10^{-11}\\cdot6{,}42\\cdot10^{23}}{(3{,}39\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) N/kg</p></li><li><p>\\(g=\\dfrac{6{,}67\\cdot10^{-11}\\cdot4{,}87\\cdot10^{24}}{(6{,}052\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(8{,}9\\) N/kg</p></li><li><p>\\(g=\\dfrac{6{,}67\\cdot10^{-11}\\cdot1{,}90\\cdot10^{27}}{(6{,}99\\cdot10^7)^2}\\).</p><p><strong>Svar:</strong> \\(26\\) N/kg</p></li></ol>",
+    "id": "4.742",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.624850977853743,
+      3.726159709713629,
+      8.86863857583254,
+      25.93731899852845
+    ],
+    "tolerans": [
+      0.051,
+      0.0559,
+      0.133,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "N/kg",
+      "N/kg",
+      "N/kg",
+      "N/kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm tyngdfaktorn \\(g=\\dfrac{GM}{R^2}\\) vid ytan av</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Månen: \\(M=7{,}35\\cdot10^{22}\\) kg, \\(R=1\\,737\\) km.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm tyngdfaktorn \\(g=\\dfrac{GM}{R^2}\\) vid ytan av</p><p>Månen: \\(M=7{,}35\\cdot10^{22}\\) kg, \\(R=1\\,737\\) km.</p>",
+        "s": "<p>\\(g=\\dfrac{6{,}67\\cdot10^{-11}\\cdot7{,}35\\cdot10^{22}}{(1{,}737\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) N/kg</p>",
+        "ledtrad": "<p>Radien i meter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Mars: \\(M=6{,}42\\cdot10^{23}\\) kg, \\(R=3\\,390\\) km.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm tyngdfaktorn \\(g=\\dfrac{GM}{R^2}\\) vid ytan av</p><p>Mars: \\(M=6{,}42\\cdot10^{23}\\) kg, \\(R=3\\,390\\) km.</p>",
+        "s": "<p>\\(g=\\dfrac{6{,}67\\cdot10^{-11}\\cdot6{,}42\\cdot10^{23}}{(3{,}39\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) N/kg</p>",
+        "ledtrad": "<p>Radien i meter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Venus: \\(M=4{,}87\\cdot10^{24}\\) kg, \\(R=6\\,052\\) km.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm tyngdfaktorn \\(g=\\dfrac{GM}{R^2}\\) vid ytan av</p><p>Venus: \\(M=4{,}87\\cdot10^{24}\\) kg, \\(R=6\\,052\\) km.</p>",
+        "s": "<p>\\(g=\\dfrac{6{,}67\\cdot10^{-11}\\cdot4{,}87\\cdot10^{24}}{(6{,}052\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(8{,}9\\) N/kg</p>",
+        "ledtrad": "<p>Radien i meter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Jupiter: \\(M=1{,}90\\cdot10^{27}\\) kg, \\(R=69\\,900\\) km.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Bestäm tyngdfaktorn \\(g=\\dfrac{GM}{R^2}\\) vid ytan av</p><p>Jupiter: \\(M=1{,}90\\cdot10^{27}\\) kg, \\(R=69\\,900\\) km.</p>",
+        "s": "<p>\\(g=\\dfrac{6{,}67\\cdot10^{-11}\\cdot1{,}90\\cdot10^{27}}{(6{,}99\\cdot10^7)^2}\\).</p><p><strong>Svar:</strong> \\(26\\) N/kg</p>",
+        "ledtrad": "<p>Radien i meter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(g=\\dfrac{GM}{R^2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "Hubbleteleskopets tyngd",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Hubbleteleskopet har massan 11 600 kg. Jordens massa är \\(5{,}977\\cdot10^{24}\\) kg och radie 6 380 km.</p><ol type=\"a\"><li>Bestäm teleskopets tyngd på jordytan med gravitationslagen.</li><li>Bestäm tyngden i banan 598 km över jordytan.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{5{,}977\\cdot10^{24}\\cdot11\\,600}{(6{,}38\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(1{,}14\\cdot10^{5}\\) N</p></li><li><p>\\(r=6\\,978\\) km. \\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{5{,}977\\cdot10^{24}\\cdot11\\,600}{(6{,}978\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(94\\,974\\) N</p></li></ol>",
+    "id": "4.743",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      113612.39669421487,
+      94974.09168938681
+    ],
+    "tolerans": [
+      1700.0,
+      1420.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Hubbleteleskopet har massan 11 600 kg. Jordens massa är \\(5{,}977\\cdot10^{24}\\) kg och radie 6 380 km.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm teleskopets tyngd på jordytan med gravitationslagen.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Hubbleteleskopet har massan 11 600 kg. Jordens massa är \\(5{,}977\\cdot10^{24}\\) kg och radie 6 380 km.</p><p>Bestäm teleskopets tyngd på jordytan med gravitationslagen.</p>",
+        "s": "<p>\\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{5{,}977\\cdot10^{24}\\cdot11\\,600}{(6{,}38\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(1{,}14\\cdot10^{5}\\) N</p>",
+        "ledtrad": "<p>\\(F=G\\dfrac{m_1m_2}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm tyngden i banan 598 km över jordytan.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Hubbleteleskopet har massan 11 600 kg. Jordens massa är \\(5{,}977\\cdot10^{24}\\) kg och radie 6 380 km.</p><p>Bestäm tyngden i banan 598 km över jordytan.</p>",
+        "s": "<p>\\(r=6\\,978\\) km. \\(F=6{,}67\\cdot10^{-11}\\cdot\\dfrac{5{,}977\\cdot10^{24}\\cdot11\\,600}{(6{,}978\\cdot10^6)^2}\\).</p><p><strong>Svar:</strong> \\(94\\,974\\) N</p>",
+        "ledtrad": "<p>Avståndet räknas från jordens centrum.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Avståndet räknas från jordens centrum.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "raketdelar i rymden",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Två delar till en rymdraket har tyngden 11 000 N respektive 3 400 N på jorden (\\(g=9{,}82\\) N/kg). Hur stor gravitationskraft påverkar de varandra med ute i rymden på avståndet 12 m?</p>",
+    "s": "<p>\\(m_1=\\dfrac{11\\,000}{9{,}82}\\), \\(m_2=\\dfrac{3\\,400}{9{,}82}\\). \\(F=G\\dfrac{m_1m_2}{12^2}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\cdot10^{-7}\\) N</p>",
+    "id": "4.744",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gravitationslagen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.7964369052540663e-07,
+    "tolerans": 5.1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm massorna först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "gravitation__gravitationslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "största kraft mellan två klot",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Ett bowlingklot (7,20 kg, radie 0,11 m) och en biljardboll (0,38 kg, radie 0,028 m). Hur stor är den största möjliga gravitationskraften mellan dem?</p>",
+    "s": "<p>Störst när de nuddar: \\(r=0{,}11+0{,}028=0{,}138\\) m. \\(F=G\\dfrac{7{,}20\\cdot0{,}38}{0{,}138^2}\\).</p><p><strong>Svar:</strong> \\(9{,}6\\cdot10^{-9}\\) N</p>",
+    "id": "4.745",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gravitationslagen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.582608695652173e-09,
+    "tolerans": 1.44e-10,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När är avståndet minst?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "gravitation__gravitationslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "gravitationskonstanten ur mätdata",
+    "poang": "(0/1/0)",
+    "t": "<p>Elever upprepar Cavendishs försök med två blyklot på 15,0 g och 15,0 kg. På avståndet 4,50 cm är gravitationskraften \\(7{,}51\\cdot10^{-9}\\) N. Bestäm \\(G\\) ur mätdata.</p>",
+    "s": "<p>\\(G=\\dfrac{Fr^2}{m_1m_2}=\\dfrac{7{,}51\\cdot10^{-9}\\cdot0{,}0450^2}{0{,}0150\\cdot15{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}76\\cdot10^{-11}\\) N·m²/kg²</p>",
+    "id": "4.746",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gravitationslagen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.759000000000001e-11,
+    "tolerans": 1.01e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(G\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N·m²/kg²",
+    "familjNyckel": "gravitation__gravitationslagen",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "E",
+    "typ": "ändrad massa eller avstånd",
+    "poang": "(2/0/0)",
+    "t": "<p>Två föremål påverkar varandra med gravitationskraften 10 N. Hur stor blir kraften om man</p><ol type=\"a\"><li>halverar den ena massan?</li><li>fördubblar avståndet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F\\propto m\\): 5,0 N. Det spelar ingen roll vilken massa som halveras.</p><p><strong>Svar:</strong> \\(5{,}0\\) N</p></li><li><p>\\(F\\propto\\dfrac1{r^2}\\): \\(\\dfrac{10}{4}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) N</p></li></ol>",
+    "id": "4.747",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gravitationslagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      2.5
+    ],
+    "tolerans": [
+      0.075,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två föremål påverkar varandra med gravitationskraften 10 N. Hur stor blir kraften om man</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "halverar den ena massan?",
+        "t": "<p>Två föremål påverkar varandra med gravitationskraften 10 N. Hur stor blir kraften om man</p><p>halverar den ena massan?</p>",
+        "s": "<p>\\(F\\propto m\\): 5,0 N. Det spelar ingen roll vilken massa som halveras.</p><p><strong>Svar:</strong> \\(5{,}0\\) N</p>",
+        "ledtrad": "<p>\\(F\\propto m_1m_2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "fördubblar avståndet?",
+        "t": "<p>Två föremål påverkar varandra med gravitationskraften 10 N. Hur stor blir kraften om man</p><p>fördubblar avståndet?</p>",
+        "s": "<p>\\(F\\propto\\dfrac1{r^2}\\): \\(\\dfrac{10}{4}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) N</p>",
+        "ledtrad": "<p>\\(F\\propto\\dfrac{1}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Proportionalitet i gravitationslagen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "gravitation__gravitationslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "höjd där tyngden halveras",
+    "poang": "(0/1/1)",
+    "t": "<p>På vilken höjd över jordytan är tyngden halverad? Jordens radie är 6 370 km.</p>",
+    "s": "<p>\\(\\dfrac{R^2}{r^2}=\\dfrac12\\iff r=\\sqrt2R\\). \\(h=(\\sqrt2-1)\\cdot6\\,370\\) km.</p><p><strong>Svar:</strong> \\(2{,}6\\cdot10^{6}\\) m</p>",
+    "id": "4.748",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2638540.392316616,
+    "tolerans": 51000.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kraften är omvänt proportionell mot \\(r^2\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "fritt fall på asteroid",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>En klotformad asteroid har radien 9,50 km och densiteten 3 500 kg/m³.</p><ol type=\"a\"><li>Bestäm tyngdaccelerationen vid asteroidens yta.</li><li>En sten släpps från 1,0 m höjd på jorden (\\(g=9{,}82\\) m/s²). Hur lång tid tar fallet?</li><li>Hur lång tid tar samma fall på asteroiden?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(M=\\rho\\cdot\\dfrac43\\pi R^3\\), \\(g=\\dfrac{GM}{R^2}=\\dfrac43\\pi G\\rho R\\).</p><p><strong>Svar:</strong> \\(0{,}0093\\) m/s²</p></li><li><p>\\(t=\\sqrt{\\dfrac{2\\cdot1{,}0}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(0{,}45\\) s</p></li><li><p>\\(t=\\sqrt{\\dfrac{2\\cdot1{,}0}{0{,}0093}}\\).</p><p><strong>Svar:</strong> \\(15\\) s</p></li></ol>",
+    "id": "4.749",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.009289794196420136,
+      0.4512936824065242,
+      14.672764645125648
+    ],
+    "tolerans": [
+      0.000139,
+      0.00677,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>En klotformad asteroid har radien 9,50 km och densiteten 3 500 kg/m³.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm tyngdaccelerationen vid asteroidens yta.",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>En klotformad asteroid har radien 9,50 km och densiteten 3 500 kg/m³.</p><p>Bestäm tyngdaccelerationen vid asteroidens yta.</p>",
+        "s": "<p>\\(M=\\rho\\cdot\\dfrac43\\pi R^3\\), \\(g=\\dfrac{GM}{R^2}=\\dfrac43\\pi G\\rho R\\).</p><p><strong>Svar:</strong> \\(0{,}0093\\) m/s²</p>",
+        "ledtrad": "<p>Bestäm massan ur densitet och volym.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En sten släpps från 1,0 m höjd på jorden (\\(g=9{,}82\\) m/s²). Hur lång tid tar fallet?",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>En klotformad asteroid har radien 9,50 km och densiteten 3 500 kg/m³.</p><p>En sten släpps från 1,0 m höjd på jorden (\\(g=9{,}82\\) m/s²). Hur lång tid tar fallet?</p>",
+        "s": "<p>\\(t=\\sqrt{\\dfrac{2\\cdot1{,}0}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(0{,}45\\) s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång tid tar samma fall på asteroiden?",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>En klotformad asteroid har radien 9,50 km och densiteten 3 500 kg/m³.</p>Tyngdaccelerationen på asteroiden är 0,0093 m/s².<p>Hur lång tid tar samma fall på asteroiden?</p>",
+        "s": "<p>\\(t=\\sqrt{\\dfrac{2\\cdot1{,}0}{0{,}0093}}\\).</p><p><strong>Svar:</strong> \\(15\\) s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(g=\\dfrac{GM}{R^2}\\) med \\(M=\\rho V\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "A",
+    "typ": "asteroidens radie ur tyngdfaktor",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Tyngdfaktorn vid ytan av en klotformad asteroid är 0,0050 N/kg och densiteten 4 830 kg/m³. Bestäm asteroidens radie.</p>",
+    "s": "<p>\\(g=\\dfrac43\\pi G\\rho R\\iff R=\\dfrac{3g}{4\\pi G\\rho}\\).</p><p><strong>Svar:</strong> \\(3\\,705\\) m</p>",
+    "id": "4.750",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3705.1724857733097,
+    "tolerans": 55.6,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck massan med densitet och radie.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "C",
+    "typ": "tyngd på planet med annan massa och radie",
+    "poang": "(4/1/0)",
+    "t": "<p>En person har tyngden 1 000 N på jorden. Vad blir tyngden på en planet vars massa och radie jämfört med jordens är</p><ol type=\"a\"><li>dubbla massan och samma radie?</li><li>dubbla massan och dubbla radien?</li><li>samma massa och dubbla radien?</li><li>halva massan och halva radien?</li><li>1,8 gånger massan och 1,5 gånger radien?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F\\propto\\dfrac{M}{R^2}\\): \\(2\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p></li><li><p>\\(\\dfrac{2}{2^2}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(500\\) N</p></li><li><p>\\(\\dfrac{1}{2^2}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(250\\) N</p></li><li><p>\\(\\dfrac{0{,}5}{0{,}5^2}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p></li><li><p>\\(\\dfrac{1{,}8}{1{,}5^2}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(800\\) N</p></li></ol>",
+    "id": "4.751",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2000,
+      500,
+      250,
+      2000,
+      800
+    ],
+    "tolerans": [
+      51.0,
+      7.5,
+      5.1,
+      51.0,
+      12.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En person har tyngden 1 000 N på jorden. Vad blir tyngden på en planet vars massa och radie jämfört med jordens är</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "dubbla massan och samma radie?",
+        "t": "<p>En person har tyngden 1 000 N på jorden. Vad blir tyngden på en planet vars massa och radie jämfört med jordens är</p><p>dubbla massan och samma radie?</p>",
+        "s": "<p>\\(F\\propto\\dfrac{M}{R^2}\\): \\(2\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p>",
+        "ledtrad": "<p>\\(F\\propto\\dfrac{M}{R^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "dubbla massan och dubbla radien?",
+        "t": "<p>En person har tyngden 1 000 N på jorden. Vad blir tyngden på en planet vars massa och radie jämfört med jordens är</p><p>dubbla massan och dubbla radien?</p>",
+        "s": "<p>\\(\\dfrac{2}{2^2}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(500\\) N</p>",
+        "ledtrad": "<p>\\(F\\propto\\dfrac{M}{R^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "samma massa och dubbla radien?",
+        "t": "<p>En person har tyngden 1 000 N på jorden. Vad blir tyngden på en planet vars massa och radie jämfört med jordens är</p><p>samma massa och dubbla radien?</p>",
+        "s": "<p>\\(\\dfrac{1}{2^2}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(250\\) N</p>",
+        "ledtrad": "<p>\\(F\\propto\\dfrac{M}{R^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "halva massan och halva radien?",
+        "t": "<p>En person har tyngden 1 000 N på jorden. Vad blir tyngden på en planet vars massa och radie jämfört med jordens är</p><p>halva massan och halva radien?</p>",
+        "s": "<p>\\(\\dfrac{0{,}5}{0{,}5^2}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p>",
+        "ledtrad": "<p>\\(F\\propto\\dfrac{M}{R^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "e",
+        "fraga": "1,8 gånger massan och 1,5 gånger radien?",
+        "t": "<p>En person har tyngden 1 000 N på jorden. Vad blir tyngden på en planet vars massa och radie jämfört med jordens är</p><p>1,8 gånger massan och 1,5 gånger radien?</p>",
+        "s": "<p>\\(\\dfrac{1{,}8}{1{,}5^2}\\cdot1\\,000\\).</p><p><strong>Svar:</strong> \\(800\\) N</p>",
+        "ledtrad": "<p>\\(F\\propto\\dfrac{M}{R^2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F=G\\dfrac{Mm}{R^2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "A",
+    "typ": "höjdhopp på Mars",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Ett höjdhopp på jorden (\\(g=9{,}82\\) m/s²) når 2,34 m. Hur högt blir ett hopp med samma utgångsfart på Mars? Mars har massan \\(6{,}42\\cdot10^{23}\\) kg och radien \\(3{,}37\\cdot10^6\\) m. Behandla hoppet som ett lodrätt kast.</p>",
+    "s": "<p>\\(g_M=\\dfrac{GM}{R^2}=3{,}77\\) m/s². Samma \\(v_0\\) ger \\(h\\propto\\dfrac1g\\): \\(h=2{,}34\\cdot\\dfrac{9{,}82}{3{,}77}\\).</p><p><strong>Svar:</strong> \\(6{,}1\\) m</p>",
+    "id": "4.752",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.094334461741092,
+    "tolerans": 0.0914,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v_0^2=2gh\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "gravitation",
+    "niva": "A",
+    "typ": "sten mellan två massor",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Två föremål med massorna 200 kg och 500 kg är 2,00 m från varandra. En sten (50 kg) placeras på linjen mellan dem.</p><ol type=\"a\"><li>Stenen ligger mitt emellan. Hur stor är den resulterande gravitationskraften på stenen?</li><li>Hur långt från 500 kg-föremålet ska stenen ligga för att den resulterande kraften ska bli noll?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=G\\cdot\\dfrac{50\\cdot500-50\\cdot200}{1{,}00^2}\\), riktad mot 500 kg-föremålet.</p><p><strong>Svar:</strong> \\(1{,}00\\cdot10^{-6}\\) N</p></li><li><p>\\(\\dfrac{200}{x^2}=\\dfrac{500}{(2{,}00-x)^2}\\) där \\(x\\) räknas från 200 kg-föremålet: \\(x=\\dfrac{2{,}00}{1+\\sqrt{2{,}5}}=0{,}775\\) m. Avstånd från 500 kg: \\(2{,}00-0{,}775\\).</p><p><strong>Svar:</strong> \\(1{,}23\\) m</p></li></ol>",
+    "id": "4.753",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Gravitationslagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0005e-06,
+      1.2251482265544138
+    ],
+    "tolerans": [
+      1.5e-08,
+      0.0184
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Två föremål med massorna 200 kg och 500 kg är 2,00 m från varandra. En sten (50 kg) placeras på linjen mellan dem.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Stenen ligger mitt emellan. Hur stor är den resulterande gravitationskraften på stenen?",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Två föremål med massorna 200 kg och 500 kg är 2,00 m från varandra. En sten (50 kg) placeras på linjen mellan dem.</p><p>Stenen ligger mitt emellan. Hur stor är den resulterande gravitationskraften på stenen?</p>",
+        "s": "<p>\\(F=G\\cdot\\dfrac{50\\cdot500-50\\cdot200}{1{,}00^2}\\), riktad mot 500 kg-föremålet.</p><p><strong>Svar:</strong> \\(1{,}00\\cdot10^{-6}\\) N</p>",
+        "ledtrad": "<p>Krafterna är motriktade.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt från 500 kg-föremålet ska stenen ligga för att den resulterande kraften ska bli noll?",
+        "t": "<p>Använd \\(G=6{,}67\\cdot10^{-11}\\) N·m²/kg².</p><p>Två föremål med massorna 200 kg och 500 kg är 2,00 m från varandra. En sten (50 kg) placeras på linjen mellan dem.</p><p>Hur långt från 500 kg-föremålet ska stenen ligga för att den resulterande kraften ska bli noll?</p>",
+        "s": "<p>\\(\\dfrac{200}{x^2}=\\dfrac{500}{(2{,}00-x)^2}\\) där \\(x\\) räknas från 200 kg-föremålet: \\(x=\\dfrac{2{,}00}{1+\\sqrt{2{,}5}}=0{,}775\\) m. Avstånd från 500 kg: \\(2{,}00-0{,}775\\).</p><p><strong>Svar:</strong> \\(1{,}23\\) m</p>",
+        "ledtrad": "<p>Sätt krafterna lika och dra roten ur.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Krafterna från de två föremålen är motriktade.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "gravitation__gravitationslagen",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "4.218",
     "kap": 4,
     "omr": "moment",
@@ -137278,6 +138302,33 @@ window.BANK = [
     "typ": "antal elektroner i en coulomb"
   },
   {
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "typ": "antal elektroner som tas bort",
+    "poang": "(1/0/0)",
+    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Ett föremål har laddningen −2,0 µC. Hur många elektroner måste tas bort för att laddningen ska bli +3,0 µC?</p>",
+    "s": "<p>Ändringen är 5,0 µC: \\(n=\\dfrac{5{,}0\\cdot10^{-6}}{1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(3{,}1\\cdot10^{13}\\) </p>",
+    "id": "8.475",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddning och elementarladdning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 31210986267166.047,
+    "tolerans": 510000000000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur stor är laddningsändringen?</p>",
+    "traningsniva": 2,
+    "familjNyckel": "laddning__laddning_och_elementarladdning",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
     "id": "8.377",
     "kap": 8,
     "omr": "strom",
@@ -144047,6 +145098,920 @@ window.BANK = [
     "spel": true,
     "miniräknare": true,
     "geogebra": false
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "fyra klot som nuddar varandra",
+    "poang": "(0/1/0)",
+    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Fyra identiska metallklot med laddningarna +1,6 µC, +6,2 µC, −4,8 µC och −9,4 µC får nudda varandra samtidigt och förs sedan isär. Hur många elektroner i överskott har varje klot efteråt?</p>",
+    "s": "<p>Total laddning −6,4 µC delas lika: −1,6 µC per klot. \\(n=\\dfrac{1{,}6\\cdot10^{-6}}{1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{13}\\) </p>",
+    "id": "8.476",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ledare, influens och laddningsutjämning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9987515605493.133,
+    "tolerans": 150000000000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Laddningen fördelas lika på identiska klot.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "coulomb__ledare_influens_och_laddningsutjamning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "okänd laddning ur attraktiv kraft",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två laddade partiklar på avståndet 0,26 m attraherar varandra med 3,4 N. Den ena har laddningen +3,5 µC. Bestäm den andras laddning (med tecken).</p>",
+    "s": "<p>\\(|Q|=\\dfrac{3{,}4\\cdot0{,}26^2}{8{,}99\\cdot10^9\\cdot3{,}5\\cdot10^{-6}}\\). Attraktion ger negativ laddning.</p><p><strong>Svar:</strong> \\(-7{,}3\\cdot10^{-6}\\) C</p>",
+    "id": "8.477",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": -7.304624185603051e-06,
+    "tolerans": 1.1e-07,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Attraktion betyder olika tecken.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "C",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "typ": "kraft och avstånd mellan laddade klot",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><ol type=\"a\"><li>Två klot med −20,0 µC och +50,0 µC är 2,50 cm från varandra. Bestäm kraftens storlek.</li><li>Två klot med −15,0 µC och +30 µC attraherar varandra med 6,0 N. Hur stort är avståndet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{20{,}0\\cdot10^{-6}\\cdot50{,}0\\cdot10^{-6}}{0{,}0250^2}\\), attraktiv.</p><p><strong>Svar:</strong> \\(14\\,384\\) N</p></li><li><p>\\(r=\\sqrt{\\dfrac{8{,}99\\cdot10^9\\cdot15{,}0\\cdot10^{-6}\\cdot30\\cdot10^{-6}}{6{,}0}}\\).</p><p><strong>Svar:</strong> \\(0{,}82\\) m</p></li></ol>",
+    "id": "8.478",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14384.0,
+      0.821127273935046
+    ],
+    "tolerans": [
+      216.0,
+      0.0123
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Två klot med −20,0 µC och +50,0 µC är 2,50 cm från varandra. Bestäm kraftens storlek.",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med −20,0 µC och +50,0 µC är 2,50 cm från varandra. Bestäm kraftens storlek.</p>",
+        "s": "<p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{20{,}0\\cdot10^{-6}\\cdot50{,}0\\cdot10^{-6}}{0{,}0250^2}\\), attraktiv.</p><p><strong>Svar:</strong> \\(14\\,384\\) N</p>",
+        "ledtrad": "<p>\\(F=k\\dfrac{|Q_1Q_2|}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Två klot med −15,0 µC och +30 µC attraherar varandra med 6,0 N. Hur stort är avståndet?",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med −15,0 µC och +30 µC attraherar varandra med 6,0 N. Hur stort är avståndet?</p>",
+        "s": "<p>\\(r=\\sqrt{\\dfrac{8{,}99\\cdot10^9\\cdot15{,}0\\cdot10^{-6}\\cdot30\\cdot10^{-6}}{6{,}0}}\\).</p><p><strong>Svar:</strong> \\(0{,}82\\) m</p>",
+        "ledtrad": "<p>Lös ut \\(r\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Coulombs lag.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "laddningarna Q och 10Q",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med laddningarna \\(+Q\\) och \\(+10Q\\) är 3,0 cm från varandra och stöter bort varandra med 1,6 N.</p><ol type=\"a\"><li>Bestäm \\(Q\\).</li><li>Bestäm laddningen \\(10Q\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(10Q^2=\\dfrac{1{,}6\\cdot0{,}030^2}{8{,}99\\cdot10^9}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{-7}\\) C</p></li><li><p>\\(10\\cdot0{,}126\\) µC.</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{-6}\\) C</p></li></ol>",
+    "id": "8.479",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.2656143785860086e-07,
+      1.2656143785860086e-06
+    ],
+    "tolerans": [
+      5.1e-09,
+      5.1e-08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "C",
+      "C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med laddningarna \\(+Q\\) och \\(+10Q\\) är 3,0 cm från varandra och stöter bort varandra med 1,6 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(Q\\).",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med laddningarna \\(+Q\\) och \\(+10Q\\) är 3,0 cm från varandra och stöter bort varandra med 1,6 N.</p><p>Bestäm \\(Q\\).</p>",
+        "s": "<p>\\(10Q^2=\\dfrac{1{,}6\\cdot0{,}030^2}{8{,}99\\cdot10^9}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{-7}\\) C</p>",
+        "ledtrad": "<p>\\(F=k\\dfrac{10Q^2}{r^2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm laddningen \\(10Q\\).",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med laddningarna \\(+Q\\) och \\(+10Q\\) är 3,0 cm från varandra och stöter bort varandra med 1,6 N.</p><p>Bestäm laddningen \\(10Q\\).</p>",
+        "s": "<p>\\(10\\cdot0{,}126\\) µC.</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{-6}\\) C</p>",
+        "ledtrad": "<p>\\(F=k\\dfrac{10Q^2}{r^2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Lös ut \\(Q^2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "elektron i litiumjon",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>I jonen Li²⁺ (kärnladdning \\(+3e\\)) finns en elektron på avståndet 150 pm från kärnan. Bestäm den attraktiva kraften mellan kärnan och elektronen.</p>",
+    "s": "<p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{3e\\cdot e}{(150\\cdot10^{-12})^2}\\).</p><p><strong>Svar:</strong> \\(3{,}1\\cdot10^{-8}\\) N</p>",
+    "id": "8.480",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0762629279999995e-08,
+    "tolerans": 5.1e-10,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Litiumkärnan har tre protoner.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "elektroner överförs mellan klot",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Två neutrala metallklot är 5,0 cm från varandra. Man flyttar \\(1{,}3\\cdot10^9\\) elektroner från det ena klotet till det andra. Bestäm kraftens storlek mellan kloten.</p>",
+    "s": "<p>Kloten får \\(\\pm1{,}3\\cdot10^9e\\). \\(F=k\\dfrac{q^2}{0{,}050^2}\\), attraktiv.</p><p><strong>Svar:</strong> \\(1{,}6\\cdot10^{-7}\\) N</p>",
+    "id": "8.481",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5596653044959995e-07,
+    "tolerans": 5.1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kloten får lika stora laddningar med olika tecken.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "A",
+    "typ": "laddad kula under hängande kula",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En liten kula hänger i en tunn tråd. En annan laddad kula placeras rakt under den.</p><ol type=\"a\"><li>Den hängande kulan har massan 7,50 g och laddningen +32,0 nC. Kulan under har −58,0 nC och är 2,00 cm bort. Bestäm spännkraften i tråden.</li><li>Den hängande kulan har i stället massan 4,50 g och laddningen +45,0 nC, kulan under −78,0 nC. Tråden tål högst 0,15 N. Bestäm det minsta tillåtna avståndet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Attraktion nedåt: \\(F_S=mg+k\\dfrac{|q_1q_2|}{d^2}=0{,}0737+0{,}0418\\).</p><p><strong>Svar:</strong> \\(0{,}115\\) N</p></li><li><p>\\(F_E\\le0{,}15-0{,}0442\\). \\(d=\\sqrt{\\dfrac{k\\cdot45{,}0\\cdot10^{-9}\\cdot78{,}0\\cdot10^{-9}}{0{,}1058}}\\).</p><p><strong>Svar:</strong> \\(0{,}017\\) m</p></li></ol>",
+    "id": "8.482",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.11536359999999998,
+      0.01726911362022496
+    ],
+    "tolerans": [
+      0.00173,
+      0.00051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En liten kula hänger i en tunn tråd. En annan laddad kula placeras rakt under den.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Den hängande kulan har massan 7,50 g och laddningen +32,0 nC. Kulan under har −58,0 nC och är 2,00 cm bort. Bestäm spännkraften i tråden.",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En liten kula hänger i en tunn tråd. En annan laddad kula placeras rakt under den.</p><p>Den hängande kulan har massan 7,50 g och laddningen +32,0 nC. Kulan under har −58,0 nC och är 2,00 cm bort. Bestäm spännkraften i tråden.</p>",
+        "s": "<p>Attraktion nedåt: \\(F_S=mg+k\\dfrac{|q_1q_2|}{d^2}=0{,}0737+0{,}0418\\).</p><p><strong>Svar:</strong> \\(0{,}115\\) N</p>",
+        "ledtrad": "<p>Den elektriska kraften drar nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Den hängande kulan har i stället massan 4,50 g och laddningen +45,0 nC, kulan under −78,0 nC. Tråden tål högst 0,15 N. Bestäm det minsta tillåtna avståndet.",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En liten kula hänger i en tunn tråd. En annan laddad kula placeras rakt under den.</p><p>Den hängande kulan har i stället massan 4,50 g och laddningen +45,0 nC, kulan under −78,0 nC. Tråden tål högst 0,15 N. Bestäm det minsta tillåtna avståndet.</p>",
+        "s": "<p>\\(F_E\\le0{,}15-0{,}0442\\). \\(d=\\sqrt{\\dfrac{k\\cdot45{,}0\\cdot10^{-9}\\cdot78{,}0\\cdot10^{-9}}{0{,}1058}}\\).</p><p><strong>Svar:</strong> \\(0{,}017\\) m</p>",
+        "ledtrad": "<p>Hur stor elektrisk kraft får det högst vara?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Tråden bär tyngden och den elektriska kraften.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "fjäderkonstant ur elektrisk kraft",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Bestäm fjäderkonstanten.</p><ol type=\"a\"><li>En kula med +0,800 µC hänger i jämvikt i en lodrät fjäder. När en kula med −0,600 µC placeras under den förlängs fjädern ytterligare 3,50 cm, och kulorna hamnar 5,0 cm från varandra.</li><li>En laddning på 2,70 µC sitter i en fjäder på ett friktionsfritt bord. När en laddning −8,60 µC placeras i närheten förlängs fjädern 5,0 mm och laddningarna är då 9,00 cm från varandra.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_E=k\\dfrac{0{,}800\\cdot10^{-6}\\cdot0{,}600\\cdot10^{-6}}{0{,}050^2}=1{,}73\\) N. \\(k_f=\\dfrac{1{,}73}{0{,}0350}\\).</p><p><strong>Svar:</strong> \\(49\\) N/m</p></li><li><p>\\(F_E=k\\dfrac{2{,}70\\cdot10^{-6}\\cdot8{,}60\\cdot10^{-6}}{0{,}0900^2}\\), \\(k_f=\\dfrac{F_E}{0{,}0050}\\).</p><p><strong>Svar:</strong> \\(5\\,154\\) N/m</p></li></ol>",
+    "id": "8.483",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      49.316571428571415,
+      5154.266666666666
+    ],
+    "tolerans": [
+      0.74,
+      77.3
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "N/m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Bestäm fjäderkonstanten.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En kula med +0,800 µC hänger i jämvikt i en lodrät fjäder. När en kula med −0,600 µC placeras under den förlängs fjädern ytterligare 3,50 cm, och kulorna hamnar 5,0 cm från varandra.",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Bestäm fjäderkonstanten.</p><p>En kula med +0,800 µC hänger i jämvikt i en lodrät fjäder. När en kula med −0,600 µC placeras under den förlängs fjädern ytterligare 3,50 cm, och kulorna hamnar 5,0 cm från varandra.</p>",
+        "s": "<p>\\(F_E=k\\dfrac{0{,}800\\cdot10^{-6}\\cdot0{,}600\\cdot10^{-6}}{0{,}050^2}=1{,}73\\) N. \\(k_f=\\dfrac{1{,}73}{0{,}0350}\\).</p><p><strong>Svar:</strong> \\(49\\) N/m</p>",
+        "ledtrad": "<p>Den extra förlängningen beror bara på den elektriska kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En laddning på 2,70 µC sitter i en fjäder på ett friktionsfritt bord. När en laddning −8,60 µC placeras i närheten förlängs fjädern 5,0 mm och laddningarna är då 9,00 cm från varandra.",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Bestäm fjäderkonstanten.</p><p>En laddning på 2,70 µC sitter i en fjäder på ett friktionsfritt bord. När en laddning −8,60 µC placeras i närheten förlängs fjädern 5,0 mm och laddningarna är då 9,00 cm från varandra.</p>",
+        "s": "<p>\\(F_E=k\\dfrac{2{,}70\\cdot10^{-6}\\cdot8{,}60\\cdot10^{-6}}{0{,}0900^2}\\), \\(k_f=\\dfrac{F_E}{0{,}0050}\\).</p><p><strong>Svar:</strong> \\(5\\,154\\) N/m</p>",
+        "ledtrad": "<p>Fjäderkraften balanserar den elektriska kraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Jämvikt: \\(k_fx=F_E\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "A",
+    "typ": "jämviktsläge mellan 3q och q",
+    "poang": "(0/1/1)",
+    "t": "<p>Två kulor med laddningarna \\(+3q\\) och \\(+q\\) är 1,50 m från varandra. Var mellan dem kan en tredje laddning placeras så att den resulterande kraften på den blir noll? Ange avståndet från \\(+3q\\).</p>",
+    "s": "<p>\\(\\dfrac{3q}{x^2}=\\dfrac{q}{(1{,}50-x)^2}\\iff\\sqrt3(1{,}50-x)=x\\iff x=\\dfrac{1{,}50\\sqrt3}{1+\\sqrt3}\\).</p><p><strong>Svar:</strong> \\(0{,}95\\) m</p>",
+    "id": "8.484",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Kraftresultant från flera laddningar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.9509618943233421,
+    "tolerans": 0.0143,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt krafterna lika och dra roten ur.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "coulomb__kraftresultant_fran_flera_laddningar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "typ": "elektrisk kraft och acceleration",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två föremål (1,0 kg vardera) ligger 1,0 m från varandra på ett friktionsfritt underlag. Båda har laddningen +1,0 µC.</p><ol type=\"a\"><li>Hur stor är den elektriska kraften på vardera föremålet?</li><li>Vilken acceleration får vardera föremålet när de släpps?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{(1{,}0\\cdot10^{-6})^2}{1{,}0^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0090\\) N</p></li><li><p>\\(a=\\dfrac{F}{m}=\\dfrac{0{,}0090}{1{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}0090\\) m/s²</p></li></ol>",
+    "id": "8.485",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.00899,
+      0.00899
+    ],
+    "tolerans": [
+      0.000135,
+      0.000135
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två föremål (1,0 kg vardera) ligger 1,0 m från varandra på ett friktionsfritt underlag. Båda har laddningen +1,0 µC.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är den elektriska kraften på vardera föremålet?",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två föremål (1,0 kg vardera) ligger 1,0 m från varandra på ett friktionsfritt underlag. Båda har laddningen +1,0 µC.</p><p>Hur stor är den elektriska kraften på vardera föremålet?</p>",
+        "s": "<p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{(1{,}0\\cdot10^{-6})^2}{1{,}0^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0090\\) N</p>",
+        "ledtrad": "<p>\\(F=k\\dfrac{|Q_1Q_2|}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får vardera föremålet när de släpps?",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två föremål (1,0 kg vardera) ligger 1,0 m från varandra på ett friktionsfritt underlag. Båda har laddningen +1,0 µC.</p>Den elektriska kraften är 9,0 mN.<p>Vilken acceleration får vardera föremålet när de släpps?</p>",
+        "s": "<p>\\(a=\\dfrac{F}{m}=\\dfrac{0{,}0090}{1{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}0090\\) m/s²</p>",
+        "ledtrad": "<p>\\(F=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Coulombs lag och Newtons andra lag.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "elektrisk kraft jämfört med tyngd",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². Två plastkulor (2,0 g vardera) är 2,0 cm från varandra och har laddningen −50,0 nC vardera.</p><ol type=\"a\"><li>Hur stor är den elektriska kraften?</li><li>Hur många gånger större än tyngden är den elektriska kraften?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{(50{,}0\\cdot10^{-9})^2}{0{,}020^2}\\).</p><p><strong>Svar:</strong> \\(0{,}056\\) N</p></li><li><p>\\(\\dfrac{F_E}{mg}=\\dfrac{0{,}0562}{0{,}0020\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\)</p></li></ol>",
+    "id": "8.486",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.05618749999999999,
+      2.860870672097759
+    ],
+    "tolerans": [
+      0.000843,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². Två plastkulor (2,0 g vardera) är 2,0 cm från varandra och har laddningen −50,0 nC vardera.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är den elektriska kraften?",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². Två plastkulor (2,0 g vardera) är 2,0 cm från varandra och har laddningen −50,0 nC vardera.</p><p>Hur stor är den elektriska kraften?</p>",
+        "s": "<p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{(50{,}0\\cdot10^{-9})^2}{0{,}020^2}\\).</p><p><strong>Svar:</strong> \\(0{,}056\\) N</p>",
+        "ledtrad": "<p>\\(F=k\\dfrac{|Q_1Q_2|}{r^2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många gånger större än tyngden är den elektriska kraften?",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². Två plastkulor (2,0 g vardera) är 2,0 cm från varandra och har laddningen −50,0 nC vardera.</p>Den elektriska kraften är 56 mN.<p>Hur många gånger större än tyngden är den elektriska kraften?</p>",
+        "s": "<p>\\(\\dfrac{F_E}{mg}=\\dfrac{0{,}0562}{0{,}0020\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\)</p>",
+        "ledtrad": "<p>\\(F_G=mg\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Jämför krafterna.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "typ": "avstånd mellan två negativa kulor",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två plastkulor med laddningarna −5,0 nC och −12 nC stöter bort varandra med \\(8{,}2\\cdot10^{-4}\\) N. Hur långt är det mellan dem?</p>",
+    "s": "<p>\\(r=\\sqrt{\\dfrac{8{,}99\\cdot10^9\\cdot5{,}0\\cdot10^{-9}\\cdot12\\cdot10^{-9}}{8{,}2\\cdot10^{-4}}}\\).</p><p><strong>Svar:</strong> \\(0{,}026\\) m</p>",
+    "id": "8.487",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.025647707071954417,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(r\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "A",
+    "typ": "laddning delas mellan olika stora kulor",
+    "poang": "(0/1/3)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En metallkula A har laddningen 25 nC. En oladdad metallkula B får nudda A, så att laddningen delas, men kulorna behöver inte vara lika stora. På 5,0 cm avstånd är kraften mellan dem \\(5{,}4\\cdot10^{-4}\\) N.</p><ol type=\"a\"><li>Bestäm den större av de två laddningarna.</li><li>Bestäm den mindre av de två laddningarna.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(q_1+q_2=25\\) nC och \\(q_1q_2=\\dfrac{5{,}4\\cdot10^{-4}\\cdot0{,}050^2}{8{,}99\\cdot10^9}=1{,}50\\cdot10^{-16}\\) C². Andragradsekvationen ger 15 nC och 10 nC.</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{-8}\\) C</p></li><li><p>\\(25-15\\) nC.</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-8}\\) C</p></li></ol>",
+    "id": "8.488",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ledare, influens och laddningsutjämning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5e-08,
+      1e-08
+    ],
+    "tolerans": [
+      5.1e-10,
+      5.1e-10
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "C",
+      "C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En metallkula A har laddningen 25 nC. En oladdad metallkula B får nudda A, så att laddningen delas, men kulorna behöver inte vara lika stora. På 5,0 cm avstånd är kraften mellan dem \\(5{,}4\\cdot10^{-4}\\) N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den större av de två laddningarna.",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En metallkula A har laddningen 25 nC. En oladdad metallkula B får nudda A, så att laddningen delas, men kulorna behöver inte vara lika stora. På 5,0 cm avstånd är kraften mellan dem \\(5{,}4\\cdot10^{-4}\\) N.</p><p>Bestäm den större av de två laddningarna.</p>",
+        "s": "<p>\\(q_1+q_2=25\\) nC och \\(q_1q_2=\\dfrac{5{,}4\\cdot10^{-4}\\cdot0{,}050^2}{8{,}99\\cdot10^9}=1{,}50\\cdot10^{-16}\\) C². Andragradsekvationen ger 15 nC och 10 nC.</p><p><strong>Svar:</strong> \\(1{,}5\\cdot10^{-8}\\) C</p>",
+        "ledtrad": "<p>Ställ upp summa och produkt av laddningarna.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm den mindre av de två laddningarna.",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En metallkula A har laddningen 25 nC. En oladdad metallkula B får nudda A, så att laddningen delas, men kulorna behöver inte vara lika stora. På 5,0 cm avstånd är kraften mellan dem \\(5{,}4\\cdot10^{-4}\\) N.</p><p>Bestäm den mindre av de två laddningarna.</p>",
+        "s": "<p>\\(25-15\\) nC.</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-8}\\) C</p>",
+        "ledtrad": "<p>Ställ upp summa och produkt av laddningarna.</p>",
+        "niva": "A",
+        "poang": "(0/0/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Laddningen bevaras.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "coulomb__ledare_influens_och_laddningsutjamning",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "laddning hos kula ovanför",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En glaskula har laddningen +20 nC. När en laddad plastkula placeras 1,0 cm rakt ovanför glaskulan påverkas glaskulan av en elektrisk kraft på 0,018 N riktad nedåt. Bestäm plastkulans laddning (med tecken).</p>",
+    "s": "<p>Kraften är riktad bort från plastkulan, alltså repulsion och positiv laddning. \\(q=\\dfrac{0{,}018\\cdot0{,}010^2}{8{,}99\\cdot10^9\\cdot20\\cdot10^{-9}}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-8}\\) C</p>",
+    "id": "8.489",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0011123470522803e-08,
+    "tolerans": 5.1e-10,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Är kraften attraktiv eller repulsiv?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "C",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "typ": "kraft mellan laddningar på y-axeln",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Föremål A (+10 nC) ligger i origo och föremål B (−20 nC) i punkten (0; 2,0 cm). Hur stor är kraften på vardera föremålet?</p>",
+    "s": "<p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{10\\cdot10^{-9}\\cdot20\\cdot10^{-9}}{0{,}020^2}\\). Kraften på A är riktad mot B (uppåt) och kraften på B mot A (nedåt).</p><p><strong>Svar:</strong> \\(0{,}0045\\) N</p>",
+    "id": "8.490",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.004495,
+    "tolerans": 6.74e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kraft och motkraft är lika stora.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "elektron och proton nära laddad kula",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En fixerad glaskula har laddningen +20 nC. Bestäm accelerationen 1,0 cm från kulans centrum för</p><ol type=\"a\"><li>en elektron (\\(9{,}11\\cdot10^{-31}\\) kg).</li><li>en proton (\\(1{,}673\\cdot10^{-27}\\) kg).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{k\\cdot20\\cdot10^{-9}\\cdot e}{0{,}010^2\\cdot9{,}11\\cdot10^{-31}}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{17}\\) m/s²</p></li><li><p>\\(a=\\dfrac{k\\cdot20\\cdot10^{-9}\\cdot e}{0{,}010^2\\cdot1{,}673\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\cdot10^{14}\\) m/s²</p></li></ol>",
+    "id": "8.491",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.161795828759605e+17,
+      172169515839808.72
+    ],
+    "tolerans": [
+      5100000000000000.0,
+      5100000000000.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En fixerad glaskula har laddningen +20 nC. Bestäm accelerationen 1,0 cm från kulans centrum för</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "en elektron (\\(9{,}11\\cdot10^{-31}\\) kg).",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En fixerad glaskula har laddningen +20 nC. Bestäm accelerationen 1,0 cm från kulans centrum för</p><p>en elektron (\\(9{,}11\\cdot10^{-31}\\) kg).</p>",
+        "s": "<p>\\(a=\\dfrac{k\\cdot20\\cdot10^{-9}\\cdot e}{0{,}010^2\\cdot9{,}11\\cdot10^{-31}}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{17}\\) m/s²</p>",
+        "ledtrad": "<p>Coulombs lag och \\(F=ma\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "en proton (\\(1{,}673\\cdot10^{-27}\\) kg).",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En fixerad glaskula har laddningen +20 nC. Bestäm accelerationen 1,0 cm från kulans centrum för</p><p>en proton (\\(1{,}673\\cdot10^{-27}\\) kg).</p>",
+        "s": "<p>\\(a=\\dfrac{k\\cdot20\\cdot10^{-9}\\cdot e}{0{,}010^2\\cdot1{,}673\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\cdot10^{14}\\) m/s²</p>",
+        "ledtrad": "<p>Samma kraft, annan massa.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Kraften är lika stor på elektronen och protonen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "laddning ur acceleration",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två små klot (1,00 g vardera) har lika stora laddningar och sitter 2,00 cm från varandra. När de släpps får de accelerationen 225 m/s². Bestäm laddningens storlek på ett klot.</p>",
+    "s": "<p>\\(F=0{,}00100\\cdot225\\). \\(q=\\sqrt{\\dfrac{F\\cdot0{,}0200^2}{8{,}99\\cdot10^9}}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-7}\\) C</p>",
+    "id": "8.492",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0005560189476052e-07,
+    "tolerans": 5.1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm kraften med \\(F=ma\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "C",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "klot med dubbel laddning",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot A och B är 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan dem är 0,45 N.</p><ol type=\"a\"><li>Bestäm storleken på B:s laddning.</li><li>Bestäm storleken på A:s laddning.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}45=k\\dfrac{2q\\cdot q}{0{,}10^2}\\iff q=\\sqrt{\\dfrac{0{,}45\\cdot0{,}10^2}{2k}}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\cdot10^{-7}\\) C</p></li><li><p>\\(q_A=2q_B\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-6}\\) C</p></li></ol>",
+    "id": "8.493",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.002780094738026e-07,
+      1.000556018947605e-06
+    ],
+    "tolerans": [
+      7.5e-09,
+      5.1e-08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "C",
+      "C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot A och B är 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan dem är 0,45 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm storleken på B:s laddning.",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot A och B är 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan dem är 0,45 N.</p><p>Bestäm storleken på B:s laddning.</p>",
+        "s": "<p>\\(0{,}45=k\\dfrac{2q\\cdot q}{0{,}10^2}\\iff q=\\sqrt{\\dfrac{0{,}45\\cdot0{,}10^2}{2k}}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\cdot10^{-7}\\) C</p>",
+        "ledtrad": "<p>Sätt \\(q_A=2q_B\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm storleken på A:s laddning.",
+        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot A och B är 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan dem är 0,45 N.</p><p>Bestäm storleken på A:s laddning.</p>",
+        "s": "<p>\\(q_A=2q_B\\).</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-6}\\) C</p>",
+        "ledtrad": "<p>Sätt \\(q_A=2q_B\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Uttryck båda laddningarna med samma obekanta.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "A",
+    "typ": "laddade kulor på en fjäder",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En masslös fjäder är 4,0 cm lång och blir 5,0 cm lång när en vikt på 1,0 g hänger i den. Fjädern läggs på ett friktionsfritt isolerande bord med en liten kula i varje ände. Kulorna får lika stor laddning och fjädern blir 4,5 cm lång. Bestäm laddningens storlek på en kula.</p>",
+    "s": "<p>\\(k_f=\\dfrac{0{,}0010\\cdot9{,}82}{0{,}010}=0{,}982\\) N/m. \\(F_E=k_f\\cdot0{,}0050\\). \\(q=0{,}045\\sqrt{\\dfrac{F_E}{k}}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\cdot10^{-8}\\) C</p>",
+    "id": "8.494",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.325626054453517e-08,
+    "tolerans": 5.1e-10,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm fjäderkonstanten först.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "C",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "9.320",

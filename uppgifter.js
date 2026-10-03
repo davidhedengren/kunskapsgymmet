@@ -125157,6 +125157,3156 @@ window.BANK = [
     "svarFormat": "numeriskt"
   },
   {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "inbromsningar",
+    "poang": "(4/0/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En bil bromsar från 90 km/h till 72 km/h med retardationen 1,2 m/s². Hur lång tid tar det?</li><li>Hur långt hinner bilen under inbromsningen?</li><li>En curlingsten med 12 m/s glider 32 m och stannar. Bestäm retardationens storlek.</li><li>En puck stannar efter 52 m på 2,3 s. Med vilken fart sköts den iväg?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{25-20}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) s</p></li><li><p>\\(s=\\dfrac{25+20}{2}\\cdot4{,}17\\).</p><p><strong>Svar:</strong> \\(94\\) m</p></li><li><p>\\(a=\\dfrac{12^2}{2\\cdot32}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m/s²</p></li><li><p>\\(52=\\dfrac{v_0+0}{2}\\cdot2{,}3\\).</p><p><strong>Svar:</strong> \\(45\\) m/s</p></li></ol>",
+    "id": "3.369",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.166666666666667,
+      93.75,
+      2.25,
+      45.21739130434783
+    ],
+    "tolerans": [
+      0.0625,
+      1.41,
+      0.051,
+      0.678
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "m/s²",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bil bromsar från 90 km/h till 72 km/h med retardationen 1,2 m/s². Hur lång tid tar det?",
+        "t": "<p>Bestäm.</p><p>En bil bromsar från 90 km/h till 72 km/h med retardationen 1,2 m/s². Hur lång tid tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{25-20}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) s</p>",
+        "ledtrad": "<p>\\(v=v_0+at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt hinner bilen under inbromsningen?",
+        "t": "<p>Bestäm.</p>Inbromsningen tar 4,2 s.<p>Hur långt hinner bilen under inbromsningen?</p>",
+        "s": "<p>\\(s=\\dfrac{25+20}{2}\\cdot4{,}17\\).</p><p><strong>Svar:</strong> \\(94\\) m</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En curlingsten med 12 m/s glider 32 m och stannar. Bestäm retardationens storlek.",
+        "t": "<p>Bestäm.</p><p>En curlingsten med 12 m/s glider 32 m och stannar. Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(a=\\dfrac{12^2}{2\\cdot32}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m/s²</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En puck stannar efter 52 m på 2,3 s. Med vilken fart sköts den iväg?",
+        "t": "<p>Bestäm.</p><p>En puck stannar efter 52 m på 2,3 s. Med vilken fart sköts den iväg?</p>",
+        "s": "<p>\\(52=\\dfrac{v_0+0}{2}\\cdot2{,}3\\).</p><p><strong>Svar:</strong> \\(45\\) m/s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "elektroner och flygplan",
+    "poang": "(2/1/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>Elektroner accelereras från vila med \\(5\\cdot10^{14}\\) m/s² längs 15 cm. Bestäm slutfarten.</li><li>Hur lång tid tar det?</li><li>Ett plan landar med 310 km/h. Vilken retardation krävs för att stanna på 1 000 m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{2\\cdot5\\cdot10^{14}\\cdot0{,}15}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{7}\\) m/s</p></li><li><p>\\(t=\\dfrac{2\\cdot0{,}15}{1{,}22\\cdot10^7}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\cdot10^{-8}\\) s</p></li><li><p>\\(a=\\dfrac{86{,}1^2}{2\\cdot1\\,000}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p></li></ol>",
+    "id": "3.370",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tidlösa formeln",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12247448.71391589,
+      2.449489742783178e-08,
+      3.7075617283950617
+    ],
+    "tolerans": [
+      510000.0,
+      5.1e-10,
+      0.0556
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Elektroner accelereras från vila med \\(5\\cdot10^{14}\\) m/s² längs 15 cm. Bestäm slutfarten.",
+        "t": "<p>Bestäm.</p><p>Elektroner accelereras från vila med \\(5\\cdot10^{14}\\) m/s² längs 15 cm. Bestäm slutfarten.</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot5\\cdot10^{14}\\cdot0{,}15}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{7}\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det?",
+        "t": "<p>Bestäm.</p>Slutfarten är \\(1{,}2\\cdot10^7\\) m/s.<p>Hur lång tid tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{2\\cdot0{,}15}{1{,}22\\cdot10^7}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\cdot10^{-8}\\) s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett plan landar med 310 km/h. Vilken retardation krävs för att stanna på 1 000 m?",
+        "t": "<p>Bestäm.</p><p>Ett plan landar med 310 km/h. Vilken retardation krävs för att stanna på 1 000 m?</p>",
+        "s": "<p>\\(a=\\dfrac{86{,}1^2}{2\\cdot1\\,000}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__tidlosa_formeln",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "polisbil i kapp tjuv",
+    "poang": "(0/1/1)",
+    "t": "<p>En tjuv kör med konstant 33,4 m/s. En polisbil startar från vila 100 m bakom. Polisen hinner ikapp när tjuven har kört 1,2 km från polisens start. Vilken acceleration har polisbilen minst?</p>",
+    "s": "<p>\\(t=\\dfrac{1\\,200}{33{,}4}\\). Polisen kör 1 300 m: \\(a=\\dfrac{2\\cdot1\\,300}{t^2}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s²</p>",
+    "id": "3.371",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Möte och ikapp",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0142055555555554,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma tid för båda.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s²",
+    "familjNyckel": "konstacc__mote_och_ikapp",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "inbromsning till övergångsställe",
+    "poang": "(2/0/0)",
+    "t": "<p>En bil har farten 50 km/h när den är 40 m från ett övergångsställe och bromsar med konstant retardation så att den stannar precis där.</p><ol type=\"a\"><li>Hur lång tid tar inbromsningen?</li><li>Bestäm retardationens storlek.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{2\\cdot40}{13{,}9}\\).</p><p><strong>Svar:</strong> \\(5{,}8\\) s</p></li><li><p>\\(a=\\dfrac{13{,}9^2}{2\\cdot40}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\) m/s²</p></li></ol>",
+    "id": "3.372",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Reaktions- och bromssträcka",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.76,
+      2.4112654320987654
+    ],
+    "tolerans": [
+      0.0864,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil har farten 50 km/h när den är 40 m från ett övergångsställe och bromsar med konstant retardation så att den stannar precis där.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar inbromsningen?",
+        "t": "<p>En bil har farten 50 km/h när den är 40 m från ett övergångsställe och bromsar med konstant retardation så att den stannar precis där.</p><p>Hur lång tid tar inbromsningen?</p>",
+        "s": "<p>\\(t=\\dfrac{2\\cdot40}{13{,}9}\\).</p><p><strong>Svar:</strong> \\(5{,}8\\) s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm retardationens storlek.",
+        "t": "<p>En bil har farten 50 km/h när den är 40 m från ett övergångsställe och bromsar med konstant retardation så att den stannar precis där.</p><p>Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(a=\\dfrac{13{,}9^2}{2\\cdot40}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\) m/s²</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "konstacc__reaktions_och_bromsstracka",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "pulka och bil",
+    "poang": "(3/0/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>Kalle åker från vila 20 m nedför en backe på 4,2 s. Vilken fart har han längst ner?</li><li>En bil med 45 km/h accelererar med 1,4 m/s². Hur lång tid tar det att nå 75 km/h?</li><li>Hur lång sträcka har bilen kört då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{2\\cdot20}{4{,}2}\\).</p><p><strong>Svar:</strong> \\(9{,}5\\) m/s</p></li><li><p>\\(t=\\dfrac{20{,}8-12{,}5}{1{,}4}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) s</p></li><li><p>\\(s=\\dfrac{12{,}5+20{,}8}{2}\\cdot5{,}95\\).</p><p><strong>Svar:</strong> \\(99\\) m</p></li></ol>",
+    "id": "3.373",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.523809523809524,
+      5.952380952380953,
+      99.20634920634919
+    ],
+    "tolerans": [
+      0.143,
+      0.0893,
+      1.49
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Kalle åker från vila 20 m nedför en backe på 4,2 s. Vilken fart har han längst ner?",
+        "t": "<p>Bestäm.</p><p>Kalle åker från vila 20 m nedför en backe på 4,2 s. Vilken fart har han längst ner?</p>",
+        "s": "<p>\\(v=\\dfrac{2\\cdot20}{4{,}2}\\).</p><p><strong>Svar:</strong> \\(9{,}5\\) m/s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil med 45 km/h accelererar med 1,4 m/s². Hur lång tid tar det att nå 75 km/h?",
+        "t": "<p>Bestäm.</p><p>En bil med 45 km/h accelererar med 1,4 m/s². Hur lång tid tar det att nå 75 km/h?</p>",
+        "s": "<p>\\(t=\\dfrac{20{,}8-12{,}5}{1{,}4}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) s</p>",
+        "ledtrad": "<p>\\(v=v_0+at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång sträcka har bilen kört då?",
+        "t": "<p>Bestäm.</p>Det tar 6,0 s.<p>Hur lång sträcka har bilen kört då?</p>",
+        "s": "<p>\\(s=\\dfrac{12{,}5+20{,}8}{2}\\cdot5{,}95\\).</p><p><strong>Svar:</strong> \\(99\\) m</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "cyklist accelererar och kör vidare",
+    "poang": "(1/1/0)",
+    "t": "<p>En cyklist startar från vila med accelerationen 2,50 m/s² i 5,00 s och kör sedan med konstant fart.</p><ol type=\"a\"><li>Bestäm farten efter accelerationen.</li><li>Efter hur lång tid har cyklisten kört 200 m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=2{,}50\\cdot5{,}00\\).</p><p><strong>Svar:</strong> \\(12{,}5\\) m/s</p></li><li><p>Under accelerationen: 31,25 m. Resten: \\(\\dfrac{168{,}75}{12{,}5}=13{,}5\\) s.</p><p><strong>Svar:</strong> \\(18{,}5\\) s</p></li></ol>",
+    "id": "3.374",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12.5,
+      18.5
+    ],
+    "tolerans": [
+      0.188,
+      0.277
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En cyklist startar från vila med accelerationen 2,50 m/s² i 5,00 s och kör sedan med konstant fart.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm farten efter accelerationen.",
+        "t": "<p>En cyklist startar från vila med accelerationen 2,50 m/s² i 5,00 s och kör sedan med konstant fart.</p><p>Bestäm farten efter accelerationen.</p>",
+        "s": "<p>\\(v=2{,}50\\cdot5{,}00\\).</p><p><strong>Svar:</strong> \\(12{,}5\\) m/s</p>",
+        "ledtrad": "<p>\\(v=at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur lång tid har cyklisten kört 200 m?",
+        "t": "<p>En cyklist startar från vila med accelerationen 2,50 m/s² i 5,00 s och kör sedan med konstant fart.</p>Farten är 12,5 m/s.<p>Efter hur lång tid har cyklisten kört 200 m?</p>",
+        "s": "<p>Under accelerationen: 31,25 m. Resten: \\(\\dfrac{168{,}75}{12{,}5}=13{,}5\\) s.</p><p><strong>Svar:</strong> \\(18{,}5\\) s</p>",
+        "ledtrad": "<p>Dela upp i två delar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "acceleration följd av inbromsning",
+    "poang": "(1/2/0)",
+    "t": "<p>En bil med 13,5 m/s accelererar med 1,9 m/s² i 6,2 s och bromsar sedan med 1,2 m/s² tills den stannar.</p><ol type=\"a\"><li>Bestäm högsta farten.</li><li>Hur lång tid tar det totalt från att accelerationen börjar tills bilen står still?</li><li>Hur långt kör bilen totalt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=13{,}5+1{,}9\\cdot6{,}2\\).</p><p><strong>Svar:</strong> \\(25\\) m/s</p></li><li><p>\\(t=6{,}2+\\dfrac{25{,}3}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(27\\) s</p></li><li><p>\\(s=\\dfrac{13{,}5+25{,}3}{2}\\cdot6{,}2+\\dfrac{25{,}3^2}{2\\cdot1{,}2}\\).</p><p><strong>Svar:</strong> \\(387\\) m</p></li></ol>",
+    "id": "3.375",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      25.28,
+      27.26666666666667,
+      386.50066666666675
+    ],
+    "tolerans": [
+      0.51,
+      0.51,
+      5.8
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bil med 13,5 m/s accelererar med 1,9 m/s² i 6,2 s och bromsar sedan med 1,2 m/s² tills den stannar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm högsta farten.",
+        "t": "<p>En bil med 13,5 m/s accelererar med 1,9 m/s² i 6,2 s och bromsar sedan med 1,2 m/s² tills den stannar.</p><p>Bestäm högsta farten.</p>",
+        "s": "<p>\\(v=13{,}5+1{,}9\\cdot6{,}2\\).</p><p><strong>Svar:</strong> \\(25\\) m/s</p>",
+        "ledtrad": "<p>\\(v=v_0+at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det totalt från att accelerationen börjar tills bilen står still?",
+        "t": "<p>En bil med 13,5 m/s accelererar med 1,9 m/s² i 6,2 s och bromsar sedan med 1,2 m/s² tills den stannar.</p>Högsta farten är 25,3 m/s.<p>Hur lång tid tar det totalt från att accelerationen börjar tills bilen står still?</p>",
+        "s": "<p>\\(t=6{,}2+\\dfrac{25{,}3}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(27\\) s</p>",
+        "ledtrad": "<p>Två faser.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt kör bilen totalt?",
+        "t": "<p>En bil med 13,5 m/s accelererar med 1,9 m/s² i 6,2 s och bromsar sedan med 1,2 m/s² tills den stannar.</p>Högsta farten är 25,3 m/s.<p>Hur långt kör bilen totalt?</p>",
+        "s": "<p>\\(s=\\dfrac{13{,}5+25{,}3}{2}\\cdot6{,}2+\\dfrac{25{,}3^2}{2\\cdot1{,}2}\\).</p><p><strong>Svar:</strong> \\(387\\) m</p>",
+        "ledtrad": "<p>Två faser.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "dubbel fart ger fyrdubbel bromssträcka",
+    "poang": "(1/1/0)",
+    "t": "<p>Bil A kör i 50 km/h och bil B i 100 km/h. Båda bromsar med retardationen 3,50 m/s² till stillastående.</p><ol type=\"a\"><li>Bestäm kvoten mellan B:s och A:s stopptider.</li><li>Bestäm kvoten mellan B:s och A:s stoppsträckor.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t\\propto v_0\\).</p><p><strong>Svar:</strong> \\(2{,}0\\)</p></li><li><p>\\(s\\propto v_0^2\\).</p><p><strong>Svar:</strong> \\(4{,}0\\)</p></li></ol>",
+    "id": "3.376",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Reaktions- och bromssträcka",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      4
+    ],
+    "tolerans": [
+      0.051,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bil A kör i 50 km/h och bil B i 100 km/h. Båda bromsar med retardationen 3,50 m/s² till stillastående.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm kvoten mellan B:s och A:s stopptider.",
+        "t": "<p>Bil A kör i 50 km/h och bil B i 100 km/h. Båda bromsar med retardationen 3,50 m/s² till stillastående.</p><p>Bestäm kvoten mellan B:s och A:s stopptider.</p>",
+        "s": "<p>\\(t\\propto v_0\\).</p><p><strong>Svar:</strong> \\(2{,}0\\)</p>",
+        "ledtrad": "<p>\\(t=\\dfrac{v_0}{a}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm kvoten mellan B:s och A:s stoppsträckor.",
+        "t": "<p>Bil A kör i 50 km/h och bil B i 100 km/h. Båda bromsar med retardationen 3,50 m/s² till stillastående.</p><p>Bestäm kvoten mellan B:s och A:s stoppsträckor.</p>",
+        "s": "<p>\\(s\\propto v_0^2\\).</p><p><strong>Svar:</strong> \\(4{,}0\\)</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__reaktions_och_bromsstracka",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "start och landning",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett flygplan lyfter vid 250 km/h och accelererar med 3,0 m/s².</p><ol type=\"a\"><li>Hur lång tid tar starten?</li><li>Hur lång startbana behövs minst?</li><li>Vid landning med samma fart är retardationen 2,4 m/s². Hur lång landningsbana behövs?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{69{,}4}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(23\\) s</p></li><li><p>\\(s=\\dfrac{69{,}4^2}{2\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(804\\) m</p></li><li><p>\\(s=\\dfrac{69{,}4^2}{2\\cdot2{,}4}\\).</p><p><strong>Svar:</strong> \\(1\\,005\\) m</p></li></ol>",
+    "id": "3.377",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tidlösa formeln",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      23.14814814814815,
+      803.7551440329217,
+      1004.6939300411523
+    ],
+    "tolerans": [
+      0.51,
+      12.1,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett flygplan lyfter vid 250 km/h och accelererar med 3,0 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar starten?",
+        "t": "<p>Ett flygplan lyfter vid 250 km/h och accelererar med 3,0 m/s².</p><p>Hur lång tid tar starten?</p>",
+        "s": "<p>\\(t=\\dfrac{69{,}4}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(23\\) s</p>",
+        "ledtrad": "<p>\\(v=at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång startbana behövs minst?",
+        "t": "<p>Ett flygplan lyfter vid 250 km/h och accelererar med 3,0 m/s².</p><p>Hur lång startbana behövs minst?</p>",
+        "s": "<p>\\(s=\\dfrac{69{,}4^2}{2\\cdot3{,}0}\\).</p><p><strong>Svar:</strong> \\(804\\) m</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vid landning med samma fart är retardationen 2,4 m/s². Hur lång landningsbana behövs?",
+        "t": "<p>Ett flygplan lyfter vid 250 km/h och accelererar med 3,0 m/s².</p><p>Vid landning med samma fart är retardationen 2,4 m/s². Hur lång landningsbana behövs?</p>",
+        "s": "<p>\\(s=\\dfrac{69{,}4^2}{2\\cdot2{,}4}\\).</p><p><strong>Svar:</strong> \\(1\\,005\\) m</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "konstacc__tidlosa_formeln",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "hinner bilen stanna vid ljuset",
+    "poang": "(0/1/0)",
+    "t": "<p>En bilförare med 50 km/h är 35 m från ett trafikljus. Reaktionstiden är 0,60 s och retardationen sedan 3,0 m/s². Hur långt förbi stopplinjen stannar bilen?</p>",
+    "s": "<p>Reaktionssträcka \\(13{,}9\\cdot0{,}60\\), bromssträcka \\(\\dfrac{13{,}9^2}{2\\cdot3{,}0}\\). Överskott: summan minus 35 m.</p><p><strong>Svar:</strong> \\(5{,}5\\) m</p>",
+    "id": "3.378",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Reaktions- och bromssträcka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.483539094650212,
+    "tolerans": 0.0823,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Reaktionssträcka plus bromssträcka.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "konstacc__reaktions_och_bromsstracka",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "golfputt",
+    "poang": "(0/2/0)",
+    "t": "<p>En golfboll puttas med 2,52 m/s och retarderar med 0,65 m/s² rakt mot hålet 4,80 m bort.</p><ol type=\"a\"><li>Hur långt skulle bollen rulla om hålet inte fanns?</li><li>Vilken fart har bollen vid hålet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=\\dfrac{2{,}52^2}{2\\cdot0{,}65}\\). Den når alltså hålet.</p><p><strong>Svar:</strong> \\(4{,}88\\) m</p></li><li><p>\\(v=\\sqrt{2{,}52^2-2\\cdot0{,}65\\cdot4{,}80}\\).</p><p><strong>Svar:</strong> \\(0{,}33\\) m/s</p></li></ol>",
+    "id": "3.379",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Tidlösa formeln",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.884923076923077,
+      0.3322649545167234
+    ],
+    "tolerans": [
+      0.0733,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En golfboll puttas med 2,52 m/s och retarderar med 0,65 m/s² rakt mot hålet 4,80 m bort.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt skulle bollen rulla om hålet inte fanns?",
+        "t": "<p>En golfboll puttas med 2,52 m/s och retarderar med 0,65 m/s² rakt mot hålet 4,80 m bort.</p><p>Hur långt skulle bollen rulla om hålet inte fanns?</p>",
+        "s": "<p>\\(s=\\dfrac{2{,}52^2}{2\\cdot0{,}65}\\). Den når alltså hålet.</p><p><strong>Svar:</strong> \\(4{,}88\\) m</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har bollen vid hålet?",
+        "t": "<p>En golfboll puttas med 2,52 m/s och retarderar med 0,65 m/s² rakt mot hålet 4,80 m bort.</p><p>Vilken fart har bollen vid hålet?</p>",
+        "s": "<p>\\(v=\\sqrt{2{,}52^2-2\\cdot0{,}65\\cdot4{,}80}\\).</p><p><strong>Svar:</strong> \\(0{,}33\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__tidlosa_formeln",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "mängdträning: sträcka och fart",
+    "poang": "(4/0/0)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Farten i A är 31 m/s och retardationen 2,5 m/s². Bestäm farten i B 12 s senare.</li><li>Farten i A är 35,0 m/s och retardationen 0,800 m/s². Bestäm avståndet AB om det tar 15,0 s.</li><li>Farten i A är 8,0 m/s och accelerationen 2,0 m/s². Bestäm farten i B om AB = 56,25 m.</li><li>Farten är 8,0 m/s i A och 30 m/s i B 15 s senare. Bestäm AB.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=31-2{,}5\\cdot12\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s</p></li><li><p>\\(s=35{,}0\\cdot15{,}0-\\dfrac{0{,}800\\cdot15{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(435\\) m</p></li><li><p>\\(v=\\sqrt{8{,}0^2+2\\cdot2{,}0\\cdot56{,}25}\\).</p><p><strong>Svar:</strong> \\(17\\) m/s</p></li><li><p>\\(s=\\dfrac{8{,}0+30}{2}\\cdot15\\).</p><p><strong>Svar:</strong> \\(285\\) m</p></li></ol>",
+    "id": "3.380",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      435,
+      17,
+      285
+    ],
+    "tolerans": [
+      0.051,
+      6.52,
+      0.51,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m",
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Farten i A är 31 m/s och retardationen 2,5 m/s². Bestäm farten i B 12 s senare.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 31 m/s och retardationen 2,5 m/s². Bestäm farten i B 12 s senare.</p>",
+        "s": "<p>\\(v=31-2{,}5\\cdot12\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s</p>",
+        "ledtrad": "<p>\\(v=v_0+at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Farten i A är 35,0 m/s och retardationen 0,800 m/s². Bestäm avståndet AB om det tar 15,0 s.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 35,0 m/s och retardationen 0,800 m/s². Bestäm avståndet AB om det tar 15,0 s.</p>",
+        "s": "<p>\\(s=35{,}0\\cdot15{,}0-\\dfrac{0{,}800\\cdot15{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(435\\) m</p>",
+        "ledtrad": "<p>\\(s=v_0t+\\dfrac{at^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Farten i A är 8,0 m/s och accelerationen 2,0 m/s². Bestäm farten i B om AB = 56,25 m.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 8,0 m/s och accelerationen 2,0 m/s². Bestäm farten i B om AB = 56,25 m.</p>",
+        "s": "<p>\\(v=\\sqrt{8{,}0^2+2\\cdot2{,}0\\cdot56{,}25}\\).</p><p><strong>Svar:</strong> \\(17\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Farten är 8,0 m/s i A och 30 m/s i B 15 s senare. Bestäm AB.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten är 8,0 m/s i A och 30 m/s i B 15 s senare. Bestäm AB.</p>",
+        "s": "<p>\\(s=\\dfrac{8{,}0+30}{2}\\cdot15\\).</p><p><strong>Svar:</strong> \\(285\\) m</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "mängdträning: tid och acceleration",
+    "poang": "(3/1/0)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Farten i A är 23 m/s och retardationen 0,50 m/s². I B är farten 12 m/s. Hur lång tid tar det?</li><li>Farten i A är 23 m/s. Partikeln färdas 52 m till B på 4,0 s. Bestäm retardationens storlek.</li><li>Farten i A är 28 m/s, retardationen 2,25 m/s² och farten i B 19 m/s. Bestäm AB.</li><li>Farten är 23 m/s i A och 20 m/s i B, och AB = 24 m. Hur lång tid tar det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{23-12}{0{,}50}\\).</p><p><strong>Svar:</strong> \\(22\\) s</p></li><li><p>\\(52=23\\cdot4{,}0-\\dfrac{a\\cdot4{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) m/s²</p></li><li><p>\\(s=\\dfrac{28^2-19^2}{2\\cdot2{,}25}\\).</p><p><strong>Svar:</strong> \\(94\\) m</p></li><li><p>\\(t=\\dfrac{24}{(23+20)/2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) s</p></li></ol>",
+    "id": "3.381",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      22,
+      5.0,
+      94.0,
+      1.1162790697674418
+    ],
+    "tolerans": [
+      0.51,
+      0.075,
+      1.41,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s²",
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Farten i A är 23 m/s och retardationen 0,50 m/s². I B är farten 12 m/s. Hur lång tid tar det?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 23 m/s och retardationen 0,50 m/s². I B är farten 12 m/s. Hur lång tid tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{23-12}{0{,}50}\\).</p><p><strong>Svar:</strong> \\(22\\) s</p>",
+        "ledtrad": "<p>\\(v=v_0+at\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Farten i A är 23 m/s. Partikeln färdas 52 m till B på 4,0 s. Bestäm retardationens storlek.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 23 m/s. Partikeln färdas 52 m till B på 4,0 s. Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(52=23\\cdot4{,}0-\\dfrac{a\\cdot4{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) m/s²</p>",
+        "ledtrad": "<p>\\(s=v_0t+\\dfrac{at^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Farten i A är 28 m/s, retardationen 2,25 m/s² och farten i B 19 m/s. Bestäm AB.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 28 m/s, retardationen 2,25 m/s² och farten i B 19 m/s. Bestäm AB.</p>",
+        "s": "<p>\\(s=\\dfrac{28^2-19^2}{2\\cdot2{,}25}\\).</p><p><strong>Svar:</strong> \\(94\\) m</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Farten är 23 m/s i A och 20 m/s i B, och AB = 24 m. Hur lång tid tar det?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten är 23 m/s i A och 20 m/s i B, och AB = 24 m. Hur lång tid tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{24}{(23+20)/2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "mängdträning: okänd startfart",
+    "poang": "(2/2/0)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Farten i B är 3,0 m/s 15 s efter A, och AB = 247,5 m. Bestäm retardationens storlek.</li><li>Accelerationen är 2,5 m/s², och AB = 282,75 m nås på 13 s. Bestäm farten i A.</li><li>Farten är 4,0 m/s i A och 28 m/s i B, och AB = 320 m. Bestäm accelerationen.</li><li>Farten i B är 9,0 m/s 12 s efter A, och AB = 126 m. Bestäm farten i A.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(247{,}5=\\dfrac{v+3{,}0}{2}\\cdot15\\iff v=30\\). \\(a=\\dfrac{30-3{,}0}{15}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) m/s²</p></li><li><p>\\(282{,}75=13v+\\dfrac{2{,}5\\cdot13^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}5\\) m/s</p></li><li><p>\\(a=\\dfrac{28^2-4{,}0^2}{2\\cdot320}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m/s²</p></li><li><p>\\(126=\\dfrac{v+9{,}0}{2}\\cdot12\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p></li></ol>",
+    "id": "3.382",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.8,
+      5.5,
+      1.2,
+      12
+    ],
+    "tolerans": [
+      0.051,
+      0.0825,
+      0.051,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s",
+      "m/s²",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Farten i B är 3,0 m/s 15 s efter A, och AB = 247,5 m. Bestäm retardationens storlek.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i B är 3,0 m/s 15 s efter A, och AB = 247,5 m. Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(247{,}5=\\dfrac{v+3{,}0}{2}\\cdot15\\iff v=30\\). \\(a=\\dfrac{30-3{,}0}{15}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) m/s²</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Accelerationen är 2,5 m/s², och AB = 282,75 m nås på 13 s. Bestäm farten i A.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Accelerationen är 2,5 m/s², och AB = 282,75 m nås på 13 s. Bestäm farten i A.</p>",
+        "s": "<p>\\(282{,}75=13v+\\dfrac{2{,}5\\cdot13^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}5\\) m/s</p>",
+        "ledtrad": "<p>\\(s=v_0t+\\dfrac{at^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Farten är 4,0 m/s i A och 28 m/s i B, och AB = 320 m. Bestäm accelerationen.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten är 4,0 m/s i A och 28 m/s i B, och AB = 320 m. Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{28^2-4{,}0^2}{2\\cdot320}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m/s²</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Farten i B är 9,0 m/s 12 s efter A, och AB = 126 m. Bestäm farten i A.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i B är 9,0 m/s 12 s efter A, och AB = 126 m. Bestäm farten i A.</p>",
+        "s": "<p>\\(126=\\dfrac{v+9{,}0}{2}\\cdot12\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "mängdträning: andragradsekvationer",
+    "poang": "(1/3/0)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Retardationen är 1,50 m/s², det tar 9,00 s och AB = 78,75 m. Bestäm farten i B.</li><li>Farten i A är 23 m/s, accelerationen 4,0 m/s² och AB = 59,5 m. Hur lång tid tar det?</li><li>Retardationen är 6,0 m/s², farten i B 14 m/s och AB = 40 m. Bestäm farten i A.</li><li>Farten i A är 7,00 m/s, det tar 4,00 s och AB = 56,8 m. Bestäm farten i B.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(78{,}75=9{,}00u-\\dfrac{1{,}50\\cdot81}{2}\\iff u=15{,}5\\) m/s i A. \\(v_B=15{,}5-1{,}50\\cdot9{,}00\\).</p><p><strong>Svar:</strong> \\(2{,}00\\) m/s</p></li><li><p>\\(59{,}5=23t+2{,}0t^2\\iff t=\\dfrac{-23+\\sqrt{23^2+8\\cdot59{,}5}}{4}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) s</p></li><li><p>\\(v=\\sqrt{14^2+2\\cdot6{,}0\\cdot40}\\).</p><p><strong>Svar:</strong> \\(26\\) m/s</p></li><li><p>\\(v_B=\\dfrac{2\\cdot56{,}8}{4{,}00}-7{,}00\\).</p><p><strong>Svar:</strong> \\(21{,}4\\) m/s</p></li></ol>",
+    "id": "3.383",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2.175433742073679,
+      26,
+      21.4
+    ],
+    "tolerans": [
+      0.03,
+      0.051,
+      0.51,
+      0.321
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Retardationen är 1,50 m/s², det tar 9,00 s och AB = 78,75 m. Bestäm farten i B.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Retardationen är 1,50 m/s², det tar 9,00 s och AB = 78,75 m. Bestäm farten i B.</p>",
+        "s": "<p>\\(78{,}75=9{,}00u-\\dfrac{1{,}50\\cdot81}{2}\\iff u=15{,}5\\) m/s i A. \\(v_B=15{,}5-1{,}50\\cdot9{,}00\\).</p><p><strong>Svar:</strong> \\(2{,}00\\) m/s</p>",
+        "ledtrad": "<p>Bestäm farten i A först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Farten i A är 23 m/s, accelerationen 4,0 m/s² och AB = 59,5 m. Hur lång tid tar det?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 23 m/s, accelerationen 4,0 m/s² och AB = 59,5 m. Hur lång tid tar det?</p>",
+        "s": "<p>\\(59{,}5=23t+2{,}0t^2\\iff t=\\dfrac{-23+\\sqrt{23^2+8\\cdot59{,}5}}{4}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) s</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Retardationen är 6,0 m/s², farten i B 14 m/s och AB = 40 m. Bestäm farten i A.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Retardationen är 6,0 m/s², farten i B 14 m/s och AB = 40 m. Bestäm farten i A.</p>",
+        "s": "<p>\\(v=\\sqrt{14^2+2\\cdot6{,}0\\cdot40}\\).</p><p><strong>Svar:</strong> \\(26\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Farten i A är 7,00 m/s, det tar 4,00 s och AB = 56,8 m. Bestäm farten i B.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 7,00 m/s, det tar 4,00 s och AB = 56,8 m. Bestäm farten i B.</p>",
+        "s": "<p>\\(v_B=\\dfrac{2\\cdot56{,}8}{4{,}00}-7{,}00\\).</p><p><strong>Svar:</strong> \\(21{,}4\\) m/s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "mängdträning: två storheter",
+    "poang": "(2/2/0)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><ol type=\"a\"><li>Farten i A är 11,0 m/s och AB = 111 m nås på 6,0 s. Bestäm accelerationen.</li><li>Farten är 32,0 m/s i A och 18 m/s i B med retardationen 1,75 m/s². Bestäm AB.</li><li>Farten är 9,0 m/s i A och 18 m/s i B, och AB = 162 m. Bestäm accelerationen.</li><li>Farten i B är 9,6 m/s 2,5 s efter A, och AB = 27 m. Bestäm retardationens storlek.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(111=11{,}0\\cdot6{,}0+\\dfrac{a\\cdot36}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s²</p></li><li><p>\\(s=\\dfrac{32{,}0^2-18^2}{2\\cdot1{,}75}\\).</p><p><strong>Svar:</strong> \\(200\\) m</p></li><li><p>\\(a=\\dfrac{18^2-9{,}0^2}{2\\cdot162}\\).</p><p><strong>Svar:</strong> \\(0{,}75\\) m/s²</p></li><li><p>\\(27=\\dfrac{v+9{,}6}{2}\\cdot2{,}5\\iff v=12\\). \\(a=\\dfrac{12-9{,}6}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(0{,}96\\) m/s²</p></li></ol>",
+    "id": "3.384",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.5,
+      200,
+      0.75,
+      0.96
+    ],
+    "tolerans": [
+      0.051,
+      5.1,
+      0.0112,
+      0.0144
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m",
+      "m/s²",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Farten i A är 11,0 m/s och AB = 111 m nås på 6,0 s. Bestäm accelerationen.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>Farten i A är 11,0 m/s och AB = 111 m nås på 6,0 s. Bestäm accelerationen.</p>",
+        "s": "<p>\\(111=11{,}0\\cdot6{,}0+\\dfrac{a\\cdot36}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s²</p>",
+        "ledtrad": "<p>\\(s=v_0t+\\dfrac{at^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Farten är 32,0 m/s i A och 18 m/s i B med retardationen 1,75 m/s². Bestäm AB.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>Farten är 32,0 m/s i A och 18 m/s i B med retardationen 1,75 m/s². Bestäm AB.</p>",
+        "s": "<p>\\(s=\\dfrac{32{,}0^2-18^2}{2\\cdot1{,}75}\\).</p><p><strong>Svar:</strong> \\(200\\) m</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Farten är 9,0 m/s i A och 18 m/s i B, och AB = 162 m. Bestäm accelerationen.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>Farten är 9,0 m/s i A och 18 m/s i B, och AB = 162 m. Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{18^2-9{,}0^2}{2\\cdot162}\\).</p><p><strong>Svar:</strong> \\(0{,}75\\) m/s²</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Farten i B är 9,6 m/s 2,5 s efter A, och AB = 27 m. Bestäm retardationens storlek.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>Farten i B är 9,6 m/s 2,5 s efter A, och AB = 27 m. Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(27=\\dfrac{v+9{,}6}{2}\\cdot2{,}5\\iff v=12\\). \\(a=\\dfrac{12-9{,}6}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(0{,}96\\) m/s²</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "två möjliga tider",
+    "poang": "(0/1/1)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel med accelerationen 1,25 m/s² har farten 11,0 m/s i B. Avståndet AB är 43,5 m. Bestäm den kortaste möjliga tiden från A till B.</p>",
+    "s": "<p>\\(v_A^2=11{,}0^2-2\\cdot1{,}25\\cdot43{,}5=12{,}25\\iff v_A=\\pm3{,}5\\). Med \\(v_A=3{,}5\\): \\(t=\\dfrac{11{,}0-3{,}5}{1{,}25}\\). (Med \\(-3{,}5\\) blir tiden 11,6 s.)</p><p><strong>Svar:</strong> \\(6{,}00\\) s</p>",
+    "id": "3.385",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0.09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 4,
+    "svarEnhet": "s",
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "tre punkter A, B och C",
+    "poang": "(0/4/1)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><ol type=\"a\"><li>AB = 300 m och BC = 200 m. En bil passerar A med 5,0 m/s och C 20 s senare. Bestäm accelerationen.</li><li>Bestäm bilens fart i B.</li><li>AB = 28 m. En annan bil passerar A med 11 m/s, B med 15 m/s och C med 29 m/s. Bestäm AC.</li><li>Hur lång tid tar det för den bilen från A till C?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(500=5{,}0\\cdot20+\\dfrac{a\\cdot20^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s²</p></li><li><p>\\(v_B=\\sqrt{5{,}0^2+2\\cdot2{,}0\\cdot300}\\).</p><p><strong>Svar:</strong> \\(35\\) m/s</p></li><li><p>\\(a=\\dfrac{15^2-11^2}{2\\cdot28}=1{,}857\\) m/s². \\(AC=\\dfrac{29^2-11^2}{2a}\\).</p><p><strong>Svar:</strong> \\(194\\) m</p></li><li><p>\\(t=\\dfrac{29-11}{1{,}857}\\).</p><p><strong>Svar:</strong> \\(9{,}7\\) s</p></li></ol>",
+    "id": "3.386",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.0,
+      35.0,
+      193.84615384615384,
+      9.692307692307692
+    ],
+    "tolerans": [
+      0.051,
+      0.525,
+      5.1,
+      0.145
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s",
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "AB = 300 m och BC = 200 m. En bil passerar A med 5,0 m/s och C 20 s senare. Bestäm accelerationen.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>AB = 300 m och BC = 200 m. En bil passerar A med 5,0 m/s och C 20 s senare. Bestäm accelerationen.</p>",
+        "s": "<p>\\(500=5{,}0\\cdot20+\\dfrac{a\\cdot20^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s²</p>",
+        "ledtrad": "<p>\\(s=v_0t+\\dfrac{at^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm bilens fart i B.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p>Accelerationen är 2,0 m/s².<p>Bestäm bilens fart i B.</p>",
+        "s": "<p>\\(v_B=\\sqrt{5{,}0^2+2\\cdot2{,}0\\cdot300}\\).</p><p><strong>Svar:</strong> \\(35\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "AB = 28 m. En annan bil passerar A med 11 m/s, B med 15 m/s och C med 29 m/s. Bestäm AC.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>AB = 28 m. En annan bil passerar A med 11 m/s, B med 15 m/s och C med 29 m/s. Bestäm AC.</p>",
+        "s": "<p>\\(a=\\dfrac{15^2-11^2}{2\\cdot28}=1{,}857\\) m/s². \\(AC=\\dfrac{29^2-11^2}{2a}\\).</p><p><strong>Svar:</strong> \\(194\\) m</p>",
+        "ledtrad": "<p>Bestäm accelerationen ur AB.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur lång tid tar det för den bilen från A till C?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p>Accelerationen är 1,86 m/s².<p>Hur lång tid tar det för den bilen från A till C?</p>",
+        "s": "<p>\\(t=\\dfrac{29-11}{1{,}857}\\).</p><p><strong>Svar:</strong> \\(9{,}7\\) s</p>",
+        "ledtrad": "<p>\\(v=v_0+at\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "bromsa och accelerera igen",
+    "poang": "(1/2/0)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>AB = 476 m och BC = 855 m. En bil passerar A med 24 m/s och retarderar likformigt till 10 m/s i B. Sedan accelererar den likformigt och når C 45 s efter B.</p><ol type=\"a\"><li>Bestäm retardationens storlek mellan A och B.</li><li>Bestäm accelerationen mellan B och C.</li><li>Bestäm medelfarten från A till C.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{24^2-10^2}{2\\cdot476}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m/s²</p></li><li><p>\\(855=10\\cdot45+\\dfrac{a\\cdot45^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) m/s²</p></li><li><p>Tid A–B: \\(\\dfrac{24-10}{0{,}5}=28\\) s. \\(\\bar v=\\dfrac{1\\,331}{28+45}\\).</p><p><strong>Svar:</strong> \\(18\\) m/s</p></li></ol>",
+    "id": "3.387",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5,
+      0.4,
+      18.232876712328768
+    ],
+    "tolerans": [
+      0.0075,
+      0.006,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s²",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>AB = 476 m och BC = 855 m. En bil passerar A med 24 m/s och retarderar likformigt till 10 m/s i B. Sedan accelererar den likformigt och når C 45 s efter B.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm retardationens storlek mellan A och B.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>AB = 476 m och BC = 855 m. En bil passerar A med 24 m/s och retarderar likformigt till 10 m/s i B. Sedan accelererar den likformigt och når C 45 s efter B.</p><p>Bestäm retardationens storlek mellan A och B.</p>",
+        "s": "<p>\\(a=\\dfrac{24^2-10^2}{2\\cdot476}\\).</p><p><strong>Svar:</strong> \\(0{,}50\\) m/s²</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm accelerationen mellan B och C.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>AB = 476 m och BC = 855 m. En bil passerar A med 24 m/s och retarderar likformigt till 10 m/s i B. Sedan accelererar den likformigt och når C 45 s efter B.</p><p>Bestäm accelerationen mellan B och C.</p>",
+        "s": "<p>\\(855=10\\cdot45+\\dfrac{a\\cdot45^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) m/s²</p>",
+        "ledtrad": "<p>\\(s=v_0t+\\dfrac{at^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm medelfarten från A till C.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>AB = 476 m och BC = 855 m. En bil passerar A med 24 m/s och retarderar likformigt till 10 m/s i B. Sedan accelererar den likformigt och når C 45 s efter B.</p><p>Bestäm medelfarten från A till C.</p>",
+        "s": "<p>Tid A–B: \\(\\dfrac{24-10}{0{,}5}=28\\) s. \\(\\bar v=\\dfrac{1\\,331}{28+45}\\).</p><p><strong>Svar:</strong> \\(18\\) m/s</p>",
+        "ledtrad": "<p>Total sträcka delat med total tid.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "tid till mittpunkten",
+    "poang": "(1/1/1)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 12 s senare B med 18 m/s. AB = 180 m.</p><ol type=\"a\"><li>Bestäm \\(v\\).</li><li>Hur lång tid tar det från A till mittpunkten på AB (två decimaler)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(180=\\dfrac{v+18}{2}\\cdot12\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p></li><li><p>\\(a=0{,}50\\) m/s². \\(90=12t+0{,}25t^2\\iff t=\\dfrac{-48+\\sqrt{48^2+1\\,440}}{2}\\).</p><p><strong>Svar:</strong> \\(6{,}59\\) s</p></li></ol>",
+    "id": "3.388",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      6.5941170815567105
+    ],
+    "tolerans": [
+      0.51,
+      0.0989
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 12 s senare B med 18 m/s. AB = 180 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm \\(v\\).",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 12 s senare B med 18 m/s. AB = 180 m.</p><p>Bestäm \\(v\\).</p>",
+        "s": "<p>\\(180=\\dfrac{v+18}{2}\\cdot12\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det från A till mittpunkten på AB (två decimaler)?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 12 s senare B med 18 m/s. AB = 180 m.</p><p>Hur lång tid tar det från A till mittpunkten på AB (två decimaler)?</p>",
+        "s": "<p>\\(a=0{,}50\\) m/s². \\(90=12t+0{,}25t^2\\iff t=\\dfrac{-48+\\sqrt{48^2+1\\,440}}{2}\\).</p><p><strong>Svar:</strong> \\(6{,}59\\) s</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "konstacc__stracka_vid_konstant_acceleration",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "möten och omkörningar",
+    "poang": "(0/3/2)",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><ol type=\"a\"><li>A och B ligger 240 m isär. Vid \\(t=0\\) passerar en partikel A med 4,0 m/s och accelerationen 0,75 m/s² mot B, och en annan passerar B med konstant 5,0 m/s mot A. Bestäm avståndet från A till mötespunkten.</li><li>Bil A har 28 m/s och accelerationen 0,10 m/s². Bil B är 240 m bakom med 24 m/s och 0,20 m/s². Vilken fart har B när den kör om A?</li><li>En cyklist (12 m/s) passerar ett trafikljus vid \\(t=0\\). Vid \\(t=6{,}0\\) s passerar en bil med 30 m/s och retardationen 2,0 m/s². När kör bilen om cyklisten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(4{,}0t+0{,}375t^2+5{,}0t=240\\iff t=16\\) s. \\(AC=4{,}0\\cdot16+0{,}375\\cdot16^2\\).</p><p><strong>Svar:</strong> \\(160\\) m</p></li><li><p>\\(24t+0{,}10t^2=240+28t+0{,}05t^2\\iff t=120\\) s. \\(v_B=24+0{,}20\\cdot120\\).</p><p><strong>Svar:</strong> \\(48\\) m/s</p></li><li><p>\\(12t=30(t-6)-(t-6)^2\\iff t^2-30t+216=0\\).</p><p><strong>Svar:</strong> \\(12\\) s</p></li></ol>",
+    "id": "3.389",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Möte och ikapp",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      160,
+      48,
+      12
+    ],
+    "tolerans": [
+      5.1,
+      0.72,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "A och B ligger 240 m isär. Vid \\(t=0\\) passerar en partikel A med 4,0 m/s och accelerationen 0,75 m/s² mot B, och en annan passerar B med konstant 5,0 m/s mot A. Bestäm avståndet från A till mötespunkten.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>A och B ligger 240 m isär. Vid \\(t=0\\) passerar en partikel A med 4,0 m/s och accelerationen 0,75 m/s² mot B, och en annan passerar B med konstant 5,0 m/s mot A. Bestäm avståndet från A till mötespunkten.</p>",
+        "s": "<p>\\(4{,}0t+0{,}375t^2+5{,}0t=240\\iff t=16\\) s. \\(AC=4{,}0\\cdot16+0{,}375\\cdot16^2\\).</p><p><strong>Svar:</strong> \\(160\\) m</p>",
+        "ledtrad": "<p>Summan av sträckorna är 240 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bil A har 28 m/s och accelerationen 0,10 m/s². Bil B är 240 m bakom med 24 m/s och 0,20 m/s². Vilken fart har B när den kör om A?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>Bil A har 28 m/s och accelerationen 0,10 m/s². Bil B är 240 m bakom med 24 m/s och 0,20 m/s². Vilken fart har B när den kör om A?</p>",
+        "s": "<p>\\(24t+0{,}10t^2=240+28t+0{,}05t^2\\iff t=120\\) s. \\(v_B=24+0{,}20\\cdot120\\).</p><p><strong>Svar:</strong> \\(48\\) m/s</p>",
+        "ledtrad": "<p>Sätt lägena lika.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En cyklist (12 m/s) passerar ett trafikljus vid \\(t=0\\). Vid \\(t=6{,}0\\) s passerar en bil med 30 m/s och retardationen 2,0 m/s². När kör bilen om cyklisten?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En cyklist (12 m/s) passerar ett trafikljus vid \\(t=0\\). Vid \\(t=6{,}0\\) s passerar en bil med 30 m/s och retardationen 2,0 m/s². När kör bilen om cyklisten?</p>",
+        "s": "<p>\\(12t=30(t-6)-(t-6)^2\\iff t^2-30t+216=0\\).</p><p><strong>Svar:</strong> \\(12\\) s</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "konstacc__mote_och_ikapp",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "kapplöpning mellan två hästar",
+    "poang": "(0/2/2)",
+    "t": "<p>Pålle är 250 m från mål och springer med konstant 16 m/s. Grålle är 20 m bakom och har 15 m/s men accelererar likformigt.</p><ol type=\"a\"><li>Bestäm Grålles acceleration om Pålle har 10 m kvar när Grålle går i mål.</li><li>Med vilken fart måste Grålle gå i mål för dött lopp (två decimaler)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{240}{16}=15\\) s. \\(270=15\\cdot15+\\dfrac{a\\cdot15^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) m/s²</p></li><li><p>\\(t=\\dfrac{250}{16}\\). \\(270=\\dfrac{15+v}{2}t\\).</p><p><strong>Svar:</strong> \\(19{,}56\\) m/s</p></li></ol>",
+    "id": "3.390",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Möte och ikapp",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4,
+      19.560000000000002
+    ],
+    "tolerans": [
+      0.006,
+      0.293
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Pålle är 250 m från mål och springer med konstant 16 m/s. Grålle är 20 m bakom och har 15 m/s men accelererar likformigt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm Grålles acceleration om Pålle har 10 m kvar när Grålle går i mål.",
+        "t": "<p>Pålle är 250 m från mål och springer med konstant 16 m/s. Grålle är 20 m bakom och har 15 m/s men accelererar likformigt.</p><p>Bestäm Grålles acceleration om Pålle har 10 m kvar när Grålle går i mål.</p>",
+        "s": "<p>\\(t=\\dfrac{240}{16}=15\\) s. \\(270=15\\cdot15+\\dfrac{a\\cdot15^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}40\\) m/s²</p>",
+        "ledtrad": "<p>Samma tid för båda.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med vilken fart måste Grålle gå i mål för dött lopp (två decimaler)?",
+        "t": "<p>Pålle är 250 m från mål och springer med konstant 16 m/s. Grålle är 20 m bakom och har 15 m/s men accelererar likformigt.</p><p>Med vilken fart måste Grålle gå i mål för dött lopp (två decimaler)?</p>",
+        "s": "<p>\\(t=\\dfrac{250}{16}\\). \\(270=\\dfrac{15+v}{2}t\\).</p><p><strong>Svar:</strong> \\(19{,}56\\) m/s</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "konstacc__mote_och_ikapp",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "bilkö som bromsar",
+    "poang": "(0/1/2)",
+    "t": "<p>Två bilar kör i 18 m/s med 14,5 m mellan sig. Den första bromsar med 6,0 m/s². Den andra börjar bromsa 0,50 s senare med 4,0 m/s². De krockar.</p><ol type=\"a\"><li>Vilken fart har den bakre bilen vid krocken?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Första bilen står still efter 3,0 s på 27 m. Den bakre har då kört \\(9+18\\cdot2{,}5-2\\cdot2{,}5^2=41{,}5\\) m = 27 + 14,5 m. \\(v=18-4{,}0\\cdot2{,}5\\).</p><p><strong>Svar:</strong> \\(8{,}0\\) m/s</p></li></ol>",
+    "id": "3.391",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Möte och ikapp",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8
+    ],
+    "tolerans": [
+      0.12
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a"
+    ],
+    "svarEnhet": [
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två bilar kör i 18 m/s med 14,5 m mellan sig. Den första bromsar med 6,0 m/s². Den andra börjar bromsa 0,50 s senare med 4,0 m/s². De krockar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har den bakre bilen vid krocken?",
+        "t": "<p>Två bilar kör i 18 m/s med 14,5 m mellan sig. Den första bromsar med 6,0 m/s². Den andra börjar bromsa 0,50 s senare med 4,0 m/s². De krockar.</p><p>Vilken fart har den bakre bilen vid krocken?</p>",
+        "s": "<p>Första bilen står still efter 3,0 s på 27 m. Den bakre har då kört \\(9+18\\cdot2{,}5-2\\cdot2{,}5^2=41{,}5\\) m = 27 + 14,5 m. \\(v=18-4{,}0\\cdot2{,}5\\).</p><p><strong>Svar:</strong> \\(8{,}0\\) m/s</p>",
+        "ledtrad": "<p>Kontrollera läget när första bilen stannat.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 5,
+    "familjNyckel": "konstacc__mote_och_ikapp",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "fritt fall",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><ol type=\"a\"><li>En miniräknare faller i 0,48 s. Från vilken höjd?</li><li>Stina kliver av ett 10 m högt hopptorn. Hur lång tid tar fallet?</li><li>Med vilken fart borde en åkattraktion med fallhöjden 80 m nå marken?</li><li>En sten faller 11,00 m på 1,49 s. Vilket värde på \\(g\\) ger försöket?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{9{,}82\\cdot0{,}48^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m</p></li><li><p>\\(t=\\sqrt{\\dfrac{2\\cdot10}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) s</p></li><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot80}\\).</p><p><strong>Svar:</strong> \\(40\\) m/s</p></li><li><p>\\(g=\\dfrac{2\\cdot11{,}00}{1{,}49^2}\\).</p><p><strong>Svar:</strong> \\(9{,}91\\) m/s²</p></li></ol>",
+    "id": "3.392",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.131264,
+      1.427115930049275,
+      39.63836525387998,
+      9.909463537678484
+    ],
+    "tolerans": [
+      0.051,
+      0.051,
+      0.595,
+      0.149
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m",
+      "s",
+      "m/s",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En miniräknare faller i 0,48 s. Från vilken höjd?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En miniräknare faller i 0,48 s. Från vilken höjd?</p>",
+        "s": "<p>\\(h=\\dfrac{9{,}82\\cdot0{,}48^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Stina kliver av ett 10 m högt hopptorn. Hur lång tid tar fallet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Stina kliver av ett 10 m högt hopptorn. Hur lång tid tar fallet?</p>",
+        "s": "<p>\\(t=\\sqrt{\\dfrac{2\\cdot10}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) s</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Med vilken fart borde en åkattraktion med fallhöjden 80 m nå marken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Med vilken fart borde en åkattraktion med fallhöjden 80 m nå marken?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot80}\\).</p><p><strong>Svar:</strong> \\(40\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En sten faller 11,00 m på 1,49 s. Vilket värde på \\(g\\) ger försöket?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten faller 11,00 m på 1,49 s. Vilket värde på \\(g\\) ger försöket?</p>",
+        "s": "<p>\\(g=\\dfrac{2\\cdot11{,}00}{1{,}49^2}\\).</p><p><strong>Svar:</strong> \\(9{,}91\\) m/s²</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=gt\\), \\(h=\\dfrac{gt^2}{2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "fall på andra himlakroppar",
+    "poang": "(3/0/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En hammare släpps från 1,200 m på månen (\\(g=1{,}62\\) m/s²). Hur lång tid tar fallet?</li><li>Med vilken fart når hammaren månens yta?</li><li>En sten faller 45,2 m på Mars på 5,01 s. Bestäm tyngdaccelerationen på Mars.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\sqrt{\\dfrac{2\\cdot1{,}200}{1{,}62}}\\).</p><p><strong>Svar:</strong> \\(1{,}22\\) s</p></li><li><p>\\(v=\\sqrt{2\\cdot1{,}62\\cdot1{,}200}\\).</p><p><strong>Svar:</strong> \\(1{,}97\\) m/s</p></li><li><p>\\(g=\\dfrac{2\\cdot45{,}2}{5{,}01^2}\\).</p><p><strong>Svar:</strong> \\(3{,}60\\) m/s²</p></li></ol>",
+    "id": "3.393",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.2171612389003692,
+      1.971801207018598,
+      3.601579276576588
+    ],
+    "tolerans": [
+      0.0183,
+      0.0296,
+      0.054
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En hammare släpps från 1,200 m på månen (\\(g=1{,}62\\) m/s²). Hur lång tid tar fallet?",
+        "t": "<p>Bestäm.</p><p>En hammare släpps från 1,200 m på månen (\\(g=1{,}62\\) m/s²). Hur lång tid tar fallet?</p>",
+        "s": "<p>\\(t=\\sqrt{\\dfrac{2\\cdot1{,}200}{1{,}62}}\\).</p><p><strong>Svar:</strong> \\(1{,}22\\) s</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med vilken fart når hammaren månens yta?",
+        "t": "<p>Bestäm.</p><p>Med vilken fart når hammaren månens yta?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot1{,}62\\cdot1{,}200}\\).</p><p><strong>Svar:</strong> \\(1{,}97\\) m/s</p>",
+        "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En sten faller 45,2 m på Mars på 5,01 s. Bestäm tyngdaccelerationen på Mars.",
+        "t": "<p>Bestäm.</p><p>En sten faller 45,2 m på Mars på 5,01 s. Bestäm tyngdaccelerationen på Mars.</p>",
+        "s": "<p>\\(g=\\dfrac{2\\cdot45{,}2}{5{,}01^2}\\).</p><p><strong>Svar:</strong> \\(3{,}60\\) m/s²</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "sten från bro",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten släpps från en bro och når vattnet efter 3,7 s.</p><ol type=\"a\"><li>Hur hög är bron?</li><li>Vilken fart har stenen efter halva tiden?</li><li>Efter hur lång tid har stenen fallit halva sträckan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{9{,}82\\cdot3{,}7^2}{2}\\).</p><p><strong>Svar:</strong> \\(67\\) m</p></li><li><p>\\(v=9{,}82\\cdot1{,}85\\).</p><p><strong>Svar:</strong> \\(18\\) m/s</p></li><li><p>\\(t=\\dfrac{3{,}7}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(2{,}6\\) s</p></li></ol>",
+    "id": "3.394",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      67.21790000000001,
+      18.167,
+      2.616295090390226
+    ],
+    "tolerans": [
+      1.01,
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten släpps från en bro och når vattnet efter 3,7 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur hög är bron?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten släpps från en bro och når vattnet efter 3,7 s.</p><p>Hur hög är bron?</p>",
+        "s": "<p>\\(h=\\dfrac{9{,}82\\cdot3{,}7^2}{2}\\).</p><p><strong>Svar:</strong> \\(67\\) m</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har stenen efter halva tiden?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten släpps från en bro och når vattnet efter 3,7 s.</p><p>Vilken fart har stenen efter halva tiden?</p>",
+        "s": "<p>\\(v=9{,}82\\cdot1{,}85\\).</p><p><strong>Svar:</strong> \\(18\\) m/s</p>",
+        "ledtrad": "<p>\\(v=gt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Efter hur lång tid har stenen fallit halva sträckan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten släpps från en bro och når vattnet efter 3,7 s.</p><p>Efter hur lång tid har stenen fallit halva sträckan?</p>",
+        "s": "<p>\\(t=\\dfrac{3{,}7}{\\sqrt2}\\).</p><p><strong>Svar:</strong> \\(2{,}6\\) s</p>",
+        "ledtrad": "<p>\\(h\\propto t^2\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "femkrona från balkong",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En femkrona faller från en balkong och når marken med 60 km/h.</p><ol type=\"a\"><li>Hur högt är balkongen?</li><li>Vilken fart (km/h) får den från dubbla höjden?</li><li>Från vilken höjd skulle farten bli dubbelt så stor?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{16{,}7^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(14\\) m</p></li><li><p>\\(v=60\\sqrt2\\).</p><p><strong>Svar:</strong> \\(85\\) km/h</p></li><li><p>Fyra gånger höjden.</p><p><strong>Svar:</strong> \\(57\\) m</p></li></ol>",
+    "id": "3.395",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14.143471373613941,
+      84.8528137423857,
+      56.573885494455766
+    ],
+    "tolerans": [
+      0.51,
+      1.27,
+      0.849
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "km/h",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En femkrona faller från en balkong och når marken med 60 km/h.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur högt är balkongen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En femkrona faller från en balkong och når marken med 60 km/h.</p><p>Hur högt är balkongen?</p>",
+        "s": "<p>\\(h=\\dfrac{16{,}7^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(14\\) m</p>",
+        "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart (km/h) får den från dubbla höjden?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En femkrona faller från en balkong och når marken med 60 km/h.</p><p>Vilken fart (km/h) får den från dubbla höjden?</p>",
+        "s": "<p>\\(v=60\\sqrt2\\).</p><p><strong>Svar:</strong> \\(85\\) km/h</p>",
+        "ledtrad": "<p>\\(v\\propto\\sqrt h\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Från vilken höjd skulle farten bli dubbelt så stor?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En femkrona faller från en balkong och når marken med 60 km/h.</p><p>Från vilken höjd skulle farten bli dubbelt så stor?</p>",
+        "s": "<p>Fyra gånger höjden.</p><p><strong>Svar:</strong> \\(57\\) m</p>",
+        "ledtrad": "<p>\\(h\\propto v^2\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "avstånd mellan två fallande kulor",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En kula släpps och exakt 1,0 s senare släpps en till från samma punkt. Hur stort är avståndet mellan dem 1,5 s efter att den första släpptes?</p>",
+    "s": "<p>\\(\\Delta s=\\dfrac{9{,}82}{2}(1{,}5^2-0{,}5^2)\\).</p><p><strong>Svar:</strong> \\(9{,}8\\) m</p>",
+    "id": "3.396",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.82,
+    "tolerans": 0.147,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna båda kulornas fallsträckor.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "simhopp från trampolin",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En simhoppare lämnar trampolinen rakt uppåt med 6,0 m/s. Positiv riktning uppåt, läget räknas från trampolinen.</p><ol type=\"a\"><li>Bestäm läget efter 0,20 s.</li><li>Bestäm hastigheten efter 0,90 s.</li><li>Bestäm läget efter 1,30 s.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=6{,}0\\cdot0{,}20-\\dfrac{9{,}82\\cdot0{,}20^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m</p></li><li><p>\\(v=6{,}0-9{,}82\\cdot0{,}90\\).</p><p><strong>Svar:</strong> \\(-2{,}8\\) m/s</p></li><li><p>\\(s=6{,}0\\cdot1{,}30-\\dfrac{9{,}82\\cdot1{,}30^2}{2}\\). Negativt: under trampolinen.</p><p><strong>Svar:</strong> \\(-0{,}50\\) m</p></li></ol>",
+    "id": "3.397",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0036,
+      -2.838000000000001,
+      -0.49790000000000045
+    ],
+    "tolerans": [
+      0.051,
+      0.051,
+      0.00747
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En simhoppare lämnar trampolinen rakt uppåt med 6,0 m/s. Positiv riktning uppåt, läget räknas från trampolinen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm läget efter 0,20 s.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En simhoppare lämnar trampolinen rakt uppåt med 6,0 m/s. Positiv riktning uppåt, läget räknas från trampolinen.</p><p>Bestäm läget efter 0,20 s.</p>",
+        "s": "<p>\\(s=6{,}0\\cdot0{,}20-\\dfrac{9{,}82\\cdot0{,}20^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m</p>",
+        "ledtrad": "<p>\\(s=v_0t-\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm hastigheten efter 0,90 s.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En simhoppare lämnar trampolinen rakt uppåt med 6,0 m/s. Positiv riktning uppåt, läget räknas från trampolinen.</p><p>Bestäm hastigheten efter 0,90 s.</p>",
+        "s": "<p>\\(v=6{,}0-9{,}82\\cdot0{,}90\\).</p><p><strong>Svar:</strong> \\(-2{,}8\\) m/s</p>",
+        "ledtrad": "<p>\\(v=v_0-gt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm läget efter 1,30 s.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En simhoppare lämnar trampolinen rakt uppåt med 6,0 m/s. Positiv riktning uppåt, läget räknas från trampolinen.</p><p>Bestäm läget efter 1,30 s.</p>",
+        "s": "<p>\\(s=6{,}0\\cdot1{,}30-\\dfrac{9{,}82\\cdot1{,}30^2}{2}\\). Negativt: under trampolinen.</p><p><strong>Svar:</strong> \\(-0{,}50\\) m</p>",
+        "ledtrad": "<p>\\(s=v_0t-\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0-gt\\), \\(s=v_0t-\\dfrac{gt^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "lodrätt kast uppåt",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><ol type=\"a\"><li>En katt hoppar rakt upp med 4,0 m/s. Hur högt når den?</li><li>En basketspelare är i luften 1,1 s. Med vilken fart hoppade han?</li><li>Hur högt nådde han?</li><li>En fotboll skjuts rakt upp med 22 m/s. Efter hur lång tid landar den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{4{,}0^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}81\\) m</p></li><li><p>Upp tar 0,55 s: \\(v_0=9{,}82\\cdot0{,}55\\).</p><p><strong>Svar:</strong> \\(5{,}4\\) m/s</p></li><li><p>\\(h=\\dfrac{9{,}82\\cdot0{,}55^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m</p></li><li><p>\\(t=\\dfrac{2\\cdot22}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(4{,}5\\) s</p></li></ol>",
+    "id": "3.398",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8146639511201629,
+      5.401000000000001,
+      1.4852750000000003,
+      4.480651731160896
+    ],
+    "tolerans": [
+      0.0122,
+      0.081,
+      0.051,
+      0.0672
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En katt hoppar rakt upp med 4,0 m/s. Hur högt når den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En katt hoppar rakt upp med 4,0 m/s. Hur högt når den?</p>",
+        "s": "<p>\\(h=\\dfrac{4{,}0^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}81\\) m</p>",
+        "ledtrad": "<p>\\(h=\\dfrac{v_0^2}{2g}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En basketspelare är i luften 1,1 s. Med vilken fart hoppade han?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En basketspelare är i luften 1,1 s. Med vilken fart hoppade han?</p>",
+        "s": "<p>Upp tar 0,55 s: \\(v_0=9{,}82\\cdot0{,}55\\).</p><p><strong>Svar:</strong> \\(5{,}4\\) m/s</p>",
+        "ledtrad": "<p>Halva tiden uppåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur högt nådde han?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Hur högt nådde han?</p>",
+        "s": "<p>\\(h=\\dfrac{9{,}82\\cdot0{,}55^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m</p>",
+        "ledtrad": "<p>Fallet från toppen tar 0,55 s.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En fotboll skjuts rakt upp med 22 m/s. Efter hur lång tid landar den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En fotboll skjuts rakt upp med 22 m/s. Efter hur lång tid landar den?</p>",
+        "s": "<p>\\(t=\\dfrac{2\\cdot22}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(4{,}5\\) s</p>",
+        "ledtrad": "<p>Upp och ner tar lika lång tid.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0-gt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "sten från slangbella",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten skjuts rakt upp med 17 m/s och träffar en duva 12 m upp.</p><ol type=\"a\"><li>Efter hur lång tid träffas duvan om stenen är på väg upp?</li><li>Efter hur lång tid om stenen är på väg ner?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(12=17t-4{,}91t^2\\), minsta roten.</p><p><strong>Svar:</strong> \\(0{,}99\\) s</p></li><li><p>Största roten.</p><p><strong>Svar:</strong> \\(2{,}5\\) s</p></li></ol>",
+    "id": "3.399",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.987570824296184,
+      2.4747509679645083
+    ],
+    "tolerans": [
+      0.0148,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten skjuts rakt upp med 17 m/s och träffar en duva 12 m upp.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Efter hur lång tid träffas duvan om stenen är på väg upp?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten skjuts rakt upp med 17 m/s och träffar en duva 12 m upp.</p><p>Efter hur lång tid träffas duvan om stenen är på väg upp?</p>",
+        "s": "<p>\\(12=17t-4{,}91t^2\\), minsta roten.</p><p><strong>Svar:</strong> \\(0{,}99\\) s</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Efter hur lång tid om stenen är på väg ner?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten skjuts rakt upp med 17 m/s och träffar en duva 12 m upp.</p><p>Efter hur lång tid om stenen är på väg ner?</p>",
+        "s": "<p>Största roten.</p><p><strong>Svar:</strong> \\(2{,}5\\) s</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=v_0t-\\dfrac{gt^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "raket från tak",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En raket skjuts rakt upp med 35 m/s från ett 7,0 m högt tak och landar på marken.</p><ol type=\"a\"><li>Hur högt över marken kommer den?</li><li>När slår den i marken?</li><li>Med vilken fart slår den i marken?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=7{,}0+\\dfrac{35^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(69\\) m</p></li><li><p>\\(-7{,}0=35t-4{,}91t^2\\), positiva roten.</p><p><strong>Svar:</strong> \\(7{,}3\\) s</p></li><li><p>\\(v=\\sqrt{35^2+2\\cdot9{,}82\\cdot7{,}0}\\).</p><p><strong>Svar:</strong> \\(37\\) m/s</p></li></ol>",
+    "id": "3.400",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      69.37270875763747,
+      7.322992539246916,
+      36.911786735404725
+    ],
+    "tolerans": [
+      1.04,
+      0.11,
+      0.554
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En raket skjuts rakt upp med 35 m/s från ett 7,0 m högt tak och landar på marken.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur högt över marken kommer den?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En raket skjuts rakt upp med 35 m/s från ett 7,0 m högt tak och landar på marken.</p><p>Hur högt över marken kommer den?</p>",
+        "s": "<p>\\(h=7{,}0+\\dfrac{35^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(69\\) m</p>",
+        "ledtrad": "<p>Lägg till takets höjd.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "När slår den i marken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En raket skjuts rakt upp med 35 m/s från ett 7,0 m högt tak och landar på marken.</p><p>När slår den i marken?</p>",
+        "s": "<p>\\(-7{,}0=35t-4{,}91t^2\\), positiva roten.</p><p><strong>Svar:</strong> \\(7{,}3\\) s</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Med vilken fart slår den i marken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En raket skjuts rakt upp med 35 m/s från ett 7,0 m högt tak och landar på marken.</p><p>Med vilken fart slår den i marken?</p>",
+        "s": "<p>\\(v=\\sqrt{35^2+2\\cdot9{,}82\\cdot7{,}0}\\).</p><p><strong>Svar:</strong> \\(37\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(s=v_0t-\\dfrac{gt^2}{2}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "mängdträning: lodrät kast",
+    "poang": "(1/3/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><ol type=\"a\"><li>En sten skjuts rakt upp från marken och landar efter 5,00 s. Bestäm utgångsfarten.</li><li>En sten kastas rakt ner och når marken med 28,0 m/s. Hur lång tid tar de sista 15 m?</li><li>En sten kastas rakt upp från 2,48 m höjd och vänder efter 2,45 s. Med vilken fart når den marken?</li><li>En pil skjuts upp med 29,0 m/s från en balkong och landar efter 6,00 s. Hur hög är balkongen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v_0=9{,}82\\cdot2{,}50\\).</p><p><strong>Svar:</strong> \\(24{,}6\\) m/s</p></li><li><p>\\(v_1=\\sqrt{28{,}0^2-2\\cdot9{,}82\\cdot15}\\), \\(t=\\dfrac{28{,}0-v_1}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}599\\) s</p></li><li><p>\\(v_0=9{,}82\\cdot2{,}45\\), \\(v=\\sqrt{v_0^2+2\\cdot9{,}82\\cdot2{,}48}\\).</p><p><strong>Svar:</strong> \\(25{,}1\\) m/s</p></li><li><p>\\(-h=29{,}0\\cdot6{,}00-4{,}91\\cdot6{,}00^2\\).</p><p><strong>Svar:</strong> \\(2{,}76\\) m</p></li></ol>",
+    "id": "3.401",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24.55,
+      0.5985349438561819,
+      25.05080200312956,
+      2.759999999999991
+    ],
+    "tolerans": [
+      0.368,
+      0.00898,
+      0.376,
+      0.0414
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s",
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En sten skjuts rakt upp från marken och landar efter 5,00 s. Bestäm utgångsfarten.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten skjuts rakt upp från marken och landar efter 5,00 s. Bestäm utgångsfarten.</p>",
+        "s": "<p>\\(v_0=9{,}82\\cdot2{,}50\\).</p><p><strong>Svar:</strong> \\(24{,}6\\) m/s</p>",
+        "ledtrad": "<p>Halva tiden uppåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En sten kastas rakt ner och når marken med 28,0 m/s. Hur lång tid tar de sista 15 m?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten kastas rakt ner och når marken med 28,0 m/s. Hur lång tid tar de sista 15 m?</p>",
+        "s": "<p>\\(v_1=\\sqrt{28{,}0^2-2\\cdot9{,}82\\cdot15}\\), \\(t=\\dfrac{28{,}0-v_1}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(0{,}599\\) s</p>",
+        "ledtrad": "<p>Farten 15 m ovanför marken först.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En sten kastas rakt upp från 2,48 m höjd och vänder efter 2,45 s. Med vilken fart når den marken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten kastas rakt upp från 2,48 m höjd och vänder efter 2,45 s. Med vilken fart når den marken?</p>",
+        "s": "<p>\\(v_0=9{,}82\\cdot2{,}45\\), \\(v=\\sqrt{v_0^2+2\\cdot9{,}82\\cdot2{,}48}\\).</p><p><strong>Svar:</strong> \\(25{,}1\\) m/s</p>",
+        "ledtrad": "<p>Bestäm utgångsfarten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En pil skjuts upp med 29,0 m/s från en balkong och landar efter 6,00 s. Hur hög är balkongen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En pil skjuts upp med 29,0 m/s från en balkong och landar efter 6,00 s. Hur hög är balkongen?</p>",
+        "s": "<p>\\(-h=29{,}0\\cdot6{,}00-4{,}91\\cdot6{,}00^2\\).</p><p><strong>Svar:</strong> \\(2{,}76\\) m</p>",
+        "ledtrad": "<p>Läget när den landar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=v_0t-\\dfrac{gt^2}{2}\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "boll sparkas rakt upp",
+    "poang": "(1/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En boll sparkas rakt upp med 14,0 m/s.</p><ol type=\"a\"><li>Hur högt är bollen efter 0,500 s?</li><li>Hur lång sträcka har bollen tillryggalagt efter 2,00 s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=14{,}0\\cdot0{,}500-4{,}91\\cdot0{,}500^2\\).</p><p><strong>Svar:</strong> \\(5{,}77\\) m</p></li><li><p>Toppen: \\(\\dfrac{14{,}0^2}{2\\cdot9{,}82}=9{,}98\\) m. Läget vid 2,00 s: \\(28{,}0-19{,}64=8{,}36\\) m. Sträcka: \\(9{,}98+(9{,}98-8{,}36)\\).</p><p><strong>Svar:</strong> \\(11{,}6\\) m</p></li></ol>",
+    "id": "3.402",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.7725,
+      11.599266802443992
+    ],
+    "tolerans": [
+      0.0866,
+      0.174
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En boll sparkas rakt upp med 14,0 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur högt är bollen efter 0,500 s?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En boll sparkas rakt upp med 14,0 m/s.</p><p>Hur högt är bollen efter 0,500 s?</p>",
+        "s": "<p>\\(s=14{,}0\\cdot0{,}500-4{,}91\\cdot0{,}500^2\\).</p><p><strong>Svar:</strong> \\(5{,}77\\) m</p>",
+        "ledtrad": "<p>\\(s=v_0t-\\dfrac{gt^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång sträcka har bollen tillryggalagt efter 2,00 s?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En boll sparkas rakt upp med 14,0 m/s.</p><p>Hur lång sträcka har bollen tillryggalagt efter 2,00 s?</p>",
+        "s": "<p>Toppen: \\(\\dfrac{14{,}0^2}{2\\cdot9{,}82}=9{,}98\\) m. Läget vid 2,00 s: \\(28{,}0-19{,}64=8{,}36\\) m. Sträcka: \\(9{,}98+(9{,}98-8{,}36)\\).</p><p><strong>Svar:</strong> \\(11{,}6\\) m</p>",
+        "ledtrad": "<p>Bollen vänder innan 2,00 s.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Sträcka är inte samma sak som läge.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "två regndroppar",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En regndroppe faller från en 80 m hög klippa. När den fallit 40 m börjar en andra droppe falla från samma ställe. Hur långt är det mellan dropparna när den första når marken (tre värdesiffror)?</p>",
+    "s": "<p>Första droppen: fall 40 m tar \\(t_1=\\sqrt{40/4{,}91}\\), hela fallet \\(t_2=\\sqrt{80/4{,}91}\\). Den andra har fallit \\(4{,}91(t_2-t_1)^2\\).</p><p><strong>Svar:</strong> \\(73{,}1\\) m</p>",
+    "id": "3.403",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "numeriskt",
+    "rättSvar": 73.13708498984761,
+    "tolerans": 1.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur länge har den andra droppen fallit?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "sten från balkong",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><ol type=\"a\"><li>En sten kastas upp med 24 m/s från 2,50 m höjd. Efter hur lång tid når den marken?</li><li>En sten kastas upp med 18 m/s från en balkong och når marken med 21,2 m/s. Hur hög är balkongen?</li><li>Hur lång tid tar det för den stenen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(-2{,}50=24t-4{,}91t^2\\), positiva roten.</p><p><strong>Svar:</strong> \\(5{,}0\\) s</p></li><li><p>\\(h=\\dfrac{21{,}2^2-18^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m</p></li><li><p>\\(t=\\dfrac{18+21{,}2}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) s</p></li></ol>",
+    "id": "3.404",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.99002035845279,
+      6.386965376782077,
+      3.9918533604887987
+    ],
+    "tolerans": [
+      0.0749,
+      0.0958,
+      0.0599
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En sten kastas upp med 24 m/s från 2,50 m höjd. Efter hur lång tid når den marken?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten kastas upp med 24 m/s från 2,50 m höjd. Efter hur lång tid når den marken?</p>",
+        "s": "<p>\\(-2{,}50=24t-4{,}91t^2\\), positiva roten.</p><p><strong>Svar:</strong> \\(5{,}0\\) s</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En sten kastas upp med 18 m/s från en balkong och når marken med 21,2 m/s. Hur hög är balkongen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En sten kastas upp med 18 m/s från en balkong och når marken med 21,2 m/s. Hur hög är balkongen?</p>",
+        "s": "<p>\\(h=\\dfrac{21{,}2^2-18^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m</p>",
+        "ledtrad": "<p>\\(v^2-v_0^2=2gh\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång tid tar det för den stenen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Hur lång tid tar det för den stenen?</p>",
+        "s": "<p>\\(t=\\dfrac{18+21{,}2}{9{,}82}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) s</p>",
+        "ledtrad": "<p>\\(v=v_0-gt\\) med tecken.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Välj positiv riktning uppåt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "två bollar möts",
+    "poang": "(0/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><ol type=\"a\"><li>Boll A skjuts upp från marken med 13,0 m/s och samtidigt boll B från 20 m höjd med 3,0 m/s. När är de på samma höjd?</li><li>På vilken höjd?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(13{,}0T=20+3{,}0T\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) s</p></li><li><p>\\(h=13{,}0\\cdot2{,}0-4{,}91\\cdot2{,}0^2\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m</p></li></ol>",
+    "id": "3.405",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      6.359999999999999
+    ],
+    "tolerans": [
+      0.051,
+      0.0954
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Boll A skjuts upp från marken med 13,0 m/s och samtidigt boll B från 20 m höjd med 3,0 m/s. När är de på samma höjd?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Boll A skjuts upp från marken med 13,0 m/s och samtidigt boll B från 20 m höjd med 3,0 m/s. När är de på samma höjd?</p>",
+        "s": "<p>\\(13{,}0T=20+3{,}0T\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) s</p>",
+        "ledtrad": "<p>\\(gt^2/2\\) tar ut sig.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "På vilken höjd?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>Det sker efter 2,0 s.<p>På vilken höjd?</p>",
+        "s": "<p>\\(h=13{,}0\\cdot2{,}0-4{,}91\\cdot2{,}0^2\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m</p>",
+        "ledtrad": "<p>Sätt in tiden.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Sätt höjderna lika.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "nyårsraket med motor",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En raket startar från vila och accelererar rakt upp med 15 m/s² i 4,0 s. Sedan rör den sig fritt. Hur lång tid tar det från start tills den når marken?</p>",
+    "s": "<p>Efter 4,0 s: \\(v=60\\) m/s, \\(h=120\\) m. Stigning \\(\\dfrac{60}{9{,}82}=6{,}11\\) s till \\(h_\\text{max}=120+\\dfrac{60^2}{2\\cdot9{,}82}\\). Fall: \\(\\sqrt{\\dfrac{2h_\\text{max}}{9{,}82}}\\).</p><p><strong>Svar:</strong> \\(18\\) s</p>",
+    "id": "3.406",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17.96948150401507,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp i tre faser.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "s",
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "partiklar som når marken samtidigt",
+    "poang": "(0/2/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><ol type=\"a\"><li>Partikel A släpps från höjden \\(h\\). 1,00 s senare skjuts partikel B rakt ner från samma höjd med 19,64 m/s. De når marken samtidigt. Bestäm \\(h\\).</li><li>En partikel faller fritt från vila och färdas \\(\\tfrac{7}{16}\\) av hela fallet under sista sekunden. Bestäm \\(h\\) (tre värdesiffror).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(4{,}91t^2=19{,}64(t-1)+4{,}91(t-1)^2\\iff t=1{,}5\\) s.</p><p><strong>Svar:</strong> \\(11{,}0\\) m</p></li><li><p>\\((t-1)^2=\\tfrac{9}{16}t^2\\iff t=4{,}0\\) s. \\(h=4{,}91\\cdot16\\).</p><p><strong>Svar:</strong> \\(78{,}6\\) m</p></li></ol>",
+    "id": "3.407",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11.0475,
+      78.56
+    ],
+    "tolerans": [
+      0.166,
+      1.18
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Partikel A släpps från höjden \\(h\\). 1,00 s senare skjuts partikel B rakt ner från samma höjd med 19,64 m/s. De når marken samtidigt. Bestäm \\(h\\).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Partikel A släpps från höjden \\(h\\). 1,00 s senare skjuts partikel B rakt ner från samma höjd med 19,64 m/s. De når marken samtidigt. Bestäm \\(h\\).</p>",
+        "s": "<p>\\(4{,}91t^2=19{,}64(t-1)+4{,}91(t-1)^2\\iff t=1{,}5\\) s.</p><p><strong>Svar:</strong> \\(11{,}0\\) m</p>",
+        "ledtrad": "<p>Sätt sträckorna lika.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En partikel faller fritt från vila och färdas \\(\\tfrac{7}{16}\\) av hela fallet under sista sekunden. Bestäm \\(h\\) (tre värdesiffror).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En partikel faller fritt från vila och färdas \\(\\tfrac{7}{16}\\) av hela fallet under sista sekunden. Bestäm \\(h\\) (tre värdesiffror).</p>",
+        "s": "<p>\\((t-1)^2=\\tfrac{9}{16}t^2\\iff t=4{,}0\\) s. \\(h=4{,}91\\cdot16\\).</p><p><strong>Svar:</strong> \\(78{,}6\\) m</p>",
+        "ledtrad": "<p>Uttryck sträckan före sista sekunden.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=v_0t+\\dfrac{gt^2}{2}\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "typ": "utgångsfart och höjd ur landning",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><ol type=\"a\"><li>En boll skjuts upp med \\(u\\) från 6,4 m höjd och landar efter 4,0 s. Bestäm \\(u\\).</li><li>En pil skjuts upp med \\(u\\) från en balkong och landar efter 8,00 s med 39,4 m/s. Bestäm \\(u\\).</li><li>Bestäm balkongens höjd för pilen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(-6{,}4=4{,}0u-4{,}91\\cdot16\\).</p><p><strong>Svar:</strong> \\(18\\) m/s</p></li><li><p>\\(-39{,}4=u-9{,}82\\cdot8{,}00\\).</p><p><strong>Svar:</strong> \\(39{,}2\\) m/s</p></li><li><p>\\(-h=8{,}00u-4{,}91\\cdot64\\).</p><p><strong>Svar:</strong> \\(0{,}960\\) m</p></li></ol>",
+    "id": "3.408",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18.04,
+      39.160000000000004,
+      0.9599999999999795
+    ],
+    "tolerans": [
+      0.51,
+      0.587,
+      0.0144
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En boll skjuts upp med \\(u\\) från 6,4 m höjd och landar efter 4,0 s. Bestäm \\(u\\).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En boll skjuts upp med \\(u\\) från 6,4 m höjd och landar efter 4,0 s. Bestäm \\(u\\).</p>",
+        "s": "<p>\\(-6{,}4=4{,}0u-4{,}91\\cdot16\\).</p><p><strong>Svar:</strong> \\(18\\) m/s</p>",
+        "ledtrad": "<p>Läget när den landar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En pil skjuts upp med \\(u\\) från en balkong och landar efter 8,00 s med 39,4 m/s. Bestäm \\(u\\).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En pil skjuts upp med \\(u\\) från en balkong och landar efter 8,00 s med 39,4 m/s. Bestäm \\(u\\).</p>",
+        "s": "<p>\\(-39{,}4=u-9{,}82\\cdot8{,}00\\).</p><p><strong>Svar:</strong> \\(39{,}2\\) m/s</p>",
+        "ledtrad": "<p>\\(v=v_0-gt\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm balkongens höjd för pilen.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>\\(u=39{,}2\\) m/s.<p>Bestäm balkongens höjd för pilen.</p>",
+        "s": "<p>\\(-h=8{,}00u-4{,}91\\cdot64\\).</p><p><strong>Svar:</strong> \\(0{,}960\\) m</p>",
+        "ledtrad": "<p>Läget när den landar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Positiv riktning uppåt.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "A",
+    "typ": "boll upp och boll ner",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p><ol type=\"a\"><li>När möts bollarna?</li><li>Hur högt över A möts de?</li><li>Vilken utgångsfart krävs för att de ska mötas precis i A?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(24{,}5T=98\\).</p><p><strong>Svar:</strong> \\(4{,}00\\) s</p></li><li><p>\\(d=98-4{,}91\\cdot4{,}00^2\\).</p><p><strong>Svar:</strong> \\(19{,}4\\) m</p></li><li><p>B faller 98 m på \\(\\sqrt{98/4{,}91}\\) s. A ska då vara tillbaka: \\(u=\\dfrac{9{,}82t}{2}\\).</p><p><strong>Svar:</strong> \\(21{,}9\\) m/s</p></li></ol>",
+    "id": "3.409",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fritt fall och lodrät kast",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      19.439999999999998,
+      21.93581546238936
+    ],
+    "tolerans": [
+      0.06,
+      0.292,
+      0.329
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "När möts bollarna?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p><p>När möts bollarna?</p>",
+        "s": "<p>\\(24{,}5T=98\\).</p><p><strong>Svar:</strong> \\(4{,}00\\) s</p>",
+        "ledtrad": "<p>\\(gt^2/2\\) tar ut sig.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt över A möts de?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p>De möts efter 4,00 s.<p>Hur högt över A möts de?</p>",
+        "s": "<p>\\(d=98-4{,}91\\cdot4{,}00^2\\).</p><p><strong>Svar:</strong> \\(19{,}4\\) m</p>",
+        "ledtrad": "<p>Den fallande bollens läge.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken utgångsfart krävs för att de ska mötas precis i A?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p><p>Vilken utgångsfart krävs för att de ska mötas precis i A?</p>",
+        "s": "<p>B faller 98 m på \\(\\sqrt{98/4{,}91}\\) s. A ska då vara tillbaka: \\(u=\\dfrac{9{,}82t}{2}\\).</p><p><strong>Svar:</strong> \\(21{,}9\\) m/s</p>",
+        "ledtrad": "<p>Bollen från A är tillbaka efter \\(2u/g\\).</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Positiv riktning uppåt.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "3.279",
     "kap": 3,
     "omr": "acceleration",
@@ -125266,6 +128416,92 @@ window.BANK = [
       "m",
       "km/h"
     ]
+  },
+  {
+    "kap": 3,
+    "omr": "acceleration",
+    "niva": "E",
+    "typ": "acceleration och sträcka",
+    "poang": "(3/0/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En gepard accelererar från vila till 90 km/h på 3,0 s. Bestäm accelerationen.</li><li>En truck startar från vila och har 1,75 m/s efter 2,50 s. Hur långt har den rört sig?</li><li>En cyklist ökar farten från 12 m/s till 18 m/s på 4,3 s. Hur långt rör sig cyklisten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{25}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(8{,}3\\) m/s²</p></li><li><p>\\(s=\\dfrac{0+1{,}75}{2}\\cdot2{,}50\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m</p></li><li><p>\\(s=\\dfrac{12+18}{2}\\cdot4{,}3\\).</p><p><strong>Svar:</strong> \\(64\\) m</p></li></ol>",
+    "id": "3.368",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Hastighet och tid vid konstant acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.333333333333334,
+      2.1875,
+      64.5
+    ],
+    "tolerans": [
+      0.125,
+      0.051,
+      0.967
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En gepard accelererar från vila till 90 km/h på 3,0 s. Bestäm accelerationen.",
+        "t": "<p>Bestäm.</p><p>En gepard accelererar från vila till 90 km/h på 3,0 s. Bestäm accelerationen.</p>",
+        "s": "<p>\\(a=\\dfrac{25}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(8{,}3\\) m/s²</p>",
+        "ledtrad": "<p>Gör om till m/s.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En truck startar från vila och har 1,75 m/s efter 2,50 s. Hur långt har den rört sig?",
+        "t": "<p>Bestäm.</p><p>En truck startar från vila och har 1,75 m/s efter 2,50 s. Hur långt har den rört sig?</p>",
+        "s": "<p>\\(s=\\dfrac{0+1{,}75}{2}\\cdot2{,}50\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En cyklist ökar farten från 12 m/s till 18 m/s på 4,3 s. Hur långt rör sig cyklisten?",
+        "t": "<p>Bestäm.</p><p>En cyklist ökar farten från 12 m/s till 18 m/s på 4,3 s. Hur långt rör sig cyklisten?</p>",
+        "s": "<p>\\(s=\\dfrac{12+18}{2}\\cdot4{,}3\\).</p><p><strong>Svar:</strong> \\(64\\) m</p>",
+        "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(v=v_0+at\\), \\(s=v_0t+\\dfrac{at^2}{2}\\), \\(s=\\dfrac{v_0+v}{2}t\\), \\(v^2-v_0^2=2as\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "acceleration__hastighet_och_tid_vid_konstant_acceleration",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "5.226",

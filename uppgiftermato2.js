@@ -45088,7 +45088,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>För \\(f(x)=x^3-3x\\) är de stationära x-värdena \\(x=-1\\) och \\(x=1\\). Bestäm koordinaterna för dessa punkter.</p>",
+        "fraga": "<p>De stationära x-värdena är \\(x=-1\\) och \\(x=1\\). Bestäm koordinaterna för dessa punkter.</p>",
         "s": "<p>\\(f(-1)=2\\), \\(f(1)=-2\\). Punkterna är \\((-1,2)\\) och \\((1,-2)\\).</p>",
         "niva": "E",
         "poang": "1/0/0",

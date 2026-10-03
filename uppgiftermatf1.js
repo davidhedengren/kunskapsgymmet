@@ -213,14 +213,14 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Låt \\(A=\\{1,3,4,5,6,8\\}\\) och \\(B=\\{3,4,5,6,7,8,9\\}\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(A\\cap B\\).</div>",
+        "t": "<p>Låt \\(A=\\{1,3,4,5,6,8\\}\\) och \\(B=\\{3,4,5,6,7,8,9\\}\\).</p><div class=\"spel-en-del\">Bestäm \\(A\\cap B\\).</div>",
         "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara de element som finns i båda mängderna.</p><p>De gemensamma elementen är 3, 4, 5, 6 och 8.</p><p><strong>Svar:</strong> \\(A\\cap B=\\{3,4,5,6,8\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Låt \\(A=\\{1,3,4,5,6,8\\}\\) och \\(B=\\{3,4,5,6,7,8,9\\}\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm \\(A\\cup B\\).</div>",
+        "t": "<p>Låt \\(A=\\{1,3,4,5,6,8\\}\\) och \\(B=\\{3,4,5,6,7,8,9\\}\\).</p><div class=\"spel-en-del\">Bestäm \\(A\\cup B\\).</div>",
         "s": "<p><strong>Nyckelidé:</strong> Unionen innehåller alla element som finns i minst en av mängderna. Dubbletter skrivs bara en gång.</p><p><strong>Svar:</strong> \\(A\\cup B=\\{1,3,4,5,6,7,8,9\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -340,28 +340,28 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>a)</strong> \\(A\\cup B\\)</div>",
+        "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\">\\(A\\cup B\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(B\\subseteq A\\) tillför \\(B\\) inga nya element till unionen.</p><p><strong>Svar:</strong> \\(A\\cup B=\\{1,2,3,4,5,6,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>b)</strong> \\(B\\cap C\\)</div>",
+        "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\">\\(B\\cap C\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Den tomma mängden har inga element och kan därför inte ha något gemensamt element med \\(B\\).</p><p><strong>Svar:</strong> \\(B\\cap C=\\varnothing\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>c)</strong> \\(C\\cup A\\)</div>",
+        "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\">\\(C\\cup A\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Att ta union med den tomma mängden förändrar inte mängden.</p><p><strong>Svar:</strong> \\(C\\cup A=A=\\{1,2,3,4,5,6,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
-        "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>d)</strong> \\(B\\cap(A\\cup C)\\).</div>",
+        "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\">\\(B\\cap(A\\cup C)\\).</div>",
         "s": "<p><strong>Nyckelidé:</strong> Först är \\(A\\cup C=A\\). Därefter blir \\(B\\cap A=B\\), eftersom \\(B\\subseteq A\\).</p><p><strong>Svar:</strong> \\(\\{1,3,5,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -451,25 +451,25 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>a)</strong> \\(A\\cap M\\)</div>",
+        "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(A\\cap M\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Snittet består av de element som finns i både \\(A\\) och \\(M\\).</p><p>Det enda gemensamma elementet är 0.</p><p><strong>Svar:</strong> \\(\\{0\\}\\).</p>",
         "niva": "E"
       },
       {
         "etikett": "b",
-        "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>b)</strong> \\(M^c\\)</div>",
+        "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(M^c\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> \\(M^c\\) består av alla element i grundmängden \\(G\\) som inte ligger i \\(M\\).</p><p><strong>Svar:</strong> \\(\\{1,2,4,5,6,8,9,10,12,13,15,16,17,18,19,20\\}\\).</p>",
         "niva": "E"
       },
       {
         "etikett": "c",
-        "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>c)</strong> \\(M\\cup A^c\\)</div>",
+        "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(M\\cup A^c\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Bilda först \\(A^c=G\\setminus A\\), och lägg sedan till elementen i \\(M\\). Varje element skrivs bara en gång.</p><p><strong>Svar:</strong> \\(\\{0,2,3,4,6,7,9,10,11,12,14,15,16,17,18,19\\}\\).</p>",
         "niva": "E"
       },
       {
         "etikett": "d",
-        "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>d)</strong> \\(M\\setminus A\\).</div>",
+        "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(M\\setminus A\\).</div>",
         "s": "<p><strong>Nyckelidé:</strong> \\(M\\setminus A\\) betyder elementen som ligger i \\(M\\) men inte i \\(A\\). Elementet 0 tas därför bort.</p><p><strong>Svar:</strong> \\(\\{3,7,11,14\\}\\).</p>",
         "niva": "E"
       }
@@ -956,19 +956,19 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många tillhör \\(A\\cap B\\)?</div>",
+        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Hur många tillhör \\(A\\cap B\\)?</div>",
         "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>a)</strong>  I snittet står talet 9, alltså \\(|A\\cap B|=9\\).</div>",
         "niva": "E"
       },
       {
         "etikett": "b",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör \\(A\\cup B\\)?</div>",
+        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Hur många tillhör \\(A\\cup B\\)?</div>",
         "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>b)</strong>  Unionen innehåller \\(14+9+11=34\\) elever.</div>",
         "niva": "E"
       },
       {
         "etikett": "c",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Hur många tillhör ingen av mängderna?</div>",
+        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Hur många tillhör ingen av mängderna?</div>",
         "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>c)</strong>  Utanför båda mängderna ligger \\(40-34=6\\) elever.</div>",
         "niva": "E"
       }
@@ -1051,19 +1051,19 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Skriv mängden \\(A\\cap B\\).</div>",
+        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\(A\\cap B\\).</div>",
         "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>a)</strong>  \\(A\\cap B=\\{5,7\\}\\).</div>",
         "niva": "E"
       },
       {
         "etikett": "b",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Skriv mängden \\(A\\setminus B\\).</div>",
+        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\(A\\setminus B\\).</div>",
         "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>b)</strong>  \\(A\\setminus B=\\{1,3\\}\\).</div>",
         "niva": "E"
       },
       {
         "etikett": "c",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Skriv mängden \\((A\\cup B)^c\\).</div>",
+        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\((A\\cup B)^c\\).</div>",
         "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>c)</strong>  \\((A\\cup B)^c=\\{11\\}\\).</div>",
         "niva": "E"
       }
@@ -1313,14 +1313,14 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Grundmängden är \\(U=\\{1,2,3,4,5,6,7,8\\}\\) och \\(A=\\{2,4,6,8\\}\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(U\\setminus A\\).</div>",
+        "t": "<p>Grundmängden är \\(U=\\{1,2,3,4,5,6,7,8\\}\\) och \\(A=\\{2,4,6,8\\}\\).</p><div class=\"spel-en-del\">Bestäm \\(U\\setminus A\\).</div>",
         "s": "<p><strong>Nyckelidé:</strong> Ta bort alla element i \\(A\\) från grundmängden \\(U\\).</p><p><strong>Svar:</strong> \\(U\\setminus A=\\{1,3,5,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Grundmängden är \\(U=\\{1,2,3,4,5,6,7,8\\}\\) och \\(A=\\{2,4,6,8\\}\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm komplementet \\(A^c\\).</div>",
+        "t": "<p>Grundmängden är \\(U=\\{1,2,3,4,5,6,7,8\\}\\) och \\(A=\\{2,4,6,8\\}\\).</p><div class=\"spel-en-del\">Bestäm komplementet \\(A^c\\).</div>",
         "s": "<p><strong>Nyckelidé:</strong> Komplementet \\(A^c\\) tas här i förhållande till \\(U\\). Det är därför samma mängd som \\(U\\setminus A\\).</p><p><strong>Svar:</strong> \\(A^c=\\{1,3,5,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1466,7 +1466,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p><strong>a)</strong> Bestäm \\(x\\).</p>",
+        "fraga": "<p>Bestäm \\(x\\).</p>",
         "niva": "C",
         "traningsniva": 3,
         "poang": "0/1/0",
@@ -1474,7 +1474,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p><strong>b)</strong> Hur många tillhör exakt en av mängderna?</p>",
+        "fraga": "<p>Hur många tillhör exakt en av mängderna?</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
@@ -1482,7 +1482,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p><strong>c)</strong> Hur många tillhör minst två av mängderna?</p>",
+        "fraga": "<p>Hur många tillhör minst två av mängderna?</p>",
         "niva": "C",
         "traningsniva": 3,
         "poang": "0/1/0",
@@ -2134,14 +2134,14 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många tillhör \\(A\\cup B\\)?</div>",
+        "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Hur många tillhör \\(A\\cup B\\)?</div>",
         "s": "<div class=\"spel-en-del\"><strong>a)</strong>  \\(|A\\cup B|=18+7+11=36\\).</div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör exakt en av mängderna?</div>",
+        "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Hur många tillhör exakt en av mängderna?</div>",
         "s": "<div class=\"spel-en-del\"><strong>b)</strong>  Exakt en mängd ger \\(18+11=29\\) personer.</div>",
         "niva": "E",
         "poang": "1/0/0"
@@ -2253,14 +2253,14 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder och angivna antal i varje del\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text><text x=\"28\" y=\"35\" font-size=\"15\">U = 60</text>\n<text x=\"122\" y=\"116\" font-size=\"16\">12</text><text x=\"286\" y=\"116\" font-size=\"16\">8</text><text x=\"214\" y=\"222\" font-size=\"16\">10</text>\n<text x=\"209\" y=\"92\" font-size=\"16\">5</text><text x=\"168\" y=\"170\" font-size=\"16\">6</text><text x=\"255\" y=\"170\" font-size=\"16\">4</text>\n<text x=\"210\" y=\"142\" font-size=\"16\" font-weight=\"700\">3</text>\n</svg></span><p>Diagrammet visar hur 60 personer fördelar sig i mängderna \\(A\\), \\(B\\) och \\(C\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många tillhör exakt två av mängderna?</div>",
+        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder och angivna antal i varje del\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text><text x=\"28\" y=\"35\" font-size=\"15\">U = 60</text>\n<text x=\"122\" y=\"116\" font-size=\"16\">12</text><text x=\"286\" y=\"116\" font-size=\"16\">8</text><text x=\"214\" y=\"222\" font-size=\"16\">10</text>\n<text x=\"209\" y=\"92\" font-size=\"16\">5</text><text x=\"168\" y=\"170\" font-size=\"16\">6</text><text x=\"255\" y=\"170\" font-size=\"16\">4</text>\n<text x=\"210\" y=\"142\" font-size=\"16\" font-weight=\"700\">3</text>\n</svg></span><p>Diagrammet visar hur 60 personer fördelar sig i mängderna \\(A\\), \\(B\\) och \\(C\\).</p><div class=\"spel-en-del\">Hur många tillhör exakt två av mängderna?</div>",
         "s": "<div class=\"spel-en-del\"><strong>a)</strong>  Exakt två mängder motsvarar de tre parvisa överlappen utan mittenområdet. Antalet är \\(5+6+4=15\\).</div>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "b",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder och angivna antal i varje del\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text><text x=\"28\" y=\"35\" font-size=\"15\">U = 60</text>\n<text x=\"122\" y=\"116\" font-size=\"16\">12</text><text x=\"286\" y=\"116\" font-size=\"16\">8</text><text x=\"214\" y=\"222\" font-size=\"16\">10</text>\n<text x=\"209\" y=\"92\" font-size=\"16\">5</text><text x=\"168\" y=\"170\" font-size=\"16\">6</text><text x=\"255\" y=\"170\" font-size=\"16\">4</text>\n<text x=\"210\" y=\"142\" font-size=\"16\" font-weight=\"700\">3</text>\n</svg></span><p>Diagrammet visar hur 60 personer fördelar sig i mängderna \\(A\\), \\(B\\) och \\(C\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör ingen av mängderna?</div>",
+        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder och angivna antal i varje del\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text><text x=\"28\" y=\"35\" font-size=\"15\">U = 60</text>\n<text x=\"122\" y=\"116\" font-size=\"16\">12</text><text x=\"286\" y=\"116\" font-size=\"16\">8</text><text x=\"214\" y=\"222\" font-size=\"16\">10</text>\n<text x=\"209\" y=\"92\" font-size=\"16\">5</text><text x=\"168\" y=\"170\" font-size=\"16\">6</text><text x=\"255\" y=\"170\" font-size=\"16\">4</text>\n<text x=\"210\" y=\"142\" font-size=\"16\" font-weight=\"700\">3</text>\n</svg></span><p>Diagrammet visar hur 60 personer fördelar sig i mängderna \\(A\\), \\(B\\) och \\(C\\).</p><div class=\"spel-en-del\">Hur många tillhör ingen av mängderna?</div>",
         "s": "<div class=\"spel-en-del\"><strong>b)</strong>  Inne i minst en mängd finns \\(12+8+10+5+6+4+3=48\\) personer. Utanför alla tre finns därför \\(60-48=12\\) personer.</div>",
         "niva": "C",
         "poang": "0/1/0"
@@ -2346,7 +2346,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p><strong>a)</strong> Hur många av talen är delbara med minst ett av talen 2, 3 och 5?</p>",
+        "fraga": "<p>Hur många av talen är delbara med minst ett av talen 2, 3 och 5?</p>",
         "niva": "C",
         "traningsniva": 4,
         "poang": "0/2/0",
@@ -2354,7 +2354,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p><strong>b)</strong> Hur många är inte delbara med något av talen 2, 3 och 5?</p>",
+        "fraga": "<p>Hur många är inte delbara med något av talen 2, 3 och 5?</p>",
         "niva": "C",
         "traningsniva": 4,
         "poang": "0/1/0",
@@ -2768,14 +2768,14 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>På ett evenemang provar 64 personer aktivitet A och 51 personer aktivitet B. 23 provar båda. Totalt deltar 110 personer.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många provar exakt en av aktiviteterna?</div>",
+        "t": "<p>På ett evenemang provar 64 personer aktivitet A och 51 personer aktivitet B. 23 provar båda. Totalt deltar 110 personer.</p><div class=\"spel-en-del\">Hur många provar exakt en av aktiviteterna?</div>",
         "s": "<p>Endast A: \\(64-23=41\\). Endast B: \\(51-23=28\\).</p><p>Alltså</p><p>\\[41+28=69.\\]</p><p><strong>Svar:</strong> 69 personer.</p>",
         "niva": "C",
         "traningsniva": 3
       },
       {
         "etikett": "b",
-        "t": "<p>På ett evenemang provar 64 personer aktivitet A och 51 personer aktivitet B. 23 provar båda. Totalt deltar 110 personer.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många provar ingen av aktiviteterna?</div>",
+        "t": "<p>På ett evenemang provar 64 personer aktivitet A och 51 personer aktivitet B. 23 provar båda. Totalt deltar 110 personer.</p><div class=\"spel-en-del\">Hur många provar ingen av aktiviteterna?</div>",
         "s": "<p>Minst en aktivitet:</p><p>\\[64+51-23=92.\\]</p><p>Av 110 deltagare provar därför</p><p>\\[110-92=18\\]</p><p>ingen av aktiviteterna.</p><p><strong>Svar:</strong> 18 personer.</p>",
         "niva": "C",
         "traningsniva": 3
@@ -4269,7 +4269,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p><strong>a)</strong> \\(\\binom{11}{4}\\)</p>",
+        "fraga": "<p>\\(\\binom{11}{4}\\)</p>",
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
@@ -4277,7 +4277,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p><strong>b)</strong> \\(\\binom{20}{5}\\)</p>",
+        "fraga": "<p>\\(\\binom{20}{5}\\)</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
@@ -4285,7 +4285,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p><strong>c)</strong> \\(\\binom{17}{13}\\)</p>",
+        "fraga": "<p>\\(\\binom{17}{13}\\)</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
@@ -4338,13 +4338,13 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Av 33 elever ska 9 delta i en aktivitet.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många olika köordningar kan 9 av eleverna bilda?</div>",
+        "t": "<p>Av 33 elever ska 9 delta i en aktivitet.</p><div class=\"spel-en-del\">Hur många olika köordningar kan 9 av eleverna bilda?</div>",
         "s": "<p><strong>Nyckelidé:</strong> I en kö spelar ordningen roll, så använd ett ordnat urval.</p><p>\\[P(33,9)=\\frac{33!}{24!}=13\\,995\\,229\\,248\\,000.\\]</p><p><strong>Svar:</strong> \\(13\\,995\\,229\\,248\\,000\\approx 1{,}40\\cdot 10^{13}\\).</p><p>En miniräknare visar oftast \\(1{,}399522925\\cdot 10^{13}\\). Ett korrekt avrundat svar i grundpotensform godtas.</p>",
         "niva": "E"
       },
       {
         "etikett": "b",
-        "t": "<p>Av 33 elever ska 9 delta i en aktivitet.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många olika grupper om 9 elever kan väljas om ordningen inte spelar roll?</div>",
+        "t": "<p>Av 33 elever ska 9 delta i en aktivitet.</p><div class=\"spel-en-del\">Hur många olika grupper om 9 elever kan väljas om ordningen inte spelar roll?</div>",
         "s": "<p><strong>Nyckelidé:</strong> I en grupp spelar ordningen inte roll, så använd en kombination.</p><p>\\[\\binom{33}{9}=38\\,567\\,100.\\]</p><p><strong>Svar:</strong> \\(38\\,567\\,100\\).</p>",
         "niva": "E"
       }
@@ -4400,7 +4400,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p><strong>a)</strong> \\(\\binom98\\)</p>",
+        "fraga": "<p>\\(\\binom98\\)</p>",
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
@@ -4408,7 +4408,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p><strong>b)</strong> \\(\\binom{20}{18}\\)</p>",
+        "fraga": "<p>\\(\\binom{20}{18}\\)</p>",
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
@@ -4416,7 +4416,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p><strong>c)</strong> \\(\\binom{105}{102}\\)</p>",
+        "fraga": "<p>\\(\\binom{105}{102}\\)</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
@@ -4810,7 +4810,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p><strong>a)</strong> Hur många olika ord kan bildas?</p>",
+        "fraga": "<p>Hur många olika ord kan bildas?</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
@@ -4818,7 +4818,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p><strong>b)</strong> Om alla orden ordnas i bokstavsordning, vilket nummer får ordet KNOTAF?</p>",
+        "fraga": "<p>Om alla orden ordnas i bokstavsordning, vilket nummer får ordet KNOTAF?</p>",
         "niva": "A",
         "traningsniva": 5,
         "poang": "0/1/2",
@@ -5640,7 +5640,7 @@ window.BANKMATF1 = [
         "niva": "C",
         "traningsniva": 2,
         "poang": "0/1/0",
-        "fraga": "<p><strong>a)</strong> På hur många sätt kan 12 burkar väljas om en smak får förekomma 0 gånger?</p>",
+        "fraga": "<p>På hur många sätt kan 12 burkar väljas om en smak får förekomma 0 gånger?</p>",
         "s": "<p>Låt \\(x_1+x_2+x_3+x_4=12\\), där alla \\(x_i\\ge 0\\). Med stjärnor och streck fås</p><p>\\[\\binom{12+4-1}{4-1}=\\binom{15}{3}=455.\\]</p><p><strong>Svar:</strong> 455.</p>"
       },
       {
@@ -5648,7 +5648,7 @@ window.BANKMATF1 = [
         "niva": "C",
         "traningsniva": 3,
         "poang": "0/2/0",
-        "fraga": "<p><strong>b)</strong> På hur många sätt kan 12 burkar väljas om minst en av varje smak måste ingå?</p>",
+        "fraga": "<p>På hur många sätt kan 12 burkar väljas om minst en av varje smak måste ingå?</p>",
         "s": "<p>Lägg först undan en burk av varje smak. Då återstår 8 burkar att fördela fritt mellan fyra smaker:</p><p>\\[\\binom{8+4-1}{4-1}=\\binom{11}{3}=165.\\]</p><p><strong>Svar:</strong> 165.</p>"
       }
     ],
@@ -7197,7 +7197,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>I ett lotteri väljer man 5 olika nummer av 25. Därefter dras 5 vinnarnummer.</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm sannolikheten att få alla 5 rätt.</div>",
+        "t": "<p>I ett lotteri väljer man 5 olika nummer av 25. Därefter dras 5 vinnarnummer.</p><div class=\"spel-en-del\">Bestäm sannolikheten att få alla 5 rätt.</div>",
         "s": "<p>Det finns \\(\\binom{25}{5}=53\\,130\\) lika sannolika femmängder och exakt en av dem ger fem rätt.</p><p>\\[P=\\frac1{53130}\\approx0,00188\\%.\\]</p><p><strong>Svar:</strong> cirka \\(0,00188\\%\\).</p>",
         "niva": "E",
         "poang": "2/0/0",
@@ -7205,7 +7205,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>I ett lotteri väljer man 5 olika nummer av 25. Därefter dras 5 vinnarnummer.</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm sannolikheten att få minst 3 rätt.</div>",
+        "t": "<p>I ett lotteri väljer man 5 olika nummer av 25. Därefter dras 5 vinnarnummer.</p><div class=\"spel-en-del\">Bestäm sannolikheten att få minst 3 rätt.</div>",
         "s": "<p>”Minst 3 rätt” är de disjunkta fallen 3, 4 eller 5 rätt:</p><p>\\[P=\\frac{\\binom53\\binom{20}2+\\binom54\\binom{20}1+\\binom55}{\\binom{25}5}\\approx0,03766.\\]</p><p><strong>Svar:</strong> cirka \\(3,77\\%\\).</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -7623,7 +7623,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<span class=\"fig\"><svg width=\"340\" height=\"235\" viewBox=\"0 0 350 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rutnät med tre steg åt höger och två steg uppåt från A till B\">\n<rect width=\"350\" height=\"240\" fill=\"white\"/>\n<g stroke=\"#666\" stroke-width=\"1.5\"><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"185\"/><line x1=\"130\" y1=\"45\" x2=\"130\" y2=\"185\"/><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"185\"/><line x1=\"270\" y1=\"45\" x2=\"270\" y2=\"185\"/><line x1=\"60\" y1=\"45\" x2=\"270\" y2=\"45\"/><line x1=\"60\" y1=\"115\" x2=\"270\" y2=\"115\"/><line x1=\"60\" y1=\"185\" x2=\"270\" y2=\"185\"/></g>\n<circle cx=\"60\" cy=\"185\" r=\"5\" fill=\"#222\"/><circle cx=\"270\" cy=\"45\" r=\"5\" fill=\"#222\"/>\n<circle cx=\"200\" cy=\"115\" r=\"4.5\" fill=\"#B23A2E\"/>\n<text x=\"40\" y=\"204\" font-size=\"16\">A</text><text x=\"278\" y=\"41\" font-size=\"16\">B</text>\n<text x=\"208\" y=\"110\" font-size=\"13\" fill=\"#B23A2E\">M</text>\n<text x=\"60\" y=\"225\" font-size=\"14\">endast steg åt höger eller uppåt</text>\n</svg></span><p>Man går från punkt A till punkt B i rutnätet genom att bara gå åt höger eller uppåt.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många kortaste vägar finns det?</div>",
+        "t": "<span class=\"fig\"><svg width=\"340\" height=\"235\" viewBox=\"0 0 350 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rutnät med tre steg åt höger och två steg uppåt från A till B\">\n<rect width=\"350\" height=\"240\" fill=\"white\"/>\n<g stroke=\"#666\" stroke-width=\"1.5\"><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"185\"/><line x1=\"130\" y1=\"45\" x2=\"130\" y2=\"185\"/><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"185\"/><line x1=\"270\" y1=\"45\" x2=\"270\" y2=\"185\"/><line x1=\"60\" y1=\"45\" x2=\"270\" y2=\"45\"/><line x1=\"60\" y1=\"115\" x2=\"270\" y2=\"115\"/><line x1=\"60\" y1=\"185\" x2=\"270\" y2=\"185\"/></g>\n<circle cx=\"60\" cy=\"185\" r=\"5\" fill=\"#222\"/><circle cx=\"270\" cy=\"45\" r=\"5\" fill=\"#222\"/>\n<circle cx=\"200\" cy=\"115\" r=\"4.5\" fill=\"#B23A2E\"/>\n<text x=\"40\" y=\"204\" font-size=\"16\">A</text><text x=\"278\" y=\"41\" font-size=\"16\">B</text>\n<text x=\"208\" y=\"110\" font-size=\"13\" fill=\"#B23A2E\">M</text>\n<text x=\"60\" y=\"225\" font-size=\"14\">endast steg åt höger eller uppåt</text>\n</svg></span><p>Man går från punkt A till punkt B i rutnätet genom att bara gå åt höger eller uppåt.</p><div class=\"spel-en-del\">Hur många kortaste vägar finns det?</div>",
         "s": "<p>En kortaste väg består av 5 steg: 3 åt höger och 2 uppåt. Välj vilka 2 av de 5 positionerna som är uppsteg:</p><p>\\[\\binom52=10.\\]</p><p><strong>Svar:</strong> 10.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -7631,7 +7631,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<span class=\"fig\"><svg width=\"340\" height=\"235\" viewBox=\"0 0 350 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rutnät med tre steg åt höger och två steg uppåt från A till B\">\n<rect width=\"350\" height=\"240\" fill=\"white\"/>\n<g stroke=\"#666\" stroke-width=\"1.5\"><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"185\"/><line x1=\"130\" y1=\"45\" x2=\"130\" y2=\"185\"/><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"185\"/><line x1=\"270\" y1=\"45\" x2=\"270\" y2=\"185\"/><line x1=\"60\" y1=\"45\" x2=\"270\" y2=\"45\"/><line x1=\"60\" y1=\"115\" x2=\"270\" y2=\"115\"/><line x1=\"60\" y1=\"185\" x2=\"270\" y2=\"185\"/></g>\n<circle cx=\"60\" cy=\"185\" r=\"5\" fill=\"#222\"/><circle cx=\"270\" cy=\"45\" r=\"5\" fill=\"#222\"/>\n<circle cx=\"200\" cy=\"115\" r=\"4.5\" fill=\"#B23A2E\"/>\n<text x=\"40\" y=\"204\" font-size=\"16\">A</text><text x=\"278\" y=\"41\" font-size=\"16\">B</text>\n<text x=\"208\" y=\"110\" font-size=\"13\" fill=\"#B23A2E\">M</text>\n<text x=\"60\" y=\"225\" font-size=\"14\">endast steg åt höger eller uppåt</text>\n</svg></span><p>Man går från punkt A till punkt B i rutnätet genom att bara gå åt höger eller uppåt.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många av dessa vägar passerar genom punkten mitt i rutnätet, alltså punkten som ligger 2 steg åt höger och 1 steg upp från A?</div>",
+        "t": "<span class=\"fig\"><svg width=\"340\" height=\"235\" viewBox=\"0 0 350 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rutnät med tre steg åt höger och två steg uppåt från A till B\">\n<rect width=\"350\" height=\"240\" fill=\"white\"/>\n<g stroke=\"#666\" stroke-width=\"1.5\"><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"185\"/><line x1=\"130\" y1=\"45\" x2=\"130\" y2=\"185\"/><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"185\"/><line x1=\"270\" y1=\"45\" x2=\"270\" y2=\"185\"/><line x1=\"60\" y1=\"45\" x2=\"270\" y2=\"45\"/><line x1=\"60\" y1=\"115\" x2=\"270\" y2=\"115\"/><line x1=\"60\" y1=\"185\" x2=\"270\" y2=\"185\"/></g>\n<circle cx=\"60\" cy=\"185\" r=\"5\" fill=\"#222\"/><circle cx=\"270\" cy=\"45\" r=\"5\" fill=\"#222\"/>\n<circle cx=\"200\" cy=\"115\" r=\"4.5\" fill=\"#B23A2E\"/>\n<text x=\"40\" y=\"204\" font-size=\"16\">A</text><text x=\"278\" y=\"41\" font-size=\"16\">B</text>\n<text x=\"208\" y=\"110\" font-size=\"13\" fill=\"#B23A2E\">M</text>\n<text x=\"60\" y=\"225\" font-size=\"14\">endast steg åt höger eller uppåt</text>\n</svg></span><p>Man går från punkt A till punkt B i rutnätet genom att bara gå åt höger eller uppåt.</p><div class=\"spel-en-del\">Hur många av de kortaste vägarna passerar genom punkten mitt i rutnätet, alltså punkten som ligger 2 steg åt höger och 1 steg upp från A?</div>",
         "s": "<p>Från A till M behövs 2 högersteg och 1 uppsteg: \\(\\binom31=3\\) vägar. Från M till B behövs 1 högersteg och 1 uppsteg: \\(\\binom21=2\\) vägar.</p><p>Multiplikationsprincipen ger \\(3\\cdot2=6\\).</p><p><strong>Svar:</strong> 6.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -8727,21 +8727,21 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\"><strong>a)</strong> 4</div>",
+        "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\">4</div>",
         "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>a)</strong>  De två sista siffrorna är 72 och \\(72\\) är delbart med 4. Alltså är 2772 delbart med 4.</div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\"><strong>b)</strong> 9</div>",
+        "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\">9</div>",
         "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>b)</strong>  Siffersumman är \\(2+7+7+2=18\\), som är delbar med 9. Alltså är 2772 delbart med 9.</div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\"><strong>c)</strong> 11.</div>",
+        "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\">11.</div>",
         "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>c)</strong>  Den alternerande summan är \\(2-7+7-2=0\\), som är delbar med 11. Alltså är 2772 också delbart med 11.</div>",
         "niva": "E",
         "poang": "1/0/0"
@@ -10999,28 +10999,28 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(21+15+38\\pmod5\\)</div>",
+        "t": "<p>Förenkla.</p><div class=\"spel-en-del\">\\(21+15+38\\pmod5\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Ersätt varje term med dess rest modulo 5.</p><p>\\[21+15+38\\equiv1+0+3=4\\pmod5.\\]</p><p><strong>Svar:</strong> 4.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(13\\cdot11\\pmod5\\)</div>",
+        "t": "<p>Förenkla.</p><div class=\"spel-en-del\">\\(13\\cdot11\\pmod5\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Reducera faktorerna före multiplikationen.</p><p>\\[13\\cdot11\\equiv3\\cdot1=3\\pmod5.\\]</p><p><strong>Svar:</strong> 3.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(2^{30}\\pmod3\\)</div>",
+        "t": "<p>Förenkla.</p><div class=\"spel-en-del\">\\(2^{30}\\pmod3\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Modulo 3 är \\(2\\equiv-1\\). En jämn exponent ger därför resten 1.</p><p>\\[2^{30}\\equiv(-1)^{30}=1\\pmod3.\\]</p><p><strong>Svar:</strong> 1.</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "d",
-        "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(2^{30}\\pmod5\\)</div>",
+        "t": "<p>Förenkla.</p><div class=\"spel-en-del\">\\(2^{30}\\pmod5\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Potenserna av 2 upprepas med period 4 modulo 5 eftersom \\(2^4\\equiv1\\).</p><p>\\[30=7\\cdot4+2,\\qquad 2^{30}\\equiv2^2=4\\pmod5.\\]</p><p><strong>Svar:</strong> 4.</p>",
         "niva": "C",
         "poang": "0/1/0"
@@ -11836,7 +11836,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Talföljden börjar \\(2,5,10,17,26,\\ldots\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm en explicit formel för \\(a_n\\).</div>",
+        "t": "<p>Talföljden börjar \\(2,5,10,17,26,\\ldots\\).</p><div class=\"spel-en-del\">Bestäm en explicit formel för \\(a_n\\).</div>",
         "s": "<p>Differenserna är 3, 5, 7, 9, ... vilket passar \\(n^2+1\\). Kontroll: \\(1^2+1=2\\), \\(2^2+1=5\\), \\(3^2+1=10\\).</p><p><strong>Svar:</strong> \\(a_n=n^2+1\\).</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -11844,7 +11844,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Talföljden har den explicita formeln \\(a_n=n^2+1\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm \\(a_{20}\\).</div>",
+        "t": "<p>Talföljden har den explicita formeln \\(a_n=n^2+1\\).</p><div class=\"spel-en-del\">Bestäm \\(a_{20}\\).</div>",
         "s": "<p>\\[a_{20}=20^2+1=401.\\]</p><p><strong>Svar:</strong> 401.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -11911,7 +11911,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Talföljden börjar \\(7,11,15,19,\\ldots\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Skriv de tre nästa termerna.</div>",
+        "t": "<p>Talföljden börjar \\(7,11,15,19,\\ldots\\).</p><div class=\"spel-en-del\">Skriv de tre nästa termerna.</div>",
         "s": "<p>Differensen är 4. Fortsätt därför med 4 i taget: <strong>23, 27, 31</strong>.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -11919,7 +11919,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Talföljden börjar \\(7,11,15,19,\\ldots\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Ange vilken typ av talföljd det är.</div>",
+        "t": "<p>Talföljden börjar \\(7,11,15,19,\\ldots\\).</p><div class=\"spel-en-del\">Ange vilken typ av talföljd det är.</div>",
         "s": "<p>Differensen mellan två efterföljande termer är alltid 4. Följden är därför <strong>aritmetisk</strong>.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -12403,7 +12403,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<div class=\"spel-en-del\"><strong>a)</strong> Visa att \\(\\displaystyle\\sum_{k=1}^{n}\\frac{1}{k(k+1)}=\\frac{n}{n+1}\\) genom att först skriva om varje term som en differens.</div>",
+        "t": "<div class=\"spel-en-del\">Visa att \\(\\displaystyle\\sum_{k=1}^{n}\\frac{1}{k(k+1)}=\\frac{n}{n+1}\\) genom att först skriva om varje term som en differens.</div>",
         "s": "<p>Skriv \\(\\frac1{k(k+1)}=\\frac1k-\\frac1{k+1}\\). I summan tar alla mellanliggande termer ut varandra och kvar blir \\(1-\\frac1{n+1}=\\frac n{n+1}\\).</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -12411,7 +12411,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<div class=\"spel-en-del\"><strong>b)</strong> Använd \\(\\displaystyle\\sum_{k=1}^{n}\\frac{1}{k(k+1)}=\\frac{n}{n+1}\\) för att bestämma summan när \\(n=99\\).</div>",
+        "t": "<div class=\"spel-en-del\">Använd \\(\\displaystyle\\sum_{k=1}^{n}\\frac{1}{k(k+1)}=\\frac{n}{n+1}\\) för att bestämma summan när \\(n=99\\).</div>",
         "s": "<p>\\[\\frac{99}{99+1}=\\frac{99}{100}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -13062,14 +13062,14 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Talföljden \\(1,3,9,\\ldots,19683\\) innehåller 10 termer.</p><div class=\"spel-en-del\"><strong>a)</strong> Ange en formel för den \\(n\\):te termen.</div>",
+        "t": "<p>Talföljden \\(1,3,9,\\ldots,19683\\) innehåller 10 termer.</p><div class=\"spel-en-del\">Ange en formel för den \\(n\\):te termen.</div>",
         "s": "<p><strong>Nyckelidé:</strong> Följden är geometrisk med första termen \\(a_1=1\\) och kvoten \\(q=3\\).</p><p>\\[a_n=a_1q^{n-1}=3^{n-1}.\\]</p><p><strong>Svar:</strong> \\(a_n=3^{n-1}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Talföljden \\(1,3,9,\\ldots,19683\\) innehåller 10 termer.</p><div class=\"spel-en-del\"><strong>b)</strong> Beräkna summan av de 10 termerna.</div>",
+        "t": "<p>Talföljden \\(1,3,9,\\ldots,19683\\) innehåller 10 termer.</p><div class=\"spel-en-del\">Beräkna summan av de 10 termerna.</div>",
         "s": "<p><strong>Nyckelidé:</strong> Använd summan av de första \\(n\\) termerna i en geometrisk talföljd.</p><p>\\[S_{10}=\\frac{1(3^{10}-1)}{3-1}=29\\,524.\\]</p><p><strong>Svar:</strong> 29 524.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -13192,14 +13192,14 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En aritmetisk talföljd har 10 termer. De två första är 4 och 11.</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm de två sista termerna.</div>",
+        "t": "<p>En aritmetisk talföljd har 10 termer. De två första är 4 och 11.</p><div class=\"spel-en-del\">Bestäm de två sista termerna.</div>",
         "s": "<p><strong>Nyckelidé:</strong> Differensen är \\(d=11-4=7\\). Den n:te termen är \\(a_n=4+(n-1)7\\).</p><p>\\[a_9=60,\\qquad a_{10}=67.\\]</p><p><strong>Svar:</strong> 60 och 67.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>En aritmetisk talföljd har 10 termer. De två första är 4 och 11.</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm summan av alla termer.</div>",
+        "t": "<p>En aritmetisk talföljd har 10 termer. De två första är 4 och 11.</p><div class=\"spel-en-del\">Bestäm summan av alla termer.</div>",
         "s": "<p><strong>Nyckelidé:</strong> För en aritmetisk summa kan första och sista termen paras ihop.</p><p>Den sista termen är \\(a_{10}=67\\), så</p><p>\\[S_{10}=\\frac{10(4+67)}2=355.\\]</p><p><strong>Svar:</strong> 355.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -15189,8 +15189,8 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "fraga": "Anta i stället att lånet var 6 200 kr. Hur många månader tar det att betala tillbaka det?",
-        "t": "<p>Ingrid betalar tillbaka ett lån med månadsbetalningar som bildar en aritmetisk talföljd: 350 kr första månaden, 340 kr andra månaden, 330 kr tredje månaden och så vidare.</p><p>Anta i stället att lånet var 6 200 kr. Hur många månader tar det att betala tillbaka det?</p>",
+        "fraga": "Anta att lånet var 6 200 kr. Hur många månader tar det att betala tillbaka det?",
+        "t": "<p>Ingrid betalar tillbaka ett lån med månadsbetalningar som bildar en aritmetisk talföljd: 350 kr första månaden, 340 kr andra månaden, 330 kr tredje månaden och så vidare.</p><p>Anta att lånet var 6 200 kr. Hur många månader tar det att betala tillbaka det?</p>",
         "s": "<p>\\(a_n=350-10(n-1)=360-10n\\) och \\(S_n=\\dfrac{n(350+360-10n)}{2}=355n-5n^2\\).</p><p>\\(355n-5n^2=6\\,200\\iff n^2-71n+1\\,240=0\\iff n=31\\) eller \\(n=40\\).</p><p>\\(a_{40}=360-400=-40\\lt0\\) är ingen betalning, men \\(a_{31}=50\\gt0\\). Lånet är alltså betalt efter 31 månader.</p><p><strong>Svar:</strong> 31 månader</p>",
         "ledtrad": "<p>Ställ upp \\(S_n=6\\,200\\). Ekvationen har två lösningar. Vilken är rimlig?</p>",
         "niva": "A",
@@ -15499,8 +15499,8 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "fraga": "Anta i stället att företaget samtidigt förlorar 3 kunder varje vecka. Efter hur många veckor har företaget 600 kunder?",
-        "t": "<p>Ett städföretag har 125 kunder och vill nå 600 kunder. Efter en kampanj räknar man med 10 nya kunder första veckan, 12 nya den andra, 14 nya den tredje och så vidare.</p><p>Anta i stället att företaget samtidigt förlorar 3 kunder varje vecka. Efter hur många veckor har företaget 600 kunder?</p>",
+        "fraga": "Anta att företaget samtidigt förlorar 3 kunder varje vecka. Efter hur många veckor har företaget 600 kunder?",
+        "t": "<p>Ett städföretag har 125 kunder och vill nå 600 kunder. Efter en kampanj räknar man med 10 nya kunder första veckan, 12 nya den andra, 14 nya den tredje och så vidare.</p><p>Anta att företaget samtidigt förlorar 3 kunder varje vecka. Efter hur många veckor har företaget 600 kunder?</p>",
         "s": "<p>Nettoökningen blir 7, 9, 11, … kunder per vecka, med \\(d=2\\).</p><p>\\(S_n=\\dfrac{n(14+2(n-1))}{2}=n(n+6)\\).</p><p>\\(125+n(n+6)\\ge600\\iff n^2+6n-475\\ge0\\). \\(n=19\\) ger precis \\(19\\cdot25=475\\).</p><p><strong>Svar:</strong> 19 veckor</p>",
         "ledtrad": "<p>Vilken blir nettoökningen den första veckan? Den bildar också en aritmetisk talföljd.</p>",
         "niva": "C",
@@ -17432,7 +17432,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En följd ges av \\(P_{n+1}=0,75P_n+25\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm följdens gränsvärde.</div>",
+        "t": "<p>En följd ges av \\(P_{n+1}=0,75P_n+25\\).</p><div class=\"spel-en-del\">Bestäm följdens gränsvärde.</div>",
         "s": "<p>Sätt \\(P_{n+1}=P_n=L\\): \\(L=0,75L+25\\), vilket ger \\(L=100\\).</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -17440,7 +17440,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>En följd ges av \\(P_{n+1}=0,75P_n+25\\) och har jämviktsvärdet 100.</p><div class=\"spel-en-del\"><strong>b)</strong> Visa att följden konvergerar mot 100 och förklara varför startvärdet inte påverkar gränsvärdet.</div>",
+        "t": "<p>En följd ges av \\(P_{n+1}=0,75P_n+25\\) och har jämviktsvärdet 100.</p><div class=\"spel-en-del\">Visa att följden konvergerar mot 100 och förklara varför startvärdet inte påverkar gränsvärdet.</div>",
         "s": "<p>Sätt \\(Q_n=P_n-100\\). Då blir \\(Q_{n+1}=0,75Q_n\\), alltså \\(Q_n=Q_0\\cdot0,75^n\\to0\\). Därför \\(P_n\\to100\\), oberoende av det ändliga startvärdet.</p>",
         "niva": "A",
         "poang": "0/0/2",
@@ -17785,7 +17785,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En talföljd definieras av \\(a_1=2\\), \\(a_{n+1}=3a_n+4\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(a_2,a_3,a_4\\).</div>",
+        "t": "<p>En talföljd definieras av \\(a_1=2\\), \\(a_{n+1}=3a_n+4\\).</p><div class=\"spel-en-del\">Bestäm \\(a_2,a_3,a_4\\).</div>",
         "s": "<p>\\(a_2=10\\), \\(a_3=34\\), \\(a_4=106\\).</p>",
         "niva": "E",
         "poang": "2/0/0",
@@ -17793,7 +17793,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>En talföljd definieras av \\(a_1=2\\), \\(a_{n+1}=3a_n+4\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Visa med induktion att \\(a_n=4\\cdot3^{n-1}-2\\) för alla \\(n\\ge1\\).</div>",
+        "t": "<p>En talföljd definieras av \\(a_1=2\\), \\(a_{n+1}=3a_n+4\\).</p><div class=\"spel-en-del\">Visa med induktion att \\(a_n=4\\cdot3^{n-1}-2\\) för alla \\(n\\ge1\\).</div>",
         "s": "<p>Basfall: formeln ger 2 när \\(n=1\\). Antag \\(a_k=4\\cdot3^{k-1}-2\\). Då \\(a_{k+1}=3a_k+4=4\\cdot3^k-2\\), vilket är formeln för \\(k+1\\).</p>",
         "niva": "A",
         "poang": "0/1/3",
@@ -18001,7 +18001,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett sparkonto innehåller 5000 kr. Varje år får kontot 4 % ränta och därefter sätts 1200 kr in.</p><div class=\"spel-en-del\"><strong>a)</strong> Skriv en rekursionsformel för saldot \\(S_n\\).</div>",
+        "t": "<p>Ett sparkonto innehåller 5000 kr. Varje år får kontot 4 % ränta och därefter sätts 1200 kr in.</p><div class=\"spel-en-del\">Skriv en rekursionsformel för saldot \\(S_n\\).</div>",
         "s": "<p>\\[S_0=5000,\\qquad S_{n+1}=1,04S_n+1200.\\]</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -18009,7 +18009,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Saldot följer \\(S_0=5000\\), \\(S_{n+1}=1,04S_n+1200\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm \\(S_3\\).</div>",
+        "t": "<p>Saldot följer \\(S_0=5000\\), \\(S_{n+1}=1,04S_n+1200\\).</p><div class=\"spel-en-del\">Bestäm \\(S_3\\).</div>",
         "s": "<p>\\(S_1=6400\\), \\(S_2=7856\\), \\(S_3=9370,24\\).</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -18200,7 +18200,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0,5a_n+6.\\]</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm följdens gränsvärde.</div>",
+        "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0,5a_n+6.\\]</p><div class=\"spel-en-del\">Bestäm följdens gränsvärde.</div>",
         "s": "<p>Om följden närmar sig \\(L\\), så gäller \\(L=0,5L+6\\). Därför \\(L=12\\).</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -18208,7 +18208,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0,5a_n+6.\\]</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm en explicit formel.</div>",
+        "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0,5a_n+6.\\]</p><div class=\"spel-en-del\">Bestäm en explicit formel.</div>",
         "s": "<p>Eftersom \\(a_{n+1}-12=0,5(a_n-12)\\) och \\(a_0-12=8\\), fås \\(a_n=12+8\\cdot0,5^n\\).</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -24311,25 +24311,25 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(y'=3y\\)</div>",
+        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\">\\(y'=3y\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Här förekommer både den okända funktionen \\(y\\) och derivatan \\(y'\\).</p><p><strong>Svar:</strong> ja.</p>",
         "niva": "E"
       },
       {
         "etikett": "b",
-        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(2x+5=11\\)</div>",
+        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\">\\(2x+5=11\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Detta är en vanlig algebraisk ekvation i \\(x\\); ingen okänd funktion eller derivata förekommer.</p><p><strong>Svar:</strong> nej.</p>",
         "niva": "E"
       },
       {
         "etikett": "c",
-        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(y''+y=0\\)</div>",
+        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\">\\(y''+y=0\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Här förekommer den okända funktionen \\(y\\) och dess andraderivata \\(y''\\).</p><p><strong>Svar:</strong> ja.</p>",
         "niva": "E"
       },
       {
         "etikett": "d",
-        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(f(x)=x^2\\)</div>",
+        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\">\\(f(x)=x^2\\)</div>",
         "s": "<p><strong>Nyckelidé:</strong> Detta definierar en funktion men innehåller ingen derivata, så det är inte en differentialekvation.</p><p><strong>Svar:</strong> nej.</p>",
         "niva": "E"
       }
@@ -25349,7 +25349,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<span class=\"fig\"><svg height=\"260\" width=\"470\" viewBox=\"0 0 470 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopp kaffe som svalnar i ett rum\"><rect width=\"470\" height=\"260\" fill=\"white\"/><ellipse cx=\"190\" cy=\"95\" rx=\"75\" ry=\"18\" fill=\"#ddd\" stroke=\"#444\" stroke-width=\"2\"/><path d=\"M115 95 L125 190 Q130 220 190 220 Q250 220 255 190 L265 95\" fill=\"#f8f8f8\" stroke=\"#444\" stroke-width=\"2\"/><path d=\"M265 110 Q320 105 320 145 Q320 185 270 175\" fill=\"none\" stroke=\"#444\" stroke-width=\"2\"/><ellipse cx=\"190\" cy=\"95\" rx=\"68\" ry=\"13\" fill=\"#7b4a2f\"/><path d=\"M155 65 Q145 45 155 25\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><path d=\"M190 63 Q180 40 190 18\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><path d=\"M225 65 Q215 45 225 25\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"335\" y=\"75\" font-size=\"16\" fill=\"#333\">20 °C</text></svg></span><p>En kopp kaffe har temperaturen 80 °C när den ställs i ett rum som håller 20 °C. Temperaturen \\(T\\) °C efter \\(t\\) minuter modelleras av</p><p>\\[T'=-0,10(T-20),\\qquad T(0)=80.\\]</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(T(t)\\).</div>",
+        "t": "<span class=\"fig\"><svg height=\"260\" width=\"470\" viewBox=\"0 0 470 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopp kaffe som svalnar i ett rum\"><rect width=\"470\" height=\"260\" fill=\"white\"/><ellipse cx=\"190\" cy=\"95\" rx=\"75\" ry=\"18\" fill=\"#ddd\" stroke=\"#444\" stroke-width=\"2\"/><path d=\"M115 95 L125 190 Q130 220 190 220 Q250 220 255 190 L265 95\" fill=\"#f8f8f8\" stroke=\"#444\" stroke-width=\"2\"/><path d=\"M265 110 Q320 105 320 145 Q320 185 270 175\" fill=\"none\" stroke=\"#444\" stroke-width=\"2\"/><ellipse cx=\"190\" cy=\"95\" rx=\"68\" ry=\"13\" fill=\"#7b4a2f\"/><path d=\"M155 65 Q145 45 155 25\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><path d=\"M190 63 Q180 40 190 18\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><path d=\"M225 65 Q215 45 225 25\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"335\" y=\"75\" font-size=\"16\" fill=\"#333\">20 °C</text></svg></span><p>En kopp kaffe har temperaturen 80 °C när den ställs i ett rum som håller 20 °C. Temperaturen \\(T\\) °C efter \\(t\\) minuter modelleras av</p><p>\\[T'=-0,10(T-20),\\qquad T(0)=80.\\]</p><div class=\"spel-en-del\">Bestäm \\(T(t)\\).</div>",
         "s": "<p>Skriv om ekvationen som \\(T'+0,10T=2\\). Jämviktsvärdet är 20 och den homogena delen ger \\(Ce^{-0,10t}\\). Med \\(T(0)=80\\) fås</p><p><strong>\\[T(t)=20+60e^{-0,10t}.\\]</strong></p>",
         "niva": "C",
         "traningsniva": 3,
@@ -25357,7 +25357,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<span class=\"fig\"><svg height=\"260\" width=\"470\" viewBox=\"0 0 470 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopp kaffe som svalnar i ett rum\"><rect width=\"470\" height=\"260\" fill=\"white\"/><ellipse cx=\"190\" cy=\"95\" rx=\"75\" ry=\"18\" fill=\"#ddd\" stroke=\"#444\" stroke-width=\"2\"/><path d=\"M115 95 L125 190 Q130 220 190 220 Q250 220 255 190 L265 95\" fill=\"#f8f8f8\" stroke=\"#444\" stroke-width=\"2\"/><path d=\"M265 110 Q320 105 320 145 Q320 185 270 175\" fill=\"none\" stroke=\"#444\" stroke-width=\"2\"/><ellipse cx=\"190\" cy=\"95\" rx=\"68\" ry=\"13\" fill=\"#7b4a2f\"/><path d=\"M155 65 Q145 45 155 25\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><path d=\"M190 63 Q180 40 190 18\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><path d=\"M225 65 Q215 45 225 25\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"335\" y=\"75\" font-size=\"16\" fill=\"#333\">20 °C</text></svg></span><p>En kopp kaffe har temperaturen 80 °C när den ställs i ett rum som håller 20 °C. Temperaturen \\(T\\) °C efter \\(t\\) minuter modelleras av</p><p>\\[T'=-0,10(T-20),\\qquad T(0)=80.\\]</p><div class=\"spel-en-del\"><strong>b)</strong> Efter hur många minuter har kaffet temperaturen 50 °C?</div>",
+        "t": "<span class=\"fig\"><svg height=\"260\" width=\"470\" viewBox=\"0 0 470 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopp kaffe som svalnar i ett rum\"><rect width=\"470\" height=\"260\" fill=\"white\"/><ellipse cx=\"190\" cy=\"95\" rx=\"75\" ry=\"18\" fill=\"#ddd\" stroke=\"#444\" stroke-width=\"2\"/><path d=\"M115 95 L125 190 Q130 220 190 220 Q250 220 255 190 L265 95\" fill=\"#f8f8f8\" stroke=\"#444\" stroke-width=\"2\"/><path d=\"M265 110 Q320 105 320 145 Q320 185 270 175\" fill=\"none\" stroke=\"#444\" stroke-width=\"2\"/><ellipse cx=\"190\" cy=\"95\" rx=\"68\" ry=\"13\" fill=\"#7b4a2f\"/><path d=\"M155 65 Q145 45 155 25\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><path d=\"M190 63 Q180 40 190 18\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><path d=\"M225 65 Q215 45 225 25\" fill=\"none\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"335\" y=\"75\" font-size=\"16\" fill=\"#333\">20 °C</text></svg></span><p>En kopp kaffe har temperaturen 80 °C när den ställs i ett rum som håller 20 °C. Temperaturen \\(T\\) °C efter \\(t\\) minuter modelleras av</p><p>\\[T'=-0,10(T-20),\\qquad T(0)=80.\\]</p><div class=\"spel-en-del\">Efter hur många minuter har kaffet temperaturen 50 °C?</div>",
         "s": "<p>Från modellen \\(T(t)=20+60e^{-0,10t}\\) sätts \\(T=50\\):</p><p>\\[30=60e^{-0,10t}\\Rightarrow e^{-0,10t}=\\frac12.\\]</p><p>\\[t=\\frac{\\ln2}{0,10}=10\\ln2\\approx6,93.\\]</p><p><strong>Svar:</strong> cirka 6,9 min.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -25757,7 +25757,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>I en bakterieodling finns 200 bakterier. Efter 8,0 h finns 500 bakterier. Anta att tillväxthastigheten i varje ögonblick är proportionell mot antalet bakterier.</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm proportionalitetskonstanten \\(k\\) i modellen \\(N'=kN\\).</div>",
+        "t": "<p>I en bakterieodling finns 200 bakterier. Efter 8,0 h finns 500 bakterier. Anta att tillväxthastigheten i varje ögonblick är proportionell mot antalet bakterier.</p><div class=\"spel-en-del\">Bestäm proportionalitetskonstanten \\(k\\) i modellen \\(N'=kN\\).</div>",
         "s": "<p>Lösningen har formen \\(N(t)=200e^{kt}\\). Villkoret \\(N(8)=500\\) ger</p><p>\\[500=200e^{8k}\\Rightarrow k=\\frac{\\ln(2,5)}8\\approx0,115\\ \\text{h}^{-1}.\\]</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -25765,7 +25765,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>I en bakterieodling finns 200 bakterier. Efter 8,0 h finns 500 bakterier. Anta att tillväxthastigheten i varje ögonblick är proportionell mot antalet bakterier.</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm en modell för \\(N(t)\\).</div>",
+        "t": "<p>I en bakterieodling finns 200 bakterier. Efter 8,0 h finns 500 bakterier. Anta att tillväxthastigheten i varje ögonblick är proportionell mot antalet bakterier.</p><div class=\"spel-en-del\">Bestäm en modell för \\(N(t)\\).</div>",
         "s": "<p>Utgå från \\(N(t)=200e^{kt}\\). Av \\(N(8)=500\\) fås \\(k=\\ln(2,5)/8\\). Alltså</p><p><strong>\\[N(t)=200e^{(\\ln(2,5)/8)t}.\\]</strong></p>",
         "niva": "C",
         "traningsniva": 3,
@@ -25773,7 +25773,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>I en bakterieodling finns 200 bakterier. Efter 8,0 h finns 500 bakterier. Anta att tillväxthastigheten i varje ögonblick är proportionell mot antalet bakterier.</p><div class=\"spel-en-del\"><strong>c)</strong> Hur många bakterier finns enligt modellen efter 1,0 dygn? Avrunda till hundratal.</div>",
+        "t": "<p>I en bakterieodling finns 200 bakterier. Efter 8,0 h finns 500 bakterier. Anta att tillväxthastigheten i varje ögonblick är proportionell mot antalet bakterier.</p><div class=\"spel-en-del\">Hur många bakterier finns enligt modellen efter 1,0 dygn? Avrunda till hundratal.</div>",
         "s": "<p>En dag är 24 h, alltså tre perioder om 8 h. Antalet multipliceras därför med \\(2,5^3\\):</p><p>\\[N(24)=200\\cdot2,5^3=3125.\\]</p><p><strong>Svar:</strong> cirka 3 100 bakterier.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -25854,7 +25854,7 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Antalet mördarsniglar \\(M(t)\\) i en trädgård modelleras av</p><p>\\[M'=0,03M,\\qquad M(0)=175.\\]</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(M(t)\\).</div>",
+        "t": "<p>Antalet mördarsniglar \\(M(t)\\) i en trädgård modelleras av</p><p>\\[M'=0,03M,\\qquad M(0)=175.\\]</p><div class=\"spel-en-del\">Bestäm \\(M(t)\\).</div>",
         "s": "<p>För \\(M'=0,03M\\) med \\(M(0)=175\\) fås direkt</p><p><strong>\\[M(t)=175e^{0,03t}.\\]</strong></p>",
         "niva": "E",
         "traningsniva": 2,
@@ -25862,7 +25862,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Antalet mördarsniglar \\(M(t)\\) i en trädgård modelleras av</p><p>\\[M'=0,03M,\\qquad M(0)=175.\\]</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm antalet sniglar efter 5 dygn.</div>",
+        "t": "<p>Antalet mördarsniglar \\(M(t)\\) i en trädgård modelleras av</p><p>\\[M'=0,03M,\\qquad M(0)=175.\\]</p><div class=\"spel-en-del\">Bestäm antalet sniglar efter 5 dygn.</div>",
         "s": "<p>Modellen är \\(M(t)=175e^{0,03t}\\). Därför</p><p>\\[M(5)=175e^{0,15}\\approx203.\\]</p><p><strong>Svar:</strong> cirka 203 sniglar.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -25870,7 +25870,7 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Antalet mördarsniglar \\(M(t)\\) i en trädgård modelleras av</p><p>\\[M'=0,03M-24,\\qquad M(0)=175,\\]</p><p>där 24 sniglar tas bort per dygn.</p><div class=\"spel-en-del\"><strong>c)</strong> Bestäm antalet sniglar efter 5 dygn enligt modellen.</div>",
+        "t": "<p>Antalet mördarsniglar \\(M(t)\\) i en trädgård modelleras av</p><p>\\[M'=0,03M-24,\\qquad M(0)=175,\\]</p><p>där 24 sniglar tas bort per dygn.</p><div class=\"spel-en-del\">Bestäm antalet sniglar efter 5 dygn enligt modellen.</div>",
         "s": "<p>Jämviktsvärdet fås ur \\(0=0,03M-24\\), alltså \\(M=800\\). Därför är</p><p>\\[M(t)=800+Ce^{0,03t}.\\]</p><p>Villkoret \\(M(0)=175\\) ger \\(C=-625\\), så</p><p>\\[M(5)=800-625e^{0,15}\\approx73,9.\\]</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -27951,8 +27951,8 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "fraga": "Vid en ny inventering efter 7,0 år fanns i stället 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.",
-        "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><p>Vid en ny inventering efter 7,0 år fanns i stället 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.</p>",
+        "fraga": "Vid en ny inventering efter 7,0 år fanns 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.",
+        "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><p>Vid en ny inventering efter 7,0 år fanns 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.</p>",
         "s": "<p>\\(122=14e^{7k}\\iff k=\\dfrac{\\ln(122/14)}{7}\\approx0{,}31\\).</p><p><strong>Svar:</strong> \\(k\\approx0{,}31\\ \\text{år}^{-1}\\)</p>",
         "ledtrad": "<p>Sätt in \\(t=7\\) och \\(N=122\\) och lös ut \\(k\\).</p>",
         "niva": "E",
@@ -28879,7 +28879,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "jämföra Eulersteg med olika steglängd",
     "poang": "0/2/0",
-    "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><ol type=\"a\"><li>Approximerar \\(y(1)\\) med Eulers metod och \\(h=0,5\\).</li><li>Gör samma sak med \\(h=0,25\\).</li><li>Det exakta värdet är \\(e^{-1}\\approx0,3679\\). Vilken approximation är bäst?</li></ol>",
+    "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><ol type=\"a\"><li>Approximera \\(y(1)\\) med Eulers metod och \\(h=0,5\\).</li><li>Gör samma sak med \\(h=0,25\\).</li><li>Det exakta värdet är \\(e^{-1}\\approx0,3679\\). Vilken steglängd ger den bästa approximationen?</li></ol>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> I ett riktningsfält är lutningen lika med differentialekvationens högerled. I Eulers metod används lutningen i början av varje steg.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Med \\(h=0,5\\) multipliceras värdet varje steg med \\(1-h=0,5\\):</p><p>\\[y(1)\\approx0,5^2=0,25.\\]</p><p><strong>b)</strong> Med \\(h=0,25\\) multipliceras värdet med \\(0,75\\) vid varje av fyra steg:</p><p>\\[y(1)\\approx0,75^4=0,31640625.\\]</p><p><strong>c)</strong> Felet blir ungefär \\(0,1179\\) respektive \\(0,0515\\). Den mindre steglängden \\(h=0,25\\) ger alltså den bättre approximationen.</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att varje Eulersteg använder Eulerformeln med lutningen beräknad i den gamla punkten.</p></div>",
     "id": "4.136",
     "miniräknare": false,
@@ -28891,7 +28891,11 @@ window.BANKMATF1 = [
       0.31640625,
       0.25
     ],
-    "tolerans": null,
+    "tolerans": [
+      0.0005,
+      0.0005,
+      null
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -28913,20 +28917,20 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Approximerar \\(y(1)\\) med Eulers metod och \\(h=0,5\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>a)</strong>  Med \\(h=0,5\\) multipliceras värdet varje steg med \\(1-h=0,5\\):</div>",
+        "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\">Approximera \\(y(1)\\) med Eulers metod och \\(h=0,5\\).</div>",
+        "s": "<p><strong>Nyckelidé:</strong> I Eulers metod beräknas lutningen \\(f(x_n,y_n)\\) i början av varje steg och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Här är \\(f(x,y)=-y\\), så \\(y_{n+1}=(1-h)y_n\\).</p><p>Med \\(h=0,5\\) behövs två steg, och värdet multipliceras med \\(1-h=0,5\\) varje steg:</p><p>\\[y(1)\\approx1\\cdot0,5^2=0,25.\\]</p><p><strong>Svar:</strong> \\(y(1)\\approx0,25\\)</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Gör samma sak med \\(h=0,25\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>b)</strong>  Med \\(h=0,25\\) multipliceras värdet med \\(0,75\\) vid varje av fyra steg:</div>",
+        "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\">Approximera \\(y(1)\\) med Eulers metod och \\(h=0,25\\).</div>",
+        "s": "<p><strong>Nyckelidé:</strong> I Eulers metod beräknas lutningen \\(f(x_n,y_n)\\) i början av varje steg och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Här är \\(f(x,y)=-y\\), så \\(y_{n+1}=(1-h)y_n\\).</p><p>Med \\(h=0,25\\) behövs fyra steg, och värdet multipliceras med \\(1-h=0,75\\) varje steg:</p><p>\\[y(1)\\approx1\\cdot0,75^4=0,31640625\\approx0,316.\\]</p><p><strong>Svar:</strong> \\(y(1)\\approx0,316\\)</p>",
         "niva": "C"
       },
       {
         "etikett": "c",
-        "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Det exakta värdet är \\(e^{-1}\\approx0,3679\\). Vilken approximation är bäst?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>c)</strong>  Felet blir ungefär \\(0,1179\\) respektive \\(0,0515\\). Den mindre steglängden \\(h=0,25\\) ger alltså den bättre approximationen.</div>",
+        "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\">Det exakta värdet är \\(e^{-1}\\approx0,3679\\). Vilken av steglängderna \\(h=0,5\\) och \\(h=0,25\\) ger den bästa approximationen av \\(y(1)\\) med Eulers metod? Ange steglängden.</div>",
+        "s": "<p><strong>Nyckelidé:</strong> I Eulers metod beräknas lutningen \\(f(x_n,y_n)\\) i början av varje steg och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Här är \\(f(x,y)=-y\\), så \\(y_{n+1}=(1-h)y_n\\).</p><p>Med \\(h=0,5\\) blir \\(y(1)\\approx0,5^2=0,25\\) och med \\(h=0,25\\) blir \\(y(1)\\approx0,75^4\\approx0,3164\\).</p><p>Felen blir ungefär \\(0,3679-0,25\\approx0,1179\\) respektive \\(0,3679-0,3164\\approx0,0515\\).</p><p><strong>Svar:</strong> steglängden \\(h=0,25\\) ger den bästa approximationen.</p>",
         "niva": "C"
       }
     ],
@@ -30058,15 +30062,15 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett numeriskt verktyg ger \\(y(4)\\approx7,82\\), medan en analytisk lösning ger \\(y(4)=8,00\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm det absoluta felet.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>a)</strong>  Absolut fel:</div>",
+        "t": "<p>Ett numeriskt verktyg ger \\(y(4)\\approx7,82\\), medan en analytisk lösning ger \\(y(4)=8,00\\).</p><div class=\"spel-en-del\">Bestäm det absoluta felet.</div>",
+        "s": "<p>Det absoluta felet är avståndet mellan det numeriska och det exakta värdet:</p><p>\\[|7,82-8,00|=0,18.\\]</p><p><strong>Svar:</strong> \\(0,18\\)</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Ett numeriskt verktyg ger \\(y(4)\\approx7,82\\), medan en analytisk lösning ger \\(y(4)=8,00\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm det relativa felet i procent.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>b)</strong>  Relativt fel:</div>",
+        "t": "<p>Ett numeriskt verktyg ger \\(y(4)\\approx7,82\\), medan en analytisk lösning ger \\(y(4)=8,00\\).</p><div class=\"spel-en-del\">Bestäm det relativa felet i procent.</div>",
+        "s": "<p>Det absoluta felet är \\(|7,82-8,00|=0,18\\). Det relativa felet jämför det med det exakta värdet:</p><p>\\[\\frac{0,18}{8,00}\\cdot100\\,\\%=2,25\\,\\%.\\]</p><p><strong>Svar:</strong> \\(2,25\\,\\%\\)</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -33096,8 +33100,8 @@ window.BANKMATF1 = [
       },
       {
         "etikett": "b",
-        "fraga": "Det finns i stället två sådana lotterier, och du köper en lott i vart och ett. Hur stor är sannolikheten att du vinner minst en gång?",
-        "t": "<p>Ett lotteri har 100 lotter och en enda vinstlott.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Det finns i stället två sådana lotterier, och du köper en lott i vart och ett. Hur stor är sannolikheten att du vinner minst en gång?</p>",
+        "fraga": "Det finns två sådana lotterier, och du köper en lott i vart och ett. Hur stor är sannolikheten att du vinner minst en gång?",
+        "t": "<p>Ett lotteri har 100 lotter och en enda vinstlott.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Det finns två sådana lotterier, och du köper en lott i vart och ett. Hur stor är sannolikheten att du vinner minst en gång?</p>",
         "s": "<p>Ingen vinst: \\(0{,}99\\cdot0{,}99=0{,}9801\\). Minst en vinst: \\(1-0{,}9801=0{,}0199\\).</p><p><strong>Svar:</strong> \\(\\dfrac{199}{10000}\\approx0{,}0199\\), alltså cirka \\(1{,}99\\,\\%\\)</p>",
         "ledtrad": "<p>Räkna ut sannolikheten att inte vinna någon gång.</p>",
         "niva": "C",

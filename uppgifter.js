@@ -127406,7 +127406,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Elektroner accelereras från vila med \\(5\\cdot10^{14}\\) m/s² längs 15 cm. Bestäm slutfarten.",
-        "t": "<p>Bestäm.</p><p>Elektroner accelereras från vila med \\(5\\cdot10^{14}\\) m/s² längs 15 cm. Bestäm slutfarten.</p>",
+        "t": "<p>Elektroner accelereras från vila med \\(5\\cdot10^{14}\\) m/s² längs 15 cm. Bestäm slutfarten.</p>",
         "s": "<p>\\(v=\\sqrt{2\\cdot5\\cdot10^{14}\\cdot0{,}15}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{7}\\) m/s</p>",
         "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
         "niva": "E",
@@ -127416,8 +127416,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar det?",
-        "t": "<p>Bestäm.</p>Slutfarten är \\(1{,}2\\cdot10^7\\) m/s.<p>Hur lång tid tar det?</p>",
+        "fraga": "Hur lång tid tar accelerationen?",
+        "t": "<p>Elektroner accelereras från vila med \\(5\\cdot10^{14}\\) m/s² längs 15 cm. Slutfarten blir \\(1{,}2\\cdot10^7\\) m/s.</p><p>Hur lång tid tar accelerationen?</p>",
         "s": "<p>\\(t=\\dfrac{2\\cdot0{,}15}{1{,}22\\cdot10^7}\\).</p><p><strong>Svar:</strong> \\(2{,}4\\cdot10^{-8}\\) s</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "C",
@@ -127428,7 +127428,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Ett plan landar med 310 km/h. Vilken retardation krävs för att stanna på 1 000 m?",
-        "t": "<p>Bestäm.</p><p>Ett plan landar med 310 km/h. Vilken retardation krävs för att stanna på 1 000 m?</p>",
+        "t": "<p>Ett plan landar med 310 km/h. Vilken retardation krävs för att stanna på 1 000 m?</p>",
         "s": "<p>\\(a=\\dfrac{86{,}1^2}{2\\cdot1\\,000}\\).</p><p><strong>Svar:</strong> \\(3{,}7\\) m/s²</p>",
         "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
         "niva": "E",

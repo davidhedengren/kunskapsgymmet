@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-03-fy1y";
+const BANK_VERSION="2026-10-03-fy1z";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9488,6 +9488,33 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
     const p=latexToPlain(facit);
     if(p && !/\\[a-zA-Z]/.test(p)) facit=p;
   }
+  /* Facit som kedja av likvärdiga former: "f(x)=(x+2)(x-4)=x^2-2x-8", "(6)/(4)=(3)/(2)".
+     Svaret godkänns om det stämmer med någon av formerna, men bara när formerna verkligen är
+     lika. En ekvation som "x^2-8x+12=0" har olika led och berörs inte. */
+  if(typeof facit==="string" && !/[<>≤≥]/.test(facit)){
+    const ren=facit.replace(/\\[()\[\]]/g,"").trim();
+    const delar=ren.split("=").map(d=>d.trim()).filter(Boolean);
+    if(delar.length>=2 && ren.split("=").length===delar.length){
+      const etikett=/^(?:y|[a-zA-Z]\s*\(\s*[a-z]\s*\))$/.test(delar[0]);
+      const former=etikett?delar.slice(1):delar;
+      const lika=(p,q)=>{
+        const a=numerisktSvar(p)?talAv(p):NaN, b=numerisktSvar(q)?talAv(q):NaN;
+        if(Number.isFinite(a)&&Number.isFinite(b)) return naraNog(a,b,1e-9);
+        const pv=isPureNumberExpression(p)?numericValue(tillNerdamer(normalizeMathInput(p))):NaN;
+        const qv=isPureNumberExpression(q)?numericValue(tillNerdamer(normalizeMathInput(q))):NaN;
+        if(Number.isFinite(pv)&&Number.isFinite(qv)) return naraNog(pv,qv,1e-9);
+        return algebraisktLika(p,q)===true;
+      };
+      /* Bara formkedjor med en variabel ("lg1000=3" frågar efter skrivsättet, inte värdet). */
+      const harVariabel=former.some(f=>/[a-z]/i.test(f.replace(/\\?(?:sin|cos|tan|ln|lg|log|sqrt|pi|frac|cdot|left|right)/g,"").replace(/e\^/g,"")));
+      if(harVariabel && former.length>=2 && former.slice(1).every(f=>lika(former[0],f))){
+        for(const f of former){
+          if(delSvarRatt(anv,etikett?`${delar[0]}=${f}`:f,enhet,tol,t,idx,format)) return true;
+          if(delSvarRatt(anv,f,enhet,tol,t,idx,format)) return true;
+        }
+      }
+    }
+  }
   /* Funktionsformel: "y = 3x − 1", "f(x) = 3x − 1" och bara "3x − 1" betyder samma sak. */
   if(typeof facit==="string"){
     const fvl=/^\s*(?:y|[a-zA-Z]\s*\(\s*x\s*\))\s*=\s*([^=]+)$/;
@@ -9919,12 +9946,14 @@ function normalizeMathInput(s){
     (_,f,p,arg)=>`${f}(${arg})^${p}`);
 
   /* (?<![a-z_]) i stället för \b: i "-7sin x" och "-7sinx" står en siffra direkt före. */
-  x=x.replace(/(?<![a-z_])(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)\s+([a-z0-9.]+(?:\^[a-z0-9.]+)?)/g,"$1($2)");
+  x=x.replace(/(?<![a-df-su-wyz_])(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)\s+([a-z0-9.]+(?:\^[a-z0-9.]+)?)/g,"$1($2)");
 
+  /* "cosxsinx", "lnxcosx": funktion av en ensam variabel direkt följd av nästa funktion. */
+  x=x.replace(/(?<![a-df-su-wyz_])(sin|cos|tan|ln|lg)([xte])(?=(?:sin|cos|tan|ln|lg|sqrt|arc))/g,"$1($2)*");
   /* Acceptera även vanliga kompaktformer som sin2x och cos3x. */
-  x=x.replace(/(?<![a-z_])(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sin|cos|tan)(\d+(?:\.\d+)?[a-z]?|pi)\b/g,"$1($2)");
+  x=x.replace(/(?<![a-df-su-wyz_])(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sin|cos|tan)(\d+(?:\.\d+)?[a-z]?|pi)\b/g,"$1($2)");
 
-  x=x.replace(/(?<![a-z_])(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)([a-z])(?![a-z0-9])/g,"$1($2)");
+  x=x.replace(/(?<![a-df-su-wyz_])(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)([a-z])(?![a-z0-9])/g,"$1($2)");
 
   x=x.replace(/(\d)\s+(?=\d{3}(?:\D|$))/g,"$1");
   x=x.replace(/\s+/g,"");

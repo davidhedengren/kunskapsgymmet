@@ -7389,7 +7389,7 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "|x-(-2)|=|x+2|",
+    "rättSvar": "|x+2|",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -8911,7 +8911,7 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "(6)/(4)=(3)/(2)",
+    "rättSvar": "3/2",
     "tolerans": null,
     "självrättning": true,
     "formaga": [

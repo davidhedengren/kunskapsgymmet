@@ -100738,6 +100738,1767 @@ window.BANK = [
     "typ": "rörelsemängd ur massa och fart"
   },
   {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "impuls ur kraft och tid",
+    "poang": "(3/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><ol type=\"a\"><li>En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?</li><li>En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?</li><li>En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=4{,}0\\cdot0{,}75\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) Ns</p></li><li><p>\\(F=\\dfrac{20}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) N</p></li><li><p>\\(I=mg\\Delta t=3{,}0\\cdot9{,}82\\cdot8{,}0\\).</p><p><strong>Svar:</strong> \\(236\\) Ns</p></li></ol>",
+    "id": "5.368",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.0,
+      6.666666666666667,
+      235.68
+    ],
+    "tolerans": [
+      0.051,
+      0.1,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "Ns",
+      "N",
+      "Ns"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?</p>",
+        "s": "<p>\\(I=4{,}0\\cdot0{,}75\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) Ns</p>",
+        "ledtrad": "<p>\\(I=F\\Delta t\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?</p>",
+        "s": "<p>\\(F=\\dfrac{20}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(6{,}7\\) N</p>",
+        "ledtrad": "<p>\\(F=\\dfrac{I}{\\Delta t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².</p>",
+        "s": "<p>\\(I=mg\\Delta t=3{,}0\\cdot9{,}82\\cdot8{,}0\\).</p><p><strong>Svar:</strong> \\(236\\) Ns</p>",
+        "ledtrad": "<p>Kraften är tyngden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(I=F\\Delta t\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "putta bil av vägen",
+    "poang": "(1/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil (1 100 kg) puttas från vila med den resulterande kraften 350 N i 10 s. Vilken fart får den?</p>",
+    "s": "<p>\\(v=\\dfrac{F\\Delta t}{m}=\\dfrac{350\\cdot10}{1\\,100}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m/s</p>",
+    "id": "5.369",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.1818181818181817,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Impulslagen.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "dragsterbil",
+    "poang": "(2/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p><ol type=\"a\"><li>Vilken fart har den efter 3,0 s?</li><li>Hur långt har den kört då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{5\\,500\\cdot3{,}0}{400}\\).</p><p><strong>Svar:</strong> \\(41\\) m/s</p></li><li><p>Konstant acceleration: \\(s=\\dfrac{v\\,t}{2}\\).</p><p><strong>Svar:</strong> \\(62\\) m</p></li></ol>",
+    "id": "5.370",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      41.25,
+      61.875
+    ],
+    "tolerans": [
+      0.619,
+      0.928
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har den efter 3,0 s?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p><p>Vilken fart har den efter 3,0 s?</p>",
+        "s": "<p>\\(v=\\dfrac{5\\,500\\cdot3{,}0}{400}\\).</p><p><strong>Svar:</strong> \\(41\\) m/s</p>",
+        "ledtrad": "<p>Impulslagen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt har den kört då?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p>Farten efter 3,0 s är 41 m/s.<p>Hur långt har den kört då?</p>",
+        "s": "<p>Konstant acceleration: \\(s=\\dfrac{v\\,t}{2}\\).</p><p><strong>Svar:</strong> \\(62\\) m</p>",
+        "ledtrad": "<p>Medelfarten är halva slutfarten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F\\Delta t=mv\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "pråm som bromsas",
+    "poang": "(3/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><ol type=\"a\"><li>Vilken fart har pråmen efter 10 s?</li><li>Hur lång tid tar det innan pråmen står still?</li><li>Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta v=\\dfrac{12\\,000\\cdot10}{1{,}5\\cdot10^6}=0{,}080\\) m/s.</p><p><strong>Svar:</strong> \\(2{,}9\\) m/s</p></li><li><p>\\(t=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{12\\,000}\\).</p><p><strong>Svar:</strong> \\(375\\) s</p></li><li><p>\\(F=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{60}\\).</p><p><strong>Svar:</strong> \\(75\\,000\\) N</p></li></ol>",
+    "id": "5.371",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.92,
+      375.0,
+      75000.0
+    ],
+    "tolerans": [
+      0.051,
+      5.62,
+      1120.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har pråmen efter 10 s?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Vilken fart har pråmen efter 10 s?</p>",
+        "s": "<p>\\(\\Delta v=\\dfrac{12\\,000\\cdot10}{1{,}5\\cdot10^6}=0{,}080\\) m/s.</p><p><strong>Svar:</strong> \\(2{,}9\\) m/s</p>",
+        "ledtrad": "<p>Impulslagen ger hastighetsändringen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det innan pråmen står still?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Hur lång tid tar det innan pråmen står still?</p>",
+        "s": "<p>\\(t=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{12\\,000}\\).</p><p><strong>Svar:</strong> \\(375\\) s</p>",
+        "ledtrad": "<p>Hela rörelsemängden ska bort.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?</p>",
+        "s": "<p>\\(F=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{60}\\).</p><p><strong>Svar:</strong> \\(75\\,000\\) N</p>",
+        "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(F\\Delta t=\\Delta p\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "flygplan som landar",
+    "poang": "(1/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett flygplan (480 ton) bromsar från 29,5 m/s till 24,3 m/s på 12,0 s. Hur stor är bromskraften?</p>",
+    "s": "<p>\\(F=\\dfrac{480\\cdot10^3(29{,}5-24{,}3)}{12{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}08\\cdot10^{5}\\) N</p>",
+    "id": "5.372",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 208000.0,
+    "tolerans": 3120.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "bromsning med friktion",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><ol type=\"a\"><li>Hur lång tid tar det innan bilen står still?</li><li>Hur lång tid tar det på snöig väg med friktionstalet 0,12?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Friktionskraften \\(\\mu mg\\) ger \\(t=\\dfrac{v}{\\mu g}=\\dfrac{25}{0{,}60\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) s</p></li><li><p>\\(t=\\dfrac{25}{0{,}12\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(21\\) s</p></li></ol>",
+    "id": "5.373",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.243041412084182,
+      21.215207060420912
+    ],
+    "tolerans": [
+      0.0636,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det innan bilen står still?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><p>Hur lång tid tar det innan bilen står still?</p>",
+        "s": "<p>Friktionskraften \\(\\mu mg\\) ger \\(t=\\dfrac{v}{\\mu g}=\\dfrac{25}{0{,}60\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) s</p>",
+        "ledtrad": "<p>Impulslagen med friktionskraften.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det på snöig väg med friktionstalet 0,12?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><p>Hur lång tid tar det på snöig väg med friktionstalet 0,12?</p>",
+        "s": "<p>\\(t=\\dfrac{25}{0{,}12\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(21\\) s</p>",
+        "ledtrad": "<p>Tiden är omvänt proportionell mot \\(\\mu\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Massan tar ut sig.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "motorcykel som frikopplas",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En motorcyklist har farten 42 m/s och frikopplar. Friktionstalet är 0,28. Vilken fart har motorcykeln 3,5 s senare? Bortse från luftmotståndet.</p>",
+    "s": "<p>\\(v=42-\\mu g\\Delta t=42-0{,}28\\cdot9{,}82\\cdot3{,}5\\).</p><p><strong>Svar:</strong> \\(32\\) m/s</p>",
+    "id": "5.374",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 32.3764,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Impulslagen med friktionskraften.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "golfslag",
+    "poang": "(1/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En golfboll (45 g) får farten 25,0 m/s från vila. Kontakttiden med klubban är 2,00 ms. Hur stor är medelkraften?</p>",
+    "s": "<p>\\(F=\\dfrac{0{,}045\\cdot25{,}0}{2{,}00\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(562\\) N</p>",
+    "id": "5.375",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 562.5,
+    "tolerans": 8.44,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "biljardstöt",
+    "poang": "(1/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En biljardboll (200 g) i vila påverkas av medelkraften 50 N under 10 ms. Vilken fart får den?</p>",
+    "s": "<p>\\(v=\\dfrac{50\\cdot0{,}010}{0{,}200}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\) m/s</p>",
+    "id": "5.376",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Impulslagen.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "kulstötning",
+    "poang": "(1/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En kula (7,26 kg) stöts från vila till 13 m/s. Den resulterande medelkraften är 220 N. Hur lång tid tar stöten?</p>",
+    "s": "<p>\\(\\Delta t=\\dfrac{7{,}26\\cdot13}{220}\\).</p><p><strong>Svar:</strong> \\(0{,}43\\) s</p>",
+    "id": "5.377",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.429,
+    "tolerans": 0.00643,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\Delta t=\\dfrac{\\Delta p}{F}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "s",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "hjärtat pumpar blod",
+    "poang": "(1/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Vid ett hjärtslag pumpas 80 g blod från vila till 1,0 m/s på 0,17 s. Hur stor medelkraft verkar på blodet?</p>",
+    "s": "<p>\\(F=\\dfrac{0{,}080\\cdot1{,}0}{0{,}17}\\).</p><p><strong>Svar:</strong> \\(0{,}47\\) N</p>",
+    "id": "5.378",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.47058823529411764,
+    "tolerans": 0.00706,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "krocktest",
+    "poang": "(1/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En skåpbil (2 300 kg) kör med 15 m/s in i ett brofundament och står still efter 0,56 s. Hur stor är medelkraften på bilen?</p>",
+    "s": "<p>\\(F=\\dfrac{2\\,300\\cdot15}{0{,}56}\\), riktad mot rörelsen.</p><p><strong>Svar:</strong> \\(61\\,607\\) N</p>",
+    "id": "5.379",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 61607.14285714285,
+    "tolerans": 924.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "puck som får en stöt",
+    "poang": "(1/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är försumbar. Bestäm hastigheten (positiv åt höger) efter att</p><ol type=\"a\"><li>en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.</li><li>en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=3{,}00+\\dfrac{25{,}0\\cdot0{,}050}{0{,}160}\\).</p><p><strong>Svar:</strong> \\(10{,}8\\) m/s</p></li><li><p>\\(v=3{,}00-\\dfrac{12{,}0\\cdot0{,}050}{0{,}160}\\).</p><p><strong>Svar:</strong> \\(-0{,}75\\) m/s</p></li></ol>",
+    "id": "5.380",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.8125,
+      -0.7500000000000004
+    ],
+    "tolerans": [
+      0.162,
+      0.0113
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är försumbar. Bestäm hastigheten (positiv åt höger) efter att</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är försumbar. Bestäm hastigheten (positiv åt höger) efter att</p><p>en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.</p>",
+        "s": "<p>\\(v=3{,}00+\\dfrac{25{,}0\\cdot0{,}050}{0{,}160}\\).</p><p><strong>Svar:</strong> \\(10{,}8\\) m/s</p>",
+        "ledtrad": "<p>Impulsen ökar rörelsemängden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är försumbar. Bestäm hastigheten (positiv åt höger) efter att</p><p>en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.</p>",
+        "s": "<p>\\(v=3{,}00-\\dfrac{12{,}0\\cdot0{,}050}{0{,}160}\\).</p><p><strong>Svar:</strong> \\(-0{,}75\\) m/s</p>",
+        "ledtrad": "<p>Tänk på riktningen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängd och impuls har riktning.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "boll som studsar mot vägg",
+    "poang": "(0/2/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p><ol type=\"a\"><li>Beräkna bollens ändring i rörelsemängd.</li><li>Hur stor är medelkraften från väggen på bollen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta p=0{,}35(-3{,}1-5{,}0)\\).</p><p><strong>Svar:</strong> \\(-2{,}8\\) kg·m/s</p></li><li><p>\\(F=\\dfrac{-2{,}8}{0{,}055}\\).</p><p><strong>Svar:</strong> \\(-52\\) N</p></li></ol>",
+    "id": "5.381",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2.8349999999999995,
+      -51.54545454545454
+    ],
+    "tolerans": [
+      0.051,
+      0.773
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg·m/s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna bollens ändring i rörelsemängd.",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p><p>Beräkna bollens ändring i rörelsemängd.</p>",
+        "s": "<p>\\(\\Delta p=0{,}35(-3{,}1-5{,}0)\\).</p><p><strong>Svar:</strong> \\(-2{,}8\\) kg·m/s</p>",
+        "ledtrad": "<p>Hastigheten efter är negativ.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är medelkraften från väggen på bollen?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p>Ändringen i rörelsemängd är −2,8 kg·m/s.<p>Hur stor är medelkraften från väggen på bollen?</p>",
+        "s": "<p>\\(F=\\dfrac{-2{,}8}{0{,}055}\\).</p><p><strong>Svar:</strong> \\(-52\\) N</p>",
+        "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Hastigheten byter tecken vid studsen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "fotbollsspark",
+    "poang": "(1/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><ol type=\"a\"><li>ligger stilla från början?</li><li>kommer rakt mot foten med 13 m/s och sparkas tillbaka?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta t=\\dfrac{0{,}420\\cdot18}{650}\\).</p><p><strong>Svar:</strong> \\(0{,}012\\) s</p></li><li><p>\\(\\Delta t=\\dfrac{0{,}420(18+13)}{650}\\).</p><p><strong>Svar:</strong> \\(0{,}020\\) s</p></li></ol>",
+    "id": "5.382",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.011630769230769231,
+      0.02003076923076923
+    ],
+    "tolerans": [
+      0.00051,
+      0.00051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "ligger stilla från början?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><p>ligger stilla från början?</p>",
+        "s": "<p>\\(\\Delta t=\\dfrac{0{,}420\\cdot18}{650}\\).</p><p><strong>Svar:</strong> \\(0{,}012\\) s</p>",
+        "ledtrad": "<p>\\(\\Delta t=\\dfrac{\\Delta p}{F}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "kommer rakt mot foten med 13 m/s och sparkas tillbaka?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><p>kommer rakt mot foten med 13 m/s och sparkas tillbaka?</p>",
+        "s": "<p>\\(\\Delta t=\\dfrac{0{,}420(18+13)}{650}\\).</p><p><strong>Svar:</strong> \\(0{,}020\\) s</p>",
+        "ledtrad": "<p>Hastighetsändringen blir större.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Tänk på riktningen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "bilbälte vid krock",
+    "poang": "(0/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör in i en vägg med 15 m/s och studsar tillbaka med 2,60 m/s. Krocken varar 0,15 s. Hur stor medelkraft påverkar bilbältet en passagerare på 75 kg med?</p>",
+    "s": "<p>\\(F=\\dfrac{75(15+2{,}60)}{0{,}15}\\).</p><p><strong>Svar:</strong> \\(8\\,800\\) N</p>",
+    "id": "5.383",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8800.0,
+    "tolerans": 132.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hastighetsändringen är 17,6 m/s.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "baseboll slås tillbaka",
+    "poang": "(2/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p><ol type=\"a\"><li>Hur stor impuls får bollen?</li><li>Hur stor är medelkraften om kontakttiden är 2,0 ms?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=0{,}145(55{,}0+45{,}0)\\).</p><p><strong>Svar:</strong> \\(14{,}5\\) Ns</p></li><li><p>\\(F=\\dfrac{14{,}5}{0{,}0020}\\).</p><p><strong>Svar:</strong> \\(7\\,250\\) N</p></li></ol>",
+    "id": "5.384",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14.499999999999998,
+      7250.0
+    ],
+    "tolerans": [
+      0.217,
+      109.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Ns",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor impuls får bollen?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p><p>Hur stor impuls får bollen?</p>",
+        "s": "<p>\\(I=0{,}145(55{,}0+45{,}0)\\).</p><p><strong>Svar:</strong> \\(14{,}5\\) Ns</p>",
+        "ledtrad": "<p>Hastighetsändringen är 100 m/s.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är medelkraften om kontakttiden är 2,0 ms?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p>Impulsen är 14,5 Ns.<p>Hur stor är medelkraften om kontakttiden är 2,0 ms?</p>",
+        "s": "<p>\\(F=\\dfrac{14{,}5}{0{,}0020}\\).</p><p><strong>Svar:</strong> \\(7\\,250\\) N</p>",
+        "ledtrad": "<p>\\(F=\\dfrac{I}{\\Delta t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Tänk på riktningen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "tennissmash",
+    "poang": "(0/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En tennisboll (60 g) kommer med 40 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 30 ms. Hur stor är medelkraften?</p>",
+    "s": "<p>\\(F=\\dfrac{0{,}060(50+40)}{0{,}030}\\).</p><p><strong>Svar:</strong> \\(180\\) N</p>",
+    "id": "5.385",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 180.0,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hastighetsändringen är 90 m/s.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "boll som studsar i golvet",
+    "poang": "(2/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (1,2 kg) träffar golvet med 5,2 m/s och studsar upp med 2,1 m/s. Studsen tar 20,0 ms.</p><ol type=\"a\"><li>Hur stor impuls får bollen från golvet?</li><li>Hur stor är medelkraften från golvet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=1{,}2(2{,}1+5{,}2)\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(8{,}8\\) Ns</p></li><li><p>\\(F=\\dfrac{8{,}8}{0{,}0200}\\).</p><p><strong>Svar:</strong> \\(438\\) N</p></li></ol>",
+    "id": "5.386",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.76,
+      438.0
+    ],
+    "tolerans": [
+      0.131,
+      6.57
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "Ns",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (1,2 kg) träffar golvet med 5,2 m/s och studsar upp med 2,1 m/s. Studsen tar 20,0 ms.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor impuls får bollen från golvet?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (1,2 kg) träffar golvet med 5,2 m/s och studsar upp med 2,1 m/s. Studsen tar 20,0 ms.</p><p>Hur stor impuls får bollen från golvet?</p>",
+        "s": "<p>\\(I=1{,}2(2{,}1+5{,}2)\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(8{,}8\\) Ns</p>",
+        "ledtrad": "<p>Hastigheten byter riktning.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är medelkraften från golvet?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (1,2 kg) träffar golvet med 5,2 m/s och studsar upp med 2,1 m/s. Studsen tar 20,0 ms.</p>Impulsen är 8,8 Ns.<p>Hur stor är medelkraften från golvet?</p>",
+        "s": "<p>\\(F=\\dfrac{8{,}8}{0{,}0200}\\).</p><p><strong>Svar:</strong> \\(438\\) N</p>",
+        "ledtrad": "<p>\\(F=\\dfrac{I}{\\Delta t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Golvet får lika stor impuls åt andra hållet.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "stålkula och kraft",
+    "poang": "(1/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><ol type=\"a\"><li>riktad mot rörelsen.</li><li>riktad åt samma håll som rörelsen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta v=\\dfrac{1\\,200\\cdot0{,}027}{0{,}40}=81\\) m/s. \\(v=14-81\\), alltså 67 m/s åt motsatt håll.</p><p><strong>Svar:</strong> \\(67\\) m/s</p></li><li><p>\\(v=14+81\\).</p><p><strong>Svar:</strong> \\(95\\) m/s</p></li></ol>",
+    "id": "5.387",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      67,
+      95
+    ],
+    "tolerans": [
+      1.0,
+      1.43
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "riktad mot rörelsen.",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><p>riktad mot rörelsen.</p>",
+        "s": "<p>\\(\\Delta v=\\dfrac{1\\,200\\cdot0{,}027}{0{,}40}=81\\) m/s. \\(v=14-81\\), alltså 67 m/s åt motsatt håll.</p><p><strong>Svar:</strong> \\(67\\) m/s</p>",
+        "ledtrad": "<p>Bestäm hastighetsändringen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "riktad åt samma håll som rörelsen.",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><p>riktad åt samma håll som rörelsen.</p>",
+        "s": "<p>\\(v=14+81\\).</p><p><strong>Svar:</strong> \\(95\\) m/s</p>",
+        "ledtrad": "<p>Bestäm hastighetsändringen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta v=\\dfrac{F\\Delta t}{m}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "raketsegment separeras",
+    "poang": "(2/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><ol type=\"a\"><li>Vilken fart får den främre delen?</li><li>Vilken fart får den bakre delen?</li><li>Hur långt från varandra är delarna efter 2 minuter?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=50+\\dfrac{3\\,600}{1\\,200}\\).</p><p><strong>Svar:</strong> \\(53\\) m/s</p></li><li><p>\\(v=50-\\dfrac{3\\,600}{1\\,800}\\).</p><p><strong>Svar:</strong> \\(48\\) m/s</p></li><li><p>\\(\\Delta s=(53-48)\\cdot120\\).</p><p><strong>Svar:</strong> \\(600\\) m</p></li></ol>",
+    "id": "5.388",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      53,
+      48,
+      600
+    ],
+    "tolerans": [
+      0.795,
+      0.72,
+      9.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart får den främre delen?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Vilken fart får den främre delen?</p>",
+        "s": "<p>\\(v=50+\\dfrac{3\\,600}{1\\,200}\\).</p><p><strong>Svar:</strong> \\(53\\) m/s</p>",
+        "ledtrad": "<p>\\(\\Delta v=\\dfrac{I}{m}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart får den bakre delen?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Vilken fart får den bakre delen?</p>",
+        "s": "<p>\\(v=50-\\dfrac{3\\,600}{1\\,800}\\).</p><p><strong>Svar:</strong> \\(48\\) m/s</p>",
+        "ledtrad": "<p>Impulsen är riktad bakåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt från varandra är delarna efter 2 minuter?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Hur långt från varandra är delarna efter 2 minuter?</p>",
+        "s": "<p>\\(\\Delta s=(53-48)\\cdot120\\).</p><p><strong>Svar:</strong> \\(600\\) m</p>",
+        "ledtrad": "<p>Använd den relativa farten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta v=\\dfrac{I}{m}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "stoppa en pulka",
+    "poang": "(1/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett barn i en pulka (sammanlagt 35 kg) åker med 1,5 m/s. Med vilken medelkraft måste du bromsa för att stoppa pulkan på 0,50 s?</p>",
+    "s": "<p>\\(F=\\dfrac{35\\cdot1{,}5}{0{,}50}\\).</p><p><strong>Svar:</strong> \\(105\\) N</p>",
+    "id": "5.389",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 105.0,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "puckens massa",
+    "poang": "(0/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck glider med 12 m/s. En klubba ger den impulsen 4,0 Ns så att den far tillbaka med samma fart. Vilken massa har pucken?</p>",
+    "s": "<p>\\(\\Delta p=m\\cdot24=4{,}0\\iff m=\\dfrac{4{,}0}{24}\\).</p><p><strong>Svar:</strong> \\(0{,}17\\) kg</p>",
+    "id": "5.390",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.16666666666666666,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hastighetsändringen är 24 m/s.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "bowlingklot mot vägg",
+    "poang": "(1/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett bowlingklot (5,9 kg) rullar med 8,9 m/s mot en vägg och stannar på 0,018 s. Hur stor är medelkraften?</p>",
+    "s": "<p>\\(F=\\dfrac{5{,}9\\cdot8{,}9}{0{,}018}\\).</p><p><strong>Svar:</strong> \\(2\\,917\\) N</p>",
+    "id": "5.391",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2917.2222222222226,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "E",
+    "typ": "bromsa ett tåg",
+    "poang": "(2/0/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><ol type=\"a\"><li>Hur stor kraft krävs för att stoppa tåget på 25 s?</li><li>Hur lång tid tar det med bromskraften 0,10 MN?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Halva tiden kräver dubbla kraften.</p><p><strong>Svar:</strong> \\(4{,}0\\cdot10^{5}\\) N</p></li><li><p>Halva kraften kräver dubbla tiden.</p><p><strong>Svar:</strong> \\(100\\) s</p></li></ol>",
+    "id": "5.392",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      400000.0,
+      100
+    ],
+    "tolerans": [
+      6000.0,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor kraft krävs för att stoppa tåget på 25 s?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><p>Hur stor kraft krävs för att stoppa tåget på 25 s?</p>",
+        "s": "<p>Halva tiden kräver dubbla kraften.</p><p><strong>Svar:</strong> \\(4{,}0\\cdot10^{5}\\) N</p>",
+        "ledtrad": "<p>\\(F\\Delta t\\) är konstant.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det med bromskraften 0,10 MN?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><p>Hur lång tid tar det med bromskraften 0,10 MN?</p>",
+        "s": "<p>Halva kraften kräver dubbla tiden.</p><p><strong>Svar:</strong> \\(100\\) s</p>",
+        "ledtrad": "<p>\\(F\\Delta t\\) är konstant.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Samma rörelsemängd ska bort.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "tennisboll slås tillbaka",
+    "poang": "(0/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En tennisboll (60 g) kommer med 20 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 50 ms. Hur stor är medelkraften från racketen?</p>",
+    "s": "<p>\\(F=\\dfrac{0{,}060(50+20)}{0{,}050}\\).</p><p><strong>Svar:</strong> \\(84\\) N</p>",
+    "id": "5.393",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 84.0,
+    "tolerans": 1.26,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hastighetsändringen är 70 m/s.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "studs ur höjder",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (150 g) släpps från 1,25 m och studsar upp till 0,960 m. Hur stor impuls får bollen från golvet?</p>",
+    "s": "<p>\\(v_1=\\sqrt{2g\\cdot1{,}25}\\), \\(v_2=\\sqrt{2g\\cdot0{,}960}\\). \\(I=0{,}150(v_1+v_2)\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) Ns</p>",
+    "id": "5.394",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.3945441522756212,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten före och efter studsen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Ns",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "ägg som faller",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p><ol type=\"a\"><li>Vilken fart har ägget före nedslaget?</li><li>Hur stor är medelkraften från golvet?</li><li>Hur mycket trycks ägget ihop?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\).</p><p><strong>Svar:</strong> \\(4{,}4\\) m/s</p></li><li><p>\\(F=\\dfrac{0{,}050\\cdot4{,}4}{0{,}010}\\), plus tyngden 0,49 N.</p><p><strong>Svar:</strong> \\(23\\) N</p></li><li><p>Medelfarten under inbromsningen är \\(\\dfrac{4{,}4}{2}\\): \\(s=\\dfrac{4{,}4\\cdot0{,}010}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}022\\) m</p></li></ol>",
+    "id": "5.395",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.431703961232068,
+      22.649519806160338,
+      0.02215851980616034
+    ],
+    "tolerans": [
+      0.0665,
+      0.51,
+      0.00051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har ägget före nedslaget?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p><p>Vilken fart har ägget före nedslaget?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\).</p><p><strong>Svar:</strong> \\(4{,}4\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är medelkraften från golvet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>Farten före nedslaget är 4,4 m/s.<p>Hur stor är medelkraften från golvet?</p>",
+        "s": "<p>\\(F=\\dfrac{0{,}050\\cdot4{,}4}{0{,}010}\\), plus tyngden 0,49 N.</p><p><strong>Svar:</strong> \\(23\\) N</p>",
+        "ledtrad": "<p>Impulslagen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket trycks ägget ihop?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>Farten före nedslaget är 4,4 m/s.<p>Hur mycket trycks ägget ihop?</p>",
+        "s": "<p>Medelfarten under inbromsningen är \\(\\dfrac{4{,}4}{2}\\): \\(s=\\dfrac{4{,}4\\cdot0{,}010}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}022\\) m</p>",
+        "ledtrad": "<p>Konstant retardation.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Kontakttiden avgör kraften.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "äpple i gräsmatta",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett äpple (0,10 kg) faller 2,0 m och stannar efter att ha sjunkit 0,060 m ned i gräsmattan. Det blir brunt om kraften överstiger 8,0 N. Hur stor är medelkraften från marken?</p>",
+    "s": "<p>Energi: \\(F\\cdot0{,}060=mg(2{,}0+0{,}060)\\iff F=\\dfrac{0{,}10\\cdot9{,}82\\cdot2{,}06}{0{,}060}\\). Äpplet skadas.</p><p><strong>Svar:</strong> \\(34\\) N</p>",
+    "id": "5.396",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 33.715333333333334,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bromskraftens arbete tar bort hela lägesenergin.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "hopp ned i brandsegel",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p><ol type=\"a\"><li>Från vilken höjd hoppade personen?</li><li>Hur lång tid tar inbromsningen?</li><li>Hur stor är medelkraften från seglet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(29\\) m</p></li><li><p>Medelfarten är 12 m/s: \\(t=\\dfrac{1{,}0}{12}\\).</p><p><strong>Svar:</strong> \\(0{,}083\\) s</p></li><li><p>\\(F=\\dfrac{mv}{t}+mg=\\dfrac{75\\cdot24}{0{,}083}+75\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(22\\,336\\) N</p></li></ol>",
+    "id": "5.397",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29.327902240325866,
+      0.08333333333333333,
+      22336.5
+    ],
+    "tolerans": [
+      0.51,
+      0.00125,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Från vilken höjd hoppade personen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p><p>Från vilken höjd hoppade personen?</p>",
+        "s": "<p>\\(h=\\dfrac{v^2}{2g}\\).</p><p><strong>Svar:</strong> \\(29\\) m</p>",
+        "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar inbromsningen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p><p>Hur lång tid tar inbromsningen?</p>",
+        "s": "<p>Medelfarten är 12 m/s: \\(t=\\dfrac{1{,}0}{12}\\).</p><p><strong>Svar:</strong> \\(0{,}083\\) s</p>",
+        "ledtrad": "<p>Konstant retardation.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är medelkraften från seglet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p>Inbromsningen tar 0,083 s.<p>Hur stor är medelkraften från seglet?</p>",
+        "s": "<p>\\(F=\\dfrac{mv}{t}+mg=\\dfrac{75\\cdot24}{0{,}083}+75\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(22\\,336\\) N</p>",
+        "ledtrad": "<p>Seglet ska både bromsa och bära tyngden.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Impulslagen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "kindben och ratt",
+    "poang": "(1/1/0)",
+    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p><ol type=\"a\"><li>Hur stor är medelkraften?</li><li>Vilken är den kortaste kontakttid som undviker skador?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{150}{0{,}020}\\).</p><p><strong>Svar:</strong> \\(7\\,500\\) N</p></li><li><p>\\(\\Delta t=\\dfrac{150}{900}\\).</p><p><strong>Svar:</strong> \\(0{,}17\\) s</p></li></ol>",
+    "id": "5.398",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7500,
+      0.16666666666666666
+    ],
+    "tolerans": [
+      112.0,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är medelkraften?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p><p>Hur stor är medelkraften?</p>",
+        "s": "<p>\\(F=\\dfrac{150}{0{,}020}\\).</p><p><strong>Svar:</strong> \\(7\\,500\\) N</p>",
+        "ledtrad": "<p>\\(F=\\dfrac I{\\Delta t}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken är den kortaste kontakttid som undviker skador?",
+        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p><p>Vilken är den kortaste kontakttid som undviker skador?</p>",
+        "s": "<p>\\(\\Delta t=\\dfrac{150}{900}\\).</p><p><strong>Svar:</strong> \\(0{,}17\\) s</p>",
+        "ledtrad": "<p>Samma impuls, högst 900 N.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Längre kontakttid ger mindre kraft.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "magplask i vattenbalja",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p><ol type=\"a\"><li>Vilken fart har han vid vattenytan?</li><li>Hur lång tid tar inbromsningen?</li><li>Hur stor är medelkraften från vattnet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot12}\\).</p><p><strong>Svar:</strong> \\(15\\) m/s</p></li><li><p>\\(t=\\dfrac{2\\cdot0{,}30}{v}\\).</p><p><strong>Svar:</strong> \\(0{,}039\\) s</p></li><li><p>\\(F\\cdot0{,}30=mg(12+0{,}30)\\).</p><p><strong>Svar:</strong> \\(31\\,404\\) N</p></li></ol>",
+    "id": "5.399",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15.351872849916392,
+      0.03908317935314763,
+      31404.360000000004
+    ],
+    "tolerans": [
+      0.51,
+      0.000586,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har han vid vattenytan?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p><p>Vilken fart har han vid vattenytan?</p>",
+        "s": "<p>\\(v=\\sqrt{2\\cdot9{,}82\\cdot12}\\).</p><p><strong>Svar:</strong> \\(15\\) m/s</p>",
+        "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar inbromsningen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p>Farten vid vattenytan är 15,4 m/s.<p>Hur lång tid tar inbromsningen?</p>",
+        "s": "<p>\\(t=\\dfrac{2\\cdot0{,}30}{v}\\).</p><p><strong>Svar:</strong> \\(0{,}039\\) s</p>",
+        "ledtrad": "<p>Konstant retardation: medelfarten är \\(v/2\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor är medelkraften från vattnet?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p><p>Hur stor är medelkraften från vattnet?</p>",
+        "s": "<p>\\(F\\cdot0{,}30=mg(12+0{,}30)\\).</p><p><strong>Svar:</strong> \\(31\\,404\\) N</p>",
+        "ledtrad": "<p>Räkna med hela fallhöjden 12,3 m.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Bromskraften tar bort hela lägesenergin.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "stuntman i luftmadrass",
+    "poang": "(1/2/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p><ol type=\"a\"><li>Från vilken höjd föll han?</li><li>Hur lång tid tog inbromsningen?</li><li>Hur stor var medelkraften från madrassen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(h=\\dfrac{36^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(66\\) m</p></li><li><p>\\(t=\\dfrac{2\\cdot4{,}0}{36}\\).</p><p><strong>Svar:</strong> \\(0{,}22\\) s</p></li><li><p>\\(F\\cdot4{,}0=mg(66+4{,}0)\\).</p><p><strong>Svar:</strong> \\(13\\,746\\) N</p></li></ol>",
+    "id": "5.400",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      65.9877800407332,
+      0.2222222222222222,
+      13745.6
+    ],
+    "tolerans": [
+      0.99,
+      0.0051,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Från vilken höjd föll han?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p><p>Från vilken höjd föll han?</p>",
+        "s": "<p>\\(h=\\dfrac{36^2}{2\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(66\\) m</p>",
+        "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tog inbromsningen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p><p>Hur lång tid tog inbromsningen?</p>",
+        "s": "<p>\\(t=\\dfrac{2\\cdot4{,}0}{36}\\).</p><p><strong>Svar:</strong> \\(0{,}22\\) s</p>",
+        "ledtrad": "<p>Medelfarten är halva farten.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor var medelkraften från madrassen?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p>Fallhöjden är 66 m.<p>Hur stor var medelkraften från madrassen?</p>",
+        "s": "<p>\\(F\\cdot4{,}0=mg(66+4{,}0)\\).</p><p><strong>Svar:</strong> \\(13\\,746\\) N</p>",
+        "ledtrad": "<p>Räkna med hela fallhöjden.</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Bromskraften tar bort hela lägesenergin.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "7.59",
     "kap": 7,
     "omr": "varme",
@@ -130621,6 +132382,1208 @@ window.BANK = [
     "spel": true,
     "miniräknare": true,
     "geogebra": false
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "tågvagnar som kopplas ihop",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En tågvagn (92 ton, 1,3 m/s) kör ikapp en tågvagn (65 ton, 0,80 m/s) i samma riktning och kopplas ihop med den. Vilken fart får de?</p>",
+    "s": "<p>\\(v=\\dfrac{92\\cdot1{,}3+65\\cdot0{,}80}{157}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m/s</p>",
+    "id": "5.401",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0929936305732486,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Total massa efter är 157 ton.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "tackling",
+    "poang": "(1/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En spelare (110 kg) springer åt vänster med 2,5 m/s och tacklas av en spelare (82 kg) som springer åt höger med 5,0 m/s. De håller fast i varandra. Vilken fart får de (positiv åt höger)?</p>",
+    "s": "<p>\\(v=\\dfrac{82\\cdot5{,}0-110\\cdot2{,}5}{192}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) m/s</p>",
+    "id": "5.402",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.703125,
+    "tolerans": 0.0105,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tänk på riktningarna.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "bilar möts",
+    "poang": "(1/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Bil A (980 kg) kör med 50 km/h och bil B (1,20 ton) med 70 km/h rakt mot varandra. De fastnar i varandra. Hur stor är farten efter krocken i m/s?</p>",
+    "s": "<p>\\(v=\\dfrac{1\\,200\\cdot70-980\\cdot50}{2\\,180}\\) km/h, i B:s riktning. Dela med 3,6.</p><p><strong>Svar:</strong> \\(4{,}5\\) m/s</p>",
+    "id": "5.403",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.45973496432212,
+    "tolerans": 0.0669,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tänk på riktningarna.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "bilar som stannar helt",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En bil (1 100 kg) i 32 m/s krockar med en mötande bil (2 500 kg). Bilarna fastnar och står still efter krocken. Hur fort körde den andra bilen?</p>",
+    "s": "<p>Total rörelsemängd noll: \\(v=\\dfrac{1\\,100\\cdot32}{2\\,500}\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p>",
+    "id": "5.404",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.08,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelsemängderna tar ut varandra.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "hopp ned i båt",
+    "poang": "(3/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Olle (75,0 kg) hoppar från en brygga och landar i en båt (110 kg) med den vågräta farten 5,0 m/s. Vilken fart får båten med Olle om båten</p><ol type=\"a\"><li>låg stilla?</li><li>rörde sig mot bryggan med 2,0 m/s?</li><li>rörde sig bort från bryggan med 2,0 m/s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{75{,}0\\cdot5{,}0}{185}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s</p></li><li><p>\\(v=\\dfrac{375-110\\cdot2{,}0}{185}\\).</p><p><strong>Svar:</strong> \\(0{,}84\\) m/s</p></li><li><p>\\(v=\\dfrac{375+220}{185}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m/s</p></li></ol>",
+    "id": "5.405",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.027027027027027,
+      0.8378378378378378,
+      3.2162162162162162
+    ],
+    "tolerans": [
+      0.051,
+      0.0126,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Olle (75,0 kg) hoppar från en brygga och landar i en båt (110 kg) med den vågräta farten 5,0 m/s. Vilken fart får båten med Olle om båten</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "låg stilla?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Olle (75,0 kg) hoppar från en brygga och landar i en båt (110 kg) med den vågräta farten 5,0 m/s. Vilken fart får båten med Olle om båten</p><p>låg stilla?</p>",
+        "s": "<p>\\(v=\\dfrac{75{,}0\\cdot5{,}0}{185}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s</p>",
+        "ledtrad": "<p>Total massa 185 kg.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "rörde sig mot bryggan med 2,0 m/s?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Olle (75,0 kg) hoppar från en brygga och landar i en båt (110 kg) med den vågräta farten 5,0 m/s. Vilken fart får båten med Olle om båten</p><p>rörde sig mot bryggan med 2,0 m/s?</p>",
+        "s": "<p>\\(v=\\dfrac{375-110\\cdot2{,}0}{185}\\).</p><p><strong>Svar:</strong> \\(0{,}84\\) m/s</p>",
+        "ledtrad": "<p>Båtens rörelsemängd är motriktad.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "rörde sig bort från bryggan med 2,0 m/s?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Olle (75,0 kg) hoppar från en brygga och landar i en båt (110 kg) med den vågräta farten 5,0 m/s. Vilken fart får båten med Olle om båten</p><p>rörde sig bort från bryggan med 2,0 m/s?</p>",
+        "s": "<p>\\(v=\\dfrac{375+220}{185}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m/s</p>",
+        "ledtrad": "<p>Rörelsemängderna adderas.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängden bevaras.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "asteroider krockar",
+    "poang": "(1/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Asteroid A (\\(7{,}5\\cdot10^{12}\\) kg, 3,3 km/s) och asteroid B (\\(1{,}45\\cdot10^{13}\\) kg, 1,4 km/s) rör sig mot varandra och fastnar. Vilken fart får de?</p>",
+    "s": "<p>\\(v=\\dfrac{7{,}5\\cdot10^{12}\\cdot3\\,300-1{,}45\\cdot10^{13}\\cdot1\\,400}{2{,}2\\cdot10^{13}}\\), i A:s riktning.</p><p><strong>Svar:</strong> \\(202\\) m/s</p>",
+    "id": "5.406",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 202.27272727272728,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tänk på riktningarna.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "fem tågvagnar",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Tre ihopkopplade tågvagnar rullar med 2,0 m/s. En fjärde likadan vagn kommer bakifrån med 4,0 m/s och kopplas på. Sedan kör de fyra vagnarna på en stillastående femte likadan vagn och kopplas ihop. Vilken fart får de fem vagnarna?</p>",
+    "s": "<p>Först: \\(v=\\dfrac{3\\cdot2{,}0+4{,}0}{4}=2{,}5\\) m/s. Sedan: \\(v=\\dfrac{4\\cdot2{,}5}{5}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s</p>",
+    "id": "5.407",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två kollisioner efter varandra.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "fisk slukar fisk",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fisk (15,0 kg) simmar med 1,10 m/s och slukar en stillastående fisk (4,5 kg). Hur mycket rörelseenergi försvinner?</p>",
+    "s": "<p>\\(v=\\dfrac{15{,}0\\cdot1{,}10}{19{,}5}\\). \\(\\Delta E=\\dfrac{15{,}0\\cdot1{,}10^2}{2}-\\dfrac{19{,}5v^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}1\\) J</p>",
+    "id": "5.408",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0942307692307685,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm farten efter först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "J",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "grus i tågvagn",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En öppen tågvagn (10 ton) rullar med 2,00 m/s. Man häller lodrätt ned 4,0 ton grus. Vilken fart får vagnen?</p>",
+    "s": "<p>Den vågräta rörelsemängden bevaras: \\(v=\\dfrac{10\\cdot2{,}00}{14}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) m/s</p>",
+    "id": "5.409",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4285714285714286,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gruset har ingen vågrät fart från början.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "regn i tågvagn",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En öppen tågvagn (5 000 kg) rullar friktionsfritt med 22,0 m/s. Efter ett skyfall har den farten 20,0 m/s. Hur mycket vatten har samlats i vagnen?</p>",
+    "s": "<p>\\(5\\,000\\cdot22{,}0=(5\\,000+m)\\cdot20{,}0\\).</p><p><strong>Svar:</strong> \\(500\\) kg</p>",
+    "id": "5.410",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 500.0,
+    "tolerans": 7.5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Regnet faller lodrätt.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "skridskoåkare skjuter ifrån",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Två skridskoåkare (54 kg och 88 kg) står stilla och skjuter ifrån varandra. Den lättare får farten 2,5 m/s. Vilken fart får den tyngre?</p>",
+    "s": "<p>\\(88v=54\\cdot2{,}5\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) m/s</p>",
+    "id": "5.411",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5340909090909092,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "rekyl",
+    "poang": "(3/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><ol type=\"a\"><li>En pistol (3,0 kg) skjuter en kula (30 g) med 175 m/s. Vilken rekylfart får pistolen?</li><li>En pojke och en båt (sammanlagt 59,0 kg) ligger stilla. Pojken kastar ett paket (5,30 kg) vågrätt med 10,0 m/s. Vilken fart får båten?</li><li>Ett gevär (4,5 kg) får rekylfarten 1,8 m/s när det skjuter en kula (10,0 g). Vilken fart har kulan?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{0{,}030\\cdot175}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) m/s</p></li><li><p>\\(v=\\dfrac{5{,}30\\cdot10{,}0}{59{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}90\\) m/s</p></li><li><p>\\(v=\\dfrac{4{,}5\\cdot1{,}8}{0{,}0100}\\).</p><p><strong>Svar:</strong> \\(810\\) m/s</p></li></ol>",
+    "id": "5.412",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.75,
+      0.8983050847457628,
+      810.0
+    ],
+    "tolerans": [
+      0.051,
+      0.0135,
+      12.2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En pistol (3,0 kg) skjuter en kula (30 g) med 175 m/s. Vilken rekylfart får pistolen?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En pistol (3,0 kg) skjuter en kula (30 g) med 175 m/s. Vilken rekylfart får pistolen?</p>",
+        "s": "<p>\\(v=\\dfrac{0{,}030\\cdot175}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) m/s</p>",
+        "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En pojke och en båt (sammanlagt 59,0 kg) ligger stilla. Pojken kastar ett paket (5,30 kg) vågrätt med 10,0 m/s. Vilken fart får båten?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En pojke och en båt (sammanlagt 59,0 kg) ligger stilla. Pojken kastar ett paket (5,30 kg) vågrätt med 10,0 m/s. Vilken fart får båten?</p>",
+        "s": "<p>\\(v=\\dfrac{5{,}30\\cdot10{,}0}{59{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}90\\) m/s</p>",
+        "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett gevär (4,5 kg) får rekylfarten 1,8 m/s när det skjuter en kula (10,0 g). Vilken fart har kulan?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Ett gevär (4,5 kg) får rekylfarten 1,8 m/s när det skjuter en kula (10,0 g). Vilken fart har kulan?</p>",
+        "s": "<p>\\(v=\\dfrac{4{,}5\\cdot1{,}8}{0{,}0100}\\).</p><p><strong>Svar:</strong> \\(810\\) m/s</p>",
+        "ledtrad": "<p>Lika stora rörelsemängder.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Före skottet är den totala rörelsemängden noll.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "snöboll mellan skridskoåkare",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Johanna (65,0 kg) åker med 2,50 m/s mot Per (60,0 kg) som står still på isen. Hon kastar en snöboll (45 g) rakt fram med 30,0 m/s relativt isen. Per fångar den.</p><ol type=\"a\"><li>Vilken fart har Johanna efter kastet?</li><li>Vilken fart får Per när han fångar bollen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(65{,}045\\cdot2{,}50=65{,}0v+0{,}045\\cdot30{,}0\\).</p><p><strong>Svar:</strong> \\(2{,}48\\) m/s</p></li><li><p>\\(0{,}045\\cdot30{,}0=60{,}045v\\).</p><p><strong>Svar:</strong> \\(0{,}0225\\) m/s</p></li></ol>",
+    "id": "5.413",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.4809615384615387,
+      0.022483137646764923
+    ],
+    "tolerans": [
+      0.0372,
+      0.000337
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Johanna (65,0 kg) åker med 2,50 m/s mot Per (60,0 kg) som står still på isen. Hon kastar en snöboll (45 g) rakt fram med 30,0 m/s relativt isen. Per fångar den.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart har Johanna efter kastet?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Johanna (65,0 kg) åker med 2,50 m/s mot Per (60,0 kg) som står still på isen. Hon kastar en snöboll (45 g) rakt fram med 30,0 m/s relativt isen. Per fångar den.</p><p>Vilken fart har Johanna efter kastet?</p>",
+        "s": "<p>\\(65{,}045\\cdot2{,}50=65{,}0v+0{,}045\\cdot30{,}0\\).</p><p><strong>Svar:</strong> \\(2{,}48\\) m/s</p>",
+        "ledtrad": "<p>Snöbollen hade Johannas fart före kastet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart får Per när han fångar bollen?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Johanna (65,0 kg) åker med 2,50 m/s mot Per (60,0 kg) som står still på isen. Hon kastar en snöboll (45 g) rakt fram med 30,0 m/s relativt isen. Per fångar den.</p><p>Vilken fart får Per när han fångar bollen?</p>",
+        "s": "<p>\\(0{,}045\\cdot30{,}0=60{,}045v\\).</p><p><strong>Svar:</strong> \\(0{,}0225\\) m/s</p>",
+        "ledtrad": "<p>Per och bollen rör sig tillsammans.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängden bevaras vid varje händelse.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "Karl hoppar mellan vagnar",
+    "poang": "(0/2/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Karl (82 kg) hoppar från vagn A till vagn B. Vagnarna (250 kg var) stod stilla. Efter hoppet rullar A med 0,85 m/s åt höger. Vilken fart får B med Karl?</p>",
+    "s": "<p>Karls rörelsemängd: \\(250\\cdot0{,}85\\) åt vänster. B med Karl: \\(v=\\dfrac{250\\cdot0{,}85}{332}\\), åt vänster.</p><p><strong>Svar:</strong> \\(0{,}64\\) m/s</p>",
+    "id": "5.414",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6400602409638554,
+    "tolerans": 0.0096,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två händelser: avhopp och landning.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "golfklubba",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Ett klubbhuvud (200 g) har farten 55 m/s när det träffar en stillaliggande golfboll (46 g). Efteråt har klubbhuvudet farten 40 m/s åt samma håll. Vilken fart får bollen?</p>",
+    "s": "<p>\\(0{,}200\\cdot55=0{,}200\\cdot40+0{,}046v\\).</p><p><strong>Svar:</strong> \\(65\\) m/s</p>",
+    "id": "5.415",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 65.21739130434783,
+    "tolerans": 0.978,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rörelsemängden bevaras.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "lätt vagn studsar",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En vagn (100 g) med farten 1,20 m/s krockar med en stillastående vagn (1,00 kg) och studsar rakt tillbaka med 0,850 m/s. Vilken fart får den tyngre vagnen?</p>",
+    "s": "<p>\\(0{,}100\\cdot1{,}20=0{,}100\\cdot(-0{,}850)+1{,}00v\\).</p><p><strong>Svar:</strong> \\(0{,}205\\) m/s</p>",
+    "id": "5.416",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.20500000000000002,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tänk på tecknet för den lätta vagnens fart efteråt.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "bilens massa ur krock",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En lastbil (7,7 ton) med farten 30 km/h kör in i en stillastående bil och fastnar. Den gemensamma farten blir 25 km/h. Bestäm bilens massa.</p>",
+    "s": "<p>\\(7{,}7\\cdot30=(7{,}7+m)\\cdot25\\).</p><p><strong>Svar:</strong> \\(1\\,540\\) kg</p>",
+    "id": "5.417",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1540.0,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Enheten km/h kan behållas.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "pucken studsar",
+    "poang": "(1/2/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Puck A (0,25 kg) krockar med en stillastående puck B (0,35 kg). Efteråt rör sig A med 0,12 m/s åt vänster och B med 0,65 m/s åt höger.</p><ol type=\"a\"><li>Vilken fart hade A före krocken?</li><li>Hur mycket rörelseenergi försvann?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(0{,}25u=0{,}25(-0{,}12)+0{,}35\\cdot0{,}65\\).</p><p><strong>Svar:</strong> \\(0{,}79\\) m/s</p></li><li><p>\\(\\Delta E=\\dfrac{0{,}25\\cdot0{,}79^2}{2}-\\dfrac{0{,}25\\cdot0{,}12^2}{2}-\\dfrac{0{,}35\\cdot0{,}65^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0023\\) J</p></li></ol>",
+    "id": "5.418",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.7899999999999999,
+      0.002275000000000027
+    ],
+    "tolerans": [
+      0.0118,
+      5.1e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Puck A (0,25 kg) krockar med en stillastående puck B (0,35 kg). Efteråt rör sig A med 0,12 m/s åt vänster och B med 0,65 m/s åt höger.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart hade A före krocken?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Puck A (0,25 kg) krockar med en stillastående puck B (0,35 kg). Efteråt rör sig A med 0,12 m/s åt vänster och B med 0,65 m/s åt höger.</p><p>Vilken fart hade A före krocken?</p>",
+        "s": "<p>\\(0{,}25u=0{,}25(-0{,}12)+0{,}35\\cdot0{,}65\\).</p><p><strong>Svar:</strong> \\(0{,}79\\) m/s</p>",
+        "ledtrad": "<p>Tänk på riktningarna.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket rörelseenergi försvann?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Puck A (0,25 kg) krockar med en stillastående puck B (0,35 kg). Efteråt rör sig A med 0,12 m/s åt vänster och B med 0,65 m/s åt höger.</p>A hade farten 0,79 m/s.<p>Hur mycket rörelseenergi försvann?</p>",
+        "s": "<p>\\(\\Delta E=\\dfrac{0{,}25\\cdot0{,}79^2}{2}-\\dfrac{0{,}25\\cdot0{,}12^2}{2}-\\dfrac{0{,}35\\cdot0{,}65^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0023\\) J</p>",
+        "ledtrad": "<p>Jämför rörelseenergin före och efter.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängden bevaras, men inte alltid rörelseenergin.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "fånga en fotboll på isen",
+    "poang": "(1/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fotboll (400 g) kommer med 20,0 m/s mot dig (70 kg) där du står på friktionsfri is.</p><ol type=\"a\"><li>Vilken fart får du om du fångar bollen?</li><li>Vilken fart får du om bollen studsar tillbaka med 12,0 m/s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{0{,}400\\cdot20{,}0}{70{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}11\\) m/s</p></li><li><p>\\(70v=0{,}400(20{,}0+12{,}0)\\).</p><p><strong>Svar:</strong> \\(0{,}18\\) m/s</p></li></ol>",
+    "id": "5.419",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.11363636363636363,
+      0.18285714285714286
+    ],
+    "tolerans": [
+      0.0051,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fotboll (400 g) kommer med 20,0 m/s mot dig (70 kg) där du står på friktionsfri is.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart får du om du fångar bollen?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fotboll (400 g) kommer med 20,0 m/s mot dig (70 kg) där du står på friktionsfri is.</p><p>Vilken fart får du om du fångar bollen?</p>",
+        "s": "<p>\\(v=\\dfrac{0{,}400\\cdot20{,}0}{70{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}11\\) m/s</p>",
+        "ledtrad": "<p>Du och bollen rör er tillsammans.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart får du om bollen studsar tillbaka med 12,0 m/s?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fotboll (400 g) kommer med 20,0 m/s mot dig (70 kg) där du står på friktionsfri is.</p><p>Vilken fart får du om bollen studsar tillbaka med 12,0 m/s?</p>",
+        "s": "<p>\\(70v=0{,}400(20{,}0+12{,}0)\\).</p><p><strong>Svar:</strong> \\(0{,}18\\) m/s</p>",
+        "ledtrad": "<p>Bollens rörelsemängdsändring blir större.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängden bevaras.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "fjäder mellan två vikter",
+    "poang": "(2/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fjäder (200 N/m) trycks ihop mellan två vikter (2,3 kg och 5,3 kg) som sedan släpps. Den lättare far iväg med 6,0 m/s.</p><ol type=\"a\"><li>Vilken fart får den tyngre vikten?</li><li>Hur stor är den sammanlagda rörelseenergin?</li><li>Hur mycket var fjädern hoptryckt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(5{,}3v=2{,}3\\cdot6{,}0\\).</p><p><strong>Svar:</strong> \\(2{,}6\\) m/s</p></li><li><p>\\(E=\\dfrac{2{,}3\\cdot6{,}0^2}{2}+\\dfrac{5{,}3\\cdot2{,}6^2}{2}\\).</p><p><strong>Svar:</strong> \\(59\\) J</p></li><li><p>\\(\\dfrac{kx^2}{2}=59\\) J \\(\\iff x=\\sqrt{\\dfrac{2\\cdot59}{200}}\\).</p><p><strong>Svar:</strong> \\(0{,}77\\) m</p></li></ol>",
+    "id": "5.420",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.6037735849056602,
+      59.36603773584906,
+      0.7704935933273492
+    ],
+    "tolerans": [
+      0.051,
+      0.89,
+      0.0116
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "J",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fjäder (200 N/m) trycks ihop mellan två vikter (2,3 kg och 5,3 kg) som sedan släpps. Den lättare far iväg med 6,0 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart får den tyngre vikten?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fjäder (200 N/m) trycks ihop mellan två vikter (2,3 kg och 5,3 kg) som sedan släpps. Den lättare far iväg med 6,0 m/s.</p><p>Vilken fart får den tyngre vikten?</p>",
+        "s": "<p>\\(5{,}3v=2{,}3\\cdot6{,}0\\).</p><p><strong>Svar:</strong> \\(2{,}6\\) m/s</p>",
+        "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den sammanlagda rörelseenergin?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fjäder (200 N/m) trycks ihop mellan två vikter (2,3 kg och 5,3 kg) som sedan släpps. Den lättare far iväg med 6,0 m/s.</p>Den tyngre vikten får farten 2,6 m/s.<p>Hur stor är den sammanlagda rörelseenergin?</p>",
+        "s": "<p>\\(E=\\dfrac{2{,}3\\cdot6{,}0^2}{2}+\\dfrac{5{,}3\\cdot2{,}6^2}{2}\\).</p><p><strong>Svar:</strong> \\(59\\) J</p>",
+        "ledtrad": "<p>Lägg ihop båda.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket var fjädern hoptryckt?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En fjäder (200 N/m) trycks ihop mellan två vikter (2,3 kg och 5,3 kg) som sedan släpps. Den lättare far iväg med 6,0 m/s.</p>Den sammanlagda rörelseenergin är 59 J.<p>Hur mycket var fjädern hoptryckt?</p>",
+        "s": "<p>\\(\\dfrac{kx^2}{2}=59\\) J \\(\\iff x=\\sqrt{\\dfrac{2\\cdot59}{200}}\\).</p><p><strong>Svar:</strong> \\(0{,}77\\) m</p>",
+        "ledtrad": "<p>Fjäderenergin blir rörelseenergi.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängd och energi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "A",
+    "typ": "skidåkare tar ryggsäck",
+    "poang": "(0/1/2)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En skidåkare (65,0 kg) åker från vila nedför en 5,0 m hög backe. På plan mark plockar hen upp en ryggsäck (20,0 kg) och åker sedan utför ett 2,0 m högt stup. Vilken fart har hen vid landningen? Bortse från friktion.</p>",
+    "s": "<p>\\(v_1=\\sqrt{2g\\cdot5{,}0}\\). Efter upplockningen: \\(v_2=\\dfrac{65{,}0v_1}{85{,}0}\\). Efter stupet: \\(v=\\sqrt{v_2^2+2g\\cdot2{,}0}\\).</p><p><strong>Svar:</strong> \\(9{,}8\\) m/s</p>",
+    "id": "5.421",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.833865643520339,
+    "tolerans": 0.148,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Energi, rörelsemängd och energi igen.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "båtens massa",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En person (65 kg) i en roddbåt som ligger stilla börjar gå mot bryggan med 1,50 m/s relativt vattnet. Båten rör sig då med 0,31 m/s åt motsatt håll. Bestäm båtens massa.</p>",
+    "s": "<p>\\(m\\cdot0{,}31=65\\cdot1{,}50\\).</p><p><strong>Svar:</strong> \\(315\\) kg</p>",
+    "id": "5.422",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 314.51612903225805,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "astronaut kastar syrgastub",
+    "poang": "(2/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En astronaut (75 kg) har tappat linan och är i vila relativt rymdskeppet. Han kastar en syrgastub (12 kg) bort från skeppet med 8,00 m/s.</p><ol type=\"a\"><li>Vilken fart får astronauten?</li><li>Han har syre för 2,00 minuter. Hur långt från skeppet får han högst vara?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{12\\cdot8{,}00}{75}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) m/s</p></li><li><p>\\(s=1{,}28\\cdot120\\).</p><p><strong>Svar:</strong> \\(154\\) m</p></li></ol>",
+    "id": "5.423",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.28,
+      153.6
+    ],
+    "tolerans": [
+      0.051,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En astronaut (75 kg) har tappat linan och är i vila relativt rymdskeppet. Han kastar en syrgastub (12 kg) bort från skeppet med 8,00 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart får astronauten?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En astronaut (75 kg) har tappat linan och är i vila relativt rymdskeppet. Han kastar en syrgastub (12 kg) bort från skeppet med 8,00 m/s.</p><p>Vilken fart får astronauten?</p>",
+        "s": "<p>\\(v=\\dfrac{12\\cdot8{,}00}{75}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) m/s</p>",
+        "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Han har syre för 2,00 minuter. Hur långt från skeppet får han högst vara?",
+        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En astronaut (75 kg) har tappat linan och är i vila relativt rymdskeppet. Han kastar en syrgastub (12 kg) bort från skeppet med 8,00 m/s.</p>Astronauten får farten 1,28 m/s.<p>Han har syre för 2,00 minuter. Hur långt från skeppet får han högst vara?</p>",
+        "s": "<p>\\(s=1{,}28\\cdot120\\).</p><p><strong>Svar:</strong> \\(154\\) m</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Rekyl.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "två astronauter skjuter ifrån",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Två astronauter (55 kg och 85 kg) skjuter ifrån varandra. Hur långt från varandra är de när den lättare har rört sig 12 m?</p>",
+    "s": "<p>Farterna är omvänt proportionella mot massorna: den tyngre rör sig \\(12\\cdot\\dfrac{55}{85}\\) m. Avstånd: \\(12+7{,}8\\).</p><p><strong>Svar:</strong> \\(20\\) m</p>",
+    "id": "5.424",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 19.764705882352942,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Samma tid, olika fart.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "skridskoåkare mot sargen",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Två skridskoåkare (50 kg och 75 kg) står mitt i en cirkulär isrink med diametern 60 m och skjuter ifrån varandra. Den tyngre når sargen efter 20 s. När når den lättare sargen?</p>",
+    "s": "<p>Tyngre: \\(v=\\dfrac{30}{20}=1{,}5\\) m/s. Lättare: \\(v=1{,}5\\cdot\\dfrac{75}{50}=2{,}25\\) m/s. \\(t=\\dfrac{30}{2{,}25}\\).</p><p><strong>Svar:</strong> \\(13\\) s</p>",
+    "id": "5.425",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.333333333333334,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm den tyngres fart först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "skridskoåkare krockar",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En skridskoåkare (70 kg) åker med 2,00 m/s åt vänster och en annan (65 kg) med 2,50 m/s åt höger. De krockar och håller fast i varandra.</p><ol type=\"a\"><li>Vilken fart får de (positiv åt höger)?</li><li>Friktionstalet är 0,05. Hur lång tid tar det innan de stannar?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=\\dfrac{65\\cdot2{,}50-70\\cdot2{,}00}{135}\\).</p><p><strong>Svar:</strong> \\(0{,}17\\) m/s</p></li><li><p>\\(t=\\dfrac{v}{\\mu g}\\).</p><p><strong>Svar:</strong> \\(0{,}34\\) s</p></li></ol>",
+    "id": "5.426",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Stötar där kropparna fastnar",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.16666666666666666,
+      0.3394433129667345
+    ],
+    "tolerans": [
+      0.0051,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En skridskoåkare (70 kg) åker med 2,00 m/s åt vänster och en annan (65 kg) med 2,50 m/s åt höger. De krockar och håller fast i varandra.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fart får de (positiv åt höger)?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En skridskoåkare (70 kg) åker med 2,00 m/s åt vänster och en annan (65 kg) med 2,50 m/s åt höger. De krockar och håller fast i varandra.</p><p>Vilken fart får de (positiv åt höger)?</p>",
+        "s": "<p>\\(v=\\dfrac{65\\cdot2{,}50-70\\cdot2{,}00}{135}\\).</p><p><strong>Svar:</strong> \\(0{,}17\\) m/s</p>",
+        "ledtrad": "<p>Tänk på riktningarna.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Friktionstalet är 0,05. Hur lång tid tar det innan de stannar?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En skridskoåkare (70 kg) åker med 2,00 m/s åt vänster och en annan (65 kg) med 2,50 m/s åt höger. De krockar och håller fast i varandra.</p>Farten efter krocken är 0,167 m/s.<p>Friktionstalet är 0,05. Hur lång tid tar det innan de stannar?</p>",
+        "s": "<p>\\(t=\\dfrac{v}{\\mu g}\\).</p><p><strong>Svar:</strong> \\(0{,}34\\) s</p>",
+        "ledtrad": "<p>Impulslagen med friktionskraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Rörelsemängden bevaras vid krocken.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "kasta en bok på isen",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Wayne (75 kg) står mitt på en friktionsfri, cirkulär isyta med radien 5,0 m. Han kastar en bok (1,2 kg) norrut med 5,0 m/s. Hur lång tid tar det innan han når kanten?</p>",
+    "s": "<p>\\(v=\\dfrac{1{,}2\\cdot5{,}0}{75}=0{,}080\\) m/s söderut. \\(t=\\dfrac{5{,}0}{0{,}080}\\).</p><p><strong>Svar:</strong> \\(62\\) s</p>",
+    "id": "5.427",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 62.5,
+    "tolerans": 0.938,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm hans rekylfart.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "s",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "alfasönderfall i rörelse",
+    "poang": "(0/1/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En atomkärna (222,0 u) rör sig med 320 m/s och skickar ut en alfapartikel (4,0 u) rakt framåt. Dotterkärnan (218,0 u) får farten 280 m/s. Vilken fart får alfapartikeln?</p>",
+    "s": "<p>\\(222{,}0\\cdot320=218{,}0\\cdot280+4{,}0v\\).</p><p><strong>Svar:</strong> \\(2\\,500\\) m/s</p>",
+    "id": "5.428",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2500.0,
+    "tolerans": 51.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Massenheten u tar ut sig.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "E",
+    "typ": "uranets alfasönderfall",
+    "poang": "(1/0/0)",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En urankärna (238,0 u) i vila skickar ut en alfapartikel (4,0 u) med 5,0 % av ljusets fart (\\(c=3{,}00\\cdot10^8\\) m/s). Vilken fart får dotterkärnan (234,0 u)?</p>",
+    "s": "<p>\\(234{,}0v=4{,}0\\cdot0{,}050\\cdot3{,}00\\cdot10^8\\).</p><p><strong>Svar:</strong> \\(2{,}6\\cdot10^{5}\\) m/s</p>",
+    "id": "5.429",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekyl och isärskjutning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 256410.2564102564,
+    "tolerans": 5100.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "8.387",

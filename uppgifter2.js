@@ -7259,6 +7259,1879 @@ window.BANK2 = [
     "familjNyckel": "svangningar__fjaderoscillatorn"
   },
   {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "kula med given svängningsekvation",
+    "poang": "(3/2/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En kula med massan 50 g svänger i en fjäder enligt \\(y=0{,}020\\sin(10t)\\) (SI-enheter).</p><ol type=\"a\"><li>Beräkna perioden.</li><li>Beräkna fjäderkonstanten.</li><li>Beräkna kulans totala energi.</li><li>Beräkna elongationen vid \\(t=0{,}40\\) s.</li><li>Beräkna hastigheten vid \\(t=0{,}40\\) s.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\omega=10\\) rad/s. \\(T=\\dfrac{2\\pi}{10}\\).</p><p><strong>Svar:</strong> \\(0{,}63\\) s</p></li><li><p>\\(k=m\\omega^2=0{,}050\\cdot10^2\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) N/m</p></li><li><p>\\(E=\\dfrac{kA^2}{2}=\\dfrac{5{,}0\\cdot0{,}020^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0010\\) J</p></li><li><p>\\(y=0{,}020\\sin4{,}0\\) (radianer).</p><p><strong>Svar:</strong> \\(-0{,}015\\) m</p></li><li><p>\\(v=0{,}020\\cdot10\\cos4{,}0\\).</p><p><strong>Svar:</strong> \\(-0{,}13\\) m/s</p></li></ol>",
+    "id": "2.507",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6283185307179586,
+      5,
+      0.001,
+      -0.015136049906158565,
+      -0.13072872417272238
+    ],
+    "tolerans": [
+      0.00942,
+      0.075,
+      5.1e-05,
+      0.00051,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "svarEnhet": [
+      "s",
+      "N/m",
+      "J",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En kula med massan 50 g svänger i en fjäder enligt \\(y=0{,}020\\sin(10t)\\) (SI-enheter).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna perioden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En kula med massan 50 g svänger i en fjäder enligt \\(y=0{,}020\\sin(10t)\\) (SI-enheter).</p><p>Beräkna perioden.</p>",
+        "s": "<p>\\(\\omega=10\\) rad/s. \\(T=\\dfrac{2\\pi}{10}\\).</p><p><strong>Svar:</strong> \\(0{,}63\\) s</p>",
+        "ledtrad": "<p>\\(T=\\dfrac{2\\pi}\\omega\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna fjäderkonstanten.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En kula med massan 50 g svänger i en fjäder enligt \\(y=0{,}020\\sin(10t)\\) (SI-enheter).</p><p>Beräkna fjäderkonstanten.</p>",
+        "s": "<p>\\(k=m\\omega^2=0{,}050\\cdot10^2\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) N/m</p>",
+        "ledtrad": "<p>\\(\\omega^2=\\dfrac km\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna kulans totala energi.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En kula med massan 50 g svänger i en fjäder enligt \\(y=0{,}020\\sin(10t)\\) (SI-enheter).</p>Fjäderkonstanten är 5,0 N/m.<p>Beräkna kulans totala energi.</p>",
+        "s": "<p>\\(E=\\dfrac{kA^2}{2}=\\dfrac{5{,}0\\cdot0{,}020^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0010\\) J</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{kA^2}2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Beräkna elongationen vid \\(t=0{,}40\\) s.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En kula med massan 50 g svänger i en fjäder enligt \\(y=0{,}020\\sin(10t)\\) (SI-enheter).</p><p>Beräkna elongationen vid \\(t=0{,}40\\) s.</p>",
+        "s": "<p>\\(y=0{,}020\\sin4{,}0\\) (radianer).</p><p><strong>Svar:</strong> \\(-0{,}015\\) m</p>",
+        "ledtrad": "<p>Räknaren ska stå i radianer.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "e",
+        "fraga": "Beräkna hastigheten vid \\(t=0{,}40\\) s.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En kula med massan 50 g svänger i en fjäder enligt \\(y=0{,}020\\sin(10t)\\) (SI-enheter).</p><p>Beräkna hastigheten vid \\(t=0{,}40\\) s.</p>",
+        "s": "<p>\\(v=0{,}020\\cdot10\\cos4{,}0\\).</p><p><strong>Svar:</strong> \\(-0{,}13\\) m/s</p>",
+        "ledtrad": "<p>\\(v=A\\omega\\cos\\omega t\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Jämför med \\(y=A\\sin\\omega t\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "energi i svängande vikt",
+    "poang": "(3/2/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 1,15 kg svänger i en fjäder enligt \\(y=0{,}650\\sin(8{,}40t)\\) (SI-enheter).</p><ol type=\"a\"><li>Bestäm frekvensen.</li><li>Beräkna viktens totala energi.</li><li>Beräkna rörelseenergin när elongationen är 0,360 m.</li><li>Beräkna accelerationen i nedre vändläget.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f=\\dfrac{8{,}40}{2\\pi}\\).</p><p><strong>Svar:</strong> \\(1{,}34\\) Hz</p></li><li><p>\\(v_{max}=0{,}650\\cdot8{,}40=5{,}46\\) m/s. \\(E=\\dfrac{1{,}15\\cdot5{,}46^2}{2}\\).</p><p><strong>Svar:</strong> \\(17{,}1\\) J</p></li><li><p>\\(k=m\\omega^2\\approx81{,}1\\) N/m. \\(E_k=E-\\dfrac{ky^2}{2}=17{,}1-\\dfrac{81{,}1\\cdot0{,}360^2}{2}\\).</p><p><strong>Svar:</strong> \\(11{,}9\\) J</p></li><li><p>\\(a=\\omega^2A=8{,}40^2\\cdot0{,}650\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(45{,}9\\) m/s²</p></li></ol>",
+    "id": "2.508",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.336901521971921,
+      17.141670000000005,
+      11.883538800000006,
+      45.864000000000004
+    ],
+    "tolerans": [
+      0.0201,
+      0.257,
+      0.178,
+      0.688
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "J",
+      "J",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 1,15 kg svänger i en fjäder enligt \\(y=0{,}650\\sin(8{,}40t)\\) (SI-enheter).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm frekvensen.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 1,15 kg svänger i en fjäder enligt \\(y=0{,}650\\sin(8{,}40t)\\) (SI-enheter).</p><p>Bestäm frekvensen.</p>",
+        "s": "<p>\\(f=\\dfrac{8{,}40}{2\\pi}\\).</p><p><strong>Svar:</strong> \\(1{,}34\\) Hz</p>",
+        "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna viktens totala energi.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 1,15 kg svänger i en fjäder enligt \\(y=0{,}650\\sin(8{,}40t)\\) (SI-enheter).</p><p>Beräkna viktens totala energi.</p>",
+        "s": "<p>\\(v_{max}=0{,}650\\cdot8{,}40=5{,}46\\) m/s. \\(E=\\dfrac{1{,}15\\cdot5{,}46^2}{2}\\).</p><p><strong>Svar:</strong> \\(17{,}1\\) J</p>",
+        "ledtrad": "<p>Totala energin är största rörelseenergin.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna rörelseenergin när elongationen är 0,360 m.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 1,15 kg svänger i en fjäder enligt \\(y=0{,}650\\sin(8{,}40t)\\) (SI-enheter).</p>Den totala energin är 17,1 J.<p>Beräkna rörelseenergin när elongationen är 0,360 m.</p>",
+        "s": "<p>\\(k=m\\omega^2\\approx81{,}1\\) N/m. \\(E_k=E-\\dfrac{ky^2}{2}=17{,}1-\\dfrac{81{,}1\\cdot0{,}360^2}{2}\\).</p><p><strong>Svar:</strong> \\(11{,}9\\) J</p>",
+        "ledtrad": "<p>Dra av fjäderenergin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Beräkna accelerationen i nedre vändläget.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 1,15 kg svänger i en fjäder enligt \\(y=0{,}650\\sin(8{,}40t)\\) (SI-enheter).</p><p>Beräkna accelerationen i nedre vändläget.</p>",
+        "s": "<p>\\(a=\\omega^2A=8{,}40^2\\cdot0{,}650\\), riktad uppåt.</p><p><strong>Svar:</strong> \\(45{,}9\\) m/s²</p>",
+        "ledtrad": "<p>\\(a=-\\omega^2y\\) med \\(y=-A\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Energin växlar mellan rörelseenergi och fjäderenergi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "svängning ur hastighetsekvation",
+    "poang": "(4/0/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,50 kg svänger i en fjäder. Hastigheten är \\(v=0{,}036\\cos(4{,}71t)\\) (SI-enheter).</p><ol type=\"a\"><li>Bestäm perioden.</li><li>Bestäm amplituden.</li><li>Bestäm största accelerationen.</li><li>Bestäm fjäderkonstanten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{2\\pi}{4{,}71}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) s</p></li><li><p>\\(A=\\dfrac{v_{max}}{\\omega}=\\dfrac{0{,}036}{4{,}71}\\).</p><p><strong>Svar:</strong> \\(0{,}0076\\) m</p></li><li><p>\\(a_{max}=v_{max}\\omega=0{,}036\\cdot4{,}71\\).</p><p><strong>Svar:</strong> \\(0{,}17\\) m/s²</p></li><li><p>\\(k=m\\omega^2=0{,}50\\cdot4{,}71^2\\).</p><p><strong>Svar:</strong> \\(11\\) N/m</p></li></ol>",
+    "id": "2.509",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.3340096193587232,
+      0.007643312101910827,
+      0.16956,
+      11.09205
+    ],
+    "tolerans": [
+      0.051,
+      0.000115,
+      0.0051,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "m/s²",
+      "N/m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,50 kg svänger i en fjäder. Hastigheten är \\(v=0{,}036\\cos(4{,}71t)\\) (SI-enheter).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm perioden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,50 kg svänger i en fjäder. Hastigheten är \\(v=0{,}036\\cos(4{,}71t)\\) (SI-enheter).</p><p>Bestäm perioden.</p>",
+        "s": "<p>\\(T=\\dfrac{2\\pi}{4{,}71}\\).</p><p><strong>Svar:</strong> \\(1{,}3\\) s</p>",
+        "ledtrad": "<p>\\(\\omega=4{,}71\\) rad/s.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,50 kg svänger i en fjäder. Hastigheten är \\(v=0{,}036\\cos(4{,}71t)\\) (SI-enheter).</p><p>Bestäm amplituden.</p>",
+        "s": "<p>\\(A=\\dfrac{v_{max}}{\\omega}=\\dfrac{0{,}036}{4{,}71}\\).</p><p><strong>Svar:</strong> \\(0{,}0076\\) m</p>",
+        "ledtrad": "<p>\\(v_{max}=A\\omega\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm största accelerationen.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,50 kg svänger i en fjäder. Hastigheten är \\(v=0{,}036\\cos(4{,}71t)\\) (SI-enheter).</p><p>Bestäm största accelerationen.</p>",
+        "s": "<p>\\(a_{max}=v_{max}\\omega=0{,}036\\cdot4{,}71\\).</p><p><strong>Svar:</strong> \\(0{,}17\\) m/s²</p>",
+        "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Bestäm fjäderkonstanten.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,50 kg svänger i en fjäder. Hastigheten är \\(v=0{,}036\\cos(4{,}71t)\\) (SI-enheter).</p><p>Bestäm fjäderkonstanten.</p>",
+        "s": "<p>\\(k=m\\omega^2=0{,}50\\cdot4{,}71^2\\).</p><p><strong>Svar:</strong> \\(11\\) N/m</p>",
+        "ledtrad": "<p>\\(\\omega^2=\\dfrac km\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Jämför med \\(v=A\\omega\\cos\\omega t\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "svängning med fasförskjutning",
+    "poang": "(1/3/2)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger enligt \\(y=0{,}074\\sin(4{,}16t-2{,}42)\\) (SI-enheter, vinklar i radianer). Mätningen startar vid \\(t=0\\).</p><ol type=\"a\"><li>Var befinner sig vikten när mätningen startar?</li><li>Vilken hastighet har vikten då?</li><li>När når vikten jämviktsläget första gången?</li><li>När når vikten övre vändläget första gången?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(y(0)=0{,}074\\sin(-2{,}42)\\), alltså under jämviktsläget.</p><p><strong>Svar:</strong> \\(-0{,}049\\) m</p></li><li><p>\\(v(0)=0{,}074\\cdot4{,}16\\cos(-2{,}42)\\).</p><p><strong>Svar:</strong> \\(-0{,}23\\) m/s</p></li><li><p>Vikten rör sig nedåt och vänder. Nästa nollställe: \\(4{,}16t-2{,}42=0\\).</p><p><strong>Svar:</strong> \\(0{,}58\\) s</p></li><li><p>\\(4{,}16t-2{,}42=\\dfrac\\pi2\\).</p><p><strong>Svar:</strong> \\(0{,}96\\) s</p></li></ol>",
+    "id": "2.510",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -0.04888300889466085,
+      -0.23111229751869514,
+      0.5817307692307692,
+      0.9593260400949271
+    ],
+    "tolerans": [
+      0.000733,
+      0.0051,
+      0.00873,
+      0.0144
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger enligt \\(y=0{,}074\\sin(4{,}16t-2{,}42)\\) (SI-enheter, vinklar i radianer). Mätningen startar vid \\(t=0\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Var befinner sig vikten när mätningen startar?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger enligt \\(y=0{,}074\\sin(4{,}16t-2{,}42)\\) (SI-enheter, vinklar i radianer). Mätningen startar vid \\(t=0\\).</p><p>Var befinner sig vikten när mätningen startar?</p>",
+        "s": "<p>\\(y(0)=0{,}074\\sin(-2{,}42)\\), alltså under jämviktsläget.</p><p><strong>Svar:</strong> \\(-0{,}049\\) m</p>",
+        "ledtrad": "<p>Sätt \\(t=0\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken hastighet har vikten då?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger enligt \\(y=0{,}074\\sin(4{,}16t-2{,}42)\\) (SI-enheter, vinklar i radianer). Mätningen startar vid \\(t=0\\).</p><p>Vilken hastighet har vikten då?</p>",
+        "s": "<p>\\(v(0)=0{,}074\\cdot4{,}16\\cos(-2{,}42)\\).</p><p><strong>Svar:</strong> \\(-0{,}23\\) m/s</p>",
+        "ledtrad": "<p>Derivera.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "När når vikten jämviktsläget första gången?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger enligt \\(y=0{,}074\\sin(4{,}16t-2{,}42)\\) (SI-enheter, vinklar i radianer). Mätningen startar vid \\(t=0\\).</p><p>När når vikten jämviktsläget första gången?</p>",
+        "s": "<p>Vikten rör sig nedåt och vänder. Nästa nollställe: \\(4{,}16t-2{,}42=0\\).</p><p><strong>Svar:</strong> \\(0{,}58\\) s</p>",
+        "ledtrad": "<p>Lös \\(\\sin(4{,}16t-2{,}42)=0\\) för första \\(t>0\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "När når vikten övre vändläget första gången?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger enligt \\(y=0{,}074\\sin(4{,}16t-2{,}42)\\) (SI-enheter, vinklar i radianer). Mätningen startar vid \\(t=0\\).</p><p>När når vikten övre vändläget första gången?</p>",
+        "s": "<p>\\(4{,}16t-2{,}42=\\dfrac\\pi2\\).</p><p><strong>Svar:</strong> \\(0{,}96\\) s</p>",
+        "ledtrad": "<p>Övre vändläget: \\(\\sin=1\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/1)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Räkna i radianer.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "vikt framför linjal",
+    "poang": "(3/0/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt i en fjäder rör sig mellan markeringarna 10 cm och 60 cm på en linjal och gör 10 hela svängningar på 33 s.</p><ol type=\"a\"><li>Bestäm perioden.</li><li>Bestäm amplituden.</li><li>Bestäm viktens största fart.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{33}{10}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) s</p></li><li><p>\\(A=\\dfrac{60-10}{2}\\) cm.</p><p><strong>Svar:</strong> \\(0{,}25\\) m</p></li><li><p>\\(v_{max}=A\\omega=0{,}25\\cdot\\dfrac{2\\pi}{3{,}3}\\).</p><p><strong>Svar:</strong> \\(0{,}48\\) m/s</p></li></ol>",
+    "id": "2.511",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.3,
+      0.25,
+      0.47599888690754444
+    ],
+    "tolerans": [
+      0.051,
+      0.0051,
+      0.00714
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt i en fjäder rör sig mellan markeringarna 10 cm och 60 cm på en linjal och gör 10 hela svängningar på 33 s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm perioden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt i en fjäder rör sig mellan markeringarna 10 cm och 60 cm på en linjal och gör 10 hela svängningar på 33 s.</p><p>Bestäm perioden.</p>",
+        "s": "<p>\\(T=\\dfrac{33}{10}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) s</p>",
+        "ledtrad": "<p>Tid delat med antal svängningar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt i en fjäder rör sig mellan markeringarna 10 cm och 60 cm på en linjal och gör 10 hela svängningar på 33 s.</p><p>Bestäm amplituden.</p>",
+        "s": "<p>\\(A=\\dfrac{60-10}{2}\\) cm.</p><p><strong>Svar:</strong> \\(0{,}25\\) m</p>",
+        "ledtrad": "<p>Halva avståndet mellan vändlägena.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm viktens största fart.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt i en fjäder rör sig mellan markeringarna 10 cm och 60 cm på en linjal och gör 10 hela svängningar på 33 s.</p><p>Bestäm viktens största fart.</p>",
+        "s": "<p>\\(v_{max}=A\\omega=0{,}25\\cdot\\dfrac{2\\pi}{3{,}3}\\).</p><p><strong>Svar:</strong> \\(0{,}48\\) m/s</p>",
+        "ledtrad": "<p>\\(v_{max}=A\\omega\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(v_{max}=A\\omega\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "amplitud ur största fart",
+    "poang": "(1/0/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En kloss på ett friktionsfritt bord svänger i en vågrät fjäder med perioden 2,0 s. Största farten är 40 cm/s. Bestäm amplituden.</p>",
+    "s": "<p>\\(A=\\dfrac{v_{max}}{\\omega}=\\dfrac{0{,}40}{\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}13\\) m</p>",
+    "id": "2.512",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.12732395447351627,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(v_{max}=A\\omega\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "svängande hustak vid jordbävning",
+    "poang": "(2/0/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Taket på ett höghus svänger med frekvensen 1,2 Hz och amplituden 30 cm.</p><ol type=\"a\"><li>Bestäm takets största fart.</li><li>Bestäm takets största acceleration.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v_{max}=2\\pi\\cdot1{,}2\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s</p></li><li><p>\\(a_{max}=(2\\pi\\cdot1{,}2)^2\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(17\\) m/s²</p></li></ol>",
+    "id": "2.513",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.261946710584651,
+      17.05467640508241
+    ],
+    "tolerans": [
+      0.051,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Taket på ett höghus svänger med frekvensen 1,2 Hz och amplituden 30 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm takets största fart.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Taket på ett höghus svänger med frekvensen 1,2 Hz och amplituden 30 cm.</p><p>Bestäm takets största fart.</p>",
+        "s": "<p>\\(v_{max}=2\\pi\\cdot1{,}2\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(2{,}3\\) m/s</p>",
+        "ledtrad": "<p>\\(v_{max}=A\\omega\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm takets största acceleration.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Taket på ett höghus svänger med frekvensen 1,2 Hz och amplituden 30 cm.</p><p>Bestäm takets största acceleration.</p>",
+        "s": "<p>\\(a_{max}=(2\\pi\\cdot1{,}2)^2\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(17\\) m/s²</p>",
+        "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+    "traningsniva": 1,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "bil på ojämn väg",
+    "poang": "(2/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En bil studsar upp och ned med frekvensen 1,3 Hz. Den största accelerationen är 0,20 m/s².</p><ol type=\"a\"><li>Bestäm amplituden.</li><li>Bestäm största farten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(A=\\dfrac{a_{max}}{\\omega^2}=\\dfrac{0{,}20}{(2\\pi\\cdot1{,}3)^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0030\\) m</p></li><li><p>\\(v_{max}=\\dfrac{a_{max}}{\\omega}\\).</p><p><strong>Svar:</strong> \\(0{,}024\\) m/s</p></li></ol>",
+    "id": "2.514",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.0029976681550987513,
+      0.02448537586029159
+    ],
+    "tolerans": [
+      5.1e-05,
+      0.00051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En bil studsar upp och ned med frekvensen 1,3 Hz. Den största accelerationen är 0,20 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En bil studsar upp och ned med frekvensen 1,3 Hz. Den största accelerationen är 0,20 m/s².</p><p>Bestäm amplituden.</p>",
+        "s": "<p>\\(A=\\dfrac{a_{max}}{\\omega^2}=\\dfrac{0{,}20}{(2\\pi\\cdot1{,}3)^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0030\\) m</p>",
+        "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm största farten.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En bil studsar upp och ned med frekvensen 1,3 Hz. Den största accelerationen är 0,20 m/s².</p><p>Bestäm största farten.</p>",
+        "s": "<p>\\(v_{max}=\\dfrac{a_{max}}{\\omega}\\).</p><p><strong>Svar:</strong> \\(0{,}024\\) m/s</p>",
+        "ledtrad": "<p>\\(v_{max}=A\\omega\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "höghus i blåst",
+    "poang": "(0/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Toppen på ett 152 m högt hus svänger med frekvensen 0,17 Hz. Den största accelerationen är 2,0 % av \\(g=9{,}82\\) m/s². Bestäm amplituden.</p>",
+    "s": "<p>\\(A=\\dfrac{0{,}020\\cdot9{,}82}{(2\\pi\\cdot0{,}17)^2}\\).</p><p><strong>Svar:</strong> \\(0{,}17\\) m</p>",
+    "id": "2.515",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.1721408344926915,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "symaskinsnål",
+    "poang": "(1/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En symaskinsnål rör sig harmoniskt mellan två vändlägen 8,4 mm från varandra och gör 24 stygn på 9,0 s. Hur stor är nålens största fart?</p>",
+    "s": "<p>\\(A=4{,}2\\) mm, \\(f=\\dfrac{24}{9{,}0}\\). \\(v_{max}=2\\pi fA\\).</p><p><strong>Svar:</strong> \\(0{,}070\\) m/s</p>",
+    "id": "2.516",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.07037167544041135,
+    "tolerans": 0.00106,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ett stygn är en svängning.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m/s",
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "stämgaffel",
+    "poang": "(2/0/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En stämgaffel med frekvensen 440,0 Hz slås an. Avståndet mellan skänklarnas vändlägen är 2,24 mm.</p><ol type=\"a\"><li>Bestäm skänklarnas största fart.</li><li>Bestäm skänklarnas största acceleration.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(A=1{,}12\\) mm. \\(v_{max}=2\\pi\\cdot440{,}0\\cdot1{,}12\\cdot10^{-3}\\).</p><p><strong>Svar:</strong> \\(3{,}10\\) m/s</p></li><li><p>\\(a_{max}=\\omega^2A\\).</p><p><strong>Svar:</strong> \\(8\\,560\\) m/s²</p></li></ol>",
+    "id": "2.517",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.0963537193781,
+      8560.18424598803
+    ],
+    "tolerans": [
+      0.0464,
+      128.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En stämgaffel med frekvensen 440,0 Hz slås an. Avståndet mellan skänklarnas vändlägen är 2,24 mm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm skänklarnas största fart.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En stämgaffel med frekvensen 440,0 Hz slås an. Avståndet mellan skänklarnas vändlägen är 2,24 mm.</p><p>Bestäm skänklarnas största fart.</p>",
+        "s": "<p>\\(A=1{,}12\\) mm. \\(v_{max}=2\\pi\\cdot440{,}0\\cdot1{,}12\\cdot10^{-3}\\).</p><p><strong>Svar:</strong> \\(3{,}10\\) m/s</p>",
+        "ledtrad": "<p>Amplituden är halva avståndet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm skänklarnas största acceleration.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En stämgaffel med frekvensen 440,0 Hz slås an. Avståndet mellan skänklarnas vändlägen är 2,24 mm.</p><p>Bestäm skänklarnas största acceleration.</p>",
+        "s": "<p>\\(a_{max}=\\omega^2A\\).</p><p><strong>Svar:</strong> \\(8\\,560\\) m/s²</p>",
+        "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "tid till vändläget",
+    "poang": "(1/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,235 kg svänger i en fjäder med fjäderkonstanten 305 N/m. Den startar i jämviktsläget med rörelse uppåt.</p><ol type=\"a\"><li>Bestäm vinkelhastigheten.</li><li>När når vikten övre vändläget första gången?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\omega=\\sqrt{\\dfrac{305}{0{,}235}}\\).</p><p><strong>Svar:</strong> \\(36{,}0\\) rad/s</p></li><li><p>En fjärdedels period: \\(t=\\dfrac{\\pi}{2\\omega}\\).</p><p><strong>Svar:</strong> \\(0{,}0436\\) s</p></li></ol>",
+    "id": "2.518",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      36.02599534260687,
+      0.04360174679024517
+    ],
+    "tolerans": [
+      0.54,
+      0.000654
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "rad/s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,235 kg svänger i en fjäder med fjäderkonstanten 305 N/m. Den startar i jämviktsläget med rörelse uppåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vinkelhastigheten.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,235 kg svänger i en fjäder med fjäderkonstanten 305 N/m. Den startar i jämviktsläget med rörelse uppåt.</p><p>Bestäm vinkelhastigheten.</p>",
+        "s": "<p>\\(\\omega=\\sqrt{\\dfrac{305}{0{,}235}}\\).</p><p><strong>Svar:</strong> \\(36{,}0\\) rad/s</p>",
+        "ledtrad": "<p>\\(\\omega=\\sqrt{\\dfrac km}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "När når vikten övre vändläget första gången?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 0,235 kg svänger i en fjäder med fjäderkonstanten 305 N/m. Den startar i jämviktsläget med rörelse uppåt.</p>\\(\\omega=36{,}0\\) rad/s.<p>När når vikten övre vändläget första gången?</p>",
+        "s": "<p>En fjärdedels period: \\(t=\\dfrac{\\pi}{2\\omega}\\).</p><p><strong>Svar:</strong> \\(0{,}0436\\) s</p>",
+        "ledtrad": "<p>Hur stor del av en period?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Amplituden påverkar inte tiderna.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "tid mellan två lägen",
+    "poang": "(0/2/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger med perioden 0,900 s och amplituden 0,320 m. Vid \\(t=0\\) är den i jämviktsläget på väg uppåt.</p><ol type=\"a\"><li>Hur lång tid tar det från \\(y=0\\) till \\(y=0{,}160\\) m?</li><li>Hur lång tid tar det från \\(y=0{,}160\\) m till \\(y=0{,}320\\) m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\sin\\omega t=0{,}5\\iff\\omega t=\\dfrac\\pi6\\), alltså \\(t=\\dfrac{T}{12}\\).</p><p><strong>Svar:</strong> \\(0{,}0750\\) s</p></li><li><p>\\(\\dfrac T4-\\dfrac{T}{12}=\\dfrac T6\\).</p><p><strong>Svar:</strong> \\(0{,}150\\) s</p></li></ol>",
+    "id": "2.519",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.075,
+      0.15
+    ],
+    "tolerans": [
+      0.00112,
+      0.00225
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger med perioden 0,900 s och amplituden 0,320 m. Vid \\(t=0\\) är den i jämviktsläget på väg uppåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid tar det från \\(y=0\\) till \\(y=0{,}160\\) m?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger med perioden 0,900 s och amplituden 0,320 m. Vid \\(t=0\\) är den i jämviktsläget på väg uppåt.</p><p>Hur lång tid tar det från \\(y=0\\) till \\(y=0{,}160\\) m?</p>",
+        "s": "<p>\\(\\sin\\omega t=0{,}5\\iff\\omega t=\\dfrac\\pi6\\), alltså \\(t=\\dfrac{T}{12}\\).</p><p><strong>Svar:</strong> \\(0{,}0750\\) s</p>",
+        "ledtrad": "<p>Lös \\(0{,}320\\sin\\omega t=0{,}160\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det från \\(y=0{,}160\\) m till \\(y=0{,}320\\) m?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En vikt svänger med perioden 0,900 s och amplituden 0,320 m. Vid \\(t=0\\) är den i jämviktsläget på väg uppåt.</p><p>Hur lång tid tar det från \\(y=0{,}160\\) m till \\(y=0{,}320\\) m?</p>",
+        "s": "<p>\\(\\dfrac T4-\\dfrac{T}{12}=\\dfrac T6\\).</p><p><strong>Svar:</strong> \\(0{,}150\\) s</p>",
+        "ledtrad": "<p>Vändläget nås efter \\(\\dfrac T4\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Rörelsen är långsammast nära vändlägena.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "frekvens ur elongation och acceleration",
+    "poang": "(0/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>När elongationen är 0,280 m är accelerationen −5,30 m/s². Bestäm frekvensen.</p>",
+    "s": "<p>\\(\\omega^2=\\dfrac{5{,}30}{0{,}280}\\). \\(f=\\dfrac{\\omega}{2\\pi}\\).</p><p><strong>Svar:</strong> \\(0{,}692\\) Hz</p>",
+    "id": "2.520",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6924350622624106,
+    "tolerans": 0.0104,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(a=-\\omega^2y\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "Hz",
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "fjäderkonstant och rörelseenergi",
+    "poang": "(2/0/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 240 g svänger med amplituden 4,5 cm och frekvensen 2,5 Hz.</p><ol type=\"a\"><li>Beräkna fjäderkonstanten.</li><li>Hur stor rörelseenergi har vikten i jämviktsläget?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(k=m\\omega^2=0{,}240(2\\pi\\cdot2{,}5)^2\\).</p><p><strong>Svar:</strong> \\(59\\) N/m</p></li><li><p>\\(E_k=\\dfrac{kA^2}{2}=\\dfrac{59\\cdot0{,}045^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}060\\) J</p></li></ol>",
+    "id": "2.521",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      59.21762640653615,
+      0.059957846736617845
+    ],
+    "tolerans": [
+      0.888,
+      0.000899
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/m",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 240 g svänger med amplituden 4,5 cm och frekvensen 2,5 Hz.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna fjäderkonstanten.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 240 g svänger med amplituden 4,5 cm och frekvensen 2,5 Hz.</p><p>Beräkna fjäderkonstanten.</p>",
+        "s": "<p>\\(k=m\\omega^2=0{,}240(2\\pi\\cdot2{,}5)^2\\).</p><p><strong>Svar:</strong> \\(59\\) N/m</p>",
+        "ledtrad": "<p>\\(\\omega^2=\\dfrac km\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor rörelseenergi har vikten i jämviktsläget?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt med massan 240 g svänger med amplituden 4,5 cm och frekvensen 2,5 Hz.</p>Fjäderkonstanten är 59 N/m.<p>Hur stor rörelseenergi har vikten i jämviktsläget?</p>",
+        "s": "<p>\\(E_k=\\dfrac{kA^2}{2}=\\dfrac{59\\cdot0{,}045^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}060\\) J</p>",
+        "ledtrad": "<p>All energi är rörelseenergi i jämviktsläget.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(E=\\dfrac{kA^2}{2}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "amplitud ur läge och fart",
+    "poang": "(0/2/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>Ett föremål (2,7 kg) hänger i en fjäder (310 N/m). När det är 0,020 m från jämviktsläget är farten 0,55 m/s.</p><ol type=\"a\"><li>Beräkna amplituden.</li><li>Beräkna största farten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{kA^2}{2}=\\dfrac{ky^2}{2}+\\dfrac{mv^2}{2}\\iff A=\\sqrt{y^2+\\dfrac{mv^2}{k}}\\).</p><p><strong>Svar:</strong> \\(0{,}055\\) m</p></li><li><p>\\(v_{max}=A\\omega=A\\sqrt{\\dfrac km}\\).</p><p><strong>Svar:</strong> \\(0{,}59\\) m/s</p></li></ol>",
+    "id": "2.522",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.0550879062894465,
+      0.5902761437885882
+    ],
+    "tolerans": [
+      0.000826,
+      0.00885
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>Ett föremål (2,7 kg) hänger i en fjäder (310 N/m). När det är 0,020 m från jämviktsläget är farten 0,55 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>Ett föremål (2,7 kg) hänger i en fjäder (310 N/m). När det är 0,020 m från jämviktsläget är farten 0,55 m/s.</p><p>Beräkna amplituden.</p>",
+        "s": "<p>\\(\\dfrac{kA^2}{2}=\\dfrac{ky^2}{2}+\\dfrac{mv^2}{2}\\iff A=\\sqrt{y^2+\\dfrac{mv^2}{k}}\\).</p><p><strong>Svar:</strong> \\(0{,}055\\) m</p>",
+        "ledtrad": "<p>Energiprincipen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna största farten.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>Ett föremål (2,7 kg) hänger i en fjäder (310 N/m). När det är 0,020 m från jämviktsläget är farten 0,55 m/s.</p>Amplituden är 5,5 cm.<p>Beräkna största farten.</p>",
+        "s": "<p>\\(v_{max}=A\\omega=A\\sqrt{\\dfrac km}\\).</p><p><strong>Svar:</strong> \\(0{,}59\\) m/s</p>",
+        "ledtrad": "<p>\\(v_{max}=A\\omega\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Den totala energin är konstant.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "kula som slås till",
+    "poang": "(3/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En stålkula (885 g) hänger stilla i en fjäder (184 N/m). Den slås till i jämviktsläget så att den får farten 2,26 m/s uppåt.</p><ol type=\"a\"><li>Beräkna perioden.</li><li>Beräkna amplituden.</li><li>Beräkna största accelerationen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=2\\pi\\sqrt{\\dfrac{0{,}885}{184}}\\).</p><p><strong>Svar:</strong> \\(0{,}436\\) s</p></li><li><p>\\(A=\\dfrac{v_{max}}{\\omega}=\\dfrac{2{,}26}{14{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}157\\) m</p></li><li><p>\\(a_{max}=v_{max}\\omega\\).</p><p><strong>Svar:</strong> \\(32{,}6\\) m/s²</p></li></ol>",
+    "id": "2.523",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4357552138669859,
+      0.15673686755889282,
+      32.5871001478376
+    ],
+    "tolerans": [
+      0.00654,
+      0.00235,
+      0.489
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En stålkula (885 g) hänger stilla i en fjäder (184 N/m). Den slås till i jämviktsläget så att den får farten 2,26 m/s uppåt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna perioden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En stålkula (885 g) hänger stilla i en fjäder (184 N/m). Den slås till i jämviktsläget så att den får farten 2,26 m/s uppåt.</p><p>Beräkna perioden.</p>",
+        "s": "<p>\\(T=2\\pi\\sqrt{\\dfrac{0{,}885}{184}}\\).</p><p><strong>Svar:</strong> \\(0{,}436\\) s</p>",
+        "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En stålkula (885 g) hänger stilla i en fjäder (184 N/m). Den slås till i jämviktsläget så att den får farten 2,26 m/s uppåt.</p><p>Beräkna amplituden.</p>",
+        "s": "<p>\\(A=\\dfrac{v_{max}}{\\omega}=\\dfrac{2{,}26}{14{,}4}\\).</p><p><strong>Svar:</strong> \\(0{,}157\\) m</p>",
+        "ledtrad": "<p>Farten i jämviktsläget är största farten.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Beräkna största accelerationen.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En stålkula (885 g) hänger stilla i en fjäder (184 N/m). Den slås till i jämviktsläget så att den får farten 2,26 m/s uppåt.</p><p>Beräkna största accelerationen.</p>",
+        "s": "<p>\\(a_{max}=v_{max}\\omega\\).</p><p><strong>Svar:</strong> \\(32{,}6\\) m/s²</p>",
+        "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\omega=\\sqrt{\\dfrac km}\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "kolv i motor",
+    "poang": "(2/0/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En kolv i en motor svänger upp och ned med 3 600 varv/min och amplituden 5,00 cm.</p><ol type=\"a\"><li>Bestäm kolvens största fart.</li><li>Bestäm kolvens största acceleration.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f=60{,}0\\) Hz. \\(v_{max}=2\\pi\\cdot60{,}0\\cdot0{,}0500\\).</p><p><strong>Svar:</strong> \\(18{,}8\\) m/s</p></li><li><p>\\(a_{max}=(2\\pi\\cdot60{,}0)^2\\cdot0{,}0500\\).</p><p><strong>Svar:</strong> \\(7\\,106\\) m/s²</p></li></ol>",
+    "id": "2.524",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18.84955592153876,
+      7106.115168784337
+    ],
+    "tolerans": [
+      0.283,
+      107.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En kolv i en motor svänger upp och ned med 3 600 varv/min och amplituden 5,00 cm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm kolvens största fart.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En kolv i en motor svänger upp och ned med 3 600 varv/min och amplituden 5,00 cm.</p><p>Bestäm kolvens största fart.</p>",
+        "s": "<p>\\(f=60{,}0\\) Hz. \\(v_{max}=2\\pi\\cdot60{,}0\\cdot0{,}0500\\).</p><p><strong>Svar:</strong> \\(18{,}8\\) m/s</p>",
+        "ledtrad": "<p>Omvandla varvtalet till frekvens.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm kolvens största acceleration.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En kolv i en motor svänger upp och ned med 3 600 varv/min och amplituden 5,00 cm.</p><p>Bestäm kolvens största acceleration.</p>",
+        "s": "<p>\\(a_{max}=(2\\pi\\cdot60{,}0)^2\\cdot0{,}0500\\).</p><p><strong>Svar:</strong> \\(7\\,106\\) m/s²</p>",
+        "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "skaktest av radio",
+    "poang": "(3/0/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En radio (5,24 kg) skakas med frekvensen 120 Hz och den största accelerationen 98,2 m/s².</p><ol type=\"a\"><li>Bestäm amplituden.</li><li>Bestäm radions största fart.</li><li>Bestäm den största kraften på radion.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(A=\\dfrac{98{,}2}{(2\\pi\\cdot120)^2}\\).</p><p><strong>Svar:</strong> \\(0{,}000173\\) m</p></li><li><p>\\(v_{max}=\\dfrac{a_{max}}{\\omega}\\).</p><p><strong>Svar:</strong> \\(0{,}130\\) m/s</p></li><li><p>\\(F=ma_{max}=5{,}24\\cdot98{,}2\\).</p><p><strong>Svar:</strong> \\(515\\) N</p></li></ol>",
+    "id": "2.525",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.00017273854572356895,
+      0.1302417950968677,
+      514.568
+    ],
+    "tolerans": [
+      2.59e-06,
+      0.00195,
+      7.72
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "N"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En radio (5,24 kg) skakas med frekvensen 120 Hz och den största accelerationen 98,2 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En radio (5,24 kg) skakas med frekvensen 120 Hz och den största accelerationen 98,2 m/s².</p><p>Bestäm amplituden.</p>",
+        "s": "<p>\\(A=\\dfrac{98{,}2}{(2\\pi\\cdot120)^2}\\).</p><p><strong>Svar:</strong> \\(0{,}000173\\) m</p>",
+        "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm radions största fart.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En radio (5,24 kg) skakas med frekvensen 120 Hz och den största accelerationen 98,2 m/s².</p><p>Bestäm radions största fart.</p>",
+        "s": "<p>\\(v_{max}=\\dfrac{a_{max}}{\\omega}\\).</p><p><strong>Svar:</strong> \\(0{,}130\\) m/s</p>",
+        "ledtrad": "<p>\\(v_{max}=A\\omega\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm den största kraften på radion.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En radio (5,24 kg) skakas med frekvensen 120 Hz och den största accelerationen 98,2 m/s².</p><p>Bestäm den största kraften på radion.</p>",
+        "s": "<p>\\(F=ma_{max}=5{,}24\\cdot98{,}2\\).</p><p><strong>Svar:</strong> \\(515\\) N</p>",
+        "ledtrad": "<p>Newtons andra lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "bananer i fjädervåg",
+    "poang": "(0/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En bananklase hänger i en fjädervåg (16 N/m) och svänger med amplituden 20,0 cm och största farten 40 cm/s. Hur mycket väger bananerna?</p>",
+    "s": "<p>\\(\\omega=\\dfrac{0{,}40}{0{,}200}=2{,}0\\) rad/s. \\(m=\\dfrac{k}{\\omega^2}\\).</p><p><strong>Svar:</strong> \\(4{,}0\\) kg</p>",
+    "id": "2.526",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm \\(\\omega\\) först.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "fågelns vingslag",
+    "poang": "(0/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En liten fågels vingar svänger harmoniskt med amplituden 5,0 cm och största accelerationen 12 m/s². Hur många vingslag gör fågeln per minut?</p>",
+    "s": "<p>\\(\\omega=\\sqrt{\\dfrac{12}{0{,}050}}\\approx15{,}5\\) rad/s, \\(f\\approx2{,}47\\) Hz. Per minut: \\(60f\\).</p><p><strong>Svar:</strong> \\(148\\) </p>",
+    "id": "2.527",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 147.93706657475997,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "vikt släpps från ospänd fjäder",
+    "poang": "(0/3/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (250 g) fästs i en hängande ospänd fjäder och släpps. Fjädern förlängs 20 cm innan vikten når nedre vändläget. Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Bestäm amplituden.</li><li>Bestäm fjäderkonstanten.</li><li>Bestäm frekvensen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Vikten svänger mellan 0 och 20 cm, så jämviktsläget ligger vid 10 cm.</p><p><strong>Svar:</strong> \\(0{,}10\\) m</p></li><li><p>I jämviktsläget: \\(k\\cdot0{,}10=0{,}250\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(25\\) N/m</p></li><li><p>\\(f=\\dfrac1{2\\pi}\\sqrt{\\dfrac{24{,}6}{0{,}250}}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) Hz</p></li></ol>",
+    "id": "2.528",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.1,
+      24.55,
+      1.5771604415592575
+    ],
+    "tolerans": [
+      0.0051,
+      0.51,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "N/m",
+      "Hz"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (250 g) fästs i en hängande ospänd fjäder och släpps. Fjädern förlängs 20 cm innan vikten når nedre vändläget. Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (250 g) fästs i en hängande ospänd fjäder och släpps. Fjädern förlängs 20 cm innan vikten når nedre vändläget. Använd \\(g=9{,}82\\) m/s².</p><p>Bestäm amplituden.</p>",
+        "s": "<p>Vikten svänger mellan 0 och 20 cm, så jämviktsläget ligger vid 10 cm.</p><p><strong>Svar:</strong> \\(0{,}10\\) m</p>",
+        "ledtrad": "<p>Var ligger jämviktsläget?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm fjäderkonstanten.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (250 g) fästs i en hängande ospänd fjäder och släpps. Fjädern förlängs 20 cm innan vikten når nedre vändläget. Använd \\(g=9{,}82\\) m/s².</p>Jämviktsläget ligger 10 cm under startläget.<p>Bestäm fjäderkonstanten.</p>",
+        "s": "<p>I jämviktsläget: \\(k\\cdot0{,}10=0{,}250\\cdot9{,}82\\).</p><p><strong>Svar:</strong> \\(25\\) N/m</p>",
+        "ledtrad": "<p>I jämviktsläget är fjäderkraften lika med tyngden.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm frekvensen.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (250 g) fästs i en hängande ospänd fjäder och släpps. Fjädern förlängs 20 cm innan vikten når nedre vändläget. Använd \\(g=9{,}82\\) m/s².</p>Fjäderkonstanten är 24,6 N/m.<p>Bestäm frekvensen.</p>",
+        "s": "<p>\\(f=\\dfrac1{2\\pi}\\sqrt{\\dfrac{24{,}6}{0{,}250}}\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) Hz</p>",
+        "ledtrad": "<p>\\(\\omega=\\sqrt{\\dfrac km}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Startläget och nedre vändläget ligger symmetriskt kring jämviktsläget.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "hjärtats svängning",
+    "poang": "(2/0/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Ett hjärta slår 66 slag per minut med amplituden ungefär 3,0 mm.</p><ol type=\"a\"><li>Beräkna största farten.</li><li>Beräkna största accelerationen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(f=1{,}1\\) Hz. \\(v_{max}=2\\pi\\cdot1{,}1\\cdot0{,}0030\\).</p><p><strong>Svar:</strong> \\(0{,}021\\) m/s</p></li><li><p>\\(a_{max}=(2\\pi\\cdot1{,}1)^2\\cdot0{,}0030\\).</p><p><strong>Svar:</strong> \\(0{,}14\\) m/s²</p></li></ol>",
+    "id": "2.529",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.020734511513692638,
+      0.14330665590381753
+    ],
+    "tolerans": [
+      0.00051,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m/s²"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Ett hjärta slår 66 slag per minut med amplituden ungefär 3,0 mm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna största farten.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Ett hjärta slår 66 slag per minut med amplituden ungefär 3,0 mm.</p><p>Beräkna största farten.</p>",
+        "s": "<p>\\(f=1{,}1\\) Hz. \\(v_{max}=2\\pi\\cdot1{,}1\\cdot0{,}0030\\).</p><p><strong>Svar:</strong> \\(0{,}021\\) m/s</p>",
+        "ledtrad": "<p>Omvandla till frekvens.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna största accelerationen.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Ett hjärta slår 66 slag per minut med amplituden ungefär 3,0 mm.</p><p>Beräkna största accelerationen.</p>",
+        "s": "<p>\\(a_{max}=(2\\pi\\cdot1{,}1)^2\\cdot0{,}0030\\).</p><p><strong>Svar:</strong> \\(0{,}14\\) m/s²</p>",
+        "ledtrad": "<p>\\(a_{max}=A\\omega^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "A",
+    "typ": "frekvens ur utskjuten kloss",
+    "poang": "(0/1/1)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vågrät fjäder trycks ihop 0,0620 m och skjuter iväg en kloss med farten 1,50 m/s på ett friktionsfritt bord. Om klossen i stället fästs i fjädern svänger den. Vilken frekvens får den?</p>",
+    "s": "<p>\\(\\dfrac{kx^2}{2}=\\dfrac{mv^2}{2}\\iff\\sqrt{\\dfrac km}=\\dfrac vx=\\dfrac{1{,}50}{0{,}0620}\\). \\(f=\\dfrac{\\omega}{2\\pi}\\).</p><p><strong>Svar:</strong> \\(3{,}85\\) Hz</p>",
+    "id": "2.530",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.850522816739404,
+    "tolerans": 0.0578,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\omega=\\sqrt{\\dfrac km}\\) kan bestämmas utan att känna \\(k\\) och \\(m\\) var för sig.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "Hz",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "A",
+    "typ": "fjäderkonstant ur två lägen",
+    "poang": "(0/1/1)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En kula (0,60 kg) svänger i en fjäder. Vid elongationen −0,12 m är farten 5,70 m/s och vid −0,23 m är farten 4,80 m/s. Bestäm fjäderkonstanten.</p>",
+    "s": "<p>\\(\\dfrac{ky_1^2}{2}+\\dfrac{mv_1^2}{2}=\\dfrac{ky_2^2}{2}+\\dfrac{mv_2^2}{2}\\iff k=\\dfrac{m(v_1^2-v_2^2)}{y_2^2-y_1^2}\\).</p><p><strong>Svar:</strong> \\(147\\) N/m</p>",
+    "id": "2.531",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 147.27272727272728,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Den totala energin är densamma i båda lägena.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N/m",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "högtalarmembran",
+    "poang": "(1/2/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Ett högtalarmembran med massan 50,0 g svänger med frekvensen 2,0 kHz och amplituden 0,18 mm.</p><ol type=\"a\"><li>Vilken är den största kraften på membranet?</li><li>Hur stor mekanisk energi har membranet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F=mA\\omega^2=0{,}0500\\cdot0{,}18\\cdot10^{-3}(2\\pi\\cdot2\\,000)^2\\).</p><p><strong>Svar:</strong> \\(1\\,421\\) N</p></li><li><p>\\(E=\\dfrac{m(A\\omega)^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}13\\) J</p></li></ol>",
+    "id": "2.532",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1421.2230337568674,
+      0.12791007303811808
+    ],
+    "tolerans": [
+      51.0,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Ett högtalarmembran med massan 50,0 g svänger med frekvensen 2,0 kHz och amplituden 0,18 mm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken är den största kraften på membranet?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Ett högtalarmembran med massan 50,0 g svänger med frekvensen 2,0 kHz och amplituden 0,18 mm.</p><p>Vilken är den största kraften på membranet?</p>",
+        "s": "<p>\\(F=mA\\omega^2=0{,}0500\\cdot0{,}18\\cdot10^{-3}(2\\pi\\cdot2\\,000)^2\\).</p><p><strong>Svar:</strong> \\(1\\,421\\) N</p>",
+        "ledtrad": "<p>\\(F=ma_{max}\\).</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor mekanisk energi har membranet?",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>Ett högtalarmembran med massan 50,0 g svänger med frekvensen 2,0 kHz och amplituden 0,18 mm.</p><p>Hur stor mekanisk energi har membranet?</p>",
+        "s": "<p>\\(E=\\dfrac{m(A\\omega)^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}13\\) J</p>",
+        "ledtrad": "<p>Totala energin är största rörelseenergin.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\omega=2\\pi f\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "E",
+    "typ": "energi ur läge och fart",
+    "poang": "(3/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En leksak (150 g) i en fjäder (300 N/m) har farten 0,300 m/s vid elongationen 0,0120 m.</p><ol type=\"a\"><li>Bestäm den totala energin.</li><li>Bestäm amplituden.</li><li>Bestäm största farten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac{300\\cdot0{,}0120^2}{2}+\\dfrac{0{,}150\\cdot0{,}300^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0284\\) J</p></li><li><p>\\(A=\\sqrt{\\dfrac{2E}{k}}\\).</p><p><strong>Svar:</strong> \\(0{,}0137\\) m</p></li><li><p>\\(v_{max}=\\sqrt{\\dfrac{2E}{m}}\\).</p><p><strong>Svar:</strong> \\(0{,}615\\) m/s</p></li></ol>",
+    "id": "2.533",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.02835,
+      0.01374772708486752,
+      0.6148170459575759
+    ],
+    "tolerans": [
+      0.000425,
+      0.000206,
+      0.00922
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "J",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En leksak (150 g) i en fjäder (300 N/m) har farten 0,300 m/s vid elongationen 0,0120 m.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den totala energin.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En leksak (150 g) i en fjäder (300 N/m) har farten 0,300 m/s vid elongationen 0,0120 m.</p><p>Bestäm den totala energin.</p>",
+        "s": "<p>\\(E=\\dfrac{300\\cdot0{,}0120^2}{2}+\\dfrac{0{,}150\\cdot0{,}300^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0284\\) J</p>",
+        "ledtrad": "<p>Summa av fjäderenergi och rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En leksak (150 g) i en fjäder (300 N/m) har farten 0,300 m/s vid elongationen 0,0120 m.</p>Den totala energin är 28,4 mJ.<p>Bestäm amplituden.</p>",
+        "s": "<p>\\(A=\\sqrt{\\dfrac{2E}{k}}\\).</p><p><strong>Svar:</strong> \\(0{,}0137\\) m</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{kA^2}2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm största farten.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En leksak (150 g) i en fjäder (300 N/m) har farten 0,300 m/s vid elongationen 0,0120 m.</p>Den totala energin är 28,4 mJ.<p>Bestäm största farten.</p>",
+        "s": "<p>\\(v_{max}=\\sqrt{\\dfrac{2E}{m}}\\).</p><p><strong>Svar:</strong> \\(0{,}615\\) m/s</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{mv_{max}^2}2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Den totala energin är konstant.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "A",
+    "typ": "elongation vid halva största farten",
+    "poang": "(0/1/1)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>En partikel svänger harmoniskt med amplituden 3,00 cm. Hur stor är elongationen när farten är hälften av största farten?</p>",
+    "s": "<p>\\(v=A\\omega\\sqrt{1-(y/A)^2}=\\dfrac{A\\omega}2\\iff y=A\\dfrac{\\sqrt3}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0260\\) m</p>",
+    "id": "2.534",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Amplitud, period, fart och acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.025980762113533156,
+    "tolerans": 0.00039,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd \\(\\cos^2+\\sin^2=1\\) eller energiprincipen.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "svangningar__amplitud_period_fart_och_acceleration"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "amplitud ur ögonblicksbild",
+    "poang": "(0/2/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt på 20 g svänger i en fjäder med frekvensen 2,0 Hz. I ett ögonblick är \\(y=5{,}0\\) cm och \\(v=-30\\) cm/s.</p><ol type=\"a\"><li>Beräkna amplituden.</li><li>Beräkna den totala energin.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\omega=4\\pi\\) rad/s. \\(A=\\sqrt{y^2+\\dfrac{v^2}{\\omega^2}}\\).</p><p><strong>Svar:</strong> \\(0{,}055\\) m</p></li><li><p>\\(E=\\dfrac{m(A\\omega)^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0048\\) J</p></li></ol>",
+    "id": "2.535",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.05540696398457644,
+      0.004847841760435744
+    ],
+    "tolerans": [
+      0.000831,
+      7.27e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "J"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt på 20 g svänger i en fjäder med frekvensen 2,0 Hz. I ett ögonblick är \\(y=5{,}0\\) cm och \\(v=-30\\) cm/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt på 20 g svänger i en fjäder med frekvensen 2,0 Hz. I ett ögonblick är \\(y=5{,}0\\) cm och \\(v=-30\\) cm/s.</p><p>Beräkna amplituden.</p>",
+        "s": "<p>\\(\\omega=4\\pi\\) rad/s. \\(A=\\sqrt{y^2+\\dfrac{v^2}{\\omega^2}}\\).</p><p><strong>Svar:</strong> \\(0{,}055\\) m</p>",
+        "ledtrad": "<p>\\(A^2=y^2+\\dfrac{v^2}{\\omega^2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna den totala energin.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt på 20 g svänger i en fjäder med frekvensen 2,0 Hz. I ett ögonblick är \\(y=5{,}0\\) cm och \\(v=-30\\) cm/s.</p>Amplituden är 5,5 cm.<p>Beräkna den totala energin.</p>",
+        "s": "<p>\\(E=\\dfrac{m(A\\omega)^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0048\\) J</p>",
+        "ledtrad": "<p>\\(E=\\dfrac{mv_{max}^2}{2}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Energiprincipen eller \\(A^2=y^2+(v/\\omega)^2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "fart vid visst läge",
+    "poang": "(0/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En kloss (400 g) i en vågrät fjäder (46,0 N/m) dras ut till \\(x=3{,}00\\) m och släpps. Bortse från friktion. Hur stor är farten vid \\(x=1{,}00\\) m?</p>",
+    "s": "<p>\\(v=\\sqrt{\\dfrac km\\left(A^2-x^2\\right)}=\\sqrt{115\\cdot8{,}00}\\).</p><p><strong>Svar:</strong> \\(30{,}3\\) m/s</p>",
+    "id": "2.536",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.331501776206203,
+    "tolerans": 0.455,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Energiprincipen.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
+    "kap": 2,
+    "omr": "svangningar",
+    "niva": "C",
+    "typ": "vikt som dras ut med känd kraft",
+    "poang": "(2/1/0)",
+    "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (2,0 kg) i en vågrät fjäder (98 N/m) dras ut med kraften 9,8 N och släpps.</p><ol type=\"a\"><li>Bestäm amplituden.</li><li>Bestäm perioden.</li><li>Bestäm farten 5,0 cm från jämviktsläget.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(A=\\dfrac Fk=\\dfrac{9{,}8}{98}\\).</p><p><strong>Svar:</strong> \\(0{,}10\\) m</p></li><li><p>\\(T=2\\pi\\sqrt{\\dfrac{2{,}0}{98}}\\).</p><p><strong>Svar:</strong> \\(0{,}90\\) s</p></li><li><p>\\(v=\\sqrt{\\dfrac km(A^2-y^2)}=\\sqrt{49(0{,}010-0{,}0025)}\\).</p><p><strong>Svar:</strong> \\(0{,}61\\) m/s</p></li></ol>",
+    "id": "2.537",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fjäderoscillatorn",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.1,
+      0.8975979010256552,
+      0.6062177826491071
+    ],
+    "tolerans": [
+      0.0051,
+      0.0135,
+      0.00909
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "s",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (2,0 kg) i en vågrät fjäder (98 N/m) dras ut med kraften 9,8 N och släpps.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm amplituden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (2,0 kg) i en vågrät fjäder (98 N/m) dras ut med kraften 9,8 N och släpps.</p><p>Bestäm amplituden.</p>",
+        "s": "<p>\\(A=\\dfrac Fk=\\dfrac{9{,}8}{98}\\).</p><p><strong>Svar:</strong> \\(0{,}10\\) m</p>",
+        "ledtrad": "<p>Hookes lag.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm perioden.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (2,0 kg) i en vågrät fjäder (98 N/m) dras ut med kraften 9,8 N och släpps.</p><p>Bestäm perioden.</p>",
+        "s": "<p>\\(T=2\\pi\\sqrt{\\dfrac{2{,}0}{98}}\\).</p><p><strong>Svar:</strong> \\(0{,}90\\) s</p>",
+        "ledtrad": "<p>\\(T=2\\pi\\sqrt{\\dfrac mk}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm farten 5,0 cm från jämviktsläget.",
+        "t": "<p>Harmonisk svängning: \\(y=A\\sin\\omega t\\), \\(v=A\\omega\\cos\\omega t\\), \\(a=-\\omega^2y\\), med \\(\\omega=2\\pi f\\). Största fart \\(A\\omega\\), största acceleration \\(A\\omega^2\\).</p><p>För en fjäder är \\(\\omega=\\sqrt{\\dfrac km}\\) och den totala energin \\(E=\\dfrac{kA^2}{2}\\).</p><p>En vikt (2,0 kg) i en vågrät fjäder (98 N/m) dras ut med kraften 9,8 N och släpps.</p>Amplituden är 0,10 m.<p>Bestäm farten 5,0 cm från jämviktsläget.</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac km(A^2-y^2)}=\\sqrt{49(0{,}010-0{,}0025)}\\).</p><p><strong>Svar:</strong> \\(0{,}61\\) m/s</p>",
+        "ledtrad": "<p>Energiprincipen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(E=\\dfrac{kA^2}2\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "svangningar__fjaderoscillatorn"
+  },
+  {
     "id": "2.31",
     "kap": 2,
     "omr": "pendlar",

@@ -126433,6 +126433,722 @@ window.BANK = [
     ]
   },
   {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "typ": "massdefekt och bindningsenergi",
+    "poang": "(2/0/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><ol type=\"a\"><li>En kärna har massdefekten 2,35 u. Bestäm bindningsenergin.</li><li>En kärna har bindningsenergin 225,0 MeV. Bestäm massdefekten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E_b=2{,}35\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(2\\,189\\) MeV</p></li><li><p>\\(\\Delta m=\\dfrac{225{,}0}{931{,}49}\\).</p><p><strong>Svar:</strong> \\(0{,}242\\) u</p></li></ol>",
+    "id": "9.388",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2189.0015000000003,
+      0.2415484868329236
+    ],
+    "tolerans": [
+      32.8,
+      0.00362
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "u"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En kärna har massdefekten 2,35 u. Bestäm bindningsenergin.",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>En kärna har massdefekten 2,35 u. Bestäm bindningsenergin.</p>",
+        "s": "<p>\\(E_b=2{,}35\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(2\\,189\\) MeV</p>",
+        "ledtrad": "<p>1 u motsvarar 931,49 MeV.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kärna har bindningsenergin 225,0 MeV. Bestäm massdefekten.",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>En kärna har bindningsenergin 225,0 MeV. Bestäm massdefekten.</p>",
+        "s": "<p>\\(\\Delta m=\\dfrac{225{,}0}{931{,}49}\\).</p><p><strong>Svar:</strong> \\(0{,}242\\) u</p>",
+        "ledtrad": "<p>Dela med 931,49.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 1,
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "typ": "beryllium-7 delas upp",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p><ol type=\"a\"><li>Bestäm den sammanlagda massan av de fria partiklarna.</li><li>Bestäm massdefekten.</li><li>Bestäm bindningsenergin.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(4\\cdot1{,}0078250+3\\cdot1{,}0086649\\).</p><p><strong>Svar:</strong> \\(7{,}05729\\) u</p></li><li><p>\\(\\Delta m=7{,}0572947-7{,}0169287\\).</p><p><strong>Svar:</strong> \\(0{,}0404\\) u</p></li><li><p>\\(E_b=0{,}040366\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(37{,}6\\) MeV</p></li></ol>",
+    "id": "9.389",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.0572947,
+      0.04036599999999968,
+      37.6005253399997
+    ],
+    "tolerans": [
+      5e-05,
+      0.000605,
+      0.564
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "u",
+      "u",
+      "MeV"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den sammanlagda massan av de fria partiklarna.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p><p>Bestäm den sammanlagda massan av de fria partiklarna.</p>",
+        "s": "<p>\\(4\\cdot1{,}0078250+3\\cdot1{,}0086649\\).</p><p><strong>Svar:</strong> \\(7{,}05729\\) u</p>",
+        "ledtrad": "<p>Fyra väteatomer och tre neutroner.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm massdefekten.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p>De fria partiklarna har massan 7,0572947 u.<p>Bestäm massdefekten.</p>",
+        "s": "<p>\\(\\Delta m=7{,}0572947-7{,}0169287\\).</p><p><strong>Svar:</strong> \\(0{,}0404\\) u</p>",
+        "ledtrad": "<p>Skillnaden mellan partiklarnas och atomens massa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm bindningsenergin.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p>Massdefekten är 0,040366 u.<p>Bestäm bindningsenergin.</p>",
+        "s": "<p>\\(E_b=0{,}040366\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(37{,}6\\) MeV</p>",
+        "ledtrad": "<p>1 u motsvarar 931,49 MeV.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "typ": "bindningsenergi för bor-12",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>B-12 (\\(Z=5\\)) har atommassan 12{,}0143527 u. Bestäm bindningsenergin.</p>",
+    "s": "<p>\\(\\Delta m=5\\cdot1{,}0078250+7\\cdot1{,}0086649-12{,}0143527\\), \\(E_b=\\Delta m\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(79{,}6\\) MeV</p>",
+    "id": "9.390",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 79.57402363400158,
+    "tolerans": 1.19,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "MeV",
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "typ": "helium-3 och tritium",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>He-3 (\\(Z=2\\)) har atommassan 3{,}0160293 u och H-3 (\\(Z=1\\)) har 3{,}0160493 u. Bestäm massdefekten för</p><ol type=\"a\"><li>He-3.</li><li>H-3.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(2\\cdot1{,}0078250+1{,}0086649-3{,}0160293\\).</p><p><strong>Svar:</strong> \\(0{,}00829\\) u</p></li><li><p>\\(1{,}0078250+2\\cdot1{,}0086649-3{,}0160493\\). H-3 har störst massdefekt och kräver mest energi att dela upp.</p><p><strong>Svar:</strong> \\(0{,}00911\\) u</p></li></ol>",
+    "id": "9.391",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.008285600000000226,
+      0.009105499999999989
+    ],
+    "tolerans": [
+      0.000124,
+      0.000137
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "u",
+      "u"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>He-3 (\\(Z=2\\)) har atommassan 3{,}0160293 u och H-3 (\\(Z=1\\)) har 3{,}0160493 u. Bestäm massdefekten för</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "He-3.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>He-3 (\\(Z=2\\)) har atommassan 3{,}0160293 u och H-3 (\\(Z=1\\)) har 3{,}0160493 u. Bestäm massdefekten för</p><p>He-3.</p>",
+        "s": "<p>\\(2\\cdot1{,}0078250+1{,}0086649-3{,}0160293\\).</p><p><strong>Svar:</strong> \\(0{,}00829\\) u</p>",
+        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "H-3.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>He-3 (\\(Z=2\\)) har atommassan 3{,}0160293 u och H-3 (\\(Z=1\\)) har 3{,}0160493 u. Bestäm massdefekten för</p><p>H-3.</p>",
+        "s": "<p>\\(1{,}0078250+2\\cdot1{,}0086649-3{,}0160493\\). H-3 har störst massdefekt och kräver mest energi att dela upp.</p><p><strong>Svar:</strong> \\(0{,}00911\\) u</p>",
+        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "C",
+    "typ": "atommassa ur massdefekt",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>Na-21 (\\(Z=11\\)) har massdefekten 0,17507 u. Bestäm atommassan.</p>",
+    "s": "<p>\\(m=11\\cdot1{,}0078250+10\\cdot1{,}0086649-0{,}17507\\).</p><p><strong>Svar:</strong> \\(20{,}99765\\) u</p>",
+    "id": "9.392",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.997654,
+    "tolerans": 0.0003,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "u",
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "typ": "syre-16",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>O-16 (\\(Z=8\\)) har atommassan 15{,}9949146 u.</p><ol type=\"a\"><li>Beräkna massdefekten.</li><li>Beräkna bindningsenergin.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(8\\cdot1{,}0078250+8\\cdot1{,}0086649-15{,}9949146\\).</p><p><strong>Svar:</strong> \\(0{,}137\\) u</p></li><li><p>\\(E_b=0{,}137005\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(127{,}6\\) MeV</p></li></ol>",
+    "id": "9.393",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.13700459999999914,
+      127.6184148539992
+    ],
+    "tolerans": [
+      0.00206,
+      1.91
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "u",
+      "MeV"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>O-16 (\\(Z=8\\)) har atommassan 15{,}9949146 u.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna massdefekten.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>O-16 (\\(Z=8\\)) har atommassan 15{,}9949146 u.</p><p>Beräkna massdefekten.</p>",
+        "s": "<p>\\(8\\cdot1{,}0078250+8\\cdot1{,}0086649-15{,}9949146\\).</p><p><strong>Svar:</strong> \\(0{,}137\\) u</p>",
+        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna bindningsenergin.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>O-16 (\\(Z=8\\)) har atommassan 15{,}9949146 u.</p>Massdefekten är 0,137005 u.<p>Beräkna bindningsenergin.</p>",
+        "s": "<p>\\(E_b=0{,}137005\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(127{,}6\\) MeV</p>",
+        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "typ": "bindningsenergi per nukleon för litium-6",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Li-6 (\\(Z=3\\)) har atommassan 6{,}0151229 u.</p><ol type=\"a\"><li>Beräkna bindningsenergin.</li><li>Beräkna bindningsenergin per nukleon i MeV.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta m=3\\cdot1{,}0078250+3\\cdot1{,}0086649-6{,}0151229\\), \\(E_b=\\Delta m\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(32{,}0\\) MeV</p></li><li><p>\\(\\dfrac{32{,}0}{6}\\).</p><p><strong>Svar:</strong> \\(5{,}33\\) MeV</p></li></ol>",
+    "id": "9.394",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      31.9937007319998,
+      5.3322834553333
+    ],
+    "tolerans": [
+      0.48,
+      0.08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "MeV"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Li-6 (\\(Z=3\\)) har atommassan 6{,}0151229 u.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna bindningsenergin.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Li-6 (\\(Z=3\\)) har atommassan 6{,}0151229 u.</p><p>Beräkna bindningsenergin.</p>",
+        "s": "<p>\\(\\Delta m=3\\cdot1{,}0078250+3\\cdot1{,}0086649-6{,}0151229\\), \\(E_b=\\Delta m\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(32{,}0\\) MeV</p>",
+        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna bindningsenergin per nukleon i MeV.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Li-6 (\\(Z=3\\)) har atommassan 6{,}0151229 u.</p>Bindningsenergin är 32,0 MeV.<p>Beräkna bindningsenergin per nukleon i MeV.</p>",
+        "s": "<p>\\(\\dfrac{32{,}0}{6}\\).</p><p><strong>Svar:</strong> \\(5{,}33\\) MeV</p>",
+        "ledtrad": "<p>Dela med masstalet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "typ": "bly-206",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Pb-206 (\\(Z=82\\)) har atommassan 205{,}9744653 u.</p><ol type=\"a\"><li>Beräkna bindningsenergin.</li><li>Beräkna bindningsenergin per nukleon i MeV.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta m=82\\cdot1{,}0078250+124\\cdot1{,}0086649-205{,}9744653\\), \\(E_b=\\Delta m\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(1\\,622\\) MeV</p></li><li><p>\\(\\dfrac{1\\,622}{206}\\).</p><p><strong>Svar:</strong> \\(7{,}88\\) MeV</p></li></ol>",
+    "id": "9.395",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1622.3130711270192,
+      7.875306170519511
+    ],
+    "tolerans": [
+      24.3,
+      0.118
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "MeV"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Pb-206 (\\(Z=82\\)) har atommassan 205{,}9744653 u.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna bindningsenergin.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Pb-206 (\\(Z=82\\)) har atommassan 205{,}9744653 u.</p><p>Beräkna bindningsenergin.</p>",
+        "s": "<p>\\(\\Delta m=82\\cdot1{,}0078250+124\\cdot1{,}0086649-205{,}9744653\\), \\(E_b=\\Delta m\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(1\\,622\\) MeV</p>",
+        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Beräkna bindningsenergin per nukleon i MeV.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Pb-206 (\\(Z=82\\)) har atommassan 205{,}9744653 u.</p>Bindningsenergin är 1 622 MeV.<p>Beräkna bindningsenergin per nukleon i MeV.</p>",
+        "s": "<p>\\(\\dfrac{1\\,622}{206}\\).</p><p><strong>Svar:</strong> \\(7{,}88\\) MeV</p>",
+        "ledtrad": "<p>Dela med masstalet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "C",
+    "typ": "järn-56 per nukleon",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Fe-56 (\\(Z=26\\)) har atommassan 55{,}9349363 u. Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "s": "<p>\\(\\Delta m=26\\cdot1{,}0078250+30\\cdot1{,}0086649-55{,}9349363\\), \\(\\dfrac{E_b}{A}=\\dfrac{\\Delta m\\cdot931{,}49}{56}\\).</p><p><strong>Svar:</strong> \\(8{,}790\\) MeV</p>",
+    "id": "9.396",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.790283168625061,
+    "tolerans": 0.132,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "MeV",
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "A",
+    "typ": "atommassa ur bindningsenergi",
+    "poang": "(0/1/1)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Xe-133 (\\(Z=54\\)) har bindningsenergin 1,118 GeV. Bestäm atommassan.</p>",
+    "s": "<p>\\(\\Delta m=\\dfrac{1\\,118}{931{,}49}\\) u. \\(m=54\\cdot1{,}0078250+79\\cdot1{,}0086649-\\Delta m\\).</p><p><strong>Svar:</strong> \\(132{,}9068\\) u</p>",
+    "id": "9.397",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 132.906849507648,
+    "tolerans": 0.0006,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "u",
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "C",
+    "typ": "separationsenergi för neutron och proton",
+    "poang": "(0/2/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>N-14 har atommassan 14{,}003074 u, N-13 har 13{,}0057386 u och C-13 har 13{,}0033548 u.</p><ol type=\"a\"><li>Hur mycket energi krävs för att slå loss en neutron ur N-14 (N-14 → N-13 + n)?</li><li>Hur mycket energi krävs för att slå loss en proton ur N-14 (N-14 → C-13 + ¹H)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\((13{,}0057386+1{,}0086649-14{,}0030740)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(10{,}6\\) MeV</p></li><li><p>\\((13{,}0033548+1{,}0078250-14{,}0030740)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(7{,}55\\) MeV</p></li></ol>",
+    "id": "9.398",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.553315955000407,
+      7.5504716420008755
+    ],
+    "tolerans": [
+      0.158,
+      0.113
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "MeV"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>N-14 har atommassan 14{,}003074 u, N-13 har 13{,}0057386 u och C-13 har 13{,}0033548 u.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi krävs för att slå loss en neutron ur N-14 (N-14 → N-13 + n)?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>N-14 har atommassan 14{,}003074 u, N-13 har 13{,}0057386 u och C-13 har 13{,}0033548 u.</p><p>Hur mycket energi krävs för att slå loss en neutron ur N-14 (N-14 → N-13 + n)?</p>",
+        "s": "<p>\\((13{,}0057386+1{,}0086649-14{,}0030740)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(10{,}6\\) MeV</p>",
+        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi krävs för att slå loss en proton ur N-14 (N-14 → C-13 + ¹H)?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>N-14 har atommassan 14{,}003074 u, N-13 har 13{,}0057386 u och C-13 har 13{,}0033548 u.</p><p>Hur mycket energi krävs för att slå loss en proton ur N-14 (N-14 → C-13 + ¹H)?</p>",
+        "s": "<p>\\((13{,}0033548+1{,}0078250-14{,}0030740)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(7{,}55\\) MeV</p>",
+        "ledtrad": "<p>Räkna med väteatomens massa så att elektronerna tar ut varandra.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Energin motsvarar massökningen.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "typ": "spegelkärnor",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Spegelkärnorna O-15 (\\(Z=8\\), 15{,}0030656 u) och N-15 (\\(Z=7\\), 15{,}0001089 u).</p><ol type=\"a\"><li>Bestäm bindningsenergin för O-15.</li><li>Bestäm bindningsenergin för N-15.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta m=8\\cdot1{,}0078250+7\\cdot1{,}0086649-15{,}0030656\\).</p><p><strong>Svar:</strong> \\(112{,}0\\) MeV</p></li><li><p>\\(\\Delta m=7\\cdot1{,}0078250+8\\cdot1{,}0086649-15{,}0001089\\).</p><p><strong>Svar:</strong> \\(115{,}5\\) MeV</p></li></ol>",
+    "id": "9.399",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      111.95457216299994,
+      115.49106709699934
+    ],
+    "tolerans": [
+      1.68,
+      1.73
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "MeV"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Spegelkärnorna O-15 (\\(Z=8\\), 15{,}0030656 u) och N-15 (\\(Z=7\\), 15{,}0001089 u).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm bindningsenergin för O-15.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Spegelkärnorna O-15 (\\(Z=8\\), 15{,}0030656 u) och N-15 (\\(Z=7\\), 15{,}0001089 u).</p><p>Bestäm bindningsenergin för O-15.</p>",
+        "s": "<p>\\(\\Delta m=8\\cdot1{,}0078250+7\\cdot1{,}0086649-15{,}0030656\\).</p><p><strong>Svar:</strong> \\(112{,}0\\) MeV</p>",
+        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm bindningsenergin för N-15.",
+        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Spegelkärnorna O-15 (\\(Z=8\\), 15{,}0030656 u) och N-15 (\\(Z=7\\), 15{,}0001089 u).</p><p>Bestäm bindningsenergin för N-15.</p>",
+        "s": "<p>\\(\\Delta m=7\\cdot1{,}0078250+8\\cdot1{,}0086649-15{,}0001089\\).</p><p><strong>Svar:</strong> \\(115{,}5\\) MeV</p>",
+        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p><p>Skillnaden är bara drygt 3 %: den starka kraften beror inte på laddningen.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "C",
+    "typ": "klyva kol-14 i två delar",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Hur mycket energi krävs för att klyva C-14 (14{,}003242 u) i två Li-7 (7{,}0160034 u)?</p>",
+    "s": "<p>\\((2\\cdot7{,}0160034-14{,}0032420)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(26{,}8\\) MeV</p>",
+    "id": "9.400",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Massdefekt och bindningsenergi",
+    "svarstyp": "numeriskt",
+    "rättSvar": 26.794123551999412,
+    "tolerans": 0.402,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför massan före och efter.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "MeV",
+    "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "9.246",
     "kap": 9,
     "omr": "karnreaktioner",
@@ -126624,6 +127340,719 @@ window.BANK = [
     "familjTidigare": [
       "Radioaktiva sönderfall och kärnreaktioner"
     ]
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "C",
+    "typ": "energi vid klyvning till barium och krypton",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Neutronens massa är 1,008665 u och U-235 har massan 235,0439231 u.</p><p>Klyvningen n + U-235 → Ba-141 + Kr-92 + 3n. Ba-141 har massan 140,914411 u och Kr-92 91,926156 u. Hur stor energi frigörs?</p>",
+    "s": "<p>\\(\\Delta m=235{,}0439231+1{,}008665-140{,}914411-91{,}926156-3\\cdot1{,}008665\\), \\(Q=\\Delta m\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(173\\) MeV</p>",
+    "id": "9.401",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 173.28145188900112,
+    "tolerans": 2.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför massan före och efter.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "MeV",
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "C",
+    "typ": "energi vid klyvning till antimon och niob",
+    "poang": "(0/1/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Neutronens massa är 1,008665 u och U-235 har massan 235,0439231 u.</p><p>Klyvningen n + U-235 → Sb-133 + Nb-98 + \\(x\\)n. Sb-133 har massan 132,915250 u och Nb-98 97,910328 u. Bestäm \\(x\\) med masstalen och beräkna sedan energin som frigörs.</p>",
+    "s": "<p>\\(236=133+98+x\\iff x=5\\). \\(\\Delta m=236{,}0525881-132{,}915250-97{,}910328-5\\cdot1{,}008665\\).</p><p><strong>Svar:</strong> \\(171\\) MeV</p>",
+    "id": "9.402",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 171.10083379901482,
+    "tolerans": 2.57,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Masstalet bevaras.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "MeV",
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "A",
+    "typ": "fragmentens sammanlagda massa",
+    "poang": "(0/1/1)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Neutronens massa är 1,008665 u och U-235 har massan 235,0439231 u.</p><p>Vid klyvningen n + U-235 → X₁ + X₂ + 3n frigörs 225,0 MeV. Bestäm summan av fragmentens massor.</p>",
+    "s": "<p>\\(m_1+m_2=235{,}0439231+1{,}008665-3\\cdot1{,}008665-\\dfrac{225{,}0}{931{,}49}\\).</p><p><strong>Svar:</strong> \\(232{,}8\\) u</p>",
+    "id": "9.403",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 232.7850446131671,
+    "tolerans": 0.02,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Massan före = massan efter + energin.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "u",
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "A",
+    "typ": "neutroner bromsas i moderatorn",
+    "poang": "(0/1/1)",
+    "t": "<p>Snabba neutroner med rörelseenergin 1,5 MeV ska bromsas till högst 0,040 eV. Vid varje kollision förlorar en neutron 35 % av sin energi. Hur många kollisioner krävs?</p>",
+    "s": "<p>\\(1{,}5\\cdot10^6\\cdot0{,}65^k\\le0{,}040\\iff k\\ge\\dfrac{\\lg(0{,}040/1{,}5\\cdot10^6)}{\\lg0{,}65}=40{,}5\\). Alltså 41 kollisioner.</p><p><strong>Svar:</strong> \\(41\\) </p>",
+    "id": "9.404",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 41,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Energin multipliceras med 0,65 vid varje kollision.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "C",
+    "typ": "superkritisk reaktor",
+    "poang": "(0/1/0)",
+    "t": "<p>En reaktor har multiplikationsfaktorn 1,0004 per generation, och en generation tar 1,0 ms. Med vilken faktor har antalet klyvningar per sekund ökat efter 1,0 s?</p>",
+    "s": "<p>1 000 generationer: \\(1{,}0004^{1\\,000}\\).</p><p><strong>Svar:</strong> \\(1{,}5\\) </p>",
+    "id": "9.405",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4917053882526092,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många generationer hinner det bli?</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "C",
+    "typ": "uran i marken",
+    "poang": "(1/1/0)",
+    "t": "<p>Marken innehåller i genomsnitt 1,0 ppm (miljondelar av massan) naturligt uran, och jordens densitet är 4,00 g/cm³. Naturligt uran innehåller 0,70 % U-235.</p><ol type=\"a\"><li>Hur mycket uran finns i marken under en fotbollsplan (100 m · 100 m) ner till 1,0 m djup?</li><li>Hur många sådana fotbollsplaner krävs för 1,0 kg U-235?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m=10\\,000\\cdot4\\,000\\cdot1{,}0\\cdot10^{-6}\\).</p><p><strong>Svar:</strong> \\(40\\) kg</p></li><li><p>\\(40\\cdot0{,}0070=0{,}28\\) kg per plan. \\(\\dfrac{1{,}0}{0{,}28}=3{,}6\\): fyra planer.</p><p><strong>Svar:</strong> \\(4{,}0\\)</p></li></ol>",
+    "id": "9.406",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      4
+    ],
+    "tolerans": [
+      0.6,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Marken innehåller i genomsnitt 1,0 ppm (miljondelar av massan) naturligt uran, och jordens densitet är 4,00 g/cm³. Naturligt uran innehåller 0,70 % U-235.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket uran finns i marken under en fotbollsplan (100 m · 100 m) ner till 1,0 m djup?",
+        "t": "<p>Marken innehåller i genomsnitt 1,0 ppm (miljondelar av massan) naturligt uran, och jordens densitet är 4,00 g/cm³. Naturligt uran innehåller 0,70 % U-235.</p><p>Hur mycket uran finns i marken under en fotbollsplan (100 m · 100 m) ner till 1,0 m djup?</p>",
+        "s": "<p>\\(m=10\\,000\\cdot4\\,000\\cdot1{,}0\\cdot10^{-6}\\).</p><p><strong>Svar:</strong> \\(40\\) kg</p>",
+        "ledtrad": "<p>Massan jord gånger andelen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många sådana fotbollsplaner krävs för 1,0 kg U-235?",
+        "t": "<p>Marken innehåller i genomsnitt 1,0 ppm (miljondelar av massan) naturligt uran, och jordens densitet är 4,00 g/cm³. Naturligt uran innehåller 0,70 % U-235.</p>Under en plan finns 40 kg uran.<p>Hur många sådana fotbollsplaner krävs för 1,0 kg U-235?</p>",
+        "s": "<p>\\(40\\cdot0{,}0070=0{,}28\\) kg per plan. \\(\\dfrac{1{,}0}{0{,}28}=3{,}6\\): fyra planer.</p><p><strong>Svar:</strong> \\(4{,}0\\)</p>",
+        "ledtrad": "<p>Hur mycket U-235 ger en plan?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>ppm betyder miljondelar.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "E",
+    "typ": "energi ur ett gram uran-235",
+    "poang": "(3/0/0)",
+    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p><ol type=\"a\"><li>Hur många atomer finns i 1,0 g U-235?</li><li>Hur mycket energi frigörs när 1,0 g U-235 klyvs?</li><li>Naturligt uran innehåller 0,70 % U-235. Hur mycket naturligt uran innehåller 1,0 g U-235?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{1{,}0\\cdot10^{-3}}{235{,}04\\cdot1{,}6605\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(2{,}6\\cdot10^{21}\\)</p></li><li><p>\\(E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(8{,}2\\cdot10^{10}\\) J</p></li><li><p>\\(\\dfrac{1{,}0}{0{,}0070}\\) g.</p><p><strong>Svar:</strong> \\(0{,}14\\) kg</p></li></ol>",
+    "id": "9.407",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.562194489276151e+21,
+      82092711436.40788,
+      0.14285714285714285
+    ],
+    "tolerans": [
+      5.1e+19,
+      1230000000.0,
+      0.0051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      null,
+      "J",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många atomer finns i 1,0 g U-235?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p><p>Hur många atomer finns i 1,0 g U-235?</p>",
+        "s": "<p>\\(N=\\dfrac{1{,}0\\cdot10^{-3}}{235{,}04\\cdot1{,}6605\\cdot10^{-27}}\\).</p><p><strong>Svar:</strong> \\(2{,}6\\cdot10^{21}\\)</p>",
+        "ledtrad": "<p>Massan delat med en atoms massa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi frigörs när 1,0 g U-235 klyvs?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p>1,0 g innehåller \\(2{,}6\\cdot10^{21}\\) atomer.<p>Hur mycket energi frigörs när 1,0 g U-235 klyvs?</p>",
+        "s": "<p>\\(E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(8{,}2\\cdot10^{10}\\) J</p>",
+        "ledtrad": "<p>Energi per klyvning gånger antal.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Naturligt uran innehåller 0,70 % U-235. Hur mycket naturligt uran innehåller 1,0 g U-235?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p><p>Naturligt uran innehåller 0,70 % U-235. Hur mycket naturligt uran innehåller 1,0 g U-235?</p>",
+        "s": "<p>\\(\\dfrac{1{,}0}{0{,}0070}\\) g.</p><p><strong>Svar:</strong> \\(0{,}14\\) kg</p>",
+        "ledtrad": "<p>0,70 % av massan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Räkna antal klyvningar.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "E",
+    "typ": "reaktor på 240 MW",
+    "poang": "(4/0/0)",
+    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger effekten 240 MW genom klyvning av U-235 (235,04 u). Varje klyvning ger 200 MeV.</p><ol type=\"a\"><li>Hur många klyvningar sker per sekund?</li><li>Hur mycket U-235 klyvs per sekund?</li><li>Hur mycket U-235 går åt på ett år?</li><li>Hur mycket naturligt uran (0,70 % U-235) motsvarar det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{240\\cdot10^6}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\cdot10^{18}\\)</p></li><li><p>\\(m=7{,}5\\cdot10^{18}\\cdot235{,}04\\cdot1{,}6605\\cdot10^{-27}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\cdot10^{-6}\\) kg</p></li><li><p>\\(2{,}92\\cdot10^{-6}\\cdot3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(92\\) kg</p></li><li><p>\\(\\dfrac{92{,}2}{0{,}0070}\\).</p><p><strong>Svar:</strong> \\(13\\,180\\) kg</p></li></ol>",
+    "id": "9.408",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.49063670411985e+18,
+      2.923475056179775e-06,
+      92.25785643289886,
+      13179.693776128408
+    ],
+    "tolerans": [
+      1.12e+17,
+      5.1e-08,
+      1.38,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      null,
+      "kg",
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger effekten 240 MW genom klyvning av U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många klyvningar sker per sekund?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger effekten 240 MW genom klyvning av U-235 (235,04 u). Varje klyvning ger 200 MeV.</p><p>Hur många klyvningar sker per sekund?</p>",
+        "s": "<p>\\(\\dfrac{240\\cdot10^6}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\cdot10^{18}\\)</p>",
+        "ledtrad": "<p>Effekt delat med energi per klyvning.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket U-235 klyvs per sekund?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger effekten 240 MW genom klyvning av U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>Det sker \\(7{,}5\\cdot10^{18}\\) klyvningar per sekund.<p>Hur mycket U-235 klyvs per sekund?</p>",
+        "s": "<p>\\(m=7{,}5\\cdot10^{18}\\cdot235{,}04\\cdot1{,}6605\\cdot10^{-27}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\cdot10^{-6}\\) kg</p>",
+        "ledtrad": "<p>Antal gånger atomens massa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket U-235 går åt på ett år?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger effekten 240 MW genom klyvning av U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>Det klyvs 2,92 mg U-235 per sekund.<p>Hur mycket U-235 går åt på ett år?</p>",
+        "s": "<p>\\(2{,}92\\cdot10^{-6}\\cdot3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(92\\) kg</p>",
+        "ledtrad": "<p>Gånger antalet sekunder.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur mycket naturligt uran (0,70 % U-235) motsvarar det?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger effekten 240 MW genom klyvning av U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>Det går åt 92,2 kg U-235 per år.<p>Hur mycket naturligt uran (0,70 % U-235) motsvarar det?</p>",
+        "s": "<p>\\(\\dfrac{92{,}2}{0{,}0070}\\).</p><p><strong>Svar:</strong> \\(13\\,180\\) kg</p>",
+        "ledtrad": "<p>Dela med andelen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Räkna antal klyvningar per sekund.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "C",
+    "typ": "första atombomben",
+    "poang": "(1/1/0)",
+    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>1 kt TNT motsvarar \\(5\\cdot10^{12}\\) J. Den första atombomben hade styrkan 20 kt och energin kom från klyvning av U-235 (235,04 u), 200 MeV per klyvning. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><ol type=\"a\"><li>Hur stor massa U-235 klövs?</li><li>Hur stor massa omvandlades till energi?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(N=\\dfrac{1{,}0\\cdot10^{14}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot235{,}04\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) kg</p></li><li><p>\\(\\Delta m=\\dfrac{E}{c^2}=\\dfrac{1{,}0\\cdot10^{14}}{(3{,}00\\cdot10^8)^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0011\\) kg</p></li></ol>",
+    "id": "9.409",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.218114606741573,
+      0.0011111111111111111
+    ],
+    "tolerans": [
+      0.051,
+      5.1e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>1 kt TNT motsvarar \\(5\\cdot10^{12}\\) J. Den första atombomben hade styrkan 20 kt och energin kom från klyvning av U-235 (235,04 u), 200 MeV per klyvning. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor massa U-235 klövs?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>1 kt TNT motsvarar \\(5\\cdot10^{12}\\) J. Den första atombomben hade styrkan 20 kt och energin kom från klyvning av U-235 (235,04 u), 200 MeV per klyvning. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><p>Hur stor massa U-235 klövs?</p>",
+        "s": "<p>\\(N=\\dfrac{1{,}0\\cdot10^{14}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot235{,}04\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) kg</p>",
+        "ledtrad": "<p>Bestäm antalet klyvningar först.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor massa omvandlades till energi?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>1 kt TNT motsvarar \\(5\\cdot10^{12}\\) J. Den första atombomben hade styrkan 20 kt och energin kom från klyvning av U-235 (235,04 u), 200 MeV per klyvning. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><p>Hur stor massa omvandlades till energi?</p>",
+        "s": "<p>\\(\\Delta m=\\dfrac{E}{c^2}=\\dfrac{1{,}0\\cdot10^{14}}{(3{,}00\\cdot10^8)^2}\\).</p><p><strong>Svar:</strong> \\(0{,}0011\\) kg</p>",
+        "ledtrad": "<p>\\(E=mc^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Den klyvda massan och den omvandlade massan är olika saker.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "C",
+    "typ": "kärnkraftverk och villor",
+    "poang": "(2/2/0)",
+    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p><ol type=\"a\"><li>Hur många villors elbehov täcker reaktorn?</li><li>Hur mycket energi frigörs totalt i reaktorn under året?</li><li>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) motsvarar det?</li><li>Bränslet innehåller 3,0 % U-235. Hur mycket bränsle går åt?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{1\\,400\\cdot10^6\\cdot3{,}156\\cdot10^7}{5\\,000\\cdot3{,}6\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{6}\\)</p></li><li><p>\\(E=3\\cdot1\\,400\\cdot10^6\\cdot3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{17}\\) J</p></li><li><p>\\(N=\\dfrac{1{,}33\\cdot10^{17}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot235{,}04\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1\\,615\\) kg</p></li><li><p>\\(\\dfrac{1\\,614}{0{,}030}\\).</p><p><strong>Svar:</strong> \\(53\\,817\\) kg</p></li></ol>",
+    "id": "9.410",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2454480.0,
+      1.3254192e+17,
+      1614.5124875757301,
+      53817.08291919101
+    ],
+    "tolerans": [
+      51000.0,
+      5100000000000000.0,
+      51.0,
+      807.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      null,
+      "J",
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många villors elbehov täcker reaktorn?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p><p>Hur många villors elbehov täcker reaktorn?</p>",
+        "s": "<p>\\(\\dfrac{1\\,400\\cdot10^6\\cdot3{,}156\\cdot10^7}{5\\,000\\cdot3{,}6\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{6}\\)</p>",
+        "ledtrad": "<p>1 kWh = 3,6 MJ.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi frigörs totalt i reaktorn under året?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p><p>Hur mycket energi frigörs totalt i reaktorn under året?</p>",
+        "s": "<p>\\(E=3\\cdot1\\,400\\cdot10^6\\cdot3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(1{,}3\\cdot10^{17}\\) J</p>",
+        "ledtrad": "<p>Elenergi plus spillvärme.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) motsvarar det?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p>Totalt frigörs \\(1{,}33\\cdot10^{17}\\) J.<p>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) motsvarar det?</p>",
+        "s": "<p>\\(N=\\dfrac{1{,}33\\cdot10^{17}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot235{,}04\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1\\,615\\) kg</p>",
+        "ledtrad": "<p>Bestäm antalet klyvningar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Bränslet innehåller 3,0 % U-235. Hur mycket bränsle går åt?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p>Det går åt 1,6 ton U-235.<p>Bränslet innehåller 3,0 % U-235. Hur mycket bränsle går åt?</p>",
+        "s": "<p>\\(\\dfrac{1\\,614}{0{,}030}\\).</p><p><strong>Svar:</strong> \\(53\\,817\\) kg</p>",
+        "ledtrad": "<p>Dela med andelen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Räkna med hela årets energi.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "C",
+    "typ": "världens uranreserv",
+    "poang": "(1/2/0)",
+    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Världens brytvärda reserv är \\(4{,}4\\cdot10^6\\) ton naturligt uran, varav 0,700 % är U-235 (235,04 u). Varje klyvning ger 200 MeV.</p><ol type=\"a\"><li>Hur stor massa U-235 finns i reserven?</li><li>Hur mycket energi ger reserven om allt U-235 klyvs?</li><li>Hur många år räcker det för effekten \\(1{,}5\\cdot10^{13}\\) W?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(4{,}4\\cdot10^9\\cdot0{,}00700\\) kg.</p><p><strong>Svar:</strong> \\(3{,}1\\cdot10^{7}\\) kg</p></li><li><p>\\(N=\\dfrac{3{,}08\\cdot10^7}{235{,}04\\,\\text{u}}\\), \\(E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{21}\\) J</p></li><li><p>\\(t=\\dfrac{2{,}5\\cdot10^{21}}{1{,}5\\cdot10^{13}}\\) s, dela med \\(3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(5{,}3\\) år</p></li></ol>",
+    "id": "9.411",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30800000.0,
+      2.528497715201795e+21,
+      5.341550509125737
+    ],
+    "tolerans": [
+      510000.0,
+      5.1e+19,
+      0.0801
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kg",
+      "J",
+      "år"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Världens brytvärda reserv är \\(4{,}4\\cdot10^6\\) ton naturligt uran, varav 0,700 % är U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor massa U-235 finns i reserven?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Världens brytvärda reserv är \\(4{,}4\\cdot10^6\\) ton naturligt uran, varav 0,700 % är U-235 (235,04 u). Varje klyvning ger 200 MeV.</p><p>Hur stor massa U-235 finns i reserven?</p>",
+        "s": "<p>\\(4{,}4\\cdot10^9\\cdot0{,}00700\\) kg.</p><p><strong>Svar:</strong> \\(3{,}1\\cdot10^{7}\\) kg</p>",
+        "ledtrad": "<p>1 ton = 1 000 kg.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi ger reserven om allt U-235 klyvs?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Världens brytvärda reserv är \\(4{,}4\\cdot10^6\\) ton naturligt uran, varav 0,700 % är U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>Reserven innehåller \\(3{,}08\\cdot10^7\\) kg U-235.<p>Hur mycket energi ger reserven om allt U-235 klyvs?</p>",
+        "s": "<p>\\(N=\\dfrac{3{,}08\\cdot10^7}{235{,}04\\,\\text{u}}\\), \\(E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\).</p><p><strong>Svar:</strong> \\(2{,}5\\cdot10^{21}\\) J</p>",
+        "ledtrad": "<p>Bestäm antalet atomer.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många år räcker det för effekten \\(1{,}5\\cdot10^{13}\\) W?",
+        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Världens brytvärda reserv är \\(4{,}4\\cdot10^6\\) ton naturligt uran, varav 0,700 % är U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>Energin är \\(2{,}5\\cdot10^{21}\\) J.<p>Hur många år räcker det för effekten \\(1{,}5\\cdot10^{13}\\) W?</p>",
+        "s": "<p>\\(t=\\dfrac{2{,}5\\cdot10^{21}}{1{,}5\\cdot10^{13}}\\) s, dela med \\(3{,}156\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(5{,}3\\) år</p>",
+        "ledtrad": "<p>\\(t=\\dfrac{E}{P}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Räkna antal klyvningar.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "C",
+    "typ": "kylvatten i tryckvattenreaktor",
+    "poang": "(0/1/0)",
+    "t": "<p>Kylvattnet går in i en reaktor vid 216 °C och lämnar den vid 287 °C. Reaktorns effekt är 5 600 MW och vattnets specifika värmekapacitet 4,19 kJ/(kg·K). Hur många kilogram vatten måste pumpas igenom per sekund?</p>",
+    "s": "<p>\\(\\dfrac{m}{t}=\\dfrac{P}{c\\Delta T}=\\dfrac{5\\,600\\cdot10^6}{4\\,190\\cdot71}\\).</p><p><strong>Svar:</strong> \\(18\\,824\\) kg</p>",
+    "id": "9.412",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18824.16215671115,
+    "tolerans": 510.0,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(P=\\dfrac{m}{t}c\\Delta T\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "kg",
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fission",
+    "niva": "A",
+    "typ": "superkritisk reaktor ökar effekten",
+    "poang": "(0/1/1)",
+    "t": "<p>En reaktor med effekten 25 kW görs superkritisk: varje klyvning ger i genomsnitt 1,01 nya klyvningar, och en generation tar 12 ns. Hur lång tid tar det innan effekten är 3 300 MW?</p>",
+    "s": "<p>\\(1{,}01^k=\\dfrac{3\\,300\\cdot10^6}{25\\cdot10^3}=132\\,000\\iff k=\\dfrac{\\ln132\\,000}{\\ln1{,}01}=1\\,185\\). \\(t=1\\,185\\cdot12\\) ns.</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{-5}\\) s</p>",
+    "id": "9.413",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fission och energiutvinning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4219294665340102e-05,
+    "tolerans": 5.1e-07,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många generationer krävs?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "s",
+    "familjNyckel": "fission__fission_och_energiutvinning",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "9.251",
@@ -128084,6 +129513,348 @@ window.BANK = [
     "svarEnhet": "dygn",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "trä med låg C-14-halt",
+    "poang": "(0/1/0)",
+    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>En gammal träbit innehåller bara 4,5 % av den C-14-halt som finns i levande träd. Hur gammal är träbiten?</p>",
+    "s": "<p>\\(0{,}045=\\left(\\tfrac12\\right)^{t/5\\,730}\\iff t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}045)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(25\\,636\\) år</p>",
+    "id": "9.421",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25635.625709144722,
+    "tolerans": 510.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(N=N_0\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "svarEnhet": "år",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "träklubba med uppmätt aktivitet",
+    "poang": "(0/1/0)",
+    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>En gammal träklubba innehåller 73 g kol och har aktiviteten 7,0 Bq. Hur gammal är den?</p>",
+    "s": "<p>Ny skulle den ha \\(73\\cdot0{,}23=16{,}8\\) Bq. \\(t=5\\,730\\cdot\\dfrac{\\ln(16{,}8/7{,}0)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(7\\,232\\) år</p>",
+    "id": "9.422",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7232.265059789938,
+    "tolerans": 108.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken aktivitet hade klubban från början?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "år",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "antal C-14-atomer per gram",
+    "poang": "(0/1/0)",
+    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Hur många C-14-atomer finns i 1 g kol med aktiviteten 0,23 Bq? (1 år = \\(3{,}156\\cdot10^7\\) s)</p>",
+    "s": "<p>\\(N=\\dfrac{A}{\\lambda}=\\dfrac{0{,}23\\cdot5\\,730\\cdot3{,}156\\cdot10^7}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\cdot10^{10}\\) </p>",
+    "id": "9.423",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 60001342004.165016,
+    "tolerans": 900000000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(A=\\lambda N\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "datering av fynd",
+    "poang": "(0/4/0)",
+    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><ol type=\"a\"><li>Ett skelett har C-14/C-12-kvoten \\(4{,}34\\cdot10^{-13}\\).</li><li>Ismannen Ötzi har aktiviteten 0,121 Bq per gram kol.</li><li>Ett prov har aktiviteten 0,0061 Bq per gram kol.</li><li>Svepningen i Turin har 92 % av C-14-halten i levande material (mätt 1988).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=5\\,730\\cdot\\dfrac{\\ln(1{,}30\\cdot10^{-12}/4{,}34\\cdot10^{-13})}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(9\\,069\\) år</p></li><li><p>\\(t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}121)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(5\\,310\\) år</p></li><li><p>\\(t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}0061)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(30\\,006\\) år</p></li><li><p>\\(t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}92)}{\\ln2}\\), alltså från omkring år 1300.</p><p><strong>Svar:</strong> \\(689\\) år</p></li></ol>",
+    "id": "9.424",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9069.126990450764,
+      5309.5716423278445,
+      30006.181031380518,
+      689.2859592024884
+    ],
+    "tolerans": [
+      136.0,
+      79.6,
+      510.0,
+      10.3
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "år",
+      "år",
+      "år",
+      "år"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett skelett har C-14/C-12-kvoten \\(4{,}34\\cdot10^{-13}\\).",
+        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ett skelett har C-14/C-12-kvoten \\(4{,}34\\cdot10^{-13}\\).</p>",
+        "s": "<p>\\(t=5\\,730\\cdot\\dfrac{\\ln(1{,}30\\cdot10^{-12}/4{,}34\\cdot10^{-13})}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(9\\,069\\) år</p>",
+        "ledtrad": "<p>Jämför med kvoten i levande material.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ismannen Ötzi har aktiviteten 0,121 Bq per gram kol.",
+        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ismannen Ötzi har aktiviteten 0,121 Bq per gram kol.</p>",
+        "s": "<p>\\(t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}121)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(5\\,310\\) år</p>",
+        "ledtrad": "<p>Jämför med aktiviteten i levande material.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett prov har aktiviteten 0,0061 Bq per gram kol.",
+        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ett prov har aktiviteten 0,0061 Bq per gram kol.</p>",
+        "s": "<p>\\(t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}0061)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(30\\,006\\) år</p>",
+        "ledtrad": "<p>Jämför med aktiviteten i levande material.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Svepningen i Turin har 92 % av C-14-halten i levande material (mätt 1988).",
+        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Svepningen i Turin har 92 % av C-14-halten i levande material (mätt 1988).</p>",
+        "s": "<p>\\(t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}92)}{\\ln2}\\), alltså från omkring år 1300.</p><p><strong>Svar:</strong> \\(689\\) år</p>",
+        "ledtrad": "<p>Jämför med halten i levande material.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{A}{A_0}=\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "aktivitet efter 60 000 år",
+    "poang": "(0/1/0)",
+    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Ett djur dog för 60 000 år sedan, och benet innehåller 1,0 kg kol. Hur stor är benets aktivitet i dag?</p>",
+    "s": "<p>\\(A=1\\,000\\cdot0{,}23\\cdot\\left(\\tfrac12\\right)^{60\\,000/5\\,730}\\).</p><p><strong>Svar:</strong> \\(0{,}16\\) Bq</p>",
+    "id": "9.425",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.16202472184835504,
+    "tolerans": 0.0051,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken aktivitet hade benet från början?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "Bq",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "typ": "datering av fler fynd",
+    "poang": "(1/3/0)",
+    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><ol type=\"a\"><li>Ben från en krypta har aktiviteten 0,21 Bq per gram kol.</li><li>Ben har C-14/C-12-kvoten \\(3{,}25\\cdot10^{-13}\\).</li><li>En träbit på 200 g har aktiviteten 16 Bq.</li><li>En mumie har 78,5 % av C-14-halten i levande material.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}21)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(752\\) år</p></li><li><p>\\(\\dfrac{3{,}25\\cdot10^{-13}}{1{,}30\\cdot10^{-12}}=\\dfrac14\\): två halveringstider.</p><p><strong>Svar:</strong> \\(11\\,460\\) år</p></li><li><p>\\(\\dfrac{16}{200}=0{,}080\\) Bq/g. \\(t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}080)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(8\\,730\\) år</p></li><li><p>\\(t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}785)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(2\\,001\\) år</p></li></ol>",
+    "id": "9.426",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      752.0311756843881,
+      11460.0,
+      8730.010008206684,
+      2001.1190762601493
+    ],
+    "tolerans": [
+      11.3,
+      510.0,
+      131.0,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "år",
+      "år",
+      "år",
+      "år"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ben från en krypta har aktiviteten 0,21 Bq per gram kol.",
+        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ben från en krypta har aktiviteten 0,21 Bq per gram kol.</p>",
+        "s": "<p>\\(t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}21)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(752\\) år</p>",
+        "ledtrad": "<p>Jämför med levande material.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ben har C-14/C-12-kvoten \\(3{,}25\\cdot10^{-13}\\).",
+        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ben har C-14/C-12-kvoten \\(3{,}25\\cdot10^{-13}\\).</p>",
+        "s": "<p>\\(\\dfrac{3{,}25\\cdot10^{-13}}{1{,}30\\cdot10^{-12}}=\\dfrac14\\): två halveringstider.</p><p><strong>Svar:</strong> \\(11\\,460\\) år</p>",
+        "ledtrad": "<p>Jämför med levande material.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En träbit på 200 g har aktiviteten 16 Bq.",
+        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>En träbit på 200 g har aktiviteten 16 Bq.</p>",
+        "s": "<p>\\(\\dfrac{16}{200}=0{,}080\\) Bq/g. \\(t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}080)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(8\\,730\\) år</p>",
+        "ledtrad": "<p>Räkna per gram.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En mumie har 78,5 % av C-14-halten i levande material.",
+        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>En mumie har 78,5 % av C-14-halten i levande material.</p>",
+        "s": "<p>\\(t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}785)}{\\ln2}\\).</p><p><strong>Svar:</strong> \\(2\\,001\\) år</p>",
+        "ledtrad": "<p>Jämför med levande material.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(\\dfrac{A}{A_0}=\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "A",
+    "typ": "solsystemets ålder ur uranisotoper",
+    "poang": "(0/1/2)",
+    "t": "<p>Anta att U-235 (\\(T_{1/2}=7{,}04\\cdot10^8\\) år) och U-238 (\\(T_{1/2}=4{,}468\\cdot10^9\\) år) fanns i lika stora mängder när solsystemet bildades. I dag är kvoten \\(N_{235}/N_{238}=0{,}0072\\). Uppskatta solsystemets ålder.</p>",
+    "s": "<p>\\(0{,}0072=2^{-t/T_{235}+t/T_{238}}\\iff t=\\dfrac{\\log_2(1/0{,}0072)}{1/(7{,}04\\cdot10^8)-1/(4{,}468\\cdot10^9)}\\).</p><p><strong>Svar:</strong> \\(5{,}9\\cdot10^{9}\\) år</p>",
+    "id": "9.427",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sönderfallslagen och datering",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5948140515.35319,
+    "tolerans": 89200000.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv kvoten som en potens av 2.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "år",
+    "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -142988,6 +144759,582 @@ window.BANK = [
     "spel": true,
     "miniräknare": true,
     "geogebra": false
+  },
+  {
+    "kap": 9,
+    "omr": "fusion",
+    "niva": "E",
+    "typ": "neutroninfångning i väte",
+    "poang": "(2/0/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Atommassor: ¹H 1,0078250 u, ²H 2{,}0141018 u, ³H 3{,}0160493 u, neutron 1,0086649 u. Bestäm energin som frigörs vid</p><ol type=\"a\"><li>¹H + n → ²H + γ.</li><li>²H + n → ³H + γ.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\((1{,}0078250+1{,}0086649-2{,}0141018)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(2{,}22\\) MeV</p></li><li><p>\\((2{,}0141018+1{,}0086649-3{,}0160493)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(6{,}26\\) MeV</p></li></ol>",
+    "id": "9.414",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fusion och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.2244912689996936,
+      6.257190925999883
+    ],
+    "tolerans": [
+      0.0334,
+      0.0939
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "MeV"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Atommassor: ¹H 1,0078250 u, ²H 2{,}0141018 u, ³H 3{,}0160493 u, neutron 1,0086649 u. Bestäm energin som frigörs vid</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "¹H + n → ²H + γ.",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Atommassor: ¹H 1,0078250 u, ²H 2{,}0141018 u, ³H 3{,}0160493 u, neutron 1,0086649 u. Bestäm energin som frigörs vid</p><p>¹H + n → ²H + γ.</p>",
+        "s": "<p>\\((1{,}0078250+1{,}0086649-2{,}0141018)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(2{,}22\\) MeV</p>",
+        "ledtrad": "<p>Fotonen har ingen massa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "²H + n → ³H + γ.",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Atommassor: ¹H 1,0078250 u, ²H 2{,}0141018 u, ³H 3{,}0160493 u, neutron 1,0086649 u. Bestäm energin som frigörs vid</p><p>²H + n → ³H + γ.</p>",
+        "s": "<p>\\((2{,}0141018+1{,}0086649-3{,}0160493)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(6{,}26\\) MeV</p>",
+        "ledtrad": "<p>Fotonen har ingen massa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(Q=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fusion__fusion_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fusion",
+    "niva": "E",
+    "typ": "väteatomer i solens inre",
+    "poang": "(2/0/0)",
+    "t": "<p>Den genomsnittliga rörelseenergin hos en partikel i en gas är \\(E_k=\\tfrac32kT\\) med \\(k=1{,}3806\\cdot10^{-23}\\) J/K. I solens inre är \\(T=2\\cdot10^7\\) K.</p><ol type=\"a\"><li>Bestäm medelrörelseenergin hos en väteatom.</li><li>Vilken fart har en sådan väteatom (\\(1{,}6735\\cdot10^{-27}\\) kg)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E_k=1{,}5\\cdot1{,}3806\\cdot10^{-23}\\cdot2\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(4{,}1\\cdot10^{-16}\\) J</p></li><li><p>\\(v=\\sqrt{\\dfrac{2E_k}{m}}\\).</p><p><strong>Svar:</strong> \\(7{,}0\\cdot10^{5}\\) m/s</p></li></ol>",
+    "id": "9.415",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fusion och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.1417999999999996e-16,
+      703552.8090513118
+    ],
+    "tolerans": [
+      6.21e-18,
+      10600.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "J",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Den genomsnittliga rörelseenergin hos en partikel i en gas är \\(E_k=\\tfrac32kT\\) med \\(k=1{,}3806\\cdot10^{-23}\\) J/K. I solens inre är \\(T=2\\cdot10^7\\) K.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm medelrörelseenergin hos en väteatom.",
+        "t": "<p>Den genomsnittliga rörelseenergin hos en partikel i en gas är \\(E_k=\\tfrac32kT\\) med \\(k=1{,}3806\\cdot10^{-23}\\) J/K. I solens inre är \\(T=2\\cdot10^7\\) K.</p><p>Bestäm medelrörelseenergin hos en väteatom.</p>",
+        "s": "<p>\\(E_k=1{,}5\\cdot1{,}3806\\cdot10^{-23}\\cdot2\\cdot10^7\\).</p><p><strong>Svar:</strong> \\(4{,}1\\cdot10^{-16}\\) J</p>",
+        "ledtrad": "<p>Sätt in i formeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken fart har en sådan väteatom (\\(1{,}6735\\cdot10^{-27}\\) kg)?",
+        "t": "<p>Den genomsnittliga rörelseenergin hos en partikel i en gas är \\(E_k=\\tfrac32kT\\) med \\(k=1{,}3806\\cdot10^{-23}\\) J/K. I solens inre är \\(T=2\\cdot10^7\\) K.</p>Rörelseenergin är \\(4{,}1\\cdot10^{-16}\\) J.<p>Vilken fart har en sådan väteatom (\\(1{,}6735\\cdot10^{-27}\\) kg)?</p>",
+        "s": "<p>\\(v=\\sqrt{\\dfrac{2E_k}{m}}\\).</p><p><strong>Svar:</strong> \\(7{,}0\\cdot10^{5}\\) m/s</p>",
+        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Temperatur är ett mått på partiklarnas rörelseenergi.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fusion__fusion_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fusion",
+    "niva": "C",
+    "typ": "fusionskraft för ett hus",
+    "poang": "(1/3/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ⁴He 4{,}0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p><ol type=\"a\"><li>Hur stor energi frigörs vid en reaktion?</li><li>Hur många reaktioner krävs för husets årsbehov?</li><li>Vilken massa bränsle (²H + ³H) krävs?</li><li>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) skulle ge samma energi?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=(2{,}0141018+3{,}0160493-4{,}0026033-1{,}0086649)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(17{,}59\\) MeV</p></li><li><p>\\(N=\\dfrac{15\\,000\\cdot3{,}6\\cdot10^6}{17{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{22}\\)</p></li><li><p>\\(m=N\\cdot(2{,}0141018+3{,}0160493)\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(0{,}00016\\) kg</p></li><li><p>\\(N=\\dfrac{5{,}4\\cdot10^{10}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot235{,}04\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(0{,}00066\\) kg</p></li></ol>",
+    "id": "9.416",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fusion och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17.58923252100055,
+      1.91639203861192e+22,
+      0.00016006790795711817,
+      0.0006577818876404493
+    ],
+    "tolerans": [
+      0.264,
+      5.1e+20,
+      5.1e-06,
+      9.87e-06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "MeV",
+      null,
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ⁴He 4{,}0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor energi frigörs vid en reaktion?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ⁴He 4{,}0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p><p>Hur stor energi frigörs vid en reaktion?</p>",
+        "s": "<p>\\(Q=(2{,}0141018+3{,}0160493-4{,}0026033-1{,}0086649)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(17{,}59\\) MeV</p>",
+        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många reaktioner krävs för husets årsbehov?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ⁴He 4{,}0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p>Varje reaktion ger 17,59 MeV.<p>Hur många reaktioner krävs för husets årsbehov?</p>",
+        "s": "<p>\\(N=\\dfrac{15\\,000\\cdot3{,}6\\cdot10^6}{17{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{22}\\)</p>",
+        "ledtrad": "<p>1 kWh = 3,6 MJ.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken massa bränsle (²H + ³H) krävs?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ⁴He 4{,}0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p>Det krävs \\(1{,}92\\cdot10^{22}\\) reaktioner.<p>Vilken massa bränsle (²H + ³H) krävs?</p>",
+        "s": "<p>\\(m=N\\cdot(2{,}0141018+3{,}0160493)\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(0{,}00016\\) kg</p>",
+        "ledtrad": "<p>Varje reaktion förbrukar en deuteron och en triton.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) skulle ge samma energi?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ⁴He 4{,}0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p><p>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) skulle ge samma energi?</p>",
+        "s": "<p>\\(N=\\dfrac{5{,}4\\cdot10^{10}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot235{,}04\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(0{,}00066\\) kg</p>",
+        "ledtrad": "<p>Bestäm antalet klyvningar.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(Q=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fusion__fusion_och_energi",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fusion",
+    "niva": "C",
+    "typ": "D-D-kraftverk jämfört med fission",
+    "poang": "(1/2/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett kraftverk på 1 500 MW använder D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2{,}0141018 u, ³He 3{,}0160293 u, neutron 1,0086649 u.</p><ol type=\"a\"><li>Hur stor energi frigörs vid en reaktion?</li><li>Hur stor massa deuterium förbrukas per sekund?</li><li>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) förbrukar ett fissionsverk med samma effekt per sekund?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=(2\\cdot2{,}0141018-3{,}0160293-1{,}0086649)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(3{,}27\\) MeV</p></li><li><p>\\(N=\\dfrac{1\\,500\\cdot10^6}{3{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\) per sekund, \\(m=N\\cdot2\\cdot2{,}0141018\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{-5}\\) kg</p></li><li><p>\\(N=\\dfrac{1\\,500\\cdot10^6}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot235{,}04\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\cdot10^{-5}\\) kg</p></li></ol>",
+    "id": "9.417",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fusion och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.268971006000203,
+      1.915878535542899e-05,
+      1.8271719101123593e-05
+    ],
+    "tolerans": [
+      0.049,
+      5.1e-07,
+      5.1e-07
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett kraftverk på 1 500 MW använder D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2{,}0141018 u, ³He 3{,}0160293 u, neutron 1,0086649 u.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor energi frigörs vid en reaktion?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett kraftverk på 1 500 MW använder D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2{,}0141018 u, ³He 3{,}0160293 u, neutron 1,0086649 u.</p><p>Hur stor energi frigörs vid en reaktion?</p>",
+        "s": "<p>\\(Q=(2\\cdot2{,}0141018-3{,}0160293-1{,}0086649)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(3{,}27\\) MeV</p>",
+        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor massa deuterium förbrukas per sekund?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett kraftverk på 1 500 MW använder D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2{,}0141018 u, ³He 3{,}0160293 u, neutron 1,0086649 u.</p>Varje reaktion ger 3,27 MeV.<p>Hur stor massa deuterium förbrukas per sekund?</p>",
+        "s": "<p>\\(N=\\dfrac{1\\,500\\cdot10^6}{3{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\) per sekund, \\(m=N\\cdot2\\cdot2{,}0141018\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{-5}\\) kg</p>",
+        "ledtrad": "<p>Två deuteroner per reaktion.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) förbrukar ett fissionsverk med samma effekt per sekund?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett kraftverk på 1 500 MW använder D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2{,}0141018 u, ³He 3{,}0160293 u, neutron 1,0086649 u.</p><p>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) förbrukar ett fissionsverk med samma effekt per sekund?</p>",
+        "s": "<p>\\(N=\\dfrac{1\\,500\\cdot10^6}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot235{,}04\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\cdot10^{-5}\\) kg</p>",
+        "ledtrad": "<p>Bestäm antalet klyvningar per sekund.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Räkna antal reaktioner per sekund.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fusion__fusion_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fusion",
+    "niva": "C",
+    "typ": "deuterium för Sveriges elbehov",
+    "poang": "(1/2/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ¹H 1,0078250 u.</p><ol type=\"a\"><li>Hur mycket energi frigörs vid en reaktion?</li><li>Hur mycket energi frigörs om 1,0 kg deuterium fusioneras helt?</li><li>Hur mycket deuterium krävs för 140 TWh el med verkningsgraden 40 %?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=(2\\cdot2{,}0141018-3{,}0160493-1{,}0078250)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(4{,}03\\) MeV</p></li><li><p>\\(N=\\dfrac{1{,}0}{2{,}0141018\\,\\text{u}}\\) deuteroner ger \\(\\dfrac N2\\) reaktioner. \\(E=\\dfrac N2\\cdot4{,}03\\) MeV.</p><p><strong>Svar:</strong> \\(9{,}7\\cdot10^{13}\\) J</p></li><li><p>\\(E=\\dfrac{140\\cdot10^{12}\\cdot3\\,600}{0{,}40}\\), \\(m=\\dfrac{E}{9{,}66\\cdot10^{13}}\\) kg.</p><p><strong>Svar:</strong> \\(13\\,046\\) kg</p></li></ol>",
+    "id": "9.418",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fusion och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.0326996570001885,
+      96584646996238.61,
+      13045.551639786698
+    ],
+    "tolerans": [
+      0.0605,
+      1450000000000.0,
+      510.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "J",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ¹H 1,0078250 u.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket energi frigörs vid en reaktion?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ¹H 1,0078250 u.</p><p>Hur mycket energi frigörs vid en reaktion?</p>",
+        "s": "<p>\\(Q=(2\\cdot2{,}0141018-3{,}0160493-1{,}0078250)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(4{,}03\\) MeV</p>",
+        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi frigörs om 1,0 kg deuterium fusioneras helt?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ¹H 1,0078250 u.</p>Varje reaktion ger 4,03 MeV.<p>Hur mycket energi frigörs om 1,0 kg deuterium fusioneras helt?</p>",
+        "s": "<p>\\(N=\\dfrac{1{,}0}{2{,}0141018\\,\\text{u}}\\) deuteroner ger \\(\\dfrac N2\\) reaktioner. \\(E=\\dfrac N2\\cdot4{,}03\\) MeV.</p><p><strong>Svar:</strong> \\(9{,}7\\cdot10^{13}\\) J</p>",
+        "ledtrad": "<p>Två deuteroner per reaktion.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket deuterium krävs för 140 TWh el med verkningsgraden 40 %?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ¹H 1,0078250 u.</p>1,0 kg deuterium ger \\(9{,}66\\cdot10^{13}\\) J.<p>Hur mycket deuterium krävs för 140 TWh el med verkningsgraden 40 %?</p>",
+        "s": "<p>\\(E=\\dfrac{140\\cdot10^{12}\\cdot3\\,600}{0{,}40}\\), \\(m=\\dfrac{E}{9{,}66\\cdot10^{13}}\\) kg.</p><p><strong>Svar:</strong> \\(13\\,046\\) kg</p>",
+        "ledtrad": "<p>1 Wh = 3 600 J.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Två deuteroner per reaktion.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fusion__fusion_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fusion",
+    "niva": "C",
+    "typ": "litium-deuterium-fusion",
+    "poang": "(2/1/0)",
+    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Reaktionen ⁶Li + ²H → 2 ⁴He. Atommassor: ⁶Li 6{,}0151229 u, ²H 2{,}0141018 u, ⁴He 4{,}0026033 u.</p><ol type=\"a\"><li>Beräkna den frigjorda energin.</li><li>Hur mycket litium krävs för ett hushålls årsbehov på \\(3{,}8\\cdot10^{10}\\) J?</li><li>Olja ger \\(5\\cdot10^7\\) J/kg. Hur mycket olja motsvarar samma energi?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(Q=(6{,}0151229+2{,}0141018-2\\cdot4{,}0026033)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(22{,}4\\) MeV</p></li><li><p>\\(N=\\dfrac{3{,}8\\cdot10^{10}}{22{,}4\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot6{,}0151229\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(0{,}00011\\) kg</p></li><li><p>\\(\\dfrac{3{,}8\\cdot10^{10}}{5\\cdot10^7}\\).</p><p><strong>Svar:</strong> \\(760\\) kg</p></li></ol>",
+    "id": "9.419",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fusion och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      22.37261996900097,
+      0.0001058979674140335,
+      760
+    ],
+    "tolerans": [
+      0.336,
+      5.1e-06,
+      11.4
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "kg",
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Reaktionen ⁶Li + ²H → 2 ⁴He. Atommassor: ⁶Li 6{,}0151229 u, ²H 2{,}0141018 u, ⁴He 4{,}0026033 u.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Beräkna den frigjorda energin.",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Reaktionen ⁶Li + ²H → 2 ⁴He. Atommassor: ⁶Li 6{,}0151229 u, ²H 2{,}0141018 u, ⁴He 4{,}0026033 u.</p><p>Beräkna den frigjorda energin.</p>",
+        "s": "<p>\\(Q=(6{,}0151229+2{,}0141018-2\\cdot4{,}0026033)\\cdot931{,}49\\).</p><p><strong>Svar:</strong> \\(22{,}4\\) MeV</p>",
+        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket litium krävs för ett hushålls årsbehov på \\(3{,}8\\cdot10^{10}\\) J?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Reaktionen ⁶Li + ²H → 2 ⁴He. Atommassor: ⁶Li 6{,}0151229 u, ²H 2{,}0141018 u, ⁴He 4{,}0026033 u.</p>Varje reaktion ger 22,4 MeV.<p>Hur mycket litium krävs för ett hushålls årsbehov på \\(3{,}8\\cdot10^{10}\\) J?</p>",
+        "s": "<p>\\(N=\\dfrac{3{,}8\\cdot10^{10}}{22{,}4\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\), \\(m=N\\cdot6{,}0151229\\,\\text{u}\\).</p><p><strong>Svar:</strong> \\(0{,}00011\\) kg</p>",
+        "ledtrad": "<p>En litiumatom per reaktion.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Olja ger \\(5\\cdot10^7\\) J/kg. Hur mycket olja motsvarar samma energi?",
+        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Reaktionen ⁶Li + ²H → 2 ⁴He. Atommassor: ⁶Li 6{,}0151229 u, ²H 2{,}0141018 u, ⁴He 4{,}0026033 u.</p><p>Olja ger \\(5\\cdot10^7\\) J/kg. Hur mycket olja motsvarar samma energi?</p>",
+        "s": "<p>\\(\\dfrac{3{,}8\\cdot10^{10}}{5\\cdot10^7}\\).</p><p><strong>Svar:</strong> \\(760\\) kg</p>",
+        "ledtrad": "<p>Energi delat med energi per kg.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Jämför fusion med förbränning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "fusion__fusion_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 9,
+    "omr": "fusion",
+    "niva": "E",
+    "typ": "solens massförlust",
+    "poang": "(2/0/0)",
+    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Solen strålar ut effekten \\(4\\cdot10^{26}\\) W och har massan \\(2\\cdot10^{30}\\) kg. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><ol type=\"a\"><li>Hur mycket massa förlorar solen per år?</li><li>Hur stor andel av solens massa är det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta m=\\dfrac{Pt}{c^2}=\\dfrac{4\\cdot10^{26}\\cdot3{,}156\\cdot10^7}{(3{,}00\\cdot10^8)^2}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{17}\\) kg</p></li><li><p>\\(\\dfrac{1{,}4\\cdot10^{17}}{2\\cdot10^{30}}\\).</p><p><strong>Svar:</strong> \\(7{,}0\\cdot10^{-14}\\)</p></li></ol>",
+    "id": "9.420",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Fusion och energi",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.40256e+17,
+      7.0128e-14
+    ],
+    "tolerans": [
+      5100000000000000.0,
+      1.05e-15
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kg",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Solen strålar ut effekten \\(4\\cdot10^{26}\\) W och har massan \\(2\\cdot10^{30}\\) kg. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket massa förlorar solen per år?",
+        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Solen strålar ut effekten \\(4\\cdot10^{26}\\) W och har massan \\(2\\cdot10^{30}\\) kg. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><p>Hur mycket massa förlorar solen per år?</p>",
+        "s": "<p>\\(\\Delta m=\\dfrac{Pt}{c^2}=\\dfrac{4\\cdot10^{26}\\cdot3{,}156\\cdot10^7}{(3{,}00\\cdot10^8)^2}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{17}\\) kg</p>",
+        "ledtrad": "<p>\\(E=mc^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor andel av solens massa är det?",
+        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Solen strålar ut effekten \\(4\\cdot10^{26}\\) W och har massan \\(2\\cdot10^{30}\\) kg. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p>Solen förlorar \\(1{,}4\\cdot10^{17}\\) kg per år.<p>Hur stor andel av solens massa är det?</p>",
+        "s": "<p>\\(\\dfrac{1{,}4\\cdot10^{17}}{2\\cdot10^{30}}\\).</p><p><strong>Svar:</strong> \\(7{,}0\\cdot10^{-14}\\)</p>",
+        "ledtrad": "<p>Dela med solens massa.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(E=mc^2\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "fusion__fusion_och_energi",
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "9.296",

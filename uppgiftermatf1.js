@@ -3459,8 +3459,8 @@ window.BANKMATF1 = [
     "typ": "lådprincipen med strumpor",
     "poang": "2/0/0",
     "id": "1.120",
-    "t": "<p>I en låda ligger svarta, vita och blå strumpor. Hur många strumpor måste man ta upp i mörker för att vara säker på att få två strumpor av samma färg?</p>",
-    "s": "<p>Färgerna är lådorna: svart, vit och blå, alltså 3 lådor.</p><p>I värsta fall kan man först få en svart, en vit och en blå strumpa, alltså tre strumpor utan att ha ett par i samma färg. Nästa strumpa måste då ge samma färg som någon av de tidigare.</p><p><strong>Man måste ta upp 4 strumpor.</strong></p>",
+    "t": "<p>I en korg ligger många svarta, vita och blå strumpor. Hur många strumpor måste man minst ta upp i mörker för att vara säker på att få två strumpor av samma färg?</p>",
+    "s": "<p>I lådprincipen är strumporna föremålen och färgerna lådorna. Det finns 3 färger, alltså 3 lådor.</p><p>Med 3 strumpor kan man i värsta fall få en av varje färg och alltså inget par. Med 4 strumpor går det inte längre: 4 föremål ryms inte i 3 lådor med högst ett föremål i varje, så minst två strumpor har samma färg.</p><p><strong>Svar: 4 strumpor.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Använda lådprincipen",
@@ -3473,7 +3473,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Strumporna är föremålen och färgerna är lådorna. Hur många strumpor kan man som mest ta upp utan att få två av samma färg?</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"

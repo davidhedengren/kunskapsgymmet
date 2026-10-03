@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-03-fy1t";
+const BANK_VERSION="2026-10-03-fy1u";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10287,6 +10287,18 @@ function felBelonadeLokalt(){
 function felSkrivBelonade(o){
   try{ localStorage.setItem(FEL_BELONAD_KEY,JSON.stringify(o)); }catch(_){}
 }
+const FEL_LARARMARK="[Lärare]";
+/* Delar loggens kommentarer i lärarens och elevernas. */
+function felDelaKommentarer(lista){
+  const elev=[], larare=[]; let lararUtanText=0;
+  for(const k of (lista||[]).filter(Boolean)){
+    if(String(k).startsWith(FEL_LARARMARK)){
+      const t=String(k).slice(FEL_LARARMARK.length).trim();
+      t ? larare.push(t) : lararUtanText++;
+    }else elev.push(k);
+  }
+  return {elev,larare,lararUtanText};
+}
 const FEL_TAGGAR=[
   {id:"facit",     txt:"Fel svar i facit"},
   {id:"otydlig",   txt:"Frågan är otydlig"},
@@ -10467,7 +10479,10 @@ function vaxlaFelTagg(id){
 function skickaFelrapport(){
   const t=state.currentTask;
   if(!t) return stangFelrapport();
-  const kommentar=(document.getElementById("felkommentar")?.value||"").trim().slice(0,300);
+  let kommentar=(document.getElementById("felkommentar")?.value||"").trim().slice(0,300);
+  /* Rapporter från lärarkonton märks i kommentaren, så att loggen kan skilja
+     lärarens kommentar från elevernas (servern sparar ingen roll). */
+  if(arNagonLarare()) kommentar=(FEL_LARARMARK+(kommentar?" "+kommentar:"")).slice(0,300);
   const post={
     kurs:state.course, spar:state.track||null,
     uppgift:felUppgiftsId(t), deluppgift:t.deluppgift||null,
@@ -10561,7 +10576,10 @@ async function ritaFellogg(){
       html+=`<div class="kursrad">${esc(COURSES[kurs]?.name||kurs)}</div>`;
     }
     const taggar=(r.taggar||[]).map(x=>FEL_TAGGAR.find(y=>y.id===x)?.txt||x).join(" · ");
-    const komm=(r.kommentarer||[]).filter(Boolean).slice(0,3).join(" | ");
+    const kd=felDelaKommentarer(r.kommentarer);
+    const komm=[...kd.larare.map(x=>"Lärare: "+x),
+      ...(kd.lararUtanText && !kd.larare.length?["Rapport från lärare"]:[]),
+      ...kd.elev].slice(0,3).join(" | ");
     html+=`<div class="felpost${r.atgardad?" klar":""}">
       <span class="nr">#${esc(r.uppgift)}</span>
       <span class="txt">${taggar?esc(taggar):"<em>ingen tagg</em>"}${
@@ -10612,12 +10630,15 @@ function felloggText(){
       rader.push("",(COURSES[kurs]?.name||kurs)+"  ["+kurs+"]");
     }
     const taggar=(r.taggar||[]).map(x=>FEL_TAGGAR.find(y=>y.id===x)?.txt||x).join(", ");
-    const komm=(r.kommentarer||[]).filter(Boolean).map(x=>'"'+x+'"').join(" ");
+    const kd=felDelaKommentarer(r.kommentarer);
+    const cit=a=>a.map(x=>'"'+x+'"').join(" ");
     rader.push(`  #${r.uppgift}${r.deluppgift?" del "+r.deluppgift:""}`
       +`${r.spar?"  spår "+r.spar:""}  ${r.antal} rapport${r.antal===1?"":"er"}`
       +`${r.senast?"  senast "+String(r.senast).slice(0,10):""}`
       +`${taggar?"\n      taggar: "+taggar:""}`
-      +`${komm?"\n      elevkommentarer: "+komm:""}`);
+      +`${kd.larare.length?"\n      lärarkommentarer: "+cit(kd.larare):""}`
+      +`${kd.lararUtanText && !kd.larare.length?"\n      rapporterad av lärare (utan kommentar)":""}`
+      +`${kd.elev.length?"\n      elevkommentarer: "+cit(kd.elev):""}`);
   });
   return rader.join("\n");
 }

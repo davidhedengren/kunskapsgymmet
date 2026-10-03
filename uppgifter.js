@@ -124633,6 +124633,2105 @@ window.BANK = [
     ]
   },
   {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "E",
+    "typ": "tid för olika färdsätt",
+    "poang": "(4/0/0)",
+    "t": "<p>Avståndet mellan två orter är 2,5 mil. Hur lång tid tar resan om man</p><ol type=\"a\"><li>går med 1,5 m/s? Svara i timmar.</li><li>springer med 18 km/h?</li><li>åker bil med 70 km/h? Svara i minuter.</li><li>flyger med 0,69 km/s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{25\\,000}{1{,}5}\\) s.</p><p><strong>Svar:</strong> \\(4{,}6\\) h</p></li><li><p>\\(t=\\dfrac{25}{18}\\) h.</p><p><strong>Svar:</strong> \\(1{,}4\\) h</p></li><li><p>\\(t=\\dfrac{25}{70}\\cdot60\\).</p><p><strong>Svar:</strong> \\(21\\) min</p></li><li><p>\\(t=\\dfrac{25\\,000}{690}\\).</p><p><strong>Svar:</strong> \\(36\\) s</p></li></ol>",
+    "id": "2.291",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.62962962962963,
+      1.3888888888888888,
+      21.42857142857143,
+      36.231884057971016
+    ],
+    "tolerans": [
+      0.0694,
+      0.051,
+      0.51,
+      0.543
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "h",
+      "h",
+      "min",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Avståndet mellan två orter är 2,5 mil. Hur lång tid tar resan om man</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "går med 1,5 m/s? Svara i timmar.",
+        "t": "<p>Avståndet mellan två orter är 2,5 mil. Hur lång tid tar resan om man</p><p>går med 1,5 m/s? Svara i timmar.</p>",
+        "s": "<p>\\(t=\\dfrac{25\\,000}{1{,}5}\\) s.</p><p><strong>Svar:</strong> \\(4{,}6\\) h</p>",
+        "ledtrad": "<p>1 mil = 10 km.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "springer med 18 km/h?",
+        "t": "<p>Avståndet mellan två orter är 2,5 mil. Hur lång tid tar resan om man</p><p>springer med 18 km/h?</p>",
+        "s": "<p>\\(t=\\dfrac{25}{18}\\) h.</p><p><strong>Svar:</strong> \\(1{,}4\\) h</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "åker bil med 70 km/h? Svara i minuter.",
+        "t": "<p>Avståndet mellan två orter är 2,5 mil. Hur lång tid tar resan om man</p><p>åker bil med 70 km/h? Svara i minuter.</p>",
+        "s": "<p>\\(t=\\dfrac{25}{70}\\cdot60\\).</p><p><strong>Svar:</strong> \\(21\\) min</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "flyger med 0,69 km/s?",
+        "t": "<p>Avståndet mellan två orter är 2,5 mil. Hur lång tid tar resan om man</p><p>flyger med 0,69 km/s?</p>",
+        "s": "<p>\\(t=\\dfrac{25\\,000}{690}\\).</p><p><strong>Svar:</strong> \\(36\\) s</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "avstånd ur ljud och ljus",
+    "poang": "(3/1/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>Åskmullret hörs 4,60 s efter blixten. Ljudets fart är 340 m/s. Hur långt bort slog blixten ner?</li><li>Ljus går 18 km genom en optisk fiber på 0,13 ms. Bestäm ljusets fart i fibern.</li><li>En fladdermus får ekot från ett byte efter 0,20 s. Ljudets fart är 340 m/s. Hur långt bort är bytet?</li><li>Ett ekolod får ekot från en botten 50 m ner efter 66,5 ms. Bestäm ljudets fart i vatten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=340\\cdot4{,}60\\). Ljusets gångtid är försumbar.</p><p><strong>Svar:</strong> \\(1\\,564\\) m</p></li><li><p>\\(v=\\dfrac{18\\,000}{0{,}13\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{8}\\) m/s</p></li><li><p>Ljudet går fram och tillbaka: \\(s=\\dfrac{340\\cdot0{,}20}{2}\\).</p><p><strong>Svar:</strong> \\(34\\) m</p></li><li><p>\\(v=\\dfrac{2\\cdot50}{0{,}0665}\\).</p><p><strong>Svar:</strong> \\(1\\,504\\) m/s</p></li></ol>",
+    "id": "2.292",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1563.9999999999998,
+      138461538.46153846,
+      34,
+      1503.7593984962405
+    ],
+    "tolerans": [
+      23.5,
+      5100000.0,
+      0.51,
+      51.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Åskmullret hörs 4,60 s efter blixten. Ljudets fart är 340 m/s. Hur långt bort slog blixten ner?",
+        "t": "<p>Bestäm.</p><p>Åskmullret hörs 4,60 s efter blixten. Ljudets fart är 340 m/s. Hur långt bort slog blixten ner?</p>",
+        "s": "<p>\\(s=340\\cdot4{,}60\\). Ljusets gångtid är försumbar.</p><p><strong>Svar:</strong> \\(1\\,564\\) m</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ljus går 18 km genom en optisk fiber på 0,13 ms. Bestäm ljusets fart i fibern.",
+        "t": "<p>Bestäm.</p><p>Ljus går 18 km genom en optisk fiber på 0,13 ms. Bestäm ljusets fart i fibern.</p>",
+        "s": "<p>\\(v=\\dfrac{18\\,000}{0{,}13\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{8}\\) m/s</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En fladdermus får ekot från ett byte efter 0,20 s. Ljudets fart är 340 m/s. Hur långt bort är bytet?",
+        "t": "<p>Bestäm.</p><p>En fladdermus får ekot från ett byte efter 0,20 s. Ljudets fart är 340 m/s. Hur långt bort är bytet?</p>",
+        "s": "<p>Ljudet går fram och tillbaka: \\(s=\\dfrac{340\\cdot0{,}20}{2}\\).</p><p><strong>Svar:</strong> \\(34\\) m</p>",
+        "ledtrad": "<p>Ekot går dubbla sträckan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Ett ekolod får ekot från en botten 50 m ner efter 66,5 ms. Bestäm ljudets fart i vatten.",
+        "t": "<p>Bestäm.</p><p>Ett ekolod får ekot från en botten 50 m ner efter 66,5 ms. Bestäm ljudets fart i vatten.</p>",
+        "s": "<p>\\(v=\\dfrac{2\\cdot50}{0{,}0665}\\).</p><p><strong>Svar:</strong> \\(1\\,504\\) m/s</p>",
+        "ledtrad": "<p>Ekot går dubbla sträckan.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "E",
+    "typ": "motorväg",
+    "poang": "(2/0/0)",
+    "t": "<p>Johan kör med konstant 110 km/h. Han passerar Mjölby 11.34 och Linköping 11.51.</p><ol type=\"a\"><li>Hur långt är det mellan Mjölby och Linköping?</li><li>Han kör 42,5 km till Norrköping. Hur många minuter tar det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=110\\cdot\\dfrac{17}{60}\\).</p><p><strong>Svar:</strong> \\(31{,}2\\) km</p></li><li><p>\\(t=\\dfrac{42{,}5}{110}\\cdot60\\).</p><p><strong>Svar:</strong> \\(23\\) min</p></li></ol>",
+    "id": "2.293",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      31.166666666666668,
+      23.18181818181818
+    ],
+    "tolerans": [
+      0.468,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "km",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Johan kör med konstant 110 km/h. Han passerar Mjölby 11.34 och Linköping 11.51.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt är det mellan Mjölby och Linköping?",
+        "t": "<p>Johan kör med konstant 110 km/h. Han passerar Mjölby 11.34 och Linköping 11.51.</p><p>Hur långt är det mellan Mjölby och Linköping?</p>",
+        "s": "<p>\\(s=110\\cdot\\dfrac{17}{60}\\).</p><p><strong>Svar:</strong> \\(31{,}2\\) km</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Han kör 42,5 km till Norrköping. Hur många minuter tar det?",
+        "t": "<p>Johan kör med konstant 110 km/h. Han passerar Mjölby 11.34 och Linköping 11.51.</p><p>Han kör 42,5 km till Norrköping. Hur många minuter tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{42{,}5}{110}\\cdot60\\).</p><p><strong>Svar:</strong> \\(23\\) min</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "hinner man reagera",
+    "poang": "(3/1/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En puck med 145 km/h skjuts från 15 m. Hur lång tid tar det till mål? (Målvakten behöver 0,55 s.)</li><li>En boll skjuts med 100 km/h mot en stolpe 25 m bort. En spelare 7,32 m bort ska hinna dit samtidigt. Hur fort måste spelaren springa?</li><li>En gepard (28 m/s) jagar en zebra (16 m/s) som är 35 m före. Efter hur lång tid är den ifatt?</li><li>En elektron rör sig 7,5 mm/s i en 20 m lång sladd. Hur många minuter tar det att passera sladden?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{15}{145/3{,}6}\\). Det blir mål.</p><p><strong>Svar:</strong> \\(0{,}37\\) s</p></li><li><p>\\(t=\\dfrac{25}{27{,}8}\\), \\(v=\\dfrac{7{,}32}{t}\\).</p><p><strong>Svar:</strong> \\(8{,}1\\) m/s</p></li><li><p>\\(t=\\dfrac{35}{28-16}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) s</p></li><li><p>\\(t=\\dfrac{20}{0{,}0075}\\) s.</p><p><strong>Svar:</strong> \\(44\\) min</p></li></ol>",
+    "id": "2.294",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.37241379310344824,
+      8.133333333333333,
+      2.9166666666666665,
+      44.44444444444445
+    ],
+    "tolerans": [
+      0.00559,
+      0.122,
+      0.051,
+      0.667
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s",
+      "s",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En puck med 145 km/h skjuts från 15 m. Hur lång tid tar det till mål? (Målvakten behöver 0,55 s.)",
+        "t": "<p>Bestäm.</p><p>En puck med 145 km/h skjuts från 15 m. Hur lång tid tar det till mål? (Målvakten behöver 0,55 s.)</p>",
+        "s": "<p>\\(t=\\dfrac{15}{145/3{,}6}\\). Det blir mål.</p><p><strong>Svar:</strong> \\(0{,}37\\) s</p>",
+        "ledtrad": "<p>Gör om till m/s.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "En boll skjuts med 100 km/h mot en stolpe 25 m bort. En spelare 7,32 m bort ska hinna dit samtidigt. Hur fort måste spelaren springa?",
+        "t": "<p>Bestäm.</p><p>En boll skjuts med 100 km/h mot en stolpe 25 m bort. En spelare 7,32 m bort ska hinna dit samtidigt. Hur fort måste spelaren springa?</p>",
+        "s": "<p>\\(t=\\dfrac{25}{27{,}8}\\), \\(v=\\dfrac{7{,}32}{t}\\).</p><p><strong>Svar:</strong> \\(8{,}1\\) m/s</p>",
+        "ledtrad": "<p>Samma tid för båda.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En gepard (28 m/s) jagar en zebra (16 m/s) som är 35 m före. Efter hur lång tid är den ifatt?",
+        "t": "<p>Bestäm.</p><p>En gepard (28 m/s) jagar en zebra (16 m/s) som är 35 m före. Efter hur lång tid är den ifatt?</p>",
+        "s": "<p>\\(t=\\dfrac{35}{28-16}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) s</p>",
+        "ledtrad": "<p>Relativ fart.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "En elektron rör sig 7,5 mm/s i en 20 m lång sladd. Hur många minuter tar det att passera sladden?",
+        "t": "<p>Bestäm.</p><p>En elektron rör sig 7,5 mm/s i en 20 m lång sladd. Hur många minuter tar det att passera sladden?</p>",
+        "s": "<p>\\(t=\\dfrac{20}{0{,}0075}\\) s.</p><p><strong>Svar:</strong> \\(44\\) min</p>",
+        "ledtrad": "<p>Gör om till m/s.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "skidlopp",
+    "poang": "(1/1/0)",
+    "t": "<p>Anna åker 10 km med 18 km/h. Stina startar 2,0 minuter efter Anna och går i mål 3,0 minuter före henne.</p><ol type=\"a\"><li>Hur många minuter tar Annas lopp?</li><li>Bestäm Stinas fart.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{10}{18}\\cdot60\\).</p><p><strong>Svar:</strong> \\(33\\) min</p></li><li><p>Stinas tid: \\(33{,}3-5{,}0\\) min. \\(v=\\dfrac{10}{28{,}3/60}\\).</p><p><strong>Svar:</strong> \\(21\\) km/h</p></li></ol>",
+    "id": "2.295",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      33.333333333333336,
+      21.176470588235293
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "min",
+      "km/h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Anna åker 10 km med 18 km/h. Stina startar 2,0 minuter efter Anna och går i mål 3,0 minuter före henne.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många minuter tar Annas lopp?",
+        "t": "<p>Anna åker 10 km med 18 km/h. Stina startar 2,0 minuter efter Anna och går i mål 3,0 minuter före henne.</p><p>Hur många minuter tar Annas lopp?</p>",
+        "s": "<p>\\(t=\\dfrac{10}{18}\\cdot60\\).</p><p><strong>Svar:</strong> \\(33\\) min</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm Stinas fart.",
+        "t": "<p>Anna åker 10 km med 18 km/h. Stina startar 2,0 minuter efter Anna och går i mål 3,0 minuter före henne.</p>Annas lopp tar 33,3 minuter.<p>Bestäm Stinas fart.</p>",
+        "s": "<p>Stinas tid: \\(33{,}3-5{,}0\\) min. \\(v=\\dfrac{10}{28{,}3/60}\\).</p><p><strong>Svar:</strong> \\(21\\) km/h</p>",
+        "ledtrad": "<p>Stina åker 5,0 minuter kortare tid.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "tur och retur till affären",
+    "poang": "(0/1/0)",
+    "t": "<p>Lars går till affären med 12 km/h, handlar i 15 minuter och går hem med 9,0 km/h. Han är borta 50 minuter. Hur långt är det till affären?</p>",
+    "s": "<p>\\(\\dfrac{d}{12}+\\dfrac{d}{9{,}0}=\\dfrac{35}{60}\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) km</p>",
+    "id": "2.296",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0000000000000004,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gångtiden är 35 minuter.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "km",
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "ikapp och möte",
+    "poang": "(1/2/0)",
+    "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><ol type=\"a\"><li>En Porsche (106 km/h) är 186 m bakom en Toyota (98,0 km/h). Hur lång tid tar det att komma ikapp?</li><li>Ines (15 km/h) och Georg (18 km/h) cyklar mot varandra från 27 km avstånd. Hur långt från Ines start möts de?</li><li>En Volvo (78 km/h) och en Saab (85 km/h) kör mot varandra från 186 m avstånd. När möts de?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{186}{(106-98{,}0)/3{,}6}\\).</p><p><strong>Svar:</strong> \\(83{,}7\\) s</p></li><li><p>\\(t=\\dfrac{27}{33}\\) h, \\(s=15t\\).</p><p><strong>Svar:</strong> \\(12\\) km</p></li><li><p>\\(t=\\dfrac{186}{163/3{,}6}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\) s</p></li></ol>",
+    "id": "2.297",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      83.7,
+      12.272727272727273,
+      4.1079754601227
+    ],
+    "tolerans": [
+      1.26,
+      0.51,
+      0.0616
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "km",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En Porsche (106 km/h) är 186 m bakom en Toyota (98,0 km/h). Hur lång tid tar det att komma ikapp?",
+        "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><p>En Porsche (106 km/h) är 186 m bakom en Toyota (98,0 km/h). Hur lång tid tar det att komma ikapp?</p>",
+        "s": "<p>\\(t=\\dfrac{186}{(106-98{,}0)/3{,}6}\\).</p><p><strong>Svar:</strong> \\(83{,}7\\) s</p>",
+        "ledtrad": "<p>Relativ fart.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ines (15 km/h) och Georg (18 km/h) cyklar mot varandra från 27 km avstånd. Hur långt från Ines start möts de?",
+        "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><p>Ines (15 km/h) och Georg (18 km/h) cyklar mot varandra från 27 km avstånd. Hur långt från Ines start möts de?</p>",
+        "s": "<p>\\(t=\\dfrac{27}{33}\\) h, \\(s=15t\\).</p><p><strong>Svar:</strong> \\(12\\) km</p>",
+        "ledtrad": "<p>Farterna adderas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En Volvo (78 km/h) och en Saab (85 km/h) kör mot varandra från 186 m avstånd. När möts de?",
+        "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><p>En Volvo (78 km/h) och en Saab (85 km/h) kör mot varandra från 186 m avstånd. När möts de?</p>",
+        "s": "<p>\\(t=\\dfrac{186}{163/3{,}6}\\).</p><p><strong>Svar:</strong> \\(4{,}1\\) s</p>",
+        "ledtrad": "<p>Farterna adderas.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "E",
+    "typ": "maraton i jämn fart",
+    "poang": "(1/0/0)",
+    "t": "<p>Gerd springer 100 m på 24 s i snitt. Hur många timmar tar ett maraton på 42 km?</p>",
+    "s": "<p>\\(t=420\\cdot24\\) s.</p><p><strong>Svar:</strong> \\(2{,}8\\) h</p>",
+    "id": "2.298",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.8,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 2,
+    "svarEnhet": "h",
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "E",
+    "typ": "skidåkare tur och retur",
+    "poang": "(2/0/0)",
+    "t": "<p>En skidåkare åker 6,7 m/s i 15 minuter och sedan 8,2 m/s i 12 minuter. Sedan åker hen tillbaka till starten på 35 minuter.</p><ol type=\"a\"><li>Hur långt åkte hen under de första 27 minuterna?</li><li>Bestäm farten på vägen tillbaka.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(s=6{,}7\\cdot900+8{,}2\\cdot720\\).</p><p><strong>Svar:</strong> \\(11\\,934\\) m</p></li><li><p>\\(v=\\dfrac{11\\,934}{2\\,100}\\).</p><p><strong>Svar:</strong> \\(5{,}7\\) m/s</p></li></ol>",
+    "id": "2.299",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11934.0,
+      5.682857142857143
+    ],
+    "tolerans": [
+      510.0,
+      0.0852
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En skidåkare åker 6,7 m/s i 15 minuter och sedan 8,2 m/s i 12 minuter. Sedan åker hen tillbaka till starten på 35 minuter.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur långt åkte hen under de första 27 minuterna?",
+        "t": "<p>En skidåkare åker 6,7 m/s i 15 minuter och sedan 8,2 m/s i 12 minuter. Sedan åker hen tillbaka till starten på 35 minuter.</p><p>Hur långt åkte hen under de första 27 minuterna?</p>",
+        "s": "<p>\\(s=6{,}7\\cdot900+8{,}2\\cdot720\\).</p><p><strong>Svar:</strong> \\(11\\,934\\) m</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm farten på vägen tillbaka.",
+        "t": "<p>En skidåkare åker 6,7 m/s i 15 minuter och sedan 8,2 m/s i 12 minuter. Sedan åker hen tillbaka till starten på 35 minuter.</p>Sträckan är 11,9 km.<p>Bestäm farten på vägen tillbaka.</p>",
+        "s": "<p>\\(v=\\dfrac{11\\,934}{2\\,100}\\).</p><p><strong>Svar:</strong> \\(5{,}7\\) m/s</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "lopp med olika fart",
+    "poang": "(0/2/0)",
+    "t": "<p>Rita (15 km/h) och Frida (12 km/h) springer 400 m och ska gå i mål samtidigt.</p><ol type=\"a\"><li>Frida startar tidigare från samma linje. Hur många sekunder senare startar Rita?</li><li>De startar i stället samtidigt men Frida längre fram. Hur långt framför ska hon starta?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{400}{12/3{,}6}-\\dfrac{400}{15/3{,}6}=120-96\\).</p><p><strong>Svar:</strong> \\(24\\) s</p></li><li><p>På Ritas 96 s springer Frida \\(\\dfrac{12}{3{,}6}\\cdot96=320\\) m.</p><p><strong>Svar:</strong> \\(80\\) m</p></li></ol>",
+    "id": "2.300",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24,
+      80
+    ],
+    "tolerans": [
+      0.51,
+      1.2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Rita (15 km/h) och Frida (12 km/h) springer 400 m och ska gå i mål samtidigt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Frida startar tidigare från samma linje. Hur många sekunder senare startar Rita?",
+        "t": "<p>Rita (15 km/h) och Frida (12 km/h) springer 400 m och ska gå i mål samtidigt.</p><p>Frida startar tidigare från samma linje. Hur många sekunder senare startar Rita?</p>",
+        "s": "<p>\\(\\dfrac{400}{12/3{,}6}-\\dfrac{400}{15/3{,}6}=120-96\\).</p><p><strong>Svar:</strong> \\(24\\) s</p>",
+        "ledtrad": "<p>Jämför tiderna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "De startar i stället samtidigt men Frida längre fram. Hur långt framför ska hon starta?",
+        "t": "<p>Rita (15 km/h) och Frida (12 km/h) springer 400 m och ska gå i mål samtidigt.</p><p>De startar i stället samtidigt men Frida längre fram. Hur långt framför ska hon starta?</p>",
+        "s": "<p>På Ritas 96 s springer Frida \\(\\dfrac{12}{3{,}6}\\cdot96=320\\) m.</p><p><strong>Svar:</strong> \\(80\\) m</p>",
+        "ledtrad": "<p>Hur långt hinner Frida på Ritas tid?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "A",
+    "typ": "ekvationer med två farter",
+    "poang": "(1/3/1)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>Pia kör normalt med 72 km/h. När hon är 2,0 minuter sen måste hon köra 80 km/h för att komma i tid. Hur långt är det till jobbet?</li><li>Tina kör 80 km med 95 km/h i stället för 90 km/h. Hur många minuter tjänar hon?</li><li>Ett snabbtåg kör 20 km/h fortare än ett annat och tar 1,0 h kortare tid på 240 km. Bestäm det långsammare tågets fart.</li><li>Två tåg kör samma sträcka på 5,0 h och 4,0 h, och det snabbare kör 18 km/h fortare. Bestäm det långsammare tågets fart.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{d}{72}-\\dfrac{d}{80}=\\dfrac{2}{60}\\).</p><p><strong>Svar:</strong> \\(24\\) km</p></li><li><p>\\(\\left(\\dfrac{80}{90}-\\dfrac{80}{95}\\right)\\cdot60\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) min</p></li><li><p>\\(\\dfrac{240}{v}-\\dfrac{240}{v+20}=1\\iff v^2+20v-4\\,800=0\\).</p><p><strong>Svar:</strong> \\(60\\) km/h</p></li><li><p>\\(5{,}0v=4{,}0(v+18)\\).</p><p><strong>Svar:</strong> \\(72\\) km/h</p></li></ol>",
+    "id": "2.301",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24.000000000000025,
+      2.807017543859649,
+      60,
+      72
+    ],
+    "tolerans": [
+      0.51,
+      0.051,
+      0.9,
+      1.08
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "km",
+      "min",
+      "km/h",
+      "km/h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Pia kör normalt med 72 km/h. När hon är 2,0 minuter sen måste hon köra 80 km/h för att komma i tid. Hur långt är det till jobbet?",
+        "t": "<p>Bestäm.</p><p>Pia kör normalt med 72 km/h. När hon är 2,0 minuter sen måste hon köra 80 km/h för att komma i tid. Hur långt är det till jobbet?</p>",
+        "s": "<p>\\(\\dfrac{d}{72}-\\dfrac{d}{80}=\\dfrac{2}{60}\\).</p><p><strong>Svar:</strong> \\(24\\) km</p>",
+        "ledtrad": "<p>Tidsskillnaden är 2 minuter.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Tina kör 80 km med 95 km/h i stället för 90 km/h. Hur många minuter tjänar hon?",
+        "t": "<p>Bestäm.</p><p>Tina kör 80 km med 95 km/h i stället för 90 km/h. Hur många minuter tjänar hon?</p>",
+        "s": "<p>\\(\\left(\\dfrac{80}{90}-\\dfrac{80}{95}\\right)\\cdot60\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) min</p>",
+        "ledtrad": "<p>Jämför tiderna.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett snabbtåg kör 20 km/h fortare än ett annat och tar 1,0 h kortare tid på 240 km. Bestäm det långsammare tågets fart.",
+        "t": "<p>Bestäm.</p><p>Ett snabbtåg kör 20 km/h fortare än ett annat och tar 1,0 h kortare tid på 240 km. Bestäm det långsammare tågets fart.</p>",
+        "s": "<p>\\(\\dfrac{240}{v}-\\dfrac{240}{v+20}=1\\iff v^2+20v-4\\,800=0\\).</p><p><strong>Svar:</strong> \\(60\\) km/h</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Två tåg kör samma sträcka på 5,0 h och 4,0 h, och det snabbare kör 18 km/h fortare. Bestäm det långsammare tågets fart.",
+        "t": "<p>Bestäm.</p><p>Två tåg kör samma sträcka på 5,0 h och 4,0 h, och det snabbare kör 18 km/h fortare. Bestäm det långsammare tågets fart.</p>",
+        "s": "<p>\\(5{,}0v=4{,}0(v+18)\\).</p><p><strong>Svar:</strong> \\(72\\) km/h</p>",
+        "ledtrad": "<p>Samma sträcka.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Ställ upp en ekvation.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "kulor i ränna",
+    "poang": "(0/1/0)",
+    "t": "<p>En kula rullar med 0,850 m/s. 5,00 s senare släpps en kula med 1,25 m/s i samma riktning från samma punkt. Hur långt har den första kulan rört sig när de krockar?</p>",
+    "s": "<p>\\(0{,}850t=1{,}25(t-5{,}00)\\iff t=15{,}6\\) s. \\(s=0{,}850t\\).</p><p><strong>Svar:</strong> \\(13{,}3\\) m</p>",
+    "id": "2.302",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.28125,
+    "tolerans": 0.199,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "A",
+    "typ": "ström och vind",
+    "poang": "(0/3/3)",
+    "t": "<p>Ställ upp en ekvation för tur och retur.</p><ol type=\"a\"><li>Vattnet strömmar 3,0 km/h. Jonna ror 3,0 km uppströms och tillbaka på 1 h 20 min. Hur fort ror hon i stilla vatten?</li><li>Ett plan flyger 750 km mot en vind på 50 km/h och tillbaka med vinden. Resan tar 8,0 h. Bestäm planets fart i stilla luft.</li><li>En kanotist ror 30 km nedströms och tillbaka på 8,0 h. Vattnet strömmar 2,0 km/h. Hur fort ror hen i stilla vatten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{3{,}0}{v-3{,}0}+\\dfrac{3{,}0}{v+3{,}0}=\\dfrac43\\iff2v^2-9v-18=0\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) km/h</p></li><li><p>\\(\\dfrac{750}{v-50}+\\dfrac{750}{v+50}=8{,}0\\iff v^2-187{,}5v-2\\,500=0\\).</p><p><strong>Svar:</strong> \\(200\\) km/h</p></li><li><p>\\(\\dfrac{30}{v+2{,}0}+\\dfrac{30}{v-2{,}0}=8{,}0\\iff2v^2-15v-8=0\\).</p><p><strong>Svar:</strong> \\(8{,}0\\) km/h</p></li></ol>",
+    "id": "2.303",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      200,
+      8
+    ],
+    "tolerans": [
+      0.09,
+      5.1,
+      0.12
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "km/h",
+      "km/h",
+      "km/h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ställ upp en ekvation för tur och retur.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vattnet strömmar 3,0 km/h. Jonna ror 3,0 km uppströms och tillbaka på 1 h 20 min. Hur fort ror hon i stilla vatten?",
+        "t": "<p>Ställ upp en ekvation för tur och retur.</p><p>Vattnet strömmar 3,0 km/h. Jonna ror 3,0 km uppströms och tillbaka på 1 h 20 min. Hur fort ror hon i stilla vatten?</p>",
+        "s": "<p>\\(\\dfrac{3{,}0}{v-3{,}0}+\\dfrac{3{,}0}{v+3{,}0}=\\dfrac43\\iff2v^2-9v-18=0\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) km/h</p>",
+        "ledtrad": "<p>Farten mot och med strömmen.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett plan flyger 750 km mot en vind på 50 km/h och tillbaka med vinden. Resan tar 8,0 h. Bestäm planets fart i stilla luft.",
+        "t": "<p>Ställ upp en ekvation för tur och retur.</p><p>Ett plan flyger 750 km mot en vind på 50 km/h och tillbaka med vinden. Resan tar 8,0 h. Bestäm planets fart i stilla luft.</p>",
+        "s": "<p>\\(\\dfrac{750}{v-50}+\\dfrac{750}{v+50}=8{,}0\\iff v^2-187{,}5v-2\\,500=0\\).</p><p><strong>Svar:</strong> \\(200\\) km/h</p>",
+        "ledtrad": "<p>Farten mot och med vinden.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En kanotist ror 30 km nedströms och tillbaka på 8,0 h. Vattnet strömmar 2,0 km/h. Hur fort ror hen i stilla vatten?",
+        "t": "<p>Ställ upp en ekvation för tur och retur.</p><p>En kanotist ror 30 km nedströms och tillbaka på 8,0 h. Vattnet strömmar 2,0 km/h. Hur fort ror hen i stilla vatten?</p>",
+        "s": "<p>\\(\\dfrac{30}{v+2{,}0}+\\dfrac{30}{v-2{,}0}=8{,}0\\iff2v^2-15v-8=0\\).</p><p><strong>Svar:</strong> \\(8{,}0\\) km/h</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Farten relativt marken är \\(v\\pm u\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "A",
+    "typ": "ljud i järn och luft",
+    "poang": "(0/1/1)",
+    "t": "<p>Ett slag på en 5,00 m lång järnstång hörs två gånger i en mikrofon i andra änden, med 13,7 ms mellanrum. Ljudets fart i luft är 340 m/s. Bestäm ljudets fart i järn.</p>",
+    "s": "<p>\\(\\dfrac{5{,}00}{340}-\\dfrac{5{,}00}{v}=0{,}0137\\).</p><p><strong>Svar:</strong> \\(4\\,971\\) m/s</p>",
+    "id": "2.304",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4970.760233918131,
+    "tolerans": 74.6,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tidsskillnaden mellan luft och järn.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s",
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "A",
+    "typ": "björn och bil",
+    "poang": "(1/1/1)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>Oskar (4,0 m/s) springer mot sin bil när en björn (6,0 m/s) är 36 m bakom honom. Det tar 4,0 s att sätta sig i bilen. Hur långt från bilen får han högst vara?</li><li>Ett ekolod får ekot från ett fiskstim efter 0,20 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{d}{4{,}0}+4{,}0=\\dfrac{d+36}{6{,}0}\\).</p><p><strong>Svar:</strong> \\(24\\) m</p></li><li><p>\\(s=\\dfrac{1\\,500\\cdot0{,}20}{2}\\).</p><p><strong>Svar:</strong> \\(150\\) m</p></li></ol>",
+    "id": "2.305",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24,
+      150
+    ],
+    "tolerans": [
+      0.51,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Oskar (4,0 m/s) springer mot sin bil när en björn (6,0 m/s) är 36 m bakom honom. Det tar 4,0 s att sätta sig i bilen. Hur långt från bilen får han högst vara?",
+        "t": "<p>Bestäm.</p><p>Oskar (4,0 m/s) springer mot sin bil när en björn (6,0 m/s) är 36 m bakom honom. Det tar 4,0 s att sätta sig i bilen. Hur långt från bilen får han högst vara?</p>",
+        "s": "<p>\\(\\dfrac{d}{4{,}0}+4{,}0=\\dfrac{d+36}{6{,}0}\\).</p><p><strong>Svar:</strong> \\(24\\) m</p>",
+        "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett ekolod får ekot från ett fiskstim efter 0,20 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?",
+        "t": "<p>Bestäm.</p><p>Ett ekolod får ekot från ett fiskstim efter 0,20 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?</p>",
+        "s": "<p>\\(s=\\dfrac{1\\,500\\cdot0{,}20}{2}\\).</p><p><strong>Svar:</strong> \\(150\\) m</p>",
+        "ledtrad": "<p>Ekot går dubbla sträckan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 4,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "partiklar och cykellopp",
+    "poang": "(1/2/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>Vid ett alfasönderfall far dotterkärnan iväg med \\(2{,}4\\cdot10^5\\) m/s och alfapartikeln med \\(6{,}7\\cdot10^6\\) m/s åt motsatt håll. Efter hur lång tid är de 1,0 m isär?</li><li>Kalle (32,0 km/h) startar 5,00 minuter före Olle (38,0 km/h). Hur många minuter efter sin start kör Olle ikapp?</li><li>Hur långt har de kört då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{1{,}0}{2{,}4\\cdot10^5+6{,}7\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{-7}\\) s</p></li><li><p>\\(38{,}0t=32{,}0\\left(t+\\tfrac{5}{60}\\right)\\).</p><p><strong>Svar:</strong> \\(26{,}7\\) min</p></li><li><p>\\(s=38{,}0\\cdot0{,}444\\).</p><p><strong>Svar:</strong> \\(16{,}9\\) km</p></li></ol>",
+    "id": "2.306",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.440922190201729e-07,
+      26.666666666666664,
+      16.88888888888889
+    ],
+    "tolerans": [
+      5.1e-09,
+      0.4,
+      0.253
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "s",
+      "min",
+      "km"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vid ett alfasönderfall far dotterkärnan iväg med \\(2{,}4\\cdot10^5\\) m/s och alfapartikeln med \\(6{,}7\\cdot10^6\\) m/s åt motsatt håll. Efter hur lång tid är de 1,0 m isär?",
+        "t": "<p>Bestäm.</p><p>Vid ett alfasönderfall far dotterkärnan iväg med \\(2{,}4\\cdot10^5\\) m/s och alfapartikeln med \\(6{,}7\\cdot10^6\\) m/s åt motsatt håll. Efter hur lång tid är de 1,0 m isär?</p>",
+        "s": "<p>\\(t=\\dfrac{1{,}0}{2{,}4\\cdot10^5+6{,}7\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{-7}\\) s</p>",
+        "ledtrad": "<p>Farterna adderas.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Kalle (32,0 km/h) startar 5,00 minuter före Olle (38,0 km/h). Hur många minuter efter sin start kör Olle ikapp?",
+        "t": "<p>Bestäm.</p><p>Kalle (32,0 km/h) startar 5,00 minuter före Olle (38,0 km/h). Hur många minuter efter sin start kör Olle ikapp?</p>",
+        "s": "<p>\\(38{,}0t=32{,}0\\left(t+\\tfrac{5}{60}\\right)\\).</p><p><strong>Svar:</strong> \\(26{,}7\\) min</p>",
+        "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt har de kört då?",
+        "t": "<p>Bestäm.</p>Olle kör ikapp efter 26,7 minuter.<p>Hur långt har de kört då?</p>",
+        "s": "<p>\\(s=38{,}0\\cdot0{,}444\\).</p><p><strong>Svar:</strong> \\(16{,}9\\) km</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "A",
+    "typ": "löpare som startar vid olika tid",
+    "poang": "(0/3/2)",
+    "t": "<p>Löpare A startar 10.00 med 4,2 m/s. Löpare B startar från samma ställe 5,0 minuter senare med 5,0 m/s.</p><ol type=\"a\"><li>De springer åt motsatt håll. Hur många minuter efter 10.00 är de 3,0 km isär?</li><li>De springer åt samma håll. Hur många minuter efter 10.00 är B först 1,0 km bakom A?</li><li>Hur många minuter efter 10.00 är B 1,0 km före A?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(4{,}2t+5{,}0(t-300)=3\\,000\\).</p><p><strong>Svar:</strong> \\(8{,}2\\) min</p></li><li><p>\\(4{,}2t-5{,}0(t-300)=1\\,000\\).</p><p><strong>Svar:</strong> \\(10\\) min</p></li><li><p>\\(5{,}0(t-300)-4{,}2t=1\\,000\\).</p><p><strong>Svar:</strong> \\(52\\) min</p></li></ol>",
+    "id": "2.307",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.152173913043478,
+      10.416666666666666,
+      52.083333333333336
+    ],
+    "tolerans": [
+      0.122,
+      0.51,
+      0.781
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "min",
+      "min",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Löpare A startar 10.00 med 4,2 m/s. Löpare B startar från samma ställe 5,0 minuter senare med 5,0 m/s.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "De springer åt motsatt håll. Hur många minuter efter 10.00 är de 3,0 km isär?",
+        "t": "<p>Löpare A startar 10.00 med 4,2 m/s. Löpare B startar från samma ställe 5,0 minuter senare med 5,0 m/s.</p><p>De springer åt motsatt håll. Hur många minuter efter 10.00 är de 3,0 km isär?</p>",
+        "s": "<p>\\(4{,}2t+5{,}0(t-300)=3\\,000\\).</p><p><strong>Svar:</strong> \\(8{,}2\\) min</p>",
+        "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "De springer åt samma håll. Hur många minuter efter 10.00 är B först 1,0 km bakom A?",
+        "t": "<p>Löpare A startar 10.00 med 4,2 m/s. Löpare B startar från samma ställe 5,0 minuter senare med 5,0 m/s.</p><p>De springer åt samma håll. Hur många minuter efter 10.00 är B först 1,0 km bakom A?</p>",
+        "s": "<p>\\(4{,}2t-5{,}0(t-300)=1\\,000\\).</p><p><strong>Svar:</strong> \\(10\\) min</p>",
+        "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många minuter efter 10.00 är B 1,0 km före A?",
+        "t": "<p>Löpare A startar 10.00 med 4,2 m/s. Löpare B startar från samma ställe 5,0 minuter senare med 5,0 m/s.</p><p>Hur många minuter efter 10.00 är B 1,0 km före A?</p>",
+        "s": "<p>\\(5{,}0(t-300)-4{,}2t=1\\,000\\).</p><p><strong>Svar:</strong> \\(52\\) min</p>",
+        "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "studs och varv",
+    "poang": "(1/1/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En puck skjuts 10,0 m mot sargen med 12 m/s och studsar tillbaka med 8,5 m/s. Hur lång tid tar det innan den är tillbaka?</li><li>Protoner i en ring med radien 4,20 km rör sig med i praktiken ljusets fart, \\(3{,}00\\cdot10^8\\) m/s. Hur många varv hinner de på 1,00 s?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{10{,}0}{12}+\\dfrac{10{,}0}{8{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) s</p></li><li><p>\\(n=\\dfrac{3{,}00\\cdot10^8}{2\\pi\\cdot4\\,200}\\).</p><p><strong>Svar:</strong> \\(11\\,368\\)</p></li></ol>",
+    "id": "2.308",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.0098039215686274,
+      11368.210220849667
+    ],
+    "tolerans": [
+      0.051,
+      171.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "s",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En puck skjuts 10,0 m mot sargen med 12 m/s och studsar tillbaka med 8,5 m/s. Hur lång tid tar det innan den är tillbaka?",
+        "t": "<p>Bestäm.</p><p>En puck skjuts 10,0 m mot sargen med 12 m/s och studsar tillbaka med 8,5 m/s. Hur lång tid tar det innan den är tillbaka?</p>",
+        "s": "<p>\\(t=\\dfrac{10{,}0}{12}+\\dfrac{10{,}0}{8{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) s</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Protoner i en ring med radien 4,20 km rör sig med i praktiken ljusets fart, \\(3{,}00\\cdot10^8\\) m/s. Hur många varv hinner de på 1,00 s?",
+        "t": "<p>Bestäm.</p><p>Protoner i en ring med radien 4,20 km rör sig med i praktiken ljusets fart, \\(3{,}00\\cdot10^8\\) m/s. Hur många varv hinner de på 1,00 s?</p>",
+        "s": "<p>\\(n=\\dfrac{3{,}00\\cdot10^8}{2\\pi\\cdot4\\,200}\\).</p><p><strong>Svar:</strong> \\(11\\,368\\)</p>",
+        "ledtrad": "<p>Omkretsen är \\(2\\pi r\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "vem kommer först",
+    "poang": "(0/1/0)",
+    "t": "<p>Åke startar 08.00 och kör 360 km med 85 km/h. Sanna startar 09.00 och kör samma sträcka med 102 km/h. Hur många minuter måste Åke vänta på Sanna?</p>",
+    "s": "<p>Åke kör \\(\\dfrac{360}{85}=4{,}24\\) h, Sanna \\(1{,}00+\\dfrac{360}{102}=4{,}53\\) h efter 08.00.</p><p><strong>Svar:</strong> \\(18\\) min</p>",
+    "id": "2.309",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17.647058823529402,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "min",
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "båtar och bilar",
+    "poang": "(0/3/0)",
+    "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><ol type=\"a\"><li>En båt kör österut. 20 minuter senare kör en båt västerut från samma punkt med 12 km/h högre fart. När den första kört 90 minuter är de 90 km isär. Bestäm den första båtens fart.</li><li>Pelle kör 85 km/h. Tove startar en timme senare på samma väg med 95 km/h. Hur många timmar efter Pelles start kör hon förbi?</li><li>Wendy kör 85 km med 80 km/h. Alf kör 30 km med 70 km/h, stannar och kör 55 km med 95 km/h. De kommer fram samtidigt. Hur många minuter stannade Alf?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(1{,}5v+\\tfrac{70}{60}(v+12)=90\\).</p><p><strong>Svar:</strong> \\(28\\) km/h</p></li><li><p>\\(85t=95(t-1)\\).</p><p><strong>Svar:</strong> \\(9{,}5\\) h</p></li><li><p>\\(\\left(\\dfrac{85}{80}-\\dfrac{30}{70}-\\dfrac{55}{95}\\right)\\cdot60\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) min</p></li></ol>",
+    "id": "2.310",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      28.499999999999996,
+      9.5,
+      3.2988721804511245
+    ],
+    "tolerans": [
+      0.51,
+      0.142,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "km/h",
+      "h",
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En båt kör österut. 20 minuter senare kör en båt västerut från samma punkt med 12 km/h högre fart. När den första kört 90 minuter är de 90 km isär. Bestäm den första båtens fart.",
+        "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><p>En båt kör österut. 20 minuter senare kör en båt västerut från samma punkt med 12 km/h högre fart. När den första kört 90 minuter är de 90 km isär. Bestäm den första båtens fart.</p>",
+        "s": "<p>\\(1{,}5v+\\tfrac{70}{60}(v+12)=90\\).</p><p><strong>Svar:</strong> \\(28\\) km/h</p>",
+        "ledtrad": "<p>Den andra båten har kört 70 minuter.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Pelle kör 85 km/h. Tove startar en timme senare på samma väg med 95 km/h. Hur många timmar efter Pelles start kör hon förbi?",
+        "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><p>Pelle kör 85 km/h. Tove startar en timme senare på samma väg med 95 km/h. Hur många timmar efter Pelles start kör hon förbi?</p>",
+        "s": "<p>\\(85t=95(t-1)\\).</p><p><strong>Svar:</strong> \\(9{,}5\\) h</p>",
+        "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Wendy kör 85 km med 80 km/h. Alf kör 30 km med 70 km/h, stannar och kör 55 km med 95 km/h. De kommer fram samtidigt. Hur många minuter stannade Alf?",
+        "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><p>Wendy kör 85 km med 80 km/h. Alf kör 30 km med 70 km/h, stannar och kör 55 km med 95 km/h. De kommer fram samtidigt. Hur många minuter stannade Alf?</p>",
+        "s": "<p>\\(\\left(\\dfrac{85}{80}-\\dfrac{30}{70}-\\dfrac{55}{95}\\right)\\cdot60\\).</p><p><strong>Svar:</strong> \\(3{,}3\\) min</p>",
+        "ledtrad": "<p>Jämför tiderna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "partiklar som krockar",
+    "poang": "(0/1/0)",
+    "t": "<p>Två partiklar skjuts mot varandra från 1,0 km avstånd och krockar efter 0,45 ms. Fartskillnaden är \\(1{,}2\\cdot10^6\\) m/s. Hur långt från den långsammare partikelns start krockar de?</p>",
+    "s": "<p>\\(v_A+v_B=\\dfrac{1\\,000}{0{,}45\\cdot10^{-3}}\\), \\(v_A-v_B=1{,}2\\cdot10^6\\). \\(s=v_B\\cdot0{,}45\\cdot10^{-3}\\).</p><p><strong>Svar:</strong> \\(230\\) m</p>",
+    "id": "2.311",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "numeriskt",
+    "rättSvar": 230.00000000000006,
+    "tolerans": 5.1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två ekvationer.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "ljudets fart i olika gaser",
+    "poang": "(1/2/0)",
+    "t": "<p>En ljudpuls går fram och tillbaka i ett rör.</p><ol type=\"a\"><li>I luft (343,0 m/s) tar det 23,32 ms. Bestäm rörets längd.</li><li>I koldioxid tar det 29,93 ms. Bestäm ljudets fart i koldioxid.</li><li>Hur lång tid tar det i vätgas (1 304 m/s)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(l=\\dfrac{343{,}0\\cdot0{,}02332}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}999\\) m</p></li><li><p>\\(v=\\dfrac{2\\cdot3{,}999}{0{,}02993}\\).</p><p><strong>Svar:</strong> \\(267\\) m/s</p></li><li><p>\\(t=\\dfrac{2\\cdot3{,}999}{1\\,304}\\).</p><p><strong>Svar:</strong> \\(0{,}006134\\) s</p></li></ol>",
+    "id": "2.312",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.99938,
+      267.24891413297695,
+      0.006134018404907975
+    ],
+    "tolerans": [
+      0.06,
+      4.01,
+      9.2e-05
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En ljudpuls går fram och tillbaka i ett rör.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "I luft (343,0 m/s) tar det 23,32 ms. Bestäm rörets längd.",
+        "t": "<p>En ljudpuls går fram och tillbaka i ett rör.</p><p>I luft (343,0 m/s) tar det 23,32 ms. Bestäm rörets längd.</p>",
+        "s": "<p>\\(l=\\dfrac{343{,}0\\cdot0{,}02332}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}999\\) m</p>",
+        "ledtrad": "<p>Ljudet går dubbla längden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "I koldioxid tar det 29,93 ms. Bestäm ljudets fart i koldioxid.",
+        "t": "<p>En ljudpuls går fram och tillbaka i ett rör.</p>Röret är 3,999 m.<p>I koldioxid tar det 29,93 ms. Bestäm ljudets fart i koldioxid.</p>",
+        "s": "<p>\\(v=\\dfrac{2\\cdot3{,}999}{0{,}02993}\\).</p><p><strong>Svar:</strong> \\(267\\) m/s</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur lång tid tar det i vätgas (1 304 m/s)?",
+        "t": "<p>En ljudpuls går fram och tillbaka i ett rör.</p>Röret är 3,999 m.<p>Hur lång tid tar det i vätgas (1 304 m/s)?</p>",
+        "s": "<p>\\(t=\\dfrac{2\\cdot3{,}999}{1\\,304}\\).</p><p><strong>Svar:</strong> \\(0{,}006134\\) s</p>",
+        "ledtrad": "<p>\\(s=vt\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "båtrace",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett båtrace är 2,0 km. Båt A kör 4,0 m/s de första 1 500 m och 3,1 m/s resten. Båt B kör 3,6 m/s de första 1 200 m och 3,9 m/s resten. Hur många sekunder före vinner den snabbare båten?</p>",
+    "s": "<p>A: \\(\\dfrac{1\\,500}{4{,}0}+\\dfrac{500}{3{,}1}\\). B: \\(\\dfrac{1\\,200}{3{,}6}+\\dfrac{800}{3{,}9}\\). Skillnaden (A vinner).</p><p><strong>Svar:</strong> \\(2{,}2\\) s</p>",
+    "id": "2.313",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.1712158808932998,
+    "tolerans": 0.051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna båda tiderna.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "terränglopp",
+    "poang": "(1/1/0)",
+    "t": "<p>Bertil och Karl springer terränglopp.</p><ol type=\"a\"><li>5,0 km med 14,5 km/h respektive 12,0 km/h. Hur många minuter väntar Bertil på Karl?</li><li>8,0 km där Bertil springer 11,0 km/h och Karl 14,0 km/h. Hur långt har Bertil kvar när Karl går i mål?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\left(\\dfrac{5{,}0}{12{,}0}-\\dfrac{5{,}0}{14{,}5}\\right)\\cdot60\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) min</p></li><li><p>\\(8{,}0-11{,}0\\cdot\\dfrac{8{,}0}{14{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) km</p></li></ol>",
+    "id": "2.314",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.310344827586206,
+      1.7142857142857144
+    ],
+    "tolerans": [
+      0.0647,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "min",
+      "km"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bertil och Karl springer terränglopp.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "5,0 km med 14,5 km/h respektive 12,0 km/h. Hur många minuter väntar Bertil på Karl?",
+        "t": "<p>Bertil och Karl springer terränglopp.</p><p>5,0 km med 14,5 km/h respektive 12,0 km/h. Hur många minuter väntar Bertil på Karl?</p>",
+        "s": "<p>\\(\\left(\\dfrac{5{,}0}{12{,}0}-\\dfrac{5{,}0}{14{,}5}\\right)\\cdot60\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) min</p>",
+        "ledtrad": "<p>Jämför tiderna.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "8,0 km där Bertil springer 11,0 km/h och Karl 14,0 km/h. Hur långt har Bertil kvar när Karl går i mål?",
+        "t": "<p>Bertil och Karl springer terränglopp.</p><p>8,0 km där Bertil springer 11,0 km/h och Karl 14,0 km/h. Hur långt har Bertil kvar när Karl går i mål?</p>",
+        "s": "<p>\\(8{,}0-11{,}0\\cdot\\dfrac{8{,}0}{14{,}0}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\) km</p>",
+        "ledtrad": "<p>Hur långt hinner Bertil på Karls tid?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>\\(s=vt\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "A",
+    "typ": "andragradsekvationer med fart",
+    "poang": "(0/3/4)",
+    "t": "<p>Ställ upp en ekvation.</p><ol type=\"a\"><li>Tom cyklar 120 km dit och tillbaka. Tillbaka är farten 10 km/h lägre och tar 2,0 h längre. Bestäm farten dit.</li><li>Om en bil körde 5 km/h snabbare skulle 150 km ta 1,5 h kortare tid. Bestäm farten.</li><li>Harald kör 20 km/h långsammare än Lisa. Harald kör 70 km och tillbaka, Lisa 76 km och tillbaka, och Lisa kommer tillbaka 30 minuter före. Bestäm Haralds fart.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{120}{v-10}-\\dfrac{120}{v}=2{,}0\\iff v^2-10v-600=0\\).</p><p><strong>Svar:</strong> \\(30\\) km/h</p></li><li><p>\\(\\dfrac{150}{v}-\\dfrac{150}{v+5}=1{,}5\\iff v^2+5v-500=0\\).</p><p><strong>Svar:</strong> \\(20\\) km/h</p></li><li><p>\\(\\dfrac{140}{v}-\\dfrac{152}{v+20}=0{,}5\\iff v^2+44v-5\\,600=0\\).</p><p><strong>Svar:</strong> \\(56\\) km/h</p></li></ol>",
+    "id": "2.315",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      20,
+      56
+    ],
+    "tolerans": [
+      0.51,
+      0.51,
+      0.84
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "km/h",
+      "km/h",
+      "km/h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ställ upp en ekvation.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Tom cyklar 120 km dit och tillbaka. Tillbaka är farten 10 km/h lägre och tar 2,0 h längre. Bestäm farten dit.",
+        "t": "<p>Ställ upp en ekvation.</p><p>Tom cyklar 120 km dit och tillbaka. Tillbaka är farten 10 km/h lägre och tar 2,0 h längre. Bestäm farten dit.</p>",
+        "s": "<p>\\(\\dfrac{120}{v-10}-\\dfrac{120}{v}=2{,}0\\iff v^2-10v-600=0\\).</p><p><strong>Svar:</strong> \\(30\\) km/h</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Om en bil körde 5 km/h snabbare skulle 150 km ta 1,5 h kortare tid. Bestäm farten.",
+        "t": "<p>Ställ upp en ekvation.</p><p>Om en bil körde 5 km/h snabbare skulle 150 km ta 1,5 h kortare tid. Bestäm farten.</p>",
+        "s": "<p>\\(\\dfrac{150}{v}-\\dfrac{150}{v+5}=1{,}5\\iff v^2+5v-500=0\\).</p><p><strong>Svar:</strong> \\(20\\) km/h</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Harald kör 20 km/h långsammare än Lisa. Harald kör 70 km och tillbaka, Lisa 76 km och tillbaka, och Lisa kommer tillbaka 30 minuter före. Bestäm Haralds fart.",
+        "t": "<p>Ställ upp en ekvation.</p><p>Harald kör 20 km/h långsammare än Lisa. Harald kör 70 km och tillbaka, Lisa 76 km och tillbaka, och Lisa kommer tillbaka 30 minuter före. Bestäm Haralds fart.</p>",
+        "s": "<p>\\(\\dfrac{140}{v}-\\dfrac{152}{v+20}=0{,}5\\iff v^2+44v-5\\,600=0\\).</p><p><strong>Svar:</strong> \\(56\\) km/h</p>",
+        "ledtrad": "<p>Andragradsekvation.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Ställ upp tiderna med \\(t=\\dfrac sv\\).</p>",
+    "traningsniva": 5,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "linjära ekvationer med fart",
+    "poang": "(0/4/0)",
+    "t": "<p>Ställ upp en ekvation.</p><ol type=\"a\"><li>Kristoffer och Öyvind bor 115 km från varandra och möts på en restaurang. Kristoffer kör 1,5 h och Öyvind 1,0 h, och Kristoffer kör 10 km/h fortare. Hur långt från Kristoffer ligger restaurangen?</li><li>Oskar går till skolan på 25 minuter och springer på 15 minuter. Han springer 5,0 km/h fortare än han går. Bestäm gångfarten.</li><li>Pär kör 255 km. De första 2 h kör han långsamt, sedan 2,5 h med 1,75 gånger den farten. Bestäm den låga farten.</li><li>Ett tåg kör 80 km/h mellan stationerna men står still 1,0 h sammanlagt. Medelfarten blir 60 km/h. Hur långt är det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(1{,}5(v+10)+1{,}0v=115\\iff v=40\\). Sträcka: \\(1{,}5\\cdot50\\).</p><p><strong>Svar:</strong> \\(75\\) km</p></li><li><p>\\(25v=15(v+5{,}0)\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) km/h</p></li><li><p>\\(2v+2{,}5\\cdot1{,}75v=255\\).</p><p><strong>Svar:</strong> \\(40\\) km/h</p></li><li><p>\\(\\dfrac{s}{80}+1{,}0=\\dfrac{s}{60}\\).</p><p><strong>Svar:</strong> \\(240\\) km</p></li></ol>",
+    "id": "2.316",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      75,
+      7.5,
+      40.0,
+      240
+    ],
+    "tolerans": [
+      1.12,
+      0.112,
+      0.6,
+      5.1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "km",
+      "km/h",
+      "km/h",
+      "km"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ställ upp en ekvation.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Kristoffer och Öyvind bor 115 km från varandra och möts på en restaurang. Kristoffer kör 1,5 h och Öyvind 1,0 h, och Kristoffer kör 10 km/h fortare. Hur långt från Kristoffer ligger restaurangen?",
+        "t": "<p>Ställ upp en ekvation.</p><p>Kristoffer och Öyvind bor 115 km från varandra och möts på en restaurang. Kristoffer kör 1,5 h och Öyvind 1,0 h, och Kristoffer kör 10 km/h fortare. Hur långt från Kristoffer ligger restaurangen?</p>",
+        "s": "<p>\\(1{,}5(v+10)+1{,}0v=115\\iff v=40\\). Sträcka: \\(1{,}5\\cdot50\\).</p><p><strong>Svar:</strong> \\(75\\) km</p>",
+        "ledtrad": "<p>Summan av sträckorna är 115 km.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Oskar går till skolan på 25 minuter och springer på 15 minuter. Han springer 5,0 km/h fortare än han går. Bestäm gångfarten.",
+        "t": "<p>Ställ upp en ekvation.</p><p>Oskar går till skolan på 25 minuter och springer på 15 minuter. Han springer 5,0 km/h fortare än han går. Bestäm gångfarten.</p>",
+        "s": "<p>\\(25v=15(v+5{,}0)\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) km/h</p>",
+        "ledtrad": "<p>Samma sträcka.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Pär kör 255 km. De första 2 h kör han långsamt, sedan 2,5 h med 1,75 gånger den farten. Bestäm den låga farten.",
+        "t": "<p>Ställ upp en ekvation.</p><p>Pär kör 255 km. De första 2 h kör han långsamt, sedan 2,5 h med 1,75 gånger den farten. Bestäm den låga farten.</p>",
+        "s": "<p>\\(2v+2{,}5\\cdot1{,}75v=255\\).</p><p><strong>Svar:</strong> \\(40\\) km/h</p>",
+        "ledtrad": "<p>Summan av sträckorna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Ett tåg kör 80 km/h mellan stationerna men står still 1,0 h sammanlagt. Medelfarten blir 60 km/h. Hur långt är det?",
+        "t": "<p>Ställ upp en ekvation.</p><p>Ett tåg kör 80 km/h mellan stationerna men står still 1,0 h sammanlagt. Medelfarten blir 60 km/h. Hur långt är det?</p>",
+        "s": "<p>\\(\\dfrac{s}{80}+1{,}0=\\dfrac{s}{60}\\).</p><p><strong>Svar:</strong> \\(240\\) km</p>",
+        "ledtrad": "<p>Total tid = körtid + stopptid.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Ställ upp en ekvation.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "A",
+    "typ": "ström och relativ fart",
+    "poang": "(0/4/3)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En båt tar 8,0 h nedströms och 12,0 h uppströms mellan två orter. Hur lång tid tar sträckan i stilla vatten?</li><li>En död lax driver med strömmen. Levande laxar simmar uppströms på 8,0 h och nedströms på 6,0 h. Hur lång tid tar det för den döda laxen?</li><li>En passagerare i ett tåg (72 km/h) ser ett mötande tåg (32,4 km/h) passera på 10 s. Hur långt är det mötande tåget?</li><li>En löpare springer 42,0 km dit på 1,40 h i medvind och hem på 1,68 h i lika stor motvind. Bestäm löparens fart utan vind.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac au=\\dfrac{2}{1/8{,}0+1/12{,}0}\\).</p><p><strong>Svar:</strong> \\(9{,}6\\) h</p></li><li><p>Strömmens fart: \\(\\dfrac a2\\left(\\dfrac16-\\dfrac18\\right)=\\dfrac{a}{48}\\). Tid: 48 h.</p><p><strong>Svar:</strong> \\(48\\) h</p></li><li><p>Relativ fart: \\(104{,}4\\) km/h = 29 m/s. \\(l=29\\cdot10\\).</p><p><strong>Svar:</strong> \\(290\\) m</p></li><li><p>\\(v=\\dfrac12\\left(\\dfrac{42{,}0}{1{,}40}+\\dfrac{42{,}0}{1{,}68}\\right)\\).</p><p><strong>Svar:</strong> \\(27{,}5\\) km/h</p></li></ol>",
+    "id": "2.317",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.600000000000001,
+      48,
+      290,
+      27.5
+    ],
+    "tolerans": [
+      0.144,
+      0.72,
+      5.1,
+      0.412
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "h",
+      "h",
+      "m",
+      "km/h"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En båt tar 8,0 h nedströms och 12,0 h uppströms mellan två orter. Hur lång tid tar sträckan i stilla vatten?",
+        "t": "<p>Bestäm.</p><p>En båt tar 8,0 h nedströms och 12,0 h uppströms mellan två orter. Hur lång tid tar sträckan i stilla vatten?</p>",
+        "s": "<p>\\(\\dfrac au=\\dfrac{2}{1/8{,}0+1/12{,}0}\\).</p><p><strong>Svar:</strong> \\(9{,}6\\) h</p>",
+        "ledtrad": "<p>Farten i stilla vatten är medelvärdet av farterna nedströms och uppströms.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "En död lax driver med strömmen. Levande laxar simmar uppströms på 8,0 h och nedströms på 6,0 h. Hur lång tid tar det för den döda laxen?",
+        "t": "<p>Bestäm.</p><p>En död lax driver med strömmen. Levande laxar simmar uppströms på 8,0 h och nedströms på 6,0 h. Hur lång tid tar det för den döda laxen?</p>",
+        "s": "<p>Strömmens fart: \\(\\dfrac a2\\left(\\dfrac16-\\dfrac18\\right)=\\dfrac{a}{48}\\). Tid: 48 h.</p><p><strong>Svar:</strong> \\(48\\) h</p>",
+        "ledtrad": "<p>Bestäm strömmens fart uttryckt i sträckan.</p>",
+        "niva": "A",
+        "poang": "(0/1/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En passagerare i ett tåg (72 km/h) ser ett mötande tåg (32,4 km/h) passera på 10 s. Hur långt är det mötande tåget?",
+        "t": "<p>Bestäm.</p><p>En passagerare i ett tåg (72 km/h) ser ett mötande tåg (32,4 km/h) passera på 10 s. Hur långt är det mötande tåget?</p>",
+        "s": "<p>Relativ fart: \\(104{,}4\\) km/h = 29 m/s. \\(l=29\\cdot10\\).</p><p><strong>Svar:</strong> \\(290\\) m</p>",
+        "ledtrad": "<p>Farterna adderas.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "En löpare springer 42,0 km dit på 1,40 h i medvind och hem på 1,68 h i lika stor motvind. Bestäm löparens fart utan vind.",
+        "t": "<p>Bestäm.</p><p>En löpare springer 42,0 km dit på 1,40 h i medvind och hem på 1,68 h i lika stor motvind. Bestäm löparens fart utan vind.</p>",
+        "s": "<p>\\(v=\\dfrac12\\left(\\dfrac{42{,}0}{1{,}40}+\\dfrac{42{,}0}{1{,}68}\\right)\\).</p><p><strong>Svar:</strong> \\(27{,}5\\) km/h</p>",
+        "ledtrad": "<p>Medelvärdet av farterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Relativ fart.</p>",
+    "traningsniva": 5,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "C",
+    "typ": "relativ fart vid omkörning",
+    "poang": "(2/2/0)",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>Ett barn springer fram och tillbaka på ett rullband (0,65 m/s) på 5,0 minuter. Barnet springer 3,0 m/s. Hur långt är bandet?</li><li>Fiona åker 90 km/h och möter en 24,0 m lång lastbil (36 km/h). Hur lång tid tar passagen?</li><li>En motorbåt (72 km/h) passerar ett hangarfartyg (54 km/h) på 1,0 minut. Hur långt är fartyget?</li><li>Ett 200 m långt tåg (72 km/h) kör om ett 800 m långt godståg (27 km/h). Hur lång tid tar omkörningen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{L}{3{,}65}+\\dfrac{L}{2{,}35}=300\\).</p><p><strong>Svar:</strong> \\(429\\) m</p></li><li><p>\\(t=\\dfrac{24{,}0}{126/3{,}6}\\).</p><p><strong>Svar:</strong> \\(0{,}69\\) s</p></li><li><p>\\(l=\\dfrac{72-54}{3{,}6}\\cdot60\\).</p><p><strong>Svar:</strong> \\(300\\) m</p></li><li><p>\\(t=\\dfrac{1\\,000}{(72-27)/3{,}6}\\).</p><p><strong>Svar:</strong> \\(80\\) s</p></li></ol>",
+    "id": "2.318",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      428.87500000000006,
+      0.6857142857142857,
+      300,
+      80.0
+    ],
+    "tolerans": [
+      6.43,
+      0.0103,
+      5.1,
+      1.2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "m",
+      "s",
+      "m",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Ett barn springer fram och tillbaka på ett rullband (0,65 m/s) på 5,0 minuter. Barnet springer 3,0 m/s. Hur långt är bandet?",
+        "t": "<p>Bestäm.</p><p>Ett barn springer fram och tillbaka på ett rullband (0,65 m/s) på 5,0 minuter. Barnet springer 3,0 m/s. Hur långt är bandet?</p>",
+        "s": "<p>\\(\\dfrac{L}{3{,}65}+\\dfrac{L}{2{,}35}=300\\).</p><p><strong>Svar:</strong> \\(429\\) m</p>",
+        "ledtrad": "<p>Farten med och mot bandet.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Fiona åker 90 km/h och möter en 24,0 m lång lastbil (36 km/h). Hur lång tid tar passagen?",
+        "t": "<p>Bestäm.</p><p>Fiona åker 90 km/h och möter en 24,0 m lång lastbil (36 km/h). Hur lång tid tar passagen?</p>",
+        "s": "<p>\\(t=\\dfrac{24{,}0}{126/3{,}6}\\).</p><p><strong>Svar:</strong> \\(0{,}69\\) s</p>",
+        "ledtrad": "<p>Farterna adderas.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "En motorbåt (72 km/h) passerar ett hangarfartyg (54 km/h) på 1,0 minut. Hur långt är fartyget?",
+        "t": "<p>Bestäm.</p><p>En motorbåt (72 km/h) passerar ett hangarfartyg (54 km/h) på 1,0 minut. Hur långt är fartyget?</p>",
+        "s": "<p>\\(l=\\dfrac{72-54}{3{,}6}\\cdot60\\).</p><p><strong>Svar:</strong> \\(300\\) m</p>",
+        "ledtrad": "<p>Relativ fart.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "Ett 200 m långt tåg (72 km/h) kör om ett 800 m långt godståg (27 km/h). Hur lång tid tar omkörningen?",
+        "t": "<p>Bestäm.</p><p>Ett 200 m långt tåg (72 km/h) kör om ett 800 m långt godståg (27 km/h). Hur lång tid tar omkörningen?</p>",
+        "s": "<p>\\(t=\\dfrac{1\\,000}{(72-27)/3{,}6}\\).</p><p><strong>Svar:</strong> \\(80\\) s</p>",
+        "ledtrad": "<p>Tåget måste köra 1 000 m relativt godståget.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Relativ fart.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "A",
+    "typ": "polis och pyroklastiskt flöde",
+    "poang": "(0/2/1)",
+    "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><ol type=\"a\"><li>En bil kör 40 km/h. En polisbil startar 10 minuter senare från samma plats med 60 km/h. Hur långt kör polisen innan den är ikapp?</li><li>Forskare 5,0 km från en vulkan flyr med 90 km/h från ett pyroklastiskt flöde (700 km/h). Efter hur många sekunder hinner flödet ikapp?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(40\\left(t+\\tfrac16\\right)=60t\\iff t=\\tfrac13\\) h.</p><p><strong>Svar:</strong> \\(20\\) km</p></li><li><p>\\(700t=5{,}0+90t\\iff t=\\dfrac{5{,}0}{610}\\) h. Flödet når 8,0 km, så de hinner inte undan.</p><p><strong>Svar:</strong> \\(30\\) s</p></li></ol>",
+    "id": "2.319",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      29.508196721311478
+    ],
+    "tolerans": [
+      0.51,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "km",
+      "s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bil kör 40 km/h. En polisbil startar 10 minuter senare från samma plats med 60 km/h. Hur långt kör polisen innan den är ikapp?",
+        "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><p>En bil kör 40 km/h. En polisbil startar 10 minuter senare från samma plats med 60 km/h. Hur långt kör polisen innan den är ikapp?</p>",
+        "s": "<p>\\(40\\left(t+\\tfrac16\\right)=60t\\iff t=\\tfrac13\\) h.</p><p><strong>Svar:</strong> \\(20\\) km</p>",
+        "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Forskare 5,0 km från en vulkan flyr med 90 km/h från ett pyroklastiskt flöde (700 km/h). Efter hur många sekunder hinner flödet ikapp?",
+        "t": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p><p>Forskare 5,0 km från en vulkan flyr med 90 km/h från ett pyroklastiskt flöde (700 km/h). Efter hur många sekunder hinner flödet ikapp?</p>",
+        "s": "<p>\\(700t=5{,}0+90t\\iff t=\\dfrac{5{,}0}{610}\\) h. Flödet når 8,0 km, så de hinner inte undan.</p><p><strong>Svar:</strong> \\(30\\) s</p>",
+        "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 2,
+    "omr": "medelhastighet",
+    "niva": "A",
+    "typ": "ubåt och ljudpulser",
+    "poang": "(0/1/1)",
+    "t": "<p>En boj sänder ljudpulser var 5,0 s. Ljudets fart i vatten är 1 500 m/s. En ubåt kör mot bojen med 40 km/h. Hur långt kör ubåten mellan två pulser?</p>",
+    "s": "<p>Pulserna ligger 7 500 m isär och närmar sig ubåten med \\(1\\,500+11{,}1\\) m/s. \\(t=\\dfrac{7\\,500}{1\\,511{,}1}\\), \\(s=11{,}1t\\).</p><p><strong>Svar:</strong> \\(55\\) m</p>",
+    "id": "2.320",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Sträcka, tid och fart",
+    "svarstyp": "numeriskt",
+    "rättSvar": 55.14705882352941,
+    "tolerans": 0.827,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Relativ fart.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m",
+    "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "3.263",
     "kap": 3,
     "omr": "vektorer",

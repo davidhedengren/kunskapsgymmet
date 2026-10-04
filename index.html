@@ -10354,17 +10354,31 @@ function felBelonadeLokalt(){
 function felSkrivBelonade(o){
   try{ localStorage.setItem(FEL_BELONAD_KEY,JSON.stringify(o)); }catch(_){}
 }
-const FEL_LARARMARK="[Lärare]";
-/* Delar loggens kommentarer i lärarens och elevernas. */
+/* Vem som rapporterar skrivs först i kommentaren, "[Lärare: Namn]" eller "[Elev: Namn]",
+   eftersom servern inte sparar rapportören. Äldre rapporter har "[Lärare]" eller ingen märkning. */
+function felRapportorNamn(){
+  const u=session?.user;
+  return String(u?.user_metadata?.full_name || u?.email || profile?.namn || "").replace(/[\[\]]/g,"").trim();
+}
+function felRapportorMarkering(){
+  const roll=arNagonLarare()?"Lärare":"Elev";
+  const namn=felRapportorNamn();
+  return (namn || roll==="Lärare") ? `[${roll}${namn?": "+namn:""}]` : "";
+}
+/* Delar loggens kommentarer i lärarnas och elevernas, med namn när det finns. */
 function felDelaKommentarer(lista){
-  const elev=[], larare=[]; let lararUtanText=0;
+  const elev=[], larare=[];
   for(const k of (lista||[]).filter(Boolean)){
-    if(String(k).startsWith(FEL_LARARMARK)){
-      const t=String(k).slice(FEL_LARARMARK.length).trim();
-      t ? larare.push(t) : lararUtanText++;
-    }else elev.push(k);
+    const m=String(k).match(/^\[(Lärare|Elev)(?::\s*([^\]]*))?\]\s*([\s\S]*)$/);
+    const post=m ? {namn:(m[2]||"").trim(), text:m[3].trim()} : {namn:"", text:String(k).trim()};
+    (m && m[1]==="Lärare" ? larare : elev).push(post);
   }
-  return {elev,larare,lararUtanText};
+  return {elev,larare};
+}
+/* "Namn: text", "Namn (utan kommentar)" eller bara texten. */
+function felPostText(p,citat){
+  const t=p.text ? (citat?'"'+p.text+'"':p.text) : "(utan kommentar)";
+  return p.namn ? `${p.namn}: ${t}` : t;
 }
 const FEL_TAGGAR=[
   {id:"facit",     txt:"Fel svar i facit"},
@@ -10549,7 +10563,8 @@ function skickaFelrapport(){
   let kommentar=(document.getElementById("felkommentar")?.value||"").trim().slice(0,300);
   /* Rapporter från lärarkonton märks i kommentaren, så att loggen kan skilja
      lärarens kommentar från elevernas (servern sparar ingen roll). */
-  if(arNagonLarare()) kommentar=(FEL_LARARMARK+(kommentar?" "+kommentar:"")).slice(0,300);
+  const mark=felRapportorMarkering();
+  if(mark) kommentar=(mark+(kommentar?" "+kommentar:"")).slice(0,300);
   const post={
     kurs:state.course, spar:state.track||null,
     uppgift:felUppgiftsId(t), deluppgift:t.deluppgift||null,
@@ -10644,9 +10659,8 @@ async function ritaFellogg(){
     }
     const taggar=(r.taggar||[]).map(x=>FEL_TAGGAR.find(y=>y.id===x)?.txt||x).join(" · ");
     const kd=felDelaKommentarer(r.kommentarer);
-    const komm=[...kd.larare.map(x=>"Lärare: "+x),
-      ...(kd.lararUtanText && !kd.larare.length?["Rapport från lärare"]:[]),
-      ...kd.elev].slice(0,3).join(" | ");
+    const komm=[...kd.larare.map(p=>"Lärare "+felPostText(p,false)),
+      ...kd.elev.map(p=>(p.namn?"Elev ":"")+felPostText(p,false))].slice(0,4).join(" | ");
     html+=`<div class="felpost${r.atgardad?" klar":""}">
       <span class="nr">#${esc(r.uppgift)}</span>
       <span class="txt">${taggar?esc(taggar):"<em>ingen tagg</em>"}${
@@ -10698,14 +10712,13 @@ function felloggText(){
     }
     const taggar=(r.taggar||[]).map(x=>FEL_TAGGAR.find(y=>y.id===x)?.txt||x).join(", ");
     const kd=felDelaKommentarer(r.kommentarer);
-    const cit=a=>a.map(x=>'"'+x+'"').join(" ");
+    const cit=a=>a.map(p=>felPostText(p,true)).join(" · ");
     rader.push(`  #${r.uppgift}${r.deluppgift?" del "+r.deluppgift:""}`
       +`${r.spar?"  spår "+r.spar:""}  ${r.antal} rapport${r.antal===1?"":"er"}`
       +`${r.senast?"  senast "+String(r.senast).slice(0,10):""}`
       +`${taggar?"\n      taggar: "+taggar:""}`
-      +`${kd.larare.length?"\n      lärarkommentarer: "+cit(kd.larare):""}`
-      +`${kd.lararUtanText && !kd.larare.length?"\n      rapporterad av lärare (utan kommentar)":""}`
-      +`${kd.elev.length?"\n      elevkommentarer: "+cit(kd.elev):""}`);
+      +`${kd.larare.length?"\n      lärare: "+cit(kd.larare):""}`
+      +`${kd.elev.length?"\n      elever: "+cit(kd.elev):""}`);
   });
   return rader.join("\n");
 }

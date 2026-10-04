@@ -27732,7 +27732,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Välj den regel som är viktigast att känna igen <em>först</em>.</p><p>A: potens-/summaregel &nbsp; B: produktregeln &nbsp; C: kvotregeln &nbsp; D: kedjeregeln</p>",
+    "t": "<p>Välj den regel som är viktigast att känna igen <em>först</em> för varje funktion. Svara A–D.</p><p>A: potens-/summaregel &nbsp; B: produktregeln &nbsp; C: kvotregeln &nbsp; D: kedjeregeln</p><p>a) \\(f(x)=x^4-3x+1\\)</p><p>b) \\(g(x)=(3x-1)^5\\)</p><p>c) \\(h(x)=xe^x\\)</p><p>d) \\(p(x)=\\frac{e^x}{x+1}\\)</p>",
     "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
@@ -30736,7 +30736,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Välj huvudregel.</p><p>A: produktregeln &nbsp; B: kvotregeln &nbsp; C: kedjeregeln</p>",
+    "t": "<p>Vilken huvudregel behövs först när du deriverar funktionen? Svara A–C.</p><p>A: produktregeln &nbsp; B: kvotregeln &nbsp; C: kedjeregeln</p><p>a) \\(x^2e^x\\)</p><p>b) \\(\\frac{\\ln x}{x}\\)</p><p>c) \\(\\sin(x^2)\\)</p>",
     "s": "<p>a) <strong>A</strong>, b) <strong>B</strong>, c) <strong>C</strong>.</p><p>I c) ligger funktionen \\(x^2\\) inuti sinus, därför kedjeregeln.</p>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
@@ -33969,7 +33969,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Identifiera den <strong>inre funktionen</strong> i varje sammansättning.</p>",
+    "t": "<p>Identifiera den <strong>inre funktionen</strong> i varje sammansättning.</p><p>a) \\(\\ln(1+x^2)\\)</p><p>b) \\(\\sin(e^x)\\)</p><p>c) \\((1+\\cos x)^4\\)</p>",
     "s": "<p>a) \\(u=1+x^2\\).<br>b) \\(u=e^x\\).<br>c) \\(u=1+\\cos x\\).</p><p>Att identifiera \\(u\\) korrekt gör kedjeregelns extra faktor tydlig.</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [

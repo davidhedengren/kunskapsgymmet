@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-04-c";
+const BANK_VERSION="2026-10-04-d";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11540,7 +11540,8 @@ function facitText(d,kvar){
   return (kvar.length?kvar:d.svar.map((v,j)=>({v,j})))
     .map(k=>{
       /* LaTeX-facit (\frac, \sin ...) visas som formel i stället för som rå kod. */
-      const v=String(k.v);
+      /* "<" i olikheter (1<x<=7) skulle annars tolkas som en HTML-tagg. */
+      const v=String(k.v).replace(/<(?!\/?(?:sup|sub|b|i|em|strong|br)\b)/g,"&lt;");
       const text=(/\\[a-zA-Z]/.test(v) && !v.includes("\\(")) ? "\\("+v+"\\)" : v;
       return text+(d.enhet[k.j]?" "+d.enhet[k.j]:"");
     })

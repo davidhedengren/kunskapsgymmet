@@ -1917,7 +1917,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Vilket värde har siffran <strong>7</strong> i talen?</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 47,3</div><div>b) 5,72</div><div>c) 0,071</div></div>",
+    "t": "<p>Vilket värde har siffran <strong>7</strong> i vart och ett av talen?</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 47,3</div><div>b) 5,72</div><div>c) 0,071</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Titta på vilken position siffran 7 står på.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 7 ental</div><div>b) 7 tiondelar = 0,7</div><div>c) 7 hundradelar = 0,07</div></div></div></div>",
     "familj": "Positionsvärde och decimalform",
     "geogebra": false,
@@ -1952,7 +1952,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Vilket värde har siffran <strong>7</strong> i talen?</p><p>47,3</p>",
+        "t": "<p>Vilket värde har siffran <strong>7</strong> i talet 47,3?</p>",
         "s": "<p>7 ental</div><div></p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -1962,7 +1962,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Vilket värde har siffran <strong>7</strong> i talen?</p><p>5,72</p>",
+        "t": "<p>Vilket värde har siffran <strong>7</strong> i talet 5,72?</p>",
         "s": "<p>7 tiondelar = 0,7</div><div></p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -1972,7 +1972,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Vilket värde har siffran <strong>7</strong> i talen?</p><p>0,071</p>",
+        "t": "<p>Vilket värde har siffran <strong>7</strong> i talet 0,071?</p>",
         "s": "<p>7 hundradelar = 0,07</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -2063,7 +2063,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 3,<u><strong>4</strong></u>8</div><div>b) 12,0<u><strong>6</strong></u>5</div><div>c) 0,00<u><strong>9</strong></u></div></div>",
+    "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform eller bråkform.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 3,<u><strong>4</strong></u>8</div><div>b) 12,0<u><strong>6</strong></u>5</div><div>c) 0,00<u><strong>9</strong></u></div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 0,4</div><div>b) 0,06</div><div>c) 0,009</div></div></div></div>",
     "familj": "Positionsvärde och decimalform",
     "geogebra": false,
@@ -2084,7 +2084,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform.</p><div class=\"spel-en-del\">3,<u><strong>4</strong></u>8</div>",
+        "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform eller bråkform.</p><div class=\"spel-en-del\">3,<u><strong>4</strong></u>8</div>",
         "s": "<p><strong>Metod:</strong> Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 0,4</div>",
         "ledtrad": "<p>Vad är en tiondel av en hel? Vilken position har den markerade siffran?</p>",
         "niva": "E",
@@ -2092,7 +2092,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform.</p><div class=\"spel-en-del\">12,0<u><strong>6</strong></u>5</div>",
+        "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform eller bråkform.</p><div class=\"spel-en-del\">12,0<u><strong>6</strong></u>5</div>",
         "s": "<p><strong>Metod:</strong> Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 0,06</div>",
         "ledtrad": "<p>Räkna decimalplatserna från decimaltecknet.</p>",
         "niva": "E",
@@ -2100,7 +2100,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform.</p><div class=\"spel-en-del\">0,00<u><strong>9</strong></u></div>",
+        "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform eller bråkform.</p><div class=\"spel-en-del\">0,00<u><strong>9</strong></u></div>",
         "s": "<p><strong>Metod:</strong> Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 0,009</div>",
         "ledtrad": "<p>Vad är värdet av en enda tusendel?</p>",
         "niva": "E",
@@ -4784,7 +4784,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Är talen i varje par lika stora? Svara ja eller nej.</p><p>0,6 och 0,60</p>",
+        "t": "<p>Är talen 0,6 och 0,60 lika stora? Svara ja eller nej.</p>",
         "s": "<p>lika stora</div><div></p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -4794,7 +4794,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Är talen i varje par lika stora? Svara ja eller nej.</p><p>2,05 och 2,050</p>",
+        "t": "<p>Är talen 2,05 och 2,050 lika stora? Svara ja eller nej.</p>",
         "s": "<p>lika stora</div><div></p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -4804,7 +4804,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Är talen i varje par lika stora? Svara ja eller nej.</p><p>0,4 och 0,040</p>",
+        "t": "<p>Är talen 0,4 och 0,040 lika stora? Svara ja eller nej.</p>",
         "s": "<p>inte lika stora</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -10615,7 +10615,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken beräkningsordning följer beroendena i \\(3+2\\cdot(7-4)^2\\)?</p><p>A. multiplikation → parentes → potens → addition<br>B. potens → parentes → addition → multiplikation<br>C. parentes → potens → multiplikation → addition</p>",
+    "t": "<p>I vilken ordning ska räkneoperationerna utföras i \\(3+2\\cdot(7-4)^2\\)?</p><p>A. multiplikation → parentes → potens → addition<br>B. potens → parentes → addition → multiplikation<br>C. parentes → potens → multiplikation → addition</p>",
     "s": "<p><strong>Svar: C.</strong> Parentesens värde 3 är bas för potensen 3² = 9. Sedan räknas 2 · 9 = 18 och sist 3 + 18 = 21.</p>",
     "familj": "Prioriteringsregler",
     "svarstyp": "val",

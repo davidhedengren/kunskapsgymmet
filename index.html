@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-04-a";
+const BANK_VERSION="2026-10-04-b";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9513,6 +9513,14 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
           if(delSvarRatt(anv,f,enhet,tol,t,idx,format)) return true;
         }
       }
+    }
+  }
+  /* Positionsord: "7 tiondelar", "9 tusendelar", "4 hundratal" när facit är ett tal. */
+  if(typeof facit==="number" || numerisktSvar(facit)){
+    const m=stadaSvar(anv).toLowerCase().match(/^(\d+(?:[.,]\d+)?)\s*(ental|tiotal|hundratal|tusental|tiondel(?:ar)?|hundradel(?:ar)?|tusendel(?:ar)?)$/);
+    if(m){
+      const f={ental:1,tiotal:10,hundratal:100,tusental:1000,tiondel:0.1,hundradel:0.01,tusendel:0.001}[m[2].replace(/ar$/,"")];
+      if(delSvarRatt(String(talAv(m[1])*f),facit,enhet,tol,t,idx,format)) return true;
     }
   }
   /* Exakt facit (11/3, 3/ln2, 2π) och ett korrekt avrundat decimalsvar med minst tre värdesiffror,

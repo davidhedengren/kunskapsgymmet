@@ -21767,7 +21767,7 @@ window.BANKMATF1 = [
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 0.06,
-    "tolerans": 0.01,
+    "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22583,7 +22583,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 0.0597,
-    "tolerans": 0.01,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22669,7 +22669,7 @@ window.BANKMATF1 = [
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 0.05,
-    "tolerans": 0.01,
+    "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -28459,7 +28459,7 @@ window.BANKMATF1 = [
     "familj": "Eulers metod",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 0.1,
+    "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
       "procedur",

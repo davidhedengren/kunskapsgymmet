@@ -5758,10 +5758,10 @@ window.BANKMATO1 = [
     "familj": "Beräkna gränsvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -5776,7 +5776,8 @@ window.BANKMATO1 = [
     "spel": false,
     "omrTidigare": [
       "gransvarde_kontinuitet"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.137",
@@ -14985,7 +14986,7 @@ window.BANKMATO1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1,
+    "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -15121,7 +15122,7 @@ window.BANKMATO1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -2,
-    "tolerans": 1,
+    "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "procedur",

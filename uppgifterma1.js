@@ -44408,7 +44408,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Du ska investera 100 000 kr i ett av två företag.</p><p><strong>Sun-Sational Energy:</strong> värdet ökar med 11 000 kr per år<br><strong>Energy Eco-lution:</strong> värdet ökar med 8,5 % per år</p><p>a) Ställ upp en matematisk modell för varje företag, där värdet \\(y\\) kr beror av tiden \\(x\\) år.<br>b) Beräkna investeringens värde efter 4 år enligt båda modellerna. Avrunda till närmaste hundratal kronor.<br>c) Vilket företag ger högst värde efter 4 år?</p>",
+    "t": "<p>Du ska investera 100 000 kr i ett av två företag.</p><p><strong>A. Sun-Sational Energy:</strong> värdet ökar med 11 000 kr per år<br><strong>B. Energy Eco-lution:</strong> värdet ökar med 8,5 % per år</p><p>a) Ställ upp en matematisk modell för varje företag, där värdet \\(y\\) kr beror av tiden \\(x\\) år.<br>b) Beräkna investeringens värde efter 4 år enligt båda modellerna. Avrunda till närmaste hundratal kronor.<br>c) Vilket företag ger högst värde efter 4 år? Svara A eller B.</p>",
     "s": "<p>a) <strong>\\(y_A=100\\,000+11\\,000x\\)</strong> (linjär) och <strong>\\(y_B=100\\,000\\cdot1{,}085^x\\)</strong> (exponentiell)</p><p>b) \\(y_A(4)=100\\,000+44\\,000=\\)<strong>144 000 kr</strong><br>\\(y_B(4)=100\\,000\\cdot1{,}085^4\\approx\\)<strong>138 600 kr</strong></p><p>c) <strong>Sun-Sational Energy</strong>, eftersom 144 000 kr &gt; 138 600 kr</p>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
     "geogebra": true,
@@ -44423,7 +44423,7 @@ window.BANKMA1 = [
         144000,
         138600
       ],
-      "Sun-Sational Energy"
+      "A"
     ],
     "tolerans": null,
     "självrättning": true,
@@ -44463,7 +44463,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Du ska investera 100 000 kr i ett av två företag.</p><p><strong>Sun-Sational Energy:</strong> värdet ökar med 11 000 kr per år<br><strong>Energy Eco-lution:</strong> värdet ökar med 8,5 % per år</p><p>Ställ upp en matematisk modell för varje företag, där värdet \\(y\\) kr beror av tiden \\(x\\) år.</p>",
+        "t": "<p>Du ska investera 100 000 kr i ett av två företag.</p><p><strong>A. Sun-Sational Energy:</strong> värdet ökar med 11 000 kr per år<br><strong>B. Energy Eco-lution:</strong> värdet ökar med 8,5 % per år</p><p>Ställ upp en matematisk modell för varje företag, där värdet \\(y\\) kr beror av tiden \\(x\\) år.</p>",
         "s": "<p><strong>\\(y_A=100\\,000+11\\,000x\\)</strong> (linjär) och <strong>\\(y_B=100\\,000\\cdot1{,}085^x\\)</strong> (exponentiell)</p><p></p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -44473,7 +44473,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Du ska investera 100 000 kr i ett av två företag.</p><p><strong>Sun-Sational Energy:</strong> värdet ökar med 11 000 kr per år<br><strong>Energy Eco-lution:</strong> värdet ökar med 8,5 % per år</p><p>Beräkna investeringens värde efter 4 år enligt båda modellerna. Avrunda till närmaste hundratal kronor.</p>",
+        "t": "<p>Du ska investera 100 000 kr i ett av två företag.</p><p><strong>A. Sun-Sational Energy:</strong> värdet ökar med 11 000 kr per år<br><strong>B. Energy Eco-lution:</strong> värdet ökar med 8,5 % per år</p><p>Beräkna investeringens värde efter 4 år enligt båda modellerna. Avrunda till närmaste hundratal kronor.</p>",
         "s": "<p>\\(y_A(4)=100\\,000+44\\,000=\\)<strong>144 000 kr</strong><br>\\(y_B(4)=100\\,000\\cdot1{,}085^4\\approx\\)<strong>138 600 kr</strong></p><p></p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -44483,7 +44483,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Du ska investera 100 000 kr i ett av två företag.</p><p><strong>Sun-Sational Energy:</strong> värdet ökar med 11 000 kr per år<br><strong>Energy Eco-lution:</strong> värdet ökar med 8,5 % per år</p><p>Vilket företag ger högst värde efter 4 år?</p>",
+        "t": "<p>Du ska investera 100 000 kr i ett av två företag.</p><p><strong>A. Sun-Sational Energy:</strong> värdet ökar med 11 000 kr per år<br><strong>B. Energy Eco-lution:</strong> värdet ökar med 8,5 % per år</p><p>Vilket företag ger högst värde efter 4 år? Svara A eller B.</p>",
         "s": "<p><strong>Sun-Sational Energy</strong>, eftersom 144 000 kr &gt; 138 600 kr</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -45419,10 +45419,13 @@ window.BANKMA1 = [
     "familj": "f(x) i grafer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      3
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -45538,7 +45541,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
+    "svarFormat": "ekvation",
     "ledtrad": "<p>Räkna antalet minuter från 07.30 till 08.45. Det talet är funktionens indata.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -60085,13 +60088,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Kostnaden för att hyra en släpvagn beskrivs av \\(K(t)=250+90t\\), där \\(t\\) är antalet timmar.</p><p>Vad betyder talet 90 i det här sammanhanget? Svara med enhet.</p>",
+    "t": "<p>Kostnaden för att hyra en släpvagn beskrivs av \\(K(t)=250+90t\\), där \\(t\\) är antalet timmar.</p><p>Talet 90 anger hur mycket kostnaden ökar för varje extra timme. Hur mycket är det? Svara med enhet.</p>",
     "s": "<p><strong>Nyckelidé:</strong> \\(k\\)-värdet är förändringen per enhet av \\(x\\). Enheten blir alltid \\(y\\)-enhet per \\(x\\)-enhet.</p><p><strong>Steg 1:</strong> Här mäts \\(K\\) i kronor och \\(t\\) i timmar.</p><p><strong>Steg 2:</strong> Talet 90 står framför \\(t\\) och är alltså \\(k\\).</p><p><strong>Tolkning:</strong> Varje ytterligare timme kostar 90 kr. Talet 250 är i stället den fasta avgiften som betalas oavsett hyrtid.</p><p><strong>Svar:</strong> 90 kr per timme</p>",
     "familj": "Egenskaper hos linjära funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": "90 kr per timme",
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -60099,14 +60102,14 @@ window.BANKMA1 = [
       "modellering"
     ],
     "ledtrad": "<p>Talet som multiplicerar tiden anger hur mycket kostnaden ändras när tiden ökar med en timme. Svara med både tal och enhet.</p>",
-    "svarFormat": "kort_text",
-    "manuellKomplettering": true,
+    "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Tolka k- och m-värden i linjära funktioner"
-    ]
+    ],
+    "svarEnhet": "kr/h"
   },
   {
     "id": "2.438",
@@ -87775,7 +87778,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
+    "svarFormat": "uttryck",
     "ledtrad": "<p>Börja med definitionen \\(\\sin v=x/h\\) och lös ut \\(x\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -110210,7 +110213,7 @@ window.BANKMA1 = [
       "Förändring (%)"
     ],
     "svarFormat": [
-      "kort_text",
+      "kalkylbladsformel",
       "numeriskt"
     ],
     "familjTidigare": [
@@ -110680,26 +110683,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett program upprepar instruktionen <code>värde = värde * 1.05</code> en gång per år. Vad betyder en sådan uppdatering för värdet vid varje steg?</p>",
+    "t": "<p>Ett program upprepar instruktionen <code>värde = värde * 1.05</code> en gång per år. Med hur många procent förändras värdet vid varje steg? Svara med ett positivt tal om värdet ökar och ett negativt om det minskar.</p>",
     "s": "<p>Multiplikation med 1,05 innebär att det nya värdet är 105 % av det gamla: <strong>en ökning med 5 % per steg</strong>.</p>",
     "familj": "Programmering som matematiskt verktyg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "kort_text",
-    "rättSvar": "ökar med 5 %",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
+    "svarFormat": "procent",
     "ledtrad": "<p>Tolka 1,05 som 100 % + något.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Matematik och enkla algoritmer"
-    ]
+    ],
+    "svarEnhet": "%"
   },
   {
     "id": "6.14",
@@ -110741,7 +110745,7 @@ window.BANKMA1 = [
       "c) kronor"
     ],
     "svarFormat": [
-      "kort_text",
+      "kalkylbladsformel",
       "uttryck",
       "numeriskt"
     ],

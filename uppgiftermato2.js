@@ -63282,7 +63282,7 @@ window.BANKMATO2 = [
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
     "svarstyp": "numeriskt",
     "rättSvar": 0.1,
-    "tolerans": 0.01,
+    "tolerans": 0.001,
     "självrättning": true,
     "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
     "svarFormat": "numeriskt",
@@ -64470,7 +64470,7 @@ window.BANKMATO2 = [
     "s": "<ol type=\"a\"><li><p>Intervallet är från \\(\\mu\\) till \\(\\mu+\\sigma\\): \\(\\approx0{,}34\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}34\\)</p></li><li><p>Med räknaren: \\(\\approx0{,}45\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}45\\)</p></li><li><p>Med räknaren: \\(\\approx0{,}58\\).</p><p><strong>Svar:</strong> \\(\\approx0{,}58\\)</p></li></ol>",
     "id": "4.540",
     "miniräknare": true,
-    "geogebra": false,
+    "geogebra": true,
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -65249,7 +65249,7 @@ window.BANKMATO2 = [
     "rättSvar": [
       null,
       "9\\pi",
-      "rät cirkulär kon"
+      "kon"
     ],
     "tolerans": [
       null,

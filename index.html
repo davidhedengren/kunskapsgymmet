@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-04-e";
+const BANK_VERSION="2026-10-04-f";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9176,6 +9176,58 @@ function textNyckel(x){
     .replace(/\s+/g," ").trim();
 }
 
+/* Textsvar med samma innebörd: "exponentiell" för "exponentialfunktion", "minskade" för "minskat",
+   "nej, det går inte" för "nej", "B" för "Taxi B", "ingen korrelation" för "ingen eller svag korrelation".
+   Kontrollen kan bara godkänna; ett svar som inte känns igen jämförs som vanligt. */
+const TEXT_ORDKLASSER=[
+  [/^exponential(?:funktion|modell|modellen|ekvation)$|^exponentiell(?:t|a)?$/,"exponentiell"],
+  [/^potens(?:funktion|modell|modellen|ekvation)?$/,"potens"],
+  [/^linjär(?:t|a)?$/,"linjär"],
+  [/^andragrad(?:s|sfunktion|smodell|smodellen|sekvation)?$/,"andragrad"],
+  [/^(?:minskat|minskar|minskade|minska|minskning|minskningen|sjunker|sjunkit)$/,"minskar"],
+  [/^(?:ökat|ökar|ökade|öka|ökning|ökningen|stiger|stigit)$/,"ökar"],
+  [/^(?:växande|växer|ökande)$/,"växande"],
+  [/^(?:avtagande|avtar|minskande)$/,"avtagande"],
+  [/^(?:positiv|positivt|positiva)$/,"positiv"],
+  [/^(?:negativ|negativt|negativa)$/,"negativ"],
+  [/^(?:svag|mycket svag|svagt)$/,"svag"],
+  [/^(?:lika|lika stora|lika stor|lika mycket|samma|lika många)$/,"lika"],
+  [/^(?:ingen|inget|inga|ingen lösning|inga lösningar|saknar lösning|ingen reell lösning|inga reella lösningar|ingen korrelation|ingen tydlig korrelation)$/,"ingen"],
+  [/^(?:en|1|en lösning|exakt en|exakt en lösning|unik|en unik lösning)$/,"en"],
+  [/^(?:oändligt många|oändligt många lösningar|oändligt)$/,"oändligt många"],
+  [/^(?:största|ett största|maximum|max)$/,"största"],
+  [/^(?:minsta|ett minsta|minimum|min)$/,"minsta"],
+  [/^(?:motsatt|motsatt riktning|omvänd riktning)$/,"motsatt"],
+  [/^(?:rät cirkulär kon|cirkulär kon|rak kon|kon|en kon)$/,"kon"],
+];
+function textKarna(x){
+  const klass=s=>{ for(const [rx,k] of TEXT_ORDKLASSER) if(rx.test(s)) return k; return null; };
+  let s=textNyckel(x).replace(/[−–]/g,"-").replace(/\s*-\s*/g,"-").replace(/^svar\s+/,"");
+  const tidig=klass(s); if(tidig) return tidig;
+  s=s.replace(/\s+(?:funktion|funktionen|modell|modellen|korrelation|korrelationen|samband|sambandet|värde|värdet|mätningen|riktning)$/,"");
+  const mitt=klass(s); if(mitt) return mitt;
+  s=s.replace(/^(?:det är|den är|det blir|den blir|det har|den har|det|den|de|en|ett)\s+(?=\S)/,"");
+  const sen=klass(s); if(sen) return sen;
+  s=s.replace(/^(?:taxi|abonnemang|alternativ|konto|lån|modell|graf|system|lag|bolag|klass|företag)\s+([a-d])$/,"$1");
+  s=s.replace(/^([a-z])\(x\)$/,"$1");
+  return klass(s)||s;
+}
+function textSvarRatt(anv,facit){
+  const a=textNyckel(anv), f=textNyckel(facit);
+  if(!a||!f) return false;
+  if(a===f) return true;
+  /* ja/nej/sant/falskt följt av en motivering */
+  if(/^(?:ja|nej|sant|falskt)$/.test(f)) return a.split(" ")[0]===f;
+  /* "ingen eller mycket svag korrelation": varje alternativ godkänns */
+  const alt=f.includes(" eller ")?f.split(" eller "):[f];
+  const svans=alt.length>1?(alt[alt.length-1].match(/\s(\S+)$/)||[,""])[1]:"";
+  const ka=textKarna(a);
+  return alt.some(x=>{
+    const hel=svans && !x.endsWith(svans) ? x+" "+svans : x;
+    return textKarna(x)===ka || textKarna(hel)===ka;
+  });
+}
+
 function algebraisktLika(a,b){
   try{
     if(typeof window.nerdamer!=="function") return null;
@@ -9357,7 +9409,7 @@ function formatRatt(anv,facit,meta){
       return Math.sign(v)===Math.sign(fv) || /förlust|forlust|minus/i.test(a)===(fv<0);
     }
     case "kort_text": case "text":
-      return textNyckel(a)===textNyckel(f);
+      return textSvarRatt(a,f);
     case "kalkylbladsformel": {
       const norm=x=>textNyckel(x).replace(/\s/g,"").replace(/^=/,"").replace(/;/g,",");
       return norm(a)===norm(f);
@@ -9475,6 +9527,15 @@ function rotListaRatt(anv,facit,tol){
 }
 
 /* Svaret utan en avslutande enhet som är exakt facits enhet ("4π cm" → "4π"). */
+function enhetMedOrd(s){
+  return String(s).replace(/\bkronor\b/gi,"kr")
+    .replace(/\s+(?:per|i)\s+/gi,"/")
+    .replace(/\/\s*(?:timme|timmen|timmar|tim)\b/gi,"/h")
+    .replace(/\/\s*(?:sekund|sekunden|sek)\b/gi,"/s")
+    .replace(/\/\s*(?:minut|minuten|minuter)\b/gi,"/min")
+    .replace(/\/\s*(?:året)\b/gi,"/år")
+    .replace(/\/\s*(?:dygnet)\b/gi,"/dygn");
+}
 function utanEnhet(anv,enhet){
   const e=String(enhet||"").trim(); if(!e) return null;
   const p=e.split(/[·⋅*]/).map(d=>d.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")
@@ -9571,6 +9632,10 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
   if(typeof enhet==="string" && enhet.trim()){
     const utan=utanEnhet(anv,enhet);
     if(utan!==null && delSvarRatt(utan,facit,null,tol,t,idx,format)) return true;
+    /* Enhet skriven med ord: "90 kronor per timme" för kr/h. */
+    const ord=enhetMedOrd(anv);
+    const utan2=ord!==String(anv) ? utanEnhet(ord,enhet) : null;
+    if(utan2!==null && delSvarRatt(utan2,facit,null,tol,t,idx,format)) return true;
   }
   const meta={format,tolerans:tol,enhet};
   /* Alla primitiva funktioner (facit slutar på +C): konstanten får heta något annat, t.ex. +K eller +D. */
@@ -9578,6 +9643,8 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
     anv=String(anv).replace(/\+\s*[A-Za-z]\s*$/,"+C");
   // Lösningsmängder godkänns oavsett ordning och skrivsätt. Kontrollen kan bara godkänna.
   if(rotListaRatt(anv,facit,tol)) return true;
+  /* Ordfacit utan angivet format ("nej", "moturs", "avtagande"). */
+  if(!format && typeof facit==="string" && /^[a-zåäö][a-zåäö \-]*$/i.test(facit.trim()) && textSvarRatt(anv,facit)) return true;
   if(format){
     const r=formatRatt(anv,facit,meta);
     if(r!==null) return r;

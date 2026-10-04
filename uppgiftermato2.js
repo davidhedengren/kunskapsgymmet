@@ -48284,7 +48284,7 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För en funktion gäller att \\(f'(x)\\gt0\\) när \\(x\\lt2\\) och \\(f'(x)\\lt0\\) när \\(x\\gt2\\). Vad har grafen för punkt där \\(x=2\\)?</p><p>A. en maximipunkt<br>B. en minimipunkt<br>C. en terrasspunkt<br>D. en lodrät asymptot</p>",
+    "t": "<p>För en deriverbar funktion gäller att \\(f'(x)\\gt0\\) när \\(x\\lt2\\) och \\(f'(x)\\lt0\\) när \\(x\\gt2\\). Vad har grafen för punkt där \\(x=2\\)?</p><p>A. en maximipunkt<br>B. en minimipunkt<br>C. en terrasspunkt<br>D. en lodrät asymptot</p>",
     "s": "<p>Funktionen växer fram till \\(x=2\\) och avtar sedan. Då är \\(x=2\\) en maximipunkt.</p><p><strong>Svar:</strong> A: en maximipunkt</p>",
     "familj": "Grafanalys med derivata",
     "geogebra": false,

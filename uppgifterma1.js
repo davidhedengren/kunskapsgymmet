@@ -45541,7 +45541,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "ekvation",
+    "svarFormat": "kort_text",
     "ledtrad": "<p>Räkna antalet minuter från 07.30 till 08.45. Det talet är funktionens indata.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,

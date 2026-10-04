@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-04-f";
+const BANK_VERSION="2026-10-04-g";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -4023,21 +4023,24 @@ async function laddaMinKlass(){
   state.minKlass=k?.saknas ? false : (k && k.id) ? k : null;
   return state.minKlass;
 }
-async function oppnaKlassval(){
+async function oppnaKlassval(tvingad=false){
   if(!session){ loggaIn(); return; }
   const lista=await klassRpc("kg_klasser",{},false);
-  if(!Array.isArray(lista)){ toast(lista?.saknas?"Klasserna är inte aktiverade än.":"Kunde inte hämta klasserna just nu."); return; }
+  if(!Array.isArray(lista)){ if(!tvingad) toast(lista?.saknas?"Klasserna är inte aktiverade än.":"Kunde inte hämta klasserna just nu."); return; }
   if(state.minKlass===undefined) await laddaMinKlass();
   const min=state.minKlass?.id;
   document.getElementById("klassval")?.remove();
   const el=document.createElement("div");
   el.className="modal"; el.id="klassval";
+  if(tvingad) el.dataset.tvingad="1";
   el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Välj klass">
       <div class="modal-topp">
         <div><div class="lbl">Topplistan</div><h2>Välj din klass</h2></div>
-        <button class="iconbtn" onclick="stangKlassval()" aria-label="Stäng">✕</button>
+        ${tvingad?"":`<button class="iconbtn" onclick="stangKlassval()" aria-label="Stäng">✕</button>`}
       </div>
-      <p class="modal-text">Din XP räknas för klassen. Du kan byta klass en gång i veckan.</p>
+      <p class="modal-text">${tvingad
+        ? "Välj vilken klass du går i för att fortsätta. Då kommer du med på topplistan och din XP räknas för klassen. Finns inte din klass med kan du skapa den. Du kan byta klass en gång i veckan."
+        : "Din XP räknas för klassen. Du kan byta klass en gång i veckan."}</p>
       ${lista.length?`<div class="valgrid">${lista.map(k=>`<button class="valruta${k.id===min?" vald":""}" onclick="valjKlass(${Number(k.id)})">
           <span class="kryss" aria-hidden="true"></span>
           <span class="valnamn">${esc(k.namn)}</span>
@@ -4051,12 +4054,26 @@ async function oppnaKlassval(){
           <button class="btn sm" onclick="skapaKlass()">Skapa och gå med</button>
         </div>
       </div>
-      <div class="modal-fot">${min?`<button class="btn quiet sm" onclick="valjKlass(null)">Lämna klassen</button>`:""}<span class="spacer"></span>
-        <button class="btn" onclick="stangKlassval()">Stäng</button></div>
+      ${tvingad?"":`<div class="modal-fot">${min?`<button class="btn quiet sm" onclick="valjKlass(null)">Lämna klassen</button>`:""}<span class="spacer"></span>
+        <button class="btn" onclick="stangKlassval()">Stäng</button></div>`}
     </div>`;
   document.body.appendChild(el);
-  el.addEventListener("click",e=>{ if(e.target===el) stangKlassval(); });
+  if(!tvingad) el.addEventListener("click",e=>{ if(e.target===el) stangKlassval(); });
   requestAnimationFrame(()=>el.classList.add("visa"));
+}
+/* Alla inloggade måste tillhöra en klass för att komma med på topplistan.
+   Rutan går inte att stänga utan att välja eller skapa en klass. Den väntar
+   tills andra rutor (rollval, skolfråga, namn) är stängda. */
+async function kravKlass(forsok=0){
+  if(!MOLN_PA() || !session) return false;
+  if(document.querySelector(".modal.visa") || document.getElementById("klassval")){
+    if(forsok<200) setTimeout(()=>kravKlass(forsok+1),1500);
+    return false;
+  }
+  await laddaMinKlass();
+  if(state.minKlass || state.minKlass===false) return false;   // har klass, eller klasser inte installerade
+  await oppnaKlassval(true);
+  return true;
 }
 function stangKlassval(){
   const el=document.getElementById("klassval"); if(!el) return;
@@ -4178,18 +4195,31 @@ const TOPP_FLIKAR={
   alla: {txt:"All time high",  fot:"Totalt XP och uppgifter sedan starten"}
 };
 const TOPP_SORT=TOPP_FLIKAR;
+/* topplista_period2 räknar dag/vecka/månad ur xp_dag (sql/2026-10-08-topplista-xp-dag.sql).
+   Den gamla topplista_period används tills den nya är installerad. */
+let topplistaFunk="topplista_period2";
 async function hamtaTopplista(flik,gräns=50){
   if(!MOLN_PA()) return null;
+  const svar=await hamtaTopplistaFran(topplistaFunk,flik,gräns);
+  if(svar===undefined && topplistaFunk!=="topplista_period"){
+    topplistaFunk="topplista_period";
+    return hamtaTopplistaFran(topplistaFunk,flik,gräns);
+  }
+  return svar===undefined?null:svar;
+}
+/* undefined = funktionen saknas eller fel i databasen (prova den gamla). */
+async function hamtaTopplistaFran(funk,flik,gräns){
   const inloggad = !!session && await giltigSession();
   try{
-    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/topplista_period",{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/"+funk,{
       method:"POST",headers:sbHeaders(inloggad),
       body:JSON.stringify({p_period:flik,p_limit:gräns,
         p_namn:(session && profile.visaTopplista && profile.namn)?profile.namn:null})
     });
     if(!r.ok){
       let txt=""; try{ txt=await r.text(); }catch(_){}
-      console.warn("Topplistan ("+flik+") svarade "+r.status+": "+txt);
+      console.warn("Topplistan ("+funk+", "+flik+") svarade "+r.status+": "+txt);
+      if(funk!=="topplista_period" && (r.status===404 || r.status>=500)) return undefined;
       if(r.status===404) return flik==="alla" ? hamtaTotalFranVy(inloggad,gräns) : {saknas:true};
       return null;
     }
@@ -4199,7 +4229,7 @@ async function hamtaTopplista(flik,gräns=50){
       plats:d?.plats??null,
       fuskare:Array.isArray(d?.fuskare)?d.fuskare:[]
     };
-  }catch(_){ return null; }
+  }catch(_){ return funk!=="topplista_period" ? undefined : null; }
 }
 
 /* Reserv om databasfunktionen inte är installerad än: den gamla vyn
@@ -9202,7 +9232,7 @@ const TEXT_ORDKLASSER=[
 ];
 function textKarna(x){
   const klass=s=>{ for(const [rx,k] of TEXT_ORDKLASSER) if(rx.test(s)) return k; return null; };
-  let s=textNyckel(x).replace(/[−–]/g,"-").replace(/\s*-\s*/g,"-").replace(/^svar\s+/,"");
+  let s=textNyckel(x).replace(/[−–]/g,"-").replace(/\s*([-=()+*\/^<>])\s*/g,"$1").replace(/^svar\s+/,"");
   const tidig=klass(s); if(tidig) return tidig;
   s=s.replace(/\s+(?:funktion|funktionen|modell|modellen|korrelation|korrelationen|samband|sambandet|värde|värdet|mätningen|riktning)$/,"");
   const mitt=klass(s); if(mitt) return mitt;
@@ -9574,6 +9604,17 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
           if(delSvarRatt(anv,f,enhet,tol,t,idx,format)) return true;
         }
       }
+    }
+  }
+  /* Facit "g(-1)=6" när uppgiften ber om g(-1): bara värdet "6" räcker också.
+     Gäller inte när uppgiften ber eleven skriva själva likheten (då står g(-1) inte i frågan). */
+  if(typeof facit==="string" && !/[a-zåäö]\s*\(/i.test(String(anv).split("=")[0]||"") && !String(anv).includes("=")){
+    const mf=facit.replace(/\\[()\[\]]/g,"").trim().match(/^([a-zA-Z][a-zA-Z0-9_']*\s*\((?:[^()]|\([^()]*\))*\))\s*=\s*([^=<>]+)$/);
+    if(mf){
+      const bort=s=>String(s).replace(/\\[()\[\]]/g,"").replace(/\\left|\\right/g,"").replace(/[\s{}]/g,"").replace(/−/g,"-");
+      const fraga=bort(String(t?.t||"").replace(/<[^>]+>/g," "));
+      if(fraga.includes(bort(mf[1])) && /bestäm|beräkna|ange|vad är|vilket värde|räkna ut/i.test(String(t?.t||""))
+         && delSvarRatt(anv,mf[2].trim(),enhet,tol,t,idx,format)) return true;
     }
   }
   /* Positionsord: "7 tiondelar", "9 tusendelar", "4 hundratal" när facit är ett tal. */
@@ -10254,8 +10295,10 @@ function oneAnswerCorrect(user,expected,t,delIndex){
   if(isPureNumberExpression(user)) un=numericValue(tillNerdamer(normalizeMathInput(user)));
   if(isPureNumberExpression(expected)) en=numericValue(tillNerdamer(normalizeMathInput(expected)));
 
-  if(!Number.isFinite(un)) un=firstNumber(user);
-  if(!Number.isFinite(en)) en=firstNumber(expected);
+  /* "g(-1)=6": talet är högerledet, inte argumentet -1. */
+  const hl=x=>{ const s=String(x).replace(/\\[()\[\]]/g,""); return /[=≈]/.test(s) ? s.split(/[=≈]/).pop() : x; };
+  if(!Number.isFinite(un)) un=firstNumber(hl(user));
+  if(!Number.isFinite(en)) en=firstNumber(hl(expected));
 
   if(Number.isFinite(un)&&Number.isFinite(en)){
 
@@ -11603,12 +11646,26 @@ function checkAnswer(){
   registreraDel(i,ok,expected[i]);
 }
 
+/* Ett facit som 34.657359027997266 visas avrundat som uppgiften ber om ("34,7" vid
+   "en decimal", tre värdesiffror vid "tre värdesiffror"), annars med högst fyra decimaler. */
+function visatFacitTal(v){
+  if(typeof v!=="number" || !Number.isFinite(v) || Number.isInteger(v)) return String(v);
+  const txt=String(state.currentTask?.t||"").replace(/<[^>]+>/g," ");
+  const ord={en:1,ett:1,två:2,tre:3,fyra:4};
+  const md=txt.match(/(en|två|tre|fyra|[1-4])\s+decimal/i);
+  const mv=txt.match(/(en|två|tre|fyra|[1-5])\s+värdesiffr/i);
+  let s;
+  if(md) s=v.toFixed(ord[md[1].toLowerCase()]||+md[1]);
+  else if(mv){ const n=ord[mv[1].toLowerCase()]||+mv[1]; s=Math.abs(v)>=1e-4&&Math.abs(v)<1e6 ? String(Number(v.toPrecision(n))) : v.toPrecision(n); }
+  else s=String(Math.abs(v)>=1e-4 ? Number(v.toFixed(4)) : Number(v.toPrecision(4)));
+  return s.replace(".",",");
+}
 function facitText(d,kvar){
   return (kvar.length?kvar:d.svar.map((v,j)=>({v,j})))
     .map(k=>{
       /* LaTeX-facit (\frac, \sin ...) visas som formel i stället för som rå kod. */
       /* "<" i olikheter (1<x<=7) skulle annars tolkas som en HTML-tagg. */
-      const v=String(k.v).replace(/<(?!\/?(?:sup|sub|b|i|em|strong|br)\b)/g,"&lt;");
+      const v=visatFacitTal(k.v).replace(/<(?!\/?(?:sup|sub|b|i|em|strong|br)\b)/g,"&lt;");
       const text=(/\\[a-zA-Z]/.test(v) && !v.includes("\\(")) ? "\\("+v+"\\)" : v;
       return text+(d.enhet[k.j]?" "+d.enhet[k.j]:"");
     })
@@ -12708,7 +12765,10 @@ window.addEventListener("load",async()=>{
     if(lararklass?.flyttad) state.minKlass=undefined;
     hamtaToppMedaljer();
     provAnslutVantande();
-    setTimeout(async()=>{ if(await visaRollval() || await visaSkolfraga()) return; visaNyhetKlasser(); },nyInloggning?1200:600);
+    setTimeout(async()=>{
+      if(await visaRollval() || await visaSkolfraga()){ kravKlass(); return; }
+      if(!(await kravKlass())) visaNyhetKlasser();
+    },nyInloggning?1200:600);
   }
 
   /* Lärarknappen visas direkt från cachen och verifieras sedan mot databasen. */

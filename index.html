@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-03-fy2c";
+const BANK_VERSION="2026-10-04-a";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11832,6 +11832,9 @@ function finishAttempt(resultat){
       : "Titta på lösningen och hitta steget som gick fel. Uppgiften kommer tillbaka.";
   const box=document.getElementById("answer-result");
   if(box){
+    /* Finns Kontrollera-knappen blir den Nästa (se nedan). Då behövs inga egna knappar i resultatrutan:
+       Visa lösning finns redan bredvid. */
+    const kolla=document.getElementById("kollaknapp");
     box.innerHTML=`
       <div class="result ${correct?'good':'bad'}">
         <div class="txt">
@@ -11842,19 +11845,18 @@ function finishAttempt(resultat){
         ${(state.hintUsed && !state.noXp)?`<span class="xplapp">halverat · ledtråd</span>`:""}
         ${(arbetsfaktor(t)>1 && ratt>0 && !state.noXp)?`<span class="xplapp">extra XP för arbetsinsats</span>`:""}
       </div>
-      <div class="aacts">
+      ${kolla?"":`<div class="aacts">
         ${!correct?`<button class="btn" onclick="showSolution()">Visa lösning</button>`:""}
         <button class="btn primary" id="nextbtn" onclick="${last?'renderSessionDone()':'nextTask()'}">
           ${last?"Se passrapport":"Nästa uppgift"} <span aria-hidden="true">→</span>
         </button>
-      </div>`;
+      </div>`}`;
     /* Kontrollera-knappen blir Nästa, så att man inte behöver scrolla ned till resultatet. */
-    const kolla=document.getElementById("kollaknapp");
     if(kolla){
       kolla.textContent=last?"Se passrapport →":"Nästa uppgift →";
       kolla.onclick=()=>last?renderSessionDone():nextTask();
     }
-    setTimeout(()=>document.getElementById("nextbtn")?.focus({preventScroll:true}),80);
+    setTimeout(()=>(kolla||document.getElementById("nextbtn"))?.focus({preventScroll:true}),80);
     if(genomgangForslag) setTimeout(()=>tranarForeslarGenomgang(genomgangForslag),700);
   }
 }

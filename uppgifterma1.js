@@ -96250,13 +96250,13 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En spelare har 20 % chans att vinna varje omgång. Omgångarna är oberoende. Hur stor är sannolikheten att vinna minst en gång på fyra omgångar? Svara i procent.</p>",
-    "s": "<p>Det är enklare att ta komplementet. Sannolikheten att förlora alla fyra är \\(0{,}8^4=0{,}4096\\). Alltså</p><p>\\(P(\\text{minst en vinst})=1-0{,}4096=0{,}5904\\).</p><p><strong>Svar: 59,04 %.</strong></p>",
+    "s": "<p>Det är enklare att ta komplementet. Sannolikheten att förlora alla fyra är \\(0{,}8^4=0{,}4096\\). Alltså</p><p>\\(P(\\text{minst en vinst})=1-0{,}4096=0{,}5904\\).</p><p><strong>Svar: 59,04 % (ca 59 %).</strong></p>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 59.04,
-    "tolerans": 0.01,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -99465,13 +99465,13 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>I ett område finns nio fågelbon. Vid en slumpmässigt vald tidpunkt är sannolikheten 25 % att fågelmamman är i ett visst bo. Anta att bona kan behandlas som oberoende.</p><p>Hur stor är sannolikheten att minst en fågelmamma är i sitt bo?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Sannolikheten att en viss mamma inte är där är 0,75.</p><p>Ingen av nio: \\(0{,}75^9\\approx0{,}0751\\).</p><p><strong>Svar:</strong> <strong>Minst en: cirka 92,5 %.</strong></p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Sannolikheten att en viss mamma inte är där är 0,75.</p><p>Ingen av nio: \\(0{,}75^9\\approx0{,}0751\\).</p><p><strong>Svar:</strong> <strong>Minst en: \\(1-0{,}0751\\approx0{,}925\\), alltså cirka 92,5 %.</strong></p></div></div>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "92.5",
-    "tolerans": 0.1,
+    "rättSvar": 0.9249153137207031,
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -99484,7 +99484,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.142",
@@ -99606,7 +99606,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "88.4",
+      0.8839709375,
       "1-0.65^n"
     ],
     "tolerans": null,
@@ -99647,7 +99647,7 @@ window.BANKMA1 = [
       "Använda komplementhändelse i sannolikhet"
     ],
     "svarFormat": [
-      "procent",
+      "sannolikhet",
       null
     ]
   },
@@ -102635,13 +102635,13 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två oberoende risker är 5 % respektive 10 %. Beräkna sannolikheten att <strong>ingen</strong> av händelserna inträffar.</p>",
-    "s": "<p>Sannolikheterna att respektive händelse inte inträffar är 0,95 och 0,90. Oberoende ger</p><p>\\(0{,}95\\cdot0{,}90=0{,}855\\).</p><p><strong>Svar: 85,5 %.</strong></p>",
+    "s": "<p>Sannolikheterna att respektive händelse inte inträffar är 0,95 och 0,90. Oberoende ger</p><p>\\(0{,}95\\cdot0{,}90=0{,}855\\).</p><p><strong>Svar: 0,855 (85,5 %).</strong></p>",
     "familj": "Beräkna risker",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 85.5,
-    "tolerans": 0.01,
+    "rättSvar": 0.855,
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -102654,7 +102654,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.232",
@@ -102674,12 +102674,12 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.06,
-      4.94
+      0.0006,
+      0.0494
     ],
     "tolerans": [
-      0.001,
-      0.001
+      null,
+      null
     ],
     "självrättning": true,
     "formaga": [
@@ -102692,8 +102692,8 @@ window.BANKMA1 = [
     "spel": true,
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "båda (%)",
-      "minst en (%)"
+      "båda",
+      "minst en"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -102723,7 +102723,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": [
       "sannolikhet",
-      "procent"
+      "sannolikhet"
     ]
   },
   {
@@ -103483,19 +103483,19 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Sannolikheten för träff i ett försök är 20 %. Försöket upprepas 3 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>. Avrunda till en decimal.</p>",
-    "s": "<p>Ingen träff på tre försök har sannolikheten \\(0{,}8^3=0{,}512\\). Därför blir</p><p>\\(P(\\text{minst en})=1-0{,}512=0{,}488\\).</p><p><strong>Svar: 48,8 %.</strong></p>",
+    "t": "<p>Sannolikheten för träff i ett försök är 20 %. Försöket upprepas 3 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>.</p>",
+    "s": "<p>Ingen träff på tre försök har sannolikheten \\(0{,}8^3=0{,}512\\). Därför blir</p><p>\\(P(\\text{minst en})=1-0{,}512=0{,}488\\).</p><p><strong>Svar: 0,488 (48,8 %).</strong></p>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 48.8,
-    "tolerans": 0.06,
+    "rättSvar": 0.488,
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "procent",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Räkna först sannolikheten för tre missar i rad.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,

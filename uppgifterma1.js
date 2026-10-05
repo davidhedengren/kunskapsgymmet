@@ -47628,7 +47628,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Kostnaden för att hyra en maskin beskrivs av \\(K(t)=275t+650\\), där \\(t\\) är antal timmar.</p><p>Hur stor är den fasta avgiften?</p>",
+    "t": "<p>Kostnaden för att hyra en maskin beskrivs av \\(K(t)=275t+650\\), där \\(K\\) är kostnaden i kronor och \\(t\\) är antal timmar.</p><p>Hur stor är den fasta avgiften?</p>",
     "s": "<p>Den fasta avgiften är funktionens startvärde, alltså talet 650.</p><p><strong>Svar:</strong> <strong>650 kr.</strong></p>",
     "familj": "Linjära funktioner i vardagliga sammanhang",
     "geogebra": false,
@@ -65185,8 +65185,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett pris minskar från 1 280 kr till 1 088 kr.</p>\n<p>a) Bestäm förändringsfaktorn och minskningen i procent.<br>b) Hur stor procentuell ökning krävs från 1 088 kr för att komma tillbaka till 1 280 kr?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(\\frac{1088}{1280}=0{,}85\\), alltså 15 % minskning.</p>\n<p>b) Återgångsfaktorn är \\(\\frac{1280}{1088}\\approx1{,}17647\\).</p>\n<p><strong>Svar:</strong> <strong>Det krävs cirka 17,65 % ökning.</strong></p></div></div>",
+    "t": "<p>Ett pris minskar från 1 280 kr till 1 088 kr.</p>\n<p>a) Bestäm förändringsfaktorn och minskningen i procent.<br>b) Hur stor procentuell ökning krävs från 1 088 kr för att komma tillbaka till 1 280 kr? Svara med en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(\\frac{1088}{1280}=0{,}85\\), alltså 15 % minskning.</p>\n<p>b) Återgångsfaktorn är \\(\\frac{1280}{1088}\\approx1{,}17647\\).</p>\n<p><strong>Svar:</strong> <strong>Det krävs cirka 17,6 % ökning.</strong></p></div></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
     "miniräknare": true,
@@ -65196,14 +65196,14 @@ window.BANKMA1 = [
         0.85,
         15
       ],
-      17.65
+      17.647
     ],
     "tolerans": [
       [
         null,
         null
       ],
-      0.02
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -65236,8 +65236,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Ett pris minskar från 1 280 kr till 1 088 kr.</p><p>Hur stor procentuell ökning krävs från 1 088 kr för att komma tillbaka till 1 280 kr?</p>",
-        "s": "<p>Återgångsfaktorn är \\(\\frac{1280}{1088}\\approx1{,}17647\\).</p>",
+        "t": "<p>Ett pris minskar från 1 280 kr till 1 088 kr.</p><p>Hur stor procentuell ökning krävs från 1 088 kr för att komma tillbaka till 1 280 kr? Svara med en decimal.</p>",
+        "s": "<p>Återgångsfaktorn är \\(\\frac{1280}{1088}\\approx1{,}17647\\).</p><p>Ökningen är \\(17{,}647\\ldots\\,\\%\\), alltså <strong>cirka 17,6 %</strong>.</p>",
         "niva": "C",
         "poang": "0/1/0",
         "ledtrad": "<p>Börja med kvoten nytt/gammalt. När du går tillbaka är jämförelsebasen den nya, lägre nivån.</p>",
@@ -65260,7 +65260,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En vara kostar 840 kr.</p><p>a) Vad blir priset efter en ökning med förändringsfaktorn 1,15?<br>b) Vad blir priset om faktorn i stället är 0,90?</p>",
+    "t": "<p>En vara kostar 840 kr.</p><p>a) Vad blir priset efter en ökning med förändringsfaktorn 1,15?<br>b) Vad blir priset om det i stället sänks så att förändringsfaktorn blir 0,90?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(840\\cdot1{,}15=\\)<strong>966 kr</strong>.</p><p>b) \\(840\\cdot0{,}90=\\)<strong>756 kr</strong>.</p></div></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
@@ -65288,7 +65288,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>En vara kostar 840 kr.</p><div class=\"spel-en-del\">Vad blir priset efter en förändring med förändringsfaktorn 0,90?</div>",
+        "t": "<p>En vara kostar 840 kr.</p><div class=\"spel-en-del\">Priset sänks så att förändringsfaktorn blir 0,90. Vad blir det nya priset?</div>",
         "s": "<p>\\(840\\cdot0{,}90=756\\).</p><p><strong>Svar:</strong> 756 kr.</p>",
         "ledtrad": "<p>Multiplicera ursprungspriset med faktorn 0,90.</p>",
         "niva": "E",
@@ -68117,11 +68117,11 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Priset på en produkt förändras med faktorn \\(q\\), där \\(q&gt;1\\). Samtidigt förändras antalet sålda produkter med faktorn \\(1{,}5-0{,}5q\\).</p><p>Den totala intäkten är oförändrad.</p><p>a) Bestäm \\(q\\).<br>b) Tolka de två förändringarna i procent.</p>",
+    "t": "<p>Priset på en produkt förändras med faktorn \\(q\\), där \\(q&gt;1\\). Samtidigt förändras antalet sålda produkter med faktorn \\(1{,}5-0{,}5q\\).</p><p>Den totala intäkten är oförändrad.</p><p>a) Bestäm \\(q\\). Lös ekvationen grafiskt eller med ett digitalt verktyg.<br>b) Tolka de två förändringarna i procent.</p>",
     "s": "<p><strong>Steg 1:</strong> Intäktsfaktorn är \\(q(1,5-0,5q)\\), och den ska vara 1.</p><p>\\(q(1,5-0,5q)=1\\Rightarrow q^2-3q+2=0\\).</p><p>\\((q-1)(q-2)=0\\). Eftersom \\(q&gt;1\\) är \\(q=2\\).</p><p>Prisfaktorn är 2: <strong>+100 %</strong>. Antalsfaktorn blir 0,5: <strong>−50 %</strong>.</p>",
     "familj": "Räkna med förändringsfaktor",
-    "geogebra": false,
-    "miniräknare": false,
+    "geogebra": true,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -68157,7 +68157,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Priset på en produkt förändras med faktorn \\(q\\), där \\(q&gt;1\\). Samtidigt förändras antalet sålda produkter med faktorn \\(1{,}5-0{,}5q\\).</p><p>Den totala intäkten är oförändrad.</p><p>Bestäm \\(q\\).</p>",
+        "t": "<p>Priset på en produkt förändras med faktorn \\(q\\), där \\(q&gt;1\\). Samtidigt förändras antalet sålda produkter med faktorn \\(1{,}5-0{,}5q\\).</p><p>Den totala intäkten är oförändrad.</p><p>Bestäm \\(q\\). Lös ekvationen grafiskt eller med ett digitalt verktyg.</p>",
         "s": "<p>Oförändrad intäkt ger \\(q(1{,}5-0{,}5q)=1\\).</p><p>Det ger \\(q^2-3q+2=0\\Rightarrow(q-1)(q-2)=0\\). Eftersom \\(q&gt;1\\) fås \\(q=2\\).</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -70151,8 +70151,6 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "forandringsfaktor",
     "kurs": [
-      "1a",
-      "1b",
       "1c"
     ],
     "niva": "C",
@@ -81416,7 +81414,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "2/2/0",
-    "t": "<p>Ett tak anges med lutningsförhållandet 1:2,5, dvs. det stiger 1 m på 2,5 m horisontellt.</p><span class=\"fig\"><svg width=\"430\" height=\"230\" viewBox=\"0 0 430 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"taklutning som höjd genom horisontell sträcka\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"212.5\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<text x=\"143.75\" y=\"200\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2.5</text>\n<text x=\"230.5\" y=\"147.5\" font-family=\"monospace\" font-size=\"12\">1</text>\n<text x=\"123\" y=\"161\" font-family=\"monospace\" font-size=\"12\">v</text>\n</svg></span><p>a) Bestäm takvinkeln.<br>b) Om förhållandet ändras till 1:1,25, blir vinkeln då dubbelt så stor? Motivera.</p>",
+    "t": "<p>Ett tak anges med lutningsförhållandet 1:2,5, dvs. det stiger 1 m på 2,5 m horisontellt.</p><span class=\"fig\"><svg width=\"430\" height=\"230\" viewBox=\"0 0 430 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"taklutning som höjd genom horisontell sträcka\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"212.5\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<text x=\"143.75\" y=\"200\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2.5</text>\n<text x=\"230.5\" y=\"147.5\" font-family=\"monospace\" font-size=\"12\">1</text>\n<text x=\"129\" y=\"171\" font-family=\"monospace\" font-size=\"12\" text-anchor=\"middle\">v</text>\n</svg></span><p>a) Bestäm takvinkeln.<br>b) Om förhållandet ändras till 1:1,25, blir vinkeln då dubbelt så stor? Motivera.</p>",
     "s": "<p>a) Lutningsförhållandet ger \\(\\tan v=1/2{,}5=0{,}4\\). Därför är \\(v=\\tan^{-1}(0{,}4)\\approx21{,}8^\\circ\\).</p><p>b) Det nya förhållandet ger \\(\\tan v=1/1{,}25=0{,}8\\), alltså \\(v\\approx38{,}7^\\circ\\). Det är inte dubbelt så mycket som 21,8°.</p><p><strong>Svar:</strong> a) cirka 21,8°. b) Nej.</p>",
     "familj": "Trigonometri i flera steg",
     "geogebra": false,
@@ -81463,7 +81461,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett tak anges med lutningsförhållandet 1:2,5, dvs. det stiger 1 m på 2,5 m horisontellt.</p><span class=\"fig\"><svg width=\"430\" height=\"230\" viewBox=\"0 0 430 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"taklutning som höjd genom horisontell sträcka\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"212.5\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<text x=\"143.75\" y=\"200\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2.5</text>\n<text x=\"230.5\" y=\"147.5\" font-family=\"monospace\" font-size=\"12\">1</text>\n<text x=\"123\" y=\"161\" font-family=\"monospace\" font-size=\"12\">v</text>\n</svg></span><p>Bestäm takvinkeln.</p>",
+        "t": "<p>Ett tak anges med lutningsförhållandet 1:2,5, dvs. det stiger 1 m på 2,5 m horisontellt.</p><span class=\"fig\"><svg width=\"430\" height=\"230\" viewBox=\"0 0 430 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"taklutning som höjd genom horisontell sträcka\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"212.5\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<text x=\"143.75\" y=\"200\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2.5</text>\n<text x=\"230.5\" y=\"147.5\" font-family=\"monospace\" font-size=\"12\">1</text>\n<text x=\"129\" y=\"171\" font-family=\"monospace\" font-size=\"12\" text-anchor=\"middle\">v</text>\n</svg></span><p>Bestäm takvinkeln.</p>",
         "s": "<p>Lutningsförhållandet ger \\(\\tan v=1/2{,}5=0{,}4\\). Därför är \\(v=\\tan^{-1}(0{,}4)\\approx21{,}8^\\circ\\).</p><p></p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -81473,7 +81471,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Ett tak anges med lutningsförhållandet 1:2,5, dvs. det stiger 1 m på 2,5 m horisontellt.</p><span class=\"fig\"><svg width=\"430\" height=\"230\" viewBox=\"0 0 430 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"taklutning som höjd genom horisontell sträcka\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"212.5\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<text x=\"143.75\" y=\"200\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2.5</text>\n<text x=\"230.5\" y=\"147.5\" font-family=\"monospace\" font-size=\"12\">1</text>\n<text x=\"123\" y=\"161\" font-family=\"monospace\" font-size=\"12\">v</text>\n</svg></span><p>Om förhållandet ändras till 1:1,25, blir vinkeln då dubbelt så stor? Motivera.</p>",
+        "t": "<p>Ett tak anges med lutningsförhållandet 1:2,5, dvs. det stiger 1 m på 2,5 m horisontellt.</p><span class=\"fig\"><svg width=\"430\" height=\"230\" viewBox=\"0 0 430 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"taklutning som höjd genom horisontell sträcka\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"212.5\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<text x=\"143.75\" y=\"200\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2.5</text>\n<text x=\"230.5\" y=\"147.5\" font-family=\"monospace\" font-size=\"12\">1</text>\n<text x=\"129\" y=\"171\" font-family=\"monospace\" font-size=\"12\" text-anchor=\"middle\">v</text>\n</svg></span><p>Om förhållandet ändras till 1:1,25, blir vinkeln då dubbelt så stor? Motivera.</p>",
         "s": "<p>Det nya förhållandet ger \\(\\tan v=1/1{,}25=0{,}8\\), alltså \\(v\\approx38{,}7^\\circ\\). Det är inte dubbelt så mycket som 21,8°.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -135161,19 +135159,19 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En bil kör 18,3 mil och drar 0,72 liter bensin per mil. Gör ett överslag av bensinförbrukningen genom att avrunda sträckan till hela mil och förbrukningen till en decimal.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[18\\cdot0{,}7=12{,}6\\]</p><p><strong>Svar:</strong> 12,6 liter</p></div></div>",
+    "t": "<p>En bil kör 18,3 mil och drar 0,72 liter bensin per mil. Gör ett överslag av bensinförbrukningen genom att avrunda sträckan till tiotal mil och förbrukningen till en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[20\\cdot0{,}7=14\\]</p><p><strong>Svar:</strong> 14 liter</p></div></div>",
     "familj": "Överslag med angiven avrundning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 12.6,
+    "rättSvar": 14,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Avrunda 18,3 till heltal och 0,72 till en decimal. Multiplicera sedan.</p>",
+    "ledtrad": "<p>Avrunda 18,3 mil till tiotal och 0,72 till en decimal. Multiplicera sedan.</p>",
     "svarFormat": "decimalform",
     "svarEnhet": "liter",
     "traningsniva": 2,
@@ -135257,8 +135255,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En elev räknar \\(38{,}2\\cdot0{,}51\\) och får 194,82. Gör ett överslag genom att avrunda 38,2 till tiotal och 0,51 till en decimal. Vilket värde ger överslaget?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[40\\cdot0{,}5=20\\]</p><p>Elevens svar är ungefär tio gånger för stort. Det exakta svaret är 19,482.</p><p><strong>Svar:</strong> 20</p></div></div>",
+    "t": "<p>Gör ett överslag av \\(38{,}2\\cdot0{,}51\\) genom att avrunda 38,2 till tiotal och 0,51 till en decimal. Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[40\\cdot0{,}5=20\\]</p><p>Det exakta värdet är 19,482, så överslaget ligger nära.</p><p><strong>Svar:</strong> 20</p></div></div>",
     "familj": "Överslag och rimlighet",
     "geogebra": false,
     "miniräknare": false,

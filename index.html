@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-04-g";
+const BANK_VERSION="2026-10-05-a";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9472,6 +9472,17 @@ function formatRatt(anv,facit,meta){
     case "intervall": case "intervall_tal": {
       const ia=intervallAv(a), ifa=intervallAv(f);
       if(ifa) return ia!==null && sammaIntervall(ia,ifa,tol);
+      /* Union av intervall: "x<-2 eller x>1", "x<-2 och x>1", "x<-2, x>1", "x>1 ∪ x<-2".
+         Delarna jämförs oberoende av ordning. Kommatecken följt av en siffra är ett decimalkomma. */
+      const delar=x=>String(x).split(/\s+(?:eller|och|samt)\s+|\s*[∪;]\s*|\s+u\s+|,(?!\d)\s*/i).map(s=>s.trim()).filter(Boolean);
+      const da=delar(a), df=delar(f);
+      if(df.length>1 && da.length===df.length){
+        const ua=da.map(intervallAv), uf=df.map(intervallAv);
+        if(ua.every(Boolean) && uf.every(Boolean)){
+          const kvar=[...uf];
+          return ua.every(x=>{ const k=kvar.findIndex(y=>sammaIntervall(x,y,tol)); if(k<0) return false; kvar.splice(k,1); return true; });
+        }
+      }
       return textNyckel(a)===textNyckel(f);
     }
     /* "Bestäm en primitiv funktion": ett specifikt uttryck, med eller utan en bestämd talkonstant.

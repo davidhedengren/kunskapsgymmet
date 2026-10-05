@@ -102214,7 +102214,7 @@ window.BANK = [
     "omr": "medicinska_metoder",
     "niva": "A",
     "poang": "(0/2/2)",
-    "t": "<p>Vid strålbehandling ska en tumör med massan 0,15 kg få den absorberade dosen 2,0 Gy per behandlingstillfälle. Behandlingen upprepas 30 gånger.</p>\n<ol><li>Hur mycket energi absorberas i tumören vid ett tillfälle?</li>\n<li>Hur mycket stiger tumörens temperatur, om vävnaden har samma värmekapacitet som vatten?</li>\n<li>Den totala dosen blir 60 Gy, vilket är dödligt för en hel kropp. Förklara varför behandlingen ändå fungerar.</li></ol>",
+    "t": "<p>Vid strålbehandling ska en tumör med massan 0,15 kg få den absorberade dosen 2,0 Gy per behandlingstillfälle. Behandlingen upprepas 30 gånger.</p>\n<ol><li>Hur mycket energi absorberas i tumören vid ett tillfälle?</li>\n<li>Hur mycket stiger tumörens temperatur vid ett behandlingstillfälle, om vävnaden har samma värmekapacitet som vatten?</li>\n<li>Den totala dosen blir 60 Gy, vilket är dödligt för en hel kropp. Förklara varför behandlingen ändå fungerar.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ur definitionen av gray fås energin.</p><div class=\"facit-matte\">\\[E=Dm=(2{,}0\\ \\mathrm{J/kg})(0{,}15\\ \\mathrm{kg})=0{,}30\\ \\mathrm J\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Om all energi antas bli värme blir temperaturökningen</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{E}{mc}=\\frac{0{,}30}{(0{,}15)(4180)}=4{,}8\\cdot10^{-4}\\ ^\\circ\\mathrm C\\]</div><p>Den biologiska effekten beror alltså inte på märkbar uppvärmning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strålningen riktas mot tumören i stället för att fördelas över hela kroppen. Fraktioneringen i 30 behandlingar låter frisk vävnad reparera en större del av skadorna mellan tillfällena.</p><p>Behandlingseffekten kommer främst från jonisation och DNA-skador, inte värme.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tumören absorberar \\(0{,}30\\ \\mathrm J\\) per behandling och värms bara \\(4{,}8\\cdot10^{-4}\\ ^\\circ\\mathrm C\\). Behandlingen fungerar genom lokal, fraktionerad bestrålning.</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -102267,7 +102267,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket stiger tumörens temperatur, om vävnaden har samma värmekapacitet som vatten?",
+        "fraga": "Hur mycket stiger tumörens temperatur vid ett behandlingstillfälle, om vävnaden har samma värmekapacitet som vatten?",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Om all energi antas bli värme blir temperaturökningen</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{E}{mc}=\\frac{0{,}30}{(0{,}15)(4180)}=4{,}8\\cdot10^{-4}\\ ^\\circ\\mathrm C\\]</div><p>Den biologiska effekten beror alltså inte på märkbar uppvärmning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}8\\cdot10^{-4}\\ ^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Ur definitionen av gray fås energin. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
         "niva": "A"

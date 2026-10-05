@@ -12102,9 +12102,9 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Två positiva tal är \\(a\\cdot10^n\\) och \\(a\\cdot10^{n-1}\\), med samma talfaktor a. Deras summa är 0,0055. Bestäm det större talet. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
-    "s": "<p>Det mindre talet är en tiondel av det större. Summan är därför 1,1 gånger det större, som är 0,0055 ÷ 1,1 = 0,005 = \\(5\\cdot10^{-3}\\). Kontroll: 0,005 + 0,0005 = 0,0055.</p>",
-    "ledtrad": "<p>Hur förhåller sig de två talens storlek till varandra?</p>",
+    "t": "<p>Två positiva tal har summan 0,0055. Det ena talet är tio gånger så stort som det andra.</p><p>Bestäm det större talet och skriv det i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och \\(n\\) är ett heltal. Ange \\(a\\) och \\(n\\) var för sig.</p>",
+    "s": "<p>Kalla det mindre talet \\(x\\). Då är det större talet \\(10x\\), och \\(x+10x=11x=0{,}0055\\).</p><p>\\(x=0{,}0055/11=0{,}0005\\), så det större talet är \\(10x=0{,}005=5\\cdot10^{-3}\\).</p><p>Kontroll: 0,005 + 0,0005 = 0,0055.</p><p><strong>Svar:</strong> \\(a=5\\), \\(n=-3\\)</p>",
+    "ledtrad": "<p>Kalla det mindre talet x. Vad blir då det större talet, och vad blir summan uttryckt i x?</p>",
     "niva": "C",
     "poang": "0/1/0",
     "familj": "Skriva tal i grundpotensform",
@@ -12125,8 +12125,8 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "talfaktor a",
-      "exponent n"
+      "a",
+      "n"
     ],
     "traningsniva": 4,
     "arbetsinsats": 2,
@@ -95543,8 +95543,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>a) Sannolikheten att felet missas?<br>b) I procent?</p>",
-    "s": "<p>Missad upptäckt är komplementet till upptäckt: \\(1-0{,}94=0{,}06\\). I procent är det 6 %.</p><p><strong>Svar: a) 0,06  b) 6 %.</strong></p>",
+    "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>a) Bestäm sannolikheten att kontrollen missar felet. Svara i decimalform.<br>b) Hur många procent är sannolikheten att kontrollen missar felet?</p>",
+    "s": "<p>Att kontrollen missar felet är komplementhändelsen till att den hittar felet: \\(1-0{,}94=0{,}06\\). I procent är det 6 %.</p><p><strong>Svar: a) 0,06  b) 6 %</strong></p>",
     "familj": "Komplementhändelse",
     "geogebra": false,
     "miniräknare": false,
@@ -95568,30 +95568,32 @@ window.BANKMA1 = [
     "spel": true,
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "decimalform",
-      "procent"
+      "a",
+      "b"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>Sannolikheten att felet missas?</p>",
-        "s": "<p>0,06</p>",
+        "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>Bestäm sannolikheten att kontrollen missar felet. Svara i decimalform.</p>",
+        "s": "<p>Att missa felet är komplementhändelsen till att hitta det: \\(1-0{,}94=0{,}06\\).</p><p><strong>Svar:</strong> 0,06</p>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>De två utfallen ”hittar felet” och ”missar felet” summerar till 1.</p>",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "fraga": "Bestäm sannolikheten att kontrollen missar felet. Svara i decimalform."
       },
       {
         "etikett": "b",
-        "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>I procent?</p>",
-        "s": "<p>6 %.</strong></p>",
+        "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>Hur många procent är sannolikheten att kontrollen missar felet?</p>",
+        "s": "<p>Sannolikheten att missa felet är \\(1-0{,}94=0{,}06\\), och 0,06 = 6 %.</p><p><strong>Svar:</strong> 6 %</p>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>De två utfallen ”hittar felet” och ”missar felet” summerar till 1.</p>",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "fraga": "Hur många procent är sannolikheten att kontrollen missar felet?"
       }
     ],
     "familjTidigare": [
@@ -95600,7 +95602,8 @@ window.BANKMA1 = [
     "svarFormat": [
       "sannolikhet",
       "procent"
-    ]
+    ],
+    "spelIntro": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p>"
   },
   {
     "id": "5.35",
@@ -109741,7 +109744,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{36}{48}=0{,}75\\]</p><p><strong>Svar:</strong> 0,75</p></div></div>",
     "familj": "Sannolikhet och relativ frekvens",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
     "tolerans": 1e-09,

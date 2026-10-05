@@ -4785,7 +4785,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Är talen 0,6 och 0,60 lika stora? Svara ja eller nej.</p>",
-        "s": "<p>lika stora</div><div></p>",
+        "s": "<p>Ja. En nolla sist i decimaldelen ändrar inte värdet: 0,60 = 0,6.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>Jämför nollor sist i decimaldelen med nollor direkt efter decimaltecknet.</p>",
@@ -4795,7 +4795,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Är talen 2,05 och 2,050 lika stora? Svara ja eller nej.</p>",
-        "s": "<p>lika stora</div><div></p>",
+        "s": "<p>Ja. En nolla sist i decimaldelen ändrar inte värdet: 2,050 = 2,05.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>Jämför nollor sist i decimaldelen med nollor direkt efter decimaltecknet.</p>",
@@ -4805,7 +4805,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Är talen 0,4 och 0,040 lika stora? Svara ja eller nej.</p>",
-        "s": "<p>inte lika stora</p>",
+        "s": "<p>Nej. 0,040 = 0,04, men 0,4 = 0,40. Nollan direkt efter decimaltecknet flyttar fyran en plats.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>Jämför nollor sist i decimaldelen med nollor direkt efter decimaltecknet.</p>",
@@ -23366,13 +23366,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Ett foto är 18 cm brett och 12 cm högt. Det förstoras proportionellt så att bredden blir 31,5 cm. Hur högt blir det förstorade fotot?</p>",
-    "s": "<p>Höjd och bredd har konstant förhållande. Skalningsfaktorn är \\(31{,}5/18=1{,}75\\).</p><p>Höjden blir \\(12\\cdot1{,}75=21\\) cm.</p><p><strong>Svar:</strong> 21 cm.</p>",
+    "t": "<p>Ett foto är 18 cm brett och 12 cm högt. Det förstoras proportionellt så att bredden blir 27 cm. Hur högt blir det förstorade fotot?</p>",
+    "s": "<p>Höjd och bredd har konstant förhållande. Skalningsfaktorn är \\(27/18=1{,}5\\).</p><p>Höjden blir \\(12\\cdot1{,}5=18\\) cm.</p><p><strong>Svar:</strong> 18 cm.</p>",
     "familj": "Proportionalitet i problemlösning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 21,
+    "rättSvar": 18,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
@@ -80538,22 +80538,18 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En rätvinklig triangel har hypotenusan 18 cm. Den ena kateten är 40 % kortare än hypotenusan.</p><p>Bestäm triangelns två spetsiga vinklar. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Kateten är \\(18\\cdot0{,}60=10,8\\) cm. Om \\(v\\) ligger intill denna katet: \\(\\cos v=\\frac{10{,}8}{18}=0{,}60\\).</p><p>\\(v\\approx53{,}1^\\circ\\), den andra vinkeln <strong>36,9°</strong>.</p>",
+    "s": "<p>Kateten är 40 % kortare än hypotenusan: \\(18\\cdot0{,}60=10{,}8\\) cm.</p><p>Kalla vinkeln intill den kateten \\(v\\). Då är \\(\\cos v=\\frac{10{,}8}{18}=0{,}60\\), så \\(v\\approx53{,}1^\\circ\\).</p><p>Vinkelsumman i en triangel ger den andra spetsiga vinkeln: \\(90^\\circ-53{,}1^\\circ=36{,}9^\\circ\\).</p><p><strong>Svar:</strong> 53,1° och 36,9°.</p>",
     "familj": "Exakta trigonometriska värden och samband",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      [
-        53.1,
-        36.9
-      ]
+      53.1,
+      36.9
     ],
     "tolerans": [
-      [
-        0.1,
-        0.1
-      ]
+      0.1,
+      0.1
     ],
     "självrättning": true,
     "formaga": [
@@ -80561,21 +80557,17 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarEtiketter": [
-      [
-        "spetsig vinkel 1 (°)",
-        "spetsig vinkel 2 (°)"
-      ]
+      "vinkel (°)",
+      "vinkel (°)"
     ],
-    "svarsstruktur": "ordnad",
+    "svarsstruktur": "mängd",
     "ledtrad": "<p>Översätt först ”40 % kortare än hypotenusan” till en längd. Därefter har du en katet och hypotenusan.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": [
-      [
-        "grader",
-        "grader"
-      ]
+      "grader",
+      "grader"
     ],
     "familjTidigare": [
       "Beräkna med sinus, cosinus och tangens"
@@ -87591,7 +87583,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en rätvinklig triangel gäller: motstående katet 15 cm och närliggande katet 9 cm. Bestäm vinkeln \\(v\\). Avrunda till en decimal.</p>",
+    "t": "<p>I en rätvinklig triangel är den spetsiga vinkeln \\(v\\) markerad. Kateten mitt emot \\(v\\) är 15 cm och kateten intill \\(v\\) är 9 cm. Bestäm \\(v\\). Avrunda till en decimal.</p>",
     "s": "<p>De två kända sidorna är motstående och närliggande katet, så \\(\\tan v=15/9\\).</p><p>\\(v=\\arctan(15/9)\\approx59{,}0^\\circ\\).</p><p><strong>Svar:</strong> 59,0°.</p>",
     "familj": "Beräkna sidor med sinus, cosinus och tangens",
     "geogebra": false,
@@ -136208,8 +136200,6 @@ window.BANKMA1 = [
     "kap": 0,
     "omr": "brakrakning",
     "kurs": [
-      "1a",
-      "1b",
       "1c"
     ],
     "niva": "A",

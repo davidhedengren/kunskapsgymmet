@@ -4205,7 +4205,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac7{12}\\) av 180</div><div>b) \\(\\frac{11}{15}\\) av 225</div><div>c) \\(\\frac9{14}\\) av 196</div></div>",
     "s": "<p>a) \\(\\frac7{12}\\cdot180=7\\cdot15=105\\)</p><p>b) \\(\\frac{11}{15}\\cdot225=11\\cdot15=165\\)</p><p>c) \\(\\frac9{14}\\cdot196=9\\cdot14=126\\)</p>",
     "ledtrad": "<p>Vad är en tolftedel av 180?</p>",
@@ -4541,7 +4541,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) En tank på 84 liter är fylld till \\(\\frac57\\). Hur många liter finns i tanken?</div><div>b) \\(\\frac{11}{16}\\) av en sträcka är 55 km. Hur lång är hela sträckan?</div><div>c) En klass har 30 elever. \\(\\frac7{15}\\) är frånvarande. Hur många är närvarande?</div></div>",
     "s": "<p>a) \\(\\frac57\\cdot84=60\\) liter. Tanken innehåller 60 liter.</p><p>b) En sextondel är 55 ÷ 11 = 5 km. Hela sträckan är 16 · 5 = 80 km.</p><p>c) Frånvarande: \\(\\frac7{15}\\cdot30=14\\). Närvarande: 30 − 14 = 16 elever.</p>",
     "ledtrad": "<p>Hur många liter motsvarar en sjundedel av tankens volym?</p>",
@@ -8914,7 +8914,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Omvandla 1,25 dygn till h. Ange talvärdet i decimalform.</p>",
     "s": "<p>1 dygn = 24 h. Alltså 1,25 dygn = (1,25 · 24) h = 30 h.</p>",
     "ledtrad": "<p>Hur många timmar går det på ett dygn?</p>",
@@ -12660,7 +12660,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Ett område på 0,003 km² delas i tomter om 450 m². Minst 300 m² ska sparas till en gemensam väg. Hur många hela tomter ryms som mest? Bortse från tomternas form.</p>",
     "s": "<p>0,003 km² = 3 000 m². Efter vägens 300 m² återstår 2 700 m², vilket räcker till 2 700 ÷ 450 = 6 tomter. Fler tomter skulle lämna för liten vägyta.</p>",
     "ledtrad": "<p>Skilj på hela områdets area och den area som får bli tomter.</p>",
@@ -12937,7 +12937,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En tråd är 1,05 m lång. Den kapas i bitar som är 2,5 mm långa. Vid varje kapning försvinner 0,5 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
     "s": "<p>Tråden är 1 050 mm. Varje färdig bit förbrukar 2,5 + 0,5 = 3 mm, inklusive kapförlusten. Därför fås 1 050 ÷ 3 = 350 bitar. Kontroll: bitarna är sammanlagt 875 mm och kapförlusten 175 mm.</p>",
     "ledtrad": "<p>Hur mycket av tråden förbrukas för varje färdig bit?</p>",
@@ -13904,7 +13904,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Omvandla 84 h till dygn. Ange talvärdet i decimalform.</p>",
     "s": "<p>1 dygn = 24 h. Alltså 84 h = (84 ÷ 24) dygn = 3,5 dygn.</p>",
     "ledtrad": "<p>Hur många timmar går det på ett dygn?</p>",
@@ -14036,7 +14036,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Du ska blanda 1,35 l dryck av en del koncentrat och åtta delar vatten. Hur många milliliter koncentrat behövs?</p>",
     "s": "<p>Det är nio delar totalt. 1,35 l = 1 350 ml, så en del är 1 350 ÷ 9 = 150 ml. Det behövs 150 ml koncentrat och 1 200 ml vatten.</p>",
     "ledtrad": "<p>Hur många lika stora delar består hela blandningen av?</p>",
@@ -14136,7 +14136,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Ett rektangulärt golv är 2,4 m långt och 150 cm brett. En burk färg räcker till 2 m². Golvet ska målas två gånger. Hur många burkar måste köpas?</p>",
     "s": "<p>Bredden är 1,5 m, så golvets area är 2,4 · 1,5 = 3,6 m². Två strykningar kräver färg för 7,2 m². Tre burkar räcker till 6 m² och fyra till 8 m². Det behövs 4 burkar.</p>",
     "ledtrad": "<p>Beräkna först hur stor yta färgen sammanlagt måste täcka.</p>",
@@ -14499,7 +14499,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En rektangel har arean 720 cm² och bredden 0,24 m. Hur lång är den i meter?</p>",
     "s": "<p>Arean är 0,072 m². Längden blir 0,072 ÷ 0,24 = 0,3 m. Kontroll: 30 cm · 24 cm = 720 cm².</p>",
     "ledtrad": "<p>Vilken enhet behöver arean ha om du använder bredden i meter?</p>",
@@ -14965,7 +14965,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En pump ger 0,45 l vatten per sekund. Ett kärl rymmer 0,018 m³ och är tomt från början. Efter hur många sekunder är kärlet fullt? Anta konstant flöde.</p>",
     "s": "<p>0,018 m³ = 18 l. Tiden är 18 ÷ 0,45 = 40 s.</p>",
     "ledtrad": "<p>Jämför flödet och kärlets volym i samma volymenhet.</p>",
@@ -15844,7 +15844,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Omvandla 72 km/h till m/s. Ange talvärdet i decimalform.</p>",
     "s": "<p>1 m/s = 3 600 m/h = 3,6 km/h. Alltså 72 km/h = (72 ÷ 3,6) m/s = 20 m/s.</p>",
     "ledtrad": "<p>Hur långt hinner man på en timme vid 1 meter per sekund?</p>",
@@ -15877,7 +15877,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En cyklist håller 12,5 m/s i 4 minuter. Hur långt färdas cyklisten i kilometer?</p>",
     "s": "<p>4 min = 240 s. Sträckan är 12,5 · 240 = 3 000 m = 3 km.</p>",
     "ledtrad": "<p>Tidsenheten behöver passa hastighetens enhet.</p>",
@@ -15979,7 +15979,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En elev multiplicerar med 3,6 både vid omvandling från m/s till km/h och vid omvandling tillbaka. Efter en omvandling åt varje håll får eleven talvärdet 129,6 m/s. Bestäm startvärdet och den korrekta hastigheten i km/h. Ange svaren i den ordningen.</p>",
     "s": "<p>Elevens båda steg ger faktorn 3,6² = 12,96. Startvärdet är 129,6/12,96 = 10 m/s. Den korrekta omvandlingen till km/h ger 10 · 3,6 = 36 km/h. För att gå tillbaka ska man dividera med 3,6.</p>",
     "ledtrad": "<p>Vilken sammanlagd faktor har eleven använt?</p>",
@@ -17353,7 +17353,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En flaska innehåller 1,2 L vätska. Varje prov kräver 15 mL. Proven ställs i brickor med 20 prov i varje. Hur många hela brickor fylls?</p>",
     "s": "<p>1,2 L = 1 200 mL. Antal prov: 1 200 / 15 = 80. Antal hela brickor: 80 / 20 = 4.</p><p><strong>Svar:</strong> 4</p>",
     "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
@@ -17421,7 +17421,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Ett minneskort rymmer 2,5 MB, där 1 MB = 1 000 kB. Varje bild är 8 kB. Bilderna sorteras i album med 12 bilder i varje. Hur många hela album fylls?</p>",
     "s": "<p>2,5 MB = 2 500 kB. Antal bilder: 2 500 / 8 = 312,5, alltså 312 hela bilder. Antal hela album: 312 / 12 = 26.</p><p><strong>Svar:</strong> 26</p>",
     "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
@@ -17489,7 +17489,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En behållare rymmer 0,018 L. Varje droppe är 45 µL. Dropparna fördelas i serier med 40 droppar i varje. Hur många hela serier blir det?</p>",
     "s": "<p>0,018 L = 18 000 µL. Antal droppar: 18 000 / 45 = 400. Antal hela serier: 400 / 40 = 10.</p><p><strong>Svar:</strong> 10</p>",
     "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
@@ -17523,7 +17523,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Ett lager innehåller 4,8 g verksam substans. Varje tablett innehåller 120 mg. Tabletterna packas 15 per karta.</p><p>Hur många hela kartor kan packas?</p>",
     "s": "<p>4,8 g = 4 800 mg. Antal tabletter: 4 800 / 120 = 40. Antal hela kartor: 40 / 15 = 2,67, alltså 2 hela kartor.</p><p><strong>Svar:</strong> 2</p>",
     "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
@@ -17591,7 +17591,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En kabel är 1,4 m lång. Varje uttag kräver 35 mm kabel. Uttagen levereras i lådor om 8 stycken. Hur många hela lådor går åt?</p>",
     "s": "<p>1,4 m = 1 400 mm. Antal uttag: 1 400 / 35 = 40. Antal hela lådor: 40 / 8 = 5.</p><p><strong>Svar:</strong> 5</p>",
     "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
@@ -17659,7 +17659,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En mätare sparar 1 800 byte per mätning och gör 400 mätningar per sekund. Minnet rymmer 12 MB, där 1 MB = 1 000 000 byte. Hur många hela sekunders mätning ryms?</p>",
     "s": "<p>Per sekund: 1 800 · 400 = 720 000 byte. Minnet: 12 MB = 12 000 000 byte. 12 000 000 / 720 000 = 16,67, alltså 16 hela sekunder.</p><p><strong>Svar:</strong> 16</p>",
     "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
@@ -17727,7 +17727,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En pump doserar 3,2 mL per minut. Tanken rymmer 0,96 L. Hur många hela minuter räcker tanken?</p>",
     "s": "<p>0,96 L = 960 mL. 960 / 3,2 = 300 minuter.</p><p><strong>Svar:</strong> 300</p>",
     "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
@@ -17761,7 +17761,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En kamera lagrar 6 kB per bild och tar 75 bilder per sekund. Kortet rymmer 45 MB, där 1 MB = 1 000 kB. Hur många hela sekunder kan kameran spela in?</p>",
     "s": "<p>Per sekund: 6 · 75 = 450 kB. Kortet: 45 MB = 45 000 kB. 45 000 / 450 = 100 sekunder.</p><p><strong>Svar:</strong> 100</p>",
     "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
@@ -17829,7 +17829,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En burk innehåller 0,336 g verksam substans. Varje tablett innehåller 8 mg och patienten tar 3 tabletter per dag. Hur många hela dagar räcker burken?</p>",
     "s": "<p>0,336 g = 336 mg. Per dag: 8 · 3 = 24 mg. 336 / 24 = 14 dagar.</p><p><strong>Svar:</strong> 14</p>",
     "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
@@ -17931,7 +17931,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En överföring går med 750 kB per sekund. Filen är 18 MB, där 1 MB = 1 000 kB. Hur många hela sekunder tar överföringen?</p>",
     "s": "<p>18 MB = 18 000 kB. 18 000 / 750 = 24 sekunder.</p><p><strong>Svar:</strong> 24</p>",
     "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
@@ -17965,7 +17965,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En inhalator ger 15 µg verksam substans per puff. Behållaren innehåller 1 200 puffar. Hur många milligram verksam substans innehåller behållaren?</p>",
     "s": "<p>Totalt: 15 · 1 200 = 18 000 µg. 18 000 µg = 18 mg, eftersom 1 mg = 1 000 µg.</p><p><strong>Svar:</strong> 18</p>",
     "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
@@ -18887,7 +18887,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Två tunna skikt är 1,8 cm respektive 6 mm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 0,75 m?</p>",
     "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 24 mm tjockt. Utrymmet är 750 mm.</p><p>750 / 24 = 31,25, alltså <strong>31</strong> hela dubbla skikt.</p>",
     "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
@@ -18921,7 +18921,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Två tunna skikt är 0,6 mm respektive 900 µm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 4,5 cm?</p>",
     "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 1,5 mm tjockt. Utrymmet är 45 mm.</p><p>45 / 1,5 = 30, alltså <strong>30</strong> hela dubbla skikt.</p>",
     "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
@@ -19329,7 +19329,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En tråd är 2,4 m lång. Den kapas i bitar som är 3 mm långa. Vid varje kapning försvinner 0,4 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
     "s": "<p>Varje bit kostar 3 + 0,4 = 3,4 mm av tråden.</p><p>Tråden är 2,4 m = 2400 mm. 2400 / 3,4 = 705,882, alltså <strong>705</strong> hela bitar.</p>",
     "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
@@ -19465,7 +19465,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En kabel som är 0,84 m lång klipps i bitar som är 2 mm långa. Vid varje klipp går 0,8 mm förlorat, och varje bit kräver ett klipp. Hur många hela bitar blir det?</p>",
     "s": "<p>Varje bit kostar 2 + 0,8 = 2,8 mm av tråden.</p><p>Tråden är 0,84 m = 840 mm. 840 / 2,8 = 300, alltså <strong>300</strong> hela bitar.</p>",
     "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
@@ -19533,7 +19533,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En list är 1,26 m lång och ska kapas till distanser som är 3,5 mm långa. Kapningen tar bort 0,7 mm per snitt, och varje distans kräver ett snitt. Hur många hela distanser blir det?</p>",
     "s": "<p>Varje bit kostar 3,5 + 0,7 = 4,2 mm av tråden.</p><p>Tråden är 1,26 m = 1260 mm. 1260 / 4,2 = 300, alltså <strong>300</strong> hela bitar.</p>",
     "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
@@ -19567,7 +19567,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En laserskärare skär en 0,72 m lång plastremsa i bitar som är 1,5 mm långa. Lasern bränner bort 0,3 mm vid varje snitt, och varje bit kräver ett snitt. Hur många hela bitar går det att få?</p>",
     "s": "<p>Varje bit kostar 1,5 + 0,3 = 1,8 mm av tråden.</p><p>Tråden är 0,72 m = 720 mm. 720 / 1,8 = 400, alltså <strong>400</strong> hela bitar.</p>",
     "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
@@ -19635,7 +19635,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En metallstång är 1,68 m lång. En smed sågar den i bitar som är 4 mm långa. Sågbladet tar bort 0,8 mm vid varje sågsnitt, och varje bit kräver ett snitt. Hur många hela bitar går det att få?</p>",
     "s": "<p>Varje bit kostar 4 + 0,8 = 4,8 mm av tråden.</p><p>Tråden är 1,68 m = 1680 mm. 1680 / 4,8 = 350, alltså <strong>350</strong> hela bitar.</p>",
     "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
@@ -22350,7 +22350,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><p>Priset per kilogram är</p><p>\\(37{,}50/1{,}5=25\\) kr/kg.</p><p>För 4,2 kg blir priset \\(25\\cdot4{,}2=105\\) kr.</p><p><strong>Svar:</strong> 105 kr.</p></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 105,
     "tolerans": 0.1,
@@ -22728,7 +22728,7 @@ window.BANKMA1 = [
     "s": "<p>På förmiddagen säljs \\(\\frac38\\cdot320=120\\) biljetter. Då återstår \\(320-120=200\\).</p><p>På eftermiddagen säljs \\(0{,}40\\cdot200=80\\). Kvar blir \\(200-80=120\\).</p><p><strong>Svar:</strong> 120 biljetter.</p>",
     "familj": "Beräkningar när procentsatsen är känd",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
     "tolerans": 1e-09,
@@ -22862,7 +22862,7 @@ window.BANKMA1 = [
     "s": "<p>Förhållandet består av \\(5+8=13\\) delar. En del motsvarar \\(52/13=4\\) pärlor.</p><p>De röda är \\(5\\cdot4=20\\).</p><p><strong>Svar:</strong> 20 pärlor.</p>",
     "familj": "Dela i ett givet förhållande",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
     "tolerans": 1e-09,
@@ -23273,7 +23273,7 @@ window.BANKMA1 = [
     "s": "<p>Per portion behövs \\(450/6=75\\) g. Till 14 portioner behövs \\(14\\cdot75=1050\\) g.</p><p><strong>Svar:</strong> 1050 g.</p>",
     "familj": "Proportionalitet i problemlösning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1050,
     "tolerans": 1e-09,
@@ -24729,7 +24729,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En trapets har arean \\(A=\\frac{(a+b)h}{2}\\). För en viss trapets gäller dessutom \\(b=a+4\\).</p>\n<p>Arean är 96 cm² och höjden är 8 cm.</p>\n<p>a) Bestäm baserna \\(a\\) och \\(b\\).<br>b) Höjden ökas därefter med 25 % medan baserna är oförändrade. Bestäm den nya arean.</p>",
     "s": "<p>Sätt in b = a + 4: 96 = (2a + 4) · 8/2 = 8a + 16. Då är a = 10 cm och b = 14 cm. Höjden blir 8 · 1,25 = 10 cm och arean 24 · 10/2 = 120 cm². Med fasta baser ökar arean lika många procent som höjden.</p>",
     "ledtrad": "<p>Hur kan du skriva båda baserna med samma variabel?</p>",
@@ -27177,7 +27177,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Ett rätblock har volymen V = lbh. Volymen är 120 cm³, längden 6 cm och bredden 4 cm. Bestäm höjden.</p>",
     "s": "<p>Basarean är 6 · 4 = 24 cm². Höjden är 120/24 = 5 cm. Kontroll: 6 · 4 · 5 = 120 cm³.</p>",
     "ledtrad": "<p>Vilken area har rätblockets botten?</p>",
@@ -27498,7 +27498,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En förening säljer 14 biljetter. En vuxenbiljett kostar 125 kr och en ungdomsbiljett 85 kr. Intäkten är 1 510 kr. Bestäm antalet vuxenbiljetter och ungdomsbiljetter.</p>",
     "s": "<p>Med x vuxenbiljetter finns 14 − x ungdomsbiljetter. Ekvationen 125x + 85(14 − x) = 1 510 blir 40x = 320, så x = 8. Då är ungdomsbiljetterna 6. Kontroll: 8 · 125 + 6 · 85 = 1 510.</p>",
     "ledtrad": "<p>Om du väljer ett antal för den ena biljettypen, hur får du antalet av den andra?</p>",
@@ -31018,7 +31018,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Energin E i joule ges av E = Pt, där P mäts i watt och t i sekunder. En apparat har effekten 750 W och används i 2 minuter. Bestäm energin i joule.</p>",
     "s": "<p>2 minuter = 120 sekunder. E = 750 · 120 = 90 000 J. Tiden måste anges i sekunder i denna formel.</p>",
     "ledtrad": "<p>Vilken tidsenhet kräver formeln?</p>",
@@ -31230,7 +31230,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En förening betalar 1 200 kr för ett evenemang och får 85 kr per såld biljett. Inga andra intäkter eller kostnader finns. Hur många biljetter måste säljas minst för att vinsten ska bli minst 2 500 kr?</p>",
     "s": "<p>Vinsten är 85x − 1200. Kravet ger 85x ≥ 3700 och x ≥ 740/17 ≈ 43,53. Minst 44 biljetter behövs. Kontroll: 43 ger 2455 kr i vinst, medan 44 ger 2540 kr.</p>",
     "ledtrad": "<p>Är intäkten per biljett samma sak som evenemangets totala vinst?</p>",
@@ -33539,7 +33539,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Du har 350 kr. En aktivitet kostar 80 kr i fast avgift och 45 kr per timme. Hur många hela timmar kan du som mest delta?</p>",
     "s": "<p>Efter avgiften återstår 270 kr. 270/45 = 6, så högst 6 timmar ryms i budgeten. Sex timmar kostar totalt 350 kr.</p>",
     "ledtrad": "<p>Ta bort den fasta avgiften från budgeten först.</p>",
@@ -33705,7 +33705,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Taxibolag A tar 55 kr i startavgift och 18 kr per kilometer. Bolag B tar 85 kr i startavgift och 15 kr per kilometer. Hur många kronor billigare är B än A för en resa på 16 km?</p>",
     "s": "<p>A kostar 55 + 18 · 16 = 343 kr. B kostar 85 + 15 · 16 = 325 kr. Skillnaden är 343 − 325 = 18 kr. Alternativt är prisskillnaden 3x − 30 och vid x = 16 blir den 18.</p>",
     "ledtrad": "<p>Jämför hela priserna, inklusive startavgifterna.</p>",
@@ -38707,7 +38707,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Med x km gäller \\(45+14x=283\\).</p><p>\\(14x=238\\) ger \\(x=17\\).</p><p>Kontroll: 45 + 14 · 17 = 45 + 238 = 283.</p><p><strong>Svar:</strong> <strong>17 km</strong></p></div></div>",
     "familj": "Ställa upp och lösa ekvationer",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 17,
     "tolerans": 1e-09,
@@ -39051,7 +39051,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Kalla bredden b. Längden är b + 4 och \\(2b+2(b+4)=64\\).</p><p>\\(4b+8=64\\) ger \\(b=14\\). Längden är 18 cm.</p><p>Arean är 14 · 18 = 252 cm².</p><p><strong>Svar:</strong> <strong>252 cm²</strong></p></div></div>",
     "familj": "Problemlösning i flera steg",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 252,
     "tolerans": 1e-09,
@@ -39566,7 +39566,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Spelarnas sammanlagda ålder är 11 · 24 = 264 år.</p><p>Med tränarens ålder x gäller \\(\\frac{264+x}{12}=26\\), alltså \\(264+x=312\\).</p><p>\\(x=48\\).</p><p><strong>Svar:</strong> <strong>48 år</strong></p></div></div>",
     "familj": "Problemlösning i flera steg",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 48,
     "tolerans": 1e-09,
@@ -39979,7 +39979,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Kalla bredden b. Längden är b + 6.</p><p>\\((b+9)(b-2)=(b+6)b\\).</p><p>Utveckla: \\(b^2+7b-18=b^2+6b\\). Kvadrattermerna tar ut varandra och \\(b=18\\).</p><p>Kontroll: 18 · 24 = 432 och 16 · 27 = 432.</p><p><strong>Svar:</strong> <strong>18 cm</strong></p></div></div>",
     "familj": "Problemlösning i flera steg",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
     "tolerans": 1e-09,
@@ -53478,7 +53478,7 @@ window.BANKMA1 = [
     "s": "<p><strong>Steg 1:</strong> Modellen är \\(y=500\\cdot a^x\\). Efter två år gäller \\(500\\cdot a^2=720\\).</p><p>\\(a^2=\\frac{720}{500}=1{,}44\\), alltså \\(a=\\sqrt{1{,}44}=1{,}2\\).</p><p><strong>Förändringsfaktorn är 1,2, vilket motsvarar en ökning med 20 % per år.</strong></p><p>Kontroll: \\(500\\cdot1{,}2=600\\) och \\(600\\cdot1{,}2=720\\).</p>",
     "familj": "Förändringsfaktorn i exponentialfunktioner",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.2,
@@ -57842,7 +57842,7 @@ window.BANKMA1 = [
     "s": "<p>\\(f(4)=3\\cdot16=48\\) och \\(f(2)=3\\cdot4=12\\). Kvoten är \\(48/12=4\\).</p><p><strong>Svar:</strong> 4 gånger.</p>",
     "familj": "Använda potensfunktioner",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": 1e-06,
@@ -58241,7 +58241,7 @@ window.BANKMA1 = [
     "s": "<p>Faktorn blir \\(1{,}5^2=2{,}25\\).</p>",
     "familj": "Skalning med potensfunktioner",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
     "tolerans": 1e-06,
@@ -59092,7 +59092,7 @@ window.BANKMA1 = [
     "s": "<p>\\(f(0)=120\\) och \\(f(1)=120\\cdot1{,}08=129{,}6\\). Ökningen är \\(129{,}6-120=9{,}6\\).</p><p><strong>Svar:</strong> 9,6.</p>",
     "familj": "Exponentialfunktioner i graf och formel",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 9.6,
     "tolerans": 0.001,
@@ -60289,7 +60289,7 @@ window.BANKMA1 = [
     "s": "<p>a) \\(4200-85t=0\\) ger \\(t=4200/85\\approx49{,}4\\) månader.</p><p>b) För tiden efter åtgärden krävs \\(t\\ge0\\). För att modellen inte ska ge negativ förbrukning krävs dessutom \\(t\\le49{,}4\\). Det största sådana intervallet är alltså ungefär \\(0\\le t\\le49{,}4\\).</p><p>c) Att värdena är icke-negativa är bara ett nödvändigt rimlighetsvillkor. En verklig verksamhets förbrukning behöver inte fortsätta minska linjärt med 85 kWh per månad. För att avgöra modellens faktiska giltighetsområde behövs mätdata.</p>",
     "familj": "Linjära funktioner i vardagliga sammanhang",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -60703,7 +60703,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En modell ges av \\(M(t)=1200\\cdot0{,}88^t\\).</p><p>Beskriv vad basen 0,88 betyder, och ange den procentuella förändringen per tidsenhet.</p>",
+    "t": "<p>En modell ges av \\(M(t)=1200\\cdot0{,}88^t\\).</p><p>Beskriv vad basen 0,88 betyder, och ange med hur många procent värdet minskar per tidsenhet.</p>",
     "s": "<p><strong>Nyckelidé:</strong> En förändringsfaktor mindre än 1 betyder minskning. Faktorn talar om hur stor andel som är <em>kvar</em>, inte hur mycket som försvinner.</p><p><strong>Steg 1:</strong> Efter varje tidsenhet återstår 88 % av föregående värde.</p><p><strong>Steg 2:</strong> Minskningen är \\(1-0{,}88=0{,}12\\), alltså 12 %.</p><p><strong>Vanligt fel:</strong> Att svara 88 % — men 88 % är det som blir kvar, inte det som försvinner.</p><p><strong>Svar:</strong> En minskning med 12 % per tidsenhet.</p>",
     "familj": "Förändringsfaktorn i exponentialfunktioner",
     "geogebra": false,
@@ -63259,7 +63259,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>180 000 · 0,8² = 180 000 · 0,64 = 115 200.</p><p><strong>Svar:</strong> <strong>115 200</strong></p></div></div>",
     "familj": "Bestämma och använda exponentialfunktioner",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 115200,
     "tolerans": 1e-09,
@@ -63552,7 +63552,7 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Om alla längder blir 12 gånger större, hur många gånger större blir då en area och en volym?</p>",
@@ -64914,7 +64914,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(75\\cdot150/100=\\)<strong>112,50 kr</strong>.</p><p>b) \\((135-112,5)/112{,}5=0{,}20\\).</p><p><strong>Svar:</strong> <strong>20 % högre.</strong></p></div></div>",
     "familj": "Procentuell förändring av index",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "112.50",
@@ -65094,7 +65094,7 @@ window.BANKMA1 = [
     "s": "<p><strong>Steg 1:</strong> Att räkna bort moms är att dividera med förändringsfaktorn, inte att dra av 25 %.</p><p>a) \\(2\\,400\\cdot1{,}25=\\)<strong>3 000 kr</strong></p><p>b) \\(\\frac{1\\,875}{1{,}25}=\\)<strong>1 500 kr</strong></p><p>c) \\(1\\,875-1\\,500=\\)<strong>375 kr</strong>.<br>Ett vanligt fel är att räkna \\(1\\,875\\cdot0{,}75=1\\,406\\) kr, vilket blir fel eftersom de 25 procenten avser priset <em>utan</em> moms</p>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "3000",
@@ -65264,7 +65264,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(840\\cdot1{,}15=\\)<strong>966 kr</strong>.</p><p>b) \\(840\\cdot0{,}90=\\)<strong>756 kr</strong>.</p></div></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "966",
@@ -66586,7 +66586,7 @@ window.BANKMA1 = [
     "s": "<p><strong>Steg 1:</strong> Den årliga faktorn \\(a\\) uppfyller \\(a^2=\\) den totala faktorn.</p><p>a) \\(\\frac{121}{100}=\\)<strong>1,21</strong></p><p>b) \\(a=\\sqrt{1{,}21}=\\)<strong>1,10</strong></p><p>c) <strong>10 % per år</strong>. Kontroll: \\(100\\cdot1{,}1=110\\) och \\(110\\cdot1{,}1=121\\)</p>",
     "familj": "Beräkna genomsnittlig procentuell förändring",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "1.21",
@@ -67147,7 +67147,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(240\\cdot1{,}28=\\)<strong>307,20 kr</strong></p></div></div>",
     "familj": "Index och priser",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "307.20",
     "tolerans": null,
@@ -67293,7 +67293,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(2400\\cdot0{,}85=\\)<strong>2040 kr</strong>.</p></div></div>",
     "familj": "Procentuell ökning och minskning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "2040",
     "tolerans": null,
@@ -67646,7 +67646,7 @@ window.BANKMA1 = [
     "s": "<p>Räntesatsen är räntan dividerad med kapitalet: \\(384/12000=0{,}032\\).</p><p><strong>Svar: 3,2 %.</strong></p>",
     "familj": "Ränta under ett år",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3.2,
     "tolerans": 0.01,
@@ -68316,7 +68316,7 @@ window.BANKMA1 = [
     "s": "<p>\\(q^2=\\frac{242}{200}=1{,}21\\Rightarrow q=\\sqrt{1{,}21}=\\)<strong>1,10</strong>.</p>",
     "familj": "Beräkna genomsnittlig procentuell förändring",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "1.10",
     "tolerans": null,
@@ -68572,7 +68572,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(0{,}60\\cdot0{,}75=\\)<strong>0,45</strong></p><p>b) Faktorn 0,45 betyder att 45 % av priset återstår, alltså en <strong>total rabatt på 55 %</strong> — inte \\(40+25=65\\) %</p><p>c) \\(1\\,200\\cdot0{,}45=\\)<strong>540 kr</strong></p></div></div>",
     "familj": "Procentuell ökning och minskning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "0.45",
@@ -69414,7 +69414,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Sök faktorn \\(a\\) så att \\(a^n\\) blir den totala förändringsfaktorn.</p><p>a) \\(a=\\sqrt{\\frac{1\\,440}{1\\,000}}=\\sqrt{1{,}44}=1{,}20\\), alltså en <strong>ökning med 20 % per år</strong></p><p>b) \\(a=\\sqrt{\\frac{128}{200}}=\\sqrt{0{,}64}=0{,}80\\), alltså en <strong>minskning med 20 % per år</strong></p><p>c) \\(a=\\sqrt[3]{\\frac{400}{50}}=\\sqrt[3]{8}=2\\), alltså en <strong>ökning med 100 % per år</strong>, det vill säga en fördubbling varje år</p></div></div>",
     "familj": "Beräkna genomsnittlig procentuell förändring",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "20",
@@ -70237,7 +70237,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(M=\\frac{7500}{1{,}25}=6000\\) kr.</p>\n<p>b) Före påslag är summan \\(6000+7500=13500\\) kr.</p>\n<p>\\(13500\\cdot1{,}15=\\)<strong>15 525 kr</strong>.</p></div></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       6000,
@@ -71173,7 +71173,7 @@ window.BANKMA1 = [
     "s": "<p><strong>Steg 1:</strong> En total ökning med 44 % motsvarar faktorn 1,44:</p><p>\\[q^2=1{,}44.\\]</p><p>Eftersom det handlar om en ökning är \\(q&gt;0\\):</p><p>\\[q=\\sqrt{1{,}44}=1{,}20.\\]</p><p>Förändringsfaktorn 1,20 betyder en ökning med 20 %.</p><p><strong>Svar: 20 % per år.</strong></p>",
     "familj": "Problemlösning med förändringar i flera steg",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "20",
     "tolerans": null,
@@ -75857,7 +75857,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>36/120 = 0,30 = 30 %.</p><p><strong>Svar:</strong> <strong>30 %</strong></p></div></div>",
     "familj": "Procent av ett tal",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
     "tolerans": 1e-09,
@@ -76145,7 +76145,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>480 · 1,25 = 600 kr.</p><p><strong>Svar:</strong> <strong>600</strong></p></div></div>",
     "familj": "Procentuell ökning och minskning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
     "tolerans": 1e-09,
@@ -76581,7 +76581,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Förändringen är 12 indexenheter. Jämför med startvärdet: 12/120 = 0,1 = 10 %.</p><p><strong>Svar:</strong> <strong>10 %</strong></p></div></div>",
     "familj": "Procentuell förändring av index",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
     "tolerans": 0.01,
@@ -76643,7 +76643,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Förändringen är 27 indexenheter. Jämför med startvärdet: 27/180 = 0,15 = 15 %.</p><p><strong>Svar:</strong> <strong>15 %</strong></p></div></div>",
     "familj": "Procentuell förändring av index",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
     "tolerans": 0.01,
@@ -76674,7 +76674,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Förändringen är 35 indexenheter. Jämför med startvärdet: 35/140 = 0,25 = 25 %.</p><p><strong>Svar:</strong> <strong>25 %</strong></p></div></div>",
     "familj": "Procentuell förändring av index",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
     "tolerans": 0.01,
@@ -77109,7 +77109,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>546/420 = 1,3.</p><p><strong>Svar:</strong> <strong>1,3</strong></p></div></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.3,
     "tolerans": 1e-09,
@@ -77267,7 +77267,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Faktorn för en förändring är 1,1. Två förändringar i rad ger 1,1 · 1,1 = 1,21.</p><p><strong>Svar:</strong> <strong>1,21</strong></p></div></div>",
     "familj": "Total förändring i flera steg",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.21,
     "tolerans": 1e-09,
@@ -77299,7 +77299,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Faktorn för en förändring är 1,2. Två förändringar i rad ger 1,2 · 1,2 = 1,44.</p><p><strong>Svar:</strong> <strong>1,44</strong></p></div></div>",
     "familj": "Total förändring i flera steg",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.44,
     "tolerans": 1e-09,
@@ -79013,7 +79013,7 @@ window.BANKMA1 = [
     "s": "<p>Stegen är hypotenusan. Låt avståndet från väggen vara \\(x\\).</p><p>\\(x^2+12^2=15^2\\Rightarrow x^2=81\\Rightarrow x=9\\).</p><p><strong>Svar: 9 m.</strong></p>",
     "familj": "Bestämma hypotenusan",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "9",
     "tolerans": null,
@@ -79256,7 +79256,7 @@ window.BANKMA1 = [
     "s": "<p>Vektorns längd fås med Pythagoras:</p><p>\\(|(5,12)|=\\sqrt{5^2+12^2}=\\sqrt{169}=13\\).</p><p><strong>Svar:</strong> 13.</p>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "13",
     "tolerans": null,
@@ -79328,7 +79328,7 @@ window.BANKMA1 = [
     "s": "<p>Höjden delar basen i två delar på 5 cm. \\(h=\\sqrt{13^2-5^2}=12\\) cm.</p><p><strong>Svar:</strong> <strong>Arean är 60 cm².</strong></p>",
     "familj": "Pythagoras sats i problemlösning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "60",
     "tolerans": null,
@@ -79356,7 +79356,7 @@ window.BANKMA1 = [
     "s": "<p>\\(x=\\sqrt{13^2-5^2}=\\)<strong>12 cm</strong>.</p>",
     "familj": "Bestämma en katet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "12",
     "tolerans": null,
@@ -79386,7 +79386,7 @@ window.BANKMA1 = [
     "s": "<p>Den raka vägen blir hypotenusan i en rätvinklig triangel:</p><p>\\(d=\\sqrt{30^2+40^2}=50\\) m.</p><p>Den gångna vägen är \\(30+40=70\\) m, alltså är den raka vägen <strong>20 m kortare</strong>.</p>",
     "familj": "Pythagoras sats i problemlösning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "20",
     "tolerans": null,
@@ -79730,7 +79730,7 @@ window.BANKMA1 = [
     "s": "<p>Vinkelräta vektorer bildar kateter. För summan ger Pythagoras \\(\\sqrt{5^2+12^2}=13\\). För differensen är \\(-\\vec v\\) fortfarande vinkelrät mot \\(\\vec u\\) och har längden 12, så längden blir också 13.</p>",
     "familj": "Tolka och beskriva vektorer",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       13,
@@ -79955,7 +79955,7 @@ window.BANKMA1 = [
     "s": "<p>\\(|(3,4)|=\\sqrt{3^2+4^2}=\\sqrt{25}=5\\).</p><p><strong>Svar:</strong> 5.</p>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
@@ -81547,7 +81547,7 @@ window.BANKMA1 = [
     "s": "<p>Kateterna är 8 cm och 15 cm:</p><p>\\(c=\\sqrt{8^2+15^2}=\\sqrt{289}=17\\) cm.</p><p><strong>Svar:</strong> 17 cm.</p>",
     "familj": "Bestämma en katet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "17",
     "tolerans": null,
@@ -81577,7 +81577,7 @@ window.BANKMA1 = [
     "s": "<p>Först är diagonalen i bottenytan \\(\\sqrt{30^2+40^2}=50\\) cm.</p><p>Den diagonalen och höjden 120 cm bildar en ny rätvinklig triangel: \\(\\sqrt{50^2+120^2}=130\\) cm.</p><p><strong>Svar: 130 cm.</strong></p>",
     "familj": "Pythagoras sats i problemlösning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 130,
     "tolerans": 0,
@@ -81605,7 +81605,7 @@ window.BANKMA1 = [
     "s": "<p>Kateterna är 5 cm och 12 cm:</p><p>\\(c=\\sqrt{5^2+12^2}=\\sqrt{169}=13\\) cm.</p><p><strong>Svar:</strong> 13 cm.</p>",
     "familj": "Bestämma en katet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "13",
     "tolerans": null,
@@ -81662,7 +81662,7 @@ window.BANKMA1 = [
     "s": "<p>\\(c^2=9^2+12^2=225\\).</p><p><strong>Svar:</strong> <strong>\\(c=15\\) cm</strong></p>",
     "familj": "Bestämma hypotenusan",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
     "tolerans": null,
@@ -82132,7 +82132,7 @@ window.BANKMA1 = [
     "s": "<p>Skillnaderna i koordinater är 3 och 4:</p><p>\\(d=\\sqrt{3^2+4^2}=5\\).</p><p><strong>Svar:</strong> 5.</p>",
     "familj": "Avstånd mellan punkter",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
@@ -83239,7 +83239,7 @@ window.BANKMA1 = [
     "s": "<p><strong>Steg 1:</strong> \\(x^2+16=41\\Rightarrow x=5\\) eller \\(x=-5\\).</p>\n<p>Om \\(x=5\\) blir \\(\\vec v+(2,-1)=(7,3)\\) med längd \\(\\sqrt{58}\\).</p>\n<p>Om \\(x=-5\\) blir vektorn \\((-3,3)\\) med längd \\(\\sqrt{18}\\).</p>\n<p><strong>Svar:</strong> <strong>\\(x=5\\).</strong></p>",
     "familj": "Längd i tillämpningar och resonemang",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": 0,
@@ -83271,7 +83271,7 @@ window.BANKMA1 = [
     "s": "<p><strong>Steg 1:</strong> Om \\(\\vec v=k(4,3)\\) ger y-komponenten \\(3k=6\\Rightarrow k=2\\).</p>\n<p>Då \\(a=4k=8\\). Kontroll: \\(\\sqrt{8^2+6^2}=10\\).</p>\n<p><strong>Svar:</strong> <strong>\\(a=8\\), \\(k=2\\).</strong></p>",
     "familj": "Multiplicera vektor med skalär",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       8,
@@ -83595,7 +83595,7 @@ window.BANKMA1 = [
     "s": "<p>Rektangelns sidor är kateter i en rätvinklig triangel:</p><p>\\(d=\\sqrt{9^2+12^2}=\\sqrt{225}=15\\) m.</p><p><strong>Svar:</strong> 15 m.</p>",
     "familj": "Bestämma hypotenusan",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "15",
     "tolerans": null,
@@ -84265,7 +84265,7 @@ window.BANKMA1 = [
     "s": "<p>\\(|(6,8)|=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\).</p><p><strong>Svar:</strong> 10.</p>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "10",
     "tolerans": null,
@@ -84333,7 +84333,7 @@ window.BANKMA1 = [
     "s": "<p>Använd \\(|(x,y)|=\\sqrt{x^2+y^2}\\) på varje vektor.</p><p>a) \\(\\sqrt{3^2+4^2}=5\\)<br>b) \\(\\sqrt{(-8)^2+6^2}=10\\)<br>c) \\(\\sqrt{0^2+(-7)^2}=7\\)</p>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "5",
@@ -84489,7 +84489,7 @@ window.BANKMA1 = [
     "s": "<p>\\(|(-5,12)|=\\sqrt{(-5)^2+12^2}=\\sqrt{169}=13\\).</p><p><strong>Svar:</strong> 13.</p>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "13",
     "tolerans": null,
@@ -84590,7 +84590,7 @@ window.BANKMA1 = [
     "s": "<p><strong>Steg 1:</strong> Jämför kvadrerade längder:</p>\n<p>\\(k^2+(k-1)^2=(2k-3)^2+(4-k)^2\\).</p>\n<p>Efter förenkling fås \\(-3(k-4)(k-2)=0\\), alltså \\(k=2\\) eller \\(k=4\\).</p>\n<p>För \\(k=2\\) är längden \\(\\sqrt5\\). För \\(k=4\\) är längden 5.</p>\n<p><strong>Svar:</strong> <strong>\\(k=2\\) eller 4; villkoret i c ger \\(k=4\\).</strong></p>",
     "familj": "Längd i tillämpningar och resonemang",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
@@ -86146,7 +86146,7 @@ window.BANKMA1 = [
     "s": "<p>Rektangelns sidor är kateter:</p><p>\\(d=\\sqrt{18^2+24^2}=\\sqrt{900}=30\\) m.</p><p><strong>Svar:</strong> 30 m.</p>",
     "familj": "Bestämma hypotenusan",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "30",
     "tolerans": null,
@@ -86631,7 +86631,7 @@ window.BANKMA1 = [
     "s": "<p>\\(|(-9,12)|=\\sqrt{(-9)^2+12^2}=\\sqrt{225}=15\\).</p><p><strong>Svar:</strong> 15.</p>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "15",
     "tolerans": null,
@@ -86964,7 +86964,7 @@ window.BANKMA1 = [
     "s": "<p>Pythagoras sats ger \\(c^2=20^2+21^2=400+441=841\\). Alltså \\(c=\\sqrt{841}=29\\).</p><p><strong>Svar:</strong> 29 cm.</p>",
     "familj": "Bestämma hypotenusan",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 29,
     "tolerans": null,
@@ -87029,7 +87029,7 @@ window.BANKMA1 = [
     "s": "<p>\\(x^2+12^2=20^2\\Rightarrow x^2=256\\Rightarrow x=16\\).</p><p><strong>Svar: 16 cm.</strong></p>",
     "familj": "Bestämma hypotenusan",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
     "tolerans": null,
@@ -87061,7 +87061,7 @@ window.BANKMA1 = [
     "s": "<p>Den andra sidan är \\(\\sqrt{13^2-5^2}=12\\) cm. Arean blir \\(5\\cdot12=60\\) cm².</p><p><strong>Svar: 60 cm².</strong></p>",
     "familj": "Bestämma en katet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
     "tolerans": null,
@@ -88393,7 +88393,7 @@ window.BANKMA1 = [
     "s": "<p>Den andra kateten är \\(\\sqrt{17^2-8^2}=15\\) cm. Arean blir</p><p>\\(A=\\frac12\\cdot8\\cdot15=60\\text{ cm}^2\\).</p><p><strong>Svar:</strong> 60 cm².</p>",
     "familj": "Bestämma en katet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
     "tolerans": 0,
@@ -88425,7 +88425,7 @@ window.BANKMA1 = [
     "s": "<p>Diagonalen är hypotenusa.</p><p>\\[x=\\sqrt{13^2-5^2}=\\sqrt{144}=12\\]</p><p><strong>Svar:</strong> 12 m.</p>",
     "familj": "Pythagoras sats i problemlösning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": 0,
@@ -88888,7 +88888,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(c^2=5^2+12^2=169\\).</p><p>\\(c=\\sqrt{169}=13\\).</p><p><strong>Svar:</strong> <strong>13 cm</strong></p></div></div>",
     "familj": "Bestämma hypotenusan",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
     "tolerans": 1e-09,
@@ -88952,7 +88952,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(x^2+8^2=17^2\\), alltså \\(x^2=289-64=225\\).</p><p>\\(x=\\sqrt{225}=15\\).</p><p><strong>Svar:</strong> <strong>15 cm</strong></p></div></div>",
     "familj": "Bestämma en katet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
     "tolerans": 1e-09,
@@ -89016,7 +89016,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(x^2+24^2=25^2\\), alltså \\(x^2=625-576=49\\).</p><p>\\(x=\\sqrt{49}=7\\).</p><p><strong>Svar:</strong> <strong>7 cm</strong></p></div></div>",
     "familj": "Bestämma en katet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
     "tolerans": 1e-09,
@@ -90217,7 +90217,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skillnaderna i koordinater är Δx = 3 och Δy = 4.</p><p>\\(d=\\sqrt{3^2+4^2}=\\sqrt{25}=5\\).</p><p><strong>Svar:</strong> <strong>5</strong></p></div></div>",
     "familj": "Avstånd mellan punkter",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": 1e-09,
@@ -90247,7 +90247,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skillnaderna i koordinater är Δx = 6 och Δy = 8.</p><p>\\(d=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\).</p><p><strong>Svar:</strong> <strong>10</strong></p></div></div>",
     "familj": "Avstånd mellan punkter",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
     "tolerans": 1e-09,
@@ -90277,7 +90277,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skillnaderna i koordinater är Δx = 5 och Δy = −12.</p><p>\\(d=\\sqrt{5^2+(-12)^2}=\\sqrt{169}=13\\).</p><p><strong>Svar:</strong> <strong>13</strong></p></div></div>",
     "familj": "Avstånd mellan punkter",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
     "tolerans": 1e-09,
@@ -90337,7 +90337,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skillnaderna i koordinater är Δx = 3 och Δy = 4.</p><p>\\(d=\\sqrt{3^2+4^2}=\\sqrt{25}=5\\).</p><p><strong>Svar:</strong> <strong>5</strong></p></div></div>",
     "familj": "Avstånd mellan punkter",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": 1e-09,
@@ -91771,7 +91771,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(|\\vec v|=\\sqrt{3^2+4^2}=\\sqrt{25}=5\\).</p><p><strong>Svar:</strong> <strong>5</strong></p></div></div>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": 1e-09,
@@ -91831,7 +91831,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(|\\vec v|=\\sqrt{5^2+12^2}=\\sqrt{169}=13\\).</p><p><strong>Svar:</strong> <strong>13</strong></p></div></div>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
     "tolerans": 1e-09,
@@ -91921,7 +91921,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(|\\vec v|=\\sqrt{9^2+12^2}=\\sqrt{225}=15\\).</p><p><strong>Svar:</strong> <strong>15</strong></p></div></div>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
     "tolerans": 1e-09,
@@ -94451,7 +94451,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.03",
@@ -94515,7 +94516,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.05",
@@ -94908,6 +94910,11 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Exakt antal träffar vid oberoende försök"
+    ],
+    "svarFormat": [
+      null,
+      "sannolikhet",
+      "sannolikhet"
     ]
   },
   {
@@ -95036,7 +95043,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.19",
@@ -95068,7 +95076,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.20",
@@ -95133,7 +95142,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Sannolikhet i flera steg"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.22",
@@ -95149,7 +95159,7 @@ window.BANKMA1 = [
     "s": "<p>En sensor missar med sannolikheten \\(1-0{,}8=0,2\\). Larmet uteblir bara om alla tre missar:</p><p>\\(P(\\text{inget larm})=0{,}2^3=0{,}008\\).</p><p>Larm är komplementet: \\(1-0{,}008=0{,}992\\).</p><p><strong>Svar: inget larm 0,008 (0,8 %); larm 0,992 (99,2 %).</strong></p>",
     "familj": "Bedöma risk och säkerhet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.008,
@@ -95175,7 +95185,8 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.23",
@@ -95486,7 +95497,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.33",
@@ -95584,6 +95596,10 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "procent"
     ]
   },
   {
@@ -95635,8 +95651,8 @@ window.BANKMA1 = [
     "spel": false,
     "svarFormat": [
       null,
-      "numeriskt",
-      "numeriskt"
+      "sannolikhet",
+      "sannolikhet"
     ],
     "familjTidigare": [
       "Sannolikhet i flera steg"
@@ -95736,7 +95752,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Sannolikhet i flera steg"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.39",
@@ -95768,7 +95785,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.40",
@@ -96247,7 +96265,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Sannolikhet i flera steg"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.53",
@@ -96290,7 +96309,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Sannolikhet i flera steg"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.54",
@@ -96810,7 +96830,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.68",
@@ -98792,7 +98813,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Sannolikhet utan återläggning"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.125",
@@ -98964,8 +98986,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>För två händelser gäller \\(P(A)=0{,}40\\), \\(P(B)=0{,}50\\) och \\(P(A\\cap B)=0{,}20\\). Vilken slutsats är riktig?</p><p>A. Händelserna är oberoende, eftersom \\(0{,}40\\cdot0{,}50=0{,}20\\).<br>B. Händelserna är beroende, eftersom \\(P(A)\\ne P(B)\\).<br>C. Händelserna är beroende, eftersom \\(0{,}40+0{,}50\\ne1\\).<br>D. Det går inte att avgöra utan att känna alla möjliga utfall.</p>",
-    "s": "<p>För oberoende händelser ska \\(P(A\\cap B)=P(A)P(B)\\). Här är \\(0{,}40\\cdot0{,}50=0{,}20\\), exakt den givna snittsannolikheten.</p><p><strong>Svar: A.</strong></p>",
+    "t": "<p>För två händelser A och B gäller att sannolikheten för A är 0,40, sannolikheten för B är 0,50 och sannolikheten att både A och B inträffar är 0,20. Vilken slutsats är riktig?</p><p>A. Händelserna är oberoende, eftersom \\(0{,}40\\cdot0{,}50=0{,}20\\).<br>B. Händelserna är beroende, eftersom A och B har olika sannolikheter.<br>C. Händelserna är beroende, eftersom \\(0{,}40+0{,}50\\ne1\\).<br>D. Det går inte att avgöra utan att känna alla möjliga utfall.</p>",
+    "s": "<p>Om A och B är oberoende ska sannolikheten att båda inträffar vara produkten av sannolikheterna: \\(0{,}40\\cdot0{,}50=0{,}20\\). Det är exakt den givna sannolikheten, så händelserna är oberoende.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Multiplikationsprincipen",
     "geogebra": false,
     "miniräknare": false,
@@ -98977,7 +98999,7 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Testa villkoret \\(P(A\\cap B)=P(A)P(B)\\).</p>",
+    "ledtrad": "<p>För oberoende händelser är sannolikheten att båda inträffar lika med produkten av deras sannolikheter. Stämmer det här?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
@@ -98998,13 +99020,13 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En spelare träffar med sannolikheten 0,65 per skott. Tre skott antas oberoende. Bestäm sannolikheten för exakt två träffar.</p>",
-    "s": "<p>Exakt två träffar kan placeras på tre sätt: TTM, TMT eller MTT. Varje sådan följd har sannolikheten \\(0{,}65^2\\cdot0{,}35\\).</p><p>\\(3\\cdot0{,}65^2\\cdot0{,}35=0{,}443625\\).</p><p><strong>Svar: cirka 0,444 (44,4 %).</strong></p>",
+    "s": "<p>Exakt två träffar kan placeras på tre sätt: TTM, TMT eller MTT. Varje sådan följd har sannolikheten \\(0{,}65^2\\cdot0{,}35\\).</p><p>\\(3\\cdot0{,}65^2\\cdot0{,}35=0{,}443625\\).</p><p><strong>Svar: cirka 0,44 (44 %).</strong></p>",
     "familj": "Exakt antal träffar",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.443625",
-    "tolerans": 1e-06,
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -99016,7 +99038,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Exakt antal träffar vid oberoende försök"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.131",
@@ -99030,13 +99053,13 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett frö gror med sannolikheten 80 %. Två frön sås oberoende. Vad är sannolikheten att exakt ett gror?</p>",
-    "s": "<p>Exakt ett frö gror om det första gror och det andra inte gör det, eller tvärtom:</p><p>\\(2\\cdot0{,}80\\cdot0{,}20=0{,}32\\).</p><p><strong>Svar: 32 %.</strong></p>",
+    "s": "<p>Exakt ett frö gror om det första gror och det andra inte gör det, eller tvärtom:</p><p>\\(2\\cdot0{,}80\\cdot0{,}20=0{,}32\\).</p><p><strong>Svar: 32 % (0,32).</strong></p>",
     "familj": "Exakt antal träffar",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": "32",
-    "tolerans": null,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -99048,7 +99071,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Exakt antal träffar vid oberoende försök"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.132",
@@ -99179,7 +99203,8 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Exakt antal träffar vid oberoende försök"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.135",
@@ -99210,7 +99235,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.136",
@@ -99227,7 +99253,7 @@ window.BANKMA1 = [
     "s": "<p>a) Alla tre måste fungera: \\(0{,}90^3=0{,}729\\).</p><p>b) ”Systemet fungerar inte” är komplementet: \\(1-0{,}729=0{,}271\\).</p><p><strong>Svar: a) 0,729  b) 0,271.</strong></p>",
     "familj": "Multiplikationsprincipen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "0.729",
@@ -99265,7 +99291,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.137",
@@ -99296,7 +99323,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.138",
@@ -99384,6 +99412,10 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
+    ],
+    "svarFormat": [
+      null,
+      "sannolikhet"
     ]
   },
   {
@@ -99448,7 +99480,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.142",
@@ -99514,6 +99547,10 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "procent"
     ]
   },
   {
@@ -99605,6 +99642,10 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
+    ],
+    "svarFormat": [
+      "procent",
+      null
     ]
   },
   {
@@ -99637,7 +99678,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.146",
@@ -99654,7 +99696,7 @@ window.BANKMA1 = [
     "s": "<p>Alla fyra starter lyckas med sannolikheten \\(0{,}80^4=0{,}4096\\). Minst en misslyckas är komplementet:</p><p>\\(1-0{,}4096=0{,}5904\\).</p><p><strong>Svar: 0,5904.</strong></p>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.5904",
     "tolerans": null,
@@ -99669,7 +99711,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.147",
@@ -99735,6 +99778,10 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      null
     ]
   },
   {
@@ -99925,7 +99972,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.153",
@@ -100053,6 +100101,11 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Exakt antal träffar vid oberoende försök"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "sannolikhet"
     ]
   },
   {
@@ -100084,7 +100137,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Sannolikhet i flera steg"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.156",
@@ -100116,7 +100170,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.157",
@@ -100183,9 +100238,9 @@ window.BANKMA1 = [
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
+      "sannolikhet",
+      "sannolikhet",
+      "sannolikhet"
     ],
     "familjTidigare": [
       "Sannolikhet i flera steg"
@@ -100483,7 +100538,7 @@ window.BANKMA1 = [
     "s": "<p><strong>Nyckelidé:</strong> När händelserna är oberoende påverkar den ena inte den andra. Sannolikheten att båda inträffar fås därför genom att multiplicera sannolikheterna.</p><p><strong>Tänk så här:</strong> Skriv sannolikheten som bråk eller decimal i varje steg innan du kombinerar stegen.</p><p>\\(0{,}95^2=\\)<strong>0,9025</strong>.</p>",
     "familj": "Multiplikationsprincipen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.9025",
     "tolerans": null,
@@ -100497,7 +100552,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.166",
@@ -100589,7 +100645,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.169",
@@ -100621,7 +100678,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Sannolikhet i flera steg"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.171",
@@ -102428,7 +102486,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.227",
@@ -102591,7 +102650,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.232",
@@ -102657,6 +102717,10 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Risk och sannolikhet"
+    ],
+    "svarFormat": [
+      "sannolikhet",
+      "procent"
     ]
   },
   {
@@ -103467,7 +103531,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.256",
@@ -103598,7 +103663,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.260",
@@ -103709,7 +103775,8 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
-    ]
+    ],
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.262",
@@ -104526,7 +104593,7 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>”Stannar” och ”stannar inte” är komplement under samma pass.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -104558,7 +104625,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Komplementet är två missar, vilket har sannolikheten \\(0{,}80^2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -104591,7 +104658,7 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Räkna motsatsen: ingen av tärningarna visar sexa.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -104624,7 +104691,7 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "procent",
     "ledtrad": "<p>Regn och inget regn är komplement, så procenttalen ska summera till 100 %.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -105095,13 +105162,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En tärning kastas och ett mynt singlas. Hur stor är sannolikheten att få en sexa och krona? Svara i bråkform.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Kasten påverkar inte varandra, så sannolikheterna för varje steg multipliceras. 1/6 · 1/2 = 1/12.</p><p><strong>Svar:</strong> <strong>\\(\\frac{1}{12}\\)</strong></p></div></div>",
+    "t": "<p>Ett lyckohjul har fem lika stora fält med siffrorna 1–5. Hjulet snurras och ett mynt singlas. Hur stor är sannolikheten att få en femma och krona? Svara i bråkform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Lyckohjulet och myntet påverkar inte varandra, så sannolikheterna multipliceras: 1/5 · 1/2 = 1/10.</p><p><strong>Svar:</strong> <strong>\\(\\frac{1}{10}\\)</strong></p></div></div>",
     "familj": "Multiplikationsprincipen",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "bråk",
-    "rättSvar": "1/12",
+    "rättSvar": "1/10",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -105267,7 +105334,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Multiplicera sannolikheterna för varje steg. Om flera ordningar ger samma resultat adderas de.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -105331,7 +105398,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Multiplicera sannolikheterna för varje steg. Om flera ordningar ger samma resultat adderas de.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -105363,7 +105430,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Multiplicera sannolikheterna för varje steg. Om flera ordningar ger samma resultat adderas de.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -105395,7 +105462,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Multiplicera sannolikheterna för varje steg. Om flera ordningar ger samma resultat adderas de.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -105427,7 +105494,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Multiplicera sannolikheterna för varje steg. Om flera ordningar ger samma resultat adderas de.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -105459,7 +105526,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Multiplicera sannolikheterna för varje steg. Om flera ordningar ger samma resultat adderas de.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -105560,7 +105627,8 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 0.441,
-    "tolerans": 0.001
+    "tolerans": 0.001,
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.433",
@@ -106099,7 +106167,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Antingen inträffar A eller inte. Tillsammans är sannolikheterna 1.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -106131,7 +106199,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Antingen inträffar A eller inte. Tillsammans är sannolikheterna 1.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -106163,7 +106231,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Antingen inträffar A eller inte. Tillsammans är sannolikheterna 1.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -106483,7 +106551,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Beräkna först sannolikheten att det <em>aldrig</em> inträffar.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -106802,7 +106870,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Rita ett träddiagram. Multiplicera längs varje gren och addera de grenar som ger det sökta resultatet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -106834,7 +106902,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Rita ett träddiagram. Multiplicera längs varje gren och addera de grenar som ger det sökta resultatet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -106866,7 +106934,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "ledtrad": "<p>Rita ett träddiagram. Multiplicera längs varje gren och addera de grenar som ger det sökta resultatet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -107050,7 +107118,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>26 · 26 = 676.</p><p><strong>Svar:</strong> <strong>676</strong></p></div></div>",
     "familj": "Antal utfall i flera steg",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 676,
     "tolerans": 1e-09,
@@ -107094,7 +107162,8 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 0.648,
-    "tolerans": 0.001
+    "tolerans": 0.001,
+    "svarFormat": "sannolikhet"
   },
   {
     "id": "5.479",
@@ -107607,7 +107676,8 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 16,
     "tolerans": 0.6,
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "svarFormat": "procent"
   },
   {
     "id": "5.494",
@@ -111073,7 +111143,7 @@ window.BANKMA1 = [
     "s": "<p>15 % av 1 200 kr är \\(0{,}15\\cdot1\\,200=180\\) kr.</p><p><strong>Svar:</strong> 180 kr.</p>",
     "familj": "Privatekonomi",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "180",
     "tolerans": null,
@@ -111105,7 +111175,7 @@ window.BANKMA1 = [
     "s": "<p>15 % motsvarar förändringsfaktorn 0,15. \\(240\\cdot0{,}15=36\\).</p><p><strong>Svar:</strong> 36 miljoner kronor.</p>",
     "familj": "Matematik i samhällslivet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "36",
     "tolerans": null,
@@ -112880,8 +112950,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En modell säger att en bil alltid tappar 25 000 kr i värde per år. Ge en tydlig begränsning med modellen.</p><p>A. Modellen är alltid rimlig eftersom kronor är en linjär enhet.<br>B. Bilen måste öka i värde efter ett visst antal år.<br>C. Modellen är orimlig enbart därför att 25 000 inte är en procent.<br>D. Konstant minskning med 25 000 kr per år leder till slut till noll och sedan negativa värden, och värdeminskningen är sällan konstant över hela livslängden.</p>",
-    "s": "<p>En linjär minskning kan fungera under en begränsad period men får orimliga långtidsegenskaper.</p><p><strong>Svar: D.</strong></p>",
+    "t": "<p>En modell säger att en bils värde minskar med 25 000 kr varje år. Vilket påstående beskriver bäst en begränsning hos modellen?</p><p>A. Modellen kan inte användas alls, eftersom bilar aldrig minskar i värde.<br>B. Modellen fungerar för alla år, eftersom minskningen är lika stor varje år.<br>C. Modellen är fel eftersom en värdeminskning alltid måste anges i procent.<br>D. Efter tillräckligt många år ger modellen värdet noll och sedan negativa värden. Dessutom minskar en bils värde oftast mest de första åren.</p>",
+    "s": "<p>En linjär modell kan fungera under en begränsad tid. Fortsätter man den många år framåt blir värdet till slut negativt, vilket är orimligt. I verkligheten minskar värdet dessutom ofta mer i början än senare.</p><p><strong>Svar: D.</strong></p>",
     "familj": "Modellers egenskaper och begränsningar",
     "geogebra": false,
     "miniräknare": false,
@@ -114593,7 +114663,7 @@ window.BANKMA1 = [
     "s": "<p>Den sammanlagda produktionen är \\(12\\cdot340=4\\,080\\) kWh.</p><p><strong>Svar:</strong> 4 080 kWh.</p>",
     "familj": "Hållbar utveckling",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "4080",
     "tolerans": null,
@@ -114755,7 +114825,7 @@ window.BANKMA1 = [
     "s": "<p>Först återvinns (0,45·80=36) ton. Nästa år blir den återvunna mängden (36·1,20=43,2) ton och total avfallsmängd (80·0,90=72) ton.</p><p>Andelen är (43,2/72=)<strong>60 %</strong>.</p>",
     "familj": "Hållbar utveckling",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "60.0",
     "tolerans": null,
@@ -114787,7 +114857,7 @@ window.BANKMA1 = [
     "s": "<p>På ett år används \\(120\\cdot365=43\\,800\\) liter. Eftersom 1 000 liter är 1 m³ blir det \\(43{,}8\\) m³.</p><p><strong>Svar:</strong> cirka 43,8 m³.</p>",
     "familj": "Hållbar utveckling",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 43.8,
     "tolerans": 0.1,
@@ -114889,7 +114959,7 @@ window.BANKMA1 = [
     "s": "<p>Ökningen är \\(84\\,000\\cdot0{,}012=1\\,008\\).</p><p><strong>Svar:</strong> cirka 1 008 personer.</p>",
     "familj": "Matematik i samhällslivet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "1008",
     "tolerans": 1,
@@ -114921,7 +114991,7 @@ window.BANKMA1 = [
     "s": "<p>Det är ett viktat medelvärde:</p><p>((120·18+80·32)/200=)<strong>23,6 minuter</strong>.</p>",
     "familj": "Matematik i samhällslivet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "23.6",
     "tolerans": null,
@@ -115080,7 +115150,7 @@ window.BANKMA1 = [
     "s": "<p>Ökningen är \\(33\\,280-32\\,000=1\\,280\\). Relativt 32 000 blir det \\(1\\,280/32\\,000=0{,}04\\).</p><p><strong>Svar:</strong> 4 %.</p>",
     "familj": "Matematik i samhällslivet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
@@ -115175,7 +115245,7 @@ window.BANKMA1 = [
     "s": "<p>Befolkningstätheten är antal invånare dividerat med area:</p><p>\\(54\\,000/180=300\\).</p><p><strong>Svar:</strong> 300 invånare/km².</p>",
     "familj": "Matematik i samhällslivet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
     "tolerans": null,
@@ -115207,7 +115277,7 @@ window.BANKMA1 = [
     "s": "<p>a) (24000-9000-3600-1800=)<strong>9 600 kr</strong>.</p><p>b) (9000/24000=)<strong>37,5 %</strong>.</p><p>c) (9600/24000=)<strong>40 %</strong>.</p>",
     "familj": "Privatekonomi",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "9600",
@@ -115404,7 +115474,7 @@ window.BANKMA1 = [
     "s": "<p>Utgifterna är \\(8\\,800+3\\,600+1\\,900=14\\,300\\) kr, så \\(22\\,000-14\\,300=7\\,700\\) kr återstår. Andelen är \\(7\\,700/22\\,000=0{,}35\\).</p><p><strong>Svar:</strong> 35 %.</p>",
     "familj": "Privatekonomi",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "35",
     "tolerans": null,
@@ -115468,7 +115538,7 @@ window.BANKMA1 = [
     "s": "<p>Ökningen är \\(2\\,640-2\\,400=240\\) kr. \\(240/2\\,400=0{,}10\\).</p><p><strong>Svar:</strong> 10 %.</p>",
     "familj": "Privatekonomi",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "10",
     "tolerans": null,
@@ -115565,7 +115635,7 @@ window.BANKMA1 = [
     "s": "<p>Efter 25 % rabatt återstår 75 % av priset: \\(1\\,600\\cdot0{,}75=1\\,200\\).</p><p><strong>Svar:</strong> 1 200 kr.</p>",
     "familj": "Privatekonomi",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "1200",
     "tolerans": null,
@@ -115597,7 +115667,7 @@ window.BANKMA1 = [
     "s": "<p>\\(18\\,500\\cdot0{,}12=2\\,220\\).</p><p><strong>Svar:</strong> 2 220 kr.</p>",
     "familj": "Privatekonomi",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "2220",
     "tolerans": null,
@@ -115826,7 +115896,7 @@ window.BANKMA1 = [
     "s": "<p>Om 35 % är tomma är \\(100-35=65\\) % upptagna. \\(0{,}65\\cdot180=117\\).</p><p><strong>Svar:</strong> 117 personer.</p>",
     "familj": "Problemlösning i vardagen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "117",
     "tolerans": null,
@@ -117948,7 +118018,7 @@ window.BANKMA1 = [
     "s": "<p>a) Per portion: 1,8 / 12 = <strong>0,15 kg</strong>.</p><p>b) Till 30 portioner: 30 · 0,15 = <strong>4,5 kg</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "0.15",
@@ -118144,7 +118214,7 @@ window.BANKMA1 = [
     "s": "<p>8 % spill innebär förändringsfaktorn 1,08. 36·1,08 = <strong>38,88 m²</strong>, alltså cirka 38,9 m² om man avrundar till en decimal.</p>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "38.88",
     "tolerans": 0.01,
@@ -118173,7 +118243,7 @@ window.BANKMA1 = [
     "s": "<p>a) 780+1 250 = <strong>2 030 kr</strong>.</p><p>b) 6 % av 2 030 är 0,06·2 030 = <strong>121,80 kr</strong>.</p><p>c) 2 030+121,80 = <strong>2 151,80 kr</strong>.</p>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       2030,
@@ -118241,7 +118311,7 @@ window.BANKMA1 = [
     "s": "<p>0,75·120 = <strong>90 kg</strong>.</p>",
     "familj": "Säkerhetsmarginal i procent",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "90",
     "tolerans": null,
@@ -118750,7 +118820,7 @@ window.BANKMA1 = [
     "s": "<p>14,5·160 = <strong>2 320 kr</strong>.</p>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "2320",
     "tolerans": null,
@@ -118779,7 +118849,7 @@ window.BANKMA1 = [
     "s": "<p>a) 0,02·240 = <strong>4,8 L</strong>.</p><p>b) 4,8·1,5 = <strong>7,2 L</strong>.</p><p>c) Med 20 % extra reserv krävs 7,2·1,20 = 8,64 L. 8 L räcker inte; minsta tillgängliga storlek som klarar kravet är <strong>12 L</strong>.</p>",
     "familj": "Säkerhetsmarginal i procent",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       4.8,
@@ -118852,7 +118922,7 @@ window.BANKMA1 = [
       "1a"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En behållare fylls med 24 liter per minut. Från början innehåller den 36 liter. Hur lång tid tar det tills den innehåller 180 liter?</p>",
     "s": "<p>Det återstår 180 − 36 = 144 liter. Tiden är 144/24 = 6 minuter. Kontroll: 36 + 24 · 6 = 180 liter.</p>",
     "ledtrad": "<p>Ska hela slutvolymen eller bara ökningen fyllas på?</p>",
@@ -119058,7 +119128,7 @@ window.BANKMA1 = [
     "s": "<p>a) När utskriften förminskas till 80 % måste 1 cm på utskriften motsvara 50/0,80 = 62,5 cm i verkligheten. Effektiv skala: <strong>1:62,5</strong>.</p><p>b) 6,4 cm → 4,0 m och 4,8 cm → 3,0 m. Arean är <strong>12 m²</strong>.</p><p>c) Om man felaktigt använder 1:50 får man 3,2·2,4 = 7,68 m². Det är (12−7,68)/12 = <strong>36 % för litet</strong>.</p>",
     "familj": "Likformighet och areaskala",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "1:62.5",
@@ -119334,7 +119404,7 @@ window.BANKMA1 = [
     "s": "<p>a) 20·1,10 = <strong>22 m²</strong>.<br>b) 35·1,05 = <strong>36,75 m</strong>.<br>c) 60·1,15 = <strong>69 st</strong>.</p>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "22",
@@ -120729,7 +120799,7 @@ window.BANKMA1 = [
     "s": "<p>Energianvändning per enhet: 14 / 350 = 0,04 kWh.</p><p>För 1 200 enheter behövs 48 kWh. Kostnaden blir 48 · 1,35 = <strong>64,80 kr</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "64.80",
     "tolerans": null,
@@ -120875,7 +120945,7 @@ window.BANKMA1 = [
     "s": "<p>12·38 = <strong>456 kr</strong>.</p>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "456",
     "tolerans": null,
@@ -121091,7 +121161,7 @@ window.BANKMA1 = [
     "s": "<p>7 % spill ger förändringsfaktorn 1,07. 42·1,07 = <strong>44,94 m²</strong>.</p>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "44.94",
     "tolerans": null,
@@ -121452,7 +121522,7 @@ window.BANKMA1 = [
       "1a"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Elektrisk effekt ges av P = UI. Spänningen är 230 V och effekten 1 150 W. Bestäm strömmen I i ampere.</p>",
     "s": "<p>I = P/U = 1 150/230 = 5 A. Kontroll: 230 · 5 = 1 150 W.</p>",
     "ledtrad": "<p>Vilken operation får I att stå ensamt?</p>",
@@ -121844,7 +121914,7 @@ window.BANKMA1 = [
     "s": "<p>Areaförhållandet är 180/80 = 2,25. Längdskalfaktorn är därför √2,25 = 1,5.</p><p>Motsvarande längd blir 5,0·1,5 = <strong>7,5 cm</strong>.</p>",
     "familj": "Likformighet och areaskala",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "7.5",
     "tolerans": null,
@@ -122079,7 +122149,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><p>\\(24\\cdot18=432\\) cm = <strong>4,32 m</strong>.</p></div>",
     "familj": "Skala på kartor och ritningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "4.32",
     "tolerans": null,
@@ -123826,7 +123896,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><p>a) Per portion behövs \\(900/6=150\\) g.</p><p>b) Till 15 portioner behövs \\(150\\cdot15=2250\\) g = <strong>2,25 kg</strong>.</p><p>c) Till 10 portioner behövs \\(150\\cdot10=1500\\) g.</p></div>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "150",
@@ -123884,7 +123954,7 @@ window.BANKMA1 = [
     "s": "<p>a) Dagtid: 24/6 = <strong>4 personer</strong>.</p><p>b) Kväll: 24/8 = <strong>3 personer</strong>. Natt: 24/12 = <strong>2 personer</strong>.</p><p>c) Tre 8-timmarspass ger (4+3+2)·8 = <strong>72 personaltimmar</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       4,
@@ -124017,7 +124087,7 @@ window.BANKMA1 = [
     "s": "<p>Fyra pumpar fyller 1 800 L på 15 min, alltså är totalflödet 120 L/min och en pump ger 30 L/min.</p><p>Sex pumpar ger 180 L/min. För 2 700 L behövs 2700/180 = <strong>15 min</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "15",
     "tolerans": null,
@@ -124097,7 +124167,7 @@ window.BANKMA1 = [
     "s": "<p>Priset per meter är 540/12 = <strong>45 kr/m</strong>.</p><p>a) 1 meter kostar <strong>45 kr</strong>.<br>b) 20 meter kostar 20·45 = <strong>900 kr</strong>.<br>c) 1 500/45 ≈ 33,3, så pengarna räcker till <strong>33 hela meter</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "45",
@@ -124155,7 +124225,7 @@ window.BANKMA1 = [
     "s": "<p>900/6 = 150 g per portion. Till 14 portioner behövs 14·150 = <strong>2 100 g</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "2100",
     "tolerans": null,
@@ -124256,7 +124326,7 @@ window.BANKMA1 = [
     "s": "<p>a) 0,12·750 = <strong>90 ml</strong>.</p><p>b) 750−90 = <strong>660 ml</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "90",
@@ -124704,7 +124774,7 @@ window.BANKMA1 = [
     "s": "<p>18·42+295 = 756+295 = <strong>1 051 kr</strong>.</p>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "1051",
     "tolerans": null,
@@ -124763,7 +124833,7 @@ window.BANKMA1 = [
     "s": "<p>Arbetet kostar 6,5·520 = 3 380 kr. Med material blir totalen 3 380+1 850 = <strong>5 230 kr</strong>.</p>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "5230",
     "tolerans": null,
@@ -124871,7 +124941,7 @@ window.BANKMA1 = [
     "s": "<p>14·245+390 = 3 430+390 = <strong>3 820 kr</strong>.</p>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "3820",
     "tolerans": null,
@@ -124930,7 +125000,7 @@ window.BANKMA1 = [
     "s": "<p>a) 3·620 = <strong>1 860 kr</strong>.<br>b) 1 860+940 = <strong>2 800 kr</strong>.<br>c) 2 800·1,25 = <strong>3 500 kr</strong>.</p>",
     "familj": "Moms, rabatt och påslag",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "1860",
@@ -124997,7 +125067,7 @@ window.BANKMA1 = [
     "s": "<p>a) 5·189 = <strong>945 kr</strong>.<br>b) 12·189 = <strong>2 268 kr</strong>.<br>c) 2 268·0,90 = <strong>2 041,20 kr</strong>.</p>",
     "familj": "Moms, rabatt och påslag",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "945",
@@ -125064,7 +125134,7 @@ window.BANKMA1 = [
     "s": "<p>a) 7·480 = <strong>3 360 kr</strong>.<br>b) 3 360+2 350 = <strong>5 710 kr</strong>.<br>c) Material efter 10 % rabatt: 2 350·0,90 = 2 115 kr. Totalen blir 3 360+2 115 = <strong>5 475 kr</strong>.</p>",
     "familj": "Moms, rabatt och påslag",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "3360",
@@ -125988,7 +126058,7 @@ window.BANKMA1 = [
     "s": "<p>120/24 = <strong>5 timmar</strong>.</p>",
     "familj": "Mätinstrument och avläsning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": 1e-09,
@@ -126018,7 +126088,7 @@ window.BANKMA1 = [
     "s": "<p>Tabellvärdet ger 12,5·8 = 100 enheter. Faktiskt blev det 92, alltså <strong>8 färre</strong>.</p>",
     "familj": "Tabeller och kalkylblad",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
     "tolerans": 1e-09,
@@ -126048,7 +126118,7 @@ window.BANKMA1 = [
     "s": "<p>20 min = 1/3 h, så aktiv tid är 4−1/3 = 11/3 h. Produktionen blir 36·11/3 = <strong>132 enheter</strong>.</p>",
     "familj": "Mätinstrument och avläsning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 132,
     "tolerans": 1e-09,
@@ -126432,7 +126502,7 @@ window.BANKMA1 = [
     "s": "<p>Längdskalfaktorn är √2,25 = <strong>1,5</strong>.</p>",
     "familj": "Likformighet och areaskala",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
     "tolerans": 1e-06,
@@ -127156,7 +127226,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Timlönen är 1 140/6 = 190 kr. 8 · 190 = 1 520 kr.</p><p><strong>Svar:</strong> <strong>1520 kr</strong></p></div></div>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1520,
     "tolerans": 1e-09,
@@ -127608,7 +127678,7 @@ window.BANKMA1 = [
       "problemlösning",
       "begrepp"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Hur många meter motsvarar 1 cm på kartan? Hur stor yta motsvarar då en kvadrat på 1 cm × 1 cm?</p>",
@@ -128990,7 +129060,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>30 · 1,15 = 34,5 m².</p><p><strong>Svar:</strong> <strong>34,5 m²</strong></p></div></div>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 34.5,
     "tolerans": 1e-09,
@@ -129021,7 +129091,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>80 · 1,05 = 84 m.</p><p><strong>Svar:</strong> <strong>84 m</strong></p></div></div>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 84,
     "tolerans": 1e-09,
@@ -129455,7 +129525,7 @@ window.BANKMA1 = [
       "begrepp",
       "problemlösning"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Hur stor andel av den oskalade potatisen finns kvar efter skalning? Kontrollera ditt svar genom att räkna svinnet.</p>",
@@ -129572,7 +129642,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>12 · 185 = 2 220 kr.</p><p><strong>Svar:</strong> <strong>2220 kr</strong></p></div></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2220,
     "tolerans": 1e-09,
@@ -129634,7 +129704,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>240 · 1,25 = 300 kr.</p><p><strong>Svar:</strong> <strong>300 kr</strong></p></div></div>",
     "familj": "Moms, rabatt och påslag",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
     "tolerans": 1e-09,
@@ -129913,7 +129983,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>12 000 · 1,25 = 15 000 kr.</p><p><strong>Svar:</strong> <strong>15 000 kr</strong></p></div></div>",
     "familj": "Moms, rabatt och påslag",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 15000,
     "tolerans": 1e-09,
@@ -130153,7 +130223,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>0,75 · 16 = 12 A.</p><p><strong>Svar:</strong> <strong>12 A</strong></p></div></div>",
     "familj": "Säkerhetsmarginal i procent",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": 1e-09,
@@ -130308,7 +130378,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>630/75 = 8,4. Man får avrunda nedåt: 8 personer.</p><p><strong>Svar:</strong> <strong>8</strong></p></div></div>",
     "familj": "Säkerhetsmarginal i procent",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
     "tolerans": 1e-09,
@@ -130759,7 +130829,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>270/3,6 = 75 km/h.</p><p><strong>Svar:</strong> <strong>75 km/h</strong></p></div></div>",
     "familj": "Formler i yrkesarbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 75,
     "tolerans": 1e-09,
@@ -131066,7 +131136,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>14 · 37,50 = 525.</p><p><strong>Svar:</strong> <strong>525</strong></p></div></div>",
     "familj": "Tabeller och kalkylblad",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 525,
     "tolerans": 1e-09,
@@ -131433,7 +131503,7 @@ window.BANKMA1 = [
     "s": "<p>Skriv först mängderna i samma enhet: 12 liter = 12 000 ml.</p><p>Andelen är \\(54/12000=0{,}0045\\).</p><p>I procent blir det \\(0{,}0045\\cdot100=0{,}45\\,\\%\\).</p><p><strong>Svar:</strong> 0,45 %.</p>",
     "familj": "Andel i procent",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.45,
     "tolerans": 0.005,
@@ -131929,7 +131999,7 @@ window.BANKMA1 = [
     "s": "<p>Totalt finns \\(2+3+7=12\\) delar. En del är \\(960/12=80\\) kr.</p><p>B får 3 delar: \\(3\\cdot80=240\\) kr.</p><p><strong>Svar:</strong> 240 kr.</p>",
     "familj": "Dela i ett givet förhållande",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 240,
     "tolerans": 1e-09,
@@ -132193,7 +132263,7 @@ window.BANKMA1 = [
     "s": "<p>Proportionalitetskonstanten är \\(k=13{,}5/3=4{,}5\\).</p><p>När \\(x=7\\) blir \\(y=4{,}5\\cdot7=31{,}5\\).</p><p><strong>Svar:</strong> 31,5.</p>",
     "familj": "Direkt proportionalitet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 31.5,
     "tolerans": 0.01,
@@ -132394,7 +132464,7 @@ window.BANKMA1 = [
     "s": "<p>Tid per sida är \\(45/18=2{,}5\\) s.</p><p>För 70 sidor blir tiden \\(70\\cdot2{,}5=175\\) s.</p><p><strong>Svar:</strong> 175 s.</p>",
     "familj": "Direkt proportionalitet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 175,
     "tolerans": 0.5,
@@ -132426,7 +132496,7 @@ window.BANKMA1 = [
     "s": "<p>Per portion behövs \\(600/8=75\\) g.</p><p>Till 22 portioner behövs \\(22\\cdot75=1650\\) g = 1,65 kg.</p><p><strong>Svar:</strong> 1,65 kg.</p>",
     "familj": "Direkt proportionalitet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.65,
     "tolerans": 0.01,
@@ -132491,7 +132561,7 @@ window.BANKMA1 = [
     "s": "<p>De verkliga längderna är \\(7{,}2\\cdot250=1800\\) cm = 18 m och \\(4{,}8\\cdot250=1200\\) cm = 12 m.</p><p>Arean är \\(18\\cdot12=216\\ \\mathrm{m^2}\\).</p><p><strong>Svar:</strong> 216 m².</p>",
     "familj": "Proportionalitet i problemlösning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 216,
     "tolerans": 0.5,
@@ -132917,7 +132987,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[12\\cdot299-2\\,990=3\\,588-2\\,990=598\\]</p><p><strong>Svar:</strong> 598 kr</p></div></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 598,
     "tolerans": 1e-09,
@@ -134317,7 +134387,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>1,5 m är 15 dm.</p><p>\\[15\\cdot2{,}40=36\\]</p><p><strong>Svar:</strong> 36 kr</p></div></div>",
     "familj": "Räkna med decimaltal",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 36,
     "tolerans": 1e-09,
@@ -136434,7 +136504,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[0{,}15\\cdot240=36\\]</p><p><strong>Svar:</strong> 36 g</p></div></div>",
     "familj": "Beräkningar när procentsatsen är känd",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 36,
     "tolerans": 1e-09,
@@ -137478,7 +137548,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Från \\(c\\) till \\(b\\): \\(c=\\frac54b\\), så \\(c=20\\) ger \\(b=16\\).</p><p>Från \\(b\\) till \\(a\\): \\(a=\\frac{12}{8}b=1{,}5b\\), så \\(a=1{,}5\\cdot16=24\\).</p><p>Man kan också se att \\(a\\) är proportionell mot \\(c\\): \\(a=\\frac65c\\).</p><p><strong>Svar:</strong> 24</p></div></div>",
     "familj": "Proportionalitet i problemlösning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
     "tolerans": 1e-09,
@@ -138668,7 +138738,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Nu: \\(420\\div15=28\\) lärare. Med 12 : 1 behövs \\(420\\div12=35\\) lärare.</p><p>\\[35-28=7\\]</p><p><strong>Svar:</strong> 7 lärare</p></div></div>",
     "familj": "Förhållanden i problemlösning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
     "tolerans": 1e-09,
@@ -138972,7 +139042,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Längdskalan är \\(\\frac{18}{12}=1{,}5\\). Både bredd och höjd blir 1,5 gånger större, så arean blir \\(1{,}5^2=2{,}25\\) gånger större.</p><p>\\[2{,}25\\cdot96=216\\]</p><p><strong>Svar:</strong> 216 cm²</p></div></div>",
     "familj": "Proportionalitet i problemlösning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 216,
     "tolerans": 1e-09,
@@ -139729,7 +139799,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[3\\cdot149+2\\cdot39-250=447+78-250=275\\]</p><p><strong>Svar:</strong> 275 kr</p></div></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 275,
     "tolerans": 1e-09,

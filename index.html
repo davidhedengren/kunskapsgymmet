@@ -4114,7 +4114,8 @@ async function hamtaKlasstopplista(period){
   const d=await klassRpc("topplista_klasser",{p_period:period},true);
   if(!d) return null;
   if(d.saknas) return {saknas:true};
-  return {rader:Array.isArray(d.rader)?d.rader:[],tak:d.tak,minKlass:d.min_klass??null};
+  /* Lärarklassen tävlar inte mot eleverna (sql/2026-10-09-larare-utan-klasstopp.sql gör samma sak i databasen). */
+  return {rader:Array.isArray(d.rader)?d.rader.filter(r=>!r.larare):[],tak:d.tak,minKlass:d.min_klass??null};
 }
 async function vaxlaKlassElever(id){
   const box=document.getElementById("klasselever-"+id);

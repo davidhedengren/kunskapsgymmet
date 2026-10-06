@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-06-f";
+const BANK_VERSION="2026-10-06-g";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9645,6 +9645,41 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
       if(!a.includes("=")) hl=a;
       else if(fa && (fa[2] ? fa[2]===ff[1] : fa[1]!==ff[1])) hl=fa[3];
       if(hl && hl.trim() && delSvarRatt(hl.trim(),ff[2].trim(),enhet,tol,t,idx,format)) return true;
+    }
+  }
+  /* Facit "(x,y)=(2,1)": talen jämförs ett och ett. "(2, 1)", "2, 1", "x=2, y=1" och
+     "y=1 och x=2" godtas. Utan detta lästes "(5,3,3)" som decimaltalet 5,3 och godtogs mot (5,3,2). */
+  if(typeof facit==="string"){
+    const fp=facit.replace(/\\[()\[\]]/g,"").trim().match(/^\(\s*([a-z](?:\s*,\s*[a-z]){1,2})\s*\)\s*=\s*\((.+)\)$/);
+    if(fp){
+      const namn=fp[1].split(",").map(s=>s.trim());
+      /* Komma utan mellanslag kan vara decimalkomma: dela först på alla komman, annars på ", " och ";". */
+      const dela=s=>{
+        const x=String(s).split(",").map(v=>v.trim());
+        if(x.length===namn.length && x.every(Boolean)) return x;
+        const y=String(s).split(/,\s+|\s*;\s*/).map(v=>v.trim());
+        return y.length===namn.length && y.every(Boolean) ? y : null;
+      };
+      const fv=dela(fp[2]);
+      const a=String(anv).replace(/\\[()\[\]]/g,"").trim();
+      let sv=null;
+      const lhs=a.match(/^\(\s*([a-z](?:\s*,\s*[a-z])*)\s*\)\s*=\s*\((.+)\)$/i);
+      if(lhs){
+        /* "(y,x)=(1,2)": talen ordnas efter elevens variabelordning. */
+        const egna=lhs[1].replace(/\s/g,"").toLowerCase().split(","), v=dela(lhs[2]);
+        if(v && egna.length===namn.length && namn.every(n=>egna.includes(n))) sv=namn.map(n=>v[egna.indexOf(n)]);
+        else return false;
+      } else if(/[a-z]\s*=/i.test(a)){
+        const par={};
+        const re=/([a-z])\s*=\s*(.+?)(?=\s*(?:[,;]|\boch\b)?\s*[a-z]\s*=|\s*$)/gi;
+        let m, rest=a;
+        while((m=re.exec(a))){ par[m[1].toLowerCase()]=m[2].replace(/\s*(?:[,;]|\boch\b)\s*$/,"").trim(); rest=rest.replace(m[0],""); }
+        if(namn.every(n=>par[n]) && Object.keys(par).length===namn.length
+          && !/[a-z0-9]/i.test(rest.replace(/\boch\b/g,""))) sv=namn.map(n=>par[n]);
+      } else {
+        sv=dela(a.replace(/^\((.*)\)$/,"$1"));
+      }
+      if(fv && sv) return sv.every((v,k)=>delSvarRatt(v,fv[k],enhet,tol,t,idx,format));
     }
   }
   /* Positionsord: "7 tiondelar", "9 tusendelar", "4 hundratal" när facit är ett tal. */

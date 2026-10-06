@@ -11938,7 +11938,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(-5^2\\).</p>",
-    "s": "<p>\\(-5^2=-(5\\cdot5)=-25\\)</p><p>Parenteserna avgör om minustecknet ingår i basen eller står utanför potensen.</p>",
+    "s": "<p>Det finns ingen parentes runt \\(-5\\). Därför är det bara 5 som kvadreras, och minustecknet står kvar framför:</p><p>\\(-5^2=-(5\\cdot5)=-25\\)</p><p>Jämför med \\((-5)^2=(-5)\\cdot(-5)=25\\), där parentesen gör att hela \\(-5\\) kvadreras.</p><p><strong>Svar:</strong> \\(-25\\)</p>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,

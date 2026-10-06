@@ -62030,7 +62030,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Sätt in kraften och arean i det givna sambandet.</p>",
+    "ledtrad": "<p>Tryck är kraft per area: p = F/A.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -62107,7 +62107,7 @@ window.BANK = [
     "niva": "C",
     "typ": "belastad kolv och allmänna gaslagen",
     "poang": "(1/2/0)",
-    "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från friktion och</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</li><li>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</li></ol>",
+    "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</li><li>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</li></ol>",
     "s": "<p>a) Vikten ger Δp=mg/A=15,0·9,82/(20,0·10⁻⁴)=73,65 kPa. Gasen balanserar både lufttrycket och vikten, så p₂=101+73,65=174,65 kPa. Svar: 174,7 kPa.</p><p>b) Gasmängden är konstant och sluttrycket hålls av samma last. V₂=V₁(p₁/p₂)(T₂/T₁)=1,20·(101/174,65)·(353,15/293,15)≈0,83599 liter. Svar: 0,836 liter.</p><p>c) Volymminskningen är (1,20−0,83599) liter≈364,01 cm³. Med ΔV=AΔh fås Δh=364,01/20,0≈18,20 cm. Kolven ligger lägre eftersom belastningens kompression dominerar över uppvärmningens expansion. Svar: 18,2 cm.</p>",
     "familj": "Allmänna gaslagen",
     "formaga": [
@@ -62151,12 +62151,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från friktion och</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span>",
+    "spelIntro": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från friktion och</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
         "s": "<p>Vikten ger Δp=mg/A=15,0·9,82/(20,0·10⁻⁴)=73,65 kPa. Gasen balanserar både lufttrycket och vikten, så p₂=101+73,65=174,65 kPa. Svar: 174,7 kPa.</p>",
         "ledtrad": "<p>Vilka nedåtriktade tryck och krafter verkar på kolven?</p>",
         "niva": "E",
@@ -62174,7 +62174,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från friktion och</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
+        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
         "s": "<p>Gasmängden är konstant och sluttrycket hålls av samma last. V₂=V₁(p₁/p₂)(T₂/T₁)=1,20·(101/174,65)·(353,15/293,15)≈0,83599 liter. Svar: 0,836 liter.</p>",
         "ledtrad": "<p>Jämför starttillståndet före belastningen med det uppvärmda slutläget.</p>",
         "niva": "C",
@@ -62192,7 +62192,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från friktion och</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</p>",
+        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</p>",
         "s": "<p>Volymminskningen är (1,20−0,83599) liter≈364,01 cm³. Med ΔV=AΔh fås Δh=364,01/20,0≈18,20 cm. Kolven ligger lägre eftersom belastningens kompression dominerar över uppvärmningens expansion. Svar: 18,2 cm.</p>",
         "ledtrad": "<p>Omvandla volymskillnaden till cm³ och dividera med kolvarean.</p>",
         "niva": "C",
@@ -64186,7 +64186,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd det givna sambandet för area.</p>",
+    "ledtrad": "<p>Lös ut arean ur p = F/A.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -64869,7 +64869,7 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "C",
     "poang": "(2/2/0)",
-    "t": "<p>I en förenklad modell har en fridykare 6,0 liter luft i lungorna vid ytan och dyker till 20 m djup. Lufttrycket vid ytan är 101,3 kPa, vattnets densitet 998 kg/m³ och temperaturen antas konstant.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm det absoluta trycket på 20 m djup.</li><li>Bestäm luftvolymen på djupet enligt Boyles lag.</li><li>Förklara varför en apparatdykare som har andats in luft på djupet inte får hålla andan under uppstigning.</li></ol>",
+    "t": "<p>En fridykare har 6,0 liter luft i lungorna vid ytan och dyker till 20 m djup. Lufttrycket vid ytan är 101,3 kPa, vattnets densitet 998 kg/m³ och temperaturen antas konstant. Anta att luften i lungorna har samma tryck som vattnet runt dykaren.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm det absoluta trycket på 20 m djup.</li><li>Bestäm luftvolymen på djupet enligt Boyles lag.</li><li>Förklara varför en apparatdykare som har andats in luft på djupet inte får hålla andan under uppstigning.</li></ol>",
     "s": "<p>a) p₂=101,3 kPa+998·9,82·20/1000 kPa≈297,31 kPa.</p><p>b) p₁V₁=p₂V₂ ger V₂=101,3·6,0/297,31≈2,044 liter.</p><p>c) En apparatdykare andas luft vid omgivningens högre tryck. När trycket minskar under uppstigningen expanderar luften. Om den inte får lämna lungorna kan vävnaden översträckas och skadas. Den verkliga risken bedöms inte enbart av den enkla gasmodellen.</p>",
     "familj": "Boyles lag",
     "formaga": [
@@ -68363,7 +68363,7 @@ window.BANK = [
     "rättSvar": 300,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Sätt in värdena i det angivna sambandet och lös ut p₂.</p>",
+    "ledtrad": "<p>Vid konstant temperatur gäller p₁V₁ = p₂V₂. Lös ut p₂.</p>",
     "traningsniva": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -71532,7 +71532,7 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tryckökningen som vikten orsakar. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens nya volym. Svara i mL. Svara med ett heltal.</li></ol>",
+    "t": "<p>En cylinder innehåller gas under en kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tryckökningen som vikten orsakar. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens nya volym. Svara i mL. Svara med ett heltal.</li></ol>",
     "s": "<p>a) Δp=mg/A=25,0·9,82/(15,0·10⁻⁴)≈163,667 kPa. Svar: 163,7 kPa.</p><p>b) Gastrycket balanserar både lufttrycket och vikten: p₂=101+163,667≈264,667 kPa. Svar: 264,7 kPa.</p><p>c) Vid konstant temperatur gäller p₁V₁=p₂V₂. V₂=101·500/264,667≈190,806 mL. Svar: 191 mL.</p>",
     "familj": "Boyles lag",
     "formaga": [
@@ -71575,12 +71575,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span>",
+    "spelIntro": "<p>En cylinder innehåller gas under en kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm tryckökningen som vikten orsakar. Svara i kPa. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><p>Bestäm tryckökningen som vikten orsakar. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "t": "<p>En cylinder innehåller gas under en kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><p>Bestäm tryckökningen som vikten orsakar. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
         "s": "<p>Δp=mg/A=25,0·9,82/(15,0·10⁻⁴)≈163,667 kPa. Svar: 163,7 kPa.</p>",
         "ledtrad": "<p>Omvandla kolvarean till m².</p>",
         "niva": "E",
@@ -71596,7 +71596,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm gasens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><p>Bestäm gasens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "t": "<p>En cylinder innehåller gas under en kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><p>Bestäm gasens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
         "s": "<p>Gastrycket balanserar både lufttrycket och vikten: p₂=101+163,667≈264,667 kPa. Svar: 264,7 kPa.</p>",
         "ledtrad": "<p>Viktens tryck är ett övertryck som ska läggas till omgivningstrycket.</p>",
         "niva": "E",
@@ -71612,7 +71612,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm gasens nya volym. Svara i mL. Svara med ett heltal.",
-        "t": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><p>Bestäm gasens nya volym. Svara i mL. Svara med ett heltal.</p>",
+        "t": "<p>En cylinder innehåller gas under en kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant och gasvolymen före belastningen är 500 mL. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><p>Bestäm gasens nya volym. Svara i mL. Svara med ett heltal.</p>",
         "s": "<p>Vid konstant temperatur gäller p₁V₁=p₂V₂. V₂=101·500/264,667≈190,806 mL. Svar: 191 mL.</p>",
         "ledtrad": "<p>Använd absoluta tryck i Boyles lag.</p>",
         "niva": "E",
@@ -72818,7 +72818,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Alla värden kan sättas in direkt i det givna sambandet.</p>",
+    "ledtrad": "<p>Använd Q = cmΔT. Alla värden kan sättas in direkt.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
@@ -73162,7 +73162,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt in värdena i det givna sambandet och omvandla joule till kilojoule.</p>",
+    "ledtrad": "<p>Använd Q = cmΔT och omvandla joule till kilojoule.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
@@ -73246,7 +73246,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Använd det givna sambandet och håll reda på om svaret ska anges i joule eller kilojoule.</p>",
+    "ledtrad": "<p>Använd Q = cmΔT och håll reda på om svaret ska anges i joule eller kilojoule.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
@@ -103305,7 +103305,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Sätt in värdena i det angivna sambandet.</p>",
+    "ledtrad": "<p>Vid konstant temperatur gäller p₁V₁ = p₂V₂. Lös ut p₂.</p>",
     "traningsniva": 1,
     "typ": "boyles lag",
     "arbetsinsats": 1,
@@ -104568,7 +104568,7 @@ window.BANK = [
     "traningsniva": 1,
     "familj": "Allmänna gaslagen",
     "typ": "kombinerade gaslagen",
-    "ledtrad": "<p>Sätt in värdena i det angivna sambandet.</p>",
+    "ledtrad": "<p>Använd p₁V₁/T₁ = p₂V₂/T₂ och lös ut V₂.</p>",
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 1,
@@ -121663,7 +121663,7 @@ window.BANK = [
     "typ": "tryck och temperatur vid konstant volym",
     "poang": "(2/0/0)",
     "t": "<p>En dykflaska fylldes till det absoluta trycket 204 bar vid 29,0 °C. På djupet visar flaskan 191 bar. Flaskan är stel och så lite luft har använts att gasmängden kan antas vara oförändrad.</p><p>Bestäm gasens temperatur på djupet. Svara i °C. Avrunda till 1 decimal.</p>",
-    "s": "<p>Vid konstant volym gäller p₁/T₁ = p₂/T₂. Alltså T₂ = 302,15 · 191/204 ≈ 282,90 K = 9,75 °C. Svar: 9,7 °C.</p>",
+    "s": "<p>Vid konstant volym gäller p₁/T₁ = p₂/T₂. Alltså T₂ = 302,15 · 191/204 ≈ 282,896 K = 9,746 °C. Svar: 9,7 °C.</p>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
@@ -121784,7 +121784,7 @@ window.BANK = [
     "niva": "C",
     "typ": "gastryck och nettokraft",
     "poang": "(0/2/0)",
-    "t": "<p>En sluten kubisk låda har volymen 6,15·10⁻² m³. Luften i lådan har först samma tryck som omgivningen, 101,3 kPa, och temperaturen 15,0 °C. Lådan värms till 165 °C utan att ändra volym. Utomhustrycket är oförändrat.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Sluten kubisk låda med lufttryck inifrån och utifrån\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M205 105h190v150H205z\" fill=\"#E7EBEF\" stroke=\"#354552\" stroke-width=\"3\"/><path d=\"M205 105l58-42h190l-58 42zM395 105l58-42v150l-58 42z\" fill=\"#D5DEE6\" stroke=\"#354552\" stroke-width=\"3\"/><text x=\"300\" y=\"183\" text-anchor=\"middle\">V = 6,15·10⁻² m³</text><path d=\"M300 192V115\" stroke=\"#2E7D5B\" stroke-width=\"4\"/><path d=\"M300 115l-8 14h16z\" fill=\"#2E7D5B\"/><path d=\"M300 28V83\" stroke=\"#C65D36\" stroke-width=\"4\"/><path d=\"M300 83l-8-14h16z\" fill=\"#C65D36\"/><text x=\"320\" y=\"142\">p inuti</text><text x=\"320\" y=\"48\">p utanför</text></g></svg></span><p>Bestäm den utåtriktade nettokraften på en av lådans sidor. Svara i kN. Avrunda till 2 decimaler.</p>",
+    "t": "<p>En sluten kubisk låda har volymen 6,15·10⁻² m³. Luften i lådan har först samma tryck som omgivningen, 101,3 kPa, och temperaturen 15,0 °C. Lådan värms till 165 °C utan att ändra volym. Utomhustrycket är oförändrat.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Sluten kubisk låda med lufttryck inifrån och utifrån\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M205 105h190v150H205z\" fill=\"#E7EBEF\" stroke=\"#354552\" stroke-width=\"3\"/><path d=\"M205 105l58-42h190l-58 42zM395 105l58-42v150l-58 42z\" fill=\"#D5DEE6\" stroke=\"#354552\" stroke-width=\"3\"/><text x=\"300\" y=\"232\" text-anchor=\"middle\">V = 6,15·10⁻² m³</text><path d=\"M300 192V115\" stroke=\"#2E7D5B\" stroke-width=\"4\"/><path d=\"M300 115l-8 14h16z\" fill=\"#2E7D5B\"/><path d=\"M300 28V83\" stroke=\"#C65D36\" stroke-width=\"4\"/><path d=\"M300 83l-8-14h16z\" fill=\"#C65D36\"/><text x=\"320\" y=\"142\">p inuti</text><text x=\"320\" y=\"48\">p utanför</text></g></svg></span><p>Bestäm den utåtriktade nettokraften på en av lådans sidor. Svara i kN. Avrunda till 2 decimaler.</p>",
     "s": "<p>Kubens sidlängd är \\(a=V^{1/3}\\) och sidans area \\(A=V^{2/3}\\approx0{,}1558\\) m². Det nya trycket är p₂ = 101,3·438,15/288,15 ≈ 154,04 kPa. Nettokraften blir (p₂−p₀)A ≈ 52,74·10³·0,1558 ≈ 8,22 kN utåt. Svar: 8,22 kN.</p>",
     "familj": "Allmänna gaslagen",
     "formaga": [
@@ -121846,7 +121846,7 @@ window.BANK = [
     "niva": "C",
     "typ": "kylning och tryckskillnad",
     "poang": "(0/2/0)",
-    "t": "<p>En syltburk stängs vid 80,0 °C. Luftfickan under locket har då det absoluta trycket 101,3 kPa. Burken kyls till 20,0 °C utan att luftfickans volym ändras. Utanför burken är trycket fortfarande 101,3 kPa. Locket har diametern 12,0 cm.</p><span class=\"fig\"><svg width=\"620\" height=\"350\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 350\" role=\"img\" aria-label=\"Syltburk med luftficka under ett lock med diametern 12 centimeter\"><rect width=\"620\" height=\"350\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M210 110h200l-18 172H228z\" fill=\"#F3D9C4\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"195\" y=\"92\" width=\"230\" height=\"23\" rx=\"5\" fill=\"#C9CED4\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"235\" y=\"148\" width=\"150\" height=\"110\" rx=\"8\" fill=\"#B83A3A\" opacity=\"0.68\"/><text x=\"310\" y=\"207\" text-anchor=\"middle\" fill=\"white\">sylt</text><text x=\"310\" y=\"139\" text-anchor=\"middle\">instängd luft</text><path d=\"M310 62V92\" stroke=\"#C65D36\" stroke-width=\"4\"/><path d=\"M310 92l-8-14h16z\" fill=\"#C65D36\"/><path d=\"M310 145V116\" stroke=\"#2E7D5B\" stroke-width=\"4\"/><path d=\"M310 116l-8 14h16z\" fill=\"#2E7D5B\"/><line x1=\"195\" y1=\"307\" x2=\"425\" y2=\"307\" stroke=\"#25313C\"/><line x1=\"195\" y1=\"299\" x2=\"195\" y2=\"315\" stroke=\"#25313C\"/><line x1=\"425\" y1=\"299\" x2=\"425\" y2=\"315\" stroke=\"#25313C\"/><text x=\"310\" y=\"329\" text-anchor=\"middle\">lockets diameter 12 cm</text></g></svg></span><p>Bestäm den minsta uppåtriktade kraft som behövs för att övervinna tryckskillnaden. Svara i N. Svara med ett heltal.</p>",
+    "t": "<p>En syltburk stängs vid 80,0 °C. Luftfickan under locket har då det absoluta trycket 101,3 kPa. Burken kyls till 20,0 °C utan att luftfickans volym ändras. Utanför burken är trycket fortfarande 101,3 kPa. Locket har diametern 12,0 cm.</p><span class=\"fig\"><svg width=\"620\" height=\"350\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 350\" role=\"img\" aria-label=\"Syltburk med luftficka under ett lock med diametern 12 centimeter\"><rect width=\"620\" height=\"350\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M210 110h200l-18 172H228z\" fill=\"#F3D9C4\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"195\" y=\"92\" width=\"230\" height=\"23\" rx=\"5\" fill=\"#C9CED4\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"235\" y=\"148\" width=\"150\" height=\"110\" rx=\"8\" fill=\"#B83A3A\" opacity=\"0.68\"/><text x=\"310\" y=\"207\" text-anchor=\"middle\" fill=\"white\">sylt</text><text x=\"335\" y=\"139\" text-anchor=\"middle\" font-size=\"15\">instängd luft</text><path d=\"M255 62V92\" stroke=\"#C65D36\" stroke-width=\"4\"/><path d=\"M255 92l-8-14h16z\" fill=\"#C65D36\"/><path d=\"M255 145V116\" stroke=\"#2E7D5B\" stroke-width=\"4\"/><path d=\"M255 116l-8 14h16z\" fill=\"#2E7D5B\"/><line x1=\"195\" y1=\"307\" x2=\"425\" y2=\"307\" stroke=\"#25313C\"/><line x1=\"195\" y1=\"299\" x2=\"195\" y2=\"315\" stroke=\"#25313C\"/><line x1=\"425\" y1=\"299\" x2=\"425\" y2=\"315\" stroke=\"#25313C\"/><text x=\"310\" y=\"329\" text-anchor=\"middle\">lockets diameter 12 cm</text></g></svg></span><p>Bestäm den minsta uppåtriktade kraft som behövs för att övervinna tryckskillnaden. Svara i N. Svara med ett heltal.</p>",
     "s": "<p>Trycket i burken blir p₂ = 101,3·293,15/353,15 ≈ 84,09 kPa. Tryckskillnaden är cirka 17,21 kPa. Lockets area är π·0,0600² ≈ 0,01131 m², så F = ΔpA ≈ 17 210·0,01131 ≈ 194,6 N. Svar: 195 N.</p>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
@@ -121999,7 +121999,7 @@ window.BANK = [
     "typ": "väderballong och modellbegränsning",
     "poang": "(1/2/0)",
     "t": "<p>En väderballong har volymen 5,00 m³ vid marken, där trycket är 100 kPa och temperaturen 27,0 °C. På 40 km höjd är lufttrycket 0,330 kPa och temperaturen −13,0 °C. Anta först att ballongen är helt flexibel, sluten och följer den kombinerade gaslagen.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den volym som modellen ger på 40 km höjd.</li><li>Bedöm om resultatet är rimligt för en verklig ballong och ange minst en begränsning i modellen.</li></ol>",
-    "s": "<p>a) V₂ = 5,00·(100/0,330)·(260,15/300,15) ≈ 1312 m³.</p><p>b) Volymen blir över 260 gånger startvolymen. En verklig ballong har begränsad höljesstorlek och hållfasthet och skulle normalt spricka eller börja läcka långt innan den volymen nås. Det inre trycket kan dessutom avvika något från omgivningstrycket på grund av höljets spänning.</p>",
+    "s": "<p>a) V₂ = 5,00·(100/0,330)·(260,15/300,15) ≈ 1313 m³.</p><p>b) Volymen blir över 260 gånger startvolymen. En verklig ballong har begränsad höljesstorlek och hållfasthet och skulle normalt spricka eller börja läcka långt innan den volymen nås. Det inre trycket kan dessutom avvika något från omgivningstrycket på grund av höljets spänning.</p>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
@@ -122030,7 +122030,7 @@ window.BANK = [
     "typ": "kombinerade gaslagen",
     "poang": "(2/0/0)",
     "t": "<p>En instängd gas har volymen 61,5 liter, temperaturen 18,0 °C och det absoluta trycket 2,45 atm. Gasen komprimeras till 38,1 liter och värms till 56,0 °C.</p><p>Bestäm gasens nya tryck. Svara i atm. Avrunda till 2 decimaler.</p>",
-    "s": "<p>p₂ = 2,45·(61,5/38,1)·(329,15/291,15) ≈ 4,468 atm. Svar: 4,47 atm.</p>",
+    "s": "<p>p₂ = 2,45·(61,5/38,1)·(329,15/291,15) ≈ 4,471 atm. Svar: 4,47 atm.</p>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
@@ -122385,7 +122385,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tolka p–v-diagram",
     "poang": "(0/2/0)",
-    "t": "<p>En instängd gas har temperaturen 50,0 °C i startpunkten. Diagrammet visar en förändring vid konstant tryck där volymen minskar från 3Vₛ till Vₛ.</p><span class=\"fig\"><svg viewBox=\"0 0 430 280\" width=\"430\" height=\"280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"p-V-diagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"232\" x2=\"406\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"58\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"160.4\" y1=\"232\" x2=\"160.4\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"160.4\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">Vₛ</text><line x1=\"262.7\" y1=\"232\" x2=\"262.7\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"262.7\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">2Vₛ</text><line x1=\"365.1\" y1=\"232\" x2=\"365.1\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"365.1\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">3Vₛ</text><line x1=\"52\" y1=\"92.0\" x2=\"58\" y2=\"92.0\" stroke=\"#2B2527\"/><text x=\"48\" y=\"96.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">200</text><text x=\"410\" y=\"272\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">V</text><text x=\"15\" y=\"16\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">p / kPa</text><line x1=\"365.1\" y1=\"92.0\" x2=\"169.4\" y2=\"92.0\" stroke=\"#2A5D9E\" stroke-width=\"2.6\"/><polygon points=\"160.4,92.0 170.4,88.0 170.4,96.0\" fill=\"#2A5D9E\"/><circle cx=\"365.1\" cy=\"92.0\" r=\"4\" fill=\"#B43123\"/><text x=\"373.1\" y=\"84.0\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">start</text><circle cx=\"160.4\" cy=\"92.0\" r=\"4\" fill=\"#B43123\"/><text x=\"168.4\" y=\"84.0\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">slut</text></svg></span><p>Bestäm sluttemperaturen. Svara i K. Svara med ett heltal.</p>",
+    "t": "<p>En instängd gas har temperaturen 50,0 °C i startpunkten. Diagrammet visar en förändring vid konstant tryck där volymen minskar från 3V₀ till V₀.</p><span class=\"fig\"><svg viewBox=\"0 0 430 280\" width=\"430\" height=\"280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"p-V-diagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"232\" x2=\"406\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"58\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"160.4\" y1=\"232\" x2=\"160.4\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"160.4\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">V₀</text><line x1=\"262.7\" y1=\"232\" x2=\"262.7\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"262.7\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">2V₀</text><line x1=\"365.1\" y1=\"232\" x2=\"365.1\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"365.1\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">3V₀</text><line x1=\"52\" y1=\"92.0\" x2=\"58\" y2=\"92.0\" stroke=\"#2B2527\"/><text x=\"48\" y=\"96.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">200</text><text x=\"410\" y=\"272\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">V</text><text x=\"15\" y=\"16\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">p / kPa</text><line x1=\"365.1\" y1=\"92.0\" x2=\"169.4\" y2=\"92.0\" stroke=\"#2A5D9E\" stroke-width=\"2.6\"/><polygon points=\"160.4,92.0 170.4,88.0 170.4,96.0\" fill=\"#2A5D9E\"/><circle cx=\"365.1\" cy=\"92.0\" r=\"4\" fill=\"#B43123\"/><text x=\"373.1\" y=\"84.0\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">start</text><circle cx=\"160.4\" cy=\"92.0\" r=\"4\" fill=\"#B43123\"/><text x=\"168.4\" y=\"84.0\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">slut</text></svg></span><p>Bestäm sluttemperaturen. Svara i K. Svara med ett heltal.</p>",
     "s": "<p>Vid konstant tryck gäller V/T = konstant. När volymen blir en tredjedel blir även den absoluta temperaturen en tredjedel: T₂ = 323,15/3 ≈ 107,72 K. Svar: 108 K.</p>",
     "familj": "Allmänna gaslagen",
     "formaga": [
@@ -122629,9 +122629,9 @@ window.BANK = [
     "niva": "C",
     "typ": "gasbubbla och sfärisk geometri",
     "poang": "(0/2/0)",
-    "t": "<p>En sfärisk luftbubbla har diametern 1,00 mm på 80,0 m djup i en sjö. Där är temperaturen 4,0 °C. Vid ytan är temperaturen 18,0 °C och lufttrycket 101,3 kPa. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Gasbubbla eller luftvolym på djup och vid vattenytan\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><rect x=\"70\" y=\"62\" width=\"480\" height=\"225\" fill=\"#CBE7F5\"/><line x1=\"70\" y1=\"62\" x2=\"550\" y2=\"62\" stroke=\"#2878A8\" stroke-width=\"4\"/><text x=\"82\" y=\"49\" fill=\"#256A8A\">vattenyta</text><circle cx=\"415\" cy=\"102\" r=\"28\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"244\" r=\"15\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><text x=\"415\" y=\"108\" text-anchor=\"middle\">d = ?</text><text x=\"200\" y=\"250\" text-anchor=\"middle\" font-size=\"13\">1,00 mm</text><line x1=\"135\" y1=\"62\" x2=\"135\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"62\" x2=\"144\" y2=\"62\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"244\" x2=\"144\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><text x=\"122\" y=\"159\" text-anchor=\"end\">80,0 m</text></g></svg></span><p>Bestäm bubblans diameter vid ytan. Svara i mm. Avrunda till 2 decimaler.</p>",
-    "s": "<p>Gaslagen ger volymfaktorn (887,0/101,3)·(291,15/277,15) ≈ 9,197. För en sfär är V proportionell mot d³, så diameterfaktorn är \\(9{,}197^{1/3}\\approx2{,}095\\). Slutdiametern blir 2,10 mm. Svar: 2,10 mm.</p>",
-    "familj": "Boyles lag",
+    "t": "<p>En sfärisk luftbubbla har diametern 1,00 mm på 80,0 m djup i en sjö. Där är temperaturen 4,0 °C. Vid ytan är temperaturen 18,0 °C och lufttrycket 101,3 kPa. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Gasbubbla eller luftvolym på djup och vid vattenytan\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><rect x=\"70\" y=\"62\" width=\"480\" height=\"225\" fill=\"#CBE7F5\"/><line x1=\"70\" y1=\"62\" x2=\"550\" y2=\"62\" stroke=\"#2878A8\" stroke-width=\"4\"/><text x=\"82\" y=\"49\" fill=\"#256A8A\">vattenyta</text><circle cx=\"415\" cy=\"102\" r=\"28\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"244\" r=\"15\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><text x=\"415\" y=\"108\" text-anchor=\"middle\">d = ?</text><text x=\"222\" y=\"249\" text-anchor=\"start\" font-size=\"14\">1,00 mm</text><line x1=\"135\" y1=\"62\" x2=\"135\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"62\" x2=\"144\" y2=\"62\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"244\" x2=\"144\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><text x=\"122\" y=\"159\" text-anchor=\"end\">80,0 m</text></g></svg></span><p>Bestäm bubblans diameter vid ytan. Svara i mm. Avrunda till 2 decimaler.</p>",
+    "s": "<p>Gaslagen ger volymfaktorn (886,9/101,3)·(291,15/277,15) ≈ 9,197. För en sfär är V proportionell mot d³, så diameterfaktorn är \\(9{,}197^{1/3}\\approx2{,}095\\). Slutdiametern blir 2,10 mm. Svar: 2,10 mm.</p>",
+    "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
       "problemlösning",
@@ -122661,9 +122661,9 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma djup med gaslagen",
     "poang": "(0/2/0)",
-    "t": "<p>En luftbubbla har volymen 1,00 cm³ och temperaturen 5,50 °C när den bildas på botten av en sjö. Vid ytan är volymen 5,00 cm³, temperaturen 18,5 °C och lufttrycket 101 kPa. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Gasbubbla eller luftvolym på djup och vid vattenytan\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><rect x=\"70\" y=\"62\" width=\"480\" height=\"225\" fill=\"#CBE7F5\"/><line x1=\"70\" y1=\"62\" x2=\"550\" y2=\"62\" stroke=\"#2878A8\" stroke-width=\"4\"/><text x=\"82\" y=\"49\" fill=\"#256A8A\">vattenyta</text><circle cx=\"415\" cy=\"102\" r=\"28\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"244\" r=\"15\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><text x=\"415\" y=\"108\" text-anchor=\"middle\">5,00 cm³</text><text x=\"200\" y=\"250\" text-anchor=\"middle\" font-size=\"13\">1,00 cm³</text><line x1=\"135\" y1=\"62\" x2=\"135\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"62\" x2=\"144\" y2=\"62\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"244\" x2=\"144\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><text x=\"122\" y=\"159\" text-anchor=\"end\">h = ?</text></g></svg></span><p>Bestäm sjöns djup. Svara i m. Avrunda till 1 decimal.</p>",
+    "t": "<p>En luftbubbla har volymen 1,00 cm³ och temperaturen 5,50 °C när den bildas på botten av en sjö. Vid ytan är volymen 5,00 cm³, temperaturen 18,5 °C och lufttrycket 101 kPa. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Gasbubbla eller luftvolym på djup och vid vattenytan\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><rect x=\"70\" y=\"62\" width=\"480\" height=\"225\" fill=\"#CBE7F5\"/><line x1=\"70\" y1=\"62\" x2=\"550\" y2=\"62\" stroke=\"#2878A8\" stroke-width=\"4\"/><text x=\"82\" y=\"49\" fill=\"#256A8A\">vattenyta</text><circle cx=\"415\" cy=\"102\" r=\"28\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"244\" r=\"15\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><text x=\"451\" y=\"108\" text-anchor=\"start\">5,00 cm³</text><text x=\"222\" y=\"249\" text-anchor=\"start\" font-size=\"14\">1,00 cm³</text><line x1=\"135\" y1=\"62\" x2=\"135\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"62\" x2=\"144\" y2=\"62\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"244\" x2=\"144\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><text x=\"122\" y=\"159\" text-anchor=\"end\">h = ?</text></g></svg></span><p>Bestäm sjöns djup. Svara i m. Avrunda till 1 decimal.</p>",
     "s": "<p>Gaslagen ger bottentrycket p₁ = 101·(5,00/1,00)·(278,65/291,65) ≈ 482,49 kPa. Vätsketrycket är då 482,49−101 = 381,49 kPa. Djupet blir h = 381 490/(1000·9,82) ≈ 38,85 m. Svar: 38,8 m.</p>",
-    "familj": "Boyles lag",
+    "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
       "problemlösning",
@@ -123643,11 +123643,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.076,
-      131.3
+      131.35
     ],
     "tolerans": [
       0,
-      0.1
+      0.16
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -123880,7 +123880,7 @@ window.BANK = [
     "niva": "E",
     "typ": "ideala gasens densitet",
     "poang": "(2/0/0)",
-    "t": "<p>Luftens molmassa kan sättas till 29,0 g/mol. Bestäm densiteten hos ideal luft vid det absoluta trycket 101,3 kPa och temperaturen −10,0 °C.</p><p>Bestäm luftens densitet. Svara i kg/m³. Avrunda till 2 decimaler.</p>",
+    "t": "<p>Luftens molmassa kan sättas till 29,0 g/mol. Luften har det absoluta trycket 101,3 kPa och temperaturen −10,0 °C.</p><p>Bestäm luftens densitet. Svara i kg/m³. Avrunda till 2 decimaler.</p>",
     "s": "<p>Ur pV = nRT och ρ = m/V fås ρ = pM/(RT). ρ = 101 300·0,0290/(8,31·263,15) ≈ 1,3434 kg/m³. Svar: 1,34 kg/m³.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
@@ -123971,7 +123971,7 @@ window.BANK = [
     "niva": "E",
     "typ": "antal gasmolekyler",
     "poang": "(2/0/0)",
-    "t": "<p>Ett rum är 6,0 m långt, 3,0 m brett och 2,5 m högt. Luften har det absoluta trycket 101,3 kPa och temperaturen 22,0 °C.</p><p>Antalet luftmolekyler kan skrivas N = a·10²⁷. Bestäm koefficienten a Avrunda till 2 decimaler.</p>",
+    "t": "<p>Ett rum är 6,0 m långt, 3,0 m brett och 2,5 m högt. Luften har det absoluta trycket 101,3 kPa och temperaturen 22,0 °C.</p><p>Antalet luftmolekyler kan skrivas N = a·10²⁷. Bestäm koefficienten a. Avrunda till 2 decimaler.</p>",
     "s": "<p>Rummets volym är 45,0 m³. n = pV/(RT) ≈ 101 300·45,0/(8,31·295,15) ≈ 1858 mol. N = nN<sub>A</sub> ≈ 1,119·10²⁷. Alltså är a ≈ 1,12. Svar: 1,12.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
@@ -124001,7 +124001,7 @@ window.BANK = [
     "niva": "E",
     "typ": "partikeltäthet och gastryck",
     "poang": "(2/0/0)",
-    "t": "<p>I ett mycket glest område i rymden är temperaturen 3,0 K och partikeltätheten ungefär en atom per cm³. För en ideal gas gäller p = (N/V)kT, där k = 1,380649·10⁻²³ J/K.</p><p>Trycket kan skrivas p = a·10⁻¹⁷ Pa. Bestäm koefficienten a Avrunda till 2 decimaler.</p>",
+    "t": "<p>I ett mycket glest område i rymden är temperaturen 3,0 K och partikeltätheten ungefär en atom per cm³. För en ideal gas gäller p = (N/V)kT, där k = 1,380649·10⁻²³ J/K.</p><p>Trycket kan skrivas p = a·10⁻¹⁷ Pa. Bestäm koefficienten a. Avrunda till 2 decimaler.</p>",
     "s": "<p>En atom per cm³ motsvarar 10⁶ atomer per m³. p = (N/V)kT = 10⁶·1,380649·10⁻²³·3,0 ≈ 4,142·10⁻¹⁷ Pa. Alltså är a ≈ 4,14. Svar: 4,14.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
@@ -124032,7 +124032,7 @@ window.BANK = [
     "niva": "E",
     "typ": "utsläppt gasmängd",
     "poang": "(2/0/0)",
-    "t": "<p>En stel tank med volymen 1,00 m³ innehåller luft vid temperaturen 273 K. Det absoluta trycket sänks från 20,0 atm till 15,0 atm genom att luft släpps ut. Använd 1 atm = 101 325 Pa, R = 8,31 J/(mol·K) och N<sub>A</sub> = 6,02·10²³ mol⁻¹.</p><p>Antalet utsläppta molekyler kan skrivas ΔN = a·10²⁶. Bestäm koefficienten a Avrunda till 2 decimaler.</p>",
+    "t": "<p>En stel tank med volymen 1,00 m³ innehåller luft vid temperaturen 273 K. Det absoluta trycket sänks från 20,0 atm till 15,0 atm genom att luft släpps ut. Använd 1 atm = 101 325 Pa, R = 8,31 J/(mol·K) och N<sub>A</sub> = 6,02·10²³ mol⁻¹.</p><p>Antalet utsläppta molekyler kan skrivas ΔN = a·10²⁶. Bestäm koefficienten a. Avrunda till 2 decimaler.</p>",
     "s": "<p>Vid konstant V och T är skillnaden i substansmängd Δn = ΔpV/(RT). Δn = 5,00·101 325·1,00/(8,31·273) ≈ 223,3 mol. ΔN = ΔnN<sub>A</sub> ≈ 1,344·10²⁶. Alltså är a ≈ 1,34. Svar: 1,34.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
@@ -147738,7 +147738,7 @@ window.BANK = [
     "traningsniva": 1,
     "familj": "Boyles lag",
     "typ": "boyles lag",
-    "ledtrad": "<p>Sätt in de tre givna värdena i formeln.</p>",
+    "ledtrad": "<p>Vid konstant temperatur gäller p₁V₁ = p₂V₂. Lös ut p₂.</p>",
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 1,
@@ -147765,7 +147765,7 @@ window.BANK = [
     "traningsniva": 1,
     "familj": "Boyles lag",
     "typ": "boyles lag",
-    "ledtrad": "<p>Sätt in värdena i den angivna formeln.</p>",
+    "ledtrad": "<p>Vid konstant temperatur gäller p₁V₁ = p₂V₂. Lös ut V₂.</p>",
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 1,
@@ -153388,7 +153388,7 @@ window.BANK = [
     "niva": "E",
     "typ": "celsius till kelvin",
     "poang": "(1/0/0)",
-    "t": "<p>En gas har temperaturen 27 °C.</p><p>Bestäm temperaturen i kelvin.</p>",
+    "t": "<p>En gas har temperaturen 27 °C.</p><p>Bestäm temperaturen. Svara i K.</p>",
     "s": "<p>Kelvintemperaturen fås genom att addera 273,15.</p><p>\\(T=27+273{,}15=300{,}15\\ \\mathrm K\\).</p><p><strong>Svar:</strong> 300,15 K.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
@@ -153418,7 +153418,7 @@ window.BANK = [
     "niva": "E",
     "typ": "boyles lag enkel förändring",
     "poang": "(1/0/0)",
-    "t": "<p>En instängd gas har volymen 2,0 liter vid trycket 100 kPa. Temperaturen är konstant. Trycket ökas till 200 kPa.</p><p>Bestäm den nya volymen.</p>",
+    "t": "<p>En instängd gas har volymen 2,0 liter vid trycket 100 kPa. Temperaturen är konstant. Trycket ökas till 200 kPa.</p><p>Bestäm den nya volymen. Svara i liter.</p>",
     "s": "<p>När temperaturen är konstant är tryck och volym omvänt proportionella. När trycket fördubblas halveras volymen.</p><p><strong>Svar:</strong> 1,0 liter.</p>",
     "familj": "Boyles lag",
     "formaga": [
@@ -153446,7 +153446,7 @@ window.BANK = [
     "niva": "E",
     "typ": "volym och temperatur enkel förändring",
     "poang": "(1/0/0)",
-    "t": "<p>En gas har volymen 1,5 liter vid 300 K. Trycket är konstant. Temperaturen höjs till 600 K.</p><p>Bestäm den nya volymen.</p>",
+    "t": "<p>En gas har volymen 1,5 liter vid 300 K. Trycket är konstant. Temperaturen höjs till 600 K.</p><p>Bestäm den nya volymen. Svara i liter.</p>",
     "s": "<p>Vid konstant tryck är volymen proportionell mot den absoluta temperaturen. Temperaturen fördubblas, så volymen fördubblas.</p><p><strong>Svar:</strong> 3,0 liter.</p>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
@@ -153477,7 +153477,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck och temperatur enkel förändring",
     "poang": "(1/0/0)",
-    "t": "<p>En gas i en stel behållare har trycket 100 kPa vid 300 K. Temperaturen höjs till 450 K.</p><p>Bestäm det nya trycket.</p>",
+    "t": "<p>En gas i en stel behållare har trycket 100 kPa vid 300 K. Temperaturen höjs till 450 K.</p><p>Bestäm det nya trycket. Svara i kPa.</p>",
     "s": "<p>I en stel behållare är volymen konstant. Trycket följer den absoluta temperaturen.</p><p>\\(p_2=100\\cdot450/300=150\\ \\mathrm{kPa}\\).</p><p><strong>Svar:</strong> 150 kPa.</p>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
@@ -153507,7 +153507,7 @@ window.BANK = [
     "niva": "E",
     "typ": "absoluttryck från övertryck",
     "poang": "(1/0/0)",
-    "t": "<p>Lufttrycket är 101 kPa. En behållare har övertrycket 40 kPa.</p><p>Bestäm absoluttrycket i behållaren.</p>",
+    "t": "<p>Lufttrycket är 101 kPa. En behållare har övertrycket 40 kPa.</p><p>Bestäm absoluttrycket i behållaren. Svara i kPa.</p>",
     "s": "<p>Absoluttrycket är lufttrycket plus övertrycket.</p><p>\\(p=101+40=141\\ \\mathrm{kPa}\\).</p><p><strong>Svar:</strong> 141 kPa.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
@@ -154060,7 +154060,7 @@ window.BANK = [
     "niva": "A",
     "typ": "säkerhetsventil öppnas",
     "poang": "(0/1/1)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En sluten ventil innehåller luft (101,3 kPa, 18 °C). Den runda ventilen (diameter 1,50 cm) öppnar när nettokraften från gasen överstiger 10,0 N. Trycket utanför är 101,3 kPa. Vid vilken temperatur (°C) öppnar den? Volymen är konstant.</p>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En sluten behållare innehåller luft (101,3 kPa, 18 °C). Behållarens runda säkerhetsventil (diameter 1,50 cm) öppnar när nettokraften från gasen överstiger 10,0 N. Trycket utanför är 101,3 kPa. Vid vilken temperatur (°C) öppnar den? Volymen är konstant.</p>",
     "s": "<p>\\(\\Delta p=\\dfrac{10{,}0}{\\pi\\cdot0{,}0075^2}=56{,}6\\) kPa. \\(T=291\\cdot\\dfrac{157{,}9}{101{,}3}\\) K.</p><p><strong>Svar:</strong> \\(181\\) °C</p>",
     "id": "6.525",
     "miniräknare": true,

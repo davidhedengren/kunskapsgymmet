@@ -79564,8 +79564,8 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Förenkla</p><p>\\[e^{i\\pi/4}e^{-i\\pi/6}\\]</p><p>och skriv svaret både i exponentiell form och på formen \\(a+bi\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>Vid multiplikation adderas exponenterna:</p><p>\\[e^{i\\pi/4}e^{-i\\pi/6}=e^{i(\\pi/4-\\pi/6)}=\\boxed{e^{i\\pi/12}}.\\]</p><p>Eulers formel ger sedan</p><p>\\[e^{i\\pi/12}=\\cos15^\\circ+i\\sin15^\\circ.\\]</p><p>Med exakta värden:</p><p>\\[\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}+i\\frac{\\sqrt6-\\sqrt2}{4}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "t": "<p>Förenkla</p><p>\\[e^{i\\pi/2}e^{-i\\pi/6}\\]</p><p>och skriv svaret både i exponentiell form och på formen \\(a+bi\\) med exakta värden.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Vid multiplikation av potenser med samma bas adderas exponenterna. Eulers formel \\(e^{iv}=\\cos v+i\\sin v\\) ger sedan formen \\(a+bi\\).</p><div class=\"facit-arbete\"><p>Vid multiplikation adderas exponenterna:</p><p>\\[e^{i\\pi/2}e^{-i\\pi/6}=e^{i(\\pi/2-\\pi/6)}=\\boxed{e^{i\\pi/3}}.\\]</p><p>Eulers formel ger sedan</p><p>\\[e^{i\\pi/3}=\\cos\\frac{\\pi}{3}+i\\sin\\frac{\\pi}{3}=\\boxed{\\frac12+\\frac{\\sqrt3}{2}i}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Absolutbeloppet ska vara 1, eftersom båda faktorerna har absolutbeloppet 1: \\(\\left(\\tfrac12\\right)^2+\\left(\\tfrac{\\sqrt3}{2}\\right)^2=1\\). Argumentet \\(\\pi/3=60^\\circ\\) ger en punkt i första kvadranten.</p></div>",
     "familj": "Eulers formel",
     "formaga": [
       "procedur",
@@ -79576,7 +79576,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Vid multiplikation av potenser med samma bas adderas exponenterna. Använd sedan Eulers formel och de exakta värdena för cosinus och sinus av vinkeln du får.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [

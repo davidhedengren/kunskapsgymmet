@@ -63,7 +63,7 @@ window.OMRMA2 = {
     "likformighet": "Likformighet",
     "topptriangel_transversal": "Topptriangelsatsen och transversalsatsen",
     "bevis_likformighet": "Bevis med likformighet",
-    "kordasatsen_biskarningssatsen": "Kordasatsen",
+    "kordasatsen_biskarningssatsen": "Kordasatsen och bisektrissatsen",
     "avstandsformeln_mittpunktsformeln": "Avståndsformeln och mittpunktsformeln",
     "koordinatgeometri_problemlosning": "Koordinatgeometri – problemlösning"
   },

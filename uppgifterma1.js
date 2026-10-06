@@ -79069,7 +79069,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En ramp stiger 3 m på 4 m horisontellt. Bestäm vinkeln \\(v\\) till en decimal.</p>",
+    "t": "<p>En ramp stiger 3 m på 4 m horisontellt.</p><span class=\"fig smal\"><svg width=\"400\" height=\"210\" viewBox=\"0 0 400 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ramp som stiger 3 m på 4 m horisontellt, vinkeln v vid marken\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"30\" y1=\"170\" x2=\"370\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"60,170 300,170 300,50\" fill=\"#F7F5F3\" stroke=\"#315F91\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"287,170 287,157 300,157\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.5\"/><path d=\"M 105,170 A 45 45 0 0 0 100.2,149.9\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"112\" y=\"162\" font-family=\"Georgia,serif\" font-style=\"italic\" font-size=\"18\" fill=\"#B43123\">v</text><text x=\"180\" y=\"192\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#2B2527\" text-anchor=\"middle\">4 m</text><text x=\"312\" y=\"116\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#2B2527\">3 m</text><text x=\"160\" y=\"96\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#50494B\" text-anchor=\"middle\">ramp</text></svg></span><p>Bestäm vinkeln \\(v\\) mellan rampen och marken. Svara i grader med en decimal.</p>",
     "s": "<p>Stigningen är motstående katet och 4 m är närliggande, alltså \\(\\tan v=3/4=0{,}75\\).</p><p>\\(v=\\tan^{-1}(0,75)\\approx36{,}9^\\circ\\).</p><p><strong>Svar:</strong> \\(36{,}9^\\circ\\).</p>",
     "familj": "Vinkel ur sidor och figurer",
     "geogebra": false,
@@ -80255,15 +80255,15 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En 230 cm hög garderob står vinkelrätt mot golvet med nederkanten mot väggen. Överkanten är 3,2 cm från väggen.</p><span class=\"fig\"><svg width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"vägg och golv med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"45\" y1=\"205\" x2=\"350\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"150\" y1=\"205\" x2=\"150\" y2=\"62.4\" stroke=\"#B43123\" stroke-width=\"8\"/><line x1=\"150\" y1=\"205\" x2=\"152.0\" y2=\"62.4\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"150\" y1=\"62.4\" x2=\"152.0\" y2=\"62.4\" stroke=\"#315F91\" stroke-width=\"1.8\"/><text x=\"168\" y=\"56.4\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">3,2 cm</text><text x=\"93.0\" y=\"133.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">230 cm</text><rect x=\"150\" y=\"190\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.2\"/><polyline points=\"181.0,205.0 180.9,202.3 180.5,199.7 180.0,197.0 179.2,194.5 178.1,192.0 176.9,189.6 175.5,187.4 173.9,185.2 172.1,183.2 170.1,181.4 168.0,179.8 165.7,178.3 163.4,177.0 160.9,176.0 158.4,175.2 155.8,174.5 153.1,174.2 150.4,174.0\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"184.9\" y=\"174.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#5C575E\">v</text></svg></span><p>Bestäm vinkeln mellan vägg och golv och avvikelsen från 90°.</p>",
-    "s": "<p>Garderoben står vinkelrätt mot golvet. Avvikelsen \\(\\delta\\) från en rät väggvinkel uppfyller \\(\\sin\\delta=3{,}2/230\\).</p><p>\\(\\delta\\approx0{,}80^\\circ\\), så vinkeln mellan vägg och golv är \\(90^\\circ-0{,}80^\\circ=89{,}20^\\circ\\).</p>",
+    "t": "<p>En garderob som är 230 cm hög står lodrätt på golvet. Garderobens bakre nederkant står mot väggen, men väggen lutar bakåt. Därför är det en springa på 3,2 cm mellan garderobens bakre överkant och väggen.</p><span class=\"fig smal\"><svg width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lodrät garderob mot en vägg som lutar bakåt, springa 3,2 cm upptill, vinkeln v mellan vägg och golv\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"30\" y1=\"210\" x2=\"370\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"150\" y1=\"210\" x2=\"115\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"70\" y=\"120\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#50494B\">vägg</text><rect x=\"150\" y=\"55\" width=\"95\" height=\"155\" fill=\"#F3E3DF\" stroke=\"#B43123\" stroke-width=\"2.5\"/><text x=\"197\" y=\"140\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#7A2318\" text-anchor=\"middle\">garderob</text><line x1=\"116.1\" y1=\"55\" x2=\"150\" y2=\"55\" stroke=\"#315F91\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"140\" y=\"38\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" text-anchor=\"middle\">3,2 cm</text><line x1=\"262\" y1=\"55\" x2=\"262\" y2=\"210\" stroke=\"#315F91\" stroke-width=\"1.5\"/><line x1=\"256\" y1=\"55\" x2=\"268\" y2=\"55\" stroke=\"#315F91\" stroke-width=\"1.5\"/><line x1=\"256\" y1=\"210\" x2=\"268\" y2=\"210\" stroke=\"#315F91\" stroke-width=\"1.5\"/><text x=\"272\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\">230 cm</text><path d=\"M 178,210 A 28 28 0 0 0 144.0,182.6\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"170\" y=\"196\" font-family=\"Georgia,serif\" font-style=\"italic\" font-size=\"17\" fill=\"#2B2527\">v</text><text x=\"200\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#50494B\" text-anchor=\"middle\">Figuren är inte skalenlig – väggens lutning är kraftigt överdriven.</text></svg></span><p>a) Hur många grader lutar väggen jämfört med lodlinjen?</p><p>b) Hur stor är vinkeln \\(v\\) mellan väggen och golvet i figuren?</p><p>Svara i grader med en decimal.</p>",
+    "s": "<p>a) Garderobens höjd 230 cm och springan 3,2 cm är kateter i en rätvinklig triangel, där springan står mot väggens lutningsvinkel \\(\\delta\\): \\(\\tan\\delta=\\dfrac{3{,}2}{230}\\), så \\(\\delta\\approx0{,}8^\\circ\\).</p><p>b) Väggen lutar bort från golvet på garderobens sida, så \\(v=90^\\circ+0{,}8^\\circ=90{,}8^\\circ\\).</p><p><strong>Svar:</strong> a) \\(0{,}8^\\circ\\) b) \\(90{,}8^\\circ\\)</p>",
     "familj": "Vinkel ur sidor och figurer",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      89.2,
-      0.8
+      0.8,
+      90.8
     ],
     "tolerans": [
       0.05,
@@ -80273,14 +80273,14 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>De 3,2 cm är en mycket liten sidoförskjutning över höjden 230 cm. Bestäm först den lilla avvikelsevinkeln.</p>",
+    "ledtrad": "<p>Rita den lilla rätvinkliga triangeln med garderobens höjd och springan som kateter.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "vinkel vägg–golv",
-      "avvikelse från 90°"
+      "a) väggens lutning (°)",
+      "b) vinkeln v (°)"
     ],
     "familjTidigare": [
       "Bestämma vinklar med invers trigonometri"
@@ -80944,14 +80944,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En väg lutar 6 %, alltså 6 m i höjd per 100 m horisontellt. Hur många grader är lutningen?</p>",
-    "s": "<p>6 % lutning betyder \\(\\tan v=6/100=0{,}06\\).</p><p>\\(v=\\tan^{-1}(0,06)\\approx3{,}43^\\circ\\).</p><p><strong>Svar:</strong> cirka \\(3{,}43^\\circ\\).</p>",
+    "t": "<p>En väg lutar 6 %, alltså 6 m i höjd per 100 m horisontellt. Hur många grader är lutningen? Svara med en decimal.</p>",
+    "s": "<p>6 % lutning betyder \\(\\tan v=6/100=0{,}06\\).</p><p>\\(v=\\tan^{-1}(0,06)\\approx3{,}43^\\circ\\).</p><p><strong>Svar:</strong> cirka \\(3{,}4^\\circ\\).</p>",
     "familj": "Vinkel ur sidor och figurer",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3.43,
-    "tolerans": 0.02,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -81102,7 +81102,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>I en rätvinklig triangel är hypotenusan 1,4 gånger så lång som en av kateterna. Bestäm triangelns två spetsiga vinklar.</p>",
+    "t": "<p>I en rätvinklig triangel är hypotenusan 1,4 gånger så lång som en av kateterna. Bestäm triangelns två spetsiga vinklar. Ordningen spelar ingen roll.</p>",
     "s": "<p>För vinkeln intill kateten gäller \\(\\cos v=\\frac{1}{1{,}4}\\), alltså \\(v\\approx44{,}4°\\). Den andra spetsiga vinkeln är <strong>45,6°</strong>.</p>",
     "familj": "Vinkel ur sidor och figurer",
     "geogebra": false,
@@ -81121,10 +81121,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarEtiketter": [
-      "Spetsig vinkel 1 (°)",
-      "Spetsig vinkel 2 (°)"
+      "Spetsig vinkel (°)",
+      "Spetsig vinkel (°)"
     ],
-    "svarsstruktur": "ordnad",
+    "svarsstruktur": "mängd",
     "ledtrad": "<p>Välj den katet som jämförelselängd 1. Då är hypotenusan 1,4 och \\(\\cos v=1/1{,}4\\) för vinkeln intill kateten.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
@@ -83442,13 +83442,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Vilka uträkningar ger vinkeln \\(v\\) i figuren? Markera alla som stämmer.</p><span class=\"fig smal\"><svg width=\"430\" height=\"262\" viewBox=\"0 0 430 262\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rätvinklig triangel med utsatta mått\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><polygon points=\"46.0,216.0 272.7,216.0 272.7,46.0\" fill=\"#F7F5F3\" stroke=\"#315F91\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"259.7,216.0 259.7,203.0 272.7,203.0\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"159.3\" y=\"237.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">8,0 cm</text><text x=\"282.7\" y=\"136.0\" font-family=\"sans-serif\" font-size=\"13\">6,0 cm</text><text x=\"135.5\" y=\"114.6\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">10,0 cm</text><path d=\"M 72.0 216.0 A 26 26 0 0 0 66.8 200.4\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"208.0\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\">v</text></svg></span>",
+    "t": "<p>Vilka uträkningar ger vinkeln \\(v\\) i figuren? Markera alla alternativ som stämmer.</p><span class=\"fig smal\"><svg width=\"430\" height=\"262\" viewBox=\"0 0 430 262\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rätvinklig triangel med utsatta mått\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><polygon points=\"46.0,216.0 272.7,216.0 272.7,46.0\" fill=\"#F7F5F3\" stroke=\"#315F91\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"259.7,216.0 259.7,203.0 272.7,203.0\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"159.3\" y=\"237.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">8,0 cm</text><text x=\"282.7\" y=\"136.0\" font-family=\"sans-serif\" font-size=\"13\">6,0 cm</text><text x=\"135.5\" y=\"114.6\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">10,0 cm</text><path d=\"M 72.0 216.0 A 26 26 0 0 0 66.8 200.4\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"208.0\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\">v</text></svg></span>",
     "s": "<p>Sett från \\(v\\) är motstående katet 6,0 cm, närliggande katet 8,0 cm och hypotenusan 10,0 cm.</p><p>\\(\\sin v=6/10\\), \\(\\cos v=8/10\\) och \\(\\tan v=6/8\\). För att få själva vinkeln används arcusfunktionerna.</p><p>Därför ger \\(\\sin^{-1}(6{,}0/10{,}0)\\), \\(\\cos^{-1}(8{,}0/10{,}0)\\) och \\(\\tan^{-1}(6{,}0/8{,}0)\\) vinkeln \\(v\\). \\(\\sin(6{,}0/10{,}0)\\) ger bara ett sinusvärde, \\(\\tan^{-1}(8{,}0/6{,}0)\\) ger den andra spetsiga vinkeln och \\(\\cos^{-1}(6{,}0/8{,}0)\\) jämför fel sidor.</p>",
     "familj": "Vinkel ur sidor och figurer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -83490,7 +83490,6 @@ window.BANKMA1 = [
         "kommentar": "Cosinus ska jämföra närliggande katet med hypotenusan."
       }
     ],
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Bestämma vinklar med invers trigonometri"
     ]
@@ -89302,11 +89301,11 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm den spetsiga vinkeln v om \\(\\cos v=0{,}5\\). Svara i grader med en decimal.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Använd cos⁻¹ på räknaren: \\(v=\\cos^{-1}(0{,}5)\\approx60{,}0^\\circ\\).</p><p><strong>Svar:</strong> <strong>60,0°</strong></p></div></div>",
+    "t": "<p>I en rätvinklig triangel är \\(\\cos v=0{,}5\\). Hur stor är vinkeln \\(v\\)?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(v=\\cos^{-1}(0{,}5)=60^\\circ\\).</p><p><strong>Svar:</strong> <strong>60°</strong></p></div></div>",
     "familj": "Vinkel ur ett trigonometriskt värde",
     "geogebra": false,
-    "miniräknare": true,
+    "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
     "tolerans": 0.06,

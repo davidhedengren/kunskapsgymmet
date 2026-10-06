@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-06-d";
+const BANK_VERSION="2026-10-06-e";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10791,7 +10791,7 @@ async function ritaFellogg(){
       <span class="nr">#${esc(r.uppgift)}</span>
       <span class="txt">${taggar?esc(taggar):"<em>ingen tagg</em>"}${
         komm?` · ${esc(komm)}`:""}${r.spar?` · ${esc(r.spar)}`:""}</span>
-      <span class="antal">${r.antal}×</span>
+      <span class="antal" title="${r.senast?"Senast rapporterad "+esc(kgAdminTid(r.senast)):""}">${r.antal}×${r.senast?`<small style="display:block;font-weight:400;opacity:.7">${esc(kgAdminTid(r.senast))}</small>`:""}</span>
       ${r.atgardad?"":`<button class="knapp" onclick="markeraFelAtgardad('${esc(r.kurs)}','${esc(r.uppgift)}')"
         title="Uppgiften var fel och är rättad. Eleverna som rapporterat får ${FEL_BONUS_XP} XP.">Åtgärdad</button>
       <button class="knapp avfard" onclick="ignoreraFel('${esc(r.kurs)}','${esc(r.uppgift)}')"
@@ -10829,7 +10829,7 @@ async function ignoreraFel(kurs,uppgift){
   }catch(e){ toast(e.message); }
 }
 function felloggText(){
-  const rader=["Felrapporterade uppgifter · Kunskapsgymmet · "+new Date().toLocaleDateString("sv-SE"),""];
+  const rader=["Felrapporterade uppgifter · Kunskapsgymmet · "+kgAdminTid(new Date()),""];
   let kurs=null;
   felloggData.forEach(r=>{
     if(r.kurs!==kurs){
@@ -10841,7 +10841,8 @@ function felloggText(){
     const cit=a=>a.map(p=>felPostText(p,true)).join(" · ");
     rader.push(`  #${r.uppgift}${r.deluppgift?" del "+r.deluppgift:""}`
       +`${r.spar?"  spår "+r.spar:""}  ${r.antal} rapport${r.antal===1?"":"er"}`
-      +`${r.senast?"  senast "+String(r.senast).slice(0,10):""}`
+      +`${r.forst&&r.antal>1&&kgAdminTid(r.forst)!==kgAdminTid(r.senast)?"  först "+kgAdminTid(r.forst):""}`
+      +`${r.senast?"  senast "+kgAdminTid(r.senast):""}`
       +`${taggar?"\n      taggar: "+taggar:""}`
       +`${kd.larare.length?"\n      lärare: "+cit(kd.larare):""}`
       +`${kd.elev.length?"\n      elever: "+cit(kd.elev):""}`);

@@ -7452,15 +7452,15 @@ function skapaUppdrag(){
   else lista.push({typ:"utanhjalp",mal:5,text:"Klara 5 uppgifter utan ledtråd"});
   lista.push({typ:"serie",mal:5,text:"Klara 5 rätt i rad"});
   const mal8=profile.goal||8;
-  lista.push({typ:"dagsmal",mal:mal8,text:`Gör ${mal8} uppgifter i kursen idag`});
+  lista.push({typ:"dagsmal",mal:mal8,text:`Klara ${mal8} uppgifter i kursen idag`});
   lista.forEach(u=>{u.n=0;u.klar=false;});
   return {lista,klar:false};
 }
 /* Antal svar i den öppna kursen idag. Dagsmålsuppdraget räknas per kurs,
    annars blir det klart direkt i nästa kurs. */
-function kursIdag(){
+function kursIdag(baraRatt=false){
   const t=new Date(); t.setHours(0,0,0,0);
-  return (ensureCourseProfile().history||[]).filter(h=>h && h.at>=t.getTime()).length;
+  return (ensureCourseProfile().history||[]).filter(h=>h && h.at>=t.getTime() && (!baraRatt || h.ok)).length;
 }
 function uppdragDag(){
   let u=profile.uppdrag;
@@ -7481,7 +7481,8 @@ function dagensUppdrag(){
     u=dag.kurser[state.course]=skapaUppdrag(); saveProfile();
   }
   u.lista.forEach(x=>{
-    if(x.typ==="dagsmal" && !x.klar){ x.n=Math.min(x.mal,kursIdag()); }
+    /* Dagsmålsuppdraget räknar bara rätta svar, annars ger fel svar uppdrags-XP. */
+    if(x.typ==="dagsmal"){ x.text=`Klara ${x.mal} uppgifter i kursen idag`; if(!x.klar) x.n=Math.min(x.mal,kursIdag(true)); }
     if(x.typ==="laga") x.text=`Klara ${x.mal} uppgifter du haft fel på`;
   });
   return u;
@@ -7498,7 +7499,7 @@ function uppdragSvar(t,correct,lagat){
   u.lista.forEach(x=>{
     if(x.klar) return;
     let traff=false;
-    if(x.typ==="dagsmal") x.n=kursIdag();
+    if(x.typ==="dagsmal") x.n=kursIdag(true);
     else if(x.typ==="serie") x.n=Math.max(x.n,profile.run||0);
     else if(correct){
       if(x.typ==="alla") traff=true;
@@ -11790,8 +11791,10 @@ function giveUp(){
 
 const XP_TRANING={1:6,2:8,3:12,4:18,5:26};
 /* Bonus för ett helt genomfört pass med minst PASS_BONUS_MIN uppgifter.
-   Servern har ett eget tak: kg_profile släpper igenom högst 100 XP per pass
-   och räknar högst ett pass per 4 försök, bokfört i
+   Bonusen ges i proportion till andelen rätt i passet, så att ett pass
+   med bara fel svar inte ger någon XP. Servern har ett eget tak:
+   kg_profile släpper igenom högst 100 XP per pass och räknar högst ett
+   pass per 4 försök, bokfört i
    kg_private.state.pass_bonus_paid. Ändras siffrorna här måste de ändras i
    kg_profile också, annars stämplas eleven för score_delta. */
 const PASS_BONUS_XP=100;
@@ -11904,7 +11907,7 @@ function finishAttempt(resultat){
          : andel>0 ? Math.max(1,Math.round(bas*andel))
          : 0;
 
-  if(state.hintUsed) xp=Math.max(1,Math.round(xp*.5));
+  if(state.hintUsed && xp) xp=Math.max(1,Math.round(xp*.5));
   if(state.noXp) xp=0;
   profile.xp+=xp;
   // Fire-and-forget: global + aggregerad adminstatistik får aldrig blockera ett svar.
@@ -12152,8 +12155,8 @@ function renderSessionDone(record){
     profile.pass=(profile.pass||0)+1;
     state.passBonus=0;
     if(state.sessionDone>=state.sessionTarget && state.sessionDone>=PASS_BONUS_MIN){
-      const bonus=PASS_BONUS_XP;
-      {
+      const bonus=Math.round(PASS_BONUS_XP*Math.min(1,state.sessionCorrect/state.sessionDone));
+      if(bonus){
         xpForeBonus=profile.xp;
         const lvlFore=levelFromXP(profile.xp);
         profile.xp+=bonus; state.sessionXp+=bonus; state.passBonus=bonus;

@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-06-g";
+const BANK_VERSION="2026-10-06-h";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9594,6 +9594,17 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
   if(typeof facit==="string" && /\\[a-zA-Z]/.test(facit)){
     const p=latexToPlain(facit);
     if(p && !/\\[a-zA-Z]/.test(p)) facit=p;
+  }
+  /* Tolerans 0 och "Avrunda vid behov till två decimaler": facit är avrundat, så ett svar som
+     avrundas till facit godtas, t.ex. 0,3306 eller 0,331 mot 0,33. Tidigare krävdes exakt 0,33. */
+  if(tol===0 && (typeof facit==="number" || numerisktSvar(facit))){
+    const ORD={en:1,ett:1,"två":2,tre:3,fyra:4};
+    let n=-1;
+    for(const m of String(t?.t||"").matchAll(/avrunda[^.<]*?till\s+(\d+|en|ett|två|tre|fyra)\s+decimal/gi)){
+      const v=/^\d+$/.test(m[1]) ? +m[1] : ORD[m[1].toLowerCase()];
+      if(v>n) n=v;
+    }
+    if(n>=0) tol=0.5*Math.pow(10,-n);
   }
   /* Facit som kedja av likvärdiga former: "f(x)=(x+2)(x-4)=x^2-2x-8", "(6)/(4)=(3)/(2)".
      Svaret godkänns om det stämmer med någon av formerna, men bara när formerna verkligen är

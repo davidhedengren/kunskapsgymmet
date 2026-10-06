@@ -55803,7 +55803,7 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>En hisskorg på 800 kg med last på 400 kg är förbunden med en motvikt på 700 kg via en masslös lina över ett motordrivet hjul. Linan glider inte mot hjulet. Hiss och motvikt rör sig med samma fart åt motsatta håll. Bortse från förluster och räkna på en tid när farten är konstant.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm motorns mekaniska effekt när hissen går upp med 2,0 m/s.</li><li>Bestäm motsvarande effekt utan motvikt.</li><li>En elev säger att linan på hissidan bara behöver dra med skillnaden i tyngd mellan hiss och motvikt. Granska påståendet och bestäm linspänningen på vardera sidan.</li></ol>",
+    "t": "<p>En hisskorg på 800 kg med last på 400 kg är förbunden med en motvikt på 700 kg via en lina över ett motordrivet hjul. Linan glider inte mot hjulet. Hiss och motvikt rör sig med samma fart åt motsatta håll. Bortse från förluster och räkna på en tid när farten är konstant.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm motorns mekaniska effekt när hissen går upp med 2,0 m/s.</li><li>Bestäm motsvarande effekt utan motvikt.</li><li>En elev säger att linan på hissidan bara behöver dra med skillnaden i tyngd mellan hiss och motvikt. Granska påståendet och bestäm linspänningen på vardera sidan.</li></ol>",
     "s": "<p>a) Hisskorg med last har massan 1200 kg. Motvikten sänks lika snabbt som hissen höjs. P = (1200−700)g · 2,0 = 9820 W = 9,82 kW.</p><p>b) Utan motvikt: P = 1200 · 9,82 · 2,0 = 23 568 W ≈ 23,6 kW.</p><p>c) Påståendet är fel. Konstant fart ger T_hiss = 1200g = 11 784 N och T_motvikt = 700g = 6874 N. Skillnaden 4910 N bestämmer motorns drivmoment via drivhjulets radie; den är inte linspänningen på hissidan.</p>",
     "familj": "Effekt P = W/t",
     "formaga": [
@@ -104649,7 +104649,7 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>En värmare avger konstant värmeeffekt 1,5 kW under 20 minuter.</p><p>Hur mycket energi avges? Svara i MJ. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<p>20 min = 1200 s. E = Pt = 1500 · 1200 = 1 800 000 J = 1,8 MJ. Svar: 1,8 MJ.</p>",
-    "familj": "Verkningsgrad",
+    "familj": "Energi i kWh och vardagen",
     "formaga": [
       "procedur"
     ],
@@ -119400,8 +119400,7 @@ window.BANK = [
     "svarEnhet": "kJ",
     "svarFormat": "numeriskt",
     "familjTidigare": [
-      "Modellera sträcka från area",
-      "Arbete ur kraftdiagram"
+      "Modellera sträcka från area"
     ]
   },
   {
@@ -136193,14 +136192,14 @@ window.BANK = [
     "typ": "effekt med luftmotstånd kv²",
     "poang": "(0/1/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (6,0 ton) har den bromsande kraften \\(kv^2\\). Med effekten \\(P\\) håller den 20 m/s på plan väg och 10 m/s uppför en backe som lutar 4,0°. Bestäm \\(P\\).</p>",
-    "s": "<p>\\(P=k\\cdot20^3\\) och \\(P=(k\\cdot10^2+6\\,000\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot10\\). Ger \\(7\\,000k=10\\cdot6\\,000\\cdot9{,}82\\sin4{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{5}\\) W</p>",
+    "s": "<p>Plan väg: drivkraften är lika med motståndet, så \\(P=k\\cdot20^2\\cdot20=8\\,000k\\).</p><p>Uppför backen: \\(P=(k\\cdot10^2+6\\,000\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot10=1\\,000k+41\\,101\\).</p><p>Samma effekt ger \\(8\\,000k=1\\,000k+41\\,101\\), alltså \\(7\\,000k=41\\,101\\) och \\(k\\approx5{,}87\\) kg/m.</p><p>\\(P=8\\,000\\cdot5{,}87\\approx4{,}7\\cdot10^{4}\\) W</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{4}\\) W \\(=47\\) kW</p>",
     "id": "5.584",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
-    "rättSvar": 469720.1637718701,
-    "tolerans": 7050.0,
+    "rättSvar": 46972.016377187014,
+    "tolerans": 700.0,
     "självrättning": true,
     "formaga": [
       "problemlösning"

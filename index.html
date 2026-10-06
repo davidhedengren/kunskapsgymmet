@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-06-a";
+const BANK_VERSION="2026-10-06-b";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9386,7 +9386,10 @@ function formatRatt(anv,facit,meta){
       const match=raw.match(/^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+))(.*)$/);
       if(!match) return false;
       const unit=String(meta.enhet??"").replace(/\s+/g,"");
-      if(match[2] && (!unit || match[2]!==unit)) return false;
+      /* Utskrivna enhetsord godtas för samma enhet: "9000 sekunder" och "9000 sek" som "9000 s". */
+      const enhetNamn=x=>(x.length>2 && ENHET_ALIAS[x.toLowerCase()]) || x;
+      const svarsEnhet=match[2].replace(/\.$/,"");
+      if(svarsEnhet && (!unit || enhetNamn(svarsEnhet)!==enhetNamn(unit))) return false;
       return rentNumerisktSvar(match[1],f,meta);
     }
     case "heltal": case "numeriskt": {

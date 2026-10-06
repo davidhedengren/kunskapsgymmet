@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-06-e";
+const BANK_VERSION="2026-10-06-f";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9631,6 +9631,20 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
       const fraga=bort(String(t?.t||"").replace(/<[^>]+>/g," "));
       if(fraga.includes(bort(mf[1])) && /bestäm|beräkna|ange|vad är|vilket värde|räkna ut/i.test(String(t?.t||""))
          && delSvarRatt(anv,mf[2].trim(),enhet,tol,t,idx,format)) return true;
+    }
+  }
+  /* Facit som funktionsuttryck "P(t)=120+35t": funktionens namn står ofta inte i frågan.
+     Högerledet räcker, och vänsterledet får vara y, en bokstav eller ett annat funktionsnamn
+     med samma variabel ("y=120+35t", "A(t)=120+35t", "120+35t"). */
+  if(typeof facit==="string"){
+    const ff=facit.replace(/\\[()\[\]]/g,"").trim().match(/^[a-zA-Z]\s*\(\s*([a-z])\s*\)\s*=\s*([^=<>]+)$/);
+    if(ff && ff[2].includes(ff[1])){
+      const a=String(anv).replace(/\\[()\[\]]/g,"").trim();
+      const fa=a.match(/^(?:([a-zA-Z])|[a-zA-Z]\s*\(\s*([a-z])\s*\))\s*=\s*([^=<>]+)$/);
+      let hl=null;
+      if(!a.includes("=")) hl=a;
+      else if(fa && (fa[2] ? fa[2]===ff[1] : fa[1]!==ff[1])) hl=fa[3];
+      if(hl && hl.trim() && delSvarRatt(hl.trim(),ff[2].trim(),enhet,tol,t,idx,format)) return true;
     }
   }
   /* Positionsord: "7 tiondelar", "9 tusendelar", "4 hundratal" när facit är ett tal. */

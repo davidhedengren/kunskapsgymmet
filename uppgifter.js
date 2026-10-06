@@ -57605,7 +57605,7 @@ window.BANK = [
     "niva": "C",
     "typ": "stoppsträcka och kontaktkraft",
     "poang": "(1/2/0)",
-    "t": "<p>I en förenklad landningsmodell behandlas en person på 60 kg som en punktmassa. Masscentrum faller 1,20 m från vila före första kontakten med underlaget. Därefter rör sig masscentrum ytterligare 0,020 m eller 0,40 m nedåt innan det stannar. Under denna inbromsning verkar tyngdkraften och en konstant uppåtriktad kontaktkraft. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den konstanta uppåtriktade kontaktkraften i de två fallen.</li><li>Jämför kontaktkraften med den resulterande bromskraften. Varför ger större stoppsträcka mindre kontaktkraft?</li></ol>",
+    "t": "<p>En person på 60 kg hoppar ned på ett underlag. Masscentrum faller 1,20 m från vila före första kontakten med underlaget. Därefter rör sig masscentrum ytterligare 0,020 m eller 0,40 m nedåt innan det stannar. Under denna inbromsning verkar tyngdkraften och en konstant uppåtriktad kontaktkraft. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den konstanta uppåtriktade kontaktkraften i de två fallen.</li><li>Jämför kontaktkraften med den resulterande bromskraften. Varför ger större stoppsträcka mindre kontaktkraft?</li></ol>",
     "s": "<p>a) Vid första kontakten är rörelseenergin mgh. Under stoppsträckan s blir 0−mgh = mgs−Ns, alltså N = mg(h+s)/s. För s = 0,020 m blir N = 60 · 9,82 · 1,22/0,020 = 35 941,2 N. För s = 0,40 m blir N = 60 · 9,82 · 1,60/0,40 = 2356,8 N.</p><p>b) Resultanten uppåt är N−mg = mgh/s: 35 352 N respektive 1767,6 N. Kontaktkraften är större än resultanten eftersom tyngdkraften verkar nedåt. Samma ursprungliga rörelseenergi bromsas över en längre sträcka i det andra fallet, vilket minskar den kraft som behövs.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -57769,7 +57769,7 @@ window.BANK = [
     "niva": "C",
     "typ": "två rörelsefaser i raketmodell",
     "poang": "(2/1/0)",
-    "t": "<p>En modellraket behandlas i en förenklad modell som en kropp med konstant massa 1,20 kg. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd och massförändring.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den resulterande kraften under motordriften, med uppåt positivt. Svara i N. Avrunda vid behov till 3 decimaler.</li><li>Bestäm farten när motorn stängs av. Svara i m/s. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den största höjden över startpunkten. Svara i m. Avrunda vid behov till 3 decimaler.</li></ol>",
+    "t": "<p>En modellraket har massan 1,20 kg. Räkna med att massan inte ändras. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den resulterande kraften under motordriften, med uppåt positivt. Svara i N. Avrunda vid behov till 3 decimaler.</li><li>Bestäm farten när motorn stängs av. Svara i m/s. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den största höjden över startpunkten. Svara i m. Avrunda vid behov till 3 decimaler.</li></ol>",
     "s": "<p>a) F_res = 18,0−1,20 · 9,82 = 6,216 N. Svar: 6,216 N.</p><p>b) a = 18,0/1,20−9,82 = 5,18 m/s². v = 5,18 · 1,50 = 7,77 m/s. Svar: 7,77 m/s.</p><p>c) Under motordriften blir h₁ = 5,18 · 1,50²/2 = 5,8275 m och v = 7,77 m/s. Därefter stiger raketen h₂ = 7,77²/(2 · 9,82) ≈ 3,074 m. Totalt h ≈ 8,901 m. Svar: 8,901 m.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -57814,12 +57814,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En modellraket behandlas i en förenklad modell som en kropp med konstant massa 1,20 kg. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd och massförändring.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En modellraket har massan 1,20 kg. Räkna med att massan inte ändras. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm den resulterande kraften under motordriften, med uppåt positivt. Svara i N. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En modellraket behandlas i en förenklad modell som en kropp med konstant massa 1,20 kg. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd och massförändring.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den resulterande kraften under motordriften, med uppåt positivt. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+        "t": "<p>En modellraket har massan 1,20 kg. Räkna med att massan inte ändras. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den resulterande kraften under motordriften, med uppåt positivt. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
         "s": "<p>F_res = 18,0−1,20 · 9,82 = 6,216 N. Svar: 6,216 N.</p>",
         "ledtrad": "<p>Även under motordriften verkar tyngdkraften.</p>",
         "niva": "E",
@@ -57833,7 +57833,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm farten när motorn stängs av. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En modellraket behandlas i en förenklad modell som en kropp med konstant massa 1,20 kg. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd och massförändring.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten när motorn stängs av. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>En modellraket har massan 1,20 kg. Räkna med att massan inte ändras. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten när motorn stängs av. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<p>a = 18,0/1,20−9,82 = 5,18 m/s². v = 5,18 · 1,50 = 7,77 m/s. Svar: 7,77 m/s.</p>",
         "ledtrad": "<p>Kraften måste först omvandlas till acceleration.</p>",
         "niva": "E",
@@ -57847,7 +57847,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm den största höjden över startpunkten. Svara i m. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En modellraket behandlas i en förenklad modell som en kropp med konstant massa 1,20 kg. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd och massförändring.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den största höjden över startpunkten. Svara i m. Avrunda vid behov till 3 decimaler.</p>",
+        "t": "<p>En modellraket har massan 1,20 kg. Räkna med att massan inte ändras. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den största höjden över startpunkten. Svara i m. Avrunda vid behov till 3 decimaler.</p>",
         "s": "<p>Under motordriften blir h₁ = 5,18 · 1,50²/2 = 5,8275 m och v = 7,77 m/s. Därefter stiger raketen h₂ = 7,77²/(2 · 9,82) ≈ 3,074 m. Totalt h ≈ 8,901 m. Svar: 8,901 m.</p>",
         "ledtrad": "<p>Dela upp rörelsen vid motorstoppet. Samma acceleration gäller inte hela vägen.</p>",
         "niva": "C",
@@ -58988,7 +58988,7 @@ window.BANK = [
     "niva": "C",
     "typ": "pendelns energi och linkraft",
     "poang": "(1/2/0)",
-    "t": "<p>En pendelkula på 0,50 kg hänger i en 1,60 m lång masslös tråd. Den släpps från vila 0,30 m över sitt lägsta läge. Bortse från friktion och luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Pendel med snörlängd och lodrät höjd över lägsta läget\"><title>Pendel med snörlängd och lodrät höjd över lägsta läget</title><line x1=\"100\" y1=\"30\" x2=\"320\" y2=\"30\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"235\" cy=\"30\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"235\" y1=\"30\" x2=\"132.98\" y2=\"172.19\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"132.98\" cy=\"172.19\" r=\"12\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"235\" y1=\"30\" x2=\"235\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/><circle cx=\"235\" cy=\"205\" r=\"12\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"143\" y=\"93\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">L = 1,6 m</text><path d=\"M235 66 A36 36 0 0 1 212.2 57.8\" fill=\"none\" stroke=\"#788a99\"/><text x=\"217\" y=\"89\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"17\" fill=\"#293747\">α</text><line x1=\"139\" y1=\"172.19\" x2=\"374\" y2=\"172.19\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"248\" y1=\"205\" x2=\"374\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"367\" y1=\"172.19\" x2=\"367\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"362\" y1=\"172.19\" x2=\"372\" y2=\"172.19\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"362\" y1=\"205\" x2=\"372\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\"></text><text x=\"427\" y=\"190\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">h = 0,30 m</text><text x=\"235\" y=\"253\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">lägsta läget</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten och linkraften i det nedersta läget. Använd sambandet S−mg = mv²/L för den cirkulära rörelsen.</li><li>En elev sätter S = mg i nedersta läget. Förklara varför det är fel.</li></ol>",
+    "t": "<p>En pendelkula på 0,50 kg hänger i en 1,60 m lång tråd. Den släpps från vila 0,30 m över sitt lägsta läge. Bortse från friktion och luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Pendel med snörlängd och lodrät höjd över lägsta läget\"><title>Pendel med snörlängd och lodrät höjd över lägsta läget</title><line x1=\"100\" y1=\"30\" x2=\"320\" y2=\"30\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"235\" cy=\"30\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"235\" y1=\"30\" x2=\"132.98\" y2=\"172.19\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"132.98\" cy=\"172.19\" r=\"12\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"235\" y1=\"30\" x2=\"235\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/><circle cx=\"235\" cy=\"205\" r=\"12\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"143\" y=\"93\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">L = 1,6 m</text><path d=\"M235 66 A36 36 0 0 1 212.2 57.8\" fill=\"none\" stroke=\"#788a99\"/><text x=\"217\" y=\"89\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"17\" fill=\"#293747\">α</text><line x1=\"139\" y1=\"172.19\" x2=\"374\" y2=\"172.19\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"248\" y1=\"205\" x2=\"374\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"367\" y1=\"172.19\" x2=\"367\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"362\" y1=\"172.19\" x2=\"372\" y2=\"172.19\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"362\" y1=\"205\" x2=\"372\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\"></text><text x=\"427\" y=\"190\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">h = 0,30 m</text><text x=\"235\" y=\"253\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">lägsta läget</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten och linkraften i det nedersta läget. Använd sambandet S−mg = mv²/L för den cirkulära rörelsen.</li><li>En elev sätter S = mg i nedersta läget. Förklara varför det är fel.</li></ol>",
     "s": "<p>a) Energi: v² = 2gh = 2 · 9,82 · 0,30, så v ≈ 2,427 m/s. S = mg+mv²/L = 0,50 · 9,82+0,50 · (2 · 9,82 · 0,30)/1,60 = 6,75125 N.</p><p>b) Pendelns hastighetsriktning ändras och det kräver en resultant mot upphängningspunkten. Därför måste linkraften vara större än tyngdkraften i nedersta läget. S = mg skulle ge noll resultant och kan inte beskriva den cirkulära banan vid denna fart.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -61409,10 +61409,20 @@ window.BANK = [
       "procedur"
     ],
     "familjNyckel": "blandat_energi__hastighetsgraf_och_energi",
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      128000,
+      -16000,
+      56,
+      -128000
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
     "omrTidigare": "blandat",
     "familjNyckelFöreHierarki": "blandat__mekanisk_energi",
     "ledtrad": "<p>Skilj på grafens höjd, lutning och arean under grafen.</p>",
@@ -61420,11 +61430,29 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
     "familjTidigare": [
       "Hastighetsgraf och energi"
-    ]
+    ],
+    "svarEnhet": [
+      "J",
+      "N",
+      "m",
+      "J"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.167",
@@ -61682,7 +61710,7 @@ window.BANK = [
     "niva": "A",
     "typ": "största fart och vändpunkt i fjädermodell",
     "poang": "(1/2/2)",
-    "t": "<p>I en förenklad modell faller en person på 65 kg från vila från en bro. Ett masslöst elastiskt snöre är 18 m långt utan sträckning, ger ingen kraft innan dess och följer sedan F = kx med k = 62 N/m. Bortse från luftmotstånd och energiförluster. Det finns fri fallhöjd för hela rörelsen.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"357\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"13.600 1.600 253.600 238.400\"><rect x=\"25\" y=\"22\" width=\"120\" height=\"14\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"25\" y1=\"22\" x2=\"33\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"35\" y1=\"22\" x2=\"43\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"45\" y1=\"22\" x2=\"53\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"55\" y1=\"22\" x2=\"63\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"65\" y1=\"22\" x2=\"73\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"75\" y1=\"22\" x2=\"83\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"85\" y1=\"22\" x2=\"93\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"95\" y1=\"22\" x2=\"103\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"105\" y1=\"22\" x2=\"113\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"115\" y1=\"22\" x2=\"123\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"125\" y1=\"22\" x2=\"133\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"135\" y1=\"22\" x2=\"143\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"85\" y1=\"36\" x2=\"85\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"178\" x2=\"85\" y2=\"196\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"196\" x2=\"85\" y2=\"211\" stroke=\"#2B2527\" stroke-width=\"3.8\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"205\" x2=\"98\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"85\" cy=\"220\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"40\" y1=\"90\" x2=\"210\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"225\" y1=\"36\" x2=\"225\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"36\" x2=\"230\" y2=\"36\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"90\" x2=\"230\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"234\" y=\"67\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">18 m</text><line x1=\"225\" y1=\"90\" x2=\"225\" y2=\"178\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"178\" x2=\"230\" y2=\"178\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"234\" y=\"138\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">?</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten när snöret börjar sträckas och avståndet under bron vid lägsta punkten.</li><li>Bestäm den största snörkraften och uttryck den som en multipel av tyngdkraften.</li><li>Bestäm var farten är störst och beräkna den. Motivera varför punkten skiljer sig från lägsta punkten.</li></ol>",
+    "t": "<p>En person på 65 kg gör ett bungyhopp från en bro och faller från vila. Ett elastiskt snöre är 18 m långt utan sträckning, ger ingen kraft innan dess och följer sedan F = kx med k = 62 N/m. Bortse från luftmotstånd och energiförluster. Det finns fri fallhöjd för hela rörelsen.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"357\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"13.600 1.600 253.600 238.400\"><rect x=\"25\" y=\"22\" width=\"120\" height=\"14\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"25\" y1=\"22\" x2=\"33\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"35\" y1=\"22\" x2=\"43\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"45\" y1=\"22\" x2=\"53\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"55\" y1=\"22\" x2=\"63\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"65\" y1=\"22\" x2=\"73\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"75\" y1=\"22\" x2=\"83\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"85\" y1=\"22\" x2=\"93\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"95\" y1=\"22\" x2=\"103\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"105\" y1=\"22\" x2=\"113\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"115\" y1=\"22\" x2=\"123\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"125\" y1=\"22\" x2=\"133\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"135\" y1=\"22\" x2=\"143\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"85\" y1=\"36\" x2=\"85\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"178\" x2=\"85\" y2=\"196\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"196\" x2=\"85\" y2=\"211\" stroke=\"#2B2527\" stroke-width=\"3.8\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"205\" x2=\"98\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"85\" cy=\"220\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"40\" y1=\"90\" x2=\"210\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"225\" y1=\"36\" x2=\"225\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"36\" x2=\"230\" y2=\"36\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"90\" x2=\"230\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"234\" y=\"67\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">18 m</text><line x1=\"225\" y1=\"90\" x2=\"225\" y2=\"178\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"178\" x2=\"230\" y2=\"178\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"234\" y=\"138\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">?</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten när snöret börjar sträckas och avståndet under bron vid lägsta punkten.</li><li>Bestäm den största snörkraften och uttryck den som en multipel av tyngdkraften.</li><li>Bestäm var farten är störst och beräkna den. Motivera varför punkten skiljer sig från lägsta punkten.</li></ol>",
     "s": "<p>a) Farten efter fritt fall 18 m är √(2 · 9,82 · 18) ≈ 18,80 m/s. Med förlängningen x är energibalansen 65 · 9,82(18+x) = 62x²/2. Den positiva roten är x ≈ 32,127 m, så lägsta punkten ligger cirka 50,127 m under bron.</p><p>b) Största snörkraften är kx ≈ 1991,86 N, beräknat med oavrundat x, alltså cirka 3,12 gånger mg. Den resulterande uppåtkraften är kx−mg, inte kx.</p><p>c) Under nedfärden växer farten så länge mg > kx och minskar när kx > mg. Maxfarten inträffar därför vid x = mg/k = 65 · 9,82/62 ≈ 10,295 m, alltså 28,295 m under bron. Energi ger v = √{2[g(18+x)−kx²/(2 · 65)]} ≈ 21,32 m/s. Vid lägsta punkten är farten i stället noll och accelerationen uppåt.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -61715,7 +61743,7 @@ window.BANK = [
     "niva": "E",
     "typ": "uppåtkast till lägre slutnivå",
     "poang": "(2/0/0)",
-    "t": "<p>En person hoppar från en trampolin 3,0 m över vattenytan med den lodräta begynnelsehastigheten 2,0 m/s uppåt. Bortse från luftmotstånd. Behandla personen som en punktmassa och använd den angivna höjdskillnaden.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten när personen når vattenytan. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+    "t": "<p>En person hoppar från en trampolin 3,0 m över vattenytan med den lodräta begynnelsehastigheten 2,0 m/s uppåt. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten när personen når vattenytan. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<p>Bevarad mekanisk energi ger mv²/2 = m · 2,0²/2+mg · 3,0. Massan förkortas bort och v = √(2,0²+2 · 9,82 · 3,0) ≈ 7,93 m/s. Riktningen vid vattenytan är nedåt. Svar: 7,93 m/s.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -131268,7 +131296,7 @@ window.BANK = [
     "niva": "C",
     "typ": "energibalans i sammankopplat system",
     "poang": "(0/3/0)",
-    "t": "<p>En kloss med massan m glider på ett friktionsfritt plan som lutar 30°. Den är förbunden med en hängande massa 3m via en sträckt och masslös tråd över en friktionsfri, masslös trissa. Systemet släpps från vila. Det finns fri rörelsesträcka l för båda kropparna.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg width=\"560\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 330\" role=\"img\" aria-label=\"Kloss på lutande plan förbunden med hängande massa\"><rect width=\"560\" height=\"330\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M60 295L332.7980021920982 137.50000000000003 M60 295H390\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/><path d=\"M105 295 A45 45 0 0 0 98.97114317029974 272.5\" fill=\"none\" stroke=\"#6a8760\" stroke-width=\"2\"/><text x=\"116\" y=\"280\">30°</text><circle cx=\"348.28838324886476\" cy=\"134.3301270189222\" r=\"23\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"3\"/><path d=\"M250.1858428704209 164.4115427318801 L336.78838324886476 114.41154273188013 A23 23 0 0 1 371.28838324886476 134.3301270189222 V240\" fill=\"none\" stroke=\"#444\" stroke-width=\"2\"/><g transform=\"translate(237.53520777580994 192.5) rotate(-30)\"><rect x=\"-25\" y=\"-36\" width=\"50\" height=\"36\" fill=\"#e7edf1\" stroke=\"#333\" stroke-width=\"2\"/></g><text x=\"228.53520777580994\" y=\"181.9115427318801\" text-anchor=\"middle\">m</text><rect x=\"346.28838324886476\" y=\"240\" width=\"50\" height=\"42\" rx=\"3\" fill=\"white\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"371.28838324886476\" y=\"266\" text-anchor=\"middle\">3m</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram den gemensamma farten när den hängande massan har sjunkit sträckan l från vila.</li></ol>",
+    "t": "<p>En kloss med massan m glider på ett friktionsfritt plan som lutar 30°. Den är förbunden med en hängande massa 3m via en tråd över en trissa. Tråden och trissan är lätta och trissan är friktionsfri. Systemet släpps från vila. Det finns fri rörelsesträcka l för båda kropparna.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg width=\"560\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 330\" role=\"img\" aria-label=\"Kloss på lutande plan förbunden med hängande massa\"><rect width=\"560\" height=\"330\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M60 295L332.7980021920982 137.50000000000003 M60 295H390\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/><path d=\"M105 295 A45 45 0 0 0 98.97114317029974 272.5\" fill=\"none\" stroke=\"#6a8760\" stroke-width=\"2\"/><text x=\"116\" y=\"280\">30°</text><circle cx=\"348.28838324886476\" cy=\"134.3301270189222\" r=\"23\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"3\"/><path d=\"M250.1858428704209 164.4115427318801 L336.78838324886476 114.41154273188013 A23 23 0 0 1 371.28838324886476 134.3301270189222 V240\" fill=\"none\" stroke=\"#444\" stroke-width=\"2\"/><g transform=\"translate(237.53520777580994 192.5) rotate(-30)\"><rect x=\"-25\" y=\"-36\" width=\"50\" height=\"36\" fill=\"#e7edf1\" stroke=\"#333\" stroke-width=\"2\"/></g><text x=\"228.53520777580994\" y=\"181.9115427318801\" text-anchor=\"middle\">m</text><rect x=\"346.28838324886476\" y=\"240\" width=\"50\" height=\"42\" rx=\"3\" fill=\"white\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"371.28838324886476\" y=\"266\" text-anchor=\"middle\">3m</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram den gemensamma farten när den hängande massan har sjunkit sträckan l från vila.</li></ol>",
     "s": "<p>a) Massan 3m förlorar lägesenergin 3mgl. Massan m på planet höjs l sin 30° = l/2 och får lägesenergin mgl/2. Netto frigörs (5/2)mgl. Systemets rörelseenergi är (m+3m)v²/2 = 2mv². Alltså v² = 5gl/4 och v = √(5gl)/2. Trådens krafter överför energi mellan kropparna men behöver inte beräknas i systemets totala energibalans.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -131389,7 +131417,7 @@ window.BANK = [
     "niva": "C",
     "typ": "energi längs krökt bana",
     "poang": "(0/3/0)",
-    "t": "<p>I figuren är AB lodrät med längden x. BC är en kvartscirkel med radien x som ansluter med lodrät tangent i B och vågrät tangent i C. Banan A–C är friktionsfri och kroppen hålls mot banan. CD är vågrät med längden d och konstant glidfriktion. Kroppen stannar precis i D. Bortse från rotation.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"250\" viewBox=\"0 0 520 250\" role=\"img\" aria-label=\"Bana från A via B och C till D\"><path d=\"M80 35 L80 105 A85 85 0 0 0 165 190 L455 190\" fill=\"none\" stroke=\"#3D3A3B\" stroke-width=\"4\"/><circle cx=\"80\" cy=\"35\" r=\"5\" fill=\"#6C7DFF\"/><circle cx=\"80\" cy=\"105\" r=\"5\" fill=\"#6C7DFF\"/><circle cx=\"165\" cy=\"190\" r=\"5\" fill=\"#6C7DFF\"/><circle cx=\"455\" cy=\"190\" r=\"5\" fill=\"#6C7DFF\"/><text x=\"60\" y=\"30\">A</text><text x=\"60\" y=\"110\">B</text><text x=\"150\" y=\"215\">C</text><text x=\"465\" y=\"195\">D</text><line x1=\"94\" y1=\"35\" x2=\"94\" y2=\"105\" stroke=\"#8A858B\" stroke-dasharray=\"5 4\"/><text x=\"102\" y=\"75\">x</text><line x1=\"80\" y1=\"105\" x2=\"165\" y2=\"105\" stroke=\"#8A858B\" stroke-dasharray=\"5 4\"/><line x1=\"165\" y1=\"105\" x2=\"165\" y2=\"190\" stroke=\"#8A858B\" stroke-dasharray=\"5 4\"/><text x=\"120\" y=\"98\">x</text><text x=\"174\" y=\"150\">x</text><text x=\"300\" y=\"181\">d</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>En liten kropp släpps från vila i A. Ta fram farten mitt på den vågräta sträckan CD.</li><li>Förklara varför svaret inte beror på längden d när kroppen alltid stannar precis i D.</li></ol>",
+    "t": "<p>I figuren är AB lodrät med längden x. BC är en kvartscirkel med radien x som ansluter med lodrät tangent i B och vågrät tangent i C. Banan A–C är friktionsfri och kroppen hålls mot banan. CD är vågrät med längden d och konstant glidfriktion. Kroppen stannar precis i D. Bortse från rotation.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"250\" viewBox=\"0 0 520 250\" role=\"img\" aria-label=\"Bana från A via B och C till D\"><path d=\"M80 35 L80 105 A70 70 0 0 0 150 175 L455 175\" fill=\"none\" stroke=\"#3D3A3B\" stroke-width=\"4\"/><circle cx=\"80\" cy=\"35\" r=\"5\" fill=\"#6C7DFF\"/><circle cx=\"80\" cy=\"105\" r=\"5\" fill=\"#6C7DFF\"/><circle cx=\"150\" cy=\"175\" r=\"5\" fill=\"#6C7DFF\"/><circle cx=\"455\" cy=\"175\" r=\"5\" fill=\"#6C7DFF\"/><text x=\"60\" y=\"30\">A</text><text x=\"60\" y=\"110\">B</text><text x=\"138\" y=\"198\">C</text><text x=\"465\" y=\"180\">D</text><line x1=\"94\" y1=\"35\" x2=\"94\" y2=\"105\" stroke=\"#8A858B\" stroke-dasharray=\"5 4\"/><text x=\"102\" y=\"75\">x</text><line x1=\"80\" y1=\"105\" x2=\"150\" y2=\"105\" stroke=\"#8A858B\" stroke-dasharray=\"5 4\"/><line x1=\"150\" y1=\"105\" x2=\"150\" y2=\"175\" stroke=\"#8A858B\" stroke-dasharray=\"5 4\"/><text x=\"112\" y=\"98\">x</text><text x=\"158\" y=\"145\">x</text><text x=\"300\" y=\"166\">d</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>En liten kropp släpps från vila i A. Ta fram farten mitt på den vågräta sträckan CD.</li><li>Förklara varför svaret inte beror på längden d när kroppen alltid stannar precis i D.</li></ol>",
     "s": "<p>a) Höjdskillnaden A–C är 2x, så E_k,C = 2mgx. På CD stoppar den konstanta friktionen kroppen på sträckan d: F_fd = 2mgx. Efter d/2 har hälften av energin omvandlats och E_k = mgx. Därför v = √(2gx).</p><p>b) Om d ändras men kroppen fortfarande ska stanna i D måste friktionskraften ändras så att F_fd = 2mgx. Halva stoppsträckan tar då fortfarande bort halva startenergin. Slutsatsen kräver konstant friktion på CD och gäller inte för en godtycklig varierande bromskraft.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -131419,7 +131447,7 @@ window.BANK = [
     "niva": "C",
     "typ": "två massor och friktionsarbete",
     "poang": "(0/3/0)",
-    "t": "<p>En kloss med massan m ligger på ett plan med tan θ = 4/3. Den är kopplad till en hängande massa 4m med en sträckt och masslös tråd över en masslös, friktionsfri trissa. Systemet börjar röra sig från vila med 4m nedåt. Glidfriktionstalet mellan kloss och plan är 7/24. Båda har fri rörelsesträcka l.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg width=\"560\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 330\" role=\"img\" aria-label=\"Kloss på lutande plan förbunden med hängande massa\"><rect width=\"560\" height=\"330\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M60 295L216.00000000000003 87.00000000000003 M60 295H390\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/><path d=\"M105 295 A45 45 0 0 0 87.0 259.0\" fill=\"none\" stroke=\"#6a8760\" stroke-width=\"2\"/><text x=\"116\" y=\"280\">θ</text><circle cx=\"229.00000000000003\" cy=\"78.00000000000003\" r=\"23\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"3\"/><path d=\"M165.6 124.19999999999999 L210.60000000000002 64.20000000000003 A23 23 0 0 1 252.00000000000003 78.00000000000003 V240\" fill=\"none\" stroke=\"#444\" stroke-width=\"2\"/><g transform=\"translate(165.0 155.0) rotate(-53.13010235415598)\"><rect x=\"-25\" y=\"-36\" width=\"50\" height=\"36\" fill=\"#e7edf1\" stroke=\"#333\" stroke-width=\"2\"/></g><text x=\"150.6\" y=\"149.2\" text-anchor=\"middle\">m</text><rect x=\"227.00000000000003\" y=\"240\" width=\"50\" height=\"42\" rx=\"3\" fill=\"white\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"252.00000000000003\" y=\"266\" text-anchor=\"middle\">4m</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram den gemensamma farten när den hängande massan har sjunkit sträckan l från vila.</li></ol>",
+    "t": "<p>En kloss med massan m ligger på ett plan med tan θ = 4/3. Den är kopplad till en hängande massa 4m med en tråd över en trissa. Tråden och trissan är lätta och trissan är friktionsfri. Systemet börjar röra sig från vila med 4m nedåt. Glidfriktionstalet mellan kloss och plan är 7/24. Båda har fri rörelsesträcka l.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg width=\"560\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 330\" role=\"img\" aria-label=\"Kloss på lutande plan förbunden med hängande massa\"><rect width=\"560\" height=\"330\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M60 295L216.00000000000003 87.00000000000003 M60 295H390\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/><path d=\"M105 295 A45 45 0 0 0 87.0 259.0\" fill=\"none\" stroke=\"#6a8760\" stroke-width=\"2\"/><text x=\"116\" y=\"280\">θ</text><circle cx=\"229.00000000000003\" cy=\"78.00000000000003\" r=\"23\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"3\"/><path d=\"M165.6 124.19999999999999 L210.60000000000002 64.20000000000003 A23 23 0 0 1 252.00000000000003 78.00000000000003 V240\" fill=\"none\" stroke=\"#444\" stroke-width=\"2\"/><g transform=\"translate(165.0 155.0) rotate(-53.13010235415598)\"><rect x=\"-25\" y=\"-36\" width=\"50\" height=\"36\" fill=\"#e7edf1\" stroke=\"#333\" stroke-width=\"2\"/></g><text x=\"150.6\" y=\"149.2\" text-anchor=\"middle\">m</text><rect x=\"227.00000000000003\" y=\"240\" width=\"50\" height=\"42\" rx=\"3\" fill=\"white\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"252.00000000000003\" y=\"266\" text-anchor=\"middle\">4m</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram den gemensamma farten när den hängande massan har sjunkit sträckan l från vila.</li></ol>",
     "s": "<p>a) tan θ = 4/3 ger sin θ = 4/5 och cos θ = 3/5. Den hängande kroppen förlorar 4mgl och klossen på planet får mgl sin θ. Friktionsarbetet är −μmg cos θ · l. Därför är (5m)v²/2 = mgl[4−4/5−(7/24)(3/5)] = (121/40)mgl. Alltså v² = (121/100)gl och v = (11/10)√(gl). Resultatet förutsätter att klossen glider uppför och att de givna krafterna gäller under rörelsen.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -131449,7 +131477,7 @@ window.BANK = [
     "niva": "A",
     "typ": "energi med föränderlig snörgeometri",
     "poang": "(0/1/3)",
-    "t": "<p>En pärla A på 0,10 kg kan glida friktionsfritt längs en lodrät stång. En masslös tråd går från A via en friktionsfri styrpunkt, 0,50 m vågrätt från stången, till en hängande kropp B på 0,25 kg. Från början är A i höjd med styrpunkten och B hänger 1,50 m under den. Tråden är sträckt och totalt 2,0 m lång. Systemet släpps från vila. Bortse från styrpunktens storlek.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"280\" viewBox=\"0 0 480 280\" role=\"img\" aria-label=\"Kula på vertikal tråd förbunden över en spik med en hängande vikt\"><line x1=\"130\" y1=\"35\" x2=\"130\" y2=\"245\" stroke=\"#3D3A3B\" stroke-width=\"3\"/><circle cx=\"245\" cy=\"55\" r=\"5\" fill=\"#3D3A3B\"/><circle cx=\"130\" cy=\"55\" r=\"17\" fill=\"#fff\" stroke=\"#3D3A3B\" stroke-width=\"3\"/><line x1=\"147\" y1=\"55\" x2=\"245\" y2=\"55\" stroke=\"#3D3A3B\" stroke-width=\"2\"/><line x1=\"245\" y1=\"55\" x2=\"245\" y2=\"205\" stroke=\"#3D3A3B\" stroke-width=\"2\"/><rect x=\"225\" y=\"205\" width=\"40\" height=\"34\" rx=\"5\" fill=\"#E8EAEE\" stroke=\"#3D3A3B\" stroke-width=\"2\"/><text x=\"103\" y=\"35\">A, 0,10 kg</text><text x=\"274\" y=\"226\">B, 0,25 kg</text><text x=\"182\" y=\"47\">0,50 m</text><text x=\"255\" y=\"132\">1,50 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm hur långt A sjunker från start till sin första lägsta punkt. Kontrollera att lösningen ryms inom trådens längd.</li></ol>",
+    "t": "<p>En pärla A på 0,10 kg kan glida friktionsfritt längs en lodrät stång. En lätt tråd går från A via en friktionsfri styrpunkt, 0,50 m vågrätt från stången, till en hängande kropp B på 0,25 kg. Från början är A i höjd med styrpunkten och B hänger 1,50 m under den. Tråden är sträckt och totalt 2,0 m lång. Systemet släpps från vila. Bortse från styrpunktens storlek.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"280\" viewBox=\"0 0 480 280\" role=\"img\" aria-label=\"Kula på vertikal tråd förbunden över en spik med en hängande vikt\"><line x1=\"130\" y1=\"35\" x2=\"130\" y2=\"245\" stroke=\"#3D3A3B\" stroke-width=\"3\"/><circle cx=\"245\" cy=\"55\" r=\"5\" fill=\"#3D3A3B\"/><circle cx=\"130\" cy=\"55\" r=\"17\" fill=\"#fff\" stroke=\"#3D3A3B\" stroke-width=\"3\"/><line x1=\"147\" y1=\"55\" x2=\"245\" y2=\"55\" stroke=\"#3D3A3B\" stroke-width=\"2\"/><line x1=\"245\" y1=\"55\" x2=\"245\" y2=\"205\" stroke=\"#3D3A3B\" stroke-width=\"2\"/><rect x=\"225\" y=\"205\" width=\"40\" height=\"34\" rx=\"5\" fill=\"#E8EAEE\" stroke=\"#3D3A3B\" stroke-width=\"2\"/><text x=\"103\" y=\"35\">A, 0,10 kg</text><text x=\"274\" y=\"226\">B, 0,25 kg</text><text x=\"182\" y=\"47\">0,50 m</text><text x=\"255\" y=\"132\">1,50 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm hur långt A sjunker från start till sin första lägsta punkt. Kontrollera att lösningen ryms inom trådens längd.</li></ol>",
     "s": "<p>a) När A har sjunkit x meter är den sneda trådlängden √(0,50²+x²). B har därför höjts √(0,25+x²)−0,50. Vid första vändpunkten är båda hastigheterna noll. Energibalansen blir 0,10gx = 0,25g[√(0,25+x²)−0,50]. Efter förkortning: √(0,25+x²) = 0,50+0,40x. Kvadrering ger 0,84x²−0,40x = 0. Roten x = 0 är startläget. Den andra roten är x = 10/21 m ≈ 0,47619 m och uppfyller ursprungsekvationen. Den sneda tråddelen blir 29/42 m ≈ 0,69048 m, mindre än hela trådens 2,0 m. B har alltså kvar en hängande tråddel på cirka 1,3095 m. Mellan start och denna rot finns positiv tillgänglig rörelseenergi, så roten beskriver den första vändpunkten.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -141668,8 +141696,8 @@ window.BANK = [
     "niva": "A",
     "typ": "bil med konstant effekt i backe",
     "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 30 m/s på 30 s.</p><ol type=\"a\"><li>Bestäm accelerationen när farten är 10 m/s.</li><li>Hur lång är backen?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(F_\\text{driv}=\\dfrac{30\\,000}{10}\\). \\(a=\\dfrac{3\\,000-400-1\\,300\\cdot9{,}82\\cdot0{,}10}{1\\,300}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s²</p></li><li><p>\\(30\\,000\\cdot30=\\dfrac{1\\,300(30^2-10^2)}{2}+(1\\,300\\cdot9{,}82\\cdot0{,}10+400)l\\).</p><p><strong>Svar:</strong> \\(227\\) m</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 15 m/s på 10 s.</p><ol type=\"a\"><li>Bestäm accelerationen när farten är 10 m/s.</li><li>Hur lång är backen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(F_\\text{driv}=\\dfrac{30\\,000}{10}\\). \\(a=\\dfrac{3\\,000-400-1\\,300\\cdot9{,}82\\cdot0{,}10}{1\\,300}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s²</p></li><li><p>\\(30\\,000\\cdot10=\\dfrac{1\\,300(15^2-10^2)}{2}+(1\\,300\\cdot9{,}82\\cdot0{,}10+400)l\\), alltså \\(l=\\dfrac{218\\,750}{1\\,676{,}6}\\).</p><p><strong>Svar:</strong> \\(130\\) m</p></li></ol>",
     "id": "5.548",
     "miniräknare": true,
     "geogebra": false,
@@ -141677,11 +141705,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.0179999999999998,
-      226.64917094119048
+      130.47238458785637
     ],
     "tolerans": [
       0.051,
-      5.1
+      2.0
     ],
     "självrättning": true,
     "formaga": [
@@ -141702,12 +141730,12 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 30 m/s på 30 s.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 15 m/s på 10 s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen när farten är 10 m/s.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 30 m/s på 30 s.</p><p>Bestäm accelerationen när farten är 10 m/s.</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 15 m/s på 10 s.</p><p>Bestäm accelerationen när farten är 10 m/s.</p>",
         "s": "<p>\\(F_\\text{driv}=\\dfrac{30\\,000}{10}\\). \\(a=\\dfrac{3\\,000-400-1\\,300\\cdot9{,}82\\cdot0{,}10}{1\\,300}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s²</p>",
         "ledtrad": "<p>\\(P=Fv\\).</p>",
         "niva": "A",
@@ -141718,8 +141746,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur lång är backen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 30 m/s på 30 s.</p><p>Hur lång är backen?</p>",
-        "s": "<p>\\(30\\,000\\cdot30=\\dfrac{1\\,300(30^2-10^2)}{2}+(1\\,300\\cdot9{,}82\\cdot0{,}10+400)l\\).</p><p><strong>Svar:</strong> \\(227\\) m</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt 30 kW. Farten ökar från 10 m/s till 15 m/s på 10 s.</p><p>Hur lång är backen?</p>",
+        "s": "<p>\\(30\\,000\\cdot10=\\dfrac{1\\,300(15^2-10^2)}{2}+(1\\,300\\cdot9{,}82\\cdot0{,}10+400)l\\), alltså \\(l=\\dfrac{218\\,750}{1\\,676{,}6}\\).</p><p><strong>Svar:</strong> \\(130\\) m</p>",
         "ledtrad": "<p>Motorns arbete fördelas.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141739,15 +141767,15 @@ window.BANK = [
     "niva": "A",
     "typ": "bromsande kraft ur effekt",
     "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (2,0 ton) kör 80 m uppför en backe som lutar 5,7° på 10 s, och farten ökar från 10 m/s till 12 m/s. Motorns nyttiga effekt är 24 kW. Bestäm den bromsande kraften.</p>",
-    "s": "<p>\\(24\\,000\\cdot10=\\dfrac{2\\,000(12^2-10^2)}{2}+2\\,000\\cdot9{,}82\\cdot80\\sin5{,}7^\\circ+80F\\).</p><p><strong>Svar:</strong> \\(499\\) N</p>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (2,0 ton) kör 80 m uppför en backe som lutar 5,7° på 10 s, och farten ökar likformigt från 7,0 m/s till 9,0 m/s. Motorns nyttiga effekt är 24 kW. Bestäm den bromsande kraften.</p>",
+    "s": "<p>Medelfarten är \\(\\dfrac{7{,}0+9{,}0}{2}=8{,}0\\) m/s, vilket stämmer med 80 m på 10 s.</p><p>Motorns arbete går till rörelseenergi, lägesenergi och arbete mot den bromsande kraften:</p><p>\\(24\\,000\\cdot10=\\dfrac{2\\,000(9{,}0^2-7{,}0^2)}{2}+2\\,000\\cdot9{,}82\\cdot80\\sin5{,}7^\\circ+80F\\)</p><p>\\(240\\,000=32\\,000+156\\,050+80F\\), alltså \\(F\\approx649\\) N.</p><p><strong>Svar:</strong> \\(649\\) N</p>",
     "id": "5.549",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
-    "rättSvar": 499.3601150349299,
-    "tolerans": 7.49,
+    "rättSvar": 649.3601150349299,
+    "tolerans": 9.7,
     "självrättning": true,
     "formaga": [
       "problemlösning"

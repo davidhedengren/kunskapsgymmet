@@ -3819,7 +3819,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-07-d";
+const BANK_VERSION="2026-10-07-e";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -6666,14 +6666,21 @@ function expandGameTask(t){
   const antal=t.spelDelar.length;
   return t.spelDelar.map((del,i)=>{
     const etikett=String(del?.etikett || String.fromCharCode(97+i)).toLowerCase();
+    /* Ett lärarblad kan ha fler delar än de som används i träningen.
+       Matcha a/b/... mot originalets etiketter innan svarmetadata plockas ut. */
+    const etikettIndex=Array.isArray(t.svarEtiketter)
+      && t.svarEtiketter.every((x,j)=>String(x).toLowerCase()===String.fromCharCode(97+j))
+      ? t.svarEtiketter.findIndex(x=>String(x).toLowerCase()===etikett) : -1;
+    const metadata=v=>etikettIndex>=0 && Array.isArray(v) && v.length===t.svarEtiketter.length
+      ? v[etikettIndex] : metadataForDel(v,i,antal);
     const q={...t};
     q.ursprungsId=t.id;
     q.deluppgift=etikett;
     q.id=`${t.id}${etikett}`;
     q.niva=del?.niva || t.niva;
-    q.traningsniva=del?.traningsniva ?? metadataForDel(t.traningsniva,i,antal);
+    q.traningsniva=del?.traningsniva ?? metadata(t.traningsniva);
     // Arbetsinsats gäller den visade delen, inte hela ursprungsuppgiften.
-    q.arbetsinsats=del?.arbetsinsats ?? metadataForDel(t.arbetsinsats ?? 1,i,antal);
+    q.arbetsinsats=del?.arbetsinsats ?? metadata(t.arbetsinsats ?? 1);
     if(del?.poang!=null) q.poang=del.poang;
 
     q.t=del?.t
@@ -6683,12 +6690,12 @@ function expandGameTask(t){
     q.s=del?.s || t.s;
 
     q.ledtrad=del?.ledtrad || t.ledtrad || null;
-    q.rättSvar=metadataForDel(t.rättSvar,i,antal);
-    q.tolerans=metadataForDel(t.tolerans,i,antal);
-    q.självrättning=metadataForDel(t.självrättning,i,antal);
-    if("svarEnhet" in t) q.svarEnhet=metadataForDel(t.svarEnhet,i,antal);
-    if("svarFormat" in t) q.svarFormat=metadataForDel(t.svarFormat,i,antal);
-    if("manuellKomplettering" in t) q.manuellKomplettering=metadataForDel(t.manuellKomplettering,i,antal);
+    q.rättSvar=metadata(t.rättSvar);
+    q.tolerans=metadata(t.tolerans);
+    q.självrättning=metadata(t.självrättning);
+    if("svarEnhet" in t) q.svarEnhet=metadata(t.svarEnhet);
+    if("svarFormat" in t) q.svarFormat=metadata(t.svarFormat);
+    if("manuellKomplettering" in t) q.manuellKomplettering=metadata(t.manuellKomplettering);
 
     if(Array.isArray(q.rättSvar) && q.rättSvar.length>1){
       q.svarstyp="flera_delar";

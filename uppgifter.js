@@ -64326,8 +64326,8 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck och ändrat djup",
     "poang": "(2/0/0)",
-    "t": "<p>Ett bete ligger på 4,5 m djup i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><span class=\"fig\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm absoluttrycket vid betet. Svara i kPa. Avrunda vid behov till 2 decimaler.</li><li>Betet höjs 1,5 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<p>a) p = 101 000+998 · 9,82 · 4,5 = 145 101,62 Pa = 145,10162 kPa. Svar: 145,1 kPa.</p><p>b) Tryckminskningen är ρgΔh = 998 · 9,82 · 1,5 = 14 700,54 Pa = 14,70054 kPa. Lufttrycket ändras inte. Svar: 14,7 kPa.</p>",
+    "t": "<p>Ett bete ligger på 4,5 m djup i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><span class=\"fig\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm absoluttrycket vid betet. Svara i kPa. Avrunda vid behov till 2 decimaler.</li><li>Betet höjs 2,0 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) p = 101 000+998 · 9,82 · 4,5 = 145 101,62 Pa = 145,10162 kPa. Svar: 145,1 kPa.</p><p>b) Tryckminskningen är ρgΔh = 998 · 9,82 · 2,0 = 19 600,72 Pa = 19,60072 kPa. Lufttrycket ändras inte. Svar: 19,6 kPa.</p>",
     "familj": "Vätsketryck p = ρgh",
     "formaga": [
       "procedur"
@@ -64336,7 +64336,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       145.1,
-      14.7
+      19.6
     ],
     "tolerans": [
       0,
@@ -64381,9 +64381,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Betet höjs 1,5 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Ett bete ligger på 4,5 m djup i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><span class=\"fig\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span><p>Betet höjs 1,5 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>Tryckminskningen är ρgΔh = 998 · 9,82 · 1,5 = 14 700,54 Pa = 14,70054 kPa. Lufttrycket ändras inte. Svar: 14,7 kPa.</p>",
+        "fraga": "Betet höjs 2,0 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Ett bete ligger på 4,5 m djup i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><span class=\"fig\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span><p>Betet höjs 2,0 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Tryckminskningen är ρgΔh = 998 · 9,82 · 2,0 = 19 600,72 Pa = 19,60072 kPa. Lufttrycket ändras inte. Svar: 19,6 kPa.</p>",
         "ledtrad": "<p>Här behövs höjdändringen, inte det ursprungliga djupet.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -64768,8 +64768,8 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla −40,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<p>a) T=25,0+273,15=298,15 K. Svar: 298,15 K.</p><p>b) T=−40,0+273,15=233,15 K. Svar: 233,15 K.</p><p>c) t=195−273,15=−78,15 °C. Svar: -78,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
+    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 37,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla −18,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) T=37,0+273,15=310,15 K. Svar: 310,15 K.</p><p>b) T=−18,0+273,15=255,15 K. Svar: 255,15 K.</p><p>c) t=195−273,15=−78,15 °C. Svar: -78,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -64777,8 +64777,8 @@ window.BANK = [
     "familjNyckel": "gaslagen__omvandla_mellan_celsius_och_kelvin",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      298.15,
-      233.15,
+      310.15,
+      255.15,
       -78.15
     ],
     "tolerans": [
@@ -64815,9 +64815,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>T=25,0+273,15=298,15 K. Svar: 298,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
+        "fraga": "Omvandla 37,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Omvandla 37,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>T=37,0+273,15=310,15 K. Svar: 310,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Lägg 273,15 till celsiustemperaturen.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -64831,9 +64831,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Omvandla −40,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Omvandla −40,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>T=−40,0+273,15=233,15 K. Svar: 233,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
+        "fraga": "Omvandla −18,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Omvandla −18,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>T=−18,0+273,15=255,15 K. Svar: 255,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Kelvintemperaturen är fortfarande positiv.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -64865,7 +64865,7 @@ window.BANK = [
     "familjTidigare": [
       "Omvandla mellan Celsius och kelvin"
     ],
-    "rättSvar273": [298, 233, -78]
+    "rättSvar273": [310, 255, -78]
   },
   {
     "id": "6.39",
@@ -66971,8 +66971,8 @@ window.BANK = [
     "omr": "vatsketryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm det absoluta trycket vid bassängens botten. Svara i kPa. Avrunda vid behov till 2 decimaler.</li><li>Tänk dig ett djupare vattenområde med samma densitet och lufttryck. På vilket djup är absoluttrycket dubbelt så stort som yttrycket? Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<p>a) p = 101,3+998 · 9,82 · 3,5/1000 = 135,60126 kPa. Svar: 135,6 kPa.</p><p>b) 101 300+998 · 9,82h = 2 · 101 300. Alltså h = 101 300/(998 · 9,82) ≈ 10,33635 m. Detta djup finns inte i den 3,5 m djupa bassängen. Svar: 10,34 m.</p>",
+    "t": "<p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm det absoluta trycket vid bassängens botten. Svara i kPa. Avrunda vid behov till 2 decimaler.</li><li>Tänk dig ett djupare vattenområde med samma densitet och lufttryck. På vilket djup är absoluttrycket tre gånger så stort som yttrycket? Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) p = 101,3+998 · 9,82 · 3,5/1000 = 135,60126 kPa. Svar: 135,6 kPa.</p><p>b) 101 300+998 · 9,82h = 3 · 101 300. Alltså h = 2 · 101 300/(998 · 9,82) ≈ 20,67270 m. Detta djup finns inte i den 3,5 m djupa bassängen. Svar: 20,67 m.</p>",
     "familj": "Absoluttryck, övertryck och lufttryck",
     "formaga": [
       "procedur"
@@ -66981,7 +66981,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       135.6,
-      10.34
+      20.67
     ],
     "tolerans": [
       0,
@@ -67027,9 +67027,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Tänk dig ett djupare vattenområde med samma densitet och lufttryck. På vilket djup är absoluttrycket dubbelt så stort som yttrycket? Svara i m. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p><p>Tänk dig ett djupare vattenområde med samma densitet och lufttryck. På vilket djup är absoluttrycket dubbelt så stort som yttrycket? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>101 300+998 · 9,82h = 2 · 101 300. Alltså h = 101 300/(998 · 9,82) ≈ 10,33635 m. Detta djup finns inte i den 3,5 m djupa bassängen. Svar: 10,34 m.</p>",
+        "fraga": "Tänk dig ett djupare vattenområde med samma densitet och lufttryck. På vilket djup är absoluttrycket tre gånger så stort som yttrycket? Svara i m. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p><p>Tänk dig ett djupare vattenområde med samma densitet och lufttryck. På vilket djup är absoluttrycket tre gånger så stort som yttrycket? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>101 300+998 · 9,82h = 3 · 101 300. Alltså h = 2 · 101 300/(998 · 9,82) ≈ 20,67270 m. Detta djup finns inte i den 3,5 m djupa bassängen. Svar: 20,67 m.</p>",
         "ledtrad": "<p>Hur stort ska vattenpelarens bidrag vara?</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -67142,15 +67142,15 @@ window.BANK = [
     "omr": "vatsketryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vattnets densitet i en sjö är 998 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">5,0 m</text></svg></span><p>Bestäm övertrycket relativt ytan på djupet 5,0 m. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<p>Δp = 998 · 9,82 · 5,0 = 49 001,8 Pa = 49,0018 kPa. Svar: 49 kPa.</p>",
+    "t": "<p>Vattnets densitet i en sjö är 998 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">6,5 m</text></svg></span><p>Bestäm övertrycket relativt ytan på djupet 6,5 m. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Δp = 998 · 9,82 · 6,5 = 63 702,34 Pa = 63,70234 kPa. Svar: 63,7 kPa.</p>",
     "familj": "Vätsketryck p = ρgh",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 49,
+    "rättSvar": 63.7,
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Vilken vätskepelare ligger ovanför punkten?</p>",
@@ -68830,8 +68830,8 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(4/0/0)",
-    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 25 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 150 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla −40 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 480 °C till kelvin. Svara i K. Svara med ett heltal.</li></ol>",
-    "s": "<p>a) T=25+273,15=298,15 K. Svar: 298 K.</p><p>b) T=150+273,15=423,15 K. Svar: 423 K.</p><p>c) T=−40+273,15=233,15 K. Svar: 233 K.</p><p>d) T=480+273,15=753,15 K. Svar: 753 K.</p>",
+    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 18 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 150 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla −25 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 480 °C till kelvin. Svara i K. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) T=18+273,15=291,15 K. Svar: 291 K.</p><p>b) T=150+273,15=423,15 K. Svar: 423 K.</p><p>c) T=−25+273,15=248,15 K. Svar: 248 K.</p><p>d) T=480+273,15=753,15 K. Svar: 753 K.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -68839,9 +68839,9 @@ window.BANK = [
     "familjNyckel": "gaslagen__omvandla_celsius_till_kelvin",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      298,
+      291,
       423,
-      233,
+      248,
       753
     ],
     "tolerans": [
@@ -68882,9 +68882,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Omvandla 25 °C till kelvin. Svara i K. Svara med ett heltal.",
-        "t": "<p>Omvandla 25 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
-        "s": "<p>T=25+273,15=298,15 K. Svar: 298 K.</p>",
+        "fraga": "Omvandla 18 °C till kelvin. Svara i K. Svara med ett heltal.",
+        "t": "<p>Omvandla 18 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
+        "s": "<p>T=18+273,15=291,15 K. Svar: 291 K.</p>",
         "ledtrad": "<p>Lägg till 273,15.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -68914,9 +68914,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Omvandla −40 °C till kelvin. Svara i K. Svara med ett heltal.",
-        "t": "<p>Omvandla −40 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
-        "s": "<p>T=−40+273,15=233,15 K. Svar: 233 K.</p>",
+        "fraga": "Omvandla −25 °C till kelvin. Svara i K. Svara med ett heltal.",
+        "t": "<p>Omvandla −25 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
+        "s": "<p>T=−25+273,15=248,15 K. Svar: 248 K.</p>",
         "ledtrad": "<p>Ett minustecken framför celsiustemperaturen ska följa med i additionen.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -92802,8 +92802,8 @@ window.BANK = [
     "niva": "A",
     "typ": "verkningsgrad för källa med inre resistans",
     "poang": "(0/1/2)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) har inre resistansen \\(0{,}4\\,\\Omega\\). Verkningsgraden definieras som effekten i den yttre resistorn dividerad med den totala effekt som batteriets emk levererar.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,4 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text></svg></div><p>Hur stor ska den yttre resistansen \\(R\\) vara för att verkningsgraden ska bli \\(90\\,\\%\\)?</p>",
-    "s": "<p>Samma ström går genom \\(R\\) och \\(r\\), så \\(\\eta=\\dfrac{RI^2}{(R+r)I^2}=\\dfrac{R}{R+r}\\).</p><p>\\(\\dfrac{R}{R+0{,}4}=0{,}90\\Rightarrow R=3,6\\,\\Omega\\).</p><p><strong>Svar:</strong> 3,6 Ω</p>",
+    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) har inre resistansen \\(0{,}4\\,\\Omega\\). Verkningsgraden definieras som effekten i den yttre resistorn dividerad med den totala effekt som batteriets emk levererar.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,4 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text></svg></div><p>Hur stor ska den yttre resistansen \\(R\\) vara för att verkningsgraden ska bli \\(85\\,\\%\\)?</p>",
+    "s": "<p>Samma ström går genom \\(R\\) och \\(r\\), så \\(\\eta=\\dfrac{RI^2}{(R+r)I^2}=\\dfrac{R}{R+r}\\).</p><p>\\(\\dfrac{R}{R+0{,}4}=0{,}85\\Rightarrow R=2{,}27\\,\\Omega\\).</p><p><strong>Svar:</strong> 2,27 Ω</p>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "resonemang",
@@ -92822,7 +92822,7 @@ window.BANK = [
       "Elektrisk energi, effekt och batterier"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 3.6,
+    "rättSvar": 2.26666666667,
     "tolerans": 0.02,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω"
@@ -100245,8 +100245,8 @@ window.BANK = [
     "niva": "A",
     "typ": "massdefekt och bindningsenergi",
     "poang": "(0/1/2)",
-    "t": "<p>En järn-56-kärna har kärnmassan \\(55{,}92067\\,u\\). Massdata: \\(m_p=1{,}007276\\,u\\), \\(m_n=1{,}008665\\,u\\) och \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Järn-56 innehåller 26 protoner och 30 neutroner. Jämför summan av deras fria massor med kärnmassan.</p><div class=\"facit-matte\">\\[\\Delta m=26m_p+30m_n-m_{Fe}=0{,}528456\\,u\\]\\[E_b/A=\\frac{0{,}528456\\cdot931{,}5}{56}=8{,}790299\\,\\mathrm{MeV/nukleon}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}790299\\,\\mathrm{MeV/nukleon}\\).</p></div>",
+    "t": "<p>En uran-238-kärna har kärnmassan \\(238{,}00028\\,u\\). Massdata: \\(m_p=1{,}007276\\,u\\), \\(m_n=1{,}008665\\,u\\) och \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Uran-238 innehåller 92 protoner och 146 neutroner. Jämför summan av deras fria massor med kärnmassan.</p><div class=\"facit-matte\">\\[\\Delta m=92m_p+146m_n-m_{U}=1{,}934202\\,u\\]\\[E_b/A=\\frac{1{,}934202\\cdot931{,}5}{238}=7{,}570\\,\\mathrm{MeV/nukleon}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}570\\,\\mathrm{MeV/nukleon}\\).</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
       "resonemang",
@@ -100254,8 +100254,8 @@ window.BANK = [
     ],
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.790299357142832,
-    "tolerans": 0.15822538842857095,
+    "rättSvar": 7.57020656723,
+    "tolerans": 0.136,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -114836,8 +114836,8 @@ window.BANK = [
     "omr": "seriekoppling",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två resistorer på \\(4\\ \\Omega\\) och \\(6\\ \\Omega\\) är seriekopplade. Bestäm ersättningsresistansen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid seriekoppling adderas resistanserna.</p><div class=\"facit-matte\">\\[R_{ers}=4+6=10\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\Omega\\).</p></div>",
+    "t": "<p>Två resistorer på \\(4{,}7\\ \\Omega\\) och \\(6{,}8\\ \\Omega\\) är seriekopplade. Bestäm ersättningsresistansen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid seriekoppling adderas resistanserna.</p><div class=\"facit-matte\">\\[R_{ers}=4{,}7+6{,}8=11{,}5\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\Omega\\).</p></div>",
     "familj": "Ersättningsresistans och ström i serie",
     "familjNyckel": "kopplingar__seriekoppling",
     "formaga": [
@@ -114845,8 +114845,8 @@ window.BANK = [
     ],
     "typ": "ersättningsresistans i serie",
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0,
+    "rättSvar": 11.5,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
@@ -123475,8 +123475,8 @@ window.BANK = [
     "niva": "C",
     "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
     "poang": "(1/2/0)",
-    "t": "<p>Radium-226 sönderfaller till radon-222 genom alfasönderfall. Data: \\(m(^{226}\\mathrm{Ra})=226{,}025410\\,\\mathrm u\\), \\(m(^{222}\\mathrm{Rn})=222{,}017578\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\). Beräkna den frigjorda energin.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\). Masstalet minskar därför med 4 och atomnumret med 2. Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p><div class=\"facit-matte\">\\[Q=[226{,}025410-(222{,}017578+4{,}002603)]\\cdot931{,}5\\approx4{,}87\\,\\mathrm{MeV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 4,87 MeV.</p></div>",
+    "t": "<p>Americium-241 sönderfaller till neptunium-237 genom alfasönderfall. Data: \\(m(^{241}\\mathrm{Am})=241{,}056829\\,\\mathrm u\\), \\(m(^{237}\\mathrm{Np})=237{,}048173\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\). Beräkna den frigjorda energin.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\). Masstalet minskar därför med 4 och atomnumret med 2. Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p><div class=\"facit-matte\">\\[Q=[241{,}056829-(237{,}048173+4{,}002603)]\\cdot931{,}5\\approx5{,}64\\,\\mathrm{MeV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 5,64 MeV.</p></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur",
@@ -123484,8 +123484,8 @@ window.BANK = [
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.87,
-    "tolerans": 0.07305,
+    "rättSvar": 5.64,
+    "tolerans": 0.0846,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -141047,21 +141047,21 @@ window.BANK = [
     "niva": "C",
     "typ": "friktionstal ur energiförlust",
     "poang": "(0/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En låda glider 10,0 m från vila nedför ett plan som lutar 30° med friktionstalet 0,250. Bestäm farten (tre värdesiffror).</li><li>En låda (0,80 kg) bromsas från 15 m/s till 10 m/s på 20 m vågrätt. Bestäm friktionstalet.</li><li>En sten (2,0 kg) med 8,0 m/s stannar efter 12 m. Bestäm friktionstalet.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(v^2=2\\cdot9{,}82\\cdot10{,}0(\\sin30^\\circ-0{,}250\\cos30^\\circ)\\).</p><p><strong>Svar:</strong> \\(7{,}46\\) m/s</p></li><li><p>\\(W=\\dfrac{0{,}80(15^2-10^2)}{2}=50\\) J, \\(\\mu=\\dfrac{50}{0{,}80\\cdot9{,}82\\cdot20}\\).</p><p><strong>Svar:</strong> \\(0{,}32\\)</p></li><li><p>\\(\\mu=\\dfrac{64}{2{,}0\\cdot9{,}82\\cdot12}\\).</p><p><strong>Svar:</strong> \\(0{,}27\\)</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En låda glider 8,0 m från vila nedför ett plan som lutar 35° med friktionstalet 0,220. Bestäm farten (tre värdesiffror).</li><li>En låda (1,2 kg) bromsas från 16 m/s till 9,0 m/s på 22 m vågrätt. Bestäm friktionstalet.</li><li>En sten (2,0 kg) med 8,0 m/s stannar efter 12 m. Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v^2=2\\cdot9{,}82\\cdot8{,}0(\\sin35^\\circ-0{,}220\\cos35^\\circ)\\).</p><p><strong>Svar:</strong> \\(7{,}86\\) m/s</p></li><li><p>\\(W=\\dfrac{1{,}2(16^2-9{,}0^2)}{2}=105\\) J, \\(\\mu=\\dfrac{105}{1{,}2\\cdot9{,}82\\cdot22}\\).</p><p><strong>Svar:</strong> \\(0{,}41\\)</p></li><li><p>\\(\\mu=\\dfrac{64}{2{,}0\\cdot9{,}82\\cdot12}\\).</p><p><strong>Svar:</strong> \\(0{,}27\\)</p></li></ol>",
     "id": "5.536",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7.461779457621624,
-      0.3182281059063136,
+      7.86162785025,
+      0.405017589335,
       0.27155465037338766
     ],
     "tolerans": [
-      0.112,
-      0.0051,
+      0.118,
+      0.00649,
       0.0051
     ],
     "självrättning": true,
@@ -141090,9 +141090,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En låda glider 10,0 m från vila nedför ett plan som lutar 30° med friktionstalet 0,250. Bestäm farten (tre värdesiffror).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda glider 10,0 m från vila nedför ett plan som lutar 30° med friktionstalet 0,250. Bestäm farten (tre värdesiffror).</p>",
-        "s": "<p>\\(v^2=2\\cdot9{,}82\\cdot10{,}0(\\sin30^\\circ-0{,}250\\cos30^\\circ)\\).</p><p><strong>Svar:</strong> \\(7{,}46\\) m/s</p>",
+        "fraga": "En låda glider 8,0 m från vila nedför ett plan som lutar 35° med friktionstalet 0,220. Bestäm farten (tre värdesiffror).",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda glider 8,0 m från vila nedför ett plan som lutar 35° med friktionstalet 0,220. Bestäm farten (tre värdesiffror).</p>",
+        "s": "<p>\\(v^2=2\\cdot9{,}82\\cdot8{,}0(\\sin35^\\circ-0{,}220\\cos35^\\circ)\\).</p><p><strong>Svar:</strong> \\(7{,}86\\) m/s</p>",
         "ledtrad": "<p>Räkna per kilogram.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141101,9 +141101,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En låda (0,80 kg) bromsas från 15 m/s till 10 m/s på 20 m vågrätt. Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (0,80 kg) bromsas från 15 m/s till 10 m/s på 20 m vågrätt. Bestäm friktionstalet.</p>",
-        "s": "<p>\\(W=\\dfrac{0{,}80(15^2-10^2)}{2}=50\\) J, \\(\\mu=\\dfrac{50}{0{,}80\\cdot9{,}82\\cdot20}\\).</p><p><strong>Svar:</strong> \\(0{,}32\\)</p>",
+        "fraga": "En låda (1,2 kg) bromsas från 16 m/s till 9,0 m/s på 22 m vågrätt. Bestäm friktionstalet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (1,2 kg) bromsas från 16 m/s till 9,0 m/s på 22 m vågrätt. Bestäm friktionstalet.</p>",
+        "s": "<p>\\(W=\\dfrac{1{,}2(16^2-9{,}0^2)}{2}=105\\) J, \\(\\mu=\\dfrac{105}{1{,}2\\cdot9{,}82\\cdot22}\\).</p><p><strong>Svar:</strong> \\(0{,}41\\)</p>",
         "ledtrad": "<p>Friktionsarbetet först.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141134,20 +141134,20 @@ window.BANK = [
     "niva": "C",
     "typ": "luftmotstånd vid lodrätt kast",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (2,0 kg) skjuts rakt upp med 20 m/s och vänder på 15 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p><ol type=\"a\"><li>Bestäm \\(F\\).</li><li>Med vilken fart landar det om samma kraft verkar på vägen ner?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{2{,}0\\cdot20^2}{2}=2{,}0\\cdot9{,}82\\cdot15+F\\cdot15\\).</p><p><strong>Svar:</strong> \\(7{,}0\\) N</p></li><li><p>\\(\\dfrac{2{,}0v^2}{2}=2{,}0\\cdot9{,}82\\cdot15-7{,}0\\cdot15\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (1,5 kg) skjuts rakt upp med 18 m/s och vänder på 13 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p><ol type=\"a\"><li>Bestäm \\(F\\).</li><li>Med vilken fart landar det om samma kraft verkar på vägen ner?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{1{,}5\\cdot18^2}{2}=1{,}5\\cdot9{,}82\\cdot13+F\\cdot13\\).</p><p><strong>Svar:</strong> \\(3{,}96\\) N</p></li><li><p>\\(\\dfrac{1{,}5v^2}{2}=1{,}5\\cdot9{,}82\\cdot13-3{,}96\\cdot13\\).</p><p><strong>Svar:</strong> \\(13{,}7\\) m/s</p></li></ol>",
     "id": "5.537",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7.0266666666666655,
-      13.75499909123952
+      3.96230769231,
+      13.6616250864
     ],
     "tolerans": [
-      0.105,
-      0.51
+      0.0592,
+      0.507
     ],
     "självrättning": true,
     "formaga": [
@@ -141168,13 +141168,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (2,0 kg) skjuts rakt upp med 20 m/s och vänder på 15 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (1,5 kg) skjuts rakt upp med 18 m/s och vänder på 13 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm \\(F\\).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (2,0 kg) skjuts rakt upp med 20 m/s och vänder på 15 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p><p>Bestäm \\(F\\).</p>",
-        "s": "<p>\\(\\dfrac{2{,}0\\cdot20^2}{2}=2{,}0\\cdot9{,}82\\cdot15+F\\cdot15\\).</p><p><strong>Svar:</strong> \\(7{,}0\\) N</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (1,5 kg) skjuts rakt upp med 18 m/s och vänder på 13 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p><p>Bestäm \\(F\\).</p>",
+        "s": "<p>\\(\\dfrac{1{,}5\\cdot18^2}{2}=1{,}5\\cdot9{,}82\\cdot13+F\\cdot13\\).</p><p><strong>Svar:</strong> \\(3{,}96\\) N</p>",
         "ledtrad": "<p>Rörelseenergin blir lägesenergi och friktionsarbete.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141184,8 +141184,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Med vilken fart landar det om samma kraft verkar på vägen ner?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (2,0 kg) skjuts rakt upp med 20 m/s och vänder på 15 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p>\\(F=7{,}0\\) N.<p>Med vilken fart landar det om samma kraft verkar på vägen ner?</p>",
-        "s": "<p>\\(\\dfrac{2{,}0v^2}{2}=2{,}0\\cdot9{,}82\\cdot15-7{,}0\\cdot15\\).</p><p><strong>Svar:</strong> \\(14\\) m/s</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (1,5 kg) skjuts rakt upp med 18 m/s och vänder på 13 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p>\\(F=3{,}96\\) N.<p>Med vilken fart landar det om samma kraft verkar på vägen ner?</p>",
+        "s": "<p>\\(\\dfrac{1{,}5v^2}{2}=1{,}5\\cdot9{,}82\\cdot13-3{,}96\\cdot13\\).</p><p><strong>Svar:</strong> \\(13{,}7\\) m/s</p>",
         "ledtrad": "<p>Nu motverkar \\(F\\) fallet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141289,20 +141289,20 @@ window.BANK = [
     "niva": "C",
     "typ": "upp och ner längs plan med friktion",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 37° och vänder i B, 2,5 m längre upp. Friktionstalet är \\(\\tfrac27\\).</p><ol type=\"a\"><li>Bestäm farten i A på vägen upp.</li><li>Bestäm farten i A på vägen ner.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{u^2}{2}=9{,}82\\cdot2{,}5\\left(\\sin37^\\circ+\\tfrac27\\cos37^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m/s</p></li><li><p>\\(\\dfrac{v^2}{2}=9{,}82\\cdot2{,}5\\left(\\sin37^\\circ-\\tfrac27\\cos37^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) m/s</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 35° och vänder i B, 3,0 m längre upp. Friktionstalet är 0,20.</p><ol type=\"a\"><li>Bestäm farten i A på vägen upp.</li><li>Bestäm farten i A på vägen ner.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{u^2}{2}=9{,}82\\cdot3{,}0\\left(\\sin35^\\circ+0{,}20\\cos35^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(6{,}6\\) m/s</p></li><li><p>\\(\\dfrac{v^2}{2}=9{,}82\\cdot3{,}0\\left(\\sin35^\\circ-0{,}20\\cos35^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(4{,}9\\) m/s</p></li></ol>",
     "id": "5.541",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      6.383794556128635,
-      4.283153317203757
+      6.59151054916,
+      4.91347493531
     ],
     "tolerans": [
-      0.0958,
-      0.0642
+      0.0989,
+      0.0736
     ],
     "självrättning": true,
     "formaga": [
@@ -141322,13 +141322,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 37° och vänder i B, 2,5 m längre upp. Friktionstalet är \\(\\tfrac27\\).</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 35° och vänder i B, 3,0 m längre upp. Friktionstalet är 0,20.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm farten i A på vägen upp.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 37° och vänder i B, 2,5 m längre upp. Friktionstalet är \\(\\tfrac27\\).</p><p>Bestäm farten i A på vägen upp.</p>",
-        "s": "<p>\\(\\dfrac{u^2}{2}=9{,}82\\cdot2{,}5\\left(\\sin37^\\circ+\\tfrac27\\cos37^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m/s</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 35° och vänder i B, 3,0 m längre upp. Friktionstalet är 0,20.</p><p>Bestäm farten i A på vägen upp.</p>",
+        "s": "<p>\\(\\dfrac{u^2}{2}=9{,}82\\cdot3{,}0\\left(\\sin35^\\circ+0{,}20\\cos35^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(6{,}6\\) m/s</p>",
         "ledtrad": "<p>Räkna per kilogram.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141338,8 +141338,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm farten i A på vägen ner.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 37° och vänder i B, 2,5 m längre upp. Friktionstalet är \\(\\tfrac27\\).</p><p>Bestäm farten i A på vägen ner.</p>",
-        "s": "<p>\\(\\dfrac{v^2}{2}=9{,}82\\cdot2{,}5\\left(\\sin37^\\circ-\\tfrac27\\cos37^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(4{,}3\\) m/s</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 35° och vänder i B, 3,0 m längre upp. Friktionstalet är 0,20.</p><p>Bestäm farten i A på vägen ner.</p>",
+        "s": "<p>\\(\\dfrac{v^2}{2}=9{,}82\\cdot3{,}0\\left(\\sin35^\\circ-0{,}20\\cos35^\\circ\\right)\\).</p><p><strong>Svar:</strong> \\(4{,}9\\) m/s</p>",
         "ledtrad": "<p>Nu motverkar friktionen fallet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141359,21 +141359,21 @@ window.BANK = [
     "niva": "A",
     "typ": "friktionstal ur fart på plan",
     "poang": "(0/3/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En låda (0,50 kg) glider nedför ett plan som lutar 30°. Farten är 10 m/s i A och 9,0 m/s i B, 12 m längre ner. Hur mycket mekanisk energi förloras?</li><li>Bestäm friktionstalet.</li><li>Ett föremål glider från vila 10 m nedför ett plan med \\(\\tan\\alpha=\\tfrac43\\) och får farten 7,0 m/s. Bestäm friktionstalet.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(\\Delta E=\\dfrac{0{,}50(10^2-9{,}0^2)}{2}+0{,}50\\cdot9{,}82\\cdot12\\sin30^\\circ\\).</p><p><strong>Svar:</strong> \\(34\\) J</p></li><li><p>\\(\\mu=\\dfrac{34{,}2}{0{,}50\\cdot9{,}82\\cos30^\\circ\\cdot12}\\).</p><p><strong>Svar:</strong> \\(0{,}67\\)</p></li><li><p>\\(\\sin\\alpha=0{,}8\\), \\(\\cos\\alpha=0{,}6\\). \\(\\dfrac{7{,}0^2}{2}=9{,}82\\cdot10(0{,}8-0{,}6\\mu)\\).</p><p><strong>Svar:</strong> \\(0{,}92\\)</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En låda (0,60 kg) glider nedför ett plan som lutar 25°. Farten är 8,0 m/s i A och 7,0 m/s i B, 15 m längre ner. Hur mycket mekanisk energi förloras?</li><li>Bestäm friktionstalet.</li><li>Ett föremål glider från vila 10 m nedför ett plan med \\(\\tan\\alpha=\\tfrac43\\) och får farten 7,0 m/s. Bestäm friktionstalet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\Delta E=\\dfrac{0{,}60(8{,}0^2-7{,}0^2)}{2}+0{,}60\\cdot9{,}82\\cdot15\\sin25^\\circ\\).</p><p><strong>Svar:</strong> \\(41{,}9\\) J</p></li><li><p>\\(\\mu=\\dfrac{41{,}9}{0{,}60\\cdot9{,}82\\cos25^\\circ\\cdot15}\\).</p><p><strong>Svar:</strong> \\(0{,}52\\)</p></li><li><p>\\(\\sin\\alpha=0{,}8\\), \\(\\cos\\alpha=0{,}6\\). \\(\\dfrac{7{,}0^2}{2}=9{,}82\\cdot10(0{,}8-0{,}6\\mu)\\).</p><p><strong>Svar:</strong> \\(0{,}92\\)</p></li></ol>",
     "id": "5.542",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      34.21,
-      0.6704396710447079,
+      41.8510019726,
+      0.522487796595,
       0.9175152749490836
     ],
     "tolerans": [
-      0.513,
-      0.0101,
+      0.628,
+      0.00787,
       0.0138
     ],
     "självrättning": true,
@@ -141401,9 +141401,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En låda (0,50 kg) glider nedför ett plan som lutar 30°. Farten är 10 m/s i A och 9,0 m/s i B, 12 m längre ner. Hur mycket mekanisk energi förloras?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (0,50 kg) glider nedför ett plan som lutar 30°. Farten är 10 m/s i A och 9,0 m/s i B, 12 m längre ner. Hur mycket mekanisk energi förloras?</p>",
-        "s": "<p>\\(\\Delta E=\\dfrac{0{,}50(10^2-9{,}0^2)}{2}+0{,}50\\cdot9{,}82\\cdot12\\sin30^\\circ\\).</p><p><strong>Svar:</strong> \\(34\\) J</p>",
+        "fraga": "En låda (0,60 kg) glider nedför ett plan som lutar 25°. Farten är 8,0 m/s i A och 7,0 m/s i B, 15 m längre ner. Hur mycket mekanisk energi förloras?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (0,60 kg) glider nedför ett plan som lutar 25°. Farten är 8,0 m/s i A och 7,0 m/s i B, 15 m längre ner. Hur mycket mekanisk energi förloras?</p>",
+        "s": "<p>\\(\\Delta E=\\dfrac{0{,}60(8{,}0^2-7{,}0^2)}{2}+0{,}60\\cdot9{,}82\\cdot15\\sin25^\\circ\\).</p><p><strong>Svar:</strong> \\(41{,}9\\) J</p>",
         "ledtrad": "<p>Både rörelse- och lägesenergi minskar.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141413,8 +141413,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p>Förlusten är 34 J.<p>Bestäm friktionstalet.</p>",
-        "s": "<p>\\(\\mu=\\dfrac{34{,}2}{0{,}50\\cdot9{,}82\\cos30^\\circ\\cdot12}\\).</p><p><strong>Svar:</strong> \\(0{,}67\\)</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (0,60 kg) glider nedför ett plan som lutar 25°. Farten är 8,0 m/s i A och 7,0 m/s i B, 15 m längre ner. Under glidningen förloras 41,9 J mekanisk energi.</p><p>Bestäm friktionstalet.</p>",
+        "s": "<p>\\(\\mu=\\dfrac{41{,}9}{0{,}60\\cdot9{,}82\\cos25^\\circ\\cdot15}\\).</p><p><strong>Svar:</strong> \\(0{,}52\\)</p>",
         "ledtrad": "<p>Energiförlusten är friktionsarbete.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141445,20 +141445,20 @@ window.BANK = [
     "niva": "C",
     "typ": "bromsande kraft vid olika lutning",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,50 kg) skjuts med 5,0 m/s uppför ett plan som lutar 20° och vänder efter 2,0 m. En konstant bromsande kraft verkar.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Lutningen ökas till 40° och klossen skjuts med 8,0 m/s. Hur långt kommer den med samma bromsande kraft?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{0{,}50\\cdot5{,}0^2}{2}=0{,}50\\cdot9{,}82\\sin20^\\circ\\cdot2{,}0+F\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) N</p></li><li><p>\\(16=d(0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45)\\).</p><p><strong>Svar:</strong> \\(3{,}5\\) m</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,40 kg) skjuts med 6,0 m/s uppför ett plan som lutar 25° och vänder efter 2,5 m. En konstant bromsande kraft verkar.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Lutningen ökas till 35° och klossen skjuts med 7,0 m/s. Hur långt kommer den med samma bromsande kraft?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{0{,}40\\cdot6{,}0^2}{2}=0{,}40\\cdot9{,}82\\sin25^\\circ\\cdot2{,}5+F\\cdot2{,}5\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) N</p></li><li><p>\\(9{,}8=d(0{,}40\\cdot9{,}82\\sin35^\\circ+1{,}22)\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m</p></li></ol>",
     "id": "5.543",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.4456810962709665,
-      3.4769243248647554
+      1.21995546788,
+      2.82179740956
     ],
     "tolerans": [
-      0.051,
-      0.0522
+      0.043,
+      0.0424
     ],
     "självrättning": true,
     "formaga": [
@@ -141478,13 +141478,13 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,50 kg) skjuts med 5,0 m/s uppför ett plan som lutar 20° och vänder efter 2,0 m. En konstant bromsande kraft verkar.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,40 kg) skjuts med 6,0 m/s uppför ett plan som lutar 25° och vänder efter 2,5 m. En konstant bromsande kraft verkar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm den bromsande kraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,50 kg) skjuts med 5,0 m/s uppför ett plan som lutar 20° och vänder efter 2,0 m. En konstant bromsande kraft verkar.</p><p>Bestäm den bromsande kraften.</p>",
-        "s": "<p>\\(\\dfrac{0{,}50\\cdot5{,}0^2}{2}=0{,}50\\cdot9{,}82\\sin20^\\circ\\cdot2{,}0+F\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}4\\) N</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,40 kg) skjuts med 6,0 m/s uppför ett plan som lutar 25° och vänder efter 2,5 m. En konstant bromsande kraft verkar.</p><p>Bestäm den bromsande kraften.</p>",
+        "s": "<p>\\(\\dfrac{0{,}40\\cdot6{,}0^2}{2}=0{,}40\\cdot9{,}82\\sin25^\\circ\\cdot2{,}5+F\\cdot2{,}5\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) N</p>",
         "ledtrad": "<p>Rörelseenergin blir lägesenergi och friktionsarbete.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141493,9 +141493,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Lutningen ökas till 40° och klossen skjuts med 8,0 m/s. Hur långt kommer den med samma bromsande kraft?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,50 kg) skjuts med 5,0 m/s uppför ett plan som lutar 20° och vänder efter 2,0 m. En konstant bromsande kraft verkar.</p>Den bromsande kraften är 1,45 N.<p>Lutningen ökas till 40° och klossen skjuts med 8,0 m/s. Hur långt kommer den med samma bromsande kraft?</p>",
-        "s": "<p>\\(16=d(0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45)\\).</p><p><strong>Svar:</strong> \\(3{,}5\\) m</p>",
+        "fraga": "Lutningen ökas till 35° och klossen skjuts med 7,0 m/s. Hur långt kommer den med samma bromsande kraft?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,40 kg) skjuts med 6,0 m/s uppför ett plan som lutar 25° och vänder efter 2,5 m. En konstant bromsande kraft verkar.</p>Den bromsande kraften är 1,22 N.<p>Lutningen ökas till 35° och klossen skjuts med 7,0 m/s. Hur långt kommer den med samma bromsande kraft?</p>",
+        "s": "<p>\\(9{,}8=d(0{,}40\\cdot9{,}82\\sin35^\\circ+1{,}22)\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) m</p>",
         "ledtrad": "<p>Samma metod.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141945,12 +141945,12 @@ window.BANK = [
     "niva": "C",
     "poang": "1/2/0",
     "typ": "massdefekt vid alfasönderfall",
-    "t": "<p>Vid ett alfasönderfall är moderkärnans massa 226,025410 u. Dotterkärnans massa är 222,017578 u och alfapartikelns massa 4,002602 u. Bestäm den frigjorda energin. Energiomvandlingen är 1 u·c² = 931,5 MeV.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-matte\">\\[m_{efter}=222{,}017578+4{,}002602=226{,}020180\\ \\mathrm u\\]\\[\\Delta m=226{,}025410-226{,}020180=0{,}005230\\ \\mathrm u\\]\\[E=0{,}005230\\cdot931{,}5=4{,}87\\ \\mathrm{MeV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Det frigörs \\(4{,}87\\ \\mathrm{MeV}\\).</p></div>",
+    "t": "<p>Vid ett alfasönderfall är moderkärnans massa 238,050788 u. Dotterkärnans massa är 234,043601 u och alfapartikelns massa 4,002602 u. Bestäm den frigjorda energin. Energiomvandlingen är 1 u·c² = 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-matte\">\\[m_{efter}=234{,}043601+4{,}002602=238{,}046203\\ \\mathrm u\\]\\[\\Delta m=238{,}050788-238{,}046203=0{,}004585\\ \\mathrm u\\]\\[E=0{,}004585\\cdot931{,}5=4{,}27\\ \\mathrm{MeV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Det frigörs \\(4{,}27\\ \\mathrm{MeV}\\).</p></div>",
     "ledtrad": "<p>Använd \\(\\Delta m=m_{före}-(m_{dotter}+m_\\alpha)\\).</p>",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.872,
-    "tolerans": 0.05,
+    "rättSvar": 4.271,
+    "tolerans": 0.0438,
     "miniräknare": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
@@ -141999,11 +141999,11 @@ window.BANK = [
     "niva": "E",
     "poang": "1/0/0",
     "typ": "atomnummer efter beta-minus",
-    "t": "<p>Kol-14 har atomnumret 6 och beta-minus-sönderfaller. Vilket atomnummer får dotterkärnan?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-matte\">\\[Z_{dotter}=6+1=7\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Atomnumret blir \\(7\\).</p></div>",
+    "t": "<p>Jod-131 har atomnumret 53 och beta-minus-sönderfaller. Vilket atomnummer får dotterkärnan?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-matte\">\\[Z_{dotter}=53+1=54\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Atomnumret blir \\(54\\).</p></div>",
     "ledtrad": "<p>Vid beta-minus ökar Z med 1.</p>",
     "svarstyp": "numeriskt",
-    "rättSvar": 7,
+    "rättSvar": 54,
     "tolerans": 0,
     "kap": 9,
     "omr": "sonderfall",
@@ -142198,12 +142198,12 @@ window.BANK = [
     "niva": "A",
     "poang": "0/1/2",
     "typ": "beta-plus-energi med elektronmasskorrektion",
-    "t": "<p>Natrium-22 beta-plus-sönderfaller till neon-22. Atommassorna är 21,994437 u och 21,991385 u. Elektronmassan är 0,000549 u. Bestäm den frigjorda energin. Energiomvandlingen är 1 u·c² = 931,5 MeV. Förklara också korrektionen för elektronmassor.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-matte\">\\[\\Delta m=21{,}994437-21{,}991385-2\\cdot0{,}000549=0{,}001954\\ \\mathrm u\\]\\[E=0{,}001954\\cdot931{,}5=1{,}82\\ \\mathrm{MeV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Det frigörs cirka \\(1{,}82\\ \\mathrm{MeV}\\).</p></div>",
+    "t": "<p>Fluor-18 beta-plus-sönderfaller till syre-18. Atommassorna är 18,000938 u och 17,999160 u. Elektronmassan är 0,000549 u. Bestäm den frigjorda energin. Energiomvandlingen är 1 u·c² = 931,5 MeV. Förklara också korrektionen för elektronmassor.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-matte\">\\[\\Delta m=18{,}000938-17{,}999160-2\\cdot0{,}000549=0{,}000680\\ \\mathrm u\\]\\[E=0{,}000680\\cdot931{,}5=0{,}633\\ \\mathrm{MeV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Det frigörs cirka \\(0{,}633\\ \\mathrm{MeV}\\).</p></div>",
     "ledtrad": "<p>Använd \\(\\Delta m=m_{moder}-m_{dotter}-2m_e\\).</p>",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.82,
-    "tolerans": 0.03,
+    "rättSvar": 0.6334,
+    "tolerans": 0.01,
     "miniräknare": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
@@ -153656,22 +153656,22 @@ window.BANK = [
     "niva": "C",
     "typ": "volym vid konstant tryck",
     "poang": "(2/2/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><ol type=\"a\"><li>En gas har volymen 47 cm³ vid 100 °C. Bestäm volymen vid 22 °C.</li><li>75 cm³ gas vid 18 °C värms till 100 °C. Hur mycket ökar volymen?</li><li>Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?</li><li>Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(V=47\\cdot\\dfrac{295}{373}\\).</p><p><strong>Svar:</strong> \\(37\\) cm³</p></li><li><p>\\(\\Delta V=75\\left(\\dfrac{373}{291}-1\\right)\\).</p><p><strong>Svar:</strong> \\(21\\) cm³</p></li><li><p>\\(T=2\\cdot283=566\\) K.</p><p><strong>Svar:</strong> \\(293\\) °C</p></li><li><p>\\(T=1{,}600\\cdot293=469\\) K.</p><p><strong>Svar:</strong> \\(196\\) °C</p></li></ol>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><ol type=\"a\"><li>En gas har volymen 52 cm³ vid 90 °C. Bestäm volymen vid 15 °C.</li><li>60 cm³ gas vid 12 °C värms till 85 °C. Hur mycket ökar volymen?</li><li>Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?</li><li>Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=52\\cdot\\dfrac{288}{363}\\).</p><p><strong>Svar:</strong> \\(41\\) cm³</p></li><li><p>\\(\\Delta V=60\\left(\\dfrac{358}{285}-1\\right)\\).</p><p><strong>Svar:</strong> \\(15{,}4\\) cm³</p></li><li><p>\\(T=2\\cdot283=566\\) K.</p><p><strong>Svar:</strong> \\(293\\) °C</p></li><li><p>\\(T=1{,}600\\cdot293=469\\) K.</p><p><strong>Svar:</strong> \\(196\\) °C</p></li></ol>",
     "id": "6.514",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      37.171581769437,
-      21.134020618556708,
+      41.2561983471,
+      15.3684210526,
       293,
       195.8
     ],
     "tolerans": [
-      0.558,
-      0.51,
+      0.619,
+      0.371,
       4.39,
       2.94
     ],
@@ -153703,9 +153703,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En gas har volymen 47 cm³ vid 100 °C. Bestäm volymen vid 22 °C.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>En gas har volymen 47 cm³ vid 100 °C. Bestäm volymen vid 22 °C.</p>",
-        "s": "<p>\\(V=47\\cdot\\dfrac{295}{373}\\).</p><p><strong>Svar:</strong> \\(37\\) cm³</p>",
+        "fraga": "En gas har volymen 52 cm³ vid 90 °C. Bestäm volymen vid 15 °C.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>En gas har volymen 52 cm³ vid 90 °C. Bestäm volymen vid 15 °C.</p>",
+        "s": "<p>\\(V=52\\cdot\\dfrac{288}{363}\\).</p><p><strong>Svar:</strong> \\(41\\) cm³</p>",
         "ledtrad": "<p>\\(\\dfrac{V}{T}\\) är konstant.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -153714,9 +153714,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "75 cm³ gas vid 18 °C värms till 100 °C. Hur mycket ökar volymen?",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>75 cm³ gas vid 18 °C värms till 100 °C. Hur mycket ökar volymen?</p>",
-        "s": "<p>\\(\\Delta V=75\\left(\\dfrac{373}{291}-1\\right)\\).</p><p><strong>Svar:</strong> \\(21\\) cm³</p>",
+        "fraga": "60 cm³ gas vid 12 °C värms till 85 °C. Hur mycket ökar volymen?",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>60 cm³ gas vid 12 °C värms till 85 °C. Hur mycket ökar volymen?</p>",
+        "s": "<p>\\(\\Delta V=60\\left(\\dfrac{358}{285}-1\\right)\\).</p><p><strong>Svar:</strong> \\(15{,}4\\) cm³</p>",
         "ledtrad": "<p>Beräkna den nya volymen först.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -153867,19 +153867,19 @@ window.BANK = [
     "niva": "A",
     "typ": "bildäck och temperatur",
     "poang": "(0/2/1)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><ol type=\"a\"><li>Det totala trycket var 290 kPa vid 12 °C och är 320 kPa efter körning. Bestäm temperaturen i °C.</li><li>Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(T=285\\cdot\\dfrac{320}{290}\\) K.</p><p><strong>Svar:</strong> \\(41\\) °C</p></li><li><p>Totalt: \\(371{,}3\\cdot\\dfrac{278}{323}=319{,}6\\) kPa. Övertryck: \\(319{,}6-101{,}3\\).</p><p><strong>Svar:</strong> \\(2{,}18\\cdot10^{5}\\) Pa</p></li></ol>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><ol type=\"a\"><li>Det totala trycket var 275 kPa vid 8 °C och är 310 kPa efter körning. Bestäm temperaturen i °C.</li><li>Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=281\\cdot\\dfrac{310}{275}\\) K.</p><p><strong>Svar:</strong> \\(44\\) °C</p></li><li><p>Totalt: \\(371{,}3\\cdot\\dfrac{278}{323}=319{,}6\\) kPa. Övertryck: \\(319{,}6-101{,}3\\).</p><p><strong>Svar:</strong> \\(2{,}18\\cdot10^{5}\\) Pa</p></li></ol>",
     "id": "6.519",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      41.48275862068965,
+      43.7636363636,
       218270.89783281734
     ],
     "tolerans": [
-      0.622,
+      0.656,
       3270.0
     ],
     "självrättning": true,
@@ -153905,9 +153905,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Det totala trycket var 290 kPa vid 12 °C och är 320 kPa efter körning. Bestäm temperaturen i °C.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><p>Det totala trycket var 290 kPa vid 12 °C och är 320 kPa efter körning. Bestäm temperaturen i °C.</p>",
-        "s": "<p>\\(T=285\\cdot\\dfrac{320}{290}\\) K.</p><p><strong>Svar:</strong> \\(41\\) °C</p>",
+        "fraga": "Det totala trycket var 275 kPa vid 8 °C och är 310 kPa efter körning. Bestäm temperaturen i °C.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><p>Det totala trycket var 275 kPa vid 8 °C och är 310 kPa efter körning. Bestäm temperaturen i °C.</p>",
+        "s": "<p>\\(T=281\\cdot\\dfrac{310}{275}\\) K.</p><p><strong>Svar:</strong> \\(44\\) °C</p>",
         "ledtrad": "<p>\\(\\dfrac{p}{T}\\) är konstant.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -153966,22 +153966,22 @@ window.BANK = [
     "niva": "C",
     "typ": "glasballong tål begränsat övertryck",
     "poang": "(0/1/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En glasballong försluts vid 22,0 °C och 1 040 mbar. Den tål ett övertryck på högst 500 mbar. Till vilken temperatur (°C) får den högst värmas?</p>",
-    "s": "<p>Högsta totaltryck 1 540 mbar. \\(T=295\\cdot\\dfrac{1\\,540}{1\\,040}\\) K.</p><p><strong>Svar:</strong> \\(164\\) °C</p>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En glasballong försluts vid 18,0 °C och 1 015 mbar. Den tål ett övertryck på högst 450 mbar. Till vilken temperatur (°C) får den högst värmas?</p>",
+    "s": "<p>Högsta totaltryck 1 465 mbar. \\(T=291\\cdot\\dfrac{1\\,465}{1\\,015}\\) K.</p><p><strong>Svar:</strong> \\(147\\) °C</p>",
     "id": "6.521",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 163.8269230769231,
-    "tolerans": 2.46,
+    "rättSvar": 147.014778325,
+    "tolerans": 2.21,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Övertrycket räknas mot 1 040 mbar.</p>",
+    "ledtrad": "<p>Övertrycket räknas mot 1 015 mbar.</p>",
     "traningsniva": 3,
     "svarEnhet": "°C",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
@@ -154077,15 +154077,15 @@ window.BANK = [
     "niva": "A",
     "typ": "säkerhetsventil öppnas",
     "poang": "(0/1/1)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En sluten behållare innehåller luft (101,3 kPa, 18 °C). Behållarens runda säkerhetsventil (diameter 1,50 cm) öppnar när nettokraften från gasen överstiger 10,0 N. Trycket utanför är 101,3 kPa. Vid vilken temperatur (°C) öppnar den? Volymen är konstant.</p>",
-    "s": "<p>\\(\\Delta p=\\dfrac{10{,}0}{\\pi\\cdot0{,}0075^2}=56{,}6\\) kPa. \\(T=291\\cdot\\dfrac{157{,}9}{101{,}3}\\) K.</p><p><strong>Svar:</strong> \\(181\\) °C</p>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En sluten behållare innehåller luft (101,3 kPa, 15 °C). Behållarens runda säkerhetsventil (diameter 1,20 cm) öppnar när nettokraften från gasen överstiger 8,0 N. Trycket utanför är 101,3 kPa. Vid vilken temperatur (°C) öppnar den? Volymen är konstant.</p>",
+    "s": "<p>\\(\\Delta p=\\dfrac{8{,}0}{\\pi\\cdot0{,}0060^2}=70{,}7\\) kPa. \\(T=288\\cdot\\dfrac{172{,}0}{101{,}3}\\) K.</p><p><strong>Svar:</strong> \\(216\\) °C</p>",
     "id": "6.525",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 180.5590468434496,
-    "tolerans": 5.1,
+    "rättSvar": 216.103975476,
+    "tolerans": 6.1,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -154131,15 +154131,15 @@ window.BANK = [
     "niva": "E",
     "typ": "luft i lungorna värms",
     "poang": "(1/0/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Du andas in 3,0 liter luft vid 0 °C. Hur stor volym har luften när den värmts till 37 °C vid samma tryck?</p>",
-    "s": "<p>\\(V=3{,}0\\cdot\\dfrac{310}{273}\\).</p><p><strong>Svar:</strong> \\(3{,}4\\) l</p>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Du andas in 2,5 liter luft vid −5 °C. Hur stor volym har luften när den värmts till 37 °C vid samma tryck?</p>",
+    "s": "<p>\\(V=2{,}5\\cdot\\dfrac{310}{268}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) l</p>",
     "id": "6.527",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.4065934065934065,
-    "tolerans": 0.0511,
+    "rättSvar": 2.89179104478,
+    "tolerans": 0.0434,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -154158,15 +154158,15 @@ window.BANK = [
     "niva": "C",
     "typ": "syltburk med undertryck",
     "poang": "(0/1/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luften under locket på en syltburk hade 101,3 kPa vid 80 °C. Vid öppningen är temperaturen 20 °C och lufttrycket 101,3 kPa. Hur stor kraft krävs minst för att öppna locket (diameter 12 cm)?</p>",
-    "s": "<p>\\(p=101{,}3\\cdot\\dfrac{293}{353}=84{,}1\\) kPa. \\(F=(101{,}3-84{,}1)\\cdot10^3\\cdot\\pi\\cdot0{,}060^2\\).</p><p><strong>Svar:</strong> \\(195\\) N</p>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luften under locket på en syltburk hade 101,3 kPa vid 85 °C. Vid öppningen är temperaturen 22 °C och lufttrycket 101,3 kPa. Hur stor kraft krävs minst för att öppna locket (diameter 8,0 cm)?</p>",
+    "s": "<p>\\(p=101{,}3\\cdot\\dfrac{295}{358}=83{,}5\\) kPa. \\(F=(101{,}3-83{,}5)\\cdot10^3\\cdot\\pi\\cdot0{,}040^2\\).</p><p><strong>Svar:</strong> \\(90\\) N</p>",
     "id": "6.528",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 194.7324661038741,
-    "tolerans": 5.1,
+    "rättSvar": 89.605944831,
+    "tolerans": 2.35,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -154214,24 +154214,24 @@ window.BANK = [
     "niva": "C",
     "typ": "allmänna gaslagen med tre storheter",
     "poang": "(0/4/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>En gas har 150 cm³ vid 0 °C och 1 013 mbar. Bestäm volymen vid 75,0 °C och 1 540 mbar.</li><li>En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.</li><li>Luft (61,5 liter, 18,0 °C, 2,45 atm) komprimeras till 38,1 liter och värms till 56,0 °C. Bestäm trycket i atm.</li><li>En gas har 3,50 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 3,20 atm och 38,0 °C.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(V=150\\cdot\\dfrac{1\\,013}{1\\,540}\\cdot\\dfrac{348}{273}\\).</p><p><strong>Svar:</strong> \\(126\\) cm³</p></li><li><p>\\(p=1{,}0\\cdot10^5\\cdot\\dfrac{1{,}2}{0{,}60}\\cdot\\dfrac{500}{300}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\cdot10^{5}\\) Pa</p></li><li><p>\\(p=2{,}45\\cdot\\dfrac{61{,}5}{38{,}1}\\cdot\\dfrac{329}{291}\\).</p><p><strong>Svar:</strong> \\(4{,}47\\) atm</p></li><li><p>\\(V=3{,}50\\cdot\\dfrac{1{,}00}{3{,}20}\\cdot\\dfrac{311}{273}\\).</p><p><strong>Svar:</strong> \\(1{,}25\\) m³</p></li></ol>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>En gas har 120 cm³ vid 10 °C och 1 013 mbar. Bestäm volymen vid 65,0 °C och 1 380 mbar.</li><li>En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.</li><li>Luft (54,0 liter, 16,0 °C, 2,20 atm) komprimeras till 35,5 liter och värms till 48,0 °C. Bestäm trycket i atm.</li><li>En gas har 2,40 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 2,60 atm och 45,0 °C.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=120\\cdot\\dfrac{1\\,013}{1\\,380}\\cdot\\dfrac{338}{283}\\).</p><p><strong>Svar:</strong> \\(105\\) cm³</p></li><li><p>\\(p=1{,}0\\cdot10^5\\cdot\\dfrac{1{,}2}{0{,}60}\\cdot\\dfrac{500}{300}\\).</p><p><strong>Svar:</strong> \\(3{,}3\\cdot10^{5}\\) Pa</p></li><li><p>\\(p=2{,}20\\cdot\\dfrac{54{,}0}{35{,}5}\\cdot\\dfrac{321}{289}\\).</p><p><strong>Svar:</strong> \\(3{,}72\\) atm</p></li><li><p>\\(V=2{,}40\\cdot\\dfrac{1{,}00}{2{,}60}\\cdot\\dfrac{318}{273}\\).</p><p><strong>Svar:</strong> \\(1{,}08\\) m³</p></li></ol>",
     "id": "6.530",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      125.77565291851008,
+      105.206329697,
       333333.3333333333,
-      4.471148902778905,
-      1.2459935897435896
+      3.71702324675,
+      1.07523245985
     ],
     "tolerans": [
-      1.89,
+      1.58,
       5100.0,
-      0.0671,
-      0.0187
+      0.0558,
+      0.0161
     ],
     "självrättning": true,
     "formaga": [
@@ -154261,9 +154261,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En gas har 150 cm³ vid 0 °C och 1 013 mbar. Bestäm volymen vid 75,0 °C och 1 540 mbar.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har 150 cm³ vid 0 °C och 1 013 mbar. Bestäm volymen vid 75,0 °C och 1 540 mbar.</p>",
-        "s": "<p>\\(V=150\\cdot\\dfrac{1\\,013}{1\\,540}\\cdot\\dfrac{348}{273}\\).</p><p><strong>Svar:</strong> \\(126\\) cm³</p>",
+        "fraga": "En gas har 120 cm³ vid 10 °C och 1 013 mbar. Bestäm volymen vid 65,0 °C och 1 380 mbar.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har 120 cm³ vid 10 °C och 1 013 mbar. Bestäm volymen vid 65,0 °C och 1 380 mbar.</p>",
+        "s": "<p>\\(V=120\\cdot\\dfrac{1\\,013}{1\\,380}\\cdot\\dfrac{338}{283}\\).</p><p><strong>Svar:</strong> \\(105\\) cm³</p>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154283,9 +154283,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Luft (61,5 liter, 18,0 °C, 2,45 atm) komprimeras till 38,1 liter och värms till 56,0 °C. Bestäm trycket i atm.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (61,5 liter, 18,0 °C, 2,45 atm) komprimeras till 38,1 liter och värms till 56,0 °C. Bestäm trycket i atm.</p>",
-        "s": "<p>\\(p=2{,}45\\cdot\\dfrac{61{,}5}{38{,}1}\\cdot\\dfrac{329}{291}\\).</p><p><strong>Svar:</strong> \\(4{,}47\\) atm</p>",
+        "fraga": "Luft (54,0 liter, 16,0 °C, 2,20 atm) komprimeras till 35,5 liter och värms till 48,0 °C. Bestäm trycket i atm.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (54,0 liter, 16,0 °C, 2,20 atm) komprimeras till 35,5 liter och värms till 48,0 °C. Bestäm trycket i atm.</p>",
+        "s": "<p>\\(p=2{,}20\\cdot\\dfrac{54{,}0}{35{,}5}\\cdot\\dfrac{321}{289}\\).</p><p><strong>Svar:</strong> \\(3{,}72\\) atm</p>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154294,9 +154294,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En gas har 3,50 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 3,20 atm och 38,0 °C.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har 3,50 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 3,20 atm och 38,0 °C.</p>",
-        "s": "<p>\\(V=3{,}50\\cdot\\dfrac{1{,}00}{3{,}20}\\cdot\\dfrac{311}{273}\\).</p><p><strong>Svar:</strong> \\(1{,}25\\) m³</p>",
+        "fraga": "En gas har 2,40 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 2,60 atm och 45,0 °C.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har 2,40 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 2,60 atm och 45,0 °C.</p>",
+        "s": "<p>\\(V=2{,}40\\cdot\\dfrac{1{,}00}{2{,}60}\\cdot\\dfrac{318}{273}\\).</p><p><strong>Svar:</strong> \\(1{,}08\\) m³</p>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154316,20 +154316,20 @@ window.BANK = [
     "niva": "C",
     "typ": "temperatur vid kompression i motor",
     "poang": "(0/2/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>Luft (30 °C) i en cylinder komprimeras så att volymen minskar med 90 % och trycket ökar 20 gånger. Bestäm temperaturen i kelvin.</li><li>Luft (20 °C, 100 kPa) pressas ihop till 1/9 av volymen och trycket blir 4,0 MPa. Bestäm temperaturen i kelvin.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(T=303\\cdot0{,}10\\cdot20\\).</p><p><strong>Svar:</strong> \\(606\\) K</p></li><li><p>\\(T=293\\cdot\\dfrac19\\cdot40\\).</p><p><strong>Svar:</strong> \\(1\\,302\\) K</p></li></ol>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>Luft (25 °C) i en cylinder komprimeras så att volymen minskar med 88 % och trycket ökar 18 gånger. Bestäm temperaturen i kelvin.</li><li>Luft (17 °C, 100 kPa) pressas ihop till 1/8 av volymen och trycket blir 3,5 MPa. Bestäm temperaturen i kelvin.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=298\\cdot0{,}12\\cdot18\\).</p><p><strong>Svar:</strong> \\(644\\) K</p></li><li><p>\\(T=290\\cdot\\dfrac18\\cdot35\\).</p><p><strong>Svar:</strong> \\(1\\,269\\) K</p></li></ol>",
     "id": "6.531",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      606.0,
-      1302.2222222222222
+      643.68,
+      1268.75
     ],
     "tolerans": [
-      9.09,
-      51.0
+      9.66,
+      49.7
     ],
     "självrättning": true,
     "formaga": [
@@ -154354,9 +154354,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Luft (30 °C) i en cylinder komprimeras så att volymen minskar med 90 % och trycket ökar 20 gånger. Bestäm temperaturen i kelvin.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (30 °C) i en cylinder komprimeras så att volymen minskar med 90 % och trycket ökar 20 gånger. Bestäm temperaturen i kelvin.</p>",
-        "s": "<p>\\(T=303\\cdot0{,}10\\cdot20\\).</p><p><strong>Svar:</strong> \\(606\\) K</p>",
+        "fraga": "Luft (25 °C) i en cylinder komprimeras så att volymen minskar med 88 % och trycket ökar 18 gånger. Bestäm temperaturen i kelvin.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (25 °C) i en cylinder komprimeras så att volymen minskar med 88 % och trycket ökar 18 gånger. Bestäm temperaturen i kelvin.</p>",
+        "s": "<p>\\(T=298\\cdot0{,}12\\cdot18\\).</p><p><strong>Svar:</strong> \\(644\\) K</p>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154365,9 +154365,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Luft (20 °C, 100 kPa) pressas ihop till 1/9 av volymen och trycket blir 4,0 MPa. Bestäm temperaturen i kelvin.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (20 °C, 100 kPa) pressas ihop till 1/9 av volymen och trycket blir 4,0 MPa. Bestäm temperaturen i kelvin.</p>",
-        "s": "<p>\\(T=293\\cdot\\dfrac19\\cdot40\\).</p><p><strong>Svar:</strong> \\(1\\,302\\) K</p>",
+        "fraga": "Luft (17 °C, 100 kPa) pressas ihop till 1/8 av volymen och trycket blir 3,5 MPa. Bestäm temperaturen i kelvin.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (17 °C, 100 kPa) pressas ihop till 1/8 av volymen och trycket blir 3,5 MPa. Bestäm temperaturen i kelvin.</p>",
+        "s": "<p>\\(T=290\\cdot\\dfrac18\\cdot35\\).</p><p><strong>Svar:</strong> \\(1\\,269\\) K</p>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154442,15 +154442,15 @@ window.BANK = [
     "niva": "E",
     "typ": "temperatur ur kvoter",
     "poang": "(1/0/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har volymen \\(V\\), trycket \\(p\\) och temperaturen 20 °C. Bestäm temperaturen i kelvin när volymen är \\(1{,}6V\\) och trycket \\(0{,}1p\\).</p>",
-    "s": "<p>\\(T=293\\cdot1{,}6\\cdot0{,}1\\).</p><p><strong>Svar:</strong> \\(47\\) K</p>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har volymen \\(V\\), trycket \\(p\\) och temperaturen 15 °C. Bestäm temperaturen i kelvin när volymen är \\(2{,}4V\\) och trycket \\(0{,}15p\\).</p>",
+    "s": "<p>\\(T=288\\cdot2{,}4\\cdot0{,}15\\).</p><p><strong>Svar:</strong> \\(104\\) K</p>",
     "id": "6.534",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 46.88,
-    "tolerans": 0.703,
+    "rättSvar": 103.68,
+    "tolerans": 1.55,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -154469,20 +154469,20 @@ window.BANK = [
     "niva": "C",
     "typ": "syrgastub på sjukhus",
     "poang": "(1/1/0)",
-    "t": "<p>En syrgastub (17,0 liter) har trycket 15,0 MPa. Temperaturen är konstant.</p><ol type=\"a\"><li>Vilken volym upptar syrgasen vid 101,3 kPa?</li><li>Patienten andas 8,0 liter/min vid 101,3 kPa. Hur många timmar räcker tuben?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(V=17{,}0\\cdot\\dfrac{15{,}0\\cdot10^6}{101{,}3\\cdot10^3}\\) liter.</p><p><strong>Svar:</strong> \\(2{,}52\\) m³</p></li><li><p>\\(t=\\dfrac{2\\,517}{8{,}0}\\) min.</p><p><strong>Svar:</strong> \\(5{,}2\\) h</p></li></ol>",
+    "t": "<p>En syrgastub (10,0 liter) har trycket 20,0 MPa. Temperaturen är konstant.</p><ol type=\"a\"><li>Vilken volym upptar syrgasen vid 101,3 kPa?</li><li>Patienten andas 6,0 liter/min vid 101,3 kPa. Hur många timmar räcker tuben?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=10{,}0\\cdot\\dfrac{20{,}0\\cdot10^6}{101{,}3\\cdot10^3}\\) liter.</p><p><strong>Svar:</strong> \\(1{,}97\\) m³</p></li><li><p>\\(t=\\dfrac{1\\,974}{6{,}0}\\) min.</p><p><strong>Svar:</strong> \\(5{,}5\\) h</p></li></ol>",
     "id": "6.535",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Boyles lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2.5172754195459035,
-      5.244323790720632
+      1.97433366239,
+      5.4842601733
     ],
     "tolerans": [
-      0.0378,
-      0.0787
+      0.0296,
+      0.0823
     ],
     "självrättning": true,
     "formaga": [
@@ -154503,13 +154503,13 @@ window.BANK = [
       "h"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En syrgastub (17,0 liter) har trycket 15,0 MPa. Temperaturen är konstant.</p>",
+    "spelIntro": "<p>En syrgastub (10,0 liter) har trycket 20,0 MPa. Temperaturen är konstant.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken volym upptar syrgasen vid 101,3 kPa?",
-        "t": "<p>En syrgastub (17,0 liter) har trycket 15,0 MPa. Temperaturen är konstant.</p><p>Vilken volym upptar syrgasen vid 101,3 kPa?</p>",
-        "s": "<p>\\(V=17{,}0\\cdot\\dfrac{15{,}0\\cdot10^6}{101{,}3\\cdot10^3}\\) liter.</p><p><strong>Svar:</strong> \\(2{,}52\\) m³</p>",
+        "t": "<p>En syrgastub (10,0 liter) har trycket 20,0 MPa. Temperaturen är konstant.</p><p>Vilken volym upptar syrgasen vid 101,3 kPa?</p>",
+        "s": "<p>\\(V=10{,}0\\cdot\\dfrac{20{,}0\\cdot10^6}{101{,}3\\cdot10^3}\\) liter.</p><p><strong>Svar:</strong> \\(1{,}97\\) m³</p>",
         "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -154518,9 +154518,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Patienten andas 8,0 liter/min vid 101,3 kPa. Hur många timmar räcker tuben?",
-        "t": "<p>En syrgastub (17,0 liter) har trycket 15,0 MPa. Temperaturen är konstant.</p>Gasen upptar 2,52 m³ vid normalt tryck.<p>Patienten andas 8,0 liter/min vid 101,3 kPa. Hur många timmar räcker tuben?</p>",
-        "s": "<p>\\(t=\\dfrac{2\\,517}{8{,}0}\\) min.</p><p><strong>Svar:</strong> \\(5{,}2\\) h</p>",
+        "fraga": "Patienten andas 6,0 liter/min vid 101,3 kPa. Hur många timmar räcker tuben?",
+        "t": "<p>En syrgastub (10,0 liter) har trycket 20,0 MPa. Temperaturen är konstant.</p>Gasen upptar 1,97 m³ vid normalt tryck.<p>Patienten andas 6,0 liter/min vid 101,3 kPa. Hur många timmar räcker tuben?</p>",
+        "s": "<p>\\(t=\\dfrac{1\\,974}{6{,}0}\\) min.</p><p><strong>Svar:</strong> \\(5{,}5\\) h</p>",
         "ledtrad": "<p>Total volym delat med förbrukning.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154540,15 +154540,15 @@ window.BANK = [
     "niva": "C",
     "typ": "dykare som inte andas ut",
     "poang": "(0/1/0)",
-    "t": "<p>En dykare stiger snabbt från 5,0 m djup utan att andas ut. Hur många procent ökar lungvolymen? Havsvatten har densiteten 1 030 kg/m³, lufttrycket är 101 kPa och \\(g=9{,}82\\) m/s². Temperaturen är konstant.</p>",
-    "s": "<p>\\(p_1=101+1\\,030\\cdot9{,}82\\cdot5{,}0\\cdot10^{-3}=151{,}6\\) kPa. \\(\\dfrac{V_2}{V_1}=\\dfrac{151{,}6}{101}\\).</p><p><strong>Svar:</strong> \\(50\\) %</p>",
+    "t": "<p>En dykare stiger snabbt från 7,5 m djup utan att andas ut. Hur många procent ökar lungvolymen? Havsvatten har densiteten 1 030 kg/m³, lufttrycket är 101 kPa och \\(g=9{,}82\\) m/s². Temperaturen är konstant.</p>",
+    "s": "<p>\\(p_1=101+1\\,030\\cdot9{,}82\\cdot7{,}5\\cdot10^{-3}=176{,}9\\) kPa. \\(\\dfrac{V_2}{V_1}=\\dfrac{176{,}9}{101}\\).</p><p><strong>Svar:</strong> \\(75\\) %</p>",
     "id": "6.536",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Boyles lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 50.07227722772277,
-    "tolerans": 0.751,
+    "rättSvar": 75.1084158416,
+    "tolerans": 1.13,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -154725,22 +154725,22 @@ window.BANK = [
     "niva": "A",
     "typ": "stigande luftbubblor som värms",
     "poang": "(0/3/2)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><ol type=\"a\"><li>En bubbla (1,00 cm³) stiger från 20,0 m djup (10,0 °C) till ytan (25,0 °C). Bestäm volymen vid ytan.</li><li>En bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.</li><li>En bubbla har 1,00 cm³ vid botten (5,5 °C) och 5,0 cm³ vid ytan (18,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(V=1{,}00\\cdot\\dfrac{101{,}3+196{,}4}{101{,}3}\\cdot\\dfrac{298}{283}\\).</p><p><strong>Svar:</strong> \\(3{,}09\\) cm³</p></li><li><p>\\(\\dfrac{V_2}{V_1}=\\dfrac{101{,}3+785{,}6}{101{,}3}\\cdot\\dfrac{291}{277}\\), \\(d=1{,}00\\sqrt[3]{V_2/V_1}\\) mm.</p><p><strong>Svar:</strong> \\(0{,}00210\\) m</p></li><li><p>\\(p_1=101\\cdot5{,}0\\cdot\\dfrac{278{,}5}{291{,}5}=482{,}5\\) kPa. \\(h=\\dfrac{(482{,}5-101)\\cdot10^3}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(38{,}8\\) m</p></li></ol>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><ol type=\"a\"><li>En bubbla (2,00 cm³) stiger från 15,0 m djup (8,0 °C) till ytan (22,0 °C). Bestäm volymen vid ytan.</li><li>En bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.</li><li>En bubbla har 1,00 cm³ vid botten (6,5 °C) och 4,2 cm³ vid ytan (20,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=2{,}00\\cdot\\dfrac{101{,}3+147{,}3}{101{,}3}\\cdot\\dfrac{295}{281}\\).</p><p><strong>Svar:</strong> \\(5{,}15\\) cm³</p></li><li><p>\\(\\dfrac{V_2}{V_1}=\\dfrac{101{,}3+785{,}6}{101{,}3}\\cdot\\dfrac{291}{277}\\), \\(d=1{,}00\\sqrt[3]{V_2/V_1}\\) mm.</p><p><strong>Svar:</strong> \\(0{,}00210\\) m</p></li><li><p>\\(p_1=101\\cdot4{,}2\\cdot\\dfrac{279{,}5}{293{,}5}=404{,}0\\) kPa. \\(h=\\dfrac{(404{,}0-101)\\cdot10^3}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(30{,}9\\) m</p></li></ol>",
     "id": "6.539",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3.0945622106955866,
+      5.1527298149,
       0.0020952031731673176,
-      38.847103785811846
+      30.8518928446
     ],
     "tolerans": [
-      0.0464,
+      0.0773,
       3.14e-05,
-      0.583
+      0.463
     ],
     "självrättning": true,
     "formaga": [
@@ -154768,9 +154768,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En bubbla (1,00 cm³) stiger från 20,0 m djup (10,0 °C) till ytan (25,0 °C). Bestäm volymen vid ytan.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla (1,00 cm³) stiger från 20,0 m djup (10,0 °C) till ytan (25,0 °C). Bestäm volymen vid ytan.</p>",
-        "s": "<p>\\(V=1{,}00\\cdot\\dfrac{101{,}3+196{,}4}{101{,}3}\\cdot\\dfrac{298}{283}\\).</p><p><strong>Svar:</strong> \\(3{,}09\\) cm³</p>",
+        "fraga": "En bubbla (2,00 cm³) stiger från 15,0 m djup (8,0 °C) till ytan (22,0 °C). Bestäm volymen vid ytan.",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla (2,00 cm³) stiger från 15,0 m djup (8,0 °C) till ytan (22,0 °C). Bestäm volymen vid ytan.</p>",
+        "s": "<p>\\(V=2{,}00\\cdot\\dfrac{101{,}3+147{,}3}{101{,}3}\\cdot\\dfrac{295}{281}\\).</p><p><strong>Svar:</strong> \\(5{,}15\\) cm³</p>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154790,9 +154790,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En bubbla har 1,00 cm³ vid botten (5,5 °C) och 5,0 cm³ vid ytan (18,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla har 1,00 cm³ vid botten (5,5 °C) och 5,0 cm³ vid ytan (18,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?</p>",
-        "s": "<p>\\(p_1=101\\cdot5{,}0\\cdot\\dfrac{278{,}5}{291{,}5}=482{,}5\\) kPa. \\(h=\\dfrac{(482{,}5-101)\\cdot10^3}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(38{,}8\\) m</p>",
+        "fraga": "En bubbla har 1,00 cm³ vid botten (6,5 °C) och 4,2 cm³ vid ytan (20,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?",
+        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla har 1,00 cm³ vid botten (6,5 °C) och 4,2 cm³ vid ytan (20,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?</p>",
+        "s": "<p>\\(p_1=101\\cdot4{,}2\\cdot\\dfrac{279{,}5}{293{,}5}=404{,}0\\) kPa. \\(h=\\dfrac{(404{,}0-101)\\cdot10^3}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(30{,}9\\) m</p>",
         "ledtrad": "<p>Bestäm trycket vid botten först.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -154812,15 +154812,15 @@ window.BANK = [
     "niva": "C",
     "typ": "heliumflaskans massa",
     "poang": "(0/1/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En heliumflaska (2,52 liter, 3,2 kg tom) fylls till trycket 1,6 MPa vid 20 °C. Helium har molmassan 4,0 g/mol. Hur mycket väger den fulla flaskan?</p>",
-    "s": "<p>\\(n=\\dfrac{1{,}6\\cdot10^6\\cdot2{,}52\\cdot10^{-3}}{8{,}314\\cdot293}=1{,}66\\) mol, alltså 6,6 g helium.</p><p><strong>Svar:</strong> \\(3{,}21\\) kg</p>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En heliumflaska (3,00 liter, 2,8 kg tom) fylls till trycket 2,0 MPa vid 15 °C. Helium har molmassan 4,0 g/mol. Hur mycket väger den fulla flaskan?</p>",
+    "s": "<p>\\(n=\\dfrac{2{,}0\\cdot10^6\\cdot3{,}00\\cdot10^{-3}}{8{,}314\\cdot288}=2{,}51\\) mol, alltså 10,0 g helium.</p><p><strong>Svar:</strong> \\(2{,}81\\) kg</p>",
     "id": "6.540",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.2066206842194713,
-    "tolerans": 0.0481,
+    "rättSvar": 2.81002325395,
+    "tolerans": 0.004,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -154840,15 +154840,15 @@ window.BANK = [
     "niva": "A",
     "typ": "tråd mellan två kolvar",
     "poang": "(0/1/1)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Två lättrörliga kolvar (area 20 cm² var) i en cylinder hålls ihop av en tråd som tål 30 N. Gasen mellan dem har från början omgivningens tryck 101 kPa och temperaturen 24 °C, och volymen är konstant. Vid vilken temperatur (°C) brister tråden?</p>",
-    "s": "<p>\\(\\Delta p=\\dfrac{30}{20\\cdot10^{-4}}=15\\) kPa. \\(T=297\\cdot\\dfrac{116}{101}\\) K.</p><p><strong>Svar:</strong> \\(68\\) °C</p>",
+    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Två lättrörliga kolvar (area 25 cm² var) i en cylinder hålls ihop av en tråd som tål 40 N. Gasen mellan dem har från början omgivningens tryck 101 kPa och temperaturen 18 °C, och volymen är konstant. Vid vilken temperatur (°C) brister tråden?</p>",
+    "s": "<p>\\(\\Delta p=\\dfrac{40}{25\\cdot10^{-4}}=16\\) kPa. \\(T=291\\cdot\\dfrac{117}{101}\\) K.</p><p><strong>Svar:</strong> \\(64\\) °C</p>",
     "id": "6.541",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 68.10891089108912,
-    "tolerans": 1.02,
+    "rättSvar": 64.099009901,
+    "tolerans": 0.96,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -154894,20 +154894,20 @@ window.BANK = [
     "niva": "C",
     "typ": "helium i behållare",
     "poang": "(1/1/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 16,00 mol helium vid 10,0 °C och 35,0 kPa.</p><ol type=\"a\"><li>Bestäm volymen.</li><li>Volymen halveras och trycket blir 100 kPa. Bestäm temperaturen i °C.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(V=\\dfrac{16{,}00\\cdot8{,}314\\cdot283}{35{,}0\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(1{,}08\\) m³</p></li><li><p>\\(T=283\\cdot\\dfrac12\\cdot\\dfrac{100}{35{,}0}\\) K.</p><p><strong>Svar:</strong> \\(131\\) °C</p></li></ol>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 12,00 mol helium vid 15,0 °C och 40,0 kPa.</p><ol type=\"a\"><li>Bestäm volymen.</li><li>Volymen halveras och trycket blir 110 kPa. Bestäm temperaturen i °C.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(V=\\dfrac{12{,}00\\cdot8{,}314\\cdot288}{40{,}0\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}718\\) m³</p></li><li><p>\\(T=288\\cdot\\dfrac12\\cdot\\dfrac{110}{40{,}0}\\) K.</p><p><strong>Svar:</strong> \\(123\\) °C</p></li></ol>",
     "id": "6.543",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.0755940571428573,
-      131.28571428571428
+      0.7183296,
+      123.0
     ],
     "tolerans": [
-      0.0161,
-      1.97
+      0.0108,
+      1.85
     ],
     "självrättning": true,
     "formaga": [
@@ -154927,13 +154927,13 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 16,00 mol helium vid 10,0 °C och 35,0 kPa.</p>",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 12,00 mol helium vid 15,0 °C och 40,0 kPa.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm volymen.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 16,00 mol helium vid 10,0 °C och 35,0 kPa.</p><p>Bestäm volymen.</p>",
-        "s": "<p>\\(V=\\dfrac{16{,}00\\cdot8{,}314\\cdot283}{35{,}0\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(1{,}08\\) m³</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 12,00 mol helium vid 15,0 °C och 40,0 kPa.</p><p>Bestäm volymen.</p>",
+        "s": "<p>\\(V=\\dfrac{12{,}00\\cdot8{,}314\\cdot288}{40{,}0\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}718\\) m³</p>",
         "ledtrad": "<p>\\(pV=nRT\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -154942,9 +154942,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Volymen halveras och trycket blir 100 kPa. Bestäm temperaturen i °C.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 16,00 mol helium vid 10,0 °C och 35,0 kPa.</p><p>Volymen halveras och trycket blir 100 kPa. Bestäm temperaturen i °C.</p>",
-        "s": "<p>\\(T=283\\cdot\\dfrac12\\cdot\\dfrac{100}{35{,}0}\\) K.</p><p><strong>Svar:</strong> \\(131\\) °C</p>",
+        "fraga": "Volymen halveras och trycket blir 110 kPa. Bestäm temperaturen i °C.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 12,00 mol helium vid 15,0 °C och 40,0 kPa.</p><p>Volymen halveras och trycket blir 110 kPa. Bestäm temperaturen i °C.</p>",
+        "s": "<p>\\(T=288\\cdot\\dfrac12\\cdot\\dfrac{110}{40{,}0}\\) K.</p><p><strong>Svar:</strong> \\(123\\) °C</p>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154964,22 +154964,22 @@ window.BANK = [
     "niva": "C",
     "typ": "kvävgas i tank",
     "poang": "(2/1/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p><ol type=\"a\"><li>Hur många mol är det?</li><li>Bestäm tankens volym.</li><li>Ytterligare 32,2 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(n=\\dfrac{28\\,500}{28}\\).</p><p><strong>Svar:</strong> \\(1\\,018\\) mol</p></li><li><p>\\(V=\\dfrac{1\\,018\\cdot8{,}314\\cdot273}{101{,}3\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(22{,}8\\) m³</p></li><li><p>\\(p=101{,}3\\cdot\\dfrac{60{,}7}{28{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}16\\cdot10^{5}\\) Pa</p></li></ol>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><ol type=\"a\"><li>Hur många mol är det?</li><li>Bestäm tankens volym.</li><li>Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(n=\\dfrac{24\\,000}{28}\\).</p><p><strong>Svar:</strong> \\(857\\) mol</p></li><li><p>\\(V=\\dfrac{857\\cdot8{,}314\\cdot283}{101{,}3\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(19{,}9\\) m³</p></li><li><p>\\(p=101{,}3\\cdot\\dfrac{54{,}0}{24{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}28\\cdot10^{5}\\) Pa</p></li></ol>",
     "id": "6.544",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1017.8571428571429,
-      22.806048864758143,
-      215751.22807017545
+      857.142857143,
+      19.9085770695,
+      227925.0
     ],
     "tolerans": [
-      15.3,
-      0.342,
-      3240.0
+      12.9,
+      0.299,
+      3420.0
     ],
     "självrättning": true,
     "formaga": [
@@ -155002,13 +155002,13 @@ window.BANK = [
       "Pa"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p>",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur många mol är det?",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p><p>Hur många mol är det?</p>",
-        "s": "<p>\\(n=\\dfrac{28\\,500}{28}\\).</p><p><strong>Svar:</strong> \\(1\\,018\\) mol</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><p>Hur många mol är det?</p>",
+        "s": "<p>\\(n=\\dfrac{24\\,000}{28}\\).</p><p><strong>Svar:</strong> \\(857\\) mol</p>",
         "ledtrad": "<p>\\(n=\\dfrac mM\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -155018,8 +155018,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm tankens volym.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p>Det är 1 018 mol.<p>Bestäm tankens volym.</p>",
-        "s": "<p>\\(V=\\dfrac{1\\,018\\cdot8{,}314\\cdot273}{101{,}3\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(22{,}8\\) m³</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p>Det är 857 mol.<p>Bestäm tankens volym.</p>",
+        "s": "<p>\\(V=\\dfrac{857\\cdot8{,}314\\cdot283}{101{,}3\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(19{,}9\\) m³</p>",
         "ledtrad": "<p>\\(pV=nRT\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -155028,9 +155028,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Ytterligare 32,2 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>28,5 kg kvävgas (28 g/mol) stängs in i en tank vid 0 °C och 101,3 kPa.</p><p>Ytterligare 32,2 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.</p>",
-        "s": "<p>\\(p=101{,}3\\cdot\\dfrac{60{,}7}{28{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}16\\cdot10^{5}\\) Pa</p>",
+        "fraga": "Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><p>Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.</p>",
+        "s": "<p>\\(p=101{,}3\\cdot\\dfrac{54{,}0}{24{,}0}\\).</p><p><strong>Svar:</strong> \\(2{,}28\\cdot10^{5}\\) Pa</p>",
         "ledtrad": "<p>Trycket är proportionellt mot mängden gas.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155050,22 +155050,22 @@ window.BANK = [
     "niva": "C",
     "typ": "ideala gaslagen",
     "poang": "(0/3/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>En behållare (15,0 liter) med 7,5 mol helium har trycket 440 kPa. Bestäm temperaturen i °C.</li><li>3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.</li><li>0,532 kg syrgas (32 g/mol) har trycket 0,100 MPa och temperaturen 0,0 °C. Bestäm volymen.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{440\\cdot10^3\\cdot0{,}0150}{7{,}5\\cdot8{,}314}\\) K.</p><p><strong>Svar:</strong> \\(-167\\) °C</p></li><li><p>\\(p=\\dfrac{3{,}00\\cdot8{,}314\\cdot153}{2{,}00\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p></li><li><p>\\(V=\\dfrac{(532/32)\\cdot8{,}314\\cdot273}{0{,}100\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\) m³</p></li></ol>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>En behållare (12,0 liter) med 6,0 mol helium har trycket 380 kPa. Bestäm temperaturen i °C.</li><li>3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.</li><li>0,450 kg syrgas (32 g/mol) har trycket 0,120 MPa och temperaturen 12,0 °C. Bestäm volymen.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(T=\\dfrac{380\\cdot10^3\\cdot0{,}0120}{6{,}0\\cdot8{,}314}\\) K.</p><p><strong>Svar:</strong> \\(-182\\) °C</p></li><li><p>\\(p=\\dfrac{3{,}00\\cdot8{,}314\\cdot153}{2{,}00\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p></li><li><p>\\(V=\\dfrac{(450/32)\\cdot8{,}314\\cdot285}{0{,}120\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}28\\) m³</p></li></ol>",
     "id": "6.545",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -167.1544382968487,
+      -181.587923984,
       1908063.0,
-      0.37734128250000004
+      0.277674609375
     ],
     "tolerans": [
-      2.51,
+      2.73,
       51000.0,
-      0.00566
+      0.00417
     ],
     "självrättning": true,
     "formaga": [
@@ -155092,9 +155092,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En behållare (15,0 liter) med 7,5 mol helium har trycket 440 kPa. Bestäm temperaturen i °C.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare (15,0 liter) med 7,5 mol helium har trycket 440 kPa. Bestäm temperaturen i °C.</p>",
-        "s": "<p>\\(T=\\dfrac{440\\cdot10^3\\cdot0{,}0150}{7{,}5\\cdot8{,}314}\\) K.</p><p><strong>Svar:</strong> \\(-167\\) °C</p>",
+        "fraga": "En behållare (12,0 liter) med 6,0 mol helium har trycket 380 kPa. Bestäm temperaturen i °C.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare (12,0 liter) med 6,0 mol helium har trycket 380 kPa. Bestäm temperaturen i °C.</p>",
+        "s": "<p>\\(T=\\dfrac{380\\cdot10^3\\cdot0{,}0120}{6{,}0\\cdot8{,}314}\\) K.</p><p><strong>Svar:</strong> \\(-182\\) °C</p>",
         "ledtrad": "<p>\\(pV=nRT\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155114,9 +155114,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "0,532 kg syrgas (32 g/mol) har trycket 0,100 MPa och temperaturen 0,0 °C. Bestäm volymen.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>0,532 kg syrgas (32 g/mol) har trycket 0,100 MPa och temperaturen 0,0 °C. Bestäm volymen.</p>",
-        "s": "<p>\\(V=\\dfrac{(532/32)\\cdot8{,}314\\cdot273}{0{,}100\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\) m³</p>",
+        "fraga": "0,450 kg syrgas (32 g/mol) har trycket 0,120 MPa och temperaturen 12,0 °C. Bestäm volymen.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>0,450 kg syrgas (32 g/mol) har trycket 0,120 MPa och temperaturen 12,0 °C. Bestäm volymen.</p>",
+        "s": "<p>\\(V=\\dfrac{(450/32)\\cdot8{,}314\\cdot285}{0{,}120\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}28\\) m³</p>",
         "ledtrad": "<p>\\(n=\\dfrac mM\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155136,22 +155136,22 @@ window.BANK = [
     "niva": "C",
     "typ": "luftens densitet",
     "poang": "(0/3/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><ol type=\"a\"><li>Bestäm luftens densitet vid −10 °C.</li><li>Bestäm luftens densitet vid 30 °C.</li><li>Hur mycket väger luften i ett hus (1 200 m³) vid 15 °C?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(\\rho=\\dfrac{pM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot263}\\).</p><p><strong>Svar:</strong> \\(1{,}34\\) kg/m³</p></li><li><p>\\(\\rho=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot303}\\).</p><p><strong>Svar:</strong> \\(1{,}17\\) kg/m³</p></li><li><p>\\(m=\\dfrac{pVM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot1\\,200\\cdot0{,}029}{8{,}314\\cdot288}\\).</p><p><strong>Svar:</strong> \\(1\\,472\\) kg</p></li></ol>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><ol type=\"a\"><li>Bestäm luftens densitet vid −15 °C.</li><li>Bestäm luftens densitet vid 30 °C.</li><li>Hur mycket väger luften i ett hus (950 m³) vid 20 °C?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\rho=\\dfrac{pM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot258}\\).</p><p><strong>Svar:</strong> \\(1{,}37\\) kg/m³</p></li><li><p>\\(\\rho=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot303}\\).</p><p><strong>Svar:</strong> \\(1{,}17\\) kg/m³</p></li><li><p>\\(m=\\dfrac{pVM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot950\\cdot0{,}029}{8{,}314\\cdot293}\\).</p><p><strong>Svar:</strong> \\(1\\,146\\) kg</p></li></ol>",
     "id": "6.546",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.3435123859978726,
+      1.36954944774,
       1.1661510149090446,
-      1472.2656563226687
+      1145.6538213
     ],
     "tolerans": [
-      0.0202,
+      0.0206,
       0.0175,
-      51.0
+      39.7
     ],
     "självrättning": true,
     "formaga": [
@@ -155179,9 +155179,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm luftens densitet vid −10 °C.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><p>Bestäm luftens densitet vid −10 °C.</p>",
-        "s": "<p>\\(\\rho=\\dfrac{pM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot263}\\).</p><p><strong>Svar:</strong> \\(1{,}34\\) kg/m³</p>",
+        "fraga": "Bestäm luftens densitet vid −15 °C.",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><p>Bestäm luftens densitet vid −15 °C.</p>",
+        "s": "<p>\\(\\rho=\\dfrac{pM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot258}\\).</p><p><strong>Svar:</strong> \\(1{,}37\\) kg/m³</p>",
         "ledtrad": "<p>\\(\\rho=\\dfrac{pM}{RT}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155201,9 +155201,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket väger luften i ett hus (1 200 m³) vid 15 °C?",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><p>Hur mycket väger luften i ett hus (1 200 m³) vid 15 °C?</p>",
-        "s": "<p>\\(m=\\dfrac{pVM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot1\\,200\\cdot0{,}029}{8{,}314\\cdot288}\\).</p><p><strong>Svar:</strong> \\(1\\,472\\) kg</p>",
+        "fraga": "Hur mycket väger luften i ett hus (950 m³) vid 20 °C?",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><p>Hur mycket väger luften i ett hus (950 m³) vid 20 °C?</p>",
+        "s": "<p>\\(m=\\dfrac{pVM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot950\\cdot0{,}029}{8{,}314\\cdot293}\\).</p><p><strong>Svar:</strong> \\(1\\,146\\) kg</p>",
         "ledtrad": "<p>\\(m=nM\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -168263,15 +168263,15 @@ window.BANK = [
     "niva": "C",
     "typ": "jod-131 vid behandling",
     "poang": "(0/1/0)",
-    "t": "<p>Vid behandling av sköldkörteln får en patient jod-131 med aktiviteten 400 MBq. Halveringstiden är 8,0 dygn.</p><p>Hur stor aktivitet finns kvar efter 24 dygn? Bortse från att kroppen gör sig av med jod. Svara i MBq.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">24 dygn är tre halveringstider.</p><div class=\"facit-matte\">\\[A=400\\cdot\\left(\\tfrac12\\right)^3=50\\ \\mathrm{MBq}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{MBq}\\).</p></div>",
+    "t": "<p>Vid behandling av sköldkörteln får en patient jod-131 med aktiviteten 500 MBq. Halveringstiden är 8,0 dygn.</p><p>Hur stor aktivitet finns kvar efter 20 dygn? Bortse från att kroppen gör sig av med jod. Svara i MBq.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">20 dygn är 2,5 halveringstider.</p><div class=\"facit-matte\">\\[A=500\\cdot\\left(\\tfrac12\\right)^{2{,}5}\\approx88\\ \\mathrm{MBq}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(88\\ \\mathrm{MBq}\\).</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 50,
-    "tolerans": 0,
+    "rättSvar": 88.3883476483,
+    "tolerans": 1.3,
     "självrättning": true,
     "ledtrad": "<p>Räkna ut antalet halveringstider först.</p>",
     "traningsniva": 3,
@@ -169802,24 +169802,24 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete med vågrät kraft",
     "poang": "(4/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Ett föremål skjuts 2,4 m med kraften 15 N. Bestäm arbetet.</li><li>En bil bromsas 25 m av friktionskraften 500 N. Hur stort arbete gör friktionen (storlek)?</li><li>En byrå (46,0 kg) knuffas 10,3 m med konstant fart. Friktionstalet är 0,50. Hur stort arbete gör man?</li><li>En pojke puttar en låda med konstant fart 0,82 m/s och kraften 20 N i 16 s. Bestäm arbetet.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(W=15\\cdot2{,}4\\).</p><p><strong>Svar:</strong> \\(36\\) J</p></li><li><p>\\(W=500\\cdot25\\).</p><p><strong>Svar:</strong> \\(12\\,500\\) J</p></li><li><p>\\(F=0{,}50\\cdot46{,}0\\cdot9{,}82\\), \\(W=F\\cdot10{,}3\\).</p><p><strong>Svar:</strong> \\(2\\,326\\) J</p></li><li><p>\\(s=0{,}82\\cdot16\\), \\(W=20s\\).</p><p><strong>Svar:</strong> \\(262\\) J</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Ett föremål skjuts 3,2 m med kraften 18 N. Bestäm arbetet.</li><li>En bil bromsas 25 m av friktionskraften 500 N. Hur stort arbete gör friktionen (storlek)?</li><li>En byrå (46,0 kg) knuffas 10,3 m med konstant fart. Friktionstalet är 0,50. Hur stort arbete gör man?</li><li>En pojke puttar en låda med konstant fart 0,65 m/s och kraften 24 N i 18 s. Bestäm arbetet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=18\\cdot3{,}2\\).</p><p><strong>Svar:</strong> \\(57{,}6\\) J</p></li><li><p>\\(W=500\\cdot25\\).</p><p><strong>Svar:</strong> \\(12\\,500\\) J</p></li><li><p>\\(F=0{,}50\\cdot46{,}0\\cdot9{,}82\\), \\(W=F\\cdot10{,}3\\).</p><p><strong>Svar:</strong> \\(2\\,326\\) J</p></li><li><p>\\(s=0{,}65\\cdot18\\), \\(W=24s\\).</p><p><strong>Svar:</strong> \\(281\\) J</p></li></ol>",
     "id": "5.520",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Arbete W = F·s",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      36,
+      57.6,
       12500,
       2326.358,
-      262.4
+      280.8
     ],
     "tolerans": [
-      0.54,
+      0.864,
       510.0,
       51.0,
-      5.1
+      5.46
     ],
     "självrättning": true,
     "formaga": [
@@ -169849,9 +169849,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett föremål skjuts 2,4 m med kraften 15 N. Bestäm arbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts 2,4 m med kraften 15 N. Bestäm arbetet.</p>",
-        "s": "<p>\\(W=15\\cdot2{,}4\\).</p><p><strong>Svar:</strong> \\(36\\) J</p>",
+        "fraga": "Ett föremål skjuts 3,2 m med kraften 18 N. Bestäm arbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts 3,2 m med kraften 18 N. Bestäm arbetet.</p>",
+        "s": "<p>\\(W=18\\cdot3{,}2\\).</p><p><strong>Svar:</strong> \\(57{,}6\\) J</p>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -169882,9 +169882,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En pojke puttar en låda med konstant fart 0,82 m/s och kraften 20 N i 16 s. Bestäm arbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En pojke puttar en låda med konstant fart 0,82 m/s och kraften 20 N i 16 s. Bestäm arbetet.</p>",
-        "s": "<p>\\(s=0{,}82\\cdot16\\), \\(W=20s\\).</p><p><strong>Svar:</strong> \\(262\\) J</p>",
+        "fraga": "En pojke puttar en låda med konstant fart 0,65 m/s och kraften 24 N i 18 s. Bestäm arbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En pojke puttar en låda med konstant fart 0,65 m/s och kraften 24 N i 18 s. Bestäm arbetet.</p>",
+        "s": "<p>\\(s=0{,}65\\cdot18\\), \\(W=24s\\).</p><p><strong>Svar:</strong> \\(281\\) J</p>",
         "ledtrad": "<p>Bestäm sträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -169960,22 +169960,22 @@ window.BANK = [
     "niva": "E",
     "typ": "skottkärra",
     "poang": "(3/0/0)",
-    "t": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p><ol type=\"a\"><li>Bestäm arbetet.</li><li>Hur långt flyttas den med samma arbete om kraften är 120 N?</li><li>Hur stor är kraften med samma arbete om sträckan är 2,5 m?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(W=178\\cdot3{,}00\\).</p><p><strong>Svar:</strong> \\(534\\) J</p></li><li><p>\\(s=\\dfrac{534}{120}\\).</p><p><strong>Svar:</strong> \\(4{,}45\\) m</p></li><li><p>\\(F=\\dfrac{534}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(214\\) N</p></li></ol>",
+    "t": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p><ol type=\"a\"><li>Bestäm arbetet.</li><li>Hur långt flyttas den med samma arbete om kraften är 140 N?</li><li>Hur stor är kraften med samma arbete om sträckan är 1,8 m?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=165\\cdot2{,}80\\).</p><p><strong>Svar:</strong> \\(462\\) J</p></li><li><p>\\(s=\\dfrac{462}{140}\\).</p><p><strong>Svar:</strong> \\(3{,}30\\) m</p></li><li><p>\\(F=\\dfrac{462}{1{,}8}\\).</p><p><strong>Svar:</strong> \\(257\\) N</p></li></ol>",
     "id": "5.523",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Arbete W = F·s",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      534,
-      4.45,
-      213.6
+      462.0,
+      3.3,
+      256.666666667
     ],
     "tolerans": [
-      8.01,
-      0.0668,
-      3.2
+      6.93,
+      0.0495,
+      3.85
     ],
     "självrättning": true,
     "formaga": [
@@ -169998,13 +169998,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p>",
+    "spelIntro": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm arbetet.",
-        "t": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p><p>Bestäm arbetet.</p>",
-        "s": "<p>\\(W=178\\cdot3{,}00\\).</p><p><strong>Svar:</strong> \\(534\\) J</p>",
+        "t": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p><p>Bestäm arbetet.</p>",
+        "s": "<p>\\(W=165\\cdot2{,}80\\).</p><p><strong>Svar:</strong> \\(462\\) J</p>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170013,9 +170013,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt flyttas den med samma arbete om kraften är 120 N?",
-        "t": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p>Arbetet är 534 J.<p>Hur långt flyttas den med samma arbete om kraften är 120 N?</p>",
-        "s": "<p>\\(s=\\dfrac{534}{120}\\).</p><p><strong>Svar:</strong> \\(4{,}45\\) m</p>",
+        "fraga": "Hur långt flyttas den med samma arbete om kraften är 140 N?",
+        "t": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p>Arbetet är 462 J.<p>Hur långt flyttas den med samma arbete om kraften är 140 N?</p>",
+        "s": "<p>\\(s=\\dfrac{462}{140}\\).</p><p><strong>Svar:</strong> \\(3{,}30\\) m</p>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170024,9 +170024,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är kraften med samma arbete om sträckan är 2,5 m?",
-        "t": "<p>Det krävs den vågräta kraften 178 N för att flytta en skottkärra 3,00 m.</p>Arbetet är 534 J.<p>Hur stor är kraften med samma arbete om sträckan är 2,5 m?</p>",
-        "s": "<p>\\(F=\\dfrac{534}{2{,}5}\\).</p><p><strong>Svar:</strong> \\(214\\) N</p>",
+        "fraga": "Hur stor är kraften med samma arbete om sträckan är 1,8 m?",
+        "t": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p>Arbetet är 462 J.<p>Hur stor är kraften med samma arbete om sträckan är 1,8 m?</p>",
+        "s": "<p>\\(F=\\dfrac{462}{1{,}8}\\).</p><p><strong>Svar:</strong> \\(257\\) N</p>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170117,24 +170117,24 @@ window.BANK = [
     "niva": "E",
     "typ": "lyftarbete",
     "poang": "(4/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En resväska (22 kg) lyfts 45 cm. Bestäm lyftarbetet.</li><li>En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.</li><li>En skivstång (175 kg) lyfts 2,2 m. Bestäm lyftarbetet.</li><li>Ett lyftarbete på 550 J lyfter ett klot 1,5 m. Bestäm klotets massa.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(W=22\\cdot9{,}82\\cdot0{,}45\\).</p><p><strong>Svar:</strong> \\(97\\) J</p></li><li><p>\\(W=90{,}0\\cdot9{,}82\\cdot28{,}0\\).</p><p><strong>Svar:</strong> \\(24\\,746\\) J</p></li><li><p>\\(W=175\\cdot9{,}82\\cdot2{,}2\\).</p><p><strong>Svar:</strong> \\(3\\,781\\) J</p></li><li><p>\\(m=\\dfrac{550}{9{,}82\\cdot1{,}5}\\).</p><p><strong>Svar:</strong> \\(37\\) kg</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En resväska (18 kg) lyfts 65 cm. Bestäm lyftarbetet.</li><li>En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.</li><li>En skivstång (175 kg) lyfts 2,2 m. Bestäm lyftarbetet.</li><li>Ett lyftarbete på 620 J lyfter ett klot 1,8 m. Bestäm klotets massa.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=18\\cdot9{,}82\\cdot0{,}65\\).</p><p><strong>Svar:</strong> \\(115\\) J</p></li><li><p>\\(W=90{,}0\\cdot9{,}82\\cdot28{,}0\\).</p><p><strong>Svar:</strong> \\(24\\,746\\) J</p></li><li><p>\\(W=175\\cdot9{,}82\\cdot2{,}2\\).</p><p><strong>Svar:</strong> \\(3\\,781\\) J</p></li><li><p>\\(m=\\dfrac{620}{9{,}82\\cdot1{,}8}\\).</p><p><strong>Svar:</strong> \\(35\\) kg</p></li></ol>",
     "id": "5.525",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lägesenergi och lyftarbete",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      97.21800000000002,
+      114.894,
       24746.4,
       3780.7000000000003,
-      37.3387644263408
+      35.0758090066
     ],
     "tolerans": [
-      1.46,
+      1.73,
       371.0,
       56.7,
-      0.56
+      0.526
     ],
     "självrättning": true,
     "formaga": [
@@ -170164,9 +170164,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En resväska (22 kg) lyfts 45 cm. Bestäm lyftarbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En resväska (22 kg) lyfts 45 cm. Bestäm lyftarbetet.</p>",
-        "s": "<p>\\(W=22\\cdot9{,}82\\cdot0{,}45\\).</p><p><strong>Svar:</strong> \\(97\\) J</p>",
+        "fraga": "En resväska (18 kg) lyfts 65 cm. Bestäm lyftarbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En resväska (18 kg) lyfts 65 cm. Bestäm lyftarbetet.</p>",
+        "s": "<p>\\(W=18\\cdot9{,}82\\cdot0{,}65\\).</p><p><strong>Svar:</strong> \\(115\\) J</p>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170197,9 +170197,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Ett lyftarbete på 550 J lyfter ett klot 1,5 m. Bestäm klotets massa.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett lyftarbete på 550 J lyfter ett klot 1,5 m. Bestäm klotets massa.</p>",
-        "s": "<p>\\(m=\\dfrac{550}{9{,}82\\cdot1{,}5}\\).</p><p><strong>Svar:</strong> \\(37\\) kg</p>",
+        "fraga": "Ett lyftarbete på 620 J lyfter ett klot 1,8 m. Bestäm klotets massa.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett lyftarbete på 620 J lyfter ett klot 1,8 m. Bestäm klotets massa.</p>",
+        "s": "<p>\\(m=\\dfrac{620}{9{,}82\\cdot1{,}8}\\).</p><p><strong>Svar:</strong> \\(35\\) kg</p>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170290,21 +170290,21 @@ window.BANK = [
     "niva": "A",
     "typ": "lyftarbete med tyngdpunkt",
     "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En väska (4,5 kg) lyfts från ett 95 cm högt bord till en hylla 1,75 m över golvet. Bestäm arbetet.</li><li>En liggande konservburk (400 g, radie 3,5 cm, höjd 13,0 cm) ställs upp. Bestäm det minsta lyftarbetet.</li><li>Fem murstenar (15,0 cm höga, 25,0 kg var) ligger på marken och staplas. Bestäm det minsta lyftarbetet.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(W=4{,}5\\cdot9{,}82\\cdot0{,}80\\).</p><p><strong>Svar:</strong> \\(35\\) J</p></li><li><p>Tyngdpunkten höjs från 3,5 cm till 6,5 cm: \\(W=0{,}400\\cdot9{,}82\\cdot0{,}030\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) J</p></li><li><p>Stenarna lyfts 0,15 + 0,30 + 0,45 + 0,60 = 1,50 m sammanlagt: \\(W=25{,}0\\cdot9{,}82\\cdot1{,}50\\).</p><p><strong>Svar:</strong> \\(368\\) J</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En väska (6,2 kg) lyfts från ett 82 cm högt bord till en hylla 1,90 m över golvet. Bestäm arbetet.</li><li>En liggande konservburk (350 g, radie 4,0 cm, höjd 11,0 cm) ställs upp. Bestäm det minsta lyftarbetet.</li><li>Fem murstenar (15,0 cm höga, 25,0 kg var) ligger på marken och staplas. Bestäm det minsta lyftarbetet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=6{,}2\\cdot9{,}82\\cdot1{,}08\\).</p><p><strong>Svar:</strong> \\(66\\) J</p></li><li><p>Tyngdpunkten höjs från 4,0 cm till 5,5 cm: \\(W=0{,}350\\cdot9{,}82\\cdot0{,}015\\).</p><p><strong>Svar:</strong> \\(0{,}052\\) J</p></li><li><p>Stenarna lyfts 0,15 + 0,30 + 0,45 + 0,60 = 1,50 m sammanlagt: \\(W=25{,}0\\cdot9{,}82\\cdot1{,}50\\).</p><p><strong>Svar:</strong> \\(368\\) J</p></li></ol>",
     "id": "5.527",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lägesenergi och lyftarbete",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      35.352,
-      0.11784,
+      65.75472,
+      0.051555,
       368.25
     ],
     "tolerans": [
-      0.53,
-      0.0051,
+      0.986,
+      0.00223,
       5.52
     ],
     "självrättning": true,
@@ -170332,9 +170332,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En väska (4,5 kg) lyfts från ett 95 cm högt bord till en hylla 1,75 m över golvet. Bestäm arbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En väska (4,5 kg) lyfts från ett 95 cm högt bord till en hylla 1,75 m över golvet. Bestäm arbetet.</p>",
-        "s": "<p>\\(W=4{,}5\\cdot9{,}82\\cdot0{,}80\\).</p><p><strong>Svar:</strong> \\(35\\) J</p>",
+        "fraga": "En väska (6,2 kg) lyfts från ett 82 cm högt bord till en hylla 1,90 m över golvet. Bestäm arbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En väska (6,2 kg) lyfts från ett 82 cm högt bord till en hylla 1,90 m över golvet. Bestäm arbetet.</p>",
+        "s": "<p>\\(W=6{,}2\\cdot9{,}82\\cdot1{,}08\\).</p><p><strong>Svar:</strong> \\(66\\) J</p>",
         "ledtrad": "<p>Höjdskillnaden är 0,80 m.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170343,9 +170343,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En liggande konservburk (400 g, radie 3,5 cm, höjd 13,0 cm) ställs upp. Bestäm det minsta lyftarbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En liggande konservburk (400 g, radie 3,5 cm, höjd 13,0 cm) ställs upp. Bestäm det minsta lyftarbetet.</p>",
-        "s": "<p>Tyngdpunkten höjs från 3,5 cm till 6,5 cm: \\(W=0{,}400\\cdot9{,}82\\cdot0{,}030\\).</p><p><strong>Svar:</strong> \\(0{,}12\\) J</p>",
+        "fraga": "En liggande konservburk (350 g, radie 4,0 cm, höjd 11,0 cm) ställs upp. Bestäm det minsta lyftarbetet.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En liggande konservburk (350 g, radie 4,0 cm, höjd 11,0 cm) ställs upp. Bestäm det minsta lyftarbetet.</p>",
+        "s": "<p>Tyngdpunkten höjs från 4,0 cm till 5,5 cm: \\(W=0{,}350\\cdot9{,}82\\cdot0{,}015\\).</p><p><strong>Svar:</strong> \\(0{,}052\\) J</p>",
         "ledtrad": "<p>Hur mycket höjs tyngdpunkten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -170966,20 +170966,20 @@ window.BANK = [
     "niva": "C",
     "typ": "arbete på fjäder",
     "poang": "(1/2/0)",
-    "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><ol type=\"a\"><li>Hur stort arbete krävs för att förlänga en fjäder (25,0 N/m) 0,450 m?</li><li>En fjäder (150 N/m) förlängs från 10 cm till 30 cm. Hur stort arbete krävs?</li><li>Ett arbete på 13,4 J trycker ihop en fjäder 2,37 cm. Bestäm fjäderkonstanten.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(W=\\dfrac{25{,}0\\cdot0{,}450^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}53\\) J</p></li><li><p>\\(W=\\dfrac{150(0{,}30^2-0{,}10^2)}{2}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) J</p></li><li><p>\\(k=\\dfrac{2\\cdot13{,}4}{0{,}0237^2}\\).</p><p><strong>Svar:</strong> \\(47\\,713\\) N/m</p></li></ol>",
+    "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><ol type=\"a\"><li>Hur stort arbete krävs för att förlänga en fjäder (32,0 N/m) 0,380 m?</li><li>En fjäder (150 N/m) förlängs från 10 cm till 30 cm. Hur stort arbete krävs?</li><li>Ett arbete på 13,4 J trycker ihop en fjäder 2,37 cm. Bestäm fjäderkonstanten.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(W=\\dfrac{32{,}0\\cdot0{,}380^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}31\\) J</p></li><li><p>\\(W=\\dfrac{150(0{,}30^2-0{,}10^2)}{2}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) J</p></li><li><p>\\(k=\\dfrac{2\\cdot13{,}4}{0{,}0237^2}\\).</p><p><strong>Svar:</strong> \\(47\\,713\\) N/m</p></li></ol>",
     "id": "5.535",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fjäderenergi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2.53125,
+      2.3104,
       6.0,
       47713.15138243515
     ],
     "tolerans": [
-      0.038,
+      0.0347,
       0.09,
       716.0
     ],
@@ -171008,9 +171008,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete krävs för att förlänga en fjäder (25,0 N/m) 0,450 m?",
-        "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><p>Hur stort arbete krävs för att förlänga en fjäder (25,0 N/m) 0,450 m?</p>",
-        "s": "<p>\\(W=\\dfrac{25{,}0\\cdot0{,}450^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}53\\) J</p>",
+        "fraga": "Hur stort arbete krävs för att förlänga en fjäder (32,0 N/m) 0,380 m?",
+        "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><p>Hur stort arbete krävs för att förlänga en fjäder (32,0 N/m) 0,380 m?</p>",
+        "s": "<p>\\(W=\\dfrac{32{,}0\\cdot0{,}380^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}31\\) J</p>",
         "ledtrad": "<p>Arean under \\(F\\)-\\(s\\)-grafen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",

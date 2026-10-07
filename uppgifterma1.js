@@ -6041,7 +6041,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Ekvationer med bråk"
@@ -6094,8 +6094,8 @@ window.BANKMA1 = [
     "t": "<p>Lös ekvationen</p><p>\\[\\frac{x+1}{4}-\\frac{x-2}{6}=\\frac58\\]</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Multiplicera hela ekvationen med minsta gemensamma nämnare 24.</p><p>\\(6(x+1)-4(x-2)=15\\).</p><p>\\(6x+6-4x+8=15\\Rightarrow2x=1\\Rightarrow x=\\frac12\\).</p></div></div>",
     "ledtrad": "<p>Vilken gemensam nämnare passar alla tre bråken? Håll ihop täljarna när du multiplicerar.</p>",
-    "niva": "E",
-    "poang": "1/0/0",
+    "niva": "C",
+    "poang": "0/1/0",
     "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
@@ -6105,8 +6105,8 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
     "spel": true,
     "familjTidigare": [
       "Ekvationer med bråk"
@@ -6380,7 +6380,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 3,
     "spel": true,
     "familjTidigare": [
       "Division av bråkuttryck"
@@ -6413,7 +6413,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "svarFormat": "heltal",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Bråk och proportioner"
@@ -11041,7 +11041,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -11070,7 +11070,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -11099,7 +11099,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -140062,7 +140062,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla uttrycket \\(\\frac{3x}{9}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "t": "<p>Förenkla uttrycket \\(\\frac{3x}{9}\\).</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{3x}{9}=\\frac{3\\cdot x}{3\\cdot 3}=\\frac{x}{3}\\]</p><p><strong>Svar:</strong> \\(\\frac{x}{3}\\)</p></div></div>",
     "familj": "Bråk i uttryck",
     "formaga": [
@@ -140091,7 +140091,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla uttrycket \\(\\frac{4x}{2}+\\frac{2x}{4}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "t": "<p>Förenkla uttrycket \\(\\frac{4x}{2}+\\frac{2x}{4}\\).</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{4x}{2}+\\frac{2x}{4}=2x+\\frac{x}{2}=\\frac{4x}{2}+\\frac{x}{2}=\\frac{5x}{2}\\]</p><p><strong>Svar:</strong> \\(\\frac{5x}{2}\\)</p></div></div>",
     "familj": "Bråk i uttryck",
     "formaga": [
@@ -140120,7 +140120,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla uttrycket \\(\\frac{5x}{6}-\\frac{x}{3}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "t": "<p>Förenkla uttrycket \\(\\frac{5x}{6}-\\frac{x}{3}\\).</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{5x}{6}-\\frac{x}{3}=\\frac{5x}{6}-\\frac{2x}{6}=\\frac{3x}{6}=\\frac{x}{2}\\]</p><p><strong>Svar:</strong> \\(\\frac{x}{2}\\)</p></div></div>",
     "familj": "Bråk i uttryck",
     "formaga": [
@@ -140149,7 +140149,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla uttrycket \\(x+\\frac{x}{4}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "t": "<p>Förenkla uttrycket \\(x+\\frac{x}{4}\\).</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[x+\\frac{x}{4}=\\frac{4x}{4}+\\frac{x}{4}=\\frac{5x}{4}\\]</p><p><strong>Svar:</strong> \\(\\frac{5x}{4}\\)</p></div></div>",
     "familj": "Bråk i uttryck",
     "formaga": [
@@ -140178,7 +140178,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla uttrycket \\(2\\cdot\\frac{3x}{8}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "t": "<p>Förenkla uttrycket \\(2\\cdot\\frac{3x}{8}\\).</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[2\\cdot\\frac{3x}{8}=\\frac{6x}{8}=\\frac{3x}{4}\\]</p><p><strong>Svar:</strong> \\(\\frac{3x}{4}\\)</p></div></div>",
     "familj": "Bråk i uttryck",
     "formaga": [
@@ -140207,7 +140207,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla uttrycket \\(\\frac{x}{2}\\div 3\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "t": "<p>Förenkla uttrycket \\(\\frac{x}{2}\\div 3\\).</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{x}{2}\\div 3=\\frac{x}{2}\\cdot\\frac{1}{3}=\\frac{x}{6}\\]</p><p><strong>Svar:</strong> \\(\\frac{x}{6}\\)</p></div></div>",
     "familj": "Bråk i uttryck",
     "formaga": [
@@ -140236,7 +140236,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla uttrycket \\(-\\frac{x}{3}+\\frac{x}{6}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "t": "<p>Förenkla uttrycket \\(-\\frac{x}{3}+\\frac{x}{6}\\).</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[-\\frac{x}{3}+\\frac{x}{6}=-\\frac{2x}{6}+\\frac{x}{6}=\\frac{-2x+x}{6}=-\\frac{x}{6}\\]</p><p><strong>Svar:</strong> \\(-\\frac{x}{6}\\)</p></div></div>",
     "familj": "Bråk i uttryck",
     "formaga": [
@@ -140265,7 +140265,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla uttrycket \\(\\frac{2x+6}{2}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "t": "<p>Förenkla uttrycket \\(\\frac{2x+6}{2}\\).</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{2x+6}{2}=\\frac{2x}{2}+\\frac{6}{2}=x+3\\]</p><p><strong>Svar:</strong> \\(x+3\\)</p></div></div>",
     "familj": "Bråk i uttryck",
     "formaga": [
@@ -140294,7 +140294,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla uttrycket \\(\\frac{x+4}{2}-\\frac{x}{2}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "t": "<p>Förenkla uttrycket \\(\\frac{x+4}{2}-\\frac{x}{2}\\).</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{x+4}{2}-\\frac{x}{2}=\\frac{x+4-x}{2}=\\frac{4}{2}=2\\]</p><p><strong>Svar:</strong> \\(2\\)</p></div></div>",
     "familj": "Bråk i uttryck",
     "formaga": [

@@ -94,6 +94,22 @@ test('Variabelnamn i svarsetiketter ska inte förväxlas med delarnas a/b/c',()=
     assert.equal(c.expandGameTask(q)[0].rättSvar,expected,id);
   }
 });
+test('Ma2 2.164 har en rotmängd för p och ett separat numeriskt svar för q',()=>{
+  const q=bank('uppgifterma2.js').find(q=>q.id==='2.164');
+  const pairs=[];
+  for(let a=-36;a<=36;a++)for(let b=a+1;b<=36;b++){
+    if(b-a===5&&a*b===36)pairs.push([a,b]);
+  }
+  const ps=pairs.map(([a,b])=>-(a+b)).sort((a,b)=>a-b);
+  assert.deepEqual(String(q.rättSvar[0]).split(',').map(Number).sort((a,b)=>a-b),ps);
+  assert.ok(pairs.every(([a,b])=>a*b===q.rättSvar[1]));
+  assert.deepEqual(plain(q.svarEtiketter),['p','q']);
+  assert.deepEqual(plain(q.svarFormat),['lösningsmängd','numeriskt']);
+  const layout=c.answerLayout(q);
+  assert.equal(layout.n,2);assert.equal(layout.ordnad,true);
+  assert.deepEqual(plain(layout.delAuto),[true,true]);
+  assert.doesNotMatch(q.s,/4\{,\}9/,'Rötterna 4 och 9 får inte se ut som decimaltalet 4,9');
+});
 test('1.124 bevaras som läraruppgift utan omöjlig självrättning',()=>{
   const q=ma3.find(q=>q.id==='1.124');
   assert.equal(q.spel,false);assert.equal(q.självrättning,false);

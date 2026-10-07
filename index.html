@@ -3833,7 +3833,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-07-ab";
+const BANK_VERSION="2026-10-07-ac";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9465,7 +9465,12 @@ function formatRatt(anv,facit,meta){
       if(!match) return false;
       const unit=String(meta.enhet??"").replace(/\s+/g,"");
       /* Utskrivna enhetsord godtas för samma enhet: "9000 sekunder" och "9000 sek" som "9000 s". */
-      const enhetNamn=x=>(x.length>2 && ENHET_ALIAS[x.toLowerCase()]) || x;
+      const enhetNamn=x=>{
+        const namn=(x.length>2 && ENHET_ALIAS[x.toLowerCase()]) || x;
+        // L och l betyder liter; µ, μ och u kan beteckna samma mikroprefix.
+        // Behåll övriga versaler: MW och mW är olika enheter.
+        return namn.replace(/^[μu](?=[A-Za-zΩ])/,"µ").replace(/^([fpnmcdhkMGTµ]?)L$/,"$1l");
+      };
       const svarsEnhet=match[2].replace(/\.$/,"");
       if(svarsEnhet && (!unit || enhetNamn(svarsEnhet)!==enhetNamn(unit))) return false;
       return rentNumerisktSvar(match[1],f,meta);
@@ -9748,6 +9753,10 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
     }
     if(n>=0) tol=0.5*Math.pow(10,-n);
   }
+  /* Decimalform kräver den angivna representationen och målenheten.
+     Kontrollera detta innan generella tal- och enhetsgenvägar prövas. */
+  if(format==="decimalform")
+    return formatRatt(enhetMedOrd(anv),facit,{format,tolerans:tol,enhet});
   /* Facit som kedja av likvärdiga former: "f(x)=(x+2)(x-4)=x^2-2x-8", "(6)/(4)=(3)/(2)".
      Svaret godkänns om det stämmer med någon av formerna, men bara när formerna verkligen är
      lika. En ekvation som "x^2-8x+12=0" har olika led och berörs inte. */

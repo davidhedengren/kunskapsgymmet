@@ -59,14 +59,25 @@ test('Intervallfrågorna ber om alla x-värden som rättaren förväntar sig',()
 test('Delens etikett fungerar även när spelkorten börjar med b eller visas i annan ordning',()=>{
   const q={id:'test',svarEtiketter:['a','b','c'],rättSvar:[10,20,30],
     självrättning:[true,false,true],svarFormat:['heltal','uttryck','numeriskt'],
-    tolerans:[0,0.1,0.2],svarEnhet:['m','s','N'],manuellKomplettering:[false,true,false],
+    tolerans:[0,0.1,0.2],rättSvar273:[11,null,31],svarEnhet:['m','s','N'],manuellKomplettering:[false,true,false],
     traningsniva:[1,2,3],arbetsinsats:[1,2,3],spelDelning:'deluppgifter',
     spelDelar:[{etikett:'c',t:'c'},{etikett:'b',t:'b'}]};
   const [last,middle]=c.expandGameTask(q);
   assert.equal(last.rättSvar,30);assert.equal(last.svarEnhet,'N');assert.equal(last.tolerans,0.2);
+  assert.equal(last.rättSvar273,31);assert.equal(middle.rättSvar273,null);
   assert.equal(last.traningsniva,3);assert.equal(last.arbetsinsats,3);
   assert.equal(middle.rättSvar,20);assert.equal(middle.självrättning,false);
   assert.equal(middle.manuellKomplettering,true);
+});
+test('Gaslagens alternativa temperatursvar följer rätt delkort utan att ändra facit',()=>{
+  const q=bank('uppgifter.js').find(q=>q.id==='6.38');
+  const cards=c.expandGameTask(q);
+  assert.deepEqual(plain(cards.map(x=>x.rättSvar)),[298.15,233.15,-78.15]);
+  assert.deepEqual(plain(cards.map(x=>x.rättSvar273)),[298,233,-78]);
+  for(const card of cards){
+    assert.equal(c.answerLayout(card).n,1);
+    assert.equal(c.expectedAnswersForTask(card).auto,true);
+  }
 });
 test('Oförändrad delning med nästlade svar och metadata utan etiketter',()=>{
   const q={id:'test',rättSvar:[[2,3],4],självrättning:[true,true],

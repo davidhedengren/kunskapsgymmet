@@ -3819,7 +3819,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-07-h";
+const BANK_VERSION="2026-10-07-i";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -6692,6 +6692,7 @@ function expandGameTask(t){
     q.ledtrad=del?.ledtrad || t.ledtrad || null;
     q.rättSvar=metadata(t.rättSvar);
     q.tolerans=metadata(t.tolerans);
+    if("rättSvar273" in t) q.rättSvar273=metadata(t.rättSvar273);
     q.självrättning=metadata(t.självrättning);
     if("svarEnhet" in t) q.svarEnhet=metadata(t.svarEnhet);
     if("svarFormat" in t) q.svarFormat=metadata(t.svarFormat);
@@ -9683,6 +9684,11 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
       || delSvarRattBas(anv,-Math.abs(facit),enhet,tol,t,idx,"numeriskt");
   }
   if(delSvarRattBas(anv,facit,enhet,tol,t,idx,format)) return true;
+  /* Vissa gaslagsuppgifter har ett separat avrundat svar när 273 används
+     vid omvandlingen till/från kelvin. Bevara samma enhets- och formatkontroll. */
+  const svar273=Array.isArray(t?.rättSvar273)?t.rättSvar273[idx]:t?.rättSvar273;
+  if(typeof facit==="number" && Number.isFinite(svar273) && svar273!==facit
+     && delSvarRattBas(anv,svar273,enhet,tol,t,idx,format)) return true;
   if(typeof anv!=="string" || typeof facit!=="string" || delSvarDjup>0) return false;
   const varianter=[];
   const a=anv.trim();

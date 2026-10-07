@@ -1743,7 +1743,7 @@ window.BANK = [
     "typ": "omvandla mellan celsius och kelvin, ur text, sökt temperatur",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 25 °C till K</div><div>b) -40 °C till K</div><div>c) 350 K till °C</div><div>d) 0 K till °C</div><div>e) 100 °C till K</div><div>f) 77 K till °C</div></div>",
-    "s": "<div class=\"facit-v2\"><p>a) 25 + 273,15 = 298,15. Temperaturen är 298,15 K.</p><p>b) −40 + 273,15 = 233,15. Temperaturen är 233,15 K.</p><p>c) 350 − 273,15 = 76,85. Temperaturen är 76,85 °C.</p><p>d) 0 − 273,15 = −273,15. Temperaturen är −273,15 °C.</p><p>e) 100 + 273,15 = 373,15. Temperaturen är 373,15 K.</p><p>f) 77 − 273,15 = −196,15. Temperaturen är −196,15 °C.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>a) 25 + 273,15 = 298,15. Temperaturen är 298,15 K.</p><p>b) −40 + 273,15 = 233,15. Temperaturen är 233,15 K.</p><p>c) 350 − 273,15 = 76,85. Temperaturen är 76,85 °C.</p><p>d) 0 − 273,15 = −273,15. Temperaturen är −273,15 °C.</p><p>e) 100 + 273,15 = 373,15. Temperaturen är 373,15 K.</p><p>f) 77 − 273,15 = −196,15. Temperaturen är −196,15 °C.</p></div><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -1793,7 +1793,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>25 °C till K</p>",
-        "s": "<p>25 + 273,15 = 298,15. Temperaturen är 298,15 K.</p>",
+        "s": "<p>25 + 273,15 = 298,15. Temperaturen är 298,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1803,7 +1803,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>-40 °C till K</p>",
-        "s": "<p>−40 + 273,15 = 233,15. Temperaturen är 233,15 K.</p>",
+        "s": "<p>−40 + 273,15 = 233,15. Temperaturen är 233,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1813,7 +1813,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>350 K till °C</p>",
-        "s": "<p>350 − 273,15 = 76,85. Temperaturen är 76,85 °C.</p>",
+        "s": "<p>350 − 273,15 = 76,85. Temperaturen är 76,85 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1823,7 +1823,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>0 K till °C</p>",
-        "s": "<p>0 − 273,15 = −273,15. Temperaturen är −273,15 °C.</p>",
+        "s": "<p>0 − 273,15 = −273,15. Temperaturen är −273,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1833,7 +1833,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>100 °C till K</p>",
-        "s": "<p>100 + 273,15 = 373,15. Temperaturen är 373,15 K.</p>",
+        "s": "<p>100 + 273,15 = 373,15. Temperaturen är 373,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1843,7 +1843,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>77 K till °C</p>",
-        "s": "<p>77 − 273,15 = −196,15. Temperaturen är −196,15 °C.</p>",
+        "s": "<p>77 − 273,15 = −196,15. Temperaturen är −196,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1858,7 +1858,8 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Enhetsomvandling"
-    ]
+    ],
+    "rättSvar273": [298, 233, 77, -273, 373, -196]
   },
   {
     "id": "2.21",
@@ -52117,7 +52118,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En hisskorg på 350 kg lyfter Johannes, som har massan 80 kg. Hissen saknar motvikt. Hela drivsystemets verkningsgrad från el till ökningen i lägesenergi är 85 % vid jämn uppåtrörelse. Den elektriska effekten får högst vara 2,5 kW.</p><p>Använd g = 9,82 m/s².</p><p>Vilken är den största konstanta lyftfarten enligt modellen? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<p>Vid gränsen blir nyttig effekt 0,85 · 2500 = 2125 W. Vid konstant fart gäller P_nyttig = (350+80)gv. Alltså v = 2125/(430 · 9,82) ≈ 0,503254 m/s. Svar: 0,5 m/s.</p>",
+    "s": "<p>Vid jämn lyftrörelse ändras inte rörelseenergin. Lyftens arbete fås av lägesenergin, \\(W=mg\\Delta h\\). Effekten är arbete per tid och lyftfarten är \\(v=\\Delta h/t\\):</p>\\[P=\\frac{W}{t}=mg\\frac{\\Delta h}{t}=mgv.\\]<p>Vid gränsen blir nyttig effekt 0,85 · 2500 = 2125 W. Vid konstant fart gäller P_nyttig = (350+80)gv. Alltså v = 2125/(430 · 9,82) ≈ 0,503254 m/s. Svar: 0,5 m/s.</p>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -53250,7 +53251,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/3/0)",
     "t": "<p>En bil på 1000 kg accelererar från vila till 100 km/h på 6,0 s på plan väg. Bortse från luft- och rullmotstånd samt hjulens rotationsenergi.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den nyttiga medeleffekt som krävs.</li><li>Bestäm medeleffekten från bränslet om verkningsgraden är 35 %.</li><li>En elev säger att första svaret räcker för att välja motorns maximala mekaniska effekt. Visa med antagandet konstant acceleration varför slutsatsen inte håller.</li></ol>",
-    "s": "<p>a) v = 100/3,6 m/s. ΔE_k = 1000(100/3,6)²/2 ≈ 385 802 J. P_medel = ΔE_k/6 ≈ 64,3 kW.</p><p>b) P_bränsle,medel = 64,3004/0,35 ≈ 183,7 kW. Detta är tillförd effekt från bränslet, inte motorns mekaniska uteffekt.</p><p>c) Vid konstant acceleration är F = mΔv/t konstant och P = Fv växer linjärt från noll. I slutet blir P = m(v/t)v = 2ΔE_k/t ≈ 128,6 kW. Motorn måste då kunna lämna mer än medeleffekten. Utan uppgift om accelerationsförloppet kan den nödvändiga toppeffekten inte bestämmas från medeleffekten ensam.</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>a) v = 100/3,6 m/s. ΔE_k = 1000(100/3,6)²/2 ≈ 385 802 J. P_medel = ΔE_k/6 ≈ 64,3 kW.</p><p>b) P_bränsle,medel = 64,3004/0,35 ≈ 183,7 kW. Detta är tillförd effekt från bränslet, inte motorns mekaniska uteffekt.</p><p>c) Vid konstant acceleration är F = mΔv/t konstant och P = Fv växer linjärt från noll. I slutet blir P = m(v/t)v = 2ΔE_k/t ≈ 128,6 kW. Motorn måste då kunna lämna mer än medeleffekten. Utan uppgift om accelerationsförloppet kan den nödvändiga toppeffekten inte bestämmas från medeleffekten ensam.</p>",
     "familj": "Verkningsgrad",
     "formaga": [
       "modellering",
@@ -53542,7 +53543,7 @@ window.BANK = [
     "typ": "kraft gånger fart",
     "poang": "(1/0/0)",
     "t": "<p>En vinsch drar en last med konstant fart 2,0 m/s. Dragkraften är 600 N i rörelseriktningen. Använd P = Fv.</p><p>Bestäm dragkraftens mekaniska effekt. Svara i W. Svara med ett heltal.</p>",
-    "s": "<p>P = 600 · 2,0 = 1200 W. Svar: 1200 W.</p>",
+    "s": "<p>Här är \\(F\\) vinschens dragkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>P = 600 · 2,0 = 1200 W. Svar: 1200 W.</p>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "procedur"
@@ -55414,7 +55415,7 @@ window.BANK = [
     "typ": "framdrivning vid konstant fart",
     "poang": "(3/0/0)",
     "t": "<p>En båt går rakt fram med konstant fart 6,0 m/s. Propellerns framåtriktade kraft på båten är 1800 N. Vattenmotståndet är den enda andra vågräta kraften.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den effekt propellerkraften överför till båtens framåtrörelse.</li><li>Bestäm vattenmotståndets storlek och riktning. Motivera.</li><li>Varför ökar inte båtens rörelseenergi trots att propellerkraften överför energi?</li></ol>",
-    "s": "<p>a) P = Fv = 1800 · 6,0 = 10 800 W = 10,8 kW. Det är nyttig framdrivningseffekt, inte propelleraxelns totala effekt.</p><p>b) Resultanten är noll när hastigheten är konstant. Vattenmotståndet är därför 1800 N bakåt.</p><p>c) Motståndskraftens effekt på båten är −10,8 kW. Nettoeffekten på båtens rörelse är noll; energi överförs i stället till vatten och omgivning.</p>",
+    "s": "<p>Här är \\(F\\) propellerns framåtriktade kraft på båten, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>a) P = Fv = 1800 · 6,0 = 10 800 W = 10,8 kW. Det är nyttig framdrivningseffekt, inte propelleraxelns totala effekt.</p><p>b) Resultanten är noll när hastigheten är konstant. Vattenmotståndet är därför 1800 N bakåt.</p><p>c) Motståndskraftens effekt på båten är −10,8 kW. Nettoeffekten på båtens rörelse är noll; energi överförs i stället till vatten och omgivning.</p>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "begrepp",
@@ -55565,7 +55566,7 @@ window.BANK = [
     "typ": "jämföra framdrivningseffekt",
     "poang": "(0/2/0)",
     "t": "<p>En cyklist håller konstant fart på plan väg. Vid 7,5 m/s är den nyttiga framdrivningseffekten 210 W. Vid 9,0 m/s är den sammanlagda motståndskraften 40 N. Jämför den nyttiga effekten i de två fallen.</p><p>Med hur många procent måste effekten öka vid den högre farten? Svara i %. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<p>Vid den högre konstanta farten är drivkraften 40 N, så P₂ = 40 · 9,0 = 360 W. Ökningen relativt 210 W är (360−210)/210 · 100 ≈ 71,4286 %. Svar: 71,4 %.</p>",
+    "s": "<p>Här är \\(F\\) cyklistens drivkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>Vid den högre konstanta farten är drivkraften 40 N, så P₂ = 40 · 9,0 = 360 W. Ökningen relativt 210 W är (360−210)/210 · 100 ≈ 71,4286 %. Svar: 71,4 %.</p>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "modellering",
@@ -55804,7 +55805,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/3/0)",
     "t": "<p>En hisskorg på 800 kg med last på 400 kg är förbunden med en motvikt på 700 kg via en lina över ett motordrivet hjul. Linan glider inte mot hjulet. Hiss och motvikt rör sig med samma fart åt motsatta håll. Bortse från förluster och räkna på en tid när farten är konstant.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm motorns mekaniska effekt när hissen går upp med 2,0 m/s.</li><li>Bestäm motsvarande effekt utan motvikt.</li><li>En elev säger att linan på hissidan bara behöver dra med skillnaden i tyngd mellan hiss och motvikt. Granska påståendet och bestäm linspänningen på vardera sidan.</li></ol>",
-    "s": "<p>a) Hisskorg med last har massan 1200 kg. Motvikten sänks lika snabbt som hissen höjs. P = (1200−700)g · 2,0 = 9820 W = 9,82 kW.</p><p>b) Utan motvikt: P = 1200 · 9,82 · 2,0 = 23 568 W ≈ 23,6 kW.</p><p>c) Påståendet är fel. Konstant fart ger T_hiss = 1200g = 11 784 N och T_motvikt = 700g = 6874 N. Skillnaden 4910 N bestämmer motorns drivmoment via drivhjulets radie; den är inte linspänningen på hissidan.</p>",
+    "s": "<p>Vid jämn lyftrörelse ändras inte rörelseenergin. Motvikten sänks lika mycket som hissen höjs. Arbetet är därför \\(W=(m_{\\mathrm{hiss}}-m_{\\mathrm{motvikt}})g\\Delta h\\). Effekten är arbete per tid och lyftfarten är \\(v=\\Delta h/t\\):</p>\\[P=\\frac{W}{t}=(m_{\\mathrm{hiss}}-m_{\\mathrm{motvikt}})g\\frac{\\Delta h}{t}= (m_{\\mathrm{hiss}}-m_{\\mathrm{motvikt}})gv.\\]<p>a) Hisskorg med last har massan 1200 kg. Motvikten sänks lika snabbt som hissen höjs. P = (1200−700)g · 2,0 = 9820 W = 9,82 kW.</p><p>b) Utan motvikt: P = 1200 · 9,82 · 2,0 = 23 568 W ≈ 23,6 kW.</p><p>c) Påståendet är fel. Konstant fart ger T_hiss = 1200g = 11 784 N och T_motvikt = 700g = 6874 N. Skillnaden 4910 N bestämmer motorns drivmoment via drivhjulets radie; den är inte linspänningen på hissidan.</p>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -55935,7 +55936,7 @@ window.BANK = [
     "typ": "välja fart vid given effekt",
     "poang": "(2/0/0)",
     "t": "<p>En vinsch kan lämna högst 1,44 kW mekanisk effekt. Den ska dra med kraften 600 N i rörelseriktningen under jämn rörelse. Bortse från övriga begränsningar.</p><p>Vilken är den största konstanta farten som effektgränsen tillåter? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<p>P = Fv ger v_max = 1440/600 = 2,4 m/s. Högre fart med samma kraft kräver mer än 1,44 kW. Svar: 2,4 m/s.</p>",
+    "s": "<p>Här är \\(F\\) vinschens dragkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>P = Fv ger v_max = 1440/600 = 2,4 m/s. Högre fart med samma kraft kräver mer än 1,44 kW. Svar: 2,4 m/s.</p>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "procedur"
@@ -56714,7 +56715,7 @@ window.BANK = [
     "typ": "effekt vid konstant fart",
     "poang": "(3/0/0)",
     "t": "<p>En bil kör med konstant fart 25 m/s på en vågrät väg. Motorns nyttiga mekaniska effekt vid hjulen är 30 kW.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm drivkraften. Svara i N. Svara med ett heltal.</li><li>Bestäm storleken av den sammanlagda bromsande kraften. Svara i N. Svara med ett heltal.</li><li>Bestäm motorns arbete under 1,0 km. Svara i MJ. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<p>a) P = Fv ger F = 30 000/25 = 1200 N. Svar: 1200 N.</p><p>b) Konstant hastighet innebär noll resultant. Bromskraftens belopp är därför lika stort som drivkraften: 30 000/25 = 1200 N. Svar: 1200 N.</p><p>c) W = Fs = (30 000/25) · 1000 = 1 200 000 J = 1,2 MJ. Svar: 1,2 MJ.</p>",
+    "s": "<ol type=\"a\"><li><p>På 1,0 s färdas bilen 25 m. Under samma tid utför motorn arbetet \\(W=Pt=30\\,000\\cdot1{,}0=30\\,000\\ \\mathrm J\\).</p><p>Arbetet är också \\(W=Fs\\). Alltså</p>\\[F=\\frac{W}{s}=\\frac{30\\,000}{25}=1200\\ \\mathrm N.\\]<p><strong>Svar:</strong> 1200 N.</p></li><li><p>Konstant hastighet innebär att drivkraften och den bromsande kraften är lika stora. På 1,0 s färdas bilen 25 m och motorn utför arbetet \\(W=Pt=30\\,000\\ \\mathrm J\\). Av \\(W=Fs\\) får vi drivkraften \\(F=30\\,000/25=1200\\ \\mathrm N\\).</p><p><strong>Svar:</strong> Den bromsande kraftens storlek är 1200 N.</p></li><li><p>Färden tar \\(t=s/v=1000/25=40\\ \\mathrm s\\). Arbetet beräknas med effekt gånger tid:</p>\\[W=Pt=30\\,000\\cdot40=1\\,200\\,000\\ \\mathrm J=1{,}2\\ \\mathrm{MJ}.\\]<p><strong>Svar:</strong> 1,2 MJ.</p></li></ol>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "procedur"
@@ -56763,7 +56764,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm drivkraften. Svara i N. Svara med ett heltal.",
         "t": "<p>En bil kör med konstant fart 25 m/s på en vågrät väg. Motorns nyttiga mekaniska effekt vid hjulen är 30 kW.</p><p>Bestäm drivkraften. Svara i N. Svara med ett heltal.</p>",
-        "s": "<p>P = Fv ger F = 30 000/25 = 1200 N. Svar: 1200 N.</p>",
+        "s": "<p>På 1,0 s färdas bilen 25 m. Under samma tid utför motorn arbetet \\(W=Pt=30\\,000\\cdot1{,}0=30\\,000\\ \\mathrm J\\).</p><p>Arbetet är också \\(W=Fs\\). Alltså</p>\\[F=\\frac{W}{s}=\\frac{30\\,000}{25}=1200\\ \\mathrm N.\\]<p><strong>Svar:</strong> 1200 N.</p>",
         "ledtrad": "<p>Vilken kraft hör ihop med den angivna effekten?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -56777,7 +56778,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm storleken av den sammanlagda bromsande kraften. Svara i N. Svara med ett heltal.",
         "t": "<p>En bil kör med konstant fart 25 m/s på en vågrät väg. Motorns nyttiga mekaniska effekt vid hjulen är 30 kW.</p><p>Bestäm storleken av den sammanlagda bromsande kraften. Svara i N. Svara med ett heltal.</p>",
-        "s": "<p>Konstant hastighet innebär noll resultant. Bromskraftens belopp är därför lika stort som drivkraften: 30 000/25 = 1200 N. Svar: 1200 N.</p>",
+        "s": "<p>Konstant hastighet innebär att drivkraften och den bromsande kraften är lika stora. På 1,0 s färdas bilen 25 m och motorn utför arbetet \\(W=Pt=30\\,000\\ \\mathrm J\\). Av \\(W=Fs\\) får vi drivkraften \\(F=30\\,000/25=1200\\ \\mathrm N\\).</p><p><strong>Svar:</strong> Den bromsande kraftens storlek är 1200 N.</p>",
         "ledtrad": "<p>Vad säger konstant hastighet om resultanten?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -56791,7 +56792,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm motorns arbete under 1,0 km. Svara i MJ. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En bil kör med konstant fart 25 m/s på en vågrät väg. Motorns nyttiga mekaniska effekt vid hjulen är 30 kW.</p><p>Bestäm motorns arbete under 1,0 km. Svara i MJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>W = Fs = (30 000/25) · 1000 = 1 200 000 J = 1,2 MJ. Svar: 1,2 MJ.</p>",
+        "s": "<p>Färden tar \\(t=s/v=1000/25=40\\ \\mathrm s\\). Arbetet beräknas med effekt gånger tid:</p>\\[W=Pt=30\\,000\\cdot40=1\\,200\\,000\\ \\mathrm J=1{,}2\\ \\mathrm{MJ}.\\]<p><strong>Svar:</strong> 1,2 MJ.</p>",
         "ledtrad": "<p>Kraft och sträcka måste anges i förenliga enheter.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -57010,7 +57011,7 @@ window.BANK = [
     "typ": "skidlift och flöde",
     "poang": "(0/2/2)",
     "t": "<p>En skidlift har en 800 m lång rak backe med lutningen 25°. Fyra åkare per minut börjar åka upp. Varje åkare väger 85 kg. Liftens fart är 2,0 m/s och glidfriktionstalet är 0,040. Räkna på stationär drift med jämnt inflöde. Bortse från liftens egna förluster och arbetet vid påstigning.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den genomsnittliga nyttiga effekten för att dra åkarna uppför backen.</li><li>Liftens fart fördubblas, men fortfarande börjar fyra åkare per minut åka upp. Visa hur antalet åkare i backen och den nödvändiga medeleffekten påverkas i stationär drift.</li></ol>",
-    "s": "<p>a) Per åkare är arbetet W = mgL(sin 25°+0,040 cos 25°) ≈ 306,4 kJ. Fyra åkare per minut ger P = (4/60)W ≈ 20,43 kW. Både ökning av lägesenergi och arbete mot glidfriktion ingår.</p><p>b) Vid fart v är restiden L/v och medelantalet åkare i backen n = (4/60)L/v. Dragkraften per åkare är F = mg(sin 25°+μ cos 25°), så P = nFv = (4/60)LF. Dubblerad fart halverar medelantalet, från cirka 26,7 till 13,3. Medeleffekten är oförändrad eftersom arbetet per åkare och antalet åkare per sekund är oförändrade.</p>",
+    "s": "<p>a) Per åkare är arbetet W = mgL(sin 25°+0,040 cos 25°) ≈ 306,4 kJ. Fyra åkare per minut ger P = (4/60)W ≈ 20,43 kW. Både ökning av lägesenergi och arbete mot glidfriktion ingår.</p><p>b) Vid farten v är restiden L/v och medelantalet åkare i backen n = (4/60)L/v. Dubblerad fart halverar medelantalet, från cirka 26,7 till 13,3. Varje åkare behöver ändå samma arbete för att komma uppför hela backen, och fortfarande transporteras fyra åkare per minut. Effekten är arbete per tid: P = 4W/60. Medeleffekten är därför oförändrad.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "modellering",
@@ -57986,7 +57987,7 @@ window.BANK = [
     "typ": "konstant effekt och gränsfart",
     "poang": "(1/2/0)",
     "t": "<p>En bil på 850 kg kör på vågrät väg. När bilen rör sig antas motorns nyttiga effekt konstant, 6,0 kW, och den sammanlagda bromskraften konstant, 80 N.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm drivkraft och acceleration vid 5,0 m/s respektive 10 m/s.</li><li>Bestäm modellens gränsfart.</li><li>Förklara varför modellen med konstant positiv effekt inte kan användas ända från exakt vila.</li></ol>",
-    "s": "<p>a) F_d = P/v. Vid 5,0 m/s är F_d = 1200 N och a = (1200−80)/850 ≈ 1,318 m/s². Vid 10 m/s är F_d = 600 N och a = (600−80)/850 ≈ 0,612 m/s².</p><p>b) Vid gränsfarten är P/v = 80, vilket ger v = 6000/80 = 75 m/s. Från lägre fart närmar sig bilen detta värde i modellen.</p><p>c) F_d = P/v växer utan gräns när v närmar sig noll. En verklig motor och drivlina kan inte ge oändlig kraft. Modellen måste kompletteras med en kraftbegränsning vid låga farter. Konstant effekt innebär inte konstant acceleration.</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>a) F_d = P/v. Vid 5,0 m/s är F_d = 1200 N och a = (1200−80)/850 ≈ 1,318 m/s². Vid 10 m/s är F_d = 600 N och a = (600−80)/850 ≈ 0,612 m/s².</p><p>b) Vid gränsfarten är P/v = 80, vilket ger v = 6000/80 = 75 m/s. Från lägre fart närmar sig bilen detta värde i modellen.</p><p>c) F_d = P/v växer utan gräns när v närmar sig noll. En verklig motor och drivlina kan inte ge oändlig kraft. Modellen måste kompletteras med en kraftbegränsning vid låga farter. Konstant effekt innebär inte konstant acceleration.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "modellering",
@@ -58415,7 +58416,7 @@ window.BANK = [
     "typ": "sandlastning och energiflöde",
     "poang": "(0/2/3)",
     "t": "<p>En vagn med massan 200 kg rör sig vågrätt med 4,0 m/s. Sand faller lodrätt ned i vagnen med massflödet 12 kg/s och stannar kvar. Sandens vågräta fart före kontakten är noll. Bortse från rullmotstånd.</p><span class=\"fig\"><svg height=\"266\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 320 170\"><rect x=\"15\" y=\"148\" width=\"290\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"15\" y1=\"148\" x2=\"305\" y2=\"148\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"110\" y=\"14\" width=\"90\" height=\"36\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"110,50 200,50 168,72 142,72\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"155\" y=\"38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2B2527\">sand</text><line x1=\"149\" y1=\"76\" x2=\"149\" y2=\"94\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"3 4\"/><line x1=\"157\" y1=\"76\" x2=\"157\" y2=\"94\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"3 4\"/><path d=\"M 100,96 L 100,132 L 220,132 L 220,96\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"160\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2B2527\">200 kg</text><circle cx=\"125\" cy=\"140\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"195\" cy=\"140\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"238\" y1=\"114\" x2=\"264\" y2=\"114\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"272,114 262,109.4 262,118.6\" fill=\"#2A5D9E\"/><text x=\"278\" y=\"118\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten efter 10 s om vagnen får rulla fritt.</li><li>Bestäm dragkraften och effekten om vagnen i stället hålls vid konstant fart 4,0 m/s.</li><li>Hur stor del av dragarbetet per sekund blir ökad vågrät rörelseenergi i fallet med konstant fart? Förklara resten.</li></ol>",
-    "s": "<p>a) Under 10 s tillförs 120 kg sand. För systemet vagn och all sand som ska hamna i vagnen är den yttre horisontella impulsen noll. 200 · 4,0 = (200+120)v ger v = 2,50 m/s.</p><p>b) Varje sekund måste 12 kg få horisontell fart 4,0 m/s. Dragkraften är därför 12 · 4,0 = 48 N och effekten P = Fv = 192 W.</p><p>c) Varje sekund ökar den horisontella rörelseenergin med 12 · 4,0²/2 = 96 J. Hälften av dragarbetet blir alltså horisontell rörelseenergi och hälften omvandlas genom den oelastiska upptagningen av sanden, bland annat till värme. Sandens vertikala fallenergi är en separat energitillförsel och ingår inte i denna jämförelse.</p>",
+    "s": "<p>a) Under 10 s tillförs 120 kg sand. För systemet vagn och all sand som ska hamna i vagnen är den yttre horisontella impulsen noll. 200 · 4,0 = (200+120)v ger v = 2,50 m/s.</p><p>b) På 1,0 s får 12 kg sand vågrät fart 4,0 m/s. Rörelsemängden ökar med \\(\\Delta p=12\\cdot4{,}0=48\\ \\mathrm{kg\\,m/s}\\). Impulssambandet \\(F\\Delta t=\\Delta p\\) ger dragkraften \\(F=48/1{,}0=48\\ \\mathrm N\\).</p><p>På samma sekund rör sig vagnen 4,0 m. Dragkraftens arbete blir \\(W=Fs=48\\cdot4{,}0=192\\ \\mathrm J\\). Effekten är arbete per tid: \\(P=W/t=192/1{,}0=192\\ \\mathrm W\\).</p><p><strong>Svar:</strong> Dragkraften är 48 N och effekten 192 W.</p><p>c) Varje sekund ökar den horisontella rörelseenergin med 12 · 4,0²/2 = 96 J. Hälften av dragarbetet blir alltså horisontell rörelseenergi och hälften omvandlas genom den oelastiska upptagningen av sanden, bland annat till värme. Sandens vertikala fallenergi är en separat energitillförsel och ingår inte i denna jämförelse.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "modellering",
@@ -58447,7 +58448,7 @@ window.BANK = [
     "typ": "lastbil i jämn uppförsfart",
     "poang": "(3/0/0)",
     "t": "<p>En lastbil på 12 000 kg kör med konstant fart 15 m/s uppför en rak backe som lutar 4,0°. En sammanlagd motståndskraft på 2500 N verkar nedför backen utöver tyngdkraftens komponent. Backsträckan är 2000 m.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm drivkraftens storlek. Svara i N. Svara med ett heltal.</li><li>Bestäm motorns nyttiga mekaniska effekt. Svara i kW. Avrunda vid behov till 2 decimaler.</li><li>Bestäm motorns arbete längs hela backen. Svara i MJ. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<p>a) Konstant fart kräver F_d = mg sin 4,0°+2500 = 12 000 · 9,82 sin 4,0°+2500 ≈ 10 720 N. Svar: 10720 N.</p><p>b) P = F_dv = (12 000 · 9,82 sin 4,0°+2500) · 15 ≈ 160,80 kW. Svar: 160,8 kW.</p><p>c) W = F_ds = (12 000 · 9,82 sin 4,0°+2500) · 2000 ≈ 21,44 MJ. Svar: 21,44 MJ.</p>",
+    "s": "<p>a) Konstant fart kräver F_d = mg sin 4,0°+2500 = 12 000 · 9,82 sin 4,0°+2500 ≈ 10 720 N. Svar: 10720 N.</p><p>b)</p><p>Vid konstant fart balanserar drivkraften tyngdkraftens komponent och motståndet:</p>\\[F_d=12\\,000\\cdot9{,}82\\sin4{,}0^\\circ+2500\\approx10\\,720\\ \\mathrm N.\\]<p>På 1,0 s kör lastbilen 15 m. Motorns arbete under sekunden är \\(W=F_ds\\), och effekten är \\(P=W/t\\). Det ger</p>\\[P=\\frac{(12\\,000\\cdot9{,}82\\sin4{,}0^\\circ+2500)\\cdot15}{1{,}0}\\approx160{,}80\\ \\mathrm{kW}.\\]<p><strong>Svar:</strong> 160,8 kW.</p><p>c) W = F_ds = (12 000 · 9,82 sin 4,0°+2500) · 2000 ≈ 21,44 MJ. Svar: 21,44 MJ.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "procedur"
@@ -58510,7 +58511,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm motorns nyttiga mekaniska effekt. Svara i kW. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En lastbil på 12 000 kg kör med konstant fart 15 m/s uppför en rak backe som lutar 4,0°. En sammanlagd motståndskraft på 2500 N verkar nedför backen utöver tyngdkraftens komponent. Backsträckan är 2000 m.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm motorns nyttiga mekaniska effekt. Svara i kW. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>P = F_dv = (12 000 · 9,82 sin 4,0°+2500) · 15 ≈ 160,80 kW. Svar: 160,8 kW.</p>",
+        "s": "<p>Vid konstant fart balanserar drivkraften tyngdkraftens komponent och motståndet:</p>\\[F_d=12\\,000\\cdot9{,}82\\sin4{,}0^\\circ+2500\\approx10\\,720\\ \\mathrm N.\\]<p>På 1,0 s kör lastbilen 15 m. Motorns arbete under sekunden är \\(W=F_ds\\), och effekten är \\(P=W/t\\). Det ger</p>\\[P=\\frac{(12\\,000\\cdot9{,}82\\sin4{,}0^\\circ+2500)\\cdot15}{1{,}0}\\approx160{,}80\\ \\mathrm{kW}.\\]<p><strong>Svar:</strong> 160,8 kW.</p>",
         "ledtrad": "<p>Beräkna först den kraft som krävs för konstant fart.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -60073,7 +60074,7 @@ window.BANK = [
     "typ": "momentan effekt och generalisering",
     "poang": "(2/2/3)",
     "t": "<p>En bil på 1200 kg accelererar jämnt från vila till 25 m/s på 10 s på plan väg. Bortse från motstånd och hjulens rotationsenergi.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm drivkraften.</li><li>Bestäm den momentana mekaniska effekten vid 2,0 s, 6,0 s och precis före 10 s.</li><li>Bestäm medeleffekten och förklara dess relation till sluteffekten.</li><li>Generalisera: en massa m accelererar jämnt från v₀ ≥ 0 till v₁ > v₀ under tiden T. Ta fram kvoten mellan medeleffekt och sluteffekt. När är kvoten 1/2?</li><li>Kan samma konstanta acceleration åstadkommas med konstant mekanisk effekt? Kan motorn ge samma positiva effekt hela tiden ända från start, när drivkraften är begränsad? Motivera.</li></ol>",
-    "s": "<p>a) a = 25/10 = 2,5 m/s², F = 1200 · 2,5 = 3000 N.</p><p>b) v = 2,5t ger P = Fv = 7500t W. P(2) = 15 kW, P(6) = 45 kW och P(10) = 75 kW.</p><p>c) P_medel = (1200 · 25²/2)/10 = 37,5 kW. Effekten växer linjärt från noll till 75 kW, så tidsmedelvärdet är hälften av sluteffekten.</p><p>d) F = m(v₁−v₀)/T. P_slut = m(v₁−v₀)v₁/T och P_medel = m(v₁²−v₀²)/(2T). Kvoten blir (v₁+v₀)/(2v₁). Den är 1/2 just när v₀ = 0. För 0 &lt; v₀ &lt; v₁ ligger kvoten mellan 1/2 och 1.</p><p>e) Nej. Konstant acceleration kräver konstant kraft och därmed växande effekt när farten ökar. Konstant positiv effekt skulle i stället ge F = P/v och a = P/(mv). Kraften skulle växa utan gräns när v närmar sig noll. Modellen fungerar därför inte ända från vila om drivkraften är begränsad; starten måste beskrivas på annat sätt.</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>a) a = 25/10 = 2,5 m/s², F = 1200 · 2,5 = 3000 N.</p><p>b) v = 2,5t ger P = Fv = 7500t W. P(2) = 15 kW, P(6) = 45 kW och P(10) = 75 kW.</p><p>c) P_medel = (1200 · 25²/2)/10 = 37,5 kW. Effekten växer linjärt från noll till 75 kW, så tidsmedelvärdet är hälften av sluteffekten.</p><p>d) F = m(v₁−v₀)/T. P_slut = m(v₁−v₀)v₁/T och P_medel = m(v₁²−v₀²)/(2T). Kvoten blir (v₁+v₀)/(2v₁). Den är 1/2 just när v₀ = 0. För 0 &lt; v₀ &lt; v₁ ligger kvoten mellan 1/2 och 1.</p><p>e) Nej. Konstant acceleration kräver konstant kraft och därmed växande effekt när farten ökar. Konstant positiv effekt skulle i stället ge F = P/v och a = P/(mv). Kraften skulle växa utan gräns när v närmar sig noll. Modellen fungerar därför inte ända från vila om drivkraften är begränsad; starten måste beskrivas på annat sätt.</p>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "modellering",
@@ -60231,7 +60232,7 @@ window.BANK = [
     "typ": "effekt av en sned kraft",
     "poang": "(0/2/0)",
     "t": "<p>En bogserlina drar en båt med kraften 650 N. Båtens fart är 1,2 m/s. Vinkeln mellan kraften och båtens hastighet är 35°.</p><p>Bestäm effekten som dragkraften överför till båten. Svara i W. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<p>Kraftkomponenten längs hastigheten är 650 cos35°. P = Fv cos35° = 650 · 1,2 · cos35° ≈ 638,9386 W. Den vinkelräta komponenten bidrar inte till effekten. Svar: 638,9 W.</p>",
+    "s": "<p>För en kraft som bildar vinkeln \\(\\theta\\) med rörelsen är arbetet \\(W=Fs\\cos\\theta\\). Dividera med tiden och använd \\(s/t=v\\):</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}\\cos\\theta=Fv\\cos\\theta.\\]<p>Kraftkomponenten längs hastigheten är 650 cos35°. P = Fv cos35° = 650 · 1,2 · cos35° ≈ 638,9386 W. Den vinkelräta komponenten bidrar inte till effekten. Svar: 638,9 W.</p>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "modellering",
@@ -61462,7 +61463,7 @@ window.BANK = [
     "typ": "energitillförsel vid konstant effekt",
     "poang": "(1/2/0)",
     "t": "<p>En elmotorcykel med förare har massan 260 kg. På en vågrät väg är den nyttiga mekaniska effekten konstant 18 kW och motståndskraften konstant 50 N under accelerationen från 5,0 till 25 m/s. Bortse från hjulens rotation.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm drivkraften och accelerationen vid 5,0 respektive 25 m/s.</li><li>Bestäm ökningen av rörelseenergin när farten ökar från 5,0 till 25 m/s.</li><li>En elev dividerar denna energi med motoreffekten för att få accelerationstiden. Förklara varför resultatet bara är en undre gräns och ange det saknade arbetet.</li></ol>",
-    "s": "<p>a) Vid 5,0 m/s är F_d = 18 000/5,0 = 3600 N och a = (3600−50)/260 ≈ 13,65 m/s². Vid 25 m/s är F_d = 720 N och a = (720−50)/260 ≈ 2,577 m/s².</p><p>b) ΔE_k = 260(25²−5,0²)/2 = 78 000 J.</p><p>c) 78 000/18 000 ≈ 4,333 s är tiden om allt motorarbete blir rörelseenergi. Motorn måste också utföra arbetet 50s mot motståndet, där s är färdsträckan under accelerationen. Rätt energibalans är 18 000t = 78 000+50s. Därför är tiden större än 4,333 s. De fullständiga rörelseekvationerna kan i princip bestämma både s och t; det är just beräkningen enbart med ΔE_k/P som är otillräcklig.</p>",
+    "s": "<p>Här är \\(F\\) motorcykelns drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>a) Vid 5,0 m/s är F_d = 18 000/5,0 = 3600 N och a = (3600−50)/260 ≈ 13,65 m/s². Vid 25 m/s är F_d = 720 N och a = (720−50)/260 ≈ 2,577 m/s².</p><p>b) ΔE_k = 260(25²−5,0²)/2 = 78 000 J.</p><p>c) 78 000/18 000 ≈ 4,333 s är tiden om allt motorarbete blir rörelseenergi. Motorn måste också utföra arbetet 50s mot motståndet, där s är färdsträckan under accelerationen. Rätt energibalans är 18 000t = 78 000+50s. Därför är tiden större än 4,333 s. De fullständiga rörelseekvationerna kan i princip bestämma både s och t; det är just beräkningen enbart med ΔE_k/P som är otillräcklig.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "modellering",
@@ -61494,7 +61495,7 @@ window.BANK = [
     "typ": "hissens största effekt",
     "poang": "(0/2/0)",
     "t": "<p>En hiss med last har massan 900 kg. Den accelererar likformigt uppåt från vila till 2,0 m/s på 3,0 s. Motorns verkningsgrad från elektrisk effekt till mekanisk effekt i linan är 0,80. Bortse från friktion och anta att ingen motvikt finns.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den största elektriska effekten under accelerationen. Svara i kW. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<p>a = 2,0/3,0 m/s². Linkraften är S = 900(9,82+2,0/3,0) = 9438 N och är konstant. P_el = Sv/0,80 ökar därför med farten och är störst i slutet: 9438 · 2,0/0,80 = 23 595 W = 23,595 kW. Svar: 23,6 kW.</p>",
+    "s": "<p>Här är \\(F\\) linkraften på hissen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>a = 2,0/3,0 m/s². Linkraften är S = 900(9,82+2,0/3,0) = 9438 N och är konstant. P_el = Sv/0,80 ökar därför med farten och är störst i slutet: 9438 · 2,0/0,80 = 23 595 W = 23,595 kW. Svar: 23,6 kW.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "modellering",
@@ -61527,7 +61528,7 @@ window.BANK = [
     "typ": "successiv utströmning i raketmodell",
     "poang": "(1/1/2)",
     "t": "<p>En raket befinner sig långt från gravitationskällor och startar från vila i ett valt fast referenssystem. Startmassan är 20 000 kg, varav 8000 kg bränsle. Gas strömmar bakåt med massflödet ṁ = 80 kg/s och farten u = 3000 m/s relativt raketen. Bortse från yttre krafter och tryckbidrag vid munstycket.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm dragkraften och accelerationen i startögonblicket.</li><li>Bestäm gasstrålens rörelseenergiflöde relativt raketen, \\(P_\\text{jet}=\\dfrac{\\dot m u^2}{2}\\). Förklara varför det inte är samma som kraftens mekaniska effekt Fv på raketen i ett fast referenssystem.</li><li>Beräkna raketens fart efter att 4000 kg bränsle förbrukats. Du får använda Δv = u ln(m₀/m). Granska sedan metoden att behandla all denna gas som en enda samtidig utstötning.</li></ol>",
-    "s": "<p>a) F = ṁu = 80 · 3000 = 240 000 N. Startaccelerationen är F/m₀ = 240 000/20 000 = 12 m/s².</p><p>b) P_jet = 80 · 3000²/2 = 360 MW. Den beskriver gasens rörelseenergiflöde relativt raketen. Fv avser kraftens effekt på själva raketen i det valda fasta referenssystemet och är noll när raketen där är stilla. De avser olika storheter och referenssystem.</p><p>c) Slutmassan är 16 000 kg. Δv = 3000 ln(20 000/16 000) ≈ 669,43 m/s. En engångsmodell ger 20 000v−4000 · 3000 = 0, alltså 600 m/s när hela gasmängdens hastighet sätts till v−3000 relativt det fasta systemet. Den beskriver ett annat förlopp. Verklig successiv utströmning måste behandla gasportionerna vid de olika rakethastigheterna; därför kan samma engångshastighet inte tilldelas all gas.</p>",
+    "s": "<p>Här är \\(F\\) dragkraften på raketen i det valda fasta referenssystemet, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>a) F = ṁu = 80 · 3000 = 240 000 N. Startaccelerationen är F/m₀ = 240 000/20 000 = 12 m/s².</p><p>b) P_jet = 80 · 3000²/2 = 360 MW. Den beskriver gasens rörelseenergiflöde relativt raketen. Fv avser kraftens effekt på själva raketen i det valda fasta referenssystemet och är noll när raketen där är stilla. De avser olika storheter och referenssystem.</p><p>c) Slutmassan är 16 000 kg. Δv = 3000 ln(20 000/16 000) ≈ 669,43 m/s. En engångsmodell ger 20 000v−4000 · 3000 = 0, alltså 600 m/s när hela gasmängdens hastighet sätts till v−3000 relativt det fasta systemet. Den beskriver ett annat förlopp. Verklig successiv utströmning måste behandla gasportionerna vid de olika rakethastigheterna; därför kan samma engångshastighet inte tilldelas all gas.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "modellering",
@@ -63524,7 +63525,7 @@ window.BANK = [
     "typ": "tryck och absolut temperatur",
     "poang": "(2/0/0)",
     "t": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 1 decimal.</li><li>Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</li></ol>",
-    "s": "<p>a) Vid konstant volym gäller p/T=konstant. p₂=150·333,15/293,15≈170,467 bar. Svar: 170,5 bar.</p><p>b) Tryckets relativa förändring är samma som den absoluta temperaturens: (333,15/293,15−1)·100≈13,6449 %. Svar: 13,6 %.</p>",
+    "s": "<p>a) Vid konstant volym gäller p/T=konstant. p₂=150·333,15/293,15≈170,467 bar. Svar: 170,5 bar.</p><p>b) Tryckets relativa förändring är samma som den absoluta temperaturens: (333,15/293,15−1)·100≈13,6449 %. Svar: 13,6 %.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
@@ -63582,7 +63583,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.",
         "t": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p><p>Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<p>Tryckets relativa förändring är samma som den absoluta temperaturens: (333,15/293,15−1)·100≈13,6449 %. Svar: 13,6 %.</p>",
+        "s": "<p>Tryckets relativa förändring är samma som den absoluta temperaturens: (333,15/293,15−1)·100≈13,6449 %. Svar: 13,6 %.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Jämför tryckökningen med starttrycket, inte med sluttrycket.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -63597,7 +63598,8 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Tryck och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": [null, 13.7]
   },
   {
     "id": "6.22",
@@ -63607,7 +63609,7 @@ window.BANK = [
     "typ": "varmluftsballongens jämvikt",
     "poang": "(0/2/0)",
     "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Bortse från höljets volym.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den största densitet som luften i ballongen får ha för svävande jämvikt. Svara i kg/m³. Avrunda vid behov till 3 decimaler.</li><li>Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.</li></ol>",
-    "s": "<p>a) Jämvikt ger ρ<sub>u</sub>V=ρ<sub>i</sub>V+600. Alltså ρ<sub>i</sub>=1,29−600/2200≈1,01727 kg/m³. Svar: 1,017 kg/m³.</p><p>b) Vid samma tryck och för samma gas gäller ρT=konstant. T<sub>i</sub>=288,15·1,29/1,01727≈365,40 K=92,25 °C. Svar: 92,3 °C.</p>",
+    "s": "<p>a) Jämvikt ger ρ<sub>u</sub>V=ρ<sub>i</sub>V+600. Alltså ρ<sub>i</sub>=1,29−600/2200≈1,01727 kg/m³. Svar: 1,017 kg/m³.</p><p>b) Vid samma tryck och för samma gas gäller ρT=konstant. T<sub>i</sub>=288,15·1,29/1,01727≈365,40 K=92,25 °C. Svar: 92,3 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
@@ -63669,7 +63671,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.",
         "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Bortse från höljets volym.</p><p>Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<p>Vid samma tryck och för samma gas gäller ρT=konstant. T<sub>i</sub>=288,15·1,29/1,01727≈365,40 K=92,25 °C. Svar: 92,3 °C.</p>",
+        "s": "<p>Vid samma tryck och för samma gas gäller ρT=konstant. T<sub>i</sub>=288,15·1,29/1,01727≈365,40 K=92,25 °C. Svar: 92,3 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Vid konstant tryck är densiteten omvänt proportionell mot kelvintemperaturen.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -63686,7 +63688,8 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Varmluftsballongens jämvikt"
-    ]
+    ],
+    "rättSvar273": [null, 92.2]
   },
   {
     "id": "6.23",
@@ -64766,7 +64769,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla −40,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<p>a) T=25,0+273,15=298,15 K. Svar: 298,15 K.</p><p>b) T=−40,0+273,15=233,15 K. Svar: 233,15 K.</p><p>c) t=195−273,15=−78,15 °C. Svar: -78,15 °C.</p>",
+    "s": "<p>a) T=25,0+273,15=298,15 K. Svar: 298,15 K.</p><p>b) T=−40,0+273,15=233,15 K. Svar: 233,15 K.</p><p>c) t=195−273,15=−78,15 °C. Svar: -78,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -64814,7 +64817,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>T=25,0+273,15=298,15 K. Svar: 298,15 K.</p>",
+        "s": "<p>T=25,0+273,15=298,15 K. Svar: 298,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Lägg 273,15 till celsiustemperaturen.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -64830,7 +64833,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Omvandla −40,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Omvandla −40,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>T=−40,0+273,15=233,15 K. Svar: 233,15 K.</p>",
+        "s": "<p>T=−40,0+273,15=233,15 K. Svar: 233,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Kelvintemperaturen är fortfarande positiv.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -64846,7 +64849,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>t=195−273,15=−78,15 °C. Svar: -78,15 °C.</p>",
+        "s": "<p>t=195−273,15=−78,15 °C. Svar: -78,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Subtrahera 273,15 när du går från kelvin till Celsius.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -64861,7 +64864,8 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Omvandla mellan Celsius och kelvin"
-    ]
+    ],
+    "rättSvar273": [298, 233, -78]
   },
   {
     "id": "6.39",
@@ -72482,7 +72486,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(4/0/0)",
     "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 90 K till grader Celsius. Svara i °C. Svara med ett heltal.</li><li>Omvandla 350 K till grader Celsius. Svara i °C. Svara med ett heltal.</li><li>Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 1500 K till grader Celsius. Svara i °C. Svara med ett heltal.</li></ol>",
-    "s": "<p>a) t=90−273,15=−183,15 °C. Svar: -183 °C.</p><p>b) t=350−273,15=76,85 °C. Svar: 77 °C.</p><p>c) t=0−273,15=−273,15 °C. Svar: -273,15 °C.</p><p>d) t=1500−273,15=1226,85 °C. Svar: 1227 °C.</p>",
+    "s": "<p>a) t=90−273,15=−183,15 °C. Svar: -183 °C.</p><p>b) t=350−273,15=76,85 °C. Svar: 77 °C.</p><p>c) t=0−273,15=−273,15 °C. Svar: -273,15 °C.</p><p>d) t=1500−273,15=1226,85 °C. Svar: 1227 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -72567,7 +72571,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<p>t=0−273,15=−273,15 °C. Svar: -273,15 °C.</p>",
+        "s": "<p>t=0−273,15=−273,15 °C. Svar: -273,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>0 K är absoluta nollpunkten.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -72598,7 +72602,8 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Omvandla kelvin till Celsius"
-    ]
+    ],
+    "rättSvar273": [null, null, -273, null]
   },
   {
     "id": "6.139",
@@ -104424,7 +104429,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<p>T=25,0+273,15=298,15 K. Svar: 298,15 K.</p>",
+    "s": "<p>T=25,0+273,15=298,15 K. Svar: 298,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -104445,7 +104450,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Omvandla Celsius till kelvin"
-    ]
+    ],
+    "rättSvar273": 298
   },
   {
     "id": "6.146",
@@ -104454,7 +104460,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Omvandla 350 K till grader Celsius. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<p>t=350−273,15=76,85 °C. Svar: 76,9 °C.</p>",
+    "s": "<p>t=350−273,15=76,85 °C. Svar: 76,9 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -104475,7 +104481,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Omvandla kelvin till Celsius"
-    ]
+    ],
+    "rättSvar273": 77
   },
   {
     "id": "6.147",
@@ -121010,7 +121017,7 @@ window.BANK = [
     "typ": "uppförseffekt och fri nedfärd",
     "poang": "(1/1/0)",
     "t": "<p>Petra och cykeln har sammanlagda massan 72 kg. Backens lutning uppfyller sin θ = 2/21. En konstant motståndskraft på 25 N verkar mot rörelsen. Bortse från hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Vilken nyttig mekanisk effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? Svara i kW. Avrunda vid behov till 3 decimaler.</li><li>I ett annat försök rullar Petra nedför utan att trampa. Startfarten är 5,0 m/s. Bestäm farten efter 180 m längs backen. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<p>a) Drivkraften måste vara mg sin θ+25. P = (72 · 9,82 · 2/21+25) · 5,0 ≈ 461,686 W = 0,461686 kW. Svar: 0,462 kW.</p><p>b) Energibalans: 72v²/2 = 72 · 5,0²/2+72 · 9,82 · 180 · 2/21−25 · 180. Därmed v = √[25+2(9,82 · 2/21−25/72) · 180] ≈ 15,38 m/s. Svar: 15,38 m/s.</p>",
+    "s": "<p>a)</p><p>På 1,0 s cyklar Petra 5,0 m längs backen och höjs \\(h=5{,}0\\cdot2/21\\) m. Rörelseenergin ändras inte eftersom farten är konstant. Hennes arbete går till ökad lägesenergi och arbete mot motståndet:</p>\\[W=mgh+F_{\\mathrm{mot}}s=72\\cdot9{,}82\\cdot5{,}0\\cdot\\frac{2}{21}+25\\cdot5{,}0\\approx461{,}686\\ \\mathrm J.\\]<p>Effekten är arbete per tid:</p>\\[P=\\frac{W}{t}=\\frac{461{,}686}{1{,}0}\\ \\mathrm W\\approx0{,}462\\ \\mathrm{kW}.\\]<p><strong>Svar:</strong> 0,462 kW.</p><p>b) Energibalans: 72v²/2 = 72 · 5,0²/2+72 · 9,82 · 180 · 2/21−25 · 180. Därmed v = √[25+2(9,82 · 2/21−25/72) · 180] ≈ 15,38 m/s. Svar: 15,38 m/s.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "modellering",
@@ -121053,7 +121060,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Vilken nyttig mekanisk effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? Svara i kW. Avrunda vid behov till 3 decimaler.",
         "t": "<p>Petra och cykeln har sammanlagda massan 72 kg. Backens lutning uppfyller sin θ = 2/21. En konstant motståndskraft på 25 N verkar mot rörelsen. Bortse från hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? Svara i kW. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<p>Drivkraften måste vara mg sin θ+25. P = (72 · 9,82 · 2/21+25) · 5,0 ≈ 461,686 W = 0,461686 kW. Svar: 0,462 kW.</p>",
+        "s": "<p>På 1,0 s cyklar Petra 5,0 m längs backen och höjs \\(h=5{,}0\\cdot2/21\\) m. Rörelseenergin ändras inte eftersom farten är konstant. Hennes arbete går till ökad lägesenergi och arbete mot motståndet:</p>\\[W=mgh+F_{\\mathrm{mot}}s=72\\cdot9{,}82\\cdot5{,}0\\cdot\\frac{2}{21}+25\\cdot5{,}0\\approx461{,}686\\ \\mathrm J.\\]<p>Effekten är arbete per tid:</p>\\[P=\\frac{W}{t}=\\frac{461{,}686}{1{,}0}\\ \\mathrm W\\approx0{,}462\\ \\mathrm{kW}.\\]<p><strong>Svar:</strong> 0,462 kW.</p>",
         "ledtrad": "<p>Vilka krafter måste drivkraften balansera uppför?</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -121663,7 +121670,7 @@ window.BANK = [
     "typ": "tryck och temperatur vid konstant volym",
     "poang": "(2/0/0)",
     "t": "<p>En dykflaska fylldes till det absoluta trycket 204 bar vid 29,0 °C. På djupet visar flaskan 191 bar. Flaskan är stel och så lite luft har använts att gasmängden kan antas vara oförändrad.</p><p>Bestäm gasens temperatur på djupet. Svara i °C. Avrunda till 1 decimal.</p>",
-    "s": "<p>Vid konstant volym gäller p₁/T₁ = p₂/T₂. Alltså T₂ = 302,15 · 191/204 ≈ 282,896 K = 9,746 °C. Svar: 9,7 °C.</p>",
+    "s": "<p>Vid konstant volym gäller p₁/T₁ = p₂/T₂. Alltså T₂ = 302,15 · 191/204 ≈ 282,896 K = 9,746 °C. Svar: 9,7 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
@@ -121683,7 +121690,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tryck och temperatur vid konstant volym"
-    ]
+    ],
+    "rättSvar273": 9.8
   },
   {
     "id": "6.167",
@@ -122090,7 +122098,7 @@ window.BANK = [
     "typ": "kombinerade gaslagen med förändringsfaktorer",
     "poang": "(2/0/0)",
     "t": "<p>I en motor har luften först temperaturen 20,0 °C och det absoluta trycket 100 kPa. Luften komprimeras tills en niondel av startvolymen återstår och trycket är 4,00 MPa.</p><p>Bestäm luftens sluttemperatur. Svara i K. Svara med ett heltal.</p>",
-    "s": "<p>T₂ = T₁(p₂/p₁)(V₂/V₁) = 293,15·40,0·(1/9) ≈ 1302,9 K. Svar: 1303 K.</p>",
+    "s": "<p>T₂ = T₁(p₂/p₁)(V₂/V₁) = 293,15·40,0·(1/9) ≈ 1302,9 K. Svar: 1303 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
@@ -122110,7 +122118,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Kombinerade gaslagen med förändringsfaktorer"
-    ]
+    ],
+    "rättSvar273": 1302.0
   },
   {
     "id": "6.181",
@@ -123634,7 +123643,7 @@ window.BANK = [
     "typ": "ideala gaslagen i två tillstånd",
     "poang": "(2/0/0)",
     "t": "<p>En behållare fylls med 16,00 mol helium vid temperaturen 10,0 °C och det absoluta trycket 35,0 kPa.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm gasens volym. Svara i m³. Avrunda till 3 decimaler.</li><li>Volymen halveras och trycket ändras till 100 kPa. Bestäm den nya temperaturen. Svara i °C. Avrunda till 1 decimal.</li></ol>",
-    "s": "<p>a) V = nRT/p = 16,00·8,31·283,15/35 000 ≈ 1,07565 m³. Svar: 1,076 m³.</p><p>b) Den nya volymen är cirka 0,53782 m³. T₂ = 100 000·0,53782/(16,00·8,31) ≈ 404,5 K = 131,35 °C. Svar: 131,4 °C.</p>",
+    "s": "<p>a) V = nRT/p = 16,00·8,31·283,15/35 000 ≈ 1,07565 m³. Svar: 1,076 m³.</p><p>b) Den nya volymen är cirka 0,53782 m³. T₂ = 100 000·0,53782/(16,00·8,31) ≈ 404,5 K = 131,35 °C. Svar: 131,4 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
@@ -123676,7 +123685,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm gasens volym. Svara i m³. Avrunda till 3 decimaler.",
         "t": "<p>En behållare fylls med 16,00 mol helium vid temperaturen 10,0 °C och det absoluta trycket 35,0 kPa.</p><p>Bestäm gasens volym. Svara i m³. Avrunda till 3 decimaler.</p>",
-        "s": "<p>V = nRT/p = 16,00·8,31·283,15/35 000 ≈ 1,07565 m³. Svar: 1,076 m³.</p>",
+        "s": "<p>V = nRT/p = 16,00·8,31·283,15/35 000 ≈ 1,07565 m³. Svar: 1,076 m³.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Använd pV = nRT med trycket i pascal.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -123707,7 +123716,8 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Ideala gaslagen i två tillstånd"
-    ]
+    ],
+    "rättSvar273": [1.075, null]
   },
   {
     "id": "6.202",
@@ -123717,7 +123727,7 @@ window.BANK = [
     "typ": "ideala gaslagen och ändrad gasmängd",
     "poang": "(3/0/0)",
     "t": "<p>En tank innehåller 28,5 kg kvävgas vid 0,0 °C och det absoluta trycket 101,3 kPa. Kvävgasens molmassa är 28,0 g/mol. Därefter tillsätts 32,2 kg kvävgas utan att volymen eller temperaturen ändras.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den ursprungliga substansmängden. Svara i mol. Svara med ett heltal.</li><li>Bestäm tankens volym. Svara i m³. Avrunda till 2 decimaler.</li><li>Bestäm trycket efter att mer kvävgas har tillsatts. Svara i kPa. Avrunda till 1 decimal.</li></ol>",
-    "s": "<p>a) n₁ = m/M = 28,5/0,0280 ≈ 1017,86 mol. Svar: 1018 mol.</p><p>b) V = nRT/p ≈ 1017,86·8,31·273,15/101 300 ≈ 22,8076 m³. Svar: 22,81 m³.</p><p>c) Den nya massan är 60,7 kg. Eftersom p ∝ n ∝ m blir p₂ = 101,3·60,7/28,5 ≈ 215,75 kPa. Svar: 215,8 kPa.</p>",
+    "s": "<p>a) n₁ = m/M = 28,5/0,0280 ≈ 1017,86 mol. Svar: 1018 mol.</p><p>b) V = nRT/p ≈ 1017,86·8,31·273,15/101 300 ≈ 22,8076 m³. Svar: 22,81 m³.</p><p>c) Den nya massan är 60,7 kg. Eftersom p ∝ n ∝ m blir p₂ = 101,3·60,7/28,5 ≈ 215,75 kPa. Svar: 215,8 kPa.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
@@ -123780,7 +123790,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm tankens volym. Svara i m³. Avrunda till 2 decimaler.",
         "t": "<p>En tank innehåller 28,5 kg kvävgas vid 0,0 °C och det absoluta trycket 101,3 kPa. Kvävgasens molmassa är 28,0 g/mol. Därefter tillsätts 32,2 kg kvävgas utan att volymen eller temperaturen ändras.</p><p>Bestäm tankens volym. Svara i m³. Avrunda till 2 decimaler.</p>",
-        "s": "<p>V = nRT/p ≈ 1017,86·8,31·273,15/101 300 ≈ 22,8076 m³. Svar: 22,81 m³.</p>",
+        "s": "<p>V = nRT/p ≈ 1017,86·8,31·273,15/101 300 ≈ 22,8076 m³. Svar: 22,81 m³.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Sätt in den ursprungliga substansmängden i pV = nRT.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -123811,7 +123821,8 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Ideala gaslagen och ändrad gasmängd"
-    ]
+    ],
+    "rättSvar273": [null, 22.8, null]
   },
   {
     "id": "6.203",
@@ -123821,7 +123832,7 @@ window.BANK = [
     "typ": "ideala gaslagen",
     "poang": "(2/0/0)",
     "t": "<p>En 15,0-litersbehållare innehåller 7,50 mol helium vid det absoluta trycket 440 kPa.</p><p>Bestäm gasens temperatur. Svara i °C. Avrunda till 1 decimal.</p>",
-    "s": "<p>T = pV/(nR) = 440 000·0,0150/(7,50·8,31) ≈ 105,90 K. I Celsius är temperaturen 105,90−273,15 ≈ −167,25 °C. Svar: −167,3 °C.</p>",
+    "s": "<p>T = pV/(nR) = 440 000·0,0150/(7,50·8,31) ≈ 105,90 K. I Celsius är temperaturen 105,90−273,15 ≈ −167,25 °C. Svar: −167,3 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
@@ -123841,7 +123852,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Ideala gaslagen"
-    ]
+    ],
+    "rättSvar273": -167.1
   },
   {
     "id": "6.204",
@@ -124091,7 +124103,7 @@ window.BANK = [
     "typ": "öppet system och gasmängd",
     "poang": "(0/2/0)",
     "t": "<p>Ett hus har i praktiken konstant volym och står i kontakt med utomhusluften, så inomhustrycket förblir konstant. Inomhusluften värms från 16,0 °C till 20,0 °C.</p><p>Bestäm hur stor andel av luftmolekylerna som lämnar huset. Svara i %. Avrunda till 2 decimaler.</p>",
-    "s": "<p>Ur pV = nRT följer n ∝ 1/T när p och V är konstanta. n₂/n₁ = 289,15/293,15 ≈ 0,98636. Andelen som lämnar huset är (1−0,98636)·100 ≈ 1,364 %. Svar: 1,36 %.</p>",
+    "s": "<p>Ur pV = nRT följer n ∝ 1/T när p och V är konstanta. n₂/n₁ = 289,15/293,15 ≈ 0,98636. Andelen som lämnar huset är (1−0,98636)·100 ≈ 1,364 %. Svar: 1,36 %.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "begrepp",
@@ -124113,7 +124125,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Öppet system och gasmängd"
-    ]
+    ],
+    "rättSvar273": 1.37
   },
   {
     "id": "6.212",
@@ -124123,7 +124136,7 @@ window.BANK = [
     "typ": "luftmassa i en byggnad",
     "poang": "(2/0/0)",
     "t": "<p>Ett hus innehåller 1,20·10³ m³ luft vid temperaturen 15,0 °C och det absoluta trycket 101,3 kPa. Luftens molmassa är 29,0 g/mol.</p><p>Bestäm luftens massa. Svara i kg. Svara med ett heltal.</p>",
-    "s": "<p>n = pV/(RT) och m = nM. m = 101 300·1,20·10³·0,0290/(8,31·288,15) ≈ 1472 kg. Svar: 1472 kg.</p>",
+    "s": "<p>n = pV/(RT) och m = nM. m = 101 300·1,20·10³·0,0290/(8,31·288,15) ≈ 1472 kg. Svar: 1472 kg.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
@@ -124143,7 +124156,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Luftmassa i en byggnad"
-    ]
+    ],
+    "rättSvar273": 1473.0
   },
   {
     "id": "6.213",
@@ -124153,7 +124167,7 @@ window.BANK = [
     "typ": "däcktryck och utsläppt luft",
     "poang": "(1/1/0)",
     "t": "<p>Ett bildäck har konstant volym. Det absoluta trycket är 230 kPa vid 15,0 °C. Efter körning är luftens temperatur 38,0 °C.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm trycket efter uppvärmningen innan någon luft släpps ut. Svara i kPa. Avrunda till 1 decimal.</li><li>Vid 38,0 °C släpps luft ut tills trycket åter är 230 kPa. Bestäm hur stor andel av gasmängden som släpps ut. Svara i %. Avrunda till 2 decimaler.</li></ol>",
-    "s": "<p>a) p₂ = 230·311,15/288,15 ≈ 248,36 kPa. Svar: 248,4 kPa.</p><p>b) Vid 38,0 °C är n proportionell mot p. Andelen som återstår är 230/248,36 ≈ 0,92608. Andelen som släpps ut är därför cirka 7,392 %. Svar: 7,39 %.</p>",
+    "s": "<p>a) p₂ = 230·311,15/288,15 ≈ 248,36 kPa. Svar: 248,4 kPa.</p><p>b) Vid 38,0 °C är n proportionell mot p. Andelen som återstår är 230/248,36 ≈ 0,92608. Andelen som släpps ut är därför cirka 7,392 %. Svar: 7,39 %.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "modellering",
@@ -124213,7 +124227,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Vid 38,0 °C släpps luft ut tills trycket åter är 230 kPa. Bestäm hur stor andel av gasmängden som släpps ut. Svara i %. Avrunda till 2 decimaler.",
         "t": "<p>Ett bildäck har konstant volym. Det absoluta trycket är 230 kPa vid 15,0 °C. Efter körning är luftens temperatur 38,0 °C.</p><p>Vid 38,0 °C släpps luft ut tills trycket åter är 230 kPa. Bestäm hur stor andel av gasmängden som släpps ut. Svara i %. Avrunda till 2 decimaler.</p>",
-        "s": "<p>Vid 38,0 °C är n proportionell mot p. Andelen som återstår är 230/248,36 ≈ 0,92608. Andelen som släpps ut är därför cirka 7,392 %. Svar: 7,39 %.</p>",
+        "s": "<p>Vid 38,0 °C är n proportionell mot p. Andelen som återstår är 230/248,36 ≈ 0,92608. Andelen som släpps ut är därför cirka 7,392 %. Svar: 7,39 %.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
         "ledtrad": "<p>Vid oförändrad temperatur och volym är gasmängden proportionell mot trycket.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -124229,7 +124243,8 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Däcktryck och utsläppt luft"
-    ]
+    ],
+    "rättSvar273": [null, 7.4]
   },
   {
     "id": "9.118",
@@ -131327,7 +131342,7 @@ window.BANK = [
     "typ": "granska oförenliga bildata",
     "poang": "(0/2/3)",
     "t": "<p>En uppgift påstår att en bil på 1300 kg ökar farten från 10 till 30 m/s på 30 s i en rak uppförsbacke med sin θ = 0,10. Motorns nyttiga effekt påstås vara konstant 30 kW och motståndskraften utöver tyngdkraften konstant 400 N. Bortse från hjulens rotation.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>En elev får en höjdökning på ungefär 23 m genom en energibalans. Kontrollera beräkningen och avgör om rörelsen ändå är möjlig.</li><li>Bestäm modellens gränsfart och kontrollera slutsatsen även med sträcka och energi.</li></ol>",
-    "s": "<p>a) Energibalansen 30 000 · 30 = 1300(30²−10²)/2+(1300 · 9,82 · 0,10+400)s ger s ≈ 226,65 m och h = 0,10s ≈ 22,67 m. Men vid 30 m/s är drivkraften bara 30 000/30 = 1000 N, mindre än det sammanlagda motståndet 1676,6 N. Bilen kan inte accelerera från 10 till 30 m/s enligt den givna modellen.</p><p>b) Gränsfarten är 30 000/1676,6 ≈ 17,8934 m/s. Från 10 m/s accelererar bilen mot denna fart utan att passera den. Under 30 s är farten därför minst 10 m/s och sträckan minst 300 m. Energibalansens 226,65 m motsäger också detta. En formell lösning av energiekvationen räcker inte: givna data måste vara förenliga med rörelsens kraftvillkor.</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>a) Energibalansen 30 000 · 30 = 1300(30²−10²)/2+(1300 · 9,82 · 0,10+400)s ger s ≈ 226,65 m och h = 0,10s ≈ 22,67 m. Men vid 30 m/s är drivkraften bara 30 000/30 = 1000 N, mindre än det sammanlagda motståndet 1676,6 N. Bilen kan inte accelerera från 10 till 30 m/s enligt den givna modellen.</p><p>b) Gränsfarten är 30 000/1676,6 ≈ 17,8934 m/s. Från 10 m/s accelererar bilen mot denna fart utan att passera den. Under 30 s är farten därför minst 10 m/s och sträckan minst 300 m. Energibalansens 226,65 m motsäger också detta. En formell lösning av energiekvationen räcker inte: givna data måste vara förenliga med rörelsens kraftvillkor.</p>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "modellering",
@@ -134293,7 +134308,7 @@ window.BANK = [
     "typ": "luftmotstånd för medeldistanslöpare",
     "poang": "(0/1/1)",
     "t": "<p>En löpare springer 1 500 m på 3 min 26 s med konstant fart och utvecklar 350 W. Luftmotståndet är \\(F=A\\rho v^2\\) med \\(A=0{,}6\\) m² och \\(\\rho=1{,}29\\) kg/m³. Hur många procent av effekten går till luftmotståndet?</p>",
-    "s": "<p>\\(v=\\dfrac{1\\,500}{206}\\), \\(P=Fv=A\\rho v^3\\), andel \\(=\\dfrac{P}{350}\\).</p><p><strong>Svar:</strong> \\(85\\) %</p>",
+    "s": "<p>Här är \\(F\\) den framåtriktade kraft som balanserar luftmotståndet, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är effekten som löparen behöver för att övervinna luftmotståndet. Luftmotståndets eget arbete på löparen är negativt.</p><p>\\(v=\\dfrac{1\\,500}{206}\\), \\(P=Fv=A\\rho v^3\\), andel \\(=\\dfrac{P}{350}\\).</p><p><strong>Svar:</strong> \\(85\\) %</p>",
     "id": "5.554",
     "miniräknare": true,
     "geogebra": false,
@@ -134307,7 +134322,7 @@ window.BANK = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 4,
     "svarEnhet": "%",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
@@ -134842,7 +134857,7 @@ window.BANK = [
     "typ": "effekt och fart",
     "poang": "(3/1/0)",
     "t": "<p>1 hk = 735,5 W.</p><ol type=\"a\"><li>En bil har toppfarten 180 km/h med motoreffekten 100 kW. Bestäm den drivande kraften.</li><li>En bil kör med 95 km/h och motorn avger 18 hk. Bestäm de bromsande krafterna.</li><li>En flygmotor ger 120 kN vid 234 m/s. Bestäm effekten.</li><li>En cyklist utvecklar 120 W och bromsas av 16 N. Bestäm farten.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{100\\cdot10^3}{50}\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p></li><li><p>\\(F=\\dfrac{18\\cdot735{,}5}{95/3{,}6}\\).</p><p><strong>Svar:</strong> \\(502\\) N</p></li><li><p>\\(P=120\\cdot10^3\\cdot234\\).</p><p><strong>Svar:</strong> \\(2{,}8\\cdot10^{7}\\) W</p></li><li><p>\\(v=\\dfrac{120}{16}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m/s</p></li></ol>",
+    "s": "<p>Här är \\(F\\) den drivande kraften, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><ol type=\"a\"><li><p>\\(F=\\dfrac{100\\cdot10^3}{50}\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p></li><li><p>\\(F=\\dfrac{18\\cdot735{,}5}{95/3{,}6}\\).</p><p><strong>Svar:</strong> \\(502\\) N</p></li><li><p>\\(P=120\\cdot10^3\\cdot234\\).</p><p><strong>Svar:</strong> \\(2{,}8\\cdot10^{7}\\) W</p></li><li><p>\\(v=\\dfrac{120}{16}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m/s</p></li></ol>",
     "id": "5.562",
     "miniräknare": true,
     "geogebra": false,
@@ -134890,8 +134905,8 @@ window.BANK = [
         "etikett": "a",
         "fraga": "En bil har toppfarten 180 km/h med motoreffekten 100 kW. Bestäm den drivande kraften.",
         "t": "<p>1 hk = 735,5 W.</p><p>En bil har toppfarten 180 km/h med motoreffekten 100 kW. Bestäm den drivande kraften.</p>",
-        "s": "<p>\\(F=\\dfrac{100\\cdot10^3}{50}\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p>",
-        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "s": "<p>Här är \\(F\\) den drivande kraften, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(F=\\dfrac{100\\cdot10^3}{50}\\).</p><p><strong>Svar:</strong> \\(2\\,000\\) N</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -134901,8 +134916,8 @@ window.BANK = [
         "etikett": "b",
         "fraga": "En bil kör med 95 km/h och motorn avger 18 hk. Bestäm de bromsande krafterna.",
         "t": "<p>1 hk = 735,5 W.</p><p>En bil kör med 95 km/h och motorn avger 18 hk. Bestäm de bromsande krafterna.</p>",
-        "s": "<p>\\(F=\\dfrac{18\\cdot735{,}5}{95/3{,}6}\\).</p><p><strong>Svar:</strong> \\(502\\) N</p>",
-        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "s": "<p>Här är \\(F\\) den drivande kraften, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(F=\\dfrac{18\\cdot735{,}5}{95/3{,}6}\\).</p><p><strong>Svar:</strong> \\(502\\) N</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -134912,8 +134927,8 @@ window.BANK = [
         "etikett": "c",
         "fraga": "En flygmotor ger 120 kN vid 234 m/s. Bestäm effekten.",
         "t": "<p>1 hk = 735,5 W.</p><p>En flygmotor ger 120 kN vid 234 m/s. Bestäm effekten.</p>",
-        "s": "<p>\\(P=120\\cdot10^3\\cdot234\\).</p><p><strong>Svar:</strong> \\(2{,}8\\cdot10^{7}\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "s": "<p>Här är \\(F\\) den drivande kraften, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P=120\\cdot10^3\\cdot234\\).</p><p><strong>Svar:</strong> \\(2{,}8\\cdot10^{7}\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -134923,15 +134938,15 @@ window.BANK = [
         "etikett": "d",
         "fraga": "En cyklist utvecklar 120 W och bromsas av 16 N. Bestäm farten.",
         "t": "<p>1 hk = 735,5 W.</p><p>En cyklist utvecklar 120 W och bromsas av 16 N. Bestäm farten.</p>",
-        "s": "<p>\\(v=\\dfrac{120}{16}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m/s</p>",
-        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "s": "<p>Här är \\(F\\) den drivande kraften, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(v=\\dfrac{120}{16}\\).</p><p><strong>Svar:</strong> \\(7{,}5\\) m/s</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 3,
@@ -134944,7 +134959,7 @@ window.BANK = [
     "typ": "bilens bromsande krafter",
     "poang": "(0/2/0)",
     "t": "<p>En bil (1 080 kg) saktar in från 95 km/h till 65 km/h på 7,0 s på plan väg utan gas.</p><ol type=\"a\"><li>Bestäm den genomsnittliga bromsande kraften.</li><li>Vilken effekt krävs för konstant 80 km/h med samma bromsande kraft?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{(95-65)/3{,}6}{7{,}0}\\), \\(F=1\\,080a\\).</p><p><strong>Svar:</strong> \\(1\\,286\\) N</p></li><li><p>\\(P=F\\cdot\\dfrac{80}{3{,}6}\\).</p><p><strong>Svar:</strong> \\(28\\,571\\) W</p></li></ol>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft vid den konstanta farten, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><ol type=\"a\"><li><p>\\(a=\\dfrac{(95-65)/3{,}6}{7{,}0}\\), \\(F=1\\,080a\\).</p><p><strong>Svar:</strong> \\(1\\,286\\) N</p></li><li><p>\\(P=F\\cdot\\dfrac{80}{3{,}6}\\).</p><p><strong>Svar:</strong> \\(28\\,571\\) W</p></li></ol>",
     "id": "5.563",
     "miniräknare": true,
     "geogebra": false,
@@ -134993,15 +135008,15 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Vilken effekt krävs för konstant 80 km/h med samma bromsande kraft?",
         "t": "<p>En bil (1 080 kg) saktar in från 95 km/h till 65 km/h på 7,0 s på plan väg utan gas.</p>Den bromsande kraften är 1,3 kN.<p>Vilken effekt krävs för konstant 80 km/h med samma bromsande kraft?</p>",
-        "s": "<p>\\(P=F\\cdot\\dfrac{80}{3{,}6}\\).</p><p><strong>Svar:</strong> \\(28\\,571\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "s": "<p>Här är \\(F\\) bilens drivkraft vid den konstanta farten, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P=F\\cdot\\dfrac{80}{3{,}6}\\).</p><p><strong>Svar:</strong> \\(28\\,571\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135014,7 +135029,7 @@ window.BANK = [
     "typ": "hissens effekt",
     "poang": "(2/1/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En hiss (650 kg) accelererar från vila till 1,75 m/s på 3,0 s. Bestäm medeleffekten under accelerationen.</li><li>Bestäm effekten när hissen sedan rör sig med konstant fart.</li><li>En hiss (3,0 ton) åker 21 m uppåt på 23 s med konstant fart. Bestäm den minsta effekten.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>Höjd: \\(\\tfrac12\\cdot1{,}75\\cdot3{,}0\\). \\(P=\\dfrac{650\\cdot9{,}82\\cdot2{,}625+\\tfrac12\\cdot650\\cdot1{,}75^2}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(5\\,917\\) W</p></li><li><p>\\(P=650\\cdot9{,}82\\cdot1{,}75\\).</p><p><strong>Svar:</strong> \\(11\\,170\\) W</p></li><li><p>\\(P=\\dfrac{3\\,000\\cdot9{,}82\\cdot21}{23}\\).</p><p><strong>Svar:</strong> \\(26\\,898\\) W</p></li></ol>",
+    "s": "<p>Vid jämn lyftrörelse ändras inte rörelseenergin. Lyftens arbete fås av lägesenergin, \\(W=mg\\Delta h\\). Effekten är arbete per tid och lyftfarten är \\(v=\\Delta h/t\\):</p>\\[P=\\frac{W}{t}=mg\\frac{\\Delta h}{t}=mgv.\\]<ol type=\"a\"><li><p>Höjd: \\(\\tfrac12\\cdot1{,}75\\cdot3{,}0\\). \\(P=\\dfrac{650\\cdot9{,}82\\cdot2{,}625+\\tfrac12\\cdot650\\cdot1{,}75^2}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(5\\,917\\) W</p></li><li><p>\\(P=650\\cdot9{,}82\\cdot1{,}75\\).</p><p><strong>Svar:</strong> \\(11\\,170\\) W</p></li><li><p>\\(P=\\dfrac{3\\,000\\cdot9{,}82\\cdot21}{23}\\).</p><p><strong>Svar:</strong> \\(26\\,898\\) W</p></li></ol>",
     "id": "5.564",
     "miniräknare": true,
     "geogebra": false,
@@ -135069,8 +135084,8 @@ window.BANK = [
         "etikett": "b",
         "fraga": "En hiss (650 kg) rör sig uppåt med den konstanta farten 1,75 m/s. Bestäm motorns effekt.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (650 kg) rör sig uppåt med den konstanta farten 1,75 m/s. Bestäm motorns effekt.</p>",
-        "s": "<p>\\(P=650\\cdot9{,}82\\cdot1{,}75\\).</p><p><strong>Svar:</strong> \\(11\\,170\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "s": "<p>Vid jämn lyftrörelse ändras inte rörelseenergin. Lyftens arbete fås av lägesenergin, \\(W=mg\\Delta h\\). Effekten är arbete per tid och lyftfarten är \\(v=\\Delta h/t\\):</p>\\[P=\\frac{W}{t}=mg\\frac{\\Delta h}{t}=mgv.\\]<p>\\(P=650\\cdot9{,}82\\cdot1{,}75\\).</p><p><strong>Svar:</strong> \\(11\\,170\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -135172,7 +135187,7 @@ window.BANK = [
     "typ": "extra effekt i uppförsbacke",
     "poang": "(0/3/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Hur stor extra effekt krävs för en bil (1 200 kg) med konstant 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt?</li><li>En bil (710 kg) kör med 23,0 m/s mot den bromsande kraften 500 N uppför en backe som lutar 2,0°. Bestäm motoreffekten.</li><li>En bil (950 kg) ska hålla 30,0 m/s uppför en backe som lutar 5,0° mot den bromsande kraften 600 N. Bestäm den minsta effekten.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(\\sin\\theta=\\dfrac{15}{\\sqrt{100^2+15^2}}\\), \\(P=1\\,200\\cdot9{,}82\\sin\\theta\\cdot25\\).</p><p><strong>Svar:</strong> \\(43\\,701\\) W</p></li><li><p>\\(P=(500+710\\cdot9{,}82\\sin2{,}0^\\circ)\\cdot23{,}0\\).</p><p><strong>Svar:</strong> \\(17\\,097\\) W</p></li><li><p>\\(P=(600+950\\cdot9{,}82\\sin5{,}0^\\circ)\\cdot30{,}0\\).</p><p><strong>Svar:</strong> \\(42\\,392\\) W</p></li></ol>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><ol type=\"a\"><li><p>\\(\\sin\\theta=\\dfrac{15}{\\sqrt{100^2+15^2}}\\), \\(P=1\\,200\\cdot9{,}82\\sin\\theta\\cdot25\\).</p><p><strong>Svar:</strong> \\(43\\,701\\) W</p></li><li><p>\\(P=(500+710\\cdot9{,}82\\sin2{,}0^\\circ)\\cdot23{,}0\\).</p><p><strong>Svar:</strong> \\(17\\,097\\) W</p></li><li><p>\\(P=(600+950\\cdot9{,}82\\sin5{,}0^\\circ)\\cdot30{,}0\\).</p><p><strong>Svar:</strong> \\(42\\,392\\) W</p></li></ol>",
     "id": "5.566",
     "miniräknare": true,
     "geogebra": false,
@@ -135216,7 +135231,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur stor extra effekt krävs för en bil (1 200 kg) med konstant 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt?",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hur stor extra effekt krävs för en bil (1 200 kg) med konstant 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt?</p>",
-        "s": "<p>\\(\\sin\\theta=\\dfrac{15}{\\sqrt{100^2+15^2}}\\), \\(P=1\\,200\\cdot9{,}82\\sin\\theta\\cdot25\\).</p><p><strong>Svar:</strong> \\(43\\,701\\) W</p>",
+        "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(\\sin\\theta=\\dfrac{15}{\\sqrt{100^2+15^2}}\\), \\(P=1\\,200\\cdot9{,}82\\sin\\theta\\cdot25\\).</p><p><strong>Svar:</strong> \\(43\\,701\\) W</p>",
         "ledtrad": "<p>Tyngdens komposant längs backen gånger farten.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -135227,7 +135242,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "En bil (710 kg) kör med 23,0 m/s mot den bromsande kraften 500 N uppför en backe som lutar 2,0°. Bestäm motoreffekten.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (710 kg) kör med 23,0 m/s mot den bromsande kraften 500 N uppför en backe som lutar 2,0°. Bestäm motoreffekten.</p>",
-        "s": "<p>\\(P=(500+710\\cdot9{,}82\\sin2{,}0^\\circ)\\cdot23{,}0\\).</p><p><strong>Svar:</strong> \\(17\\,097\\) W</p>",
+        "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P=(500+710\\cdot9{,}82\\sin2{,}0^\\circ)\\cdot23{,}0\\).</p><p><strong>Svar:</strong> \\(17\\,097\\) W</p>",
         "ledtrad": "<p>Summan av krafterna gånger farten.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -135238,7 +135253,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "En bil (950 kg) ska hålla 30,0 m/s uppför en backe som lutar 5,0° mot den bromsande kraften 600 N. Bestäm den minsta effekten.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (950 kg) ska hålla 30,0 m/s uppför en backe som lutar 5,0° mot den bromsande kraften 600 N. Bestäm den minsta effekten.</p>",
-        "s": "<p>\\(P=(600+950\\cdot9{,}82\\sin5{,}0^\\circ)\\cdot30{,}0\\).</p><p><strong>Svar:</strong> \\(42\\,392\\) W</p>",
+        "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P=(600+950\\cdot9{,}82\\sin5{,}0^\\circ)\\cdot30{,}0\\).</p><p><strong>Svar:</strong> \\(42\\,392\\) W</p>",
         "ledtrad": "<p>Summan av krafterna gånger farten.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -135246,7 +135261,7 @@ window.BANK = [
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(P=Fv\\) med \\(F=F_\\text{broms}+mg\\sin\\alpha\\).</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135259,7 +135274,7 @@ window.BANK = [
     "typ": "cyklist uppför backe",
     "poang": "(0/2/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p><ol type=\"a\"><li>Vilken effekt krävs för 6,0 m/s uppför en backe som lutar 10°?</li><li>Vilken fart får han uppför backen med 200 W?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(F_b=\\dfrac{200}{6{,}0}\\). \\(P=(F_b+90\\cdot9{,}82\\sin10^\\circ)\\cdot6{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,121\\) W</p></li><li><p>\\(v=\\dfrac{200}{F_b+90\\cdot9{,}82\\sin10^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m/s</p></li></ol>",
+    "s": "<p>Här är \\(F\\) cyklistens drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><ol type=\"a\"><li><p>\\(F_b=\\dfrac{200}{6{,}0}\\). \\(P=(F_b+90\\cdot9{,}82\\sin10^\\circ)\\cdot6{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,121\\) W</p></li><li><p>\\(v=\\dfrac{200}{F_b+90\\cdot9{,}82\\sin10^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m/s</p></li></ol>",
     "id": "5.567",
     "miniräknare": true,
     "geogebra": false,
@@ -135298,8 +135313,8 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Vilken effekt krävs för 6,0 m/s uppför en backe som lutar 10°?",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p><p>Vilken effekt krävs för 6,0 m/s uppför en backe som lutar 10°?</p>",
-        "s": "<p>\\(F_b=\\dfrac{200}{6{,}0}\\). \\(P=(F_b+90\\cdot9{,}82\\sin10^\\circ)\\cdot6{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,121\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\).</p>",
+        "s": "<p>Här är \\(F\\) cyklistens drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(F_b=\\dfrac{200}{6{,}0}\\). \\(P=(F_b+90\\cdot9{,}82\\sin10^\\circ)\\cdot6{,}0\\).</p><p><strong>Svar:</strong> \\(1\\,121\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135308,8 +135323,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Vilken fart får han uppför backen med 200 W?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p><p>Vilken fart får han uppför backen med 200 W?</p>",
-        "s": "<p>\\(v=\\dfrac{200}{F_b+90\\cdot9{,}82\\sin10^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m/s</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p><p>Vilken konstant fart får han uppför en backe som lutar 10° med 200 W?</p>",
+        "s": "<p>Här är \\(F\\) cyklistens drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>På plan väg är drivkraften lika stor som den bromsande kraften: \\(F_b=P/v=200/6{,}0\\approx33{,}33\\ \\mathrm N\\). I backen krävs också kraften \\(mg\\sin10^\\circ\\).</p><p>\\(v=\\dfrac{200}{F_b+90\\cdot9{,}82\\sin10^\\circ}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) m/s</p>",
         "ledtrad": "<p>\\(v=\\dfrac PF\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -135317,7 +135332,7 @@ window.BANK = [
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135330,7 +135345,7 @@ window.BANK = [
     "typ": "största lutning för given effekt",
     "poang": "(0/1/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (1 000 kg) har den nyttiga effekten 45 hk. Den bromsande kraften är 300 N. Vilken är den största lutningen bilen klarar med konstant 50 km/h?</p>",
-    "s": "<p>\\(F=\\dfrac{45\\cdot735{,}5}{13{,}9}\\), \\(\\sin\\alpha=\\dfrac{F-300}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(12\\) °</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(F=\\dfrac{45\\cdot735{,}5}{13{,}9}\\), \\(\\sin\\alpha=\\dfrac{F-300}{1\\,000\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(12\\) °</p>",
     "id": "5.568",
     "miniräknare": true,
     "geogebra": false,
@@ -135343,7 +135358,7 @@ window.BANK = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(P=Fv\\).</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 4,
     "svarEnhet": "°",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
@@ -135357,7 +135372,7 @@ window.BANK = [
     "typ": "acceleration med konstant effekt",
     "poang": "(0/3/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En lastbil (6,0 ton) på plan väg har motoreffekten 42 kW och den bromsande kraften 2,8 kN. Bestäm accelerationen vid 6,0 m/s.</li><li>En lastbil (5,0 ton) kör uppför en backe som lutar 10,0° med 6,0 m/s och accelererar med 0,20 m/s². Den bromsande kraften är 600 N. Bestäm effekten.</li><li>En bil (1,60 ton) kör nedför en backe som lutar 2,0° med accelerationen 0,75 m/s². Den bromsande kraften är 260 N och effekten 10,8 kW. Bestäm farten.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{42\\,000}{6{,}0}\\), \\(a=\\dfrac{7\\,000-2\\,800}{6\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) m/s²</p></li><li><p>\\(F=5\\,000\\cdot9{,}82\\sin10{,}0^\\circ+600+5\\,000\\cdot0{,}20\\), \\(P=6{,}0F\\).</p><p><strong>Svar:</strong> \\(60\\,757\\) W</p></li><li><p>\\(F+1\\,600\\cdot9{,}82\\sin2{,}0^\\circ-260=1\\,600\\cdot0{,}75\\iff F=912\\) N, \\(v=\\dfrac{10\\,800}{F}\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p></li></ol>",
+    "s": "<p>Här är \\(F\\) fordonets drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><ol type=\"a\"><li><p>\\(F=\\dfrac{42\\,000}{6{,}0}\\), \\(a=\\dfrac{7\\,000-2\\,800}{6\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) m/s²</p></li><li><p>\\(F=5\\,000\\cdot9{,}82\\sin10{,}0^\\circ+600+5\\,000\\cdot0{,}20\\), \\(P=6{,}0F\\).</p><p><strong>Svar:</strong> \\(60\\,757\\) W</p></li><li><p>\\(F+1\\,600\\cdot9{,}82\\sin2{,}0^\\circ-260=1\\,600\\cdot0{,}75\\iff F=912\\) N, \\(v=\\dfrac{10\\,800}{F}\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p></li></ol>",
     "id": "5.569",
     "miniräknare": true,
     "geogebra": false,
@@ -135401,7 +135416,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "En lastbil (6,0 ton) på plan väg har motoreffekten 42 kW och den bromsande kraften 2,8 kN. Bestäm accelerationen vid 6,0 m/s.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (6,0 ton) på plan väg har motoreffekten 42 kW och den bromsande kraften 2,8 kN. Bestäm accelerationen vid 6,0 m/s.</p>",
-        "s": "<p>\\(F=\\dfrac{42\\,000}{6{,}0}\\), \\(a=\\dfrac{7\\,000-2\\,800}{6\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) m/s²</p>",
+        "s": "<p>Här är \\(F\\) fordonets drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(F=\\dfrac{42\\,000}{6{,}0}\\), \\(a=\\dfrac{7\\,000-2\\,800}{6\\,000}\\).</p><p><strong>Svar:</strong> \\(0{,}70\\) m/s²</p>",
         "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -135412,7 +135427,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "En lastbil (5,0 ton) kör uppför en backe som lutar 10,0° med 6,0 m/s och accelererar med 0,20 m/s². Den bromsande kraften är 600 N. Bestäm effekten.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (5,0 ton) kör uppför en backe som lutar 10,0° med 6,0 m/s och accelererar med 0,20 m/s². Den bromsande kraften är 600 N. Bestäm effekten.</p>",
-        "s": "<p>\\(F=5\\,000\\cdot9{,}82\\sin10{,}0^\\circ+600+5\\,000\\cdot0{,}20\\), \\(P=6{,}0F\\).</p><p><strong>Svar:</strong> \\(60\\,757\\) W</p>",
+        "s": "<p>Här är \\(F\\) fordonets drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(F=5\\,000\\cdot9{,}82\\sin10{,}0^\\circ+600+5\\,000\\cdot0{,}20\\), \\(P=6{,}0F\\).</p><p><strong>Svar:</strong> \\(60\\,757\\) W</p>",
         "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -135423,7 +135438,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "En bil (1,60 ton) kör nedför en backe som lutar 2,0° med accelerationen 0,75 m/s². Den bromsande kraften är 260 N och effekten 10,8 kW. Bestäm farten.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,60 ton) kör nedför en backe som lutar 2,0° med accelerationen 0,75 m/s². Den bromsande kraften är 260 N och effekten 10,8 kW. Bestäm farten.</p>",
-        "s": "<p>\\(F+1\\,600\\cdot9{,}82\\sin2{,}0^\\circ-260=1\\,600\\cdot0{,}75\\iff F=912\\) N, \\(v=\\dfrac{10\\,800}{F}\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p>",
+        "s": "<p>Här är \\(F\\) fordonets drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(F+1\\,600\\cdot9{,}82\\sin2{,}0^\\circ-260=1\\,600\\cdot0{,}75\\iff F=912\\) N, \\(v=\\dfrac{10\\,800}{F}\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p>",
         "ledtrad": "<p>Nedför hjälper tyngden till.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -135444,7 +135459,7 @@ window.BANK = [
     "typ": "konstant fart i backe",
     "poang": "(0/3/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En bil (1,0 ton) kör med konstant 12 m/s uppför en backe som lutar 6,0°. Den bromsande kraften är 250 N. Bestäm effekten.</li><li>En bil (1 200 kg) kör med konstant 90 km/h uppför en backe som lutar 4,0° med effekten 31 kW. Bestäm den bromsande kraften.</li><li>En lastbil (5,0 ton) kör med konstant 54 km/h uppför en backe som lutar 6,0°. Den bromsande kraften är 2,5 kN. Bestäm effekten.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(P=(1\\,000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\).</p><p><strong>Svar:</strong> \\(15\\,318\\) W</p></li><li><p>\\(F_b=\\dfrac{31\\,000}{25}-1\\,200\\cdot9{,}82\\sin4{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(418\\) N</p></li><li><p>\\(P=(5\\,000\\cdot9{,}82\\sin6{,}0^\\circ+2\\,500)\\cdot15\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) W</p></li></ol>",
+    "s": "<p>Här är \\(F\\) fordonets drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><ol type=\"a\"><li><p>\\(P=(1\\,000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\).</p><p><strong>Svar:</strong> \\(15\\,318\\) W</p></li><li><p>\\(F_b=\\dfrac{31\\,000}{25}-1\\,200\\cdot9{,}82\\sin4{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(418\\) N</p></li><li><p>\\(P=(5\\,000\\cdot9{,}82\\sin6{,}0^\\circ+2\\,500)\\cdot15\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) W</p></li></ol>",
     "id": "5.570",
     "miniräknare": true,
     "geogebra": false,
@@ -135488,8 +135503,8 @@ window.BANK = [
         "etikett": "a",
         "fraga": "En bil (1,0 ton) kör med konstant 12 m/s uppför en backe som lutar 6,0°. Den bromsande kraften är 250 N. Bestäm effekten.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,0 ton) kör med konstant 12 m/s uppför en backe som lutar 6,0°. Den bromsande kraften är 250 N. Bestäm effekten.</p>",
-        "s": "<p>\\(P=(1\\,000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\).</p><p><strong>Svar:</strong> \\(15\\,318\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "s": "<p>Här är \\(F\\) fordonets drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P=(1\\,000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\).</p><p><strong>Svar:</strong> \\(15\\,318\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135499,8 +135514,8 @@ window.BANK = [
         "etikett": "b",
         "fraga": "En bil (1 200 kg) kör med konstant 90 km/h uppför en backe som lutar 4,0° med effekten 31 kW. Bestäm den bromsande kraften.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 200 kg) kör med konstant 90 km/h uppför en backe som lutar 4,0° med effekten 31 kW. Bestäm den bromsande kraften.</p>",
-        "s": "<p>\\(F_b=\\dfrac{31\\,000}{25}-1\\,200\\cdot9{,}82\\sin4{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(418\\) N</p>",
-        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "s": "<p>Här är \\(F\\) fordonets drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(F_b=\\dfrac{31\\,000}{25}-1\\,200\\cdot9{,}82\\sin4{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(418\\) N</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135510,15 +135525,15 @@ window.BANK = [
         "etikett": "c",
         "fraga": "En lastbil (5,0 ton) kör med konstant 54 km/h uppför en backe som lutar 6,0°. Den bromsande kraften är 2,5 kN. Bestäm effekten.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (5,0 ton) kör med konstant 54 km/h uppför en backe som lutar 6,0°. Den bromsande kraften är 2,5 kN. Bestäm effekten.</p>",
-        "s": "<p>\\(P=(5\\,000\\cdot9{,}82\\sin6{,}0^\\circ+2\\,500)\\cdot15\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "s": "<p>Här är \\(F\\) fordonets drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P=(5\\,000\\cdot9{,}82\\sin6{,}0^\\circ+2\\,500)\\cdot15\\).</p><p><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135531,7 +135546,7 @@ window.BANK = [
     "typ": "acceleration uppför och nedför",
     "poang": "(0/2/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p><ol type=\"a\"><li>nedför backen.</li><li>uppför backen (negativt om den saktar in).</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{500+1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(0{,}37\\) m/s²</p></li><li><p>\\(a=\\dfrac{500-1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(-0{,}0085\\) m/s²</p></li></ol>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><ol type=\"a\"><li><p>\\(a=\\dfrac{500+1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(0{,}37\\) m/s²</p></li><li><p>\\(a=\\dfrac{500-1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(-0{,}0085\\) m/s²</p></li></ol>",
     "id": "5.571",
     "miniräknare": true,
     "geogebra": false,
@@ -135569,7 +135584,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "nedför backen.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p><p>nedför backen.</p>",
-        "s": "<p>\\(a=\\dfrac{500+1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(0{,}37\\) m/s²</p>",
+        "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(a=\\dfrac{500+1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(0{,}37\\) m/s²</p>",
         "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -135580,7 +135595,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "uppför backen (negativt om den saktar in).",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p><p>uppför backen (negativt om den saktar in).</p>",
-        "s": "<p>\\(a=\\dfrac{500-1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(-0{,}0085\\) m/s²</p>",
+        "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(a=\\dfrac{500-1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\).</p><p><strong>Svar:</strong> \\(-0{,}0085\\) m/s²</p>",
         "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -135601,7 +135616,7 @@ window.BANK = [
     "typ": "backens lutning ur effekt",
     "poang": "(0/1/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,5 ton) kör uppför en backe med 72 km/h och accelererar med 0,25 m/s². Motoreffekten är 65,1 kW och den bromsande kraften 360 N. Bestäm backens lutning.</p>",
-    "s": "<p>\\(F=\\dfrac{65\\,100}{20}\\). \\(\\sin\\alpha=\\dfrac{F-360-1\\,500\\cdot0{,}25}{1\\,500\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(9{,}9\\) °</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(F=\\dfrac{65\\,100}{20}\\). \\(\\sin\\alpha=\\dfrac{F-360-1\\,500\\cdot0{,}25}{1\\,500\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(9{,}9\\) °</p>",
     "id": "5.572",
     "miniräknare": true,
     "geogebra": false,
@@ -135628,7 +135643,7 @@ window.BANK = [
     "typ": "bil med släp och effekt",
     "poang": "(1/1/0)",
     "t": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p><ol type=\"a\"><li>Bestäm kraften i kopplingen.</li><li>Bestäm bilens nyttiga effekt.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>Släpet: \\(F_S-200=500\\cdot0{,}500\\).</p><p><strong>Svar:</strong> \\(450\\) N</p></li><li><p>\\(F=1\\,600\\cdot0{,}500+500\\), \\(P=F\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(19\\,500\\) W</p></li></ol>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><ol type=\"a\"><li><p>Släpet: \\(F_S-200=500\\cdot0{,}500\\).</p><p><strong>Svar:</strong> \\(450\\) N</p></li><li><p>\\(F=1\\,600\\cdot0{,}500+500\\), \\(P=F\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(19\\,500\\) W</p></li></ol>",
     "id": "5.573",
     "miniräknare": true,
     "geogebra": false,
@@ -135678,8 +135693,8 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm bilens nyttiga effekt.",
         "t": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p><p>Bestäm bilens nyttiga effekt.</p>",
-        "s": "<p>\\(F=1\\,600\\cdot0{,}500+500\\), \\(P=F\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(19\\,500\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "s": "<p>Här är \\(F\\) bilens drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(F=1\\,600\\cdot0{,}500+500\\), \\(P=F\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(19\\,500\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Använd ett mycket kort tidsintervall för effekten i ett visst ögonblick.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135699,7 +135714,7 @@ window.BANK = [
     "typ": "luftmotstånd som beror på farten",
     "poang": "(0/2/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Luftmotståndet på en cyklist (80 kg med cykel) är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° med konstant 3,5 m/s. Bortse från annan friktion.</p><ol type=\"a\"><li>Bestäm \\(k\\) (i kg/m).</li><li>Vilken effekt krävs uppför en backe som lutar 1,5° med konstant 2,0 m/s?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(k\\cdot3{,}5^2=80\\cdot9{,}82\\sin3{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(3{,}4\\) kg/m</p></li><li><p>\\(P=(80\\cdot9{,}82\\sin1{,}5^\\circ+k\\cdot2{,}0^2)\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(68\\) W</p></li></ol>",
+    "s": "<p>Här är \\(F\\) cyklistens drivkraft uppför backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><ol type=\"a\"><li><p>\\(k\\cdot3{,}5^2=80\\cdot9{,}82\\sin3{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(3{,}4\\) kg/m</p></li><li><p>\\(P=(80\\cdot9{,}82\\sin1{,}5^\\circ+k\\cdot2{,}0^2)\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(68\\) W</p></li></ol>",
     "id": "5.574",
     "miniräknare": true,
     "geogebra": false,
@@ -135749,15 +135764,15 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Vilken effekt krävs uppför en backe som lutar 1,5° med konstant 2,0 m/s?",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Luftmotståndet på en cyklist (80 kg med cykel) är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° med konstant 3,5 m/s. Bortse från annan friktion.</p>\\(k=3{,}4\\) kg/m.<p>Vilken effekt krävs uppför en backe som lutar 1,5° med konstant 2,0 m/s?</p>",
-        "s": "<p>\\(P=(80\\cdot9{,}82\\sin1{,}5^\\circ+k\\cdot2{,}0^2)\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(68\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "s": "<p>Här är \\(F\\) cyklistens drivkraft uppför backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P=(80\\cdot9{,}82\\sin1{,}5^\\circ+k\\cdot2{,}0^2)\\cdot2{,}0\\).</p><p><strong>Svar:</strong> \\(68\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135770,7 +135785,7 @@ window.BANK = [
     "typ": "cykeldatorn",
     "poang": "(1/2/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Vilken effekt krävs med konstant 3,0 m/s uppför en backe som lutar 4,0°, med samma bromsande kraft?</li><li>Anta i stället att den bromsande kraften är luftmotstånd \\(kv^2\\). Vilken effekt krävs då i backen?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{120}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(30\\) N</p></li><li><p>\\(P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(213\\) W</p></li><li><p>\\(k=\\dfrac{30}{4{,}0^2}\\). \\(P=(k\\cdot3{,}0^2+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(174\\) W</p></li></ol>",
+    "s": "<p>Här är \\(F\\) cyklistens drivkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><ol type=\"a\"><li><p>\\(F=\\dfrac{120}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(30\\) N</p></li><li><p>\\(P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(213\\) W</p></li><li><p>\\(k=\\dfrac{30}{4{,}0^2}\\). \\(P=(k\\cdot3{,}0^2+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(174\\) W</p></li></ol>",
     "id": "5.575",
     "miniräknare": true,
     "geogebra": false,
@@ -135814,8 +135829,8 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm den bromsande kraften.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p><p>Bestäm den bromsande kraften.</p>",
-        "s": "<p>\\(F=\\dfrac{120}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(30\\) N</p>",
-        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "s": "<p>Här är \\(F\\) cyklistens drivkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(F=\\dfrac{120}{4{,}0}\\).</p><p><strong>Svar:</strong> \\(30\\) N</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -135825,8 +135840,8 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Vilken effekt krävs med konstant 3,0 m/s uppför en backe som lutar 4,0°, med samma bromsande kraft?",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p><p>Vilken effekt krävs med konstant 3,0 m/s uppför en backe som lutar 4,0°, med samma bromsande kraft?</p>",
-        "s": "<p>\\(P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(213\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "s": "<p>Här är \\(F\\) cyklistens drivkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>På plan väg är drivkraften lika stor som den bromsande kraften: \\(F_b=P/v=120/4{,}0=30\\ \\mathrm N\\).</p><p>\\(P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(213\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135835,8 +135850,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Anta i stället att den bromsande kraften är luftmotstånd \\(kv^2\\). Vilken effekt krävs då i backen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p><p>Anta i stället att den bromsande kraften är luftmotstånd \\(kv^2\\). Vilken effekt krävs då i backen?</p>",
-        "s": "<p>\\(k=\\dfrac{30}{4{,}0^2}\\). \\(P=(k\\cdot3{,}0^2+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(174\\) W</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Leif och cykeln väger 60 kg. På plan väg med konstant 4,0 m/s utvecklar han 120 W.</p><p>Anta i stället att den bromsande kraften är luftmotstånd \\(kv^2\\). Vilken effekt krävs då vid konstant fart 3,0 m/s uppför en backe som lutar 4,0°?</p>",
+        "s": "<p>Här är \\(F\\) cyklistens drivkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>På plan väg är den bromsande kraften \\(F_b=P/v=120/4{,}0=30\\ \\mathrm N\\). Därför gäller \\(k\\cdot4{,}0^2=30\\).</p><p>\\(k=\\dfrac{30}{4{,}0^2}\\). \\(P=(k\\cdot3{,}0^2+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(174\\) W</p>",
         "ledtrad": "<p>Bestäm \\(k\\) på plan väg.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -135844,7 +135859,7 @@ window.BANK = [
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135857,7 +135872,7 @@ window.BANK = [
     "typ": "högsta fart uppför backe",
     "poang": "(0/1/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (4 000 kg) kör uppför en backe som lutar 3,5° med motoreffekten 90 kW och en konstant bromsande kraft. Vid 14,4 m/s är accelerationen 0,20 m/s². Bestäm högsta farten uppför backen.</p>",
-    "s": "<p>\\(F_b=\\dfrac{90\\,000}{14{,}4}-4\\,000\\cdot9{,}82\\sin3{,}5^\\circ-800\\). Högsta fart när \\(a=0\\): \\(v=\\dfrac{90\\,000}{F_b+4\\,000\\cdot9{,}82\\sin3{,}5^\\circ}\\).</p><p><strong>Svar:</strong> \\(17\\) m/s</p>",
+    "s": "<p>Här är \\(F\\) lastbilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(F_b=\\dfrac{90\\,000}{14{,}4}-4\\,000\\cdot9{,}82\\sin3{,}5^\\circ-800\\). Högsta fart när \\(a=0\\): \\(v=\\dfrac{90\\,000}{F_b+4\\,000\\cdot9{,}82\\sin3{,}5^\\circ}\\).</p><p><strong>Svar:</strong> \\(17\\) m/s</p>",
     "id": "5.576",
     "miniräknare": true,
     "geogebra": false,
@@ -135884,7 +135899,7 @@ window.BANK = [
     "typ": "effekt ur högsta fart",
     "poang": "(0/1/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,5 ton) kör uppför en backe som lutar 2,3° med konstant effekt och konstant bromsande kraft. Vid 16 m/s är accelerationen 0,30 m/s², och högsta farten är 23,2 m/s. Bestäm effekten.</p>",
-    "s": "<p>\\(\\dfrac{P}{16}-\\dfrac{P}{23{,}2}=1\\,500\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(23\\,200\\) W</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(\\dfrac{P}{16}-\\dfrac{P}{23{,}2}=1\\,500\\cdot0{,}30\\).</p><p><strong>Svar:</strong> \\(23\\,200\\) W</p>",
     "id": "5.577",
     "miniräknare": true,
     "geogebra": false,
@@ -135911,7 +135926,7 @@ window.BANK = [
     "typ": "bromsande kraft och lutning ur två körningar",
     "poang": "(0/2/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Bestäm backens lutning.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>Upp: \\(4\\,800-F_b-mg\\sin\\alpha=300\\). Ner: \\(3\\,000-F_b+mg\\sin\\alpha=450\\). Addera: \\(7\\,800-2F_b=750\\).</p><p><strong>Svar:</strong> \\(3\\,525\\) N</p></li><li><p>\\(mg\\sin\\alpha=4\\,800-3\\,525-300\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) °</p></li></ol>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><ol type=\"a\"><li><p>Upp: \\(4\\,800-F_b-mg\\sin\\alpha=300\\). Ner: \\(3\\,000-F_b+mg\\sin\\alpha=450\\). Addera: \\(7\\,800-2F_b=750\\).</p><p><strong>Svar:</strong> \\(3\\,525\\) N</p></li><li><p>\\(mg\\sin\\alpha=4\\,800-3\\,525-300\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) °</p></li></ol>",
     "id": "5.578",
     "miniräknare": true,
     "geogebra": false,
@@ -135949,7 +135964,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm den bromsande kraften.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p><p>Bestäm den bromsande kraften.</p>",
-        "s": "<p>Upp: \\(4\\,800-F_b-mg\\sin\\alpha=300\\). Ner: \\(3\\,000-F_b+mg\\sin\\alpha=450\\). Addera: \\(7\\,800-2F_b=750\\).</p><p><strong>Svar:</strong> \\(3\\,525\\) N</p>",
+        "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>Upp: \\(4\\,800-F_b-mg\\sin\\alpha=300\\). Ner: \\(3\\,000-F_b+mg\\sin\\alpha=450\\). Addera: \\(7\\,800-2F_b=750\\).</p><p><strong>Svar:</strong> \\(3\\,525\\) N</p>",
         "ledtrad": "<p>Två ekvationer.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -135959,8 +135974,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm backens lutning.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p>Den bromsande kraften är 3,5 kN.<p>Bestäm backens lutning.</p>",
-        "s": "<p>\\(mg\\sin\\alpha=4\\,800-3\\,525-300\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) °</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p><p>Den bromsande kraften är 3 525 N.</p><p>Bestäm backens lutning.</p>",
+        "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(mg\\sin\\alpha=4\\,800-3\\,525-300\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) °</p>",
         "ledtrad": "<p>Sätt in i en av ekvationerna.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -135981,7 +135996,7 @@ window.BANK = [
     "typ": "motorcykel med fartberoende motstånd",
     "poang": "(0/1/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En motorcykel (300 kg) har största effekten 54 kW och den bromsande kraften \\(a+bv\\). Högsta farten är 60 m/s på plan väg och 50 m/s uppför en backe som lutar 5,0°. Bestäm accelerationen på plan väg vid 30 m/s.</p>",
-    "s": "<p>\\(900=a+60b\\) och \\(1\\,080=a+50b+300\\cdot9{,}82\\sin5{,}0^\\circ\\) ger \\(b=7{,}68\\), \\(a=439\\). Vid 30 m/s: \\(\\dfrac{54\\,000/30-(a+30b)}{300}\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) m/s²</p>",
+    "s": "<p>Här är \\(F\\) motorcykelns drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(900=a+60b\\) och \\(1\\,080=a+50b+300\\cdot9{,}82\\sin5{,}0^\\circ\\) ger \\(b=7{,}68\\), \\(a=439\\). Vid 30 m/s: \\(\\dfrac{54\\,000/30-(a+30b)}{300}\\).</p><p><strong>Svar:</strong> \\(3{,}8\\) m/s²</p>",
     "id": "5.579",
     "miniräknare": true,
     "geogebra": false,
@@ -136008,7 +136023,7 @@ window.BANK = [
     "typ": "acceleration ur högsta farter",
     "poang": "(0/1/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 000 kg) har konstant effekt och konstant bromsande kraft. Uppför en backe som lutar 4,0° är högsta farten 15 m/s, nedför samma backe 21 m/s. Bestäm accelerationen på plan väg vid 14 m/s.</p>",
-    "s": "<p>\\(\\dfrac P{15}=F_b+mg\\sin4^\\circ\\), \\(\\dfrac P{21}=F_b-mg\\sin4^\\circ\\). Ger \\(P\\) och \\(F_b\\). \\(a=\\dfrac{P/14-F_b}{1\\,000}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s²</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(\\dfrac P{15}=F_b+mg\\sin4^\\circ\\), \\(\\dfrac P{21}=F_b-mg\\sin4^\\circ\\). Ger \\(P\\) och \\(F_b\\). \\(a=\\dfrac{P/14-F_b}{1\\,000}\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s²</p>",
     "id": "5.580",
     "miniräknare": true,
     "geogebra": false,
@@ -136063,7 +136078,7 @@ window.BANK = [
     "typ": "cyklist med fartberoende motstånd",
     "poang": "(1/1/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>John och cykeln väger 90,0 kg. På plan väg med konstant 3,20 m/s utvecklar han 560 W.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Nedför en backe som lutar 5,50° utvecklar han 144 W med konstant fart \\(v\\). Den bromsande kraften är \\(8v\\) N. Bestäm \\(v\\).</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(F=\\dfrac{560}{3{,}20}\\).</p><p><strong>Svar:</strong> \\(175\\) N</p></li><li><p>\\(\\dfrac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\iff8v^2-84{,}7v-144=0\\).</p><p><strong>Svar:</strong> \\(12{,}1\\) m/s</p></li></ol>",
+    "s": "<p>Här är \\(F\\) cyklistens drivkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><ol type=\"a\"><li><p>\\(F=\\dfrac{560}{3{,}20}\\).</p><p><strong>Svar:</strong> \\(175\\) N</p></li><li><p>\\(\\dfrac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\iff8v^2-84{,}7v-144=0\\).</p><p><strong>Svar:</strong> \\(12{,}1\\) m/s</p></li></ol>",
     "id": "5.582",
     "miniräknare": true,
     "geogebra": false,
@@ -136101,8 +136116,8 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm den bromsande kraften.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>John och cykeln väger 90,0 kg. På plan väg med konstant 3,20 m/s utvecklar han 560 W.</p><p>Bestäm den bromsande kraften.</p>",
-        "s": "<p>\\(F=\\dfrac{560}{3{,}20}\\).</p><p><strong>Svar:</strong> \\(175\\) N</p>",
-        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "s": "<p>Här är \\(F\\) cyklistens drivkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(F=\\dfrac{560}{3{,}20}\\).</p><p><strong>Svar:</strong> \\(175\\) N</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -136112,7 +136127,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Nedför en backe som lutar 5,50° utvecklar han 144 W med konstant fart \\(v\\). Den bromsande kraften är \\(8v\\) N. Bestäm \\(v\\).",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>John och cykeln väger 90,0 kg. På plan väg med konstant 3,20 m/s utvecklar han 560 W.</p><p>Nedför en backe som lutar 5,50° utvecklar han 144 W med konstant fart \\(v\\). Den bromsande kraften är \\(8v\\) N. Bestäm \\(v\\).</p>",
-        "s": "<p>\\(\\dfrac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\iff8v^2-84{,}7v-144=0\\).</p><p><strong>Svar:</strong> \\(12{,}1\\) m/s</p>",
+        "s": "<p>Här är \\(F\\) cyklistens drivkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(\\dfrac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\iff8v^2-84{,}7v-144=0\\).</p><p><strong>Svar:</strong> \\(12{,}1\\) m/s</p>",
         "ledtrad": "<p>Andragradsekvation.</p>",
         "niva": "A",
         "poang": "(0/1/2)",
@@ -136120,7 +136135,7 @@ window.BANK = [
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 5,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 3,
@@ -136133,7 +136148,7 @@ window.BANK = [
     "typ": "kolvagn dras uppför",
     "poang": "(0/3/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelereras från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><ol type=\"a\"><li>Vilken effekt krävs vid konstant fart?</li><li>Vilken är den största effekten under färden?</li><li>Hur stort arbete gör motorn minst under hela färden?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(P=950\\cdot9{,}82\\sin30^\\circ\\cdot2{,}20\\).</p><p><strong>Svar:</strong> \\(10\\,262\\) W</p></li><li><p>Under accelerationen: \\(F=mg\\sin30^\\circ+m\\cdot\\dfrac{2{,}20}{12{,}0}\\), störst effekt vid 2,20 m/s.</p><p><strong>Svar:</strong> \\(10\\,645\\) W</p></li><li><p>\\(W=950\\cdot9{,}82\\cdot625+\\tfrac12\\cdot950\\cdot2{,}20^2\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{6}\\) J</p></li></ol>",
+    "s": "<p>Här är \\(F\\) dragkraften på kolvagnen längs rälsen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><ol type=\"a\"><li><p>\\(P=950\\cdot9{,}82\\sin30^\\circ\\cdot2{,}20\\).</p><p><strong>Svar:</strong> \\(10\\,262\\) W</p></li><li><p>Under accelerationen: \\(F=mg\\sin30^\\circ+m\\cdot\\dfrac{2{,}20}{12{,}0}\\), störst effekt vid 2,20 m/s.</p><p><strong>Svar:</strong> \\(10\\,645\\) W</p></li><li><p>\\(W=950\\cdot9{,}82\\cdot625+\\tfrac12\\cdot950\\cdot2{,}20^2\\).</p><p><strong>Svar:</strong> \\(5{,}8\\cdot10^{6}\\) J</p></li></ol>",
     "id": "5.583",
     "miniräknare": true,
     "geogebra": false,
@@ -136177,8 +136192,8 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Vilken effekt krävs vid konstant fart?",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelereras från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><p>Vilken effekt krävs vid konstant fart?</p>",
-        "s": "<p>\\(P=950\\cdot9{,}82\\sin30^\\circ\\cdot2{,}20\\).</p><p><strong>Svar:</strong> \\(10\\,262\\) W</p>",
-        "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+        "s": "<p>Här är \\(F\\) dragkraften på kolvagnen längs rälsen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P=950\\cdot9{,}82\\sin30^\\circ\\cdot2{,}20\\).</p><p><strong>Svar:</strong> \\(10\\,262\\) W</p>",
+        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -136188,7 +136203,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Vilken är den största effekten under färden?",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelereras från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><p>Vilken är den största effekten under färden?</p>",
-        "s": "<p>Under accelerationen: \\(F=mg\\sin30^\\circ+m\\cdot\\dfrac{2{,}20}{12{,}0}\\), störst effekt vid 2,20 m/s.</p><p><strong>Svar:</strong> \\(10\\,645\\) W</p>",
+        "s": "<p>Här är \\(F\\) dragkraften på kolvagnen längs rälsen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>Under accelerationen: \\(F=mg\\sin30^\\circ+m\\cdot\\dfrac{2{,}20}{12{,}0}\\), störst effekt vid 2,20 m/s.</p><p><strong>Svar:</strong> \\(10\\,645\\) W</p>",
         "ledtrad": "<p>Kraften är störst under accelerationen.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -136207,7 +136222,7 @@ window.BANK = [
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Använd ett mycket kort tidsintervall för effekten i ett visst ögonblick.</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -136220,7 +136235,7 @@ window.BANK = [
     "typ": "effekt med luftmotstånd kv²",
     "poang": "(0/1/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (6,0 ton) har den bromsande kraften \\(kv^2\\). Med effekten \\(P\\) håller den 20 m/s på plan väg och 10 m/s uppför en backe som lutar 4,0°. Bestäm \\(P\\).</p>",
-    "s": "<p>Plan väg: drivkraften är lika med motståndet, så \\(P=k\\cdot20^2\\cdot20=8\\,000k\\).</p><p>Uppför backen: \\(P=(k\\cdot10^2+6\\,000\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot10=1\\,000k+41\\,101\\).</p><p>Samma effekt ger \\(8\\,000k=1\\,000k+41\\,101\\), alltså \\(7\\,000k=41\\,101\\) och \\(k\\approx5{,}87\\) kg/m.</p><p>\\(P=8\\,000\\cdot5{,}87\\approx4{,}7\\cdot10^{4}\\) W</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{4}\\) W \\(=47\\) kW</p>",
+    "s": "<p>Här är \\(F\\) lastbilens drivkraft, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>Plan väg: drivkraften är lika med motståndet, så \\(P=k\\cdot20^2\\cdot20=8\\,000k\\).</p><p>Uppför backen: \\(P=(k\\cdot10^2+6\\,000\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot10=1\\,000k+41\\,101\\).</p><p>Samma effekt ger \\(8\\,000k=1\\,000k+41\\,101\\), alltså \\(7\\,000k=41\\,101\\) och \\(k\\approx5{,}87\\) kg/m.</p><p>\\(P=8\\,000\\cdot5{,}87\\approx4{,}7\\cdot10^{4}\\) W</p><p><strong>Svar:</strong> \\(4{,}7\\cdot10^{4}\\) W \\(=47\\) kW</p>",
     "id": "5.584",
     "miniräknare": true,
     "geogebra": false,
@@ -136247,7 +136262,7 @@ window.BANK = [
     "typ": "fart ur effekt och fartberoende motstånd",
     "poang": "(0/1/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 200 kg) kör uppför en backe som lutar 4,00°. Effekten är 21,6 kW och accelerationen 0,500 m/s². Den bromsande kraften är \\(30v\\) N. Bestäm \\(v\\).</p>",
-    "s": "<p>\\(\\dfrac{21\\,600}{v}-30v-1\\,200\\cdot9{,}82\\sin4{,}00^\\circ=600\\iff30v^2+1\\,422v-21\\,600=0\\).</p><p><strong>Svar:</strong> \\(12{,}1\\) m/s</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. För att bestämma effekten i ett visst ögonblick väljer vi ett mycket kort tidsintervall \\(\\Delta t\\). Under intervallet kan kraften och farten betraktas som konstanta. Sträckan är då ungefär \\(\\Delta s=v\\Delta t\\), och arbetet är \\(\\Delta W=F\\Delta s\\). Då får vi</p>\\[P\\approx\\frac{\\Delta W}{\\Delta t}\\approx\\frac{Fv\\Delta t}{\\Delta t}=Fv.\\]<p>När tidsintervallet görs allt kortare får vi sambandet mellan ögonblicksvärdena: \\(P=Fv\\). Det ger inte medeleffekten under hela accelerationen.</p><p>\\(\\dfrac{21\\,600}{v}-30v-1\\,200\\cdot9{,}82\\sin4{,}00^\\circ=600\\iff30v^2+1\\,422v-21\\,600=0\\).</p><p><strong>Svar:</strong> \\(12{,}1\\) m/s</p>",
     "id": "5.585",
     "miniräknare": true,
     "geogebra": false,
@@ -136274,7 +136289,7 @@ window.BANK = [
     "typ": "löpare i medvind uppför backe",
     "poang": "(0/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Lina (80 kg) springer med konstant 3,0 m/s uppför en backe som lutar 5,0°. Medvinden ger en konstant kraft på 7,0 N framåt. Bestäm hennes effekt.</p>",
-    "s": "<p>\\(P=(80\\cdot9{,}82\\sin5{,}0^\\circ-7{,}0)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(184\\) W</p>",
+    "s": "<p>Här är \\(F\\) Linas framåtdrivande kraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P=(80\\cdot9{,}82\\sin5{,}0^\\circ-7{,}0)\\cdot3{,}0\\).</p><p><strong>Svar:</strong> \\(184\\) W</p>",
     "id": "5.586",
     "miniräknare": true,
     "geogebra": false,
@@ -136288,7 +136303,7 @@ window.BANK = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(P=Fv\\), där \\(F\\) är den drivande kraften.</p>",
+    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 3,
     "svarEnhet": "W",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
@@ -136302,7 +136317,7 @@ window.BANK = [
     "typ": "lutning ur effektskillnad",
     "poang": "(0/1/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (1 900 kg) kör med konstant 100 km/h uppför och nedför samma backe med samma bromsande kraft. Uppför krävs 47 hk mer än nedför. Bestäm backens lutning.</p>",
-    "s": "<p>\\(P_\\text{upp}-P_\\text{ner}=2mg\\sin\\alpha\\cdot v\\iff\\sin\\alpha=\\dfrac{47\\cdot735{,}5}{2\\cdot1\\,900\\cdot9{,}82\\cdot27{,}8}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) °</p>",
+    "s": "<p>Här är \\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\). Därför blir</p>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<p>Detta är kraftens mekaniska effekt.</p><p>\\(P_\\text{upp}-P_\\text{ner}=2mg\\sin\\alpha\\cdot v\\iff\\sin\\alpha=\\dfrac{47\\cdot735{,}5}{2\\cdot1\\,900\\cdot9{,}82\\cdot27{,}8}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\) °</p>",
     "id": "5.587",
     "miniräknare": true,
     "geogebra": false,
@@ -147877,7 +147892,7 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "t": "<p>En tät, lättöjbar ballong har volymen 2,50 liter vid 10,0 °C. Den värms till 40,0 °C medan trycket är konstant.</p><p>Bestäm slutvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<p>T₁=283,15 K och T₂=313,15 K. V₂=2,50·313,15/283,15≈2,76488 liter. Svar: 2,76 liter.</p>",
+    "s": "<p>T₁=283,15 K och T₂=313,15 K. V₂=2,50·313,15/283,15≈2,76488 liter. Svar: 2,76 liter.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Tryck, volym och temperatur",
@@ -147900,7 +147915,8 @@ window.BANK = [
     "poang": "(1/0/0)",
     "familjTidigare": [
       "Volym och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 2.77
   },
   {
     "id": "6.337",
@@ -153389,7 +153405,7 @@ window.BANK = [
     "typ": "celsius till kelvin",
     "poang": "(1/0/0)",
     "t": "<p>En gas har temperaturen 27 °C.</p><p>Bestäm temperaturen. Svara i K.</p>",
-    "s": "<p>Kelvintemperaturen fås genom att addera 273,15.</p><p>\\(T=27+273{,}15=300{,}15\\ \\mathrm K\\).</p><p><strong>Svar:</strong> 300,15 K.</p>",
+    "s": "<p>Kelvintemperaturen fås genom att addera 273,15.</p><p>\\(T=27+273{,}15=300{,}15\\ \\mathrm K\\).</p><p><strong>Svar:</strong> 300,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\). Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften. Små skillnader i det avrundade svaret kan då uppstå.</p>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -153409,7 +153425,8 @@ window.BANK = [
     "geogebra": false,
     "familjTidigare": [
       "Omvandla Celsius till kelvin"
-    ]
+    ],
+    "rättSvar273": 300
   },
   {
     "id": "6.363",

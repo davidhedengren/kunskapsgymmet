@@ -53808,7 +53808,7 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Bestäm rörelseenergin för varje föremål. Bortse från rotationsenergi och använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><ol style=\"display:grid;gap:0.85rem\"><li>En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "t": "<p>Bestäm rörelseenergin för varje föremål. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><ol style=\"display:grid;gap:0.85rem\"><li>En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.</li></ol>",
     "s": "<p>a) E_k = 65 · 8,0²/2 = 2080 J = 2,08 kJ. Svar: 2,08 kJ.</p><p>b) Farten är 70/3,6 m/s. E_k = 1400 · (70/3,6)²/2 ≈ 264660,49 J. Svar: 264,66 kJ.</p><p>c) m = 0,00050 kg och v = 0,015 m/s. E_k = 0,00050 · 0,015²/2 = 5,625 · 10⁻⁸ J = 56,25 nJ. Svar: 56,25 nJ.</p>",
     "familj": "Rörelseenergi Ek = mv²/2",
     "formaga": [
@@ -53856,7 +53856,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Bestäm rörelseenergin för varje föremål. Bortse från rotationsenergi och använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>Bestäm rörelseenergin för varje föremål. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<p>E_k = 65 · 8,0²/2 = 2080 J = 2,08 kJ. Svar: 2,08 kJ.</p>",
         "ledtrad": "<p>Vilken enhet får energin när kg och m/s används?</p>",
         "niva": "E",
@@ -53870,7 +53870,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Bestäm rörelseenergin för varje föremål. Bortse från rotationsenergi och använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>Bestäm rörelseenergin för varje föremål. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<p>Farten är 70/3,6 m/s. E_k = 1400 · (70/3,6)²/2 ≈ 264660,49 J. Svar: 264,66 kJ.</p>",
         "ledtrad": "<p>Omvandla farten innan du kvadrerar den.</p>",
         "niva": "E",
@@ -53884,7 +53884,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Bestäm rörelseenergin för varje föremål. Bortse från rotationsenergi och använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>Bestäm rörelseenergin för varje föremål. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<p>m = 0,00050 kg och v = 0,015 m/s. E_k = 0,00050 · 0,015²/2 = 5,625 · 10⁻⁸ J = 56,25 nJ. Svar: 56,25 nJ.</p>",
         "ledtrad": "<p>Både massan och farten måste omvandlas till SI-enheter.</p>",
         "niva": "E",
@@ -149789,7 +149789,7 @@ window.BANK = [
     "niva": "C",
     "typ": "hav på Mars",
     "poang": "(1/1/0)",
-    "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p><ol type=\"a\"><li>Bestäm vätsketrycket vid botten.</li><li>På vilket djup på jorden (\\(g=9{,}82\\) m/s²) är vätsketrycket lika stort?</li></ol>",
+    "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p><ol type=\"a\"><li>Bestäm vätsketrycket vid botten. Svara i Pa med två värdesiffror.</li><li>På vilket djup på jorden (\\(g=9{,}82\\) m/s²) är vätsketrycket lika stort? Svara i m.</li></ol>",
     "s": "<ol type=\"a\"><li><p>\\(p=998\\cdot3{,}71\\cdot500\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p></li><li><p>\\(h=\\dfrac{1{,}85\\cdot10^6}{998\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(189\\) m</p></li></ol>",
     "id": "6.439",
     "miniräknare": true,
@@ -149797,8 +149797,8 @@ window.BANK = [
     "familj": "Vätsketryck p = ρgh",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1851290.0,
-      188.90020366598776
+      1900000,
+      189
     ],
     "tolerans": [
       51000.0,
@@ -149826,8 +149826,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm vätsketrycket vid botten.",
-        "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p><p>Bestäm vätsketrycket vid botten.</p>",
+        "fraga": "Bestäm vätsketrycket vid botten. Svara i Pa med två värdesiffror.",
+        "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p><p>Bestäm vätsketrycket vid botten. Svara i Pa med två värdesiffror.</p>",
         "s": "<p>\\(p=998\\cdot3{,}71\\cdot500\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p>",
         "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
         "niva": "E",
@@ -149837,8 +149837,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "På vilket djup på jorden (\\(g=9{,}82\\) m/s²) är vätsketrycket lika stort?",
-        "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p>Trycket på Mars är 1,85 MPa.<p>På vilket djup på jorden (\\(g=9{,}82\\) m/s²) är vätsketrycket lika stort?</p>",
+        "fraga": "På vilket djup på jorden (\\(g=9{,}82\\) m/s²) är vätsketrycket lika stort? Svara i m.",
+        "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p><p>Trycket vid botten av havet på Mars är \\(1{,}85\\cdot10^6\\) Pa.</p><p>På vilket djup på jorden (\\(g=9{,}82\\) m/s²) är vätsketrycket lika stort? Svara i m.</p>",
         "s": "<p>\\(h=\\dfrac{1{,}85\\cdot10^6}{998\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(189\\) m</p>",
         "ledtrad": "<p>Samma densitet, annan tyngdfaktor.</p>",
         "niva": "C",

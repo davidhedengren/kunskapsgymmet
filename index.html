@@ -3819,7 +3819,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-07-c";
+const BANK_VERSION="2026-10-07-d";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9365,19 +9365,39 @@ function forenklatPolynom(x){
     .replace(/\\(?:cdot|times)/g,"*").replace(/[·⋅×]/g,"*")
     .replace(/−/g,"-").replace(/\^\{(\d+)\}/g,"^$1")
     .replace(/²/g,"^2").replace(/³/g,"^3").replace(/,/g,".").replace(/\s+/g,"");
-  if(!raw || raw.length>300 || !/^[a-z0-9.+*^\-]+$/.test(raw)) return null;
+  /* Reducerade bråkkoefficienter: x/3, (1/3)*x och (5x)/2.
+     Parenteser med addition förblir otillåtna: eleven ska förenkla själv. */
+  raw=raw.replace(/\\(?:d?frac)\{([+-]?[a-z0-9.*^]+)\}\{([1-9]\d*)\}/g,'$1/$2')
+    .replace(/\(([+-]?[a-z0-9.*^]+)\)\//g,'$1/')
+    .replace(/\/\(([1-9]\d*)\)/g,'/$1')
+    .replace(/\(([+-]?\d+)\/([1-9]\d*)\)\*?([a-z][a-z0-9*^]*)/g,'$1$3/$2')
+    .replace(/(\d+)\/([1-9]\d*)\*([a-z][a-z0-9*^]*)/g,'$1$3/$2');
+  if(!raw || raw.length>300 || !/^[a-z0-9.+*^\/\-]+$/.test(raw)) return null;
   if(raw[0]!=="+"&&raw[0]!=="-")raw="+"+raw;
   const parts=raw.match(/[+-][^+-]+/g);
   if(!parts || parts.join("")!==raw)return null;
   const terms=new Map();
   for(const part of parts){
     const sign=part[0]==="-"?-1n:1n;let rest=part.slice(1);
+    let divisor=1n;
+    if(rest.includes('/')){
+      const fraction=rest.match(/^([^/]+)\/([1-9]\d*)$/);
+      if(!fraction)return null;
+      rest=fraction[1];divisor=BigInt(fraction[2]);
+      if(divisor===1n)return null;
+    }
     let coefficient=rest.match(/^(?:\d+(?:\.\d+)?|\.\d+)/);
     let num=1n,den=1n;
     if(coefficient){
       const c=coefficient[0],digits=c.split(".");
       num=BigInt((digits[0]||"0")+(digits[1]||""));den=10n**BigInt((digits[1]||"").length);
       rest=rest.slice(c.length);if(rest.startsWith("*")){rest=rest.slice(1);if(!rest)return null;}
+    }
+    if(divisor!==1n){
+      if(den!==1n)return null;
+      let a=num,b=divisor;while(b){[a,b]=[b,a%b];}
+      if(a!==1n)return null; // Bråket måste redan vara förkortat.
+      den=divisor;
     }
     const vars=new Map();
     while(rest){

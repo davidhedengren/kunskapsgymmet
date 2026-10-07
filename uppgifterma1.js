@@ -140050,5 +140050,266 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med negativa tal och prioriteringsregler"
     ]
+  },
+  {
+    "id": "1.1127",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(\\frac{3x}{9}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{3x}{9}=\\frac{3\\cdot x}{3\\cdot 3}=\\frac{x}{3}\\]</p><p><strong>Svar:</strong> \\(\\frac{x}{3}\\)</p></div></div>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x/3",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Förkorta bråket genom att dela täljaren och nämnaren med 3.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "1.1128",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(\\frac{4x}{2}+\\frac{2x}{4}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{4x}{2}+\\frac{2x}{4}=2x+\\frac{x}{2}=\\frac{4x}{2}+\\frac{x}{2}=\\frac{5x}{2}\\]</p><p><strong>Svar:</strong> \\(\\frac{5x}{2}\\)</p></div></div>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "5x/2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Förkorta varje bråk först. Skriv sedan termerna med samma nämnare.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "1.1129",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(\\frac{5x}{6}-\\frac{x}{3}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{5x}{6}-\\frac{x}{3}=\\frac{5x}{6}-\\frac{2x}{6}=\\frac{3x}{6}=\\frac{x}{2}\\]</p><p><strong>Svar:</strong> \\(\\frac{x}{2}\\)</p></div></div>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x/2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Förläng det andra bråket så att båda bråken har nämnaren 6.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "1.1130",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(x+\\frac{x}{4}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[x+\\frac{x}{4}=\\frac{4x}{4}+\\frac{x}{4}=\\frac{5x}{4}\\]</p><p><strong>Svar:</strong> \\(\\frac{5x}{4}\\)</p></div></div>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "5x/4",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Skriv den första termen som ett bråk med nämnaren 4.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "1.1131",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(2\\cdot\\frac{3x}{8}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[2\\cdot\\frac{3x}{8}=\\frac{6x}{8}=\\frac{3x}{4}\\]</p><p><strong>Svar:</strong> \\(\\frac{3x}{4}\\)</p></div></div>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3x/4",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Multiplicera täljaren med 2 och förkorta sedan bråket.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "1.1132",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(\\frac{x}{2}\\div 3\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{x}{2}\\div 3=\\frac{x}{2}\\cdot\\frac{1}{3}=\\frac{x}{6}\\]</p><p><strong>Svar:</strong> \\(\\frac{x}{6}\\)</p></div></div>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x/6",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Att dividera med 3 är samma sak som att multiplicera med en tredjedel.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "1.1133",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(-\\frac{x}{3}+\\frac{x}{6}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[-\\frac{x}{3}+\\frac{x}{6}=-\\frac{2x}{6}+\\frac{x}{6}=\\frac{-2x+x}{6}=-\\frac{x}{6}\\]</p><p><strong>Svar:</strong> \\(-\\frac{x}{6}\\)</p></div></div>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "-x/6",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Skriv båda termerna med nämnaren 6. Behåll minustecknet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "1.1134",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(\\frac{2x+6}{2}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{2x+6}{2}=\\frac{2x}{2}+\\frac{6}{2}=x+3\\]</p><p><strong>Svar:</strong> \\(x+3\\)</p></div></div>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x+3",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Dela varje term i täljaren med 2.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "1.1135",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(\\frac{x+4}{2}-\\frac{x}{2}\\).</p><p>Svara med ett förenklat uttryck där bråken är förkortade och termer av samma slag är samlade.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{x+4}{2}-\\frac{x}{2}=\\frac{x+4-x}{2}=\\frac{4}{2}=2\\]</p><p><strong>Svar:</strong> \\(2\\)</p></div></div>",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Bråken har samma nämnare. Subtrahera hela den andra täljaren från den första.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   }
 ];

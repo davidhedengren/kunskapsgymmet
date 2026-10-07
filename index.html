@@ -9679,8 +9679,8 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
   if(typeof anv!=="string" || typeof facit!=="string" || delSvarDjup>0) return false;
   const varianter=[];
   const a=anv.trim();
-  if(/e\^-?\d*(?:[.,]\d+)?[a-z](?![a-z(])/i.test(a))
-    varianter.push(a.replace(/e\^(-?\d*(?:[.,]\d+)?[a-z])(?![a-z(])/gi,"e^($1)"));
+  if(/e\^-?\d*(?:[.,]\d+)?[a-z](?![a-z])/i.test(a))
+    varianter.push(a.replace(/e\^(-?\d*(?:[.,]\d+)?[a-z])(?![a-z])/gi,"e^($1)"));
   const fv=facit.replace(/\\cdot|·|⋅/g,"*").match(/(?:^|[^a-z])([nk])(?![a-z])/i);
   if(fv && /\d/.test(facit) && /(?:^|[^a-z])[nkmp](?![a-z])/i.test(a)){
     const v=a.replace(/°|\^\s*\{?\\circ\}?|\s*grader\b/g,"").replace(/·|⋅/g,"*")

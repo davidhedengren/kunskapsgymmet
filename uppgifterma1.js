@@ -21399,7 +21399,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv 250 cm³ i dm³.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">1 dm³ = 1 000 cm³, så</p><div class=\"facit-matte\">\\[\\frac{250}{1\\,000}=0{,}25 d m^{3}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>0,25 dm³</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm faktorn för volymen</p><p>En decimeter är tio centimeter. En kub har tre längdriktningar:</p><div class=\"facit-matte\">\\[1\\,\\mathrm{dm}^3=10^3\\,\\mathrm{cm}^3=1000\\,\\mathrm{cm}^3.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla talvärdet</p><div class=\"facit-matte\">\\[\\frac{250}{1000}=0{,}25\\,\\mathrm{dm}^3.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25\\,\\mathrm{dm}^3\\).</p></div>",
     "familj": "Area- och volymenheter",
     "geogebra": false,
     "miniräknare": false,
@@ -21432,7 +21432,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv 3,2 m² i dm².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">1 m² = 100 dm², så</p><div class=\"facit-matte\">\\[3{,}2\\cdot 100=320 d m^{2}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>320 dm²</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm faktorn för area</p><p>En meter är tio decimeter. För area påverkas båda längdriktningarna:</p><div class=\"facit-matte\">\\[1\\,\\mathrm{m}^2=10^2\\,\\mathrm{dm}^2=100\\,\\mathrm{dm}^2.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla talvärdet</p><div class=\"facit-matte\">\\[3{,}2\\cdot100=320\\,\\mathrm{dm}^2.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(320\\,\\mathrm{dm}^2\\).</p></div>",
     "familj": "Area- och volymenheter",
     "geogebra": false,
     "miniräknare": false,
@@ -21465,7 +21465,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv 45 cl i dl.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">1 dl = 10 cl, så</p><div class=\"facit-matte\">\\[\\frac{45}{10}=4{,}5 d l\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>4,5 dl</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd sambandet mellan prefixen</p><div class=\"facit-matte\">\\[1\\,\\mathrm{dl}=10\\,\\mathrm{cl}.\\]</div></li><li><p class=\"facit-rubrik\">Dividera talvärdet med 10</p><div class=\"facit-matte\">\\[\\frac{45}{10}=4{,}5\\,\\mathrm{dl}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\,\\mathrm{dl}\\).</p></div>",
     "familj": "Area- och volymenheter",
     "geogebra": false,
     "miniräknare": false,
@@ -21479,7 +21479,7 @@ window.BANKMA1 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "dl",
     "ledtrad": "<p>Hur många dl motsvarar en enhet av den givna sorten? Blir talet större eller mindre?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -21509,7 +21509,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "decimalform",
     "ledtrad": "<p>Vilken tiopotens står prefixet eller exponenten för? Åt vilket håll flyttas kommat?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -21541,7 +21541,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "decimalform",
     "ledtrad": "<p>Vilken tiopotens står prefixet eller exponenten för? Åt vilket håll flyttas kommat?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -21559,10 +21559,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Jordens massa är cirka \\(5{,}97\\cdot10^{24}\\) kg. Det finns ungefär \\(8\\cdot10^9\\) människor, och anta att en människa i genomsnitt väger 70 kg.</p><p>Hur stor andel av jordens massa utgör alla människor tillsammans? Svara i grundpotensform med två värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mänsklighetens massa: \\(8\\cdot10^9\\cdot70=560\\cdot10^9=5{,}6\\cdot10^{11}\\) kg.</p></li><li><p>Andelen:</p></li><li><p>\\[\\frac{5{,}6\\cdot10^{11}}{5{,}97\\cdot10^{24}}=\\frac{5{,}6}{5{,}97}\\cdot10^{11-24}\\approx0{,}938\\cdot10^{-13}=9{,}4\\cdot10^{-14}.\\]</p></li><li><p>Det motsvarar ungefär en tiotusendels miljarddel av jordens massa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(9{,}4\\cdot10^{-14}\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm människornas sammanlagda massa</p><div class=\"facit-matte\">\\[8\\cdot10^9\\cdot70=5{,}6\\cdot10^{11}\\,\\mathrm{kg}.\\]</div></li><li><p class=\"facit-rubrik\">Dividera delen med hela jordens massa</p><div class=\"facit-matte\">\\[\\frac{5{,}6\\cdot10^{11}}{5{,}97\\cdot10^{24}}=\\frac{5{,}6}{5{,}97}\\cdot10^{-13}\\approx9{,}3802\\cdot10^{-14}.\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till två värdesiffror</p><p>De två första värdesiffrorna är 9 och 3. Nästa siffra är 8, så 3 ökas till 4:</p><div class=\"facit-matte\">\\[9{,}3802\\cdot10^{-14}\\approx9{,}4\\cdot10^{-14}.\\]</div><p>Andelen saknar enhet eftersom vi dividerar massa med massa. Den är mycket liten, vilket är rimligt jämfört med jordens massa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}4\\cdot10^{-14}\\).</p></div>",
     "familj": "Normalisera och jämföra i grundpotensform",
     "formaga": [
       "procedur",
@@ -21573,11 +21573,11 @@ window.BANKMA1 = [
     "självrättning": true,
     "ledtrad": "<p>Beräkna först alla människors massa i grundpotensform. Dela sedan mantissorna för sig och tiopotenserna för sig.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
-    "rättSvar": 9.38e-14,
-    "tolerans": 6e-16
+    "rättSvar": 9.4e-14,
+    "tolerans": 0
   },
   {
     "id": "0.1078",
@@ -21588,10 +21588,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Den närmaste stjärnan, Proxima Centauri, ligger 4,24 ljusår bort. Ett ljusår är \\(9{,}46\\cdot10^{15}\\) m. Rymdsonden Voyager 1 färdas med ungefär 17 km/s.</p><p>Hur många år skulle Voyager 1 behöva för att nå Proxima Centauri? Ett år är cirka \\(3{,}16\\cdot10^7\\) s. Svara i grundpotensform med två värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avstånd: \\(4{,}24\\cdot9{,}46\\cdot10^{15}\\approx4{,}01\\cdot10^{16}\\) m.</p></li><li><p>Fart: 17 km/s \\(=1{,}7\\cdot10^4\\) m/s.</p></li><li><p>Tid: \\(\\dfrac{4{,}01\\cdot10^{16}}{1{,}7\\cdot10^4}\\approx2{,}36\\cdot10^{12}\\) s.</p></li><li><p>I år: \\(\\dfrac{2{,}36\\cdot10^{12}}{3{,}16\\cdot10^7}\\approx7{,}5\\cdot10^4\\) år, alltså ungefär 75 000 år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(7{,}5\\cdot10^4\\) år</p></div>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Den närmaste stjärnan, Proxima Centauri, ligger 4,24 ljusår bort. Ett ljusår är \\(9{,}46\\cdot10^{15}\\) m. Rymdsonden Voyager 1 färdas med ungefär 17 km/s.</p><p>Anta att sonden färdas rakt mot stjärnan med konstant hastighet. Hur många år skulle Voyager 1 behöva för att nå Proxima Centauri? Ett år är cirka \\(3{,}16\\cdot10^7\\) s. Svara i grundpotensform med två värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna avståndet i meter</p><div class=\"facit-matte\">\\[s=4{,}24\\cdot9{,}46\\cdot10^{15}=4{,}01104\\cdot10^{16}\\,\\mathrm{m}.\\]</div></li><li><p class=\"facit-rubrik\">Skriv hastigheten i meter per sekund</p><div class=\"facit-matte\">\\[17\\,\\mathrm{km/s}=1{,}7\\cdot10^4\\,\\mathrm{m/s}.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna restiden i sekunder</p><p>För konstant fart gäller tid = sträcka / hastighet:</p><div class=\"facit-matte\">\\[t=\\frac{4{,}01104\\cdot10^{16}}{1{,}7\\cdot10^4}\\approx2{,}35944\\cdot10^{12}\\,\\mathrm{s}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till år och avrunda först på slutet</p><div class=\"facit-matte\">\\[\\frac{4{,}01104\\cdot10^{16}}{1{,}7\\cdot10^4\\cdot3{,}16\\cdot10^7}\\approx7{,}46657\\cdot10^4\\,\\text{år}\\approx7{,}5\\cdot10^4\\,\\text{år}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(7{,}5\\cdot10^4\\) år, alltså 75 000 år.</p></div>",
     "familj": "Skriva tal i grundpotensform",
     "formaga": [
       "problemlösning",
@@ -21602,11 +21602,11 @@ window.BANKMA1 = [
     "självrättning": true,
     "ledtrad": "<p>Gör om allt till meter och sekunder och räkna i grundpotensform. Dela mantissor och tiopotenser för sig.</p>",
     "spel": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "svarstyp": "numeriskt",
-    "rättSvar": 74700.0,
-    "tolerans": 1000.0,
+    "rättSvar": 75000,
+    "tolerans": 0,
     "svarEnhet": "år"
   },
   {
@@ -21621,7 +21621,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många meter är 3 km?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Prefixet k betyder</p><div class=\"facit-matte\">\\[10^{3}=1\\,000\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>3000</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd sambandet mellan enheterna</p><div class=\"facit-matte\">\\[1\\,\\mathrm{km}=1000\\,\\mathrm{m}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla det givna värdet</p><div class=\"facit-matte\">\\[3\\cdot1000=3000\\,\\mathrm{m}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3000\\,\\mathrm{m}\\).</p></div>",
     "familj": "Omvandla med prefix",
     "geogebra": false,
     "miniräknare": false,
@@ -21640,7 +21640,8 @@ window.BANKMA1 = [
     "omrTidigare": "tiopotenser_prefix",
     "familjTidigare": [
       "Omvandla med tiopotenser och prefix"
-    ]
+    ],
+      "svarEnhet": "m"
   },
   {
     "id": "0.755",
@@ -21654,7 +21655,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många milligram är 2,5 g?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Prefixet m betyder 10⁻³, så</p><div class=\"facit-matte\">\\[1 g=1\\,000\\, \\mathrm{mg}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>2500</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd sambandet mellan enheterna</p><div class=\"facit-matte\">\\[1\\,\\mathrm{g}=1000\\,\\mathrm{mg}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla det givna värdet</p><div class=\"facit-matte\">\\[2{,}5\\cdot1000=2500\\,\\mathrm{mg}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2500\\,\\mathrm{mg}\\).</p></div>",
     "familj": "Omvandla med prefix",
     "geogebra": false,
     "miniräknare": false,
@@ -21673,7 +21674,8 @@ window.BANKMA1 = [
     "omrTidigare": "tiopotenser_prefix",
     "familjTidigare": [
       "Omvandla med tiopotenser och prefix"
-    ]
+    ],
+      "svarEnhet": "mg"
   },
   {
     "id": "0.756",
@@ -21687,7 +21689,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många mikrometer (µm) är 3 mm?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1 mm = 10⁻³ m och 1 µm = 10⁻⁶ m.</p></li><li><p>En millimeter är alltså 1 000 µm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>3000</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd sambandet mellan enheterna</p><div class=\"facit-matte\">\\[1\\,\\mathrm{mm}=1000\\,\\mathrm{\\mu m}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla det givna värdet</p><div class=\"facit-matte\">\\[3\\cdot1000=3000\\,\\mathrm{\\mu m}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3000\\,\\mathrm{\\mu m}\\).</p></div>",
     "familj": "Omvandla med prefix",
     "geogebra": false,
     "miniräknare": false,
@@ -21706,7 +21708,8 @@ window.BANKMA1 = [
     "omrTidigare": "tiopotenser_prefix",
     "familjTidigare": [
       "Omvandla med tiopotenser och prefix"
-    ]
+    ],
+      "svarEnhet": "\u00b5m"
   },
   {
     "id": "0.757",
@@ -21739,7 +21742,8 @@ window.BANKMA1 = [
     "omrTidigare": "tiopotenser_prefix",
     "familjTidigare": [
       "Omvandla med tiopotenser och prefix"
-    ]
+    ],
+      "svarEnhet": "MW"
   },
   {
     "id": "0.1070",
@@ -21750,10 +21754,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Ljuset färdas med hastigheten 300 Mm/s, alltså 300 megameter per sekund.</p><p><strong>a)</strong> Hur många nanosekunder tar det för ljuset att färdas 1 m? Svara med två decimaler.</p><p><strong>b)</strong> En processor arbetar med klockfrekvensen 3 GHz, alltså 3 miljarder klockcykler per sekund. Hur många centimeter hinner ljuset färdas under en klockcykel?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>300 Mm/s \\(=300\\cdot10^6\\) m/s \\(=3\\cdot10^8\\) m/s.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tiden för 1 m: \\(t=\\dfrac{1}{3\\cdot10^8}\\) s \\(\\approx3{,}33\\cdot10^{-9}\\) s \\(=3{,}33\\) ns.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En klockcykel varar \\(\\dfrac{1}{3\\cdot10^9}\\) s.</p></li><li><p>Under den tiden färdas ljuset</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[3\\cdot10^8\\cdot\\frac{1}{3\\cdot10^9}\\text{ m}=0{,}1\\text{ m}=10\\text{ cm}.\\]</p></li><li><p>Signaler i en dator kan alltså inte hinna särskilt långt under en klockcykel.</p></li><li><p>Det är ett skäl till att datorchip är små.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) cirka 3,33 ns &nbsp; b) 10 cm</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla ljusets hastighet</p><div class=\"facit-matte\">\\[300\\,\\mathrm{Mm/s}=3\\cdot10^8\\,\\mathrm{m/s}.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna tiden för en meter</p><div class=\"facit-matte\">\\[t=\\frac{1}{3\\cdot10^8}\\,\\mathrm{s}\\approx3{,}33333\\cdot10^{-9}\\,\\mathrm{s}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till nanosekunder</p><p>En nanosekund är \\(10^{-9}\\) sekunder:</p><div class=\"facit-matte\">\\[t\\approx3{,}33\\,\\mathrm{ns}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}33\\,\\mathrm{ns}\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm längden av en klockcykel</p><p>3 GHz betyder \\(3\\cdot10^9\\) klockcykler per sekund. En cykel tar därför</p><div class=\"facit-matte\">\\[T=\\frac1{3\\cdot10^9}\\,\\mathrm{s}.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna ljusets sträcka under en cykel</p><div class=\"facit-matte\">\\[s=vT=3\\cdot10^8\\cdot\\frac1{3\\cdot10^9}=0{,}1\\,\\mathrm{m}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till centimeter</p><div class=\"facit-matte\">\\[0{,}1\\,\\mathrm{m}=10\\,\\mathrm{cm}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,\\mathrm{cm}\\).</p></div></div></div></div>",
     "familj": "Prefix i tillämpningar",
     "formaga": [
       "problemlösning",
@@ -21764,16 +21768,16 @@ window.BANKMA1 = [
     "självrättning": true,
     "ledtrad": "<p>Skriv om hastigheten i m/s med tiopotenser. Mega = \\(10^6\\), giga = \\(10^9\\) och nano = \\(10^{-9}\\).</p>",
     "spel": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3.3333333333333335,
+      3.33,
       10
     ],
     "tolerans": [
-      0.01,
-      0.01
+      0.005,
+      0
     ],
     "svarEtiketter": [
       "a)",
@@ -21794,8 +21798,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Skriv \\(0{,}045\\) Mg i hektogram.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1 Mg \\(=10^6\\) g och 1 hg \\(=10^2\\) g.</p></li><li><p>\\(0{,}045\\) Mg \\(=0{,}045\\cdot10^6\\) g \\(=45\\,000\\) g \\(=\\dfrac{45\\,000}{100}\\) hg \\(=450\\) hg.</p></li><li><p>Rimlighet: 0,045 Mg är 45 kg, och 1 kg är 10 hg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 450 hg</p></div>",
     "familj": "Omvandla med prefix",
@@ -21807,7 +21811,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "ledtrad": "<p>Gå via gram. Hur många gram är 1 Mg, och hur många gram är 1 hg?</p>",
     "spel": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 450,
@@ -21823,8 +21827,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Tre provrör innehåller 3 500 µl, 0,4 cl respektive 3,2 ml vätska.</p><p>Hur många milliliter innehåller provröret med mest vätska?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv allt i milliliter.</p></li><li><p>1 ml \\(=1000\\) µl och 1 cl \\(=10\\) ml.</p></li></ol><ul><li>3 500 µl \\(=3{,}5\\) ml</li><li>0,4 cl \\(=4\\) ml</li><li>3,2 ml</li></ul><ol class=\"facit-steglista\" role=\"list\"><li><p>Störst är 0,4 cl \\(=4\\) ml, trots att talet 0,4 ser minst ut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 ml</p></div>",
     "familj": "Välja och kontrollera beräkningar med prefix",
@@ -21837,7 +21841,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "ledtrad": "<p>Omvandla alla tre mängderna till samma enhet innan du jämför.</p>",
     "spel": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
@@ -21853,10 +21857,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Ett mobilbatteri har kapaciteten 4 500 mAh och spänningen 3,8 V. Den lagrade energin är \\(E=U\\cdot Q\\), där \\(Q\\) är laddningen i ampersekunder (As) och \\(E\\) blir i joule.</p><p>Hur många kilojoule energi lagrar batteriet? Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>4 500 mAh \\(=4{,}5\\) Ah.</p></li><li><p>En timme är 3 600 s, så \\(Q=4{,}5\\cdot3\\,600=16\\,200\\) As.</p></li><li><p>\\(E=3{,}8\\cdot16\\,200=61\\,560\\) J \\(\\approx61{,}6\\) kJ.</p></li><li><p>Det är ungefär lika mycket energi som det krävs för att lyfta 100 kg 60 meter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 61,6 kJ</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla milliamperetimmar till amperetimmar</p><div class=\"facit-matte\">\\[4500\\,\\mathrm{mAh}=4{,}5\\,\\mathrm{Ah}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla timmar till sekunder</p><p>En timme är 3600 sekunder. Samma laddning uttryckt i amperesekunder blir därför</p><div class=\"facit-matte\">\\[Q=4{,}5\\cdot3600=16\\,200\\,\\mathrm{As}.\\]</div></li><li><p class=\"facit-rubrik\">Använd den givna energiformeln</p><div class=\"facit-matte\">\\[E=UQ=3{,}8\\cdot16\\,200=61\\,560\\,\\mathrm{J}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till kilojoule och avrunda</p><div class=\"facit-matte\">\\[E=61{,}56\\,\\mathrm{kJ}\\approx61{,}6\\,\\mathrm{kJ}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(61{,}6\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Välja och kontrollera beräkningar med prefix",
     "formaga": [
       "procedur",
@@ -21867,11 +21871,11 @@ window.BANKMA1 = [
     "självrättning": true,
     "ledtrad": "<p>Gör om mAh till ampersekunder: milli betyder tusendel och en timme är 3 600 s.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
-    "rättSvar": 61.56,
-    "tolerans": 0.1,
+    "rättSvar": 61.6,
+    "tolerans": 0.005,
     "svarEnhet": "kJ"
   },
   {
@@ -21885,13 +21889,13 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>12 av 30 elever cyklar till skolan. Hur stor andel av eleverna cyklar? Svara i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Andelen är delen dividerad med det hela:</p><div class=\"facit-matte\">\\[\\frac{12}{30}=0{,}40=40\\,\\%\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Andelen är delen dividerad med det hela:</p><div class=\"facit-matte\">\\[\\frac{12}{30}=0{,}40=40\\,\\%.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 %.</p></div>",
     "familj": "Andel i procent",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 0.1,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -21917,7 +21921,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en låda finns 8 röda och 12 blå kulor. Hur stor andel av kulorna är röda? Svara i enklaste bråkform.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Totalt finns \\(8+12=20\\) kulor.</p></li><li><div class=\"facit-berakning\"><p>Den röda andelen är</p><div class=\"facit-matte\">\\[\\frac{8}{20}=\\frac25\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac25\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Totalt finns \\(8+12=20\\) kulor.</p></li><li><div class=\"facit-berakning\"><p>Den röda andelen är</p><div class=\"facit-matte\">\\[\\frac{8}{20}=\\frac25.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac25\\).</p></div>",
     "familj": "Andel i procent",
     "geogebra": false,
     "miniräknare": false,
@@ -21949,7 +21953,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>35 % av 240 personer väljer alternativ A. Hur många personer är det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv 35 % som decimalform: \\(0{,}35\\).</p></li><li><div class=\"facit-matte\">\\[0{,}35\\cdot240=84\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 84 personer.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv 35 % som decimalform: \\(0{,}35\\).</p></li><li><div class=\"facit-matte\">\\[0{,}35\\cdot240=84.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 84 personer.</p></div>",
     "familj": "Beräkningar när procentsatsen är känd",
     "geogebra": false,
     "miniräknare": true,
@@ -21980,7 +21984,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>18 elever motsvarar 30 % av en grupp. Hur många elever finns i hela gruppen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt hela gruppen vara \\(x\\).</p></li><li><div class=\"facit-matte\">\\[0{,}30x=18\\Rightarrow x=\\frac{18}{0{,}30}=60\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 elever.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt hela gruppen vara \\(x\\).</p></li><li><div class=\"facit-matte\">\\[0{,}30x=18\\Rightarrow x=\\frac{18}{0{,}30}=60.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 elever.</p></div>",
     "familj": "Beräkningar när procentsatsen är känd",
     "geogebra": false,
     "miniräknare": true,
@@ -22012,7 +22016,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I klass A klarade 21 av 28 elever ett test. I klass B klarade 24 av 32 elever testet. Vilken klass hade störst andel godkända?</p><p>Svara A, B eller lika.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Klass A:</p><div class=\"facit-matte\">\\[\\frac{21}{28}=0{,}75\\].</div></div></li><li><div class=\"facit-berakning\"><p>Klass B:</p><div class=\"facit-matte\">\\[\\frac{24}{32}=0{,}75\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> lika.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Klass A:</p><div class=\"facit-matte\">\\[\\frac{21}{28}=0{,}75.\\]</div></div></li><li><div class=\"facit-berakning\"><p>Klass B:</p><div class=\"facit-matte\">\\[\\frac{24}{32}=0{,}75.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> lika.</p></div>",
     "familj": "Jämföra och omvandla andelar",
     "geogebra": false,
     "miniräknare": false,
@@ -22026,7 +22030,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Jämför andelarna genom att skriva båda som decimaler, procent eller likvärdiga bråk.</p>",
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
@@ -22041,10 +22045,10 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En förening har 360 medlemmar. \\(\\frac{5}{12}\\) är ungdomar. Av ungdomarna spelar 40 % fotboll. Hur många av föreningens medlemmar är ungdomar som spelar fotboll?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först bestäms antalet ungdomar:</p><div class=\"facit-matte\">\\[360\\cdot\\frac{5}{12}=150\\].</div></li><li><p>40 % av 150 är</p></li><li><div class=\"facit-matte\">\\[0{,}40\\cdot150=60\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 medlemmar.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först bestäms antalet ungdomar:</p><div class=\"facit-matte\">\\[360\\cdot\\frac{5}{12}=150.\\]</div></li><li><p>40 % av 150 är</p></li><li><div class=\"facit-matte\">\\[0{,}40\\cdot150=60.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 medlemmar.</p></div>",
     "familj": "Beräkningar när procentsatsen är känd",
     "geogebra": false,
     "miniräknare": true,
@@ -22058,7 +22062,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Beräkna först hur många som är ungdomar. Ta sedan 40 % av det antalet.</p>",
     "svarFormat": "heltal",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
@@ -22076,7 +22080,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en blandning finns 6 dl saft och 9 dl vatten. Skriv förhållandet saft : vatten i enklaste form.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förhållandet är \\(6:9\\).</p></li><li><p>Båda talen kan divideras med 3:</p><div class=\"facit-matte\">\\[6:9=2:3\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2:3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förhållandet är \\(6:9\\).</p></li><li><p>Båda talen kan divideras med 3:</p><div class=\"facit-matte\">\\[6:9=2:3.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2:3.</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
     "miniräknare": false,
@@ -22108,7 +22112,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förhållandet mellan röda och gröna pärlor är 3:5. Det finns 15 röda pärlor. Hur många gröna pärlor finns det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>3 delar motsvarar 15 pärlor, alltså är en del</p><div class=\"facit-matte\">\\[15/3=5\\].</div></div></li><li><div class=\"facit-berakning\"><p>Gröna pärlor:</p><div class=\"facit-matte\">\\[5\\cdot5=25\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>3 delar motsvarar 15 pärlor, alltså är en del</p><div class=\"facit-matte\">\\[15/3=5.\\]</div></div></li><li><div class=\"facit-berakning\"><p>Gröna pärlor:</p><div class=\"facit-matte\">\\[5\\cdot5=25.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25.</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
     "miniräknare": false,
@@ -22158,7 +22162,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Dela en mängd i ett givet förhållande"
-    ]
+    ],
+      "svarEnhet": "kr"
   },
   {
     "id": "0.767",
@@ -22189,7 +22194,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Dela en mängd i ett givet förhållande"
-    ]
+    ],
+      "svarEnhet": "cm"
   },
   {
     "id": "0.768",
@@ -22202,7 +22208,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Blandning A har förhållandet koncentrat : vatten = 2:7. Blandning B har förhållandet 3:11. Vilken blandning innehåller störst andel koncentrat?</p><p>Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>I A är andelen koncentrat</p><div class=\"facit-matte\">\\[\\frac{2}{2+7}=\\frac29\\approx0{,}222\\].</div></div></li><li><div class=\"facit-berakning\"><p>I B är andelen</p><div class=\"facit-matte\">\\[\\frac{3}{3+11}=\\frac3{14}\\approx0{,}214\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv koncentratets andel av varje blandning</p><div class=\"facit-matte\">\\[A:\\ \\frac2{2+7}=\\frac29,\\qquad B:\\ \\frac3{3+11}=\\frac3{14}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför exakt med gemensam nämnare</p><div class=\"facit-matte\">\\[\\frac29=\\frac{28}{126},\\qquad\\frac3{14}=\\frac{27}{126}.\\]</div><p>28 delar av 126 är mer än 27 delar av 126. Det behövs ingen miniräknare eller avrundning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Blandning A.</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
     "miniräknare": false,
@@ -22216,7 +22222,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Jämför koncentratets del med hela blandningen, inte bara talen 2 och 3.</p>",
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
@@ -22231,10 +22237,10 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>I en låda är förhållandet mellan vita, svarta och grå kulor 2:3:5. Det finns 18 svarta kulor. Hur många kulor finns det totalt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Tre delar motsvarar 18 kulor, alltså är en del</p><div class=\"facit-matte\">\\[18/3=6\\].</div></div></li><li><p>Totalt finns \\(2+3+5=10\\) delar.</p></li><li><div class=\"facit-matte\">\\[10\\cdot6=60\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 kulor.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Tre delar motsvarar 18 kulor, alltså är en del</p><div class=\"facit-matte\">\\[18/3=6.\\]</div></div></li><li><p>Totalt finns \\(2+3+5=10\\) delar.</p></li><li><div class=\"facit-matte\">\\[10\\cdot6=60.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 kulor.</p></div>",
     "familj": "Förhållanden i problemlösning",
     "geogebra": false,
     "miniräknare": true,
@@ -22248,7 +22254,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Bestäm först hur många kulor en del motsvarar. Summera sedan alla delar.</p>",
     "svarFormat": "heltal",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -22263,7 +22269,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>3 kg äpplen kostar 72 kr. Priset är proportionellt mot massan. Vad kostar 1 kg?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Pris per kilogram:</p><div class=\"facit-matte\">\\[72/3=24\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Pris per kilogram:</p><div class=\"facit-matte\">\\[72/3=24.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 kr.</p></div>",
     "familj": "Direkt proportionalitet",
     "geogebra": false,
     "miniräknare": false,
@@ -22278,7 +22284,8 @@ window.BANKMA1 = [
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+      "svarEnhet": "kr"
   },
   {
     "id": "0.771",
@@ -22319,13 +22326,13 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Sambandet mellan \\(x\\) och \\(y\\) är proportionellt. När \\(x=6\\) är \\(y=15\\). Bestäm proportionalitetskonstanten \\(k\\) i \\(y=kx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>För ett proportionellt samband gäller</p><div class=\"facit-matte\">\\[k=y/x\\].</div></div></li><li><div class=\"facit-matte\">\\[k=15/6=2{,}5\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=2{,}5\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>För ett proportionellt samband gäller</p><div class=\"facit-matte\">\\[k=y/x.\\]</div></div></li><li><div class=\"facit-matte\">\\[k=15/6=2{,}5.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=2{,}5\\).</p></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 0.01,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -22357,7 +22364,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 105,
-    "tolerans": 0.1,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22370,7 +22377,8 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Proportionalitetskonstant"
-    ]
+    ],
+      "svarEnhet": "kr"
   },
   {
     "id": "0.774",
@@ -22382,8 +22390,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Tabellen visar ett samband.</p><table><tr><th>x</th><td>2</td><td>5</td><td>8</td></tr><tr><th>y</th><td>7</td><td>17,5</td><td>28</td></tr></table><p>Är \\(y\\) direkt proportionell mot \\(x\\)? Svara ja eller nej.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontrollera kvoten \\(y/x\\):</p><div class=\"facit-matte\">\\[7/2=3{,}5\\],</div></li><li><p>\\(17{,}5/5=3{,}5\\) och \\(28/8=3{,}5\\).</p></li><li><p>Kvoten är konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ja.</p></div>",
+    "t": "<p>Tabellen visar ett samband.</p><table><tr><th>x</th><td>2</td><td>5</td><td>8</td></tr><tr><th>y</th><td>7</td><td>17,5</td><td>28</td></tr></table><p>Kan tabellens värden beskrivas med ett direkt proportionellt samband \\(y=kx\\)? Svara ja eller nej.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontrollera kvoten \\(y/x\\):</p><div class=\"facit-matte\">\\[7/2=3{,}5,\\]</div></li><li><p>\\(17{,}5/5=3{,}5\\) och \\(28/8=3{,}5\\).</p></li><li><p>Kvoten är konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ja.</p></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
     "miniräknare": true,
@@ -22397,7 +22405,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>För direkt proportionalitet ska kvoten \\(y/x\\) vara densamma i alla kolumner.</p>",
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
@@ -22412,16 +22420,16 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En karta har skalan 1:25 000. En vandringsled är 7,6 cm på kartan. Hur lång är leden i verkligheten? Svara i kilometer.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1 cm på kartan motsvarar 25 000 cm i verkligheten.</p></li><li><p>\\(7{,}6\\cdot25\\,000=190\\,000\\) cm.</p></li><li><div class=\"facit-matte\">\\[190\\,000\\text{ cm}=1\\,900\\text{ m}=1{,}9\\text{ km}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,9 km.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1 cm på kartan motsvarar 25 000 cm i verkligheten.</p></li><li><p>\\(7{,}6\\cdot25\\,000=190\\,000\\) cm.</p></li><li><div class=\"facit-matte\">\\[190\\,000\\text{ cm}=1\\,900\\text{ m}=1{,}9\\text{ km}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,9 km.</p></div>",
     "familj": "Proportionalitet i problemlösning",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.9,
-    "tolerans": 0.02,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -22429,9 +22437,10 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Multiplicera kartlängden med 25 000 och omvandla sedan centimeter till kilometer.</p>",
     "svarFormat": "numeriskt",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+      "svarEnhet": "km"
   },
   {
     "id": "0.776",
@@ -22444,7 +22453,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv andelen \\(\\frac{7}{20}\\) i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Gör nämnaren till 100:</p><div class=\"facit-matte\">\\[\\frac{7}{20}=\\frac{35}{100}\\].</div></div></li><li><p>Alltså är andelen <strong>35 %</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Gör nämnaren till 100:</p><div class=\"facit-matte\">\\[\\frac{7}{20}=\\frac{35}{100}.\\]</div></div></li><li><p>Alltså är andelen <strong>35 %</strong>.</p></li></ol></div>",
     "familj": "Jämföra och omvandla andelar",
     "geogebra": false,
     "miniräknare": false,
@@ -22476,7 +22485,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv 0,45 som ett bråk i enklaste form.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}45=\\frac{45}{100}\\].</div></li><li><div class=\"facit-berakning\"><p>Förkorta med 5:</p><div class=\"facit-matte\">\\[\\frac{45}{100}=\\frac9{20}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac9{20}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}45=\\frac{45}{100}.\\]</div></li><li><div class=\"facit-berakning\"><p>Förkorta med 5:</p><div class=\"facit-matte\">\\[\\frac{45}{100}=\\frac9{20}.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac9{20}\\).</p></div>",
     "familj": "Jämföra och omvandla andelar",
     "geogebra": false,
     "miniräknare": false,
@@ -22508,7 +22517,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Figuren består av 20 lika stora rutor. Hur stor andel är markerad? Svara i decimalform.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 105\" width=\"430\" height=\"105\" role=\"img\" aria-label=\"Tjugo lika stora rutor, varav åtta är markerade\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"103\" rx=\"12\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g transform=\"translate(35,25)\"><rect x=\"0\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"36\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"72\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"108\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"144\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"180\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"216\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"252\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"288\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"324\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"0\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"36\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"72\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"108\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"144\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"180\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"216\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"252\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"288\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"324\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>8 av 20 rutor är markerade:</p><div class=\"facit-matte\">\\[\\frac8{20}=\\frac25=0{,}4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,4.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>8 av 20 rutor är markerade:</p><div class=\"facit-matte\">\\[\\frac8{20}=\\frac25=0{,}4.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,4.</p></div>",
     "familj": "Andel i procent",
     "geogebra": false,
     "miniräknare": false,
@@ -22539,7 +22548,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>\\(\\frac38\\) av 240 böcker är faktaböcker. Hur många faktaböcker finns det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En åttondel av 240 är</p><div class=\"facit-matte\">\\[240/8=30\\].</div></div></li><li><div class=\"facit-berakning\"><p>Tre åttondelar är därför</p><div class=\"facit-matte\">\\[3\\cdot30=90\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 90 böcker.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En åttondel av 240 är</p><div class=\"facit-matte\">\\[240/8=30.\\]</div></div></li><li><div class=\"facit-berakning\"><p>Tre åttondelar är därför</p><div class=\"facit-matte\">\\[3\\cdot30=90.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 90 böcker.</p></div>",
     "familj": "Beräkningar när procentsatsen är känd",
     "geogebra": false,
     "miniräknare": false,
@@ -22602,7 +22611,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>28 av 80 elever åker buss till skolan. Hur stor andel är det i procent?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Andelen är</p><div class=\"facit-matte\">\\[\\frac{28}{80}=\\frac{35}{100}=0{,}35\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35 %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Andelen är</p><div class=\"facit-matte\">\\[\\frac{28}{80}=\\frac{35}{100}=0{,}35.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35 %.</p></div>",
     "familj": "Andel i procent",
     "geogebra": false,
     "miniräknare": false,
@@ -22613,7 +22622,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dividera delen med det hela, eller förläng bråket så att nämnaren blir 100.</p>",
+    "ledtrad": "<p>Dividera delen med det hela, eller börja med att förkorta bråket.</p>",
     "spel": true,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -22633,7 +22642,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken andel är störst?</p><p>A: \\(\\frac5{12}\\)<br>B: 42 %</p><p>Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac5{12}\\approx0{,}4167=41{,}67\\,\\%\\].</div></li><li><p>Det är mindre än 42 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenttalet som ett bråk</p><div class=\"facit-matte\">\\[42\\,\\%=\\frac{42}{100}=\\frac{21}{50}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför exakt med gemensam nämnare</p><div class=\"facit-matte\">\\[\\frac5{12}=\\frac{125}{300},\\qquad\\frac{21}{50}=\\frac{126}{300}.\\]</div><p>126 trehundradelar är mer än 125 trehundradelar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B: 42 %.</p></div>",
     "familj": "Jämföra och omvandla andelar",
     "geogebra": false,
     "miniräknare": false,
@@ -22665,7 +22674,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>På en skola går 250 elever. 60 % av eleverna går i årskurs 1. Av eleverna i årskurs 1 spelar \\(\\frac25\\) i skolans lag. Hur många elever i årskurs 1 spelar i laget?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Först beräknas antalet i årskurs 1:</p><div class=\"facit-matte\">\\[0{,}60\\cdot250=150\\].</div></div></li><li><div class=\"facit-berakning\"><p>Därefter tas två femtedelar:</p><div class=\"facit-matte\">\\[\\frac25\\cdot150=60\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 elever.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Först beräknas antalet i årskurs 1:</p><div class=\"facit-matte\">\\[0{,}60\\cdot250=150.\\]</div></div></li><li><div class=\"facit-berakning\"><p>Därefter tas två femtedelar:</p><div class=\"facit-matte\">\\[\\frac25\\cdot150=60.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 elever.</p></div>",
     "familj": "Beräkningar när procentsatsen är känd",
     "geogebra": false,
     "miniräknare": true,
@@ -22679,7 +22688,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Beräkna först hur många elever som går i årskurs 1. Ta sedan två femtedelar av det antalet.</p>",
     "spel": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "svarFormat": "heltal",
     "familjTidigare": [
@@ -22694,8 +22703,8 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En tank är fylld till \\(\\frac35\\). När 24 liter fylls på är den fylld till \\(\\frac45\\). Hur många liter rymmer tanken när den är full?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ökningen från \\(\\frac35\\) till \\(\\frac45\\) är \\(\\frac15\\) av tanken.</p></li><li><p>Den femtedelen motsvarar 24 liter.</p></li><li><p>Hela tanken rymmer därför \\(5\\cdot24=120\\) liter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120 liter.</p></div>",
     "familj": "Beräkningar när procentsatsen är känd",
@@ -22711,12 +22720,13 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Hur stor del av hela tanken motsvarar ökningen från tre femtedelar till fyra femtedelar?</p>",
     "spel": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 3,
     "svarFormat": "heltal",
     "familjTidigare": [
       "Beräkna det hela från en förändring av andelen"
-    ]
+    ],
+      "svarEnhet": "l"
   },
   {
     "id": "0.785",
@@ -22729,7 +22739,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Det finns 320 biljetter till en föreställning. På förmiddagen säljs \\(\\frac38\\) av biljetterna. På eftermiddagen säljs 40 % av de biljetter som då återstår. Hur många biljetter finns kvar efter eftermiddagen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På förmiddagen säljs \\(\\frac38\\cdot320=120\\) biljetter.</p></li><li><div class=\"facit-berakning\"><p>Då återstår</p><div class=\"facit-matte\">\\[320-120=200\\].</div></div></li><li><div class=\"facit-berakning\"><p>På eftermiddagen säljs</p><div class=\"facit-matte\">\\[0{,}40\\cdot200=80\\].</div></div></li><li><div class=\"facit-berakning\"><p>Kvar blir</p><div class=\"facit-matte\">\\[200-80=120\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120 biljetter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På förmiddagen säljs \\(\\frac38\\cdot320=120\\) biljetter.</p></li><li><div class=\"facit-berakning\"><p>Då återstår</p><div class=\"facit-matte\">\\[320-120=200.\\]</div></div></li><li><div class=\"facit-berakning\"><p>På eftermiddagen säljs</p><div class=\"facit-matte\">\\[0{,}40\\cdot200=80.\\]</div></div></li><li><div class=\"facit-berakning\"><p>Kvar blir</p><div class=\"facit-matte\">\\[200-80=120.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120 biljetter.</p></div>",
     "familj": "Beräkningar när procentsatsen är känd",
     "geogebra": false,
     "miniräknare": true,
@@ -22761,7 +22771,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Figuren visar gröna och blå markeringar. Skriv förhållandet gröna : blå i enklaste form.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 110\" width=\"430\" height=\"110\" role=\"img\" aria-label=\"Åtta gröna och tolv blå markeringar\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"108\" rx=\"12\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g transform=\"translate(35,28)\"><circle cx=\"18\" cy=\"18\" r=\"11\" fill=\"#79B892\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"54\" cy=\"18\" r=\"11\" fill=\"#79B892\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"90\" cy=\"18\" r=\"11\" fill=\"#79B892\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"126\" cy=\"18\" r=\"11\" fill=\"#79B892\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"162\" cy=\"18\" r=\"11\" fill=\"#79B892\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"198\" cy=\"18\" r=\"11\" fill=\"#79B892\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"234\" cy=\"18\" r=\"11\" fill=\"#79B892\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"270\" cy=\"18\" r=\"11\" fill=\"#79B892\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"306\" cy=\"18\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"342\" cy=\"18\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"18\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"54\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"90\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"126\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"162\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"198\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"234\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"270\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"306\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/><circle cx=\"342\" cy=\"54\" r=\"11\" fill=\"#78abd8\" stroke=\"#375566\" stroke-width=\"1.2\"/></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det finns 8 gröna och 12 blå markeringar.</p></li><li><p>Förhållandet är \\(8:12\\).</p></li><li><div class=\"facit-berakning\"><p>Dividera båda leden med 4:</p><div class=\"facit-matte\">\\[8:12=2:3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2:3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det finns 8 gröna och 12 blå markeringar.</p></li><li><p>Förhållandet är \\(8:12\\).</p></li><li><div class=\"facit-berakning\"><p>Dividera båda leden med 4:</p><div class=\"facit-matte\">\\[8:12=2:3.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2:3.</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
     "miniräknare": false,
@@ -22796,7 +22806,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förhållandet mellan röda och vita kulor är 4:7. Hur stor del av alla kulor är röda? Svara som bråk i enklaste form.</p>",
+    "t": "<p>En låda innehåller endast röda och vita kulor. Förhållandet mellan dem är 4:7. Hur stor del av alla kulor är röda? Svara som bråk i enklaste form.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Totalt finns \\(4+7=11\\) lika stora delar.</p></li><li><p>De röda kulorna motsvarar 4 av delarna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac4{11}\\).</p></div>",
     "familj": "Dela i ett givet förhållande",
     "geogebra": false,
@@ -22828,7 +22838,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla förhållandet 18:30 så långt som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Både 18 och 30 är delbara med 6:</p><div class=\"facit-matte\">\\[18:30=3:5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3:5.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Både 18 och 30 är delbara med 6:</p><div class=\"facit-matte\">\\[18:30=3:5.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3:5.</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
     "miniräknare": false,
@@ -22863,7 +22873,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förhållandet mellan röda och blå pärlor är 5:8. Det finns sammanlagt 52 pärlor. Hur många är röda?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förhållandet består av \\(5+8=13\\) delar.</p></li><li><p>En del motsvarar \\(52/13=4\\) pärlor.</p></li><li><div class=\"facit-berakning\"><p>De röda är</p><div class=\"facit-matte\">\\[5\\cdot4=20\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 pärlor.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förhållandet består av \\(5+8=13\\) delar.</p></li><li><p>En del motsvarar \\(52/13=4\\) pärlor.</p></li><li><div class=\"facit-berakning\"><p>De röda är</p><div class=\"facit-matte\">\\[5\\cdot4=20.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 pärlor.</p></div>",
     "familj": "Dela i ett givet förhållande",
     "geogebra": false,
     "miniräknare": true,
@@ -22928,7 +22938,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Tre grupper A, B och C har storlekar i förhållandet 2:3:5. Tillsammans är de 200 personer. Hur många personer finns i grupp B?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Totalt är det \\(2+3+5=10\\) delar.</p></li><li><p>En del är \\(200/10=20\\) personer.</p></li><li><div class=\"facit-berakning\"><p>Grupp B är tre delar:</p><div class=\"facit-matte\">\\[3\\cdot20=60\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 personer.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Totalt är det \\(2+3+5=10\\) delar.</p></li><li><p>En del är \\(200/10=20\\) personer.</p></li><li><div class=\"facit-berakning\"><p>Grupp B är tre delar:</p><div class=\"facit-matte\">\\[3\\cdot20=60.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 personer.</p></div>",
     "familj": "Dela i ett givet förhållande",
     "geogebra": false,
     "miniräknare": true,
@@ -22959,7 +22969,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla förhållandet 1,2 m : 80 cm.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Skriv först båda längderna i samma enhet:</p><div class=\"facit-matte\">\\[1{,}2 m=120\\, \\mathrm{cm}\\]</div></div></li><li><div class=\"facit-berakning\"><p>Då blir förhållandet</p><div class=\"facit-matte\">\\[120:80=3:2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3:2.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv båda längderna i centimeter</p><div class=\"facit-matte\">\\[1{,}2\\,\\mathrm{m}=120\\,\\mathrm{cm}.\\]</div></li><li><p class=\"facit-rubrik\">Förkorta förhållandet med 40</p><div class=\"facit-matte\">\\[120:80=3:2.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3:2\\).</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
     "miniräknare": false,
@@ -22995,7 +23005,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En dryck ska ha förhållandet koncentrat : vatten = 1:4. Du har 3 dl koncentrat och 9 dl vatten. Hur många dl vatten måste du tillsätta för att få rätt förhållande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>3 dl koncentrat motsvarar tre delar.</p></li><li><p>Då ska vattnet vara \\(4\\cdot3=12\\) dl.</p></li><li><p>Det finns redan 9 dl, så du måste tillsätta \\(12-9=3\\) dl.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 dl vatten.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm hur stor en del är</p><p>I förhållandet 1:4 motsvarar koncentratet en del. Den delen är 3 dl.</p></li><li><p class=\"facit-rubrik\">Beräkna den totala mängden vatten</p><div class=\"facit-matte\">\\[4\\cdot3=12\\,\\mathrm{dl}.\\]</div></li><li><p class=\"facit-rubrik\">Dra bort vattnet som redan finns</p><div class=\"facit-matte\">\\[12-9=3\\,\\mathrm{dl}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,\\mathrm{dl}\\) vatten behöver tillsättas.</p></div>",
     "familj": "Förhållanden i problemlösning",
     "geogebra": false,
     "miniräknare": true,
@@ -23009,7 +23019,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Bestäm först hur mycket vatten som totalt behövs när koncentratet är 3 dl.</p>",
     "spel": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "svarFormat": "numeriskt",
     "svarEnhet": "dl"
@@ -23025,7 +23035,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Tre mängder A, B och C uppfyller \\(A:B=2:3\\) och \\(B:C=4:5\\). Bestäm förhållandet A:C i enklaste form.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gör B lika stort i båda förhållandena.</p></li><li><p>Minsta gemensamma multipel av 3 och 4 är 12.</p></li><li><p>\\(A:B=2:3=8:12\\) och \\(B:C=4:5=12:15\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[A:C=8:15\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8:15.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gör B lika stort i båda förhållandena.</p></li><li><p>Minsta gemensamma multipel av 3 och 4 är 12.</p></li><li><p>\\(A:B=2:3=8:12\\) och \\(B:C=4:5=12:15\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[A:C=8:15.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8:15.</p></div>",
     "familj": "Dela i ett givet förhållande",
     "geogebra": false,
     "miniräknare": false,
@@ -23061,7 +23071,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>I en grupp är förhållandet flickor : pojkar = 5:4. När 6 flickor lämnar gruppen blir det lika många flickor som pojkar. Hur många pojkar fanns det från början?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt en förhållandedel vara \\(x\\).</p></li><li><p>Från början finns \\(5x\\) flickor och \\(4x\\) pojkar.</p></li><li><p>När 6 flickor lämnar gäller \\(5x-6=4x\\), alltså \\(x=6\\).</p></li><li><div class=\"facit-berakning\"><p>Antalet pojkar är</p><div class=\"facit-matte\">\\[4\\cdot6=24\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 pojkar.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt en förhållandedel vara \\(x\\).</p></li><li><p>Från början finns \\(5x\\) flickor och \\(4x\\) pojkar.</p></li><li><p>När 6 flickor lämnar gäller \\(5x-6=4x\\), alltså \\(x=6\\).</p></li><li><div class=\"facit-berakning\"><p>Antalet pojkar är</p><div class=\"facit-matte\">\\[4\\cdot6=24.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 pojkar.</p></div>",
     "familj": "Förhållanden i problemlösning",
     "geogebra": false,
     "miniräknare": true,
@@ -23119,7 +23129,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Tabellen visar ett proportionellt samband.</p><table><tr><th>x</th><td>2</td><td>6</td></tr><tr><th>y</th><td>7</td><td>?</td></tr></table><p>Bestäm det saknade y-värdet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>När x tredubblas från 2 till 6 måste y också tredubblas:</p><div class=\"facit-matte\">\\[7\\cdot3=21\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>När x tredubblas från 2 till 6 måste y också tredubblas:</p><div class=\"facit-matte\">\\[7\\cdot3=21.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21.</p></div>",
     "familj": "Direkt proportionalitet",
     "geogebra": false,
     "miniräknare": true,

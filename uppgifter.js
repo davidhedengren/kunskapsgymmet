@@ -1200,16 +1200,16 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna procentuell osäkerhet",
     "poang": "(1/0/0)",
-    "t": "<p>En massa mäts till \\(50{,}0\\pm0{,}5\\ \\mathrm g\\). Hur stor är den procentuella osäkerheten?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dividera den absoluta osäkerheten med mätvärdet och multiplicera med 100 procent.</p><div class=\"facit-matte\">\\[\\frac{0{,}5}{50{,}0}\\cdot100\\%=1{,}0\\%\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\,\\%\\).</p></div>",
+    "t": "<p>En massa mäts till \\(45{,}0\\pm0{,}5\\ \\mathrm g\\). Hur stor är den procentuella osäkerheten?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dividera den absoluta osäkerheten med mätvärdet och multiplicera med 100 procent.</p><div class=\"facit-matte\">\\[\\frac{0{,}5}{45{,}0}\\cdot100\\%\\approx1{,}1\\%\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\,\\%\\).</p></div>",
     "familj": "Mätosäkerhet och felgränser",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "matnogg__relativ_och_procentuell_osakerhet",
     "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 0,
+    "rättSvar": 1.11111111111,
+    "tolerans": 0.0167,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -1476,8 +1476,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna procentuellt mätfel",
     "poang": "(1/0/0)",
-    "t": "<p>Ett referensvärde är \\(10{,}0\\ \\mathrm V\\), men ett instrument visar \\(9{,}8\\ \\mathrm V\\). Hur stort är felet i procent av referensvärdet?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Skillnaden är 0,2 V. Dividera skillnaden med referensvärdet och multiplicera med 100 procent.</p><div class=\"facit-matte\">\\[\\frac{|9{,}8-10{,}0|}{10{,}0}\\cdot100\\%=2{,}0\\%\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\,\\%\\).</p></div>",
+    "t": "<p>Ett referensvärde är \\(12{,}0\\ \\mathrm V\\), men ett instrument visar \\(11{,}7\\ \\mathrm V\\). Hur stort är felet i procent av referensvärdet?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Skillnaden är 0,3 V. Dividera skillnaden med referensvärdet och multiplicera med 100 procent.</p><div class=\"facit-matte\">\\[\\frac{|11{,}7-12{,}0|}{12{,}0}\\cdot100\\%=2{,}5\\%\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\,\\%\\).</p></div>",
     "familj": "Mätosäkerhet och felgränser",
     "formaga": [
       "begrepp",
@@ -1485,8 +1485,8 @@ window.BANK = [
     ],
     "familjNyckel": "matnogg__relativ_och_procentuell_osakerhet",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 2.5,
+    "tolerans": 0.0375,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -1715,16 +1715,16 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla kilometer per timme till meter per sekund",
     "poang": "(1/0/0)",
-    "t": "<p>En cyklist färdas med \\(72\\ \\mathrm{km/h}\\). Ange farten i \\(\\mathrm{m/s}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När km/h omvandlas till m/s kan siffervärdet delas med 3,6.</p><div class=\"facit-matte\">\\[v=\\frac{72}{3{,}6}=20\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{m/s}\\).</p></div>",
+    "t": "<p>En cyklist färdas med \\(63\\ \\mathrm{km/h}\\). Ange farten i \\(\\mathrm{m/s}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När km/h omvandlas till m/s kan siffervärdet delas med 3,6.</p><div class=\"facit-matte\">\\[v=\\frac{63}{3{,}6}=17{,}5\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}5\\ \\mathrm{m/s}\\).</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "enheter__enhetsomvandling",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0,
+    "rättSvar": 17.5,
+    "tolerans": 0.263,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -4839,8 +4839,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna densitet ur massa och volym och räkna om enheten, ur text, sökt densitet",
     "poang": "(2/0/0)",
-    "t": "<p>Ett metallföremål har massan 240 g och volymen 30 cm³.</p><ol><li>Bestäm densiteten i g/cm³.</li><li>Ange samma densitet i kg/m³.</li></ol>",
-    "s": "<p>a) ρ = 240/30 = 8,0 g/cm³.</p><p>b) 240/30 = 8,0 g/cm³. Eftersom 1 g/cm³ = 1000 kg/m³ blir densiteten 8000 kg/m³.</p>",
+    "t": "<p>Ett metallföremål har massan 267 g och volymen 30 cm³.</p><ol><li>Bestäm densiteten i g/cm³.</li><li>Ange samma densitet i kg/m³.</li></ol>",
+    "s": "<p>a) ρ = 267/30 = 8,9 g/cm³.</p><p>b) 267/30 = 8,9 g/cm³. Eftersom 1 g/cm³ = 1000 kg/m³ blir densiteten 8900 kg/m³.</p>",
     "familj": "Massa, volym och densitet",
     "formaga": [
       "procedur"
@@ -4848,11 +4848,11 @@ window.BANK = [
     "familjNyckel": "densitet__massa_volym_och_densitet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      8,
-      8000
+      8.9,
+      8900
     ],
     "tolerans": [
-      0,
+      0.134,
       0
     ],
     "självrättning": true,
@@ -4877,13 +4877,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett metallföremål har massan 240 g och volymen 30 cm³.</p>",
+    "spelIntro": "<p>Ett metallföremål har massan 267 g och volymen 30 cm³.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm densiteten i g/cm³.",
-        "t": "<p>Ett metallföremål har massan 240 g och volymen 30 cm³.</p><p>Bestäm densiteten i g/cm³.</p>",
-        "s": "<p>ρ = 240/30 = 8,0 g/cm³.</p>",
+        "t": "<p>Ett metallföremål har massan 267 g och volymen 30 cm³.</p><p>Bestäm densiteten i g/cm³.</p>",
+        "s": "<p>ρ = 267/30 = 8,9 g/cm³.</p>",
         "ledtrad": "<p>Densiteten anger hur stor massa varje kubikcentimeter har.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -4893,8 +4893,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm densiteten i kg/m³.",
-        "t": "<p>Ett metallföremål har massan 240 g och volymen 30 cm³.</p><p>Bestäm densiteten i kg/m³.</p>",
-        "s": "<p>240/30 = 8,0 g/cm³. Eftersom 1 g/cm³ = 1000 kg/m³ blir densiteten 8000 kg/m³.</p>",
+        "t": "<p>Ett metallföremål har massan 267 g och volymen 30 cm³.</p><p>Bestäm densiteten i kg/m³.</p>",
+        "s": "<p>267/30 = 8,9 g/cm³. Eftersom 1 g/cm³ = 1000 kg/m³ blir densiteten 8900 kg/m³.</p>",
         "ledtrad": "<p>Densiteten anger hur stor massa varje kubikcentimeter har.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -6227,16 +6227,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestäm fysisk storlek från upplösning och längd",
     "poang": "(1/0/0)",
-    "t": "<p>En kamerasensor är \\(36{,}0\\ \\mathrm{mm}\\) bred och har 6000 bildpunkter längs bredden. Anta att bildpunkterna ligger kant i kant. Hur bred är en bildpunkt i mikrometer?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dela sensorbredden med antalet bildpunkter och omvandla sedan millimeter till mikrometer.</p><div class=\"facit-matte\">\\[d=\\frac{36{,}0}{6000}=0{,}00600\\ \\mathrm{mm}=6{,}00\\ \\mu\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}00\\ \\mu\\mathrm m\\).</p></div>",
+    "t": "<p>En kamerasensor är \\(23{,}5\\ \\mathrm{mm}\\) bred och har 6000 bildpunkter längs bredden. Anta att bildpunkterna ligger kant i kant. Hur bred är en bildpunkt i mikrometer?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dela sensorbredden med antalet bildpunkter och omvandla sedan millimeter till mikrometer.</p><div class=\"facit-matte\">\\[d=\\frac{23{,}5}{6000}\\approx0{,}00392\\ \\mathrm{mm}=3{,}92\\ \\mu\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}92\\ \\mu\\mathrm m\\).</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "enheter__enhetsomvandling",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 3.91666666667,
+    "tolerans": 0.0587,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -8334,16 +8334,16 @@ window.BANK = [
     "niva": "C",
     "typ": "Ett slutet föremål består av titan och ett hålrum med försumbar massa. Massan är 90,2 g och yttervolymen 30,0 cm³. Titanets densitet är 4,51 g/cm³. Bestäm hålrummets volym.",
     "poang": "(0/2/0)",
-    "t": "<p>Ett titanföremål har massan 90,2 g och hela föremålets yttre volym är 30,0 cm³. Inuti finns ett luftfyllt hålrum. Titanets densitet är 4,51 g/cm³.</p><p>Bestäm hålrummets volym.</p>",
-    "s": "<p>Titanet upptar 90,2/4,51 = 20,0 cm³. Hålrummets volym är 30,0 − 20,0 = 10,0 cm³.</p>",
+    "t": "<p>Ett titanföremål har massan 88,0 g och hela föremålets yttre volym är 30,0 cm³. Inuti finns ett luftfyllt hålrum. Titanets densitet är 4,51 g/cm³.</p><p>Bestäm hålrummets volym.</p>",
+    "s": "<p>Titanet upptar 88,0/4,51 ≈ 19,5 cm³. Hålrummets volym är 30,0 − 19,5 ≈ 10,5 cm³.</p>",
     "familj": "Densitet, flytförmåga och modeller",
     "familjNyckel": "densitet__begrepp_och_modellering",
     "formaga": [
       "problemlösning"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0,
+    "rättSvar": 10.487804878,
+    "tolerans": 0.157,
     "självrättning": true,
     "ledtrad": "<p>Hur stor volym upptar 90,2 g titan? Resten av den yttre volymen är hålrummet.</p>",
     "traningsniva": 3,
@@ -9093,16 +9093,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma medeldensitet för två vätskor med lika stor volym",
     "poang": "(2/0/0)",
-    "t": "<p>Du blandar 150 cm³ av en vätska med densiteten 1,20 g/cm³ med 150 cm³ av en annan vätska med densiteten 0,80 g/cm³. Anta att den totala volymen är 300 cm³. Bestäm blandningens densitet.</p><p>Ange svaret i g/cm³. Avrunda inte.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Beräkna först varje vätskas massa och dividera sedan den totala massan med den totala volymen.</p><div class=\"facit-matte\">\\[m_1 = 1{,}20\\cdot 150 = 180\\ \\mathrm{g}\\]</div><div class=\"facit-matte\">\\[m_2 = 0{,}80\\cdot 150 = 120\\ \\mathrm{g}\\]</div><div class=\"facit-matte\">\\[\\rho_\\text{blandning}=\\frac{180+120}{150+150}=1{,}00\\ \\mathrm{g/cm^3}\\]</div><p>Svar: 1 g/cm³.</p></div>",
+    "t": "<p>Du blandar 180 cm³ av en vätska med densiteten 1,20 g/cm³ med 120 cm³ av en annan vätska med densiteten 0,80 g/cm³. Anta att den totala volymen är 300 cm³. Bestäm blandningens densitet.</p><p>Ange svaret i g/cm³. Avrunda inte.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Beräkna först varje vätskas massa och dividera sedan den totala massan med den totala volymen.</p><div class=\"facit-matte\">\\[m_1 = 1{,}20\\cdot 180 = 216\\ \\mathrm{g}\\]</div><div class=\"facit-matte\">\\[m_2 = 0{,}80\\cdot 120 = 96\\ \\mathrm{g}\\]</div><div class=\"facit-matte\">\\[\\rho_\\text{blandning}=\\frac{216+96}{180+120}=1{,}04\\ \\mathrm{g/cm^3}\\]</div><p>Svar: 1,04 g/cm³.</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "familjNyckel": "densitet__sammansatt_densitet_och_ihaliga_foremal",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 0,
+    "rättSvar": 1.04,
+    "tolerans": 0.0156,
     "självrättning": true,
     "familjNyckelTidigare": "densitet__sammansatt_densitet",
     "ledtrad": "<p>Vilken massa bidrar varje vätska med?</p>",
@@ -9962,16 +9962,16 @@ window.BANK = [
     "niva": "C",
     "typ": "beräkna medelhastighet för en tur och retur med olika fart, ur text, sökt tid och hastighet",
     "poang": "(0/2/0)",
-    "t": "<p>En cyklist cyklar 2,0 km uppför en backe med farten 10 km/h och sedan samma väg tillbaka med 30 km/h. Bestäm medelfarten för hela turen i km/h.</p>",
-    "s": "<p>Tiden uppför är 2/10 h och tiden nedför 2/30 h. Medelfarten är 4/(2/10 + 2/30) = 15 km/h. Den långsammare delen tar mer tid; det vanliga medelvärdet 20 km/h blir därför fel.</p>",
+    "t": "<p>En cyklist cyklar 2,0 km uppför en backe med farten 12 km/h och sedan samma väg tillbaka med 28 km/h. Bestäm medelfarten för hela turen i km/h.</p>",
+    "s": "<p>Tiden uppför är 2/12 h och tiden nedför 2/28 h. Medelfarten är 4/(2/12 + 2/28) = 16,8 km/h. Den långsammare delen tar mer tid; det vanliga medelvärdet 20 km/h blir därför fel.</p>",
     "familj": "Medelhastighet och medelfart",
     "formaga": [
       "problemlösning"
     ],
     "familjNyckel": "hastighet__medelhastighet",
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": 0,
+    "rättSvar": 16.8,
+    "tolerans": 0.252,
     "självrättning": true,
     "ledtrad": "<p>Tar uppförs- och nedförssträckan lika lång tid?</p>",
     "traningsniva": 3,
@@ -11333,8 +11333,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna fart och sträcka vid likformig acceleration från vila, ur text, sökt fart och sträcka",
     "poang": "(2/0/0)",
-    "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><ol><li>Bestäm farten efter 2,5 s i m/s.</li><li>Bestäm sträckan under 2,5 s i m.</li></ol>",
-    "s": "<p>a) v = 1,2 · 2,5 = 3,0 m/s.</p><p>b) s = 1,2 · 2,5²/2 = 3,75 m.</p>",
+    "t": "<p>En simmare startar från vila och accelererar likformigt med 1,4 m/s² under 3,5 sekunder.</p><ol><li>Bestäm farten efter 3,5 s i m/s.</li><li>Bestäm sträckan under 3,5 s i m.</li></ol>",
+    "s": "<p>a) v = 1,4 · 3,5 = 4,9 m/s.</p><p>b) s = 1,4 · 3,5²/2 ≈ 8,58 m.</p>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -11342,12 +11342,12 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3,
-      3.75
+      4.9,
+      8.575
     ],
     "tolerans": [
-      0,
-      0
+      0.0735,
+      0.129
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -11376,13 +11376,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p>",
+    "spelIntro": "<p>En simmare startar från vila och accelererar likformigt med 1,4 m/s² under 3,5 sekunder.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm farten efter 2,5 s i m/s.",
-        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><p>Bestäm farten efter 2,5 s i m/s.</p>",
-        "s": "<p>v = 1,2 · 2,5 = 3,0 m/s.</p>",
+        "fraga": "Bestäm farten efter 3,5 s i m/s.",
+        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,4 m/s² under 3,5 sekunder.</p><p>Bestäm farten efter 3,5 s i m/s.</p>",
+        "s": "<p>v = 1,4 · 3,5 = 4,9 m/s.</p>",
         "ledtrad": "<p>Simmaren startar från vila. Leta upp sambanden för rörelse med konstant acceleration i formelsamlingen.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -11391,9 +11391,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm sträckan under 2,5 s i m.",
-        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><p>Bestäm sträckan under 2,5 s i m.</p>",
-        "s": "<p>s = 1,2 · 2,5²/2 = 3,75 m.</p>",
+        "fraga": "Bestäm sträckan under 3,5 s i m.",
+        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,4 m/s² under 3,5 sekunder.</p><p>Bestäm sträckan under 3,5 s i m.</p>",
+        "s": "<p>s = 1,4 · 3,5²/2 ≈ 8,58 m.</p>",
         "ledtrad": "<p>Simmaren startar från vila. Leta upp sambanden för rörelse med konstant acceleration i formelsamlingen.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -12502,8 +12502,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna sträckan vid konstant acceleration för tre olika fall, ur tabell, sökt sträcka",
     "poang": "(3/0/0)",
-    "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><ol><li>Beräkna förflyttningen i m om v₀ = 0, a = 2 m/s² och t = 3 s.</li><li>Beräkna förflyttningen i m om v₀ = 5 m/s, a = 0 och t = 4 s.</li><li>Beräkna förflyttningen i m om v₀ = 10 m/s, a = −2 m/s² och t = 3 s.</li></ol>",
-    "s": "<p>a) Δx = 0 · 3 + 2 · 3²/2 = 9 m.</p><p>b) Δx = 5 · 4 + 0 = 20 m. Noll acceleration betyder här konstant fart 5 m/s.</p><p>c) Δx = 10 · 3 − 2 · 3²/2 = 21 m. Hastigheten är fortfarande positiv efter 3 s.</p>",
+    "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><ol><li>Beräkna förflyttningen i m om v₀ = 0, a = 2,4 m/s² och t = 3,5 s.</li><li>Beräkna förflyttningen i m om v₀ = 6,5 m/s, a = 0 och t = 4,2 s.</li><li>Beräkna förflyttningen i m om v₀ = 11 m/s, a = −1,6 m/s² och t = 3,5 s.</li></ol>",
+    "s": "<p>a) Δx = 0 · 3,5 + 2,4 · 3,5²/2 = 14,7 m.</p><p>b) Δx = 6,5 · 4,2 + 0 = 27,3 m. Noll acceleration betyder här konstant fart 6,5 m/s.</p><p>c) Δx = 11 · 3,5 − 1,6 · 3,5²/2 = 28,7 m. Hastigheten är fortfarande positiv efter 3,5 s.</p>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -12511,14 +12511,14 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      9,
-      20,
-      21
+      14.7,
+      27.3,
+      28.7
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.22,
+      0.409,
+      0.43
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -12554,9 +12554,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna förflyttningen i m om v₀ = 0, a = 2 m/s² och t = 3 s.",
-        "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><p>Beräkna förflyttningen i m om v₀ = 0, a = 2 m/s² och t = 3 s.</p>",
-        "s": "<p>Δx = 0 · 3 + 2 · 3²/2 = 9 m.</p>",
+        "fraga": "Beräkna förflyttningen i m om v₀ = 0, a = 2,4 m/s² och t = 3,5 s.",
+        "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><p>Beräkna förflyttningen i m om v₀ = 0, a = 2,4 m/s² och t = 3,5 s.</p>",
+        "s": "<p>Δx = 0 · 3,5 + 2,4 · 3,5²/2 = 14,7 m.</p>",
         "ledtrad": "<p>Vilket samband i formelsamlingen innehåller startfart, acceleration, tid och förflyttning?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -12565,9 +12565,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna förflyttningen i m om v₀ = 5 m/s, a = 0 och t = 4 s.",
-        "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><p>Beräkna förflyttningen i m om v₀ = 5 m/s, a = 0 och t = 4 s.</p>",
-        "s": "<p>Δx = 5 · 4 + 0 = 20 m. Noll acceleration betyder här konstant fart 5 m/s.</p>",
+        "fraga": "Beräkna förflyttningen i m om v₀ = 6,5 m/s, a = 0 och t = 4,2 s.",
+        "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><p>Beräkna förflyttningen i m om v₀ = 6,5 m/s, a = 0 och t = 4,2 s.</p>",
+        "s": "<p>Δx = 6,5 · 4,2 + 0 = 27,3 m. Noll acceleration betyder här konstant fart 6,5 m/s.</p>",
         "ledtrad": "<p>Vilket samband i formelsamlingen innehåller startfart, acceleration, tid och förflyttning?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -12576,9 +12576,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Beräkna förflyttningen i m om v₀ = 10 m/s, a = −2 m/s² och t = 3 s.",
-        "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><p>Beräkna förflyttningen i m om v₀ = 10 m/s, a = −2 m/s² och t = 3 s.</p>",
-        "s": "<p>Δx = 10 · 3 − 2 · 3²/2 = 21 m. Hastigheten är fortfarande positiv efter 3 s.</p>",
+        "fraga": "Beräkna förflyttningen i m om v₀ = 11 m/s, a = −1,6 m/s² och t = 3,5 s.",
+        "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><p>Beräkna förflyttningen i m om v₀ = 11 m/s, a = −1,6 m/s² och t = 3,5 s.</p>",
+        "s": "<p>Δx = 11 · 3,5 − 1,6 · 3,5²/2 = 28,7 m. Hastigheten är fortfarande positiv efter 3,5 s.</p>",
         "ledtrad": "<p>Vilket samband i formelsamlingen innehåller startfart, acceleration, tid och förflyttning?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -13005,8 +13005,8 @@ window.BANK = [
     "omr": "konstacc",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En bil accelererar med konstant acceleration från stillastående till 60 km/h. Under accelerationen kör bilen 50 meter.</p><ol><li>Bestäm accelerationen i m/s² med två decimaler.</li><li>Bestäm accelerationstiden i s.</li></ol>",
-    "s": "<p>a) Slutfarten är 60/3,6 m/s. a = v²/(2s) = (60/3,6)²/100 ≈ 2,78 m/s².</p><p>b) Medelfarten är hälften av slutfarten. Tiden är 50/[(60/3,6)/2] = 6 s.</p>",
+    "t": "<p>En bil accelererar med konstant acceleration från stillastående till 70 km/h. Under accelerationen kör bilen 55 meter.</p><ol><li>Bestäm accelerationen i m/s² med två decimaler.</li><li>Bestäm accelerationstiden i s.</li></ol>",
+    "s": "<p>a) Slutfarten är 70/3,6 m/s. a = v²/(2s) = (70/3,6)²/110 ≈ 3,44 m/s².</p><p>b) Medelfarten är hälften av slutfarten. Tiden är 55/[(70/3,6)/2] ≈ 5,66 s.</p>",
     "familj": "Tidlösa formeln",
     "formaga": [
       "procedur"
@@ -13014,12 +13014,12 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2.78,
-      6
+      3.44,
+      5.65714285714
     ],
     "tolerans": [
       0,
-      0
+      0.0849
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -13048,13 +13048,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bil accelererar med konstant acceleration från stillastående till 60 km/h. Under accelerationen kör bilen 50 meter.</p>",
+    "spelIntro": "<p>En bil accelererar med konstant acceleration från stillastående till 70 km/h. Under accelerationen kör bilen 55 meter.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen i m/s² med två decimaler.",
-        "t": "<p>En bil accelererar med konstant acceleration från stillastående till 60 km/h. Under accelerationen kör bilen 50 meter.</p><p>Bestäm accelerationen i m/s² med två decimaler.</p>",
-        "s": "<p>Slutfarten är 60/3,6 m/s. a = v²/(2s) = (60/3,6)²/100 ≈ 2,78 m/s².</p>",
+        "t": "<p>En bil accelererar med konstant acceleration från stillastående till 70 km/h. Under accelerationen kör bilen 55 meter.</p><p>Bestäm accelerationen i m/s² med två decimaler.</p>",
+        "s": "<p>Slutfarten är 70/3,6 m/s. a = v²/(2s) = (70/3,6)²/110 ≈ 3,44 m/s².</p>",
         "ledtrad": "<p>Vilket rörelsesamband kan användas när tiden inte är given?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -13064,8 +13064,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm accelerationstiden i s.",
-        "t": "<p>En bil accelererar med konstant acceleration från stillastående till 60 km/h. Under accelerationen kör bilen 50 meter.</p><p>Bestäm accelerationstiden i s.</p>",
-        "s": "<p>Medelfarten är hälften av slutfarten. Tiden är 50/[(60/3,6)/2] = 6 s.</p>",
+        "t": "<p>En bil accelererar med konstant acceleration från stillastående till 70 km/h. Under accelerationen kör bilen 55 meter.</p><p>Bestäm accelerationstiden i s.</p>",
+        "s": "<p>Medelfarten är hälften av slutfarten. Tiden är 55/[(70/3,6)/2] ≈ 5,66 s.</p>",
         "ledtrad": "<p>Vilket rörelsesamband kan användas när tiden inte är given?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -13279,8 +13279,8 @@ window.BANK = [
     "omr": "medelhastighet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En person går 30 m österut och därefter 10 m västerut längs samma raka gång. Hela förloppet tar 20 s. Österut är positiv riktning.</p><ol><li>Bestäm medelfarten i m/s.</li><li>Bestäm medelhastigheten i m/s med tecken.</li></ol>",
-    "s": "<p>a) Vägsträckan är 30 + 10 = 40 m. Medelfarten är 40/20 = 2,0 m/s.</p><p>b) Förflyttningen är 30 − 10 = +20 m. Medelhastigheten är 20/20 = +1,0 m/s.</p>",
+    "t": "<p>En person går 32 m österut och därefter 14 m västerut längs samma raka gång. Hela förloppet tar 24 s. Österut är positiv riktning.</p><ol><li>Bestäm medelfarten i m/s.</li><li>Bestäm medelhastigheten i m/s med tecken.</li></ol>",
+    "s": "<p>a) Vägsträckan är 32 + 14 = 46 m. Medelfarten är 46/24 ≈ 1,92 m/s.</p><p>b) Förflyttningen är 32 − 14 = +18 m. Medelhastigheten är 18/24 = +0,75 m/s.</p>",
     "familj": "Medelhastighet och medelfart",
     "formaga": [
       "begrepp",
@@ -13289,12 +13289,12 @@ window.BANK = [
     "familjNyckel": "hastighet__51_fart_och_hastighet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2,
-      1
+      1.91666666667,
+      0.75
     ],
     "tolerans": [
-      0,
-      0
+      0.0288,
+      0.0112
     ],
     "självrättning": true,
     "ledtrad": "<p>Markera först slutläget på en tallinje. Räkna sedan hela vägsträckan separat.</p>",
@@ -13315,13 +13315,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En person går 30 m österut och därefter 10 m västerut längs samma raka gång. Hela förloppet tar 20 s. Österut är positiv riktning.</p>",
+    "spelIntro": "<p>En person går 32 m österut och därefter 14 m västerut längs samma raka gång. Hela förloppet tar 24 s. Österut är positiv riktning.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm medelfarten i m/s.",
-        "t": "<p>En person går 30 m österut och därefter 10 m västerut längs samma raka gång. Hela förloppet tar 20 s. Österut är positiv riktning.</p><p>Bestäm medelfarten i m/s.</p>",
-        "s": "<p>Vägsträckan är 30 + 10 = 40 m. Medelfarten är 40/20 = 2,0 m/s.</p>",
+        "t": "<p>En person går 32 m österut och därefter 14 m västerut längs samma raka gång. Hela förloppet tar 24 s. Österut är positiv riktning.</p><p>Bestäm medelfarten i m/s.</p>",
+        "s": "<p>Vägsträckan är 32 + 14 = 46 m. Medelfarten är 46/24 ≈ 1,92 m/s.</p>",
         "ledtrad": "<p>Markera först slutläget på en tallinje. Räkna sedan hela vägsträckan separat.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -13331,8 +13331,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm medelhastigheten i m/s med tecken.",
-        "t": "<p>En person går 30 m österut och därefter 10 m västerut längs samma raka gång. Hela förloppet tar 20 s. Österut är positiv riktning.</p><p>Bestäm medelhastigheten i m/s med tecken.</p>",
-        "s": "<p>Förflyttningen är 30 − 10 = +20 m. Medelhastigheten är 20/20 = +1,0 m/s.</p>",
+        "t": "<p>En person går 32 m österut och därefter 14 m västerut längs samma raka gång. Hela förloppet tar 24 s. Österut är positiv riktning.</p><p>Bestäm medelhastigheten i m/s med tecken.</p>",
+        "s": "<p>Förflyttningen är 32 − 14 = +18 m. Medelhastigheten är 18/24 = +0,75 m/s.</p>",
         "ledtrad": "<p>Markera först slutläget på en tallinje. Räkna sedan hela vägsträckan separat.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -13489,8 +13489,8 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa sambandet mellan sträcka fart och tid i tre riktningar, ur tabell, sökt sträcka fart och tid",
     "poang": "(3/0/0)",
-    "t": "<p>Tre föremål rör sig med konstant fart.</p><ol><li>En cyklist kör med 12 m/s i 25 s. Hur långt hinner cyklisten?</li><li>Ett tåg färdas 450 m på 30 s. Bestäm tågets fart i m/s.</li><li>En båt färdas 800 m med farten 16 m/s. Hur lång tid tar färden?</li></ol>",
-    "s": "<p>a) s = 12 · 25 = 300 m.</p><p>b) v = 450/30 = 15 m/s.</p><p>c) t = 800/16 = 50 s.</p>",
+    "t": "<p>Tre föremål rör sig med konstant fart.</p><ol><li>En cyklist kör med 11,5 m/s i 32 s. Hur långt hinner cyklisten?</li><li>Ett tåg färdas 470 m på 32 s. Bestäm tågets fart i m/s.</li><li>En båt färdas 820 m med farten 15 m/s. Hur lång tid tar färden?</li></ol>",
+    "s": "<p>a) s = 11,5 · 32 = 368 m.</p><p>b) v = 470/32 ≈ 14,7 m/s.</p><p>c) t = 820/15 ≈ 54,7 s.</p>",
     "familj": "Sträcka, tid och fart",
     "formaga": [
       "procedur"
@@ -13498,14 +13498,14 @@ window.BANK = [
     "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      300,
-      15,
-      50
+      368,
+      14.6875,
+      54.6666666667
     ],
     "tolerans": [
       0,
-      0,
-      0
+      0.22,
+      0.82
     ],
     "självrättning": true,
     "familjNyckelTidigare": "hastighet__likformig_rorelse",
@@ -13539,9 +13539,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En cyklist kör med 12 m/s i 25 s. Hur långt hinner cyklisten?",
-        "t": "<p>En cyklist kör med 12 m/s i 25 s. Hur långt hinner cyklisten?</p>",
-        "s": "<p>s = 12 · 25 = 300 m.</p>",
+        "fraga": "En cyklist kör med 11,5 m/s i 32 s. Hur långt hinner cyklisten?",
+        "t": "<p>En cyklist kör med 11,5 m/s i 32 s. Hur långt hinner cyklisten?</p>",
+        "s": "<p>s = 11,5 · 32 = 368 m.</p>",
         "ledtrad": "<p>Fundera på sambandet mellan sträcka, fart och tid. Vilken storhet söker du i varje del?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -13550,9 +13550,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett tåg färdas 450 m på 30 s. Bestäm tågets fart i m/s.",
-        "t": "<p>Ett tåg färdas 450 m på 30 s. Bestäm tågets fart i m/s.</p>",
-        "s": "<p>v = 450/30 = 15 m/s.</p>",
+        "fraga": "Ett tåg färdas 470 m på 32 s. Bestäm tågets fart i m/s.",
+        "t": "<p>Ett tåg färdas 470 m på 32 s. Bestäm tågets fart i m/s.</p>",
+        "s": "<p>v = 470/32 ≈ 14,7 m/s.</p>",
         "ledtrad": "<p>Fundera på sambandet mellan sträcka, fart och tid. Vilken storhet söker du i varje del?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -13561,9 +13561,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En båt färdas 800 m med farten 16 m/s. Hur lång tid tar färden?",
-        "t": "<p>En båt färdas 800 m med farten 16 m/s. Hur lång tid tar färden?</p>",
-        "s": "<p>t = 800/16 = 50 s.</p>",
+        "fraga": "En båt färdas 820 m med farten 15 m/s. Hur lång tid tar färden?",
+        "t": "<p>En båt färdas 820 m med farten 15 m/s. Hur lång tid tar färden?</p>",
+        "s": "<p>t = 820/15 ≈ 54,7 s.</p>",
         "ledtrad": "<p>Fundera på sambandet mellan sträcka, fart och tid. Vilken storhet söker du i varje del?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -14207,16 +14207,16 @@ window.BANK = [
     "niva": "E",
     "typ": "visa två ekvivalenta metoder för medelhastighet vid konstant acceleration",
     "poang": "(2/0/0)",
-    "t": "<p>En bil har farten 12 m/s och accelererar konstant med 2 m/s² under 4 s i färdriktningen. Bestäm medelfarten under intervallet i m/s.</p>",
-    "s": "<p>Slutfarten är 12 + 2 · 4 = 20 m/s. Vid konstant acceleration är medelfarten (12 + 20)/2 = 16 m/s.</p>",
+    "t": "<p>En bil har farten 13 m/s och accelererar konstant med 1,8 m/s² under 4,5 s i färdriktningen. Bestäm medelfarten under intervallet i m/s.</p>",
+    "s": "<p>Slutfarten är 13 + 1,8 · 4,5 = 21,1 m/s. Vid konstant acceleration är medelfarten (13 + 21,1)/2 ≈ 17,1 m/s.</p>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": 0,
+    "rättSvar": 17.05,
+    "tolerans": 0.256,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -14453,8 +14453,8 @@ window.BANK = [
     "omr": "konstacc",
     "niva": "E",
     "poang": "(4/0/0)",
-    "t": "<p>En hiss startar från vila, accelererar med 0,80 m/s² tills den når 2,0 m/s, håller den farten i 4,0 s och bromsar sedan till vila med retardationen 0,80 m/s².</p><ol><li>Bestäm accelerationsfasens tid i s.</li><li>Bestäm sträckan under accelerationsfasen i m.</li><li>Bestäm hela färdsträckan i m.</li><li>Bestäm hela färdtiden i s.</li></ol>",
-    "s": "<p>a) t = 2/0,80 = 2,5 s.</p><p>b) s = 2²/(2 · 0,80) = 2,5 m.</p><p>c) Accelerationen och bromsningen ger vardera 2,5 m. Konstantfartsdelen ger 2 · 4 = 8 m. Totalt 13 m.</p><p>d) Start och bromsning tar vardera 2,5 s. Totalt 2,5 + 4 + 2,5 = 9 s.</p>",
+    "t": "<p>En hiss startar från vila, accelererar med 0,70 m/s² tills den når 2,6 m/s, håller den farten i 5,0 s och bromsar sedan till vila med retardationen 0,70 m/s².</p><ol><li>Bestäm accelerationsfasens tid i s.</li><li>Bestäm sträckan under accelerationsfasen i m.</li><li>Bestäm hela färdsträckan i m.</li><li>Bestäm hela färdtiden i s.</li></ol>",
+    "s": "<p>a) t = 2,6/0,70 ≈ 3,71 s.</p><p>b) s = 2,6²/(2 · 0,70) ≈ 4,83 m.</p><p>c) Accelerationen och bromsningen ger vardera 4,83 m. Konstantfartsdelen ger 2,6 · 5 = 13 m. Totalt ≈ 22,7 m.</p><p>d) Start och bromsning tar vardera 3,71 s. Totalt 3,71 + 5 + 3,71 ≈ 12,4 s.</p>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -14462,16 +14462,16 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2.5,
-      2.5,
-      13,
-      9
+      3.71428571429,
+      4.82857142857,
+      22.6571428571,
+      12.4285714286
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.0557,
+      0.0724,
+      0.34,
+      0.186
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -14506,13 +14506,13 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En hiss startar från vila, accelererar med 0,80 m/s² tills den når 2,0 m/s, håller den farten i 4,0 s och bromsar sedan till vila med retardationen 0,80 m/s².</p>",
+    "spelIntro": "<p>En hiss startar från vila, accelererar med 0,70 m/s² tills den når 2,6 m/s, håller den farten i 5,0 s och bromsar sedan till vila med retardationen 0,70 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationsfasens tid i s.",
-        "t": "<p>En hiss startar från vila, accelererar med 0,80 m/s² tills den når 2,0 m/s, håller den farten i 4,0 s och bromsar sedan till vila med retardationen 0,80 m/s².</p><p>Bestäm accelerationsfasens tid i s.</p>",
-        "s": "<p>t = 2/0,80 = 2,5 s.</p>",
+        "t": "<p>En hiss startar från vila, accelererar med 0,70 m/s² tills den når 2,6 m/s, håller den farten i 5,0 s och bromsar sedan till vila med retardationen 0,70 m/s².</p><p>Bestäm accelerationsfasens tid i s.</p>",
+        "s": "<p>t = 2,6/0,70 ≈ 3,71 s.</p>",
         "ledtrad": "<p>Inbromsningen har samma fartändring och lika stor acceleration som starten.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -14522,8 +14522,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm sträckan under accelerationsfasen i m.",
-        "t": "<p>En hiss startar från vila, accelererar med 0,80 m/s² tills den når 2,0 m/s, håller den farten i 4,0 s och bromsar sedan till vila med retardationen 0,80 m/s².</p><p>Bestäm sträckan under accelerationsfasen i m.</p>",
-        "s": "<p>s = 2²/(2 · 0,80) = 2,5 m.</p>",
+        "t": "<p>En hiss startar från vila, accelererar med 0,70 m/s² tills den når 2,6 m/s, håller den farten i 5,0 s och bromsar sedan till vila med retardationen 0,70 m/s².</p><p>Bestäm sträckan under accelerationsfasen i m.</p>",
+        "s": "<p>s = 2,6²/(2 · 0,70) ≈ 4,83 m.</p>",
         "ledtrad": "<p>Inbromsningen har samma fartändring och lika stor acceleration som starten.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -14533,8 +14533,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm hela färdsträckan i m.",
-        "t": "<p>En hiss startar från vila, accelererar med 0,80 m/s² tills den når 2,0 m/s, håller den farten i 4,0 s och bromsar sedan till vila med retardationen 0,80 m/s².</p><p>Bestäm hela färdsträckan i m.</p>",
-        "s": "<p>Accelerationen och bromsningen ger vardera 2,5 m. Konstantfartsdelen ger 2 · 4 = 8 m. Totalt 13 m.</p>",
+        "t": "<p>En hiss startar från vila, accelererar med 0,70 m/s² tills den når 2,6 m/s, håller den farten i 5,0 s och bromsar sedan till vila med retardationen 0,70 m/s².</p><p>Bestäm hela färdsträckan i m.</p>",
+        "s": "<p>Accelerationen och bromsningen ger vardera 4,83 m. Konstantfartsdelen ger 2,6 · 5 = 13 m. Totalt ≈ 22,7 m.</p>",
         "ledtrad": "<p>Inbromsningen har samma fartändring och lika stor acceleration som starten.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -14544,8 +14544,8 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Bestäm hela färdtiden i s.",
-        "t": "<p>En hiss startar från vila, accelererar med 0,80 m/s² tills den når 2,0 m/s, håller den farten i 4,0 s och bromsar sedan till vila med retardationen 0,80 m/s².</p><p>Bestäm hela färdtiden i s.</p>",
-        "s": "<p>Start och bromsning tar vardera 2,5 s. Totalt 2,5 + 4 + 2,5 = 9 s.</p>",
+        "t": "<p>En hiss startar från vila, accelererar med 0,70 m/s² tills den når 2,6 m/s, håller den farten i 5,0 s och bromsar sedan till vila med retardationen 0,70 m/s².</p><p>Bestäm hela färdtiden i s.</p>",
+        "s": "<p>Start och bromsning tar vardera 3,71 s. Totalt 3,71 + 5 + 3,71 ≈ 12,4 s.</p>",
         "ledtrad": "<p>Inbromsningen har samma fartändring och lika stor acceleration som starten.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -15289,8 +15289,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna bromssträcka och bromstid ur begynnelsefart och retardation, ur text, sökt sträcka och tid",
     "poang": "(2/0/0)",
-    "t": "<p>En cyklist håller farten 8,0 m/s och bromsar med den konstanta retardationen 2,0 m/s².</p><ol><li>Bestäm bromstiden i s.</li><li>Bestäm bromssträckan i m.</li></ol>",
-    "s": "<p>a) 0 = 8 − 2t ger t = 4 s.</p><p>b) Medelfarten är (8 + 0)/2 = 4 m/s. Sträckan blir 4 · 4 = 16 m.</p>",
+    "t": "<p>En cyklist håller farten 7,5 m/s och bromsar med den konstanta retardationen 1,8 m/s².</p><ol><li>Bestäm bromstiden i s.</li><li>Bestäm bromssträckan i m.</li></ol>",
+    "s": "<p>a) 0 = 7,5 − 1,8t ger t ≈ 4,17 s.</p><p>b) Medelfarten är (7,5 + 0)/2 = 3,75 m/s. Sträckan blir 3,75 · 4,17 ≈ 15,6 m.</p>",
     "familj": "Reaktions- och bromssträcka",
     "formaga": [
       "procedur"
@@ -15298,12 +15298,12 @@ window.BANK = [
     "familjNyckel": "konstacc__reaktions_och_bromsstracka",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4,
-      16
+      4.16666666667,
+      15.625
     ],
     "tolerans": [
-      0,
-      0
+      0.0625,
+      0.234
     ],
     "självrättning": true,
     "ledtrad": "<p>Beräkningen börjar när bromsningen börjar; någon reaktionstid ska inte läggas till.</p>",
@@ -15326,13 +15326,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En cyklist håller farten 8,0 m/s och bromsar med den konstanta retardationen 2,0 m/s².</p>",
+    "spelIntro": "<p>En cyklist håller farten 7,5 m/s och bromsar med den konstanta retardationen 1,8 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm bromstiden i s.",
-        "t": "<p>En cyklist håller farten 8,0 m/s och bromsar med den konstanta retardationen 2,0 m/s².</p><p>Bestäm bromstiden i s.</p>",
-        "s": "<p>0 = 8 − 2t ger t = 4 s.</p>",
+        "t": "<p>En cyklist håller farten 7,5 m/s och bromsar med den konstanta retardationen 1,8 m/s².</p><p>Bestäm bromstiden i s.</p>",
+        "s": "<p>0 = 7,5 − 1,8t ger t ≈ 4,17 s.</p>",
         "ledtrad": "<p>Beräkningen börjar när bromsningen börjar; någon reaktionstid ska inte läggas till.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -15342,8 +15342,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm bromssträckan i m.",
-        "t": "<p>En cyklist håller farten 8,0 m/s och bromsar med den konstanta retardationen 2,0 m/s².</p><p>Bestäm bromssträckan i m.</p>",
-        "s": "<p>Medelfarten är (8 + 0)/2 = 4 m/s. Sträckan blir 4 · 4 = 16 m.</p>",
+        "t": "<p>En cyklist håller farten 7,5 m/s och bromsar med den konstanta retardationen 1,8 m/s².</p><p>Bestäm bromssträckan i m.</p>",
+        "s": "<p>Medelfarten är (7,5 + 0)/2 = 3,75 m/s. Sträckan blir 3,75 · 4,17 ≈ 15,6 m.</p>",
         "ledtrad": "<p>Beräkningen börjar när bromsningen börjar; någon reaktionstid ska inte läggas till.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -15359,8 +15359,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna omkörningstid ur relativ hastighet, ur diagram, sökt tid",
     "poang": "(3/0/0)",
-    "t": "<p>En bil kör i 25 m/s och ska köra om en lastbil som håller 20 m/s. Bilen måste förflytta sig 100 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p><ol><li>Bestäm bilens relativa fart i m/s.</li><li>Bestäm omkörningstiden i s.</li><li>Bestäm bilens körsträcka relativt vägen i m.</li></ol>",
-    "s": "<p>a) 25 − 20 = 5 m/s.</p><p>b) För att vinna 100 m behövs 100/5 = 20 s.</p><p>c) Bilen färdas 25 · 20 = 500 m relativt vägen.</p>",
+    "t": "<p>En bil kör i 27,5 m/s och ska köra om en lastbil som håller 23,0 m/s. Bilen måste förflytta sig 95 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p><ol><li>Bestäm bilens relativa fart i m/s.</li><li>Bestäm omkörningstiden i s.</li><li>Bestäm bilens körsträcka relativt vägen i m.</li></ol>",
+    "s": "<p>a) 27,5 − 23,0 = 4,5 m/s.</p><p>b) För att vinna 95 m behövs 95/4,5 ≈ 21,1 s.</p><p>c) Bilen färdas 27,5 · 21,1 ≈ 581 m relativt vägen.</p>",
     "familj": "Relativ hastighet",
     "formaga": [
       "begrepp",
@@ -15369,14 +15369,14 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5,
-      20,
-      500
+      4.5,
+      21.1111111111,
+      580.555555556
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.0675,
+      0.317,
+      8.71
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -15408,13 +15408,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bil kör i 25 m/s och ska köra om en lastbil som håller 20 m/s. Bilen måste förflytta sig 100 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p>",
+    "spelIntro": "<p>En bil kör i 27,5 m/s och ska köra om en lastbil som håller 23,0 m/s. Bilen måste förflytta sig 95 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm bilens relativa fart i m/s.",
-        "t": "<p>En bil kör i 25 m/s och ska köra om en lastbil som håller 20 m/s. Bilen måste förflytta sig 100 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p><p>Bestäm bilens relativa fart i m/s.</p>",
-        "s": "<p>25 − 20 = 5 m/s.</p>",
+        "t": "<p>En bil kör i 27,5 m/s och ska köra om en lastbil som håller 23,0 m/s. Bilen måste förflytta sig 95 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p><p>Bestäm bilens relativa fart i m/s.</p>",
+        "s": "<p>27,5 − 23,0 = 4,5 m/s.</p>",
         "ledtrad": "<p>Den relativa sträckan och sträckan sett från vägen är olika storheter.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -15424,8 +15424,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm omkörningstiden i s.",
-        "t": "<p>En bil kör i 25 m/s och ska köra om en lastbil som håller 20 m/s. Bilen måste förflytta sig 100 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p><p>Bestäm omkörningstiden i s.</p>",
-        "s": "<p>För att vinna 100 m behövs 100/5 = 20 s.</p>",
+        "t": "<p>En bil kör i 27,5 m/s och ska köra om en lastbil som håller 23,0 m/s. Bilen måste förflytta sig 95 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p><p>Bestäm omkörningstiden i s.</p>",
+        "s": "<p>För att vinna 95 m behövs 95/4,5 ≈ 21,1 s.</p>",
         "ledtrad": "<p>Den relativa sträckan och sträckan sett från vägen är olika storheter.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -15435,8 +15435,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm bilens körsträcka relativt vägen i m.",
-        "t": "<p>En bil kör i 25 m/s och ska köra om en lastbil som håller 20 m/s. Bilen måste förflytta sig 100 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p><p>Bestäm bilens körsträcka relativt vägen i m.</p>",
-        "s": "<p>Bilen färdas 25 · 20 = 500 m relativt vägen.</p>",
+        "t": "<p>En bil kör i 27,5 m/s och ska köra om en lastbil som håller 23,0 m/s. Bilen måste förflytta sig 95 m i förhållande till lastbilen.</p><p>Båda farterna är konstanta under omkörningen.</p><p>Bestäm bilens körsträcka relativt vägen i m.</p>",
+        "s": "<p>Bilen färdas 27,5 · 21,1 ≈ 581 m relativt vägen.</p>",
         "ledtrad": "<p>Den relativa sträckan och sträckan sett från vägen är olika storheter.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -15901,8 +15901,8 @@ window.BANK = [
     "niva": "E",
     "typ": "fylla i saknade storheter i en tabell genom att kombinera de tre rorelsesambanden, ur tabell, sokt fart acceleration tid och stracka",
     "poang": "(8/0/0)",
-    "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><ol><li>v₀ = 0, a = 2 m/s², t = 5 s. Bestäm sluthastigheten i m/s.</li><li>v₀ = 0, a = 2 m/s², t = 5 s. Bestäm sträckan i m.</li><li>v₀ = 6 m/s, a = 1 m/s², t = 4 s. Bestäm sluthastigheten i m/s.</li><li>v₀ = 6 m/s, a = 1 m/s², t = 4 s. Bestäm sträckan i m.</li><li>v₀ = 20 m/s och a = −2,5 m/s² fram till stopp. Bestäm bromstiden i s.</li><li>v₀ = 20 m/s och a = −2,5 m/s² fram till stopp. Bestäm bromssträckan i m.</li><li>Farten ökar från 5 till 15 m/s under 40 m. Bestäm accelerationen i m/s².</li><li>Farten ökar från 5 till 15 m/s under 40 m. Bestäm tiden i s.</li></ol>",
-    "s": "<p>a) v = 0 + 2 · 5 = 10 m/s.</p><p>b) s = 2 · 5²/2 = 25 m.</p><p>c) v = 6 + 1 · 4 = 10 m/s.</p><p>d) s = 6 · 4 + 1 · 4²/2 = 32 m.</p><p>e) 0 = 20 − 2,5t ger t = 8 s.</p><p>f) s = 20²/(2 · 2,5) = 80 m.</p><p>g) a = (15² − 5²)/(2 · 40) = 2,5 m/s².</p><p>h) Medelfarten är (5 + 15)/2 = 10 m/s. Tiden är 40/10 = 4 s.</p>",
+    "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><ol><li>v₀ = 0, a = 2,4 m/s², t = 4,5 s. Bestäm sluthastigheten i m/s.</li><li>v₀ = 0, a = 2,4 m/s², t = 4,5 s. Bestäm sträckan i m.</li><li>v₀ = 5,5 m/s, a = 1,2 m/s², t = 3,5 s. Bestäm sluthastigheten i m/s.</li><li>v₀ = 5,5 m/s, a = 1,2 m/s², t = 3,5 s. Bestäm sträckan i m.</li><li>v₀ = 22 m/s och a = −3,2 m/s² fram till stopp. Bestäm bromstiden i s.</li><li>v₀ = 22 m/s och a = −3,2 m/s² fram till stopp. Bestäm bromssträckan i m.</li><li>Farten ökar från 4 till 13 m/s under 35 m. Bestäm accelerationen i m/s².</li><li>Farten ökar från 4 till 13 m/s under 35 m. Bestäm tiden i s.</li></ol>",
+    "s": "<p>a) v = 0 + 2,4 · 4,5 = 10,8 m/s.</p><p>b) s = 2,4 · 4,5²/2 = 24,3 m.</p><p>c) v = 5,5 + 1,2 · 3,5 = 9,7 m/s.</p><p>d) s = 5,5 · 3,5 + 1,2 · 3,5²/2 = 26,6 m.</p><p>e) 0 = 22 − 3,2t ger t ≈ 6,88 s.</p><p>f) s = 22²/(2 · 3,2) ≈ 75,6 m.</p><p>g) a = (13² − 4²)/(2 · 35) ≈ 2,19 m/s².</p><p>h) Medelfarten är (4 + 13)/2 = 8,5 m/s. Tiden är 35/8,5 ≈ 4,12 s.</p>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -15910,24 +15910,24 @@ window.BANK = [
     "familjNyckel": "konstacc__motes_och_ikapproblem_med_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      10,
-      25,
-      10,
-      32,
-      8,
-      80,
-      2.5,
-      4
+      10.8,
+      24.3,
+      9.7,
+      26.6,
+      6.875,
+      75.625,
+      2.18571428571,
+      4.11764705882
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      0.162,
+      0.364,
+      0.145,
+      0.399,
+      0.103,
+      1.13,
+      0.0328,
+      0.0618
     ],
     "självrättning": true,
     "ledtrad": "<p>Välj ett rörelsesamband för just den rad som frågan gäller.</p>",
@@ -15972,9 +15972,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "v₀ = 0, a = 2 m/s², t = 5 s. Bestäm sluthastigheten i m/s.",
-        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 0, a = 2 m/s², t = 5 s. Bestäm sluthastigheten i m/s.</p>",
-        "s": "<p>v = 0 + 2 · 5 = 10 m/s.</p>",
+        "fraga": "v₀ = 0, a = 2,4 m/s², t = 4,5 s. Bestäm sluthastigheten i m/s.",
+        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 0, a = 2,4 m/s², t = 4,5 s. Bestäm sluthastigheten i m/s.</p>",
+        "s": "<p>v = 0 + 2,4 · 4,5 = 10,8 m/s.</p>",
         "ledtrad": "<p>Välj ett rörelsesamband för just den rad som frågan gäller.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -15983,9 +15983,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "v₀ = 0, a = 2 m/s², t = 5 s. Bestäm sträckan i m.",
-        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 0, a = 2 m/s², t = 5 s. Bestäm sträckan i m.</p>",
-        "s": "<p>s = 2 · 5²/2 = 25 m.</p>",
+        "fraga": "v₀ = 0, a = 2,4 m/s², t = 4,5 s. Bestäm sträckan i m.",
+        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 0, a = 2,4 m/s², t = 4,5 s. Bestäm sträckan i m.</p>",
+        "s": "<p>s = 2,4 · 4,5²/2 = 24,3 m.</p>",
         "ledtrad": "<p>Välj ett rörelsesamband för just den rad som frågan gäller.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -15994,9 +15994,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "v₀ = 6 m/s, a = 1 m/s², t = 4 s. Bestäm sluthastigheten i m/s.",
-        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 6 m/s, a = 1 m/s², t = 4 s. Bestäm sluthastigheten i m/s.</p>",
-        "s": "<p>v = 6 + 1 · 4 = 10 m/s.</p>",
+        "fraga": "v₀ = 5,5 m/s, a = 1,2 m/s², t = 3,5 s. Bestäm sluthastigheten i m/s.",
+        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 5,5 m/s, a = 1,2 m/s², t = 3,5 s. Bestäm sluthastigheten i m/s.</p>",
+        "s": "<p>v = 5,5 + 1,2 · 3,5 = 9,7 m/s.</p>",
         "ledtrad": "<p>Välj ett rörelsesamband för just den rad som frågan gäller.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -16005,9 +16005,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "v₀ = 6 m/s, a = 1 m/s², t = 4 s. Bestäm sträckan i m.",
-        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 6 m/s, a = 1 m/s², t = 4 s. Bestäm sträckan i m.</p>",
-        "s": "<p>s = 6 · 4 + 1 · 4²/2 = 32 m.</p>",
+        "fraga": "v₀ = 5,5 m/s, a = 1,2 m/s², t = 3,5 s. Bestäm sträckan i m.",
+        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 5,5 m/s, a = 1,2 m/s², t = 3,5 s. Bestäm sträckan i m.</p>",
+        "s": "<p>s = 5,5 · 3,5 + 1,2 · 3,5²/2 = 26,6 m.</p>",
         "ledtrad": "<p>Välj ett rörelsesamband för just den rad som frågan gäller.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -16016,9 +16016,9 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "fraga": "v₀ = 20 m/s och a = −2,5 m/s² fram till stopp. Bestäm bromstiden i s.",
-        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 20 m/s och a = −2,5 m/s² fram till stopp. Bestäm bromstiden i s.</p>",
-        "s": "<p>0 = 20 − 2,5t ger t = 8 s.</p>",
+        "fraga": "v₀ = 22 m/s och a = −3,2 m/s² fram till stopp. Bestäm bromstiden i s.",
+        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 22 m/s och a = −3,2 m/s² fram till stopp. Bestäm bromstiden i s.</p>",
+        "s": "<p>0 = 22 − 3,2t ger t ≈ 6,88 s.</p>",
         "ledtrad": "<p>Välj ett rörelsesamband för just den rad som frågan gäller.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -16027,9 +16027,9 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "fraga": "v₀ = 20 m/s och a = −2,5 m/s² fram till stopp. Bestäm bromssträckan i m.",
-        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 20 m/s och a = −2,5 m/s² fram till stopp. Bestäm bromssträckan i m.</p>",
-        "s": "<p>s = 20²/(2 · 2,5) = 80 m.</p>",
+        "fraga": "v₀ = 22 m/s och a = −3,2 m/s² fram till stopp. Bestäm bromssträckan i m.",
+        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>v₀ = 22 m/s och a = −3,2 m/s² fram till stopp. Bestäm bromssträckan i m.</p>",
+        "s": "<p>s = 22²/(2 · 3,2) ≈ 75,6 m.</p>",
         "ledtrad": "<p>Välj ett rörelsesamband för just den rad som frågan gäller.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -16038,9 +16038,9 @@ window.BANK = [
       },
       {
         "etikett": "g",
-        "fraga": "Farten ökar från 5 till 15 m/s under 40 m. Bestäm accelerationen i m/s².",
-        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>Farten ökar från 5 till 15 m/s under 40 m. Bestäm accelerationen i m/s².</p>",
-        "s": "<p>a = (15² − 5²)/(2 · 40) = 2,5 m/s².</p>",
+        "fraga": "Farten ökar från 4 till 13 m/s under 35 m. Bestäm accelerationen i m/s².",
+        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>Farten ökar från 4 till 13 m/s under 35 m. Bestäm accelerationen i m/s².</p>",
+        "s": "<p>a = (13² − 4²)/(2 · 35) ≈ 2,19 m/s².</p>",
         "ledtrad": "<p>Välj ett rörelsesamband för just den rad som frågan gäller.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -16049,9 +16049,9 @@ window.BANK = [
       },
       {
         "etikett": "h",
-        "fraga": "Farten ökar från 5 till 15 m/s under 40 m. Bestäm tiden i s.",
-        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>Farten ökar från 5 till 15 m/s under 40 m. Bestäm tiden i s.</p>",
-        "s": "<p>Medelfarten är (5 + 15)/2 = 10 m/s. Tiden är 40/10 = 4 s.</p>",
+        "fraga": "Farten ökar från 4 till 13 m/s under 35 m. Bestäm tiden i s.",
+        "t": "<p>Alla rörelser är raka och har konstant acceleration. Positiv riktning är den ursprungliga färdriktningen.</p><p>Farten ökar från 4 till 13 m/s under 35 m. Bestäm tiden i s.</p>",
+        "s": "<p>Medelfarten är (4 + 13)/2 = 8,5 m/s. Tiden är 35/8,5 ≈ 4,12 s.</p>",
         "ledtrad": "<p>Välj ett rörelsesamband för just den rad som frågan gäller.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -17664,8 +17664,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna tid och sträcka under en hiss accelerationsfas, ur text, sökt tid och sträcka",
     "poang": "(3/0/0)",
-    "t": "<p>En hiss startar från vila och accelererar med 1,0 m/s² tills den når farten 2,0 m/s.</p><ol><li>Bestäm tiden för att nå 2 m/s i s.</li><li>Bestäm sträckan fram till 2 m/s i m.</li><li>Efter accelerationen håller hissen 2 m/s i 8 s. Bestäm sträckan under dessa 8 s i m.</li></ol>",
-    "s": "<p>a) t = 2/1 = 2 s.</p><p>b) s = 1 · 2²/2 = 2 m.</p><p>c) Vid konstant fart: s = 2 · 8 = 16 m.</p>",
+    "t": "<p>En hiss startar från vila och accelererar med 0,90 m/s² tills den når farten 2,4 m/s.</p><ol><li>Bestäm tiden för att nå 2,4 m/s i s.</li><li>Bestäm sträckan fram till 2,4 m/s i m.</li><li>Efter accelerationen håller hissen 2,4 m/s i 7,0 s. Bestäm sträckan under dessa 7,0 s i m.</li></ol>",
+    "s": "<p>a) t = 2,4/0,90 ≈ 2,67 s.</p><p>b) s = 2,4²/(2 · 0,90) = 3,2 m.</p><p>c) Vid konstant fart: s = 2,4 · 7,0 = 16,8 m.</p>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -17673,14 +17673,14 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2,
-      2,
-      16
+      2.66666666667,
+      3.2,
+      16.8
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.04,
+      0.048,
+      0.252
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -17712,13 +17712,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En hiss startar från vila och accelererar med 1,0 m/s² tills den når farten 2,0 m/s.</p>",
+    "spelIntro": "<p>En hiss startar från vila och accelererar med 0,90 m/s² tills den når farten 2,4 m/s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tiden för att nå 2 m/s i s.",
-        "t": "<p>En hiss startar från vila och accelererar med 1,0 m/s² tills den når farten 2,0 m/s.</p><p>Bestäm tiden för att nå 2 m/s i s.</p>",
-        "s": "<p>t = 2/1 = 2 s.</p>",
+        "fraga": "Bestäm tiden för att nå 2,4 m/s i s.",
+        "t": "<p>En hiss startar från vila och accelererar med 0,90 m/s² tills den når farten 2,4 m/s.</p><p>Bestäm tiden för att nå 2,4 m/s i s.</p>",
+        "s": "<p>t = 2,4/0,90 ≈ 2,67 s.</p>",
         "ledtrad": "<p>De åtta sekunderna med konstant fart kommer efter accelerationen.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -17727,9 +17727,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm sträckan fram till 2 m/s i m.",
-        "t": "<p>En hiss startar från vila och accelererar med 1,0 m/s² tills den når farten 2,0 m/s.</p><p>Bestäm sträckan fram till 2 m/s i m.</p>",
-        "s": "<p>s = 1 · 2²/2 = 2 m.</p>",
+        "fraga": "Bestäm sträckan fram till 2,4 m/s i m.",
+        "t": "<p>En hiss startar från vila och accelererar med 0,90 m/s² tills den når farten 2,4 m/s.</p><p>Bestäm sträckan fram till 2,4 m/s i m.</p>",
+        "s": "<p>s = 2,4²/(2 · 0,90) = 3,2 m.</p>",
         "ledtrad": "<p>De åtta sekunderna med konstant fart kommer efter accelerationen.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -17738,9 +17738,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Efter accelerationen håller hissen 2 m/s i 8 s. Bestäm sträckan under dessa 8 s i m.",
-        "t": "<p>En hiss startar från vila och accelererar med 1,0 m/s² tills den når farten 2,0 m/s.</p><p>Efter accelerationen håller hissen 2 m/s i 8 s. Bestäm sträckan under dessa 8 s i m.</p>",
-        "s": "<p>Vid konstant fart: s = 2 · 8 = 16 m.</p>",
+        "fraga": "Efter accelerationen håller hissen 2,4 m/s i 7,0 s. Bestäm sträckan under dessa 7,0 s i m.",
+        "t": "<p>En hiss startar från vila och accelererar med 0,90 m/s² tills den når farten 2,4 m/s.</p><p>Efter accelerationen håller hissen 2,4 m/s i 7,0 s. Bestäm sträckan under dessa 7,0 s i m.</p>",
+        "s": "<p>Vid konstant fart: s = 2,4 · 7,0 = 16,8 m.</p>",
         "ledtrad": "<p>De åtta sekunderna med konstant fart kommer efter accelerationen.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -18014,8 +18014,8 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration och tid ur begynnelsefart sluthastighet och sträcka, ur text, sökt acceleration och tid",
     "poang": "(2/0/0)",
-    "t": "<p>En backhoppare åker från vila nedför ansatsen och når farten 24 m/s efter 72 meter. Accelerationen är likformig.</p><ol><li>Bestäm accelerationen i m/s².</li><li>Bestäm tiden för åkningen i s.</li></ol>",
-    "s": "<p>a) a = 24²/(2 · 72) = 4 m/s².</p><p>b) Medelfarten är 24/2 = 12 m/s. Tiden är 72/12 = 6 s.</p>",
+    "t": "<p>En backhoppare åker från vila nedför ansatsen och når farten 23 m/s efter 68 meter. Accelerationen är likformig.</p><ol><li>Bestäm accelerationen i m/s².</li><li>Bestäm tiden för åkningen i s.</li></ol>",
+    "s": "<p>a) a = 23²/(2 · 68) ≈ 3,89 m/s².</p><p>b) Medelfarten är 23/2 = 11,5 m/s. Tiden är 68/11,5 ≈ 5,91 s.</p>",
     "familj": "Tidlösa formeln",
     "formaga": [
       "procedur"
@@ -18023,12 +18023,12 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4,
-      6
+      3.88970588235,
+      5.91304347826
     ],
     "tolerans": [
-      0,
-      0
+      0.0583,
+      0.0887
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -18057,13 +18057,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En backhoppare åker från vila nedför ansatsen och når farten 24 m/s efter 72 meter. Accelerationen är likformig.</p>",
+    "spelIntro": "<p>En backhoppare åker från vila nedför ansatsen och når farten 23 m/s efter 68 meter. Accelerationen är likformig.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen i m/s².",
-        "t": "<p>En backhoppare åker från vila nedför ansatsen och når farten 24 m/s efter 72 meter. Accelerationen är likformig.</p><p>Bestäm accelerationen i m/s².</p>",
-        "s": "<p>a = 24²/(2 · 72) = 4 m/s².</p>",
+        "t": "<p>En backhoppare åker från vila nedför ansatsen och når farten 23 m/s efter 68 meter. Accelerationen är likformig.</p><p>Bestäm accelerationen i m/s².</p>",
+        "s": "<p>a = 23²/(2 · 68) ≈ 3,89 m/s².</p>",
         "ledtrad": "<p>Vid konstant acceleration från vila är medelfarten halva slutfarten.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -18073,8 +18073,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm tiden för åkningen i s.",
-        "t": "<p>En backhoppare åker från vila nedför ansatsen och når farten 24 m/s efter 72 meter. Accelerationen är likformig.</p><p>Bestäm tiden för åkningen i s.</p>",
-        "s": "<p>Medelfarten är 24/2 = 12 m/s. Tiden är 72/12 = 6 s.</p>",
+        "t": "<p>En backhoppare åker från vila nedför ansatsen och når farten 23 m/s efter 68 meter. Accelerationen är likformig.</p><p>Bestäm tiden för åkningen i s.</p>",
+        "s": "<p>Medelfarten är 23/2 = 11,5 m/s. Tiden är 68/11,5 ≈ 5,91 s.</p>",
         "ledtrad": "<p>Vid konstant acceleration från vila är medelfarten halva slutfarten.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -19898,8 +19898,8 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa sambandet mellan begynnelsefart acceleration tid och sluthastighet i en tabell, ur tabell, sökt fart acceleration och tid",
     "poang": "(4/0/0)",
-    "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><ol><li>v₀ = 0, a = 3 m/s² och t = 5 s. Bestäm v i m/s.</li><li>v₀ = 8 m/s, v = 20 m/s och t = 4 s. Bestäm a i m/s².</li><li>v₀ = 12 m/s, v = 4 m/s och a = −2 m/s². Bestäm t i s.</li><li>v = 15 m/s, a = 1,5 m/s² och t = 6 s. Bestäm v₀ i m/s.</li></ol>",
-    "s": "<p>a) v = 0 + 3 · 5 = 15 m/s.</p><p>b) a = (20 − 8)/4 = 3 m/s².</p><p>c) t = (4 − 12)/(−2) = 4 s.</p><p>d) v₀ = 15 − 1,5 · 6 = 6 m/s.</p>",
+    "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><ol><li>v₀ = 0, a = 3,5 m/s² och t = 4,5 s. Bestäm v i m/s.</li><li>v₀ = 7 m/s, v = 19,5 m/s och t = 5 s. Bestäm a i m/s².</li><li>v₀ = 13 m/s, v = 3,5 m/s och a = −1,5 m/s². Bestäm t i s.</li><li>v = 16 m/s, a = 1,4 m/s² och t = 7 s. Bestäm v₀ i m/s.</li></ol>",
+    "s": "<p>a) v = 0 + 3,5 · 4,5 = 15,75 m/s.</p><p>b) a = (19,5 − 7)/5 = 2,5 m/s².</p><p>c) t = (3,5 − 13)/(−1,5) ≈ 6,33 s.</p><p>d) v₀ = 16 − 1,4 · 7 = 6,2 m/s.</p>",
     "familj": "Hastighet och tid vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -19907,16 +19907,16 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      15,
-      3,
-      4,
-      6
+      15.75,
+      2.5,
+      6.33333333333,
+      6.2
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.236,
+      0.0375,
+      0.095,
+      0.093
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -19955,9 +19955,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "v₀ = 0, a = 3 m/s² och t = 5 s. Bestäm v i m/s.",
-        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v₀ = 0, a = 3 m/s² och t = 5 s. Bestäm v i m/s.</p>",
-        "s": "<p>v = 0 + 3 · 5 = 15 m/s.</p>",
+        "fraga": "v₀ = 0, a = 3,5 m/s² och t = 4,5 s. Bestäm v i m/s.",
+        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v₀ = 0, a = 3,5 m/s² och t = 4,5 s. Bestäm v i m/s.</p>",
+        "s": "<p>v = 0 + 3,5 · 4,5 = 15,75 m/s.</p>",
         "ledtrad": "<p>Vilket samband i formelsamlingen kopplar ihop startfart, slutfart, acceleration och tid?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -19966,9 +19966,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "v₀ = 8 m/s, v = 20 m/s och t = 4 s. Bestäm a i m/s².",
-        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v₀ = 8 m/s, v = 20 m/s och t = 4 s. Bestäm a i m/s².</p>",
-        "s": "<p>a = (20 − 8)/4 = 3 m/s².</p>",
+        "fraga": "v₀ = 7 m/s, v = 19,5 m/s och t = 5 s. Bestäm a i m/s².",
+        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v₀ = 7 m/s, v = 19,5 m/s och t = 5 s. Bestäm a i m/s².</p>",
+        "s": "<p>a = (19,5 − 7)/5 = 2,5 m/s².</p>",
         "ledtrad": "<p>Vilket samband i formelsamlingen kopplar ihop startfart, slutfart, acceleration och tid?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -19977,9 +19977,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "v₀ = 12 m/s, v = 4 m/s och a = −2 m/s². Bestäm t i s.",
-        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v₀ = 12 m/s, v = 4 m/s och a = −2 m/s². Bestäm t i s.</p>",
-        "s": "<p>t = (4 − 12)/(−2) = 4 s.</p>",
+        "fraga": "v₀ = 13 m/s, v = 3,5 m/s och a = −1,5 m/s². Bestäm t i s.",
+        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v₀ = 13 m/s, v = 3,5 m/s och a = −1,5 m/s². Bestäm t i s.</p>",
+        "s": "<p>t = (3,5 − 13)/(−1,5) ≈ 6,33 s.</p>",
         "ledtrad": "<p>Vilket samband i formelsamlingen kopplar ihop startfart, slutfart, acceleration och tid?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -19988,9 +19988,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "v = 15 m/s, a = 1,5 m/s² och t = 6 s. Bestäm v₀ i m/s.",
-        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v = 15 m/s, a = 1,5 m/s² och t = 6 s. Bestäm v₀ i m/s.</p>",
-        "s": "<p>v₀ = 15 − 1,5 · 6 = 6 m/s.</p>",
+        "fraga": "v = 16 m/s, a = 1,4 m/s² och t = 7 s. Bestäm v₀ i m/s.",
+        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v = 16 m/s, a = 1,4 m/s² och t = 7 s. Bestäm v₀ i m/s.</p>",
+        "s": "<p>v₀ = 16 − 1,4 · 7 = 6,2 m/s.</p>",
         "ledtrad": "<p>Vilket samband i formelsamlingen kopplar ihop startfart, slutfart, acceleration och tid?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -20068,8 +20068,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna sluthastighet och sträcka vid acceleration från en begynnelsefart, ur text, sökt fart och sträcka",
     "poang": "(2/0/0)",
-    "t": "<p>En kajak håller farten 2,0 m/s och accelererar sedan likformigt med 0,40 m/s² under 5,0 sekunder.</p><ol><li>Bestäm slutfarten i m/s.</li><li>Bestäm sträckan under 5 s i m.</li></ol>",
-    "s": "<p>a) v = 2 + 0,40 · 5 = 4 m/s.</p><p>b) s = 2 · 5 + 0,40 · 5²/2 = 15 m. Medelfarten 3 m/s ger samma sträcka.</p>",
+    "t": "<p>En kajak håller farten 2,4 m/s och accelererar sedan likformigt med 0,35 m/s² under 6,0 sekunder.</p><ol><li>Bestäm slutfarten i m/s.</li><li>Bestäm sträckan under 6 s i m.</li></ol>",
+    "s": "<p>a) v = 2,4 + 0,35 · 6 = 4,5 m/s.</p><p>b) s = 2,4 · 6 + 0,35 · 6²/2 = 20,7 m. Medelfarten 3,45 m/s ger samma sträcka.</p>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -20077,12 +20077,12 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4,
-      15
+      4.5,
+      20.7
     ],
     "tolerans": [
-      0,
-      0
+      0.0675,
+      0.31
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -20111,13 +20111,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En kajak håller farten 2,0 m/s och accelererar sedan likformigt med 0,40 m/s² under 5,0 sekunder.</p>",
+    "spelIntro": "<p>En kajak håller farten 2,4 m/s och accelererar sedan likformigt med 0,35 m/s² under 6,0 sekunder.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm slutfarten i m/s.",
-        "t": "<p>En kajak håller farten 2,0 m/s och accelererar sedan likformigt med 0,40 m/s² under 5,0 sekunder.</p><p>Bestäm slutfarten i m/s.</p>",
-        "s": "<p>v = 2 + 0,40 · 5 = 4 m/s.</p>",
+        "t": "<p>En kajak håller farten 2,4 m/s och accelererar sedan likformigt med 0,35 m/s² under 6,0 sekunder.</p><p>Bestäm slutfarten i m/s.</p>",
+        "s": "<p>v = 2,4 + 0,35 · 6 = 4,5 m/s.</p>",
         "ledtrad": "<p>Ta med både begynnelsefarten och fartökningen.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -20126,9 +20126,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm sträckan under 5 s i m.",
-        "t": "<p>En kajak håller farten 2,0 m/s och accelererar sedan likformigt med 0,40 m/s² under 5,0 sekunder.</p><p>Bestäm sträckan under 5 s i m.</p>",
-        "s": "<p>s = 2 · 5 + 0,40 · 5²/2 = 15 m. Medelfarten 3 m/s ger samma sträcka.</p>",
+        "fraga": "Bestäm sträckan under 6 s i m.",
+        "t": "<p>En kajak håller farten 2,4 m/s och accelererar sedan likformigt med 0,35 m/s² under 6,0 sekunder.</p><p>Bestäm sträckan under 6 s i m.</p>",
+        "s": "<p>s = 2,4 · 6 + 0,35 · 6²/2 = 20,7 m. Medelfarten 3,45 m/s ger samma sträcka.</p>",
         "ledtrad": "<p>Ta med både begynnelsefarten och fartökningen.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -20144,8 +20144,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna retardation och sträcka vid inbromsning mellan två farter, ur text, sökt acceleration och sträcka",
     "poang": "(3/0/0)",
-    "t": "<p>En linbanevagn saktar in från 5,0 m/s till 1,0 m/s under 8,0 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p><ol><li>Bestäm accelerationen i m/s² med tecken.</li><li>Bestäm medelfarten i m/s.</li><li>Bestäm sträckan under 8 s i m.</li></ol>",
-    "s": "<p>a) a = (1 − 5)/8 = −0,50 m/s².</p><p>b) Medelfarten är (5 + 1)/2 = 3 m/s.</p><p>c) s = 3 · 8 = 24 m. Vagnen har inte stannat; slutfarten är 1 m/s.</p>",
+    "t": "<p>En linbanevagn saktar in från 5,5 m/s till 1,2 m/s under 7,5 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p><ol><li>Bestäm accelerationen i m/s² med tecken.</li><li>Bestäm medelfarten i m/s.</li><li>Bestäm sträckan under 7,5 s i m.</li></ol>",
+    "s": "<p>a) a = (1,2 − 5,5)/7,5 ≈ −0,573 m/s².</p><p>b) Medelfarten är (5,5 + 1,2)/2 = 3,35 m/s.</p><p>c) s = 3,35 · 7,5 ≈ 25,1 m. Vagnen har inte stannat; slutfarten är 1,2 m/s.</p>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -20153,14 +20153,14 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -0.5,
-      3,
-      24
+      -0.573333333333,
+      3.35,
+      25.125
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.0086,
+      0.0502,
+      0.377
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -20192,13 +20192,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En linbanevagn saktar in från 5,0 m/s till 1,0 m/s under 8,0 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p>",
+    "spelIntro": "<p>En linbanevagn saktar in från 5,5 m/s till 1,2 m/s under 7,5 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen i m/s² med tecken.",
-        "t": "<p>En linbanevagn saktar in från 5,0 m/s till 1,0 m/s under 8,0 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p><p>Bestäm accelerationen i m/s² med tecken.</p>",
-        "s": "<p>a = (1 − 5)/8 = −0,50 m/s².</p>",
+        "t": "<p>En linbanevagn saktar in från 5,5 m/s till 1,2 m/s under 7,5 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p><p>Bestäm accelerationen i m/s² med tecken.</p>",
+        "s": "<p>a = (1,2 − 5,5)/7,5 ≈ −0,573 m/s².</p>",
         "ledtrad": "<p>Hastighetsändringen är negativ trots att rörelsen fortsätter framåt.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -20208,8 +20208,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm medelfarten i m/s.",
-        "t": "<p>En linbanevagn saktar in från 5,0 m/s till 1,0 m/s under 8,0 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p><p>Bestäm medelfarten i m/s.</p>",
-        "s": "<p>Medelfarten är (5 + 1)/2 = 3 m/s.</p>",
+        "t": "<p>En linbanevagn saktar in från 5,5 m/s till 1,2 m/s under 7,5 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p><p>Bestäm medelfarten i m/s.</p>",
+        "s": "<p>Medelfarten är (5,5 + 1,2)/2 = 3,35 m/s.</p>",
         "ledtrad": "<p>Hastighetsändringen är negativ trots att rörelsen fortsätter framåt.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -20218,9 +20218,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm sträckan under 8 s i m.",
-        "t": "<p>En linbanevagn saktar in från 5,0 m/s till 1,0 m/s under 8,0 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p><p>Bestäm sträckan under 8 s i m.</p>",
-        "s": "<p>s = 3 · 8 = 24 m. Vagnen har inte stannat; slutfarten är 1 m/s.</p>",
+        "fraga": "Bestäm sträckan under 7,5 s i m.",
+        "t": "<p>En linbanevagn saktar in från 5,5 m/s till 1,2 m/s under 7,5 sekunder. Retardationen är likformig.</p><p>Välj rörelseriktningen som positiv.</p><p>Bestäm sträckan under 7,5 s i m.</p>",
+        "s": "<p>s = 3,35 · 7,5 ≈ 25,1 m. Vagnen har inte stannat; slutfarten är 1,2 m/s.</p>",
         "ledtrad": "<p>Hastighetsändringen är negativ trots att rörelsen fortsätter framåt.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -20293,8 +20293,8 @@ window.BANK = [
     "omr": "konstacc",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En bil startar från stillastående och accelererar med 2,5 m/s² tills den når 25 m/s. Därefter håller den den farten.</p><ol><li>Bestäm tiden fram till 25 m/s i s.</li><li>Bestäm sträckan fram till 25 m/s i m.</li><li>Bestäm tiden för att färdas totalt 200 m från starten i s.</li></ol>",
-    "s": "<p>a) t = 25/2,5 = 10 s.</p><p>b) s = 25²/(2 · 2,5) = 125 m.</p><p>c) 200 m är längre än accelerationssträckan 125 m. Resterande 75 m tar 75/25 = 3 s. Totalt 13 s.</p>",
+    "t": "<p>En bil startar från stillastående och accelererar med 2,2 m/s² tills den når 24 m/s. Därefter håller den den farten.</p><ol><li>Bestäm tiden fram till 24 m/s i s.</li><li>Bestäm sträckan fram till 24 m/s i m.</li><li>Bestäm tiden för att färdas totalt 230 m från starten i s.</li></ol>",
+    "s": "<p>a) t = 24/2,2 ≈ 10,9 s.</p><p>b) s = 24²/(2 · 2,2) ≈ 130,9 m.</p><p>c) 230 m är längre än accelerationssträckan 130,9 m. Resterande 99,1 m tar 99,1/24 ≈ 4,13 s. Totalt ≈ 15,0 s.</p>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -20302,14 +20302,14 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      10,
-      125,
-      13
+      10.9090909091,
+      130.909090909,
+      15.0378787879
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.164,
+      1.96,
+      0.226
     ],
     "självrättning": true,
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
@@ -20341,13 +20341,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bil startar från stillastående och accelererar med 2,5 m/s² tills den når 25 m/s. Därefter håller den den farten.</p>",
+    "spelIntro": "<p>En bil startar från stillastående och accelererar med 2,2 m/s² tills den når 24 m/s. Därefter håller den den farten.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tiden fram till 25 m/s i s.",
-        "t": "<p>En bil startar från stillastående och accelererar med 2,5 m/s² tills den når 25 m/s. Därefter håller den den farten.</p><p>Bestäm tiden fram till 25 m/s i s.</p>",
-        "s": "<p>t = 25/2,5 = 10 s.</p>",
+        "fraga": "Bestäm tiden fram till 24 m/s i s.",
+        "t": "<p>En bil startar från stillastående och accelererar med 2,2 m/s² tills den når 24 m/s. Därefter håller den den farten.</p><p>Bestäm tiden fram till 24 m/s i s.</p>",
+        "s": "<p>t = 24/2,2 ≈ 10,9 s.</p>",
         "ledtrad": "<p>Undersök om 200 m nås före eller efter accelerationsfasens slut.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -20356,9 +20356,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm sträckan fram till 25 m/s i m.",
-        "t": "<p>En bil startar från stillastående och accelererar med 2,5 m/s² tills den når 25 m/s. Därefter håller den den farten.</p><p>Bestäm sträckan fram till 25 m/s i m.</p>",
-        "s": "<p>s = 25²/(2 · 2,5) = 125 m.</p>",
+        "fraga": "Bestäm sträckan fram till 24 m/s i m.",
+        "t": "<p>En bil startar från stillastående och accelererar med 2,2 m/s² tills den når 24 m/s. Därefter håller den den farten.</p><p>Bestäm sträckan fram till 24 m/s i m.</p>",
+        "s": "<p>s = 24²/(2 · 2,2) ≈ 130,9 m.</p>",
         "ledtrad": "<p>Undersök om 200 m nås före eller efter accelerationsfasens slut.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -20367,9 +20367,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm tiden för att färdas totalt 200 m från starten i s.",
-        "t": "<p>En bil startar från stillastående och accelererar med 2,5 m/s² tills den når 25 m/s. Därefter håller den den farten.</p><p>Bestäm tiden för att färdas totalt 200 m från starten i s.</p>",
-        "s": "<p>200 m är längre än accelerationssträckan 125 m. Resterande 75 m tar 75/25 = 3 s. Totalt 13 s.</p>",
+        "fraga": "Bestäm tiden för att färdas totalt 230 m från starten i s.",
+        "t": "<p>En bil startar från stillastående och accelererar med 2,2 m/s² tills den når 24 m/s. Därefter håller den den farten.</p><p>Bestäm tiden för att färdas totalt 230 m från starten i s.</p>",
+        "s": "<p>230 m är längre än accelerationssträckan 130,9 m. Resterande 99,1 m tar 99,1/24 ≈ 4,13 s. Totalt ≈ 15,0 s.</p>",
         "ledtrad": "<p>Undersök om 200 m nås före eller efter accelerationsfasens slut.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -21102,8 +21102,8 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma mötestid och mötespunkt för två kroppar i fritt fall och kast uppåt, ur diagram, sökt tid och höjd",
     "poang": "(0/2/0)",
-    "t": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Bortse från luftmotstånd. </p><ol><li>Bestäm tiden tills bollarna möts. Svara i s.</li><li>Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<p>a) y₁ = 20t − gt²/2 och y₂ = 40 − gt²/2. Likställ: 20t = 40. Svaret är 2 s.</p><p>b) Likställ höjderna: 20t − gt²/2 = 40 − gt²/2 ger t = 2 s. Höjden är 40 − 9,82 · 2²/2 = 20,36 m. Båda är fortfarande i luften. Svaret är 20,36 m.</p>",
+    "t": "<p>En boll kastas från marken rakt uppåt med 18 m/s samtidigt som en annan släpps från vila 45 m ovanför. Bortse från luftmotstånd. </p><ol><li>Bestäm tiden tills bollarna möts. Svara i s.</li><li>Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.</li></ol>",
+    "s": "<p>a) y₁ = 18t − gt²/2 och y₂ = 45 − gt²/2. Likställ: 18t = 45. Svaret är 2,5 s.</p><p>b) Likställ höjderna: 18t − gt²/2 = 45 − gt²/2 ger t = 2,5 s. Höjden är 45 − 9,82 · 2,5²/2 ≈ 14,31 m. Båda är fortfarande i luften. Svaret är 14,31 m.</p>",
     "familj": "Möte och ikapp",
     "formaga": [
       "problemlösning",
@@ -21112,8 +21112,8 @@ window.BANK = [
     "familjNyckel": "konstacc__lodrat_kast_och_fritt_fall",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2,
-      20.36
+      2.5,
+      14.31
     ],
     "tolerans": [
       0,
@@ -21140,13 +21140,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Bortse från luftmotstånd. </p>",
+    "spelIntro": "<p>En boll kastas från marken rakt uppåt med 18 m/s samtidigt som en annan släpps från vila 45 m ovanför. Bortse från luftmotstånd. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm tiden tills bollarna möts. Svara i s.",
-        "t": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Bortse från luftmotstånd. </p><p>Bestäm tiden tills bollarna möts. Svara i s.</p>",
-        "s": "<p>y₁ = 20t − gt²/2 och y₂ = 40 − gt²/2. Likställ: 20t = 40. Svaret är 2 s.</p>",
+        "t": "<p>En boll kastas från marken rakt uppåt med 18 m/s samtidigt som en annan släpps från vila 45 m ovanför. Bortse från luftmotstånd. </p><p>Bestäm tiden tills bollarna möts. Svara i s.</p>",
+        "s": "<p>y₁ = 18t − gt²/2 och y₂ = 45 − gt²/2. Likställ: 18t = 45. Svaret är 2,5 s.</p>",
         "ledtrad": "<p>Skriv båda höjderna med samma nollnivå och tid.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -21156,8 +21156,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.",
-        "t": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Bortse från luftmotstånd. </p><p>Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.</p>",
-        "s": "<p>Likställ höjderna: 20t − gt²/2 = 40 − gt²/2 ger t = 2 s. Höjden är 40 − 9,82 · 2²/2 = 20,36 m. Båda är fortfarande i luften. Svaret är 20,36 m.</p>",
+        "t": "<p>En boll kastas från marken rakt uppåt med 18 m/s samtidigt som en annan släpps från vila 45 m ovanför. Bortse från luftmotstånd. </p><p>Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.</p>",
+        "s": "<p>Likställ höjderna: 18t − gt²/2 = 45 − gt²/2 ger t = 2,5 s. Höjden är 45 − 9,82 · 2,5²/2 ≈ 14,31 m. Båda är fortfarande i luften. Svaret är 14,31 m.</p>",
         "ledtrad": "<p>Skriv båda höjderna med samma nollnivå och tid.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -77011,16 +77011,16 @@ window.BANK = [
     "niva": "E",
     "typ": "ström med Ohms lag",
     "poang": "(1/0/0)",
-    "t": "<p>En resistor på \\(3{,}0\\ \\Omega\\) ansluts till \\(6{,}0\\ \\mathrm V\\). Bestäm strömmen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Strömmen fås genom att dividera spänningen med resistansen.</p><div class=\"facit-matte\">\\[I=\\frac{U}{R}=\\frac{6{,}0}{3{,}0}=2{,}0\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm A\\).</p></div>",
+    "t": "<p>En resistor på \\(4{,}7\\ \\Omega\\) ansluts till \\(6{,}0\\ \\mathrm V\\). Bestäm strömmen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Strömmen fås genom att dividera spänningen med resistansen.</p><div class=\"facit-matte\">\\[I=\\frac{U}{R}=\\frac{6{,}0}{4{,}7}\\approx1{,}28\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}28\\ \\mathrm A\\).</p></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kretsar__ohms_lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 1.27659574468,
+    "tolerans": 0.0191,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -77336,16 +77336,16 @@ window.BANK = [
     "niva": "E",
     "typ": "energi från laddning och potentialskillnad",
     "poang": "(1/0/0)",
-    "t": "<p>En laddning på \\(2{,}0\\ \\mu\\mathrm C\\) flyttas genom potentialskillnaden \\(5{,}0\\ \\mathrm V\\). Hur stor är förändringen i elektrisk potentiell energi i storlek?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Energiändringen fås av laddningen gånger potentialskillnaden.</p><div class=\"facit-matte\">\\[|\\Delta E_p|=qU=2{,}0\\cdot10^{-6}\\cdot5{,}0=1{,}0\\cdot10^{-5}\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mu\\mathrm J\\).</p></div>",
+    "t": "<p>En laddning på \\(2{,}5\\ \\mu\\mathrm C\\) flyttas genom potentialskillnaden \\(4{,}6\\ \\mathrm V\\). Hur stor är förändringen i elektrisk potentiell energi i storlek?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Energiändringen fås av laddningen gånger potentialskillnaden.</p><div class=\"facit-matte\">\\[|\\Delta E_p|=qU=2{,}5\\cdot10^{-6}\\cdot4{,}6=1{,}15\\cdot10^{-5}\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mu\\mathrm J\\).</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0.05,
+    "rättSvar": 11.5,
+    "tolerans": 0.172,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -77366,16 +77366,16 @@ window.BANK = [
     "niva": "E",
     "typ": "potentialskillnad från energi och laddning",
     "poang": "(1/0/0)",
-    "t": "<p>En laddning på \\(3{,}0\\ \\mu\\mathrm C\\) får den elektriska potentiella energin ökad med \\(30\\ \\mu\\mathrm J\\). Bestäm potentialskillnaden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut potentialskillnaden ur sambandet mellan energi, laddning och spänning.</p><div class=\"facit-matte\">\\[U=\\frac{\\Delta E_p}{q}=\\frac{30\\cdot10^{-6}}{3{,}0\\cdot10^{-6}}=10\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mathrm V\\).</p></div>",
+    "t": "<p>En laddning på \\(3{,}5\\ \\mu\\mathrm C\\) får den elektriska potentiella energin ökad med \\(38\\ \\mu\\mathrm J\\). Bestäm potentialskillnaden.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut potentialskillnaden ur sambandet mellan energi, laddning och spänning.</p><div class=\"facit-matte\">\\[U=\\frac{\\Delta E_p}{q}=\\frac{38\\cdot10^{-6}}{3{,}5\\cdot10^{-6}}\\approx10{,}9\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}9\\ \\mathrm V\\).</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0,
+    "rättSvar": 10.8571428571,
+    "tolerans": 0.163,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -77871,16 +77871,16 @@ window.BANK = [
     "niva": "E",
     "typ": "laddning från energi och potentialskillnad",
     "poang": "(1/0/0)",
-    "t": "<p>En potentialskillnad på \\(15\\ \\mathrm V\\) ger en energiändring på \\(60\\ \\mu\\mathrm J\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut laddningen.</p><div class=\"facit-matte\">\\[q=\\frac{|\\Delta E_p|}{U}=\\frac{60\\cdot10^{-6}}{15}=4{,}0\\cdot10^{-6}\\ \\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\ \\mu\\mathrm C\\).</p></div>",
+    "t": "<p>En potentialskillnad på \\(12\\ \\mathrm V\\) ger en energiändring på \\(57\\ \\mu\\mathrm J\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut laddningen.</p><div class=\"facit-matte\">\\[q=\\frac{|\\Delta E_p|}{U}=\\frac{57\\cdot10^{-6}}{12}=4{,}75\\cdot10^{-6}\\ \\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}75\\ \\mu\\mathrm C\\).</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0,
+    "rättSvar": 4.75,
+    "tolerans": 0.0712,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -77968,16 +77968,16 @@ window.BANK = [
     "niva": "E",
     "typ": "kortslutningsström",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har ems \\(9{,}0\\ \\mathrm V\\) och inre resistansen \\(1{,}0\\ \\Omega\\). Bestäm kortslutningsströmmen enligt modellen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid kortslutning begränsas strömmen i modellen bara av den inre resistansen.</p><div class=\"facit-matte\">\\[I_k=\\frac{9{,}0}{1{,}0}=9{,}0\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm A\\).</p></div>",
+    "t": "<p>Ett batteri har ems \\(9{,}0\\ \\mathrm V\\) och inre resistansen \\(1{,}4\\ \\Omega\\). Bestäm kortslutningsströmmen enligt modellen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid kortslutning begränsas strömmen i modellen bara av den inre resistansen.</p><div class=\"facit-matte\">\\[I_k=\\frac{9{,}0}{1{,}4}\\approx6{,}4\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}4\\ \\mathrm A\\).</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 0,
+    "rättSvar": 6.42857142857,
+    "tolerans": 0.0964,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -77999,16 +77999,16 @@ window.BANK = [
     "niva": "E",
     "typ": "effektförlust i inre resistans",
     "poang": "(1/0/0)",
-    "t": "<p>Strömmen genom ett batteri är \\(2{,}0\\ \\mathrm A\\) och den inre resistansen är \\(0{,}50\\ \\Omega\\). Hur stor effekt utvecklas som värme inne i batteriet?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Värmeeffekten i den inre resistansen kan beräknas som \\(I^2r\\).</p><div class=\"facit-matte\">\\[P_r=I^2r=2{,}0^2\\cdot0{,}50=2{,}0\\ \\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm W\\).</p></div>",
+    "t": "<p>Strömmen genom ett batteri är \\(2{,}6\\ \\mathrm A\\) och den inre resistansen är \\(0{,}35\\ \\Omega\\). Hur stor effekt utvecklas som värme inne i batteriet?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Värmeeffekten i den inre resistansen kan beräknas som \\(I^2r\\).</p><div class=\"facit-matte\">\\[P_r=I^2r=2{,}6^2\\cdot0{,}35\\approx2{,}37\\ \\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}37\\ \\mathrm W\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 2.366,
+    "tolerans": 0.0355,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -79306,16 +79306,16 @@ window.BANK = [
     "omr": "strom",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Genom ett tvärsnitt av en strömförande kabel passerar laddningen 15 mC. Det tar 5,0 sekunder för laddningen att passera tvärsnittet.</p>\n<p>Hur stor ström går genom kabeln?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ström är laddning som passerar per tidsenhet, \\(I=Q/t\\). Skriv laddningen i coulomb innan du sätter in värdena.</p><div class=\"facit-matte\">\\[Q=15\\ \\mathrm{mC}=0{,}015\\ \\mathrm C\\]\\[I=\\frac Qt=\\frac{0{,}015}{5{,}0}=0{,}0030\\ \\mathrm A=3{,}0\\ \\mathrm{mA}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(3{,}0\\ \\mathrm{mA}\\).</p></div>",
+    "t": "<p>Genom ett tvärsnitt av en strömförande kabel passerar laddningen 18 mC. Det tar 4,0 sekunder för laddningen att passera tvärsnittet.</p>\n<p>Hur stor ström går genom kabeln?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ström är laddning som passerar per tidsenhet, \\(I=Q/t\\). Skriv laddningen i coulomb innan du sätter in värdena.</p><div class=\"facit-matte\">\\[Q=18\\ \\mathrm{mC}=0{,}018\\ \\mathrm C\\]\\[I=\\frac Qt=\\frac{0{,}018}{4{,}0}=0{,}0045\\ \\mathrm A=4{,}5\\ \\mathrm{mA}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(4{,}5\\ \\mathrm{mA}\\).</p></div>",
     "familj": "Ström och laddning i kretsar",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": 0.045,
+    "rättSvar": 4.5,
+    "tolerans": 0.0675,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "mA",
@@ -79337,16 +79337,16 @@ window.BANK = [
     "niva": "E",
     "typ": "spänning med Ohms lag",
     "poang": "(1/0/0)",
-    "t": "<p>Genom en resistor på \\(5{,}0\\ \\Omega\\) går strömmen \\(1{,}8\\ \\mathrm A\\). Bestäm spänningen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Spänningen är resistans gånger ström.</p><div class=\"facit-matte\">\\[U=RI=5{,}0\\cdot1{,}8=9{,}0\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm V\\).</p></div>",
+    "t": "<p>Genom en resistor på \\(5{,}6\\ \\Omega\\) går strömmen \\(1{,}8\\ \\mathrm A\\). Bestäm spänningen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Spänningen är resistans gånger ström.</p><div class=\"facit-matte\">\\[U=RI=5{,}6\\cdot1{,}8\\approx10{,}1\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}1\\ \\mathrm V\\).</p></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kretsar__ohms_lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 0,
+    "rättSvar": 10.08,
+    "tolerans": 0.151,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -79528,16 +79528,16 @@ window.BANK = [
     "niva": "E",
     "typ": "resistans med Ohms lag",
     "poang": "(1/0/0)",
-    "t": "<p>Spänningen över en komponent är \\(12\\ \\mathrm V\\) och strömmen är \\(2{,}0\\ \\mathrm A\\). Bestäm resistansen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Resistansen är spänningen dividerad med strömmen.</p><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{12}{2{,}0}=6{,}0\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\Omega\\).</p></div>",
+    "t": "<p>Spänningen över en komponent är \\(12\\ \\mathrm V\\) och strömmen är \\(2{,}6\\ \\mathrm A\\). Bestäm resistansen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Resistansen är spänningen dividerad med strömmen.</p><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{12}{2{,}6}\\approx4{,}6\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}6\\ \\Omega\\).</p></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kretsar__ohms_lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 4.61538461538,
+    "tolerans": 0.0692,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -79624,16 +79624,16 @@ window.BANK = [
     "niva": "E",
     "typ": "laddning från kraft och fältstyrka",
     "poang": "(1/0/0)",
-    "t": "<p>En laddning påverkas av kraften \\(0{,}030\\ \\mathrm N\\) i ett fält med styrkan \\(6000\\ \\mathrm{N/C}\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut laddningen ur sambandet mellan kraft och fältstyrka.</p><div class=\"facit-matte\">\\[q=\\frac{F}{E}=\\frac{0{,}030}{6000}=5{,}0\\cdot10^{-6}\\ \\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mu\\mathrm C\\).</p></div>",
+    "t": "<p>En laddning påverkas av kraften \\(0{,}028\\ \\mathrm N\\) i ett fält med styrkan \\(6500\\ \\mathrm{N/C}\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut laddningen ur sambandet mellan kraft och fältstyrka.</p><div class=\"facit-matte\">\\[q=\\frac{F}{E}=\\frac{0{,}028}{6500}\\approx4{,}3\\cdot10^{-6}\\ \\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\ \\mu\\mathrm C\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0,
+    "rättSvar": 4.30769230769,
+    "tolerans": 0.0646,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -79922,16 +79922,16 @@ window.BANK = [
     "niva": "E",
     "typ": "energi från laddning och potentialskillnad",
     "poang": "(1/0/0)",
-    "t": "<p>En laddning på \\(2{,}0\\ \\mathrm C\\) flyttas genom potentialskillnaden \\(6{,}0\\ \\mathrm V\\). Hur stor är energiändringen i storlek?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Multiplicera laddning med potentialskillnad.</p><div class=\"facit-matte\">\\[|\\Delta E_p|=qU=2{,}0\\cdot6{,}0=12\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm J\\).</p></div>",
+    "t": "<p>En laddning på \\(2{,}5\\ \\mathrm C\\) flyttas genom potentialskillnaden \\(6{,}2\\ \\mathrm V\\). Hur stor är energiändringen i storlek?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Multiplicera laddning med potentialskillnad.</p><div class=\"facit-matte\">\\[|\\Delta E_p|=qU=2{,}5\\cdot6{,}2=15{,}5\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15{,}5\\ \\mathrm J\\).</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": 0,
+    "rättSvar": 15.5,
+    "tolerans": 0.232,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -80275,16 +80275,16 @@ window.BANK = [
     "niva": "E",
     "typ": "enkel Coulombkraft",
     "poang": "(1/0/0)",
-    "t": "<p>Två punktladdningar har storlekarna \\(1{,}0\\ \\mu\\mathrm C\\) vardera och ligger \\(1{,}0\\ \\mathrm m\\) från varandra. Bestäm Coulombkraftens storlek.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Sätt in laddningarna och avståndet i Coulombs lag.</p><div class=\"facit-matte\">\\[F=k\\frac{|q_1q_2|}{r^2}=8{,}99\\cdot10^9\\frac{(1{,}0\\cdot10^{-6})^2}{1{,}0^2}=8{,}99\\cdot10^{-3}\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm{mN}\\).</p></div>",
+    "t": "<p>Två punktladdningar har storlekarna \\(1{,}4\\ \\mu\\mathrm C\\) vardera och ligger \\(0{,}75\\ \\mathrm m\\) från varandra. Bestäm Coulombkraftens storlek.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Sätt in laddningarna och avståndet i Coulombs lag.</p><div class=\"facit-matte\">\\[F=k\\frac{|q_1q_2|}{r^2}=8{,}99\\cdot10^9\\frac{(1{,}4\\cdot10^{-6})^2}{0{,}75^2}\\approx3{,}13\\cdot10^{-2}\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(31\\ \\mathrm{mN}\\).</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 0.1,
+    "rättSvar": 31.3251555556,
+    "tolerans": 0.47,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -80368,8 +80368,8 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En laddare levererar 5,0 V och 2,0 A i 90 minuter.</p>\n<ol><li>Hur mycket energi har överförts?</li>\n<li>Mobilbatteriet är märkt 4000 mAh vid 3,7 V. Hur mycket energi rymmer det?</li><li>Kommentera skillnaden.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Laddningstiden är \\(90\\ \\mathrm{min}=5400\\ \\mathrm s\\).</p><div class=\"facit-matte\">\\[E=UIt=5{,}0\\cdot2{,}0\\cdot5400=5{,}4\\cdot10^4\\ \\mathrm J=15\\ \\mathrm{Wh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kapaciteten \\(4000\\ \\mathrm{mAh}=4{,}0\\ \\mathrm{Ah}\\) motsvarar laddningen \\(Q=4{,}0\\cdot3600=14400\\ \\mathrm C\\).</p><div class=\"facit-matte\">\\[E_b=QU=14400\\cdot3{,}7=5{,}328\\cdot10^4\\ \\mathrm J=14{,}8\\ \\mathrm{Wh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De nominella värdena är nästan lika, men verklig laddspänning och ström varierar under laddningen och en del energi blir värme i elektronik och batteri.</p><p>Därför kan man inte tolka 5,0 V och 2,0 A som konstant lagrad effekt under hela tiden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Laddaren överför nominellt \\(54\\ \\mathrm{kJ}=15\\ \\mathrm{Wh}\\). Batteriets märkenergi är cirka \\(53\\ \\mathrm{kJ}=14{,}8\\ \\mathrm{Wh}\\).</p></div>",
+    "t": "<p>En laddare levererar 5,0 V och 2,2 A i 80 minuter.</p>\n<ol><li>Hur mycket energi har överförts?</li>\n<li>Mobilbatteriet är märkt 4000 mAh vid 3,7 V. Hur mycket energi rymmer det?</li><li>Kommentera skillnaden.</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\).</p><div class=\"facit-matte\">\\[E=UIt=5{,}0\\cdot2{,}2\\cdot4800=5{,}28\\cdot10^4\\ \\mathrm J\\approx14{,}7\\ \\mathrm{Wh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kapaciteten \\(4000\\ \\mathrm{mAh}=4{,}0\\ \\mathrm{Ah}\\) motsvarar laddningen \\(Q=4{,}0\\cdot3600=14400\\ \\mathrm C\\).</p><div class=\"facit-matte\">\\[E_b=QU=14400\\cdot3{,}7=5{,}328\\cdot10^4\\ \\mathrm J=14{,}8\\ \\mathrm{Wh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De nominella värdena är nästan lika, men verklig laddspänning och ström varierar under laddningen och en del energi blir värme i elektronik och batteri.</p><p>Därför kan man inte tolka 5,0 V och 2,2 A som konstant lagrad effekt under hela tiden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Laddaren överför nominellt \\(52{,}8\\ \\mathrm{kJ}\\approx14{,}7\\ \\mathrm{Wh}\\). Batteriets märkenergi är cirka \\(53\\ \\mathrm{kJ}=14{,}8\\ \\mathrm{Wh}\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -80377,12 +80377,12 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      15,
+      14.6666666667,
       14.8,
       null
     ],
     "tolerans": [
-      0.22499999999999998,
+      0.22,
       0.222,
       null
     ],
@@ -80407,15 +80407,15 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Laddningstiden är \\(90\\ \\mathrm{min}=5400\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+    "ledtrad": "<p>Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En laddare levererar 5,0 V och 2,0 A i 90 minuter.</p>",
+    "spelIntro": "<p>En laddare levererar 5,0 V och 2,2 A i 80 minuter.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur mycket energi har överförts?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Laddningstiden är \\(90\\ \\mathrm{min}=5400\\ \\mathrm s\\).</p><div class=\"facit-matte\">\\[E=UIt=5{,}0\\cdot2{,}0\\cdot5400=5{,}4\\cdot10^4\\ \\mathrm J=15\\ \\mathrm{Wh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\ \\mathrm{Wh}\\).</p></div>",
-        "ledtrad": "<p>Laddningstiden är \\(90\\ \\mathrm{min}=5400\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\).</p><div class=\"facit-matte\">\\[E=UIt=5{,}0\\cdot2{,}2\\cdot4800=5{,}28\\cdot10^4\\ \\mathrm J\\approx14{,}7\\ \\mathrm{Wh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\ \\mathrm{Wh}\\).</p></div>",
+        "ledtrad": "<p>Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -80423,15 +80423,15 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Mobilbatteriet är märkt 4000 mAh vid 3,7 V. Hur mycket energi rymmer det?",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kapaciteten \\(4000\\ \\mathrm{mAh}=4{,}0\\ \\mathrm{Ah}\\) motsvarar laddningen \\(Q=4{,}0\\cdot3600=14400\\ \\mathrm C\\).</p><div class=\"facit-matte\">\\[E_b=QU=14400\\cdot3{,}7=5{,}328\\cdot10^4\\ \\mathrm J=14{,}8\\ \\mathrm{Wh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}8\\ \\mathrm{Wh}\\).</p></div>",
-        "ledtrad": "<p>Laddningstiden är \\(90\\ \\mathrm{min}=5400\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+        "ledtrad": "<p>Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "Kommentera skillnaden.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De nominella värdena är nästan lika, men verklig laddspänning och ström varierar under laddningen och en del energi blir värme i elektronik och batteri.</p><p>Därför kan man inte tolka 5,0 V och 2,0 A som konstant lagrad effekt under hela tiden.</p></div></div></div>",
-        "ledtrad": "<p>Laddningstiden är \\(90\\ \\mathrm{min}=5400\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De nominella värdena är nästan lika, men verklig laddspänning och ström varierar under laddningen och en del energi blir värme i elektronik och batteri.</p><p>Därför kan man inte tolka 5,0 V och 2,2 A som konstant lagrad effekt under hela tiden.</p></div></div></div>",
+        "ledtrad": "<p>Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -80451,16 +80451,16 @@ window.BANK = [
     "niva": "E",
     "typ": "ström från laddning och tid",
     "poang": "(1/0/0)",
-    "t": "<p>Laddningen \\(6{,}0\\ \\mathrm C\\) passerar ett tvärsnitt på \\(3{,}0\\ \\mathrm s\\). Bestäm strömmen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ström är laddning per tid.</p><div class=\"facit-matte\">\\[I=\\frac{Q}{t}=\\frac{6{,}0}{3{,}0}=2{,}0\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm A\\).</p></div>",
+    "t": "<p>Laddningen \\(7{,}5\\ \\mathrm C\\) passerar ett tvärsnitt på \\(3{,}2\\ \\mathrm s\\). Bestäm strömmen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ström är laddning per tid.</p><div class=\"facit-matte\">\\[I=\\frac{Q}{t}=\\frac{7{,}5}{3{,}2}\\approx2{,}34\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}34\\ \\mathrm A\\).</p></div>",
     "familj": "Ström och laddning i kretsar",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kretsar__ohms_lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 2.34375,
+    "tolerans": 0.0352,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -80543,8 +80543,8 @@ window.BANK = [
     "niva": "C",
     "typ": "beräkna energiförbrukning och kostnad för en elapparat, ur text, sökt energi kostnad och ström",
     "poang": "(2/1/0)",
-    "t": "<p>Ett element är märkt 2,0 kW och används 3,0 timmar per dag i 30 dagar. Elpriset är 2,50 kr per kilowattimme. Elementet drivs med 230 V.</p>\n<ol><li>Hur mycket energi förbrukar elementet på en dag, i kilowattimmar?</li>\n<li>Hur mycket blir det på en månad?</li>\n<li>Vad kostar det?</li>\n<li>Hur stor ström går genom elementet när det är på?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Daglig energi är effekt gånger tid.</p><div class=\"facit-matte\">\\[E_d=2{,}0\\cdot3{,}0=6{,}0\\ \\mathrm{kWh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På 30 dagar blir det</p><div class=\"facit-matte\">\\[E_m=6{,}0\\cdot30=180\\ \\mathrm{kWh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kostnaden blir</p><div class=\"facit-matte\">\\[C=180\\cdot2{,}50=450\\ \\mathrm{kr}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strömmen vid 230 V är</p><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{2000}{230}=8{,}70\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Elementet använder \\(6{,}0\\ \\mathrm{kWh/dag}\\), \\(180\\ \\mathrm{kWh/månad}\\), kostar \\(450\\ \\mathrm{kr}\\), och drar \\(8{,}7\\ \\mathrm A\\).</p></div>",
+    "t": "<p>Ett element är märkt 1,8 kW och används 3,5 timmar per dag i 30 dagar. Elpriset är 2,50 kr per kilowattimme. Elementet drivs med 230 V.</p>\n<ol><li>Hur mycket energi förbrukar elementet på en dag, i kilowattimmar?</li>\n<li>Hur mycket blir det på en månad?</li>\n<li>Vad kostar det?</li>\n<li>Hur stor ström går genom elementet när det är på?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Daglig energi är effekt gånger tid.</p><div class=\"facit-matte\">\\[E_d=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På 30 dagar blir det</p><div class=\"facit-matte\">\\[E_m=6{,}3\\cdot30=189\\ \\mathrm{kWh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kostnaden blir</p><div class=\"facit-matte\">\\[C=189\\cdot2{,}50\\approx473\\ \\mathrm{kr}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strömmen vid 230 V är</p><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{1800}{230}\\approx7{,}83\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Elementet använder \\(6{,}3\\ \\mathrm{kWh/dag}\\), \\(189\\ \\mathrm{kWh/månad}\\), kostar \\(473\\ \\mathrm{kr}\\), och drar \\(7{,}8\\ \\mathrm A\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -80552,16 +80552,16 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      6,
-      180,
+      6.3,
+      189.0,
       null,
-      8.7
+      7.82608695652
     ],
     "tolerans": [
-      0.09,
-      2.6999999999999997,
+      0.0945,
+      2.83,
       null,
-      0.13049999999999998
+      0.117
     ],
     "självrättning": [
       true,
@@ -80590,33 +80590,33 @@ window.BANK = [
     ],
     "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett element är märkt 2,0 kW och används 3,0 timmar per dag i 30 dagar. Elpriset är 2,50 kr per kilowattimme. Elementet drivs med 230 V.</p>",
+    "spelIntro": "<p>Ett element är märkt 1,8 kW och används 3,5 timmar per dag i 30 dagar. Elpriset är 2,50 kr per kilowattimme. Elementet drivs med 230 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur mycket energi förbrukar elementet på en dag, i kilowattimmar?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Daglig energi är effekt gånger tid.</p><div class=\"facit-matte\">\\[E_d=2{,}0\\cdot3{,}0=6{,}0\\ \\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm{kWh}\\).</p></div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Daglig energi är effekt gånger tid.</p><div class=\"facit-matte\">\\[E_d=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm{kWh}\\).</p></div>",
         "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
         "fraga": "Hur mycket blir det på en månad?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På 30 dagar blir det</p><div class=\"facit-matte\">\\[E_m=6{,}0\\cdot30=180\\ \\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(180\\ \\mathrm{kWh}\\).</p></div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På 30 dagar blir det</p><div class=\"facit-matte\">\\[E_m=6{,}3\\cdot30=189\\ \\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(180\\ \\mathrm{kWh}\\).</p></div>",
         "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
         "niva": "C"
       },
       {
         "etikett": "c",
         "fraga": "Vad kostar det?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kostnaden blir</p><div class=\"facit-matte\">\\[C=180\\cdot2{,}50=450\\ \\mathrm{kr}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\ \\mathrm{kr}\\).</p></div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kostnaden blir</p><div class=\"facit-matte\">\\[C=189\\cdot2{,}50\\approx473\\ \\mathrm{kr}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\ \\mathrm{kr}\\).</p></div>",
         "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
         "niva": "C"
       },
       {
         "etikett": "d",
         "fraga": "Hur stor ström går genom elementet när det är på?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strömmen vid 230 V är</p><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{2000}{230}=8{,}70\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}70\\ \\mathrm A\\).</p></div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strömmen vid 230 V är</p><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{1800}{230}\\approx7{,}83\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}70\\ \\mathrm A\\).</p></div>",
         "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
         "niva": "C"
       }
@@ -80636,16 +80636,16 @@ window.BANK = [
     "niva": "E",
     "typ": "resistans med Ohms lag",
     "poang": "(1/0/0)",
-    "t": "<p>Genom en resistor går strömmen \\(0{,}50\\ \\mathrm A\\) när spänningen är \\(10\\ \\mathrm V\\). Bestäm resistansen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dividera spänningen med strömmen.</p><div class=\"facit-matte\">\\[R=\\frac{10}{0{,}50}=20\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\Omega\\).</p></div>",
+    "t": "<p>Genom en resistor går strömmen \\(0{,}45\\ \\mathrm A\\) när spänningen är \\(10\\ \\mathrm V\\). Bestäm resistansen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dividera spänningen med strömmen.</p><div class=\"facit-matte\">\\[R=\\frac{10}{0{,}45}\\approx22\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\ \\Omega\\).</p></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kretsar__ohms_lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0,
+    "rättSvar": 22.2222222222,
+    "tolerans": 0.333,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -81096,16 +81096,16 @@ window.BANK = [
     "niva": "E",
     "typ": "ström från inre spänningsfall och resistans",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri med inre resistansen \\(0{,}40\\ \\Omega\\) har ett inre spänningsfall på \\(0{,}80\\ \\mathrm V\\). Bestäm strömmen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd Ohms lag för den inre resistansen.</p><div class=\"facit-matte\">\\[I=\\frac{U_r}{r}=\\frac{0{,}80}{0{,}40}=2{,}0\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm A\\).</p></div>",
+    "t": "<p>Ett batteri med inre resistansen \\(0{,}35\\ \\Omega\\) har ett inre spänningsfall på \\(0{,}84\\ \\mathrm V\\). Bestäm strömmen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd Ohms lag för den inre resistansen.</p><div class=\"facit-matte\">\\[I=\\frac{U_r}{r}=\\frac{0{,}84}{0{,}35}=2{,}4\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}4\\ \\mathrm A\\).</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 2.4,
+    "tolerans": 0.036,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -81484,20 +81484,20 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma laddning från kraft och fält",
     "poang": "(1/0/0)",
-    "t": "<p>En laddning påverkas av kraften \\(0{,}054\\,\\mathrm N\\) i ett homogent fält med styrkan \\(18\\,\\mathrm{kN/C}\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut laddningen ur \\(F=qE\\).</p><div class=\"facit-matte\">\\[q=\\frac{0{,}054}{18\\cdot10^3}=3\\cdot10^{-6}\\ \\mathrm C=3\\ \\mu\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,\\mu\\mathrm C\\).</p></div>",
+    "t": "<p>En laddning påverkas av kraften \\(0{,}050\\,\\mathrm N\\) i ett homogent fält med styrkan \\(16\\,\\mathrm{kN/C}\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut laddningen ur \\(F=qE\\).</p><div class=\"facit-matte\">\\[q=\\frac{0{,}050}{16\\cdot10^3}\\approx3{,}1\\cdot10^{-6}\\ \\mathrm C=3{,}1\\ \\mu\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}1\\,\\mu\\mathrm C\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": 0.05399999999999999,
+    "rättSvar": 3.125,
+    "tolerans": 0.0562,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Omvandla först \\(18\\,\\mathrm{kN/C}\\) till \\(\\mathrm{N/C}\\).</p>",
+    "ledtrad": "<p>Omvandla först \\(16\\,\\mathrm{kN/C}\\) till \\(\\mathrm{N/C}\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µC",
     "traningsniva": 2,
@@ -81695,16 +81695,16 @@ window.BANK = [
     "niva": "E",
     "typ": "elektronvolt från potentialskillnad",
     "poang": "(1/0/0)",
-    "t": "<p>En elektron passerar en potentialskillnad på \\(9{,}0\\ \\mathrm V\\). Hur stor energiändring motsvarar detta i elektronvolt?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För en elektron motsvarar en potentialskillnad på 1 V en energiändring med beloppet 1 eV.</p><div class=\"facit-matte\">\\[|\\Delta E_p|=9{,}0\\ \\mathrm{eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm{eV}\\).</p></div>",
+    "t": "<p>En elektron passerar en potentialskillnad på \\(7{,}5\\ \\mathrm V\\). Hur stor energiändring motsvarar detta i elektronvolt?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För en elektron motsvarar en potentialskillnad på 1 V en energiändring med beloppet 1 eV.</p><div class=\"facit-matte\">\\[|\\Delta E_p|=7{,}5\\ \\mathrm{eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\ \\mathrm{eV}\\).</p></div>",
     "familj": "Elektronvolt och accelererade partiklar",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 0,
+    "rättSvar": 7.5,
+    "tolerans": 0.112,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -83321,16 +83321,16 @@ window.BANK = [
     "omr": "falt",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En laddad partikel med laddningen −8,0 nC befinner sig i ett elektriskt fält. På grund av fältet påverkas partikeln av en kraft med storleken 48 µN.</p>\n<p>Hur starkt är det elektriska fältet där partikeln befinner sig?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fältstyrkans storlek är kraft per laddningsbelopp.</p><div class=\"facit-matte\">\\[E=\\frac F{|q|}=\\frac{48\\cdot10^{-6}}{8{,}0\\cdot10^{-9}}=6{,}0\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Minustecknet på laddningen påverkar kraftens riktning, inte den beräknade fältstyrkans storlek.</p><p>Kraften på partikeln är motsatt fältets riktning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältstyrkan är \\(6{,}0\\ \\mathrm{kV/m}\\).</p></div>",
+    "t": "<p>En laddad partikel med laddningen −7,5 nC befinner sig i ett elektriskt fält. På grund av fältet påverkas partikeln av en kraft med storleken 52 µN.</p>\n<p>Hur starkt är det elektriska fältet där partikeln befinner sig?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fältstyrkans storlek är kraft per laddningsbelopp.</p><div class=\"facit-matte\">\\[E=\\frac F{|q|}=\\frac{52\\cdot10^{-6}}{7{,}5\\cdot10^{-9}}\\approx6{,}9\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Minustecknet på laddningen påverkar kraftens riktning, inte den beräknade fältstyrkans storlek.</p><p>Kraften på partikeln är motsatt fältets riktning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältstyrkan är \\(6{,}9\\ \\mathrm{kV/m}\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0.09,
+    "rättSvar": 6.93333333333,
+    "tolerans": 0.104,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kV/m",
@@ -84365,8 +84365,8 @@ window.BANK = [
     "omr": "strom",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>Genom en sladd går strömmen 0,40 A.</p>\n<ol><li>Hur stor laddning hinner passera ett tvärsnitt av sladden på 30 sekunder?</li>\n<li>Hur många elektroner har passerat tvärsnittet under dessa 30 sekunder?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Laddningen under 30 s är</p><div class=\"facit-matte\">\\[Q=It=0{,}40\\cdot30=12\\ \\mathrm C\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Antalet elektroner är laddningen delad med elementarladdningen.</p><div class=\"facit-matte\">\\[N=\\frac{12}{1{,}602\\cdot10^{-19}}=7{,}49\\cdot10^{19}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det passerar \\(12\\ \\mathrm C\\), motsvarande cirka \\(7{,}5\\cdot10^{19}\\) elektroner.</p></div>",
+    "t": "<p>Genom en sladd går strömmen 0,35 A.</p>\n<ol><li>Hur stor laddning hinner passera ett tvärsnitt av sladden på 45 sekunder?</li>\n<li>Hur många elektroner har passerat tvärsnittet under dessa 45 sekunder?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Laddningen under 45 s är</p><div class=\"facit-matte\">\\[Q=It=0{,}35\\cdot45\\approx15{,}8\\ \\mathrm C\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Antalet elektroner är laddningen delad med elementarladdningen.</p><div class=\"facit-matte\">\\[N=\\frac{15{,}75}{1{,}602\\cdot10^{-19}}\\approx9{,}83\\cdot10^{19}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det passerar \\(15{,}8\\ \\mathrm C\\), motsvarande cirka \\(9{,}8\\cdot10^{19}\\) elektroner.</p></div>",
     "familj": "Ström och laddning i kretsar",
     "formaga": [
       "procedur"
@@ -84374,12 +84374,12 @@ window.BANK = [
     "familjNyckel": "kretsar__ohms_lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      12,
-      75000000000000000000
+      15.75,
+      9.83146067416e+19
     ],
     "tolerans": [
-      0.18,
-      1125000000000000000
+      0.236,
+      1.47e+18
     ],
     "självrättning": true,
     "svarFormat": [
@@ -84399,15 +84399,15 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Genom en sladd går strömmen 0,40 A.</p><div class=\"spel-en-del\">Hur stor laddning hinner passera ett tvärsnitt av sladden på 30 sekunder?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Laddningen under 30 s är</p><div class=\"facit-matte\">\\[Q=It=0{,}40\\cdot30=12\\ \\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm C\\).</p></div>",
+        "t": "<p>Genom en sladd går strömmen 0,35 A.</p><div class=\"spel-en-del\">Hur stor laddning hinner passera ett tvärsnitt av sladden på 45 sekunder?</div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Laddningen under 45 s är</p><div class=\"facit-matte\">\\[Q=It=0{,}35\\cdot45\\approx15{,}8\\ \\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm C\\).</p></div>",
         "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "t": "<p>Genom en sladd går strömmen 0,40 A.</p><div class=\"spel-en-del\">Hur många elektroner har passerat tvärsnittet under 30 sekunder?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Antalet elektroner är laddningen delad med elementarladdningen.</p><div class=\"facit-matte\">\\[N=\\frac{12}{1{,}602\\cdot10^{-19}}=7{,}49\\cdot10^{19}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}49\\cdot10^{19}\\).</p></div>",
+        "t": "<p>Genom en sladd går strömmen 0,35 A.</p><div class=\"spel-en-del\">Hur många elektroner har passerat tvärsnittet under 45 sekunder?</div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Antalet elektroner är laddningen delad med elementarladdningen.</p><div class=\"facit-matte\">\\[N=\\frac{15{,}75}{1{,}602\\cdot10^{-19}}\\approx9{,}83\\cdot10^{19}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}49\\cdot10^{19}\\).</p></div>",
         "ledtrad": "<p>Antalet elektroner är laddningen delad med elementarladdningen.</p>",
         "niva": "C"
       }
@@ -84457,8 +84457,8 @@ window.BANK = [
     "omr": "strom",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En enhet som ofta används för laddning på batterier istället för coulomb är amperetimmar, Ah. Ett batteri på 1 Ah kan leverera strömmen 1 ampere i en timme. Ett batteri är märkt 2,5 Ah.</p>\n<ol><li>Hur länge kan man ta ut strömmen 1,5 A från batteriet innan det är urladdat?</li>\n<li>Hur många coulomb motsvarar 2,5 Ah?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kapaciteten delad med strömmen ger tiden i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{2{,}5\\ \\mathrm{Ah}}{1{,}5\\ \\mathrm A}=1{,}667\\ \\mathrm h\\]</div><p>Det är \\(1\\ \\mathrm h\\ 40\\ \\mathrm{min}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En amperetimme är 3600 C.</p><div class=\"facit-matte\">\\[Q=2{,}5\\cdot3600=9000\\ \\mathrm C=9{,}0\\ \\mathrm{kC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Batteriet räcker idealiskt \\(1\\ \\mathrm h\\ 40\\ \\mathrm{min}\\), och \\(2{,}5\\ \\mathrm{Ah}=9{,}0\\ \\mathrm{kC}\\).</p></div>",
+    "t": "<p>En enhet som ofta används för laddning på batterier istället för coulomb är amperetimmar, Ah. Ett batteri på 1 Ah kan leverera strömmen 1 ampere i en timme. Ett batteri är märkt 2,2 Ah.</p>\n<ol><li>Hur länge kan man ta ut strömmen 1,5 A från batteriet innan det är urladdat?</li>\n<li>Hur många coulomb motsvarar 2,2 Ah?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kapaciteten delad med strömmen ger tiden i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{2{,}2\\ \\mathrm{Ah}}{1{,}5\\ \\mathrm A}\\approx1{,}467\\ \\mathrm h\\]</div><p>Det är \\(1\\ \\mathrm h\\ 28\\ \\mathrm{min}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En amperetimme är 3600 C.</p><div class=\"facit-matte\">\\[Q=2{,}2\\cdot3600=7920\\ \\mathrm C\\approx7{,}9\\ \\mathrm{kC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Batteriet räcker idealiskt \\(1\\ \\mathrm h\\ 28\\ \\mathrm{min}\\), och \\(2{,}2\\ \\mathrm{Ah}\\approx7{,}9\\ \\mathrm{kC}\\).</p></div>",
     "familj": "Ström och laddning i kretsar",
     "formaga": [
       "procedur"
@@ -84467,11 +84467,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      9
+      7.92
     ],
     "tolerans": [
       null,
-      0.135
+      0.119
     ],
     "självrättning": [
       false,
@@ -84492,19 +84492,19 @@ window.BANK = [
     ],
     "ledtrad": "<p>Kapaciteten delad med strömmen ger tiden i timmar. Använd \\(U=RI\\) och lös ut den storhet som efterfrågas.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En enhet som ofta används för laddning på batterier istället för coulomb är amperetimmar, Ah. Ett batteri på 1 Ah kan leverera strömmen 1 ampere i en timme. Ett batteri är märkt 2,5 Ah.</p>",
+    "spelIntro": "<p>En enhet som ofta används för laddning på batterier istället för coulomb är amperetimmar, Ah. Ett batteri på 1 Ah kan leverera strömmen 1 ampere i en timme. Ett batteri är märkt 2,2 Ah.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur länge kan man ta ut strömmen 1,5 A från batteriet innan det är urladdat?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kapaciteten delad med strömmen ger tiden i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{2{,}5\\ \\mathrm{Ah}}{1{,}5\\ \\mathrm A}=1{,}667\\ \\mathrm h\\]</div><p>Det är \\(1\\ \\mathrm h\\ 40\\ \\mathrm{min}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}667\\ \\mathrm h\\).</p></div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kapaciteten delad med strömmen ger tiden i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{2{,}2\\ \\mathrm{Ah}}{1{,}5\\ \\mathrm A}\\approx1{,}467\\ \\mathrm h\\]</div><p>Det är \\(1\\ \\mathrm h\\ 28\\ \\mathrm{min}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}667\\ \\mathrm h\\).</p></div>",
         "ledtrad": "<p>Kapaciteten delad med strömmen ger tiden i timmar. Använd \\(U=RI\\) och lös ut den storhet som efterfrågas.</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "fraga": "Hur många coulomb motsvarar 2,5 Ah?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En amperetimme är 3600 C.</p><div class=\"facit-matte\">\\[Q=2{,}5\\cdot3600=9000\\ \\mathrm C=9{,}0\\ \\mathrm{kC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm{kC}\\).</p></div>",
+        "fraga": "Hur många coulomb motsvarar 2,2 Ah?",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En amperetimme är 3600 C.</p><div class=\"facit-matte\">\\[Q=2{,}2\\cdot3600=7920\\ \\mathrm C\\approx7{,}9\\ \\mathrm{kC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm{kC}\\).</p></div>",
         "ledtrad": "<p>Kapaciteten delad med strömmen ger tiden i timmar. Använd \\(U=RI\\) och lös ut den storhet som efterfrågas.</p>",
         "niva": "C"
       }
@@ -86961,16 +86961,16 @@ window.BANK = [
     "niva": "E",
     "typ": "potentialskillnad som energi per laddning",
     "poang": "(1/0/0)",
-    "t": "<p>Det krävs \\(24\\ \\mathrm J\\) för att flytta laddningen \\(3{,}0\\ \\mathrm C\\) mellan två punkter. Bestäm potentialskillnaden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Potentialskillnaden är energi per laddning.</p><div class=\"facit-matte\">\\[U=\\frac{W}{q}=\\frac{24}{3{,}0}=8{,}0\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\ \\mathrm V\\).</p></div>",
+    "t": "<p>Det krävs \\(26\\ \\mathrm J\\) för att flytta laddningen \\(3{,}5\\ \\mathrm C\\) mellan två punkter. Bestäm potentialskillnaden.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Potentialskillnaden är energi per laddning.</p><div class=\"facit-matte\">\\[U=\\frac{W}{q}=\\frac{26}{3{,}5}\\approx7{,}4\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}4\\ \\mathrm V\\).</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": 0,
+    "rättSvar": 7.42857142857,
+    "tolerans": 0.111,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -87447,16 +87447,16 @@ window.BANK = [
     "omr": "falt",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En kula med laddningen 3,0 nC placeras i ett elektriskt fält med fältstyrkan 5000 V/m.</p>\n<p>Hur stor kraft verkar på kulan?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraftens storlek fås av \\(F=|q|E\\).</p><div class=\"facit-matte\">\\[F=(3{,}0\\cdot10^{-9})(5{,}0\\cdot10^3)=1{,}5\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Eftersom laddningen är positiv är kraften riktad i fältets riktning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är \\(1{,}5\\cdot10^{-5}\\ \\mathrm N=15\\ \\mu\\mathrm N\\), i fältets riktning.</p></div>",
+    "t": "<p>En kula med laddningen 3,6 nC placeras i ett elektriskt fält med fältstyrkan 4500 V/m.</p>\n<p>Hur stor kraft verkar på kulan?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraftens storlek fås av \\(F=|q|E\\).</p><div class=\"facit-matte\">\\[F=(3{,}6\\cdot10^{-9})(4{,}5\\cdot10^3)\\approx1{,}62\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Eftersom laddningen är positiv är kraften riktad i fältets riktning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är \\(1{,}62\\cdot10^{-5}\\ \\mathrm N=16{,}2\\ \\mu\\mathrm N\\), i fältets riktning.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": 0.22499999999999998,
+    "rättSvar": 16.2,
+    "tolerans": 0.243,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "µN",
@@ -87593,16 +87593,16 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett batteri ska laddas med laddningen 8,0 kC. Batteriets spänning är 1,5 V.</p>\n<p>Hur mycket energi krävs?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Spänning anger energi per laddning: \\(U=E/Q\\). Därför är \\(E=QU\\). Skriv först kilocoulomb i coulomb.</p><div class=\"facit-matte\">\\[Q=8{,}0\\ \\mathrm{kC}=8000\\ \\mathrm C\\]\\[E=QU=8000\\cdot1{,}5=12000\\ \\mathrm J=12\\ \\mathrm{kJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det krävs \\(12\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>Ett batteri ska laddas med laddningen 6,5 kC. Batteriets spänning är 1,5 V.</p>\n<p>Hur mycket energi krävs?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Spänning anger energi per laddning: \\(U=E/Q\\). Därför är \\(E=QU\\). Skriv först kilocoulomb i coulomb.</p><div class=\"facit-matte\">\\[Q=6{,}5\\ \\mathrm{kC}=6500\\ \\mathrm C\\]\\[E=QU=6500\\cdot1{,}5=9750\\ \\mathrm J\\approx9{,}8\\ \\mathrm{kJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det krävs \\(9{,}8\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": 0.18,
+    "rättSvar": 9.75,
+    "tolerans": 0.146,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
@@ -87809,8 +87809,8 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Ett batteri är laddat med 5,0 kC. Lina kopplar in ett motstånd till batteriet, och när batteriet är urladdat har motståndet mottagit energin 45 kJ.</p>\n<ol><li>Vilken spänning har batteriet?</li>\n<li>Hur lång tid tog urladdningen om strömmen var 250 mA?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Spänningen är energi per laddning.</p><div class=\"facit-matte\">\\[U=\\frac EQ=\\frac{45000}{5000}=9{,}0\\ \\mathrm V\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strömmen är \\(250\\ \\mathrm{mA}=0{,}250\\ \\mathrm A\\).</p><div class=\"facit-matte\">\\[t=\\frac QI=\\frac{5000}{0{,}250}=20000\\ \\mathrm s=5{,}56\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Batterispänningen är \\(9{,}0\\ \\mathrm V\\), och urladdningen tar idealiskt cirka \\(5{,}6\\ \\mathrm h\\).</p></div>",
+    "t": "<p>Ett batteri är laddat med 4,5 kC. Lina kopplar in ett motstånd till batteriet, och när batteriet är urladdat har motståndet mottagit energin 42 kJ.</p>\n<ol><li>Vilken spänning har batteriet?</li>\n<li>Hur lång tid tog urladdningen om strömmen var 220 mA?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Spänningen är energi per laddning.</p><div class=\"facit-matte\">\\[U=\\frac EQ=\\frac{42000}{4500}\\approx9{,}3\\ \\mathrm V\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strömmen är \\(220\\ \\mathrm{mA}=0{,}220\\ \\mathrm A\\).</p><div class=\"facit-matte\">\\[t=\\frac QI=\\frac{4500}{0{,}220}\\approx20\\,500\\ \\mathrm s\\approx5{,}68\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Batterispänningen är \\(9{,}3\\ \\mathrm V\\), och urladdningen tar idealiskt cirka \\(5{,}7\\ \\mathrm h\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -87818,12 +87818,12 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      9,
-      5.6
+      9.33333333333,
+      5.68181818182
     ],
     "tolerans": [
-      0.135,
-      0.08399999999999999
+      0.14,
+      0.0852
     ],
     "självrättning": true,
     "svarFormat": [
@@ -87843,16 +87843,16 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett batteri är laddat med 5,0 kC. Lina kopplar in ett motstånd till batteriet, och när batteriet är urladdat har motståndet mottagit energin 45 kJ.</p><div class=\"spel-en-del\">Vilken spänning har batteriet?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Spänningen är energi per laddning.</p><div class=\"facit-matte\">\\[U=\\frac EQ=\\frac{45000}{5000}=9{,}0\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm V\\).</p></div>",
+        "t": "<p>Ett batteri är laddat med 4,5 kC. Lina kopplar in ett motstånd till batteriet, och när batteriet är urladdat har motståndet mottagit energin 42 kJ.</p><div class=\"spel-en-del\">Vilken spänning har batteriet?</div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Spänningen är energi per laddning.</p><div class=\"facit-matte\">\\[U=\\frac EQ=\\frac{42000}{4500}\\approx9{,}3\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm V\\).</p></div>",
         "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "t": "<p>Ett batteri är laddat med 5,0 kC. Lina kopplar in ett motstånd till batteriet, och när batteriet är urladdat har motståndet mottagit energin 45 kJ.</p><div class=\"spel-en-del\">Hur lång tid tog urladdningen om strömmen var 250 mA?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strömmen är \\(250\\ \\mathrm{mA}=0{,}250\\ \\mathrm A\\).</p><div class=\"facit-matte\">\\[t=\\frac QI=\\frac{5000}{0{,}250}=20000\\ \\mathrm s=5{,}56\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}56\\ \\mathrm h\\).</p></div>",
-        "ledtrad": "<p>Strömmen är \\(250\\ \\mathrm{mA}=0{,}250\\ \\mathrm A\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+        "t": "<p>Ett batteri är laddat med 4,5 kC. Lina kopplar in ett motstånd till batteriet, och när batteriet är urladdat har motståndet mottagit energin 42 kJ.</p><div class=\"spel-en-del\">Hur lång tid tog urladdningen om strömmen var 220 mA?</div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strömmen är \\(220\\ \\mathrm{mA}=0{,}220\\ \\mathrm A\\).</p><div class=\"facit-matte\">\\[t=\\frac QI=\\frac{4500}{0{,}220}\\approx20\\,500\\ \\mathrm s\\approx5{,}68\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}56\\ \\mathrm h\\).</p></div>",
+        "ledtrad": "<p>Strömmen är \\(220\\ \\mathrm{mA}=0{,}220\\ \\mathrm A\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
         "niva": "C"
       }
     ],
@@ -88207,16 +88207,16 @@ window.BANK = [
     "niva": "E",
     "typ": "energi från laddning och spänning",
     "poang": "(1/0/0)",
-    "t": "<p>En laddning på \\(0{,}50\\ \\mathrm C\\) passerar en potentialskillnad på \\(20\\ \\mathrm V\\). Hur stor energi överförs?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Energin är laddning gånger spänning.</p><div class=\"facit-matte\">\\[W=qU=0{,}50\\cdot20=10\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mathrm J\\).</p></div>",
+    "t": "<p>En laddning på \\(0{,}45\\ \\mathrm C\\) passerar en potentialskillnad på \\(24\\ \\mathrm V\\). Hur stor energi överförs?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Energin är laddning gånger spänning.</p><div class=\"facit-matte\">\\[W=qU=0{,}45\\cdot24=10{,}8\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}8\\ \\mathrm J\\).</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0,
+    "rättSvar": 10.8,
+    "tolerans": 0.162,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -88237,16 +88237,16 @@ window.BANK = [
     "niva": "E",
     "typ": "spänning från energi och laddning",
     "poang": "(1/0/0)",
-    "t": "<p>När laddningen \\(3{,}0\\ \\mathrm C\\) flyttas mellan två punkter överförs \\(15\\ \\mathrm J\\). Bestäm spänningen mellan punkterna.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dividera energin med laddningen.</p><div class=\"facit-matte\">\\[U=\\frac{W}{q}=\\frac{15}{3{,}0}=5{,}0\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm V\\).</p></div>",
+    "t": "<p>När laddningen \\(3{,}5\\ \\mathrm C\\) flyttas mellan två punkter överförs \\(15\\ \\mathrm J\\). Bestäm spänningen mellan punkterna.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dividera energin med laddningen.</p><div class=\"facit-matte\">\\[U=\\frac{W}{q}=\\frac{15}{3{,}5}\\approx4{,}3\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\ \\mathrm V\\).</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0,
+    "rättSvar": 4.28571428571,
+    "tolerans": 0.0643,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -91007,8 +91007,8 @@ window.BANK = [
     "niva": "C",
     "typ": "energi och potentialskillnad",
     "poang": "(0/2/0)",
-    "t": "<p>En proton accelereras från vila genom potentialskillnaden \\(2{,}0\\,\\mathrm{kV}\\). Hur stor rörelseenergi får protonen, uttryckt i keV?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">En partikel med laddningsbeloppet e får energin eU.</p><div class=\"facit-matte\">\\[E_k=2,0\\ \\mathrm{keV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,\\mathrm{keV}\\).</p></div>",
+    "t": "<p>En proton accelereras från vila genom potentialskillnaden \\(3{,}5\\,\\mathrm{kV}\\). Hur stor rörelseenergi får protonen, uttryckt i keV?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">En partikel med laddningsbeloppet e får energin eU.</p><div class=\"facit-matte\">\\[E_k=3{,}5\\ \\mathrm{keV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5\\,\\mathrm{keV}\\).</p></div>",
     "familj": "Elektronvolt och accelererade partiklar",
     "formaga": [
       "procedur",
@@ -91016,8 +91016,8 @@ window.BANK = [
     ],
     "familjNyckel": "potential__elektrisk_potential_och_spanning",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0.036,
+    "rättSvar": 3.5,
+    "tolerans": 0.063,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -93749,16 +93749,16 @@ window.BANK = [
     "niva": "E",
     "typ": "absorberad energi från dos och massa",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad med massan \\(2{,}0\\,\\mathrm{kg}\\) får absorberad dos \\(3{,}0\\,\\mathrm{mGy}\\). Hur mycket strålningsenergi absorberas i mJ?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut energin ur sambandet mellan dos, energi och massa.</p><div class=\"facit-matte\">\\[E=Dm=3{,}0\\cdot10^{-3}\\cdot2{,}0=6{,}0\\cdot10^{-3}\\ \\mathrm J=6{,}0\\ \\mathrm{mJ}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm{mJ}\\).</p></div>",
+    "t": "<p>En vävnad med massan \\(2{,}4\\,\\mathrm{kg}\\) får absorberad dos \\(3{,}5\\,\\mathrm{mGy}\\). Hur mycket strålningsenergi absorberas i mJ?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut energin ur sambandet mellan dos, energi och massa.</p><div class=\"facit-matte\">\\[E=Dm=3{,}5\\cdot10^{-3}\\cdot2{,}4=8{,}4\\cdot10^{-3}\\ \\mathrm J=8{,}4\\ \\mathrm{mJ}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}4\\ \\mathrm{mJ}\\).</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 8.4,
+    "tolerans": 0.126,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -93780,16 +93780,16 @@ window.BANK = [
     "niva": "E",
     "typ": "massa från absorberad energi och dos",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad absorberar \\(4{,}0\\,\\mathrm{mJ}\\) och får dosen \\(2{,}0\\,\\mathrm{mGy}\\). Bestäm vävnadens massa.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut massan.</p><div class=\"facit-matte\">\\[m=\\frac{E}{D}=\\frac{4{,}0\\cdot10^{-3}}{2{,}0\\cdot10^{-3}}=2{,}0\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>En vävnad absorberar \\(4{,}5\\,\\mathrm{mJ}\\) och får dosen \\(1{,}8\\,\\mathrm{mGy}\\). Bestäm vävnadens massa.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut massan.</p><div class=\"facit-matte\">\\[m=\\frac{E}{D}=\\frac{4{,}5\\cdot10^{-3}}{1{,}8\\cdot10^{-3}}=2{,}5\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm{kg}\\).</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 2.5,
+    "tolerans": 0.0375,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -94711,16 +94711,16 @@ window.BANK = [
     "niva": "E",
     "typ": "halveringstid från en halvering",
     "poang": "(1/0/0)",
-    "t": "<p>Ett preparat minskar från \\(600\\,\\mathrm{Bq}\\) till \\(300\\,\\mathrm{Bq}\\) på \\(5{,}0\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Aktiviteten har halverats exakt en gång.</p><div class=\"facit-matte\">\\[T_{1/2}=5{,}0\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm h\\).</p></div>",
+    "t": "<p>Ett preparat minskar från \\(600\\,\\mathrm{Bq}\\) till \\(300\\,\\mathrm{Bq}\\) på \\(4{,}5\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Aktiviteten har halverats exakt en gång.</p><div class=\"facit-matte\">\\[T_{1/2}=4{,}5\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\ \\mathrm h\\).</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0,
+    "rättSvar": 4.5,
+    "tolerans": 0.0675,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -94799,16 +94799,16 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla gray till milligray",
     "poang": "(1/0/0)",
-    "t": "<p>Omvandla \\(0{,}0040\\,\\mathrm{Gy}\\) till mGy.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Prefixet milli betyder en tusendel.</p><div class=\"facit-matte\">\\[0{,}0040\\ \\mathrm{Gy}=4{,}0\\ \\mathrm{mGy}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\ \\mathrm{mGy}\\).</p></div>",
+    "t": "<p>Omvandla \\(0{,}0065\\,\\mathrm{Gy}\\) till mGy.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Prefixet milli betyder en tusendel.</p><div class=\"facit-matte\">\\[0{,}0065\\ \\mathrm{Gy}=6{,}5\\ \\mathrm{mGy}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}5\\ \\mathrm{mGy}\\).</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0,
+    "rättSvar": 6.5,
+    "tolerans": 0.0975,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -94978,16 +94978,16 @@ window.BANK = [
     "niva": "E",
     "typ": "ekvivalent dos för alfastrålning",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad får absorberad dos \\(0{,}20\\,\\mathrm{mGy}\\) av alfastrålning. Strålningsviktfaktorn är \\(20\\). Bestäm ekvivalent dos i mSv.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Alfastrålningens viktfaktor multipliceras med den absorberade dosen.</p><div class=\"facit-matte\">\\[H=20\\cdot0{,}20=4{,}0\\ \\mathrm{mSv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\ \\mathrm{mSv}\\).</p></div>",
+    "t": "<p>En vävnad får absorberad dos \\(0{,}23\\,\\mathrm{mGy}\\) av alfastrålning. Strålningsviktfaktorn är \\(20\\). Bestäm ekvivalent dos i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Alfastrålningens viktfaktor multipliceras med den absorberade dosen.</p><div class=\"facit-matte\">\\[H=20\\cdot0{,}23=4{,}6\\ \\mathrm{mSv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}6\\ \\mathrm{mSv}\\).</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0,
+    "rättSvar": 4.6,
+    "tolerans": 0.069,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -95009,16 +95009,16 @@ window.BANK = [
     "niva": "E",
     "typ": "absorberad dos från ekvivalent dos gamma",
     "poang": "(1/0/0)",
-    "t": "<p>En gammastråldos ger ekvivalent dos \\(6{,}0\\,\\mathrm{mSv}\\). Strålningsviktfaktorn är \\(1\\). Bestäm absorberad dos i mGy.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För gamma är viktfaktorn 1, så talvärdet blir detsamma i mGy och mSv.</p><div class=\"facit-matte\">\\[D=\\frac{H}{w_R}=\\frac{6{,}0}{1}=6{,}0\\ \\mathrm{mGy}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm{mGy}\\).</p></div>",
+    "t": "<p>En gammastråldos ger ekvivalent dos \\(4{,}5\\,\\mathrm{mSv}\\). Strålningsviktfaktorn är \\(1\\). Bestäm absorberad dos i mGy.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För gamma är viktfaktorn 1, så talvärdet blir detsamma i mGy och mSv.</p><div class=\"facit-matte\">\\[D=\\frac{H}{w_R}=\\frac{4{,}5}{1}=4{,}5\\ \\mathrm{mGy}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\ \\mathrm{mGy}\\).</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 4.5,
+    "tolerans": 0.0675,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -95293,16 +95293,16 @@ window.BANK = [
     "niva": "E",
     "typ": "dosrat från dos och tid",
     "poang": "(1/0/0)",
-    "t": "<p>En person får dosen \\(80\\,\\mu\\mathrm{Sv}\\) under \\(4{,}0\\,\\mathrm h\\). Bestäm den genomsnittliga dosraten.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dosraten är dos per tid.</p><div class=\"facit-matte\">\\[\\dot H=\\frac{80}{4{,}0}=20\\ \\mu\\mathrm{Sv/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
+    "t": "<p>En person får dosen \\(75\\,\\mu\\mathrm{Sv}\\) under \\(3{,}5\\,\\mathrm h\\). Bestäm den genomsnittliga dosraten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dosraten är dos per tid.</p><div class=\"facit-matte\">\\[\\dot H=\\frac{75}{3{,}5}\\approx21{,}4\\ \\mu\\mathrm{Sv/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21{,}4\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0,
+    "rättSvar": 21.4285714286,
+    "tolerans": 0.321,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -96243,8 +96243,8 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Halveringstiden för ett visst radioaktivt material är 12 minuter. Emelie har stängt in ett preparat med detta material, som väger 20 mikrogram, i en blylåda.</p>\n<ol><li>Hur mycket finns det kvar av det radioaktiva materialet efter 24 minuter?</li>\n<li>Hur mycket finns kvar 36 minuter efter att det fanns 20 mikrogram?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">24 minuter är två halveringstider.</p><div class=\"facit-matte\">\\[m=20\\cdot2^{-24/12}=5{,}0\\ \\mu\\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">36 minuter är tre halveringstider.</p><div class=\"facit-matte\">\\[m=20\\cdot2^{-36/12}=2{,}5\\ \\mu\\mathrm g\\]</div><p>Blylådan påverkar inte sönderfallshastigheten; den skärmar bara av en del av strålningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 24 minuter återstår \\(5{,}0\\ \\mu\\mathrm g\\), och efter 36 minuter \\(2{,}5\\ \\mu\\mathrm g\\).</p></div>",
+    "t": "<p>Halveringstiden för ett visst radioaktivt material är 15 minuter. Emelie har stängt in ett preparat med detta material, som väger 18 mikrogram, i en blylåda.</p>\n<ol><li>Hur mycket finns det kvar av det radioaktiva materialet efter 30 minuter?</li>\n<li>Hur mycket finns kvar 45 minuter efter att det fanns 18 mikrogram?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">30 minuter är två halveringstider.</p><div class=\"facit-matte\">\\[m=18\\cdot2^{-30/15}=4{,}5\\ \\mu\\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">45 minuter är tre halveringstider.</p><div class=\"facit-matte\">\\[m=18\\cdot2^{-45/15}=2{,}25\\ \\mu\\mathrm g\\]</div><p>Blylådan påverkar inte sönderfallshastigheten; den skärmar bara av en del av strålningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 30 minuter återstår \\(4{,}5\\ \\mu\\mathrm g\\), och efter 45 minuter \\(2{,}25\\ \\mu\\mathrm g\\).</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -96252,12 +96252,12 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5,
-      2.5
+      4.5,
+      2.25
     ],
     "tolerans": [
-      0.075,
-      0.0375
+      0.0675,
+      0.0338
     ],
     "självrättning": true,
     "svarFormat": [
@@ -96277,16 +96277,16 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Halveringstiden för ett visst radioaktivt material är 12 minuter. Emelie har stängt in ett preparat med detta material, som väger 20 mikrogram, i en blylåda.</p><div class=\"spel-en-del\">Hur mycket finns det kvar av det radioaktiva materialet efter 24 minuter?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">24 minuter är två halveringstider.</p><div class=\"facit-matte\">\\[m=20\\cdot2^{-24/12}=5{,}0\\ \\mu\\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mu\\mathrm g\\).</p></div>",
+        "t": "<p>Halveringstiden för ett visst radioaktivt material är 15 minuter. Emelie har stängt in ett preparat med detta material, som väger 18 mikrogram, i en blylåda.</p><div class=\"spel-en-del\">Hur mycket finns det kvar av det radioaktiva materialet efter 30 minuter?</div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">30 minuter är två halveringstider.</p><div class=\"facit-matte\">\\[m=18\\cdot2^{-30/15}=4{,}5\\ \\mu\\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mu\\mathrm g\\).</p></div>",
         "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Halveringstiden för ett visst radioaktivt material är 12 minuter. Emelie har stängt in ett preparat med detta material, som väger 20 mikrogram, i en blylåda.</p><div class=\"spel-en-del\">Hur mycket finns kvar 36 minuter efter att det fanns 20 mikrogram?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">36 minuter är tre halveringstider.</p><div class=\"facit-matte\">\\[m=20\\cdot2^{-36/12}=2{,}5\\ \\mu\\mathrm g\\]</div><p>Blylådan påverkar inte sönderfallshastigheten; den skärmar bara av en del av strålningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mu\\mathrm g\\).</p></div>",
+        "t": "<p>Halveringstiden för ett visst radioaktivt material är 15 minuter. Emelie har stängt in ett preparat med detta material, som väger 18 mikrogram, i en blylåda.</p><div class=\"spel-en-del\">Hur mycket finns kvar 45 minuter efter att det fanns 18 mikrogram?</div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">45 minuter är tre halveringstider.</p><div class=\"facit-matte\">\\[m=18\\cdot2^{-45/15}=2{,}25\\ \\mu\\mathrm g\\]</div><p>Blylådan påverkar inte sönderfallshastigheten; den skärmar bara av en del av strålningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mu\\mathrm g\\).</p></div>",
         "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -97777,8 +97777,8 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma halveringstid från aktivitetsdata",
     "poang": "(0/2/0)",
-    "t": "<p>Aktiviteten hos ett preparat minskar från \\(1200\\,\\mathrm{Bq}\\) till \\(300\\,\\mathrm{Bq}\\) på \\(22\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först hur många halveringar som motsvarar aktivitetsminskningen.</p><div class=\"facit-matte\">\\[\\frac{A}{A_0}=\\frac14=\\left(\\frac12\\right)^2\\]\\[T_{1/2}=\\frac{22}{2}=11\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\ \\mathrm h\\).</p></div>",
+    "t": "<p>Aktiviteten hos ett preparat minskar från \\(1200\\,\\mathrm{Bq}\\) till \\(300\\,\\mathrm{Bq}\\) på \\(23\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först hur många halveringar som motsvarar aktivitetsminskningen.</p><div class=\"facit-matte\">\\[\\frac{A}{A_0}=\\frac14=\\left(\\frac12\\right)^2\\]\\[T_{1/2}=\\frac{23}{2}=11{,}5\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mathrm h\\).</p></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
       "resonemang",
@@ -97786,8 +97786,8 @@ window.BANK = [
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 11,
-    "tolerans": 0.198,
+    "rättSvar": 11.5,
+    "tolerans": 0.207,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -98116,16 +98116,16 @@ window.BANK = [
     "niva": "E",
     "typ": "absorberad energi från mGy och massa",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad med massan \\(5{,}0\\,\\mathrm{kg}\\) får absorberad dos \\(1{,}0\\,\\mathrm{mGy}\\). Bestäm den absorberade energin i mJ.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Energin fås av dos gånger massa.</p><div class=\"facit-matte\">\\[E=Dm=1{,}0\\cdot10^{-3}\\cdot5{,}0=5{,}0\\cdot10^{-3}\\ \\mathrm J=5{,}0\\ \\mathrm{mJ}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{mJ}\\).</p></div>",
+    "t": "<p>En vävnad med massan \\(4{,}2\\,\\mathrm{kg}\\) får absorberad dos \\(1{,}5\\,\\mathrm{mGy}\\). Bestäm den absorberade energin i mJ.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Energin fås av dos gånger massa.</p><div class=\"facit-matte\">\\[E=Dm=1{,}5\\cdot10^{-3}\\cdot4{,}2=6{,}3\\cdot10^{-3}\\ \\mathrm J=6{,}3\\ \\mathrm{mJ}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\ \\mathrm{mJ}\\).</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0,
+    "rättSvar": 6.3,
+    "tolerans": 0.0945,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -98147,8 +98147,8 @@ window.BANK = [
     "niva": "C",
     "typ": "inversa kvadratlagen för dosrat",
     "poang": "(0/2/0)",
-    "t": "<p>Dosraten från en liten gammakälla är \\(100\\,\\mu\\mathrm{Sv/h}\\) på avståndet \\(1{,}0\\,\\mathrm m\\). Anta inversa kvadratlagen och bortse från absorption i luft. Bestäm dosraten på \\(2{,}5\\,\\mathrm m\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För en punktkälla sprids strålningen över en sfäryta som växer med \\(r^2\\).</p><div class=\"facit-matte\">\\[\\dot H_2=\\dot H_1\\left(\\frac{r_1}{r_2}\\right)^2=100\\left(\\frac1{2,5}\\right)^2=16\\ \\mu\\mathrm{Sv/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
+    "t": "<p>Dosraten från en liten gammakälla är \\(100\\,\\mu\\mathrm{Sv/h}\\) på avståndet \\(1{,}0\\,\\mathrm m\\). Anta inversa kvadratlagen och bortse från absorption i luft. Bestäm dosraten på \\(2{,}2\\,\\mathrm m\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För en punktkälla sprids strålningen över en sfäryta som växer med \\(r^2\\).</p><div class=\"facit-matte\">\\[\\dot H_2=\\dot H_1\\left(\\frac{r_1}{r_2}\\right)^2=100\\left(\\frac1{2{,}2}\\right)^2\\approx20{,}7\\ \\mu\\mathrm{Sv/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20{,}7\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "modellering",
@@ -98156,8 +98156,8 @@ window.BANK = [
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": 0.288,
+    "rättSvar": 20.6611570248,
+    "tolerans": 0.372,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -98789,8 +98789,8 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma halveringstid från aktivitetsdata",
     "poang": "(0/2/0)",
-    "t": "<p>Aktiviteten hos ett preparat minskar från \\(1200\\,\\mathrm{Bq}\\) till \\(300\\,\\mathrm{Bq}\\) på \\(18\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först hur många halveringar som motsvarar aktivitetsminskningen.</p><div class=\"facit-matte\">\\[\\frac{A}{A_0}=\\frac14=\\left(\\frac12\\right)^2\\]\\[T_{1/2}=\\frac{18}{2}=9\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\ \\mathrm h\\).</p></div>",
+    "t": "<p>Aktiviteten hos ett preparat minskar från \\(1600\\,\\mathrm{Bq}\\) till \\(400\\,\\mathrm{Bq}\\) på \\(19\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först hur många halveringar som motsvarar aktivitetsminskningen.</p><div class=\"facit-matte\">\\[\\frac{A}{A_0}=\\frac14=\\left(\\frac12\\right)^2\\]\\[T_{1/2}=\\frac{19}{2}=9{,}5\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}5\\ \\mathrm h\\).</p></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
       "resonemang",
@@ -98798,8 +98798,8 @@ window.BANK = [
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 0.162,
+    "rättSvar": 9.5,
+    "tolerans": 0.171,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -98937,8 +98937,8 @@ window.BANK = [
     "niva": "C",
     "typ": "radioaktivt sönderfall och halveringstid",
     "poang": "(0/2/0)",
-    "t": "<p>Aktiviteten hos ett preparat minskar från \\(960\\,\\mathrm{Bq}\\) till \\(120\\,\\mathrm{Bq}\\) på \\(18\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Aktiviteten har minskat med faktorn 8, alltså tre halveringar.</p><div class=\"facit-matte\">\\[960\\to480\\to240\\to120\\quad\\Rightarrow\\quad T_{1/2}=18/3=6,0\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\,\\mathrm{h}\\).</p></div>",
+    "t": "<p>Aktiviteten hos ett preparat minskar från \\(960\\,\\mathrm{Bq}\\) till \\(120\\,\\mathrm{Bq}\\) på \\(20\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Aktiviteten har minskat med faktorn 8, alltså tre halveringar.</p><div class=\"facit-matte\">\\[960\\to480\\to240\\to120\\quad\\Rightarrow\\quad T_{1/2}=20/3\\approx6{,}7\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\,\\mathrm{h}\\).</p></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
       "procedur",
@@ -98946,8 +98946,8 @@ window.BANK = [
     ],
     "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0.10799999999999998,
+    "rättSvar": 6.66666666667,
+    "tolerans": 0.12,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -101094,8 +101094,8 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Ett preparat innehåller 5,0·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p>\n<ol><li>Bestäm sönderfallskonstanten i s⁻¹.</li><li>Bestäm preparatets aktivitet.</li>\n<li>Hur stor är aktiviteten efter 24 dygn?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Halveringstiden i sekunder är</p><div class=\"facit-matte\">\\[T_{1/2}=8{,}0\\cdot86400=6{,}912\\cdot10^5\\ \\mathrm s\\]</div><p>\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=1{,}003\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Aktiviteten fås av \\(A=\\lambda N\\).</p><div class=\"facit-matte\">\\[A=(1{,}003\\cdot10^{-6})(5{,}0\\cdot10^{15})=5{,}02\\cdot10^9\\ \\mathrm{Bq}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">24 dygn är tre halveringstider.</p><div class=\"facit-matte\">\\[A_{24}=\\frac{5{,}02}{2^3}=0{,}627\\ \\mathrm{GBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\lambda=1{,}0\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\), begynnelseaktiviteten är \\(5{,}0\\ \\mathrm{GBq}\\) och efter 24 dygn cirka \\(0{,}63\\ \\mathrm{GBq}\\).</p></div>",
+    "t": "<p>Ett preparat innehåller 4,2·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p>\n<ol><li>Bestäm sönderfallskonstanten i s⁻¹.</li><li>Bestäm preparatets aktivitet.</li>\n<li>Hur stor är aktiviteten efter 24 dygn?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Halveringstiden i sekunder är</p><div class=\"facit-matte\">\\[T_{1/2}=8{,}0\\cdot86400=6{,}912\\cdot10^5\\ \\mathrm s\\]</div><p>\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=1{,}003\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Aktiviteten fås av \\(A=\\lambda N\\).</p><div class=\"facit-matte\">\\[A=(1{,}003\\cdot10^{-6})(4{,}2\\cdot10^{15})\\approx4{,}21\\cdot10^9\\ \\mathrm{Bq}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">24 dygn är tre halveringstider.</p><div class=\"facit-matte\">\\[A_{24}=\\frac{4{,}21}{2^3}\\approx0{,}527\\ \\mathrm{GBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\lambda=1{,}0\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\), begynnelseaktiviteten är \\(4{,}2\\ \\mathrm{GBq}\\) och efter 24 dygn cirka \\(0{,}53\\ \\mathrm{GBq}\\).</p></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
       "procedur"
@@ -101104,13 +101104,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1e-06,
-      5,
-      0.63
+      4.21183182632,
+      0.52647897829
     ],
     "tolerans": [
       3e-08,
-      0.075,
-      0.01
+      0.0632,
+      0.0079
     ],
     "självrättning": true,
     "svarFormat": [
@@ -101133,7 +101133,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett preparat innehåller 5,0·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p><div class=\"spel-en-del\">Bestäm sönderfallskonstanten i s⁻¹.</div>",
+        "t": "<p>Ett preparat innehåller 4,2·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p><div class=\"spel-en-del\">Bestäm sönderfallskonstanten i s⁻¹.</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Halveringstiden i sekunder är</p><div class=\"facit-matte\">\\[T_{1/2}=8{,}0\\cdot86400=6{,}912\\cdot10^5\\ \\mathrm s\\]</div><p>\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=1{,}003\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}003\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\).</p></div>",
         "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
         "niva": "E",
@@ -101141,16 +101141,16 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Ett preparat innehåller 5,0·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p><div class=\"spel-en-del\">Bestäm preparatets aktivitet.</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Aktiviteten fås av \\(A=\\lambda N\\).</p><div class=\"facit-matte\">\\[A=(1{,}003\\cdot10^{-6})(5{,}0\\cdot10^{15})=5{,}02\\cdot10^9\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}02\\cdot10^9\\ \\mathrm{Bq}\\).</p></div>",
+        "t": "<p>Ett preparat innehåller 4,2·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p><div class=\"spel-en-del\">Bestäm preparatets aktivitet.</div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Aktiviteten fås av \\(A=\\lambda N\\).</p><div class=\"facit-matte\">\\[A=(1{,}003\\cdot10^{-6})(4{,}2\\cdot10^{15})\\approx4{,}21\\cdot10^9\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}02\\cdot10^9\\ \\mathrm{Bq}\\).</p></div>",
         "ledtrad": "<p>Aktiviteten fås av \\(A=\\lambda N\\). Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Ett preparat innehåller 5,0·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p><div class=\"spel-en-del\">Hur stor är aktiviteten efter 24 dygn?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">24 dygn är tre halveringstider.</p><div class=\"facit-matte\">\\[A_{24}=\\frac{5{,}02}{2^3}=0{,}627\\ \\mathrm{GBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}627\\ \\mathrm{GBq}\\).</p></div>",
+        "t": "<p>Ett preparat innehåller 4,2·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p><div class=\"spel-en-del\">Hur stor är aktiviteten efter 24 dygn?</div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">24 dygn är tre halveringstider.</p><div class=\"facit-matte\">\\[A_{24}=\\frac{4{,}21}{2^3}\\approx0{,}527\\ \\mathrm{GBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}627\\ \\mathrm{GBq}\\).</p></div>",
         "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
@@ -101204,8 +101204,8 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>Aktiviteten hos ett preparat sjunker från 800 Bq till 200 Bq på 14 timmar.</p>\n<ol><li>Hur många halveringstider motsvarar det?</li><li>Bestäm halveringstiden.</li>\n<li>Vilken aktivitet väntas efter ytterligare 14 timmar?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Följ halveringarna.</p><div class=\"facit-matte\">\\[800\\to400\\to200\\ \\mathrm{Bq}\\]</div><p>Det är två halveringstider.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två halveringstider tar 14 timmar.</p><div class=\"facit-matte\">\\[T_{1/2}=\\frac{14}{2}=7{,}0\\ \\mathrm h\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ytterligare 14 timmar innebär två nya halveringar.</p><div class=\"facit-matte\">\\[A=\\frac{200}{2^2}=50\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Minskningen motsvarar två halveringstider, \\(T_{1/2}=7{,}0\\ \\mathrm h\\), och efter ytterligare 14 h återstår \\(50\\ \\mathrm{Bq}\\).</p></div>",
+    "t": "<p>Aktiviteten hos ett preparat sjunker från 800 Bq till 200 Bq på 15 timmar.</p>\n<ol><li>Hur många halveringstider motsvarar det?</li><li>Bestäm halveringstiden.</li>\n<li>Vilken aktivitet väntas efter ytterligare 15 timmar?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Följ halveringarna.</p><div class=\"facit-matte\">\\[800\\to400\\to200\\ \\mathrm{Bq}\\]</div><p>Det är två halveringstider.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två halveringstider tar 15 timmar.</p><div class=\"facit-matte\">\\[T_{1/2}=\\frac{15}{2}=7{,}5\\ \\mathrm h\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ytterligare 15 timmar innebär två nya halveringar.</p><div class=\"facit-matte\">\\[A=\\frac{200}{2^2}=50\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Minskningen motsvarar två halveringstider, \\(T_{1/2}=7{,}5\\ \\mathrm h\\), och efter ytterligare 15 h återstår \\(50\\ \\mathrm{Bq}\\).</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -101214,12 +101214,12 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      7,
+      7.5,
       null
     ],
     "tolerans": [
       null,
-      0.105,
+      0.112,
       null
     ],
     "självrättning": [
@@ -101246,7 +101246,7 @@ window.BANK = [
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
     "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Aktiviteten hos ett preparat sjunker från 800 Bq till 200 Bq på 14 timmar.</p>",
+    "spelIntro": "<p>Aktiviteten hos ett preparat sjunker från 800 Bq till 200 Bq på 15 timmar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -101258,14 +101258,14 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm halveringstiden.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två halveringstider tar 14 timmar.</p><div class=\"facit-matte\">\\[T_{1/2}=\\frac{14}{2}=7{,}0\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\ \\mathrm h\\).</p></div>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två halveringstider tar 15 timmar.</p><div class=\"facit-matte\">\\[T_{1/2}=\\frac{15}{2}=7{,}5\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\ \\mathrm h\\).</p></div>",
         "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
         "niva": "C"
       },
       {
         "etikett": "c",
-        "fraga": "Vilken aktivitet väntas efter ytterligare 14 timmar?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ytterligare 14 timmar innebär två nya halveringar.</p><div class=\"facit-matte\">\\[A=\\frac{200}{2^2}=50\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{Bq}\\).</p></div>",
+        "fraga": "Vilken aktivitet väntas efter ytterligare 15 timmar?",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ytterligare 15 timmar innebär två nya halveringar.</p><div class=\"facit-matte\">\\[A=\\frac{200}{2^2}=50\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{Bq}\\).</p></div>",
         "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
         "niva": "C"
       }
@@ -101462,8 +101462,8 @@ window.BANK = [
     "niva": "A",
     "typ": "bestämma halveringstid från två mätningar utan känt startvärde",
     "poang": "(0/1/2)",
-    "t": "<p>Aktiviteten hos ett preparat mäts till \\(600\\,\\mathrm{Bq}\\) efter \\(4{,}0\\,\\mathrm h\\) och till \\(300\\,\\mathrm{Bq}\\) efter \\(10{,}0\\,\\mathrm h\\). Startaktiviteten är okänd. Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Det behövs inget startvärde. Jämför de två mätningarna direkt: aktiviteten halveras mellan dem.</p><div class=\"facit-matte\">\\[\\frac{A_2}{A_1}=\\frac{300}{600}=\\frac12,\\qquad\\Delta t=10-4=6,0\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\,\\mathrm h\\).</p></div>",
+    "t": "<p>Aktiviteten hos ett preparat mäts till \\(600\\,\\mathrm{Bq}\\) efter \\(3{,}5\\,\\mathrm h\\) och till \\(300\\,\\mathrm{Bq}\\) efter \\(9{,}0\\,\\mathrm h\\). Startaktiviteten är okänd. Bestäm halveringstiden.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Det behövs inget startvärde. Jämför de två mätningarna direkt: aktiviteten halveras mellan dem.</p><div class=\"facit-matte\">\\[\\frac{A_2}{A_1}=\\frac{300}{600}=\\frac12,\\qquad\\Delta t=9{,}0-3{,}5=5{,}5\\ \\mathrm h\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}5\\,\\mathrm h\\).</p></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
       "resonemang",
@@ -101471,8 +101471,8 @@ window.BANK = [
     ],
     "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0.10799999999999998,
+    "rättSvar": 5.5,
+    "tolerans": 0.099,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -102068,8 +102068,8 @@ window.BANK = [
     "niva": "C",
     "typ": "ekvivalent dos med strålningsviktfaktor",
     "poang": "(0/2/0)",
-    "t": "<p>En vävnad får absorberad dos \\(3\\,\\mathrm{mGy}\\) från gammastrålning. Strålningsviktfaktorn är \\(w_R=1\\). Bestäm ekvivalent dos.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p><div class=\"facit-matte\">\\[H=1\\cdot0{,}003=0{,}003\\ \\mathrm{Sv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\ \\mathrm{mSv}\\).</p></div>",
+    "t": "<p>En vävnad får absorberad dos \\(3{,}6\\,\\mathrm{mGy}\\) från gammastrålning. Strålningsviktfaktorn är \\(w_R=1\\). Bestäm ekvivalent dos.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p><div class=\"facit-matte\">\\[H=1\\cdot0{,}0036=0{,}0036\\ \\mathrm{Sv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\ \\mathrm{mSv}\\).</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur",
@@ -102077,8 +102077,8 @@ window.BANK = [
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": 0.054,
+    "rättSvar": 3.6,
+    "tolerans": 0.0648,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -102332,8 +102332,8 @@ window.BANK = [
     "niva": "C",
     "typ": "stråldos, dosrat och skärmning",
     "poang": "(0/2/0)",
-    "t": "<p>En vävnad får den absorberade dosen \\(0{,}15\\,\\mathrm{mGy}\\) från alfastrålning. Strålningsviktfaktorn är \\(w_R=20\\). Bestäm den ekvivalenta dosen i mSv.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ekvivalent dos fås genom att vikta den absorberade dosen med \\(w_R\\).</p><div class=\"facit-matte\">\\[H=w_RD=20\\cdot0{,}15=3\\,\\mathrm{mSv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,\\mathrm{mSv}\\).</p></div>",
+    "t": "<p>En vävnad får den absorberade dosen \\(0{,}17\\,\\mathrm{mGy}\\) från alfastrålning. Strålningsviktfaktorn är \\(w_R=20\\). Bestäm den ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ekvivalent dos fås genom att vikta den absorberade dosen med \\(w_R\\).</p><div class=\"facit-matte\">\\[H=w_RD=20\\cdot0{,}17=3{,}4\\,\\mathrm{mSv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\,\\mathrm{mSv}\\).</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur",
@@ -102341,8 +102341,8 @@ window.BANK = [
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": 0.05399999999999999,
+    "rättSvar": 3.4,
+    "tolerans": 0.0612,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -102490,8 +102490,8 @@ window.BANK = [
     "niva": "C",
     "typ": "stråldos, dosrat och skärmning",
     "poang": "(0/2/0)",
-    "t": "<p>En vävnad får den absorberade dosen \\(0{,}40\\,\\mathrm{mGy}\\) från en strålningstyp med \\(w_R=10\\). Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Multiplicera absorberad dos med strålningsviktfaktorn.</p><div class=\"facit-matte\">\\[H=10\\cdot0{,}40=4\\,\\mathrm{mSv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,\\mathrm{mSv}\\).</p></div>",
+    "t": "<p>En vävnad får den absorberade dosen \\(0{,}45\\,\\mathrm{mGy}\\) från en strålningstyp med \\(w_R=10\\). Bestäm den ekvivalenta dosen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Multiplicera absorberad dos med strålningsviktfaktorn.</p><div class=\"facit-matte\">\\[H=10\\cdot0{,}45=4{,}5\\,\\mathrm{mSv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\,\\mathrm{mSv}\\).</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur",
@@ -102499,8 +102499,8 @@ window.BANK = [
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0.072,
+    "rättSvar": 4.5,
+    "tolerans": 0.081,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -102608,8 +102608,8 @@ window.BANK = [
     "niva": "C",
     "typ": "ekvivalent dos med strålningsviktfaktor",
     "poang": "(0/2/0)",
-    "t": "<p>Vid strålbehandling med gammastrålning får frisk vävnad intill tumören den absorberade dosen \\(2\\,\\mathrm{mGy}\\). Strålningsviktfaktorn är \\(w_R=1\\). Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p><div class=\"facit-matte\">\\[H=1\\cdot0{,}002=0{,}002\\ \\mathrm{Sv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\ \\mathrm{mSv}\\).</p></div>",
+    "t": "<p>Vid strålbehandling med gammastrålning får frisk vävnad intill tumören den absorberade dosen \\(2{,}4\\,\\mathrm{mGy}\\). Strålningsviktfaktorn är \\(w_R=1\\). Bestäm den ekvivalenta dosen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p><div class=\"facit-matte\">\\[H=1\\cdot0{,}0024=0{,}0024\\ \\mathrm{Sv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}4\\ \\mathrm{mSv}\\).</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur",
@@ -102617,8 +102617,8 @@ window.BANK = [
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0.036,
+    "rättSvar": 2.4,
+    "tolerans": 0.0432,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -102917,8 +102917,8 @@ window.BANK = [
     "niva": "A",
     "typ": "kombinera skärmning, dosrat och exponeringstid",
     "poang": "(0/1/2)",
-    "t": "<p>Utan skärmning är dosraten \\(80\\,\\mu\\mathrm{Sv/h}\\). En skärm reducerar dosraten till \\(25\\,\\%\\) av ursprungsvärdet. En person vistas där i \\(0{,}5\\,\\mathrm h\\). Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Skärmningen ändrar först dosraten. Därefter multipliceras kvarvarande dosrat med tiden.</p><div class=\"facit-matte\">\\[H=80\\cdot0{,}25\\cdot0{,}5=10\\ \\mu\\mathrm{Sv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mu\\mathrm{Sv}\\).</p></div>",
+    "t": "<p>Utan skärmning är dosraten \\(70\\,\\mu\\mathrm{Sv/h}\\). En skärm reducerar dosraten till \\(40\\,\\%\\) av ursprungsvärdet. En person vistas där i \\(0{,}45\\,\\mathrm h\\). Bestäm den ekvivalenta dosen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Skärmningen ändrar först dosraten. Därefter multipliceras kvarvarande dosrat med tiden.</p><div class=\"facit-matte\">\\[H=70\\cdot0{,}40\\cdot0{,}45=12{,}6\\ \\mu\\mathrm{Sv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}6\\ \\mu\\mathrm{Sv}\\).</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "resonemang",
@@ -102926,8 +102926,8 @@ window.BANK = [
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0.18,
+    "rättSvar": 12.6,
+    "tolerans": 0.227,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -102949,8 +102949,8 @@ window.BANK = [
     "niva": "A",
     "typ": "summera ekvivalent dos från flera strålslag",
     "poang": "(0/1/2)",
-    "t": "<p>En vävnad får samtidigt \\(0{,}60\\,\\mathrm{mGy}\\) alfastrålning med \\(w_R=20\\) och \\(3{,}0\\,\\mathrm{mGy}\\) gammastrålning med \\(w_R=1\\). Bestäm den sammanlagda ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Beräkna ekvivalent dos för varje strålslag separat och addera sedan bidragen.</p><div class=\"facit-matte\">\\[H=20\\cdot0{,}60+1\\cdot3{,}0=15\\,\\mathrm{mSv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\,\\mathrm{mSv}\\).</p></div>",
+    "t": "<p>En vävnad får samtidigt \\(0{,}45\\,\\mathrm{mGy}\\) alfastrålning med \\(w_R=20\\) och \\(2{,}6\\,\\mathrm{mGy}\\) gammastrålning med \\(w_R=1\\). Bestäm den sammanlagda ekvivalenta dosen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Beräkna ekvivalent dos för varje strålslag separat och addera sedan bidragen.</p><div class=\"facit-matte\">\\[H=20\\cdot0{,}45+1\\cdot2{,}6=11{,}6\\,\\mathrm{mSv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}6\\,\\mathrm{mSv}\\).</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "resonemang",
@@ -102958,8 +102958,8 @@ window.BANK = [
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": 0.26999999999999996,
+    "rättSvar": 11.6,
+    "tolerans": 0.209,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -103202,8 +103202,8 @@ window.BANK = [
     "niva": "A",
     "typ": "kombinera avstånd, skärmning och vistelsetid",
     "poang": "(0/1/2)",
-    "t": "<p>En liten gammakälla ger dosraten \\(180\\,\\mu\\mathrm{Sv/h}\\) på \\(1{,}0\\,\\mathrm m\\). En person befinner sig \\(3{,}0\\,\\mathrm m\\) från källan bakom en skärm som släpper igenom \\(25\\,\\%\\) av strålningen och stannar där i \\(2{,}0\\,\\mathrm h\\). Anta inversa kvadratlagen. Bestäm personens ekvivalenta dos.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tillämpa först avståndslagen, därefter skärmens transmissionsfaktor och sist vistelsetiden.</p><div class=\"facit-matte\">\\[\\dot H=180\\left(\\frac13\\right)^2\\cdot0{,}25=5{,}0\\,\\mu\\mathrm{Sv/h}\\]\\[H=5{,}0\\cdot2{,}0=10\\,\\mu\\mathrm{Sv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,\\mu\\mathrm{Sv}\\).</p></div>",
+    "t": "<p>En liten gammakälla ger dosraten \\(180\\,\\mu\\mathrm{Sv/h}\\) på \\(1{,}0\\,\\mathrm m\\). En person befinner sig \\(2{,}5\\,\\mathrm m\\) från källan bakom en skärm som släpper igenom \\(30\\,\\%\\) av strålningen och stannar där i \\(1{,}5\\,\\mathrm h\\). Anta inversa kvadratlagen. Bestäm personens ekvivalenta dos.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tillämpa först avståndslagen, därefter skärmens transmissionsfaktor och sist vistelsetiden.</p><div class=\"facit-matte\">\\[\\dot H=180\\left(\\frac1{2{,}5}\\right)^2\\cdot0{,}30\\approx8{,}64\\,\\mu\\mathrm{Sv/h}\\]\\[H=8{,}64\\cdot1{,}5\\approx13\\,\\mu\\mathrm{Sv}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,\\mu\\mathrm{Sv}\\).</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "resonemang",
@@ -103211,8 +103211,8 @@ window.BANK = [
     ],
     "familjNyckel": "stralning__dosrat_avstand_och_skarmning",
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0.18,
+    "rättSvar": 12.96,
+    "tolerans": 0.233,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -104601,16 +104601,16 @@ window.BANK = [
     "omr": "vektorer",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En motorbåt håller 5,0 m/s relativt vattnet. Strömmen går åt samma håll med 2,0 m/s. Bestäm båtens fart relativt stranden i m/s.</p>",
-    "s": "<p>Båtens rörelse genom vattnet och strömmens rörelse bidrar åt samma håll: 5,0 + 2,0 = 7,0 m/s.</p>",
+    "t": "<p>En motorbåt håller 4,6 m/s relativt vattnet. Strömmen går åt samma håll med 1,7 m/s. Bestäm båtens fart relativt stranden i m/s.</p>",
+    "s": "<p>Båtens rörelse genom vattnet och strömmens rörelse bidrar åt samma håll: 4,6 + 1,7 = 6,3 m/s.</p>",
     "familj": "Relativ hastighet",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "hastighet__relativ_hastighet",
     "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": 0,
+    "rättSvar": 6.3,
+    "tolerans": 0.0945,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -105016,8 +105016,8 @@ window.BANK = [
     "omr": "konstacc",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>En bil startar från vila med konstant acceleration 3,0 m/s² när en lastbil passerar samma punkt med konstant fart 12 m/s. Fordonen rör sig i samma riktning och behandlas som punkter.</p><p>När är bilen ikapp igen efter starten? Svara i s.</p>",
-    "s": "<p>Bilens läge är 1,5t² och lastbilens 12t. Likställ: t(1,5t − 12) = 0. Det andra mötet inträffar vid t = 8 s. Svaret är 8 s.</p>",
+    "t": "<p>En bil startar från vila med konstant acceleration 2,8 m/s² när en lastbil passerar samma punkt med konstant fart 13 m/s. Fordonen rör sig i samma riktning och behandlas som punkter.</p><p>När är bilen ikapp igen efter starten? Svara i s.</p>",
+    "s": "<p>Bilens läge är 1,4t² och lastbilens 13t. Likställ: t(1,4t − 13) = 0. Det andra mötet inträffar vid t = 13/1,4 ≈ 9,29 s. Svaret är 9,29 s.</p>",
     "familj": "Möte och ikapp",
     "formaga": [
       "problemlösning",
@@ -105025,8 +105025,8 @@ window.BANK = [
     ],
     "familjNyckel": "konstacc__motes_och_ikapproblem_med_acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": 0,
+    "rättSvar": 9.28571428571,
+    "tolerans": 0.139,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -105575,20 +105575,20 @@ window.BANK = [
     "niva": "E",
     "typ": "dela en tråd",
     "poang": "(2/0/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har fyra gånger så stor resistans som den andra.</p><ol type=\"a\"><li>Hur stor resistans får den längre delen?</li><li>Hur stor resistans får den kortare delen?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>Resistansen är proportionell mot längden: \\(\\dfrac45\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(12\\) Ω</p></li><li><p>\\(\\dfrac15\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) Ω</p></li></ol>",
+    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har tre gånger så stor resistans som den andra.</p><ol type=\"a\"><li>Hur stor resistans får den längre delen?</li><li>Hur stor resistans får den kortare delen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Resistansen är proportionell mot längden: \\(\\dfrac34\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(11{,}25\\) Ω</p></li><li><p>\\(\\dfrac14\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}75\\) Ω</p></li></ol>",
     "id": "8.416",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      12,
-      3
+      11.25,
+      3.75
     ],
     "tolerans": [
-      0.51,
-      0.051
+      0.169,
+      0.0562
     ],
     "självrättning": true,
     "formaga": [
@@ -105608,13 +105608,13 @@ window.BANK = [
       "Ω"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har fyra gånger så stor resistans som den andra.</p>",
+    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har tre gånger så stor resistans som den andra.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor resistans får den längre delen?",
-        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har fyra gånger så stor resistans som den andra.</p><p>Hur stor resistans får den längre delen?</p>",
-        "s": "<p>Resistansen är proportionell mot längden: \\(\\dfrac45\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(12\\) Ω</p>",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har tre gånger så stor resistans som den andra.</p><p>Hur stor resistans får den längre delen?</p>",
+        "s": "<p>Resistansen är proportionell mot längden: \\(\\dfrac34\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(11{,}25\\) Ω</p>",
         "ledtrad": "<p>Dela i fem lika stora delar.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -105624,8 +105624,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur stor resistans får den kortare delen?",
-        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har fyra gånger så stor resistans som den andra.</p><p>Hur stor resistans får den kortare delen?</p>",
-        "s": "<p>\\(\\dfrac15\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}0\\) Ω</p>",
+        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har tre gånger så stor resistans som den andra.</p><p>Hur stor resistans får den kortare delen?</p>",
+        "s": "<p>\\(\\dfrac14\\cdot15{,}0\\).</p><p><strong>Svar:</strong> \\(3{,}75\\) Ω</p>",
         "ledtrad": "<p>Summan är 15,0 Ω.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -106742,16 +106742,16 @@ window.BANK = [
     "omr": "medelhastighet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En löpare håller 4,0 m/s under första halvan av tiden och 6,0 m/s under andra halvan. Bestäm medelfarten i m/s.</p>",
-    "s": "<p>Låt varje halva vara t sekunder. Sträckan är 4t + 6t och tiden 2t. Medelfarten är 10t/(2t) = 5,0 m/s. Här fungerar det vanliga medelvärdet eftersom tiderna är lika långa.</p>",
+    "t": "<p>En löpare håller 4,2 m/s under första halvan av tiden och 5,6 m/s under andra halvan. Bestäm medelfarten i m/s.</p>",
+    "s": "<p>Låt varje halva vara t sekunder. Sträckan är 4,2t + 5,6t och tiden 2t. Medelfarten är 9,8t/(2t) = 4,9 m/s. Här fungerar det vanliga medelvärdet eftersom tiderna är lika långa.</p>",
     "familj": "Medelhastighet och medelfart",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "hastighet__medelhastighet",
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0,
+    "rättSvar": 4.9,
+    "tolerans": 0.0735,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -114706,8 +114706,8 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "A",
     "poang": "(0/2/1)",
-    "t": "<p>En apparat ansluten till 230 V använder 1,38 kWh under 3,0 h. Strömmen är konstant.</p><p>Bestäm strömmen genom apparaten.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först medeleffekten från \\(P=E/t\\) och använd sedan \\(I=P/U\\).</p><div class=\"facit-matte\">\\[P=\\frac{1{,}38\\,\\mathrm{kWh}}{3{,}0\\,\\mathrm h}=0{,}460\\,\\mathrm{kW}=460\\,\\mathrm W\\]\\[I=\\frac{460}{230}=2{,}00\\,\\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}00\\,\\mathrm A\\).</p></div>",
+    "t": "<p>En apparat ansluten till 230 V använder 1,52 kWh under 2,5 h. Strömmen är konstant.</p><p>Bestäm strömmen genom apparaten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först medeleffekten från \\(P=E/t\\) och använd sedan \\(I=P/U\\).</p><div class=\"facit-matte\">\\[P=\\frac{1{,}52\\,\\mathrm{kWh}}{2{,}5\\,\\mathrm h}=0{,}608\\,\\mathrm{kW}=608\\,\\mathrm W\\]\\[I=\\frac{608}{230}\\approx2{,}64\\,\\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}64\\,\\mathrm A\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur",
@@ -114715,8 +114715,8 @@ window.BANK = [
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0.03,
+    "rättSvar": 2.64347826087,
+    "tolerans": 0.0397,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
@@ -114867,8 +114867,8 @@ window.BANK = [
     "omr": "parallellkoppling",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två lika stora resistorer på \\(12\\ \\Omega\\) är parallellkopplade. Bestäm ersättningsresistansen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Två lika stora parallellkopplade resistorer ger halva resistansen.</p><div class=\"facit-matte\">\\[R_{ers}=\\frac{12}{2}=6\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\ \\Omega\\).</p></div>",
+    "t": "<p>Två lika stora resistorer på \\(15\\ \\Omega\\) är parallellkopplade. Bestäm ersättningsresistansen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Två lika stora parallellkopplade resistorer ger halva resistansen.</p><div class=\"facit-matte\">\\[R_{ers}=\\frac{15}{2}=7{,}5\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\ \\Omega\\).</p></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "familjNyckel": "kopplingar__parallellkoppling",
     "formaga": [
@@ -114876,8 +114876,8 @@ window.BANK = [
     ],
     "typ": "ersättningsresistans för två lika parallellkopplade resistorer",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 7.5,
+    "tolerans": 0.112,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
@@ -114898,8 +114898,8 @@ window.BANK = [
     "omr": "seriekoppling",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två lika stora resistorer är seriekopplade över \\(12\\ \\mathrm V\\). Hur stor spänning ligger över den ena resistorn?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Två lika stora serieresistorer delar spänningen lika.</p><div class=\"facit-matte\">\\[U_1=\\frac{12}{2}=6\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\ \\mathrm V\\).</p></div>",
+    "t": "<p>Två lika stora resistorer är seriekopplade över \\(9{,}0\\ \\mathrm V\\). Hur stor spänning ligger över den ena resistorn?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Två lika stora serieresistorer delar spänningen lika.</p><div class=\"facit-matte\">\\[U_1=\\frac{9{,}0}{2}=4{,}5\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\ \\mathrm V\\).</p></div>",
     "familj": "Spänningsdelning i seriekoppling",
     "familjNyckel": "kopplingar__seriekoppling",
     "formaga": [
@@ -114907,8 +114907,8 @@ window.BANK = [
     ],
     "typ": "spänningsdelning med lika resistorer",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 4.5,
+    "tolerans": 0.0675,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
@@ -114929,8 +114929,8 @@ window.BANK = [
     "omr": "parallellkoppling",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En resistor på \\(6\\ \\Omega\\) ligger i en parallellgren över \\(12\\ \\mathrm V\\). Bestäm strömmen genom resistorn.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Varje parallellgren har hela spänningen över sig.</p><div class=\"facit-matte\">\\[I=\\frac{U}{R}=\\frac{12}{6}=2\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\ \\mathrm A\\).</p></div>",
+    "t": "<p>En resistor på \\(8{,}2\\ \\Omega\\) ligger i en parallellgren över \\(12\\ \\mathrm V\\). Bestäm strömmen genom resistorn.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Varje parallellgren har hela spänningen över sig.</p><div class=\"facit-matte\">\\[I=\\frac{U}{R}=\\frac{12}{8{,}2}\\approx1{,}46\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}46\\ \\mathrm A\\).</p></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "familjNyckel": "kopplingar__parallellkoppling",
     "formaga": [
@@ -114938,8 +114938,8 @@ window.BANK = [
     ],
     "typ": "grenström i parallellkoppling",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 1.46341463415,
+    "tolerans": 0.022,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
@@ -114991,8 +114991,8 @@ window.BANK = [
     "omr": "parallellkoppling",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två lika stora parallellkopplade resistorer drar tillsammans \\(4{,}0\\ \\mathrm A\\). Hur stor ström går genom den ena resistorn?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lika stora parallellgrenar delar strömmen lika.</p><div class=\"facit-matte\">\\[I_1=\\frac{4{,}0}{2}=2{,}0\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm A\\).</p></div>",
+    "t": "<p>Två lika stora parallellkopplade resistorer drar tillsammans \\(3{,}4\\ \\mathrm A\\). Hur stor ström går genom den ena resistorn?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lika stora parallellgrenar delar strömmen lika.</p><div class=\"facit-matte\">\\[I_1=\\frac{3{,}4}{2}=1{,}7\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\ \\mathrm A\\).</p></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "familjNyckel": "kopplingar__parallellkoppling",
     "formaga": [
@@ -115000,8 +115000,8 @@ window.BANK = [
     ],
     "typ": "strömfördelning mellan lika grenar",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 1.7,
+    "tolerans": 0.0255,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
@@ -115022,8 +115022,8 @@ window.BANK = [
     "omr": "parallellkoppling",
     "niva": "A",
     "poang": "(0/1/2)",
-    "t": "<p>Du har tre resistorer på 12 Ω vardera och ska koppla in alla tre.</p><p>Bestäm alla fyra olika ersättningsresistanser som kan fås.</p>",
-    "s": "<ul><li>Alla i serie: \\(3\\cdot12=36\\) Ω.</li><li>Alla parallellt: \\(\\frac{12}{3}=4\\) Ω.</li><li>Två parallellt (6 Ω) i serie med den tredje: \\(6+12=18\\) Ω.</li><li>Två i serie (24 Ω) parallellt med den tredje: \\(\\frac{24\\cdot12}{24+12}=8\\) Ω.</li></ul><p>Parallellkoppling ger alltid lägre resistans än den minsta grenen, och seriekoppling högre än den största.</p><p><strong>Svar:</strong> 4 Ω, 8 Ω, 18 Ω och 36 Ω</p>",
+    "t": "<p>Du har tre resistorer på 22 Ω vardera och ska koppla in alla tre.</p><p>Bestäm alla fyra olika ersättningsresistanser som kan fås.</p>",
+    "s": "<ul><li>Alla i serie: \\(3\\cdot22=66\\) Ω.</li><li>Alla parallellt: \\(\\frac{22}{3}\\approx7{,}33\\) Ω.</li><li>Två parallellt (11 Ω) i serie med den tredje: \\(11+22=33\\) Ω.</li><li>Två i serie (44 Ω) parallellt med den tredje: \\(\\frac{44\\cdot22}{44+22}\\approx14{,}7\\) Ω.</li></ul><p>Parallellkoppling ger alltid lägre resistans än den minsta grenen, och seriekoppling högre än den största.</p><p><strong>Svar:</strong> 7,33 Ω, 14,7 Ω, 33 Ω och 66 Ω</p>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "formaga": [
       "problemlösning"
@@ -115037,12 +115037,17 @@ window.BANK = [
     "arbetsinsats": 2,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4,
-      8,
-      18,
-      36
+      7.33333333333,
+      14.6666666667,
+      33,
+      66
     ],
-    "tolerans": null,
+    "tolerans": [
+      0.11,
+      0.22,
+      0.5,
+      1.0
+    ],
     "svarEtiketter": [
       "R",
       "R",
@@ -115064,8 +115069,8 @@ window.BANK = [
     "omr": "seriekoppling",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två resistorer är seriekopplade och har tillsammans resistansen \\(15\\ \\Omega\\). Den ena resistorn är \\(6\\ \\Omega\\). Bestäm den andra resistansen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">I serie är ersättningsresistansen summan av resistanserna.</p><div class=\"facit-matte\">\\[R_2=15-6=9\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\ \\Omega\\).</p></div>",
+    "t": "<p>Två resistorer är seriekopplade och har tillsammans resistansen \\(15\\ \\Omega\\). Den ena resistorn är \\(6{,}8\\ \\Omega\\). Bestäm den andra resistansen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">I serie är ersättningsresistansen summan av resistanserna.</p><div class=\"facit-matte\">\\[R_2=15-6{,}8=8{,}2\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}2\\ \\Omega\\).</p></div>",
     "familj": "Ersättningsresistans och ström i serie",
     "familjNyckel": "kopplingar__seriekoppling",
     "formaga": [
@@ -115073,8 +115078,8 @@ window.BANK = [
     ],
     "typ": "okänd serieresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 0,
+    "rättSvar": 8.2,
+    "tolerans": 0.123,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
@@ -115147,8 +115152,8 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två resistorer på \\(6\\ \\Omega\\) är parallellkopplade. Den kombinationen är seriekopplad med en resistor på \\(3\\ \\Omega\\). Bestäm hela kopplingens ersättningsresistans.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Förenkla först parallellkopplingen och addera sedan serieresistansen.</p><div class=\"facit-matte\">\\[R_{par}=3\\ \\Omega,\\qquad R_{ers}=3+3=6\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\ \\Omega\\).</p></div>",
+    "t": "<p>Två resistorer på \\(10\\ \\Omega\\) är parallellkopplade. Den kombinationen är seriekopplad med en resistor på \\(4{,}7\\ \\Omega\\). Bestäm hela kopplingens ersättningsresistans.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Förenkla först parallellkopplingen och addera sedan serieresistansen.</p><div class=\"facit-matte\">\\[R_{par}=5\\ \\Omega,\\qquad R_{ers}=5+4{,}7=9{,}7\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}7\\ \\Omega\\).</p></div>",
     "familj": "Blandade kopplingar",
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "formaga": [
@@ -115156,8 +115161,8 @@ window.BANK = [
     ],
     "typ": "enkel blandad resistorkoppling",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 9.7,
+    "tolerans": 0.145,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
@@ -115304,15 +115309,15 @@ window.BANK = [
     "niva": "C",
     "typ": "parallellkopplade batterier",
     "poang": "(0/2/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två likadana batterier (ems 6,0 V, inre resistans \\(r\\)) parallellkopplas till ett motstånd på 11 Ω. Strömmen genom motståndet blir 0,50 A. Bestäm \\(r\\).</p>",
-    "s": "<p>Polspänning \\(0{,}50\\cdot11=5{,}5\\) V. Varje batteri ger 0,25 A: \\(r=\\dfrac{6{,}0-5{,}5}{0{,}25}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) Ω</p>",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två likadana batterier (ems 6,0 V, inre resistans \\(r\\)) parallellkopplas till ett motstånd på 10 Ω. Strömmen genom motståndet blir 0,55 A. Bestäm \\(r\\).</p>",
+    "s": "<p>Polspänning \\(0{,}55\\cdot10=5{,}5\\) V. Varje batteri ger 0,275 A: \\(r=\\dfrac{6{,}0-5{,}5}{0{,}275}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) Ω</p>",
     "id": "8.401",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.0,
-    "tolerans": 0.051,
+    "rättSvar": 1.81818181818,
+    "tolerans": 0.0273,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -115331,24 +115336,24 @@ window.BANK = [
     "niva": "A",
     "typ": "värmeelement och spänningskälla",
     "poang": "(3/1/1)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p><ol type=\"a\"><li>Bestäm strömmen.</li><li>Bestäm polspänningen.</li><li>Hur stor är den inre resistansen?</li><li>Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(I=\\sqrt{\\dfrac{P}{R}}=\\sqrt{\\dfrac{8{,}0}{0{,}32}}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) A</p></li><li><p>\\(U=0{,}32\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) V</p></li><li><p>\\(R_i=\\dfrac{2{,}0-1{,}6}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}080\\) Ω</p></li><li><p>Yttre resistans 0,16 Ω: \\(I=\\dfrac{2{,}0}{0{,}24}\\). \\(P=0{,}16I^2\\).</p><p><strong>Svar:</strong> \\(11\\) W</p></li></ol>",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p><ol type=\"a\"><li>Bestäm strömmen.</li><li>Bestäm polspänningen.</li><li>Hur stor är den inre resistansen?</li><li>Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=\\sqrt{\\dfrac{P}{R}}=\\sqrt{\\dfrac{7{,}2}{0{,}32}}\\).</p><p><strong>Svar:</strong> \\(4{,}74\\) A</p></li><li><p>\\(U=0{,}32\\cdot4{,}74\\).</p><p><strong>Svar:</strong> \\(1{,}52\\) V</p></li><li><p>\\(R_i=\\dfrac{2{,}0-1{,}52}{4{,}74}\\).</p><p><strong>Svar:</strong> \\(0{,}10\\) Ω</p></li><li><p>Yttre resistans 0,16 Ω: \\(I=\\dfrac{2{,}0}{0{,}16+0{,}10}\\). \\(P=0{,}16I^2\\).</p><p><strong>Svar:</strong> \\(9{,}3\\) W</p></li></ol>",
     "id": "8.402",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5.0,
-      1.6,
-      0.08,
-      11.111111111111112
+      4.74341649025,
+      1.51789327688,
+      0.101637021356,
+      9.34935351666
     ],
     "tolerans": [
-      0.075,
-      0.051,
-      0.0012,
-      0.51
+      0.0712,
+      0.0228,
+      0.003,
+      0.14
     ],
     "självrättning": true,
     "formaga": [
@@ -115375,13 +115380,13 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p>",
+    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm strömmen.",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p><p>Bestäm strömmen.</p>",
-        "s": "<p>\\(I=\\sqrt{\\dfrac{P}{R}}=\\sqrt{\\dfrac{8{,}0}{0{,}32}}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) A</p>",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p><p>Bestäm strömmen.</p>",
+        "s": "<p>\\(I=\\sqrt{\\dfrac{P}{R}}=\\sqrt{\\dfrac{7{,}2}{0{,}32}}\\).</p><p><strong>Svar:</strong> \\(4{,}74\\) A</p>",
         "ledtrad": "<p>\\(P=RI^2\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -115391,8 +115396,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm polspänningen.",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p>Strömmen är 5,0 A.<p>Bestäm polspänningen.</p>",
-        "s": "<p>\\(U=0{,}32\\cdot5{,}0\\).</p><p><strong>Svar:</strong> \\(1{,}6\\) V</p>",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p>Strömmen är 4,74 A.<p>Bestäm polspänningen.</p>",
+        "s": "<p>\\(U=0{,}32\\cdot4{,}74\\).</p><p><strong>Svar:</strong> \\(1{,}52\\) V</p>",
         "ledtrad": "<p>\\(U=RI\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -115402,8 +115407,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur stor är den inre resistansen?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p>Strömmen är 5,0 A och polspänningen 1,6 V.<p>Hur stor är den inre resistansen?</p>",
-        "s": "<p>\\(R_i=\\dfrac{2{,}0-1{,}6}{5{,}0}\\).</p><p><strong>Svar:</strong> \\(0{,}080\\) Ω</p>",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p>Strömmen är 4,74 A och polspänningen 1,52 V.<p>Hur stor är den inre resistansen?</p>",
+        "s": "<p>\\(R_i=\\dfrac{2{,}0-1{,}52}{4{,}74}\\).</p><p><strong>Svar:</strong> \\(0{,}10\\) Ω</p>",
         "ledtrad": "<p>\\(U=E-R_iI\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -115413,8 +115418,8 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 8,0 W.</p>Den inre resistansen är 0,080 Ω.<p>Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?</p>",
-        "s": "<p>Yttre resistans 0,16 Ω: \\(I=\\dfrac{2{,}0}{0{,}24}\\). \\(P=0{,}16I^2\\).</p><p><strong>Svar:</strong> \\(11\\) W</p>",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p>Den inre resistansen är 0,10 Ω.<p>Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?</p>",
+        "s": "<p>Yttre resistans 0,16 Ω: \\(I=\\dfrac{2{,}0}{0{,}16+0{,}10}\\). \\(P=0{,}16I^2\\).</p><p><strong>Svar:</strong> \\(9{,}3\\) W</p>",
         "ledtrad": "<p>Den inre resistansen finns kvar.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -115785,20 +115790,20 @@ window.BANK = [
     "niva": "C",
     "typ": "voltmeter med och utan last",
     "poang": "(0/2/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,8 V.</p><ol type=\"a\"><li>Bestäm \\(R\\).</li><li>Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(I=\\dfrac{9{,}0-7{,}8}{2{,}0}=0{,}60\\) A. \\(R=\\dfrac{7{,}8}{0{,}60}\\).</p><p><strong>Svar:</strong> \\(13\\) Ω</p></li><li><p>Yttre resistans \\(\\dfrac{13\\cdot30}{43}\\approx9{,}07\\) Ω. \\(I=\\dfrac{9{,}0}{11{,}07}\\). \\(U=9{,}0-2{,}0I\\).</p><p><strong>Svar:</strong> \\(7{,}4\\) V</p></li></ol>",
+    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,6 V.</p><ol type=\"a\"><li>Bestäm \\(R\\).</li><li>Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(I=\\dfrac{9{,}0-7{,}6}{2{,}0}=0{,}70\\) A. \\(R=\\dfrac{7{,}6}{0{,}70}\\).</p><p><strong>Svar:</strong> \\(10{,}9\\) Ω</p></li><li><p>Yttre resistans \\(\\dfrac{10{,}86\\cdot30}{40{,}86}\\approx7{,}97\\) Ω. \\(I=\\dfrac{9{,}0}{9{,}97}\\). \\(U=9{,}0-2{,}0I\\).</p><p><strong>Svar:</strong> \\(7{,}2\\) V</p></li></ol>",
     "id": "8.409",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      13,
-      7.373949579831933
+      10.8571428571,
+      7.19495091164
     ],
     "tolerans": [
-      0.51,
-      0.111
+      0.163,
+      0.108
     ],
     "självrättning": true,
     "formaga": [
@@ -115818,13 +115823,13 @@ window.BANK = [
       "V"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,8 V.</p>",
+    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,6 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm \\(R\\).",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,8 V.</p><p>Bestäm \\(R\\).</p>",
-        "s": "<p>\\(I=\\dfrac{9{,}0-7{,}8}{2{,}0}=0{,}60\\) A. \\(R=\\dfrac{7{,}8}{0{,}60}\\).</p><p><strong>Svar:</strong> \\(13\\) Ω</p>",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,6 V.</p><p>Bestäm \\(R\\).</p>",
+        "s": "<p>\\(I=\\dfrac{9{,}0-7{,}6}{2{,}0}=0{,}70\\) A. \\(R=\\dfrac{7{,}6}{0{,}70}\\).</p><p><strong>Svar:</strong> \\(10{,}9\\) Ω</p>",
         "ledtrad": "<p>Öppen brytare: voltmetern visar ems.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -115834,8 +115839,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,8 V.</p>\\(R=13\\) Ω och ems är 9,0 V.<p>Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?</p>",
-        "s": "<p>Yttre resistans \\(\\dfrac{13\\cdot30}{43}\\approx9{,}07\\) Ω. \\(I=\\dfrac{9{,}0}{11{,}07}\\). \\(U=9{,}0-2{,}0I\\).</p><p><strong>Svar:</strong> \\(7{,}4\\) V</p>",
+        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,6 V.</p>\\(R\\approx10{,}9\\) Ω och ems är 9,0 V.<p>Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?</p>",
+        "s": "<p>Yttre resistans \\(\\dfrac{10{,}86\\cdot30}{40{,}86}\\approx7{,}97\\) Ω. \\(I=\\dfrac{9{,}0}{9{,}97}\\). \\(U=9{,}0-2{,}0I\\).</p><p><strong>Svar:</strong> \\(7{,}2\\) V</p>",
         "ledtrad": "<p>Bestäm den nya yttre resistansen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -116702,16 +116707,16 @@ window.BANK = [
     "omr": "vektorer",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två tåg kör åt samma håll med 32 m/s och 24 m/s. Bestäm det snabbare tågets hastighet relativt det långsammare i m/s, med färdriktningen som positiv.</p>",
-    "s": "<p>Hastigheten relativt det långsammare tåget är 32 − 24 = +8 m/s.</p>",
+    "t": "<p>Två tåg kör åt samma håll med 31,5 m/s och 23,8 m/s. Bestäm det snabbare tågets hastighet relativt det långsammare i m/s, med färdriktningen som positiv.</p>",
+    "s": "<p>Hastigheten relativt det långsammare tåget är 31,5 − 23,8 = +7,7 m/s.</p>",
     "familj": "Relativ hastighet",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "hastighet__relativ_hastighet",
     "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": 0,
+    "rättSvar": 7.7,
+    "tolerans": 0.115,
     "självrättning": true,
     "ledtrad": "<p>Jämför hur långt tågen hinner under samma sekund.</p>",
     "traningsniva": 2,
@@ -117396,8 +117401,8 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(2/0/0)",
-    "t": "<p>En motorcykel har konstant acceleration 2,5 m/s² i färdriktningen.</p><ol><li>Hur lång tid tar fartökningen från 11 till 21 m/s? Svara i s.</li><li>Hur lång tid tar fartökningen från 31 till 41 m/s? Svara i s.</li></ol>",
-    "s": "<p>a) t = (21 − 11)/2,5 = 4 s. Svaret är 4 s.</p><p>b) t = (41 − 31)/2,5 = 4 s. Det är fartändringen som avgör tiden vid given acceleration. Svaret är 4 s.</p>",
+    "t": "<p>En motorcykel har konstant acceleration 2,4 m/s² i färdriktningen.</p><ol><li>Hur lång tid tar fartökningen från 11 till 21 m/s? Svara i s.</li><li>Hur lång tid tar fartökningen från 31 till 41 m/s? Svara i s.</li></ol>",
+    "s": "<p>a) t = (21 − 11)/2,4 ≈ 4,17 s. Svaret är 4,17 s.</p><p>b) t = (41 − 31)/2,4 ≈ 4,17 s. Det är fartändringen som avgör tiden vid given acceleration. Svaret är 4,17 s.</p>",
     "familj": "Hastighet och tid vid konstant acceleration",
     "formaga": [
       "procedur"
@@ -117405,12 +117410,12 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4,
-      4
+      4.16666666667,
+      4.16666666667
     ],
     "tolerans": [
-      0,
-      0
+      0.0625,
+      0.0625
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -117433,13 +117438,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En motorcykel har konstant acceleration 2,5 m/s² i färdriktningen.</p>",
+    "spelIntro": "<p>En motorcykel har konstant acceleration 2,4 m/s² i färdriktningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur lång tid tar fartökningen från 11 till 21 m/s? Svara i s.",
-        "t": "<p>En motorcykel har konstant acceleration 2,5 m/s² i färdriktningen.</p><p>Hur lång tid tar fartökningen från 11 till 21 m/s? Svara i s.</p>",
-        "s": "<p>t = (21 − 11)/2,5 = 4 s. Svaret är 4 s.</p>",
+        "t": "<p>En motorcykel har konstant acceleration 2,4 m/s² i färdriktningen.</p><p>Hur lång tid tar fartökningen från 11 till 21 m/s? Svara i s.</p>",
+        "s": "<p>t = (21 − 11)/2,4 ≈ 4,17 s. Svaret är 4,17 s.</p>",
         "ledtrad": "<p>Jämför fartändringarna i de två fallen.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -117449,8 +117454,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur lång tid tar fartökningen från 31 till 41 m/s? Svara i s.",
-        "t": "<p>En motorcykel har konstant acceleration 2,5 m/s² i färdriktningen.</p><p>Hur lång tid tar fartökningen från 31 till 41 m/s? Svara i s.</p>",
-        "s": "<p>t = (41 − 31)/2,5 = 4 s. Det är fartändringen som avgör tiden vid given acceleration. Svaret är 4 s.</p>",
+        "t": "<p>En motorcykel har konstant acceleration 2,4 m/s² i färdriktningen.</p><p>Hur lång tid tar fartökningen från 31 till 41 m/s? Svara i s.</p>",
+        "s": "<p>t = (41 − 31)/2,4 ≈ 4,17 s. Det är fartändringen som avgör tiden vid given acceleration. Svaret är 4,17 s.</p>",
         "ledtrad": "<p>Jämför fartändringarna i de två fallen.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -117732,8 +117737,8 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(4/0/0)",
-    "t": "<p>Rörelsen är rak och accelerationen konstant under 2,0 s. Beräkna sluthastigheten med tecken.</p><ol><li>v₀ = 12 m/s och a = 3 m/s². Svara i m/s.</li><li>v₀ = 12 m/s och a = -3 m/s². Svara i m/s.</li><li>v₀ = -12 m/s och a = 3 m/s². Svara i m/s.</li><li>v₀ = -12 m/s och a = -3 m/s². Svara i m/s.</li></ol>",
-    "s": "<p>a) v = (12) + (3) · 2 = 18 m/s. Svaret är 18 m/s.</p><p>b) v = (12) + (-3) · 2 = 6 m/s. Svaret är 6 m/s.</p><p>c) v = (-12) + (3) · 2 = -6 m/s. Svaret är -6 m/s.</p><p>d) v = (-12) + (-3) · 2 = -18 m/s. Svaret är -18 m/s.</p>",
+    "t": "<p>Rörelsen är rak och accelerationen konstant under 2,5 s. Beräkna sluthastigheten med tecken.</p><ol><li>v₀ = 11 m/s och a = 3,5 m/s². Svara i m/s.</li><li>v₀ = 11 m/s och a = -3,5 m/s². Svara i m/s.</li><li>v₀ = -11 m/s och a = 3,5 m/s². Svara i m/s.</li><li>v₀ = -11 m/s och a = -3,5 m/s². Svara i m/s.</li></ol>",
+    "s": "<p>a) v = (11) + (3,5) · 2,5 = 19,75 m/s. Svaret är 19,75 m/s.</p><p>b) v = (11) + (-3,5) · 2,5 = 2,25 m/s. Svaret är 2,25 m/s.</p><p>c) v = (-11) + (3,5) · 2,5 = -2,25 m/s. Svaret är -2,25 m/s.</p><p>d) v = (-11) + (-3,5) · 2,5 = -19,75 m/s. Svaret är -19,75 m/s.</p>",
     "familj": "Hastighet och tid vid konstant acceleration",
     "formaga": [
       "begrepp",
@@ -117742,16 +117747,16 @@ window.BANK = [
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      18,
-      6,
-      -6,
-      -18
+      19.75,
+      2.25,
+      -2.25,
+      -19.75
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.296,
+      0.0338,
+      0.0338,
+      0.296
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -117780,13 +117785,13 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Rörelsen är rak och accelerationen konstant under 2,0 s. Beräkna sluthastigheten med tecken.</p>",
+    "spelIntro": "<p>Rörelsen är rak och accelerationen konstant under 2,5 s. Beräkna sluthastigheten med tecken.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "v₀ = 12 m/s och a = 3 m/s². Svara i m/s.",
-        "t": "<p>Rörelsen är rak och accelerationen konstant under 2,0 s. Beräkna sluthastigheten med tecken.</p><p>v₀ = 12 m/s och a = 3 m/s². Svara i m/s.</p>",
-        "s": "<p>v = (12) + (3) · 2 = 18 m/s. Svaret är 18 m/s.</p>",
+        "fraga": "v₀ = 11 m/s och a = 3,5 m/s². Svara i m/s.",
+        "t": "<p>Rörelsen är rak och accelerationen konstant under 2,5 s. Beräkna sluthastigheten med tecken.</p><p>v₀ = 11 m/s och a = 3,5 m/s². Svara i m/s.</p>",
+        "s": "<p>v = (11) + (3,5) · 2,5 = 19,75 m/s. Svaret är 19,75 m/s.</p>",
         "ledtrad": "<p>Samma acceleration kan öka eller minska fartbeloppet beroende på startens riktning.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -117795,9 +117800,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "v₀ = 12 m/s och a = -3 m/s². Svara i m/s.",
-        "t": "<p>Rörelsen är rak och accelerationen konstant under 2,0 s. Beräkna sluthastigheten med tecken.</p><p>v₀ = 12 m/s och a = -3 m/s². Svara i m/s.</p>",
-        "s": "<p>v = (12) + (-3) · 2 = 6 m/s. Svaret är 6 m/s.</p>",
+        "fraga": "v₀ = 11 m/s och a = -3,5 m/s². Svara i m/s.",
+        "t": "<p>Rörelsen är rak och accelerationen konstant under 2,5 s. Beräkna sluthastigheten med tecken.</p><p>v₀ = 11 m/s och a = -3,5 m/s². Svara i m/s.</p>",
+        "s": "<p>v = (11) + (-3,5) · 2,5 = 2,25 m/s. Svaret är 2,25 m/s.</p>",
         "ledtrad": "<p>Samma acceleration kan öka eller minska fartbeloppet beroende på startens riktning.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -117806,9 +117811,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "v₀ = -12 m/s och a = 3 m/s². Svara i m/s.",
-        "t": "<p>Rörelsen är rak och accelerationen konstant under 2,0 s. Beräkna sluthastigheten med tecken.</p><p>v₀ = -12 m/s och a = 3 m/s². Svara i m/s.</p>",
-        "s": "<p>v = (-12) + (3) · 2 = -6 m/s. Svaret är -6 m/s.</p>",
+        "fraga": "v₀ = -11 m/s och a = 3,5 m/s². Svara i m/s.",
+        "t": "<p>Rörelsen är rak och accelerationen konstant under 2,5 s. Beräkna sluthastigheten med tecken.</p><p>v₀ = -11 m/s och a = 3,5 m/s². Svara i m/s.</p>",
+        "s": "<p>v = (-11) + (3,5) · 2,5 = -2,25 m/s. Svaret är -2,25 m/s.</p>",
         "ledtrad": "<p>Samma acceleration kan öka eller minska fartbeloppet beroende på startens riktning.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -117817,9 +117822,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "v₀ = -12 m/s och a = -3 m/s². Svara i m/s.",
-        "t": "<p>Rörelsen är rak och accelerationen konstant under 2,0 s. Beräkna sluthastigheten med tecken.</p><p>v₀ = -12 m/s och a = -3 m/s². Svara i m/s.</p>",
-        "s": "<p>v = (-12) + (-3) · 2 = -18 m/s. Svaret är -18 m/s.</p>",
+        "fraga": "v₀ = -11 m/s och a = -3,5 m/s². Svara i m/s.",
+        "t": "<p>Rörelsen är rak och accelerationen konstant under 2,5 s. Beräkna sluthastigheten med tecken.</p><p>v₀ = -11 m/s och a = -3,5 m/s². Svara i m/s.</p>",
+        "s": "<p>v = (-11) + (-3,5) · 2,5 = -19,75 m/s. Svaret är -19,75 m/s.</p>",
         "ledtrad": "<p>Samma acceleration kan öka eller minska fartbeloppet beroende på startens riktning.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -119322,8 +119327,8 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(0/2/0)",
-    "t": "<p>Två motorcyklar kör österut. Under 4,0 s accelererar A med 2,0 m/s² och B med 4,0 m/s² österut. Därefter har de samma hastighet.</p><p>Bestäm startskillnaden \\(v_A-v_B\\) med tecken. Svara i m/s.</p>",
-    "s": "<p>v_A + 2 · 4 = v_B + 4 · 4 ger v_A − v_B = 8 m/s. A var snabbast från början. Svaret är 8 m/s.</p>",
+    "t": "<p>Två motorcyklar kör österut. Under 3,5 s accelererar A med 1,8 m/s² och B med 3,6 m/s² österut. Därefter har de samma hastighet.</p><p>Bestäm startskillnaden \\(v_A-v_B\\) med tecken. Svara i m/s.</p>",
+    "s": "<p>v_A + 1,8 · 3,5 = v_B + 3,6 · 3,5 ger v_A − v_B = 6,3 m/s. A var snabbast från början. Svaret är 6,3 m/s.</p>",
     "familj": "Hastighet och tid vid konstant acceleration",
     "formaga": [
       "problemlösning",
@@ -119331,8 +119336,8 @@ window.BANK = [
     ],
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": 0,
+    "rättSvar": 6.3,
+    "tolerans": 0.0945,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -124478,16 +124483,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma fart från sträcka och tid",
     "poang": "(1/0/0)",
-    "t": "<p>En cyklist färdas 120 m på 10 s. Bestäm medelfarten i m/s.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dela sträckan med tiden.</p><div class=\"facit-matte\">\\[v=\\frac{120}{10}=12\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm{m/s}\\).</p></div>",
+    "t": "<p>En cyklist färdas 135 m på 11 s. Bestäm medelfarten i m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dela sträckan med tiden.</p><div class=\"facit-matte\">\\[v=\\frac{135}{11}\\approx12{,}3\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}3\\ \\mathrm{m/s}\\).</p></div>",
     "familj": "Medelhastighet och medelfart",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "hastighet__medelhastighet",
     "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": 0,
+    "rättSvar": 12.2727272727,
+    "tolerans": 0.184,
     "självrättning": true,
     "ledtrad": "<p>Hur många meter färdas cyklisten varje sekund?</p>",
     "traningsniva": 1,
@@ -124540,16 +124545,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma tid från sträcka och fart",
     "poang": "(1/0/0)",
-    "t": "<p>En buss kör 300 m med konstant fart 15 m/s. Hur lång tid tar det?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tiden är sträckan delad med farten.</p><div class=\"facit-matte\">\\[t=\\frac{300}{15}=20\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm s\\).</p></div>",
+    "t": "<p>En buss kör 340 m med konstant fart 14 m/s. Hur lång tid tar det?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tiden är sträckan delad med farten.</p><div class=\"facit-matte\">\\[t=\\frac{340}{14}\\approx24{,}3\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24{,}3\\ \\mathrm s\\).</p></div>",
     "familj": "Sträcka, tid och fart",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0,
+    "rättSvar": 24.2857142857,
+    "tolerans": 0.364,
     "självrättning": true,
     "ledtrad": "<p>Hur många 15-meterssträckor ryms i 300 m?</p>",
     "traningsniva": 1,
@@ -124602,16 +124607,16 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla km/h till m/s",
     "poang": "(1/0/0)",
-    "t": "<p>En bil kör i 72 km/h. Ange farten i m/s.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För att gå från km/h till m/s dividerar man med 3,6.</p><div class=\"facit-matte\">\\[\\frac{72}{3{,}6}=20\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{m/s}\\).</p></div>",
+    "t": "<p>En bil kör i 50 km/h. Ange farten i m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För att gå från km/h till m/s dividerar man med 3,6.</p><div class=\"facit-matte\">\\[\\frac{50}{3{,}6}\\approx13{,}9\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}9\\ \\mathrm{m/s}\\).</p></div>",
     "familj": "Sträcka, tid och fart",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0,
+    "rättSvar": 13.8888888889,
+    "tolerans": 0.208,
     "självrättning": true,
     "ledtrad": "<p>Hur hänger km/h och m/s ihop?</p>",
     "traningsniva": 1,
@@ -124664,16 +124669,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma medelfart med tidsomvandling",
     "poang": "(1/0/0)",
-    "t": "<p>En elev cyklar 600 m på 2,0 min. Bestäm medelfarten i m/s.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Skriv först tiden i sekunder.</p><div class=\"facit-matte\">\\[2{,}0\\ \\mathrm{min}=120\\ \\mathrm s\\]\\[v=\\frac{600}{120}=5{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{m/s}\\).</p></div>",
+    "t": "<p>En elev cyklar 650 m på 2,5 min. Bestäm medelfarten i m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Skriv först tiden i sekunder.</p><div class=\"facit-matte\">\\[2{,}5\\ \\mathrm{min}=150\\ \\mathrm s\\]\\[v=\\frac{650}{150}\\approx4{,}3\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\ \\mathrm{m/s}\\).</p></div>",
     "familj": "Medelhastighet och medelfart",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "hastighet__medelhastighet",
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0,
+    "rättSvar": 4.33333333333,
+    "tolerans": 0.065,
     "självrättning": true,
     "ledtrad": "<p>Börja med att skriva 2,0 minuter i sekunder.</p>",
     "traningsniva": 2,
@@ -127054,16 +127059,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma medelacceleration från fartändring",
     "poang": "(1/0/0)",
-    "t": "<p>En sparkcykel ökar farten från 0 till 10 m/s på 5,0 s. Bestäm medelaccelerationen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten ökar 10 m/s på 5,0 s.</p><div class=\"facit-matte\">\\[a=\\frac{10-0}{5{,}0}=2{,}0\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm{m/s^2}\\).</p></div>",
+    "t": "<p>En sparkcykel ökar farten från 0 till 9,0 m/s på 4,0 s. Bestäm medelaccelerationen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten ökar 9,0 m/s på 4,0 s.</p><div class=\"facit-matte\">\\[a=\\frac{9{,}0-0}{4{,}0}=2{,}25\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}25\\ \\mathrm{m/s^2}\\).</p></div>",
     "familj": "Medelacceleration",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 2.25,
+    "tolerans": 0.0338,
     "självrättning": true,
     "ledtrad": "<p>Hur mycket ändras farten varje sekund?</p>",
     "traningsniva": 1,
@@ -127082,16 +127087,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma slutfart vid konstant acceleration",
     "poang": "(1/0/0)",
-    "t": "<p>En vagn har startfarten 4,0 m/s och accelererar med 2,0 m/s² i 3,0 s. Bestäm slutfarten.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten ökar med 2,0 m/s varje sekund.</p><div class=\"facit-matte\">\\[v=4{,}0+2{,}0\\cdot3{,}0=10\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mathrm{m/s}\\).</p></div>",
+    "t": "<p>En vagn har startfarten 3,5 m/s och accelererar med 1,6 m/s² i 4,5 s. Bestäm slutfarten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten ökar med 1,6 m/s varje sekund.</p><div class=\"facit-matte\">\\[v=3{,}5+1{,}6\\cdot4{,}5=10{,}7\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}7\\ \\mathrm{m/s}\\).</p></div>",
     "familj": "Hastighet och tid vid konstant acceleration",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0,
+    "rättSvar": 10.7,
+    "tolerans": 0.16,
     "självrättning": true,
     "ledtrad": "<p>Hur stor blir den totala fartökningen på 3,0 s?</p>",
     "traningsniva": 1,
@@ -127113,16 +127118,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration vid inbromsning",
     "poang": "(1/0/0)",
-    "t": "<p>En cyklist bromsar från 14 m/s till vila på 7,0 s. Välj färdriktningen som positiv. Bestäm accelerationen med tecken.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Hastigheten ändras från +14 m/s till 0.</p><div class=\"facit-matte\">\\[a=\\frac{0-14}{7{,}0}=-2{,}0\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}0\\ \\mathrm{m/s^2}\\).</p></div>",
+    "t": "<p>En cyklist bromsar från 13 m/s till vila på 6,0 s. Välj färdriktningen som positiv. Bestäm accelerationen med tecken.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Hastigheten ändras från +13 m/s till 0.</p><div class=\"facit-matte\">\\[a=\\frac{0-13}{6{,}0}\\approx-2{,}17\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}17\\ \\mathrm{m/s^2}\\).</p></div>",
     "familj": "Medelacceleration",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": -2,
-    "tolerans": 0,
+    "rättSvar": -2.16666666667,
+    "tolerans": 0.0325,
     "självrättning": true,
     "ledtrad": "<p>Vid bromsning i positiv färdriktning blir accelerationen negativ.</p>",
     "traningsniva": 1,
@@ -127234,16 +127239,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma reaktionssträcka",
     "poang": "(1/0/0)",
-    "t": "<p>En bil kör 20 m/s. Förarens reaktionstid är 0,80 s. Hur långt hinner bilen under reaktionstiden om farten är konstant?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Under reaktionstiden är farten konstant.</p><div class=\"facit-matte\">\\[s=20\\cdot0{,}80=16\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\ \\mathrm m\\).</p></div>",
+    "t": "<p>En bil kör 22 m/s. Förarens reaktionstid är 0,75 s. Hur långt hinner bilen under reaktionstiden om farten är konstant?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Under reaktionstiden är farten konstant.</p><div class=\"facit-matte\">\\[s=22\\cdot0{,}75=16{,}5\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16{,}5\\ \\mathrm m\\).</p></div>",
     "familj": "Reaktions- och bromssträcka",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "konstacc__reaktions_och_bromsstracka",
     "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": 0,
+    "rättSvar": 16.5,
+    "tolerans": 0.247,
     "självrättning": true,
     "ledtrad": "<p>Hur långt färdas bilen på 0,80 s vid 20 m/s?</p>",
     "traningsniva": 2,
@@ -127291,16 +127296,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma bromssträcka från medelfart",
     "poang": "(1/0/0)",
-    "t": "<p>En cyklist bromsar jämnt från 10 m/s till vila på 4,0 s. Bestäm bromssträckan.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid konstant acceleration är medelfarten medelvärdet av start- och slutfarten.</p><div class=\"facit-matte\">\\[v_{\\mathrm{med}}=\\frac{10+0}{2}=5{,}0\\ \\mathrm{m/s}\\]\\[s=5{,}0\\cdot4{,}0=20\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm m\\).</p></div>",
+    "t": "<p>En cyklist bromsar jämnt från 9,0 m/s till vila på 3,5 s. Bestäm bromssträckan.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid konstant acceleration är medelfarten medelvärdet av start- och slutfarten.</p><div class=\"facit-matte\">\\[v_{\\mathrm{med}}=\\frac{9{,}0+0}{2}=4{,}5\\ \\mathrm{m/s}\\]\\[s=4{,}5\\cdot3{,}5\\approx15{,}8\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15{,}8\\ \\mathrm m\\).</p></div>",
     "familj": "Reaktions- och bromssträcka",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "konstacc__reaktions_och_bromsstracka",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0,
+    "rättSvar": 15.75,
+    "tolerans": 0.236,
     "självrättning": true,
     "ledtrad": "<p>Bestäm först medelfarten under den jämna inbromsningen.</p>",
     "traningsniva": 2,
@@ -128098,24 +128103,24 @@ window.BANK = [
     "niva": "E",
     "typ": "mängdträning: sträcka och fart",
     "poang": "(4/0/0)",
-    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Farten i A är 31 m/s och retardationen 2,5 m/s². Bestäm farten i B 12 s senare.</li><li>Farten i A är 35,0 m/s och retardationen 0,800 m/s². Bestäm avståndet AB om det tar 15,0 s.</li><li>Farten i A är 8,0 m/s och accelerationen 2,0 m/s². Bestäm farten i B om AB = 56,25 m.</li><li>Farten är 8,0 m/s i A och 30 m/s i B 15 s senare. Bestäm AB.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(v=31-2{,}5\\cdot12\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s</p></li><li><p>\\(s=35{,}0\\cdot15{,}0-\\dfrac{0{,}800\\cdot15{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(435\\) m</p></li><li><p>\\(v=\\sqrt{8{,}0^2+2\\cdot2{,}0\\cdot56{,}25}\\).</p><p><strong>Svar:</strong> \\(17\\) m/s</p></li><li><p>\\(s=\\dfrac{8{,}0+30}{2}\\cdot15\\).</p><p><strong>Svar:</strong> \\(285\\) m</p></li></ol>",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Farten i A är 32 m/s och retardationen 2,4 m/s². Bestäm farten i B 11 s senare.</li><li>Farten i A är 34,0 m/s och retardationen 0,750 m/s². Bestäm avståndet AB om det tar 14,0 s.</li><li>Farten i A är 7,5 m/s och accelerationen 1,8 m/s². Bestäm farten i B om AB = 50,0 m.</li><li>Farten är 7,5 m/s i A och 28 m/s i B 14 s senare. Bestäm AB.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(v=32-2{,}4\\cdot11\\).</p><p><strong>Svar:</strong> \\(5{,}6\\) m/s</p></li><li><p>\\(s=34{,}0\\cdot14{,}0-\\dfrac{0{,}750\\cdot14{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(403\\) m</p></li><li><p>\\(v=\\sqrt{7{,}5^2+2\\cdot1{,}8\\cdot50{,}0}\\).</p><p><strong>Svar:</strong> \\(15{,}4\\) m/s</p></li><li><p>\\(s=\\dfrac{7{,}5+28}{2}\\cdot14\\).</p><p><strong>Svar:</strong> \\(249\\) m</p></li></ol>",
     "id": "3.380",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sträcka vid konstant acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1,
-      435,
-      17,
-      285
+      5.6,
+      402.5,
+      15.3704261489,
+      248.5
     ],
     "tolerans": [
-      0.051,
-      6.52,
-      0.51,
-      5.1
+      0.084,
+      6.04,
+      0.231,
+      3.73
     ],
     "självrättning": true,
     "formaga": [
@@ -128145,9 +128150,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Farten i A är 31 m/s och retardationen 2,5 m/s². Bestäm farten i B 12 s senare.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 31 m/s och retardationen 2,5 m/s². Bestäm farten i B 12 s senare.</p>",
-        "s": "<p>\\(v=31-2{,}5\\cdot12\\).</p><p><strong>Svar:</strong> \\(1{,}0\\) m/s</p>",
+        "fraga": "Farten i A är 32 m/s och retardationen 2,4 m/s². Bestäm farten i B 11 s senare.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 32 m/s och retardationen 2,4 m/s². Bestäm farten i B 11 s senare.</p>",
+        "s": "<p>\\(v=32-2{,}4\\cdot11\\).</p><p><strong>Svar:</strong> \\(5{,}6\\) m/s</p>",
         "ledtrad": "<p>\\(v=v_0+at\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -128156,9 +128161,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Farten i A är 35,0 m/s och retardationen 0,800 m/s². Bestäm avståndet AB om det tar 15,0 s.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 35,0 m/s och retardationen 0,800 m/s². Bestäm avståndet AB om det tar 15,0 s.</p>",
-        "s": "<p>\\(s=35{,}0\\cdot15{,}0-\\dfrac{0{,}800\\cdot15{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(435\\) m</p>",
+        "fraga": "Farten i A är 34,0 m/s och retardationen 0,750 m/s². Bestäm avståndet AB om det tar 14,0 s.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 34,0 m/s och retardationen 0,750 m/s². Bestäm avståndet AB om det tar 14,0 s.</p>",
+        "s": "<p>\\(s=34{,}0\\cdot14{,}0-\\dfrac{0{,}750\\cdot14{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(403\\) m</p>",
         "ledtrad": "<p>\\(s=v_0t+\\dfrac{at^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -128167,9 +128172,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Farten i A är 8,0 m/s och accelerationen 2,0 m/s². Bestäm farten i B om AB = 56,25 m.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 8,0 m/s och accelerationen 2,0 m/s². Bestäm farten i B om AB = 56,25 m.</p>",
-        "s": "<p>\\(v=\\sqrt{8{,}0^2+2\\cdot2{,}0\\cdot56{,}25}\\).</p><p><strong>Svar:</strong> \\(17\\) m/s</p>",
+        "fraga": "Farten i A är 7,5 m/s och accelerationen 1,8 m/s². Bestäm farten i B om AB = 50,0 m.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 7,5 m/s och accelerationen 1,8 m/s². Bestäm farten i B om AB = 50,0 m.</p>",
+        "s": "<p>\\(v=\\sqrt{7{,}5^2+2\\cdot1{,}8\\cdot50{,}0}\\).</p><p><strong>Svar:</strong> \\(15{,}4\\) m/s</p>",
         "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -128178,9 +128183,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Farten är 8,0 m/s i A och 30 m/s i B 15 s senare. Bestäm AB.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten är 8,0 m/s i A och 30 m/s i B 15 s senare. Bestäm AB.</p>",
-        "s": "<p>\\(s=\\dfrac{8{,}0+30}{2}\\cdot15\\).</p><p><strong>Svar:</strong> \\(285\\) m</p>",
+        "fraga": "Farten är 7,5 m/s i A och 28 m/s i B 14 s senare. Bestäm AB.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten är 7,5 m/s i A och 28 m/s i B 14 s senare. Bestäm AB.</p>",
+        "s": "<p>\\(s=\\dfrac{7{,}5+28}{2}\\cdot14\\).</p><p><strong>Svar:</strong> \\(249\\) m</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -128200,23 +128205,23 @@ window.BANK = [
     "niva": "C",
     "typ": "mängdträning: tid och acceleration",
     "poang": "(3/1/0)",
-    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Farten i A är 23 m/s och retardationen 0,50 m/s². I B är farten 12 m/s. Hur lång tid tar det?</li><li>Farten i A är 23 m/s. Partikeln färdas 52 m till B på 4,0 s. Bestäm retardationens storlek.</li><li>Farten i A är 28 m/s, retardationen 2,25 m/s² och farten i B 19 m/s. Bestäm AB.</li><li>Farten är 23 m/s i A och 20 m/s i B, och AB = 24 m. Hur lång tid tar det?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{23-12}{0{,}50}\\).</p><p><strong>Svar:</strong> \\(22\\) s</p></li><li><p>\\(52=23\\cdot4{,}0-\\dfrac{a\\cdot4{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) m/s²</p></li><li><p>\\(s=\\dfrac{28^2-19^2}{2\\cdot2{,}25}\\).</p><p><strong>Svar:</strong> \\(94\\) m</p></li><li><p>\\(t=\\dfrac{24}{(23+20)/2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) s</p></li></ol>",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Farten i A är 24 m/s och retardationen 0,60 m/s². I B är farten 13 m/s. Hur lång tid tar det?</li><li>Farten i A är 24 m/s. Partikeln färdas 60 m till B på 3,5 s. Bestäm retardationens storlek.</li><li>Farten i A är 27 m/s, retardationen 2,40 m/s² och farten i B 18 m/s. Bestäm AB.</li><li>Farten är 23 m/s i A och 20 m/s i B, och AB = 24 m. Hur lång tid tar det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{24-13}{0{,}60}\\).</p><p><strong>Svar:</strong> \\(18{,}3\\) s</p></li><li><p>\\(60=24\\cdot3{,}5-\\dfrac{a\\cdot3{,}5^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}92\\) m/s²</p></li><li><p>\\(s=\\dfrac{27^2-18^2}{2\\cdot2{,}40}\\).</p><p><strong>Svar:</strong> \\(84{,}4\\) m</p></li><li><p>\\(t=\\dfrac{24}{(23+20)/2}\\).</p><p><strong>Svar:</strong> \\(1{,}1\\) s</p></li></ol>",
     "id": "3.381",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sträcka vid konstant acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      22,
-      5.0,
-      94.0,
+      18.3333333333,
+      3.91836734694,
+      84.375,
       1.1162790697674418
     ],
     "tolerans": [
-      0.51,
-      0.075,
-      1.41,
+      0.275,
+      0.0588,
+      1.27,
       0.051
     ],
     "självrättning": true,
@@ -128247,9 +128252,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Farten i A är 23 m/s och retardationen 0,50 m/s². I B är farten 12 m/s. Hur lång tid tar det?",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 23 m/s och retardationen 0,50 m/s². I B är farten 12 m/s. Hur lång tid tar det?</p>",
-        "s": "<p>\\(t=\\dfrac{23-12}{0{,}50}\\).</p><p><strong>Svar:</strong> \\(22\\) s</p>",
+        "fraga": "Farten i A är 24 m/s och retardationen 0,60 m/s². I B är farten 13 m/s. Hur lång tid tar det?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 24 m/s och retardationen 0,60 m/s². I B är farten 13 m/s. Hur lång tid tar det?</p>",
+        "s": "<p>\\(t=\\dfrac{24-13}{0{,}60}\\).</p><p><strong>Svar:</strong> \\(18{,}3\\) s</p>",
         "ledtrad": "<p>\\(v=v_0+at\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -128258,9 +128263,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Farten i A är 23 m/s. Partikeln färdas 52 m till B på 4,0 s. Bestäm retardationens storlek.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 23 m/s. Partikeln färdas 52 m till B på 4,0 s. Bestäm retardationens storlek.</p>",
-        "s": "<p>\\(52=23\\cdot4{,}0-\\dfrac{a\\cdot4{,}0^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\) m/s²</p>",
+        "fraga": "Farten i A är 24 m/s. Partikeln färdas 60 m till B på 3,5 s. Bestäm retardationens storlek.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 24 m/s. Partikeln färdas 60 m till B på 3,5 s. Bestäm retardationens storlek.</p>",
+        "s": "<p>\\(60=24\\cdot3{,}5-\\dfrac{a\\cdot3{,}5^2}{2}\\).</p><p><strong>Svar:</strong> \\(3{,}92\\) m/s²</p>",
         "ledtrad": "<p>\\(s=v_0t+\\dfrac{at^2}{2}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -128269,9 +128274,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Farten i A är 28 m/s, retardationen 2,25 m/s² och farten i B 19 m/s. Bestäm AB.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 28 m/s, retardationen 2,25 m/s² och farten i B 19 m/s. Bestäm AB.</p>",
-        "s": "<p>\\(s=\\dfrac{28^2-19^2}{2\\cdot2{,}25}\\).</p><p><strong>Svar:</strong> \\(94\\) m</p>",
+        "fraga": "Farten i A är 27 m/s, retardationen 2,40 m/s² och farten i B 18 m/s. Bestäm AB.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i A är 27 m/s, retardationen 2,40 m/s² och farten i B 18 m/s. Bestäm AB.</p>",
+        "s": "<p>\\(s=\\dfrac{27^2-18^2}{2\\cdot2{,}40}\\).</p><p><strong>Svar:</strong> \\(84{,}4\\) m</p>",
         "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -128302,8 +128307,8 @@ window.BANK = [
     "niva": "C",
     "typ": "mängdträning: okänd startfart",
     "poang": "(2/2/0)",
-    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Farten i B är 3,0 m/s 15 s efter A, och AB = 247,5 m. Bestäm retardationens storlek.</li><li>Accelerationen är 2,5 m/s², och AB = 282,75 m nås på 13 s. Bestäm farten i A.</li><li>Farten är 4,0 m/s i A och 28 m/s i B, och AB = 320 m. Bestäm accelerationen.</li><li>Farten i B är 9,0 m/s 12 s efter A, och AB = 126 m. Bestäm farten i A.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(247{,}5=\\dfrac{v+3{,}0}{2}\\cdot15\\iff v=30\\). \\(a=\\dfrac{30-3{,}0}{15}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) m/s²</p></li><li><p>\\(282{,}75=13v+\\dfrac{2{,}5\\cdot13^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}5\\) m/s</p></li><li><p>\\(a=\\dfrac{28^2-4{,}0^2}{2\\cdot320}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m/s²</p></li><li><p>\\(126=\\dfrac{v+9{,}0}{2}\\cdot12\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p></li></ol>",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Farten i B är 3,0 m/s 15 s efter A, och AB = 247,5 m. Bestäm retardationens storlek.</li><li>Accelerationen är 2,5 m/s², och AB = 282,75 m nås på 13 s. Bestäm farten i A.</li><li>Farten är 4,0 m/s i A och 28 m/s i B, och AB = 320 m. Bestäm accelerationen.</li><li>Farten i B är 8,5 m/s 11 s efter A, och AB = 130 m. Bestäm farten i A.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(247{,}5=\\dfrac{v+3{,}0}{2}\\cdot15\\iff v=30\\). \\(a=\\dfrac{30-3{,}0}{15}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\) m/s²</p></li><li><p>\\(282{,}75=13v+\\dfrac{2{,}5\\cdot13^2}{2}\\).</p><p><strong>Svar:</strong> \\(5{,}5\\) m/s</p></li><li><p>\\(a=\\dfrac{28^2-4{,}0^2}{2\\cdot320}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) m/s²</p></li><li><p>\\(130=\\dfrac{v+8{,}5}{2}\\cdot11\\).</p><p><strong>Svar:</strong> \\(15{,}1\\) m/s</p></li></ol>",
     "id": "3.382",
     "miniräknare": true,
     "geogebra": false,
@@ -128313,13 +128318,13 @@ window.BANK = [
       1.8,
       5.5,
       1.2,
-      12
+      15.1363636364
     ],
     "tolerans": [
       0.051,
       0.0825,
       0.051,
-      0.51
+      0.227
     ],
     "självrättning": true,
     "formaga": [
@@ -128383,9 +128388,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Farten i B är 9,0 m/s 12 s efter A, och AB = 126 m. Bestäm farten i A.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i B är 9,0 m/s 12 s efter A, och AB = 126 m. Bestäm farten i A.</p>",
-        "s": "<p>\\(126=\\dfrac{v+9{,}0}{2}\\cdot12\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p>",
+        "fraga": "Farten i B är 8,5 m/s 11 s efter A, och AB = 130 m. Bestäm farten i A.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Farten i B är 8,5 m/s 11 s efter A, och AB = 130 m. Bestäm farten i A.</p>",
+        "s": "<p>\\(130=\\dfrac{v+8{,}5}{2}\\cdot11\\).</p><p><strong>Svar:</strong> \\(15{,}1\\) m/s</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -128405,23 +128410,23 @@ window.BANK = [
     "niva": "C",
     "typ": "mängdträning: andragradsekvationer",
     "poang": "(1/3/0)",
-    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Retardationen är 1,50 m/s², det tar 9,00 s och AB = 78,75 m. Bestäm farten i B.</li><li>Farten i A är 23 m/s, accelerationen 4,0 m/s² och AB = 59,5 m. Hur lång tid tar det?</li><li>Retardationen är 6,0 m/s², farten i B 14 m/s och AB = 40 m. Bestäm farten i A.</li><li>Farten i A är 7,00 m/s, det tar 4,00 s och AB = 56,8 m. Bestäm farten i B.</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(78{,}75=9{,}00u-\\dfrac{1{,}50\\cdot81}{2}\\iff u=15{,}5\\) m/s i A. \\(v_B=15{,}5-1{,}50\\cdot9{,}00\\).</p><p><strong>Svar:</strong> \\(2{,}00\\) m/s</p></li><li><p>\\(59{,}5=23t+2{,}0t^2\\iff t=\\dfrac{-23+\\sqrt{23^2+8\\cdot59{,}5}}{4}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) s</p></li><li><p>\\(v=\\sqrt{14^2+2\\cdot6{,}0\\cdot40}\\).</p><p><strong>Svar:</strong> \\(26\\) m/s</p></li><li><p>\\(v_B=\\dfrac{2\\cdot56{,}8}{4{,}00}-7{,}00\\).</p><p><strong>Svar:</strong> \\(21{,}4\\) m/s</p></li></ol>",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><ol type=\"a\"><li>Retardationen är 1,50 m/s², det tar 9,00 s och AB = 85,0 m. Bestäm farten i B.</li><li>Farten i A är 23 m/s, accelerationen 4,0 m/s² och AB = 59,5 m. Hur lång tid tar det?</li><li>Retardationen är 5,5 m/s², farten i B 13 m/s och AB = 42 m. Bestäm farten i A.</li><li>Farten i A är 7,00 m/s, det tar 4,00 s och AB = 56,8 m. Bestäm farten i B.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(85{,}0=9{,}00u-\\dfrac{1{,}50\\cdot81}{2}\\iff u\\approx16{,}19\\) m/s i A. \\(v_B=16{,}19-1{,}50\\cdot9{,}00\\).</p><p><strong>Svar:</strong> \\(2{,}69\\) m/s</p></li><li><p>\\(59{,}5=23t+2{,}0t^2\\iff t=\\dfrac{-23+\\sqrt{23^2+8\\cdot59{,}5}}{4}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) s</p></li><li><p>\\(v=\\sqrt{13^2+2\\cdot5{,}5\\cdot42}\\).</p><p><strong>Svar:</strong> \\(25{,}1\\) m/s</p></li><li><p>\\(v_B=\\dfrac{2\\cdot56{,}8}{4{,}00}-7{,}00\\).</p><p><strong>Svar:</strong> \\(21{,}4\\) m/s</p></li></ol>",
     "id": "3.383",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sträcka vid konstant acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2,
+      2.69444444444,
       2.175433742073679,
-      26,
+      25.1197133742,
       21.4
     ],
     "tolerans": [
-      0.03,
+      0.04,
       0.051,
-      0.51,
+      0.377,
       0.321
     ],
     "självrättning": true,
@@ -128453,9 +128458,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Retardationen är 1,50 m/s², det tar 9,00 s och AB = 78,75 m. Bestäm farten i B.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Retardationen är 1,50 m/s², det tar 9,00 s och AB = 78,75 m. Bestäm farten i B.</p>",
-        "s": "<p>\\(78{,}75=9{,}00u-\\dfrac{1{,}50\\cdot81}{2}\\iff u=15{,}5\\) m/s i A. \\(v_B=15{,}5-1{,}50\\cdot9{,}00\\).</p><p><strong>Svar:</strong> \\(2{,}00\\) m/s</p>",
+        "fraga": "Retardationen är 1,50 m/s², det tar 9,00 s och AB = 85,0 m. Bestäm farten i B.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Retardationen är 1,50 m/s², det tar 9,00 s och AB = 85,0 m. Bestäm farten i B.</p>",
+        "s": "<p>\\(85{,}0=9{,}00u-\\dfrac{1{,}50\\cdot81}{2}\\iff u\\approx16{,}19\\) m/s i A. \\(v_B=16{,}19-1{,}50\\cdot9{,}00\\).</p><p><strong>Svar:</strong> \\(2{,}69\\) m/s</p>",
         "ledtrad": "<p>Bestäm farten i A först.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -128475,9 +128480,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Retardationen är 6,0 m/s², farten i B 14 m/s och AB = 40 m. Bestäm farten i A.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Retardationen är 6,0 m/s², farten i B 14 m/s och AB = 40 m. Bestäm farten i A.</p>",
-        "s": "<p>\\(v=\\sqrt{14^2+2\\cdot6{,}0\\cdot40}\\).</p><p><strong>Svar:</strong> \\(26\\) m/s</p>",
+        "fraga": "Retardationen är 5,5 m/s², farten i B 13 m/s och AB = 42 m. Bestäm farten i A.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel passerar A och senare B.</p><p>Retardationen är 5,5 m/s², farten i B 13 m/s och AB = 42 m. Bestäm farten i A.</p>",
+        "s": "<p>\\(v=\\sqrt{13^2+2\\cdot5{,}5\\cdot42}\\).</p><p><strong>Svar:</strong> \\(25{,}1\\) m/s</p>",
         "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -128611,15 +128616,15 @@ window.BANK = [
     "niva": "A",
     "typ": "två möjliga tider",
     "poang": "(0/1/1)",
-    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel med accelerationen 1,25 m/s² har farten 11,0 m/s i B. Avståndet AB är 43,5 m. Bestäm den kortaste möjliga tiden från A till B.</p>",
-    "s": "<p>\\(v_A^2=11{,}0^2-2\\cdot1{,}25\\cdot43{,}5=12{,}25\\iff v_A=\\pm3{,}5\\). Med \\(v_A=3{,}5\\): \\(t=\\dfrac{11{,}0-3{,}5}{1{,}25}\\). (Med \\(-3{,}5\\) blir tiden 11,6 s.)</p><p><strong>Svar:</strong> \\(6{,}00\\) s</p>",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En partikel med accelerationen 1,25 m/s² har farten 11,0 m/s i B. Avståndet AB är 40,0 m. Bestäm den kortaste möjliga tiden från A till B.</p>",
+    "s": "<p>\\(v_A^2=11{,}0^2-2\\cdot1{,}25\\cdot40{,}0=21\\iff v_A\\approx\\pm4{,}58\\). Med \\(v_A=4{,}58\\): \\(t=\\dfrac{11{,}0-4{,}58}{1{,}25}\\). (Med \\(-4{,}58\\) blir tiden 12,5 s.)</p><p><strong>Svar:</strong> \\(5{,}13\\) s</p>",
     "id": "3.385",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sträcka vid konstant acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0.09,
+    "rättSvar": 5.13393944404,
+    "tolerans": 0.077,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -128638,22 +128643,22 @@ window.BANK = [
     "niva": "A",
     "typ": "tre punkter A, B och C",
     "poang": "(0/4/1)",
-    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><ol type=\"a\"><li>AB = 300 m och BC = 200 m. En bil passerar A med 5,0 m/s och C 20 s senare. Bestäm accelerationen.</li><li>Bestäm bilens fart i B.</li><li>AB = 28 m. En annan bil passerar A med 11 m/s, B med 15 m/s och C med 29 m/s. Bestäm AC.</li><li>Hur lång tid tar det för den bilen från A till C?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(500=5{,}0\\cdot20+\\dfrac{a\\cdot20^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s²</p></li><li><p>\\(v_B=\\sqrt{5{,}0^2+2\\cdot2{,}0\\cdot300}\\).</p><p><strong>Svar:</strong> \\(35\\) m/s</p></li><li><p>\\(a=\\dfrac{15^2-11^2}{2\\cdot28}=1{,}857\\) m/s². \\(AC=\\dfrac{29^2-11^2}{2a}\\).</p><p><strong>Svar:</strong> \\(194\\) m</p></li><li><p>\\(t=\\dfrac{29-11}{1{,}857}\\).</p><p><strong>Svar:</strong> \\(9{,}7\\) s</p></li></ol>",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><ol type=\"a\"><li>AB = 280 m och BC = 220 m. En bil passerar A med 4,0 m/s och C 21 s senare. Bestäm accelerationen.</li><li>Bestäm bilens fart i B.</li><li>AB = 28 m. En annan bil passerar A med 11 m/s, B med 15 m/s och C med 29 m/s. Bestäm AC.</li><li>Hur lång tid tar det för den bilen från A till C?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(500=4{,}0\\cdot21+\\dfrac{a\\cdot21^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}89\\) m/s²</p></li><li><p>\\(v_B=\\sqrt{4{,}0^2+2\\cdot1{,}89\\cdot280}\\).</p><p><strong>Svar:</strong> \\(32{,}7\\) m/s</p></li><li><p>\\(a=\\dfrac{15^2-11^2}{2\\cdot28}=1{,}857\\) m/s². \\(AC=\\dfrac{29^2-11^2}{2a}\\).</p><p><strong>Svar:</strong> \\(194\\) m</p></li><li><p>\\(t=\\dfrac{29-11}{1{,}857}\\).</p><p><strong>Svar:</strong> \\(9{,}7\\) s</p></li></ol>",
     "id": "3.386",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sträcka vid konstant acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2.0,
-      35.0,
+      1.88662131519,
+      32.749166959,
       193.84615384615384,
       9.692307692307692
     ],
     "tolerans": [
-      0.051,
-      0.525,
+      0.0283,
+      0.491,
       5.1,
       0.145
     ],
@@ -128685,9 +128690,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "AB = 300 m och BC = 200 m. En bil passerar A med 5,0 m/s och C 20 s senare. Bestäm accelerationen.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>AB = 300 m och BC = 200 m. En bil passerar A med 5,0 m/s och C 20 s senare. Bestäm accelerationen.</p>",
-        "s": "<p>\\(500=5{,}0\\cdot20+\\dfrac{a\\cdot20^2}{2}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) m/s²</p>",
+        "fraga": "AB = 280 m och BC = 220 m. En bil passerar A med 4,0 m/s och C 21 s senare. Bestäm accelerationen.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>AB = 280 m och BC = 220 m. En bil passerar A med 4,0 m/s och C 21 s senare. Bestäm accelerationen.</p>",
+        "s": "<p>\\(500=4{,}0\\cdot21+\\dfrac{a\\cdot21^2}{2}\\).</p><p><strong>Svar:</strong> \\(1{,}89\\) m/s²</p>",
         "ledtrad": "<p>\\(s=v_0t+\\dfrac{at^2}{2}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -128697,8 +128702,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm bilens fart i B.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p>Accelerationen är 2,0 m/s².<p>Bestäm bilens fart i B.</p>",
-        "s": "<p>\\(v_B=\\sqrt{5{,}0^2+2\\cdot2{,}0\\cdot300}\\).</p><p><strong>Svar:</strong> \\(35\\) m/s</p>",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p>Accelerationen är 1,89 m/s².<p>Bestäm bilens fart i B.</p>",
+        "s": "<p>\\(v_B=\\sqrt{4{,}0^2+2\\cdot1{,}89\\cdot280}\\).</p><p><strong>Svar:</strong> \\(32{,}7\\) m/s</p>",
         "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -128826,20 +128831,20 @@ window.BANK = [
     "niva": "A",
     "typ": "tid till mittpunkten",
     "poang": "(1/1/1)",
-    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 12 s senare B med 18 m/s. AB = 180 m.</p><ol type=\"a\"><li>Bestäm \\(v\\).</li><li>Hur lång tid tar det från A till mittpunkten på AB (två decimaler)?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(180=\\dfrac{v+18}{2}\\cdot12\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p></li><li><p>\\(a=0{,}50\\) m/s². \\(90=12t+0{,}25t^2\\iff t=\\dfrac{-48+\\sqrt{48^2+1\\,440}}{2}\\).</p><p><strong>Svar:</strong> \\(6{,}59\\) s</p></li></ol>",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 11 s senare B med 18 m/s. AB = 170 m.</p><ol type=\"a\"><li>Bestäm \\(v\\).</li><li>Hur lång tid tar det från A till mittpunkten på AB (två decimaler)?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(170=\\dfrac{v+18}{2}\\cdot11\\).</p><p><strong>Svar:</strong> \\(12{,}9\\) m/s</p></li><li><p>\\(a=\\dfrac{18-12{,}91}{11}\\approx0{,}463\\) m/s². \\(85=12{,}91t+\\dfrac{0{,}463}{2}t^2\\).</p><p><strong>Svar:</strong> \\(5{,}95\\) s</p></li></ol>",
     "id": "3.388",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sträcka vid konstant acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      12,
-      6.5941170815567105
+      12.9090909091,
+      5.94991029959
     ],
     "tolerans": [
-      0.51,
-      0.0989
+      0.194,
+      0.0892
     ],
     "självrättning": true,
     "formaga": [
@@ -128859,13 +128864,13 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 12 s senare B med 18 m/s. AB = 180 m.</p>",
+    "spelIntro": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 11 s senare B med 18 m/s. AB = 170 m.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm \\(v\\).",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 12 s senare B med 18 m/s. AB = 180 m.</p><p>Bestäm \\(v\\).</p>",
-        "s": "<p>\\(180=\\dfrac{v+18}{2}\\cdot12\\).</p><p><strong>Svar:</strong> \\(12\\) m/s</p>",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 11 s senare B med 18 m/s. AB = 170 m.</p><p>Bestäm \\(v\\).</p>",
+        "s": "<p>\\(170=\\dfrac{v+18}{2}\\cdot11\\).</p><p><strong>Svar:</strong> \\(12{,}9\\) m/s</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -128875,8 +128880,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur lång tid tar det från A till mittpunkten på AB (två decimaler)?",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 12 s senare B med 18 m/s. AB = 180 m.</p><p>Hur lång tid tar det från A till mittpunkten på AB (två decimaler)?</p>",
-        "s": "<p>\\(a=0{,}50\\) m/s². \\(90=12t+0{,}25t^2\\iff t=\\dfrac{-48+\\sqrt{48^2+1\\,440}}{2}\\).</p><p><strong>Svar:</strong> \\(6{,}59\\) s</p>",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En bil passerar A med en fart \\(v\\) som är lägre än 18 m/s och 11 s senare B med 18 m/s. AB = 170 m.</p><p>Hur lång tid tar det från A till mittpunkten på AB (två decimaler)?</p>",
+        "s": "<p>\\(a=\\dfrac{18-12{,}91}{11}\\approx0{,}463\\) m/s². \\(85=12{,}91t+\\dfrac{0{,}463}{2}t^2\\).</p><p><strong>Svar:</strong> \\(5{,}95\\) s</p>",
         "ledtrad": "<p>Andragradsekvation.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -128896,22 +128901,22 @@ window.BANK = [
     "niva": "A",
     "typ": "möten och omkörningar",
     "poang": "(0/3/2)",
-    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><ol type=\"a\"><li>A och B ligger 240 m isär. Vid \\(t=0\\) passerar en partikel A med 4,0 m/s och accelerationen 0,75 m/s² mot B, och en annan passerar B med konstant 5,0 m/s mot A. Bestäm avståndet från A till mötespunkten.</li><li>Bil A har 28 m/s och accelerationen 0,10 m/s². Bil B är 240 m bakom med 24 m/s och 0,20 m/s². Vilken fart har B när den kör om A?</li><li>En cyklist (12 m/s) passerar ett trafikljus vid \\(t=0\\). Vid \\(t=6{,}0\\) s passerar en bil med 30 m/s och retardationen 2,0 m/s². När kör bilen om cyklisten?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(4{,}0t+0{,}375t^2+5{,}0t=240\\iff t=16\\) s. \\(AC=4{,}0\\cdot16+0{,}375\\cdot16^2\\).</p><p><strong>Svar:</strong> \\(160\\) m</p></li><li><p>\\(24t+0{,}10t^2=240+28t+0{,}05t^2\\iff t=120\\) s. \\(v_B=24+0{,}20\\cdot120\\).</p><p><strong>Svar:</strong> \\(48\\) m/s</p></li><li><p>\\(12t=30(t-6)-(t-6)^2\\iff t^2-30t+216=0\\).</p><p><strong>Svar:</strong> \\(12\\) s</p></li></ol>",
+    "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><ol type=\"a\"><li>A och B ligger 250 m isär. Vid \\(t=0\\) passerar en partikel A med 4,0 m/s och accelerationen 0,75 m/s² mot B, och en annan passerar B med konstant 5,0 m/s mot A. Bestäm avståndet från A till mötespunkten.</li><li>Bil A har 28 m/s och accelerationen 0,10 m/s². Bil B är 230 m bakom med 24 m/s och 0,20 m/s². Vilken fart har B när den kör om A?</li><li>En cyklist (11 m/s) passerar ett trafikljus vid \\(t=0\\). Vid \\(t=6{,}0\\) s passerar en bil med 30 m/s och retardationen 2,0 m/s². När kör bilen om cyklisten?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(4{,}0t+0{,}375t^2+5{,}0t=250\\iff t\\approx16{,}47\\) s. \\(AC=4{,}0\\cdot16{,}47+0{,}375\\cdot16{,}47^2\\).</p><p><strong>Svar:</strong> \\(168\\) m</p></li><li><p>\\(24t+0{,}10t^2=230+28t+0{,}05t^2\\iff t\\approx118{,}7\\) s. \\(v_B=24+0{,}20\\cdot118{,}7\\).</p><p><strong>Svar:</strong> \\(47{,}7\\) m/s</p></li><li><p>\\(11t=30(t-6)-(t-6)^2\\iff t^2-31t+216=0\\).</p><p><strong>Svar:</strong> \\(10{,}6\\) s</p></li></ol>",
     "id": "3.389",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Möte och ikapp",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      160,
-      48,
-      12
+      167.63895664,
+      47.748015748,
+      10.5755710991
     ],
     "tolerans": [
-      5.1,
-      0.72,
-      0.51
+      2.51,
+      0.716,
+      0.159
     ],
     "självrättning": true,
     "formaga": [
@@ -128938,9 +128943,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "A och B ligger 240 m isär. Vid \\(t=0\\) passerar en partikel A med 4,0 m/s och accelerationen 0,75 m/s² mot B, och en annan passerar B med konstant 5,0 m/s mot A. Bestäm avståndet från A till mötespunkten.",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>A och B ligger 240 m isär. Vid \\(t=0\\) passerar en partikel A med 4,0 m/s och accelerationen 0,75 m/s² mot B, och en annan passerar B med konstant 5,0 m/s mot A. Bestäm avståndet från A till mötespunkten.</p>",
-        "s": "<p>\\(4{,}0t+0{,}375t^2+5{,}0t=240\\iff t=16\\) s. \\(AC=4{,}0\\cdot16+0{,}375\\cdot16^2\\).</p><p><strong>Svar:</strong> \\(160\\) m</p>",
+        "fraga": "A och B ligger 250 m isär. Vid \\(t=0\\) passerar en partikel A med 4,0 m/s och accelerationen 0,75 m/s² mot B, och en annan passerar B med konstant 5,0 m/s mot A. Bestäm avståndet från A till mötespunkten.",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>A och B ligger 250 m isär. Vid \\(t=0\\) passerar en partikel A med 4,0 m/s och accelerationen 0,75 m/s² mot B, och en annan passerar B med konstant 5,0 m/s mot A. Bestäm avståndet från A till mötespunkten.</p>",
+        "s": "<p>\\(4{,}0t+0{,}375t^2+5{,}0t=250\\iff t\\approx16{,}47\\) s. \\(AC=4{,}0\\cdot16{,}47+0{,}375\\cdot16{,}47^2\\).</p><p><strong>Svar:</strong> \\(168\\) m</p>",
         "ledtrad": "<p>Summan av sträckorna är 240 m.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -128949,9 +128954,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bil A har 28 m/s och accelerationen 0,10 m/s². Bil B är 240 m bakom med 24 m/s och 0,20 m/s². Vilken fart har B när den kör om A?",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>Bil A har 28 m/s och accelerationen 0,10 m/s². Bil B är 240 m bakom med 24 m/s och 0,20 m/s². Vilken fart har B när den kör om A?</p>",
-        "s": "<p>\\(24t+0{,}10t^2=240+28t+0{,}05t^2\\iff t=120\\) s. \\(v_B=24+0{,}20\\cdot120\\).</p><p><strong>Svar:</strong> \\(48\\) m/s</p>",
+        "fraga": "Bil A har 28 m/s och accelerationen 0,10 m/s². Bil B är 230 m bakom med 24 m/s och 0,20 m/s². Vilken fart har B när den kör om A?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>Bil A har 28 m/s och accelerationen 0,10 m/s². Bil B är 230 m bakom med 24 m/s och 0,20 m/s². Vilken fart har B när den kör om A?</p>",
+        "s": "<p>\\(24t+0{,}10t^2=230+28t+0{,}05t^2\\iff t\\approx118{,}7\\) s. \\(v_B=24+0{,}20\\cdot118{,}7\\).</p><p><strong>Svar:</strong> \\(47{,}7\\) m/s</p>",
         "ledtrad": "<p>Sätt lägena lika.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -128960,9 +128965,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En cyklist (12 m/s) passerar ett trafikljus vid \\(t=0\\). Vid \\(t=6{,}0\\) s passerar en bil med 30 m/s och retardationen 2,0 m/s². När kör bilen om cyklisten?",
-        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En cyklist (12 m/s) passerar ett trafikljus vid \\(t=0\\). Vid \\(t=6{,}0\\) s passerar en bil med 30 m/s och retardationen 2,0 m/s². När kör bilen om cyklisten?</p>",
-        "s": "<p>\\(12t=30(t-6)-(t-6)^2\\iff t^2-30t+216=0\\).</p><p><strong>Svar:</strong> \\(12\\) s</p>",
+        "fraga": "En cyklist (11 m/s) passerar ett trafikljus vid \\(t=0\\). Vid \\(t=6{,}0\\) s passerar en bil med 30 m/s och retardationen 2,0 m/s². När kör bilen om cyklisten?",
+        "t": "<p>Partikeln rör sig längs en rät linje med konstant acceleration.</p><p>En cyklist (11 m/s) passerar ett trafikljus vid \\(t=0\\). Vid \\(t=6{,}0\\) s passerar en bil med 30 m/s och retardationen 2,0 m/s². När kör bilen om cyklisten?</p>",
+        "s": "<p>\\(11t=30(t-6)-(t-6)^2\\iff t^2-31t+216=0\\).</p><p><strong>Svar:</strong> \\(10{,}6\\) s</p>",
         "ledtrad": "<p>Andragradsekvation.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -129052,18 +129057,18 @@ window.BANK = [
     "niva": "A",
     "typ": "bilkö som bromsar",
     "poang": "(0/1/2)",
-    "t": "<p>Två bilar kör i 18 m/s med 14,5 m mellan sig. Den första bromsar med 6,0 m/s². Den andra börjar bromsa 0,50 s senare med 4,0 m/s². De krockar.</p><ol type=\"a\"><li>Vilken fart har den bakre bilen vid krocken?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>Första bilen står still efter 3,0 s på 27 m. Den bakre har då kört \\(9+18\\cdot2{,}5-2\\cdot2{,}5^2=41{,}5\\) m = 27 + 14,5 m. \\(v=18-4{,}0\\cdot2{,}5\\).</p><p><strong>Svar:</strong> \\(8{,}0\\) m/s</p></li></ol>",
+    "t": "<p>Två bilar kör i 18 m/s med 16,0 m mellan sig. Den första bromsar med 6,0 m/s². Den andra börjar bromsa 0,50 s senare med 4,0 m/s². De krockar.</p><ol type=\"a\"><li>Vilken fart har den bakre bilen vid krocken?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Första bilen står still efter 3,0 s på 27 m. Den bakre har då kört \\(9+18\\cdot2{,}5-2\\cdot2{,}5^2=41{,}5\\) m, mindre än 27 + 16,0 = 43,0 m. Krocken sker när \\(9+18\\tau-2\\tau^2=43{,}0\\), där \\(\\tau\\) är tiden efter att den bakre börjat bromsa: \\(\\tau\\approx2{,}70\\) s. \\(v=18-4{,}0\\cdot2{,}70\\).</p><p><strong>Svar:</strong> \\(7{,}2\\) m/s</p></li></ol>",
     "id": "3.391",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Möte och ikapp",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      8
+      7.21110255093
     ],
     "tolerans": [
-      0.12
+      0.108
     ],
     "självrättning": true,
     "formaga": [
@@ -129080,13 +129085,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två bilar kör i 18 m/s med 14,5 m mellan sig. Den första bromsar med 6,0 m/s². Den andra börjar bromsa 0,50 s senare med 4,0 m/s². De krockar.</p>",
+    "spelIntro": "<p>Två bilar kör i 18 m/s med 16,0 m mellan sig. Den första bromsar med 6,0 m/s². Den andra börjar bromsa 0,50 s senare med 4,0 m/s². De krockar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken fart har den bakre bilen vid krocken?",
-        "t": "<p>Två bilar kör i 18 m/s med 14,5 m mellan sig. Den första bromsar med 6,0 m/s². Den andra börjar bromsa 0,50 s senare med 4,0 m/s². De krockar.</p><p>Vilken fart har den bakre bilen vid krocken?</p>",
-        "s": "<p>Första bilen står still efter 3,0 s på 27 m. Den bakre har då kört \\(9+18\\cdot2{,}5-2\\cdot2{,}5^2=41{,}5\\) m = 27 + 14,5 m. \\(v=18-4{,}0\\cdot2{,}5\\).</p><p><strong>Svar:</strong> \\(8{,}0\\) m/s</p>",
+        "t": "<p>Två bilar kör i 18 m/s med 16,0 m mellan sig. Den första bromsar med 6,0 m/s². Den andra börjar bromsa 0,50 s senare med 4,0 m/s². De krockar.</p><p>Vilken fart har den bakre bilen vid krocken?</p>",
+        "s": "<p>Första bilen står still efter 3,0 s på 27 m. Den bakre har då kört \\(9+18\\cdot2{,}5-2\\cdot2{,}5^2=41{,}5\\) m, mindre än 27 + 16,0 = 43,0 m. Krocken sker när \\(9+18\\tau-2\\tau^2=43{,}0\\), där \\(\\tau\\) är tiden efter att den bakre börjat bromsa: \\(\\tau\\approx2{,}70\\) s. \\(v=18-4{,}0\\cdot2{,}70\\).</p><p><strong>Svar:</strong> \\(7{,}2\\) m/s</p>",
         "ledtrad": "<p>Kontrollera läget när första bilen stannat.</p>",
         "niva": "A",
         "poang": "(0/1/2)",
@@ -130128,20 +130133,20 @@ window.BANK = [
     "niva": "A",
     "typ": "två bollar möts",
     "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><ol type=\"a\"><li>Boll A skjuts upp från marken med 13,0 m/s och samtidigt boll B från 20 m höjd med 3,0 m/s. När är de på samma höjd?</li><li>På vilken höjd?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(13{,}0T=20+3{,}0T\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) s</p></li><li><p>\\(h=13{,}0\\cdot2{,}0-4{,}91\\cdot2{,}0^2\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><ol type=\"a\"><li>Boll A skjuts upp från marken med 14,0 m/s och samtidigt boll B från 22 m höjd med 3,5 m/s. När är de på samma höjd?</li><li>På vilken höjd?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(14{,}0T=22+3{,}5T\\).</p><p><strong>Svar:</strong> \\(2{,}10\\) s</p></li><li><p>\\(h=14{,}0\\cdot2{,}10-4{,}91\\cdot2{,}10^2\\).</p><p><strong>Svar:</strong> \\(7{,}8\\) m</p></li></ol>",
     "id": "3.405",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fritt fall och lodrät kast",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2,
-      6.359999999999999
+      2.09523809524,
+      7.77832199546
     ],
     "tolerans": [
-      0.051,
-      0.0954
+      0.0314,
+      0.117
     ],
     "självrättning": true,
     "formaga": [
@@ -130165,9 +130170,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Boll A skjuts upp från marken med 13,0 m/s och samtidigt boll B från 20 m höjd med 3,0 m/s. När är de på samma höjd?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Boll A skjuts upp från marken med 13,0 m/s och samtidigt boll B från 20 m höjd med 3,0 m/s. När är de på samma höjd?</p>",
-        "s": "<p>\\(13{,}0T=20+3{,}0T\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) s</p>",
+        "fraga": "Boll A skjuts upp från marken med 14,0 m/s och samtidigt boll B från 22 m höjd med 3,5 m/s. När är de på samma höjd?",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Boll A skjuts upp från marken med 14,0 m/s och samtidigt boll B från 22 m höjd med 3,5 m/s. När är de på samma höjd?</p>",
+        "s": "<p>\\(14{,}0T=22+3{,}5T\\).</p><p><strong>Svar:</strong> \\(2{,}10\\) s</p>",
         "ledtrad": "<p>\\(gt^2/2\\) tar ut sig.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -130177,8 +130182,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "På vilken höjd?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>Det sker efter 2,0 s.<p>På vilken höjd?</p>",
-        "s": "<p>\\(h=13{,}0\\cdot2{,}0-4{,}91\\cdot2{,}0^2\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) m</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p>Det sker efter 2,10 s.<p>På vilken höjd?</p>",
+        "s": "<p>\\(h=14{,}0\\cdot2{,}10-4{,}91\\cdot2{,}10^2\\).</p><p><strong>Svar:</strong> \\(7{,}8\\) m</p>",
         "ledtrad": "<p>Sätt in tiden.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -130381,22 +130386,22 @@ window.BANK = [
     "niva": "A",
     "typ": "boll upp och boll ner",
     "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p><ol type=\"a\"><li>När möts bollarna?</li><li>Hur högt över A möts de?</li><li>Vilken utgångsfart krävs för att de ska mötas precis i A?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(24{,}5T=98\\).</p><p><strong>Svar:</strong> \\(4{,}00\\) s</p></li><li><p>\\(d=98-4{,}91\\cdot4{,}00^2\\).</p><p><strong>Svar:</strong> \\(19{,}4\\) m</p></li><li><p>B faller 98 m på \\(\\sqrt{98/4{,}91}\\) s. A ska då vara tillbaka: \\(u=\\dfrac{9{,}82t}{2}\\).</p><p><strong>Svar:</strong> \\(21{,}9\\) m/s</p></li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 26,0 m/s. Samtidigt släpps en boll från B, 95 m rakt ovanför A.</p><ol type=\"a\"><li>När möts bollarna?</li><li>Hur högt över A möts de?</li><li>Vilken utgångsfart krävs för att de ska mötas precis i A?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(26{,}0T=95\\).</p><p><strong>Svar:</strong> \\(3{,}65\\) s</p></li><li><p>\\(d=95-4{,}91\\cdot3{,}654^2\\).</p><p><strong>Svar:</strong> \\(29{,}4\\) m</p></li><li><p>B faller 95 m på \\(\\sqrt{95/4{,}91}\\) s. A ska då vara tillbaka: \\(u=\\dfrac{9{,}82t}{2}\\).</p><p><strong>Svar:</strong> \\(21{,}6\\) m/s</p></li></ol>",
     "id": "3.409",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fritt fall och lodrät kast",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4,
-      19.439999999999998,
-      21.93581546238936
+      3.65384615385,
+      29.4485946746,
+      21.5974535536
     ],
     "tolerans": [
-      0.06,
-      0.292,
-      0.329
+      0.0548,
+      0.442,
+      0.324
     ],
     "självrättning": true,
     "formaga": [
@@ -130419,13 +130424,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 26,0 m/s. Samtidigt släpps en boll från B, 95 m rakt ovanför A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "När möts bollarna?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p><p>När möts bollarna?</p>",
-        "s": "<p>\\(24{,}5T=98\\).</p><p><strong>Svar:</strong> \\(4{,}00\\) s</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 26,0 m/s. Samtidigt släpps en boll från B, 95 m rakt ovanför A.</p><p>När möts bollarna?</p>",
+        "s": "<p>\\(26{,}0T=95\\).</p><p><strong>Svar:</strong> \\(3{,}65\\) s</p>",
         "ledtrad": "<p>\\(gt^2/2\\) tar ut sig.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -130435,8 +130440,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur högt över A möts de?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p>De möts efter 4,00 s.<p>Hur högt över A möts de?</p>",
-        "s": "<p>\\(d=98-4{,}91\\cdot4{,}00^2\\).</p><p><strong>Svar:</strong> \\(19{,}4\\) m</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 26,0 m/s. Samtidigt släpps en boll från B, 95 m rakt ovanför A.</p>De möts efter 3,65 s.<p>Hur högt över A möts de?</p>",
+        "s": "<p>\\(d=95-4{,}91\\cdot3{,}654^2\\).</p><p><strong>Svar:</strong> \\(29{,}4\\) m</p>",
         "ledtrad": "<p>Den fallande bollens läge.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -130446,8 +130451,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Vilken utgångsfart krävs för att de ska mötas precis i A?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 24,5 m/s. Samtidigt släpps en boll från B, 98 m rakt ovanför A.</p><p>Vilken utgångsfart krävs för att de ska mötas precis i A?</p>",
-        "s": "<p>B faller 98 m på \\(\\sqrt{98/4{,}91}\\) s. A ska då vara tillbaka: \\(u=\\dfrac{9{,}82t}{2}\\).</p><p><strong>Svar:</strong> \\(21{,}9\\) m/s</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>Vid \\(t=0\\) kastas en boll upp från A med 26,0 m/s. Samtidigt släpps en boll från B, 95 m rakt ovanför A.</p><p>Vilken utgångsfart krävs för att de ska mötas precis i A?</p>",
+        "s": "<p>B faller 95 m på \\(\\sqrt{95/4{,}91}\\) s. A ska då vara tillbaka: \\(u=\\dfrac{9{,}82t}{2}\\).</p><p><strong>Svar:</strong> \\(21{,}6\\) m/s</p>",
         "ledtrad": "<p>Bollen från A är tillbaka efter \\(2u/g\\).</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -130468,16 +130473,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma tid från fartändring och acceleration",
     "poang": "(1/0/0)",
-    "t": "<p>En bil ökar farten från 6,0 m/s till 14 m/s med konstant acceleration 2,0 m/s². Hur lång tid tar fartökningen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten ska öka med 8,0 m/s. Vid 2,0 m/s² ökar farten 2,0 m/s varje sekund.</p><div class=\"facit-matte\">\\[t=\\frac{14-6}{2{,}0}=4{,}0\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\ \\mathrm s\\).</p></div>",
+    "t": "<p>En bil ökar farten från 5,0 m/s till 13,5 m/s med konstant acceleration 1,8 m/s². Hur lång tid tar fartökningen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten ska öka med 8,5 m/s. Vid 1,8 m/s² ökar farten 1,8 m/s varje sekund.</p><div class=\"facit-matte\">\\[t=\\frac{13{,}5-5{,}0}{1{,}8}\\approx4{,}72\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}72\\ \\mathrm s\\).</p></div>",
     "familj": "Hastighet och tid vid konstant acceleration",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0,
+    "rättSvar": 4.72222222222,
+    "tolerans": 0.0708,
     "självrättning": true,
     "ledtrad": "<p>Hur stor är fartökningen, och hur mycket ökar farten per sekund?</p>",
     "traningsniva": 1,
@@ -131800,16 +131805,16 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa densitet i en fysikalisk beräkning",
     "poang": "(2/0/0)",
-    "t": "<p>En byggkloss tillverkas av 43,8 liter lättbetong med densiteten 275 kg/m³. Bestäm klossens massa.</p><p>Ange svaret i kg. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla liter till kubikmeter och använd \\(m=\\rho V\\).</p><div class=\"facit-matte\">\\[43{,}8\\,\\mathrm l=0{,}0438\\,\\mathrm{m^3}\\]</div><div class=\"facit-matte\">\\[m=275\\cdot0{,}0438=12{,}0\\,\\mathrm{kg}\\]</div><p>Svar: 12,0 kg.</p></div>",
+    "t": "<p>En byggkloss tillverkas av 38,5 liter lättbetong med densiteten 275 kg/m³. Bestäm klossens massa.</p><p>Ange svaret i kg. Svara med en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla liter till kubikmeter och använd \\(m=\\rho V\\).</p><div class=\"facit-matte\">\\[38{,}5\\,\\mathrm l=0{,}0385\\,\\mathrm{m^3}\\]</div><div class=\"facit-matte\">\\[m=275\\cdot0{,}0385\\approx10{,}6\\,\\mathrm{kg}\\]</div><p>Svar: 10,6 kg.</p></div>",
     "familj": "Massa, volym och densitet",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "densitet__massa_volym_och_densitet",
     "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": 0,
+    "rättSvar": 10.6,
+    "tolerans": 0.159,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -133414,16 +133419,16 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma volym direkt",
     "poang": "(1/0/0)",
-    "t": "<p>En metall har densiteten 7,8 g/cm³. En bit av metallen har massan 156 g. Bestäm bitens volym.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dela massan med densiteten för att få volymen.</p><div class=\"facit-matte\">\\[V=\\frac{156}{7{,}8}=20\\ \\mathrm{cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{cm^3}\\).</p></div>",
+    "t": "<p>En metall har densiteten 7,8 g/cm³. En bit av metallen har massan 170 g. Bestäm bitens volym.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dela massan med densiteten för att få volymen.</p><div class=\"facit-matte\">\\[V=\\frac{170}{7{,}8}\\approx21{,}8\\ \\mathrm{cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21{,}8\\ \\mathrm{cm^3}\\).</p></div>",
     "familj": "Massa, volym och densitet",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "densitet__massa_volym_och_densitet",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0,
+    "rättSvar": 21.7948717949,
+    "tolerans": 0.327,
     "självrättning": true,
     "ledtrad": "<p>Hur många kubikcentimeter behövs om varje kubikcentimeter väger 7,8 g?</p>",
     "traningsniva": 1,
@@ -133585,16 +133590,16 @@ window.BANK = [
     "niva": "E",
     "typ": "densitet för rätblock",
     "poang": "(1/0/0)",
-    "t": "<p>En kloss är 5,0 cm lång, 4,0 cm bred och 2,0 cm hög. Massan är 80 g. Bestäm klossens densitet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Beräkna först klossens volym.</p><div class=\"facit-matte\">\\[V=5{,}0\\cdot4{,}0\\cdot2{,}0=40\\ \\mathrm{cm^3}\\]\\[\\rho=\\frac{80}{40}=2{,}0\\ \\mathrm{g/cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm{g/cm^3}\\).</p></div>",
+    "t": "<p>En kloss är 6,0 cm lång, 4,0 cm bred och 2,5 cm hög. Massan är 135 g. Bestäm klossens densitet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Beräkna först klossens volym.</p><div class=\"facit-matte\">\\[V=6{,}0\\cdot4{,}0\\cdot2{,}5=60\\ \\mathrm{cm^3}\\]\\[\\rho=\\frac{135}{60}=2{,}25\\ \\mathrm{g/cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}25\\ \\mathrm{g/cm^3}\\).</p></div>",
     "familj": "Densitet med geometri",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "densitet__densitet_med_geometri_och_volymberakning",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.0,
-    "tolerans": 0,
+    "rättSvar": 2.25,
+    "tolerans": 0.0338,
     "självrättning": true,
     "ledtrad": "<p>Börja med rätblockets volym.</p>",
     "traningsniva": 2,
@@ -146507,20 +146512,20 @@ window.BANK = [
     "niva": "A",
     "typ": "dosrat och avstånd",
     "poang": "(1/1/1)",
-    "t": "<p>En gammakälla ger dosraten 1,00 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><ol type=\"a\"><li>Hur länge kan man stå där innan den ekvivalenta dosen blir 10 mSv?</li><li>Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,100 mGy/h?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{10}{1{,}00}\\) h.</p><p><strong>Svar:</strong> \\(10\\) h</p></li><li><p>Dosraten avtar med \\(\\dfrac1{r^2}\\): \\(r=1{,}0\\cdot\\sqrt{10}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m</p></li></ol>",
+    "t": "<p>En gammakälla ger dosraten 1,25 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><ol type=\"a\"><li>Hur länge kan man stå där innan den ekvivalenta dosen blir 12 mSv?</li><li>Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,150 mGy/h?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{12}{1{,}25}\\) h.</p><p><strong>Svar:</strong> \\(9{,}6\\) h</p></li><li><p>Dosraten avtar med \\(\\dfrac1{r^2}\\): \\(r=1{,}0\\cdot\\sqrt{\\dfrac{1{,}25}{0{,}150}}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) m</p></li></ol>",
     "id": "9.374",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Dosrat, avstånd och strålskydd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      10,
-      3.1622776601683795
+      9.6,
+      2.88675134595
     ],
     "tolerans": [
-      0.51,
-      0.051
+      0.144,
+      0.0433
     ],
     "självrättning": true,
     "formaga": [
@@ -146541,13 +146546,13 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En gammakälla ger dosraten 1,00 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p>",
+    "spelIntro": "<p>En gammakälla ger dosraten 1,25 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur länge kan man stå där innan den ekvivalenta dosen blir 10 mSv?",
-        "t": "<p>En gammakälla ger dosraten 1,00 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><p>Hur länge kan man stå där innan den ekvivalenta dosen blir 10 mSv?</p>",
-        "s": "<p>\\(\\dfrac{10}{1{,}00}\\) h.</p><p><strong>Svar:</strong> \\(10\\) h</p>",
+        "fraga": "Hur länge kan man stå där innan den ekvivalenta dosen blir 12 mSv?",
+        "t": "<p>En gammakälla ger dosraten 1,25 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><p>Hur länge kan man stå där innan den ekvivalenta dosen blir 12 mSv?</p>",
+        "s": "<p>\\(\\dfrac{12}{1{,}25}\\) h.</p><p><strong>Svar:</strong> \\(9{,}6\\) h</p>",
         "ledtrad": "<p>\\(H=QD\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -146556,9 +146561,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,100 mGy/h?",
-        "t": "<p>En gammakälla ger dosraten 1,00 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><p>Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,100 mGy/h?</p>",
-        "s": "<p>Dosraten avtar med \\(\\dfrac1{r^2}\\): \\(r=1{,}0\\cdot\\sqrt{10}\\).</p><p><strong>Svar:</strong> \\(3{,}2\\) m</p>",
+        "fraga": "Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,150 mGy/h?",
+        "t": "<p>En gammakälla ger dosraten 1,25 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><p>Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,150 mGy/h?</p>",
+        "s": "<p>Dosraten avtar med \\(\\dfrac1{r^2}\\): \\(r=1{,}0\\cdot\\sqrt{\\dfrac{1{,}25}{0{,}150}}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) m</p>",
         "ledtrad": "<p>Intensiteten avtar med kvadraten på avståndet.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -155580,16 +155585,16 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna fart från hastighet på vektorform med Pythagoras sats, ur text, sökt fart",
     "poang": "(1/0/0)",
-    "t": "<p>En drönare har hastigheten \\(v=(6,\\,8)\\ \\mathrm{m/s}\\). Det betyder att den rör sig 6 m/s i x-led och 8 m/s i y-led samtidigt.</p><p>Hur stor är drönarens fart?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Komposanterna är vinkelräta. Använd Pythagoras sats.</p><div class=\"facit-matte\">\\[v=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mathrm{m/s}\\).</p><p class=\"facit-not\">Farten är vektorns storlek. Den har ingen riktning, medan hastigheten \\((6,\\,8)\\ \\mathrm{m/s}\\) har både storlek och riktning.</p></div>",
+    "t": "<p>En drönare har hastigheten \\(v=(5,\\,7)\\ \\mathrm{m/s}\\). Det betyder att den rör sig 5 m/s i x-led och 7 m/s i y-led samtidigt.</p><p>Hur stor är drönarens fart?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Komposanterna är vinkelräta. Använd Pythagoras sats.</p><div class=\"facit-matte\">\\[v=\\sqrt{5^2+7^2}=\\sqrt{74}\\approx8{,}60\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}60\\ \\mathrm{m/s}\\).</p><p class=\"facit-not\">Farten är vektorns storlek. Den har ingen riktning, medan hastigheten \\((5,\\,7)\\ \\mathrm{m/s}\\) har både storlek och riktning.</p></div>",
     "familj": "Dela upp vektorer i komposanter",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "vektorer__komposanter_utan_trigonometri",
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0,
+    "rättSvar": 8.60232526704,
+    "tolerans": 0.129,
     "självrättning": true,
     "ledtrad": "<p>Rita en rätvinklig triangel med kateterna 6 och 8.</p>",
     "traningsniva": 2,
@@ -156363,16 +156368,16 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna en okänd komposant ur fart och en känd komposant, ur text, sökt komposant",
     "poang": "(1/0/0)",
-    "t": "<p>En motorbåt kör med farten 13 m/s. Hastigheten har en komposant på 5 m/s österut och resten rakt norrut. Öster och norr är vinkelräta.</p><p>Hur stor är hastighetens komposant norrut?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten 13 m/s är hypotenusan och de två komposanterna är kateter. Lös ut den okända kateten.</p><div class=\"facit-matte\">\\[13^2=5^2+v_N^2\\]\\[v_N=\\sqrt{169-25}=\\sqrt{144}=12\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm{m/s}\\) norrut.</p><p class=\"facit-not\">Det räcker att känna farten och en komposant för att få fram den andra, eftersom komposanterna alltid är vinkelräta.</p></div>",
+    "t": "<p>En motorbåt kör med farten 14 m/s. Hastigheten har en komposant på 6 m/s österut och resten rakt norrut. Öster och norr är vinkelräta.</p><p>Hur stor är hastighetens komposant norrut?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten 14 m/s är hypotenusan och de två komposanterna är kateter. Lös ut den okända kateten.</p><div class=\"facit-matte\">\\[14^2=6^2+v_N^2\\]\\[v_N=\\sqrt{196-36}=\\sqrt{160}\\approx12{,}6\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}6\\ \\mathrm{m/s}\\) norrut.</p><p class=\"facit-not\">Det räcker att känna farten och en komposant för att få fram den andra, eftersom komposanterna alltid är vinkelräta.</p></div>",
     "familj": "Dela upp vektorer i komposanter",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "vektorer__komposanter_utan_trigonometri",
     "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": 0,
+    "rättSvar": 12.6491106407,
+    "tolerans": 0.19,
     "självrättning": true,
     "ledtrad": "<p>Farten är hypotenusan. Vilken ekvation ger Pythagoras sats?</p>",
     "traningsniva": 3,
@@ -165267,15 +165272,15 @@ window.BANK = [
     "niva": "E",
     "typ": "medelström i gnista",
     "poang": "(1/0/0)",
-    "t": "<p>Vid en gnista i ett tändstift passerar laddningen 1,8 mC på 0,60 ms.</p><p>Bestäm medelströmmen genom gnistan.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Prefixen tar ut varandra eftersom både laddning och tid har prefixet milli.</p><div class=\"facit-matte\">\\[I=\\frac{Q}{t}=\\frac{1{,}8\\cdot10^{-3}}{0{,}60\\cdot10^{-3}}=3{,}0\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\ \\mathrm A\\).</p></div>",
+    "t": "<p>Vid en gnista i ett tändstift passerar laddningen 2,1 mC på 0,75 ms.</p><p>Bestäm medelströmmen genom gnistan.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Prefixen tar ut varandra eftersom både laddning och tid har prefixet milli.</p><div class=\"facit-matte\">\\[I=\\frac{Q}{t}=\\frac{2{,}1\\cdot10^{-3}}{0{,}75\\cdot10^{-3}}=2{,}8\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\ \\mathrm A\\).</p></div>",
     "familj": "Ström och laddning i kretsar",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": 0,
+    "rättSvar": 2.8,
+    "tolerans": 0.042,
     "självrättning": true,
     "ledtrad": "<p>Ström är laddning per tid. Kontrollera prefixen.</p>",
     "traningsniva": 1,

@@ -3819,7 +3819,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-07-g";
+const BANK_VERSION="2026-10-07-h";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9675,6 +9675,13 @@ function valAlternativ(t){
    Varje variant prövas bara om svaret annars underkänns. */
 let delSvarDjup=0;
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  /* En vinkelstorlek kan skrivas positivt, eller med negativt tecken när
+     riktningen är nedåt. Bara uppgifter med detta uttryckliga format berörs. */
+  if(format==="vinkelbelopp"){
+    if(typeof facit!=="number"||!Number.isFinite(facit)) return false;
+    return delSvarRattBas(anv,Math.abs(facit),enhet,tol,t,idx,"numeriskt")
+      || delSvarRattBas(anv,-Math.abs(facit),enhet,tol,t,idx,"numeriskt");
+  }
   if(delSvarRattBas(anv,facit,enhet,tol,t,idx,format)) return true;
   if(typeof anv!=="string" || typeof facit!=="string" || delSvarDjup>0) return false;
   const varianter=[];

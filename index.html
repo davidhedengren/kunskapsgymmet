@@ -9613,7 +9613,8 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
     const alt=valAlternativ(t);
     const val=alt[facit.trim()];
     if(val!=null){
-      const träff=Object.entries(alt).filter(([,txt])=>delSvarRatt(anv,txt,enhet,null,null,idx,null));
+      /* Alternativtexterna är aldrig en ensam bokstav, så anropet når inte hit igen. */
+      const träff=Object.entries(alt).filter(([,txt])=>{ try{ return delSvarRatt(anv,txt,enhet,null,t,idx,null); }catch(_){ return false; } });
       if(träff.length===1) return träff[0][0]===facit.trim();
     }
   }

@@ -9536,8 +9536,11 @@ function rotVarde(p,decimal){
 }
 function rotListor(x){
   let s=stadaSvar(latexToPlain(String(x??""))).replace(/\\pm|\+-|\+\/-/g,"±").replace(/\.\s*$/,"");
-  if(!s || /[<>≤≥()[\]{}]/.test(s.replace(/√\s*\(|sqrt\(|\)/g,""))) return [];
-  const grov=s.split(/\s+(?:eller|och|samt|or|and)\s+|\s*;\s*|,\s+/i).map(d=>d.trim()).filter(Boolean);
+  /* Parenteser är tillåtna: facit i LaTeX blir "x=((7)/(2)) eller x=-((3)/(2))", och varje del
+     måste ändå vara ett rent taluttryck (rotVarde), så "(x-1)(x+2)" eller en punkt blir ingen lista. */
+  if(!s || /[<>≤≥[\]{}]/.test(s)) return [];
+  /* "x1=3,5 x2=-1,5": ett nytt "x1=" efter ett mellanslag inleder nästa lösning. */
+  const grov=s.split(/\s+(?:eller|och|samt|or|and)\s+|\s*;\s*|,\s+|\s+(?=[a-zåäö](?:_?\{?\d\}?)?\s*=)/i).map(d=>d.trim()).filter(Boolean);
   let namn=null, blandat=false;
   const utanNamn=d=>{
     const m=d.trim().match(/^([a-zåäö])(?:_?\{?\d\}?)?\s*=\s*/i);

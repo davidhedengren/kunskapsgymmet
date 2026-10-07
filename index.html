@@ -9468,13 +9468,14 @@ function formatRatt(anv,facit,meta){
       /* Gradtecken skrivs ofta efter varje lösning ("25,6°, 64,4°") och påverkar inte värdet. */
       const utanGrad=x=>String(x).replace(/\s*°/g,"");
       const la=listaAv(utanGrad(a)).map(hogerled), lf=listaAv(utanGrad(f)).map(hogerled);
-      if(la.length!==lf.length) return false;
       const kvar=[...lf];
-      return la.every(v=>{
+      if(la.length===lf.length && la.every(v=>{
         const i=kvar.findIndex(k=>naraNog(helTalvarde(v),helTalvarde(k),tol)||algebraisktLika(v,k)===true);
         if(i<0) return false;
         kvar.splice(i,1); return true;
-      });
+      })) return true;
+      /* "x=30,150" och "x=30°, 150°": samma rötter skrivna som en lista efter ett gemensamt "x=". */
+      return rotListaRatt(utanGrad(a),utanGrad(f).replace(/^\s*\{|\}\s*$/g,""),tol)===true;
     }
     case "intervall": case "intervall_tal": {
       const ia=intervallAv(a), ifa=intervallAv(f);
@@ -10194,6 +10195,8 @@ function explicitMultiplikation(x){
       const stjarna =
            (p==="tal" && (typ==="bok"||typ==="fn"||typ==="konst"||txt==="("))
         || (p==="bok" && (typ==="bok"||typ==="fn"||typ==="konst"))
+        /* Den imaginära enheten följd av ett tal: e^(i2π/3) är e^(i·2π/3), inte variabeln "i2". */
+        || (p==="bok" && pt==="i" && typ==="tal")
 
         || (p==="bok" && txt==="(" && !"fgh".includes(pt))
         || (p==="konst" && (typ==="bok"||typ==="fn"||typ==="konst"||typ==="tal"||txt==="("))
@@ -11722,7 +11725,7 @@ function checkAnswer(){
   const enkelEnhet=Array.isArray(t.svarEnhet)?t.svarEnhet[i]:t.svarEnhet;
   const enkelTol=Array.isArray(t.tolerans)?t.tolerans[i]:t.tolerans;
   const ok=delSvarRatt(svar,expected[i],enkelEnhet,enkelTol,t,i,enkelFormat);
-  registreraDel(i,ok,expected[i]);
+  registreraDel(i,ok,visatFacitUttryck(visatFacitTal(expected[i]),enkelFormat));
 }
 
 /* Ett facit som 34.657359027997266 visas avrundat som uppgiften ber om ("34,7" vid
@@ -11739,12 +11742,22 @@ function visatFacitTal(v){
   else s=String(Math.abs(v)>=1e-4 ? Number(v.toFixed(4)) : Number(v.toPrecision(4)));
   return s.replace(".",",");
 }
+/* Facit som lagrats i maskinform visas som eleven skulle skriva det:
+   lösningsmängden "{30,150}" som "30, 150" och "(9)/(5)-(7)/(5)*i" som "9/5-7/5·i". */
+function visatFacitUttryck(v,format){
+  let s=String(v);
+  if(MANGD_FORMAT.has(format) && /^\s*\{[^{}]*\}\s*$/.test(s) && !/\\/.test(s))
+    s=s.trim().slice(1,-1).split(",").map(x=>x.trim()).join(", ");
+  if(!/\\/.test(s)) s=s.replace(/\((\d+(?:\.\d+)?)\)(?=\/)|(?<=\/)\((\d+(?:\.\d+)?)\)/g,(m,a,b)=>a??b)
+                        .replace(/(?<=\d)\*(?=[a-zπ])/gi,"·");
+  return s;
+}
 function facitText(d,kvar){
   return (kvar.length?kvar:d.svar.map((v,j)=>({v,j})))
     .map(k=>{
       /* LaTeX-facit (\frac, \sin ...) visas som formel i stället för som rå kod. */
       /* "<" i olikheter (1<x<=7) skulle annars tolkas som en HTML-tagg. */
-      const v=visatFacitTal(k.v).replace(/<(?!\/?(?:sup|sub|b|i|em|strong|br)\b)/g,"&lt;");
+      const v=visatFacitUttryck(visatFacitTal(k.v),d.format?.[k.j]).replace(/<(?!\/?(?:sup|sub|b|i|em|strong|br)\b)/g,"&lt;");
       const text=(/\\[a-zA-Z]/.test(v) && !v.includes("\\(")) ? "\\("+v+"\\)" : v;
       return text+(d.enhet[k.j]?" "+d.enhet[k.j]:"");
     })

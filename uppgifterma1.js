@@ -1470,7 +1470,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-2{,}8-(-0,9)+0{,}4\\)</div><div>b) \\(1{,}3+(-2,7)+0{,}6\\)</div><div>c) \\(-4{,}1+2{,}5-0{,}8\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-2{,}8-(-0{,}9)+0{,}4\\)</div><div>b) \\(1{,}3+(-2{,}7)+0{,}6\\)</div><div>c) \\(-4{,}1+2{,}5-0{,}8\\)</div></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2{,}8-(-0{,}9)+0{,}4=-2{,}8+0{,}9+0{,}4=-1{,}5\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}3+(-2{,}7)+0{,}6=1{,}3-2{,}7+0{,}6=-0{,}8\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4{,}1+2{,}5-0{,}8=-1{,}6-0{,}8=-2{,}4\\]</div></li></ol></div></div></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
@@ -1491,7 +1491,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-2{,}8-(-0,9)+0{,}4\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-2{,}8-(-0{,}9)+0{,}4\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2{,}8-(-0{,}9)+0{,}4=-2{,}8+0{,}9+0{,}4=-1{,}5\\]</div></li></ol></div>",
         "ledtrad": "<p>Hur skriver du om subtraktion av −0,9?</p>",
         "niva": "E",
@@ -1499,7 +1499,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(1{,}3+(-2,7)+0{,}6\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(1{,}3+(-2{,}7)+0{,}6\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}3+(-2{,}7)+0{,}6=1{,}3-2{,}7+0{,}6=-0{,}8\\]</div></li></ol></div>",
         "ledtrad": "<p>Du kan samla de positiva termerna först, om varje tecken följer med.</p>",
         "niva": "E",
@@ -1583,7 +1583,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Skilj på att ligga på ett delstreck och att ligga mellan två delstreck.</p>",
     "manuellKomplettering": true,
     "spel": false,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "familjTidigare": [
       "Skriva och tolka decimaltal"
@@ -2031,7 +2031,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "t": "<p>Vilket tal ska stå i rutan? \\(\\frac45\\cdot\\square=1\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac45\\cdot\\frac54=1\\].</div></li><li><p>Det saknade talet är \\(\\frac54\\).</p></li></ol></div>",
-    "ledtrad": "<p>Vilken produkt ska täljare och nämnare ge för att kvoten ska bli 1?</p>",
+    "ledtrad": "<p>Skriv 1 som ett bråk. Hur ska täljaren och nämnaren i produkten bli lika?</p>",
     "niva": "E",
     "poang": "1/0/0",
     "familj": "Bråkform, blandad form och decimalform",
@@ -2797,7 +2797,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -3147,7 +3147,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Temperaturen ändras från \\(-12\\,{}^\\circ\\mathrm{C}\\) till \\(5\\,{}^\\circ\\mathrm{C}\\). Hur stor är temperaturökningen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Temperaturökningen är sluttemperatur minus starttemperatur: (5-(-12)=17).</p></li></ol><p class=\"facit-svar\"><strong>Ökningen är 17 °C.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför sluttemperatur och starttemperatur</p><p>Ökningen är sluttemperaturen minus starttemperaturen:</p><div class=\"facit-matte\">\\[\\Delta T=5-(-12)=5+12=17\\,{}^\\circ\\mathrm{C}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen ökar med \\(17\\,{}^\\circ\\mathrm{C}\\).</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -4045,7 +4045,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En hiss står på våning −3. Den går 8 våningar upp, sedan 12 våningar ner och därefter 5 våningar upp. På vilken våning stannar hissen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringarna kan skrivas (-3+8-12+5).</p></li><li><p>Efter första förflyttningen är hissen på våning 5, sedan på −7 och till sist på <strong>våning −2</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Följ förflyttningarna</p><p>Uppåt ger en positiv förändring och nedåt en negativ:</p><div class=\"facit-matte\">\\[-3+8=5,\\qquad5-12=-7,\\qquad-7+5=-2.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hissen stannar på våning \\(-2\\).</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -4543,7 +4543,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) En tank på 84 liter är fylld till \\(\\frac57\\). Hur många liter finns i tanken?</div><div>b) \\(\\frac{11}{16}\\) av en sträcka är 55 km. Hur lång är hela sträckan?</div><div>c) En klass har 30 elever. \\(\\frac7{15}\\) är frånvarande. Hur många är närvarande?</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac57\\cdot84=60\\) liter.</p></li><li><p>Tanken innehåller 60 liter.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">En sextondel är 55 ÷</p><div class=\"facit-matte\">\\[11=5\\, \\mathrm{km}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Hela sträckan är</p><div class=\"facit-matte\">\\[16\\cdot 5=80\\, \\mathrm{km}\\]</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Frånvarande:</p><div class=\"facit-matte\">\\[\\frac7{15}\\cdot30=14\\].</div></div></li><li><p>Närvarande: 30 − 14 = 16 elever.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac57\\cdot84=60\\) liter.</p></li><li><p>Tanken innehåller 60 liter.</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm en sextondel av sträckan</p><p>Elva sextondelar är 55 km. Dela med 11 för att få en sextondel:</p><div class=\"facit-matte\">\\[\\frac{55}{11}=5\\,\\text{km}.\\]</div></li><li><p class=\"facit-rubrik\">Bestäm hela sträckan</p><p>Hela sträckan består av sexton sådana delar:</p><div class=\"facit-matte\">\\[16\\cdot5=80\\,\\text{km}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hela sträckan är \\(80\\,\\text{km}\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Frånvarande:</p><div class=\"facit-matte\">\\[\\frac7{15}\\cdot30=14\\].</div></div></li><li><p>Närvarande: 30 − 14 = 16 elever.</p></li></ol></div></div></div></div>",
     "ledtrad": "<p>Hur många liter motsvarar en sjundedel av tankens volym?</p>",
     "niva": "E",
     "poang": "3/0/0",
@@ -4578,7 +4578,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>\\(\\frac{11}{16}\\) av en sträcka är 55 km. Hur lång är hela sträckan?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">En sextondel är 55 ÷</p><div class=\"facit-matte\">\\[11=5\\, \\mathrm{km}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Hela sträckan är</p><div class=\"facit-matte\">\\[16\\cdot 5=80\\, \\mathrm{km}\\]</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm en sextondel av sträckan</p><p>Elva sextondelar är 55 km. Dela med 11 för att få en sextondel:</p><div class=\"facit-matte\">\\[\\frac{55}{11}=5\\,\\text{km}.\\]</div></li><li><p class=\"facit-rubrik\">Bestäm hela sträckan</p><p>Hela sträckan består av sexton sådana delar:</p><div class=\"facit-matte\">\\[16\\cdot5=80\\,\\text{km}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hela sträckan är \\(80\\,\\text{km}\\).</p></div>",
         "ledtrad": "<p>Hur lång är en sextondel av sträckan?</p>",
         "niva": "E",
         "poang": "1/0/0"

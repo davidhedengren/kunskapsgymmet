@@ -72,8 +72,8 @@ test('Delens etikett fungerar även när spelkorten börjar med b eller visas i 
 test('Gaslagens alternativa temperatursvar följer rätt delkort utan att ändra facit',()=>{
   const q=bank('uppgifter.js').find(q=>q.id==='6.38');
   const cards=c.expandGameTask(q);
-  assert.deepEqual(plain(cards.map(x=>x.rättSvar)),[298.15,233.15,-78.15]);
-  assert.deepEqual(plain(cards.map(x=>x.rättSvar273)),[298,233,-78]);
+  assert.deepEqual(plain(cards.map(x=>x.rättSvar)),[310.15,255.15,-78.15]);
+  assert.deepEqual(plain(cards.map(x=>x.rättSvar273)),[310,255,-78]);
   for(const card of cards){
     assert.equal(c.answerLayout(card).n,1);
     assert.equal(c.expectedAnswersForTask(card).auto,true);

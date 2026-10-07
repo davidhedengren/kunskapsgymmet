@@ -35491,7 +35491,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 3,
-    "t": "<p>Låt D(x,a) = (x + a)² − (x − a)² för reella x och a. Härled en förenklad form och bestäm precis när D är positivt, negativt respektive noll. Undersök också när D är oberoende av x.</p>",
+    "t": "<p>Låt D = (x + a)² − (x − a)² för reella x och a. Härled en förenklad form och bestäm precis när D är positivt, negativt respektive noll. Undersök också när D är oberoende av x.</p>",
     "s": "<p>Utveckling ger D = x² + 2ax + a² − (x² − 2ax + a²) = 4ax. Därför är D positivt när a och x har samma tecken, negativt när de har olika tecken och noll om a = 0 eller x = 0. För ett fast a är uttrycket oberoende av x precis när a = 0. Då är värdet alltid 0; för a ≠ 0 ändras värdet när x ändras.</p><p><strong>Kontrollera ditt resonemang:</strong> Behandlar du samma tecken, olika tecken och noll samt villkoret för att uttrycket ska vara oberoende av x?</p>",
     "ledtrad": "<p>Vilka termer tar ut varandra när hela den andra kvadraten subtraheras?</p>",
     "niva": "A",

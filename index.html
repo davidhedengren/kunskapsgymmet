@@ -4115,7 +4115,9 @@ async function hamtaKlasstopplista(period){
   if(!d) return null;
   if(d.saknas) return {saknas:true};
   /* Lärarklassen tävlar inte mot eleverna (sql/2026-10-09-larare-utan-klasstopp.sql gör samma sak i databasen). */
-  return {rader:Array.isArray(d.rader)?d.rader.filter(r=>!r.larare):[],tak:d.tak,minKlass:d.min_klass??null};
+  /* summa = klassens samlade XP (sql/2026-10-11-klasstopp-summa.sql); utan fältet är poängen snitt-XP per elev. */
+  return {rader:Array.isArray(d.rader)?d.rader.filter(r=>!r.larare):[],tak:d.tak,minKlass:d.min_klass??null,
+    summa:d.berakning==="summa"};
 }
 async function vaxlaKlassElever(id){
   const box=document.getElementById("klasselever-"+id);
@@ -4158,7 +4160,7 @@ async function visaNyhetKlasser(){
       <p class="nyhet-ingress">Välj vilken klass du går i, så räknas din XP även för klassen. Finns inte din klass med kan du skapa den själv. På topplistan finns en ny flik där klasserna möts.</p>
       <ul class="nyhet-lista">
         <li><span class="nyhet-ikon">${ikon('<circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="9.5" r="2.6"/><path d="M3.5 19.5c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><path d="M14.8 15.2c.7-.4 1.4-.6 2.2-.6 2.2 0 3.8 1.5 4.2 4.4"/>')}</span>
-          <span><b>Alla bidrar.</b> Klassens poäng är snittet per elev. Varje uppgift du gör lyfter laget, och ingen kan bära det själv.</span></li>
+          <span><b>Alla bidrar.</b> Klassens poäng är allas XP tillsammans. Varje uppgift du gör lyfter laget, och eftersom varje elev bara kan bidra med en viss mängd per period kan ingen bära det själv.</span></li>
         <li><span class="nyhet-ikon">${ikon('<path d="M5.6 21V3.6"/><path d="M5.6 4.2h11.6l-2.4 4 2.4 4H5.6"/>')}</span>
           <span><b>Dagens uppdrag.</b> Din tränare ger dig fyra uppdrag varje dag i varje kurs. Klarar du dem får du extra XP och kan låsa upp nya medaljer.</span></li>
       </ul>
@@ -12516,13 +12518,15 @@ function klassListaHTML(svar,s){
             onclick="vaxlaKlassElever(${Number(k.id)})">
           <span class="plats">${i+1}</span>
           <span class="tnamn"><b>${esc(k.namn)}</b><small>${Number(k.aktiva)||0} av ${Number(k.elever)||0} har tränat${k.larare?" · lärarlaget":""}</small></span>
-          <span class="tvarde" title="Snitt-XP per elev">${Number(k.poang)||0}<small>XP/elev</small></span>
+          <span class="tvarde" title="${svar.summa?"Klassens samlade XP":"Snitt-XP per elev"}">${Number(k.poang)||0}<small>${svar.summa?"XP":"XP/elev"}</small></span>
           <span class="mu-chev" aria-hidden="true"></span>
         </button>
         <div class="klasselever" id="klasselever-${Number(k.id)}" hidden></div>
       </li>`;
     }).join("")}</ol>
-    <p class="toppfot">${TOPP_FLIKAR[s].fot}. Poängen är snitt-XP per elev i klassen, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Alla som tränar lyfter klassen. Tryck på en klass för att se eleverna som valt att synas.${TOPP_FLIKAR[s].lag?` Klassen som leder när perioden är slut, med minst tre som tränat, ger medaljen ${TOPP_FLIKAR[s].lag} till alla i klassen som tränat under perioden.`:""}</p>`;
+    <p class="toppfot">${TOPP_FLIKAR[s].fot}. ${svar.summa
+      ? `Poängen är klassens samlade XP, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Ju fler som tränar, desto högre kommer klassen.`
+      : `Poängen är snitt-XP per elev i klassen, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Alla som tränar lyfter klassen.`} Tryck på en klass för att se eleverna som valt att synas.${TOPP_FLIKAR[s].lag?` Klassen som leder när perioden är slut, med minst tre som tränat, ger medaljen ${TOPP_FLIKAR[s].lag} till alla i klassen som tränat under perioden.`:""}</p>`;
 }
 
 async function snabbVisa(pa){

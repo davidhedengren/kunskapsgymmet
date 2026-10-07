@@ -92939,7 +92939,7 @@ window.BANKMATO1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=x^2-4x\\).</p><p>Lös ekvationen \\(f(x+1)=f(x)\\) och tolka svaret med hjälp av grafen till \\(f\\).</p>",
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=x^2-4x\\).</p><p>Skissa grafen till \\(f\\). Lös sedan ekvationen \\(f(x+1)=f(x)\\) och tolka svaret med hjälp av din skiss.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(x+1)=(x+1)^2-4(x+1)=x^2+2x+1-4x-4=x^2-2x-3\\].</div></li><li><p>\\[x^2-2x-3=x^2-4x\\;\\Leftrightarrow\\;2x=3\\;\\Leftrightarrow\\;x=1{,}5.\\]</p></li><li><div class=\"facit-berakning\"><p>Tolkning:</p><div class=\"facit-matte\">\\[f(1{,}5)=f(2{,}5)\\].</div></div></li><li><p>De två \\(x\\)-värdena ligger symmetriskt kring parabelns symmetrilinje \\(x=2\\), och där har funktionen samma värde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1{,}5\\)</p></div>",
     "familj": "Tolka och jämföra funktioner",
     "formaga": [
@@ -92950,7 +92950,7 @@ window.BANKMATO1 = [
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Ersätt \\(x\\) med \\(x+1\\) i funktionsuttrycket. När har en parabel samma värde i två punkter som ligger 1 steg isär?</p>",
-    "spel": true,
+    "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",

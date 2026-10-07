@@ -20865,8 +20865,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(49\\cdot21\\) genom att avrunda varje tal till ett lämpligt jämnt tal.</p><p>Vilket värde ger överslaget?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Avrunda till jämna tal:</p><div class=\"facit-matte\">\\[50\\cdot 20=1\\,000\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>1000</strong></p></div></div>",
+    "t": "<p>Gör ett överslag av \\(49\\cdot21\\). Avrunda båda faktorerna till närmaste tiotal.</p><p>Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda enligt instruktionen</p><div class=\"facit-matte\">\\[49\\approx50,\\qquad21\\approx20.\\]</div></li><li><p class=\"facit-rubrik\">Räkna med de avrundade talen</p><div class=\"facit-matte\">\\[50\\cdot20=1\\,000.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1000</p></div>",
     "familj": "Överslag med angiven avrundning",
     "geogebra": false,
     "miniräknare": false,
@@ -20878,7 +20878,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj jämna tal som ligger nära de givna och som är lätta att räkna med i huvudet.</p>",
+    "ledtrad": "<p>Jämför varje faktor med de två närmaste tiotalen. Vilket ligger närmast?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -20894,8 +20894,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(398+603\\) genom att avrunda varje tal till ett lämpligt jämnt tal.</p><p>Vilket värde ger överslaget?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Avrunda till jämna tal:</p><div class=\"facit-matte\">\\[400+600=1\\,000\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>1000</strong></p></div></div>",
+    "t": "<p>Gör ett överslag av \\(398+603\\). Avrunda båda termerna till närmaste hundratal.</p><p>Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda enligt instruktionen</p><div class=\"facit-matte\">\\[398\\approx400,\\qquad603\\approx600.\\]</div></li><li><p class=\"facit-rubrik\">Räkna med de avrundade talen</p><div class=\"facit-matte\">\\[400+600=1\\,000.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1000</p></div>",
     "familj": "Överslag med angiven avrundning",
     "geogebra": false,
     "miniräknare": false,
@@ -20907,7 +20907,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj jämna tal som ligger nära de givna och som är lätta att räkna med i huvudet.</p>",
+    "ledtrad": "<p>För avrundning till hundratal tittar du på tiotalssiffran.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -20923,8 +20923,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(7{,}9\\cdot5{,}1\\) genom att avrunda varje tal till ett lämpligt jämnt tal.</p><p>Vilket värde ger överslaget?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Avrunda till jämna tal:</p><div class=\"facit-matte\">\\[8\\cdot 5=40\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>40</strong></p></div></div>",
+    "t": "<p>Gör ett överslag av \\(7{,}9\\cdot5{,}1\\). Avrunda båda faktorerna till närmaste heltal.</p><p>Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda enligt instruktionen</p><div class=\"facit-matte\">\\[7{,}9\\approx8,\\qquad5{,}1\\approx5.\\]</div></li><li><p class=\"facit-rubrik\">Räkna med de avrundade talen</p><div class=\"facit-matte\">\\[8\\cdot5=40.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40</p></div>",
     "familj": "Överslag med angiven avrundning",
     "geogebra": false,
     "miniräknare": false,
@@ -20936,7 +20936,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj jämna tal som ligger nära de givna och som är lätta att räkna med i huvudet.</p>",
+    "ledtrad": "<p>Vilket heltal ligger närmast vart och ett av decimaltalen?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -20952,8 +20952,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(612/19\\) genom att avrunda varje tal till ett lämpligt jämnt tal.</p><p>Vilket värde ger överslaget?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Avrunda till jämna tal:</p><div class=\"facit-matte\">\\[\\frac{600}{20}=30\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>30</strong></p></div></div>",
+    "t": "<p>Gör ett överslag av \\(612/19\\). Avrunda täljaren till närmaste hundratal och nämnaren till närmaste tiotal.</p><p>Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda enligt instruktionen</p><div class=\"facit-matte\">\\[612\\approx600,\\qquad19\\approx20.\\]</div></li><li><p class=\"facit-rubrik\">Räkna med de avrundade talen</p><div class=\"facit-matte\">\\[\\frac{600}{20}=30.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30</p></div>",
     "familj": "Överslag med angiven avrundning",
     "geogebra": false,
     "miniräknare": false,
@@ -20965,7 +20965,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj jämna tal som ligger nära de givna och som är lätta att räkna med i huvudet.</p>",
+    "ledtrad": "<p>För täljaren tittar du på tiotalssiffran. För nämnaren tittar du på entalssiffran.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -20981,8 +20981,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(2\\,980-1\\,010\\) genom att avrunda varje tal till ett lämpligt jämnt tal.</p><p>Vilket värde ger överslaget?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Avrunda till jämna tal:</p><div class=\"facit-matte\">\\[3\\,000-1\\,000=2\\,000\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>2000</strong></p></div></div>",
+    "t": "<p>Gör ett överslag av \\(2\\,980-1\\,010\\). Avrunda båda termerna till närmaste tusental.</p><p>Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda enligt instruktionen</p><div class=\"facit-matte\">\\[2\\,980\\approx3\\,000,\\qquad1\\,010\\approx1\\,000.\\]</div></li><li><p class=\"facit-rubrik\">Räkna med de avrundade talen</p><div class=\"facit-matte\">\\[3\\,000-1\\,000=2\\,000.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2000</p></div>",
     "familj": "Överslag med angiven avrundning",
     "geogebra": false,
     "miniräknare": false,
@@ -20994,7 +20994,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj jämna tal som ligger nära de givna och som är lätta att räkna med i huvudet.</p>",
+    "ledtrad": "<p>För avrundning till tusental tittar du på hundratalssiffran.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -21010,8 +21010,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(0{,}48\\cdot62\\) genom att avrunda varje tal till ett lämpligt jämnt tal.</p><p>Vilket värde ger överslaget?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Avrunda till jämna tal:</p><div class=\"facit-matte\">\\[0{,}5\\cdot 60=30\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>30</strong></p></div></div>",
+    "t": "<p>Gör ett överslag av \\(0{,}48\\cdot62\\). Avrunda den första faktorn till en decimal och den andra till närmaste tiotal.</p><p>Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda enligt instruktionen</p><div class=\"facit-matte\">\\[0{,}48\\approx0{,}5,\\qquad62\\approx60.\\]</div></li><li><p class=\"facit-rubrik\">Räkna med de avrundade talen</p><div class=\"facit-matte\">\\[0{,}5\\cdot60=30.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30</p></div>",
     "familj": "Överslag med angiven avrundning",
     "geogebra": false,
     "miniräknare": false,
@@ -21023,7 +21023,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj jämna tal som ligger nära de givna och som är lätta att räkna med i huvudet.</p>",
+    "ledtrad": "<p>För den första faktorn tittar du på hundradelssiffran. För den andra faktorn tittar du på entalssiffran.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -21039,8 +21039,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(3\\,120/4{,}9\\) genom att avrunda varje tal till ett lämpligt jämnt tal.</p><p>Vilket värde ger överslaget?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Avrunda till jämna tal:</p><div class=\"facit-matte\">\\[\\frac{3\\,000}{5}=600\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>600</strong></p></div></div>",
+    "t": "<p>Gör ett överslag av \\(3\\,120/4{,}9\\). Avrunda täljaren till närmaste tusental och nämnaren till närmaste heltal.</p><p>Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda enligt instruktionen</p><div class=\"facit-matte\">\\[3\\,120\\approx3\\,000,\\qquad4{,}9\\approx5.\\]</div></li><li><p class=\"facit-rubrik\">Räkna med de avrundade talen</p><div class=\"facit-matte\">\\[\\frac{3\\,000}{5}=600.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 600</p></div>",
     "familj": "Överslag med angiven avrundning",
     "geogebra": false,
     "miniräknare": false,
@@ -21052,7 +21052,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj jämna tal som ligger nära de givna och som är lätta att räkna med i huvudet.</p>",
+    "ledtrad": "<p>För täljaren tittar du på hundratalssiffran. För nämnaren tittar du på tiondelssiffran.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -21068,8 +21068,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(19{,}8\\cdot49{,}7\\) genom att avrunda varje tal till ett lämpligt jämnt tal.</p><p>Vilket värde ger överslaget?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Avrunda till jämna tal:</p><div class=\"facit-matte\">\\[20\\cdot 50=1\\,000\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>1000</strong></p></div></div>",
+    "t": "<p>Gör ett överslag av \\(19{,}8\\cdot49{,}7\\). Avrunda båda faktorerna till närmaste tiotal.</p><p>Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda enligt instruktionen</p><div class=\"facit-matte\">\\[19{,}8\\approx20,\\qquad49{,}7\\approx50.\\]</div></li><li><p class=\"facit-rubrik\">Räkna med de avrundade talen</p><div class=\"facit-matte\">\\[20\\cdot50=1\\,000.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1000</p></div>",
     "familj": "Överslag med angiven avrundning",
     "geogebra": false,
     "miniräknare": false,
@@ -21081,7 +21081,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj jämna tal som ligger nära de givna och som är lätta att räkna med i huvudet.</p>",
+    "ledtrad": "<p>Jämför varje faktor med de två närmaste tiotalen. Vilket ligger närmast?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -139705,7 +139705,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[396\\cdot0{,}248=98{,}208\\]</p></li><li><p>\\[\\frac{100-98{,}208}{98{,}208}\\approx0{,}018=1{,}8\\,\\%\\]</p></li><li><p>Båda faktorerna avrundades uppåt, 396 med ungefär 1 % och 0,248 med ungefär 0,8 %.</p></li><li><p>Därför blir överslaget ungefär 1,8 % för stort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,8 %</p></div></div>",
     "familj": "Överslag och rimlighet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.8,
     "tolerans": 0.05,

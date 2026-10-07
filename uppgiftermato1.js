@@ -21665,14 +21665,14 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Bestäm det \\(x\\)-värde där funktionen \\(f(x)=2^x\\) har derivatan 10.</p>",
+    "t": "<p>Bestäm det \\(x\\)-värde där funktionen \\(f(x)=2^x\\) har derivatan 10. Svara med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Varför denna metod:</strong> Identifiera först vilken exponentialregel som passar.</p></li><li><p class=\"facit-metod\">Om exponenten själv innehåller x används även derivatan av exponenten som faktor.</p></li><li><p class=\"facit-metod\">Behåll exponentialdelen oförändrad och förenkla koefficienterna sist.</p></li><li><p>\\[f^{\\prime}(x)=2^x\\ln2.\\]</p></li><li><p>Sätt lika med 10:</p></li><li><p>\\[2^x=\\frac{10}{\\ln2}.\\]</p></li><li><p>Logaritmera:</p></li><li><p>\\[x\\ln2=\\ln\\!\\left(\\frac{10}{\\ln2}\\right).\\]</p></li><li><p>\\[\\boxed{x=\\frac{\\ln(10/\\ln2)}{\\ln2}\\approx3{,}85}.\\]</p></li></ol></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3.85,
-    "tolerans": 0.01,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -21849,14 +21849,14 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En exponentialfunktion har formen \\(f(x)=C\\cdot 4^x\\). Det gäller att \\(f(0)=3\\).</p><p>Bestäm \\(f^{\\prime}(2)\\).</p>",
+    "t": "<p>En exponentialfunktion har formen \\(f(x)=C\\cdot 4^x\\). Det gäller att \\(f(0)=3\\).</p><p>Bestäm \\(f^{\\prime}(2)\\). Svara med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Metod:</strong> För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\).</p></li><li><p class=\"facit-metod\">Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\).</p></li><li><p class=\"facit-metod\">Den faktorn är det vanligaste steget att missa.</p></li><li><p>Från \\(f(0)=C=3\\) fås \\(f(x)=3\\cdot4^x\\).</p></li><li><p>\\[f^{\\prime}(x)=3\\cdot4^x\\ln4.\\]</p></li><li><p>\\[\\boxed{f^{\\prime}(2)=48\\ln4\\approx66{,}5}.\\]</p></li></ol></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 66.5,
-    "tolerans": 0.1,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -57540,21 +57540,13 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Det tillåtna området i ett linjärt optimeringsproblem har hörnpunkterna (0,0), (0,6), (4,4), (8,0). Målfunktionen är \\(Z=3x+4y\\).</p><p>Bestäm största möjliga värde på \\(Z\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämför hörnpunkterna:</p></li><li><p>\\[Z(0,0)=0,\\quad Z(0,6)=24,\\quad Z(4,4)=28,\\quad Z(8,0)=24.\\]</p></li><li><p>Största värdet är \\(28\\) i \\((4,4)\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna målfunktionen i hörnpunkterna</p><p>En linjär målfunktion på detta begränsade polygonområde når sitt största värde i minst en hörnpunkt.</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\qquad Z(0,6)=24.\\]</div><div class=\"facit-matte\">\\[Z(4,4)=28,\\qquad Z(8,0)=24.\\]</div></li><li><p class=\"facit-rubrik\">Välj det största värdet</p><p>Det största av de fyra värdena är 28. Det fås i punkten \\((4,4)\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(Z_\\mathrm{max}=28\\).</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      4,
-      4,
-      28
-    ],
-    "tolerans": [
-      0,
-      0,
-      0
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -57563,17 +57555,9 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ],
+    "svarFormat": "numeriskt",
     "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "x",
-      "y",
-      "Zmax"
-    ],
+    "svarEtiketter": ["Z"],
     "familjTidigare": [
       "Ställa upp och lösa linjära optimeringsproblem"
     ]

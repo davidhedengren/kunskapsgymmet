@@ -9669,7 +9669,31 @@ function valAlternativ(t){
   for(const m of txt.matchAll(/(?:^|\n)\s*([A-F])\s*[.:)]\s*([^\n]+)/g)) alt[m[1]]=m[2].replace(/\s+/g," ").trim();
   return Object.keys(alt).length>=2 ? alt : {};
 }
+/* Elevsvar som är rätt men skrivna på ett annat vanligt sätt än facit (främst Ma4):
+   - e^2x och e^-x som betyder e^(2x) och e^(-x),
+   - allmänna lösningar med k i stället för n (eller tvärtom) och med gradtecken: "x = 60° + k·180°".
+   Varje variant prövas bara om svaret annars underkänns. */
+let delSvarDjup=0;
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  if(delSvarRattBas(anv,facit,enhet,tol,t,idx,format)) return true;
+  if(typeof anv!=="string" || typeof facit!=="string" || delSvarDjup>0) return false;
+  const varianter=[];
+  const a=anv.trim();
+  if(/e\^-?\d*(?:[.,]\d+)?[a-z](?![a-z(])/i.test(a))
+    varianter.push(a.replace(/e\^(-?\d*(?:[.,]\d+)?[a-z])(?![a-z(])/gi,"e^($1)"));
+  const fv=facit.replace(/\\cdot|·|⋅/g,"*").match(/(?:^|[^a-z])([nk])(?![a-z])/i);
+  if(fv && /\d/.test(facit) && /(?:^|[^a-z])[nkmp](?![a-z])/i.test(a)){
+    const v=a.replace(/°|\^\s*\{?\\circ\}?|\s*grader\b/g,"").replace(/·|⋅/g,"*")
+      .replace(/(^|[^a-z])[nkmp](?![a-z])/gi,(m,f)=>f+fv[1]);
+    if(v!==a) varianter.push(v);
+  }
+  delSvarDjup++;
+  try{
+    for(const v of varianter) if(v && v!==a && delSvarRattBas(v,facit,enhet,tol,t,idx,format)) return true;
+    return false;
+  }finally{ delSvarDjup--; }
+}
+function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   /* Facit skrivet i LaTeX jämförs i samma form som eleven skriver. */
   if(typeof facit==="string" && /\\[a-zA-Z]/.test(facit)){
     const p=latexToPlain(facit);

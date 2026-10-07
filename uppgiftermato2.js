@@ -27730,9 +27730,9 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "4/0/0",
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Välj den regel som är viktigast att känna igen <em>först</em> för varje funktion. Svara A–D.</p><p>A: potens-/summaregel &nbsp; B: produktregeln &nbsp; C: kvotregeln &nbsp; D: kedjeregeln</p><p>a) \\(f(x)=x^4-3x+1\\)</p><p>b) \\(g(x)=(3x-1)^5\\)</p><p>c) \\(h(x)=xe^x\\)</p><p>d) \\(p(x)=\\frac{e^x}{x+1}\\)</p>",
+    "t": "<p>Välj vilken deriveringsregel A–D som passar varje funktions skrivsätt. Du ska bara ange regelns bokstav, inte beräkna derivatan.</p><p>A: potens-/summaregel &nbsp; B: produktregeln &nbsp; C: kvotregeln &nbsp; D: kedjeregeln</p><p>a) \\(f(x)=x^4-3x+1\\)</p><p>b) \\(g(x)=(3x-1)^5\\)</p><p>c) \\(h(x)=xe^x\\)</p><p>d) \\(p(x)=\\frac{e^x}{x+1}\\)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>A</strong>: ett polynom deriveras term för term.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>C</strong>: en kvot av två funktioner av \\(x\\).</p></li></ol></div></div></div>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
@@ -27773,11 +27773,11 @@ window.BANKMATO2 = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Välj den regel som är viktigast att känna igen först.</p><p>A: potens-/summaregel &nbsp; B: produktregeln &nbsp; C: kvotregeln &nbsp; D: kedjeregeln</p>",
+    "spelIntro": "<p>Välj deriveringsregeln som passar funktionens skrivsätt. Du ska bara ange regelns bokstav, inte beräkna derivatan.</p><p>A: potens-/summaregel &nbsp; B: produktregeln &nbsp; C: kvotregeln &nbsp; D: kedjeregeln</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>Vilken regel behöver användas först för \\(f(x)=x^4-3x+1\\)? Svara A–D.</p>",
+        "fraga": "<p>Vilken deriveringsregel passar skrivsättet för \\(f(x)=x^4-3x+1\\)? Svara A–D.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>A</strong>: ett polynom deriveras term för term.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -27786,7 +27786,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Vilken regel behöver användas först för \\(g(x)=(3x-1)^5\\)? Svara A–D.</p>",
+        "fraga": "<p>Vilken deriveringsregel passar skrivsättet för \\(g(x)=(3x-1)^5\\)? Svara A–D.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -27795,7 +27795,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>Vilken regel behöver användas först för \\(h(x)=xe^x\\)? Svara A–D.</p>",
+        "fraga": "<p>Vilken deriveringsregel passar skrivsättet för \\(h(x)=xe^x\\)? Svara A–D.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>B</strong>: två funktioner av x multipliceras, så produktregeln behövs.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -27804,7 +27804,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>Vilken regel behöver användas först för \\(p(x)=\\frac{e^x}{x+1}\\)? Svara A–D.</p>",
+        "fraga": "<p>Vilken deriveringsregel passar skrivsättet för \\(p(x)=\\frac{e^x}{x+1}\\)? Svara A–D.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>C</strong>: en kvot av två funktioner av x kräver kvotregeln.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",

@@ -26,6 +26,15 @@ test('Mikroprefix kan skrivas med µ, μ eller u',()=>{
   for(const unit of ['µm','μm','um'])for(const symbol of ['µm','μm','um'])
     assert.equal(grade('0,095 '+symbol,0.095,unit),true,unit+' / '+symbol);
 });
+test('Tidsenheter kan skrivas som ord utan att olika tidsenheter blandas',()=>{
+  assert.equal(grade('4 timmar',4,'h'),true);
+  assert.equal(grade('4 h',4,'tim'),true);
+  assert.equal(grade('300 minuter',300,'min'),true);
+  assert.equal(grade('14 dagar',14,'dygn'),true);
+  assert.equal(grade('1 sekund',1,'s'),true);
+  assert.equal(grade('4 minuter',4,'h'),false);
+  assert.equal(grade('14 timmar',14,'dygn'),false);
+});
 test('En omvandling kräver rätt prefix och storhet även när talet är rätt',()=>{
   for(const input of ['0,75 ml','0,75 m','0,75 kg','0,75 kL','0,75e0 L'])
     assert.equal(grade(input,0.75,'L'),false,input);

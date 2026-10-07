@@ -3833,7 +3833,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-07-ac";
+const BANK_VERSION="2026-10-07-ad";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9466,7 +9466,7 @@ function formatRatt(anv,facit,meta){
       const unit=String(meta.enhet??"").replace(/\s+/g,"");
       /* Utskrivna enhetsord godtas för samma enhet: "9000 sekunder" och "9000 sek" som "9000 s". */
       const enhetNamn=x=>{
-        const namn=(x.length>2 && ENHET_ALIAS[x.toLowerCase()]) || x;
+        const namn=ENHET_ALIAS[x] || (x.length>2 && ENHET_ALIAS[x.toLowerCase()]) || x;
         // L och l betyder liter; µ, μ och u kan beteckna samma mikroprefix.
         // Behåll övriga versaler: MW och mW är olika enheter.
         return namn.replace(/^[μu](?=[A-Za-zΩ])/,"µ").replace(/^([fpnmcdhkMGTµ]?)L$/,"$1l");
@@ -10001,6 +10001,7 @@ const ENHETER={
 };
 
 const ENHET_ALIAS={h:"tim",timme:"tim",timmar:"tim",sek:"s",sekunder:"s",
+  sekund:"s",minut:"min",minuter:"min",dag:"dygn",dagar:"dygn",
   grader:"°",gr:"°",procent:"%",liter:"l",gram:"g",meter:"m",newton:"N",joule:"J",watt:"W"};
 
 function tolkaEnhetsord(sym){

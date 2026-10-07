@@ -2488,6 +2488,20 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 }
 .facit-svar strong{color:var(--accInk)}
 
+/* Samma stegstruktur som i Uppgiftslabbet, anpassad till elevvyn. */
+.facit-stegvis .facit-steglista{list-style:none;counter-reset:facit-steg;margin:0;padding:0}
+.facit-stegvis .facit-steglista > li{position:relative;counter-increment:facit-steg;padding:2px 0 2px 38px;margin:14px 0;min-width:0}
+.facit-stegvis .facit-steglista > li::before{content:counter(facit-steg);position:absolute;left:0;top:3px;width:25px;height:25px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:var(--accSoft);color:var(--accInk);font:700 13px var(--ui)}
+.facit-stegvis p{margin:.3em 0;line-height:1.7}
+.facit-stegvis .facit-del{margin:18px 0}
+.facit-stegvis .facit-matte{max-width:100%;overflow-x:auto}
+.facit-stegvis .katex-display{text-align:left;margin:.55em 0}
+.facit-stegvis .katex-display > .katex{text-align:left}
+.facit-stegvis .facit-svar{border-left:3px solid var(--accInk);font-weight:600}
+.facit-stegvis .facit-rubrik{font-weight:700}
+.facit-stegvis > ol:not(.facit-steglista){padding-left:24px}
+.facit-stegvis > ol:not(.facit-steglista) > li{padding-left:6px;margin:18px 0}
+
 .fig{display:block;margin:14px auto;text-align:center}
 .fig svg{display:block;max-width:100%;height:auto;margin:0 auto}
 .fig.smal svg{max-width:340px}
@@ -3819,7 +3833,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-07-l";
+const BANK_VERSION="2026-10-07-m";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;

@@ -9475,7 +9475,8 @@ function formatRatt(anv,facit,meta){
         kvar.splice(i,1); return true;
       })) return true;
       /* "x=30,150" och "x=30°, 150°": samma rötter skrivna som en lista efter ett gemensamt "x=". */
-      return rotListaRatt(utanGrad(a),utanGrad(f).replace(/^\s*\{|\}\s*$/g,""),tol)===true;
+      /* I facits mängd är kommat alltid en avgränsare, aldrig ett decimalkomma. */
+      return rotListaRatt(utanGrad(a),utanGrad(f).replace(/^\s*\{|\}\s*$/g,"").replace(/,\s*/g,", "),tol)===true;
     }
     case "intervall": case "intervall_tal": {
       const ia=intervallAv(a), ifa=intervallAv(f);
@@ -9592,11 +9593,29 @@ function utanEnhet(anv,enhet){
   const m=String(anv).match(new RegExp("^(.*?\\S)\\s*"+p+"\\s*$"));
   return m && m[1].trim() ? m[1] : null;
 }
+/* Alternativen i en flervalsuppgift som {A:"12", B:"12 000", …}, lästa ur uppgiftstexten.
+   Bara rader som börjar med en bokstav följd av punkt, kolon eller parentes räknas. */
+function valAlternativ(t){
+  const txt=String(t?.t||"").replace(/<br\s*\/?>|<\/p>|<\/li>/gi,"\n").replace(/<[^>]+>/g,"");
+  const alt={};
+  for(const m of txt.matchAll(/(?:^|\n)\s*([A-F])\s*[.:)]\s*([^\n]+)/g)) alt[m[1]]=m[2].replace(/\s+/g," ").trim();
+  return Object.keys(alt).length>=2 ? alt : {};
+}
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
   /* Facit skrivet i LaTeX jämförs i samma form som eleven skriver. */
   if(typeof facit==="string" && /\\[a-zA-Z]/.test(facit)){
     const p=latexToPlain(facit);
     if(p && !/\\[a-zA-Z]/.test(p)) facit=p;
+  }
+  /* Flervalsfacit som en bokstav ("D") när eleven skrivit själva alternativet ("120"):
+     svaret jämförs med alternativets text i uppgiften, t.ex. "A. 12<br>B. 12 000<br>…<br>D. 120". */
+  if(typeof facit==="string" && /^[A-F]$/.test(facit.trim()) && !/^\s*[A-Fa-f]\s*\.?\s*$/.test(String(anv))){
+    const alt=valAlternativ(t);
+    const val=alt[facit.trim()];
+    if(val!=null){
+      const träff=Object.entries(alt).filter(([,txt])=>delSvarRatt(anv,txt,enhet,null,null,idx,null));
+      if(träff.length===1) return träff[0][0]===facit.trim();
+    }
   }
   /* Tolerans 0 och "Avrunda vid behov till två decimaler": facit är avrundat, så ett svar som
      avrundas till facit godtas, t.ex. 0,3306 eller 0,331 mot 0,33. Tidigare krävdes exakt 0,33. */

@@ -424,10 +424,17 @@ a{color:inherit}
 .topppill .pallmarke{width:16px;height:16px;flex:none;display:block}
 .topppill .topptext{white-space:nowrap}
 .konto{
-  width:34px;height:34px;border-radius:50%;overflow:hidden;display:grid;place-items:center;flex:none;
+  width:34px;height:34px;border-radius:50%;position:relative;overflow:visible;display:grid;place-items:center;flex:none;
   border:1px solid var(--hair);background:var(--accSoft);color:var(--accInk);
   font-size:13px;font-weight:700;transition:.2s var(--ease);
 }
+.konto-bild{width:100%;height:100%;border-radius:inherit;overflow:hidden;display:grid;place-items:center}
+.konto-notis{
+  position:absolute;top:-6px;right:-7px;min-width:19px;height:19px;padding:0 4px;
+  display:grid;place-items:center;border-radius:99px;background:#c62828;color:#fff;
+  border:2px solid var(--surface);font-size:10px;font-weight:750;line-height:1;pointer-events:none;
+}
+.konto-notis[hidden]{display:none}
 .konto img{width:100%;height:100%;object-fit:cover;display:block}
 .konto:hover{border-color:var(--hair2);transform:translateY(-1px)}
 .kontomeny{
@@ -5477,6 +5484,7 @@ async function kontrolleraAdmin(){
 
 async function kgHeartbeat(){
   if(!MOLN_PA() || !session || document.visibilityState==="hidden") return;
+  if(arAdmin) uppdateraFelAntal();
   try{
     if(!await giltigSession()) return;
     await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_heartbeat",{
@@ -5508,15 +5516,39 @@ async function kontrolleraLarare(){
   }
   try{ arLarare?localStorage.setItem(LARARE_KEY,"1"):localStorage.removeItem(LARARE_KEY); }catch(_){}
   uppdateraLararKnapp();
-  if(arLarare) uppdateraFelAntal();
+  if(arLarare||arAdmin) uppdateraFelAntal();
+  else{ felOppnaAntal=null; uppdateraFelNotis(); }
   hamtaLarprofil();
   return arLarare;
 }
-/* Siffran bredvid Felrapporter i kontomenyn. */
+/* Öppna rapporter i menyn, och en röd siffra på administratörens avatar. */
+let felAntalHamtar=false;
 async function uppdateraFelAntal(){
-  if(!arLarare) return;
-  try{ felOppnaAntal=(await hamtaFelloggen(false)).length; }
+  if(!session||(!arLarare&&!arAdmin)||felAntalHamtar) return;
+  const uid=session.user?.id||session.access_token;
+  felAntalHamtar=true;
+  try{
+    const antal=(await hamtaFelloggen(false)).length;
+    if(!session||(session.user?.id||session.access_token)!==uid||(!arLarare&&!arAdmin)) return;
+    felOppnaAntal=antal;
+    uppdateraFelNotis();
+  }
   catch(_){ /* är tabellen inte installerad ännu visas menyn utan siffra */ }
+  finally{ felAntalHamtar=false; }
+}
+function kontoFelNotisAntal(){
+  return session&&arAdmin?Math.max(0,Number(felOppnaAntal)||0):0;
+}
+function uppdateraFelNotis(){
+  const antal=kontoFelNotisAntal();
+  document.querySelectorAll('.konto').forEach(k=>{
+    const notis=k.querySelector('.konto-notis');
+    if(notis){ notis.hidden=!antal; notis.textContent=antal>99?'99+':String(antal); }
+    k.setAttribute('aria-label',antal?`Konto – ${antal} öppna felrapporter`:'Konto');
+  });
+  document.querySelectorAll('[data-felrapporter]').forEach(k=>{
+    k.textContent='Felrapporter'+(felOppnaAntal?' ('+felOppnaAntal+')':'');
+  });
 }
 
 function kontoKnapp(){
@@ -5529,8 +5561,10 @@ function kontoKnapp(){
   const namn=u.user_metadata?.full_name || u.email || "Inloggad";
   const bild=u.user_metadata?.avatar_url;
   const initial=(namn[0]||"?").toUpperCase();
-  return `<button class="konto" onclick="kontoMeny(event)" title="${esc(namn)}" aria-label="Konto">
-    ${bild?`<img src="${esc(bild)}" alt="" referrerpolicy="no-referrer">`:`<span>${esc(initial)}</span>`}
+  const antal=kontoFelNotisAntal();
+  return `<button class="konto" onclick="kontoMeny(event)" title="${esc(namn)}" aria-label="${antal?`Konto – ${antal} öppna felrapporter`:'Konto'}">
+    <span class="konto-bild">${bild?`<img src="${esc(bild)}" alt="" referrerpolicy="no-referrer">`:`<span>${esc(initial)}</span>`}</span>
+    <span class="konto-notis" aria-hidden="true"${antal?'':' hidden'}>${antal>99?'99+':antal}</span>
   </button>`;
 }
 function kontoMeny(ev){
@@ -5570,7 +5604,7 @@ function kontoMeny(ev){
     <div class="menyfalt">
       <div class="menyrubrik">Lärare</div>
       <button class="btn sm wide" onclick="franMenyn(()=>oppnaLarare())">Min sida</button>
-      ${arLarare?`<button class="btn sm wide" onclick="oppnaFelrapportLogg()" style="margin-top:6px">Felrapporter${
+      ${arLarare?`<button class="btn sm wide" data-felrapporter onclick="oppnaFelrapportLogg()" style="margin-top:6px">Felrapporter${
         felOppnaAntal?" ("+felOppnaAntal+")":""}</button>`:""}
       <button class="btn sm wide quiet" onclick="oppnaLararprofil()" style="margin-top:6px">Min lärarprofil</button>
     </div>`:""}
@@ -10868,7 +10902,8 @@ async function ritaFellogg(){
   if(!host) return;
   try{ felloggData=await hamtaFelloggen(felloggVisaKlara); }
   catch(e){ host.innerHTML=`<p class="modal-text">${esc(e.message)}</p>`; return; }
-  if(!felloggVisaKlara) felOppnaAntal=felloggData.length;
+  if(!felloggVisaKlara){ felOppnaAntal=felloggData.length; uppdateraFelNotis(); }
+  else uppdateraFelAntal();
   if(!felloggData.length){
     host.innerHTML=`<p class="modal-text">Inga öppna felrapporter just nu.</p>`; return;
   }

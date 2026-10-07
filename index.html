@@ -3812,7 +3812,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-07-a";
+const BANK_VERSION="2026-10-07-b";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11755,12 +11755,14 @@ function checkAnswer(){
   const enkelEnhet=Array.isArray(t.svarEnhet)?t.svarEnhet[i]:t.svarEnhet;
   const enkelTol=Array.isArray(t.tolerans)?t.tolerans[i]:t.tolerans;
   const ok=delSvarRatt(svar,expected[i],enkelEnhet,enkelTol,t,i,enkelFormat);
-  registreraDel(i,ok,visatFacitUttryck(visatFacitTal(expected[i]),enkelFormat));
+  registreraDel(i,ok,visatFacitUttryck(visatFacitTal(expected[i],enkelTol),enkelFormat));
 }
 
 /* Ett facit som 34.657359027997266 visas avrundat som uppgiften ber om ("34,7" vid
    "en decimal", tre värdesiffror vid "tre värdesiffror"), annars med högst fyra decimaler. */
-function visatFacitTal(v){
+/* Utan instruktion om decimaler/värdesiffror avrundas facit efter toleransen: så få decimaler
+   som möjligt men ändå inom toleransen (0,51 kring 33,333 visas som 33,3). */
+function visatFacitTal(v,tol){
   if(typeof v!=="number" || !Number.isFinite(v) || Number.isInteger(v)) return String(v);
   const txt=String(state.currentTask?.t||"").replace(/<[^>]+>/g," ");
   const ord={en:1,ett:1,två:2,tre:3,fyra:4};
@@ -11769,6 +11771,11 @@ function visatFacitTal(v){
   let s;
   if(md) s=v.toFixed(ord[md[1].toLowerCase()]||+md[1]);
   else if(mv){ const n=ord[mv[1].toLowerCase()]||+mv[1]; s=Math.abs(v)>=1e-4&&Math.abs(v)<1e6 ? String(Number(v.toPrecision(n))) : v.toPrecision(n); }
+  else if(typeof tol==="number" && tol>0 && Math.abs(v)>=1e-4){
+    const d=Math.max(-12,Math.min(4,Math.ceil(-Math.log10(tol))));
+    const steg=Math.pow(10,-d);
+    s=d>=0 ? String(Number(v.toFixed(d))) : String(Math.round(v/steg)*steg);
+  }
   else s=String(Math.abs(v)>=1e-4 ? Number(v.toFixed(4)) : Number(v.toPrecision(4)));
   return s.replace(".",",");
 }
@@ -11787,7 +11794,7 @@ function facitText(d,kvar){
     .map(k=>{
       /* LaTeX-facit (\frac, \sin ...) visas som formel i stället för som rå kod. */
       /* "<" i olikheter (1<x<=7) skulle annars tolkas som en HTML-tagg. */
-      const v=visatFacitUttryck(visatFacitTal(k.v),d.format?.[k.j]).replace(/<(?!\/?(?:sup|sub|b|i|em|strong|br)\b)/g,"&lt;");
+      const v=visatFacitUttryck(visatFacitTal(k.v,d.tol?.[k.j]),d.format?.[k.j]).replace(/<(?!\/?(?:sup|sub|b|i|em|strong|br)\b)/g,"&lt;");
       const text=(/\\[a-zA-Z]/.test(v) && !v.includes("\\(")) ? "\\("+v+"\\)" : v;
       return text+(d.enhet[k.j]?" "+d.enhet[k.j]:"");
     })

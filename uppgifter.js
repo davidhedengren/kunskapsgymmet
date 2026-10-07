@@ -16384,7 +16384,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla enheter och beräkna snigelns medelfart",
     "poang": "(4/0/0)",
-    "t": "<p>En snigel kryper 45 cm på 15 minuter. Anta i den sista frågan att den fortsätter med samma medelfart utan uppehåll.</p><ol><li>Skriv 45 cm i m.</li><li>Skriv 15 minuter i s.</li><li>Bestäm medelfarten i m/s.</li><li>Hur långt hinner snigeln på 24 timmar enligt modellen? Svara i m.</li></ol>",
+    "t": "<p>En snigel kryper 45 cm på 15 minuter.</p><ol type=\"a\"><li>Hur många meter kryper snigeln? Svara i m.</li><li>Hur många sekunder tar det? Svara i s.</li><li>Bestäm snigelns medelfart. Svara i m/s.</li><li>Anta att snigeln fortsätter med samma medelfart utan uppehåll. Hur långt hinner den på 24 timmar? Svara i m.</li></ol>",
     "s": "<p>a) 45 cm = 0,45 m.</p><p>b) 15 · 60 = 900 s.</p><p>c) 0,45/900 = 0,0005 m/s.</p><p>d) 0,0005 · 24 · 3600 = 43,2 m.</p>",
     "familj": "Medelhastighet och medelfart",
     "formaga": [
@@ -16429,14 +16429,14 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En snigel kryper 45 cm på 15 minuter. Anta i den sista frågan att den fortsätter med samma medelfart utan uppehåll.</p>",
+    "spelIntro": "<p>En snigel kryper 45 cm på 15 minuter.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Skriv 45 cm i m.",
-        "t": "<p>En snigel kryper 45 cm på 15 minuter. Anta i den sista frågan att den fortsätter med samma medelfart utan uppehåll.</p><p>Skriv 45 cm i m.</p>",
+        "fraga": "Hur många meter kryper snigeln? Svara i m.",
+        "t": "<p>En snigel kryper 45 cm på 15 minuter.</p><p>Hur många meter kryper snigeln? Svara i m.</p>",
         "s": "<p>45 cm = 0,45 m.</p>",
-        "ledtrad": "<p>Omvandla centimeter och minuter innan du räknar med meter per sekund.</p>",
+        "ledtrad": "<p>1 m = 100 cm.</p>",
         "niva": "E",
         "traningsniva": 3,
         "arbetsinsats": 1,
@@ -16444,10 +16444,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Skriv 15 minuter i s.",
-        "t": "<p>En snigel kryper 45 cm på 15 minuter. Anta i den sista frågan att den fortsätter med samma medelfart utan uppehåll.</p><p>Skriv 15 minuter i s.</p>",
+        "fraga": "Hur många sekunder tar det? Svara i s.",
+        "t": "<p>En snigel kryper 45 cm på 15 minuter.</p><p>Hur många sekunder tar det? Svara i s.</p>",
         "s": "<p>15 · 60 = 900 s.</p>",
-        "ledtrad": "<p>Omvandla centimeter och minuter innan du räknar med meter per sekund.</p>",
+        "ledtrad": "<p>1 minut = 60 sekunder.</p>",
         "niva": "E",
         "traningsniva": 3,
         "arbetsinsats": 1,
@@ -16455,10 +16455,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm medelfarten i m/s.",
-        "t": "<p>En snigel kryper 45 cm på 15 minuter. Anta i den sista frågan att den fortsätter med samma medelfart utan uppehåll.</p><p>Bestäm medelfarten i m/s.</p>",
-        "s": "<p>0,45/900 = 0,0005 m/s.</p>",
-        "ledtrad": "<p>Omvandla centimeter och minuter innan du räknar med meter per sekund.</p>",
+        "fraga": "Bestäm snigelns medelfart. Svara i m/s.",
+        "t": "<p>En snigel kryper 45 cm på 15 minuter.</p><p>Bestäm snigelns medelfart. Svara i m/s.</p>",
+        "s": "<p>Snigeln kryper 0,45 m på 900 s: 0,45/900 = 0,0005 m/s.</p>",
+        "ledtrad": "<p>Medelfart = sträcka/tid, med sträckan i meter och tiden i sekunder.</p>",
         "niva": "E",
         "traningsniva": 3,
         "arbetsinsats": 1,
@@ -16466,10 +16466,10 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Hur långt hinner snigeln på 24 timmar enligt modellen? Svara i m.",
-        "t": "<p>En snigel kryper 45 cm på 15 minuter. Anta i den sista frågan att den fortsätter med samma medelfart utan uppehåll.</p><p>Hur långt hinner snigeln på 24 timmar enligt modellen? Svara i m.</p>",
-        "s": "<p>0,0005 · 24 · 3600 = 43,2 m.</p>",
-        "ledtrad": "<p>Omvandla centimeter och minuter innan du räknar med meter per sekund.</p>",
+        "fraga": "Anta att snigeln fortsätter med samma medelfart utan uppehåll. Hur långt hinner den på 24 timmar? Svara i m.",
+        "t": "<p>En snigel kryper 45 cm på 15 minuter.</p><p>Anta att snigeln fortsätter med samma medelfart utan uppehåll. Hur långt hinner den på 24 timmar? Svara i m.</p>",
+        "s": "<p>24 h = 24 · 3600 s = 86 400 s. 0,0005 · 86 400 = 43,2 m.</p>",
+        "ledtrad": "<p>Räkna om 24 timmar till sekunder och använd medelfarten.</p>",
         "niva": "E",
         "traningsniva": 3,
         "arbetsinsats": 1,
@@ -124830,7 +124830,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Åskmullret hörs 4,60 s efter blixten. Ljudets fart är 340 m/s. Hur långt bort slog blixten ner?",
-        "t": "<p>Bestäm.</p><p>Åskmullret hörs 4,60 s efter blixten. Ljudets fart är 340 m/s. Hur långt bort slog blixten ner?</p>",
+        "t": "<p>Åskmullret hörs 4,60 s efter blixten. Ljudets fart är 340 m/s. Hur långt bort slog blixten ner?</p>",
         "s": "<p>\\(s=340\\cdot4{,}60\\). Ljusets gångtid är försumbar.</p><p><strong>Svar:</strong> \\(1\\,564\\) m</p>",
         "ledtrad": "<p>\\(s=vt\\).</p>",
         "niva": "E",
@@ -124841,7 +124841,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ljus går 18 km genom en optisk fiber på 0,13 ms. Bestäm ljusets fart i fibern.",
-        "t": "<p>Bestäm.</p><p>Ljus går 18 km genom en optisk fiber på 0,13 ms. Bestäm ljusets fart i fibern.</p>",
+        "t": "<p>Ljus går 18 km genom en optisk fiber på 0,13 ms. Bestäm ljusets fart i fibern.</p>",
         "s": "<p>\\(v=\\dfrac{18\\,000}{0{,}13\\cdot10^{-3}}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{8}\\) m/s</p>",
         "ledtrad": "<p>\\(s=vt\\).</p>",
         "niva": "E",
@@ -124852,7 +124852,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En fladdermus får ekot från ett byte efter 0,20 s. Ljudets fart är 340 m/s. Hur långt bort är bytet?",
-        "t": "<p>Bestäm.</p><p>En fladdermus får ekot från ett byte efter 0,20 s. Ljudets fart är 340 m/s. Hur långt bort är bytet?</p>",
+        "t": "<p>En fladdermus får ekot från ett byte efter 0,20 s. Ljudets fart är 340 m/s. Hur långt bort är bytet?</p>",
         "s": "<p>Ljudet går fram och tillbaka: \\(s=\\dfrac{340\\cdot0{,}20}{2}\\).</p><p><strong>Svar:</strong> \\(34\\) m</p>",
         "ledtrad": "<p>Ekot går dubbla sträckan.</p>",
         "niva": "E",
@@ -124863,7 +124863,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Ett ekolod får ekot från en botten 50 m ner efter 66,5 ms. Bestäm ljudets fart i vatten.",
-        "t": "<p>Bestäm.</p><p>Ett ekolod får ekot från en botten 50 m ner efter 66,5 ms. Bestäm ljudets fart i vatten.</p>",
+        "t": "<p>Ett ekolod får ekot från en botten 50 m ner efter 66,5 ms. Bestäm ljudets fart i vatten.</p>",
         "s": "<p>\\(v=\\dfrac{2\\cdot50}{0{,}0665}\\).</p><p><strong>Svar:</strong> \\(1\\,504\\) m/s</p>",
         "ledtrad": "<p>Ekot går dubbla sträckan.</p>",
         "niva": "C",
@@ -125003,7 +125003,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En puck med 145 km/h skjuts från 15 m. Hur lång tid tar det till mål? (Målvakten behöver 0,55 s.)",
-        "t": "<p>Bestäm.</p><p>En puck med 145 km/h skjuts från 15 m. Hur lång tid tar det till mål? (Målvakten behöver 0,55 s.)</p>",
+        "t": "<p>En puck med 145 km/h skjuts från 15 m. Hur lång tid tar det till mål? (Målvakten behöver 0,55 s.)</p>",
         "s": "<p>\\(t=\\dfrac{15}{145/3{,}6}\\). Det blir mål.</p><p><strong>Svar:</strong> \\(0{,}37\\) s</p>",
         "ledtrad": "<p>Gör om till m/s.</p>",
         "niva": "E",
@@ -125014,7 +125014,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En boll skjuts med 100 km/h mot en stolpe 25 m bort. En spelare 7,32 m bort ska hinna dit samtidigt. Hur fort måste spelaren springa?",
-        "t": "<p>Bestäm.</p><p>En boll skjuts med 100 km/h mot en stolpe 25 m bort. En spelare 7,32 m bort ska hinna dit samtidigt. Hur fort måste spelaren springa?</p>",
+        "t": "<p>En boll skjuts med 100 km/h mot en stolpe 25 m bort. En spelare 7,32 m bort ska hinna dit samtidigt. Hur fort måste spelaren springa?</p>",
         "s": "<p>\\(t=\\dfrac{25}{27{,}8}\\), \\(v=\\dfrac{7{,}32}{t}\\).</p><p><strong>Svar:</strong> \\(8{,}1\\) m/s</p>",
         "ledtrad": "<p>Samma tid för båda.</p>",
         "niva": "C",
@@ -125025,7 +125025,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En gepard (28 m/s) jagar en zebra (16 m/s) som är 35 m före. Efter hur lång tid är den ifatt?",
-        "t": "<p>Bestäm.</p><p>En gepard (28 m/s) jagar en zebra (16 m/s) som är 35 m före. Efter hur lång tid är den ifatt?</p>",
+        "t": "<p>En gepard (28 m/s) jagar en zebra (16 m/s) som är 35 m före. Efter hur lång tid är den ifatt?</p>",
         "s": "<p>\\(t=\\dfrac{35}{28-16}\\).</p><p><strong>Svar:</strong> \\(2{,}9\\) s</p>",
         "ledtrad": "<p>Relativ fart.</p>",
         "niva": "E",
@@ -125036,7 +125036,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "En elektron rör sig 7,5 mm/s i en 20 m lång sladd. Hur många minuter tar det att passera sladden?",
-        "t": "<p>Bestäm.</p><p>En elektron rör sig 7,5 mm/s i en 20 m lång sladd. Hur många minuter tar det att passera sladden?</p>",
+        "t": "<p>En elektron rör sig 7,5 mm/s i en 20 m lång sladd. Hur många minuter tar det att passera sladden?</p>",
         "s": "<p>\\(t=\\dfrac{20}{0{,}0075}\\) s.</p><p><strong>Svar:</strong> \\(44\\) min</p>",
         "ledtrad": "<p>Gör om till m/s.</p>",
         "niva": "E",
@@ -125065,8 +125065,8 @@ window.BANK = [
     "familj": "Sträcka, tid och fart",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      33.333333333333336,
-      21.176470588235293
+      33.3,
+      21.2
     ],
     "tolerans": [
       0.51,
@@ -125457,7 +125457,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Pia kör normalt med 72 km/h. När hon är 2,0 minuter sen måste hon köra 80 km/h för att komma i tid. Hur långt är det till jobbet?",
-        "t": "<p>Bestäm.</p><p>Pia kör normalt med 72 km/h. När hon är 2,0 minuter sen måste hon köra 80 km/h för att komma i tid. Hur långt är det till jobbet?</p>",
+        "t": "<p>Pia kör normalt med 72 km/h. När hon är 2,0 minuter sen måste hon köra 80 km/h för att komma i tid. Hur långt är det till jobbet?</p>",
         "s": "<p>\\(\\dfrac{d}{72}-\\dfrac{d}{80}=\\dfrac{2}{60}\\).</p><p><strong>Svar:</strong> \\(24\\) km</p>",
         "ledtrad": "<p>Tidsskillnaden är 2 minuter.</p>",
         "niva": "C",
@@ -125468,7 +125468,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Tina kör 80 km med 95 km/h i stället för 90 km/h. Hur många minuter tjänar hon?",
-        "t": "<p>Bestäm.</p><p>Tina kör 80 km med 95 km/h i stället för 90 km/h. Hur många minuter tjänar hon?</p>",
+        "t": "<p>Tina kör 80 km med 95 km/h i stället för 90 km/h. Hur många minuter tjänar hon?</p>",
         "s": "<p>\\(\\left(\\dfrac{80}{90}-\\dfrac{80}{95}\\right)\\cdot60\\).</p><p><strong>Svar:</strong> \\(2{,}8\\) min</p>",
         "ledtrad": "<p>Jämför tiderna.</p>",
         "niva": "E",
@@ -125479,7 +125479,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Ett snabbtåg kör 20 km/h fortare än ett annat och tar 1,0 h kortare tid på 240 km. Bestäm det långsammare tågets fart.",
-        "t": "<p>Bestäm.</p><p>Ett snabbtåg kör 20 km/h fortare än ett annat och tar 1,0 h kortare tid på 240 km. Bestäm det långsammare tågets fart.</p>",
+        "t": "<p>Ett snabbtåg kör 20 km/h fortare än ett annat och tar 1,0 h kortare tid på 240 km. Bestäm det långsammare tågets fart.</p>",
         "s": "<p>\\(\\dfrac{240}{v}-\\dfrac{240}{v+20}=1\\iff v^2+20v-4\\,800=0\\).</p><p><strong>Svar:</strong> \\(60\\) km/h</p>",
         "ledtrad": "<p>Andragradsekvation.</p>",
         "niva": "A",
@@ -125490,7 +125490,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Två tåg kör samma sträcka på 5,0 h och 4,0 h, och det snabbare kör 18 km/h fortare. Bestäm det långsammare tågets fart.",
-        "t": "<p>Bestäm.</p><p>Två tåg kör samma sträcka på 5,0 h och 4,0 h, och det snabbare kör 18 km/h fortare. Bestäm det långsammare tågets fart.</p>",
+        "t": "<p>Två tåg kör samma sträcka på 5,0 h och 4,0 h, och det snabbare kör 18 km/h fortare. Bestäm det långsammare tågets fart.</p>",
         "s": "<p>\\(5{,}0v=4{,}0(v+18)\\).</p><p><strong>Svar:</strong> \\(72\\) km/h</p>",
         "ledtrad": "<p>Samma sträcka.</p>",
         "niva": "C",
@@ -125651,8 +125651,8 @@ window.BANK = [
     "niva": "A",
     "typ": "björn och bil",
     "poang": "(1/1/1)",
-    "t": "<p>Bestäm.</p><ol type=\"a\"><li>Oskar (4,0 m/s) springer mot sin bil när en björn (6,0 m/s) är 36 m bakom honom. Det tar 4,0 s att sätta sig i bilen. Hur långt från bilen får han högst vara?</li><li>Ett ekolod får ekot från ett fiskstim efter 0,20 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?</li></ol>",
-    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{d}{4{,}0}+4{,}0=\\dfrac{d+36}{6{,}0}\\).</p><p><strong>Svar:</strong> \\(24\\) m</p></li><li><p>\\(s=\\dfrac{1\\,500\\cdot0{,}20}{2}\\).</p><p><strong>Svar:</strong> \\(150\\) m</p></li></ol>",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>Oskar (4,0 m/s) springer mot sin bil när en björn (6,0 m/s) är 36 m bakom honom. Det tar 4,0 s att sätta sig i bilen. Hur långt från bilen får han högst vara?</li><li>En fiskebåts ekolod sänder en ljudpuls mot ett fiskstim. Ekot kommer tillbaka efter 0,30 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{d}{4{,}0}+4{,}0=\\dfrac{d+36}{6{,}0}\\).</p><p><strong>Svar:</strong> \\(24\\) m</p></li><li><p>\\(s=\\dfrac{1\\,500\\cdot0{,}30}{2}\\).</p><p><strong>Svar:</strong> \\(225\\) m</p></li></ol>",
     "id": "2.305",
     "miniräknare": true,
     "geogebra": false,
@@ -125660,7 +125660,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       24,
-      150
+      225
     ],
     "tolerans": [
       0.51,
@@ -125689,7 +125689,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Oskar (4,0 m/s) springer mot sin bil när en björn (6,0 m/s) är 36 m bakom honom. Det tar 4,0 s att sätta sig i bilen. Hur långt från bilen får han högst vara?",
-        "t": "<p>Bestäm.</p><p>Oskar (4,0 m/s) springer mot sin bil när en björn (6,0 m/s) är 36 m bakom honom. Det tar 4,0 s att sätta sig i bilen. Hur långt från bilen får han högst vara?</p>",
+        "t": "<p>Oskar (4,0 m/s) springer mot sin bil när en björn (6,0 m/s) är 36 m bakom honom. Det tar 4,0 s att sätta sig i bilen. Hur långt från bilen får han högst vara?</p>",
         "s": "<p>\\(\\dfrac{d}{4{,}0}+4{,}0=\\dfrac{d+36}{6{,}0}\\).</p><p><strong>Svar:</strong> \\(24\\) m</p>",
         "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
         "niva": "A",
@@ -125699,9 +125699,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett ekolod får ekot från ett fiskstim efter 0,20 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?",
-        "t": "<p>Bestäm.</p><p>Ett ekolod får ekot från ett fiskstim efter 0,20 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?</p>",
-        "s": "<p>\\(s=\\dfrac{1\\,500\\cdot0{,}20}{2}\\).</p><p><strong>Svar:</strong> \\(150\\) m</p>",
+        "fraga": "En fiskebåts ekolod sänder en ljudpuls mot ett fiskstim. Ekot kommer tillbaka efter 0,30 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?",
+        "t": "<p>En fiskebåts ekolod sänder en ljudpuls mot ett fiskstim. Ekot kommer tillbaka efter 0,30 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?</p>",
+        "s": "<p>Ljudet går fram och tillbaka: \\(s=\\dfrac{1\\,500\\cdot0{,}30}{2}\\).</p><p><strong>Svar:</strong> \\(225\\) m</p>",
         "ledtrad": "<p>Ekot går dubbla sträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -125764,7 +125764,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Vid ett alfasönderfall far dotterkärnan iväg med \\(2{,}4\\cdot10^5\\) m/s och alfapartikeln med \\(6{,}7\\cdot10^6\\) m/s åt motsatt håll. Efter hur lång tid är de 1,0 m isär?",
-        "t": "<p>Bestäm.</p><p>Vid ett alfasönderfall far dotterkärnan iväg med \\(2{,}4\\cdot10^5\\) m/s och alfapartikeln med \\(6{,}7\\cdot10^6\\) m/s åt motsatt håll. Efter hur lång tid är de 1,0 m isär?</p>",
+        "t": "<p>Vid ett alfasönderfall far dotterkärnan iväg med \\(2{,}4\\cdot10^5\\) m/s och alfapartikeln med \\(6{,}7\\cdot10^6\\) m/s åt motsatt håll. Efter hur lång tid är de 1,0 m isär?</p>",
         "s": "<p>\\(t=\\dfrac{1{,}0}{2{,}4\\cdot10^5+6{,}7\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(1{,}4\\cdot10^{-7}\\) s</p>",
         "ledtrad": "<p>Farterna adderas.</p>",
         "niva": "E",
@@ -125775,7 +125775,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Kalle (32,0 km/h) startar 5,00 minuter före Olle (38,0 km/h). Hur många minuter efter sin start kör Olle ikapp?",
-        "t": "<p>Bestäm.</p><p>Kalle (32,0 km/h) startar 5,00 minuter före Olle (38,0 km/h). Hur många minuter efter sin start kör Olle ikapp?</p>",
+        "t": "<p>Kalle (32,0 km/h) startar 5,00 minuter före Olle (38,0 km/h). Hur många minuter efter sin start kör Olle ikapp?</p>",
         "s": "<p>\\(38{,}0t=32{,}0\\left(t+\\tfrac{5}{60}\\right)\\).</p><p><strong>Svar:</strong> \\(26{,}7\\) min</p>",
         "ledtrad": "<p>Ställ upp ett uttryck för var och ens läge eller tid och sätt dem lika.</p>",
         "niva": "C",
@@ -125786,7 +125786,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Kalle (32,0 km/h) startar 5,00 minuter före Olle (38,0 km/h) från samma plats. Hur långt har de kört när Olle kör ikapp Kalle?",
-        "t": "<p>Bestäm.</p><p>Kalle (32,0 km/h) startar 5,00 minuter före Olle (38,0 km/h) från samma plats. Hur långt har de kört när Olle kör ikapp Kalle?</p>",
+        "t": "<p>Kalle (32,0 km/h) startar 5,00 minuter före Olle (38,0 km/h) från samma plats. Hur långt har de kört när Olle kör ikapp Kalle?</p>",
         "s": "<p>\\(s=38{,}0\\cdot0{,}444\\).</p><p><strong>Svar:</strong> \\(16{,}9\\) km</p>",
         "ledtrad": "<p>\\(s=vt\\).</p>",
         "niva": "C",
@@ -125931,7 +125931,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En puck skjuts 10,0 m mot sargen med 12 m/s och studsar tillbaka med 8,5 m/s. Hur lång tid tar det innan den är tillbaka?",
-        "t": "<p>Bestäm.</p><p>En puck skjuts 10,0 m mot sargen med 12 m/s och studsar tillbaka med 8,5 m/s. Hur lång tid tar det innan den är tillbaka?</p>",
+        "t": "<p>En puck skjuts 10,0 m mot sargen med 12 m/s och studsar tillbaka med 8,5 m/s. Hur lång tid tar det innan den är tillbaka?</p>",
         "s": "<p>\\(t=\\dfrac{10{,}0}{12}+\\dfrac{10{,}0}{8{,}5}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\) s</p>",
         "ledtrad": "<p>\\(s=vt\\).</p>",
         "niva": "E",
@@ -125942,7 +125942,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Protoner i en ring med radien 4,20 km rör sig med i praktiken ljusets fart, \\(3{,}00\\cdot10^8\\) m/s. Hur många varv hinner de på 1,00 s?",
-        "t": "<p>Bestäm.</p><p>Protoner i en ring med radien 4,20 km rör sig med i praktiken ljusets fart, \\(3{,}00\\cdot10^8\\) m/s. Hur många varv hinner de på 1,00 s?</p>",
+        "t": "<p>Protoner i en ring med radien 4,20 km rör sig med i praktiken ljusets fart, \\(3{,}00\\cdot10^8\\) m/s. Hur många varv hinner de på 1,00 s?</p>",
         "s": "<p>\\(n=\\dfrac{3{,}00\\cdot10^8}{2\\pi\\cdot4\\,200}\\).</p><p><strong>Svar:</strong> \\(11\\,368\\)</p>",
         "ledtrad": "<p>Omkretsen är \\(2\\pi r\\).</p>",
         "niva": "C",
@@ -126524,7 +126524,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En båt tar 8,0 h nedströms och 12,0 h uppströms mellan två orter. Hur lång tid tar sträckan i stilla vatten?",
-        "t": "<p>Bestäm.</p><p>En båt tar 8,0 h nedströms och 12,0 h uppströms mellan två orter. Hur lång tid tar sträckan i stilla vatten?</p>",
+        "t": "<p>En båt tar 8,0 h nedströms och 12,0 h uppströms mellan två orter. Hur lång tid tar sträckan i stilla vatten?</p>",
         "s": "<p>\\(\\dfrac au=\\dfrac{2}{1/8{,}0+1/12{,}0}\\).</p><p><strong>Svar:</strong> \\(9{,}6\\) h</p>",
         "ledtrad": "<p>Farten i stilla vatten är medelvärdet av farterna nedströms och uppströms.</p>",
         "niva": "A",
@@ -126535,7 +126535,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En död lax driver med strömmen. Levande laxar simmar uppströms på 8,0 h och nedströms på 6,0 h. Hur lång tid tar det för den döda laxen?",
-        "t": "<p>Bestäm.</p><p>En död lax driver med strömmen. Levande laxar simmar uppströms på 8,0 h och nedströms på 6,0 h. Hur lång tid tar det för den döda laxen?</p>",
+        "t": "<p>En död lax driver med strömmen. Levande laxar simmar uppströms på 8,0 h och nedströms på 6,0 h. Hur lång tid tar det för den döda laxen?</p>",
         "s": "<p>Strömmens fart: \\(\\dfrac a2\\left(\\dfrac16-\\dfrac18\\right)=\\dfrac{a}{48}\\). Tid: 48 h.</p><p><strong>Svar:</strong> \\(48\\) h</p>",
         "ledtrad": "<p>Bestäm strömmens fart uttryckt i sträckan.</p>",
         "niva": "A",
@@ -126546,7 +126546,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En passagerare i ett tåg (72 km/h) ser ett mötande tåg (32,4 km/h) passera på 10 s. Hur långt är det mötande tåget?",
-        "t": "<p>Bestäm.</p><p>En passagerare i ett tåg (72 km/h) ser ett mötande tåg (32,4 km/h) passera på 10 s. Hur långt är det mötande tåget?</p>",
+        "t": "<p>En passagerare i ett tåg (72 km/h) ser ett mötande tåg (32,4 km/h) passera på 10 s. Hur långt är det mötande tåget?</p>",
         "s": "<p>Relativ fart: \\(104{,}4\\) km/h = 29 m/s. \\(l=29\\cdot10\\).</p><p><strong>Svar:</strong> \\(290\\) m</p>",
         "ledtrad": "<p>Farterna adderas.</p>",
         "niva": "C",
@@ -126557,7 +126557,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "En löpare springer 42,0 km dit på 1,40 h i medvind och hem på 1,68 h i lika stor motvind. Bestäm löparens fart utan vind.",
-        "t": "<p>Bestäm.</p><p>En löpare springer 42,0 km dit på 1,40 h i medvind och hem på 1,68 h i lika stor motvind. Bestäm löparens fart utan vind.</p>",
+        "t": "<p>En löpare springer 42,0 km dit på 1,40 h i medvind och hem på 1,68 h i lika stor motvind. Bestäm löparens fart utan vind.</p>",
         "s": "<p>\\(v=\\dfrac12\\left(\\dfrac{42{,}0}{1{,}40}+\\dfrac{42{,}0}{1{,}68}\\right)\\).</p><p><strong>Svar:</strong> \\(27{,}5\\) km/h</p>",
         "ledtrad": "<p>Medelvärdet av farterna.</p>",
         "niva": "C",
@@ -126627,7 +126627,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Ett barn springer fram och tillbaka på ett rullband (0,65 m/s) på 5,0 minuter. Barnet springer 3,0 m/s. Hur långt är bandet?",
-        "t": "<p>Bestäm.</p><p>Ett barn springer fram och tillbaka på ett rullband (0,65 m/s) på 5,0 minuter. Barnet springer 3,0 m/s. Hur långt är bandet?</p>",
+        "t": "<p>Ett barn springer fram och tillbaka på ett rullband (0,65 m/s) på 5,0 minuter. Barnet springer 3,0 m/s. Hur långt är bandet?</p>",
         "s": "<p>\\(\\dfrac{L}{3{,}65}+\\dfrac{L}{2{,}35}=300\\).</p><p><strong>Svar:</strong> \\(429\\) m</p>",
         "ledtrad": "<p>Farten med och mot bandet.</p>",
         "niva": "C",
@@ -126638,7 +126638,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Fiona åker 90 km/h och möter en 24,0 m lång lastbil (36 km/h). Hur lång tid tar passagen?",
-        "t": "<p>Bestäm.</p><p>Fiona åker 90 km/h och möter en 24,0 m lång lastbil (36 km/h). Hur lång tid tar passagen?</p>",
+        "t": "<p>Fiona åker 90 km/h och möter en 24,0 m lång lastbil (36 km/h). Hur lång tid tar passagen?</p>",
         "s": "<p>\\(t=\\dfrac{24{,}0}{126/3{,}6}\\).</p><p><strong>Svar:</strong> \\(0{,}69\\) s</p>",
         "ledtrad": "<p>Farterna adderas.</p>",
         "niva": "E",
@@ -126649,7 +126649,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En motorbåt (72 km/h) passerar ett hangarfartyg (54 km/h) på 1,0 minut. Hur långt är fartyget?",
-        "t": "<p>Bestäm.</p><p>En motorbåt (72 km/h) passerar ett hangarfartyg (54 km/h) på 1,0 minut. Hur långt är fartyget?</p>",
+        "t": "<p>En motorbåt (72 km/h) passerar ett hangarfartyg (54 km/h) på 1,0 minut. Hur långt är fartyget?</p>",
         "s": "<p>\\(l=\\dfrac{72-54}{3{,}6}\\cdot60\\).</p><p><strong>Svar:</strong> \\(300\\) m</p>",
         "ledtrad": "<p>Relativ fart.</p>",
         "niva": "E",
@@ -126660,7 +126660,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Ett 200 m långt tåg (72 km/h) kör om ett 800 m långt godståg (27 km/h). Hur lång tid tar omkörningen?",
-        "t": "<p>Bestäm.</p><p>Ett 200 m långt tåg (72 km/h) kör om ett 800 m långt godståg (27 km/h). Hur lång tid tar omkörningen?</p>",
+        "t": "<p>Ett 200 m långt tåg (72 km/h) kör om ett 800 m långt godståg (27 km/h). Hur lång tid tar omkörningen?</p>",
         "s": "<p>\\(t=\\dfrac{1\\,000}{(72-27)/3{,}6}\\).</p><p><strong>Svar:</strong> \\(80\\) s</p>",
         "ledtrad": "<p>Tåget måste köra 1 000 m relativt godståget.</p>",
         "niva": "C",
@@ -127350,7 +127350,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En bil bromsar från 90 km/h till 72 km/h med retardationen 1,2 m/s². Hur lång tid tar det?",
-        "t": "<p>Bestäm.</p><p>En bil bromsar från 90 km/h till 72 km/h med retardationen 1,2 m/s². Hur lång tid tar det?</p>",
+        "t": "<p>En bil bromsar från 90 km/h till 72 km/h med retardationen 1,2 m/s². Hur lång tid tar det?</p>",
         "s": "<p>\\(t=\\dfrac{25-20}{1{,}2}\\).</p><p><strong>Svar:</strong> \\(4{,}2\\) s</p>",
         "ledtrad": "<p>\\(v=v_0+at\\).</p>",
         "niva": "E",
@@ -127361,7 +127361,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur långt hinner bilen under inbromsningen?",
-        "t": "<p>Bestäm.</p>Inbromsningen tar 4,2 s.<p>Hur långt hinner bilen under inbromsningen?</p>",
+        "t": "Inbromsningen tar 4,2 s.<p>Hur långt hinner bilen under inbromsningen?</p>",
         "s": "<p>\\(s=\\dfrac{25+20}{2}\\cdot4{,}17\\).</p><p><strong>Svar:</strong> \\(94\\) m</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
@@ -127372,7 +127372,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En curlingsten med 12 m/s glider 32 m och stannar. Bestäm retardationens storlek.",
-        "t": "<p>Bestäm.</p><p>En curlingsten med 12 m/s glider 32 m och stannar. Bestäm retardationens storlek.</p>",
+        "t": "<p>En curlingsten med 12 m/s glider 32 m och stannar. Bestäm retardationens storlek.</p>",
         "s": "<p>\\(a=\\dfrac{12^2}{2\\cdot32}\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m/s²</p>",
         "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
         "niva": "E",
@@ -127383,7 +127383,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "En puck stannar efter 52 m på 2,3 s. Med vilken fart sköts den iväg?",
-        "t": "<p>Bestäm.</p><p>En puck stannar efter 52 m på 2,3 s. Med vilken fart sköts den iväg?</p>",
+        "t": "<p>En puck stannar efter 52 m på 2,3 s. Med vilken fart sköts den iväg?</p>",
         "s": "<p>\\(52=\\dfrac{v_0+0}{2}\\cdot2{,}3\\).</p><p><strong>Svar:</strong> \\(45\\) m/s</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
@@ -127630,7 +127630,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Kalle åker från vila 20 m nedför en backe på 4,2 s. Vilken fart har han längst ner?",
-        "t": "<p>Bestäm.</p><p>Kalle åker från vila 20 m nedför en backe på 4,2 s. Vilken fart har han längst ner?</p>",
+        "t": "<p>Kalle åker från vila 20 m nedför en backe på 4,2 s. Vilken fart har han längst ner?</p>",
         "s": "<p>\\(v=\\dfrac{2\\cdot20}{4{,}2}\\).</p><p><strong>Svar:</strong> \\(9{,}5\\) m/s</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
@@ -127641,7 +127641,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En bil med 45 km/h accelererar med 1,4 m/s². Hur lång tid tar det att nå 75 km/h?",
-        "t": "<p>Bestäm.</p><p>En bil med 45 km/h accelererar med 1,4 m/s². Hur lång tid tar det att nå 75 km/h?</p>",
+        "t": "<p>En bil med 45 km/h accelererar med 1,4 m/s². Hur lång tid tar det att nå 75 km/h?</p>",
         "s": "<p>\\(t=\\dfrac{20{,}8-12{,}5}{1{,}4}\\).</p><p><strong>Svar:</strong> \\(6{,}0\\) s</p>",
         "ledtrad": "<p>\\(v=v_0+at\\).</p>",
         "niva": "E",
@@ -127652,7 +127652,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En bil med 45 km/h accelererar med 1,4 m/s² till 75 km/h. Hur lång sträcka kör den under accelerationen?",
-        "t": "<p>Bestäm.</p>Det tar 6,0 s.<p>En bil med 45 km/h accelererar med 1,4 m/s² till 75 km/h. Hur lång sträcka kör den under accelerationen?</p>",
+        "t": "Det tar 6,0 s.<p>En bil med 45 km/h accelererar med 1,4 m/s² till 75 km/h. Hur lång sträcka kör den under accelerationen?</p>",
         "s": "<p>\\(s=\\dfrac{12{,}5+20{,}8}{2}\\cdot5{,}95\\).</p><p><strong>Svar:</strong> \\(99\\) m</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
@@ -129236,7 +129236,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En hammare släpps från 1,200 m på månen (\\(g=1{,}62\\) m/s²). Hur lång tid tar fallet?",
-        "t": "<p>Bestäm.</p><p>En hammare släpps från 1,200 m på månen (\\(g=1{,}62\\) m/s²). Hur lång tid tar fallet?</p>",
+        "t": "<p>En hammare släpps från 1,200 m på månen (\\(g=1{,}62\\) m/s²). Hur lång tid tar fallet?</p>",
         "s": "<p>\\(t=\\sqrt{\\dfrac{2\\cdot1{,}200}{1{,}62}}\\).</p><p><strong>Svar:</strong> \\(1{,}22\\) s</p>",
         "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
         "niva": "E",
@@ -129247,7 +129247,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En hammare släpps från 1,200 m höjd på månen (\\(g=1{,}62\\) m/s²). Med vilken fart når den månens yta?",
-        "t": "<p>Bestäm.</p><p>En hammare släpps från 1,200 m höjd på månen (\\(g=1{,}62\\) m/s²). Med vilken fart når den månens yta?</p>",
+        "t": "<p>En hammare släpps från 1,200 m höjd på månen (\\(g=1{,}62\\) m/s²). Med vilken fart når den månens yta?</p>",
         "s": "<p>\\(v=\\sqrt{2\\cdot1{,}62\\cdot1{,}200}\\).</p><p><strong>Svar:</strong> \\(1{,}97\\) m/s</p>",
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
@@ -129258,7 +129258,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En sten faller 45,2 m på Mars på 5,01 s. Bestäm tyngdaccelerationen på Mars.",
-        "t": "<p>Bestäm.</p><p>En sten faller 45,2 m på Mars på 5,01 s. Bestäm tyngdaccelerationen på Mars.</p>",
+        "t": "<p>En sten faller 45,2 m på Mars på 5,01 s. Bestäm tyngdaccelerationen på Mars.</p>",
         "s": "<p>\\(g=\\dfrac{2\\cdot45{,}2}{5{,}01^2}\\).</p><p><strong>Svar:</strong> \\(3{,}60\\) m/s²</p>",
         "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
         "niva": "E",
@@ -130606,7 +130606,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En gepard accelererar från vila till 90 km/h på 3,0 s. Bestäm accelerationen.",
-        "t": "<p>Bestäm.</p><p>En gepard accelererar från vila till 90 km/h på 3,0 s. Bestäm accelerationen.</p>",
+        "t": "<p>En gepard accelererar från vila till 90 km/h på 3,0 s. Bestäm accelerationen.</p>",
         "s": "<p>\\(a=\\dfrac{25}{3{,}0}\\).</p><p><strong>Svar:</strong> \\(8{,}3\\) m/s²</p>",
         "ledtrad": "<p>Gör om till m/s.</p>",
         "niva": "E",
@@ -130617,7 +130617,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En truck startar från vila och har 1,75 m/s efter 2,50 s. Hur långt har den rört sig?",
-        "t": "<p>Bestäm.</p><p>En truck startar från vila och har 1,75 m/s efter 2,50 s. Hur långt har den rört sig?</p>",
+        "t": "<p>En truck startar från vila och har 1,75 m/s efter 2,50 s. Hur långt har den rört sig?</p>",
         "s": "<p>\\(s=\\dfrac{0+1{,}75}{2}\\cdot2{,}50\\).</p><p><strong>Svar:</strong> \\(2{,}2\\) m</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
@@ -130628,7 +130628,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En cyklist ökar farten från 12 m/s till 18 m/s på 4,3 s. Hur långt rör sig cyklisten?",
-        "t": "<p>Bestäm.</p><p>En cyklist ökar farten från 12 m/s till 18 m/s på 4,3 s. Hur långt rör sig cyklisten?</p>",
+        "t": "<p>En cyklist ökar farten från 12 m/s till 18 m/s på 4,3 s. Hur långt rör sig cyklisten?</p>",
         "s": "<p>\\(s=\\dfrac{12+18}{2}\\cdot4{,}3\\).</p><p><strong>Svar:</strong> \\(64\\) m</p>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
@@ -136501,7 +136501,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En solcell (32 cm × 15 cm, verkningsgrad 14 %) träffas av 0,95 kW/m². Bestäm den nyttiga effekten.",
-        "t": "<p>Bestäm.</p><p>En solcell (32 cm × 15 cm, verkningsgrad 14 %) träffas av 0,95 kW/m². Bestäm den nyttiga effekten.</p>",
+        "t": "<p>En solcell (32 cm × 15 cm, verkningsgrad 14 %) träffas av 0,95 kW/m². Bestäm den nyttiga effekten.</p>",
         "s": "<p>\\(P=0{,}14\\cdot950\\cdot0{,}32\\cdot0{,}15\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) W</p>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "E",
@@ -136512,7 +136512,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En laddare (verkningsgrad 80 %) ger 4,8 W i 5,0 h. Vad kostar laddningen i öre om elpriset är 0,98 kr/kWh?",
-        "t": "<p>Bestäm.</p><p>En laddare (verkningsgrad 80 %) ger 4,8 W i 5,0 h. Vad kostar laddningen i öre om elpriset är 0,98 kr/kWh?</p>",
+        "t": "<p>En laddare (verkningsgrad 80 %) ger 4,8 W i 5,0 h. Vad kostar laddningen i öre om elpriset är 0,98 kr/kWh?</p>",
         "s": "<p>Tillförd energi: \\(\\dfrac{4{,}8\\cdot5{,}0}{0{,}80}=30\\) Wh. \\(0{,}030\\cdot98\\) öre.</p><p><strong>Svar:</strong> \\(2{,}9\\) öre</p>",
         "ledtrad": "<p>Tillförd energi i kWh.</p>",
         "niva": "C",
@@ -136523,7 +136523,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En spisplatta (1,2 kW, verkningsgrad 90 %) används i 28 minuter. Hur mycket energi går förlorad?",
-        "t": "<p>Bestäm.</p><p>En spisplatta (1,2 kW, verkningsgrad 90 %) används i 28 minuter. Hur mycket energi går förlorad?</p>",
+        "t": "<p>En spisplatta (1,2 kW, verkningsgrad 90 %) används i 28 minuter. Hur mycket energi går förlorad?</p>",
         "s": "<p>\\(E=0{,}10\\cdot1\\,200\\cdot28\\cdot60\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{5}\\) J</p>",
         "ledtrad": "<p>Förlusten är 10 %.</p>",
         "niva": "E",
@@ -137256,7 +137256,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En motor behöver 300 g bensin (32 MJ/kg) per kWh. Bestäm verkningsgraden.",
-        "t": "<p>Bestäm.</p><p>En motor behöver 300 g bensin (32 MJ/kg) per kWh. Bestäm verkningsgraden.</p>",
+        "t": "<p>En motor behöver 300 g bensin (32 MJ/kg) per kWh. Bestäm verkningsgraden.</p>",
         "s": "<p>\\(\\eta=\\dfrac{3{,}6}{0{,}300\\cdot32}\\).</p><p><strong>Svar:</strong> \\(0{,}38\\)</p>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "C",
@@ -137267,7 +137267,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett elverk drar 2,3 liter bensin (40 MJ/liter) per timme och ger 3,4 kW. Bestäm verkningsgraden.",
-        "t": "<p>Bestäm.</p><p>Ett elverk drar 2,3 liter bensin (40 MJ/liter) per timme och ger 3,4 kW. Bestäm verkningsgraden.</p>",
+        "t": "<p>Ett elverk drar 2,3 liter bensin (40 MJ/liter) per timme och ger 3,4 kW. Bestäm verkningsgraden.</p>",
         "s": "<p>\\(\\eta=\\dfrac{3\\,400\\cdot3\\,600}{2{,}3\\cdot40\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(0{,}13\\)</p>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "C",
@@ -137278,7 +137278,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Solpaneler (17 m²) får i snitt 0,12 kW/m² och ger 2 600 kWh per år (8 760 h). Bestäm verkningsgraden.",
-        "t": "<p>Bestäm.</p><p>Solpaneler (17 m²) får i snitt 0,12 kW/m² och ger 2 600 kWh per år (8 760 h). Bestäm verkningsgraden.</p>",
+        "t": "<p>Solpaneler (17 m²) får i snitt 0,12 kW/m² och ger 2 600 kWh per år (8 760 h). Bestäm verkningsgraden.</p>",
         "s": "<p>\\(\\eta=\\dfrac{2\\,600}{0{,}12\\cdot17\\cdot8\\,760}\\).</p><p><strong>Svar:</strong> \\(0{,}15\\)</p>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "C",
@@ -137289,7 +137289,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Paketet kostar 64 000 kr och el kostar 0,95 kr/kWh. Efter hur många år har det betalat sig?",
-        "t": "<p>Bestäm.</p><p>Paketet kostar 64 000 kr och el kostar 0,95 kr/kWh. Efter hur många år har det betalat sig?</p>",
+        "t": "<p>Paketet kostar 64 000 kr och el kostar 0,95 kr/kWh. Efter hur många år har det betalat sig?</p>",
         "s": "<p>\\(\\dfrac{64\\,000}{2\\,600\\cdot0{,}95}\\).</p><p><strong>Svar:</strong> \\(26\\) år</p>",
         "ledtrad": "<p>Besparing per år.</p>",
         "niva": "C",

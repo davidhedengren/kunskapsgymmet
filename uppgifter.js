@@ -13906,7 +13906,7 @@ window.BANK = [
     "niva": "E",
     "typ": "rita ett läge-tid-diagram ur en mätvärdestabell och bestämma hastigheten, ur tabell, sökt diagram och hastighet",
     "poang": "(3/0/0)",
-    "t": "<p>En hisskorg i en gruva åker nedåt med konstant fart. Tabellen visar hur långt den har åkt.</p><table class=\"data\"><tr><th>t (s)</th><th>s (m)</th></tr><tr><td>0</td><td>0</td></tr><tr><td>5,0</td><td>45</td></tr><tr><td>10</td><td>90</td></tr><tr><td>15</td><td>135</td></tr><tr><td>20</td><td>180</td></tr></table>\n<ol><li>Rita ett s-t-diagram över mätvärdena.</li>\n<li>Bestäm hissens fart ur grafens lutning.</li>\n<li>Hur djupt har hissen kommit efter 25 sekunder?</li></ol><p>Hissen startar vid markytan. Anta att samma fart hålls även efter 20 s. Låt den lodräta axeln visa djup under markytan.</p>",
+    "t": "<p>En hiss i en gruva startar vid markytan och åker nedåt med konstant fart. Tabellen visar dess djup under markytan. Anta att farten är konstant även efter 20 s.</p><table class=\"data\"><tr><th>t (s)</th><th>s (m)</th></tr><tr><td>0</td><td>0</td></tr><tr><td>5,0</td><td>45</td></tr><tr><td>10</td><td>90</td></tr><tr><td>15</td><td>135</td></tr><tr><td>20</td><td>180</td></tr></table>\n<ol><li>Rita ett s-t-diagram över mätvärdena.</li>\n<li>Bestäm hissens fart ur grafens lutning.</li>\n<li>Hur djupt har hissen kommit efter 25 sekunder?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig\"><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"110.50\" y1=\"45\" x2=\"110.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"156.00\" y1=\"45\" x2=\"156.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"201.50\" y1=\"45\" x2=\"201.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"247.00\" y1=\"45\" x2=\"247.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"292.50\" y1=\"45\" x2=\"292.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"338.00\" y1=\"45\" x2=\"338.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"383.50\" y1=\"45\" x2=\"383.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"429.00\" y1=\"45\" x2=\"429.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"474.50\" y1=\"45\" x2=\"474.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"241.00\" x2=\"520\" y2=\"241.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"227.00\" x2=\"520\" y2=\"227.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"213.00\" x2=\"520\" y2=\"213.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"199.00\" x2=\"520\" y2=\"199.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"185.00\" x2=\"520\" y2=\"185.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"171.00\" x2=\"520\" y2=\"171.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"157.00\" x2=\"520\" y2=\"157.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"143.00\" x2=\"520\" y2=\"143.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"129.00\" x2=\"520\" y2=\"129.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"115.00\" x2=\"520\" y2=\"115.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"101.00\" x2=\"520\" y2=\"101.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"87.00\" x2=\"520\" y2=\"87.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"73.00\" x2=\"520\" y2=\"73.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"59.00\" x2=\"520\" y2=\"59.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">djup (m)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,255.0 520.0,45.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"110.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">2,5</text><text x=\"156.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">5</text><text x=\"201.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">7,5</text><text x=\"247.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">10</text><text x=\"292.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">12,5</text><text x=\"338.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">15</text><text x=\"383.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">17,5</text><text x=\"429.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">20</text><text x=\"474.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">22,5</text><text x=\"520.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">25</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"217.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">45</text><text x=\"57\" y=\"175.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">90</text><text x=\"57\" y=\"133.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">135</text><text x=\"57\" y=\"91.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">180</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">225</text></svg></span><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Mätpunkterna ligger på en rät linje genom origo.</p></li><li><p>Det visar att hissen rör sig med konstant fart.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Farten är linjens lutning.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{180-0}{20-0}=9{,}0\\ \\mathrm{m/s}\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Fortsätt den linjära modellen till 25 s.</p></li><li><div class=\"facit-matte\">\\[s=9{,}0\\cdot25=225\\ \\mathrm m\\]</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Hissens fart är \\(9{,}0\\ \\mathrm{m/s}\\), och efter 25 s har den kommit \\(225\\ \\mathrm m\\) nedåt.</p></div></div>",
     "familj": "Tolka och rita s-t-diagram",
     "formaga": [
@@ -44373,8 +44373,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm spännkraften i snöret över trissan.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två klossar (1,0 kg var) ligger på ett bord, förbundna med ett snöre. Den främre är via ett snöre över en trissa förbunden med en hängande vikt (1,0 kg). Friktionstalet mellan klossarna och bordet är 0,15.</p>Accelerationen är 2,29 m/s².<p>Bestäm spännkraften i snöret över trissan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_S=1{,}0(9{,}82-a)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) N</p></div>",
+        "t": "<p>En vikt på 1,0 kg hänger i ett snöre och accelererar nedåt med 2,29 m/s². Endast tyngdkraften och snörets spännkraft verkar. Använd g = 9,82 m/s².</p><p>Bestäm spännkraften i snöret över trissan.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tyngdkraften är större än spännkraften eftersom vikten accelererar nedåt.</p></li><li><div class=\"facit-matte\">\\[mg-F_S=ma\\quad\\Rightarrow\\quad F_S=1{,}0(9{,}82-2{,}29)=7{,}53\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,53 N.</p></div>",
         "ledtrad": "<p>Frilägg den hängande vikten.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -44384,8 +44384,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm spännkraften i snöret mellan klossarna.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Två klossar (1,0 kg var) ligger på ett bord, förbundna med ett snöre. Den främre är via ett snöre över en trissa förbunden med en hängande vikt (1,0 kg). Friktionstalet mellan klossarna och bordet är 0,15.</p>Accelerationen är 2,29 m/s².<p>Bestäm spännkraften i snöret mellan klossarna.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_S=1{,}0(a+0{,}15\\cdot9{,}82)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}8\\) N</p></div>",
+        "t": "<p>En kloss på 1,0 kg dras vågrätt av ett snöre och accelererar med 2,29 m/s². Friktionstalet mot golvet är 0,15. Använd g = 9,82 m/s².</p><p>Bestäm spännkraften i snöret mellan klossarna.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Snörets kraft övervinner friktionen och ger dessutom accelerationen. På vågrätt golv är normalkraften mg.</p></li><li><div class=\"facit-matte\">\\[F_S=ma+\\mu mg=1{,}0\\cdot2{,}29+0{,}15\\cdot1{,}0\\cdot9{,}82=3{,}763\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 3,76 N.</p></div>",
         "ledtrad": "<p>Frilägg den bakre klossen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -44786,8 +44786,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "\\(m_2=18\\) kg och \\(\\alpha=32^\\circ\\). Vilken massa ska blocket ha?",
-        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Ett block (\\(m_1\\)) på ett friktionsfritt plan med lutningen \\(\\alpha\\) är via en trissa förbundet med en hängande hink (\\(m_2\\)). Systemet ska röra sig med konstant fart.</p><p>\\(m_2=18\\) kg och \\(\\alpha=32^\\circ\\). Vilken massa ska blocket ha?</p>",
+        "fraga": "Vilken massa ska klossen ha? Svara i kg.",
+        "t": "<p>En kloss ligger på ett friktionsfritt lutande plan. Ett lätt snöre går från klossen över en trissa till en hängande hink. Bortse från motstånd i trissan. Systemet rör sig med konstant fart. Hinken väger 18 kg och planet lutar 32°.</p><p>Vilken massa ska klossen ha? Svara i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m_1\\sin32^\\circ=m_2\\iff m_1=\\dfrac{18}{\\sin32^\\circ}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(34\\) kg</p></div>",
         "ledtrad": "<p>Jämvikt.</p>",
         "niva": "E",
@@ -44797,8 +44797,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "\\(m_1=35\\) kg och \\(m_2=15\\) kg. Vilken lutning krävs?",
-        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Ett block (\\(m_1\\)) på ett friktionsfritt plan med lutningen \\(\\alpha\\) är via en trissa förbundet med en hängande hink (\\(m_2\\)). Systemet ska röra sig med konstant fart.</p><p>\\(m_1=35\\) kg och \\(m_2=15\\) kg. Vilken lutning krävs?</p>",
+        "fraga": "Vilken lutningsvinkel ska planet ha? Svara i grader.",
+        "t": "<p>En kloss ligger på ett friktionsfritt lutande plan. Ett lätt snöre går från klossen över en trissa till en hängande hink. Bortse från motstånd i trissan. Systemet rör sig med konstant fart. Klossen väger 35 kg och hinken 15 kg.</p><p>Vilken lutningsvinkel ska planet ha? Svara i grader.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{15}{35}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) °</p></div>",
         "ledtrad": "<p>Jämvikt.</p>",
         "niva": "C",
@@ -44874,8 +44874,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm spännkraften i snöret.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (3,0 kg) på ett friktionsfritt plan med lutningen 34° är via en trissa förbunden med en hängande kloss (5,0 kg).</p>Accelerationen är 4,1 m/s².<p>Bestäm spännkraften i snöret.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_S=5{,}0(9{,}82-a)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) N</p></div>",
+        "t": "<p>En kloss på 5,0 kg hänger i ett snöre och accelererar nedåt med 4,1 m/s². Endast tyngdkraften och spännkraften verkar. Använd g = 9,82 m/s².</p><p>Bestäm spännkraften i snöret.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Välj nedåt som positiv riktning. Tyngdkraften minus spännkraften ger ma.</p></li><li><div class=\"facit-matte\">\\[F_S=m(g-a)=5{,}0(9{,}82-4{,}1)=28{,}6\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 29 N.</p></div>",
         "ledtrad": "<p>Frilägg den hängande klossen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -44884,8 +44884,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Klossarna byter plats. Bestäm den nya accelerationen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (3,0 kg) på ett friktionsfritt plan med lutningen 34° är via en trissa förbunden med en hängande kloss (5,0 kg).</p><p>Klossarna byter plats. Bestäm den nya accelerationen.</p>",
+        "fraga": "Bestäm accelerationens storlek. Svara i m/s².",
+        "t": "<p>En kloss på 5,0 kg ligger på ett friktionsfritt plan med lutningen 34°. Ett lätt snöre går från klossen över en trissa till en hängande kloss på 3,0 kg. Bortse från motstånd i trissan. Använd g = 9,82 m/s².</p><p>Bestäm accelerationens storlek. Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{3{,}0\\cdot9{,}82-5{,}0\\cdot9{,}82\\sin34^\\circ}{8{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25\\) m/s²</p></div>",
         "ledtrad": "<p>Jämför de drivande krafterna.</p>",
         "niva": "C",
@@ -57820,7 +57820,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm den resulterande kraften under motordriften, med uppåt positivt. Svara i N. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En modellraket har massan 1,20 kg. Räkna med att massan inte ändras. Från vila ger motorn en konstant kraft 18,0 N lodrätt uppåt under 1,50 s. Därefter är motorn avstängd och endast tyngdkraften verkar. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den resulterande kraften under motordriften, med uppåt positivt. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+        "t": "<p>En modellraket har massan 1,20 kg. Motorn ger kraften 18,0 N lodrätt uppåt. Endast motorkraften och tyngdkraften verkar. Använd g = 9,82 m/s².</p><p>Bestäm den resulterande kraften under motordriften, med uppåt positivt. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=18{,}0-1{,}20\\cdot 9{,}82=6{,}216\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 6,216 N.</p></div>",
         "ledtrad": "<p>Även under motordriften verkar tyngdkraften.</p>",
         "niva": "E",
@@ -120239,8 +120239,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En vågrät dragkraft på 100 N flyttar lådan 5,0 m på ett golv. Svara i J. Svara med ett heltal.",
-        "t": "<p>En låda på 15 kg förflyttas med konstant fart i tre separata fall. Beräkna arbetet av den angivna drag- eller lyftkraften, inte nettoarbetet. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>En vågrät dragkraft på 100 N flyttar lådan 5,0 m på ett golv. Svara i J. Svara med ett heltal.</p>",
+        "fraga": "Hur stort arbete gör dragkraften? Svara i J som ett heltal.",
+        "t": "<p>En vågrät dragkraft på 100 N flyttar en låda 5,0 m längs ett golv.</p><p>Hur stort arbete gör dragkraften? Svara i J som ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Dragkraftens arbete är</p><div class=\"facit-matte\">\\[W=100\\cdot 5{,}0=500\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 500 J.</p></div>",
         "ledtrad": "<p>Vilken krafts arbete efterfrågas?</p>",
         "niva": "E",
@@ -120253,8 +120253,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Dragkraften är 100 N och riktad 30,0° snett uppåt. Lådan flyttas 5,0 m vågrätt och behåller kontakten med golvet. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 15 kg förflyttas med konstant fart i tre separata fall. Beräkna arbetet av den angivna drag- eller lyftkraften, inte nettoarbetet. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Dragkraften är 100 N och riktad 30,0° snett uppåt. Lådan flyttas 5,0 m vågrätt och behåller kontakten med golvet. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stort arbete gör dragkraften? Svara i J. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En låda flyttas 5,0 m vågrätt längs ett golv. Dragkraften är 100 N och riktad 30,0° snett uppåt. Lådan behåller kontakten med golvet.</p><p>Hur stort arbete gör dragkraften? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=100 \\cos 30^{\\circ}\\cdot 5{,}0\\approx 433{,}013\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 433,01 J.</p></div>",
         "ledtrad": "<p>Vilken kraftkomponent är parallell med rörelsen?</p>",
         "niva": "E",
@@ -163189,9 +163189,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor kraft ger accelerationen 0,50 m/s² uppför planet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Fredrik drar en låda (30 kg) uppför ett plan med lutningen 30° i ett rep parallellt med planet. Friktionstalet är 0,30.</p>Vid konstant fart krävs 224 N.<p>Hur stor kraft ger accelerationen 0,50 m/s² uppför planet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lägg till \\(ma=30\\cdot0{,}50\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(239\\) N</p></div>",
+        "fraga": "Vilken dragkraft behövs för accelerationen 0,50 m/s² uppför backen? Svara i N.",
+        "t": "<p>Fredrik drar en låda på 30 kg uppför en backe. Vid konstant fart behövs dragkraften 224 N. Motståndskrafterna är lika stora när lådan accelererar.</p><p>Vilken dragkraft behövs för accelerationen 0,50 m/s² uppför backen? Svara i N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid konstant fart balanserar dragkraften motståndet. För att accelerera behövs ytterligare kraften ma.</p></li><li><div class=\"facit-matte\">\\[F=224+30\\cdot0{,}50=239\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 239 N.</p></div>",
         "ledtrad": "<p>Newtons andra lag.</p>",
         "niva": "E",
         "poang": "(1/0/0)",

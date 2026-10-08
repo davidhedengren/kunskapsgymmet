@@ -50725,9 +50725,9 @@ window.BANKMA1 = [
       "1c"
     ],
     "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>Efter en injektion finns 80 mg av ett läkemedel i kroppen. Mängden minskar med 25 % per timme.</p><p>a) Skriv en modell \\(M(t)\\) för mängden efter \\(t\\) timmar.<br>b) Beräkna mängden efter 4 timmar. Svara med en decimal.<br>c) Efter hur många hela timmar är mängden för första gången under 20 mg?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>\\(M(t)=80\\cdot0{,}75^t\\)</strong></p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(M(4)=80\\cdot0{,}75^4\\approx\\)<strong>25,3 mg</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(M(4)\\approx25{,}3\\) mg är fortfarande över 20 mg, men \\(M(5)=80\\cdot0{,}75^5\\approx19{,}0\\) mg.</p></li><li><p>Alltså efter <strong>5 timmar</strong></p></li></ol></div></div></div></div>",
+    "poang": "2/1/0",
+    "t": "<p>Efter en injektion finns 80 mg av ett läkemedel i kroppen. Mängden minskar med 25 % per timme.</p><p>a) Mängden efter tiden \\(t\\) h är \\(M(t)\\) mg. Skriv en modell för \\(M(t)\\).<br>b) Beräkna mängden efter 4 timmar. Svara med en decimal.<br>c) Efter hur många hela timmar är mängden för första gången under 20 mg?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm förändringsfaktorn</p><div class=\"facit-matte\">\\[1-0{,}25=0{,}75.\\]</div></li><li><p class=\"facit-rubrik\">Skriv modellen</p><p>Startmängden är 80 mg och samma faktor används för varje timme:</p><div class=\"facit-matte\">\\[M(t)=80\\cdot0{,}75^t.\\]</div><p>Modellen ger mängden i mg när t anges i timmar, för \\(t\\ge0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(M(t)=80\\cdot0{,}75^t\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna mängden efter fyra timmar</p><div class=\"facit-matte\">\\[M(4)=80\\cdot0{,}75^4=25{,}3125\\,\\mathrm{mg}.\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till en decimal</p><div class=\"facit-matte\">\\[M(4)\\approx25{,}3\\,\\mathrm{mg}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25{,}3\\,\\mathrm{mg}\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva helt antal timmar</p><div class=\"facit-matte\">\\[M(4)=25{,}3125\\,\\mathrm{mg}>20\\,\\mathrm{mg}.\\]</div><div class=\"facit-matte\">\\[M(5)=18{,}984375\\,\\mathrm{mg}<20\\,\\mathrm{mg}.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att det är första gången</p><p>Mängden minskar varje timme eftersom faktorn 0,75 är mindre än 1. Vid fyra timmar är mängden fortfarande över gränsen, men vid fem är den under.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 5 timmar.</p></div></div></div></div>",
     "familj": "Förändringsfaktorn i exponentialfunktioner",
     "geogebra": true,
     "miniräknare": true,
@@ -50737,7 +50737,7 @@ window.BANKMA1 = [
       25.3,
       5
     ],
-    "tolerans": null,
+    "tolerans": [null, 0.005, 0],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -50752,38 +50752,39 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Efter en injektion finns 80 mg av ett läkemedel i kroppen. Mängden minskar med 25 % per timme.</p><p>Skriv en modell \\(M(t)\\) för mängden efter \\(t\\) timmar.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>\\(M(t)=80\\cdot0{,}75^t\\)</strong></p></div>",
+        "t": "<p>Efter en injektion finns 80 mg av ett läkemedel i kroppen. Mängden minskar med 25 % per timme.</p><p>Mängden efter tiden \\(t\\) h är \\(M(t)\\) mg. Skriv en modell för \\(M(t)\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm förändringsfaktorn</p><div class=\"facit-matte\">\\[1-0{,}25=0{,}75.\\]</div></li><li><p class=\"facit-rubrik\">Skriv modellen</p><p>Startmängden är 80 mg och samma faktor används för varje timme:</p><div class=\"facit-matte\">\\[M(t)=80\\cdot0{,}75^t.\\]</div><p>Modellen ger mängden i mg när t anges i timmar, för \\(t\\ge0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(M(t)=80\\cdot0{,}75^t\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Minskning med 25 % ger faktorn 0,75. I c behöver du kontrollera vilket helt timtal som är det första som ger mindre än 20 mg.</p>",
-        "traningsniva": 3,
+        "ledtrad": "<p>Hur stor andel av mängden finns kvar efter varje timme?</p>",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
         "t": "<p>Efter en injektion finns 80 mg av ett läkemedel i kroppen. Mängden minskar med 25 % per timme.</p><p>Beräkna mängden efter 4 timmar. Svara med en decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(M(4)=80\\cdot0{,}75^4\\approx\\)<strong>25,3 mg</strong></p></li></ol></div>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "ledtrad": "<p>Minskning med 25 % ger faktorn 0,75. I c behöver du kontrollera vilket helt timtal som är det första som ger mindre än 20 mg.</p>",
-        "traningsniva": 3,
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna mängden efter fyra timmar</p><div class=\"facit-matte\">\\[M(4)=80\\cdot0{,}75^4=25{,}3125\\,\\mathrm{mg}.\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till en decimal</p><div class=\"facit-matte\">\\[M(4)\\approx25{,}3\\,\\mathrm{mg}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25{,}3\\,\\mathrm{mg}\\).</p></div>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje timme återstår samma andel. Hur många gånger ska startmängden multipliceras med den andelen?</p>",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
         "t": "<p>Efter en injektion finns 80 mg av ett läkemedel i kroppen. Mängden minskar med 25 % per timme.</p><p>Efter hur många hela timmar är mängden för första gången under 20 mg?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(M(4)\\approx25{,}3\\) mg är fortfarande över 20 mg, men \\(M(5)=80\\cdot0{,}75^5\\approx19{,}0\\) mg.</p></li><li><p>Alltså efter <strong>5 timmar</strong></p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva helt antal timmar</p><div class=\"facit-matte\">\\[M(4)=25{,}3125\\,\\mathrm{mg}>20\\,\\mathrm{mg}.\\]</div><div class=\"facit-matte\">\\[M(5)=18{,}984375\\,\\mathrm{mg}<20\\,\\mathrm{mg}.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att det är första gången</p><p>Mängden minskar varje timme eftersom faktorn 0,75 är mindre än 1. Vid fyra timmar är mängden fortfarande över gränsen, men vid fem är den under.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 5 timmar.</p></div>",
         "niva": "C",
         "poang": "0/1/0",
-        "ledtrad": "<p>Minskning med 25 % ger faktorn 0,75. I c behöver du kontrollera vilket helt timtal som är det första som ger mindre än 20 mg.</p>",
+        "ledtrad": "<p>Pröva hela timtal. Kontrollera både det första timtalet under gränsen och timtalet precis före.</p>",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Tolka förändringsfaktor i exponentialfunktion"
-    ]
+    ],
+      "svarEnhet": [null, "mg", "h"]
   },
   {
     "id": "2.189",

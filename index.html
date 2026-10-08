@@ -10561,20 +10561,24 @@ function symbolicZero(expr){
 }
 
 function numericValue(expr){
+  // Räkna rena tal med flyttalsparsern. Algebrabibliotekets decimaltext
+  // avrundar mycket små tal (t.ex. 3,6·10^-47) till noll.
+  if(typeof expr!=="string" || expr.length>1000) return NaN;
+  if(isPureNumberExpression(expr)){
+    try{
+      const calculatorExpr=expr.replace(/\b(log10|log)\s*\(/g,
+        (_,name)=>(name==="log10"?"log":"ln")+"(");
+      const n=raknTolka(calculatorExpr,{grader:false,strict:true});
+      return Number.isFinite(n)?n:NaN;
+    }catch(_){return NaN;}
+  }
   if(typeof window.nerdamer==="function"){
     try{
       const n=Number(window.nerdamer(expr).evaluate().text("decimals"));
       if(Number.isFinite(n)) return n;
     }catch(_){}
   }
-  // Exakta talsvar ska fungera även om den externa algebrafilen inte laddats.
-  // Återanvänd räknarens parser, med strikta parenteser och radianer.
-  if(typeof expr!=="string" || expr.length>1000 || !isPureNumberExpression(expr)) return NaN;
-  try{
-    const calculatorExpr=expr.replace(/\b(log10|log)\s*\(/g, (_,name)=>(name==="log10"?"log":"ln")+"(");
-    const n=raknTolka(calculatorExpr,{grader:false,strict:true});
-    return Number.isFinite(n)?n:NaN;
-  }catch(_){return NaN;}
+  return NaN;
 }
 
 function splitEquation(expr){
@@ -10621,6 +10625,13 @@ function algebraicallyEquivalent(user,expected){
   const e=tillNerdamer(normalizeMathInput(expected));
   if(!u || !e) return false;
   if(u===e) return true;
+  // Numeriska uttryck ska jämföras på sin egen skala, även nära noll.
+  // Symbolisk förenkling kan annars göra skillnaden mellan två små tal till 0.
+  if(isPureNumberExpression(u) && isPureNumberExpression(e)){
+    const a=numericValue(u), b=numericValue(e);
+    return Number.isFinite(a) && Number.isFinite(b)
+      && Math.abs(a-b)<=Math.max(Math.abs(a),Math.abs(b))*1e-12;
+  }
   if(typeof window.nerdamer!=="function") return false;
 
   const ue=splitEquation(u);

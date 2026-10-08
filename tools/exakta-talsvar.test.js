@@ -30,3 +30,22 @@ test('Räknarens gradläge och automatiska slutparentes fungerar fortfarande',()
  assert.equal(context.raknTolka('log(100)'),2);
  assert.equal(context.raknTolka('Ans+1'),43);
 });
+
+for(const name of ['normalizeAnswer','algebraicallyEquivalent','oneAnswerCorrect','firstNumber']){
+ const start=html.indexOf(`function ${name}(`);assert.ok(start>=0,name);
+ vm.runInContext(html.slice(start,html.indexOf('\n}',start)+2),context);
+}
+test('Små talsvar behåller sin storlek även när algebrabiblioteket avrundar till noll',()=>{
+ // Efterlikna bibliotekets avrundning; den får inte bestämma numeriska talsvar.
+ context.window.nerdamer=()=>({evaluate(){return this},text(){return '0'},toString(){return '0'}});
+ try{
+  assert.ok(Math.abs(value('3.6e-47')/3.6e-47-1)<1e-12);
+  for(const input of ['3.6e-47','3,6*10^(-47)','36e-48','3.612509042e-47'])
+   assert.equal(context.oneAnswerCorrect(input,'3.6e-47',{tolerans:0.05e-47},0),true,input);
+  for(const input of ['1.8e-47','0','-3.6e-47','3.7e-47','36e-47'])
+   assert.equal(context.oneAnswerCorrect(input,'3.6e-47',{tolerans:0.05e-47},0),false,input);
+  assert.equal(context.algebraicallyEquivalent('1.8e-47','3.6e-47'),false);
+  assert.equal(context.algebraicallyEquivalent('3.6e-47','0'),false);
+  assert.equal(context.algebraicallyEquivalent('36e-48','3.6e-47'),true);
+ }finally{delete context.window.nerdamer;}
+});

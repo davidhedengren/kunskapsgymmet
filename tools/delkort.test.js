@@ -19,6 +19,19 @@ const ma3=bank('uppgiftermato1.js'),ma5=bank('uppgiftermatf1.js');
 const cards=id=>c.expandGameTask(ma3.find(q=>q.id===id));
 const plain=x=>JSON.parse(JSON.stringify(x));
 
+test('Ma2 2.146 b har en symmetrilinje som ekvationssvar i ett eget kort',()=>{
+  const q=bank('uppgifterma2.js').find(q=>q.id==='2.146');
+  const [a,b,last]=c.expandGameTask(q);
+  assert.equal(c.answerLayout(a).n,2);
+  assert.equal(c.answerLayout(b).n,1);
+  assert.equal(c.answerLayout(last).n,2);
+  const roots=q.rättSvar[0].map(Number);
+  assert.equal(b.rättSvar,`x=${(roots[0]+roots[1])/2}`);
+  assert.match(b.t,/symmetrilinjens ekvation/);
+  assert.match(b.t,/x=\\ldots/);
+  assert.match(b.s,/x=1/);
+  assert.doesNotMatch(b.s,/Minimipunkten/);
+});
 test('Rapporterade mittpunktsuppgifter visar namngivna koordinatfält i rätt ordning',()=>{
   const ma2=bank('uppgifterma2.js');
   for(const [id,expected] of [['3.184',[-1,3]],['3.343',[7,5]]]){

@@ -109,70 +109,46 @@
   };
   const starsFamilj = "Fördela identiska objekt med villkor";
 
-  add("matf1-stars-1", 1, "kombinationer", "Stars and bars – förstå stjärnorna och strecken",
-    "<p>Fem <strong>identiska</strong> godisbitar ska fördelas mellan Anna, Bo och Cleo. Någon får bli utan. Bara hur många bitar varje person får spelar roll.</p><p>På hur många sätt kan fördelningen göras?</p>",
-    "Stars and bars betyder <strong>stjärnor och streck</strong>. Metoden räknar hur en bestämd summa fördelas i olika, namngivna grupper. En stjärna betyder ett föremål. Strecken skiljer grupperna åt.",
-    [steg("Bestäm vad en fördelning är", "Vi skriver antalen i den fasta ordningen Anna, Bo, Cleo. Fördelningen (2, 0, 3) betyder att Anna får två, Bo ingen och Cleo tre. Fördelningen (3, 0, 2) är en annan fördelning, eftersom Anna och Cleo då får andra antal.", "\\[x_1+x_2+x_3=5,\\qquad x_i\\ge0.\\]"),
-     steg("Ersätt godisbitarna med stjärnor", "Skriv fem stjärnor i en rad. Sätt in två streck: före första strecket ligger Annas bitar, mellan strecken Bos och efter andra strecket Cleos. Två streck delar raden i tre grupper.", null,
+  add("matf1-stars-1", 1, "kombinationer", "Stars and bars – idén",
+    "<p>Fem <strong>identiska</strong> godisbitar ska delas mellan Anna, Bo och Cleo. Någon får bli utan.</p><p>På hur många sätt kan det göras?</p>",
+    "Varje fördelning kan ritas som en rad med <strong>stjärnor</strong> (godisbitarna) och <strong>streck</strong> (gränserna mellan personerna). Att räkna fördelningar blir samma sak som att räkna sådana rader.",
+    [steg("Rita en fördelning", "Anna 2, Bo 0 och Cleo 3 blir ★★||★★★. Före första strecket står Annas bitar, mellan strecken Bos och efter andra strecket Cleos. Tre personer behöver två streck.", null,
        starsBarsFigur([2, 0, 3], "Två stjärnor, två streck intill varandra och tre stjärnor. Anna får två godisbitar, Bo noll och Cleo tre. Strecken står på plats 3 och 4 av 7.")),
-     steg("Tomma grupper måste också få vara med", "Streck intill varandra betyder en tom grupp i mitten. Ett streck först betyder att Anna får noll; ett streck sist betyder att Cleo får noll. Därför räknas även (0, 5, 0). Strecken får stå både intill varandra och i radens ändar.", null,
-       starsBarsFigur([0, 5, 0], "Ett streck, fem stjärnor och ett streck. Anna får noll godisbitar, Bo fem och Cleo noll.")),
-     steg("Varför räknas varje fördelning exakt en gång?", "Från en fördelning kan vi skriva exakt en stjärnrad med streck. Från raden kan vi läsa av exakt en fördelning genom att räkna stjärnorna i varje grupp. Det finns därför lika många fördelningar som sådana rader."),
-     steg("Räkna platserna i hela raden", "Fem stjärnor och två streck ger sju platser. Välj vilka två platser som ska innehålla streck. I första bilden är det platserna 3 och 4. Alla andra platser fylls automatiskt med stjärnor. Vi väljer alltså två av sju platser, inte två av fem mellanrum.", "\\[\\binom{7}{2}=\\frac{7\\cdot6}{2\\cdot1}=21.\\]"),
-     steg("Varför ingen extra faktor?", "Stjärnorna är identiska och strecken är identiska. Att byta två stjärnor eller de två strecken skapar ingen ny rad. Därför räcker kombinationer: multiplicera inte med 5! eller 2!, och dividera inte med 3! för personerna. Personernas namn och ordning är redan bestämda.")],
+     steg("Tomma grupper går också att rita", "Anna 0, Bo 5 och Cleo 0 blir |★★★★★|. Varje fördelning ger alltså exakt en rad, och varje rad går att läsa tillbaka till exakt en fördelning."),
+     steg("Räkna raderna", "En rad har 5 + 2 = 7 platser. Välj vilka 2 platser som blir streck. Resten blir stjärnor.", "\\[\\binom{7}{2}=21\\]")],
     "Det finns 21 fördelningar.",
-    "Stjärnor = antal föremål. Streck = gränser mellan grupper. Tre grupper behöver två streck. Varje rad motsvarar exakt en fördelning.", starsFamilj);
-  bank["matf1-stars-1"].fallgrop = "Metoden gäller när föremålen är identiska, eller när bara antalet av varje sort räknas. Fem olika, namngivna godisbitar till tre personer ger i stället 3⁵ tilldelningar om varje bit får gå till vem som helst. Även grupperna måste kunna skiljas åt: Anna och Bo är olika mottagare.";
+    "Antalet fördelningar = antalet sätt att placera strecken bland alla platser.", starsFamilj);
+  bank["matf1-stars-1"].fallgrop = "Metoden kräver att föremålen är identiska. Fem <em>olika</em> godisbitar till tre personer ger i stället 3⁵ = 243 sätt.";
 
-  add("matf1-stars-2", 1, "kombinationer", "Stars and bars – formeln och val med upprepning",
-    "<p>Du köper sex bullar. Det finns fyra sorter, och du får välja flera av varje sort. Bara antalet av varje sort spelar roll; ordningen du plockar bullarna i räknas inte.</p><p>Hur många olika val av antal kan du göra?</p>",
-    "Nu går vi från bilden till en formel. Låt <strong>n vara det totala antalet föremål</strong> och <strong>k antalet grupper eller sorter</strong>. Antalen i grupperna ska vara heltal som är noll eller positiva.",
-    [steg("Översätt till antal i fyra grupper", "De fyra sorterna är grupperna. Om deras antal kallas x₁, x₂, x₃ och x₄ ska summan vara sex. En sort får väljas noll gånger.", "\\[x_1+x_2+x_3+x_4=6.\\]"),
-     steg("Räkna stjärnor och streck", "Vi behöver sex stjärnor och tre streck. Fyra grupper behöver bara tre gränser. Hela raden har därför nio platser.", "\\[n+(k-1)=6+3=9.\\]"),
-     steg("Välj streckens platser", "Välj tre av de nio platserna. Stjärnorna fyller resten. Vi väljer inte tre olika bullar ur en mängd: vi väljer tre platser för strecken.", "\\[\\binom{9}{3}=\\frac{9\\cdot8\\cdot7}{3\\cdot2\\cdot1}=84.\\]"),
-     steg("Skriv den allmänna formeln", "Med n stjärnor och k − 1 streck blir antalet rader följande. Det går lika bra att välja stjärnornas n platser som streckens k − 1 platser.", "\\[\\binom{n+k-1}{k-1}=\\binom{n+k-1}{n}.\\]"),
-     steg("Kontrollera att formeln passar frågan", "Alla n föremål ska fördelas. Grupperna är olika och får vara tomma. Inga maxgränser finns. Varje val räknas bara efter sina antal, så till exempel två bullar av sort 1 och fyra av sort 2 är ett enda val oavsett plockordning.")],
-    "Det finns 84 val av antal.",
-    "För x₁ + ⋯ + xₖ = n med heltal xᵢ ≥ 0: n stjärnor, k − 1 streck och n + k − 1 platser. Formeln är \\(\\binom{n+k-1}{k-1}\\).",
-    starsFamilj);
-  bank["matf1-stars-2"].fallgrop = "Vanliga kombinationer utan upprepning väljer olika objekt högst en gång. Här kan samma sort väljas flera gånger. Använd därför inte \\(\\binom{4}{6}\\), och inte heller 4⁶: det senare räknar ordnade följder av bullsorter.";
+  add("matf1-stars-2", 1, "kombinationer", "Stars and bars – formeln",
+    "<p>Du köper sex bullar. Det finns fyra sorter och du får ta flera av samma sort. Bara antalet av varje sort spelar roll.</p><p>Hur många olika val kan du göra?</p>",
+    "<strong>n</strong> identiska föremål ska fördelas i <strong>k</strong> grupper som får vara tomma. Då behövs n stjärnor och k − 1 streck.",
+    [steg("Hitta n och k", "Bullarna är föremålen och sorterna är grupperna: n = 6 och k = 4. Det är samma sak som att räkna lösningarna till ekvationen nedan, där varje x är ett heltal ≥ 0.", "\\[x_1+x_2+x_3+x_4=6\\]"),
+     steg("Använd formeln", "Sex stjärnor och tre streck ger nio platser. Välj streckens tre platser.", "\\[\\binom{6+4-1}{4-1}\\]\\[=\\binom{9}{3}=84\\]")],
+    "Du kan göra 84 olika val.",
+    "Känn igen typen: identiska föremål, eller ”bara antalet av varje sort spelar roll”. Antalet streck är alltid ett mindre än antalet grupper.", starsFamilj);
+  bank["matf1-stars-2"].formel = "\\[\\binom{n+k-1}{k-1}\\]";
+  bank["matf1-stars-2"].fallgrop = "Räkna inte \\(\\binom{4}{6}\\) eller 4⁶. Här får samma sort väljas flera gånger, och ordningen du plockar bullarna i spelar ingen roll.";
 
-  add("matf1-stars-3", 1, "kombinationer", "Stars and bars – minst en och olika minimikrav",
-    "<p>18 identiska markörer ska fördelas i fyra märkta lådor. Låda 1 ska få minst 2, låda 2 minst 1, låda 3 minst 3 och låda 4 minst 2 markörer.</p><p>Hur många fördelningar uppfyller kraven?</p>",
-    "Grundformeln tillåter noll i varje grupp. Om grupperna måste få minst ett visst antal, <strong>lägg först undan minimikraven</strong>. Räkna sedan hur resten kan fördelas fritt.",
-    [steg("Börja med ett lika minimikrav", "Om tio identiska föremål ska fördelas mellan tre personer och var och en ska få minst ett, ge först en till varje person. Tre används och sju återstår. Resten får fördelas med noll till någon person.", "\\[\\binom{7+3-1}{3-1}=\\binom{9}{2}=36.\\]"),
-     steg("Varför fungerar det att lägga undan?", "Varje fördelning som uppfyller minimikraven ger exakt en fördelning av resten när minimikraven dras bort. Omvänt får vi tillbaka den ursprungliga fördelningen genom att lägga till minimikraven. Vi tappar inga fördelningar och räknar ingen två gånger."),
-     steg("Lägg undan lådornas olika minimikrav", "I typuppgiften behöver lådorna först 2, 1, 3 och 2 markörer. Totalt läggs åtta undan. Då återstår tio markörer för de fyra lådorna.", "\\[18-(2+1+3+2)=10.\\]"),
-     steg("Gör nya variabler som får vara noll", "Låt yᵢ vara antalet extra markörer i låda i. En låda kan få noll extra utan att minimikravet bryts.", "\\[y_1=x_1-2,\\quad y_2=x_2-1,\\]\\[y_3=x_3-3,\\quad y_4=x_4-2.\\]\\[y_1+y_2+y_3+y_4=10,\\quad y_i\\ge0.\\]"),
-     steg("Använd stars and bars på resten", "Nu har vi tio stjärnor och tre streck. Välj streckens tre platser bland tretton.", "\\[\\binom{10+4-1}{4-1}=\\binom{13}{3}=286.\\]"),
-     steg("Sammanfatta de två reglerna", "Låt n vara totalantalet, k antalet grupper och aᵢ minimikravet i grupp i. Minst en i varje grupp använder k föremål först. Olika minimikrav använder summan av minimikraven först. Antalet grupper k ändras inte. Om minimikraven tillsammans överstiger n finns ingen tillåten fördelning; om de är exakt n finns bara en.", "\\[x_i\\ge1:\\quad\\binom{n-1}{k-1}\\quad(n\\ge k).\\]\\[x_i\\ge a_i:\\quad R=n-\\sum_{i=1}^{k}a_i,\\]\\[\\text{antal}=\\binom{R+k-1}{k-1}\\quad(R\\ge0).\\]")],
-    "Typuppgiften har 286 fördelningar.",
-    "Räkna med antalet som återstår, inte det ursprungliga antalet. Minimikrav tar bort stjärnor, men inga grupper eller streck.", starsFamilj);
+  add("matf1-stars-3", 1, "kombinationer", "Stars and bars – minsta antal",
+    "<p>18 identiska markörer ska fördelas i fyra märkta lådor. Lådorna ska få minst 2, 1, 3 respektive 2 markörer.</p><p>Hur många fördelningar finns?</p>",
+    "Ge först varje grupp sitt minsta antal. Fördela sedan det som är kvar fritt med formeln.",
+    [steg("Lägg undan minimikraven", "Lägg 2 + 1 + 3 + 2 = 8 markörer i lådorna direkt.", "\\[18-8=10\\ \\text{kvar}\\]"),
+     steg("Fördela resten fritt", "De tio som är kvar får hamna var som helst, även noll extra i en låda, eftersom minimikraven redan är uppfyllda. Det blir tio stjärnor och tre streck.", "\\[\\binom{10+4-1}{4-1}\\]\\[=\\binom{13}{3}=286\\]")],
+    "Det finns 286 fördelningar.",
+    "”Minst en var” i k grupper: lägg undan k föremål först. Antalet grupper ändras inte, bara antalet stjärnor.", starsFamilj);
+  bank["matf1-stars-3"].fallgrop = "Sätt in det som är <em>kvar</em> i formeln, inte det ursprungliga antalet.";
 
-  add("matf1-stars-4", 1, "kombinationer", "Stars and bars – hantera ett högsta antal",
+  add("matf1-stars-4", 1, "kombinationer", "Stars and bars – högsta antal",
     "<p>Åtta identiska kulor ska fördelas i tre märkta lådor. Lådorna får vara tomma, men låda 1 får innehålla <strong>högst tre</strong> kulor.</p><p>Hur många fördelningar är tillåtna?</p>",
-    "En maxgräns hanteras inte genom att bara dra bort kulor från totalsumman. Räkna först <strong>alla fördelningar utan maxkravet</strong> och dra sedan bort dem som bryter mot kravet.",
-    [steg("Räkna alla fördelningar", "Utan maxgränsen fördelas åtta kulor mellan tre lådor som får vara tomma. Det blir åtta stjärnor och två streck.", "\\[\\binom{8+3-1}{3-1}=\\binom{10}{2}=45.\\]"),
-     steg("Beskriv exakt vad som är otillåtet", "Högst tre betyder att 0, 1, 2 och 3 är tillåtna. De otillåtna fördelningarna har minst fyra kulor i låda 1. Det är alltså gränsen plus ett som ska läggas undan."),
-     steg("Räkna de otillåtna fördelningarna", "Lägg fyra kulor i låda 1. Då återstår fyra som får fördelas fritt mellan alla tre lådor, även låda 1. Därför räknas också de fall där låda 1 har fem, sex, sju eller åtta kulor. Varje otillåten fördelning räknas exakt en gång.", "\\[\\binom{(8-4)+3-1}{3-1}=\\binom{6}{2}=15.\\]"),
-     steg("Dra bort dem", "Alla 45 fördelningar delas upp i tillåtna och otillåtna. Ta bort de 15 otillåtna.", "\\[45-15=30.\\]"),
-     steg("Kontrollera med en annan metod", "Låt låda 1 ha 0, 1, 2 eller 3 kulor. Då återstår 8, 7, 6 eller 5 till de två andra lådorna. Att fördela m kulor i två märkta lådor ger m + 1 möjligheter: första lådan kan få 0 till m.", "\\[9+8+7+6=30.\\]"),
-     steg("Om frågan också har minimikrav", "Exempel: 14 poäng ska fördelas mellan fyra områden, minst 2 i varje, högst 5 i det första. Lägg först undan 8 poäng. Då återstår 6. Med y₁ = x₁ − 2 blir det första områdets maxgräns y₁ ≤ 3. Räkna alla fördelningar av de 6 extra poängen, och dra bort dem med minst 4 extra i första området. Då återstår 2 poäng att fördela fritt i de otillåtna fallen.", "\\[\\binom{6+4-1}{4-1}-\\binom{2+4-1}{4-1}\\]\\[=\\binom{9}{3}-\\binom{5}{3}=84-10=74.\\]"),
-     steg("Om flera grupper har maxgränser", "Exempel: 12 kulor i tre märkta lådor, högst 5 i varje. Alla fördelningar är 91. Om en bestämd låda har minst 6 återstår 6 att fördela, vilket ger 28 fall. Dra bort 28 för var och en av de tre lådorna. En fördelning med minst 6 i två lådor har då tagits bort två gånger: den måste vara (6, 6, 0) i någon ordning. Det finns tre sådana fördelningar som ska läggas tillbaka. Alla tre lådorna kan inte ha minst 6, eftersom det skulle kräva 18 kulor.", "\\[\\binom{14}{2}-3\\binom{8}{2}+3\\]\\[=91-84+3=10.\\]")],
-    "Det finns 30 tillåtna fördelningar.",
-    "Högst b betyder: räkna alla och dra bort dem med minst b + 1. Vid både min- och maxkrav: ta bort minimikraven först och justera maxgränsen.", starsFamilj);
-
-  add("matf1-stars-5", 1, "kombinationer", "Stars and bars – högst ett visst totalantal",
-    "<p>Du väljer sammanlagt <strong>högst sju</strong> bakverk från tre sorter. Du får välja noll av en sort och även välja inga bakverk alls. Bara antalet av varje sort räknas.</p><p>Hur många val av antal finns?</p>",
-    "Skilj mellan <strong>exakt sju totalt</strong>, <strong>högst sju totalt</strong> och <strong>högst sju i en viss grupp</strong>. Det är tre olika villkor. När totalsumman får vara mindre än sju kan vi lägga till en extra grupp för det oanvända antalet.",
-    [steg("Skriv villkoret för totalsumman", "Antalen av de tre sorterna är heltal som är noll eller positiva. Summan får vara 0, 1, 2, …, 7.", "\\[x_1+x_2+x_3\\le7.\\]"),
-     steg("Lägg till en restvariabel", "Låt r vara hur mycket som saknas upp till sju. Det är inget extra bakverk som köps, utan bara ett sätt att bokföra det oanvända antalet.", "\\[r=7-(x_1+x_2+x_3),\\qquad r\\ge0.\\]\\[x_1+x_2+x_3+r=7.\\]"),
-     steg("Se varför inga nya val uppstår", "Valet (2, 1, 0) har rest 4. Valet (0, 0, 0) har rest 7. Resten är helt bestämd av de tre antalen: vi väljer den inte fritt en gång till. Varje ursprungligt val ger exakt en fyrgruppsfördelning och tvärtom."),
-     steg("Räkna med fyra grupper", "Nu fördelas sju stjärnor mellan fyra grupper: de tre sorterna och resten. Därför behövs tre streck.", "\\[\\binom{7+4-1}{4-1}=\\binom{10}{3}=120.\\]"),
-     steg("Jämför med exakt sju", "Om exakt sju bakverk ska väljas finns ingen restgrupp. Då är det tre grupper och två streck. Det är färre möjligheter eftersom alla mindre totalsummor utesluts.", "\\[\\text{Exakt 7: }\\binom{9}{2}=36.\\]\\[\\text{Högst 7: }\\binom{10}{3}=120.\\]"),
-     steg("Välj metod innan du sätter in tal", "Är föremålen identiska eller räknas bara antal per sort? Är grupperna olika? Ska summan vara exakt n? Får grupperna vara tomma? Finns min- eller maxkrav? Svara på dessa frågor innan du använder formeln. Om bara totalsumman är högst n blir restgruppen det enda extra steget. I formeln nedan är n maxantalet totalt och k antalet ursprungliga grupper.", "\\[x_1+\\cdots+x_k\\le n,\\quad x_i\\ge0:\\]\\[\\text{antal}=\\binom{n+k}{k}.\\]")],
-    "Det finns 120 val av antal, inklusive att välja inga bakverk.",
-    "Exakt summa: k grupper. Högst en totalsumma: k + 1 grupper inklusive resten. Minimikrav: lägg undan först. Maxkrav för en grupp: dra bort otillåtna fall.", starsFamilj);
+    "Ett högsta antal kan inte läggas undan. Räkna i stället <strong>alla</strong> fördelningar och dra bort de <strong>förbjudna</strong>.",
+    [steg("Räkna alla", "Utan kravet: åtta stjärnor och två streck.", "\\[\\binom{10}{2}=45\\]"),
+     steg("Räkna de förbjudna", "Förbjudet är minst fyra kulor i låda 1. Det är ett minimikrav: lägg fyra kulor där och fördela de fyra som är kvar fritt.", "\\[\\binom{4+3-1}{3-1}\\]\\[=\\binom{6}{2}=15\\]"),
+     steg("Dra bort", "Ta bort de förbjudna från alla.", "\\[45-15=30\\]"),
+     steg("Extra: både minsta och högsta antal","Lägg först undan minimikraven och sänk maxgränsen lika mycket. Exempel: 12 poäng på tre områden, minst 2 var och högst 4 på det första. Lägg undan 6 poäng. Då är 6 kvar och det första området får högst 2 extra. Förbjudet är minst 3 extra där, och då är 3 kvar.", "\\[\\binom{8}{2}-\\binom{5}{2}\\]\\[=28-10=18\\]")],
+    "Typuppgiften har 30 tillåtna fördelningar.",
+    "Högst b i en grupp: alla fördelningar minus de som har minst b + 1 i den gruppen.", starsFamilj);
+  bank["matf1-stars-4"].fallgrop = "De förbjudna har minst <em>fyra</em> kulor i låda 1, inte minst tre. Tre är ju tillåtet.";
 
   add("matf1-grund-1-09", 1, "binomialsatsen", "Använd binomialsatsen",
     "<p>Utveckla (x + 2)⁴.</p>" + pascalFigur,

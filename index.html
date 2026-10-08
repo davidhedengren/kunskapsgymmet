@@ -3833,7 +3833,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-08-av";
+const BANK_VERSION="2026-10-08-aw";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -5008,6 +5008,7 @@ function kunskapSteg(kap,kortNyckel=null){
         const primartOmr=genomgangOmr(g).find(o=>k.omr.includes(o)) || k.omr[0];
         return {kort:k.key,omr:primartOmr,
           omrNamn:familyName(k.name||chapterName(kap)),familj,
+          metoder:Array.isArray(g.metoder)?g.metoder:[],
           traningsfamilj:harFamilj?g.traningsfamilj:null,
           genomgang:g,uppgift};
       }).filter(Boolean);
@@ -6704,6 +6705,7 @@ function expandGameTask(t){
     q.s=del?.s || t.s;
 
     q.ledtrad=del?.ledtrad || t.ledtrad || null;
+    q.metoder=del?.metoder ?? t.metoder;
     q.rättSvar=metadata(t.rättSvar);
     q.tolerans=metadata(t.tolerans);
     if("rättSvar273" in t) q.rättSvar273=metadata(t.rättSvar273);
@@ -6993,6 +6995,8 @@ function diagnosKort(kort){
   const provade=NIVAER.filter(L=>st[L].n>=TM_MIN_N);
   const ut={rad:"",extra:"",knapp:null,genomgang:null};
   const gg=genomgangFinns(kort);
+  const metodMal=metodGenomgang(kunskapSteg(kort.kap,kort.key),hist
+    .filter(h=>Date.now()-(h.at||0)<14*864e5).slice(-8));
 
   // Repetition: området satt, men det var länge sedan.
   const m=cardStatus(kort).m, sist=Math.max(0,...kort.omr.map(o=>senastTranad(o)||0));
@@ -7028,8 +7032,14 @@ function diagnosKort(kort){
     if(!ut.rad){
       ut.rad=`Det är delmomentet ${liten(namn)} som drar ned.`;
       ut.knapp={text:"Träna delmomentet",on:`startCardFamily('${esc(kort.key)}','${esc(del.family)}')`,mal:{typ:"familj",kort:kort.key,familj:del.family}};
-      if(gg) ut.genomgang=`oppnaKunskap('${esc(String(kort.kap))}','${esc(kort.key)}','${esc(del.family)}')`;
+      const mal=kunskapSteg(kort.kap,kort.key).find(s=>!s.metoder?.length && s.traningsfamilj===del.family);
+      if(gg && mal) ut.genomgang=`oppnaKunskap('${esc(String(kort.kap))}','${esc(kort.key)}','${esc(mal.familj)}')`;
     }else ut.extra=`Särskilt delmomentet ${liten(namn)}.`;
+  }
+
+  if(metodMal && !ggLast(metodMal.familj)){
+    ut.genomgang=`oppnaKunskap('${esc(String(kort.kap))}','${esc(kort.key)}','${esc(metodMal.familj)}')`;
+    ut.extra=`Genomgången ”${metodMal.genomgang.rubrik}” förklarar metoden i uppgifterna du missat.`;
   }
 
   // 3. Ledtrådsberoende bland de senaste svaren.
@@ -7740,10 +7750,12 @@ function fastnatOmrade(){
   const felFam={};
   bast.senaste.filter(x=>!x.ok).forEach(x=>[].concat(x.family||[]).forEach(f=>felFam[f]=(felFam[f]||0)+1));
   const famOrdning=Object.keys(felFam).sort((a,b)=>felFam[b]-felFam[a]);
-  const mal=steg.find(st=>st.traningsfamilj && famOrdning.includes(st.traningsfamilj)) || steg[0];
+  const mal=metodGenomgang(steg,bast.senaste)
+    || famOrdning.map(f=>steg.find(st=>!st.metoder?.length && st.traningsfamilj===f)).find(Boolean)
+    || steg.find(st=>!st.metoder?.length) || steg[0];
   const last=(profile.genomgangar||{})[ggNyckel(mal.familj)];
   if(typeof last==="number" && nu-last<2*864e5) return null;
-  return {area:bast.area,namn:areaName(bast.area)||kort.name,kap:String(kort.kap),kort:kort.key,familj:mal.familj};
+  return {area:bast.area,namn:mal.metoder?.includes("stars_and_bars")?"stars and bars":areaName(bast.area)||kort.name,kap:String(kort.kap),kort:kort.key,familj:mal.familj};
 }
 function oppnaFastGenomgang(){
   const f=fastnatOmrade();
@@ -12050,6 +12062,29 @@ function seriefaktor(run){
 
 function seriebonus(run){ return Math.round((seriefaktor(run)-1)*100); }
 
+/* Metoder hämtas från aktuell uppgiftsdata även för äldre svarhistorik.
+   Två fel på samma metod behövs; fel på andra kombinationsuppgifter räcker
+   inte för att rekommendera en specialiserad genomgång. */
+function genomgangMetoderForSvar(svar){
+  const id=String(svar?.id||"").replace(/:([a-z])$/,"$1");
+  const task=state.data?.bank?.find(t=>t.id===id)
+    || availableTasks().find(t=>t.id===id);
+  return Array.isArray(task?.metoder)?task.metoder:[];
+}
+function metodGenomgang(steg,historik){
+  const fel={};
+  for(const h of historik){
+    if(h.ok!==false) continue;
+    for(const m of new Set(genomgangMetoderForSvar(h))) fel[m]=(fel[m]||0)+1;
+  }
+  for(const m of Object.keys(fel).sort((a,b)=>fel[b]-fel[a])){
+    if(fel[m]<2) continue;
+    const mal=steg.find(s=>s.metoder?.includes(m));
+    if(mal) return mal;
+  }
+  return null;
+}
+
 /* Efter återkommande fel kan eleven få en enda relevant väg vidare. Förslaget
    visas aldrig efter ett enstaka misstag och samma område har 48 timmars paus. */
 function hittaGenomgangForslag(t,cp){
@@ -12064,9 +12099,12 @@ function hittaGenomgangForslag(t,cp){
   if(!steg.length) return null;
 
   const familjer=(Array.isArray(t.familj)?t.familj:[t.familj]).filter(Boolean);
-  const relevant=steg.find(s=>s.traningsfamilj && familjer.includes(s.traningsfamilj));
-  const mal=relevant || steg.find(s=>!ggLast(s.familj)) || steg[0];
+  const relevant=steg.find(s=>!s.metoder?.length && s.traningsfamilj && familjer.includes(s.traningsfamilj));
+  const mal=metodGenomgang(steg,senaste) || relevant
+    || steg.find(s=>!s.metoder?.length && !ggLast(s.familj)) || steg.find(s=>!s.metoder?.length) || steg[0];
   if(!mal) return null;
+  const last=(profile.genomgangar||{})[ggNyckel(mal.familj)];
+  if(mal.metoder?.length && typeof last==="number" && nu-last<2*864e5) return null;
 
   const nyckel=[state.course,state.track||"",t.omr].join("|");
   const senastVisad=profile.ggForslagVisade?.[nyckel]||0;

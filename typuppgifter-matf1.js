@@ -150,6 +150,10 @@
     "Högst b i en grupp: alla fördelningar minus de som har minst b + 1 i den gruppen.", starsFamilj);
   bank["matf1-stars-4"].fallgrop = "De förbjudna har minst <em>fyra</em> kulor i låda 1, inte minst tre. Tre är ju tillåtet.";
 
+  for (const id of Object.keys(bank).filter(id => id.startsWith("matf1-stars-"))) {
+    bank[id].metoder = ["stars_and_bars"];
+  }
+
   add("matf1-grund-1-09", 1, "binomialsatsen", "Använd binomialsatsen",
     "<p>Utveckla (x + 2)⁴.</p>" + pascalFigur,
     "Binomialsatsen använder koefficienterna i rad 4 i Pascals triangel: 1, 4, 6, 4, 1.",

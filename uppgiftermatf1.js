@@ -2841,7 +2841,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -2986,7 +2986,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -3098,7 +3098,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -32026,7 +32026,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
     "omrTidigare": [
@@ -32107,7 +32107,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
     "omrTidigare": [
@@ -32218,8 +32218,8 @@ window.BANKMATF1 = [
     "omr": "binomialsatsen",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm koefficienten framför \\(x^3\\) i utvecklingen av \\((x+2)^5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>För att få x³ måste x väljas från tre av de fem faktorerna. De två andra bidrar med 2, vilket ger faktorn 2². Termen med \\(x^3\\) är \\(\\binom{5}{3}x^3\\cdot2^2\\).</p><div class=\"facit-matte\">\\[\\binom{5}{3}\\cdot2^2=40\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 40</p></div>",
+    "t": "<p>En elev räknar ut koefficienten framför \\(x^3\\) i \\((x+2)^5\\) och får \\(\\binom53=10\\). Eleven har glömt bidraget från de parenteser som ger talet 2. Vilken faktor ska 10 multipliceras med för att koefficienten ska bli rätt?</p>",
+    "s": "<div class=\"facit-v2\"><p>Tre parenteser ger x och de två andra ger 2. De två tvåorna måste också multipliceras in. Binomialkoefficienten räknar bara antalet sätt att välja x-platserna.</p><div class=\"facit-matte\">\\[2\\cdot2=2^2=4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Faktorn är 4. Den rätta koefficienten blir 10 · 4 = 40.</p></div>",
     "id": "1.536",
     "miniräknare": false,
     "geogebra": false,
@@ -32230,9 +32230,9 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Använd den allmänna termen \\(\\binom{n}{k}x^k a^{n-k}\\).</p>",
+    "ledtrad": "<p>Hur många av de fem parenteserna ger talet 2?</p>",
     "svarstyp": "numeriskt",
-    "rättSvar": 40,
+    "rättSvar": 4,
     "tolerans": 0,
     "svarFormat": "numeriskt",
     "spel": true
@@ -32363,8 +32363,8 @@ window.BANKMATF1 = [
     "omr": "binomialsatsen",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm koefficienten framför \\(x^3\\) i utvecklingen av \\((x+2)^5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj x från tre av de fem faktorerna och talet 2 från de andra två. Valet av positioner räknas med en binomialkoefficient. Termen med \\(x^3\\) är \\(\\binom{5}{3}x^3\\cdot2^2\\).</p><div class=\"facit-matte\">\\[\\binom{5}{3}\\cdot2^2=40\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 40</p></div>",
+    "t": "<p>I Pascals triangel är raden för potensen 5: \\(1,\\ 5,\\ 10,\\ 10,\\ 5,\\ 1\\). Talen är koefficienterna i \\((1+x)^5\\), från konstanttermen till termen med \\(x^5\\). Vilken är koefficienten framför \\(x^2\\)?</p>",
+    "s": "<div class=\"facit-v2\"><p>Raden börjar med koefficienten för x⁰. Koefficienten för x² är därför det tredje talet i raden.</p><div class=\"facit-matte\">\\[\\binom52=10\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
     "id": "1.542",
     "miniräknare": false,
     "geogebra": false,
@@ -32374,10 +32374,10 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
-    "ledtrad": "<p>Använd den allmänna termen \\(\\binom{n}{k}x^k a^{n-k}\\).</p>",
+    "traningsniva": 1,
+    "ledtrad": "<p>Räkna platserna från x⁰, inte från x¹.</p>",
     "svarstyp": "numeriskt",
-    "rättSvar": 40,
+    "rättSvar": 10,
     "tolerans": 0,
     "svarFormat": "numeriskt",
     "spel": true
@@ -32459,8 +32459,8 @@ window.BANKMATF1 = [
     "omr": "binomialsatsen",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm summan av alla koefficienter i utvecklingen av \\((x+1)^6\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Resonemang och beräkning</p><p>Om x sätts till 1 blir varje potens av x lika med 1. Polynomets värde är då just summan av alla dess koefficienter.</p><div class=\"facit-matte\">\\[(1+1)^6=2^6=64\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Summan är 64.</p></div>",
+    "t": "<p>Bestäm summan av koefficienterna framför de jämna potenserna \\(x^0, x^2, x^4\\) och \\(x^6\\) i utvecklingen av \\((1+x)^6\\). Konstanttermen hör till \\(x^0\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd koefficienterna för just de fyra angivna potenserna. De är 1, 15, 15 och 1. Koefficienterna för x¹, x³ och x⁵ ska inte vara med.</p><div class=\"facit-matte\">\\[\\binom60+\\binom62+\\binom64+\\binom66=1+15+15+1=32\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 32.</p></div>",
     "id": "1.546",
     "miniräknare": false,
     "geogebra": false,
@@ -32471,9 +32471,9 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Vad händer om du sätter in x = 1 i båda leden?</p>",
+    "ledtrad": "<p>Välj vartannat tal i raden för potensen 6 i Pascals triangel.</p>",
     "svarstyp": "numeriskt",
-    "rättSvar": 64,
+    "rättSvar": 32,
     "tolerans": 0,
     "svarFormat": "numeriskt",
     "spel": true
@@ -42604,23 +42604,23 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "binomialsatsen – koefficienter",
     "poang": "1/0/0",
-    "t": "<p>Bestäm koefficienten framför \\(x^3\\) i \\((x+2)^5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Välj tre \\(x\\)-faktorer och två konstantfaktorer 2.</p><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\binom53 x^3 2^2=10\\cdot4\\,x^3=40x^3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 40</p></div></div>",
+    "t": "<p>Uttrycket \\((x+2)^5\\) består av fem parenteser som multipliceras. På hur många sätt kan du välja de tre parenteser som ska ge \\(x\\)? De andra två ska ge 2.</p>",
+    "s": "<div class=\"facit-v2\"><p>Välj tre av de fem platserna. Ordningen mellan de tre valda platserna spelar ingen roll. Talet 2 påverkar termens storlek, men inte antalet sådana val.</p><div class=\"facit-matte\">\\[\\binom53=\\frac{5\\cdot4\\cdot3}{3\\cdot2\\cdot1}=10\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 10 sätt.</p></div>",
     "id": "1.603",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Använda binomialsatsen",
     "svarstyp": "numeriskt",
-    "rättSvar": 40,
+    "rättSvar": 10,
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
+    "ledtrad": "<p>Det är ett urval av tre platser bland fem.</p>"
   },
   {
     "kap": 1,

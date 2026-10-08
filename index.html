@@ -3833,7 +3833,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-08-energi-kombinatorik";
+const BANK_VERSION="2026-10-08-variation-vattenkraft";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9771,6 +9771,12 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
      Kontrollera detta innan generella tal- och enhetsgenvägar prövas. */
   if(format==="decimalform")
     return formatRatt(enhetMedOrd(anv),facit,{format,tolerans:tol,enhet});
+  /* Med svarsenheten % lagras facit i procent. Ett uttryckligt %-tecken
+     får inte tas bort och därefter skalas igen av den generella talrättningen. */
+  if(enhet==="%" && (format==="numeriskt" || format==="procent")){
+    const r=enhetsJamforelse(enhetMedOrd(anv),facit,enhet,tol);
+    if(r!==null) return r;
+  }
   /* Facit som kedja av likvärdiga former: "f(x)=(x+2)(x-4)=x^2-2x-8", "(6)/(4)=(3)/(2)".
      Svaret godkänns om det stämmer med någon av formerna, men bara när formerna verkligen är
      lika. En ekvation som "x^2-8x+12=0" har olika led och berörs inte. */

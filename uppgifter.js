@@ -22149,7 +22149,7 @@ window.BANK = [
     "familjNyckel": "friktion__glidfriktion",
     "svarstyp": "numeriskt",
     "rättSvar": 0.33,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktionskraft_och_friktionstal",
     "ledtrad": "<p>Vad säger den konstanta hastigheten om den vågräta kraftsumman?</p>",
@@ -23052,7 +23052,7 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En låda står stilla på ett vågrätt golv. Du trycker åt höger med 20 N. Maximal vilofriktion är 50 N. Inga andra vågräta krafter verkar.</p><p>Hur stort är friktionskraftens storlek? Svara i N. Avrunda vid behov till två decimaler.</p>",
+    "t": "<p>En låda står stilla på ett vågrätt golv. Du trycker åt höger med 20 N. Maximal vilofriktion är 50 N. Inga andra vågräta krafter verkar.</p><p>Hur stor är friktionskraften? Svara i N. Avrunda vid behov till två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftsumman är noll eftersom lådan står stilla.</p></div><div class=\"facit-stycke\"><p>Friktionen är därför 20 N åt vänster.</p></div><div class=\"facit-stycke\"><p>Värdet 50 N är ett maximum, inte den kraft som alltid verkar.</p></div></div><p class=\"facit-svar\">Svaret är 20 N.</p></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
@@ -23083,7 +23083,7 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En låda med massan 9,5 kg dras vågrätt över ett vågrätt golv. Vid konstant hastighet visar dynamometern 42 N.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm friktionstalet. Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>En låda med massan 9,5 kg dras vågrätt över ett vågrätt golv. Vid konstant hastighet visar dynamometern 42 N.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm friktionstalet. Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet innebär noll resultant:</p><div class=\"facit-matte\">\\[f=42\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 42 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=9{,}5\\cdot 9{,}82=93{,}29\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen är 42 N, så</p><div class=\"facit-matte\">\\[\\mu=\\frac{42}{93{,}29}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,45.</p></div></div></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
@@ -23098,7 +23098,7 @@ window.BANK = [
     ],
     "tolerans": [
       0,
-      0
+      0.005
     ],
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktionskraft_och_friktionstal",
@@ -23127,11 +23127,11 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 9,5 kg dras vågrätt över ett vågrätt golv. Vid konstant hastighet visar dynamometern 42 N.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En låda dras vågrätt över ett vågrätt golv. Vid konstant hastighet visar dynamometern 42 N.</p><p>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet innebär noll resultant:</p><div class=\"facit-matte\">\\[f=42\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 42 N.</p></div>",
         "ledtrad": "<p>Vilken kraft balanserar dynamometerns dragkraft?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -23158,8 +23158,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna friktionskraften för fyra olika friktionstal vid samma normalkraft, ur tabell, sökt kraft",
     "poang": "(4/0/0)",
-    "t": "<p>En låda med massan 25 kg glider över vågräta underlag och dras med en vågrät kraft. I en förenklad modell är glidfriktionstalen 0,10 för underlag A, 0,20 för B, 0,40 för C och 0,60 för D.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm glidfriktionen på underlag A. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm glidfriktionen på underlag D. Svara i N. Avrunda vid behov till två decimaler.</li><li>Hur många gånger större dragkraft krävs för konstant fart på D än på B? Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lodrätt är kraftsumman noll:</p><div class=\"facit-matte\">\\[N=m g=25\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 245,5 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=25\\cdot 9{,}82=245{,}5\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På A blir</p><div class=\"facit-matte\">\\[f=0{,}10\\cdot 245{,}5\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 24,55 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=245{,}5\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På D blir</p><div class=\"facit-matte\">\\[f=0{,}60\\cdot 245{,}5\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 147,3 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart är dragkraften μN.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Samma N ger förhållandet</p><div class=\"facit-matte\">\\[\\frac{0{,}60}{0{,}20}=3\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 3.</p></div></div></div>",
+    "t": "<p>En låda med massan 25 kg glider över vågräta underlag och dras med en vågrät kraft. I en förenklad modell är glidfriktionstalen 0,10 för underlag A, 0,20 för B och 0,60 för D.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm glidfriktionen på underlag A. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm glidfriktionen på underlag D. Svara i N. Avrunda vid behov till två decimaler.</li><li>Hur många gånger större dragkraft krävs för konstant fart på D än på B? Avrunda vid behov till två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lodrätt är kraftsumman noll:</p><div class=\"facit-matte\">\\[N=m g=25\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 245,5 N.</p><p><strong>b)</strong></p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=25\\cdot 9{,}82=245{,}5\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På A blir</p><div class=\"facit-matte\">\\[f=0{,}10\\cdot 245{,}5\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 24,55 N.</p><p><strong>c)</strong></p><p>Golvet bär hela tyngden eftersom dragkraften är vågrät.</p>\\[N=mg=25\\cdot9{,}82=245{,}5\\,\\mathrm N\\]<p>Glidfriktionen på D är</p>\\[f=\\mu N=0{,}60\\cdot245{,}5=147{,}3\\,\\mathrm N\\]<p><strong>d)</strong></p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart är dragkraften μN.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Samma N ger förhållandet</p><div class=\"facit-matte\">\\[\\frac{0{,}60}{0{,}20}=3\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 3.</p></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
       "begrepp",
@@ -23207,23 +23207,23 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En låda med massan 25 kg glider över vågräta underlag och dras med en vågrät kraft. I en förenklad modell är glidfriktionstalen 0,10 för underlag A, 0,20 för B, 0,40 för C och 0,60 för D.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En låda med massan 25 kg glider över vågräta underlag och dras med en vågrät kraft. I en förenklad modell är glidfriktionstalen 0,10 för underlag A, 0,20 för B och 0,60 för D.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 25 kg glider över vågräta underlag och dras med en vågrät kraft. I en förenklad modell är glidfriktionstalen 0,10 för underlag A, 0,20 för B, 0,40 för C och 0,60 för D.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En låda med massan 25 kg glider över ett vågrätt golv och dras vågrätt. Använd g = 9,82 m/s².</p><p>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lodrätt är kraftsumman noll:</p><div class=\"facit-matte\">\\[N=m g=25\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 245,5 N.</p></div>",
         "ledtrad": "<p>Vad ändras mellan underlagen, och vad är oförändrat?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Bestäm glidfriktionen på underlag A. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 25 kg glider över vågräta underlag och dras med en vågrät kraft. I en förenklad modell är glidfriktionstalen 0,10 för underlag A, 0,20 för B, 0,40 för C och 0,60 för D.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionen på underlag A. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En låda med massan 25 kg glider över ett vågrätt golv och dras vågrätt. Använd g = 9,82 m/s². På underlag A är glidfriktionstalet 0,10.</p><p>Bestäm glidfriktionen på underlag A. Svara i N. Avrunda vid behov till två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=25\\cdot 9{,}82=245{,}5\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På A blir</p><div class=\"facit-matte\">\\[f=0{,}10\\cdot 245{,}5\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 24,55 N.</p></div>",
         "ledtrad": "<p>Vad ändras mellan underlagen, och vad är oförändrat?</p>",
         "niva": "E",
@@ -23234,8 +23234,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm glidfriktionen på underlag D. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 25 kg glider över vågräta underlag och dras med en vågrät kraft. I en förenklad modell är glidfriktionstalen 0,10 för underlag A, 0,20 för B, 0,40 för C och 0,60 för D.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionen på underlag D. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=245{,}5\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På D blir</p><div class=\"facit-matte\">\\[f=0{,}60\\cdot 245{,}5\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 147,3 N.</p></div>",
+        "t": "<p>En låda med massan 25 kg glider över ett vågrätt golv och dras vågrätt. Använd g = 9,82 m/s². På underlag D är glidfriktionstalet 0,60.</p><p>Bestäm glidfriktionen på underlag D. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Golvet bär hela tyngden eftersom dragkraften är vågrät.</p>\\[N=mg=25\\cdot9{,}82=245{,}5\\,\\mathrm N\\]<p>Glidfriktionen på D är</p>\\[f=\\mu N=0{,}60\\cdot245{,}5=147{,}3\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vad ändras mellan underlagen, och vad är oförändrat?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -23245,7 +23245,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Hur många gånger större dragkraft krävs för konstant fart på D än på B? Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 25 kg glider över vågräta underlag och dras med en vågrät kraft. I en förenklad modell är glidfriktionstalen 0,10 för underlag A, 0,20 för B, 0,40 för C och 0,60 för D.</p><p>Använd g = 9,82 m/s².</p><p>Hur många gånger större dragkraft krävs för konstant fart på D än på B? Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>Samma låda dras vågrätt med konstant fart över två vågräta underlag. Glidfriktionstalet är 0,20 på B och 0,60 på D. Normalkraften är lika stor i båda fallen.</p><p>Hur många gånger större dragkraft krävs för konstant fart på D än på B? Avrunda vid behov till två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart är dragkraften μN.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Samma N ger förhållandet</p><div class=\"facit-matte\">\\[\\frac{0{,}60}{0{,}20}=3\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 3.</p></div>",
         "ledtrad": "<p>Vad ändras mellan underlagen, och vad är oförändrat?</p>",
         "niva": "E",
@@ -23266,7 +23266,7 @@ window.BANK = [
     "typ": "beräkna friktionskraft på horisontellt underlag",
     "poang": "(2/0/0)",
     "t": "<p>En låda med massan 10 kg glider på ett vågrätt golv. Friktionstalet är 0,21. Inga andra lodräta krafter än tyngdkraft och normalkraft verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Först</p><div class=\"facit-matte\">\\[N=m g=98{,}2\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därefter</p><div class=\"facit-matte\">\\[f=\\mu N=0{,}21\\cdot 98{,}2\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 20,62 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Golvet bär lådans tyngd. Beräkna först normalkraften och sedan glidfriktionen.</p>\\[N=mg=10\\cdot9{,}82=98{,}2\\,\\mathrm N\\]\\[f=\\mu N=0{,}21\\cdot98{,}2=20{,}622\\,\\mathrm N\\]<p>Svar: 20,62 N.</p></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
       "begrepp",
@@ -23275,7 +23275,7 @@ window.BANK = [
     "familjNyckel": "friktion__glidfriktion",
     "svarstyp": "numeriskt",
     "rättSvar": 20.62,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -24188,8 +24188,8 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En vikt med massan 1,5 kg står stilla på ett vågrätt bord. En dynamometer drar lodrätt uppåt med 3,5 N.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"307\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"12.343 0.000 335.314 166.250\"><rect x=\"28\" y=\"142\" width=\"304\" height=\"14\" fill=\"#E7D7BF\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"28\" y1=\"156\" x2=\"332\" y2=\"156\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><rect x=\"132\" y=\"92\" width=\"96\" height=\"50\" rx=\"4\" fill=\"#EDE7D8\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 176 92 L 176 82\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 184 92 L 184 82\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 176 82 Q 180 76 184 82\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"164\" y=\"24\" width=\"32\" height=\"52\" rx=\"14\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"180\" y1=\"76\" x2=\"180\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"173\" y1=\"34\" x2=\"187\" y2=\"34\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"42\" x2=\"187\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"50\" x2=\"187\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"58\" x2=\"187\" y2=\"58\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><path d=\"M 180 24 L 180 16\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 180 16 Q 186 8 192 16\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"180\" y1=\"16\" x2=\"180\" y2=\"8\" stroke=\"#B43123\" stroke-width=\"2.2\"/><polygon points=\"180,2 184.5,10 175.5,10\" fill=\"#B43123\"/><text x=\"194\" y=\"16\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"180\" y1=\"142\" x2=\"180\" y2=\"106\" stroke=\"#B43123\" stroke-width=\"2.2\"/><polygon points=\"180,100 184.5,108 175.5,108\" fill=\"#B43123\"/><text x=\"190\" y=\"120\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">N</text></svg></span><ol><li>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</li><li>Dynamometern flyttas till sidan och drar nu vågrätt med 3,5 N medan vikten glider med konstant hastighet. Bestäm friktionstalet. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Tyngden balanseras av två uppåtriktade krafter:</p><div class=\"facit-matte\">\\[N+3{,}5=1{,}5\\cdot 9{,}82\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[N=11{,}23\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 11,23 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I det nya läget är</p><div class=\"facit-matte\">\\[N=m g=14{,}73\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet ger f = 3,5 N, så</p><div class=\"facit-matte\">\\[\\mu=\\frac{3{,}5}{14{,}73}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,24.</p></div></div></div>",
+    "t": "<p>En vikt med massan 1,5 kg står stilla på ett vågrätt bord. En dynamometer drar lodrätt uppåt med 3,5 N.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"307\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"12.343 0.000 335.314 166.250\"><rect x=\"28\" y=\"142\" width=\"304\" height=\"14\" fill=\"#E7D7BF\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"28\" y1=\"156\" x2=\"332\" y2=\"156\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><rect x=\"132\" y=\"92\" width=\"96\" height=\"50\" rx=\"4\" fill=\"#EDE7D8\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 176 92 L 176 82\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 184 92 L 184 82\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 176 82 Q 180 76 184 82\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"164\" y=\"24\" width=\"32\" height=\"52\" rx=\"14\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"180\" y1=\"76\" x2=\"180\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"173\" y1=\"34\" x2=\"187\" y2=\"34\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"42\" x2=\"187\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"50\" x2=\"187\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"58\" x2=\"187\" y2=\"58\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><path d=\"M 180 24 L 180 16\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 180 16 Q 186 8 192 16\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"180\" y1=\"16\" x2=\"180\" y2=\"8\" stroke=\"#B43123\" stroke-width=\"2.2\"/><polygon points=\"180,2 184.5,10 175.5,10\" fill=\"#B43123\"/><text x=\"194\" y=\"16\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"180\" y1=\"142\" x2=\"180\" y2=\"106\" stroke=\"#B43123\" stroke-width=\"2.2\"/><polygon points=\"180,100 184.5,108 175.5,108\" fill=\"#B43123\"/><text x=\"190\" y=\"120\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">N</text></svg></span><ol type=\"a\"><li>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</li><li>Dynamometern flyttas till sidan och drar vågrätt med 3,5 N. Vikten glider med konstant hastighet. Bestäm friktionstalet. Avrunda vid behov till två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Tyngdkraften balanseras av normalkraften och dynamometerns uppåtriktade kraft.</p>\\[N+3{,}5=mg\\]\\[N=1{,}5\\cdot9{,}82-3{,}5=11{,}23\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Dragkraften är vågrät, så normalkraften är hela tyngdkraften.</p>\\[N=mg=1{,}5\\cdot9{,}82=14{,}73\\,\\mathrm N\\]<p>Konstant hastighet innebär att friktionen balanserar dragkraften: f = 3,5 N.</p>\\[\\mu=\\frac{f}{N}=\\frac{3{,}5}{14{,}73}\\approx0{,}24\\]</div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
       "modellering",
@@ -24203,12 +24203,12 @@ window.BANK = [
     ],
     "tolerans": [
       0,
-      0
+      0.005
     ],
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktionskraft_och_friktionstal",
     "ledtrad": "<p>Vilka krafter bär vikten i de två olika försöken?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -24233,21 +24233,21 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.",
         "t": "<p>En vikt med massan 1,5 kg står stilla på ett vågrätt bord. En dynamometer drar lodrätt uppåt med 3,5 N.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"307\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"12.343 0.000 335.314 166.250\"><rect x=\"28\" y=\"142\" width=\"304\" height=\"14\" fill=\"#E7D7BF\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"28\" y1=\"156\" x2=\"332\" y2=\"156\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><rect x=\"132\" y=\"92\" width=\"96\" height=\"50\" rx=\"4\" fill=\"#EDE7D8\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 176 92 L 176 82\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 184 92 L 184 82\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 176 82 Q 180 76 184 82\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"164\" y=\"24\" width=\"32\" height=\"52\" rx=\"14\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"180\" y1=\"76\" x2=\"180\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"173\" y1=\"34\" x2=\"187\" y2=\"34\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"42\" x2=\"187\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"50\" x2=\"187\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"58\" x2=\"187\" y2=\"58\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><path d=\"M 180 24 L 180 16\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 180 16 Q 186 8 192 16\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"180\" y1=\"16\" x2=\"180\" y2=\"8\" stroke=\"#B43123\" stroke-width=\"2.2\"/><polygon points=\"180,2 184.5,10 175.5,10\" fill=\"#B43123\"/><text x=\"194\" y=\"16\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"180\" y1=\"142\" x2=\"180\" y2=\"106\" stroke=\"#B43123\" stroke-width=\"2.2\"/><polygon points=\"180,100 184.5,108 175.5,108\" fill=\"#B43123\"/><text x=\"190\" y=\"120\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">N</text></svg></span><p>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Tyngden balanseras av två uppåtriktade krafter:</p><div class=\"facit-matte\">\\[N+3{,}5=1{,}5\\cdot 9{,}82\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[N=11{,}23\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 11,23 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraften balanseras av normalkraften och dynamometerns uppåtriktade kraft.</p>\\[N+3{,}5=mg\\]\\[N=1{,}5\\cdot9{,}82-3{,}5=11{,}23\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilka krafter bär vikten i de två olika försöken?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
-        "fraga": "Dynamometern flyttas till sidan och drar nu vågrätt med 3,5 N medan vikten glider med konstant hastighet. Bestäm friktionstalet. Avrunda vid behov till två decimaler.",
-        "t": "<p>En vikt med massan 1,5 kg står stilla på ett vågrätt bord. En dynamometer drar lodrätt uppåt med 3,5 N.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"307\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"12.343 0.000 335.314 166.250\"><rect x=\"28\" y=\"142\" width=\"304\" height=\"14\" fill=\"#E7D7BF\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"28\" y1=\"156\" x2=\"332\" y2=\"156\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><rect x=\"132\" y=\"92\" width=\"96\" height=\"50\" rx=\"4\" fill=\"#EDE7D8\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 176 92 L 176 82\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 184 92 L 184 82\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 176 82 Q 180 76 184 82\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"164\" y=\"24\" width=\"32\" height=\"52\" rx=\"14\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"180\" y1=\"76\" x2=\"180\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"173\" y1=\"34\" x2=\"187\" y2=\"34\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"42\" x2=\"187\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"50\" x2=\"187\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><line x1=\"173\" y1=\"58\" x2=\"187\" y2=\"58\" stroke=\"#9A959C\" stroke-width=\"1.8\"/><path d=\"M 180 24 L 180 16\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 180 16 Q 186 8 192 16\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"180\" y1=\"16\" x2=\"180\" y2=\"8\" stroke=\"#B43123\" stroke-width=\"2.2\"/><polygon points=\"180,2 184.5,10 175.5,10\" fill=\"#B43123\"/><text x=\"194\" y=\"16\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"180\" y1=\"142\" x2=\"180\" y2=\"106\" stroke=\"#B43123\" stroke-width=\"2.2\"/><polygon points=\"180,100 184.5,108 175.5,108\" fill=\"#B43123\"/><text x=\"190\" y=\"120\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">N</text></svg></span><p>Dynamometern flyttas till sidan och drar nu vågrätt med 3,5 N medan vikten glider med konstant hastighet. Bestäm friktionstalet. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I det nya läget är</p><div class=\"facit-matte\">\\[N=m g=14{,}73\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet ger f = 3,5 N, så</p><div class=\"facit-matte\">\\[\\mu=\\frac{3{,}5}{14{,}73}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,24.</p></div>",
+        "fraga": "Bestäm friktionstalet. Avrunda vid behov till två decimaler.",
+        "t": "<p>En vikt med massan 1,5 kg dras vågrätt med 3,5 N över ett vågrätt bord. Vikten glider med konstant hastighet. Använd g = 9,82 m/s².</p><p>Bestäm friktionstalet. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften är vågrät, så normalkraften är hela tyngdkraften.</p>\\[N=mg=1{,}5\\cdot9{,}82=14{,}73\\,\\mathrm N\\]<p>Konstant hastighet innebär att friktionen balanserar dragkraften: f = 3,5 N.</p>\\[\\mu=\\frac{f}{N}=\\frac{3{,}5}{14{,}73}\\approx0{,}24\\]</div>",
         "ledtrad": "<p>Vilka krafter bär vikten i de två olika försöken?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       }
@@ -25058,8 +25058,8 @@ window.BANK = [
     "niva": "C",
     "typ": "beräkna största drivande friktionskraft och acceleration för ett fordon på olika underlag, ur text, sökt kraft och acceleration",
     "poang": "(3/1/0)",
-    "t": "<p>En fyrhjulsdriven bil har massan 1400 kg och kör på en vågrät väg. I modellen kan hela normalkraften utnyttjas för drivning. Motorn är tillräckligt stark. Bortse från övrigt motstånd. Friktionstalet är 0,80 på underlag A och 0,10 på B.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm den totala normalkraften. Svara i kN. Avrunda vid behov till två decimaler.</li><li>Bestäm maximal friktionskraft på A. Svara i kN. Avrunda vid behov till två decimaler.</li><li>Bestäm största accelerationen på A utan att däcken slirar. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm motsvarande acceleration på B. Svara i m/s². Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=m g=1400\\cdot 9{,}82\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Dividera med 1000 för kN.</p></div></div><p class=\"facit-svar\">Svaret är 13,75 kN.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[f_{\\mathrm{max}}=\\mu_{\\mathrm{sN}}=0{,}80\\cdot 1400\\cdot 9{,}82\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 11 kN.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen driver bilen. ma_max = μ_smg, så</p><div class=\"facit-matte\">\\[a_{\\mathrm{max}}=0{,}80 g\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 7,86 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Samma modell ger</p><div class=\"facit-matte\">\\[a_{\\mathrm{max}}=\\mu_{\\mathrm{sg}}=0{,}10\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,98 m/s².</p></div></div></div>",
+    "t": "<p>En fyrhjulsdriven bil har massan 1400 kg och kör på en vågrät väg. I modellen kan hela normalkraften utnyttjas för drivning. Motorn är tillräckligt stark. Bortse från övrigt motstånd. Friktionstalet är 0,80 på underlag A och 0,10 på B.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm den totala normalkraften. Svara i kN. Avrunda vid behov till två decimaler.</li><li>Bestäm den största friktionskraften på underlag A. Svara i kN med två decimaler.</li><li>Bestäm största accelerationen på A utan att däcken slirar. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm motsvarande acceleration på B. Svara i m/s². Avrunda vid behov till två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På vågrät väg bär hjulen bilens tyngd.</p>\\[N=mg=1400\\cdot9{,}82=13\\,748\\,\\mathrm N\\]<p>Dividera med 1000: N = 13,748 kN ≈ 13,75 kN.</p><p><strong>b)</strong></p><p>Den största friktionskraften är friktionstalet gånger normalkraften.</p>\\[f_{\\max}=\\mu N=0{,}80\\cdot13\\,748=10\\,998{,}4\\,\\mathrm N\\]<p>Dividera med 1000: \\(f_{\\max}\\) = 10,9984 kN ≈ 11,00 kN.</p><p><strong>c)</strong></p><p>Friktionen mellan vägen och de drivande hjulen accelererar bilen. Alla hjul driver, så hela normalkraften mg kan utnyttjas.</p>\\[ma_{\\max}=\\mu mg\\quad\\Rightarrow\\quad a_{\\max}=\\mu g\\]\\[a_{\\max}=0{,}80\\cdot9{,}82=7{,}856\\,\\mathrm{m/s^2}\\]<p>Svar: 7,86 m/s².</p><p><strong>d)</strong></p><p>Friktionen driver bilen framåt. När alla hjul driver kan hela normalkraften mg utnyttjas.</p>\\[ma_{\\max}=\\mu mg\\quad\\Rightarrow\\quad a_{\\max}=\\mu g\\]\\[a_{\\max}=0{,}10\\cdot9{,}82=0{,}982\\,\\mathrm{m/s^2}\\]<p>Svar: 0,98 m/s².</p></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "modellering",
@@ -25074,10 +25074,10 @@ window.BANK = [
       0.98
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktion_som_accelererande_eller_bromsande_kraft",
@@ -25113,7 +25113,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm den totala normalkraften. Svara i kN. Avrunda vid behov till två decimaler.",
         "t": "<p>En bil på 1400 kg står på vågrät väg. Använd g = 9,82 m/s².</p><p>Bestäm den totala normalkraften. Svara i kN. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=m g=1400\\cdot 9{,}82\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Dividera med 1000 för kN.</p></div></div><p class=\"facit-svar\">Svaret är 13,75 kN.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vågrät väg bär hjulen bilens tyngd.</p>\\[N=mg=1400\\cdot9{,}82=13\\,748\\,\\mathrm N\\]<p>Dividera med 1000: N = 13,748 kN ≈ 13,75 kN.</p></div>",
         "ledtrad": "<p>Vilken yttre kraft driver bilen framåt?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -25122,9 +25122,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm maximal friktionskraft på A. Svara i kN. Avrunda vid behov till två decimaler.",
-        "t": "<p>En bils totala normalkraft är 13 748 N. Friktionstalet mellan däck och väg är 0,80.</p><p>Bestäm maximal friktionskraft på A. Svara i kN. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den största friktionskraften är friktionstalet gånger normalkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{fr,max}=0{,}80\\cdot13\\,748=10\\,998{,}4\\,\\mathrm N=10{,}9984\\,\\mathrm{kN}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 11,00 kN.</p></div>",
+        "fraga": "Bestäm den största friktionskraften. Svara i kN med två decimaler.",
+        "t": "<p>En bils totala normalkraft är 13 748 N. Friktionstalet mellan däck och väg är 0,80.</p><p>Bestäm den största friktionskraften. Svara i kN med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den största friktionskraften är friktionstalet gånger normalkraften.</p>\\[f_{\\max}=\\mu N=0{,}80\\cdot13\\,748=10\\,998{,}4\\,\\mathrm N\\]<p>Dividera med 1000: \\(f_{\\max}\\) = 10,9984 kN ≈ 11,00 kN.</p></div>",
         "ledtrad": "<p>Vilken yttre kraft driver bilen framåt?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -25133,9 +25133,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm största accelerationen på A utan att däcken slirar. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>En fyrhjulsdriven bil har massan 1400 kg och kör på en vågrät väg. I modellen kan hela normalkraften utnyttjas för drivning. Motorn är tillräckligt stark. Bortse från övrigt motstånd. Friktionstalet är 0,80 på underlag A och 0,10 på B.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm största accelerationen på A utan att däcken slirar. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen driver bilen. ma_max = μ_smg, så</p><div class=\"facit-matte\">\\[a_{\\mathrm{max}}=0{,}80 g\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 7,86 m/s².</p></div>",
+        "fraga": "Bestäm största accelerationen utan att däcken slirar. Svara i m/s². Avrunda vid behov till två decimaler.",
+        "t": "<p>En fyrhjulsdriven bil kör på en vågrät väg. Friktionstalet mellan däck och väg är 0,80. Alla hjul driver och motorn är tillräckligt stark. Bortse från övrigt motstånd. Använd g = 9,82 m/s².</p><p>Bestäm största accelerationen utan att däcken slirar. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen mellan vägen och de drivande hjulen accelererar bilen. Alla hjul driver, så hela normalkraften mg kan utnyttjas.</p>\\[ma_{\\max}=\\mu mg\\quad\\Rightarrow\\quad a_{\\max}=\\mu g\\]\\[a_{\\max}=0{,}80\\cdot9{,}82=7{,}856\\,\\mathrm{m/s^2}\\]<p>Svar: 7,86 m/s².</p></div>",
         "ledtrad": "<p>Vilken yttre kraft driver bilen framåt?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -25146,7 +25146,7 @@ window.BANK = [
         "etikett": "d",
         "fraga": "Vilken är den största accelerationen utan att däcken slirar? Svara i m/s². Avrunda vid behov till två decimaler.",
         "t": "<p>En fyrhjulsdriven bil kör på vågrät väg med friktionstalet 0,10. Alla hjul driver och motorn är tillräckligt stark. Bortse från övrigt motstånd. Använd g = 9,82 m/s².</p><p>Vilken är den största accelerationen utan att däcken slirar? Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Samma modell ger</p><div class=\"facit-matte\">\\[a_{\\mathrm{max}}=\\mu_{\\mathrm{sg}}=0{,}10\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,98 m/s².</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen driver bilen framåt. När alla hjul driver kan hela normalkraften mg utnyttjas.</p>\\[ma_{\\max}=\\mu mg\\quad\\Rightarrow\\quad a_{\\max}=\\mu g\\]\\[a_{\\max}=0{,}10\\cdot9{,}82=0{,}982\\,\\mathrm{m/s^2}\\]<p>Svar: 0,98 m/s².</p></div>",
         "ledtrad": "<p>Vilken yttre kraft driver bilen framåt?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -26001,8 +26001,8 @@ window.BANK = [
     "omr": "friktion",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>Två klossar med massan 0,100 kg vardera ligger staplade. Den undre dras vågrätt åt höger med konstant hastighet. Den övre hålls stilla av en vågrät tråd åt vänster. Friktionstalet är 0,25 både mellan klossarna och mot golvet.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"240\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"9.900 30.609 311.143 120.554\"><line x1=\"24\" y1=\"144\" x2=\"308\" y2=\"144\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><rect x=\"24\" y=\"38\" width=\"16\" height=\"94\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"86\" y=\"102\" width=\"122\" height=\"42\" rx=\"4\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"102\" y=\"66\" width=\"90\" height=\"36\" rx=\"4\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"102\" y1=\"84\" x2=\"40\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"208\" y1=\"123\" x2=\"254\" y2=\"123\" stroke=\"#B43123\" stroke-width=\"2.4\"/><polygon points=\"260,123 252,119 252,127\" fill=\"#B43123\"/><text x=\"264\" y=\"114\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span><ol><li>Bestäm trådkraften. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm dragkraften på den undre klossen. Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den undre glider åt höger relativt den övre.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen på den övre är åt höger och balanseras av tråden:</p><div class=\"facit-matte\">\\[S=0{,}25\\cdot 0{,}100\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,25 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Golvet bär 0,200 kg, så golvfriktionen är 0,25 · 0,200g.</p></div><div class=\"facit-stycke\"><p>Den övre klossen ger ytterligare friktion 0,25 · 0,100g åt vänster på den undre.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=0{,}25\\cdot 0{,}300 g\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,74 N.</p></div></div></div>",
+    "t": "<p>Två klossar med massan 0,100 kg vardera ligger staplade. Den undre dras vågrätt åt höger med konstant hastighet. Den övre hålls stilla av en vågrät tråd åt vänster. Friktionstalet är 0,25 både mellan klossarna och mot golvet.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"240\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"9.900 30.609 311.143 120.554\"><line x1=\"24\" y1=\"144\" x2=\"308\" y2=\"144\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><rect x=\"24\" y=\"38\" width=\"16\" height=\"94\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"86\" y=\"102\" width=\"122\" height=\"42\" rx=\"4\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"102\" y=\"66\" width=\"90\" height=\"36\" rx=\"4\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"102\" y1=\"84\" x2=\"40\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"208\" y1=\"123\" x2=\"254\" y2=\"123\" stroke=\"#B43123\" stroke-width=\"2.4\"/><polygon points=\"260,123 252,119 252,127\" fill=\"#B43123\"/><text x=\"264\" y=\"114\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span><ol type=\"a\"><li>Bestäm trådkraften. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm dragkraften på den undre klossen. Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Den undre klossen glider åt höger under den övre. Friktionen på den övre pekar åt höger och balanseras av tråden.</p>\\[N_{\\text{mellan}}=0{,}100\\cdot9{,}82=0{,}982\\,\\mathrm N\\]\\[S=\\mu N_{\\text{mellan}}=0{,}25\\cdot0{,}982=0{,}2455\\,\\mathrm N\\]<p>Svar: 0,25 N.</p><p><strong>b)</strong></p><p>Golvet bär båda klossarna: N från golvet = (0,100 + 0,100) · 9,82 = 1,964 N. Golvfriktionen på den undre klossen är därför 0,25 · 1,964 = 0,491 N åt vänster.</p><p>Den övre klossen ger också friktion åt vänster på den undre: 0,25 · 0,100 · 9,82 = 0,2455 N.</p><p>Vid konstant hastighet balanserar dragkraften båda friktionskrafterna.</p>\\[F=0{,}491+0{,}2455=0{,}7365\\,\\mathrm N\\]<p>Svar: 0,74 N.</p></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "modellering",
@@ -26015,13 +26015,13 @@ window.BANK = [
       0.74
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktionskraft_och_friktionstal",
     "ledtrad": "<p>Frilägg klossarna var för sig. Vilka två kontakter bromsar den undre?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -26046,10 +26046,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm trådkraften. Svara i N. Avrunda vid behov till två decimaler.",
         "t": "<p>Två klossar med massan 0,100 kg vardera ligger staplade. Den undre dras vågrätt åt höger med konstant hastighet. Den övre hålls stilla av en vågrät tråd åt vänster. Friktionstalet är 0,25 både mellan klossarna och mot golvet.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"240\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"9.900 30.609 311.143 120.554\"><line x1=\"24\" y1=\"144\" x2=\"308\" y2=\"144\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><rect x=\"24\" y=\"38\" width=\"16\" height=\"94\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"86\" y=\"102\" width=\"122\" height=\"42\" rx=\"4\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"102\" y=\"66\" width=\"90\" height=\"36\" rx=\"4\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"102\" y1=\"84\" x2=\"40\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"208\" y1=\"123\" x2=\"254\" y2=\"123\" stroke=\"#B43123\" stroke-width=\"2.4\"/><polygon points=\"260,123 252,119 252,127\" fill=\"#B43123\"/><text x=\"264\" y=\"114\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span><p>Bestäm trådkraften. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den undre glider åt höger relativt den övre.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen på den övre är åt höger och balanseras av tråden:</p><div class=\"facit-matte\">\\[S=0{,}25\\cdot 0{,}100\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,25 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den undre klossen glider åt höger under den övre. Friktionen på den övre pekar åt höger och balanseras av tråden.</p>\\[N_{\\text{mellan}}=0{,}100\\cdot9{,}82=0{,}982\\,\\mathrm N\\]\\[S=\\mu N_{\\text{mellan}}=0{,}25\\cdot0{,}982=0{,}2455\\,\\mathrm N\\]<p>Svar: 0,25 N.</p></div>",
         "ledtrad": "<p>Frilägg klossarna var för sig. Vilka två kontakter bromsar den undre?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(0/1/0)"
       },
@@ -26057,10 +26057,10 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm dragkraften på den undre klossen. Svara i N. Avrunda vid behov till två decimaler.",
         "t": "<p>Två klossar med massan 0,100 kg vardera ligger staplade. Den undre dras vågrätt åt höger med konstant hastighet. Den övre hålls stilla av en vågrät tråd åt vänster. Friktionstalet är 0,25 både mellan klossarna och mot golvet.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"240\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"9.900 30.609 311.143 120.554\"><line x1=\"24\" y1=\"144\" x2=\"308\" y2=\"144\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><rect x=\"24\" y=\"38\" width=\"16\" height=\"94\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"86\" y=\"102\" width=\"122\" height=\"42\" rx=\"4\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"102\" y=\"66\" width=\"90\" height=\"36\" rx=\"4\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"102\" y1=\"84\" x2=\"40\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"208\" y1=\"123\" x2=\"254\" y2=\"123\" stroke=\"#B43123\" stroke-width=\"2.4\"/><polygon points=\"260,123 252,119 252,127\" fill=\"#B43123\"/><text x=\"264\" y=\"114\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span><p>Bestäm dragkraften på den undre klossen. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Golvet bär 0,200 kg, så golvfriktionen är 0,25 · 0,200g.</p></div><div class=\"facit-stycke\"><p>Den övre klossen ger ytterligare friktion 0,25 · 0,100g åt vänster på den undre.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=0{,}25\\cdot 0{,}300 g\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,74 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Golvet bär båda klossarna: N från golvet = (0,100 + 0,100) · 9,82 = 1,964 N. Golvfriktionen på den undre klossen är därför 0,25 · 1,964 = 0,491 N åt vänster.</p><p>Den övre klossen ger också friktion åt vänster på den undre: 0,25 · 0,100 · 9,82 = 0,2455 N.</p><p>Vid konstant hastighet balanserar dragkraften båda friktionskrafterna.</p>\\[F=0{,}491+0{,}2455=0{,}7365\\,\\mathrm N\\]<p>Svar: 0,74 N.</p></div>",
         "ledtrad": "<p>Frilägg klossarna var för sig. Vilka två kontakter bromsar den undre?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)"
       }
@@ -27668,8 +27668,8 @@ window.BANK = [
     "omr": "friktion",
     "niva": "A",
     "poang": "(0/3/3)",
-    "t": "<p>Friktionstalet gäller vilofriktion, alltså innan lådan börjar glida. Den vågräta kraften ökas långsamt. Använd g = 9,82 m/s².</p><p>En låda på 20 kg står på golvet i en hiss. Friktionstalet mellan låda och hissgolv är 0,25. Hissen accelererar uppåt med 2,0 m/s².</p><span class=\"fig smal\"><svg height=\"309\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"49.714 29.982 222.000 180.322\"><rect x=\"60\" y=\"40\" width=\"160\" height=\"160\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"95\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"120\" y1=\"200\" x2=\"120\" y2=\"170\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"120,160 124.6,170 115.4,170\" fill=\"#B43123\"/><text x=\"120\" y=\"142\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"165\" y1=\"178\" x2=\"195\" y2=\"178\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"205,178 195,182.6 195,173.4\" fill=\"#B43123\"/><text x=\"212\" y=\"182\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"258\" y1=\"130\" x2=\"258\" y2=\"92\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"258,82 262.6,92 253.4,92\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span>\n<ol><li>Hur stor är normalkraften från hissgolvet?</li>\n<li>Hur stor är den maximala friktionskraften?</li>\n<li>Hur mycket större vågrät kraft F krävs för att få lådan att glida, jämfört med när hissen står stilla?</li>\n<li>Vad händer om hisslinan brister och hissen faller fritt?</li></ol><p>e) Låt hissens lodräta acceleration vara \\(a_h\\), positiv uppåt. Ta fram gränsfriktionen som funktion av \\(a_h\\) när lådan följer golvet. För vilka \\(a_h\\) är denna kontaktmodell möjlig?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lådan följer hissens acceleration uppåt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag lodrätt ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N-mg=ma\\Rightarrow N=m(g+a)\\]\\[N=20(9{,}82+2{,}0)=236{,}4\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den största statiska friktionskraften är proportionell mot normalkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_{\\max}=\\mu N=0{,}25\\cdot236{,}4=59{,}1\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När hissen står stilla är normalkraften mg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_{\\max,0}=\\mu mg=0{,}25\\cdot20\\cdot9{,}82=49{,}1\\ \\mathrm N\\]\\[\\frac{59{,}1}{49{,}1}=1{,}20\\]</div></div><div class=\"facit-stycke\"><p>Det krävs alltså ungefär 20 % större vågrät kraft för att glidningen ska börja.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid fritt fall accelererar både lådan och golvet nedåt med g.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=m(g-g)=0\\Rightarrow f_{\\max}=\\mu N=0\\]</div></div><div class=\"facit-stycke\"><p>Lådan är tyngdlös relativt hissgolvet och kan inte få någon friktionskraft från det.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är \\(236\\ \\mathrm N\\) och den maximala friktionen \\(59\\ \\mathrm N\\). Det är 20 % mer än i en stillastående hiss. Vid fritt fall blir både normalkraften och friktionen noll.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Skillnaden mellan gränskrafterna är</p><div class=\"facit-matte\">\\[59{,}1-49{,}1=10{,}0\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>För glidstart måste kraften överstiga gränsvärdet i den idealiserade modellen.</p></div><div class=\"facit-stycke\"><p>Vid fritt fall finns tyngdkraften kvar; det är normalkraften som försvinner.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Newtons andra lag ger N = m(g + \\(a_{\\mathrm{h}}\\)), så \\(f_{\\mathrm{max}}\\) = μm(g + \\(a_{\\mathrm{h}}\\)) så länge kontakten består.</p></div><div class=\"facit-stycke\"><p>Eftersom N ≥ 0 krävs \\(a_{\\mathrm{h}}\\) ≥ −g.</p></div><div class=\"facit-stycke\"><p>Vid \\(a_{\\mathrm{h}}\\) = −g är gränsfriktionen noll.</p></div><div class=\"facit-stycke\"><p>Om golvet accelererar nedåt snabbare än g skulle formeln kräva en negativ normalkraft.</p></div><div class=\"facit-stycke\"><p>Golvet kan inte dra lådan nedåt; kontakten förloras och lådan följer inte längre golvets acceleration.</p></div></div></div></div></div>",
+    "t": "<p>Friktionstalet gäller vilofriktion, alltså innan lådan börjar glida. Den vågräta kraften ökas långsamt. Använd g = 9,82 m/s².</p><p>En låda på 20 kg står på golvet i en hiss. Friktionstalet mellan låda och hissgolv är 0,25. Hissen accelererar uppåt med 2,0 m/s².</p><span class=\"fig smal\"><svg height=\"309\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"49.714 29.982 222.000 180.322\"><rect x=\"60\" y=\"40\" width=\"160\" height=\"160\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"95\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"120\" y1=\"200\" x2=\"120\" y2=\"170\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"120,160 124.6,170 115.4,170\" fill=\"#B43123\"/><text x=\"120\" y=\"142\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"165\" y1=\"178\" x2=\"195\" y2=\"178\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"205,178 195,182.6 195,173.4\" fill=\"#B43123\"/><text x=\"212\" y=\"182\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"258\" y1=\"130\" x2=\"258\" y2=\"92\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"258,82 262.6,92 253.4,92\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span>\n<ol type=\"a\"><li>Hur stor är normalkraften från hissgolvet?</li>\n<li>Hur stor är den maximala friktionskraften?</li>\n<li>Hur många newton större vågrät kraft F krävs för att få lådan att glida, jämfört med när hissen står stilla?</li>\n<li>Vad händer om hisslinan brister och hissen faller fritt?</li><li> Låt hissens lodräta acceleration vara \\(a_h\\), positiv uppåt. Ta fram gränsfriktionen som funktion av \\(a_h\\) när lådan följer golvet. För vilka \\(a_h\\) är denna kontaktmodell möjlig?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Lådan accelererar uppåt med hissen. Normalkraften måste därför vara större än tyngdkraften.</p>\\[N-mg=ma\\quad\\Rightarrow\\quad N=m(g+a)\\]\\[N=20(9{,}82+2{,}0)=236{,}4\\,\\mathrm N\\]<p><strong>b)</strong> Största vilofriktionen är friktionstalet gånger normalkraften.</p>\\[f_{\\max}=\\mu N=0{,}25\\cdot236{,}4=59{,}1\\,\\mathrm N\\]<p><strong>c)</strong> När hissen står stilla är N = mg. Glidgränsen blir då</p>\\[f_{\\max,0}=0{,}25\\cdot20\\cdot9{,}82=49{,}1\\,\\mathrm N\\]<p>Skillnaden mellan gränskrafterna är 59,1 − 49,1 = 10,0 N. För att glidningen ska börja behöver dragkraften precis överstiga respektive gräns.</p><p><strong>d)</strong> Vid fritt fall accelererar lådan nedåt med g. Då behöver golvet inte bära lådan.</p>\\[N=m(g-g)=0\\quad\\Rightarrow\\quad f_{\\max}=0\\]<p>Tyngdkraften finns kvar, men normalkraften och friktionen från golvet är noll.</p><p><strong>e)</strong> Välj uppåt som positiv riktning. Så länge lådan följer golvet ger Newtons andra lag</p>\\[N-mg=ma_h\\quad\\Rightarrow\\quad N=m(g+a_h)\\]\\[f_{\\max}=\\mu m(g+a_h)\\]<p>Golvet kan bara trycka på lådan, inte dra den nedåt. Därför måste N ≥ 0, vilket kräver a_h ≥ −g. Vid a_h = −g är N och gränsfriktionen noll. Vid a_h &lt; −g förlorar lådan kontakten med golvet och följer inte längre dess acceleration.</p></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "modellering",
@@ -27910,8 +27910,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna friktionskraft på horisontellt underlag",
     "poang": "(2/0/0)",
-    "t": "<p>En låda med massan 16 kg glider åt höger. Friktionstalet är 0,30 och den enda vågräta kraften är friktion. Golvet är vågrätt.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm accelerationen med höger som positiv riktning. Svara i m/s². Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = 16g, så</p><div class=\"facit-matte\">\\[f=0{,}30\\cdot 16\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 47,14 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen är åt vänster. ma = −μ_kmg ger</p><div class=\"facit-matte\">\\[a=-0{,}30 g\\]</div></div></div><div class=\"facit-stycke\"><p>Negativ acceleration bromsar den högerriktade rörelsen.</p></div></div><p class=\"facit-svar\">Svaret är -2,95 m/s².</p></div></div></div>",
+    "t": "<p>En låda med massan 16 kg glider åt höger. Friktionstalet är 0,30 och den enda vågräta kraften är friktion. Golvet är vågrätt.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm accelerationen med höger som positiv riktning. Svara i m/s². Avrunda vid behov till två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Normalkraften är hela tyngdkraften.</p>\\[N=mg=16\\cdot9{,}82=157{,}12\\,\\mathrm N\\]\\[f=\\mu N=0{,}30\\cdot157{,}12=47{,}136\\,\\mathrm N\\]<p>Svar: 47,14 N.</p><p><strong>b)</strong></p><p>Lådan glider åt höger, så friktionen pekar åt vänster. Höger är positiv riktning. Med N = mg blir kraftsumman −μmg.</p>\\[ma=-\\mu mg\\quad\\Rightarrow\\quad a=-\\mu g\\]\\[a=-0{,}30\\cdot9{,}82=-2{,}946\\,\\mathrm{m/s^2}\\]<p>Svar: −2,95 m/s². Den negativa accelerationen minskar lådans fart åt höger.</p></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
       "modellering",
@@ -27924,14 +27924,14 @@ window.BANK = [
       -2.95
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilket tecken får en kraft som pekar mot rörelsen?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
@@ -27954,10 +27954,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.",
         "t": "<p>En låda med massan 16 kg glider åt höger. Friktionstalet är 0,30 och den enda vågräta kraften är friktion. Golvet är vågrätt.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = 16g, så</p><div class=\"facit-matte\">\\[f=0{,}30\\cdot 16\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 47,14 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är hela tyngdkraften.</p>\\[N=mg=16\\cdot9{,}82=157{,}12\\,\\mathrm N\\]\\[f=\\mu N=0{,}30\\cdot157{,}12=47{,}136\\,\\mathrm N\\]<p>Svar: 47,14 N.</p></div>",
         "ledtrad": "<p>Vilket tecken får en kraft som pekar mot rörelsen?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       },
@@ -27965,10 +27965,10 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm accelerationen med höger som positiv riktning. Svara i m/s². Avrunda vid behov till två decimaler.",
         "t": "<p>En låda med massan 16 kg glider åt höger. Friktionstalet är 0,30 och den enda vågräta kraften är friktion. Golvet är vågrätt.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen med höger som positiv riktning. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen är åt vänster. ma = −μ_kmg ger</p><div class=\"facit-matte\">\\[a=-0{,}30 g\\]</div></div></div><div class=\"facit-stycke\"><p>Negativ acceleration bromsar den högerriktade rörelsen.</p></div></div><p class=\"facit-svar\">Svaret är -2,95 m/s².</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lådan glider åt höger, så friktionen pekar åt vänster. Höger är positiv riktning. Med N = mg blir kraftsumman −μmg.</p>\\[ma=-\\mu mg\\quad\\Rightarrow\\quad a=-\\mu g\\]\\[a=-0{,}30\\cdot9{,}82=-2{,}946\\,\\mathrm{m/s^2}\\]<p>Svar: −2,95 m/s². Den negativa accelerationen minskar lådans fart åt höger.</p></div>",
         "ledtrad": "<p>Vilket tecken får en kraft som pekar mot rörelsen?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       }
@@ -27983,8 +27983,8 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Det krävs 95 N för att få en soffa att börja röra sig, men bara 70 N för att sedan hålla den i konstant rörelse.</p>\n<ol><li>Vad kallas de två friktionstyperna?</li><li>Soffan väger 40 kg. Bestäm båda friktionstalen.</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Soffan dras vågrätt över ett vågrätt golv. Bortse från andra vågräta krafter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften som krävs för att starta rörelsen bestäms av maximal vilofriktion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Under glidning verkar glidfriktion.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På vågrätt golv är normalkraften</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg=40\\cdot9{,}82=392{,}8\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna friktionstalen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu_s=\\frac{95}{392{,}8}=0{,}242\\]\\[\\mu_k=\\frac{70}{392{,}8}=0{,}178\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vilofriktionstalet är cirka \\(0{,}24\\) och glidfriktionstalet cirka \\(0{,}18\\).</p></div>",
+    "t": "<p>Det krävs 95 N för att få en soffa att börja röra sig, men bara 70 N för att sedan hålla den i konstant rörelse.</p>\n<ol type=\"a\"><li>Vad kallas de två friktionstyperna?</li><li>Soffan väger 40 kg. Bestäm båda friktionstalen.</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Soffan dras vågrätt över ett vågrätt golv. Bortse från andra vågräta krafter.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften som krävs för att starta rörelsen bestäms av maximal vilofriktion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Under glidning verkar glidfriktion.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På vågrätt golv är normalkraften</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg=40\\cdot9{,}82=392{,}8\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna friktionstalen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu_s=\\frac{95}{392{,}8}\\approx0{,}242\\]\\[\\mu_k=\\frac{70}{392{,}8}\\approx0{,}178\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vilofriktionstalet är cirka \\(0{,}24\\) och glidfriktionstalet cirka \\(0{,}18\\).</p></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
       "begrepp",
@@ -28075,8 +28075,8 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma största dragkraft innan den överliggande klossen glider, ur diagram, sökt kraft",
     "poang": "(1/4/0)",
-    "t": "<p>En kloss på 2,0 kg ligger ovanpå en kloss på 5,0 kg. Den undre klossen står på ett friktionsfritt underlag och dras med kraften F. Friktionstalet mellan klossarna är 0,30; använd samma värde vid glidgränsen och under glidning. Kraften F är vågrät.</p><span class=\"fig bred\"><svg height=\"192\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 41.523 440.000 136.523\"><rect x=\"15\" y=\"140\" width=\"410\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"140\" x2=\"425\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"130\" y=\"92\" width=\"150\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"165\" y=\"50\" width=\"80\" height=\"42\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"280\" y1=\"116\" x2=\"342\" y2=\"116\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"352,116 342,120.6 342,111.4\" fill=\"#B43123\"/><text x=\"360\" y=\"120\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"120\" y1=\"88\" x2=\"163\" y2=\"92\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"116\" y=\"91\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">μ = 0,30</text><text x=\"220\" y=\"168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">friktionsfritt underlag</text></svg></span>\n<ol><li>Vilken är den största acceleration den övre klossen kan få?</li>\n<li>Hur stor får F som mest vara om klossarna ska följas åt?</li>\n<li>Vad händer om man drar med 30 N?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den enda vågräta kraften på den övre klossen är friktionen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_{s,\\max}=\\mu m_1g=m_1a_{\\max}\\Rightarrow a_{\\max}=\\mu g=2{,}95\\ \\mathrm{m/s^2}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När klossarna följs åt accelererar F hela massan 7,0 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\max}=(2{,}0+5{,}0)2{,}946=20{,}6\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 30 N glider klossarna mot varandra.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Med friktionskraften \\(0{,}30\\cdot2{,}0\\cdot9{,}82=5{,}89\\ \\mathrm N\\) får den undre klossen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a_2=\\frac{30-5{,}89}{5{,}0}=4{,}82\\ \\mathrm{m/s^2}\\]</div></div><div class=\"facit-stycke\"><p>Den övre når bara 2,95 m/s² och halkar bakåt relativt den undre.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Största gemensamma acceleration är \\(2{,}95\\ \\mathrm{m/s^2}\\), vilket kräver högst cirka \\(20{,}6\\ \\mathrm N\\). Vid 30 N glider klossarna isär.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid 30 N accelererar båda klossarna åt höger, men den undre snabbare.</p></div><div class=\"facit-stycke\"><p>Den övre glider därför bakåt relativt den undre, inte nödvändigtvis bakåt relativt marken.</p></div></div></div>",
+    "t": "<p>En kloss på 2,0 kg ligger ovanpå en kloss på 5,0 kg. Den undre klossen står på ett friktionsfritt underlag och dras med kraften F. Friktionstalet mellan klossarna är 0,30; använd samma värde vid glidgränsen och under glidning. Kraften F är vågrät.</p><span class=\"fig bred\"><svg height=\"192\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 41.523 440.000 136.523\"><rect x=\"15\" y=\"140\" width=\"410\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"140\" x2=\"425\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"130\" y=\"92\" width=\"150\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"165\" y=\"50\" width=\"80\" height=\"42\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"280\" y1=\"116\" x2=\"342\" y2=\"116\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"352,116 342,120.6 342,111.4\" fill=\"#B43123\"/><text x=\"360\" y=\"120\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"120\" y1=\"88\" x2=\"163\" y2=\"92\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"116\" y=\"91\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">μ = 0,30</text><text x=\"220\" y=\"168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">friktionsfritt underlag</text></svg></span>\n<ol type=\"a\"><li>Vilken är den största acceleration den övre klossen kan få?</li>\n<li>Hur stor får F som mest vara om klossarna ska följas åt?</li>\n<li>Vad händer om man drar med 30 N?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Friktionen är den enda vågräta kraften på den övre klossen. Dess normalkraft är m₁g. Den största friktionen ger därför den största accelerationen:</p>\\[m_1a_{\\max}=\\mu m_1g\\quad\\Rightarrow\\quad a_{\\max}=\\mu g\\]\\[a_{\\max}=0{,}30\\cdot9{,}82=2{,}946\\,\\mathrm{m/s^2}\\]<p>Svar: cirka 2,95 m/s².</p><p><strong>b)</strong> När klossarna följs åt accelererar kraften F den sammanlagda massan 2,0 + 5,0 = 7,0 kg.</p>\\[F_{\\max}=7{,}0\\cdot2{,}946=20{,}622\\,\\mathrm N\\]<p>Svar: cirka 20,6 N.</p><p><strong>c)</strong> Kraften 30 N överstiger gränsen, så klossarna glider mot varandra. Friktionen mellan dem är f = 0,30 · 2,0 · 9,82 = 5,892 N. Den accelererar den övre framåt och bromsar den undre.</p>\\[a_1=\\frac{5{,}892}{2{,}0}=2{,}946\\,\\mathrm{m/s^2}\\]\\[a_2=\\frac{30-5{,}892}{5{,}0}\\approx4{,}82\\,\\mathrm{m/s^2}\\]<p>Båda accelererar åt höger, men den undre snabbare. Den övre glider därför bakåt i förhållande till den undre.</p></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "begrepp",
@@ -28106,8 +28106,8 @@ window.BANK = [
     "niva": "E",
     "typ": "avläsa maximal statisk och kinetisk friktionskraft ur ett kraft-tid-diagram och bestämma två friktionstal, ur diagram, sökt kraft och friktionstal",
     "poang": "(4/0/0)",
-    "t": "<p>En låda med massan 20 kg dras vågrätt över ett vågrätt golv. Diagrammet visar dragkraften. Lådan börjar glida vid 2,0 s; från 2,4 s hålls hastigheten konstant.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"108\" y1=\"26\" x2=\"108\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"108\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"216\" y1=\"26\" x2=\"216\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"216\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"324\" y1=\"26\" x2=\"324\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"324\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"432\" y1=\"26\" x2=\"432\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"432\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">7</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 162,48 183.6,114 486,114\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"162\" cy=\"48\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"183.6\" cy=\"114\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"114\" r=\"3.3\" fill=\"#B43123\"/></svg></span><ol><li>Läs av maximal vilofriktion. Svara i N. Avrunda vid behov till två decimaler.</li><li>Läs av glidfriktionen under den jämna rörelsen. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm det statiska friktionstalet. Avrunda vid behov till två decimaler.</li><li>Bestäm glidfriktionstalet. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Precis före rörelsen balanserar vilofriktionen dragkraften.</p></div><div class=\"facit-stycke\"><p>Grafens topp är 90 N.</p></div></div><p class=\"facit-svar\">Svaret är 90 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På platån är hastigheten konstant, så friktionen är lika stor som dragkraften 60 N.</p></div></div><p class=\"facit-svar\">Svaret är 60 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=20 g=196{,}4\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Grafens topp ger</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{s}}=\\frac{90}{196{,}4}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,46.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=196{,}4\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Platån vid konstant hastighet ger</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{k}}=\\frac{60}{196{,}4}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,31.</p></div></div></div>",
+    "t": "<p>En låda med massan 20 kg dras vågrätt över ett vågrätt golv. Diagrammet visar dragkraften. Lådan börjar glida vid 2,0 s; från 2,4 s hålls hastigheten konstant.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"108\" y1=\"26\" x2=\"108\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"108\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"216\" y1=\"26\" x2=\"216\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"216\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"324\" y1=\"26\" x2=\"324\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"324\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"432\" y1=\"26\" x2=\"432\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"432\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">7</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 162,48 183.6,114 486,114\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"162\" cy=\"48\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"183.6\" cy=\"114\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"114\" r=\"3.3\" fill=\"#B43123\"/></svg></span><ol type=\"a\"><li>Läs av maximal vilofriktion. Svara i N. Avrunda vid behov till två decimaler.</li><li>Läs av glidfriktionen under den jämna rörelsen. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm det statiska friktionstalet. Avrunda vid behov till två decimaler.</li><li>Bestäm glidfriktionstalet. Avrunda vid behov till två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Precis före rörelsen balanserar vilofriktionen dragkraften.</p></div><div class=\"facit-stycke\"><p>Grafens topp är 90 N.</p></div></div><p class=\"facit-svar\">Svaret är 90 N.</p><p><strong>b)</strong></p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På platån är hastigheten konstant, så friktionen är lika stor som dragkraften 60 N.</p></div></div><p class=\"facit-svar\">Svaret är 60 N.</p><p><strong>c)</strong></p><p>Golvet bär lådans tyngd.</p>\\[N=mg=20\\cdot9{,}82=196{,}4\\,\\mathrm N\\]<p>Vilofriktionens största värde är grafens topp, 90 N.</p>\\[\\mu_{s}=\\frac{f}{N}=\\frac{90}{196{,}4}\\approx0{,}46\\]<p><strong>d)</strong></p><p>Golvet bär lådans tyngd.</p>\\[N=mg=20\\cdot9{,}82=196{,}4\\,\\mathrm N\\]<p>Vid konstant hastighet är glidfriktionen lika stor som dragkraften på platån, 60 N.</p>\\[\\mu_{k}=\\frac{f}{N}=\\frac{60}{196{,}4}\\approx0{,}31\\]</div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
       "modellering",
@@ -28124,12 +28124,12 @@ window.BANK = [
     "tolerans": [
       0,
       0,
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilka delar av diagrammet motsvarar gränsen för vila respektive konstant hastighet?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -28174,7 +28174,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På platån är hastigheten konstant, så friktionen är lika stor som dragkraften 60 N.</p></div></div><p class=\"facit-svar\">Svaret är 60 N.</p></div>",
         "ledtrad": "<p>Vilka delar av diagrammet motsvarar gränsen för vila respektive konstant hastighet?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -28182,10 +28182,10 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm det statiska friktionstalet. Avrunda vid behov till två decimaler.",
         "t": "<p>En låda med massan 20 kg dras vågrätt över ett vågrätt golv. Diagrammet visar dragkraften. Lådan börjar glida vid 2,0 s; från 2,4 s hålls hastigheten konstant.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"108\" y1=\"26\" x2=\"108\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"108\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"216\" y1=\"26\" x2=\"216\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"216\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"324\" y1=\"26\" x2=\"324\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"324\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"432\" y1=\"26\" x2=\"432\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"432\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">7</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 162,48 183.6,114 486,114\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"162\" cy=\"48\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"183.6\" cy=\"114\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"114\" r=\"3.3\" fill=\"#B43123\"/></svg></span><p>Bestäm det statiska friktionstalet. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=20 g=196{,}4\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Grafens topp ger</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{s}}=\\frac{90}{196{,}4}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,46.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Golvet bär lådans tyngd.</p>\\[N=mg=20\\cdot9{,}82=196{,}4\\,\\mathrm N\\]<p>Vilofriktionens största värde är grafens topp, 90 N.</p>\\[\\mu_{s}=\\frac{f}{N}=\\frac{90}{196{,}4}\\approx0{,}46\\]</div>",
         "ledtrad": "<p>Vilka delar av diagrammet motsvarar gränsen för vila respektive konstant hastighet?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       },
@@ -28193,10 +28193,10 @@ window.BANK = [
         "etikett": "d",
         "fraga": "Bestäm glidfriktionstalet. Avrunda vid behov till två decimaler.",
         "t": "<p>En låda med massan 20 kg dras vågrätt över ett vågrätt golv. Diagrammet visar dragkraften. Lådan börjar glida vid 2,0 s; från 2,4 s hålls hastigheten konstant.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"108\" y1=\"26\" x2=\"108\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"108\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"216\" y1=\"26\" x2=\"216\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"216\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"324\" y1=\"26\" x2=\"324\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"324\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"432\" y1=\"26\" x2=\"432\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"432\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">7</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 162,48 183.6,114 486,114\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"162\" cy=\"48\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"183.6\" cy=\"114\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"114\" r=\"3.3\" fill=\"#B43123\"/></svg></span><p>Bestäm glidfriktionstalet. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=196{,}4\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Platån vid konstant hastighet ger</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{k}}=\\frac{60}{196{,}4}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,31.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Golvet bär lådans tyngd.</p>\\[N=mg=20\\cdot9{,}82=196{,}4\\,\\mathrm N\\]<p>Vid konstant hastighet är glidfriktionen lika stor som dragkraften på platån, 60 N.</p>\\[\\mu_{k}=\\frac{f}{N}=\\frac{60}{196{,}4}\\approx0{,}31\\]</div>",
         "ledtrad": "<p>Vilka delar av diagrammet motsvarar gränsen för vila respektive konstant hastighet?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       }
@@ -28379,7 +28379,7 @@ window.BANK = [
     "omr": "friktion",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En bil kör i 90 km/h och tvärbromsar. Bromssträckan blir 48 m.</p>\n<ol><li>Vilken retardation har bilen?</li><li>Vilket friktionstal motsvarar det mellan däck och väg?</li>\n<li>Går det att avgöra enbart från detta värde om vägen är torr eller våt? Motivera.</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Anta vågrät väg, konstant retardation och att däck–väg-kraften är den enda vågräta kraften. I b söker du det effektiva friktionstal som bromsningen motsvarar.</p>",
+    "t": "<p>En bil kör i 90 km/h och tvärbromsar. Bromssträckan blir 48 m.</p>\n<ol type=\"a\"><li>Vilken retardation har bilen?</li><li>Vilket friktionstal motsvarar det mellan däck och väg?</li>\n<li>Går det att avgöra enbart från detta värde om vägen är torr eller våt? Motivera.</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Anta vågrät väg, konstant retardation och att däck–väg-kraften är den enda vågräta kraften. I b söker du det effektiva friktionstal som bromsningen motsvarar.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Startfarten är</p><div class=\"facit-matte\">\\[\\frac{90}{3{,}6}=25\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ur 0 = 25² − 2bs fås</p><div class=\"facit-matte\">\\[b=\\frac{625}{2\\cdot 48}\\approx 6{,}51\\, \\mathrm{m/s^2}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den effektiva bromskraften är mb.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med N = mg fås</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{eff}}=\\frac{b}{g}\\approx 0{,}663\\]</div></div></div><div class=\"facit-stycke\"><p>Det är inte automatiskt underlagets största möjliga friktionstal om bromsningen inte utnyttjar hela väggreppet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej.</p></div><div class=\"facit-stycke\"><p>Modellen ger ett värde på utnyttjat väggrepp, men vägens fuktighet kan inte bestämmas entydigt.</p></div><div class=\"facit-stycke\"><p>Även däck och bromsförlopp påverkar.</p></div><div class=\"facit-stycke\"><p>Ett antagande om torr eller våt väg följer inte av mätningen ensam.</p></div></div></div></div></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
@@ -28533,7 +28533,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En låda med massan 10 kg dras av en kraft F som pekar 30° över ett vågrätt golv. Friktionstalet är 0,32. Lådan ligger från början stilla och kan inte tippa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"178\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"5.314 50.526 304.686 87.313\"><rect x=\"44\" y=\"76\" width=\"96\" height=\"56\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"92\" y=\"108\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#2B2527\">10 kg</text><line x1=\"20\" y1=\"132\" x2=\"310\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140.0\" y1=\"104.0\" x2=\"198.9\" y2=\"70.0\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"204.1,67.0 195.2,67.5 199.2,74.5\" fill=\"#B43123\"/><text x=\"216.08587988004848\" y=\"63.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"140\" y1=\"104\" x2=\"202\" y2=\"104\" stroke=\"#9A959C\" stroke-dasharray=\"4 3\"/><path d=\"M 172,104 A 32,32 0 0,0 167.7,88.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"180\" y=\"94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">30°</text></svg></span><p>Bestäm F vid gränsen till glidning. Svara i N. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lodrätt:</p><div class=\"facit-matte\">\\[N=m g-F \\sin 30^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid glidgränsen är</p><div class=\"facit-matte\">\\[F \\cos 30^{\\circ}=0{,}32 N\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[F \\left(\\cos 30^{\\circ}+0{,}32 \\sin 30^{\\circ}\\right)=0{,}32\\cdot 10\\cdot 9{,}82\\]</div></div></div><div class=\"facit-stycke\"><p>Normalkraften blir positiv, så kontakten finns kvar.</p></div></div><p class=\"facit-svar\">Svaret är 30,63 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens uppåtriktade del minskar normalkraften: N = mg − F sin30°. Vid gränsen till glidning balanserar den största vilofriktionen den vågräta dragkraften.</p>\\[F\\cos30^\\circ=\\mu(mg-F\\sin30^\\circ)\\]<p>Samla termerna med F och dela med faktorn framför F.</p>\\[F=\\frac{\\mu mg}{\\cos30^\\circ+\\mu\\sin30^\\circ}\\]\\[F=\\frac{0{,}32\\cdot10\\cdot9{,}82}{\\cos30^\\circ+0{,}32\\sin30^\\circ}\\approx30{,}63\\,\\mathrm N\\]<p>Normalkraften är cirka 82,9 N, så lådan har fortfarande kontakt med golvet.</p></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "modellering",
@@ -28542,7 +28542,7 @@ window.BANK = [
     "familjNyckel": "friktion__sned_dragkraft_och_friktion",
     "svarstyp": "numeriskt",
     "rättSvar": 30.63,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Hur påverkas normalkraften när dragkraften ökar?</p>",
     "traningsniva": 4,
@@ -28562,7 +28562,7 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En låda glider med konstant hastighet över ett vågrätt golv när den trycks vågrätt med 52 N. Friktionstalet är 0,35.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm lådans massa. Svara i kg. Avrunda vid behov till två decimaler.</li><li>Vilken vågrät kraft behövs för samma lådas konstanta hastighet på ett annat golv med friktionstalet 0,20? Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>En låda glider med konstant hastighet över ett vågrätt golv när den trycks vågrätt med 52 N. Friktionstalet är 0,35.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm lådans massa. Svara i kg. Avrunda vid behov till två decimaler.</li><li>Vilken vågrät kraft behövs för samma lådas konstanta hastighet på ett annat golv med friktionstalet 0,20? Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet ger</p><div class=\"facit-matte\">\\[52=0{,}35 m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[m=\\frac{52}{0{,}35\\cdot 9{,}82}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 15,13 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma massa ger samma N.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraften är proportionell mot μ_k:</p><div class=\"facit-matte\">\\[F=\\frac{52\\cdot 0{,}20}{0{,}35}\\]</div></div></div><div class=\"facit-stycke\"><p>Det undviker avrundning av massan.</p></div></div><p class=\"facit-svar\">Svaret är 29,71 N.</p></div></div></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
@@ -28576,13 +28576,13 @@ window.BANK = [
       29.71
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktionskraft_och_friktionstal",
     "ledtrad": "<p>Vilka storheter är oförändrade när golvet byts?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -28610,7 +28610,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet ger</p><div class=\"facit-matte\">\\[52=0{,}35 m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[m=\\frac{52}{0{,}35\\cdot 9{,}82}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 15,13 kg.</p></div>",
         "ledtrad": "<p>Vilka storheter är oförändrade när golvet byts?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       },
@@ -28621,7 +28621,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma massa ger samma N.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraften är proportionell mot μ_k:</p><div class=\"facit-matte\">\\[F=\\frac{52\\cdot 0{,}20}{0{,}35}\\]</div></div></div><div class=\"facit-stycke\"><p>Det undviker avrundning av massan.</p></div></div><p class=\"facit-svar\">Svaret är 29,71 N.</p></div>",
         "ledtrad": "<p>Vilka storheter är oförändrade när golvet byts?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       }
@@ -28668,8 +28668,8 @@ window.BANK = [
     "omr": "friktion",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En låda står oförankrad på ett lastbilsflak. Det statiska friktionstalet mellan låda och flak är 0,35. Lastbilen bromsar med retardationen 4,0 m/s².</p>\n<ol><li>Vilken är den största retardation lådan kan följa med i?</li>\n<li>Vad händer vid den aktuella inbromsningen?</li>\n<li>Spelar lådans massa någon roll?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Flaket är vågrätt. Bortse från luftmotstånd och tippning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den största statiska friktionen är den enda kraft som kan bromsa lådan tillsammans med flaket.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_{s,\\max}=\\mu mg=ma_{\\max}\\Rightarrow a_{\\max}=\\mu g\\]\\[a_{\\max}=0{,}35\\cdot9{,}82=3{,}44\\ \\mathrm{m/s^2}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den aktuella retardationen är större än gränsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4{,}0&gt;3{,}44\\]</div></div><div class=\"facit-stycke\"><p>Lådan kan inte följa flakets inbromsning och glider framåt relativt flaket.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan förkortas bort i \\(\\mu mg=ma\\).</p></div><div class=\"facit-stycke\"><p>Gränsaccelerationen är oberoende av lådans massa.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lådan kan följa med upp till cirka \\(3{,}44\\ \\mathrm{m/s^2}\\). Vid \\(4{,}0\\ \\mathrm{m/s^2}\\) glider den framåt.</p></div>",
+    "t": "<p>En låda står utan att vara fastspänd på ett lastbilsflak. Det statiska friktionstalet mellan låda och flak är 0,35. Lastbilen bromsar med retardationen 4,0 m/s².</p>\n<ol type=\"a\"><li>Vilken är den största retardation lådan kan följa med i?</li>\n<li>Vad händer vid den aktuella inbromsningen?</li>\n<li>Spelar lådans massa någon roll?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Flaket är vågrätt. Bortse från luftmotstånd och tippning.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den största statiska friktionen är den enda kraft som kan bromsa lådan tillsammans med flaket.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_{s,\\max}=\\mu mg=ma_{\\max}\\Rightarrow a_{\\max}=\\mu g\\]\\[a_{\\max}=0{,}35\\cdot9{,}82\\approx3{,}44\\ \\mathrm{m/s^2}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den aktuella retardationen är större än gränsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4{,}0&gt;3{,}44\\]</div></div><div class=\"facit-stycke\"><p>Lådan kan inte följa flakets inbromsning och glider framåt relativt flaket.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan förkortas bort i \\(\\mu mg=ma\\).</p></div><div class=\"facit-stycke\"><p>Gränsaccelerationen är oberoende av lådans massa.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lådan kan följa med upp till cirka \\(3{,}44\\ \\mathrm{m/s^2}\\). Vid \\(4{,}0\\ \\mathrm{m/s^2}\\) glider den framåt.</p></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "begrepp",
@@ -28698,8 +28698,8 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma friktionskraft vid kraft i vinkel, ur text, sökt friktionskraft",
     "poang": "(1/2/0)",
-    "t": "<p>En låda med massan 18 kg dras med konstant fart över ett vågrätt golv. Dragkraften är 120 N och pekar 30° uppåt från golvet.</p>\n<ol><li>Hur stor är kraftens vågräta komposant?</li><li>Hur stor är friktionskraften?</li>\n<li>Är normalkraften lika stor som tyngdkraften? Motivera.</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela upp dragkraften i komponenter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=120\\cos30^\\circ=103{,}9\\ \\mathrm N\\]\\[F_y=120\\sin30^\\circ=60{,}0\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Konstant fart ger noll vågrät resultant.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f=F_x=103{,}9\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den uppåtriktade komponenten minskar golvets normalkraft.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N+F_y-mg=0\\]\\[N=18\\cdot9{,}82-60{,}0=116{,}8\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den vågräta komponenten och friktionen är cirka \\(104\\ \\mathrm N\\). Normalkraften är cirka \\(117\\ \\mathrm N\\), alltså mindre än tyngdkraften.</p></div>",
+    "t": "<p>En låda med massan 18 kg dras med konstant fart över ett vågrätt golv. Dragkraften är 120 N och pekar 30° uppåt från golvet.</p>\n<ol type=\"a\"><li>Hur stor är kraftens vågräta del?</li><li>Hur stor är friktionskraften?</li>\n<li>Är normalkraften lika stor som tyngdkraften? Motivera.</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela upp dragkraften i komponenter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=120\\cos30^\\circ\\approx103{,}9\\ \\mathrm N\\]\\[F_y=120\\sin30^\\circ=60{,}0\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Konstant fart ger noll vågrät resultant.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f=F_x\\approx103{,}9\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den uppåtriktade komponenten minskar golvets normalkraft.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N+F_y-mg=0\\]\\[N=18\\cdot9{,}82-60{,}0=116{,}76\\ \\mathrm N\\approx116{,}8\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den vågräta komponenten och friktionen är cirka \\(104\\ \\mathrm N\\). Normalkraften är cirka \\(117\\ \\mathrm N\\), alltså mindre än tyngdkraften.</p></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "begrepp",
@@ -28729,7 +28729,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En låda glider 9,2 m på ett vågrätt golv under 2,3 s tills den stannar. Efter den första knuffen är glidfriktionen den enda vågräta kraften. Glidfriktionstalet är konstant.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"180\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"5.486 60.434 314.514 91.108\"><rect x=\"55\" y=\"66\" width=\"100\" height=\"52\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"105\" y=\"96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#2B2527\">låda</text><line x1=\"20\" y1=\"118\" x2=\"310\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"155.0\" y1=\"92.0\" x2=\"224.0\" y2=\"92.0\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"230.0,92.0 222.0,88.0 222.0,96.0\" fill=\"#2A5D9E\"/><text x=\"224\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v</text><line x1=\"105.0\" y1=\"118.0\" x2=\"61.0\" y2=\"118.0\" stroke=\"#B43123\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><polygon points=\"55.0,118.0 63.0,122.0 63.0,114.0\" fill=\"#B43123\"/><text x=\"46\" y=\"109\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">f</text><line x1=\"55.0\" y1=\"132.0\" x2=\"260.0\" y2=\"132.0\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"55.0\" y1=\"129.0\" x2=\"55.0\" y2=\"135.0\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"260.0\" y1=\"129.0\" x2=\"260.0\" y2=\"135.0\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"157.5\" y=\"145.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#5C575E\">9,2 m</text></svg></span><p>Bestäm glidfriktionstalet. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant retardation och slutfarten noll ger</p><div class=\"facit-matte\">\\[s=\\frac{v_{0} t}{2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför v₀ = 2s/t = 8,0 m/s och</p><div class=\"facit-matte\">\\[b=\\frac{v_{0}}{t}=\\frac{2 s}{t^{2}}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ur mb = μ_kmg fås</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{k}}=\\frac{2 s}{g t^{2}}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,35.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant retardation är medelfarten halva startfarten när slutfarten är noll.</p>\\[s=\\frac{v_0t}{2}\\quad\\Rightarrow\\quad v_0=\\frac{2s}{t}=\\frac{2\\cdot9{,}2}{2{,}3}=8{,}0\\,\\mathrm{m/s}\\]<p>Farten minskar med 8,0 m/s under 2,3 s.</p>\\[b=\\frac{v_0}{t}=\\frac{8{,}0}{2{,}3}\\,\\mathrm{m/s^2}\\]<p>Glidfriktionen är den enda bromsande kraften. Med N = mg ger mb = μmg att μ = b/g.</p>\\[\\mu=\\frac{8{,}0}{2{,}3\\cdot9{,}82}\\approx0{,}35\\]</div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "modellering",
@@ -28738,7 +28738,7 @@ window.BANK = [
     "familjNyckel": "friktion__bromsning_med_friktion",
     "svarstyp": "numeriskt",
     "rättSvar": 0.35,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Vad kan stoppsträckan och stopptiden säga om startfarten?</p>",
     "traningsniva": 3,
@@ -28820,8 +28820,8 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Ellen drar en låda med massan 8,0 kg vågrätt och med konstant hastighet över ett vågrätt golv. Friktionstalet är 0,30.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm Ellens dragkraft. Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=m g=8{,}0\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 78,56 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[f=\\mu_{\\mathrm{kN}}=0{,}30\\cdot 8{,}0\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 23,57 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Hastigheten är konstant, så dragkraften måste balansera friktionen:</p><div class=\"facit-matte\">\\[F=0{,}30\\cdot 8{,}0\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 23,57 N.</p></div></div></div>",
+    "t": "<p>Ellen drar en låda med massan 8,0 kg vågrätt och med konstant hastighet över ett vågrätt golv. Friktionstalet är 0,30.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm Ellens dragkraft. Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Dragkraften är vågrät, så golvet bär hela tyngden.</p>\\[N=mg=8{,}0\\cdot9{,}82=78{,}56\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Golvet bär hela tyngden: N = mg = 8,0 · 9,82 = 78,56 N. Glidfriktionen är</p>\\[f=\\mu N=0{,}30\\cdot78{,}56=23{,}568\\,\\mathrm N\\]<p>Svar: 23,57 N.</p><p><strong>c)</strong></p><p>Vid konstant hastighet måste Ellens dragkraft balansera glidfriktionen. Golvet bär hela tyngden, N = 8,0 · 9,82 = 78,56 N.</p>\\[F=f=\\mu N=0{,}30\\cdot78{,}56=23{,}568\\,\\mathrm N\\]<p>Svar: 23,57 N.</p></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
       "begrepp",
@@ -28836,8 +28836,8 @@ window.BANK = [
     ],
     "tolerans": [
       0,
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktionskraft_och_friktionstal",
@@ -28870,10 +28870,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.",
         "t": "<p>Ellen drar en låda med massan 8,0 kg vågrätt och med konstant hastighet över ett vågrätt golv. Friktionstalet är 0,30.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=m g=8{,}0\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 78,56 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften är vågrät, så golvet bär hela tyngden.</p>\\[N=mg=8{,}0\\cdot9{,}82=78{,}56\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vad innebär konstant hastighet för kraftbalansen?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -28881,7 +28881,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.",
         "t": "<p>Ellen drar en låda med massan 8,0 kg vågrätt och med konstant hastighet över ett vågrätt golv. Friktionstalet är 0,30.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[f=\\mu_{\\mathrm{kN}}=0{,}30\\cdot 8{,}0\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 23,57 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Golvet bär hela tyngden: N = mg = 8,0 · 9,82 = 78,56 N. Glidfriktionen är</p>\\[f=\\mu N=0{,}30\\cdot78{,}56=23{,}568\\,\\mathrm N\\]<p>Svar: 23,57 N.</p></div>",
         "ledtrad": "<p>Vad innebär konstant hastighet för kraftbalansen?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -28892,7 +28892,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm Ellens dragkraft. Svara i N. Avrunda vid behov till två decimaler.",
         "t": "<p>Ellen drar en låda med massan 8,0 kg vågrätt och med konstant hastighet över ett vågrätt golv. Friktionstalet är 0,30.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm Ellens dragkraft. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Hastigheten är konstant, så dragkraften måste balansera friktionen:</p><div class=\"facit-matte\">\\[F=0{,}30\\cdot 8{,}0\\cdot 9{,}82\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 23,57 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant hastighet måste Ellens dragkraft balansera glidfriktionen. Golvet bär hela tyngden, N = 8,0 · 9,82 = 78,56 N.</p>\\[F=f=\\mu N=0{,}30\\cdot78{,}56=23{,}568\\,\\mathrm N\\]<p>Svar: 23,57 N.</p></div>",
         "ledtrad": "<p>Vad innebär konstant hastighet för kraftbalansen?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -28911,7 +28911,7 @@ window.BANK = [
     "niva": "C",
     "typ": "identifiera drivande friktionskraft vid acceleration, ur diagram, sökt resonemang",
     "poang": "(1/2/0)",
-    "t": "<p>En låda står oförankrad på ett lastbilsflak. Lastbilen accelererar framåt och lådan följer med utan att glida.</p><span class=\"fig bred\"><svg height=\"237\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 6.867 400.000 152.801\"><rect x=\"30\" y=\"96\" width=\"300\" height=\"30\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"250\" y=\"52\" width=\"80\" height=\"46\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"136\" r=\"15\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"136\" r=\"15\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"70\" y=\"52\" width=\"74\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"107\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">låda</text><line x1=\"10\" y1=\"151\" x2=\"390\" y2=\"151\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"150\" y1=\"30\" x2=\"240\" y2=\"30\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><polygon points=\"250,30 240,34.6 240,25.4\" fill=\"#2A5D9E\"/><text x=\"200\" y=\"21\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på den markerade kroppen. Märk ut varje kraft med namn och rita pilen från rätt angreppspunkt.</p>\n<ol><li>Vilka krafter verkar på lådan?</li><li>Vilken kraft får lådan att accelerera framåt?</li>\n<li>Vad händer om accelerationen blir för stor?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Flaket är vågrätt. Bortse från luftmotstånd och tippning.</p>",
+    "t": "<p>En låda står utan att vara fastspänd på ett lastbilsflak. Lastbilen accelererar framåt och lådan följer med utan att glida.</p><span class=\"fig bred\"><svg height=\"237\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 6.867 400.000 152.801\"><rect x=\"30\" y=\"96\" width=\"300\" height=\"30\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"250\" y=\"52\" width=\"80\" height=\"46\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"136\" r=\"15\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"136\" r=\"15\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"70\" y=\"52\" width=\"74\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"107\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">låda</text><line x1=\"10\" y1=\"151\" x2=\"390\" y2=\"151\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"150\" y1=\"30\" x2=\"240\" y2=\"30\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><polygon points=\"250,30 240,34.6 240,25.4\" fill=\"#2A5D9E\"/><text x=\"200\" y=\"21\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span>\n<ol type=\"a\"><li>Rita och namnge krafterna på lådan.</li><li>Vilken kraft får lådan att accelerera framåt?</li>\n<li>Vad händer om accelerationen blir för stor?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Flaket är vågrätt. Bortse från luftmotstånd och tippning.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 360\" width=\"480\" height=\"360\"><rect width=\"480\" height=\"360\" fill=\"white\"/><defs><marker id=\"ar7\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10Z\" fill=\"#a95343\"/></marker></defs><rect x=\"160\" y=\"150\" width=\"140\" height=\"40\" rx=\"8\" fill=\"#e4edf3\" stroke=\"#293747\"/><text x=\"230\" y=\"178\" font-family=\"sans-serif\" text-anchor=\"middle\" font-size=\"15\">låda</text><path d=\"M200 190 L200 80\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"175\" y=\"62\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">N</text><path d=\"M230 170 L230 280\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"239\" y=\"303\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">F_g</text><path d=\"M260 190 L330 190\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"338\" y=\"196\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">f</text></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På lådan verkar tyngdkraften, normalkraften och statisk friktion framåt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Friktionen är den enda vågräta kraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_s=ma\\]</div></div><div class=\"facit-stycke\"><p>Den får lådan att accelerera tillsammans med flaket.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Friktionen kan högst bli \\(\\mu_sN=\\mu_smg\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[ma\\leq\\mu_smg\\Rightarrow a\\leq\\mu_sg\\]</div></div><div class=\"facit-stycke\"><p>Vid större acceleration glider lådan bakåt relativt flaket.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Statisk friktion framåt accelererar lådan. Gränsen för att följa med är \\(a_{\\max}=\\mu_sg\\).</p></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
@@ -30239,8 +30239,8 @@ window.BANK = [
     "niva": "C",
     "typ": "Friktion i jämvikt",
     "poang": "(2/2/0)",
-    "t": "<p>En kloss med massan 2,0 kg trycks mot en lodrät vägg med en vågrät kraft från en hand. Klossen glider inte.</p><span class=\"fig smal\"><svg height=\"258\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"120.057 11.954 258.971 176.159\"><line x1=\"140\" y1=\"22\" x2=\"140\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"30\" x2=\"132\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"40\" x2=\"132\" y2=\"32\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"50\" x2=\"132\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"60\" x2=\"132\" y2=\"52\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"70\" x2=\"132\" y2=\"62\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"80\" x2=\"132\" y2=\"72\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"90\" x2=\"132\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"100\" x2=\"132\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"110\" x2=\"132\" y2=\"102\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"120\" x2=\"132\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"130\" x2=\"132\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"140\" x2=\"132\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"150\" x2=\"132\" y2=\"142\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"160\" x2=\"132\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"170\" x2=\"132\" y2=\"162\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><rect x=\"140\" y=\"68\" width=\"62\" height=\"62\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"204\" y=\"74\" width=\"28\" height=\"50\" rx=\"12\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"228\" y=\"88\" width=\"96\" height=\"22\" rx=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"171\" cy=\"99\" r=\"3.5\" fill=\"#2B2527\"/><text x=\"171\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 kg</text><text x=\"340\" y=\"103\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">hand</text></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på den markerade kroppen. Märk ut varje kraft med namn och rita pilen från rätt angreppspunkt.</p><ol><li>Vilka fyra krafter verkar på klossen?</li>\n<li>Hur stor är friktionskraften och åt vilket håll pekar den? Motivera.</li>\n<li>Handen trycker hårdare, men klossen glider fortfarande inte. Ändras friktionskraften?</li>\n<li>Varför ökar ändå marginalen till glidning när handen trycker hårdare?</li></ol><p>Använd g = 9,82 m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig\"><svg height=\"274\" width=\"500\" role=\"img\" aria-label=\"Kloss som trycks mot vägg med väggens normalkraft, handkraft, friktion och tyngdkraft.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"59.714 11.954 321.829 176.159\"><line x1=\"140\" y1=\"22\" x2=\"140\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"30\" x2=\"132\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"40\" x2=\"132\" y2=\"32\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"50\" x2=\"132\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"60\" x2=\"132\" y2=\"52\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"70\" x2=\"132\" y2=\"62\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"80\" x2=\"132\" y2=\"72\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"90\" x2=\"132\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"100\" x2=\"132\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"110\" x2=\"132\" y2=\"102\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"120\" x2=\"132\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"130\" x2=\"132\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"140\" x2=\"132\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"150\" x2=\"132\" y2=\"142\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"160\" x2=\"132\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"170\" x2=\"132\" y2=\"162\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><rect x=\"140\" y=\"68\" width=\"62\" height=\"62\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"204\" y=\"74\" width=\"28\" height=\"50\" rx=\"12\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"228\" y=\"88\" width=\"96\" height=\"22\" rx=\"9\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"171\" cy=\"99\" r=\"3.5\" fill=\"#2B2527\"/><text x=\"155\" y=\"168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 kg</text><text x=\"340\" y=\"103\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">hand</text><defs><marker id=\"situationspil-4-146\" markerWidth=\"8.8\" markerHeight=\"8.8\" refX=\"7.74\" refY=\"4.4\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L8.8,4.4 L0,8.8 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"140\" y1=\"88\" x2=\"225\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"2.42\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-146)\"/><circle cx=\"140\" cy=\"88\" r=\"2.64\" fill=\"#B43123\"/><text x=\"233.8\" y=\"92.4\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12.1\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"202\" y1=\"110\" x2=\"117\" y2=\"110\" stroke=\"#B43123\" stroke-width=\"2.42\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-146)\"/><circle cx=\"202\" cy=\"110\" r=\"2.64\" fill=\"#B43123\"/><text x=\"71.9\" y=\"114.4\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12.1\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">hand</tspan></text><line x1=\"140\" y1=\"99\" x2=\"140\" y2=\"40\" stroke=\"#B43123\" stroke-width=\"2.42\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-146)\"/><circle cx=\"140\" cy=\"99\" r=\"2.64\" fill=\"#B43123\"/><text x=\"148.8\" y=\"32.3\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12.1\" font-weight=\"600\" fill=\"#B43123\">f</text><line x1=\"171\" y1=\"99\" x2=\"171\" y2=\"158\" stroke=\"#B43123\" stroke-width=\"2.42\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-146)\"/><circle cx=\"171\" cy=\"99\" r=\"2.64\" fill=\"#B43123\"/><text x=\"179.8\" y=\"174.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12.1\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är handens tryckkraft, väggens normalkraft, tyngdkraften och den statiska friktionen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Klossen är i lodrät jämvikt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f-mg=0\\Rightarrow f=2{,}0\\cdot9{,}82=19{,}6\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Friktionen pekar uppåt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När handen trycker hårdare ökar N, men den friktion som behövs för jämvikt är fortfarande mg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f=mg,\\qquad f_{\\max}=\\mu_sN\\]</div></div><div class=\"facit-stycke\"><p>Marginalen till den maximala statiska friktionen ökar, så klossen sitter säkrare.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionskraften är \\(19{,}6\\ \\mathrm N\\) uppåt. Hårdare tryck ökar inte den aktuella friktionen, men höjer dess möjliga maxvärde.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt.</p></div><div class=\"facit-stycke\"><p>Belopp och jämförelser framgår av lösningen.</p></div></div></div>",
+    "t": "<p>En kloss med massan 2,0 kg trycks mot en lodrät vägg med en vågrät kraft från en hand. Klossen glider inte.</p><span class=\"fig smal\"><svg height=\"258\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"120.057 11.954 258.971 176.159\"><line x1=\"140\" y1=\"22\" x2=\"140\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"30\" x2=\"132\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"40\" x2=\"132\" y2=\"32\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"50\" x2=\"132\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"60\" x2=\"132\" y2=\"52\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"70\" x2=\"132\" y2=\"62\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"80\" x2=\"132\" y2=\"72\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"90\" x2=\"132\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"100\" x2=\"132\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"110\" x2=\"132\" y2=\"102\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"120\" x2=\"132\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"130\" x2=\"132\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"140\" x2=\"132\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"150\" x2=\"132\" y2=\"142\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"160\" x2=\"132\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"170\" x2=\"132\" y2=\"162\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><rect x=\"140\" y=\"68\" width=\"62\" height=\"62\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"204\" y=\"74\" width=\"28\" height=\"50\" rx=\"12\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"228\" y=\"88\" width=\"96\" height=\"22\" rx=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"171\" cy=\"99\" r=\"3.5\" fill=\"#2B2527\"/><text x=\"171\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 kg</text><text x=\"340\" y=\"103\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">hand</text></svg></span><ol type=\"a\"><li>Rita och namnge de fyra krafterna på klossen.</li>\n<li>Hur stor är friktionskraften och åt vilket håll pekar den? Motivera.</li>\n<li>Handen trycker hårdare, men klossen glider fortfarande inte. Ändras friktionskraften?</li>\n<li>Varför ökar ändå marginalen till glidning när handen trycker hårdare?</li></ol><p>Använd g = 9,82 m/s².</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig\"><svg height=\"274\" width=\"500\" role=\"img\" aria-label=\"Kloss som trycks mot vägg med väggens normalkraft, handkraft, friktion och tyngdkraft.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"59.714 11.954 321.829 176.159\"><line x1=\"140\" y1=\"22\" x2=\"140\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"30\" x2=\"132\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"40\" x2=\"132\" y2=\"32\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"50\" x2=\"132\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"60\" x2=\"132\" y2=\"52\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"70\" x2=\"132\" y2=\"62\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"80\" x2=\"132\" y2=\"72\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"90\" x2=\"132\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"100\" x2=\"132\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"110\" x2=\"132\" y2=\"102\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"120\" x2=\"132\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"130\" x2=\"132\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"140\" x2=\"132\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"150\" x2=\"132\" y2=\"142\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"160\" x2=\"132\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"170\" x2=\"132\" y2=\"162\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><rect x=\"140\" y=\"68\" width=\"62\" height=\"62\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"204\" y=\"74\" width=\"28\" height=\"50\" rx=\"12\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"228\" y=\"88\" width=\"96\" height=\"22\" rx=\"9\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"171\" cy=\"99\" r=\"3.5\" fill=\"#2B2527\"/><text x=\"155\" y=\"168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 kg</text><text x=\"340\" y=\"103\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">hand</text><defs><marker id=\"situationspil-4-146\" markerWidth=\"8.8\" markerHeight=\"8.8\" refX=\"7.74\" refY=\"4.4\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L8.8,4.4 L0,8.8 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"140\" y1=\"88\" x2=\"225\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"2.42\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-146)\"/><circle cx=\"140\" cy=\"88\" r=\"2.64\" fill=\"#B43123\"/><text x=\"233.8\" y=\"92.4\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12.1\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"202\" y1=\"110\" x2=\"117\" y2=\"110\" stroke=\"#B43123\" stroke-width=\"2.42\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-146)\"/><circle cx=\"202\" cy=\"110\" r=\"2.64\" fill=\"#B43123\"/><text x=\"71.9\" y=\"114.4\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12.1\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">hand</tspan></text><line x1=\"140\" y1=\"99\" x2=\"140\" y2=\"40\" stroke=\"#B43123\" stroke-width=\"2.42\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-146)\"/><circle cx=\"140\" cy=\"99\" r=\"2.64\" fill=\"#B43123\"/><text x=\"148.8\" y=\"32.3\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12.1\" font-weight=\"600\" fill=\"#B43123\">f</text><line x1=\"171\" y1=\"99\" x2=\"171\" y2=\"158\" stroke=\"#B43123\" stroke-width=\"2.42\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-146)\"/><circle cx=\"171\" cy=\"99\" r=\"2.64\" fill=\"#B43123\"/><text x=\"179.8\" y=\"174.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12.1\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är handens tryckkraft, väggens normalkraft, tyngdkraften och den statiska friktionen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Klossen är i lodrät jämvikt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f-mg=0\\Rightarrow f=2{,}0\\cdot9{,}82=19{,}64\\ \\mathrm N\\approx19{,}6\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Friktionen pekar uppåt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När handen trycker hårdare ökar N, men den friktion som behövs för jämvikt är fortfarande mg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f=mg,\\qquad f_{\\max}=\\mu_sN\\]</div></div><div class=\"facit-stycke\"><p>Marginalen till den maximala statiska friktionen ökar, så klossen sitter säkrare.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionskraften är \\(19{,}6\\ \\mathrm N\\) uppåt. Hårdare tryck ökar inte den aktuella friktionen, men höjer dess möjliga maxvärde.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt.</p></div><div class=\"facit-stycke\"><p>Belopp och jämförelser framgår av lösningen.</p></div></div></div>",
     "familj": "Rita krafter med friktion",
     "formaga": [
       "modellering",
@@ -32500,7 +32500,7 @@ window.BANK = [
     "typ": "Newton II med sned dragkraft och friktion",
     "poang": "(0/2/0)",
     "t": "<p>En låda med massan 40 kg glider framåt över ett vågrätt golv. En dragkraft på 200 N pekar 35° uppåt från golvet. Accelerationen framåt är 2,4 m/s². Bortse från alla vågräta motståndskrafter utom glidfriktionen.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionstalet. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lodrätt:</p><div class=\"facit-matte\">\\[N=40 g-200 \\sin 35^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vågrätt:</p><div class=\"facit-matte\">\\[200 \\cos 35^{\\circ}-\\mu_{\\mathrm{kN}}=40\\cdot 2{,}4\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{k}}=\\frac{\\left(200 \\cos 35^{\\circ}-96\\right)}{40 g-200 \\sin 35^{\\circ}}\\]</div></div></div><div class=\"facit-stycke\"><p>Både normalkraften och friktionen blir positiva.</p></div></div><p class=\"facit-svar\">Svaret är 0,24.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens uppåtriktade del minskar normalkraften. Dess vågräta del driver lådan framåt.</p>\\[N=mg-F\\sin35^\\circ=40\\cdot9{,}82-200\\sin35^\\circ\\approx278{,}08\\,\\mathrm N\\]\\[F_x=200\\cos35^\\circ\\approx163{,}83\\,\\mathrm N\\]<p>Resultantkraften är ma = 40 · 2,4 = 96 N. Resten av den vågräta dragkraften balanserar friktionen: f = Fₓ − ma.</p>\\[\\mu=\\frac{f}{N}=\\frac{200\\cos35^\\circ-96}{40\\cdot9{,}82-200\\sin35^\\circ}\\approx0{,}24\\]</div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "modellering",
@@ -32509,7 +32509,7 @@ window.BANK = [
     "familjNyckel": "newton__sned_dragkraft_och_friktion",
     "svarstyp": "numeriskt",
     "rättSvar": 0.24,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -32680,7 +32680,7 @@ window.BANK = [
     "typ": "dragkraft i vinkel påverkar normalkraft och friktion",
     "poang": "(0/2/0)",
     "t": "<p>En låda med massan 25 kg glider framåt över ett vågrätt golv. Dragkraften är 110 N och pekar 20° uppåt. Friktionstalet är 0,24.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen framåt. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lodrätt ger</p><div class=\"facit-matte\">\\[N=25 g-110 \\sin 20^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><p>Friktionen är 0,24N bakåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[a=\\frac{\\left(110 \\cos 20^{\\circ}-0{,}24 \\left(25 g-110 \\sin 20^{\\circ}\\right)\\right)}{25}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 2,14 m/s².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens uppåtriktade del minskar normalkraften. Glidfriktionen pekar bakåt.</p>\\[N=25\\cdot9{,}82-110\\sin20^\\circ\\approx207{,}88\\,\\mathrm N\\]\\[f=0{,}24N\\approx49{,}89\\,\\mathrm N\\]<p>Den vågräta dragkraften är Fₓ = 110 cos20° ≈ 103,37 N. Dra bort friktionen och dela kraftsumman med massan. Använd oavrundade mellanvärden.</p>\\[a=\\frac{F_x-f}{m}\\approx2{,}14\\,\\mathrm{m/s^2}\\]</div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "modellering",
@@ -32689,7 +32689,7 @@ window.BANK = [
     "familjNyckel": "friktion__sned_dragkraft_och_friktion",
     "svarstyp": "numeriskt",
     "rättSvar": 2.14,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -32709,7 +32709,7 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En liten låda med massan 0,12 kg dras vågrätt med 0,32 N och konstant hastighet över ett vågrätt golv.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm friktionstalet. Avrunda vid behov till två decimaler.</li><li>En extra massa på 0,30 kg läggs i lådan. Vilken vågrät kraft krävs nu för konstant hastighet? Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>En liten låda med massan 0,12 kg dras vågrätt med 0,32 N och konstant hastighet över ett vågrätt golv.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm friktionstalet. Avrunda vid behov till två decimaler.</li><li>En extra massa på 0,30 kg läggs i lådan. Vilken vågrät kraft krävs nu för konstant hastighet? Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet ger f = 0,32 N och</p><div class=\"facit-matte\">\\[N=0{,}12 g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\mu=\\frac{0{,}32}{0{,}12 g}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,27.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Totalmassan är 0,42 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med samma friktionstal ökar kraften i samma proportion som massan:</p><div class=\"facit-matte\">\\[F=\\frac{0{,}32\\cdot 0{,}42}{0{,}12}=1{,}12\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 1,12 N.</p></div></div></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
@@ -32723,13 +32723,13 @@ window.BANK = [
       1.12
     ],
     "tolerans": [
-      0,
+      0.005,
       0
     ],
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktionskraft_och_friktionstal",
     "ledtrad": "<p>Hur förändras normalkraften när lådan lastas?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -32757,7 +32757,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet ger f = 0,32 N och</p><div class=\"facit-matte\">\\[N=0{,}12 g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\mu=\\frac{0{,}32}{0{,}12 g}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,27.</p></div>",
         "ledtrad": "<p>Hur förändras normalkraften när lådan lastas?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       },
@@ -32768,7 +32768,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Totalmassan är 0,42 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med samma friktionstal ökar kraften i samma proportion som massan:</p><div class=\"facit-matte\">\\[F=\\frac{0{,}32\\cdot 0{,}42}{0{,}12}=1{,}12\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 1,12 N.</p></div>",
         "ledtrad": "<p>Hur förändras normalkraften när lådan lastas?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       }
@@ -32784,7 +32784,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En låda glider åt höger på ett vågrätt golv. En vågrät dragkraft på 9,0 N ger accelerationen 2,8 m/s² åt höger. Friktionstalet är 0,35.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lådans massa. Svara i kg. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen är μmg åt vänster.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Newtons andra lag ger</p><div class=\"facit-matte\">\\[9{,}0-0{,}35 m g=2{,}8 m\\]</div></div></div><div class=\"facit-stycke\"><p>Samla termerna: 9,0 = m(2,8 + 0,35g), och lös ut m.</p></div></div><p class=\"facit-svar\">Svaret är 1,44 kg.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Glidfriktionen pekar åt vänster och är μN = μmg. Kraftsumman åt höger är dragkraften minus friktionen.</p>\\[9{,}0-0{,}35mg=ma\\]<p>Samla termerna som innehåller massan.</p>\\[9{,}0=m(a+0{,}35g)\\quad\\Rightarrow\\quad m=\\frac{9{,}0}{2{,}8+0{,}35\\cdot9{,}82}\\approx1{,}44\\,\\mathrm{kg}\\]</div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "modellering",
@@ -32793,7 +32793,7 @@ window.BANK = [
     "familjNyckel": "friktion__newtons_andra_lag_med_friktion",
     "svarstyp": "numeriskt",
     "rättSvar": 1.44,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktionskraft_och_friktionstal",
     "ledtrad": "<p>Massan ingår både i friktionen och i ma.</p>",
@@ -32814,8 +32814,8 @@ window.BANK = [
     "omr": "friktion",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En låda med massan 5,0 kg dras med konstant fart över ett golv. Dragkraften är 18 N, parallell med golvet. Frilägg lådan och rita alla krafter.</p><ol><li>Hur stor är normalkraften?</li><li>Dragkraften minskas plötsligt till 10 N medan lådan fortfarande glider. Hur stor är friktionskraften omedelbart efter ändringen, och vad blir den efter att lådan har stannat?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Anta konstant glidfriktion och att friktionen vid vila kan balansera 10 N.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 360\" width=\"480\" height=\"360\"><rect width=\"480\" height=\"360\" fill=\"white\"/><defs><marker id=\"ar7\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10Z\" fill=\"#a95343\"/></marker></defs><rect x=\"160\" y=\"150\" width=\"140\" height=\"40\" rx=\"8\" fill=\"#e4edf3\" stroke=\"#293747\"/><text x=\"230\" y=\"178\" font-family=\"sans-serif\" text-anchor=\"middle\" font-size=\"15\">låda</text><path d=\"M200 190 L200 80\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"175\" y=\"62\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">N</text><path d=\"M230 170 L230 280\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"239\" y=\"303\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">F_g</text><path d=\"M160 190 L110 190\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"70\" y=\"180\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">f</text><path d=\"M300 170 L350 170\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"360\" y=\"176\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">F</text></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lodrätt gäller jämvikt eftersom dragkraften är vågrät.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg=5{,}0\\cdot9{,}82=49{,}1\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid den ursprungliga konstanta farten är glidfriktionen 18 N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_k=18\\ \\mathrm N,\\qquad\\mu_k=\\frac{18}{49{,}1}=0{,}367\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När dragkraften plötsligt sänks till 10 N medan lådan fortfarande glider är glidfriktionen fortfarande 18 N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{net}}=10-18=-8\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Lådan bromsar.</p></div><div class=\"facit-stycke\"><p>När den har stannat anpassar sig den statiska friktionen till 10 N och håller den stilla.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är \\(49{,}1\\ \\mathrm N\\). Friktionen är 18 N medan lådan glider och 10 N efter att den stannat.</p></div>",
+    "t": "<p>En låda med massan 5,0 kg dras med konstant fart över ett vågrätt golv. Dragkraften är 18 N, parallell med golvet. Rita och namnge krafterna på lådan.</p><ol type=\"a\"><li>Hur stor är normalkraften?</li><li>Dragkraften minskas plötsligt till 10 N medan lådan fortfarande glider. Hur stor är friktionskraften omedelbart efter ändringen, och vad blir den efter att lådan har stannat?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Anta konstant glidfriktion och att friktionen vid vila kan balansera 10 N.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 360\" width=\"480\" height=\"360\"><rect width=\"480\" height=\"360\" fill=\"white\"/><defs><marker id=\"ar7\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10Z\" fill=\"#a95343\"/></marker></defs><rect x=\"160\" y=\"150\" width=\"140\" height=\"40\" rx=\"8\" fill=\"#e4edf3\" stroke=\"#293747\"/><text x=\"230\" y=\"178\" font-family=\"sans-serif\" text-anchor=\"middle\" font-size=\"15\">låda</text><path d=\"M200 190 L200 80\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"175\" y=\"62\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">N</text><path d=\"M230 170 L230 280\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"239\" y=\"303\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">F_g</text><path d=\"M160 190 L110 190\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"70\" y=\"180\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">f</text><path d=\"M300 170 L350 170\" fill=\"none\" stroke=\"#a95343\" stroke-width=\"2.5\" marker-end=\"url(#ar7)\"/><text x=\"360\" y=\"176\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#a95343\">F</text></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lodrätt gäller jämvikt eftersom dragkraften är vågrät.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg=5{,}0\\cdot9{,}82=49{,}1\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid den ursprungliga konstanta farten är glidfriktionen 18 N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_k=18\\ \\mathrm N,\\qquad\\mu_k=\\frac{18}{49{,}1}\\approx0{,}367\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När dragkraften plötsligt sänks till 10 N medan lådan fortfarande glider är glidfriktionen fortfarande 18 N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{net}}=10-18=-8\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Lådan bromsar.</p></div><div class=\"facit-stycke\"><p>När den har stannat anpassar sig den statiska friktionen till 10 N och håller den stilla.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är \\(49{,}1\\ \\mathrm N\\). Friktionen är 18 N medan lådan glider och 10 N efter att den stannat.</p></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
       "begrepp",
@@ -33810,9 +33810,9 @@ window.BANK = [
     "id": "4.196",
     "kap": 4,
     "omr": "friktion",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En låda ligger på ett transportband som rör sig åt höger. Bandet rör sig snabbare åt höger än lådan, så lådan glider relativt bandet.</p><span class=\"fig bred\"><svg height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"28.229 71.739 303.457 100.543\"><circle cx=\"60\" cy=\"148\" r=\"18\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"148\" r=\"5\" fill=\"#2B2527\"/><circle cx=\"180\" cy=\"148\" r=\"18\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"148\" r=\"5\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"148\" r=\"18\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"148\" r=\"5\" fill=\"#2B2527\"/><rect x=\"42\" y=\"130\" width=\"276\" height=\"18\" fill=\"#E1E9F4\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"100.0\" y1=\"122.0\" x2=\"116.0\" y2=\"122.0\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"122.0,122.0 114.0,117.5 114.0,126.5\" fill=\"#2A5D9E\"/><line x1=\"200.0\" y1=\"122.0\" x2=\"216.0\" y2=\"122.0\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"222.0,122.0 214.0,117.5 214.0,126.5\" fill=\"#2A5D9E\"/><line x1=\"290.0\" y1=\"122.0\" x2=\"306.0\" y2=\"122.0\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"312.0,122.0 304.0,117.5 304.0,126.5\" fill=\"#2A5D9E\"/><text x=\"195\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2A5D9E\">band rör sig →</text><rect x=\"130\" y=\"78\" width=\"120\" height=\"52\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#2B2527\">låda</text><circle cx=\"190\" cy=\"104\" r=\"3.5\" fill=\"#2B2527\"/></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på lådan.</p><ol><li>Vilka tre krafter verkar på lådan?</li><li>Åt vilket håll pekar friktionskraften, och varför åt det hållet?</li></ol><p>Bandets övre yta är vågrät och rör sig med konstant hastighet. Bortse från luftmotståndet.</p>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En låda ligger på ett transportband som rör sig åt höger. Bandet rör sig snabbare åt höger än lådan, så lådan glider relativt bandet.</p><span class=\"fig bred\"><svg height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"28.229 71.739 303.457 100.543\"><circle cx=\"60\" cy=\"148\" r=\"18\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"148\" r=\"5\" fill=\"#2B2527\"/><circle cx=\"180\" cy=\"148\" r=\"18\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"148\" r=\"5\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"148\" r=\"18\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"148\" r=\"5\" fill=\"#2B2527\"/><rect x=\"42\" y=\"130\" width=\"276\" height=\"18\" fill=\"#E1E9F4\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"100.0\" y1=\"122.0\" x2=\"116.0\" y2=\"122.0\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"122.0,122.0 114.0,117.5 114.0,126.5\" fill=\"#2A5D9E\"/><line x1=\"200.0\" y1=\"122.0\" x2=\"216.0\" y2=\"122.0\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"222.0,122.0 214.0,117.5 214.0,126.5\" fill=\"#2A5D9E\"/><line x1=\"290.0\" y1=\"122.0\" x2=\"306.0\" y2=\"122.0\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"312.0,122.0 304.0,117.5 304.0,126.5\" fill=\"#2A5D9E\"/><text x=\"195\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2A5D9E\">band rör sig →</text><rect x=\"130\" y=\"78\" width=\"120\" height=\"52\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#2B2527\">låda</text><circle cx=\"190\" cy=\"104\" r=\"3.5\" fill=\"#2B2527\"/></svg></span><p></p><ol type=\"a\"><li>Rita och namnge de tre krafterna på lådan.</li><li>Åt vilket håll pekar friktionskraften, och varför åt det hållet?</li></ol><p>Bandets övre yta är vågrät och rör sig med konstant hastighet. Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig bred\"><svg height=\"250\" width=\"620\" role=\"img\" aria-label=\"Låda på transportband med normalkraft, tyngdkraft och friktion åt höger.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"28.229 52.717 303.457 122.283\"><circle cx=\"60\" cy=\"148\" r=\"18\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"148\" r=\"5\" fill=\"#2B2527\"/><circle cx=\"180\" cy=\"148\" r=\"18\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"148\" r=\"5\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"148\" r=\"18\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"148\" r=\"5\" fill=\"#2B2527\"/><rect x=\"42\" y=\"130\" width=\"276\" height=\"18\" fill=\"#E8EDF5\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"100.0\" y1=\"122.0\" x2=\"116.0\" y2=\"122.0\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"122.0,122.0 114.0,117.5 114.0,126.5\" fill=\"#2A5D9E\"/><line x1=\"200.0\" y1=\"122.0\" x2=\"216.0\" y2=\"122.0\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"222.0,122.0 214.0,117.5 214.0,126.5\" fill=\"#2A5D9E\"/><line x1=\"290.0\" y1=\"122.0\" x2=\"306.0\" y2=\"122.0\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"312.0,122.0 304.0,117.5 304.0,126.5\" fill=\"#2A5D9E\"/><text x=\"219\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2A5D9E\">band rör sig →</text><rect x=\"130\" y=\"78\" width=\"120\" height=\"52\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#2B2527\">låda</text><circle cx=\"190\" cy=\"104\" r=\"3.5\" fill=\"#2B2527\"/><defs><marker id=\"situationspil-4-196\" markerWidth=\"7.6\" markerHeight=\"7.6\" refX=\"6.69\" refY=\"3.8\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L7.6,3.8 L0,7.6 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"170\" y1=\"130\" x2=\"170\" y2=\"73\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-196)\"/><circle cx=\"170\" cy=\"130\" r=\"2.28\" fill=\"#B43123\"/><text x=\"177.6\" y=\"66.35\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"190\" y1=\"104\" x2=\"190\" y2=\"161\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-196)\"/><circle cx=\"190\" cy=\"104\" r=\"2.28\" fill=\"#B43123\"/><text x=\"198\" y=\"168\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><line x1=\"190\" y1=\"130\" x2=\"255\" y2=\"130\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-196)\"/><circle cx=\"190\" cy=\"130\" r=\"2.28\" fill=\"#B43123\"/><text x=\"262.6\" y=\"133.8\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">f</text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På lådan verkar tre krafter: tyngdkraften, normalkraften och friktionskraften från bandet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bandets yta rör sig åt höger relativt lådans undersida.</p></div><div class=\"facit-stycke\"><p>Friktionen på lådan pekar därför åt höger och accelererar den tills halkningen upphör.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Lodrätt tar krafterna ut varandra, medan friktionen är den enda vågräta kraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg,\\qquad f=ma\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tre krafter verkar. Friktionen pekar åt höger och är den kraft som accelererar lådan.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt.</p></div><div class=\"facit-stycke\"><p>Belopp och jämförelser framgår av lösningen.</p></div></div></div>",
     "familj": "Rita krafter med friktion",
     "formaga": [
@@ -33827,7 +33827,7 @@ window.BANK = [
     "spel": false,
     "familjNyckelTidigare": "ritakrafter__frilaggning_med_friktion",
     "ledtrad": "<p>Vilken yta glider åt vilket håll relativt den andra?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -34729,7 +34729,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna normalkraft och friktionskraft ur friktionstal och massa, ur diagram, sökt kraft",
     "poang": "(2/0/0)",
-    "t": "<p>En låda med massan 30 kg glider med konstant hastighet när den dras vågrätt med 90 N över ett vågrätt golv. Friktionstalet är oförändrat när lådan lastas.</p><ol><li>Vilken dragkraft behövs efter att 10 kg har lagts i lådan? Svara i N. Avrunda vid behov till två decimaler.</li><li>Hur stor extra massa behöver läggas i den ursprungliga 30-kiloslådan för att dragkraften ska bli 150 N? Svara i kg. Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>En låda med massan 30 kg glider med konstant hastighet när den dras vågrätt med 90 N över ett vågrätt golv. Friktionstalet är oförändrat när lådan lastas.</p><ol type=\"a\"><li>Vilken dragkraft behövs efter att 10 kg har lagts i lådan? Svara i N. Avrunda vid behov till två decimaler.</li><li>Hur stor extra massa behöver läggas i den ursprungliga 30-kiloslådan för att dragkraften ska bli 150 N? Svara i kg. Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant hastighet är</p><div class=\"facit-matte\">\\[F=\\mu m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraften ökar i samma proportion som massan:</p><div class=\"facit-matte\">\\[F_{\\mathrm{ny}}=\\frac{90\\cdot 40}{30}=120\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 120 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Förhållandet mellan massorna är 150/90.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Totalmassan ska därför vara</p><div class=\"facit-matte\">\\[\\frac{30\\cdot 150}{90}=50\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Extra massa är</p><div class=\"facit-matte\">\\[50-30=20\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 20 kg.</p></div></div></div>",
     "familj": "Vilo- och glidfriktion",
     "formaga": [
@@ -34748,7 +34748,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Behöver du räkna ut friktionstalet, eller kan du jämföra proportioner?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -34776,7 +34776,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant hastighet är</p><div class=\"facit-matte\">\\[F=\\mu m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraften ökar i samma proportion som massan:</p><div class=\"facit-matte\">\\[F_{\\mathrm{ny}}=\\frac{90\\cdot 40}{30}=120\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 120 N.</p></div>",
         "ledtrad": "<p>Behöver du räkna ut friktionstalet, eller kan du jämföra proportioner?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       },
@@ -34787,7 +34787,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Förhållandet mellan massorna är 150/90.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Totalmassan ska därför vara</p><div class=\"facit-matte\">\\[\\frac{30\\cdot 150}{90}=50\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Extra massa är</p><div class=\"facit-matte\">\\[50-30=20\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 20 kg.</p></div>",
         "ledtrad": "<p>Behöver du räkna ut friktionstalet, eller kan du jämföra proportioner?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)"
       }
@@ -34803,8 +34803,8 @@ window.BANK = [
     "niva": "C",
     "typ": "dragkraft i vinkel påverkar normalkraft och friktion",
     "poang": "(0/2/0)",
-    "t": "<p>En låda med massan 35 kg glider framåt över ett vågrätt golv. Friktionstalet är 0,28. Kraften 130 N verkar framåt i vinkeln 30° mot golvet.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm accelerationen när kraften pekar snett uppåt. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm accelerationen när kraften i stället pekar snett nedåt. Räkna framåt som positivt. Svara i m/s². Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid drag uppåt är</p><div class=\"facit-matte\">\\[N=35 g-130 \\sin 30^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[a=\\frac{\\left(130 \\cos 30^{\\circ}-0{,}28 \\left(35 g-130 \\sin 30^{\\circ}\\right)\\right)}{35}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,99 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid tryck nedåt ökar N till 35g + 130 sin 30°.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Då</p><div class=\"facit-matte\">\\[a=\\frac{\\left(130 \\cos 30^{\\circ}-0{,}28 \\left(35 g+130 \\sin 30^{\\circ}\\right)\\right)}{35}\\]</div></div></div><div class=\"facit-stycke\"><p>Ett negativt svar betyder att lådan bromsar medan den fortfarande glider framåt.</p></div></div><p class=\"facit-svar\">Svaret är -0,05 m/s².</p></div></div></div>",
+    "t": "<p>En låda med massan 35 kg glider framåt över ett vågrätt golv. Friktionstalet är 0,28. Kraften 130 N verkar framåt i vinkeln 30° mot golvet.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm accelerationen när kraften pekar snett uppåt. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm accelerationen när kraften i stället pekar snett nedåt. Räkna framåt som positivt. Svara i m/s². Avrunda vid behov till två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Kraftens vågräta del är Fₓ = 130 cos30° ≈ 112,58 N. Den uppåtriktade delen minskar normalkraften.</p>\\[N=35\\cdot9{,}82-130\\sin30^\\circ=278{,}7\\,\\mathrm N\\]\\[f=0{,}28N=78{,}036\\,\\mathrm N\\]<p>Lådan glider framåt, så friktionen pekar bakåt. Använd oavrundat Fₓ.</p>\\[a=\\frac{F_x-f}{35}\\approx0{,}99\\,\\mathrm{m/s^2}\\]<p><strong>b)</strong></p><p>Kraftens vågräta del är Fₓ = 130 cos30° ≈ 112,58 N. Den nedåtriktade delen ökar normalkraften.</p>\\[N=35\\cdot9{,}82+130\\sin30^\\circ=408{,}7\\,\\mathrm N\\]\\[f=0{,}28N=114{,}436\\,\\mathrm N\\]<p>Lådan glider framåt, så friktionen pekar bakåt. Använd oavrundat Fₓ.</p>\\[a=\\frac{F_x-f}{35}\\approx-0{,}05\\,\\mathrm{m/s^2}\\]<p>Negativ acceleration betyder här att farten framåt minskar.</p></div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "modellering",
@@ -34817,14 +34817,14 @@ window.BANK = [
       -0.05
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Den vågräta komponenten är densamma. Vad händer med normalkraften?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
@@ -34847,10 +34847,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm accelerationen när kraften pekar snett uppåt. Svara i m/s². Avrunda vid behov till två decimaler.",
         "t": "<p>En låda med massan 35 kg glider framåt över ett vågrätt golv. Friktionstalet är 0,28. Kraften 130 N verkar framåt i vinkeln 30° mot golvet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen när kraften pekar snett uppåt. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid drag uppåt är</p><div class=\"facit-matte\">\\[N=35 g-130 \\sin 30^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[a=\\frac{\\left(130 \\cos 30^{\\circ}-0{,}28 \\left(35 g-130 \\sin 30^{\\circ}\\right)\\right)}{35}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,99 m/s².</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraftens vågräta del är Fₓ = 130 cos30° ≈ 112,58 N. Den uppåtriktade delen minskar normalkraften.</p>\\[N=35\\cdot9{,}82-130\\sin30^\\circ=278{,}7\\,\\mathrm N\\]\\[f=0{,}28N=78{,}036\\,\\mathrm N\\]<p>Lådan glider framåt, så friktionen pekar bakåt. Använd oavrundat Fₓ.</p>\\[a=\\frac{F_x-f}{35}\\approx0{,}99\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Den vågräta komponenten är densamma. Vad händer med normalkraften?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)"
       },
@@ -34858,10 +34858,10 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm accelerationen när kraften i stället pekar snett nedåt. Räkna framåt som positivt. Svara i m/s². Avrunda vid behov till två decimaler.",
         "t": "<p>En låda med massan 35 kg glider framåt över ett vågrätt golv. Friktionstalet är 0,28. Kraften 130 N verkar framåt i vinkeln 30° mot golvet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen när kraften i stället pekar snett nedåt. Räkna framåt som positivt. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid tryck nedåt ökar N till 35g + 130 sin 30°.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Då</p><div class=\"facit-matte\">\\[a=\\frac{\\left(130 \\cos 30^{\\circ}-0{,}28 \\left(35 g+130 \\sin 30^{\\circ}\\right)\\right)}{35}\\]</div></div></div><div class=\"facit-stycke\"><p>Ett negativt svar betyder att lådan bromsar medan den fortfarande glider framåt.</p></div></div><p class=\"facit-svar\">Svaret är -0,05 m/s².</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraftens vågräta del är Fₓ = 130 cos30° ≈ 112,58 N. Den nedåtriktade delen ökar normalkraften.</p>\\[N=35\\cdot9{,}82+130\\sin30^\\circ=408{,}7\\,\\mathrm N\\]\\[f=0{,}28N=114{,}436\\,\\mathrm N\\]<p>Lådan glider framåt, så friktionen pekar bakåt. Använd oavrundat Fₓ.</p>\\[a=\\frac{F_x-f}{35}\\approx-0{,}05\\,\\mathrm{m/s^2}\\]<p>Negativ acceleration betyder här att farten framåt minskar.</p></div>",
         "ledtrad": "<p>Den vågräta komponenten är densamma. Vad händer med normalkraften?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)"
       }
@@ -36408,7 +36408,7 @@ window.BANK = [
     "niva": "C",
     "typ": "identifiera krafter på en låda på flaket av en accelererande lastbil, ur diagram, sökt resonemang och kraft",
     "poang": "(2/2/0)",
-    "t": "<p>En låda med massan 25 kg står på flaket av en lastbil. Lastbilen accelererar åt höger med 1,6 m/s², och lådan följer med utan att glida.</p><span class=\"fig bred\"><svg height=\"202\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 27.437 480.000 156.390\"><rect x=\"15\" y=\"168\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"168\" x2=\"465\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"58\" y=\"120\" width=\"292\" height=\"12\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 350 132 L 350 72 L 400 72 L 424 100 L 424 132 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 402 78 L 414 78 L 420 96 L 402 96 Z\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"112\" cy=\"153\" r=\"15\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"153\" r=\"15\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"392\" cy=\"153\" r=\"15\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"140\" y=\"74\" width=\"76\" height=\"46\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"178\" y=\"115\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">25 kg</text><circle cx=\"178\" cy=\"97\" r=\"3.5\" fill=\"#2B2527\"/><line x1=\"150\" y1=\"40\" x2=\"230\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"240,40 230,44.6 230,35.4\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"44\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på den markerade kroppen. Märk ut varje kraft med namn och rita pilen från rätt angreppspunkt.</p><ol><li>Vilka tre krafter verkar på lådan?</li>\n<li>Vilken av krafterna är det som får lådan att accelerera?</li>\n<li>Hur stor är den kraften?</li>\n<li>Vad skulle hända om det inte fanns någon friktion mot flaket?</li></ol><p>Flaket är vågrätt. Bortse från luftmotståndet.</p>",
+    "t": "<p>En låda med massan 25 kg står på flaket av en lastbil. Lastbilen accelererar åt höger med 1,6 m/s², och lådan följer med utan att glida.</p><span class=\"fig bred\"><svg height=\"202\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 27.437 480.000 156.390\"><rect x=\"15\" y=\"168\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"168\" x2=\"465\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"58\" y=\"120\" width=\"292\" height=\"12\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 350 132 L 350 72 L 400 72 L 424 100 L 424 132 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 402 78 L 414 78 L 420 96 L 402 96 Z\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"112\" cy=\"153\" r=\"15\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"153\" r=\"15\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"392\" cy=\"153\" r=\"15\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"140\" y=\"74\" width=\"76\" height=\"46\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"178\" y=\"115\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">25 kg</text><circle cx=\"178\" cy=\"97\" r=\"3.5\" fill=\"#2B2527\"/><line x1=\"150\" y1=\"40\" x2=\"230\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"240,40 230,44.6 230,35.4\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"44\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span><ol type=\"a\"><li>Rita och namnge de tre krafterna på lådan.</li>\n<li>Vilken av krafterna är det som får lådan att accelerera?</li>\n<li>Hur stor är den kraften?</li>\n<li>Vad skulle hända om det inte fanns någon friktion mot flaket?</li></ol><p>Flaket är vågrätt. Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig bred\"><svg height=\"202\" width=\"620\" role=\"img\" aria-label=\"Låda på accelererande lastbil med normal- och tyngdkraft samt statisk friktion framåt.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 27.437 480.000 156.390\"><rect x=\"15\" y=\"168\" width=\"450\" height=\"8\" fill=\"#EDEEF1\"/><line x1=\"15\" y1=\"168\" x2=\"465\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"58\" y=\"120\" width=\"292\" height=\"12\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 350 132 L 350 72 L 400 72 L 424 100 L 424 132 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 402 78 L 414 78 L 420 96 L 402 96 Z\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"112\" cy=\"153\" r=\"15\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"153\" r=\"15\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"392\" cy=\"153\" r=\"15\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"140\" y=\"74\" width=\"76\" height=\"46\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"194\" y=\"115\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">25 kg</text><circle cx=\"178\" cy=\"97\" r=\"3.5\" fill=\"#2B2527\"/><line x1=\"150\" y1=\"40\" x2=\"230\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"240,40 230,44.6 230,35.4\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"44\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text><defs><marker id=\"situationspil-4-221\" markerWidth=\"9.6\" markerHeight=\"9.6\" refX=\"8.45\" refY=\"4.8\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L9.6,4.8 L0,9.6 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"162\" y1=\"120\" x2=\"162\" y2=\"65\" stroke=\"#B43123\" stroke-width=\"2.64\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-221)\"/><circle cx=\"162\" cy=\"120\" r=\"2.88\" fill=\"#B43123\"/><text x=\"171.6\" y=\"56.6\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"13.2\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"178\" y1=\"97\" x2=\"178\" y2=\"152\" stroke=\"#B43123\" stroke-width=\"2.64\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-221)\"/><circle cx=\"178\" cy=\"97\" r=\"2.88\" fill=\"#B43123\"/><text x=\"187.6\" y=\"170\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"13.2\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9.6\">g</tspan></text><line x1=\"190\" y1=\"120\" x2=\"250\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"2.64\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-221)\"/><circle cx=\"190\" cy=\"120\" r=\"2.88\" fill=\"#B43123\"/><text x=\"259.6\" y=\"124.8\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"13.2\" font-weight=\"600\" fill=\"#B43123\">f<tspan baseline-shift=\"sub\" font-size=\"9.6\">s</tspan></text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På lådan verkar tyngdkraften, normalkraften och statisk friktion framåt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraft och normalkraft tar ut varandra.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Friktionen är den enda vågräta kraften och ger accelerationen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_s=ma=25\\cdot1{,}6=40\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om friktionen saknas finns ingen vågrät kraft på lådan.</p></div><div class=\"facit-stycke\"><p>Lådan behåller sin gamla hastighet medan flaket accelererar under den och glider därför bakåt relativt flaket.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den statiska friktionen är \\(40\\ \\mathrm N\\) framåt och accelererar lådan.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt; beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
     "familj": "Rita krafter med friktion",
     "formaga": [
@@ -36474,8 +36474,8 @@ window.BANK = [
     "niva": "E",
     "typ": "frilägga föremål och identifiera yttre krafter",
     "poang": "(2/0/0)",
-    "t": "<p>En låda pressas vågrätt mot en lodrät, sträv vägg och hålls stilla.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"vaggpush\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"310\" y1=\"35\" x2=\"310\" y2=\"190\" stroke=\"#374151\" stroke-width=\"5\"/><rect x=\"245\" y=\"95\" width=\"62\" height=\"62\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"145\" y1=\"126\" x2=\"245\" y2=\"126\" stroke=\"#374151\" stroke-width=\"3\"/></svg></span><p>Rita ett friläggningsdiagram. Ange också vilken riktning resultantkraften har, eller att den är noll.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften är nedåt, den yttre presskraften åt höger mot väggen, väggens normalkraft åt vänster och vilofriktionen uppåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I vila gäller N = F_press och</p><div class=\"facit-matte\">\\[f=m g\\]</div></div></div><div class=\"facit-stycke\"><p>Resultanten är noll.</p></div><div class=\"facit-stycke\"><p>Normalkraften behöver alltså inte vara lodrät.</p></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Kraftdiagram\"><rect width=\"440\" height=\"300\" fill=\"white\"/><circle cx=\"220\" cy=\"140\" r=\"5\" fill=\"#333\"/><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"200.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,210 216.0,200.0 224.0,200.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">mg</text><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"80.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,70 224.0,80.0 216.0,80.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"55.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">f</text><line x1=\"220\" y1=\"140\" x2=\"145.0\" y2=\"140.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"135,140 145.0,136.0 145.0,144.0\" fill=\"#245c9b\"/><text x=\"121.0\" y=\"145.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"17\">N</text><line x1=\"220\" y1=\"140\" x2=\"295.0\" y2=\"140.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"305,140 295.0,144.0 295.0,136.0\" fill=\"#245c9b\"/><text x=\"319.0\" y=\"145.0\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"17\">F_press</text></svg></span><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna visar riktningarna schematiskt.</p></div><div class=\"facit-stycke\"><p>Beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
+    "t": "<p>En låda pressas vågrätt mot en lodrät, sträv vägg och hålls stilla.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"vaggpush\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"310\" y1=\"35\" x2=\"310\" y2=\"190\" stroke=\"#374151\" stroke-width=\"5\"/><rect x=\"245\" y=\"95\" width=\"62\" height=\"62\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"145\" y1=\"126\" x2=\"245\" y2=\"126\" stroke=\"#374151\" stroke-width=\"3\"/></svg></span><p>Rita och namnge krafterna på lådan. Är kraftsumman noll eller pekar den åt något håll? Förklara.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften är nedåt, den yttre presskraften åt höger mot väggen, väggens normalkraft åt vänster och vilofriktionen uppåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I vila gäller \\(N=F_{\\text{press}}\\) och</p><div class=\"facit-matte\">\\[f=m g\\]</div></div></div><div class=\"facit-stycke\"><p>Resultanten är noll.</p></div><div class=\"facit-stycke\"><p>Normalkraften behöver alltså inte vara lodrät.</p></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Kraftdiagram\"><rect width=\"440\" height=\"300\" fill=\"white\"/><circle cx=\"220\" cy=\"140\" r=\"5\" fill=\"#333\"/><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"200.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,210 216.0,200.0 224.0,200.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">mg</text><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"80.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,70 224.0,80.0 216.0,80.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"55.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">f</text><line x1=\"220\" y1=\"140\" x2=\"145.0\" y2=\"140.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"135,140 145.0,136.0 145.0,144.0\" fill=\"#245c9b\"/><text x=\"121.0\" y=\"145.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"17\">N</text><line x1=\"220\" y1=\"140\" x2=\"295.0\" y2=\"140.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"305,140 295.0,144.0 295.0,136.0\" fill=\"#245c9b\"/><text x=\"319.0\" y=\"145.0\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"17\">F_press</text></svg></span><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna visar riktningarna schematiskt.</p></div><div class=\"facit-stycke\"><p>Beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
     "familj": "Rita krafter med friktion",
     "formaga": [
       "begrepp",
@@ -36490,7 +36490,7 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Normalkraften är vinkelrät mot kontaktytan. Vilken kraft hindrar glidning nedåt?</p>",
     "spel": false,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "manuellKomplettering": true,
     "typfamilj": "Friläggning vid väggkontakt",
@@ -38444,7 +38444,7 @@ window.BANK = [
     "niva": "C",
     "typ": "identifiera krafter på en låda som dras med snett snöre med konstant fart, ur diagram, sökt resonemang",
     "poang": "(1/2/0)",
-    "t": "<p>En låda dras över ett golv med konstant fart. Snöret lutar 30° uppåt. Golvet är inte halt.</p><span class=\"fig bred\"><svg height=\"157\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 37.745 480.000 121.471\"><rect x=\"15\" y=\"145\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"145\" x2=\"465\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"140\" y=\"95\" width=\"100\" height=\"50\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"139\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">20 kg</text><line x1=\"240\" y1=\"100\" x2=\"336\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"100\" x2=\"300\" y2=\"100\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><text x=\"306\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">30°</text><circle cx=\"190\" cy=\"120\" r=\"3.5\" fill=\"#2B2527\"/><line x1=\"350\" y1=\"128\" x2=\"410\" y2=\"128\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"420,128 410,132.6 410,123.4\" fill=\"#2A5D9E\"/><text x=\"430\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på den markerade kroppen. Märk ut varje kraft med namn och rita pilen från rätt angreppspunkt.</p><ol><li>Vilka fyra krafter verkar på lådan?</li>\n<li>Åt vilket håll pekar friktionskraften, och hur vet du det?</li>\n<li>Är normalkraften lika stor som tyngdkraften? Motivera.</li></ol><p>Lådan glider åt höger på ett vågrätt golv och behåller kontakten med det. Bortse från luftmotståndet.</p>",
+    "t": "<p>En låda dras över ett golv med konstant fart. Snöret lutar 30° uppåt.</p><span class=\"fig bred\"><svg height=\"157\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 37.745 480.000 121.471\"><rect x=\"15\" y=\"145\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"145\" x2=\"465\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"140\" y=\"95\" width=\"100\" height=\"50\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"139\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">20 kg</text><line x1=\"240\" y1=\"100\" x2=\"336\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"100\" x2=\"300\" y2=\"100\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><text x=\"306\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">30°</text><circle cx=\"190\" cy=\"120\" r=\"3.5\" fill=\"#2B2527\"/><line x1=\"350\" y1=\"128\" x2=\"410\" y2=\"128\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"420,128 410,132.6 410,123.4\" fill=\"#2A5D9E\"/><text x=\"430\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span><ol type=\"a\"><li>Rita och namnge de fyra krafterna på lådan.</li>\n<li>Åt vilket håll pekar friktionskraften, och hur vet du det?</li>\n<li>Är normalkraften lika stor som tyngdkraften? Motivera.</li></ol><p>Lådan glider åt höger på ett vågrätt golv och behåller kontakten med det. Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig bred\"><svg height=\"178\" width=\"620\" role=\"img\" aria-label=\"Låda som dras med snett snöre med krafterna ritade från kontakt-, fäst- och tyngdpunkter.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 37.059 480.000 137.941\"><rect x=\"15\" y=\"145\" width=\"450\" height=\"8\" fill=\"#EDEEF1\"/><line x1=\"15\" y1=\"145\" x2=\"465\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"140\" y=\"95\" width=\"100\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"206\" y=\"139\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">20 kg</text><line x1=\"240\" y1=\"100\" x2=\"336\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"100\" x2=\"300\" y2=\"100\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><text x=\"306\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">30°</text><circle cx=\"190\" cy=\"120\" r=\"3.5\" fill=\"#2B2527\"/><line x1=\"350\" y1=\"128\" x2=\"410\" y2=\"128\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"420,128 410,132.6 410,123.4\" fill=\"#2A5D9E\"/><text x=\"430\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text><defs><marker id=\"situationspil-4-258\" markerWidth=\"9.6\" markerHeight=\"9.6\" refX=\"8.45\" refY=\"4.8\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L9.6,4.8 L0,9.6 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"170\" y1=\"145\" x2=\"170\" y2=\"102\" stroke=\"#B43123\" stroke-width=\"2.64\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-258)\"/><circle cx=\"170\" cy=\"145\" r=\"2.88\" fill=\"#B43123\"/><text x=\"179.6\" y=\"93.6\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"13.2\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"190\" y1=\"120\" x2=\"190\" y2=\"170\" stroke=\"#B43123\" stroke-width=\"2.64\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-258)\"/><circle cx=\"190\" cy=\"120\" r=\"2.88\" fill=\"#B43123\"/><text x=\"198\" y=\"166\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"13.2\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9.6\">g</tspan></text><line x1=\"240\" y1=\"100\" x2=\"300\" y2=\"66\" stroke=\"#B43123\" stroke-width=\"2.64\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-258)\"/><circle cx=\"240\" cy=\"100\" r=\"2.88\" fill=\"#B43123\"/><text x=\"309.6\" y=\"57.6\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"13.2\" font-weight=\"600\" fill=\"#B43123\">S</text><line x1=\"165\" y1=\"145\" x2=\"105\" y2=\"145\" stroke=\"#B43123\" stroke-width=\"2.64\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-258)\"/><circle cx=\"165\" cy=\"145\" r=\"2.88\" fill=\"#B43123\"/><text x=\"95.4\" y=\"149.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"13.2\" font-weight=\"600\" fill=\"#B43123\">f</text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är tyngdkraft, normalkraft, snörkraft och friktion.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lådan glider åt höger, så friktionen pekar åt vänster.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Snörets lodräta komposant hjälper till att bära lådan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N+S\\sin30^\\circ=mg\\Rightarrow N=mg-S\\sin30^\\circ&lt;mg\\]</div></div><div class=\"facit-stycke\"><p>Vid konstant fart gäller dessutom \\(S\\cos30^\\circ=f\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionen pekar bakåt och normalkraften är mindre än tyngdkraften.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt; beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
     "familj": "Rita krafter med friktion",
     "formaga": [
@@ -38575,7 +38575,7 @@ window.BANK = [
     "niva": "C",
     "typ": "frilägga föremål och identifiera yttre krafter",
     "poang": "(1/2/0)",
-    "t": "<p>En lastbil kör åt höger på en vågrät väg och bromsar. En låda på flaket följer med utan att glida. Bortse från luftmotståndet på lådan. Rita ett friläggningsdiagram för lådan. Ange resultantens riktning och bedöm påståendet: ”Friktion måste vara riktad mot lådans rörelse relativt vägen.”</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"truck\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"35\" y1=\"170\" x2=\"385\" y2=\"170\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"95\" y=\"115\" width=\"220\" height=\"45\" fill=\"#e5e7eb\" stroke=\"#374151\" stroke-width=\"2\"/><rect x=\"170\" y=\"78\" width=\"75\" height=\"37\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"165\" r=\"14\" fill=\"#374151\"/><circle cx=\"280\" cy=\"165\" r=\"14\" fill=\"#374151\"/></svg></span>",
+    "t": "<p>En lastbil kör åt höger på en vågrät väg och bromsar. En låda på flaket följer med utan att glida. Bortse från luftmotståndet på lådan. Rita och namnge krafterna på lådan. Ange kraftsummans riktning och bedöm påståendet: ”Friktion måste vara riktad mot lådans rörelse relativt vägen.”</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"truck\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"35\" y1=\"170\" x2=\"385\" y2=\"170\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"95\" y=\"115\" width=\"220\" height=\"45\" fill=\"#e5e7eb\" stroke=\"#374151\" stroke-width=\"2\"/><rect x=\"170\" y=\"78\" width=\"75\" height=\"37\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"165\" r=\"14\" fill=\"#374151\"/><circle cx=\"280\" cy=\"165\" r=\"14\" fill=\"#374151\"/></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften är nedåt, normalkraften uppåt och friktionen från flaket åt vänster.</p></div><div class=\"facit-stycke\"><p>Lodräta krafter balanserar varandra.</p></div><div class=\"facit-stycke\"><p>Friktionen ger den vänsterriktade acceleration som minskar lådans fart åt höger.</p></div><div class=\"facit-stycke\"><p>Resultanten är alltså åt vänster.</p></div><div class=\"facit-stycke\"><p>I just detta fall är friktionen motsatt hastigheten, men det är ingen allmän regel: friktionen motverkar glidning eller tendens till glidning mellan kontaktytorna.</p></div><div class=\"facit-stycke\"><p>När lastbilen i stället ökar farten kan friktionen på lådan vara framåt.</p></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Kraftdiagram\"><rect width=\"440\" height=\"300\" fill=\"white\"/><circle cx=\"220\" cy=\"140\" r=\"5\" fill=\"#333\"/><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"200.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,210 216.0,200.0 224.0,200.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">mg</text><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"80.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,70 224.0,80.0 216.0,80.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"55.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">N</text><line x1=\"220\" y1=\"140\" x2=\"145.0\" y2=\"140.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"135,140 145.0,136.0 145.0,144.0\" fill=\"#245c9b\"/><text x=\"121.0\" y=\"145.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"17\">f</text></svg></span><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna visar riktningarna schematiskt.</p></div><div class=\"facit-stycke\"><p>Beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
     "familj": "Rita krafter med friktion",
     "formaga": [
@@ -38636,7 +38636,7 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En kloss pressas mot en lodrät vägg av en vågrät kraft F. Klossen är i jämvikt och glider inte.</p><span class=\"fig smal\"><svg height=\"260\" width=\"100\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"26.000 9.600 73.000 190.400\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"20\" x2=\"38\" y2=\"28\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"30\" x2=\"38\" y2=\"38\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"40\" x2=\"38\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"50\" x2=\"38\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"60\" x2=\"38\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"70\" x2=\"38\" y2=\"78\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"80\" x2=\"38\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"90\" x2=\"38\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"100\" x2=\"38\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"110\" x2=\"38\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"120\" x2=\"38\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"130\" x2=\"38\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"140\" x2=\"38\" y2=\"148\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"150\" x2=\"38\" y2=\"158\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"160\" x2=\"38\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"170\" x2=\"38\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"180\" x2=\"38\" y2=\"188\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"75\" width=\"65\" height=\"60\" rx=\"3\" fill=\"#E1E9F4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"62\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#2B2527\">kloss</text><circle cx=\"62\" cy=\"105\" r=\"3.5\" fill=\"#2B2527\"/></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på klossen. Ange krafternas namn.</p><ol><li>Vilka fyra krafter verkar på klossen?</li><li>Normalkraften pekar åt vilket håll?</li></ol>",
+    "t": "<p>En kloss pressas mot en lodrät vägg av en vågrät kraft F. Klossen är i jämvikt och glider inte.</p><span class=\"fig smal\"><svg height=\"260\" width=\"100\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"26.000 9.600 73.000 190.400\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"20\" x2=\"38\" y2=\"28\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"30\" x2=\"38\" y2=\"38\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"40\" x2=\"38\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"50\" x2=\"38\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"60\" x2=\"38\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"70\" x2=\"38\" y2=\"78\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"80\" x2=\"38\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"90\" x2=\"38\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"100\" x2=\"38\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"110\" x2=\"38\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"120\" x2=\"38\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"130\" x2=\"38\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"140\" x2=\"38\" y2=\"148\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"150\" x2=\"38\" y2=\"158\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"160\" x2=\"38\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"170\" x2=\"38\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"180\" x2=\"38\" y2=\"188\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"75\" width=\"65\" height=\"60\" rx=\"3\" fill=\"#E1E9F4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"62\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#2B2527\">kloss</text><circle cx=\"62\" cy=\"105\" r=\"3.5\" fill=\"#2B2527\"/></svg></span><p></p><ol type=\"a\"><li>Rita och namnge de fyra krafterna på klossen.</li><li>Åt vilket håll pekar normalkraften?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig smal\"><svg height=\"260\" width=\"179\" role=\"img\" aria-label=\"Kloss mot vägg med handkraft, väggens normalkraft, friktion och tyngdkraft vid rätt angreppspunkter.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 9.600 131.000 190.400\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"20\" x2=\"38\" y2=\"28\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"30\" x2=\"38\" y2=\"38\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"40\" x2=\"38\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"50\" x2=\"38\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"60\" x2=\"38\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"70\" x2=\"38\" y2=\"78\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"80\" x2=\"38\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"90\" x2=\"38\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"100\" x2=\"38\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"110\" x2=\"38\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"120\" x2=\"38\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"130\" x2=\"38\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"140\" x2=\"38\" y2=\"148\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"150\" x2=\"38\" y2=\"158\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"160\" x2=\"38\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"170\" x2=\"38\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"180\" x2=\"38\" y2=\"188\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"75\" width=\"65\" height=\"60\" rx=\"3\" fill=\"#E8EDF5\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"62\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#2B2527\">kloss</text><circle cx=\"62\" cy=\"105\" r=\"3.5\" fill=\"#2B2527\"/><defs><marker id=\"situationspil-4-262\" markerWidth=\"7.6\" markerHeight=\"7.6\" refX=\"6.69\" refY=\"3.8\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L7.6,3.8 L0,7.6 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"30\" y1=\"92\" x2=\"115\" y2=\"92\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-262)\"/><circle cx=\"30\" cy=\"92\" r=\"2.28\" fill=\"#B43123\"/><text x=\"117.8\" y=\"93.4\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"95\" y1=\"118\" x2=\"10\" y2=\"118\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-262)\"/><circle cx=\"95\" cy=\"118\" r=\"2.28\" fill=\"#B43123\"/><text x=\"7.2\" y=\"119.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"30\" y1=\"105\" x2=\"30\" y2=\"45\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-262)\"/><circle cx=\"30\" cy=\"105\" r=\"2.28\" fill=\"#B43123\"/><text x=\"32.8\" y=\"42.55\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">f</text><line x1=\"62\" y1=\"105\" x2=\"62\" y2=\"165\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-262)\"/><circle cx=\"62\" cy=\"105\" r=\"2.28\" fill=\"#B43123\"/><text x=\"64.8\" y=\"170.25\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är tyngdkraften nedåt, friktionen uppåt, handens tryckkraft in mot väggen och väggens normalkraft ut från väggen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften är vinkelrät mot väggytan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sum F_x=0\\Rightarrow N=F\\]\\[\\sum F_y=0\\Rightarrow f=mg\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften pekar vågrätt ut från väggen; friktionen hindrar klossen från att glida ned.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt; beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
     "familj": "Rita krafter med friktion",
     "formaga": [
@@ -38651,7 +38651,7 @@ window.BANK = [
     "spel": false,
     "familjNyckelTidigare": "ritakrafter__frilaggning_med_friktion",
     "ledtrad": "<p>Vilken riktning är vinkelrät ut från väggen?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -38897,7 +38897,7 @@ window.BANK = [
     "niva": "C",
     "typ": "frilägga föremål och identifiera yttre krafter",
     "poang": "(1/2/0)",
-    "t": "<p>En pulka dras snett uppåt över ett strävt vågrätt underlag och accelererar framåt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"slade\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"35\" y1=\"165\" x2=\"385\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"145\" y=\"115\" width=\"120\" height=\"38\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"265\" y1=\"118\" x2=\"345\" y2=\"78\" stroke=\"#374151\" stroke-width=\"3\"/></svg></span><p>Rita ett friläggningsdiagram och använd rörelsebeskrivningen för att avgöra resultantkraftens riktning.</p><p>Pulkan glider åt höger och behåller kontakten med det vågräta underlaget. Bortse från luftmotståndet.</p>",
+    "t": "<p>En pulka dras snett uppåt över ett strävt vågrätt underlag och accelererar framåt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"slade\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"35\" y1=\"165\" x2=\"385\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"145\" y=\"115\" width=\"120\" height=\"38\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"265\" y1=\"118\" x2=\"345\" y2=\"78\" stroke=\"#374151\" stroke-width=\"3\"/></svg></span><p>Rita och namnge krafterna på pulkan. Åt vilket håll pekar kraftsumman? Förklara med hjälp av pulkans acceleration.</p><p>Pulkan glider åt höger och behåller kontakten med det vågräta underlaget. Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften är nedåt, normalkraften lodrätt uppåt, dragkraften snett uppåt åt höger och glidfriktionen åt vänster.</p></div><div class=\"facit-stycke\"><p>Lodrätt gäller N + F sin θ = mg, så N &lt; mg.</p></div><div class=\"facit-stycke\"><p>Vågrätt gäller F cos θ − f = ma &gt; 0.</p></div><div class=\"facit-stycke\"><p>Resultanten är åt höger. θ är dragkraftens vinkel över vågrät riktning.</p></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Kraftdiagram\"><rect width=\"440\" height=\"300\" fill=\"white\"/><circle cx=\"220\" cy=\"140\" r=\"5\" fill=\"#333\"/><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"210.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,220 216.0,210.0 224.0,210.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"235.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">mg</text><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"110.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,100 224.0,110.0 216.0,110.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">N</text><line x1=\"220\" y1=\"140\" x2=\"291.05572809000085\" y2=\"104.47213595499957\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"300,100 292.8445824720007,108.04984471899924 289.266873708001,100.8944271909999\" fill=\"#245c9b\"/><text x=\"312.5219806739988\" y=\"98.29179606750063\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"17\">F_drag</text><line x1=\"220\" y1=\"140\" x2=\"165.0\" y2=\"140.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"155,140 165.0,136.0 165.0,144.0\" fill=\"#245c9b\"/><text x=\"141.0\" y=\"145.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"17\">f</text></svg></span><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna visar riktningarna schematiskt.</p></div><div class=\"facit-stycke\"><p>Beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
     "familj": "Rita krafter med friktion",
     "formaga": [
@@ -40556,10 +40556,10 @@ window.BANK = [
     "id": "4.499",
     "kap": 4,
     "omr": "friktion",
-    "niva": "A",
-    "poang": "(0/1/3)",
-    "t": "<p>En låda knuffas uppför ett plan som lutar \\(20^\\circ\\). Den får starthastigheten 6,0 m/s uppför planet. Friktionstalet mellan låda och plan är 0,25.</p><p>Hur långt glider lådan uppför planet innan den stannar? Svara i meter med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Längs planet verkar två bromsande krafter: tyngdkraftens komposant \\(mg\\sin20^\\circ\\) och friktionen \\(\\mu N=\\mu mg\\cos20^\\circ\\).</p></div><div class=\"facit-stycke\"><p>\\[a=g(\\sin20^\\circ+0{,}25\\cos20^\\circ)\\approx9{,}82(0{,}342+0{,}235)\\approx5{,}67\\text{ m/s}^2.\\]</p></div><div class=\"facit-stycke\"><p>Massan tar ut sig själv.</p></div><div class=\"facit-stycke\"><p>\\(v^2=v_0^2-2as\\) med \\(v=0\\) ger \\(s=\\frac{6{,}0^2}{2\\cdot5{,}67}\\approx3{,}18\\) m.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 3,18 m</p></div>",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>En låda knuffas uppför ett plan som lutar \\(20^\\circ\\). Den får starthastigheten 6,0 m/s uppför planet. Friktionstalet mellan låda och plan är 0,25.</p><p>Hur långt glider lådan uppför planet innan den stannar? Svara i meter med två decimaler.</p><p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Medan lådan glider uppför planet bromsar både tyngdkraftens del längs planet och glidfriktionen. Normalkraften är N = mg cos20°.</p>\\[mb=mg\\sin20^\\circ+0{,}25mg\\cos20^\\circ\\]<p>Massan förkortas bort. Retardationen är</p>\\[b=g(\\sin20^\\circ+0{,}25\\cos20^\\circ)\\approx5{,}6656\\,\\mathrm{m/s^2}\\]<p>Använd v² = v₀² − 2bs med slutfarten v = 0. Behåll det oavrundade värdet på b.</p>\\[s=\\frac{v_0^2}{2b}=\\frac{6{,}0^2}{2\\cdot9{,}82(\\sin20^\\circ+0{,}25\\cos20^\\circ)}\\approx3{,}18\\,\\mathrm m\\]</div>",
     "familj": "Friktion och Newtons andra lag",
     "formaga": [
       "problemlösning",
@@ -40570,22 +40570,22 @@ window.BANK = [
     "självrättning": true,
     "ledtrad": "<p>Dela upp tyngdkraften längs och vinkelrätt mot planet. Normalkraften är inte \\(mg\\) här.</p>",
     "spel": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "svarstyp": "numeriskt",
-    "rättSvar": 3.177078050331158,
-    "tolerans": 0.02,
+    "rättSvar": 3.18,
+    "tolerans": 0.005,
     "svarEnhet": "m",
     "typ": "låda uppför lutande plan med friktion"
   },
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "C",
+    "niva": "E",
     "typ": "friktion vid olika dragkrafter",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En släde med massan 55 kg ligger på plant underlag. Friktionstalet är 0,15. Hur stor är friktionskraften när dragkraften är</p><ol type=\"a\"><li>70 N?</li><li>90 N?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Största friktionen är \\(0{,}15\\cdot55\\cdot9{,}82\\approx81\\) N.</p></div><div class=\"facit-stycke\"><p>70 N räcker inte, så släden står still och friktionen är lika stor som dragkraften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(70\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dragkraften är större än 81 N, så släden glider och friktionen är den största: \\(0{,}15\\cdot55\\cdot9{,}82\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(81\\) N</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En släde på 55 kg ligger stilla på ett vågrätt underlag. Den dras med en vågrät kraft. Använd friktionstalet 0,15 både vid vila och glidning och g = 9,82 m/s². Båda fallen börjar med släden i vila.</p><ol type=\"a\"><li>Hur stor är friktionskraften när dragkraften är 70 N? Svara i N.</li><li>Hur stor är friktionskraften när dragkraften är 90 N? Svara i N med en decimal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Den största vilofriktionen är</p>\\[f_{\\max}=\\mu mg=0{,}15\\cdot55\\cdot9{,}82=81{,}015\\,\\mathrm N\\]<p>Dragkraften 70 N är mindre än gränsen. Släden står därför stilla, och vilofriktionen balanserar dragkraften.</p><p>Svar: 70 N.</p><p><strong>b)</strong></p><p>Den största vilofriktionen är μmg = 0,15 · 55 · 9,82 = 81,015 N. Dragkraften 90 N är större, så släden börjar glida. Samma friktionstal gäller under glidningen.</p>\\[f=\\mu mg=81{,}015\\,\\mathrm N\\]<p>Svar: 81,0 N.</p></div>",
     "id": "4.516",
     "miniräknare": true,
     "geogebra": false,
@@ -40593,11 +40593,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       70,
-      81.015
+      81.0
     ],
     "tolerans": [
-      1.05,
-      1.22
+      0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -40618,13 +40618,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En släde med massan 55 kg ligger på plant underlag. Friktionstalet är 0,15. Hur stor är friktionskraften när dragkraften är</p>",
+    "spelIntro": "<p>En släde på 55 kg ligger stilla på ett vågrätt underlag. Den dras med en vågrät kraft. Använd friktionstalet 0,15 både vid vila och glidning och g = 9,82 m/s². Båda fallen börjar med släden i vila.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "70 N?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En släde med massan 55 kg ligger på plant underlag. Friktionstalet är 0,15. Hur stor är friktionskraften när dragkraften är</p><p>70 N?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Största friktionen är \\(0{,}15\\cdot55\\cdot9{,}82\\approx81\\) N.</p></div><div class=\"facit-stycke\"><p>70 N räcker inte, så släden står still och friktionen är lika stor som dragkraften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(70\\) N</p></div>",
+        "fraga": "Hur stor är friktionskraften när dragkraften är 70 N? Svara i N.",
+        "t": "<p>En släde på 55 kg ligger stilla på ett vågrätt underlag. Den dras med en vågrät kraft. Använd friktionstalet 0,15 både vid vila och glidning och g = 9,82 m/s².</p><p>Hur stor är friktionskraften när dragkraften är 70 N? Svara i N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den största vilofriktionen är</p>\\[f_{\\max}=\\mu mg=0{,}15\\cdot55\\cdot9{,}82=81{,}015\\,\\mathrm N\\]<p>Dragkraften 70 N är mindre än gränsen. Släden står därför stilla, och vilofriktionen balanserar dragkraften.</p><p>Svar: 70 N.</p></div>",
         "ledtrad": "<p>Jämför med den största möjliga friktionen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -40633,12 +40633,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "90 N?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En släde med massan 55 kg ligger på plant underlag. Friktionstalet är 0,15. Hur stor är friktionskraften när dragkraften är</p><p>90 N?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dragkraften är större än 81 N, så släden glider och friktionen är den största: \\(0{,}15\\cdot55\\cdot9{,}82\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(81\\) N</p></div>",
+        "fraga": "Hur stor är friktionskraften när dragkraften är 90 N? Svara i N med en decimal.",
+        "t": "<p>En släde på 55 kg ligger stilla på ett vågrätt underlag. Den dras med en vågrät kraft. Använd friktionstalet 0,15 både vid vila och glidning och g = 9,82 m/s².</p><p>Hur stor är friktionskraften när dragkraften är 90 N? Svara i N med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den största vilofriktionen är μmg = 0,15 · 55 · 9,82 = 81,015 N. Dragkraften 90 N är större, så släden börjar glida. Samma friktionstal gäller under glidningen.</p>\\[f=\\mu mg=81{,}015\\,\\mathrm N\\]<p>Svar: 81,0 N.</p></div>",
         "ledtrad": "<p>Friktionen kan inte bli större än \\(\\mu F_N\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1
       }
@@ -40655,20 +40655,20 @@ window.BANK = [
     "niva": "E",
     "typ": "låda som skjuts",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Oskar skjuter en 43 kg tung låda med konstant fart på plant golv med kraften 210 N.</p><ol type=\"a\"><li>Beräkna friktionstalet.</li><li>Vilken acceleration får lådan om han i stället skjuter med 240 N?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{210}{43\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{240-210}{43}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}70\\) m/s²</p></li></ol></div>",
+    "t": "<p>Oskar skjuter en låda på 43 kg vågrätt över ett vågrätt golv. Med kraften 210 N glider lådan med konstant fart. Glidfriktionstalet är oförändrat när kraften ökas. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm glidfriktionstalet med två decimaler.</li><li>Vilken acceleration får lådan om Oskars kraft ökas till 240 N? Svara i m/s² med två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart balanserar friktionen dragkraften: f = 210 N. Normalkraften är N = mg = 43 · 9,82 = 422,26 N.</p>\\[\\mu=\\frac{f}{N}=\\frac{210}{422{,}26}\\approx0{,}50\\]<p><strong>b)</strong></p><p>Glidfriktionen är fortfarande 210 N. Kraftsumman framåt är 240 − 210 = 30 N.</p>\\[a=\\frac{F_{\\text{res}}}{m}=\\frac{30}{43}\\approx0{,}70\\,\\mathrm{m/s^2}\\]</div>",
     "id": "4.517",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.4973239236489367,
-      0.6976744186046512
+      0.5,
+      0.7
     ],
     "tolerans": [
-      0.00746,
-      0.0105
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -40688,13 +40688,13 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Oskar skjuter en 43 kg tung låda med konstant fart på plant golv med kraften 210 N.</p>",
+    "spelIntro": "<p>Oskar skjuter en låda på 43 kg vågrätt över ett vågrätt golv. Med kraften 210 N glider lådan med konstant fart. Glidfriktionstalet är oförändrat när kraften ökas. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort är glidfriktionstalet mellan lådan och golvet?",
-        "t": "<p>Oskar skjuter en låda på 43 kg över ett vågrätt golv. Lådan har konstant fart och Oskars vågräta kraft är 210 N. Använd g = 9,82 m/s².</p><p>Hur stort är glidfriktionstalet mellan lådan och golvet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{210}{43\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med två decimaler.",
+        "t": "<p>Oskar skjuter en låda på 43 kg vågrätt över ett vågrätt golv. Med kraften 210 N glider lådan med konstant fart. Glidfriktionstalet är oförändrat när kraften ökas. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar friktionen dragkraften: f = 210 N. Normalkraften är N = mg = 43 · 9,82 = 422,26 N.</p>\\[\\mu=\\frac{f}{N}=\\frac{210}{422{,}26}\\approx0{,}50\\]</div>",
         "ledtrad": "<p>Konstant fart: friktionen är lika stor som skjutkraften.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -40703,9 +40703,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får lådan om han i stället skjuter med 240 N?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Oskar skjuter en 43 kg tung låda med konstant fart på plant golv med kraften 210 N.</p><p>Vilken acceleration får lådan om han i stället skjuter med 240 N?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{240-210}{43}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}70\\) m/s²</p></div>",
+        "fraga": "Vilken acceleration får lådan om Oskars kraft ökas till 240 N? Svara i m/s² med två decimaler.",
+        "t": "<p>Oskar skjuter en låda på 43 kg vågrätt över ett vågrätt golv. Med kraften 210 N glider lådan med konstant fart. Glidfriktionstalet är oförändrat när kraften ökas. Använd g = 9,82 m/s².</p><p>Vilken acceleration får lådan om Oskars kraft ökas till 240 N? Svara i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Glidfriktionen är fortfarande 210 N. Kraftsumman framåt är 240 − 210 = 30 N.</p>\\[a=\\frac{F_{\\text{res}}}{m}=\\frac{30}{43}\\approx0{,}70\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Friktionen är fortfarande 210 N.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -40725,15 +40725,15 @@ window.BANK = [
     "niva": "E",
     "typ": "curlingstenens massa",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Friktionstalet mellan en curlingsten och isen är 0,0168. Det krävs en vågrät kraft på 3,21 N för att sätta stenen i rörelse. Bestäm stenens massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{F}{\\mu g}=\\dfrac{3{,}21}{0{,}0168\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}5\\) kg</p></div>",
+    "t": "<p>Vilofriktionstalet mellan en curlingsten och vågrät is är 0,0168. En vågrät kraft på 3,21 N får stenen att precis börja glida. Använd g = 9,82 m/s². Bestäm stenens massa i kg med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid gränsen till glidning är dragkraften lika stor som den största vilofriktionen. Normalkraften är mg.</p>\\[F=\\mu mg\\quad\\Rightarrow\\quad m=\\frac{F}{\\mu g}\\]\\[m=\\frac{3{,}21}{0{,}0168\\cdot9{,}82}\\approx19{,}5\\,\\mathrm{kg}\\]</div>",
     "id": "4.518",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "numeriskt",
-    "rättSvar": 19.45737561827175,
-    "tolerans": 0.292,
+    "rättSvar": 19.5,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -40753,22 +40753,22 @@ window.BANK = [
     "niva": "C",
     "typ": "dragkraft vid ändrade förutsättningar",
     "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p><ol type=\"a\"><li>Hur stort är friktionstalet?</li><li>Vilken dragkraft krävs om lådans massa fördubblas?</li><li>Vilken dragkraft krävs om lådans kontaktyta mot marken fördubblas?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{300}{120\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dubbel normalkraft ger dubbel friktion.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen beror inte på kontaktytans storlek.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\) N</p></li></ol></div>",
+    "t": "<p>En låda på 120 kg dras vågrätt med 300 N och konstant fart över ett vågrätt golv. Använd modellen f = μN och g = 9,82 m/s². I b och c ändras en sak i taget från det ursprungliga fallet. Glidfriktionstalet är oförändrat.</p><ol type=\"a\"><li>Bestäm glidfriktionstalet med två decimaler.</li><li>Vilken dragkraft krävs för konstant fart om massan fördubblas? Svara i N.</li><li>Vilken dragkraft krävs för konstant fart om kontaktytan fördubblas men massan är oförändrad? Svara i N.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart är friktionen 300 N. Normalkraften är N = mg = 120 · 9,82 = 1178,4 N.</p>\\[\\mu=\\frac{300}{1178{,}4}\\approx0{,}25\\]<p><strong>b)</strong></p><p>Normalkraften mg fördubblas när massan fördubblas. Med oförändrat μ fördubblas även glidfriktionen. Dragkraften måste balansera den vid konstant fart.</p>\\[F=2\\cdot300=600\\,\\mathrm N\\]<p><strong>c)</strong></p><p>I modellen f = μN påverkar kontaktytans storlek inte friktionen. Massan och μ är oförändrade, så även N = mg och friktionen är oförändrade.</p><p>Svar: 300 N.</p></div>",
     "id": "4.519",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.2545824847250509,
+      0.25,
       600,
       300
     ],
     "tolerans": [
-      0.0051,
-      9.0,
-      5.1
+      0.005,
+      0,
+      0
     ],
     "självrättning": true,
     "formaga": [
@@ -40792,13 +40792,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p>",
+    "spelIntro": "<p>En låda på 120 kg dras vågrätt med 300 N och konstant fart över ett vågrätt golv. Använd modellen f = μN och g = 9,82 m/s². I b och c ändras en sak i taget från det ursprungliga fallet. Glidfriktionstalet är oförändrat.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort är glidfriktionstalet mellan lådan och golvet?",
-        "t": "<p>En låda på 120 kg dras över ett vågrätt golv med konstant fart. Den vågräta dragkraften är 300 N. Använd g = 9,82 m/s².</p><p>Hur stort är glidfriktionstalet mellan lådan och golvet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{300}{120\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med två decimaler.",
+        "t": "<p>En låda på 120 kg dras vågrätt med 300 N och konstant fart över ett vågrätt golv. Använd modellen f = μN och g = 9,82 m/s². Glidfriktionstalet är oförändrat.</p><p>Bestäm glidfriktionstalet med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är friktionen 300 N. Normalkraften är N = mg = 120 · 9,82 = 1178,4 N.</p>\\[\\mu=\\frac{300}{1178{,}4}\\approx0{,}25\\]</div>",
         "ledtrad": "<p>Friktionen är lika stor som dragkraften.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -40807,20 +40807,20 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor dragkraft behövs nu för konstant fart? Svara i N.",
-        "t": "<p>En låda dras med konstant fart över ett vågrätt golv. Den vågräta dragkraften är 300 N. Lådans massa fördubblas och glidfriktionstalet är oförändrat.</p><p>Hur stor dragkraft behövs nu för konstant fart? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dubbel normalkraft ger dubbel friktion.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) N</p></div>",
+        "fraga": "Vilken dragkraft krävs för konstant fart om massan fördubblas? Svara i N.",
+        "t": "<p>En låda dras vågrätt med 300 N och konstant fart över ett vågrätt golv. Använd modellen f = μN. Glidfriktionstalet är oförändrat.</p><p>Vilken dragkraft krävs för konstant fart om massan fördubblas? Svara i N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften mg fördubblas när massan fördubblas. Med oförändrat μ fördubblas även glidfriktionen. Dragkraften måste balansera den vid konstant fart.</p>\\[F=2\\cdot300=600\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>\\(F_{fr}\\sim F_N\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilken dragkraft krävs om lådans kontaktyta mot marken fördubblas?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p><p>Vilken dragkraft krävs om lådans kontaktyta mot marken fördubblas?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen beror inte på kontaktytans storlek.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\) N</p></div>",
+        "fraga": "Vilken dragkraft krävs för konstant fart om kontaktytan fördubblas men massan är oförändrad? Svara i N.",
+        "t": "<p>En låda dras vågrätt med 300 N och konstant fart över ett vågrätt golv. Använd modellen f = μN. Glidfriktionstalet är oförändrat.</p><p>Vilken dragkraft krävs för konstant fart om kontaktytan fördubblas men massan är oförändrad? Svara i N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I modellen f = μN påverkar kontaktytans storlek inte friktionen. Massan och μ är oförändrade, så även N = mg och friktionen är oförändrade.</p><p>Svar: 300 N.</p></div>",
         "ledtrad": "<p>Finns arean i formeln?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -40840,15 +40840,15 @@ window.BANK = [
     "niva": "E",
     "typ": "flytta kylskåp",
     "poang": "(1/0/0)",
-    "t": "<p>Ett kylskåp på 91,0 kg står på ett vågrätt golv. Vilofriktionstalet är 0,60. Använd g = 9,82 m/s².</p><p>Hur stor vågrät kraft behövs precis för att kylskåpet ska börja glida? Svara i N.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\mu mg=0{,}60\\cdot91{,}0\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(536\\) N</p></div>",
+    "t": "<p>Ett kylskåp på 91,0 kg står på ett vågrätt golv. Vilofriktionstalet är 0,60. Använd g = 9,82 m/s².</p><p>Hur stor vågrät kraft behövs precis för att kylskåpet ska börja glida? Svara i N.</p><p>Anta att kylskåpet inte tippar. Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Precis vid glidgränsen balanseras den vågräta kraften av den största vilofriktionen. Normalkraften är mg.</p>\\[F=\\mu mg=0{,}60\\cdot91{,}0\\cdot9{,}82=536{,}172\\,\\mathrm N\\]<p>Svar med tre värdesiffror: 536 N.</p></div>",
     "id": "4.520",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "numeriskt",
-    "rättSvar": 536.172,
-    "tolerans": 8.04,
+    "rättSvar": 536,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -40868,15 +40868,15 @@ window.BANK = [
     "niva": "E",
     "typ": "friktionstal för spis",
     "poang": "(1/0/0)",
-    "t": "<p>En spis på 65 kg står på ett vågrätt golv. När den vågräta dragkraften når 450 N börjar spisen precis glida. Använd g = 9,82 m/s².</p><p>Hur stort är vilofriktionstalet mellan spisen och golvet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{450}{65\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}70\\) </p></div>",
+    "t": "<p>En spis på 65 kg står på ett vågrätt golv. När den vågräta dragkraften når 450 N börjar spisen precis glida. Använd g = 9,82 m/s².</p><p>Hur stort är vilofriktionstalet mellan spisen och golvet?</p><p>Avrunda till två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid glidgränsen är kraften lika stor som den största vilofriktionen. Normalkraften är N = mg = 65 · 9,82 = 638,3 N.</p>\\[\\mu=\\frac{F}{N}=\\frac{450}{638{,}3}\\approx0{,}70\\]</div>",
     "id": "4.521",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.7049976500078332,
-    "tolerans": 0.0106,
+    "rättSvar": 0.7,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -40892,18 +40892,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "C",
+    "niva": "E",
     "typ": "låda med potatis",
-    "poang": "(0/1/0)",
-    "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 3,4 kg dras med konstant fart med kraften 7,8 N. En säck potatis på 2,5 kg läggs i lådan. Vilken kraft krävs nu för konstant fart?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen är proportionell mot massan: \\(7{,}8\\cdot\\dfrac{5{,}9}{3{,}4}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) N</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En låda på 3,4 kg dras vågrätt med 7,8 N och konstant fart över ett vågrätt golv. En säck potatis på 2,5 kg läggs i lådan. Glidfriktionstalet är oförändrat. Vilken vågrät dragkraft krävs nu för konstant fart? Svara i N med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart gäller F = μmg. Med samma μ och g ökar kraften i samma förhållande som massan. Den nya massan är 3,4 + 2,5 = 5,9 kg.</p>\\[F_{\\text{ny}}=7{,}8\\cdot\\frac{5{,}9}{3{,}4}\\approx13{,}5\\,\\mathrm N\\]</div>",
     "id": "4.522",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "numeriskt",
-    "rättSvar": 13.53529411764706,
-    "tolerans": 0.51,
+    "rättSvar": 13.5,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -40922,16 +40922,16 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "typ": "aluminiumkub på bord",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En aluminiumkub med sidan 25,0 cm dras med konstant fart på ett bord. Friktionstalet är 0,350 och aluminium har densiteten 2,70 g/cm³. Vilken kraft krävs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(m=2\\,700\\cdot0{,}250^3\\approx42{,}2\\) kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}350\\cdot42{,}2\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(145\\) N</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>En aluminiumkub med sidan 25,0 cm dras vågrätt med konstant fart över ett vågrätt bord. Glidfriktionstalet är 0,350 och densiteten är 2,70 g/cm³. Använd g = 9,82 m/s². Vilken dragkraft krävs? Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla sidan till 0,250 m och densiteten till 2700 kg/m³. Volymen är sidan i kubik.</p>\\[V=0{,}250^3=0{,}015625\\,\\mathrm{m^3}\\]\\[m=\\rho V=2700\\cdot0{,}015625=42{,}1875\\,\\mathrm{kg}\\]<p>Vid konstant fart balanserar dragkraften glidfriktionen. Normalkraften är mg.</p>\\[F=\\mu mg=0{,}350\\cdot42{,}1875\\cdot9{,}82\\approx145\\,\\mathrm N\\]</div>",
     "id": "4.523",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "numeriskt",
-    "rättSvar": 144.9984375,
-    "tolerans": 2.17,
+    "rättSvar": 145,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -40939,7 +40939,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm massan ur densiteten.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "N",
     "familjNyckel": "friktion__vilo_och_glidfriktion",
     "arbetsinsats": 1,
@@ -40950,16 +40950,16 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "typ": "kopparblock",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett rätblock av koppar (15 cm × 12,4 cm × 8,6 cm, densitet 8,96 g/cm³) dras med konstant fart med kraften 52 N. Bestäm friktionstalet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(m=8\\,960\\cdot0{,}15\\cdot0{,}124\\cdot0{,}086\\approx14{,}3\\) kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{52}{14{,}3\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}37\\) </p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett kopparblock är 15 cm långt, 12,4 cm brett och 8,6 cm högt. Densiteten är 8,96 g/cm³. Blocket dras vågrätt med 52 N och konstant fart över ett vågrätt bord. Använd g = 9,82 m/s². Bestäm glidfriktionstalet med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla måtten till meter och densiteten till 8960 kg/m³. Beräkna massan från volymen.</p>\\[m=\\rho V=8960\\cdot0{,}15\\cdot0{,}124\\cdot0{,}086=14{,}332416\\,\\mathrm{kg}\\]<p>Vid konstant fart är friktionen 52 N. Normalkraften är mg.</p>\\[\\mu=\\frac{f}{mg}=\\frac{52}{14{,}332416\\cdot9{,}82}\\approx0{,}37\\]</div>",
     "id": "4.524",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.3694642747099344,
-    "tolerans": 0.00554,
+    "rättSvar": 0.37,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -40967,7 +40967,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm massan ur densiteten.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "friktion__vilo_och_glidfriktion",
     "arbetsinsats": 1,
     "spel": true
@@ -40978,15 +40978,15 @@ window.BANK = [
     "niva": "C",
     "typ": "från grov till smord yta",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett järnblock (6,0 kg) dras med konstant fart över en yta med friktionstalet 0,42. Samma dragkraft används när blocket kommer in på en smord yta med friktionstalet 0,05. Vilken acceleration får blocket där?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F=0{,}42\\cdot6{,}0\\cdot9{,}82\\approx24{,}7\\) N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{24{,}7-0{,}05\\cdot6{,}0\\cdot9{,}82}{6{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\) m/s²</p></div>",
+    "t": "<p>Ett järnblock på 6,0 kg dras vågrätt med konstant fart över ett vågrätt golv med glidfriktionstalet 0,42. Blocket glider sedan in på en smord del där glidfriktionstalet är 0,05. Dragkraften är oförändrad. Använd g = 9,82 m/s². Vilken acceleration får blocket där? Svara i m/s² med två värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>På den första delen balanserar dragkraften friktionen: F = 0,42mg. På den smorda delen är friktionen mindre: f = 0,05mg. Kraftsumman ger</p>\\[ma=0{,}42mg-0{,}05mg\\]<p>Massan förkortas bort.</p>\\[a=(0{,}42-0{,}05)g=0{,}37\\cdot9{,}82=3{,}6334\\,\\mathrm{m/s^2}\\]<p>Svar med två värdesiffror: 3,6 m/s².</p></div>",
     "id": "4.525",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.6334,
-    "tolerans": 0.0545,
+    "rättSvar": 3.6,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -41006,22 +41006,22 @@ window.BANK = [
     "niva": "E",
     "typ": "tre klossar med dynamometer",
     "poang": "(3/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p><ol type=\"a\"><li>Klossen med massan 1,97 kg kräver 9,2 N. Bestäm friktionstalet.</li><li>En kloss med massan 8,8 kg har friktionstalet 0,25. Vilken kraft krävs?</li><li>En kloss med friktionstalet 0,67 kräver 75 N. Vilken massa har den?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{9{,}2}{1{,}97\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}48\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}25\\cdot8{,}8\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{75}{0{,}67\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) kg</p></li></ol></div>",
+    "t": "<p>Tre klossar dras var för sig vågrätt med konstant fart över ett vågrätt bord. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En kloss på 1,97 kg kräver 9,2 N. Bestäm glidfriktionstalet med två decimaler.</li><li>En kloss på 8,8 kg har glidfriktionstalet 0,25. Vilken dragkraft krävs? Svara i hela N.</li><li>En kloss med glidfriktionstalet 0,67 kräver 75 N. Vilken massa har den? Svara i hela kg.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart innebär att friktionen är lika stor som dragkraften. Normalkraften är mg.</p>\\[\\mu=\\frac{F}{mg}=\\frac{9{,}2}{1{,}97\\cdot9{,}82}\\approx0{,}48\\]<p><strong>b)</strong></p><p>Dragkraften balanserar glidfriktionen. Normalkraften är mg.</p>\\[F=\\mu mg=0{,}25\\cdot8{,}8\\cdot9{,}82=21{,}604\\,\\mathrm N\\]<p>Svar i hela newton: 22 N.</p><p><strong>c)</strong></p><p>Vid konstant fart gäller F = μmg. Lös ut massan.</p>\\[m=\\frac{F}{\\mu g}=\\frac{75}{0{,}67\\cdot9{,}82}\\approx11{,}399\\,\\mathrm{kg}\\]<p>Svar i hela kilogram: 11 kg.</p></div>",
     "id": "4.526",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.47556525065390215,
-      21.604000000000003,
-      11.399215733957503
+      0.48,
+      22,
+      11
     ],
     "tolerans": [
-      0.00713,
-      0.51,
-      0.51
+      0.005,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -41044,13 +41044,13 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p>",
+    "spelIntro": "<p>Tre klossar dras var för sig vågrätt med konstant fart över ett vågrätt bord. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort är glidfriktionstalet?",
-        "t": "<p>En kloss på 1,97 kg dras med konstant fart över ett vågrätt bord. Den vågräta dragkraften är 9,2 N. Använd g = 9,82 m/s².</p><p>Hur stort är glidfriktionstalet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{9{,}2}{1{,}97\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}48\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med två decimaler.",
+        "t": "<p>En kloss på 1,97 kg dras med konstant fart över ett vågrätt bord. Den vågräta dragkraften är 9,2 N. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att friktionen är lika stor som dragkraften. Normalkraften är mg.</p>\\[\\mu=\\frac{F}{mg}=\\frac{9{,}2}{1{,}97\\cdot9{,}82}\\approx0{,}48\\]</div>",
         "ledtrad": "<p>\\(\\mu=\\dfrac F{mg}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41059,9 +41059,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor vågrät dragkraft behövs? Svara i N.",
-        "t": "<p>En kloss på 8,8 kg dras med konstant fart över ett vågrätt bord. Glidfriktionstalet är 0,25. Använd g = 9,82 m/s².</p><p>Hur stor vågrät dragkraft behövs? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}25\\cdot8{,}8\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\) N</p></div>",
+        "fraga": "Vilken dragkraft krävs? Svara i hela N.",
+        "t": "<p>En kloss på 8,8 kg dras med konstant fart över ett vågrätt bord. Glidfriktionstalet är 0,25. Använd g = 9,82 m/s².</p><p>Vilken dragkraft krävs? Svara i hela N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften balanserar glidfriktionen. Normalkraften är mg.</p>\\[F=\\mu mg=0{,}25\\cdot8{,}8\\cdot9{,}82=21{,}604\\,\\mathrm N\\]<p>Svar i hela newton: 22 N.</p></div>",
         "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41070,9 +41070,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är klossens massa? Svara i kg.",
-        "t": "<p>En kloss dras med konstant fart över ett vågrätt bord. Glidfriktionstalet är 0,67 och den vågräta dragkraften är 75 N. Använd g = 9,82 m/s².</p><p>Hur stor är klossens massa? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{75}{0{,}67\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) kg</p></div>",
+        "fraga": "Vilken massa har klossen? Svara i hela kg.",
+        "t": "<p>En kloss dras med konstant fart över ett vågrätt bord. Glidfriktionstalet är 0,67 och den vågräta dragkraften är 75 N. Använd g = 9,82 m/s².</p><p>Vilken massa har klossen? Svara i hela kg.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart gäller F = μmg. Lös ut massan.</p>\\[m=\\frac{F}{\\mu g}=\\frac{75}{0{,}67\\cdot9{,}82}\\approx11{,}399\\,\\mathrm{kg}\\]<p>Svar i hela kilogram: 11 kg.</p></div>",
         "ledtrad": "<p>\\(m=\\dfrac{F}{\\mu g}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41091,25 +41091,25 @@ window.BANK = [
     "omr": "friktion",
     "niva": "C",
     "typ": "två personer skjuter en packlår",
-    "poang": "(3/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda på 120 kg står på ett vågrätt golv. Friktionstalet är 0,35, både när lådan står stilla och när den glider. Oscars största vågräta kraft är precis tillräcklig för konstant fart när lådan glider. Pelle kan skjuta med 540 N.</p><ol type=\"a\"><li>Hur stor är Oscars kraft?</li><li>Vilken acceleration får lådan när bara Pelle skjuter?</li><li>Vilken acceleration får lådan när båda skjuter åt samma håll?</li><li>De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Konstant fart betyder att Oscars kraft är lika stor som friktionskraften. Normalkraften på vågrätt golv är lika stor som tyngdkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\mu mg=0{,}35\\cdot120\\cdot9{,}82=412{,}44\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 412 N.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dra bort friktionen från Pelles kraft. Dividera sedan med massan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{540-412}{120}\\approx1{,}07\\,\\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1,1 m/s².</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lägg ihop personernas krafter och dra bort friktionen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{412+540-412}{120}=4{,}5\\,\\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,5 m/s².</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nettokraften \\(540-412=128\\) N är mindre än största friktionen, så lådan står still och friktionen är 128 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(128\\) N</p></div></div></div>",
+    "poang": "(3/1/0)",
+    "t": "<p>En låda på 120 kg dras på ett vågrätt golv. Friktionstalet är 0,35 både vid vila och glidning. Oscars vågräta kraft är precis tillräcklig för konstant fart. Pelle skjuter med 540 N. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är Oscars kraft? Svara i hela N.</li><li>Lådan glider framåt och bara Pelle skjuter. Bestäm accelerationen i m/s² med två decimaler.</li><li>Lådan glider framåt och båda skjuter åt samma håll. Bestäm accelerationen i m/s².</li><li>Lådan står från början stilla. Oscar och Pelle skjuter åt motsatta håll. Hur stor är friktionskraften? Svara i hela N.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart balanserar Oscars kraft glidfriktionen. Normalkraften är mg.</p>\\[F_O=\\mu mg=0{,}35\\cdot120\\cdot9{,}82=412{,}44\\,\\mathrm N\\]<p>Svar i hela newton: 412 N.</p><p><strong>b)</strong></p><p>Lådan glider, så friktionen är f = μmg = 0,35 · 120 · 9,82 = 412,44 N. Dra bort den från Pelles kraft.</p>\\[a=\\frac{540-412{,}44}{120}=1{,}063\\,\\mathrm{m/s^2}\\]<p>Svar: 1,06 m/s².</p><p><strong>c)</strong></p><p>Oscars kraft balanserar ensam friktionen vid konstant fart: \\(F_O\\) = f = μmg = 412,44 N. När Pelle också skjuter är kraftsumman därför \\(F_O\\) + 540 − f = 540 N.</p>\\[a=\\frac{540}{120}=4{,}5\\,\\mathrm{m/s^2}\\]<p><strong>d)</strong></p><p>Oscars kraft är μmg = 0,35 · 120 · 9,82 = 412,44 N. Personernas krafter ger tillsammans 540 − 412,44 = 127,56 N åt Pelles håll.</p><p>Det är mindre än största vilofriktionen 412,44 N. Lådan står därför stilla. Friktionen balanserar personernas sammanlagda kraft och pekar åt Oscars håll.</p><p>Svar: 128 N.</p></div>",
     "id": "4.527",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      412.44,
-      1.063,
+      412,
+      1.06,
       4.5,
-      127.56
+      128
     ],
     "tolerans": [
-      6.19,
-      0.051,
-      0.0675,
-      5.1
+      0.5,
+      0.005,
+      0,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -41136,13 +41136,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda på 120 kg står på ett vågrätt golv. Friktionstalet är 0,35, både när lådan står stilla och när den glider. Oscars största vågräta kraft är precis tillräcklig för konstant fart när lådan glider. Pelle kan skjuta med 540 N.</p>",
+    "spelIntro": "<p>En låda på 120 kg dras på ett vågrätt golv. Friktionstalet är 0,35 både vid vila och glidning. Oscars vågräta kraft är precis tillräcklig för konstant fart. Pelle skjuter med 540 N. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är Oscars kraft på lådan? Svara i N.",
-        "t": "<p>Oscar skjuter en låda på 120 kg med konstant fart över ett vågrätt golv. Glidfriktionstalet är 0,35 och Oscars kraft är vågrät. Använd g = 9,82 m/s².</p><p>Hur stor är Oscars kraft på lådan? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Konstant fart betyder att Oscars kraft är lika stor som friktionskraften. Normalkraften på vågrätt golv är lika stor som tyngdkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\mu mg=0{,}35\\cdot120\\cdot9{,}82=412{,}44\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 412 N.</p></div></div>",
+        "fraga": "Hur stor är Oscars kraft? Svara i hela N.",
+        "t": "<p>En låda på 120 kg dras på ett vågrätt golv. Friktionstalet är 0,35 både vid vila och glidning. Oscars vågräta kraft är precis tillräcklig för konstant fart. Använd g = 9,82 m/s².</p><p>Hur stor är Oscars kraft? Svara i hela N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar Oscars kraft glidfriktionen. Normalkraften är mg.</p>\\[F_O=\\mu mg=0{,}35\\cdot120\\cdot9{,}82=412{,}44\\,\\mathrm N\\]<p>Svar i hela newton: 412 N.</p></div>",
         "ledtrad": "<p>Jämför dragkraften med friktionskraften vid konstant fart.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41151,9 +41151,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får lådan när bara Pelle skjuter?",
-        "t": "<p>En låda på 120 kg skjuts av Pelle med 540 N. Friktionen bromsar med 412 N.</p><p>Vilken acceleration får lådan när bara Pelle skjuter?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dra bort friktionen från Pelles kraft. Dividera sedan med massan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{540-412}{120}\\approx1{,}07\\,\\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1,1 m/s².</p></div>",
+        "fraga": "Lådan glider framåt och bara Pelle skjuter. Bestäm accelerationen i m/s² med två decimaler.",
+        "t": "<p>En låda på 120 kg dras på ett vågrätt golv. Friktionstalet är 0,35 både vid vila och glidning. Pelle skjuter med 540 N. Använd g = 9,82 m/s².</p><p>Lådan glider framåt och bara Pelle skjuter. Bestäm accelerationen i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lådan glider, så friktionen är f = μmg = 0,35 · 120 · 9,82 = 412,44 N. Dra bort den från Pelles kraft.</p>\\[a=\\frac{540-412{,}44}{120}=1{,}063\\,\\mathrm{m/s^2}\\]<p>Svar: 1,06 m/s².</p></div>",
         "ledtrad": "<p>Resultant = skjutkraft − friktion.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41162,20 +41162,20 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vilken acceleration får lådan när båda skjuter åt samma håll?",
-        "t": "<p>En låda på 120 kg skjuts åt samma håll av Oscar med 412 N och Pelle med 540 N. Friktionen bromsar med 412 N.</p><p>Vilken acceleration får lådan när båda skjuter åt samma håll?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lägg ihop personernas krafter och dra bort friktionen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{412+540-412}{120}=4{,}5\\,\\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,5 m/s².</p></div>",
+        "fraga": "Lådan glider framåt och båda skjuter åt samma håll. Bestäm accelerationen i m/s².",
+        "t": "<p>En låda på 120 kg dras på ett vågrätt golv. Friktionstalet är 0,35 både vid vila och glidning. Oscars vågräta kraft är precis tillräcklig för konstant fart. Pelle skjuter med 540 N. Använd g = 9,82 m/s².</p><p>Lådan glider framåt och båda skjuter åt samma håll. Bestäm accelerationen i m/s².</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Oscars kraft balanserar ensam friktionen vid konstant fart: \\(F_O\\) = f = μmg = 412,44 N. När Pelle också skjuter är kraftsumman därför \\(F_O\\) + 540 − f = 540 N.</p>\\[a=\\frac{540}{120}=4{,}5\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Lägg ihop krafterna.</p>",
         "niva": "E",
-        "poang": "(1/1/0)",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda på 120 kg står på ett vågrätt golv. Friktionstalet är 0,35, både när lådan står stilla och när den glider. Oscars största vågräta kraft är precis tillräcklig för konstant fart när lådan glider. Pelle kan skjuta med 540 N.</p>Oscar skjuter med 412 N.<p>De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nettokraften \\(540-412=128\\) N är mindre än största friktionen, så lådan står still och friktionen är 128 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(128\\) N</p></div>",
+        "fraga": "Lådan står från början stilla. Oscar och Pelle skjuter åt motsatta håll. Hur stor är friktionskraften? Svara i hela N.",
+        "t": "<p>En låda på 120 kg dras på ett vågrätt golv. Friktionstalet är 0,35 både vid vila och glidning. Oscars vågräta kraft är precis tillräcklig för konstant fart. Pelle skjuter med 540 N. Använd g = 9,82 m/s².</p><p>Lådan står från början stilla. Oscar och Pelle skjuter åt motsatta håll. Hur stor är friktionskraften? Svara i hela N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Oscars kraft är μmg = 0,35 · 120 · 9,82 = 412,44 N. Personernas krafter ger tillsammans 540 − 412,44 = 127,56 N åt Pelles håll.</p><p>Det är mindre än största vilofriktionen 412,44 N. Lådan står därför stilla. Friktionen balanserar personernas sammanlagda kraft och pekar åt Oscars håll.</p><p>Svar: 128 N.</p></div>",
         "ledtrad": "<p>Räcker nettokraften för att rubba lådan?</p>",
         "niva": "C",
         "poang": "(0/1/1)",
@@ -41194,16 +41194,16 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "typ": "skidlift",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Anna-Lena (85 kg med skidor) dras av en lift på plan mark från vila med accelerationen 0,80 m/s². Friktionstalet mot snön är 0,070. Hur stor kraft verkar från liften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=ma+\\mu mg=85(0{,}80+0{,}070\\cdot9{,}82)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(126\\) N</p></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En skidåkare med skidor väger 85 kg och dras vågrätt av en lift över vågrät mark. Accelerationen är 0,80 m/s² och glidfriktionstalet mot snön är 0,070. Bortse från luftmotstånd. Använd g = 9,82 m/s². Hur stor är liftens dragkraft? Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är mg, så glidfriktionen är</p>\\[f=\\mu mg=0{,}070\\cdot85\\cdot9{,}82=58{,}429\\,\\mathrm N\\]<p>Dragkraften måste både balansera friktionen och ge kraftsumman ma = 85 · 0,80 = 68 N.</p>\\[F=ma+f=68+58{,}429=126{,}429\\,\\mathrm N\\]<p>Svar: 126 N.</p></div>",
     "id": "4.528",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 126.429,
-    "tolerans": 5.1,
+    "rättSvar": 126,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -41223,20 +41223,20 @@ window.BANK = [
     "niva": "C",
     "typ": "skidåkare på plan mark",
     "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kent (97 kg med skidor) kommer ut på plan mark med farten 52 km/h. Friktionstalet mellan skidor och snö är 0,090.</p><ol type=\"a\"><li>Bestäm retardationen.</li><li>Luftmotståndet är \\(0{,}25v^2\\) N. Bestäm retardationen med luftmotståndet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\mu g=0{,}090\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}88\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(v=14{,}4\\) m/s ger luftmotståndet \\(0{,}25\\cdot14{,}4^2\\approx52\\) N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{85{,}7+52}{97}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\) m/s²</p></li></ol></div>",
+    "t": "<p>Kent och hans skidor väger tillsammans 97 kg. Han glider med 52 km/h på vågrät mark. Glidfriktionstalet är 0,090. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm retardationen utan luftmotstånd. Svara i m/s² med två decimaler.</li><li>Luftmotståndet är F_luft = 0,25v² N, där v anges i m/s. Bestäm retardationen vid 52 km/h, med luftmotståndet. Svara i m/s² med två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Friktionen är μmg och är här den enda bromsande kraften. Med retardationens storlek b ger mb = μmg att massan förkortas bort.</p>\\[b=\\mu g=0{,}090\\cdot9{,}82=0{,}8838\\,\\mathrm{m/s^2}\\]<p>Svar: 0,88 m/s².</p><p><strong>b)</strong></p><p>Omvandla först den aktuella farten till m/s. Luftmotståndet måste beräknas vid just den farten.</p>\\[v=\\frac{52}{3{,}6}=14{,}444\\ldots\\,\\mathrm{m/s}\\]\\[F_{\\text{luft}}=0{,}25(52/3{,}6)^2\\approx52{,}16\\,\\mathrm N\\]<p>Glidfriktionen är f = μmg = 0,090 · 97 · 9,82 = 85,7286 N. Båda krafterna bromsar. Behåll oavrundade värden i summan.</p>\\[b=\\frac{f+F_{\\text{luft}}}{97}\\approx1{,}42\\,\\mathrm{m/s^2}\\]</div>",
     "id": "4.529",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.8838,
-      1.4215370497645412
+      0.88,
+      1.42
     ],
     "tolerans": [
-      0.0133,
-      0.051
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -41257,13 +41257,13 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kent (97 kg med skidor) kommer ut på plan mark med farten 52 km/h. Friktionstalet mellan skidor och snö är 0,090.</p>",
+    "spelIntro": "<p>Kent och hans skidor väger tillsammans 97 kg. Han glider med 52 km/h på vågrät mark. Glidfriktionstalet är 0,090. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm retardationen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kent (97 kg med skidor) kommer ut på plan mark med farten 52 km/h. Friktionstalet mellan skidor och snö är 0,090.</p><p>Bestäm retardationen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\mu g=0{,}090\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}88\\) m/s²</p></div>",
+        "fraga": "Bestäm retardationen utan luftmotstånd. Svara i m/s² med två decimaler.",
+        "t": "<p>En skidåkare glider på vågrät mark med glidfriktionstalet 0,090. Använd g = 9,82 m/s².</p><p>Bestäm retardationen utan luftmotstånd. Svara i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen är μmg och är här den enda bromsande kraften. Med retardationens storlek b ger mb = μmg att massan förkortas bort.</p>\\[b=\\mu g=0{,}090\\cdot9{,}82=0{,}8838\\,\\mathrm{m/s^2}\\]<p>Svar: 0,88 m/s².</p></div>",
         "ledtrad": "<p>Bara friktionen bromsar.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41272,9 +41272,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Luftmotståndet är \\(0{,}25v^2\\) N. Bestäm retardationen med luftmotståndet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kent (97 kg med skidor) kommer ut på plan mark med farten 52 km/h. Friktionstalet mellan skidor och snö är 0,090.</p><p>Luftmotståndet är \\(0{,}25v^2\\) N. Bestäm retardationen med luftmotståndet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(v=14{,}4\\) m/s ger luftmotståndet \\(0{,}25\\cdot14{,}4^2\\approx52\\) N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{85{,}7+52}{97}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\) m/s²</p></div>",
+        "fraga": "Luftmotståndet är F_luft = 0,25v² N, där v anges i m/s. Bestäm retardationen vid 52 km/h, med luftmotståndet. Svara i m/s² med två decimaler.",
+        "t": "<p>Kent och hans skidor väger tillsammans 97 kg. Han glider med 52 km/h på vågrät mark. Glidfriktionstalet är 0,090. Använd g = 9,82 m/s².</p><p>Luftmotståndet är F_luft = 0,25v² N, där v anges i m/s. Bestäm retardationen vid 52 km/h, med luftmotståndet. Svara i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla först den aktuella farten till m/s. Luftmotståndet måste beräknas vid just den farten.</p>\\[v=\\frac{52}{3{,}6}=14{,}444\\ldots\\,\\mathrm{m/s}\\]\\[F_{\\text{luft}}=0{,}25(52/3{,}6)^2\\approx52{,}16\\,\\mathrm N\\]<p>Glidfriktionen är f = μmg = 0,090 · 97 · 9,82 = 85,7286 N. Båda krafterna bromsar. Behåll oavrundade värden i summan.</p>\\[b=\\frac{f+F_{\\text{luft}}}{97}\\approx1{,}42\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Lägg ihop de bromsande krafterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -41294,8 +41294,8 @@ window.BANK = [
     "niva": "E",
     "typ": "konståkerska",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En konståkerska (51 kg) glider på en skridsko med retardationen 0,75 m/s².</p><ol type=\"a\"><li>Bestäm friktionskraften.</li><li>Bestäm friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=ma=51\\cdot0{,}75\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(38\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{a}{g}=\\dfrac{0{,}75}{9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}076\\)</p></li></ol></div>",
+    "t": "<p>En konståkare på 51 kg glider på vågrät is. Farten minskar med 0,75 m/s varje sekund. Friktionen är den enda bromsande kraften. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm friktionskraftens storlek i N.</li><li>Bestäm glidfriktionstalet med tre decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Friktionen är hela den bromsande kraften. Kraftens storlek är massan gånger retardationen b.</p>\\[f=mb=51\\cdot0{,}75=38{,}25\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Friktionen är både mb och μN. På vågrät is är N = mg.</p>\\[mb=\\mu mg\\quad\\Rightarrow\\quad \\mu=\\frac{b}{g}\\]\\[\\mu=\\frac{0{,}75}{9{,}82}\\approx0{,}076\\]</div>",
     "id": "4.530",
     "miniräknare": true,
     "geogebra": false,
@@ -41303,11 +41303,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       38.25,
-      0.07637474541751527
+      0.076
     ],
     "tolerans": [
-      0.574,
-      0.00115
+      0,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -41328,13 +41328,13 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En konståkerska (51 kg) glider på en skridsko med retardationen 0,75 m/s².</p>",
+    "spelIntro": "<p>En konståkare på 51 kg glider på vågrät is. Farten minskar med 0,75 m/s varje sekund. Friktionen är den enda bromsande kraften. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är friktionskraften? Svara i N.",
-        "t": "<p>En konståkare på 51 kg glider på vågrät is. Farten minskar med 0,75 m/s varje sekund på grund av friktion.</p><p>Hur stor är friktionskraften? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=ma=51\\cdot0{,}75\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(38\\) N</p></div>",
+        "fraga": "Bestäm friktionskraftens storlek i N.",
+        "t": "<p>En konståkare på 51 kg glider på vågrät is. Farten minskar med 0,75 m/s varje sekund. Friktionen är den enda bromsande kraften.</p><p>Bestäm friktionskraftens storlek i N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen är hela den bromsande kraften. Kraftens storlek är massan gånger retardationen b.</p>\\[f=mb=51\\cdot0{,}75=38{,}25\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Friktionen är den enda vågräta kraften.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41343,9 +41343,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En konståkerska (51 kg) glider på en skridsko med retardationen 0,75 m/s².</p><p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{a}{g}=\\dfrac{0{,}75}{9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}076\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med tre decimaler.",
+        "t": "<p>En konståkare på 51 kg glider på vågrät is. Farten minskar med 0,75 m/s varje sekund. Friktionen är den enda bromsande kraften. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen är både mb och μN. På vågrät is är N = mg.</p>\\[mb=\\mu mg\\quad\\Rightarrow\\quad \\mu=\\frac{b}{g}\\]\\[\\mu=\\frac{0{,}75}{9{,}82}\\approx0{,}076\\]</div>",
         "ledtrad": "<p>\\(\\mu mg=ma\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41364,16 +41364,16 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "typ": "puck som glider",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En puck skjuts iväg med farten 22 m/s. Friktionstalet mot isen är 0,085. Hur långt glider den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\mu g\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2\\mu g}=\\dfrac{22^2}{2\\cdot0{,}085\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(290\\) m</p></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En puck glider med startfarten 22 m/s på vågrät is. Glidfriktionstalet är 0,085. Friktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s². Hur långt glider pucken innan den stannar? Svara i hela meter.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen är μmg. Newtons andra lag ger retardationen b = μg.</p>\\[b=0{,}085\\cdot9{,}82=0{,}8347\\,\\mathrm{m/s^2}\\]<p>Vid stopp är slutfarten noll. Sambandet v² = v₀² − 2bs ger</p>\\[s=\\frac{v_0^2}{2b}=\\frac{22^2}{2\\cdot0{,}8347}\\approx290\\,\\mathrm m\\]</div>",
     "id": "4.531",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 289.9245237809991,
-    "tolerans": 5.1,
+    "rättSvar": 290,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -41392,16 +41392,16 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "typ": "curlingstenens utgångsfart",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En curlingsten glider 36,21 m innan den stannar. Friktionstalet är 0,13. Bestäm utgångsfarten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_0=\\sqrt{2\\mu gs}=\\sqrt{2\\cdot0{,}13\\cdot9{,}82\\cdot36{,}21}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}6\\) m/s</p></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En curlingsten glider 36,21 m på vågrät is innan den stannar. Glidfriktionstalet är 0,13. Friktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s². Bestäm startfarten i m/s med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen ger retardationen b = μg = 0,13 · 9,82 = 1,2766 m/s². Slutfarten är noll. Sambandet 0 = v₀² − 2bs ger</p>\\[v_0=\\sqrt{2bs}=\\sqrt{2\\cdot1{,}2766\\cdot36{,}21}\\approx9{,}62\\,\\mathrm{m/s}\\]</div>",
     "id": "4.532",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 9.615163649153352,
-    "tolerans": 0.144,
+    "rättSvar": 9.62,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -41420,16 +41420,16 @@ window.BANK = [
     "omr": "friktion",
     "niva": "E",
     "typ": "friktionstal ur glidsträcka",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En puck skjuts iväg med 20,0 m/s och stannar efter 112 m. Bestäm friktionstalet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{v^2}{2gs}=\\dfrac{20{,}0^2}{2\\cdot9{,}82\\cdot112}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}18\\) </p></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En puck glider med startfarten 20,0 m/s på vågrät is och stannar efter 112 m. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s². Bestäm glidfriktionstalet med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid stopp är slutfarten noll. Sambandet 0 = v₀² − 2bs ger retardationen</p>\\[b=\\frac{v_0^2}{2s}=\\frac{20{,}0^2}{2\\cdot112}\\,\\mathrm{m/s^2}\\]<p>Friktionen är μmg, så mb = μmg ger μ = b/g.</p>\\[\\mu=\\frac{20{,}0^2}{2\\cdot112\\cdot9{,}82}\\approx0{,}18\\]</div>",
     "id": "4.533",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.1818446319464649,
-    "tolerans": 0.0051,
+    "rättSvar": 0.18,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -41447,21 +41447,21 @@ window.BANK = [
     "omr": "friktion",
     "niva": "C",
     "typ": "häst drar släde",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En häst drar en släde med massan 3 000 kg från vila med den konstanta kraften 7,0 kN. Friktionstalet är 0,22.</p><ol type=\"a\"><li>Hur lång tid tar det att flytta släden 25 m?</li><li>Vilken fart har släden då?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{7\\,000-0{,}22\\cdot3\\,000\\cdot9{,}82}{3\\,000}\\approx0{,}17\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\sqrt{\\dfrac{2s}{a}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=at\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) m/s</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En häst drar en släde på 3000 kg från vila på vågrät mark. Dragkraften är vågrät och konstant, 7,0 kN. Använd friktionstalet 0,22 både vid vila och glidning och g = 9,82 m/s². Bortse från annat motstånd.</p><ol type=\"a\"><li>Hur lång tid tar det att flytta släden 25 m? Svara i s med en decimal.</li><li>Vilken fart har släden efter 25 m? Svara i m/s med två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla dragkraften till 7000 N. Friktionen är f = μmg = 0,22 · 3000 · 9,82 = 6481,2 N. Dragkraften är större, så släden börjar röra sig.</p>\\[a=\\frac{7000-6481{,}2}{3000}=0{,}172933\\ldots\\,\\mathrm{m/s^2}\\]<p>Från vila gäller s = at²/2. Använd det oavrundade värdet på a.</p>\\[t=\\sqrt{\\frac{2s}{a}}=\\sqrt{\\frac{2\\cdot25}{(7000-6481{,}2)/3000}}\\approx17{,}0\\,\\mathrm s\\]<p><strong>b)</strong></p><p>Omvandla dragkraften till 7000 N. Friktionen är f = μmg = 0,22 · 3000 · 9,82 = 6481,2 N. Dragkraften är större, så släden börjar röra sig.</p>\\[a=\\frac{7000-6481{,}2}{3000}=0{,}172933\\ldots\\,\\mathrm{m/s^2}\\]<p>Från vila gäller v² = 2as. Använd sträckan 25 m och det oavrundade värdet på a.</p>\\[v=\\sqrt{2as}=\\sqrt{2\\cdot\\frac{7000-6481{,}2}{3000}\\cdot25}\\approx2{,}94\\,\\mathrm{m/s}\\]</div>",
     "id": "4.534",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      17.003786598104043,
-      2.940521495698793
+      17.0,
+      2.94
     ],
     "tolerans": [
-      0.51,
-      0.051
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -41482,28 +41482,28 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En häst drar en släde med massan 3 000 kg från vila med den konstanta kraften 7,0 kN. Friktionstalet är 0,22.</p>",
+    "spelIntro": "<p>En häst drar en släde på 3000 kg från vila på vågrät mark. Dragkraften är vågrät och konstant, 7,0 kN. Använd friktionstalet 0,22 både vid vila och glidning och g = 9,82 m/s². Bortse från annat motstånd.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur lång tid tar det att flytta släden 25 m?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En häst drar en släde med massan 3 000 kg från vila med den konstanta kraften 7,0 kN. Friktionstalet är 0,22.</p><p>Hur lång tid tar det att flytta släden 25 m?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{7\\,000-0{,}22\\cdot3\\,000\\cdot9{,}82}{3\\,000}\\approx0{,}17\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\sqrt{\\dfrac{2s}{a}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) s</p></div>",
+        "fraga": "Hur lång tid tar det att flytta släden 25 m? Svara i s med en decimal.",
+        "t": "<p>En häst drar en släde på 3000 kg från vila på vågrät mark. Dragkraften är vågrät och konstant, 7,0 kN. Använd friktionstalet 0,22 både vid vila och glidning och g = 9,82 m/s². Bortse från annat motstånd.</p><p>Hur lång tid tar det att flytta släden 25 m? Svara i s med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla dragkraften till 7000 N. Friktionen är f = μmg = 0,22 · 3000 · 9,82 = 6481,2 N. Dragkraften är större, så släden börjar röra sig.</p>\\[a=\\frac{7000-6481{,}2}{3000}=0{,}172933\\ldots\\,\\mathrm{m/s^2}\\]<p>Från vila gäller s = at²/2. Använd det oavrundade värdet på a.</p>\\[t=\\sqrt{\\frac{2s}{a}}=\\sqrt{\\frac{2\\cdot25}{(7000-6481{,}2)/3000}}\\approx17{,}0\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>Bestäm accelerationen först.</p>",
         "niva": "C",
-        "poang": "(1/1/0)",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart har släden då?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En häst drar en släde med massan 3 000 kg från vila med den konstanta kraften 7,0 kN. Friktionstalet är 0,22.</p>Accelerationen är 0,173 m/s².<p>Vilken fart har släden då?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=at\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) m/s</p></div>",
+        "fraga": "Vilken fart har släden efter 25 m? Svara i m/s med två decimaler.",
+        "t": "<p>En häst drar en släde på 3000 kg från vila på vågrät mark. Dragkraften är vågrät och konstant, 7,0 kN. Använd friktionstalet 0,22 både vid vila och glidning och g = 9,82 m/s². Bortse från annat motstånd.</p><p>Vilken fart har släden efter 25 m? Svara i m/s med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla dragkraften till 7000 N. Friktionen är f = μmg = 0,22 · 3000 · 9,82 = 6481,2 N. Dragkraften är större, så släden börjar röra sig.</p>\\[a=\\frac{7000-6481{,}2}{3000}=0{,}172933\\ldots\\,\\mathrm{m/s^2}\\]<p>Från vila gäller v² = 2as. Använd sträckan 25 m och det oavrundade värdet på a.</p>\\[v=\\sqrt{2as}=\\sqrt{2\\cdot\\frac{7000-6481{,}2}{3000}\\cdot25}\\approx2{,}94\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(v=at\\) eller \\(v^2=2as\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
@@ -41518,23 +41518,23 @@ window.BANK = [
     "omr": "friktion",
     "niva": "C",
     "typ": "raketsläde",
-    "poang": "(1/3/1)",
-    "t": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p><ol type=\"a\"><li>Vilken fart har släden efter 3,00 s?</li><li>Hur lång tid tar det sedan innan släden stannar?</li><li>Hur lång måste rälsen minst vara?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{39\\,600-790}{2\\,910}\\approx13{,}3\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=3{,}00a\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}0\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation: \\(\\dfrac{790}{2\\,910}\\approx0{,}271\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{40{,}0}{0{,}271}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(147\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{13{,}3\\cdot3{,}00^2}{2}+\\dfrac{40{,}0^2}{2\\cdot0{,}271}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,008\\) m</p></li></ol></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>En raketsläde på 2,91 ton startar från vila på en vågrät räls. Raketen ger 39,6 kN i rörelseriktningen under 3,00 s och stängs sedan av. Friktionskraften är konstant 0,790 kN under hela rörelsen. Bortse från annat motstånd.</p><ol type=\"a\"><li>Vilken fart har släden när raketen stängs av? Svara i m/s med tre värdesiffror.</li><li>Hur lång tid efter att raketen stängts av stannar släden? Svara i hela sekunder.</li><li>Hur lång räls behövs från starten tills släden stannar? Svara i hela meter.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla till 2910 kg, 39 600 N och 790 N. Under raketdriften är accelerationen</p>\\[a=\\frac{39\\,600-790}{2910}=13{,}3367\\ldots\\,\\mathrm{m/s^2}\\]<p>Från vila blir farten efter 3,00 s</p>\\[v=at=\\frac{39\\,600-790}{2910}\\cdot3{,}00\\approx40{,}0\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Omvandla till 2910 kg, 39 600 N och 790 N. Under raketdriften är accelerationen</p>\\[a=\\frac{39\\,600-790}{2910}=13{,}3367\\ldots\\,\\mathrm{m/s^2}\\]<p>Farten när raketen stängs av är v = 3,00a = 40,0103… m/s. Därefter bromsar bara friktionen.</p>\\[b=\\frac{790}{2910}=0{,}271477\\ldots\\,\\mathrm{m/s^2}\\]\\[t=\\frac{v}{b}=\\frac{3{,}00(39\\,600-790)}{790}\\approx147\\,\\mathrm s\\]<p><strong>c)</strong></p><p>Omvandla till 2910 kg, 39 600 N och 790 N. Under raketdriften är accelerationen</p>\\[a=\\frac{39\\,600-790}{2910}=13{,}3367\\ldots\\,\\mathrm{m/s^2}\\]<p>Beräkna först sträckan under raketdriften och farten när raketen stängs av.</p>\\[s_1=\\frac{at^2}{2}=\\frac{(39\\,600-790)\\cdot3{,}00^2}{2\\cdot2910}\\approx60{,}02\\,\\mathrm m\\]\\[v=at=\\frac{39\\,600-790}{2910}\\cdot3{,}00=40{,}0103\\ldots\\,\\mathrm{m/s}\\]<p>Efter avstängningen är retardationen b = 790/2910 m/s².</p><p>Vid stopp är slutfarten noll, så bromssträckan är s₂ = v²/(2b).</p>\\[s_2=\\frac{(40{,}0103\\ldots)^2}{2\\cdot(790/2910)}\\approx2948{,}35\\,\\mathrm m\\]<p>Lägg ihop de två sträckorna med oavrundade mellanvärden.</p>\\[s_{\\text{tot}}=s_1+s_2\\approx3008\\,\\mathrm m\\]</div>",
     "id": "4.535",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      40.01030927835052,
-      147.37974683544306,
-      3008.3700900430645
+      40.0,
+      147,
+      3008
     ],
     "tolerans": [
-      0.6,
-      2.21,
-      45.1
+      0.05,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -41558,44 +41558,44 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p>",
+    "spelIntro": "<p>En raketsläde på 2,91 ton startar från vila på en vågrät räls. Raketen ger 39,6 kN i rörelseriktningen under 3,00 s och stängs sedan av. Friktionskraften är konstant 0,790 kN under hela rörelsen. Bortse från annat motstånd.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har släden efter 3,00 s?",
-        "t": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p><p>Vilken fart har släden efter 3,00 s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{39\\,600-790}{2\\,910}\\approx13{,}3\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=3{,}00a\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}0\\) m/s</p></div>",
+        "fraga": "Vilken fart har släden när raketen stängs av? Svara i m/s med tre värdesiffror.",
+        "t": "<p>En raketsläde på 2,91 ton startar från vila på en vågrät räls. Raketen ger 39,6 kN i rörelseriktningen under 3,00 s och stängs sedan av. Friktionskraften är konstant 0,790 kN under hela rörelsen. Bortse från annat motstånd.</p><p>Vilken fart har släden när raketen stängs av? Svara i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till 2910 kg, 39 600 N och 790 N. Under raketdriften är accelerationen</p>\\[a=\\frac{39\\,600-790}{2910}=13{,}3367\\ldots\\,\\mathrm{m/s^2}\\]<p>Från vila blir farten efter 3,00 s</p>\\[v=at=\\frac{39\\,600-790}{2910}\\cdot3{,}00\\approx40{,}0\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Newtons andra lag.</p>",
         "niva": "E",
-        "poang": "(1/1/0)",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar det sedan innan släden stannar?",
-        "t": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p>Farten efter 3,00 s är 40,0 m/s.<p>Hur lång tid tar det sedan innan släden stannar?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation: \\(\\dfrac{790}{2\\,910}\\approx0{,}271\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{40{,}0}{0{,}271}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(147\\) s</p></div>",
+        "fraga": "Hur lång tid efter att raketen stängts av stannar släden? Svara i hela sekunder.",
+        "t": "<p>En raketsläde på 2,91 ton startar från vila på en vågrät räls. Raketen ger 39,6 kN i rörelseriktningen under 3,00 s och stängs sedan av. Friktionskraften är konstant 0,790 kN under hela rörelsen. Bortse från annat motstånd.</p><p>Hur lång tid efter att raketen stängts av stannar släden? Svara i hela sekunder.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till 2910 kg, 39 600 N och 790 N. Under raketdriften är accelerationen</p>\\[a=\\frac{39\\,600-790}{2910}=13{,}3367\\ldots\\,\\mathrm{m/s^2}\\]<p>Farten när raketen stängs av är v = 3,00a = 40,0103… m/s. Därefter bromsar bara friktionen.</p>\\[b=\\frac{790}{2910}=0{,}271477\\ldots\\,\\mathrm{m/s^2}\\]\\[t=\\frac{v}{b}=\\frac{3{,}00(39\\,600-790)}{790}\\approx147\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>Bara friktionen bromsar.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur lång måste rälsen minst vara?",
-        "t": "<p>En raketsläde (2,91 ton) startar från vila. Raketen ger drivkraften 39,6 kN i 3,00 s. Friktionskraften är 0,790 kN.</p>Farten efter 3,00 s är 40,0 m/s.<p>Hur lång måste rälsen minst vara?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{13{,}3\\cdot3{,}00^2}{2}+\\dfrac{40{,}0^2}{2\\cdot0{,}271}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,008\\) m</p></div>",
+        "fraga": "Hur lång räls behövs från starten tills släden stannar? Svara i hela meter.",
+        "t": "<p>En raketsläde på 2,91 ton startar från vila på en vågrät räls. Raketen ger 39,6 kN i rörelseriktningen under 3,00 s och stängs sedan av. Friktionskraften är konstant 0,790 kN under hela rörelsen. Bortse från annat motstånd.</p><p>Hur lång räls behövs från starten tills släden stannar? Svara i hela meter.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till 2910 kg, 39 600 N och 790 N. Under raketdriften är accelerationen</p>\\[a=\\frac{39\\,600-790}{2910}=13{,}3367\\ldots\\,\\mathrm{m/s^2}\\]<p>Beräkna först sträckan under raketdriften och farten när raketen stängs av.</p>\\[s_1=\\frac{at^2}{2}=\\frac{(39\\,600-790)\\cdot3{,}00^2}{2\\cdot2910}\\approx60{,}02\\,\\mathrm m\\]\\[v=at=\\frac{39\\,600-790}{2910}\\cdot3{,}00=40{,}0103\\ldots\\,\\mathrm{m/s}\\]<p>Efter avstängningen är retardationen b = 790/2910 m/s².</p><p>Vid stopp är slutfarten noll, så bromssträckan är s₂ = v²/(2b).</p>\\[s_2=\\frac{(40{,}0103\\ldots)^2}{2\\cdot(790/2910)}\\approx2948{,}35\\,\\mathrm m\\]<p>Lägg ihop de två sträckorna med oavrundade mellanvärden.</p>\\[s_{\\text{tot}}=s_1+s_2\\approx3008\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Räkna sträckan för båda faserna.</p>",
         "niva": "C",
-        "poang": "(0/1/1)",
-        "traningsniva": 3,
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Dela upp rörelsen i två faser.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
     "arbetsinsats": 2,
     "spel": true
@@ -41606,20 +41606,20 @@ window.BANK = [
     "niva": "E",
     "typ": "pulka som glider ut",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En pulka med ett barn (sammanlagt 25,0 kg) kommer ut på plan mark med 4,0 m/s och stannar efter 15,0 m.</p><ol type=\"a\"><li>Bestäm retardationen.</li><li>Bestäm friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{v^2}{2s}=\\dfrac{4{,}0^2}{2\\cdot15{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}53\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac ag\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}054\\)</p></li></ol></div>",
+    "t": "<p>En pulka glider ut på vågrät mark med 4,0 m/s och stannar efter 15,0 m. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm retardationen i m/s² med två decimaler.</li><li>Bestäm glidfriktionstalet med tre decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid stopp är slutfarten noll. Sambandet 0 = v₀² − 2bs ger retardationen</p>\\[b=\\frac{v_0^2}{2s}=\\frac{4{,}0^2}{2\\cdot15{,}0}=0{,}533333\\ldots\\,\\mathrm{m/s^2}\\]<p>Svar: 0,53 m/s².</p><p><strong>b)</strong></p><p>Vid stopp är slutfarten noll. Sambandet 0 = v₀² − 2bs ger retardationen</p>\\[b=\\frac{v_0^2}{2s}=\\frac{4{,}0^2}{2\\cdot15{,}0}=0{,}533333\\ldots\\,\\mathrm{m/s^2}\\]<p>Friktionen är μmg och bromsar med mb. Massan förkortas bort.</p>\\[\\mu=\\frac{b}{g}=\\frac{4{,}0^2}{2\\cdot15{,}0\\cdot9{,}82}\\approx0{,}054\\]</div>",
     "id": "4.536",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.5333333333333333,
-      0.05431093007467753
+      0.53,
+      0.054
     ],
     "tolerans": [
-      0.008,
-      0.000815
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -41639,13 +41639,13 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En pulka med ett barn (sammanlagt 25,0 kg) kommer ut på plan mark med 4,0 m/s och stannar efter 15,0 m.</p>",
+    "spelIntro": "<p>En pulka glider ut på vågrät mark med 4,0 m/s och stannar efter 15,0 m. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm retardationen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En pulka med ett barn (sammanlagt 25,0 kg) kommer ut på plan mark med 4,0 m/s och stannar efter 15,0 m.</p><p>Bestäm retardationen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{v^2}{2s}=\\dfrac{4{,}0^2}{2\\cdot15{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}53\\) m/s²</p></div>",
+        "fraga": "Bestäm retardationen i m/s² med två decimaler.",
+        "t": "<p>En pulka glider ut på vågrät mark med 4,0 m/s och stannar efter 15,0 m. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s².</p><p>Bestäm retardationen i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid stopp är slutfarten noll. Sambandet 0 = v₀² − 2bs ger retardationen</p>\\[b=\\frac{v_0^2}{2s}=\\frac{4{,}0^2}{2\\cdot15{,}0}=0{,}533333\\ldots\\,\\mathrm{m/s^2}\\]<p>Svar: 0,53 m/s².</p></div>",
         "ledtrad": "<p>\\(v^2=2as\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41654,9 +41654,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En pulka med ett barn (sammanlagt 25,0 kg) kommer ut på plan mark med 4,0 m/s och stannar efter 15,0 m.</p>Retardationen är 0,53 m/s².<p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac ag\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}054\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med tre decimaler.",
+        "t": "<p>En pulka glider ut på vågrät mark med 4,0 m/s och stannar efter 15,0 m. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid stopp är slutfarten noll. Sambandet 0 = v₀² − 2bs ger retardationen</p>\\[b=\\frac{v_0^2}{2s}=\\frac{4{,}0^2}{2\\cdot15{,}0}=0{,}533333\\ldots\\,\\mathrm{m/s^2}\\]<p>Friktionen är μmg och bromsar med mb. Massan förkortas bort.</p>\\[\\mu=\\frac{b}{g}=\\frac{4{,}0^2}{2\\cdot15{,}0\\cdot9{,}82}\\approx0{,}054\\]</div>",
         "ledtrad": "<p>\\(\\mu mg=ma\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -41676,22 +41676,22 @@ window.BANK = [
     "niva": "C",
     "typ": "bromsspår",
     "poang": "(1/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p><ol type=\"a\"><li>Hur långa blir bromsspåren?</li><li>Hur långa blir de om farten är dubbelt så stor?</li><li>Hur långa blir de om friktionstalet halveras (vid 120 km/h)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2\\mu g}=\\dfrac{33{,}3^2}{2\\cdot0{,}68\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(83\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(s\\sim v^2\\): fyra gånger så långa.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(333\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(s\\sim\\dfrac1\\mu\\): dubbelt så långa.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(166\\) m</p></li></ol></div>",
+    "t": "<p>En bil bromsar på en vågrät väg med låsta hjul. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s². Fallen nedan är oberoende av varandra.</p><ol type=\"a\"><li>Startfarten är 120 km/h och glidfriktionstalet 0,68. Bestäm bromssträckan i hela meter.</li><li>Startfarten är 240 km/h och glidfriktionstalet 0,68. Bestäm bromssträckan i hela meter.</li><li>Startfarten är 120 km/h och glidfriktionstalet 0,34. Bestäm bromssträckan i hela meter.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla startfarten till m/s: v₀ = 120/3,6 m/s. Friktionen μmg ger retardationen b = μg. Vid stopp är slutfarten noll.</p>\\[0=v_0^2-2bs\\quad\\Rightarrow\\quad s=\\frac{v_0^2}{2b}\\]\\[s=\\frac{(120/3{,}6)^2}{2\\cdot0{,}68\\cdot9{,}82}\\approx83\\,\\mathrm m\\]<p><strong>b)</strong></p><p>Omvandla startfarten till m/s: v₀ = 240/3,6 m/s. Friktionen μmg ger retardationen b = μg. Vid stopp är slutfarten noll.</p>\\[0=v_0^2-2bs\\quad\\Rightarrow\\quad s=\\frac{v_0^2}{2b}\\]\\[s=\\frac{(240/3{,}6)^2}{2\\cdot0{,}68\\cdot9{,}82}\\approx333\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Omvandla startfarten till m/s: v₀ = 120/3,6 m/s. Friktionen μmg ger retardationen b = μg. Vid stopp är slutfarten noll.</p>\\[0=v_0^2-2bs\\quad\\Rightarrow\\quad s=\\frac{v_0^2}{2b}\\]\\[s=\\frac{(120/3{,}6)^2}{2\\cdot0{,}34\\cdot9{,}82}\\approx166\\,\\mathrm m\\]</div>",
     "id": "4.537",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      83.19689043302319,
-      332.78756173209274,
-      166.39378086604637
+      83,
+      333,
+      166
     ],
     "tolerans": [
-      1.25,
-      5.1,
-      5.1
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -41715,44 +41715,44 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p>",
+    "spelIntro": "<p>En bil bromsar på en vågrät väg med låsta hjul. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s². Fallen nedan är oberoende av varandra.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur långa blir bromsspåren?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p><p>Hur långa blir bromsspåren?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2\\mu g}=\\dfrac{33{,}3^2}{2\\cdot0{,}68\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(83\\) m</p></div>",
+        "fraga": "Startfarten är 120 km/h och glidfriktionstalet 0,68. Bestäm bromssträckan i hela meter.",
+        "t": "<p>En bil bromsar på en vågrät väg med låsta hjul. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s².</p><p>Startfarten är 120 km/h och glidfriktionstalet 0,68. Bestäm bromssträckan i hela meter.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla startfarten till m/s: v₀ = 120/3,6 m/s. Friktionen μmg ger retardationen b = μg. Vid stopp är slutfarten noll.</p>\\[0=v_0^2-2bs\\quad\\Rightarrow\\quad s=\\frac{v_0^2}{2b}\\]\\[s=\\frac{(120/3{,}6)^2}{2\\cdot0{,}68\\cdot9{,}82}\\approx83\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Omvandla till m/s.</p>",
         "niva": "E",
         "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur långa blir de om farten är dubbelt så stor?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p><p>Hur långa blir de om farten är dubbelt så stor?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(s\\sim v^2\\): fyra gånger så långa.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(333\\) m</p></div>",
+        "fraga": "Startfarten är 240 km/h och glidfriktionstalet 0,68. Bestäm bromssträckan i hela meter.",
+        "t": "<p>En bil bromsar på en vågrät väg med låsta hjul. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s².</p><p>Startfarten är 240 km/h och glidfriktionstalet 0,68. Bestäm bromssträckan i hela meter.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla startfarten till m/s: v₀ = 240/3,6 m/s. Friktionen μmg ger retardationen b = μg. Vid stopp är slutfarten noll.</p>\\[0=v_0^2-2bs\\quad\\Rightarrow\\quad s=\\frac{v_0^2}{2b}\\]\\[s=\\frac{(240/3{,}6)^2}{2\\cdot0{,}68\\cdot9{,}82}\\approx333\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Hur beror \\(s\\) på \\(v\\)?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur långa blir de om friktionstalet halveras (vid 120 km/h)?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil kör med 120 km/h och tvärnitar. Friktionstalet mellan däck och väg är 0,68.</p><p>Hur långa blir de om friktionstalet halveras (vid 120 km/h)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(s\\sim\\dfrac1\\mu\\): dubbelt så långa.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(166\\) m</p></div>",
+        "fraga": "Startfarten är 120 km/h och glidfriktionstalet 0,34. Bestäm bromssträckan i hela meter.",
+        "t": "<p>En bil bromsar på en vågrät väg med låsta hjul. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s².</p><p>Startfarten är 120 km/h och glidfriktionstalet 0,34. Bestäm bromssträckan i hela meter.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla startfarten till m/s: v₀ = 120/3,6 m/s. Friktionen μmg ger retardationen b = μg. Vid stopp är slutfarten noll.</p>\\[0=v_0^2-2bs\\quad\\Rightarrow\\quad s=\\frac{v_0^2}{2b}\\]\\[s=\\frac{(120/3{,}6)^2}{2\\cdot0{,}34\\cdot9{,}82}\\approx166\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Hur beror \\(s\\) på \\(\\mu\\)?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>\\(s=\\dfrac{v^2}{2\\mu g}\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
     "arbetsinsats": 2,
     "spel": true
@@ -41763,15 +41763,15 @@ window.BANK = [
     "niva": "C",
     "typ": "fart ur bromsspår",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En bil lämnar 72,0 m långa bromsspår och står nästan still när den krockar. Friktionstalet är 0,80. Uppskatta farten innan inbromsningen i km/h.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(v=\\sqrt{2\\mu gs}=\\sqrt{2\\cdot0{,}80\\cdot9{,}82\\cdot72{,}0}\\approx33{,}6\\) m/s, multiplicera med 3,6.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(121\\) km/h</p></div>",
+    "t": "<p>En bil bromsar med låsta hjul på en vågrät väg. Bromsspåren är 72,0 m och glidfriktionstalet är 0,80. Anta att bilen har stannat vid spårens slut och att friktionen är den enda bromsande kraften. Använd g = 9,82 m/s². Uppskatta farten före inbromsningen i km/h med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen ger retardationen b = μg = 0,80 · 9,82 = 7,856 m/s². Slutfarten antas vara noll, så 0 = v₀² − 2bs.</p>\\[v_0=\\sqrt{2bs}=\\sqrt{2\\cdot7{,}856\\cdot72{,}0}\\approx33{,}63\\,\\mathrm{m/s}\\]<p>Multiplicera det oavrundade värdet med 3,6 för att få km/h.</p>\\[v_{0,\\text{km/h}}=3{,}6\\sqrt{2\\cdot7{,}856\\cdot72{,}0}\\approx121\\,\\mathrm{km/h}\\]</div>",
     "id": "4.538",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 121.08336566184474,
-    "tolerans": 5.1,
+    "rättSvar": 121,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -41791,15 +41791,15 @@ window.BANK = [
     "niva": "C",
     "typ": "dragracing",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En dragracingbil startar från vila och kör 1,00 km på 12 s med konstant acceleration. Det är friktionen mellan drivhjulen och vägen som driver bilen. Vilket friktionstal krävs minst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{2s}{t^2}=\\dfrac{2\\,000}{144}\\approx13{,}9\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu mg=ma\\iff\\mu=\\dfrac ag\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\) </p></div>",
+    "t": "<p>En bil startar från vila och kör 1,00 km på 12 s med konstant acceleration på en vågrät väg. Alla hjul driver och hela normalkraften kan utnyttjas för drivning. Bortse från luftmotstånd och andra motståndskrafter. Använd g = 9,82 m/s². Vilket friktionstal mellan däck och väg behövs minst för att däcken inte ska slira? Svara med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla sträckan till 1000 m. Från vila gäller s = at²/2.</p>\\[a=\\frac{2s}{t^2}=\\frac{2\\cdot1000}{12^2}=13{,}888\\ldots\\,\\mathrm{m/s^2}\\]<p>Vägen måste ge drivkraften ma. Den största möjliga kraften är μN = μmg. Vid gränsen är ma = μmg.</p>\\[\\mu_{\\min}=\\frac{a}{g}=\\frac{2\\cdot1000}{12^2\\cdot9{,}82}\\approx1{,}41\\]</div>",
     "id": "4.539",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.414347137361394,
-    "tolerans": 0.051,
+    "rättSvar": 1.41,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -41818,15 +41818,15 @@ window.BANK = [
     "niva": "C",
     "typ": "motorcykel i sand",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En motorcykel rullar i friläge in i en 15 m lång sandig sträcka med farten 20,0 m/s. Friktionstalet i sanden är 0,70. Vilken fart har den när den lämnar sanden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=v_0^2-2\\mu gs=20{,}0^2-2\\cdot0{,}70\\cdot9{,}82\\cdot15\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) m/s</p></div>",
+    "t": "<p>En motorcykel kommer in i en 15 m lång sandsträcka med farten 20,0 m/s. Motorn ger ingen drivkraft. Marken är vågrät. I modellen är den bromsande kraften i sanden konstant och lika med 0,70mg. Bortse från annat motstånd. Använd g = 9,82 m/s². Vilken fart har motorcykeln efter sandsträckan? Svara i m/s med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den bromsande kraften är 0,70mg. Newtons andra lag ger retardationen b = 0,70g = 6,874 m/s².</p><p>Använd sambandet v² = v₀² − 2bs.</p>\\[v=\\sqrt{v_0^2-2bs}=\\sqrt{20{,}0^2-2\\cdot6{,}874\\cdot15}\\approx13{,}92\\,\\mathrm{m/s}\\]</div>",
     "id": "4.540",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 13.920488497175665,
-    "tolerans": 0.51,
+    "rättSvar": 13.92,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -41843,18 +41843,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "A",
+    "niva": "C",
     "typ": "låda som skjuts och släpps",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda (45 kg) på ett golv med friktionstalet 0,22 skjuts från vila med 145 N i 5,0 s och släpps sedan. Hur långt har lådan färdats totalt när den stannar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Fas 1: \\(a=\\dfrac{145-97{,}2}{45}\\approx1{,}06\\) m/s², \\(v\\approx5{,}3\\) m/s, \\(s_1\\approx13{,}3\\) m.</p></div><div class=\"facit-stycke\"><p>Fas 2: \\(s_2=\\dfrac{v^2}{2\\mu g}\\approx6{,}5\\) m.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) m</p></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En låda på 45 kg skjuts vågrätt från vila över ett vågrätt golv med 145 N under 5,0 s. Sedan upphör dragkraften och lådan glider tills den stannar. Använd friktionstalet 0,22 både vid vila och glidning och g = 9,82 m/s². Bortse från annat motstånd. Hur långt färdas lådan totalt? Svara i m med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen är f = μmg = 0,22 · 45 · 9,82 = 97,218 N. Dragkraften 145 N är större, så lådan börjar röra sig. Under de första 5,0 s är accelerationen</p>\\[a=\\frac{145-97{,}218}{45}=1{,}06182\\ldots\\,\\mathrm{m/s^2}\\]<p>Från vila blir sträckan och farten när dragkraften upphör</p>\\[s_1=\\frac{a\\cdot5{,}0^2}{2}\\approx13{,}273\\,\\mathrm m\\]\\[v=a\\cdot5{,}0=5{,}30911\\ldots\\,\\mathrm{m/s}\\]<p>Därefter bromsar bara friktionen. Retardationen är b = μg = 0,22 · 9,82 = 2,1604 m/s².</p><p>Vid stopp är slutfarten noll, så bromssträckan är s₂ = v²/(2b).</p>\\[s_2=\\frac{(5{,}30911\\ldots)^2}{2\\cdot2{,}1604}\\approx6{,}523\\,\\mathrm m\\]<p>Lägg ihop de två sträckorna med oavrundade mellanvärden.</p>\\[s_{\\text{tot}}=s_1+s_2\\approx19{,}80\\,\\mathrm m\\]</div>",
     "id": "4.541",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 19.796259723279412,
-    "tolerans": 0.51,
+    "rättSvar": 19.8,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -41874,15 +41874,15 @@ window.BANK = [
     "niva": "C",
     "typ": "glida under en dörr",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>James Bond springer med 8,0 m/s, kastar sig ned 5,0 m före en dörr och glider under den. Han stannar 2,0 m bakom dörren. Bestäm friktionstalet mellan honom och golvet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Glidsträcka 7,0 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{v^2}{2gs}=\\dfrac{8{,}0^2}{2\\cdot9{,}82\\cdot7{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}47\\) </p></div>",
+    "t": "<p>En person börjar glida längs ett vågrätt golv med farten 8,0 m/s, 5,0 m före en dörr. Personen stannar 2,0 m efter dörren. Glidfriktionen är den enda bromsande kraften och är konstant. Använd g = 9,82 m/s². Bestäm glidfriktionstalet med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hela glidsträckan är s = 5,0 + 2,0 = 7,0 m. Slutfarten är noll, så retardationen är b = v₀²/(2s).</p><p>Friktionen μmg ger retardationen b = μg. Därför</p>\\[\\mu=\\frac{v_0^2}{2sg}=\\frac{8{,}0^2}{2\\cdot7{,}0\\cdot9{,}82}\\approx0{,}47\\]</div>",
     "id": "4.542",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.4655222577829502,
-    "tolerans": 0.00698,
+    "rättSvar": 0.47,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -41901,20 +41901,20 @@ window.BANK = [
     "niva": "C",
     "typ": "kloss mot fjäder",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (350 g) trycks in 15 cm mot en fjäder och släpps på ett bord med friktionstalet 0,28. Klossen får då accelerationen 0,75 m/s².</p><ol type=\"a\"><li>Bestäm fjäderkonstanten.</li><li>Hur stor är hoptryckningen när accelerationen är noll?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[kx-\\mu mg=ma\\iff k=\\dfrac{0{,}350(0{,}75+0{,}28\\cdot9{,}82)}{0{,}15}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}2\\) N/m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[kx=\\mu mg\\iff x=\\dfrac{0{,}28\\cdot0{,}350\\cdot9{,}82}{8{,}17}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}12\\) m</p></li></ol></div>",
+    "t": "<p>En kloss på 350 g trycker ihop en fjäder 15 cm på ett vågrätt bord. Fjädern följer F = kx. När klossen släpps börjar den glida från fjädern med accelerationen 0,75 m/s². Använd friktionstalet 0,28 både vid vila och glidning och g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm fjäderkonstanten i N/m med två decimaler.</li><li>Hur stor är fjäderns hoptryckning när accelerationen är noll medan klossen fortfarande glider från fjädern? Svara i m med tre decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla till m = 0,350 kg och x₀ = 0,15 m. Friktionen är f = μmg = 0,28 · 0,350 · 9,82 = 0,96236 N. Vid släppet gäller kx₀ − f = ma.</p>\\[k=\\frac{ma+f}{x_0}=\\frac{0{,}350\\cdot0{,}75+0{,}96236}{0{,}15}=8{,}165733\\ldots\\,\\mathrm{N/m}\\]<p>Svar: 8,17 N/m.</p><p><strong>b)</strong></p><p>Omvandla till m = 0,350 kg och x₀ = 0,15 m. Friktionen är f = μmg = 0,28 · 0,350 · 9,82 = 0,96236 N. Vid släppet gäller kx₀ − f = ma.</p>\\[k=\\frac{ma+f}{x_0}=\\frac{0{,}350\\cdot0{,}75+0{,}96236}{0{,}15}=8{,}165733\\ldots\\,\\mathrm{N/m}\\]<p>Medan klossen glider är friktionen fortfarande 0,96236 N. När accelerationen är noll balanserar fjäderkraften friktionen: kx = f. Använd oavrundat k.</p>\\[x=\\frac{f}{k}\\approx0{,}118\\,\\mathrm m\\]</div>",
     "id": "4.543",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      8.165733333333334,
-      0.11785346896788206
+      8.17,
+      0.118
     ],
     "tolerans": [
-      0.122,
-      0.0051
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -41935,13 +41935,13 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (350 g) trycks in 15 cm mot en fjäder och släpps på ett bord med friktionstalet 0,28. Klossen får då accelerationen 0,75 m/s².</p>",
+    "spelIntro": "<p>En kloss på 350 g trycker ihop en fjäder 15 cm på ett vågrätt bord. Fjädern följer F = kx. När klossen släpps börjar den glida från fjädern med accelerationen 0,75 m/s². Använd friktionstalet 0,28 både vid vila och glidning och g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm fjäderkonstanten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (350 g) trycks in 15 cm mot en fjäder och släpps på ett bord med friktionstalet 0,28. Klossen får då accelerationen 0,75 m/s².</p><p>Bestäm fjäderkonstanten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[kx-\\mu mg=ma\\iff k=\\dfrac{0{,}350(0{,}75+0{,}28\\cdot9{,}82)}{0{,}15}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}2\\) N/m</p></div>",
+        "fraga": "Bestäm fjäderkonstanten i N/m med två decimaler.",
+        "t": "<p>En kloss på 350 g trycker ihop en fjäder 15 cm på ett vågrätt bord. Fjädern följer F = kx. När klossen släpps börjar den glida från fjädern med accelerationen 0,75 m/s². Använd friktionstalet 0,28 både vid vila och glidning och g = 9,82 m/s².</p><p>Bestäm fjäderkonstanten i N/m med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till m = 0,350 kg och x₀ = 0,15 m. Friktionen är f = μmg = 0,28 · 0,350 · 9,82 = 0,96236 N. Vid släppet gäller kx₀ − f = ma.</p>\\[k=\\frac{ma+f}{x_0}=\\frac{0{,}350\\cdot0{,}75+0{,}96236}{0{,}15}=8{,}165733\\ldots\\,\\mathrm{N/m}\\]<p>Svar: 8,17 N/m.</p></div>",
         "ledtrad": "<p>Resultant = fjäderkraft − friktion.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -41950,9 +41950,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är hoptryckningen när accelerationen är noll?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (350 g) trycks in 15 cm mot en fjäder och släpps på ett bord med friktionstalet 0,28. Klossen får då accelerationen 0,75 m/s².</p>Fjäderkonstanten är 8,17 N/m.<p>Hur stor är hoptryckningen när accelerationen är noll?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[kx=\\mu mg\\iff x=\\dfrac{0{,}28\\cdot0{,}350\\cdot9{,}82}{8{,}17}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}12\\) m</p></div>",
+        "fraga": "Hur stor är fjäderns hoptryckning när accelerationen är noll medan klossen fortfarande glider från fjädern? Svara i m med tre decimaler.",
+        "t": "<p>En kloss på 350 g trycker ihop en fjäder 15 cm på ett vågrätt bord. Fjädern följer F = kx. När klossen släpps börjar den glida från fjädern med accelerationen 0,75 m/s². Använd friktionstalet 0,28 både vid vila och glidning och g = 9,82 m/s².</p><p>Hur stor är fjäderns hoptryckning när accelerationen är noll medan klossen fortfarande glider från fjädern? Svara i m med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till m = 0,350 kg och x₀ = 0,15 m. Friktionen är f = μmg = 0,28 · 0,350 · 9,82 = 0,96236 N. Vid släppet gäller kx₀ − f = ma.</p>\\[k=\\frac{ma+f}{x_0}=\\frac{0{,}350\\cdot0{,}75+0{,}96236}{0{,}15}=8{,}165733\\ldots\\,\\mathrm{N/m}\\]<p>Medan klossen glider är friktionen fortfarande 0,96236 N. När accelerationen är noll balanserar fjäderkraften friktionen: kx = f. Använd oavrundat k.</p>\\[x=\\frac{f}{k}\\approx0{,}118\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Fjäderkraften och friktionen är lika stora.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -41972,15 +41972,15 @@ window.BANK = [
     "niva": "C",
     "typ": "friktionstal med fjäder",
     "poang": "(0/1/0)",
-    "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss förlänger en fjäder (15 N/m) 4,5 cm när den hänger i den. Klossen dras sedan med fjädern med konstant fart över ett bord, och då är förlängningen 1,3 cm. Bestäm friktionstalet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(mg=15\\cdot0{,}045\\) och \\(F_{fr}=15\\cdot0{,}013\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{0{,}013}{0{,}045}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}29\\) </p></div>",
+    "t": "<p>En kloss hänger stilla i en fjäder med fjäderkonstanten 15 N/m. Fjädern förlängs då 4,5 cm. Samma fjäder används sedan för att dra klossen vågrätt med konstant fart över ett vågrätt bord. Förlängningen är då 1,3 cm. Bestäm glidfriktionstalet med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När klossen hänger stilla balanserar fjäderkraften tyngden:</p>\\[mg=kx_{\\text{häng}}=15\\cdot0{,}045=0{,}675\\,\\mathrm N\\]<p>Vid vågrät dragning med konstant fart balanserar fjäderkraften glidfriktionen. Normalkraften är mg.</p>\\[f=kx_{\\text{drag}}=15\\cdot0{,}013=0{,}195\\,\\mathrm N\\]\\[\\mu=\\frac{f}{mg}=\\frac{0{,}195}{0{,}675}\\approx0{,}29\\]</div>",
     "id": "4.544",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.28888888888888886,
-    "tolerans": 0.0051,
+    "rättSvar": 0.29,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -41998,24 +41998,24 @@ window.BANK = [
     "niva": "E",
     "typ": "isblock med sned kraft",
     "poang": "(4/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><ol type=\"a\"><li>Hur stor är normalkraften när blocket ligger i vila utan yttre kraft?</li><li>Vilken acceleration får blocket?</li><li>Hur stor är normalkraften när han trycker snett nedåt?</li><li>Hur stor är normalkraften när han drar snett uppåt?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg=25{,}0\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(246\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{60{,}0\\cos25{,}0^\\circ}{25{,}0}\\), lika i båda fallen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}18\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg+60{,}0\\sin25{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(271\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg-60{,}0\\sin25{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(220\\) N</p></li></ol></div>",
+    "t": "<p>Ett isblock på 25,0 kg glider på vågrät, friktionsfri is. I två separata försök verkar kraften 60,0 N framåt: först 25,0° under vågrät riktning, sedan 25,0° över vågrät riktning. Blocket behåller kontakten med isen. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är normalkraften utan drag- eller tryckkraft? Svara i N med tre värdesiffror.</li><li>Bestäm accelerationen framåt i båda försöken. Svara i m/s² med två decimaler.</li><li>Bestäm normalkraften vid tryck snett nedåt. Svara i N med tre värdesiffror.</li><li>Bestäm normalkraften vid drag snett uppåt. Svara i N med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Normalkraften balanserar hela tyngdkraften.</p>\\[N=mg=25{,}0\\cdot9{,}82=245{,}5\\,\\mathrm N\\]<p>Svar med tre värdesiffror: 246 N.</p><p><strong>b)</strong></p><p>Den vågräta delen av kraften är lika stor i båda försöken: Fₓ = 60,0 cos25,0°. Isen är friktionsfri, så detta är hela kraftsumman framåt.</p>\\[a=\\frac{F_x}{m}=\\frac{60{,}0\\cos25{,}0^\\circ}{25{,}0}\\approx2{,}18\\,\\mathrm{m/s^2}\\]<p><strong>c)</strong></p><p>Den nedåtriktade delen av tryckkraften ökar normalkraften.</p>\\[N=mg+F\\sin25{,}0^\\circ=25{,}0\\cdot9{,}82+60{,}0\\sin25{,}0^\\circ\\approx271\\,\\mathrm N\\]<p><strong>d)</strong></p><p>Den uppåtriktade delen av dragkraften hjälper till att bära blocket och minskar normalkraften.</p>\\[N=mg-F\\sin25{,}0^\\circ=25{,}0\\cdot9{,}82-60{,}0\\sin25{,}0^\\circ\\approx220\\,\\mathrm N\\]</div>",
     "id": "4.545",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      245.5,
-      2.17513868888796,
-      270.857095704442,
-      220.14290429555803
+      246,
+      2.18,
+      271,
+      220
     ],
     "tolerans": [
-      3.68,
-      0.0326,
-      4.06,
-      3.3
+      0.5,
+      0.005,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -42042,13 +42042,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p>",
+    "spelIntro": "<p>Ett isblock på 25,0 kg glider på vågrät, friktionsfri is. I två separata försök verkar kraften 60,0 N framåt: först 25,0° under vågrät riktning, sedan 25,0° över vågrät riktning. Blocket behåller kontakten med isen. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är normalkraften? Svara i N.",
-        "t": "<p>Ett isblock på 25,0 kg ligger stilla på vågrät is. Bara tyngdkraften och isens normalkraft verkar på blocket. Använd g = 9,82 m/s².</p><p>Hur stor är normalkraften? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg=25{,}0\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(246\\) N</p></div>",
+        "fraga": "Hur stor är normalkraften utan drag- eller tryckkraft? Svara i N med tre värdesiffror.",
+        "t": "<p>Ett isblock på 25,0 kg ligger stilla på vågrät is. Bara tyngdkraften och normalkraften verkar. Använd g = 9,82 m/s².</p><p>Hur stor är normalkraften utan drag- eller tryckkraft? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften balanserar hela tyngdkraften.</p>\\[N=mg=25{,}0\\cdot9{,}82=245{,}5\\,\\mathrm N\\]<p>Svar med tre värdesiffror: 246 N.</p></div>",
         "ledtrad": "<p>\\(F_N=mg\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -42057,9 +42057,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får blocket?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><p>Vilken acceleration får blocket?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{60{,}0\\cos25{,}0^\\circ}{25{,}0}\\), lika i båda fallen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}18\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen framåt i båda försöken. Svara i m/s² med två decimaler.",
+        "t": "<p>Ett isblock på 25,0 kg glider på vågrät, friktionsfri is. I två separata försök verkar kraften 60,0 N framåt: först 25,0° under vågrät riktning, sedan 25,0° över vågrät riktning. Blocket behåller kontakten med isen. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen framåt i båda försöken. Svara i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den vågräta delen av kraften är lika stor i båda försöken: Fₓ = 60,0 cos25,0°. Isen är friktionsfri, så detta är hela kraftsumman framåt.</p>\\[a=\\frac{F_x}{m}=\\frac{60{,}0\\cos25{,}0^\\circ}{25{,}0}\\approx2{,}18\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Bara den vågräta komposanten accelererar.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -42068,9 +42068,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är normalkraften när han trycker snett nedåt?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><p>Hur stor är normalkraften när han trycker snett nedåt?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg+60{,}0\\sin25{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(271\\) N</p></div>",
+        "fraga": "Bestäm normalkraften vid tryck snett nedåt. Svara i N med tre värdesiffror.",
+        "t": "<p>Ett isblock på 25,0 kg glider på vågrät is och trycks med 60,0 N i vinkeln 25,0° under vågrät riktning. Använd g = 9,82 m/s².</p><p>Bestäm normalkraften vid tryck snett nedåt. Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den nedåtriktade delen av tryckkraften ökar normalkraften.</p>\\[N=mg+F\\sin25{,}0^\\circ=25{,}0\\cdot9{,}82+60{,}0\\sin25{,}0^\\circ\\approx271\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Den lodräta komposanten trycker ned blocket.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -42079,9 +42079,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor är normalkraften när han drar snett uppåt?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><p>Hur stor är normalkraften när han drar snett uppåt?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg-60{,}0\\sin25{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(220\\) N</p></div>",
+        "fraga": "Bestäm normalkraften vid drag snett uppåt. Svara i N med tre värdesiffror.",
+        "t": "<p>Ett isblock på 25,0 kg glider på vågrät is och dras med 60,0 N i vinkeln 25,0° över vågrät riktning. Blocket behåller kontakten med isen. Använd g = 9,82 m/s².</p><p>Bestäm normalkraften vid drag snett uppåt. Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den uppåtriktade delen av dragkraften hjälper till att bära blocket och minskar normalkraften.</p>\\[N=mg-F\\sin25{,}0^\\circ=25{,}0\\cdot9{,}82-60{,}0\\sin25{,}0^\\circ\\approx220\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Den lodräta komposanten lyfter blocket.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -42101,20 +42101,20 @@ window.BANK = [
     "niva": "C",
     "typ": "låda som dras snett uppåt",
     "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Gösta drar en låda (310 kg) med kraften 400 N riktad 38° över vågrätt. Friktionskraften är 125 N.</p><ol type=\"a\"><li>Bestäm lådans acceleration.</li><li>Bestäm friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{400\\cos38^\\circ-125}{310}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}61\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=310\\cdot9{,}82-400\\sin38^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{125}{F_N}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}045\\)</p></li></ol></div>",
+    "t": "<p>Gösta drar en låda på 310 kg som glider framåt över ett vågrätt golv. Dragkraften är 400 N, riktad 38° över golvet. Glidfriktionen är 125 N. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm accelerationen framåt i m/s² med två decimaler.</li><li>Bestäm glidfriktionstalet med tre decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Den vågräta dragkraften är Fₓ = 400 cos38°. Friktionen verkar bakåt.</p>\\[a=\\frac{F_x-f}{m}=\\frac{400\\cos38^\\circ-125}{310}\\approx0{,}61\\,\\mathrm{m/s^2}\\]<p><strong>b)</strong></p><p>Dragkraftens uppåtriktade del minskar normalkraften.</p>\\[N=mg-F\\sin38^\\circ=310\\cdot9{,}82-400\\sin38^\\circ\\approx2797{,}94\\,\\mathrm N\\]<p>Friktionen är f = μN. Använd oavrundat N.</p>\\[\\mu=\\frac{f}{N}=\\frac{125}{310\\cdot9{,}82-400\\sin38^\\circ}\\approx0{,}045\\]</div>",
     "id": "4.546",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.6135622627183508,
-      0.04467579900488826
+      0.61,
+      0.045
     ],
     "tolerans": [
-      0.0092,
-      0.00067
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -42135,13 +42135,13 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Gösta drar en låda (310 kg) med kraften 400 N riktad 38° över vågrätt. Friktionskraften är 125 N.</p>",
+    "spelIntro": "<p>Gösta drar en låda på 310 kg som glider framåt över ett vågrätt golv. Dragkraften är 400 N, riktad 38° över golvet. Glidfriktionen är 125 N. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lådans acceleration.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Gösta drar en låda (310 kg) med kraften 400 N riktad 38° över vågrätt. Friktionskraften är 125 N.</p><p>Bestäm lådans acceleration.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{400\\cos38^\\circ-125}{310}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}61\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen framåt i m/s² med två decimaler.",
+        "t": "<p>Gösta drar en låda på 310 kg som glider framåt över ett vågrätt golv. Dragkraften är 400 N, riktad 38° över golvet. Glidfriktionen är 125 N. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen framåt i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den vågräta dragkraften är Fₓ = 400 cos38°. Friktionen verkar bakåt.</p>\\[a=\\frac{F_x-f}{m}=\\frac{400\\cos38^\\circ-125}{310}\\approx0{,}61\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Använd den vågräta komposanten.</p>",
         "niva": "E",
         "poang": "(1/1/0)",
@@ -42150,9 +42150,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Gösta drar en låda (310 kg) med kraften 400 N riktad 38° över vågrätt. Friktionskraften är 125 N.</p><p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=310\\cdot9{,}82-400\\sin38^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{125}{F_N}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}045\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med tre decimaler.",
+        "t": "<p>Gösta drar en låda på 310 kg som glider framåt över ett vågrätt golv. Dragkraften är 400 N, riktad 38° över golvet. Glidfriktionen är 125 N. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens uppåtriktade del minskar normalkraften.</p>\\[N=mg-F\\sin38^\\circ=310\\cdot9{,}82-400\\sin38^\\circ\\approx2797{,}94\\,\\mathrm N\\]<p>Friktionen är f = μN. Använd oavrundat N.</p>\\[\\mu=\\frac{f}{N}=\\frac{125}{310\\cdot9{,}82-400\\sin38^\\circ}\\approx0{,}045\\]</div>",
         "ledtrad": "<p>Normalkraften är mindre än tyngden.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -42169,25 +42169,25 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "A",
+    "niva": "C",
     "typ": "gräsklippare",
-    "poang": "(2/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p><ol type=\"a\"><li>Bestäm friktionskraften.</li><li>Bestäm normalkraften.</li><li>Vilken kraft (i samma riktning) ger farten 1,5 m/s från vila på 2,5 s?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=88\\cos45^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(62\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=14{,}0\\cdot9{,}82+88\\sin45^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{62{,}2}{199{,}7}\\approx0{,}31\\],</div></div><div class=\"facit-stycke\"><p>\\(a=0{,}60\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\cos45^\\circ-\\mu(mg+F\\sin45^\\circ)=ma\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(105\\) N</p></li></ol></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Kim skjuter en gräsklippare på 14,0 kg med konstant fart över vågrät mark. Kraften är 88 N och pekar 45° snett nedåt. Motståndskraften modelleras som f = μN, där μ är oförändrat även när farten ökar. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm den bromsande motståndskraften i N med en decimal.</li><li>Bestäm normalkraften i N med en decimal.</li><li>Kim börjar från vila. Vilken kraft i samma riktning ger farten 1,5 m/s efter 2,5 s med konstant acceleration? Svara i N med en decimal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart balanserar motståndet kraftens vågräta del.</p>\\[f=88\\cos45^\\circ\\approx62{,}2\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Den nedåtriktade delen av kraften ökar normalkraften.</p>\\[N=mg+88\\sin45^\\circ=14{,}0\\cdot9{,}82+88\\sin45^\\circ\\approx199{,}7\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Bestäm först μ från försöket med konstant fart. Motståndet är då 88 cos45° och normalkraften 14,0 · 9,82 + 88 sin45°.</p>\\[\\mu=\\frac{88\\cos45^\\circ}{14{,}0\\cdot9{,}82+88\\sin45^\\circ}=0{,}311586\\ldots\\]<p>Den nya accelerationen är a = 1,5/2,5 = 0,60 m/s². Med den nya kraften F ökar också normalkraften: N = mg + F sin45°.</p>\\[F\\cos45^\\circ-\\mu(mg+F\\sin45^\\circ)=ma\\]<p>Samla termerna med F och använd oavrundat μ.</p>\\[F=\\frac{m(a+\\mu g)}{\\cos45^\\circ-\\mu\\sin45^\\circ}\\approx105{,}3\\,\\mathrm N\\]</div>",
     "id": "4.547",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      62.22539674441619,
-      199.7053967444162,
-      105.25617600132705
+      62.2,
+      199.7,
+      105.3
     ],
     "tolerans": [
-      0.933,
-      5.1,
-      5.1
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -42211,13 +42211,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p>",
+    "spelIntro": "<p>Kim skjuter en gräsklippare på 14,0 kg med konstant fart över vågrät mark. Kraften är 88 N och pekar 45° snett nedåt. Motståndskraften modelleras som f = μN, där μ är oförändrat även när farten ökar. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är friktionskraften som bromsar gräsklipparen? Svara i N.",
-        "t": "<p>Kim skjuter en gräsklippare med konstant fart över vågrät mark. Kraften är 88 N längs handtaget, som lutar 45° mot marken.</p><p>Hur stor är friktionskraften som bromsar gräsklipparen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=88\\cos45^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(62\\) N</p></div>",
+        "fraga": "Bestäm den bromsande motståndskraften i N med en decimal.",
+        "t": "<p>Kim skjuter en gräsklippare på 14,0 kg med konstant fart över vågrät mark. Kraften är 88 N och pekar 45° snett nedåt. Motståndskraften modelleras som f = μN, där μ är oförändrat även när farten ökar. Använd g = 9,82 m/s².</p><p>Bestäm den bromsande motståndskraften i N med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar motståndet kraftens vågräta del.</p>\\[f=88\\cos45^\\circ\\approx62{,}2\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Konstant fart.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -42226,9 +42226,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm normalkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p><p>Bestäm normalkraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=14{,}0\\cdot9{,}82+88\\sin45^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\) N</p></div>",
+        "fraga": "Bestäm normalkraften i N med en decimal.",
+        "t": "<p>Kim skjuter en gräsklippare på 14,0 kg med konstant fart över vågrät mark. Kraften är 88 N och pekar 45° snett nedåt. Motståndskraften modelleras som f = μN, där μ är oförändrat även när farten ökar. Använd g = 9,82 m/s².</p><p>Bestäm normalkraften i N med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den nedåtriktade delen av kraften ökar normalkraften.</p>\\[N=mg+88\\sin45^\\circ=14{,}0\\cdot9{,}82+88\\sin45^\\circ\\approx199{,}7\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Den lodräta komposanten trycker ned klipparen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -42237,12 +42237,12 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vilken kraft (i samma riktning) ger farten 1,5 m/s från vila på 2,5 s?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p>Friktionstalet är 0,31.<p>Vilken kraft (i samma riktning) ger farten 1,5 m/s från vila på 2,5 s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{62{,}2}{199{,}7}\\approx0{,}31\\],</div></div><div class=\"facit-stycke\"><p>\\(a=0{,}60\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\cos45^\\circ-\\mu(mg+F\\sin45^\\circ)=ma\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(105\\) N</p></div>",
+        "fraga": "Kim börjar från vila. Vilken kraft i samma riktning ger farten 1,5 m/s efter 2,5 s med konstant acceleration? Svara i N med en decimal.",
+        "t": "<p>Kim skjuter en gräsklippare på 14,0 kg med konstant fart över vågrät mark. Kraften är 88 N och pekar 45° snett nedåt. Motståndskraften modelleras som f = μN, där μ är oförändrat även när farten ökar. Använd g = 9,82 m/s².</p><p>Kim börjar från vila. Vilken kraft i samma riktning ger farten 1,5 m/s efter 2,5 s med konstant acceleration? Svara i N med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bestäm först μ från försöket med konstant fart. Motståndet är då 88 cos45° och normalkraften 14,0 · 9,82 + 88 sin45°.</p>\\[\\mu=\\frac{88\\cos45^\\circ}{14{,}0\\cdot9{,}82+88\\sin45^\\circ}=0{,}311586\\ldots\\]<p>Den nya accelerationen är a = 1,5/2,5 = 0,60 m/s². Med den nya kraften F ökar också normalkraften: N = mg + F sin45°.</p>\\[F\\cos45^\\circ-\\mu(mg+F\\sin45^\\circ)=ma\\]<p>Samla termerna med F och använd oavrundat μ.</p>\\[F=\\frac{m(a+\\mu g)}{\\cos45^\\circ-\\mu\\sin45^\\circ}\\approx105{,}3\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Friktionen ökar när kraften ökar.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
         "arbetsinsats": 2
       }
@@ -42256,18 +42256,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "A",
+    "niva": "C",
     "typ": "minsta kraft snett nedåt",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Caroline skjuter en låda (32 kg) med en kraft riktad 37° snett nedåt. Friktionstalet är 0,38. Vilken är den minsta kraft som får lådan att röra sig?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\cos37^\\circ=0{,}38\\left(mg+F\\sin37^\\circ\\right)\\iff F=\\dfrac{0{,}38\\cdot32\\cdot9{,}82}{\\cos37^\\circ-0{,}38\\sin37^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(210\\) N</p></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En låda på 32 kg står på ett vågrätt golv. Caroline trycker med en kraft som pekar 37° snett nedåt. Vilofriktionstalet är 0,38. Lådan kan inte tippa. Använd g = 9,82 m/s². Bestäm kraften vid gränsen till glidning. Svara i N med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den nedåtriktade delen av kraften ökar normalkraften: N = mg + F sin37°. Vid glidgränsen balanseras den vågräta delen av den största vilofriktionen.</p>\\[F\\cos37^\\circ=0{,}38(mg+F\\sin37^\\circ)\\]<p>Samla termerna med F och dela med faktorn framför F.</p>\\[F=\\frac{0{,}38mg}{\\cos37^\\circ-0{,}38\\sin37^\\circ}\\]\\[F=\\frac{0{,}38\\cdot32\\cdot9{,}82}{\\cos37^\\circ-0{,}38\\sin37^\\circ}\\approx209{,}5\\,\\mathrm N\\]</div>",
     "id": "4.548",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 209.51325501163473,
-    "tolerans": 5.1,
+    "rättSvar": 209.5,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -42283,23 +42283,23 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "E",
+    "niva": "C",
     "typ": "dra pulka snett uppåt",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Jonas drar Lisa i en pulka (sammanlagt 60,0 kg) med 100 N riktat 30° över vågrätt. Friktionstalet är 0,110.</p><ol type=\"a\"><li>Hur stor är friktionskraften?</li><li>Vilken acceleration får pulkan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=60{,}0\\cdot9{,}82-100\\sin30^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=0{,}110F_N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(59\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{100\\cos30^\\circ-59{,}3}{60{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\) m/s²</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Jonas drar en pulka med Lisa på, sammanlagt 60,0 kg. Pulkan glider framåt över vågrät mark. Dragkraften är 100 N, riktad 30° över marken. Glidfriktionstalet är 0,110. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm friktionskraftens storlek i N med två decimaler.</li><li>Bestäm accelerationen framåt i m/s² med två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Dragkraftens uppåtriktade del minskar normalkraften.</p>\\[N=mg-F\\sin30^\\circ=60{,}0\\cdot9{,}82-100\\sin30^\\circ=539{,}2\\,\\mathrm N\\]\\[f=\\mu N=0{,}110\\cdot539{,}2=59{,}312\\,\\mathrm N\\]<p>Svar: 59,31 N.</p><p><strong>b)</strong></p><p>Dragkraftens uppåtriktade del minskar normalkraften.</p>\\[N=mg-F\\sin30^\\circ=60{,}0\\cdot9{,}82-100\\sin30^\\circ=539{,}2\\,\\mathrm N\\]\\[f=\\mu N=0{,}110\\cdot539{,}2=59{,}312\\,\\mathrm N\\]<p>Dragkraftens vågräta del är Fₓ = 100 cos30°. Friktionen pekar bakåt.</p>\\[a=\\frac{F_x-f}{m}=\\frac{100\\cos30^\\circ-59{,}312}{60{,}0}\\approx0{,}45\\,\\mathrm{m/s^2}\\]</div>",
     "id": "4.549",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      59.312000000000005,
-      0.4548423396407312
+      59.31,
+      0.45
     ],
     "tolerans": [
-      0.89,
-      0.00682
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -42319,33 +42319,33 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Jonas drar Lisa i en pulka (sammanlagt 60,0 kg) med 100 N riktat 30° över vågrätt. Friktionstalet är 0,110.</p>",
+    "spelIntro": "<p>Jonas drar en pulka med Lisa på, sammanlagt 60,0 kg. Pulkan glider framåt över vågrät mark. Dragkraften är 100 N, riktad 30° över marken. Glidfriktionstalet är 0,110. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är friktionskraften?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Jonas drar Lisa i en pulka (sammanlagt 60,0 kg) med 100 N riktat 30° över vågrätt. Friktionstalet är 0,110.</p><p>Hur stor är friktionskraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=60{,}0\\cdot9{,}82-100\\sin30^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=0{,}110F_N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(59\\) N</p></div>",
+        "fraga": "Bestäm friktionskraftens storlek i N med två decimaler.",
+        "t": "<p>Jonas drar en pulka med Lisa på, sammanlagt 60,0 kg. Pulkan glider framåt över vågrät mark. Dragkraften är 100 N, riktad 30° över marken. Glidfriktionstalet är 0,110. Använd g = 9,82 m/s².</p><p>Bestäm friktionskraftens storlek i N med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens uppåtriktade del minskar normalkraften.</p>\\[N=mg-F\\sin30^\\circ=60{,}0\\cdot9{,}82-100\\sin30^\\circ=539{,}2\\,\\mathrm N\\]\\[f=\\mu N=0{,}110\\cdot539{,}2=59{,}312\\,\\mathrm N\\]<p>Svar: 59,31 N.</p></div>",
         "ledtrad": "<p>Normalkraften är mindre än tyngden.</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får pulkan?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Jonas drar Lisa i en pulka (sammanlagt 60,0 kg) med 100 N riktat 30° över vågrätt. Friktionstalet är 0,110.</p>Friktionskraften är 59,3 N.<p>Vilken acceleration får pulkan?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{100\\cos30^\\circ-59{,}3}{60{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen framåt i m/s² med två decimaler.",
+        "t": "<p>Jonas drar en pulka med Lisa på, sammanlagt 60,0 kg. Pulkan glider framåt över vågrät mark. Dragkraften är 100 N, riktad 30° över marken. Glidfriktionstalet är 0,110. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen framåt i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens uppåtriktade del minskar normalkraften.</p>\\[N=mg-F\\sin30^\\circ=60{,}0\\cdot9{,}82-100\\sin30^\\circ=539{,}2\\,\\mathrm N\\]\\[f=\\mu N=0{,}110\\cdot539{,}2=59{,}312\\,\\mathrm N\\]<p>Dragkraftens vågräta del är Fₓ = 100 cos30°. Friktionen pekar bakåt.</p>\\[a=\\frac{F_x-f}{m}=\\frac{100\\cos30^\\circ-59{,}312}{60{,}0}\\approx0{,}45\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Resultant i vågrät led.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Dela upp kraften i komposanter.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
     "arbetsinsats": 2,
     "spel": true
@@ -42355,16 +42355,16 @@ window.BANK = [
     "omr": "friktion",
     "niva": "C",
     "typ": "isblock som trycks snett nedåt",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Johan trycker ett isblock (30 kg) med 80 N riktat 25° snett nedåt. Friktionstalet är 0,125. Bestäm accelerationen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=30\\cdot9{,}82+80\\sin25^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{80\\cos25^\\circ-0{,}125F_N}{30}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\) m/s²</p></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Johan trycker ett isblock på 30 kg som glider framåt över vågrät is. Kraften är 80 N, riktad 25° snett nedåt. Glidfriktionstalet är 0,125. Använd g = 9,82 m/s². Bestäm accelerationen framåt i m/s² med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tryckkraftens nedåtriktade del ökar normalkraften.</p>\\[N=30\\cdot9{,}82+80\\sin25^\\circ\\approx328{,}01\\,\\mathrm N\\]<p>Glidfriktionen är f = 0,125N ≈ 41,00 N bakåt. Den vågräta tryckkraften är Fₓ = 80 cos25° ≈ 72,50 N. Använd oavrundade mellanvärden.</p>\\[a=\\frac{F_x-f}{30}\\approx1{,}05\\,\\mathrm{m/s^2}\\]</div>",
     "id": "4.550",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.0484480115175,
-    "tolerans": 0.051,
+    "rättSvar": 1.05,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -42383,21 +42383,21 @@ window.BANK = [
     "omr": "friktion",
     "niva": "C",
     "typ": "skjuta eller dra en låda",
-    "poang": "(0/2/1)",
-    "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med tyngden 1 000 N skjuts med konstant fart med 300 N riktat 20° snett nedåt. Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Bestäm friktionstalet.</li><li>Man drar i stället med 300 N riktat 20° snett uppåt. Vilken acceleration får lådan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{300\\cos20^\\circ}{1\\,000+300\\sin20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}26\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=1\\,000-300\\sin20^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{300\\cos20^\\circ-\\mu F_N}{1\\,000/9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}52\\) m/s²</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En låda med tyngdkraften 1000 N glider med konstant fart över ett vågrätt golv. Den skjuts med 300 N, riktat 20° snett nedåt. Glidfriktionstalet är oförändrat när kraftens riktning ändras. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm glidfriktionstalet med tre decimaler.</li><li>Kraften ändras till 300 N riktat 20° snett uppåt. Lådan glider fortfarande framåt. Bestäm accelerationen i m/s² med två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid tryck nedåt är normalkraften N₁ = 1000 + 300 sin20°. Konstant fart betyder att friktionen balanserar kraftens vågräta del, 300 cos20°.</p>\\[\\mu=\\frac{300\\cos20^\\circ}{1000+300\\sin20^\\circ}=0{,}255674\\ldots\\]<p>Svar: 0,256.</p><p><strong>b)</strong></p><p>Vid tryck nedåt är normalkraften N₁ = 1000 + 300 sin20°. Konstant fart betyder att friktionen balanserar kraftens vågräta del, 300 cos20°.</p>\\[\\mu=\\frac{300\\cos20^\\circ}{1000+300\\sin20^\\circ}=0{,}255674\\ldots\\]<p>Vid drag uppåt minskar normalkraften till N₂ = 1000 − 300 sin20° ≈ 897,39 N. Massan är m = 1000/g kg. Friktionen är μN₂ och pekar bakåt. Använd oavrundat μ och N₂.</p>\\[a=\\frac{300\\cos20^\\circ-\\mu N_2}{1000/9{,}82}\\approx0{,}52\\,\\mathrm{m/s^2}\\]</div>",
     "id": "4.551",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.2556740805350007,
-      0.5152299799631589
+      0.256,
+      0.52
     ],
     "tolerans": [
-      0.0051,
-      0.00773
+      0.0005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -42418,13 +42418,13 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med tyngden 1 000 N skjuts med konstant fart med 300 N riktat 20° snett nedåt. Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>En låda med tyngdkraften 1000 N glider med konstant fart över ett vågrätt golv. Den skjuts med 300 N, riktat 20° snett nedåt. Glidfriktionstalet är oförändrat när kraftens riktning ändras. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med tyngden 1 000 N skjuts med konstant fart med 300 N riktat 20° snett nedåt. Använd \\(g=9{,}82\\) m/s².</p><p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{300\\cos20^\\circ}{1\\,000+300\\sin20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}26\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med tre decimaler.",
+        "t": "<p>En låda med tyngdkraften 1000 N glider med konstant fart över ett vågrätt golv. Den skjuts med 300 N, riktat 20° snett nedåt. Glidfriktionstalet är oförändrat när kraftens riktning ändras. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid tryck nedåt är normalkraften N₁ = 1000 + 300 sin20°. Konstant fart betyder att friktionen balanserar kraftens vågräta del, 300 cos20°.</p>\\[\\mu=\\frac{300\\cos20^\\circ}{1000+300\\sin20^\\circ}=0{,}255674\\ldots\\]<p>Svar: 0,256.</p></div>",
         "ledtrad": "<p>Konstant fart: vågräta krafterna tar ut varandra.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -42433,12 +42433,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Man drar i stället med 300 N riktat 20° snett uppåt. Vilken acceleration får lådan?",
-        "t": "<p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med tyngden 1 000 N skjuts med konstant fart med 300 N riktat 20° snett nedåt. Använd \\(g=9{,}82\\) m/s².</p>Friktionstalet är 0,256.<p>Man drar i stället med 300 N riktat 20° snett uppåt. Vilken acceleration får lådan?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=1\\,000-300\\sin20^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{300\\cos20^\\circ-\\mu F_N}{1\\,000/9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}52\\) m/s²</p></div>",
+        "fraga": "Kraften ändras till 300 N riktat 20° snett uppåt. Lådan glider fortfarande framåt. Bestäm accelerationen i m/s² med två decimaler.",
+        "t": "<p>En låda med tyngdkraften 1000 N glider med konstant fart över ett vågrätt golv. Den skjuts med 300 N, riktat 20° snett nedåt. Glidfriktionstalet är oförändrat när kraftens riktning ändras. Använd g = 9,82 m/s².</p><p>Kraften ändras till 300 N riktat 20° snett uppåt. Lådan glider fortfarande framåt. Bestäm accelerationen i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid tryck nedåt är normalkraften N₁ = 1000 + 300 sin20°. Konstant fart betyder att friktionen balanserar kraftens vågräta del, 300 cos20°.</p>\\[\\mu=\\frac{300\\cos20^\\circ}{1000+300\\sin20^\\circ}=0{,}255674\\ldots\\]<p>Vid drag uppåt minskar normalkraften till N₂ = 1000 − 300 sin20° ≈ 897,39 N. Massan är m = 1000/g kg. Friktionen är μN₂ och pekar bakåt. Använd oavrundat μ och N₂.</p>\\[a=\\frac{300\\cos20^\\circ-\\mu N_2}{1000/9{,}82}\\approx0{,}52\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Normalkraften blir mindre.</p>",
         "niva": "C",
-        "poang": "(0/1/1)",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -42452,23 +42452,23 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "A",
+    "niva": "C",
     "typ": "två personer flyttar en låda",
-    "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (25 kg) skjuts med 82 N riktat 23° snett nedåt och dras samtidigt framåt med 65 N riktat 37° snett uppåt.</p><ol type=\"a\"><li>Vilken acceleration får lådan utan friktion?</li><li>Vilken acceleration får lådan om friktionstalet är 0,15?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{82\\cos23^\\circ+65\\cos37^\\circ}{25}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}1\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=25\\cdot9{,}82+82\\sin23^\\circ-65\\sin37^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{127-0{,}15F_N}{25}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}7\\) m/s²</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En låda på 25 kg glider framåt på ett vågrätt golv. Den skjuts med 82 N, riktat 23° snett nedåt, och dras samtidigt med 65 N, riktat 37° snett uppåt. Båda krafternas vågräta delar pekar framåt. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm accelerationen om golvet är friktionsfritt. Svara i m/s² med två decimaler.</li><li>Bestäm accelerationen om glidfriktionstalet är 0,15. Svara i m/s² med två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lägg ihop krafternas vågräta delar.</p>\\[F_x=82\\cos23^\\circ+65\\cos37^\\circ=127{,}3927\\ldots\\,\\mathrm N\\]<p>Utan friktion är detta hela kraftsumman framåt.</p>\\[a=\\frac{F_x}{25}\\approx5{,}10\\,\\mathrm{m/s^2}\\]<p><strong>b)</strong></p><p>Lägg ihop krafternas vågräta delar.</p>\\[F_x=82\\cos23^\\circ+65\\cos37^\\circ=127{,}3927\\ldots\\,\\mathrm N\\]<p>Tryckkraftens nedåtriktade del ökar normalkraften, medan dragkraftens uppåtriktade del minskar den.</p>\\[N=25\\cdot9{,}82+82\\sin23^\\circ-65\\sin37^\\circ\\approx238{,}42\\,\\mathrm N\\]<p>Glidfriktionen är f = 0,15N ≈ 35,76 N bakåt. Använd oavrundade mellanvärden.</p>\\[a=\\frac{F_x-f}{25}\\approx3{,}67\\,\\mathrm{m/s^2}\\]</div>",
     "id": "4.552",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5.095708245446966,
-      3.665176389259542
+      5.1,
+      3.67
     ],
     "tolerans": [
-      0.0764,
-      0.055
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -42489,27 +42489,27 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (25 kg) skjuts med 82 N riktat 23° snett nedåt och dras samtidigt framåt med 65 N riktat 37° snett uppåt.</p>",
+    "spelIntro": "<p>En låda på 25 kg glider framåt på ett vågrätt golv. Den skjuts med 82 N, riktat 23° snett nedåt, och dras samtidigt med 65 N, riktat 37° snett uppåt. Båda krafternas vågräta delar pekar framåt. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken acceleration får lådan utan friktion?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (25 kg) skjuts med 82 N riktat 23° snett nedåt och dras samtidigt framåt med 65 N riktat 37° snett uppåt.</p><p>Vilken acceleration får lådan utan friktion?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{82\\cos23^\\circ+65\\cos37^\\circ}{25}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}1\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen om golvet är friktionsfritt. Svara i m/s² med två decimaler.",
+        "t": "<p>En låda på 25 kg glider framåt på ett vågrätt golv. Den skjuts med 82 N, riktat 23° snett nedåt, och dras samtidigt med 65 N, riktat 37° snett uppåt. Båda krafternas vågräta delar pekar framåt. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen om golvet är friktionsfritt. Svara i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg ihop krafternas vågräta delar.</p>\\[F_x=82\\cos23^\\circ+65\\cos37^\\circ=127{,}3927\\ldots\\,\\mathrm N\\]<p>Utan friktion är detta hela kraftsumman framåt.</p>\\[a=\\frac{F_x}{25}\\approx5{,}10\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Lägg ihop de vågräta komposanterna.</p>",
         "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får lådan om friktionstalet är 0,15?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (25 kg) skjuts med 82 N riktat 23° snett nedåt och dras samtidigt framåt med 65 N riktat 37° snett uppåt.</p><p>Vilken acceleration får lådan om friktionstalet är 0,15?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=25\\cdot9{,}82+82\\sin23^\\circ-65\\sin37^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{127-0{,}15F_N}{25}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}7\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen om glidfriktionstalet är 0,15. Svara i m/s² med två decimaler.",
+        "t": "<p>En låda på 25 kg glider framåt på ett vågrätt golv. Den skjuts med 82 N, riktat 23° snett nedåt, och dras samtidigt med 65 N, riktat 37° snett uppåt. Båda krafternas vågräta delar pekar framåt. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen om glidfriktionstalet är 0,15. Svara i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg ihop krafternas vågräta delar.</p>\\[F_x=82\\cos23^\\circ+65\\cos37^\\circ=127{,}3927\\ldots\\,\\mathrm N\\]<p>Tryckkraftens nedåtriktade del ökar normalkraften, medan dragkraftens uppåtriktade del minskar den.</p>\\[N=25\\cdot9{,}82+82\\sin23^\\circ-65\\sin37^\\circ\\approx238{,}42\\,\\mathrm N\\]<p>Glidfriktionen är f = 0,15N ≈ 35,76 N bakåt. Använd oavrundade mellanvärden.</p>\\[a=\\frac{F_x-f}{25}\\approx3{,}67\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Båda krafternas lodräta komposanter påverkar normalkraften.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
         "arbetsinsats": 2
       }
@@ -42526,15 +42526,15 @@ window.BANK = [
     "niva": "C",
     "typ": "personen i dörröppningen",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En person (40 kg) håller sig uppe i en dörröppning genom att pressa händer och fötter mot ena dörrposten och ryggen mot den andra. Friktionstalet är 0,80. Hur stor normalkraft måste varje dörrpost ge?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Normalkrafterna är lika stora, och de två friktionskrafterna bär tyngden: \\(2\\mu F_N=mg\\iff F_N=\\dfrac{40\\cdot9{,}82}{2\\cdot0{,}80}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(246\\) N</p></div>",
+    "t": "<p>En person på 40 kg håller sig stilla i en dörröppning genom att pressa händer och fötter mot ena lodräta dörrposten och ryggen mot den andra. Vilofriktionstalet är 0,80 vid båda sidorna. Normalkrafterna är vågräta och lika stora. Använd g = 9,82 m/s². Vilken är den minsta normalkraften från varje dörrpost som hindrar personen från att glida ned? Svara i N med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>De två uppåtriktade friktionskrafterna måste tillsammans bära personens tyngd. Varje friktionskraft kan högst vara μN. Vid gränsen gäller</p>\\[2\\mu N=mg\\quad\\Rightarrow\\quad N_{\\min}=\\frac{mg}{2\\mu}\\]\\[N_{\\min}=\\frac{40\\cdot9{,}82}{2\\cdot0{,}80}=245{,}5\\,\\mathrm N\\]</div>",
     "id": "4.553",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "numeriskt",
     "rättSvar": 245.5,
-    "tolerans": 5.1,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -42554,15 +42554,15 @@ window.BANK = [
     "niva": "C",
     "typ": "hålla en bok mellan händerna",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En student håller en 3,5 kg tung bok genom att pressa båda händerna vågrätt mot bokens sidor. Friktionstalet är 0,40. Vilken är den minsta kraft varje hand måste trycka med?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Varje hand bär halva tyngden: \\(\\mu F=\\dfrac{mg}{2}\\iff F=\\dfrac{3{,}5\\cdot9{,}82}{2\\cdot0{,}40}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(43\\) N</p></div>",
+    "t": "<p>En elev håller en bok på 3,5 kg stilla genom att pressa båda händerna vågrätt mot bokens lodräta sidor. Händerna trycker åt motsatta håll med lika stora krafter. Vilofriktionstalet är 0,40. Använd g = 9,82 m/s². Vilken är den minsta kraft varje hand behöver trycka med? Svara i hela N.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje hands tryckkraft F ger normalkraften F på sin sida av boken. De två friktionskrafterna måste tillsammans bära tyngden. Vid glidgränsen gäller</p>\\[2\\mu F=mg\\quad\\Rightarrow\\quad F_{\\min}=\\frac{mg}{2\\mu}\\]\\[F_{\\min}=\\frac{3{,}5\\cdot9{,}82}{2\\cdot0{,}40}=42{,}9625\\,\\mathrm N\\]<p>Svar: 43 N.</p></div>",
     "id": "4.554",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "numeriskt",
-    "rättSvar": 42.962500000000006,
-    "tolerans": 0.644,
+    "rättSvar": 43,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -42579,23 +42579,23 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "A",
+    "niva": "C",
     "typ": "kloss mot vägg med sned kraft",
-    "poang": "(1/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (1,2 kg) trycks mot en lodrät vägg med kraften 38,0 N riktad snett uppåt, 50,0° över vågrätt. Friktionstalet är 0,15.</p><ol type=\"a\"><li>Bestäm normalkraften från väggen.</li><li>Bestäm klossens acceleration.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=38{,}0\\cos50{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Uppåt: \\(38{,}0\\sin50{,}0^\\circ\\approx29{,}1\\) N, nedåt tyngd \\(11{,}8\\) N och friktion \\(0{,}15\\cdot24{,}4\\approx3{,}7\\) N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{29{,}1-11{,}8-3{,}7}{1{,}2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) m/s²</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En kloss på 1,2 kg glider uppåt längs en lodrät vägg. Den pressas mot väggen av en kraft på 38,0 N, riktad 50,0° över vågrät riktning. Glidfriktionstalet är 0,15. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm normalkraften från väggen i N med två decimaler.</li><li>Bestäm accelerationen med uppåt som positiv riktning. Svara i m/s² med två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Väggens normalkraft balanserar tryckkraftens vågräta del.</p>\\[N=38{,}0\\cos50{,}0^\\circ\\approx24{,}43\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Klossen glider uppåt, så friktionen pekar nedåt. Normalkraften är N = 38,0 cos50,0° ≈ 24,43 N och glidfriktionen f = 0,15N ≈ 3,66 N. Tyngdkraften är mg = 1,2 · 9,82 = 11,784 N.</p><p>Tryckkraftens uppåtriktade del är 38,0 sin50,0°. Dra bort båda de nedåtriktade krafterna. Använd oavrundade mellanvärden.</p>\\[F_y=38{,}0\\sin50{,}0^\\circ\\approx29{,}11\\,\\mathrm N\\]\\[a=\\frac{F_y-mg-f}{m}\\approx11{,}38\\,\\mathrm{m/s^2}\\]<p>Accelerationen är uppåt, så klossens fart uppåt ökar.</p></div>",
     "id": "4.555",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      24.425929168088494,
-      11.38483288608991
+      24.43,
+      11.38
     ],
     "tolerans": [
-      0.51,
-      0.51
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -42616,13 +42616,13 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (1,2 kg) trycks mot en lodrät vägg med kraften 38,0 N riktad snett uppåt, 50,0° över vågrätt. Friktionstalet är 0,15.</p>",
+    "spelIntro": "<p>En kloss på 1,2 kg glider uppåt längs en lodrät vägg. Den pressas mot väggen av en kraft på 38,0 N, riktad 50,0° över vågrät riktning. Glidfriktionstalet är 0,15. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm normalkraften från väggen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (1,2 kg) trycks mot en lodrät vägg med kraften 38,0 N riktad snett uppåt, 50,0° över vågrätt. Friktionstalet är 0,15.</p><p>Bestäm normalkraften från väggen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=38{,}0\\cos50{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\) N</p></div>",
+        "fraga": "Bestäm normalkraften från väggen i N med två decimaler.",
+        "t": "<p>En kloss på 1,2 kg glider uppåt längs en lodrät vägg. Den pressas mot väggen av en kraft på 38,0 N, riktad 50,0° över vågrät riktning. Glidfriktionstalet är 0,15. Använd g = 9,82 m/s².</p><p>Bestäm normalkraften från väggen i N med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Väggens normalkraft balanserar tryckkraftens vågräta del.</p>\\[N=38{,}0\\cos50{,}0^\\circ\\approx24{,}43\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Den vågräta komposanten trycker mot väggen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -42631,18 +42631,18 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm klossens acceleration.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (1,2 kg) trycks mot en lodrät vägg med kraften 38,0 N riktad snett uppåt, 50,0° över vågrätt. Friktionstalet är 0,15.</p>Normalkraften är 24,4 N.<p>Bestäm klossens acceleration.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Uppåt: \\(38{,}0\\sin50{,}0^\\circ\\approx29{,}1\\) N, nedåt tyngd \\(11{,}8\\) N och friktion \\(0{,}15\\cdot24{,}4\\approx3{,}7\\) N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{29{,}1-11{,}8-3{,}7}{1{,}2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen med uppåt som positiv riktning. Svara i m/s² med två decimaler.",
+        "t": "<p>En kloss på 1,2 kg glider uppåt längs en lodrät vägg. Den pressas mot väggen av en kraft på 38,0 N, riktad 50,0° över vågrät riktning. Glidfriktionstalet är 0,15. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen med uppåt som positiv riktning. Svara i m/s² med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossen glider uppåt, så friktionen pekar nedåt. Normalkraften är N = 38,0 cos50,0° ≈ 24,43 N och glidfriktionen f = 0,15N ≈ 3,66 N. Tyngdkraften är mg = 1,2 · 9,82 = 11,784 N.</p><p>Tryckkraftens uppåtriktade del är 38,0 sin50,0°. Dra bort båda de nedåtriktade krafterna. Använd oavrundade mellanvärden.</p>\\[F_y=38{,}0\\sin50{,}0^\\circ\\approx29{,}11\\,\\mathrm N\\]\\[a=\\frac{F_y-mg-f}{m}\\approx11{,}38\\,\\mathrm{m/s^2}\\]<p>Accelerationen är uppåt, så klossens fart uppåt ökar.</p></div>",
         "ledtrad": "<p>Åt vilket håll vill klossen röra sig? Friktionen motverkar det.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 4,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Rita alla krafter på klossen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
     "arbetsinsats": 2,
     "spel": true
@@ -42650,23 +42650,23 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "A",
+    "niva": "C",
     "typ": "kloss pressad mot vägg",
-    "poang": "(0/2/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,80 kg) pressas mot en lodrät vägg med en kraft riktad snett uppåt, 55,0° över vågrätt. Friktionstalet är 0,300. Klossen ska ligga still.</p><ol type=\"a\"><li>Vilken är den minsta kraft som håller klossen i vila?</li><li>Vilken är den största kraft som håller klossen i vila?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen hjälper till uppåt: \\(F\\sin55{,}0^\\circ+0{,}300F\\cos55{,}0^\\circ=mg\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(57{,}5\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen verkar nedåt: \\(F\\sin55{,}0^\\circ-0{,}300F\\cos55{,}0^\\circ=mg\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(88{,}0\\) N</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En kloss på 5,80 kg pressas mot en lodrät vägg av kraften F, riktad 55,0° över vågrät riktning. Vilofriktionstalet är 0,300. Klossen ska hållas stilla. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm den minsta möjliga kraften F. Svara i N med en decimal.</li><li>Bestäm den största möjliga kraften F. Svara i N med en decimal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Normalkraften är N = F cos55,0°. Vid den minsta möjliga kraften tenderar klossen att glida nedåt. Vilofriktionen verkar då uppåt och är som störst: f = 0,300N.</p>\\[F\\sin55{,}0^\\circ+0{,}300F\\cos55{,}0^\\circ=mg\\]<p>Samla F och dela med faktorn framför F.</p>\\[F_{\\min}=\\frac{5{,}80\\cdot9{,}82}{\\sin55{,}0^\\circ+0{,}300\\cos55{,}0^\\circ}\\approx57{,}5\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Normalkraften är N = F cos55,0°. Vid den största möjliga kraften tenderar klossen att glida uppåt. Vilofriktionen verkar då nedåt och är som störst: f = 0,300N.</p>\\[F\\sin55{,}0^\\circ-0{,}300F\\cos55{,}0^\\circ=mg\\]<p>Samla F och dela med faktorn framför F.</p>\\[F_{\\max}=\\frac{5{,}80\\cdot9{,}82}{\\sin55{,}0^\\circ-0{,}300\\cos55{,}0^\\circ}\\approx88{,}0\\,\\mathrm N\\]</div>",
     "id": "4.556",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      57.46021481030092,
-      88.02014903891452
+      57.5,
+      88.0
     ],
     "tolerans": [
-      0.862,
-      1.32
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -42686,27 +42686,27 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,80 kg) pressas mot en lodrät vägg med en kraft riktad snett uppåt, 55,0° över vågrätt. Friktionstalet är 0,300. Klossen ska ligga still.</p>",
+    "spelIntro": "<p>En kloss på 5,80 kg pressas mot en lodrät vägg av kraften F, riktad 55,0° över vågrät riktning. Vilofriktionstalet är 0,300. Klossen ska hållas stilla. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken är den minsta kraft som håller klossen i vila?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,80 kg) pressas mot en lodrät vägg med en kraft riktad snett uppåt, 55,0° över vågrätt. Friktionstalet är 0,300. Klossen ska ligga still.</p><p>Vilken är den minsta kraft som håller klossen i vila?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen hjälper till uppåt: \\(F\\sin55{,}0^\\circ+0{,}300F\\cos55{,}0^\\circ=mg\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(57{,}5\\) N</p></div>",
+        "fraga": "Bestäm den minsta möjliga kraften F. Svara i N med en decimal.",
+        "t": "<p>En kloss på 5,80 kg pressas mot en lodrät vägg av kraften F, riktad 55,0° över vågrät riktning. Vilofriktionstalet är 0,300. Klossen ska hållas stilla. Använd g = 9,82 m/s².</p><p>Bestäm den minsta möjliga kraften F. Svara i N med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är N = F cos55,0°. Vid den minsta möjliga kraften tenderar klossen att glida nedåt. Vilofriktionen verkar då uppåt och är som störst: f = 0,300N.</p>\\[F\\sin55{,}0^\\circ+0{,}300F\\cos55{,}0^\\circ=mg\\]<p>Samla F och dela med faktorn framför F.</p>\\[F_{\\min}=\\frac{5{,}80\\cdot9{,}82}{\\sin55{,}0^\\circ+0{,}300\\cos55{,}0^\\circ}\\approx57{,}5\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vid minsta kraften vill klossen glida nedåt.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vilken är den största kraft som håller klossen i vila?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (5,80 kg) pressas mot en lodrät vägg med en kraft riktad snett uppåt, 55,0° över vågrätt. Friktionstalet är 0,300. Klossen ska ligga still.</p><p>Vilken är den största kraft som håller klossen i vila?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen verkar nedåt: \\(F\\sin55{,}0^\\circ-0{,}300F\\cos55{,}0^\\circ=mg\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(88{,}0\\) N</p></div>",
+        "fraga": "Bestäm den största möjliga kraften F. Svara i N med en decimal.",
+        "t": "<p>En kloss på 5,80 kg pressas mot en lodrät vägg av kraften F, riktad 55,0° över vågrät riktning. Vilofriktionstalet är 0,300. Klossen ska hållas stilla. Använd g = 9,82 m/s².</p><p>Bestäm den största möjliga kraften F. Svara i N med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är N = F cos55,0°. Vid den största möjliga kraften tenderar klossen att glida uppåt. Vilofriktionen verkar då nedåt och är som störst: f = 0,300N.</p>\\[F\\sin55{,}0^\\circ-0{,}300F\\cos55{,}0^\\circ=mg\\]<p>Samla F och dela med faktorn framför F.</p>\\[F_{\\max}=\\frac{5{,}80\\cdot9{,}82}{\\sin55{,}0^\\circ-0{,}300\\cos55{,}0^\\circ}\\approx88{,}0\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vid största kraften vill klossen glida uppåt.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
         "arbetsinsats": 2
       }
@@ -42720,18 +42720,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "A",
+    "niva": "C",
     "typ": "pulka på is och sand",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Pelle skjuter Stina i en pulka (sammanlagt 55,0 kg) från vila med den konstanta kraften 70 N. Först 11,0 m friktionsfri is, sedan sandad is med friktionstalet 0,30, där han fortsätter skjuta lika hårt. Hur långt in på sanden kommer pulkan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Isen: \\(v^2=2\\cdot\\dfrac{70}{55{,}0}\\cdot11{,}0\\approx28\\).</p></div><div class=\"facit-stycke\"><p>Sanden: retardation \\(0{,}30\\cdot9{,}82-\\dfrac{70}{55{,}0}\\approx1{,}67\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2\\cdot1{,}67}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}4\\) m</p></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Pelle skjuter en pulka med Stina på, sammanlagt 55,0 kg, vågrätt med konstant kraft 70 N. Pulkan startar från vila på vågrät, friktionsfri is. Efter 11,0 m kommer den in på sandad is med glidfriktionstalet 0,30. Pelle fortsätter skjuta lika hårt. Bortse från annat motstånd. Använd g = 9,82 m/s². Hur långt glider pulkan på den sandade isen innan den stannar? Svara i m med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>På den friktionsfria isen är accelerationen a = 70/55,0 m/s². Från vila gäller v² = 2as, så farten vid sanden uppfyller</p>\\[v^2=2\\cdot\\frac{70}{55{,}0}\\cdot11{,}0=28\\,\\mathrm{m^2/s^2}\\]<p>På sanden bromsar friktionen μmg, men Pelle fortsätter skjuta framåt. Den bromsande kraftsumman är μmg − 70.</p>\\[b=0{,}30\\cdot9{,}82-\\frac{70}{55{,}0}=1{,}67327\\ldots\\,\\mathrm{m/s^2}\\]<p>Vid stopp är slutfarten noll. Använd oavrundat b.</p>\\[s=\\frac{v^2}{2b}=\\frac{28}{2(0{,}30\\cdot9{,}82-70/55{,}0)}\\approx8{,}37\\,\\mathrm m\\]</div>",
     "id": "4.563",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.366836901010538,
-    "tolerans": 0.126,
+    "rättSvar": 8.37,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -42739,7 +42739,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp rörelsen i två delar.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "svarEnhet": "m",
     "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
     "arbetsinsats": 3,
@@ -42751,20 +42751,20 @@ window.BANK = [
     "niva": "C",
     "typ": "vilo- och glidfriktion",
     "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (6,0 kg) står på ett golv. Det krävs 35,0 N för att rubba den.</p><ol type=\"a\"><li>Bestäm vilofriktionstalet.</li><li>Man fortsätter skjuta med 35,0 N och lådan får accelerationen 0,60 m/s². Bestäm glidfriktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu_s=\\dfrac{35{,}0}{6{,}0\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}59\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=35{,}0-6{,}0\\cdot0{,}60\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu_k=\\dfrac{F_{fr}}{6{,}0\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}53\\)</p></li></ol></div>",
+    "t": "<p>En låda på 6,0 kg står på ett vågrätt golv. När den vågräta kraften når 35,0 N börjar lådan precis glida. Kraften hålls sedan kvar på 35,0 N och lådans acceleration blir 0,60 m/s² framåt. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm vilofriktionstalet med två decimaler.</li><li>Bestäm glidfriktionstalet med två decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Normalkraften är N = mg = 6,0 · 9,82 = 58,92 N. Vid glidgränsen är största vilofriktionen 35,0 N.</p>\\[\\mu_s=\\frac{35{,}0}{58{,}92}\\approx0{,}59\\]<p><strong>b)</strong></p><p>Normalkraften är N = mg = 6,0 · 9,82 = 58,92 N. Under glidningen är kraftsumman ma = 6,0 · 0,60 = 3,6 N. Resten av dragkraften balanserar glidfriktionen.</p>\\[f=35{,}0-3{,}6=31{,}4\\,\\mathrm N\\]\\[\\mu_k=\\frac{31{,}4}{58{,}92}\\approx0{,}53\\]</div>",
     "id": "4.576",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.5940257976917854,
-      0.5329260013577732
+      0.59,
+      0.53
     ],
     "tolerans": [
-      0.00891,
-      0.00799
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -42781,13 +42781,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (6,0 kg) står på ett golv. Det krävs 35,0 N för att rubba den.</p>",
+    "spelIntro": "<p>En låda på 6,0 kg står på ett vågrätt golv. När den vågräta kraften når 35,0 N börjar lådan precis glida. Kraften hålls sedan kvar på 35,0 N och lådans acceleration blir 0,60 m/s² framåt. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm vilofriktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (6,0 kg) står på ett golv. Det krävs 35,0 N för att rubba den.</p><p>Bestäm vilofriktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu_s=\\dfrac{35{,}0}{6{,}0\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}59\\)</p></div>",
+        "fraga": "Bestäm vilofriktionstalet med två decimaler.",
+        "t": "<p>En låda på 6,0 kg står på ett vågrätt golv. När den vågräta kraften når 35,0 N börjar lådan precis glida. Använd g = 9,82 m/s².</p><p>Bestäm vilofriktionstalet med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är N = mg = 6,0 · 9,82 = 58,92 N. Vid glidgränsen är största vilofriktionen 35,0 N.</p>\\[\\mu_s=\\frac{35{,}0}{58{,}92}\\approx0{,}59\\]</div>",
         "ledtrad": "<p>Största vilofriktionen är 35,0 N.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -42796,9 +42796,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Man fortsätter skjuta med 35,0 N och lådan får accelerationen 0,60 m/s². Bestäm glidfriktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (6,0 kg) står på ett golv. Det krävs 35,0 N för att rubba den.</p><p>Man fortsätter skjuta med 35,0 N och lådan får accelerationen 0,60 m/s². Bestäm glidfriktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=35{,}0-6{,}0\\cdot0{,}60\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu_k=\\dfrac{F_{fr}}{6{,}0\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}53\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med två decimaler.",
+        "t": "<p>En låda på 6,0 kg står på ett vågrätt golv. När den vågräta kraften når 35,0 N börjar lådan precis glida. Kraften hålls sedan kvar på 35,0 N och lådans acceleration blir 0,60 m/s² framåt. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är N = mg = 6,0 · 9,82 = 58,92 N. Under glidningen är kraftsumman ma = 6,0 · 0,60 = 3,6 N. Resten av dragkraften balanserar glidfriktionen.</p>\\[f=35{,}0-3{,}6=31{,}4\\,\\mathrm N\\]\\[\\mu_k=\\frac{31{,}4}{58{,}92}\\approx0{,}53\\]</div>",
         "ledtrad": "<p>Newtons andra lag ger friktionen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -42818,20 +42818,20 @@ window.BANK = [
     "niva": "E",
     "typ": "släde med vilo- och glidfriktion",
     "poang": "(2/0/0)",
-    "t": "<p>En flicka (tyngd 250 N) sitter i en släde (tyngd 200 N). Vilofriktionstalet är 0,18 och glidfriktionstalet 0,15.</p><ol type=\"a\"><li>Hur stor vågrät kraft krävs för att få släden att börja röra sig?</li><li>Hur stor kraft krävs för konstant fart?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}18\\cdot450\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(81\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}15\\cdot450\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(68\\) N</p></li></ol></div>",
+    "t": "<p>En flicka med tyngdkraften 250 N sitter på en släde med tyngdkraften 200 N. Marken är vågrät och dragkraften är vågrät. Vilofriktionstalet är 0,18 och glidfriktionstalet är 0,15.</p><ol type=\"a\"><li>Vilken kraft behövs vid gränsen till glidning? Svara i N.</li><li>Vilken kraft krävs för konstant fart när släden glider? Svara i N.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Normalkraften bär både flickans och slädens tyngd: N = 250 + 200 = 450 N. Vid glidgränsen balanserar dragkraften den största vilofriktionen.</p>\\[F=\\mu_sN=0{,}18\\cdot450=81\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Normalkraften är flickans och slädens sammanlagda tyngd: N = 250 + 200 = 450 N. Vid konstant fart balanserar dragkraften glidfriktionen.</p>\\[F=\\mu_kN=0{,}15\\cdot450=67{,}5\\,\\mathrm N\\]</div>",
     "id": "4.577",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilo- och glidfriktion",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      81.0,
+      81,
       67.5
     ],
     "tolerans": [
-      1.21,
-      1.01
+      0,
+      0
     ],
     "självrättning": true,
     "formaga": [
@@ -42852,13 +42852,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En flicka (tyngd 250 N) sitter i en släde (tyngd 200 N). Vilofriktionstalet är 0,18 och glidfriktionstalet 0,15.</p>",
+    "spelIntro": "<p>En flicka med tyngdkraften 250 N sitter på en släde med tyngdkraften 200 N. Marken är vågrät och dragkraften är vågrät. Vilofriktionstalet är 0,18 och glidfriktionstalet är 0,15.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor vågrät kraft behövs precis för att få släden att börja glida? Svara i N.",
-        "t": "<p>En flicka med tyngdkraften 250 N sitter på en släde med tyngdkraften 200 N. Släden står på vågrät mark och vilofriktionstalet är 0,18.</p><p>Hur stor vågrät kraft behövs precis för att få släden att börja glida? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}18\\cdot450\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(81\\) N</p></div>",
+        "fraga": "Vilken kraft behövs vid gränsen till glidning? Svara i N.",
+        "t": "<p>En flicka med tyngdkraften 250 N sitter på en släde med tyngdkraften 200 N. Marken är vågrät och dragkraften är vågrät. Vilofriktionstalet är 0,18.</p><p>Vilken kraft behövs vid gränsen till glidning? Svara i N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften bär både flickans och slädens tyngd: N = 250 + 200 = 450 N. Vid glidgränsen balanserar dragkraften den största vilofriktionen.</p>\\[F=\\mu_sN=0{,}18\\cdot450=81\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Använd vilofriktionstalet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -42867,9 +42867,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor vågrät dragkraft behövs för konstant fart? Svara i N.",
-        "t": "<p>En flicka med tyngdkraften 250 N sitter på en släde med tyngdkraften 200 N. Släden glider på vågrät mark och glidfriktionstalet är 0,15.</p><p>Hur stor vågrät dragkraft behövs för konstant fart? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}15\\cdot450\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(68\\) N</p></div>",
+        "fraga": "Vilken kraft krävs för konstant fart när släden glider? Svara i N.",
+        "t": "<p>En flicka med tyngdkraften 250 N sitter på en släde med tyngdkraften 200 N. Marken är vågrät och dragkraften är vågrät. Glidfriktionstalet är 0,15.</p><p>Vilken kraft krävs för konstant fart när släden glider? Svara i N.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är flickans och slädens sammanlagda tyngd: N = 250 + 200 = 450 N. Vid konstant fart balanserar dragkraften glidfriktionen.</p>\\[F=\\mu_kN=0{,}15\\cdot450=67{,}5\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Använd glidfriktionstalet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",

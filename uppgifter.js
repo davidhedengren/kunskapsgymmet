@@ -22960,8 +22960,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En bil med låsta hjul står parkerad i en backe som lutar 8,0°.</p>\n<ol><li>Vilket minsta friktionstal krävs för att bilen inte ska glida?</li>\n<li>Spelar bilens massa någon roll?</li>\n<li>I en andra modell är det statiska friktionstalet 0,10. Vid vilken lutning börjar bilen glida då?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Anta att bilen inte tippar och att samma statiska friktionstal gäller vid alla däck. Friktionstalet gäller här vilofriktion, alltså innan något börjar glida.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid glidgränsen i backen gäller</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin8{,}0^\\circ=\\mu mg\\cos8{,}0^\\circ\\]\\[\\mu_{\\min}=\\tan8{,}0^\\circ=0{,}141\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan finns på båda sidor och förkortas bort.</p></div><div class=\"facit-stycke\"><p>Gränsvinkeln beror därför inte på bilens massa.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(\\mu=0{,}10\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\theta=\\arctan0{,}10=5{,}71^\\circ\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Minst \\(\\mu\\approx0{,}14\\) krävs vid 8,0°. Med \\(\\mu=0{,}10\\) börjar bilen glida vid cirka \\(5{,}7^\\circ\\).</p></div>",
+    "t": "<p>En bil med låsta hjul står parkerad i en backe som lutar 8,0°.</p>\n<ol type=\"a\"><li>Vilket minsta friktionstal krävs för att bilen inte ska glida?</li>\n<li>Spelar bilens massa någon roll?</li>\n<li>I en andra modell är det vilofriktionstalet 0,10. Vid vilken lutning börjar bilen glida då?</li></ol><p></p><p>Anta att bilen inte tippar och att samma vilofriktionstal gäller vid alla däck. </p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid glidgränsen i backen gäller</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin8{,}0^\\circ=\\mu mg\\cos8{,}0^\\circ\\]\\[\\mu_{\\min}=\\tan8{,}0^\\circ\\approx0{,}141\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan finns på båda sidor och förkortas bort.</p></div><div class=\"facit-stycke\"><p>Gränsvinkeln beror därför inte på bilens massa.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(\\mu=0{,}10\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\theta=\\arctan0{,}10\\approx5{,}71^\\circ\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Minst \\(\\mu\\approx0{,}14\\) krävs vid 8,0°. Med \\(\\mu=0{,}10\\) börjar bilen glida vid cirka \\(5{,}7^\\circ\\).</p></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "begrepp",
@@ -23021,8 +23021,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "A",
     "poang": "(0/2/2)",
-    "t": "<p>En container är 2,4 m bred och 2,6 m hög med tyngdpunkten i mitten. Den står på ett lastbilsflak. Det statiska friktionstalet mellan container och flak är 0,60.</p>\n<ol><li>Vid vilken lutning på flaket börjar containern glida?</li>\n<li>Vid vilken lutning skulle den tippa, om den inte gled?</li>\n<li>Vilket sker först, och vad betyder det för hur lasten ska säkras?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Flaket lutas långsamt åt sidan, längs containerns bredd. Anta en styv container och ingen lastsäkring. Bedöm bara denna modell.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid glidgränsen är tyngdkomposanten längs flaket lika stor som maximal friktion.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin\\theta=\\mu mg\\cos\\theta\\Rightarrow\\tan\\theta=\\mu\\]\\[\\theta_{\\mathrm{glid}}=\\arctan0{,}60=31{,}0^\\circ\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tippning börjar när tyngdpunktens lodlinje passerar den nedre kanten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Halva bredden och halva höjden ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan\\theta_{\\mathrm{tipp}}=\\frac{1{,}2}{1{,}3}=\\frac{2{,}4}{2{,}6}\\]\\[\\theta_{\\mathrm{tipp}}=42{,}7^\\circ\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför gränsvinklarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[31{,}0^\\circ&lt;42{,}7^\\circ\\]</div></div><div class=\"facit-stycke\"><p>Containern börjar glida innan den tippar.</p></div><div class=\"facit-stycke\"><p>I modellen behöver en säkring hindra glidning längs flaket.</p></div><div class=\"facit-stycke\"><p>Beräkningen ensam avgör inte hur en verklig lastsäkring ska utformas.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Glidning börjar vid \\(31{,}0^\\circ\\) och tippning först vid \\(42{,}7^\\circ\\). Glidning sker alltså först.</p></div>",
+    "t": "<p>En container är 2,4 m bred och 2,6 m hög med tyngdpunkten i mitten. Den står på ett lastbilsflak. Vilofriktionstalet mellan container och flak är 0,60.</p>\n<ol type=\"a\"><li>Vid vilken lutning på flaket börjar containern glida?</li>\n<li>Vid vilken lutning skulle den tippa, om den inte gled?</li>\n<li>Vilket sker först, och vad betyder det för hur lasten ska säkras?</li></ol><p></p><p>Flaket lutas långsamt åt sidan, längs containerns bredd. Containern har ingen lastsäkring och ändrar inte form.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid glidgränsen är tyngdkomposanten längs flaket lika stor som maximal friktion.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin\\theta=\\mu mg\\cos\\theta\\Rightarrow\\tan\\theta=\\mu\\]\\[\\theta_{\\mathrm{glid}}=\\arctan0{,}60\\approx31{,}0^\\circ\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tippning börjar när tyngdpunktens lodlinje passerar den nedre kanten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Halva bredden och halva höjden ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan\\theta_{\\mathrm{tipp}}=\\frac{1{,}2}{1{,}3}=\\frac{2{,}4}{2{,}6}\\]\\[\\theta_{\\mathrm{tipp}}\\approx42{,}7^\\circ\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför gränsvinklarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[31{,}0^\\circ&lt;42{,}7^\\circ\\]</div></div><div class=\"facit-stycke\"><p>Containern börjar glida innan den tippar.</p></div><div class=\"facit-stycke\"><p>I modellen behöver en säkring hindra glidning längs flaket.</p></div><div class=\"facit-stycke\"><p>Beräkningen ensam avgör inte hur en verklig lastsäkring ska utformas.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Glidning börjar vid \\(31{,}0^\\circ\\) och tippning först vid \\(42{,}7^\\circ\\). Glidning sker alltså först.</p></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "begrepp",
@@ -23806,8 +23806,8 @@ window.BANK = [
     "niva": "C",
     "typ": "beräkna normalkraften på en kropp som ligger på ett lutande plan, ur diagram, sökt kraft",
     "poang": "(2/1/0)",
-    "t": "<p>En kloss med massan 10 kg ligger stilla på ett plan som lutar 25° mot marken.</p><span class=\"fig bred\"><svg height=\"297\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 11.142 361.586 173.259\"><polygon points=\"30,175 360,175 360,21.1185\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 82 175 A 52 52 0 0 0 77.1 153.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96.3881\" y=\"164.282\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text><g transform=\"translate(211.5,90.4) rotate(-25)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">10 kg</text></g></svg></span>\n<ol><li>Hur stor är tyngdkraften på klossen?</li>\n<li>Hur stor är normalkraften från planet?</li>\n<li>Varför är normalkraften mindre än tyngdkraften?</li></ol><p>Endast tyngdkraften och kontaktkrafterna från planet verkar på klossen. Friktionen är tillräcklig för att den ska ligga stilla. Använd g = 9,82 m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Klossens tyngdkraft är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=10\\cdot9{,}82=98{,}2\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften balanserar tyngdkomposanten vinkelrätt mot planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg\\cos25^\\circ=98{,}2\\cos25^\\circ=89{,}0\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften är inte vinkelrät mot det lutande planet.</p></div><div class=\"facit-stycke\"><p>Endast komponenten \\(mg\\cos25^\\circ\\) pressar klossen mot ytan; därför är N mindre än mg.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(98{,}2\\ \\mathrm N\\) och normalkraften cirka \\(89{,}0\\ \\mathrm N\\).</p></div>",
+    "t": "<p>En kloss med massan 10 kg ligger stilla på ett plan som lutar 25° mot marken.</p><span class=\"fig bred\"><svg height=\"297\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 11.142 361.586 173.259\"><polygon points=\"30,175 360,175 360,21.1185\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 82 175 A 52 52 0 0 0 77.1 153.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96.3881\" y=\"164.282\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text><g transform=\"translate(211.5,90.4) rotate(-25)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">10 kg</text></g></svg></span>\n<ol type=\"a\"><li>Hur stor är tyngdkraften på klossen?</li>\n<li>Hur stor är normalkraften från planet?</li>\n<li>Varför är normalkraften mindre än tyngdkraften?</li></ol><p>Bara tyngdkraft, normalkraft och vilofriktion verkar på klossen. Använd g = 9,82 m/s².</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Klossens tyngdkraft är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=10\\cdot9{,}82=98{,}2\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften balanserar tyngdkomposanten vinkelrätt mot planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg\\cos25^\\circ=98{,}2\\cos25^\\circ\\approx89{,}0\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften är inte vinkelrät mot det lutande planet.</p></div><div class=\"facit-stycke\"><p>Endast komponenten \\(mg\\cos25^\\circ\\) pressar klossen mot ytan; därför är N mindre än mg.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(98{,}2\\ \\mathrm N\\) och normalkraften cirka \\(89{,}0\\ \\mathrm N\\).</p></div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "modellering",
@@ -24260,10 +24260,10 @@ window.BANK = [
     "id": "4.45",
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En låda med massan 5,0 kg ligger stilla på ett plan som lutar 15°. Bara tyngdkraft, normalkraft och vilofriktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg></span><ol><li>Bestäm tyngdkraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm den verkliga friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften är mg = 5 · 9,82 oavsett lutningen.</p></div></div><p class=\"facit-svar\">Svaret är 49,1 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Normalkraften balanserar tyngdkomponenten vinkelrätt mot planet:</p><div class=\"facit-matte\">\\[N=5\\cdot 9{,}82 \\cos 15^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 47,43 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom lådan är stilla balanserar vilofriktionen tyngdkomponenten längs planet:</p><div class=\"facit-matte\">\\[f=5\\cdot 9{,}82 \\sin 15^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><p>Friktionen pekar uppför.</p></div></div><p class=\"facit-svar\">Svaret är 12,71 N.</p></div></div></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En låda med massan 5,0 kg ligger stilla på ett plan som lutar 15°. Bara tyngdkraft, normalkraft och vilofriktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg></span><ol type=\"a\"><li>Bestäm tyngdkraftens storlek. Svara i N. Svara med tre värdesiffror.</li><li>Bestäm normalkraften. Svara med tre värdesiffror.</li><li>Bestäm friktionskraftens storlek. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Tyngdkraften beror på massan och g, oavsett hur underlaget lutar.</p>\\[F_g=mg=5{,}0\\cdot9{,}82=49{,}1\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Lådan accelererar inte vinkelrätt mot planet. Normalkraften balanserar därför tyngdkraftens del i den riktningen.</p>\\[N=mg\\cos15^\\circ=5{,}0\\cdot9{,}82\\cos15^\\circ\\approx47{,}4\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Lådan står stilla. Friktionen uppför planet balanserar tyngdkraftens del nedför. Det är den friktion som behövs, inte den största möjliga friktionen.</p>\\[f=mg\\sin15^\\circ=5{,}0\\cdot9{,}82\\sin15^\\circ\\approx12{,}7\\,\\mathrm N\\]</div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "modellering",
@@ -24273,17 +24273,17 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       49.1,
-      47.43,
-      12.71
+      47.426958070793255,
+      12.708015114533769
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Behöver du maximal friktion, eller den friktion som håller just denna låda stilla?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -24309,10 +24309,10 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är tyngdkraften på lådan? Svara i N.",
-        "t": "<p>En låda har massan 5,0 kg. Använd g = 9,82 m/s².</p><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg><p>Hur stor är tyngdkraften på lådan? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften är mg = 5 · 9,82 oavsett lutningen.</p></div></div><p class=\"facit-svar\">Svaret är 49,1 N.</p></div>",
-        "ledtrad": "<p>Behöver du maximal friktion, eller den friktion som håller just denna låda stilla?</p>",
+        "fraga": "Hur stor är tyngdkraften på lådan? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En låda har massan 5,0 kg. Använd g = 9,82 m/s².</p><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg><p>Hur stor är tyngdkraften på lådan? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraften beror på massan och g, oavsett hur underlaget lutar.</p>\\[F_g=mg=5{,}0\\cdot9{,}82=49{,}1\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Använd F_g = mg. Lutningen ändrar inte tyngdkraften.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -24320,10 +24320,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 5,0 kg ligger stilla på ett plan som lutar 15°. Bara tyngdkraft, normalkraft och vilofriktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg></span><p>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Normalkraften balanserar tyngdkomponenten vinkelrätt mot planet:</p><div class=\"facit-matte\">\\[N=5\\cdot 9{,}82 \\cos 15^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 47,43 N.</p></div>",
-        "ledtrad": "<p>Behöver du maximal friktion, eller den friktion som håller just denna låda stilla?</p>",
+        "fraga": "Bestäm normalkraften. Svara med tre värdesiffror.",
+        "t": "<p>En låda med massan 5,0 kg ligger stilla på ett plan som lutar 15°. Bara tyngdkraft, normalkraft och vilofriktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg></span><p>Bestäm normalkraften. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lådan accelererar inte vinkelrätt mot planet. Normalkraften balanserar därför tyngdkraftens del i den riktningen.</p>\\[N=mg\\cos15^\\circ=5{,}0\\cdot9{,}82\\cos15^\\circ\\approx47{,}4\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Normalkraften balanserar tyngdkraftens del vinkelrätt mot planet.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -24331,14 +24331,14 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den verkliga friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 5,0 kg ligger stilla på ett plan som lutar 15°. Bara tyngdkraft, normalkraft och vilofriktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg></span><p>Bestäm den verkliga friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom lådan är stilla balanserar vilofriktionen tyngdkomponenten längs planet:</p><div class=\"facit-matte\">\\[f=5\\cdot 9{,}82 \\sin 15^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><p>Friktionen pekar uppför.</p></div></div><p class=\"facit-svar\">Svaret är 12,71 N.</p></div>",
+        "fraga": "Bestäm friktionskraftens storlek. Svara med tre värdesiffror.",
+        "t": "<p>En låda med massan 5,0 kg ligger stilla på ett plan som lutar 15°. Bara tyngdkraft, normalkraft och vilofriktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg></span><p>Bestäm friktionskraftens storlek. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lådan står stilla. Friktionen uppför planet balanserar tyngdkraftens del nedför. Det är den friktion som behövs, inte den största möjliga friktionen.</p>\\[f=mg\\sin15^\\circ=5{,}0\\cdot9{,}82\\sin15^\\circ\\approx12{,}7\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Behöver du maximal friktion, eller den friktion som håller just denna låda stilla?</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)"
+        "poang": "(1/0/0)"
       }
     ],
     "omrTidigare": "friktion",
@@ -24352,8 +24352,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(1/1/0)",
-    "t": "<p>En planka är 2,0 m lång. Ena änden ligger på marken. En låda på plankan börjar glida när den andra änden långsamt har höjts till 0,70 m. Anta att lådan inte tippar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"201\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.029 53.947 435.029 140.789\"><line x1=\"40\" y1=\"176\" x2=\"400\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"186\" x2=\"48\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"186\" x2=\"78\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"186\" x2=\"108\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"186\" x2=\"138\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"186\" x2=\"168\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"186\" x2=\"198\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"186\" x2=\"228\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"186\" x2=\"258\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"186\" x2=\"288\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"186\" x2=\"318\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"186\" x2=\"348\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"186\" x2=\"378\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><g transform=\"translate(80,176) rotate(-20.4873)\"><rect x=\"0\" y=\"-9\" width=\"300\" height=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"-39\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"400\" y1=\"71\" x2=\"400\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"71\" x2=\"405\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"176\" x2=\"405\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"409\" y=\"127.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70 cm</text><line x1=\"380\" y1=\"71\" x2=\"404\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"176\" x2=\"404\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"186\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg></span><ol><li>Bestäm plankans vinkel mot marken. Svara i grader. Avrunda vid behov till två decimaler.</li><li>Bestäm det statiska friktionstalet. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Plankan är hypotenusa:</p><div class=\"facit-matte\">\\[\\sin \\alpha=\\frac{0{,}70}{2{,}0}\\]</div></div></div><div class=\"facit-stycke\"><p>Därför α = arcsin 0,35.</p></div></div><p class=\"facit-svar\">Svaret är 20,49°.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid glidgränsen är</p><div class=\"facit-matte\">\\[m g \\sin \\alpha=\\mu_{\\mathrm{s}} m g \\cos \\alpha\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{s}}=\\tan \\alpha=\\frac{0{,}35}{\\sqrt{1-0{,}35^{2}}}\\]</div></div></div><div class=\"facit-stycke\"><p>Använd oavrundad vinkel.</p></div></div><p class=\"facit-svar\">Svaret är 0,37.</p></div></div></div>",
+    "t": "<p>En planka är 2,0 m lång. Ena änden ligger på marken. En låda på plankan börjar glida när den andra änden långsamt har höjts till 0,70 m. Anta att lådan inte tippar.</p><p></p><span class=\"fig\"><svg height=\"201\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.029 53.947 435.029 140.789\"><line x1=\"40\" y1=\"176\" x2=\"400\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"186\" x2=\"48\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"186\" x2=\"78\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"186\" x2=\"108\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"186\" x2=\"138\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"186\" x2=\"168\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"186\" x2=\"198\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"186\" x2=\"228\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"186\" x2=\"258\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"186\" x2=\"288\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"186\" x2=\"318\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"186\" x2=\"348\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"186\" x2=\"378\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><g transform=\"translate(80,176) rotate(-20.4873)\"><rect x=\"0\" y=\"-9\" width=\"300\" height=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"-39\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"400\" y1=\"71\" x2=\"400\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"71\" x2=\"405\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"176\" x2=\"405\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"409\" y=\"127.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70 cm</text><line x1=\"380\" y1=\"71\" x2=\"404\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"176\" x2=\"404\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"186\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg></span><ol type=\"a\"><li>Bestäm plankans vinkel mot marken. Svara med tre värdesiffror.</li><li>Bestäm vilofriktionstalet. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Plankan är den rätvinkliga triangelns hypotenusa. Höjden är motstående katet till vinkeln α.</p>\\[\\sin\\alpha=\\frac{0{,}70}{2{,}0}=0{,}35\\]\\[\\alpha=\\arcsin0{,}35\\approx20{,}5^\\circ\\]<p><strong>b)</strong></p><p>Vid gränsen till glidning balanserar den största vilofriktionen tyngdkraftens del längs plankan.</p>\\[mg\\sin\\alpha=\\mu mg\\cos\\alpha\\quad\\Rightarrow\\quad\\mu=\\tan\\alpha\\]<p>Plankans längd och höjd ger sinα = 0,70/2,0 = 0,35. Använd den oavrundade vinkeln.</p>\\[\\mu=\\tan(\\arcsin0{,}35)\\approx0{,}374\\]</div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "modellering",
@@ -24362,12 +24362,12 @@ window.BANK = [
     "familjNyckel": "friktion__vilofriktion_pa_lutande_plan",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      20.49,
-      0.37
+      20.487315114722662,
+      0.37363235887853663
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.0005
     ],
     "självrättning": true,
     "ledtrad": "<p>Hur kopplas plankans höjd till vinkeln, och vad gäller precis vid glidgränsen?</p>",
@@ -24390,13 +24390,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En planka är 2,0 m lång. Ena änden ligger på marken. En låda på plankan börjar glida när den andra änden långsamt har höjts till 0,70 m. Anta att lådan inte tippar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"201\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.029 53.947 435.029 140.789\"><line x1=\"40\" y1=\"176\" x2=\"400\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"186\" x2=\"48\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"186\" x2=\"78\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"186\" x2=\"108\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"186\" x2=\"138\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"186\" x2=\"168\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"186\" x2=\"198\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"186\" x2=\"228\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"186\" x2=\"258\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"186\" x2=\"288\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"186\" x2=\"318\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"186\" x2=\"348\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"186\" x2=\"378\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><g transform=\"translate(80,176) rotate(-20.4873)\"><rect x=\"0\" y=\"-9\" width=\"300\" height=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"-39\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"400\" y1=\"71\" x2=\"400\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"71\" x2=\"405\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"176\" x2=\"405\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"409\" y=\"127.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70 cm</text><line x1=\"380\" y1=\"71\" x2=\"404\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"176\" x2=\"404\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"186\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg></span>",
+    "spelIntro": "<p>En planka är 2,0 m lång. Ena änden ligger på marken. En låda på plankan börjar glida när den andra änden långsamt har höjts till 0,70 m. Anta att lådan inte tippar.</p><p></p><span class=\"fig\"><svg height=\"201\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.029 53.947 435.029 140.789\"><line x1=\"40\" y1=\"176\" x2=\"400\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"186\" x2=\"48\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"186\" x2=\"78\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"186\" x2=\"108\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"186\" x2=\"138\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"186\" x2=\"168\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"186\" x2=\"198\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"186\" x2=\"228\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"186\" x2=\"258\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"186\" x2=\"288\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"186\" x2=\"318\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"186\" x2=\"348\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"186\" x2=\"378\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><g transform=\"translate(80,176) rotate(-20.4873)\"><rect x=\"0\" y=\"-9\" width=\"300\" height=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"-39\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"400\" y1=\"71\" x2=\"400\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"71\" x2=\"405\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"176\" x2=\"405\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"409\" y=\"127.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70 cm</text><line x1=\"380\" y1=\"71\" x2=\"404\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"176\" x2=\"404\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"186\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm plankans vinkel mot marken. Svara i grader. Avrunda vid behov till två decimaler.",
-        "t": "<p>En planka är 2,0 m lång. Ena änden ligger på marken. En låda på plankan börjar glida när den andra änden långsamt har höjts till 0,70 m. Anta att lådan inte tippar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"201\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.029 53.947 435.029 140.789\"><line x1=\"40\" y1=\"176\" x2=\"400\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"186\" x2=\"48\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"186\" x2=\"78\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"186\" x2=\"108\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"186\" x2=\"138\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"186\" x2=\"168\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"186\" x2=\"198\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"186\" x2=\"228\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"186\" x2=\"258\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"186\" x2=\"288\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"186\" x2=\"318\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"186\" x2=\"348\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"186\" x2=\"378\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><g transform=\"translate(80,176) rotate(-20.4873)\"><rect x=\"0\" y=\"-9\" width=\"300\" height=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"-39\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"400\" y1=\"71\" x2=\"400\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"71\" x2=\"405\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"176\" x2=\"405\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"409\" y=\"127.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70 cm</text><line x1=\"380\" y1=\"71\" x2=\"404\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"176\" x2=\"404\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"186\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg></span><p>Bestäm plankans vinkel mot marken. Svara i grader. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Plankan är hypotenusa:</p><div class=\"facit-matte\">\\[\\sin \\alpha=\\frac{0{,}70}{2{,}0}\\]</div></div></div><div class=\"facit-stycke\"><p>Därför α = arcsin 0,35.</p></div></div><p class=\"facit-svar\">Svaret är 20,49°.</p></div>",
+        "fraga": "Bestäm plankans vinkel mot marken. Svara med tre värdesiffror.",
+        "t": "<p>En planka är 2,0 m lång. Ena änden ligger på marken. En låda på plankan börjar glida när den andra änden långsamt har höjts till 0,70 m. Anta att lådan inte tippar.</p><p></p><span class=\"fig\"><svg height=\"201\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.029 53.947 435.029 140.789\"><line x1=\"40\" y1=\"176\" x2=\"400\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"186\" x2=\"48\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"186\" x2=\"78\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"186\" x2=\"108\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"186\" x2=\"138\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"186\" x2=\"168\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"186\" x2=\"198\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"186\" x2=\"228\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"186\" x2=\"258\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"186\" x2=\"288\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"186\" x2=\"318\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"186\" x2=\"348\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"186\" x2=\"378\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><g transform=\"translate(80,176) rotate(-20.4873)\"><rect x=\"0\" y=\"-9\" width=\"300\" height=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"-39\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"400\" y1=\"71\" x2=\"400\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"71\" x2=\"405\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"176\" x2=\"405\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"409\" y=\"127.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70 cm</text><line x1=\"380\" y1=\"71\" x2=\"404\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"176\" x2=\"404\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"186\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg></span><p>Bestäm plankans vinkel mot marken. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Plankan är den rätvinkliga triangelns hypotenusa. Höjden är motstående katet till vinkeln α.</p>\\[\\sin\\alpha=\\frac{0{,}70}{2{,}0}=0{,}35\\]\\[\\alpha=\\arcsin0{,}35\\approx20{,}5^\\circ\\]</div>",
         "ledtrad": "<p>Hur kopplas plankans höjd till vinkeln, och vad gäller precis vid glidgränsen?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -24405,9 +24405,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm det statiska friktionstalet. Avrunda vid behov till två decimaler.",
-        "t": "<p>En planka är 2,0 m lång. Ena änden ligger på marken. En låda på plankan börjar glida när den andra änden långsamt har höjts till 0,70 m. Anta att lådan inte tippar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"201\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.029 53.947 435.029 140.789\"><line x1=\"40\" y1=\"176\" x2=\"400\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"186\" x2=\"48\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"186\" x2=\"78\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"186\" x2=\"108\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"186\" x2=\"138\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"186\" x2=\"168\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"186\" x2=\"198\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"186\" x2=\"228\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"186\" x2=\"258\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"186\" x2=\"288\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"186\" x2=\"318\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"186\" x2=\"348\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"186\" x2=\"378\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><g transform=\"translate(80,176) rotate(-20.4873)\"><rect x=\"0\" y=\"-9\" width=\"300\" height=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"-39\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"400\" y1=\"71\" x2=\"400\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"71\" x2=\"405\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"176\" x2=\"405\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"409\" y=\"127.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70 cm</text><line x1=\"380\" y1=\"71\" x2=\"404\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"176\" x2=\"404\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"186\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg></span><p>Bestäm det statiska friktionstalet. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid glidgränsen är</p><div class=\"facit-matte\">\\[m g \\sin \\alpha=\\mu_{\\mathrm{s}} m g \\cos \\alpha\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{s}}=\\tan \\alpha=\\frac{0{,}35}{\\sqrt{1-0{,}35^{2}}}\\]</div></div></div><div class=\"facit-stycke\"><p>Använd oavrundad vinkel.</p></div></div><p class=\"facit-svar\">Svaret är 0,37.</p></div>",
+        "fraga": "Bestäm vilofriktionstalet. Svara med tre värdesiffror.",
+        "t": "<p>En planka är 2,0 m lång. Ena änden ligger på marken. En låda på plankan börjar glida när den andra änden långsamt har höjts till 0,70 m. Anta att lådan inte tippar.</p><p></p><span class=\"fig\"><svg height=\"201\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.029 53.947 435.029 140.789\"><line x1=\"40\" y1=\"176\" x2=\"400\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"186\" x2=\"48\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"186\" x2=\"78\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"186\" x2=\"108\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"186\" x2=\"138\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"186\" x2=\"168\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"186\" x2=\"198\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"186\" x2=\"228\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"186\" x2=\"258\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"186\" x2=\"288\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"186\" x2=\"318\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"186\" x2=\"348\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"186\" x2=\"378\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><g transform=\"translate(80,176) rotate(-20.4873)\"><rect x=\"0\" y=\"-9\" width=\"300\" height=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"-39\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"400\" y1=\"71\" x2=\"400\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"71\" x2=\"405\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"395\" y1=\"176\" x2=\"405\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"409\" y=\"127.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70 cm</text><line x1=\"380\" y1=\"71\" x2=\"404\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"176\" x2=\"404\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"186\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg></span><p>Bestäm vilofriktionstalet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid gränsen till glidning balanserar den största vilofriktionen tyngdkraftens del längs plankan.</p>\\[mg\\sin\\alpha=\\mu mg\\cos\\alpha\\quad\\Rightarrow\\quad\\mu=\\tan\\alpha\\]<p>Plankans längd och höjd ger sinα = 0,70/2,0 = 0,35. Använd den oavrundade vinkeln.</p>\\[\\mu=\\tan(\\arcsin0{,}35)\\approx0{,}374\\]</div>",
         "ledtrad": "<p>Hur kopplas plankans höjd till vinkeln, och vad gäller precis vid glidgränsen?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -24426,8 +24426,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>En kloss med massan 5,0 kg glider nedför ett plan som lutar 25°. Friktionstalet är 0,40. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kloss på ett plan som lutar 25 grader\"><title>Kloss på ett plan som lutar 25 grader</title><polygon points=\"70,237 440,64 440,237\" fill=\"#eee6d4\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><g transform=\"translate(253 151) rotate(-25)\"><rect x=\"-39\" y=\"-42\" width=\"78\" height=\"42\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"0\" y=\"-17\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">5,0 kg</text></g><path d=\"M119 237 A49 49 0 0 0 114.4 216.3\" fill=\"none\" stroke=\"#788a99\"/><text x=\"138\" y=\"224\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25°</text><text x=\"380\" y=\"273\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">μ = 0,40</text></svg></span><p>Bestäm accelerationen med nedför planet som positiv riktning. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg cos 25° och</p><div class=\"facit-matte\">\\[f=0{,}40 N\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Newtons andra lag längs planet ger</p><div class=\"facit-matte\">\\[m a=m g \\sin 25^{\\circ}-0{,}40 m g \\cos 25^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan förkortas bort:</p><div class=\"facit-matte\">\\[a=9{,}82 \\left(\\sin 25^{\\circ}-0{,}40 \\cos 25^{\\circ}\\right)\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,59 m/s².</p></div>",
+    "t": "<p>En kloss med massan 5,0 kg glider nedför ett plan som lutar 25°. Glidfriktionstalet är 0,40. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kloss på ett plan som lutar 25 grader\"><title>Kloss på ett plan som lutar 25 grader</title><polygon points=\"70,237 440,64 440,237\" fill=\"#eee6d4\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><g transform=\"translate(253 151) rotate(-25)\"><rect x=\"-39\" y=\"-42\" width=\"78\" height=\"42\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"0\" y=\"-17\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">5,0 kg</text></g><path d=\"M119 237 A49 49 0 0 0 114.4 216.3\" fill=\"none\" stroke=\"#788a99\"/><text x=\"138\" y=\"224\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25°</text><text x=\"380\" y=\"273\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">μ = 0,40</text></svg></span><p>Bestäm accelerationen med nedför planet som positiv riktning. Svara i m/s². </p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del nedför driver klossen, medan glidfriktionen verkar uppför. Normalkraften är N = mg cos25°, så friktionen är f = 0,40mg cos25°.</p>\\[ma=mg\\sin25^\\circ-0{,}40mg\\cos25^\\circ\\]<p>Dividera med massan. Den förkortas bort.</p>\\[a=9{,}82(\\sin25^\\circ-0{,}40\\cos25^\\circ)\\approx0{,}590\\,\\mathrm{m/s^2}\\]<p>Det positiva värdet betyder att farten ökar nedför.</p></div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "modellering",
@@ -24435,8 +24435,8 @@ window.BANK = [
     ],
     "familjNyckel": "friktion__glidfriktion_pa_lutande_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.59,
-    "tolerans": 0,
+    "rättSvar": 0.5901343428137075,
+    "tolerans": 0.0005,
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktion_som_accelererande_eller_bromsande_kraft",
     "ledtrad": "<p>Vilka av krafterna har en komponent längs planet?</p>",
@@ -25164,7 +25164,7 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En hög av torr sand får i ett försök en sluttning på cirka 34°. Modellera ett ytkorn som en kloss vid glidgränsen.</p><p>a) Ta fram vilket effektivt statiskt friktionstal vinkeln motsvarar.</p><p>b) Förklara varför högens totala storlek inte ingår i modellen.</p><p>c) Nämn en begränsning med att ersätta sandkornen med en kloss.</p><p>Använd g = 9,82 m/s² om inget annat anges.</p>",
+    "t": "<p>En hög av torr sand får i ett försök en sluttning på cirka 34°. Tänk dig ett sandkorn på ytan som en liten låda på ett lutande plan.</p><p>a) Beräkna vilket vilofriktionstal vinkeln motsvarar i den modellen.</p><p>b) Påverkar sandhögens storlek beräkningen? Förklara.</p><p>c) Varför kan en sådan låda inte beskriva sandkornens rörelse helt? Ge ett exempel.</p><p></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Längs ytan behövs friktionen mg sin 34°.</p></div><div class=\"facit-stycke\"><p>Normalkraften är mg cos 34°.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid gränsen gäller μ_smg cos 34° = mg sin 34°, alltså</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{s}}=\\tan 34^{\\circ}\\approx 0{,}67\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kornets massa och g förkortas bort; modellen innehåller bara vinkeln och friktionstalet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sandkorn har flera kontaktpunkter och kan rulla eller haka i varandra.</p></div><div class=\"facit-stycke\"><p>Värdet är därför ett effektivt modellvärde, inte en exakt materialkonstant som gäller för all sand.</p></div></div></div></div></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
@@ -25194,8 +25194,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En låda med massan 15 kg har kontakt med ett plan som lutar 20°. Inga andra krafter än tyngdkraften, normalkraften och en eventuell friktionskraft verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"232\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 55.958 350.743 131.407\"><polygon points=\"60,180 380,180 380,63.53\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,119.945) rotate(-20)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.35 164.95\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"137.8\" y=\"170.28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><ol><li>Bestäm tyngdkraftens komponent längs planet. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Komponenten nedför planet är</p><div class=\"facit-matte\">\\[m g \\sin 20^{\\circ}=15\\cdot 9{,}82 \\sin 20^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 50,38 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Det finns ingen acceleration vinkelrätt mot planet, så</p><div class=\"facit-matte\">\\[N=m g \\cos 20^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 138,42 N.</p></div></div></div>",
+    "t": "<p>En låda med massan 15 kg har kontakt med ett plan som lutar 20°. Bara tyngdkraft och kontaktkrafter från planet verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"232\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 55.958 350.743 131.407\"><polygon points=\"60,180 380,180 380,63.53\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,119.945) rotate(-20)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.35 164.95\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"137.8\" y=\"170.28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><ol type=\"a\"><li>Bestäm tyngdkraftens komponent längs planet. Svara med tre värdesiffror.</li><li>Bestäm normalkraften. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vinkeln mäts mot marken. Tyngdkraftens del nedför planet fås med sinus.</p>\\[F_{g,\\parallel}=mg\\sin20^\\circ=15\\cdot9{,}82\\sin20^\\circ\\approx50{,}4\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Ingen acceleration sker vinkelrätt mot planet. Normalkraften balanserar tyngdkraftens del i den riktningen.</p>\\[N=mg\\cos20^\\circ=15\\cdot9{,}82\\cos20^\\circ\\approx138\\,\\mathrm N\\]</div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "begrepp",
@@ -25204,12 +25204,12 @@ window.BANK = [
     "familjNyckel": "friktion__kraftkomponenter",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      50.38,
-      138.42
+      50.379567111871005,
+      138.41672304176433
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.5
     ],
     "självrättning": true,
     "ledtrad": "<p>Rita tyngdkraftens komponenter längs och vinkelrätt mot planet.</p>",
@@ -25232,13 +25232,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En låda med massan 15 kg har kontakt med ett plan som lutar 20°. Inga andra krafter än tyngdkraften, normalkraften och en eventuell friktionskraft verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"232\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 55.958 350.743 131.407\"><polygon points=\"60,180 380,180 380,63.53\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,119.945) rotate(-20)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.35 164.95\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"137.8\" y=\"170.28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span>",
+    "spelIntro": "<p>En låda med massan 15 kg har kontakt med ett plan som lutar 20°. Bara tyngdkraft och kontaktkrafter från planet verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"232\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 55.958 350.743 131.407\"><polygon points=\"60,180 380,180 380,63.53\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,119.945) rotate(-20)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.35 164.95\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"137.8\" y=\"170.28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tyngdkraftens komponent längs planet. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 15 kg har kontakt med ett plan som lutar 20°. Inga andra krafter än tyngdkraften, normalkraften och en eventuell friktionskraft verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"232\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 55.958 350.743 131.407\"><polygon points=\"60,180 380,180 380,63.53\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,119.945) rotate(-20)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.35 164.95\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"137.8\" y=\"170.28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><p>Bestäm tyngdkraftens komponent längs planet. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Komponenten nedför planet är</p><div class=\"facit-matte\">\\[m g \\sin 20^{\\circ}=15\\cdot 9{,}82 \\sin 20^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 50,38 N.</p></div>",
+        "fraga": "Bestäm tyngdkraftens komponent längs planet. Svara med tre värdesiffror.",
+        "t": "<p>En låda med massan 15 kg har kontakt med ett plan som lutar 20°. Bara tyngdkraft och kontaktkrafter från planet verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"232\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 55.958 350.743 131.407\"><polygon points=\"60,180 380,180 380,63.53\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,119.945) rotate(-20)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.35 164.95\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"137.8\" y=\"170.28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><p>Bestäm tyngdkraftens komponent längs planet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vinkeln mäts mot marken. Tyngdkraftens del nedför planet fås med sinus.</p>\\[F_{g,\\parallel}=mg\\sin20^\\circ=15\\cdot9{,}82\\sin20^\\circ\\approx50{,}4\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Rita tyngdkraftens komponenter längs och vinkelrätt mot planet.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -25247,9 +25247,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 15 kg har kontakt med ett plan som lutar 20°. Inga andra krafter än tyngdkraften, normalkraften och en eventuell friktionskraft verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"232\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 55.958 350.743 131.407\"><polygon points=\"60,180 380,180 380,63.53\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,119.945) rotate(-20)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.35 164.95\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"137.8\" y=\"170.28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><p>Bestäm normalkraften. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Det finns ingen acceleration vinkelrätt mot planet, så</p><div class=\"facit-matte\">\\[N=m g \\cos 20^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 138,42 N.</p></div>",
+        "fraga": "Bestäm normalkraften. Svara med tre värdesiffror.",
+        "t": "<p>En låda med massan 15 kg har kontakt med ett plan som lutar 20°. Bara tyngdkraft och kontaktkrafter från planet verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"232\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 55.958 350.743 131.407\"><polygon points=\"60,180 380,180 380,63.53\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,119.945) rotate(-20)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.35 164.95\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"137.8\" y=\"170.28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><p>Bestäm normalkraften. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ingen acceleration sker vinkelrätt mot planet. Normalkraften balanserar tyngdkraftens del i den riktningen.</p>\\[N=mg\\cos20^\\circ=15\\cdot9{,}82\\cos20^\\circ\\approx138\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Rita tyngdkraftens komponenter längs och vinkelrätt mot planet.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -25835,8 +25835,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>Lådan i figuren väger 40 kg och dras uppför planet med en kraft F parallell med ytan.</p><span class=\"fig bred\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 68.533 350.743 118.204\"><polygon points=\"60,180 380,180 380,76.026\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,126.388) rotate(-18)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.85 166.4\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"138.03\" y=\"171.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">18°</text><line x1=\"245.09\" y1=\"104.09\" x2=\"277.43\" y2=\"93.58\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"286.94,90.49 278.85,97.95 276.01,89.21\" fill=\"#B43123\"/><text x=\"295.94\" y=\"86.49\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span>\n<ol><li>Vilka krafter verkar längs planet?</li><li>Friktionstalet är 0,30; använd samma värde vid glidgränsen och under glidning. Hur stor måste F vara för konstant fart uppför?</li>\n<li>Vilket intervall av uppåtriktade krafter F kan hålla lådan stilla?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid glidning uppför verkar F uppför, medan mg sin 18° och glidfriktionen verkar nedför.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Normalkraften är</p><div class=\"facit-matte\">\\[N=m g \\cos 18^{\\circ}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant fart kräver</p><div class=\"facit-matte\">\\[F=m g \\left(\\sin 18^{\\circ}+0{,}30 \\cos 18^{\\circ}\\right)\\approx 233{,}45\\, \\mathrm{N}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid vila kan friktionen verka åt båda håll.</p></div><div class=\"facit-stycke\"><p>Villkoret är |F − mg sin 18°| ≤ 0,30mg cos 18°.</p></div><div class=\"facit-stycke\"><p>Med m = 40 kg fås 9,31 N ≤ F ≤ 233,45 N.</p></div><div class=\"facit-stycke\"><p>Vid nedre gränsen är friktionen maximalt uppför; vid övre gränsen är den maximalt nedför.</p></div><div class=\"facit-stycke\"><p>En enda hållkraft är alltså inte det enda möjliga svaret.</p></div></div></div></div></div>",
+    "t": "<p>Lådan i figuren väger 40 kg och dras uppför planet med en kraft F parallell med ytan.</p><span class=\"fig bred\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 68.533 350.743 118.204\"><polygon points=\"60,180 380,180 380,76.026\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,126.388) rotate(-18)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 101.85 166.4\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"138.03\" y=\"171.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">18°</text><line x1=\"245.09\" y1=\"104.09\" x2=\"277.43\" y2=\"93.58\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"286.94,90.49 278.85,97.95 276.01,89.21\" fill=\"#B43123\"/><text x=\"295.94\" y=\"86.49\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span>\n<ol type=\"a\"><li>Vilka krafter verkar längs planet?</li><li>Friktionstalet är 0,30; använd samma värde vid glidgränsen och under glidning. Hur stor måste F vara för konstant fart uppför?</li>\n<li>Vilket intervall av uppåtriktade krafter F kan hålla lådan stilla?</li></ol><p>Använd g = 9,82 m/s².</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) När lådan glider uppför verkar dragkraften F uppför. Tyngdkraftens del längs planet och glidfriktionen verkar nedför. Normalkraften är</p>\\[N=40\\cdot9{,}82\\cos18^\\circ\\approx373{,}6\\,\\mathrm N\\]<p>Tyngdkraftens del nedför och friktionens storlek är</p>\\[F_{g,\\parallel}=40\\cdot9{,}82\\sin18^\\circ\\approx121{,}4\\,\\mathrm N\\]\\[f=0{,}30\\cdot40\\cdot9{,}82\\cos18^\\circ\\approx112{,}1\\,\\mathrm N\\]<p>b) Konstant fart betyder kraftbalans. Dragkraften balanserar båda krafterna nedför.</p>\\[F=40\\cdot9{,}82(\\sin18^\\circ+0{,}30\\cos18^\\circ)\\approx233\\,\\mathrm N\\]<p>c) Vid vila anpassas friktionen efter behov, upp till 0,30N. Vid minsta hållkraften hjälper den största vilofriktionen till uppför. Vid största hållkraften verkar den nedför. Använd oavrundade kraftvärden.</p>\\[F_{\\min}=40\\cdot9{,}82(\\sin18^\\circ-0{,}30\\cos18^\\circ)\\approx9{,}31\\,\\mathrm N\\]\\[F_{\\max}=40\\cdot9{,}82(\\sin18^\\circ+0{,}30\\cos18^\\circ)\\approx233\\,\\mathrm N\\]<p>Alla krafter i intervallet kan hålla lådan stilla: cirka 9,31 N ≤ F ≤ 233 N.</p></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "begrepp",
@@ -27849,8 +27849,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Det statiska friktionstalet mellan en låda och ett lutande plan är 0,28.</p>\n<ol><li>Hur stor kan planets lutning vara som störst innan lådan börjar glida?</li>\n<li>Visa att svaret inte beror på lådans massa.</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Planet höjs långsamt från vågrätt läge. Lådan kan inte tippa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid gränsen till glidning gäller</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin v=\\mu mg\\cos v\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Förkorta bort mg och lös ut vinkeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan v=\\mu=0{,}28\\]\\[v=\\arctan0{,}28=15{,}6^\\circ\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan försvinner ur ekvationen.</p></div><div class=\"facit-stycke\"><p>En tyngre låda får både större dragning nedför och större maximal friktion i samma proportion.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Största lutningen är cirka \\(15{,}6^\\circ\\), oberoende av lådans massa.</p></div>",
+    "t": "<p>Vilofriktionstalet mellan en låda och ett lutande plan är 0,28.</p>\n<ol type=\"a\"><li>Hur stor kan planets lutning vara som störst innan lådan börjar glida?</li>\n<li>Visa att svaret inte beror på lådans massa.</li></ol><p></p><p>Planet höjs långsamt från vågrätt läge. Lådan kan inte tippa.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid gränsen till glidning gäller</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin v=\\mu mg\\cos v\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Förkorta bort mg och lös ut vinkeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan v=\\mu=0{,}28\\]\\[v=\\arctan0{,}28\\approx15{,}6^\\circ\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan försvinner ur ekvationen.</p></div><div class=\"facit-stycke\"><p>En tyngre låda får både större dragning nedför och större maximal friktion i samma proportion.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Största lutningen är cirka \\(15{,}6^\\circ\\), oberoende av lådans massa.</p></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "begrepp",
@@ -27879,8 +27879,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En skidåkare åker rakt nedför en backe med lutningen 12°. Friktionstalet mellan skidor och snö är 0,080.</p>\n<ol><li>Bestäm accelerationen.</li><li>Vilken fart har åkaren efter 60 m, med start från vila?</li>\n<li>Vad skulle krävas för att åkaren skulle hålla konstant fart?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Använd friktionstalet 0,080 och bortse från luftmotstånd i a och b. I b ges åkaren nästan ingen starthastighet nedför. I c får du diskutera en ändrad friktion eller ett ytterligare motstånd.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Välj nedför som positivt.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg cos 12°, så</p><div class=\"facit-matte\">\\[a=g \\left(\\sin 12^{\\circ}-0{,}080 \\cos 12^{\\circ}\\right)\\approx 1{,}27326\\, \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-stycke\"><p>Avrundat: 1,27 m/s².</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Använd det oavrundade accelerationsvärdet</p><div class=\"facit-matte\">\\[i v^{2}=2 a s\\]</div></div></div><div class=\"facit-stycke\"><p>Farten efter 60 m är cirka 12,36 m/s, det vill säga 12,4 m/s med en decimal.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Konstant fart kräver att den sammanlagda motkraften är mg sin 12°.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Om bara glidfriktionen ändras krävs</p><div class=\"facit-matte\">\\[\\mu_{\\mathrm{k}}=\\tan 12^{\\circ}\\approx 0{,}213\\]</div></div></div><div class=\"facit-stycke\"><p>Med det ursprungliga friktionstalet kan ett extra motstånd i stället balansera överskottet; något sådant finns inte i modellen i a och b.</p></div></div></div></div></div>",
+    "t": "<p>En skidåkare glider nedför en backe som lutar 12°. Glidfriktionstalet mellan skidor och snö är 0,080. Bortse från luftmotståndet i a) och b). Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm accelerationen nedför backen i m/s² med tre värdesiffror.</li><li>Åkaren startar från vila. Vilken fart har åkaren efter 60 m? Svara i m/s med tre värdesiffror.</li><li>Vad behöver ändras för att åkaren ska glida med konstant fart? Diskutera en ändrad friktion eller ett extra motstånd.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Tyngdkraftens del längs backen driver nedför och friktionen bromsar uppför. Normalkraften är mg cos12°. Efter division med massan får vi</p>\\[\\begin{aligned}a&=g(\\sin12^\\circ-0{,}080\\cos12^\\circ)\\\\ &\\approx1{,}27\\,\\mathrm{m/s^2}\\end{aligned}\\]<p><strong>b)</strong> Åkaren startar från vila. Använd den oavrundade accelerationen i v² = 2as.</p>\\[\\begin{aligned}a&=9{,}82(\\sin12^\\circ-0{,}080\\cos12^\\circ)\\\\ &\\approx1{,}27326\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Med oavrundad acceleration blir</p>\\[v=\\sqrt{2a\\cdot60}\\approx12{,}4\\,\\mathrm{m/s}\\]<p><strong>c)</strong> Vid konstant fart måste krafterna längs backen balansera varandra. Med enbart friktion blir villkoret</p>\\[\\begin{aligned}mg\\sin12^\\circ&=\\mu mg\\cos12^\\circ\\\\ &\\Rightarrow \\mu\\\\ &=\\tan12^\\circ\\\\ &\\approx0{,}213\\end{aligned}\\]<p>Ett större friktionstal, cirka 0,213, skulle alltså ge konstant fart. Med friktionstalet 0,080 krävs i stället en extra motståndskraft som balanserar den återstående kraften nedför.</p></div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "begrepp",
@@ -27901,7 +27901,8 @@ window.BANK = [
     "omrTidigare": "friktion",
     "familjTidigare": [
       "Glidfriktion på lutande plan"
-    ]
+    ],
+    "spelIntro": "<p>En skidåkare glider nedför en backe som lutar 12°. Glidfriktionstalet mellan skidor och snö är 0,080. Bortse från luftmotståndet i a) och b). Använd g = 9,82 m/s².</p>"
   },
   {
     "id": "4.391",
@@ -28209,8 +28210,8 @@ window.BANK = [
     "niva": "E",
     "typ": "analysera glidning på lutande plan med friktion",
     "poang": "(2/0/0)",
-    "t": "<p>En kloss glider nedför ett plan som lutar 30°. Friktionstalet är 0,17. Använd sambandet \\(a=g(\\sin\\alpha-\\mu_k\\cos\\alpha)\\), där nedför är positivt.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Sätt α = 30° och μ_k = 0,17:</p><div class=\"facit-matte\">\\[a=9{,}82 \\left(\\sin 30^{\\circ}-0{,}17 \\cos 30^{\\circ}\\right)\\]</div></div></div><div class=\"facit-stycke\"><p>Den positiva accelerationen ökar farten nedför.</p></div></div><p class=\"facit-svar\">Svaret är 3,46 m/s².</p></div>",
+    "t": "<p>En kloss glider nedför ett plan som lutar 30°. Friktionstalet är 0,17. Använd sambandet \\(a=g(\\sin\\alpha-\\mu_k\\cos\\alpha)\\), där nedför är positivt.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen. Svara i m/s². </p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sätt in lutningen 30° och glidfriktionstalet 0,17 i det givna sambandet.</p>\\[a=9{,}82(\\sin30^\\circ-0{,}17\\cos30^\\circ)\\approx3{,}46\\,\\mathrm{m/s^2}\\]<p>Accelerationen är positiv nedför planet, så farten ökar.</p></div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "begrepp",
@@ -28218,8 +28219,8 @@ window.BANK = [
     ],
     "familjNyckel": "friktion__glidfriktion_pa_lutande_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.46,
-    "tolerans": 0,
+    "rättSvar": 3.464257190922258,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -28410,8 +28411,8 @@ window.BANK = [
     "niva": "C",
     "typ": "avgöra om en kropp glider genom att jämföra drivande komposant med maximal friktionskraft, ur diagram, sökt kraft och bedömning",
     "poang": "(1/2/0)",
-    "t": "<p>En låda med massan 12 kg ligger på ett plan som lutar 15°. Det statiska friktionstalet är 0,45.</p><span class=\"fig bred\"><svg height=\"173\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 80.223 361.586 100.836\"><polygon points=\"30,175 360,175 360,86.5768\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 82 175 A 52 52 0 0 0 80.2 161.5\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"97.4183\" y=\"170.124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">15°</text><g transform=\"translate(228.0,121.9) rotate(-15)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text></g></svg></span>\n<ol><li>Hur stor är tyngdkraftens komposant längs planet?</li>\n<li>Hur stor kan friktionskraften som mest bli?</li>\n<li>Ligger lådan stilla eller glider den?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Lådan släpps försiktigt från vila. Bortse från tippning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkomposanten nedför planet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{g,\\parallel}=12\\cdot9{,}82\\sin15^\\circ=30{,}5\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna normalkraft och maximal statisk friktion.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=12\\cdot9{,}82\\cos15^\\circ=113{,}8\\ \\mathrm N\\]\\[f_{s,\\max}=0{,}45\\cdot113{,}8=51{,}2\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den friktion som behövs, 30,5 N, är mindre än maxvärdet.</p></div><div class=\"facit-stycke\"><p>Lådan ligger stilla.</p></div><div class=\"facit-stycke\"><p>Den verkliga statiska friktionen är 30,5 N, inte 51,2 N.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkomposanten är \\(30{,}5\\ \\mathrm N\\) och maximal friktion \\(51{,}2\\ \\mathrm N\\). Lådan ligger stilla.</p></div>",
+    "t": "<p>En låda med massan 12 kg ligger på ett plan som lutar 15°. Vilofriktionstalet är 0,45.</p><span class=\"fig bred\"><svg height=\"173\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 80.223 361.586 100.836\"><polygon points=\"30,175 360,175 360,86.5768\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 82 175 A 52 52 0 0 0 80.2 161.5\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"97.4183\" y=\"170.124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">15°</text><g transform=\"translate(228.0,121.9) rotate(-15)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text></g></svg></span>\n<ol type=\"a\"><li>Hur stor är tyngdkraftens del längs planet?</li>\n<li>Hur stor kan friktionskraften som mest bli?</li>\n<li>Ligger lådan stilla eller glider den?</li></ol><p>Använd g = 9,82 m/s².</p><p>Lådan släpps försiktigt från vila. Bortse från tippning.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Tyngdkraftens del nedför planet är</p>\\[F_{g,\\parallel}=12\\cdot9{,}82\\sin15^\\circ\\approx30{,}5\\,\\mathrm N\\]<p>b) Normalkraften balanserar tyngdkraftens del vinkelrätt mot planet.</p>\\[N=12\\cdot9{,}82\\cos15^\\circ\\approx113{,}8\\,\\mathrm N\\]<p>Den största vilofriktionen är μN. Använd oavrundad normalkraft.</p>\\[f_{\\max}=0{,}45\\cdot12\\cdot9{,}82\\cos15^\\circ\\approx51{,}2\\,\\mathrm N\\]<p>c) Den friktion som behövs, cirka 30,5 N, är mindre än maxvärdet 51,2 N. Lådan ligger därför stilla. Den verkliga friktionen är 30,5 N uppför, inte 51,2 N.</p></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "begrepp",
@@ -28637,8 +28638,8 @@ window.BANK = [
     "niva": "C",
     "typ": "analysera glidning på lutande plan med friktion",
     "poang": "(0/2/0)",
-    "t": "<p>En kloss glider uppför ett plan som lutar 15°. Friktionstalet är 0,19. Inga andra krafter än tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen med uppför planet som positiv riktning. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid uppåtrörelse pekar både tyngdkomponenten och friktionen nedför.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg cos 15° och</p><div class=\"facit-matte\">\\[m a=-m g \\sin 15^{\\circ}-0{,}19 m g \\cos 15^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[a=-g \\left(\\sin 15^{\\circ}+0{,}19 \\cos 15^{\\circ}\\right)\\]</div></div></div></div><p class=\"facit-svar\">Svaret är -4,34 m/s².</p></div>",
+    "t": "<p>En kloss glider uppför ett plan som lutar 15°. Friktionstalet är 0,19. Inga andra krafter än tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen med uppför planet som positiv riktning. Svara i m/s². </p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossen glider uppför. Både tyngdkraftens del längs planet och glidfriktionen verkar då nedför. Eftersom uppför är positivt är båda kraftdelarna negativa.</p>\\[ma=-mg\\sin15^\\circ-0{,}19mg\\cos15^\\circ\\]\\[a=-9{,}82(\\sin15^\\circ+0{,}19\\cos15^\\circ)\\approx-4{,}34\\,\\mathrm{m/s^2}\\]<p>Minustecknet betyder acceleration nedför, vilket bromsar rörelsen uppför.</p></div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "modellering",
@@ -28646,8 +28647,8 @@ window.BANK = [
     ],
     "familjNyckel": "friktion__glidfriktion_pa_lutande_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": -4.34,
-    "tolerans": 0,
+    "rättSvar": -4.343827429596898,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -28758,7 +28759,7 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "A",
     "poang": "(0/2/3)",
-    "t": "<p>En kloss kan glida längs ett plan med vinkeln α, där 0 &lt; α &lt; 90°. Friktionstalet är μ. Använd samma värde vid glidgränsen och under glidning. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>a) Ta fram accelerationen med nedför som positiv riktning när klossen glider nedför.</p><p>b) Ta fram motsvarande uttryck när klossen glider uppför.</p><p>c) Förklara varför inget av dessa uttryck automatiskt kan användas för en kloss som ligger stilla. Ange villkoret för att den ska kunna ligga kvar.</p><p>Använd g = 9,82 m/s² om inget annat anges.</p>",
+    "t": "<p>En kloss kan glida längs ett plan med vinkeln α, där 0 &lt; α &lt; 90°. Friktionstalet är μ. Använd samma värde vid glidgränsen och under glidning. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>a) Ta fram accelerationen med nedför som positiv riktning när klossen glider nedför.</p><p>b) Ta fram motsvarande uttryck när klossen glider uppför.</p><p>c) Förklara varför inget av dessa uttryck automatiskt kan användas för en kloss som ligger stilla. Ange villkoret för att den ska kunna ligga kvar.</p><p>Använd g = 9,82 m/s².</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vinkelrätt mot planet är</p><div class=\"facit-matte\">\\[N=m g \\cos \\alpha\\]</div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid nedåtrörelse är friktionen uppför, så</p><div class=\"facit-matte\">\\[m a=m g \\sin \\alpha-\\mu m g \\cos \\alpha\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därmed</p><div class=\"facit-matte\">\\[a=g \\left(\\sin \\alpha-\\mu \\cos \\alpha\\right)\\]</div></div></div><div class=\"facit-stycke\"><p>Ett negativt värde betyder att nedåtrörelsen bromsas.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid uppåtrörelse är även friktionen nedför: a = g(sin α + μ cos α), med samma positiva riktning nedför.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid vila anpassas friktionen efter behov.</p></div><div class=\"facit-stycke\"><p>Den behöver vara mg sin α uppför, vilket är möjligt om mg sin α ≤ μmg cos α, alltså tan α ≤ μ.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är</p><div class=\"facit-matte\">\\[a=0\\]</div></div></div><div class=\"facit-stycke\"><p>Om villkoret inte uppfylls börjar klossen glida; därefter används μ och rätt glidriktning.</p></div></div></div></div></div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
@@ -28789,8 +28790,8 @@ window.BANK = [
     "niva": "C",
     "typ": "analysera glidning på lutande plan med friktion",
     "poang": "(0/2/0)",
-    "t": "<p>En kloss glider nedför ett plan som lutar 18°. Accelerationen är 1,0 m/s² nedför. Bara tyngdkraft, normalkraft och glidfriktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionstalet. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Längs planet gäller</p><div class=\"facit-matte\">\\[a=g \\left(\\sin 18^{\\circ}-\\mu_{\\mathrm{k}} \\cos 18^{\\circ}\\right)\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lös</p><div class=\"facit-matte\">\\[u t \\mu_{\\mathrm{k}}=\\frac{\\left(\\sin 18^{\\circ}-\\frac{a}{g}\\right)}{\\cos 18^{\\circ}}\\]</div></div></div><div class=\"facit-stycke\"><p>En kontroll är att friktionen sänker accelerationen jämfört med g sin 18°.</p></div></div><p class=\"facit-svar\">Svaret är 0,22.</p></div>",
+    "t": "<p>En kloss glider nedför ett plan som lutar 18°. Accelerationen är 1,0 m/s² nedför. Bara tyngdkraft, normalkraft och glidfriktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionstalet. </p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs planet driver nedför, medan friktionen bromsar. Newtons andra lag ger</p>\\[ma=mg\\sin18^\\circ-\\mu mg\\cos18^\\circ\\]<p>Dividera med m och samla termen med μ.</p>\\[\\mu g\\cos18^\\circ=g\\sin18^\\circ-a\\]\\[\\mu=\\frac{\\sin18^\\circ-a/g}{\\cos18^\\circ}=\\frac{\\sin18^\\circ-1{,}0/9{,}82}{\\cos18^\\circ}\\approx0{,}218\\]</div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "modellering",
@@ -28798,8 +28799,8 @@ window.BANK = [
     ],
     "familjNyckel": "friktion__glidfriktion_pa_lutande_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.22,
-    "tolerans": 0,
+    "rättSvar": 0.21784614997646362,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -28940,8 +28941,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Friktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm tyngdkraftens komponent längs planet. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm dragkraften. Svara i N. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Komponenten nedför är mg sin 15°.</p></div></div><p class=\"facit-svar\">Svaret är 76,25 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dragkraften är parallell med planet och ändrar inte</p><div class=\"facit-matte\">\\[N=m g \\cos 15^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[f=0{,}25 m g \\cos 15^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 71,14 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Både friktionen och tyngdkomponenten pekar nedför.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">För konstant fart måste</p><div class=\"facit-matte\">\\[F=m g \\sin 15^{\\circ}+0{,}25 m g \\cos 15^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><p>Räkna med oavrundade komponenter.</p></div></div><p class=\"facit-svar\">Svaret är 147,39 N.</p></div></div></div>",
+    "t": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Glidfriktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm tyngdkraftens komponent längs planet. Svara med tre värdesiffror.</li><li>Bestäm friktionskraftens storlek. Svara med tre värdesiffror.</li><li>Bestäm dragkraften. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Tyngdkraftens del nedför planet fås med sinus.</p>\\[F_{g,\\parallel}=30\\cdot9{,}82\\sin15^\\circ\\approx76{,}2\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Dragkraften verkar längs planet och ändrar inte normalkraften. Normalkraften är N = 30 · 9,82 cos15° ≈ 284,56 N. Glidfriktionen är μN.</p>\\[f=0{,}25\\cdot30\\cdot9{,}82\\cos15^\\circ\\approx71{,}1\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Vid konstant fart är kraftsumman noll. Dragkraften uppför måste därför balansera både tyngdkraftens del längs planet och glidfriktionen nedför.</p>\\[F=mg\\sin15^\\circ+\\mu mg\\cos15^\\circ\\]\\[F=30\\cdot9{,}82(\\sin15^\\circ+0{,}25\\cos15^\\circ)\\approx147\\,\\mathrm N\\]</div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "modellering",
@@ -28950,14 +28951,14 @@ window.BANK = [
     "familjNyckel": "friktion__glidfriktion_pa_lutande_plan",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      76.25,
-      71.14,
-      147.39
+      76.24809068720262,
+      71.14043710618989,
+      147.38852779339248
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.05,
+      0.05,
+      0.5
     ],
     "självrättning": true,
     "familjNyckelTidigare": "friktion__friktionskraft_och_friktionstal",
@@ -28984,13 +28985,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Friktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Glidfriktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tyngdkraftens komponent längs planet. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Friktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tyngdkraftens komponent längs planet. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Komponenten nedför är mg sin 15°.</p></div></div><p class=\"facit-svar\">Svaret är 76,25 N.</p></div>",
+        "fraga": "Bestäm tyngdkraftens komponent längs planet. Svara med tre värdesiffror.",
+        "t": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Glidfriktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tyngdkraftens komponent längs planet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del nedför planet fås med sinus.</p>\\[F_{g,\\parallel}=30\\cdot9{,}82\\sin15^\\circ\\approx76{,}2\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilka krafter motverkar rörelsen uppför?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -28999,9 +29000,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Friktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dragkraften är parallell med planet och ändrar inte</p><div class=\"facit-matte\">\\[N=m g \\cos 15^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[f=0{,}25 m g \\cos 15^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 71,14 N.</p></div>",
+        "fraga": "Bestäm friktionskraftens storlek. Svara med tre värdesiffror.",
+        "t": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Glidfriktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionskraftens storlek. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften verkar längs planet och ändrar inte normalkraften. Normalkraften är N = 30 · 9,82 cos15° ≈ 284,56 N. Glidfriktionen är μN.</p>\\[f=0{,}25\\cdot30\\cdot9{,}82\\cos15^\\circ\\approx71{,}1\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilka krafter motverkar rörelsen uppför?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -29010,9 +29011,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm dragkraften. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Friktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm dragkraften. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Både friktionen och tyngdkomponenten pekar nedför.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">För konstant fart måste</p><div class=\"facit-matte\">\\[F=m g \\sin 15^{\\circ}+0{,}25 m g \\cos 15^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><p>Räkna med oavrundade komponenter.</p></div></div><p class=\"facit-svar\">Svaret är 147,39 N.</p></div>",
+        "fraga": "Bestäm dragkraften. Svara med tre värdesiffror.",
+        "t": "<p>En låda med massan 30 kg dras parallellt med ett plan som lutar 15°. Lådan glider uppför med konstant fart. Glidfriktionstalet är 0,25.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm dragkraften. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är kraftsumman noll. Dragkraften uppför måste därför balansera både tyngdkraftens del längs planet och glidfriktionen nedför.</p>\\[F=mg\\sin15^\\circ+\\mu mg\\cos15^\\circ\\]\\[F=30\\cdot9{,}82(\\sin15^\\circ+0{,}25\\cos15^\\circ)\\approx147\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilka krafter motverkar rörelsen uppför?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -29063,8 +29064,8 @@ window.BANK = [
     "niva": "C",
     "typ": "jämföra tyngdkraftens komposant med maximal friktionskraft på lutande plan, ur diagram, sökt kraft och bedömning",
     "poang": "(1/2/0)",
-    "t": "<p>En kloss med massan 8,0 kg ligger på ett plan som lutar 20° mot marken. Det statiska friktionstalet mellan klossen och planet är 0,25.</p><span class=\"fig bred\"><svg height=\"233\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 46.797 361.586 135.933\"><polygon points=\"30,175 360,175 360,54.8898\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 82 175 A 52 52 0 0 0 78.9 157.2\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96.9669\" y=\"167.192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">20°</text><g transform=\"translate(234.6,100.5) rotate(-20)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">8,0 kg</text></g></svg></span>\n<ol><li>Hur stor är normalkraften på klossen?</li>\n<li>Hur stor kan friktionskraften som mest bli?</li>\n<li>Hur stor är tyngdkraftens komposant längs planet?</li>\n<li>Glider klossen? Motivera.</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Klossen släpps försiktigt från vila och kan inte tippa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften är tyngdkraftens vinkelräta komposant.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=8{,}0\\cdot9{,}82\\cos20^\\circ=73{,}8\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Största statiska friktionen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_{s,\\max}=0{,}25\\cdot73{,}8=18{,}45\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkomposanten längs planet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{g,\\parallel}=8{,}0\\cdot9{,}82\\sin20^\\circ=26{,}9\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför krafterna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[26{,}9&gt;18{,}45\\]</div></div><div class=\"facit-stycke\"><p>Friktionen räcker inte till, så klossen glider nedför.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(N=73{,}8\\ \\mathrm N\\), \\(f_{s,\\max}=18{,}5\\ \\mathrm N\\), och klossen glider eftersom den drivande komposanten är \\(26{,}9\\ \\mathrm N\\).</p></div>",
+    "t": "<p>En kloss med massan 8,0 kg ligger på ett plan som lutar 20° mot marken. Vilofriktionstalet mellan klossen och planet är 0,25.</p><span class=\"fig bred\"><svg height=\"233\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 46.797 361.586 135.933\"><polygon points=\"30,175 360,175 360,54.8898\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 82 175 A 52 52 0 0 0 78.9 157.2\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96.9669\" y=\"167.192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">20°</text><g transform=\"translate(234.6,100.5) rotate(-20)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">8,0 kg</text></g></svg></span>\n<ol type=\"a\"><li>Hur stor är normalkraften på klossen?</li>\n<li>Hur stor kan friktionskraften som mest bli?</li>\n<li>Hur stor är tyngdkraftens del längs planet?</li>\n<li>Glider klossen? Motivera.</li></ol><p>Använd g = 9,82 m/s².</p><p>Klossen släpps försiktigt från vila och kan inte tippa.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Normalkraften balanserar tyngdkraftens del vinkelrätt mot planet.</p>\\[N=8{,}0\\cdot9{,}82\\cos20^\\circ\\approx73{,}8\\,\\mathrm N\\]<p>b) Den största vilofriktionen är μN. Använd oavrundad normalkraft.</p>\\[f_{\\max}=0{,}25\\cdot8{,}0\\cdot9{,}82\\cos20^\\circ\\approx18{,}5\\,\\mathrm N\\]<p>c) Tyngdkraftens del nedför planet är</p>\\[F_{g,\\parallel}=8{,}0\\cdot9{,}82\\sin20^\\circ\\approx26{,}9\\,\\mathrm N\\]<p>d) Kraften nedför, 26,9 N, är större än den största vilofriktionen 18,5 N. Friktionen kan alltså inte hålla klossen stilla. Klossen börjar glida nedför.</p></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "begrepp",
@@ -29514,7 +29515,7 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En skidåkare glider nedför en lutning på 30°. Skidorna är väl vaxade (låg friktion).</p><span class=\"fig\"><svg height=\"295\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"8.143 7.050 311.057 183.307\"><polygon points=\"25,180 305,180 305,18.3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 71 180 A 46 46 0 0 0 64.8 157.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"87\" y=\"167\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">30°</text><g transform=\"translate(165,99.1) rotate(-30)\"><rect x=\"-34\" y=\"-5\" width=\"62\" height=\"5\" rx=\"2.5\" fill=\"#2B2527\"/><path d=\"M -33,-3 C -41,-4 -45,-8 -44,-13\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"2\" y1=\"-33\" x2=\"17\" y2=\"0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"6\" y1=\"-5\" x2=\"-6\" y2=\"-26\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-26\" x2=\"-15\" y2=\"-44\" stroke=\"#2B2527\" stroke-width=\"3.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-38\" x2=\"2\" y2=\"-33\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"-20\" cy=\"-51\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-6\" cy=\"-30\" r=\"3.5\" fill=\"#2B2527\"/></g></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på åkaren. Märk upp krafternas namn och riktningar.</p><ol><li>Vilka tre krafter verkar på åkaren?</li><li>Åt vilket håll pekar normalkraften, och varför inte rakt uppåt?</li></ol><p>Bortse från luftmotståndet. Frilägg åkaren tillsammans med skidorna.</p>",
+    "t": "<p>En skidåkare glider nedför en lutning på 30°. Skidorna är väl vaxade (låg friktion).</p><span class=\"fig\"><svg height=\"295\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"8.143 7.050 311.057 183.307\"><polygon points=\"25,180 305,180 305,18.3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 71 180 A 46 46 0 0 0 64.8 157.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"87\" y=\"167\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">30°</text><g transform=\"translate(165,99.1) rotate(-30)\"><rect x=\"-34\" y=\"-5\" width=\"62\" height=\"5\" rx=\"2.5\" fill=\"#2B2527\"/><path d=\"M -33,-3 C -41,-4 -45,-8 -44,-13\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"2\" y1=\"-33\" x2=\"17\" y2=\"0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"6\" y1=\"-5\" x2=\"-6\" y2=\"-26\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-26\" x2=\"-15\" y2=\"-44\" stroke=\"#2B2527\" stroke-width=\"3.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-38\" x2=\"2\" y2=\"-33\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"-20\" cy=\"-51\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-6\" cy=\"-30\" r=\"3.5\" fill=\"#2B2527\"/></g></svg></span><p>Rita och namnge krafterna på åkaren och skidorna tillsammans.</p><ol type=\"a\"><li>Vilka tre krafter verkar på åkaren?</li><li>Åt vilket håll pekar normalkraften, och varför inte rakt uppåt?</li></ol><p>Bortse från luftmotståndet. </p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig\"><svg height=\"295\" width=\"500\" role=\"img\" aria-label=\"Skidåkare på lutning med tyngdkraft, normalkraft och friktion ritade på hela situationen.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"8.143 7.050 311.057 183.307\"><polygon points=\"25,180 305,180 305,18.3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 71 180 A 46 46 0 0 0 64.8 157.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"87\" y=\"167\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">30°</text><g transform=\"translate(165,99.1) rotate(-30)\"><rect x=\"-34\" y=\"-5\" width=\"62\" height=\"5\" rx=\"2.5\" fill=\"#2B2527\"/><path d=\"M -33,-3 C -41,-4 -45,-8 -44,-13\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"2\" y1=\"-33\" x2=\"17\" y2=\"0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"6\" y1=\"-5\" x2=\"-6\" y2=\"-26\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-26\" x2=\"-15\" y2=\"-44\" stroke=\"#2B2527\" stroke-width=\"3.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-38\" x2=\"2\" y2=\"-33\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"-20\" cy=\"-51\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-6\" cy=\"-30\" r=\"3.5\" fill=\"#2B2527\"/></g><defs><marker id=\"situationspil-4-132\" markerWidth=\"7.6\" markerHeight=\"7.6\" refX=\"6.69\" refY=\"3.8\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L7.6,3.8 L0,7.6 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"145\" y1=\"76\" x2=\"145\" y2=\"145\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-132)\"/><circle cx=\"145\" cy=\"76\" r=\"2.28\" fill=\"#B43123\"/><text x=\"152.6\" y=\"159.25\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><line x1=\"153\" y1=\"106\" x2=\"123\" y2=\"54\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-132)\"/><circle cx=\"153\" cy=\"106\" r=\"2.28\" fill=\"#B43123\"/><text x=\"115.4\" y=\"47.35\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"175\" y1=\"94\" x2=\"220\" y2=\"68\" stroke=\"#B43123\" stroke-width=\"2.09\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-132)\"/><circle cx=\"175\" cy=\"94\" r=\"2.28\" fill=\"#B43123\"/><text x=\"227.6\" y=\"61.35\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.45\" font-weight=\"600\" fill=\"#B43123\">f</text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är tyngdkraften lodrätt nedåt, normalkraften vinkelrätt från underlaget och friktionen uppför backen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En normalkraft är per definition vinkelrät mot kontaktytan.</p></div><div class=\"facit-stycke\"><p>Eftersom underlaget lutar 30° kan normalkraften inte peka lodrätt uppåt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften pekar 90° från backens yta, och friktionen pekar uppför backen.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt.</p></div><div class=\"facit-stycke\"><p>Belopp och jämförelser framgår av lösningen.</p></div></div></div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
@@ -29529,7 +29530,7 @@ window.BANK = [
     "spel": false,
     "familjNyckelTidigare": "ritakrafter__frilaggning_pa_lutande_plan",
     "ledtrad": "<p>Vilka krafter kommer från jorden respektive kontakten mellan skidor och snö?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -30113,7 +30114,7 @@ window.BANK = [
     "niva": "C",
     "typ": "Frilägga på lutande plan",
     "poang": "(1/2/0)",
-    "t": "<p>En låda ligger stilla på ett lutande plan.</p><span class=\"fig bred\"><svg height=\"297\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 11.142 361.586 173.259\"><polygon points=\"30,175 360,175 360,21.1\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(178.5,105.7) rotate(-25)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">låda</text></g><path d=\"M 82 175 A 52 52 0 0 0 77.1 153.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96\" y=\"163\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på den markerade kroppen. Märk ut varje kraft med namn och rita pilen från rätt angreppspunkt.</p>\n<ol><li>Vilka tre krafter verkar på lådan?</li><li>Åt vilket håll pekar friktionskraften?</li>\n<li>Är normalkraften lika stor som tyngdkraften? Motivera.</li></ol><p>Planet lutar 25° som i figuren. Endast tyngdkraft och kontaktkrafter från planet verkar.</p>",
+    "t": "<p>En låda ligger stilla på ett lutande plan.</p><span class=\"fig bred\"><svg height=\"297\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 11.142 361.586 173.259\"><polygon points=\"30,175 360,175 360,21.1\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(178.5,105.7) rotate(-25)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">låda</text></g><path d=\"M 82 175 A 52 52 0 0 0 77.1 153.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96\" y=\"163\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text></svg></span><p>Rita och namnge krafterna på lådan.</p>\n<ol type=\"a\"><li>Vilka tre krafter verkar på lådan?</li><li>Åt vilket håll pekar friktionskraften?</li>\n<li>Är normalkraften lika stor som tyngdkraften? Motivera.</li></ol><p>Planet lutar 25° som i figuren. Endast tyngdkraft och kontaktkrafter från planet verkar.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig bred\"><svg height=\"297\" width=\"620\" role=\"img\" aria-label=\"Låda på lutande plan med tyngdkraft från tyngdpunkten samt normal- och friktionskraft från kontaktytan.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 11.142 361.586 173.259\"><polygon points=\"30,175 360,175 360,21.1\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(178.5,105.7) rotate(-25)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">låda</text></g><path d=\"M 82 175 A 52 52 0 0 0 77.1 153.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96\" y=\"163\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text><defs><marker id=\"situationspil-4-144\" markerWidth=\"7.8\" markerHeight=\"7.8\" refX=\"6.86\" refY=\"3.9\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L7.8,3.9 L0,7.8 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"172\" y1=\"92\" x2=\"172\" y2=\"152\" stroke=\"#B43123\" stroke-width=\"2.15\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-144)\"/><circle cx=\"172\" cy=\"92\" r=\"2.34\" fill=\"#B43123\"/><text x=\"179.8\" y=\"166.63\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.72\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><line x1=\"170\" y1=\"110\" x2=\"147\" y2=\"60\" stroke=\"#B43123\" stroke-width=\"2.15\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-144)\"/><circle cx=\"170\" cy=\"110\" r=\"2.34\" fill=\"#B43123\"/><text x=\"139.2\" y=\"53.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.72\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"190\" y1=\"101\" x2=\"240\" y2=\"78\" stroke=\"#B43123\" stroke-width=\"2.15\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-144)\"/><circle cx=\"190\" cy=\"101\" r=\"2.34\" fill=\"#B43123\"/><text x=\"247.8\" y=\"71.17\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.72\" font-weight=\"600\" fill=\"#B43123\">f</text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften pekar lodrätt nedåt, normalkraften vinkelrätt från planet och den statiska friktionen längs planet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Utan friktion skulle klossen börja glida nedför planet.</p></div><div class=\"facit-stycke\"><p>Friktionen pekar därför uppför planet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften balanserar bara tyngdkraftens vinkelräta komposant.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg\\cos25^\\circ\\approx0{,}906mg\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är mindre än tyngdkraften och friktionen pekar uppför planet.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt.</p></div><div class=\"facit-stycke\"><p>Belopp och jämförelser framgår av lösningen.</p></div></div></div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
@@ -30128,7 +30129,7 @@ window.BANK = [
     "spel": false,
     "familjNyckelTidigare": "ritakrafter__frilaggning_pa_lutande_plan",
     "ledtrad": "<p>Vilken del av tyngdkraften är vinkelrät mot underlaget?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -30145,7 +30146,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Frilägga vid glidning",
     "poang": "(2/0/0)",
-    "t": "<p>En låda har skjutits uppför ett strävt lutande plan och glider nu uppför utan kontakt med handen. Bortse från luftmotståndet. Rita ett friläggningsdiagram och namnge alla yttre krafter på lådan. Ange glidfriktionens riktning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"lutning\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><polygon points=\"65,175 360,175 360,70\" fill=\"#f3f4f6\" stroke=\"#374151\" stroke-width=\"2\"/><rect x=\"215\" y=\"105\" width=\"72\" height=\"42\" transform=\"rotate(-19 251 126)\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span>",
+    "t": "<p>En låda har skjutits uppför ett strävt lutande plan och glider nu uppför utan kontakt med handen. Bortse från luftmotståndet. Rita och namnge krafterna på lådan. Ange glidfriktionens riktning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Låda i kontakt med ett lutande plan\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><polygon points=\"65,175 360,175 360,70\" fill=\"#f3f4f6\" stroke=\"#374151\" stroke-width=\"2\"/><rect x=\"206.622857\" y=\"66.426284\" width=\"72\" height=\"44\" transform=\"rotate(-19.592282 242.622857 88.426284)\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften är lodrätt nedåt.</p></div><div class=\"facit-stycke\"><p>Normalkraften är vinkelrät från planet.</p></div><div class=\"facit-stycke\"><p>Glidfriktionen verkar nedför, eftersom lådan glider uppför relativt planet.</p></div><div class=\"facit-stycke\"><p>Handkraften finns inte kvar sedan kontakten upphört.</p></div><div class=\"facit-stycke\"><p>Både tyngdkraftens komponent längs planet och friktionen bromsar uppåtrörelsen.</p></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_407\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"180\" y2=\"73\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_407)\"/><text x=\"168\" y=\"63\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">N</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"248\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_407)\"/><text x=\"222\" y=\"267\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><line x1=\"210\" y1=\"155\" x2=\"160\" y2=\"173\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_407)\"/><text x=\"148\" y=\"192\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">f</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
@@ -30161,7 +30162,7 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Friktionen motverkar glidningen längs underlaget. Åt vilket håll glider lådan just nu?</p>",
     "spel": false,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "manuellKomplettering": true,
     "omrTidigare": "ritakrafter",
@@ -32602,10 +32603,10 @@ window.BANK = [
     "id": "4.176",
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En låda med massan 12 kg glider nedför ett plan som lutar 20° med konstant hastighet. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"253\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 51.557 350.743 143.353\"><polygon points=\"60,180 380,180 380,63.5\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.1\"/><polygon points=\"60,180 380,180 380,188 60,188\" fill=\"#D9CDBA\"/><g transform=\"translate(204,127.6) rotate(-20)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text><line x1=\"42\" y1=\"-40\" x2=\"0\" y2=\"-40\" stroke=\"#2A5D9E\" stroke-width=\"2.4\"/><polygon points=\"-6,-40 2,-36 2,-44\" fill=\"#2A5D9E\"/><text x=\"-15\" y=\"-45\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></g><path d=\"M 106 180 A 46 46 0 0 0 103.2 164.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><ol><li>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</li><li>Bestäm friktionstalet. Avrunda vid behov till två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet ger</p><div class=\"facit-matte\">\\[f=m g \\sin 20^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><p>Friktionen är riktad uppför.</p></div></div><p class=\"facit-svar\">Svaret är 40,3 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg cos 20°, så</p><div class=\"facit-matte\">\\[\\mu=\\frac{f}{N}=\\frac{\\sin 20^{\\circ}}{\\cos 20^{\\circ}}=\\tan 20^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,36.</p></div></div></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En låda med massan 12 kg glider nedför ett plan som lutar 20° med konstant fart. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"253\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 51.557 350.743 143.353\"><polygon points=\"60,180 380,180 380,63.5\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.1\"/><polygon points=\"60,180 380,180 380,188 60,188\" fill=\"#D9CDBA\"/><g transform=\"translate(204,127.6) rotate(-20)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text><line x1=\"42\" y1=\"-40\" x2=\"0\" y2=\"-40\" stroke=\"#2A5D9E\" stroke-width=\"2.4\"/><polygon points=\"-6,-40 2,-36 2,-44\" fill=\"#2A5D9E\"/><text x=\"-15\" y=\"-45\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></g><path d=\"M 106 180 A 46 46 0 0 0 103.2 164.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><ol type=\"a\"><li>Bestäm friktionskraftens storlek. Svara med tre värdesiffror.</li><li>Bestäm friktionstalet. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart innebär att krafterna längs planet balanserar varandra. Friktionen uppför är lika stor som tyngdkraftens del nedför.</p>\\[f=mg\\sin20^\\circ=12\\cdot9{,}82\\sin20^\\circ\\approx40{,}3\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Vid konstant fart är f = mg sin20°. Normalkraften är N = mg cos20°. Eftersom f = μN blir</p>\\[\\mu=\\frac{f}{N}=\\frac{mg\\sin20^\\circ}{mg\\cos20^\\circ}=\\tan20^\\circ\\approx0{,}364\\]</div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "modellering",
@@ -32614,16 +32615,16 @@ window.BANK = [
     "familjNyckel": "friktion__glidfriktion_pa_lutande_plan",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      40.3,
-      0.36
+      40.303653689496805,
+      0.36397023426620234
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.0005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken tyngdkomponent måste balanseras när farten är konstant?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -32642,29 +32643,29 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En låda med massan 12 kg glider nedför ett plan som lutar 20° med konstant hastighet. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"253\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 51.557 350.743 143.353\"><polygon points=\"60,180 380,180 380,63.5\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.1\"/><polygon points=\"60,180 380,180 380,188 60,188\" fill=\"#D9CDBA\"/><g transform=\"translate(204,127.6) rotate(-20)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text><line x1=\"42\" y1=\"-40\" x2=\"0\" y2=\"-40\" stroke=\"#2A5D9E\" stroke-width=\"2.4\"/><polygon points=\"-6,-40 2,-36 2,-44\" fill=\"#2A5D9E\"/><text x=\"-15\" y=\"-45\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></g><path d=\"M 106 180 A 46 46 0 0 0 103.2 164.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span>",
+    "spelIntro": "<p>En låda med massan 12 kg glider nedför ett plan som lutar 20° med konstant fart. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"253\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 51.557 350.743 143.353\"><polygon points=\"60,180 380,180 380,63.5\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.1\"/><polygon points=\"60,180 380,180 380,188 60,188\" fill=\"#D9CDBA\"/><g transform=\"translate(204,127.6) rotate(-20)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text><line x1=\"42\" y1=\"-40\" x2=\"0\" y2=\"-40\" stroke=\"#2A5D9E\" stroke-width=\"2.4\"/><polygon points=\"-6,-40 2,-36 2,-44\" fill=\"#2A5D9E\"/><text x=\"-15\" y=\"-45\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></g><path d=\"M 106 180 A 46 46 0 0 0 103.2 164.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 12 kg glider nedför ett plan som lutar 20° med konstant hastighet. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"253\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 51.557 350.743 143.353\"><polygon points=\"60,180 380,180 380,63.5\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.1\"/><polygon points=\"60,180 380,180 380,188 60,188\" fill=\"#D9CDBA\"/><g transform=\"translate(204,127.6) rotate(-20)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text><line x1=\"42\" y1=\"-40\" x2=\"0\" y2=\"-40\" stroke=\"#2A5D9E\" stroke-width=\"2.4\"/><polygon points=\"-6,-40 2,-36 2,-44\" fill=\"#2A5D9E\"/><text x=\"-15\" y=\"-45\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></g><path d=\"M 106 180 A 46 46 0 0 0 103.2 164.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><p>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant hastighet ger</p><div class=\"facit-matte\">\\[f=m g \\sin 20^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><p>Friktionen är riktad uppför.</p></div></div><p class=\"facit-svar\">Svaret är 40,3 N.</p></div>",
+        "fraga": "Bestäm friktionskraftens storlek. Svara med tre värdesiffror.",
+        "t": "<p>En låda med massan 12 kg glider nedför ett plan som lutar 20° med konstant fart. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"253\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 51.557 350.743 143.353\"><polygon points=\"60,180 380,180 380,63.5\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.1\"/><polygon points=\"60,180 380,180 380,188 60,188\" fill=\"#D9CDBA\"/><g transform=\"translate(204,127.6) rotate(-20)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text><line x1=\"42\" y1=\"-40\" x2=\"0\" y2=\"-40\" stroke=\"#2A5D9E\" stroke-width=\"2.4\"/><polygon points=\"-6,-40 2,-36 2,-44\" fill=\"#2A5D9E\"/><text x=\"-15\" y=\"-45\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></g><path d=\"M 106 180 A 46 46 0 0 0 103.2 164.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><p>Bestäm friktionskraftens storlek. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att krafterna längs planet balanserar varandra. Friktionen uppför är lika stor som tyngdkraftens del nedför.</p>\\[f=mg\\sin20^\\circ=12\\cdot9{,}82\\sin20^\\circ\\approx40{,}3\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilken tyngdkomponent måste balanseras när farten är konstant?</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)"
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionstalet. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 12 kg glider nedför ett plan som lutar 20° med konstant hastighet. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"253\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 51.557 350.743 143.353\"><polygon points=\"60,180 380,180 380,63.5\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.1\"/><polygon points=\"60,180 380,180 380,188 60,188\" fill=\"#D9CDBA\"/><g transform=\"translate(204,127.6) rotate(-20)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text><line x1=\"42\" y1=\"-40\" x2=\"0\" y2=\"-40\" stroke=\"#2A5D9E\" stroke-width=\"2.4\"/><polygon points=\"-6,-40 2,-36 2,-44\" fill=\"#2A5D9E\"/><text x=\"-15\" y=\"-45\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></g><path d=\"M 106 180 A 46 46 0 0 0 103.2 164.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><p>Bestäm friktionstalet. Avrunda vid behov till två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg cos 20°, så</p><div class=\"facit-matte\">\\[\\mu=\\frac{f}{N}=\\frac{\\sin 20^{\\circ}}{\\cos 20^{\\circ}}=\\tan 20^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,36.</p></div>",
+        "fraga": "Bestäm friktionstalet. Svara med tre värdesiffror.",
+        "t": "<p>En låda med massan 12 kg glider nedför ett plan som lutar 20° med konstant fart. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"253\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 51.557 350.743 143.353\"><polygon points=\"60,180 380,180 380,63.5\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2.1\"/><polygon points=\"60,180 380,180 380,188 60,188\" fill=\"#D9CDBA\"/><g transform=\"translate(204,127.6) rotate(-20)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">12 kg</text><line x1=\"42\" y1=\"-40\" x2=\"0\" y2=\"-40\" stroke=\"#2A5D9E\" stroke-width=\"2.4\"/><polygon points=\"-6,-40 2,-36 2,-44\" fill=\"#2A5D9E\"/><text x=\"-15\" y=\"-45\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></g><path d=\"M 106 180 A 46 46 0 0 0 103.2 164.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">20°</text></svg></span><p>Bestäm friktionstalet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är f = mg sin20°. Normalkraften är N = mg cos20°. Eftersom f = μN blir</p>\\[\\mu=\\frac{f}{N}=\\frac{mg\\sin20^\\circ}{mg\\cos20^\\circ}=\\tan20^\\circ\\approx0{,}364\\]</div>",
         "ledtrad": "<p>Vilken tyngdkomponent måste balanseras när farten är konstant?</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)"
+        "poang": "(1/0/0)"
       }
     ],
     "omrTidigare": "friktion",
@@ -32841,8 +32842,8 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma kritisk vinkel för statisk friktion",
     "poang": "(2/0/0)",
-    "t": "<p>En låda ligger på ett plan som höjs långsamt. Friktionstalet vid gränsen till glidning är 0,25. Använd tan α = μ.</p><p>Bestäm gränsvinkeln. Svara i grader. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lös ut vinkeln med invers tangens: α = arctan 0,25.</p></div><div class=\"facit-stycke\"><p>Lådan kan ligga kvar upp till denna vinkel i modellen.</p></div></div><p class=\"facit-svar\">Svaret är 14,04°.</p></div>",
+    "t": "<p>En låda ligger på ett plan som höjs långsamt. Friktionstalet vid gränsen till glidning är 0,25. Använd tan α = μ.</p><p>Bestäm gränsvinkeln. Svara i grader. </p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid gränsen till glidning gäller det givna sambandet tanα = μ. Använd räknarens inversa tangens för att få vinkeln.</p>\\[\\alpha=\\arctan0{,}25\\approx14{,}0^\\circ\\]</div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "begrepp",
@@ -32850,8 +32851,8 @@ window.BANK = [
     ],
     "familjNyckel": "friktion__friktionsgrans_pa_lutande_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": 14.04,
-    "tolerans": 0,
+    "rättSvar": 14.036243467926479,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -32872,8 +32873,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En låda med massan 25 kg ligger på ett plan som lutar 18°. Friktionstalet är 0,35.</p>\n<ol><li>Hur stor är normalkraften?</li><li>Hur stor är den maximala friktionskraften?</li>\n<li>Glider lådan? Motivera.</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Lådan släpps försiktigt från vila och kan inte tippa. Friktionstalet gäller vid gränsen till glidning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften balanserar tyngdkraftens komponent vinkelrätt mot planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg\\cos18^\\circ=25\\cdot9{,}82\\cos18^\\circ\\approx233{,}48\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Maximal statisk friktion är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f_{s,\\max}=\\mu N=0{,}35\\cdot25\\cdot9{,}82\\cos18^\\circ\\approx81{,}72\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför med tyngdkomposanten nedför planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\parallel}=mg\\sin18^\\circ=75{,}9\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Eftersom 75,9 N är mindre än 81,7 N kan friktionen hålla lådan stilla.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(N\\approx233\\ \\mathrm N\\), \\(f_{s,\\max}\\approx81{,}7\\ \\mathrm N\\), och lådan glider inte.</p></div>",
+    "t": "<p>En låda med massan 25 kg ligger på ett plan som lutar 18°. Friktionstalet är 0,35.</p>\n<ol type=\"a\"><li>Hur stor är normalkraften?</li><li>Hur stor är den maximala friktionskraften?</li>\n<li>Glider lådan? Motivera.</li></ol><p>Använd g = 9,82 m/s².</p><p>Lådan släpps försiktigt från vila och kan inte tippa. Friktionstalet gäller vid gränsen till glidning.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften balanserar tyngdkraftens komponent vinkelrätt mot planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}N&=mg\\cos18^\\circ\\\\ &=25\\cdot9{,}82\\cos18^\\circ\\\\ &\\approx233{,}48\\ \\mathrm N\\end{aligned}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Maximal statisk friktion är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}f_{s,\\max}&=\\mu N\\\\ &=0{,}35\\cdot25\\cdot9{,}82\\cos18^\\circ\\\\ &\\approx81{,}72\\ \\mathrm N\\end{aligned}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför med tyngdkomposanten nedför planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\parallel}=mg\\sin18^\\circ\\approx75{,}9\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Eftersom 75,9 N är mindre än 81,7 N kan friktionen hålla lådan stilla.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(N\\approx233\\ \\mathrm N\\), \\(f_{s,\\max}\\approx81{,}7\\ \\mathrm N\\), och lådan glider inte.</p></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "begrepp",
@@ -34667,8 +34668,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Lådan i figuren väger 22 kg och glider nedför planet med konstant fart.</p><span class=\"fig bred\"><svg height=\"312\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"44.629 13.204 351.371 176.677\"><polygon points=\"60,180 380,180 380,23.926\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,99.524) rotate(-26)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 99.55 160.71\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"136.98\" y=\"166.23\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">26°</text></svg></span>\n<ol><li>Hur stor är friktionskraften?</li><li>Bestäm friktionstalet.</li>\n<li>Vad händer med farten om lådan i ett nytt försök glider nedför ett plan med lutningen 30° och samma friktionstal?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Konstant fart innebär noll resultant längs planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f=mg\\sin26^\\circ=22\\cdot9{,}82\\sin26^\\circ=94{,}7\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften är \\(mg\\cos26^\\circ\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\frac{mg\\sin26^\\circ}{mg\\cos26^\\circ}=\\tan26^\\circ=0{,}488\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 30° blir \\(\\tan30^\\circ=0{,}577&gt;0{,}488\\).</p></div><div class=\"facit-stycke\"><p>Tyngdkomposanten överstiger glidfriktionen och lådan accelererar nedför.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionen är cirka \\(94{,}7\\ \\mathrm N\\) och \\(\\mu\\approx0{,}49\\). Vid 30° accelererar lådan nedför.</p></div>",
+    "t": "<p>Lådan i figuren väger 22 kg och glider nedför planet med konstant fart.</p><span class=\"fig bred\"><svg height=\"312\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"44.629 13.204 351.371 176.677\"><polygon points=\"60,180 380,180 380,23.926\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(225,99.524) rotate(-26)\"><rect x=\"-26\" y=\"-30\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><path d=\"M 104 180 A 44 44 0 0 0 99.55 160.71\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"136.98\" y=\"166.23\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">26°</text></svg></span>\n<ol type=\"a\"><li>Hur stor är friktionskraften?</li><li>Bestäm friktionstalet.</li>\n<li>Vad händer med farten om lådan i ett nytt försök glider nedför ett plan med lutningen 30° och samma friktionstal?</li></ol><p>Använd g = 9,82 m/s².</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Konstant fart innebär noll resultant längs planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f=mg\\sin26^\\circ=22\\cdot9{,}82\\sin26^\\circ\\approx94{,}7\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften är \\(mg\\cos26^\\circ\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\frac{mg\\sin26^\\circ}{mg\\cos26^\\circ}=\\tan26^\\circ\\approx0{,}488\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 30° blir \\(\\tan30^\\circ\\approx0{,}577&gt;0{,}488\\).</p></div><div class=\"facit-stycke\"><p>Tyngdkomposanten överstiger glidfriktionen och lådan accelererar nedför.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionen är cirka \\(94{,}7\\ \\mathrm N\\) och \\(\\mu\\approx0{,}49\\). Vid 30° accelererar lådan nedför.</p></div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "begrepp",
@@ -34698,8 +34699,8 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma friktionstalet ur den vinkel där en kropp börjar glida, ur diagram, sökt friktionstal",
     "poang": "(1/2/0)",
-    "t": "<p>Ett plan lutas långsamt allt mer. Lådan börjar glida precis när vinkeln α har nått 22°.</p><span class=\"fig bred\"><svg height=\"258\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 32.869 361.586 150.418\"><polygon points=\"30,175 360,175 360,41.6713\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 82 175 A 52 52 0 0 0 78.2 155.5\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96.7506\" y=\"166.025\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">α</text><g transform=\"translate(221.4,97.7) rotate(-22)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">låda</text></g></svg></span>\n<ol><li>Vilka två krafter längs planet är lika stora i det ögonblick lådan börjar glida?</li>\n<li>Skriv upp likheten mellan dem med hjälp av m, g, α och μ.</li>\n<li>Visa att μ = tan α och bestäm friktionstalet.</li>\n<li>Spelar lådans massa någon roll för vid vilken vinkel den börjar glida?</li></ol><p>Använd g = 9,82 m/s² om inget annat anges.</p><p>Friktionstalet μ gäller vid gränsen till glidning. Lådan kan inte tippa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid glidgränsen är tyngdkomposanten och maximal statisk friktion lika stora.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin\\alpha=\\mu mg\\cos\\alpha\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förkorta bort mg och dela med cosinus.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\tan\\alpha\\]\\[\\mu=\\tan22^\\circ=0{,}404\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan har förkortats bort.</p></div><div class=\"facit-stycke\"><p>Lådor av samma materialkombination börjar därför glida vid samma vinkel oberoende av massan.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionstalet är cirka \\(0{,}40\\), och glidvinkeln är oberoende av lådans massa.</p></div>",
+    "t": "<p>Ett plan lutas långsamt allt mer. Lådan börjar glida precis när vinkeln α har nått 22°.</p><span class=\"fig bred\"><svg height=\"258\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 32.869 361.586 150.418\"><polygon points=\"30,175 360,175 360,41.6713\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 82 175 A 52 52 0 0 0 78.2 155.5\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96.7506\" y=\"166.025\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">α</text><g transform=\"translate(221.4,97.7) rotate(-22)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">låda</text></g></svg></span>\n<ol type=\"a\"><li>Vilka två krafter längs planet är lika stora i det ögonblick lådan börjar glida?</li>\n<li>Skriv upp likheten mellan dem med hjälp av m, g, α och μ.</li>\n<li>Visa att μ = tan α och bestäm friktionstalet.</li>\n<li>Spelar lådans massa någon roll för vid vilken vinkel den börjar glida?</li></ol><p></p><p>Friktionstalet μ gäller vid gränsen till glidning. Lådan kan inte tippa.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid glidgränsen är tyngdkomposanten och maximal statisk friktion lika stora.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin\\alpha=\\mu mg\\cos\\alpha\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förkorta bort mg och dela med cosinus.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\tan\\alpha\\]\\[\\mu=\\tan22^\\circ\\approx0{,}404\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan har förkortats bort.</p></div><div class=\"facit-stycke\"><p>Lådor av samma materialkombination börjar därför glida vid samma vinkel oberoende av massan.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionstalet är cirka \\(0{,}40\\), och glidvinkeln är oberoende av lådans massa.</p></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "begrepp",
@@ -36441,8 +36442,8 @@ window.BANK = [
     "niva": "C",
     "typ": "identifiera krafter på en kloss som ligger stilla på ett lutande plan, ur diagram, sökt resonemang",
     "poang": "(1/2/0)",
-    "t": "<p>En kloss ligger stilla på ett lutande plan.</p><span class=\"fig bred\"><svg height=\"296\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"27.000 20.976 286.200 136.644\"><path d=\"M 40 150 L 300 150 L 300 28.76 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 92 150 A 52 52 0 0 0 87.13 128.02\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"108\" y=\"143\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text><polygon points=\"145.29,100.9 205.11,73.01 188.2,36.76 128.39,64.65\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"166.75\" cy=\"68.83\" r=\"3.5\" fill=\"#2B2527\"/></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på den markerade kroppen. Märk ut varje kraft med namn och rita pilen från rätt angreppspunkt.</p><ol><li>Vilka tre krafter verkar på klossen?</li>\n<li>Åt vilket håll pekar friktionskraften?</li>\n<li>Är normalkraften lika stor som tyngdkraften? Motivera.</li>\n<li>Vad händer med friktionskraften om planet görs brantare?</li></ol><p>I sista delen ökas vinkeln långsamt medan klossen ännu ligger stilla, fram till glidgränsen. Friktionstalet är oförändrat och klossen kan inte välta.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig bred\"><svg height=\"321\" width=\"620\" role=\"img\" aria-label=\"Kloss på lutande plan med tyngdkraft, normalkraft och statisk friktion vid rätt angreppspunkter.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"27.000 15.582 286.200 148.031\"><path d=\"M 40 150 L 300 150 L 300 28.76 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 92 150 A 52 52 0 0 0 87.13 128.02\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"108\" y=\"143\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text><polygon points=\"145.29,100.9 205.11,73.01 188.2,36.76 128.39,64.65\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"166.75\" cy=\"68.83\" r=\"3.5\" fill=\"#2B2527\"/><defs><marker id=\"situationspil-4-222\" markerWidth=\"8.4\" markerHeight=\"8.4\" refX=\"7.39\" refY=\"4.2\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L8.4,4.2 L0,8.4 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"166.75\" y1=\"68.83\" x2=\"166.75\" y2=\"139\" stroke=\"#B43123\" stroke-width=\"2.31\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-222)\"/><circle cx=\"166.75\" cy=\"68.83\" r=\"2.52\" fill=\"#B43123\"/><text x=\"175.15\" y=\"154.75\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.55\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><line x1=\"170\" y1=\"89\" x2=\"147\" y2=\"39\" stroke=\"#B43123\" stroke-width=\"2.31\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-222)\"/><circle cx=\"170\" cy=\"89\" r=\"2.52\" fill=\"#B43123\"/><text x=\"138.6\" y=\"31.65\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.55\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"180\" y1=\"84\" x2=\"230\" y2=\"61\" stroke=\"#B43123\" stroke-width=\"2.31\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-222)\"/><circle cx=\"180\" cy=\"84\" r=\"2.52\" fill=\"#B43123\"/><text x=\"238.4\" y=\"53.65\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.55\" font-weight=\"600\" fill=\"#B43123\">f</text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är tyngdkraften, normalkraften och den statiska friktionen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Klossen skulle annars glida nedför planet, så friktionen pekar uppför.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela upp tyngdkraften längs och vinkelrätt mot planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg\\cos v,\\qquad f=mg\\sin v\\]</div></div><div class=\"facit-stycke\"><p>Normalkraften är alltså mindre än tyngdkraften.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När vinkeln v ökar, ökar \\(mg\\sin v\\) och \\(mg\\cos v\\) minskar.</p></div><div class=\"facit-stycke\"><p>Den nödvändiga friktionen ökar samtidigt som maximal statisk friktion minskar; till slut börjar klossen glida.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionen pekar uppför planet. Den ökar när planet görs brantare, tills greppet inte längre räcker.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt; beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
+    "t": "<p>En kloss ligger stilla på ett lutande plan.</p><span class=\"fig bred\"><svg height=\"296\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"27.000 20.976 286.200 136.644\"><path d=\"M 40 150 L 300 150 L 300 28.76 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 92 150 A 52 52 0 0 0 87.13 128.02\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"108\" y=\"143\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text><polygon points=\"145.29,100.9 205.11,73.01 188.2,36.76 128.39,64.65\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"166.75\" cy=\"68.83\" r=\"3.5\" fill=\"#2B2527\"/></svg></span><p>Rita och namnge krafterna på klossen.</p><ol type=\"a\"><li>Vilka tre krafter verkar på klossen?</li>\n<li>Åt vilket håll pekar friktionskraften?</li>\n<li>Är normalkraften lika stor som tyngdkraften? Motivera.</li>\n<li>Vad händer med friktionskraften om planet görs brantare?</li></ol><p>I sista delen ökas vinkeln långsamt medan klossen ännu ligger stilla, fram till glidgränsen. Friktionstalet är oförändrat och klossen kan inte välta.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><span class=\"fig bred\"><svg height=\"321\" width=\"620\" role=\"img\" aria-label=\"Kloss på lutande plan med tyngdkraft, normalkraft och statisk friktion vid rätt angreppspunkter.\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"27.000 15.582 286.200 148.031\"><path d=\"M 40 150 L 300 150 L 300 28.76 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 92 150 A 52 52 0 0 0 87.13 128.02\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"108\" y=\"143\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text><polygon points=\"145.29,100.9 205.11,73.01 188.2,36.76 128.39,64.65\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"166.75\" cy=\"68.83\" r=\"3.5\" fill=\"#2B2527\"/><defs><marker id=\"situationspil-4-222\" markerWidth=\"8.4\" markerHeight=\"8.4\" refX=\"7.39\" refY=\"4.2\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0,0 L8.4,4.2 L0,8.4 Z\" fill=\"#B43123\"/></marker></defs><g class=\"facit-krafter\"><line x1=\"166.75\" y1=\"68.83\" x2=\"166.75\" y2=\"139\" stroke=\"#B43123\" stroke-width=\"2.31\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-222)\"/><circle cx=\"166.75\" cy=\"68.83\" r=\"2.52\" fill=\"#B43123\"/><text x=\"178\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.55\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><line x1=\"170\" y1=\"89\" x2=\"147\" y2=\"39\" stroke=\"#B43123\" stroke-width=\"2.31\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-222)\"/><circle cx=\"170\" cy=\"89\" r=\"2.52\" fill=\"#B43123\"/><text x=\"138.6\" y=\"31.65\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.55\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"180\" y1=\"84\" x2=\"230\" y2=\"61\" stroke=\"#B43123\" stroke-width=\"2.31\" stroke-linecap=\"round\" marker-end=\"url(#situationspil-4-222)\"/><circle cx=\"180\" cy=\"84\" r=\"2.52\" fill=\"#B43123\"/><text x=\"238.4\" y=\"53.65\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.55\" font-weight=\"600\" fill=\"#B43123\">f</text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är tyngdkraften, normalkraften och den statiska friktionen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Klossen skulle annars glida nedför planet, så friktionen pekar uppför.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela upp tyngdkraften längs och vinkelrätt mot planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg\\cos v,\\qquad f=mg\\sin v\\]</div></div><div class=\"facit-stycke\"><p>Normalkraften är alltså mindre än tyngdkraften.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När vinkeln v ökar, ökar \\(mg\\sin v\\) och \\(mg\\cos v\\) minskar.</p></div><div class=\"facit-stycke\"><p>Den nödvändiga friktionen ökar samtidigt som maximal statisk friktion minskar; till slut börjar klossen glida.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionen pekar uppför planet. Den ökar när planet görs brantare, tills greppet inte längre räcker.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna i figuren visar riktningar schematiskt; beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "modellering",
@@ -36539,8 +36540,8 @@ window.BANK = [
     "niva": "E",
     "typ": "frilägga föremål och identifiera yttre krafter",
     "poang": "(2/0/0)",
-    "t": "<p>En låda glider nedför ett strävt lutande plan med ökande fart.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"lutning\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><polygon points=\"65,175 360,175 360,70\" fill=\"#f3f4f6\" stroke=\"#374151\" stroke-width=\"2\"/><rect x=\"215\" y=\"105\" width=\"72\" height=\"42\" transform=\"rotate(-19 251 126)\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita ett friläggningsdiagram. Ange också vilken riktning resultantkraften har, eller att den är noll.</p><p>Bortse från luftmotståndet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften verkar lodrätt nedåt.</p></div><div class=\"facit-stycke\"><p>Normalkraften är vinkelrät ut från planet och glidfriktionen är uppför planet.</p></div><div class=\"facit-stycke\"><p>Normalkraften balanserar tyngdkomponenten vinkelrätt mot planet.</p></div><div class=\"facit-stycke\"><p>Längs planet är mg sin v större än friktionen, eftersom farten ökar nedför.</p></div><div class=\"facit-stycke\"><p>Resultanten är därför nedför planet.</p></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Kraftdiagram\"><rect width=\"440\" height=\"300\" fill=\"white\"/><circle cx=\"220\" cy=\"140\" r=\"5\" fill=\"#333\"/><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"225.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,235 216.0,225.0 224.0,225.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"250.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">mg</text><line x1=\"220\" y1=\"140\" x2=\"193.36336396998155\" y2=\"65.41741911594838\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"190,56 197.1303316163609,64.07207352795575 189.5963963236022,66.762764703941\" fill=\"#245c9b\"/><text x=\"185.29129044202583\" y=\"41.873871326077435\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"17\">N</text><line x1=\"220\" y1=\"140\" x2=\"225.57125769797892\" y2=\"138.0314889467141\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"235,134.7 226.90385327666456,141.80298586752252 224.23866211929328,134.25999202590566\" fill=\"#245c9b\"/><text x=\"248.2002392228295\" y=\"134.7027665799288\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"17\">f</text></svg></span><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna visar riktningarna schematiskt.</p></div><div class=\"facit-stycke\"><p>Beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
+    "t": "<p>En låda glider nedför ett strävt lutande plan med ökande fart.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Låda i kontakt med ett lutande plan\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><polygon points=\"65,175 360,175 360,70\" fill=\"#f3f4f6\" stroke=\"#374151\" stroke-width=\"2\"/><rect x=\"206.622857\" y=\"66.426284\" width=\"72\" height=\"44\" transform=\"rotate(-19.592282 242.622857 88.426284)\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita och namnge krafterna på lådan. Åt vilket håll är kraftsumman riktad?</p><p>Bortse från luftmotståndet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften verkar lodrätt nedåt.</p></div><div class=\"facit-stycke\"><p>Normalkraften är vinkelrät ut från planet och glidfriktionen är uppför planet.</p></div><div class=\"facit-stycke\"><p>Normalkraften balanserar tyngdkomponenten vinkelrätt mot planet.</p></div><div class=\"facit-stycke\"><p>Längs planet är mg sin v större än friktionen, eftersom farten ökar nedför.</p></div><div class=\"facit-stycke\"><p>Resultanten är därför nedför planet.</p></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Kraftdiagram\"><rect width=\"440\" height=\"300\" fill=\"white\"/><circle cx=\"220\" cy=\"140\" r=\"5\" fill=\"#333\"/><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"225.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,235 216.0,225.0 224.0,225.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"250.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">mg</text><line x1=\"220\" y1=\"140\" x2=\"193.36336396998155\" y2=\"65.41741911594838\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"190,56 197.1303316163609,64.07207352795575 189.5963963236022,66.762764703941\" fill=\"#245c9b\"/><text x=\"185.29129044202583\" y=\"41.873871326077435\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"17\">N</text><line x1=\"220\" y1=\"140\" x2=\"233.189437\" y2=\"135.305455\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"242.610463,131.952208 234.530736,139.073865 231.848138,131.537044\" fill=\"#245c9b\"/><text x=\"254.610463\" y=\"131.952208\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"17\">f</text></svg></span><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna visar riktningarna schematiskt.</p></div><div class=\"facit-stycke\"><p>Beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "begrepp",
@@ -36555,7 +36556,7 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Vilken riktning har glidningen, och vilken riktning måste friktionen då ha?</p>",
     "spel": false,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "manuellKomplettering": true,
     "typfamilj": "Krafter vid glidning",
@@ -107600,8 +107601,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>En låda glider nedför ett plan som lutar 15°. Friktionstalet är 0,40. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen med nedför som positiv riktning. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Längs planet:</p><div class=\"facit-matte\">\\[m a=m g \\sin 15^{\\circ}-0{,}40 m g \\cos 15^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[a=g \\left(\\sin 15^{\\circ}-0{,}40 \\cos 15^{\\circ}\\right)\\]</div></div></div><div class=\"facit-stycke\"><p>Resultatet är negativt: lådan bromsas trots att den rör sig nedför.</p></div><div class=\"facit-stycke\"><p>Sambandet gäller medan den glider.</p></div></div><p class=\"facit-svar\">Svaret är -1,25 m/s².</p></div>",
+    "t": "<p>En låda glider nedför ett plan som lutar 15°. Friktionstalet är 0,40. Bara tyngdkraft, normalkraft och friktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen med nedför som positiv riktning. Svara i m/s². </p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossen glider nedför, men friktionen bromsar uppför. Nedför har valts som positiv riktning.</p>\\[ma=mg\\sin15^\\circ-0{,}40mg\\cos15^\\circ\\]\\[a=9{,}82(\\sin15^\\circ-0{,}40\\cos15^\\circ)\\approx-1{,}25\\,\\mathrm{m/s^2}\\]<p>Accelerationen är uppför, så farten nedför minskar. Sambandet gäller medan klossen glider.</p></div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "modellering",
@@ -107609,8 +107610,8 @@ window.BANK = [
     ],
     "familjNyckel": "friktion__glidfriktion_pa_lutande_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": -1.25,
-    "tolerans": 0,
+    "rättSvar": -1.2525536227567071,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Kan en låda röra sig nedför och samtidigt ha acceleration uppför?</p>",
     "traningsniva": 3,
@@ -107631,8 +107632,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>En kloss glider uppför ett plan som lutar 32° med startfarten 4,0 m/s. Friktionstalet är 0,28. Bara tyngdkraft, normalkraft och glidfriktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Hur långt glider klossen uppför innan den stannar? Svara i m. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Under uppåtrörelsen verkar både tyngdkomponenten och friktionen nedför.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Retardationen är</p><div class=\"facit-matte\">\\[b=g \\left(\\sin 32^{\\circ}+0{,}28 \\cos 32^{\\circ}\\right)\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ur 0 = 4,0² − 2bs fås</p><div class=\"facit-matte\">\\[s=\\frac{16}{2 b}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 1,06 m.</p></div>",
+    "t": "<p>En kloss glider uppför ett plan som lutar 32° med startfarten 4,0 m/s. Friktionstalet är 0,28. Bara tyngdkraft, normalkraft och glidfriktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Hur långt glider klossen uppför innan den stannar? Svara i m. </p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossen glider uppför. Både tyngdkraftens del längs planet och friktionen bromsar nedför. Retardationens storlek är</p>\\[b=g(\\sin32^\\circ+0{,}28\\cos32^\\circ)\\approx7{,}5356\\,\\mathrm{m/s^2}\\]<p>Vid stopp är slutfarten noll. Lös v² = v₀² − 2bs för stoppsträckan och använd den oavrundade retardationen.</p>\\[\\begin{aligned}s&=\\frac{v_0^2}{2b}\\\\ &=\\frac{4{,}0^2}{2\\cdot9{,}82(\\sin32^\\circ+0{,}28\\cos32^\\circ)}\\\\ &\\approx1{,}06\\,\\mathrm m\\end{aligned}\\]</div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "modellering",
@@ -107640,8 +107641,8 @@ window.BANK = [
     ],
     "familjNyckel": "friktion__glidfriktion_pa_lutande_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.06,
-    "tolerans": 0,
+    "rättSvar": 1.0616274439304814,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Vilka krafter bromsar klossen under uppåtrörelsen?</p>",
     "traningsniva": 3,
@@ -107662,8 +107663,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>En låda med massan 9,5 kg glider nedför ett plan som lutar 38°. Friktionstalet är 0,35. En kraft F verkar uppför och parallellt med planet.</p><p>Använd g = 9,82 m/s².</p><p>Hur stor ska F vara för konstant hastighet nedför? Svara i N. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid nedåtrörelse är friktionen uppför.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt längs planet ger</p><div class=\"facit-matte\">\\[m g \\sin 38^{\\circ}-\\mu m g \\cos 38^{\\circ}-F=0\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[F=9{,}5 g \\left(\\sin 38^{\\circ}-0{,}35 \\cos 38^{\\circ}\\right)\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 31,71 N.</p></div>",
+    "t": "<p>En låda med massan 9,5 kg glider nedför ett plan som lutar 38°. Friktionstalet är 0,35. En kraft F verkar uppför och parallellt med planet.</p><p>Använd g = 9,82 m/s².</p><p>Hur stor ska F vara för konstant hastighet nedför? Svara i N. </p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lådan glider nedför, så friktionen är uppför. Vid konstant fart balanserar friktionen och kraften F tillsammans tyngdkraftens del nedför.</p>\\[mg\\sin38^\\circ=F+0{,}35mg\\cos38^\\circ\\]\\[F=9{,}5\\cdot9{,}82(\\sin38^\\circ-0{,}35\\cos38^\\circ)\\approx31{,}7\\,\\mathrm N\\]</div>",
     "familj": "Glidning på lutande plan",
     "formaga": [
       "modellering",
@@ -107671,8 +107672,8 @@ window.BANK = [
     ],
     "familjNyckel": "friktion__glidfriktion_pa_lutande_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": 31.71,
-    "tolerans": 0,
+    "rättSvar": 31.705325911740786,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Friktionen och den extra kraften verkar åt samma håll här.</p>",
     "traningsniva": 3,
@@ -107693,8 +107694,8 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>En låda ska kunna ligga stilla på ett plan som lutar 27°. Bara tyngdkraft, normalkraft och friktion verkar. Lådan kan inte tippa.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm det minsta friktionstal som behövs vid glidgränsen. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den friktion som behövs är mg sin 27°.</p></div><div class=\"facit-stycke\"><p>Maximal friktion är μmg cos 27°.</p></div><div class=\"facit-stycke\"><p>Villkoret mg sin 27° ≤ μmg cos 27° ger μ ≥ tan 27°.</p></div><div class=\"facit-stycke\"><p>Likhet ger gränsvärdet.</p></div></div><p class=\"facit-svar\">Svaret är 0,51.</p></div>",
+    "t": "<p>En låda ska kunna ligga stilla på ett plan som lutar 27°. Bara tyngdkraft, normalkraft och friktion verkar. Lådan kan inte tippa.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm det minsta friktionstal som behövs vid glidgränsen. </p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>För vila måste friktionen kunna balansera tyngdkraftens del längs planet. Den största vilofriktionen är μmg cos27°.</p>\\[mg\\sin27^\\circ\\leq\\mu mg\\cos27^\\circ\\]<p>Dividera med mg cos27°. Då blir villkoret μ ≥ tan27°. Det minsta tillåtna värdet är</p>\\[\\mu_{\\min}=\\tan27^\\circ\\approx0{,}510\\]</div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
       "modellering",
@@ -107702,8 +107703,8 @@ window.BANK = [
     ],
     "familjNyckel": "friktion__friktionsgrans_pa_lutande_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.51,
-    "tolerans": 0,
+    "rättSvar": 0.5095254494944288,
+    "tolerans": 0.0005,
     "självrättning": true,
     "ledtrad": "<p>Jämför friktionens maxvärde med den kraft som behövs för jämvikt.</p>",
     "traningsniva": 3,
@@ -107755,7 +107756,7 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "A",
     "poang": "(0/1/3)",
-    "t": "<p>En kloss med massan m ligger på ett plan med lutningen α, där 0 &lt; α &lt; 90°. En kraft F ≥ 0 drar parallellt uppför planet. Friktionstalet vid gränsen till glidning är μ. Klossen kan inte tippa. Ta fram ett villkor för alla värden på F som kan hålla klossen stilla. Förklara också hur friktionens riktning beror på F.</p><p>Använd g = 9,82 m/s² om inget annat anges.</p>",
+    "t": "<p>En kloss med massan m ligger på ett plan med lutningen α, där 0 &lt; α &lt; 90°. En kraft F ≥ 0 drar parallellt uppför planet. Friktionstalet vid gränsen till glidning är μ. Klossen kan inte tippa. Ta fram ett villkor för alla värden på F som kan hålla klossen stilla. Förklara också hur friktionens riktning beror på F.</p><p></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Normalkraften är</p><div class=\"facit-matte\">\\[N=m g \\cos \\alpha\\]</div></div></div><div class=\"facit-stycke\"><p>Välj uppför som positivt och låt f vara friktion med tecken.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger F + f − mg sin α = 0, alltså</p><div class=\"facit-matte\">\\[f=m g \\sin \\alpha-F\\]</div></div></div><div class=\"facit-stycke\"><p>För vila krävs |f| ≤ μmg cos α.</p></div><div class=\"facit-stycke\"><p>Därmed mg(sin α − μ cos α) ≤ F ≤ mg(sin α + μ cos α).</p></div><div class=\"facit-stycke\"><p>Eftersom F ≥ 0 blir den nedre gränsen max(0, mg(sin α − μ cos α)).</p></div><div class=\"facit-stycke\"><p>När F &lt; mg sin α verkar friktionen uppför, när F &gt; mg sin α verkar den nedför och vid likhet är friktionen noll.</p></div><div class=\"facit-stycke\"><p>Villkoret beskriver vila; under glidning måste rörelsens riktning beaktas.</p></div></div></div>",
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "formaga": [
@@ -162070,17 +162071,17 @@ window.BANK = [
     "niva": "E",
     "typ": "komposant längs planet",
     "poang": "(1/0/0)",
-    "t": "<p>En resväska med massan 5,0 kg står på en ramp som lutar 30°. Använd g = 9,82 m/s².</p><p>Bestäm tyngdkraftens komposant längs rampen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Komposanten längs planet är mg·sin α.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\parallel=mg\\sin30^\\circ=5{,}0\\cdot9{,}82\\cdot0{,}5\\approx24{,}6\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\ \\mathrm N\\).</p></div>",
+    "t": "<p>En resväska på 5,0 kg står på en ramp som lutar 30°. Hur stor är tyngdkraftens del längs rampen? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vinkeln mäts mot marken. Tyngdkraftens del nedför rampen fås med sinus.</p>\\[F_{g,\\parallel}=mg\\sin30^\\circ=5{,}0\\cdot9{,}82\\cdot0{,}5=24{,}55\\,\\mathrm N\\]<p>Svar med tre värdesiffror: 24,6 N nedför.</p></div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 24.55,
-    "tolerans": 0.5,
+    "rättSvar": 24.549999999999997,
+    "tolerans": 0.05,
     "självrättning": true,
-    "ledtrad": "<p>Vilken trigonometrisk funktion hör till komposanten längs planet?</p>",
+    "ledtrad": "<p>Vilken trigonometrisk funktion hör till delen längs planet?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -162096,17 +162097,17 @@ window.BANK = [
     "niva": "E",
     "typ": "normalkraft på lutande plan",
     "poang": "(1/0/0)",
-    "t": "<p>En pulka med last har massan 8,0 kg och står stilla i en backe som lutar 20°. Använd g = 9,82 m/s².</p><p>Bestäm normalkraften från backen på pulkan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften tar ut tyngdkraftens komposant vinkelrätt mot planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=mg\\cos20^\\circ=8{,}0\\cdot9{,}82\\cdot\\cos20^\\circ\\approx73{,}8\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(74\\ \\mathrm N\\).</p></div>",
+    "t": "<p>En pulka med last väger 8,0 kg och står stilla i en backe som lutar 20°. Hur stor är normalkraften från backen? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Pulkan accelererar inte vinkelrätt mot backen. Normalkraften balanserar tyngdkraftens del i den riktningen.</p>\\[N=mg\\cos20^\\circ=8{,}0\\cdot9{,}82\\cos20^\\circ\\approx73{,}8\\,\\mathrm N\\]</div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 73.82,
-    "tolerans": 0.4,
+    "rättSvar": 73.82225228894097,
+    "tolerans": 0.05,
     "självrättning": true,
-    "ledtrad": "<p>Normalkraften balanserar tyngdkraftens komposant vinkelrätt mot planet.</p>",
+    "ledtrad": "<p>Normalkraften balanserar tyngdkraftens del vinkelrätt mot planet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -162122,15 +162123,15 @@ window.BANK = [
     "niva": "E",
     "typ": "acceleration på friktionsfritt plan",
     "poang": "(1/0/0)",
-    "t": "<p>I en laboration rullar en vagn nedför en bana som lutar 15°. Bortse från friktionen. Använd g = 9,82 m/s².</p><p>Bestäm vagnens acceleration.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den enda kraften längs planet är tyngdkraftens komposant.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan tar ut sig.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{mg\\sin15^\\circ}{m}=9{,}82\\cdot\\sin15^\\circ\\approx2{,}54\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm{m/s^2}\\).</p></div>",
+    "t": "<p>En vagn med mycket lätta hjul rullar nedför en bana som lutar 15°. Bortse från motståndskrafter och hjulens massa. Bestäm accelerationen nedför banan. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs banan är mg sin15°. I modellen är den hela kraftsumman längs banan. Newtons andra lag ger</p>\\[ma=mg\\sin15^\\circ\\quad\\Rightarrow\\quad a=g\\sin15^\\circ\\]\\[a=9{,}82\\sin15^\\circ\\approx2{,}54\\,\\mathrm{m/s^2}\\]</div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 2.54,
-    "tolerans": 0.05,
+    "rättSvar": 2.5416030229067537,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Vilken kraft drar vagnen längs planet, och vad händer med massan i Newtons andra lag?</p>",
     "traningsniva": 2,
@@ -162149,7 +162150,7 @@ window.BANK = [
     "typ": "normalkraft vid ökad lutning",
     "poang": "(1/0/0)",
     "t": "<p>En låda ligger på ett plan. Planet lutas mer och mer, men lådan ligger kvar.</p><p>Hur ändras normalkraften på lådan?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften är lika stor som tyngdkraftens komposant vinkelrätt mot planet, mg·cos α.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När α ökar minskar cos α.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den minskar.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften balanserar tyngdkraftens del vinkelrätt mot planet. Den delen blir mindre när planet lutar mer.</p>\\[N=mg\\cos\\alpha\\]<p>När α ökar minskar cosα. Normalkraften minskar alltså.</p></div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "begrepp"
@@ -162167,7 +162168,7 @@ window.BANK = [
       {
         "txt": "Den ökar.",
         "ratt": false,
-        "kommentar": "Komposanten vinkelrätt mot planet blir mindre när lutningen ökar."
+        "kommentar": "Delen vinkelrätt mot planet blir mindre när lutningen ökar."
       },
       {
         "txt": "Den är oförändrad.",
@@ -162180,7 +162181,7 @@ window.BANK = [
         "kommentar": "Det gäller bara när planet är vågrätt."
       }
     ],
-    "ledtrad": "<p>Vilken komposant av tyngdkraften balanserar normalkraften?</p>",
+    "ledtrad": "<p>Vilken del av tyngdkraften balanserar normalkraften?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -162194,15 +162195,15 @@ window.BANK = [
     "niva": "E",
     "typ": "vilofriktion på lutande plan",
     "poang": "(1/0/0)",
-    "t": "<p>En ryggsäck med massan 12 kg ligger stilla på en stenhäll som lutar 25°. Använd g = 9,82 m/s².</p><p>Bestäm friktionskraften på ryggsäcken.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ryggsäcken ligger stilla, så friktionen är lika stor som tyngdkraftens komposant längs planet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_f=mg\\sin25^\\circ=12\\cdot9{,}82\\cdot\\sin25^\\circ\\approx49{,}8\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm N\\).</p></div>",
+    "t": "<p>En ryggsäck på 12 kg ligger stilla på en stenhäll som lutar 25°. Hur stor är friktionskraften på ryggsäcken? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ryggsäcken ligger stilla. Vilofriktionen uppför hällen balanserar tyngdkraftens del nedför.</p>\\[f=mg\\sin25^\\circ=12\\cdot9{,}82\\sin25^\\circ\\approx49{,}8\\,\\mathrm N\\]</div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 49.8,
-    "tolerans": 0.4,
+    "rättSvar": 49.801335963524025,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Ryggsäcken är i jämvikt längs hällen. Vilken kraft tar friktionen ut?</p>",
     "traningsniva": 2,
@@ -162220,17 +162221,17 @@ window.BANK = [
     "niva": "E",
     "typ": "fart efter rullning på plan",
     "poang": "(1/0/0)",
-    "t": "<p>En skateboardåkare släpper ett räcke och rullar från vila nedför en ramp som lutar 10°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm farten efter 3,0 s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Bestäm accelerationen längs planet och använd sedan</p><div class=\"facit-matte\">\\[v=a t\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=g\\sin10^\\circ=9{,}82\\cdot\\sin10^\\circ\\approx1{,}71\\ \\mathrm{m/s^2}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=at=1{,}705\\cdot3{,}0\\approx5{,}1\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}1\\ \\mathrm{m/s}\\).</p></div>",
+    "t": "<p>En skateboardåkare börjar rulla från vila nedför en ramp som lutar 10°. Bortse från motståndskrafter och hjulens massa. Vilken fart har åkaren efter 3,0 s? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs rampen ger den konstanta accelerationen</p>\\[a=g\\sin10^\\circ=9{,}82\\sin10^\\circ\\approx1{,}70523\\,\\mathrm{m/s^2}\\]<p>Åkaren startar från vila, så v = at. Använd den oavrundade accelerationen.</p>\\[v=9{,}82\\sin10^\\circ\\cdot3{,}0\\approx5{,}12\\,\\mathrm{m/s}\\]</div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 5.12,
-    "tolerans": 0.06,
+    "rättSvar": 5.115675314067768,
+    "tolerans": 0.005,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först accelerationen. Vagnen startar från vila.</p>",
+    "ledtrad": "<p>Bestäm först accelerationen. Åkaren startar från vila.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -162246,8 +162247,8 @@ window.BANK = [
     "niva": "E",
     "typ": "vilken kraft drar nedför planet",
     "poang": "(1/0/0)",
-    "t": "<p>En skidåkare glider rakt nedför en backe utan att staka.</p><p>Vilken kraft får skidåkaren att röra sig nedför backen?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften kan delas upp i en komposant längs planet och en vinkelrät mot planet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Komposanten längs planet drar lådan nedåt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraftens komposant längs planet.</p></div>",
+    "t": "<p>En skidåkare glider rakt nedför en backe utan att staka.</p><p>Vilken del av en kraft driver skidåkaren nedför backen?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften kan delas upp i en del längs planet och en vinkelrät mot planet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Delen längs planet drar skidåkaren nedåt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraftens del längs planet.</p></div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "begrepp"
@@ -162258,9 +162259,9 @@ window.BANK = [
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Tyngdkraftens komposant längs planet",
+        "txt": "Tyngdkraftens del längs planet",
         "ratt": true,
-        "kommentar": "Den komposanten pekar nedför planet."
+        "kommentar": "Den delen pekar nedför planet."
       },
       {
         "txt": "Normalkraften",
@@ -162273,12 +162274,12 @@ window.BANK = [
         "kommentar": "Friktionen motverkar glidningen och pekar uppför planet."
       },
       {
-        "txt": "Tyngdkraftens komposant vinkelrätt mot planet",
+        "txt": "Tyngdkraftens del vinkelrätt mot planet",
         "ratt": false,
         "kommentar": "Den balanseras av normalkraften."
       }
     ],
-    "ledtrad": "<p>Dela upp tyngdkraften i två komposanter.</p>",
+    "ledtrad": "<p>Dela upp tyngdkraften i två delar.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -162292,17 +162293,17 @@ window.BANK = [
     "niva": "C",
     "typ": "massa ur komposant",
     "poang": "(0/1/0)",
-    "t": "<p>En flyttkartong hålls stilla på en lastramp som lutar 35°. En dynamometer parallell med rampen visar 40 N. Bortse från friktionen. Använd g = 9,82 m/s².</p><p>Bestäm kartongens massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Komposanten längs planet är mg·sin α.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{F_\\parallel}{g\\sin35^\\circ}=\\frac{40}{9{,}82\\cdot0{,}574}\\approx7{,}1\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}1\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>En flyttkartong hålls stilla på en ramp som lutar 35°. En kraftmätare drar parallellt uppför rampen med 40 N. Bortse från friktion. Hur stor är kartongens massa? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraften uppför balanserar tyngdkraftens del nedför. Lös kraftbalansen för massan.</p>\\[40=mg\\sin35^\\circ\\quad\\Rightarrow\\quad m=\\frac{40}{g\\sin35^\\circ}\\]\\[m=\\frac{40}{9{,}82\\sin35^\\circ}\\approx7{,}10\\,\\mathrm{kg}\\]</div>",
     "familj": "Krafter på lutande plan",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 7.1,
-    "tolerans": 0.06,
+    "rättSvar": 7.101616275442355,
+    "tolerans": 0.005,
     "självrättning": true,
-    "ledtrad": "<p>Skriv upp sambandet för komposanten längs planet och lös ut m.</p>",
+    "ledtrad": "<p>Skriv upp sambandet för delen längs planet och lös ut m.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
@@ -162316,9 +162317,9 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "E",
     "typ": "skidåkare med konstant fart",
-    "poang": "(3/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p><ol type=\"a\"><li>Hur stor är normalkraften?</li><li>Hur stor är friktionskraften?</li><li>Bestäm friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=105\\cdot9{,}82\\cos22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(956\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Konstant fart: \\(F_{fr}=105\\cdot9{,}82\\sin22^\\circ\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(386\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{F_{fr}}{F_N}=\\tan22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\)</p></li></ol></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>En skidåkare på 105 kg glider med konstant fart nedför en backe som lutar 22°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är normalkraften i N? Svara med tre värdesiffror.</li><li>Hur stor är friktionskraften i N? Svara med tre värdesiffror.</li><li>Bestäm glidfriktionstalet. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Normalkraften balanserar tyngdkraftens del vinkelrätt mot backen.</p>\\[N=mg\\cos22^\\circ=105\\cdot9{,}82\\cos22^\\circ\\approx956\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Konstant fart innebär att kraftsumman längs backen är noll. Friktionen uppför balanserar tyngdkraftens del nedför.</p>\\[f=mg\\sin22^\\circ=105\\cdot9{,}82\\sin22^\\circ\\approx386\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Vid konstant fart är f = mg sin22°. Normalkraften är N = mg cos22°. Dividera friktionen med normalkraften.</p>\\[\\mu=\\frac{f}{N}=\\frac{mg\\sin22^\\circ}{mg\\cos22^\\circ}=\\tan22^\\circ\\approx0{,}404\\]</div>",
     "id": "4.578",
     "miniräknare": true,
     "geogebra": false,
@@ -162330,9 +162331,9 @@ window.BANK = [
       0.4040262258351568
     ],
     "tolerans": [
-      14.3,
-      5.79,
-      0.00606
+      0.5,
+      0.5,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -162356,14 +162357,14 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p>",
+    "spelIntro": "<p>En skidåkare på 105 kg glider med konstant fart nedför en backe som lutar 22°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är normalkraften?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p><p>Hur stor är normalkraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=105\\cdot9{,}82\\cos22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(956\\) N</p></div>",
-        "ledtrad": "<p>Normalkraften tar ut den vinkelräta komposanten.</p>",
+        "fraga": "Hur stor är normalkraften i N? Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare på 105 kg glider med konstant fart nedför en backe som lutar 22°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är normalkraften i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften balanserar tyngdkraftens del vinkelrätt mot backen.</p>\\[N=mg\\cos22^\\circ=105\\cdot9{,}82\\cos22^\\circ\\approx956\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Normalkraften tar ut den vinkelräta delen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -162371,10 +162372,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är friktionskraften?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p><p>Hur stor är friktionskraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Konstant fart: \\(F_{fr}=105\\cdot9{,}82\\sin22^\\circ\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(386\\) N</p></div>",
-        "ledtrad": "<p>Friktionen tar ut komposanten längs planet.</p>",
+        "fraga": "Hur stor är friktionskraften i N? Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare på 105 kg glider med konstant fart nedför en backe som lutar 22°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är friktionskraften i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att kraftsumman längs backen är noll. Friktionen uppför balanserar tyngdkraftens del nedför.</p>\\[f=mg\\sin22^\\circ=105\\cdot9{,}82\\sin22^\\circ\\approx386\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Friktionen tar ut delen längs planet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -162382,12 +162383,12 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med massan 105 kg glider med konstant fart nedför en backe med lutningen 22°. Bortse från luftmotståndet.</p><p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{F_{fr}}{F_N}=\\tan22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet. Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare på 105 kg glider med konstant fart nedför en backe som lutar 22°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är f = mg sin22°. Normalkraften är N = mg cos22°. Dividera friktionen med normalkraften.</p>\\[\\mu=\\frac{f}{N}=\\frac{mg\\sin22^\\circ}{mg\\cos22^\\circ}=\\tan22^\\circ\\approx0{,}404\\]</div>",
         "ledtrad": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}\\).</p>",
         "niva": "E",
-        "poang": "(1/1/0)",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1
       }
@@ -162404,8 +162405,8 @@ window.BANK = [
     "niva": "E",
     "typ": "puck med konstant fart",
     "poang": "(3/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p><ol type=\"a\"><li>Bestäm normalkraften.</li><li>Bestäm friktionskraften.</li><li>Bestäm friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=0{,}180\\cdot9{,}82\\cos15{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}71\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=0{,}180\\cdot9{,}82\\sin15{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}457\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\tan15{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}268\\)</p></li></ol></div>",
+    "t": "<p>En puck på 180 g glider med konstant fart nedför ett plan som lutar 15,0°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är normalkraften i N? Svara med tre värdesiffror.</li><li>Hur stor är friktionskraften i N? Svara med tre värdesiffror.</li><li>Bestäm glidfriktionstalet. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan: 180 g = 0,180 kg. Normalkraften balanserar tyngdkraftens del vinkelrätt mot planet.</p>\\[N=0{,}180\\cdot9{,}82\\cos15{,}0^\\circ\\approx1{,}71\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Konstant fart innebär kraftbalans längs planet. Massan är 180 g = 0,180 kg. Friktionen uppför balanserar tyngdkraftens del nedför.</p>\\[f=0{,}180\\cdot9{,}82\\sin15{,}0^\\circ\\approx0{,}457\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Konstant fart ger f = mg sin15,0°. Normalkraften är N = mg cos15,0°. I kvoten f/N förkortas mg bort.</p>\\[\\mu=\\frac{f}{N}=\\frac{\\sin15{,}0^\\circ}{\\cos15{,}0^\\circ}=\\tan15{,}0^\\circ\\approx0{,}268\\]</div>",
     "id": "4.579",
     "miniräknare": true,
     "geogebra": false,
@@ -162417,9 +162418,9 @@ window.BANK = [
       0.2679491924311227
     ],
     "tolerans": [
-      0.0256,
-      0.00686,
-      0.00402
+      0.005,
+      0.0005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -162442,14 +162443,14 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p>",
+    "spelIntro": "<p>En puck på 180 g glider med konstant fart nedför ett plan som lutar 15,0°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm normalkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p><p>Bestäm normalkraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=0{,}180\\cdot9{,}82\\cos15{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}71\\) N</p></div>",
-        "ledtrad": "<p>Vinkelräta komposanten.</p>",
+        "fraga": "Hur stor är normalkraften i N? Svara med tre värdesiffror.",
+        "t": "<p>En puck på 180 g glider med konstant fart nedför ett plan som lutar 15,0°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är normalkraften i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 180 g = 0,180 kg. Normalkraften balanserar tyngdkraftens del vinkelrätt mot planet.</p>\\[N=0{,}180\\cdot9{,}82\\cos15{,}0^\\circ\\approx1{,}71\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Vinkelräta delen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -162457,10 +162458,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionskraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p><p>Bestäm friktionskraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=0{,}180\\cdot9{,}82\\sin15{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}457\\) N</p></div>",
-        "ledtrad": "<p>Komposanten längs planet.</p>",
+        "fraga": "Hur stor är friktionskraften i N? Svara med tre värdesiffror.",
+        "t": "<p>En puck på 180 g glider med konstant fart nedför ett plan som lutar 15,0°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är friktionskraften i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär kraftbalans längs planet. Massan är 180 g = 0,180 kg. Friktionen uppför balanserar tyngdkraftens del nedför.</p>\\[f=0{,}180\\cdot9{,}82\\sin15{,}0^\\circ\\approx0{,}457\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Delen längs planet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -162468,9 +162469,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En puck med massan 180 g glider med konstant fart nedför ett plan med lutningen 15,0°.</p><p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\tan15{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}268\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet. Svara med tre värdesiffror.",
+        "t": "<p>En puck på 180 g glider med konstant fart nedför ett plan som lutar 15,0°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart ger f = mg sin15,0°. Normalkraften är N = mg cos15,0°. I kvoten f/N förkortas mg bort.</p>\\[\\mu=\\frac{f}{N}=\\frac{\\sin15{,}0^\\circ}{\\cos15{,}0^\\circ}=\\tan15{,}0^\\circ\\approx0{,}268\\]</div>",
         "ledtrad": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -162490,8 +162491,8 @@ window.BANK = [
     "niva": "C",
     "typ": "skjuta låda uppför",
     "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Greger skjuter en låda (75 kg) med konstant fart uppför ett plan med lutningen 28°, parallellt med planet. Friktionstalet är 0,35.</p><ol type=\"a\"><li>Hur stor är friktionskraften?</li><li>Hur stor kraft måste han skjuta med?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=0{,}35\\cdot75\\cdot9{,}82\\cos28^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(228\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Både friktionen och tyngdens komposant verkar nedåt: \\(F=75\\cdot9{,}82\\sin28^\\circ+F_{fr}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(573\\) N</p></li></ol></div>",
+    "t": "<p>Greger skjuter en låda på 75 kg med konstant fart uppför ett plan som lutar 28°. Han skjuter parallellt med planet. Glidfriktionstalet är 0,35. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är friktionskraften i N? Svara med tre värdesiffror.</li><li>Hur stor kraft måste Greger skjuta med i N? Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Dragkraften verkar längs planet, så normalkraften är N = mg cos28°. Friktionen är μN och verkar nedför.</p>\\[f=0{,}35\\cdot75\\cdot9{,}82\\cos28^\\circ\\approx228\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Konstant fart innebär kraftbalans. Greger ska balansera både friktionen och tyngdkraftens del nedför planet. Friktionen fås av f = 0,35 · 75 · 9,82 cos28° = 227,6018… N.</p>\\[F=mg\\sin28^\\circ+f\\]\\[F=75\\cdot9{,}82(\\sin28^\\circ+0{,}35\\cos28^\\circ)\\approx573\\,\\mathrm N\\]</div>",
     "id": "4.580",
     "miniräknare": true,
     "geogebra": false,
@@ -162502,8 +162503,8 @@ window.BANK = [
       573.3676217410184
     ],
     "tolerans": [
-      5.1,
-      8.6
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -162524,13 +162525,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Greger skjuter en låda (75 kg) med konstant fart uppför ett plan med lutningen 28°, parallellt med planet. Friktionstalet är 0,35.</p>",
+    "spelIntro": "<p>Greger skjuter en låda på 75 kg med konstant fart uppför ett plan som lutar 28°. Han skjuter parallellt med planet. Glidfriktionstalet är 0,35. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är friktionskraften?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Greger skjuter en låda (75 kg) med konstant fart uppför ett plan med lutningen 28°, parallellt med planet. Friktionstalet är 0,35.</p><p>Hur stor är friktionskraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=0{,}35\\cdot75\\cdot9{,}82\\cos28^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(228\\) N</p></div>",
+        "fraga": "Hur stor är friktionskraften i N? Svara med tre värdesiffror.",
+        "t": "<p>Greger skjuter en låda på 75 kg med konstant fart uppför ett plan som lutar 28°. Han skjuter parallellt med planet. Glidfriktionstalet är 0,35. Använd g = 9,82 m/s².</p><p>Hur stor är friktionskraften i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften verkar längs planet, så normalkraften är N = mg cos28°. Friktionen är μN och verkar nedför.</p>\\[f=0{,}35\\cdot75\\cdot9{,}82\\cos28^\\circ\\approx228\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>\\(F_{fr}=\\mu mg\\cos\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -162539,9 +162540,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor kraft måste han skjuta med?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Greger skjuter en låda (75 kg) med konstant fart uppför ett plan med lutningen 28°, parallellt med planet. Friktionstalet är 0,35.</p>Friktionskraften är 228 N.<p>Hur stor kraft måste han skjuta med?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Både friktionen och tyngdens komposant verkar nedåt: \\(F=75\\cdot9{,}82\\sin28^\\circ+F_{fr}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(573\\) N</p></div>",
+        "fraga": "Hur stor kraft måste Greger skjuta med i N? Svara med tre värdesiffror.",
+        "t": "<p>Greger skjuter en låda på 75 kg med konstant fart uppför ett plan som lutar 28°. Han skjuter parallellt med planet. Glidfriktionstalet är 0,35. Använd g = 9,82 m/s².</p><p>Hur stor kraft måste Greger skjuta med i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär kraftbalans. Greger ska balansera både friktionen och tyngdkraftens del nedför planet. Friktionen fås av f = 0,35 · 75 · 9,82 cos28° = 227,6018… N.</p>\\[F=mg\\sin28^\\circ+f\\]\\[F=75\\cdot9{,}82(\\sin28^\\circ+0{,}35\\cos28^\\circ)\\approx573\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilka krafter verkar nedför planet?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -162561,23 +162562,23 @@ window.BANK = [
     "niva": "C",
     "typ": "bil parkerad i brant backe",
     "poang": "(0/1/0)",
-    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil står parkerad i en backe med lutningen 38°. Vilket är det minsta friktionstalet som krävs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Precis på gränsen är \\(\\mu mg\\cos38^\\circ=mg\\sin38^\\circ\\iff\\mu=\\tan38^\\circ\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}78\\) </p></div>",
+    "t": "<p>En bil med låsta hjul står parkerad i en backe som lutar 38°. Vilket är det minsta vilofriktionstalet som hindrar bilen från att glida? Bilen kan inte tippa.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid gränsen till glidning är den största vilofriktionen lika stor som tyngdkraftens del nedför backen.</p>\\[\\mu mg\\cos38^\\circ=mg\\sin38^\\circ\\quad\\Rightarrow\\quad\\mu=\\tan38^\\circ\\]\\[\\mu_{\\min}\\approx0{,}781\\]</div>",
     "id": "4.581",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 0.7812856265067174,
-    "tolerans": 0.0117,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sätt största friktionen lika med komposanten längs planet.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Sätt största friktionen lika med delen längs planet.</p>",
+    "traningsniva": 3,
     "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
     "arbetsinsats": 1,
     "spel": true
@@ -162587,9 +162588,9 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "kloss när lutningen ökar",
-    "poang": "(2/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p><ol type=\"a\"><li>Hur stor är friktionskraften vid lutningen 10°?</li><li>Vilken acceleration får klossen vid lutningen 35°?</li><li>Vid vilken lutning glider klossen med konstant fart?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Komposanten längs planet \\(2{,}0\\cdot9{,}82\\sin10^\\circ\\approx3{,}4\\) N är mindre än största friktionen \\(\\approx7{,}0\\) N, så klossen ligger still och friktionen är 3,4 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin35^\\circ-0{,}36\\cos35^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}7\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan\\alpha=0{,}36\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) °</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>En kloss på 2,0 kg ligger på ett lutande plan. Friktionstalet är 0,36 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Planet lutar 10° och klossen släpps från vila. Hur stor är friktionskraften i N? Svara med tre värdesiffror.</li><li>Planet lutar 35° och klossen glider nedför. Bestäm accelerationen i m/s². Svara med tre värdesiffror.</li><li>Vilken lutning skulle ge konstant fart när klossen glider nedför? Svara i grader. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Tyngdkraftens del längs planet är F₁ = 2,0 · 9,82 sin10° ≈ 3,41045 N. Den största vilofriktionen är f_max = 0,36 · 2,0 · 9,82 cos10° ≈ 6,963 N. Den räcker alltså för att hålla klossen stilla. Friktionen blir lika stor som den kraft som behöver balanseras.</p>\\[f=2{,}0\\cdot9{,}82\\sin10^\\circ\\approx3{,}41\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Klossen glider nedför. Tyngdkraftens del nedför driver, medan glidfriktionen uppför bromsar. Efter division med massan blir</p>\\[\\begin{aligned}a&=g(\\sin35^\\circ-0{,}36\\cos35^\\circ)\\\\ &=9{,}82(\\sin35^\\circ-0{,}36\\cos35^\\circ)\\\\ &\\approx2{,}74\\,\\mathrm{m/s^2}\\end{aligned}\\]<p><strong>c)</strong></p><p>Vid konstant fart balanserar glidfriktionen tyngdkraftens del nedför.</p>\\[mg\\sin\\alpha=0{,}36mg\\cos\\alpha\\quad\\Rightarrow\\quad\\tan\\alpha=0{,}36\\]\\[\\alpha=\\arctan0{,}36\\approx19{,}8^\\circ\\]</div>",
     "id": "4.582",
     "miniräknare": true,
     "geogebra": false,
@@ -162601,9 +162602,9 @@ window.BANK = [
       19.798876354524932
     ],
     "tolerans": [
-      0.0512,
-      0.051,
-      0.51
+      0.005,
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -162627,13 +162628,13 @@ window.BANK = [
       "°"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p>",
+    "spelIntro": "<p>En kloss på 2,0 kg ligger på ett lutande plan. Friktionstalet är 0,36 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är friktionskraften vid lutningen 10°?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p><p>Hur stor är friktionskraften vid lutningen 10°?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Komposanten längs planet \\(2{,}0\\cdot9{,}82\\sin10^\\circ\\approx3{,}4\\) N är mindre än största friktionen \\(\\approx7{,}0\\) N, så klossen ligger still och friktionen är 3,4 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\) N</p></div>",
+        "fraga": "Planet lutar 10° och klossen släpps från vila. Hur stor är friktionskraften i N? Svara med tre värdesiffror.",
+        "t": "<p>En kloss på 2,0 kg ligger på ett lutande plan. Friktionstalet är 0,36 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Planet lutar 10° och klossen släpps från vila. Hur stor är friktionskraften i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs planet är F₁ = 2,0 · 9,82 sin10° ≈ 3,41045 N. Den största vilofriktionen är f_max = 0,36 · 2,0 · 9,82 cos10° ≈ 6,963 N. Den räcker alltså för att hålla klossen stilla. Friktionen blir lika stor som den kraft som behöver balanseras.</p>\\[f=2{,}0\\cdot9{,}82\\sin10^\\circ\\approx3{,}41\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Jämför med största möjliga friktion.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -162642,24 +162643,24 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får klossen vid lutningen 35°?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p><p>Vilken acceleration får klossen vid lutningen 35°?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin35^\\circ-0{,}36\\cos35^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}7\\) m/s²</p></div>",
+        "fraga": "Planet lutar 35° och klossen glider nedför. Bestäm accelerationen i m/s². Svara med tre värdesiffror.",
+        "t": "<p>En kloss på 2,0 kg ligger på ett lutande plan. Friktionstalet är 0,36 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Planet lutar 35° och klossen glider nedför. Bestäm accelerationen i m/s². Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossen glider nedför. Tyngdkraftens del nedför driver, medan glidfriktionen uppför bromsar. Efter division med massan blir</p>\\[\\begin{aligned}a&=g(\\sin35^\\circ-0{,}36\\cos35^\\circ)\\\\ &=9{,}82(\\sin35^\\circ-0{,}36\\cos35^\\circ)\\\\ &\\approx2{,}74\\,\\mathrm{m/s^2}\\end{aligned}\\]</div>",
         "ledtrad": "<p>Nu glider klossen.</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vid vilken lutning glider klossen med konstant fart?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss med massan 2,0 kg ligger på ett plan. Friktionstalet är 0,36. Lutningen ökas.</p><p>Vid vilken lutning glider klossen med konstant fart?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan\\alpha=0{,}36\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) °</p></div>",
+        "fraga": "Vilken lutning skulle ge konstant fart när klossen glider nedför? Svara i grader. Svara med tre värdesiffror.",
+        "t": "<p>En kloss på 2,0 kg ligger på ett lutande plan. Friktionstalet är 0,36 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken lutning skulle ge konstant fart när klossen glider nedför? Svara i grader. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar glidfriktionen tyngdkraftens del nedför.</p>\\[mg\\sin\\alpha=0{,}36mg\\cos\\alpha\\quad\\Rightarrow\\quad\\tan\\alpha=0{,}36\\]\\[\\alpha=\\arctan0{,}36\\approx19{,}8^\\circ\\]</div>",
         "ledtrad": "<p>\\(\\mu=\\tan\\alpha\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
@@ -162674,9 +162675,9 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "dra kloss uppför",
-    "poang": "(2/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p><ol type=\"a\"><li>Hur stor är friktionskraften?</li><li>Bestäm friktionstalet.</li><li>Klossen släpps och glider nedför. Vilken acceleration får den?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=18-5{,}0\\cdot9{,}82\\sin15^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}3\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{F_{fr}}{5{,}0\\cdot9{,}82\\cos15^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}11\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin15^\\circ-0{,}11\\cos15^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) m/s²</p></li></ol></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>En kloss på 5,0 kg dras med konstant fart uppför ett plan som lutar 15°. Dragkraften är 18 N längs planet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är friktionskraften i N? Svara med tre värdesiffror.</li><li>Bestäm glidfriktionstalet. Svara med tre värdesiffror.</li><li>I ett nytt försök glider klossen nedför utan dragkraft. Glidfriktionstalet är oförändrat. Bestäm accelerationen i m/s². Svara med två värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart innebär att dragkraften balanserar både tyngdkraftens del längs planet och friktionen.</p>\\[18=5{,}0g\\sin15^\\circ+f\\]\\[f=18-5{,}0\\cdot9{,}82\\sin15^\\circ\\approx5{,}29\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Friktionen fås av kraftbalansen: f = 18 − 5,0g sin15° = 5,291984… N. Normalkraften är N = 5,0g cos15° = 47,426958… N. Använd de oavrundade värdena i kvoten.</p>\\[\\begin{aligned}\\mu&=\\frac{f}{N}\\\\ &=\\frac{18-5{,}0\\cdot9{,}82\\sin15^\\circ}{5{,}0\\cdot9{,}82\\cos15^\\circ}\\\\ &\\approx0{,}112\\end{aligned}\\]<p><strong>c)</strong></p><p>Försöket med konstant fart uppför ger friktionen f = 18 − 5,0g sin15° = 5,291984… N. I det nya försöket verkar samma glidfriktion uppför, medan tyngdkraftens del nedför driver.</p>\\[a=\\frac{5{,}0g\\sin15^\\circ-f}{5{,}0}\\approx1{,}5\\,\\mathrm{m/s^2}\\]</div>",
     "id": "4.583",
     "miniräknare": true,
     "geogebra": false,
@@ -162688,9 +162689,9 @@ window.BANK = [
       1.4832060458135075
     ],
     "tolerans": [
-      0.0794,
-      0.0051,
-      0.051
+      0.005,
+      0.0005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -162714,35 +162715,35 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p>",
+    "spelIntro": "<p>En kloss på 5,0 kg dras med konstant fart uppför ett plan som lutar 15°. Dragkraften är 18 N längs planet. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är friktionskraften?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p><p>Hur stor är friktionskraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=18-5{,}0\\cdot9{,}82\\sin15^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}3\\) N</p></div>",
-        "ledtrad": "<p>Dragkraften tar ut tyngdens komposant och friktionen.</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p>Friktionskraften är 5,3 N.<p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{F_{fr}}{5{,}0\\cdot9{,}82\\cos15^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}11\\)</p></div>",
-        "ledtrad": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}\\).</p>",
+        "fraga": "Hur stor är friktionskraften i N? Svara med tre värdesiffror.",
+        "t": "<p>En kloss på 5,0 kg dras med konstant fart uppför ett plan som lutar 15°. Dragkraften är 18 N längs planet. Använd g = 9,82 m/s².</p><p>Hur stor är friktionskraften i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att dragkraften balanserar både tyngdkraftens del längs planet och friktionen.</p>\\[18=5{,}0g\\sin15^\\circ+f\\]\\[f=18-5{,}0\\cdot9{,}82\\sin15^\\circ\\approx5{,}29\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Dragkraften tar ut tyngdens del och friktionen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
+        "etikett": "b",
+        "fraga": "Bestäm glidfriktionstalet med tre värdesiffror.",
+        "t": "<p>En kloss på 5,0 kg glider på ett plan som lutar 15°. Glidfriktionen är 5,292 N. Bara tyngdkraft, normalkraft, glidfriktion och en kraft längs planet verkar. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraften längs planet ändrar inte normalkraften. Därför är N = mg cos15°. Dividera friktionen med normalkraften.</p>\\[\\mu=\\frac{5{,}292}{5{,}0\\cdot9{,}82\\cos15^\\circ}\\approx0{,}112\\]</div>",
+        "ledtrad": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      },
+      {
         "etikett": "c",
-        "fraga": "Klossen släpps och glider nedför. Vilken acceleration får den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (5,0 kg) dras med konstant fart uppför ett plan med lutningen 15° med kraften 18 N parallellt med planet.</p>Friktionstalet är 0,11.<p>Klossen släpps och glider nedför. Vilken acceleration får den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin15^\\circ-0{,}11\\cos15^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen nedför i m/s² med två värdesiffror.",
+        "t": "<p>En kloss glider nedför ett plan som lutar 15°. Glidfriktionstalet är 0,11. Bara tyngdkraft, normalkraft och glidfriktion verkar. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen nedför i m/s² med två värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del nedför driver och friktionen uppför bromsar. Efter division med massan fås</p>\\[\\begin{aligned}a&=g(\\sin15^\\circ-\\mu\\cos15^\\circ)\\\\ &=9{,}82(\\sin15^\\circ-0{,}11\\cos15^\\circ)\\\\ &\\approx1{,}5\\,\\mathrm{m/s^2}\\end{aligned}\\]</div>",
         "ledtrad": "<p>Nu verkar friktionen uppåt.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -162750,8 +162751,8 @@ window.BANK = [
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Friktionen motverkar alltid rörelsen.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Glidfriktionen bromsar glidningen längs underlaget.</p>",
+    "traningsniva": 4,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -162759,11 +162760,11 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "skjuta låda i backe",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Peter skjuter en låda (55 kg) med konstant fart uppför en backe med lutningen 20°, parallellt med backen.</p><ol type=\"a\"><li>Hur stor kraft krävs utan friktion?</li><li>Hur stor kraft krävs om friktionstalet är 0,35?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=55\\cdot9{,}82\\sin20^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(185\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=55\\cdot9{,}82(\\sin20^\\circ+0{,}35\\cos20^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(362\\) N</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Peter skjuter en låda på 55 kg med konstant fart uppför en backe som lutar 20°. Kraften är parallell med backen. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor kraft krävs om backen är friktionsfri? Svara i N. Svara med tre värdesiffror.</li><li>Hur stor kraft krävs om glidfriktionstalet är 0,35? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart är kraftsumman noll. Utan friktion behöver Peter bara balansera tyngdkraftens del nedför.</p>\\[F=mg\\sin20^\\circ=55\\cdot9{,}82\\sin20^\\circ\\approx185\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Glidfriktionen är f = 0,35mg cos20° och verkar nedför. Kraften ska balansera både friktionen och tyngdkraftens del längs backen.</p>\\[F=55\\cdot9{,}82(\\sin20^\\circ+0{,}35\\cos20^\\circ)\\approx362\\,\\mathrm N\\]</div>",
     "id": "4.584",
     "miniräknare": true,
     "geogebra": false,
@@ -162774,8 +162775,8 @@ window.BANK = [
       362.3598739804579
     ],
     "tolerans": [
-      5.1,
-      5.44
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -162795,14 +162796,14 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Peter skjuter en låda (55 kg) med konstant fart uppför en backe med lutningen 20°, parallellt med backen.</p>",
+    "spelIntro": "<p>Peter skjuter en låda på 55 kg med konstant fart uppför en backe som lutar 20°. Kraften är parallell med backen. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor kraft krävs utan friktion?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Peter skjuter en låda (55 kg) med konstant fart uppför en backe med lutningen 20°, parallellt med backen.</p><p>Hur stor kraft krävs utan friktion?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=55\\cdot9{,}82\\sin20^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(185\\) N</p></div>",
-        "ledtrad": "<p>Komposanten längs planet.</p>",
+        "fraga": "Hur stor kraft krävs om backen är friktionsfri? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>Peter skjuter en låda på 55 kg med konstant fart uppför en backe som lutar 20°. Kraften är parallell med backen. Använd g = 9,82 m/s².</p><p>Hur stor kraft krävs om backen är friktionsfri? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är kraftsumman noll. Utan friktion behöver Peter bara balansera tyngdkraftens del nedför.</p>\\[F=mg\\sin20^\\circ=55\\cdot9{,}82\\sin20^\\circ\\approx185\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Delen längs planet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -162810,18 +162811,18 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor kraft krävs om friktionstalet är 0,35?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Peter skjuter en låda (55 kg) med konstant fart uppför en backe med lutningen 20°, parallellt med backen.</p><p>Hur stor kraft krävs om friktionstalet är 0,35?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=55\\cdot9{,}82(\\sin20^\\circ+0{,}35\\cos20^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(362\\) N</p></div>",
+        "fraga": "Hur stor kraft krävs om glidfriktionstalet är 0,35? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>Peter skjuter en låda på 55 kg med konstant fart uppför en backe som lutar 20°. Kraften är parallell med backen. Använd g = 9,82 m/s².</p><p>Hur stor kraft krävs om glidfriktionstalet är 0,35? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Glidfriktionen är f = 0,35mg cos20° och verkar nedför. Kraften ska balansera både friktionen och tyngdkraftens del längs backen.</p>\\[F=55\\cdot9{,}82(\\sin20^\\circ+0{,}35\\cos20^\\circ)\\approx362\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Lägg till friktionen.</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Konstant fart: jämvikt längs planet.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -162829,11 +162830,11 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "pulka i backe",
-    "poang": "(3/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p><ol type=\"a\"><li>Vilken acceleration får hon utan friktion?</li><li>Vilken acceleration får hon om friktionstalet är 0,15?</li><li>Vilket friktionstal ger konstant fart?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82\\sin25^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin25^\\circ-0{,}15\\cos25^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\tan25^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}47\\)</p></li></ol></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>Stina glider på en pulka nedför en backe som lutar 25°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm accelerationen i m/s² om backen är friktionsfri. Svara med tre värdesiffror.</li><li>Bestäm accelerationen i m/s² om glidfriktionstalet är 0,15. Svara med tre värdesiffror.</li><li>Vilket glidfriktionstal skulle ge konstant fart? Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Utan friktion är tyngdkraftens del längs backen hela kraftsumman. Dividera ma = mg sin25° med massan.</p>\\[\\begin{aligned}a&=g\\sin25^\\circ\\\\ &=9{,}82\\sin25^\\circ\\\\ &\\approx4{,}15\\,\\mathrm{m/s^2}\\end{aligned}\\]<p><strong>b)</strong></p><p>Tyngdkraftens del nedför driver. Friktionen μmg cos25° bromsar uppför. Dividera kraftsumman med massan.</p>\\[\\begin{aligned}a&=g(\\sin25^\\circ-0{,}15\\cos25^\\circ)\\\\ &=9{,}82(\\sin25^\\circ-0{,}15\\cos25^\\circ)\\\\ &\\approx2{,}82\\,\\mathrm{m/s^2}\\end{aligned}\\]<p><strong>c)</strong></p><p>Konstant fart innebär att friktionen balanserar tyngdkraftens del nedför.</p>\\[\\begin{aligned}\\mu mg\\cos25^\\circ&=mg\\sin25^\\circ\\\\ &\\Rightarrow \\mu\\\\ &=\\tan25^\\circ\\\\ &\\approx0{,}466\\end{aligned}\\]</div>",
     "id": "4.585",
     "miniräknare": true,
     "geogebra": false,
@@ -162845,9 +162846,9 @@ window.BANK = [
       0.4663076581549986
     ],
     "tolerans": [
-      0.0623,
-      0.051,
-      0.00699
+      0.005,
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -162871,13 +162872,13 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p>",
+    "spelIntro": "<p>Stina glider på en pulka nedför en backe som lutar 25°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är accelerationen längs backen? Svara i m/s².",
-        "t": "<p>En pulka glider nedför en backe som lutar 25°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen längs backen? Svara i m/s².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82\\sin25^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen i m/s² om backen är friktionsfri. Svara med tre värdesiffror.",
+        "t": "<p>Stina glider på en pulka nedför en backe som lutar 25°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen i m/s² om backen är friktionsfri. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan friktion är tyngdkraftens del längs backen hela kraftsumman. Dividera ma = mg sin25° med massan.</p>\\[\\begin{aligned}a&=g\\sin25^\\circ\\\\ &=9{,}82\\sin25^\\circ\\\\ &\\approx4{,}15\\,\\mathrm{m/s^2}\\end{aligned}\\]</div>",
         "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -162886,29 +162887,29 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får hon om friktionstalet är 0,15?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p><p>Vilken acceleration får hon om friktionstalet är 0,15?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin25^\\circ-0{,}15\\cos25^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen i m/s² om glidfriktionstalet är 0,15. Svara med tre värdesiffror.",
+        "t": "<p>Stina glider på en pulka nedför en backe som lutar 25°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen i m/s² om glidfriktionstalet är 0,15. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del nedför driver. Friktionen μmg cos25° bromsar uppför. Dividera kraftsumman med massan.</p>\\[\\begin{aligned}a&=g(\\sin25^\\circ-0{,}15\\cos25^\\circ)\\\\ &=9{,}82(\\sin25^\\circ-0{,}15\\cos25^\\circ)\\\\ &\\approx2{,}82\\,\\mathrm{m/s^2}\\end{aligned}\\]</div>",
         "ledtrad": "<p>Dra av friktionen.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilket friktionstal ger konstant fart?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p><p>Vilket friktionstal ger konstant fart?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\tan25^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}47\\)</p></div>",
+        "fraga": "Vilket glidfriktionstal skulle ge konstant fart? Svara med tre värdesiffror.",
+        "t": "<p>Stina glider på en pulka nedför en backe som lutar 25°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilket glidfriktionstal skulle ge konstant fart? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att friktionen balanserar tyngdkraftens del nedför.</p>\\[\\begin{aligned}\\mu mg\\cos25^\\circ&=mg\\sin25^\\circ\\\\ &\\Rightarrow \\mu\\\\ &=\\tan25^\\circ\\\\ &\\approx0{,}466\\end{aligned}\\]</div>",
         "ledtrad": "<p>\\(\\mu=\\tan\\alpha\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Accelerationen beror inte på massan.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -162919,8 +162920,8 @@ window.BANK = [
     "niva": "C",
     "typ": "kälke i backe",
     "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Hans åker kälke nedför en backe med lutningen 20°. Tyngdens komposant längs backen är 136,8 N och friktionskraften 20,0 N.</p><ol type=\"a\"><li>Vilken massa har Hans och kälken tillsammans?</li><li>Bestäm friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{136{,}8}{9{,}82\\sin20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{20{,}0}{m\\cdot9{,}82\\cos20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}053\\)</p></li></ol></div>",
+    "t": "<p>Hans glider på en kälke nedför en backe som lutar 20°. Tyngdkraftens del längs backen är 136,8 N och glidfriktionen är 20,0 N. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken massa har Hans och kälken tillsammans? Svara i kg. Svara med tre värdesiffror.</li><li>Bestäm glidfriktionstalet. Svara med två värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Tyngdkraftens del längs backen är mg sin20°. Lös för massan.</p>\\[\\begin{aligned}136{,}8&=mg\\sin20^\\circ\\\\ &\\Rightarrow  m\\\\ &=\\frac{136{,}8}{9{,}82\\sin20^\\circ}\\\\ &\\approx40{,}7\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>b)</strong></p><p>Massan fås av tyngdkraftens del längs backen: m = 136,8/(9,82 sin20°) = 40,730798… kg. Normalkraften är N = mg cos20°. Använd den oavrundade massan.</p>\\[\\mu=\\frac{20{,}0}{[136{,}8/(9{,}82\\sin20^\\circ)]\\cdot9{,}82\\cos20^\\circ}\\approx0{,}053\\]</div>",
     "id": "4.586",
     "miniräknare": true,
     "geogebra": false,
@@ -162931,8 +162932,8 @@ window.BANK = [
       0.05321202255353835
     ],
     "tolerans": [
-      0.611,
-      0.000798
+      0.05,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -162952,33 +162953,33 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Hans åker kälke nedför en backe med lutningen 20°. Tyngdens komposant längs backen är 136,8 N och friktionskraften 20,0 N.</p>",
+    "spelIntro": "<p>Hans glider på en kälke nedför en backe som lutar 20°. Tyngdkraftens del längs backen är 136,8 N och glidfriktionen är 20,0 N. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken massa har Hans och kälken tillsammans?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Hans åker kälke nedför en backe med lutningen 20°. Tyngdens komposant längs backen är 136,8 N och friktionskraften 20,0 N.</p><p>Vilken massa har Hans och kälken tillsammans?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{136{,}8}{9{,}82\\sin20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) kg</p></div>",
+        "fraga": "Vilken massa har Hans och kälken tillsammans? Svara i kg. Svara med tre värdesiffror.",
+        "t": "<p>Hans glider på en kälke nedför en backe som lutar 20°. Tyngdkraftens del längs backen är 136,8 N och glidfriktionen är 20,0 N. Använd g = 9,82 m/s².</p><p>Vilken massa har Hans och kälken tillsammans? Svara i kg. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen är mg sin20°. Lös för massan.</p>\\[\\begin{aligned}136{,}8&=mg\\sin20^\\circ\\\\ &\\Rightarrow  m\\\\ &=\\frac{136{,}8}{9{,}82\\sin20^\\circ}\\\\ &\\approx40{,}7\\,\\mathrm{kg}\\end{aligned}\\]</div>",
         "ledtrad": "<p>\\(F_\\parallel=mg\\sin\\alpha\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Hans åker kälke nedför en backe med lutningen 20°. Tyngdens komposant längs backen är 136,8 N och friktionskraften 20,0 N.</p>Massan är 40,7 kg.<p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{20{,}0}{m\\cdot9{,}82\\cos20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}053\\)</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med två värdesiffror.",
+        "t": "<p>Hans och kälken har tillsammans massan 40,7 kg och glider i en backe som lutar 20°. Glidfriktionen är 20,0 N. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med två värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är N = mg cos20°. Glidfriktionstalet är friktionen delad med normalkraften.</p>\\[\\mu=\\frac{20{,}0}{40{,}7\\cdot9{,}82\\cos20^\\circ}\\approx0{,}053\\]</div>",
         "ledtrad": "<p>Bestäm normalkraften.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Komposanterna av tyngden.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Delerna av tyngden.</p>",
+    "traningsniva": 3,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -162989,22 +162990,22 @@ window.BANK = [
     "niva": "E",
     "typ": "bil i backe",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1,2 ton) står stilla i en backe med lutningen 12°. Hur stor är friktionskraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=1\\,200\\cdot9{,}82\\sin12^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,450\\) N</p></div>",
+    "t": "<p>En bil på 1,2 ton står stilla i en backe som lutar 12°. Hur stor är friktionskraften från vägen på bilen? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 1,2 ton = 1200 kg. Bilen står stilla, så friktionen uppför balanserar tyngdkraftens del nedför.</p>\\[f=1200\\cdot9{,}82\\sin12^\\circ\\approx2{,}45\\cdot10^3\\,\\mathrm N\\]</div>",
     "id": "4.587",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 2450.031364596476,
-    "tolerans": 51.0,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Friktionen tar ut komposanten längs backen.</p>",
+    "ledtrad": "<p>Friktionen tar ut delen längs backen.</p>",
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
@@ -163014,18 +163015,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "största lutning för lastbil",
-    "poang": "(1/0/0)",
-    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Friktionstalet mellan en lastbils däck och en backe är 0,85. Hur brant får backen högst vara om lastbilen ska stå still?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan\\alpha=0{,}85\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\) °</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En lastbil med låsta hjul står i en backe. Vilofriktionstalet mellan däck och väg är 0,85. Vilken är den största lutning där lastbilen kan stå kvar? Bortse från tippning. Svara i grader.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid glidgränsen balanserar den största vilofriktionen tyngdkraftens del längs backen.</p>\\[\\mu mg\\cos\\alpha=mg\\sin\\alpha\\quad\\Rightarrow\\quad\\tan\\alpha=\\mu\\]\\[\\alpha=\\arctan0{,}85\\approx40{,}4^\\circ\\]</div>",
     "id": "4.588",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 40.36453657309736,
-    "tolerans": 0.605,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -163033,7 +163034,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(\\mu=\\tan\\alpha\\) vid gränsen.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "°",
     "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
     "arbetsinsats": 1,
@@ -163042,18 +163043,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "låda som släpps på plan",
-    "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (6,7 kg) släpps på ett plan med lutningen 29°. Friktionstalet är 0,18. Beräkna accelerationen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin29^\\circ-0{,}18\\cos29^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\) m/s²</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En låda glider nedför ett plan som lutar 29°. Glidfriktionstalet är 0,18. Bara tyngdkraft, normalkraft och friktion verkar. Bestäm accelerationen nedför i m/s². Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del nedför driver, medan friktionen μmg cos29° bromsar uppför. Efter division med massan får vi</p>\\[\\begin{aligned}a&=g(\\sin29^\\circ-\\mu\\cos29^\\circ)\\\\ &=9{,}82(\\sin29^\\circ-0{,}18\\cos29^\\circ)\\\\ &\\approx3{,}21\\,\\mathrm{m/s^2}\\end{aligned}\\]</div>",
     "id": "4.589",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 3.2148526764794343,
-    "tolerans": 0.051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -163061,7 +163062,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(a=g(\\sin\\alpha-\\mu\\cos\\alpha)\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "m/s²",
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 1,
@@ -163070,11 +163071,11 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "cyklist som rullar",
-    "poang": "(2/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (80 kg) rullar med konstant fart nedför en backe med lutningen 15°. Bortse från luftmotståndet.</p><ol type=\"a\"><li>Beräkna friktionskraften.</li><li>Beräkna friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=80\\cdot9{,}82\\sin15^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(203\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\tan15^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}27\\)</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En cyklist och cykel väger tillsammans 80 kg. Cyklisten bromsar för att hålla konstant fart nedför en backe som lutar 15°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är den bromsande kraften från vägen? Svara i N. Svara med tre värdesiffror.</li><li>Hur stor är bromskraften delad med normalkraften? Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart innebär kraftbalans längs backen. Bromskraften uppför balanserar tyngdkraftens del nedför.</p>\\[f=mg\\sin15^\\circ=80\\cdot9{,}82\\sin15^\\circ\\approx203\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Normalkraften är N = mg cos15°. Vid konstant fart är bromskraften f = mg sin15°. Kvoten blir</p>\\[\\frac{f}{N}=\\frac{mg\\sin15^\\circ}{mg\\cos15^\\circ}=\\tan15^\\circ\\approx0{,}268\\]<p>Kvoten beskriver den bromskraft som används, inte automatiskt däckens största möjliga grepp.</p></div>",
     "id": "4.590",
     "miniräknare": true,
     "geogebra": false,
@@ -163085,8 +163086,8 @@ window.BANK = [
       0.2679491924311227
     ],
     "tolerans": [
-      5.1,
-      0.0051
+      0.5,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -163106,13 +163107,13 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (80 kg) rullar med konstant fart nedför en backe med lutningen 15°. Bortse från luftmotståndet.</p>",
+    "spelIntro": "<p>En cyklist och cykel väger tillsammans 80 kg. Cyklisten bromsar för att hålla konstant fart nedför en backe som lutar 15°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna friktionskraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (80 kg) rullar med konstant fart nedför en backe med lutningen 15°. Bortse från luftmotståndet.</p><p>Beräkna friktionskraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=80\\cdot9{,}82\\sin15^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(203\\) N</p></div>",
+        "fraga": "Hur stor är den bromsande kraften från vägen? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En cyklist och cykel väger tillsammans 80 kg. Cyklisten bromsar för att hålla konstant fart nedför en backe som lutar 15°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är den bromsande kraften från vägen? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär kraftbalans längs backen. Bromskraften uppför balanserar tyngdkraftens del nedför.</p>\\[f=mg\\sin15^\\circ=80\\cdot9{,}82\\sin15^\\circ\\approx203\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Konstant fart.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -163121,18 +163122,18 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (80 kg) rullar med konstant fart nedför en backe med lutningen 15°. Bortse från luftmotståndet.</p><p>Beräkna friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\tan15^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}27\\)</p></div>",
-        "ledtrad": "<p>\\(\\mu=\\dfrac{F_{fr}}{F_N}\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "fraga": "Hur stor är bromskraften delad med normalkraften? Svara med tre värdesiffror.",
+        "t": "<p>En cyklist och cykel väger tillsammans 80 kg. Cyklisten bromsar för att hålla konstant fart nedför en backe som lutar 15°. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är bromskraften delad med normalkraften? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är N = mg cos15°. Vid konstant fart är bromskraften f = mg sin15°. Kvoten blir</p>\\[\\frac{f}{N}=\\frac{mg\\sin15^\\circ}{mg\\cos15^\\circ}=\\tan15^\\circ\\approx0{,}268\\]<p>Kvoten beskriver den bromskraft som används, inte automatiskt däckens största möjliga grepp.</p></div>",
+        "ledtrad": "<p>Dividera kraften som balanserar tyngdkraftens del längs backen med normalkraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Konstant fart: jämvikt.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -163142,16 +163143,16 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "cyklist som trampar uppför",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (85 kg) accelererar uppför en backe med lutningen 14° med 1,1 m/s². Bortse från rull- och luftmotstånd. Hur stor är friktionskraften från vägen på däcken?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen driver cyklisten uppför: \\(F_{fr}-mg\\sin14^\\circ=ma\\iff F_{fr}=85(1{,}1+9{,}82\\sin14^\\circ)\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(295\\) N</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En cyklist och cykel väger tillsammans 85 kg och accelererar uppför en backe som lutar 14°. Accelerationen är 1,1 m/s² uppför. Bortse från rull- och luftmotstånd. Hur stor är den drivande kraften från vägen på däcken? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vägens kraft driver uppför. Tyngdkraftens del längs backen verkar nedför. Kraften ska alltså både balansera tyngdkraftens del och ge kraftsumman ma.</p>\\[F-mg\\sin14^\\circ=ma\\]\\[F=85(1{,}1+9{,}82\\sin14^\\circ)\\approx295\\,\\mathrm N\\]</div>",
     "id": "4.591",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 295.43220625704265,
-    "tolerans": 5.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -163171,15 +163172,15 @@ window.BANK = [
     "niva": "E",
     "typ": "patient i lutande läge",
     "poang": "(1/0/0)",
-    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En patient läggs på ett lutande underlag med friktionstalet 1,20. Vilken är den största vinkeln innan patienten glider?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan\\alpha=1{,}20\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\) °</p></div>",
+    "t": "<p>En patient ligger stilla på ett underlag som höjs långsamt. Vilofriktionstalet är 1,20. Vid vilken vinkel börjar patienten glida? Använd sambandet tanα = μ vid glidgränsen. Svara i grader.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det givna sambandet ger tanα = 1,20. Använd invers tangens för vinkeln.</p>\\[\\alpha=\\arctan1{,}20\\approx50{,}2^\\circ\\]</div>",
     "id": "4.592",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 50.19442890773481,
-    "tolerans": 0.753,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -163196,11 +163197,11 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "dra låda med rep",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Fredrik drar en låda (30 kg) uppför ett plan med lutningen 30° i ett rep parallellt med planet. Friktionstalet är 0,30.</p><ol type=\"a\"><li>Hur stor kraft krävs för konstant fart?</li><li>Hur stor kraft ger accelerationen 0,50 m/s² uppför planet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=30\\cdot9{,}82(\\sin30^\\circ+0{,}30\\cos30^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(224\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lägg till \\(ma=30\\cdot0{,}50\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(239\\) N</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Fredrik drar en låda på 30 kg uppför ett plan som lutar 30°. Repet är parallellt med planet. Glidfriktionstalet är 0,30. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor dragkraft krävs vid konstant fart? Svara i N. Svara med tre värdesiffror.</li><li>Hur stor dragkraft ger accelerationen 0,50 m/s² uppför? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart ska dragkraften balansera tyngdkraftens del och friktionen nedför.</p>\\[F=mg\\sin30^\\circ+\\mu mg\\cos30^\\circ\\]\\[F=30\\cdot9{,}82(\\sin30^\\circ+0{,}30\\cos30^\\circ)\\approx224\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Motståndet längs planet är R = 30 · 9,82(sin30° + 0,30cos30°) = 223,839325… N. För att accelerera ska kraften dessutom ge ma = 30 · 0,50 = 15 N.</p>\\[\\begin{aligned}F&=R+ma\\\\ &=R+15\\\\ &\\approx239\\,\\mathrm N\\end{aligned}\\]</div>",
     "id": "4.593",
     "miniräknare": true,
     "geogebra": false,
@@ -163211,8 +163212,8 @@ window.BANK = [
       238.83932518646867
     ],
     "tolerans": [
-      5.1,
-      5.1
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -163232,24 +163233,24 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Fredrik drar en låda (30 kg) uppför ett plan med lutningen 30° i ett rep parallellt med planet. Friktionstalet är 0,30.</p>",
+    "spelIntro": "<p>Fredrik drar en låda på 30 kg uppför ett plan som lutar 30°. Repet är parallellt med planet. Glidfriktionstalet är 0,30. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor kraft krävs för konstant fart?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Fredrik drar en låda (30 kg) uppför ett plan med lutningen 30° i ett rep parallellt med planet. Friktionstalet är 0,30.</p><p>Hur stor kraft krävs för konstant fart?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=30\\cdot9{,}82(\\sin30^\\circ+0{,}30\\cos30^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(224\\) N</p></div>",
-        "ledtrad": "<p>Friktion och tyngdkomposant verkar nedåt.</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "fraga": "Hur stor dragkraft krävs vid konstant fart? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>Fredrik drar en låda på 30 kg uppför ett plan som lutar 30°. Repet är parallellt med planet. Glidfriktionstalet är 0,30. Använd g = 9,82 m/s².</p><p>Hur stor dragkraft krävs vid konstant fart? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart ska dragkraften balansera tyngdkraftens del och friktionen nedför.</p>\\[F=mg\\sin30^\\circ+\\mu mg\\cos30^\\circ\\]\\[F=30\\cdot9{,}82(\\sin30^\\circ+0{,}30\\cos30^\\circ)\\approx224\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Friktion och tyngddel verkar nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken dragkraft behövs för accelerationen 0,50 m/s² uppför backen? Svara i N.",
-        "t": "<p>Fredrik drar en låda på 30 kg uppför en backe. Vid konstant fart behövs dragkraften 224 N. Motståndskrafterna är lika stora när lådan accelererar.</p><p>Vilken dragkraft behövs för accelerationen 0,50 m/s² uppför backen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart balanserar dragkraften motståndet. För att accelerera behövs ytterligare kraften ma.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=224+30\\cdot0{,}50=239\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 239 N.</p></div>",
+        "fraga": "Vilken dragkraft ger accelerationen 0,50 m/s² uppför? Svara i N med tre värdesiffror.",
+        "t": "<p>En låda på 30 kg dras uppför en backe. Vid konstant fart behövs dragkraften 224 N. Motståndskrafterna är lika stora när lådan accelererar.</p><p>Vilken dragkraft ger accelerationen 0,50 m/s² uppför? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften ska balansera motståndet och dessutom ge kraftsumman ma.</p>\\[F=224+30\\cdot0{,}50=239\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Newtons andra lag.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -163258,7 +163259,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Newtons andra lag längs planet.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -163266,18 +163267,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "replift på plan mark",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina (75 kg) dras av en replift med konstant fart uppför en backe med lutningen 40°. Friktionstalet är 0,13. Hur stor acceleration fick hon när hon tog tag i repet på plan mark (samma kraft, parallellt med marken)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften i backen: \\(F=75\\cdot9{,}82(\\sin40^\\circ+0{,}13\\cos40^\\circ)\\approx547\\) N.</p></div><div class=\"facit-stycke\"><p>På plan mark: \\(a=\\dfrac{547-0{,}13\\cdot75\\cdot9{,}82}{75}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\) m/s²</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Stina på 75 kg dras med konstant fart uppför en backe som lutar 40°. Repet är parallellt med backen och glidfriktionstalet är 0,13. I ett annat försök glider hon på vågrät mark med samma vågräta dragkraft och samma glidfriktionstal. Vilken acceleration får hon då i m/s²? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart i backen ger dragkraften</p>\\[\\begin{aligned}F&=75\\cdot9{,}82(\\sin40^\\circ+0{,}13\\cos40^\\circ)\\\\ &\\approx546{,}7580\\,\\mathrm N\\end{aligned}\\]<p>På vågrät mark är friktionen f = 0,13 · 75 · 9,82 = 95,745 N. Använd den oavrundade dragkraften.</p>\\[\\begin{aligned}a&=\\frac{F-f}{75}\\\\ &=9{,}82(\\sin40^\\circ+0{,}13\\cos40^\\circ)-0{,}13\\cdot9{,}82\\\\ &\\approx6{,}01\\,\\mathrm{m/s^2}\\end{aligned}\\]</div>",
     "id": "4.594",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 6.013506663207503,
-    "tolerans": 0.0902,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -163294,25 +163295,25 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "friktionstal ur två krafter",
-    "poang": "(0/1/2)",
-    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss på ett plan med lutningen 15° dras med konstant fart uppför planet med kraften \\(F_1\\) och nedför planet med kraften \\(F_2\\), båda parallella med planet. Det gäller att \\(F_1=6F_2\\). Bestäm friktionstalet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F_1=mg(\\sin15^\\circ+\\mu\\cos15^\\circ)\\) och \\(F_2=mg(\\mu\\cos15^\\circ-\\sin15^\\circ)\\).</p></div><div class=\"facit-stycke\"><p>\\(F_1=6F_2\\) ger \\(7\\sin15^\\circ=5\\mu\\cos15^\\circ\\iff\\mu=1{,}4\\tan15^\\circ\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}38\\) </p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En kloss dras med konstant fart längs ett plan som lutar 15°. Vid rörelse uppför drar kraften F₁ uppför planet. Vid rörelse nedför drar kraften F₂ nedför planet. Kraften F₁ är sex gånger så stor som F₂. Bestäm glidfriktionstalet.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid rörelse uppför bromsar både tyngdkraftens del längs planet och friktionen. Vid rörelse nedför driver tyngdkraftens del, medan friktionen bromsar.</p>\\[F_1=mg(\\sin15^\\circ+\\mu\\cos15^\\circ)\\]\\[F_2=mg(\\mu\\cos15^\\circ-\\sin15^\\circ)\\]<p>Sätt F₁ = 6F₂ och förkorta bort mg. Samla sinus- och friktionstermerna.</p>\\[\\sin15^\\circ+\\mu\\cos15^\\circ=6\\mu\\cos15^\\circ-6\\sin15^\\circ\\]\\[7\\sin15^\\circ=5\\mu\\cos15^\\circ\\]\\[\\mu=\\frac75\\tan15^\\circ\\approx0{,}375\\]</div>",
     "id": "4.595",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 0.37512886940357176,
-    "tolerans": 0.00563,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Teckna båda krafterna och använd villkoret.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 3,
     "spel": true
@@ -163320,18 +163321,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "vågrät kraft uppför ramp",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (40 kg) skjuts med konstant fart uppför ett plan med lutningen 30° med en vågrät kraft. Friktionstalet är 0,40. Hur stor är kraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\cos30^\\circ=mg\\sin30^\\circ+0{,}40(mg\\cos30^\\circ+F\\sin30^\\circ)\\iff F=\\dfrac{mg(\\sin30^\\circ+0{,}40\\cos30^\\circ)}{\\cos30^\\circ-0{,}40\\sin30^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(499\\) N</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En låda på 40 kg glider med konstant fart uppför ett plan som lutar 30°. En vågrät kraft trycker lådan uppför. Glidfriktionstalet är 0,40. Hur stor är den vågräta kraften i N? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den vågräta kraften F ger delen F cos30° uppför planet och delen F sin30° in mot planet. Normalkraften och friktionen blir därför större.</p>\\[N=mg\\cos30^\\circ+F\\sin30^\\circ\\]<p>Vid konstant fart balanserar kraftdelen uppför både tyngdkraftens del och friktionen nedför.</p>\\[\\begin{aligned}F\\cos30^\\circ&=mg\\sin30^\\circ\\\\ &\\quad+0{,}40(mg\\cos30^\\circ+F\\sin30^\\circ)\\end{aligned}\\]<p>Samla termerna med F och dividera med deras faktor.</p>\\[F=\\frac{40\\cdot9{,}82(\\sin30^\\circ+0{,}40\\cos30^\\circ)}{\\cos30^\\circ-0{,}40\\sin30^\\circ}\\approx499\\,\\mathrm N\\]</div>",
     "id": "4.600",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 499.1850304109661,
-    "tolerans": 7.49,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -163347,18 +163348,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "friktionstal ur vågrät kraft",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En vågrät kraft på 250 N skjuter en låda (29 kg) med konstant fart uppför en ramp med lutningen 27°. Bestäm friktionstalet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Längs planet: \\(F_{fr}=250\\cos27^\\circ-mg\\sin27^\\circ\\).</p></div><div class=\"facit-stycke\"><p>Vinkelrätt: \\(F_N=mg\\cos27^\\circ+250\\sin27^\\circ\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25\\) </p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En vågrät kraft på 250 N trycker en låda på 29 kg uppför en ramp som lutar 27°. Lådan glider med konstant fart. Bestäm glidfriktionstalet. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den vågräta kraftens del längs rampen är 250cos27°. Vid konstant fart återstår friktionen när tyngdkraftens del nedför dras bort.</p>\\[\\begin{aligned}f&=250\\cos27^\\circ-29\\cdot9{,}82\\sin27^\\circ\\\\ &\\approx93{,}4642\\,\\mathrm N\\end{aligned}\\]<p>Den vågräta kraften trycker också in lådan mot rampen.</p>\\[\\begin{aligned}N&=29\\cdot9{,}82\\cos27^\\circ+250\\sin27^\\circ\\\\ &\\approx367{,}2385\\,\\mathrm N\\end{aligned}\\]\\[\\begin{aligned}\\mu&=\\frac{250\\cos27^\\circ-29\\cdot9{,}82\\sin27^\\circ}{29\\cdot9{,}82\\cos27^\\circ+250\\sin27^\\circ}\\\\ &\\approx0{,}255\\end{aligned}\\]</div>",
     "id": "4.601",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 0.25450552154835765,
-    "tolerans": 0.0051,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -163375,16 +163376,16 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "trycka kloss mot planet",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) ligger på ett plan med lutningen 37°. Friktionstalet är 0,50. Med hur stor kraft vinkelrätt mot planet måste man minst trycka för att klossen inte ska glida?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}50(mg\\cos37^\\circ+F)=mg\\sin37^\\circ\\iff F=\\dfrac{mg\\sin37^\\circ}{0{,}50}-mg\\cos37^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\) N</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En kloss på 2,0 kg ligger på ett plan som lutar 37°. Vilofriktionstalet är 0,50. Man trycker klossen vinkelrätt in mot planet. Hur stor måste den kraften minst vara för att klossen ska ligga stilla? Svara i N. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tryckkraften F ökar normalkraften till N = mg cos37° + F. Vid minsta kraften är den största vilofriktionen precis tillräcklig för att balansera tyngdkraftens del nedför.</p>\\[0{,}50(mg\\cos37^\\circ+F)=mg\\sin37^\\circ\\]\\[\\begin{aligned}F&=\\frac{2{,}0\\cdot9{,}82\\sin37^\\circ}{0{,}50}-2{,}0\\cdot9{,}82\\cos37^\\circ\\\\ &\\approx7{,}95\\,\\mathrm N\\end{aligned}\\]</div>",
     "id": "4.602",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 7.954092692083625,
-    "tolerans": 0.119,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -163400,18 +163401,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "dra låda med sned lina",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En man drar en låda (100 kg) med konstant fart uppför ett plan med lutningen 35°. Repet bildar 20° med planet. Friktionstalet är 0,65. Hur stor är kraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\cos20^\\circ=mg\\sin35^\\circ+0{,}65(mg\\cos35^\\circ-F\\sin20^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(935\\) N</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En låda på 100 kg dras med konstant fart uppför ett plan som lutar 35°. Repet är riktat 20° över planet. Glidfriktionstalet är 0,65. Hur stor är kraften i repet i N? Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Repkraften F har delen F cos20° uppför och delen F sin20° ut från planet. Den utåtriktade delen minskar normalkraften.</p>\\[N=mg\\cos35^\\circ-F\\sin20^\\circ\\]<p>Konstant fart ger kraftbalans längs planet.</p>\\[\\begin{aligned}F\\cos20^\\circ&=mg\\sin35^\\circ\\\\ &\\quad+0{,}65(mg\\cos35^\\circ-F\\sin20^\\circ)\\end{aligned}\\]<p>Samla termerna med F på vänster sida.</p>\\[\\begin{aligned}F(\\cos20^\\circ+0{,}65\\sin20^\\circ)\\\\ =mg(\\sin35^\\circ+0{,}65\\cos35^\\circ)\\end{aligned}\\]\\[F=\\frac{100\\cdot9{,}82(\\sin35^\\circ+0{,}65\\cos35^\\circ)}{\\cos20^\\circ+0{,}65\\sin20^\\circ}\\approx935\\,\\mathrm N\\]</div>",
     "id": "4.603",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 934.6914540347732,
-    "tolerans": 14.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -163430,8 +163431,8 @@ window.BANK = [
     "niva": "C",
     "typ": "låda dras med sned kraft",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (100 kg) dras uppför ett plan med lutningen 15° med kraften 600 N riktad 20° över planet. Friktionstalet är 0,20.</p><ol type=\"a\"><li>Bestäm friktionskraften.</li><li>Bestäm accelerationen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg\\cos15^\\circ-600\\sin20^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=0{,}20F_N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(149\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{600\\cos20^\\circ-mg\\sin15^\\circ-F_{fr}}{100}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}6\\) m/s²</p></li></ol></div>",
+    "t": "<p>En låda på 100 kg glider uppför ett plan som lutar 15°. En kraft på 600 N drar 20° över planet. Glidfriktionstalet är 0,20. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm friktionskraften i N. Svara med tre värdesiffror.</li><li>Bestäm accelerationen uppför planet i m/s². Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Dragkraftens del ut från planet minskar normalkraften.</p>\\[\\begin{aligned}N&=mg\\cos15^\\circ-600\\sin20^\\circ\\\\ &\\approx743{,}3271\\,\\mathrm N\\end{aligned}\\]<p>Glidfriktionen är μN och verkar nedför. Använd den oavrundade normalkraften.</p>\\[\\begin{aligned}f&=0{,}20(100\\cdot9{,}82\\cos15^\\circ-600\\sin20^\\circ)\\\\ &\\approx149\\,\\mathrm N\\end{aligned}\\]<p><strong>b)</strong></p><p>Dragkraftens del uppför är 600cos20°. Tyngdkraftens del och glidfriktionen verkar nedför. Friktionen fås av f = 0,20(100 · 9,82cos15° − 600sin20°) = 148,665415… N.</p>\\[\\begin{aligned}a&=\\frac{600\\cos20^\\circ-100\\cdot9{,}82\\sin15^\\circ-f}{100}\\\\ &\\approx1{,}61\\,\\mathrm{m/s^2}\\end{aligned}\\]</div>",
     "id": "4.604",
     "miniräknare": true,
     "geogebra": false,
@@ -163442,8 +163443,8 @@ window.BANK = [
       1.6098985509677686
     ],
     "tolerans": [
-      5.1,
-      0.051
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -163464,13 +163465,13 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (100 kg) dras uppför ett plan med lutningen 15° med kraften 600 N riktad 20° över planet. Friktionstalet är 0,20.</p>",
+    "spelIntro": "<p>En låda på 100 kg glider uppför ett plan som lutar 15°. En kraft på 600 N drar 20° över planet. Glidfriktionstalet är 0,20. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm friktionskraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (100 kg) dras uppför ett plan med lutningen 15° med kraften 600 N riktad 20° över planet. Friktionstalet är 0,20.</p><p>Bestäm friktionskraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg\\cos15^\\circ-600\\sin20^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{fr}=0{,}20F_N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(149\\) N</p></div>",
+        "fraga": "Bestäm friktionskraften i N. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 100 kg glider uppför ett plan som lutar 15°. En kraft på 600 N drar 20° över planet. Glidfriktionstalet är 0,20. Använd g = 9,82 m/s².</p><p>Bestäm friktionskraften i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens del ut från planet minskar normalkraften.</p>\\[\\begin{aligned}N&=mg\\cos15^\\circ-600\\sin20^\\circ\\\\ &\\approx743{,}3271\\,\\mathrm N\\end{aligned}\\]<p>Glidfriktionen är μN och verkar nedför. Använd den oavrundade normalkraften.</p>\\[\\begin{aligned}f&=0{,}20(100\\cdot9{,}82\\cos15^\\circ-600\\sin20^\\circ)\\\\ &\\approx149\\,\\mathrm N\\end{aligned}\\]</div>",
         "ledtrad": "<p>Dragkraften minskar normalkraften.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -163479,9 +163480,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm accelerationen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (100 kg) dras uppför ett plan med lutningen 15° med kraften 600 N riktad 20° över planet. Friktionstalet är 0,20.</p>Friktionskraften är 149 N.<p>Bestäm accelerationen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{600\\cos20^\\circ-mg\\sin15^\\circ-F_{fr}}{100}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}6\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen uppför i m/s² med tre värdesiffror.",
+        "t": "<p>En låda på 100 kg glider uppför ett plan som lutar 15°. En kraft på 600 N drar 20° över planet. Glidfriktionen är 149 N nedför. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen uppför i m/s² med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens del uppför är 600cos20°. Tyngdkraftens del och friktionen verkar nedför. Dividera kraftsumman med massan.</p>\\[\\begin{aligned}a&=\\frac{600\\cos20^\\circ-100\\cdot9{,}82\\sin15^\\circ-149}{100}\\\\ &\\approx1{,}61\\,\\mathrm{m/s^2}\\end{aligned}\\]</div>",
         "ledtrad": "<p>Resultant längs planet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -163490,7 +163491,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Dela upp alla krafter längs och vinkelrätt mot planet.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -163501,20 +163502,20 @@ window.BANK = [
     "niva": "C",
     "typ": "kraft för att hålla låda",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (10 kg) ligger på ett plan med lutningen 45°. Friktionstalet är 0,50. En kraft \\(F\\) parallell med planet verkar uppför planet.</p><ol type=\"a\"><li>Vilken är den minsta kraft som hindrar lådan från att glida?</li><li>Vilken är den största kraften innan lådan börjar glida uppåt?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen hjälper uppåt: \\(F=mg(\\sin45^\\circ-0{,}50\\cos45^\\circ)\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen verkar nedåt: \\(F=mg(\\sin45^\\circ+0{,}50\\cos45^\\circ)\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(104\\) N</p></li></ol></div>",
+    "t": "<p>En låda på 10 kg ligger på ett plan som lutar 45°. Vilofriktionstalet är 0,50. En kraft F drar parallellt uppför planet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken är den minsta kraften F som hindrar lådan från att glida nedför? Svara i N. Svara med tre värdesiffror.</li><li>Vilken är den största kraften F där lådan ännu kan ligga stilla? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid den nedre gränsen hjälper den största vilofriktionen till uppför. Dragkraften och friktionen balanserar då tyngdkraftens del nedför.</p>\\[F+0{,}50mg\\cos45^\\circ=mg\\sin45^\\circ\\]\\[F_{\\min}=10\\cdot9{,}82(\\sin45^\\circ-0{,}50\\cos45^\\circ)\\approx34{,}7\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Vid den övre gränsen vill dragkraften dra lådan uppåt. Den största vilofriktionen verkar då nedför, tillsammans med tyngdkraftens del längs planet.</p>\\[F=mg\\sin45^\\circ+0{,}50mg\\cos45^\\circ\\]\\[F_{\\max}=10\\cdot9{,}82(\\sin45^\\circ+0{,}50\\cos45^\\circ)\\approx104\\,\\mathrm N\\]</div>",
     "id": "4.605",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vilofriktion och friktionsgräns på lutande plan",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      34.71894295625949,
-      104.15682886877846
+      34.718942956259475,
+      104.15682886877845
     ],
     "tolerans": [
-      0.521,
-      5.1
+      0.05,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -163535,13 +163536,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (10 kg) ligger på ett plan med lutningen 45°. Friktionstalet är 0,50. En kraft \\(F\\) parallell med planet verkar uppför planet.</p>",
+    "spelIntro": "<p>En låda på 10 kg ligger på ett plan som lutar 45°. Vilofriktionstalet är 0,50. En kraft F drar parallellt uppför planet. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken är den minsta kraft som hindrar lådan från att glida?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (10 kg) ligger på ett plan med lutningen 45°. Friktionstalet är 0,50. En kraft \\(F\\) parallell med planet verkar uppför planet.</p><p>Vilken är den minsta kraft som hindrar lådan från att glida?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen hjälper uppåt: \\(F=mg(\\sin45^\\circ-0{,}50\\cos45^\\circ)\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\) N</p></div>",
+        "fraga": "Vilken är den minsta kraften F som hindrar lådan från att glida nedför? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 10 kg ligger på ett plan som lutar 45°. Vilofriktionstalet är 0,50. En kraft F drar parallellt uppför planet. Använd g = 9,82 m/s².</p><p>Vilken är den minsta kraften F som hindrar lådan från att glida nedför? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid den nedre gränsen hjälper den största vilofriktionen till uppför. Dragkraften och friktionen balanserar då tyngdkraftens del nedför.</p>\\[F+0{,}50mg\\cos45^\\circ=mg\\sin45^\\circ\\]\\[F_{\\min}=10\\cdot9{,}82(\\sin45^\\circ-0{,}50\\cos45^\\circ)\\approx34{,}7\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Lådan vill glida nedåt.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -163550,9 +163551,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken är den största kraften innan lådan börjar glida uppåt?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (10 kg) ligger på ett plan med lutningen 45°. Friktionstalet är 0,50. En kraft \\(F\\) parallell med planet verkar uppför planet.</p><p>Vilken är den största kraften innan lådan börjar glida uppåt?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionen verkar nedåt: \\(F=mg(\\sin45^\\circ+0{,}50\\cos45^\\circ)\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(104\\) N</p></div>",
+        "fraga": "Vilken är den största kraften F där lådan ännu kan ligga stilla? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 10 kg ligger på ett plan som lutar 45°. Vilofriktionstalet är 0,50. En kraft F drar parallellt uppför planet. Använd g = 9,82 m/s².</p><p>Vilken är den största kraften F där lådan ännu kan ligga stilla? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid den övre gränsen vill dragkraften dra lådan uppåt. Den största vilofriktionen verkar då nedför, tillsammans med tyngdkraftens del längs planet.</p>\\[F=mg\\sin45^\\circ+0{,}50mg\\cos45^\\circ\\]\\[F_{\\max}=10\\cdot9{,}82(\\sin45^\\circ+0{,}50\\cos45^\\circ)\\approx104\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Lådan vill glida uppåt.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -163569,18 +163570,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "störtlopp",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare startar från vila i en backe med lutningen 35°. Friktionstalet är 0,10. Vilken fart har hon efter 5,0 s?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin35^\\circ-0{,}10\\cos35^\\circ)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=a\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\) m/s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En skidåkare startar från vila i en backe som lutar 35°. Friktionstalet är 0,10 vid både vila och glidning. Bortse från luftmotståndet. Vilken fart har åkaren efter 5,0 s? Svara i m/s. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen driver nedför. Glidfriktionen μmg cosα bromsar uppför. Efter division med massan blir accelerationen</p>\\[\\begin{aligned}a&=g(\\sin\\alpha-\\mu\\cos\\alpha)\\\\ &=9{,}82(\\sin35^\\circ-0{,}1\\cos35^\\circ)\\\\ &\\approx4{,}828113\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Kraften nedför är större än den största vilofriktionen, så åkaren börjar röra sig. Från vila gäller v = at. Använd den oavrundade accelerationen.</p>\\[v=9{,}82(\\sin35^\\circ-0{,}10\\cos35^\\circ)\\cdot5{,}0\\approx24{,}1\\,\\mathrm{m/s}\\]</div>",
     "id": "4.606",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 24.14056648737741,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -163588,7 +163589,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm accelerationen först.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "m/s",
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 1,
@@ -163597,18 +163598,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "tid nedför backe",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare startar från vila i en 50 m lång backe med lutningen 20°. Friktionstalet är 0,10. Hur lång tid tar det att åka ned?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin20^\\circ-0{,}10\\cos20^\\circ)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\sqrt{\\dfrac{2s}{a}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}4\\) s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En skidåkare startar från vila i en 50 m lång backe som lutar 20°. Friktionstalet är 0,10 vid både vila och glidning. Bortse från luftmotståndet. Hur lång tid tar det att nå backens fot? Svara i s. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen driver nedför. Glidfriktionen μmg cosα bromsar uppför. Efter division med massan blir accelerationen</p>\\[\\begin{aligned}a&=g(\\sin\\alpha-\\mu\\cos\\alpha)\\\\ &=9{,}82(\\sin20^\\circ-0{,}1\\cos20^\\circ)\\\\ &\\approx2{,}43586\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Accelerationen är positiv nedför, så åkaren börjar röra sig. Från vila gäller s = at²/2. Lös för tiden och använd den oavrundade accelerationen.</p>\\[\\begin{aligned}t&=\\sqrt{\\frac{2s}{a}}\\\\ &=\\sqrt{\\frac{2\\cdot50}{9{,}82(\\sin20^\\circ-0{,}10\\cos20^\\circ)}}\\\\ &\\approx6{,}41\\,\\mathrm s\\end{aligned}\\]</div>",
     "id": "4.607",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 6.40728244552585,
-    "tolerans": 0.0961,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -163616,7 +163617,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(s=\\dfrac{at^2}2\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "s",
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 1,
@@ -163625,18 +163626,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "tvål på ramp",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En tvål glider från vila längs en 9,0 m lång ramp med lutningen 8,0°. Friktionstalet är 0,060. Hur lång tid tar det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin8{,}0^\\circ-0{,}060\\cos8{,}0^\\circ)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\sqrt{\\dfrac{2s}{a}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}8\\) s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En tvål släpps från vila på en 9,0 m lång ramp som lutar 8,0°. Friktionstalet är 0,060 vid både vila och glidning. Bortse från luftmotståndet. Hur lång tid tar det att glida nedför rampen? Svara i s. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen driver nedför. Glidfriktionen μmg cosα bromsar uppför. Efter division med massan blir accelerationen</p>\\[\\begin{aligned}a&=g(\\sin\\alpha-\\mu\\cos\\alpha)\\\\ &=9{,}82(\\sin8^\\circ-0{,}06\\cos8^\\circ)\\\\ &\\approx0{,}783214\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Den positiva accelerationen visar att friktionen inte kan hålla tvålen stilla. Från vila gäller s = at²/2.</p>\\[\\begin{aligned}t&=\\sqrt{\\frac{2s}{a}}\\\\ &=\\sqrt{\\frac{2\\cdot9{,}0}{9{,}82(\\sin8{,}0^\\circ-0{,}060\\cos8{,}0^\\circ)}}\\\\ &\\approx4{,}79\\,\\mathrm s\\end{aligned}\\]</div>",
     "id": "4.608",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 4.793978233597286,
-    "tolerans": 0.0719,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -163644,7 +163645,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(s=\\dfrac{at^2}2\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "s",
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 1,
@@ -163655,22 +163656,22 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "backens lutning ur tid",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist har farten 2,0 m/s överst i en 18 m lång backe och rullar ned på 3,3 s. Bortse från friktion. Vilken lutning har backen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(18=2{,}0\\cdot3{,}3+\\dfrac{a\\cdot3{,}3^2}{2}\\iff a\\approx2{,}09\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{a}{g}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) °</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En cyklist börjar rulla nedför en 18 m lång backe med farten 2,0 m/s och når backens fot efter 3,3 s. Backen är rak med konstant lutning. Bortse från motståndskrafter och hjulens massa. Vilken vinkel har backen mot marken? Svara i grader. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant acceleration gäller s = v₀t + at²/2. Lös för accelerationen.</p>\\[\\begin{aligned}a&=\\frac{2(s-v_0t)}{t^2}\\\\ &=\\frac{2(18-2{,}0\\cdot3{,}3)}{3{,}3^2}\\\\ &\\approx2{,}09366\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Utan motstånd är a = g sinα. Använd den oavrundade accelerationen.</p>\\[\\begin{aligned}\\alpha&=\\arcsin\\!\\left(\\frac{2(18-2{,}0\\cdot3{,}3)}{3{,}3^2\\cdot9{,}82}\\right)\\\\ &\\approx12{,}3^\\circ\\end{aligned}\\]</div>",
     "id": "4.609",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 12.310185004094045,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Rörelse med begynnelsefart.</p>",
+    "ledtrad": "<p>Använd s = v₀t + at²/2. Startfarten är inte noll.</p>",
     "traningsniva": 3,
     "svarEnhet": "°",
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
@@ -163680,11 +163681,11 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "låda upp och ned",
-    "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p><ol type=\"a\"><li>Lådan släpps. Vilken acceleration får den?</li><li>Lådan skickas i stället uppför planet med 3,0 m/s. Hur långt kommer den?</li><li>Hur lång tid tar det innan lådan är tillbaka vid startpunkten?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin25{,}0^\\circ-0{,}19\\cos25{,}0^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nu verkar friktionen nedför: retardation \\(9{,}82(\\sin25{,}0^\\circ+0{,}19\\cos25{,}0^\\circ)\\approx5{,}84\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2a}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}77\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Upp: \\(t_1=\\dfrac{3{,}0}{5{,}84}\\).</p></div><div class=\"facit-stycke\"><p>Ned: \\(t_2=\\sqrt{\\dfrac{2\\cdot0{,}770}{2{,}46}}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\) s</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>En låda befinner sig på ett plan som lutar 25,0°. Friktionstalet är 0,19 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Lådan släpps från vila. Bestäm accelerationen nedför i m/s². Svara med tre värdesiffror.</li><li>I ett nytt försök skjuts lådan uppför med startfarten 3,0 m/s. Hur långt glider den uppför innan den stannar? Svara i m. Svara med tre värdesiffror.</li><li>Lådan skjuts uppför med startfarten 3,0 m/s. Hur lång tid tar hela rörelsen upp och tillbaka till startpunkten? Svara i s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Tyngdkraftens del längs backen driver nedför. Glidfriktionen μmg cosα bromsar uppför. Efter division med massan blir accelerationen</p>\\[\\begin{aligned}a&=g(\\sin\\alpha-\\mu\\cos\\alpha)\\\\ &=9{,}82(\\sin25^\\circ-0{,}19\\cos25^\\circ)\\\\ &\\approx2{,}459122\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Accelerationen är positiv nedför. Kraften nedför överstiger alltså den största vilofriktionen. Svar med tre värdesiffror: 2,46 m/s².</p><p><strong>b)</strong></p><p>Under uppåtrörelsen verkar både tyngdkraftens del längs planet och friktionen nedför. Retardationens storlek är</p>\\[\\begin{aligned}b&=9{,}82(\\sin25{,}0^\\circ+0{,}19\\cos25{,}0^\\circ)\\\\ &\\approx5{,}84110\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Vid stopp är v = 0, så v² = v₀² − 2bs ger stoppsträckan. Använd oavrundat b.</p>\\[\\begin{aligned}s&=\\frac{3{,}0^2}{2\\cdot9{,}82(\\sin25{,}0^\\circ+0{,}19\\cos25{,}0^\\circ)}\\\\ &\\approx0{,}770\\,\\mathrm m\\end{aligned}\\]<p><strong>c)</strong></p><p>På vägen upp bromsar både tyngdkraftens del och friktionen. Retardationen är b = 9,82(sin25,0° + 0,19cos25,0°) = 5,841100… m/s².</p>\\[t_{\\text{upp}}=\\frac{3{,}0}{b}\\approx0{,}51360\\,\\mathrm s\\]\\[s=\\frac{3{,}0^2}{2b}\\approx0{,}77040\\,\\mathrm m\\]<p>Friktionen byter riktning på vägen ned. Tyngdkraftens del nedför är större än den största vilofriktionen, så lådan börjar glida tillbaka. Accelerationen nedför är a = 9,82(sin25,0° − 0,19cos25,0°) = 2,459122… m/s². Lådan startar från vila vid vändpunkten.</p>\\[\\begin{aligned}t_{\\text{ned}}&=\\sqrt{\\frac{2s}{a}}\\\\ &\\approx0{,}79156\\,\\mathrm s\\end{aligned}\\]\\[\\begin{aligned}t_{\\text{tot}}&=t_{\\text{upp}}+t_{\\text{ned}}\\\\ &\\approx1{,}31\\,\\mathrm s\\end{aligned}\\]<p>Oavrundade värden används i beräkningarna.</p></div>",
     "id": "4.610",
     "miniräknare": true,
     "geogebra": false,
@@ -163696,9 +163697,9 @@ window.BANK = [
       1.3051618889787815
     ],
     "tolerans": [
-      0.051,
-      0.0116,
-      0.051
+      0.005,
+      0.0005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -163722,24 +163723,24 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p>",
+    "spelIntro": "<p>En låda befinner sig på ett plan som lutar 25,0°. Friktionstalet är 0,19 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Lådan släpps. Vilken acceleration får den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p><p>Lådan släpps. Vilken acceleration får den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin25{,}0^\\circ-0{,}19\\cos25{,}0^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) m/s²</p></div>",
+        "fraga": "Lådan släpps från vila. Bestäm accelerationen nedför i m/s². Svara med tre värdesiffror.",
+        "t": "<p>En låda befinner sig på ett plan som lutar 25,0°. Friktionstalet är 0,19 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Lådan släpps från vila. Bestäm accelerationen nedför i m/s². Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen driver nedför. Glidfriktionen μmg cosα bromsar uppför. Efter division med massan blir accelerationen</p>\\[\\begin{aligned}a&=g(\\sin\\alpha-\\mu\\cos\\alpha)\\\\ &=9{,}82(\\sin25^\\circ-0{,}19\\cos25^\\circ)\\\\ &\\approx2{,}459122\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Accelerationen är positiv nedför. Kraften nedför överstiger alltså den största vilofriktionen. Svar med tre värdesiffror: 2,46 m/s².</p></div>",
         "ledtrad": "<p>Friktionen verkar uppför.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Lådan skickas i stället uppför planet med 3,0 m/s. Hur långt kommer den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p><p>Lådan skickas i stället uppför planet med 3,0 m/s. Hur långt kommer den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nu verkar friktionen nedför: retardation \\(9{,}82(\\sin25{,}0^\\circ+0{,}19\\cos25{,}0^\\circ)\\approx5{,}84\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2a}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}77\\) m</p></div>",
+        "fraga": "I ett nytt försök skjuts lådan uppför med startfarten 3,0 m/s. Hur långt glider den uppför innan den stannar? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En låda befinner sig på ett plan som lutar 25,0°. Friktionstalet är 0,19 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>I ett nytt försök skjuts lådan uppför med startfarten 3,0 m/s. Hur långt glider den uppför innan den stannar? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Under uppåtrörelsen verkar både tyngdkraftens del längs planet och friktionen nedför. Retardationens storlek är</p>\\[\\begin{aligned}b&=9{,}82(\\sin25{,}0^\\circ+0{,}19\\cos25{,}0^\\circ)\\\\ &\\approx5{,}84110\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Vid stopp är v = 0, så v² = v₀² − 2bs ger stoppsträckan. Använd oavrundat b.</p>\\[\\begin{aligned}s&=\\frac{3{,}0^2}{2\\cdot9{,}82(\\sin25{,}0^\\circ+0{,}19\\cos25{,}0^\\circ)}\\\\ &\\approx0{,}770\\,\\mathrm m\\end{aligned}\\]</div>",
         "ledtrad": "<p>Friktionen byter riktning med rörelsen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -163748,17 +163749,17 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur lång tid tar det innan lådan är tillbaka vid startpunkten?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En låda (2,0 kg) ligger på ett plan med lutningen 25,0°. Friktionstalet är 0,19.</p>Lådan kommer 0,770 m upp.<p>Hur lång tid tar det innan lådan är tillbaka vid startpunkten?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Upp: \\(t_1=\\dfrac{3{,}0}{5{,}84}\\).</p></div><div class=\"facit-stycke\"><p>Ned: \\(t_2=\\sqrt{\\dfrac{2\\cdot0{,}770}{2{,}46}}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\) s</p></div>",
+        "fraga": "Lådan skjuts uppför med startfarten 3,0 m/s. Hur lång tid tar hela rörelsen upp och tillbaka till startpunkten? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En låda befinner sig på ett plan som lutar 25,0°. Friktionstalet är 0,19 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Lådan skjuts uppför med startfarten 3,0 m/s. Hur lång tid tar hela rörelsen upp och tillbaka till startpunkten? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vägen upp bromsar både tyngdkraftens del och friktionen. Retardationen är b = 9,82(sin25,0° + 0,19cos25,0°) = 5,841100… m/s².</p>\\[t_{\\text{upp}}=\\frac{3{,}0}{b}\\approx0{,}51360\\,\\mathrm s\\]\\[s=\\frac{3{,}0^2}{2b}\\approx0{,}77040\\,\\mathrm m\\]<p>Friktionen byter riktning på vägen ned. Tyngdkraftens del nedför är större än den största vilofriktionen, så lådan börjar glida tillbaka. Accelerationen nedför är a = 9,82(sin25,0° − 0,19cos25,0°) = 2,459122… m/s². Lådan startar från vila vid vändpunkten.</p>\\[\\begin{aligned}t_{\\text{ned}}&=\\sqrt{\\frac{2s}{a}}\\\\ &\\approx0{,}79156\\,\\mathrm s\\end{aligned}\\]\\[\\begin{aligned}t_{\\text{tot}}&=t_{\\text{upp}}+t_{\\text{ned}}\\\\ &\\approx1{,}31\\,\\mathrm s\\end{aligned}\\]<p>Oavrundade värden används i beräkningarna.</p></div>",
         "ledtrad": "<p>Olika acceleration upp och ned.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Friktionen motverkar alltid rörelsen.</p>",
+    "ledtrad": "<p>Glidfriktionen bromsar glidningen längs underlaget.</p>",
     "traningsniva": 4,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
@@ -163767,18 +163768,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "puffa kälke i backe",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kälke (22,0 kg) skjuts från vila nedför en 75 m lång backe med lutningen 6,0°. Friktionstalet är 0,10. Med vilken konstant kraft längs backen måste man skjuta för att kälken ska ha farten 60 km/h längst ned?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{v^2}{2s}=\\dfrac{16{,}7^2}{150}\\approx1{,}85\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=ma-mg(\\sin6{,}0^\\circ-0{,}10\\cos6{,}0^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\) N</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En kälke på 22,0 kg börjar glida från vila nedför en 75 m lång backe som lutar 6,0°. Friktionstalet är 0,10 vid både vila och glidning. Man skjuter hela vägen med en konstant kraft längs backen. Vilken kraft ger farten 60 km/h vid backens fot? Svara i N. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla målfarten till 60/3,6 m/s. Kälken startar från vila och v² = 2as ger den acceleration som behövs.</p>\\[a=\\frac{(60/3{,}6)^2}{2\\cdot75}\\approx1{,}85185\\,\\mathrm{m/s^2}\\]<p>Tryckkraften F och tyngdkraftens del nedför driver. Friktionen bromsar uppför.</p>\\[F+mg\\sin6{,}0^\\circ-0{,}10mg\\cos6{,}0^\\circ=ma\\]\\[F=ma-mg(\\sin6{,}0^\\circ-0{,}10\\cos6{,}0^\\circ)\\]<p>Insatt massa och oavrundad acceleration ger ma ≈ 40,74074 N. Tyngdkraftens del minus friktionen är 22,0 · 9,82(sin6,0° − 0,10cos6,0°) ≈ 1,09668 N.</p>\\[F\\approx40{,}74074-1{,}09668\\approx39{,}6\\,\\mathrm N\\]</div>",
     "id": "4.611",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 39.64406256393307,
-    "tolerans": 0.595,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -163795,11 +163796,11 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "kloss nedför planet",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) startar från vila överst på ett 5,0 m långt plan med lutningen 37°. Vilken fart har den längst ned om</p><ol type=\"a\"><li>det inte finns någon friktion?</li><li>friktionstalet är 0,25?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\sin37^\\circ\\cdot5{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}7\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin37^\\circ-0{,}25\\cos37^\\circ)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2as}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\) m/s</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En kloss startar från vila överst på ett 5,0 m långt plan som lutar 37°. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken fart har klossen längst ned om planet är friktionsfritt? Svara i m/s. Svara med tre värdesiffror.</li><li>Vilken fart har klossen längst ned om friktionstalet är 0,25 vid både vila och glidning? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Utan friktion är accelerationen a = g sin37°. Från vila gäller v² = 2as.</p>\\[v=\\sqrt{2\\cdot9{,}82\\sin37^\\circ\\cdot5{,}0}\\approx7{,}69\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Tyngdkraftens del längs backen driver nedför. Glidfriktionen μmg cosα bromsar uppför. Efter division med massan blir accelerationen</p>\\[\\begin{aligned}a&=g(\\sin\\alpha-\\mu\\cos\\alpha)\\\\ &=9{,}82(\\sin37^\\circ-0{,}25\\cos37^\\circ)\\\\ &\\approx3{,}949173\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Accelerationen är positiv nedför, så klossen börjar röra sig. Från vila gäller v² = 2as. Använd oavrundad acceleration.</p>\\[v=\\sqrt{2a\\cdot5{,}0}\\approx6{,}28\\,\\mathrm{m/s}\\]</div>",
     "id": "4.612",
     "miniräknare": true,
     "geogebra": false,
@@ -163810,8 +163811,8 @@ window.BANK = [
       6.284244863296632
     ],
     "tolerans": [
-      0.115,
-      0.0943
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -163831,13 +163832,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) startar från vila överst på ett 5,0 m långt plan med lutningen 37°.</p>",
+    "spelIntro": "<p>En kloss startar från vila överst på ett 5,0 m långt plan som lutar 37°. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Det finns ingen friktion. Vilken fart har klossen längst ned?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) startar från vila överst på ett 5,0 m långt plan med lutningen 37°.</p><p>Det finns ingen friktion. Vilken fart har klossen längst ned?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\sin37^\\circ\\cdot5{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}7\\) m/s</p></div>",
+        "fraga": "Vilken fart har klossen längst ned om planet är friktionsfritt? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En kloss startar från vila överst på ett 5,0 m långt plan som lutar 37°. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken fart har klossen längst ned om planet är friktionsfritt? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan friktion är accelerationen a = g sin37°. Från vila gäller v² = 2as.</p>\\[v=\\sqrt{2\\cdot9{,}82\\sin37^\\circ\\cdot5{,}0}\\approx7{,}69\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(v^2=2as\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -163846,18 +163847,18 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Friktionstalet mellan klossen och planet är 0,25. Vilken fart har klossen längst ned?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss (2,0 kg) startar från vila överst på ett 5,0 m långt plan med lutningen 37°.</p><p>Friktionstalet mellan klossen och planet är 0,25. Vilken fart har klossen längst ned?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin37^\\circ-0{,}25\\cos37^\\circ)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2as}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\) m/s</p></div>",
+        "fraga": "Vilken fart har klossen längst ned om friktionstalet är 0,25 vid både vila och glidning? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En kloss startar från vila överst på ett 5,0 m långt plan som lutar 37°. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken fart har klossen längst ned om friktionstalet är 0,25 vid både vila och glidning? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen driver nedför. Glidfriktionen μmg cosα bromsar uppför. Efter division med massan blir accelerationen</p>\\[\\begin{aligned}a&=g(\\sin\\alpha-\\mu\\cos\\alpha)\\\\ &=9{,}82(\\sin37^\\circ-0{,}25\\cos37^\\circ)\\\\ &\\approx3{,}949173\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Accelerationen är positiv nedför, så klossen börjar röra sig. Från vila gäller v² = 2as. Använd oavrundad acceleration.</p>\\[v=\\sqrt{2a\\cdot5{,}0}\\approx6{,}28\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Bestäm accelerationen.</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>\\(v^2=2as\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -163868,15 +163869,15 @@ window.BANK = [
     "niva": "C",
     "typ": "kloss skjuten uppför",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss skjuts uppför ett plan med lutningen 30,0° med farten 3,00 m/s. Friktionstalet är 0,400. Hur långt kommer den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation: \\(9{,}82(\\sin30{,}0^\\circ+0{,}400\\cos30{,}0^\\circ)\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2a}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}541\\) m</p></div>",
+    "t": "<p>En kloss glider uppför ett plan som lutar 30,0° med startfarten 3,00 m/s. Glidfriktionstalet är 0,400. Bortse från luftmotståndet. Hur långt glider klossen innan den stannar? Svara i m. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Både tyngdkraftens del längs planet och friktionen bromsar rörelsen uppför. Retardationens storlek är</p>\\[\\begin{aligned}b&=9{,}82(\\sin30{,}0^\\circ+0{,}400\\cos30{,}0^\\circ)\\\\ &\\approx8{,}311748\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Lös v² = v₀² − 2bs med slutfarten noll. Använd oavrundat b.</p>\\[\\begin{aligned}s&=\\frac{3{,}00^2}{2\\cdot9{,}82(\\sin30{,}0^\\circ+0{,}400\\cos30{,}0^\\circ)}\\\\ &\\approx0{,}541\\,\\mathrm m\\end{aligned}\\]</div>",
     "id": "4.613",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5414023759893548,
-    "tolerans": 0.00812,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -163895,9 +163896,9 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "skateboard uppför backe",
-    "poang": "(2/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p><ol type=\"a\"><li>Hur lång tid tar det innan han stannar?</li><li>Hur långt upp kommer han?</li><li>Vilken fart har han när han kommit tillbaka ned till backens fot?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation \\(9{,}82(\\sin30^\\circ+0{,}12\\cos30^\\circ)\\approx5{,}93\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{5{,}0}{5{,}93}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}84\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{5{,}0^2}{2\\cdot5{,}93}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}1\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ned: \\(a=9{,}82(\\sin30^\\circ-0{,}12\\cos30^\\circ)\\approx3{,}89\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot3{,}89\\cdot2{,}11}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\) m/s</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>En åkare på pulka kommer till en backe som lutar 30°. Startfarten uppför är 5,0 m/s. Friktionstalet är 0,12 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur lång tid tar det innan åkaren stannar? Svara i s. Svara med tre värdesiffror.</li><li>Hur långt glider åkaren uppför? Svara i m. Svara med tre värdesiffror.</li><li>Vilken fart har åkaren vid backens fot efter att ha glidit tillbaka? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Både tyngdkraftens del längs backen och friktionen bromsar på vägen upp. Retardationens storlek är b = 9,82(sin30° + 0,12cos30°) = 5,930524… m/s². Vid stopp gäller v = v₀ − bt = 0.</p>\\[t=\\frac{5{,}0}{9{,}82(\\sin30^\\circ+0{,}12\\cos30^\\circ)}\\approx0{,}843\\,\\mathrm s\\]<p><strong>b)</strong></p><p>På vägen upp bromsar både tyngdkraftens del och friktionen. Retardationen är b = 9,82(sin30° + 0,12cos30°). Använd v² = v₀² − 2bs med slutfarten noll.</p>\\[s=\\frac{5{,}0^2}{2\\cdot9{,}82(\\sin30^\\circ+0{,}12\\cos30^\\circ)}\\approx2{,}11\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Sträckan uppför fås av retardationen b = 9,82(sin30° + 0,12cos30°): s = 5,0²/(2b) = 2,107739… m. På vägen ned verkar friktionen uppför. Tyngdkraftens del nedför överstiger den största vilofriktionen, så pulkan börjar glida tillbaka.</p>\\[a=9{,}82(\\sin30^\\circ-0{,}12\\cos30^\\circ)\\approx3{,}88948\\,\\mathrm{m/s^2}\\]<p>Från vila vid vändpunkten gäller v² = 2as. Använd oavrundade a och s.</p>\\[v=\\sqrt{2as}\\approx4{,}05\\,\\mathrm{m/s}\\]</div>",
     "id": "4.614",
     "miniräknare": true,
     "geogebra": false,
@@ -163909,9 +163910,9 @@ window.BANK = [
       4.049197755222324
     ],
     "tolerans": [
-      0.0126,
-      0.051,
-      0.0607
+      0.0005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -163935,44 +163936,44 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p>",
+    "spelIntro": "<p>En åkare på pulka kommer till en backe som lutar 30°. Startfarten uppför är 5,0 m/s. Friktionstalet är 0,12 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur lång tid tar det innan han stannar?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p><p>Hur lång tid tar det innan han stannar?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation \\(9{,}82(\\sin30^\\circ+0{,}12\\cos30^\\circ)\\approx5{,}93\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{5{,}0}{5{,}93}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}84\\) s</p></div>",
+        "fraga": "Hur lång tid tar det innan åkaren stannar? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En åkare på pulka kommer till en backe som lutar 30°. Startfarten uppför är 5,0 m/s. Friktionstalet är 0,12 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur lång tid tar det innan åkaren stannar? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Både tyngdkraftens del längs backen och friktionen bromsar på vägen upp. Retardationens storlek är b = 9,82(sin30° + 0,12cos30°) = 5,930524… m/s². Vid stopp gäller v = v₀ − bt = 0.</p>\\[t=\\frac{5{,}0}{9{,}82(\\sin30^\\circ+0{,}12\\cos30^\\circ)}\\approx0{,}843\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>Friktionen verkar nedför.</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt upp kommer han?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p>Retardationen är 5,93 m/s².<p>Hur långt upp kommer han?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{5{,}0^2}{2\\cdot5{,}93}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}1\\) m</p></div>",
-        "ledtrad": "<p>\\(v^2=2as\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "fraga": "Hur långt glider åkaren uppför? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En åkare på pulka kommer till en backe som lutar 30°. Startfarten uppför är 5,0 m/s. Friktionstalet är 0,12 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur långt glider åkaren uppför? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vägen upp bromsar både tyngdkraftens del och friktionen. Retardationen är b = 9,82(sin30° + 0,12cos30°). Använd v² = v₀² − 2bs med slutfarten noll.</p>\\[s=\\frac{5{,}0^2}{2\\cdot9{,}82(\\sin30^\\circ+0{,}12\\cos30^\\circ)}\\approx2{,}11\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Vid stopp är slutfarten noll. Använd \\(0=v_0^2-2bs\\), där b är retardationens storlek.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilken fart har han när han kommit tillbaka ned till backens fot?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En pojke på skateboard når en backe med lutningen 30° med farten 5,0 m/s. Friktionstalet är 0,12.</p>Han kommer 2,11 m upp.<p>Vilken fart har han när han kommit tillbaka ned till backens fot?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ned: \\(a=9{,}82(\\sin30^\\circ-0{,}12\\cos30^\\circ)\\approx3{,}89\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot3{,}89\\cdot2{,}11}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\) m/s</p></div>",
+        "fraga": "Vilken fart har åkaren vid backens fot efter att ha glidit tillbaka? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En åkare på pulka kommer till en backe som lutar 30°. Startfarten uppför är 5,0 m/s. Friktionstalet är 0,12 vid både vila och glidning. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken fart har åkaren vid backens fot efter att ha glidit tillbaka? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sträckan uppför fås av retardationen b = 9,82(sin30° + 0,12cos30°): s = 5,0²/(2b) = 2,107739… m. På vägen ned verkar friktionen uppför. Tyngdkraftens del nedför överstiger den största vilofriktionen, så pulkan börjar glida tillbaka.</p>\\[a=9{,}82(\\sin30^\\circ-0{,}12\\cos30^\\circ)\\approx3{,}88948\\,\\mathrm{m/s^2}\\]<p>Från vila vid vändpunkten gäller v² = 2as. Använd oavrundade a och s.</p>\\[v=\\sqrt{2as}\\approx4{,}05\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Nu verkar friktionen uppför.</p>",
         "niva": "C",
-        "poang": "(0/1/1)",
-        "traningsniva": 3,
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Friktionen motverkar alltid rörelsen.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Glidfriktionen bromsar glidningen längs underlaget.</p>",
+    "traningsniva": 4,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -163983,15 +163984,15 @@ window.BANK = [
     "niva": "C",
     "typ": "berg-och-dalbana",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En vagn passerar toppen av en 45 m lång backe med lutningen 50° med farten 6,0 km/h. Friktionstalet är 0,12. Vilken fart har vagnen längst ned? Svara i km/h.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82(\\sin50^\\circ-0{,}12\\cos50^\\circ)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=v_0^2+2as\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(89\\) km/h</p></div>",
+    "t": "<p>En vagn med mycket lätta hjul passerar toppen av en 45 m lång backe med farten 6,0 km/h. Backen lutar 50°. En konstant motståndskraft är 0,12 gånger normalkraften. Bortse från luftmotståndet och hjulens massa. Vilken fart har vagnen vid backens fot? Svara i km/h. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen driver nedför. Motståndskraften μmg cosα bromsar uppför. Efter division med massan blir accelerationen</p>\\[\\begin{aligned}a&=g(\\sin\\alpha-\\mu\\cos\\alpha)\\\\ &=9{,}82(\\sin50^\\circ-0{,}12\\cos50^\\circ)\\\\ &\\approx6{,}765096\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Startfarten är v₀ = 6,0/3,6 m/s. Sambandet v² = v₀² + 2as ger slutfarten. Använd oavrundad acceleration.</p>\\[\\begin{aligned}v&=\\sqrt{(6{,}0/3{,}6)^2+2a\\cdot45}\\\\ &\\approx24{,}7313\\,\\mathrm{m/s}\\end{aligned}\\]<p>Multiplicera med 3,6 för att få km/h. Svar: 89,0 km/h.</p></div>",
     "id": "4.615",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 89.0326198951792,
-    "tolerans": 1.34,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -164011,8 +164012,8 @@ window.BANK = [
     "niva": "C",
     "typ": "skidåkare i uppförsbacke",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare når en 2,50 m hög uppförsbacke med lutningen 35,0° med farten 21,0 m/s. Friktionstalet är 0,14.</p><ol type=\"a\"><li>Vilken fart har hon överst i backen?</li><li>Vilken är den minsta farten som räcker för att komma upp?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Backens längd \\(\\dfrac{2{,}50}{\\sin35{,}0^\\circ}\\).</p></div><div class=\"facit-stycke\"><p>Retardation \\(9{,}82(\\sin35{,}0^\\circ+0{,}14\\cos35{,}0^\\circ)\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=v_0^2-2as\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}5\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_0=\\sqrt{2as}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}7\\) m/s</p></li></ol></div>",
+    "t": "<p>En skidåkare glider uppför en backe med höjden 2,50 m och lutningen 35,0°. Glidfriktionstalet är 0,14. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Startfarten är 21,0 m/s vid backens fot. Vilken fart har åkaren överst? Svara i m/s. Svara med tre värdesiffror.</li><li>Vilken är den minsta startfarten vid backens fot som räcker för att nå toppen? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Backens höjd är 2,50 m, så dess längd längs ytan är</p>\\[s=\\frac{2{,}50}{\\sin35{,}0^\\circ}\\approx4{,}35862\\,\\mathrm m\\]<p>Tyngdkraftens del och friktionen bromsar uppåtrörelsen. Retardationen är b = 9,82(sin35,0° + 0,14cos35,0°). Använd oavrundade värden i v² = v₀² − 2bs.</p>\\[\\begin{aligned}b&=9{,}82(\\sin35{,}0^\\circ+0{,}14\\cos35{,}0^\\circ)\\\\ &\\approx6{,}758691\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Använd oavrundade b och s.</p>\\[v=\\sqrt{21{,}0^2-2bs}\\approx19{,}5\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Backens längd längs ytan är s = 2,50/sin35,0° m. Retardationen under rörelsen uppför är b = 9,82(sin35,0° + 0,14cos35,0°). Den minsta startfarten ger slutfarten noll precis vid toppen.</p>\\[0=v_0^2-2bs\\quad\\Rightarrow\\quad v_0=\\sqrt{2bs}\\]\\[\\begin{aligned}s&=\\frac{2{,}50}{\\sin35{,}0^\\circ}\\approx4{,}35862\\,\\mathrm m\\\\ b&=9{,}82(\\sin35{,}0^\\circ+0{,}14\\cos35{,}0^\\circ)\\\\ &\\approx6{,}758691\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Använd oavrundade b och s.</p>\\[v_0=\\sqrt{2bs}\\approx7{,}68\\,\\mathrm{m/s}\\]</div>",
     "id": "4.616",
     "miniräknare": true,
     "geogebra": false,
@@ -164020,11 +164021,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       19.54694120832348,
-      7.675746830005879
+      7.675746830005878
     ],
     "tolerans": [
-      0.293,
-      0.115
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -164045,13 +164046,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare når en 2,50 m hög uppförsbacke med lutningen 35,0° med farten 21,0 m/s. Friktionstalet är 0,14.</p>",
+    "spelIntro": "<p>En skidåkare glider uppför en backe med höjden 2,50 m och lutningen 35,0°. Glidfriktionstalet är 0,14. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har hon överst i backen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare når en 2,50 m hög uppförsbacke med lutningen 35,0° med farten 21,0 m/s. Friktionstalet är 0,14.</p><p>Vilken fart har hon överst i backen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Backens längd \\(\\dfrac{2{,}50}{\\sin35{,}0^\\circ}\\).</p></div><div class=\"facit-stycke\"><p>Retardation \\(9{,}82(\\sin35{,}0^\\circ+0{,}14\\cos35{,}0^\\circ)\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=v_0^2-2as\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}5\\) m/s</p></div>",
+        "fraga": "Startfarten är 21,0 m/s vid backens fot. Vilken fart har åkaren överst? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare glider uppför en backe med höjden 2,50 m och lutningen 35,0°. Glidfriktionstalet är 0,14. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Startfarten är 21,0 m/s vid backens fot. Vilken fart har åkaren överst? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Backens höjd är 2,50 m, så dess längd längs ytan är</p>\\[s=\\frac{2{,}50}{\\sin35{,}0^\\circ}\\approx4{,}35862\\,\\mathrm m\\]<p>Tyngdkraftens del och friktionen bromsar uppåtrörelsen. Retardationen är b = 9,82(sin35,0° + 0,14cos35,0°). Använd oavrundade värden i v² = v₀² − 2bs.</p>\\[\\begin{aligned}b&=9{,}82(\\sin35{,}0^\\circ+0{,}14\\cos35{,}0^\\circ)\\\\ &\\approx6{,}758691\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Använd oavrundade b och s.</p>\\[v=\\sqrt{21{,}0^2-2bs}\\approx19{,}5\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Bestäm backens längd.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -164060,9 +164061,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken är den minsta farten som räcker för att komma upp?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare når en 2,50 m hög uppförsbacke med lutningen 35,0° med farten 21,0 m/s. Friktionstalet är 0,14.</p><p>Vilken är den minsta farten som räcker för att komma upp?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_0=\\sqrt{2as}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}7\\) m/s</p></div>",
+        "fraga": "Vilken är den minsta startfarten vid backens fot som räcker för att nå toppen? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare glider uppför en backe med höjden 2,50 m och lutningen 35,0°. Glidfriktionstalet är 0,14. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken är den minsta startfarten vid backens fot som räcker för att nå toppen? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Backens längd längs ytan är s = 2,50/sin35,0° m. Retardationen under rörelsen uppför är b = 9,82(sin35,0° + 0,14cos35,0°). Den minsta startfarten ger slutfarten noll precis vid toppen.</p>\\[0=v_0^2-2bs\\quad\\Rightarrow\\quad v_0=\\sqrt{2bs}\\]\\[\\begin{aligned}s&=\\frac{2{,}50}{\\sin35{,}0^\\circ}\\approx4{,}35862\\,\\mathrm m\\\\ b&=9{,}82(\\sin35{,}0^\\circ+0{,}14\\cos35{,}0^\\circ)\\\\ &\\approx6{,}758691\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Använd oavrundade b och s.</p>\\[v_0=\\sqrt{2bs}\\approx7{,}68\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Farten ska vara noll överst.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -164081,16 +164082,16 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "friktionstal för skateboard",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skateboardåkare åker uppför en backe med lutningen 20° med farten 10,0 m/s och stannar efter 14,2 m. Bestäm friktionstalet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{10{,}0^2}{2\\cdot14{,}2}\\approx3{,}52\\) m/s².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{a-g\\sin20^\\circ}{g\\cos20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}018\\) </p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En skateboardåkare börjar rulla uppför en backe som lutar 20° med farten 10,0 m/s. Åkaren stannar efter 14,2 m. Den bromsande motståndskraften modelleras som μN, där N är normalkraften. Bortse från hjulens massa och luftmotståndet. Bestäm μ. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stoppsträckan och startfarten ger retardationens storlek.</p>\\[b=\\frac{10{,}0^2}{2\\cdot14{,}2}\\approx3{,}52113\\,\\mathrm{m/s^2}\\]<p>På vägen upp bromsar både tyngdkraftens del längs backen och motståndskraften μmg cos20°.</p>\\[b=g\\sin20^\\circ+\\mu g\\cos20^\\circ\\]\\[\\mu=\\frac{10{,}0^2/(2\\cdot14{,}2)-9{,}82\\sin20^\\circ}{9{,}82\\cos20^\\circ}\\approx0{,}0176\\]</div>",
     "id": "4.617",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 0.017608669263498522,
-    "tolerans": 0.00051,
+    "tolerans": 5e-05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -164107,9 +164108,9 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "staka uppför backe",
-    "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Arnold (98 kg med skidor) har farten 8,0 m/s när han når en 8,0 m lång backe med höjden 1,8 m. Han glider uppför utan att staka.</p><ol type=\"a\"><li>Vilken fart har han överst om man bortser från friktionen?</li><li>Vilken fart har han överst om friktionskraften är 80 N?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{8{,}0^2-2\\cdot9{,}82\\cdot1{,}8}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}4\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation: \\(9{,}82\\cdot\\dfrac{1{,}8}{8{,}0}+\\dfrac{80}{98}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{8{,}0^2-2a\\cdot8{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}9\\) m/s</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Arnold och skidorna väger tillsammans 98 kg. Han kommer med farten 8,0 m/s till en 8,0 m lång uppförsbacke med höjden 1,8 m. Han glider utan att staka. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken fart har Arnold överst om backen är friktionsfri? Svara i m/s. Svara med tre värdesiffror.</li><li>Vilken fart har Arnold överst om en konstant friktionskraft på 80 N bromsar? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Backens höjd och längd ger sinα = 1,8/8,0. Utan friktion bromsas Arnold med b = g sinα. Använd v² = v₀² − 2bs. Då blir 2bs = 2gh.</p>\\[v=\\sqrt{8{,}0^2-2\\cdot9{,}82\\cdot1{,}8}\\approx5{,}35\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Tyngdkraftens del längs backen och friktionen bromsar. Backens höjd och längd ger sinα = 1,8/8,0.</p>\\[b=9{,}82\\frac{1{,}8}{8{,}0}+\\frac{80}{98}\\approx3{,}02583\\,\\mathrm{m/s^2}\\]<p>Använd den oavrundade retardationen i v² = v₀² − 2bs.</p>\\[v=\\sqrt{8{,}0^2-2\\left(9{,}82\\frac{1{,}8}{8{,}0}+\\frac{80}{98}\\right)\\cdot8{,}0}\\approx3{,}95\\,\\mathrm{m/s}\\]</div>",
     "id": "4.618",
     "miniräknare": true,
     "geogebra": false,
@@ -164120,8 +164121,8 @@ window.BANK = [
       3.948009056499754
     ],
     "tolerans": [
-      0.0803,
-      0.0592
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -164142,24 +164143,24 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Arnold (98 kg med skidor) har farten 8,0 m/s när han når en 8,0 m lång backe med höjden 1,8 m. Han glider uppför utan att staka.</p>",
+    "spelIntro": "<p>Arnold och skidorna väger tillsammans 98 kg. Han kommer med farten 8,0 m/s till en 8,0 m lång uppförsbacke med höjden 1,8 m. Han glider utan att staka. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har han överst om man bortser från friktionen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Arnold (98 kg med skidor) har farten 8,0 m/s när han når en 8,0 m lång backe med höjden 1,8 m. Han glider uppför utan att staka.</p><p>Vilken fart har han överst om man bortser från friktionen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{8{,}0^2-2\\cdot9{,}82\\cdot1{,}8}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}4\\) m/s</p></div>",
+        "fraga": "Vilken fart har Arnold överst om backen är friktionsfri? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Arnold och skidorna väger tillsammans 98 kg. Han kommer med farten 8,0 m/s till en 8,0 m lång uppförsbacke med höjden 1,8 m. Han glider utan att staka. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken fart har Arnold överst om backen är friktionsfri? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Backens höjd och längd ger sinα = 1,8/8,0. Utan friktion bromsas Arnold med b = g sinα. Använd v² = v₀² − 2bs. Då blir 2bs = 2gh.</p>\\[v=\\sqrt{8{,}0^2-2\\cdot9{,}82\\cdot1{,}8}\\approx5{,}35\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Retardation \\(g\\sin\\alpha\\) med \\(\\sin\\alpha=\\dfrac{1{,}8}{8{,}0}\\).</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart har han överst om friktionskraften är 80 N?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Arnold (98 kg med skidor) har farten 8,0 m/s när han når en 8,0 m lång backe med höjden 1,8 m. Han glider uppför utan att staka.</p><p>Vilken fart har han överst om friktionskraften är 80 N?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation: \\(9{,}82\\cdot\\dfrac{1{,}8}{8{,}0}+\\dfrac{80}{98}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{8{,}0^2-2a\\cdot8{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}9\\) m/s</p></div>",
+        "fraga": "Vilken fart har Arnold överst om en konstant friktionskraft på 80 N bromsar? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Arnold och skidorna väger tillsammans 98 kg. Han kommer med farten 8,0 m/s till en 8,0 m lång uppförsbacke med höjden 1,8 m. Han glider utan att staka. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken fart har Arnold överst om en konstant friktionskraft på 80 N bromsar? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen och friktionen bromsar. Backens höjd och längd ger sinα = 1,8/8,0.</p>\\[b=9{,}82\\frac{1{,}8}{8{,}0}+\\frac{80}{98}\\approx3{,}02583\\,\\mathrm{m/s^2}\\]<p>Använd den oavrundade retardationen i v² = v₀² − 2bs.</p>\\[v=\\sqrt{8{,}0^2-2\\left(9{,}82\\frac{1{,}8}{8{,}0}+\\frac{80}{98}\\right)\\cdot8{,}0}\\approx3{,}95\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Bestäm retardationen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -164178,9 +164179,9 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "nedför backe och ut på grus",
-    "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skateboardåkare startar från vila i en 8,0 m lång friktionsfri backe med lutningen 30°. Nedanför finns en plan grusyta med friktionstalet 0,40.</p><ol type=\"a\"><li>Hur långt rullar han på gruset?</li><li>Hur lång tid tar det totalt innan han står still?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=2\\cdot9{,}82\\sin30^\\circ\\cdot8{,}0\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2\\cdot0{,}40\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}0\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Backe: \\(t_1=\\dfrac{v}{g\\sin30^\\circ}\\).</p></div><div class=\"facit-stycke\"><p>Grus: \\(t_2=\\dfrac{v}{0{,}40g}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}1\\) s</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En åkare på pulka startar från vila i en 8,0 m lång, friktionsfri backe som lutar 30°. Efter backen glider pulkan på vågrät mark med glidfriktionstalet 0,40. Farten ändras inte vid övergången till den vågräta marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur långt glider pulkan på den vågräta marken innan den stannar? Svara i m. Svara med tre värdesiffror.</li><li>Hur lång tid tar hela rörelsen, från starten i backen till stoppet? Svara i s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Utan friktion i backen är accelerationen a = g sin30° = 4,91 m/s². Från vila efter 8,0 m blir</p>\\[v^2=2\\cdot4{,}91\\cdot8{,}0=78{,}56\\,\\mathrm{m^2/s^2}\\]<p>På vågrät mark är retardationen b = μg = 0,40 · 9,82 = 3,928 m/s².</p>\\[s=\\frac{v^2}{2b}=\\frac{78{,}56}{2\\cdot3{,}928}=10{,}0\\,\\mathrm m\\]<p><strong>b)</strong></p><p>Accelerationen i backen är a = g sin30° = 4,91 m/s². Farten vid backens fot är v = √(2 · 4,91 · 8,0) ≈ 8,86341 m/s.</p>\\[t_{\\text{backe}}=\\frac{v}{a}=\\frac{\\sqrt{78{,}56}}{4{,}91}\\approx1{,}805\\,\\mathrm s\\]<p>På vågrät mark är retardationen b = 0,40g = 3,928 m/s².</p>\\[t_{\\text{broms}}=\\frac{v}{b}=\\frac{\\sqrt{78{,}56}}{3{,}928}\\approx2{,}257\\,\\mathrm s\\]\\[t_{\\text{tot}}=\\frac{\\sqrt{78{,}56}}{4{,}91}+\\frac{\\sqrt{78{,}56}}{3{,}928}\\approx4{,}06\\,\\mathrm s\\]</div>",
     "id": "4.619",
     "miniräknare": true,
     "geogebra": false,
@@ -164191,8 +164192,8 @@ window.BANK = [
       4.061643141658717
     ],
     "tolerans": [
-      0.15,
-      0.0609
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -164213,33 +164214,33 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skateboardåkare startar från vila i en 8,0 m lång friktionsfri backe med lutningen 30°. Nedanför finns en plan grusyta med friktionstalet 0,40.</p>",
+    "spelIntro": "<p>En åkare på pulka startar från vila i en 8,0 m lång, friktionsfri backe som lutar 30°. Efter backen glider pulkan på vågrät mark med glidfriktionstalet 0,40. Farten ändras inte vid övergången till den vågräta marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur långt rullar han på gruset?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skateboardåkare startar från vila i en 8,0 m lång friktionsfri backe med lutningen 30°. Nedanför finns en plan grusyta med friktionstalet 0,40.</p><p>Hur långt rullar han på gruset?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=2\\cdot9{,}82\\sin30^\\circ\\cdot8{,}0\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2\\cdot0{,}40\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}0\\) m</p></div>",
+        "fraga": "Hur långt glider pulkan på den vågräta marken innan den stannar? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En åkare på pulka startar från vila i en 8,0 m lång, friktionsfri backe som lutar 30°. Efter backen glider pulkan på vågrät mark med glidfriktionstalet 0,40. Farten ändras inte vid övergången till den vågräta marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur långt glider pulkan på den vågräta marken innan den stannar? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan friktion i backen är accelerationen a = g sin30° = 4,91 m/s². Från vila efter 8,0 m blir</p>\\[v^2=2\\cdot4{,}91\\cdot8{,}0=78{,}56\\,\\mathrm{m^2/s^2}\\]<p>På vågrät mark är retardationen b = μg = 0,40 · 9,82 = 3,928 m/s².</p>\\[s=\\frac{v^2}{2b}=\\frac{78{,}56}{2\\cdot3{,}928}=10{,}0\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Bestäm farten vid backens fot.</p>",
         "niva": "C",
-        "poang": "(1/1/0)",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar det totalt innan han står still?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skateboardåkare startar från vila i en 8,0 m lång friktionsfri backe med lutningen 30°. Nedanför finns en plan grusyta med friktionstalet 0,40.</p><p>Hur lång tid tar det totalt innan han står still?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Backe: \\(t_1=\\dfrac{v}{g\\sin30^\\circ}\\).</p></div><div class=\"facit-stycke\"><p>Grus: \\(t_2=\\dfrac{v}{0{,}40g}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}1\\) s</p></div>",
+        "fraga": "Hur lång tid tar hela rörelsen, från starten i backen till stoppet? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En åkare på pulka startar från vila i en 8,0 m lång, friktionsfri backe som lutar 30°. Efter backen glider pulkan på vågrät mark med glidfriktionstalet 0,40. Farten ändras inte vid övergången till den vågräta marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur lång tid tar hela rörelsen, från starten i backen till stoppet? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Accelerationen i backen är a = g sin30° = 4,91 m/s². Farten vid backens fot är v = √(2 · 4,91 · 8,0) ≈ 8,86341 m/s.</p>\\[t_{\\text{backe}}=\\frac{v}{a}=\\frac{\\sqrt{78{,}56}}{4{,}91}\\approx1{,}805\\,\\mathrm s\\]<p>På vågrät mark är retardationen b = 0,40g = 3,928 m/s².</p>\\[t_{\\text{broms}}=\\frac{v}{b}=\\frac{\\sqrt{78{,}56}}{3{,}928}\\approx2{,}257\\,\\mathrm s\\]\\[t_{\\text{tot}}=\\frac{\\sqrt{78{,}56}}{4{,}91}+\\frac{\\sqrt{78{,}56}}{3{,}928}\\approx4{,}06\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>Räkna tiden för varje del.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 4,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Dela upp rörelsen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -164249,9 +164250,9 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "bromssträcka i backe",
-    "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil med farten 42 m/s tvärbromsar i en backe med lutningen 9,0°. Friktionstalet är 0,98.</p><ol type=\"a\"><li>Hur lång blir bromssträckan om bilen kör uppför?</li><li>Hur lång blir bromssträckan om bilen kör nedför?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation \\(9{,}82(\\sin9{,}0^\\circ+0{,}98\\cos9{,}0^\\circ)\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2a}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation \\(9{,}82(0{,}98\\cos9{,}0^\\circ-\\sin9{,}0^\\circ)\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(111\\) m</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En bil har farten 42 m/s i en backe som lutar 9,0°. Bilen bromsar med låsta hjul. Glidfriktionstalet mellan däck och väg är 0,98. Bortse från andra motståndskrafter och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur lång blir bromssträckan om bilen rör sig uppför? Svara i m. Svara med tre värdesiffror.</li><li>Hur lång blir bromssträckan om bilen rör sig nedför? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid rörelse uppför bromsar både tyngdkraftens del längs backen och glidfriktionen. Retardationen är b = g(sin9,0° + 0,98cos9,0°). Vid stopp gäller s = v₀²/(2b).</p>\\[s=\\frac{42^2}{2\\cdot9{,}82(\\sin9{,}0^\\circ+0{,}98\\cos9{,}0^\\circ)}\\approx79{,}9\\,\\mathrm m\\]<p><strong>b)</strong></p><p>Vid rörelse nedför driver tyngdkraftens del nedför, medan glidfriktionen bromsar uppför. Retardationens storlek är b = g(0,98cos9,0° − sin9,0°).</p>\\[s=\\frac{42^2}{2\\cdot9{,}82(0{,}98\\cos9{,}0^\\circ-\\sin9{,}0^\\circ)}\\approx111\\,\\mathrm m\\]<p>Bromssträckan blir längre nedför eftersom tyngdkraften motverkar inbromsningen.</p></div>",
     "id": "4.620",
     "miniräknare": true,
     "geogebra": false,
@@ -164262,8 +164263,8 @@ window.BANK = [
       110.67983804724568
     ],
     "tolerans": [
-      1.2,
-      5.1
+      0.05,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -164284,32 +164285,32 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil med farten 42 m/s tvärbromsar i en backe med lutningen 9,0°. Friktionstalet är 0,98.</p>",
+    "spelIntro": "<p>En bil har farten 42 m/s i en backe som lutar 9,0°. Bilen bromsar med låsta hjul. Glidfriktionstalet mellan däck och väg är 0,98. Bortse från andra motståndskrafter och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur lång blir bromssträckan om bilen kör uppför?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil med farten 42 m/s tvärbromsar i en backe med lutningen 9,0°. Friktionstalet är 0,98.</p><p>Hur lång blir bromssträckan om bilen kör uppför?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation \\(9{,}82(\\sin9{,}0^\\circ+0{,}98\\cos9{,}0^\\circ)\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{v^2}{2a}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\) m</p></div>",
-        "ledtrad": "<p>Både friktion och tyngdkomposant bromsar.</p>",
+        "fraga": "Hur lång blir bromssträckan om bilen rör sig uppför? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En bil har farten 42 m/s i en backe som lutar 9,0°. Bilen bromsar med låsta hjul. Glidfriktionstalet mellan däck och väg är 0,98. Bortse från andra motståndskrafter och använd g = 9,82 m/s².</p><p>Hur lång blir bromssträckan om bilen rör sig uppför? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid rörelse uppför bromsar både tyngdkraftens del längs backen och glidfriktionen. Retardationen är b = g(sin9,0° + 0,98cos9,0°). Vid stopp gäller s = v₀²/(2b).</p>\\[s=\\frac{42^2}{2\\cdot9{,}82(\\sin9{,}0^\\circ+0{,}98\\cos9{,}0^\\circ)}\\approx79{,}9\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Både friktion och tyngddel bromsar.</p>",
         "niva": "C",
-        "poang": "(1/1/0)",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång blir bromssträckan om bilen kör nedför?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil med farten 42 m/s tvärbromsar i en backe med lutningen 9,0°. Friktionstalet är 0,98.</p><p>Hur lång blir bromssträckan om bilen kör nedför?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Retardation \\(9{,}82(0{,}98\\cos9{,}0^\\circ-\\sin9{,}0^\\circ)\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(111\\) m</p></div>",
-        "ledtrad": "<p>Tyngdkomposanten motverkar inbromsningen.</p>",
+        "fraga": "Hur lång blir bromssträckan om bilen rör sig nedför? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En bil har farten 42 m/s i en backe som lutar 9,0°. Bilen bromsar med låsta hjul. Glidfriktionstalet mellan däck och väg är 0,98. Bortse från andra motståndskrafter och använd g = 9,82 m/s².</p><p>Hur lång blir bromssträckan om bilen rör sig nedför? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid rörelse nedför driver tyngdkraftens del nedför, medan glidfriktionen bromsar uppför. Retardationens storlek är b = g(0,98cos9,0° − sin9,0°).</p>\\[s=\\frac{42^2}{2\\cdot9{,}82(0{,}98\\cos9{,}0^\\circ-\\sin9{,}0^\\circ)}\\approx111\\,\\mathrm m\\]<p>Bromssträckan blir längre nedför eftersom tyngdkraften motverkar inbromsningen.</p></div>",
+        "ledtrad": "<p>Tyngddelen motverkar inbromsningen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(s=\\dfrac{v^2}{2a}\\).</p>",
+    "ledtrad": "<p>Använd \\(s=v_0^2/(2b)\\), där b är retardationens storlek.</p>",
     "traningsniva": 3,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 2,
@@ -164318,18 +164319,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "friktionstal ur stoppsträcka",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skidåkare startar från vila 20,0 m över marken i en backe med lutningen 20,0° och stannar 45,0 m ut på plan mark. Friktionstalet \\(\\mu\\) är detsamma överallt. Bestäm \\(\\mu\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Backens längd \\(L=\\dfrac{20{,}0}{\\sin20{,}0^\\circ}\\).</p></div><div class=\"facit-stycke\"><p>Energi: \\(mgh=\\mu mg(L\\cos20{,}0^\\circ+45{,}0)\\iff\\mu=\\dfrac{20{,}0}{L\\cos20{,}0^\\circ+45{,}0}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}200\\) </p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En skidåkare startar från vila i en backe som lutar 20,0°. Starthöjden är 20,0 m över den vågräta marken vid backens fot. Åkaren stannar efter 45,0 m på den vågräta marken. Friktionstalet är samma i backen och på marken. Bortse från luftmotstånd och energiförlust i övergången mellan backe och mark. Bestäm glidfriktionstalet μ. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Åkaren startar och slutar i vila. Hela minskningen i lägesenergi, mgh, går därför åt till friktionens arbete. Backens längd är</p>\\[L=\\frac{20{,}0}{\\sin20{,}0^\\circ}\\approx58{,}4761\\,\\mathrm m\\]<p>I backen är friktionen μmg cos20,0°, och på vågrät mark är den μmg. Arbetet är kraften gånger sträckan i vardera delen.</p>\\[mgh=\\mu mg\\cos20{,}0^\\circ\\cdot L+\\mu mg\\cdot45{,}0\\]<p>Förkorta bort mg och lös för μ.</p>\\[\\mu=\\frac{20{,}0}{(20{,}0/\\sin20{,}0^\\circ)\\cos20{,}0^\\circ+45{,}0}\\approx0{,}200\\]</div>",
     "id": "4.621",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 0.20010095415481247,
-    "tolerans": 0.003,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -164337,7 +164338,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Hela lägesenergin går åt till friktionsarbete.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
     "arbetsinsats": 3,
     "spel": true
@@ -164345,18 +164346,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "snowboard ut på plan mark",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Olle åker snowboard nedför en 110 m lång backe med lutningen 28,0° och har farten 5,00 m/s överst. Friktionstalet i backen är 0,180 och på den plana marken nedanför 0,150. Hur långt kommer han på den plana marken?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Backen: \\(a=9{,}82(\\sin28{,}0^\\circ-0{,}180\\cos28{,}0^\\circ)\\),</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=5{,}00^2+2a\\cdot110\\].</div></div><div class=\"facit-stycke\"><p>Plan mark: \\(x=\\dfrac{v^2}{2\\cdot0{,}150\\cdot9{,}82}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(236\\) m</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Olle glider på snowboard nedför en 110 m lång backe som lutar 28,0°. Startfarten är 5,00 m/s. Glidfriktionstalet är 0,180 i backen och 0,150 på den vågräta marken efter backen. Farten ändras inte vid övergången. Bortse från luftmotståndet. Hur långt glider Olle på den vågräta marken innan han stannar? Svara i m. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen driver nedför. Glidfriktionen μmg cosα bromsar uppför. Efter division med massan blir accelerationen</p>\\[\\begin{aligned}a&=g(\\sin\\alpha-\\mu\\cos\\alpha)\\\\ &=9{,}82(\\sin28^\\circ-0{,}18\\cos28^\\circ)\\\\ &\\approx3{,}049513\\,\\mathrm{m/s^2}\\end{aligned}\\]<p>Farten vid backens fot fås av v² = v₀² + 2as.</p>\\[\\begin{aligned}v^2&=5{,}00^2+2a\\cdot110\\\\ &\\approx695{,}8928\\,\\mathrm{m^2/s^2}\\end{aligned}\\]<p>På vågrät mark är retardationen b = μg = 0,150 · 9,82 = 1,473 m/s². Använd det oavrundade värdet på v².</p>\\[x=\\frac{v^2}{2b}\\approx236\\,\\mathrm m\\]</div>",
     "id": "4.622",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 236.2161466097766,
-    "tolerans": 3.54,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -164376,8 +164377,8 @@ window.BANK = [
     "niva": "E",
     "typ": "tyngdens komposanter",
     "poang": "(3/0/0)",
-    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Hur stor är komposanten längs backen?</li><li>Hur stor är normalkraften?</li><li>Vilken acceleration får skidåkaren?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\parallel=850\\sin22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(318\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=850\\cos22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(788\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=g\\sin22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}7\\) m/s²</p></li></ol></div>",
+    "t": "<p>En skidåkare har tyngdkraften 850 N och glider nedför en backe som lutar 22°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är tyngdkraftens del längs backen? Svara i N. Svara med tre värdesiffror.</li><li>Hur stor är normalkraften? Svara i N. Svara med tre värdesiffror.</li><li>Bestäm accelerationen nedför i m/s². Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vinkeln mäts mot marken. Tyngdkraftens del längs backen fås med sinus.</p>\\[F_{g,\\parallel}=850\\sin22^\\circ\\approx318\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Ingen acceleration sker vinkelrätt mot backen. Normalkraften balanserar tyngdkraftens del i den riktningen.</p>\\[N=850\\cos22^\\circ\\approx788\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Utan motstånd är kraftsumman längs backen mg sin22°. Dividera ma = mg sin22° med massan.</p>\\[a=g\\sin22^\\circ=9{,}82\\sin22^\\circ\\approx3{,}68\\,\\mathrm{m/s^2}\\]</div>",
     "id": "4.623",
     "miniräknare": true,
     "geogebra": false,
@@ -164389,9 +164390,9 @@ window.BANK = [
       3.6786367473442563
     ],
     "tolerans": [
-      5.1,
-      11.8,
-      0.0552
+      0.5,
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -164415,14 +164416,14 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>En skidåkare har tyngdkraften 850 N och glider nedför en backe som lutar 22°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är tyngdkraftens del längs backen? Svara i N.",
-        "t": "<p>En skidåkare har tyngdkraften 850 N. Backen lutar 22°.</p><p>Hur stor är tyngdkraftens del längs backen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\parallel=850\\sin22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(318\\) N</p></div>",
-        "ledtrad": "<p>\\(mg\\sin\\alpha\\).</p>",
+        "fraga": "Hur stor är tyngdkraftens del längs backen? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare har tyngdkraften 850 N och glider nedför en backe som lutar 22°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur stor är tyngdkraftens del längs backen? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vinkeln mäts mot marken. Tyngdkraftens del längs backen fås med sinus.</p>\\[F_{g,\\parallel}=850\\sin22^\\circ\\approx318\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Tyngdkraften är redan given. Dess del längs backen är 850sin22° N.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -164430,10 +164431,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är normalkraften från backen? Svara i N.",
-        "t": "<p>En skidåkare har tyngdkraften 850 N och glider i en backe som lutar 22°.</p><p>Hur stor är normalkraften från backen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=850\\cos22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(788\\) N</p></div>",
-        "ledtrad": "<p>\\(mg\\cos\\alpha\\).</p>",
+        "fraga": "Hur stor är normalkraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare har tyngdkraften 850 N och glider nedför en backe som lutar 22°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur stor är normalkraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ingen acceleration sker vinkelrätt mot backen. Normalkraften balanserar tyngdkraftens del i den riktningen.</p>\\[N=850\\cos22^\\circ\\approx788\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Normalkraften balanserar tyngdkraftens del vinkelrätt mot backen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -164441,17 +164442,17 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vilken acceleration får skidåkaren?",
-        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p><p>Vilken acceleration får skidåkaren?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=g\\sin22^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}7\\) m/s²</p></div>",
-        "ledtrad": "<p>Använd massan, inte tyngden, i \\(F=ma\\).</p>",
+        "fraga": "Bestäm accelerationen nedför i m/s². Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare har tyngdkraften 850 N och glider nedför en backe som lutar 22°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen nedför i m/s². Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan motstånd är kraftsumman längs backen mg sin22°. Dividera ma = mg sin22° med massan.</p>\\[a=g\\sin22^\\circ=9{,}82\\sin22^\\circ\\approx3{,}68\\,\\mathrm{m/s^2}\\]</div>",
+        "ledtrad": "<p>Skriv ma = mg sin22° och förkorta bort massan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Dela upp tyngden i komposanter.</p>",
+    "ledtrad": "<p>Dela upp tyngden i delar.</p>",
     "traningsniva": 2,
     "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
     "arbetsinsats": 2,
@@ -164463,8 +164464,8 @@ window.BANK = [
     "niva": "E",
     "typ": "cyklist i nedförsbacke",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (95 kg med cykel) rullar nedför en backe med lutningen 10°. Bortse från friktion och luftmotstånd.</p><ol type=\"a\"><li>Bestäm normalkraften.</li><li>Bestäm accelerationen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=95\\cdot9{,}82\\cos10^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(919\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82\\sin10^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\) m/s²</p></li></ol></div>",
+    "t": "<p>En cyklist och cykel väger tillsammans 95 kg och rullar nedför en backe som lutar 10°. Bortse från motståndskrafter och hjulens massa. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är normalkraften? Svara i N. Svara med tre värdesiffror.</li><li>Bestäm accelerationen nedför i m/s². Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Ingen acceleration sker vinkelrätt mot backen. Normalkraften balanserar tyngdkraftens del i den riktningen.</p>\\[N=mg\\cos10^\\circ=95\\cdot9{,}82\\cos10^\\circ\\approx919\\,\\mathrm N\\]<p><strong>b)</strong></p><p>I modellen är tyngdkraftens del längs backen hela kraftsumman. Dividera ma = mg sin10° med massan.</p>\\[a=g\\sin10^\\circ=9{,}82\\sin10^\\circ\\approx1{,}71\\,\\mathrm{m/s^2}\\]</div>",
     "id": "4.624",
     "miniräknare": true,
     "geogebra": false,
@@ -164475,8 +164476,8 @@ window.BANK = [
       1.705225104689256
     ],
     "tolerans": [
-      13.8,
-      0.051
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -164496,13 +164497,13 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (95 kg med cykel) rullar nedför en backe med lutningen 10°. Bortse från friktion och luftmotstånd.</p>",
+    "spelIntro": "<p>En cyklist och cykel väger tillsammans 95 kg och rullar nedför en backe som lutar 10°. Bortse från motståndskrafter och hjulens massa. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm normalkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (95 kg med cykel) rullar nedför en backe med lutningen 10°. Bortse från friktion och luftmotstånd.</p><p>Bestäm normalkraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=95\\cdot9{,}82\\cos10^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(919\\) N</p></div>",
+        "fraga": "Hur stor är normalkraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En cyklist och cykel väger tillsammans 95 kg och rullar i en backe som lutar 10°. Bara tyngdkraft och krafter från vägen verkar. Använd g = 9,82 m/s².</p><p>Hur stor är normalkraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ingen acceleration sker vinkelrätt mot backen. Normalkraften balanserar tyngdkraftens del i den riktningen.</p>\\[N=mg\\cos10^\\circ=95\\cdot9{,}82\\cos10^\\circ\\approx919\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>\\(mg\\cos\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -164511,9 +164512,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är accelerationen längs backen? Svara i m/s².",
-        "t": "<p>En cyklist rullar nedför en backe som lutar 10°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen längs backen? Svara i m/s².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82\\sin10^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen nedför i m/s². Svara med tre värdesiffror.",
+        "t": "<p>En cyklist rullar nedför en backe som lutar 10°. Bortse från motståndskrafter och hjulens massa. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen nedför i m/s². Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I modellen är tyngdkraftens del längs backen hela kraftsumman. Dividera ma = mg sin10° med massan.</p>\\[a=g\\sin10^\\circ=9{,}82\\sin10^\\circ\\approx1{,}71\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -164521,7 +164522,7 @@ window.BANK = [
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Komposanterna av tyngden.</p>",
+    "ledtrad": "<p>Delerna av tyngden.</p>",
     "traningsniva": 2,
     "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
     "arbetsinsats": 2,
@@ -164533,8 +164534,8 @@ window.BANK = [
     "niva": "E",
     "typ": "skidåkare dras i lift",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare (67 kg) dras med konstant fart uppför en backe med lutningen 8,0° med ett rep parallellt med backen. Bortse från friktion.</p><ol type=\"a\"><li>Hur stor är spännkraften i repet?</li><li>Vilken acceleration får skidåkaren om repet går av?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_S=67\\cdot9{,}82\\sin8{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(92\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=9{,}82\\sin8{,}0^\\circ\\), nedför backen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\) m/s²</p></li></ol></div>",
+    "t": "<p>En skidåkare på 67 kg dras med konstant fart uppför en backe som lutar 8,0°. Repet är parallellt med backen. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är kraften i repet? Svara i N. Svara med tre värdesiffror.</li><li>Repet går av. Hur stor är accelerationen längs backen direkt efteråt? Svara i m/s². Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart innebär kraftbalans. Repet balanserar tyngdkraftens del nedför backen.</p>\\[S=mg\\sin8{,}0^\\circ=67\\cdot9{,}82\\sin8{,}0^\\circ\\approx91{,}6\\,\\mathrm N\\]<p><strong>b)</strong></p><p>När repet gått av är tyngdkraftens del längs backen hela kraftsumman. Den verkar nedför även om åkaren fortfarande rör sig uppför.</p>\\[a=g\\sin8{,}0^\\circ=9{,}82\\sin8{,}0^\\circ\\approx1{,}37\\,\\mathrm{m/s^2}\\]<p>Accelerationen är nedför.</p></div>",
     "id": "4.625",
     "miniräknare": true,
     "geogebra": false,
@@ -164545,8 +164546,8 @@ window.BANK = [
       1.3666798514278427
     ],
     "tolerans": [
-      1.37,
-      0.051
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -164566,13 +164567,13 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare (67 kg) dras med konstant fart uppför en backe med lutningen 8,0° med ett rep parallellt med backen. Bortse från friktion.</p>",
+    "spelIntro": "<p>En skidåkare på 67 kg dras med konstant fart uppför en backe som lutar 8,0°. Repet är parallellt med backen. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är spännkraften i repet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare (67 kg) dras med konstant fart uppför en backe med lutningen 8,0° med ett rep parallellt med backen. Bortse från friktion.</p><p>Hur stor är spännkraften i repet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_S=67\\cdot9{,}82\\sin8{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(92\\) N</p></div>",
+        "fraga": "Hur stor är kraften i repet? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare på 67 kg dras med konstant fart uppför en backe som lutar 8,0°. Repet är parallellt med backen. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur stor är kraften i repet? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär kraftbalans. Repet balanserar tyngdkraftens del nedför backen.</p>\\[S=mg\\sin8{,}0^\\circ=67\\cdot9{,}82\\sin8{,}0^\\circ\\approx91{,}6\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Konstant fart: jämvikt längs backen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -164581,9 +164582,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får skidåkaren längs backen? Svara med accelerationens storlek i m/s².",
-        "t": "<p>En skidåkare dras uppför en backe med lutningen 8,0°. Repet går av. Bortse från friktion och använd g = 9,82 m/s².</p><p>Vilken acceleration får skidåkaren längs backen? Svara med accelerationens storlek i m/s².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=9{,}82\\sin8{,}0^\\circ\\), nedför backen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\) m/s²</p></div>",
+        "fraga": "Hur stor är accelerationen längs backen direkt efteråt? Svara i m/s². Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare rör sig uppför en backe som lutar 8,0° efter att dragrepet gått av. Bara tyngdkraft och normalkraft verkar. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen längs backen direkt efteråt? Svara i m/s². Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När repet gått av är tyngdkraftens del längs backen hela kraftsumman. Den verkar nedför även om åkaren fortfarande rör sig uppför.</p>\\[a=g\\sin8{,}0^\\circ=9{,}82\\sin8{,}0^\\circ\\approx1{,}37\\,\\mathrm{m/s^2}\\]<p>Accelerationen är nedför.</p></div>",
         "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -164600,18 +164601,18 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "E",
+    "niva": "C",
     "typ": "massa ur dragkraft",
-    "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss dras med konstant fart uppför ett friktionsfritt plan med lutningen 20° med kraften 100 N parallellt med planet. Bestäm klossens massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{100}{9{,}82\\sin20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\) kg</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En kloss dras med konstant fart uppför ett friktionsfritt plan som lutar 20°. Dragkraften är 100 N längs planet. Hur stor är klossens massa? Svara i kg. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är kraftsumman noll. Dragkraften balanserar tyngdkraftens del nedför.</p>\\[\\begin{aligned}100&=mg\\sin20^\\circ\\\\ &\\Rightarrow  m\\\\ &=\\frac{100}{9{,}82\\sin20^\\circ}\\\\ &\\approx29{,}8\\,\\mathrm{kg}\\end{aligned}\\]</div>",
     "id": "4.626",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Krafter på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 29.773975561742233,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -164619,7 +164620,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Jämvikt längs planet.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
     "arbetsinsats": 1,
@@ -164631,22 +164632,22 @@ window.BANK = [
     "niva": "C",
     "typ": "lutning ur dynamometer",
     "poang": "(0/1/0)",
-    "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En vagn hänger i en dynamometer som visar 3,95 N. Sedan dras vagnen med konstant fart uppför ett friktionsfritt plan med dynamometern parallell med planet, och då visar den 0,86 N. Vilken lutning har planet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{0{,}86}{3{,}95}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\) °</p></div>",
+    "t": "<p>En vagn hänger stilla i en kraftmätare som visar 3,95 N. Samma vagn dras sedan med konstant fart uppför ett friktionsfritt plan. Kraftmätaren drar längs planet och visar 0,86 N. Vilken vinkel har planet mot marken? Svara i grader.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När vagnen hänger stilla är kraftmätarens kraft lika stor som tyngdkraften: mg = 3,95 N. På planet balanserar den tyngdkraftens del längs planet.</p>\\[0{,}86=3{,}95\\sin\\alpha\\]\\[\\alpha=\\arcsin\\!\\left(\\frac{0{,}86}{3{,}95}\\right)\\approx12{,}6^\\circ\\]</div>",
     "id": "4.627",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Krafter på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 12.575241999109528,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dynamometern visar tyngden respektive komposanten längs planet.</p>",
+    "ledtrad": "<p>Kraftmätaren visar först tyngdkraften och sedan dess del längs planet.</p>",
     "traningsniva": 3,
     "svarEnhet": "°",
     "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
@@ -164659,23 +164660,23 @@ window.BANK = [
     "niva": "C",
     "typ": "fjäder håller vikt på plan",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En vikt (2,0 kg) ligger stilla på ett friktionsfritt plan med lutningen 53°, fäst i en fjäder (845 N/m) parallell med planet. Hur mycket är fjädern förlängd?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[kx=mg\\sin53^\\circ\\iff x=\\dfrac{2{,}0\\cdot9{,}82\\sin53^\\circ}{845}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}019\\) m</p></div>",
+    "t": "<p>En kloss på 2,0 kg hålls stilla på ett friktionsfritt plan som lutar 53°. En fjäder drar parallellt uppför planet. Fjäderkonstanten är 845 N/m. Hur mycket är fjädern förlängd jämfört med sin längd utan belastning? Svara i m. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fjäderkraften kx uppför balanserar tyngdkraftens del nedför.</p>\\[kx=mg\\sin53^\\circ\\quad\\Rightarrow\\quad x=\\frac{mg\\sin53^\\circ}{k}\\]\\[x=\\frac{2{,}0\\cdot9{,}82\\sin53^\\circ}{845}\\approx0{,}0186\\,\\mathrm m\\]</div>",
     "id": "4.628",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Krafter på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 0.018562368541217553,
-    "tolerans": 0.00051,
+    "tolerans": 5e-05,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fjäderkraften tar ut komposanten längs planet.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Fjäderkraften tar ut delen längs planet.</p>",
+    "traningsniva": 3,
     "svarEnhet": "m",
     "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
     "arbetsinsats": 1,
@@ -164684,11 +164685,11 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "lutande_plan",
-    "niva": "A",
+    "niva": "C",
     "typ": "bil bogseras med sned vajer",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1 230 kg) bogseras med konstant fart uppför en backe med lutningen 25,0°. Vajern bildar 31,0° med backen. Bortse från friktion.</p><ol type=\"a\"><li>Bestäm spännkraften i vajern.</li><li>Bestäm normalkraften.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_S\\cos31{,}0^\\circ=mg\\sin25{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,955\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg\\cos25{,}0^\\circ-F_S\\sin31{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,880\\) N</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En bil på 1230 kg bogseras med konstant fart uppför en backe som lutar 25,0°. Vajern är riktad 31,0° över backen. Bortse från motståndskrafter och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är kraften i vajern? Svara i N. Svara med tre värdesiffror.</li><li>Hur stor är normalkraften från vägen? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vajerkraftens del längs backen är S cos31,0°. Vid konstant fart balanserar den tyngdkraftens del nedför.</p>\\[S\\cos31{,}0^\\circ=mg\\sin25{,}0^\\circ\\]\\[\\begin{aligned}S&=\\frac{1230\\cdot9{,}82\\sin25{,}0^\\circ}{\\cos31{,}0^\\circ}\\\\ &\\approx5{,}96\\cdot10^3\\,\\mathrm N\\end{aligned}\\]<p><strong>b)</strong></p><p>Vajern lyfter bilen ut från vägen med delen S sin31,0°. Normalkraften ska balansera den återstående tyngdkraftsdelen mot vägen. Vajerkraften fås från balansen längs backen: S = 1230 · 9,82 sin25,0°/cos31,0° = 5955,239930… N.</p>\\[N=mg\\cos25{,}0^\\circ-S\\sin31{,}0^\\circ\\]\\[\\begin{aligned}N&=1230\\cdot9{,}82\\cos25{,}0^\\circ-S\\sin31{,}0^\\circ\\\\ &\\approx7{,}88\\cdot10^3\\,\\mathrm N\\end{aligned}\\]</div>",
     "id": "4.629",
     "miniräknare": true,
     "geogebra": false,
@@ -164699,8 +164700,8 @@ window.BANK = [
       7879.753927068019
     ],
     "tolerans": [
-      89.3,
-      118.0
+      5.0,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -164721,14 +164722,14 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1 230 kg) bogseras med konstant fart uppför en backe med lutningen 25,0°. Vajern bildar 31,0° med backen. Bortse från friktion.</p>",
+    "spelIntro": "<p>En bil på 1230 kg bogseras med konstant fart uppför en backe som lutar 25,0°. Vajern är riktad 31,0° över backen. Bortse från motståndskrafter och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm spännkraften i vajern.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1 230 kg) bogseras med konstant fart uppför en backe med lutningen 25,0°. Vajern bildar 31,0° med backen. Bortse från friktion.</p><p>Bestäm spännkraften i vajern.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_S\\cos31{,}0^\\circ=mg\\sin25{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,955\\) N</p></div>",
-        "ledtrad": "<p>Bara vajerns komposant längs backen drar bilen.</p>",
+        "fraga": "Hur stor är kraften i vajern? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1230 kg bogseras med konstant fart uppför en backe som lutar 25,0°. Vajern är riktad 31,0° över backen. Bortse från motståndskrafter och använd g = 9,82 m/s².</p><p>Hur stor är kraften i vajern? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vajerkraftens del längs backen är S cos31,0°. Vid konstant fart balanserar den tyngdkraftens del nedför.</p>\\[S\\cos31{,}0^\\circ=mg\\sin25{,}0^\\circ\\]\\[\\begin{aligned}S&=\\frac{1230\\cdot9{,}82\\sin25{,}0^\\circ}{\\cos31{,}0^\\circ}\\\\ &\\approx5{,}96\\cdot10^3\\,\\mathrm N\\end{aligned}\\]</div>",
+        "ledtrad": "<p>Bara vajerns del längs backen drar bilen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -164736,17 +164737,17 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm normalkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En bil (1 230 kg) bogseras med konstant fart uppför en backe med lutningen 25,0°. Vajern bildar 31,0° med backen. Bortse från friktion.</p>Spännkraften är 5,96 kN.<p>Bestäm normalkraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg\\cos25{,}0^\\circ-F_S\\sin31{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,880\\) N</p></div>",
+        "fraga": "Hur stor är normalkraften från vägen i N? Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1230 kg rullar i en backe som lutar 25,0°. En vajer drar med 5,96 kN riktat 31,0° över backen. Bilen håller kontakt med vägen. Bara tyngdkraft, normalkraft och vajerkraft verkar. Använd g = 9,82 m/s².</p><p>Hur stor är normalkraften från vägen i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla vajerkraften: 5,96 kN = 5960 N. Bilen accelererar inte vinkelrätt mot vägen. Normalkraften balanserar den del av tyngdkraften som vajern inte lyfter bort.</p>\\[\\begin{aligned}N&=1230\\cdot9{,}82\\cos25{,}0^\\circ-5960\\sin31{,}0^\\circ\\\\ &\\approx7{,}88\\cdot10^3\\,\\mathrm N\\end{aligned}\\]</div>",
         "ledtrad": "<p>Vajern lyfter bilen lite.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 4,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Dela upp vajerkraften i komposanter.</p>",
+    "ledtrad": "<p>Dela upp vajerkraften i delar.</p>",
     "traningsniva": 4,
     "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
     "arbetsinsats": 2,
@@ -164758,8 +164759,8 @@ window.BANK = [
     "niva": "C",
     "typ": "kloss hålls av vågrät kraft",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss hålls i vila på ett friktionsfritt plan med lutningen 35° av en vågrät kraft på 40 N.</p><ol type=\"a\"><li>Bestäm klossens massa.</li><li>Hur stor är normalkraften?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Längs planet: \\(40\\cos35^\\circ=mg\\sin35^\\circ\\iff m=\\dfrac{40}{9{,}82\\tan35^\\circ}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg\\cos35^\\circ+40\\sin35^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(70\\) N</p></li></ol></div>",
+    "t": "<p>En kloss hålls stilla på ett friktionsfritt plan som lutar 35°. En vågrät kraft på 40 N trycker klossen uppför planet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är klossens massa? Svara i kg. Svara med tre värdesiffror.</li><li>Hur stor är normalkraften? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Den vågräta kraftens del längs planet är 40cos35°. Den balanserar tyngdkraftens del nedför.</p>\\[40\\cos35^\\circ=mg\\sin35^\\circ\\]\\[m=\\frac{40\\cos35^\\circ}{9{,}82\\sin35^\\circ}\\approx5{,}82\\,\\mathrm{kg}\\]<p><strong>b)</strong></p><p>Kraftbalansen längs planet ger m = 40cos35°/(9,82sin35°) = 5,817303… kg. Den vågräta kraften trycker också in klossen mot planet med delen 40sin35°. Normalkraften balanserar både den delen och tyngdkraftens del mot planet.</p>\\[N=mg\\cos35^\\circ+40\\sin35^\\circ\\]\\[\\begin{aligned}N&=\\frac{40\\cos35^\\circ}{9{,}82\\sin35^\\circ}\\cdot9{,}82\\cos35^\\circ+40\\sin35^\\circ\\\\ &\\approx69{,}7\\,\\mathrm N\\end{aligned}\\]</div>",
     "id": "4.631",
     "miniräknare": true,
     "geogebra": false,
@@ -164770,8 +164771,8 @@ window.BANK = [
       69.73787182484392
     ],
     "tolerans": [
-      0.0873,
-      1.05
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -164791,13 +164792,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss hålls i vila på ett friktionsfritt plan med lutningen 35° av en vågrät kraft på 40 N.</p>",
+    "spelIntro": "<p>En kloss hålls stilla på ett friktionsfritt plan som lutar 35°. En vågrät kraft på 40 N trycker klossen uppför planet. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm klossens massa.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss hålls i vila på ett friktionsfritt plan med lutningen 35° av en vågrät kraft på 40 N.</p><p>Bestäm klossens massa.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Längs planet: \\(40\\cos35^\\circ=mg\\sin35^\\circ\\iff m=\\dfrac{40}{9{,}82\\tan35^\\circ}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\) kg</p></div>",
+        "fraga": "Hur stor är klossens massa? Svara i kg. Svara med tre värdesiffror.",
+        "t": "<p>En kloss hålls stilla på ett friktionsfritt plan som lutar 35°. En vågrät kraft på 40 N trycker klossen uppför planet. Använd g = 9,82 m/s².</p><p>Hur stor är klossens massa? Svara i kg. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den vågräta kraftens del längs planet är 40cos35°. Den balanserar tyngdkraftens del nedför.</p>\\[40\\cos35^\\circ=mg\\sin35^\\circ\\]\\[m=\\frac{40\\cos35^\\circ}{9{,}82\\sin35^\\circ}\\approx5{,}82\\,\\mathrm{kg}\\]</div>",
         "ledtrad": "<p>Dela upp den vågräta kraften.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -164806,10 +164807,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är normalkraften?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En kloss hålls i vila på ett friktionsfritt plan med lutningen 35° av en vågrät kraft på 40 N.</p>Massan är 5,8 kg.<p>Hur stor är normalkraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=mg\\cos35^\\circ+40\\sin35^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(70\\) N</p></div>",
-        "ledtrad": "<p>Båda krafterna har komposanter mot planet.</p>",
+        "fraga": "Hur stor är normalkraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En kloss hålls stilla på ett friktionsfritt plan som lutar 35°. En vågrät kraft på 40 N trycker klossen uppför planet. Använd g = 9,82 m/s².</p><p>Hur stor är normalkraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraftbalansen längs planet ger m = 40cos35°/(9,82sin35°) = 5,817303… kg. Den vågräta kraften trycker också in klossen mot planet med delen 40sin35°. Normalkraften balanserar både den delen och tyngdkraftens del mot planet.</p>\\[N=mg\\cos35^\\circ+40\\sin35^\\circ\\]\\[\\begin{aligned}N&=\\frac{40\\cos35^\\circ}{9{,}82\\sin35^\\circ}\\cdot9{,}82\\cos35^\\circ+40\\sin35^\\circ\\\\ &\\approx69{,}7\\,\\mathrm N\\end{aligned}\\]</div>",
+        "ledtrad": "<p>Båda krafterna har delar mot planet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -164827,9 +164828,9 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "E",
     "typ": "snowboard nedför backe",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Oskar startar från vila och åker snowboard nedför en 50 m lång backe med lutningen 13°. Bortse från friktion och luftmotstånd.</p><ol type=\"a\"><li>Hur lång tid tar det?</li><li>Vilken fart har han längst ned?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82\\sin13^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\sqrt{\\dfrac{2s}{a}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2as}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Oskar startar från vila och glider på snowboard nedför en 50 m lång backe som lutar 13°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur lång tid tar det att nå backens fot? Svara i s. Svara med tre värdesiffror.</li><li>Vilken fart har Oskar vid backens fot? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Utan motstånd är accelerationen a = g sin13° = 9,82sin13° ≈ 2,209019… m/s². Från vila gäller s = at²/2.</p>\\[t=\\sqrt{\\frac{2\\cdot50}{9{,}82\\sin13^\\circ}}\\approx6{,}73\\,\\mathrm s\\]<p><strong>b)</strong></p><p>Utan motstånd är accelerationen a = g sin13°. Från vila gäller v² = 2as.</p>\\[v=\\sqrt{2\\cdot9{,}82\\sin13^\\circ\\cdot50}\\approx14{,}9\\,\\mathrm{m/s}\\]</div>",
     "id": "4.633",
     "miniräknare": true,
     "geogebra": false,
@@ -164840,8 +164841,8 @@ window.BANK = [
       14.862770110772603
     ],
     "tolerans": [
-      0.101,
-      0.51
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -164861,24 +164862,24 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Oskar startar från vila och åker snowboard nedför en 50 m lång backe med lutningen 13°. Bortse från friktion och luftmotstånd.</p>",
+    "spelIntro": "<p>Oskar startar från vila och glider på snowboard nedför en 50 m lång backe som lutar 13°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur lång tid tar det?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Oskar startar från vila och åker snowboard nedför en 50 m lång backe med lutningen 13°. Bortse från friktion och luftmotstånd.</p><p>Hur lång tid tar det?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82\\sin13^\\circ\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\sqrt{\\dfrac{2s}{a}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) s</p></div>",
+        "fraga": "Hur lång tid tar det att nå backens fot? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>Oskar startar från vila och glider på snowboard nedför en 50 m lång backe som lutar 13°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur lång tid tar det att nå backens fot? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan motstånd är accelerationen a = g sin13° = 9,82sin13° ≈ 2,209019… m/s². Från vila gäller s = at²/2.</p>\\[t=\\sqrt{\\frac{2\\cdot50}{9{,}82\\sin13^\\circ}}\\approx6{,}73\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>\\(s=\\dfrac{at^2}2\\).</p>",
         "niva": "E",
-        "poang": "(1/1/0)",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart har han längst ned?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Oskar startar från vila och åker snowboard nedför en 50 m lång backe med lutningen 13°. Bortse från friktion och luftmotstånd.</p><p>Vilken fart har han längst ned?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2as}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></div>",
+        "fraga": "Vilken fart har Oskar vid backens fot? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Oskar startar från vila och glider på snowboard nedför en 50 m lång backe som lutar 13°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Vilken fart har Oskar vid backens fot? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan motstånd är accelerationen a = g sin13°. Från vila gäller v² = 2as.</p>\\[v=\\sqrt{2\\cdot9{,}82\\sin13^\\circ\\cdot50}\\approx14{,}9\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(v^2=2as\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -164898,15 +164899,15 @@ window.BANK = [
     "niva": "C",
     "typ": "skidåkare över backkrön",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skidåkare glider med farten 12,0 m/s upp för en 2,5 m hög backe. Bortse från friktion. Vilken fart har hon på toppen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{12{,}0^2-2\\cdot9{,}82\\cdot2{,}5}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}7\\) m/s</p></div>",
+    "t": "<p>En skidåkare har farten 12,0 m/s vid foten av en uppförsbacke. Backens höjd är 2,5 m. Bortse från friktion och luftmotstånd. Vilken fart har åkaren på toppen? Svara i m/s. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan motstånd omvandlas en del av rörelseenergin till lägesenergi. Massan finns i alla termer och förkortas bort.</p>\\[\\frac{mv_0^2}{2}=\\frac{mv^2}{2}+mgh\\quad\\Rightarrow\\quad v^2=v_0^2-2gh\\]\\[v=\\sqrt{12{,}0^2-2\\cdot9{,}82\\cdot2{,}5}\\approx9{,}74\\,\\mathrm{m/s}\\]</div>",
     "id": "4.634",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Glidning på lutande plan",
     "svarstyp": "numeriskt",
     "rättSvar": 9.741663102366044,
-    "tolerans": 0.146,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -164925,9 +164926,9 @@ window.BANK = [
     "omr": "lutande_plan",
     "niva": "C",
     "typ": "två backar",
-    "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s längst ned. Sedan glider han uppför en backe med lutningen 20° tills han stannar. Bortse från friktion.</p><ol type=\"a\"><li>Vilken lutning har den första backen?</li><li>Hur långt upp i den andra backen kommer han?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{19{,}0^2}{2\\cdot40{,}0}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac ag\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(27\\) °</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{19{,}0^2}{2\\cdot9{,}82\\sin20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\) m</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s vid backens fot. Därefter glider han uppför en backe som lutar 20° tills han stannar. Farten ändras inte vid övergången. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken vinkel har den första backen mot marken? Svara i grader. Svara med tre värdesiffror.</li><li>Hur långt glider Johan uppför den andra backen? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Från vila gäller v² = 2as. Den första backen ger därför accelerationen</p>\\[a=\\frac{19{,}0^2}{2\\cdot40{,}0}=4{,}5125\\,\\mathrm{m/s^2}\\]<p>Utan motstånd är a = g sinα.</p>\\[\\alpha=\\arcsin\\!\\left(\\frac{4{,}5125}{9{,}82}\\right)\\approx27{,}4^\\circ\\]<p><strong>b)</strong></p><p>I den andra backen bromsas Johan av tyngdkraftens del nedför. Retardationen är b = g sin20°. Startfarten är 19,0 m/s och slutfarten noll.</p>\\[s=\\frac{v_0^2}{2b}=\\frac{19{,}0^2}{2\\cdot9{,}82\\sin20^\\circ}\\approx53{,}7\\,\\mathrm m\\]</div>",
     "id": "4.635",
     "miniräknare": true,
     "geogebra": false,
@@ -164938,8 +164939,8 @@ window.BANK = [
       53.74202588894473
     ],
     "tolerans": [
-      0.51,
-      0.806
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -164960,13 +164961,13 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s längst ned. Sedan glider han uppför en backe med lutningen 20° tills han stannar. Bortse från friktion.</p>",
+    "spelIntro": "<p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s vid backens fot. Därefter glider han uppför en backe som lutar 20° tills han stannar. Farten ändras inte vid övergången. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken lutning har den första backen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s längst ned. Sedan glider han uppför en backe med lutningen 20° tills han stannar. Bortse från friktion.</p><p>Vilken lutning har den första backen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{19{,}0^2}{2\\cdot40{,}0}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac ag\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(27\\) °</p></div>",
+        "fraga": "Vilken vinkel har backen mot marken? Svara i grader. Svara med tre värdesiffror.",
+        "t": "<p>Johan glider från vila nedför en 40,0 m lång backe och har farten 19,0 m/s längst ned. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Vilken vinkel har backen mot marken? Svara i grader. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Från vila gäller v² = 2as. Backen ger därför accelerationen</p>\\[a=\\frac{19{,}0^2}{2\\cdot40{,}0}=4{,}5125\\,\\mathrm{m/s^2}\\]<p>Utan motstånd är a = g sinα.</p>\\[\\alpha=\\arcsin\\!\\left(\\frac{4{,}5125}{9{,}82}\\right)\\approx27{,}4^\\circ\\]</div>",
         "ledtrad": "<p>Bestäm accelerationen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -164975,12 +164976,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt upp i den andra backen kommer han?",
-        "t": "<p>Johan glider uppför en backe med lutningen 20°. Farten är 19,0 m/s vid backens fot. Bortse från friktion och använd g = 9,82 m/s².</p><p>Hur långt upp i den andra backen kommer han?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{19{,}0^2}{2\\cdot9{,}82\\sin20^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\) m</p></div>",
+        "fraga": "Hur långt glider Johan uppför backen? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Johan glider uppför en backe som lutar 20° med startfarten 19,0 m/s vid backens fot. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur långt glider Johan uppför backen? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I backen bromsas Johan av tyngdkraftens del nedför. Retardationen är b = g sin20°. Startfarten är 19,0 m/s och slutfarten noll.</p>\\[s=\\frac{v_0^2}{2b}=\\frac{19{,}0^2}{2\\cdot9{,}82\\sin20^\\circ}\\approx53{,}7\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Retardation \\(g\\sin20^\\circ\\).</p>",
         "niva": "E",
-        "poang": "(1/1/0)",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1
       }

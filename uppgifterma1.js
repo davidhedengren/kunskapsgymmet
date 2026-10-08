@@ -26597,8 +26597,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>a) Förenkla \\(-3(2a+5)\\).</p><p>b) Förenkla \\(-2(4a-3)\\).</p><p>c) Förenkla \\(-(5a-2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3(2a+5)=-6a-15\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(4a-3)=-8a+6\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(5a-2)=-1\\cdot5a+(-1)\\cdot(-2)=-5a+2\\].</div></li></ol></div></div></div>",
-    "ledtrad": "<p>Arbeta med en del i taget. Kontrollera vilket uttryck och vilka variabler som används.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3(2a+5)=-6a-15.\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(4a-3)=-8a+6.\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(5a-2)=-1\\cdot5a+(-1)\\cdot(-2)=-5a+2.\\]</div></li></ol></div></div></div>",
+    "ledtrad": "<p>Multiplicera faktorn framför parentesen med båda termerna och behåll varje terms tecken.</p>",
     "niva": "E",
     "poang": "3/0/0",
     "familj": "Multiplicera in i en parentes",
@@ -26624,15 +26624,15 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Förenkla \\(-3(2a+5)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3(2a+5)=-6a-15\\].</div></li></ol></div>",
-        "ledtrad": "<p>Båda termerna i parentesen är positiva före multiplikationen.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3(2a+5)=-6a-15.\\]</div></li></ol></div>",
+        "ledtrad": "<p>Multiplicera −3 med både 2a och 5. Vad händer med termernas tecken?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Förenkla \\(-2(4a-3)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(4a-3)=-8a+6\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(4a-3)=-8a+6.\\]</div></li></ol></div>",
         "ledtrad": "<p>Behåll minustecknet i termen −3 när du multiplicerar.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -26640,7 +26640,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Förenkla \\(-(5a-2)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(5a-2)=-1\\cdot5a+(-1)\\cdot(-2)=-5a+2\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(5a-2)=-1\\cdot5a+(-1)\\cdot(-2)=-5a+2.\\]</div></li></ol></div>",
         "ledtrad": "<p>Ett ensamt minus framför parentesen betyder multiplikation med −1.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -26712,7 +26712,7 @@ window.BANKMA1 = [
     "självrättning": false,
     "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "familjTidigare": [
       "Parentesräkning"
@@ -26778,7 +26778,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -26830,7 +26830,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(-12x+18\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med positiv talfaktor bryts 6 ut.</p></li><li><p>Kvar blir −2x och +3.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[-12x+18=6(-2x+3)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med positiv talfaktor bryts 6 ut.</p></li><li><p>Kvar blir −2x och +3.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[-12x+18=6(-2x+3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vilka tecken ska finnas kvar om faktorn är positiv?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -26875,8 +26875,8 @@ window.BANKMA1 = [
     "t": "<p>En rektangel har arean 15x + 25 cm² och ena sidan 5 cm. Bestäm ett förenklat uttryck för omkretsen när x &gt; 0.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Andra sidan är</p><div class=\"facit-matte\">\\[\\frac{\\left(15 x+25\\right)}{5}=3 x+5\\, \\mathrm{cm}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Omkretsen är</p><div class=\"facit-matte\">\\[2\\cdot 5+2 \\left(3 x+5\\right)=6 x+20\\, \\mathrm{cm}\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Hur kan arean hjälpa dig att hitta den saknade sidan?</p>",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Faktorisering i resonemang och problem",
     "formaga": [
       "modellering",
@@ -26888,7 +26888,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
     "svarEnhet": "cm",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -26973,7 +26973,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(14x-35\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda koefficienterna delas med 7.</p></li><li><p>Då blir parentesens termer 2x och −5.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[14x-35=7(2x-5)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda koefficienterna delas med 7.</p></li><li><p>Då blir parentesens termer 2x och −5.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[14x-35=7(2x-5).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Kontrollera även konstantens tecken.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -27048,7 +27048,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Vilket alternativ är uttrycket \\(16x^2+12x\\) korrekt faktoriserat så långt som möjligt?</p><p>A: \\(4x(4x+3)\\)<br>B: \\(4(4x^2+3x)\\)<br>C: \\(x(16x+12)\\)</p>",
+    "t": "<p>I vilket alternativ är uttrycket \\(16x^2+12x\\) korrekt faktoriserat så långt som möjligt?</p><p>A: \\(4x(4x+3)\\)<br>B: \\(4(4x^2+3x)\\)<br>C: \\(x(16x+12)\\)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla tre uttrycken utvecklas till 16x² + 12x.</p></li><li><p>Endast formen 4x(4x + 3) har både den största heltalsfaktorn 4 och den gemensamma variabeln x utbrutna.</p></li><li><p>Där återstår 4x + 3, som saknar gemensam faktor.</p></li></ol><p class=\"facit-svar\">Svar: A.</p></div>",
     "ledtrad": "<p>Är likheten korrekt, och finns det dessutom någon gemensam faktor kvar i parentesen?</p>",
     "niva": "E",
@@ -27249,8 +27249,8 @@ window.BANKMA1 = [
     "t": "<p>En rektangel har omkretsen 40 cm. Bredden är från början större än 3 cm. Längden ökar med 3 cm medan omkretsen hålls oförändrad. Hur mycket måste bredden minska?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>P = 2l + 2b innebär att l + b = P/2 är konstant.</p></li><li><p>Ökar l med 3 cm måste b minska med 3 cm.</p></li></ol></div>",
     "ledtrad": "<p>Vilken summa är oförändrad om omkretsen är densamma?</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Beräkningar med formler",
     "formaga": [
@@ -27263,7 +27263,7 @@ window.BANKMA1 = [
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Formler"
@@ -27281,10 +27281,10 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>En cylinder har volymen \\(V=\\pi r^2h\\). Volymen är 500 cm³ och diametern är 8,0 cm.</p>\n<p>a) Bestäm höjden. Svara med en decimal.<br>b) Radien ökas sedan med 25 % medan höjden är oförändrad. Hur många procent ökar volymen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Diametern 8,0 cm ger radien 4,0 cm.</p></li><li><p>Höjden är 500/(π · 4²) ≈ 9,947 cm, alltså 9,9 cm.</p></li><li><p>Vid oförändrad höjd blir volymfaktorn 1,25² = 1,5625, vilket motsvarar en ökning med 56,25 %.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna radien från diametern</p><div class=\"facit-matte\">\\[r=\\frac{8{,}0}{2}=4{,}0\\,\\mathrm{cm}.\\]</div></li><li><p class=\"facit-rubrik\">Lös ut höjden och sätt in värdena</p><div class=\"facit-matte\">\\[h=\\frac{V}{\\pi r^2}=\\frac{500}{\\pi\\cdot4^2}\\,\\mathrm{cm}\\approx9{,}94718\\,\\mathrm{cm}.\\]</div></li><li><p class=\"facit-rubrik\">Avrunda direkt till en decimal</p><p>Nästa siffra efter tiondelen 9 är 4. Avrunda det oavrundade värdet, utan att först avrunda till hundradelar:</p><div class=\"facit-matte\">\\[h\\approx9{,}9\\,\\mathrm{cm}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}9\\,\\mathrm{cm}\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm radiefaktorn</p><div class=\"facit-matte\">\\[1+\\frac{25}{100}=1{,}25.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna volymfaktorn</p><p>Volymen är proportionell mot radien i kvadrat när höjden är oförändrad:</p><div class=\"facit-matte\">\\[\\frac{V_\\mathrm{ny}}{V_\\mathrm{gammal}}=\\frac{\\pi(1{,}25r)^2h}{\\pi r^2h}=1{,}25^2=1{,}5625.\\]</div></li><li><p class=\"facit-rubrik\">Skilj ökning från hela den nya volymen</p><div class=\"facit-matte\">\\[(1{,}5625-1)\\cdot100=56{,}25\\,\\%.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volymen ökar med \\(56{,}25\\,\\%\\).</p></div></div></div></div>",
     "ledtrad": "<p>Skilj på radie och diameter. Vilken potens av radien finns i formeln?</p>",
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "1/1/0",
     "arbetsinsats": 3,
     "familj": "Beräkningar med formler",
     "formaga": [
@@ -27314,28 +27314,28 @@ window.BANKMA1 = [
       "cm",
       "%"
     ],
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": true,
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
         "t": "<p>En cylinder har volymen \\(V=\\pi r^2h\\). Volymen är 500 cm³ och diametern är 8,0 cm.</p><p>Bestäm höjden. Svara med en decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Diametern 8,0 cm ger radien \\(r=4,0\\) cm.</p></li><li><p>Ur \\(V=\\pi r^2h\\) fås \\(h=\\frac{500}{\\pi\\cdot4^2}\\approx9{,}95\\) cm, alltså \\(9{,}9\\) cm med en decimal.</p></li></ol></div>",
-        "niva": "C",
-        "poang": "0/1/0",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna radien från diametern</p><div class=\"facit-matte\">\\[r=\\frac{8{,}0}{2}=4{,}0\\,\\mathrm{cm}.\\]</div></li><li><p class=\"facit-rubrik\">Lös ut höjden och sätt in värdena</p><div class=\"facit-matte\">\\[h=\\frac{V}{\\pi r^2}=\\frac{500}{\\pi\\cdot4^2}\\,\\mathrm{cm}\\approx9{,}94718\\,\\mathrm{cm}.\\]</div></li><li><p class=\"facit-rubrik\">Avrunda direkt till en decimal</p><p>Nästa siffra efter tiondelen 9 är 4. Avrunda det oavrundade värdet, utan att först avrunda till hundradelar:</p><div class=\"facit-matte\">\\[h\\approx9{,}9\\,\\mathrm{cm}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}9\\,\\mathrm{cm}\\).</p></div>",
+        "niva": "E",
+        "poang": "1/0/0",
         "ledtrad": "<p>Skilj på radie och diameter. Vilken potens av radien finns i formeln?</p>",
-        "traningsniva": 4,
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
         "t": "<p>En cylinder har volymen \\(V=\\pi r^2h\\). Volymen är 500 cm³ och diametern är 8,0 cm.</p><p>Radien ökas sedan med 25 % medan höjden är oförändrad. Hur många procent ökar volymen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen är proportionell mot \\(r^2\\) när höjden är oförändrad.</p></li><li><p>Radiefaktorn 1,25 ger volymfaktorn \\(1{,}25^2=1{,}5625\\), alltså en ökning med \\(56{,}25\\,\\%\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm radiefaktorn</p><div class=\"facit-matte\">\\[1+\\frac{25}{100}=1{,}25.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna volymfaktorn</p><p>Volymen är proportionell mot radien i kvadrat när höjden är oförändrad:</p><div class=\"facit-matte\">\\[\\frac{V_\\mathrm{ny}}{V_\\mathrm{gammal}}=\\frac{\\pi(1{,}25r)^2h}{\\pi r^2h}=1{,}25^2=1{,}5625.\\]</div></li><li><p class=\"facit-rubrik\">Skilj ökning från hela den nya volymen</p><div class=\"facit-matte\">\\[(1{,}5625-1)\\cdot100=56{,}25\\,\\%.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volymen ökar med \\(56{,}25\\,\\%\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0",
-        "ledtrad": "<p>Skilj på radie och diameter. Vilken potens av radien finns i formeln?</p>",
-        "traningsniva": 4,
+        "ledtrad": "<p>Höjden är oförändrad. Hur påverkar förändringen av radien uttrycket r²?</p>",
+        "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
@@ -27388,7 +27388,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Två fordon startar samtidigt och kör samma sträcka på 24 km med konstant fart. Det ena kör dubbelt så fort som det andra och kommer fram 10 minuter tidigare. Bestäm båda farterna i km/h, den lägre först. Du kan använda s = vt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla den lägre farten v.</p></li><li><p>Tiderna är 24/v och 24/(2v) timmar.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Tidsskillnaden ger 24/v − 12/v = 10/60, alltså</p><div class=\"facit-matte\">\\[v=72\\, \\mathrm{km/h}\\]</div></div></li><li><p>Den högre farten är 144 km/h.</p></li><li><p>Tiderna är 20 respektive 10 minuter.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beskriv farterna och restiderna</p><p>Låt den lägre farten vara v km/h. Den högre är då 2v km/h. Sträcka dividerad med fart ger tiderna i timmar:</p><div class=\"facit-matte\">\\[t_\\mathrm{långsam}=\\frac{24}{v},\\qquad t_\\mathrm{snabb}=\\frac{24}{2v}=\\frac{12}{v}.\\]</div></li><li><p class=\"facit-rubrik\">Skriv tidsskillnaden i samma enhet</p><div class=\"facit-matte\">\\[10\\,\\mathrm{min}=\\frac{10}{60}\\,\\mathrm{h}=\\frac16\\,\\mathrm{h}.\\]</div><div class=\"facit-matte\">\\[\\frac{24}{v}-\\frac{12}{v}=\\frac16.\\]</div></li><li><p class=\"facit-rubrik\">Lös ekvationen</p><div class=\"facit-matte\">\\[\\frac{12}{v}=\\frac16\\quad\\Rightarrow\\quad72=v.\\]</div><p>Farterna är därför 72 km/h och \\(2\\cdot72=144\\) km/h.</p></li><li><p class=\"facit-rubrik\">Kontrollera restiderna</p><div class=\"facit-matte\">\\[\\frac{24}{72}\\,\\mathrm{h}=20\\,\\mathrm{min},\\qquad\\frac{24}{144}\\,\\mathrm{h}=10\\,\\mathrm{min}.\\]</div><p>Skillnaden är 10 minuter, som i frågan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 72 km/h och 144 km/h.</p></div>",
     "ledtrad": "<p>Hur uttrycker du restiden med sträckan och farten?</p>",
     "niva": "C",
     "poang": "0/2/0",
@@ -27595,7 +27595,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": true,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
@@ -27628,7 +27628,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [

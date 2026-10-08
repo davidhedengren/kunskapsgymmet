@@ -3649,7 +3649,7 @@ window.BANKMATO2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>En regelbunden åttahörning är inskriven i enhetscirkeln med ett hörn i punkten \\((1,\\,0)\\).</p><p>Bestäm åttahörningens area exakt. Ange svaret exakt eller med tre decimaler.</p>",
+    "t": "<p>En regelbunden åttahörning är inskriven i enhetscirkeln med ett hörn i punkten \\((1,\\,0)\\).</p><p>Bestäm åttahörningens area. Ange svaret exakt eller med tre decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hörnen ligger vid vinklarna \\(0^\\circ, 45^\\circ, 90^\\circ, \\dots\\) på enhetscirkeln.</p></li><li><p>Åttahörningen består av åtta likbenta trianglar med två sidor 1 och toppvinkeln \\(45^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Varje triangel har arean</p><div class=\"facit-matte\">\\[\\frac12\\cdot1\\cdot1\\cdot\\sin45^\\circ=\\frac{\\sqrt2}{4}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Totalt:</p><div class=\"facit-matte\">\\[8\\cdot\\frac{\\sqrt2}{4}=2\\sqrt2\\approx2{,}828\\].</div></div></li><li><p>Kontroll med koordinater: triangeln med hörnen \\((0,0)\\),</p></li><li><p>\\((1,0)\\) och \\(\\left(\\frac{\\sqrt2}2,\\frac{\\sqrt2}2\\right)\\) har basen 1 och höjden \\(\\frac{\\sqrt2}{2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sqrt2\\approx2{,}828\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
@@ -3665,7 +3665,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 2.8284271247461903,
-    "tolerans": 0.001
+    "tolerans": 0.001,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.679",
@@ -24178,7 +24179,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 2.6179938779914944,
-    "tolerans": 0.001
+    "tolerans": 0.001,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.575",
@@ -32051,7 +32053,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 0.8125,
-    "tolerans": 0.0001
+    "tolerans": 0.0001,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.07",
@@ -47865,7 +47868,7 @@ window.BANKMATO2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Funktionen \\(f(x)=x\\ln x\\) är definierad för \\(x&gt;0\\).</p><p>Bestäm funktionens minsta värde och var det antas. Svara exakt eller med tre decimaler.</p>",
+    "t": "<p>Funktionen \\(f(x)=x\\ln x\\) är definierad för \\(x&gt;0\\).</p><p>Bestäm var funktionen antar sitt minsta värde och hur stort det värdet är. Ange först x och sedan det minsta värdet. Svara exakt eller med tre decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=\\ln x+x\\cdot\\frac1x=\\ln x+1\\].</div></li><li><p>\\(f'(x)=0\\) ger \\(\\ln x=-1\\), alltså \\(x=e^{-1}\\).</p></li><li><p>Derivatan är negativ för \\(x&lt;e^{-1}\\) och positiv därefter, så det är ett minimum: \\(f(e^{-1})=e^{-1}\\cdot(-1)=-\\frac1e\\approx-0{,}368\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet \\(-\\frac1e\\) när \\(x=\\frac1e\\)</p></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
@@ -47892,7 +47895,11 @@ window.BANKMATO2 = [
       "x",
       "Minsta värde"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.582",
@@ -47903,7 +47910,7 @@ window.BANKMATO2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Bestäm det minsta värdet av \\(f(x)=\\dfrac{e^x}{x}\\) för \\(x&gt;0\\) och var det antas. Svara exakt eller med tre decimaler.</p>",
+    "t": "<p>Funktionen \\(f(x)=\\dfrac{e^x}{x}\\) är definierad för \\(x&gt;0\\). Bestäm var funktionen antar sitt minsta värde och hur stort det värdet är. Ange först x och sedan det minsta värdet. Svara exakt eller med tre decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=\\frac{e^x\\cdot x-e^x}{x^2}=\\frac{e^x(x-1)}{x^2}\\].</div></li><li><p>\\(f'(x)=0\\) ger \\(x=1\\).</p></li><li><p>Derivatan är negativ för \\(0&lt;x&lt;1\\) och positiv för \\(x&gt;1\\), så \\(x=1\\) är ett minimum.</p></li><li><div class=\"facit-matte\">\\[f(1)=e\\approx2{,}718\\].</div></li><li><p>När \\(x\\to0^+\\) och när \\(x\\to\\infty\\) växer \\(f\\) obegränsat, så \\(e\\) är det minsta värdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet \\(e\\) när \\(x=1\\)</p></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
@@ -47930,7 +47937,11 @@ window.BANKMATO2 = [
       "x",
       "Minsta värde"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.531",
@@ -53852,7 +53863,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 2.0943951023931953,
-    "tolerans": 0.001
+    "tolerans": 0.001,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.01",
@@ -56737,7 +56749,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 3,
     "svarstyp": "numeriskt",
     "rättSvar": 6.283185307179586,
-    "tolerans": 0.001
+    "tolerans": 0.001,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.522",
@@ -56918,7 +56931,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 2.8284271247461903,
-    "tolerans": 0.001
+    "tolerans": 0.001,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -94518,7 +94532,7 @@ window.BANKMATO2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Bestäm det största värdet av \\(f(x)=\\sin x+\\cos x\\) för \\(0\\le x\\le2\\pi\\), och det \\(x\\) där det antas. Ange \\(x\\) exakt eller med tre decimaler.</p>",
+    "t": "<p>Bestäm det största värdet av \\(f(x)=\\sin x+\\cos x\\) för \\(0\\le x\\le2\\pi\\), och det \\(x\\) där det antas. Ange först det största värdet och sedan \\(x\\). Svara exakt eller med tre decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=\\cos x-\\sin x=0\\) ger \\(\\tan x=1\\), alltså \\(x=\\frac\\pi4\\) eller \\(x=\\frac{5\\pi}4\\).</p></li><li><p>\\(f\\left(\\frac\\pi4\\right)=\\frac{\\sqrt2}2+\\frac{\\sqrt2}2=\\sqrt2\\) och \\(f\\left(\\frac{5\\pi}4\\right)=-\\sqrt2\\).</p></li><li><div class=\"facit-berakning\"><p>I ändpunkterna är</p><div class=\"facit-matte\">\\[f(0)=f(2\\pi)=1\\].</div></div></li><li><p>Det största värdet är \\(\\sqrt2\\approx1{,}414\\), när \\(x=\\frac\\pi4\\approx0{,}785\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet \\(\\sqrt2\\) när \\(x=\\frac\\pi4\\)</p></div>",
     "familj": "Derivering av trigonometriska funktioner",
     "formaga": [
@@ -94545,7 +94559,11 @@ window.BANKMATO2 = [
       "Största värde",
       "x"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.574",

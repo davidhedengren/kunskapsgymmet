@@ -154,3 +154,35 @@ test('Räknare tillåts för de granskade rekursionsuppgifterna',()=>{
   for(const id of ['2.466','2.469','2.74','2.108','2.130','2.173','2.174','2.177','2.201','2.202'])
     assert.equal(ma5.find(q=>q.id===id).miniräknare,true,id);
 });
+
+test('Fysikrapport 5.133 a visar bara givna massor och hastighet',()=>{
+  const [a,b,c]=cxtPhysicsCards('5.133');
+  assert.match(a.t,/1500 kg/);assert.match(a.t,/800 kg/);assert.match(a.t,/25 m\/s/);
+  assert.doesNotMatch(a.t,/22 kW|60 m|broms/);
+  assert.equal(a.rättSvar,(1500+800)*25);
+  assert.equal(b.rättSvar,22000/25);
+  assert.equal(c.rättSvar,Math.round((1500+800)*25**2/2/60*100)/100);
+});
+test('Fysikrapport 5.575 får separata givna data och metoder för varje del',()=>{
+  const [a,b,last]=cxtPhysicsCards('5.575');
+  assert.match(a.t,/120 W/);assert.match(a.t,/4,0 m\/s/);assert.doesNotMatch(a.t,/60 kg|4,0°/);
+  assert.equal(a.rättSvar,120/4);
+  assert.match(b.t,/30 N/);assert.match(last.t,/30 N/);
+  const gravity=60*9.82*Math.sin(4*Math.PI/180);
+  assert.ok(Math.abs(b.rättSvar-(30+gravity)*3)<1e-9);
+  assert.ok(Math.abs(last.rättSvar-(30/4**2*3**2+gravity)*3)<1e-9);
+});
+test('Fysikrapport 6.506 d anger klotform och hela massan som heliumet ska bära',()=>{
+  const d=cxtPhysicsCards('6.506')[3];
+  assert.match(d.t,/klotformad/);assert.match(d.t,/hölje, korg och nät/i);assert.match(d.t,/196 kg/);
+  const expected=Math.cbrt(3*(7700+196)/(4*Math.PI*(1.29-.179)));
+  assert.ok(Math.abs(d.rättSvar-expected)<1e-9);
+});
+test('Värmekorten använder samma svarsenheter som självrättningen',()=>{
+  const [mass,energy,time]=cxtPhysicsCards('7.36');
+  assert.equal(mass.svarEnhet,'kg');assert.match(mass.t,/Svara i kg/);
+  assert.equal(energy.svarEnhet,'kJ');assert.match(energy.t,/Svara i kJ/);
+  assert.equal(time.svarEnhet,'min');assert.match(time.t,/Svara i min/);
+  assert.match(time.t,/868 320 J/);assert.doesNotMatch(time.t,/1005|12 m³/);
+});
+function cxtPhysicsCards(id){return c.expandGameTask(bank('uppgifter.js').find(q=>q.id===id));}

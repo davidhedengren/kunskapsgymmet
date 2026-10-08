@@ -3833,7 +3833,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-08-ma2-geometri";
+const BANK_VERSION="2026-10-08-fy1-formuleringar";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9491,7 +9491,7 @@ function formatRatt(anv,facit,meta){
       if(rentNumerisktSvar(a,f,meta)) return true;
       /* Exakt form av talet, t.ex. 10/3, √2 eller 2π, när svaret inte har någon enhet. */
       const h=stadaSvar(hogerled(a));
-      if(format==="numeriskt" && /[\/√^π]|sqrt|pi|ln|lg|log|sin|cos|tan/i.test(h) && isPureNumberExpression(h)){
+      if(format==="numeriskt" && isPureNumberExpression(h)){
         const v=numericValue(tillNerdamer(normalizeMathInput(h)));
         const fv=isPureNumberExpression(String(f)) ? numericValue(tillNerdamer(normalizeMathInput(String(f)))) : talAv(f);
         return naraNog(v,fv,tol);
@@ -10419,10 +10419,18 @@ function symbolicZero(expr){
 }
 
 function numericValue(expr){
-  if(typeof window.nerdamer!=="function") return NaN;
+  if(typeof window.nerdamer==="function"){
+    try{
+      const n=Number(window.nerdamer(expr).evaluate().text("decimals"));
+      if(Number.isFinite(n)) return n;
+    }catch(_){}
+  }
+  // Exakta talsvar ska fungera även om den externa algebrafilen inte laddats.
+  // Återanvänd räknarens parser, med strikta parenteser och radianer.
+  if(typeof expr!=="string" || expr.length>1000 || !isPureNumberExpression(expr)) return NaN;
   try{
-    const v=window.nerdamer(expr).evaluate().text("decimals");
-    const n=Number(v);
+    const calculatorExpr=expr.replace(/\b(log10|log)\s*\(/g, (_,name)=>(name==="log10"?"log":"ln")+"(");
+    const n=raknTolka(calculatorExpr,{grader:false,strict:true});
     return Number.isFinite(n)?n:NaN;
   }catch(_){return NaN;}
 }
@@ -15144,7 +15152,7 @@ function raknFormat(x){
   }else s=String(+x.toPrecision(10));
   return s.replace(".",",").replace(/-/g,"−");
 }
-function raknTolka(txt){
+function raknTolka(txt,options={}){
   const NAMN=["sin⁻¹","cos⁻¹","tan⁻¹","arcsin","arccos","arctan","asin","acos","atan","sqrt","sin","cos","tan",
               "ln","log","lg","Ans","ans","nCr","nPr","pi","π","√","e"];
   const tok=[]; let i=0;
@@ -15163,12 +15171,13 @@ function raknTolka(txt){
   }
   let p=0;
   const titta=()=>tok[p], ta=()=>tok[p++];
-  const grad=x=>hjalp.grader?x*Math.PI/180:x, fraGrad=x=>hjalp.grader?x*180/Math.PI:x;
+  const grader=options.grader??hjalp.grader;
+  const grad=x=>grader?x*Math.PI/180:x, fraGrad=x=>grader?x*180/Math.PI:x;
   const heltal=x=>{ if(!Number.isInteger(Math.round(x*1e9)/1e9) || x<0) throw "Matematiskt fel"; return Math.round(x); };
   const fak=n=>{ n=heltal(n); if(n>170) throw "För stort tal"; let r=1; for(let k=2;k<=n;k++) r*=k; return r; };
   const FUNK={
     sin:x=>Math.sin(grad(x)), cos:x=>Math.cos(grad(x)), tan:x=>{
-      if(hjalp.grader && Math.abs(((x%180)+180)%180-90)<1e-9) throw "Matematiskt fel"; return Math.tan(grad(x)); },
+      if(grader && Math.abs(((x%180)+180)%180-90)<1e-9) throw "Matematiskt fel"; return Math.tan(grad(x)); },
     "sin⁻¹":x=>{ if(Math.abs(x)>1) throw "Matematiskt fel"; return fraGrad(Math.asin(x)); },
     "cos⁻¹":x=>{ if(Math.abs(x)>1) throw "Matematiskt fel"; return fraGrad(Math.acos(x)); },
     "tan⁻¹":x=>fraGrad(Math.atan(x)),
@@ -15241,7 +15250,7 @@ function raknTolka(txt){
     if(k.t==="tal") return k.v;
     if(k.t==="("){
       const v=uttryck();
-      if(titta()?.t===")") ta(); else if(titta()) throw "Syntaxfel";
+      if(titta()?.t===")") ta(); else if(options.strict || titta()) throw "Syntaxfel";
       return v;
     }
     if(k.t==="namn"){
@@ -15252,7 +15261,7 @@ function raknTolka(txt){
       if(f){
         if(titta()?.t==="("){
           ta(); const v=uttryck();
-          if(titta()?.t===")") ta(); else if(titta()) throw "Syntaxfel";
+          if(titta()?.t===")") ta(); else if(options.strict || titta()) throw "Syntaxfel";
           return f(v);
         }
         return f(potens());

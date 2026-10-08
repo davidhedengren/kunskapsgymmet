@@ -32979,7 +32979,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -33011,7 +33011,7 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -33032,8 +33032,8 @@ window.BANKMA1 = [
     "t": "<p>Varför är 18n + 30 delbart med 6 för varje heltal n?</p><p>A: Det är 6(3n + 30), där 3n + 30 alltid är ett heltal.<br>B: Det är 3(6n + 10), där 6n + 10 alltid är udda.<br>C: Det är 2(9n + 15), där 9n + 15 alltid är jämnt.<br>D: Det är 6(3n + 5), där 3n + 5 alltid är ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: D. Identiteten 18n + 30 = 6(3n + 5) skriver uttrycket som sex gånger ett heltal. Det räcker för delbarhet med 6.</p></div>",
     "ledtrad": "<p>Vilken form visar direkt att talet är sex gånger ett heltal?</p>",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Faktorisering i resonemang och problem",
     "formaga": [
       "begrepp",
@@ -33044,7 +33044,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -33061,7 +33061,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös ekvationen \\(x/4=7\\).</p>",
+    "t": "<p>Lös ekvationen \\(\\frac{x}{4}=7\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplicera båda leden med 4:</p><div class=\"facit-matte\">\\[x=28\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[\\frac{28}{4}=7\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vilken operation är motsatsen till division med 4?</p>",
     "niva": "E",
@@ -33093,7 +33093,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös ekvationen \\(x/3+5=11\\).</p>",
+    "t": "<p>Lös ekvationen \\(\\frac{x}{3}+5=11\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Subtrahera 5:</p><div class=\"facit-matte\">\\[\\frac{x}{3}=6\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplicera med 3:</p><div class=\"facit-matte\">\\[x=18\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[\\frac{18}{3}+5=11\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vilken operation gjordes sist på x i vänsterledet?</p>",
     "niva": "E",
@@ -33108,7 +33108,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
@@ -33126,7 +33126,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös ekvationen \\((2x-3)/5=3\\).</p>",
+    "t": "<p>Lös ekvationen \\(\\frac{2x-3}{5}=3\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplicera med 5:</p><div class=\"facit-matte\">\\[2 x-3=15\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Addera 3:</p><div class=\"facit-matte\">\\[2 x=18\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Dividera med 2:</p><div class=\"facit-matte\">\\[x=9\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Börja med att ta bort divisionen som gäller hela täljaren.</p>",
     "niva": "E",
@@ -33159,7 +33159,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös ekvationen \\(x/2-x/5=9\\).</p>",
+    "t": "<p>Lös ekvationen \\(\\frac{x}{2}-\\frac{x}{5}=9\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplicera med 10:</p><div class=\"facit-matte\">\\[5 x-2 x=90\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är 3x = 90 och</p><div class=\"facit-matte\">\\[x=30\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[15-6=9\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vilken gemensam nämnare har halvor och femtedelar?</p>",
     "niva": "E",
@@ -33192,7 +33192,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös ekvationen \\((x-2)/3+(x+1)/2=7\\).</p>",
+    "t": "<p>Lös ekvationen \\(\\frac{x-2}{3}+\\frac{x+1}{2}=7\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplicera med 6:</p><div class=\"facit-matte\">\\[2 \\left(x-2\\right)+3 \\left(x+1\\right)=42\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Förenkla:</p><div class=\"facit-matte\">\\[5 x-1=42\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är</p><div class=\"facit-matte\">\\[x=\\frac{43}{5}=8{,}6\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[2{,}2+4{,}8=7\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Behåll parenteserna när du tar bort nämnarna.</p>",
     "niva": "E",
@@ -33226,7 +33226,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Tre likadana anteckningsböcker och en penna för 18 kr kostar tillsammans 93 kr. Vad kostar en anteckningsbok?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Om boken kostar x kr gäller</p><div class=\"facit-matte\">\\[3 x+18=93\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är 3x = 75 och</p><div class=\"facit-matte\">\\[x=25 k r\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[3\\cdot 25+18=93\\]</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Om boken kostar x kr gäller</p><div class=\"facit-matte\">\\[3 x+18=93\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är 3x = 75 och</p><div class=\"facit-matte\">\\[x=25\\,\\mathrm{kr}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[3\\cdot 25+18=93\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vilka olika varor ingår i det sammanlagda priset?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -33262,8 +33262,8 @@ window.BANKMA1 = [
     "t": "<p>En elev vill lösa 3x + 5 = 3x + 8. Vilken slutsats stämmer?</p><p>A: Ingen lösning, eftersom omskrivningen ger 5 = 8.<br>B: x = 3, eftersom konstanterna skiljer sig med 3.<br>C: x = 0, eftersom x-termerna tar ut varandra.<br>D: Alla x fungerar, eftersom x-termerna tar ut varandra.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A. Subtraktion av 3x ger 5 = 8. Den likheten är falsk oavsett vilket x som väljs.</p></div>",
     "ledtrad": "<p>Vad återstår när samma x-term tas bort i båda leden?</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Förstå ekvationer och lösningar",
     "formaga": [
@@ -33275,7 +33275,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": null,
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Linjära ekvationer"
@@ -33293,7 +33293,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Efter att 15 kr i rabatt dragits av kostar fyra likadana varor tillsammans 145 kr. Vad kostade en vara före rabatten om rabatten gällde hela köpet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt x vara styckpriset före rabatt.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är 4x − 15 = 145, så 4x = 160 och</p><div class=\"facit-matte\">\\[x=40 k r\\]</div></div></li><li><p>Rabatten gäller hela köpet, inte varje vara.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt x vara styckpriset före rabatt.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är 4x − 15 = 145, så 4x = 160 och</p><div class=\"facit-matte\">\\[x=40\\,\\mathrm{kr}\\]</div></div></li><li><p>Rabatten gäller hela köpet, inte varje vara.</p></li></ol></div>",
     "ledtrad": "<p>Hur mycket kostade hela köpet före rabatten?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -33377,7 +33377,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
       "Linjära ekvationer"
@@ -33409,7 +33409,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "intervall",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familjTidigare": [
       "Linjära olikheter"
     ]
@@ -33487,7 +33487,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Lös \\(-4\\le5-3x&lt;11\\). Förklara särskilt varför den ena ändpunkten ingår men inte den andra.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Subtraktion av 5 ger −9 ≤ −3x &lt; 6.</p></li><li><p>Division med −3 vänder båda tecknen: 3 ≥ x &gt; −2, alltså −2 &lt; x ≤ 3.</p></li><li><p>Vid x = 3 är mittledet −4, vilket är tillåtet.</p></li><li><p>Vid x = −2 blir det 11, vilket är uteslutet.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 5 i alla tre led</p><div class=\"facit-matte\">\\[-4\\le5-3x\\lt11\\quad\\Rightarrow\\quad -9\\le-3x\\lt6.\\]</div></li><li><p class=\"facit-rubrik\">Dividera med −3</p><p>Båda olikhetstecknen vänds när vi dividerar med ett negativt tal:</p><div class=\"facit-matte\">\\[3\\ge x\\gt-2.\\]</div><p>Skriv de mindre talen till vänster:</p><div class=\"facit-matte\">\\[-2\\lt x\\le3.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera ändpunkterna i ursprungsvillkoret</p><p>Vid x = 3 är mittledet 5 − 3 · 3 = −4. Likhet är tillåten vid den nedre gränsen −4, så x = 3 ingår.</p><p>Vid x = −2 är mittledet 5 − 3 · (−2) = 11. Den övre gränsen 11 är utesluten, så x = −2 ingår inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\lt x\\le3\\). −2 ingår inte, men 3 ingår.</p></div>",
     "ledtrad": "<p>När du dividerar med ett negativt tal påverkas båda tecknen.</p>",
     "niva": "C",
     "poang": "0/2/0",
@@ -33498,10 +33498,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarstyp": "intervall",
-    "rättSvar": "(-2,3]",
-    "tolerans": null,
+    "rättSvar": "-2<x<=3",
+    "tolerans": 0,
     "självrättning": true,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
     "traningsniva": 3,
     "svarFormat": "intervall",
@@ -33535,7 +33535,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "intervall",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjTidigare": [
       "Linjära olikheter"
     ]
@@ -33683,7 +33683,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>En förening har 1 500 kr och får 120 kr per såld biljett. Inga kostnader dras från biljettintäkterna. Hur många biljetter måste säljas minst för att kassan ska nå 4 500 kr?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Det behövs</p><div class=\"facit-matte\">\\[4500-1500=3000 k r\\]</div></div></li><li><p>Villkoret 120x ≥ 3000 ger x ≥ 25.</p></li><li><p>Alltså behövs minst 25 biljetter.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Det behövs</p><div class=\"facit-matte\">\\[4500-1500=3000\\,\\mathrm{kr}\\]</div></div></li><li><p>Villkoret 120x ≥ 3000 ger x ≥ 25.</p></li><li><p>Alltså behövs minst 25 biljetter.</p></li></ol></div>",
     "ledtrad": "<p>Hur mycket behöver kassan öka?</p>",
     "niva": "E",
     "poang": "2/0/0",
@@ -33717,7 +33717,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Taxibolag A tar 55 kr i startavgift och 18 kr per kilometer. Bolag B tar 85 kr i startavgift och 15 kr per kilometer. Hur många kronor billigare är B än A för en resa på 16 km?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">A kostar</p><div class=\"facit-matte\">\\[55+18\\cdot 16=343 k r\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">B kostar</p><div class=\"facit-matte\">\\[85+15\\cdot 16=325 k r\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Skillnaden är</p><div class=\"facit-matte\">\\[343-325=18 k r\\]</div></div></li><li><p>Alternativt är prisskillnaden 3x − 30 och vid x = 16 blir den 18.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">A kostar</p><div class=\"facit-matte\">\\[55+18\\cdot 16=343\\,\\mathrm{kr}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">B kostar</p><div class=\"facit-matte\">\\[85+15\\cdot 16=325\\,\\mathrm{kr}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Skillnaden är</p><div class=\"facit-matte\">\\[343-325=18\\,\\mathrm{kr}\\]</div></div></li><li><p>Alternativt är prisskillnaden 3x − 30 och vid x = 16 blir den 18.</p></li></ol></div>",
     "ledtrad": "<p>Jämför hela priserna, inklusive startavgifterna.</p>",
     "niva": "E",
     "poang": "2/0/0",
@@ -33766,7 +33766,7 @@ window.BANKMA1 = [
     "självrättning": false,
     "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": "algebraiska_uttryck",
     "familjTidigare": [
@@ -33785,10 +33785,10 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Tre biljetter kostar p kr styck. Avgiften är 25 kr per bokning. Du jämför en gemensam bokning med tre separata bokningar. Hur många kronor sparar du på att boka gemensamt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gemensam bokning kostar 3p + 25 kr.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Separata bokningar kostar</p><div class=\"facit-matte\">\\[3 \\left(p+25\\right)=3 p+75 k r\\]</div></div></li><li><p>Besparingen är 50 kr, oberoende av biljettpriset.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför bokningsavgifterna</p><p>Biljettkostnaden är 3p kr i båda fallen. Vid en gemensam bokning betalas avgiften en gång. Vid tre separata bokningar betalas den tre gånger.</p><div class=\"facit-matte\">\\[K_{\\text{gemensam}}=3p+25,\\qquad K_{\\text{separata}}=3p+75.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna besparingen</p><div class=\"facit-matte\">\\[(3p+75)-(3p+25)=50\\,\\mathrm{kr}.\\]</div><p>Biljettpriset tar ut sig. Besparingen är två bokningsavgifter och beror därför inte på p.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 kr.</p></div>",
     "ledtrad": "<p>Hur många gånger betalas bokningsavgiften i varje alternativ?</p>",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Uttryck i resonemang och problem",
     "formaga": [
       "modellering",
@@ -33800,7 +33800,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kr",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "algebraiska_uttryck",
@@ -33857,8 +33857,8 @@ window.BANKMA1 = [
     "t": "<p>Två uttryck är A = 12x + 18 och B = 2x + 3. För x ≠ −1,5 ska A vara k gånger B. Bestäm k.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Faktorisering ger</p><div class=\"facit-matte\">\\[A=6 \\left(2 x+3\\right)=6 B\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom B ≠ 0 är förhållandet A/B = 6 och</p><div class=\"facit-matte\">\\[k=6\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vilken faktor binder samman de två uttrycken?</p>",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Faktorisering i resonemang och problem",
     "formaga": [
       "problemlösning",
@@ -33869,7 +33869,7 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -33888,7 +33888,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 2,
     "t": "<p>Faktorisera \\(15a^2b+20ab^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma talfaktorn är 5 och båda bokstäverna finns i varje term.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[15a^2b+20ab^2=5ab(3a+4b)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma talfaktorn är 5 och båda bokstäverna finns i varje term.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[15a^2b+20ab^2=5ab(3a+4b).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Jämför exponenterna för samma bokstav i båda termerna.</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -33932,7 +33932,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 2,
     "t": "<p>Faktorisera \\(14x^2-21x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda termerna innehåller 7x.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[14x^2-21x=7x(2x-3)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda termerna innehåller 7x.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[14x^2-21x=7x(2x-3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vilket tecken får konstanten i parentesen?</p>",
     "niva": "E",
     "poang": "1/0/0",

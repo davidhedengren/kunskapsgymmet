@@ -19,6 +19,31 @@ const ma3=bank('uppgiftermato1.js'),ma5=bank('uppgiftermatf1.js');
 const cards=id=>c.expandGameTask(ma3.find(q=>q.id===id));
 const plain=x=>JSON.parse(JSON.stringify(x));
 
+test('Ma2-geometrins delkort får egna facit och kan lösas utan föregående del',()=>{
+  const ma2=bank('uppgifterma2.js');
+  const geometryCards=id=>c.expandGameTask(ma2.find(q=>q.id===id));
+  for(const id of ['3.03','3.05']){
+    const [a,b]=geometryCards(id);
+    assert.ok(a.s&&b.s,id);
+    assert.notEqual(a.s,b.s,id);
+  }
+  assert.doesNotMatch(geometryCards('3.03')[0].s,/32/);
+  assert.doesNotMatch(geometryCards('3.03')[1].s,/58/);
+  assert.match(geometryCards('3.145')[1].t,/höjd är 6/);
+  assert.match(geometryCards('3.177')[1].t,/0,4/);
+  assert.match(geometryCards('3.181')[1].t,/x=30/);
+  const centralAngle=geometryCards('3.417')[1];
+  assert.match(centralAngle.t,/58/);
+  assert.equal(centralAngle.traningsniva,1);
+  assert.equal(Number(centralAngle.rättSvar),116);
+});
+test('Ma2-geometrins gemensamma figurer finns på vart och ett av delkorten',()=>{
+  const ma2=bank('uppgifterma2.js');
+  for(const id of ['3.132','3.145','3.151','3.175','3.176','3.177','3.181']){
+    for(const card of c.expandGameTask(ma2.find(q=>q.id===id)))assert.match(card.t,/<svg\b/,`${id}: ${card.id}`);
+  }
+});
+
 test('1.19 b frågar bara efter f(2) och har ett självrättande svarsfält',()=>{
   const [a,b]=cards('1.19');
   assert.equal(a.rättSvar,3);assert.equal(b.rättSvar,1);

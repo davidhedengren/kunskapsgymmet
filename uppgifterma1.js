@@ -29869,11 +29869,11 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En rektangulär tavla har längd \\(L\\) cm och bredd \\(B\\) cm. Trycket kostar 0,10 kr/cm², ramen 0,55 kr/cm och monteringen 180 kr.</p><p>a) Beräkna kostnaden för \\(L=60\\), \\(B=45\\).<br>b) Härled en formel \\(K(L,B)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trycket kostar 0,10LB, ramen 0,55 · 2(L + B) och monteringen 180 kr.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[K=0{,}10 L B+1{,}10 \\left(L+B\\right)+180\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">För 60 cm och 45 cm blir kostnaden</p><div class=\"facit-matte\">\\[270+115{,}50+180=565{,}50 k r\\]</div></div></li><li><p>Area och omkrets bidrar på olika sätt.</p></li></ol></div>",
+    "t": "<p>En rektangulär tavla har längd \\(L\\) cm och bredd \\(B\\) cm. Trycket kostar 0,10 kr/cm², ramen 0,55 kr/cm och monteringen 180 kr.</p><p>a) Beräkna kostnaden för \\(L=60\\), \\(B=45\\).<br>b) Låt \\(K\\) vara den totala kostnaden i kronor. Härled en formel för \\(K\\) uttryckt med \\(L\\) och \\(B\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna de tre kostnaderna</p><p>Tryckets pris beror på arean. Ramen går runt hela tavlan och dess pris beror därför på omkretsen.</p><div class=\"facit-matte\">\\[A=60\\cdot45=2700\\,\\mathrm{cm^2},\\qquad O=2(60+45)=210\\,\\mathrm{cm}.\\]</div><div class=\"facit-matte\">\\[K=0{,}10\\cdot2700+0{,}55\\cdot210+180=565{,}50\\,\\mathrm{kr}.\\]</div></li><li><p class=\"facit-rubrik\">Skriv samma samband med längd och bredd</p><p>Arean är LB och omkretsen är 2(L+B). Monteringskostnaden är oförändrad.</p><div class=\"facit-matte\">\\[K=0{,}10LB+0{,}55\\cdot2(L+B)+180.\\]</div><div class=\"facit-matte\">\\[K=0{,}10LB+1{,}10(L+B)+180.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 565,50 kr. b) \\(K=0{,}10LB+1{,}10(L+B)+180\\) kr.</p></div>",
     "ledtrad": "<p>Vilka kostnader beror på area, omkrets respektive inget mått alls?</p>",
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "1/1/0",
     "arbetsinsats": 3,
     "familj": "Lösa ut ur formler",
     "formaga": [
@@ -29886,7 +29886,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "familjTidigare": [
       "Formler"
     ]
@@ -29985,7 +29985,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "familjTidigare": [
       "Linjära ekvationer"
     ]
@@ -30016,7 +30016,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Linjära ekvationer"
@@ -30102,8 +30102,8 @@ window.BANKMA1 = [
     "t": "<p>Undersök ekvationen</p><p>\\(a(x-2)=3x-6.\\)</p><p>Beskriv hur antalet lösningar och lösningen beror på värdet av \\(a\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Faktorisera högerledet:</p><div class=\"facit-matte\">\\[a \\left(x-2\\right)=3 \\left(x-2\\right)\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\left(a-3\\right) \\left(x-2\\right)=0\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Om a ≠ 3 måste</p><div class=\"facit-matte\">\\[x=2\\]</div></div></li><li><p>Om a = 3 gäller likheten för alla reella x.</p></li><li><p>Inget a ger noll lösningar eftersom x = 2 fungerar för alla a.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Skiljer du på a = 3 och övriga a utan att dividera bort undantagsfallet?</p></li></ol></div>",
     "ledtrad": "<p>Kan du få samma parentesfaktor i båda leden?</p>",
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "arbetsinsats": 3,
     "familj": "Antal lösningar och parametrar",
     "formaga": [
@@ -30116,7 +30116,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 5,
+    "traningsniva": 4,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
       "Linjära ekvationer"
@@ -30167,7 +30167,7 @@ window.BANKMA1 = [
       "kr",
       "kr"
     ],
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
@@ -30252,7 +30252,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Två elever får lösningarna x = 4 respektive x = −4 till \\((x-a)(x+2)=x^2-6x+b\\). Bestäm a och b så att båda svaren verkligen är lösningar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Utveckling ger</p><div class=\"facit-matte\">\\[\\left(8-a\\right) x=2 a+b\\]</div></div></li><li><p>För x = 4 och x = −4 krävs 4(8 −</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>= 2a + b och −4(8 −</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>= 2a + b.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Subtraktion ger a = 8 och sedan</p><div class=\"facit-matte\">\\[b=-16\\]</div></div></li><li><p>Då är ekvationen en identitet och alla reella x fungerar.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förenkla ekvationen</p><div class=\"facit-matte\">\\[(x-a)(x+2)=x^2+(2-a)x-2a.\\]</div><p>Subtrahera x² i båda leden och samla x-termerna:</p><div class=\"facit-matte\">\\[(8-a)x=2a+b.\\]</div></li><li><p class=\"facit-rubrik\">Använd båda lösningarna</p><p>Sätt in x = 4 respektive x = −4:</p><div class=\"facit-matte\">\\[4(8-a)=2a+b.\\]</div><div class=\"facit-matte\">\\[-4(8-a)=2a+b.\\]</div><p>Subtrahera likheterna. Högerleden tar ut varandra:</p><div class=\"facit-matte\">\\[8(8-a)=0\\quad\\Rightarrow\\quad a=8.\\]</div></li><li><p class=\"facit-rubrik\">Bestäm b och kontrollera</p><p>Med a = 8 ger endera likheten 0 = 16 + b:</p><div class=\"facit-matte\">\\[b=-16.\\]</div><p>Den ursprungliga ekvationen blir då</p><div class=\"facit-matte\">\\[(x-8)(x+2)=x^2-6x-16.\\]</div><p>Detta är en identitet: alla reella x är lösningar, däribland både 4 och −4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=8\\) och \\(b=-16\\).</p></div>",
     "ledtrad": "<p>Vad krävs för att en ekvation som blir linjär ska kunna ha två olika lösningar?</p>",
     "niva": "A",
     "poang": "0/0/3",
@@ -30363,7 +30363,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös ekvationen \\((2x+1)/4=6\\).</p>",
+    "t": "<p>Lös ekvationen \\(\\frac{2x+1}{4}=6\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplicera med 4:</p><div class=\"facit-matte\">\\[2 x+1=24\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är 2x = 23 och</p><div class=\"facit-matte\">\\[x=11{,}5\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[\\frac{\\left(23+1\\right)}{4}=6\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vad blir hela täljaren när divisionen med 4 tas bort?</p>",
     "niva": "E",
@@ -30397,7 +30397,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Låt n vara ett positivt heltal. En kvadratisk ram av plattor har yttermåtten \\((n+2)\\times(n+2)\\) plattor och ett tomt kvadratiskt hål med måtten \\(n\\times n\\) plattor.</p><p>a) Bestäm ett förenklat uttryck för antalet plattor i ramen på två olika sätt.<br>b) Bestäm \\(n\\) om ramen består av 60 plattor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Anta att n är ett positivt heltal.</p></li><li><div class=\"facit-berakning\"><p>Metod 1: ytterkvadraten minus hålet ger</p><div class=\"facit-matte\">\\[(n+2)^2-n^2=4n+4\\].</div></div></li><li><p>Metod 2: räkna fyra rader om n plattor och fyra hörn, vilket ger 4n + 4.</p></li><li><p>Båda metoderna räknar alla ramens plattor en gång.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">För 60 plattor gäller 4n + 4 = 60, så</p><div class=\"facit-matte\">\\[n=14\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[16^{2}-14^{2}=60\\]</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Anta att n är ett positivt heltal.</p></li><li><div class=\"facit-berakning\"><p>Metod 1: ytterkvadraten minus hålet ger</p><div class=\"facit-matte\">\\[(n+2)^2-n^2=4n+4.\\]</div></div></li><li><p>Metod 2: räkna fyra rader om n plattor och fyra hörn, vilket ger 4n + 4.</p></li><li><p>Båda metoderna räknar alla ramens plattor en gång.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">För 60 plattor gäller 4n + 4 = 60, så</p><div class=\"facit-matte\">\\[n=14\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[16^{2}-14^{2}=60\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Du kan räkna hela kvadrater eller ramens sidor och hörn.</p>",
     "niva": "C",
     "poang": "0/3/0",
@@ -30431,7 +30431,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Det gäller att a = b − 3. Skriv ett förenklat uttryck för a + 8 i enbart b.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a+8=(b-3)+8=b+5\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a+8=(b-3)+8=b+5.\\]</div></li></ol></div>",
     "ledtrad": "<p>Ersätt hela a med det uttryck som är givet.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -30444,7 +30444,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "algebraiska_uttryck",
@@ -30497,8 +30497,8 @@ window.BANKMA1 = [
     "t": "<p>Två formler är \\(Q=mv\\) och \\(E=\\frac12mv^2\\), där \\(m&gt;0\\) och \\(v&gt;0\\).</p><p>Eliminera \\(m\\) och härled en formel för \\(v\\) uttryckt med endast \\(E\\) och \\(Q\\). Härled därefter en formel för \\(m\\) uttryckt med endast \\(E\\) och \\(Q\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Från Q = mv fås</p><div class=\"facit-matte\">\\[m=\\frac{Q}{v}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Insättning ger E = (Q/v)v²/2 = Qv/2, alltså</p><div class=\"facit-matte\">\\[v=\\frac{2 E}{Q}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Därefter är</p><div class=\"facit-matte\">\\[m=\\frac{Q}{v}=\\frac{Q^{2}}{2 E}\\]</div></div></li><li><p>Eftersom m och v är positiva är också E och Q positiva, så divisionerna är tillåtna.</p></li><li><p>Kontroll: mv = Q och mv²/2 = E efter insättning av de nya uttrycken.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du härlett båda uttrycken och kontrollerat att de ger positiva värden under de givna villkoren?</p></li></ol></div>",
     "ledtrad": "<p>Vilken av formlerna låter dig enkelt skriva m med hjälp av den andra variabeln?</p>",
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "arbetsinsats": 3,
     "familj": "Lösa ut ur formler",
     "formaga": [
@@ -30511,7 +30511,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 5,
+    "traningsniva": 4,
     "familjTidigare": [
       "Formler"
     ]
@@ -30543,7 +30543,7 @@ window.BANKMA1 = [
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
     "svarEnhet": "m/min",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Formler"
@@ -30562,7 +30562,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(9a+21\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma heltalsfaktorn är 3.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[9a+21=3(3a+7)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma heltalsfaktorn är 3.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[9a+21=3(3a+7).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vilka gemensamma delare har 9 och 21?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -30696,8 +30696,8 @@ window.BANKMA1 = [
     "t": "<p>Om Elias tjänade 3 000 kr mer skulle hans lön vara 1,4 gånger Saras lön. Saras lön är \\(x\\) kr. Skriv ett förenklat uttryck för Elias lön.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Elias lön plus 3 000 kr är 1,4x kr.</p></li><li><p>Hans nuvarande lön är därför \\(1{,}4x-3000\\) kr.</p></li><li><p>För att båda lönerna ska vara positiva krävs x &gt; 3 000/1,4.</p></li></ol></div>",
     "ledtrad": "<p>Vilket belopp beskriver 1,4x: Elias nuvarande lön eller lönen efter ökningen?</p>",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Förenkla uttryck",
     "formaga": [
       "modellering",
@@ -30709,7 +30709,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
     "svarEnhet": "kr",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "algebraiska_uttryck",
@@ -30729,7 +30729,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Vilket uttryck beskriver ett tal som är 7 mer än en tredjedel av x?</p><p>A: \\(\\frac{x}{3}+7\\)<br>B: \\(3x+7\\)<br>C: \\(\\frac{7}{3}x\\)<br>D: \\(\\frac{x+7}{3}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A. En tredjedel av x är x/3. Därefter läggs 7 till. I alternativ A delas även sjuan med 3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A. En tredjedel av x är x/3. Därefter läggs 7 till. I alternativ D delas även sjuan med 3.</p></div>",
     "ledtrad": "<p>Vilken del av beskrivningen ska delas med tre?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -30777,7 +30777,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": null,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Linjära ekvationer"
@@ -30795,7 +30795,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>En elev vill att \\(3(px-2)-2(x+p)=10x-14\\) ska gälla för alla x. Eleven testar x = 0, får p = 4 och säger att det bevisar identiteten. Bedöm argumentet och avgör om p = 4 ändå fungerar. Undersök även hur många olika x-värden som räcker för att bevisa att två uttryck av formen ax + b och cx + d är identiska.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett provvärde räcker inte: x och 2x är lika vid x = 0 men inte för alla x.</p></li><li><p>I den aktuella uppgiften blir vänsterledet (3p − 2)x − 6 − 2p.</p></li><li><p>Vid p = 4 är det 10x − 14, så värdet fungerar även om elevens argument är ofullständigt.</p></li><li><p>För två linjära uttryck räcker två olika provvärden u och v med exakt lika resultat.</p></li><li><p>Differensen ger (a − c)u + (b −</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>= 0 och (a − c)v + (b −</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>= 0.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Subtraktion ger</p><div class=\"facit-matte\">\\[\\left(a-c\\right) \\left(u-v\\right)=0\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom u ≠ v måste a = c, och därefter</p><div class=\"facit-matte\">\\[b=d\\]</div></div></li><li><p>Slutsatsen gäller inte godtyckliga icke-linjära uttryck.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollera ditt resonemang:</strong> Förklarar du varför ett testvärde inte räcker generellt men två olika testvärden räcker för linjära uttryck?</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bedöm elevens argument</p><p>Ett enda provvärde bevisar inte en identitet. Exempelvis är x och 2x lika när x = 0, men olika när x = 1.</p></li><li><p class=\"facit-rubrik\">Kontrollera p = 4 algebraiskt</p><div class=\"facit-matte\">\\[3(px-2)-2(x+p)=(3p-2)x-6-2p.\\]</div><p>Sätt in p = 4:</p><div class=\"facit-matte\">\\[(3\\cdot4-2)x-6-2\\cdot4=10x-14.\\]</div><p>Värdet p = 4 fungerar alltså för alla x, trots att elevens argument inte räcker som bevis.</p></li><li><p class=\"facit-rubrik\">Undersök två olika provvärden</p><p>Anta att ax + b och cx + d är lika vid två olika tal u och v. Subtraktion av uttrycken ger</p><div class=\"facit-matte\">\\[(a-c)u+(b-d)=0.\\]</div><div class=\"facit-matte\">\\[(a-c)v+(b-d)=0.\\]</div><p>Subtrahera likheterna:</p><div class=\"facit-matte\">\\[(a-c)(u-v)=0.\\]</div><p>Eftersom u ≠ v måste a = c. Den första likheten ger därefter b = d. Då är uttrycken identiska för alla x.</p></li><li><p class=\"facit-rubrik\">Avgränsa slutsatsen</p><p>Två olika provvärden med exakt lika resultat räcker för uttryck av den givna formen ax + b. För godtyckliga uttryck räcker de inte: exempelvis är x² och x lika vid både 0 och 1 men olika vid 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett provvärde räcker inte. p = 4 fungerar, vilket visas genom förenkling. Två olika provvärden räcker för uttryck av formen ax + b.</p></div>",
     "ledtrad": "<p>Jämför differensen mellan uttrycken vid två olika variabelvärden.</p>",
     "niva": "A",
     "poang": "0/0/3",
@@ -30843,7 +30843,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
@@ -30864,8 +30864,8 @@ window.BANKMA1 = [
     "t": "<p>Bestäm k så att \\(4(3x-2)+kx\\) blir lika med 9x − 8 för alla x.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket är (12 + k)x − 8.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför krävs 12 + k = 9, alltså</p><div class=\"facit-matte\">\\[k=-3\\]</div></div></li><li><p>Konstanten är redan −8.</p></li></ol></div>",
     "ledtrad": "<p>Vilken x-koefficient behövs efter att parentesen tagits bort?</p>",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Uttryck och identiteter med parenteser",
     "formaga": [
       "problemlösning",
@@ -30876,7 +30876,7 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -30897,8 +30897,8 @@ window.BANKMA1 = [
     "t": "<p>Ekvationen \\(a(x-2)=3x+6\\) ska ha lösningen \\(x=5\\).</p><p>Bestäm \\(a\\). Undersök sedan om samma ekvation kan få oändligt många lösningar för något värde på \\(a\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Insättning av x = 5 ger 3a = 21 och</p><div class=\"facit-matte\">\\[a=7\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">För att likheten ax − 2a = 3x + 6 ska gälla för alla x krävs samtidigt a = 3 och</p><div class=\"facit-matte\">\\[-2 a=6\\]</div></div></li><li><p>Det skulle kräva både a = 3 och a = −3, vilket är omöjligt.</p></li><li><p>Inget a ger oändligt många lösningar.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du både bestämt a och förklarat varför inget a ger oändligt många lösningar?</p></li></ol></div>",
     "ledtrad": "<p>Vad måste stämma för både x-termerna och konstanterna om leden ska vara identiska?</p>",
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "arbetsinsats": 3,
     "familj": "Antal lösningar och parametrar",
     "formaga": [
@@ -30911,7 +30911,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 5,
+    "traningsniva": 4,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
       "Linjära ekvationer"

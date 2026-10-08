@@ -30931,8 +30931,8 @@ window.BANKMA1 = [
     "t": "<p>Ett uttryck är 12p − 7 + 5 − 3p. Hur mycket ökar uttryckets värde när p ökar med 2?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket förenklas till 9p − 2.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">När p ökar med 2 blir ökningen</p><div class=\"facit-matte\">\\[9\\cdot 2=18\\]</div></div></li><li><p>Konstanten förändras inte.</p></li></ol></div>",
     "ledtrad": "<p>Vilken del av uttrycket beror på p?</p>",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Uttryck i resonemang och problem",
     "formaga": [
       "problemlösning",
@@ -30943,7 +30943,7 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "algebraiska_uttryck",
@@ -30965,8 +30965,8 @@ window.BANKMA1 = [
     "t": "<p>Ekvationen 7x + c = 1 000 ska ha lösningen x = 120. Bestäm c.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Sätt in x = 120:</p><div class=\"facit-matte\">\\[7\\cdot 120+c=1\\,000\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är</p><div class=\"facit-matte\">\\[c=1\\,000-840=160\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vad innebär det att ett givet x ska vara en lösning?</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Antal lösningar och parametrar",
     "formaga": [
@@ -30978,7 +30978,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "spel": true,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
@@ -31065,8 +31065,8 @@ window.BANKMA1 = [
     "t": "<p>En rektangel har arean A = lb. En elev skriver b = A − l. Vilken kontroll avslöjar felet?</p><p>A: l = 4 och b = 3 ger A = 7, men 7/4 = 1,75.<br>B: l = 4 och b = 3 ger A = 7, men 7 − 4 = 3.<br>C: l = 4 och b = 3 ger A = 12, men 12/4 = 3.<br>D: l = 4 och b = 3 ger A = 12, men 12 − 4 = 8.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: D. Arean är 4 · 3 = 12. Elevens formel ger bredden 8 trots att den är 3. Rätt omskrivning är b = A/l.</p></div>",
     "ledtrad": "<p>Kontrollen måste både använda rätt area och pröva elevens egen formel.</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Beräkningar med formler",
     "formaga": [
@@ -31078,7 +31078,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": null,
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Formler"
@@ -31096,10 +31096,10 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Tre på varandra följande heltal är \\(n-1\\), \\(n\\) och \\(n+1\\).</p><p>a) Visa att summan av deras kvadrater kan skrivas \\(3n^2+2\\).<br>b) Använd resultatet för att visa att summan aldrig är delbar med 3.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Utveckling ger</p><div class=\"facit-matte\">\\[(n-1)^2+n^2+(n+1)^2=3n^2+2\\].</div></div></li><li><p>Eftersom n är ett heltal är n² ett heltal och 3n² delbart med 3.</p></li><li><p>Summan lämnar därför alltid resten 2 vid division med 3.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Detta gäller också negativa heltal och</p><div class=\"facit-matte\">\\[n=0\\]</div></div></li><li><p><strong>Kontrollera ditt resonemang:</strong> Gäller ditt resonemang alla heltal, och framgår det varför resten alltid är 2?</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla kvadraterna</p><div class=\"facit-matte\">\\[(n-1)^2=n^2-2n+1,\\qquad (n+1)^2=n^2+2n+1.\\]</div><p>Lägg ihop alla tre kvadrater. Termerna −2n och +2n tar ut varandra:</p><div class=\"facit-matte\">\\[(n-1)^2+n^2+(n+1)^2=3n^2+2.\\]</div></li><li><p class=\"facit-rubrik\">Undersök delbarheten</p><p>Eftersom n är ett heltal är även n² ett heltal. Talet 3n² är därför delbart med 3. När 2 läggs till får vi resten 2 vid division med 3.</p></li><li><p class=\"facit-rubrik\">Kontrollera att slutsatsen gäller alla heltal</p><p>Ingen del av argumentet kräver n &gt; 0. Även negativa heltal och n = 0 ger ett heltal n² och därmed samma rest 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(3n^2+2\\). b) Summan är aldrig delbar med 3 eftersom resten alltid är 2.</p></div>",
     "ledtrad": "<p>Vad händer med termerna som innehåller n i första graden när de två kvadraterna utvecklas?</p>",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "familj": "Uttryck i resonemang och problem",
     "formaga": [
       "problemlösning",
@@ -31112,7 +31112,7 @@ window.BANKMA1 = [
     "spel": false,
     "manuellKomplettering": true,
     "arbetsinsats": 3,
-    "traningsniva": 5,
+    "traningsniva": 4,
     "omrTidigare": "algebraiska_uttryck",
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -31223,7 +31223,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "algebraiska_uttryck",
@@ -31242,10 +31242,10 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>En förening betalar 1 200 kr för ett evenemang och får 85 kr per såld biljett. Inga andra intäkter eller kostnader finns. Hur många biljetter måste säljas minst för att vinsten ska bli minst 2 500 kr?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinsten är 85x − 1200.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kravet ger 85x ≥ 3700 och x ≥</p><div class=\"facit-matte\">\\[\\frac{740}{17}\\approx 43{,}53\\]</div></div></li><li><p>Minst 44 biljetter behövs.</p></li><li><p>Kontroll: 43 ger 2455 kr i vinst, medan 44 ger 2540 kr.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv vinsten och kravet</p><p>Låt x vara antalet sålda biljetter. Intäkten är 85x kr och kostnaden är 1 200 kr. Vinsten ska vara minst 2 500 kr:</p><div class=\"facit-matte\">\\[85x-1200\\ge2500.\\]</div></li><li><p class=\"facit-rubrik\">Lös olikheten</p><p>Addera 1 200 och dividera med det positiva talet 85:</p><div class=\"facit-matte\">\\[85x\\ge3700\\quad\\Rightarrow\\quad x\\ge\\frac{3700}{85}\\approx43{,}53.\\]</div></li><li><p class=\"facit-rubrik\">Välj ett helt antal och kontrollera gränsen</p><p>Antalet biljetter måste vara ett heltal. Välj därför 44, det minsta heltalet som uppfyller kravet.</p><div class=\"facit-matte\">\\[85\\cdot43-1200=2455\\,\\mathrm{kr}.\\]</div><div class=\"facit-matte\">\\[85\\cdot44-1200=2540\\,\\mathrm{kr}.\\]</div><p>43 biljetter räcker inte, medan 44 räcker.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minst 44 biljetter.</p></div>",
     "ledtrad": "<p>Är intäkten per biljett samma sak som evenemangets totala vinst?</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Olikheter i vardagsproblem",
     "formaga": [
@@ -31259,7 +31259,7 @@ window.BANKMA1 = [
     "spel": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "biljetter",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjTidigare": [
       "Linjära olikheter"
     ]
@@ -31309,7 +31309,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Det gäller att a + b = 11 och a − b = 3. Bestäm a² − b² och visa hur du kan använda de givna sambanden utan att först bestämma a och b.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Konjugatregeln ger</p><div class=\"facit-matte\">\\[a^2-b^2=(a+b)(a-b)\\].</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">De två faktorerna är givna, så värdet är</p><div class=\"facit-matte\">\\[11\\cdot 3=33\\]</div></div></li><li><p>Vi behöver därför inte bestämma a och b var för sig.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Konjugatregeln ger</p><div class=\"facit-matte\">\\[a^2-b^2=(a+b)(a-b).\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">De två faktorerna är givna, så värdet är</p><div class=\"facit-matte\">\\[11\\cdot 3=33\\]</div></div></li><li><p>Vi behöver därför inte bestämma a och b var för sig.</p></li></ol></div>",
     "ledtrad": "<p>Vilken produkt utvecklas till en differens av två kvadrater?</p>",
     "niva": "C",
     "poang": "0/2/0",
@@ -31324,7 +31324,7 @@ window.BANKMA1 = [
     "självrättning": false,
     "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": "algebraiska_uttryck",
     "familjTidigare": [
@@ -31344,7 +31344,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(18x+30\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma heltalsfaktorn är 6; ingen bokstav är gemensam.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[18x+30=6(3x+5)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma heltalsfaktorn är 6; ingen bokstav är gemensam.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[18x+30=6(3x+5).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Undersök talen 18 och 30.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -31388,8 +31388,8 @@ window.BANKMA1 = [
     "t": "<p>Hur många reella lösningar har 2(x + 4) = 2x + 8?</p><p>A: Ingen lösning.<br>B: Exakt en lösning.<br>C: Oändligt många lösningar.<br>D: Exakt två lösningar.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: C. Vänsterledet blir 2x + 8, samma som högerledet. Likheten gäller för varje reellt x.</p></div>",
     "ledtrad": "<p>Förenkla vänsterledet och jämför hela leden.</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Antal lösningar och parametrar",
     "formaga": [
@@ -31401,7 +31401,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": null,
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
@@ -31456,8 +31456,8 @@ window.BANKMA1 = [
     "t": "<p>Temperaturen stiger från 10 °C till 25 °C. Sambandet är F = 1,8C + 32. Hur stor är temperaturökningen i Fahrenheitgrader?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ökningen är 1,8 · (25 − 10) = 27 Fahrenheitgrader.</p></li><li><p>Konstanten 32 försvinner när sluttemperatur och starttemperatur subtraheras.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[77-50=27\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Ska du omvandla en temperatur eller en skillnad mellan två temperaturer?</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Beräkningar med formler",
     "formaga": [
@@ -31470,7 +31470,7 @@ window.BANKMA1 = [
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
     "svarEnhet": "°F",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Formler"
@@ -31503,7 +31503,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familjTidigare": [
       "Linjära olikheter"
     ]
@@ -31522,8 +31522,8 @@ window.BANKMA1 = [
     "t": "<p>Uttrycket 9y − 4 + ky + 7 ska vara lika med 3 för alla y. Bestäm k.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket är (9 + k)y + 3.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">För att värdet alltid ska vara 3 måste 9 + k = 0, så</p><div class=\"facit-matte\">\\[k=-9\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vad måste hända med y-termerna?</p>",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Uttryck i resonemang och problem",
     "formaga": [
       "problemlösning",
@@ -31534,7 +31534,7 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "algebraiska_uttryck",
@@ -31568,7 +31568,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "algebraiska_uttryck",
@@ -31588,10 +31588,10 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Två mobilabonnemang har priserna nedan. Vid hur många samtalsminuter kostar de lika mycket?</p><span class=\"fig smal\"><svg width=\"360\" height=\"180\" viewBox=\"0 0 360 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"358\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<rect x=\"45\" y=\"48\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#FBF0EE\" stroke=\"#B43123\"/>\n<rect x=\"195\" y=\"48\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#EAF0F8\" stroke=\"#2A5D9E\"/>\n<text x=\"105\" y=\"75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">A</text>\n<text x=\"105\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">99 kr +</text>\n<text x=\"105\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1,50 kr/min</text>\n<text x=\"255\" y=\"75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">B</text>\n<text x=\"255\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">159 kr +</text>\n<text x=\"255\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,50 kr/min</text>\n\n</svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Av prisuppgifterna fås</p><div class=\"facit-matte\">\\[99+1{,}50 x=159+0{,}50 x\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Subtraktion ger</p><div class=\"facit-matte\">\\[x=60\\]</div></div></li><li><p>Båda priserna är då 189 kr.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beskriv båda kostnaderna</p><p>Låt x vara antalet samtalsminuter. A har fast avgift 99 kr och minutpris 1,50 kr. B har fast avgift 159 kr och minutpris 0,50 kr. Lika kostnader ger</p><div class=\"facit-matte\">\\[99+1{,}50x=159+0{,}50x.\\]</div></li><li><p class=\"facit-rubrik\">Lös ekvationen</p><p>Subtrahera 0,50x och sedan 99 i båda leden:</p><div class=\"facit-matte\">\\[x=159-99=60.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera båda abonnemangen</p><div class=\"facit-matte\">\\[99+1{,}50\\cdot60=189\\,\\mathrm{kr}.\\]</div><div class=\"facit-matte\">\\[159+0{,}50\\cdot60=189\\,\\mathrm{kr}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 samtalsminuter.</p></div>",
     "ledtrad": "<p>Läs av startavgift och minutpris för båda alternativen.</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Jämföra kostnader med ekvationer",
     "formaga": [
@@ -31604,7 +31604,7 @@ window.BANKMA1 = [
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
     "svarEnhet": "min",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "omrTidigare": "linjara_ekvationer",
     "familjTidigare": [
@@ -31700,7 +31700,7 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
     "traningsniva": 4,
     "familjTidigare": [
@@ -31763,7 +31763,7 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
     "traningsniva": 3,
     "familjTidigare": [
@@ -31869,7 +31869,7 @@ window.BANKMA1 = [
       "mindre heltalet",
       "större heltalet"
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
     ]
@@ -31887,8 +31887,8 @@ window.BANKMA1 = [
     "t": "<p>x ska uppfylla både \\(-4\\le x\\le1\\) och \\(1\\le x&lt;6\\). Vilket är det enda möjliga värdet?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det första villkoret kräver x ≤ 1 och det andra x ≥ 1.</p></li><li><p>Endast x = 1 fungerar.</p></li><li><p>Ett gemensamt område kan alltså bestå av en enda punkt.</p></li></ol></div>",
     "ledtrad": "<p>Undersök gränsen där intervallen möts.</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Kombinera intervall och villkor",
     "formaga": [
@@ -31901,7 +31901,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjTidigare": [
       "Intervall och gränser"
     ]
@@ -31933,7 +31933,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
     ]

@@ -28722,8 +28722,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>a) Förenkla \\(7a-2b-3a+5b\\).</p><p>b) Förenkla \\(5a+4b-8a-4b\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7a-2b-3a+5b=(7-3)a+(-2+5)b=4a+3b\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5a+4b-8a-4b=(5-8)a+(4-4)b=-3a\\].</div></li></ol></div></div></div>",
-    "ledtrad": "<p>Arbeta med en del i taget. Kontrollera vilket uttryck och vilka variabler som används.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7a-2b-3a+5b=(7-3)a+(-2+5)b=4a+3b.\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5a+4b-8a-4b=(5-8)a+(4-4)b=-3a.\\]</div></li></ol></div></div></div>",
+    "ledtrad": "<p>Samla termer med samma variabel och räkna konstanterna för sig. Behåll varje terms tecken.</p>",
     "niva": "E",
     "poang": "2/0/0",
     "familj": "Förenkla uttryck",
@@ -28747,7 +28747,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Förenkla \\(7a-2b-3a+5b\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7a-2b-3a+5b=(7-3)a+(-2+5)b=4a+3b\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7a-2b-3a+5b=(7-3)a+(-2+5)b=4a+3b.\\]</div></li></ol></div>",
         "ledtrad": "<p>Sortera termerna efter bokstav.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -28755,7 +28755,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Förenkla \\(5a+4b-8a-4b\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5a+4b-8a-4b=(5-8)a+(4-4)b=-3a\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5a+4b-8a-4b=(5-8)a+(4-4)b=-3a.\\]</div></li></ol></div>",
         "ledtrad": "<p>Vilka termer tar ut varandra?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -28813,8 +28813,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>a) Förenkla \\(6x-4+3x+9\\).</p><p>b) Förenkla \\(2x+7-5x-3\\).</p><p>c) Förenkla \\(4x-9-4x+9\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6x-4+3x+9=(6+3)x+(-4+9)=9x+5\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x+7-5x-3=(2-5)x+(7-3)=-3x+4\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x-9-4x+9=(4-4)x+(-9+9)=0\\].</div></li></ol></div></div></div>",
-    "ledtrad": "<p>Arbeta med en del i taget. Kontrollera vilket uttryck och vilka variabler som används.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6x-4+3x+9=(6+3)x+(-4+9)=9x+5.\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x+7-5x-3=(2-5)x+(7-3)=-3x+4.\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x-9-4x+9=(4-4)x+(-9+9)=0.\\]</div></li></ol></div></div></div>",
+    "ledtrad": "<p>Samla termer med samma variabel och räkna konstanterna för sig. Behåll varje terms tecken.</p>",
     "niva": "E",
     "poang": "3/0/0",
     "familj": "Förenkla uttryck",
@@ -28840,7 +28840,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Förenkla \\(6x-4+3x+9\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6x-4+3x+9=(6+3)x+(-4+9)=9x+5\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6x-4+3x+9=(6+3)x+(-4+9)=9x+5.\\]</div></li></ol></div>",
         "ledtrad": "<p>Räkna x-termer och konstanter var för sig.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -28848,7 +28848,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Förenkla \\(2x+7-5x-3\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x+7-5x-3=(2-5)x+(7-3)=-3x+4\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x+7-5x-3=(2-5)x+(7-3)=-3x+4.\\]</div></li></ol></div>",
         "ledtrad": "<p>Vilket tecken får x-koefficienten?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -28856,10 +28856,11 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Förenkla \\(4x-9-4x+9\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x-9-4x+9=(4-4)x+(-9+9)=0\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x-9-4x+9=(4-4)x+(-9+9)=0.\\]</div></li></ol></div>",
         "ledtrad": "<p>Vad återstår när motsatta termer läggs ihop?</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+      "traningsniva": 1
       }
     ],
     "traningsniva": 2,
@@ -29030,7 +29031,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[A=6 x-15-2 x-8=4 x-23\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">I B är 2x − (3 − x) = 3x − 3, så</p><div class=\"facit-matte\">\\[B=5 x-5-\\left(3 x-3\\right)=2 x-2\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Likhet ger 4x − 23 = 2x − 2, så</p><div class=\"facit-matte\">\\[x=10{,}5\\]</div></div></li><li><p>Båda uttrycken blir då 19.</p></li></ol></div>",
     "ledtrad": "<p>Var extra noga med minuset framför den inre parentesen i B.</p>",
     "niva": "C",
-    "poang": "1/2/0",
+    "poang": "2/1/0",
     "familj": "Uttryck och identiteter med parenteser",
     "formaga": [
       "problemlösning",
@@ -29055,7 +29056,7 @@ window.BANKMA1 = [
       "förenklat B",
       "x"
     ],
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": true,
     "familjTidigare": [
       "Parentesräkning"
@@ -29074,7 +29075,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 2,
     "t": "<p>Förenkla \\(3x^2+2x(x+4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x^2+2x(x+4)=3x^2+2x^2+8x=5x^2+8x\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x^2+2x(x+4)=3x^2+2x^2+8x=5x^2+8x.\\]</div></li></ol></div>",
     "ledtrad": "<p>Samla bara termer med samma x-potens.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -29106,7 +29107,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 2,
     "t": "<p>Förenkla \\((2x+1)(x-4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(2x+1)(x-4)=2x^2-8x+x-4=2x^2-7x-4\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(2x+1)(x-4)=2x^2-8x+x-4=2x^2-7x-4.\\]</div></li></ol></div>",
     "ledtrad": "<p>Varje term i första parentesen möter båda termerna i den andra.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -29203,8 +29204,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>a) Förenkla \\(3x\\cdot4\\).</p><p>b) Förenkla \\(5a\\cdot2b\\).</p><p>c) Förenkla \\(-2x\\cdot6x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x\\cdot4=(3\\cdot4)x=12x\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5a\\cdot2b=(5\\cdot2)ab=10ab\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2x\\cdot6x=(-2\\cdot6)x^2=-12x^2\\].</div></li></ol></div></div></div>",
-    "ledtrad": "<p>Arbeta med en del i taget. Kontrollera vilket uttryck och vilka variabler som används.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x\\cdot4=(3\\cdot4)x=12x.\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5a\\cdot2b=(5\\cdot2)ab=10ab.\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2x\\cdot6x=(-2\\cdot6)x^2=-12x^2.\\]</div></li></ol></div></div></div>",
+    "ledtrad": "<p>Multiplicera talfaktorerna för sig och variablerna för sig.</p>",
     "niva": "E",
     "poang": "3/0/0",
     "familj": "Multiplicera in i en parentes",
@@ -29230,26 +29231,29 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Förenkla \\(3x\\cdot4\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x\\cdot4=(3\\cdot4)x=12x\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x\\cdot4=(3\\cdot4)x=12x.\\]</div></li></ol></div>",
         "ledtrad": "<p>Samla talfaktorerna.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+      "traningsniva": 1
       },
       {
         "etikett": "b",
         "t": "<p>Förenkla \\(5a\\cdot2b\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5a\\cdot2b=(5\\cdot2)ab=10ab\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5a\\cdot2b=(5\\cdot2)ab=10ab.\\]</div></li></ol></div>",
         "ledtrad": "<p>Vad händer med bokstäverna när talfaktorerna multipliceras?</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+      "traningsniva": 1
       },
       {
         "etikett": "c",
         "t": "<p>Förenkla \\(-2x\\cdot6x\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2x\\cdot6x=(-2\\cdot6)x^2=-12x^2\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2x\\cdot6x=(-2\\cdot6)x^2=-12x^2.\\]</div></li></ol></div>",
         "ledtrad": "<p>Räkna talfaktorerna och produkten x · x var för sig.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+      "traningsniva": 2
       }
     ],
     "traningsniva": 2,
@@ -29319,7 +29323,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -29371,7 +29375,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(-21x-14\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största positiva heltalsfaktorn är 7.</p></li><li><p>Båda termerna i parentesen är negativa.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[-21x-14=7(-3x-2)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största positiva heltalsfaktorn är 7.</p></li><li><p>Parentesens koefficienter är negativa. Termen −3x är däremot positiv om x är negativt.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[-21x-14=7(-3x-2).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vilka tal återstår efter att båda koefficienterna delats med 7?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -29414,7 +29418,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 3,
     "t": "<p>En rektangel har arean 18x + 30 cm², där x &gt; 0. Ena sidan ska vara d cm, där d är ett heltal större än 1. Den andra ska kunna skrivas ax + b cm med heltalskoefficienter a och b, och uttrycket ska fungera för alla x &gt; 0. Bestäm alla möjliga d och tillhörande siduttryck. Visa att det inte finns fler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Likheten d(ax +</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">= 18x + 30 kräver da = 18 och</p><div class=\"facit-matte\">\\[d b=30\\]</div></div></li><li><p>Därför måste d dela både 18 och 30.</p></li><li><p>Deras gemensamma positiva delare större än 1 är 2, 3 och 6.</p></li><li><p>Faktoriseringarna är 2(9x + 15), 3(6x + 10) och 6(3x + 5).</p></li><li><p>Alla sidor är positiva för x &gt; 0.</p></li><li><p>Listan är fullständig eftersom inget annat d uppfyller båda delbarhetsvillkoren.</p></li><li><p>Utan kravet på heltalskoefficienter skulle varje heltal d &gt; 1 fungera med sidan (18/d)x + 30/d.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollera ditt resonemang:</strong> Förklarar du varför d måste dela både 18 och 30, och anger du alla tillåtna sidpar?</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför areans koefficienter</p><p>Om sidorna är d cm och \\(ax+b\\) cm, ska följande gälla för alla positiva x:</p><div class=\"facit-matte\">\\[d(ax+b)=18x+30.\\]</div><div class=\"facit-matte\">\\[da=18,\\qquad db=30.\\]</div></li><li><p class=\"facit-rubrik\">Använd kravet på heltalskoefficienter</p><p>Eftersom a och b ska vara heltal måste d dela både 18 och 30. De gemensamma positiva delarna är 1, 2, 3 och 6. Kravet d &gt; 1 utesluter 1.</p></li><li><p class=\"facit-rubrik\">Ange alla sidpar</p><div class=\"facit-matte\">\\[18x+30=2(9x+15)=3(6x+10)=6(3x+5).\\]</div><p>Sidparen i cm är därför 2 och \\(9x+15\\), 3 och \\(6x+10\\), samt 6 och \\(3x+5\\).</p></li><li><p class=\"facit-rubrik\">Kontrollera positivitet och fullständighet</p><p>Alla dessa sidlängder är positiva för x &gt; 0 och ger rätt area. Inget annat heltal d &gt; 1 delar både 18 och 30, så inga fler sidpar med heltalskoefficienter finns.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(d=2,3,6\\), med den andra sidan \\(9x+15\\), \\(6x+10\\) respektive \\(3x+5\\) cm.</p></div>",
     "ledtrad": "<p>Vilka villkor på d följer av att båda koefficienterna ska vara heltal?</p>",
     "niva": "A",
     "poang": "0/0/3",
@@ -29447,7 +29451,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 2,
     "t": "<p>Faktorisera \\(24xy+16x^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienterna har största gemensamma faktor 8.</p></li><li><p>Alla termer innehåller x men inte y.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[24xy+16x^2=8x(3y+2x)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienterna har största gemensamma faktor 8.</p></li><li><p>Alla termer innehåller x men inte y.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[24xy+16x^2=8x(3y+2x).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Finns y i båda termerna?</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -29524,7 +29528,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(24x-16\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienterna 24 och 16 har största gemensamma faktor 8.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[24x-16=8(3x-2)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienterna 24 och 16 har största gemensamma faktor 8.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[24x-16=8(3x-2).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vilket är det största heltal som delar båda koefficienterna?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -29599,7 +29603,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Formeln \\(y=ax+b\\), där \\(a\\ne0\\), ska lösas ut med avseende på \\(x\\). En elev påstår att lösningen är</p><p>\\(x=\\frac ya-b.\\)</p><p>Bestäm alla villkor på \\(a\\) och \\(b\\) som gör elevens formel korrekt för alla värden på \\(y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Den korrekta formen är</p><div class=\"facit-matte\">\\[x=\\frac{\\left(y-b\\right)}{a}=\\frac{y}{a}-\\frac{b}{a}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Elevens form är lika med denna precis när</p><div class=\"facit-matte\">\\[\\frac{b}{a}=b\\]</div></div></li><li><p>Eftersom a ≠ 0 är det likvärdigt med b(1 −</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>= 0.</p></li><li><p>Alltså krävs b = 0 eller a = 1, fortfarande med a ≠ 0.</p></li><li><p>Båda fallen ger en korrekt formel för varje y.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollera ditt resonemang:</strong> Har du med både a = 1 och b = 0 och visat att villkoret gäller för alla y?</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut x korrekt</p><p>Eftersom a ≠ 0 kan båda leden divideras med a:</p><div class=\"facit-matte\">\\[x=\\frac{y-b}{a}=\\frac ya-\\frac ba.\\]</div></li><li><p class=\"facit-rubrik\">Jämför med elevens formel</p><p>Y-termerna är redan lika. Konstanterna måste också vara lika:</p><div class=\"facit-matte\">\\[\\frac ba=b.\\]</div></li><li><p class=\"facit-rubrik\">Bestäm samtliga parameterfall</p><p>Multiplicera med a, som inte är noll:</p><div class=\"facit-matte\">\\[b=ab\\quad\\Rightarrow\\quad b(1-a)=0.\\]</div><p>En produkt är noll när minst en faktor är noll. Alltså b = 0 eller a = 1.</p></li><li><p class=\"facit-rubrik\">Kontrollera båda fallen</p><p>Om b = 0 blir båda formlerna \\(x=y/a\\), för varje a ≠ 0. Om a = 1 blir båda \\(x=y-b\\), för varje b. Villkoren behövs och räcker för att formlerna ska vara lika för alla y.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=0\\) eller \\(a=1\\), med det givna kravet \\(a\\ne0\\).</p></div>",
     "ledtrad": "<p>Jämför den konstanta termen i de två uttrycken för x.</p>",
     "niva": "A",
     "poang": "0/0/3",
@@ -29700,8 +29704,8 @@ window.BANKMA1 = [
     "t": "<p>En rektangels area är A = lw, med positiva sidlängder. Arean är oförändrad när längden fördubblas. Hur förändras bredden?</p><p>A: Den halveras.<br>B: Den fyrdubblas.<br>C: Den är oförändrad.<br>D: Den fördubblas.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A. Produkten lw ska vara oförändrad. När den ena faktorn blir dubbelt så stor måste den andra bli hälften så stor.</p></div>",
     "ledtrad": "<p>Vad måste hända med den andra faktorn i en oförändrad produkt?</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Beräkningar med formler",
     "formaga": [
@@ -29713,7 +29717,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": null,
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Formler"
@@ -29839,16 +29843,20 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": ["2A/b", "2A/h", 5],
+    "självrättning": true,
     "tolerans": null,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "traningsniva": 2,
     "familjTidigare": [
       "Formler"
-    ]
+    ],
+      "svarFormat": ["uttryck", "uttryck", "numeriskt"],
+      "svarsstruktur": "ordnad",
+      "svarEtiketter": ["a) formel f\u00f6r h", "b) formel f\u00f6r b", "c) h\u00f6jd i cm"],
+      "svarEnhet": [null, null, "cm"]
   },
   {
     "id": "1.175",

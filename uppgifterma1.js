@@ -31951,8 +31951,8 @@ window.BANKMA1 = [
     "t": "<p>x ska uppfylla både \\(-7&lt;x\\le3\\) och \\(-2\\le x&lt;8\\). Bestäm alla möjliga x. Svara med olikhetstecken.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den starkaste undre gränsen är −2 och den starkaste övre är 3.</p></li><li><p>Båda uppfyller båda villkoren: \\(-2\\le x\\le3\\).</p></li></ol></div>",
     "ledtrad": "<p>En gränspunkt måste vara tillåten i båda intervallen för att ingå.</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Kombinera intervall och villkor",
     "formaga": [
@@ -31964,7 +31964,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "intervall",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjTidigare": [
       "Intervall och gränser"
     ]
@@ -31995,7 +31995,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "intervall",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familjTidigare": [
       "Linjära olikheter"
     ]
@@ -32026,7 +32026,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "intervall",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familjTidigare": [
       "Linjära olikheter"
     ]
@@ -32042,7 +32042,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>Lös \\(12-2x&gt;4\\). Svara med olikhetstecken.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Subtrahera 12: −2x &gt; −8.</p></li><li><p>Division med −2 ger x &lt; 4.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 12</p><div class=\"facit-matte\">\\[12-2x\\gt4\\quad\\Rightarrow\\quad -2x\\gt-8.\\]</div></li><li><p class=\"facit-rubrik\">Dividera med ett negativt tal</p><p>När båda leden divideras med −2 måste olikhetstecknet vändas:</p><div class=\"facit-matte\">\\[x\\lt4.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\lt4\\).</p></div>",
     "ledtrad": "<p>Du kan också addera 2x i båda leden för att undvika negativ divisor.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32150,7 +32150,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "intervall",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familjTidigare": [
       "Linjära olikheter"
     ]
@@ -32166,7 +32166,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>Lös \\(5-2(x-1)\\ge11\\). Svara med olikhetstecken.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla: 7 − 2x ≥ 11.</p></li><li><p>Då är −2x ≥ 4, vilket ger x ≤ −2.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla parentesen</p><p>Faktorn −2 multiplicerar båda termerna i parentesen:</p><div class=\"facit-matte\">\\[5-2(x-1)\\ge11\\quad\\Rightarrow\\quad 7-2x\\ge11.\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 7 och dividera</p><div class=\"facit-matte\">\\[-2x\\ge4.\\]</div><p>Division med det negativa talet −2 vänder olikhetstecknet:</p><div class=\"facit-matte\">\\[x\\le-2.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\le-2\\).</p></div>",
     "ledtrad": "<p>Vad blir produkten av −2 och −1?</p>",
     "niva": "E",
     "poang": "2/0/0",
@@ -32259,7 +32259,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>En elev påstår att lösningen till \\(6-2(3x+1)&gt;-8\\) är x &lt; 2. Eleven testar x = 0 och säger att testet bevisar svaret. Bedöm både svaret och motiveringen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svaret är korrekt: 4 − 6x &gt; −8 ger −6x &gt; −12 och därmed x &lt; 2. Testet x = 0 visar bara att ett enda tal fungerar. Det visar inte att alla x &lt; 2 fungerar eller att inga x ≥ 2 gör det. De ekvivalenta omskrivningarna ger däremot hela lösningsmängden.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös olikheten med ekvivalenta steg</p><div class=\"facit-matte\">\\[6-2(3x+1)\\gt-8\\quad\\Rightarrow\\quad4-6x\\gt-8.\\]</div><div class=\"facit-matte\">\\[-6x\\gt-12\\quad\\Rightarrow\\quad x\\lt2.\\]</div><p>Vid sista divisionen med −6 vänds olikhetstecknet. Alla omskrivningar bevarar precis samma lösningar.</p></li><li><p class=\"facit-rubrik\">Bedöm elevens test</p><p>Insättning av x = 0 visar att ett enda tal fungerar. Den bevisar varken att alla tal mindre än 2 fungerar eller att inga tal större än eller lika med 2 fungerar.</p></li><li><p class=\"facit-rubrik\">Skilj slutsvaret från beviset</p><p>Elevens svar är korrekt, men testet bevisar inte hela lösningsmängden. De ekvivalenta omskrivningarna ovan gör det.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Svaret \\(x\\lt2\\) är korrekt. Motiveringen med ett enda provvärde är otillräcklig.</p></div>",
     "ledtrad": "<p>Vad kan ett enda lyckat test säga om alla andra tal?</p>",
     "niva": "C",
     "poang": "0/2/0",
@@ -32273,9 +32273,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "familjTidigare": [
       "Linjära olikheter"
     ]
@@ -32291,7 +32291,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Bestäm vilka x som gör att \\(5(x-2)\\le2(x+7)\\) och \\(x&gt;10\\) gäller samtidigt. Förklara hur du vet att svaret är fullständigt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den första olikheten ger 5x − 10 ≤ 2x + 14, alltså 3x ≤ 24 och x ≤ 8.</p></li><li><p>Inget tal kan både vara högst 8 och större än 10.</p></li><li><p>Därför finns ingen lösning.</p></li><li><p>Det räcker inte att ange x ≤ 8, eftersom båda villkoren ska gälla.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös det första villkoret</p><div class=\"facit-matte\">\\[5(x-2)\\le2(x+7)\\quad\\Rightarrow\\quad5x-10\\le2x+14.\\]</div><div class=\"facit-matte\">\\[3x\\le24\\quad\\Rightarrow\\quad x\\le8.\\]</div></li><li><p class=\"facit-rubrik\">Kombinera med det andra villkoret</p><p>Det andra villkoret är x &gt; 10. Inget reellt tal kan samtidigt vara högst 8 och större än 10.</p></li><li><p class=\"facit-rubrik\">Motivera fullständigheten</p><p>Omskrivningarna av den första olikheten är ekvivalenta. Eftersom dess hela lösningsmängd saknar gemensamma tal med x &gt; 10 har båda villkoren tillsammans ingen lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ingen lösning.</p></div>",
     "ledtrad": "<p>Börja med att förenkla den olikhet som innehåller parenteser.</p>",
     "niva": "C",
     "poang": "0/2/0",
@@ -32305,9 +32305,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "familjTidigare": [
       "Linjära olikheter"
     ]
@@ -32337,7 +32337,7 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
     "traningsniva": 3,
     "familjTidigare": [
@@ -32356,7 +32356,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>Beräkna \\(2x+3y\\) när \\(x=4\\) och \\(y=-2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\cdot4+3(-2)=8-6=2\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\cdot4+3(-2)=8-6=2.\\]</div></li></ol></div>",
     "ledtrad": "<p>Sätt in respektive värde vid rätt bokstav.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32388,7 +32388,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>Beräkna \\(a^2-2b\\) när \\(a=-3\\) och \\(b=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-3)^2-2\\cdot5=9-10=-1\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-3)^2-2\\cdot5=9-10=-1.\\]</div></li></ol></div>",
     "ledtrad": "<p>Kvadreras hela det negativa talet eller bara trean?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32420,7 +32420,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>Beräkna \\(\\frac{x-y}{z}\\) när \\(x=7\\), \\(y=-5\\) och \\(z=4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{7-(-5)}{4}=\\frac{12}{4}=3\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{7-(-5)}{4}=\\frac{12}{4}=3.\\]</div></li></ol></div>",
     "ledtrad": "<p>Beräkna hela täljaren innan du dividerar.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32452,7 +32452,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>Beräkna \\(3ab-2a^2\\) när \\(a=-2\\) och \\(b=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3(-2)\\cdot5-2(-2)^2=-30-8=-38\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3(-2)\\cdot5-2(-2)^2=-30-8=-38.\\]</div></li></ol></div>",
     "ledtrad": "<p>Håll isär produkten 3ab och termen 2a².</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32484,7 +32484,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>För \\(x=2\\) och \\(y=3\\), bestäm värdet av \\(x^2y-xy^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2^2\\cdot3-2\\cdot3^2=12-18=-6\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2^2\\cdot3-2\\cdot3^2=12-18=-6.\\]</div></li></ol></div>",
     "ledtrad": "<p>Kvadraten hör till olika variabler i de två termerna.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32549,7 +32549,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>En rektangel har längden \\(x+3\\) cm och bredden \\(x\\) cm. Vilket uttryck beskriver omkretsen?</p><p>A: \\(4x+6\\)<br>B: \\(x(x+3)\\)<br>C: \\(2x+3\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Omkretsen består av två sidor av varje längd:</p><div class=\"facit-matte\">\\[2 \\left(x+3\\right)+2 x=4 x+6\\, \\mathrm{cm}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: A.</p><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket x(x + 3) beskriver arean.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna alla fyra sidor</p><p>Det finns två sidor med längden x + 3 cm och två med längden x cm:</p><div class=\"facit-matte\">\\[O=2(x+3)+2x=4x+6\\,\\mathrm{cm}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför alternativen</p><p>Alternativ A är omkretsen. Alternativ B, x(x + 3), beskriver arean. Alternativ C räknar bara en lång och en kort sida.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
     "ledtrad": "<p>Räkna alla fyra sidorna, inte bara två.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32616,10 +32616,10 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Ett mobilabonnemang innehåller 8 GB. Därefter kostar varje extra GB \\(k\\) kr. En person använder \\(x\\) GB där \\(x\\gt 8\\). Vilket uttryck beskriver kostnaden för den extra datan?</p><p>A: \\(kx\\)<br>B: \\(k(x-8)\\)<br>C: \\(8(x-k)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Extra datamängden är x − 8 GB.</p></li><li><p>Med priset k kr per extra GB blir kostnaden k(x − 8) kr.</p></li></ol><p class=\"facit-svar\">Svar: B.</p><ol class=\"facit-steglista\" role=\"list\"><li><p>De första 8 GB ska inte debiteras igen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna den extra datamängden</p><p>Av x GB ingår redan 8 GB. Den extra mängden är därför x − 8 GB. Villkoret x &gt; 8 innebär att denna mängd är positiv.</p></li><li><p class=\"facit-rubrik\">Multiplicera med priset per extra GB</p><div class=\"facit-matte\">\\[K=k(x-8)\\,\\mathrm{kr}.\\]</div><p>De första 8 GB ska inte debiteras igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
     "ledtrad": "<p>Hur många av de använda gigabytena ligger utanför det som ingår?</p>",
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Uttryck i resonemang och problem",
     "formaga": [
       "begrepp",
@@ -32630,7 +32630,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "algebraiska_uttryck",
@@ -32663,7 +32663,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -32716,7 +32716,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 2,
     "t": "<p>Faktorisera \\(24a^2-36a\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största talfaktorn är 12 och båda termerna innehåller minst en faktor a.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[24a^2-36a=12a(2a-3)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största talfaktorn är 12 och båda termerna innehåller minst en faktor a.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[24a^2-36a=12a(2a-3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vad återstår av a² när en faktor a bryts ut?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32759,7 +32759,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 2,
     "t": "<p>Faktorisera \\(15xy+25x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talens största gemensamma faktor är 5.</p></li><li><p>Båda termerna innehåller x.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[15xy+25x=5x(3y+5)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talens största gemensamma faktor är 5.</p></li><li><p>Båda termerna innehåller x.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[15xy+25x=5x(3y+5).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vilka faktorer är gemensamma trots att bara första termen innehåller y?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32845,7 +32845,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 2,
     "t": "<p>Faktorisera \\(36a^2b-24ab^2+12ab\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla tre termer innehåller 12ab.</p></li><li><p>Den sista termen lämnar därför kvar 1.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[36a^2b-24ab^2+12ab=12ab(3a-2b+1)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla tre termer innehåller 12ab.</p></li><li><p>Den sista termen lämnar därför kvar 1.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[36a^2b-24ab^2+12ab=12ab(3a-2b+1).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Glöm inte vad som återstår när hela sista termen bryts ut.</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -32913,7 +32913,7 @@ window.BANKMA1 = [
       "a",
       "b"
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -32932,7 +32932,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 2,
     "t": "<p>Vilket alternativ är <em>fullständigt</em> faktoriserat genom utbrytning?</p><p>Uttrycket är \\(20x^2+30x\\).</p><p>A: \\(2x(10x+15)\\)<br>B: \\(5(4x^2+6x)\\)<br>C: \\(10x(2x+3)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma talfaktorn är 10 och båda termerna innehåller x.</p></li><li><p>Därför är 10x(2x + 3) rätt.</p></li></ol><p class=\"facit-svar\">Svar: C.</p><ol class=\"facit-steglista\" role=\"list\"><li><p>I de andra alternativen finns fortfarande en gemensam faktor i parentesen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm den gemensamma faktorn</p><p>20 och 30 har största gemensamma talfaktorn 10. Båda termerna innehåller dessutom x:</p><div class=\"facit-matte\">\\[20x^2+30x=10x(2x+3).\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera de andra alternativen</p><p>I A kan ytterligare 5 brytas ut ur parentesen. I B kan ytterligare 2x brytas ut. Bara C har hela den gemensamma faktorn utbruten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
     "ledtrad": "<p>Undersök både talfaktorn och variabeln.</p>",
     "niva": "E",
     "poang": "1/0/0",

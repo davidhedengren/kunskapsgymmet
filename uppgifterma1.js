@@ -36436,7 +36436,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>Beräkna \\(5a-2\\) när \\(a=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5\\cdot3-2=15-2=13\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5\\cdot3-2=15-2=13.\\]</div></li></ol></div>",
     "ledtrad": "<p>Vilken operation ska göras först?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -36501,7 +36501,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>En påse godis kostar x kr, där x &gt; 0. Skriv ett förenklat uttryck för kostnaden för tre påsar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Tre lika priser summeras:</p><div class=\"facit-matte\">\\[x+x+x=3 x k r\\]</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Tre lika priser summeras:</p><div class=\"facit-matte\">\\[x+x+x=3 x\\,\\mathrm{kr}\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Hur många gånger betalas priset x?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -36603,7 +36603,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(2x+4\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Termerna är 2 gånger x och 2 gånger 2.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[2x+4=2(x+2)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Termerna är 2 gånger x och 2 gånger 2.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[2x+4=2(x+2).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vilket tal finns som faktor i båda termerna?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -36627,7 +36627,7 @@ window.BANKMA1 = [
       "utbruten faktor",
       "innehåll i parentesen"
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -36646,7 +36646,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(5x+5\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">5x = 5 · x och</p><div class=\"facit-matte\">\\[5=5\\cdot 1\\]</div></div></li><li><p>Därför ska ettan vara kvar.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[5x+5=5(x+1)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">5x = 5 · x och</p><div class=\"facit-matte\">\\[5=5\\cdot 1\\]</div></div></li><li><p>Därför ska ettan vara kvar.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[5x+5=5(x+1).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vad återstår av 5 när faktorn 5 bryts ut?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -36670,7 +36670,7 @@ window.BANKMA1 = [
       "utbruten faktor",
       "innehåll i parentesen"
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -36689,7 +36689,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(3x-9\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda termerna har faktorn 3.</p></li><li><p>Konstanten i parentesen är −3.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[3x-9=3(x-3)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda termerna har faktorn 3.</p></li><li><p>Konstanten i parentesen är −3.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[3x-9=3(x-3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Kontrollera genom att multiplicera tillbaka.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -36713,7 +36713,7 @@ window.BANKMA1 = [
       "utbruten faktor",
       "innehåll i parentesen"
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -36764,7 +36764,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Vilken faktor kan brytas ut ur både x² och x om det som återstår ska ha heltalskoefficienter och inga negativa exponenter?</p><p>A: \\(x\\)<br>B: \\(x^2\\)<br>C: \\(2x\\)<br>D: \\(x^3\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A. x² = x · x och x = x · 1. Båda har därför en faktor x.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera faktorn x</p><div class=\"facit-matte\">\\[x^2=x\\cdot x,\\qquad x=x\\cdot1.\\]</div><p>Det som återstår har heltalskoefficienter och inga negativa exponenter.</p></li><li><p class=\"facit-rubrik\">Kontrollera de andra alternativen</p><p>Om x² eller x³ bryts ut ur termen x behövs negativa exponenter. Om 2x bryts ut blir koefficienterna 1/2. Dessa alternativ uppfyller därför inte båda kraven.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
     "ledtrad": "<p>Hur många x-faktorer har den term som innehåller minst antal x?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -36778,7 +36778,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -36797,7 +36797,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(x^2+x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">x² = x · x och</p><div class=\"facit-matte\">\\[x=x\\cdot 1\\]</div></div></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[x^2+x=x(x+1)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">x² = x · x och</p><div class=\"facit-matte\">\\[x=x\\cdot 1\\]</div></div></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[x^2+x=x(x+1).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vilket innehåll i parentesen ger tillbaka den andra termen?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -36840,7 +36840,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(4x^2-x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda termerna innehåller x och talfaktorerna har ingen gemensam faktor större än 1.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[4x^2-x=x(4x-1)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda termerna innehåller x och talfaktorerna har ingen gemensam faktor större än 1.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[4x^2-x=x(4x-1).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Hur skrivs −x som x gånger något?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -36883,7 +36883,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Faktorisera \\(10x+15\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienterna har största gemensamma faktor 5.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[10x+15=5(2x+3)\\].</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienterna har största gemensamma faktor 5.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[10x+15=5(2x+3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
     "ledtrad": "<p>Vilket heltal delar både 10 och 15?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -36939,7 +36939,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
@@ -37137,7 +37137,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": null,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Formler"
@@ -37170,7 +37170,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": null,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Formler"
@@ -37188,7 +37188,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Lös ut \\(x\\) ur \\(y=x+3\\). Skriv svaret som en ekvation på formen \\(x=\\dots\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Subtrahera 3 i båda leden:</p></li><li><p>\\[y-3=x\\]</p></li><li><p>Skriv med \\(x\\) i vänsterled: <strong>\\(x=y-3\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 3 i båda leden</p><div class=\"facit-matte\">\\[y=x+3\\quad\\Rightarrow\\quad y-3=x.\\]</div></li><li><p class=\"facit-rubrik\">Skriv med x i vänsterled</p><div class=\"facit-matte\">\\[x=y-3.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=y-3\\).</p></div>",
     "ledtrad": "<p>Vilken operation tar bort +3?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37202,7 +37202,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": null,
     "svarFormat": "ekvation",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "rättSvarAlternativ": [
       "x=y-3",
@@ -37239,7 +37239,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": null,
     "svarFormat": "kort_text",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Formler"
@@ -37378,7 +37378,7 @@ window.BANKMA1 = [
       "mindre talet",
       "större talet"
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
     ]

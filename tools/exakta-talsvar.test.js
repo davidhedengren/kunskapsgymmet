@@ -12,7 +12,7 @@ for(const name of ['latexToPlain','normalizeDecimalComma','normalizeMathInput','
 }
 const value=s=>context.numericValue(context.tillNerdamer(context.normalizeMathInput(s)));
 test('Exakta tal kan beräknas utan det externa algebrabiblioteket',()=>{
- for(const [input,expected] of [['pi/4',Math.PI/4],['π/4',Math.PI/4],['sqrt(2)',Math.SQRT2],['√2',Math.SQRT2],['e',Math.E],['1/e',1/Math.E],['13/16',13/16],['-1/e',-1/Math.E],['2sqrt(2)',2*Math.SQRT2],['2,5',2.5],['sin(pi/2)',1],['ln(e)',1],['lg(100)',2],['log(100)',2],['1*10^-3',.001]])
+ for(const [input,expected] of [['pi/4',Math.PI/4],['π/4',Math.PI/4],['sqrt(2)',Math.SQRT2],['√2',Math.SQRT2],['(3+\\sqrt(33))/2',(3+Math.sqrt(33))/2],['(3+\\sqrt{33})/2',(3+Math.sqrt(33))/2],['e',Math.E],['1/e',1/Math.E],['13/16',13/16],['-1/e',-1/Math.E],['2sqrt(2)',2*Math.SQRT2],['2,5',2.5],['sin(pi/2)',1],['ln(e)',1],['lg(100)',2],['log(100)',2],['1*10^-3',.001]])
   assert.ok(Math.abs(value(input)-expected)<1e-12,input);
 });
 test('Självrättning kräver korrekt syntax och tar inte räknarens Ans',()=>{

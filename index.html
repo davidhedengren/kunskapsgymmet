@@ -3833,7 +3833,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-08-fy1-kalibrering-3";
+const BANK_VERSION="2026-10-08-fellogg-1614";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9267,9 +9267,11 @@ function sekunderAv(x){
 
 function skalaAv(x){
   const s=stadaSvar(x).replace(/\s/g,"");
+  const procent=s.match(/^(\d+(?:[.,]\d+)?)%$/);
+  if(procent) return talAv(procent[1])/100;
   const m=s.match(/^(\d+(?:[.,]\d+)?)\s*[:/]\s*(\d+(?:[.,]\d+)?)$/);
   if(m) return talAv(m[1])/talAv(m[2]);
-  return talAv(s);
+  return helTalvarde(s);
 }
 function textNyckel(x){
   return stadaSvar(x).toLowerCase()
@@ -10252,6 +10254,7 @@ function latexToPlain(s){
   x=x.replace(/\\(?:d?frac)\s*([+-]?\d)\s*\{([^{}]+)\}/g,"(($1)/($2))");
   x=x.replace(/\\(?:d?frac)\s*([+-]?\d)\s*([+-]?\d)/g,"(($1)/($2))");
   x=x.replace(/\\sqrt\s*([0-9]+(?:\.[0-9]+)?|[a-z])/gi,"sqrt($1)");
+  x=x.replace(/\\sqrt(?=\s*\()/g,"sqrt");
 
   x=x.replace(/\\left|\\right/g,"");
   /* LaTeX-funktionsnamn förekommer i bankens rättSvar. Gör dem till

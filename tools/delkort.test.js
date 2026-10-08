@@ -19,6 +19,26 @@ const ma3=bank('uppgiftermato1.js'),ma5=bank('uppgiftermatf1.js');
 const cards=id=>c.expandGameTask(ma3.find(q=>q.id===id));
 const plain=x=>JSON.parse(JSON.stringify(x));
 
+test('Rapporterade mittpunktsuppgifter visar namngivna koordinatfält i rätt ordning',()=>{
+  const ma2=bank('uppgifterma2.js');
+  for(const [id,expected] of [['3.184',[-1,3]],['3.343',[7,5]]]){
+    const q=ma2.find(q=>q.id===id),layout=c.answerLayout(q);
+    assert.equal(layout.n,2);
+    assert.deepEqual(plain(q.rättSvar),expected);
+    assert.deepEqual(plain(q.svarEtiketter),['x-koordinat','y-koordinat']);
+    assert.match(q.t,/x-koordinaten i första svarsfältet och y-koordinaten i det andra/);
+  }
+});
+test('Rotekvationen 2.70 har ett rent numeriskt rättningsvärde för sin enda giltiga rot',()=>{
+  const q=bank('uppgifterma2.js').find(q=>q.id==='2.70');
+  const x=q.rättSvar;
+  assert.equal(typeof x,'number');
+  assert.ok(x>=1);
+  assert.ok(Math.abs(Math.sqrt(x+7)-(x-1))<1e-12);
+  assert.equal(q.svarFormat,'numeriskt');
+  assert.equal(c.answerLayout(q).n,1);
+});
+
 test('Ma2-geometrins delkort får egna facit och kan lösas utan föregående del',()=>{
   const ma2=bank('uppgifterma2.js');
   const geometryCards=id=>c.expandGameTask(ma2.find(q=>q.id===id));

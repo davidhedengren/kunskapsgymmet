@@ -178,6 +178,54 @@ test('Fysikrapport 6.506 d anger klotform och hela massan som heliumet ska bära
   const expected=Math.cbrt(3*(7700+196)/(4*Math.PI*(1.29-.179)));
   assert.ok(Math.abs(d.rättSvar-expected)<1e-9);
 });
+test('Bollstudsens golvimpuls inkluderar tyngdkraftens impuls under kontakten',()=>{
+  const [impulse,force]=cxtPhysicsCards('5.386');
+  const change=1.2*(2.1-(-5.2));
+  const floorImpulse=change+1.2*9.82*0.020;
+  assert.ok(Math.abs(impulse.rättSvar-floorImpulse)<1e-10);
+  assert.ok(Math.abs(force.rättSvar-floorImpulse/0.020)<1e-10);
+  assert.ok(impulse.rättSvar>change);
+  assert.match(force.t,/9,0 Ns/);
+  assert.match(force.t,/20,0 ms/);
+  assert.equal(impulse.svarEnhet,'Ns');
+  assert.equal(force.svarEnhet,'N');
+});
+test('Batterikortet och handens bromskort innehåller givna data från sina egna delar',()=>{
+  const battery=cxtPhysicsCards('8.465')[1];
+  assert.match(battery.t,/90 Ah/);assert.match(battery.t,/24 timmar/);
+  assert.equal(battery.rättSvar,90/24);
+  assert.equal(c.answerLayout(battery).n,1);
+  const hand=cxtPhysicsCards('5.515')[3];
+  assert.match(hand.t,/7,0 kg/);assert.match(hand.t,/10,0 m\/s/);
+  assert.match(hand.t,/2,00 cm/);
+  assert.equal(hand.rättSvar,7*10**2/(2*.02));
+});
+test('Rekylkort anger samma hastighetsreferens som rörelsemängdsberäkningen',()=>{
+  const [pistol,boat]=cxtPhysicsCards('5.412');
+  assert.match(pistol.t,/relativt marken/);
+  assert.match(boat.t,/relativt vattnet/);
+  assert.ok(Math.abs(pistol.rättSvar-.03*175/3)<1e-10);
+  assert.ok(Math.abs(boat.rättSvar-5.3*10/59)<1e-10);
+  const astronaut=cxtPhysicsCards('5.423')[0];
+  assert.match(astronaut.t,/8,00 m\/s relativt skeppet/);
+  assert.ok(Math.abs(astronaut.rättSvar-12*8/75)<1e-10);
+});
+test('Friktion, nedsänkt is och solpanelernas återbetalning kan lösas från egna delkort',()=>{
+  const friction=cxtPhysicsCards('5.514')[1];
+  assert.match(friction.t,/1250 kg/);
+  assert.match(friction.t,/4,24 kN/);
+  assert.ok(Math.abs(friction.rättSvar-4240/(1250*9.82))<friction.tolerans);
+  const ice=cxtPhysicsCards('6.483')[1];
+  assert.match(ice.t,/0,90 kg/);
+  assert.match(ice.t,/917 kg\/m³/);
+  assert.match(ice.t,/1000 kg\/m³/);
+  assert.ok(Math.abs(ice.rättSvar-1000*(.90/917)*9.82)<1e-10);
+  const panels=cxtPhysicsCards('5.600')[3];
+  assert.match(panels.t,/2600 kWh per år/);
+  assert.match(panels.t,/64 000 kr/);
+  assert.match(panels.t,/0,95 kr\/kWh/);
+  assert.ok(Math.abs(panels.rättSvar-64000/(2600*.95))<1e-10);
+});
 test('Värmekorten använder samma svarsenheter som självrättningen',()=>{
   const [mass,energy,time]=cxtPhysicsCards('7.36');
   assert.equal(mass.svarEnhet,'kg');assert.match(mass.t,/Svara i kg/);

@@ -1214,7 +1214,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken andel av mätvärdet utgör osäkerheten?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt",
@@ -1244,7 +1244,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Hur fördelas summan av mätvärdena lika mellan de tre mätningarna?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt",
@@ -2592,13 +2592,14 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 kcal = 4184 J och 1 eV = 1,602 · 10⁻¹⁹ J. Avrunda bara där det anges.</p><p>En dags mat innehåller 2000 kcal. Hur många joule motsvarar det?</p>",
+        "t": "<p>Matens energi är 2000 kcal. 1 kcal = 4184 J.</p><p>Hur stor är energin i J?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2000\\cdot 4184=8\\,368\\,000\\, \\mathrm{J}\\]</div></div></li></ol></div>",
         "ledtrad": "<p>Vad betyder en kilokalori uttryckt i joule?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "fraga": "Hur stor är energin i J?"
       },
       {
         "etikett": "b",
@@ -3863,7 +3864,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Identifiera först största och minsta mätvärdet. Använd sedan regeln i frågan.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt",
@@ -5160,7 +5161,7 @@ window.BANK = [
     "självrättning": true,
     "familjNyckelTidigare": "enheter__prefix_tiopotenser_och_storleksordning",
     "ledtrad": "<p>Utgå från den givna likheten. Ska siffervärdet bli större eller mindre i den efterfrågade enheten?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarsstruktur": "ordnad",
@@ -5189,7 +5190,7 @@ window.BANK = [
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -5199,7 +5200,7 @@ window.BANK = [
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -5209,7 +5210,7 @@ window.BANK = [
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -5219,7 +5220,7 @@ window.BANK = [
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -5229,7 +5230,7 @@ window.BANK = [
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -5239,7 +5240,7 @@ window.BANK = [
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -8021,7 +8022,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Hur hänger g/cm³ och kg/m³ ihop?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -8051,7 +8052,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Hur många gram och kubikcentimeter motsvarar ett kilogram och en kubikmeter?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -8168,7 +8169,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Omvandla både mass- och volymenheten.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -8228,7 +8229,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>En kubikmeter innehåller en miljon kubikcentimeter.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -8287,7 +8288,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Utgå från hur stor massa en kubikmeter akryl har.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -8376,7 +8377,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Följ förändringen av både täljaren och nämnaren i densiteten.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -11333,7 +11334,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna fart och sträcka vid likformig acceleration från vila, ur text, sökt fart och sträcka",
     "poang": "(2/0/0)",
-    "t": "<p>En simmare startar från vila och accelererar likformigt med 1,4 m/s² under 3,5 sekunder.</p><ol><li>Bestäm farten efter 3,5 s i m/s.</li><li>Bestäm sträckan under 3,5 s i m.</li></ol>",
+    "t": "<p>En simmare startar från vila och ökar farten med konstant acceleration med 1,4 m/s² under 3,5 sekunder.</p><ol><li>Bestäm farten efter 3,5 s i m/s.</li><li>Bestäm sträckan under 3,5 s i m.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=1{,}4\\cdot 3{,}5=4{,}9\\, \\mathrm{m/s}\\]</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[s=\\frac{1{,}4\\cdot 3{,}5^{2}}{2}\\approx 8{,}58\\, \\mathrm{m}\\]</div></div></li></ol></div></div></div>",
     "familj": "Sträcka vid konstant acceleration",
     "formaga": [
@@ -11357,7 +11358,7 @@ window.BANK = [
     ],
     "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration",
     "ledtrad": "<p>Simmaren startar från vila. Leta upp sambanden för rörelse med konstant acceleration i formelsamlingen.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -11376,12 +11377,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En simmare startar från vila och accelererar likformigt med 1,4 m/s² under 3,5 sekunder.</p>",
+    "spelIntro": "<p>En simmare startar från vila och ökar farten med konstant acceleration med 1,4 m/s² under 3,5 sekunder.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm farten efter 3,5 s i m/s.",
-        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,4 m/s² under 3,5 sekunder.</p><p>Bestäm farten efter 3,5 s i m/s.</p>",
+        "t": "<p>En simmare startar från vila och ökar farten med konstant acceleration med 1,4 m/s² under 3,5 sekunder.</p><p>Bestäm farten efter 3,5 s i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=1{,}4\\cdot 3{,}5=4{,}9\\, \\mathrm{m/s}\\]</div></div></li></ol></div>",
         "ledtrad": "<p>Simmaren startar från vila. Leta upp sambanden för rörelse med konstant acceleration i formelsamlingen.</p>",
         "niva": "E",
@@ -11392,11 +11393,11 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm sträckan under 3,5 s i m.",
-        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,4 m/s² under 3,5 sekunder.</p><p>Bestäm sträckan under 3,5 s i m.</p>",
+        "t": "<p>En simmare startar från vila och ökar farten med konstant acceleration med 1,4 m/s² under 3,5 sekunder.</p><p>Bestäm sträckan under 3,5 s i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[s=\\frac{1{,}4\\cdot 3{,}5^{2}}{2}\\approx 8{,}58\\, \\mathrm{m}\\]</div></div></li></ol></div>",
         "ledtrad": "<p>Simmaren startar från vila. Leta upp sambanden för rörelse med konstant acceleration i formelsamlingen.</p>",
         "niva": "E",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -20708,7 +20709,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Stenen startar från vila. Leta upp sambanden för fritt fall i formelsamlingen.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -20736,7 +20737,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[h=\\frac{9{,}82\\cdot 2{,}5^{2}}{2}=30{,}6875 m\\approx 30{,}7\\, \\mathrm{m}\\]</div></div></li></ol></div>",
         "ledtrad": "<p>Stenen startar från vila. Leta upp sambanden för fritt fall i formelsamlingen.</p>",
         "niva": "E",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -21780,7 +21781,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken längdenhet passar en fjäderkonstant i N/m?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "N",
@@ -24301,8 +24302,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tyngdkraftens storlek. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En låda med massan 5,0 kg ligger stilla på ett plan som lutar 15°. Bara tyngdkraft, normalkraft och vilofriktion verkar.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg></span><p>Bestäm tyngdkraftens storlek. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Hur stor är tyngdkraften på lådan? Svara i N.",
+        "t": "<p>En låda har massan 5,0 kg. Använd g = 9,82 m/s².</p><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"45.257 87.395 350.743 99.341\"><polygon points=\"60,180 380,180 380,94.2563\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(204,141.415) rotate(-15)\"><rect x=\"-30\" y=\"-32\" width=\"60\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-12\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">5,0 kg</text></g><path d=\"M 106 180 A 46 46 0 0 0 104.433 168.094\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"125.435\" y=\"176.168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">15°</text></svg><p>Hur stor är tyngdkraften på lådan? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tyngdkraften är mg = 5 · 9,82 oavsett lutningen.</p></li></ol><p class=\"facit-svar\">Svaret är 49,1 N.</p></div>",
         "ledtrad": "<p>Behöver du maximal friktion, eller den friktion som håller just denna låda stilla?</p>",
         "niva": "E",
@@ -24701,8 +24702,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm bommens tyngdkraft. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En homogen bom på 16 kg sträcker sig 4,0 m åt ena hållet från en axel. En motvikt på en lätt arm finns på andra sidan. Bommen hålls i vågrät jämvikt.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"248\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 14.268 500.000 199.745\"><line x1=\"20\" y1=\"194\" x2=\"480\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"194\" x2=\"22\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"53\" y1=\"194\" x2=\"45\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"76\" y1=\"194\" x2=\"68\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"99\" y1=\"194\" x2=\"91\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"122\" y1=\"194\" x2=\"114\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"194\" x2=\"137\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"168\" y1=\"194\" x2=\"160\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"191\" y1=\"194\" x2=\"183\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"214\" y1=\"194\" x2=\"206\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"237\" y1=\"194\" x2=\"229\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"194\" x2=\"252\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"283\" y1=\"194\" x2=\"275\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"306\" y1=\"194\" x2=\"298\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"329\" y1=\"194\" x2=\"321\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"352\" y1=\"194\" x2=\"344\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"375\" y1=\"194\" x2=\"367\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"398\" y1=\"194\" x2=\"390\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"421\" y1=\"194\" x2=\"413\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"444\" y1=\"194\" x2=\"436\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"467\" y1=\"194\" x2=\"459\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><rect x=\"238\" y=\"104\" width=\"24\" height=\"90\" rx=\"3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"250\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"277.5\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"305\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"332.5\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"360\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"387.5\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"415\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"442.5\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"250\" y1=\"100\" x2=\"470\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><circle cx=\"250\" cy=\"100\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"222\" y1=\"100\" x2=\"250\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"214\" cy=\"100\" r=\"15\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"214\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">m</text><circle cx=\"360\" cy=\"100\" r=\"3.5\" fill=\"#2B2527\" stroke=\"none\"/><line x1=\"360\" y1=\"106\" x2=\"360\" y2=\"145.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"360,156 355.2,145.5 364.8,145.5\" fill=\"#B43123\"/><text x=\"360\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">tyngdkraft</text><line x1=\"214\" y1=\"40\" x2=\"250\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"214\" y1=\"35\" x2=\"214\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"35\" x2=\"250\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"232\" y=\"32\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">0,50 m</text><line x1=\"250\" y1=\"66\" x2=\"360\" y2=\"66\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"61\" x2=\"250\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"61\" x2=\"360\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"305\" y=\"58\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg></span><p>Tyngdkraften beräknas med \\(F_g=mg\\).</p><p>Bestäm bommens tyngdkraft. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Hur stor är tyngdkraften på bommen? Svara i N.",
+        "t": "<p>En bom har massan 16 kg. Använd g = 9,82 m/s².</p><svg height=\"248\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 14.268 500.000 199.745\"><line x1=\"20\" y1=\"194\" x2=\"480\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"194\" x2=\"22\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"53\" y1=\"194\" x2=\"45\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"76\" y1=\"194\" x2=\"68\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"99\" y1=\"194\" x2=\"91\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"122\" y1=\"194\" x2=\"114\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"194\" x2=\"137\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"168\" y1=\"194\" x2=\"160\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"191\" y1=\"194\" x2=\"183\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"214\" y1=\"194\" x2=\"206\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"237\" y1=\"194\" x2=\"229\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"194\" x2=\"252\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"283\" y1=\"194\" x2=\"275\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"306\" y1=\"194\" x2=\"298\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"329\" y1=\"194\" x2=\"321\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"352\" y1=\"194\" x2=\"344\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"375\" y1=\"194\" x2=\"367\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"398\" y1=\"194\" x2=\"390\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"421\" y1=\"194\" x2=\"413\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"444\" y1=\"194\" x2=\"436\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"467\" y1=\"194\" x2=\"459\" y2=\"203\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><rect x=\"238\" y=\"104\" width=\"24\" height=\"90\" rx=\"3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"250\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"277.5\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"305\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"332.5\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"360\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"387.5\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"415\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><rect x=\"442.5\" y=\"94\" width=\"27.5\" height=\"13\" rx=\"0\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"250\" y1=\"100\" x2=\"470\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><circle cx=\"250\" cy=\"100\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"222\" y1=\"100\" x2=\"250\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"214\" cy=\"100\" r=\"15\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"214\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">m</text><circle cx=\"360\" cy=\"100\" r=\"3.5\" fill=\"#2B2527\" stroke=\"none\"/><line x1=\"360\" y1=\"106\" x2=\"360\" y2=\"145.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"360,156 355.2,145.5 364.8,145.5\" fill=\"#B43123\"/><text x=\"360\" y=\"174\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">tyngdkraft</text><line x1=\"214\" y1=\"40\" x2=\"250\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"214\" y1=\"35\" x2=\"214\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"35\" x2=\"250\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"232\" y=\"32\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">0,50 m</text><line x1=\"250\" y1=\"66\" x2=\"360\" y2=\"66\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"61\" x2=\"250\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"61\" x2=\"360\" y2=\"71\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"305\" y=\"58\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">2,0 m</text></svg><p>Hur stor är tyngdkraften på bommen? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=16\\cdot 9{,}82\\]</div></div></li></ol><p class=\"facit-svar\">Svaret är 157,12 N.</p></div>",
         "ledtrad": "<p>Använd sambandet mellan massa och tyngdkraft.</p>",
         "niva": "E",
@@ -25339,8 +25340,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm vänstra barnets tyngdkraft. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En vågrät gungbräda som väger nästan ingenting är i jämvikt. Ett barn på 30 kg sitter 1,5 m till vänster om stödet. Barnet till höger har massan 45 kg.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"185\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"39.286 104.286 421.429 125.714\"><line x1=\"60\" y1=\"150\" x2=\"440\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"6\" stroke-linecap=\"square\"/><polygon points=\"250,152 232,182 268,182\" fill=\"#E8DCC6\"/><polygon points=\"250,152 232,182 268,182\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"110\" y=\"112\" width=\"50\" height=\"36\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"135\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">30 kg</text><rect x=\"305\" y=\"112\" width=\"50\" height=\"36\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"330\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">45 kg</text><line x1=\"135\" y1=\"206\" x2=\"250\" y2=\"206\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"135\" y1=\"201\" x2=\"135\" y2=\"211\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"201\" x2=\"250\" y2=\"211\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"192.5\" y=\"222\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">1,5 m</text><line x1=\"250\" y1=\"206\" x2=\"330\" y2=\"206\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"201\" x2=\"250\" y2=\"211\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"201\" x2=\"330\" y2=\"211\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"290\" y=\"222\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">?</text></svg></span><p>Tyngdkraften beräknas med \\(F_g=mg\\).</p><p>Bestäm vänstra barnets tyngdkraft. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Hur stor är tyngdkraften på barnet? Svara i N.",
+        "t": "<p>Ett barn har massan 30 kg. Använd g = 9,82 m/s².</p><svg height=\"185\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"39.286 104.286 421.429 125.714\"><line x1=\"60\" y1=\"150\" x2=\"440\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"6\" stroke-linecap=\"square\"/><polygon points=\"250,152 232,182 268,182\" fill=\"#E8DCC6\"/><polygon points=\"250,152 232,182 268,182\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"110\" y=\"112\" width=\"50\" height=\"36\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"135\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">30 kg</text><rect x=\"305\" y=\"112\" width=\"50\" height=\"36\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"330\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">45 kg</text><line x1=\"135\" y1=\"206\" x2=\"250\" y2=\"206\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"135\" y1=\"201\" x2=\"135\" y2=\"211\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"201\" x2=\"250\" y2=\"211\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"192.5\" y=\"222\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">1,5 m</text><line x1=\"250\" y1=\"206\" x2=\"330\" y2=\"206\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"201\" x2=\"250\" y2=\"211\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"201\" x2=\"330\" y2=\"211\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"290\" y=\"222\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">?</text></svg><p>Hur stor är tyngdkraften på barnet? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=30\\cdot 9{,}82\\]</div></div></li></ol><p class=\"facit-svar\">Svaret är 294,6 N.</p></div>",
         "ledtrad": "<p>Vilken tyngdacceleration ska du använda?</p>",
         "niva": "E",
@@ -26765,7 +26766,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Läs av farten när avstampet slutar. Svara i m/s. Avrunda vid behov till två decimaler.",
-        "t": "<p>En loppa har massan 0,45 mg. Diagrammet visar farten under ett lodrätt avstamp från vila. Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"372\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 300\"><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"62\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"144.4\" y1=\"248\" x2=\"144.4\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"144.4\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,3</text><line x1=\"226.8\" y1=\"248\" x2=\"226.8\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"309.2\" y1=\"248\" x2=\"309.2\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"309.2\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,9</text><line x1=\"391.6\" y1=\"248\" x2=\"391.6\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"391.6\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,2</text><line x1=\"474\" y1=\"248\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"474\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,5</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"252\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"62\" y1=\"225.8\" x2=\"474\" y2=\"225.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"203.6\" x2=\"474\" y2=\"203.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"207.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,2</text><line x1=\"62\" y1=\"181.4\" x2=\"474\" y2=\"181.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"159.2\" x2=\"474\" y2=\"159.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"163.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,4</text><line x1=\"62\" y1=\"137\" x2=\"474\" y2=\"137\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"114.8\" x2=\"474\" y2=\"114.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"118.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"62\" y1=\"92.6\" x2=\"474\" y2=\"92.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"70.4\" x2=\"474\" y2=\"70.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"74.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,8</text><line x1=\"62\" y1=\"48.2\" x2=\"474\" y2=\"48.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"26\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,0</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"474\" y=\"288\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (ms)</text><text x=\"16\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><line x1=\"62\" y1=\"248\" x2=\"391.6\" y2=\"70.4\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"391.6\" cy=\"70.4\" r=\"4\" fill=\"#2B2527\" stroke=\"none\"/></svg></span><p>Läs av farten när avstampet slutar. Svara i m/s. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>Diagrammet visar farten under en loppas avstamp.</p><svg height=\"372\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 300\"><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"62\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"144.4\" y1=\"248\" x2=\"144.4\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"144.4\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,3</text><line x1=\"226.8\" y1=\"248\" x2=\"226.8\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"309.2\" y1=\"248\" x2=\"309.2\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"309.2\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,9</text><line x1=\"391.6\" y1=\"248\" x2=\"391.6\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"391.6\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,2</text><line x1=\"474\" y1=\"248\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"474\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,5</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"252\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"62\" y1=\"225.8\" x2=\"474\" y2=\"225.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"203.6\" x2=\"474\" y2=\"203.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"207.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,2</text><line x1=\"62\" y1=\"181.4\" x2=\"474\" y2=\"181.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"159.2\" x2=\"474\" y2=\"159.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"163.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,4</text><line x1=\"62\" y1=\"137\" x2=\"474\" y2=\"137\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"114.8\" x2=\"474\" y2=\"114.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"118.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"62\" y1=\"92.6\" x2=\"474\" y2=\"92.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"70.4\" x2=\"474\" y2=\"70.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"74.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,8</text><line x1=\"62\" y1=\"48.2\" x2=\"474\" y2=\"48.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"26\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,0</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"474\" y=\"288\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (ms)</text><text x=\"16\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><line x1=\"62\" y1=\"248\" x2=\"391.6\" y2=\"70.4\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"391.6\" cy=\"70.4\" r=\"4\" fill=\"#2B2527\" stroke=\"none\"/></svg><p>Läs av farten när avstampet slutar. Svara i m/s. Avrunda vid behov till två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafens slutpunkt ligger vid 0,80 m/s.</p></li></ol><p class=\"facit-svar\">Svaret är 0,8 m/s.</p></div>",
         "ledtrad": "<p>Kontrollera prefixen i både milligram och millisekunder.</p>",
         "niva": "E",
@@ -26776,7 +26777,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Läs av avstampets tid. Svara i ms. Avrunda vid behov till två decimaler.",
-        "t": "<p>En loppa har massan 0,45 mg. Diagrammet visar farten under ett lodrätt avstamp från vila. Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"372\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 300\"><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"62\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"144.4\" y1=\"248\" x2=\"144.4\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"144.4\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,3</text><line x1=\"226.8\" y1=\"248\" x2=\"226.8\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"309.2\" y1=\"248\" x2=\"309.2\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"309.2\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,9</text><line x1=\"391.6\" y1=\"248\" x2=\"391.6\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"391.6\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,2</text><line x1=\"474\" y1=\"248\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"474\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,5</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"252\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"62\" y1=\"225.8\" x2=\"474\" y2=\"225.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"203.6\" x2=\"474\" y2=\"203.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"207.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,2</text><line x1=\"62\" y1=\"181.4\" x2=\"474\" y2=\"181.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"159.2\" x2=\"474\" y2=\"159.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"163.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,4</text><line x1=\"62\" y1=\"137\" x2=\"474\" y2=\"137\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"114.8\" x2=\"474\" y2=\"114.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"118.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"62\" y1=\"92.6\" x2=\"474\" y2=\"92.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"70.4\" x2=\"474\" y2=\"70.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"74.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,8</text><line x1=\"62\" y1=\"48.2\" x2=\"474\" y2=\"48.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"26\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,0</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"474\" y=\"288\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (ms)</text><text x=\"16\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><line x1=\"62\" y1=\"248\" x2=\"391.6\" y2=\"70.4\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"391.6\" cy=\"70.4\" r=\"4\" fill=\"#2B2527\" stroke=\"none\"/></svg></span><p>Läs av avstampets tid. Svara i ms. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>Diagrammet visar farten under en loppas avstamp.</p><svg height=\"372\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 300\"><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"62\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"144.4\" y1=\"248\" x2=\"144.4\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"144.4\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,3</text><line x1=\"226.8\" y1=\"248\" x2=\"226.8\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"309.2\" y1=\"248\" x2=\"309.2\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"309.2\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,9</text><line x1=\"391.6\" y1=\"248\" x2=\"391.6\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"391.6\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,2</text><line x1=\"474\" y1=\"248\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"474\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,5</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"252\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"62\" y1=\"225.8\" x2=\"474\" y2=\"225.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"203.6\" x2=\"474\" y2=\"203.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"207.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,2</text><line x1=\"62\" y1=\"181.4\" x2=\"474\" y2=\"181.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"159.2\" x2=\"474\" y2=\"159.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"163.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,4</text><line x1=\"62\" y1=\"137\" x2=\"474\" y2=\"137\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"114.8\" x2=\"474\" y2=\"114.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"118.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"62\" y1=\"92.6\" x2=\"474\" y2=\"92.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"70.4\" x2=\"474\" y2=\"70.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"74.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,8</text><line x1=\"62\" y1=\"48.2\" x2=\"474\" y2=\"48.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"26\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,0</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"474\" y=\"288\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (ms)</text><text x=\"16\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><line x1=\"62\" y1=\"248\" x2=\"391.6\" y2=\"70.4\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"391.6\" cy=\"70.4\" r=\"4\" fill=\"#2B2527\" stroke=\"none\"/></svg><p>Läs av avstampets tid. Svara i ms. Avrunda vid behov till två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Slutpunkten har tiden 1,2 ms.</p></li></ol><p class=\"facit-svar\">Svaret är 1,2 ms.</p></div>",
         "ledtrad": "<p>Kontrollera prefixen i både milligram och millisekunder.</p>",
         "niva": "E",
@@ -29539,7 +29540,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Frilägga vid vila",
     "poang": "(1/0/0)",
-    "t": "<p>En bok ligger stilla på ett vågrätt bord.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"bord\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"45\" y1=\"155\" x2=\"375\" y2=\"155\" stroke=\"#374151\" stroke-width=\"4\"/><rect x=\"165\" y=\"105\" width=\"90\" height=\"50\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita ett friläggningsdiagram och namnge alla yttre krafter på föremålet.</p>",
+    "t": "<p>En bok ligger stilla på ett vågrätt bord.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"bord\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"45\" y1=\"155\" x2=\"375\" y2=\"155\" stroke=\"#374151\" stroke-width=\"4\"/><rect x=\"165\" y=\"105\" width=\"90\" height=\"50\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita pilar som visar krafterna på föremålet. Skriv kraftens namn vid varje pil.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På boken verkar tyngdkraften \\(F_{\\mathrm{g}}\\) lodrätt nedåt och bordets normalkraft N lodrätt uppåt.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom boken är stilla gäller</p><div class=\"facit-matte\">\\[N=F_{\\mathrm{g}}\\]</div></div></li><li><p>Rita två lika långa, motriktade kraftpilar.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_400\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"75\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_400)\"/><text x=\"222\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">N</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"235\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_400)\"/><text x=\"222\" y=\"254\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Rita krafter vid jämvikt",
     "formaga": [
@@ -29634,7 +29635,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Frilägga vid vila",
     "poang": "(1/0/0)",
-    "t": "<p>En lampa hänger stilla i en lodrät sladd.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"hangande\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"210\" y1=\"25\" x2=\"210\" y2=\"90\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"125\" r=\"34\" fill=\"#e5e7eb\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita ett friläggningsdiagram och namnge alla yttre krafter på föremålet.</p>",
+    "t": "<p>En lampa hänger stilla i en lodrät sladd.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"hangande\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"210\" y1=\"25\" x2=\"210\" y2=\"90\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"125\" r=\"34\" fill=\"#e5e7eb\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita pilar som visar krafterna på föremålet. Skriv kraftens namn vid varje pil.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lampan påverkas av tyngdkraften \\(F_{\\mathrm{g}}\\) nedåt och sladdens spännkraft S uppåt.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Stillastående ger</p><div class=\"facit-matte\">\\[S=F_{\\mathrm{g}}\\]</div></div></li><li><p>Sladden drar längs sin egen riktning.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_401\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"75\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_401)\"/><text x=\"222\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">S</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"235\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_401)\"/><text x=\"222\" y=\"254\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Rita krafter vid jämvikt",
     "formaga": [
@@ -29697,7 +29698,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Frilägga i fritt fall",
     "poang": "(1/0/0)",
-    "t": "<p>En boll har just släppts och faller. Bortse från luftmotståndet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"fall\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><circle cx=\"210\" cy=\"105\" r=\"28\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"165\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"7 7\"/></svg></span><p>Rita ett friläggningsdiagram och namnge alla yttre krafter på föremålet.</p>",
+    "t": "<p>En boll har just släppts och faller. Bortse från luftmotståndet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"fall\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><circle cx=\"210\" cy=\"105\" r=\"28\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"165\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"7 7\"/></svg></span><p>Rita pilar som visar krafterna på föremålet. Skriv kraftens namn vid varje pil.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bollen påverkas enbart av tyngdkraften \\(F_{\\mathrm{g}}\\), riktad lodrätt nedåt.</p></li><li><p>Handens kraft finns inte kvar sedan bollen släppts.</p></li><li><p>Den nedåtriktade resultanten ger acceleration nedåt.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_402\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"245\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_402)\"/><text x=\"222\" y=\"264\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Rita krafter vid acceleration",
     "formaga": [
@@ -29760,7 +29761,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Lyftkraft vid vila",
     "poang": "(1/0/0)",
-    "t": "<p>Ett block flyter stilla fritt i vatten utan att röra botten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"vatten\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"80\" y=\"80\" width=\"260\" height=\"110\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"80\" y1=\"80\" x2=\"340\" y2=\"80\" stroke=\"#2563eb\" stroke-width=\"2\"/><rect x=\"165\" y=\"105\" width=\"90\" height=\"55\" fill=\"#fef3c7\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita ett friläggningsdiagram och namnge alla yttre krafter på föremålet.</p>",
+    "t": "<p>Ett block flyter stilla fritt i vatten utan att röra botten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"vatten\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"80\" y=\"80\" width=\"260\" height=\"110\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"80\" y1=\"80\" x2=\"340\" y2=\"80\" stroke=\"#2563eb\" stroke-width=\"2\"/><rect x=\"165\" y=\"105\" width=\"90\" height=\"55\" fill=\"#fef3c7\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita pilar som visar krafterna på föremålet. Skriv kraftens namn vid varje pil.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På blocket verkar tyngdkraften \\(F_{\\mathrm{g}}\\) nedåt och vattnets lyftkraft \\(F_{\\mathrm{A}}\\) uppåt.</p></li><li><p>Eftersom blocket är stilla är krafterna lika stora.</p></li><li><p>Ingen normalkraft från botten verkar när blocket saknar kontakt med den.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_403\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"75\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_403)\"/><text x=\"222\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">FA</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"235\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_403)\"/><text x=\"222\" y=\"254\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
@@ -29885,7 +29886,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Kraft och hastighet",
     "poang": "(2/0/0)",
-    "t": "<p>En bil kör med konstant fart på plan väg. Du får inte bortse från luftmotstånd och rullmotstånd.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"bil\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"40\" y1=\"165\" x2=\"380\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"130\" y=\"105\" width=\"160\" height=\"45\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><circle cx=\"165\" cy=\"158\" r=\"15\" fill=\"#374151\"/><circle cx=\"260\" cy=\"158\" r=\"15\" fill=\"#374151\"/></svg></span><p>Rita ett friläggningsdiagram och namnge alla yttre krafter på föremålet.</p><p>Vägen är rak och vågrät. Samla luft- och rullmotstånd i en kraft.</p>",
+    "t": "<p>En bil kör med konstant fart på plan väg. Du får inte bortse från luftmotstånd och rullmotstånd.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"bil\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"40\" y1=\"165\" x2=\"380\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"130\" y=\"105\" width=\"160\" height=\"45\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><circle cx=\"165\" cy=\"158\" r=\"15\" fill=\"#374151\"/><circle cx=\"260\" cy=\"158\" r=\"15\" fill=\"#374151\"/></svg></span><p>Rita pilar som visar alla krafter på föremålet. Skriv vad varje kraft kommer från.</p><p>Vägen är rak och vågrät. Samla luft- och rullmotstånd i en kraft.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På bilen verkar tyngdkraft nedåt och normalkraft uppåt.</p></li><li><p>De balanserar eftersom bilen inte accelererar lodrätt.</p></li><li><p>Den drivande kraften från vägen verkar framåt.</p></li><li><p>Luft- och rullmotstånd kan samlas i en motståndskraft bakåt.</p></li><li><p>Dessa vågräta krafter är lika stora, eftersom farten och rörelseriktningen är konstanta.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_404\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"75\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_404)\"/><text x=\"222\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">N</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"235\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_404)\"/><text x=\"222\" y=\"254\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><line x1=\"210\" y1=\"155\" x2=\"295\" y2=\"155\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_404)\"/><text x=\"307\" y=\"174\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fdriv</text><line x1=\"210\" y1=\"155\" x2=\"125\" y2=\"155\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_404)\"/><text x=\"113\" y=\"174\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fmot</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Rita krafter vid jämvikt",
     "formaga": [
@@ -30074,7 +30075,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Kraft i hiss",
     "poang": "(2/0/0)",
-    "t": "<p>En person står på en våg i en hiss som rör sig uppåt med konstant fart.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"hiss\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"130\" y=\"55\" width=\"160\" height=\"120\" fill=\"#f3f4f6\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"125\" r=\"20\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita ett friläggningsdiagram och namnge alla yttre krafter på föremålet.</p><p>Frilägg enbart personen, som inte rör vid hissens väggar.</p>",
+    "t": "<p>En person står på en våg i en hiss som rör sig uppåt med konstant fart.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"hiss\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"130\" y=\"55\" width=\"160\" height=\"120\" fill=\"#f3f4f6\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"125\" r=\"20\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita pilar som visar alla krafter på föremålet. Skriv vad varje kraft kommer från.</p><p>Visa bara krafterna på personen, som inte rör vid hissens väggar.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På personen verkar tyngdkraften mg nedåt och normalkraften N från vågen uppåt.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant fart ger a = 0, alltså</p><div class=\"facit-matte\">\\[N-m g=0\\]</div></div></li><li><p>Rita lika långa pilar.</p></li><li><p>Hissens vajerkraft verkar på hissen och ska inte ritas som en extra kraft på personen.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_406\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"75\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_406)\"/><text x=\"222\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">N</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"235\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_406)\"/><text x=\"222\" y=\"254\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Normalkraft i hiss",
     "formaga": [
@@ -30200,7 +30201,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Sneda snörkrafter",
     "poang": "(2/0/0)",
-    "t": "<p>En skylt hänger stilla i två sneda linor från taket.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"taklinor\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"80\" y1=\"35\" x2=\"340\" y2=\"35\" stroke=\"#374151\" stroke-width=\"4\"/><line x1=\"120\" y1=\"35\" x2=\"190\" y2=\"125\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"300\" y1=\"35\" x2=\"230\" y2=\"125\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"165\" y=\"125\" width=\"90\" height=\"42\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita ett friläggningsdiagram och namnge alla yttre krafter på föremålet.</p>",
+    "t": "<p>En skylt hänger stilla i två sneda linor från taket.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"taklinor\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"80\" y1=\"35\" x2=\"340\" y2=\"35\" stroke=\"#374151\" stroke-width=\"4\"/><line x1=\"120\" y1=\"35\" x2=\"190\" y2=\"125\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"300\" y1=\"35\" x2=\"230\" y2=\"125\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"165\" y=\"125\" width=\"90\" height=\"42\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita pilar som visar alla krafter på föremålet. Skriv vad varje kraft kommer från.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På skylten verkar tyngdkraft nedåt samt en spännkraft längs vardera linan, riktad från skylten mot takfästet.</p></li><li><p>De vågräta komponenterna tar ut varandra och de lodräta komponenterna bär tillsammans tyngden.</p></li><li><p>Rita linornas krafter från respektive fäste på skylten.</p></li></ol></div>",
     "familj": "Rita krafter vid jämvikt",
     "formaga": [
@@ -30358,7 +30359,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Kraft vid acceleration",
     "poang": "(2/0/0)",
-    "t": "<p>En bil accelererar framåt på en vågrät väg och luftmotståndet är märkbart.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"bil\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"40\" y1=\"165\" x2=\"380\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"130\" y=\"105\" width=\"160\" height=\"45\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><circle cx=\"165\" cy=\"158\" r=\"15\" fill=\"#374151\"/><circle cx=\"260\" cy=\"158\" r=\"15\" fill=\"#374151\"/></svg></span><p>Rita ett friläggningsdiagram. Ange också vilken riktning resultantkraften har, eller att den är noll.</p><p>Bortse från rullmotståndet. Bilen rör sig rakt fram utan lodrät acceleration.</p>",
+    "t": "<p>En bil accelererar framåt på en vågrät väg och luftmotståndet är märkbart.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"bil\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"40\" y1=\"165\" x2=\"380\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"130\" y=\"105\" width=\"160\" height=\"45\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><circle cx=\"165\" cy=\"158\" r=\"15\" fill=\"#374151\"/><circle cx=\"260\" cy=\"158\" r=\"15\" fill=\"#374151\"/></svg></span><p>Rita pilar som visar alla krafter. Åt vilket håll verkar krafterna tillsammans, eller tar de ut varandra?</p><p>Bortse från rullmotståndet. Bilen rör sig rakt fram utan lodrät acceleration.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tyngdkraft nedåt och normalkraft uppåt balanserar varandra.</p></li><li><p>Den drivande kraften från vägen på däcken verkar framåt och luftmotståndet bakåt.</p></li><li><p>Drivkraften är större, så resultanten pekar framåt.</p></li><li><p>Rita inte accelerationen som en extra kraft.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_410\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"75\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_410)\"/><text x=\"222\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">N</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"235\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_410)\"/><text x=\"222\" y=\"254\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><line x1=\"210\" y1=\"155\" x2=\"315\" y2=\"155\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_410)\"/><text x=\"327\" y=\"174\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fdriv</text><line x1=\"210\" y1=\"155\" x2=\"155\" y2=\"155\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_410)\"/><text x=\"143\" y=\"174\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fluft</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Rita krafter vid acceleration",
     "formaga": [
@@ -30453,7 +30454,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Kraft vid inbromsning",
     "poang": "(2/0/0)",
-    "t": "<p>En cyklist slutar trampa på plan väg och farten minskar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"cykel\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"35\" y1=\"165\" x2=\"385\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"155\" cy=\"150\" r=\"27\" fill=\"none\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"270\" cy=\"150\" r=\"27\" fill=\"none\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"155\" y1=\"150\" x2=\"205\" y2=\"105\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"205\" y1=\"105\" x2=\"270\" y2=\"150\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"205\" cy=\"78\" r=\"12\" fill=\"#dbeafe\" stroke=\"#374151\"/></svg></span><p>Rita ett friläggningsdiagram. Ange också vilken riktning resultantkraften har, eller att den är noll.</p><p>Frilägg cykel och cyklist som ett gemensamt system på en rak, vågrät väg. Samla luft- och rullmotstånd i en kraft.</p>",
+    "t": "<p>En cyklist slutar trampa på plan väg och farten minskar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"cykel\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"35\" y1=\"165\" x2=\"385\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"155\" cy=\"150\" r=\"27\" fill=\"none\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"270\" cy=\"150\" r=\"27\" fill=\"none\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"155\" y1=\"150\" x2=\"205\" y2=\"105\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"205\" y1=\"105\" x2=\"270\" y2=\"150\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"205\" cy=\"78\" r=\"12\" fill=\"#dbeafe\" stroke=\"#374151\"/></svg></span><p>Rita pilar som visar alla krafter. Åt vilket håll verkar krafterna tillsammans, eller tar de ut varandra?</p><p>Visa krafterna på cykeln och cyklisten tillsammans på en rak, vågrät väg. Samla luft- och rullmotstånd i en kraft.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Frilägg cykel och cyklist tillsammans.</p></li><li><p>Tyngdkraften verkar nedåt och den sammanlagda normalkraften från vägen uppåt.</p></li><li><p>Luft- och rullmotstånd verkar bakåt och kan samlas i en motståndskraft.</p></li><li><p>Resultanten pekar bakåt och minskar farten.</p></li><li><p>Rörelsen framåt kräver ingen extra framåtriktad kraft.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_411\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"75\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_411)\"/><text x=\"222\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">N</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"235\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_411)\"/><text x=\"222\" y=\"254\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><line x1=\"210\" y1=\"155\" x2=\"125\" y2=\"155\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_411)\"/><text x=\"113\" y=\"174\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fmot</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Rita krafter vid acceleration",
     "formaga": [
@@ -30542,7 +30543,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">x = 0,050 m ger</p><div class=\"facit-matte\">\\[F_{\\mathrm{f}}=240\\cdot 0{,}050=12\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svaret är 12 N.</p></div>",
         "ledtrad": "<p>Vilken längdenhet behöver förlängningen ha när k anges i N/m?</p>",
         "niva": "E",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -31946,7 +31947,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Sätt in massan och den uppåtriktade accelerationen i den givna formeln.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "N",
@@ -33080,7 +33081,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Omvandla till meter innan du kvadrerar längden.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "J",
@@ -33399,8 +33400,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm astronautens massa efter förflyttningen från jorden till månen. Svara i kg. Avrunda vid behov till två decimaler.",
-        "t": "<p>En astronaut har massan 65 kg. På månen används \\(g_M=1{,}62\\) m/s² och på jorden \\(g_J=9{,}82\\) m/s².</p><p>Bestäm astronautens massa efter förflyttningen från jorden till månen. Svara i kg. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Hur stor är astronautens massa på månen? Svara i kg.",
+        "t": "<p>En astronaut har massan 65 kg på jorden och reser till månen.</p><p>Hur stor är astronautens massa på månen? Svara i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förflyttningen ändrar tyngdkraften men inte astronautens massa: 65 kg.</p></li></ol><p class=\"facit-svar\">Svaret är 65 kg.</p></div>",
         "ledtrad": "<p>Skilj mellan massa och tyngdkraft.</p>",
         "niva": "E",
@@ -33618,8 +33619,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tyngdkraften på roboten på Mars. Använd \\(F_g=mg\\). Svara i N med två decimaler.",
-        "t": "<p>En robot har massan 78 kg. Använd g = 3,71 m/s² på Mars och g = 9,82 m/s² på jorden. Massan ändras inte vid förflyttningen.</p><p>Bestäm tyngdkraften på roboten på Mars. Använd \\(F_g=mg\\). Svara i N med två decimaler.</p>",
+        "fraga": "Hur stor är tyngdkraften på roboten på Mars? Svara i N med två decimaler.",
+        "t": "<p>En robot har massan 78 kg. På Mars är tyngdaccelerationen 3,71 m/s².</p><p>Hur stor är tyngdkraften på roboten på Mars? Svara i N med två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=78\\cdot 3{,}71=289{,}38\\, \\mathrm{N}\\]</div></div></li><li><p>Tyngdkraften mäts i newton; 78 kg är robotens massa.</p></li></ol></div>",
         "ledtrad": "<p>Vilket värde på g gäller för Mars?</p>",
         "niva": "E",
@@ -33837,7 +33838,7 @@ window.BANK = [
     "niva": "E",
     "typ": "Kraft i hiss",
     "poang": "(2/0/0)",
-    "t": "<p>En person står på en våg i en hiss som accelererar nedåt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"hiss\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"130\" y=\"55\" width=\"160\" height=\"120\" fill=\"#f3f4f6\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"125\" r=\"20\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita ett friläggningsdiagram. Ange också vilken riktning resultantkraften har, eller att den är noll.</p><p>Frilägg enbart personen. Accelerationsbeloppet är mindre än g och personen har kontakt med vågen utan kontakt med hissens väggar.</p>",
+    "t": "<p>En person står på en våg i en hiss som accelererar nedåt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"hiss\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"130\" y=\"55\" width=\"160\" height=\"120\" fill=\"#f3f4f6\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"125\" r=\"20\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span><p>Rita pilar som visar alla krafter. Åt vilket håll verkar krafterna tillsammans, eller tar de ut varandra?</p><p>Visa bara krafterna på personen. Accelerationen nedåt är mindre än tyngdaccelerationen g. Personen står på vågen och rör inte hissens väggar.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På personen verkar tyngdkraften mg nedåt och vågens normalkraft N uppåt.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Med nedåt positivt gäller mg − N = ma, alltså</p><div class=\"facit-matte\">\\[N=m \\left(g-a\\right)\\]</div></div></li><li><p>När 0 &lt; a &lt; g är N positiv men mindre än mg.</p></li><li><p>Resultanten är nedåtriktad och vågens utslag är mindre än i vila.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_412\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"110\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_412)\"/><text x=\"222\" y=\"100\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">N</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"245\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_412)\"/><text x=\"222\" y=\"264\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
     "familj": "Normalkraft i hiss",
     "formaga": [
@@ -33996,7 +33997,7 @@ window.BANK = [
     "niva": "E",
     "typ": "frilägga föremål och identifiera yttre krafter",
     "poang": "(2/0/0)",
-    "t": "<p>En motorbåt färdas med konstant fart rakt fram på lugnt vatten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"bat\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><path d=\"M95 145 Q210 190 325 145 L300 175 Q210 205 120 175 Z\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"45\" y1=\"185\" x2=\"375\" y2=\"185\" stroke=\"#2563eb\" stroke-width=\"2\"/></svg></span><p>Rita ett friläggningsdiagram. Ange också vilken riktning resultantkraften har, eller att den är noll.</p><p>Båten behåller samma höjdläge. Räkna med att framdrivningen och motståndet är vågräta krafter.</p>",
+    "t": "<p>En motorbåt färdas med konstant fart rakt fram på lugnt vatten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"bat\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><path d=\"M95 145 Q210 190 325 145 L300 175 Q210 205 120 175 Z\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"45\" y1=\"185\" x2=\"375\" y2=\"185\" stroke=\"#2563eb\" stroke-width=\"2\"/></svg></span><p>Rita pilar som visar alla krafter. Åt vilket håll verkar krafterna tillsammans, eller tar de ut varandra?</p><p>Båten behåller samma höjdläge. Räkna med att framdrivningen och motståndet är vågräta krafter.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tyngdkraften verkar nedåt och vattnets samlade uppåtkraft verkar uppåt.</p></li><li><p>Vattnets framdrivande kraft på propellern är framåt; vatten- och luftmotstånd är bakåt.</p></li><li><p>De lodräta krafterna balanserar varandra, liksom de vågräta.</p></li><li><p>Båten har konstant hastighetsvektor, så resultanten är noll.</p></li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Kraftdiagram\"><rect width=\"440\" height=\"300\" fill=\"white\"/><circle cx=\"220\" cy=\"140\" r=\"5\" fill=\"#333\"/><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"200.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,210 216.0,200.0 224.0,200.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">mg</text><line x1=\"220\" y1=\"140\" x2=\"220.0\" y2=\"80.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,70 224.0,80.0 216.0,80.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"55.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">F_upp</text><line x1=\"220\" y1=\"140\" x2=\"300.0\" y2=\"140.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"310,140 300.0,144.0 300.0,136.0\" fill=\"#245c9b\"/><text x=\"324.0\" y=\"145.0\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"17\">F_driv</text><line x1=\"220\" y1=\"140\" x2=\"140.0\" y2=\"140.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"130,140 140.0,136.0 140.0,144.0\" fill=\"#245c9b\"/><text x=\"116.0\" y=\"145.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"17\">F_motstånd</text></svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraftpilarna visar riktningarna schematiskt.</p></li><li><p>Beloppsjämförelserna framgår av lösningen.</p></li></ol></div>",
     "familj": "Rita krafter vid jämvikt",
     "formaga": [
@@ -34605,8 +34606,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tyngdkraften på jorden. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En astronaut med utrustning har massan 120 kg. Tyngdaccelerationen är 9,82 m/s² på jorden och 1,62 m/s² på månen. Använd \\(F_g=mg\\).</p><span class=\"fig\"><svg height=\"259\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.114 60.726 351.771 146.936\"><rect x=\"30\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"30\" y1=\"150\" x2=\"170\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"210\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"210\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"100\" y1=\"91\" x2=\"100\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"86\" y1=\"100\" x2=\"114\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"90\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"110\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"280\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"280\" y1=\"91\" x2=\"280\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"266\" y1=\"100\" x2=\"294\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"270\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"290\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"100\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 9,82 m/s²</text><text x=\"100\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">jorden</text><text x=\"280\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 1,62 m/s²</text><text x=\"280\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">månen</text></svg></span><p>Bestäm tyngdkraften på jorden. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Hur stor är tyngdkraften på jorden? Svara i N.",
+        "t": "<p>En astronaut med utrustning har massan 120 kg. På jorden är tyngdaccelerationen 9,82 m/s².</p><svg height=\"259\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.114 60.726 351.771 146.936\"><rect x=\"30\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"30\" y1=\"150\" x2=\"170\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"210\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"210\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"100\" y1=\"91\" x2=\"100\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"86\" y1=\"100\" x2=\"114\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"90\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"110\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"280\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"280\" y1=\"91\" x2=\"280\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"266\" y1=\"100\" x2=\"294\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"270\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"290\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"100\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 9,82 m/s²</text><text x=\"100\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">jorden</text><text x=\"280\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 1,62 m/s²</text><text x=\"280\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">månen</text></svg><p>Hur stor är tyngdkraften på jorden? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">På jorden:</p><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=120\\cdot 9{,}82\\]</div></div></li></ol><p class=\"facit-svar\">Svaret är 1178,4 N.</p></div>",
         "ledtrad": "<p>Vilken storhet ändras när astronauten flyttar från jorden till månen?</p>",
         "niva": "E",
@@ -34616,8 +34617,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm tyngdkraften på månen. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En astronaut med utrustning har massan 120 kg. Tyngdaccelerationen är 9,82 m/s² på jorden och 1,62 m/s² på månen. Använd \\(F_g=mg\\).</p><span class=\"fig\"><svg height=\"259\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.114 60.726 351.771 146.936\"><rect x=\"30\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"30\" y1=\"150\" x2=\"170\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"210\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"210\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"100\" y1=\"91\" x2=\"100\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"86\" y1=\"100\" x2=\"114\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"90\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"110\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"280\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"280\" y1=\"91\" x2=\"280\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"266\" y1=\"100\" x2=\"294\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"270\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"290\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"100\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 9,82 m/s²</text><text x=\"100\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">jorden</text><text x=\"280\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 1,62 m/s²</text><text x=\"280\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">månen</text></svg></span><p>Bestäm tyngdkraften på månen. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Hur stor är tyngdkraften på månen? Svara i N.",
+        "t": "<p>En astronaut med utrustning har massan 120 kg. På månen är tyngdaccelerationen 1,62 m/s².</p><svg height=\"259\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.114 60.726 351.771 146.936\"><rect x=\"30\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"30\" y1=\"150\" x2=\"170\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"210\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"210\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"100\" y1=\"91\" x2=\"100\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"86\" y1=\"100\" x2=\"114\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"90\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"110\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"280\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"280\" y1=\"91\" x2=\"280\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"266\" y1=\"100\" x2=\"294\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"270\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"290\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"100\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 9,82 m/s²</text><text x=\"100\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">jorden</text><text x=\"280\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 1,62 m/s²</text><text x=\"280\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">månen</text></svg><p>Hur stor är tyngdkraften på månen? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">På månen:</p><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=120\\cdot 1{,}62\\]</div></div></li></ol><p class=\"facit-svar\">Svaret är 194,4 N.</p></div>",
         "ledtrad": "<p>Vilken storhet ändras när astronauten flyttar från jorden till månen?</p>",
         "niva": "E",
@@ -34627,8 +34628,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm astronautens massa på månen. Svara i kg. Avrunda vid behov till två decimaler.",
-        "t": "<p>En astronaut med utrustning har massan 120 kg. Tyngdaccelerationen är 9,82 m/s² på jorden och 1,62 m/s² på månen. Använd \\(F_g=mg\\).</p><span class=\"fig\"><svg height=\"259\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.114 60.726 351.771 146.936\"><rect x=\"30\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"30\" y1=\"150\" x2=\"170\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"210\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"210\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"100\" y1=\"91\" x2=\"100\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"86\" y1=\"100\" x2=\"114\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"90\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"110\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"280\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"280\" y1=\"91\" x2=\"280\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"266\" y1=\"100\" x2=\"294\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"270\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"290\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"100\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 9,82 m/s²</text><text x=\"100\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">jorden</text><text x=\"280\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 1,62 m/s²</text><text x=\"280\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">månen</text></svg></span><p>Bestäm astronautens massa på månen. Svara i kg. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Hur stor är astronautens massa på månen? Svara i kg.",
+        "t": "<p>En astronaut med utrustning har massan 120 kg på jorden och reser till månen.</p><svg height=\"259\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.114 60.726 351.771 146.936\"><rect x=\"30\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"30\" y1=\"150\" x2=\"170\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"210\" y=\"150\" width=\"140\" height=\"9\" fill=\"#ECEFF3\"/><line x1=\"210\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"100\" y1=\"91\" x2=\"100\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"86\" y1=\"100\" x2=\"114\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"90\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"118\" x2=\"110\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"280\" cy=\"80\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"280\" y1=\"91\" x2=\"280\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"266\" y1=\"100\" x2=\"294\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"270\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"118\" x2=\"290\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"100\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 9,82 m/s²</text><text x=\"100\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">jorden</text><text x=\"280\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">g = 1,62 m/s²</text><text x=\"280\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">månen</text></svg><p>Hur stor är astronautens massa på månen? Svara i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Massan ändras inte av den nya platsen.</p></li><li><p>Den är fortfarande 120 kg.</p></li></ol><p class=\"facit-svar\">Svaret är 120 kg.</p></div>",
         "ledtrad": "<p>Vilken storhet ändras när astronauten flyttar från jorden till månen?</p>",
         "niva": "E",
@@ -37702,8 +37703,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm magasinets tyngdkraft. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>Ett viktmagasin med massan 35 kg hänger stilla i en latsdragsmaskin. En lätt vajer löper lodrätt upp till en fast friktionsfri trissa och sedan lodrätt ned till handtaget. Inga andra krafter bär magasinet.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"309\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"43.800 5.400 352.200 217.800\"><line x1=\"60\" y1=\"20\" x2=\"380\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"3.25\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3.9\" stroke-linecap=\"square\"/><line x1=\"60\" y1=\"210\" x2=\"380\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"20\" x2=\"230\" y2=\"18\" stroke=\"#2B2527\" stroke-width=\"2.08\" stroke-linecap=\"square\"/><circle cx=\"230\" cy=\"48\" r=\"30\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><circle cx=\"230\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><line x1=\"200\" y1=\"48\" x2=\"200\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"2.34\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.34\" stroke-linecap=\"square\"/><rect x=\"164\" y=\"108\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><rect x=\"164\" y=\"128\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><rect x=\"164\" y=\"148\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><rect x=\"164\" y=\"168\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><text x=\"200\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.5\" font-weight=\"600\" fill=\"#2B2527\">35 kg</text><rect x=\"242\" y=\"150\" width=\"36\" height=\"10\" rx=\"4\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"260\" y1=\"168\" x2=\"260\" y2=\"186\" stroke=\"#B43123\" stroke-width=\"2.99\" stroke-linecap=\"round\"/><polygon points=\"260,196 255.4,186 264.6,186\" fill=\"#B43123\"/><text x=\"274\" y=\"190\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"14.1\" font-weight=\"400\" fill=\"#5C575E\">handtag</text><text x=\"276\" y=\"34\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"14.1\" font-weight=\"400\" fill=\"#5C575E\">trissa</text></svg></span><p>Bestäm magasinets tyngdkraft. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Hur stor är tyngdkraften på viktmagasinet? Svara i N.",
+        "t": "<p>Ett viktmagasin i en träningsmaskin har massan 35 kg. Använd g = 9,82 m/s².</p><svg height=\"309\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"43.800 5.400 352.200 217.800\"><line x1=\"60\" y1=\"20\" x2=\"380\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"3.25\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3.9\" stroke-linecap=\"square\"/><line x1=\"60\" y1=\"210\" x2=\"380\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"20\" x2=\"230\" y2=\"18\" stroke=\"#2B2527\" stroke-width=\"2.08\" stroke-linecap=\"square\"/><circle cx=\"230\" cy=\"48\" r=\"30\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><circle cx=\"230\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><line x1=\"200\" y1=\"48\" x2=\"200\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"2.34\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.34\" stroke-linecap=\"square\"/><rect x=\"164\" y=\"108\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><rect x=\"164\" y=\"128\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><rect x=\"164\" y=\"148\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><rect x=\"164\" y=\"168\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><text x=\"200\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.5\" font-weight=\"600\" fill=\"#2B2527\">35 kg</text><rect x=\"242\" y=\"150\" width=\"36\" height=\"10\" rx=\"4\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"260\" y1=\"168\" x2=\"260\" y2=\"186\" stroke=\"#B43123\" stroke-width=\"2.99\" stroke-linecap=\"round\"/><polygon points=\"260,196 255.4,186 264.6,186\" fill=\"#B43123\"/><text x=\"274\" y=\"190\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"14.1\" font-weight=\"400\" fill=\"#5C575E\">handtag</text><text x=\"276\" y=\"34\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"14.1\" font-weight=\"400\" fill=\"#5C575E\">trissa</text></svg><p>Hur stor är tyngdkraften på viktmagasinet? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=35\\cdot 9{,}82\\]</div></div></li></ol><p class=\"facit-svar\">Svaret är 343,7 N.</p></div>",
         "ledtrad": "<p>Hur beräknas tyngdkraften från massan?</p>",
         "niva": "E",
@@ -40684,13 +40685,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Oskar skjuter en 43 kg tung låda med konstant fart på plant golv med kraften 210 N.</p><p>Beräkna friktionstalet.</p>",
+        "fraga": "Hur stort är glidfriktionstalet mellan lådan och golvet?",
+        "t": "<p>Oskar skjuter en låda på 43 kg över ett vågrätt golv. Lådan har konstant fart och Oskars vågräta kraft är 210 N. Använd g = 9,82 m/s².</p><p>Hur stort är glidfriktionstalet mellan lådan och golvet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\mu=\\dfrac{210}{43\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\)</p></div>",
         "ledtrad": "<p>Konstant fart: friktionen är lika stor som skjutkraften.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -40788,19 +40789,19 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort är friktionstalet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p><p>Hur stort är friktionstalet?</p>",
+        "fraga": "Hur stort är glidfriktionstalet mellan lådan och golvet?",
+        "t": "<p>En låda på 120 kg dras över ett vågrätt golv med konstant fart. Den vågräta dragkraften är 300 N. Använd g = 9,82 m/s².</p><p>Hur stort är glidfriktionstalet mellan lådan och golvet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\mu=\\dfrac{300}{120\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25\\)</p></div>",
         "ledtrad": "<p>Friktionen är lika stor som dragkraften.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken dragkraft krävs om lådans massa fördubblas?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda med massan 120 kg dras med konstant fart på plant underlag med dragkraften 300 N.</p><p>Vilken dragkraft krävs om lådans massa fördubblas?</p>",
+        "fraga": "Hur stor dragkraft behövs nu för konstant fart? Svara i N.",
+        "t": "<p>En låda dras med konstant fart över ett vågrätt golv. Den vågräta dragkraften är 300 N. Lådans massa fördubblas och glidfriktionstalet är oförändrat.</p><p>Hur stor dragkraft behövs nu för konstant fart? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dubbel normalkraft ger dubbel friktion.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) N</p></div>",
         "ledtrad": "<p>\\(F_{fr}\\sim F_N\\).</p>",
         "niva": "E",
@@ -40832,7 +40833,7 @@ window.BANK = [
     "niva": "E",
     "typ": "flytta kylskåp",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett kylskåp har massan 91,0 kg och friktionstalet mot golvet är 0,60. Vilken är den minsta vågräta kraft som behövs för att flytta det?</p>",
+    "t": "<p>Ett kylskåp på 91,0 kg står på ett vågrätt golv. Vilofriktionstalet är 0,60. Använd g = 9,82 m/s².</p><p>Hur stor vågrät kraft behövs precis för att kylskåpet ska börja glida? Svara i N.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\mu mg=0{,}60\\cdot91{,}0\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(536\\) N</p></div>",
     "id": "4.520",
     "miniräknare": true,
@@ -40848,7 +40849,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "friktion__vilo_och_glidfriktion",
     "arbetsinsats": 1,
@@ -40860,7 +40861,7 @@ window.BANK = [
     "niva": "E",
     "typ": "friktionstal för spis",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En spis med massan 65 kg börjar precis glida när man drar med 450 N. Beräkna friktionstalet.</p>",
+    "t": "<p>En spis på 65 kg står på ett vågrätt golv. När den vågräta dragkraften når 450 N börjar spisen precis glida. Använd g = 9,82 m/s².</p><p>Hur stort är vilofriktionstalet mellan spisen och golvet?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\mu=\\dfrac{450}{65\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}70\\) </p></div>",
     "id": "4.521",
     "miniräknare": true,
@@ -40876,7 +40877,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(\\mu=\\dfrac{F}{mg}\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "friktion__vilo_och_glidfriktion",
     "arbetsinsats": 1,
     "spel": true
@@ -41040,40 +41041,40 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Klossen med massan 1,97 kg kräver 9,2 N. Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p><p>Klossen med massan 1,97 kg kräver 9,2 N. Bestäm friktionstalet.</p>",
+        "fraga": "Hur stort är glidfriktionstalet?",
+        "t": "<p>En kloss på 1,97 kg dras med konstant fart över ett vågrätt bord. Den vågräta dragkraften är 9,2 N. Använd g = 9,82 m/s².</p><p>Hur stort är glidfriktionstalet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\mu=\\dfrac{9{,}2}{1{,}97\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}48\\)</p></div>",
         "ledtrad": "<p>\\(\\mu=\\dfrac F{mg}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "En kloss med massan 8,8 kg har friktionstalet 0,25. Vilken kraft krävs?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p><p>En kloss med massan 8,8 kg har friktionstalet 0,25. Vilken kraft krävs?</p>",
+        "fraga": "Hur stor vågrät dragkraft behövs? Svara i N.",
+        "t": "<p>En kloss på 8,8 kg dras med konstant fart över ett vågrätt bord. Glidfriktionstalet är 0,25. Använd g = 9,82 m/s².</p><p>Hur stor vågrät dragkraft behövs? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=0{,}25\\cdot8{,}8\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\) N</p></div>",
         "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "En kloss med friktionstalet 0,67 kräver 75 N. Vilken massa har den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Tre klossar dras med konstant fart med en dynamometer.</p><p>En kloss med friktionstalet 0,67 kräver 75 N. Vilken massa har den?</p>",
+        "fraga": "Hur stor är klossens massa? Svara i kg.",
+        "t": "<p>En kloss dras med konstant fart över ett vågrätt bord. Glidfriktionstalet är 0,67 och den vågräta dragkraften är 75 N. Använd g = 9,82 m/s².</p><p>Hur stor är klossens massa? Svara i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\dfrac{75}{0{,}67\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) kg</p></div>",
         "ledtrad": "<p>\\(m=\\dfrac{F}{\\mu g}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Konstant fart: dragkraften är lika stor som friktionen.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "friktion__vilo_och_glidfriktion",
     "arbetsinsats": 2,
     "spel": true
@@ -41084,8 +41085,8 @@ window.BANK = [
     "niva": "C",
     "typ": "två personer skjuter en packlår",
     "poang": "(3/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p><ol type=\"a\"><li>Hur stor är Oscars kraft?</li><li>Vilken acceleration får lådan när bara Pelle skjuter?</li><li>Vilken acceleration får lådan när båda skjuter åt samma håll?</li><li>De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=0{,}35\\cdot120\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(412\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{540-412}{120}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\) m/s²</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{540+412-412}{120}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\) m/s²</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Nettokraften \\(540-412=128\\) N är mindre än största friktionen, så lådan står still och friktionen är 128 N.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(128\\) N</p></li></ol></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda på 120 kg står på ett vågrätt golv. Friktionstalet är 0,35, både när lådan står stilla och när den glider. Oscars största vågräta kraft är precis tillräcklig för konstant fart när lådan glider. Pelle kan skjuta med 540 N.</p><ol type=\"a\"><li>Hur stor är Oscars kraft?</li><li>Vilken acceleration får lådan när bara Pelle skjuter?</li><li>Vilken acceleration får lådan när båda skjuter åt samma håll?</li><li>De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Konstant fart betyder att Oscars kraft är lika stor som friktionskraften. Normalkraften på vågrätt golv är lika stor som tyngdkraften.</p></li><li><div class=\"facit-matte\">\\[F=\\mu mg=0{,}35\\cdot120\\cdot9{,}82=412{,}44\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 412 N.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dra bort friktionen från Pelles kraft. Dividera sedan med massan.</p></li><li><div class=\"facit-matte\">\\[a=\\frac{540-412}{120}\\approx1{,}07\\,\\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1,1 m/s².</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lägg ihop personernas krafter och dra bort friktionen.</p></li><li><div class=\"facit-matte\">\\[a=\\frac{412+540-412}{120}=4{,}5\\,\\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,5 m/s².</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nettokraften \\(540-412=128\\) N är mindre än största friktionen, så lådan står still och friktionen är 128 N.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(128\\) N</p></div></div></div>",
     "id": "4.527",
     "miniräknare": true,
     "geogebra": false,
@@ -41128,17 +41129,17 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda på 120 kg står på ett vågrätt golv. Friktionstalet är 0,35, både när lådan står stilla och när den glider. Oscars största vågräta kraft är precis tillräcklig för konstant fart när lådan glider. Pelle kan skjuta med 540 N.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är Oscars kraft?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p><p>Hur stor är Oscars kraft?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=0{,}35\\cdot120\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(412\\) N</p></div>",
-        "ledtrad": "<p>Konstant fart.</p>",
+        "fraga": "Hur stor är Oscars kraft på lådan? Svara i N.",
+        "t": "<p>Oscar skjuter en låda på 120 kg med konstant fart över ett vågrätt golv. Glidfriktionstalet är 0,35 och Oscars kraft är vågrät. Använd g = 9,82 m/s².</p><p>Hur stor är Oscars kraft på lådan? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Konstant fart betyder att Oscars kraft är lika stor som friktionskraften. Normalkraften på vågrätt golv är lika stor som tyngdkraften.</p></li><li><div class=\"facit-matte\">\\[F=\\mu mg=0{,}35\\cdot120\\cdot9{,}82=412{,}44\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 412 N.</p></div>",
+        "ledtrad": "<p>Jämför dragkraften med friktionskraften vid konstant fart.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -41166,7 +41167,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En packlår på 120 kg står på ett golv med friktionstalet 0,35. Oscar kan skjuta med högst så stor kraft att lådan precis rör sig med konstant fart. Pelle kan skjuta med 540 N.</p>Oscar skjuter med 412 N.<p>De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En låda på 120 kg står på ett vågrätt golv. Friktionstalet är 0,35, både när lådan står stilla och när den glider. Oscars största vågräta kraft är precis tillräcklig för konstant fart när lådan glider. Pelle kan skjuta med 540 N.</p>Oscar skjuter med 412 N.<p>De skjuter åt var sitt håll med full kraft. Hur stor är friktionskraften?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nettokraften \\(540-412=128\\) N är mindre än största friktionen, så lådan står still och friktionen är 128 N.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(128\\) N</p></div>",
         "ledtrad": "<p>Räcker nettokraften för att rubba lådan?</p>",
         "niva": "C",
@@ -41324,8 +41325,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm friktionskraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En konståkerska (51 kg) glider på en skridsko med retardationen 0,75 m/s².</p><p>Bestäm friktionskraften.</p>",
+        "fraga": "Hur stor är friktionskraften? Svara i N.",
+        "t": "<p>En konståkare på 51 kg glider på vågrät is. Farten minskar med 0,75 m/s varje sekund på grund av friktion.</p><p>Hur stor är friktionskraften? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=ma=51\\cdot0{,}75\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(38\\) N</p></div>",
         "ledtrad": "<p>Friktionen är den enda vågräta kraften.</p>",
         "niva": "E",
@@ -42038,8 +42039,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är normalkraften när blocket ligger i vila utan yttre kraft?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett isblock (25,0 kg) på friktionsfri is påverkas av kraften 60,0 N. Först trycker Nils snett nedåt 25,0° under vågrätt, sedan drar han snett uppåt 25,0° över vågrätt.</p><p>Hur stor är normalkraften när blocket ligger i vila utan yttre kraft?</p>",
+        "fraga": "Hur stor är normalkraften? Svara i N.",
+        "t": "<p>Ett isblock på 25,0 kg ligger stilla på vågrät is. Bara tyngdkraften och isens normalkraft verkar på blocket. Använd g = 9,82 m/s².</p><p>Hur stor är normalkraften? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_N=mg=25{,}0\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(246\\) N</p></div>",
         "ledtrad": "<p>\\(F_N=mg\\).</p>",
         "niva": "E",
@@ -42207,13 +42208,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm friktionskraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Kim skjuter en gräsklippare (14,0 kg) med konstant fart med kraften 88 N riktad 45° snett nedåt.</p><p>Bestäm friktionskraften.</p>",
+        "fraga": "Hur stor är friktionskraften som bromsar gräsklipparen? Svara i N.",
+        "t": "<p>Kim skjuter en gräsklippare med konstant fart över vågrät mark. Kraften är 88 N längs handtaget, som lutar 45° mot marken.</p><p>Hur stor är friktionskraften som bromsar gräsklipparen? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_{fr}=88\\cos45^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(62\\) N</p></div>",
         "ledtrad": "<p>Konstant fart.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -42783,7 +42784,7 @@ window.BANK = [
         "ledtrad": "<p>Största vilofriktionen är 35,0 N.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -42848,29 +42849,29 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor vågrät kraft krävs för att få släden att börja röra sig?",
-        "t": "<p>En flicka (tyngd 250 N) sitter i en släde (tyngd 200 N). Vilofriktionstalet är 0,18 och glidfriktionstalet 0,15.</p><p>Hur stor vågrät kraft krävs för att få släden att börja röra sig?</p>",
+        "fraga": "Hur stor vågrät kraft behövs precis för att få släden att börja glida? Svara i N.",
+        "t": "<p>En flicka med tyngdkraften 250 N sitter på en släde med tyngdkraften 200 N. Släden står på vågrät mark och vilofriktionstalet är 0,18.</p><p>Hur stor vågrät kraft behövs precis för att få släden att börja glida? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=0{,}18\\cdot450\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(81\\) N</p></div>",
         "ledtrad": "<p>Använd vilofriktionstalet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor kraft krävs för konstant fart?",
-        "t": "<p>En flicka (tyngd 250 N) sitter i en släde (tyngd 200 N). Vilofriktionstalet är 0,18 och glidfriktionstalet 0,15.</p><p>Hur stor kraft krävs för konstant fart?</p>",
+        "fraga": "Hur stor vågrät dragkraft behövs för konstant fart? Svara i N.",
+        "t": "<p>En flicka med tyngdkraften 250 N sitter på en släde med tyngdkraften 200 N. Släden glider på vågrät mark och glidfriktionstalet är 0,15.</p><p>Hur stor vågrät dragkraft behövs för konstant fart? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=0{,}15\\cdot450\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(68\\) N</p></div>",
         "ledtrad": "<p>Använd glidfriktionstalet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Normalkraften är den totala tyngden.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "friktion__vilo_och_glidfriktion",
     "arbetsinsats": 2,
     "spel": true
@@ -43136,8 +43137,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tyngdkraften på hela ballongen (totalt 4,0 kg) före ballastsläppet. Svara i N. Avrunda vid behov till två decimaler.",
-        "t": "<p>En väderballong med utrustning och ballast har totalmassan 4,0 kg. Lyftkraften antas vara konstant 52 N. Bortse från luftmotstånd under de korta förlopp som studeras.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"397\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"84.343 0.000 250.686 262.000\"><ellipse cx=\"150\" cy=\"88\" rx=\"54\" ry=\"60\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 132 143 L 150 168 L 168 143\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"126\" y1=\"172\" x2=\"174\" y2=\"172\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><rect x=\"114\" y=\"172\" width=\"72\" height=\"34\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">3,5 kg</text><line x1=\"180\" y1=\"200\" x2=\"190\" y2=\"206\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"200\" x2=\"208\" y2=\"206\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><polygon points=\"186,206 212,206 216,234 182,234\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"218\" y1=\"222\" x2=\"250\" y2=\"230\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"255\" y=\"234\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">ballast 0,50 kg</text><line x1=\"150\" y1=\"82\" x2=\"150\" y2=\"36.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"150,26 154.8,36.5 145.2,36.5\" fill=\"#B43123\"/><text x=\"150\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 52 N</text><line x1=\"150\" y1=\"206\" x2=\"150\" y2=\"229.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"150,240 145.2,229.5 154.8,229.5\" fill=\"#B43123\"/><text x=\"143.1\" y=\"256\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></svg></span><p>Bestäm tyngdkraften på hela ballongen (totalt 4,0 kg) före ballastsläppet. Svara i N. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Hur stor är tyngdkraften på ballongen med utrustning? Svara i N.",
+        "t": "<p>En väderballong med utrustning har den sammanlagda massan 4,0 kg. Använd g = 9,82 m/s².</p><svg height=\"397\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"84.343 0.000 250.686 262.000\"><ellipse cx=\"150\" cy=\"88\" rx=\"54\" ry=\"60\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 132 143 L 150 168 L 168 143\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"126\" y1=\"172\" x2=\"174\" y2=\"172\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><rect x=\"114\" y=\"172\" width=\"72\" height=\"34\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">3,5 kg</text><line x1=\"180\" y1=\"200\" x2=\"190\" y2=\"206\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"200\" x2=\"208\" y2=\"206\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><polygon points=\"186,206 212,206 216,234 182,234\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"218\" y1=\"222\" x2=\"250\" y2=\"230\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"255\" y=\"234\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">ballast 0,50 kg</text><line x1=\"150\" y1=\"82\" x2=\"150\" y2=\"36.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"150,26 154.8,36.5 145.2,36.5\" fill=\"#B43123\"/><text x=\"150\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 52 N</text><line x1=\"150\" y1=\"206\" x2=\"150\" y2=\"229.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"150,240 145.2,229.5 154.8,229.5\" fill=\"#B43123\"/><text x=\"143.1\" y=\"256\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></svg><p>Hur stor är tyngdkraften på ballongen med utrustning? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Före släppet är hela massan 4,0 kg (inklusive ballasten).</p></li><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=4{,}0\\cdot 9{,}82\\]</div></div></li></ol><p class=\"facit-svar\">Svaret är 39,28 N.</p></div>",
         "ledtrad": "<p>Före släppet hänger ballasten kvar. Vilken massa har hela ballongen då?</p>",
         "niva": "E",
@@ -43350,8 +43351,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Efter hur lång tid har klossarna farten 4,5 m/s från vila?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kraft på 160 N drar en kloss med massan 20 kg, som via ett rep drar en kloss med massan 10 kg. Friktionstalet är 0,52.</p>Accelerationen är 0,227 m/s².<p>Efter hur lång tid har klossarna farten 4,5 m/s från vila?</p>",
+        "fraga": "Hur lång tid tar det att nå farten 4,5 m/s? Svara i s.",
+        "t": "<p>Två klossar startar från vila och accelererar med 0,227 m/s².</p><p>Hur lång tid tar det att nå farten 4,5 m/s? Svara i s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{4{,}5}{a}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) s</p></div>",
         "ledtrad": "<p>\\(v=at\\).</p>",
         "niva": "E",
@@ -43513,13 +43514,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken acceleration får en lättrullad vagn?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>Ett föremål med massan 3,50 kg påverkas av 11,2 N framåt och 4,9 N bakåt.</p><p>Vilken acceleration får en lättrullad vagn?</p>",
+        "fraga": "Vilken acceleration får vagnen? Svara i m/s².",
+        "t": "<p>En vagn på 3,50 kg påverkas av kraften 11,2 N framåt och kraften 4,9 N bakåt. Inga andra vågräta krafter verkar.</p><p>Vilken acceleration får vagnen? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{11{,}2-4{,}9}{3{,}50}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\) m/s²</p></div>",
         "ledtrad": "<p>Newtons andra lag.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -43693,7 +43694,7 @@ window.BANK = [
         "ledtrad": "<p>Hela systemet har massan 13 kg.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -44204,13 +44205,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm accelerationen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Friktionskraften är högst \\(F_{fr}=\\mu F_N\\).</p><p>En kloss (4,0 kg) på ett bord är förbunden via en trissa med en hängande vikt (1,0 kg). Vikten faller 0,75 m på 2,0 s från vila.</p><p>Bestäm accelerationen.</p>",
+        "fraga": "Hur stor är accelerationen? Svara i m/s².",
+        "t": "<p>En vikt börjar falla från vila och faller 0,75 m på 2,0 s. Accelerationen är konstant.</p><p>Hur stor är accelerationen? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{2s}{t^2}=\\dfrac{1{,}5}{4{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}38\\) m/s²</p></div>",
         "ledtrad": "<p>\\(s=\\dfrac{at^2}2\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -46837,7 +46838,7 @@ window.BANK = [
     "niva": "E",
     "typ": "gående person",
     "poang": "(2/0/0)",
-    "t": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den resulterande kraften på honom är 25 N vågrätt.</p><ol type=\"a\"><li>Bestäm Pelles acceleration.</li><li>Vilken fart har Pelle efter 1,50 s?</li></ol>",
+    "t": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den sammanlagda kraften på honom är konstant, 25 N vågrätt.</p><ol type=\"a\"><li>Bestäm Pelles acceleration.</li><li>Vilken fart har Pelle efter 1,50 s?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{25}{86}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}29\\) m/s²</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=at=0{,}29\\cdot1{,}50\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}44\\) m/s</p></li></ol></div>",
     "id": "4.678",
     "miniräknare": true,
@@ -46871,12 +46872,12 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den resulterande kraften på honom är 25 N vågrätt.</p>",
+    "spelIntro": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den sammanlagda kraften på honom är konstant, 25 N vågrätt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm Pelles acceleration.",
-        "t": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den resulterande kraften på honom är 25 N vågrätt.</p><p>Bestäm Pelles acceleration.</p>",
+        "fraga": "Vilken acceleration får Pelle? Svara i m/s².",
+        "t": "<p>Pelle har massan 86 kg. Den sammanlagda kraften på honom är 25 N framåt.</p><p>Vilken acceleration får Pelle? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{25}{86}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}29\\) m/s²</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -46886,8 +46887,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart har Pelle efter 1,50 s?",
-        "t": "<p>Pelle (86 kg) står stilla och börjar plötsligt gå framåt. Den resulterande kraften på honom är 25 N vågrätt.</p>Accelerationen är 0,29 m/s².<p>Vilken fart har Pelle efter 1,50 s?</p>",
+        "fraga": "Vilken fart har han efter 1,50 s? Svara i m/s.",
+        "t": "<p>Pelle börjar gå från vila. Hans acceleration är konstant, 0,29 m/s² framåt.</p><p>Vilken fart har han efter 1,50 s? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=at=0{,}29\\cdot1{,}50\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}44\\) m/s</p></div>",
         "ledtrad": "<p>\\(v=v_0+at\\).</p>",
         "niva": "E",
@@ -46946,8 +46947,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm accelerationen.",
-        "t": "<p>En cyklist (110 kg inklusive cykel) kör med farten 15 m/s på en vågrät väg och trampar extra under 8,0 s. Under denna tid är den resulterande kraften 32 N framåt.</p><p>Bestäm accelerationen.</p>",
+        "fraga": "Vilken acceleration får cyklisten? Svara i m/s².",
+        "t": "<p>En cyklist och cykel har tillsammans massan 110 kg. Den sammanlagda kraften är 32 N framåt.</p><p>Vilken acceleration får cyklisten? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{32}{110}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}29\\) m/s²</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -46957,8 +46958,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart har cyklisten efter de 8,0 s?",
-        "t": "<p>En cyklist (110 kg inklusive cykel) kör med farten 15 m/s på en vågrät väg och trampar extra under 8,0 s. Under denna tid är den resulterande kraften 32 N framåt.</p>Accelerationen är 0,29 m/s².<p>Vilken fart har cyklisten efter de 8,0 s?</p>",
+        "fraga": "Vilken fart har cyklisten efteråt? Svara i m/s.",
+        "t": "<p>En cyklist har farten 15 m/s och accelererar framåt med konstant acceleration 0,29 m/s² i 8,0 s.</p><p>Vilken fart har cyklisten efteråt? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=15+0{,}29\\cdot8{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) m/s</p></div>",
         "ledtrad": "<p>\\(v=v_0+at\\).</p>",
         "niva": "E",
@@ -47050,7 +47051,7 @@ window.BANK = [
     "niva": "C",
     "typ": "fotbollsspark",
     "poang": "(2/2/0)",
-    "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p><ol type=\"a\"><li>Vilken acceleration får bollen under sparken?</li><li>Vilken fart lämnar bollen foten med?</li><li>Efter hur lång tid stannar bollen?</li><li>Hur stor är friktionskraften på bollen när den rullar?</li></ol>",
+    "t": "<p>En boll (400 g) ligger stilla. Under Manuels spark är den sammanlagda kraften konstant, 250 N framåt under 22 ms. Bollen glider sedan längs marken och stannar efter 45 m. Bortse från bollens rotation. Den bromsande friktionskraften är konstant.</p><ol type=\"a\"><li>Vilken acceleration får bollen under sparken?</li><li>Vilken fart lämnar bollen foten med?</li><li>Efter hur lång tid stannar bollen?</li><li>Hur stor är friktionskraften på bollen när den glider?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{250}{0{,}400}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(625\\) m/s²</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=625\\cdot0{,}022\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelfarten är \\(\\dfrac{13{,}75}{2}\\): \\(t=\\dfrac{45}{6{,}88}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}5\\) s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{13{,}75^2}{2\\cdot45}\\],</div></li><li><div class=\"facit-matte\">\\[F=0{,}400a\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}84\\) N</p></li></ol></div>",
     "id": "4.681",
     "miniräknare": true,
@@ -47094,12 +47095,12 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p>",
+    "spelIntro": "<p>En boll (400 g) ligger stilla. Under Manuels spark är den sammanlagda kraften konstant, 250 N framåt under 22 ms. Bollen glider sedan längs marken och stannar efter 45 m. Bortse från bollens rotation. Den bromsande friktionskraften är konstant.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken acceleration får bollen under sparken?",
-        "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p><p>Vilken acceleration får bollen under sparken?</p>",
+        "fraga": "Vilken acceleration får bollen under sparken? Svara i m/s².",
+        "t": "<p>En boll på 400 g ligger stilla. Under en spark är den sammanlagda kraften på bollen 250 N framåt.</p><p>Vilken acceleration får bollen under sparken? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{250}{0{,}400}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(625\\) m/s²</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -47109,8 +47110,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart lämnar bollen foten med?",
-        "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p>Accelerationen under sparken är 625 m/s².<p>Vilken fart lämnar bollen foten med?</p>",
+        "fraga": "Vilken fart har bollen efter sparken? Svara i m/s.",
+        "t": "<p>En boll ligger stilla och får den konstanta accelerationen 625 m/s² under en spark som varar 22 ms.</p><p>Vilken fart har bollen efter sparken? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=625\\cdot0{,}022\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) m/s</p></div>",
         "ledtrad": "<p>\\(v=at\\).</p>",
         "niva": "E",
@@ -47120,8 +47121,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Efter hur lång tid stannar bollen?",
-        "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p>Bollen lämnar foten med 13,75 m/s.<p>Efter hur lång tid stannar bollen?</p>",
+        "fraga": "Hur lång tid tar inbromsningen? Svara i s.",
+        "t": "<p>En boll glider med farten 13,75 m/s och bromsas till vila på 45 m. Accelerationen är konstant. Bortse från bollens rotation.</p><p>Hur lång tid tar inbromsningen? Svara i s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelfarten är \\(\\dfrac{13{,}75}{2}\\): \\(t=\\dfrac{45}{6{,}88}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}5\\) s</p></div>",
         "ledtrad": "<p>Likformig retardation: medelfarten är halva startfarten.</p>",
         "niva": "C",
@@ -47131,8 +47132,8 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor är friktionskraften på bollen när den rullar?",
-        "t": "<p>En boll (400 g) ligger stilla. Manuel sparkar den med den resulterande kraften 250 N under 22 ms. Bollen rullar sedan längs marken och stannar efter 45 m.</p>Bollen lämnar foten med 13,75 m/s.<p>Hur stor är friktionskraften på bollen när den rullar?</p>",
+        "fraga": "Hur stor är friktionskraften? Svara i N.",
+        "t": "<p>En boll på 400 g glider med farten 13,75 m/s och stannar efter 45 m. Den bromsande friktionskraften är konstant. Bortse från bollens rotation.</p><p>Hur stor är friktionskraften? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{13{,}75^2}{2\\cdot45}\\],</div></li><li><div class=\"facit-matte\">\\[F=0{,}400a\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}84\\) N</p></div>",
         "ledtrad": "<p>Friktionen är den resulterande kraften.</p>",
         "niva": "C",
@@ -47398,7 +47399,7 @@ window.BANK = [
     "niva": "E",
     "typ": "stridsflygplan",
     "poang": "(3/0/0)",
-    "t": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p><ol type=\"a\"><li>Bestäm planets massa.</li><li>Bestäm topphastigheten.</li><li>Hur långt har planet färdats då?</li></ol>",
+    "t": "<p>Ett flygplan har två motorer som vardera ger kraften 156 kN framåt. Bortse från andra vågräta krafter. Med båda motorerna får planet accelerationen 10,6 m/s². Planet har konstant acceleration under 56 s. Anta att planet startar från vila.</p><ol type=\"a\"><li>Bestäm planets massa.</li><li>Bestäm farten efter 56 s.</li><li>Hur långt har planet färdats då?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\dfrac{2\\cdot156\\cdot10^3}{10{,}6}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\,434\\) kg</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=10{,}6\\cdot56\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(594\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{10{,}6\\cdot56^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\,621\\) m</p></li></ol></div>",
     "id": "4.685",
     "miniräknare": true,
@@ -47437,12 +47438,12 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p>",
+    "spelIntro": "<p>Ett flygplan har två motorer som vardera ger kraften 156 kN framåt. Bortse från andra vågräta krafter. Med båda motorerna får planet accelerationen 10,6 m/s². Planet har konstant acceleration under 56 s. Anta att planet startar från vila.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm planets massa.",
-        "t": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p><p>Bestäm planets massa.</p>",
+        "fraga": "Hur stor är planets massa? Svara i kg.",
+        "t": "<p>Ett flygplans två motorer ger tillsammans kraften 312 kN framåt. Accelerationen är 10,6 m/s². Bortse från andra vågräta krafter.</p><p>Hur stor är planets massa? Svara i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\dfrac{2\\cdot156\\cdot10^3}{10{,}6}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\,434\\) kg</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -47452,8 +47453,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm topphastigheten.",
-        "t": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p><p>Bestäm topphastigheten.</p>",
+        "fraga": "Vilken fart har planet efter 56 s? Svara i m/s.",
+        "t": "<p>Ett flygplan startar från vila och har konstant acceleration 10,6 m/s² i 56 s.</p><p>Vilken fart har planet efter 56 s? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=10{,}6\\cdot56\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(594\\) m/s</p></div>",
         "ledtrad": "<p>\\(v=at\\).</p>",
         "niva": "E",
@@ -47463,8 +47464,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur långt har planet färdats då?",
-        "t": "<p>Ett stridsflygplan har två motorer som ger var sin resulterande kraft på 156 kN. Med båda motorerna får planet accelerationen 10,6 m/s². Efter 56 s med denna acceleration når det topphastigheten. Anta att planet startar från vila.</p><p>Hur långt har planet färdats då?</p>",
+        "fraga": "Hur långt färdas planet under denna tid? Svara i m.",
+        "t": "<p>Ett flygplan startar från vila och har konstant acceleration 10,6 m/s² i 56 s.</p><p>Hur långt färdas planet under denna tid? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{10{,}6\\cdot56^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\,621\\) m</p></div>",
         "ledtrad": "<p>\\(s=\\dfrac{at^2}{2}\\).</p>",
         "niva": "E",
@@ -47572,7 +47573,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bil som kraschar i bergvägg",
     "poang": "(2/1/0)",
-    "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p><ol type=\"a\"><li>Bestäm retardationens storlek.</li><li>Hur lång tid tar inbromsningen?</li><li>Hur lång är stoppsträckan?</li></ol>",
+    "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Under kollisionen bromsas bilen av en konstant sammanlagd kraft på 110 kN.</p><ol type=\"a\"><li>Bestäm retardationens storlek.</li><li>Hur lång tid tar inbromsningen?</li><li>Hur lång är stoppsträckan?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{110\\cdot10^3}{1\\,200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(92\\) m/s²</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{27{,}8}{91{,}7}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\) s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{27{,}8^2}{2\\cdot91{,}7}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\) m</p></li></ol></div>",
     "id": "4.687",
     "miniräknare": true,
@@ -47611,12 +47612,12 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p>",
+    "spelIntro": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Under kollisionen bromsas bilen av en konstant sammanlagd kraft på 110 kN.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm retardationens storlek.",
-        "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p><p>Bestäm retardationens storlek.</p>",
+        "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Under kollisionen bromsas bilen av en konstant sammanlagd kraft på 110 kN.</p><p>Bestäm retardationens storlek.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{110\\cdot10^3}{1\\,200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(92\\) m/s²</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -47626,8 +47627,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar inbromsningen?",
-        "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p>Retardationen är 91,7 m/s².<p>Hur lång tid tar inbromsningen?</p>",
+        "fraga": "Hur lång tid tar inbromsningen? Svara i s.",
+        "t": "<p>En bil bromsas från 100 km/h till vila. Farten minskar med 91,7 m/s varje sekund.</p><p>Hur lång tid tar inbromsningen? Svara i s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{27{,}8}{91{,}7}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\) s</p></div>",
         "ledtrad": "<p>\\(v=at\\).</p>",
         "niva": "E",
@@ -47637,8 +47638,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur lång är stoppsträckan?",
-        "t": "<p>En bil (1,2 ton) kör in i en bergvägg med farten 100 km/h och stannar. Den resulterande kraften under kollisionen är 110 kN.</p>Retardationen är 91,7 m/s².<p>Hur lång är stoppsträckan?</p>",
+        "fraga": "Hur lång är bromssträckan? Svara i m.",
+        "t": "<p>En bil bromsas från 100 km/h till vila med konstant acceleration. Farten minskar med 91,7 m/s varje sekund.</p><p>Hur lång är bromssträckan? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{27{,}8^2}{2\\cdot91{,}7}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\) m</p></div>",
         "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
         "niva": "C",
@@ -47659,7 +47660,7 @@ window.BANK = [
     "niva": "E",
     "typ": "person springer in i vägg",
     "poang": "(1/0/0)",
-    "t": "<p>En person (80 kg) springer in i en vägg med farten 4,5 m/s och stannar på 0,10 s. Hur stor är den resulterande kraften under kollisionen?</p>",
+    "t": "<p>En person på 80 kg springer med 4,5 m/s in i en vägg och stannar på 0,10 s.</p><p>Hur stor är den sammanlagda kraften på personen i genomsnitt under stoppet? Svara i N.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{4{,}5}{0{,}10}\\],</div></li><li><div class=\"facit-matte\">\\[F_R=80a\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,600\\) N</p></div>",
     "id": "4.688",
     "miniräknare": true,
@@ -47687,7 +47688,7 @@ window.BANK = [
     "niva": "C",
     "typ": "proton i accelerator",
     "poang": "(1/2/0)",
-    "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p><ol type=\"a\"><li>Bestäm protonens acceleration.</li><li>Hur lång tid är protonen i acceleratorn?</li><li>Vilken fart har protonen när den lämnar acceleratorn?</li></ol>",
+    "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av en konstant sammanlagd kraft på \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p><ol type=\"a\"><li>Bestäm protonens acceleration.</li><li>Hur lång tid är protonen i acceleratorn?</li><li>Vilken fart har protonen när den lämnar acceleratorn?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{1{,}2\\cdot10^{-17}}{1{,}67\\cdot10^{-27}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\cdot10^{9}\\) m/s²</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\sqrt{\\dfrac{2\\cdot3\\,200}{7{,}19\\cdot10^9}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00094\\) s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=at\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}8\\cdot10^{6}\\) m/s</p></li></ol></div>",
     "id": "4.689",
     "miniräknare": true,
@@ -47726,12 +47727,12 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p>",
+    "spelIntro": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av en konstant sammanlagd kraft på \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm protonens acceleration.",
-        "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p><p>Bestäm protonens acceleration.</p>",
+        "fraga": "Hur stor är protonens acceleration? Svara i m/s².",
+        "t": "<p>En proton har massan \\(1{,}67\\cdot10^{-27}\\) kg. Den påverkas av den sammanlagda kraften \\(1{,}2\\cdot10^{-17}\\) N.</p><p>Hur stor är protonens acceleration? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{1{,}2\\cdot10^{-17}}{1{,}67\\cdot10^{-27}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\cdot10^{9}\\) m/s²</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -47742,7 +47743,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur lång tid är protonen i acceleratorn?",
-        "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p>Accelerationen är \\(7{,}19\\cdot10^9\\) m/s².<p>Hur lång tid är protonen i acceleratorn?</p>",
+        "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av en konstant sammanlagd kraft på \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p>Accelerationen är \\(7{,}19\\cdot10^9\\) m/s².<p>Hur lång tid är protonen i acceleratorn?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\sqrt{\\dfrac{2\\cdot3\\,200}{7{,}19\\cdot10^9}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00094\\) s</p></div>",
         "ledtrad": "<p>\\(s=\\dfrac{at^2}{2}\\).</p>",
         "niva": "C",
@@ -47752,8 +47753,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vilken fart har protonen när den lämnar acceleratorn?",
-        "t": "<p>En proton (\\(1{,}67\\cdot10^{-27}\\) kg) startar från vila och påverkas av den resulterande kraften \\(1{,}2\\cdot10^{-17}\\) N genom en 3,2 km lång accelerator.</p>Accelerationen är \\(7{,}19\\cdot10^9\\) m/s² och tiden 0,943 ms.<p>Vilken fart har protonen när den lämnar acceleratorn?</p>",
+        "fraga": "Vilken fart har protonen efteråt? Svara i m/s.",
+        "t": "<p>En proton börjar röra sig från vila med konstant acceleration \\(7{,}19\\cdot10^9\\) m/s². Den accelererar i 0,943 ms.</p><p>Vilken fart har protonen efteråt? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=at\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}8\\cdot10^{6}\\) m/s</p></div>",
         "ledtrad": "<p>\\(v=at\\).</p>",
         "niva": "C",
@@ -47774,7 +47775,7 @@ window.BANK = [
     "niva": "E",
     "typ": "berg-och-dalbana med magnetbroms",
     "poang": "(1/0/0)",
-    "t": "<p>En vagn med åkare (5 500 kg) bromsas av magnetbromsar från 45 m/s till stillastående på 7,0 s. Hur stor är den resulterande kraften på vagnen?</p>",
+    "t": "<p>En vagn och åkare har tillsammans massan 5500 kg. Magnetbromsar minskar farten från 45 m/s till noll på 7,0 s.</p><p>Hur stor är den sammanlagda bromskraften i genomsnitt? Svara i N.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{45}{7{,}0}\\],</div></li><li><div class=\"facit-matte\">\\[F_R=5\\,500a\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\,357\\) N</p></div>",
     "id": "4.690",
     "miniräknare": true,
@@ -47873,7 +47874,7 @@ window.BANK = [
     "niva": "E",
     "typ": "hjärtat pumpar blod",
     "poang": "(1/0/0)",
-    "t": "<p>Vid ett hjärtslag ökar farten hos 20 g blod från 0,25 m/s till 0,35 m/s på 0,10 s. Hur stor är den resulterande kraften på blodet?</p>",
+    "t": "<p>20 g blod ökar farten från 0,25 m/s till 0,35 m/s på 0,10 s. Blodet rör sig i samma riktning hela tiden.</p><p>Hur stor är den sammanlagda kraften på blodet i genomsnitt? Svara i N.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(a=\\dfrac{0{,}10}{0{,}10}=1{,}0\\) m/s², \\(F_R=0{,}020\\cdot1{,}0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}020\\) N</p></div>",
     "id": "4.692",
     "miniräknare": true,
@@ -48097,7 +48098,7 @@ window.BANK = [
     "niva": "C",
     "typ": "inbromsning med 30g",
     "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En människa tål en acceleration på upp till \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p><ol type=\"a\"><li>Hur stor resulterande kraft verkar på föraren?</li><li>Hur lång blir bromssträckan?</li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>I en förenklad modell är bromsaccelerationen konstant och har storleken \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p><ol type=\"a\"><li>Hur stor resulterande kraft verkar på föraren?</li><li>Hur lång blir bromssträckan?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_R=68\\cdot30\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\,033\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(26{,}4\\) m/s.</p></li><li><div class=\"facit-matte\">\\[s=\\dfrac{26{,}4^2}{2\\cdot295}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) m</p></li></ol></div>",
     "id": "4.700",
     "miniräknare": true,
@@ -48131,12 +48132,12 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En människa tål en acceleration på upp till \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>I en förenklad modell är bromsaccelerationen konstant och har storleken \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor resulterande kraft verkar på föraren?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En människa tål en acceleration på upp till \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p><p>Hur stor resulterande kraft verkar på föraren?</p>",
+        "fraga": "Hur stor är den sammanlagda bromskraften på föraren? Svara i N.",
+        "t": "<p>En förare har massan 68 kg. Bromsaccelerationen har storleken 30g, där g = 9,82 m/s².</p><p>Hur stor är den sammanlagda bromskraften på föraren? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_R=68\\cdot30\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\,033\\) N</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -48146,8 +48147,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång blir bromssträckan?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En människa tål en acceleration på upp till \\(30g\\). En förare (68 kg) bromsar från 95 km/h till stillastående med retardationen \\(30g\\).</p><p>Hur lång blir bromssträckan?</p>",
+        "fraga": "Hur lång är bromssträckan? Svara i m.",
+        "t": "<p>En förare bromsas från 95 km/h till vila med konstant acceleration. Bromsaccelerationen har storleken 30g, där g = 9,82 m/s².</p><p>Hur lång är bromssträckan? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(26{,}4\\) m/s.</p></li><li><div class=\"facit-matte\">\\[s=\\dfrac{26{,}4^2}{2\\cdot295}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) m</p></div>",
         "ledtrad": "<p>\\(v^2-v_0^2=2as\\).</p>",
         "niva": "C",
@@ -48890,8 +48891,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bollen flyter stilla på ytan. Hur stor är lyftkraften då?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Pär håller en boll (300 g) vid botten av en bassäng. Vattnet ger bollen en lyftkraft på 15 N.</p><p>Bollen flyter stilla på ytan. Hur stor är lyftkraften då?</p>",
+        "fraga": "Hur stor är vattnets lyftkraft på bollen? Svara i N.",
+        "t": "<p>En boll på 300 g flyter stilla på vattenytan. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på bollen? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämvikt: \\(0{,}300\\cdot9{,}82\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) N</p></div>",
         "ledtrad": "<p>Jämvikt.</p>",
         "niva": "E",
@@ -48960,8 +48961,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm ballongens massa.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En heliumballong har tyngden 2,00 N. Lyftkraften från luften är 2,35 N. Ballongen hålls i ett snöre.</p><p>Bestäm ballongens massa.</p>",
+        "fraga": "Hur stor är ballongens massa? Svara i kg.",
+        "t": "<p>En heliumballong har tyngdkraften 2,00 N. Använd g = 9,82 m/s².</p><p>Hur stor är ballongens massa? Svara i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\dfrac{2{,}00}{9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}204\\) kg</p></div>",
         "ledtrad": "<p>\\(F_G=mg\\).</p>",
         "niva": "E",
@@ -49053,8 +49054,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den resulterande kraften.",
-        "t": "<p>En bil (1,75 ton) har accelerationen 3,00 m/s² vid en omkörning. Luftmotståndet är 1,2 kN och friktionen 350 N.</p><p>Bestäm den resulterande kraften.</p>",
+        "fraga": "Hur stor är den sammanlagda kraften på bilen? Svara i N.",
+        "t": "<p>En bil på 1,75 ton har accelerationen 3,00 m/s² framåt.</p><p>Hur stor är den sammanlagda kraften på bilen? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_R=1\\,750\\cdot3{,}00\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,250\\) N</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -49064,8 +49065,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är den drivande kraften?",
-        "t": "<p>En bil (1,75 ton) har accelerationen 3,00 m/s² vid en omkörning. Luftmotståndet är 1,2 kN och friktionen 350 N.</p>Den resulterande kraften är 5,25 kN.<p>Hur stor är den drivande kraften?</p>",
+        "fraga": "Hur stor är den drivande kraften framåt? Svara i N.",
+        "t": "<p>En bil på vågrät väg har den sammanlagda kraften 5,25 kN framåt. Luftmotståndet är 1,2 kN bakåt och en annan motståndskraft är 350 N bakåt.</p><p>Hur stor är den drivande kraften framåt? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=5\\,250+1\\,200+350\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\,800\\) N</p></div>",
         "ledtrad": "<p>Drivkraften måste också övervinna motstånden.</p>",
         "niva": "E",
@@ -49124,8 +49125,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm storleken på den resulterande kraften.",
-        "t": "<p>En bil (1,2 ton) retarderar med 1,5 m/s² vid ett trafikljus. Två bromsande krafter verkar: luftmotståndet 0,60 kN och friktionskraften \\(F_{fr}\\) från vägbanan.</p><p>Bestäm storleken på den resulterande kraften.</p>",
+        "fraga": "Hur stor är den sammanlagda bromskraften? Svara i N.",
+        "t": "<p>En bil på 1,2 ton bromsas så att farten minskar med 1,5 m/s varje sekund.</p><p>Hur stor är den sammanlagda bromskraften? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_R=1\\,200\\cdot1{,}5\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,800\\) N</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -49135,8 +49136,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm \\(F_{fr}\\).",
-        "t": "<p>En bil (1,2 ton) retarderar med 1,5 m/s² vid ett trafikljus. Två bromsande krafter verkar: luftmotståndet 0,60 kN och friktionskraften \\(F_{fr}\\) från vägbanan.</p>Den resulterande kraften är 1,8 kN.<p>Bestäm \\(F_{fr}\\).</p>",
+        "fraga": "Hur stor är friktionskraften från vägen? Svara i N.",
+        "t": "<p>En bil bromsas av luftmotstånd och friktion från vägen. Den sammanlagda bromskraften är 1,8 kN. Luftmotståndet är 0,60 kN.</p><p>Hur stor är friktionskraften från vägen? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_{fr}=1\\,800-600\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,200\\) N</p></div>",
         "ledtrad": "<p>Båda krafterna bromsar.</p>",
         "niva": "E",
@@ -49369,8 +49370,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "\\(0\\).",
-        "t": "<p>En fallskärmshoppare med massan 93,4 kg har tyngden 915 N. Bestäm luftmotståndet när accelerationen (positiv nedåt) är</p><p>\\(0\\).</p>",
+        "fraga": "Hur stor är luftmotståndskraften? Svara i N.",
+        "t": "<p>En fallskärmshoppare har tyngdkraften 915 N och faller med konstant fart.</p><p>Hur stor är luftmotståndskraften? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämvikt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(915\\) N</p></div>",
         "ledtrad": "<p>\\(F_R=ma\\).</p>",
         "niva": "E",
@@ -50596,7 +50597,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">x = 0,12 m ger</p><div class=\"facit-matte\">\\[E_{\\mathrm{f}}=\\frac{250\\cdot 0{,}12^{2}}{2}=1{,}8\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 1,8 J.</p></div>",
         "ledtrad": "<p>Vilken längdenhet passar k i N/m?</p>",
         "niva": "E",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -50895,7 +50896,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{f}}=\\frac{900\\cdot 0{,}18^{2}}{2}=14{,}58\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 14,58 J.</p></div>",
         "ledtrad": "<p>Mät deformationen från obelastad längd.</p>",
         "niva": "E",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -51186,8 +51187,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den totala rörelsemängden före stöten. Svara i kg·m/s. Svara med ett heltal.",
-        "t": "<p>En vagn på 6,0 kg rör sig åt höger med 4,0 m/s mot en stillastående vagn på 2,0 kg. De fastnar i varandra. Höger är positiv riktning.</p><p>Bestäm den totala rörelsemängden före stöten. Svara i kg·m/s. Svara med ett heltal.</p>",
+        "fraga": "Hur stor är vagnarnas sammanlagda rörelsemängd? Svara i kg·m/s. Svara med ett heltal.",
+        "t": "<p>En vagn på 6,0 kg rör sig åt höger med 4,0 m/s. En annan vagn står stilla. Höger är positiv riktning.</p><p>Hur stor är vagnarnas sammanlagda rörelsemängd? Svara i kg·m/s. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{\\mathrm{före}}=6{,}0\\cdot 4{,}0+2{,}0\\cdot 0=24\\, \\mathrm{kg\\,m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 24 kg·m/s.</p></div>",
         "ledtrad": "<p>Bidrar en stillastående vagn till rörelsemängden?</p>",
         "niva": "E",
@@ -51200,8 +51201,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den massa som rör sig tillsammans efter stöten. Svara i kg. Svara med ett heltal.",
-        "t": "<p>En vagn på 6,0 kg rör sig åt höger med 4,0 m/s mot en stillastående vagn på 2,0 kg. De fastnar i varandra. Höger är positiv riktning.</p><p>Bestäm den massa som rör sig tillsammans efter stöten. Svara i kg. Svara med ett heltal.</p>",
+        "fraga": "Hur stor är deras sammanlagda massa? Svara i kg. Svara med ett heltal.",
+        "t": "<p>Två vagnar med massorna 6,0 kg och 2,0 kg fastnar i varandra.</p><p>Hur stor är deras sammanlagda massa? Svara i kg. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Vagnarnas sammanlagda massa är</p><div class=\"facit-matte\">\\[6{,}0+2{,}0=8{,}0\\, \\mathrm{kg}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 8 kg.</p></div>",
         "ledtrad": "<p>Vad innebär det att vagnarna fastnar?</p>",
         "niva": "E",
@@ -51346,7 +51347,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{420}{30}=14\\, \\mathrm{m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 14 m/s.</p></div>",
         "ledtrad": "<p>Vilken storhet ska lösas ut ur p = mv?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -51523,7 +51524,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Lös ut farten ur rörelsemängdens definition.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "m/s",
@@ -51569,7 +51570,7 @@ window.BANK = [
     "t": "<p>En boll på 0,20 kg har rörelsemängdens storlek 3,0 kg·m/s.</p><p>Bestäm farten. Svara i m/s. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">p = mv ger</p><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{3{,}0}{0{,}20}=15\\, \\mathrm{m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 15 m/s.</p></div>",
     "niva": "E",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familj": "Rörelsemängd p = mv",
     "typ": "fart från rörelsemängd",
     "ledtrad": "<p>Vilken storhet behöver du lösa ut ur p = mv?</p>",
@@ -51675,7 +51676,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraften verkar i rörelseriktningen. Arbetet är kraft gånger sträcka.</p></li><li><div class=\"facit-matte\">\\[W=Fs=45\\cdot80=3600\\,\\mathrm J=3{,}6\\,\\mathrm{kJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,6 kJ.</p></div>",
         "ledtrad": "<p>Hur många joule är en kilojoule?</p>",
         "niva": "E",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -51759,12 +51760,12 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Maskin A utför 9000 J på 15 s. Bestäm effekten. Svara i W. Svara med ett heltal.",
-        "t": "<p>Tre maskiner arbetar med konstant effekt.</p><p>Maskin A utför 9000 J på 15 s. Bestäm effekten. Svara i W. Svara med ett heltal.</p>",
+        "fraga": "Hur stor är medeleffekten? Svara i W. Svara med ett heltal.",
+        "t": "<p>En maskin utför arbetet 9000 J på 15 s.</p><p>Hur stor är medeleffekten? Svara i W. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{W}{t}=\\frac{9000}{15}=600\\, \\mathrm{W}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 600 W.</p></div>",
         "ledtrad": "<p>Vilken storhet beskriver arbete per sekund?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -51773,12 +51774,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Maskin B lämnar 250 W under 40 s. Bestäm arbetet. Svara i J. Svara med ett heltal.",
-        "t": "<p>Tre maskiner arbetar med konstant effekt.</p><p>Maskin B lämnar 250 W under 40 s. Bestäm arbetet. Svara i J. Svara med ett heltal.</p>",
+        "fraga": "Hur stort arbete utför maskinen? Svara i J. Svara med ett heltal.",
+        "t": "<p>En maskin ger effekten 250 W under 40 s.</p><p>Hur stort arbete utför maskinen? Svara i J. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=P t=250\\cdot 40=10\\,000\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 10000 J.</p></div>",
         "ledtrad": "<p>Hur mycket arbete utförs under varje sekund?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -51787,12 +51788,12 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Maskin C lämnar 400 W. Hur lång tid tar arbetet 72 000 J? Svara i s. Svara med ett heltal.",
-        "t": "<p>Tre maskiner arbetar med konstant effekt.</p><p>Maskin C lämnar 400 W. Hur lång tid tar arbetet 72 000 J? Svara i s. Svara med ett heltal.</p>",
+        "fraga": "Hur lång tid tar det att utföra arbetet 72 000 J? Svara i s. Svara med ett heltal.",
+        "t": "<p>En maskin ger effekten 400 W.</p><p>Hur lång tid tar det att utföra arbetet 72 000 J? Svara i s. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=\\frac{W}{P}=\\frac{72\\,000}{400}=180\\, \\mathrm{s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 180 s.</p></div>",
         "ledtrad": "<p>Vilken storhet ska lösas ut ur sambandet mellan arbete, effekt och tid?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -52390,8 +52391,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm rörelsemängden före stöten. Svara i kg·m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En boll på 0,15 kg rör sig vågrätt åt höger med 20 m/s och återvänder efter en stöt åt vänster med 25 m/s. Kontakttiden är 8,0 ms. Höger är positiv riktning. Frågorna gäller vågräta storheter.</p><p>Bestäm rörelsemängden före stöten. Svara i kg·m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Vilken rörelsemängd har bollen? Svara i kg·m/s. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En boll på 0,15 kg rör sig vågrätt åt höger med 20 m/s. Höger är positiv riktning.</p><p>Vilken rörelsemängd har bollen? Svara i kg·m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{\\mathrm{före}}=0{,}15\\cdot 20=+3{,}0\\, \\mathrm{kg\\,m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 3 kg·m/s.</p></div>",
         "ledtrad": "<p>Vilket tecken har hastigheten före stöten?</p>",
         "niva": "E",
@@ -52404,8 +52405,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm rörelsemängden efter stöten. Svara i kg·m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En boll på 0,15 kg rör sig vågrätt åt höger med 20 m/s och återvänder efter en stöt åt vänster med 25 m/s. Kontakttiden är 8,0 ms. Höger är positiv riktning. Frågorna gäller vågräta storheter.</p><p>Bestäm rörelsemängden efter stöten. Svara i kg·m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Vilken rörelsemängd har bollen? Ange tecken och svara i kg·m/s. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En boll på 0,15 kg rör sig vågrätt åt vänster med 25 m/s. Höger är positiv riktning.</p><p>Vilken rörelsemängd har bollen? Ange tecken och svara i kg·m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{\\mathrm{efter}}=0{,}15\\cdot \\left(-25\\right)=-3{,}75\\, \\mathrm{kg\\,m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: -3,75 kg·m/s.</p></div>",
         "ledtrad": "<p>Vänster är den negativa riktningen.</p>",
         "niva": "E",
@@ -52470,7 +52471,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken storhet saknas i p = mv?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "kg",
@@ -52516,7 +52517,7 @@ window.BANK = [
     "t": "<p>En vagn har hastigheten −4,0 m/s och rörelsemängden −12 kg·m/s.</p><p>Bestäm massan. Svara i kg. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{p}{v}=\\frac{\\left(-12\\right)}{-4{,}0}=3{,}0\\, \\mathrm{kg}\\]</div></div></li><li><p>Massan är positiv; minustecknen beskriver riktningen.</p></li></ol><p class=\"facit-svar\">Svar: 3 kg.</p></div>",
     "niva": "E",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familj": "Rörelsemängd p = mv",
     "typ": "massa från rörelsemängd",
     "ledtrad": "<p>Rörelsemängden och hastigheten har samma riktning.</p>",
@@ -53232,7 +53233,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Verkningsgraden är nyttig effekt dividerad med tillförd effekt. Den elektriska effekten måste därför vara större.</p></li><li><div class=\"facit-matte\">\\[P_\\mathrm{el}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{3181{,}68}{0{,}78}\\approx4079{,}08\\,\\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4079,08 W.</p></div>",
         "ledtrad": "<p>Vilken effekt står i nämnaren när verkningsgraden beräknas?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -53357,8 +53358,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lägesenergin på 15 m höjd. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fågel på 0,80 kg sitter först 15 m över marken och flyger sedan upp till 30 m. Marken är nollnivå för lägesenergin. Räkna bara på arbetet mot tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lägesenergin på 15 m höjd. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stor är fågelns lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En fågel på 0,80 kg är 15 m över marken. Marken är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><p>Hur stor är fågelns lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}80\\cdot 9{,}82\\cdot 15=117{,}84\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 117,84 J.</p></div>",
         "ledtrad": "<p>Vilken höjd ska användas?</p>",
         "niva": "E",
@@ -53371,8 +53372,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm lägesenergin på 30 m höjd. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fågel på 0,80 kg sitter först 15 m över marken och flyger sedan upp till 30 m. Marken är nollnivå för lägesenergin. Räkna bara på arbetet mot tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lägesenergin på 30 m höjd. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stor är fågelns lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En fågel på 0,80 kg är 30 m över marken. Marken är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><p>Hur stor är fågelns lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}80\\cdot 9{,}82\\cdot 30=235{,}68\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 235,68 J.</p></div>",
         "ledtrad": "<p>Hur ändras lägesenergin när höjden fördubblas?</p>",
         "niva": "E",
@@ -53475,7 +53476,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{W}{s}=\\frac{600}{4{,}0}=150\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 150 N.</p></div>",
         "ledtrad": "<p>Hur löser du ut kraften?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -53490,7 +53491,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{2400}{300}=8\\, \\mathrm{m}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 8 m.</p></div>",
         "ledtrad": "<p>Hur löser du ut sträckan?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -53861,7 +53862,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{65\\cdot 8{,}0^{2}}{2}=2080 J=2{,}08\\, \\mathrm{kJ}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 2,08 kJ.</p></div>",
         "ledtrad": "<p>Vilken enhet får energin när kg och m/s används?</p>",
         "niva": "E",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -54277,8 +54278,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Uppskatta den lagrade elektriska energin. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En powerbank har laddningskapaciteten 10 000 mAh. Modellera cellspänningen som konstant 3,7 V under urladdningen. Använd E = UQ och 1 Ah = 3600 C.</p><p>Använd g = 9,82 m/s².</p><p>Uppskatta den lagrade elektriska energin. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur mycket elektrisk energi kan powerbanken lagra? Svara i kJ. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En powerbank har laddningskapaciteten 10 000 mAh och spänningen 3,7 V. Räkna spänningen som konstant. Använd E = UQ och 1 Ah = 3600 C.</p><p>Hur mycket elektrisk energi kan powerbanken lagra? Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">10 000 mAh =</p><div class=\"facit-matte\">\\[10 A h=36\\,000\\, \\mathrm{C}\\]</div></div></li><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=3{,}7\\cdot 36\\,000=133\\,200 J=133{,}2\\, \\mathrm{kJ}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 133,2 kJ.</p></div>",
         "ledtrad": "<p>Omvandla först laddningskapaciteten till coulomb.</p>",
         "niva": "E",
@@ -54833,12 +54834,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Damien håller en vikt på 12 kg helt stilla i 45 s. Hur stort mekaniskt arbete uträttar hans kraft på vikten? Svara i J. Svara med ett heltal.",
-        "t": "<p>Två oberoende situationer gäller mekaniskt arbete.</p><p>Damien håller en vikt på 12 kg helt stilla i 45 s. Hur stort mekaniskt arbete uträttar hans kraft på vikten? Svara i J. Svara med ett heltal.</p>",
+        "fraga": "Hur stort mekaniskt arbete utför hans kraft på vikten? Svara i J. Svara med ett heltal.",
+        "t": "<p>Damien håller en vikt helt stilla.</p><p>Hur stort mekaniskt arbete utför hans kraft på vikten? Svara i J. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vikten förflyttas inte.</p></li><li><p>Därför är arbetet på vikten noll, även om Damiens muskler förbrukar energi.</p></li></ol><p class=\"facit-svar\">Svar: 0 J.</p></div>",
         "ledtrad": "<p>Kräver mekaniskt arbete en förflyttning?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -54988,7 +54989,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=250\\cdot 40=10\\,000 J=10\\, \\mathrm{kJ}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 10 kJ.</p></div>",
         "ledtrad": "<p>Vilken omvandling krävs från J till kJ?</p>",
         "niva": "E",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -55250,8 +55251,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lägesenergin när väskan står på golvet. Svara i J. Svara med ett heltal.",
-        "t": "<p>En väska på 4,0 kg står först på golvet. Den lyfts till vila på ett bord 0,75 m över golvet och därefter ytterligare 0,40 m. Golvet är nollnivå. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lägesenergin när väskan står på golvet. Svara i J. Svara med ett heltal.</p>",
+        "fraga": "Hur stor är väskans lägesenergi? Svara i J. Svara med ett heltal.",
+        "t": "<p>En väska står på golvet. Golvet är nollnivå för lägesenergin.</p><p>Hur stor är väskans lägesenergi? Svara i J. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">På den valda nollnivån är</p><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 0 J.</p></div>",
         "ledtrad": "<p>Vad innebär det att välja en nollnivå?</p>",
         "niva": "E",
@@ -55264,8 +55265,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm lägesenergin när väskan står på bordet. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En väska på 4,0 kg står först på golvet. Den lyfts till vila på ett bord 0,75 m över golvet och därefter ytterligare 0,40 m. Golvet är nollnivå. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lägesenergin när väskan står på bordet. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stor är väskans lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En väska på 4,0 kg står på ett bord 0,75 m över golvet. Golvet är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><p>Hur stor är väskans lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=4{,}0\\cdot 9{,}82\\cdot 0{,}75=29{,}46\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 29,46 J.</p></div>",
         "ledtrad": "<p>Vilken höjd har väskan relativt nollnivån?</p>",
         "niva": "E",
@@ -55362,8 +55363,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lyftkraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 25 kg lyfts lodrätt 1,8 m med konstant fart. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stor är lyftkraften på lådan? Svara i N. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En låda på 25 kg lyfts rakt upp med konstant fart. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på lådan? Svara i N. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant fart ger</p><div class=\"facit-matte\">\\[F=m g=25\\cdot 9{,}82=245{,}5\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 245,5 N.</p></div>",
         "ledtrad": "<p>Vad är resultanten när farten är konstant?</p>",
         "niva": "E",
@@ -55458,7 +55459,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Hur skrivs 75 procent i decimalform?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "W",
@@ -55756,8 +55757,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många sekunder används den? Svara i s. Svara med ett heltal.",
-        "t": "<p>En dammsugare tar emot konstant elektrisk effekt 1200 W och används i 25 minuter.</p><p>Hur många sekunder används den? Svara i s. Svara med ett heltal.</p>",
+        "fraga": "Hur många sekunder är det? Svara med ett heltal.",
+        "t": "<p>En dammsugare används i 25 minuter.</p><p>Hur många sekunder är det? Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[25\\cdot 60=1500\\, \\mathrm{s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 1500 s.</p></div>",
         "ledtrad": "<p>Hur många sekunder går det på en minut?</p>",
         "niva": "E",
@@ -56191,7 +56192,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Impulsen är lika med ändringen i rörelsemängd.</p></li><li><div class=\"facit-matte\">\\[\\Delta p=I=+88\\,\\mathrm{kg\\,m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +88 kg·m/s.</p></div>",
         "ledtrad": "<p>Vad innebär sambandet I = Δp?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -56958,8 +56959,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm minskningen av lägesenergin. Svara i J. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En cyklist med cykel har massan 80 kg och rullar från vila nedför en väg som är 90 m lång och har höjdskillnaden 12 m. Slutfarten är 12 m/s. Cyklisten trampar inte. Bortse från hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm minskningen av lägesenergin. Svara i J. Avrunda vid behov till 1 decimal.</p>",
+        "fraga": "Hur mycket minskar lägesenergin? Svara i J. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En cyklist med cykel har massan 80 kg och rullar nedför en backe med höjdskillnaden 12 m. Använd g = 9,82 m/s².</p><p>Hur mycket minskar lägesenergin? Svara i J. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Minskningen är</p><div class=\"facit-matte\">\\[m g h=80\\cdot 9{,}82\\cdot 12=9427{,}2\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 9427,2 J.</p></div>",
         "ledtrad": "<p>Här är det höjdskillnaden som behövs.</p>",
         "niva": "E",
@@ -57686,8 +57687,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm utgångsfarten. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En slangbella ger en kula på 0,025 kg rörelseenergin 12 J vid avskjutningen. Vid ett vågrätt skott varar accelerationen från vila 0,040 s. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm utgångsfarten. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Vilken fart har kulan? Svara i m/s. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En kula på 0,025 kg lämnar en slangbella med rörelseenergin 12 J.</p><p>Vilken fart har kulan? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">mv²/2 = 12 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{24}{0{,}025}}\\approx 30{,}984\\, \\mathrm{m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 30,98 m/s.</p></div>",
         "ledtrad": "<p>Lös ut farten ur uttrycket för rörelseenergin.</p>",
         "niva": "E",
@@ -58143,8 +58144,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm farten precis före sanden. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En sten på 3,0 kg faller från vila 8,0 m innan den träffar sand. Den tränger sedan 0,15 m ned i sanden och stannar. Bortse från luftmotstånd. Tyngdkraften verkar även under inträngningen.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten precis före sanden. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Vilken fart har stenen precis innan den träffar sanden? Svara i m/s. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En sten släpps från vila och faller 8,0 m innan den träffar sand. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har stenen precis innan den träffar sanden? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">mgh = mv²/2 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot 9{,}82\\cdot 8{,}0}\\approx 12{,}534752\\, \\mathrm{m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 12,53 m/s.</p></div>",
         "ledtrad": "<p>Vilken energi omvandlas under det fria fallet?</p>",
         "niva": "E",
@@ -58258,8 +58259,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm medelkraftens storlek när stopptiden är 0,12 s. Svara i N. Svara med ett heltal.",
-        "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila. Jämför två förenklade fall med stopptiderna 0,12 s och 0,020 s. Frågorna gäller den sammanlagda vågräta kraften på passageraren.</p><p>Bestäm medelkraftens storlek när stopptiden är 0,12 s. Svara i N. Svara med ett heltal.</p>",
+        "fraga": "Hur stor är den sammanlagda vågräta medelkraften på passageraren? Svara i N. Svara med ett heltal.",
+        "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila på 0,12 s.</p><p>Hur stor är den sammanlagda vågräta medelkraften på passageraren? Svara i N. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">|Δp| = 75 · 14 = 1050 Ns. |F_medel| =</p><div class=\"facit-matte\">\\[\\frac{1050}{0{,}12}=8750\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 8750 N.</p></div>",
         "ledtrad": "<p>Vilken rörelsemängd måste bromsas bort?</p>",
         "niva": "E",
@@ -58272,8 +58273,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm medelkraftens storlek när stopptiden är 0,020 s. Svara i N. Svara med ett heltal.",
-        "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila. Jämför två förenklade fall med stopptiderna 0,12 s och 0,020 s. Frågorna gäller den sammanlagda vågräta kraften på passageraren.</p><p>Bestäm medelkraftens storlek när stopptiden är 0,020 s. Svara i N. Svara med ett heltal.</p>",
+        "fraga": "Hur stor är den sammanlagda vågräta medelkraften på passageraren? Svara i N. Svara med ett heltal.",
+        "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila på 0,020 s.</p><p>Hur stor är den sammanlagda vågräta medelkraften på passageraren? Svara i N. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">|Δp| = 75 · 14 = 1050 Ns. |F_medel| =</p><div class=\"facit-matte\">\\[\\frac{1050}{0{,}020}=52\\,500\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 52500 N.</p></div>",
         "ledtrad": "<p>Hur påverkas medelkraften när samma impuls fördelas över kortare tid?</p>",
         "niva": "E",
@@ -58852,8 +58853,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den yttre vågräta medelkraften. Svara i N. Svara med ett heltal.",
-        "t": "<p>En kanot med paddlare har sammanlagda massan 95 kg och rör sig med 2,5 m/s framåt. Under ett paddeltag på 0,80 s får systemet en sammanlagd yttre vågrät impuls på +60 Ns från vattnet. Framåt är positiv riktning.</p><p>Bestäm den yttre vågräta medelkraften. Svara i N. Svara med ett heltal.</p>",
+        "fraga": "Hur stor är vattnets vågräta medelkraft? Svara i N. Svara med ett heltal.",
+        "t": "<p>Vattnet ger en kanot med paddlare impulsen +60 Ns under 0,80 s. Framåt är positiv riktning.</p><p>Hur stor är vattnets vågräta medelkraft? Svara i N. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{I}{\\Delta t}=\\frac{60}{0{,}80}=+75\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 75 N.</p></div>",
         "ledtrad": "<p>Vad anger arean under en kraft–tid-graf?</p>",
         "niva": "E",
@@ -59134,8 +59135,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm dragkraftens arbete. Svara i J. Svara med ett heltal.",
-        "t": "<p>En låda på 18 kg dras från vila 12 m på vågrätt golv med en konstant vågrät kraft 55 N. Glidfriktionen är 30 N och verkar mot rörelseriktningen.</p><p>Bestäm dragkraftens arbete. Svara i J. Svara med ett heltal.</p>",
+        "fraga": "Hur stort arbete gör dragkraften? Svara i J. Svara med ett heltal.",
+        "t": "<p>En vågrät dragkraft på 55 N drar en låda 12 m längs ett golv.</p><p>Hur stort arbete gör dragkraften? Svara i J. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{drag}}=55\\cdot 12=660\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 660 J.</p></div>",
         "ledtrad": "<p>Dragkraften och förflyttningen har samma riktning.</p>",
         "niva": "E",
@@ -59148,8 +59149,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionskraftens arbete, med tecken. Svara i J. Svara med ett heltal.",
-        "t": "<p>En låda på 18 kg dras från vila 12 m på vågrätt golv med en konstant vågrät kraft 55 N. Glidfriktionen är 30 N och verkar mot rörelseriktningen.</p><p>Bestäm friktionskraftens arbete, med tecken. Svara i J. Svara med ett heltal.</p>",
+        "fraga": "Hur stort arbete gör friktionskraften? Ange tecken och svara i J. Svara med ett heltal.",
+        "t": "<p>En låda glider 12 m längs ett golv. Friktionskraften är 30 N och verkar mot rörelsen.</p><p>Hur stort arbete gör friktionskraften? Ange tecken och svara i J. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen motverkar förflyttningen:</p><div class=\"facit-matte\">\\[W_{\\mathrm{f}}=-30\\cdot 12=-360\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: -360 J.</p></div>",
         "ledtrad": "<p>Vilket tecken får arbete av en motriktad kraft?</p>",
         "niva": "E",
@@ -59699,8 +59700,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm ökningen i lägesenergi per steg. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En person på 65 kg går uppför trappsteg som är 0,18 m höga. I en förenklad energimodell finns 1200 kJ kemisk energi tillgänglig. Bortse från andra energibehov än dem som anges.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm ökningen i lägesenergi per steg. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur mycket ökar personens lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En person på 65 kg går uppför ett trappsteg som är 0,18 m högt. Använd g = 9,82 m/s².</p><p>Hur mycket ökar personens lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{steg}}=m g h=65\\cdot 9{,}82\\cdot 0{,}18=114{,}894\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 114,89 J.</p></div>",
         "ledtrad": "<p>Hur mycket höjs personen per steg?</p>",
         "niva": "E",
@@ -60026,7 +60027,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela batterienergin med körsträckan.</p></li><li><div class=\"facit-matte\">\\[\\frac{E}{s}=\\frac{280\\,\\mathrm{Wh}}{40\\,\\mathrm{km}}=7\\,\\mathrm{Wh/km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 Wh/km.</p></div>",
         "ledtrad": "<p>Fördela den använda energin över körsträckan.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -60035,8 +60036,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur länge räcker den angivna batterienergin vid denna fart? Svara i h. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En elscooter använder 280 Wh från batteriet under 40 km körning med konstant fart 25 km/h.</p><p>Hur länge räcker den angivna batterienergin vid denna fart? Svara i h. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur lång tid tar körningen? Svara i h. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En elscooter kör 40 km med konstant fart 25 km/h.</p><p>Hur lång tid tar körningen? Svara i h. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Körtiden är sträckan delad med farten.</p></li><li><div class=\"facit-matte\">\\[t=\\frac{s}{v}=\\frac{40}{25}=1{,}6\\,\\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,6 h.</p></div>",
         "ledtrad": "<p>Vilken körtid motsvarar räckvidden?</p>",
         "niva": "E",
@@ -60054,7 +60055,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medeleffekten är batterienergin delad med körtiden.</p></li><li><div class=\"facit-matte\">\\[P=\\frac{E}{t}=\\frac{280\\,\\mathrm{Wh}}{1{,}6\\,\\mathrm h}=175\\,\\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 175 W från batteriet.</p></div>",
         "ledtrad": "<p>Vilken tid och vilken energi hör till samma körning?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 1,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -60179,8 +60180,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den elektriska energin under 15 min. Svara i J. Svara med ett heltal.",
-        "t": "<p>En glödlampa tar emot konstant elektrisk effekt 40 W. Av detta blir 1,6 W synligt ljus, vilket räknas som nyttig effekt.</p><p>Bestäm den elektriska energin under 15 min. Svara i J. Svara med ett heltal.</p>",
+        "fraga": "Hur mycket elektrisk energi tar lampan emot? Svara i J. Svara med ett heltal.",
+        "t": "<p>En lampa tar emot den elektriska effekten 40 W under 15 minuter.</p><p>Hur mycket elektrisk energi tar lampan emot? Svara i J. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=40\\cdot \\left(15\\cdot 60\\right)=36\\,000\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 36000 J.</p></div>",
         "ledtrad": "<p>Vilken tidsenhet behövs tillsammans med watt?</p>",
         "niva": "E",
@@ -60193,8 +60194,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den elektriska energin under 6,0 h. Svara i kWh. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En glödlampa tar emot konstant elektrisk effekt 40 W. Av detta blir 1,6 W synligt ljus, vilket räknas som nyttig effekt.</p><p>Bestäm den elektriska energin under 6,0 h. Svara i kWh. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur mycket elektrisk energi tar lampan emot? Svara i kWh. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En lampa tar emot den elektriska effekten 40 W under 6,0 timmar.</p><p>Hur mycket elektrisk energi tar lampan emot? Svara i kWh. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[40 W=0{,}040\\, \\mathrm{kW}\\]</div></div></li><li><p>E = 0,040 · 6,0 = 0,24 kWh.</p></li></ol><p class=\"facit-svar\">Svar: 0,24 kWh.</p></div>",
         "ledtrad": "<p>Utgå från den elektriska effekten, inte ljuseffekten.</p>",
         "niva": "E",
@@ -60614,12 +60615,12 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Det första föremålets massa är 12 kg. Bestäm dess fart. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Rörelsemängdens storlek är 90 kg·m/s för vart och ett av två föremål.</p><p>Det första föremålets massa är 12 kg. Bestäm dess fart. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Vilken fart har föremålet? Svara i m/s. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Ett föremål på 12 kg har rörelsemängdens storlek 90 kg·m/s.</p><p>Vilken fart har föremålet? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{90}{12}=7{,}5\\, \\mathrm{m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 7,5 m/s.</p></div>",
         "ledtrad": "<p>Lös ut den okända storheten ur p = mv.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -60628,12 +60629,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Det andra föremålets fart är 3,0 m/s. Bestäm dess massa. Svara i kg. Svara med ett heltal.",
-        "t": "<p>Rörelsemängdens storlek är 90 kg·m/s för vart och ett av två föremål.</p><p>Det andra föremålets fart är 3,0 m/s. Bestäm dess massa. Svara i kg. Svara med ett heltal.</p>",
+        "fraga": "Hur stor är föremålets massa? Svara i kg. Svara med ett heltal.",
+        "t": "<p>Ett föremål har farten 3,0 m/s och rörelsemängdens storlek 90 kg·m/s.</p><p>Hur stor är föremålets massa? Svara i kg. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{p}{v}=\\frac{90}{3{,}0}=30\\, \\mathrm{kg}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 30 kg.</p></div>",
         "ledtrad": "<p>Vilken massa ger den angivna rörelsemängden vid farten 3,0 m/s?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -61072,7 +61073,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För en konstant kraft är impulsen kraft gånger tid.</p></li><li><div class=\"facit-matte\">\\[I=F\\Delta t=80\\cdot0{,}25=+20\\,\\mathrm{Ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +20 Ns.</p></div>",
         "ledtrad": "<p>Vilken tid verkar kraften under?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -61086,7 +61087,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Impulsen är lika med ändringen i rörelsemängd.</p></li><li><div class=\"facit-matte\">\\[\\Delta p=I=+20\\,\\mathrm{kg\\,m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +20 kg·m/s.</p></div>",
         "ledtrad": "<p>Impuls och ändring i rörelsemängd beskriver samma överföring.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -61100,7 +61101,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Impulsen ändrar hastigheten. Dela därför impulsen med massan.</p></li><li><div class=\"facit-matte\">\\[\\Delta v=\\frac{I}{m}=\\frac{20}{4{,}0}=+5{,}0\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hastigheten ökar med 5,0 m/s.</p></div>",
         "ledtrad": "<p>Vilken skillnad finns mellan hastighetsändring och sluthastighet?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -61165,7 +61166,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelkraft gånger kontakttid ger impulsen.</p></li><li><div class=\"facit-matte\">\\[I=F_\\text{medel}\\Delta t=250\\cdot0{,}040=+10\\,\\mathrm{Ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +10 Ns.</p></div>",
         "ledtrad": "<p>Även medelkraft kan användas tillsammans med hela kontakttiden.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -61616,8 +61617,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm farten precis före studsen. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En boll på 0,20 kg släpps från vila 1,8 m över golvet och studsar upp till 1,1 m. Bortse från luftmotstånd. Höjderna mäts för tyngdpunkten, räknat från där den är vid kontakten.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten precis före studsen. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Vilken fart har bollen precis före studsen? Svara i m/s. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En boll släpps från vila. Bollens tyngdpunkt faller 1,8 m innan bollen träffar golvet. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har bollen precis före studsen? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\sqrt{2 g h}=\\sqrt{2\\cdot 9{,}82\\cdot 1{,}8}\\approx 5{,}946\\, \\mathrm{m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 5,95 m/s.</p></div>",
         "ledtrad": "<p>Under fallet omvandlas lägesenergi till rörelseenergi.</p>",
         "niva": "E",
@@ -61630,8 +61631,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm farten precis efter studsen. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En boll på 0,20 kg släpps från vila 1,8 m över golvet och studsar upp till 1,1 m. Bortse från luftmotstånd. Höjderna mäts för tyngdpunkten, räknat från där den är vid kontakten.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten precis efter studsen. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Vilken fart har bollen precis efter studsen? Svara i m/s. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Efter en studs stiger bollens tyngdpunkt 1,1 m från sitt läge vid golvkontakten. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har bollen precis efter studsen? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\sqrt{2 g h}=\\sqrt{2\\cdot 9{,}82\\cdot 1{,}1}\\approx 4{,}648\\, \\mathrm{m/s}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 4,65 m/s.</p></div>",
         "ledtrad": "<p>Vilken höjd ska farten efter studsen räcka till?</p>",
         "niva": "E",
@@ -61936,12 +61937,12 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm personens tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön bär ett jämnt fördelat tryck på högst 2,0 kPa. Bortse från skidornas massa och anta lika belastning på skidorna.</p><p>Bestäm personens tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+        "fraga": "Hur stor är personens tyngdkraft? Svara i N. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En person har massan 65 kg. Använd g = 9,82 m/s².</p><p>Hur stor är personens tyngdkraft? Svara i N. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=65\\cdot 9{,}82=638{,}3\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 638,3 N.</p></div>",
         "ledtrad": "<p>Använd sambandet mellan massa och tyngdkraft.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -62297,8 +62298,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Omvandla föremålets volym till m³. Svara i m³. Avrunda vid behov till 5 decimaler.",
-        "t": "<p>Ett föremål med volymen 250 cm³ hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><p>Omvandla föremålets volym till m³. Svara i m³. Avrunda vid behov till 5 decimaler.</p>",
+        "fraga": "Omvandla volymen till m³. Svara med fem decimaler.",
+        "t": "<p>Ett föremål har volymen 250 cm³.</p><p>Omvandla volymen till m³. Svara med fem decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">1 cm³ = 10⁻⁶ m³, så</p><div class=\"facit-matte\">\\[250 c m^{3}=0{,}000250\\, \\mathrm{m^3}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 0,00025 m³.</p></div>",
         "ledtrad": "<p>Volymenheter ändras i tre dimensioner.</p>",
         "niva": "E",
@@ -62485,8 +62486,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tryckökningen från vattenytan. Svara i kPa. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En punkt i en sjö ligger 15 m under ytan. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan 101 kPa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">15 m</text></svg></span><p>Bestäm tryckökningen från vattenytan. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur mycket större är trycket där än vid vattenytan? Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En punkt ligger 15 m under ytan i en sjö. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">15 m</text></svg><p>Hur mycket större är trycket där än vid vattenytan? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta p=998\\cdot 9{,}82\\cdot 15=147\\,005{,}4 P a=147{,}0054\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 147,01 kPa.</p></div>",
         "ledtrad": "<p>Lufttrycket ska inte räknas in i själva ökningen.</p>",
         "niva": "E",
@@ -62655,7 +62656,7 @@ window.BANK = [
     "id": "6.304",
     "kap": 6,
     "omr": "vatsketryck",
-    "t": "<p>En vätska har densiteten 1200 kg/m³.</p><p>Bestäm tryckökningen över en lodrät vätskepelare på 0,25 m. Svara i Pa. Svara med ett heltal.</p>",
+    "t": "<p>En vätska har densiteten 1200 kg/m³.</p><p>Hur mycket ökar trycket från ytan till 0,25 m djup? Svara i Pa. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta p=1200\\cdot 9{,}82\\cdot 0{,}25=2946\\, \\mathrm{Pa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 2946 Pa.</p></div>",
     "niva": "E",
     "traningsniva": 1,
@@ -63138,8 +63139,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm järnmaterialets volym. Svara i liter. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Ett stelt, slutet järnföremål har massan 2,0 kg och ett förseglat hålrum. Det svävar i jämvikt helt under vattenytan utan stöd. Järnets densitet är 7870 kg/m³ och vattnets 998 kg/m³. Bortse från gasmassan i hålrummet och luftens lyftkraft.</p><p>Bestäm järnmaterialets volym. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
+        "fraga": "Hur stor volym har järnet? Svara i liter. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>Ett järnföremål innehåller 2,0 kg järn. Järnets densitet är 7870 kg/m³.</p><p>Hur stor volym har järnet? Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{\\mathrm{järn}}=\\frac{m}{\\rho_{\\mathrm{järn}}}=\\frac{2{,}0}{7870}\\approx 0{,}000254130 m^{3}=0{,}254130\\, \\mathrm{liter}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 0,254 liter.</p></div>",
         "ledtrad": "<p>Järnets massa och densitet är kända.</p>",
         "niva": "E",
@@ -63223,12 +63224,12 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm massan av den undanträngda luften. Svara i kg. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Bortse från hölje och upphängning.</p><p>Bestäm massan av den undanträngda luften. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stor massa har den undanträngda luften? Svara i kg. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En ballong tränger undan 3,0 m³ luft. Luftens densitet är 1,29 kg/m³.</p><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">varm luft</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 3,0 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg><p>Hur stor massa har den undanträngda luften? Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{ut}}=1{,}29\\cdot 3{,}0=3{,}87\\, \\mathrm{kg}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 3,87 kg.</p></div>",
         "ledtrad": "<p>Använd omgivningens densitet.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -63237,12 +63238,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm massan av den varma luften. Svara i kg. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Bortse från hölje och upphängning.</p><p>Bestäm massan av den varma luften. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stor massa har luften i ballongen? Svara i kg. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³.</p><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">varm luft</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 3,0 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg><p>Hur stor massa har luften i ballongen? Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{in}}=1{,}00\\cdot 3{,}0=3{,}00\\, \\mathrm{kg}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 3 kg.</p></div>",
         "ledtrad": "<p>Vilken densitet gäller inne i ballongen?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -63274,7 +63275,7 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Använd g = 9,82 m/s². En stel boll med volymen 1,5 liter och massan 0,20 kg hålls helt nedsänkt i vatten med densiteten 998 kg/m³. Den släpps från vila. I modellen verkar därefter bara hydrostatisk lyftkraft och tyngdkraft; bortse från andra krafter från vattnets rörelse.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften i släppögonblicket. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den resulterande kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm modellens startacceleration med uppåt som positiv riktning. Svara i m/s². Avrunda vid behov till 2 decimaler.</li></ol>",
+    "t": "<p>Använd g = 9,82 m/s². En stel boll med volymen 1,5 liter och massan 0,20 kg hålls helt nedsänkt i vatten med densiteten 998 kg/m³. Den släpps från vila. I modellen verkar därefter bara hydrostatisk lyftkraft och tyngdkraft; bortse från andra krafter från vattnets rörelse.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften i släppögonblicket. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den sammanlagda kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm modellens startacceleration med uppåt som positiv riktning. Svara i m/s². Avrunda vid behov till 2 decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>F<sub>L</sub> = 998 · 9,82 · 0,0015 = 14,70054 N.</p></li></ol><p class=\"facit-svar\">Svar: 14,7 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(F_{\\mathrm{res}}\\) = F<sub>L</sub>−mg = 998 · 9,82 · 0,0015−0,20 · 9,82 = 12,73654 N.</p></li></ol><p class=\"facit-svar\">Svar: 12,74 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>a = (F<sub>L</sub>−mg)/m = [998 · 9,82 · 0,0015−0,20 · 9,82]/0,20 = 63,6827 m/s².</p></li></ol><p class=\"facit-svar\">Svar: 63,68 m/s².</p></div></div></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
@@ -63335,8 +63336,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den resulterande kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En boll på 0,20 kg påverkas av lyftkraften 14,70054 N uppåt och tyngdkraften nedåt. Använd g = 9,82 m/s².</p><p>Bestäm den resulterande kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Bestäm den sammanlagda kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En boll på 0,20 kg påverkas av lyftkraften 14,70054 N uppåt och tyngdkraften nedåt. Använd g = 9,82 m/s².</p><p>Bestäm den sammanlagda kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med uppåt som positiv riktning dras tyngdkraften bort från lyftkraften.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{res}=14{,}70054-0{,}20\\cdot9{,}82=12{,}73654\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,74 N.</p></div>",
         "ledtrad": "<p>Vilka två krafter återstår när handen släpper?</p>",
         "niva": "E",
@@ -64381,8 +64382,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Betet höjs 2,0 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Ett bete ligger på 4,5 m djup i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><span class=\"fig\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span><p>Betet höjs 2,0 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur mycket minskar trycket vid betet? Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Ett fiskebete höjs 2,0 m i en sjö. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg><p>Hur mycket minskar trycket vid betet? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Tryckminskningen är</p><div class=\"facit-matte\">\\[\\rho g \\Delta h=998\\cdot 9{,}82\\cdot 2{,}0=19\\,600{,}72 P a=19{,}60072\\, \\mathrm{kPa}\\]</div></div></li><li><p>Lufttrycket ändras inte.</p></li></ol><p class=\"facit-svar\">Svar: 19,6 kPa.</p></div>",
         "ledtrad": "<p>Här behövs höjdändringen, inte det ursprungliga djupet.</p>",
         "niva": "E",
@@ -65047,7 +65048,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraftförstärkningen är areaförhållandet: F<sub>lyft</sub>/F<sub>pump</sub> = 120/4,0 = 30.</p></li></ol><p class=\"facit-svar\">Svar: 30.</p></div>",
         "ledtrad": "<p>Jämför lyftkolvens area med pumpkolvens area.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -65063,7 +65064,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen under lyftkolven måste öka med V = A<sub>lyft</sub>h = 120 · 15 = 1800 cm³.</p></li></ol><p class=\"facit-svar\">Svar: 1800 cm³.</p></div>",
         "ledtrad": "<p>Vilken volym motsvarar lyftkolvens area gånger lyfthöjden?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -65446,7 +65447,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{5{,}6}{9{,}82}\\approx 0{,}570265\\, \\mathrm{kg}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 0,57 kg.</p></div>",
         "ledtrad": "<p>I luft motsvarar avläsningen tyngden.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -65460,7 +65461,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>F<sub>L</sub> = 5,6−3,4 = 2,2 N.</p></li></ol><p class=\"facit-svar\">Svar: 2,2 N.</p></div>",
         "ledtrad": "<p>Vilken kraft avlastar dynamometern?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -65765,8 +65766,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Omvandla övertrycket till Pa. Svara i Pa. Svara med ett heltal.",
-        "t": "<p>En tryckkokare har övertrycket 20 kPa. Det vågräta lockets area är 0,020 m². Frågorna gäller bara den sammanlagda kraften från gastrycket på lockets båda sidor, inte lockets tyngd eller låset.</p><p>Omvandla övertrycket till Pa. Svara i Pa. Svara med ett heltal.</p>",
+        "fraga": "Omvandla övertrycket till Pa. Svara med ett heltal.",
+        "t": "<p>Övertrycket i en tryckkokare är 20 kPa.</p><p>Omvandla övertrycket till Pa. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">20 kPa =</p><div class=\"facit-matte\">\\[20\\cdot 1000=20\\,000\\, \\mathrm{Pa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 20000 Pa.</p></div>",
         "ledtrad": "<p>Prefixet kilo betyder tusen.</p>",
         "niva": "E",
@@ -65779,8 +65780,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm tryckets nettokraft uppåt. Svara i N. Svara med ett heltal.",
-        "t": "<p>En tryckkokare har övertrycket 20 kPa. Det vågräta lockets area är 0,020 m². Frågorna gäller bara den sammanlagda kraften från gastrycket på lockets båda sidor, inte lockets tyngd eller låset.</p><p>Bestäm tryckets nettokraft uppåt. Svara i N. Svara med ett heltal.</p>",
+        "fraga": "Hur stor kraft uppåt ger skillnaden mellan trycket inne i kokaren och trycket utanför? Svara i N. Svara med ett heltal.",
+        "t": "<p>Övertrycket i en tryckkokare är 20 kPa. Lockets area är 0,020 m².</p><p>Hur stor kraft uppåt ger skillnaden mellan trycket inne i kokaren och trycket utanför? Svara i N. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{netto}}=\\Delta p A=20\\,000\\cdot 0{,}020=400\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 400 N.</p></div>",
         "ledtrad": "<p>Övertrycket är redan skillnaden mellan in- och utsida.</p>",
         "niva": "E",
@@ -65793,8 +65794,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vilken massa har lika stor tyngdkraft som tryckets nettokraft på locket? Svara i kg. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En tryckkokare har övertrycket 20 kPa. Det vågräta lockets area är 0,020 m². Frågorna gäller bara den sammanlagda kraften från gastrycket på lockets båda sidor, inte lockets tyngd eller låset.</p><p>Vilken massa har lika stor tyngdkraft som tryckets nettokraft på locket? Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Vilken massa har en lika stor tyngdkraft? Svara i kg. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Tryckskillnaden på ett lock ger en kraft på 400 N. Använd g = 9,82 m/s².</p><p>Vilken massa har en lika stor tyngdkraft? Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Tryckets nettokraft är 20 000 · 0,020 = 400 N. mg = 400 ger</p><div class=\"facit-matte\">\\[m=\\frac{400}{9{,}82}\\approx 40{,}733\\, \\mathrm{kg}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 40,73 kg.</p></div>",
         "ledtrad": "<p>Skilj på kraft i newton och massa i kilogram.</p>",
         "niva": "E",
@@ -66316,8 +66317,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den sammanlagda kontaktytan. Svara i m². Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En elefant på 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Anta jämn belastning.</p><p>Bestäm den sammanlagda kontaktytan. Svara i m². Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stor är fötternas sammanlagda kontaktyta? Svara i m². Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En elefant står på fyra fötter. Varje fot har kontaktytan 0,12 m².</p><p>Hur stor är fötternas sammanlagda kontaktyta? Svara i m². Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[A=4\\cdot 0{,}12=0{,}48\\, \\mathrm{m^2}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 0,48 m².</p></div>",
         "ledtrad": "<p>Alla fyra fötterna bidrar till kontaktytan.</p>",
         "niva": "E",
@@ -67265,7 +67266,7 @@ window.BANK = [
     "niva": "E",
     "typ": "vattentorn och nivåskillnad",
     "poang": "(2/0/0)",
-    "t": "<p>Vattenytan i ett öppet vattentorn ligger 28 m över marken. En stängd kran ligger 9,0 m över samma marknivå. Vattnets densitet är 998 kg/m³ och ledningen är vattenfylld.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"530\" height=\"280\" viewBox=\"0 0 530 280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattentorn och kran med höjder räknade från samma marknivå\"><title>Vattentorn och kran med höjder räknade från samma marknivå</title><line x1=\"40\" y1=\"247\" x2=\"475\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"100\" y=\"48\" width=\"115\" height=\"53\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"111\" y=\"76\" width=\"93\" height=\"24\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"101\" y1=\"76\" x2=\"214\" y2=\"76\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"120\" y1=\"102\" x2=\"120\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"193\" y1=\"102\" x2=\"193\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"156\" y1=\"102\" x2=\"156\" y2=\"229\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"156\" y1=\"229\" x2=\"366\" y2=\"229\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"366\" y1=\"229\" x2=\"366\" y2=\"176\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"350\" y1=\"176\" x2=\"383\" y2=\"176\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"398\" y=\"181\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">kran</text><line x1=\"70\" y1=\"76\" x2=\"70\" y2=\"247\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"76\" x2=\"75\" y2=\"76\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"247\" x2=\"75\" y2=\"247\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"39\" y=\"168\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">28 m</text><line x1=\"445\" y1=\"176\" x2=\"445\" y2=\"247\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"440\" y1=\"176\" x2=\"450\" y2=\"176\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"440\" y1=\"247\" x2=\"450\" y2=\"247\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"482\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">9,0 m</text></svg></span><p>Bestäm det statiska övertrycket i kranen. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "t": "<p>Vattenytan i ett öppet vattentorn ligger 28 m över marken. En stängd kran ligger 9,0 m över samma marknivå. Vattnets densitet är 998 kg/m³ och ledningen är vattenfylld.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"530\" height=\"280\" viewBox=\"0 0 530 280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattentorn och kran med höjder räknade från samma marknivå\"><title>Vattentorn och kran med höjder räknade från samma marknivå</title><line x1=\"40\" y1=\"247\" x2=\"475\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"100\" y=\"48\" width=\"115\" height=\"53\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"111\" y=\"76\" width=\"93\" height=\"24\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"101\" y1=\"76\" x2=\"214\" y2=\"76\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"120\" y1=\"102\" x2=\"120\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"193\" y1=\"102\" x2=\"193\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"156\" y1=\"102\" x2=\"156\" y2=\"229\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"156\" y1=\"229\" x2=\"366\" y2=\"229\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"366\" y1=\"229\" x2=\"366\" y2=\"176\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"350\" y1=\"176\" x2=\"383\" y2=\"176\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"398\" y=\"181\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">kran</text><line x1=\"70\" y1=\"76\" x2=\"70\" y2=\"247\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"76\" x2=\"75\" y2=\"76\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"247\" x2=\"75\" y2=\"247\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"39\" y=\"168\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">28 m</text><line x1=\"445\" y1=\"176\" x2=\"445\" y2=\"247\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"440\" y1=\"176\" x2=\"450\" y2=\"176\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"440\" y1=\"247\" x2=\"450\" y2=\"247\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"482\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">9,0 m</text></svg></span><p>Bestäm övertrycket i kranen. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Höjdskillnaden är</p><div class=\"facit-matte\">\\[28-9{,}0=19\\, \\mathrm{m}\\]</div></div></li><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta p=998\\cdot 9{,}82\\cdot 19=186\\,206{,}84 P a=186{,}20684\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 186,2 kPa.</p></div>",
     "familj": "Vätsketryck p = ρgh",
     "formaga": [
@@ -67366,8 +67367,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm övertrycket relativt ytan. Svara i kPa. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En dykare befinner sig 30 m under en sjöyta. Vattnets densitet är 998 kg/m³ och lufttrycket är 101 kPa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">30 m</text></svg></span><p>Bestäm övertrycket relativt ytan. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "fraga": "Hur mycket större är trycket där än vid vattenytan? Svara i kPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En dykare är 30 m under vattenytan. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">30 m</text></svg><p>Hur mycket större är trycket där än vid vattenytan? Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta p=998\\cdot 9{,}82\\cdot 30=294\\,010{,}8 P a=294{,}0108\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 294 kPa.</p></div>",
         "ledtrad": "<p>Övertrycket kommer från vattenpelaren.</p>",
         "niva": "E",
@@ -67482,7 +67483,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{k}} V g=998\\cdot 0{,}70 V g\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{k}}=698{,}6\\, \\mathrm{kg/m^3}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 698,6 kg/m³.</p></div>",
         "ledtrad": "<p>Lyftkraften balanserar tyngden.</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -67598,7 +67599,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>F<sub>L</sub> = 12,0−7,5 = 4,5 N.</p></li></ol><p class=\"facit-svar\">Svar: 4,5 N.</p></div>",
         "ledtrad": "<p>Jämför avläsningarna.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -67822,8 +67823,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lyftkraften när flotten precis är helt nedsänkt. Svara i kN. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En flotte med volymen 0,80 m³ är helt nedsänkt i vatten med densiteten 998 kg/m³. Använd g = 9,82 m/s².</p><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"130\" width=\"500\" height=\"90\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"130\" x2=\"520\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Bestäm lyftkraften när flotten precis är helt nedsänkt. Svara i kN. Avrunda vid behov till 3 decimaler.</p>",
+        "fraga": "Hur stor är vattnets lyftkraft på flotten? Svara i kN. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En flotte med volymen 0,80 m³ är helt under vattenytan. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"130\" width=\"500\" height=\"90\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"130\" x2=\"520\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Hur stor är vattnets lyftkraft på flotten? Svara i kN. Avrunda vid behov till 3 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>F<sub>L</sub> = 998 · 9,82 · 0,80 = 7840,288 N = 7,840288 kN.</p></li></ol><p class=\"facit-svar\">Svar: 7,84 kN.</p></div>",
         "ledtrad": "<p>Vilken volym vatten trängs undan vid gränsen?</p>",
         "niva": "E",
@@ -68026,8 +68027,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den mindre täta linans massa. Svara i g. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En lina har volymen 41,5633 cm³ och densiteten 850 kg/m³.</p><p>Bestäm den mindre täta linans massa. Svara i g. Avrunda vid behov till 1 decimal.</p>",
+        "fraga": "Hur stor är linans massa? Svara i g. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En lina har volymen 41,5633 cm³ och densiteten 850 kg/m³.</p><p>Hur stor är linans massa? Svara i g. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Omvandla volymen till m³. Massa är densitet gånger volym.</p></li><li><div class=\"facit-matte\">\\[m=850\\cdot41{,}5633\\cdot10^{-6}\\,\\mathrm{kg}\\approx35{,}3\\,\\mathrm{g}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35,3 g.</p></div>",
         "ledtrad": "<p>Använd materialets densitet.</p>",
         "niva": "E",
@@ -68040,8 +68041,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den tätare linans massa. Svara i g. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En lina har volymen 41,5633 cm³ och densiteten 1200 kg/m³.</p><p>Bestäm den tätare linans massa. Svara i g. Avrunda vid behov till 1 decimal.</p>",
+        "fraga": "Hur stor är linans massa? Svara i g. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En lina har volymen 41,5633 cm³ och densiteten 1200 kg/m³.</p><p>Hur stor är linans massa? Svara i g. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Omvandla volymen till m³. Massa är densitet gånger volym.</p></li><li><div class=\"facit-matte\">\\[m=1200\\cdot41{,}5633\\cdot10^{-6}\\,\\mathrm{kg}\\approx49{,}9\\,\\mathrm{g}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 49,9 g.</p></div>",
         "ledtrad": "<p>Samma volym gäller för båda linorna.</p>",
         "niva": "E",
@@ -68368,7 +68369,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Vid konstant temperatur gäller p₁V₁ = p₂V₂. Lös ut p₂.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 1,
@@ -68456,8 +68457,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm luftens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En stängd spruta innehåller 20,0 mL luft vid det absoluta trycket 101 kPa. Kolven trycks långsamt in till 8,0 mL och temperaturen förblir konstant. Kolvens area är 1,80 cm². Bortse från friktionen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 20 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"75\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"196\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"202\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 8,0 ml</text></svg></span><p>Bestäm luftens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "fraga": "Vilket tryck får luften? Svara i kPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En stängd spruta innehåller 20,0 ml luft vid trycket 101 kPa. Volymen minskas till 8,0 ml utan att temperaturen ändras. Trycken är absoluta tryck.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 20 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"75\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"196\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"202\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 8,0 ml</text></svg><p>Vilket tryck får luften? Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Boyles lag ger</p><div class=\"facit-matte\">\\[p_{2}=\\frac{101\\cdot 20{,}0}{8{,}0}=252{,}5\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 252,5 kPa.</p></div>",
         "ledtrad": "<p>Gasmängd och temperatur är konstanta.</p>",
         "niva": "E",
@@ -69077,7 +69078,7 @@ window.BANK = [
     "t": "<p>I en hydraulisk lyft är pumpkolvens area 4,0 cm² och lyftkolvens area 20 cm². Pumpkolven rör sig 15 mm nedåt. Vätskan kan inte pressas ihop och inga läckage finns.</p><p>Hur långt rör sig lyftkolven uppåt?</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-7\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 20 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"last\"><rect x=\"413\" y=\"104\" width=\"86\" height=\"47\" rx=\"5\" fill=\"#D8A35D\" stroke=\"#6B4C2D\" stroke-width=\"2\"/><text x=\"456\" y=\"133\" text-anchor=\"middle\" font-size=\"15\" fill=\"#3D2B1C\">last</text></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-7)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">15 mm</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-7)\"/><text x=\"566\" y=\"152\" text-anchor=\"start\">s = ?</text></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>4,0 · 15 = 20 · s<sub>lyft</sub>.</p></li><li><p>Alltså s<sub>lyft</sub> = 60/20 = 3,0 mm.</p></li></ol><p class=\"facit-svar\">Svar: 3,0 mm.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Hydraulik",
     "typ": "hydraulik och förflyttning",
     "ledtrad": "<p>Den vätskevolym som pumpkolven trycker undan flyttas till lyftkolven: A₁ · s₁ = A₂ · s₂.</p>",
@@ -69227,7 +69228,7 @@ window.BANK = [
     "t": "<p>En hydraulisk lyft har en pumpkolv med arean 3,0 cm² och en lyftkolv med arean 24 cm². Handtaget ger kraften 50 N på pumpkolven. Bortse från lyftens förluster.</p><p>Hur stor kraft verkar på lyftkolven?</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-1\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 3,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 24 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"last\"><rect x=\"413\" y=\"104\" width=\"86\" height=\"47\" rx=\"5\" fill=\"#D8A35D\" stroke=\"#6B4C2D\" stroke-width=\"2\"/><text x=\"434\" y=\"133\" text-anchor=\"middle\" font-size=\"15\" fill=\"#3D2B1C\">last</text></g><line x1=\"132\" y1=\"58\" x2=\"132\" y2=\"128\" stroke=\"#C65D36\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-1)\"/><text x=\"132\" y=\"43\" text-anchor=\"middle\">50 N</text><line x1=\"456\" y1=\"145\" x2=\"456\" y2=\"68\" stroke=\"#2E7D5B\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-1)\"/><text x=\"456\" y=\"48\" text-anchor=\"middle\">F = ?</text></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Areaförhållandet är</p><div class=\"facit-matte\">\\[\\frac{24}{3{,}0}=8\\]</div></div></li><li><p>Därför blir F<sub>lyft</sub> = 50 · 8 = 400 N.</p></li></ol><p class=\"facit-svar\">Svar: 400 N.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Hydraulik",
     "typ": "hydraulisk kraftförstärkning",
     "ledtrad": "<p>Jämför lyftkolvens area med pumpkolvens area.</p>",
@@ -69459,7 +69460,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Omvandla diametern till meter och bestäm radien.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
@@ -69808,8 +69809,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm övertrycket vid botten. Svara i kPa. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En öppen vattenbehållare är fylld till djupet 2,5 m. Vattnets densitet är 998 kg/m³ och lufttrycket är 101,3 kPa.</p><span class=\"fig\"><svg height=\"267\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"44.514 30.978 335.486 179.348\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"62\" y=\"72\" width=\"256\" height=\"126\" fill=\"#DCE6F2\"/><line x1=\"62\" y1=\"72\" x2=\"318\" y2=\"72\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"334\" y1=\"72\" x2=\"334\" y2=\"200\" stroke=\"#5C575E\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"342\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,5 m</text></svg></span><p>Bestäm övertrycket vid botten. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur mycket större är trycket vid botten än vid ytan? Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Vattnet i en behållare är 2,5 m djupt. Densiteten är 998 kg/m³. Använd g = 9,82 m/s².</p><svg height=\"267\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"44.514 30.978 335.486 179.348\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"62\" y=\"72\" width=\"256\" height=\"126\" fill=\"#DCE6F2\"/><line x1=\"62\" y1=\"72\" x2=\"318\" y2=\"72\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"334\" y1=\"72\" x2=\"334\" y2=\"200\" stroke=\"#5C575E\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"342\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,5 m</text></svg><p>Hur mycket större är trycket vid botten än vid ytan? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta p=998\\cdot 9{,}82\\cdot 2{,}5=24\\,500{,}9 P a=24{,}5009\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 24,5 kPa.</p></div>",
         "ledtrad": "<p>Använd vattendjupet.</p>",
         "niva": "E",
@@ -70015,8 +70016,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm övertrycket vid gränsytan. Svara i kPa. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>I ett öppet kärl ligger 20 cm olja med densiteten 920 kg/m³ ovanpå 30 cm vatten med densiteten 998 kg/m³. Vätskorna blandas inte.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Två vätskeskikt med tjocklekarna 20 och 30 cm\"><title>Två vätskeskikt med tjocklekarna 20 och 30 cm</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M75 60 H350 V140 H75Z\" fill=\"#f2e5bf\"/><path d=\"M75 140 H350 V260 H75Z\" fill=\"#e2eef5\"/><path d=\"M75 30 V260 H350 V30\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"75\" y1=\"60\" x2=\"350\" y2=\"60\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><line x1=\"75\" y1=\"140\" x2=\"350\" y2=\"140\" stroke=\"#ad935c\" stroke-width=\"1.5\"/><text x=\"210\" y=\"105\" text-anchor=\"middle\">olja 920 kg/m³</text><text x=\"210\" y=\"205\" text-anchor=\"middle\">vatten 998 kg/m³</text><line x1=\"385\" y1=\"60\" x2=\"385\" y2=\"140\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"140\" x2=\"390\" y2=\"140\" stroke=\"#788a99\" stroke-width=\"1.5\"/><text x=\"420\" y=\"105.0\" text-anchor=\"middle\">20 cm</text><line x1=\"385\" y1=\"140\" x2=\"385\" y2=\"260\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"140\" x2=\"390\" y2=\"140\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"260\" x2=\"390\" y2=\"260\" stroke=\"#788a99\" stroke-width=\"1.5\"/><text x=\"420\" y=\"205.0\" text-anchor=\"middle\">30 cm</text></g></svg></span><p>Bestäm övertrycket vid gränsytan. Svara i kPa. Avrunda vid behov till 3 decimaler.</p>",
+        "fraga": "Hur mycket större är trycket vid gränsen mellan oljan och vattnet än vid oljans yta? Svara i kPa. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>I ett öppet kärl finns ett 20 cm tjockt lager olja ovanpå vatten. Oljans densitet är 920 kg/m³. Använd g = 9,82 m/s².</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Två vätskeskikt med tjocklekarna 20 och 30 cm\"><title>Två vätskeskikt med tjocklekarna 20 och 30 cm</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M75 60 H350 V140 H75Z\" fill=\"#f2e5bf\"/><path d=\"M75 140 H350 V260 H75Z\" fill=\"#e2eef5\"/><path d=\"M75 30 V260 H350 V30\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"75\" y1=\"60\" x2=\"350\" y2=\"60\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><line x1=\"75\" y1=\"140\" x2=\"350\" y2=\"140\" stroke=\"#ad935c\" stroke-width=\"1.5\"/><text x=\"210\" y=\"105\" text-anchor=\"middle\">olja 920 kg/m³</text><text x=\"210\" y=\"205\" text-anchor=\"middle\">vatten 998 kg/m³</text><line x1=\"385\" y1=\"60\" x2=\"385\" y2=\"140\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"140\" x2=\"390\" y2=\"140\" stroke=\"#788a99\" stroke-width=\"1.5\"/><text x=\"420\" y=\"105.0\" text-anchor=\"middle\">20 cm</text><line x1=\"385\" y1=\"140\" x2=\"385\" y2=\"260\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"140\" x2=\"390\" y2=\"140\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"260\" x2=\"390\" y2=\"260\" stroke=\"#788a99\" stroke-width=\"1.5\"/><text x=\"420\" y=\"205.0\" text-anchor=\"middle\">30 cm</text></g></svg><p>Hur mycket större är trycket vid gränsen mellan oljan och vattnet än vid oljans yta? Svara i kPa. Avrunda vid behov till 3 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta p=920\\cdot 9{,}82\\cdot 0{,}20=1806{,}88 P a=1{,}80688\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 1,807 kPa.</p></div>",
         "ledtrad": "<p>Vilket lager ligger ovanför gränsytan?</p>",
         "niva": "E",
@@ -70067,7 +70068,7 @@ window.BANK = [
     "omr": "vatsketryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En kapsling provas i en statisk modell med tryckskillnaden 700 kPa mellan utsidan och insidan. Innertrycket är samma som lufttrycket ovanför en sjö med vattendensiteten 998 kg/m³.</p><p>Vilket vattendjup motsvarar denna tryckskillnad? Svara i m. Avrunda vid behov till 1 decimal.</p>",
+    "t": "<p>En behållare är under vatten. Trycket på utsidan är 700 kPa större än på insidan. Trycket på insidan är lika med lufttrycket vid vattenytan. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><p>På vilket djup är behållaren? Svara i m. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Tryckskillnaden motsvarar ρgh.</p><div class=\"facit-matte\">\\[h=\\frac{700\\,000}{998\\cdot 9{,}82}\\approx 71{,}42595\\, \\mathrm{m}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 71,4 m.</p></div>",
     "familj": "Vätsketryck p = ρgh",
     "formaga": [
@@ -70296,12 +70297,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "På ett visst djup är övertrycket lika stort som lufttrycket. Bestäm absoluttrycket där. Svara i kPa. Avrunda vid behov till 1 decimal.",
-        "t": "<p>Vattnets densitet är 998 kg/m³. Lufttrycket ovanför ytan är 101,3 kPa.</p><p>På ett visst djup är övertrycket lika stort som lufttrycket. Bestäm absoluttrycket där. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "fraga": "Hur stort är det totala trycket (absoluttrycket) på detta djup? Svara i kPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>På ett visst djup är vattnets övertryck 101,3 kPa. Lufttrycket vid ytan är också 101,3 kPa.</p><p>Hur stort är det totala trycket (absoluttrycket) på detta djup? Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Absoluttrycket är yttryck plus övertryck:</p><div class=\"facit-matte\">\\[101{,}3+101{,}3=202{,}6\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 202,6 kPa.</p></div>",
         "ledtrad": "<p>Vilka två tryckbidrag ska summeras?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -70570,7 +70571,7 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En järnkula med volymen 3,0 cm³ hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet. Järnets densitet är 7,87 g/cm³.</p><p>Bestäm lyftkraften. Svara i mN. Avrunda vid behov till 1 decimal.</p>",
+    "t": "<p>En järnkula med volymen 3,0 cm³ hålls helt under vattenytan. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på kulan? Svara i mN. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=3{,}0\\cdot 10^{-6}\\, \\mathrm{m^3}\\]</div></div></li><li><p>F<sub>L</sub> = 998 · 9,82 · 3,0 · 10⁻⁶ = 0,02940108 N = 29,40108 mN.</p></li><li><p>Järnets densitet behövs inte när den undanträngda volymen är känd.</p></li></ol><p class=\"facit-svar\">Svar: 29,4 mN.</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
@@ -70647,8 +70648,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm järnbitens volym. Svara i cm³. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm järnbitens volym. Svara i cm³. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stor är järnbitens volym? Svara i cm³. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En järnbit har massan 90,0 g. Järnets densitet är 7,87 g/cm³.</p><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en dynamometer helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg><p>Hur stor är järnbitens volym? Svara i cm³. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{90{,}0}{7{,}87}\\approx 11{,}4358\\, \\mathrm{cm^3}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 11,44 cm³.</p></div>",
         "ledtrad": "<p>Använd järnets densitet tillsammans med massan i gram.</p>",
         "niva": "E",
@@ -70781,7 +70782,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid gränsen är kroppens densitet lika med etanolens.</p></li><li><p>Då är den neutralt flytande helt i vätskan.</p></li></ol><p class=\"facit-svar\">Svar: 0,789 g/cm³.</p></div>",
         "ledtrad": "<p>Jämför kroppens medeldensitet med etanolens densitet.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -70797,7 +70798,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Flytjämvikt ger V<sub>ned</sub>/V = ρ<sub>trä</sub>/ρ<sub>etanol</sub> = 0,600/0,789 ≈ 0,76046.</p></li></ol><p class=\"facit-svar\">Svar: 76,0 %.</p></div>",
         "ledtrad": "<p>För en flytande kropp är den nedsänkta volymandelen en densitetskvot.</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -71024,7 +71025,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Flytjämvikt ger ρ<sub>k</sub>/ρ<sub>v</sub>=V<sub>ned</sub>/V.</p></li><li><p>Därför ρ<sub>k</sub>=0,650·1000=650 kg/m³.</p></li></ol><p class=\"facit-svar\">Svar: 650 kg/m³.</p></div>",
         "ledtrad": "<p>Lyftkraften och tyngdkraften är lika stora när klossen flyter stilla.</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -71682,8 +71683,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Omvandla övertrycket till megapascal. Svara i MPa. Avrunda vid behov till 1 decimal.",
-        "t": "<p>Övertrycket i en gasflaska är 200 bar. En cirkulär säkerhetsplugg har arean 3,00 cm². Använd 1 bar=10⁵ Pa och bortse från pluggens hållfasthet.</p><p>Omvandla övertrycket till megapascal. Svara i MPa. Avrunda vid behov till 1 decimal.</p>",
+        "fraga": "Omvandla övertrycket till MPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>Övertrycket i en gasflaska är 200 bar. 1 bar = 100 000 Pa.</p><p>Omvandla övertrycket till MPa. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">200 bar=200·10⁵</p><div class=\"facit-matte\">\\[P a=2{,}00\\cdot 10^{7} P a=20{,}0\\, \\mathrm{MPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 20,0 MPa.</p></div>",
         "ledtrad": "<p>Följ omvandlingen bar → Pa → MPa.</p>",
         "niva": "E",
@@ -72218,8 +72219,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm övertrycket vid luckans botten. Svara i kPa. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En lodrät dammlucka är 2,0 m bred. Vatten med densiteten 998 kg/m³ når 1,5 m upp längs luckan. Lufttrycket är lika på utsidan och ovanför vattenytan. Övertrycket växer linjärt från noll vid ytan.</p><p>Bestäm övertrycket vid luckans botten. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur mycket större är trycket vid luckans botten än vid vattenytan? Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Vatten når 1,5 m upp längs en dammlucka. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><p>Hur mycket större är trycket vid luckans botten än vid vattenytan? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta p_{\\mathrm{botten}}=998\\cdot 9{,}82\\cdot 1{,}5=14\\,700{,}54 P a=14{,}70054\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 14,7 kPa.</p></div>",
         "ledtrad": "<p>Använd det största djupet.</p>",
         "niva": "E",
@@ -72740,7 +72741,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Sätt in massa, specifik värmekapacitet och temperaturändring med enheter som passar ihop.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -72824,7 +72825,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Använd Q = cmΔT. Alla värden kan sättas in direkt.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -72917,7 +72918,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur mycket energi behövs för att smälta \\(0{,}100\\ \\mathrm{kg}\\) is som redan håller \\(0\\,{}^\\circ\\mathrm C\\)? Isens smältentalpi är \\(334\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>Hur mycket energi behövs för att smälta \\(0{,}100\\ \\mathrm{kg}\\) is som redan håller \\(0\\,{}^\\circ\\mathrm C\\)? Isens smältvärme är \\(334\\ \\mathrm{kJ/kg}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL_f=0{,}100\\cdot334=33{,}4\\ \\mathrm{kJ}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(33{,}4\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -73046,7 +73047,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}420\\ \\mathrm{kg}\\) vatten vid \\(0\\,{}^\\circ\\mathrm C\\) fryser till is. Hur mycket energi avges? Vattnets smältentalpi är \\(334\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>\\(0{,}420\\ \\mathrm{kg}\\) vatten vid \\(0\\,{}^\\circ\\mathrm C\\) fryser till is. Hur mycket energi avges? Vattnets smältvärme är \\(334\\ \\mathrm{kJ/kg}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL_f=0{,}420\\cdot334=140{,}28\\ \\mathrm{kJ}.\\]</div></li><li><p>Samma energimängd krävs för att smälta isen igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(140{,}3\\ \\mathrm{kJ}\\) avges.</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -73104,7 +73105,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur mycket energi krävs för att förånga \\(0{,}075\\ \\mathrm{kg}\\) vatten som redan håller \\(100\\,{}^\\circ\\mathrm C\\)? Vattnets ångbildningsentalpi är \\(2260\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>Hur mycket energi krävs för att förånga \\(0{,}075\\ \\mathrm{kg}\\) vatten som redan håller \\(100\\,{}^\\circ\\mathrm C\\)? Vattnets ångbildningsvärme är \\(2260\\ \\mathrm{kJ/kg}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL_v=0{,}075\\cdot2260=169{,}5\\ \\mathrm{kJ}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(169{,}5\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -73170,7 +73171,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Använd Q = cmΔT och omvandla joule till kilojoule.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -73254,7 +73255,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Använd Q = cmΔT och håll reda på om svaret ska anges i joule eller kilojoule.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -73490,7 +73491,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}120\\ \\mathrm{kg}\\) vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) kondenserar till vatten med samma temperatur. Hur mycket energi avges? Vattnets ångbildningsentalpi är \\(2260\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>\\(0{,}120\\ \\mathrm{kg}\\) vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) kondenserar till vatten med samma temperatur. Hur mycket energi avges? Vattnets ångbildningsvärme är \\(2260\\ \\mathrm{kJ/kg}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL_v=0{,}120\\cdot2260=271{,}2\\ \\mathrm{kJ}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(271{,}2\\ \\mathrm{kJ}\\) avges.</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -74068,7 +74069,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}250\\ \\mathrm{kg}\\) vatten vid \\(0\\,{}^\\circ\\mathrm C\\) fryser. Hur mycket energi avges under frysningen? Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>\\(0{,}250\\ \\mathrm{kg}\\) vatten vid \\(0\\,{}^\\circ\\mathrm C\\) fryser. Hur mycket energi avges under frysningen? Smältvärme: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL_f=0{,}250\\cdot334=83{,}5\\ \\mathrm{kJ}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(83{,}5\\ \\mathrm{kJ}\\) avges.</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -74167,7 +74168,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett aluminiumstycke med massan \\(0{,}180\\ \\mathrm{kg}\\) är vid sin smältpunkt. Hur mycket energi krävs för att smälta det? Materialdata: \\(L_f=397\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>Ett aluminiumstycke med massan \\(0{,}180\\ \\mathrm{kg}\\) är vid sin smältpunkt. Hur mycket energi krävs för att smälta det? Smältvärme: \\(L_f=397\\ \\mathrm{kJ/kg}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL_f=0{,}180\\cdot397=71{,}46\\ \\mathrm{kJ}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(71{,}5\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -74255,7 +74256,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}060\\ \\mathrm{kg}\\) etanol är vid sin kokpunkt. Hur mycket energi krävs för att förånga all etanol? Materialdata: \\(L_v=840\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>\\(0{,}060\\ \\mathrm{kg}\\) etanol är vid sin kokpunkt. Hur mycket energi krävs för att förånga all etanol? Ångbildningsvärme: \\(L_v=840\\ \\mathrm{kJ/kg}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL_v=0{,}060\\cdot840=50{,}4\\ \\mathrm{kJ}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(50{,}4\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -74284,7 +74285,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Torris är fast koldioxid som övergår direkt till gas. Hur mycket energi krävs för att sublimera \\(0{,}200\\ \\mathrm{kg}\\) torris vid dess sublimeringstemperatur? Materialdata: \\(L_s=571\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>Torris är fast koldioxid som kan övergå direkt till gas. För denna övergång krävs 571 kJ/kg. Torrisen har redan den temperatur där övergången sker.</p><p>Hur mycket energi krävs för att omvandla 0,200 kg torris till gas? Svara i kJ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL_s=0{,}200\\cdot571=114{,}2\\ \\mathrm{kJ}.\\]</div></li><li><p>Sublimering är en fasövergång direkt från fast form till gas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(114{,}2\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -76502,7 +76503,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur mycket energi krävs för att smälta \\(800\\ \\mathrm g\\) is vid \\(0\\,{}^\\circ\\mathrm C\\)? Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>Hur mycket energi krävs för att smälta \\(800\\ \\mathrm g\\) is vid \\(0\\,{}^\\circ\\mathrm C\\)? Smältvärme: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=800\\ \\mathrm g=0{,}800\\ \\mathrm{kg}\\]\\[Q=mL_f=0{,}800\\cdot334=267{,}2\\ \\mathrm{kJ}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(267\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -76510,7 +76511,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Omvandla först gram till kilogram.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -76775,7 +76776,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur mycket energi krävs för att förånga \\(0{,}400\\ \\mathrm{kg}\\) vatten som redan håller \\(100\\,{}^\\circ\\mathrm C\\)? Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
+    "t": "<p>Hur mycket energi krävs för att förånga \\(0{,}400\\ \\mathrm{kg}\\) vatten som redan håller \\(100\\,{}^\\circ\\mathrm C\\)? Ångbildningsvärme: \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL_v=0{,}400\\cdot2260=904\\ \\mathrm{kJ}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(904\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
@@ -76921,7 +76922,7 @@ window.BANK = [
     "niva": "E",
     "typ": "polspänning från ems och inre resistans",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har ems \\(1{,}5\\ \\mathrm V\\) och inre resistansen \\(0{,}20\\ \\Omega\\). Det levererar strömmen \\(0{,}50\\ \\mathrm A\\). Bestäm polspänningen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,20 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
+    "t": "<p>Ett batteri har spänningen utan belastning (ems) \\(1{,}5\\ \\mathrm V\\) och inre resistansen \\(0{,}20\\ \\Omega\\). Det levererar strömmen \\(0{,}50\\ \\mathrm A\\). Bestäm polspänningen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,20 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">När batteriet levererar ström blir polspänningen ems minus det inre spänningsfallet.</p></li><li><div class=\"facit-matte\">\\[U=1{,}5-0{,}50\\cdot0{,}20=1{,}40\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}40\\ \\mathrm V\\).</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
@@ -76937,7 +76938,7 @@ window.BANK = [
     "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
@@ -77369,7 +77370,7 @@ window.BANK = [
     "ledtrad": "<p>En volt betyder en joule per coulomb.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µJ",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -77766,7 +77767,7 @@ window.BANK = [
     "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -77796,7 +77797,7 @@ window.BANK = [
     "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -78147,7 +78148,7 @@ window.BANK = [
     "niva": "E",
     "typ": "polspänning från ems och inre resistans",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har ems \\(3{,}0\\ \\mathrm V\\), inre resistansen \\(0{,}50\\ \\Omega\\) och levererar \\(1{,}0\\ \\mathrm A\\). Bestäm polspänningen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 3,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,50 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
+    "t": "<p>Ett batteri har spänningen utan belastning (ems) \\(3{,}0\\ \\mathrm V\\), inre resistansen \\(0{,}50\\ \\Omega\\) och levererar \\(1{,}0\\ \\mathrm A\\). Bestäm polspänningen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 3,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,50 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Dra bort det inre spänningsfallet från ems.</p></li><li><div class=\"facit-matte\">\\[U=3{,}0-1{,}0\\cdot0{,}50=2{,}5\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm V\\).</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
@@ -78163,7 +78164,7 @@ window.BANK = [
     "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
@@ -78754,7 +78755,7 @@ window.BANK = [
     "ledtrad": "<p>I serie adderas resistanser. I parallell adderas deras inverser.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "kopplingar",
@@ -79323,7 +79324,7 @@ window.BANK = [
     "omr": "strom",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Genom ett tvärsnitt av en strömförande kabel passerar laddningen 18 mC. Det tar 4,0 sekunder för laddningen att passera tvärsnittet.</p>\n<p>Hur stor ström går genom kabeln?</p>",
+    "t": "<p>Laddningen 18 mC passerar en punkt i en kabel under 4,0 s.</p><p>Hur stor är strömmen i kabeln? Svara i mA.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ström är laddning som passerar per tidsenhet, \\(I=Q/t\\).</p><p class=\"facit-metod\">Skriv laddningen i coulomb innan du sätter in värdena.</p><div class=\"facit-matte\">\\[Q=18\\ \\mathrm{mC}=0{,}018\\ \\mathrm C\\]\\[I=\\frac Qt=\\frac{0{,}018}{4{,}0}=0{,}0045\\ \\mathrm A=4{,}5\\ \\mathrm{mA}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(4{,}5\\ \\mathrm{mA}\\).</p></div>",
     "familj": "Ström och laddning i kretsar",
     "formaga": [
@@ -79339,7 +79340,7 @@ window.BANK = [
     "ledtrad": "<p>Ström är laddning som passerar per tidsenhet, \\(I=Q/t\\). Skriv laddningen i coulomb innan du sätter in värdena.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "kretsar",
@@ -82183,7 +82184,7 @@ window.BANK = [
     "ledtrad": "<p>I serie adderas resistanser. I parallell adderas deras inverser.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "kopplingar",
@@ -87626,7 +87627,7 @@ window.BANK = [
     "ledtrad": "<p>Spänning anger energi per laddning: \\(U=E/Q\\). Därför är \\(E=QU\\). Skriv först kilocoulomb i coulomb.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "kretsar"
@@ -103314,7 +103315,7 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En instängd gas har volymen 2,40 liter vid det absoluta trycket 100 kPa. Den komprimeras isotermt till 1,50 liter. </p><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "t": "<p>En instängd gas har volymen 2,40 liter vid det absoluta trycket 100 kPa. Den pressas ihop utan att temperaturen ändras till 1,50 liter. </p><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{2}=\\frac{p_{1} V_{1}}{V_{2}}=\\frac{100\\cdot 2{,}40}{1{,}50}=160\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 160 kPa.</p></div>",
     "familj": "Boyles lag",
     "formaga": [
@@ -103328,7 +103329,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vid konstant temperatur gäller p₁V₁ = p₂V₂. Lös ut p₂.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "typ": "boyles lag",
     "arbetsinsats": 1,
     "spel": true,
@@ -103398,7 +103399,7 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En bestämd gasmängd hålls vid konstant temperatur. Det absoluta trycket ökar till 1,25 gånger starttrycket.</p><p>Bestäm volymfaktorn V₂/V₁. Avrunda vid behov till 2 decimaler.</p>",
+    "t": "<p>En bestämd gasmängd hålls vid konstant temperatur. Det absoluta trycket ökar till 1,25 gånger starttrycket.</p><p>Hur stor del av startvolymen är den nya volymen? Ange kvoten V₂/V₁. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Boyles lag ger</p><div class=\"facit-matte\">\\[p_{1} V_{1}=p_{2} V_{2}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Med p₂=1,25p₁ blir</p><div class=\"facit-matte\">\\[\\frac{V_{2}}{V_{1}}=\\frac{1}{1{,}25}=0{,}80\\]</div></div></li><li><p>Volymen minskar alltså med 20 %.</p></li></ol><p class=\"facit-svar\">Svar: 0,80.</p></div>",
     "familj": "Boyles lag",
     "formaga": [
@@ -103814,7 +103815,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken koordinat hör till respektive massa i formeln?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "m",
@@ -104589,7 +104590,7 @@ window.BANK = [
     "t": "<p>En bestämd gasmängd har p₁=100 kPa, V₁=2,00 liter och T₁=300 K. Slutvärdena är p₂=125 kPa och T₂=375 K. </p><p>Bestäm slutvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=2{,}00\\cdot \\left(\\frac{100}{125}\\right)\\cdot \\left(\\frac{375}{300}\\right)=2{,}00\\, \\mathrm{liter}\\]</div></div></li><li><p>Tryck- och temperaturfaktorerna tar här ut varandra.</p></li></ol><p class=\"facit-svar\">Svar: 2,00 liter.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Allmänna gaslagen",
     "typ": "kombinerade gaslagen",
     "ledtrad": "<p>Använd p₁V₁/T₁ = p₂V₂/T₂ och lös ut V₂.</p>",
@@ -105525,7 +105526,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(R=\\rho\\dfrac lA\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
@@ -105646,7 +105647,7 @@ window.BANK = [
         "ledtrad": "<p>Summan är 15,0 Ω.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -106420,7 +106421,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt in i formeln.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
@@ -106637,13 +106638,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor ström går genom cellväggen?",
-        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En cellvägg har resistansen \\(5{,}0\\cdot10^9\\) Ω och spänningen 75 mV.</p><p>Hur stor ström går genom cellväggen?</p>",
+        "fraga": "Hur stor är strömmen genom cellväggen? Svara i A.",
+        "t": "<p>Spänningen över en cellvägg är 75 mV. Cellväggens resistans är 5,0 · 10⁹ Ω.</p><p>Hur stor är strömmen genom cellväggen? Svara i A.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=\\dfrac{0{,}075}{5{,}0\\cdot10^9}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{-11}\\) A</p></div>",
         "ledtrad": "<p>Ohms lag.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -106989,7 +106990,7 @@ window.BANK = [
     "ledtrad": "<p>Använd mass–energi-sambandet \\(E=\\Delta mc^2\\). Massan måste först skrivas i kilogram.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -107367,8 +107368,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm spännkraften i repet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En person (60 kg) hänger i ett rep över en trissa. I repets andra ände sitter en motvikt (100 kg) som står på golvet. Allt är i jämvikt.</p><p>Bestäm spännkraften i repet.</p>",
+        "fraga": "Hur stor är kraften från repet på personen? Svara i N.",
+        "t": "<p>En person på 60 kg hänger stilla i ett lodrätt rep. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från repet på personen? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_S=60\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(589\\) N</p></div>",
         "ledtrad": "<p>Frilägg personen.</p>",
         "niva": "E",
@@ -107454,8 +107455,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm spännkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Snören och trissor är masslösa och friktionsfria.</p><p>En vikt (7,0 kg) står på ett bord under en trissa i taket. Ett snöre från vikten går över trissan till en hängande vikt (4,0 kg). Allt är i jämvikt.</p><p>Bestäm spännkraften.</p>",
+        "fraga": "Hur stor är kraften från snöret på vikten? Svara i N.",
+        "t": "<p>En vikt på 4,0 kg hänger stilla i ett lodrätt snöre. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från snöret på vikten? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_S=4{,}0\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(39\\) N</p></div>",
         "ledtrad": "<p>Frilägg den hängande vikten.</p>",
         "niva": "E",
@@ -108440,7 +108441,7 @@ window.BANK = [
     "niva": "E",
     "typ": "impuls ur kraft och tid",
     "poang": "(3/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><ol type=\"a\"><li>En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?</li><li>En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?</li><li>En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².</li></ol>",
+    "t": "<ol type=\"a\"><li>En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?</li><li>En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?</li><li>En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=4{,}0\\cdot0{,}75\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\) Ns</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{20}{3{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=mg\\Delta t=3{,}0\\cdot9{,}82\\cdot8{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(236\\) Ns</p></li></ol></div>",
     "id": "5.368",
     "miniräknare": true,
@@ -108478,12 +108479,12 @@ window.BANK = [
       "Ns"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?</p>",
+        "t": "<p>En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=4{,}0\\cdot0{,}75\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\) Ns</p></div>",
         "ledtrad": "<p>\\(I=F\\Delta t\\).</p>",
         "niva": "E",
@@ -108494,7 +108495,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?</p>",
+        "t": "<p>En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{20}{3{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) N</p></div>",
         "ledtrad": "<p>\\(F=\\dfrac{I}{\\Delta t}\\).</p>",
         "niva": "E",
@@ -108505,7 +108506,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².</p>",
+        "t": "<p>En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=mg\\Delta t=3{,}0\\cdot9{,}82\\cdot8{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(236\\) Ns</p></div>",
         "ledtrad": "<p>Kraften är tyngden.</p>",
         "niva": "E",
@@ -108526,7 +108527,7 @@ window.BANK = [
     "niva": "E",
     "typ": "putta bil av vägen",
     "poang": "(1/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil (1 100 kg) puttas från vila med den resulterande kraften 350 N i 10 s. Vilken fart får den?</p>",
+    "t": "<p>En bil (1 100 kg) puttas från vila med den resulterande kraften 350 N i 10 s. Vilken fart får den?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{F\\Delta t}{m}=\\dfrac{350\\cdot10}{1\\,100}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\) m/s</p></div>",
     "id": "5.369",
     "miniräknare": true,
@@ -108542,7 +108543,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Impulslagen.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 1,
@@ -108554,8 +108555,8 @@ window.BANK = [
     "niva": "E",
     "typ": "dragsterbil",
     "poang": "(2/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p><ol type=\"a\"><li>Vilken fart har den efter 3,0 s?</li><li>Hur långt har den kört då?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{5\\,500\\cdot3{,}0}{400}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Konstant acceleration: \\(s=\\dfrac{v\\,t}{2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(62\\) m</p></li></ol></div>",
+    "t": "<p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p><ol type=\"a\"><li>Vilken fart har den efter 3,0 s?</li><li>Hur långt har den kört då?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{5\\,500\\cdot3{,}0}{400}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) m/s</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten.</p></li><li><div class=\"facit-matte\">\\[s=\\frac{v_0+v}{2}t=\\frac{0+41{,}25}{2}\\cdot3{,}0=61{,}875\\,\\mathrm{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 62 m.</p></div></div></div>",
     "id": "5.370",
     "miniräknare": true,
     "geogebra": false,
@@ -108587,25 +108588,25 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p>",
+    "spelIntro": "<p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken fart har den efter 3,0 s?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p><p>Vilken fart har den efter 3,0 s?</p>",
+        "t": "<p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p><p>Vilken fart har den efter 3,0 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{5\\,500\\cdot3{,}0}{400}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) m/s</p></div>",
         "ledtrad": "<p>Impulslagen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt har den kört då?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p>Farten efter 3,0 s är 41 m/s.<p>Hur långt har den kört då?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konstant acceleration: \\(s=\\dfrac{v\\,t}{2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(62\\) m</p></div>",
-        "ledtrad": "<p>Medelfarten är halva slutfarten.</p>",
+        "fraga": "Hur långt kör bilen under denna tid? Svara i m.",
+        "t": "<p>En dragsterbil ökar farten från vila till 41,25 m/s på 3,0 s. Accelerationen är konstant.</p><p>Hur långt kör bilen under denna tid? Svara i m.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten.</p></li><li><div class=\"facit-matte\">\\[s=\\frac{v_0+v}{2}t=\\frac{0+41{,}25}{2}\\cdot3{,}0=61{,}875\\,\\mathrm{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 62 m.</p></div>",
+        "ledtrad": "<p>Använd medelfarten under de tre sekunderna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -108624,7 +108625,7 @@ window.BANK = [
     "niva": "E",
     "typ": "pråm som bromsas",
     "poang": "(3/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><ol type=\"a\"><li>Vilken fart har pråmen efter 10 s?</li><li>Hur lång tid tar det innan pråmen står still?</li><li>Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?</li></ol>",
+    "t": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><ol type=\"a\"><li>Vilken fart har pråmen efter 10 s?</li><li>Hur lång tid tar det innan pråmen står still?</li><li>Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\Delta v=\\dfrac{12\\,000\\cdot10}{1{,}5\\cdot10^6}=0{,}080\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{12\\,000}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(375\\) s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{60}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\,000\\) N</p></li></ol></div>",
     "id": "5.371",
     "miniräknare": true,
@@ -108662,12 +108663,12 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p>",
+    "spelIntro": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken fart har pråmen efter 10 s?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Vilken fart har pråmen efter 10 s?</p>",
+        "t": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Vilken fart har pråmen efter 10 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\Delta v=\\dfrac{12\\,000\\cdot10}{1{,}5\\cdot10^6}=0{,}080\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) m/s</p></div>",
         "ledtrad": "<p>Impulslagen ger hastighetsändringen.</p>",
         "niva": "E",
@@ -108678,7 +108679,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur lång tid tar det innan pråmen står still?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Hur lång tid tar det innan pråmen står still?</p>",
+        "t": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Hur lång tid tar det innan pråmen står still?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{12\\,000}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(375\\) s</p></div>",
         "ledtrad": "<p>Hela rörelsemängden ska bort.</p>",
         "niva": "E",
@@ -108689,7 +108690,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?</p>",
+        "t": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{60}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\,000\\) N</p></div>",
         "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
         "niva": "E",
@@ -108710,7 +108711,7 @@ window.BANK = [
     "niva": "E",
     "typ": "flygplan som landar",
     "poang": "(1/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett flygplan (480 ton) bromsar från 29,5 m/s till 24,3 m/s på 12,0 s. Hur stor är bromskraften?</p>",
+    "t": "<p>Ett flygplan (480 ton) bromsar från 29,5 m/s till 24,3 m/s på 12,0 s. Hur stor är bromskraften?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{480\\cdot10^3(29{,}5-24{,}3)}{12{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}08\\cdot10^{5}\\) N</p></div>",
     "id": "5.372",
     "miniräknare": true,
@@ -108738,7 +108739,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bromsning med friktion",
     "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><ol type=\"a\"><li>Hur lång tid tar det innan bilen står still?</li><li>Hur lång tid tar det på snöig väg med friktionstalet 0,12?</li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><ol type=\"a\"><li>Hur lång tid tar det innan bilen står still?</li><li>Hur lång tid tar det på snöig väg med friktionstalet 0,12?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Friktionskraften \\(\\mu mg\\) ger \\(t=\\dfrac{v}{\\mu g}=\\dfrac{25}{0{,}60\\cdot9{,}82}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\) s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{25}{0{,}12\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) s</p></li></ol></div>",
     "id": "5.373",
     "miniräknare": true,
@@ -108772,12 +108773,12 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur lång tid tar det innan bilen står still?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><p>Hur lång tid tar det innan bilen står still?</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><p>Hur lång tid tar det innan bilen står still?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Friktionskraften \\(\\mu mg\\) ger \\(t=\\dfrac{v}{\\mu g}=\\dfrac{25}{0{,}60\\cdot9{,}82}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\) s</p></div>",
         "ledtrad": "<p>Impulslagen med friktionskraften.</p>",
         "niva": "E",
@@ -108788,7 +108789,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur lång tid tar det på snöig väg med friktionstalet 0,12?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><p>Hur lång tid tar det på snöig väg med friktionstalet 0,12?</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><p>Hur lång tid tar det på snöig väg med friktionstalet 0,12?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{25}{0{,}12\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) s</p></div>",
         "ledtrad": "<p>Tiden är omvänt proportionell mot \\(\\mu\\).</p>",
         "niva": "E",
@@ -108809,7 +108810,7 @@ window.BANK = [
     "niva": "E",
     "typ": "motorcykel som frikopplas",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En motorcyklist har farten 42 m/s och frikopplar. Friktionstalet är 0,28. Vilken fart har motorcykeln 3,5 s senare? Bortse från luftmotståndet.</p>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En motorcyklist har farten 42 m/s och frikopplar. Friktionstalet är 0,28. Vilken fart har motorcykeln 3,5 s senare? Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=42-\\mu g\\Delta t=42-0{,}28\\cdot9{,}82\\cdot3{,}5\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(32\\) m/s</p></div>",
     "id": "5.374",
     "miniräknare": true,
@@ -108837,8 +108838,8 @@ window.BANK = [
     "niva": "E",
     "typ": "golfslag",
     "poang": "(1/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En golfboll (45 g) får farten 25,0 m/s från vila. Kontakttiden med klubban är 2,00 ms. Hur stor är medelkraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}045\\cdot25{,}0}{2{,}00\\cdot10^{-3}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(562\\) N</p></div>",
+    "t": "<p>En golfboll (45 g) får farten 25,0 m/s från vila. Kontakttiden med klubban är 2,00 ms. Hur stor är medelkraften?</p>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla massan och tiden: 45 g = 0,045 kg och 2,00 ms = 0,00200 s. Bollen startar från vila, så ändringen i rörelsemängd är mv.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{\\Delta p}{\\Delta t}=\\frac{0{,}045\\cdot25{,}0}{0{,}00200}=562{,}5\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 563 N.</p></div>",
     "id": "5.375",
     "miniräknare": true,
     "geogebra": false,
@@ -108853,7 +108854,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 1,
@@ -108865,8 +108866,8 @@ window.BANK = [
     "niva": "E",
     "typ": "biljardstöt",
     "poang": "(1/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En biljardboll (200 g) i vila påverkas av medelkraften 50 N under 10 ms. Vilken fart får den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{50\\cdot0{,}010}{0{,}200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) m/s</p></div>",
+    "t": "<p>En biljardboll (200 g) i vila påverkas av medelkraften 50 N under 10 ms. Vilken fart får den?</p>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Impulsen ändrar bollens rörelsemängd. Omvandla först 200 g = 0,200 kg och 10 ms = 0,010 s.</p></li><li><div class=\"facit-matte\">\\[I=F\\Delta t=50\\cdot0{,}010=0{,}50\\,\\mathrm{Ns}\\qquad v=\\frac Im=\\frac{0{,}50}{0{,}200}=2{,}5\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 m/s.</p></div>",
     "id": "5.376",
     "miniräknare": true,
     "geogebra": false,
@@ -108881,7 +108882,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Impulslagen.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 1,
@@ -108893,7 +108894,7 @@ window.BANK = [
     "niva": "E",
     "typ": "kulstötning",
     "poang": "(1/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En kula (7,26 kg) stöts från vila till 13 m/s. Den resulterande medelkraften är 220 N. Hur lång tid tar stöten?</p>",
+    "t": "<p>En kula (7,26 kg) stöts från vila till 13 m/s. Den resulterande medelkraften är 220 N. Hur lång tid tar stöten?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{7{,}26\\cdot13}{220}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}43\\) s</p></div>",
     "id": "5.377",
     "miniräknare": true,
@@ -108909,7 +108910,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(\\Delta t=\\dfrac{\\Delta p}{F}\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 1,
@@ -108921,7 +108922,7 @@ window.BANK = [
     "niva": "E",
     "typ": "hjärtat pumpar blod",
     "poang": "(1/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Vid ett hjärtslag pumpas 80 g blod från vila till 1,0 m/s på 0,17 s. Hur stor medelkraft verkar på blodet?</p>",
+    "t": "<p>Vid ett hjärtslag pumpas 80 g blod från vila till 1,0 m/s på 0,17 s. Hur stor medelkraft verkar på blodet?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}080\\cdot1{,}0}{0{,}17}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}47\\) N</p></div>",
     "id": "5.378",
     "miniräknare": true,
@@ -108937,7 +108938,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 1,
@@ -108949,7 +108950,7 @@ window.BANK = [
     "niva": "E",
     "typ": "krocktest",
     "poang": "(1/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En skåpbil (2 300 kg) kör med 15 m/s in i ett brofundament och står still efter 0,56 s. Hur stor är medelkraften på bilen?</p>",
+    "t": "<p>En skåpbil (2 300 kg) kör med 15 m/s in i ett brofundament och står still efter 0,56 s. Hur stor är medelkraften på bilen?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(F=\\dfrac{2\\,300\\cdot15}{0{,}56}\\), riktad mot rörelsen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(61\\,607\\) N</p></div>",
     "id": "5.379",
     "miniräknare": true,
@@ -108977,7 +108978,7 @@ window.BANK = [
     "niva": "C",
     "typ": "puck som får en stöt",
     "poang": "(1/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p><ol type=\"a\"><li>en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.</li><li>en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.</li></ol>",
+    "t": "<p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p><ol type=\"a\"><li>en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.</li><li>en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=3{,}00+\\dfrac{25{,}0\\cdot0{,}050}{0{,}160}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}8\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=3{,}00-\\dfrac{12{,}0\\cdot0{,}050}{0{,}160}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}75\\) m/s</p></li></ol></div>",
     "id": "5.380",
     "miniräknare": true,
@@ -109011,12 +109012,12 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p>",
+    "spelIntro": "<p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p><p>en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.</p>",
+        "t": "<p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p><p>en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=3{,}00+\\dfrac{25{,}0\\cdot0{,}050}{0{,}160}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}8\\) m/s</p></div>",
         "ledtrad": "<p>Impulsen ökar rörelsemängden.</p>",
         "niva": "E",
@@ -109027,7 +109028,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p><p>en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.</p>",
+        "t": "<p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p><p>en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=3{,}00-\\dfrac{12{,}0\\cdot0{,}050}{0{,}160}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}75\\) m/s</p></div>",
         "ledtrad": "<p>Tänk på riktningen.</p>",
         "niva": "C",
@@ -109048,7 +109049,7 @@ window.BANK = [
     "niva": "C",
     "typ": "boll som studsar mot vägg",
     "poang": "(0/2/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p><ol type=\"a\"><li>Beräkna bollens ändring i rörelsemängd.</li><li>Hur stor är medelkraften från väggen på bollen?</li></ol>",
+    "t": "<p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p><ol type=\"a\"><li>Beräkna bollens ändring i rörelsemängd.</li><li>Hur stor är medelkraften från väggen på bollen?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta p=0{,}35(-3{,}1-5{,}0)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}8\\) kg·m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{-2{,}8}{0{,}055}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-52\\) N</p></li></ol></div>",
     "id": "5.381",
     "miniräknare": true,
@@ -109082,12 +109083,12 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p>",
+    "spelIntro": "<p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Beräkna bollens ändring i rörelsemängd.",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p><p>Beräkna bollens ändring i rörelsemängd.</p>",
+        "t": "<p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p><p>Beräkna bollens ändring i rörelsemängd.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta p=0{,}35(-3{,}1-5{,}0)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}8\\) kg·m/s</p></div>",
         "ledtrad": "<p>Hastigheten efter är negativ.</p>",
         "niva": "C",
@@ -109098,7 +109099,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur stor är medelkraften från väggen på bollen?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p>Ändringen i rörelsemängd är −2,8 kg·m/s.<p>Hur stor är medelkraften från väggen på bollen?</p>",
+        "t": "<p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p>Ändringen i rörelsemängd är −2,8 kg·m/s.<p>Hur stor är medelkraften från väggen på bollen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{-2{,}8}{0{,}055}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-52\\) N</p></div>",
         "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
         "niva": "C",
@@ -109119,7 +109120,7 @@ window.BANK = [
     "niva": "C",
     "typ": "fotbollsspark",
     "poang": "(1/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><ol type=\"a\"><li>ligger stilla från början?</li><li>kommer rakt mot foten med 13 m/s och sparkas tillbaka?</li></ol>",
+    "t": "<p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><ol type=\"a\"><li>ligger stilla från början?</li><li>kommer rakt mot foten med 13 m/s och sparkas tillbaka?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{0{,}420\\cdot18}{650}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\) s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{0{,}420(18+13)}{650}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}020\\) s</p></li></ol></div>",
     "id": "5.382",
     "miniräknare": true,
@@ -109153,12 +109154,12 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p>",
+    "spelIntro": "<p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "ligger stilla från början?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><p>ligger stilla från början?</p>",
+        "t": "<p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><p>ligger stilla från början?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{0{,}420\\cdot18}{650}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\) s</p></div>",
         "ledtrad": "<p>\\(\\Delta t=\\dfrac{\\Delta p}{F}\\).</p>",
         "niva": "E",
@@ -109169,7 +109170,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "kommer rakt mot foten med 13 m/s och sparkas tillbaka?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><p>kommer rakt mot foten med 13 m/s och sparkas tillbaka?</p>",
+        "t": "<p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><p>kommer rakt mot foten med 13 m/s och sparkas tillbaka?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{0{,}420(18+13)}{650}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}020\\) s</p></div>",
         "ledtrad": "<p>Hastighetsändringen blir större.</p>",
         "niva": "C",
@@ -109190,7 +109191,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bilbälte vid krock",
     "poang": "(0/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En bil kör in i en vägg med 15 m/s och studsar tillbaka med 2,60 m/s. Krocken varar 0,15 s. Hur stor medelkraft påverkar bilbältet en passagerare på 75 kg med?</p>",
+    "t": "<p>En bil kör in i en vägg med 15 m/s och studsar tillbaka med 2,60 m/s. Krocken varar 0,15 s. Hur stor medelkraft påverkar bilbältet en passagerare på 75 kg med?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{75(15+2{,}60)}{0{,}15}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\,800\\) N</p></div>",
     "id": "5.383",
     "miniräknare": true,
@@ -109218,8 +109219,8 @@ window.BANK = [
     "niva": "E",
     "typ": "baseboll slås tillbaka",
     "poang": "(2/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p><ol type=\"a\"><li>Hur stor impuls får bollen?</li><li>Hur stor är medelkraften om kontakttiden är 2,0 ms?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=0{,}145(55{,}0+45{,}0)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}5\\) Ns</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{14{,}5}{0{,}0020}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,250\\) N</p></li></ol></div>",
+    "t": "<p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p><ol type=\"a\"><li>Hur stor impuls får bollen?</li><li>Hur stor är medelkraften om kontakttiden är 2,0 ms?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=0{,}145(55{,}0+45{,}0)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}5\\) Ns</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Medelkraften är impulsen delad med tiden. Omvandla 2,0 ms till 0,0020 s.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac I{\\Delta t}=\\frac{14{,}5}{0{,}0020}=7250\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7250 N.</p></div></div></div>",
     "id": "5.384",
     "miniräknare": true,
     "geogebra": false,
@@ -109251,12 +109252,12 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p>",
+    "spelIntro": "<p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor impuls får bollen?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p><p>Hur stor impuls får bollen?</p>",
+        "t": "<p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p><p>Hur stor impuls får bollen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=0{,}145(55{,}0+45{,}0)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}5\\) Ns</p></div>",
         "ledtrad": "<p>Hastighetsändringen är 100 m/s.</p>",
         "niva": "E",
@@ -109266,13 +109267,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är medelkraften om kontakttiden är 2,0 ms?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p>Impulsen är 14,5 Ns.<p>Hur stor är medelkraften om kontakttiden är 2,0 ms?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{14{,}5}{0{,}0020}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,250\\) N</p></div>",
+        "fraga": "Hur stor är medelkraften på bollen? Svara i N.",
+        "t": "<p>En boll får impulsen 14,5 Ns under 2,0 ms.</p><p>Hur stor är medelkraften på bollen? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Medelkraften är impulsen delad med tiden. Omvandla 2,0 ms till 0,0020 s.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac I{\\Delta t}=\\frac{14{,}5}{0{,}0020}=7250\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7250 N.</p></div>",
         "ledtrad": "<p>\\(F=\\dfrac{I}{\\Delta t}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -109288,7 +109289,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tennissmash",
     "poang": "(0/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En tennisboll (60 g) kommer med 40 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 30 ms. Hur stor är medelkraften?</p>",
+    "t": "<p>En tennisboll (60 g) kommer med 40 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 30 ms. Hur stor är medelkraften?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}060(50+40)}{0{,}030}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(180\\) N</p></div>",
     "id": "5.385",
     "miniräknare": true,
@@ -109316,16 +109317,16 @@ window.BANK = [
     "niva": "E",
     "typ": "boll som studsar i golvet",
     "poang": "(2/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (1,2 kg) träffar golvet med 5,2 m/s och studsar upp med 2,1 m/s. Studsen tar 20,0 ms.</p><ol type=\"a\"><li>Hur stor impuls får bollen från golvet?</li><li>Hur stor är medelkraften från golvet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(I=1{,}2(2{,}1+5{,}2)\\), riktad uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\) Ns</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{8{,}8}{0{,}0200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(438\\) N</p></li></ol></div>",
+    "t": "<p>En boll på 1,2 kg träffar golvet med farten 5,2 m/s nedåt och studsar med farten 2,1 m/s uppåt. Golvkontakten varar 20,0 ms. Använd g = 9,82 m/s².</p><div class=\"deluppgifter\"><div>a) Hur stor impuls ger golvet bollen?</div><div>b) Hur stor är golvets medelkraft på bollen?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Välj uppåt som positiv riktning. Rörelsemängden ökar med 1,2 · (2,1 − (−5,2)) = 8,76 Ns. Tyngdkraften ger samtidigt en impuls nedåt. Golvets impuls måste därför vara större än 8,76 Ns.</p></li><li><div class=\"facit-matte\">\\[I_\\mathrm{golv}=\\Delta p+mg\\Delta t=8{,}76+1{,}2\\cdot9{,}82\\cdot0{,}0200=8{,}99568\\,\\mathrm{Ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9,0 Ns uppåt.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Golvets medelkraft är golvets impuls dividerad med kontakttiden. 20,0 ms = 0,0200 s.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{golv,medel}=\\frac{I_\\mathrm{golv}}{\\Delta t}\\approx\\frac{9{,}0}{0{,}0200}=450\\,\\mathrm{N}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 450 N uppåt.</p></div></div></div>",
     "id": "5.386",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      8.76,
-      438.0
+      8.99568,
+      449.784
     ],
     "tolerans": [
       0.131,
@@ -109349,14 +109350,14 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (1,2 kg) träffar golvet med 5,2 m/s och studsar upp med 2,1 m/s. Studsen tar 20,0 ms.</p>",
+    "spelIntro": "<p>En boll på 1,2 kg träffar golvet med farten 5,2 m/s nedåt och studsar med farten 2,1 m/s uppåt. Golvkontakten varar 20,0 ms. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor impuls får bollen från golvet?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (1,2 kg) träffar golvet med 5,2 m/s och studsar upp med 2,1 m/s. Studsen tar 20,0 ms.</p><p>Hur stor impuls får bollen från golvet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(I=1{,}2(2{,}1+5{,}2)\\), riktad uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\) Ns</p></div>",
-        "ledtrad": "<p>Hastigheten byter riktning.</p>",
+        "fraga": "Hur stor impuls ger golvet bollen? Svara i Ns.",
+        "t": "<p>En boll på 1,2 kg träffar golvet med farten 5,2 m/s nedåt och studsar med farten 2,1 m/s uppåt. Golvkontakten varar 20,0 ms. Använd g = 9,82 m/s².</p><p>Hur stor impuls ger golvet bollen? Svara i Ns.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Välj uppåt som positiv riktning. Rörelsemängden ökar med 1,2 · (2,1 − (−5,2)) = 8,76 Ns. Tyngdkraften ger samtidigt en impuls nedåt. Golvets impuls måste därför vara större än 8,76 Ns.</p></li><li><div class=\"facit-matte\">\\[I_\\mathrm{golv}=\\Delta p+mg\\Delta t=8{,}76+1{,}2\\cdot9{,}82\\cdot0{,}0200=8{,}99568\\,\\mathrm{Ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9,0 Ns uppåt.</p></div>",
+        "ledtrad": "<p>Vilka två krafter verkar på bollen under studsen?</p>",
         "niva": "E",
         "poang": "(1/1/0)",
         "traningsniva": 2,
@@ -109364,10 +109365,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är medelkraften från golvet?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (1,2 kg) träffar golvet med 5,2 m/s och studsar upp med 2,1 m/s. Studsen tar 20,0 ms.</p>Impulsen är 8,8 Ns.<p>Hur stor är medelkraften från golvet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{8{,}8}{0{,}0200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(438\\) N</p></div>",
-        "ledtrad": "<p>\\(F=\\dfrac{I}{\\Delta t}\\).</p>",
+        "fraga": "Hur stor är golvets medelkraft på bollen? Svara i N.",
+        "t": "<p>Golvet ger en boll impulsen 9,0 Ns uppåt under 20,0 ms.</p><p>Hur stor är golvets medelkraft på bollen? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Golvets medelkraft är golvets impuls dividerad med kontakttiden. 20,0 ms = 0,0200 s.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{golv,medel}=\\frac{I_\\mathrm{golv}}{\\Delta t}\\approx\\frac{9{,}0}{0{,}0200}=450\\,\\mathrm{N}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 450 N uppåt.</p></div>",
+        "ledtrad": "<p>Dividera impulsen med kontakttiden i sekunder.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -109386,7 +109387,7 @@ window.BANK = [
     "niva": "C",
     "typ": "stålkula och kraft",
     "poang": "(1/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><ol type=\"a\"><li>riktad mot rörelsen.</li><li>riktad åt samma håll som rörelsen.</li></ol>",
+    "t": "<p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><ol type=\"a\"><li>riktad mot rörelsen.</li><li>riktad åt samma håll som rörelsen.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\Delta v=\\dfrac{1\\,200\\cdot0{,}027}{0{,}40}=81\\) m/s.</p></li><li><p>\\(v=14-81\\), alltså 67 m/s åt motsatt håll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(67\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=14+81\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(95\\) m/s</p></li></ol></div>",
     "id": "5.387",
     "miniräknare": true,
@@ -109419,12 +109420,12 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p>",
+    "spelIntro": "<p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "riktad mot rörelsen.",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><p>riktad mot rörelsen.</p>",
+        "t": "<p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><p>riktad mot rörelsen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\Delta v=\\dfrac{1\\,200\\cdot0{,}027}{0{,}40}=81\\) m/s.</p></li><li><p>\\(v=14-81\\), alltså 67 m/s åt motsatt håll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(67\\) m/s</p></div>",
         "ledtrad": "<p>Bestäm hastighetsändringen.</p>",
         "niva": "C",
@@ -109435,7 +109436,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "riktad åt samma håll som rörelsen.",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><p>riktad åt samma håll som rörelsen.</p>",
+        "t": "<p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><p>riktad åt samma håll som rörelsen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=14+81\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(95\\) m/s</p></div>",
         "ledtrad": "<p>Bestäm hastighetsändringen.</p>",
         "niva": "E",
@@ -109456,7 +109457,7 @@ window.BANK = [
     "niva": "C",
     "typ": "raketsegment separeras",
     "poang": "(2/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><ol type=\"a\"><li>Vilken fart får den främre delen?</li><li>Vilken fart får den bakre delen?</li><li>Hur långt från varandra är delarna efter 2 minuter?</li></ol>",
+    "t": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><ol type=\"a\"><li>Vilken fart får den främre delen?</li><li>Vilken fart får den bakre delen?</li><li>Hur långt från varandra är delarna efter 2 minuter?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=50+\\dfrac{3\\,600}{1\\,200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(53\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=50-\\dfrac{3\\,600}{1\\,800}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta s=(53-48)\\cdot120\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) m</p></li></ol></div>",
     "id": "5.388",
     "miniräknare": true,
@@ -109495,12 +109496,12 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p>",
+    "spelIntro": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken fart får den främre delen?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Vilken fart får den främre delen?</p>",
+        "t": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Vilken fart får den främre delen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=50+\\dfrac{3\\,600}{1\\,200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(53\\) m/s</p></div>",
         "ledtrad": "<p>\\(\\Delta v=\\dfrac{I}{m}\\).</p>",
         "niva": "E",
@@ -109511,7 +109512,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Vilken fart får den bakre delen?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Vilken fart får den bakre delen?</p>",
+        "t": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Vilken fart får den bakre delen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=50-\\dfrac{3\\,600}{1\\,800}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\) m/s</p></div>",
         "ledtrad": "<p>Impulsen är riktad bakåt.</p>",
         "niva": "E",
@@ -109522,7 +109523,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur långt från varandra är delarna efter 2 minuter?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Hur långt från varandra är delarna efter 2 minuter?</p>",
+        "t": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Hur långt från varandra är delarna efter 2 minuter?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta s=(53-48)\\cdot120\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) m</p></div>",
         "ledtrad": "<p>Använd den relativa farten.</p>",
         "niva": "C",
@@ -109543,8 +109544,8 @@ window.BANK = [
     "niva": "E",
     "typ": "stoppa en pulka",
     "poang": "(1/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett barn i en pulka (sammanlagt 35 kg) åker med 1,5 m/s. Med vilken medelkraft måste du bromsa för att stoppa pulkan på 0,50 s?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{35\\cdot1{,}5}{0{,}50}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(105\\) N</p></div>",
+    "t": "<p>Ett barn i en pulka (sammanlagt 35 kg) åker med 1,5 m/s. Med vilken medelkraft måste du bromsa för att stoppa pulkan på 0,50 s?</p>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>För att stanna måste pulkans hela rörelsemängd försvinna. Dividera rörelsemängdens storlek med stopptiden.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{mv}{\\Delta t}=\\frac{35\\cdot1{,}5}{0{,}50}=105\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 105 N mot rörelsen.</p></div>",
     "id": "5.389",
     "miniräknare": true,
     "geogebra": false,
@@ -109559,7 +109560,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 1,
@@ -109571,7 +109572,7 @@ window.BANK = [
     "niva": "C",
     "typ": "puckens massa",
     "poang": "(0/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En puck glider med 12 m/s. En klubba ger den impulsen 4,0 Ns så att den far tillbaka med samma fart. Vilken massa har pucken?</p>",
+    "t": "<p>En puck glider med 12 m/s. En klubba ger den impulsen 4,0 Ns så att den far tillbaka med samma fart. Vilken massa har pucken?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta p=m\\cdot24=4{,}0\\iff m=\\dfrac{4{,}0}{24}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}17\\) kg</p></div>",
     "id": "5.390",
     "miniräknare": true,
@@ -109599,8 +109600,8 @@ window.BANK = [
     "niva": "E",
     "typ": "bowlingklot mot vägg",
     "poang": "(1/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett bowlingklot (5,9 kg) rullar med 8,9 m/s mot en vägg och stannar på 0,018 s. Hur stor är medelkraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{5{,}9\\cdot8{,}9}{0{,}018}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,917\\) N</p></div>",
+    "t": "<p>Ett bowlingklot (5,9 kg) rullar med 8,9 m/s mot en vägg och stannar på 0,018 s. Hur stor är medelkraften?</p>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Klotets rörelsemängd minskar från mv till noll. Medelkraftens storlek fås genom att dividera minskningen med kontakttiden.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{mv}{\\Delta t}=\\frac{5{,}9\\cdot8{,}9}{0{,}018}\\approx2917\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2900 N mot rörelsen.</p></div>",
     "id": "5.391",
     "miniräknare": true,
     "geogebra": false,
@@ -109615,7 +109616,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 1,
@@ -109627,7 +109628,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bromsa ett tåg",
     "poang": "(2/0/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><ol type=\"a\"><li>Hur stor kraft krävs för att stoppa tåget på 25 s?</li><li>Hur lång tid tar det med bromskraften 0,10 MN?</li></ol>",
+    "t": "<p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><ol type=\"a\"><li>Hur stor kraft krävs för att stoppa tåget på 25 s?</li><li>Hur lång tid tar det med bromskraften 0,10 MN?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Halva tiden kräver dubbla kraften.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^{5}\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Halva kraften kräver dubbla tiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\) s</p></li></ol></div>",
     "id": "5.392",
     "miniräknare": true,
@@ -109661,12 +109662,12 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p>",
+    "spelIntro": "<p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor kraft krävs för att stoppa tåget på 25 s?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><p>Hur stor kraft krävs för att stoppa tåget på 25 s?</p>",
+        "t": "<p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><p>Hur stor kraft krävs för att stoppa tåget på 25 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Halva tiden kräver dubbla kraften.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^{5}\\) N</p></div>",
         "ledtrad": "<p>\\(F\\Delta t\\) är konstant.</p>",
         "niva": "E",
@@ -109677,7 +109678,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur lång tid tar det med bromskraften 0,10 MN?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><p>Hur lång tid tar det med bromskraften 0,10 MN?</p>",
+        "t": "<p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><p>Hur lång tid tar det med bromskraften 0,10 MN?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Halva kraften kräver dubbla tiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\) s</p></div>",
         "ledtrad": "<p>\\(F\\Delta t\\) är konstant.</p>",
         "niva": "E",
@@ -109698,7 +109699,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tennisboll slås tillbaka",
     "poang": "(0/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En tennisboll (60 g) kommer med 20 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 50 ms. Hur stor är medelkraften från racketen?</p>",
+    "t": "<p>En tennisboll (60 g) kommer med 20 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 50 ms. Hur stor är medelkraften från racketen?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}060(50+20)}{0{,}050}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(84\\) N</p></div>",
     "id": "5.393",
     "miniräknare": true,
@@ -109726,7 +109727,7 @@ window.BANK = [
     "niva": "C",
     "typ": "studs ur höjder",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En boll (150 g) släpps från 1,25 m och studsar upp till 0,960 m. Hur stor impuls får bollen från golvet?</p>",
+    "t": "<p>En boll på 150 g släpps från vila. Tyngdpunkten faller 1,25 m före golvkontakten och stiger sedan 0,960 m efter studsen. Bortse från luftmotståndet och från tyngdkraften under den korta golvkontakten. Använd g = 9,82 m/s².</p><p>Hur stor impuls ger golvet bollen? Svara i Ns.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v_1=\\sqrt{2g\\cdot1{,}25}\\],</div></li><li><div class=\"facit-matte\">\\[v_2=\\sqrt{2g\\cdot0{,}960}\\].</div></li><li><div class=\"facit-matte\">\\[I=0{,}150(v_1+v_2)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\) Ns</p></div>",
     "id": "5.394",
     "miniräknare": true,
@@ -109741,7 +109742,7 @@ window.BANK = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm farten före och efter studsen.</p>",
+    "ledtrad": "<p>Bestäm farten före och efter studsen. Kom ihåg att bollen byter riktning.</p>",
     "traningsniva": 3,
     "svarEnhet": "Ns",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
@@ -109754,7 +109755,7 @@ window.BANK = [
     "niva": "C",
     "typ": "ägg som faller",
     "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p><ol type=\"a\"><li>Vilken fart har ägget före nedslaget?</li><li>Hur stor är medelkraften från golvet?</li><li>Hur mycket trycks ägget ihop?</li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p><ol type=\"a\"><li>Vilken fart har ägget före nedslaget?</li><li>Hur stor är medelkraften från golvet?</li><li>Hur mycket trycks ägget ihop?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}4\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(F=\\dfrac{0{,}050\\cdot4{,}4}{0{,}010}\\), plus tyngden 0,49 N.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(23\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelfarten under inbromsningen är \\(\\dfrac{4{,}4}{2}\\): \\(s=\\dfrac{4{,}4\\cdot0{,}010}{2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}022\\) m</p></li></ol></div>",
     "id": "5.395",
     "miniräknare": true,
@@ -109793,23 +109794,23 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken fart har ägget före nedslaget?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p><p>Vilken fart har ägget före nedslaget?</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p><p>Vilken fart har ägget före nedslaget?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}4\\) m/s</p></div>",
         "ledtrad": "<p>\\(v^2=2gh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "Hur stor är medelkraften från golvet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>Farten före nedslaget är 4,4 m/s.<p>Hur stor är medelkraften från golvet?</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>Farten före nedslaget är 4,4 m/s.<p>Hur stor är medelkraften från golvet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(F=\\dfrac{0{,}050\\cdot4{,}4}{0{,}010}\\), plus tyngden 0,49 N.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(23\\) N</p></div>",
         "ledtrad": "<p>Impulslagen.</p>",
         "niva": "C",
@@ -109820,7 +109821,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur mycket trycks ägget ihop?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>Farten före nedslaget är 4,4 m/s.<p>Hur mycket trycks ägget ihop?</p>",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>Farten före nedslaget är 4,4 m/s.<p>Hur mycket trycks ägget ihop?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelfarten under inbromsningen är \\(\\dfrac{4{,}4}{2}\\): \\(s=\\dfrac{4{,}4\\cdot0{,}010}{2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}022\\) m</p></div>",
         "ledtrad": "<p>Konstant retardation.</p>",
         "niva": "C",
@@ -109869,8 +109870,8 @@ window.BANK = [
     "niva": "C",
     "typ": "hopp ned i brandsegel",
     "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p><ol type=\"a\"><li>Från vilken höjd hoppade personen?</li><li>Hur lång tid tar inbromsningen?</li><li>Hur stor är medelkraften från seglet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{v^2}{2g}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelfarten är 12 m/s: \\(t=\\dfrac{1{,}0}{12}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}083\\) s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{mv}{t}+mg=\\dfrac{75\\cdot24}{0{,}083}+75\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\,336\\) N</p></li></ol></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p><p>Personen börjar falla från vila. Bortse från luftmotståndet under fallet och räkna med konstant acceleration under inbromsningen.</p><ol type=\"a\"><li>Från vilken höjd hoppade personen?</li><li>Hur lång tid tar inbromsningen?</li><li>Hur stor är medelkraften från seglet?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{v^2}{2g}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) m</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelfarten är 12 m/s: \\(t=\\dfrac{1{,}0}{12}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}083\\) s</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Seglet måste både bromsa personen och motverka tyngdkraften. Välj uppåt som positiv riktning.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{segel}-mg=\\frac{m\\Delta v}{\\Delta t}\\quad\\Rightarrow\\quad F_\\mathrm{segel}=\\frac{75\\cdot24}{0{,}0833}+75\\cdot9{,}82\\approx22345\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 22 000 N uppåt.</p></div></div></div>",
     "id": "5.397",
     "miniräknare": true,
     "geogebra": false,
@@ -109908,12 +109909,12 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Från vilken höjd hoppade personen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p><p>Från vilken höjd hoppade personen?</p>",
+        "fraga": "Hur långt har personen fallit? Svara i m.",
+        "t": "<p>En person börjar falla från vila och når farten 24 m/s innan hen träffar ett räddningssegel. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur långt har personen fallit? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{v^2}{2g}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) m</p></div>",
         "ledtrad": "<p>\\(v^2=2gh\\).</p>",
         "niva": "E",
@@ -109923,8 +109924,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar inbromsningen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p><p>Hur lång tid tar inbromsningen?</p>",
+        "fraga": "Hur lång tid tar inbromsningen? Svara i s.",
+        "t": "<p>En person träffar ett räddningssegel med farten 24 m/s nedåt och bromsas till vila på 1,0 m. Räkna med konstant acceleration under inbromsningen.</p><p>Hur lång tid tar inbromsningen? Svara i s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelfarten är 12 m/s: \\(t=\\dfrac{1{,}0}{12}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}083\\) s</p></div>",
         "ledtrad": "<p>Konstant retardation.</p>",
         "niva": "C",
@@ -109934,10 +109935,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är medelkraften från seglet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p>Inbromsningen tar 0,083 s.<p>Hur stor är medelkraften från seglet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{mv}{t}+mg=\\dfrac{75\\cdot24}{0{,}083}+75\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\,336\\) N</p></div>",
-        "ledtrad": "<p>Seglet ska både bromsa och bära tyngden.</p>",
+        "fraga": "Hur stor är medelkraften från seglet på personen? Svara i N.",
+        "t": "<p>En person på 75 kg bromsas från 24 m/s nedåt till vila i ett räddningssegel. Inbromsningen tar 0,0833 s. Använd g = 9,82 m/s².</p><p>Hur stor är medelkraften från seglet på personen? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Seglet måste både bromsa personen och motverka tyngdkraften. Välj uppåt som positiv riktning.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{segel}-mg=\\frac{m\\Delta v}{\\Delta t}\\quad\\Rightarrow\\quad F_\\mathrm{segel}=\\frac{75\\cdot24}{0{,}0833}+75\\cdot9{,}82\\approx22345\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 22 000 N uppåt.</p></div>",
+        "ledtrad": "<p>Vilka två krafter verkar på personen under inbromsningen?</p>",
         "niva": "C",
         "poang": "(0/1/1)",
         "traningsniva": 3,
@@ -109956,7 +109957,7 @@ window.BANK = [
     "niva": "C",
     "typ": "kindben och ratt",
     "poang": "(1/1/0)",
-    "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p><ol type=\"a\"><li>Hur stor är medelkraften?</li><li>Vilken är den kortaste kontakttid som undviker skador?</li></ol>",
+    "t": "<p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p><ol type=\"a\"><li>Hur stor är medelkraften?</li><li>Vilken är den kortaste kontakttid som undviker skador?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{150}{0{,}020}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,500\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{150}{900}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}17\\) s</p></li></ol></div>",
     "id": "5.398",
     "miniräknare": true,
@@ -109990,23 +109991,23 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p>",
+    "spelIntro": "<p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är medelkraften?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p><p>Hur stor är medelkraften?</p>",
+        "fraga": "Hur stor är medelkraften på huvudet? Svara i N.",
+        "t": "<p>En testdockas huvud bromsas med impulsen 150 Ns under 20 ms.</p><p>Hur stor är medelkraften på huvudet? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{150}{0{,}020}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,500\\) N</p></div>",
         "ledtrad": "<p>\\(F=\\dfrac I{\\Delta t}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken är den kortaste kontakttid som undviker skador?",
-        "t": "<p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p><p>Vilken är den kortaste kontakttid som undviker skador?</p>",
+        "fraga": "Hur lång måste inbromsningen minst vara? Svara i s.",
+        "t": "<p>En testdockas huvud ska bromsas med impulsen 150 Ns. Medelkraften får vara högst 900 N.</p><p>Hur lång måste inbromsningen minst vara? Svara i s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{150}{900}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}17\\) s</p></div>",
         "ledtrad": "<p>Samma impuls, högst 900 N.</p>",
         "niva": "C",
@@ -110027,8 +110028,8 @@ window.BANK = [
     "niva": "C",
     "typ": "magplask i vattenbalja",
     "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p><ol type=\"a\"><li>Vilken fart har han vid vattenytan?</li><li>Hur lång tid tar inbromsningen?</li><li>Hur stor är medelkraften från vattnet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot12}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{2\\cdot0{,}30}{v}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}039\\) s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F\\cdot0{,}30=mg(12+0{,}30)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(31\\,404\\) N</p></li></ol></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p><p>Personen börjar falla från vila. Bortse från luftmotståndet under fallet och räkna med konstant acceleration under inbromsningen.</p><ol type=\"a\"><li>Vilken fart har han vid vattenytan?</li><li>Hur lång tid tar inbromsningen?</li><li>Hur stor är medelkraften från vattnet?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot12}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten. Slutfarten är noll.</p></li><li><div class=\"facit-matte\">\\[t=\\frac{s}{v_\\mathrm{medel}}=\\frac{0{,}30}{(15{,}35+0)/2}\\approx0{,}0390\\,\\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,039 s.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Beräkna först den uppåtriktade accelerationen under stoppet. Vattnets kraft måste också motverka tyngdkraften.</p></li><li><div class=\"facit-matte\">\\[a=\\frac{v^2}{2s}=\\frac{15{,}35^2}{2\\cdot0{,}30}\\qquad F_\\mathrm{vatten}=m(a+g)=78\\left(\\frac{15{,}35^2}{0{,}60}+9{,}82\\right)\\approx31397\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 31 400 N uppåt.</p></div></div></div>",
     "id": "5.399",
     "miniräknare": true,
     "geogebra": false,
@@ -110066,24 +110067,24 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har han vid vattenytan?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p><p>Vilken fart har han vid vattenytan?</p>",
+        "fraga": "Vilken fart har akrobaten vid vattenytan? Svara i m/s.",
+        "t": "<p>En akrobat börjar falla från vila och faller 12 m innan hen når vattenytan. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har akrobaten vid vattenytan? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot12}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></div>",
         "ledtrad": "<p>\\(v^2=2gh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar inbromsningen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p>Farten vid vattenytan är 15,4 m/s.<p>Hur lång tid tar inbromsningen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{2\\cdot0{,}30}{v}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}039\\) s</p></div>",
+        "fraga": "Hur lång tid tar inbromsningen? Svara i s.",
+        "t": "<p>En akrobat träffar vattenytan med farten 15,35 m/s nedåt och bromsas till vila på 0,30 m. Räkna med konstant acceleration under inbromsningen.</p><p>Hur lång tid tar inbromsningen? Svara i s.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten. Slutfarten är noll.</p></li><li><div class=\"facit-matte\">\\[t=\\frac{s}{v_\\mathrm{medel}}=\\frac{0{,}30}{(15{,}35+0)/2}\\approx0{,}0390\\,\\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,039 s.</p></div>",
         "ledtrad": "<p>Konstant retardation: medelfarten är \\(v/2\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -110092,10 +110093,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är medelkraften från vattnet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p><p>Hur stor är medelkraften från vattnet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F\\cdot0{,}30=mg(12+0{,}30)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(31\\,404\\) N</p></div>",
-        "ledtrad": "<p>Räkna med hela fallhöjden 12,3 m.</p>",
+        "fraga": "Hur stor är kraften från vattnet på akrobaten? Svara i N.",
+        "t": "<p>En akrobat på 78 kg träffar vattenytan med farten 15,35 m/s nedåt och bromsas till vila på 0,30 m. Räkna med konstant acceleration under inbromsningen. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från vattnet på akrobaten? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Beräkna först den uppåtriktade accelerationen under stoppet. Vattnets kraft måste också motverka tyngdkraften.</p></li><li><div class=\"facit-matte\">\\[a=\\frac{v^2}{2s}=\\frac{15{,}35^2}{2\\cdot0{,}30}\\qquad F_\\mathrm{vatten}=m(a+g)=78\\left(\\frac{15{,}35^2}{0{,}60}+9{,}82\\right)\\approx31397\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 31 400 N uppåt.</p></div>",
+        "ledtrad": "<p>Skilj vattnets kraft från summan av vattnets kraft och tyngdkraften.</p>",
         "niva": "C",
         "poang": "(0/1/1)",
         "traningsniva": 3,
@@ -110114,8 +110115,8 @@ window.BANK = [
     "niva": "C",
     "typ": "stuntman i luftmadrass",
     "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p><ol type=\"a\"><li>Från vilken höjd föll han?</li><li>Hur lång tid tog inbromsningen?</li><li>Hur stor var medelkraften från madrassen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{36^2}{2\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(66\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{2\\cdot4{,}0}{36}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}22\\) s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F\\cdot4{,}0=mg(66+4{,}0)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,746\\) N</p></li></ol></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p><p>Personen börjar falla från vila. Bortse från luftmotståndet under fallet och räkna med konstant acceleration under inbromsningen.</p><ol type=\"a\"><li>Från vilken höjd föll han?</li><li>Hur lång tid tog inbromsningen?</li><li>Hur stor var medelkraften från madrassen?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{36^2}{2\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(66\\) m</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{2\\cdot4{,}0}{36}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}22\\) s</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Den uppåtriktade accelerationen bestäms av fart och bromssträcka. Madrassens kraft ska både bromsa stuntmannen och motverka tyngdkraften.</p></li><li><div class=\"facit-matte\">\\[a=\\frac{36^2}{2\\cdot4{,}0}=162\\,\\mathrm{m/s^2}\\qquad F_\\mathrm{madrass}=m(a+g)=80(162+9{,}82)=13745{,}6\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14 000 N uppåt.</p></div></div></div>",
     "id": "5.400",
     "miniräknare": true,
     "geogebra": false,
@@ -110153,23 +110154,23 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Från vilken höjd föll han?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p><p>Från vilken höjd föll han?</p>",
+        "fraga": "Hur långt har stuntmannen fallit? Svara i m.",
+        "t": "<p>En stuntman börjar falla från vila och når farten 36 m/s innan hen träffar en luftmadrass. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur långt har stuntmannen fallit? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{36^2}{2\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(66\\) m</p></div>",
         "ledtrad": "<p>\\(v^2=2gh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tog inbromsningen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p><p>Hur lång tid tog inbromsningen?</p>",
+        "fraga": "Hur lång tid tar inbromsningen? Svara i s.",
+        "t": "<p>En stuntman träffar en luftmadrass med farten 36 m/s nedåt och bromsas till vila på 4,0 m. Räkna med konstant acceleration under inbromsningen.</p><p>Hur lång tid tar inbromsningen? Svara i s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{2\\cdot4{,}0}{36}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}22\\) s</p></div>",
         "ledtrad": "<p>Medelfarten är halva farten.</p>",
         "niva": "C",
@@ -110179,10 +110180,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor var medelkraften från madrassen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Impulslagen: \\(F\\Delta t=\\Delta p=mv-mv_0\\).</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p>Fallhöjden är 66 m.<p>Hur stor var medelkraften från madrassen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F\\cdot4{,}0=mg(66+4{,}0)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,746\\) N</p></div>",
-        "ledtrad": "<p>Räkna med hela fallhöjden.</p>",
+        "fraga": "Hur stor är kraften från madrassen på stuntmannen? Svara i N.",
+        "t": "<p>En stuntman på 80 kg träffar en luftmadrass med farten 36 m/s nedåt och bromsas till vila på 4,0 m. Räkna med konstant acceleration under inbromsningen. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från madrassen på stuntmannen? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Den uppåtriktade accelerationen bestäms av fart och bromssträcka. Madrassens kraft ska både bromsa stuntmannen och motverka tyngdkraften.</p></li><li><div class=\"facit-matte\">\\[a=\\frac{36^2}{2\\cdot4{,}0}=162\\,\\mathrm{m/s^2}\\qquad F_\\mathrm{madrass}=m(a+g)=80(162+9{,}82)=13745{,}6\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14 000 N uppåt.</p></div>",
+        "ledtrad": "<p>Beräkna den sammanlagda kraften som bromsar personen och lägg sedan till tyngdkraften.</p>",
         "niva": "C",
         "poang": "(0/1/1)",
         "traningsniva": 3,
@@ -110820,7 +110821,7 @@ window.BANK = [
         "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -110831,23 +110832,23 @@ window.BANK = [
         "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Ett kylsystem innehåller 18,0 liter vatten som värms från 15 °C till 95 °C. Hur mycket energi tas upp?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ett kylsystem innehåller 18,0 liter vatten som värms från 15 °C till 95 °C. Hur mycket energi tas upp?</p>",
+        "fraga": "Hur mycket energi tar vattnet upp? Svara i J.",
+        "t": "<p>18,0 liter vatten värms från 15 °C till 95 °C. Räkna med att 1,0 liter vatten har massan 1,0 kg. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i J.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=18{,}0\\cdot4\\,180\\cdot80\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\cdot10^{6}\\) J</p></div>",
         "ledtrad": "<p>1 liter vatten har massan 1 kg.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "varme__specifik_varmekapacitet",
     "arbetsinsats": 2,
     "spel": true
@@ -110987,7 +110988,7 @@ window.BANK = [
         "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -110998,7 +110999,7 @@ window.BANK = [
         "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -111056,13 +111057,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi måste bortföras för att kyla 200 g is från 0 °C till −30 °C?",
-        "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p><p>Hur mycket energi måste bortföras för att kyla 200 g is från 0 °C till −30 °C?</p>",
+        "fraga": "Hur mycket energi avger isen? Svara i J.",
+        "t": "<p>200 g is kyls från 0 °C till −30 °C. Isens specifika värmekapacitet är 2,2 kJ/(kg·K).</p><p>Hur mycket energi avger isen? Svara i J.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=0{,}200\\cdot2\\,200\\cdot30\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,200\\) J</p></div>",
         "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -111221,13 +111222,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många kelvin stiger temperaturen hos 20 g kvicksilver om det tillförs 100 J?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K).</p><p>Hur många kelvin stiger temperaturen hos 20 g kvicksilver om det tillförs 100 J?</p>",
+        "fraga": "Hur mycket stiger temperaturen? Svara i K.",
+        "t": "<p>20 g kvicksilver tar emot energin 100 J. Kvicksilvrets specifika värmekapacitet är 0,14 kJ/(kg·K).</p><p>Hur mycket stiger temperaturen? Svara i K.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{100}{0{,}020\\cdot140}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\) K</p></div>",
         "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -111478,7 +111479,7 @@ window.BANK = [
         "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -112968,7 +112969,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}050\\ \\mathrm{kg}\\) is vid \\(0\\,{}^\\circ\\mathrm C\\) smälter. Isens smältentalpi är \\(334\\ \\mathrm{kJ/kg}\\). Hur mycket energi behövs?</p>",
+    "t": "<p>\\(0{,}050\\ \\mathrm{kg}\\) is vid \\(0\\,{}^\\circ\\mathrm C\\) smälter. Isens smältvärme är \\(334\\ \\mathrm{kJ/kg}\\). Hur mycket energi behövs?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL=0{,}050\\cdot334=16{,}7\\ \\mathrm{kJ}\\].</div></li></ol></div>",
     "familj": "Latent värme",
     "formaga": [
@@ -113026,7 +113027,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}050\\ \\mathrm{kg}\\) vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) kondenserar. Vattnets ångbildningsentalpi är \\(2260\\ \\mathrm{kJ/kg}\\). Hur mycket energi avges?</p>",
+    "t": "<p>\\(0{,}050\\ \\mathrm{kg}\\) vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) kondenserar. Vattnets ångbildningsvärme är \\(2260\\ \\mathrm{kJ/kg}\\). Hur mycket energi avges?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=mL=0{,}050\\cdot2260=113\\ \\mathrm{kJ}\\].</div></li></ol></div>",
     "familj": "Latent värme",
     "formaga": [
@@ -113148,8 +113149,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi krävs för att smälta 1,2 kg aluminium vid smältpunkten?",
-        "t": "<p>Smältvärme för aluminium 397 kJ/kg. Ångbildningsvärme för etanol 840 kJ/kg.</p><p>Hur mycket energi krävs för att smälta 1,2 kg aluminium vid smältpunkten?</p>",
+        "fraga": "Hur mycket energi krävs för att smälta aluminiumet? Svara i J.",
+        "t": "<p>1,2 kg aluminium är vid sin smältpunkt. För att smälta aluminium krävs 397 kJ/kg.</p><p>Hur mycket energi krävs för att smälta aluminiumet? Svara i J.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=1{,}2\\cdot397\\cdot10^3\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}8\\cdot10^{5}\\) J</p></div>",
         "ledtrad": "<p>\\(Q=ml\\).</p>",
         "niva": "E",
@@ -113159,18 +113160,18 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi frigörs när 25 g etanolånga kondenserar vid kokpunkten?",
-        "t": "<p>Smältvärme för aluminium 397 kJ/kg. Ångbildningsvärme för etanol 840 kJ/kg.</p><p>Hur mycket energi frigörs när 25 g etanolånga kondenserar vid kokpunkten?</p>",
+        "fraga": "Hur mycket energi avges? Svara i J.",
+        "t": "<p>25 g etanolånga övergår till vätska vid kokpunkten. Då avges 840 kJ per kg etanol.</p><p>Hur mycket energi avges? Svara i J.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=0{,}025\\cdot840\\cdot10^3\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\,000\\) J</p></div>",
         "ledtrad": "<p>\\(Q=ml\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>\\(Q=ml\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "fasandring__latent_varme",
     "arbetsinsats": 2,
     "spel": true
@@ -113310,7 +113311,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(Q=ml\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__latent_varme",
     "arbetsinsats": 1,
@@ -115412,8 +115413,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm polspänningen.",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p>Strömmen är 4,74 A.<p>Bestäm polspänningen.</p>",
+        "fraga": "Hur stor är spänningen över värmeelementet? Svara i V.",
+        "t": "<p>Ett värmeelement har resistansen 0,32 Ω. Strömmen genom elementet är 4,74 A.</p><p>Hur stor är spänningen över värmeelementet? Svara i V.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[U=0{,}32\\cdot4{,}74\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}52\\) V</p></div>",
         "ledtrad": "<p>\\(U=RI\\).</p>",
         "niva": "E",
@@ -115914,13 +115915,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor energi omsätter torktumlaren?",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En torktumlare kopplad till 230 V drar 16 A i 45 minuter. En dator kopplad till 120 V drar 2,7 A.</p><p>Hur stor energi omsätter torktumlaren?</p>",
+        "fraga": "Hur mycket elektrisk energi använder torktumlaren? Svara i J.",
+        "t": "<p>En torktumlare är ansluten till spänningen 230 V. Den drar strömmen 16 A under 45 minuter.</p><p>Hur mycket elektrisk energi använder torktumlaren? Svara i J.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E=UIt=230\\cdot16\\cdot2\\,700\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}9\\cdot10^{6}\\) J</p></div>",
         "ledtrad": "<p>\\(E=UIt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -115990,13 +115991,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor effekt har blixten?",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En blixt varar i genomsnitt 0,52 s med spänningen 300 kV och strömmen 30,0 kA.</p><p>Hur stor effekt har blixten?</p>",
+        "fraga": "Hur stor är blixtens elektriska effekt? Svara i W.",
+        "t": "<p>Under en blixt är spänningen 300 kV och strömmen 30,0 kA.</p><p>Hur stor är blixtens elektriska effekt? Svara i W.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=300\\cdot10^3\\cdot30{,}0\\cdot10^3\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\cdot10^{9}\\) W</p></div>",
         "ledtrad": "<p>\\(P=UI\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -116007,7 +116008,7 @@ window.BANK = [
         "ledtrad": "<p>\\(E=Pt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -119580,7 +119581,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=178\\cdot 3{,}00=534\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 534 J.</p></div>",
         "ledtrad": "<p>Kraften verkar i förflyttningens riktning.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -119594,7 +119595,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{534}{120}=4{,}45\\, \\mathrm{m}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 4,45 m.</p></div>",
         "ledtrad": "<p>Lös ut sträckan ur sambandet för arbete.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -119608,7 +119609,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{W}{s}=\\frac{534}{2{,}5}=213{,}6\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 213,6 N.</p></div>",
         "ledtrad": "<p>Vilken kvot ger kraftens belopp?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -120244,7 +120245,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Dragkraftens arbete är</p><div class=\"facit-matte\">\\[W=100\\cdot 5{,}0=500\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 500 J.</p></div>",
         "ledtrad": "<p>Vilken krafts arbete efterfrågas?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -120267,8 +120268,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En lodrät lyftkraft flyttar lådan 5,0 m uppåt. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 15 kg förflyttas med konstant fart i tre separata fall. Beräkna arbetet av den angivna drag- eller lyftkraften, inte nettoarbetet. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>En lodrät lyftkraft flyttar lådan 5,0 m uppåt. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stort arbete gör lyftkraften på lådan? Svara i J. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En låda på 15 kg lyfts rakt upp 5,0 m med konstant fart. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör lyftkraften på lådan? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant fart är</p><div class=\"facit-matte\">\\[F_{\\mathrm{lyft}}=m g\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Arbetet blir</p><div class=\"facit-matte\">\\[W=15\\cdot 9{,}82\\cdot 5{,}0=736{,}5\\, \\mathrm{J}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 736,5 J.</p></div>",
         "ledtrad": "<p>Vilken kraft krävs när accelerationen är noll?</p>",
         "niva": "E",
@@ -121477,7 +121478,7 @@ window.BANK = [
     "id": "6.345",
     "kap": 6,
     "omr": "gaslagen",
-    "t": "<p>En bestämd gasmängd komprimeras isotermt så att volymen minskar med 20,0 %.</p><p>Bestäm tryckökningen i procent. Svara i %. Svara med ett heltal.</p>",
+    "t": "<p>En bestämd gasmängd pressas ihop utan att temperaturen ändras så att volymen minskar med 20,0 %.</p><p>Bestäm tryckökningen i procent. Svara i %. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den nya volymen är 0,80V₁.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Boyles lag ger</p><div class=\"facit-matte\">\\[\\frac{p_{2}}{p_{1}}=\\frac{1}{0{,}80}=1{,}25\\]</div></div></li><li><p>Trycket ökar alltså med 25 %.</p></li></ol><p class=\"facit-svar\">Svar: 25 %.</p></div>",
     "niva": "E",
     "traningsniva": 2,
@@ -122812,7 +122813,7 @@ window.BANK = [
     "id": "6.291",
     "kap": 6,
     "omr": "tryck",
-    "t": "<p>Trycket mot en kolv är 60 000 Pa högre på ena sidan än på den andra. Arean är 0,0020 m².</p><p>Bestäm nettokraftens storlek. Svara i N. Svara med ett heltal.</p>",
+    "t": "<p>Trycket mot en kolv är 60 000 Pa högre på ena sidan än på den andra. Arean är 0,0020 m².</p><p>Hur stor är den sammanlagda kraften från trycken på kolvens båda sidor? Svara i N. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=60\\,000\\cdot 0{,}0020=120\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 120 N.</p></div>",
     "niva": "E",
     "traningsniva": 1,
@@ -123794,8 +123795,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den ursprungliga substansmängden. Svara i mol. Svara med ett heltal.",
-        "t": "<p>En tank innehåller 28,5 kg kvävgas vid 0,0 °C och det absoluta trycket 101,3 kPa. Kvävgasens molmassa är 28,0 g/mol. Därefter tillsätts 32,2 kg kvävgas utan att volymen eller temperaturen ändras.</p><p>Bestäm den ursprungliga substansmängden. Svara i mol. Svara med ett heltal.</p>",
+        "fraga": "Hur många mol kvävgas är det? Svara med ett heltal.",
+        "t": "<p>Kvävgasens massa är 28,5 kg. Molmassan är 28,0 g/mol.</p><p>Hur många mol kvävgas är det? Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>n₁ = m/M = 28,5/0,0280 ≈ 1017,86 mol.</p></li></ol><p class=\"facit-svar\">Svar: 1018 mol.</p></div>",
         "ledtrad": "<p>Omvandla molmassan till kilogram per mol.</p>",
         "niva": "E",
@@ -123844,7 +123845,11 @@ window.BANK = [
     "familjTidigare": [
       "Ideala gaslagen och ändrad gasmängd"
     ],
-    "rättSvar273": [null, 22.8, null]
+    "rättSvar273": [
+      null,
+      22.8,
+      null
+    ]
   },
   {
     "id": "6.203",
@@ -124780,7 +124785,7 @@ window.BANK = [
         "ledtrad": "<p>\\(s=vt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -124802,7 +124807,7 @@ window.BANK = [
         "ledtrad": "<p>\\(s=vt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -125132,13 +125137,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många minuter tar Annas lopp?",
-        "t": "<p>Anna åker 10 km med 18 km/h. Stina startar 2,0 minuter efter Anna och går i mål 3,0 minuter före henne.</p><p>Hur många minuter tar Annas lopp?</p>",
+        "fraga": "Hur många minuter tar resan?",
+        "t": "<p>Anna cyklar 10 km med konstant fart 18 km/h.</p><p>Hur många minuter tar resan?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{10}{18}\\cdot60\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(33\\) min</p></div>",
         "ledtrad": "<p>\\(s=vt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -125742,7 +125747,7 @@ window.BANK = [
         "ledtrad": "<p>Ekot går dubbla sträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -127116,7 +127121,7 @@ window.BANK = [
     "tolerans": 0.16,
     "självrättning": true,
     "ledtrad": "<p>Hur stor blir den totala fartökningen på 3,0 s?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -127830,7 +127835,7 @@ window.BANK = [
         "ledtrad": "<p>\\(v=v_0+at\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -128173,7 +128178,7 @@ window.BANK = [
         "ledtrad": "<p>\\(v=v_0+at\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -128206,7 +128211,7 @@ window.BANK = [
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -128275,7 +128280,7 @@ window.BANK = [
         "ledtrad": "<p>\\(v=v_0+at\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -129175,13 +129180,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En miniräknare faller i 0,48 s. Från vilken höjd?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd.</p><p>En miniräknare faller i 0,48 s. Från vilken höjd?</p>",
+        "fraga": "Hur långt faller den? Svara i m.",
+        "t": "<p>En miniräknare släpps från vila och faller i 0,48 s. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur långt faller den? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{9{,}82\\cdot0{,}48^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\) m</p></div>",
         "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -129192,7 +129197,7 @@ window.BANK = [
         "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -129203,7 +129208,7 @@ window.BANK = [
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -129278,7 +129283,7 @@ window.BANK = [
         "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -129289,23 +129294,23 @@ window.BANK = [
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "En sten faller 45,2 m på Mars på 5,01 s. Bestäm tyngdaccelerationen på Mars.",
-        "t": "<p>En sten faller 45,2 m på Mars på 5,01 s. Bestäm tyngdaccelerationen på Mars.</p>",
+        "fraga": "Hur stor är tyngdaccelerationen på Mars? Svara i m/s².",
+        "t": "<p>En sten släpps från vila på Mars och faller 45,2 m på 5,01 s. Bortse från luftmotståndet.</p><p>Hur stor är tyngdaccelerationen på Mars? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g=\\dfrac{2\\cdot45{,}2}{5{,}01^2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}60\\) m/s²</p></div>",
         "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "konstacc__fritt_fall_och_lodrat_kast",
     "arbetsinsats": 2,
     "spel": true
@@ -129365,7 +129370,7 @@ window.BANK = [
         "ledtrad": "<p>\\(h=\\dfrac{gt^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -129376,7 +129381,7 @@ window.BANK = [
         "ledtrad": "<p>\\(v=gt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -129657,7 +129662,7 @@ window.BANK = [
         "ledtrad": "<p>\\(h=\\dfrac{v_0^2}{2g}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -130502,7 +130507,7 @@ window.BANK = [
     "tolerans": 0.0708,
     "självrättning": true,
     "ledtrad": "<p>Hur stor är fartökningen, och hur mycket ökar farten per sekund?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -130653,24 +130658,24 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En truck startar från vila och har 1,75 m/s efter 2,50 s. Hur långt har den rört sig?",
-        "t": "<p>En truck startar från vila och har 1,75 m/s efter 2,50 s. Hur långt har den rört sig?</p>",
+        "fraga": "Hur långt rör sig trucken under tiden? Svara i m.",
+        "t": "<p>En truck ökar farten från vila till 1,75 m/s på 2,50 s med konstant acceleration.</p><p>Hur långt rör sig trucken under tiden? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{0+1{,}75}{2}\\cdot2{,}50\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}2\\) m</p></div>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "En cyklist ökar farten från 12 m/s till 18 m/s på 4,3 s. Hur långt rör sig cyklisten?",
-        "t": "<p>En cyklist ökar farten från 12 m/s till 18 m/s på 4,3 s. Hur långt rör sig cyklisten?</p>",
+        "fraga": "Hur långt rör sig cyklisten under tiden? Svara i m.",
+        "t": "<p>En cyklist ökar farten från 12 m/s till 18 m/s på 4,3 s med konstant acceleration.</p><p>Hur långt rör sig cyklisten under tiden? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{12+18}{2}\\cdot4{,}3\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(64\\) m</p></div>",
         "ledtrad": "<p>\\(s=\\dfrac{v_0+v}{2}\\cdot t\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -130849,8 +130854,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till 4 decimaler.",
-        "t": "<p>En hockeypuck på 0,25 kg glider med farten 25 m/s på vågrät is. Glidfriktionstalet är 0,030 och friktionen är den enda vågräta kraften. Välj den ursprungliga rörelseriktningen som positiv.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till 4 decimaler.</p>",
+        "fraga": "Hur stor är friktionskraften? Svara i N. Avrunda vid behov till 4 decimaler.",
+        "t": "<p>En puck på 0,25 kg glider på vågrät is. Glidfriktionstalet är 0,030. Använd g = 9,82 m/s².</p><p>Hur stor är friktionskraften? Svara i N. Avrunda vid behov till 4 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{fr}}=\\mu m g=0{,}030\\cdot 0{,}25\\cdot 9{,}82=0{,}07365\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 0,0737 N.</p></div>",
         "ledtrad": "<p>Hur stor är normalkraften på vågrät is?</p>",
         "niva": "E",
@@ -130863,8 +130868,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till 4 decimaler.",
-        "t": "<p>En hockeypuck på 0,25 kg glider med farten 25 m/s på vågrät is. Glidfriktionstalet är 0,030 och friktionen är den enda vågräta kraften. Välj den ursprungliga rörelseriktningen som positiv.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till 4 decimaler.</p>",
+        "fraga": "Vilken acceleration har pucken? Ange tecken och svara i m/s². Avrunda vid behov till 4 decimaler.",
+        "t": "<p>En puck glider på vågrät is. Glidfriktionstalet är 0,030 och friktionen är den enda vågräta kraften. Rörelseriktningen är positiv. Använd g = 9,82 m/s².</p><p>Vilken acceleration har pucken? Ange tecken och svara i m/s². Avrunda vid behov till 4 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[a=\\frac{-F_{\\mathrm{fr}}}{m}=-\\mu g=-0{,}2946\\, \\mathrm{m/s^2}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: -0,2946 m/s².</p></div>",
         "ledtrad": "<p>Vilken riktning har nettokraften?</p>",
         "niva": "E",
@@ -131053,7 +131058,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken deformation ska kvadreras?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "J",
@@ -133502,7 +133507,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Tänk på hur 1 g/cm³ hänger ihop med 1000 kg/m³.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -133532,7 +133537,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>1000 kg/m³ motsvarar 1 g/cm³.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -134097,7 +134102,7 @@ window.BANK = [
     "typ": "effekt och energi",
     "poang": "(4/0/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En brandman (95 kg) klättrar 8,0 m upp på 28,0 s. Bestäm effekten.</li><li>En maskin avger 72 kJ på 5,0 min. Bestäm effekten.</li><li>En vattenkokare (2,0 kW) är på i 83 s. Hur mycket energi avger den?</li><li>Johan utvecklar 0,35 kW och förbränner 607 kJ. Hur många minuter springer han?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{95\\cdot9{,}82\\cdot8{,}0}{28{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(267\\) W</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{72\\,000}{300}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\) W</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E=2\\,000\\cdot83\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\cdot10^{5}\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(t=\\dfrac{607\\,000}{350}\\) s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) min</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{95\\cdot9{,}82\\cdot8{,}0}{28{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(267\\) W</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Medeleffekt är energi delat med tid. Omvandla 72 kJ = 72 000 J och 5,0 minuter = 300 s.</p></li><li><div class=\"facit-matte\">\\[P=\\frac Et=\\frac{72000}{300}=240\\,\\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 240 W.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Energin är effekt gånger tid. Omvandla effekten: 2,0 kW = 2000 W.</p></li><li><div class=\"facit-matte\">\\[E=Pt=2000\\cdot83=166000\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 170 000 J.</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(t=\\dfrac{607\\,000}{350}\\) s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) min</p></div></div></div>",
     "id": "5.551",
     "miniräknare": true,
     "geogebra": false,
@@ -134154,24 +134159,24 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En maskin avger 72 kJ på 5,0 min. Bestäm effekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En maskin avger 72 kJ på 5,0 min. Bestäm effekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{72\\,000}{300}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\) W</p></div>",
+        "fraga": "Hur stor är maskinens medeleffekt? Svara i W.",
+        "t": "<p>En maskin avger energin 72 kJ under 5,0 minuter.</p><p>Hur stor är maskinens medeleffekt? Svara i W.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Medeleffekt är energi delat med tid. Omvandla 72 kJ = 72 000 J och 5,0 minuter = 300 s.</p></li><li><div class=\"facit-matte\">\\[P=\\frac Et=\\frac{72000}{300}=240\\,\\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 240 W.</p></div>",
         "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "En vattenkokare (2,0 kW) är på i 83 s. Hur mycket energi avger den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vattenkokare (2,0 kW) är på i 83 s. Hur mycket energi avger den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E=2\\,000\\cdot83\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\cdot10^{5}\\) J</p></div>",
+        "fraga": "Hur mycket värme avger vattenkokaren? Svara i J.",
+        "t": "<p>En vattenkokare avger värme med effekten 2,0 kW under 83 s.</p><p>Hur mycket värme avger vattenkokaren? Svara i J.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Energin är effekt gånger tid. Omvandla effekten: 2,0 kW = 2000 W.</p></li><li><div class=\"facit-matte\">\\[E=Pt=2000\\cdot83=166000\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 170 000 J.</p></div>",
         "ledtrad": "<p>\\(E=Pt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -134444,7 +134449,7 @@ window.BANK = [
     "typ": "vad räcker en kilowattimme till",
     "poang": "(3/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><ol type=\"a\"><li>Hur många timmar kan en lampa på 40 W lysa?</li><li>Hur många datorer på 400 W kan vara igång en hel lektion på 40 minuter?</li><li>Hur högt kan en person (95 kg) lyftas?</li><li>Vilken fart får en lastbil (10 ton)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(t=\\dfrac{1\\,000}{40}\\) h.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) h</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>En dator använder \\(0{,}400\\cdot\\tfrac{40}{60}=0{,}267\\) kWh.</p></li><li><p>\\(\\dfrac{1}{0{,}267}=3{,}75\\): tre datorer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{3{,}6\\cdot10^6}{95\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,859\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2\\cdot3{,}6\\cdot10^6}{10\\,000}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(27\\) m/s</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Använd kW och timmar när energin anges i kWh. Lampans effekt är 40 W = 0,040 kW.</p></li><li><div class=\"facit-matte\">\\[t=\\frac EP=\\frac{1{,}0}{0{,}040}=25\\,\\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 timmar.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En dator använder \\(0{,}400\\cdot\\tfrac{40}{60}=0{,}267\\) kWh.</p></li><li><p>\\(\\dfrac{1}{0{,}267}=3{,}75\\): tre datorer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\)</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{3{,}6\\cdot10^6}{95\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,859\\) m</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2\\cdot3{,}6\\cdot10^6}{10\\,000}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(27\\) m/s</p></div></div></div>",
     "id": "5.556",
     "miniräknare": true,
     "geogebra": false,
@@ -134491,13 +134496,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många timmar kan en lampa på 40 W lysa?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><p>Hur många timmar kan en lampa på 40 W lysa?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(t=\\dfrac{1\\,000}{40}\\) h.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) h</p></div>",
+        "fraga": "Hur många timmar kan lampan lysa?",
+        "t": "<p>En lampa tar emot effekten 40 W. Du kan tillföra 1,0 kWh elektrisk energi.</p><p>Hur många timmar kan lampan lysa?</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Använd kW och timmar när energin anges i kWh. Lampans effekt är 40 W = 0,040 kW.</p></li><li><div class=\"facit-matte\">\\[t=\\frac EP=\\frac{1{,}0}{0{,}040}=25\\,\\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 timmar.</p></div>",
         "ledtrad": "<p>\\(t=\\dfrac EP\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -134822,7 +134827,7 @@ window.BANK = [
     "niva": "C",
     "typ": "dragracingbil",
     "poang": "(0/1/0)",
-    "t": "<p>En dragracingbil (1,1 ton) har den nyttiga effekten 2,3 MW och kör från vila i 4,2 s. Bestäm sluthastigheten. Bortse från förluster.</p>",
+    "t": "<p>En dragracingbil (1,1 ton) har den konstanta nyttiga effekten 2,3 MW och kör från vila i 4,2 s. Bestäm sluthastigheten. Bortse från förluster.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{1\\,100v^2}{2}=2{,}3\\cdot10^6\\cdot4{,}2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(133\\) m/s</p></div>",
     "id": "5.560",
     "miniräknare": true,
@@ -134953,7 +134958,7 @@ window.BANK = [
         "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -135034,7 +135039,7 @@ window.BANK = [
         "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -135702,8 +135707,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm kraften i kopplingen.",
-        "t": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p><p>Bestäm kraften i kopplingen.</p>",
+        "fraga": "Hur stor är kraften från bilens koppling på släpet? Svara i N.",
+        "t": "<p>En bil drar ett släp på 500 kg. Släpets acceleration är 0,500 m/s² framåt och motståndskraften på släpet är 200 N bakåt.</p><p>Hur stor är kraften från bilens koppling på släpet? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Släpet: \\(F_S-200=500\\cdot0{,}500\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\) N</p></div>",
         "ledtrad": "<p>Frilägg släpet.</p>",
         "niva": "E",
@@ -136366,7 +136371,7 @@ window.BANK = [
     "typ": "verkningsgrad grunder",
     "poang": "(4/0/0)",
     "t": "<p>1 hk = 735,5 W.</p><ol type=\"a\"><li>En bilmotor avger 44 hk med verkningsgraden 29 %. Bestäm den tillförda effekten i hk.</li><li>En reaktor ger värmeeffekten 3 900 MW och den elektriska effekten 1 400 MW. Bestäm verkningsgraden.</li><li>En pump med verkningsgraden 75 % ger 1 200 W nyttig effekt. Bestäm den tillförda effekten.</li><li>En glödlampa (60 W, verkningsgrad 5,0 %) ersätts av en lågenergilampa (25 %) med samma ljus. Bestäm lågenergilampans effekt.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{44}{0{,}29}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(152\\) hk</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\eta=\\dfrac{1\\,400}{3\\,900}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}36\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{1\\,200}{0{,}75}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,600\\) W</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{0{,}050\\cdot60}{0{,}25}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) W</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Verkningsgraden är nyttig effekt delad med tillförd effekt. Skriv 29 % som 0,29. Ingen omvandling av hk behövs när samma enhet används för båda effekterna.</p></li><li><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{44}{0{,}29}\\approx151{,}7\\,\\mathrm{hk}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 152 hk.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Verkningsgraden är den elektriska effekten delad med värmeeffekten. Båda anges i MW, så enheterna tar ut varandra.</p></li><li><div class=\"facit-matte\">\\[\\eta=\\frac{1400}{3900}\\approx0{,}359\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,36 i decimalform, alltså 36 %.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Skriv verkningsgraden 75 % som 0,75. Den tillförda effekten måste vara större än den nyttiga effekten.</p></li><li><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{1200}{0{,}75}=1600\\,\\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1600 W.</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{0{,}050\\cdot60}{0{,}25}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) W</p></div></div></div>",
     "id": "5.588",
     "miniräknare": true,
     "geogebra": false,
@@ -136412,41 +136417,41 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En bilmotor avger 44 hk med verkningsgraden 29 %. Bestäm den tillförda effekten i hk.",
-        "t": "<p>1 hk = 735,5 W.</p><p>En bilmotor avger 44 hk med verkningsgraden 29 %. Bestäm den tillförda effekten i hk.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{44}{0{,}29}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(152\\) hk</p></div>",
+        "fraga": "Hur stor är den tillförda effekten? Svara i hk.",
+        "t": "<p>En bilmotor ger den nyttiga effekten 44 hk. Verkningsgraden är 29 %.</p><p>Hur stor är den tillförda effekten? Svara i hk.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Verkningsgraden är nyttig effekt delad med tillförd effekt. Skriv 29 % som 0,29. Ingen omvandling av hk behövs när samma enhet används för båda effekterna.</p></li><li><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{44}{0{,}29}\\approx151{,}7\\,\\mathrm{hk}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 152 hk.</p></div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "En reaktor ger värmeeffekten 3 900 MW och den elektriska effekten 1 400 MW. Bestäm verkningsgraden.",
-        "t": "<p>1 hk = 735,5 W.</p><p>En reaktor ger värmeeffekten 3 900 MW och den elektriska effekten 1 400 MW. Bestäm verkningsgraden.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\eta=\\dfrac{1\\,400}{3\\,900}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}36\\)</p></div>",
+        "fraga": "Vilken är verkningsgraden? Svara i decimalform.",
+        "t": "<p>En reaktor ger värmeeffekten 3900 MW. Av detta blir 1400 MW elektrisk effekt.</p><p>Vilken är verkningsgraden? Svara i decimalform.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Verkningsgraden är den elektriska effekten delad med värmeeffekten. Båda anges i MW, så enheterna tar ut varandra.</p></li><li><div class=\"facit-matte\">\\[\\eta=\\frac{1400}{3900}\\approx0{,}359\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,36 i decimalform, alltså 36 %.</p></div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "En pump med verkningsgraden 75 % ger 1 200 W nyttig effekt. Bestäm den tillförda effekten.",
-        "t": "<p>1 hk = 735,5 W.</p><p>En pump med verkningsgraden 75 % ger 1 200 W nyttig effekt. Bestäm den tillförda effekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{1\\,200}{0{,}75}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,600\\) W</p></div>",
+        "fraga": "Hur stor är den tillförda effekten? Svara i W.",
+        "t": "<p>En pump ger den nyttiga effekten 1200 W. Verkningsgraden är 75 %.</p><p>Hur stor är den tillförda effekten? Svara i W.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Skriv verkningsgraden 75 % som 0,75. Den tillförda effekten måste vara större än den nyttiga effekten.</p></li><li><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{1200}{0{,}75}=1600\\,\\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1600 W.</p></div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "En glödlampa (60 W, verkningsgrad 5,0 %) ersätts av en lågenergilampa (25 %) med samma ljus. Bestäm lågenergilampans effekt.",
-        "t": "<p>1 hk = 735,5 W.</p><p>En glödlampa (60 W, verkningsgrad 5,0 %) ersätts av en lågenergilampa (25 %) med samma ljus. Bestäm lågenergilampans effekt.</p>",
+        "fraga": "Vilken tillförd effekt behöver den andra lampan för att ge samma ljuseffekt? Svara i W.",
+        "t": "<p>En glödlampa tar emot 60 W och omvandlar 5,0 % till ljus. En annan lampa omvandlar 25 % av sin tillförda effekt till ljus.</p><p>Vilken tillförd effekt behöver den andra lampan för att ge samma ljuseffekt? Svara i W.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\dfrac{0{,}050\\cdot60}{0{,}25}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) W</p></div>",
         "ledtrad": "<p>Samma nyttiga effekt.</p>",
         "niva": "E",
@@ -137244,8 +137249,8 @@ window.BANK = [
     "niva": "C",
     "typ": "elverk och solceller",
     "poang": "(0/4/0)",
-    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En motor behöver 300 g bensin (32 MJ/kg) per kWh. Bestäm verkningsgraden.</li><li>Ett elverk drar 2,3 liter bensin (40 MJ/liter) per timme och ger 3,4 kW. Bestäm verkningsgraden.</li><li>Solpaneler (17 m²) får i snitt 0,12 kW/m² och ger 2 600 kWh per år (8 760 h). Bestäm verkningsgraden.</li><li>Paketet kostar 64 000 kr och el kostar 0,95 kr/kWh. Efter hur många år har det betalat sig?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\eta=\\dfrac{3{,}6}{0{,}300\\cdot32}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}38\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\eta=\\dfrac{3\\,400\\cdot3\\,600}{2{,}3\\cdot40\\cdot10^6}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}13\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\eta=\\dfrac{2\\,600}{0{,}12\\cdot17\\cdot8\\,760}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}15\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{64\\,000}{2\\,600\\cdot0{,}95}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\) år</p></li></ol></div>",
+    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En motor behöver 300 g bensin (32 MJ/kg) per kWh. Bestäm verkningsgraden.</li><li>Ett elverk drar 2,3 liter bensin (40 MJ/liter) per timme och ger 3,4 kW. Bestäm verkningsgraden.</li><li>Solpaneler (17 m²) får i snitt 0,12 kW/m² och ger 2 600 kWh per år (8 760 h). Bestäm verkningsgraden.</li><li>Solpanelspaketet producerar 2600 kWh per år och kostar 64 000 kr. All producerad el ersätter köpt el för 0,95 kr/kWh. Räkna med oförändrad produktion och elpris, och bortse från ränta och underhåll. Efter hur många år motsvarar besparingen inköpspriset?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\eta=\\dfrac{3{,}6}{0{,}300\\cdot32}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}38\\)</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\eta=\\dfrac{3\\,400\\cdot3\\,600}{2{,}3\\cdot40\\cdot10^6}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}13\\)</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\eta=\\dfrac{2\\,600}{0{,}12\\cdot17\\cdot8\\,760}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}15\\)</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Beräkna först besparingen för ett år. Dela sedan inköpspriset med denna årsbesparing.</p></li><li><div class=\"facit-matte\">\\[\\text{årsbesparing}=2600\\cdot0{,}95=2470\\,\\mathrm{kr/år}\\qquad t=\\frac{64000}{2470}\\approx25{,}9\\,\\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 26 år.</p></div></div></div>",
     "id": "5.600",
     "miniräknare": true,
     "geogebra": false,
@@ -137325,13 +137330,13 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Paketet kostar 64 000 kr och el kostar 0,95 kr/kWh. Efter hur många år har det betalat sig?",
-        "t": "<p>Paketet kostar 64 000 kr och el kostar 0,95 kr/kWh. Efter hur många år har det betalat sig?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{64\\,000}{2\\,600\\cdot0{,}95}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\) år</p></div>",
-        "ledtrad": "<p>Besparing per år.</p>",
+        "fraga": "Efter hur många år motsvarar besparingen inköpspriset? Svara i år.",
+        "t": "<p>Ett solpanelspaket kostar 64 000 kr och producerar 2600 kWh per år. All denna el ersätter köpt el för 0,95 kr/kWh. Räkna med oförändrad produktion och elpris. Bortse från ränta och underhåll.</p><p>Efter hur många år motsvarar besparingen inköpspriset? Svara i år.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Beräkna först besparingen för ett år. Dela sedan inköpspriset med denna årsbesparing.</p></li><li><div class=\"facit-matte\">\\[\\text{årsbesparing}=2600\\cdot0{,}95=2470\\,\\mathrm{kr/år}\\qquad t=\\frac{64000}{2470}\\approx25{,}9\\,\\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 26 år.</p></div>",
+        "ledtrad": "<p>Hur mycket pengar sparar den producerade elen på ett år?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -137712,7 +137717,7 @@ window.BANK = [
     "t": "<p>En konstant kraft i rörelseriktningen utför arbetet 180 J när en låda flyttas 6,0 m.</p><p>Bestäm kraftens storlek. Svara i N. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">W = Fs ger</p><div class=\"facit-matte\">\\[F=\\frac{W}{s}=\\frac{180}{6{,}0}=30\\, \\mathrm{N}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 30 N.</p></div>",
     "niva": "E",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familj": "Arbete W = F·s",
     "typ": "kraft från arbete",
     "ledtrad": "<p>Vilken storhet ska lösas ut ur arbetssambandet?</p>",
@@ -137742,7 +137747,7 @@ window.BANK = [
     "t": "<p>En konstant kraft på 25 N utför arbetet 100 J. Kraft och förflyttning har samma riktning.</p><p>Bestäm förflyttningens längd. Svara i m. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">W = Fs ger</p><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{100}{25}=4{,}0\\, \\mathrm{m}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 4 m.</p></div>",
     "niva": "E",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familj": "Arbete W = F·s",
     "typ": "sträcka från arbete",
     "ledtrad": "<p>Dela arbetet med kraften.</p>",
@@ -138352,7 +138357,7 @@ window.BANK = [
     "typ": "raket och boll rakt upp",
     "poang": "(3/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En raket (140 g) skjuts rakt upp med 22 m/s. Bestäm rörelseenergin vid starten.</li><li>Hur högt kommer raketen?</li><li>En boll kastas rakt upp och vänder 10 m upp. Med vilken fart kastades den?</li><li>Hur högt är bollen när farten är halva utgångsfarten?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_k=\\dfrac{0{,}140\\cdot22^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(34\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{22^2}{2\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot10}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvar finns \\(\\tfrac14\\) av rörelseenergin: \\(h=\\tfrac34\\cdot10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) m</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla massan: 140 g = 0,140 kg. Rörelseenergin beror på massan och på farten i kvadrat.</p></li><li><div class=\"facit-matte\">\\[E_k=\\frac{mv^2}{2}=\\frac{0{,}140\\cdot22^2}{2}=33{,}88\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 34 J.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{22^2}{2\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) m</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot10}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) m/s</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvar finns \\(\\tfrac14\\) av rörelseenergin: \\(h=\\tfrac34\\cdot10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) m</p></div></div></div>",
     "id": "5.476",
     "miniräknare": true,
     "geogebra": false,
@@ -138399,13 +138404,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En raket (140 g) skjuts rakt upp med 22 m/s. Bestäm rörelseenergin vid starten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En raket (140 g) skjuts rakt upp med 22 m/s. Bestäm rörelseenergin vid starten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_k=\\dfrac{0{,}140\\cdot22^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(34\\) J</p></div>",
+        "fraga": "Hur stor är raketens rörelseenergi då? Svara i J.",
+        "t": "<p>En modellraket på 140 g har farten 22 m/s när den lämnar avskjutningsrampen.</p><p>Hur stor är raketens rörelseenergi då? Svara i J.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla massan: 140 g = 0,140 kg. Rörelseenergin beror på massan och på farten i kvadrat.</p></li><li><div class=\"facit-matte\">\\[E_k=\\frac{mv^2}{2}=\\frac{0{,}140\\cdot22^2}{2}=33{,}88\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 34 J.</p></div>",
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -138501,13 +138506,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En hammare faller 5,6 m. Bestäm farten vid marken.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En hammare faller 5,6 m. Bestäm farten vid marken.</p>",
+        "fraga": "Vilken fart har hammaren precis innan den träffar marken? Svara i m/s.",
+        "t": "<p>En hammare släpps från vila 5,6 m över marken. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har hammaren precis innan den träffar marken? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot5{,}6}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\) m/s</p></div>",
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -138518,7 +138523,7 @@ window.BANK = [
         "ledtrad": "<p>\\(h=\\dfrac{v^2}{2g}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -138655,24 +138660,24 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har hen 5,00 m över vattnet, utan sats?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p><p>Vilken fart har hen 5,00 m över vattnet, utan sats?</p>",
+        "fraga": "Vilken fart har simhopparen 5,00 m över vattenytan? Svara i m/s.",
+        "t": "<p>En simhoppare släpper taget från 10,0 m höjd och börjar falla från vila. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har simhopparen 5,00 m över vattenytan? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot5{,}00}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}9\\) m/s</p></div>",
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Med vilken fart når hen vattnet, utan sats?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p><p>Med vilken fart når hen vattnet, utan sats?</p>",
+        "fraga": "Vilken fart har simhopparen precis innan hen når vattnet? Svara i m/s.",
+        "t": "<p>En simhoppare börjar falla från vila 10,0 m över vattenytan. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har simhopparen precis innan hen når vattnet? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot10{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}0\\) m/s</p></div>",
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -138764,7 +138769,7 @@ window.BANK = [
         "ledtrad": "<p>\\(h=\\dfrac{v^2}{2g}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -139935,7 +139940,7 @@ window.BANK = [
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -140065,7 +140070,7 @@ window.BANK = [
     "typ": "rörelseenergi och fart",
     "poang": "(3/1/0)",
     "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><ol type=\"a\"><li>Bestäm massan.</li><li>Bestäm rörelseenergin om farten fördubblas.</li><li>Bestäm rörelseenergin om farten halveras.</li><li>En bil har farten 10 m/s. Vilken fart ger dubbla rörelseenergin?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\dfrac{2\\cdot305}{12{,}4^2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}97\\) kg</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4\\cdot305\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,220\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{305}{4}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(76{,}2\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=10\\sqrt2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) m/s</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\dfrac{2\\cdot305}{12{,}4^2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}97\\) kg</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4\\cdot305\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,220\\) J</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{305}{4}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(76{,}2\\) J</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Rörelseenergin är proportionell mot fartens kvadrat. För att dubbla energin multipliceras farten med roten ur två.</p></li><li><div class=\"facit-matte\">\\[\\frac{mv_2^2}{2}=2\\cdot\\frac{mv_1^2}{2}\\quad\\Rightarrow\\quad v_2=\\sqrt2\\,v_1=10\\sqrt2\\approx14{,}1\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14 m/s.</p></div></div></div>",
     "id": "5.505",
     "miniräknare": true,
     "geogebra": false,
@@ -140118,7 +140123,7 @@ window.BANK = [
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -140145,13 +140150,13 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En bil har farten 10 m/s. Vilken fart ger dubbla rörelseenergin?",
-        "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><p>En bil har farten 10 m/s. Vilken fart ger dubbla rörelseenergin?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=10\\sqrt2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) m/s</p></div>",
-        "ledtrad": "<p>\\(E_k\\propto v^2\\).</p>",
+        "fraga": "Vilken fart ger dubbelt så stor rörelseenergi? Svara i m/s.",
+        "t": "<p>En bil har farten 10 m/s. Bilens massa är oförändrad.</p><p>Vilken fart ger dubbelt så stor rörelseenergi? Svara i m/s.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Rörelseenergin är proportionell mot fartens kvadrat. För att dubbla energin multipliceras farten med roten ur två.</p></li><li><div class=\"facit-matte\">\\[\\frac{mv_2^2}{2}=2\\cdot\\frac{mv_1^2}{2}\\quad\\Rightarrow\\quad v_2=\\sqrt2\\,v_1=10\\sqrt2\\approx14{,}1\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14 m/s.</p></div>",
+        "ledtrad": "<p>Hur ändras fartens kvadrat när energin fördubblas?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -140367,7 +140372,7 @@ window.BANK = [
         "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
@@ -140378,7 +140383,7 @@ window.BANK = [
         "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -140394,7 +140399,7 @@ window.BANK = [
     "niva": "C",
     "typ": "basebollar",
     "poang": "(0/2/0)",
-    "t": "<p>En baseboll väger 145 g.</p><ol type=\"a\"><li>Bollen har 32,0 m/s och fångas i en handske som förflyttas 25,0 cm. Bestäm den genomsnittliga kraften.</li><li>Bollen saktar in från 39,0 m/s till 36,2 m/s på 18,4 m. Bestäm luftmotståndets medelkraft.</li></ol>",
+    "t": "<p>En baseboll har massan 145 g. Bortse från ändringar i lägesenergi. Beräkna medelkrafterna över de angivna sträckorna.</p><ol type=\"a\"><li>Bollen har 32,0 m/s och fångas i en handske som förflyttas 25,0 cm. Bestäm den genomsnittliga kraften.</li><li>Bollen saktar in från 39,0 m/s till 36,2 m/s på 18,4 m. Bestäm luftmotståndets medelkraft.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}145\\cdot32{,}0^2}{2\\cdot0{,}250}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(297\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}145(39{,}0^2-36{,}2^2)}{2\\cdot18{,}4}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}830\\) N</p></li></ol></div>",
     "id": "5.510",
     "miniräknare": true,
@@ -140428,12 +140433,12 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En baseboll väger 145 g.</p>",
+    "spelIntro": "<p>En baseboll har massan 145 g. Bortse från ändringar i lägesenergi. Beräkna medelkrafterna över de angivna sträckorna.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bollen har 32,0 m/s och fångas i en handske som förflyttas 25,0 cm. Bestäm den genomsnittliga kraften.",
-        "t": "<p>En baseboll väger 145 g.</p><p>Bollen har 32,0 m/s och fångas i en handske som förflyttas 25,0 cm. Bestäm den genomsnittliga kraften.</p>",
+        "fraga": "Hur stor är handskens bromskraft i genomsnitt över sträckan? Svara i N.",
+        "t": "<p>En baseboll på 145 g fångas med en handske. Farten minskar från 32,0 m/s till noll medan handsken förflyttas 25,0 cm i bollens rörelseriktning. Bortse från ändringen i lägesenergi.</p><p>Hur stor är handskens bromskraft i genomsnitt över sträckan? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}145\\cdot32{,}0^2}{2\\cdot0{,}250}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(297\\) N</p></div>",
         "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
         "niva": "C",
@@ -140443,8 +140448,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bollen saktar in från 39,0 m/s till 36,2 m/s på 18,4 m. Bestäm luftmotståndets medelkraft.",
-        "t": "<p>En baseboll väger 145 g.</p><p>Bollen saktar in från 39,0 m/s till 36,2 m/s på 18,4 m. Bestäm luftmotståndets medelkraft.</p>",
+        "fraga": "Hur stor är luftmotståndskraften i genomsnitt över sträckan? Svara i N.",
+        "t": "<p>En baseboll på 145 g minskar farten från 39,0 m/s till 36,2 m/s under en sträcka på 18,4 m. Bortse från ändringen i lägesenergi.</p><p>Hur stor är luftmotståndskraften i genomsnitt över sträckan? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}145(39{,}0^2-36{,}2^2)}{2\\cdot18{,}4}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}830\\) N</p></div>",
         "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
         "niva": "C",
@@ -140466,7 +140471,7 @@ window.BANK = [
     "typ": "flygplan startar",
     "poang": "(2/2/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p><ol type=\"a\"><li>Hur stort accelerationsarbete krävs?</li><li>Vilken resulterande kraft krävs minst?</li><li>Två motorer ger 117 kN var. Hur kort startsträcka räcker då (utan motstånd)?</li><li>Hur stort lyftarbete krävs till marschhöjden 10,5 km?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=\\dfrac{68\\,000\\cdot69{,}4^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}64\\cdot10^{8}\\) J \\(=164\\) MJ</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{W}{1\\,200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}37\\cdot10^{5}\\) N \\(=137\\) kN</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{164\\cdot10^6}{234\\cdot10^3}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(701\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=68\\,000\\cdot9{,}82\\cdot10\\,500\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\cdot10^{9}\\) J \\(=7{,}0\\) GJ</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=\\dfrac{68\\,000\\cdot69{,}4^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}64\\cdot10^{8}\\) J \\(=164\\) MJ</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{W}{1\\,200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}37\\cdot10^{5}\\) N \\(=137\\) kN</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{164\\cdot10^6}{234\\cdot10^3}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(701\\) m</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid oförändrad fart går lyftarbetet till ökad lägesenergi. Höjdskillnaden är 10,5 km = 10 500 m.</p></li><li><div class=\"facit-matte\">\\[W=mgh=68000\\cdot9{,}82\\cdot10500=7011480000\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 7,0 miljarder J.</p></div></div></div>",
     "id": "5.511",
     "miniräknare": true,
     "geogebra": false,
@@ -140546,13 +140551,13 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Hur stort lyftarbete krävs till marschhöjden 10,5 km?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p><p>Hur stort lyftarbete krävs till marschhöjden 10,5 km?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=68\\,000\\cdot9{,}82\\cdot10\\,500\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\cdot10^{9}\\) J \\(=7{,}0\\) GJ</p></div>",
+        "fraga": "Hur stort arbete krävs för ökningen i lägesenergi? Svara i J.",
+        "t": "<p>Ett flygplan på 68 000 kg stiger 10,5 km med oförändrad fart. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stort arbete krävs för ökningen i lägesenergi? Svara i J.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid oförändrad fart går lyftarbetet till ökad lägesenergi. Höjdskillnaden är 10,5 km = 10 500 m.</p></li><li><div class=\"facit-matte\">\\[W=mgh=68000\\cdot9{,}82\\cdot10500=7011480000\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 7,0 miljarder J.</p></div>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -140668,7 +140673,7 @@ window.BANK = [
     "typ": "bromskraft ur bromssträcka",
     "poang": "(0/4/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En bil (1 250 kg) bromsar från 21 m/s till stillastående på 65 m. Bestäm friktionskraften.</li><li>Bestäm friktionstalet.</li><li>Bromsspår är 78 m långa och friktionstalet 0,30. Bestäm farten före inbromsningen.</li><li>En gevärskula (15 g, 310 m/s) går in 15 cm i ett träd. Bestäm den genomsnittliga bromskraften.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{1\\,250\\cdot21^2}{2\\cdot65}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,240\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\mu=\\dfrac{F}{mg}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}35\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot0{,}30\\cdot9{,}82\\cdot78}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}015\\cdot310^2}{2\\cdot0{,}15}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,805\\) N</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{1\\,250\\cdot21^2}{2\\cdot65}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,240\\) N</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>På en vågrät väg är normalkraften lika stor som tyngdkraften. Dela friktionskraften med normalkraften.</p></li><li><div class=\"facit-matte\">\\[\\mu=\\frac{F_\\mathrm{fr}}{mg}=\\frac{4240}{1250\\cdot9{,}82}\\approx0{,}345\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,35.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot0{,}30\\cdot9{,}82\\cdot78}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) m/s</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{0{,}015\\cdot310^2}{2\\cdot0{,}15}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,805\\) N</p></div></div></div>",
     "id": "5.514",
     "miniräknare": true,
     "geogebra": false,
@@ -140726,13 +140731,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>Friktionskraften är 4,2 kN.<p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\mu=\\dfrac{F}{mg}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}35\\)</p></div>",
-        "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
+        "fraga": "Hur stort är friktionstalet?",
+        "t": "<p>En bil på 1250 kg bromsas av friktion på en vågrät väg. Friktionskraften är 4,24 kN. Använd g = 9,82 m/s².</p><p>Hur stort är friktionstalet?</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>På en vågrät väg är normalkraften lika stor som tyngdkraften. Dela friktionskraften med normalkraften.</p></li><li><div class=\"facit-matte\">\\[\\mu=\\frac{F_\\mathrm{fr}}{mg}=\\frac{4240}{1250\\cdot9{,}82}\\approx0{,}345\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,35.</p></div>",
+        "ledtrad": "<p>Använd bilens massa för att beräkna normalkraften.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
@@ -140771,7 +140776,7 @@ window.BANK = [
     "typ": "krock och boxning",
     "poang": "(4/0/0)",
     "t": "<p>Bestäm den genomsnittliga bromskraften.</p><ol type=\"a\"><li>En bil (950 kg) med 90,0 km/h stannar mjukt på 120 m.</li><li>Samma bil krockar med ett räcke och stannar på 2,0 m.</li><li>En boxhandske med hand (7,0 kg) med 10,0 m/s stannar på 7,50 cm.</li><li>Utan handske stannar handen på 2,00 cm.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot120}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,474\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot2{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0750}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,667\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\,500\\) N</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot120}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,474\\) N</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot2{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0750}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,667\\) N</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Handens rörelseenergi försvinner under inbromsningen. Dividera den med bromssträckan, som är 0,0200 m.</p></li><li><div class=\"facit-matte\">\\[F=\\frac{mv^2}{2s}=\\frac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0200}=17500\\,\\mathrm{N}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17 500 N.</p></div></div></div>",
     "id": "5.515",
     "miniräknare": true,
     "geogebra": false,
@@ -140851,10 +140856,10 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Utan handske stannar handen på 2,00 cm.",
-        "t": "<p>Bestäm den genomsnittliga bromskraften.</p><p>Utan handske stannar handen på 2,00 cm.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0200}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\,500\\) N</p></div>",
-        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "fraga": "Hur stor är den genomsnittliga bromskraften? Svara i N.",
+        "t": "<p>En hand utan boxhandske har massan 7,0 kg och farten 10,0 m/s. Den bromsas till vila på 2,00 cm.</p><p>Hur stor är den genomsnittliga bromskraften? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Handens rörelseenergi försvinner under inbromsningen. Dividera den med bromssträckan, som är 0,0200 m.</p></li><li><div class=\"facit-matte\">\\[F=\\frac{mv^2}{2s}=\\frac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0200}=17500\\,\\mathrm{N}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17 500 N.</p></div>",
+        "ledtrad": "<p>Beräkna rörelseenergin och jämför den med bromskraftens arbete.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -141684,13 +141689,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm motorns medeleffekt.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 230 kg) kör 615 m uppför en backe med \\(\\tan\\theta=0{,}225\\). Farten ökar från 6,0 m/s till 20 m/s på 50 s. Den bromsande kraften är 400 N.</p>Arbetet är 2,1 MJ.<p>Bestäm motorns medeleffekt.</p>",
+        "fraga": "Hur stor är motorns medeleffekt? Svara i W.",
+        "t": "<p>En bilmotor utför arbetet 2,1 MJ under 50 s.</p><p>Hur stor är motorns medeleffekt? Svara i W.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd arbetet som ges på kortet</p><p>Motorns arbete är \\(W=2{,}1\\,\\text{MJ}=2{,}1\\cdot10^6\\,\\text{J}\\) och tiden är \\(t=50\\,\\text{s}\\).</p></li><li><p class=\"facit-rubrik\">Beräkna medeleffekten</p><p>Medeleffekt är arbete dividerat med tid:</p><div class=\"facit-matte\">\\[P_\\mathrm{medel}=\\frac Wt=\\frac{2{,}1\\cdot10^6}{50}=42000\\,\\text{W}=42\\,\\text{kW}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(42\\,\\text{kW}\\).</p></div>",
         "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -142842,8 +142847,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna bindningsenergin per nukleon i MeV.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Li-6 (\\(Z=3\\)) har atommassan 6{,}0151229 u.</p>Bindningsenergin är 32,0 MeV.<p>Beräkna bindningsenergin per nukleon i MeV.</p>",
+        "fraga": "Hur stor är bindningsenergin per nukleon? Svara i MeV.",
+        "t": "<p>Kärnan hos litium-6 består av 6 nukleoner, alltså protoner och neutroner. Den sammanlagda bindningsenergin är 32,0 MeV.</p><p>Hur stor är bindningsenergin per nukleon? Svara i MeV.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{32{,}0}{6}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}33\\) MeV</p></div>",
         "ledtrad": "<p>Dela med masstalet.</p>",
         "niva": "E",
@@ -142912,8 +142917,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna bindningsenergin per nukleon i MeV.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Pb-206 (\\(Z=82\\)) har atommassan 205{,}9744653 u.</p>Bindningsenergin är 1 622 MeV.<p>Beräkna bindningsenergin per nukleon i MeV.</p>",
+        "fraga": "Hur stor är bindningsenergin per nukleon? Svara i MeV.",
+        "t": "<p>Kärnan hos bly-206 består av 206 nukleoner, alltså protoner och neutroner. Den sammanlagda bindningsenergin är 1622 MeV.</p><p>Hur stor är bindningsenergin per nukleon? Svara i MeV.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{1\\,622}{206}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}88\\) MeV</p></div>",
         "ledtrad": "<p>Dela med masstalet.</p>",
         "niva": "E",
@@ -143622,13 +143627,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Naturligt uran innehåller 0,70 % U-235. Hur mycket naturligt uran innehåller 1,0 g U-235?",
-        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p><p>Naturligt uran innehåller 0,70 % U-235. Hur mycket naturligt uran innehåller 1,0 g U-235?</p>",
+        "fraga": "Hur stor massa naturligt uran innehåller 1,0 g uran-235? Svara i kg.",
+        "t": "<p>Naturligt uran innehåller 0,70 % uran-235.</p><p>Hur stor massa naturligt uran innehåller 1,0 g uran-235? Svara i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\dfrac{1{,}0}{0{,}0070}\\) g.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}14\\) kg</p></div>",
         "ledtrad": "<p>0,70 % av massan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -143905,7 +143910,7 @@ window.BANK = [
         "ledtrad": "<p>Dela med andelen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -143970,7 +143975,7 @@ window.BANK = [
         "ledtrad": "<p>1 ton = 1 000 kg.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -144826,7 +144831,7 @@ window.BANK = [
     "typ": "kol-11-prov",
     "poang": "(3/1/0)",
     "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p><ol type=\"a\"><li>Bestäm sönderfallskonstanten.</li><li>Hur många kärnor finns i provet?</li><li>Bestäm aktiviteten.</li><li>Hur stor är aktiviteten 8,0 h senare?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lambda=\\dfrac{\\ln2}{20{,}39\\cdot60}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000567\\) 1/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N=\\dfrac{3{,}50\\cdot10^{-9}}{11{,}011\\cdot1{,}6605\\cdot10^{-27}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}91\\cdot10^{17}\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\lambda N\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\cdot10^{14}\\) Bq</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=1{,}08\\cdot10^{14}\\cdot\\left(\\tfrac12\\right)^{480/20{,}39}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}89\\cdot10^{6}\\) Bq</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla halveringstiden till sekunder. Sönderfallskonstanten beräknas med naturliga logaritmen av 2 delad med halveringstiden.</p></li><li><div class=\"facit-matte\">\\[T_{1/2}=20{,}39\\cdot60=1223{,}4\\,\\mathrm s\\qquad\\lambda=\\frac{\\ln2}{T_{1/2}}\\approx5{,}67\\cdot10^{-4}\\,\\mathrm{s^{-1}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,000567 s⁻¹.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N=\\dfrac{3{,}50\\cdot10^{-9}}{11{,}011\\cdot1{,}6605\\cdot10^{-27}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}91\\cdot10^{17}\\)</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\lambda N\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\cdot10^{14}\\) Bq</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=1{,}08\\cdot10^{14}\\cdot\\left(\\tfrac12\\right)^{480/20{,}39}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}89\\cdot10^{6}\\) Bq</p></div></div></div>",
     "id": "9.345",
     "miniräknare": true,
     "geogebra": false,
@@ -144872,13 +144877,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm sönderfallskonstanten.",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p><p>Bestäm sönderfallskonstanten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lambda=\\dfrac{\\ln2}{20{,}39\\cdot60}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000567\\) 1/s</p></div>",
+        "fraga": "Hur stor är sönderfallskonstanten? Svara i s⁻¹.",
+        "t": "<p>Kol-11 har halveringstiden 20,39 minuter.</p><p>Hur stor är sönderfallskonstanten? Svara i s⁻¹.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla halveringstiden till sekunder. Sönderfallskonstanten beräknas med naturliga logaritmen av 2 delad med halveringstiden.</p></li><li><div class=\"facit-matte\">\\[T_{1/2}=20{,}39\\cdot60=1223{,}4\\,\\mathrm s\\qquad\\lambda=\\frac{\\ln2}{T_{1/2}}\\approx5{,}67\\cdot10^{-4}\\,\\mathrm{s^{-1}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,000567 s⁻¹.</p></div>",
         "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -146135,7 +146140,7 @@ window.BANK = [
     "typ": "bestrålning av livsmedel",
     "poang": "(1/1/0)",
     "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En gurka (0,30 kg) ska få den absorberade dosen 2 000 Gy med röntgenfotoner som har energin 100 keV.</p><ol type=\"a\"><li>Hur många fotoner måste gurkan absorbera?</li><li>Hur många kelvin stiger gurkans temperatur, om den har vattnets specifika värmekapacitet 4,18 kJ/(kg·K)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E=2\\,000\\cdot0{,}30=600\\) J.</p></li><li><div class=\"facit-matte\">\\[n=\\dfrac{600}{100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}7\\cdot10^{16}\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{2\\,000}{4\\,180}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}48\\) K</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E=2\\,000\\cdot0{,}30=600\\) J.</p></li><li><div class=\"facit-matte\">\\[n=\\dfrac{600}{100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}7\\cdot10^{16}\\)</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Dosen anger energin per kilogram. Dela med energin som behövs för att värma ett kilogram en kelvin.</p></li><li><div class=\"facit-matte\">\\[\\Delta T=\\frac{D}{c}=\\frac{2000}{4180}\\approx0{,}478\\,\\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,48 K.</p></div></div></div>",
     "id": "9.365",
     "miniräknare": true,
     "geogebra": false,
@@ -146183,10 +146188,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur många kelvin stiger gurkans temperatur, om den har vattnets specifika värmekapacitet 4,18 kJ/(kg·K)?",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En gurka (0,30 kg) ska få den absorberade dosen 2 000 Gy med röntgenfotoner som har energin 100 keV.</p><p>Hur många kelvin stiger gurkans temperatur, om den har vattnets specifika värmekapacitet 4,18 kJ/(kg·K)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{2\\,000}{4\\,180}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}48\\) K</p></div>",
-        "ledtrad": "<p>1 Gy = 1 J/kg.</p>",
+        "fraga": "Hur mycket stiger gurkans temperatur? Svara i K.",
+        "t": "<p>En gurka tar upp strålningsenergi som motsvarar dosen 2000 Gy. En gray betyder en joule per kilogram: 1 Gy = 1 J/kg. Räkna med att all energi blir värme. Gurkans specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket stiger gurkans temperatur? Svara i K.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Dosen anger energin per kilogram. Dela med energin som behövs för att värma ett kilogram en kelvin.</p></li><li><div class=\"facit-matte\">\\[\\Delta T=\\frac{D}{c}=\\frac{2000}{4180}\\approx0{,}478\\,\\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,48 K.</p></div>",
+        "ledtrad": "<p>Massan förkortas bort i värmesambandet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -146513,7 +146518,7 @@ window.BANK = [
         "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -146573,7 +146578,7 @@ window.BANK = [
         "ledtrad": "<p>\\(H=QD\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -146826,7 +146831,7 @@ window.BANK = [
     "typ": "två tumörer med samma dos",
     "poang": "(2/0/0)",
     "t": "<p>Två tumörer får samma absorberade dos. Den mindre (0,12 kg) absorberar 1,7 J.</p><ol type=\"a\"><li>Bestäm den absorberade dosen.</li><li>Hur mycket energi absorberar den andra tumören (0,15 kg)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[D=\\dfrac{1{,}7}{0{,}12}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) Gy</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E=14{,}2\\cdot0{,}15\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}1\\) J</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[D=\\dfrac{1{,}7}{0{,}12}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) Gy</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Dosen är energi per kilogram. Multiplicera därför dosen med tumörens massa.</p></li><li><div class=\"facit-matte\">\\[E=Dm=14\\cdot0{,}15=2{,}1\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,1 J.</p></div></div></div>",
     "id": "9.380",
     "miniräknare": true,
     "geogebra": false,
@@ -146873,10 +146878,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi absorberar den andra tumören (0,15 kg)?",
-        "t": "<p>Två tumörer får samma absorberade dos. Den mindre (0,12 kg) absorberar 1,7 J.</p>Den absorberade dosen är 14 Gy.<p>Hur mycket energi absorberar den andra tumören (0,15 kg)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E=14{,}2\\cdot0{,}15\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}1\\) J</p></div>",
-        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "fraga": "Hur mycket strålningsenergi tar tumören upp? Svara i J.",
+        "t": "<p>En tumör på 0,15 kg får stråldosen 14 Gy. En gray betyder en joule per kilogram: 1 Gy = 1 J/kg.</p><p>Hur mycket strålningsenergi tar tumören upp? Svara i J.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Dosen är energi per kilogram. Multiplicera därför dosen med tumörens massa.</p></li><li><div class=\"facit-matte\">\\[E=Dm=14\\cdot0{,}15=2{,}1\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,1 J.</p></div>",
+        "ledtrad": "<p>Använd energin per kilogram och massan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -147050,8 +147055,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor absorberad dos krävs?",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,015 kg) behöver den ekvivalenta dosen 240 Sv. Protonerna har energin 4,0 MeV och kvalitetsfaktorn 14. Strålen ger \\(1{,}8\\cdot10^{10}\\) protoner per sekund.</p><p>Hur stor absorberad dos krävs?</p>",
+        "fraga": "Hur stor absorberad dos krävs? Svara i Gy.",
+        "t": "<p>En tumör behöver den ekvivalenta dosen 240 Sv. Strålningens viktfaktor är 14.</p><p>Hur stor absorberad dos krävs? Svara i Gy.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[D=\\dfrac{240}{14}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) Gy</p></div>",
         "ledtrad": "<p>\\(H=QD\\).</p>",
         "niva": "E",
@@ -147242,7 +147247,7 @@ window.BANK = [
     "id": "6.315",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>På en helt nedsänkt kropp verkar lyftkraften 30 N uppåt och tyngdkraften 18 N nedåt. Inga andra krafter verkar.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"71.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 60.0 L206.0 71.0 L194.0 71.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"148\" y=\"104\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 30 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"238.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 249.0 L214.0 238.0 L226.0 238.0 Z\" fill=\"#c0392b\"/>\n<text x=\"272\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg = 18 N</text></svg></div><p>Bestäm den resulterande kraftens storlek och riktning. Svara med storleken i N och riktningen med ett ord (uppåt eller nedåt).</p>",
+    "t": "<p>På en helt nedsänkt kropp verkar lyftkraften 30 N uppåt och tyngdkraften 18 N nedåt. Inga andra krafter verkar.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"71.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 60.0 L206.0 71.0 L194.0 71.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"148\" y=\"104\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 30 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"238.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 249.0 L214.0 238.0 L226.0 238.0 Z\" fill=\"#c0392b\"/>\n<text x=\"272\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg = 18 N</text></svg></div><p>Bestäm den sammanlagda kraftens storlek och riktning. Svara med storleken i N och riktningen med ett ord (uppåt eller nedåt).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Krafterna är motriktade, så resultanten är skillnaden mellan dem:</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=30-18=12\\, \\mathrm{N}\\]</div></div></li><li><p>Lyftkraften är störst, så resultanten är riktad uppåt.</p></li></ol><p class=\"facit-svar\">Svar: 12 N uppåt.</p></div>",
     "niva": "E",
     "traningsniva": 1,
@@ -147289,7 +147294,7 @@ window.BANK = [
     "id": "6.319",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>På en kropp verkar tyngdkraften 45 N nedåt och lyftkraften 32 N uppåt. Inga andra krafter verkar.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"94.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 83.0 L206.0 94.0 L194.0 94.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"148\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 32 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"269.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 280.0 L214.0 269.0 L226.0 269.0 Z\" fill=\"#c0392b\"/>\n<text x=\"272\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg = 45 N</text></svg></div><p>Välj uppåt som positiv riktning. Bestäm den resulterande kraften. Ett negativt svar betyder att kraften är riktad nedåt.</p>",
+    "t": "<p>På en kropp verkar tyngdkraften 45 N nedåt och lyftkraften 32 N uppåt. Inga andra krafter verkar.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"94.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 83.0 L206.0 94.0 L194.0 94.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"148\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 32 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"269.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 280.0 L214.0 269.0 L226.0 269.0 Z\" fill=\"#c0392b\"/>\n<text x=\"272\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg = 45 N</text></svg></div><p>Välj uppåt som positiv riktning. Bestäm den sammanlagda kraften. Ett negativt svar betyder att kraften är riktad nedåt.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med uppåt som positiv riktning är lyftkraften +32 N och tyngdkraften −45 N.</p></li><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=32-45=-13\\, \\mathrm{N}\\]</div></div></li><li><p>Minustecknet visar att resultanten är riktad nedåt.</p></li></ol><p class=\"facit-svar\">Svar: −13 N (13 N nedåt).</p></div>",
     "niva": "E",
     "traningsniva": 1,
@@ -147532,7 +147537,7 @@ window.BANK = [
     "t": "<p>En kropp med densiteten 600 kg/m³ flyter stilla i vatten med densiteten 1000 kg/m³.</p><p>Hur många procent av kroppens volym ligger under vattenytan? Svara i %.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För en flytande kropp är den nedsänkta andelen lika med kvoten mellan kroppens och vätskans densitet.</p></li><li><div class=\"facit-matte\">\\[600/1000=0{,}60=60\\,\\%\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 %.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Flytande kroppar",
     "typ": "nedsänkt andel för flytande kropp",
     "ledtrad": "<p>Kroppens densitet står i täljaren.</p>",
@@ -147592,7 +147597,7 @@ window.BANK = [
     "t": "<p>Ett föremål flyter stilla i vatten. 40 % av föremålets volym är under vattenytan. Vattnets densitet är 1000 kg/m³.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"66.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"156.0\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">40 %</text></svg></div><p>Bestäm föremålets medeldensitet. Svara i kg/m³.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När föremålet flyter är lyftkraften lika stor som tyngdkraften.</p></li><li><p>Därför är föremålets densitet samma andel av vattnets densitet som den nedsänkta volymen utgör av hela volymen.</p></li><li><div class=\"facit-matte\">\\[\\rho=0{,}40\\cdot1000=400\\ \\mathrm{kg/m^3}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400 kg/m³.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Flytande kroppar",
     "typ": "densitet hos flytande kropp",
     "ledtrad": "<p>Hur stor del av föremålet tränger undan vatten när det flyter?</p>",
@@ -147712,7 +147717,7 @@ window.BANK = [
     "t": "<p>Ett föremål hänger stilla i en dynamometer. I luft visar den 8,0 N och helt under vatten 5,5 N. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">8,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p>Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lyftkraften avlastar dynamometern: F<sub>L</sub> = 8,0−5,5 = 2,5 N.</p></li></ol><p class=\"facit-svar\">Svar: 2,5 N.</p></div>",
     "niva": "E",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familj": "Vägning i vätska",
     "typ": "lyftkraft från dynamometer",
     "ledtrad": "<p>Jämför avläsningarna i och utanför vattnet.</p>",
@@ -147742,7 +147747,7 @@ window.BANK = [
     "t": "<p>En boll som hålls helt under vatten har tyngdkraften 3,0 N och lyftkraften 8,0 N.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"71.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 60.0 L206.0 71.0 L194.0 71.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"144\" y=\"104\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 8,0 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"220.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 231.0 L214.0 220.0 L226.0 220.0 Z\" fill=\"#c0392b\"/>\n<text x=\"276\" y=\"222\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg = 3,0 N</text><line x1=\"255.0\" y1=\"91.0\" x2=\"255.0\" y2=\"129.0\" stroke=\"#2e7d52\" stroke-width=\"3\"/>\n<path d=\"M255.0 140.0 L249.0 129.0 L261.0 129.0 Z\" fill=\"#2e7d52\"/>\n<text x=\"290\" y=\"120\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F = ?</text></svg></div><p>Hur stor nedåtriktad handkraft krävs för att hålla bollen stilla? Svara i N. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger</p><div class=\"facit-matte\">\\[F_{\\mathrm{hand}}+3{,}0=8{,}0\\]</div></div></li><li><p>\\(F_{\\mathrm{hand}}\\) = 5,0 N nedåt.</p></li></ol><p class=\"facit-svar\">Svar: 5 N.</p></div>",
     "niva": "E",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familj": "Lyftkraft och kraftjämvikt",
     "typ": "kraftjämvikt under vatten",
     "ledtrad": "<p>Rita de tre krafterna och använd jämvikt.</p>",
@@ -147772,7 +147777,7 @@ window.BANK = [
     "t": "<p>En instängd gas har det absoluta trycket 150 kPa och volymen 2,40 liter. Temperaturen är konstant och volymen ändras till 1,80 liter. </p><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{2}=\\frac{150\\cdot 2{,}40}{1{,}80}=200\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 200 kPa.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Boyles lag",
     "typ": "boyles lag",
     "ledtrad": "<p>Vid konstant temperatur gäller p₁V₁ = p₂V₂. Lös ut p₂.</p>",
@@ -147799,7 +147804,7 @@ window.BANK = [
     "t": "<p>En gas har volymen 5,00 liter vid det absoluta trycket 80,0 kPa. Temperaturen är konstant och trycket ändras till 100 kPa. </p><p>Bestäm slutvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=\\frac{80{,}0\\cdot 5{,}00}{100}=4{,}00\\, \\mathrm{liter}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 4,00 liter.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Boyles lag",
     "typ": "boyles lag",
     "ledtrad": "<p>Vid konstant temperatur gäller p₁V₁ = p₂V₂. Lös ut V₂.</p>",
@@ -147826,7 +147831,7 @@ window.BANK = [
     "t": "<p>En gas i en styv behållare har det absoluta trycket 120 kPa vid 300 K. Temperaturen ändras till 330 K. </p><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{2}=\\frac{120\\cdot 330}{300}=132\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 132 kPa.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Tryck, volym och temperatur",
     "typ": "tryck och absolut temperatur",
     "ledtrad": "<p>Temperaturerna är redan angivna i kelvin.</p>",
@@ -147947,7 +147952,7 @@ window.BANK = [
     "t": "<p>En ideal gas har substansmängden 0,500 mol, temperaturen 300 K och volymen 0,0120 m³.</p><p>Bestäm gasens tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=\\frac{0{,}500\\cdot 8{,}31\\cdot 300}{0{,}0120}=103\\,875 P a=103{,}875\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 103,9 kPa.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Ideala gaslagen och gasmängd",
     "typ": "ideala gaslagen",
     "ledtrad": "<p>Alla värden står redan i SI-enheter; omvandla trycket till kPa sist.</p>",
@@ -147977,7 +147982,7 @@ window.BANK = [
     "t": "<p>En ideal gas har substansmängden 0,250 mol, temperaturen 300 K och trycket 100 000 Pa.</p><p>Bestäm gasens volym. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{0{,}250\\cdot 8{,}31\\cdot 300}{100\\,000}=0{,}0062325 m^{3}=6{,}2325\\, \\mathrm{liter}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 6,23 liter.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Ideala gaslagen och gasmängd",
     "typ": "ideala gaslagen",
     "ledtrad": "<p>Beräkningen ger först volymen i m³; omvandla sedan till liter.</p>",
@@ -148124,7 +148129,7 @@ window.BANK = [
     "id": "6.342",
     "kap": 6,
     "omr": "gaslagen",
-    "t": "<p>En stängd spruta innehåller gas vid övertrycket 50,0 kPa och volymen 40,0 mL. Omgivningstrycket är 100 kPa. Gasen komprimeras isotermt till 20,0 mL.</p><p>Bestäm gasens nya övertryck. Svara i kPa. Svara med ett heltal.</p>",
+    "t": "<p>En stängd spruta innehåller gas vid övertrycket 50,0 kPa och volymen 40,0 mL. Omgivningstrycket är 100 kPa. Gasen pressas ihop utan att temperaturen ändras till 20,0 mL.</p><p>Bestäm gasens nya övertryck. Svara i kPa. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Startens absoluttryck är 150 kPa.</p></li><li><p>Boyles lag ger p₂,abs=150·40,0/20,0=300 kPa.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Det nya övertrycket är</p><div class=\"facit-matte\">\\[300-100=200\\, \\mathrm{kPa}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 200 kPa.</p></div>",
     "niva": "E",
     "traningsniva": 2,
@@ -148154,7 +148159,7 @@ window.BANK = [
     "id": "6.344",
     "kap": 6,
     "omr": "gaslagen",
-    "t": "<p>En instängd gas komprimeras isotermt. Slutvolymen är 1,80 liter, starttrycket 90,0 kPa och sluttrycket 150 kPa.</p><p>Bestäm startvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+    "t": "<p>En instängd gas pressas ihop utan att temperaturen ändras. Slutvolymen är 1,80 liter, starttrycket 90,0 kPa och sluttrycket 150 kPa.</p><p>Bestäm startvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Boyles lag ger</p><div class=\"facit-matte\">\\[V_{1}=\\frac{p_{2} V_{2}}{p_{1}}=\\frac{150\\cdot 1{,}80}{90{,}0}=3{,}00\\, \\mathrm{liter}\\]</div></div></li></ol><p class=\"facit-svar\">Svar: 3,00 liter.</p></div>",
     "niva": "E",
     "traningsniva": 2,
@@ -148349,7 +148354,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Vilken area krävs för att samma kraft ska ge det angivna trycket?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "m²",
@@ -148476,7 +148481,7 @@ window.BANK = [
     "typ": "tryck i vardagen",
     "poang": "(4/0/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><ol type=\"a\"><li>En hammare träffar en tumme (2,0 cm²) med kraften 400 N. Bestäm trycket.</li><li>En person (90,0 kg) står på skosulor med arean 0,020 m². Bestäm trycket mot marken.</li><li>En kvinna (56 kg) balanserar på en stilettklack med arean 0,45 cm². Bestäm trycket.</li><li>Samma kvinna balanserar på en klack med arean 16 cm². Bestäm trycket.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{400}{2{,}0\\cdot10^{-4}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^{6}\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{90{,}0\\cdot9{,}82}{0{,}020}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\,190\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{56\\cdot9{,}82}{0{,}45\\cdot10^{-4}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\cdot10^{7}\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{56\\cdot9{,}82}{16\\cdot10^{-4}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\cdot10^{5}\\) Pa</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Tryck är kraft delat med area. Omvandla först arean: 2,0 cm² = 0,00020 m².</p></li><li><div class=\"facit-matte\">\\[p=\\frac FA=\\frac{400}{0{,}00020}=2000000\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 miljoner Pa.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Personens tyngdkraft är mg och fördelas över skosulornas sammanlagda area.</p></li><li><div class=\"facit-matte\">\\[p=\\frac{mg}{A}=\\frac{90{,}0\\cdot9{,}82}{0{,}020}=44190\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 44 000 Pa.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Hela tyngdkraften verkar på klacken. Omvandla arean: 0,45 cm² = 0,000045 m².</p></li><li><div class=\"facit-matte\">\\[p=\\frac{mg}{A}=\\frac{56\\cdot9{,}82}{0{,}000045}\\approx12220444\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 12 miljoner Pa.</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Hela tyngdkraften verkar på klacken. Omvandla arean: 16 cm² = 0,0016 m².</p></li><li><div class=\"facit-matte\">\\[p=\\frac{mg}{A}=\\frac{56\\cdot9{,}82}{0{,}0016}=343700\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 340 000 Pa.</p></div></div></div>",
     "id": "6.419",
     "miniräknare": true,
     "geogebra": false,
@@ -148522,31 +148527,31 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En hammare träffar en tumme (2,0 cm²) med kraften 400 N. Bestäm trycket.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En hammare träffar en tumme (2,0 cm²) med kraften 400 N. Bestäm trycket.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{400}{2{,}0\\cdot10^{-4}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^{6}\\) Pa</p></div>",
+        "fraga": "Hur stort är trycket? Svara i Pa.",
+        "t": "<p>En hammare trycker med kraften 400 N mot en yta på 2,0 cm².</p><p>Hur stort är trycket? Svara i Pa.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Tryck är kraft delat med area. Omvandla först arean: 2,0 cm² = 0,00020 m².</p></li><li><div class=\"facit-matte\">\\[p=\\frac FA=\\frac{400}{0{,}00020}=2000000\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 miljoner Pa.</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "En person (90,0 kg) står på skosulor med arean 0,020 m². Bestäm trycket mot marken.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En person (90,0 kg) står på skosulor med arean 0,020 m². Bestäm trycket mot marken.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{90{,}0\\cdot9{,}82}{0{,}020}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\,190\\) Pa</p></div>",
+        "fraga": "Hur stort tryck ger personen mot marken? Svara i Pa.",
+        "t": "<p>En person på 90,0 kg står stilla. Skosulornas sammanlagda kontaktyta är 0,020 m². Använd g = 9,82 m/s².</p><p>Hur stort tryck ger personen mot marken? Svara i Pa.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Personens tyngdkraft är mg och fördelas över skosulornas sammanlagda area.</p></li><li><div class=\"facit-matte\">\\[p=\\frac{mg}{A}=\\frac{90{,}0\\cdot9{,}82}{0{,}020}=44190\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 44 000 Pa.</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "En kvinna (56 kg) balanserar på en stilettklack med arean 0,45 cm². Bestäm trycket.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En kvinna (56 kg) balanserar på en stilettklack med arean 0,45 cm². Bestäm trycket.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{56\\cdot9{,}82}{0{,}45\\cdot10^{-4}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\cdot10^{7}\\) Pa</p></div>",
+        "fraga": "Hur stort är trycket under klacken? Svara i Pa.",
+        "t": "<p>En person på 56 kg står stilla på en klack med kontaktytan 0,45 cm². Klacken bär hela personens tyngd. Använd g = 9,82 m/s².</p><p>Hur stort är trycket under klacken? Svara i Pa.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Hela tyngdkraften verkar på klacken. Omvandla arean: 0,45 cm² = 0,000045 m².</p></li><li><div class=\"facit-matte\">\\[p=\\frac{mg}{A}=\\frac{56\\cdot9{,}82}{0{,}000045}\\approx12220444\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 12 miljoner Pa.</p></div>",
         "ledtrad": "<p>1 cm² = \\(10^{-4}\\) m².</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -148555,13 +148560,13 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En kvinna (56 kg) balanserar på en klack med arean 16 cm². Bestäm trycket.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En kvinna (56 kg) balanserar på en klack med arean 16 cm². Bestäm trycket.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{56\\cdot9{,}82}{16\\cdot10^{-4}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\cdot10^{5}\\) Pa</p></div>",
+        "fraga": "Hur stort är trycket under klacken? Svara i Pa.",
+        "t": "<p>En person på 56 kg står stilla på en klack med kontaktytan 16 cm². Klacken bär hela personens tyngd. Använd g = 9,82 m/s².</p><p>Hur stort är trycket under klacken? Svara i Pa.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Hela tyngdkraften verkar på klacken. Omvandla arean: 16 cm² = 0,0016 m².</p></li><li><div class=\"facit-matte\">\\[p=\\frac{mg}{A}=\\frac{56\\cdot9{,}82}{0{,}0016}=343700\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 340 000 Pa.</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -148643,8 +148648,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm trycket mellan fingret och den platta änden. Svara i Pa.",
-        "t": "<p>Ett häftstift trycks in med kraften 20 N. Anta att kraften fördelas jämnt över de cirkelformade kontaktytorna. Fingret trycker mot den platta änden, som har radien 4,0 mm. Spetsen mot underlaget har radien 0,3 mm.</p><p>Bestäm trycket mellan fingret och den platta änden. Svara i Pa.</p>",
+        "fraga": "Hur stort är trycket mellan fingret och häftstiftet? Svara i Pa.",
+        "t": "<p>Ett finger trycker med kraften 20 N på ett häftstifts platta ände. Änden är cirkelformad med radien 4,0 mm.</p><p>Hur stort är trycket mellan fingret och häftstiftet? Svara i Pa.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{20}{\\pi\\cdot0{,}0040^2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^{5}\\) Pa</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "E",
@@ -148654,8 +148659,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm trycket mellan spetsen och underlaget. Svara i Pa.",
-        "t": "<p>Ett häftstift trycks in med kraften 20 N. Anta att kraften fördelas jämnt över de cirkelformade kontaktytorna. Fingret trycker mot den platta änden, som har radien 4,0 mm. Spetsen mot underlaget har radien 0,3 mm.</p><p>Bestäm trycket mellan spetsen och underlaget. Svara i Pa.</p>",
+        "fraga": "Hur stort är trycket mellan spetsen och underlaget? Svara i Pa.",
+        "t": "<p>Ett häftstift trycks mot ett underlag med kraften 20 N. Spetsens kontaktyta är cirkelformad med radien 0,30 mm.</p><p>Hur stort är trycket mellan spetsen och underlaget? Svara i Pa.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{20}{\\pi\\cdot0{,}0003^2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}1\\cdot10^{7}\\) Pa</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "E",
@@ -148720,23 +148725,23 @@ window.BANK = [
         "ledtrad": "<p>\\(F=pA\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken massa har en tyngd som är lika stor?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Ett skrivbord är 2,5 m långt och 1,2 m brett. Lufttrycket är 101,3 kPa.</p>Tryckkraften är 0,30 MN.<p>Vilken massa har en tyngd som är lika stor?</p>",
+        "fraga": "Vilken massa har en lika stor tyngdkraft? Svara i kg.",
+        "t": "<p>Luften trycker på ett bord med kraften 0,30 MN. Använd g = 9,82 m/s².</p><p>Vilken massa har en lika stor tyngdkraft? Svara i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\dfrac{F}{9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,947\\) kg</p></div>",
         "ledtrad": "<p>\\(F=mg\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Lufttrycket verkar också underifrån, så bordet går inte sönder.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "tryck__tryck_i_vardag_och_teknik",
     "arbetsinsats": 2,
     "spel": true
@@ -148796,8 +148801,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Varje däck har kontaktytan 140 cm² mot marken. Uppskatta bilens massa.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Övertrycket i ett bildäck är 200 kPa.</p><p>Varje däck har kontaktytan 140 cm² mot marken. Uppskatta bilens massa.</p>",
+        "fraga": "Uppskatta bilens massa. Svara i kg.",
+        "t": "<p>En bil står stilla på vågrät mark och har fyra däck. Varje däck har kontaktytan 140 cm² mot marken och övertrycket 200 kPa. Räkna med att bilens tyngd bärs av övertrycket gånger däckens sammanlagda kontaktyta. Använd g = 9,82 m/s².</p><p>Uppskatta bilens massa. Svara i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=4\\cdot200\\cdot10^3\\cdot0{,}0140\\],</div></li><li><div class=\"facit-matte\">\\[m=\\dfrac{F}{9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,141\\) kg</p></div>",
         "ledtrad": "<p>Däcktrycket bär bilen.</p>",
         "niva": "C",
@@ -149026,7 +149031,7 @@ window.BANK = [
     "typ": "skidåkare",
     "poang": "(2/1/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En skidåkare (85 kg) står på två skidor som är 5,5 cm breda och 2,15 m långa.</p><ol type=\"a\"><li>Bestäm trycket mot snön.</li><li>Bestäm trycket när han lyfter ena skidan.</li><li>Bestäm trycket mot snön (två skidor) i en backe med lutningen 25°.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{85\\cdot9{,}82}{2\\cdot0{,}055\\cdot2{,}15}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,529\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Halva arean ger dubbla trycket.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,059\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Bara normalkraften \\(mg\\cos25^\\circ\\) trycker mot snön.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,199\\) Pa</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{85\\cdot9{,}82}{2\\cdot0{,}055\\cdot2{,}15}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,529\\) Pa</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>En skida bär hela skidåkarens tyngd. Bredden är 5,5 cm = 0,055 m. Beräkna först kontaktytan.</p></li><li><div class=\"facit-matte\">\\[A=0{,}055\\cdot2{,}15=0{,}11825\\,\\mathrm{m^2}\\qquad p=\\frac{mg}{A}=\\frac{85\\cdot9{,}82}{0{,}11825}\\approx7059\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 7100 Pa.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bara normalkraften \\(mg\\cos25^\\circ\\) trycker mot snön.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,199\\) Pa</p></div></div></div>",
     "id": "6.430",
     "miniräknare": true,
     "geogebra": false,
@@ -149079,13 +149084,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm trycket när han lyfter ena skidan.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En skidåkare (85 kg) står på två skidor som är 5,5 cm breda och 2,15 m långa.</p><p>Bestäm trycket när han lyfter ena skidan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Halva arean ger dubbla trycket.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,059\\) Pa</p></div>",
+        "fraga": "Hur stort tryck ger skidan mot snön? Svara i Pa.",
+        "t": "<p>En skidåkare på 85 kg står stilla på en skida. Skidan är 5,5 cm bred och 2,15 m lång. Bortse från skidans massa. Använd g = 9,82 m/s².</p><p>Hur stort tryck ger skidan mot snön? Svara i Pa.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>En skida bär hela skidåkarens tyngd. Bredden är 5,5 cm = 0,055 m. Beräkna först kontaktytan.</p></li><li><div class=\"facit-matte\">\\[A=0{,}055\\cdot2{,}15=0{,}11825\\,\\mathrm{m^2}\\qquad p=\\frac{mg}{A}=\\frac{85\\cdot9{,}82}{0{,}11825}\\approx7059\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 7100 Pa.</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -149112,7 +149117,7 @@ window.BANK = [
     "niva": "C",
     "typ": "höjd hos kopparblock",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: koppar 8 960 kg/m³.</p><p>Ett rätblock av koppar ger trycket 8,50 kPa mot bordet. Bestäm rätblockets höjd.</p>",
+    "t": "<p>Ett rätblock av koppar står på en plan sida på ett vågrätt bord. Trycket mot bordet är 8,50 kPa. Kopparns densitet är 8960 kg/m³. Använd g = 9,82 m/s².</p><p>Hur högt är rätblocket? Svara i m.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\rho gh\\iff h=\\dfrac{8\\,500}{8\\,960\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}097\\) m</p></div>",
     "id": "6.431",
     "miniräknare": true,
@@ -149127,7 +149132,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(p=\\dfrac{mg}{A}=\\rho gh\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "tryck__tryck_p_f_a",
     "arbetsinsats": 2,
@@ -149668,8 +149673,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm vätsketrycket på 10,0 m djup.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Vattnet i en insjö har densiteten 998 kg/m³ och lufttrycket är 101,3 kPa.</p><p>Bestäm vätsketrycket på 10,0 m djup.</p>",
+        "fraga": "Hur stort är övertrycket, alltså tryckökningen från vattenytan? Svara i Pa.",
+        "t": "<p>En punkt ligger 10,0 m under ytan i en sjö. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stort är övertrycket, alltså tryckökningen från vattenytan? Svara i Pa.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=998\\cdot9{,}82\\cdot10{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(98\\,004\\) Pa</p></div>",
         "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
         "niva": "E",
@@ -149713,7 +149718,7 @@ window.BANK = [
     "typ": "tryck i havet",
     "poang": "(2/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lufttrycket är 101,3 kPa.</p><ol type=\"a\"><li>Bestäm det totala trycket på 55,0 m djup.</li><li>Bestäm vätsketrycket vid en hydrotermal öppning på 3,2 km djup.</li><li>Organismer tål ett totalt tryck på högst 1 000 gånger lufttrycket. Bestäm största djupet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=101{,}3\\cdot10^3+1\\,025\\cdot9{,}82\\cdot55{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}55\\cdot10^{5}\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=1\\,025\\cdot9{,}82\\cdot3\\,200\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\cdot10^{7}\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{999\\cdot101{,}3\\cdot10^3}{1\\,025\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,054\\) m</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=101{,}3\\cdot10^3+1\\,025\\cdot9{,}82\\cdot55{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}55\\cdot10^{5}\\) Pa</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla djupet: 3,2 km = 3200 m. Övertrycket är den ökning som vattnet ger utöver trycket vid ytan.</p></li><li><div class=\"facit-matte\">\\[p_\\mathrm{över}=\\rho gh=1025\\cdot9{,}82\\cdot3200=32209600\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 32 miljoner Pa.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{999\\cdot101{,}3\\cdot10^3}{1\\,025\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,054\\) m</p></div></div></div>",
     "id": "6.437",
     "miniräknare": true,
     "geogebra": false,
@@ -149766,13 +149771,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm vätsketrycket vid en hydrotermal öppning på 3,2 km djup.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lufttrycket är 101,3 kPa.</p><p>Bestäm vätsketrycket vid en hydrotermal öppning på 3,2 km djup.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=1\\,025\\cdot9{,}82\\cdot3\\,200\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\cdot10^{7}\\) Pa</p></div>",
+        "fraga": "Hur stort är övertrycket, alltså tryckökningen från havsytan? Svara i Pa.",
+        "t": "<p>En punkt ligger 3,2 km under havsytan. Havsvattnets densitet är 1025 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stort är övertrycket, alltså tryckökningen från havsytan? Svara i Pa.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla djupet: 3,2 km = 3200 m. Övertrycket är den ökning som vattnet ger utöver trycket vid ytan.</p></li><li><div class=\"facit-matte\">\\[p_\\mathrm{över}=\\rho gh=1025\\cdot9{,}82\\cdot3200=32209600\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 32 miljoner Pa.</p></div>",
         "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -149799,8 +149804,8 @@ window.BANK = [
     "niva": "E",
     "typ": "luft och vatten med samma höjdskillnad",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>Hur mycket ändras trycket om man klättrar 35,0 m uppåt i luft med densiteten 1,20 kg/m³?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta p=1{,}20\\cdot9{,}82\\cdot35{,}0\\].</div></li><li><p>Att dyka 35 m i vatten ger ungefär 1 000 gånger mer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(412\\) Pa</p></div>",
+    "t": "<p>Du går 35,0 m uppåt. Luftens densitet är 1,20 kg/m³ och antas vara konstant. Använd g = 9,82 m/s².</p><p>Hur mycket minskar lufttrycket? Svara i Pa.</p>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Trycket är lägre högre upp. Beräkna minskningens storlek med höjdskillnaden.</p></li><li><div class=\"facit-matte\">\\[\\Delta p=\\rho gh=1{,}20\\cdot9{,}82\\cdot35{,}0=412{,}44\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 412 Pa.</p></div>",
     "id": "6.438",
     "miniräknare": true,
     "geogebra": false,
@@ -149814,7 +149819,7 @@ window.BANK = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+    "ledtrad": "<p>Jämför med hur trycket ökar när man går nedåt i en vätska.</p>",
     "traningsniva": 1,
     "svarEnhet": "Pa",
     "familjNyckel": "vatsketryck__vatsketryck_p_gh",
@@ -149864,13 +149869,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm vätsketrycket vid botten. Svara i Pa med två värdesiffror.",
-        "t": "<p>Ett hav på Mars kan ha varit 0,50 km djupt. Tyngdfaktorn på Mars är 3,71 N/kg och vattnet hade densiteten 998 kg/m³.</p><p>Bestäm vätsketrycket vid botten. Svara i Pa med två värdesiffror.</p>",
+        "fraga": "Hur mycket större var trycket vid botten än vid ytan? Svara i Pa med två värdesiffror.",
+        "t": "<p>Ett hav på Mars var 0,50 km djupt. Vattnets densitet var 998 kg/m³ och tyngdkraften per kilogram är 3,71 N/kg.</p><p>Hur mycket större var trycket vid botten än vid ytan? Svara i Pa med två värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=998\\cdot3{,}71\\cdot500\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p></div>",
         "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -149996,7 +150001,7 @@ window.BANK = [
     "typ": "kvicksilverbarometer",
     "poang": "(2/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><ol type=\"a\"><li>Bestäm trycket 760 mmHg i pascal.</li><li>Hur hög vinpelare (984 kg/m³) balanseras av samma lufttryck?</li><li>Lufttrycket sjunker 75,0 mmHg från 760 mmHg. Bestäm det nya trycket i pascal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13\\,600\\cdot9{,}82\\cdot0{,}760\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}01\\cdot10^{5}\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{1{,}015\\cdot10^5}{984\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}5\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13\\,600\\cdot9{,}82\\cdot0{,}685\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(91\\,483\\) Pa</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla höjden till meter: 760 mm = 0,760 m. Beräkna sedan vätskepelarens tryck.</p></li><li><div class=\"facit-matte\">\\[p=\\rho gh=13600\\cdot9{,}82\\cdot0{,}760=101502{,}72\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 102 000 Pa.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{1{,}015\\cdot10^5}{984\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}5\\) m</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13\\,600\\cdot9{,}82\\cdot0{,}685\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(91\\,483\\) Pa</p></div></div></div>",
     "id": "6.442",
     "miniräknare": true,
     "geogebra": false,
@@ -150037,13 +150042,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm trycket 760 mmHg i pascal.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Bestäm trycket 760 mmHg i pascal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13\\,600\\cdot9{,}82\\cdot0{,}760\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}01\\cdot10^{5}\\) Pa</p></div>",
-        "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
+        "fraga": "Hur stort är trycket i Pa?",
+        "t": "<p>Trycket 760 mmHg motsvarar trycket från en 760 mm hög kvicksilverpelare. Kvicksilvrets densitet är 13 600 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stort är trycket i Pa?</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla höjden till meter: 760 mm = 0,760 m. Beräkna sedan vätskepelarens tryck.</p></li><li><div class=\"facit-matte\">\\[p=\\rho gh=13600\\cdot9{,}82\\cdot0{,}760=101502{,}72\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 102 000 Pa.</p></div>",
+        "ledtrad": "<p>Använd kvicksilverpelarens höjd i meter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -150153,7 +150158,7 @@ window.BANK = [
     "typ": "blodtryck i kroppen",
     "poang": "(1/2/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Hjärtat sitter 1,37 m över golvet hos en person som är 1,75 m lång. Blodtrycket (övertrycket) i hjärtat är 104 mmHg och blodets densitet 1 060 kg/m³.</p><ol type=\"a\"><li>Bestäm blodtrycket i hjärtat i pascal.</li><li>Uppskatta blodtrycket i fötterna.</li><li>Uppskatta blodtrycket i huvudets topp (1,75 m upp).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13\\,600\\cdot9{,}82\\cdot0{,}104\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,889\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13{,}9\\cdot10^3+1\\,060\\cdot9{,}82\\cdot1{,}37\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(28\\,150\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13{,}9\\cdot10^3-1\\,060\\cdot9{,}82\\cdot0{,}38\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\,934\\) Pa</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Enheten mmHg anger höjden på en kvicksilverpelare som ger samma tryck. 104 mm = 0,104 m.</p></li><li><div class=\"facit-matte\">\\[p=\\rho gh=13600\\cdot9{,}82\\cdot0{,}104=13889{,}408\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 13 900 Pa.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13{,}9\\cdot10^3+1\\,060\\cdot9{,}82\\cdot1{,}37\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(28\\,150\\) Pa</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13{,}9\\cdot10^3-1\\,060\\cdot9{,}82\\cdot0{,}38\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\,934\\) Pa</p></div></div></div>",
     "id": "6.444",
     "miniräknare": true,
     "geogebra": false,
@@ -150195,13 +150200,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm blodtrycket i hjärtat i pascal.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Hjärtat sitter 1,37 m över golvet hos en person som är 1,75 m lång. Blodtrycket (övertrycket) i hjärtat är 104 mmHg och blodets densitet 1 060 kg/m³.</p><p>Bestäm blodtrycket i hjärtat i pascal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=13\\,600\\cdot9{,}82\\cdot0{,}104\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,889\\) Pa</p></div>",
+        "fraga": "Hur stort är övertrycket i Pa?",
+        "t": "<p>Blodtrycket i ett hjärta är 104 mmHg i övertryck. Det motsvarar trycket från en 104 mm hög kvicksilverpelare. Kvicksilvrets densitet är 13 600 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stort är övertrycket i Pa?</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Enheten mmHg anger höjden på en kvicksilverpelare som ger samma tryck. 104 mm = 0,104 m.</p></li><li><div class=\"facit-matte\">\\[p=\\rho gh=13600\\cdot9{,}82\\cdot0{,}104=13889{,}408\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 13 900 Pa.</p></div>",
         "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -150395,7 +150400,7 @@ window.BANK = [
     "typ": "snorkling",
     "poang": "(1/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lungorna klarar en tryckskillnad på högst en tjugondel av lufttrycket 101,3 kPa.</p><ol type=\"a\"><li>Bestäm tryckskillnaden på 40 cm djup.</li><li>Vilket är största djupet man kan snorkla på?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta p=1\\,025\\cdot9{,}82\\cdot0{,}40\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,026\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{101{,}3\\cdot10^3/20}{1\\,025\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\) m</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla djupet: 40 cm = 0,40 m. Det är vattnets tryckökning som efterfrågas.</p></li><li><div class=\"facit-matte\">\\[\\Delta p=\\rho gh=1025\\cdot9{,}82\\cdot0{,}40=4026{,}2\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 4000 Pa.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{101{,}3\\cdot10^3/20}{1\\,025\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\) m</p></div></div></div>",
     "id": "6.454",
     "miniräknare": true,
     "geogebra": false,
@@ -150432,13 +150437,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tryckskillnaden på 40 cm djup.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Lungorna klarar en tryckskillnad på högst en tjugondel av lufttrycket 101,3 kPa.</p><p>Bestäm tryckskillnaden på 40 cm djup.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta p=1\\,025\\cdot9{,}82\\cdot0{,}40\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,026\\) Pa</p></div>",
+        "fraga": "Hur mycket större är trycket där än vid ytan? Svara i Pa.",
+        "t": "<p>En punkt ligger 40 cm under havsytan. Havsvattnets densitet är 1025 kg/m³. Använd g = 9,82 m/s².</p><p>Hur mycket större är trycket där än vid ytan? Svara i Pa.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla djupet: 40 cm = 0,40 m. Det är vattnets tryckökning som efterfrågas.</p></li><li><div class=\"facit-matte\">\\[\\Delta p=\\rho gh=1025\\cdot9{,}82\\cdot0{,}40=4026{,}2\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 4000 Pa.</p></div>",
         "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -150565,7 +150570,7 @@ window.BANK = [
     "typ": "träbit i ett glas vatten",
     "poang": "(1/2/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett glas med bottenarean 40 cm² innehåller vatten till höjden 20 cm. En träbit (100 g) läggs i och flyter.</p><ol type=\"a\"><li>Bestäm vätsketrycket vid botten före.</li><li>Hur mycket ökar trycket vid botten?</li><li>Hur mycket stiger vattenytan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=1\\,000\\cdot9{,}82\\cdot0{,}20\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,964\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Tryckkraften ökar med träbitens tyngd: \\(\\Delta p=\\dfrac{0{,}100\\cdot9{,}82}{40\\cdot10^{-4}}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(246\\) Pa</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta h=\\dfrac{\\Delta p}{1\\,000\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}025\\) m</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla vattenhöjden: 20 cm = 0,20 m. Bottenarean behövs inte för att beräkna trycket.</p></li><li><div class=\"facit-matte\">\\[\\Delta p=\\rho gh=1000\\cdot9{,}82\\cdot0{,}20=1964\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2000 Pa.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tryckkraften ökar med träbitens tyngd: \\(\\Delta p=\\dfrac{0{,}100\\cdot9{,}82}{40\\cdot10^{-4}}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(246\\) Pa</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta h=\\dfrac{\\Delta p}{1\\,000\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}025\\) m</p></div></div></div>",
     "id": "6.457",
     "miniräknare": true,
     "geogebra": false,
@@ -150607,13 +150612,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm vätsketrycket vid botten före.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett glas med bottenarean 40 cm² innehåller vatten till höjden 20 cm. En träbit (100 g) läggs i och flyter.</p><p>Bestäm vätsketrycket vid botten före.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=1\\,000\\cdot9{,}82\\cdot0{,}20\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,964\\) Pa</p></div>",
+        "fraga": "Hur mycket större är trycket vid botten än vid vattenytan? Svara i Pa.",
+        "t": "<p>Ett glas innehåller vatten till höjden 20 cm. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur mycket större är trycket vid botten än vid vattenytan? Svara i Pa.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Omvandla vattenhöjden: 20 cm = 0,20 m. Bottenarean behövs inte för att beräkna trycket.</p></li><li><div class=\"facit-matte\">\\[\\Delta p=\\rho gh=1000\\cdot9{,}82\\cdot0{,}20=1964\\,\\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2000 Pa.</p></div>",
         "ledtrad": "<p>\\(p=\\rho gh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -150849,7 +150854,7 @@ window.BANK = [
     "typ": "U-rör med olika tvärsnitt",
     "poang": "(1/1/2)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Ett U-rör med kvicksilver har vänster tvärsnitt 10 cm² och höger 5,00 cm². 100 g vatten hälls i högra skänkeln.</p><ol type=\"a\"><li>Hur hög är vattenpelaren?</li><li>Hur mycket stiger kvicksilverytan i vänstra skänkeln?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{100\\,\\text{cm}^3}{5{,}00\\,\\text{cm}^2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}20\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Nivåskillnad: \\(\\dfrac{20\\cdot1\\,000}{13\\,600}=1{,}47\\) cm.</p></li><li><p>Höger sjunker \\(x\\), vänster stiger \\(y\\) med \\(10y=5x\\).</p></li><li><p>\\(x+y=3y=1{,}47\\) cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0049\\) m</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Beräkna vattenvolymen med massan och densiteten. Rörvolymen är area gånger höjd.</p></li><li><div class=\"facit-matte\">\\[V=\\frac m\\rho=\\frac{100}{1{,}00}=100\\,\\mathrm{cm^3}\\qquad h=\\frac VA=\\frac{100}{5{,}00}=20\\,\\mathrm{cm}=0{,}20\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,20 m.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nivåskillnad: \\(\\dfrac{20\\cdot1\\,000}{13\\,600}=1{,}47\\) cm.</p></li><li><p>Höger sjunker \\(x\\), vänster stiger \\(y\\) med \\(10y=5x\\).</p></li><li><p>\\(x+y=3y=1{,}47\\) cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0049\\) m</p></div></div></div>",
     "id": "6.463",
     "miniräknare": true,
     "geogebra": false,
@@ -150885,13 +150890,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur hög är vattenpelaren?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Ett U-rör med kvicksilver har vänster tvärsnitt 10 cm² och höger 5,00 cm². 100 g vatten hälls i högra skänkeln.</p><p>Hur hög är vattenpelaren?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{100\\,\\text{cm}^3}{5{,}00\\,\\text{cm}^2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}20\\) m</p></div>",
+        "fraga": "Hur hög blir vattenpelaren? Svara i m.",
+        "t": "<p>100 g vatten hälls i ett rör med arean 5,00 cm². Vattnets densitet är 1,00 g/cm³.</p><p>Hur hög blir vattenpelaren? Svara i m.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Beräkna vattenvolymen med massan och densiteten. Rörvolymen är area gånger höjd.</p></li><li><div class=\"facit-matte\">\\[V=\\frac m\\rho=\\frac{100}{1{,}00}=100\\,\\mathrm{cm^3}\\qquad h=\\frac VA=\\frac{100}{5{,}00}=20\\,\\mathrm{cm}=0{,}20\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,20 m.</p></div>",
         "ledtrad": "<p>Volym delat med area.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -150961,10 +150966,10 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Kvicksilvret pressas bort från gasen och nivåskillnaden blir 18,0 cm. Bestäm gasens tryck.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Lufttrycket är 101,3 kPa. En gasflaska kopplas till en kvicksilvermanometer.</p><p>Kvicksilvret pressas bort från gasen och nivåskillnaden blir 18,0 cm. Bestäm gasens tryck.</p>",
+        "fraga": "Hur stort är gasens totala tryck (absoluttrycket)? Svara i Pa.",
+        "t": "<p>En gasbehållare är ansluten till ena sidan av ett U-rör med kvicksilver. Den andra sidan är öppen mot luften. Kvicksilverytan på gassidan ligger 18,0 cm lägre än på luftsidan. Lufttrycket är 101,3 kPa och kvicksilvrets densitet 13 600 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stort är gasens totala tryck (absoluttrycket)? Svara i Pa.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=101{,}3\\cdot10^3+13\\,600\\cdot9{,}82\\cdot0{,}180\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}25\\cdot10^{5}\\) Pa</p></div>",
-        "ledtrad": "<p>Övertryck.</p>",
+        "ledtrad": "<p>På den sida där vätskeytan ligger lägre är trycket större.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -150972,10 +150977,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Kvicksilvret dras mot gasen och nivåskillnaden blir 55 mm. Bestäm gasens tryck.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: kvicksilver 13 600 kg/m³.</p><p>Lufttrycket är 101,3 kPa. En gasflaska kopplas till en kvicksilvermanometer.</p><p>Kvicksilvret dras mot gasen och nivåskillnaden blir 55 mm. Bestäm gasens tryck.</p>",
+        "fraga": "Hur stort är gasens totala tryck (absoluttrycket)? Svara i Pa.",
+        "t": "<p>En gasbehållare är ansluten till ena sidan av ett U-rör med kvicksilver. Den andra sidan är öppen mot luften. Kvicksilverytan på gassidan ligger 55 mm högre än på luftsidan. Lufttrycket är 101,3 kPa och kvicksilvrets densitet 13 600 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stort är gasens totala tryck (absoluttrycket)? Svara i Pa.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=101{,}3\\cdot10^3-13\\,600\\cdot9{,}82\\cdot0{,}055\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(93\\,955\\) Pa</p></div>",
-        "ledtrad": "<p>Undertryck.</p>",
+        "ledtrad": "<p>På den sida där vätskeytan ligger lägre är trycket större.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -151046,7 +151051,7 @@ window.BANK = [
     "tolerans": 0.02,
     "självrättning": true,
     "ledtrad": "<p>Omvandla liter till kubikmeter och bestäm lyftkraften från den undanträngda vätskan.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": "N",
@@ -151126,7 +151131,7 @@ window.BANK = [
     "niva": "E",
     "typ": "resultant av lyftkraft och tyngdkraft",
     "poang": "(1/0/0)",
-    "t": "<p>På en nedsänkt kropp verkar lyftkraften 18 N uppåt och tyngdkraften 25 N nedåt. Inga andra krafter verkar.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"93.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 82.0 L206.0 93.0 L194.0 93.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"148\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 18 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"269.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 280.0 L214.0 269.0 L226.0 269.0 Z\" fill=\"#c0392b\"/>\n<text x=\"272\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg = 25 N</text></svg></div><p>Bestäm resultantens storlek och riktning.</p>",
+    "t": "<p>På en nedsänkt kropp verkar lyftkraften 18 N uppåt och tyngdkraften 25 N nedåt. Inga andra krafter verkar.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"93.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 82.0 L206.0 93.0 L194.0 93.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"148\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 18 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"269.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 280.0 L214.0 269.0 L226.0 269.0 Z\" fill=\"#c0392b\"/>\n<text x=\"272\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg = 25 N</text></svg></div><p>Hur stor är den sammanlagda kraften? Ange också om den är riktad uppåt eller nedåt.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Krafterna verkar åt motsatta håll.</p></li><li><p>Skillnaden är \\(25-18=7\\ \\mathrm N\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 N nedåt.</p></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
@@ -151156,7 +151161,7 @@ window.BANK = [
     "typ": "lyftkraft på olika föremål",
     "poang": "(1/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><ol type=\"a\"><li>En kopparkub med sidan 5,0 cm är helt under vatten. Bestäm lyftkraften.</li><li>En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1\\,000\\cdot(0{,}050)^3\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Flyter: \\(F=mg=917\\cdot100\\cdot10^{-6}\\cdot9{,}82\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}90\\) N</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Lyftkraften beror på volymen av vattnet som kuben tränger undan. Sidan är 5,0 cm = 0,050 m.</p></li><li><div class=\"facit-matte\">\\[V=(0{,}050)^3=0{,}000125\\,\\mathrm{m^3}\\qquad F_L=\\rho Vg=1000\\cdot0{,}000125\\cdot9{,}82=1{,}2275\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,2 N uppåt.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Flyter: \\(F=mg=917\\cdot100\\cdot10^{-6}\\cdot9{,}82\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}90\\) N</p></div></div></div>",
     "id": "6.466",
     "miniräknare": true,
     "geogebra": false,
@@ -151193,13 +151198,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kopparkub med sidan 5,0 cm är helt under vatten. Bestäm lyftkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>En kopparkub med sidan 5,0 cm är helt under vatten. Bestäm lyftkraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1\\,000\\cdot(0{,}050)^3\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) N</p></div>",
+        "fraga": "Hur stor är lyftkraften på kuben? Svara i N.",
+        "t": "<p>En kopparkub med sidan 5,0 cm hålls helt under vattenytan. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på kuben? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Lyftkraften beror på volymen av vattnet som kuben tränger undan. Sidan är 5,0 cm = 0,050 m.</p></li><li><div class=\"facit-matte\">\\[V=(0{,}050)^3=0{,}000125\\,\\mathrm{m^3}\\qquad F_L=\\rho Vg=1000\\cdot0{,}000125\\cdot9{,}82=1{,}2275\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,2 N uppåt.</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -151324,7 +151329,7 @@ window.BANK = [
     "niva": "C",
     "typ": "densitet ur vägning i vatten",
     "poang": "(0/3/0)",
-    "t": "<p>Bestäm densiteten.</p><ol type=\"a\"><li>En metall väger 0,624 N i luft och 0,544 N helt under vatten.</li><li>En månsten väger 91,1 N i luft och 60,1 N under vatten.</li><li>En krona väger 144 N i luft och 132 N under vatten.</li></ol>",
+    "t": "<p>Bestäm densiteten. Föremålen hänger i en kraftmätare och hålls helt under ytan vid mätning i vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><ol type=\"a\"><li>En metall väger 0,624 N i luft och 0,544 N helt under vatten.</li><li>En månsten väger 91,1 N i luft och 60,1 N under vatten.</li><li>En krona väger 144 N i luft och 132 N under vatten.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\rho=\\dfrac{0{,}624}{0{,}624-0{,}544}\\cdot1\\,000\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,800\\) kg/m³</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\rho=\\dfrac{91{,}1}{31{,}0}\\cdot1\\,000\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,939\\) kg/m³</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\rho=\\dfrac{144}{12}\\cdot1\\,000\\), mindre än guldets 19 300 kg/m³.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\) kg/m³</p></li></ol></div>",
     "id": "6.469",
     "miniräknare": true,
@@ -151363,12 +151368,12 @@ window.BANK = [
       "kg/m³"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm densiteten.</p>",
+    "spelIntro": "<p>Bestäm densiteten. Föremålen hänger i en kraftmätare och hålls helt under ytan vid mätning i vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En metall väger 0,624 N i luft och 0,544 N helt under vatten.",
-        "t": "<p>Bestäm densiteten.</p><p>En metall väger 0,624 N i luft och 0,544 N helt under vatten.</p>",
+        "fraga": "Vilken densitet har föremålet? Svara i kg/m³.",
+        "t": "<p>En metallbit hänger i en kraftmätare. Mätaren visar 0,624 N i luft och 0,544 N när föremålet är helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Vilken densitet har föremålet? Svara i kg/m³.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\rho=\\dfrac{0{,}624}{0{,}624-0{,}544}\\cdot1\\,000\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,800\\) kg/m³</p></div>",
         "ledtrad": "<p>Lyftkraften ger volymen.</p>",
         "niva": "C",
@@ -151378,8 +151383,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En månsten väger 91,1 N i luft och 60,1 N under vatten.",
-        "t": "<p>Bestäm densiteten.</p><p>En månsten väger 91,1 N i luft och 60,1 N under vatten.</p>",
+        "fraga": "Vilken densitet har föremålet? Svara i kg/m³.",
+        "t": "<p>En månsten hänger i en kraftmätare. Mätaren visar 91,1 N i luft och 60,1 N när föremålet är helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Vilken densitet har föremålet? Svara i kg/m³.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\rho=\\dfrac{91{,}1}{31{,}0}\\cdot1\\,000\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,939\\) kg/m³</p></div>",
         "ledtrad": "<p>Lyftkraften ger volymen.</p>",
         "niva": "C",
@@ -151389,8 +151394,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En krona väger 144 N i luft och 132 N under vatten.",
-        "t": "<p>Bestäm densiteten.</p><p>En krona väger 144 N i luft och 132 N under vatten.</p>",
+        "fraga": "Vilken densitet har föremålet? Svara i kg/m³.",
+        "t": "<p>En krona hänger i en kraftmätare. Mätaren visar 144 N i luft och 132 N när föremålet är helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Vilken densitet har föremålet? Svara i kg/m³.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\rho=\\dfrac{144}{12}\\cdot1\\,000\\), mindre än guldets 19 300 kg/m³.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\) kg/m³</p></div>",
         "ledtrad": "<p>Lyftkraften ger volymen.</p>",
         "niva": "C",
@@ -151412,7 +151417,7 @@ window.BANK = [
     "typ": "bärgning med kran",
     "poang": "(2/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p><ol type=\"a\"><li>Ett stålfartyg (18 ton) lyfts med konstant fart under vattnet. Bestäm spännkraften i vajern.</li><li>En staty (70 kg, 30 liter) lyfts under vattnet. Bestäm spännkraften.</li><li>Vilken spännkraft krävs när statyn är ovanför vattnet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=18\\,000\\cdot9{,}82\\left(1-\\dfrac{1\\,000}{7\\,850}\\right)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=(70-30)\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(393\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=70\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(687\\) N</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=18\\,000\\cdot9{,}82\\left(1-\\dfrac{1\\,000}{7\\,850}\\right)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vajern och vattnets lyftkraft håller tillsammans uppe statyn. Volymen är 30 liter = 0,030 m³.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{vajer}=mg-\\rho Vg=70\\cdot9{,}82-1000\\cdot0{,}030\\cdot9{,}82=392{,}8\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 393 N uppåt.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=70\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(687\\) N</p></div></div></div>",
     "id": "6.470",
     "miniräknare": true,
     "geogebra": false,
@@ -151465,9 +151470,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En staty (70 kg, 30 liter) lyfts under vattnet. Bestäm spännkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p><p>En staty (70 kg, 30 liter) lyfts under vattnet. Bestäm spännkraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=(70-30)\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(393\\) N</p></div>",
+        "fraga": "Hur stor är kraften från lyftvajern på statyn? Svara i N.",
+        "t": "<p>En staty med massan 70 kg och volymen 30 liter lyfts med konstant fart helt under vattenytan. Vattnets densitet är 1000 kg/m³. Bortse från vattenmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från lyftvajern på statyn? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vajern och vattnets lyftkraft håller tillsammans uppe statyn. Volymen är 30 liter = 0,030 m³.</p></li><li><div class=\"facit-matte\">\\[F_\\mathrm{vajer}=mg-\\rho Vg=70\\cdot9{,}82-1000\\cdot0{,}030\\cdot9{,}82=392{,}8\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 393 N uppåt.</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -151476,8 +151481,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vilken spännkraft krävs för att lyfta en staty (70 kg) med konstant fart ovanför vattnet?",
-        "t": "<p>En staty på 70 kg lyfts med konstant fart i en vajer ovanför vattnet. Bortse från luftens lyftkraft och använd g = 9,82 m/s².</p><p>Vilken spännkraft krävs för att lyfta en staty (70 kg) med konstant fart ovanför vattnet?</p>",
+        "fraga": "Hur stor är kraften från lyftvajern på statyn? Svara i N.",
+        "t": "<p>En staty på 70 kg lyfts med konstant fart i luft. Bortse från luftmotstånd och luftens lyftkraft. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från lyftvajern på statyn? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=70\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(687\\) N</p></div>",
         "ledtrad": "<p>Ingen lyftkraft.</p>",
         "niva": "E",
@@ -151498,7 +151503,7 @@ window.BANK = [
     "niva": "E",
     "typ": "dykare sjunker eller flyter",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En dykare har volymen 69,6 liter och massan 72,8 kg med utrustning. Bestäm lyftkraften när dykaren är helt under vattnet. (Tyngden är 715 N, så dykaren sjunker.)</p>",
+    "t": "<p>En dykare med utrustning har volymen 69,6 liter och är helt under havsytan. Havsvattnets densitet är 1025 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på dykaren? Svara i N.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1\\,025\\cdot0{,}0696\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(701\\) N</p></div>",
     "id": "6.471",
     "miniräknare": true,
@@ -151582,7 +151587,7 @@ window.BANK = [
     "niva": "A",
     "typ": "acceleration när föremål släpps under vatten",
     "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><ol type=\"a\"><li>En metallbit (5,00 g/cm³) släpps under vatten. Bestäm accelerationen.</li><li>En bit balsaträ (0,16 g/cm³) släpps under vatten. Bestäm accelerationen (uppåt).</li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³. Föremålen släpps från vila helt under ytan. Räkna bara med tyngdkraft och lyftkraft.</p><ol type=\"a\"><li>En metallbit (5,00 g/cm³) släpps under vatten. Bestäm accelerationen.</li><li>En bit balsaträ (0,16 g/cm³) släpps under vatten. Bestäm accelerationen (uppåt).</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=g\\left(1-\\dfrac{1\\,000}{5\\,000}\\right)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}86\\) m/s²</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=g\\left(\\dfrac{1\\,000}{160}-1\\right)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\) m/s²</p></li></ol></div>",
     "id": "6.474",
     "miniräknare": true,
@@ -151616,12 +151621,12 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³. Föremålen släpps från vila helt under ytan. Räkna bara med tyngdkraft och lyftkraft.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En metallbit (5,00 g/cm³) släpps under vatten. Bestäm accelerationen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En metallbit (5,00 g/cm³) släpps under vatten. Bestäm accelerationen.</p>",
+        "fraga": "Hur stor är accelerationen nedåt i denna modell? Svara i m/s².",
+        "t": "<p>En metallbit med densiteten 5,00 g/cm³ släpps från vila helt under vattenytan. Vattnets densitet är 1000 kg/m³. Räkna bara med tyngdkraften och lyftkraften. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen nedåt i denna modell? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=g\\left(1-\\dfrac{1\\,000}{5\\,000}\\right)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}86\\) m/s²</p></div>",
         "ledtrad": "<p>\\(F_R=mg-F_\\text{lyft}\\).</p>",
         "niva": "C",
@@ -151631,8 +151636,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En bit balsaträ (0,16 g/cm³) släpps under vatten. Bestäm accelerationen (uppåt).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En bit balsaträ (0,16 g/cm³) släpps under vatten. Bestäm accelerationen (uppåt).</p>",
+        "fraga": "Hur stor är accelerationen uppåt i denna modell? Svara i m/s².",
+        "t": "<p>En bit balsaträ med densiteten 0,16 g/cm³ släpps från vila helt under vattenytan. Vattnets densitet är 1000 kg/m³. Räkna bara med tyngdkraften och lyftkraften. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen uppåt i denna modell? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=g\\left(\\dfrac{1\\,000}{160}-1\\right)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\) m/s²</p></div>",
         "ledtrad": "<p>\\(F_R=F_\\text{lyft}-mg\\).</p>",
         "niva": "A",
@@ -151968,7 +151973,7 @@ window.BANK = [
     "typ": "andel under ytan",
     "poang": "(1/2/0)",
     "t": "<p>Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p><ol type=\"a\"><li>Ett isberg (917 kg/m³) flyter i havsvatten (1 025 kg/m³). Hur många procent av isbergets volym ligger under havsytan?</li><li>Hur många procent av en järnbit ligger ovanför ytan när den flyter i kvicksilver?</li><li>Ett föremål har 14 % av volymen under vattenytan. Hur många procent är under ytan i etanol?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{917}{1\\,025}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(89{,}5\\) %</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1-\\dfrac{7\\,870}{13\\,600}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(42{,}1\\) %</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\rho=140\\) kg/m³.</p></li><li><div class=\"facit-matte\">\\[\\dfrac{140}{790}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\) %</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>När isberget flyter är lyftkraften lika stor som tyngdkraften. Den nedsänkta volymandelen är isens densitet delad med vattnets densitet.</p></li><li><div class=\"facit-matte\">\\[\\frac{V_\\mathrm{under}}{V_\\mathrm{hela}}=\\frac{917}{1025}\\approx0{,}8946\\quad\\Rightarrow\\quad89{,}46\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 89 %.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1-\\dfrac{7\\,870}{13\\,600}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(42{,}1\\) %</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\rho=140\\) kg/m³.</p></li><li><div class=\"facit-matte\">\\[\\dfrac{140}{790}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\) %</p></div></div></div>",
     "id": "6.482",
     "miniräknare": true,
     "geogebra": false,
@@ -152010,13 +152015,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett isberg (917 kg/m³) flyter i havsvatten (1 025 kg/m³). Hur många procent av isbergets volym ligger under havsytan?",
-        "t": "<p>Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Ett isberg (917 kg/m³) flyter i havsvatten (1 025 kg/m³). Hur många procent av isbergets volym ligger under havsytan?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{917}{1\\,025}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(89{,}5\\) %</p></div>",
+        "fraga": "Hur många procent av isbergets volym ligger under havsytan? Svara i %.",
+        "t": "<p>Ett isberg med densiteten 917 kg/m³ flyter i havsvatten med densiteten 1025 kg/m³.</p><p>Hur många procent av isbergets volym ligger under havsytan? Svara i %.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>När isberget flyter är lyftkraften lika stor som tyngdkraften. Den nedsänkta volymandelen är isens densitet delad med vattnets densitet.</p></li><li><div class=\"facit-matte\">\\[\\frac{V_\\mathrm{under}}{V_\\mathrm{hela}}=\\frac{917}{1025}\\approx0{,}8946\\quad\\Rightarrow\\quad89{,}46\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 89 %.</p></div>",
         "ledtrad": "<p>Densitetskvoten.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -152055,7 +152060,7 @@ window.BANK = [
     "typ": "is flyter eller trycks ner",
     "poang": "(1/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><ol type=\"a\"><li>Bestäm lyftkraften på 0,90 kg is som flyter fritt.</li><li>Bestäm lyftkraften när isen trycks ned helt under ytan.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=mg=0{,}90\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1\\,000\\cdot\\dfrac{0{,}90}{917}\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}6\\) N</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=mg=0{,}90\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\) N</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Använd isens massa och densitet för att beräkna volymen. Hela denna volym tränger undan vatten.</p></li><li><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho_\\mathrm{is}}=\\frac{0{,}90}{917}\\,\\mathrm{m^3}\\qquad F_L=\\rho_\\mathrm{vatten}Vg=1000\\cdot\\frac{0{,}90}{917}\\cdot9{,}82\\approx9{,}64\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9,6 N.</p></div></div></div>",
     "id": "6.483",
     "miniräknare": true,
     "geogebra": false,
@@ -152092,8 +152097,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lyftkraften på 0,90 kg is som flyter fritt.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>Bestäm lyftkraften på 0,90 kg is som flyter fritt.</p>",
+        "fraga": "Hur stor är lyftkraften på isbiten? Svara i N.",
+        "t": "<p>En isbit med massan 0,90 kg flyter stilla i vatten. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på isbiten? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=mg=0{,}90\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\) N</p></div>",
         "ledtrad": "<p>Flyter: lyftkraft = tyngd.</p>",
         "niva": "E",
@@ -152103,13 +152108,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm lyftkraften när isen trycks ned helt under ytan.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>Bestäm lyftkraften när isen trycks ned helt under ytan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1\\,000\\cdot\\dfrac{0{,}90}{917}\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}6\\) N</p></div>",
-        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "fraga": "Hur stor är vattnets lyftkraft på isbiten? Svara i N.",
+        "t": "<p>En isbit på 0,90 kg hålls helt under vattenytan. Isens densitet är 917 kg/m³ och vattnets är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på isbiten? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Använd isens massa och densitet för att beräkna volymen. Hela denna volym tränger undan vatten.</p></li><li><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho_\\mathrm{is}}=\\frac{0{,}90}{917}\\,\\mathrm{m^3}\\qquad F_L=\\rho_\\mathrm{vatten}Vg=1000\\cdot\\frac{0{,}90}{917}\\cdot9{,}82\\approx9{,}64\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9,6 N.</p></div>",
+        "ledtrad": "<p>Hela isbiten är under ytan. Lyftkraften beräknas från den undanträngda vattenvolymen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -152223,8 +152228,8 @@ window.BANK = [
     "niva": "C",
     "typ": "pråm från hav till flod",
     "poang": "(0/1/0)",
-    "t": "<p>En pråm har djupgåendet 0,80 m i havet (1 025 kg/m³). Bestäm djupgåendet i sötvatten (1 000 kg/m³).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Samma undanträngda massa: \\(d=0{,}80\\cdot\\dfrac{1\\,025}{1\\,000}\\).</p></li><li><p>Pråmen sjunker djupare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}82\\) m</p></div>",
+    "t": "<p>En pråm flyter i havsvatten med densiteten 1025 kg/m³. Den del som ligger under ytan är 0,80 m hög. Pråmen har lodräta sidor och konstant tvärsnittsarea. Massan är oförändrad när pråmen flyttas till sötvatten med densiteten 1000 kg/m³.</p><p>Hur stor del av pråmens höjd ligger nu under vattenytan? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Pråmen behöver tränga undan samma vattenmassa i båda fallen. Med lodräta sidor är volymen tvärsnittsarean gånger höjden under ytan.</p></li><li><div class=\"facit-matte\">\\[\\rho_1Ah_1=\\rho_2Ah_2\\quad\\Rightarrow\\quad h_2=\\frac{1025\\cdot0{,}80}{1000}=0{,}82\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,82 m.</p></div>",
     "id": "6.486",
     "miniräknare": true,
     "geogebra": false,
@@ -152238,8 +152243,8 @@ window.BANK = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lyftkraften är lika stor.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Sötvatten har lägre densitet, så en större volym måste trängas undan.</p>",
+    "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "arkimedes__flytande_kroppar",
     "arbetsinsats": 2,
@@ -152252,7 +152257,7 @@ window.BANK = [
     "typ": "träkloss lastad med bly",
     "poang": "(1/2/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><ol type=\"a\"><li>Hur djupt flyter klossen?</li><li>Hur mycket bly kan läggas ovanpå innan klossen sjunker?</li><li>Hur mycket bly kan fästas under klossen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=\\dfrac{3{,}65}{1\\,000\\cdot0{,}60\\cdot0{,}20}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}030\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Hela klossen under: \\(1\\,000\\cdot0{,}00730-3{,}65\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\) kg</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m\\left(1-\\dfrac{1\\,000}{11\\,340}\\right)=3{,}65\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\) kg</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>När klossen flyter undantränger den vatten med samma massa som klossen. Bottenarean är 0,60 · 0,20 = 0,12 m².</p></li><li><div class=\"facit-matte\">\\[V_\\mathrm{under}=\\frac{3{,}65}{1000}=0{,}00365\\,\\mathrm{m^3}\\qquad h=\\frac{V_\\mathrm{under}}{A}=\\frac{0{,}00365}{0{,}12}\\approx0{,}0304\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,030 m, alltså 3,0 cm.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hela klossen under: \\(1\\,000\\cdot0{,}00730-3{,}65\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\) kg</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m\\left(1-\\dfrac{1\\,000}{11\\,340}\\right)=3{,}65\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\) kg</p></div></div></div>",
     "id": "6.487",
     "miniräknare": true,
     "geogebra": false,
@@ -152294,9 +152299,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur djupt flyter klossen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><p>Hur djupt flyter klossen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=\\dfrac{3{,}65}{1\\,000\\cdot0{,}60\\cdot0{,}20}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}030\\) m</p></div>",
+        "fraga": "Hur mycket av klossens höjd ligger under vattenytan? Svara i m.",
+        "t": "<p>En träkloss på 3,65 kg flyter i vatten med densiteten 1000 kg/m³. Klossen är 60 cm lång och 20 cm bred, med lodräta sidor.</p><p>Hur mycket av klossens höjd ligger under vattenytan? Svara i m.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>När klossen flyter undantränger den vatten med samma massa som klossen. Bottenarean är 0,60 · 0,20 = 0,12 m².</p></li><li><div class=\"facit-matte\">\\[V_\\mathrm{under}=\\frac{3{,}65}{1000}=0{,}00365\\,\\mathrm{m^3}\\qquad h=\\frac{V_\\mathrm{under}}{A}=\\frac{0{,}00365}{0{,}12}\\approx0{,}0304\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,030 m, alltså 3,0 cm.</p></div>",
         "ledtrad": "<p>Undanträngd volym.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -152437,8 +152442,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lyftkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><p>Bestäm lyftkraften.</p>",
+        "fraga": "Hur stor är vattnets lyftkraft på blocket? Svara i N.",
+        "t": "<p>Ett frigolitblock flyter i havsvatten med densiteten 1025 kg/m³. Blockets botten är 2,00 m × 2,00 m och 0,024 m av höjden ligger under ytan. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på blocket? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1\\,025\\cdot2{,}00\\cdot2{,}00\\cdot0{,}024\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(966\\) N</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
@@ -152978,7 +152983,7 @@ window.BANK = [
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -153185,7 +153190,7 @@ window.BANK = [
     "typ": "ballong pressas ihop under vatten",
     "poang": "(2/1/1)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p><ol type=\"a\"><li>Bestäm lyftkraften i luft.</li><li>Bestäm lyftkraften när ballongen precis är under vattenytan.</li><li>Bestäm lyftkraften på 20 m djup (konstant temperatur).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1{,}29\\cdot0{,}0020\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}025\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1\\,000\\cdot0{,}0020\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(p=101{,}3+196{,}4=297{,}7\\) kPa.</p></li><li><p>\\(V=2{,}0\\cdot\\dfrac{101{,}3}{297{,}7}\\) liter.</p></li><li><div class=\"facit-matte\">\\[F=1\\,000\\cdot V\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) N</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Ballongen tränger undan 2,0 liter = 0,0020 m³ luft. Lyftkraften är tyngdkraften på den undanträngda luften.</p></li><li><div class=\"facit-matte\">\\[F_L=\\rho Vg=1{,}29\\cdot0{,}0020\\cdot9{,}82=0{,}0253356\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,025 N uppåt.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Ballongen tränger undan 2,0 liter = 0,0020 m³ vatten. Lyftkraften är tyngdkraften på det undanträngda vattnet.</p></li><li><div class=\"facit-matte\">\\[F_L=\\rho Vg=1000\\cdot0{,}0020\\cdot9{,}82=19{,}64\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 20 N uppåt.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(p=101{,}3+196{,}4=297{,}7\\) kPa.</p></li><li><p>\\(V=2{,}0\\cdot\\dfrac{101{,}3}{297{,}7}\\) liter.</p></li><li><div class=\"facit-matte\">\\[F=1\\,000\\cdot V\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) N</p></div></div></div>",
     "id": "6.508",
     "miniräknare": true,
     "geogebra": false,
@@ -153227,24 +153232,24 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lyftkraften i luft.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p><p>Bestäm lyftkraften i luft.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1{,}29\\cdot0{,}0020\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}025\\) N</p></div>",
+        "fraga": "Hur stor är luftens lyftkraft på ballongen? Svara i N.",
+        "t": "<p>En ballong med volymen 2,0 liter finns i luft. Luftens densitet är 1,29 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är luftens lyftkraft på ballongen? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Ballongen tränger undan 2,0 liter = 0,0020 m³ luft. Lyftkraften är tyngdkraften på den undanträngda luften.</p></li><li><div class=\"facit-matte\">\\[F_L=\\rho Vg=1{,}29\\cdot0{,}0020\\cdot9{,}82=0{,}0253356\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,025 N uppåt.</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm lyftkraften när ballongen precis är under vattenytan.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p><p>Bestäm lyftkraften när ballongen precis är under vattenytan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=1\\,000\\cdot0{,}0020\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) N</p></div>",
+        "fraga": "Hur stor är vattnets lyftkraft på ballongen? Svara i N.",
+        "t": "<p>En ballong med volymen 2,0 liter hålls precis under vattenytan. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på ballongen? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Ballongen tränger undan 2,0 liter = 0,0020 m³ vatten. Lyftkraften är tyngdkraften på det undanträngda vattnet.</p></li><li><div class=\"facit-matte\">\\[F_L=\\rho Vg=1000\\cdot0{,}0020\\cdot9{,}82=19{,}64\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 20 N uppåt.</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -154987,7 +154992,7 @@ window.BANK = [
     "typ": "kvävgas i tank",
     "poang": "(2/1/0)",
     "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><ol type=\"a\"><li>Hur många mol är det?</li><li>Bestäm tankens volym.</li><li>Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[n=\\dfrac{24\\,000}{28}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(857\\) mol</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\dfrac{857\\cdot8{,}314\\cdot283}{101{,}3\\cdot10^3}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}9\\) m³</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=101{,}3\\cdot\\dfrac{54{,}0}{24{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}28\\cdot10^{5}\\) Pa</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Molmassan 28 g/mol betyder att varje mol kvävgas har massan 28 g. Omvandla gasmassan till samma enhet: 24,0 kg = 24 000 g.</p></li><li><div class=\"facit-matte\">\\[n=\\frac mM=\\frac{24000}{28}\\approx857{,}14\\,\\mathrm{mol}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 857 mol.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\dfrac{857\\cdot8{,}314\\cdot283}{101{,}3\\cdot10^3}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}9\\) m³</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=101{,}3\\cdot\\dfrac{54{,}0}{24{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}28\\cdot10^{5}\\) Pa</p></div></div></div>",
     "id": "6.544",
     "miniräknare": true,
     "geogebra": false,
@@ -155028,13 +155033,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många mol är det?",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><p>Hur många mol är det?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[n=\\dfrac{24\\,000}{28}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(857\\) mol</p></div>",
+        "fraga": "Hur många mol kvävgas är det?",
+        "t": "<p>Kvävgasens massa är 24,0 kg. Molmassan är 28 g/mol.</p><p>Hur många mol kvävgas är det?</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Molmassan 28 g/mol betyder att varje mol kvävgas har massan 28 g. Omvandla gasmassan till samma enhet: 24,0 kg = 24 000 g.</p></li><li><div class=\"facit-matte\">\\[n=\\frac mM=\\frac{24000}{28}\\approx857{,}14\\,\\mathrm{mol}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 857 mol.</p></div>",
         "ledtrad": "<p>\\(n=\\dfrac mM\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -161973,7 +161978,7 @@ window.BANK = [
         "ledtrad": "<p>Jämvikt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -162394,7 +162399,7 @@ window.BANK = [
         "ledtrad": "<p>Vinkelräta komposanten.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -162405,7 +162410,7 @@ window.BANK = [
         "ledtrad": "<p>Komposanten längs planet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -162747,7 +162752,7 @@ window.BANK = [
         "ledtrad": "<p>Komposanten längs planet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -162817,13 +162822,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken acceleration får hon utan friktion?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>Stina åker pulka (sammanlagt 35 kg) nedför en backe med lutningen 25°. Bortse från luftmotståndet.</p><p>Vilken acceleration får hon utan friktion?</p>",
+        "fraga": "Hur stor är accelerationen längs backen? Svara i m/s².",
+        "t": "<p>En pulka glider nedför en backe som lutar 25°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen längs backen? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=9{,}82\\sin25^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\) m/s²</p></div>",
         "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -162947,7 +162952,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Friktionen tar ut komposanten längs backen.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
     "arbetsinsats": 1,
@@ -163058,7 +163063,7 @@ window.BANK = [
         "ledtrad": "<p>Konstant fart.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -164361,24 +164366,24 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är komposanten längs backen?",
-        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p><p>Hur stor är komposanten längs backen?</p>",
+        "fraga": "Hur stor är tyngdkraftens del längs backen? Svara i N.",
+        "t": "<p>En skidåkare har tyngdkraften 850 N. Backen lutar 22°.</p><p>Hur stor är tyngdkraftens del längs backen? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_\\parallel=850\\sin22^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(318\\) N</p></div>",
         "ledtrad": "<p>\\(mg\\sin\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är normalkraften?",
-        "t": "<p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En skidåkare med tyngden 850 N glider nedför en backe med lutningen 22°. Bortse från friktion. Använd \\(g=9{,}82\\) m/s².</p><p>Hur stor är normalkraften?</p>",
+        "fraga": "Hur stor är normalkraften från backen? Svara i N.",
+        "t": "<p>En skidåkare har tyngdkraften 850 N och glider i en backe som lutar 22°.</p><p>Hur stor är normalkraften från backen? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_N=850\\cos22^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(788\\) N</p></div>",
         "ledtrad": "<p>\\(mg\\cos\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -164448,23 +164453,23 @@ window.BANK = [
         "ledtrad": "<p>\\(mg\\cos\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm accelerationen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>På ett plan med lutningen \\(\\alpha\\) har tyngden komposanterna \\(mg\\sin\\alpha\\) längs planet och \\(mg\\cos\\alpha\\) vinkelrätt mot planet.</p><p>En cyklist (95 kg med cykel) rullar nedför en backe med lutningen 10°. Bortse från friktion och luftmotstånd.</p><p>Bestäm accelerationen.</p>",
+        "fraga": "Hur stor är accelerationen längs backen? Svara i m/s².",
+        "t": "<p>En cyklist rullar nedför en backe som lutar 10°. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen längs backen? Svara i m/s².</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=9{,}82\\sin10^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\) m/s²</p></div>",
         "ledtrad": "<p>\\(a=g\\sin\\alpha\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Komposanterna av tyngden.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
     "arbetsinsats": 2,
     "spel": true
@@ -164518,7 +164523,7 @@ window.BANK = [
         "ledtrad": "<p>Konstant fart: jämvikt längs backen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -165300,7 +165305,7 @@ window.BANK = [
     "tolerans": 0.042,
     "självrättning": true,
     "ledtrad": "<p>Ström är laddning per tid. Kontrollera prefixen.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -165737,18 +165742,18 @@ window.BANK = [
         "ledtrad": "<p>\\(Q=ne\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "En laddstation laddar med 6,7 A i 5,0 h. Hur stor laddning passerar?",
-        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Strömmen är laddning per tid: \\(I=\\dfrac{Q}{t}\\).</p><p>En laddstation laddar med 6,7 A i 5,0 h. Hur stor laddning passerar?</p>",
+        "fraga": "Hur stor laddning passerar laddstationen? Svara i C.",
+        "t": "<p>En laddstation ger strömmen 6,7 A under 5,0 timmar.</p><p>Hur stor laddning passerar laddstationen? Svara i C.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=6{,}7\\cdot5{,}0\\cdot3\\,600\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\cdot10^{5}\\) C</p></div>",
         "ledtrad": "<p>\\(Q=It\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -165776,7 +165781,7 @@ window.BANK = [
     "typ": "laddning i batterier",
     "poang": "(3/0/0)",
     "t": "<p>1 Ah är laddningen som passerar på en timme vid strömmen 1 A.</p><ol type=\"a\"><li>Hur stor laddning finns i ett bilbatteri märkt 90 Ah?</li><li>Lamporna glöms på och batteriet är tomt efter 24 h. Hur stor ström drog lamporna?</li><li>Ett mobilbatteri är märkt 2 100 mAh och räcker 2 dygn i viloläge. Hur stor ström drar telefonen då?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=90\\cdot3\\,600\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\cdot10^{5}\\) C</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=\\dfrac{90}{24}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}8\\) A</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(I=\\dfrac{2\\,100}{48}\\) mA.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}044\\) A</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[Q=90\\cdot3\\,600\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\cdot10^{5}\\) C</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Använd laddningen i Ah och tiden i timmar. Då får du strömmen i A direkt.</p></li><li><div class=\"facit-matte\">\\[I=\\frac Qt=\\frac{90}{24}=3{,}75\\,\\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,75 A.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(I=\\dfrac{2\\,100}{48}\\) mA.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}044\\) A</p></div></div></div>",
     "id": "8.465",
     "miniräknare": true,
     "geogebra": false,
@@ -165828,9 +165833,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Lamporna glöms på och batteriet är tomt efter 24 h. Hur stor ström drog lamporna?",
-        "t": "<p>1 Ah är laddningen som passerar på en timme vid strömmen 1 A.</p><p>Lamporna glöms på och batteriet är tomt efter 24 h. Hur stor ström drog lamporna?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=\\dfrac{90}{24}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}8\\) A</p></div>",
+        "fraga": "Hur stor ström drar lamporna? Svara i A.",
+        "t": "<p>Ett fulladdat bilbatteri har laddningskapaciteten 90 Ah. Lampor drar ur batteriet helt på 24 timmar. Räkna med konstant ström.</p><p>Hur stor ström drar lamporna? Svara i A.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Använd laddningen i Ah och tiden i timmar. Då får du strömmen i A direkt.</p></li><li><div class=\"facit-matte\">\\[I=\\frac Qt=\\frac{90}{24}=3{,}75\\,\\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,75 A.</p></div>",
         "ledtrad": "<p>\\(I=\\dfrac Qt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -165861,7 +165866,7 @@ window.BANK = [
     "niva": "E",
     "typ": "blixturladdning",
     "poang": "(1/0/0)",
-    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Vid ett blixtnedslag passerar 2,5 C på 0,20 ms. Hur stor ström motsvarar det?</p>",
+    "t": "<p>Vid ett blixtnedslag passerar laddningen 2,5 C under 0,20 ms.</p><p>Hur stor är medelströmmen? Svara i A.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=\\dfrac{2{,}5}{0{,}20\\cdot10^{-3}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,500\\) A</p></div>",
     "id": "8.466",
     "miniräknare": true,
@@ -165877,7 +165882,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(I=\\dfrac Qt\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "A",
     "familjNyckel": "strom__strom_och_laddning_i_kretsar",
     "arbetsinsats": 1,
@@ -167604,7 +167609,7 @@ window.BANK = [
         "ledtrad": "<p>Sätt in i formeln.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -168050,7 +168055,7 @@ window.BANK = [
         "ledtrad": "<p>Dela med solens massa.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -168140,7 +168145,7 @@ window.BANK = [
     "niva": "E",
     "typ": "annihilation vid PET",
     "poang": "(1/0/0)",
-    "t": "<p>Vid PET-undersökning möter en positron en elektron. De annihileras och bildar två fotoner, var och en med energin 511 keV.</p><p>Hur stor är den sammanlagda energin hos fotonerna? Svara i keV.</p>",
+    "t": "<p>Vid PET-undersökning möter en positron en elektron. Elektronen och positronen försvinner och deras energi bildar två fotoner (ljuspartiklar). Varje foton har energin 511 keV.</p><p>Hur stor är den sammanlagda energin hos fotonerna? Svara i keV.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Båda fotonerna har samma energi.</p></li><li><div class=\"facit-matte\">\\[E=2\\cdot511=1022\\ \\mathrm{keV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1022\\ \\mathrm{keV}\\).</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -168151,7 +168156,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Hur många fotoner bildas?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -168368,7 +168373,7 @@ window.BANK = [
     "tolerans": 2,
     "självrättning": true,
     "ledtrad": "<p>Lös ut λ ur c = fλ. En nanometer är 10⁻⁹ m.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -169426,7 +169431,7 @@ window.BANK = [
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -169437,7 +169442,7 @@ window.BANK = [
         "ledtrad": "<p>\\(E_p=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -169448,12 +169453,12 @@ window.BANK = [
         "ledtrad": "<p>\\(\\Delta E_p=mg\\Delta h\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>\\(E_p=mgh\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
     "arbetsinsats": 3,
     "spel": true
@@ -169594,8 +169599,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lägesenergin på botten av dalen relativt havsnivån.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p><p>Bestäm lägesenergin på botten av dalen relativt havsnivån.</p>",
+        "fraga": "Vilken lägesenergi har vandraren? Ange tecken och svara i J.",
+        "t": "<p>En vandrare på 65,0 kg står 85,0 m under havsnivån. Havsnivån är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><p>Vilken lägesenergi har vandraren? Ange tecken och svara i J.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_p=65{,}0\\cdot9{,}82\\cdot(-85{,}0)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-54\\,256\\) J</p></div>",
         "ledtrad": "<p>Under nollnivån blir lägesenergin negativ.</p>",
         "niva": "E",
@@ -169616,13 +169621,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vid ett tillfälle är lägesenergin 1,60 MJ relativt havsnivån. På vilken höjd är vandraren?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p><p>Vid ett tillfälle är lägesenergin 1,60 MJ relativt havsnivån. På vilken höjd är vandraren?</p>",
+        "fraga": "Hur högt över havsnivån är vandraren? Svara i m.",
+        "t": "<p>En vandrare på 65,0 kg har lägesenergin 1,60 MJ relativt havsnivån. Använd g = 9,82 m/s².</p><p>Hur högt över havsnivån är vandraren? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h=\\dfrac{1{,}60\\cdot10^6}{65{,}0\\cdot9{,}82}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,507\\) m</p></div>",
         "ledtrad": "<p>\\(h=\\dfrac{E_p}{mg}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -169871,8 +169876,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett föremål skjuts 3,2 m med kraften 18 N. Bestäm arbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts 3,2 m med kraften 18 N. Bestäm arbetet.</p>",
+        "fraga": "Hur stort arbete gör kraften? Svara i J.",
+        "t": "<p>En konstant kraft på 18 N verkar i rörelseriktningen medan ett föremål flyttas 3,2 m.</p><p>Hur stort arbete gör kraften? Svara i J.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=18\\cdot3{,}2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(57{,}6\\) J</p></div>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
@@ -169983,7 +169988,7 @@ window.BANK = [
     "typ": "skottkärra",
     "poang": "(3/0/0)",
     "t": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p><ol type=\"a\"><li>Bestäm arbetet.</li><li>Hur långt flyttas den med samma arbete om kraften är 140 N?</li><li>Hur stor är kraften med samma arbete om sträckan är 1,8 m?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=165\\cdot2{,}80\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(462\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{462}{140}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}30\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{462}{1{,}8}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(257\\) N</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=165\\cdot2{,}80\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(462\\) J</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>När kraften verkar i rörelseriktningen är arbetet kraft gånger sträcka. Lös ut sträckan.</p></li><li><div class=\"facit-matte\">\\[s=\\frac WF=\\frac{462}{140}=3{,}30\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,3 m.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>När kraften verkar i rörelseriktningen är arbetet kraft gånger sträcka. Lös ut kraften.</p></li><li><div class=\"facit-matte\">\\[F=\\frac Ws=\\frac{462}{1{,}8}\\approx256{,}7\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 257 N.</p></div></div></div>",
     "id": "5.523",
     "miniräknare": true,
     "geogebra": false,
@@ -170035,9 +170040,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt flyttas den med samma arbete om kraften är 140 N?",
-        "t": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p>Arbetet är 462 J.<p>Hur långt flyttas den med samma arbete om kraften är 140 N?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{462}{140}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}30\\) m</p></div>",
+        "fraga": "Hur långt flyttas föremålet? Svara i m.",
+        "t": "<p>En kraft på 140 N verkar i rörelseriktningen och utför arbetet 462 J.</p><p>Hur långt flyttas föremålet? Svara i m.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>När kraften verkar i rörelseriktningen är arbetet kraft gånger sträcka. Lös ut sträckan.</p></li><li><div class=\"facit-matte\">\\[s=\\frac WF=\\frac{462}{140}=3{,}30\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,3 m.</p></div>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170046,9 +170051,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är kraften med samma arbete om sträckan är 1,8 m?",
-        "t": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p>Arbetet är 462 J.<p>Hur stor är kraften med samma arbete om sträckan är 1,8 m?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\dfrac{462}{1{,}8}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(257\\) N</p></div>",
+        "fraga": "Hur stor är kraften? Svara i N.",
+        "t": "<p>En kraft verkar i rörelseriktningen och utför arbetet 462 J under 1,8 m.</p><p>Hur stor är kraften? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>När kraften verkar i rörelseriktningen är arbetet kraft gånger sträcka. Lös ut kraften.</p></li><li><div class=\"facit-matte\">\\[F=\\frac Ws=\\frac{462}{1{,}8}\\approx256{,}7\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 257 N.</p></div>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170140,7 +170145,7 @@ window.BANK = [
     "typ": "lyftarbete",
     "poang": "(4/0/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En resväska (18 kg) lyfts 65 cm. Bestäm lyftarbetet.</li><li>En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.</li><li>En skivstång (175 kg) lyfts 2,2 m. Bestäm lyftarbetet.</li><li>Ett lyftarbete på 620 J lyfter ett klot 1,8 m. Bestäm klotets massa.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=18\\cdot9{,}82\\cdot0{,}65\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(115\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=90{,}0\\cdot9{,}82\\cdot28{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\,746\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=175\\cdot9{,}82\\cdot2{,}2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,781\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\dfrac{620}{9{,}82\\cdot1{,}8}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\) kg</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid lyftet ökar väskans lägesenergi. Omvandla höjden: 65 cm = 0,65 m.</p></li><li><div class=\"facit-matte\">\\[W=mgh=18\\cdot9{,}82\\cdot0{,}65=114{,}894\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 115 J.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Både brandmannen och utrustningen lyfts 28,0 m. Summera massorna innan du beräknar ökningen i lägesenergi.</p></li><li><div class=\"facit-matte\">\\[m=75{,}0+15{,}0=90{,}0\\,\\mathrm{kg}\\qquad W=mgh=90{,}0\\cdot9{,}82\\cdot28{,}0=24746{,}4\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 24 700 J.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=175\\cdot9{,}82\\cdot2{,}2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,781\\) J</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Lyftarbetet blir ökad lägesenergi. Lös ut massan ur sambandet mellan arbete och höjd.</p></li><li><div class=\"facit-matte\">\\[W=mgh\\quad\\Rightarrow\\quad m=\\frac W{gh}=\\frac{620}{9{,}82\\cdot1{,}8}\\approx35{,}08\\,\\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 35 kg.</p></div></div></div>",
     "id": "5.525",
     "miniräknare": true,
     "geogebra": false,
@@ -170188,22 +170193,22 @@ window.BANK = [
         "etikett": "a",
         "fraga": "En resväska (18 kg) lyfts 65 cm. Bestäm lyftarbetet.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En resväska (18 kg) lyfts 65 cm. Bestäm lyftarbetet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=18\\cdot9{,}82\\cdot0{,}65\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(115\\) J</p></div>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid lyftet ökar väskans lägesenergi. Omvandla höjden: 65 cm = 0,65 m.</p></li><li><div class=\"facit-matte\">\\[W=mgh=18\\cdot9{,}82\\cdot0{,}65=114{,}894\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 115 J.</p></div>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=90{,}0\\cdot9{,}82\\cdot28{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\,746\\) J</p></div>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Både brandmannen och utrustningen lyfts 28,0 m. Summera massorna innan du beräknar ökningen i lägesenergi.</p></li><li><div class=\"facit-matte\">\\[m=75{,}0+15{,}0=90{,}0\\,\\mathrm{kg}\\qquad W=mgh=90{,}0\\cdot9{,}82\\cdot28{,}0=24746{,}4\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 24 700 J.</p></div>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -170221,7 +170226,7 @@ window.BANK = [
         "etikett": "d",
         "fraga": "Ett lyftarbete på 620 J lyfter ett klot 1,8 m. Bestäm klotets massa.",
         "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett lyftarbete på 620 J lyfter ett klot 1,8 m. Bestäm klotets massa.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\dfrac{620}{9{,}82\\cdot1{,}8}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\) kg</p></div>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Lyftarbetet blir ökad lägesenergi. Lös ut massan ur sambandet mellan arbete och höjd.</p></li><li><div class=\"facit-matte\">\\[W=mgh\\quad\\Rightarrow\\quad m=\\frac W{gh}=\\frac{620}{9{,}82\\cdot1{,}8}\\approx35{,}08\\,\\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 35 kg.</p></div>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170230,7 +170235,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>\\(W=mgh\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
     "arbetsinsats": 3,
     "spel": true
@@ -170399,7 +170404,7 @@ window.BANK = [
     "typ": "bänkpress",
     "poang": "(2/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p><ol type=\"a\"><li>Hur stor kraft lyfter han med?</li><li>Hur stort arbete gör han när han lyfter?</li><li>Hur stort arbete gör han när han sänker stången? (Ange med tecken.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(F=72\\cdot9{,}82\\), riktad uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(707\\) N</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=707\\cdot0{,}65\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(460\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraften är uppåt och rörelsen nedåt: \\(W=-707\\cdot0{,}65\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-460\\) J</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Konstant fart betyder att den sammanlagda kraften är noll. Gregers kraft uppåt är därför lika stor som tyngdkraften nedåt.</p></li><li><div class=\"facit-matte\">\\[F=mg=72\\cdot9{,}82=707{,}04\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 707 N uppåt.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid konstant fart ökar inte rörelseenergin. Gregers arbete blir skivstångens ökade lägesenergi. Höjden är 65 cm = 0,65 m.</p></li><li><div class=\"facit-matte\">\\[W=mgh=72\\cdot9{,}82\\cdot0{,}65=459{,}576\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 460 J.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraften är uppåt och rörelsen nedåt: \\(W=-707\\cdot0{,}65\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-460\\) J</p></div></div></div>",
     "id": "5.528",
     "miniräknare": true,
     "geogebra": false,
@@ -170441,9 +170446,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor kraft lyfter han med?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p><p>Hur stor kraft lyfter han med?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(F=72\\cdot9{,}82\\), riktad uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(707\\) N</p></div>",
+        "fraga": "Hur stor är Gregers kraft på skivstången? Svara i N.",
+        "t": "<p>Greger lyfter en skivstång på 72 kg rakt upp med konstant fart. Använd g = 9,82 m/s².</p><p>Hur stor är Gregers kraft på skivstången? Svara i N.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Konstant fart betyder att den sammanlagda kraften är noll. Gregers kraft uppåt är därför lika stor som tyngdkraften nedåt.</p></li><li><div class=\"facit-matte\">\\[F=mg=72\\cdot9{,}82=707{,}04\\,\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 707 N uppåt.</p></div>",
         "ledtrad": "<p>Konstant fart: jämvikt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170452,13 +170457,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort arbete gör han när han lyfter?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p><p>Hur stort arbete gör han när han lyfter?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=707\\cdot0{,}65\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(460\\) J</p></div>",
+        "fraga": "Hur stort arbete gör Gregers kraft? Svara i J.",
+        "t": "<p>Greger lyfter en skivstång på 72 kg rakt upp 65 cm med konstant fart. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör Gregers kraft? Svara i J.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vid konstant fart ökar inte rörelseenergin. Gregers arbete blir skivstångens ökade lägesenergi. Höjden är 65 cm = 0,65 m.</p></li><li><div class=\"facit-matte\">\\[W=mgh=72\\cdot9{,}82\\cdot0{,}65=459{,}576\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 460 J.</p></div>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -170631,7 +170636,7 @@ window.BANK = [
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -170777,8 +170782,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete krävs för det raka lyftet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><p>Hur stort arbete krävs för det raka lyftet?</p>",
+        "fraga": "Hur stort arbete gör lyftkraften? Svara i J.",
+        "t": "<p>En låda på 150 kg lyfts rakt upp 1,00 m med konstant fart. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör lyftkraften? Svara i J.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[W=150\\cdot9{,}82\\cdot1{,}00\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,473\\) J</p></div>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
@@ -170816,7 +170821,7 @@ window.BANK = [
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
@@ -170874,13 +170879,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm friktionskraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p><p>Bestäm friktionskraften.</p>",
+        "fraga": "Hur stor är friktionskraften? Svara i N.",
+        "t": "<p>En puck på 0,25 kg glider på vågrät is. Glidfriktionstalet är 0,030. Använd g = 9,82 m/s².</p><p>Hur stor är friktionskraften? Svara i N.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=0{,}030\\cdot0{,}25\\cdot9{,}82\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}074\\) N</p></div>",
         "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -171036,7 +171041,7 @@ window.BANK = [
         "ledtrad": "<p>Arean under \\(F\\)-\\(s\\)-grafen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -171047,7 +171052,7 @@ window.BANK = [
         "ledtrad": "<p>Skillnaden i fjäderenergi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
@@ -171058,7 +171063,7 @@ window.BANK = [
         "ledtrad": "<p>Lös ut \\(k\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -171173,7 +171178,7 @@ window.BANK = [
     "typ": "tågvagnar som kopplas ihop",
     "poang": "(1/0/0)",
     "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En tågvagn (92 ton, 1,3 m/s) kör ikapp en tågvagn (65 ton, 0,80 m/s) i samma riktning och kopplas ihop med den. Vilken fart får de?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{92\\cdot1{,}3+65\\cdot0{,}80}{157}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\) m/s</p></div>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Vagnarna rör sig åt samma håll. Summera deras rörelsemängder före ihopkopplingen. Efteråt rör sig den sammanlagda massan med samma fart.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{m_1v_1+m_2v_2}{m_1+m_2}=\\frac{92\\cdot1{,}3+65\\cdot0{,}80}{92+65}\\approx1{,}093\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,1 m/s i vagnarnas ursprungliga riktning. Massorna kan räknas i ton eftersom samma enhet används i täljare och nämnare.</p></div>",
     "id": "5.401",
     "miniräknare": true,
     "geogebra": false,
@@ -171188,7 +171193,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Total massa efter är 157 ton.</p>",
-    "traningsniva": 1,
+    "traningsniva": 3,
     "svarEnhet": "m/s",
     "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
     "arbetsinsats": 1,
@@ -171216,7 +171221,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Tänk på riktningarna.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "m/s",
     "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
     "arbetsinsats": 1,
@@ -171244,7 +171249,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Tänk på riktningarna.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "m/s",
     "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
     "arbetsinsats": 1,
@@ -171285,7 +171290,7 @@ window.BANK = [
     "typ": "hopp ned i båt",
     "poang": "(3/1/0)",
     "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Olle (75,0 kg) hoppar från en brygga och landar i en båt (110 kg) med den vågräta farten 5,0 m/s. Vilken fart får båten med Olle om båten</p><ol type=\"a\"><li>låg stilla?</li><li>rörde sig mot bryggan med 2,0 m/s?</li><li>rörde sig bort från bryggan med 2,0 m/s?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{75{,}0\\cdot5{,}0}{185}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{375-110\\cdot2{,}0}{185}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}84\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{375+220}{185}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\) m/s</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Båten är stilla före landningen, så bara Olle har rörelsemängd. Efteråt delar han och båten samma fart.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{m_\\mathrm{Olle}v_\\mathrm{Olle}}{m_\\mathrm{Olle}+m_\\mathrm{båt}}=\\frac{75{,}0\\cdot5{,}0}{75{,}0+110}\\approx2{,}027\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,0 m/s bort från bryggan.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{375-110\\cdot2{,}0}{185}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}84\\) m/s</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{375+220}{185}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\) m/s</p></div></div></div>",
     "id": "5.405",
     "miniräknare": true,
     "geogebra": false,
@@ -171328,11 +171333,11 @@ window.BANK = [
         "etikett": "a",
         "fraga": "låg stilla?",
         "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Olle (75,0 kg) hoppar från en brygga och landar i en båt (110 kg) med den vågräta farten 5,0 m/s. Vilken fart får båten med Olle om båten</p><p>låg stilla?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{75{,}0\\cdot5{,}0}{185}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\) m/s</p></div>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Båten är stilla före landningen, så bara Olle har rörelsemängd. Efteråt delar han och båten samma fart.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{m_\\mathrm{Olle}v_\\mathrm{Olle}}{m_\\mathrm{Olle}+m_\\mathrm{båt}}=\\frac{75{,}0\\cdot5{,}0}{75{,}0+110}\\approx2{,}027\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,0 m/s bort från bryggan.</p></div>",
         "ledtrad": "<p>Total massa 185 kg.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -171343,7 +171348,7 @@ window.BANK = [
         "ledtrad": "<p>Båtens rörelsemängd är motriktad.</p>",
         "niva": "E",
         "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
@@ -171354,12 +171359,12 @@ window.BANK = [
         "ledtrad": "<p>Rörelsemängderna adderas.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Rörelsemängden bevaras.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
     "arbetsinsats": 2,
     "spel": true
@@ -171386,7 +171391,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Tänk på riktningarna.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "m/s",
     "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
     "arbetsinsats": 1,
@@ -171511,7 +171516,7 @@ window.BANK = [
     "typ": "skridskoåkare skjuter ifrån",
     "poang": "(1/0/0)",
     "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Två skridskoåkare (54 kg och 88 kg) står stilla och skjuter ifrån varandra. Den lättare får farten 2,5 m/s. Vilken fart får den tyngre?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[88v=54\\cdot2{,}5\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) m/s</p></div>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Åkarna var först i vila. Deras rörelsemängder efter frånskjutet är lika stora och motsatt riktade.</p></li><li><div class=\"facit-matte\">\\[54\\cdot2{,}5=88v\\quad\\Rightarrow\\quad v=\\frac{54\\cdot2{,}5}{88}\\approx1{,}534\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,5 m/s åt motsatt håll mot den lättare åkaren.</p></div>",
     "id": "5.411",
     "miniräknare": true,
     "geogebra": false,
@@ -171526,7 +171531,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Total rörelsemängd är noll.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "m/s",
     "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
     "arbetsinsats": 1,
@@ -171538,8 +171543,8 @@ window.BANK = [
     "niva": "E",
     "typ": "rekyl",
     "poang": "(3/0/0)",
-    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><ol type=\"a\"><li>En pistol (3,0 kg) skjuter en kula (30 g) med 175 m/s. Vilken rekylfart får pistolen?</li><li>En pojke och en båt (sammanlagt 59,0 kg) ligger stilla. Pojken kastar ett paket (5,30 kg) vågrätt med 10,0 m/s. Vilken fart får båten?</li><li>Ett gevär (4,5 kg) får rekylfarten 1,8 m/s när det skjuter en kula (10,0 g). Vilken fart har kulan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{0{,}030\\cdot175}{3{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{5{,}30\\cdot10{,}0}{59{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}90\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{4{,}5\\cdot1{,}8}{0{,}0100}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(810\\) m/s</p></li></ol></div>",
+    "t": "<div class=\"deluppgifter\"><div>a) <p>En pistol är från början i vila och skjuter en kula. Pistolen har massan 3,0 kg utan kulan. Kulan har massan 30 g och farten 175 m/s relativt marken efter skottet.</p><p>Vilken fart får pistolen bakåt? Svara i m/s.</p></div><div>b) <p>En pojke och en båt har sammanlagda massan 59,0 kg utan paketet och är först i vila. Pojken kastar ett paket på 5,30 kg vågrätt med farten 10,0 m/s relativt vattnet. Bortse från vattenmotståndet under kastet.</p><p>Vilken fart får båten med pojken? Svara i m/s.</p></div><div>c) <p>Ett gevär är först i vila och skjuter en kula på 10,0 g. Geväret har massan 4,5 kg utan kulan och får farten 1,8 m/s bakåt relativt marken.</p><p>Vilken fart får kulan relativt marken? Svara i m/s.</p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Före skottet är den totala rörelsemängden noll. Efteråt har kulan och pistolen lika stora rörelsemängder i motsatta riktningar. 30 g = 0,030 kg.</p></li><li><div class=\"facit-matte\">\\[m_\\mathrm{pistol}v_\\mathrm{pistol}=m_\\mathrm{kula}v_\\mathrm{kula}\\quad\\Rightarrow\\quad v_\\mathrm{pistol}=\\frac{0{,}030\\cdot175}{3{,}0}=1{,}75\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,75 m/s bakåt.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Båten och paketet får lika stora rörelsemängder i motsatta riktningar, eftersom båda var i vila före kastet.</p></li><li><div class=\"facit-matte\">\\[v_\\mathrm{båt}=\\frac{m_\\mathrm{paket}v_\\mathrm{paket}}{m_\\mathrm{båt+pojke}}=\\frac{5{,}30\\cdot10{,}0}{59{,}0}\\approx0{,}898\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,90 m/s åt motsatt håll mot paketet.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{4{,}5\\cdot1{,}8}{0{,}0100}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(810\\) m/s</p></div></div></div>",
     "id": "5.412",
     "miniräknare": true,
     "geogebra": false,
@@ -171576,44 +171581,44 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p>",
+    "spelIntro": "<p>Frågorna gäller tre separata situationer.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En pistol (3,0 kg) skjuter en kula (30 g) med 175 m/s. Vilken rekylfart får pistolen?",
-        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En pistol (3,0 kg) skjuter en kula (30 g) med 175 m/s. Vilken rekylfart får pistolen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{0{,}030\\cdot175}{3{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\) m/s</p></div>",
-        "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+        "fraga": "Vilken fart får pistolen bakåt? Svara i m/s.",
+        "t": "<p>En pistol är från början i vila och skjuter en kula. Pistolen har massan 3,0 kg utan kulan. Kulan har massan 30 g och farten 175 m/s relativt marken efter skottet.</p><p>Vilken fart får pistolen bakåt? Svara i m/s.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Före skottet är den totala rörelsemängden noll. Efteråt har kulan och pistolen lika stora rörelsemängder i motsatta riktningar. 30 g = 0,030 kg.</p></li><li><div class=\"facit-matte\">\\[m_\\mathrm{pistol}v_\\mathrm{pistol}=m_\\mathrm{kula}v_\\mathrm{kula}\\quad\\Rightarrow\\quad v_\\mathrm{pistol}=\\frac{0{,}030\\cdot175}{3{,}0}=1{,}75\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,75 m/s bakåt.</p></div>",
+        "ledtrad": "<p>Vad är den totala rörelsemängden före skottet?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "En pojke och en båt (sammanlagt 59,0 kg) ligger stilla. Pojken kastar ett paket (5,30 kg) vågrätt med 10,0 m/s. Vilken fart får båten?",
-        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En pojke och en båt (sammanlagt 59,0 kg) ligger stilla. Pojken kastar ett paket (5,30 kg) vågrätt med 10,0 m/s. Vilken fart får båten?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{5{,}30\\cdot10{,}0}{59{,}0}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}90\\) m/s</p></div>",
-        "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+        "fraga": "Vilken fart får båten med pojken? Svara i m/s.",
+        "t": "<p>En pojke och en båt har sammanlagda massan 59,0 kg utan paketet och är först i vila. Pojken kastar ett paket på 5,30 kg vågrätt med farten 10,0 m/s relativt vattnet. Bortse från vattenmotståndet under kastet.</p><p>Vilken fart får båten med pojken? Svara i m/s.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Båten och paketet får lika stora rörelsemängder i motsatta riktningar, eftersom båda var i vila före kastet.</p></li><li><div class=\"facit-matte\">\\[v_\\mathrm{båt}=\\frac{m_\\mathrm{paket}v_\\mathrm{paket}}{m_\\mathrm{båt+pojke}}=\\frac{5{,}30\\cdot10{,}0}{59{,}0}\\approx0{,}898\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,90 m/s åt motsatt håll mot paketet.</p></div>",
+        "ledtrad": "<p>Jämför paketets rörelsemängd med båtens och pojkens.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Ett gevär (4,5 kg) får rekylfarten 1,8 m/s när det skjuter en kula (10,0 g). Vilken fart har kulan?",
-        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Ett gevär (4,5 kg) får rekylfarten 1,8 m/s när det skjuter en kula (10,0 g). Vilken fart har kulan?</p>",
+        "fraga": "Vilken fart får kulan relativt marken? Svara i m/s.",
+        "t": "<p>Ett gevär är först i vila och skjuter en kula på 10,0 g. Geväret har massan 4,5 kg utan kulan och får farten 1,8 m/s bakåt relativt marken.</p><p>Vilken fart får kulan relativt marken? Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{4{,}5\\cdot1{,}8}{0{,}0100}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(810\\) m/s</p></div>",
         "ledtrad": "<p>Lika stora rörelsemängder.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Före skottet är den totala rörelsemängden noll.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
     "arbetsinsats": 2,
     "spel": true
@@ -172092,8 +172097,8 @@ window.BANK = [
     "niva": "E",
     "typ": "astronaut kastar syrgastub",
     "poang": "(2/0/0)",
-    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En astronaut (75 kg) har tappat linan och är i vila relativt rymdskeppet. Han kastar en syrgastub (12 kg) bort från skeppet med 8,00 m/s.</p><ol type=\"a\"><li>Vilken fart får astronauten?</li><li>Han har syre för 2,00 minuter. Hur långt från skeppet får han högst vara?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{12\\cdot8{,}00}{75}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=1{,}28\\cdot120\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(154\\) m</p></li></ol></div>",
+    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En astronaut (75 kg) har tappat linan och är i vila relativt rymdskeppet. Han kastar en syrgastub (12 kg) bort från skeppet med 8,00 m/s relativt skeppet.</p><ol type=\"a\"><li>Vilken fart får astronauten?</li><li>Han har syre för 2,00 minuter. Hur långt från skeppet får han högst vara?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Före kastet är den totala rörelsemängden noll. Efter kastet är tubens och astronautens rörelsemängder lika stora och motsatt riktade.</p></li><li><div class=\"facit-matte\">\\[v_\\mathrm{astronaut}=\\frac{m_\\mathrm{tub}v_\\mathrm{tub}}{m_\\mathrm{astronaut}}=\\frac{12\\cdot8{,}00}{75}=1{,}28\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,28 m/s mot skeppet.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Omvandla tiden till sekunder och använd sträcka = fart gånger tid.</p></li><li><div class=\"facit-matte\">\\[s=vt=1{,}28\\cdot120=153{,}6\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 154 m.</p></div></div></div>",
     "id": "5.423",
     "miniräknare": true,
     "geogebra": false,
@@ -172126,23 +172131,23 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En astronaut (75 kg) har tappat linan och är i vila relativt rymdskeppet. Han kastar en syrgastub (12 kg) bort från skeppet med 8,00 m/s.</p>",
+    "spelIntro": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En astronaut (75 kg) har tappat linan och är i vila relativt rymdskeppet. Han kastar en syrgastub (12 kg) bort från skeppet med 8,00 m/s relativt skeppet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart får astronauten?",
-        "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>En astronaut (75 kg) har tappat linan och är i vila relativt rymdskeppet. Han kastar en syrgastub (12 kg) bort från skeppet med 8,00 m/s.</p><p>Vilken fart får astronauten?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{12\\cdot8{,}00}{75}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\) m/s</p></div>",
-        "ledtrad": "<p>Total rörelsemängd är noll.</p>",
+        "fraga": "Vilken fart får astronauten mot skeppet? Svara i m/s.",
+        "t": "<p>En astronaut på 75 kg och en syrgastub på 12 kg är först i vila relativt rymdskeppet. Astronauten kastar tuben bort från skeppet med farten 8,00 m/s relativt skeppet.</p><p>Vilken fart får astronauten mot skeppet? Svara i m/s.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Före kastet är den totala rörelsemängden noll. Efter kastet är tubens och astronautens rörelsemängder lika stora och motsatt riktade.</p></li><li><div class=\"facit-matte\">\\[v_\\mathrm{astronaut}=\\frac{m_\\mathrm{tub}v_\\mathrm{tub}}{m_\\mathrm{astronaut}}=\\frac{12\\cdot8{,}00}{75}=1{,}28\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,28 m/s mot skeppet.</p></div>",
+        "ledtrad": "<p>Jämför rörelsemängden före och efter kastet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Han har syre för 2,00 minuter. Hur långt från skeppet får han högst vara?",
-        "t": "<p>En astronaut rör sig rakt mot rymdskeppet med konstant fart 1,28 m/s. Syret räcker i 2,00 minuter.</p><p>Han har syre för 2,00 minuter. Hur långt från skeppet får han högst vara?</p>",
+        "fraga": "Hur långt från skeppet kan astronauten högst vara för att hinna tillbaka? Svara i m.",
+        "t": "<p>En astronaut rör sig mot rymdskeppet med konstant fart 1,28 m/s. Syret räcker i 2,00 minuter.</p><p>Hur långt från skeppet kan astronauten högst vara för att hinna tillbaka? Svara i m.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Omvandla tiden till sekunder och använd sträcka = fart gånger tid.</p></li><li><div class=\"facit-matte\">\\[s=vt=1{,}28\\cdot120=153{,}6\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 154 m.</p></div>",
         "ledtrad": "<p>\\(s=vt\\).</p>",
         "niva": "E",
@@ -172263,7 +172268,7 @@ window.BANK = [
         "ledtrad": "<p>Tänk på riktningarna.</p>",
         "niva": "E",
         "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
@@ -172279,7 +172284,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Rörelsemängden bevaras vid krocken.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
     "arbetsinsats": 2,
     "spel": true
@@ -172290,8 +172295,8 @@ window.BANK = [
     "niva": "C",
     "typ": "kasta en bok på isen",
     "poang": "(0/1/0)",
-    "t": "<p>Rörelsemängden bevaras: summan av \\(mv\\) före är lika med summan efter.</p><p>Wayne (75 kg) står mitt på en friktionsfri, cirkulär isyta med radien 5,0 m. Han kastar en bok (1,2 kg) norrut med 5,0 m/s. Hur lång tid tar det innan han når kanten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(v=\\dfrac{1{,}2\\cdot5{,}0}{75}=0{,}080\\) m/s söderut.</p></li><li><div class=\"facit-matte\">\\[t=\\dfrac{5{,}0}{0{,}080}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(62\\) s</p></div>",
+    "t": "<p>Wayne på 75 kg står stilla i mitten av en rund, friktionsfri isyta med radien 5,0 m. Han kastar en bok på 1,2 kg norrut med farten 5,0 m/s relativt marken.</p><p>Hur lång tid tar det efter kastet innan Wayne når kanten? Svara i s.</p>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Boken och Wayne var först i vila. Bokens rörelsemängd efter kastet motsvaras av Waynes rörelsemängd söderut. Beräkna först hans fart och sedan tiden till kanten.</p></li><li><div class=\"facit-matte\">\\[v_W=\\frac{1{,}2\\cdot5{,}0}{75}=0{,}080\\,\\mathrm{m/s}\\qquad t=\\frac{5{,}0}{0{,}080}=62{,}5\\,\\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 62,5 s.</p></div>",
     "id": "5.427",
     "miniräknare": true,
     "geogebra": false,
@@ -172305,8 +172310,8 @@ window.BANK = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm hans rekylfart.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Bestäm först Waynes fart efter kastet.</p>",
+    "traningsniva": 3,
     "svarEnhet": "s",
     "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
     "arbetsinsats": 1,
@@ -172631,7 +172636,7 @@ window.BANK = [
         "ledtrad": "<p>Oelastisk stöt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
@@ -172659,7 +172664,7 @@ window.BANK = [
     "typ": "partikel exploderar",
     "poang": "(1/0/0)",
     "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En partikel i vila exploderar i två bitar, A (0,40 kg) och B (0,60 kg). A får farten 12 m/s. Vilken fart får B?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}60v=0{,}40\\cdot12\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\) m/s</p></div>",
+    "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Partikeln var först i vila. Bitarnas rörelsemängder måste därför ta ut varandra.</p></li><li><div class=\"facit-matte\">\\[0{,}40\\cdot12=0{,}60v_B\\quad\\Rightarrow\\quad v_B=8{,}0\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,0 m/s åt motsatt håll mot A.</p></div>",
     "id": "5.435",
     "miniräknare": true,
     "geogebra": false,
@@ -172674,7 +172679,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Total rörelsemängd är noll.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "svarEnhet": "m/s",
     "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
     "arbetsinsats": 1,
@@ -172785,7 +172790,7 @@ window.BANK = [
         "ledtrad": "<p>Oelastisk stöt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -172884,7 +172889,7 @@ window.BANK = [
     "typ": "pil och äpple",
     "poang": "(3/1/0)",
     "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pil (22,5 g) med farten 30 m/s träffar ett stillastående äpple (200 g).</p><ol type=\"a\"><li>Pilen fastnar. Vilken fart får äpplet med pilen?</li><li>Hur mycket rörelseenergi försvinner då?</li><li>Pilen går i stället rakt igenom och har farten 23 m/s efteråt. Vilken fart får äpplet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{0{,}0225\\cdot30}{0{,}2225}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\) m/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta E=\\dfrac{0{,}0225\\cdot30^2}{2}-\\dfrac{0{,}2225v^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}1\\) J</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}200v=0{,}0225(30-23)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}79\\) m/s</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Pilen fastnar, så pilen och äpplet rör sig tillsammans. Omvandla båda massorna till kilogram. Endast pilen har rörelsemängd före träffen.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{0{,}0225\\cdot30}{0{,}0225+0{,}200}\\approx3{,}034\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3,0 m/s i pilens riktning.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta E=\\dfrac{0{,}0225\\cdot30^2}{2}-\\dfrac{0{,}2225v^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}1\\) J</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}200v=0{,}0225(30-23)\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}79\\) m/s</p></div></div></div>",
     "id": "5.440",
     "miniräknare": true,
     "geogebra": false,
@@ -172927,11 +172932,11 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Pilen fastnar. Vilken fart får äpplet med pilen?",
         "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En pil (22,5 g) med farten 30 m/s träffar ett stillastående äpple (200 g).</p><p>Pilen fastnar. Vilken fart får äpplet med pilen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{0{,}0225\\cdot30}{0{,}2225}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\) m/s</p></div>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Pilen fastnar, så pilen och äpplet rör sig tillsammans. Omvandla båda massorna till kilogram. Endast pilen har rörelsemängd före träffen.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{0{,}0225\\cdot30}{0{,}0225+0{,}200}\\approx3{,}034\\,\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3,0 m/s i pilens riktning.</p></div>",
         "ledtrad": "<p>Oelastisk stöt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
+        "traningsniva": 2,
         "arbetsinsats": 1
       },
       {
@@ -173178,7 +173183,7 @@ window.BANK = [
         "ledtrad": "<p>Impuls = ändring i rörelsemängd.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1
       },
       {
@@ -173694,8 +173699,8 @@ window.BANK = [
     "niva": "E",
     "typ": "gevärskula i ballistisk pendel",
     "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (12,0 g) med farten 380 m/s skjuts in i en ballistisk pendel (6,00 kg).</p><ol type=\"a\"><li>Hur högt svingar pendeln?</li><li>Hur stor rörelseenergi finns kvar direkt efter träffen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{0{,}0120\\cdot380}{6{,}012}\\].</div></li><li><div class=\"facit-matte\">\\[h=\\dfrac{v^2}{2g}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}029\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E=\\dfrac{6{,}012v^2}{2}\\), att jämföra med kulans 866 J.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\) J</p></li></ol></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula på 12,0 g med farten 380 m/s träffar en stillastående träkloss på 6,00 kg som hänger i en lina. Kulan fastnar. Bortse från luftmotståndet under rörelsen uppåt.</p><ol type=\"a\"><li>Hur högt svingar pendeln?</li><li>Hur stor rörelseenergi finns kvar direkt efter träffen?</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Under träffen bevaras rörelsemängden. Efter träffen rör sig kulan och klossen tillsammans. Under rörelsen uppåt omvandlas deras rörelseenergi till lägesenergi.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{0{,}0120\\cdot380}{6{,}00+0{,}0120}\\approx0{,}7585\\,\\mathrm{m/s}\\qquad h=\\frac{v^2}{2g}\\approx0{,}02929\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,029 m, alltså 2,9 cm.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Beräkna först den gemensamma farten med rörelsemängden. Rörelseenergin bevaras inte när kulan fastnar.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{0{,}0120\\cdot380}{6{,}0120}\\qquad E_k=\\frac{6{,}0120\\cdot v^2}{2}\\approx1{,}729\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,7 J.</p></div></div></div>",
     "id": "5.461",
     "miniräknare": true,
     "geogebra": false,
@@ -173728,33 +173733,33 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (12,0 g) med farten 380 m/s skjuts in i en ballistisk pendel (6,00 kg).</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (12,0 g) med farten 380 m/s skjuts in i en träkloss som hänger i en lina (6,00 kg).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur högt svingar pendeln?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (12,0 g) med farten 380 m/s skjuts in i en ballistisk pendel (6,00 kg).</p><p>Hur högt svingar pendeln?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\dfrac{0{,}0120\\cdot380}{6{,}012}\\].</div></li><li><div class=\"facit-matte\">\\[h=\\dfrac{v^2}{2g}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}029\\) m</p></div>",
-        "ledtrad": "<p>Stöt, sedan energiprincipen.</p>",
+        "fraga": "Hur högt över startläget når klossen med kulan? Svara i m.",
+        "t": "<p>En kula på 12,0 g har farten 380 m/s och träffar en stillastående träkloss på 6,00 kg som hänger i en lina. Kulan fastnar. Bortse från luftmotståndet under rörelsen uppåt. Använd g = 9,82 m/s².</p><p>Hur högt över startläget når klossen med kulan? Svara i m.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Under träffen bevaras rörelsemängden. Efter träffen rör sig kulan och klossen tillsammans. Under rörelsen uppåt omvandlas deras rörelseenergi till lägesenergi.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{0{,}0120\\cdot380}{6{,}00+0{,}0120}\\approx0{,}7585\\,\\mathrm{m/s}\\qquad h=\\frac{v^2}{2g}\\approx0{,}02929\\,\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,029 m, alltså 2,9 cm.</p></div>",
+        "ledtrad": "<p>Dela upp förloppet i träffen och den efterföljande rörelsen uppåt.</p>",
         "niva": "E",
         "poang": "(1/1/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor rörelseenergi finns kvar direkt efter träffen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (12,0 g) med farten 380 m/s skjuts in i en ballistisk pendel (6,00 kg).</p><p>Hur stor rörelseenergi finns kvar direkt efter träffen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E=\\dfrac{6{,}012v^2}{2}\\), att jämföra med kulans 866 J.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\) J</p></div>",
-        "ledtrad": "<p>Använd farten efter träffen.</p>",
+        "fraga": "Hur stor är kulans och klossens sammanlagda rörelseenergi direkt efter träffen? Svara i J.",
+        "t": "<p>En kula på 12,0 g har farten 380 m/s och träffar en stillastående träkloss på 6,00 kg. Kulan fastnar i klossen.</p><p>Hur stor är kulans och klossens sammanlagda rörelseenergi direkt efter träffen? Svara i J.</p>",
+        "s": "<div class=\"facit-v2\"><ol class=\"facit-steglista\"><li><p>Beräkna först den gemensamma farten med rörelsemängden. Rörelseenergin bevaras inte när kulan fastnar.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{0{,}0120\\cdot380}{6{,}0120}\\qquad E_k=\\frac{6{,}0120\\cdot v^2}{2}\\approx1{,}729\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,7 J.</p></div>",
+        "ledtrad": "<p>Kulan och klossen har samma fart efter träffen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Nästan all rörelseenergi blir värme.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
     "arbetsinsats": 2,
     "spel": true
@@ -173765,7 +173770,7 @@ window.BANK = [
     "niva": "C",
     "typ": "kulans fart ur höjd",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (10,0 g) skjuts in i en ballistisk pendel (2,50 kg), som svingar upp till 0,650 m. Vilken fart hade kulan?</p>",
+    "t": "<p>En kula på 10,0 g träffar en stillastående träkloss på 2,50 kg som hänger i en lina. Kulan fastnar och klossen med kulan stiger 0,650 m. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart hade kulan före träffen? Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{2g\\cdot0{,}650}\\].</div></li><li><div class=\"facit-matte\">\\[u=\\dfrac{2{,}51v}{0{,}0100}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(897\\) m/s</p></div>",
     "id": "5.462",
     "miniräknare": true,
@@ -173780,7 +173785,7 @@ window.BANK = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Arbeta baklänges.</p>",
+    "ledtrad": "<p>Använd höjden för att bestämma farten efter träffen. Använd sedan rörelsemängden för att bestämma kulans fart.</p>",
     "traningsniva": 3,
     "svarEnhet": "m/s",
     "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
@@ -173793,7 +173798,7 @@ window.BANK = [
     "niva": "A",
     "typ": "andel energi som blir värme",
     "poang": "(0/1/1)",
-    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (18,0 g) skjuts in i en ballistisk pendel (0,380 kg) och fastnar. Hur stor andel av kulans rörelseenergi blir värme? Svara i procent.</p>",
+    "t": "<p>Rörelsemängden bevaras vid stöten. Rörelseenergin bevaras bara vid fullständigt elastiska stötar.</p><p>En kula (18,0 g) skjuts in i en träkloss som hänger i en lina (0,380 kg) och fastnar. Hur stor andel av kulans rörelseenergi blir värme? Svara i procent.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Andelen som blir kvar är \\(\\dfrac{m}{m+M}\\), så andelen värme är \\(\\dfrac{M}{m+M}=\\dfrac{0{,}380}{0{,}398}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(95\\) %</p></div>",
     "id": "5.463",
     "miniräknare": true,
@@ -174083,7 +174088,7 @@ window.BANK = [
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}2\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1
       }
     ],

@@ -3833,7 +3833,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-08-ap";
+const BANK_VERSION="2026-10-08-aq";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10021,6 +10021,9 @@ function tolkaEnhetsord(sym){
 
 function tolkaEnhet(str){
   if(str===null||str===undefined) return null;
+  // Bränsleförbrukning: 100 km är en sträcka, inte en enhet med exponent 100.
+  if(/^(?:l|liter)\s*(?:per|\/)\s*100\s*km$/i.test(String(str).trim()))
+    return expanderaEnhet({f:1/100000,d:{l:1,m:-1}});
   let x=String(str).trim()
     .replace(/[⋅∙·×x]/g,"*").replace(/²/g,"^2").replace(/³/g,"^3")
     .replace(/[()]/g,"")   // "J/(kg·K)": allt efter "/" är redan nämnare

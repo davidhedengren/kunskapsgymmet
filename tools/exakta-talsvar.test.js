@@ -18,6 +18,11 @@ test('Exakta tal kan beräknas utan det externa algebrabiblioteket',()=>{
 test('Självrättning kräver korrekt syntax och tar inte räknarens Ans',()=>{
  for(const input of ['pi/4)','(pi/4','sqrt(2','1/0','sqrt(-1)','x','Ans','alert(1)','1;2','2+','process.exit()'])assert.ok(Number.isNaN(value(input)),input);
 });
+test('Vetenskaplig notation värderas som tiopotenser även i symbolisk rättning',()=>{
+ for(const [input,expected]of [['1.3470919421487604e+27',1.3470919421487604e27],['2,0206e+27',2.0206e27],['3E-19',3e-19],['-1.5e+22',-1.5e22],['2e3+4e2',2400]])
+  assert.ok(Math.abs(value(input)/expected-1)<1e-12,input);
+ assert.equal(value('2e^0'),2);
+});
 test('Räknarens gradläge och automatiska slutparentes fungerar fortfarande',()=>{
  assert.equal(context.raknTolka('sin(90)'),1);
  assert.equal(context.raknTolka('(2+3'),5);

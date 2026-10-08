@@ -2489,6 +2489,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .facit-svar strong{color:var(--accInk)}
 
 /* Samma stegstruktur som i Uppgiftslabbet, anpassad till elevvyn. */
+.facit-stegvis .facit-stycke{margin:12px 0;min-width:0}
 .facit-stegvis .facit-steglista{list-style:none;counter-reset:facit-steg;margin:0;padding:0}
 .facit-stegvis .facit-steglista > li{position:relative;counter-increment:facit-steg;padding:2px 0 2px 38px;margin:14px 0;min-width:0}
 .facit-stegvis .facit-steglista > li::before{content:counter(facit-steg);position:absolute;left:0;top:3px;width:25px;height:25px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:var(--accSoft);color:var(--accInk);font:700 13px var(--ui)}
@@ -3833,7 +3834,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-08-mato1-kalibrering";
+const BANK_VERSION="2026-10-08-fysik1-tydligt-facit";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10437,6 +10438,10 @@ function normalizeMathInput(s){
 
   x=x.replace(/^svar\s*:\s*/,"");
   x=normalizeDecimalComma(x);
+  // Vetenskaplig notation är ett tal även i den symboliska jämförelsen.
+  // Annars blev 2e+27 uttrycket 2*e+27, och stora toleranser godtog fel svar.
+  x=x.replace(/(^|[^a-z0-9_.])((?:\d+(?:\.\d*)?|\.\d+))e([+-]?\d+)(?![a-z0-9_.])/g,
+    (_,fore,tal,exp)=>`${fore}${tal}*10^(${exp})`);
 
   x=x.replace(/(\d|\))\s*:\s*(\d|\()/g,"$1/$2");
 

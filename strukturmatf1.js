@@ -1,6 +1,6 @@
 /* strukturmatf1.js — kapitel, moment och elevsynliga grupper för Matematik – fördjupning nivå 1 (Ma5).
    Moment (OMR) = en lektion i Planering Ma5 VT22 (kapitel 1, 2 och 4) och Planering Ma5 NA16D 2018/19
-   (kapitel 3); familj är delmoment. Grafteori saknar uppgifter i banken och har därför inget moment.
+   (kapitel 3); familj är delmoment. Grafteori ingår inte längre i matf1 och har därför inget moment.
    Gamla namn sparas i uppgifternas omrTidigare/familjTidigare. Reviderad 2026-10-01. */
 
 window.KAPNAMNMATF1 = {

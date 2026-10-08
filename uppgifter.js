@@ -80678,11 +80678,11 @@ window.BANK = [
     "id": "8.40",
     "kap": 8,
     "omr": "seriekoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "beräkna ström och effektutveckling i varje resistor i seriekoppling, ur diagram, sökt ström och effekt",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar två seriekopplade resistorer.</p><span class=\"fig\"><svg height=\"268\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.857 12.346 389.571 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">11 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 220 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 330 Ω</text></svg></span>\n<ol><li>Bestäm ersättningsresistansen.</li><li>Hur stor ström går i kretsen?</li>\n<li>Vilken effekt utvecklas i varje resistor?</li>\n<li>Vilken effekt avger batteriet totalt?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">I serie adderas resistorerna.</p></li><li><div class=\"facit-matte\">\\[R_e=220+330=550\\ \\Omega\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Strömmen är</p></li><li><div class=\"facit-matte\">\\[I=\\frac{11}{550}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Effekterna blir</p></li><li><div class=\"facit-matte\">\\[P_1=220(0{,}020)^2=0{,}088\\ \\mathrm W\\]\\[P_2=330(0{,}020)^2=0{,}132\\ \\mathrm W\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Batteriets effekt är</p></li><li><div class=\"facit-matte\">\\[P=UI=11\\cdot0{,}020=0{,}220\\ \\mathrm W=P_1+P_2\\]</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_e=550\\ \\Omega\\), \\(I=20\\ \\mathrm{mA}\\), \\(P_1=0{,}088\\ \\mathrm W\\), \\(P_2=0{,}132\\ \\mathrm W\\), och total effekt \\(0{,}220\\ \\mathrm W\\).</p></div>",
+    "poang": "(5/0/0)",
+    "t": "<p>Figuren visar två seriekopplade resistorer.</p><span class=\"fig\"><svg height=\"268\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.857 12.346 389.571 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">11 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 220 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 330 Ω</text></svg></span><ol><li>Bestäm den sammanlagda resistansen. Svara i Ω.</li><li>Bestäm strömmen i kretsen. Svara i mA.</li><li>Bestäm effekten i 220 Ω och i 330 Ω. Svara i W.</li><li>Bestäm batteriets totala effekt. Svara i W.</li></ol>",
+    "s": "<div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>I en seriekoppling adderas resistanserna.</p><div class=\"facit-matte\">\\[R=220+330=550\\,\\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 550 Ω.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Ohms lag ger strömmen i ampere. Multiplicera med 1000 för att få milliampere.</p><div class=\"facit-matte\">\\[I=\\frac{11}{550}=0{,}020\\,\\mathrm A=20\\,\\mathrm{mA}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 20 mA.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Samma ström går genom båda resistorerna. Beräkna effekten P = RI² för var och en.</p><div class=\"facit-matte\">\\[\\begin{gathered}P_1=220\\cdot0{,}020^2=0{,}088\\,\\mathrm W\\\\P_2=330\\cdot0{,}020^2=0{,}132\\,\\mathrm W\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,088 W respektive 0,132 W.</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><p>Batteriets effekt är spänningen multiplicerad med strömmen.</p><div class=\"facit-matte\">\\[P=UI=11\\cdot0{,}020=0{,}220\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,220 W.</p></div></div>",
     "familj": "Ersättningsresistans och ström i serie",
     "formaga": [
       "procedur"
@@ -80696,10 +80696,10 @@ window.BANK = [
       0.22
     ],
     "tolerans": [
-      8.25,
-      0.3,
+      0,
+      0,
       null,
-      0.0033
+      0
     ],
     "självrättning": [
       true,
@@ -80732,31 +80732,47 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm ersättningsresistansen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">I serie adderas resistorerna.</p></li><li><div class=\"facit-matte\">\\[R_e=220+330=550\\ \\Omega\\]</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(550\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I serie är strömmen samma genom alla komponenter och resistanserna adderas. Delspänningen över en resistor fås med \\(U=RI\\).</p>",
-        "niva": "C"
+        "fraga": "Två resistorer med resistanserna 220 Ω och 330 Ω är seriekopplade. Bestäm deras sammanlagda resistans, som också kallas ersättningsresistans. Svara i Ω.",
+        "s": "<div class=\"facit-v2\"><p>I en seriekoppling adderas resistanserna.</p><div class=\"facit-matte\">\\[R=220+330=550\\,\\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 550 Ω.</p></div>",
+        "ledtrad": "<p>Lägg ihop de två resistanserna.</p>",
+        "niva": "E",
+        "t": "<p>Två resistorer med resistanserna 220 Ω och 330 Ω är seriekopplade. Bestäm deras sammanlagda resistans, som också kallas ersättningsresistans. Svara i Ω.</p>",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor ström går i kretsen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Strömmen är</p></li><li><div class=\"facit-matte\">\\[I=\\frac{11}{550}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I serie är strömmen samma genom alla komponenter och resistanserna adderas. Delspänningen över en resistor fås med \\(U=RI\\).</p>",
-        "niva": "C"
+        "fraga": "Spänningen över en seriekoppling är 11 V. Kretsens sammanlagda resistans är 550 Ω. Hur stor ström går i kretsen? Svara i mA.",
+        "s": "<div class=\"facit-v2\"><p>Ohms lag ger strömmen i ampere. Multiplicera med 1000 för att få milliampere.</p><div class=\"facit-matte\">\\[I=\\frac{11}{550}=0{,}020\\,\\mathrm A=20\\,\\mathrm{mA}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 20 mA.</p></div>",
+        "ledtrad": "<p>Använd I = U/R. 1 A är 1000 mA.</p>",
+        "niva": "E",
+        "t": "<p>Spänningen över en seriekoppling är 11 V. Kretsens sammanlagda resistans är 550 Ω. Hur stor ström går i kretsen? Svara i mA.</p>",
+        "traningsniva": 2,
+        "arbetsinsats": 2,
+        "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "Vilken effekt utvecklas i varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Effekterna blir</p></li><li><div class=\"facit-matte\">\\[P_1=220(0{,}020)^2=0{,}088\\ \\mathrm W\\]\\[P_2=330(0{,}020)^2=0{,}132\\ \\mathrm W\\]</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}132\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>I serie är strömmen samma genom alla komponenter och resistanserna adderas. Delspänningen över en resistor fås med \\(U=RI\\).</p>",
-        "niva": "C"
+        "fraga": "Strömmen genom två seriekopplade resistorer är 0,020 A. Deras resistanser är 220 Ω och 330 Ω. Bestäm effekten i var och en. Ange först effekten i 220 Ω och sedan i 330 Ω. Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistorerna. Beräkna effekten P = RI² för var och en.</p><div class=\"facit-matte\">\\[\\begin{gathered}P_1=220\\cdot0{,}020^2=0{,}088\\,\\mathrm W\\\\P_2=330\\cdot0{,}020^2=0{,}132\\,\\mathrm W\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,088 W respektive 0,132 W.</p></div>",
+        "ledtrad": "<p>Använd den givna strömmen i P = RI² för varje resistor.</p>",
+        "niva": "E",
+        "t": "<p>Strömmen genom två seriekopplade resistorer är 0,020 A. Deras resistanser är 220 Ω och 330 Ω. Bestäm effekten i var och en. Ange först effekten i 220 Ω och sedan i 330 Ω. Svara i W.</p>",
+        "traningsniva": 2,
+        "arbetsinsats": 2,
+        "poang": "2/0/0"
       },
       {
         "etikett": "d",
-        "fraga": "Vilken effekt avger batteriet totalt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Batteriets effekt är</p></li><li><div class=\"facit-matte\">\\[P=UI=11\\cdot0{,}020=0{,}220\\ \\mathrm W=P_1+P_2\\]</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(P_1+P_2\\).</p></div>",
-        "ledtrad": "<p>I serie är strömmen samma genom alla komponenter och resistanserna adderas. Delspänningen över en resistor fås med \\(U=RI\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri ger spänningen 11 V och strömmen 0,020 A. Vilken effekt avger batteriet? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>Batteriets effekt är spänningen multiplicerad med strömmen.</p><div class=\"facit-matte\">\\[P=UI=11\\cdot0{,}020=0{,}220\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,220 W.</p></div>",
+        "ledtrad": "<p>Använd P = UI.</p>",
+        "niva": "E",
+        "t": "<p>Ett batteri ger spänningen 11 V och strömmen 0,020 A. Vilken effekt avger batteriet? Svara i W.</p>",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "1/0/0"
       }
     ],
     "geogebra": false,
@@ -88964,10 +88980,10 @@ window.BANK = [
     "id": "8.124",
     "kap": 8,
     "omr": "seriekoppling",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar en krets.</p><span class=\"fig\"><svg height=\"269\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.286 10.714 393.571 211.429\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 120 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 180 Ω</text></svg></span>\n<ol><li>Vad kallas kopplingen?</li><li>Bestäm ersättningsresistansen.</li><li>Hur stor ström går i kretsen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Resistorerna ligger efter varandra i samma strömväg: en seriekoppling.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Ersättningsresistansen är</p></li><li><div class=\"facit-matte\">\\[R_e=120+180=300\\ \\Omega\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Strömmen blir</p></li><li><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{300}=0{,}030\\ \\mathrm A\\]</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det är en seriekoppling med \\(R_e=300\\ \\Omega\\) och \\(I=30\\ \\mathrm{mA}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Figuren visar en krets.</p><span class=\"fig\"><svg height=\"269\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.286 10.714 393.571 211.429\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 120 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 180 Ω</text></svg></span><ol><li>Vad kallas kopplingen mellan resistorerna? Svara med ett ord.</li><li>Bestäm den sammanlagda resistansen. Svara i Ω.</li><li>Bestäm strömmen i kretsen. Svara i A.</li></ol>",
+    "s": "<div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Resistorerna ligger efter varandra i samma strömväg. Det är en seriekoppling.</p><p class=\"facit-svar\"><strong>Svar:</strong> Seriekoppling.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>I en seriekoppling adderas resistanserna.</p><div class=\"facit-matte\">\\[R=120+180=300\\,\\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 300 Ω.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Ohms lag ger strömmen direkt från den givna spänningen och resistansen.</p><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{300}=0{,}030\\,\\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,030 A.</p></div></div>",
     "familj": "Ersättningsresistans och ström i serie",
     "formaga": [
       "procedur"
@@ -88981,8 +88997,8 @@ window.BANK = [
     ],
     "tolerans": [
       null,
-      4.5,
-      0.00045
+      0,
+      0
     ],
     "självrättning": [
       false,
@@ -89011,27 +89027,35 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad kallas kopplingen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Resistorerna ligger efter varandra i samma strömväg: en seriekoppling.</p></li></ol></div></div></div>",
+        "fraga": "Vad kallas kopplingen mellan de två resistorerna? Svara med ett ord.",
+        "s": "<div class=\"facit-v2\"><p>Resistorerna ligger efter varandra i samma strömväg. Det är en seriekoppling.</p><p class=\"facit-svar\"><strong>Svar:</strong> Seriekoppling.</p></div>",
         "ledtrad": "<p>Resistorerna ligger efter varandra i samma strömväg: en seriekoppling.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm ersättningsresistansen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Ersättningsresistansen är</p></li><li><div class=\"facit-matte\">\\[R_e=120+180=300\\ \\Omega\\]</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Resistorerna ligger efter varandra i samma strömväg: en seriekoppling.</p>",
+        "fraga": "Bestäm resistansen för seriekopplingen 120 Ω och 180 Ω. Svara i Ω.",
+        "s": "<div class=\"facit-v2\"><p>I en seriekoppling adderas resistanserna.</p><div class=\"facit-matte\">\\[R=120+180=300\\,\\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 300 Ω.</p></div>",
+        "ledtrad": "<p>Lägg ihop de två resistanserna.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "t": "<p>Två resistorer på 120 Ω och 180 Ω är seriekopplade. Bestäm deras sammanlagda resistans, som också kallas ersättningsresistans. Svara i Ω.</p>",
+        "traningsniva": 1,
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor ström går i kretsen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Strömmen blir</p></li><li><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{300}=0{,}030\\ \\mathrm A\\]</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}030\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Resistorerna ligger efter varandra i samma strömväg: en seriekoppling.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Spänningen är 9,0 V och den sammanlagda resistansen 300 Ω. Bestäm strömmen. Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>Ohms lag ger strömmen direkt från den givna spänningen och resistansen.</p><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{300}=0{,}030\\,\\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,030 A.</p></div>",
+        "ledtrad": "<p>Använd I = U/R.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "t": "<p>Spänningen över en krets är 9,0 V och den sammanlagda resistansen är 300 Ω. Hur stor ström går i kretsen? Svara i A.</p>",
+        "traningsniva": 1,
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
@@ -175411,5 +175435,1105 @@ window.BANK = [
     "rättSvar": 1.6349733373578832e+16,
     "tolerans": 600000000000000.0,
     "typ": "antal fotoner från laser"
+  },
+  {
+    "id": "5.601",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "familj": "Impuls och medelkraft",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "impuls från rektangulär kraftpuls",
+    "t": "<p>Grafen visar kraften i rörelseriktningen på en liten vagn. Hur stor impuls ger kraften under de första 0,50 s? Impuls är kraftens sammanlagda påverkan under en tid. Svara i N·s.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Konstant kraft 12 N från 0 till 0,50 s.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"168.333\" x2=\"435\" y2=\"168.333\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"173.333\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">5</text><line x1=\"65\" y1=\"116.667\" x2=\"435\" y2=\"116.667\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"121.667\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">10</text><line x1=\"65\" y1=\"96\" x2=\"435\" y2=\"96\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"101\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">12</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">15</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"250\" y1=\"65\" x2=\"250\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"250\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,25</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,5</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"65,220 65,96 435,96 435,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,96 435,96\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Impulsen är arean under kraft–tid-grafen. Här är arean en rektangel.</p><div class=\"facit-matte\">\\[I=12\\cdot0{,}50=6\\,\\mathrm{N\\,s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6 N·s.</p></div>",
+    "ledtrad": "<p>Vilken area ligger mellan grafen och tidsaxeln?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N·s",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
+  },
+  {
+    "id": "5.602",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "familj": "Impuls och medelkraft",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "impuls från triangulär kontaktkraft",
+    "t": "<p>Grafen visar kraften från en hand på en boll under en knuff. Kraften verkar åt samma håll hela tiden. Bestäm impulsen på bollen. Svara i N·s.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Triangulär kraftpuls: 0–0,20 s med toppkraft 60 N.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"168.333\" x2=\"435\" y2=\"168.333\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"173.333\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"65\" y1=\"116.667\" x2=\"435\" y2=\"116.667\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"121.667\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">40</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">60</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"250\" y1=\"65\" x2=\"250\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"250\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,1</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,2</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"65,220 65,220 250,65 435,220 435,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,220 250,65 435,220\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Impulsen är triangelarean. Basen är kontakttiden och höjden är den största kraften.</p><div class=\"facit-matte\">\\[I=\\frac{0{,}20\\cdot60}{2}=6\\,\\mathrm{N\\,s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6 N·s.</p></div>",
+    "ledtrad": "<p>Använd triangelns bas och höjd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N·s",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
+  },
+  {
+    "id": "5.603",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "familj": "Impuls och medelkraft",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "jämföra impuls i två kraftgrafer",
+    "t": "<p>Graferna visar två olika knuffar på en vagn. Vilken knuff ger störst impuls? Välj ett alternativ.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"A: 20 N under 0,20 s. B: 10 N under 0,40 s.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><g><text x=\"45\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><text x=\"158.7\" y=\"28\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172033\">A</text><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"45\" y1=\"142.5\" x2=\"205\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">10</text><line x1=\"45\" y1=\"65\" x2=\"205\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"45\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"125\" y1=\"65\" x2=\"125\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"125\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,2</text><line x1=\"205\" y1=\"65\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"205\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,4</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"205\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"45,220 45,65 125,65 125,220 205,220 205,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"45,65 125,65 125,220 205,220\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g><g transform=\"translate(230 0)\"><text x=\"45\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><text x=\"158.7\" y=\"28\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172033\">B</text><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"45\" y1=\"142.5\" x2=\"205\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">10</text><line x1=\"45\" y1=\"65\" x2=\"205\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"45\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"125\" y1=\"65\" x2=\"125\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"125\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,2</text><line x1=\"205\" y1=\"65\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"205\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,4</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"205\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"45,220 45,142.5 205,142.5 205,220 205,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"45,142.5 205,142.5 205,220\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Impulsen bestäms av arean, inte bara av kraftens höjd. A har dubbelt så stor kraft men verkar under halva tiden jämfört med B.</p><div class=\"facit-matte\">\\[\\begin{gathered}I_A=20\\cdot0{,}20=4\\,\\mathrm{N\\,s}\\\\I_B=10\\cdot0{,}40=4\\,\\mathrm{N\\,s}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> De ger lika stor impuls.</p></div>",
+    "ledtrad": "<p>Jämför areorna under graferna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "De ger lika stor impuls.",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "A.",
+        "ratt": false,
+        "kommentar": "En större toppkraft ger inte alltid större area."
+      },
+      {
+        "txt": "B.",
+        "ratt": false,
+        "kommentar": "En längre tid ger inte alltid större area."
+      },
+      {
+        "txt": "Det går inte att avgöra.",
+        "ratt": false,
+        "kommentar": "Graferna visar både kraft och tid."
+      }
+    ],
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
+  },
+  {
+    "id": "5.604",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "familj": "Impuls och medelkraft",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "impuls från två kraftnivåer",
+    "t": "<p>En motor drar en vagn åt höger. Grafen visar motorns kraft under starten. Bestäm kraftens impuls från 0 till 0,30 s. Svara i N·s.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Kraften är 20 N under 0–0,10 s och 10 N under 0,10–0,30 s.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"142.5\" x2=\"435\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">10</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"188.333\" y1=\"65\" x2=\"188.333\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"188.333\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,1</text><line x1=\"311.667\" y1=\"65\" x2=\"311.667\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"311.667\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,2</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,3</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"65,220 65,65 188.333,65 188.333,142.5 435,142.5 435,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,65 188.333,65 188.333,142.5 435,142.5\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Dela arean i två rektanglar. Den andra kraften verkar under 0,20 s.</p><div class=\"facit-matte\">\\[I=20\\cdot0{,}10+10\\cdot0{,}20=4\\,\\mathrm{N\\,s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 4 N·s.</p></div>",
+    "ledtrad": "<p>Hur lång tid varar var och en av de två kraftnivåerna?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N·s",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
+  },
+  {
+    "id": "5.605",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "familj": "Impuls och medelkraft",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "medelkraft från triangulär kraftpuls",
+    "t": "<p>Grafen visar kraften på en boll under 0,40 s. Hur stor medelkraft skulle ge samma impuls under samma tid? Svara i N.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En triangelformad kraftpuls från 0 till 0,40 s med toppvärde 80 N.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"142.5\" x2=\"435\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">40</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">80</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"157.5\" y1=\"65\" x2=\"157.5\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"157.5\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,1</text><line x1=\"250\" y1=\"65\" x2=\"250\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"250\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,2</text><line x1=\"342.5\" y1=\"65\" x2=\"342.5\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"342.5\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,3</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,4</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"65,220 65,220 157.5,65 435,220 435,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,220 157.5,65 435,220\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Triangelarean ger impulsen. Medelkraften är impulsen delad med hela kontakttiden.</p><div class=\"facit-matte\">\\[\\begin{gathered}I=\\frac{0{,}40\\cdot80}{2}=16\\,\\mathrm{N\\,s}\\\\F_\\mathrm{medel}=\\frac{16}{0{,}40}=40\\,\\mathrm N\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 40 N.</p></div>",
+    "ledtrad": "<p>Vilken konstant kraft skulle ge en rektangel med samma area?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
+  },
+  {
+    "id": "5.606",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "familj": "Impuls och medelkraft",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "impuls med motsatta kraftriktningar",
+    "t": "<p>Grafen visar kraften på en vagn. Kraft åt höger räknas som positiv och kraft åt vänster som negativ. Bestäm den sammanlagda impulsen från 0 till 0,30 s. Svara i N·s med tecken.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Kraften är +40 N under 0–0,10 s och −20 N under 0,10–0,30 s.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"208.077\" x2=\"435\" y2=\"208.077\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"213.077\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">-20</text><line x1=\"65\" y1=\"160.385\" x2=\"435\" y2=\"160.385\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"165.385\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"112.692\" x2=\"435\" y2=\"112.692\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"117.692\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">40</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"188.333\" y1=\"65\" x2=\"188.333\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"188.333\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,1</text><line x1=\"311.667\" y1=\"65\" x2=\"311.667\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"311.667\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,2</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,3</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"160.385\" x2=\"435\" y2=\"160.385\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"65,160.385 65,65 188.333,65 188.333,208.077 435,208.077 435,160.385\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,65 188.333,65 188.333,208.077 435,208.077\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Arean ovanför tidsaxeln är positiv. Arean under tidsaxeln är negativ. De två bidragen är lika stora och tar ut varandra.</p><div class=\"facit-matte\">\\[I=40\\cdot0{,}10-20\\cdot0{,}20=0\\,\\mathrm{N\\,s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0 N·s.</p></div>",
+    "ledtrad": "<p>Behåll tecknet när du räknar arean för varje tidsintervall.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N·s",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
+  },
+  {
+    "id": "5.607",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "familj": "Impuls och medelkraft",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "slutfart från kraftgraf",
+    "t": "<p>En vagn med massan 2,0 kg står först stilla. Grafen visar den sammanlagda kraften i rörelseriktningen under 0,20 s. Bestäm vagnens fart efter denna tid. Svara i m/s.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Konstant sammanlagd kraft 30 N under 0,20 s.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"142.5\" x2=\"435\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"65\" y1=\"103.75\" x2=\"435\" y2=\"103.75\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"108.75\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">30</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">40</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"250\" y1=\"65\" x2=\"250\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"250\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,1</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,2</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"65,220 65,103.75 435,103.75 435,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,103.75 435,103.75\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Grafens area ger impulsen och därmed vagnens rörelsemängd. Eftersom vagnen startar från vila är slutfarten impulsen delad med massan.</p><div class=\"facit-matte\">\\[\\begin{gathered}I=30\\cdot0{,}20=6\\,\\mathrm{N\\,s}\\\\v=\\frac{I}{m}=\\frac{6}{2{,}0}=3\\,\\mathrm{m/s}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 3 m/s.</p></div>",
+    "ledtrad": "<p>Bestäm först impulsen och koppla den sedan till vagnens rörelsemängd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
+  },
+  {
+    "id": "5.608",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "familj": "Impuls och medelkraft",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "kontakttid och kraft vid mjukare stopp",
+    "t": "<p>Graferna visar bromskraftens storlek för två sätt att stoppa samma boll från samma fart. Vilken graf visar ett längre stopp med lägre medelkraft? Välj ett alternativ.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"A: en krafttriangel med höjd 100 N och tid 0,02 s. B: höjd 50 N och tid 0,04 s.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><g><text x=\"45\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><text x=\"158.7\" y=\"28\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172033\">A</text><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"45\" y1=\"142.5\" x2=\"205\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">50</text><line x1=\"45\" y1=\"65\" x2=\"205\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">100</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"45\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"125\" y1=\"65\" x2=\"125\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"125\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,02</text><line x1=\"205\" y1=\"65\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"205\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,04</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"205\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"45,220 45,220 85,65 125,220 125,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"45,220 85,65 125,220\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g><g transform=\"translate(230 0)\"><text x=\"45\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><text x=\"158.7\" y=\"28\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172033\">B</text><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"45\" y1=\"142.5\" x2=\"205\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">50</text><line x1=\"45\" y1=\"65\" x2=\"205\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">100</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"45\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"125\" y1=\"65\" x2=\"125\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"125\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,02</text><line x1=\"205\" y1=\"65\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"205\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,04</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"205\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"45,220 45,220 125,142.5 205,220 205,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"45,220 125,142.5 205,220\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Bollen får samma ändring av rörelsemängd i båda fallen. I B fördelas impulsen över längre tid, vilket ger lägre medelkraft. Toppkraften är också lägre.</p><p class=\"facit-svar\"><strong>Svar:</strong> Graf B.</p></div>",
+    "ledtrad": "<p>Jämför hur långt graferna sträcker sig längs tidsaxeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Graf B.",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "Graf A.",
+        "ratt": false,
+        "kommentar": "A har kortare kontakttid och större toppkraft."
+      },
+      {
+        "txt": "Båda har samma kontakttid.",
+        "ratt": false,
+        "kommentar": "B sträcker sig längre längs tidsaxeln."
+      },
+      {
+        "txt": "Det går inte att avgöra.",
+        "ratt": false,
+        "kommentar": "Både kontakttider och krafter visas."
+      }
+    ],
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
+  },
+  {
+    "id": "5.609",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "rörelseenergi vid dubblerad massa",
+    "t": "<p>Vagn A har massan 2 kg och vagn B massan 4 kg. Båda kör i 5 m/s. Hur många gånger så stor rörelseenergi har B som A?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två vagnar A och B med angivna massor och farter.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"110\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 5 m/s</text><line x1=\"60\" y1=\"92\" x2=\"160\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"160,92 150,87 150,97\" fill=\"#2563eb\"/><rect x=\"50\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"73\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"147\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"23\" y1=\"192\" x2=\"197\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"110\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 2 kg</text><text x=\"345\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"345\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 5 m/s</text><line x1=\"295\" y1=\"92\" x2=\"395\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"395,92 385,87 385,97\" fill=\"#2563eb\"/><rect x=\"285\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"308\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"382\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"258\" y1=\"192\" x2=\"432\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"345\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 4 kg</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Vid samma fart ger dubblerad massa dubblerad rörelseenergi. B har dubbelt så stor massa som A.</p><div class=\"facit-matte\">\\[\\frac{E_B}{E_A}=\\frac{4}{2}=2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2 gånger så stor.</p></div>",
+    "ledtrad": "<p>Vilken storhet ändras i sambandet Eₖ = mv²/2?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "rorelseenergi__rorelseenergi"
+  },
+  {
+    "id": "5.610",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "rörelseenergi vid dubblerad fart",
+    "t": "<p>Två vagnar har massan 1 kg var. A kör i 2 m/s och B i 4 m/s. Hur många gånger så stor rörelseenergi har B som A?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två vagnar A och B med angivna massor och farter.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"110\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 2 m/s</text><line x1=\"85\" y1=\"92\" x2=\"135\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"135,92 125,87 125,97\" fill=\"#2563eb\"/><rect x=\"50\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"73\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"147\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"23\" y1=\"192\" x2=\"197\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"110\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 1 kg</text><text x=\"345\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"345\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 4 m/s</text><line x1=\"295\" y1=\"92\" x2=\"395\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"395,92 385,87 385,97\" fill=\"#2563eb\"/><rect x=\"285\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"308\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"382\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"258\" y1=\"192\" x2=\"432\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"345\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 1 kg</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Massorna är lika. Därför bestäms energiernas förhållande av farterna i kvadrat.</p><div class=\"facit-matte\">\\[\\frac{E_B}{E_A}=\\left(\\frac{4}{2}\\right)^2=4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 4 gånger så stor.</p></div>",
+    "ledtrad": "<p>Rörelseenergin beror på fartens kvadrat.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "rorelseenergi__rorelseenergi"
+  },
+  {
+    "id": "5.611",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Energiprincipen",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "läsa energifördelning i staplar",
+    "t": "<p>Staplarna visar en vagns lägesenergi Eₚ och rörelseenergi Eₖ i två lägen. Den sammanlagda energin är 60 J i båda lägena. Hur stor är rörelseenergin i läge B? Svara i J.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Energistaplar för läge A och B. Energivärden och eventuellt okänt värde är märkta.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"105\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><rect x=\"70\" y=\"140\" width=\"65\" height=\"80\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"148\" y=\"185\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">Eₚ = 40 J</text><rect x=\"70\" y=\"100\" width=\"65\" height=\"40\" fill=\"#fed7aa\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"148\" y=\"125\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">Eₖ = 20 J</text><text x=\"115\" y=\"265\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Totalt 60 J</text><text x=\"335\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><rect x=\"300\" y=\"190\" width=\"65\" height=\"30\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"378\" y=\"210\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">Eₚ = 15 J</text><rect x=\"300\" y=\"100\" width=\"65\" height=\"90\" fill=\"#e2e8f0\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"378\" y=\"150\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">Eₖ = ?</text><text x=\"345\" y=\"265\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Totalt 60 J</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Den sammanlagda energin är summan av lägesenergi och rörelseenergi. I B är lägesenergin 15 J, så resten är rörelseenergi.</p><div class=\"facit-matte\">\\[E_{\\mathrm{k},B}=60-15=45\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 45 J.</p></div>",
+    "ledtrad": "<p>Hur mycket av de 60 J återstår när lägesenergin räknas bort?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 45,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J",
+    "familjNyckel": "rorelseenergi__energiprincipen"
+  },
+  {
+    "id": "5.612",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Energiprincipen",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "rörelseenergi som återstående energi",
+    "t": "<p>En boll släpps från vila och faller utan luftmotstånd. I läge A är lägesenergin 20 J. I läge B är den 5 J. Marken är nollnivå. Hur stor är bollens rörelseenergi i B? Svara i J.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En boll faller från läge A med lägesenergi 20 J till läge B med lägesenergi 5 J.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><line x1=\"50\" y1=\"235\" x2=\"420\" y2=\"235\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"345\" y=\"266\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Nollnivå: marken</text><circle cx=\"140\" cy=\"55\" r=\"10\" fill=\"#2563eb\"/><text x=\"95\" y=\"60\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"235\" y=\"48\" font-size=\"18\" text-anchor=\"start\" fill=\"#172033\">Eₚ = 20 J</text><text x=\"235\" y=\"75\" font-size=\"18\" text-anchor=\"start\" fill=\"#172033\">Eₖ = 0 J</text><circle cx=\"140\" cy=\"190\" r=\"10\" fill=\"#2563eb\"/><text x=\"95\" y=\"195\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"235\" y=\"183\" font-size=\"18\" text-anchor=\"start\" fill=\"#172033\">Eₚ = 5 J</text><text x=\"235\" y=\"210\" font-size=\"18\" text-anchor=\"start\" fill=\"#172033\">Eₖ = ?</text><line x1=\"170\" y1=\"82\" x2=\"170\" y2=\"160\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"170,160 175,150 165,150\" fill=\"#2563eb\"/></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Bollen har förlorat 15 J lägesenergi. Utan luftmotstånd har lika mycket blivit rörelseenergi.</p><div class=\"facit-matte\">\\[E_{\\mathrm{k},B}=20-5=15\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 15 J.</p></div>",
+    "ledtrad": "<p>Vad händer med den lägesenergi som bollen förlorar?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J",
+    "familjNyckel": "rorelseenergi__energiprincipen"
+  },
+  {
+    "id": "5.613",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Nettoarbete och energiförluster",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "energiförlust under färd nedför backe",
+    "t": "<p>En skateboardåkare startar från vila. Åkarens lägesenergi minskar med 180 J under färden nedför en backe. Friktion och luftmotstånd för bort 30 J. Hur mycket blir rörelseenergi? Svara i J.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"180 J lägesenergi minskar; 30 J går till omgivningen.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><rect x=\"160\" y=\"100\" width=\"140\" height=\"70\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"230\" y=\"129\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Åkarens energi</text><text x=\"230\" y=\"155\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172033\">Startar från vila</text><line x1=\"30\" y1=\"135\" x2=\"145\" y2=\"135\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"145,135 135,130 135,140\" fill=\"#2563eb\"/><text x=\"85\" y=\"90\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Frigjord: 180 J</text><line x1=\"310\" y1=\"135\" x2=\"430\" y2=\"135\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"430,135 420,130 420,140\" fill=\"#c2410c\"/><text x=\"370\" y=\"190\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Förlust: 30 J</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>En del av den förlorade lägesenergin går till omgivningen. Den del som återstår blir rörelseenergi.</p><div class=\"facit-matte\">\\[E_\\mathrm{k}=180-30=150\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 150 J.</p></div>",
+    "ledtrad": "<p>Dra bort den energi som går till omgivningen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster"
+  },
+  {
+    "id": "5.614",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Nettoarbete och energiförluster",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "läsa energiförlust vid inbromsning",
+    "t": "<p>En cykel bromsar på en vågrät väg. Ingen energi tillförs. Rörelseenergin minskar från 80 J till 25 J. Hur mycket energi har förts från rörelsen till bromsarna och omgivningen? Svara i J.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Energistaplar för läge A och B. Energivärden och eventuellt okänt värde är märkta.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"105\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><rect x=\"70\" y=\"92\" width=\"65\" height=\"128\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"148\" y=\"161\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">Eₖ = 80 J</text><text x=\"335\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><rect x=\"300\" y=\"180\" width=\"65\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"378\" y=\"205\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">Eₖ = 25 J</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Energin försvinner inte. Minskningen i rörelseenergi har överförts till andra energiformer, framför allt värme.</p><div class=\"facit-matte\">\\[80-25=55\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 55 J.</p></div>",
+    "ledtrad": "<p>Jämför rörelseenergin före och efter bromsningen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 55,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster"
+  },
+  {
+    "id": "5.615",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "rörelseenergi vid halverad fart",
+    "t": "<p>En vagn har rörelseenergin 36 J när den kör i 6 m/s. Massan ändras inte. Hur stor är rörelseenergin vid 3 m/s? Svara i J.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två vagnar A och B med angivna massor och farter.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"110\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 6 m/s</text><line x1=\"60\" y1=\"92\" x2=\"160\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"160,92 150,87 150,97\" fill=\"#2563eb\"/><rect x=\"50\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"73\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"147\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"23\" y1=\"192\" x2=\"197\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"110\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Samma massa</text><text x=\"345\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"345\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 3 m/s</text><line x1=\"320\" y1=\"92\" x2=\"370\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"370,92 360,87 360,97\" fill=\"#2563eb\"/><rect x=\"285\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"308\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"382\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"258\" y1=\"192\" x2=\"432\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"345\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Samma massa</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Farten halveras. Eftersom farten kvadreras blir energin en fjärdedel så stor.</p><div class=\"facit-matte\">\\[E_\\mathrm{k}=36\\left(\\frac{3}{6}\\right)^2=9\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 9 J.</p></div>",
+    "ledtrad": "<p>Kvadrera förhållandet mellan den nya och den gamla farten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J",
+    "familjNyckel": "rorelseenergi__rorelseenergi"
+  },
+  {
+    "id": "5.616",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Nettoarbete och energiförluster",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "nettoarbete i energiflödesbild",
+    "t": "<p>En vagn har rörelseenergin 20 J och kör på ett vågrätt spår. Motorn utför arbetet 30 J på vagnen. Friktionen för bort 10 J. Hur stor rörelseenergi har vagnen efteråt? Svara i J.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Vagnen har rörelseenergi 20 J. Motorn tillför 30 J och friktion för bort 10 J.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><rect x=\"160\" y=\"100\" width=\"140\" height=\"70\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"230\" y=\"129\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Vagnens Eₖ</text><text x=\"230\" y=\"155\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172033\">Från början: 20 J</text><line x1=\"30\" y1=\"135\" x2=\"145\" y2=\"135\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"145,135 135,130 135,140\" fill=\"#2563eb\"/><text x=\"85\" y=\"90\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Arbete in: 30 J</text><line x1=\"310\" y1=\"135\" x2=\"430\" y2=\"135\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"430,135 420,130 420,140\" fill=\"#c2410c\"/><text x=\"370\" y=\"190\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Förlust: 10 J</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Lägg till motorns arbete och dra bort energin som friktionen för bort. Lägesenergin ändras inte på det vågräta spåret.</p><div class=\"facit-matte\">\\[E_{\\mathrm{k,slut}}=20+30-10=40\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 40 J.</p></div>",
+    "ledtrad": "<p>Vilken energi kommer in och vilken lämnar vagnens rörelse?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J",
+    "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster"
+  },
+  {
+    "id": "5.617",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Rörelseenergi Ek = mv²/2",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "fart från energi i en mätbild",
+    "t": "<p>En mätning visar att en vagn med massan 4 kg har rörelseenergin 32 J. Bestäm vagnens fart. Svara i m/s.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En vagn med massan 4 kg och rörelseenergin 32 J har en okänd fart.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><rect x=\"145\" y=\"125\" width=\"170\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"90\" y1=\"192\" x2=\"370\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"280\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"165\" y1=\"90\" x2=\"300\" y2=\"90\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"300,90 290,85 290,95\" fill=\"#2563eb\"/><text x=\"230\" y=\"60\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = ?</text><text x=\"230\" y=\"240\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 4 kg, Eₖ = 32 J</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Lös ut farten ur sambandet för rörelseenergi. Ta den positiva roten eftersom farten inte kan vara negativ.</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{2E_\\mathrm{k}}{m}}=\\sqrt{\\frac{2\\cdot32}{4}}=4\\,\\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 4 m/s.</p></div>",
+    "ledtrad": "<p>Använd Eₖ = mv²/2 och lös ut v.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s",
+    "familjNyckel": "rorelseenergi__rorelseenergi"
+  },
+  {
+    "id": "5.618",
+    "kap": 5,
+    "omr": "rorelseenergi",
+    "familj": "Energiprincipen",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "jämföra energi i slät och sträv backe",
+    "t": "<p>Två likadana klossar släpps från vila på samma höjd. A glider utan friktion och B med friktion. Båda når botten. Bortse från luftmotstånd. Vilken kloss har störst rörelseenergi vid botten? Välj ett alternativ.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två lika höga backar. Kloss A glider utan friktion och kloss B med friktion.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"110\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Utan friktion</text><line x1=\"60\" y1=\"100\" x2=\"160\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"160\" y1=\"220\" x2=\"200\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><g transform=\"translate(60 100) rotate(50.1944)\"><rect x=\"-10\" y=\"-20\" width=\"20\" height=\"20\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/></g><text x=\"110\" y=\"270\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Start: vila</text><text x=\"340\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"340\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Med friktion</text><line x1=\"290\" y1=\"100\" x2=\"390\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"390\" y1=\"220\" x2=\"430\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><g transform=\"translate(290 100) rotate(50.1944)\"><rect x=\"-10\" y=\"-20\" width=\"20\" height=\"20\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/></g><text x=\"340\" y=\"270\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Start: vila</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Klossarna förlorar lika mycket lägesenergi. För B går en del av energin till värme genom friktion, så mindre blir rörelseenergi.</p><p class=\"facit-svar\"><strong>Svar:</strong> Kloss A.</p></div>",
+    "ledtrad": "<p>För vilken kloss går energi till omgivningen?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Kloss A.",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "Kloss B.",
+        "ratt": false,
+        "kommentar": "Friktion för energi från rörelsen till omgivningen."
+      },
+      {
+        "txt": "De har lika stor rörelseenergi.",
+        "ratt": false,
+        "kommentar": "De har samma höjdskillnad men olika energiförluster."
+      },
+      {
+        "txt": "Båda har noll rörelseenergi.",
+        "ratt": false,
+        "kommentar": "De är i rörelse när de når botten."
+      }
+    ],
+    "familjNyckel": "rorelseenergi__energiprincipen"
+  },
+  {
+    "id": "5.619",
+    "kap": 5,
+    "omr": "arbete",
+    "familj": "Arbete ur kraftdiagram",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "negativt arbete i kraft–sträcka-graf",
+    "t": "<p>En låda glider åt höger. Grafen visar friktionskraften längs rörelsen, med höger som positiv riktning. Bestäm friktionens arbete från 0 till 3 m. Svara i J med tecken.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Friktionskraften är −6 N under en förflyttning på 3 m.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"189\" x2=\"435\" y2=\"189\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"194\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">-6</text><line x1=\"65\" y1=\"142.5\" x2=\"435\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">-3</text><line x1=\"65\" y1=\"96\" x2=\"435\" y2=\"96\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"101\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"188.333\" y1=\"65\" x2=\"188.333\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"188.333\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">1</text><line x1=\"311.667\" y1=\"65\" x2=\"311.667\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"311.667\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">2</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">3</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"96\" x2=\"435\" y2=\"96\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">s (m)</text><polygon points=\"65,96 65,189 435,189 435,96\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,189 435,189\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Kraften motverkar rörelsen och är negativ i den valda riktningen. Arbetet är den negativa arean under grafen.</p><div class=\"facit-matte\">\\[W=-6\\cdot3=-18\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> −18 J.</p></div>",
+    "ledtrad": "<p>Kraften och förflyttningen har motsatta riktningar.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": -18,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J",
+    "familjNyckel": "arbete__arbete_ur_kraftdiagram"
+  },
+  {
+    "id": "5.620",
+    "kap": 5,
+    "omr": "arbete",
+    "familj": "Arbete ur kraftdiagram",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "jämföra arbete i olika grafytor",
+    "t": "<p>Graferna visar kraften i rörelseriktningen när två lådor flyttas 4 m. Vilken kraft utför störst arbete? Välj ett alternativ.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"A: kraften ökar från 0 till 40 N över 4 m. B: konstant 20 N över 4 m.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><g><text x=\"45\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><text x=\"158.7\" y=\"28\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172033\">A</text><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"45\" y1=\"142.5\" x2=\"205\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"45\" y1=\"65\" x2=\"205\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">40</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"45\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"125\" y1=\"65\" x2=\"125\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"125\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">2</text><line x1=\"205\" y1=\"65\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"205\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">4</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"205\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">s (m)</text><polygon points=\"45,220 45,220 205,65 205,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"45,220 205,65\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g><g transform=\"translate(230 0)\"><text x=\"45\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><text x=\"158.7\" y=\"28\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172033\">B</text><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"45\" y1=\"142.5\" x2=\"205\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"45\" y1=\"65\" x2=\"205\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"35\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">40</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"45\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"125\" y1=\"65\" x2=\"125\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"125\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">2</text><line x1=\"205\" y1=\"65\" x2=\"205\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"205\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">4</text><line x1=\"45\" y1=\"65\" x2=\"45\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"45\" y1=\"220\" x2=\"205\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"205\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">s (m)</text><polygon points=\"45,220 45,142.5 205,142.5 205,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"45,142.5 205,142.5\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Arbetet är arean under respektive kraft–sträcka-graf. Triangeln i A och rektangeln i B har samma area.</p><div class=\"facit-matte\">\\[\\begin{gathered}W_A=\\frac{4\\cdot40}{2}=80\\,\\mathrm J\\\\W_B=4\\cdot20=80\\,\\mathrm J\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> De utför lika stort arbete.</p></div>",
+    "ledtrad": "<p>Jämför en triangelarea med en rektangelarea.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "De utför lika stort arbete.",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "Kraften i A.",
+        "ratt": false,
+        "kommentar": "Toppkraften ensam bestämmer inte arbetet."
+      },
+      {
+        "txt": "Kraften i B.",
+        "ratt": false,
+        "kommentar": "Den högre kraften i början räcker inte för att jämföra hela arbetet."
+      },
+      {
+        "txt": "Båda utför noll arbete.",
+        "ratt": false,
+        "kommentar": "Båda krafterna verkar längs en förflyttning."
+      }
+    ],
+    "familjNyckel": "arbete__arbete_ur_kraftdiagram"
+  },
+  {
+    "id": "5.621",
+    "kap": 5,
+    "omr": "arbete",
+    "familj": "Arbete W = F·s",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "arbete av kraft vinkelrät mot förflyttning",
+    "t": "<p>Du bär en låda vågrätt och håller den på samma höjd. Handens kraft på lådan är lodrät uppåt. Hur stort arbete utför just handens kraft under den vågräta förflyttningen? Svara i J.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Handens kraft är lodrät uppåt medan lådans förflyttning är vågrät åt höger.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><rect x=\"85\" y=\"135\" width=\"100\" height=\"50\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"40\" y1=\"205\" x2=\"420\" y2=\"205\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"135\" y1=\"120\" x2=\"135\" y2=\"60\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"135,60 130,70 140,70\" fill=\"#2563eb\"/><text x=\"105\" y=\"35\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172033\">Handens kraft</text><line x1=\"230\" y1=\"140\" x2=\"410\" y2=\"140\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"410,140 400,135 400,145\" fill=\"#c2410c\"/><text x=\"320\" y=\"115\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172033\">Förflyttning</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Lådan förflyttas inte i handkraftens riktning. En kraft vinkelrät mot förflyttningen utför inget arbete på föremålet. Kroppen kan ändå använda energi.</p><div class=\"facit-matte\">\\[W=0\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0 J.</p></div>",
+    "ledtrad": "<p>Har handens kraft någon komponent i förflyttningens riktning?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J",
+    "familjNyckel": "arbete__arbete"
+  },
+  {
+    "id": "5.622",
+    "kap": 5,
+    "omr": "arbete",
+    "familj": "Arbete ur kraftdiagram",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "arbete i ett valt intervall av grafen",
+    "t": "<p>Grafen visar dragkraften i rörelseriktningen på en vagn. Bestäm dragkraftens arbete enbart från s = 2 m till s = 5 m. Svara i J.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Kraften är 10 N till 2 m och därefter 20 N till 5 m.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"142.5\" x2=\"435\" y2=\"142.5\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"147.5\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">10</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"139\" y1=\"65\" x2=\"139\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"139\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">1</text><line x1=\"213\" y1=\"65\" x2=\"213\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"213\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">2</text><line x1=\"287\" y1=\"65\" x2=\"287\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"287\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">3</text><line x1=\"361\" y1=\"65\" x2=\"361\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"361\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">4</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">5</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">s (m)</text><polygon points=\"65,220 65,142.5 213,142.5 213,65 435,65 435,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,142.5 213,142.5 213,65 435,65\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Räkna bara arean i det angivna intervallet. Där är kraften konstant 20 N och förflyttningen är 3 m.</p><div class=\"facit-matte\">\\[W=20\\cdot(5-2)=60\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 60 J.</p></div>",
+    "ledtrad": "<p>Vilken del av grafens area ligger mellan 2 m och 5 m?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J",
+    "familjNyckel": "arbete__arbete_ur_kraftdiagram"
+  },
+  {
+    "id": "6.549",
+    "kap": 6,
+    "omr": "tryck",
+    "familj": "Tryck p = F/A",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "välja störst tryck från två kontaktytor",
+    "t": "<p>Samma kloss läggs på två olika sidor enligt figuren. I båda lägena trycker den med 12 N mot bordet. I vilket läge blir trycket störst? Välj ett alternativ.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Samma kloss ligger på två olika sidor. A: kraft 12 N och area 0,04 m². B: kraft 12 N och area 0,02 m².\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"115\" y=\"25\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"335\" y=\"25\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><rect x=\"55\" y=\"130\" width=\"120\" height=\"60\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"305\" y=\"70\" width=\"60\" height=\"120\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"30\" y1=\"190\" x2=\"200\" y2=\"190\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"260\" y1=\"190\" x2=\"430\" y2=\"190\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"115\" y1=\"65\" x2=\"115\" y2=\"123\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"115,123 120,113 110,113\" fill=\"#2563eb\"/><text x=\"62\" y=\"83\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">12 N</text><line x1=\"335\" y1=\"38\" x2=\"335\" y2=\"64\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"335,64 340,54 330,54\" fill=\"#2563eb\"/><text x=\"396\" y=\"57\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">12 N</text><text x=\"115\" y=\"239\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Area: 0,04 m²</text><text x=\"345\" y=\"239\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Area: 0,02 m²</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Samma kraft fördelas över en mindre yta i B. Mindre kontaktarea ger större tryck när kraften är oförändrad.</p><p class=\"facit-svar\"><strong>Svar:</strong> Läge B.</p></div>",
+    "ledtrad": "<p>Jämför kontaktytorna, inte klossens höjd.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Läge B.",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "Läge A.",
+        "ratt": false,
+        "kommentar": "A har större kontaktyta och därmed mindre tryck."
+      },
+      {
+        "txt": "Trycket är lika stort.",
+        "ratt": false,
+        "kommentar": "Krafterna är lika, men kontaktytorna är olika."
+      },
+      {
+        "txt": "Trycket är noll i båda lägena.",
+        "ratt": false,
+        "kommentar": "Klossen trycker med en kraft mot bordet."
+      }
+    ],
+    "familjNyckel": "tryck__tryck"
+  },
+  {
+    "id": "6.550",
+    "kap": 6,
+    "omr": "tryck",
+    "familj": "Tryck p = F/A",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "kontakttryck från last och markerad yta",
+    "t": "<p>En låda trycker med 12 N mot ett bord. Kontaktarean är 0,04 m². Bestäm trycket mot bordet. Svara i Pa.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En last trycker mot en vågrät yta. Kraft och kontaktarea är angivna.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><rect x=\"135\" y=\"135\" width=\"190\" height=\"50\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"50\" y1=\"185\" x2=\"420\" y2=\"185\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"230\" y1=\"45\" x2=\"230\" y2=\"125\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"230,125 235,115 225,115\" fill=\"#2563eb\"/><text x=\"285\" y=\"82\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">F = 12 N</text><text x=\"230\" y=\"234\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kontaktarea: 0,04 m²</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Tryck är kraft delad med kontaktarea. Båda storheterna är redan i rätt enheter.</p><div class=\"facit-matte\">\\[p=\\frac{12}{0{,}04}=300\\,\\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 300 Pa.</p></div>",
+    "ledtrad": "<p>Använd p = F/A.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "Pa",
+    "familjNyckel": "tryck__tryck"
+  },
+  {
+    "id": "6.551",
+    "kap": 6,
+    "omr": "tryck",
+    "familj": "Tryck p = F/A",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "tryck från sammanlagd kontaktyta",
+    "t": "<p>En person står med båda fötterna på marken och trycker sammanlagt med 600 N. Fötternas sammanlagda kontaktarea är 0,12 m². Bestäm trycket mot marken. Svara i Pa.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två fötters kontaktytor sedda uppifrån. Den sammanlagda arean är 0,12 m².\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"230\" y=\"28\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kontakt med marken, sett uppifrån</text><ellipse cx=\"140\" cy=\"138\" rx=\"28\" ry=\"64\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><ellipse cx=\"315\" cy=\"138\" rx=\"28\" ry=\"64\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"230\" y=\"247\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Sammanlagd kontaktarea: 0,12 m²</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Kraften och arean gäller båda fötterna tillsammans. Arean ska därför inte dubbleras en gång till.</p><div class=\"facit-matte\">\\[p=\\frac{600}{0{,}12}=5000\\,\\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 5000 Pa.</p></div>",
+    "ledtrad": "<p>Använd den sammanlagda kraften och den sammanlagda arean.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5000,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "Pa",
+    "familjNyckel": "tryck__tryck"
+  },
+  {
+    "id": "6.552",
+    "kap": 6,
+    "omr": "tryck",
+    "familj": "Tryck p = F/A",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "jämföra tryck med och utan snösko",
+    "t": "<p>En sko har kontaktarean 200 cm². Med snösko blir kontaktarean 1000 cm². Samma kraft verkar mot marken i båda fallen. Hur många gånger så stort blir trycket utan snösko som med snösko?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Kontaktytor sedda uppifrån: en sko med area 200 cm² och en snösko med area 1000 cm².\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"105\" y=\"25\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Utan snösko</text><text x=\"345\" y=\"25\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Med snösko</text><ellipse cx=\"105\" cy=\"140\" rx=\"25\" ry=\"45\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><ellipse cx=\"345\" cy=\"140\" rx=\"55.9017\" ry=\"100.623\" fill=\"#fed7aa\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"105\" y=\"233\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">200 cm²</text><text x=\"345\" y=\"279\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">1000 cm²</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Utan snösko fördelas kraften över en femtedel så stor area. Trycket blir därför fem gånger så stort. Areorna kan jämföras direkt eftersom de har samma enhet.</p><div class=\"facit-matte\">\\[\\frac{p_\\mathrm{utan}}{p_\\mathrm{med}}=\\frac{1000}{200}=5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 5 gånger så stort.</p></div>",
+    "ledtrad": "<p>Trycket ökar när samma kraft fördelas över mindre area.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "tryck__tryck"
+  },
+  {
+    "id": "6.553",
+    "kap": 6,
+    "omr": "tryck",
+    "familj": "Tryck p = F/A",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "tryck under en eller två staplade klossar",
+    "t": "<p>Alla klossar i figuren är likadana. I A står en kloss på golvet. I B står två ovanpå varandra. Kontaktarean mot golvet är lika stor i båda fallen. Hur många gånger så stort är trycket mot golvet i B som i A?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En kloss i A och två likadana klossar ovanpå varandra i B. Kontaktarean mot golvet är densamma.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"115\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"345\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><rect x=\"75\" y=\"170\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"305\" y=\"170\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"305\" y=\"130\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"35\" y1=\"210\" x2=\"425\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"230\" y=\"260\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Alla klossar är likadana.</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Två klossar ger dubbelt så stor tyngdkraft på samma kontaktarea. Trycket blir därför dubbelt så stort.</p><div class=\"facit-matte\">\\[\\frac{p_B}{p_A}=2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2 gånger så stort.</p></div>",
+    "ledtrad": "<p>Vilken kraft måste golvet bära i vart och ett av fallen?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "tryck__tryck"
+  },
+  {
+    "id": "6.554",
+    "kap": 6,
+    "omr": "tryck",
+    "familj": "Tryck p = F/A",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "kraft från tryck och kontaktyta",
+    "t": "<p>En press ger trycket 10 kPa över arean 0,03 m². Hur stor kraft verkar på ytan? Svara i N.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En last trycker mot en vågrät yta. Kraft och kontaktarea är angivna.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><rect x=\"135\" y=\"135\" width=\"190\" height=\"50\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"50\" y1=\"185\" x2=\"420\" y2=\"185\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"230\" y1=\"45\" x2=\"230\" y2=\"125\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"230,125 235,115 225,115\" fill=\"#2563eb\"/><text x=\"285\" y=\"82\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">F = ?</text><text x=\"230\" y=\"234\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kontaktarea: 0,03 m²</text><text x=\"230\" y=\"270\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Tryck: 10 kPa</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Räkna först om trycket till pascal. Kraften är trycket multiplicerat med arean.</p><div class=\"facit-matte\">\\[F=pA=10000\\cdot0{,}03=300\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 300 N.</p></div>",
+    "ledtrad": "<p>1 kPa är 1000 Pa. Använd sedan F = pA.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N",
+    "familjNyckel": "tryck__tryck"
+  },
+  {
+    "id": "6.555",
+    "kap": 6,
+    "omr": "tryck",
+    "familj": "Tryck p = F/A",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "kontaktyta för ett givet tryck",
+    "t": "<p>En last trycker med kraften 100 N mot en platta. Trycket mot plattan ska vara 500 Pa. Hur stor kontaktarea ska lasten ha? Svara i m².</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En last trycker mot en vågrät yta. Kraft och kontaktarea är angivna.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><rect x=\"135\" y=\"135\" width=\"190\" height=\"50\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"50\" y1=\"185\" x2=\"420\" y2=\"185\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"230\" y1=\"45\" x2=\"230\" y2=\"125\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"230,125 235,115 225,115\" fill=\"#2563eb\"/><text x=\"285\" y=\"82\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">F = 100 N</text><text x=\"230\" y=\"234\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kontaktarea: ?</text><text x=\"230\" y=\"270\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Tryck: 500 Pa</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Lös ut arean ur trycksambandet. En större area fördelar samma kraft över en större yta.</p><div class=\"facit-matte\">\\[A=\\frac{F}{p}=\\frac{100}{500}=0{,}20\\,\\mathrm{m^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,20 m².</p></div>",
+    "ledtrad": "<p>Skriv om p = F/A så att A står ensamt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.2,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m²",
+    "familjNyckel": "tryck__tryck"
+  },
+  {
+    "id": "6.556",
+    "kap": 6,
+    "omr": "tryck",
+    "familj": "Hydraulik",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "trycköverföring mellan två kolvar",
+    "t": "<p>En hydraulisk lyft har två kolvar, alltså rörliga plattor. Du trycker med 20 N på den lilla kolven med arean 0,01 m². Den stora kolven har arean 0,10 m². Vätskan ger samma tryck under båda kolvarna. Vilken kraft ger vätskan uppåt på den stora kolven? Svara i N.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En hydraulisk lyft med liten kolv, area 0,01 m², och stor kolv, area 0,10 m². Kraften på den lilla kolven är 20 N.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><polygon points=\"80,100 120,100 120,180 275,180 275,100 401.49,100 401.49,220 80,220\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"80\" y=\"90\" width=\"40\" height=\"10\" fill=\"#94a3b8\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"275\" y=\"90\" width=\"126.49\" height=\"10\" fill=\"#94a3b8\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"100\" y1=\"40\" x2=\"100\" y2=\"83\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"100,83 105,73 95,73\" fill=\"#2563eb\"/><text x=\"46\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">20 N</text><line x1=\"338\" y1=\"83\" x2=\"338\" y2=\"35\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"338,35 333,45 343,45\" fill=\"#2563eb\"/><text x=\"390\" y=\"51\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">F = ?</text><text x=\"110\" y=\"255\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Area: 0,01 m²</text><text x=\"340\" y=\"255\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Area: 0,10 m²</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Beräkna trycket från den lilla kolven. Samma tryck verkar över den stora kolvens tio gånger större area, så kraften blir tio gånger större.</p><div class=\"facit-matte\">\\[\\begin{gathered}p=\\frac{20}{0{,}01}=2000\\,\\mathrm{Pa}\\\\F_\\mathrm{stor}=2000\\cdot0{,}10=200\\,\\mathrm N\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 200 N.</p></div>",
+    "ledtrad": "<p>Börja med trycket under den lilla kolven.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 200,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N",
+    "familjNyckel": "tryck__hydraulik"
+  },
+  {
+    "id": "4.754",
+    "kap": 4,
+    "omr": "newton3",
+    "familj": "Tredje lagen och rörelse",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "identifiera vilket föremål en kraft verkar på",
+    "t": "<p>Två vagnar är hopkopplade med en fjäder. Pilarna visar krafterna mellan vagnarna. Vilken pil visar kraften på vagn B? Välj ett alternativ.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två vagnar A och B är hopkopplade med en fjäder. Kraften från B verkar åt vänster på A och kraften från A åt höger på B.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"30\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">Vagn A</text><text x=\"350\" y=\"30\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">Vagn B</text><line x1=\"110\" y1=\"90\" x2=\"35\" y2=\"90\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"35,90 45,95 45,85\" fill=\"#c2410c\"/><line x1=\"350\" y1=\"90\" x2=\"425\" y2=\"90\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"425,90 415,85 415,95\" fill=\"#2563eb\"/><text x=\"110\" y=\"62\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">8 N</text><text x=\"350\" y=\"62\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">8 N</text><text x=\"110\" y=\"125\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">B på A</text><text x=\"350\" y=\"125\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">A på B</text><rect x=\"70\" y=\"155\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"310\" y=\"155\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"130\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"330\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"370\" cy=\"206\" r=\"8\" fill=\"#475569\"/><line x1=\"150\" y1=\"175\" x2=\"310\" y2=\"175\" stroke=\"#475569\" stroke-width=\"2\"/><text x=\"230\" y=\"163\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Fjäder</text><text x=\"110\" y=\"250\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kraft på A</text><text x=\"350\" y=\"250\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kraft på B</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Läs på vilket föremål kraften verkar. A på B betyder att A ger en kraft som verkar på B. Den pilen pekar åt höger.</p><p class=\"facit-svar\"><strong>Svar:</strong> Pilen åt höger, märkt A på B.</p></div>",
+    "ledtrad": "<p>I märkningen A på B är B föremålet som tar emot kraften.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Pilen åt höger, märkt A på B.",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "Pilen åt vänster, märkt B på A.",
+        "ratt": false,
+        "kommentar": "Den kraften verkar på A."
+      },
+      {
+        "txt": "Båda pilarna.",
+        "ratt": false,
+        "kommentar": "Pilarna visar krafter på olika vagnar."
+      },
+      {
+        "txt": "Ingen av pilarna.",
+        "ratt": false,
+        "kommentar": "B påverkas av fjädern."
+      }
+    ],
+    "familjNyckel": "newton3__tredje_lagen_och_rorelse"
+  },
+  {
+    "id": "4.755",
+    "kap": 4,
+    "omr": "newton3",
+    "familj": "Tredje lagen och rörelse",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "kraft och motkraft har samma storlek",
+    "t": "<p>Två vagnar är hopkopplade med en fjäder. A påverkar B med 20 N åt höger. Hur stor kraft ger B på A? Svara i N.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två vagnar A och B är hopkopplade med en fjäder. Kraften från B verkar åt vänster på A och kraften från A åt höger på B.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"30\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">Vagn A</text><text x=\"350\" y=\"30\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">Vagn B</text><line x1=\"110\" y1=\"90\" x2=\"35\" y2=\"90\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"35,90 45,95 45,85\" fill=\"#c2410c\"/><line x1=\"350\" y1=\"90\" x2=\"425\" y2=\"90\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"425,90 415,85 415,95\" fill=\"#2563eb\"/><text x=\"110\" y=\"62\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">?</text><text x=\"350\" y=\"62\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">20 N</text><text x=\"110\" y=\"125\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">B på A</text><text x=\"350\" y=\"125\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">A på B</text><rect x=\"70\" y=\"155\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"310\" y=\"155\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"130\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"330\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"370\" cy=\"206\" r=\"8\" fill=\"#475569\"/><line x1=\"150\" y1=\"175\" x2=\"310\" y2=\"175\" stroke=\"#475569\" stroke-width=\"2\"/><text x=\"230\" y=\"163\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Fjäder</text><text x=\"110\" y=\"250\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kraft på A</text><text x=\"350\" y=\"250\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kraft på B</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Kraft och motkraft är lika stora och verkar åt motsatta håll på olika föremål. B ger därför 20 N åt vänster på A.</p><p class=\"facit-svar\"><strong>Svar:</strong> 20 N.</p></div>",
+    "ledtrad": "<p>Använd Newtons tredje lag, inte vagnarnas massor.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N",
+    "familjNyckel": "newton3__tredje_lagen_och_rorelse"
+  },
+  {
+    "id": "4.756",
+    "kap": 4,
+    "omr": "newton3",
+    "familj": "Tredje lagen och rörelse",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "förklara varför kraft och motkraft inte tar ut varandra på en vagn",
+    "t": "<p>Pilarna visar krafterna mellan två vagnar som är hopkopplade med en fjäder. Varför tar just dessa två krafter inte ut varandra på vagn A? Välj ett alternativ.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två vagnar A och B är hopkopplade med en fjäder. Kraften från B verkar åt vänster på A och kraften från A åt höger på B.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"30\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">Vagn A</text><text x=\"350\" y=\"30\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">Vagn B</text><line x1=\"110\" y1=\"90\" x2=\"35\" y2=\"90\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"35,90 45,95 45,85\" fill=\"#c2410c\"/><line x1=\"350\" y1=\"90\" x2=\"425\" y2=\"90\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"425,90 415,85 415,95\" fill=\"#2563eb\"/><text x=\"110\" y=\"62\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">8 N</text><text x=\"350\" y=\"62\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">8 N</text><text x=\"110\" y=\"125\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">B på A</text><text x=\"350\" y=\"125\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">A på B</text><rect x=\"70\" y=\"155\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"310\" y=\"155\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"130\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"330\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"370\" cy=\"206\" r=\"8\" fill=\"#475569\"/><line x1=\"150\" y1=\"175\" x2=\"310\" y2=\"175\" stroke=\"#475569\" stroke-width=\"2\"/><text x=\"230\" y=\"163\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Fjäder</text><text x=\"110\" y=\"250\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kraft på A</text><text x=\"350\" y=\"250\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Kraft på B</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>För att räkna den sammanlagda kraften på A får vi bara ta med krafter som verkar på A. Kraften åt höger verkar på B och ska därför inte läggas till på A.</p><p class=\"facit-svar\"><strong>Svar:</strong> De verkar på olika vagnar.</p></div>",
+    "ledtrad": "<p>Vilken av pilarna verkar på A?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "De verkar på olika vagnar.",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "Kraften på A är större.",
+        "ratt": false,
+        "kommentar": "Kraft och motkraft är lika stora."
+      },
+      {
+        "txt": "En fjäder kan bara ge kraft på en vagn.",
+        "ratt": false,
+        "kommentar": "Fjädern påverkar båda vagnarna."
+      },
+      {
+        "txt": "Krafter åt olika håll kan aldrig ta ut varandra.",
+        "ratt": false,
+        "kommentar": "Det kan de göra om de verkar på samma föremål."
+      }
+    ],
+    "familjNyckel": "newton3__tredje_lagen_och_rorelse"
+  },
+  {
+    "id": "4.757",
+    "kap": 4,
+    "omr": "newton3",
+    "familj": "Tredje lagen och rörelse",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "jämföra acceleration vid samma kraft men olika massa",
+    "t": "<p>Två vagnar står stilla på ett vågrätt spår. En fjäder mellan dem ger 8 N på vardera vagnen åt motsatta håll. A väger 2 kg och B 4 kg. Bortse från friktion. Vilken vagn får störst acceleration? Välj ett alternativ.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två vagnar A och B är hopkopplade med en fjäder. Kraften från B verkar åt vänster på A och kraften från A åt höger på B.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"30\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">Vagn A</text><text x=\"350\" y=\"30\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">Vagn B</text><line x1=\"110\" y1=\"90\" x2=\"35\" y2=\"90\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"35,90 45,95 45,85\" fill=\"#c2410c\"/><line x1=\"350\" y1=\"90\" x2=\"425\" y2=\"90\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"425,90 415,85 415,95\" fill=\"#2563eb\"/><text x=\"110\" y=\"62\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">8 N</text><text x=\"350\" y=\"62\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">8 N</text><text x=\"110\" y=\"125\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">B på A</text><text x=\"350\" y=\"125\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">A på B</text><rect x=\"70\" y=\"155\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"310\" y=\"155\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"130\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"330\" cy=\"206\" r=\"8\" fill=\"#475569\"/><circle cx=\"370\" cy=\"206\" r=\"8\" fill=\"#475569\"/><line x1=\"150\" y1=\"175\" x2=\"310\" y2=\"175\" stroke=\"#475569\" stroke-width=\"2\"/><text x=\"230\" y=\"163\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Fjäder</text><text x=\"110\" y=\"250\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 2 kg</text><text x=\"350\" y=\"250\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 4 kg</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Krafterna är lika stora, men accelerationen är kraft delad med massa. Den lättare vagnen A får större acceleration.</p><div class=\"facit-matte\">\\[\\begin{gathered}a_A=\\frac82=4\\,\\mathrm{m/s^2}\\\\a_B=\\frac84=2\\,\\mathrm{m/s^2}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Vagn A.</p></div>",
+    "ledtrad": "<p>Jämför a = F/m för de två vagnarna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Vagn A.",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "Vagn B.",
+        "ratt": false,
+        "kommentar": "Samma kraft ger mindre acceleration på en större massa."
+      },
+      {
+        "txt": "De får lika stor acceleration.",
+        "ratt": false,
+        "kommentar": "Lika stora krafter ger bara samma acceleration om massorna är lika."
+      },
+      {
+        "txt": "Ingen av vagnarna accelererar.",
+        "ratt": false,
+        "kommentar": "Krafterna verkar på olika vagnar och tar inte ut varandra på en enskild vagn."
+      }
+    ],
+    "familjNyckel": "newton3__tredje_lagen_och_rorelse"
   }
 ];

@@ -51341,5 +51341,365 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Använd \\(mv^{\\prime}=-mg-kv\\) på vägen upp.</p>",
     "traningsniva": 5
+  },
+  {
+    "id": "1.792",
+    "kap": 1,
+    "omr": "kombinationer",
+    "familj": "Kombinationer och urval",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "välja metod för en grupp utan roller",
+    "t": "<p>Tre av sex elever ska väljas till en arbetsgrupp. Ingen får en särskild roll, och ordningen saknar betydelse. Vilket uttryck räknar antalet grupper? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2\"><p>Vi väljer vilka tre elever som ska vara med. Samma grupp ska räknas en gång oavsett i vilken ordning eleverna väljs. Därför används en kombination.</p><div class=\"facit-matte\">\\[\\binom63=20\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Uttrycket \\(\\binom63\\).</p></div>",
+    "ledtrad": "<p>Skulle samma tre elever bli en ny grupp om de valdes i en annan ordning?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(\\binom63\\)",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "\\(6\\cdot5\\cdot4\\)",
+        "ratt": false,
+        "kommentar": "Det räknar samma grupp i flera ordningar."
+      },
+      {
+        "txt": "\\(6^3\\)",
+        "ratt": false,
+        "kommentar": "Då kan samma elev väljas flera gånger."
+      },
+      {
+        "txt": "\\(3!\\)",
+        "ratt": false,
+        "kommentar": "Det ordnar tre redan valda elever."
+      }
+    ]
+  },
+  {
+    "id": "1.793",
+    "kap": 1,
+    "omr": "permutationer",
+    "familj": "Permutationer och ordnade urval",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "välja metod för olika roller",
+    "t": "<p>Bland sex elever ska en ordförande, en sekreterare och en kassör utses. En elev får bara en roll. Vilket uttryck räknar antalet sätt att fördela rollerna? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2\"><p>Rollerna är olika. Det finns sex val till den första rollen, fem till nästa och fyra till den sista. Att byta roller mellan två elever ger ett annat resultat.</p><div class=\"facit-matte\">\\[6\\cdot5\\cdot4=120\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Uttrycket \\(6\\cdot5\\cdot4\\).</p></div>",
+    "ledtrad": "<p>Är det samma resultat om ordföranden och kassören byter roller?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(6\\cdot5\\cdot4\\)",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "\\(\\binom63\\)",
+        "ratt": false,
+        "kommentar": "Det väljer en grupp men fördelar inte rollerna."
+      },
+      {
+        "txt": "\\(6^3\\)",
+        "ratt": false,
+        "kommentar": "Det tillåter att en elev får flera roller."
+      },
+      {
+        "txt": "\\(3!\\)",
+        "ratt": false,
+        "kommentar": "Det bortser från valet bland de sex eleverna."
+      }
+    ]
+  },
+  {
+    "id": "1.794",
+    "kap": 1,
+    "omr": "kombinationer",
+    "familj": "Kombinationer och urval",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "hitta dubbelräknade par",
+    "t": "<p>Två av eleverna A, B, C och D ska väljas till ett par utan olika roller. En elev skriver AB, BA, AC, CA, AD, DA, BC, CB, BD, DB, CD och DC. Hur många olika par finns egentligen?</p>",
+    "s": "<div class=\"facit-v2\"><p>AB och BA är samma par. Varje par har räknats två gånger. De olika paren är AB, AC, AD, BC, BD och CD.</p><div class=\"facit-matte\">\\[\\frac{12}{2}=6\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6 par.</p></div>",
+    "ledtrad": "<p>Jämför AB med BA när eleverna inte har olika roller.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.795",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "familj": "Multiplikations- och additionsprincipen",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "välja metod när kodtecken får upprepas",
+    "t": "<p>En kod har två platser. På varje plats får siffran vara 1, 2 eller 3. Samma siffra får användas på båda platserna. Vilket uttryck räknar antalet koder? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2\"><p>Det finns tre val på varje plats. Det första valet tar inte bort något val på den andra platsen.</p><div class=\"facit-matte\">\\[3\\cdot3=9\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Uttrycket \\(3^2\\).</p></div>",
+    "ledtrad": "<p>Hur många val finns kvar på den andra platsen?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(3^2\\)",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "\\(3\\cdot2\\)",
+        "ratt": false,
+        "kommentar": "Det skulle gälla om siffrorna måste vara olika."
+      },
+      {
+        "txt": "\\(3+3\\)",
+        "ratt": false,
+        "kommentar": "Varje val på första platsen kan kombineras med varje val på andra."
+      },
+      {
+        "txt": "\\(\\binom32\\)",
+        "ratt": false,
+        "kommentar": "Det skiljer inte mellan exempelvis 12 och 21."
+      }
+    ]
+  },
+  {
+    "id": "1.796",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "familj": "Multiplikations- och additionsprincipen",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "koder utan upprepade siffror",
+    "t": "<p>En kod har två platser och använder siffrorna 1, 2 och 3. De två siffrorna måste vara olika. Hur många koder finns? Koderna 12 och 21 räknas som olika.</p>",
+    "s": "<div class=\"facit-v2\"><p>Det finns tre val på första platsen. Den siffran får inte användas igen, så det finns två val på den andra platsen.</p><div class=\"facit-matte\">\\[3\\cdot2=6\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6 koder.</p></div>",
+    "ledtrad": "<p>Hur många siffror återstår efter det första valet?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.797",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "familj": "Multiplikations- och additionsprincipen",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "välja additionsprincipen för ett enda val",
+    "t": "<p>En kiosk säljer tre sorters juice och två sorters vatten. Du ska välja en enda dryck. Vilket uttryck räknar dina olika val? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2\"><p>Du väljer antingen en juice eller ett vatten, inte båda. De två grupperna av val ska därför läggas ihop.</p><div class=\"facit-matte\">\\[3+2=5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Uttrycket \\(3+2\\).</p></div>",
+    "ledtrad": "<p>Gör du ett enda val eller ett val ur varje grupp?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(3+2\\)",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "\\(3\\cdot2\\)",
+        "ratt": false,
+        "kommentar": "Det skulle räkna par med en juice och ett vatten."
+      },
+      {
+        "txt": "\\(3^2\\)",
+        "ratt": false,
+        "kommentar": "Du väljer inte två gånger bland juicesorterna."
+      },
+      {
+        "txt": "\\(2^3\\)",
+        "ratt": false,
+        "kommentar": "Det finns inte tre val med två alternativ i varje."
+      }
+    ]
+  },
+  {
+    "id": "1.798",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "familj": "Multiplikations- och additionsprincipen",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "hitta felaktig addition i valtabell",
+    "t": "<p>Du väljer ett av tre bröd A, B och C och ett av två pålägg X och Y. Alla kombinationer går att välja. En elev räknar 3 + 2 = 5 smörgåsar. Hur många olika smörgåsar finns egentligen?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En valtabell med tre brödsorter A, B, C och två pålägg X, Y.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"230\" y=\"22\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Pålägg</text><text x=\"40\" y=\"22\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Bröd</text><text x=\"160\" y=\"48\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">X</text><text x=\"300\" y=\"48\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Y</text><rect x=\"90\" y=\"65\" width=\"280\" height=\"150\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"230\" y1=\"65\" x2=\"230\" y2=\"215\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"90\" y1=\"115\" x2=\"370\" y2=\"115\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"90\" y1=\"165\" x2=\"370\" y2=\"165\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"50\" y=\"96\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"160\" y=\"96\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">AX</text><text x=\"300\" y=\"96\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">AY</text><text x=\"50\" y=\"146\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"160\" y=\"146\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">BX</text><text x=\"300\" y=\"146\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">BY</text><text x=\"50\" y=\"196\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">C</text><text x=\"160\" y=\"196\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">CX</text><text x=\"300\" y=\"196\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">CY</text></g></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Varje bröd kan kombineras med båda påläggen. Tabellen visar två val för var och en av de tre brödsorterna.</p><div class=\"facit-matte\">\\[3\\cdot2=6\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6 smörgåsar.</p></div>",
+    "ledtrad": "<p>Räkna ett påläggsval för varje brödsort.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.799",
+    "kap": 1,
+    "omr": "kombinationer",
+    "familj": "Kombinationer och urval",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "urval med en bestämd person",
+    "t": "<p>Tre av fem elever ska väljas till en grupp utan olika roller. Alva måste vara med. Hur många olika grupper kan bildas?</p>",
+    "s": "<div class=\"facit-v2\"><p>Alva fyller redan en plats. Välj de två andra eleverna bland de fyra återstående. Att välja tre bland alla fem skulle även räkna grupper utan Alva.</p><div class=\"facit-matte\">\\[\\binom42=6\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6 grupper.</p></div>",
+    "ledtrad": "<p>Hur många platser återstår när Alva redan är vald?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.800",
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "familj": "Multiplikations- och additionsprincipen",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "förklara skillnaden mellan kod och grupp",
+    "t": "<p>En tvåbokstavskod byggs med A och B. Bokstäver får upprepas. En elev räknar AA, AB och BB, men säger att BA redan räknats som AB. Vilken förklaring visar felet? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2\"><p>I en kod spelar platsen roll. AB och BA är därför olika koder. Alla fyra koder är AA, AB, BA och BB.</p><p class=\"facit-svar\"><strong>Svar:</strong> AB och BA är olika eftersom bokstäverna står på olika platser.</p></div>",
+    "ledtrad": "<p>Jämför första bokstaven i AB med första bokstaven i BA.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "AB och BA är olika eftersom bokstäverna står på olika platser.",
+        "ratt": true,
+        "kommentar": ""
+      },
+      {
+        "txt": "Bokstäver får aldrig upprepas i en kod.",
+        "ratt": false,
+        "kommentar": "Frågan säger uttryckligen att de får upprepas."
+      },
+      {
+        "txt": "En kod räknas bara om den bildar ett riktigt ord.",
+        "ratt": false,
+        "kommentar": "En bokstavskod behöver inte vara ett ord."
+      },
+      {
+        "txt": "AA och BB är samma kod.",
+        "ratt": false,
+        "kommentar": "De använder olika bokstäver."
+      }
+    ]
+  },
+  {
+    "id": "1.801",
+    "kap": 1,
+    "omr": "kombinatorik_sannolikhet",
+    "familj": "Kombinatorisk sannolikhet",
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "upptäcka ändrad sannolikhet utan återläggning",
+    "t": "<p>En påse innehåller två röda och två blå kulor. Du drar två kulor slumpmässigt utan att lägga tillbaka den första. En elev räknar sannolikheten för två röda som 1/2 · 1/2. Vad är den korrekta sannolikheten? Svara med bråk, decimaltal eller procent.</p>",
+    "s": "<div class=\"facit-v2\"><p>Första kulan är röd med sannolikheten 2/4. Efter ett rött drag finns bara en röd kula bland tre kvarvarande. Sannolikheten ändras därför vid det andra draget.</p><div class=\"facit-matte\">\\[P=\\frac24\\cdot\\frac13=\\frac16\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1/6 ≈ 0,167 ≈ 16,7 %.</p></div>",
+    "ledtrad": "<p>Hur många röda kulor finns kvar efter att den första röda kulan tagits bort?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/6",
+    "tolerans": null,
+    "svarFormat": "sannolikhet"
   }
 ];

@@ -267,3 +267,14 @@ test('Värmekorten använder samma svarsenheter som självrättningen',()=>{
   assert.match(time.t,/868 320 J/);assert.doesNotMatch(time.t,/1005|12 m³/);
 });
 function cxtPhysicsCards(id){return c.expandGameTask(bank('uppgifter.js').find(q=>q.id===id));}
+
+
+test('Mato1:s reviderade tangent, exponentialfunktion och integral har korrekta svarsfält',()=>{
+ for(const [id,values]of [['2.254',[2,1]],['2.309',[2,2]],['3.481',[1,2]]]){
+  const qs=cards(id);assert.equal(qs.length,2);
+  qs.forEach((q,i)=>{assert.equal(q.traningsniva,values[i]);assert.equal(c.answerLayout(q).n,1);assert.equal(c.expectedAnswersForTask(q).auto,true);assert.equal(c.answerLayout(q).blandad,false);});
+ }
+ assert.deepEqual(plain(cards('3.481').map(q=>q.manuellKomplettering)),[false,false]);
+ assert.deepEqual(plain(cards('2.254').map(q=>q.rättSvar)),['6e^(2x)+5e^(-x)',11]);
+ assert.deepEqual(plain(cards('2.309').map(q=>q.rättSvar)),[9,'y=9x-16']);
+});

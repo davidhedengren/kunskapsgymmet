@@ -3833,7 +3833,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-08-nya-figurer-variation";
+const BANK_VERSION="2026-10-08-mato1-kalibrering";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9458,6 +9458,120 @@ function sammaForenkladePolynom(a,b){
   return true;
 }
 
+function faktoriseratSvarRatt(anv,facit){
+  if(algebraisktLika(anv,facit)!==true || typeof nerdamer==="undefined") return false;
+  const uttryck=s=>tillNerdamer(normalizeMathInput(hogerled(s))).replace(/\s+/g,"");
+  const yttreParentes=s=>{
+    while(s.startsWith("(") && s.endsWith(")")){
+      let djup=0,hela=true;
+      for(let i=0;i<s.length;i++){
+        if(s[i]==="(") djup++; else if(s[i]===")") djup--;
+        if(djup===0 && i<s.length-1){ hela=false; break; }
+      }
+      if(!hela) break;
+      s=s.slice(1,-1);
+    }
+    return s;
+  };
+  const faktorer=s=>{
+    s=yttreParentes(yttreParentes(s).replace(/^[+-]+/,""));
+    let djupSumma=0;
+    for(let i=0;i<s.length;i++){
+      if(s[i]==="(") djupSumma++; else if(s[i]===")") djupSumma--;
+      else if(djupSumma===0 && (s[i]==="+" || s[i]==="-") && i>0 && !/[e^*/+-]/.test(s[i-1])) return [s];
+    }
+    const delar=[]; let djup=0,start=0;
+    for(let i=0;i<s.length;i++){
+      if(s[i]==="(") djup++; else if(s[i]===")") djup--;
+      else if(djup===0 && (s[i]==="*" || s[i]==="/")){
+        delar.push(...faktorer(s.slice(start,i)));
+        if(s[i]==="/"){
+          const slut=s.slice(i+1);
+          // Ett polynom faktoriseras inte genom att dela med en variabelfaktor.
+          if(nerdamer(slut).variables().length || !Number.isFinite(numericValue(slut)) || numericValue(slut)===0) throw Error("Variabel i nämnaren");
+          return delar;
+        }
+        start=i+1;
+      }
+    }
+    if(delar.length) return delar.concat(faktorer(s.slice(start)));
+    const potens=s.match(/^(.+)\^\(?([1-9]\d*)\)?$/);
+    return potens ? faktorer(potens[1]) : [s];
+  };
+  const grad=s=>{
+    let p=nerdamer(s);
+    for(let n=0;n<=12;n++){
+      if(!p.variables().length) return n;
+      if(p.variables().some(v=>v!=="x")) throw Error("Okänd variabel");
+      p=nerdamer.diff(p,"x");
+    }
+    throw Error("Ingen polynomfaktor");
+  };
+  try{
+    // Summan måste först skrivas som en produkt. Även 4x + 8 har grad 1.
+    const produkt=s=>{
+      s=yttreParentes(yttreParentes(s).replace(/^[+-]+/,""));
+      let djup=0;
+      for(let i=0;i<s.length;i++){
+        if(s[i]==="(") djup++; else if(s[i]===")") djup--;
+        else if(djup===0 && (s[i]==="+" || s[i]==="-") && i>0 && !/[e^*/+-]/.test(s[i-1])) return false;
+      }
+      return true;
+    };
+    if(!produkt(uttryck(anv))) return false;
+    const facitGrad=Math.max(...faktorer(uttryck(facit)).map(grad));
+    return faktorer(uttryck(anv)).every(f=>grad(f)<=facitGrad);
+  }catch(_){ return false; }
+}
+
+function funktionsuttryckRatt(anv,facit){
+  const a=latexToPlain(hogerled(anv)),f=latexToPlain(hogerled(facit));
+  // Ersätt varje funktionsvärde med en egen symbol. f(a+h) är inte f*(a+h).
+  const lediga=[..."uvwxyzijklmnopqrst"].filter(c=>!(`${a}${f}`).includes(c));
+  const varden=[];
+  const byt=(text,skapa)=>{
+    const re=/(?<![a-zA-Z])([a-zA-Z])\s*\(/g;let out="",start=0,m;
+    while((m=re.exec(text))){
+      let djup=1,j=re.lastIndex;
+      for(;j<text.length && djup;j++){
+        if(text[j]==="(") djup++; else if(text[j]===")") djup--;
+      }
+      if(djup) throw Error("Ofullständigt funktionsvärde");
+      const arg=text.slice(re.lastIndex,j-1);
+      let k=varden.findIndex(v=>v.namn===m[1] && algebraisktLika(arg,v.arg)===true);
+      if(k<0){
+        if(!skapa || !lediga.length) throw Error("Annat funktionsvärde");
+        k=varden.push({namn:m[1],arg,symbol:lediga.shift()})-1;
+      }
+      out+=text.slice(start,m.index)+varden[k].symbol;start=j;re.lastIndex=j;
+    }
+    return out+text.slice(start);
+  };
+  try{
+    const ff=byt(f,true),aa=byt(a,false);
+    return varden.length>0 && algebraisktLika(aa,ff)===true;
+  }catch(_){ return false; }
+}
+
+function primitivaSvarRatt(anv,facit){
+  if(typeof nerdamer==="undefined") return false;
+  try{
+    const a=nerdamer(tillNerdamer(normalizeMathInput(hogerled(anv))));
+    const f=nerdamer(tillNerdamer(normalizeMathInput(hogerled(facit))));
+    const ac=a.variables().filter(v=>/^[A-WYZa-wyz]$/.test(v));
+    const fc=f.variables().filter(v=>/^[A-WYZa-wyz]$/.test(v));
+    if(ac.length!==1 || fc.length!==1) return false;
+    const bas=f.sub(fc[0],0);
+    const konstant=nerdamer.simplify(nerdamer(`(${a})-(${bas})`).expand());
+    if(konstant.variables().some(v=>v!==ac[0])) return false;
+    // Alla primitiva funktioner behöver en fri konstant som kan anta alla värden.
+    // K + 7 och 2K fungerar; sin(K) och K² ger inte hela familjen.
+    const faktor=nerdamer.diff(konstant,ac[0]);
+    return faktor.variables().length===0 && Number.isFinite(numericValue(faktor.toString()))
+      && numericValue(faktor.toString())!==0;
+  }catch(_){ return false; }
+}
+
 function formatRatt(anv,facit,meta){
   const format=String(meta.format||"").toLowerCase();
   const tol=meta.tolerans;
@@ -9589,9 +9703,23 @@ function formatRatt(anv,facit,meta){
       }
       return textNyckel(a)===textNyckel(f);
     }
-    /* "Bestäm en primitiv funktion": ett specifikt uttryck, med eller utan en bestämd talkonstant.
-       En symbolisk konstant (+C) beskriver alla primitiva funktioner och godtas därför inte. */
+    case "faktoriserat":
+      return faktoriseratSvarRatt(a,f);
+    case "funktionsuttryck":
+      return funktionsuttryckRatt(a,f);
+    case "primitiva":
+      return primitivaSvarRatt(a,f);
+    /* En integrationskonstant får stå var som helst i en primitiv funktion.
+       Villkorsbestämda funktioner använder uttryck och behåller sin konstant. */
     case "primitiv": {
+      if(typeof nerdamer!=="undefined"){
+        try{
+          const aa=tillNerdamer(normalizeMathInput(hogerled(a)));
+          const ff=tillNerdamer(normalizeMathInput(hogerled(f)));
+          const skillnad=nerdamer.simplify(nerdamer(`(${aa})-(${ff})`).expand());
+          return skillnad.variables().every(v=>/^[A-WYZa-wyz]$/.test(v));
+        }catch(_){ return false; }
+      }
       const slutTal=/(?<![\^*\/(])[+-]\s*\d+(?:[.,]\d+)?\s*$/;
       const utanTal=x=>hogerled(x).replace(slutTal,"");
       const r=algebraisktLika(utanTal(a),utanTal(f));
@@ -9769,7 +9897,7 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   }
   /* Decimalform kräver den angivna representationen och målenheten.
      Kontrollera detta innan generella tal- och enhetsgenvägar prövas. */
-  if(format==="decimalform")
+  if(["decimalform","faktoriserat","funktionsuttryck","primitiv","primitiva"].includes(format))
     return formatRatt(enhetMedOrd(anv),facit,{format,tolerans:tol,enhet});
   /* Med svarsenheten % lagras facit i procent. Ett uttryckligt %-tecken
      får inte tas bort och därefter skalas igen av den generella talrättningen. */

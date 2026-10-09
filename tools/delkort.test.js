@@ -19,6 +19,26 @@ const ma3=bank('uppgiftermato1.js'),ma5=bank('uppgiftermatf1.js');
 const cards=id=>c.expandGameTask(ma3.find(q=>q.id===id));
 const plain=x=>JSON.parse(JSON.stringify(x));
 
+test('Grafuppgiften 2.374 har tre självständiga kort utan gemensamt facit',()=>{
+  const parts=cards('2.374');
+  assert.equal(parts.length,3);
+  assert.deepEqual(plain(parts[0].rättSvar),[-1,1]);
+  assert.equal(c.answerLayout(parts[0]).n,2);
+  assert.equal(parts[0].svarsstruktur,'mängd');
+  for(const q of parts){assert.match(q.t,/<svg/);assert.ok(q.s&&q.ledtrad);}
+  assert.doesNotMatch(parts[0].s,/maximipunkt|minimipunkt|växande|avtagande/);
+  assert.doesNotMatch(parts[1].s,/maximipunkt|minimipunkt/);
+  assert.equal(parts[1].självrättning,false);
+  assert.equal(parts[2].självrättning,false);
+});
+
+test('2.562 använder uttrycksrättning som godtar en funktionsetikett',()=>{
+  const q=ma3.find(q=>q.id==='2.562');
+  assert.equal(q.svarFormat,'uttryck');
+  assert.equal(q.rättSvar,'e^x+e');
+  assert.equal(c.answerLayout(q).n,1);
+});
+
 test('Ma2 2.146 b har en symmetrilinje som ekvationssvar i ett eget kort',()=>{
   const q=bank('uppgifterma2.js').find(q=>q.id==='2.146');
   const [a,b,last]=c.expandGameTask(q);

@@ -140311,5 +140311,3992 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
+  },
+{
+  "id": "0.1079",
+  "kap": 0,
+  "omr": "tal_rakneordning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "4/0/0",
+  "t": "<p>a) \\(16-3\\cdot4\\)</p><p>b) \\((-4)\\cdot(-5)-7\\)</p><p>c) \\(100-11+4\\cdot2\\)</p><p>d) \\(\\frac{-24}{-6}+(-3)\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Multiplikationen räknas först: \\(3\\cdot4=12\\). \\(16-12=4\\).</p><p>b) Två negativa faktorer ger en positiv produkt: \\((-4)\\cdot(-5)=20\\). Sedan är \\(20-7=13\\).</p><p>c) Börja med \\(4\\cdot2=8\\). Räkna sedan från vänster: \\(100-11+8=89+8=97\\).</p><p>d) Kvoten av två negativa tal är positiv: \\(\\frac{-24}{-6}=4\\). Därefter är \\(4+(-3)=1\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\), \\(13\\), \\(97\\), \\(1\\)</p></div>",
+  "familj": "Räkneordning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4,
+    13,
+    97,
+    1
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Räkna multiplikation och division först.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 1,
+    "variant": 0
+  },
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Beräkna</p>\\[16-3\\cdot4\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplikationen räknas först: \\(3\\cdot4=12\\). \\(16-12=4\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Beräkna</p>\\[(-4)\\cdot(-5)-7\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Två negativa faktorer ger en positiv produkt: \\((-4)\\cdot(-5)=20\\). Sedan är \\(20-7=13\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Beräkna</p>\\[100-11+4\\cdot2\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(4\\cdot2=8\\). Räkna sedan från vänster: \\(100-11+8=89+8=97\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(97\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "d",
+      "t": "<p>Beräkna</p>\\[\\frac{-24}{-6}+(-3)\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kvoten av två negativa tal är positiv: \\(\\frac{-24}{-6}=4\\). Därefter är \\(4+(-3)=1\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    }
+  ]
+},
+{
+  "id": "0.1080",
+  "kap": 0,
+  "omr": "tal_rakneordning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "4/0/0",
+  "t": "<p>a) \\(18-2\\cdot6\\)</p><p>b) \\((-3)\\cdot(-6)-8\\)</p><p>c) \\(50-7+3\\cdot4\\)</p><p>d) \\(\\frac{-30}{-5}+(-2)\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Börja med \\(2\\cdot6=12\\). Sedan är \\(18-12=6\\).</p><p>b) Två negativa faktorer ger en positiv produkt: \\((-3)\\cdot(-6)=18\\). Sedan är \\(18-8=10\\).</p><p>c) Börja med \\(3\\cdot4=12\\). Då blir \\(50-7+12=43+12=55\\).</p><p>d) Kvoten av två negativa tal är positiv: \\(\\frac{-30}{-5}=6\\). Därefter är \\(6+(-2)=4\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\), \\(10\\), \\(55\\), \\(4\\)</p></div>",
+  "familj": "Räkneordning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    6,
+    10,
+    55,
+    4
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Räkna multiplikation och division först.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 1,
+    "variant": 1
+  },
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Beräkna</p>\\[18-2\\cdot6\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(2\\cdot6=12\\). Sedan är \\(18-12=6\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Beräkna</p>\\[(-3)\\cdot(-6)-8\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Två negativa faktorer ger en positiv produkt: \\((-3)\\cdot(-6)=18\\). Sedan är \\(18-8=10\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Beräkna</p>\\[50-7+3\\cdot4\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(3\\cdot4=12\\). Då blir \\(50-7+12=43+12=55\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(55\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "d",
+      "t": "<p>Beräkna</p>\\[\\frac{-30}{-5}+(-2)\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kvoten av två negativa tal är positiv: \\(\\frac{-30}{-5}=6\\). Därefter är \\(6+(-2)=4\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    }
+  ]
+},
+{
+  "id": "0.1081",
+  "kap": 0,
+  "omr": "tal_rakneordning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "4/0/0",
+  "t": "<p>a) \\(24-4\\cdot5\\)</p><p>b) \\((-6)\\cdot(-4)-9\\)</p><p>c) \\(80-13+5\\cdot3\\)</p><p>d) \\(\\frac{-42}{-7}+(-4)\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Börja med \\(4\\cdot5=20\\). Sedan är \\(24-20=4\\).</p><p>b) Två negativa faktorer ger en positiv produkt: \\((-6)\\cdot(-4)=24\\). Sedan är \\(24-9=15\\).</p><p>c) Börja med \\(5\\cdot3=15\\). Då blir \\(80-13+15=67+15=82\\).</p><p>d) Kvoten av två negativa tal är positiv: \\(\\frac{-42}{-7}=6\\). Därefter är \\(6+(-4)=2\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\), \\(15\\), \\(82\\), \\(2\\)</p></div>",
+  "familj": "Räkneordning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4,
+    15,
+    82,
+    2
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Räkna multiplikation och division först.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 1,
+    "variant": 2
+  },
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Beräkna</p>\\[24-4\\cdot5\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(4\\cdot5=20\\). Sedan är \\(24-20=4\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Beräkna</p>\\[(-6)\\cdot(-4)-9\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Två negativa faktorer ger en positiv produkt: \\((-6)\\cdot(-4)=24\\). Sedan är \\(24-9=15\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Beräkna</p>\\[80-13+5\\cdot3\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(5\\cdot3=15\\). Då blir \\(80-13+15=67+15=82\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(82\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "d",
+      "t": "<p>Beräkna</p>\\[\\frac{-42}{-7}+(-4)\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kvoten av två negativa tal är positiv: \\(\\frac{-42}{-7}=6\\). Därefter är \\(6+(-4)=2\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
+      "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    }
+  ]
+},
+{
+  "id": "0.1082",
+  "kap": 0,
+  "omr": "negativa_tal",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Temperaturen i ett kallt förråd är -5 °C på morgonen. Den stiger 12 °C och sjunker sedan 8 °C. Vilken temperatur blir det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg till ökningen och dra bort minskningen:</p>\\[-5+12-8=7-8=-1\\]<p class=\"facit-svar\"><strong>Svar:</strong> -1 °C</p></div>",
+  "familj": "Beräkna med negativa tal",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": -1,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>En temperaturökning läggs till. En minskning dras bort.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 2,
+    "variant": 0
+  },
+  "svarEnhet": "°C"
+},
+{
+  "id": "0.1083",
+  "kap": 0,
+  "omr": "negativa_tal",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Temperaturen i en frys är -12 °C på morgonen. Den stiger 7 °C och sjunker sedan 5 °C. Vilken temperatur blir det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg till ökningen och dra bort minskningen:</p>\\[-12+7-5=-5-5=-10\\]<p class=\"facit-svar\"><strong>Svar:</strong> -10 °C</p></div>",
+  "familj": "Beräkna med negativa tal",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": -10,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>En temperaturökning läggs till. En minskning dras bort.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 2,
+    "variant": 1
+  },
+  "svarEnhet": "°C"
+},
+{
+  "id": "0.1084",
+  "kap": 0,
+  "omr": "negativa_tal",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Temperaturen utomhus är -8 °C på morgonen. Den stiger 11 °C och sjunker sedan 6 °C. Vilken temperatur blir det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg till ökningen och dra bort minskningen:</p>\\[-8+11-6=3-6=-3\\]<p class=\"facit-svar\"><strong>Svar:</strong> -3 °C</p></div>",
+  "familj": "Beräkna med negativa tal",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": -3,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>En temperaturökning läggs till. En minskning dras bort.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 2,
+    "variant": 2
+  },
+  "svarEnhet": "°C"
+},
+{
+  "id": "0.1085",
+  "kap": 0,
+  "omr": "avrundning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Avrunda 5,7362 till en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Titta på siffran direkt efter den sista decimal som ska behållas. Är den 5 eller större höjs den sista behållna siffran med 1. Annars behålls den.</p><p>Här blir det 5,7.</p><p class=\"facit-svar\"><strong>Svar:</strong> 5,7</p></div>",
+  "familj": "Avrunda och tolka avrundning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5.7,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "ledtrad": "<p>Vilken siffra står direkt efter den sista decimal du ska behålla?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 3,
+    "variant": 0
   }
+},
+{
+  "id": "0.1086",
+  "kap": 0,
+  "omr": "avrundning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Avrunda 8,264 till en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Titta på siffran direkt efter den sista decimal som ska behållas. Är den 5 eller större höjs den sista behållna siffran med 1. Annars behålls den.</p><p>Här blir det 8,3.</p><p class=\"facit-svar\"><strong>Svar:</strong> 8,3</p></div>",
+  "familj": "Avrunda och tolka avrundning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 8.3,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "ledtrad": "<p>Vilken siffra står direkt efter den sista decimal du ska behålla?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 3,
+    "variant": 1
+  }
+},
+{
+  "id": "0.1087",
+  "kap": 0,
+  "omr": "avrundning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Avrunda 12,4586 till två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Titta på siffran direkt efter den sista decimal som ska behållas. Är den 5 eller större höjs den sista behållna siffran med 1. Annars behålls den.</p><p>Här blir det 12,46.</p><p class=\"facit-svar\"><strong>Svar:</strong> 12,46</p></div>",
+  "familj": "Avrunda och tolka avrundning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.46,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "ledtrad": "<p>Vilken siffra står direkt efter den sista decimal du ska behålla?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 3,
+    "variant": 2
+  }
+},
+{
+  "id": "0.1088",
+  "kap": 0,
+  "omr": "decimaltal_positionssystem",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Skriv talen i storleksordning. Börja med det minsta.</p>\\[0{,}7\\qquad0{,}07\\qquad0{,}707\\qquad0{,}77\\]",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv talen med tre decimaler och jämför från vänster:</p>\\[0{,}070\\lt0{,}700\\lt0{,}707\\lt0{,}770\\]<p class=\"facit-svar\"><strong>Svar:</strong> 0,07, 0,7, 0,707, 0,77</p></div>",
+  "familj": "Jämföra decimaltal",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.07,
+    0.7,
+    0.707,
+    0.77
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "decimalform",
+    "decimalform",
+    "decimalform",
+    "decimalform"
+  ],
+  "ledtrad": "<p>Skriv talen med lika många decimaler utan att ändra deras värden.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 4,
+    "variant": 0
+  },
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Minst",
+    "Näst minst",
+    "Näst störst",
+    "Störst"
+  ]
+},
+{
+  "id": "0.1089",
+  "kap": 0,
+  "omr": "decimaltal_positionssystem",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Skriv talen i storleksordning. Börja med det minsta.</p>\\[0{,}4\\qquad0{,}04\\qquad0{,}404\\qquad0{,}44\\]",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv talen med tre decimaler och jämför från vänster:</p>\\[0{,}040\\lt0{,}400\\lt0{,}404\\lt0{,}440\\]<p class=\"facit-svar\"><strong>Svar:</strong> 0,04, 0,4, 0,404, 0,44</p></div>",
+  "familj": "Jämföra decimaltal",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.04,
+    0.4,
+    0.404,
+    0.44
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "decimalform",
+    "decimalform",
+    "decimalform",
+    "decimalform"
+  ],
+  "ledtrad": "<p>Skriv talen med lika många decimaler utan att ändra deras värden.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 4,
+    "variant": 1
+  },
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Minst",
+    "Näst minst",
+    "Näst störst",
+    "Störst"
+  ]
+},
+{
+  "id": "0.1090",
+  "kap": 0,
+  "omr": "decimaltal_positionssystem",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Skriv talen i storleksordning. Börja med det minsta.</p>\\[1{,}2\\qquad1{,}02\\qquad1{,}202\\qquad1{,}22\\]",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv talen med tre decimaler och jämför från vänster:</p>\\[1{,}020\\lt1{,}200\\lt1{,}202\\lt1{,}220\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1,02, 1,2, 1,202, 1,22</p></div>",
+  "familj": "Jämföra decimaltal",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1.02,
+    1.2,
+    1.202,
+    1.22
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "decimalform",
+    "decimalform",
+    "decimalform",
+    "decimalform"
+  ],
+  "ledtrad": "<p>Skriv talen med lika många decimaler utan att ändra deras värden.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 4,
+    "variant": 2
+  },
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Minst",
+    "Näst minst",
+    "Näst störst",
+    "Störst"
+  ]
+},
+{
+  "id": "0.1091",
+  "kap": 0,
+  "omr": "overslag_grunder",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En meter rör kostar 59,9 kr. Gör ett överslag av vad 31 meter kostar. Avrunda båda talen till tiotal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Priset avrundas till 60 kr per meter och längden till 30 meter.</p>\\[60\\cdot30=1800\\]<p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1800 kr.</p></div>",
+  "familj": "Överslag i vardagen",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1800,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Avrunda priset och längden var för sig innan du multiplicerar.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 5,
+    "variant": 0
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "0.1092",
+  "kap": 0,
+  "omr": "overslag_grunder",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En meter list kostar 28,8 kr. Gör ett överslag av vad 42 meter kostar. Avrunda båda talen till tiotal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Priset avrundas till 30 kr per meter och längden till 40 meter.</p>\\[30\\cdot40=1200\\]<p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1200 kr.</p></div>",
+  "familj": "Överslag i vardagen",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1200,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Avrunda priset och längden var för sig innan du multiplicerar.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 5,
+    "variant": 1
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "0.1093",
+  "kap": 0,
+  "omr": "overslag_grunder",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En meter kabel kostar 19,5 kr. Gör ett överslag av vad 18 meter kostar. Avrunda båda talen till tiotal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Priset avrundas till 20 kr per meter och längden till 20 meter.</p>\\[20\\cdot20=400\\]<p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 400 kr.</p></div>",
+  "familj": "Överslag i vardagen",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 400,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Avrunda priset och längden var för sig innan du multiplicerar.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 5,
+    "variant": 2
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "0.1094",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>a) \\(3{,}5\\,\\text{m}\\) = ______ cm</p><p>b) \\(750\\,\\text{ml}\\) = ______ dl</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) 1 m = 100 cm, så 3,5 · 100 = 350 cm.</p><p>b) 1 dl = 100 ml, så 750 / 100 = 7,5 dl.</p><p class=\"facit-svar\"><strong>Svar:</strong> 350 cm, 7,5 dl</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    350,
+    7.5
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "decimalform",
+    "decimalform"
+  ],
+  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 6,
+    "variant": 0
+  },
+  "svarEnhet": [
+    "cm",
+    "dl"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Omvandla \\(3{,}5\\,\\text{m}\\) till cm.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>1 m = 100 cm, så 3,5 · 100 = 350 cm.</p><p class=\"facit-svar\"><strong>Svar:</strong> 350 cm</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Omvandla \\(750\\,\\text{ml}\\) till dl.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>1 dl = 100 ml, så 750 / 100 = 7,5 dl.</p><p class=\"facit-svar\"><strong>Svar:</strong> 7,5 dl</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    }
+  ]
+},
+{
+  "id": "0.1095",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>a) \\(2{,}8\\,\\text{m}\\) = ______ cm</p><p>b) \\(650\\,\\text{ml}\\) = ______ dl</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) 1 m = 100 cm, så 2,8 · 100 = 280 cm.</p><p>b) 1 dl = 100 ml, så 650 / 100 = 6,5 dl.</p><p class=\"facit-svar\"><strong>Svar:</strong> 280 cm, 6,5 dl</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    280,
+    6.5
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "decimalform",
+    "decimalform"
+  ],
+  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 6,
+    "variant": 1
+  },
+  "svarEnhet": [
+    "cm",
+    "dl"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Omvandla \\(2{,}8\\,\\text{m}\\) till cm.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>1 m = 100 cm, så 2,8 · 100 = 280 cm.</p><p class=\"facit-svar\"><strong>Svar:</strong> 280 cm</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Omvandla \\(650\\,\\text{ml}\\) till dl.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>1 dl = 100 ml, så 650 / 100 = 6,5 dl.</p><p class=\"facit-svar\"><strong>Svar:</strong> 6,5 dl</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    }
+  ]
+},
+{
+  "id": "0.1096",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>a) \\(0{,}45\\,\\text{km}\\) = ______ m</p><p>b) \\(0{,}75\\,\\text{liter}\\) = ______ ml</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) 1 km = 1 000 m, så 0,45 · 1 000 = 450 m.</p><p>b) 1 liter = 1 000 ml, så 0,75 · 1 000 = 750 ml.</p><p class=\"facit-svar\"><strong>Svar:</strong> 450 m, 750 ml</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    450,
+    750
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "decimalform",
+    "decimalform"
+  ],
+  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 6,
+    "variant": 2
+  },
+  "svarEnhet": [
+    "m",
+    "ml"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Omvandla \\(0{,}45\\,\\text{km}\\) till m.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>1 km = 1 000 m, så 0,45 · 1 000 = 450 m.</p><p class=\"facit-svar\"><strong>Svar:</strong> 450 m</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Omvandla \\(0{,}75\\,\\text{liter}\\) till ml.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>1 liter = 1 000 ml, så 0,75 · 1 000 = 750 ml.</p><p class=\"facit-svar\"><strong>Svar:</strong> 750 ml</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    }
+  ]
+},
+{
+  "id": "0.1097",
+  "kap": 0,
+  "omr": "prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>a) \\(3{,}4\\,\\text{kW}\\) = ______ W</p><p>b) \\(6{,}2\\cdot10^{-2}\\,\\text{s}\\) = ______ ms</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Kilo betyder 1 000. Därför är 3,4 · 1 000 = 3 400 W.</p><p>b) Talet är 0,062 s. Eftersom 1 s = 1 000 ms blir det 0,062 · 1 000 = 62 ms.</p><p class=\"facit-svar\"><strong>Svar:</strong> 3400 W, 62 ms</p></div>",
+  "familj": "Prefix och enheter",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3400,
+    62
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "decimalform",
+    "decimalform"
+  ],
+  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 8,
+    "variant": 0
+  },
+  "svarEnhet": [
+    "W",
+    "ms"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Omvandla \\(3{,}4\\,\\text{kW}\\) till W.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kilo betyder 1 000. Därför är 3,4 · 1 000 = 3 400 W.</p><p class=\"facit-svar\"><strong>Svar:</strong> 3400 W</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Omvandla \\(6{,}2\\cdot10^{-2}\\,\\text{s}\\) till ms.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Talet är 0,062 s. Eftersom 1 s = 1 000 ms blir det 0,062 · 1 000 = 62 ms.</p><p class=\"facit-svar\"><strong>Svar:</strong> 62 ms</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 1
+    }
+  ]
+},
+{
+  "id": "0.1098",
+  "kap": 0,
+  "omr": "prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>a) \\(2{,}6\\,\\text{kW}\\) = ______ W</p><p>b) \\(4{,}8\\cdot10^{-2}\\,\\text{s}\\) = ______ ms</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Kilo betyder 1 000. Därför är 2,6 · 1 000 = 2 600 W.</p><p>b) Talet är 0,048 s. Det blir 0,048 · 1 000 = 48 ms.</p><p class=\"facit-svar\"><strong>Svar:</strong> 2600 W, 48 ms</p></div>",
+  "familj": "Prefix och enheter",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2600,
+    48
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "decimalform",
+    "decimalform"
+  ],
+  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 8,
+    "variant": 1
+  },
+  "svarEnhet": [
+    "W",
+    "ms"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Omvandla \\(2{,}6\\,\\text{kW}\\) till W.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kilo betyder 1 000. Därför är 2,6 · 1 000 = 2 600 W.</p><p class=\"facit-svar\"><strong>Svar:</strong> 2600 W</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Omvandla \\(4{,}8\\cdot10^{-2}\\,\\text{s}\\) till ms.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Talet är 0,048 s. Det blir 0,048 · 1 000 = 48 ms.</p><p class=\"facit-svar\"><strong>Svar:</strong> 48 ms</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 1
+    }
+  ]
+},
+{
+  "id": "0.1099",
+  "kap": 0,
+  "omr": "prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>a) \\(0{,}45\\,\\text{MW}\\) = ______ kW</p><p>b) \\(7{,}5\\cdot10^{-3}\\,\\text{s}\\) = ______ ms</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Mega betyder en miljon och kilo tusen. 1 MW = 1 000 kW, så 0,45 MW = 450 kW.</p><p>b) Talet är 0,0075 s. Det blir 0,0075 · 1 000 = 7,5 ms.</p><p class=\"facit-svar\"><strong>Svar:</strong> 450 kW, 7,5 ms</p></div>",
+  "familj": "Prefix och enheter",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    450,
+    7.5
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "decimalform",
+    "decimalform"
+  ],
+  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 8,
+    "variant": 2
+  },
+  "svarEnhet": [
+    "kW",
+    "ms"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Omvandla \\(0{,}45\\,\\text{MW}\\) till kW.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Mega betyder en miljon och kilo tusen. 1 MW = 1 000 kW, så 0,45 MW = 450 kW.</p><p class=\"facit-svar\"><strong>Svar:</strong> 450 kW</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 1,
+      "niva": "E",
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Omvandla \\(7{,}5\\cdot10^{-3}\\,\\text{s}\\) till ms.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Talet är 0,0075 s. Det blir 0,0075 · 1 000 = 7,5 ms.</p><p class=\"facit-svar\"><strong>Svar:</strong> 7,5 ms</p></div>",
+      "ledtrad": "<p>Hur många av den mindre enheten ryms i den större?</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 1
+    }
+  ]
+},
+{
+  "id": "0.1100",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Skriv \\(5{,}3\\cdot10^{3}\\) utan tiopotenser.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiopotensen betyder att decimaltecknet flyttas 3 steg åt höger.</p>\\[5{,}3\\cdot10^{3}=5300\\]<p class=\"facit-svar\"><strong>Svar:</strong> 5300</p></div>",
+  "familj": "Tiopotenser och grundpotensform",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5300.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "ledtrad": "<p>Är exponenten positiv eller negativ? Åt vilket håll flyttas decimaltecknet?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 7,
+    "variant": 0
+  }
+},
+{
+  "id": "0.1101",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Skriv \\(4{,}2\\cdot10^{4}\\) utan tiopotenser.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiopotensen betyder att decimaltecknet flyttas 4 steg åt höger.</p>\\[4{,}2\\cdot10^{4}=42000\\]<p class=\"facit-svar\"><strong>Svar:</strong> 42000</p></div>",
+  "familj": "Tiopotenser och grundpotensform",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 42000.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "ledtrad": "<p>Är exponenten positiv eller negativ? Åt vilket håll flyttas decimaltecknet?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 7,
+    "variant": 1
+  }
+},
+{
+  "id": "0.1102",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Skriv \\(7{,}6\\cdot10^{-3}\\) utan tiopotenser.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiopotensen betyder att decimaltecknet flyttas 3 steg åt vänster.</p>\\[7{,}6\\cdot10^{-3}=0{,}0076\\]<p class=\"facit-svar\"><strong>Svar:</strong> 0,0076</p></div>",
+  "familj": "Tiopotenser och grundpotensform",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.0076,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "ledtrad": "<p>Är exponenten positiv eller negativ? Åt vilket håll flyttas decimaltecknet?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 7,
+    "variant": 2
+  }
+},
+{
+  "id": "0.1103",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Beräkna och svara i enklaste bråkform.</p><p>a) \\(\\frac{2}{3}+\\frac{1}{6}\\)</p><p>b) \\(\\frac{3}{4}\\cdot\\frac{2}{7}\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a)</p><p>Skriv bråken med den gemensamma nämnaren 6:</p>\\[\\frac{2}{3}+\\frac{1}{6}=\\frac{4+1}{6}=\\frac{5}{6}\\]<p>b)</p><p>Multiplicera täljarna med varandra och nämnarna med varandra. Förkorta sedan:</p>\\[\\frac{3}{4}\\cdot\\frac{2}{7}=\\frac{6}{28}=\\frac{3}{14}\\]<p class=\"facit-svar\"><strong>Svar:</strong> a) \\(\\frac{5}{6}\\); b) \\(\\frac{3}{14}\\)</p></div>",
+  "familj": "Beräkningar med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "5/6",
+    "3/14"
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "forkortat_brak",
+    "forkortat_brak"
+  ],
+  "ledtrad": "<p>Vid addition och subtraktion behövs samma nämnare.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 9,
+    "variant": 0
+  },
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Beräkna och svara med ett förkortat bråk.</p>\\[\\frac{2}{3}+\\frac{1}{6}\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv bråken med den gemensamma nämnaren 6:</p>\\[\\frac{2}{3}+\\frac{1}{6}=\\frac{4+1}{6}=\\frac{5}{6}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\)</p></div>",
+      "ledtrad": "<p>Skriv bråken med samma nämnare.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Beräkna och svara med ett förkortat bråk.</p>\\[\\frac{3}{4}\\cdot\\frac{2}{7}\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera täljarna med varandra och nämnarna med varandra. Förkorta sedan:</p>\\[\\frac{3}{4}\\cdot\\frac{2}{7}=\\frac{6}{28}=\\frac{3}{14}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{14}\\)</p></div>",
+      "ledtrad": "<p>Multiplicera täljare och nämnare var för sig.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    }
+  ]
+},
+{
+  "id": "0.1104",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Beräkna och svara i enklaste bråkform.</p><p>a) \\(\\frac{1}{4}+\\frac{3}{8}\\)</p><p>b) \\(\\frac{2}{5}\\cdot\\frac{3}{4}\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a)</p><p>Skriv bråken med den gemensamma nämnaren 8:</p>\\[\\frac{1}{4}+\\frac{3}{8}=\\frac{2+3}{8}=\\frac{5}{8}\\]<p>b)</p><p>Multiplicera täljarna med varandra och nämnarna med varandra. Förkorta sedan:</p>\\[\\frac{2}{5}\\cdot\\frac{3}{4}=\\frac{6}{20}=\\frac{3}{10}\\]<p class=\"facit-svar\"><strong>Svar:</strong> a) \\(\\frac{5}{8}\\); b) \\(\\frac{3}{10}\\)</p></div>",
+  "familj": "Beräkningar med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "5/8",
+    "3/10"
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "forkortat_brak",
+    "forkortat_brak"
+  ],
+  "ledtrad": "<p>Vid addition och subtraktion behövs samma nämnare.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 9,
+    "variant": 1
+  },
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Beräkna och svara med ett förkortat bråk.</p>\\[\\frac{1}{4}+\\frac{3}{8}\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv bråken med den gemensamma nämnaren 8:</p>\\[\\frac{1}{4}+\\frac{3}{8}=\\frac{2+3}{8}=\\frac{5}{8}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\)</p></div>",
+      "ledtrad": "<p>Skriv bråken med samma nämnare.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Beräkna och svara med ett förkortat bråk.</p>\\[\\frac{2}{5}\\cdot\\frac{3}{4}\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera täljarna med varandra och nämnarna med varandra. Förkorta sedan:</p>\\[\\frac{2}{5}\\cdot\\frac{3}{4}=\\frac{6}{20}=\\frac{3}{10}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{10}\\)</p></div>",
+      "ledtrad": "<p>Multiplicera täljare och nämnare var för sig.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    }
+  ]
+},
+{
+  "id": "0.1105",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Beräkna och svara i enklaste bråkform.</p><p>a) \\(\\frac{5}{6}-\\frac{1}{4}\\)</p><p>b) \\(\\frac{3}{7}\\cdot\\frac{14}{15}\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a)</p><p>Skriv bråken med den gemensamma nämnaren 12:</p>\\[\\frac{5}{6}-\\frac{1}{4}=\\frac{10-3}{12}=\\frac{7}{12}\\]<p>b)</p><p>Multiplicera täljarna med varandra och nämnarna med varandra. Förkorta sedan:</p>\\[\\frac{3}{7}\\cdot\\frac{14}{15}=\\frac{42}{105}=\\frac{2}{5}\\]<p class=\"facit-svar\"><strong>Svar:</strong> a) \\(\\frac{7}{12}\\); b) \\(\\frac{2}{5}\\)</p></div>",
+  "familj": "Beräkningar med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "7/12",
+    "2/5"
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "forkortat_brak",
+    "forkortat_brak"
+  ],
+  "ledtrad": "<p>Vid addition och subtraktion behövs samma nämnare.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 9,
+    "variant": 2
+  },
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Beräkna och svara med ett förkortat bråk.</p>\\[\\frac{5}{6}-\\frac{1}{4}\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv bråken med den gemensamma nämnaren 12:</p>\\[\\frac{5}{6}-\\frac{1}{4}=\\frac{10-3}{12}=\\frac{7}{12}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\)</p></div>",
+      "ledtrad": "<p>Skriv bråken med samma nämnare.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Beräkna och svara med ett förkortat bråk.</p>\\[\\frac{3}{7}\\cdot\\frac{14}{15}\\]",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera täljarna med varandra och nämnarna med varandra. Förkorta sedan:</p>\\[\\frac{3}{7}\\cdot\\frac{14}{15}=\\frac{42}{105}=\\frac{2}{5}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{5}\\)</p></div>",
+      "ledtrad": "<p>Multiplicera täljare och nämnare var för sig.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    }
+  ]
+},
+{
+  "id": "0.1106",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Hur många procent är 15 av 60?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera delen med det hela och multiplicera med 100:</p>\\[\\frac{15}{60}\\cdot100=25\\,\\%\\]<p class=\"facit-svar\"><strong>Svar:</strong> 25 %</p></div>",
+  "familj": "Andelar i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 25.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Vilket tal är delen och vilket är det hela?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 10,
+    "variant": 0
+  },
+  "svarEnhet": "%"
+},
+{
+  "id": "0.1107",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Hur många procent är 18 av 72?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera delen med det hela och multiplicera med 100:</p>\\[\\frac{18}{72}\\cdot100=25\\,\\%\\]<p class=\"facit-svar\"><strong>Svar:</strong> 25 %</p></div>",
+  "familj": "Andelar i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 25.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Vilket tal är delen och vilket är det hela?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 10,
+    "variant": 1
+  },
+  "svarEnhet": "%"
+},
+{
+  "id": "0.1108",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Hur många procent är 21 av 140?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera delen med det hela och multiplicera med 100:</p>\\[\\frac{21}{140}\\cdot100=15\\,\\%\\]<p class=\"facit-svar\"><strong>Svar:</strong> 15 %</p></div>",
+  "familj": "Andelar i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 15.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Vilket tal är delen och vilket är det hela?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 10,
+    "variant": 2
+  },
+  "svarEnhet": "%"
+},
+{
+  "id": "0.1109",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Skriv 0,00062 i grundpotensform.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>I grundpotensform står ett tal mellan 1 och 10 framför tiopotensen.</p><p>Decimaltecknet flyttas 4 steg åt höger, så exponenten blir negativ.</p>\\[0{,}00062=6{,}2\\cdot10^{-4}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\cdot10^{-4}\\)</p></div>",
+  "familj": "Tiopotenser och grundpotensform",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.00062,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "grundpotensform",
+  "ledtrad": "<p>Placera decimaltecknet så att talet framför tiopotensen blir minst 1 och mindre än 10.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 11,
+    "variant": 0
+  }
+},
+{
+  "id": "0.1110",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Skriv 62000000 i grundpotensform.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>I grundpotensform står ett tal mellan 1 och 10 framför tiopotensen.</p><p>Decimaltecknet flyttas 7 steg åt vänster, så exponenten blir positiv.</p>\\[62000000=6{,}2\\cdot10^{7}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\cdot10^{7}\\)</p></div>",
+  "familj": "Tiopotenser och grundpotensform",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 62000000,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "grundpotensform",
+  "ledtrad": "<p>Placera decimaltecknet så att talet framför tiopotensen blir minst 1 och mindre än 10.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 11,
+    "variant": 1
+  }
+},
+{
+  "id": "0.1111",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Skriv 0,0084 i grundpotensform.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>I grundpotensform står ett tal mellan 1 och 10 framför tiopotensen.</p><p>Decimaltecknet flyttas 3 steg åt höger, så exponenten blir negativ.</p>\\[0{,}0084=8{,}4\\cdot10^{-3}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}4\\cdot10^{-3}\\)</p></div>",
+  "familj": "Tiopotenser och grundpotensform",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.0084,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "grundpotensform",
+  "ledtrad": "<p>Placera decimaltecknet så att talet framför tiopotensen blir minst 1 och mindre än 10.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 11,
+    "variant": 2
+  }
+},
+{
+  "id": "0.1112",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En borrmaskin kostar 550 kr. På en rea ges 20 % rabatt. Hur stor är rabatten i kronor?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>20 % skrivs som 0,2. Rabatten är</p>\\[0{,}2\\cdot550=110\\]<p class=\"facit-svar\"><strong>Svar:</strong> 110 kr</p></div>",
+  "familj": "Andelar i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 110.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Beräkna den angivna andelen av priset.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 12,
+    "variant": 0
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "0.1113",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En cykelhjälm kostar 800 kr. På en rea ges 15 % rabatt. Hur stor är rabatten i kronor?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>15 % skrivs som 0,15. Rabatten är</p>\\[0{,}15\\cdot800=120\\]<p class=\"facit-svar\"><strong>Svar:</strong> 120 kr</p></div>",
+  "familj": "Andelar i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 120.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Beräkna den angivna andelen av priset.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 12,
+    "variant": 1
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "0.1114",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En jacka kostar 360 kr. På en rea ges 25 % rabatt. Hur stor är rabatten i kronor?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>25 % skrivs som 0,25. Rabatten är</p>\\[0{,}25\\cdot360=90\\]<p class=\"facit-svar\"><strong>Svar:</strong> 90 kr</p></div>",
+  "familj": "Andelar i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 90.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Beräkna den angivna andelen av priset.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 12,
+    "variant": 2
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "0.1115",
+  "kap": 0,
+  "omr": "avrundning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett tal avrundas till en decimal och blir 6,4. Vilket är det minsta talet det kan ha varit?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gränsen ligger en halv tiondel under det avrundade talet:</p>\\[6{,}4-0{,}05=6{,}35\\]<p>6,35 avrundas upp till 6,4. Ett mindre tal skulle avrundas till ett lägre värde.</p><p class=\"facit-svar\"><strong>Svar:</strong> 6,35</p></div>",
+  "familj": "Avrunda och tolka avrundning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.35,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur långt under det avrundade talet ligger gränsen för att avrunda upp?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 13,
+    "variant": 0
+  }
+},
+{
+  "id": "0.1116",
+  "kap": 0,
+  "omr": "avrundning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett tal avrundas till en decimal och blir 7,8. Vilket är det minsta talet det kan ha varit?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gränsen ligger en halv tiondel under det avrundade talet:</p>\\[7{,}8-0{,}05=7{,}75\\]<p>7,75 avrundas upp till 7,8. Ett mindre tal skulle avrundas till ett lägre värde.</p><p class=\"facit-svar\"><strong>Svar:</strong> 7,75</p></div>",
+  "familj": "Avrunda och tolka avrundning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 7.75,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur långt under det avrundade talet ligger gränsen för att avrunda upp?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 13,
+    "variant": 1
+  }
+},
+{
+  "id": "0.1117",
+  "kap": 0,
+  "omr": "avrundning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett tal avrundas till två decimaler och blir 2,76. Vilket är det minsta talet det kan ha varit?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gränsen ligger en halv hundradel under det avrundade talet:</p>\\[2{,}76-0{,}005=2{,}755\\]<p>2,755 avrundas upp till 2,76. Ett mindre tal skulle avrundas till ett lägre värde.</p><p class=\"facit-svar\"><strong>Svar:</strong> 2,755</p></div>",
+  "familj": "Avrunda och tolka avrundning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.755,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur långt under det avrundade talet ligger gränsen för att avrunda upp?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 13,
+    "variant": 2
+  }
+},
+{
+  "id": "0.1118",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Jämför längderna: \\(0{,}4\\,\\text{m}\\), \\(8\\,\\text{cm}\\), \\(70\\,\\text{mm}\\), \\(1{,}2\\,\\text{dm}\\), \\(5\\,\\text{dm}\\).</p><p>a) Vilken längd är längst? Svara i meter.</p><p>b) Vilken längd är kortast? Svara i meter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv alla längder i meter: 0,4, 0,08, 0,07, 0,12, 0,5.</p><p>Jämför sedan talen.</p><p class=\"facit-svar\"><strong>Svar:</strong> a) 0,5 m; b) 0,07 m</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.5,
+    0.07
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Skriv längderna i samma enhet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 14,
+    "variant": 0
+  },
+  "svarEnhet": [
+    "m",
+    "m"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Jämför längderna: \\(0{,}4\\,\\text{m}\\), \\(8\\,\\text{cm}\\), \\(70\\,\\text{mm}\\), \\(1{,}2\\,\\text{dm}\\), \\(5\\,\\text{dm}\\).</p><p>Vilken längd är längst? Svara i meter.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till samma enhet:</p><p>0,4 m, 0,08 m, 0,07 m, 0,12 m, 0,5 m.</p><p>0,5 m är längst.</p><p class=\"facit-svar\"><strong>Svar:</strong> 0,5 m</p></div>",
+      "ledtrad": "<p>Skriv först längderna i samma enhet.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Jämför längderna: \\(0{,}4\\,\\text{m}\\), \\(8\\,\\text{cm}\\), \\(70\\,\\text{mm}\\), \\(1{,}2\\,\\text{dm}\\), \\(5\\,\\text{dm}\\).</p><p>Vilken längd är kortast? Svara i meter.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till samma enhet:</p><p>0,4 m, 0,08 m, 0,07 m, 0,12 m, 0,5 m.</p><p>0,07 m är kortast.</p><p class=\"facit-svar\"><strong>Svar:</strong> 0,07 m</p></div>",
+      "ledtrad": "<p>Skriv först längderna i samma enhet.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    }
+  ]
+},
+{
+  "id": "0.1119",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Jämför längderna: \\(0{,}3\\,\\text{m}\\), \\(14\\,\\text{cm}\\), \\(95\\,\\text{mm}\\), \\(1{,}1\\,\\text{dm}\\), \\(4\\,\\text{dm}\\).</p><p>a) Vilken längd är längst? Svara i meter.</p><p>b) Vilken längd är kortast? Svara i meter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv alla längder i meter: 0,3, 0,14, 0,095, 0,11, 0,4.</p><p>Jämför sedan talen.</p><p class=\"facit-svar\"><strong>Svar:</strong> a) 0,4 m; b) 0,095 m</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.4,
+    0.095
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Skriv längderna i samma enhet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 14,
+    "variant": 1
+  },
+  "svarEnhet": [
+    "m",
+    "m"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Jämför längderna: \\(0{,}3\\,\\text{m}\\), \\(14\\,\\text{cm}\\), \\(95\\,\\text{mm}\\), \\(1{,}1\\,\\text{dm}\\), \\(4\\,\\text{dm}\\).</p><p>Vilken längd är längst? Svara i meter.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till samma enhet:</p><p>0,3 m, 0,14 m, 0,095 m, 0,11 m, 0,4 m.</p><p>0,4 m är längst.</p><p class=\"facit-svar\"><strong>Svar:</strong> 0,4 m</p></div>",
+      "ledtrad": "<p>Skriv först längderna i samma enhet.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Jämför längderna: \\(0{,}3\\,\\text{m}\\), \\(14\\,\\text{cm}\\), \\(95\\,\\text{mm}\\), \\(1{,}1\\,\\text{dm}\\), \\(4\\,\\text{dm}\\).</p><p>Vilken längd är kortast? Svara i meter.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till samma enhet:</p><p>0,3 m, 0,14 m, 0,095 m, 0,11 m, 0,4 m.</p><p>0,095 m är kortast.</p><p class=\"facit-svar\"><strong>Svar:</strong> 0,095 m</p></div>",
+      "ledtrad": "<p>Skriv först längderna i samma enhet.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    }
+  ]
+},
+{
+  "id": "0.1120",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Jämför längderna: \\(0{,}65\\,\\text{m}\\), \\(42\\,\\text{cm}\\), \\(180\\,\\text{mm}\\), \\(2{,}5\\,\\text{dm}\\), \\(7\\,\\text{dm}\\).</p><p>a) Vilken längd är längst? Svara i meter.</p><p>b) Vilken längd är kortast? Svara i meter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv alla längder i meter: 0,65, 0,42, 0,18, 0,25, 0,7.</p><p>Jämför sedan talen.</p><p class=\"facit-svar\"><strong>Svar:</strong> a) 0,7 m; b) 0,18 m</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.7,
+    0.18
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Skriv längderna i samma enhet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 14,
+    "variant": 2
+  },
+  "svarEnhet": [
+    "m",
+    "m"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Jämför längderna: \\(0{,}65\\,\\text{m}\\), \\(42\\,\\text{cm}\\), \\(180\\,\\text{mm}\\), \\(2{,}5\\,\\text{dm}\\), \\(7\\,\\text{dm}\\).</p><p>Vilken längd är längst? Svara i meter.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till samma enhet:</p><p>0,65 m, 0,42 m, 0,18 m, 0,25 m, 0,7 m.</p><p>0,7 m är längst.</p><p class=\"facit-svar\"><strong>Svar:</strong> 0,7 m</p></div>",
+      "ledtrad": "<p>Skriv först längderna i samma enhet.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Jämför längderna: \\(0{,}65\\,\\text{m}\\), \\(42\\,\\text{cm}\\), \\(180\\,\\text{mm}\\), \\(2{,}5\\,\\text{dm}\\), \\(7\\,\\text{dm}\\).</p><p>Vilken längd är kortast? Svara i meter.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla till samma enhet:</p><p>0,65 m, 0,42 m, 0,18 m, 0,25 m, 0,7 m.</p><p>0,18 m är kortast.</p><p class=\"facit-svar\"><strong>Svar:</strong> 0,18 m</p></div>",
+      "ledtrad": "<p>Skriv först längderna i samma enhet.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2
+    }
+  ]
+},
+{
+  "id": "0.1121",
+  "kap": 0,
+  "omr": "negativa_tal",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Välj två negativa tal \\(a\\) och \\(b\\) så att \\(a-b=6\\). Svara med \\((a;b)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>När ett negativt tal subtraheras blir det addition.</p><p>Ett exempel är \\(a=-2\\) och \\(b=-8\\):</p>\\[-2-(-8)=-2+8=6\\]<p>Det finns många rätta svar. Båda talen ska vara negativa, och det första minus det andra ska bli 6.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\((-2;-8)\\).</p></div>",
+  "familj": "Beräkna med negativa tal",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": "(-2,-8)",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "negativt_talpar",
+  "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera dess positiva motsvarighet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 15,
+    "variant": 0
+  },
+  "svarVillkor": {
+    "skillnad": 6
+  }
+},
+{
+  "id": "0.1122",
+  "kap": 0,
+  "omr": "negativa_tal",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Välj två negativa tal \\(a\\) och \\(b\\) så att \\(a-b=9\\). Svara med \\((a;b)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>När ett negativt tal subtraheras blir det addition.</p><p>Ett exempel är \\(a=-3\\) och \\(b=-12\\):</p>\\[-3-(-12)=-3+12=9\\]<p>Det finns många rätta svar. Båda talen ska vara negativa, och det första minus det andra ska bli 9.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\((-3;-12)\\).</p></div>",
+  "familj": "Beräkna med negativa tal",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": "(-3,-12)",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "negativt_talpar",
+  "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera dess positiva motsvarighet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 15,
+    "variant": 1
+  },
+  "svarVillkor": {
+    "skillnad": 9
+  }
+},
+{
+  "id": "0.1123",
+  "kap": 0,
+  "omr": "negativa_tal",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Välj två negativa tal \\(a\\) och \\(b\\) så att \\(a-b=4\\). Svara med \\((a;b)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>När ett negativt tal subtraheras blir det addition.</p><p>Ett exempel är \\(a=-1\\) och \\(b=-5\\):</p>\\[-1-(-5)=-1+5=4\\]<p>Det finns många rätta svar. Båda talen ska vara negativa, och det första minus det andra ska bli 4.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\((-1;-5)\\).</p></div>",
+  "familj": "Beräkna med negativa tal",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": "(-1,-5)",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "negativt_talpar",
+  "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera dess positiva motsvarighet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 15,
+    "variant": 2
+  },
+  "svarVillkor": {
+    "skillnad": 4
+  }
+},
+{
+  "id": "0.1124",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En cyklist färdas med 36 km/h i 20 minuter. Hur långt blir det? Svara i kilometer.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv tiden i timmar:</p>\\[\\frac{20}{60}=\\frac{1}{3}\\]<p>Sträckan är hastigheten gånger tiden:</p>\\[36\\cdot\\frac{1}{3}=12\\]<p class=\"facit-svar\"><strong>Svar:</strong> 12 km</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hastigheten är given per timme. Skriv tiden i timmar innan du räknar.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 16,
+    "variant": 0
+  },
+  "svarEnhet": "km"
+},
+{
+  "id": "0.1125",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En cyklist färdas med 18 km/h i 40 minuter. Hur långt blir det? Svara i kilometer.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv tiden i timmar:</p>\\[\\frac{40}{60}=\\frac{2}{3}\\]<p>Sträckan är hastigheten gånger tiden:</p>\\[18\\cdot\\frac{2}{3}=12\\]<p class=\"facit-svar\"><strong>Svar:</strong> 12 km</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hastigheten är given per timme. Skriv tiden i timmar innan du räknar.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 16,
+    "variant": 1
+  },
+  "svarEnhet": "km"
+},
+{
+  "id": "0.1126",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En bil färdas med 72 km/h i 25 minuter. Hur långt blir det? Svara i kilometer.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv tiden i timmar:</p>\\[\\frac{25}{60}=\\frac{5}{12}\\]<p>Sträckan är hastigheten gånger tiden:</p>\\[72\\cdot\\frac{5}{12}=30\\]<p class=\"facit-svar\"><strong>Svar:</strong> 30 km</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 30.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hastigheten är given per timme. Skriv tiden i timmar innan du räknar.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 16,
+    "variant": 2
+  },
+  "svarEnhet": "km"
+},
+{
+  "id": "0.1127",
+  "kap": 0,
+  "omr": "decimaltal_positionssystem",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Vilket alternativ visar rätt storleksordning och förklaring? Börja med det minsta. Räkna inte ut värdena.</p><p>\\(0{,}98\\cdot45\\), \\(45\\), \\(\\frac{45}{0{,}98}\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Faktorn är mindre än 1. Multiplikation gör talet mindre och division gör det större.</p><p>Därför är ordningen \\(0{,}98\\cdot45\\) &lt; \\(45\\) &lt; \\(\\frac{45}{0{,}98}\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}98\\cdot45\\) &lt; \\(45\\) &lt; \\(\\frac{45}{0{,}98}\\)</p></div>",
+  "familj": "Jämföra decimaltal",
+  "formaga": [
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "alternativ",
+  "rättSvar": "A",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "kort_text",
+  "ledtrad": "<p>Jämför faktorn med 1. Vad händer med värdet vid multiplikation respektive division?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 17,
+    "variant": 0
+  },
+  "alternativ": [
+    {
+      "txt": "\\(0{,}98\\cdot45\\) &lt; \\(45\\) &lt; \\(\\frac{45}{0{,}98}\\). Faktorn är mindre än 1. Multiplikation gör talet mindre och division gör det större.",
+      "ratt": true,
+      "kommentar": "Faktorn är mindre än 1. Multiplikation gör talet mindre och division gör det större."
+    },
+    {
+      "txt": "\\(0{,}98\\cdot45\\) &lt; \\(45\\) &lt; \\(\\frac{45}{0{,}98}\\). Multiplikation gör alltid talet större och division gör alltid talet mindre.",
+      "ratt": false,
+      "kommentar": "Ordningen stämmer, men förklaringen är fel. Det beror på om faktorn är mindre eller större än 1."
+    },
+    {
+      "txt": "\\(\\frac{45}{0{,}98}\\) &lt; \\(45\\) &lt; \\(0{,}98\\cdot45\\). Multiplikation gör alltid talet större och division gör alltid talet mindre.",
+      "ratt": false,
+      "kommentar": "Jämför faktorn med 1. Det är inte alltid multiplikation som gör talet större."
+    }
+  ]
+},
+{
+  "id": "0.1128",
+  "kap": 0,
+  "omr": "decimaltal_positionssystem",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Vilket alternativ visar rätt storleksordning och förklaring? Börja med det minsta. Räkna inte ut värdena.</p><p>\\(1{,}02\\cdot60\\), \\(60\\), \\(\\frac{60}{1{,}02}\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Faktorn är större än 1. Division gör talet mindre och multiplikation gör det större.</p><p>Därför är ordningen \\(\\frac{60}{1{,}02}\\) &lt; \\(60\\) &lt; \\(1{,}02\\cdot60\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{60}{1{,}02}\\) &lt; \\(60\\) &lt; \\(1{,}02\\cdot60\\)</p></div>",
+  "familj": "Jämföra decimaltal",
+  "formaga": [
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "alternativ",
+  "rättSvar": "A",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "kort_text",
+  "ledtrad": "<p>Jämför faktorn med 1. Vad händer med värdet vid multiplikation respektive division?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 17,
+    "variant": 1
+  },
+  "alternativ": [
+    {
+      "txt": "\\(\\frac{60}{1{,}02}\\) &lt; \\(60\\) &lt; \\(1{,}02\\cdot60\\). Faktorn är större än 1. Division gör talet mindre och multiplikation gör det större.",
+      "ratt": true,
+      "kommentar": "Faktorn är större än 1. Division gör talet mindre och multiplikation gör det större."
+    },
+    {
+      "txt": "\\(\\frac{60}{1{,}02}\\) &lt; \\(60\\) &lt; \\(1{,}02\\cdot60\\). Multiplikation gör alltid talet större och division gör alltid talet mindre.",
+      "ratt": false,
+      "kommentar": "Ordningen stämmer, men förklaringen är fel. Det beror på om faktorn är mindre eller större än 1."
+    },
+    {
+      "txt": "\\(1{,}02\\cdot60\\) &lt; \\(60\\) &lt; \\(\\frac{60}{1{,}02}\\). Multiplikation gör alltid talet större och division gör alltid talet mindre.",
+      "ratt": false,
+      "kommentar": "Jämför faktorn med 1. Det är inte alltid multiplikation som gör talet större."
+    }
+  ]
+},
+{
+  "id": "0.1129",
+  "kap": 0,
+  "omr": "decimaltal_positionssystem",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Vilket alternativ visar rätt storleksordning och förklaring? Börja med det minsta. Räkna inte ut värdena.</p><p>\\(0{,}75\\cdot80\\), \\(80\\), \\(\\frac{80}{0{,}75}\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Faktorn är mindre än 1. Multiplikation gör talet mindre och division gör det större.</p><p>Därför är ordningen \\(0{,}75\\cdot80\\) &lt; \\(80\\) &lt; \\(\\frac{80}{0{,}75}\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}75\\cdot80\\) &lt; \\(80\\) &lt; \\(\\frac{80}{0{,}75}\\)</p></div>",
+  "familj": "Jämföra decimaltal",
+  "formaga": [
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "alternativ",
+  "rättSvar": "A",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "kort_text",
+  "ledtrad": "<p>Jämför faktorn med 1. Vad händer med värdet vid multiplikation respektive division?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 17,
+    "variant": 2
+  },
+  "alternativ": [
+    {
+      "txt": "\\(0{,}75\\cdot80\\) &lt; \\(80\\) &lt; \\(\\frac{80}{0{,}75}\\). Faktorn är mindre än 1. Multiplikation gör talet mindre och division gör det större.",
+      "ratt": true,
+      "kommentar": "Faktorn är mindre än 1. Multiplikation gör talet mindre och division gör det större."
+    },
+    {
+      "txt": "\\(0{,}75\\cdot80\\) &lt; \\(80\\) &lt; \\(\\frac{80}{0{,}75}\\). Multiplikation gör alltid talet större och division gör alltid talet mindre.",
+      "ratt": false,
+      "kommentar": "Ordningen stämmer, men förklaringen är fel. Det beror på om faktorn är mindre eller större än 1."
+    },
+    {
+      "txt": "\\(\\frac{80}{0{,}75}\\) &lt; \\(80\\) &lt; \\(0{,}75\\cdot80\\). Multiplikation gör alltid talet större och division gör alltid talet mindre.",
+      "ratt": false,
+      "kommentar": "Jämför faktorn med 1. Det är inte alltid multiplikation som gör talet större."
+    }
+  ]
+},
+{
+  "id": "0.1130",
+  "kap": 0,
+  "omr": "proportionalitet_grunder",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En löneökning på 1,5 % motsvarar 300 kr. Hur många kronor skulle en ökning på 4 % av samma lön motsvara?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[300/1{,}5=200\\]<p>Multiplicera sedan med 4:</p>\\[200\\cdot4=800\\]<p class=\"facit-svar\"><strong>Svar:</strong> 800 kr</p></div>",
+  "familj": "Proportionella samband",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 800.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur många kronor motsvarar 1 % av lönen?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 18,
+    "variant": 0
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "0.1131",
+  "kap": 0,
+  "omr": "proportionalitet_grunder",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En löneökning på 2 % motsvarar 500 kr. Hur många kronor skulle en ökning på 5 % av samma lön motsvara?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[500/2=250\\]<p>Multiplicera sedan med 5:</p>\\[250\\cdot5=1250\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1250 kr</p></div>",
+  "familj": "Proportionella samband",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1250.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur många kronor motsvarar 1 % av lönen?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 18,
+    "variant": 1
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "0.1132",
+  "kap": 0,
+  "omr": "proportionalitet_grunder",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En löneökning på 2,5 % motsvarar 450 kr. Hur många kronor skulle en ökning på 6 % av samma lön motsvara?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[450/2{,}5=180\\]<p>Multiplicera sedan med 6:</p>\\[180\\cdot6=1080\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1080 kr</p></div>",
+  "familj": "Proportionella samband",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1080.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur många kronor motsvarar 1 % av lönen?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 18,
+    "variant": 2
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "0.1133",
+  "kap": 0,
+  "omr": "brakform",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Ge ett bråktal som är större än \\(\\frac{3}{5}\\) och mindre än \\(\\frac{2}{3}\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Förläng gränserna till den gemensamma nämnaren 30:</p>\\[\\frac35=\\frac{18}{30},\\qquad\\frac23=\\frac{20}{30}\\]<p>Välj en täljare mellan 18 och 20. Talet \\(\\frac{19}{30}\\) ligger mellan gränserna eftersom 18 &lt; 19 &lt; 20. Andra bråktal mellan gränserna är också rätt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(\\frac{19}{30}\\).</p></div>",
+  "familj": "Jämföra och välja bråktal",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": "19/30",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "brak_i_intervall",
+  "ledtrad": "<p>Skriv gränserna med en gemensam nämnare. Förläng igen om du behöver fler tal mellan dem.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 19,
+    "variant": 0
+  },
+  "svarVillkor": {
+    "min": "3/5",
+    "max": "2/3"
+  }
+},
+{
+  "id": "0.1134",
+  "kap": 0,
+  "omr": "brakform",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ge ett bråktal som är större än \\(\\frac{1}{4}\\) och mindre än \\(\\frac{1}{2}\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv gränserna med samma nämnare och välj ett tal mellan dem. Ett möjligt val är \\(\\frac{1}{3}\\). Med nämnaren 12 ser vi att</p>\\[\\frac{3}{12}<\\frac{4}{12}<\\frac{6}{12}\\]<p>Andra tal strikt mellan gränserna är också rätt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(\\frac{1}{3}\\).</p></div>",
+  "familj": "Jämföra och välja bråktal",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": "1/3",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "brak_i_intervall",
+  "ledtrad": "<p>Skriv gränserna med en gemensam nämnare. Förläng igen om du behöver fler tal mellan dem.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 19,
+    "variant": 1
+  },
+  "svarVillkor": {
+    "min": "1/4",
+    "max": "1/2"
+  }
+},
+{
+  "id": "0.1135",
+  "kap": 0,
+  "omr": "brakform",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Ge ett bråktal som är större än \\(\\frac{5}{6}\\) och mindre än \\(\\frac{7}{8}\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv gränserna med samma nämnare och välj ett tal mellan dem. Ett möjligt val är \\(\\frac{41}{48}\\). Med nämnaren 48 ser vi att</p>\\[\\frac{40}{48}<\\frac{41}{48}<\\frac{42}{48}\\]<p>Andra tal strikt mellan gränserna är också rätt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(\\frac{41}{48}\\).</p></div>",
+  "familj": "Jämföra och välja bråktal",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": "41/48",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "brak_i_intervall",
+  "ledtrad": "<p>Skriv gränserna med en gemensam nämnare. Förläng igen om du behöver fler tal mellan dem.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 19,
+    "variant": 2
+  },
+  "svarVillkor": {
+    "min": "5/6",
+    "max": "7/8"
+  }
+},
+{
+  "id": "0.1136",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Det finns 3 rör, vardera 2,4 m långa. Ur dem kapas 5 bitar som är 85 cm långa. Hur många meter blir över sammanlagt? Bortse från spill när bitarna kapas.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den totala längden från början är</p>\\[3\\cdot2{,}4=7{,}2\\text{ m}\\]<p>85 cm är 0,85 m. Bitarna som kapas använder</p>\\[5\\cdot0{,}85=4{,}25\\text{ m}\\]<p>Längden som blir över är</p>\\[7{,}2-4{,}25=2{,}95\\text{ m}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 2,95 m</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.9499999999999993,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Räkna den totala längden och bitarnas sammanlagda längd i samma enhet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 20,
+    "variant": 0
+  },
+  "svarEnhet": "m"
+},
+{
+  "id": "0.1137",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Det finns 4 brädor, vardera 1,8 m långa. Ur dem kapas 6 bitar som är 75 cm långa. Hur många meter blir över sammanlagt? Bortse från spill när bitarna kapas.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den totala längden från början är</p>\\[4\\cdot1{,}8=7{,}2\\text{ m}\\]<p>75 cm är 0,75 m. Bitarna som kapas använder</p>\\[6\\cdot0{,}75=4{,}5\\text{ m}\\]<p>Längden som blir över är</p>\\[7{,}2-4{,}5=2{,}7\\text{ m}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 2,7 m</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.7,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Räkna den totala längden och bitarnas sammanlagda längd i samma enhet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 20,
+    "variant": 1
+  },
+  "svarEnhet": "m"
+},
+{
+  "id": "0.1138",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Det finns 3 kablar, vardera 2,5 m långa. Ur dem kapas 7 bitar som är 80 cm långa. Hur många meter blir över sammanlagt? Bortse från spill när bitarna kapas.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den totala längden från början är</p>\\[3\\cdot2{,}5=7{,}5\\text{ m}\\]<p>80 cm är 0,8 m. Bitarna som kapas använder</p>\\[7\\cdot0{,}8=5{,}6\\text{ m}\\]<p>Längden som blir över är</p>\\[7{,}5-5{,}6=1{,}9\\text{ m}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1,9 m</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.9000000000000004,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Räkna den totala längden och bitarnas sammanlagda längd i samma enhet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 20,
+    "variant": 2
+  },
+  "svarEnhet": "m"
+},
+{
+  "id": "0.1139",
+  "kap": 0,
+  "omr": "proportionalitet_grunder",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En burk energidryck innehåller 355 ml och kostar 23 kr. Vad är priset per liter? Avrunda till två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>355 ml är 0,355 liter. Priset per liter är</p>\\[\\frac{23}{0{,}355}=64{,}7887323944\\text{ kr/l}\\]<p>Avrunda först i slutsvaret.</p><p class=\"facit-svar\"><strong>Svar:</strong> 64,79 kr/l</p></div>",
+  "familj": "Proportionella samband",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 64.7887323943662,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Skriv volymen i liter och dividera priset med volymen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 21,
+    "variant": 0
+  },
+  "svarEnhet": "kr/l"
+},
+{
+  "id": "0.1140",
+  "kap": 0,
+  "omr": "proportionalitet_grunder",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En flaska juice innehåller 500 ml och kostar 18 kr. Vad är priset per liter? Avrunda till två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>500 ml är 0,5 liter. Priset per liter är</p>\\[\\frac{18}{0{,}5}=36\\text{ kr/l}\\]<p>Avrunda först i slutsvaret.</p><p class=\"facit-svar\"><strong>Svar:</strong> 36 kr/l</p></div>",
+  "familj": "Proportionella samband",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 36.0,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Skriv volymen i liter och dividera priset med volymen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 21,
+    "variant": 1
+  },
+  "svarEnhet": "kr/l"
+},
+{
+  "id": "0.1141",
+  "kap": 0,
+  "omr": "proportionalitet_grunder",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En flaska tvål innehåller 750 ml och kostar 49,5 kr. Vad är priset per liter? Avrunda till två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>750 ml är 0,75 liter. Priset per liter är</p>\\[\\frac{49{,}5}{0{,}75}=66\\text{ kr/l}\\]<p>Avrunda först i slutsvaret.</p><p class=\"facit-svar\"><strong>Svar:</strong> 66 kr/l</p></div>",
+  "familj": "Proportionella samband",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 66.0,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Skriv volymen i liter och dividera priset med volymen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 21,
+    "variant": 2
+  },
+  "svarEnhet": "kr/l"
+},
+{
+  "id": "3.547",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En månadslön är 34 750 kr före skatt. Efter skatt betalas 25 466 kr ut. Hur många procent av lönen går till skatt? Avrunda till en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skatten är skillnaden mellan lönen före och efter skatt:</p>\\[34750-25466=9284\\text{ kr}\\]<p>Jämför skatten med lönen före skatt:</p>\\[\\frac{9284}{34750}\\cdot100\\approx26{,}7\\,\\%\\]<p class=\"facit-svar\"><strong>Svar:</strong> 26,7 %</p></div>",
+  "familj": "Procent i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 26.716546762589928,
+  "tolerans": 0.05,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur stor är skatten i kronor? Vilken lön är det hela som procenttalet ska jämföras med?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 22,
+    "variant": 0
+  },
+  "svarEnhet": "%"
+},
+{
+  "id": "3.548",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En månadslön är 28 000 kr före skatt. Efter skatt betalas 21 560 kr ut. Hur många procent av lönen går till skatt? Avrunda till en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skatten är skillnaden mellan lönen före och efter skatt:</p>\\[28000-21560=6440\\text{ kr}\\]<p>Jämför skatten med lönen före skatt:</p>\\[\\frac{6440}{28000}\\cdot100\\approx23\\,\\%\\]<p class=\"facit-svar\"><strong>Svar:</strong> 23 %</p></div>",
+  "familj": "Procent i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 23.0,
+  "tolerans": 0.05,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur stor är skatten i kronor? Vilken lön är det hela som procenttalet ska jämföras med?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 22,
+    "variant": 1
+  },
+  "svarEnhet": "%"
+},
+{
+  "id": "3.549",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En månadslön är 32 000 kr före skatt. Efter skatt betalas 24 000 kr ut. Hur många procent av lönen går till skatt? Avrunda till en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skatten är skillnaden mellan lönen före och efter skatt:</p>\\[32000-24000=8000\\text{ kr}\\]<p>Jämför skatten med lönen före skatt:</p>\\[\\frac{8000}{32000}\\cdot100\\approx25\\,\\%\\]<p class=\"facit-svar\"><strong>Svar:</strong> 25 %</p></div>",
+  "familj": "Procent i tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 25.0,
+  "tolerans": 0.05,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur stor är skatten i kronor? Vilken lön är det hela som procenttalet ska jämföras med?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 22,
+    "variant": 2
+  },
+  "svarEnhet": "%"
+},
+{
+  "id": "2.550",
+  "kap": 2,
+  "omr": "representationer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>En kran fyller en tank. Tabellen visar hur mycket vatten som finns i tanken vid olika tider. Kranen ger lika mycket vatten varje sekund.</p><table class=\"prov-flodestabell\"><caption>Vatten i tanken</caption><tbody><tr><th scope=\"row\">Tid (s)</th><td>10</td><td>20</td><td>30</td></tr><tr><th scope=\"row\">Volym (liter)</th><td>1,5</td><td>3</td><td>4,5</td></tr></tbody></table><p>a) Är volymen proportionell mot tiden? Motivera.</p><p>b) Hur lång tid efter starten finns 180 liter i tanken? Svara i minuter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Volymen dividerad med tiden är 0,15 liter per sekund i alla tre kolumner. Tanken är tom från början, så volymen är proportionell mot tiden.</p><p>b)</p><p>Kranens flöde är ökningen i volym dividerad med tiden mellan två mätningar:</p>\\[\\frac{1{,}5}{10}=0{,}15\\text{ liter/s}\\]<p>Tiden från starten blir</p>\\[\\frac{180}{0{,}15}=1200\\text{ s}\\]<p>Skriv tiden i minuter:</p>\\[1200/60=20\\text{ min}\\]<p class=\"facit-svar\"><strong>Svar:</strong> a) ja; b) 20 minuter</p></div>",
+  "familj": "Tabeller och matematiska modeller",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "ja",
+    20.0
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "kort_text",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Jämför hur mycket volymen ökar under lika långa tider.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 23,
+    "variant": 0
+  },
+  "svarEnhet": [
+    "",
+    "min"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>En kran fyller en tank. Tabellen visar hur mycket vatten som finns i tanken vid olika tider. Kranen ger lika mycket vatten varje sekund.</p><table class=\"prov-flodestabell\"><caption>Vatten i tanken</caption><tbody><tr><th scope=\"row\">Tid (s)</th><td>10</td><td>20</td><td>30</td></tr><tr><th scope=\"row\">Volym (liter)</th><td>1,5</td><td>3</td><td>4,5</td></tr></tbody></table><p>Är volymen proportionell mot tiden? Välj rätt svar och förklaring.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Volymen dividerad med tiden är 0,15 liter per sekund i alla tre kolumner. Tanken är tom från början, så volymen är proportionell mot tiden.</p><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div>",
+      "ledtrad": "<p>Är kvoten volym/tid konstant? Hur mycket vatten finns vid tiden 0?</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 1,
+      "alternativ": [
+        {
+          "txt": "Ja. Kvoten volym/tid är konstant och tanken är tom från början.",
+          "ratt": true,
+          "kommentar": "Volymen dividerad med tiden är 0,15 liter per sekund i alla tre kolumner. Tanken är tom från början, så volymen är proportionell mot tiden."
+        },
+        {
+          "txt": "Ja, eftersom volymen ökar när tiden ökar.",
+          "ratt": false,
+          "kommentar": "En jämn ökning räcker inte. Vid ett proportionellt samband ska volymen också vara 0 när tiden är 0."
+        },
+        {
+          "txt": "Nej, eftersom tiden och volymen har olika enheter.",
+          "ratt": false,
+          "kommentar": "Olika enheter hindrar inte proportionalitet. Jämför sambandet mellan talen."
+        }
+      ],
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>En kran fyller en tank. Tabellen visar hur mycket vatten som finns i tanken vid olika tider. Kranen ger lika mycket vatten varje sekund.</p><table class=\"prov-flodestabell\"><caption>Vatten i tanken</caption><tbody><tr><th scope=\"row\">Tid (s)</th><td>10</td><td>20</td><td>30</td></tr><tr><th scope=\"row\">Volym (liter)</th><td>1,5</td><td>3</td><td>4,5</td></tr></tbody></table><p>Hur lång tid efter starten finns 180 liter i tanken? Svara i minuter.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kranens flöde är ökningen i volym dividerad med tiden mellan två mätningar:</p>\\[\\frac{1{,}5}{10}=0{,}15\\text{ liter/s}\\]<p>Tiden från starten blir</p>\\[\\frac{180}{0{,}15}=1200\\text{ s}\\]<p>Skriv tiden i minuter:</p>\\[1200/60=20\\text{ min}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 20 minuter</p></div>",
+      "ledtrad": "<p>Räkna ut ökningen i liter per sekund. Dividera volymökningen som behövs med flödet.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2,
+      "poang": "2/0/0"
+    }
+  ]
+},
+{
+  "id": "2.551",
+  "kap": 2,
+  "omr": "representationer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>En kran fyller en tank. Tabellen visar hur mycket vatten som finns i tanken vid olika tider. Kranen ger lika mycket vatten varje sekund.</p><table class=\"prov-flodestabell\"><caption>Vatten i tanken</caption><tbody><tr><th scope=\"row\">Tid (s)</th><td>10</td><td>20</td><td>30</td></tr><tr><th scope=\"row\">Volym (liter)</th><td>1,2</td><td>2,4</td><td>3,6</td></tr></tbody></table><p>a) Är volymen proportionell mot tiden? Motivera.</p><p>b) Hur lång tid efter starten finns 72 liter i tanken? Svara i minuter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Volymen dividerad med tiden är 0,12 liter per sekund i alla tre kolumner. Tanken är tom från början, så volymen är proportionell mot tiden.</p><p>b)</p><p>Kranens flöde är ökningen i volym dividerad med tiden mellan två mätningar:</p>\\[\\frac{1{,}2}{10}=0{,}12\\text{ liter/s}\\]<p>Tiden från starten blir</p>\\[\\frac{72}{0{,}12}=600\\text{ s}\\]<p>Skriv tiden i minuter:</p>\\[600/60=10\\text{ min}\\]<p class=\"facit-svar\"><strong>Svar:</strong> a) ja; b) 10 minuter</p></div>",
+  "familj": "Tabeller och matematiska modeller",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "ja",
+    10.0
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "kort_text",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Jämför hur mycket volymen ökar under lika långa tider.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 23,
+    "variant": 1
+  },
+  "svarEnhet": [
+    "",
+    "min"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>En kran fyller en tank. Tabellen visar hur mycket vatten som finns i tanken vid olika tider. Kranen ger lika mycket vatten varje sekund.</p><table class=\"prov-flodestabell\"><caption>Vatten i tanken</caption><tbody><tr><th scope=\"row\">Tid (s)</th><td>10</td><td>20</td><td>30</td></tr><tr><th scope=\"row\">Volym (liter)</th><td>1,2</td><td>2,4</td><td>3,6</td></tr></tbody></table><p>Är volymen proportionell mot tiden? Välj rätt svar och förklaring.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Volymen dividerad med tiden är 0,12 liter per sekund i alla tre kolumner. Tanken är tom från början, så volymen är proportionell mot tiden.</p><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div>",
+      "ledtrad": "<p>Är kvoten volym/tid konstant? Hur mycket vatten finns vid tiden 0?</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 1,
+      "alternativ": [
+        {
+          "txt": "Ja. Kvoten volym/tid är konstant och tanken är tom från början.",
+          "ratt": true,
+          "kommentar": "Volymen dividerad med tiden är 0,12 liter per sekund i alla tre kolumner. Tanken är tom från början, så volymen är proportionell mot tiden."
+        },
+        {
+          "txt": "Ja, eftersom volymen ökar när tiden ökar.",
+          "ratt": false,
+          "kommentar": "En jämn ökning räcker inte. Vid ett proportionellt samband ska volymen också vara 0 när tiden är 0."
+        },
+        {
+          "txt": "Nej, eftersom tiden och volymen har olika enheter.",
+          "ratt": false,
+          "kommentar": "Olika enheter hindrar inte proportionalitet. Jämför sambandet mellan talen."
+        }
+      ],
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>En kran fyller en tank. Tabellen visar hur mycket vatten som finns i tanken vid olika tider. Kranen ger lika mycket vatten varje sekund.</p><table class=\"prov-flodestabell\"><caption>Vatten i tanken</caption><tbody><tr><th scope=\"row\">Tid (s)</th><td>10</td><td>20</td><td>30</td></tr><tr><th scope=\"row\">Volym (liter)</th><td>1,2</td><td>2,4</td><td>3,6</td></tr></tbody></table><p>Hur lång tid efter starten finns 72 liter i tanken? Svara i minuter.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kranens flöde är ökningen i volym dividerad med tiden mellan två mätningar:</p>\\[\\frac{1{,}2}{10}=0{,}12\\text{ liter/s}\\]<p>Tiden från starten blir</p>\\[\\frac{72}{0{,}12}=600\\text{ s}\\]<p>Skriv tiden i minuter:</p>\\[600/60=10\\text{ min}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 10 minuter</p></div>",
+      "ledtrad": "<p>Räkna ut ökningen i liter per sekund. Dividera volymökningen som behövs med flödet.</p>",
+      "traningsniva": 2,
+      "niva": "E",
+      "arbetsinsats": 2,
+      "poang": "2/0/0"
+    }
+  ]
+},
+{
+  "id": "2.552",
+  "kap": 2,
+  "omr": "representationer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>En kran fyller en tank. Tabellen visar hur mycket vatten som finns i tanken vid olika tider. Kranen ger lika mycket vatten varje sekund.</p><table class=\"prov-flodestabell\"><caption>Vatten i tanken</caption><tbody><tr><th scope=\"row\">Tid (s)</th><td>0</td><td>20</td><td>40</td></tr><tr><th scope=\"row\">Volym (liter)</th><td>6</td><td>10</td><td>14</td></tr></tbody></table><p>a) Är volymen proportionell mot tiden? Motivera.</p><p>b) Hur lång tid efter starten finns 60 liter i tanken? Svara i minuter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Vid tiden 0 finns redan 6 liter i tanken. Volymen kan därför inte skrivas som ett tal gånger tiden. Sambandet är linjärt, men inte proportionellt.</p><p>b)</p><p>Kranens flöde är ökningen i volym dividerad med tiden mellan två mätningar:</p>\\[\\frac{4}{20}=0{,}2\\text{ liter/s}\\]<p>Tanken ska få ytterligare 60 − 6 = 54 liter.</p><p>Tiden från starten blir</p>\\[\\frac{54}{0{,}2}=270\\text{ s}\\]<p>Skriv tiden i minuter:</p>\\[270/60=4{,}5\\text{ min}\\]<p class=\"facit-svar\"><strong>Svar:</strong> a) nej; b) 4,5 minuter</p></div>",
+  "familj": "Tabeller och matematiska modeller",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "nej",
+    4.5
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "kort_text",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Jämför hur mycket volymen ökar under lika långa tider.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 23,
+    "variant": 2
+  },
+  "svarEnhet": [
+    "",
+    "min"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>En kran fyller en tank. Tabellen visar hur mycket vatten som finns i tanken vid olika tider. Kranen ger lika mycket vatten varje sekund.</p><table class=\"prov-flodestabell\"><caption>Vatten i tanken</caption><tbody><tr><th scope=\"row\">Tid (s)</th><td>0</td><td>20</td><td>40</td></tr><tr><th scope=\"row\">Volym (liter)</th><td>6</td><td>10</td><td>14</td></tr></tbody></table><p>Är volymen proportionell mot tiden? Välj rätt svar och förklaring.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid tiden 0 finns redan 6 liter i tanken. Volymen kan därför inte skrivas som ett tal gånger tiden. Sambandet är linjärt, men inte proportionellt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div>",
+      "ledtrad": "<p>Är kvoten volym/tid konstant? Hur mycket vatten finns vid tiden 0?</p>",
+      "traningsniva": 3,
+      "niva": "C",
+      "arbetsinsats": 1,
+      "alternativ": [
+        {
+          "txt": "Nej. Vid tiden 0 finns redan vatten i tanken.",
+          "ratt": true,
+          "kommentar": "Vid tiden 0 finns redan 6 liter i tanken. Volymen kan därför inte skrivas som ett tal gånger tiden. Sambandet är linjärt, men inte proportionellt."
+        },
+        {
+          "txt": "Ja, eftersom volymen ökar lika mycket under lika lång tid.",
+          "ratt": false,
+          "kommentar": "En jämn ökning räcker inte. Vid ett proportionellt samband ska volymen också vara 0 när tiden är 0."
+        },
+        {
+          "txt": "Nej, eftersom tiden och volymen har olika enheter.",
+          "ratt": false,
+          "kommentar": "Olika enheter hindrar inte proportionalitet. Jämför sambandet mellan talen."
+        }
+      ],
+      "poang": "0/1/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>En kran fyller en tank. Tabellen visar hur mycket vatten som finns i tanken vid olika tider. Kranen ger lika mycket vatten varje sekund.</p><table class=\"prov-flodestabell\"><caption>Vatten i tanken</caption><tbody><tr><th scope=\"row\">Tid (s)</th><td>0</td><td>20</td><td>40</td></tr><tr><th scope=\"row\">Volym (liter)</th><td>6</td><td>10</td><td>14</td></tr></tbody></table><p>Hur lång tid efter starten finns 60 liter i tanken? Svara i minuter.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kranens flöde är ökningen i volym dividerad med tiden mellan två mätningar:</p>\\[\\frac{4}{20}=0{,}2\\text{ liter/s}\\]<p>Tanken ska få ytterligare 60 − 6 = 54 liter.</p><p>Tiden från starten blir</p>\\[\\frac{54}{0{,}2}=270\\text{ s}\\]<p>Skriv tiden i minuter:</p>\\[270/60=4{,}5\\text{ min}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 4,5 minuter</p></div>",
+      "ledtrad": "<p>Räkna ut ökningen i liter per sekund. Dividera volymökningen som behövs med flödet.</p>",
+      "traningsniva": 3,
+      "niva": "C",
+      "arbetsinsats": 2,
+      "poang": "0/2/0"
+    }
+  ]
+},
+{
+  "id": "3.550",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Priset för en värmepump är 84 000 kr. Av detta är 22 000 kr arbetskostnad. Ett avdrag på 30 % av arbetskostnaden görs. Vad blir priset efter avdraget?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avdraget beräknas på arbetskostnaden:</p>\\[0{,}3\\cdot22000=6600\\text{ kr}\\]<p>Dra av beloppet från hela priset:</p>\\[84000-6600=77400\\text{ kr}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 77400 kr</p></div>",
+  "familj": "Procent i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 77400.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Vilken del av priset gäller procentavdraget?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 24,
+    "variant": 0
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "3.551",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Priset för ett nytt kök är 80 000 kr. Av detta är 20 000 kr arbetskostnad. Ett avdrag på 30 % av arbetskostnaden görs. Vad blir priset efter avdraget?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avdraget beräknas på arbetskostnaden:</p>\\[0{,}3\\cdot20000=6000\\text{ kr}\\]<p>Dra av beloppet från hela priset:</p>\\[80000-6000=74000\\text{ kr}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 74000 kr</p></div>",
+  "familj": "Procent i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 74000.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Vilken del av priset gäller procentavdraget?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 24,
+    "variant": 1
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "3.552",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Priset för en renovering är 65 000 kr. Av detta är 15 000 kr arbetskostnad. Ett avdrag på 20 % av arbetskostnaden görs. Vad blir priset efter avdraget?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avdraget beräknas på arbetskostnaden:</p>\\[0{,}2\\cdot15000=3000\\text{ kr}\\]<p>Dra av beloppet från hela priset:</p>\\[65000-3000=62000\\text{ kr}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 62000 kr</p></div>",
+  "familj": "Procent i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 62000.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Vilken del av priset gäller procentavdraget?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 24,
+    "variant": 2
+  },
+  "svarEnhet": "kr"
+},
+{
+  "id": "7.544",
+  "kap": 7,
+  "omr": "skala_likformighet",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Ett badrum är 4,2 m långt och 2,6 m brett. Det ska ritas i skala 1:50. Hur långa blir sidorna på ritningen? Svara i centimeter, längden först.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skala 1:50 betyder att måtten på ritningen är verklighetens mått dividerade med 50. Skriv först måtten i centimeter: 420 cm och 260 cm.</p><p>Längden på ritningen är</p>\\[420/50=8{,}4\\text{ cm}\\]<p>Bredden på ritningen är</p>\\[260/50=5{,}2\\text{ cm}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 8,4 cm långt och 5,2 cm brett.</p></div>",
+  "familj": "Skala på en ritning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    8.4,
+    5.2
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Skriv de verkliga måtten i centimeter och dividera dem med skalans andra tal.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 25,
+    "variant": 0
+  },
+  "svarEnhet": [
+    "cm",
+    "cm"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Längd",
+    "Bredd"
+  ]
+},
+{
+  "id": "7.545",
+  "kap": 7,
+  "omr": "skala_likformighet",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En trädgård är 5 m långt och 3 m brett. Det ska ritas i skala 1:100. Hur långa blir sidorna på ritningen? Svara i centimeter, längden först.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skala 1:100 betyder att måtten på ritningen är verklighetens mått dividerade med 100. Skriv först måtten i centimeter: 500 cm och 300 cm.</p><p>Längden på ritningen är</p>\\[500/100=5\\text{ cm}\\]<p>Bredden på ritningen är</p>\\[300/100=3\\text{ cm}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 5 cm långt och 3 cm brett.</p></div>",
+  "familj": "Skala på en ritning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5.0,
+    3.0
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Skriv de verkliga måtten i centimeter och dividera dem med skalans andra tal.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 25,
+    "variant": 1
+  },
+  "svarEnhet": [
+    "cm",
+    "cm"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Längd",
+    "Bredd"
+  ]
+},
+{
+  "id": "7.546",
+  "kap": 7,
+  "omr": "skala_likformighet",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Ett rum är 3,6 m långt och 2,4 m brett. Det ska ritas i skala 1:20. Hur långa blir sidorna på ritningen? Svara i centimeter, längden först.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skala 1:20 betyder att måtten på ritningen är verklighetens mått dividerade med 20. Skriv först måtten i centimeter: 360 cm och 240 cm.</p><p>Längden på ritningen är</p>\\[360/20=18\\text{ cm}\\]<p>Bredden på ritningen är</p>\\[240/20=12\\text{ cm}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 18 cm långt och 12 cm brett.</p></div>",
+  "familj": "Skala på en ritning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    18.0,
+    12.0
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Skriv de verkliga måtten i centimeter och dividera dem med skalans andra tal.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 25,
+    "variant": 2
+  },
+  "svarEnhet": [
+    "cm",
+    "cm"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Längd",
+    "Bredd"
+  ]
+},
+{
+  "id": "0.1142",
+  "kap": 0,
+  "omr": "forhallanden",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Cement och sand blandas i volymförhållandet 1:3. Blandningen ska bli 14 liter sammanlagt. Hur många liter sand behövs?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Blandningen består av 1 + 3 = 4 lika stora delar. En del är</p>\\[14/4=3{,}5\\text{ liter}\\]<p>Sand utgör 3 av delarna:</p>\\[3\\cdot3{,}5=10{,}5\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 10,5 liter</p></div>",
+  "familj": "Blanda i ett givet förhållande",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 10.5,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur många delar består hela blandningen av?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 26,
+    "variant": 0
+  },
+  "svarEnhet": "liter"
+},
+{
+  "id": "0.1143",
+  "kap": 0,
+  "omr": "forhallanden",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Saftkoncentrat och vatten blandas i volymförhållandet 1:4. Blandningen ska bli 15 liter sammanlagt. Hur många liter vatten behövs?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Blandningen består av 1 + 4 = 5 lika stora delar. En del är</p>\\[15/5=3\\text{ liter}\\]<p>Vatten utgör 4 av delarna:</p>\\[4\\cdot3=12\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 12 liter</p></div>",
+  "familj": "Blanda i ett givet förhållande",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur många delar består hela blandningen av?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 26,
+    "variant": 1
+  },
+  "svarEnhet": "liter"
+},
+{
+  "id": "0.1144",
+  "kap": 0,
+  "omr": "forhallanden",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Vit färg och blå färg blandas i volymförhållandet 2:3. Blandningen ska bli 20 liter sammanlagt. Hur många liter blå färg behövs?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Blandningen består av 2 + 3 = 5 lika stora delar. En del är</p>\\[20/5=4\\text{ liter}\\]<p>Blå färg utgör 3 av delarna:</p>\\[3\\cdot4=12\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 12 liter</p></div>",
+  "familj": "Blanda i ett givet förhållande",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur många delar består hela blandningen av?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 26,
+    "variant": 2
+  },
+  "svarEnhet": "liter"
+},
+{
+  "id": "0.1145",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>En kran läcker en droppe varannan sekund. Varje droppe är 0,25 ml. Hur många liter läcker ut på 365 dygn? Avrunda till hela liter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna tiden i sekunder:</p>\\[365\\cdot24\\cdot60\\cdot60=31536000\\text{ s}\\]<p>Antalet droppar blir</p>\\[31536000/2=15768000\\]<p>Multiplicera med volymen per droppe och omvandla från ml till liter:</p>\\[\\frac{15768000\\cdot0{,}25}{1000}=3942\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 3942 liter</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3942.0,
+  "tolerans": 0.5,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur många sekunder är det under hela perioden? Hur många droppar hinner falla?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 27,
+    "variant": 0
+  },
+  "svarEnhet": "liter"
+},
+{
+  "id": "0.1146",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>En kran läcker en droppe var tredje sekund. Varje droppe är 0,4 ml. Hur många liter läcker ut på 30 dygn? Avrunda till hela liter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna tiden i sekunder:</p>\\[30\\cdot24\\cdot60\\cdot60=2592000\\text{ s}\\]<p>Antalet droppar blir</p>\\[2592000/3=864000\\]<p>Multiplicera med volymen per droppe och omvandla från ml till liter:</p>\\[\\frac{864000\\cdot0{,}4}{1000}=345{,}6\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 346 liter</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 345.6,
+  "tolerans": 0.5,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur många sekunder är det under hela perioden? Hur många droppar hinner falla?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 27,
+    "variant": 1
+  },
+  "svarEnhet": "liter"
+},
+{
+  "id": "0.1147",
+  "kap": 0,
+  "omr": "enhetsbyten",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>En kran läcker en droppe var femte sekund. Varje droppe är 0,2 ml. Hur många liter läcker ut på 7 dygn? Avrunda till hela liter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna tiden i sekunder:</p>\\[7\\cdot24\\cdot60\\cdot60=604800\\text{ s}\\]<p>Antalet droppar blir</p>\\[604800/5=120960\\]<p>Multiplicera med volymen per droppe och omvandla från ml till liter:</p>\\[\\frac{120960\\cdot0{,}2}{1000}=24{,}192\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 24 liter</p></div>",
+  "familj": "Enhetsbyten i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 24.192,
+  "tolerans": 0.5,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur många sekunder är det under hela perioden? Hur många droppar hinner falla?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 27,
+    "variant": 2
+  },
+  "svarEnhet": "liter"
+},
+{
+  "id": "0.1148",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Första dagen målas \\(\\frac{2}{5}\\) av ett trapphus. Andra dagen målas \\(\\frac{1}{3}\\) av det som då är kvar. Hur stor del av trapphuset är fortfarande omålad? Svara med ett förkortat bråk.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Efter första dagen återstår</p>\\[1-\\frac{2}{5}=\\frac{3}{5}\\]<p>Andra dagen målas denna del av hela trapphuset:</p>\\[\\frac{1}{3}\\cdot\\frac{3}{5}=\\frac{1}{5}\\]<p>Den del som fortfarande är omålad är</p>\\[\\frac{3}{5}-\\frac{1}{5}=\\frac{2}{5}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{5}\\) av trapphuset.</p></div>",
+  "familj": "Beräkningar med bråk",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": "2/5",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "forkortat_brak",
+  "ledtrad": "<p>Räkna först ut hur mycket som är kvar efter första dagen. Vilken del av detta målas andra dagen?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 28,
+    "variant": 0
+  }
+},
+{
+  "id": "0.1149",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Första dagen målas \\(\\frac{1}{4}\\) av ett hus. Andra dagen målas \\(\\frac{2}{3}\\) av det som då är kvar. Hur stor del av huset är fortfarande omålad? Svara med ett förkortat bråk.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Efter första dagen återstår</p>\\[1-\\frac{1}{4}=\\frac{3}{4}\\]<p>Andra dagen målas denna del av hela huset:</p>\\[\\frac{2}{3}\\cdot\\frac{3}{4}=\\frac{1}{2}\\]<p>Den del som fortfarande är omålad är</p>\\[\\frac{3}{4}-\\frac{1}{2}=\\frac{1}{4}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{4}\\) av huset.</p></div>",
+  "familj": "Beräkningar med bråk",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": "1/4",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "forkortat_brak",
+  "ledtrad": "<p>Räkna först ut hur mycket som är kvar efter första dagen. Vilken del av detta målas andra dagen?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 28,
+    "variant": 1
+  }
+},
+{
+  "id": "0.1150",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Första dagen målas \\(\\frac{3}{8}\\) av ett hus. Andra dagen målas \\(\\frac{1}{5}\\) av det som då är kvar. Hur stor del av huset är fortfarande omålad? Svara med ett förkortat bråk.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Efter första dagen återstår</p>\\[1-\\frac{3}{8}=\\frac{5}{8}\\]<p>Andra dagen målas denna del av hela huset:</p>\\[\\frac{1}{5}\\cdot\\frac{5}{8}=\\frac{1}{8}\\]<p>Den del som fortfarande är omålad är</p>\\[\\frac{5}{8}-\\frac{1}{8}=\\frac{1}{2}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\) av huset.</p></div>",
+  "familj": "Beräkningar med bråk",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": "1/2",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "forkortat_brak",
+  "ledtrad": "<p>Räkna först ut hur mycket som är kvar efter första dagen. Vilken del av detta målas andra dagen?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 28,
+    "variant": 2
+  }
+},
+{
+  "id": "0.1151",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Avståndet från solen till jorden är \\(1{,}496\\cdot10^{11}\\text{ m}\\). Ljusets hastighet är \\(2{,}998\\cdot10^{8}\\text{ m/s}\\). Hur lång tid tar ljuset? Svara i minuter och sekunder. Avrunda till närmaste sekund.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiden är sträckan dividerad med hastigheten:</p>\\[t=\\frac{1{,}496\\cdot10^{11}}{2{,}998\\cdot10^{8}}\\approx 498{,}999\\text{ s}\\]<p>Avrunda den totala tiden till 499 sekunder. 8 minuter är 480 sekunder, så 499 − 480 = 19 sekunder återstår.</p><p class=\"facit-svar\"><strong>Svar:</strong> 8 minuter och 19 sekunder</p></div>",
+  "familj": "Tiopotenser och grundpotensform",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    8,
+    19
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Dividera avståndet med hastigheten. Omvandla den totala tiden i sekunder till minuter och sekunder.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 29,
+    "variant": 0
+  },
+  "svarEnhet": [
+    "min",
+    "s"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Minuter",
+    "Sekunder"
+  ]
+},
+{
+  "id": "0.1152",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Avståndet från solen till Mars är \\(2{,}28\\cdot10^{11}\\text{ m}\\). Ljusets hastighet är \\(3\\cdot10^{8}\\text{ m/s}\\). Hur lång tid tar ljuset? Svara i minuter och sekunder. Avrunda till närmaste sekund.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiden är sträckan dividerad med hastigheten:</p>\\[t=\\frac{2{,}28\\cdot10^{11}}{3\\cdot10^{8}}\\approx 760\\text{ s}\\]<p>Avrunda den totala tiden till 760 sekunder. 12 minuter är 720 sekunder, så 760 − 720 = 40 sekunder återstår.</p><p class=\"facit-svar\"><strong>Svar:</strong> 12 minuter och 40 sekunder</p></div>",
+  "familj": "Tiopotenser och grundpotensform",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    12,
+    40
+  ],
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Dividera avståndet med hastigheten. Omvandla den totala tiden i sekunder till minuter och sekunder.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 29,
+    "variant": 1
+  },
+  "svarEnhet": [
+    "min",
+    "s"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Minuter",
+    "Sekunder"
+  ]
+},
+{
+  "id": "0.1153",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Avståndet från jorden till månen är \\(3{,}84\\cdot10^8\\text{ m}\\). En radiosignal färdas med \\(3{,}0\\cdot10^8\\text{ m/s}\\). Hur lång tid tar det för signalen att nå månen? Avrunda till två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiden är sträckan dividerad med hastigheten:</p>\\[t=\\frac{3{,}84\\cdot10^8}{3{,}0\\cdot10^8}=\\frac{3{,}84}{3{,}0}=1{,}28\\text{ s}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1,28 s</p></div>",
+  "familj": "Tiopotenser och grundpotensform",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.28,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Använd tid = sträcka / hastighet. Vilka tiopotenser kan förkortas bort?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 29,
+    "variant": 2
+  },
+  "svarEnhet": "s"
+},
+{
+  "id": "0.1154",
+  "kap": 0,
+  "omr": "proportionalitet_grunder",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Två kranar fyller samma tomma behållare. Den ena fyller den ensam på 12 minuter och den andra på 6 minuter. Hur lång tid tar det när båda är öppna samtidigt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>På en minut fyller kranarna tillsammans denna del av behållaren:</p>\\[\\frac{1}{12}+\\frac{1}{6}=\\frac{1}{4}\\]<p>Hela behållare motsvarar 1. Tiden blir därför</p>\\[1\\div\\frac{1}{4}=4\\text{ min}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 4 min</p></div>",
+  "familj": "Proportionella samband",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.0,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur stor del gör var och en per minut eller timme? Addera deras takter.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 30,
+    "variant": 0
+  },
+  "svarEnhet": "min"
+},
+{
+  "id": "0.1155",
+  "kap": 0,
+  "omr": "proportionalitet_grunder",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Två personer målar samma staket. Den ena skulle måla hela staketet på 12 timmar och den andra på 8 timmar. Hur lång tid tar det om båda arbetar samtidigt i sina vanliga takter?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>På en timme målar de tillsammans denna del av staketet:</p>\\[\\frac{1}{12}+\\frac{1}{8}=\\frac{5}{24}\\]<p>Hela staket motsvarar 1. Tiden blir därför</p>\\[1\\div\\frac{5}{24}=4{,}8\\text{ h}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 4,8 h</p></div>",
+  "familj": "Proportionella samband",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.8,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Hur stor del gör var och en per minut eller timme? Addera deras takter.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 30,
+    "variant": 1
+  },
+  "svarEnhet": "h"
+},
+{
+  "id": "0.1156",
+  "kap": 0,
+  "omr": "proportionalitet_grunder",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>En tom tank fylls av två kranar. Den ena fyller den ensam på 10 minuter och den andra på 15 minuter. Ett utlopp tömmer en full tank på 30 minuter. Hur lång tid tar det att fylla tanken när båda kranarna och utloppet är öppna hela tiden?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kranarna tillför och utloppet tar bort dessa delar av tankens volym per minut:</p>\\[\\frac1{10}+\\frac1{15}-\\frac1{30}\\]<p>Skriv bråken med samma nämnare:</p>\\[\\frac3{30}+\\frac2{30}-\\frac1{30}=\\frac4{30}=\\frac2{15}\\]<p>Tiden för att fylla hela tanken blir</p>\\[1\\div\\frac2{15}=\\frac{15}2=7{,}5\\text{ min}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 7,5 min</p></div>",
+  "familj": "Proportionella samband",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 7.5,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Räkna del av tank per minut för varje kran och utloppet. Utloppets takt ska dras bort.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "spel": true,
+  "kallaProv": {
+    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+    "uppgift": 30,
+    "variant": 2
+  },
+  "svarEnhet": "min"
+}
 ];

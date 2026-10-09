@@ -3844,7 +3844,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-09-felrapporter-1254";
+const BANK_VERSION="2026-10-09-ma1-prov-varianter";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -6751,6 +6751,11 @@ function expandGameTask(t){
     }else{
       delete q.svarsstruktur;
       delete q.svarstyp;
+    }
+    // Ett resonemangsdelkort kan ha egna svar med förklaringar.
+    if(Array.isArray(del?.alternativ)){
+      q.alternativ=del.alternativ;
+      q.svarstyp="alternativ";
     }
     delete q.spelDelning;
     delete q.spelDelar;
@@ -9942,7 +9947,74 @@ function valAlternativ(t){
    - allmänna lösningar med k i stället för n (eller tvärtom) och med gradtecken: "x = 60° + k·180°".
    Varje variant prövas bara om svaret annars underkänns. */
 let delSvarDjup=0;
+/* Avgränsade provformat: exakta rationella exempel och begärd talform.
+   Ingen text körs som kod, och äldre uppgifter använder inte dessa format. */
+function rationelltProvTal(x){
+  let s=stadaSvar(hogerled(x)).replace(/\\(?:left|right)/g,"").trim();
+  if(s.length>300) return null;
+  s=s.replace(/\\(?:d?frac|tfrac)\s*\{([+-]?\d+)\}\s*\{([+-]?\d+)\}/g,"$1/$2")
+    .replace(/−/g,"-").replace(/\s+/g,"");
+  s=s.replace(/^\(([+-]?\d+\/[+-]?\d+)\)$/,"$1");
+  const fraction=s.match(/^([+-]?\d+|\([+-]?\d+\))\/([+-]?\d+|\([+-]?\d+\))$/);
+  let n,d;
+  if(fraction){n=BigInt(fraction[1].replace(/[()]/g,""));d=BigInt(fraction[2].replace(/[()]/g,""));}
+  else{
+    const dec=s.match(/^([+-]?)(\d*)(?:[.,](\d+))?$/);
+    if(!dec) return null;
+    if(!dec[2]&&!dec[3])return null;
+    n=BigInt(dec[2]+(dec[3]||""))*(dec[1]==="-"?-1n:1n);
+    d=10n**BigInt((dec[3]||"").length);
+  }
+  if(d===0n)return null;
+  if(d<0n){n=-n;d=-d;}
+  return [n,d];
+}
+function exempelBrakRatt(anv,villkor){
+  const v=rationelltProvTal(anv),lo=rationelltProvTal(villkor?.min),hi=rationelltProvTal(villkor?.max);
+  if(!v||!lo||!hi)return false;
+  return v[0]*lo[1]>lo[0]*v[1] && v[0]*hi[1]<hi[0]*v[1];
+}
+function negativtTalparRatt(anv,villkor){
+  let s=stadaSvar(anv).replace(/\\(?:left|right)/g,"").trim();
+  if(s.startsWith("(")||s.endsWith(")")){
+    if(!s.startsWith("(")||!s.endsWith(")"))return false;
+    s=s.slice(1,-1);
+  }
+  const list=s.includes(";")?s.split(";"):s.split(","),difference=rationelltProvTal(villkor?.skillnad);
+  if(list.length!==2||!difference)return false;
+  const a=rationelltProvTal(list[0]),b=rationelltProvTal(list[1]);
+  if(!a||!b||a[0]>=0n||b[0]>=0n)return false;
+  return (a[0]*b[1]-b[0]*a[1])*difference[1]===difference[0]*a[1]*b[1];
+}
+function forkortatProvBrakRatt(anv,facit){
+  let s=stadaSvar(hogerled(anv)).replace(/\\(?:left|right)/g,"").replace(/−/g,"-")
+    .replace(/\\(?:d?frac|tfrac)\s*\{([+-]?\d+)\}\s*\{([+-]?\d+)\}/g,"$1/$2").replace(/\s+/g,"");
+  s=s.replace(/^\(([+-]?\d+\/[1-9]\d*)\)$/,"$1");
+  const m=s.match(/^([+-]?\d+|\([+-]?\d+\))\/([1-9]\d*|\([1-9]\d*\))$/),f=rationelltProvTal(facit);
+  if(!m||!f)return false;
+  const n=BigInt(m[1].replace(/[()]/g,"")),d=BigInt(m[2].replace(/[()]/g,""));let a=n<0n?-n:n,b=d;
+  while(b){const r=a%b;a=b;b=r;}
+  return a===1n && n*f[1]===f[0]*d;
+}
+function grundpotensProvRatt(anv,facit){
+  const upp={"⁰":"0","¹":"1","²":"2","³":"3","⁴":"4","⁵":"5","⁶":"6","⁷":"7","⁸":"8","⁹":"9","⁻":"-","⁺":"+"};
+  const raw=stadaSvar(hogerled(anv)).replace(/10([⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]+)/g,(_,x)=>"10^"+[...x].map(c=>upp[c]).join(""));
+  const s=latexToPlain(raw).replace(/\{,\}/g,",").replace(/−/g,"-").replace(/\s+/g,"")
+    .replace(/\^\{([+-]?\d+)\}/g,"^$1");
+  const m=s.match(/^([+-]?(?:\d+(?:[.,]\d*)?|[.,]\d+))(?:(?:[*·⋅×]10\^(?:([+-]?\d+)|\(([+-]?\d+)\)))|(?:e([+-]?\d+)))$/i);
+  if(!m)return false;
+  const coefficient=Number(m[1].replace(",",".")),exponent=Number(m[2]??m[3]??m[4]);
+  if(Math.abs(coefficient)<1||Math.abs(coefficient)>=10||!Number.isInteger(exponent))return false;
+  const value=coefficient*10**exponent,expected=Number(facit);
+  return Number.isFinite(value)&&value!==0&&Number.isFinite(expected)
+    && Math.abs(value-expected)<=Math.abs(expected)*1e-12;
+}
+
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  if(format==="brak_i_intervall")return exempelBrakRatt(anv,t?.svarVillkor);
+  if(format==="negativt_talpar")return negativtTalparRatt(anv,t?.svarVillkor);
+  if(format==="forkortat_brak")return forkortatProvBrakRatt(anv,facit);
+  if(format==="grundpotensform")return grundpotensProvRatt(anv,facit);
   /* En vinkelstorlek kan skrivas positivt, eller med negativt tecken när
      riktningen är nedåt. Bara uppgifter med detta uttryckliga format berörs. */
   if(format==="vinkelbelopp"){
@@ -12163,7 +12235,7 @@ function checkAnswer(){
   const enkelEnhet=Array.isArray(t.svarEnhet)?t.svarEnhet[i]:t.svarEnhet;
   const enkelTol=Array.isArray(t.tolerans)?t.tolerans[i]:t.tolerans;
   const ok=delSvarRatt(svar,expected[i],enkelEnhet,enkelTol,t,i,enkelFormat);
-  registreraDel(i,ok,visatFacitUttryck(visatFacitTal(expected[i],enkelTol),enkelFormat));
+  registreraDel(i,ok,visatSvar(expected[i],enkelTol,enkelFormat));
 }
 
 /* Ett facit som 34.657359027997266 visas avrundat som uppgiften ber om ("34,7" vid
@@ -12197,12 +12269,25 @@ function visatFacitUttryck(v,format){
                         .replace(/(?<=\d)\*(?=[a-zπ])/gi,"·");
   return s;
 }
+function visatSvar(v,tol,format){
+  if(format==="grundpotensform"){
+    const value=Number(v),exponent=Math.floor(Math.log10(Math.abs(value)));
+    if(Number.isFinite(value)&&value!==0){
+      const coefficient=String(Number((value/10**exponent).toPrecision(12))).replace(".","{,}");
+      return "\\("+coefficient+"\\cdot10^{"+exponent+"}\\)";
+    }
+  }
+  if(format==="brak_i_intervall"||format==="negativt_talpar"){
+    return "Till exempel "+String(v).replace(/,\s*(?=-)/g,";");
+  }
+  return visatFacitUttryck(visatFacitTal(v,tol),format);
+}
 function facitText(d,kvar){
   return (kvar.length?kvar:d.svar.map((v,j)=>({v,j})))
     .map(k=>{
       /* LaTeX-facit (\frac, \sin ...) visas som formel i stället för som rå kod. */
       /* "<" i olikheter (1<x<=7) skulle annars tolkas som en HTML-tagg. */
-      const v=visatFacitUttryck(visatFacitTal(k.v,d.tol?.[k.j]),d.format?.[k.j]).replace(/<(?!\/?(?:sup|sub|b|i|em|strong|br)\b)/g,"&lt;");
+      const v=visatSvar(k.v,d.tol?.[k.j],d.format?.[k.j]).replace(/<(?!\/?(?:sup|sub|b|i|em|strong|br)\b)/g,"&lt;");
       const text=(/\\[a-zA-Z]/.test(v) && !v.includes("\\(")) ? "\\("+v+"\\)" : v;
       return text+(d.enhet[k.j]?" "+d.enhet[k.j]:"");
     })
@@ -15707,7 +15792,8 @@ function kvFacit(q){
   }
   delar.forEach(d=>{
     if(d.v===null || d.v===undefined || d.v==="") return;
-    const v=String(d.v);
+    // Ett numeriskt lagrat facit ska prövas i den talform frågan begär.
+    const v=d.fmt==="grundpotensform" ? latexToPlain(visatSvar(d.v,d.tol,d.fmt)) : String(d.v);
     // Eleven skriver inte LaTeX: ett LaTeX-facit provas i den vanliga text eleven skriver.
     if(/\\[a-zA-Z(]/.test(v)){
       const plain=latexToPlain(v);

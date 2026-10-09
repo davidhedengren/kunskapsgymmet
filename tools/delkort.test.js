@@ -301,6 +301,18 @@ test('Värmekorten använder samma svarsenheter som självrättningen',()=>{
 });
 function cxtPhysicsCards(id){return c.expandGameTask(bank('uppgifter.js').find(q=>q.id===id));}
 
+test('Elektroskopet behåller rätt svar och nivå när b utelämnas från spelet',()=>{
+ const original=bank('uppgifter.js').find(q=>q.id==='8.73');
+ const parts=cxtPhysicsCards('8.73');
+ assert.equal(parts.length,2);
+ assert.deepEqual(plain(parts.map(q=>q.rättSvar)),[original.rättSvar[0],original.rättSvar[2]]);
+ assert.deepEqual(plain(parts.map(q=>q.traningsniva)),[2,1]);
+ assert.ok(parts.every(q=>q.självrättning===true));
+ assert.match(parts[0].t,/oladdat/);
+ assert.match(parts[0].t,/vilken laddning/);
+ assert.match(parts[1].t,/tas bort/);
+});
+
 
 test('Mato1:s reviderade tangent, exponentialfunktion och integral har korrekta svarsfält',()=>{
  for(const [id,values]of [['2.254',[2,1]],['2.309',[2,2]],['3.481',[1,2]]]){

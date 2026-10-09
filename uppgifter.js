@@ -78082,7 +78082,7 @@ window.BANK = [
     "niva": "A",
     "poang": "(0/2/2)",
     "t": "<p>Vid ett blixtnedslag överförs laddningen 20 C mellan moln och mark, där spänningen mellan moln och mark är 100 MV.</p>\n<ol><li>Hur mycket energi frigörs?</li><li>Hur många kilowattimmar motsvarar det, och ge ett exempel på vad energin skulle räcka till?</li>\n<li>Luft slår igenom vid ungefär 3 MV/m. Vilket avstånd skulle 100 MV motsvara? Anta att molnet ligger 1,0 km över marken. Förklara varför modellen med ett jämnt fält inte kan beskriva hela blixten.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektrisk energi är laddning gånger potentialskillnad.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}E&=QU\\\\&=20\\cdot100\\cdot10^6\\\\&=2{,}0\\cdot10^9\\ \\mathrm J\\end{aligned}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^9\\ \\mathrm J\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>En kilowattimme är \\(3{,}6\\cdot10^6\\,\\mathrm J\\).</p><p>\\[E=\\frac{2{,}0\\cdot10^9}{3{,}6\\cdot10^6}\\approx556\\,\\mathrm{kWh}\\]</p><p>Exempel: en apparat med effekten 1 kW skulle kunna användas i cirka 556 timmar. Det är en energijämförelse; blixtenergin kan inte enkelt samlas in.</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>För ett jämnt fält gäller \\(U=Ed\\).</p><p>\\[d=\\frac{100\\,\\mathrm{MV}}{3\\,\\mathrm{MV/m}}\\approx33\\,\\mathrm m\\]</p><p>33 m är mycket mindre än molnets höjd, 1000 m. Vid en riktig blixt är fältet ojämnt. Blixten utvecklas steg för steg i kanaler där luften redan har börjat leda ström. Modellen med samma fältstyrka över hela avståndet räcker därför inte.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektrisk energi är laddning gånger potentialskillnad.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}E&=QU\\\\&=20\\cdot100\\cdot10^6\\\\&=2{,}0\\cdot10^9\\ \\mathrm J\\end{aligned}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^9\\ \\mathrm J\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>En kilowattimme är \\(3{,}6\\cdot10^6\\,\\mathrm J\\).</p><p>\\[E=\\frac{2{,}0\\cdot10^9}{3{,}6\\cdot10^6}\\approx556\\,\\mathrm{kWh}\\]</p><p>Exempel: en apparat med effekten 1 kW skulle kunna användas i cirka 556 timmar. Det är en energijämförelse; blixtenergin kan inte enkelt samlas in.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>För ett jämnt fält gäller \\(U=Ed\\).</p><p>\\[d=\\frac{100\\,\\mathrm{MV}}{3\\,\\mathrm{MV/m}}\\approx33\\,\\mathrm m\\]</p><p>33 m är mycket mindre än molnets höjd, 1000 m. Vid en riktig blixt är fältet ojämnt. Blixten utvecklas steg för steg i kanaler där luften redan har börjat leda ström. Modellen med samma fältstyrka över hela avståndet räcker därför inte.</p></div></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "problemlösning",
@@ -78575,11 +78575,11 @@ window.BANK = [
     "id": "8.16",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "jämföra grenströmmar när parallellkopplade resistorer är mycket olika stora, ur diagram, sökt ström resistans och resonemang",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar två parallellkopplade resistorer med mycket olika värden.</p><span class=\"fig bred\"><svg height=\"242\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.143 34.722 482.143 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">5,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 1000 Ω</text></svg></span>\n<ol><li>Hur stor ström går genom varje resistor?</li><li>Hur stor är den totala strömmen?</li>\n<li>Bestäm ersättningsresistansen.</li>\n<li>Hur stor andel av strömmen går genom R₁? Vad säger det om vilken resistor som avgör kopplingen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenarna har 5,0 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{5{,}0}{100}=50\\ \\mathrm{mA},\\qquad I_2=\\frac{5{,}0}{1000}\\approx0{,}005\\ \\mathrm{A}=5{,}0\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=55\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{5{,}0}{0{,}055}=90{,}9\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Andelen genom \\(R_1\\) är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{50}{55}=90{,}9\\,\\%\\]</div></div><div class=\"facit-stycke\"><p>Den minsta resistansen dominerar en parallellkoppling och drar största strömmen.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Grenströmmarna är \\(50\\) och \\(5{,}0\\ \\mathrm{mA}\\), totalt \\(55\\ \\mathrm{mA}\\); \\(R_e=90{,}9\\ \\Omega\\), och \\(90{,}9\\,\\%\\) går genom \\(R_1\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Figuren visar två parallellkopplade resistorer med mycket olika värden.</p><span class=\"fig bred\"><svg height=\"242\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.143 34.722 482.143 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">5,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 1000 Ω</text></svg></span>\n<ol><li>Hur stor ström går genom varje resistor?</li><li>Hur stor är den totala strömmen?</li>\n<li>Bestäm ersättningsresistansen.</li>\n<li>Hur många procent av den totala strömmen går genom R₁? Förklara varför R₁ leder mest ström.</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 5 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=5/100=0{,}05\\,\\mathrm A\\]</p><p>Det är \\(50\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=5/1000=0{,}005\\,\\mathrm A\\]</p><p>Det är \\(5\\,\\mathrm{mA}\\) i R2.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Grenströmmarna är 50,0 mA, 5,0 mA, eftersom varje gren har 5 V över sig.</p><p>\\[I=50+5=55\\,\\mathrm{mA}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>I en parallellkoppling adderas inverserna av resistanserna:</p><p>\\[\\frac1R=\\frac1{100}+\\frac1{1000}\\]</p><p>\\[R\\approx90{,}91\\,\\Omega\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Grenströmmarna är \\(5/100=0{,}050\\,\\mathrm A\\) och \\(5/1000=0{,}005\\,\\mathrm A\\). Totalt går 0,055 A.</p><p>\\[\\frac{0{,}050}{0{,}055}\\approx0{,}909\\]</p><p>Det motsvarar cirka <strong>91 %</strong>. R₁ leder mest ström eftersom båda grenarna har samma spänning, men R₁ har minst resistans.</p></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
       "procedur"
@@ -78587,31 +78587,34 @@ window.BANK = [
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      55,
-      90.9,
-      90.9
+      [
+        50.0,
+        5.0
+      ],
+      55.0,
+      90.9090909090909,
+      90.9090909090909
     ],
     "tolerans": [
-      null,
-      0.825,
-      1.3635,
-      1.3635
+      0.5,
+      0.5,
+      0.5,
+      0.55
     ],
     "självrättning": [
-      false,
+      true,
       true,
       true,
       true
     ],
     "svarFormat": [
-      null,
+      "numeriskt",
       "numeriskt",
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
+      "mA",
       "mA",
       "Ω",
       "%"
@@ -78625,43 +78628,61 @@ window.BANK = [
     ],
     "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två parallellkopplade resistorer med mycket olika värden.</p><span class=\"fig bred\"><svg height=\"242\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.143 34.722 482.143 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">5,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 1000 Ω</text></svg></span>",
+    "spelIntro": "<p>Figuren visar två parallellkopplade resistorer med mycket olika värden.</p><span class=\"fig bred\"><svg height=\"242\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.143 34.722 482.143 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">5,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 1000 Ω</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor ström går genom varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenarna har 5,0 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{5{,}0}{100}=50\\ \\mathrm{mA},\\qquad I_2=\\frac{5{,}0}{1000}\\approx0{,}005\\ \\mathrm{A}=5{,}0\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 5 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=5/100=0{,}05\\,\\mathrm A\\]</p><p>Det är \\(50\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=5/1000=0{,}005\\,\\mathrm A\\]</p><p>Det är \\(5\\,\\mathrm{mA}\\) i R2.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R1",
+          "R2"
+        ]
       },
       {
         "etikett": "b",
         "fraga": "Hur stor är den totala strömmen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=55\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(55\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Grenströmmarna är 50,0 mA, 5,0 mA, eftersom varje gren har 5 V över sig.</p><p>\\[I=50+5=55\\,\\mathrm{mA}\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
         "fraga": "Bestäm ersättningsresistansen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{5{,}0}{0{,}055}=90{,}9\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(90{,}9\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>I en parallellkoppling adderas inverserna av resistanserna:</p><p>\\[\\frac1R=\\frac1{100}+\\frac1{1000}\\]</p><p>\\[R\\approx90{,}91\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor andel av strömmen går genom R₁? Vad säger det om vilken resistor som avgör kopplingen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Andelen genom \\(R_1\\) är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{50}{55}=90{,}9\\,\\%\\]</div></div><div class=\"facit-stycke\"><p>Den minsta resistansen dominerar en parallellkoppling och drar största strömmen.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(90{,}9\\,\\%\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "fraga": "Hur många procent av den totala strömmen går genom R₁? Förklara varför R₁ leder mest ström.",
+        "s": "<div class=\"facit-v2\"><p>Grenströmmarna är \\(5/100=0{,}050\\,\\mathrm A\\) och \\(5/1000=0{,}005\\,\\mathrm A\\). Totalt går 0,055 A.</p><p>\\[\\frac{0{,}050}{0{,}055}\\approx0{,}909\\]</p><p>Det motsvarar cirka <strong>91 %</strong>. R₁ leder mest ström eftersom båda grenarna har samma spänning, men R₁ har minst resistans.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      true
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
@@ -78702,9 +78723,9 @@ window.BANK = [
     "id": "8.17",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "undersöka hur strömmen ändras när en resistor parallellkopplas till en befintlig, ur text, sökt ström och resistans",
-    "poang": "(2/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>En resistor på 200 Ω är ansluten till ett batteri på 12 V. Sedan kopplas ytterligare en resistor på 300 Ω parallellt med den första.</p><div class=\"fig smal\"><svg width=\"440\" height=\"280\" viewBox=\"0 0 440 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: två parallellkopplade resistorer anslutna till ett batteri\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M80.0 50.0 L340.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M80.0 240.0 L340.0 240.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M80.0 50.0 L80.0 240.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"64\" y=\"139\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"64\" y1=\"140\" x2=\"96\" y2=\"140\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"72\" y1=\"150\" x2=\"88\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"5\"/><text x=\"33\" y=\"151\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12 V</text><path d=\"M220.0 50.0 L220.0 240.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"212.0\" y=\"123.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"264\" y=\"151\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">200 Ω</text><path d=\"M340.0 50.0 L340.0 240.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"332.0\" y=\"123.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"384\" y=\"151\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">300 Ω</text><circle cx=\"220\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"220\" cy=\"240\" r=\"3.5\" fill=\"#24262b\"/></svg></div>\n<ol><li>Hur stor ström går genom kretsen innan den andra resistorn kopplas in?</li>\n<li>Bestäm ersättningsresistansen efter inkopplingen.</li>\n<li>Hur stor blir den totala strömmen efter inkopplingen?</li>\n<li>Hur stor är strömmen genom den första resistorn efter inkopplingen? Motivera.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Före inkopplingen finns bara 200 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_f=\\frac{12}{200}\\approx0{,}06\\ \\mathrm{A}=60\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter parallellkopplingen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{200\\cdot300}{200+300}=120\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{tot}}=\\frac{12}{120}\\approx0{,}1\\ \\mathrm{A}=100\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den första resistorn har fortfarande 12 V över sig.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{12}{200}\\approx0{,}06\\ \\mathrm{A}=60\\ \\mathrm{mA}\\]</div></div><div class=\"facit-stycke\"><p>Den nya grenen tillför 40 mA.</p></div><div class=\"facit-stycke\"><p>Detta gäller för ett idealiskt 12-voltsbatteri.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Före: \\(60\\ \\mathrm{mA}\\). Efter: \\(R_e=120\\ \\Omega\\) och totalström \\(100\\ \\mathrm{mA}\\); den första grenen leder fortfarande \\(60\\ \\mathrm{mA}\\).</p></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
@@ -78721,12 +78742,17 @@ window.BANK = [
       60
     ],
     "tolerans": [
-      0.8999999999999999,
-      1.7999999999999998,
-      1.5,
-      0.8999999999999999
+      0.5,
+      0.5,
+      0.5,
+      0.5
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -78734,10 +78760,10 @@ window.BANK = [
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
-      null,
-      null
+      "mA",
+      "Ω",
+      "mA",
+      "mA"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -78754,39 +78780,53 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur stor ström går genom kretsen innan den andra resistorn kopplas in?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Före inkopplingen finns bara 200 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_f=\\frac{12}{200}\\approx0{,}06\\ \\mathrm{A}=60\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Före inkopplingen finns bara 200 Ω. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Bestäm ersättningsresistansen efter inkopplingen.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter parallellkopplingen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{200\\cdot300}{200+300}=120\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Före inkopplingen finns bara 200 Ω. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
         "fraga": "Hur stor blir den totala strömmen efter inkopplingen?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{tot}}=\\frac{12}{120}\\approx0{,}1\\ \\mathrm{A}=100\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Före inkopplingen finns bara 200 Ω. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "d",
         "fraga": "Hur stor är strömmen genom den första resistorn efter inkopplingen? Motivera.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den första resistorn har fortfarande 12 V över sig.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{12}{200}\\approx0{,}06\\ \\mathrm{A}=60\\ \\mathrm{mA}\\]</div></div><div class=\"facit-stycke\"><p>Den nya grenen tillför 40 mA.</p></div><div class=\"facit-stycke\"><p>Detta gäller för ett idealiskt 12-voltsbatteri.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Före inkopplingen finns bara 200 Ω. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      true
     ]
   },
   {
@@ -78842,11 +78882,11 @@ window.BANK = [
     "id": "8.19",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "tolka voltmetarens visning i parallellkoppling och beräkna grenströmmar, ur diagram, sökt spänning ström och resistans",
-    "poang": "(2/1/0)",
-    "t": "<p>En voltmeter är inkopplad enligt figuren.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><line x1=\"365\" y1=\"48\" x2=\"365\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"365\" y1=\"146\" x2=\"365\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"365\" cy=\"132\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"365\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">V</text></svg></span>\n<ol><li>Vad visar voltmetern?</li><li>Hur stor ström går genom varje resistor?</li>\n<li>Hur stor ström går genom batteriet?</li>\n<li>Bestäm ersättningsresistansen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Voltmetern är parallell med både resistorerna och batteriet och antas ideal.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_V=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{6{,}0}{200}=30\\ \\mathrm{mA},\\qquad I_2=\\frac{6{,}0}{300}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=30+20=50\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{6{,}0}{0{,}050}=120\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Voltmetern visar \\(6{,}0\\ \\mathrm V\\). Grenströmmarna är \\(30\\) och \\(20\\ \\mathrm{mA}\\), totalströmmen \\(50\\ \\mathrm{mA}\\), och \\(R_e=120\\ \\Omega\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En voltmeter är inkopplad enligt figuren.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><line x1=\"365\" y1=\"48\" x2=\"365\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"365\" y1=\"146\" x2=\"365\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"365\" cy=\"132\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"365\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">V</text></svg></span>\n<ol><li>Vad visar voltmetern?</li><li>Hur stor ström går genom varje resistor?</li>\n<li>Hur stor ström går genom batteriet?</li>\n<li>Bestäm ersättningsresistansen.</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Voltmetern är ansluten mellan samma två punkter som batteriet. Den visar därför <strong>6,0 V</strong>.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 6 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=6/200=0{,}03\\,\\mathrm A\\]</p><p>Det är \\(30\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=6/300=0{,}02\\,\\mathrm A\\]</p><p>Det är \\(20\\,\\mathrm{mA}\\) i R2.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Grenströmmarna är 30,0 mA, 20,0 mA, eftersom varje gren har 6 V över sig.</p><p>\\[I=30+20=50\\,\\mathrm{mA}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>I en parallellkoppling adderas inverserna av resistanserna:</p><p>\\[\\frac1R=\\frac1{200}+\\frac1{300}\\]</p><p>\\[R\\approx120\\,\\Omega\\]</p></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
       "procedur"
@@ -78854,32 +78894,35 @@ window.BANK = [
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      50,
-      120
+      6,
+      [
+        30.0,
+        20.0
+      ],
+      50.0,
+      120.0
     ],
     "tolerans": [
-      null,
-      null,
-      0.75,
-      1.7999999999999998
+      0.05,
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": [
-      false,
-      false,
+      true,
+      true,
       true,
       true
     ],
     "svarFormat": [
-      null,
-      null,
+      "numeriskt",
+      "numeriskt",
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
+      "V",
+      "mA",
       "mA",
       "Ω"
     ],
@@ -78892,43 +78935,61 @@ window.BANK = [
     ],
     "ledtrad": "<p>Voltmetern är parallell med både resistorerna och batteriet och antas ideal.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En voltmeter är inkopplad enligt figuren.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><line x1=\"365\" y1=\"48\" x2=\"365\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"365\" y1=\"146\" x2=\"365\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"365\" cy=\"132\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"365\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">V</text></svg></span>",
+    "spelIntro": "<p>En voltmeter är inkopplad enligt figuren.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><line x1=\"365\" y1=\"48\" x2=\"365\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"365\" y1=\"146\" x2=\"365\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"365\" cy=\"132\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"365\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">V</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vad visar voltmetern?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Voltmetern är parallell med både resistorerna och batteriet och antas ideal.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_V=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Voltmetern är parallell med både resistorerna och batteriet och antas ideal.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Voltmetern är ansluten mellan samma två punkter som batteriet. Den visar därför <strong>6,0 V</strong>.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Hur stor ström går genom varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{6{,}0}{200}=30\\ \\mathrm{mA},\\qquad I_2=\\frac{6{,}0}{300}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Voltmetern är parallell med både resistorerna och batteriet och antas ideal.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 6 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=6/200=0{,}03\\,\\mathrm A\\]</p><p>Det är \\(30\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=6/300=0{,}02\\,\\mathrm A\\]</p><p>Det är \\(20\\,\\mathrm{mA}\\) i R2.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R1",
+          "R2"
+        ]
       },
       {
         "etikett": "c",
         "fraga": "Hur stor ström går genom batteriet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=30+20=50\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Voltmetern är parallell med både resistorerna och batteriet och antas ideal.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Grenströmmarna är 30,0 mA, 20,0 mA, eftersom varje gren har 6 V över sig.</p><p>\\[I=30+20=50\\,\\mathrm{mA}\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "d",
         "fraga": "Bestäm ersättningsresistansen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{6{,}0}{0{,}050}=120\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Voltmetern är parallell med både resistorerna och batteriet och antas ideal.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>I en parallellkoppling adderas inverserna av resistanserna:</p><p>\\[\\frac1R=\\frac1{200}+\\frac1{300}\\]</p><p>\\[R\\approx120\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      false
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
@@ -78941,7 +79002,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>I en krets sitter två resistorer i serie med ett batteri. En voltmeter över den första visar 4,5 V och en amperemeter visar 30 mA. Batteriets spänning är 12 V.</p><div class=\"fig smal\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: två seriekopplade resistorer med voltmeter och amperemeter\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M60.0 90.0 L440.0 90.0 L440.0 240.0 L60.0 240.0 L60.0 90.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"44\" y=\"159\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"44\" y1=\"160\" x2=\"76\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"52\" y1=\"170\" x2=\"68\" y2=\"170\" stroke=\"#24262b\" stroke-width=\"5\"/><text x=\"20\" y=\"171\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12 V</text><rect x=\"168.0\" y=\"82.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"120\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₁</text><rect x=\"308.0\" y=\"82.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"330\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₂</text><circle cx=\"440\" cy=\"165\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"440\" y=\"170\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text><circle cx=\"150\" cy=\"90\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"230\" cy=\"90\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M150.0 90.0 L150.0 40.0 L176.0 40.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M204.0 40.0 L230.0 40.0 L230.0 90.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"40\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text></svg></div>\n<ol><li>Bestäm den första resistorns värde.</li><li>Vilken spänning ligger över den andra?</li>\n<li>Bestäm den andra resistorns värde.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen är 0,030 A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_1=\\frac{4{,}5}{0{,}030}=150\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(150\\ \\Omega\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kirchhoffs spänningslag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_2=12-4{,}5=7{,}5\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\ \\mathrm V\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Spänningen över den andra resistorn är \\(12-4{,}5=7{,}5\\,\\mathrm V\\). Strömmen är \\(30\\,\\mathrm{mA}=0{,}030\\,\\mathrm A\\).</p><p>\\[R_2=7{,}5/0{,}030=250\\,\\Omega\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen är 0,030 A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_1=\\frac{4{,}5}{0{,}030}=150\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(150\\ \\Omega\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kirchhoffs spänningslag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_2=12-4{,}5=7{,}5\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\ \\mathrm V\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Spänningen över den andra resistorn är \\(12-4{,}5=7{,}5\\,\\mathrm V\\). Strömmen är \\(30\\,\\mathrm{mA}=0{,}030\\,\\mathrm A\\).</p><p>\\[R_2=7{,}5/0{,}030=250\\,\\Omega\\]</p></div></div>",
     "familj": "Spänningsdelning i seriekoppling",
     "formaga": [
       "procedur"
@@ -79033,15 +79094,15 @@ window.BANK = [
     "niva": "E",
     "typ": "ersättningsresistans för två resistorer",
     "poang": "(1/0/0)",
-    "t": "<p>Två resistorer är kopplade parallellt enligt figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">6 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">8 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"38\" y=\"116\" font-size=\"14\">U</text></svg></span><p>Resistanserna är \\(R_1=6\\,\\Omega\\) och \\(R_2=8\\,\\Omega\\). Bestäm ersättningsresistansen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd sambandet för den aktuella kopplingstypen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac1{R_{eq}}=\\frac1{R_1}+\\frac1{R_2}\\]\\[R_{eq}=3{,}429\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}429\\,\\Omega\\).</p></div>",
+    "t": "<p>Två resistorer är kopplade parallellt enligt figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">6 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">8 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"105\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"118\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"38\" y=\"116\" font-size=\"14\">U</text></svg></span><p>Resistanserna är \\(R_1=6\\,\\Omega\\) och \\(R_2=8\\,\\Omega\\). Bestäm ersättningsresistansen.</p>",
+    "s": "<div class=\"facit-v2\"><p>För två parallellkopplade resistorer kan du använda \\(R=\\frac{R_1R_2}{R_1+R_2}\\).</p><p>\\[R=\\frac{6\\cdot8}{6+8}\\]</p><p>\\[R\\approx3{,}429\\,\\Omega\\]</p></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.428571,
+    "rättSvar": 3.4285714285714284,
     "tolerans": 0.061714,
     "självrättning": true,
     "miniräknare": true,
@@ -80157,7 +80218,7 @@ window.BANK = [
     "typ": "lösa ekvationssystem med tre obekanta strömmar och därefter effekt i mittgrenen, ur diagram, sökt ström och effekt",
     "poang": "(0/1/2)",
     "t": "<p>Figuren visar en krets med två batterier och tre grenar.</p><span class=\"fig bred\"><svg height=\"236\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"23.914 37.033 502.200 191.335\"><line x1=\"120\" y1=\"50\" x2=\"430\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"215\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"50\" x2=\"430\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"275\" y1=\"50\" x2=\"275\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"275\" cy=\"50\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"275\" cy=\"215\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"104\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"92\" x2=\"135\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"108\" x2=\"126\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"104\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₁ = 12 V</text><text x=\"141\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"110\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"103\" y=\"176\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><rect x=\"414\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"415\" y1=\"92\" x2=\"445\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"424\" y1=\"108\" x2=\"436\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"452\" y=\"104\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₂ = 9,0 V</text><text x=\"409\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"420\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 150 Ω</text><rect x=\"265\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 100 Ω</text><line x1=\"152\" y1=\"148\" x2=\"152\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"152,108 147.4,118 156.6,118\" fill=\"#2A5D9E\"/><text x=\"158\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₁</text><line x1=\"300\" y1=\"108\" x2=\"300\" y2=\"144\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"300,152 295.4,142 304.6,142\" fill=\"#2A5D9E\"/><text x=\"306\" y=\"134\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₃</text><line x1=\"390\" y1=\"148\" x2=\"390\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"390,108 385.4,118 394.6,118\" fill=\"#2A5D9E\"/><text x=\"384\" y=\"132\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₂</text></svg></span>\n<ol><li>Bestäm I₁, I₂ och I₃.</li>\n<li>Vilken effekt utvecklas i R₃?</li>\n<li>Hur stor effekt avger vart och ett av batterierna? Stämmer energibalansen?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>Strömmarna in i den övre knutpunkten är lika stora som strömmen ut:</p><p>\\[I_1+I_2=I_3\\]</p><p>De två slingorna ger:</p><p>\\[12-150I_1-100I_3=0\\]</p><p>\\[9-150I_2-100I_3=0\\]</p><p>Lös ut de två grenströmmarna och sätt in dem i knutpunktsekvationen:</p><p>\\[I_3=\\frac{12-100I_3}{150}+\\frac{9-100I_3}{150}\\]</p><p>Multiplicera med 22500 och samla termerna med \\(I_3\\):</p><p>\\[52500I_3=3150\\]</p><p>\\[I_3=0{,}06\\,\\mathrm A\\]</p><p>Sätt in strömmen i uttrycken för I₁ och I₂:</p><p>\\[I_1=0{,}04\\,\\mathrm A\\]</p><p>\\[I_2=0{,}02\\,\\mathrm A\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten i mittresistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_3=100(0{,}060)^2=0{,}360\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}360\\ \\mathrm W\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batterierna avger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{E1}=12\\cdot0{,}040=0{,}480\\ \\mathrm W\\]\\[P_{E2}=9{,}0\\cdot0{,}020=0{,}180\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p>Tillfört \\(0{,}660\\ \\mathrm W\\).</p></div><div class=\"facit-stycke\"><p>Resistorernas summan är \\(150(0{,}040)^2+150(0{,}020)^2+0{,}360=0{,}660\\ \\mathrm W\\).</p></div></div></div></div><p><strong>Svar:</strong> Batterierna avger 0,480 W och 0,180 W. Summan 0,660 W är lika med resistorernas sammanlagda effekt.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Strömmarna in i den övre knutpunkten är lika stora som strömmen ut:</p><p>\\[I_1+I_2=I_3\\]</p><p>De två slingorna ger:</p><p>\\[12-150I_1-100I_3=0\\]</p><p>\\[9-150I_2-100I_3=0\\]</p><p>Lös ut de två grenströmmarna och sätt in dem i knutpunktsekvationen:</p><p>\\[I_3=\\frac{12-100I_3}{150}+\\frac{9-100I_3}{150}\\]</p><p>Multiplicera med 22500 och samla termerna med \\(I_3\\):</p><p>\\[52500I_3=3150\\]</p><p>\\[I_3=0{,}06\\,\\mathrm A\\]</p><p>Sätt in strömmen i uttrycken för I₁ och I₂:</p><p>\\[I_1=0{,}04\\,\\mathrm A\\]</p><p>\\[I_2=0{,}02\\,\\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten i mittresistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_3=100(0{,}060)^2=0{,}360\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}360\\ \\mathrm W\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batterierna avger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{E1}=12\\cdot0{,}040=0{,}480\\ \\mathrm W\\]\\[P_{E2}=9{,}0\\cdot0{,}020=0{,}180\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p>Tillfört \\(0{,}660\\ \\mathrm W\\).</p></div><div class=\"facit-stycke\"><p>Resistorernas summan är \\(150(0{,}040)^2+150(0{,}020)^2+0{,}360=0{,}660\\ \\mathrm W\\).</p></div></div></div></div><p><strong>Svar:</strong> Batterierna avger 0,480 W och 0,180 W. Summan 0,660 W är lika med resistorernas sammanlagda effekt.</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "problemlösning"
@@ -80621,20 +80682,20 @@ window.BANK = [
     "niva": "E",
     "typ": "enkel Coulombkraft",
     "poang": "(1/0/0)",
-    "t": "<p>Två punktladdningar har storlekarna \\(1{,}4\\ \\mu\\mathrm C\\) vardera och ligger \\(0{,}75\\ \\mathrm m\\) från varandra. Bestäm Coulombkraftens storlek.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt in laddningarna och avståndet i Coulombs lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=k\\frac{|q_1q_2|}{r^2}=8{,}99\\cdot10^9\\frac{(1{,}4\\cdot10^{-6})^2}{0{,}75^2}\\approx3{,}13\\cdot10^{-2}\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(31\\ \\mathrm{mN}\\).</p></div>",
+    "t": "<p>Två punktladdningar har storlekarna \\(1{,}4\\ \\mu\\mathrm C\\) vardera och ligger \\(0{,}75\\ \\mathrm m\\) från varandra. Bestäm Coulombkraftens storlek.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddningarna: \\(q_1=1{,}4\\cdot10^{-6}\\,\\mathrm C\\) och \\(q_2=1{,}4\\cdot10^{-6}\\,\\mathrm C\\).</p><p>Laddningsprodukten i storlek är \\(|q_1q_2|=1{,}96\\cdot10^{-12}\\,\\mathrm{C^2}\\).</p><p>Coulombs lag ger:</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot1{,}96\\cdot10^{-12}}{0{,}75^2}\\]</p><p>Det ger cirka 0,0313 N, alltså <strong>31,3 mN</strong>.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 31.3251555556,
+    "rättSvar": 31.325155555555554,
     "tolerans": 0.47,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Omvandla laddningarna till C och avståndet till m. Kraftens storlek fås av \\(F=k|q_1q_2|/r^2\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mN",
     "traningsniva": 2,
@@ -81134,7 +81195,7 @@ window.BANK = [
     "niva": "C",
     "typ": "jämföra effektutveckling i tre resistorer i blandad koppling, ur diagram, sökt effekt och jämförelse",
     "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en blandad koppling.</p><span class=\"fig bred\"><svg height=\"281\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 11.574 469.800 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">18 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 400 Ω</text></svg></span>\n<p>Vilken av de tre resistorerna utvecklar störst effekt? Beräkna effekten i var och en.</p>",
+    "t": "<p>Figuren visar en blandad koppling.</p><span class=\"fig bred\"><svg height=\"281\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 11.574 469.800 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">18 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 400 Ω</text></svg></span>\n<p>Vilken av de tre resistorerna utvecklar störst effekt? Beräkna effekten i var och en.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Parallelldelen ger</p><div class=\"facit-matte\">\\[R_{23}=\\frac{100\\cdot400}{100+400}=80\\ \\Omega\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Totalresistansen är \\(100+80=180\\ \\Omega\\), så totalströmmen är 0,100 A.</p><div class=\"facit-matte\">\\[P_1=100(0{,}100)^2=1{,}00\\ \\mathrm W\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Parallelldelen får \\(U_p=0{,}100\\cdot80=8{,}0\\ \\mathrm V\\).</p><div class=\"facit-matte\">\\[P_2=\\frac{8{,}0^2}{100}=0{,}64\\ \\mathrm W\\]\\[P_3=\\frac{8{,}0^2}{400}=0{,}16\\ \\mathrm W\\]</div><p>Kontroll: \\(1{,}00+0{,}64+0{,}16=1{,}80\\ \\mathrm W=UI\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_1\\) utvecklar störst effekt: \\(P_1=1{,}00\\ \\mathrm W\\), \\(P_2=0{,}64\\ \\mathrm W\\), \\(P_3=0{,}16\\ \\mathrm W\\).</p></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
@@ -81164,8 +81225,8 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma okänd resistans i parallelldel ur totalströmmen och därefter effekten, ur diagram, sökt resistans och effekt",
     "poang": "(1/2/0)",
-    "t": "<p>Den totala strömmen genom batteriet är 40 mA.</p><span class=\"fig bred\"><svg height=\"299\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 11.574 441.257 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = ?</text></svg></span>\n<ol><li>Bestäm R₃.</li><li>Vilken effekt utvecklas i R₃?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är \\(12/0{,}040=300\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallelldelen måste därför vara \\(300-100=200\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac1{200}=\\frac1{300}+\\frac1{R_3}\\Rightarrow R_3=600\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallelldelens spänning är \\(U_p=0{,}040\\cdot200=8{,}0\\ \\mathrm V\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_3=\\frac{U_p^2}{R_3}=\\frac{64}{600}=0{,}1067\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_3=600\\ \\Omega\\), och den utvecklar cirka \\(0{,}107\\ \\mathrm W\\).</p></div>",
+    "t": "<p>Den totala strömmen genom batteriet är 40 mA.</p><span class=\"fig bred\"><svg height=\"299\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 11.574 441.257 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = ?</text></svg></span>\n<ol><li>Bestäm R₃.</li><li>Vilken effekt utvecklas i R₃?</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är \\(12/0{,}040=300\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallelldelen måste därför vara \\(300-100=200\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac1{200}=\\frac1{300}+\\frac1{R_3}\\Rightarrow R_3=600\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\ \\Omega\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Strömmen genom batteriet är 0,040 A. Spänningsfallet över R₁ är \\(0{,}040\\cdot100=4{,}0\\,\\mathrm V\\). Parallelldelen har därför \\(12-4=8{,}0\\,\\mathrm V\\).</p><p>\\[P_3=8{,}0^2/600\\approx0{,}107\\,\\mathrm W\\]</p></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
       "procedur"
@@ -81196,7 +81257,7 @@ window.BANK = [
     ],
     "ledtrad": "<p>Totalresistansen är \\(12/0{,}040=300\\ \\Omega\\). Parallelldelen måste därför vara \\(300-100=200\\ \\Omega\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Den totala strömmen genom batteriet är 40 mA.</p><span class=\"fig bred\"><svg height=\"299\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 11.574 441.257 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = ?</text></svg></span>",
+    "spelIntro": "<p>Den totala strömmen genom batteriet är 40 mA.</p><span class=\"fig bred\"><svg height=\"299\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 11.574 441.257 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = ?</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -81207,10 +81268,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken effekt utvecklas i R₃?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallelldelens spänning är \\(U_p=0{,}040\\cdot200=8{,}0\\ \\mathrm V\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_3=\\frac{U_p^2}{R_3}=\\frac{64}{600}=0{,}1067\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}1067\\ \\mathrm W\\).</p></div>",
+        "fraga": "R₃ är 600 Ω. Vilken effekt utvecklas i R₃?",
+        "s": "<div class=\"facit-v2\"><p>Strömmen genom batteriet är 0,040 A. Spänningsfallet över R₁ är \\(0{,}040\\cdot100=4{,}0\\,\\mathrm V\\). Parallelldelen har därför \\(12-4=8{,}0\\,\\mathrm V\\).</p><p>\\[P_3=8{,}0^2/600\\approx0{,}107\\,\\mathrm W\\]</p></div>",
         "ledtrad": "<p>Totalresistansen är \\(12/0{,}040=300\\ \\Omega\\). Parallelldelen måste därför vara \\(300-100=200\\ \\Omega\\).</p>",
-        "niva": "C"
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       }
     ],
     "geogebra": false,
@@ -81978,7 +82041,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri är kopplat till två seriekopplade resistorer enligt figuren. Batteriets minuspol är jordad.</p><span class=\"fig\"><svg height=\"370\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"93.314 7.224 360.771 267.270\"><line x1=\"110\" y1=\"60\" x2=\"245\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"255\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"60\" x2=\"390\" y2=\"77\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"133\" x2=\"390\" y2=\"157\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"213\" x2=\"390\" y2=\"240\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"240\" x2=\"110\" y2=\"240\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"240\" x2=\"110\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"255\" y1=\"45\" x2=\"255\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"52\" x2=\"245\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"265\" y=\"47\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"250\" y=\"29\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><rect x=\"380\" y=\"77\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"407\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">200 Ω</text><rect x=\"380\" y=\"157\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"407\" y=\"189\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">400 Ω</text><circle cx=\"390\" cy=\"60\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"390\" cy=\"145\" r=\"3.6\" fill=\"#2B2527\"/><line x1=\"220\" y1=\"240\" x2=\"220\" y2=\"250\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"208\" y1=\"250\" x2=\"232\" y2=\"250\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><line x1=\"212.5\" y1=\"255\" x2=\"227.5\" y2=\"255\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><line x1=\"217\" y1=\"260\" x2=\"223\" y2=\"260\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"404\" y=\"54\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">A</text><text x=\"404\" y=\"149\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">B</text></svg></span>\n<ol><li>Hur stor ström går genom kretsen?</li>\n<li>Bestäm spänningen över varje resistor.</li>\n<li>Bestäm potentialen i punkterna A och B. Ange först A, sedan B.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>Resistorerna är i serie: \\(R=200+400=600\\,\\Omega\\).</p><p>\\[I=9{,}0/600=0{,}015\\,\\mathrm A=15\\,\\mathrm{mA}\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Samma ström går genom båda resistorerna. Omvandla \\(15\\,\\mathrm{mA}=0{,}015\\,\\mathrm A\\).</p><p>\\[U_{200}=0{,}015\\cdot200=3{,}0\\,\\mathrm V\\]</p><p>\\[U_{400}=0{,}015\\cdot400=6{,}0\\,\\mathrm V\\]</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Minuspolen är jordad, så pluspolen och A har potentialen 9,0 V. Strömmen är \\(I=9{,}0/(200+400)=0{,}015\\,\\mathrm A\\).</p><p>Över 200 Ω sjunker potentialen med \\(0{,}015\\cdot200=3{,}0\\,\\mathrm V\\).</p><p>\\[V_A=9{,}0\\,\\mathrm V\\]</p><p>\\[V_B=9{,}0-3{,}0=6{,}0\\,\\mathrm V\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Resistorerna är i serie: \\(R=200+400=600\\,\\Omega\\).</p><p>\\[I=9{,}0/600=0{,}015\\,\\mathrm A=15\\,\\mathrm{mA}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Samma ström går genom båda resistorerna. Omvandla \\(15\\,\\mathrm{mA}=0{,}015\\,\\mathrm A\\).</p><p>\\[U_{200}=0{,}015\\cdot200=3{,}0\\,\\mathrm V\\]</p><p>\\[U_{400}=0{,}015\\cdot400=6{,}0\\,\\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Minuspolen är jordad, så pluspolen och A har potentialen 9,0 V. Strömmen är \\(I=9{,}0/(200+400)=0{,}015\\,\\mathrm A\\).</p><p>Över 200 Ω sjunker potentialen med \\(0{,}015\\cdot200=3{,}0\\,\\mathrm V\\).</p><p>\\[V_A=9{,}0\\,\\mathrm V\\]</p><p>\\[V_B=9{,}0-3{,}0=6{,}0\\,\\mathrm V\\]</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "begrepp",
@@ -82164,7 +82227,7 @@ window.BANK = [
     "typ": "lösa ekvationssystem med tre obekanta strömmar med potentialvandring och tolka negativt tecken, ur diagram, sökt ström",
     "poang": "(0/1/2)",
     "t": "<p>Figuren visar en krets med två batterier och tre grenar. Strömmarnas antagna riktningar är utsatta.</p><span class=\"fig bred\"><svg height=\"236\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"23.914 37.033 502.200 191.335\"><line x1=\"120\" y1=\"50\" x2=\"430\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"215\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"50\" x2=\"430\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"275\" y1=\"50\" x2=\"275\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"275\" cy=\"50\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"275\" cy=\"215\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"104\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"92\" x2=\"135\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"108\" x2=\"126\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"104\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₁ = 12 V</text><text x=\"141\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"110\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"103\" y=\"176\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"414\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"415\" y1=\"92\" x2=\"445\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"424\" y1=\"108\" x2=\"436\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"452\" y=\"104\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₂ = 6,0 V</text><text x=\"409\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"420\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 100 Ω</text><rect x=\"265\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 200 Ω</text><line x1=\"152\" y1=\"148\" x2=\"152\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"152,108 147.4,118 156.6,118\" fill=\"#2A5D9E\"/><text x=\"158\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₁</text><line x1=\"300\" y1=\"108\" x2=\"300\" y2=\"144\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"300,152 295.4,142 304.6,142\" fill=\"#2A5D9E\"/><text x=\"306\" y=\"134\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₃</text><line x1=\"390\" y1=\"148\" x2=\"390\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"390,108 385.4,118 394.6,118\" fill=\"#2A5D9E\"/><text x=\"384\" y=\"132\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₂</text></svg></span>\n<ol><li>Ställ upp tre ekvationer med hjälp av potentialvandringar och Kirchhoffs första lag.</li>\n<li>Bestäm I₁, I₂ och I₃.</li>\n<li>Tolka tecknet på svaren fysikaliskt.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Knutpunktslagen och de två slingekvationerna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1+I_2=I_3\\]\\[12-100I_1-200I_3=0\\]\\[6{,}0-100I_2-200I_3=0\\]</div></div></div></div></div><p><strong>Svar:</strong> De tre ekvationerna ovan beskriver knutpunkten och de två slingorna.</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ur slingorna fås \\(I_1=0{,}12-2I_3\\) och \\(I_2=0{,}060-2I_3\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_3=0{,}18-4I_3\\Rightarrow I_3=36\\ \\mathrm{mA}\\]\\[I_1=48\\ \\mathrm{mA},\\qquad I_2=-12\\ \\mathrm{mA}\\]</div></div></div></div></div><p><strong>Svar:</strong> I₁ = 48 mA, I₂ = −12 mA och I₃ = 36 mA.</p></div></p><p><strong>c)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det negativa \\(I_2\\) betyder att verklig ström går motsatt den ritade pilen, alltså nedåt i den högra grenen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det starkare batteriet driver då ström in i det svagare batteriets pluspol, så det laddas.</p></div><div class=\"facit-stycke\"><p>Kontroll: \\(48+(-12)=36\\ \\mathrm{mA}\\).</p></div></div></div></div></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Knutpunktslagen och de två slingekvationerna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1+I_2=I_3\\]\\[12-100I_1-200I_3=0\\]\\[6{,}0-100I_2-200I_3=0\\]</div></div></div></div></div><p><strong>Svar:</strong> De tre ekvationerna ovan beskriver knutpunkten och de två slingorna.</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ur slingorna fås \\(I_1=0{,}12-2I_3\\) och \\(I_2=0{,}060-2I_3\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_3=0{,}18-4I_3\\Rightarrow I_3=36\\ \\mathrm{mA}\\]\\[I_1=48\\ \\mathrm{mA},\\qquad I_2=-12\\ \\mathrm{mA}\\]</div></div></div></div></div><p><strong>Svar:</strong> I₁ = 48 mA, I₂ = −12 mA och I₃ = 36 mA.</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det negativa \\(I_2\\) betyder att verklig ström går motsatt den ritade pilen, alltså nedåt i den högra grenen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det starkare batteriet driver då ström in i det svagare batteriets pluspol, så det laddas.</p></div><div class=\"facit-stycke\"><p>Kontroll: \\(48+(-12)=36\\ \\mathrm{mA}\\).</p></div></div></div></div></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "problemlösning"
@@ -82318,11 +82381,11 @@ window.BANK = [
     "id": "8.51",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "resonera om ersättningsresistans för två lika stora parallellkopplade resistorer, ur diagram, sökt resistans och ström",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar två lika stora parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">4,7 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 470 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 470 Ω</text></svg></span>\n<ol><li>Hur stor ström går genom varje resistor?</li><li>Hur stor är den totala strömmen?</li>\n<li>Bestäm ersättningsresistansen.</li>\n<li>Vad blir ersättningsresistansen om man kopplar in en tredje likadan resistor parallellt?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje 470-ohmsresistor har 4,7 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=I_2=\\frac{4{,}7}{470}\\approx0{,}01\\ \\mathrm{A}=10\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=10+10=20\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två lika parallella resistorer ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{470}{2}=235\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre lika parallellt ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e'=\\frac{470}{3}=156{,}7\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Varje gren leder \\(10\\ \\mathrm{mA}\\), totalt \\(20\\ \\mathrm{mA}\\); två resistorer ger \\(235\\ \\Omega\\) och tre ger cirka \\(157\\ \\Omega\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Figuren visar två lika stora parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">4,7 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 470 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 470 Ω</text></svg></span>\n<ol><li>Hur stor ström går genom varje resistor?</li><li>Hur stor är den totala strömmen?</li>\n<li>Bestäm ersättningsresistansen.</li>\n<li>Vad blir ersättningsresistansen om man kopplar in en tredje likadan resistor parallellt?</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 4,7 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=4{,}7/470=0{,}01\\,\\mathrm A\\]</p><p>Det är \\(10\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=4{,}7/470=0{,}01\\,\\mathrm A\\]</p><p>Det är \\(10\\,\\mathrm{mA}\\) i R2.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Grenströmmarna är 10,0 mA, 10,0 mA, eftersom varje gren har 4.7 V över sig.</p><p>\\[I=10+10=20\\,\\mathrm{mA}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Två lika stora parallellkopplade resistorer delar strömmen lika. Deras ersättningsresistans är halva värdet:</p><p>\\[R=470/2=235\\,\\Omega\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Tre lika stora parallellgrenar ger en tredjedel av en resistors resistans:</p><p>\\[R=470/3\\approx156{,}7\\,\\Omega\\]</p></div></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "formaga": [
       "procedur"
@@ -82330,34 +82393,37 @@ window.BANK = [
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      20,
-      235,
-      null
+      [
+        10.0,
+        10.0
+      ],
+      20.0,
+      235.0,
+      156.66666666666666
     ],
     "tolerans": [
-      null,
-      0.3,
-      3.525,
-      null
+      0.5,
+      0.5,
+      0.5,
+      3.4
     ],
     "självrättning": [
-      false,
       true,
       true,
-      false
+      true,
+      true
     ],
     "svarFormat": [
-      null,
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt",
+      "numeriskt"
     ],
     "svarEnhet": [
-      null,
+      "mA",
       "mA",
       "Ω",
-      null
+      "Ω"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -82368,43 +82434,61 @@ window.BANK = [
     ],
     "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två lika stora parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">4,7 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 470 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 470 Ω</text></svg></span>",
+    "spelIntro": "<p>Figuren visar två lika stora parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">4,7 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 470 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 470 Ω</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor ström går genom varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje 470-ohmsresistor har 4,7 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=I_2=\\frac{4{,}7}{470}\\approx0{,}01\\ \\mathrm{A}=10\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 4,7 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=4{,}7/470=0{,}01\\,\\mathrm A\\]</p><p>Det är \\(10\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=4{,}7/470=0{,}01\\,\\mathrm A\\]</p><p>Det är \\(10\\,\\mathrm{mA}\\) i R2.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R1",
+          "R2"
+        ]
       },
       {
         "etikett": "b",
         "fraga": "Hur stor är den totala strömmen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=10+10=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Grenströmmarna är 10,0 mA, 10,0 mA, eftersom varje gren har 4.7 V över sig.</p><p>\\[I=10+10=20\\,\\mathrm{mA}\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
         "fraga": "Bestäm ersättningsresistansen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två lika parallella resistorer ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{470}{2}=235\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(235\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Två lika stora parallellkopplade resistorer delar strömmen lika. Deras ersättningsresistans är halva värdet:</p><p>\\[R=470/2=235\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "d",
         "fraga": "Vad blir ersättningsresistansen om man kopplar in en tredje likadan resistor parallellt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre lika parallellt ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e'=\\frac{470}{3}=156{,}7\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(156{,}7\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Tre lika stora parallellgrenar ger en tredjedel av en resistors resistans:</p><p>\\[R=470/3\\approx156{,}7\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      false
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
@@ -82538,15 +82622,15 @@ window.BANK = [
     "niva": "E",
     "typ": "ersättningsresistans för två resistorer",
     "poang": "(1/0/0)",
-    "t": "<p>Två resistorer är kopplade parallellt enligt figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">10 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">12 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"38\" y=\"116\" font-size=\"14\">U</text></svg></span><p>Resistanserna är \\(R_1=10\\,\\Omega\\) och \\(R_2=12\\,\\Omega\\). Bestäm ersättningsresistansen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd sambandet för den aktuella kopplingstypen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac1{R_{eq}}=\\frac1{R_1}+\\frac1{R_2}\\]\\[R_{eq}=5{,}455\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}455\\,\\Omega\\).</p></div>",
+    "t": "<p>Två resistorer är kopplade parallellt enligt figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">10 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">12 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"105\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"118\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"38\" y=\"116\" font-size=\"14\">U</text></svg></span><p>Resistanserna är \\(R_1=10\\,\\Omega\\) och \\(R_2=12\\,\\Omega\\). Bestäm ersättningsresistansen.</p>",
+    "s": "<div class=\"facit-v2\"><p>För två parallellkopplade resistorer kan du använda \\(R=\\frac{R_1R_2}{R_1+R_2}\\).</p><p>\\[R=\\frac{10\\cdot12}{10+12}\\]</p><p>\\[R\\approx5{,}455\\,\\Omega\\]</p></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.454545,
+    "rättSvar": 5.454545454545454,
     "tolerans": 0.098182,
     "självrättning": true,
     "miniräknare": true,
@@ -82665,7 +82749,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>William har seriekopplat två resistorer och anslutit dem till ett batteri enligt figuren.</p><span class=\"fig smal\"><svg height=\"267\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"86.114 10.052 308.000 216.754\"><line x1=\"100\" y1=\"60\" x2=\"235\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"60\" x2=\"380\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"60\" x2=\"380\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"190\" x2=\"338\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"282\" y1=\"190\" x2=\"208\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"190\" x2=\"100\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"190\" x2=\"100\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"235\" y1=\"45\" x2=\"235\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"52\" x2=\"245\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"225\" y=\"47\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"240\" y=\"29\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><rect x=\"282\" y=\"180\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"310\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">280 Ω</text><rect x=\"152\" y=\"180\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"180\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">120 Ω</text></svg></span>\n<ol><li>Bestäm resistorernas ersättningsresistans.</li>\n<li>Beräkna strömmen genom kretsen.</li>\n<li>Beräkna spänningen över varje resistor.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Resistorerna är i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=280+120=400\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\ \\Omega\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kretsströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{6{,}0}{400}\\approx0{,}015\\ \\mathrm{A}=15\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\ \\mathrm{mA}\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Samma ström går genom båda resistorerna. Använd \\(U=RI\\).</p><p>\\[U_280=280\\cdot0{,}015=4{,}2\\,\\mathrm V\\]</p><p>\\[U_120=120\\cdot0{,}015=1{,}8\\,\\mathrm V\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Resistorerna är i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=280+120=400\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\ \\Omega\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kretsströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{6{,}0}{400}\\approx0{,}015\\ \\mathrm{A}=15\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\ \\mathrm{mA}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Samma ström går genom båda resistorerna. Använd \\(U=RI\\).</p><p>\\[U_280=280\\cdot0{,}015=4{,}2\\,\\mathrm V\\]</p><p>\\[U_120=120\\cdot0{,}015=1{,}8\\,\\mathrm V\\]</p></div></div>",
     "familj": "Ersättningsresistans och ström i serie",
     "formaga": [
       "procedur"
@@ -82889,7 +82973,7 @@ window.BANK = [
     "typ": "avståndsberoende i Coulombs lag",
     "poang": "(1/0/0)",
     "t": "<p>Avståndet mellan två punktladdningar fördubblas medan laddningarna är oförändrade. Hur förändras Coulombkraftens storlek?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Coulombkraften är omvänt proportionell mot avståndets kvadrat.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbelt avstånd ger en fjärdedel av kraften.</p></div></div></div>",
+    "s": "<div class=\"facit-v2\"><p>I Coulombs lag ligger avståndets kvadrat i nämnaren. Dubbelt avstånd ger \\(2^2=4\\) i nämnaren, så kraften blir <strong>en fjärdedel så stor</strong>.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "begrepp"
@@ -82906,12 +82990,12 @@ window.BANK = [
       {
         "txt": "Den blir en fjärdedel så stor.",
         "ratt": true,
-        "kommentar": "Kraften är proportionell mot 1/r²."
+        "kommentar": "Dubbelt avstånd ger 2² = 4 i nämnaren. Kraften delas med 4."
       },
       {
         "txt": "Den halveras.",
         "ratt": false,
-        "kommentar": "Det skulle vara ett 1/r-samband."
+        "kommentar": "Avståndet är kvadrerat i Coulombs lag. Kraften delas därför med 4, inte med 2."
       },
       {
         "txt": "Den fördubblas.",
@@ -82924,7 +83008,7 @@ window.BANK = [
         "kommentar": "Det är motsatt förändring."
       }
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
@@ -83036,20 +83120,20 @@ window.BANK = [
     "niva": "E",
     "typ": "Coulombkraft mellan två punktladdningar",
     "poang": "(1/0/0)",
-    "t": "<p>Två punktladdningar har storlekarna \\(2{,}0\\ \\mu\\mathrm C\\) och \\(3{,}0\\ \\mu\\mathrm C\\) och ligger \\(0{,}50\\ \\mathrm m\\) från varandra. Bestäm Coulombkraftens storlek.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd Coulombs lag och omvandla mikrocoulomb till coulomb.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{2{,}0\\cdot10^{-6}\\cdot3{,}0\\cdot10^{-6}}{0{,}50^2}\\approx0{,}216\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}216\\ \\mathrm N\\).</p></div>",
+    "t": "<p>Två punktladdningar har storlekarna \\(2{,}0\\ \\mu\\mathrm C\\) och \\(3{,}0\\ \\mu\\mathrm C\\) och ligger \\(0{,}50\\ \\mathrm m\\) från varandra. Bestäm Coulombkraftens storlek.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddningarna: \\(q_1=2\\cdot10^{-6}\\,\\mathrm C\\) och \\(q_2=3\\cdot10^{-6}\\,\\mathrm C\\).</p><p>Laddningsprodukten i storlek är \\(|q_1q_2|=6\\cdot10^{-12}\\,\\mathrm{C^2}\\).</p><p>Coulombs lag ger:</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot6\\cdot10^{-12}}{0{,}5^2}\\]</p><p>Kraften är cirka <strong>0,216 N</strong>.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.216,
-    "tolerans": 0.002,
+    "rättSvar": 0.21576,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Omvandla laddningarna till C och avståndet till m. Kraftens storlek fås av \\(F=k|q_1q_2|/r^2\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
     "traningsniva": 2,
@@ -83395,7 +83479,7 @@ window.BANK = [
     "typ": "undersöka hur ström och spänning ändras när en resistor tas bort ur seriekoppling, ur diagram, sökt resistans ström och spänning",
     "poang": "(1/0/0)",
     "t": "<p>Figuren visar tre lika stora seriekopplade resistorer.</p><span class=\"fig\"><svg height=\"266\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.000 12.346 393.429 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><rect x=\"262\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"290\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 150 Ω</text><rect x=\"352\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"380\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 150 Ω</text></svg></span>\n<ol><li>Bestäm ersättningsresistansen.</li><li>Hur stor ström går i kretsen?</li>\n<li>Vilken spänning ligger över varje resistor?</li>\n<li>En av resistorerna kopplas bort och luckan ersätts med en ledning. Hur stor blir strömmen då?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>\\[R=3\\cdot150=450\\,\\Omega\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Resistanserna adderas: \\(R=3\\cdot150=450\\,\\Omega\\).</p><p>\\[I=9{,}0/450=0{,}020\\,\\mathrm A\\]</p><p>Strömmen är <strong>20 mA</strong>.</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Tre lika resistorer delar spänningen lika:</p><p>\\[U=9{,}0/3=3{,}0\\,\\mathrm V\\]</p></div></p><p><strong>d)</strong> <div class=\"facit-v2\"><p>Två resistorer återstår, så \\(R=2\\cdot150=300\\,\\Omega\\).</p><p>\\[I=9{,}0/300=0{,}030\\,\\mathrm A\\]</p><p>Strömmen är <strong>30 mA</strong>.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R=3\\cdot150=450\\,\\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Resistanserna adderas: \\(R=3\\cdot150=450\\,\\Omega\\).</p><p>\\[I=9{,}0/450=0{,}020\\,\\mathrm A\\]</p><p>Strömmen är <strong>20 mA</strong>.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Tre lika resistorer delar spänningen lika:</p><p>\\[U=9{,}0/3=3{,}0\\,\\mathrm V\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Två resistorer återstår, så \\(R=2\\cdot150=300\\,\\Omega\\).</p><p>\\[I=9{,}0/300=0{,}030\\,\\mathrm A\\]</p><p>Strömmen är <strong>30 mA</strong>.</p></div></div>",
     "familj": "Ersättningsresistans och ström i serie",
     "formaga": [
       "procedur"
@@ -84001,11 +84085,11 @@ window.BANK = [
     "id": "8.305",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "Coulombkraft med tecken och riktning",
-    "poang": "(0/2/0)",
-    "t": "<p>En positiv laddning \\(+3{,}0\\,\\mu\\mathrm C\\) och en negativ laddning \\(-2{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}25\\,\\mathrm m\\) från varandra. Bestäm kraftens storlek.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−2,0 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,25 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Olika tecken ger attraktion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Beloppet fås från Coulombs lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}988\\cdot10^9\\frac{3{,}0\\cdot10^{-6}\\cdot2{,}0\\cdot10^{-6}}{(0,25)^2}=0{,}8628\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}8628\\ \\mathrm N\\), attraherande.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En positiv laddning \\(+3{,}0\\,\\mu\\mathrm C\\) och en negativ laddning \\(-2{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}25\\,\\mathrm m\\) från varandra. Bestäm kraftens storlek.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−2,0 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,25 m</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddningarna: \\(q_1=3\\cdot10^{-6}\\,\\mathrm C\\) och \\(q_2=-2\\cdot10^{-6}\\,\\mathrm C\\).</p><p>Laddningsprodukten i storlek är \\(|q_1q_2|=6\\cdot10^{-12}\\,\\mathrm{C^2}\\).</p><p>Coulombs lag ger:</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot6\\cdot10^{-12}}{0{,}25^2}\\]</p><p>Kraften är cirka <strong>0,863 N</strong>.</p><p>Laddningarna har olika tecken, så de dras mot varandra.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "begrepp",
@@ -84013,15 +84097,15 @@ window.BANK = [
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.862848,
+    "rättSvar": 0.86304,
     "tolerans": 0.015531,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tecknen avgör riktningen; beloppet beräknas med absolutbeloppet av laddningsprodukten.</p>",
+    "ledtrad": "<p>Omvandla laddningarna till C och avståndet till m. Kraftens storlek fås av \\(F=k|q_1q_2|/r^2\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
@@ -84150,11 +84234,11 @@ window.BANK = [
     "id": "8.306",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "Coulombkraft med tecken och riktning",
-    "poang": "(0/2/0)",
-    "t": "<p>En positiv laddning \\(+3{,}0\\,\\mu\\mathrm C\\) och en negativ laddning \\(-2{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}275\\,\\mathrm m\\) från varandra. Bestäm kraftens storlek.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−2,0 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,275 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Olika tecken ger attraktion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Beloppet fås från Coulombs lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}988\\cdot10^9\\frac{3{,}0\\cdot10^{-6}\\cdot2{,}0\\cdot10^{-6}}{(0,275)^2}=0{,}7131\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}7131\\ \\mathrm N\\), attraherande.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två punktladdningar är +3,0 µC och −2,0 µC. Kraften mellan dem är 0,713 N.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"180\" viewBox=\"0 0 500 180\" role=\"img\" aria-label=\"Två laddningar: plus 3,0 mikrocoulomb och minus 2,0 mikrocoulomb.\"><title>Två laddningar med motsatta tecken</title><g font-family=\"sans-serif\" font-size=\"20\" fill=\"#243747\"><circle cx=\"100\" cy=\"95\" r=\"22\" fill=\"#fde2e2\" stroke=\"#b82a32\" stroke-width=\"2.5\"/><path d=\"M90 95H110M100 85V105\" stroke=\"#b82a32\" stroke-width=\"3\"/><circle cx=\"400\" cy=\"95\" r=\"22\" fill=\"#daeaf8\" stroke=\"#266092\" stroke-width=\"2.5\"/><path d=\"M390 95H410\" stroke=\"#266092\" stroke-width=\"3\"/><text x=\"100\" y=\"153\" text-anchor=\"middle\">+3,0 µC</text><text x=\"400\" y=\"153\" text-anchor=\"middle\">−2,0 µC</text><path d=\"M100 34V48M400 34V48M100 41H400\" stroke=\"#617587\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M107 36L100 41L107 46M393 36L400 41L393 46\" stroke=\"#617587\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"250\" y=\"28\" text-anchor=\"middle\">r</text></g></svg></span><p>Hur långt är det mellan laddningarna? Svara i cm.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Laddningarnas produkt i storlek är \\(3{,}0\\cdot10^{-6}\\cdot2{,}0\\cdot10^{-6}=6{,}0\\cdot10^{-12}\\,\\mathrm{C^2}\\).</p><p>Lös ut avståndet ur Coulombs lag:</p><p>\\[r=\\sqrt{\\frac{k|q_1q_2|}{F}}\\]</p><p>\\[r=\\sqrt{\\frac{8{,}99\\cdot10^9\\cdot6{,}0\\cdot10^{-12}}{0{,}713}}\\]</p><p>Det ger \\(r\\approx0{,}275\\,\\mathrm m\\), alltså cirka <strong>27,5 cm</strong>.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "begrepp",
@@ -84162,15 +84246,15 @@ window.BANK = [
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.713098,
-    "tolerans": 0.012836,
+    "rättSvar": 27.50494026771254,
+    "tolerans": 0.51,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tecknen avgör riktningen; beloppet beräknas med absolutbeloppet av laddningsprodukten.</p>",
+    "ledtrad": "<p>Lös först ut \\(r^2\\) och ta sedan den positiva kvadratroten.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "N",
-    "traningsniva": 3,
+    "svarEnhet": "cm",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
@@ -84213,11 +84297,11 @@ window.BANK = [
     "id": "8.307",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "Coulombkraft med tecken och riktning",
-    "poang": "(0/2/0)",
-    "t": "<p>Två små metallkulor på isolerande stativ har laddningarna \\(+3{,}0\\,\\mu\\mathrm C\\) och \\(-2{,}0\\,\\mu\\mathrm C\\). Avståndet mellan kulornas mittpunkter är \\(0{,}3\\,\\mathrm m\\). Bestäm den elektriska kraftens storlek mellan kulorna.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−2,0 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,3 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Olika tecken ger attraktion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Beloppet fås från Coulombs lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}988\\cdot10^9\\frac{3{,}0\\cdot10^{-6}\\cdot2{,}0\\cdot10^{-6}}{(0,3)^2}=0{,}5992\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}5992\\ \\mathrm N\\), attraherande.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två laddade kulor dras mot varandra. Kraften på kulan med laddningen +3,0 µC är 0,599 N.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"180\" viewBox=\"0 0 500 180\" role=\"img\" aria-label=\"Två laddningar: plus 3,0 mikrocoulomb och minus 2,0 mikrocoulomb.\"><title>Två laddningar med motsatta tecken</title><g font-family=\"sans-serif\" font-size=\"20\" fill=\"#243747\"><circle cx=\"100\" cy=\"95\" r=\"22\" fill=\"#fde2e2\" stroke=\"#b82a32\" stroke-width=\"2.5\"/><path d=\"M90 95H110M100 85V105\" stroke=\"#b82a32\" stroke-width=\"3\"/><circle cx=\"400\" cy=\"95\" r=\"22\" fill=\"#daeaf8\" stroke=\"#266092\" stroke-width=\"2.5\"/><path d=\"M390 95H410\" stroke=\"#266092\" stroke-width=\"3\"/><text x=\"100\" y=\"153\" text-anchor=\"middle\">+3,0 µC</text><text x=\"400\" y=\"153\" text-anchor=\"middle\">−2,0 µC</text></g></svg></span><p>Hur stor är kraften på kulan med laddningen −2,0 µC? Svara i N.</p>",
+    "s": "<div class=\"facit-v2\"><p>Kraften som den ena kulan påverkar den andra med är lika stor som kraften åt andra hållet, enligt Newtons tredje lag.</p><p>Den andra kulan påverkas alltså också av <strong>0,599 N</strong>, men i motsatt riktning. Att laddningarna har olika storlek ändrar inte detta.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "begrepp",
@@ -84225,15 +84309,15 @@ window.BANK = [
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5992,
-    "tolerans": 0.010786,
+    "rättSvar": 0.599,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tecknen avgör riktningen; beloppet beräknas med absolutbeloppet av laddningsprodukten.</p>",
+    "ledtrad": "<p>Jämför krafterna i samma växelverkan med Newtons tredje lag.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
@@ -84315,11 +84399,11 @@ window.BANK = [
     "id": "8.308",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "Coulombkraft med tecken och riktning",
-    "poang": "(0/2/0)",
-    "t": "<p>Vid ett laborationsförsök hänger två laddade, grafitbelagda pingisbollar med laddningarna \\(+3{,}0\\,\\mu\\mathrm C\\) och \\(-2{,}0\\,\\mu\\mathrm C\\) på avståndet \\(0{,}325\\,\\mathrm m\\) från varandra. Bestäm kraftens storlek mellan bollarna.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−2,0 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,325 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Olika tecken ger attraktion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Beloppet fås från Coulombs lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}988\\cdot10^9\\frac{3{,}0\\cdot10^{-6}\\cdot2{,}0\\cdot10^{-6}}{(0,325)^2}=0{,}5106\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}5106\\ \\mathrm N\\), attraherande.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Från början är avståndet mellan två laddningar 0,325 m och kraftens storlek 0,51 N.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"180\" viewBox=\"0 0 500 180\" role=\"img\" aria-label=\"Två laddningar: plus 3,0 mikrocoulomb och minus 2,0 mikrocoulomb.\"><title>Två laddningar med motsatta tecken</title><g font-family=\"sans-serif\" font-size=\"20\" fill=\"#243747\"><circle cx=\"100\" cy=\"95\" r=\"22\" fill=\"#fde2e2\" stroke=\"#b82a32\" stroke-width=\"2.5\"/><path d=\"M90 95H110M100 85V105\" stroke=\"#b82a32\" stroke-width=\"3\"/><circle cx=\"400\" cy=\"95\" r=\"22\" fill=\"#daeaf8\" stroke=\"#266092\" stroke-width=\"2.5\"/><path d=\"M390 95H410\" stroke=\"#266092\" stroke-width=\"3\"/><text x=\"100\" y=\"153\" text-anchor=\"middle\">+3,0 µC</text><text x=\"400\" y=\"153\" text-anchor=\"middle\">−2,0 µC</text><path d=\"M100 34V48M400 34V48M100 41H400\" stroke=\"#617587\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M107 36L100 41L107 46M393 36L400 41L393 46\" stroke=\"#617587\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"250\" y=\"28\" text-anchor=\"middle\">0,325 m</text></g></svg></span><p>Laddningarna flyttas isär till avståndet 0,650 m. Hur stor blir kraften? Svara i N.</p>",
+    "s": "<div class=\"facit-v2\"><p>Avståndet fördubblas: \\(0{,}650/0{,}325=2\\). Eftersom avståndet är kvadrerat i Coulombs lag delas kraften med \\(2^2=4\\).</p><p>\\[F=0{,}51/4=0{,}1275\\,\\mathrm N\\]</p><p>Kraften blir cirka <strong>0,13 N</strong>.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "begrepp",
@@ -84327,15 +84411,15 @@ window.BANK = [
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.510561,
-    "tolerans": 0.00919,
+    "rättSvar": 0.1275,
+    "tolerans": 0.003,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tecknen avgör riktningen; beloppet beräknas med absolutbeloppet av laddningsprodukten.</p>",
+    "ledtrad": "<p>Hur många gånger större blir avståndet? Kvadrera den faktorn.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
@@ -84427,87 +84511,172 @@ window.BANK = [
     "id": "8.309",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "Coulombkraft med tecken och riktning",
-    "poang": "(0/2/0)",
-    "t": "<p>En laddad dammpartikel med laddningen \\(+3{,}0\\,\\mu\\mathrm C\\) befinner sig \\(0{,}35\\,\\mathrm m\\) från en annan partikel med laddningen \\(-2{,}0\\,\\mu\\mathrm C\\). Bestäm kraftens storlek mellan partiklarna.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−2,0 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,35 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Olika tecken ger attraktion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Beloppet fås från Coulombs lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}988\\cdot10^9\\frac{3{,}0\\cdot10^{-6}\\cdot2{,}0\\cdot10^{-6}}{(0,35)^2}=0{,}4402\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}4402\\ \\mathrm N\\), attraherande.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Figuren visar laddningarna från början. Den positiva laddningen fördubblas och den negativa ändras från −2,0 µC till −1,0 µC. Avståndet är oförändrat.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"180\" viewBox=\"0 0 500 180\" role=\"img\" aria-label=\"Två laddningar: plus 3,0 mikrocoulomb och minus 2,0 mikrocoulomb.\"><title>Två laddningar med motsatta tecken</title><g font-family=\"sans-serif\" font-size=\"20\" fill=\"#243747\"><circle cx=\"100\" cy=\"95\" r=\"22\" fill=\"#fde2e2\" stroke=\"#b82a32\" stroke-width=\"2.5\"/><path d=\"M90 95H110M100 85V105\" stroke=\"#b82a32\" stroke-width=\"3\"/><circle cx=\"400\" cy=\"95\" r=\"22\" fill=\"#daeaf8\" stroke=\"#266092\" stroke-width=\"2.5\"/><path d=\"M390 95H410\" stroke=\"#266092\" stroke-width=\"3\"/><text x=\"100\" y=\"153\" text-anchor=\"middle\">+3,0 µC</text><text x=\"400\" y=\"153\" text-anchor=\"middle\">−2,0 µC</text><path d=\"M100 34V48M400 34V48M100 41H400\" stroke=\"#617587\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M107 36L100 41L107 46M393 36L400 41L393 46\" stroke=\"#617587\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"250\" y=\"28\" text-anchor=\"middle\">Samma avstånd</text></g></svg></span><p>Hur förändras kraftens storlek?</p>",
+    "s": "<div class=\"facit-v2\"><p>Kraften beror på produkten av laddningarnas storlekar när avståndet är samma. Produkten förändras med faktorn:</p><p>\\[2\\cdot\\frac12=1\\]</p><p>Kraftens storlek är alltså <strong>oförändrad</strong>. Laddningarna har fortfarande olika tecken, så de dras mot varandra.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "begrepp",
       "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.440229,
-    "tolerans": 0.007924,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tecknen avgör riktningen; beloppet beräknas med absolutbeloppet av laddningsprodukten.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N",
-    "traningsniva": 3,
+    "ledtrad": "<p>Multiplicera de två faktorer som laddningarnas storlek ändras med.</p>",
+    "svarFormat": null,
+    "svarEnhet": null,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "alternativ": [
+      {
+        "txt": "Den är oförändrad.",
+        "ratt": true,
+        "kommentar": "Den ena laddningen blir dubbelt så stor och den andra hälften så stor. Produkten är oförändrad."
+      },
+      {
+        "txt": "Den fördubblas.",
+        "ratt": false,
+        "kommentar": "Det skulle stämma om bara den ena laddningen fördubblades."
+      },
+      {
+        "txt": "Den halveras.",
+        "ratt": false,
+        "kommentar": "Det skulle stämma om bara den ena laddningens storlek halverades."
+      },
+      {
+        "txt": "Den blir fyra gånger större.",
+        "ratt": false,
+        "kommentar": "Det skulle stämma om båda laddningarnas storlek fördubblades."
+      }
     ]
   },
   {
     "id": "8.73",
     "kap": 8,
-    "omr": "coulomb",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett elektroskop består av en metallkula med två lätta blad under. När en negativt laddad stav förs nära kulan, utan att röra den, spretar bladen isär.</p>\n<ol><li>Varför spretar bladen?</li><li>Vilken laddning har bladen då?</li>\n<li>Vad händer om staven förs bort igen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den negativa staven stöter bort elektroskopets ledningselektroner ned i bladen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda bladen får samma slags laddning och stöter bort därför varandra.</p></div><div class=\"facit-stycke\"><p>Detta är influens.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bladen får ett elektronöverskott och blir negativa.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Metallkulan närmast staven får motsvarande elektronunderskott och blir positiv.</p></div><div class=\"facit-stycke\"><p>Elektroskopets nettoladdning är fortfarande noll.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När staven förs bort fördelas elektronerna jämnt igen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Repulsionen mellan bladen försvinner och de faller ihop.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bladen blir negativt laddade genom influens och spretar. När staven tas bort faller de ihop igen.</p></div>",
-    "familj": "Ledare, influens och laddningsutjämning",
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett elektroskop har en metallkula och två tunna metallblad. Från början är det oladdat och bladen hänger ihop. När en negativt laddad stav förs nära kulan, utan att röra den, spretar bladen isär.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 290\" width=\"500\" height=\"290\" role=\"img\" aria-label=\"En negativ stav nära metallkulan på ett elektroskop. Bladen spretar.\"><title>Negativ stav nära ett oladdat elektroskop</title><g font-family=\"sans-serif\" font-size=\"20\" fill=\"#243747\" stroke-linecap=\"round\"><rect x=\"20\" y=\"57\" width=\"145\" height=\"38\" rx=\"8\" fill=\"#cce5ef\" stroke=\"#243747\" stroke-width=\"2\"/><text x=\"35\" y=\"36\">Negativ stav</text><text x=\"47\" y=\"84\">−</text><text x=\"87\" y=\"84\">−</text><text x=\"127\" y=\"84\">−</text><rect x=\"190\" y=\"145\" width=\"175\" height=\"120\" rx=\"9\" fill=\"none\" stroke=\"#8699ab\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"76\" r=\"28\" fill=\"white\" stroke=\"#243747\" stroke-width=\"3\"/><path d=\"M275 104V183M275 183L235 238M275 183L315 238\" fill=\"none\" stroke=\"#243747\" stroke-width=\"4\"/><text x=\"320\" y=\"83\">Metallkula</text><text x=\"375\" y=\"230\">Blad</text><path d=\"M363 224H326\" stroke=\"#8699ab\" stroke-width=\"1.5\"/></g></svg></span><ol><li>Varför spretar bladen?</li><li>Vilken laddning får bladen?</li><li>Vad händer med bladen om staven tas bort igen?</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Den negativa staven stöter bort elektroner från kulan ner till bladen. Bladen får därför ett <strong>elektronöverskott och blir negativa</strong>. Eftersom de får samma laddning stöter de bort varandra och spretar.</p><p>Elektronerna har bara flyttats inom elektroskopet. Det har inte fått någon ny nettoladdning. Detta kallas influens.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Bladen blir negativt laddade när elektroner flyttas från kulan till bladen. Kulan får då ett underskott av elektroner och blir positivt laddad. Elektroskopets totala laddning är fortfarande noll.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>När staven tas bort påverkar den inte längre elektronerna i elektroskopet. Laddningsfördelningen återgår till utgångsläget, och bladen <strong>faller ihop</strong>. Staven har inte rört elektroskopet, så ingen laddning har överförts till det.</p></div></div>",
+    "familj": "Influens i en metallkula",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "laddning__laddning_och_antal_elektroner",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "familjNyckel": "laddning__elektrisk_laddning_och_influens",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Bladen blir negativa och stöter bort varandra.",
+      null,
+      "Bladen faller ihop."
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false,
+      true
+    ],
     "ledtrad": "<p>Den negativa staven stöter bort elektroskopets ledningselektroner ned i bladen. Båda bladen får samma slags laddning och stöter bort därför varandra.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett elektroskop består av en metallkula med två lätta blad under. När en negativt laddad stav förs nära kulan, utan att röra den, spretar bladen isär.</p>",
+    "spelIntro": "<p>Ett elektroskop har en metallkula och två tunna metallblad. Från början är det oladdat och bladen hänger ihop. När en negativt laddad stav förs nära kulan, utan att röra den, spretar bladen isär.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 290\" width=\"500\" height=\"290\" role=\"img\" aria-label=\"En negativ stav nära metallkulan på ett elektroskop. Bladen spretar.\"><title>Negativ stav nära ett oladdat elektroskop</title><g font-family=\"sans-serif\" font-size=\"20\" fill=\"#243747\" stroke-linecap=\"round\"><rect x=\"20\" y=\"57\" width=\"145\" height=\"38\" rx=\"8\" fill=\"#cce5ef\" stroke=\"#243747\" stroke-width=\"2\"/><text x=\"35\" y=\"36\">Negativ stav</text><text x=\"47\" y=\"84\">−</text><text x=\"87\" y=\"84\">−</text><text x=\"127\" y=\"84\">−</text><rect x=\"190\" y=\"145\" width=\"175\" height=\"120\" rx=\"9\" fill=\"none\" stroke=\"#8699ab\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"76\" r=\"28\" fill=\"white\" stroke=\"#243747\" stroke-width=\"3\"/><path d=\"M275 104V183M275 183L235 238M275 183L315 238\" fill=\"none\" stroke=\"#243747\" stroke-width=\"4\"/><text x=\"320\" y=\"83\">Metallkula</text><text x=\"375\" y=\"230\">Blad</text><path d=\"M363 224H326\" stroke=\"#8699ab\" stroke-width=\"1.5\"/></g></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Varför spretar bladen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den negativa staven stöter bort elektroskopets ledningselektroner ned i bladen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda bladen får samma slags laddning och stöter bort därför varandra.</p></div><div class=\"facit-stycke\"><p>Detta är influens.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den negativa staven stöter bort elektroskopets ledningselektroner ned i bladen. Båda bladen får samma slags laddning och stöter bort därför varandra.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilken laddning har bladen då?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bladen får ett elektronöverskott och blir negativa.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Metallkulan närmast staven får motsvarande elektronunderskott och blir positiv.</p></div><div class=\"facit-stycke\"><p>Elektroskopets nettoladdning är fortfarande noll.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den negativa staven stöter bort elektroskopets ledningselektroner ned i bladen. Båda bladen får samma slags laddning och stöter bort därför varandra.</p>",
-        "niva": "C"
+        "fraga": "Varför spretar bladen, och vilken laddning får de?",
+        "s": "<div class=\"facit-v2\"><p>Den negativa staven stöter bort elektroner från kulan ner till bladen. Bladen får därför ett <strong>elektronöverskott och blir negativa</strong>. Eftersom de får samma laddning stöter de bort varandra och spretar.</p><p>Elektronerna har bara flyttats inom elektroskopet. Det har inte fått någon ny nettoladdning. Detta kallas influens.</p></div>",
+        "ledtrad": "<p>Staven är negativ. Åt vilket håll flyttar den elektronerna i elektroskopet?</p>",
+        "alternativ": [
+          {
+            "txt": "Bladen blir negativa och stöter bort varandra.",
+            "ratt": true,
+            "kommentar": "Elektroner flyttas från kulan till bladen. Lika laddningar stöter bort varandra."
+          },
+          {
+            "txt": "Bladen blir positiva och stöter bort varandra.",
+            "ratt": false,
+            "kommentar": "Den negativa staven stöter elektroner ner till bladen, som därför får ett elektronöverskott."
+          },
+          {
+            "txt": "Bladen blir oladdade och dras mot varandra.",
+            "ratt": false,
+            "kommentar": "Bladen spretar eftersom de får samma slags laddning genom influens."
+          }
+        ],
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
-        "fraga": "Vad händer om staven förs bort igen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När staven förs bort fördelas elektronerna jämnt igen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Repulsionen mellan bladen försvinner och de faller ihop.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den negativa staven stöter bort elektroskopets ledningselektroner ned i bladen. Båda bladen får samma slags laddning och stöter bort därför varandra.</p>",
-        "niva": "C"
+        "fraga": "Den negativa staven tas bort utan att ha rört elektroskopet. Vad händer med bladen?",
+        "s": "<div class=\"facit-v2\"><p>När staven tas bort påverkar den inte längre elektronerna i elektroskopet. Laddningsfördelningen återgår till utgångsläget, och bladen <strong>faller ihop</strong>. Staven har inte rört elektroskopet, så ingen laddning har överförts till det.</p></div>",
+        "ledtrad": "<p>Har någon laddning överförts till elektroskopet?</p>",
+        "alternativ": [
+          {
+            "txt": "Bladen faller ihop.",
+            "ratt": true,
+            "kommentar": "Utan stavens påverkan återgår laddningsfördelningen till utgångsläget."
+          },
+          {
+            "txt": "Bladen fortsätter att spreta lika mycket.",
+            "ratt": false,
+            "kommentar": "Staven har inte laddat elektroskopet genom kontakt. Influensen försvinner när staven tas bort."
+          },
+          {
+            "txt": "Bladen spretar mer.",
+            "ratt": false,
+            "kommentar": "Stavens påverkan upphör när den tas bort."
+          }
+        ],
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "(1/0/0)"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      false
+    ],
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Laddning och antal elektroner"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
@@ -84545,11 +84714,11 @@ window.BANK = [
     "id": "8.310",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "Coulombs lag med motsatta laddningar",
-    "poang": "(0/2/0)",
-    "t": "<p>Två punktladdningar \\(+4{,}0\\,\\mu\\mathrm C\\) och \\(-1{,}5\\,\\mu\\mathrm C\\) ligger \\(0{,}32\\,\\mathrm m\\) från varandra. Bestäm kraftens storlek mellan dem.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−1,5 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,32 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Coulombs lag ger kraftens belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningarnas tecken avgör att kraften är attraktiv, men inte beloppet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=k\\frac{|q_1q_2|}{r^2}=0{,}526641\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}526641\\,\\mathrm N\\), attraktiv.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två punktladdningar \\(+4{,}0\\,\\mu\\mathrm C\\) och \\(-1{,}5\\,\\mu\\mathrm C\\) ligger \\(0{,}32\\,\\mathrm m\\) från varandra. Bestäm kraftens storlek mellan dem.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−1,5 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,32 m</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddningarna: \\(q_1=4\\cdot10^{-6}\\,\\mathrm C\\) och \\(q_2=-1{,}5\\cdot10^{-6}\\,\\mathrm C\\).</p><p>Laddningsprodukten i storlek är \\(|q_1q_2|=6\\cdot10^{-12}\\,\\mathrm{C^2}\\).</p><p>Coulombs lag ger:</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot6\\cdot10^{-12}}{0{,}32^2}\\]</p><p>Kraften är cirka <strong>0,527 N</strong>.</p><p>Laddningarna har olika tecken, så de dras mot varandra.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "procedur",
@@ -84557,15 +84726,15 @@ window.BANK = [
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektriska_krafter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.526640625,
+    "rättSvar": 0.5267578125,
     "tolerans": 0.00947953125,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd laddningarnas belopp i Coulombs lag. Tecknen avgör riktningen.</p>",
+    "ledtrad": "<p>Omvandla laddningarna till C och avståndet till m. Kraftens storlek fås av \\(F=k|q_1q_2|/r^2\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
@@ -85402,7 +85571,7 @@ window.BANK = [
     "typ": "bestämma okänd resistans och delspänningar ur total ström i seriekoppling, ur diagram, sökt resistans och spänning",
     "poang": "(2/1/0)",
     "t": "<p>I kretsen nedan går strömmen 25 mA.</p><span class=\"fig\"><svg height=\"266\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.000 12.346 393.429 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 80 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = ?</text></svg></span>\n<ol><li>Bestäm kretsens ersättningsresistans.</li><li>Bestäm R₂.</li>\n<li>Vilken spänning ligger över varje resistor?</li>\n<li>Vilken av resistorerna utvecklar mest effekt? Motivera utan att räkna.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kretsens ersättningsresistans är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{6{,}0}{0{,}025}=240\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\ \\Omega\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Resistorerna är i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=240-80=160\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\ \\Omega\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>\\(25\\,\\mathrm{mA}=0{,}025\\,\\mathrm A\\).</p><p>\\[U_1=80\\cdot0{,}025=2{,}0\\,\\mathrm V\\]</p><p>\\[U_2=160\\cdot0{,}025=4{,}0\\,\\mathrm V\\]</p></div></p><p><strong>d)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström går genom båda och \\(P=RI^2\\), så den större \\(R_2\\) utvecklar mest effekt.</p></div><div class=\"facit-stycke\"><p>Dubbelt motstånd ger här dubbel effekt.</p></div></div></div></div></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kretsens ersättningsresistans är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{6{,}0}{0{,}025}=240\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\ \\Omega\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Resistorerna är i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=240-80=160\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\ \\Omega\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\(25\\,\\mathrm{mA}=0{,}025\\,\\mathrm A\\).</p><p>\\[U_1=80\\cdot0{,}025=2{,}0\\,\\mathrm V\\]</p><p>\\[U_2=160\\cdot0{,}025=4{,}0\\,\\mathrm V\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström går genom båda och \\(P=RI^2\\), så den större \\(R_2\\) utvecklar mest effekt.</p></div><div class=\"facit-stycke\"><p>Dubbelt motstånd ger här dubbel effekt.</p></div></div></div></div></div></div>",
     "familj": "Spänningsdelning i seriekoppling",
     "formaga": [
       "procedur",
@@ -85609,11 +85778,11 @@ window.BANK = [
     "id": "8.249",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "ström i parallellkopplad resistorkrets",
-    "poang": "(0/2/0)",
-    "t": "<p>Resistorerna \\(8\\,\\Omega\\) och \\(12\\,\\Omega\\) är parallellkopplade till \\(12\\,\\mathrm V\\). Bestäm den totala strömmen från spänningskällan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">8 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">12 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"38\" y=\"116\" font-size=\"14\">12 V</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först parallellkopplingens ersättningsresistans och använd sedan Ohms lag för hela kretsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{R_1R_2}{R_1+R_2}=4,8\\ \\Omega\\]\\[I=\\frac{U}{R_p}=2,5\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm A\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistorerna \\(8\\,\\Omega\\) och \\(12\\,\\Omega\\) är parallellkopplade till \\(12\\,\\mathrm V\\). Bestäm den totala strömmen från spänningskällan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">8 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">12 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"105\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"118\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"24\" y=\"116\" font-size=\"14\">12 V</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Båda resistorerna har 12 V över sig. Beräkna de två grenströmmarna med \\(I=U/R\\).</p><p>\\[I_1=12/8\\approx1{,}5\\,\\mathrm A\\]</p><p>\\[I_2=12/12\\approx1\\,\\mathrm A\\]</p><p>Addera utan att avrunda mellanleden:</p><p>\\[I=2{,}5\\,\\mathrm A\\]</p></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "formaga": [
       "modellering",
@@ -85629,7 +85798,7 @@ window.BANK = [
     "ledtrad": "<p>Spänningen över varje parallellgren är samma som källspänningen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "kopplingar",
@@ -85641,19 +85810,37 @@ window.BANK = [
     "id": "8.88",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
-    "poang": "(2/1/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Tomas har parallellkopplat två resistorer och anslutit dem till ett batteri enligt figuren.</p><span class=\"fig smal\"><svg height=\"337\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"126.971 0.629 226.286 200.514\"><line x1=\"140\" y1=\"50\" x2=\"235\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"50\" x2=\"140\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"50\" x2=\"340\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"120\" x2=\"212\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"268\" y1=\"120\" x2=\"340\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"180\" x2=\"212\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"268\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"235\" y1=\"35\" x2=\"235\" y2=\"65\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"42\" x2=\"245\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"225\" y=\"37\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"240\" y=\"19\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">3,0 V</text><rect x=\"212\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"102\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">400 Ω</text><rect x=\"212\" y=\"170\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"162\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">600 Ω</text><circle cx=\"140\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"340\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken spänning ligger över varje resistor?</li>\n<li>Beräkna strömmen genom varje resistor.</li>\n<li>Bestäm ersättningsresistansen och kontrollera med strömmen genom batteriet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellgrenar har samma spänning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=3{,}0\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{400}=7{,}5\\ \\mathrm{mA},\\qquad I_{600}=5{,}0\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistans och kontroll:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{400\\cdot600}{400+600}=240\\ \\Omega\\]\\[I_{\\mathrm{tot}}=\\frac{3{,}0}{240}\\approx0{,}0125\\ \\mathrm{A}=12{,}5\\ \\mathrm{mA}=7{,}5+5{,}0\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda har \\(3{,}0\\ \\mathrm V\\); strömmarna är \\(7{,}5\\) och \\(5{,}0\\ \\mathrm{mA}\\), och \\(R_e=240\\ \\Omega\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Båda parallellgrenarna har batteriets spänning, <strong>3,0 V vardera</strong>.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 3 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=3/400=0{,}0075\\,\\mathrm A\\]</p><p>Det är \\(7{,}5\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=3/600=0{,}005\\,\\mathrm A\\]</p><p>Det är \\(5\\,\\mathrm{mA}\\) i R2.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[R=\\frac{400\\cdot600}{400+600}=240\\,\\Omega\\]</p><p>Kontroll med batteriströmmen:</p><p>\\[I=3{,}0/240=0{,}0125\\,\\mathrm A\\]</p><p>Det är 12,5 mA, samma som summan 7,5 mA + 5,0 mA från de två grenarna.</p></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kopplingar__parallellkoppling",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        3,
+        3
+      ],
+      [
+        7.5,
+        5
+      ],
+      240
+    ],
+    "tolerans": [
+      0.05,
+      0.5,
+      0.5
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "ledtrad": "<p>Parallellgrenar har samma spänning. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Tomas har parallellkopplat två resistorer och anslutit dem till ett batteri enligt figuren.</p><span class=\"fig smal\"><svg height=\"337\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"126.971 0.629 226.286 200.514\"><line x1=\"140\" y1=\"50\" x2=\"235\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"50\" x2=\"140\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"50\" x2=\"340\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"120\" x2=\"212\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"268\" y1=\"120\" x2=\"340\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"180\" x2=\"212\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"268\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"235\" y1=\"35\" x2=\"235\" y2=\"65\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"42\" x2=\"245\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"225\" y=\"37\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"240\" y=\"19\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">3,0 V</text><rect x=\"212\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"102\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">400 Ω</text><rect x=\"212\" y=\"170\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"162\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">600 Ω</text><circle cx=\"140\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"340\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>",
@@ -85661,37 +85848,70 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Vilken spänning ligger över varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellgrenar har samma spänning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=3{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Parallellgrenar har samma spänning. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
+        "s": "<div class=\"facit-v2\"><p>Båda parallellgrenarna har batteriets spänning, <strong>3,0 V vardera</strong>.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "400 Ω",
+          "600 Ω"
+        ]
       },
       {
         "etikett": "b",
         "fraga": "Beräkna strömmen genom varje resistor.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{400}=7{,}5\\ \\mathrm{mA},\\qquad I_{600}=5{,}0\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Parallellgrenar har samma spänning. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
+        "s": "<div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 3 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=3/400=0{,}0075\\,\\mathrm A\\]</p><p>Det är \\(7{,}5\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=3/600=0{,}005\\,\\mathrm A\\]</p><p>Det är \\(5\\,\\mathrm{mA}\\) i R2.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "400 Ω",
+          "600 Ω"
+        ]
       },
       {
         "etikett": "c",
         "fraga": "Bestäm ersättningsresistansen och kontrollera med strömmen genom batteriet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistans och kontroll:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{400\\cdot600}{400+600}=240\\ \\Omega\\]\\[I_{\\mathrm{tot}}=\\frac{3{,}0}{240}\\approx0{,}0125\\ \\mathrm{A}=12{,}5\\ \\mathrm{mA}=7{,}5+5{,}0\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5+5{,}0\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Parallellgrenar har samma spänning. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "s": "<div class=\"facit-v2\"><p>\\[R=\\frac{400\\cdot600}{400+600}=240\\,\\Omega\\]</p><p>Kontroll med batteriströmmen:</p><p>\\[I=3{,}0/240=0{,}0125\\,\\mathrm A\\]</p><p>Det är 12,5 mA, samma som summan 7,5 mA + 5,0 mA från de två grenarna.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
+    ],
+    "svarEnhet": [
+      "V",
+      "mA",
+      "Ω"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
     ]
   },
   {
@@ -85702,7 +85922,7 @@ window.BANK = [
     "typ": "beräkna effekt och omsatt energi under en given tid i seriekoppling, ur diagram, sökt ström effekt och energi",
     "poang": "(1/0/0)",
     "t": "<p>Figuren visar två seriekopplade resistorer som är påslagna i 5,0 minuter.</p><span class=\"fig\"><svg height=\"268\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.857 12.346 389.571 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 400 Ω</text></svg></span>\n<ol><li>Hur stor ström går i kretsen?</li><li>Vilken effekt avger batteriet?</li>\n<li>Hur mycket energi omsätts under 5,0 minuter?</li>\n<li>Hur stor del av den energin utvecklas i R₂?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är 600 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{600}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>\\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\).</p><p>\\[P=12\\cdot0{,}020=0{,}240\\,\\mathrm W\\]</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>\\(5{,}0\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[E=0{,}240\\cdot300=72\\,\\mathrm J\\]</p></div></p><p><strong>d)</strong> <div class=\"facit-v2\"><p>R₂ är 400 Ω. Omvandla \\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\) och \\(5\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[P_2=400\\cdot0{,}020^2=0{,}160\\,\\mathrm W\\]</p><p>\\[E_2=0{,}160\\cdot300=48\\,\\mathrm J\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är 600 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{600}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\).</p><p>\\[P=12\\cdot0{,}020=0{,}240\\,\\mathrm W\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\(5{,}0\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[E=0{,}240\\cdot300=72\\,\\mathrm J\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>R₂ är 400 Ω. Omvandla \\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\) och \\(5\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[P_2=400\\cdot0{,}020^2=0{,}160\\,\\mathrm W\\]</p><p>\\[E_2=0{,}160\\cdot300=48\\,\\mathrm J\\]</p></div></div>",
     "familj": "Spänningsdelning i seriekoppling",
     "formaga": [
       "procedur"
@@ -85870,11 +86090,11 @@ window.BANK = [
     "id": "8.91",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "beräkna grenströmmar total ström och ersättningsresistans i parallellkoppling, ur diagram, sökt spänning ström och resistans",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar två parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 300 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 600 Ω</text></svg></span>\n<ol><li>Vilken spänning ligger över R₁ respektive R₂?</li>\n<li>Hur stor ström går genom varje resistor?</li>\n<li>Hur stor är den totala strömmen genom batteriet?</li>\n<li>Bestäm ersättningsresistansen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellgrenarna ligger direkt över batteriet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=9{,}0\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{9{,}0}{300}=30\\ \\mathrm{mA},\\qquad I_2=\\frac{9{,}0}{600}\\approx0{,}015\\ \\mathrm{A}=15\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är summan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=30+15=45\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{9{,}0}{0{,}045}=200\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda har \\(9{,}0\\ \\mathrm V\\); strömmarna är \\(30\\) och \\(15\\ \\mathrm{mA}\\), totalströmmen \\(45\\ \\mathrm{mA}\\), och \\(R_e=200\\ \\Omega\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Figuren visar två parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 300 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 600 Ω</text></svg></span>\n<ol><li>Vilken spänning ligger över R₁ respektive R₂?</li>\n<li>Hur stor ström går genom varje resistor?</li>\n<li>Hur stor är den totala strömmen genom batteriet?</li>\n<li>Bestäm ersättningsresistansen.</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Alla resistorer är anslutna mellan samma två batteripoler. Spänningen över <strong>varje resistor är 9 V</strong>.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 9 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=9/300=0{,}03\\,\\mathrm A\\]</p><p>Det är \\(30\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=9/600=0{,}015\\,\\mathrm A\\]</p><p>Det är \\(15\\,\\mathrm{mA}\\) i R2.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Grenströmmarna är 30,0 mA, 15,0 mA, eftersom varje gren har 9 V över sig.</p><p>\\[I=30+15=45\\,\\mathrm{mA}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>I en parallellkoppling adderas inverserna av resistanserna:</p><p>\\[\\frac1R=\\frac1{300}+\\frac1{600}\\]</p><p>\\[R\\approx200\\,\\Omega\\]</p></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
       "procedur"
@@ -85882,32 +86102,38 @@ window.BANK = [
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      45,
-      200
+      [
+        9,
+        9
+      ],
+      [
+        30.0,
+        15.0
+      ],
+      45.0,
+      200.0
     ],
     "tolerans": [
-      null,
-      null,
-      0.6749999999999999,
-      3
+      0.05,
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": [
-      false,
-      false,
+      true,
+      true,
       true,
       true
     ],
     "svarFormat": [
-      null,
-      null,
+      "numeriskt",
+      "numeriskt",
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
+      "V",
+      "mA",
       "mA",
       "Ω"
     ],
@@ -85920,43 +86146,66 @@ window.BANK = [
     ],
     "ledtrad": "<p>Parallellgrenarna ligger direkt över batteriet. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 300 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 600 Ω</text></svg></span>",
+    "spelIntro": "<p>Figuren visar två parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 300 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 600 Ω</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken spänning ligger över R₁ respektive R₂?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellgrenarna ligger direkt över batteriet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=9{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Parallellgrenarna ligger direkt över batteriet. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Alla resistorer är anslutna mellan samma två batteripoler. Spänningen över <strong>varje resistor är 9 V</strong>.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R1",
+          "R2"
+        ]
       },
       {
         "etikett": "b",
         "fraga": "Hur stor ström går genom varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{9{,}0}{300}=30\\ \\mathrm{mA},\\qquad I_2=\\frac{9{,}0}{600}\\approx0{,}015\\ \\mathrm{A}=15\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Parallellgrenarna ligger direkt över batteriet. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 9 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=9/300=0{,}03\\,\\mathrm A\\]</p><p>Det är \\(30\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=9/600=0{,}015\\,\\mathrm A\\]</p><p>Det är \\(15\\,\\mathrm{mA}\\) i R2.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R1",
+          "R2"
+        ]
       },
       {
         "etikett": "c",
         "fraga": "Hur stor är den totala strömmen genom batteriet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är summan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=30+15=45\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Parallellgrenarna ligger direkt över batteriet. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Grenströmmarna är 30,0 mA, 15,0 mA, eftersom varje gren har 9 V över sig.</p><p>\\[I=30+15=45\\,\\mathrm{mA}\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "d",
         "fraga": "Bestäm ersättningsresistansen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{9{,}0}{0{,}045}=200\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Parallellgrenarna ligger direkt över batteriet. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>I en parallellkoppling adderas inverserna av resistanserna:</p><p>\\[\\frac1R=\\frac1{300}+\\frac1{600}\\]</p><p>\\[R\\approx200\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      false
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
@@ -85966,11 +86215,11 @@ window.BANK = [
     "id": "8.250",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "ström i parallellkopplad resistorkrets",
-    "poang": "(0/2/0)",
-    "t": "<p>Resistorerna \\(10\\,\\Omega\\) och \\(14\\,\\Omega\\) är parallellkopplade till \\(12\\,\\mathrm V\\). Bestäm den totala strömmen från spänningskällan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">10 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">14 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"38\" y=\"116\" font-size=\"14\">12 V</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först parallellkopplingens ersättningsresistans och använd sedan Ohms lag för hela kretsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{R_1R_2}{R_1+R_2}=5{,}833\\ \\Omega\\]\\[I=\\frac{U}{R_p}=2{,}057\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}057\\ \\mathrm A\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistorerna \\(10\\,\\Omega\\) och \\(14\\,\\Omega\\) är parallellkopplade till \\(12\\,\\mathrm V\\). Bestäm den totala strömmen från spänningskällan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">10 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">14 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"105\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"118\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"24\" y=\"116\" font-size=\"14\">12 V</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Båda resistorerna har 12 V över sig. Beräkna de två grenströmmarna med \\(I=U/R\\).</p><p>\\[I_1=12/10\\approx1{,}2\\,\\mathrm A\\]</p><p>\\[I_2=12/14\\approx0{,}8571\\,\\mathrm A\\]</p><p>Addera utan att avrunda mellanleden:</p><p>\\[I=2{,}057\\,\\mathrm A\\]</p></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "formaga": [
       "modellering",
@@ -85978,15 +86227,15 @@ window.BANK = [
     ],
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.057143,
-    "tolerans": 0.037029,
+    "rättSvar": 2.057142857142857,
+    "tolerans": 0.051,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Spänningen över varje parallellgren är samma som källspänningen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "kopplingar",
@@ -87351,8 +87600,8 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma potentialen i en punkt i en seriekrets med jordad minuspol, ur diagram, sökt ström spänning och potential",
     "poang": "(1/0/0)",
-    "t": "<p>I kretsen nedan är batteriets minuspol jordad, alltså har den potentialen 0 V.</p><span class=\"fig\"><svg height=\"298\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"35.486 8.487 412.714 246.113\"><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"120\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 12 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 400 Ω</text><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"290\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">A</text><line x1=\"200\" y1=\"210\" x2=\"200\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"184\" y1=\"230\" x2=\"216\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"235\" x2=\"210\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"195\" y1=\"240\" x2=\"205\" y2=\"240\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"200\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"232\" y=\"240\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">jord, 0 V</text></svg></span>\n<ol><li>Hur stor ström går i kretsen?</li>\n<li>Vilken spänning ligger över varje resistor?</li>\n<li>Vilken potential har batteriets pluspol?</li>\n<li>Vilken potential har punkten A?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>\\(R=200+400=600\\,\\Omega\\).</p><p>\\[I=12/600=0{,}020\\,\\mathrm A=20\\,\\mathrm{mA}\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>\\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\).</p><p>\\[U_1=0{,}020\\cdot200=4{,}0\\,\\mathrm V\\]</p><p>\\[U_2=0{,}020\\cdot400=8{,}0\\,\\mathrm V\\]</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Minuspolen har potentialen 0 V. Batteriet höjer potentialen med 12 V, så pluspolen har <strong>12 V</strong>.</p></div></p><p><strong>d)</strong> <div class=\"facit-v2\"><p>Pluspolen har 12 V. Strömmen är \\(I=12/(200+400)=0{,}020\\,\\mathrm A\\).</p><p>Från pluspolen till A sjunker potentialen över R₁:</p><p>\\[U_1=0{,}020\\cdot200=4{,}0\\,\\mathrm V\\]</p><p>\\[V_A=12-4{,}0=8{,}0\\,\\mathrm V\\]</p></div></p></div>",
+    "t": "<p>I kretsen nedan är batteriets minuspol jordad, alltså har den potentialen 0 V.</p><span class=\"fig\"><svg height=\"298\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"35.486 8.487 412.714 246.113\"><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"120\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"124\" width=\"32\" height=\"16\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 12 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 400 Ω</text><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"290\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">A</text><line x1=\"200\" y1=\"210\" x2=\"200\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"184\" y1=\"230\" x2=\"216\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"235\" x2=\"210\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"195\" y1=\"240\" x2=\"205\" y2=\"240\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"200\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"232\" y=\"240\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">jord, 0 V</text></svg></span>\n<ol><li>Hur stor ström går i kretsen?</li>\n<li>Vilken spänning ligger över varje resistor?</li>\n<li>Vilken potential har batteriets pluspol?</li>\n<li>Vilken potential har punkten A?</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\(R=200+400=600\\,\\Omega\\).</p><p>\\[I=12/600=0{,}020\\,\\mathrm A=20\\,\\mathrm{mA}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\).</p><p>\\[U_1=0{,}020\\cdot200=4{,}0\\,\\mathrm V\\]</p><p>\\[U_2=0{,}020\\cdot400=8{,}0\\,\\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Minuspolen har potentialen 0 V. Batteriet höjer potentialen med 12 V, så pluspolen har <strong>12 V</strong>.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Pluspolen har 12 V. Strömmen är \\(I=12/(200+400)=0{,}020\\,\\mathrm A\\).</p><p>Från pluspolen till A sjunker potentialen över R₁:</p><p>\\[U_1=0{,}020\\cdot200=4{,}0\\,\\mathrm V\\]</p><p>\\[V_A=12-4{,}0=8{,}0\\,\\mathrm V\\]</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "begrepp",
@@ -87403,7 +87652,7 @@ window.BANK = [
     "familjNyckelTidigare": "potential__potential_i_resistiv_krets",
     "ledtrad": "<p>Spänning är energi per laddning: \\(U=W/Q\\). Om ett homogent fält ingår kan du också använda \\(U=Ed\\) längs fältets riktning.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I kretsen nedan är batteriets minuspol jordad, alltså har den potentialen 0 V.</p><span class=\"fig\"><svg height=\"298\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"35.486 8.487 412.714 246.113\"><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"120\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 12 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 400 Ω</text><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"290\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">A</text><line x1=\"200\" y1=\"210\" x2=\"200\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"184\" y1=\"230\" x2=\"216\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"235\" x2=\"210\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"195\" y1=\"240\" x2=\"205\" y2=\"240\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"200\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"232\" y=\"240\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">jord, 0 V</text></svg></span>",
+    "spelIntro": "<p>I kretsen nedan är batteriets minuspol jordad, alltså har den potentialen 0 V.</p><span class=\"fig\"><svg height=\"298\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"35.486 8.487 412.714 246.113\"><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"120\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"124\" width=\"32\" height=\"16\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 12 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 400 Ω</text><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"290\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">A</text><line x1=\"200\" y1=\"210\" x2=\"200\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"184\" y1=\"230\" x2=\"216\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"235\" x2=\"210\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"195\" y1=\"240\" x2=\"205\" y2=\"240\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"200\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"232\" y=\"240\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">jord, 0 V</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -88656,7 +88905,7 @@ window.BANK = [
     "typ": "bestämma ström i enkel slinga med två medriktade emk genom potentialvandring, ur diagram, sökt ström och spänning",
     "poang": "(1/2/0)",
     "t": "<p>I kretsen nedan är batteriernas pluspoler vända åt olika håll.</p><span class=\"fig bred\"><svg height=\"308\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"25.457 11.573 499.114 247.656\"><line x1=\"120\" y1=\"50\" x2=\"430\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"50\" x2=\"430\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"215\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"215\" x2=\"120\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₁ = 6,0 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"414\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"415\" y1=\"140\" x2=\"445\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"424\" y1=\"124\" x2=\"436\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"452\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₂ = 9,0 V</text><text x=\"409\" y=\"144\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"247\" y=\"40\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"275\" y=\"32\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><rect x=\"247\" y=\"205\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"275\" y=\"245\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 350 Ω</text><line x1=\"160\" y1=\"74\" x2=\"202\" y2=\"74\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"210,74 200,69.4 200,78.6\" fill=\"#2A5D9E\"/><text x=\"218\" y=\"78\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I</text></svg></span><p>Strömriktningen i figuren är antagen. Ett negativt svar betyder att strömmen i verkligheten går åt andra hållet.</p>\n<ol><li>Bestäm strömmen i kretsen.</li>\n<li>Vilken spänning ligger över R₂?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I den angivna slingan samverkar batterierna.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Potentialvandringen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[6{,}0-150I+9{,}0-350I=0\\]\\[I=\\frac{15}{500}=0{,}030\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}030\\ \\mathrm A\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Använd \\(U=RI\\).</p><p>\\[U=350\\cdot0{,}030=10{,}5\\,\\mathrm V\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I den angivna slingan samverkar batterierna.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Potentialvandringen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[6{,}0-150I+9{,}0-350I=0\\]\\[I=\\frac{15}{500}=0{,}030\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}030\\ \\mathrm A\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Använd \\(U=RI\\).</p><p>\\[U=350\\cdot0{,}030=10{,}5\\,\\mathrm V\\]</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "procedur"
@@ -88784,7 +89033,7 @@ window.BANK = [
     "typ": "beräkna laddström och effektfördelning vid batteriladdning med potentialvandring, ur diagram, sökt ström och effekt",
     "poang": "(0/1/0)",
     "t": "<p>En laddare med ems 14 V laddar ett batteri med ems 12 V genom en resistor.</p><span class=\"fig bred\"><svg height=\"270\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"29.314 13.116 491.400 213.709\"><line x1=\"120\" y1=\"50\" x2=\"430\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"50\" x2=\"430\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"215\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"215\" x2=\"120\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₁ = 14 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"414\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"415\" y1=\"124\" x2=\"445\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"424\" y1=\"140\" x2=\"436\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"452\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₂ = 12 V</text><text x=\"409\" y=\"128\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"247\" y=\"40\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"275\" y=\"32\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R = 20 Ω</text><line x1=\"160\" y1=\"74\" x2=\"202\" y2=\"74\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"210,74 200,69.4 200,78.6\" fill=\"#2A5D9E\"/><text x=\"218\" y=\"78\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I</text></svg></span>\n<ol><li>Bestäm laddströmmen.</li>\n<li>Hur stor effekt avger laddaren, hur mycket tas upp av batteriet och hur mycket blir värme i resistorn?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>Laddaren och batteriet motverkar varandra. Spänningen över resistorn är \\(14-12=2\\,\\mathrm V\\).</p><p>\\[I=2/20=0{,}10\\,\\mathrm A\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>För laddaren och batteriet gäller \\(P=UI\\).</p><p>\\[P_{\\mathrm{laddare}}=14\\cdot0{,}10=1{,}4\\,\\mathrm W\\]</p><p>\\[P_{\\mathrm{batteri}}=12\\cdot0{,}10=1{,}2\\,\\mathrm W\\]</p><p>I resistorn blir effekten \\(P=RI^2\\):</p><p>\\[P_R=20\\cdot0{,}10^2=0{,}20\\,\\mathrm W\\]</p><p>Kontroll: 1,4 W = 1,2 W + 0,20 W.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Laddaren och batteriet motverkar varandra. Spänningen över resistorn är \\(14-12=2\\,\\mathrm V\\).</p><p>\\[I=2/20=0{,}10\\,\\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>För laddaren och batteriet gäller \\(P=UI\\).</p><p>\\[P_{\\mathrm{laddare}}=14\\cdot0{,}10=1{,}4\\,\\mathrm W\\]</p><p>\\[P_{\\mathrm{batteri}}=12\\cdot0{,}10=1{,}2\\,\\mathrm W\\]</p><p>I resistorn blir effekten \\(P=RI^2\\):</p><p>\\[P_R=20\\cdot0{,}10^2=0{,}20\\,\\mathrm W\\]</p><p>Kontroll: 1,4 W = 1,2 W + 0,20 W.</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "procedur"
@@ -88948,7 +89197,7 @@ window.BANK = [
     "typ": "bestämma två grenströmmar med potentialvandring när mittgrenens ström är känd, ur diagram, sökt ström",
     "poang": "(1/2/0)",
     "t": "<p>I kretsen nedan är strömmen genom mittgrenen uppmätt till 60 mA.</p><span class=\"fig bred\"><svg height=\"236\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"23.914 37.033 502.200 191.335\"><line x1=\"120\" y1=\"50\" x2=\"430\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"215\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"50\" x2=\"430\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"275\" y1=\"50\" x2=\"275\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"275\" cy=\"50\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"275\" cy=\"215\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"104\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"92\" x2=\"135\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"108\" x2=\"126\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"104\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₁ = 12 V</text><text x=\"141\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"110\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"103\" y=\"176\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><rect x=\"414\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"415\" y1=\"92\" x2=\"445\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"424\" y1=\"108\" x2=\"436\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"452\" y=\"104\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₂ = 9,0 V</text><text x=\"409\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"420\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 150 Ω</text><rect x=\"265\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 100 Ω</text><line x1=\"152\" y1=\"148\" x2=\"152\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"152,108 147.4,118 156.6,118\" fill=\"#2A5D9E\"/><text x=\"158\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₁</text><line x1=\"300\" y1=\"108\" x2=\"300\" y2=\"144\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"300,152 295.4,142 304.6,142\" fill=\"#2A5D9E\"/><text x=\"306\" y=\"134\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₃</text><line x1=\"390\" y1=\"148\" x2=\"390\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"390,108 385.4,118 394.6,118\" fill=\"#2A5D9E\"/><text x=\"384\" y=\"132\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₂</text></svg></span>\n<ol><li>Bestäm I₁ och I₂ med varsin potentialvandring.</li>\n<li>Kontrollera svaret med Kirchhoffs första lag i den övre knutpunkten.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Mittgrenens ström är \\(I_3=60\\ \\mathrm{mA}\\), så spänningsfallet över \\(R_3\\) är \\(100\\cdot0{,}060=6{,}0\\ \\mathrm V\\).</p><p class=\"facit-metod\">Vänster slinga:</p><div class=\"facit-matte\">\\[12-150I_1-6{,}0=0\\Rightarrow I_1=40\\ \\mathrm{mA}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Höger slinga:</p><div class=\"facit-matte\">\\[9{,}0-150I_2-6{,}0=0\\Rightarrow I_2=20\\ \\mathrm{mA}\\]</div></div></div><p><strong>Svar:</strong> I₁ = 40 mA och I₂ = 20 mA.</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Knutpunktskontroll:</p><div class=\"facit-matte\">\\[I_1+I_2=40+20=60\\ \\mathrm{mA}=I_3\\]</div></div></div><p><strong>Svar:</strong> 40 mA + 20 mA = 60 mA, så strömmarna uppfyller knutpunktslagen.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Mittgrenens ström är \\(I_3=60\\ \\mathrm{mA}\\), så spänningsfallet över \\(R_3\\) är \\(100\\cdot0{,}060=6{,}0\\ \\mathrm V\\).</p><p class=\"facit-metod\">Vänster slinga:</p><div class=\"facit-matte\">\\[12-150I_1-6{,}0=0\\Rightarrow I_1=40\\ \\mathrm{mA}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Höger slinga:</p><div class=\"facit-matte\">\\[9{,}0-150I_2-6{,}0=0\\Rightarrow I_2=20\\ \\mathrm{mA}\\]</div></div></div><p><strong>Svar:</strong> I₁ = 40 mA och I₂ = 20 mA.</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Knutpunktskontroll:</p><div class=\"facit-matte\">\\[I_1+I_2=40+20=60\\ \\mathrm{mA}=I_3\\]</div></div></div><p><strong>Svar:</strong> 40 mA + 20 mA = 60 mA, så strömmarna uppfyller knutpunktslagen.</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "procedur"
@@ -89749,11 +89998,11 @@ window.BANK = [
     "id": "8.251",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "ström i parallellkopplad resistorkrets",
-    "poang": "(0/2/0)",
-    "t": "<p>Resistorerna \\(12\\,\\Omega\\) och \\(16\\,\\Omega\\) är parallellkopplade till \\(12\\,\\mathrm V\\). Bestäm den totala strömmen från spänningskällan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">12 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">16 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"38\" y=\"116\" font-size=\"14\">12 V</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först parallellkopplingens ersättningsresistans och använd sedan Ohms lag för hela kretsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{R_1R_2}{R_1+R_2}=6{,}857\\ \\Omega\\]\\[I=\\frac{U}{R_p}=1{,}75\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}75\\ \\mathrm A\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Resistorerna \\(12\\,\\Omega\\) och \\(16\\,\\Omega\\) är parallellkopplade till \\(12\\,\\mathrm V\\). Bestäm den totala strömmen från spänningskällan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" role=\"img\" aria-label=\"Elektrisk krets\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"165\" x2=\"360\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"132\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"150\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">12 Ω</text><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"280\" y1=\"55\" x2=\"280\" y2=\"80\" stroke=\"#374151\" stroke-width=\"3\"/><rect x=\"262\" y=\"80\" width=\"36\" height=\"60\" fill=\"white\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"280\" y=\"114\" text-anchor=\"middle\" font-size=\"14\">16 Ω</text><line x1=\"280\" y1=\"140\" x2=\"280\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"55\" x2=\"70\" y2=\"105\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"70\" y1=\"118\" x2=\"70\" y2=\"165\" stroke=\"#374151\" stroke-width=\"3\"/><line x1=\"58\" y1=\"105\" x2=\"82\" y2=\"105\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"63\" y1=\"118\" x2=\"77\" y2=\"118\" stroke=\"#374151\" stroke-width=\"4\"/><text x=\"24\" y=\"116\" font-size=\"14\">12 V</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Båda resistorerna har 12 V över sig. Beräkna de två grenströmmarna med \\(I=U/R\\).</p><p>\\[I_1=12/12\\approx1\\,\\mathrm A\\]</p><p>\\[I_2=12/16\\approx0{,}75\\,\\mathrm A\\]</p><p>Addera utan att avrunda mellanleden:</p><p>\\[I=1{,}75\\,\\mathrm A\\]</p></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "formaga": [
       "modellering",
@@ -89762,14 +90011,14 @@ window.BANK = [
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "numeriskt",
     "rättSvar": 1.75,
-    "tolerans": 0.0315,
+    "tolerans": 0.051,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Spänningen över varje parallellgren är samma som källspänningen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "kopplingar",
@@ -89839,7 +90088,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>En julgranslinga med 20 likadana seriekopplade lampor ansluts till 230 V. Slingan förbrukar totalt 15 W.</p>\n<p>Räkna med att lampornas resistans är konstant.</p><ol><li>Vilken spänning ligger över varje lampa?</li><li>Vilken resistans har en lampa?</li>\n<li>En lampa kortsluts inuti sockeln. Vad händer med de övriga?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tjugo lika seriekopplade lampor delar lika på spänningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_l=\\frac{230}{20}=11{,}5\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mathrm V\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är \\(I=P/U=15/230=0{,}06522\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{230}{0{,}06522}=3527\\ \\Omega\\]\\[R_l=\\frac{3527}{20}=176{,}3\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(176{,}3\\ \\Omega\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>När en lampa kortsluts återstår 19 lampor i serie. Varje lampa får då högre spänning:</p><p>\\[U=230/19\\approx12{,}1\\,\\mathrm V\\]</p><p>Med samma resistans ger högre spänning högre effekt, eftersom \\(P=U^2/R\\). Lamporna lyser starkare och kan slitas snabbare.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tjugo lika seriekopplade lampor delar lika på spänningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_l=\\frac{230}{20}=11{,}5\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mathrm V\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är \\(I=P/U=15/230=0{,}06522\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{230}{0{,}06522}=3527\\ \\Omega\\]\\[R_l=\\frac{3527}{20}=176{,}3\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(176{,}3\\ \\Omega\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>När en lampa kortsluts återstår 19 lampor i serie. Varje lampa får då högre spänning:</p><p>\\[U=230/19\\approx12{,}1\\,\\mathrm V\\]</p><p>Med samma resistans ger högre spänning högre effekt, eftersom \\(P=U^2/R\\). Lamporna lyser starkare och kan slitas snabbare.</p></div></div>",
     "familj": "Spänningsdelning i seriekoppling",
     "formaga": [
       "procedur"
@@ -89928,8 +90177,8 @@ window.BANK = [
     "id": "8.129",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "A",
-    "poang": "(0/1/2)",
+    "niva": "C",
+    "poang": "(0/1/0)",
     "t": "<p>Ta fram formeln för att beräkna ersättningsresistansen för två resistorer som parallellkopplas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">U</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"445\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"255\" y1=\"70\" x2=\"255\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"255\" y1=\"97\" x2=\"255\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"245\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"255\" y1=\"162\" x2=\"255\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"279\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">R₁</text><line x1=\"255\" y1=\"182\" x2=\"255\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"255\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"255\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"380\" y1=\"70\" x2=\"380\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"380\" y1=\"97\" x2=\"380\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"370\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"380\" y1=\"162\" x2=\"380\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"404\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">R₂</text><line x1=\"380\" y1=\"182\" x2=\"380\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"380\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Spänningen \\(U\\) är samma över båda parallellgrenarna, medan strömmarna adderas.</p><div class=\"facit-matte\">\\[I=I_1+I_2\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd Ohms lag i varje term.</p><div class=\"facit-matte\">\\[\\frac{U}{R_e}=\\frac{U}{R_1}+\\frac{U}{R_2}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela med \\(U\\) och lös vid behov ut \\(R_e\\).</p><div class=\"facit-matte\">\\[\\frac1{R_e}=\\frac1{R_1}+\\frac1{R_2}\\]\\[R_e=\\frac{R_1R_2}{R_1+R_2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> För två parallella resistorer gäller \\(1/R_e=1/R_1+1/R_2\\), alltså \\(R_e=R_1R_2/(R_1+R_2)\\).</p></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
@@ -89944,7 +90193,7 @@ window.BANK = [
     "ledtrad": "<p>Spänningen \\(U\\) är samma över båda parallellgrenarna, medan strömmarna adderas.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
@@ -90082,7 +90331,7 @@ window.BANK = [
     "typ": "beräkna ersättningsresistans ström och spänningsfördelning i seriekoppling med tre resistorer, ur diagram, sökt resistans ström och spänning",
     "poang": "(1/0/0)",
     "t": "<p>Figuren visar tre seriekopplade resistorer.</p><span class=\"fig\"><svg height=\"268\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.857 12.346 389.571 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">10 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"262\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"290\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 150 Ω</text><rect x=\"352\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"380\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 250 Ω</text></svg></span>\n<ol><li>Bestäm ersättningsresistansen.</li><li>Hur stor ström går i kretsen?</li>\n<li>Vilken spänning ligger över varje resistor?</li>\n<li>Hur många procent av batteriets spänning ligger över R₃?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=100+150+250=500\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(500\\ \\Omega\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{10}{500}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>\\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\).</p><p>\\[U_1=100\\cdot0{,}020=2{,}0\\,\\mathrm V\\]</p><p>\\[U_2=150\\cdot0{,}020=3{,}0\\,\\mathrm V\\]</p><p>\\[U_3=250\\cdot0{,}020=5{,}0\\,\\mathrm V\\]</p></div></p><p><strong>d)</strong> <div class=\"facit-v2\"><p>Batteriets spänning är 10 V. Dividera delspänningen med batterispänningen:</p><p>\\[5{,}0/10=0{,}50\\]</p><p>Andelen 0,50 är <strong>50 %</strong>.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=100+150+250=500\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(500\\ \\Omega\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{10}{500}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\).</p><p>\\[U_1=100\\cdot0{,}020=2{,}0\\,\\mathrm V\\]</p><p>\\[U_2=150\\cdot0{,}020=3{,}0\\,\\mathrm V\\]</p><p>\\[U_3=250\\cdot0{,}020=5{,}0\\,\\mathrm V\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Batteriets spänning är 10 V. Dividera delspänningen med batterispänningen:</p><p>\\[5{,}0/10=0{,}50\\]</p><p>Andelen 0,50 är <strong>50 %</strong>.</p></div></div>",
     "familj": "Ersättningsresistans och ström i serie",
     "formaga": [
       "procedur"
@@ -90201,7 +90450,7 @@ window.BANK = [
     "typ": "beräkna ersättningsresistans ström och delspänningar i seriekoppling, ur diagram, sökt resistans ström och spänning",
     "poang": "(1/0/0)",
     "t": "<p>Figuren visar två seriekopplade resistorer.</p><span class=\"fig\"><svg height=\"268\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.857 12.346 389.571 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 250 Ω</text></svg></span>\n<ol><li>Bestäm kretsens ersättningsresistans.</li><li>Hur stor ström går genom kretsen?</li>\n<li>Vilken spänning ligger över R₁ respektive R₂?</li>\n<li>Kontrollera att delspänningarna tillsammans blir batteriets spänning.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Serieresistanser adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=150+250=400\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\ \\Omega\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kretsströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{400}=0{,}030\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}030\\ \\mathrm A\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>\\[U_1=150\\cdot0{,}030=4{,}5\\,\\mathrm V\\]</p><p>\\[U_2=250\\cdot0{,}030=7{,}5\\,\\mathrm V\\]</p></div></p><p><strong>d)</strong> <div class=\"facit-v2\"><p>\\[4{,}5+7{,}5=12{,}0\\,\\mathrm V\\]</p><p>Ja, summan är lika stor som batteriets 12 V.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Serieresistanser adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=150+250=400\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\ \\Omega\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kretsströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{400}=0{,}030\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}030\\ \\mathrm A\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[U_1=150\\cdot0{,}030=4{,}5\\,\\mathrm V\\]</p><p>\\[U_2=250\\cdot0{,}030=7{,}5\\,\\mathrm V\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[4{,}5+7{,}5=12{,}0\\,\\mathrm V\\]</p><p>Ja, summan är lika stor som batteriets 12 V.</p></div></div>",
     "familj": "Ersättningsresistans och ström i serie",
     "formaga": [
       "procedur"
@@ -90454,7 +90703,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri på 12 V är kopplat till två seriekopplade resistorer. Den ena är 150 Ω, den andra okänd. En amperemeter visar 50 mA.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">12 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"125\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"125\" y1=\"70\" x2=\"150\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"150\" y1=\"70\" x2=\"158\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"158\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"218\" y1=\"70\" x2=\"227\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"188\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">150 Ω</text><line x1=\"227\" y1=\"70\" x2=\"315\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"315\" y1=\"70\" x2=\"323\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"323\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"383\" y1=\"70\" x2=\"392\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"353\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">R = ?</text><line x1=\"392\" y1=\"70\" x2=\"445\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"445\" y1=\"70\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/></svg></span>\n<ol><li>Bestäm kretsens totala resistans.</li><li>Bestäm den okända resistorns värde.</li>\n<li>Vilken effekt utvecklas i vardera resistorn?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen fås ur Ohms lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{12}{0{,}050}=240\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\ \\Omega\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Omvandla \\(50\\,\\mathrm{mA}=0{,}050\\,\\mathrm A\\). Totalresistansen är \\(12/0{,}050=240\\,\\Omega\\).</p><p>\\[R_x=240-150=90\\,\\Omega\\]</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Strömmen är \\(50\\,\\mathrm{mA}=0{,}050\\,\\mathrm A\\).</p><p>\\[P_{150}=150\\cdot0{,}050^2=0{,}375\\,\\mathrm W\\]</p><p>\\[P_{90}=90\\cdot0{,}050^2=0{,}225\\,\\mathrm W\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen fås ur Ohms lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{12}{0{,}050}=240\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\ \\Omega\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Omvandla \\(50\\,\\mathrm{mA}=0{,}050\\,\\mathrm A\\). Totalresistansen är \\(12/0{,}050=240\\,\\Omega\\).</p><p>\\[R_x=240-150=90\\,\\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Strömmen är \\(50\\,\\mathrm{mA}=0{,}050\\,\\mathrm A\\).</p><p>\\[P_{150}=150\\cdot0{,}050^2=0{,}375\\,\\mathrm W\\]</p><p>\\[P_{90}=90\\cdot0{,}050^2=0{,}225\\,\\mathrm W\\]</p></div></div>",
     "familj": "Spänningsdelning i seriekoppling",
     "formaga": [
       "procedur"
@@ -90551,11 +90800,11 @@ window.BANK = [
     "id": "8.136",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "beräkna strömmar och resistanser för två parallellkopplade lampor ur märkeffekten, ur diagram, sökt ström och resistans",
-    "poang": "(2/1/0)",
-    "t": "<p>Två lampor i en bil är parallellkopplade till bilbatteriet på 12 V. Lamporna är märkta 24 W respektive 12 W.</p><span class=\"fig bred\"><svg height=\"249\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 34.722 469.029 188.272\"><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"275\" y=\"117\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"290\" cy=\"132\" r=\"15\" fill=\"#FFFBE8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"279.394\" y1=\"121.394\" x2=\"300.606\" y2=\"142.607\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"279.394\" y1=\"142.607\" x2=\"300.606\" y2=\"121.394\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"268\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">L₁ = 24 W</text><rect x=\"415\" y=\"117\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"430\" cy=\"132\" r=\"15\" fill=\"#FFFBE8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"419.394\" y1=\"121.394\" x2=\"440.606\" y2=\"142.607\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"419.394\" y1=\"142.607\" x2=\"440.606\" y2=\"121.394\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"452\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">L₂ = 12 W</text></svg></span>\n<ol><li>Vilken spänning ligger över varje lampa?</li>\n<li>Hur stor ström går genom varje lampa?</li>\n<li>Hur stor ström tas ut ur batteriet?</li>\n<li>Vilken resistans har varje lampa?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellkopplade lampor ligger över samma två batteripoler.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=12\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Märkströmmarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{24}{12}=2{,}0\\ \\mathrm A,\\qquad I_2=\\frac{12}{12}=1{,}0\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriströmmen är summan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=3{,}0\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Driftresistanserna blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_1=\\frac{12}{2{,}0}=6{,}0\\ \\Omega,\\qquad R_2=\\frac{12}{1{,}0}=12\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda har \\(12\\ \\mathrm V\\). Strömmarna är \\(2{,}0\\) och \\(1{,}0\\ \\mathrm A\\), totalt \\(3{,}0\\ \\mathrm A\\); resistanserna är \\(6{,}0\\) och \\(12\\ \\Omega\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två lampor i en bil är parallellkopplade till bilbatteriet på 12 V. Vid 12 V utvecklar lamporna 24 W respektive 12 W.</p><span class=\"fig bred\"><svg height=\"249\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 34.722 469.029 188.272\"><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"124\" width=\"32\" height=\"16\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"275\" y=\"117\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"290\" cy=\"132\" r=\"15\" fill=\"#FFFBE8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"279.394\" y1=\"121.394\" x2=\"300.606\" y2=\"142.607\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"279.394\" y1=\"142.607\" x2=\"300.606\" y2=\"121.394\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"268\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">L₁ = 24 W</text><rect x=\"415\" y=\"117\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"430\" cy=\"132\" r=\"15\" fill=\"#FFFBE8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"419.394\" y1=\"121.394\" x2=\"440.606\" y2=\"142.607\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"419.394\" y1=\"142.607\" x2=\"440.606\" y2=\"121.394\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"452\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">L₂ = 12 W</text></svg></span>\n<ol><li>Vilken spänning ligger över varje lampa?</li>\n<li>Hur stor ström går genom varje lampa?</li>\n<li>Hur stor ström tas ut ur batteriet?</li>\n<li>Vilken resistans har varje lampa?</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellkopplade lampor ligger över samma två batteripoler.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=12\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm V\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Använd \\(P=UI\\) och lös ut strömmen:</p><p>\\[I_1=24/12=2{,}0\\,\\mathrm A\\]</p><p>\\[I_2=12/12=1{,}0\\,\\mathrm A\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Grenströmmarna är \\(24/12=2\\,\\mathrm A\\) och \\(12/12=1\\,\\mathrm A\\).</p><p>\\[I=2+1=3{,}0\\,\\mathrm A\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Använd \\(P=U^2/R\\) och lös ut resistansen:</p><p>\\[R_1=12^2/24=6{,}0\\,\\Omega\\]</p><p>\\[R_2=12^2/12=12\\,\\Omega\\]</p></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
       "procedur"
@@ -90563,34 +90812,43 @@ window.BANK = [
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
+      [
+        12,
+        12
+      ],
+      [
+        2,
+        1
+      ],
       3,
-      null
+      [
+        6,
+        12
+      ]
     ],
     "tolerans": [
-      null,
-      null,
-      0.045,
-      null
+      0.05,
+      0.001,
+      0.001,
+      0.5
     ],
     "självrättning": [
-      false,
-      false,
       true,
-      false
+      true,
+      true,
+      true
     ],
     "svarFormat": [
-      null,
-      null,
       "numeriskt",
-      null
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
+      "V",
       "A",
-      null
+      "A",
+      "Ω"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -90601,43 +90859,71 @@ window.BANK = [
     ],
     "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två lampor i en bil är parallellkopplade till bilbatteriet på 12 V. Lamporna är märkta 24 W respektive 12 W.</p><span class=\"fig bred\"><svg height=\"249\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 34.722 469.029 188.272\"><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"275\" y=\"117\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"290\" cy=\"132\" r=\"15\" fill=\"#FFFBE8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"279.394\" y1=\"121.394\" x2=\"300.606\" y2=\"142.607\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"279.394\" y1=\"142.607\" x2=\"300.606\" y2=\"121.394\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"268\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">L₁ = 24 W</text><rect x=\"415\" y=\"117\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"430\" cy=\"132\" r=\"15\" fill=\"#FFFBE8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"419.394\" y1=\"121.394\" x2=\"440.606\" y2=\"142.607\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"419.394\" y1=\"142.607\" x2=\"440.606\" y2=\"121.394\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"452\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">L₂ = 12 W</text></svg></span>",
+    "spelIntro": "<p>Två lampor i en bil är parallellkopplade till bilbatteriet på 12 V. Vid 12 V utvecklar lamporna 24 W respektive 12 W.</p><span class=\"fig bred\"><svg height=\"249\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 34.722 469.029 188.272\"><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"124\" width=\"32\" height=\"16\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"275\" y=\"117\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"290\" cy=\"132\" r=\"15\" fill=\"#FFFBE8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"279.394\" y1=\"121.394\" x2=\"300.606\" y2=\"142.607\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"279.394\" y1=\"142.607\" x2=\"300.606\" y2=\"121.394\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"268\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">L₁ = 24 W</text><rect x=\"415\" y=\"117\" width=\"30\" height=\"30\" fill=\"#fff\" stroke=\"none\"/><circle cx=\"430\" cy=\"132\" r=\"15\" fill=\"#FFFBE8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"419.394\" y1=\"121.394\" x2=\"440.606\" y2=\"142.607\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"419.394\" y1=\"142.607\" x2=\"440.606\" y2=\"121.394\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"452\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">L₂ = 12 W</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken spänning ligger över varje lampa?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellkopplade lampor ligger över samma två batteripoler.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=12\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "24 W-lampan",
+          "12 W-lampan"
+        ]
       },
       {
         "etikett": "b",
         "fraga": "Hur stor ström går genom varje lampa?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Märkströmmarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{24}{12}=2{,}0\\ \\mathrm A,\\qquad I_2=\\frac{12}{12}=1{,}0\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Använd \\(P=UI\\) och lös ut strömmen:</p><p>\\[I_1=24/12=2{,}0\\,\\mathrm A\\]</p><p>\\[I_2=12/12=1{,}0\\,\\mathrm A\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "24 W-lampan",
+          "12 W-lampan"
+        ]
       },
       {
         "etikett": "c",
         "fraga": "Hur stor ström tas ut ur batteriet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriströmmen är summan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=3{,}0\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Grenströmmarna är \\(24/12=2\\,\\mathrm A\\) och \\(12/12=1\\,\\mathrm A\\).</p><p>\\[I=2+1=3{,}0\\,\\mathrm A\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "d",
         "fraga": "Vilken resistans har varje lampa?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Driftresistanserna blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_1=\\frac{12}{2{,}0}=6{,}0\\ \\Omega,\\qquad R_2=\\frac{12}{1{,}0}=12\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Använd \\(P=U^2/R\\) och lös ut resistansen:</p><p>\\[R_1=12^2/24=6{,}0\\,\\Omega\\]</p><p>\\[R_2=12^2/12=12\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "24 W-lampan",
+          "12 W-lampan"
+        ]
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      false
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
@@ -90678,11 +90964,11 @@ window.BANK = [
     "id": "8.137",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "bestämma okänd resistans i parallellkoppling ur totalströmmen, ur diagram, sökt ström och resistans",
-    "poang": "(2/1/0)",
-    "t": "<p>Den totala strömmen genom batteriet är 45 mA.</p><span class=\"fig bred\"><svg height=\"265\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 34.722 441.257 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 400 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = ?</text></svg></span>\n<ol><li>Hur stor ström går genom R₁?</li><li>Hur stor ström går genom R₂?</li>\n<li>Bestäm R₂.</li>\n<li>Bestäm ersättningsresistansen och kontrollera att den är mindre än båda resistorerna.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Över \\(R_1\\) ligger 12 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{12}{400}\\approx0{,}03\\ \\mathrm{A}=30\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna summerar till 45 mA.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_2=45-30=15\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den okända resistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=\\frac{12}{0{,}015}=800\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{12}{0{,}045}=266{,}7\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><p>Den är mindre än både 400 Ω och 800 Ω, som den ska vara parallellt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(I_1=30\\ \\mathrm{mA}\\), \\(I_2=15\\ \\mathrm{mA}\\), \\(R_2=800\\ \\Omega\\), och \\(R_e\\approx267\\ \\Omega\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Den totala strömmen genom batteriet är 45 mA.</p><span class=\"fig bred\"><svg height=\"265\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 34.722 441.257 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 400 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = ?</text></svg></span>\n<ol><li>Hur stor ström går genom R₁?</li><li>Hur stor ström går genom R₂?</li>\n<li>Bestäm R₂.</li>\n<li>Bestäm ersättningsresistansen och kontrollera att den är mindre än båda resistorerna.</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Över \\(R_1\\) ligger 12 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{12}{400}\\approx0{,}03\\ \\mathrm{A}=30\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\mathrm{mA}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Genom R₁ går \\(12/400=0{,}030\\,\\mathrm A=30\\,\\mathrm{mA}\\). Strömmen från batteriet är summan av grenströmmarna:</p><p>\\[I_2=45-30=15\\,\\mathrm{mA}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Den kända grenen drar 30 mA. Den andra drar därför \\(45-30=15\\,\\mathrm{mA}=0{,}015\\,\\mathrm A\\).</p><p>\\[R_2=12/0{,}015=800\\,\\Omega\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Omvandla totalströmmen \\(45\\,\\mathrm{mA}=0{,}045\\,\\mathrm A\\).</p><p>\\[R=12/0{,}045\\approx266{,}7\\,\\Omega\\]</p><p>R₂ är \\(12/(0{,}045-12/400)=800\\,\\Omega\\). 266,7 Ω är mindre än både 400 Ω och 800 Ω, vilket stämmer för parallellkoppling.</p></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
       "procedur"
@@ -90693,31 +90979,31 @@ window.BANK = [
       30,
       15,
       800,
-      null
+      266.6666666666667
     ],
     "tolerans": [
-      0.44999999999999996,
-      0.22499999999999998,
-      12,
-      null
+      0.5,
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": [
       true,
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "mA",
       "mA",
       "Ω",
-      null
+      "Ω"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -90728,43 +91014,56 @@ window.BANK = [
     ],
     "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Den totala strömmen genom batteriet är 45 mA.</p><span class=\"fig bred\"><svg height=\"265\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 34.722 441.257 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 400 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = ?</text></svg></span>",
+    "spelIntro": "<p>Den totala strömmen genom batteriet är 45 mA.</p><span class=\"fig bred\"><svg height=\"265\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 34.722 441.257 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 400 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = ?</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor ström går genom R₁?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Över \\(R_1\\) ligger 12 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{12}{400}\\approx0{,}03\\ \\mathrm{A}=30\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Hur stor ström går genom R₂?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna summerar till 45 mA.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_2=45-30=15\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Genom R₁ går \\(12/400=0{,}030\\,\\mathrm A=30\\,\\mathrm{mA}\\). Strömmen från batteriet är summan av grenströmmarna:</p><p>\\[I_2=45-30=15\\,\\mathrm{mA}\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
         "fraga": "Bestäm R₂.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den okända resistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=\\frac{12}{0{,}015}=800\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(800\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Den kända grenen drar 30 mA. Den andra drar därför \\(45-30=15\\,\\mathrm{mA}=0{,}015\\,\\mathrm A\\).</p><p>\\[R_2=12/0{,}015=800\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "d",
         "fraga": "Bestäm ersättningsresistansen och kontrollera att den är mindre än båda resistorerna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{12}{0{,}045}=266{,}7\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><p>Den är mindre än både 400 Ω och 800 Ω, som den ska vara parallellt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(266{,}7\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Omvandla totalströmmen \\(45\\,\\mathrm{mA}=0{,}045\\,\\mathrm A\\).</p><p>\\[R=12/0{,}045\\approx266{,}7\\,\\Omega\\]</p><p>R₂ är \\(12/(0{,}045-12/400)=800\\,\\Omega\\). 266,7 Ω är mindre än både 400 Ω och 800 Ω, vilket stämmer för parallellkoppling.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      true
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
@@ -90777,7 +91076,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Två resistorer, 220 Ω och 330 Ω, seriekopplas till ett batteri på 9,0 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">9,0 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"125\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"125\" y1=\"70\" x2=\"150\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"150\" y1=\"70\" x2=\"158\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"158\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"218\" y1=\"70\" x2=\"227\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"188\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">220 Ω</text><line x1=\"227\" y1=\"70\" x2=\"315\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"315\" y1=\"70\" x2=\"323\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"323\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"383\" y1=\"70\" x2=\"392\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"353\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">330 Ω</text><line x1=\"392\" y1=\"70\" x2=\"445\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"445\" y1=\"70\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/></svg></span>\n<ol><li>Bestäm ersättningsresistansen.</li><li>Hur stor ström går genom kretsen?</li>\n<li>Vilken spänning ligger över varje resistor?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid seriekoppling adderas resistanserna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=220+330=550\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(550\\ \\Omega\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström går genom båda.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{550}=0{,}01636\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}01636\\ \\mathrm A\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Omvandla strömmen: \\(16{,}36\\,\\mathrm{mA}=0{,}01636\\,\\mathrm A\\).</p><p>\\[U_{220}=0{,}01636\\cdot220\\approx3{,}60\\,\\mathrm V\\]</p><p>\\[U_{330}=0{,}01636\\cdot330\\approx5{,}40\\,\\mathrm V\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid seriekoppling adderas resistanserna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=220+330=550\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(550\\ \\Omega\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström går genom båda.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{550}=0{,}01636\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}01636\\ \\mathrm A\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Omvandla strömmen: \\(16{,}36\\,\\mathrm{mA}=0{,}01636\\,\\mathrm A\\).</p><p>\\[U_{220}=0{,}01636\\cdot220\\approx3{,}60\\,\\mathrm V\\]</p><p>\\[U_{330}=0{,}01636\\cdot330\\approx5{,}40\\,\\mathrm V\\]</p></div></div>",
     "familj": "Ersättningsresistans och ström i serie",
     "formaga": [
       "procedur"
@@ -90874,10 +91173,10 @@ window.BANK = [
     "id": "8.139",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
-    "poang": "(2/1/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Två resistorer på 220 Ω och 330 Ω parallellkopplas till ett batteri på 9,0 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">9,0 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"445\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"255\" y1=\"70\" x2=\"255\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"255\" y1=\"97\" x2=\"255\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"245\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"255\" y1=\"162\" x2=\"255\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"279\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">220 Ω</text><line x1=\"255\" y1=\"182\" x2=\"255\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"255\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"255\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"380\" y1=\"70\" x2=\"380\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"380\" y1=\"97\" x2=\"380\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"370\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"380\" y1=\"162\" x2=\"380\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"404\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">330 Ω</text><line x1=\"380\" y1=\"182\" x2=\"380\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"380\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/></svg></span>\n<ol><li>Bestäm ersättningsresistansen.</li><li>Hur stor blir den totala strömmen?</li>\n<li>Varför blir ersättningsresistansen mindre än den minsta enskilda resistorn?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För två parallella resistorer gäller</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{R_1R_2}{R_1+R_2}=\\frac{220\\cdot330}{220+330}=132\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{132}=0{,}06818\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellkopplingen ger ytterligare en strömväg.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För samma spänning blir totalströmmen summan av grenströmmarna och därmed större än genom någon enskild resistor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{U}{I_{\\mathrm{tot}}}&lt;R_{\\min}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ersättningsresistansen är \\(132\\ \\Omega\\), och totalströmmen cirka \\(68\\ \\mathrm{mA}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>För två parallellkopplade resistorer gäller:</p><p>\\[R=\\frac{R_1R_2}{R_1+R_2}\\]</p><p>Sätt in de givna resistanserna:</p><p>\\[R=\\frac{220\\cdot330}{220+330}=132\\,\\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Parallellkopplingens resistans är \\(220\\cdot330/(220+330)=132\\,\\Omega\\).</p><p>\\[I=9{,}0/132\\approx0{,}06818\\,\\mathrm A\\]</p><p>Det är cirka <strong>68,2 mA</strong>.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>En parallellkoppling ger fler vägar för strömmen. Vid samma spänning blir strömmen från batteriet summan av grenströmmarna, alltså större än strömmen genom någon ensam resistor.</p><p>Eftersom \\(R=U/I\\) innebär större ström vid samma spänning lägre ersättningsresistans.</p></div></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "formaga": [
       "procedur",
@@ -90887,13 +91186,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       132,
-      68,
+      68.18181818181817,
       null
     ],
     "tolerans": [
-      1.98,
-      1.02,
-      null
+      0.5,
+      0.5,
+      0.001
     ],
     "självrättning": [
       true,
@@ -90923,34 +91222,41 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm ersättningsresistansen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För två parallella resistorer gäller</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{R_1R_2}{R_1+R_2}=\\frac{220\\cdot330}{220+330}=132\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(132\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Resistorerna har samma spänning över sig. Bestäm strömmen i varje gren och fundera på hur grenströmmarna hänger ihop med batteriets ström.</p>",
+        "s": "<div class=\"facit-v2\"><p>För två parallellkopplade resistorer gäller:</p><p>\\[R=\\frac{R_1R_2}{R_1+R_2}\\]</p><p>Sätt in de givna resistanserna:</p><p>\\[R=\\frac{220\\cdot330}{220+330}=132\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2
       },
       {
         "etikett": "b",
         "fraga": "Hur stor blir den totala strömmen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{132}=0{,}06818\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}06818\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Resistorerna har samma spänning över sig. Bestäm strömmen i varje gren och fundera på hur grenströmmarna hänger ihop med batteriets ström.</p>",
+        "s": "<div class=\"facit-v2\"><p>Parallellkopplingens resistans är \\(220\\cdot330/(220+330)=132\\,\\Omega\\).</p><p>\\[I=9{,}0/132\\approx0{,}06818\\,\\mathrm A\\]</p><p>Det är cirka <strong>68,2 mA</strong>.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2
       },
       {
         "etikett": "c",
         "fraga": "Varför blir ersättningsresistansen mindre än den minsta enskilda resistorn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellkopplingen ger ytterligare en strömväg.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För samma spänning blir totalströmmen summan av grenströmmarna och därmed större än genom någon enskild resistor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{U}{I_{\\mathrm{tot}}}&lt;R_{\\min}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Resistorerna har samma spänning över sig. Bestäm strömmen i varje gren och fundera på hur grenströmmarna hänger ihop med batteriets ström.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "s": "<div class=\"facit-v2\"><p>En parallellkoppling ger fler vägar för strömmen. Vid samma spänning blir strömmen från batteriet summan av grenströmmarna, alltså större än strömmen genom någon ensam resistor.</p><p>Eftersom \\(R=U/I\\) innebär större ström vid samma spänning lägre ersättningsresistans.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
@@ -91105,9 +91411,9 @@ window.BANK = [
     "kap": 8,
     "omr": "parallellkoppling",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en krets där R₂ och R₃ är lika stora.</p><span class=\"fig bred\"><svg height=\"316\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.143 10.714 419.286 213.571\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">24 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"187\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 80 Ω</text><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Strömmen genom batteriet är 0,20 A. Bestäm kretsens totala resistans.</li>\n<li>Bestäm spänningen över R₁ och över parallelldelen. Ange först spänningen över R₁, sedan över parallelldelen.</li><li>Bestäm R₂.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{24}{0{,}20}=120\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över \\(R_1\\) och parallelldelen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=0{,}20\\cdot80=16\\ \\mathrm V\\]\\[U_p=24-16=8{,}0\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallelldelens resistans är \\(120-80=40\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Två lika parallella resistorer har halva individvärdet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=R_3=2\\cdot40=80\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Totalresistansen är \\(120\\ \\Omega\\). \\(R_1\\) har \\(16\\ \\mathrm V\\), parallelldelen \\(8{,}0\\ \\mathrm V\\), och \\(R_2=R_3=80\\ \\Omega\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Figuren visar en krets där R₂ och R₃ är lika stora.</p><span class=\"fig bred\"><svg height=\"316\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.143 10.714 419.286 213.571\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">24 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"187\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 80 Ω</text><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Strömmen genom batteriet är 0,20 A. Bestäm kretsens totala resistans.</li>\n<li>Bestäm spänningen över R₁ och över parallelldelen. Ange först spänningen över R₁, sedan över parallelldelen.</li><li>Bestäm R₂.</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{24}{0{,}20}=120\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\Omega\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över \\(R_1\\) och parallelldelen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=0{,}20\\cdot80=16\\ \\mathrm V\\]\\[U_p=24-16=8{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\ \\mathrm V\\) över \\(R_1\\) och \\(8{,}0\\ \\mathrm V\\) över parallelldelen.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Totalresistansen är \\(24/0{,}20=120\\,\\Omega\\). R₁ är 80 Ω, så parallelldelens resistans är:</p><p>\\[R_p=120-80=40\\,\\Omega\\]</p><p>Två lika stora parallellkopplade resistorer ger halva resistansen av en resistor. Därför:</p><p>\\[R_2=2\\cdot40=80\\,\\Omega\\]</p></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
       "procedur"
@@ -91123,14 +91429,15 @@ window.BANK = [
       80
     ],
     "tolerans": [
-      1.7999999999999998,
-      [
-        0.24,
-        0.12
-      ],
-      1.2
+      0.5,
+      0.05,
+      0.5
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -91149,31 +91456,39 @@ window.BANK = [
     ],
     "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar en krets där R₂ och R₃ är lika stora.</p><span class=\"fig bred\"><svg height=\"316\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.143 10.714 419.286 213.571\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">24 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"187\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 80 Ω</text><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>",
+    "spelIntro": "<p>Figuren visar en krets där R₂ och R₃ är lika stora.</p><span class=\"fig bred\"><svg height=\"316\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.143 10.714 419.286 213.571\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">24 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"187\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 80 Ω</text><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/></svg></span><p>Strömmen genom batteriet är 0,20 A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Strömmen genom batteriet är 0,20 A. Bestäm kretsens totala resistans.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{24}{0{,}20}=120\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 1
       },
       {
         "etikett": "b",
         "fraga": "Bestäm spänningen över R₁ och över parallelldelen. Ange först spänningen över R₁, sedan över parallelldelen.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över \\(R_1\\) och parallelldelen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=0{,}20\\cdot80=16\\ \\mathrm V\\]\\[U_p=24-16=8{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\ \\mathrm V\\) över \\(R_1\\) och \\(8{,}0\\ \\mathrm V\\) över parallelldelen.</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R₁",
+          "Parallelldelen"
+        ]
       },
       {
         "etikett": "c",
         "fraga": "Bestäm R₂.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallelldelens resistans är \\(120-80=40\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Två lika parallella resistorer har halva individvärdet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=R_3=2\\cdot40=80\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Totalresistansen är \\(24/0{,}20=120\\,\\Omega\\). R₁ är 80 Ω, så parallelldelens resistans är:</p><p>\\[R_p=120-80=40\\,\\Omega\\]</p><p>Två lika stora parallellkopplade resistorer ger halva resistansen av en resistor. Därför:</p><p>\\[R_2=2\\cdot40=80\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
         "niva": "C",
-        "poang": "0/1/0"
+        "poang": "(0/1/0)",
+        "traningsniva": 3
       }
     ],
     "geogebra": false,
@@ -91184,16 +91499,21 @@ window.BANK = [
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      false
     ]
   },
   {
     "id": "8.142",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
-    "poang": "(2/1/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Två resistorer på 100 Ω och 150 Ω parallellkopplas till 12 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">12 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"445\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"255\" y1=\"70\" x2=\"255\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"255\" y1=\"97\" x2=\"255\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"245\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"255\" y1=\"162\" x2=\"255\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"279\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">100 Ω</text><line x1=\"255\" y1=\"182\" x2=\"255\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"255\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"255\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"380\" y1=\"70\" x2=\"380\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"380\" y1=\"97\" x2=\"380\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"370\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"380\" y1=\"162\" x2=\"380\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"404\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">150 Ω</text><line x1=\"380\" y1=\"182\" x2=\"380\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"380\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/></svg></span>\n<ol><li>Hur stor ström går genom varje resistor?</li><li>Hur stor blir den totala strömmen?</li>\n<li>Bestäm ersättningsresistansen på två olika sätt.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda grenarna har 12 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{100}=\\frac{12}{100}=120\\ \\mathrm{mA},\\qquad I_{150}=\\frac{12}{150}\\approx0{,}08\\ \\mathrm{A}=80\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kirchhoffs strömlag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{tot}}=120+80=200\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ur totalströmmen respektive parallellformeln:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{12}{0{,}200}=60\\ \\Omega\\]\\[R_e=\\frac{100\\cdot150}{100+150}=60\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Grenströmmarna är \\(120\\) och \\(80\\ \\mathrm{mA}\\), totalströmmen \\(200\\ \\mathrm{mA}\\), och ersättningsresistansen \\(60\\ \\Omega\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 12 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=12/100=0{,}12\\,\\mathrm A\\]</p><p>Det är \\(120\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=12/150=0{,}08\\,\\mathrm A\\]</p><p>Det är \\(80\\,\\mathrm{mA}\\) i R2.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Grenströmmarna är 120,0 mA, 80,0 mA, eftersom varje gren har 12 V över sig.</p><p>\\[I=120+80=200\\,\\mathrm{mA}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Ur strömmen: \\(I=12/100+12/150=0{,}200\\,\\mathrm A\\).</p><p>\\[R=12/0{,}200=60\\,\\Omega\\]</p><p>Med parallellformeln:</p><p>\\[R=\\frac{100\\cdot150}{100+150}=60\\,\\Omega\\]</p></div></div>",
     "familj": "Ersättningsresistans vid parallellkoppling",
     "formaga": [
       "procedur"
@@ -91201,27 +91521,30 @@ window.BANK = [
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      200,
-      60
+      [
+        120.0,
+        80.0
+      ],
+      200.0,
+      60.0
     ],
     "tolerans": [
-      null,
-      3,
-      0.8999999999999999
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": [
-      false,
+      true,
       true,
       true
     ],
     "svarFormat": [
-      null,
+      "numeriskt",
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
+      "mA",
       "mA",
       "Ω"
     ],
@@ -91238,34 +91561,46 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur stor ström går genom varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda grenarna har 12 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{100}=\\frac{12}{100}=120\\ \\mathrm{mA},\\qquad I_{150}=\\frac{12}{150}\\approx0{,}08\\ \\mathrm{A}=80\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 12 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=12/100=0{,}12\\,\\mathrm A\\]</p><p>Det är \\(120\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=12/150=0{,}08\\,\\mathrm A\\]</p><p>Det är \\(80\\,\\mathrm{mA}\\) i R2.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R1",
+          "R2"
+        ]
       },
       {
         "etikett": "b",
         "fraga": "Hur stor blir den totala strömmen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kirchhoffs strömlag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{tot}}=120+80=200\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Grenströmmarna är 120,0 mA, 80,0 mA, eftersom varje gren har 12 V över sig.</p><p>\\[I=120+80=200\\,\\mathrm{mA}\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2
       },
       {
         "etikett": "c",
         "fraga": "Bestäm ersättningsresistansen på två olika sätt.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ur totalströmmen respektive parallellformeln:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{12}{0{,}200}=60\\ \\Omega\\]\\[R_e=\\frac{100\\cdot150}{100+150}=60\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I parallell är spänningen samma över grenarna och strömmarna adderas. För resistansen gäller \\(1/R_{ers}=\\sum 1/R_i\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "s": "<div class=\"facit-v2\"><p>Ur strömmen: \\(I=12/100+12/150=0{,}200\\,\\mathrm A\\).</p><p>\\[R=12/0{,}200=60\\,\\Omega\\]</p><p>Med parallellformeln:</p><p>\\[R=\\frac{100\\cdot150}{100+150}=60\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
@@ -91279,7 +91614,7 @@ window.BANK = [
     "typ": "jämföra elektron och proton accelererade genom samma spänning, ur text, sökt fart",
     "poang": "(0/1/0)",
     "t": "<p>En elektron och en proton accelereras var för sig från vila genom spänningen 400 V. Elektronens massa är 9,11·10⁻³¹ kg och protonens 1,67·10⁻²⁷ kg.</p>\n<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><ol><li>Hur stor rörelseenergi får vardera partikeln?</li><li>Vilken fart får elektronen?</li>\n<li>Hur många gånger större är elektronens fart än protonens?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>Elektronen och protonen har lika stor laddning. När de startar från vila får båda rörelseenergin \\(E_k=eU\\). Vid 400 V blir det <strong>400 eV för vardera partikeln</strong>, alltså \\(6{,}408\\cdot10^{-17}\\,\\mathrm J\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Lös ut farten ur \\(E_k=mv^2/2\\):</p><p>\\[v=\\sqrt{2E_k/m_e}\\]</p><p>\\[v=\\sqrt{\\frac{2\\cdot6{,}408\\cdot10^{-17}}{9{,}11\\cdot10^{-31}}}\\]</p><p>Elektronens fart är ungefär \\(1{,}19\\cdot10^7\\,\\mathrm{m/s}\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>De har samma rörelseenergi. Ur \\(v=\\sqrt{2E_k/m}\\) ser vi att den lättare partikeln går snabbare.</p><p>\\[\\frac{v_e}{v_p}=\\sqrt{\\frac{m_p}{m_e}}\\]</p><p>\\[\\sqrt{\\frac{1{,}67\\cdot10^{-27}}{9{,}11\\cdot10^{-31}}}\\approx42{,}8\\]</p><p>Elektronens fart är alltså ungefär <strong>43 gånger större</strong>.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Elektronen och protonen har lika stor laddning. När de startar från vila får båda rörelseenergin \\(E_k=eU\\). Vid 400 V blir det <strong>400 eV för vardera partikeln</strong>, alltså \\(6{,}408\\cdot10^{-17}\\,\\mathrm J\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Lös ut farten ur \\(E_k=mv^2/2\\):</p><p>\\[v=\\sqrt{2E_k/m_e}\\]</p><p>\\[v=\\sqrt{\\frac{2\\cdot6{,}408\\cdot10^{-17}}{9{,}11\\cdot10^{-31}}}\\]</p><p>Elektronens fart är ungefär \\(1{,}19\\cdot10^7\\,\\mathrm{m/s}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>De har samma rörelseenergi. Ur \\(v=\\sqrt{2E_k/m}\\) ser vi att den lättare partikeln går snabbare.</p><p>\\[\\frac{v_e}{v_p}=\\sqrt{\\frac{m_p}{m_e}}\\]</p><p>\\[\\sqrt{\\frac{1{,}67\\cdot10^{-27}}{9{,}11\\cdot10^{-31}}}\\approx42{,}8\\]</p><p>Elektronens fart är alltså ungefär <strong>43 gånger större</strong>.</p></div></div>",
     "familj": "Elektronvolt och accelererade partiklar",
     "formaga": [
       "problemlösning"
@@ -91399,7 +91734,7 @@ window.BANK = [
     "typ": "bestämma spänning ur potentialer i två punkter, ur text, sökt spänning",
     "poang": "(1/0/0)",
     "t": "<p>I en krets har punkten A potentialen 7,5 V och punkten B potentialen -2,5 V. Mellan punkterna sitter en resistor på 250 Ω.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"230\" viewBox=\"0 0 520 230\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Punkter med givna potentialer; resistorn är mellan A och B\"><title>Punkter med givna potentialer; resistorn är mellan A och B</title><circle cx=\"90\" cy=\"145\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"90\" y1=\"145\" x2=\"225\" y2=\"145\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"225\" y1=\"145\" x2=\"233\" y2=\"145\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"233\" y=\"135\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"293\" y1=\"145\" x2=\"302\" y2=\"145\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"263\" y=\"121\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">250 Ω</text><line x1=\"302\" y1=\"145\" x2=\"410\" y2=\"145\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"410\" cy=\"145\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"90\" y=\"112\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A: 7,5 V</text><text x=\"410\" y=\"112\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">B: −2,5 V</text></svg></span>\n<ol><li>Hur stor är spänningen över resistorn?</li><li>Hur stor ström går genom den, och åt vilket håll?</li>\n<li>Vad skulle potentialerna bli om jordpunkten flyttades så att B fick potentialen 0 V?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>\\[U=7{,}5-(-2{,}5)=10\\,\\mathrm V\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Potentialskillnaden är \\(7{,}5-(-2{,}5)=10\\,\\mathrm V\\).</p><p>\\[I=10/250=0{,}040\\,\\mathrm A=40\\,\\mathrm{mA}\\]</p><p>Strömmen går från högre till lägre potential: <strong>från A till B</strong>.</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>B hade −2,5 V. Lägg därför till 2,5 V i båda punkterna:</p><p>\\[V_A=7{,}5+2{,}5=10\\,\\mathrm V\\]</p><p>\\[V_B=-2{,}5+2{,}5=0\\,\\mathrm V\\]</p><p>Skillnaden mellan potentialerna är fortfarande 10 V.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[U=7{,}5-(-2{,}5)=10\\,\\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Potentialskillnaden är \\(7{,}5-(-2{,}5)=10\\,\\mathrm V\\).</p><p>\\[I=10/250=0{,}040\\,\\mathrm A=40\\,\\mathrm{mA}\\]</p><p>Strömmen går från högre till lägre potential: <strong>från A till B</strong>.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>B hade −2,5 V. Lägg därför till 2,5 V i båda punkterna:</p><p>\\[V_A=7{,}5+2{,}5=10\\,\\mathrm V\\]</p><p>\\[V_B=-2{,}5+2{,}5=0\\,\\mathrm V\\]</p><p>Skillnaden mellan potentialerna är fortfarande 10 V.</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "begrepp",
@@ -91581,7 +91916,7 @@ window.BANK = [
     "typ": "lösa ekvationssystem med tre obekanta strömmar när alla tre grenarna innehåller emk, ur diagram, sökt ström och effekt",
     "poang": "(0/1/2)",
     "t": "<p>Figuren visar en krets där alla tre grenarna innehåller ett batteri. Mittgrenens batteri är vänt så att de två yttre batterierna driver ström <em>in</em> i dess pluspol.</p><span class=\"fig bred\"><svg height=\"236\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"23.914 37.033 502.200 191.335\"><line x1=\"120\" y1=\"50\" x2=\"430\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"215\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"50\" x2=\"430\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"275\" y1=\"50\" x2=\"275\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"275\" cy=\"50\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"275\" cy=\"215\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"104\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"92\" x2=\"135\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"108\" x2=\"126\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"104\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₁ = 12 V</text><text x=\"141\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"110\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"103\" y=\"176\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"414\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"415\" y1=\"92\" x2=\"445\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"424\" y1=\"108\" x2=\"436\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"452\" y=\"104\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₂ = 9,0 V</text><text x=\"409\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"420\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 150 Ω</text><rect x=\"259\" y=\"78\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"260\" y1=\"82\" x2=\"290\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"269\" y1=\"98\" x2=\"281\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"253\" y=\"94\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₃ = 2,0 V</text><text x=\"296\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"265\" y=\"137\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"169\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 50 Ω</text><line x1=\"152\" y1=\"148\" x2=\"152\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"152,108 147.4,118 156.6,118\" fill=\"#2A5D9E\"/><text x=\"158\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₁</text><line x1=\"310\" y1=\"108\" x2=\"310\" y2=\"144\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"310,152 305.4,142 314.6,142\" fill=\"#2A5D9E\"/><text x=\"316\" y=\"134\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₃</text><line x1=\"390\" y1=\"148\" x2=\"390\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"390,108 385.4,118 394.6,118\" fill=\"#2A5D9E\"/><text x=\"384\" y=\"132\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₂</text></svg></span>\n<ol><li>Ställ upp tre ekvationer och bestäm I₁, I₂ och I₃.</li>\n<li>Med vilken effekt laddas batteriet i mittgrenen?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>Strömmarna in i den övre knutpunkten är lika stora som strömmen ut:</p><p>\\[I_1+I_2=I_3\\]</p><p>Mittbatteriet motverkar de andra batterierna: 12 − 2 = 10 V i vänster slinga och 9 − 2 = 7 V i höger slinga. De två slingorna ger:</p><p>\\[10-100I_1-50I_3=0\\]</p><p>\\[7-150I_2-50I_3=0\\]</p><p>Lös ut de två grenströmmarna och sätt in dem i knutpunktsekvationen:</p><p>\\[I_3=\\frac{10-50I_3}{100}+\\frac{7-50I_3}{150}\\]</p><p>Multiplicera med 15000 och samla termerna med \\(I_3\\):</p><p>\\[27500I_3=2200\\]</p><p>\\[I_3=0{,}08\\,\\mathrm A\\]</p><p>Sätt in strömmen i uttrycken för I₁ och I₂:</p><p>\\[I_1=0{,}06\\,\\mathrm A\\]</p><p>\\[I_2=0{,}02\\,\\mathrm A\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen går in i mittbatteriets pluspol, så batteriet tar upp effekt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}P_{\\mathrm{ladd}}&=E_3I_3\\\\&=2{,}0\\cdot0{,}080\\\\&=0{,}160\\ \\mathrm W\\end{aligned}\\]</div></div><div class=\"facit-stycke\"><p>Resistorn i samma gren utvecklar dessutom \\(50(0{,}080)^2=0{,}320\\ \\mathrm W\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}160\\ \\mathrm W\\).</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Strömmarna in i den övre knutpunkten är lika stora som strömmen ut:</p><p>\\[I_1+I_2=I_3\\]</p><p>Mittbatteriet motverkar de andra batterierna: 12 − 2 = 10 V i vänster slinga och 9 − 2 = 7 V i höger slinga. De två slingorna ger:</p><p>\\[10-100I_1-50I_3=0\\]</p><p>\\[7-150I_2-50I_3=0\\]</p><p>Lös ut de två grenströmmarna och sätt in dem i knutpunktsekvationen:</p><p>\\[I_3=\\frac{10-50I_3}{100}+\\frac{7-50I_3}{150}\\]</p><p>Multiplicera med 15000 och samla termerna med \\(I_3\\):</p><p>\\[27500I_3=2200\\]</p><p>\\[I_3=0{,}08\\,\\mathrm A\\]</p><p>Sätt in strömmen i uttrycken för I₁ och I₂:</p><p>\\[I_1=0{,}06\\,\\mathrm A\\]</p><p>\\[I_2=0{,}02\\,\\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen går in i mittbatteriets pluspol, så batteriet tar upp effekt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}P_{\\mathrm{ladd}}&=E_3I_3\\\\&=2{,}0\\cdot0{,}080\\\\&=0{,}160\\ \\mathrm W\\end{aligned}\\]</div></div><div class=\"facit-stycke\"><p>Resistorn i samma gren utvecklar dessutom \\(50(0{,}080)^2=0{,}320\\ \\mathrm W\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}160\\ \\mathrm W\\).</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "problemlösning"
@@ -91690,7 +92025,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En elektron startar från vila och accelereras genom spänningen 250 V i vakuum. Elektronens massa är 9,109·10⁻³¹ kg.</p>\n<p>Använd \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\) och \\(c=2{,}998\\cdot10^8\\,\\mathrm{m/s}\\).</p><ol><li>Hur mycket rörelseenergi får elektronen? Svara i eV.</li><li>Vilken fart får den?</li>\n<li>Hur många procent av ljusets hastighet är det?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>En elektron får 1 eV för varje volt den accelereras genom. Vid 250 V får den därför <strong>250 eV</strong>.</p><p>I joule blir energin \\(eU=4{,}005\\cdot10^{-17}\\,\\mathrm J\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Ur \\(E_k=mv^2/2\\) får vi \\(v=\\sqrt{2E_k/m}\\).</p><p>\\[v=\\sqrt{\\frac{2\\cdot4{,}005\\cdot10^{-17}}{9{,}109\\cdot10^{-31}}}\\]</p><p>Farten är ungefär \\(9{,}38\\cdot10^6\\,\\mathrm{m/s}\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Dividera farten med ljusets hastighet och multiplicera med 100:</p><p>\\[\\frac{9{,}38\\cdot10^6}{2{,}998\\cdot10^8}\\cdot100\\approx3{,}13\\]</p><p>Farten är cirka <strong>3,13 % av ljusets hastighet</strong>.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>En elektron får 1 eV för varje volt den accelereras genom. Vid 250 V får den därför <strong>250 eV</strong>.</p><p>I joule blir energin \\(eU=4{,}005\\cdot10^{-17}\\,\\mathrm J\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Ur \\(E_k=mv^2/2\\) får vi \\(v=\\sqrt{2E_k/m}\\).</p><p>\\[v=\\sqrt{\\frac{2\\cdot4{,}005\\cdot10^{-17}}{9{,}109\\cdot10^{-31}}}\\]</p><p>Farten är ungefär \\(9{,}38\\cdot10^6\\,\\mathrm{m/s}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Dividera farten med ljusets hastighet och multiplicera med 100:</p><p>\\[\\frac{9{,}38\\cdot10^6}{2{,}998\\cdot10^8}\\cdot100\\approx3{,}13\\]</p><p>Farten är cirka <strong>3,13 % av ljusets hastighet</strong>.</p></div></div>",
     "familj": "Elektronvolt och accelererade partiklar",
     "formaga": [
       "problemlösning"
@@ -91903,7 +92238,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri på 9,0 V driver ström genom två seriekopplade resistorer, 300 Ω och 600 Ω. 300 Ω-resistorn sitter närmast pluspolen och 600 Ω-resistorn närmast minuspolen. Batteriets minuspol är jordad.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">9,0 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"125\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"125\" y1=\"70\" x2=\"150\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"150\" y1=\"70\" x2=\"158\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"158\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"218\" y1=\"70\" x2=\"227\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"188\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">300 Ω</text><line x1=\"227\" y1=\"70\" x2=\"315\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"315\" y1=\"70\" x2=\"323\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"323\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"383\" y1=\"70\" x2=\"392\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"353\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">600 Ω</text><line x1=\"392\" y1=\"70\" x2=\"445\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"445\" y1=\"70\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"285\" cy=\"70\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"285\" y=\"107\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">M</text><line x1=\"390\" y1=\"225\" x2=\"390\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"375\" y1=\"247\" x2=\"405\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"380\" y1=\"253\" x2=\"400\" y2=\"253\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"259\" x2=\"395\" y2=\"259\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"427\" y=\"259\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">0 V</text></svg></span>\n<ol><li>Bestäm strömmen.</li><li>Bestäm potentialen i punkten mellan resistorerna.</li>\n<li>Vad skulle potentialen i samma punkt bli om istället pluspolen jordades?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>\\(R=300+600=900\\,\\Omega\\).</p><p>\\[I=9{,}0/900=0{,}010\\,\\mathrm A=10\\,\\mathrm{mA}\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Strömmen är \\(9{,}0/(300+600)=0{,}010\\,\\mathrm A\\). Från pluspolen till mellanpunkten sjunker potentialen över 300 Ω:</p><p>\\[U_{300}=0{,}010\\cdot300=3{,}0\\,\\mathrm V\\]</p><p>\\[V_M=9{,}0-3{,}0=6{,}0\\,\\mathrm V\\]</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Pluspolen får då potentialen 0 V. Strömmen är \\(9{,}0/(300+600)=0{,}010\\,\\mathrm A\\). Potentialen sjunker med 3,0 V över resistorn närmast pluspolen:</p><p>\\[V_M=0-0{,}010\\cdot300=-3{,}0\\,\\mathrm V\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\(R=300+600=900\\,\\Omega\\).</p><p>\\[I=9{,}0/900=0{,}010\\,\\mathrm A=10\\,\\mathrm{mA}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Strömmen är \\(9{,}0/(300+600)=0{,}010\\,\\mathrm A\\). Från pluspolen till mellanpunkten sjunker potentialen över 300 Ω:</p><p>\\[U_{300}=0{,}010\\cdot300=3{,}0\\,\\mathrm V\\]</p><p>\\[V_M=9{,}0-3{,}0=6{,}0\\,\\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Pluspolen får då potentialen 0 V. Strömmen är \\(9{,}0/(300+600)=0{,}010\\,\\mathrm A\\). Potentialen sjunker med 3,0 V över resistorn närmast pluspolen:</p><p>\\[V_M=0-0{,}010\\cdot300=-3{,}0\\,\\mathrm V\\]</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "begrepp",
@@ -92054,7 +92389,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri på 12 V är kopplat till två seriekopplade resistorer, R₁ = 100 Ω och R₂ = 200 Ω. R₁ sitter närmast pluspolen och R₂ närmast minuspolen. Punkten mellan resistorerna är jordad, alltså har potentialen 0 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">12 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"125\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"125\" y1=\"70\" x2=\"150\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"150\" y1=\"70\" x2=\"158\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"158\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"218\" y1=\"70\" x2=\"227\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"188\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">R₁ = 100 Ω</text><line x1=\"227\" y1=\"70\" x2=\"315\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"315\" y1=\"70\" x2=\"323\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"323\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"383\" y1=\"70\" x2=\"392\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"353\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">R₂ = 200 Ω</text><line x1=\"392\" y1=\"70\" x2=\"445\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"445\" y1=\"70\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"272\" cy=\"70\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"272\" y1=\"70\" x2=\"272\" y2=\"113\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"257\" y1=\"113\" x2=\"287\" y2=\"113\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"262\" y1=\"119\" x2=\"282\" y2=\"119\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"267\" y1=\"125\" x2=\"277\" y2=\"125\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"302\" y=\"118\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">0 V</text></svg></span>\n<ol><li>Vilken ström går i kretsen?</li><li>Bestäm spänningen över varje resistor.</li>\n<li>Bestäm potentialen vid batteriets båda poler.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>\\(R=100+200=300\\,\\Omega\\).</p><p>\\[I=12/300=0{,}040\\,\\mathrm A=40\\,\\mathrm{mA}\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>\\(40\\,\\mathrm{mA}=0{,}040\\,\\mathrm A\\).</p><p>\\[U_1=0{,}040\\cdot100=4{,}0\\,\\mathrm V\\]</p><p>\\[U_2=0{,}040\\cdot200=8{,}0\\,\\mathrm V\\]</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Strömmen är \\(12/(100+200)=0{,}040\\,\\mathrm A\\). Spänningsfallen är 4,0 V över R₁ och 8,0 V över R₂. Mellanpunkten är 0 V.</p><p>Pluspolen ligger 4,0 V över mellanpunkten och minuspolen 8,0 V under den:</p><p>\\[V_+=4{,}0\\,\\mathrm V\\]</p><p>\\[V_-=-8{,}0\\,\\mathrm V\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\(R=100+200=300\\,\\Omega\\).</p><p>\\[I=12/300=0{,}040\\,\\mathrm A=40\\,\\mathrm{mA}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\(40\\,\\mathrm{mA}=0{,}040\\,\\mathrm A\\).</p><p>\\[U_1=0{,}040\\cdot100=4{,}0\\,\\mathrm V\\]</p><p>\\[U_2=0{,}040\\cdot200=8{,}0\\,\\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Strömmen är \\(12/(100+200)=0{,}040\\,\\mathrm A\\). Spänningsfallen är 4,0 V över R₁ och 8,0 V över R₂. Mellanpunkten är 0 V.</p><p>Pluspolen ligger 4,0 V över mellanpunkten och minuspolen 8,0 V under den:</p><p>\\[V_+=4{,}0\\,\\mathrm V\\]</p><p>\\[V_-=-8{,}0\\,\\mathrm V\\]</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "begrepp",
@@ -92222,7 +92557,7 @@ window.BANK = [
     "typ": "beräkna spänningar som potentialskillnader mellan punkter och därav strömmen, ur text, sökt spänning och ström",
     "poang": "(1/0/0)",
     "t": "<p>I en krets har punkten A potentialen 12 V, punkten B potentialen 7,0 V och punkten C potentialen 0 V. Mellan A och B sitter en resistor på 250 Ω.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Punkter med givna potentialer; resistorn är mellan A och B\"><title>Punkter med givna potentialer; resistorn är mellan A och B</title><circle cx=\"90\" cy=\"145\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"90\" y1=\"145\" x2=\"225\" y2=\"145\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"225\" y1=\"145\" x2=\"233\" y2=\"145\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"233\" y=\"135\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"293\" y1=\"145\" x2=\"302\" y2=\"145\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"263\" y=\"121\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">250 Ω</text><line x1=\"302\" y1=\"145\" x2=\"410\" y2=\"145\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"410\" cy=\"145\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"90\" y=\"112\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A: 12 V</text><text x=\"410\" y=\"112\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">B: 7,0 V</text><circle cx=\"410\" cy=\"235\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"410\" y=\"269\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">C: 0 V</text></svg></span>\n<ol><li>Hur stor är spänningen mellan A och B?</li>\n<li>Hur stor är spänningen mellan B och C?</li>\n<li>Hur stor ström går genom resistorn mellan A och B, och åt vilket håll?</li>\n<li>Vad blir potentialerna om man i stället jordar punkten A?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>\\[U_{AB}=12-7{,}0=5{,}0\\,\\mathrm V\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>\\[U_{BC}=7{,}0-0=7{,}0\\,\\mathrm V\\]</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>\\(U_{AB}=12-7{,}0=5{,}0\\,\\mathrm V\\).</p><p>\\[I=5{,}0/250=0{,}020\\,\\mathrm A=20\\,\\mathrm{mA}\\]</p><p>A har högre potential än B, så strömmen går <strong>från A till B</strong>.</p></div></p><p><strong>d)</strong> <div class=\"facit-v2\"><p>A hade 12 V. Dra därför bort 12 V från alla tre potentialerna:</p><p>\\[V_A=12-12=0\\,\\mathrm V\\]</p><p>\\[V_B=7-12=-5\\,\\mathrm V\\]</p><p>\\[V_C=0-12=-12\\,\\mathrm V\\]</p><p>Potentialskillnaderna ändras inte.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[U_{AB}=12-7{,}0=5{,}0\\,\\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[U_{BC}=7{,}0-0=7{,}0\\,\\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\(U_{AB}=12-7{,}0=5{,}0\\,\\mathrm V\\).</p><p>\\[I=5{,}0/250=0{,}020\\,\\mathrm A=20\\,\\mathrm{mA}\\]</p><p>A har högre potential än B, så strömmen går <strong>från A till B</strong>.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>A hade 12 V. Dra därför bort 12 V från alla tre potentialerna:</p><p>\\[V_A=12-12=0\\,\\mathrm V\\]</p><p>\\[V_B=7-12=-5\\,\\mathrm V\\]</p><p>\\[V_C=0-12=-12\\,\\mathrm V\\]</p><p>Potentialskillnaderna ändras inte.</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "begrepp",
@@ -92390,7 +92725,7 @@ window.BANK = [
     "typ": "bestämma ström i enkel slinga med ett batteri genom potentialvandring, ur diagram, sökt ström och spänning",
     "poang": "(1/0/0)",
     "t": "<p>Figuren visar en krets med ett batteri och två resistorer.</p><span class=\"fig\"><svg height=\"290\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.943 10.031 414.257 239.969\"><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"120\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε = 9,0 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"247\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"275\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"247\" y=\"200\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"275\" y=\"240\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><line x1=\"165\" y1=\"74\" x2=\"202\" y2=\"74\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"210,74 200,69.4 200,78.6\" fill=\"#2A5D9E\"/><text x=\"218\" y=\"66\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I</text></svg></span>\n<ol><li>Går vi uppför den vänstra grenen, från minuspol till pluspol, stiger eller sjunker potentialen?</li>\n<li>Passerar vi en resistor i strömmens riktning, stiger eller sjunker potentialen?</li>\n<li>Skriv upp potentialvandringen ett helt varv medurs och bestäm strömmen.</li>\n<li>Vilken spänning ligger över varje resistor?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>Batteriet höjer potentialen från minuspolen till pluspolen med <strong>9,0 V</strong>.</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>I strömmens riktning <strong>sjunker potentialen</strong> över resistorn. Spänningsfallet är \\(U=RI\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Medurs ökar potentialen med 9,0 V i batteriet och minskar med RI i vardera resistorn. Efter ett helt varv är vi tillbaka på samma potential:</p><p>\\[9{,}0-100I-200I=0\\]</p><p>\\[I=9{,}0/300=0{,}030\\,\\mathrm A=30\\,\\mathrm{mA}\\]</p></div></p><p><strong>d)</strong> <div class=\"facit-v2\"><p>\\(30\\,\\mathrm{mA}=0{,}030\\,\\mathrm A\\).</p><p>\\[U_{100}=0{,}030\\cdot100=3{,}0\\,\\mathrm V\\]</p><p>\\[U_{200}=0{,}030\\cdot200=6{,}0\\,\\mathrm V\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Batteriet höjer potentialen från minuspolen till pluspolen med <strong>9,0 V</strong>.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>I strömmens riktning <strong>sjunker potentialen</strong> över resistorn. Spänningsfallet är \\(U=RI\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Medurs ökar potentialen med 9,0 V i batteriet och minskar med RI i vardera resistorn. Efter ett helt varv är vi tillbaka på samma potential:</p><p>\\[9{,}0-100I-200I=0\\]</p><p>\\[I=9{,}0/300=0{,}030\\,\\mathrm A=30\\,\\mathrm{mA}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\(30\\,\\mathrm{mA}=0{,}030\\,\\mathrm A\\).</p><p>\\[U_{100}=0{,}030\\cdot100=3{,}0\\,\\mathrm V\\]</p><p>\\[U_{200}=0{,}030\\cdot200=6{,}0\\,\\mathrm V\\]</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "procedur"
@@ -92598,7 +92933,7 @@ window.BANK = [
     "typ": "beräkna arbete vid förflyttning av laddning i fält, ur diagram, sökt energi",
     "poang": "(3/0/0)",
     "t": "<p>Två plattor har spänningen 200 V mellan sig.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 200 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 4,0 cm</text><circle cx=\"210\" cy=\"115\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"119\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">+</text></svg></span>\n<p>Fältet mellan plattorna är jämnt. Flytta laddningen långsamt, så att dess rörelseenergi inte ändras.</p><ol><li>Hur stort arbete krävs för att flytta en laddning på 5,0 nC från den negativa till den positiva plattan?</li>\n<li>Hur stort blir arbetet om laddningen bara flyttas halvvägs?</li>\n<li>Spelar det någon roll vilken väg laddningen tar?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Att flytta en positiv laddning från negativ till positiv platta ökar dess elektriska lägesenergi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}W&=qU\\\\&=5{,}0\\cdot10^{-9}\\cdot200\\\\&=1{,}00\\cdot10^{-6}\\ \\mathrm J\\end{aligned}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}00\\cdot10^{-6}\\ \\mathrm J\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I det homogena fältet ökar potentialen linjärt med avståndet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Halvvägs är potentialskillnaden 100 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}W_{1/2}&=5{,}0\\cdot10^{-9}\\cdot100\\\\&=5{,}00\\cdot10^{-7}\\ \\mathrm J\\end{aligned}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}00\\cdot10^{-7}\\ \\mathrm J\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>Nej. I det här stillastående elektriska fältet bestäms arbetet av potentialskillnaden mellan start och mål:</p><p>\\[W=q(V_{\\mathrm{slut}}-V_{\\mathrm{start}})\\]</p><p>Samma startpunkt och slutpunkt ger alltså samma arbete, även om vägen är längre.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Att flytta en positiv laddning från negativ till positiv platta ökar dess elektriska lägesenergi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}W&=qU\\\\&=5{,}0\\cdot10^{-9}\\cdot200\\\\&=1{,}00\\cdot10^{-6}\\ \\mathrm J\\end{aligned}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}00\\cdot10^{-6}\\ \\mathrm J\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I det homogena fältet ökar potentialen linjärt med avståndet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Halvvägs är potentialskillnaden 100 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}W_{1/2}&=5{,}0\\cdot10^{-9}\\cdot100\\\\&=5{,}00\\cdot10^{-7}\\ \\mathrm J\\end{aligned}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}00\\cdot10^{-7}\\ \\mathrm J\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Nej. I det här stillastående elektriska fältet bestäms arbetet av potentialskillnaden mellan start och mål:</p><p>\\[W=q(V_{\\mathrm{slut}}-V_{\\mathrm{start}})\\]</p><p>Samma startpunkt och slutpunkt ger alltså samma arbete, även om vägen är längre.</p></div></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "problemlösning"
@@ -92826,11 +93161,11 @@ window.BANK = [
     "id": "8.155",
     "kap": 8,
     "omr": "parallellkoppling",
-    "niva": "C",
+    "niva": "E",
     "typ": "beräkna grenströmmar och ersättningsresistans i parallellkoppling med tre grenar, ur diagram, sökt ström och resistans",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar tre parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"309\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"52.457 33.179 424.286 211.420\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"260\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"260\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"250\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"260\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"345\" y1=\"48\" x2=\"345\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"345\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"345\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"335\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"345\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 200 Ω</text></svg></span>\n<ol><li>Vilken spänning ligger över varje resistor?</li>\n<li>Hur stor ström går genom varje resistor?</li>\n<li>Hur stor är den totala strömmen?</li>\n<li>Bestäm ersättningsresistansen på två sätt, dels ur totalströmmen, dels med formeln.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alla tre parallellgrenar har batterispänningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=U_3=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=60\\ \\mathrm{mA},\\qquad I_2=I_3=30\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=60+30+30=120\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda metoderna ger samma värde.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{6{,}0}{0{,}120}=50\\ \\Omega\\]\\[\\frac1{R_e}=\\frac1{100}+\\frac1{200}+\\frac1{200}=\\frac1{50}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Varje gren har \\(6{,}0\\ \\mathrm V\\); strömmarna är \\(60\\), \\(30\\) och \\(30\\ \\mathrm{mA}\\), totalströmmen \\(120\\ \\mathrm{mA}\\), och \\(R_e=50\\ \\Omega\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Figuren visar tre parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"309\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"52.457 33.179 424.286 211.420\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"260\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"260\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"250\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"260\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"345\" y1=\"48\" x2=\"345\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"345\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"345\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"335\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"345\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 200 Ω</text></svg></span>\n<ol><li>Vilken spänning ligger över varje resistor?</li>\n<li>Hur stor ström går genom varje resistor?</li>\n<li>Hur stor är den totala strömmen?</li>\n<li>Bestäm ersättningsresistansen på två sätt, dels ur totalströmmen, dels med formeln.</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Alla resistorer är anslutna mellan samma två batteripoler. Spänningen över <strong>varje resistor är 6 V</strong>.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 6 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=6/100=0{,}06\\,\\mathrm A\\]</p><p>Det är \\(60\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=6/200=0{,}03\\,\\mathrm A\\]</p><p>Det är \\(30\\,\\mathrm{mA}\\) i R2.</p><p>\\[I_3=6/200=0{,}03\\,\\mathrm A\\]</p><p>Det är \\(30\\,\\mathrm{mA}\\) i R3.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Grenströmmarna är 60,0 mA, 30,0 mA, 30,0 mA, eftersom varje gren har 6 V över sig.</p><p>\\[I=60+30+30=120\\,\\mathrm{mA}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Ur strömmen: varje gren har 6,0 V, vilket ger 60, 30 och 30 mA. Totalströmmen är 0,120 A.</p><p>\\[R=6{,}0/0{,}120=50\\,\\Omega\\]</p><p>Med parallellformeln:</p><p>\\[\\frac1R=\\frac1{100}+\\frac1{200}+\\frac1{200}\\]</p><p>\\[\\frac1R=\\frac1{50}\\quad\\Rightarrow\\quad R=50\\,\\Omega\\]</p></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "formaga": [
       "procedur"
@@ -92838,34 +93173,42 @@ window.BANK = [
     "familjNyckel": "kopplingar__parallellkoppling",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      120,
-      50
+      [
+        6,
+        6,
+        6
+      ],
+      [
+        60.0,
+        30.0,
+        30.0
+      ],
+      120.0,
+      50.0
     ],
     "tolerans": [
-      null,
-      null,
-      1.7999999999999998,
-      0.75
+      0.05,
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": [
-      false,
-      false,
+      true,
+      true,
       true,
       true
     ],
     "svarFormat": [
-      null,
-      null,
+      "numeriskt",
+      "numeriskt",
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
+      "V",
       "mA",
-      null
+      "mA",
+      "Ω"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -92876,43 +93219,68 @@ window.BANK = [
     ],
     "ledtrad": "<p>Alla tre parallellgrenar har batterispänningen. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar tre parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"309\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"52.457 33.179 424.286 211.420\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"260\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"260\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"250\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"260\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"345\" y1=\"48\" x2=\"345\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"345\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"345\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"335\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"345\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 200 Ω</text></svg></span>",
+    "spelIntro": "<p>Figuren visar tre parallellkopplade resistorer.</p><span class=\"fig bred\"><svg height=\"309\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"52.457 33.179 424.286 211.420\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"260\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"260\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"250\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"260\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"345\" y1=\"48\" x2=\"345\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"345\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"345\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"335\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"345\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 200 Ω</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken spänning ligger över varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alla tre parallellgrenar har batterispänningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=U_3=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Alla tre parallellgrenar har batterispänningen. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Alla resistorer är anslutna mellan samma två batteripoler. Spänningen över <strong>varje resistor är 6 V</strong>.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R1",
+          "R2",
+          "R3"
+        ]
       },
       {
         "etikett": "b",
         "fraga": "Hur stor ström går genom varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=60\\ \\mathrm{mA},\\qquad I_2=I_3=30\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Alla tre parallellgrenar har batterispänningen. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Parallella grenar har samma spänning, 6 V. Använd \\(I=U/R\\) i varje gren.</p><p>\\[I_1=6/100=0{,}06\\,\\mathrm A\\]</p><p>Det är \\(60\\,\\mathrm{mA}\\) i R1.</p><p>\\[I_2=6/200=0{,}03\\,\\mathrm A\\]</p><p>Det är \\(30\\,\\mathrm{mA}\\) i R2.</p><p>\\[I_3=6/200=0{,}03\\,\\mathrm A\\]</p><p>Det är \\(30\\,\\mathrm{mA}\\) i R3.</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R1",
+          "R2",
+          "R3"
+        ]
       },
       {
         "etikett": "c",
         "fraga": "Hur stor är den totala strömmen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=60+30+30=120\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Alla tre parallellgrenar har batterispänningen. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Grenströmmarna är 60,0 mA, 30,0 mA, 30,0 mA, eftersom varje gren har 6 V över sig.</p><p>\\[I=60+30+30=120\\,\\mathrm{mA}\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       },
       {
         "etikett": "d",
         "fraga": "Bestäm ersättningsresistansen på två sätt, dels ur totalströmmen, dels med formeln.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda metoderna ger samma värde.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{6{,}0}{0{,}120}=50\\ \\Omega\\]\\[\\frac1{R_e}=\\frac1{100}+\\frac1{200}+\\frac1{200}=\\frac1{50}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_e=50\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Alla tre parallellgrenar har batterispänningen. I parallell är spänningen samma över grenarna och strömmarna adderas.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Ur strömmen: varje gren har 6,0 V, vilket ger 60, 30 och 30 mA. Totalströmmen är 0,120 A.</p><p>\\[R=6{,}0/0{,}120=50\\,\\Omega\\]</p><p>Med parallellformeln:</p><p>\\[\\frac1R=\\frac1{100}+\\frac1{200}+\\frac1{200}\\]</p><p>\\[\\frac1R=\\frac1{50}\\quad\\Rightarrow\\quad R=50\\,\\Omega\\]</p></div>",
+        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      true
+    ],
     "omrTidigare": "kopplingar",
     "familjTidigare": [
       "Parallellkoppling"
@@ -93725,7 +94093,7 @@ window.BANK = [
     "typ": "bestämma ström i slinga med tre emk och två resistorer genom potentialvandring, ur diagram, sökt ström och spänning",
     "poang": "(1/2/0)",
     "t": "<p>Figuren visar en krets med tre batterier.</p><span class=\"fig bred\"><svg height=\"309\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"25.457 11.573 499.114 248.427\"><line x1=\"120\" y1=\"50\" x2=\"430\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"50\" x2=\"430\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"215\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"215\" x2=\"120\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"124\" x2=\"135\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"140\" x2=\"126\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₁ = 9,0 V</text><text x=\"141\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"414\" y=\"120\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"415\" y1=\"124\" x2=\"445\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"424\" y1=\"140\" x2=\"436\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"452\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₂ = 4,5 V</text><text x=\"409\" y=\"128\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"187\" y=\"40\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"32\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"322\" y=\"40\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"350\" y=\"32\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 150 Ω</text><rect x=\"263\" y=\"199\" width=\"24\" height=\"32\" fill=\"#fff\" stroke=\"none\"/><line x1=\"267\" y1=\"200\" x2=\"267\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"283\" y1=\"209\" x2=\"283\" y2=\"221\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"275\" y=\"247\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₃ = 3,0 V</text><text x=\"267\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><line x1=\"150\" y1=\"74\" x2=\"187\" y2=\"74\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"195,74 185,69.4 185,78.6\" fill=\"#2A5D9E\"/><text x=\"203\" y=\"78\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I</text></svg></span><p>Strömriktningen i figuren är antagen. Ett negativt svar betyder att strömmen i verkligheten går åt andra hållet.</p>\n<ol><li>Bestäm strömmen i kretsen.</li>\n<li>Vilken spänning ligger över R₁?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriernas algebraiska drivspänning i den antagna riktningen är \\(9{,}0-4{,}5+3{,}0=7{,}5\\ \\mathrm V\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[7{,}5-250I=0\\]\\[I=\\frac{7{,}5}{250}=0{,}030\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}030\\ \\mathrm A\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Använd \\(U=RI\\).</p><p>\\[U=100\\cdot0{,}030=3{,}0\\,\\mathrm V\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriernas algebraiska drivspänning i den antagna riktningen är \\(9{,}0-4{,}5+3{,}0=7{,}5\\ \\mathrm V\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[7{,}5-250I=0\\]\\[I=\\frac{7{,}5}{250}=0{,}030\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}030\\ \\mathrm A\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Använd \\(U=RI\\).</p><p>\\[U=100\\cdot0{,}030=3{,}0\\,\\mathrm V\\]</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "procedur"
@@ -93854,7 +94222,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Ett batteri på 12 V driver ström genom tre lika stora resistorer i serie. Batteriets minuspol är jordad.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">12 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"125\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"125\" y1=\"70\" x2=\"125\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"125\" y1=\"70\" x2=\"133\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"133\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"193\" y1=\"70\" x2=\"202\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"163\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">R</text><line x1=\"202\" y1=\"70\" x2=\"235\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"235\" y1=\"70\" x2=\"243\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"243\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"303\" y1=\"70\" x2=\"312\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"273\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">R</text><line x1=\"312\" y1=\"70\" x2=\"345\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"345\" y1=\"70\" x2=\"353\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"353\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"413\" y1=\"70\" x2=\"422\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"383\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">R</text><line x1=\"422\" y1=\"70\" x2=\"445\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"445\" y1=\"70\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"225\" x2=\"390\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"375\" y1=\"247\" x2=\"405\" y2=\"247\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"380\" y1=\"253\" x2=\"400\" y2=\"253\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"259\" x2=\"395\" y2=\"259\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"427\" y=\"259\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">0 V</text></svg></span>\n<ol><li>Vilken spänning ligger över varje resistor?</li>\n<li>Vilka potentialer har punkterna mellan resistorerna? Ange först punkten närmast minuspolen, sedan punkten närmast pluspolen.</li>\n<li>Vad är skillnaden mellan potential och spänning?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre lika serieresistorer delar batterispänningen lika.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_R=\\frac{12}{3}=4{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\ \\mathrm V\\).</p></div></p><p><strong>b)</strong> <div class=\"facit-v2\"><p>Tre lika resistorer delar 12 V lika: varje spänningsfall är \\(12/3=4\\,\\mathrm V\\).</p><p>Börja vid minuspolens 0 V och gå mot pluspolen. Potentialen ökar med 4 V över varje resistor. Mellanpunkterna är därför <strong>4 V närmast minuspolen och 8 V närmast pluspolen</strong>.</p></div></p><p><strong>c)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Potential är ett referensberoende värde i en punkt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänning är potentialskillnaden mellan två punkter och påverkas inte av var nollnivån väljs.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_{AB}=V_A-V_B\\]</div></div></div></div></div></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre lika serieresistorer delar batterispänningen lika.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_R=\\frac{12}{3}=4{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\ \\mathrm V\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Tre lika resistorer delar 12 V lika: varje spänningsfall är \\(12/3=4\\,\\mathrm V\\).</p><p>Börja vid minuspolens 0 V och gå mot pluspolen. Potentialen ökar med 4 V över varje resistor. Mellanpunkterna är därför <strong>4 V närmast minuspolen och 8 V närmast pluspolen</strong>.</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Potential är ett referensberoende värde i en punkt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänning är potentialskillnaden mellan två punkter och påverkas inte av var nollnivån väljs.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_{AB}=V_A-V_B\\]</div></div></div></div></div></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "begrepp",
@@ -93947,7 +94315,7 @@ window.BANK = [
     "typ": "lösa ekvationssystem med tre obekanta strömmar när grenarna har mycket olika resistans, ur diagram, sökt ström och spänning",
     "poang": "(0/1/2)",
     "t": "<p>Figuren visar en krets med två batterier. Lägg märke till att grenarnas resistanser är mycket olika stora.</p><span class=\"fig bred\"><svg height=\"237\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"23.914 37.033 500.657 191.335\"><line x1=\"120\" y1=\"50\" x2=\"430\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"215\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"50\" x2=\"430\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"275\" y1=\"50\" x2=\"275\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"275\" cy=\"50\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"275\" cy=\"215\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"104\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"105\" y1=\"92\" x2=\"135\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"108\" x2=\"126\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"104\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₁ = 12 V</text><text x=\"141\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"110\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"103\" y=\"176\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 300 Ω</text><rect x=\"414\" y=\"88\" width=\"32\" height=\"24\" fill=\"#fff\" stroke=\"none\"/><line x1=\"415\" y1=\"92\" x2=\"445\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"424\" y1=\"108\" x2=\"436\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"452\" y=\"104\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε₂ = 8,0 V</text><text x=\"409\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\">+</text><rect x=\"420\" y=\"144\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 50 Ω</text><rect x=\"265\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 100 Ω</text><line x1=\"152\" y1=\"148\" x2=\"152\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"152,108 147.4,118 156.6,118\" fill=\"#2A5D9E\"/><text x=\"158\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₁</text><line x1=\"300\" y1=\"108\" x2=\"300\" y2=\"144\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"300,152 295.4,142 304.6,142\" fill=\"#2A5D9E\"/><text x=\"306\" y=\"134\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₃</text><line x1=\"390\" y1=\"148\" x2=\"390\" y2=\"116\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><polygon points=\"390,108 385.4,118 394.6,118\" fill=\"#2A5D9E\"/><text x=\"384\" y=\"132\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₂</text></svg></span>\n<ol><li>Bestäm I₁, I₂ och I₃.</li>\n<li>Vilken spänning ligger över mittgrenen?</li>\n<li>Varför levererar det svagare batteriet mest ström?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> <div class=\"facit-v2\"><p>Strömmarna in i den övre knutpunkten är lika stora som strömmen ut:</p><p>\\[I_1+I_2=I_3\\]</p><p>De två slingorna ger:</p><p>\\[12-300I_1-100I_3=0\\]</p><p>\\[8-50I_2-100I_3=0\\]</p><p>Lös ut de två grenströmmarna och sätt in dem i knutpunktsekvationen:</p><p>\\[I_3=\\frac{12-100I_3}{300}+\\frac{8-100I_3}{50}\\]</p><p>Multiplicera med 15000 och samla termerna med \\(I_3\\):</p><p>\\[50000I_3=3000\\]</p><p>\\[I_3=0{,}06\\,\\mathrm A\\]</p><p>Sätt in strömmen i uttrycken för I₁ och I₂:</p><p>\\[I_1=0{,}02\\,\\mathrm A\\]</p><p>\\[I_2=0{,}04\\,\\mathrm A\\]</p></div></p><p><strong>b)</strong> <div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mittgrenens spänning är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_3=100\\cdot0{,}060=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm V\\).</p></div></p><p><strong>c)</strong> <div class=\"facit-v2\"><p>I 8-voltsgrenen återstår \\(8-6=2\\,\\mathrm V\\) över 50 Ω:</p><p>\\[I_2=2/50=0{,}040\\,\\mathrm A\\]</p><p>I 12-voltsgrenen återstår \\(12-6=6\\,\\mathrm V\\) över 300 Ω:</p><p>\\[I_1=6/300=0{,}020\\,\\mathrm A\\]</p><p>Den mindre resistansen gör att 8-voltsbatteriet levererar dubbelt så stor ström.</p></div></p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Strömmarna in i den övre knutpunkten är lika stora som strömmen ut:</p><p>\\[I_1+I_2=I_3\\]</p><p>De två slingorna ger:</p><p>\\[12-300I_1-100I_3=0\\]</p><p>\\[8-50I_2-100I_3=0\\]</p><p>Lös ut de två grenströmmarna och sätt in dem i knutpunktsekvationen:</p><p>\\[I_3=\\frac{12-100I_3}{300}+\\frac{8-100I_3}{50}\\]</p><p>Multiplicera med 15000 och samla termerna med \\(I_3\\):</p><p>\\[50000I_3=3000\\]</p><p>\\[I_3=0{,}06\\,\\mathrm A\\]</p><p>Sätt in strömmen i uttrycken för I₁ och I₂:</p><p>\\[I_1=0{,}02\\,\\mathrm A\\]</p><p>\\[I_2=0{,}04\\,\\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mittgrenens spänning är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_3=100\\cdot0{,}060=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm V\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>I 8-voltsgrenen återstår \\(8-6=2\\,\\mathrm V\\) över 50 Ω:</p><p>\\[I_2=2/50=0{,}040\\,\\mathrm A\\]</p><p>I 12-voltsgrenen återstår \\(12-6=6\\,\\mathrm V\\) över 300 Ω:</p><p>\\[I_1=6/300=0{,}020\\,\\mathrm A\\]</p><p>Den mindre resistansen gör att 8-voltsbatteriet levererar dubbelt så stor ström.</p></div></div>",
     "familj": "Potentialvandring i kretsar",
     "formaga": [
       "problemlösning",
@@ -115858,7 +116226,7 @@ window.BANK = [
     "omr": "parallellkoppling",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två resistorer är parallellkopplade över ett batteri utan inre resistans. Vad är lika för båda grenarna?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Två resistorer är parallellkopplade över ett batteri. Vad är lika för båda grenarna?</p><p>Markera det korrekta alternativet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallella grenar är anslutna mellan samma två punkter och har därför samma spänning.</p></div></div></div>",
     "familj": "Strömfördelning i parallellkoppling",
     "familjNyckel": "kopplingar__parallellkoppling",

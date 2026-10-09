@@ -1655,8 +1655,8 @@ window.BANK2 = [
         "ledtrad": "<p>Centripetalaccelerationen ändrar riktningen och den tangentiella accelerationen ändrar fartens storlek.</p>",
         "niva": "C",
         "poang": "0/1/0",
-      "traningsniva": 4,
-      "arbetsinsats": 2
+        "traningsniva": 4,
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
@@ -25857,8 +25857,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna ideal doseringsvinkel utan friktion",
     "poang": "(2/0/0)",
-    "t": "<p>En bil kör med farten 24 m/s i en kurva med radien 80 m. Vägen doseras så att ingen sidofriktion behövs.</p><p>Bestäm doseringsvinkeln.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Vid cirkelrörelse pekar accelerationen och den resulterande kraften mot centrum.</p></li><li><p class=\"facit-metod\">Identifiera vilken verklig kraft eller kraftkomponent som ger denna resultant.</p></li><li><div class=\"facit-berakning\"><p>När friktion inte behövs ger kraftkomposanterna sambandet</p><div class=\"facit-matte\">\\[\\tan\\theta=v^2/(rg)\\].</div></div></li><li><div class=\"facit-matte\">\\[\\tan\\theta=\\frac{24^2}{80\\cdot9{,}82}=0{,}7332\\]\\[\\theta=36{,}25^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vinkeln är cirka \\(36{,}25^\\circ\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Centripetalkraft är inte en extra kraft.</p></li><li><p class=\"facit-not\">Kontrollera att de verkliga krafterna tillsammans ger resultanten inåt.</p></li></ol></div>",
+    "t": "<p>En bil kör med farten 24 m/s i en kurva med radien 80 m. Vägen ska luta inåt så att bilen klarar kurvan utan friktion.</p><p>Bestäm vägens vinkel mot en vågrät linje. Svara i grader med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>På bilen verkar tyngdkraften \\(mg\\) nedåt och normalkraften \\(F_N\\) vinkelrätt mot vägen. När vägen lutar vinkeln \\(\\theta\\) från vågrätt lutar normalkraften samma vinkel från lodrätt.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 340\" width=\"440\" height=\"340\" role=\"img\" aria-label=\"Krafterna på bilen: normalkraften snett uppåt och inåt och tyngdkraften lodrätt nedåt. Normalkraften bildar vinkeln theta med lodlinjen.\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"338\" rx=\"12\" fill=\"#fff\" stroke=\"#d4dde5\"/><line x1=\"260\" y1=\"170\" x2=\"260\" y2=\"40\" stroke=\"#9aabba\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"260\" y1=\"170\" x2=\"165.39\" y2=\"40.97\" stroke=\"#246ca5\" stroke-width=\"3\"/><path d=\"M165.39 40.97 l12 6 l-8 6 Z\" fill=\"#246ca5\"/><line x1=\"260\" y1=\"170\" x2=\"260\" y2=\"299\" stroke=\"#253747\" stroke-width=\"3\"/><path d=\"M260 299 l-6 -12 h12 Z\" fill=\"#253747\"/><path d=\"M260 125 A45 45 0 0 0 233.39 133.71\" fill=\"none\" stroke=\"#4a6378\" stroke-width=\"2\"/><circle cx=\"260\" cy=\"170\" r=\"4\" fill=\"#253747\"/><text x=\"143\" y=\"30\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#246ca5\">F<tspan baseline-shift=\"sub\" font-size=\"14\">N</tspan></text><text x=\"280\" y=\"277\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#253747\">mg</text><text x=\"240\" y=\"111\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#253747\">θ</text><text x=\"172\" y=\"201\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#64788c\">in mot centrum</text></svg></div><p>Bilen accelererar inte uppåt eller nedåt. Normalkraftens lodräta del måste därför vara lika stor som tyngdkraften:</p>\\[F_N\\cos\\theta=mg.\\]<p>Den vågräta delen pekar in mot kurvans centrum. Den ger centripetalaccelerationen \\(v^2/r\\):</p>\\[F_N\\sin\\theta=\\frac{mv^2}{r}.\\]<p>Dividera det vågräta sambandet med det lodräta. Då förkortas både \\(F_N\\) och \\(m\\):</p>\\[\\frac{F_N\\sin\\theta}{F_N\\cos\\theta}=\\frac{mv^2/r}{mg}.\\]<p>Eftersom \\(\\sin\\theta/\\cos\\theta=\\tan\\theta\\) får vi</p>\\[\\tan\\theta=\\frac{v^2}{rg}.\\]<p>Sätt in \\(v=24\\) m/s, \\(r=80\\) m och \\(g=9{,}82\\) m/s²:</p>\\[\\tan\\theta=\\frac{24^2}{80\\cdot9{,}82}\\approx0{,}7332.\\]\\[\\theta=\\arctan\\!\\left(\\frac{24^2}{80\\cdot9{,}82}\\right)\\approx36{,}2^\\circ.\\]<p class=\"facit-svar\"><strong>Svar:</strong> Vägen ska luta cirka \\(36{,}2^\\circ\\).</p></div>",
     "familj": "Krön, dalar, loopar och doserade kurvor",
     "familjNyckel": "cirkel__tillampningar_av_cirkelrorelse",
     "formaga": [
@@ -25866,16 +25866,18 @@ window.BANK2 = [
       "begrepp"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 36,
-    "tolerans": 0.6,
+    "rättSvar": 36.24877850747886,
+    "tolerans": 0.06,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
     "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion",
-    "ledtrad": "<p>När friktion inte behövs ger kraftkomposanterna sambandet \\(\\tan\\theta=v^2/(rg)\\).</p>",
+    "ledtrad": "<p>Vilken del av normalkraften balanserar tyngdkraften, och vilken del pekar in mot kurvans centrum?</p>",
     "familjTidigare": [
       "Tillämpningar av cirkelrörelse"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "1.85",

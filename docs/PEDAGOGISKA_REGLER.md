@@ -153,3 +153,33 @@ massa” är tydligare än ”luften har försumbar massa”. När trycket fakti
 med djupet kan frågan behöva ett medelvärde; skilj då detta från trycket vid en
 viss punkt. Viktiga fackord som eleven ska lära sig får användas. Granska varje
 träff i sitt sammanhang och kontrollera även de fristående spelkorten.
+
+## Obligatorisk återrapportering efter granskning
+
+Varje genomförd granskning ska avslutas med en konkret lista som användaren kan
+använda för att hantera rapporterna. Detta gäller även när granskningen inte
+hittar några fel. Redovisa alltid:
+
+1. **Alla granskade uppgifter:** kurs, uppgifts-ID och berörd deluppgift.
+2. **Alla åtgärdade uppgifter:** vad som faktiskt var fel och vad som ändrats.
+   Om inga fel har rättats ska det stå uttryckligen.
+3. **Alla granskade uppgifter utan fel:** märk dem **Granskad – inget fel** och
+   förklara kort varför det befintliga svaret eller beteendet är korrekt.
+4. **Förslag på kommentar efter varje rapport:** skriv en kort, färdig svensk
+   kommentar som kan återkopplas till den som rapporterat. Ta med den avgörande
+   beräkningen eller skillnaden i tolkning när det hjälper eleven.
+
+Listan över alla granskade uppgifter är den fullständiga översikten. De andra
+listorna anger utfallet. Eventuella osäkra eller ofullständigt granskade fall ska
+redovisas separat som **Kvar att utreda**, med vad som saknas; de får inte markeras
+som åtgärdade eller utan fel.
+
+En felrapport bevisar inte att uppgiften är fel. Kontrollera först uppgift,
+beräkning, visat facit och faktisk självrättning. Ett förtydligande av en redan
+korrekt lösning ska redovisas som ett pedagogiskt förtydligande, inte som ett
+rättat svarsfel. Ange vilka texter som förbättrats även om rapportens sakfråga
+bedöms som **Granskad – inget fel**. Hitta inte på elevens inmatning när den saknas.
+
+Skilj mellan föreslagen rapportstatus och status som faktiskt har sparats i
+rapportsystemet. Påstå inte att rapporter har avslutats eller att kommentarer
+har skickats enbart därför att kod eller bankfiler har ändrats och pushats.

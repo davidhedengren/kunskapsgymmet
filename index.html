@@ -2130,7 +2130,12 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
   text-transform:uppercase;color:var(--ink3);margin-top:10px}
 .felpost{display:flex;align-items:center;gap:11px;padding:10px 12px;border-radius:14px;
   border:1px solid var(--hair);background:var(--surface2)}
-.felpost.klar{opacity:.5}
+.felpost.klar{opacity:.85}
+@media(max-width:600px){
+  #fellogg .felpost{display:grid;grid-template-columns:auto minmax(0,1fr) auto}
+  #fellogg .felpost .knapp{grid-column:1}
+  #fellogg .felpost .knapp.avfard,#fellogg .felpost .admin-rapportstatus{grid-column:2 / -1}
+}
 .felpost .nr{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--ink)}
 .felpost .txt{flex:1;min-width:0;font-size:12px;color:var(--ink2)}
 .felpost .txt em{font-style:normal;color:var(--ink3)}
@@ -3844,7 +3849,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-09-ma2-geometri-30-felrapporter";
+const BANK_VERSION="2026-10-09-fysik-felrapporter-1741";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -5729,7 +5734,7 @@ function kgAdminProviders(v){
   const a=Array.isArray(v)?v:(v?[v]:[]);
   return a.map(x=>String(x)==="google"?"Google":String(x)==="email"?"E-post":String(x)).join(", ")||"–";
 }
-function kgAdminStatusText(s){ return s==="atgardad"?"Åtgärdad":s==="ignorerad"?"Ignorerad":"Öppen"; }
+function kgAdminStatusText(s){ return s==="atgardad"?"Åtgärdad":s==="ignorerad"?"Granskad – inget fel":s==="avslutad"?"Avslutad":"Öppen"; }
 function kgAdminNiva(xp){ return levelFromXP(Math.max(0,Number(xp)||0)); }
 function kgAdminHarDagstat(){ return kgAdminData.anvandare.some(x=>Object.prototype.hasOwnProperty.call(x,"uppgifter_idag")); }
 function kgAdminAktivIdag(u){ return u.aktiv_idag===true || (u.forsta_sedd_idag!=null); }
@@ -5962,7 +5967,7 @@ function kgAdminRitaLista(){
         <option value="alla" ${kgAdminStatusFilter==="alla"?"selected":""}>Alla statusar</option>
         <option value="oppen" ${kgAdminStatusFilter==="oppen"?"selected":""}>Öppna</option>
         <option value="atgardad" ${kgAdminStatusFilter==="atgardad"?"selected":""}>Åtgärdade</option>
-        <option value="ignorerad" ${kgAdminStatusFilter==="ignorerad"?"selected":""}>Ignorerade</option>
+        <option value="ignorerad" ${kgAdminStatusFilter==="ignorerad"?"selected":""}>Granskade – inget fel</option>
       </select>
     </div>
     <div class="admin-lista">${lista.length?lista.map(r=>{
@@ -11298,7 +11303,26 @@ async function hamtaFelloggen(visaAtgardade){
   if(r.status===404) throw new Error("Felrapport-tabellen är inte installerad i Supabase ännu.");
   if(!r.ok) throw new Error("Loggen kunde inte hämtas. Är kontot upplagt som lärare?");
   const d=await r.json();
-  return Array.isArray(d)?d:[];
+  const lista=Array.isArray(d)?d:[];
+  // Äldre logg-RPC:er lämnar bara "atgardad" för alla avslutade rapporter.
+  // Läs då den befintliga admin-auditens uttryckliga status; gissa aldrig att
+  // en avslutad rapport betyder att uppgiften har rättats.
+  if(visaAtgardade && arAdmin){
+    try{
+      const audit=await kgAdminRpc("kg_admin_felrapporter",{p_user:null,p_status:null,p_limit:1000});
+      if(Array.isArray(audit)) for(const rad of lista){
+        if(!rad.atgardad || typeof rad.ignorerad==="boolean" || rad.status) continue;
+        const statusar=new Set(audit.filter(x=>x.kurs===rad.kurs && x.uppgift===rad.uppgift).map(x=>x.status));
+        if(statusar.size===1 && ["atgardad","ignorerad"].includes([...statusar][0])) rad.status=[...statusar][0];
+      }
+    }catch(_){ /* Visa Avslutad om den mer detaljerade statusen inte kan läsas. */ }
+  }
+  return lista;
+}
+function felloggStatus(r){
+  if(r.status==="ignorerad" || r.ignorerad===true) return "ignorerad";
+  if(r.status==="atgardad" || (r.atgardad && r.ignorerad===false)) return "atgardad";
+  return r.atgardad?"avslutad":"oppen";
 }
 let felloggData=[];
 let felloggVisaKlara=false;
@@ -11315,7 +11339,7 @@ async function oppnaFelrapportLogg(){
       </div>
       <div class="fellogg" id="felloggkropp"><p class="modal-text">Hämtar loggen…</p></div>
       <div class="modal-fot">
-        <button class="btn" onclick="vaxlaFelloggKlara()" id="felloggklara">Visa åtgärdade</button>
+        <button class="btn" onclick="vaxlaFelloggKlara()" id="felloggklara">${felloggVisaKlara?"Dölj avslutade":"Visa avslutade"}</button>
         <span class="spacer"></span>
         <button class="btn" onclick="laddaNerFellogg()">Ladda ner</button>
         <button class="btn primary" onclick="kopieraFellogg()">Kopiera logg</button>
@@ -11335,7 +11359,7 @@ function stangFellogg(){
 async function vaxlaFelloggKlara(){
   felloggVisaKlara=!felloggVisaKlara;
   const k=document.getElementById("felloggklara");
-  if(k) k.textContent=felloggVisaKlara?"Dölj åtgärdade":"Visa åtgärdade";
+  if(k) k.textContent=felloggVisaKlara?"Dölj avslutade":"Visa avslutade";
   await ritaFellogg();
 }
 async function ritaFellogg(){
@@ -11354,19 +11378,20 @@ async function ritaFellogg(){
       kurs=r.kurs;
       html+=`<div class="kursrad">${esc(COURSES[kurs]?.name||kurs)}</div>`;
     }
+    const status=felloggStatus(r), avslutad=status!=="oppen";
     const taggar=(r.taggar||[]).map(x=>FEL_TAGGAR.find(y=>y.id===x)?.txt||x).join(" · ");
     const kd=felDelaKommentarer(r.kommentarer);
     const komm=[...kd.larare.map(p=>"Lärare "+felPostText(p,false)),
       ...kd.elev.map(p=>(p.namn?"Elev ":"")+felPostText(p,false))].slice(0,4).join(" | ");
-    html+=`<div class="felpost${r.atgardad?" klar":""}">
+    html+=`<div class="felpost${avslutad?" klar":""}">
       <span class="nr">#${esc(r.uppgift)}</span>
       <span class="txt">${taggar?esc(taggar):"<em>ingen tagg</em>"}${
         komm?` · ${esc(komm)}`:""}${r.spar?` · ${esc(r.spar)}`:""}</span>
       <span class="antal" title="${r.senast?"Senast rapporterad "+esc(kgAdminTid(r.senast)):""}">${r.antal}×${r.senast?`<small style="display:block;font-weight:400;opacity:.7">${esc(kgAdminTid(r.senast))}</small>`:""}</span>
-      ${r.atgardad?"":`<button class="knapp" onclick="markeraFelAtgardad('${esc(r.kurs)}','${esc(r.uppgift)}')"
+      ${avslutad?`<span class="admin-rapportstatus ${status}">${esc(kgAdminStatusText(status))}</span>`:`<button class="knapp" onclick="markeraFelAtgardad('${esc(r.kurs)}','${esc(r.uppgift)}')"
         title="Uppgiften var fel och är rättad. Eleverna som rapporterat får ${FEL_BONUS_XP} XP.">Åtgärdad</button>
       <button class="knapp avfard" onclick="ignoreraFel('${esc(r.kurs)}','${esc(r.uppgift)}')"
-        title="Uppgiften var inte fel. Stänger rapporten utan XP.">Ignorera</button>`}
+        title="Uppgiften är granskad och var korrekt. Avslutar rapporten utan felrapportsbonus.">Granskad – inget fel</button>`}
     </div>`;
   });
   host.innerHTML=html;
@@ -11378,22 +11403,22 @@ async function markeraFelAtgardad(kurs,uppgift){
       body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift})
     });
     if(!r.ok) throw new Error("Kunde inte markera som åtgärdad.");
-    fetch(SUPABASE_URL+"/rest/v1/rpc/kg_synka_felstatus",{
+    await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_synka_felstatus",{
       method:"POST",headers:sbHeaders(true),body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift,p_status:"atgardad"})
     }).catch(()=>{});
     await ritaFellogg();
   }catch(e){ toast(e.message); }
 }
 async function ignoreraFel(kurs,uppgift){
-  if(!confirm(`Ignorera rapporterna på #${uppgift}?\n\nUppgiften stängs utan att räknas som ett fel, och eleverna som rapporterat får varken XP eller medalj.`)) return;
+  if(!confirm(`Markera rapporterna på #${uppgift} som granskade utan fel?\n\nDet betyder att uppgiften var korrekt och inte behövde rättas. Rapporterna avslutas utan felrapportsbonus.`)) return;
   try{
     const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_felrapport_ignorera",{
       method:"POST",headers:sbHeaders(true),
       body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift})
     });
-    if(r.status===404) throw new Error("Ignorera-funktionen är inte installerad i Supabase ännu.");
-    if(!r.ok) throw new Error("Kunde inte ignorera rapporten.");
-    fetch(SUPABASE_URL+"/rest/v1/rpc/kg_synka_felstatus",{
+    if(r.status===404) throw new Error("Funktionen för att avsluta rapporter utan fel är inte installerad i Supabase ännu.");
+    if(!r.ok) throw new Error("Kunde inte markera rapporten som granskad utan fel.");
+    await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_synka_felstatus",{
       method:"POST",headers:sbHeaders(true),body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift,p_status:"ignorerad"})
     }).catch(()=>{});
     await ritaFellogg();
@@ -11414,6 +11439,7 @@ function felloggText(){
       +`${r.spar?"  spår "+r.spar:""}  ${r.antal} rapport${r.antal===1?"":"er"}`
       +`${r.forst&&r.antal>1&&kgAdminTid(r.forst)!==kgAdminTid(r.senast)?"  först "+kgAdminTid(r.forst):""}`
       +`${r.senast?"  senast "+kgAdminTid(r.senast):""}`
+      +`\n      status: ${kgAdminStatusText(felloggStatus(r))}`
       +`${taggar?"\n      taggar: "+taggar:""}`
       +`${kd.larare.length?"\n      lärare: "+cit(kd.larare):""}`
       +`${kd.elev.length?"\n      elever: "+cit(kd.elev):""}`);

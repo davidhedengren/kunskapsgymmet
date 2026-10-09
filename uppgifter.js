@@ -1742,8 +1742,8 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla mellan celsius och kelvin, ur text, sökt temperatur",
     "poang": "(6/0/0)",
-    "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 25 °C till K</div><div>b) -40 °C till K</div><div>c) 350 K till °C</div><div>d) 0 K till °C</div><div>e) 100 °C till K</div><div>f) 77 K till °C</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[25+273{,}15=298{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är 298,15 K.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[-40+273{,}15=233{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är 233,15 K.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[350-273{,}15=76{,}85\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är 76,85 °C.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0-273{,}15=-273{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är −273,15 °C.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[100+273{,}15=373{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är 373,15 K.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[77-273{,}15=-196{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är −196,15 °C.</p></div></div></div></div></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "t": "<ol type=\"a\"><li><p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>25 °C till K</p></li><li><p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>-40 °C till K</p></li><li><p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>350 K till °C</p></li><li><p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>0 K till °C</p></li><li><p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>100 °C till K</p></li><li><p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>77 K till °C</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturen i kelvin fås genom att lägga till 273,15.</p>\\[25+273{,}15=298{,}15\\,\\mathrm K.\\]<p><strong>Svar:</strong> \\(298{,}15\\,\\mathrm K\\).</p><p><strong>b)</strong></p><p>Temperaturen i kelvin fås genom att lägga till 273,15.</p>\\[-40+273{,}15=233{,}15\\,\\mathrm K.\\]<p><strong>Svar:</strong> \\(233{,}15\\,\\mathrm K\\).</p><p><strong>c)</strong></p><p>Temperaturen i Celsius fås genom att dra bort 273,15.</p>\\[350-273{,}15=76{,}85\\,{}^\\circ\\mathrm C.\\]<p><strong>Svar:</strong> \\(76{,}85\\,{}^\\circ\\mathrm C\\).</p><p><strong>d)</strong></p><p>Temperaturen i Celsius fås genom att dra bort 273,15.</p>\\[0-273{,}15=-273{,}15\\,{}^\\circ\\mathrm C.\\]<p><strong>Svar:</strong> \\(-273{,}15\\,{}^\\circ\\mathrm C\\).</p><p><strong>e)</strong></p><p>Temperaturen i kelvin fås genom att lägga till 273,15.</p>\\[100+273{,}15=373{,}15\\,\\mathrm K.\\]<p><strong>Svar:</strong> \\(373{,}15\\,\\mathrm K\\).</p><p><strong>f)</strong></p><p>Temperaturen i Celsius fås genom att dra bort 273,15.</p>\\[77-273{,}15=-196{,}15\\,{}^\\circ\\mathrm C.\\]<p><strong>Svar:</strong> \\(-196{,}15\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -1759,12 +1759,12 @@ window.BANK = [
       -196.15
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005,
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
@@ -1793,7 +1793,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>25 °C till K</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[25+273{,}15=298{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är 298,15 K.</p></div><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen i kelvin fås genom att lägga till 273,15.</p>\\[25+273{,}15=298{,}15\\,\\mathrm K.\\]<p><strong>Svar:</strong> \\(298{,}15\\,\\mathrm K\\).</p></div>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1803,7 +1803,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>-40 °C till K</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[-40+273{,}15=233{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är 233,15 K.</p></div><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen i kelvin fås genom att lägga till 273,15.</p>\\[-40+273{,}15=233{,}15\\,\\mathrm K.\\]<p><strong>Svar:</strong> \\(233{,}15\\,\\mathrm K\\).</p></div>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1813,7 +1813,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>350 K till °C</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[350-273{,}15=76{,}85\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är 76,85 °C.</p></div><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen i Celsius fås genom att dra bort 273,15.</p>\\[350-273{,}15=76{,}85\\,{}^\\circ\\mathrm C.\\]<p><strong>Svar:</strong> \\(76{,}85\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1823,7 +1823,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>0 K till °C</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0-273{,}15=-273{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är −273,15 °C.</p></div><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen i Celsius fås genom att dra bort 273,15.</p>\\[0-273{,}15=-273{,}15\\,{}^\\circ\\mathrm C.\\]<p><strong>Svar:</strong> \\(-273{,}15\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1833,7 +1833,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>100 °C till K</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[100+273{,}15=373{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är 373,15 K.</p></div><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen i kelvin fås genom att lägga till 273,15.</p>\\[100+273{,}15=373{,}15\\,\\mathrm K.\\]<p><strong>Svar:</strong> \\(373{,}15\\,\\mathrm K\\).</p></div>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1843,7 +1843,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><p>77 K till °C</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[77-273{,}15=-196{,}15\\]</div></div></div><div class=\"facit-stycke\"><p>Temperaturen är −196,15 °C.</p></div><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen i Celsius fås genom att dra bort 273,15.</p>\\[77-273{,}15=-196{,}15\\,{}^\\circ\\mathrm C.\\]<p><strong>Svar:</strong> \\(-196{,}15\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Vilken av skalorna visar det större siffervärdet vid samma temperatur?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1860,12 +1860,12 @@ window.BANK = [
       "Enhetsomvandling"
     ],
     "rättSvar273": [
-      298,
-      233,
-      77,
-      -273,
-      373,
-      -196
+      298.0,
+      233.0,
+      77.0,
+      -273.0,
+      373.0,
+      -196.0
     ]
   },
   {
@@ -62178,8 +62178,8 @@ window.BANK = [
     "niva": "C",
     "typ": "belastad kolv och allmänna gaslagen",
     "poang": "(1/2/0)",
-    "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</li><li>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vikten ger</p><div class=\"facit-matte\">\\[\\Delta p=\\frac{m g}{A}=\\frac{15{,}0\\cdot 9{,}82}{20{,}0\\cdot 10^{-4}}=73{,}65\\, \\mathrm{kPa}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Gasen balanserar både lufttrycket och vikten, så</p><div class=\"facit-matte\">\\[p_{2}=101+73{,}65=174{,}65\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 174,7 kPa.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Gasmängden är konstant och sluttrycket hålls av samma last.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=V_{1} \\left(\\frac{p_{1}}{p_{2}}\\right) \\left(\\frac{T_{2}}{T_{1}}\\right)=1{,}20\\cdot \\left(\\frac{101}{174{,}65}\\right)\\cdot \\left(\\frac{353{,}15}{293{,}15}\\right)\\approx 0{,}83599\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,836 liter.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymminskningen är (1,20−0,83599) liter≈364,01 cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med ΔV=AΔh fås</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{364{,}01}{20{,}0}\\approx 18{,}20\\, \\mathrm{cm}\\]</div></div></div><div class=\"facit-stycke\"><p>Kolven ligger lägre eftersom belastningens kompression dominerar över uppvärmningens expansion.</p></div></div><p class=\"facit-svar\">Svar: 18,2 cm.</p></div></div></div>",
+    "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Lufttrycket utanför är hela tiden 101 kPa. Gasen stannar kvar i cylindern.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><ol type=\"a\"><li>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</li><li>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vikten ger den extra kraften \\(F=mg=15{,}0\\cdot9{,}82=147{,}3\\,\\mathrm N\\). Kolvarean är \\(20{,}0\\,\\mathrm{cm^2}=0{,}00200\\,\\mathrm{m^2}\\).</p>\\[p_2=101+\\frac{147{,}3}{0{,}00200\\cdot1000}=174{,}65\\,\\mathrm{kPa}.\\]<p><strong>Svar:</strong> 174,7 kPa.</p><p><strong>b)</strong></p><p>Vikten ger den extra kraften \\(F=mg=15{,}0\\cdot9{,}82=147{,}3\\,\\mathrm N\\). Kolvarean är \\(20{,}0\\,\\mathrm{cm^2}=0{,}00200\\,\\mathrm{m^2}\\).</p>\\[p_2=101+\\frac{147{,}3}{0{,}00200\\cdot1000}=174{,}65\\,\\mathrm{kPa}.\\]<p>Temperaturerna är \\(T_1=20{,}0+273{,}15=293{,}15\\,\\mathrm K\\) och \\(T_2=80{,}0+273{,}15=353{,}15\\,\\mathrm K\\). Samma gasmängd ger \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}\\]\\[\\begin{gathered}V_2=1{,}20\\cdot\\frac{101}{174{,}65}\\cdot\\frac{353{,}15}{293{,}15}\\\\\\approx0{,}835990\\,\\mathrm{liter}.\\end{gathered}\\]<p><strong>Svar:</strong> 0,836 liter.</p><p><strong>c)</strong></p><p>Vikten ger den extra kraften \\(F=mg=15{,}0\\cdot9{,}82=147{,}3\\,\\mathrm N\\). Kolvarean är \\(20{,}0\\,\\mathrm{cm^2}=0{,}00200\\,\\mathrm{m^2}\\).</p>\\[p_2=101+\\frac{147{,}3}{0{,}00200\\cdot1000}=174{,}65\\,\\mathrm{kPa}.\\]<p>Temperaturerna är \\(T_1=20{,}0+273{,}15=293{,}15\\,\\mathrm K\\) och \\(T_2=80{,}0+273{,}15=353{,}15\\,\\mathrm K\\). Samma gasmängd ger \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}\\]\\[\\begin{gathered}V_2=1{,}20\\cdot\\frac{101}{174{,}65}\\cdot\\frac{353{,}15}{293{,}15}\\\\\\approx0{,}835990\\,\\mathrm{liter}.\\end{gathered}\\]<p>Volymen minskar med \\(1{,}20-V_2\\) liter. En liter är 1000 cm³. Kolvens höjdändring är volymändringen delad med arean.</p>\\[h=\\frac{(1{,}20-V_2)\\cdot1000}{20{,}0}\\approx18{,}2005\\,\\mathrm{cm}.\\]<p><strong>Svar:</strong> 18,2 cm nedåt.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
@@ -62189,14 +62189,14 @@ window.BANK = [
     "familjNyckel": "gaslagen__belastad_kolv_och_allmanna_gaslagen",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      174.7,
-      0.836,
-      18.2
+      174.65,
+      0.835994349264793,
+      18.2002825367604
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.05,
+      0.0005,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilka nedåtriktade tryck och krafter verkar på kolven?</p>",
@@ -62222,13 +62222,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span>",
+    "spelIntro": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Lufttrycket utanför är hela tiden 101 kPa. Gasen stannar kvar i cylindern.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vikten ger</p><div class=\"facit-matte\">\\[\\Delta p=\\frac{m g}{A}=\\frac{15{,}0\\cdot 9{,}82}{20{,}0\\cdot 10^{-4}}=73{,}65\\, \\mathrm{kPa}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Gasen balanserar både lufttrycket och vikten, så</p><div class=\"facit-matte\">\\[p_{2}=101+73{,}65=174{,}65\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 174,7 kPa.</p></div>",
+        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Lufttrycket utanför är hela tiden 101 kPa. Gasen stannar kvar i cylindern.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vikten ger den extra kraften \\(F=mg=15{,}0\\cdot9{,}82=147{,}3\\,\\mathrm N\\). Kolvarean är \\(20{,}0\\,\\mathrm{cm^2}=0{,}00200\\,\\mathrm{m^2}\\).</p>\\[p_2=101+\\frac{147{,}3}{0{,}00200\\cdot1000}=174{,}65\\,\\mathrm{kPa}.\\]<p><strong>Svar:</strong> 174,7 kPa.</p></div>",
         "ledtrad": "<p>Vilka nedåtriktade tryck och krafter verkar på kolven?</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -62245,8 +62245,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Gasmängden är konstant och sluttrycket hålls av samma last.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=V_{1} \\left(\\frac{p_{1}}{p_{2}}\\right) \\left(\\frac{T_{2}}{T_{1}}\\right)=1{,}20\\cdot \\left(\\frac{101}{174{,}65}\\right)\\cdot \\left(\\frac{353{,}15}{293{,}15}\\right)\\approx 0{,}83599\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,836 liter.</p></div>",
+        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Lufttrycket utanför är hela tiden 101 kPa. Gasen stannar kvar i cylindern.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vikten ger den extra kraften \\(F=mg=15{,}0\\cdot9{,}82=147{,}3\\,\\mathrm N\\). Kolvarean är \\(20{,}0\\,\\mathrm{cm^2}=0{,}00200\\,\\mathrm{m^2}\\).</p>\\[p_2=101+\\frac{147{,}3}{0{,}00200\\cdot1000}=174{,}65\\,\\mathrm{kPa}.\\]<p>Temperaturerna är \\(T_1=20{,}0+273{,}15=293{,}15\\,\\mathrm K\\) och \\(T_2=80{,}0+273{,}15=353{,}15\\,\\mathrm K\\). Samma gasmängd ger \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}\\]\\[\\begin{gathered}V_2=1{,}20\\cdot\\frac{101}{174{,}65}\\cdot\\frac{353{,}15}{293{,}15}\\\\\\approx0{,}835990\\,\\mathrm{liter}.\\end{gathered}\\]<p><strong>Svar:</strong> 0,836 liter.</p></div>",
         "ledtrad": "<p>Jämför starttillståndet före belastningen med det uppvärmda slutläget.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -62263,8 +62263,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymminskningen är (1,20−0,83599) liter≈364,01 cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med ΔV=AΔh fås</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{364{,}01}{20{,}0}\\approx 18{,}20\\, \\mathrm{cm}\\]</div></div></div><div class=\"facit-stycke\"><p>Kolven ligger lägre eftersom belastningens kompression dominerar över uppvärmningens expansion.</p></div></div><p class=\"facit-svar\">Svar: 18,2 cm.</p></div>",
+        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Bortse från kolvens massa och friktion. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Lufttrycket utanför är hela tiden 101 kPa. Gasen stannar kvar i cylindern.</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vikten ger den extra kraften \\(F=mg=15{,}0\\cdot9{,}82=147{,}3\\,\\mathrm N\\). Kolvarean är \\(20{,}0\\,\\mathrm{cm^2}=0{,}00200\\,\\mathrm{m^2}\\).</p>\\[p_2=101+\\frac{147{,}3}{0{,}00200\\cdot1000}=174{,}65\\,\\mathrm{kPa}.\\]<p>Temperaturerna är \\(T_1=20{,}0+273{,}15=293{,}15\\,\\mathrm K\\) och \\(T_2=80{,}0+273{,}15=353{,}15\\,\\mathrm K\\). Samma gasmängd ger \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}\\]\\[\\begin{gathered}V_2=1{,}20\\cdot\\frac{101}{174{,}65}\\cdot\\frac{353{,}15}{293{,}15}\\\\\\approx0{,}835990\\,\\mathrm{liter}.\\end{gathered}\\]<p>Volymen minskar med \\(1{,}20-V_2\\) liter. En liter är 1000 cm³. Kolvens höjdändring är volymändringen delad med arean.</p>\\[h=\\frac{(1{,}20-V_2)\\cdot1000}{20{,}0}\\approx18{,}2005\\,\\mathrm{cm}.\\]<p><strong>Svar:</strong> 18,2 cm nedåt.</p></div>",
         "ledtrad": "<p>Omvandla volymskillnaden till cm³ och dividera med kolvarean.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -62281,6 +62281,11 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Belastad kolv och allmänna gaslagen"
+    ],
+    "rättSvar273": [
+      null,
+      0.836067063429638,
+      18.1966468285181
     ]
   },
   {
@@ -63534,15 +63539,15 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En styv, lufttät låda stängs när luften har trycket 101,3 kPa och temperaturen 18,0 °C. Därefter värms lådan och luften till 45,0 °C. Lådans volym ändras inte.</p><p>Bestäm luftens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Eftersom lådan är tät och styv är gasmängd och volym konstanta.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">T₁=291,15 K och</p><div class=\"facit-matte\">\\[T_{2}=318{,}15\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[p_{2}=\\frac{p_{1} T_{2}}{T_{1}}=\\frac{101{,}3\\cdot 318{,}15}{291{,}15}\\approx 110{,}694\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 110,7 kPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gasmängden och volymen är konstanta. Temperaturerna är \\(18+273{,}15=291{,}15\\,\\mathrm K\\) och \\(45+273{,}15=318{,}15\\,\\mathrm K\\).</p>\\[p_2=p_1\\frac{T_2}{T_1}\\]\\[p_2=101{,}3\\cdot\\frac{318{,}15}{291{,}15}\\approx110{,}694\\,\\mathrm{kPa}.\\]<p><strong>Svar:</strong> 110,7 kPa.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 110.7,
-    "tolerans": 0,
+    "rättSvar": 110.694126738794,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Vilka storheter förblir oförändrade i en tät och styv låda?</p>",
     "traningsniva": 3,
@@ -63555,7 +63560,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tryck och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 110.698969072165
   },
   {
     "id": "6.20",
@@ -63565,15 +63571,15 @@ window.BANK = [
     "typ": "övertryck vid temperaturändring",
     "poang": "(2/0/0)",
     "t": "<p>En uppblåsbar ponton har övertrycket 0,250 bar vid 8,0 °C. Senare värms luften till 28,0 °C. Pontonens volym är oförändrad och omgivningens lufttryck är hela tiden 1,010 bar.</p><p>Bestäm det nya övertrycket. Svara i bar. Avrunda vid behov till 3 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Gaslagen kräver absoluttryck. p₁,abs=1,010+0,250=1,260 bar, T₁=281,15 K och T₂=301,15 K. p₂,abs=1,260·301,15/281,15≈1,3496 bar.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Övertrycket blir</p><div class=\"facit-matte\">\\[1{,}3496-1{,}010\\approx 0{,}3396\\, \\mathrm{bar}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,340 bar.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gaslagen kräver absoluttryck. p₁,abs=1,010+0,250=1,260 bar, T₁=281,15 K och T₂=301,15 K. p₂,abs=1,260·301,15/281,15≈1,3496 bar.</p><p class=\"facit-metod\">Övertrycket blir</p>\\[1{,}3496-1{,}010\\approx 0{,}3396\\, \\mathrm{bar}\\]<p class=\"facit-svar\">Svar: 0,340 bar.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__overtryck_vid_temperaturandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.34,
-    "tolerans": 0,
+    "rättSvar": 0.339631869109017,
+    "tolerans": 0.0005,
     "självrättning": true,
     "ledtrad": "<p>Börja med att omvandla både övertrycket och celsiustemperaturerna till absoluta storheter.</p>",
     "traningsniva": 3,
@@ -63585,7 +63591,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Övertryck vid temperaturändring"
-    ]
+    ],
+    "rättSvar273": 0.339679715302491
   },
   {
     "id": "6.21",
@@ -63594,8 +63601,8 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck och absolut temperatur",
     "poang": "(2/0/0)",
-    "t": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 1 decimal.</li><li>Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym gäller p/T=konstant.</p><div class=\"facit-matte\">\\[p_{2}=\\frac{150\\cdot 333{,}15}{293{,}15}\\approx 170{,}467\\, \\mathrm{bar}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 170,5 bar.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Tryckets relativa förändring är samma som den absoluta temperaturens:</p><div class=\"facit-matte\">\\[\\left(\\frac{333{,}15}{293{,}15}-1\\right)\\cdot 100\\approx 13{,}6449\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 13,6 %.</p></div></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "t": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p><ol type=\"a\"><li>Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 1 decimal.</li><li>Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p class=\"facit-metod\">Vid konstant volym gäller p/T=konstant.</p>\\[p_{2}=\\frac{150\\cdot 333{,}15}{293{,}15}\\approx 170{,}467\\, \\mathrm{bar}\\]<p class=\"facit-svar\">Svar: 170,5 bar.</p><p><strong>b)</strong></p><p class=\"facit-metod\">Tryckets relativa förändring är samma som den absoluta temperaturens:</p>\\[\\left(\\frac{333{,}15}{293{,}15}-1\\right)\\cdot 100\\approx 13{,}6449\\, \\%\\]<p class=\"facit-svar\">Svar: 13,6 %.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
@@ -63603,12 +63610,12 @@ window.BANK = [
     "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      170.5,
-      13.6
+      170.467337540508,
+      13.6448916936722
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Omvandla båda temperaturerna till kelvin.</p>",
@@ -63637,7 +63644,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 1 decimal.",
         "t": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p><p>Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym gäller p/T=konstant.</p><div class=\"facit-matte\">\\[p_{2}=\\frac{150\\cdot 333{,}15}{293{,}15}\\approx 170{,}467\\, \\mathrm{bar}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 170,5 bar.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Vid konstant volym gäller p/T=konstant.</p>\\[p_{2}=\\frac{150\\cdot 333{,}15}{293{,}15}\\approx 170{,}467\\, \\mathrm{bar}\\]<p class=\"facit-svar\">Svar: 170,5 bar.</p></div>",
         "ledtrad": "<p>Omvandla båda temperaturerna till kelvin.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -63653,7 +63660,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.",
         "t": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p><p>Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Tryckets relativa förändring är samma som den absoluta temperaturens:</p><div class=\"facit-matte\">\\[\\left(\\frac{333{,}15}{293{,}15}-1\\right)\\cdot 100\\approx 13{,}6449\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 13,6 %.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Tryckets relativa förändring är samma som den absoluta temperaturens:</p>\\[\\left(\\frac{333{,}15}{293{,}15}-1\\right)\\cdot 100\\approx 13{,}6449\\, \\%\\]<p class=\"facit-svar\">Svar: 13,6 %.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
         "ledtrad": "<p>Jämför tryckökningen med starttrycket, inte med sluttrycket.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -63670,8 +63677,8 @@ window.BANK = [
       "Tryck och absolut temperatur"
     ],
     "rättSvar273": [
-      null,
-      13.7
+      170.477815699659,
+      13.6518771331058
     ]
   },
   {
@@ -63681,8 +63688,8 @@ window.BANK = [
     "niva": "C",
     "typ": "varmluftsballongens jämvikt",
     "poang": "(0/2/0)",
-    "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Bortse från höljets volym.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den största densitet som luften i ballongen får ha för svävande jämvikt. Svara i kg/m³. Avrunda vid behov till 3 decimaler.</li><li>Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Jämvikt ger ρ<sub>u</sub>V=ρ<sub>i</sub>V+600.</p></div><div class=\"facit-stycke\"><p>Alltså ρ<sub>i</sub>=1,29−600/2200≈1,01727 kg/m³.</p></div></div><p class=\"facit-svar\">Svar: 1,017 kg/m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid samma tryck och för samma gas gäller ρT=konstant.</p></div><div class=\"facit-stycke\"><p>T<sub>i</sub>=288,15·1,29/1,01727≈365,40 K=92,25 °C.</p></div></div><p class=\"facit-svar\">Svar: 92,3 °C.</p></div></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Bortse från höljets volym.</p><ol type=\"a\"><li>Bestäm den största densitet som luften i ballongen får ha för svävande jämvikt. Svara i kg/m³. Avrunda vid behov till 3 decimaler.</li><li>Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Jämvikt ger ρ<sub>u</sub>V=ρ<sub>i</sub>V+600.</p><p>Alltså ρ<sub>i</sub>=1,29−600/2200≈1,01727 kg/m³.</p><p class=\"facit-svar\">Svar: 1,017 kg/m³.</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>För att ballongen precis ska kunna sväva måste massan av undanträngd luft vara lika med massan av luften i ballongen plus lasten.</p>\\[\\rho_{\\mathrm{in}}=1{,}29-\\frac{600}{2200}\\approx1{,}01727\\,\\mathrm{kg/m^3}\\]<p>Vid samma tryck är luftens densitet omvänt proportionell mot temperaturen i kelvin.</p>\\[\\rho_{\\mathrm{in}}T_{\\mathrm{in}}=\\rho_{\\mathrm{ute}}T_{\\mathrm{ute}}\\]\\[T_{\\mathrm{in}}=\\frac{1{,}29\\cdot288{,}15}{1{,}29-600/2200}\\,\\mathrm K\\]\\[t_{\\mathrm{in}}=T_{\\mathrm{in}}-273{,}15\\approx92{,}252\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(92{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
@@ -63692,12 +63699,12 @@ window.BANK = [
     "familjNyckel": "gaslagen__varmluftsballongens_jamvikt",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.017,
-      92.3
+      1.01727272727273,
+      92.2520107238606
     ],
     "tolerans": [
-      0,
-      0
+      0.0005,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Den undanträngda uteluftens massa ska bära både den varma luften och övrig massa.</p>",
@@ -63726,7 +63733,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm den största densitet som luften i ballongen får ha för svävande jämvikt. Svara i kg/m³. Avrunda vid behov till 3 decimaler.",
         "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Bortse från höljets volym.</p><p>Bestäm den största densitet som luften i ballongen får ha för svävande jämvikt. Svara i kg/m³. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Jämvikt ger ρ<sub>u</sub>V=ρ<sub>i</sub>V+600.</p></div><div class=\"facit-stycke\"><p>Alltså ρ<sub>i</sub>=1,29−600/2200≈1,01727 kg/m³.</p></div></div><p class=\"facit-svar\">Svar: 1,017 kg/m³.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Jämvikt ger ρ<sub>u</sub>V=ρ<sub>i</sub>V+600.</p><p>Alltså ρ<sub>i</sub>=1,29−600/2200≈1,01727 kg/m³.</p><p class=\"facit-svar\">Svar: 1,017 kg/m³.</p></div>",
         "ledtrad": "<p>Den undanträngda uteluftens massa ska bära både den varma luften och övrig massa.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -63744,7 +63751,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.",
         "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Bortse från höljets volym.</p><p>Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid samma tryck och för samma gas gäller ρT=konstant.</p></div><div class=\"facit-stycke\"><p>T<sub>i</sub>=288,15·1,29/1,01727≈365,40 K=92,25 °C.</p></div></div><p class=\"facit-svar\">Svar: 92,3 °C.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>För att ballongen precis ska kunna sväva måste massan av undanträngd luft vara lika med massan av luften i ballongen plus lasten.</p>\\[\\rho_{\\mathrm{in}}=1{,}29-\\frac{600}{2200}\\approx1{,}01727\\,\\mathrm{kg/m^3}\\]<p>Vid samma tryck är luftens densitet omvänt proportionell mot temperaturen i kelvin.</p>\\[\\rho_{\\mathrm{in}}T_{\\mathrm{in}}=\\rho_{\\mathrm{ute}}T_{\\mathrm{ute}}\\]\\[T_{\\mathrm{in}}=\\frac{1{,}29\\cdot288{,}15}{1{,}29-600/2200}\\,\\mathrm K\\]\\[t_{\\mathrm{in}}=T_{\\mathrm{in}}-273{,}15\\approx92{,}252\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(92{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Vid konstant tryck är densiteten omvänt proportionell mot kelvintemperaturen.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -63764,7 +63771,7 @@ window.BANK = [
     ],
     "rättSvar273": [
       null,
-      92.2
+      92.2117962466488
     ]
   },
   {
@@ -64844,8 +64851,8 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 37,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla −18,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=37{,}0+273{,}15=310{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 310,15 K.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=-18{,}0+273{,}15=255{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 255,15 K.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=195-273{,}15=-78{,}15\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -78,15 °C.</p></div></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "t": "<ol type=\"a\"><li>Omvandla 37,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla −18,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p>\\[T=37{,}0+273{,}15=310{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 310,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p><p><strong>b)</strong></p>\\[T=-18{,}0+273{,}15=255{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 255,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p><p><strong>c)</strong></p>\\[t=195-273{,}15=-78{,}15\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: -78,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -64858,9 +64865,9 @@ window.BANK = [
       -78.15
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Lägg 273,15 till celsiustemperaturen.</p>",
@@ -64893,7 +64900,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Omvandla 37,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Omvandla 37,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=37{,}0+273{,}15=310{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 310,15 K.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[T=37{,}0+273{,}15=310{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 310,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
         "ledtrad": "<p>Lägg 273,15 till celsiustemperaturen.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -64909,7 +64916,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Omvandla −18,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Omvandla −18,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=-18{,}0+273{,}15=255{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 255,15 K.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[T=-18{,}0+273{,}15=255{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 255,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
         "ledtrad": "<p>Kelvintemperaturen är fortfarande positiv.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -64925,7 +64932,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=195-273{,}15=-78{,}15\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -78,15 °C.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[t=195-273{,}15=-78{,}15\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: -78,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
         "ledtrad": "<p>Subtrahera 273,15 när du går från kelvin till Celsius.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -64942,9 +64949,9 @@ window.BANK = [
       "Omvandla mellan Celsius och kelvin"
     ],
     "rättSvar273": [
-      310,
-      255,
-      -78
+      310.0,
+      255.0,
+      -78.0
     ]
   },
   {
@@ -64985,15 +64992,15 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ett styvt och lufttätt rum innehåller luft vid det absoluta trycket 100 kPa och temperaturen 22,0 °C. Senare är trycket 97,0 kPa. Gasmängden och rummets volym är oförändrade.</p><p>Bestäm den nya temperaturen i grader Celsius. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant volym gäller p/T=konstant.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T_{2}=\\frac{295{,}15\\cdot 97{,}0}{100}\\approx 286{,}296\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I Celsius blir det</p><div class=\"facit-matte\">\\[286{,}296-273{,}15\\approx 13{,}146\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 13,1 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant volym gäller p/T=konstant.</p>\\[T_{2}=\\frac{295{,}15\\cdot 97{,}0}{100}\\approx 286{,}296\\, \\mathrm{K}\\]<p class=\"facit-metod\">I Celsius blir det</p>\\[286{,}296-273{,}15\\approx 13{,}146\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: 13,1 °C.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__temperatur_fran_tryckandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 13.1,
-    "tolerans": 0,
+    "rättSvar": 13.1455,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Lös först ut sluttemperaturen i kelvin.</p>",
     "traningsniva": 3,
@@ -65006,7 +65013,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Temperatur från tryckändring"
-    ]
+    ],
+    "rättSvar273": 13.15
   },
   {
     "id": "6.343",
@@ -65073,24 +65081,22 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "pumpslag och lyfthöjd",
-    "poang": "(3/0/0)",
-    "t": "<p>En hydraulisk domkraft har en liten pumpkolv med arean 4,0 cm² och en stor lyftkolv med arean 120 cm². Pumpkolven rör sig nedåt 25 cm i varje helt pumpslag. Lyftkolven ska höjas 15 cm. Vätskan kan inte pressas ihop. Bortse från läckage och friktion.</p><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm/slag</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"566\" y=\"152\" text-anchor=\"start\">15 cm</text></g></svg><ol type=\"a\"><li>Kraftförstärkningen är lika med den stora arean delad med den lilla. Bestäm kraftförstärkningen. Svara med ett heltal.</li><li>Använd V = Ah för volymen. Hur stor volym olja måste pumpas över för att lyftkolven ska höjas 15 cm? Svara i cm³ med ett heltal.</li><li>Hur många hela pumpslag behövs för att lyftkolven ska höjas 15 cm? Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Areorna har samma enhet, så du kan dividera dem direkt.\\[\\frac{F_\\mathrm{stor}}{F_\\mathrm{liten}}=\\frac{A_\\mathrm{stor}}{A_\\mathrm{liten}}=\\frac{120}{4{,}0}=30\\]</p><p><strong>Svar:</strong> 30.</p><p><strong>b)</strong></p><p>Den nya volymen under lyftkolven är kolvens area gånger höjningen.\\[V=Ah=120\\cdot15=1800\\,\\mathrm{cm^3}\\]</p><p><strong>Svar:</strong> 1800 cm³.</p><p><strong>c)</strong></p><p>Beräkna både den volym som behövs och den volym som ett pumpslag ger.\\[V_\\mathrm{behövs}=120\\cdot15=1800\\,\\mathrm{cm^3}\\]\\[V_\\mathrm{slag}=4{,}0\\cdot25=100\\,\\mathrm{cm^3}\\]\\[n=\\frac{1800}{100}=18\\]</p><p><strong>Svar:</strong> 18 pumpslag.</p></div>",
+    "typ": "kraftförstärkning och lyfthöjd",
+    "poang": "(2/0/0)",
+    "t": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Varje gång pumpkolven trycks ned rör den sig 25 cm. Bilen ska höjas 15 cm.</p><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"566\" y=\"152\" text-anchor=\"start\">15 cm</text></g></svg><ol type=\"a\"><li>Hur många gånger förstärks kraften från pumpkolven till lyftkolven? Svara med ett heltal.</li><li>Hur många gånger behöver pumpkolven tryckas ned 25 cm för att bilen ska höjas 15 cm? Svara med ett heltal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>I en domkraft ökar kraften lika många gånger som kolvens area. Lyftkolvens area är 120 cm² och pumpkolvens area är 4,0 cm².</p>\\[\\frac{120}{4{,}0}=30\\]<p><strong>Svar:</strong> Kraften förstärks 30 gånger.</p><p><strong>b)</strong></p><p>För att höja bilen behövs oljevolymen</p>\\[V=120\\cdot15=1800\\,\\mathrm{cm^3}.\\]<p>Varje gång pumpkolven trycks ned flyttas oljevolymen</p>\\[V_{\\mathrm{pump}}=4{,}0\\cdot25=100\\,\\mathrm{cm^3}.\\]<p>Antalet gånger blir därför</p>\\[n=\\frac{1800}{100}=18.\\]<p><strong>Svar:</strong> Pumpkolven behöver tryckas ned 18 gånger.</p></div>",
     "familj": "Hydraulik",
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "familjNyckel": "tryck__pumpslag_och_lyfthojd",
+    "familjNyckel": "tryck__kraftforstarkning_och_lyfthojd",
     "svarstyp": "flera_delar",
     "rättSvar": [
       30.0,
-      1800,
       18.0
     ],
     "tolerans": [
-      0,
       0,
       0
     ],
@@ -65103,29 +65109,26 @@ window.BANK = [
     "spel": true,
     "svarEnhet": [
       null,
-      "cm³",
       null
     ],
     "svarFormat": [
-      "numeriskt",
       "numeriskt",
       "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
-      "b",
-      "c"
+      "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En hydraulisk domkraft har en liten pumpkolv med arean 4,0 cm² och en stor lyftkolv med arean 120 cm². Pumpkolven rör sig nedåt 25 cm i varje helt pumpslag. Lyftkolven ska höjas 15 cm. Vätskan kan inte pressas ihop. Bortse från läckage och friktion.</p><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm/slag</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"566\" y=\"152\" text-anchor=\"start\">15 cm</text></g></svg>",
+    "spelIntro": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Varje gång pumpkolven trycks ned rör den sig 25 cm. Bilen ska höjas 15 cm.</p><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"566\" y=\"152\" text-anchor=\"start\">15 cm</text></g></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Kraftförstärkningen är lika med den stora arean delad med den lilla. Bestäm kraftförstärkningen. Svara med ett heltal.",
-        "t": "<p>En domkraft har en liten kolv med arean 4,0 cm² och en stor kolv med arean 120 cm². Bortse från förluster.</p><p>Kraftförstärkningen är lika med den stora arean delad med den lilla. Bestäm kraftförstärkningen. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Areorna har samma enhet, så du kan dividera dem direkt.\\[\\frac{F_\\mathrm{stor}}{F_\\mathrm{liten}}=\\frac{A_\\mathrm{stor}}{A_\\mathrm{liten}}=\\frac{120}{4{,}0}=30\\]</p><p><strong>Svar:</strong> 30.</p></div>",
-        "ledtrad": "<p>Jämför lyftkolvens area med pumpkolvens area.</p>",
+        "fraga": "Hur många gånger förstärks kraften från pumpkolven till lyftkolven? Svara med ett heltal.",
+        "t": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm².</p><p>Hur många gånger förstärks kraften från pumpkolven till lyftkolven? Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I en domkraft ökar kraften lika många gånger som kolvens area. Lyftkolvens area är 120 cm² och pumpkolvens area är 4,0 cm².</p>\\[\\frac{120}{4{,}0}=30\\]<p><strong>Svar:</strong> Kraften förstärks 30 gånger.</p></div>",
+        "ledtrad": "<p>Dividera lyftkolvens area med pumpkolvens area.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -65138,26 +65141,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Använd V = Ah för volymen. Hur stor volym olja måste pumpas över för att lyftkolven ska höjas 15 cm? Svara i cm³ med ett heltal.",
-        "t": "<p>Lyftkolven i en domkraft har arean 120 cm² och ska höjas 15 cm.</p><p>Använd V = Ah för volymen. Hur stor volym olja måste pumpas över för att lyftkolven ska höjas 15 cm? Svara i cm³ med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den nya volymen under lyftkolven är kolvens area gånger höjningen.\\[V=Ah=120\\cdot15=1800\\,\\mathrm{cm^3}\\]</p><p><strong>Svar:</strong> 1800 cm³.</p></div>",
-        "ledtrad": "<p>Vilken volym motsvarar lyftkolvens area gånger lyfthöjden?</p>",
-        "niva": "E",
-        "traningsniva": 1,
-        "arbetsinsats": 1,
-        "poang": "(1/0/0)",
-        "formaga": [
-          "procedur"
-        ],
-        "miniräknare": true,
-        "geogebra": false
-      },
-      {
-        "etikett": "c",
-        "fraga": "Hur många hela pumpslag behövs för att lyftkolven ska höjas 15 cm? Svara med ett heltal.",
-        "t": "<p>En hydraulisk domkraft har en liten pumpkolv med arean 4,0 cm² och en stor lyftkolv med arean 120 cm². Pumpkolven rör sig nedåt 25 cm i varje helt pumpslag. Lyftkolven ska höjas 15 cm. Vätskan kan inte pressas ihop. Bortse från läckage och friktion.<svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm/slag</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"566\" y=\"152\" text-anchor=\"start\">15 cm</text></g></svg></p><p>Hur många hela pumpslag behövs för att lyftkolven ska höjas 15 cm? Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna både den volym som behövs och den volym som ett pumpslag ger.\\[V_\\mathrm{behövs}=120\\cdot15=1800\\,\\mathrm{cm^3}\\]\\[V_\\mathrm{slag}=4{,}0\\cdot25=100\\,\\mathrm{cm^3}\\]\\[n=\\frac{1800}{100}=18\\]</p><p><strong>Svar:</strong> 18 pumpslag.</p></div>",
-        "ledtrad": "<p>Jämför den totala oljevolymen med volymen som flyttas vid ett pumpslag.</p>",
+        "fraga": "Hur många gånger behöver pumpkolven tryckas ned 25 cm för att bilen ska höjas 15 cm? Svara med ett heltal.",
+        "t": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Varje gång pumpkolven trycks ned rör den sig 25 cm. Bilen ska höjas 15 cm.</p><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"566\" y=\"152\" text-anchor=\"start\">15 cm</text></g></svg><p>Hur många gånger behöver pumpkolven tryckas ned 25 cm för att bilen ska höjas 15 cm? Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>För att höja bilen behövs oljevolymen</p>\\[V=120\\cdot15=1800\\,\\mathrm{cm^3}.\\]<p>Varje gång pumpkolven trycks ned flyttas oljevolymen</p>\\[V_{\\mathrm{pump}}=4{,}0\\cdot25=100\\,\\mathrm{cm^3}.\\]<p>Antalet gånger blir därför</p>\\[n=\\frac{1800}{100}=18.\\]<p><strong>Svar:</strong> Pumpkolven behöver tryckas ned 18 gånger.</p></div>",
+        "ledtrad": "<p>Beräkna hur mycket olja som behövs under lyftkolven och hur mycket som flyttas när pumpkolven trycks ned en gång.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 2,
@@ -65769,15 +65756,15 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En tät och lättöjbar ballong har volymen 3,00 dm³ vid 12,0 °C. Den värms till 30,0 °C medan omgivningens absoluta tryck är oförändrat. Anta att gastrycket hela tiden är lika med omgivningens.</p><p>Bestäm ballongens nya volym. Svara i dm³. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Gasmängd och tryck är konstanta, så V/T=konstant.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=\\frac{3{,}00\\cdot 303{,}15}{285{,}15}\\approx 3{,}18937 d m^{3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,19 dm³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gasmängd och tryck är konstanta, så V/T=konstant.</p>\\[V_{2}=\\frac{3{,}00\\cdot 303{,}15}{285{,}15}\\approx 3{,}18937 d m^{3}\\]<p class=\"facit-svar\">Svar: 3,19 dm³.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__volym_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.19,
-    "tolerans": 0,
+    "rättSvar": 3.18937401367701,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Använd kelvin i temperaturkvoten.</p>",
     "traningsniva": 2,
@@ -65790,7 +65777,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Volym och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 3.18947368421053
   },
   {
     "id": "6.51",
@@ -66223,8 +66211,8 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm volymfaktorn som enbart tryckändringen skulle ge om temperaturen var oförändrad. Avrunda vid behov till 2 decimaler.</li><li>Bestäm volymfaktorn som enbart temperaturändringen skulle ge om trycket var oförändrat. Avrunda vid behov till 2 decimaler.</li><li>Bestäm ballongens verkliga volym på höjden när båda ändringarna tas med. Svara i liter. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant temperatur ger tryckfallet faktorn</p><div class=\"facit-matte\">\\[\\frac{p_{1}}{p_{2}}=\\frac{101}{54{,}0}\\approx 1{,}87037\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,87.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant tryck ger kylningen faktorn</p><div class=\"facit-matte\">\\[\\frac{T_{2}}{T_{1}}=\\frac{255{,}15}{293{,}15}\\approx 0{,}87037\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=V_{1} \\left(\\frac{p_{1}}{p_{2}}\\right) \\left(\\frac{T_{2}}{T_{1}}\\right)=2{,}00\\cdot \\left(\\frac{101}{54{,}0}\\right)\\cdot \\left(\\frac{255{,}15}{293{,}15}\\right)\\approx 3{,}25584\\, \\mathrm{liter}\\]</div></div></div><div class=\"facit-stycke\"><p>Tryckfallet ökar volymen mer än kylningen minskar den.</p></div></div><p class=\"facit-svar\">Svar: 3,26 liter.</p></div></div></div>",
+    "t": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p><ol type=\"a\"><li>Bestäm volymfaktorn som enbart tryckändringen skulle ge om temperaturen var oförändrad. Avrunda vid behov till 2 decimaler.</li><li>Bestäm volymfaktorn som enbart temperaturändringen skulle ge om trycket var oförändrat. Avrunda vid behov till 2 decimaler.</li><li>Bestäm ballongens verkliga volym på höjden när båda ändringarna tas med. Svara i liter. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p class=\"facit-metod\">Vid konstant temperatur ger tryckfallet faktorn</p>\\[\\frac{p_{1}}{p_{2}}=\\frac{101}{54{,}0}\\approx 1{,}87037\\]<p class=\"facit-svar\">Svar: 1,87.</p><p><strong>b)</strong></p><p class=\"facit-metod\">Vid konstant tryck ger kylningen faktorn</p>\\[\\frac{T_{2}}{T_{1}}=\\frac{255{,}15}{293{,}15}\\approx 0{,}87037\\]<p class=\"facit-svar\">Svar: 0,87.</p><p><strong>c)</strong></p>\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}\\]\\[V_2=2{,}00\\cdot\\frac{101}{54{,}0}\\cdot\\frac{255{,}15}{293{,}15}\\approx3{,}25584\\,\\mathrm{liter}\\]<p>Tryckfallet ökar volymen mer än kylningen minskar den.</p><p class=\"facit-svar\">Svar: 3,26 liter.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "problemlösning",
@@ -66234,14 +66222,14 @@ window.BANK = [
     "familjNyckel": "gaslagen__kombinerad_gaslag_och_forandringsfaktorer",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.87,
-      0.87,
-      3.26
+      1.87037037037037,
+      0.870373528910114,
+      3.25584171925635
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Jämför de absoluta trycken i omvänd ordning.</p>",
@@ -66274,7 +66262,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm volymfaktorn som enbart tryckändringen skulle ge om temperaturen var oförändrad. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p><p>Bestäm volymfaktorn som enbart tryckändringen skulle ge om temperaturen var oförändrad. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant temperatur ger tryckfallet faktorn</p><div class=\"facit-matte\">\\[\\frac{p_{1}}{p_{2}}=\\frac{101}{54{,}0}\\approx 1{,}87037\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,87.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Vid konstant temperatur ger tryckfallet faktorn</p>\\[\\frac{p_{1}}{p_{2}}=\\frac{101}{54{,}0}\\approx 1{,}87037\\]<p class=\"facit-svar\">Svar: 1,87.</p></div>",
         "ledtrad": "<p>Jämför de absoluta trycken i omvänd ordning.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -66292,7 +66280,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm volymfaktorn som enbart temperaturändringen skulle ge om trycket var oförändrat. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p><p>Bestäm volymfaktorn som enbart temperaturändringen skulle ge om trycket var oförändrat. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant tryck ger kylningen faktorn</p><div class=\"facit-matte\">\\[\\frac{T_{2}}{T_{1}}=\\frac{255{,}15}{293{,}15}\\approx 0{,}87037\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Vid konstant tryck ger kylningen faktorn</p>\\[\\frac{T_{2}}{T_{1}}=\\frac{255{,}15}{293{,}15}\\approx 0{,}87037\\]<p class=\"facit-svar\">Svar: 0,87.</p></div>",
         "ledtrad": "<p>Temperaturfaktorn måste bildas med kelvin.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -66310,7 +66298,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm ballongens verkliga volym på höjden när båda ändringarna tas med. Svara i liter. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p><p>Bestäm ballongens verkliga volym på höjden när båda ändringarna tas med. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=V_{1} \\left(\\frac{p_{1}}{p_{2}}\\right) \\left(\\frac{T_{2}}{T_{1}}\\right)=2{,}00\\cdot \\left(\\frac{101}{54{,}0}\\right)\\cdot \\left(\\frac{255{,}15}{293{,}15}\\right)\\approx 3{,}25584\\, \\mathrm{liter}\\]</div></div></div><div class=\"facit-stycke\"><p>Tryckfallet ökar volymen mer än kylningen minskar den.</p></div></div><p class=\"facit-svar\">Svar: 3,26 liter.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}\\]\\[V_2=2{,}00\\cdot\\frac{101}{54{,}0}\\cdot\\frac{255{,}15}{293{,}15}\\approx3{,}25584\\,\\mathrm{liter}\\]<p>Tryckfallet ökar volymen mer än kylningen minskar den.</p><p class=\"facit-svar\">Svar: 3,26 liter.</p></div>",
         "ledtrad": "<p>Multiplicera startvolymen med både tryckfaktorn och temperaturfaktorn.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -66327,6 +66315,11 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Kombinerad gaslag och förändringsfaktorer"
+    ],
+    "rättSvar273": [
+      null,
+      0.870307167235495,
+      3.25559347743648
     ]
   },
   {
@@ -67723,11 +67716,11 @@ window.BANK = [
     "id": "6.73",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "flytdjup och densitet",
-    "poang": "(3/0/0)",
-    "t": "<p>En homogen rätblockskloss flyter stilla med lodräta sidor i vatten med densiteten 998 kg/m³. Klossen är 20 cm hög och 8,0 cm sticker upp ovanför vattenytan. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den nedsänkta höjden. Svara i cm. Svara med ett heltal.</li><li>Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.</li><li>Bestäm klossens densitet. Svara i kg/m³. Avrunda vid behov till 1 decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[h_{\\mathrm{ned}}=20-8{,}0=12\\, \\mathrm{cm}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 12 cm.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma tvärsnittsarea gäller längs hela höjden.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymandelen är</p><div class=\"facit-matte\">\\[\\frac{\\left(20-8\\right)}{20}=0{,}60=60\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 60 %.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\rho_{\\mathrm{k}}=\\frac{\\rho_{\\mathrm{v}} V_{\\mathrm{ned}}}{V_{\\mathrm{tot}}}=\\frac{998 \\left(20-8\\right)}{20}=598{,}8\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 598,8 kg/m³.</p></div></div></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>En kloss med raka, lodräta sidor flyter stilla i vatten. Klossen är gjord av samma material rakt igenom. Vattnets densitet är 998 kg/m³. Klossen är 20 cm hög och 8,0 cm sticker upp ovanför vattenytan.</p><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><ol type=\"a\"><li>Hur hög är den del av klossen som ligger under vattenytan? Svara i cm med ett heltal.</li><li>Hur många procent av klossens volym ligger under vattenytan? Svara i % med ett heltal.</li><li>Bestäm klossens densitet. Svara i kg/m³ med en decimal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Dra bort höjden ovanför ytan från klossens hela höjd.</p>\\[h=20-8{,}0=12\\,\\mathrm{cm}.\\]<p><strong>Svar:</strong> 12 cm.</p><p><strong>b)</strong></p><p>Under ytan ligger \\(20-8{,}0=12\\) cm av klossens höjd. De raka, lodräta sidorna gör att samma andel av volymen ligger under ytan.</p>\\[\\frac{12}{20}\\cdot100=60\\,\\%.\\]<p><strong>Svar:</strong> 60 %.</p><p><strong>c)</strong></p><p>Klossen flyter stilla. Vattnets lyftkraft är därför lika stor som klossens tyngdkraft. Enligt Arkimedes princip väger klossen lika mycket som det vatten den tränger undan.</p><p>Under ytan ligger \\(20-8{,}0=12\\) cm. Det är \\(12/20=0{,}60\\) av klossens volym. Klossens densitet är därför 0,60 gånger vattnets densitet.</p>\\[\\rho_{\\mathrm{kloss}}=0{,}60\\cdot998=598{,}8\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> 598,8 kg/m³.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "procedur"
@@ -67742,7 +67735,7 @@ window.BANK = [
     "tolerans": [
       0,
       0,
-      0
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Dela upp hela höjden i delen över och delen under ytan.</p>",
@@ -67768,14 +67761,14 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En homogen rätblockskloss flyter stilla med lodräta sidor i vatten med densiteten 998 kg/m³. Klossen är 20 cm hög och 8,0 cm sticker upp ovanför vattenytan. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span>",
+    "spelIntro": "<p>En kloss med raka, lodräta sidor flyter stilla i vatten. Klossen är gjord av samma material rakt igenom. Vattnets densitet är 998 kg/m³. Klossen är 20 cm hög och 8,0 cm sticker upp ovanför vattenytan.</p><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den nedsänkta höjden. Svara i cm. Svara med ett heltal.",
-        "t": "<p>En kloss är 20 cm hög och flyter med 8,0 cm ovanför vattenytan. Klossens sidor är lodräta.</p><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Bestäm den nedsänkta höjden. Svara i cm. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[h_{\\mathrm{ned}}=20-8{,}0=12\\, \\mathrm{cm}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 12 cm.</p></div>",
-        "ledtrad": "<p>Dela upp hela höjden i delen över och delen under ytan.</p>",
+        "fraga": "Hur hög är den del av klossen som ligger under vattenytan? Svara i cm med ett heltal.",
+        "t": "<p>En kloss är 20 cm hög och flyter med 8,0 cm ovanför vattenytan.</p><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Hur hög är den del av klossen som ligger under vattenytan? Svara i cm med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dra bort höjden ovanför ytan från klossens hela höjd.</p>\\[h=20-8{,}0=12\\,\\mathrm{cm}.\\]<p><strong>Svar:</strong> 12 cm.</p></div>",
+        "ledtrad": "<p>Dra bort höjden ovanför ytan från hela höjden.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -67786,10 +67779,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.",
-        "t": "<p>En rätblockskloss är 20 cm hög och flyter med 8,0 cm ovanför vattenytan. Klossens sidor är lodräta.</p><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma tvärsnittsarea gäller längs hela höjden.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymandelen är</p><div class=\"facit-matte\">\\[\\frac{\\left(20-8\\right)}{20}=0{,}60=60\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 60 %.</p></div>",
-        "ledtrad": "<p>Varför går det att jämföra höjderna för just ett rätblock?</p>",
+        "fraga": "Hur många procent av klossens volym ligger under vattenytan? Svara i % med ett heltal.",
+        "t": "<p>En kloss med raka, lodräta sidor är 20 cm hög. Den flyter med 8,0 cm ovanför vattenytan.</p><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Hur många procent av klossens volym ligger under vattenytan? Svara i % med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Under ytan ligger \\(20-8{,}0=12\\) cm av klossens höjd. De raka, lodräta sidorna gör att samma andel av volymen ligger under ytan.</p>\\[\\frac{12}{20}\\cdot100=60\\,\\%.\\]<p><strong>Svar:</strong> 60 %.</p></div>",
+        "ledtrad": "<p>Jämför höjden under ytan med klossens hela höjd.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -67800,14 +67793,14 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm klossens densitet. Svara i kg/m³. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En homogen rätblockskloss flyter stilla med lodräta sidor i vatten med densiteten 998 kg/m³. Klossen är 20 cm hög och 8,0 cm sticker upp ovanför vattenytan. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span><p>Bestäm klossens densitet. Svara i kg/m³. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\rho_{\\mathrm{k}}=\\frac{\\rho_{\\mathrm{v}} V_{\\mathrm{ned}}}{V_{\\mathrm{tot}}}=\\frac{998 \\left(20-8\\right)}{20}=598{,}8\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 598,8 kg/m³.</p></div>",
-        "ledtrad": "<p>Skriv kraftjämvikt för den flytande klossen.</p>",
-        "niva": "E",
+        "fraga": "Bestäm klossens densitet. Svara i kg/m³ med en decimal.",
+        "t": "<p>En kloss med raka, lodräta sidor flyter stilla i vatten. Klossen är gjord av samma material rakt igenom. Vattnets densitet är 998 kg/m³. Klossen är 20 cm hög och 8,0 cm sticker upp ovanför vattenytan.</p><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Bestäm klossens densitet. Svara i kg/m³ med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossen flyter stilla. Vattnets lyftkraft är därför lika stor som klossens tyngdkraft. Enligt Arkimedes princip väger klossen lika mycket som det vatten den tränger undan.</p><p>Under ytan ligger \\(20-8{,}0=12\\) cm. Det är \\(12/20=0{,}60\\) av klossens volym. Klossens densitet är därför 0,60 gånger vattnets densitet.</p>\\[\\rho_{\\mathrm{kloss}}=0{,}60\\cdot998=598{,}8\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> 598,8 kg/m³.</p></div>",
+        "ledtrad": "<p>När klossen flyter väger den lika mycket som vattnet den tränger undan.</p>",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
@@ -68583,15 +68576,15 @@ window.BANK = [
     "typ": "volym och absolut temperatur",
     "poang": "(1/0/0)",
     "t": "<p>En tät, lättöjbar ballong innehåller 2,00 liter luft vid 20,0 °C. Den kyls till −18,0 °C medan trycket är oförändrat.</p><p>Bestäm ballongens volym efter kylningen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">T₁=293,15 K och</p><div class=\"facit-matte\">\\[T_{2}=255{,}15\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant tryck gäller V/T=konstant, så</p><div class=\"facit-matte\">\\[V_{2}=\\frac{2{,}00\\cdot 255{,}15}{293{,}15}\\approx 1{,}74075\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,74 liter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">T₁=293,15 K och</p>\\[T_{2}=255{,}15\\, \\mathrm{K}\\]<p class=\"facit-metod\">Vid konstant tryck gäller V/T=konstant, så</p>\\[V_{2}=\\frac{2{,}00\\cdot 255{,}15}{293{,}15}\\approx 1{,}74075\\, \\mathrm{liter}\\]<p class=\"facit-svar\">Svar: 1,74 liter.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__volym_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.74,
-    "tolerans": 0,
+    "rättSvar": 1.74074705782023,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Omvandla temperaturerna till kelvin innan du bildar kvoten.</p>",
     "traningsniva": 2,
@@ -68603,7 +68596,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Volym och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 1.74061433447099
   },
   {
     "id": "6.85",
@@ -68642,15 +68636,15 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En däckmanometer visar övertrycket 2,50 bar när luften i ett cykeldäck är 5,0 °C. Efter uppvärmning är temperaturen 35,0 °C. Däckets volym är oförändrad och lufttrycket utanför är hela tiden 1,00 bar.</p><p>Bestäm manometerns nya visning. Svara i bar. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Startens absoluttryck är</p><div class=\"facit-matte\">\\[2{,}50+1{,}00=3{,}50\\, \\mathrm{bar}\\]</div></div></div><div class=\"facit-stycke\"><p>Med T₁=278,15 K och T₂=308,15 K blir p₂,abs=3,50·308,15/278,15≈3,8775 bar.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Manometern visar övertrycket</p><div class=\"facit-matte\">\\[3{,}8775-1{,}00\\approx 2{,}8775\\, \\mathrm{bar}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,88 bar.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Startens absoluttryck är</p>\\[2{,}50+1{,}00=3{,}50\\, \\mathrm{bar}\\]<p>Med T₁=278,15 K och T₂=308,15 K blir p₂,abs=3,50·308,15/278,15≈3,8775 bar.</p><p class=\"facit-metod\">Manometern visar övertrycket</p>\\[3{,}8775-1{,}00\\approx 2{,}8775\\, \\mathrm{bar}\\]<p class=\"facit-svar\">Svar: 2,88 bar.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__dacktryck_och_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.88,
-    "tolerans": 0,
+    "rättSvar": 2.87749415782851,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Gaslagen använder absoluttryck och kelvin, medan däckmanometern visar övertryck.</p>",
     "traningsniva": 3,
@@ -68663,7 +68657,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Däcktryck och temperatur"
-    ]
+    ],
+    "rättSvar273": 2.87769784172662
   },
   {
     "id": "6.87",
@@ -68910,8 +68905,8 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(4/0/0)",
-    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 18 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 150 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla −25 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 480 °C till kelvin. Svara i K. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=18+273{,}15=291{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 291 K.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=150+273{,}15=423{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 423 K.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=-25+273{,}15=248{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 248 K.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=480+273{,}15=753{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 753 K.</p></div></div></div>",
+    "t": "<ol type=\"a\"><li>Omvandla 18 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 150 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla −25 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 480 °C till kelvin. Svara i K. Svara med ett heltal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p>\\[T=18+273{,}15=291{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 291 K.</p><p><strong>b)</strong></p>\\[T=150+273{,}15=423{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 423 K.</p><p><strong>c)</strong></p>\\[T=-25+273{,}15=248{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 248 K.</p><p><strong>d)</strong></p>\\[T=480+273{,}15=753{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 753 K.</p></div>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -68919,16 +68914,16 @@ window.BANK = [
     "familjNyckel": "gaslagen__omvandla_celsius_till_kelvin",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      291,
-      423,
-      248,
-      753
+      291.15,
+      423.15,
+      248.15,
+      753.15
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.5,
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "ledtrad": "<p>Lägg till 273,15.</p>",
@@ -68964,7 +68959,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Omvandla 18 °C till kelvin. Svara i K. Svara med ett heltal.",
         "t": "<p>Omvandla 18 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=18+273{,}15=291{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 291 K.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[T=18+273{,}15=291{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 291 K.</p></div>",
         "ledtrad": "<p>Lägg till 273,15.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -68980,7 +68975,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Omvandla 150 °C till kelvin. Svara i K. Svara med ett heltal.",
         "t": "<p>Omvandla 150 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=150+273{,}15=423{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 423 K.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[T=150+273{,}15=423{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 423 K.</p></div>",
         "ledtrad": "<p>Lägg till 273,15.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -68996,7 +68991,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Omvandla −25 °C till kelvin. Svara i K. Svara med ett heltal.",
         "t": "<p>Omvandla −25 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=-25+273{,}15=248{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 248 K.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[T=-25+273{,}15=248{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 248 K.</p></div>",
         "ledtrad": "<p>Ett minustecken framför celsiustemperaturen ska följa med i additionen.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -69012,7 +69007,7 @@ window.BANK = [
         "etikett": "d",
         "fraga": "Omvandla 480 °C till kelvin. Svara i K. Svara med ett heltal.",
         "t": "<p>Omvandla 480 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=480+273{,}15=753{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 753 K.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[T=480+273{,}15=753{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 753 K.</p></div>",
         "ledtrad": "<p>Lägg till 273,15.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -69027,6 +69022,12 @@ window.BANK = [
     ],
     "familjTidigare": [
       "Omvandla Celsius till kelvin"
+    ],
+    "rättSvar273": [
+      291.0,
+      423.0,
+      248.0,
+      753.0
     ]
   },
   {
@@ -72503,7 +72504,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En tät, sfärisk och lättöjbar ballong har radien 12,0 cm vid 20,0 °C. Den värms till 35,0 °C medan trycket är konstant. Anta att ballongen förblir sfärisk.</p><p>Bestäm ballongens nya radie. Svara i cm. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant tryck gäller</p><div class=\"facit-matte\">\\[\\frac{V_{2}}{V_{1}}=\\frac{T_{2}}{T_{1}}\\]</div></div></div><div class=\"facit-stycke\"><p>Eftersom V∝r³ blir \\(r_2/r_1=(T_2/T_1)^{1/3}\\).</p></div><div class=\"facit-stycke\"><p>\\(r_2=12{,}0\\cdot(308{,}15/293{,}15)^{1/3}\\approx12{,}201\\) cm.</p></div></div><p class=\"facit-svar\">Svar: 12,20 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Vid konstant tryck gäller</p>\\[\\frac{V_{2}}{V_{1}}=\\frac{T_{2}}{T_{1}}\\]<p>Eftersom V∝r³ blir \\(r_2/r_1=(T_2/T_1)^{1/3}\\).</p><p>\\(r_2=12{,}0\\cdot(308{,}15/293{,}15)^{1/3}\\approx12{,}201\\) cm.</p><p class=\"facit-svar\">Svar: 12,20 cm.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "problemlösning",
@@ -72512,8 +72513,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__gaslag_och_sfarisk_geometri",
     "svarstyp": "numeriskt",
-    "rättSvar": 12.2,
-    "tolerans": 0,
+    "rättSvar": 12.2012784160973,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Koppla först volymförhållandet till radieförhållandet för en sfär.</p>",
     "traningsniva": 4,
@@ -72526,7 +72527,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Gaslag och sfärisk geometri"
-    ]
+    ],
+    "rättSvar273": 12.2013797683021
   },
   {
     "id": "6.137",
@@ -72565,8 +72567,8 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(4/0/0)",
-    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 90 K till grader Celsius. Svara i °C. Svara med ett heltal.</li><li>Omvandla 350 K till grader Celsius. Svara i °C. Svara med ett heltal.</li><li>Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 1500 K till grader Celsius. Svara i °C. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=90-273{,}15=-183{,}15\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -183 °C.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=350-273{,}15=76{,}85\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 77 °C.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=0-273{,}15=-273{,}15\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -273,15 °C.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=1500-273{,}15=1226{,}85\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1227 °C.</p></div></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "t": "<ol type=\"a\"><li>Omvandla 90 K till grader Celsius. Svara i °C. Svara med ett heltal.</li><li>Omvandla 350 K till grader Celsius. Svara i °C. Svara med ett heltal.</li><li>Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 1500 K till grader Celsius. Svara i °C. Svara med ett heltal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p>\\[t=90-273{,}15=-183{,}15\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: -183 °C.</p><p><strong>b)</strong></p>\\[t=350-273{,}15=76{,}85\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: 77 °C.</p><p><strong>c)</strong></p>\\[t=0-273{,}15=-273{,}15\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: -273,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p><p><strong>d)</strong></p>\\[t=1500-273{,}15=1226{,}85\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: 1227 °C.</p></div>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -72574,16 +72576,16 @@ window.BANK = [
     "familjNyckel": "gaslagen__omvandla_kelvin_till_celsius",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -183,
-      77,
+      -183.15,
+      76.85,
       -273.15,
-      1227
+      1226.85
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.5,
+      0.5,
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "ledtrad": "<p>Subtrahera 273,15.</p>",
@@ -72619,7 +72621,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Omvandla 90 K till grader Celsius. Svara i °C. Svara med ett heltal.",
         "t": "<p>Omvandla 90 K till grader Celsius. Svara i °C. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=90-273{,}15=-183{,}15\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -183 °C.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[t=90-273{,}15=-183{,}15\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: -183 °C.</p></div>",
         "ledtrad": "<p>Subtrahera 273,15.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -72635,7 +72637,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Omvandla 350 K till grader Celsius. Svara i °C. Svara med ett heltal.",
         "t": "<p>Omvandla 350 K till grader Celsius. Svara i °C. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=350-273{,}15=76{,}85\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 77 °C.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[t=350-273{,}15=76{,}85\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: 77 °C.</p></div>",
         "ledtrad": "<p>Subtrahera 273,15.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -72651,7 +72653,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=0-273{,}15=-273{,}15\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -273,15 °C.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[t=0-273{,}15=-273{,}15\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: -273,15 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
         "ledtrad": "<p>0 K är absoluta nollpunkten.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -72667,7 +72669,7 @@ window.BANK = [
         "etikett": "d",
         "fraga": "Omvandla 1500 K till grader Celsius. Svara i °C. Svara med ett heltal.",
         "t": "<p>Omvandla 1500 K till grader Celsius. Svara i °C. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=1500-273{,}15=1226{,}85\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1227 °C.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[t=1500-273{,}15=1226{,}85\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: 1227 °C.</p></div>",
         "ledtrad": "<p>Subtrahera 273,15.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -72684,10 +72686,10 @@ window.BANK = [
       "Omvandla kelvin till Celsius"
     ],
     "rättSvar273": [
-      null,
-      null,
-      -273,
-      null
+      -183.0,
+      77.0,
+      -273.0,
+      1227.0
     ]
   },
   {
@@ -104555,7 +104557,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=25{,}0+273{,}15=298{,}15\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 298,15 K.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[T=25{,}0+273{,}15=298{,}15\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 298,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -104563,7 +104565,7 @@ window.BANK = [
     "familjNyckel": "gaslagen__omvandla_celsius_till_kelvin",
     "svarstyp": "numeriskt",
     "rättSvar": 298.15,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -104577,7 +104579,7 @@ window.BANK = [
     "familjTidigare": [
       "Omvandla Celsius till kelvin"
     ],
-    "rättSvar273": 298
+    "rättSvar273": 298.0
   },
   {
     "id": "6.146",
@@ -104586,15 +104588,15 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Omvandla 350 K till grader Celsius. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=350-273{,}15=76{,}85\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 76,9 °C.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[t=350-273{,}15=76{,}85\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: 76,9 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__omvandla_kelvin_till_celsius",
     "svarstyp": "numeriskt",
-    "rättSvar": 76.9,
-    "tolerans": 0,
+    "rättSvar": 76.85,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -104608,7 +104610,7 @@ window.BANK = [
     "familjTidigare": [
       "Omvandla kelvin till Celsius"
     ],
-    "rättSvar273": 77
+    "rättSvar273": 77.0
   },
   {
     "id": "6.147",
@@ -107023,15 +107025,15 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En gas värms från 20,0 °C till 80,0 °C.</p><p>Bestäm förändringsfaktorn T₂/T₁ för den absoluta temperaturen. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Temperaturkvoter ska bildas i kelvin.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{T_{2}}{T_{1}}=\\frac{353{,}15}{293{,}15}\\approx 1{,}20467\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,20.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturkvoter ska bildas i kelvin.</p>\\[\\frac{T_{2}}{T_{1}}=\\frac{353{,}15}{293{,}15}\\approx 1{,}20467\\]<p class=\"facit-svar\">Svar: 1,20.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__absolut_temperatur_och_forandringsfaktor",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.2,
-    "tolerans": 0,
+    "rättSvar": 1.20467337540508,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -107044,7 +107046,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Absolut temperatur och förändringsfaktor"
-    ]
+    ],
+    "rättSvar273": 1.20477815699659
   },
   {
     "id": "6.149",
@@ -121265,15 +121268,15 @@ window.BANK = [
     "typ": "tryck och absolut temperatur",
     "poang": "(1/0/0)",
     "t": "<p>En styv, sluten tank innehåller gas vid det absoluta trycket 8,00 MPa och temperaturen 10,0 °C. Gasen värms till 100 °C och volymen är konstant.</p><p>Bestäm det nya absoluta trycket. Svara i MPa. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">T₁=283,15 K och</p><div class=\"facit-matte\">\\[T_{2}=373{,}15\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym gäller</p><div class=\"facit-matte\">\\[p_{2}=\\frac{p_{1} T_{2}}{T_{1}}=\\frac{8{,}00\\cdot 373{,}15}{283{,}15}\\approx 10{,}5428\\, \\mathrm{MPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 10,54 MPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gasmängden och volymen är konstanta. Temperaturerna är \\(10+273{,}15=283{,}15\\,\\mathrm K\\) och \\(100+273{,}15=373{,}15\\,\\mathrm K\\).</p>\\[p_2=p_1\\frac{T_2}{T_1}\\]\\[p_2=8{,}00\\cdot\\frac{373{,}15}{283{,}15}\\approx10{,}5428\\,\\mathrm{MPa}.\\]<p><strong>Svar:</strong> 10,54 MPa.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 10.54,
-    "tolerans": 0,
+    "rättSvar": 10.5428218258873,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121286,7 +121289,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tryck och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 10.5441696113074
   },
   {
     "id": "6.215",
@@ -121296,15 +121300,15 @@ window.BANK = [
     "typ": "tryck och absolut temperatur",
     "poang": "(1/0/0)",
     "t": "<p>En styv, sluten behållare innehåller gas vid det absoluta trycket 240 kPa och temperaturen 20,0 °C. Gasen kyls till −25,0 °C.</p><p>Bestäm det nya absoluta trycket. Svara i kPa. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">T₁=293,15 K och</p><div class=\"facit-matte\">\\[T_{2}=248{,}15\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym gäller</p><div class=\"facit-matte\">\\[p_{2}=\\frac{240\\cdot 248{,}15}{293{,}15}\\approx 203{,}159\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 203 kPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">T₁=293,15 K och</p>\\[T_{2}=248{,}15\\, \\mathrm{K}\\]<p class=\"facit-metod\">Vid konstant volym gäller</p>\\[p_{2}=\\frac{240\\cdot 248{,}15}{293{,}15}\\approx 203{,}159\\, \\mathrm{kPa}\\]<p class=\"facit-svar\">Svar: 203 kPa.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 203,
-    "tolerans": 0,
+    "rättSvar": 203.158792427085,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121317,7 +121321,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tryck och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 203.139931740614
   },
   {
     "id": "6.216",
@@ -121327,15 +121332,15 @@ window.BANK = [
     "typ": "volym och absolut temperatur",
     "poang": "(1/0/0)",
     "t": "<p>En instängd gas har volymen 47,0 cm³ vid 100 °C. Gasen kyls till 22,0 °C medan trycket är oförändrat.</p><p>Bestäm den nya volymen. Svara i cm³. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">T₁=373,15 K och</p><div class=\"facit-matte\">\\[T_{2}=295{,}15\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant tryck gäller</p><div class=\"facit-matte\">\\[V_{2}=\\frac{47{,}0\\cdot 295{,}15}{373{,}15}\\approx 37{,}1755\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 37,2 cm³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">T₁=373,15 K och</p>\\[T_{2}=295{,}15\\, \\mathrm{K}\\]<p class=\"facit-metod\">Vid konstant tryck gäller</p>\\[V_{2}=\\frac{47{,}0\\cdot 295{,}15}{373{,}15}\\approx 37{,}1755\\, \\mathrm{cm^3}\\]<p class=\"facit-svar\">Svar: 37,2 cm³.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__volym_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 37.2,
-    "tolerans": 0,
+    "rättSvar": 37.1755326276296,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121348,7 +121353,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Volym och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 37.171581769437
   },
   {
     "id": "6.217",
@@ -121358,15 +121364,15 @@ window.BANK = [
     "typ": "tryck och absolut temperatur",
     "poang": "(1/0/0)",
     "t": "<p>En torr och styv flaska korkas igen vid 17,0 °C när det absoluta trycket är 1010 mbar. Flaskan värms därefter i kokande vatten tills gasen är 100 °C. Volymen är konstant.</p><p>Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>T₁=290,15 K och T₂=373,15 K. p₂=1010·373,15/290,15≈1298,9 mbar=1,2989 bar.</p></div></div><p class=\"facit-svar\">Svar: 1,30 bar.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>T₁=290,15 K och T₂=373,15 K. p₂=1010·373,15/290,15≈1298,9 mbar=1,2989 bar.</p><p class=\"facit-svar\">Svar: 1,30 bar.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.3,
-    "tolerans": 0,
+    "rättSvar": 1.29891952438394,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121379,7 +121385,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tryck och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 1.29906896551724
   },
   {
     "id": "6.218",
@@ -121389,15 +121396,15 @@ window.BANK = [
     "typ": "volymökning vid uppvärmning",
     "poang": "(2/0/0)",
     "t": "<p>En cylinder med lättrörlig kolv innehåller 75,0 cm³ gas vid 18,0 °C. Gasen värms till 100 °C medan trycket är konstant.</p><p>Bestäm volymökningen. Svara i cm³. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=\\frac{75{,}0\\cdot 373{,}15}{291{,}15}\\approx 96{,}1231\\, \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymökningen är</p><div class=\"facit-matte\">\\[\\Delta V=96{,}1231-75{,}0\\approx 21{,}1231\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 21,1 cm³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[V_{2}=\\frac{75{,}0\\cdot 373{,}15}{291{,}15}\\approx 96{,}1231\\, \\mathrm{cm^3}\\]<p class=\"facit-metod\">Volymökningen är</p>\\[\\Delta V=96{,}1231-75{,}0\\approx 21{,}1231\\, \\mathrm{cm^3}\\]<p class=\"facit-svar\">Svar: 21,1 cm³.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__volymokning_vid_uppvarmning",
     "svarstyp": "numeriskt",
-    "rättSvar": 21.1,
-    "tolerans": 0,
+    "rättSvar": 21.1231324059763,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121410,7 +121417,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Volymökning vid uppvärmning"
-    ]
+    ],
+    "rättSvar273": 21.1340206185567
   },
   {
     "id": "6.219",
@@ -121420,15 +121428,15 @@ window.BANK = [
     "typ": "tryck och absolut temperatur",
     "poang": "(1/0/0)",
     "t": "<p>En styv gasbehållare innehåller gas vid det absoluta trycket 6,40 MPa och temperaturen 20,0 °C. Vid en brand värms gasen till 250 °C. Anta att behållaren inte ändrar volym.</p><p>Bestäm det nya absoluta trycket. Svara i MPa. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">T₁=293,15 K och</p><div class=\"facit-matte\">\\[T_{2}=523{,}15\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym blir</p><div class=\"facit-matte\">\\[p_{2}=\\frac{6{,}40\\cdot 523{,}15}{293{,}15}\\approx 11{,}421\\, \\mathrm{MPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 11,4 MPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">T₁=293,15 K och</p>\\[T_{2}=523{,}15\\, \\mathrm{K}\\]<p class=\"facit-metod\">Vid konstant volym blir</p>\\[p_{2}=\\frac{6{,}40\\cdot 523{,}15}{293{,}15}\\approx 11{,}421\\, \\mathrm{MPa}\\]<p class=\"facit-svar\">Svar: 11,4 MPa.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 11.4,
-    "tolerans": 0,
+    "rättSvar": 11.4213201432714,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121441,7 +121449,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tryck och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 11.4238907849829
   },
   {
     "id": "6.220",
@@ -121535,15 +121544,15 @@ window.BANK = [
     "typ": "tryck och absolut temperatur",
     "poang": "(1/0/0)",
     "t": "<p>Gas i en styv halogenlampa har det absoluta trycket 115 kPa vid 20,0 °C när lampan är släckt. När lampan är tänd är gasens temperatur 70,0 °C.</p><p>Bestäm gasens nya absoluta tryck. Svara i kPa. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">T₁=293,15 K och</p><div class=\"facit-matte\">\\[T_{2}=343{,}15\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym gäller</p><div class=\"facit-matte\">\\[p_{2}=\\frac{115\\cdot 343{,}15}{293{,}15}\\approx 134{,}615\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 135 kPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">T₁=293,15 K och</p>\\[T_{2}=343{,}15\\, \\mathrm{K}\\]<p class=\"facit-metod\">Vid konstant volym gäller</p>\\[p_{2}=\\frac{115\\cdot 343{,}15}{293{,}15}\\approx 134{,}615\\, \\mathrm{kPa}\\]<p class=\"facit-svar\">Svar: 135 kPa.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 135,
-    "tolerans": 0,
+    "rättSvar": 134.614531809654,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121556,7 +121565,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tryck och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 134.62457337884
   },
   {
     "id": "6.158",
@@ -121566,15 +121576,15 @@ window.BANK = [
     "typ": "temperatur vid ändrat tryck",
     "poang": "(1/0/0)",
     "t": "<p>En styv metalldosa tillsluts när gasen har temperaturen 20,0 °C. Dosen värms tills det absoluta trycket är dubbelt så stort. Gasmängd och volym är konstanta.</p><p>Bestäm sluttemperaturen i grader Celsius. Svara i °C. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant volym är p/T konstant.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dubbelt absoluttryck kräver</p><div class=\"facit-matte\">\\[T_{2}=2 T_{1}=2\\cdot 293{,}15=586{,}30\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><p>Det motsvarar 313,15 °C.</p></div></div><p class=\"facit-svar\">Svar: 313 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant volym är p/T konstant.</p><p class=\"facit-metod\">Dubbelt absoluttryck kräver</p>\\[T_{2}=2 T_{1}=2\\cdot 293{,}15=586{,}30\\, \\mathrm{K}\\]<p>Det motsvarar 313,15 °C.</p><p class=\"facit-svar\">Svar: 313 °C.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__temperatur_vid_andrat_tryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 313,
-    "tolerans": 0,
+    "rättSvar": 313.15,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121586,7 +121596,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Temperatur vid ändrat tryck"
-    ]
+    ],
+    "rättSvar273": 313.0
   },
   {
     "id": "6.159",
@@ -121656,15 +121667,15 @@ window.BANK = [
     "typ": "temperatur vid ändrad volym",
     "poang": "(1/0/0)",
     "t": "<p>En bestämd gasmängd har temperaturen 10,0 °C. Den värms vid konstant tryck tills volymen är dubbelt så stor.</p><p>Bestäm sluttemperaturen i grader Celsius. Svara i °C. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant tryck gäller V/T=konstant.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dubbla volymen kräver</p><div class=\"facit-matte\">\\[T_{2}=2 T_{1}=2\\cdot 283{,}15=566{,}30 K=293{,}15\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 293 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant tryck gäller V/T=konstant.</p><p class=\"facit-metod\">Dubbla volymen kräver</p>\\[\\begin{gathered}T_2=2T_1=2\\cdot283{,}15\\\\=566{,}30\\,\\mathrm K\\end{gathered}\\]\\[t_2=566{,}30-273{,}15=293{,}15\\,{}^\\circ\\mathrm C\\]<p class=\"facit-svar\">Svar: 293 °C.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__temperatur_vid_andrad_volym",
     "svarstyp": "numeriskt",
-    "rättSvar": 293,
-    "tolerans": 0,
+    "rättSvar": 293.15,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121676,7 +121687,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Temperatur vid ändrad volym"
-    ]
+    ],
+    "rättSvar273": 293.0
   },
   {
     "id": "6.161",
@@ -121686,15 +121698,15 @@ window.BANK = [
     "typ": "däcktemperatur från tryck",
     "poang": "(2/0/0)",
     "t": "<p>Det absoluta trycket i ett bildäck är 290 kPa vid 12,0 °C. Efter körning är det absoluta trycket 320 kPa. Däckets volym och gasmängd antas oförändrade.</p><p>Bestäm den nya temperaturen i grader Celsius. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym gäller</p><div class=\"facit-matte\">\\[T_{2}=\\frac{T_{1} p_{2}}{p_{1}}=\\frac{285{,}15\\cdot 320}{290}\\approx 314{,}648\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><p>Det motsvarar 41,498 °C.</p></div></div><p class=\"facit-svar\">Svar: 41,5 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Vid konstant volym gäller</p>\\[T_{2}=\\frac{T_{1} p_{2}}{p_{1}}=\\frac{285{,}15\\cdot 320}{290}\\approx 314{,}648\\, \\mathrm{K}\\]<p>Det motsvarar 41,498 °C.</p><p class=\"facit-svar\">Svar: 41,5 °C.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__dacktemperatur_fran_tryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 41.5,
-    "tolerans": 0,
+    "rättSvar": 41.498275862069,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121706,7 +121718,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Däcktemperatur från tryck"
-    ]
+    ],
+    "rättSvar273": 41.4827586206897
   },
   {
     "id": "6.162",
@@ -121716,15 +121729,15 @@ window.BANK = [
     "typ": "övertryck vid temperaturändring",
     "poang": "(2/0/0)",
     "t": "<p>En däckmanometer visar övertrycket 270 kPa när däckets temperatur är 50,0 °C. Däcket kyls till 5,00 °C. Däckets volym är oförändrad och lufttrycket utanför är hela tiden 101,3 kPa.</p><p>Bestäm manometerns nya visning. Svara i kPa. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Startens absoluttryck är 270+101,3=371,3 kPa. p₂,abs=371,3·278,15/323,15≈319,59 kPa.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Det nya övertrycket är</p><div class=\"facit-matte\">\\[319{,}59-101{,}3\\approx 218{,}29\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 218 kPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startens absoluttryck är 270+101,3=371,3 kPa. p₂,abs=371,3·278,15/323,15≈319,59 kPa.</p><p class=\"facit-metod\">Det nya övertrycket är</p>\\[319{,}59-101{,}3\\approx 218{,}29\\, \\mathrm{kPa}\\]<p class=\"facit-svar\">Svar: 218 kPa.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__overtryck_vid_temperaturandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 218,
-    "tolerans": 0,
+    "rättSvar": 218.294909484759,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121736,7 +121749,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Övertryck vid temperaturändring"
-    ]
+    ],
+    "rättSvar273": 218.270897832817
   },
   {
     "id": "6.163",
@@ -121746,15 +121760,15 @@ window.BANK = [
     "typ": "procentuell tryckändring",
     "poang": "(1/0/0)",
     "t": "<p>En sluten flygplanskabin behandlas som en styv behållare. Temperaturen höjs från 18,0 °C till 24,0 °C medan gasmängden och volymen är oförändrade.</p><p>Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant volym är p∝T.</p></div><div class=\"facit-stycke\"><p>Tryckfaktorn är 297,15/291,15≈1,02061, vilket motsvarar en ökning med cirka 2,061 %.</p></div></div><p class=\"facit-svar\">Svar: 2,1 %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant volym är p∝T.</p><p>Tryckfaktorn är 297,15/291,15≈1,02061, vilket motsvarar en ökning med cirka 2,061 %.</p><p class=\"facit-svar\">Svar: 2,1 %.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__procentuell_tryckandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.1,
-    "tolerans": 0,
+    "rättSvar": 2.0607934054611,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121766,7 +121780,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Procentuell tryckändring"
-    ]
+    ],
+    "rättSvar273": 2.06185567010309
   },
   {
     "id": "6.164",
@@ -121776,15 +121791,15 @@ window.BANK = [
     "typ": "temperatur vid procentuell volymändring",
     "poang": "(2/0/0)",
     "t": "<p>En bestämd gasmängd har temperaturen 20,0 °C. Den värms vid konstant tryck tills volymen har ökat med 60,0 %.</p><p>Bestäm sluttemperaturen i grader Celsius. Svara i °C. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymfaktorn är 1,60.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant tryck får kelvintemperaturen samma faktor:</p><div class=\"facit-matte\">\\[T_{2}=1{,}60\\cdot 293{,}15=469{,}04 K=195{,}89\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 196 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Volymfaktorn är 1,60.</p><p class=\"facit-metod\">Vid konstant tryck får kelvintemperaturen samma faktor:</p>\\[T_2=1{,}60\\cdot293{,}15=469{,}04\\,\\mathrm K\\]\\[t_2=469{,}04-273{,}15=195{,}89\\,{}^\\circ\\mathrm C\\]<p class=\"facit-svar\">Svar: 196 °C.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__temperatur_vid_procentuell_volymandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 196,
-    "tolerans": 0,
+    "rättSvar": 195.89,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121796,7 +121811,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Temperatur vid procentuell volymändring"
-    ]
+    ],
+    "rättSvar273": 195.8
   },
   {
     "id": "6.165",
@@ -121806,7 +121822,7 @@ window.BANK = [
     "typ": "temperaturgräns från övertryck",
     "poang": "(2/0/0)",
     "t": "<p>En styv glasballong tillsluts vid 22,0 °C när lufttrycket både inuti och utanför är 1040 mbar. Ballongen tål högst övertrycket 500 mbar. Omgivningstrycket antas förbli 1040 mbar.</p><p>Bestäm den högsta tillåtna gastemperaturen i grader Celsius. Svara i °C. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Det högsta absoluta inre trycket är</p><div class=\"facit-matte\">\\[1040+500=1540\\, \\mathrm{mbar}\\]</div></div></div><div class=\"facit-stycke\"><p>Vid konstant volym blir T₂=295,15·1540/1040≈437,05 K, vilket är cirka 163,90 °C.</p></div></div><p class=\"facit-svar\">Svar: 164 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Det högsta absoluta inre trycket är</p>\\[1040+500=1540\\, \\mathrm{mbar}\\]<p>Vid konstant volym blir T₂=295,15·1540/1040≈437,05 K, vilket är cirka 163,90 °C.</p><p class=\"facit-svar\">Svar: 164 °C.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "modellering",
@@ -121814,8 +121830,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__temperaturgrans_fran_overtryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 164,
-    "tolerans": 0,
+    "rättSvar": 163.899038461538,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121827,7 +121843,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Temperaturgräns från övertryck"
-    ]
+    ],
+    "rättSvar273": 163.826923076923
   },
   {
     "id": "6.166",
@@ -121837,15 +121854,15 @@ window.BANK = [
     "typ": "tryck och temperatur vid konstant volym",
     "poang": "(2/0/0)",
     "t": "<p>En dykflaska fylldes till det absoluta trycket 204 bar vid 29,0 °C. På djupet visar flaskan 191 bar. Flaskan är stel och så lite luft har använts att gasmängden kan antas vara oförändrad.</p><p>Bestäm gasens temperatur på djupet. Svara i °C. Avrunda till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym gäller</p><div class=\"facit-matte\">\\[\\frac{p_{1}}{T_{1}}=\\frac{p_{2}}{T_{2}}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[T_{2}=\\frac{302{,}15\\cdot 191}{204}\\approx 282{,}896 K=9{,}746\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 9,7 °C.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Volymen och gasmängden är konstanta. Starttemperaturen är \\(29+273{,}15=302{,}15\\,\\mathrm K\\).</p>\\[T_2=T_1\\frac{p_2}{p_1}\\]\\[T_2=302{,}15\\cdot\\frac{191}{204}\\approx282{,}895\\,\\mathrm K.\\]<p>Dra bort 273,15 för temperaturen i Celsius.</p>\\[t_2=T_2-273{,}15\\approx9{,}745\\,{}^\\circ\\mathrm C.\\]<p><strong>Svar:</strong> 9,7 °C.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__tryck_och_temperatur_vid_konstant_volym",
     "svarstyp": "numeriskt",
-    "rättSvar": 9.7,
-    "tolerans": 0,
+    "rättSvar": 9.74534313725491,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121858,7 +121875,7 @@ window.BANK = [
     "familjTidigare": [
       "Tryck och temperatur vid konstant volym"
     ],
-    "rättSvar273": 9.8
+    "rättSvar273": 9.75490196078431
   },
   {
     "id": "6.167",
@@ -121868,15 +121885,15 @@ window.BANK = [
     "typ": "tryck och temperatur vid konstant volym",
     "poang": "(2/0/0)",
     "t": "<p>En stel glaskula innehåller helium. Kulan värms från −33,0 °C till 100 °C. Volymen och gasmängden är oförändrade.</p><p>Bestäm tryckets procentuella ökning. Svara i %. Avrunda till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant volym är p proportionellt mot T.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Tryckfaktorn blir</p><div class=\"facit-matte\">\\[\\frac{373{,}15}{240{,}15}\\approx 1{,}5538\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ökningen är därför</p><div class=\"facit-matte\">\\[\\left(1{,}5538-1\\right)\\cdot 100\\approx 55{,}4\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 55,4 %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant volym är p proportionellt mot T.</p><p class=\"facit-metod\">Tryckfaktorn blir</p>\\[\\frac{373{,}15}{240{,}15}\\approx 1{,}5538\\]<p class=\"facit-metod\">Ökningen är därför</p>\\[\\left(1{,}5538-1\\right)\\cdot 100\\approx 55{,}4\\, \\%\\]<p class=\"facit-svar\">Svar: 55,4 %.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__tryck_och_temperatur_vid_konstant_volym",
     "svarstyp": "numeriskt",
-    "rättSvar": 55.4,
-    "tolerans": 0,
+    "rättSvar": 55.3820528836144,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121888,7 +121905,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tryck och temperatur vid konstant volym"
-    ]
+    ],
+    "rättSvar273": 55.4166666666667
   },
   {
     "id": "6.168",
@@ -121928,7 +121946,7 @@ window.BANK = [
     "typ": "gastryck och säkerhetsventil",
     "poang": "(0/2/0)",
     "t": "<p>En sluten värmepanna innehåller luft vid 18,0 °C och det absoluta trycket 101,3 kPa. En rund säkerhetsventil med diametern 1,50 cm öppnas när den utåtriktade nettokraften på ventilen är 10,0 N. Lufttrycket utanför är 101,3 kPa och pannans volym är konstant.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Ventil i en värmepanna med gastryck under ventilen och lufttryck ovanför\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M155 260V120h310v140\" fill=\"#DDE7EF\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"155\" y=\"120\" width=\"310\" height=\"140\" fill=\"#F2D8B5\" opacity=\"0.58\"/><circle cx=\"310\" cy=\"120\" r=\"55\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"3\"/><line x1=\"255\" y1=\"120\" x2=\"365\" y2=\"120\" stroke=\"#354552\" stroke-width=\"2\"/><path d=\"M310 187V135\" stroke=\"#2E7D5B\" stroke-width=\"4\"/><path d=\"M310 135l-8 14h16z\" fill=\"#2E7D5B\"/><path d=\"M310 43V98\" stroke=\"#C65D36\" stroke-width=\"4\"/><path d=\"M310 98l-8-14h16z\" fill=\"#C65D36\"/><text x=\"326\" y=\"173\">kraft från gasen</text><text x=\"326\" y=\"61\">lufttryck</text><text x=\"310\" y=\"292\" text-anchor=\"middle\">ventildiameter 1,50 cm</text><text x=\"310\" y=\"225\" text-anchor=\"middle\" fill=\"#8A5D22\">instängd luft</text></g></svg></span><p>Bestäm temperaturen när ventilen öppnas. Svara i °C. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ventilarean är</p><div class=\"facit-matte\">\\[A=\\pi \\left(\\frac{0{,}0150}{2}\\right)^{2}\\approx 1{,}767\\cdot 10^{-4}\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><p>Nettokraften 10,0 N kräver övertrycket Δp = F/A ≈ 56,59 kPa, alltså p₂ ≈ 157,89 kPa absolut.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym gäller</p><div class=\"facit-matte\">\\[T_{2}=\\frac{291{,}15\\cdot 157{,}89}{101{,}3}\\approx 453{,}79 K=180{,}64\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 181 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Ventilarean är</p>\\[A=\\pi \\left(\\frac{0{,}0150}{2}\\right)^{2}\\approx 1{,}767\\cdot 10^{-4}\\, \\mathrm{m^2}\\]<p>Nettokraften 10,0 N kräver övertrycket Δp = F/A ≈ 56,59 kPa, alltså p₂ ≈ 157,89 kPa absolut.</p><p class=\"facit-metod\">Vid konstant volym gäller</p>\\[T_2=291{,}15\\cdot\\frac{p_2}{101{,}3}\\approx453{,}793\\,\\mathrm K\\]\\[t_2=T_2-273{,}15\\approx180{,}643\\,{}^\\circ\\mathrm C\\]<p class=\"facit-svar\">Svar: 181 °C.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "modellering",
@@ -121937,8 +121955,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__gastryck_och_sakerhetsventil",
     "svarstyp": "numeriskt",
-    "rättSvar": 181,
-    "tolerans": 0,
+    "rättSvar": 180.642840166565,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121950,7 +121968,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Gastryck och säkerhetsventil"
-    ]
+    ],
+    "rättSvar273": 180.55904684345
   },
   {
     "id": "6.170",
@@ -121960,7 +121979,7 @@ window.BANK = [
     "typ": "gastryck och nettokraft",
     "poang": "(0/2/0)",
     "t": "<p>En sluten kubisk låda har volymen 6,15·10⁻² m³. Luften i lådan har först samma tryck som omgivningen, 101,3 kPa, och temperaturen 15,0 °C. Lådan värms till 165 °C utan att ändra volym. Utomhustrycket är oförändrat.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Sluten kubisk låda med lufttryck inifrån och utifrån\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M205 105h190v150H205z\" fill=\"#E7EBEF\" stroke=\"#354552\" stroke-width=\"3\"/><path d=\"M205 105l58-42h190l-58 42zM395 105l58-42v150l-58 42z\" fill=\"#D5DEE6\" stroke=\"#354552\" stroke-width=\"3\"/><text x=\"300\" y=\"232\" text-anchor=\"middle\">V = 6,15·10⁻² m³</text><path d=\"M300 192V115\" stroke=\"#2E7D5B\" stroke-width=\"4\"/><path d=\"M300 115l-8 14h16z\" fill=\"#2E7D5B\"/><path d=\"M300 28V83\" stroke=\"#C65D36\" stroke-width=\"4\"/><path d=\"M300 83l-8-14h16z\" fill=\"#C65D36\"/><text x=\"320\" y=\"142\">p inuti</text><text x=\"320\" y=\"48\">p utanför</text></g></svg></span><p>Bestäm den utåtriktade nettokraften på en av lådans sidor. Svara i kN. Avrunda till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kubens sidlängd är \\(a=V^{1/3}\\) och sidans area \\(A=V^{2/3}\\approx0{,}1558\\) m².</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Det nya trycket är</p><div class=\"facit-matte\">\\[p_{2}=\\frac{101{,}3\\cdot 438{,}15}{288{,}15}\\approx 154{,}04\\, \\mathrm{kPa}\\]</div></div></div><div class=\"facit-stycke\"><p>Nettokraften blir (p₂−p₀)A ≈ 52,74·10³·0,1558 ≈ 8,22 kN utåt.</p></div></div><p class=\"facit-svar\">Svar: 8,22 kN.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kubens sidlängd är \\(a=V^{1/3}\\) och sidans area \\(A=V^{2/3}\\approx0{,}1558\\) m².</p><p class=\"facit-metod\">Det nya trycket är</p>\\[p_{2}=\\frac{101{,}3\\cdot 438{,}15}{288{,}15}\\approx 154{,}04\\, \\mathrm{kPa}\\]<p>Nettokraften blir (p₂−p₀)A ≈ 52,74·10³·0,1558 ≈ 8,22 kN utåt.</p><p class=\"facit-svar\">Svar: 8,22 kN.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
@@ -121969,8 +121988,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__gastryck_och_nettokraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.22,
-    "tolerans": 0,
+    "rättSvar": 8.21609573390066,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -121982,7 +122001,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Gastryck och nettokraft"
-    ]
+    ],
+    "rättSvar273": 8.22037495042873
   },
   {
     "id": "6.171",
@@ -121992,15 +122012,15 @@ window.BANK = [
     "typ": "volym och temperatur vid konstant tryck",
     "poang": "(1/0/0)",
     "t": "<p>En tunn och flexibel ballong innehåller 3,00 liter luft vid 0,0 °C. Ballongen värms till 37,0 °C medan trycket är konstant.</p><p>Bestäm ballongens nya volym. Svara i liter. Avrunda till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant tryck gäller</p><div class=\"facit-matte\">\\[\\frac{V_{1}}{T_{1}}=\\frac{V_{2}}{T_{2}}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=\\frac{3{,}00\\cdot 310{,}15}{273{,}15}\\approx 3{,}406\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,41 liter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Vid konstant tryck gäller</p>\\[\\frac{V_{1}}{T_{1}}=\\frac{V_{2}}{T_{2}}\\]\\[V_{2}=\\frac{3{,}00\\cdot 310{,}15}{273{,}15}\\approx 3{,}406\\, \\mathrm{liter}\\]<p class=\"facit-svar\">Svar: 3,41 liter.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__volym_och_temperatur_vid_konstant_tryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.41,
-    "tolerans": 0,
+    "rättSvar": 3.40637012630423,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122012,7 +122032,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Volym och temperatur vid konstant tryck"
-    ]
+    ],
+    "rättSvar273": 3.40659340659341
   },
   {
     "id": "6.172",
@@ -122022,7 +122043,7 @@ window.BANK = [
     "typ": "kylning och tryckskillnad",
     "poang": "(0/2/0)",
     "t": "<p>En syltburk stängs vid 80,0 °C. Luftfickan under locket har då det absoluta trycket 101,3 kPa. Burken kyls till 20,0 °C utan att luftfickans volym ändras. Utanför burken är trycket fortfarande 101,3 kPa. Locket har diametern 12,0 cm.</p><span class=\"fig\"><svg width=\"620\" height=\"350\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 350\" role=\"img\" aria-label=\"Syltburk med luftficka under ett lock med diametern 12 centimeter\"><rect width=\"620\" height=\"350\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M210 110h200l-18 172H228z\" fill=\"#F3D9C4\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"195\" y=\"92\" width=\"230\" height=\"23\" rx=\"5\" fill=\"#C9CED4\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"235\" y=\"148\" width=\"150\" height=\"110\" rx=\"8\" fill=\"#B83A3A\" opacity=\"0.68\"/><text x=\"310\" y=\"207\" text-anchor=\"middle\" fill=\"white\">sylt</text><text x=\"335\" y=\"139\" text-anchor=\"middle\" font-size=\"15\">instängd luft</text><path d=\"M255 62V92\" stroke=\"#C65D36\" stroke-width=\"4\"/><path d=\"M255 92l-8-14h16z\" fill=\"#C65D36\"/><path d=\"M255 145V116\" stroke=\"#2E7D5B\" stroke-width=\"4\"/><path d=\"M255 116l-8 14h16z\" fill=\"#2E7D5B\"/><line x1=\"195\" y1=\"307\" x2=\"425\" y2=\"307\" stroke=\"#25313C\"/><line x1=\"195\" y1=\"299\" x2=\"195\" y2=\"315\" stroke=\"#25313C\"/><line x1=\"425\" y1=\"299\" x2=\"425\" y2=\"315\" stroke=\"#25313C\"/><text x=\"310\" y=\"329\" text-anchor=\"middle\">lockets diameter 12 cm</text></g></svg></span><p>Bestäm den minsta uppåtriktade kraft som behövs för att övervinna tryckskillnaden. Svara i N. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Trycket i burken blir</p><div class=\"facit-matte\">\\[p_{2}=\\frac{101{,}3\\cdot 293{,}15}{353{,}15}\\approx 84{,}09\\, \\mathrm{kPa}\\]</div></div></div><div class=\"facit-stycke\"><p>Tryckskillnaden är cirka 17,21 kPa.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lockets area är π·0,0600² ≈ 0,01131 m², så</p><div class=\"facit-matte\">\\[F=\\Delta p A\\approx 17\\,210\\cdot 0{,}01131\\approx 194{,}6\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 195 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Trycket i burken blir</p>\\[p_{2}=\\frac{101{,}3\\cdot 293{,}15}{353{,}15}\\approx 84{,}09\\, \\mathrm{kPa}\\]<p>Tryckskillnaden är cirka 17,21 kPa.</p><p class=\"facit-metod\">Lockets area är π·0,0600² ≈ 0,01131 m², så</p>\\[F=\\Delta p A\\approx 17\\,210\\cdot 0{,}01131\\approx 194{,}6\\, \\mathrm{N}\\]<p class=\"facit-svar\">Svar: 195 N.</p></div>",
     "familj": "Tryck, volym och temperatur",
     "formaga": [
       "modellering",
@@ -122031,8 +122052,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__kylning_och_tryckskillnad",
     "svarstyp": "numeriskt",
-    "rättSvar": 195,
-    "tolerans": 0,
+    "rättSvar": 194.649753743926,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122044,7 +122065,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Kylning och tryckskillnad"
-    ]
+    ],
+    "rättSvar273": 194.732466103874
   },
   {
     "id": "6.174",
@@ -122054,15 +122076,15 @@ window.BANK = [
     "typ": "kombinerade gaslagen",
     "poang": "(2/0/0)",
     "t": "<p>En instängd gas har volymen 150 cm³ vid 0,0 °C och det absoluta trycket 1013 mbar. Temperaturen höjs till 75,0 °C samtidigt som trycket ändras till 1540 mbar.</p><p>Bestäm gasens nya volym. Svara i cm³. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den kombinerade gaslagen ger</p><div class=\"facit-matte\">\\[V_{2}=150\\cdot \\left(\\frac{1013}{1540}\\right)\\cdot \\left(\\frac{348{,}15}{273{,}15}\\right)\\approx 125{,}76\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 126 cm³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Den kombinerade gaslagen ger</p>\\[\\begin{gathered}V_2=150\\cdot\\frac{1013}{1540}\\cdot\\frac{348{,}15}{273{,}15}\\\\\\approx125{,}761\\,\\mathrm{cm^3}\\end{gathered}\\]<p class=\"facit-svar\">Svar: 126 cm³.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__kombinerade_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 126,
-    "tolerans": 0,
+    "rättSvar": 125.76076723935,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122074,7 +122096,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Kombinerade gaslagen"
-    ]
+    ],
+    "rättSvar273": 125.77565291851
   },
   {
     "id": "6.288",
@@ -122114,15 +122137,15 @@ window.BANK = [
     "typ": "kombinerade gaslagen",
     "poang": "(2/0/0)",
     "t": "<p>En instängd ideal gas har volymen 1,20 m³ vid det absoluta trycket 100 kPa och temperaturen 27,0 °C. Gasen komprimeras till 0,600 m³ och värms samtidigt till 227 °C.</p><p>Bestäm gasens nya tryck. Svara i MPa. Avrunda till 3 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>p₂ = 100·(1,20/0,600)·(500,15/300,15) ≈ 333,3 kPa = 0,3333 MPa.</p></div></div><p class=\"facit-svar\">Svar: 0,333 MPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>p₂ = 100·(1,20/0,600)·(500,15/300,15) ≈ 333,3 kPa = 0,3333 MPa.</p><p class=\"facit-svar\">Svar: 0,333 MPa.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__kombinerade_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.333,
-    "tolerans": 0,
+    "rättSvar": 0.333266699983342,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122134,7 +122157,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Kombinerade gaslagen"
-    ]
+    ],
+    "rättSvar273": 0.333333333333333
   },
   {
     "id": "6.176",
@@ -122144,15 +122168,15 @@ window.BANK = [
     "typ": "kombinerade gaslagen med förändringsfaktorer",
     "poang": "(2/0/0)",
     "t": "<p>I en motor har luften först temperaturen 30,0 °C. Den komprimeras så att volymen minskar med 90,0 %, samtidigt som det absoluta trycket blir 20,0 gånger större. Gasmängden är oförändrad.</p><p>Bestäm sluttemperaturen. Svara i K. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Efter kompressionen är V₂ = 0,100V₁ och</p><div class=\"facit-matte\">\\[p_{2}=20{,}0 p_{1}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[\\frac{T_{2}}{T_{1}}=\\frac{\\left(p_{2} V_{2}\\right)}{p_{1} V_{1}}=20{,}0\\cdot 0{,}100=2{,}00\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T_{2}=2{,}00\\cdot 303{,}15\\approx 606{,}3\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 606 K.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Efter kompressionen är V₂ = 0,100V₁ och</p>\\[p_{2}=20{,}0 p_{1}\\]<p class=\"facit-metod\">Därför är</p>\\[\\frac{T_{2}}{T_{1}}=\\frac{\\left(p_{2} V_{2}\\right)}{p_{1} V_{1}}=20{,}0\\cdot 0{,}100=2{,}00\\]\\[T_{2}=2{,}00\\cdot 303{,}15\\approx 606{,}3\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 606 K.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__kombinerade_gaslagen_med_forandringsfaktorer",
     "svarstyp": "numeriskt",
-    "rättSvar": 606,
-    "tolerans": 0,
+    "rättSvar": 606.3,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122164,7 +122188,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Kombinerade gaslagen med förändringsfaktorer"
-    ]
+    ],
+    "rättSvar273": 606.0
   },
   {
     "id": "6.177",
@@ -122205,15 +122230,15 @@ window.BANK = [
     "typ": "kombinerade gaslagen",
     "poang": "(2/0/0)",
     "t": "<p>En instängd gas har volymen 61,5 liter, temperaturen 18,0 °C och det absoluta trycket 2,45 atm. Gasen komprimeras till 38,1 liter och värms till 56,0 °C.</p><p>Bestäm gasens nya tryck. Svara i atm. Avrunda till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>p₂ = 2,45·(61,5/38,1)·(329,15/291,15) ≈ 4,471 atm.</p></div></div><p class=\"facit-svar\">Svar: 4,47 atm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>p₂ = 2,45·(61,5/38,1)·(329,15/291,15) ≈ 4,471 atm.</p><p class=\"facit-svar\">Svar: 4,47 atm.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__kombinerade_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.47,
-    "tolerans": 0,
+    "rättSvar": 4.47088284173134,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122225,7 +122250,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Kombinerade gaslagen"
-    ]
+    ],
+    "rättSvar273": 4.47114890277891
   },
   {
     "id": "6.179",
@@ -122235,15 +122261,15 @@ window.BANK = [
     "typ": "kombinerade gaslagen",
     "poang": "(2/0/0)",
     "t": "<p>En instängd gas har volymen 3,50 m³ vid 0,0 °C och 1,00 atm. Trycket höjs till 3,20 atm och temperaturen till 38,0 °C.</p><p>Bestäm gasens nya volym. Svara i m³. Avrunda till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=3{,}50\\cdot \\left(\\frac{1{,}00}{3{,}20}\\right)\\cdot \\left(\\frac{311{,}15}{273{,}15}\\right)\\approx 1{,}246\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,25 m³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[V_{2}=3{,}50\\cdot \\left(\\frac{1{,}00}{3{,}20}\\right)\\cdot \\left(\\frac{311{,}15}{273{,}15}\\right)\\approx 1{,}246\\, \\mathrm{m^3}\\]<p class=\"facit-svar\">Svar: 1,25 m³.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__kombinerade_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.25,
-    "tolerans": 0,
+    "rättSvar": 1.24590998535603,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122255,7 +122281,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Kombinerade gaslagen"
-    ]
+    ],
+    "rättSvar273": 1.24599358974359
   },
   {
     "id": "6.180",
@@ -122265,15 +122292,15 @@ window.BANK = [
     "typ": "kombinerade gaslagen med förändringsfaktorer",
     "poang": "(2/0/0)",
     "t": "<p>I en motor har luften först temperaturen 20,0 °C och det absoluta trycket 100 kPa. Luften komprimeras tills en niondel av startvolymen återstår och trycket är 4,00 MPa.</p><p>Bestäm luftens sluttemperatur. Svara i K. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T_{2}=T_{1} \\left(\\frac{p_{2}}{p_{1}}\\right) \\left(\\frac{V_{2}}{V_{1}}\\right)=293{,}15\\cdot 40{,}0\\cdot \\left(\\frac{1}{9}\\right)\\approx 1302{,}9\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1303 K.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[T_2=T_1\\frac{p_2}{p_1}\\frac{V_2}{V_1}\\]\\[T_2=293{,}15\\cdot40{,}0\\cdot\\frac19\\approx1302{,}89\\,\\mathrm K\\]<p class=\"facit-svar\">Svar: 1303 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__kombinerade_gaslagen_med_forandringsfaktorer",
     "svarstyp": "numeriskt",
-    "rättSvar": 1303,
-    "tolerans": 0,
+    "rättSvar": 1302.88888888889,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122286,7 +122313,7 @@ window.BANK = [
     "familjTidigare": [
       "Kombinerade gaslagen med förändringsfaktorer"
     ],
-    "rättSvar273": 1302.0
+    "rättSvar273": 1302.22222222222
   },
   {
     "id": "6.181",
@@ -122500,7 +122527,7 @@ window.BANK = [
     "typ": "tolka p–v-diagram",
     "poang": "(0/2/0)",
     "t": "<p>En instängd gas har temperaturen 900 °C i startpunkten i p–V-diagrammet. Gasmängden är oförändrad.</p><span class=\"fig\"><svg viewBox=\"0 0 430 280\" width=\"430\" height=\"280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"p-V-diagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"232\" x2=\"406\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"58\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"160.4\" y1=\"232\" x2=\"160.4\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"160.4\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">100</text><line x1=\"262.7\" y1=\"232\" x2=\"262.7\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"262.7\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">200</text><line x1=\"365.1\" y1=\"232\" x2=\"365.1\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"365.1\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">300</text><line x1=\"52\" y1=\"172.0\" x2=\"58\" y2=\"172.0\" stroke=\"#2B2527\"/><text x=\"48\" y=\"176.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">1</text><line x1=\"52\" y1=\"112.0\" x2=\"58\" y2=\"112.0\" stroke=\"#2B2527\"/><text x=\"48\" y=\"116.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">2</text><line x1=\"52\" y1=\"52.0\" x2=\"58\" y2=\"52.0\" stroke=\"#2B2527\"/><text x=\"48\" y=\"56.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">3</text><text x=\"410\" y=\"272\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">V / cm³</text><text x=\"15\" y=\"16\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">p / atm</text><line x1=\"365.1\" y1=\"52.0\" x2=\"169.4\" y2=\"52.0\" stroke=\"#2A5D9E\" stroke-width=\"2.6\"/><polygon points=\"160.4,52.0 170.4,48.0 170.4,56.0\" fill=\"#2A5D9E\"/><circle cx=\"365.1\" cy=\"52.0\" r=\"4\" fill=\"#B43123\"/><text x=\"373.1\" y=\"44.0\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">start</text><circle cx=\"160.4\" cy=\"52.0\" r=\"4\" fill=\"#B43123\"/><text x=\"168.4\" y=\"44.0\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">slut</text></svg></span><p>Bestäm temperaturen i slutpunkten. Svara i °C. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För samma gasmängd är T proportionell mot pV.</p></div><div class=\"facit-stycke\"><p>Trycket är oförändrat och volymen minskar från 300 till 100 cm³, alltså till en tredjedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T_{2}=\\frac{1173{,}15}{3}\\approx 391{,}05 K=117{,}9\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 118 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>För samma gasmängd är T proportionell mot pV.</p><p>Trycket är oförändrat och volymen minskar från 300 till 100 cm³, alltså till en tredjedel.</p>\\[T_{2}=\\frac{1173{,}15}{3}\\approx 391{,}05 K=117{,}9\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: 118 °C.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "begrepp",
@@ -122508,8 +122535,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__tolka_pv_diagram",
     "svarstyp": "numeriskt",
-    "rättSvar": 118,
-    "tolerans": 0,
+    "rättSvar": 117.9,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122521,7 +122548,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tolka p–V-diagram"
-    ]
+    ],
+    "rättSvar273": 118.0
   },
   {
     "id": "6.185",
@@ -122562,7 +122590,7 @@ window.BANK = [
     "typ": "tolka p–v-diagram",
     "poang": "(0/2/0)",
     "t": "<p>En instängd gas har temperaturen 50,0 °C i startpunkten. Diagrammet visar en förändring vid konstant tryck där volymen minskar från 3V₀ till V₀.</p><span class=\"fig\"><svg viewBox=\"0 0 430 280\" width=\"430\" height=\"280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"p-V-diagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"232\" x2=\"406\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"58\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"160.4\" y1=\"232\" x2=\"160.4\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"160.4\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">V₀</text><line x1=\"262.7\" y1=\"232\" x2=\"262.7\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"262.7\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">2V₀</text><line x1=\"365.1\" y1=\"232\" x2=\"365.1\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"365.1\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">3V₀</text><line x1=\"52\" y1=\"92.0\" x2=\"58\" y2=\"92.0\" stroke=\"#2B2527\"/><text x=\"48\" y=\"96.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">200</text><text x=\"410\" y=\"272\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">V</text><text x=\"15\" y=\"16\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">p / kPa</text><line x1=\"365.1\" y1=\"92.0\" x2=\"169.4\" y2=\"92.0\" stroke=\"#2A5D9E\" stroke-width=\"2.6\"/><polygon points=\"160.4,92.0 170.4,88.0 170.4,96.0\" fill=\"#2A5D9E\"/><circle cx=\"365.1\" cy=\"92.0\" r=\"4\" fill=\"#B43123\"/><text x=\"373.1\" y=\"84.0\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">start</text><circle cx=\"160.4\" cy=\"92.0\" r=\"4\" fill=\"#B43123\"/><text x=\"168.4\" y=\"84.0\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">slut</text></svg></span><p>Bestäm sluttemperaturen. Svara i K. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant tryck gäller V/T = konstant.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">När volymen blir en tredjedel blir även den absoluta temperaturen en tredjedel:</p><div class=\"facit-matte\">\\[T_{2}=\\frac{323{,}15}{3}\\approx 107{,}72\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 108 K.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant tryck gäller V/T = konstant.</p><p class=\"facit-metod\">När volymen blir en tredjedel blir även den absoluta temperaturen en tredjedel:</p>\\[T_{2}=\\frac{323{,}15}{3}\\approx 107{,}72\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 108 K.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "begrepp",
@@ -122570,8 +122598,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__tolka_pv_diagram",
     "svarstyp": "numeriskt",
-    "rättSvar": 108,
-    "tolerans": 0,
+    "rättSvar": 107.716666666667,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122583,7 +122611,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Tolka p–V-diagram"
-    ]
+    ],
+    "rättSvar273": 107.666666666667
   },
   {
     "id": "6.187",
@@ -122593,7 +122622,7 @@ window.BANK = [
     "typ": "tolka p–v-diagram",
     "poang": "(0/2/0)",
     "t": "<p>En instängd gas har temperaturen 68,0 °C i tillstånd 1. Den går via tillstånd 2 till tillstånd 3 enligt p–V-diagrammet.</p><span class=\"fig\"><svg viewBox=\"0 0 430 280\" width=\"430\" height=\"280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"p-V-diagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"232\" x2=\"406\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"58\" y1=\"22\" x2=\"58\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"209.3\" y1=\"232\" x2=\"209.3\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"209.3\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">800</text><line x1=\"360.6\" y1=\"232\" x2=\"360.6\" y2=\"238\" stroke=\"#2B2527\"/><text x=\"360.6\" y=\"260\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">1600</text><line x1=\"52\" y1=\"138.7\" x2=\"58\" y2=\"138.7\" stroke=\"#2B2527\"/><text x=\"48\" y=\"142.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">2</text><line x1=\"52\" y1=\"45.3\" x2=\"58\" y2=\"45.3\" stroke=\"#2B2527\"/><text x=\"48\" y=\"49.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">4</text><text x=\"410\" y=\"272\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">V / cm³</text><text x=\"15\" y=\"16\" font-family=\"IBM Plex Mono\" font-size=\"12\" fill=\"#2B2527\">p / atm</text><line x1=\"209.3\" y1=\"45.3\" x2=\"351.6\" y2=\"45.3\" stroke=\"#2A5D9E\" stroke-width=\"2.6\"/><polygon points=\"360.6,45.3 350.6,49.3 350.6,41.3\" fill=\"#2A5D9E\"/><line x1=\"360.6\" y1=\"45.3\" x2=\"360.6\" y2=\"129.7\" stroke=\"#2A5D9E\" stroke-width=\"2.6\"/><polygon points=\"360.6,138.7 356.6,128.7 364.6,128.7\" fill=\"#2A5D9E\"/><circle cx=\"209.3\" cy=\"45.3\" r=\"4\" fill=\"#B43123\"/><text x=\"217.3\" y=\"37.3\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">1</text><circle cx=\"360.6\" cy=\"45.3\" r=\"4\" fill=\"#B43123\"/><text x=\"368.6\" y=\"37.3\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">2</text><circle cx=\"360.6\" cy=\"138.7\" r=\"4\" fill=\"#B43123\"/><text x=\"368.6\" y=\"130.7\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">3</text></svg></span><p>Bestäm temperaturen i tillstånd 3. Svara i °C. Avrunda till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För samma gasmängd är T proportionell mot pV.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I tillstånd 1 är pV = 4·800 och i tillstånd 3 är</p><div class=\"facit-matte\">\\[p V=2\\cdot 1600\\]</div></div></div><div class=\"facit-stycke\"><p>Produkterna är lika, så sluttemperaturen är samma som starttemperaturen.</p></div></div><p class=\"facit-svar\">Svar: 68,0 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>För samma gasmängd är T proportionell mot pV.</p><p class=\"facit-metod\">I tillstånd 1 är pV = 4·800 och i tillstånd 3 är</p>\\[p V=2\\cdot 1600\\]<p>Produkterna är lika, så sluttemperaturen är samma som starttemperaturen.</p><p class=\"facit-svar\">Svar: 68,0 °C.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "begrepp",
@@ -122601,8 +122630,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__tolka_pv_diagram",
     "svarstyp": "numeriskt",
-    "rättSvar": 68,
-    "tolerans": 0,
+    "rättSvar": 68.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122624,15 +122653,15 @@ window.BANK = [
     "typ": "väderballong och gaslagen",
     "poang": "(2/0/0)",
     "t": "<p>En sluten väderballong har volymen 4,00 m³, temperaturen 20,0 °C och trycket 101,3 kPa vid marken. Högre upp är volymen 12,0 m³ och temperaturen −10,0 °C.</p><p>Bestäm trycket i ballongen på den högre höjden. Svara i kPa. Avrunda till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{2}=101{,}3\\cdot \\left(\\frac{4{,}00}{12{,}0}\\right)\\cdot \\left(\\frac{263{,}15}{293{,}15}\\right)\\approx 30{,}31\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 30,3 kPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{gathered}p_2=101{,}3\\cdot\\frac4{12}\\cdot\\frac{263{,}15}{293{,}15}\\\\\\approx30{,}3111\\,\\mathrm{kPa}\\end{gathered}\\]<p class=\"facit-svar\">Svar: 30,3 kPa.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__vaderballong_och_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 30.3,
-    "tolerans": 0,
+    "rättSvar": 30.3110978452442,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122644,7 +122673,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Väderballong och gaslagen"
-    ]
+    ],
+    "rättSvar273": 30.3093287827076
   },
   {
     "id": "6.189",
@@ -122654,15 +122684,15 @@ window.BANK = [
     "typ": "kombinerade gaslagen med förändringsfaktorer",
     "poang": "(2/0/0)",
     "t": "<p>En instängd gas har från början temperaturen 20,0 °C, volymen V och trycket p. I sluttillståndet är volymen 1,60V och trycket 0,100p.</p><p>Bestäm gasens sluttemperatur. Svara i K. Avrunda till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{T_{2}}{T_{1}}=\\frac{\\left(p_{2} V_{2}\\right)}{p_{1} V_{1}}=0{,}100\\cdot 1{,}60=0{,}160\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T_{2}=0{,}160\\cdot 293{,}15\\approx 46{,}90\\, \\mathrm{K}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 46,9 K.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\frac{T_{2}}{T_{1}}=\\frac{\\left(p_{2} V_{2}\\right)}{p_{1} V_{1}}=0{,}100\\cdot 1{,}60=0{,}160\\]\\[T_{2}=0{,}160\\cdot 293{,}15\\approx 46{,}90\\, \\mathrm{K}\\]<p class=\"facit-svar\">Svar: 46,9 K.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__kombinerade_gaslagen_med_forandringsfaktorer",
     "svarstyp": "numeriskt",
-    "rättSvar": 46.9,
-    "tolerans": 0,
+    "rättSvar": 46.904,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122674,7 +122704,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Kombinerade gaslagen med förändringsfaktorer"
-    ]
+    ],
+    "rättSvar273": 46.88
   },
   {
     "id": "6.190",
@@ -122776,15 +122807,15 @@ window.BANK = [
     "typ": "gasbubbla med temperaturändring",
     "poang": "(2/0/0)",
     "t": "<p>En luftbubbla har volymen 1,00 cm³ på 20,0 m djup i en sjö. Där är temperaturen 10,0 °C. Vid ytan är temperaturen 25,0 °C och lufttrycket 101,3 kPa. Vattnets densitet är 1000 kg/m³.</p><p>Bestäm bubblans volym vid ytan. Svara i cm³. Avrunda till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Trycket på djupet är cirka 297,7 kPa.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den kombinerade gaslagen ger</p><div class=\"facit-matte\">\\[V_{2}=1{,}00\\cdot \\left(\\frac{297{,}7}{101{,}3}\\right)\\cdot \\left(\\frac{298{,}15}{283{,}15}\\right)\\approx 3{,}094\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,09 cm³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Trycket på djupet är cirka 297,7 kPa.</p><p class=\"facit-metod\">Den kombinerade gaslagen ger</p>\\[\\begin{gathered}V_2=1{,}00\\cdot\\frac{297{,}7}{101{,}3}\\cdot\\frac{298{,}15}{283{,}15}\\\\\\approx3{,}09448\\,\\mathrm{cm^3}\\end{gathered}\\]<p class=\"facit-svar\">Svar: 3,09 cm³.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__gasbubbla_med_temperaturandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.09,
-    "tolerans": 0,
+    "rättSvar": 3.0944796926552,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122796,7 +122827,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Gasbubbla med temperaturändring"
-    ]
+    ],
+    "rättSvar273": 3.09456221069559
   },
   {
     "id": "6.194",
@@ -122806,7 +122838,7 @@ window.BANK = [
     "typ": "gasbubbla och sfärisk geometri",
     "poang": "(0/2/0)",
     "t": "<p>En sfärisk luftbubbla har diametern 1,00 mm på 80,0 m djup i en sjö. Där är temperaturen 4,0 °C. Vid ytan är temperaturen 18,0 °C och lufttrycket 101,3 kPa. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Gasbubbla eller luftvolym på djup och vid vattenytan\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><rect x=\"70\" y=\"62\" width=\"480\" height=\"225\" fill=\"#CBE7F5\"/><line x1=\"70\" y1=\"62\" x2=\"550\" y2=\"62\" stroke=\"#2878A8\" stroke-width=\"4\"/><text x=\"82\" y=\"49\" fill=\"#256A8A\">vattenyta</text><circle cx=\"415\" cy=\"102\" r=\"28\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"244\" r=\"15\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><text x=\"415\" y=\"108\" text-anchor=\"middle\">d = ?</text><text x=\"222\" y=\"249\" text-anchor=\"start\" font-size=\"14\">1,00 mm</text><line x1=\"135\" y1=\"62\" x2=\"135\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"62\" x2=\"144\" y2=\"62\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"244\" x2=\"144\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><text x=\"122\" y=\"159\" text-anchor=\"end\">80,0 m</text></g></svg></span><p>Bestäm bubblans diameter vid ytan. Svara i mm. Avrunda till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Gaslagen ger volymfaktorn</p><div class=\"facit-matte\">\\[\\left(\\frac{886{,}9}{101{,}3}\\right)\\cdot \\left(\\frac{291{,}15}{277{,}15}\\right)\\approx 9{,}197\\]</div></div></div><div class=\"facit-stycke\"><p>För en sfär är V proportionell mot d³, så diameterfaktorn är \\(9{,}197^{1/3}\\approx2{,}095\\).</p></div><div class=\"facit-stycke\"><p>Slutdiametern blir 2,10 mm.</p></div></div><p class=\"facit-svar\">Svar: 2,10 mm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Gaslagen ger volymfaktorn</p>\\[\\left(\\frac{886{,}9}{101{,}3}\\right)\\cdot \\left(\\frac{291{,}15}{277{,}15}\\right)\\approx 9{,}197\\]<p>För en sfär är V proportionell mot d³, så diameterfaktorn är \\(9{,}197^{1/3}\\approx2{,}095\\).</p><p>Slutdiametern blir 2,10 mm.</p><p class=\"facit-svar\">Svar: 2,10 mm.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
@@ -122815,8 +122847,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__gasbubbla_och_sfarisk_geometri",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.1,
-    "tolerans": 0,
+    "rättSvar": 2.09518498788362,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122828,7 +122860,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Gasbubbla och sfärisk geometri"
-    ]
+    ],
+    "rättSvar273": 2.09520317316732
   },
   {
     "id": "6.195",
@@ -122838,7 +122871,7 @@ window.BANK = [
     "typ": "bestämma djup med gaslagen",
     "poang": "(0/2/0)",
     "t": "<p>En luftbubbla har volymen 1,00 cm³ och temperaturen 5,50 °C när den bildas på botten av en sjö. Vid ytan är volymen 5,00 cm³, temperaturen 18,5 °C och lufttrycket 101 kPa. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Gasbubbla eller luftvolym på djup och vid vattenytan\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><rect x=\"70\" y=\"62\" width=\"480\" height=\"225\" fill=\"#CBE7F5\"/><line x1=\"70\" y1=\"62\" x2=\"550\" y2=\"62\" stroke=\"#2878A8\" stroke-width=\"4\"/><text x=\"82\" y=\"49\" fill=\"#256A8A\">vattenyta</text><circle cx=\"415\" cy=\"102\" r=\"28\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"244\" r=\"15\" fill=\"#EEF8FC\" stroke=\"#2878A8\" stroke-width=\"3\"/><text x=\"451\" y=\"108\" text-anchor=\"start\">5,00 cm³</text><text x=\"222\" y=\"249\" text-anchor=\"start\" font-size=\"14\">1,00 cm³</text><line x1=\"135\" y1=\"62\" x2=\"135\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"62\" x2=\"144\" y2=\"62\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><line x1=\"126\" y1=\"244\" x2=\"144\" y2=\"244\" stroke=\"#6D5BA7\" stroke-width=\"3\"/><text x=\"122\" y=\"159\" text-anchor=\"end\">h = ?</text></g></svg></span><p>Bestäm sjöns djup. Svara i m. Avrunda till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Gaslagen ger bottentrycket</p><div class=\"facit-matte\">\\[p_{1}=101\\cdot \\left(\\frac{5{,}00}{1{,}00}\\right)\\cdot \\left(\\frac{278{,}65}{291{,}65}\\right)\\approx 482{,}49\\, \\mathrm{kPa}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vätsketrycket är då</p><div class=\"facit-matte\">\\[482{,}49-101=381{,}49\\, \\mathrm{kPa}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Djupet blir</p><div class=\"facit-matte\">\\[h=\\frac{381\\,490}{1000\\cdot 9{,}82}\\approx 38{,}85\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 38,8 m.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Gaslagen ger bottentrycket</p>\\[\\begin{gathered}p_1=101\\cdot5{,}00\\cdot\\frac{278{,}65}{291{,}65}\\\\\\approx482{,}491\\,\\mathrm{kPa}\\end{gathered}\\]<p class=\"facit-metod\">Vätsketrycket är då</p>\\[482{,}49-101=381{,}49\\, \\mathrm{kPa}\\]<p class=\"facit-metod\">Djupet blir</p>\\[h=\\frac{381\\,490}{1000\\cdot 9{,}82}\\approx 38{,}85\\, \\mathrm{m}\\]<p class=\"facit-svar\">Svar: 38,8 m.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
@@ -122847,8 +122880,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__bestamma_djup_med_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 38.8,
-    "tolerans": 0.1,
+    "rättSvar": 38.8482833293122,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122860,7 +122893,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Bestämma djup med gaslagen"
-    ]
+    ],
+    "rättSvar273": 38.8471037858118
   },
   {
     "id": "6.196",
@@ -122870,15 +122904,15 @@ window.BANK = [
     "typ": "ideala gaslagen och gasmassa",
     "poang": "(2/0/0)",
     "t": "<p>En gasflaska har volymen 2,52 liter och väger 3,200 kg när den är tom. Den fylls med helium till det absoluta trycket 1,60 MPa vid 20,0 °C. Heliums molmassa är 4,00 g/mol.</p><p>Bestäm den fyllda flaskans massa. Svara i kg. Avrunda till 3 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Substansmängden är n = pV/(RT) = 1,60·10⁶·2,52·10⁻³/(8,31·293,15) ≈ 1,655 mol.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Heliumets massa är</p><div class=\"facit-matte\">\\[1{,}655\\cdot 4{,}00 g\\approx 6{,}62 g=0{,}00662\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><p>Total massa blir cirka 3,20662 kg.</p></div></div><p class=\"facit-svar\">Svar: 3,207 kg.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Substansmängden är n = pV/(RT) = 1,60·10⁶·2,52·10⁻³/(8,31·293,15) ≈ 1,655 mol.</p><p class=\"facit-metod\">Heliumets massa är</p>\\[1{,}655\\cdot 4{,}00 g\\approx 6{,}62 g=0{,}00662\\, \\mathrm{kg}\\]<p>Total massa blir cirka 3,20662 kg.</p><p class=\"facit-svar\">Svar: 3,207 kg.</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmassa",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.207,
-    "tolerans": 0,
+    "rättSvar": 3.20662048174596,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -122890,7 +122924,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Ideala gaslagen och gasmassa"
-    ]
+    ],
+    "rättSvar273": 3.20662387107108
   },
   {
     "id": "6.173",
@@ -123113,7 +123148,7 @@ window.BANK = [
     "typ": "gastryck och trådkraft",
     "poang": "(0/2/0)",
     "t": "<p>Två lika, lättrörliga kolvar hålls ihop av en 10,0 cm lång tråd. Gasen mellan kolvarna har från början temperaturen 24,0 °C och det absoluta trycket 101 kPa, samma som omgivningen. Kolvarean är 20,0 cm². Tråden brister när spännkraften når 30,0 N. Tråden håller avståndet mellan kolvarna konstant tills den brister.</p><span class=\"fig\"><svg width=\"620\" height=\"330\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Två kolvar som hålls ihop av en tråd med uppvärmd gas mellan kolvarna\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><rect x=\"65\" y=\"93\" width=\"490\" height=\"150\" rx=\"14\" fill=\"#E7EBEF\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"185\" y=\"99\" width=\"18\" height=\"138\" fill=\"#B7C0C8\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"417\" y=\"99\" width=\"18\" height=\"138\" fill=\"#B7C0C8\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"203\" y=\"99\" width=\"214\" height=\"138\" fill=\"#F2D8B5\"/><line x1=\"203\" y1=\"168\" x2=\"417\" y2=\"168\" stroke=\"#6D5BA7\" stroke-width=\"4\"/><text x=\"310\" y=\"156\" text-anchor=\"middle\">tråd, 10 cm</text><text x=\"310\" y=\"202\" text-anchor=\"middle\">instängd gas</text><path d=\"M270 115h80\" stroke=\"#C65D36\" stroke-width=\"4\"/><path d=\"M270 115l14-8v16z\" fill=\"#C65D36\"/><path d=\"M350 115l-14-8v16z\" fill=\"#C65D36\"/><text x=\"310\" y=\"63\" text-anchor=\"middle\">kolvarea 20 cm²</text><text x=\"310\" y=\"283\" text-anchor=\"middle\">tråden brister vid 30 N</text></g></svg></span><p>Bestäm gasens temperatur när tråden brister. Svara i °C. Avrunda till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Trådkraften på varje kolv är</p><div class=\"facit-matte\">\\[T=\\left(p_{2}-p_{0}\\right) A\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är p₂ = 101 kPa</p><div class=\"facit-matte\">\\[\\frac{+30{,}0}{20{,}0\\cdot 10^{-4}} P a=116\\, \\mathrm{kPa}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är konstant, så</p><div class=\"facit-matte\">\\[T_{2}=\\frac{297{,}15\\cdot 116}{101}\\approx 341{,}28 K=68{,}13\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 68,1 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Trådkraften på varje kolv är</p>\\[T=\\left(p_{2}-p_{0}\\right) A\\]<p class=\"facit-metod\">Därför är p₂ = 101 kPa</p>\\[\\frac{+30{,}0}{20{,}0\\cdot 10^{-4}} P a=116\\, \\mathrm{kPa}\\]<p class=\"facit-metod\">Volymen är konstant, så</p>\\[T_{2}=\\frac{297{,}15\\cdot 116}{101}\\approx 341{,}28 K=68{,}13\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: 68,1 °C.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
@@ -123122,8 +123157,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__gastryck_och_tradkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 68.1,
-    "tolerans": 0,
+    "rättSvar": 68.1311881188119,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -123135,7 +123170,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Gastryck och trådkraft"
-    ]
+    ],
+    "rättSvar273": 68.1089108910891
   },
   {
     "id": "6.199",
@@ -123809,8 +123845,8 @@ window.BANK = [
     "niva": "E",
     "typ": "ideala gaslagen i två tillstånd",
     "poang": "(2/0/0)",
-    "t": "<p>En behållare fylls med 16,00 mol helium vid temperaturen 10,0 °C och det absoluta trycket 35,0 kPa.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm gasens volym. Svara i m³. Avrunda till 3 decimaler.</li><li>Volymen halveras och trycket ändras till 100 kPa. Bestäm den nya temperaturen. Svara i °C. Avrunda till 1 decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">V = nRT/p =</p><div class=\"facit-matte\">\\[\\frac{16{,}00\\cdot 8{,}31\\cdot 283{,}15}{35\\,000}\\approx 1{,}07565\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,076 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den nya volymen är cirka 0,53782 m³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T_{2}=\\frac{100\\,000\\cdot 0{,}53782}{16{,}00\\cdot 8{,}31}\\approx 404{,}5 K=131{,}35\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 131,4 °C.</p></div></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "t": "<p>En behållare fylls med 16,00 mol helium vid temperaturen 10,0 °C och det absoluta trycket 35,0 kPa.</p><ol type=\"a\"><li>Bestäm gasens volym. Svara i m³. Avrunda till 3 decimaler.</li><li>Volymen halveras och trycket ändras till 100 kPa. Bestäm den nya temperaturen. Svara i °C. Avrunda till 1 decimal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p class=\"facit-metod\">V = nRT/p =</p>\\[\\frac{16{,}00\\cdot 8{,}31\\cdot 283{,}15}{35\\,000}\\approx 1{,}07565\\, \\mathrm{m^3}\\]<p class=\"facit-svar\">Svar: 1,076 m³.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p><p>Volymen halveras. Därför är \\(V_2/V_1=1/2\\).</p>\\[T_2=283{,}15\\cdot\\frac{100}{35}\\cdot\\frac12=404{,}50\\,\\mathrm K\\]\\[t_2=404{,}50-273{,}15=131{,}35\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(131{,}4\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
@@ -123818,12 +123854,12 @@ window.BANK = [
     "familjNyckel": "gaslagen__ideala_gaslagen_i_tva_tillstand",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.076,
+      1.0756464,
       131.35
     ],
     "tolerans": [
-      0,
-      0.16
+      0.0005,
+      0.05
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -123852,7 +123888,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm gasens volym. Svara i m³. Avrunda till 3 decimaler.",
         "t": "<p>En behållare fylls med 16,00 mol helium vid temperaturen 10,0 °C och det absoluta trycket 35,0 kPa.</p><p>Bestäm gasens volym. Svara i m³. Avrunda till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">V = nRT/p =</p><div class=\"facit-matte\">\\[\\frac{16{,}00\\cdot 8{,}31\\cdot 283{,}15}{35\\,000}\\approx 1{,}07565\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,076 m³.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">V = nRT/p =</p>\\[\\frac{16{,}00\\cdot 8{,}31\\cdot 283{,}15}{35\\,000}\\approx 1{,}07565\\, \\mathrm{m^3}\\]<p class=\"facit-svar\">Svar: 1,076 m³.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
         "ledtrad": "<p>Använd pV = nRT med trycket i pascal.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -123867,8 +123903,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Volymen halveras och trycket ändras till 100 kPa. Bestäm den nya temperaturen. Svara i °C. Avrunda till 1 decimal.",
-        "t": "<p>En behållare fylls med 16,00 mol helium vid temperaturen 10,0 °C och det absoluta trycket 35,0 kPa.</p><p>Volymen halveras och trycket ändras till 100 kPa. Bestäm den nya temperaturen. Svara i °C. Avrunda till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den nya volymen är cirka 0,53782 m³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T_{2}=\\frac{100\\,000\\cdot 0{,}53782}{16{,}00\\cdot 8{,}31}\\approx 404{,}5 K=131{,}35\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 131,4 °C.</p></div>",
+        "t": "<p>En behållare med helium har temperaturen 10,0 °C och det absoluta trycket 35,0 kPa.</p><p>Volymen halveras och trycket ändras till 100 kPa. Bestäm den nya temperaturen. Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p><p>Volymen halveras. Därför är \\(V_2/V_1=1/2\\).</p>\\[T_2=283{,}15\\cdot\\frac{100}{35}\\cdot\\frac12=404{,}50\\,\\mathrm K\\]\\[t_2=404{,}50-273{,}15=131{,}35\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(131{,}4\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Använd den halverade volymen i pV = nRT.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -123885,8 +123921,8 @@ window.BANK = [
       "Ideala gaslagen i två tillstånd"
     ],
     "rättSvar273": [
-      1.075,
-      null
+      1.07507657142857,
+      131.285714285714
     ]
   },
   {
@@ -123896,8 +123932,8 @@ window.BANK = [
     "niva": "E",
     "typ": "ideala gaslagen och ändrad gasmängd",
     "poang": "(3/0/0)",
-    "t": "<p>En tank innehåller 28,5 kg kvävgas vid 0,0 °C och det absoluta trycket 101,3 kPa. Kvävgasens molmassa är 28,0 g/mol. Därefter tillsätts 32,2 kg kvävgas utan att volymen eller temperaturen ändras.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den ursprungliga substansmängden. Svara i mol. Svara med ett heltal.</li><li>Bestäm tankens volym. Svara i m³. Avrunda till 2 decimaler.</li><li>Bestäm trycket efter att mer kvävgas har tillsatts. Svara i kPa. Avrunda till 1 decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>n₁ = m/M = 28,5/0,0280 ≈ 1017,86 mol.</p></div></div><p class=\"facit-svar\">Svar: 1018 mol.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">V = nRT/p ≈</p><div class=\"facit-matte\">\\[\\frac{1017{,}86\\cdot 8{,}31\\cdot 273{,}15}{101\\,300}\\approx 22{,}8076\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 22,81 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den nya massan är 60,7 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom p ∝ n ∝ m blir</p><div class=\"facit-matte\">\\[p_{2}=\\frac{101{,}3\\cdot 60{,}7}{28{,}5}\\approx 215{,}75\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 215,8 kPa.</p></div></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "t": "<p>En tank innehåller 28,5 kg kvävgas vid 0,0 °C och det absoluta trycket 101,3 kPa. Kvävgasens molmassa är 28,0 g/mol. Därefter tillsätts 32,2 kg kvävgas utan att volymen eller temperaturen ändras.</p><ol type=\"a\"><li>Hur många mol kvävgas är det? Svara med ett heltal.</li><li>Bestäm tankens volym. Svara i m³. Avrunda till 2 decimaler.</li><li>Bestäm trycket efter att mer kvävgas har tillsatts. Svara i kPa. Avrunda till 1 decimal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>n₁ = m/M = 28,5/0,0280 ≈ 1017,86 mol.</p><p class=\"facit-svar\">Svar: 1018 mol.</p><p><strong>b)</strong></p><p>Molmassan är 0,0280 kg/mol. Beräkna antalet mol från den ursprungliga massan.</p>\\[n_1=\\frac{28{,}5}{0{,}0280}\\,\\mathrm{mol}\\]<p>Temperaturen är \\(0+273{,}15=273{,}15\\,\\mathrm K\\). Gaslagen ger volymen.</p>\\[V=\\frac{n_1RT}{p}\\]\\[V=\\frac{n_1\\cdot8{,}31\\cdot273{,}15}{101300}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(22{,}81\\,\\mathrm{m³}\\).</p><p><strong>c)</strong></p><p>Den nya massan är 60,7 kg.</p><p class=\"facit-metod\">Eftersom p ∝ n ∝ m blir</p>\\[p_{2}=\\frac{101{,}3\\cdot 60{,}7}{28{,}5}\\approx 215{,}75\\, \\mathrm{kPa}\\]<p class=\"facit-svar\">Svar: 215,8 kPa.</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
@@ -123905,14 +123941,14 @@ window.BANK = [
     "familjNyckel": "gaslagen__ideala_gaslagen_och_andrad_gasmangd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1018,
-      22.81,
-      215.8
+      1017.85714285714,
+      22.8076012727401,
+      215.751228070175
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.5,
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -123944,7 +123980,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur många mol kvävgas är det? Svara med ett heltal.",
         "t": "<p>Kvävgasens massa är 28,5 kg. Molmassan är 28,0 g/mol.</p><p>Hur många mol kvävgas är det? Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>n₁ = m/M = 28,5/0,0280 ≈ 1017,86 mol.</p></div></div><p class=\"facit-svar\">Svar: 1018 mol.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>n₁ = m/M = 28,5/0,0280 ≈ 1017,86 mol.</p><p class=\"facit-svar\">Svar: 1018 mol.</p></div>",
         "ledtrad": "<p>Omvandla molmassan till kilogram per mol.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -123960,7 +123996,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm tankens volym. Svara i m³. Avrunda till 2 decimaler.",
         "t": "<p>En tank innehåller 28,5 kg kvävgas vid 0,0 °C och det absoluta trycket 101,3 kPa. Kvävgasens molmassa är 28,0 g/mol. Därefter tillsätts 32,2 kg kvävgas utan att volymen eller temperaturen ändras.</p><p>Bestäm tankens volym. Svara i m³. Avrunda till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">V = nRT/p ≈</p><div class=\"facit-matte\">\\[\\frac{1017{,}86\\cdot 8{,}31\\cdot 273{,}15}{101\\,300}\\approx 22{,}8076\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 22,81 m³.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Molmassan är 0,0280 kg/mol. Beräkna antalet mol från den ursprungliga massan.</p>\\[n_1=\\frac{28{,}5}{0{,}0280}\\,\\mathrm{mol}\\]<p>Temperaturen är \\(0+273{,}15=273{,}15\\,\\mathrm K\\). Gaslagen ger volymen.</p>\\[V=\\frac{n_1RT}{p}\\]\\[V=\\frac{n_1\\cdot8{,}31\\cdot273{,}15}{101300}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(22{,}81\\,\\mathrm{m³}\\).</p></div>",
         "ledtrad": "<p>Sätt in den ursprungliga substansmängden i pV = nRT.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -123976,7 +124012,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm trycket efter att mer kvävgas har tillsatts. Svara i kPa. Avrunda till 1 decimal.",
         "t": "<p>En tank innehåller 28,5 kg kvävgas vid 0,0 °C och det absoluta trycket 101,3 kPa. Kvävgasens molmassa är 28,0 g/mol. Därefter tillsätts 32,2 kg kvävgas utan att volymen eller temperaturen ändras.</p><p>Bestäm trycket efter att mer kvävgas har tillsatts. Svara i kPa. Avrunda till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den nya massan är 60,7 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom p ∝ n ∝ m blir</p><div class=\"facit-matte\">\\[p_{2}=\\frac{101{,}3\\cdot 60{,}7}{28{,}5}\\approx 215{,}75\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 215,8 kPa.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den nya massan är 60,7 kg.</p><p class=\"facit-metod\">Eftersom p ∝ n ∝ m blir</p>\\[p_{2}=\\frac{101{,}3\\cdot 60{,}7}{28{,}5}\\approx 215{,}75\\, \\mathrm{kPa}\\]<p class=\"facit-svar\">Svar: 215,8 kPa.</p></div>",
         "ledtrad": "<p>Vid konstant volym och temperatur är trycket proportionellt mot substansmängden.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -123994,7 +124030,7 @@ window.BANK = [
     ],
     "rättSvar273": [
       null,
-      22.8,
+      22.7950765054294,
       null
     ]
   },
@@ -124006,15 +124042,15 @@ window.BANK = [
     "typ": "ideala gaslagen",
     "poang": "(2/0/0)",
     "t": "<p>En 15,0-litersbehållare innehåller 7,50 mol helium vid det absoluta trycket 440 kPa.</p><p>Bestäm gasens temperatur. Svara i °C. Avrunda till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[T=\\frac{p V}{n R}=\\frac{440\\,000\\cdot 0{,}0150}{7{,}50\\cdot 8{,}31}\\approx 105{,}90\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I Celsius är temperaturen</p><div class=\"facit-matte\">\\[105{,}90-273{,}15\\approx -167{,}25\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div><p class=\"facit-svar\">Svar: −167,3 °C.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[T=\\frac{p V}{n R}=\\frac{440\\,000\\cdot 0{,}0150}{7{,}50\\cdot 8{,}31}\\approx 105{,}90\\, \\mathrm{K}\\]<p class=\"facit-metod\">I Celsius är temperaturen</p>\\[105{,}90-273{,}15\\approx -167{,}25\\, {}^\\circ\\mathrm{C}\\]<p class=\"facit-svar\">Svar: −167,3 °C.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__ideala_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": -167.3,
-    "tolerans": 0,
+    "rättSvar": -167.25348977136,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -124027,7 +124063,7 @@ window.BANK = [
     "familjTidigare": [
       "Ideala gaslagen"
     ],
-    "rättSvar273": -167.1
+    "rättSvar273": -167.10348977136
   },
   {
     "id": "6.204",
@@ -124036,16 +124072,16 @@ window.BANK = [
     "niva": "E",
     "typ": "ideala gaslagen",
     "poang": "(1/0/0)",
-    "t": "<p>En 2,00-litersbehållare innehåller 3,00 mol ideal gas vid −120 °C.</p><p>Vilket tryck har gasen? Svara i MPa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Temperaturen är 153,15 K och volymen 2,00·10⁻³ m³. p = nRT/V =</p><div class=\"facit-matte\">\\[\\frac{3{,}00\\cdot 8{,}31\\cdot 153{,}15}{2{,}00\\cdot 10^{-3}}\\approx 1{,}909\\cdot 10^{6}\\, \\mathrm{Pa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,91 MPa.</p></div>",
+    "t": "<p>En 2,00-litersbehållare innehåller 3,00 mol ideal gas vid −120 °C.</p><p>Vilket tryck har gasen? Svara i MPa.</p><p>Svara med 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Temperaturen är 153,15 K och volymen 2,00·10⁻³ m³. p = nRT/V =</p>\\[\\frac{3{,}00\\cdot 8{,}31\\cdot 153{,}15}{2{,}00\\cdot 10^{-3}}\\approx 1{,}909\\cdot 10^{6}\\, \\mathrm{Pa}\\]<p class=\"facit-svar\">Svar: 1,91 MPa.</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__ideala_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.91,
-    "tolerans": 0.01,
+    "rättSvar": 1.90901475,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -124057,7 +124093,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Ideala gaslagen"
-    ]
+    ],
+    "rättSvar273": 1.907145
   },
   {
     "id": "6.205",
@@ -124067,15 +124104,15 @@ window.BANK = [
     "typ": "ideala gasens densitet",
     "poang": "(2/0/0)",
     "t": "<p>Luftens molmassa kan sättas till 29,0 g/mol. Luften har det absoluta trycket 101,3 kPa och temperaturen −10,0 °C.</p><p>Bestäm luftens densitet. Svara i kg/m³. Avrunda till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ur pV = nRT och ρ = m/V fås</p><div class=\"facit-matte\">\\[\\rho=\\frac{p M}{R T}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\rho=\\frac{101\\,300\\cdot 0{,}0290}{8{,}31\\cdot 263{,}15}\\approx 1{,}3434\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,34 kg/m³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Ur pV = nRT och ρ = m/V fås</p>\\[\\rho=\\frac{p M}{R T}\\]\\[\\rho=\\frac{101\\,300\\cdot 0{,}0290}{8{,}31\\cdot 263{,}15}\\approx 1{,}3434\\, \\mathrm{kg/m^3}\\]<p class=\"facit-svar\">Svar: 1,34 kg/m³.</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__ideala_gasens_densitet",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.34,
-    "tolerans": 0,
+    "rättSvar": 1.34339288903095,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -124087,7 +124124,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Ideala gasens densitet"
-    ]
+    ],
+    "rättSvar273": 1.3441590826939
   },
   {
     "id": "6.206",
@@ -124128,15 +124166,15 @@ window.BANK = [
     "typ": "ideala gaslagen och molmassa",
     "poang": "(2/0/0)",
     "t": "<p>En cylinder innehåller 0,532 kg syrgas vid det absoluta trycket 100 kPa och temperaturen 0,0 °C. Syrgasens molmassa är 32,0 g/mol.</p><p>Bestäm gasens volym. Svara i m³. Avrunda till 3 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Substansmängden är n = 0,532/0,0320 = 16,625 mol.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">V = nRT/p =</p><div class=\"facit-matte\">\\[\\frac{16{,}625\\cdot 8{,}31\\cdot 273{,}15}{100\\,000}\\approx 0{,}37737\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,377 m³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Substansmängden är n = 0,532/0,0320 = 16,625 mol.</p><p class=\"facit-metod\">V = nRT/p =</p>\\[\\frac{16{,}625\\cdot 8{,}31\\cdot 273{,}15}{100\\,000}\\approx 0{,}37737\\, \\mathrm{m^3}\\]<p class=\"facit-svar\">Svar: 0,377 m³.</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__ideala_gaslagen_och_molmassa",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.377,
-    "tolerans": 0,
+    "rättSvar": 0.377366968125,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -124148,7 +124186,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Ideala gaslagen och molmassa"
-    ]
+    ],
+    "rättSvar273": 0.3771597375
   },
   {
     "id": "6.208",
@@ -124158,15 +124197,15 @@ window.BANK = [
     "typ": "antal gasmolekyler",
     "poang": "(2/0/0)",
     "t": "<p>Ett rum är 6,0 m långt, 3,0 m brett och 2,5 m högt. Luften har det absoluta trycket 101,3 kPa och temperaturen 22,0 °C.</p><p>Antalet luftmolekyler kan skrivas N = a·10²⁷. Bestäm koefficienten a. Avrunda till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rummets volym är 45,0 m³. n = pV/(RT) ≈ 101 300·45,0/(8,31·295,15) ≈ 1858 mol.</p></div><div class=\"facit-stycke\"><p>N = nN<sub>A</sub> ≈ 1,119·10²⁷.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså är</p><div class=\"facit-matte\">\\[a\\approx 1{,}12\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,12.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Rummets volym är 45,0 m³. n = pV/(RT) ≈ 101 300·45,0/(8,31·295,15) ≈ 1858 mol.</p><p>N = nN<sub>A</sub> ≈ 1,119·10²⁷.</p><p class=\"facit-metod\">Alltså är</p>\\[a\\approx 1{,}12\\]<p class=\"facit-svar\">Svar: 1,12.</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__antal_gasmolekyler",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.12,
-    "tolerans": 0,
+    "rättSvar": 1.11885714355608,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -124178,7 +124217,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Antal gasmolekyler"
-    ]
+    ],
+    "rättSvar273": 1.11942605396806
   },
   {
     "id": "6.209",
@@ -124277,7 +124317,7 @@ window.BANK = [
     "typ": "öppet system och gasmängd",
     "poang": "(0/2/0)",
     "t": "<p>Ett hus har i praktiken konstant volym och står i kontakt med utomhusluften, så inomhustrycket förblir konstant. Inomhusluften värms från 16,0 °C till 20,0 °C.</p><p>Bestäm hur stor andel av luftmolekylerna som lämnar huset. Svara i %. Avrunda till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ur pV = nRT följer n ∝ 1/T när p och V är konstanta.</p><div class=\"facit-matte\">\\[\\frac{n_{2}}{n_{1}}=\\frac{289{,}15}{293{,}15}\\approx 0{,}98636\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Andelen som lämnar huset är</p><div class=\"facit-matte\">\\[\\left(1-0{,}98636\\right)\\cdot 100\\approx 1{,}364\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,36 %.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Ur pV = nRT följer n ∝ 1/T när p och V är konstanta.</p>\\[\\frac{n_{2}}{n_{1}}=\\frac{289{,}15}{293{,}15}\\approx 0{,}98636\\]<p class=\"facit-metod\">Andelen som lämnar huset är</p>\\[\\left(1-0{,}98636\\right)\\cdot 100\\approx 1{,}364\\, \\%\\]<p class=\"facit-svar\">Svar: 1,36 %.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "begrepp",
@@ -124286,8 +124326,8 @@ window.BANK = [
     ],
     "familjNyckel": "gaslagen__oppet_system_och_gasmangd",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.36,
-    "tolerans": 0,
+    "rättSvar": 1.36448916936722,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -124300,7 +124340,7 @@ window.BANK = [
     "familjTidigare": [
       "Öppet system och gasmängd"
     ],
-    "rättSvar273": 1.37
+    "rättSvar273": 1.36518771331058
   },
   {
     "id": "6.212",
@@ -124310,15 +124350,15 @@ window.BANK = [
     "typ": "luftmassa i en byggnad",
     "poang": "(2/0/0)",
     "t": "<p>Ett hus innehåller 1,20·10³ m³ luft vid temperaturen 15,0 °C och det absoluta trycket 101,3 kPa. Luftens molmassa är 29,0 g/mol.</p><p>Bestäm luftens massa. Svara i kg. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">n = pV/(RT) och m = nM.</p><div class=\"facit-matte\">\\[m=\\frac{101\\,300\\cdot 1{,}20\\cdot 10^{3}\\cdot 0{,}0290}{8{,}31\\cdot 288{,}15}\\approx 1472\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1472 kg.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">n = pV/(RT) och m = nM.</p>\\[\\begin{gathered}m=\\frac{pVM}{RT}\\\\=\\frac{101300\\cdot1200\\cdot0{,}0290}{8{,}31\\cdot288{,}15}\\\\\\approx1472\\,\\mathrm{kg}\\end{gathered}\\]<p class=\"facit-svar\">Svar: 1472 kg.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__luftmassa_i_en_byggnad",
     "svarstyp": "numeriskt",
-    "rättSvar": 1472,
-    "tolerans": 0,
+    "rättSvar": 1472.20755335136,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -124331,7 +124371,7 @@ window.BANK = [
     "familjTidigare": [
       "Luftmassa i en byggnad"
     ],
-    "rättSvar273": 1473.0
+    "rättSvar273": 1472.97432811873
   },
   {
     "id": "6.213",
@@ -124340,8 +124380,8 @@ window.BANK = [
     "niva": "C",
     "typ": "däcktryck och utsläppt luft",
     "poang": "(1/1/0)",
-    "t": "<p>Ett bildäck har konstant volym. Det absoluta trycket är 230 kPa vid 15,0 °C. Efter körning är luftens temperatur 38,0 °C.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm trycket efter uppvärmningen innan någon luft släpps ut. Svara i kPa. Avrunda till 1 decimal.</li><li>Vid 38,0 °C släpps luft ut tills trycket åter är 230 kPa. Bestäm hur stor andel av gasmängden som släpps ut. Svara i %. Avrunda till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{2}=\\frac{230\\cdot 311{,}15}{288{,}15}\\approx 248{,}36\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 248,4 kPa.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid 38,0 °C är n proportionell mot p.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Andelen som återstår är</p><div class=\"facit-matte\">\\[\\frac{230}{248{,}36}\\approx 0{,}92608\\]</div></div></div><div class=\"facit-stycke\"><p>Andelen som släpps ut är därför cirka 7,392 %.</p></div></div><p class=\"facit-svar\">Svar: 7,39 %.</p></div></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "t": "<p>Ett bildäck har konstant volym. Det absoluta trycket är 230 kPa vid 15,0 °C. Efter körning är luftens temperatur 38,0 °C.</p><ol type=\"a\"><li>Bestäm trycket efter uppvärmningen innan någon luft släpps ut. Svara i kPa. Avrunda till 1 decimal.</li><li>Vid 38,0 °C släpps luft ut tills trycket åter är 230 kPa. Bestäm hur stor andel av gasmängden som släpps ut. Svara i %. Avrunda till 2 decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p>\\[p_{2}=\\frac{230\\cdot 311{,}15}{288{,}15}\\approx 248{,}36\\, \\mathrm{kPa}\\]<p class=\"facit-svar\">Svar: 248,4 kPa.</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\), \\(T_2=38+273{,}15=311{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_{\\mathrm{varm}}=230\\cdot\\frac{311{,}15}{288{,}15}\\,\\mathrm{kPa}\\]<p>När luft släpps ut är temperaturen konstant. Då förändras gasmängden med samma faktor som trycket.</p>\\[\\frac{n_{\\mathrm{kvar}}}{n_{\\mathrm{före}}}=\\frac{230}{230\\cdot311{,}15/288{,}15}=\\frac{288{,}15}{311{,}15}\\]\\[\\mathrm{andel\\ utsläppt}=\\left(1-\\frac{288{,}15}{311{,}15}\\right)\\cdot100\\,\\%\\]<p><strong>Svar:</strong> \\(7{,}39\\,\\%\\).</p></div>",
     "familj": "Ideala gaslagen och gasmängd",
     "formaga": [
       "modellering",
@@ -124351,12 +124391,12 @@ window.BANK = [
     "familjNyckel": "gaslagen__dacktryck_och_utslappt_luft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      248.4,
-      7.39
+      248.358493840014,
+      7.39193315121324
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -124385,7 +124425,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm trycket efter uppvärmningen innan någon luft släpps ut. Svara i kPa. Avrunda till 1 decimal.",
         "t": "<p>Ett bildäck har konstant volym. Det absoluta trycket är 230 kPa vid 15,0 °C. Efter körning är luftens temperatur 38,0 °C.</p><p>Bestäm trycket efter uppvärmningen innan någon luft släpps ut. Svara i kPa. Avrunda till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{2}=\\frac{230\\cdot 311{,}15}{288{,}15}\\approx 248{,}36\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 248,4 kPa.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[p_{2}=\\frac{230\\cdot 311{,}15}{288{,}15}\\approx 248{,}36\\, \\mathrm{kPa}\\]<p class=\"facit-svar\">Svar: 248,4 kPa.</p></div>",
         "ledtrad": "<p>Vid konstant volym och gasmängd är p/T konstant.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -124401,7 +124441,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Vid 38,0 °C släpps luft ut tills trycket åter är 230 kPa. Bestäm hur stor andel av gasmängden som släpps ut. Svara i %. Avrunda till 2 decimaler.",
         "t": "<p>Ett bildäck har konstant volym. Det absoluta trycket är 230 kPa vid 15,0 °C. Efter körning är luftens temperatur 38,0 °C.</p><p>Vid 38,0 °C släpps luft ut tills trycket åter är 230 kPa. Bestäm hur stor andel av gasmängden som släpps ut. Svara i %. Avrunda till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid 38,0 °C är n proportionell mot p.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Andelen som återstår är</p><div class=\"facit-matte\">\\[\\frac{230}{248{,}36}\\approx 0{,}92608\\]</div></div></div><div class=\"facit-stycke\"><p>Andelen som släpps ut är därför cirka 7,392 %.</p></div></div><p class=\"facit-svar\">Svar: 7,39 %.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\), \\(T_2=38+273{,}15=311{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_{\\mathrm{varm}}=230\\cdot\\frac{311{,}15}{288{,}15}\\,\\mathrm{kPa}\\]<p>När luft släpps ut är temperaturen konstant. Då förändras gasmängden med samma faktor som trycket.</p>\\[\\frac{n_{\\mathrm{kvar}}}{n_{\\mathrm{före}}}=\\frac{230}{230\\cdot311{,}15/288{,}15}=\\frac{288{,}15}{311{,}15}\\]\\[\\mathrm{andel\\ utsläppt}=\\left(1-\\frac{288{,}15}{311{,}15}\\right)\\cdot100\\,\\%\\]<p><strong>Svar:</strong> \\(7{,}39\\,\\%\\).</p></div>",
         "ledtrad": "<p>Vid oförändrad temperatur och volym är gasmängden proportionell mot trycket.</p>",
         "niva": "C",
         "traningsniva": 4,
@@ -124419,8 +124459,8 @@ window.BANK = [
       "Däcktryck och utsläppt luft"
     ],
     "rättSvar273": [
-      null,
-      7.4
+      248.368055555556,
+      7.39549839228296
     ]
   },
   {
@@ -148009,7 +148049,7 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "t": "<p>En gas i en styv behållare har det absoluta trycket 100 kPa vid 20,0 °C. Den värms till 50,0 °C och gasmängden är oförändrad.</p><p>Bestäm sluttrycket. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">T₁=293,15 K och</p><div class=\"facit-matte\">\\[T_{2}=323{,}15\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant volym blir</p><div class=\"facit-matte\">\\[p_{2}=\\frac{100\\cdot 323{,}15}{293{,}15}\\approx 110{,}234\\, \\mathrm{kPa}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 110,2 kPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">T₁=293,15 K och</p>\\[T_{2}=323{,}15\\, \\mathrm{K}\\]<p class=\"facit-metod\">Vid konstant volym blir</p>\\[p_{2}=\\frac{100\\cdot 323{,}15}{293{,}15}\\approx 110{,}234\\, \\mathrm{kPa}\\]<p class=\"facit-svar\">Svar: 110,2 kPa.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Tryck, volym och temperatur",
@@ -148024,15 +148064,16 @@ window.BANK = [
     "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 110.2,
-    "tolerans": 0,
+    "rättSvar": 110.233668770254,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "kPa",
     "svarFormat": "numeriskt",
     "poang": "(1/0/0)",
     "familjTidigare": [
       "Tryck och absolut temperatur"
-    ]
+    ],
+    "rättSvar273": 110.238907849829
   },
   {
     "id": "6.334",
@@ -148069,7 +148110,7 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "t": "<p>En tät, lättöjbar ballong har volymen 2,50 liter vid 10,0 °C. Den värms till 40,0 °C medan trycket är konstant.</p><p>Bestäm slutvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">T₁=283,15 K och</p><div class=\"facit-matte\">\\[T_{2}=313{,}15\\, \\mathrm{K}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{2}=\\frac{2{,}50\\cdot 313{,}15}{283{,}15}\\approx 2{,}76488\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,76 liter.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">T₁=283,15 K och</p>\\[T_{2}=313{,}15\\, \\mathrm{K}\\]\\[V_{2}=\\frac{2{,}50\\cdot 313{,}15}{283{,}15}\\approx 2{,}76488\\, \\mathrm{liter}\\]<p class=\"facit-svar\">Svar: 2,76 liter.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Tryck, volym och temperatur",
@@ -148084,8 +148125,8 @@ window.BANK = [
     "familjNyckel": "gaslagen__volym_och_absolut_temperatur",
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 2.76,
-    "tolerans": 0,
+    "rättSvar": 2.76487727352993,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarEnhet": "liter",
     "svarFormat": "numeriskt",
@@ -148093,7 +148134,7 @@ window.BANK = [
     "familjTidigare": [
       "Volym och absolut temperatur"
     ],
-    "rättSvar273": 2.77
+    "rättSvar273": 2.76501766784452
   },
   {
     "id": "6.337",
@@ -153655,7 +153696,7 @@ window.BANK = [
     "typ": "celsius till kelvin",
     "poang": "(1/0/0)",
     "t": "<p>En gas har temperaturen 27 °C.</p><p>Bestäm temperaturen. Svara i K.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kelvintemperaturen fås genom att addera 273,15.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=27+273{,}15=300{,}15\\ \\mathrm K\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 300,15 K.</p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p></div><div class=\"facit-stycke\"><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p></div><div class=\"facit-stycke\"><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kelvintemperaturen fås genom att addera 273,15.</p>\\[T=27+273{,}15=300{,}15\\ \\mathrm K\\].<p class=\"facit-svar\"><strong>Svar:</strong> 300,15 K.</p><p>Det exakta sambandet är \\(T=t+273{,}15\\).</p><p>Du kan också använda approximationen \\(T\\approx t+273\\) i den här uppgiften.</p><p>Små skillnader i det avrundade svaret kan då uppstå.</p></div>",
     "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
@@ -153676,7 +153717,7 @@ window.BANK = [
     "familjTidigare": [
       "Omvandla Celsius till kelvin"
     ],
-    "rättSvar273": 300
+    "rättSvar273": 300.0
   },
   {
     "id": "6.363",
@@ -153804,24 +153845,24 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck vid konstant volym",
     "poang": "(4/0/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><ol type=\"a\"><li>En tank har luft vid 10,0 °C och 8,00 MPa. Temperaturen höjs till 100 °C.</li><li>En behållare har 240 kPa vid 20,0 °C. Temperaturen sjunker till −25,0 °C.</li><li>En korkad flaska har 1 010 mbar vid 17 °C och läggs i kokande vatten (100 °C).</li><li>En halogenlampa har 115 kPa vid 20,0 °C. Gasen värms till 70,0 °C.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=8{,}00\\cdot\\dfrac{373}{283}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}05\\cdot10^{7}\\) Pa</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=240\\cdot\\dfrac{248}{293}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}03\\cdot10^{5}\\) Pa</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(p=1\\,010\\cdot\\dfrac{373}{290}\\) mbar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{5}\\) Pa</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=115\\cdot\\dfrac{343}{293}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}35\\cdot10^{5}\\) Pa</p></li></ol></div>",
+    "t": "<p>Behållarna är lufttäta och deras volym är konstant. Bestäm det nya trycket.</p><ol type=\"a\"><li>En tank har luft vid 10,0 °C och 8,00 MPa. Temperaturen höjs till 100 °C.<p>Svara i Pa med tre värdesiffror.</p></li><li>En behållare har 240 kPa vid 20,0 °C. Temperaturen sjunker till −25,0 °C.<p>Svara i Pa med tre värdesiffror.</p></li><li>En korkad flaska har 1 010 mbar vid 17 °C och läggs i kokande vatten (100 °C).<p>Svara i Pa med tre värdesiffror.</p></li><li>En halogenlampa har 115 kPa vid 20,0 °C. Gasen värms till 70,0 °C.<p>Svara i Pa med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\), \\(T_2=100+273{,}15=373{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=8000000\\cdot\\frac{373{,}15}{283{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(1{,}05\\cdot10^{7}\\,\\mathrm{Pa}\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\), \\(T_2=-25+273{,}15=248{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=240000\\cdot\\frac{248{,}15}{293{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(2{,}03\\cdot10^{5}\\,\\mathrm{Pa}\\).</p><p><strong>c)</strong></p><p>Temperaturerna i kelvin är \\(T_1=17+273{,}15=290{,}15\\,\\mathrm K\\), \\(T_2=100+273{,}15=373{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=101000\\cdot\\frac{373{,}15}{290{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(1{,}30\\cdot10^{5}\\,\\mathrm{Pa}\\).</p><p><strong>d)</strong></p><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\), \\(T_2=70+273{,}15=343{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=115000\\cdot\\frac{343{,}15}{293{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(1{,}35\\cdot10^{5}\\,\\mathrm{Pa}\\).</p></div>",
     "id": "6.513",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      10544169.61130742,
-      203139.93174061432,
-      129906.89655172414,
-      134624.5733788396
+      10542821.8258873,
+      203158.792427085,
+      129891.952438394,
+      134614.531809654
     ],
     "tolerans": [
-      158000.0,
-      3050.0,
-      5100.0,
-      2020.0
+      50000.0,
+      500.0,
+      500.0,
+      500.0
     ],
     "självrättning": true,
     "formaga": [
@@ -153847,13 +153888,13 @@ window.BANK = [
       "Pa"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p>",
+    "spelIntro": "<p>Behållarna är lufttäta och deras volym är konstant. Bestäm det nya trycket.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En tank har luft vid 10,0 °C och 8,00 MPa. Temperaturen höjs till 100 °C.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><p>En tank har luft vid 10,0 °C och 8,00 MPa. Temperaturen höjs till 100 °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=8{,}00\\cdot\\dfrac{373}{283}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}05\\cdot10^{7}\\) Pa</p></div>",
+        "fraga": "En tank har luft vid 10,0 °C och 8,00 MPa. Temperaturen höjs till 100 °C.<p>Svara i Pa med tre värdesiffror.</p>",
+        "t": "<p>Behållarna är lufttäta och deras volym är konstant. Bestäm det nya trycket.</p><p>En tank har luft vid 10,0 °C och 8,00 MPa. Temperaturen höjs till 100 °C.</p><p>Svara i Pa med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\), \\(T_2=100+273{,}15=373{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=8000000\\cdot\\frac{373{,}15}{283{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(1{,}05\\cdot10^{7}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p}{T}\\) är konstant.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -153862,9 +153903,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En behållare har 240 kPa vid 20,0 °C. Temperaturen sjunker till −25,0 °C.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><p>En behållare har 240 kPa vid 20,0 °C. Temperaturen sjunker till −25,0 °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=240\\cdot\\dfrac{248}{293}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}03\\cdot10^{5}\\) Pa</p></div>",
+        "fraga": "En behållare har 240 kPa vid 20,0 °C. Temperaturen sjunker till −25,0 °C.<p>Svara i Pa med tre värdesiffror.</p>",
+        "t": "<p>Behållarna är lufttäta och deras volym är konstant. Bestäm det nya trycket.</p><p>En behållare har 240 kPa vid 20,0 °C. Temperaturen sjunker till −25,0 °C.</p><p>Svara i Pa med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\), \\(T_2=-25+273{,}15=248{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=240000\\cdot\\frac{248{,}15}{293{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(2{,}03\\cdot10^{5}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p}{T}\\) är konstant.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -153873,9 +153914,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En korkad flaska har 1 010 mbar vid 17 °C och läggs i kokande vatten (100 °C).",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><p>En korkad flaska har 1 010 mbar vid 17 °C och läggs i kokande vatten (100 °C).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(p=1\\,010\\cdot\\dfrac{373}{290}\\) mbar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{5}\\) Pa</p></div>",
+        "fraga": "En korkad flaska har 1 010 mbar vid 17 °C och läggs i kokande vatten (100 °C).<p>Svara i Pa med tre värdesiffror.</p>",
+        "t": "<p>Behållarna är lufttäta och deras volym är konstant. Bestäm det nya trycket.</p><p>En korkad flaska har 1 010 mbar vid 17 °C och läggs i kokande vatten (100 °C).</p><p>Svara i Pa med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=17+273{,}15=290{,}15\\,\\mathrm K\\), \\(T_2=100+273{,}15=373{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=101000\\cdot\\frac{373{,}15}{290{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(1{,}30\\cdot10^{5}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>1 mbar = 100 Pa.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -153884,9 +153925,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En halogenlampa har 115 kPa vid 20,0 °C. Gasen värms till 70,0 °C.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen är konstant. Bestäm det nya trycket.</p><p>En halogenlampa har 115 kPa vid 20,0 °C. Gasen värms till 70,0 °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=115\\cdot\\dfrac{343}{293}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}35\\cdot10^{5}\\) Pa</p></div>",
+        "fraga": "En halogenlampa har 115 kPa vid 20,0 °C. Gasen värms till 70,0 °C.<p>Svara i Pa med tre värdesiffror.</p>",
+        "t": "<p>Behållarna är lufttäta och deras volym är konstant. Bestäm det nya trycket.</p><p>En halogenlampa har 115 kPa vid 20,0 °C. Gasen värms till 70,0 °C.</p><p>Svara i Pa med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\), \\(T_2=70+273{,}15=343{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=115000\\cdot\\frac{343{,}15}{293{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(1{,}35\\cdot10^{5}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p}{T}\\) är konstant.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -153898,7 +153939,13 @@ window.BANK = [
     "traningsniva": 2,
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      10544169.6113074,
+      203139.931740614,
+      129906.896551724,
+      134624.57337884
+    ]
   },
   {
     "kap": 6,
@@ -153906,24 +153953,24 @@ window.BANK = [
     "niva": "C",
     "typ": "volym vid konstant tryck",
     "poang": "(2/2/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><ol type=\"a\"><li>En gas har volymen 52 cm³ vid 90 °C. Bestäm volymen vid 15 °C.</li><li>60 cm³ gas vid 12 °C värms till 85 °C. Hur mycket ökar volymen?</li><li>Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?</li><li>Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=52\\cdot\\dfrac{288}{363}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) cm³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta V=60\\left(\\dfrac{358}{285}-1\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15{,}4\\) cm³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=2\\cdot283=566\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(293\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=1{,}600\\cdot293=469\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(196\\) °C</p></li></ol></div>",
+    "t": "<p>Gasmängden och trycket är konstanta.</p><ol type=\"a\"><li>En gas har volymen 52 cm³ vid 90 °C. Bestäm volymen vid 15 °C.<p>Svara i cm³ med tre värdesiffror.</p></li><li>60 cm³ gas vid 12 °C värms till 85 °C. Hur mycket ökar volymen?<p>Svara i cm³ med tre värdesiffror.</p></li><li>Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?<p>Svara i °C med tre värdesiffror.</p></li><li>Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?<p>Svara i °C med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=90+273{,}15=363{,}15\\,\\mathrm K\\), \\(T_2=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>Gasmängden och trycket är oförändrade. Då är volymen proportionell mot temperaturen i kelvin: \\(V_2=V_1T_2/T_1\\).</p>\\[V_2=52\\cdot\\frac{288{,}15}{363{,}15}\\,\\mathrm{cm^3}\\]<p><strong>Svar:</strong> \\(41{,}3\\,\\mathrm{cm³}\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=12+273{,}15=285{,}15\\,\\mathrm K\\), \\(T_2=85+273{,}15=358{,}15\\,\\mathrm K\\).</p><p>Gasmängden och trycket är oförändrade. Då är volymen proportionell mot temperaturen i kelvin: \\(V_2=V_1T_2/T_1\\).</p>\\[V_2=60\\cdot\\frac{358{,}15}{285{,}15}\\approx75{,}3603\\,\\mathrm{cm^3}\\]<p>Ökningen är slutvolymen minus startvolymen.</p>\\[\\Delta V=60\\left(\\frac{358{,}15}{285{,}15}-1\\right)\\,\\mathrm{cm^3}\\]<p><strong>Svar:</strong> \\(15{,}4\\,\\mathrm{cm³}\\).</p><p><strong>c)</strong></p><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\).</p><p>Gasmängden och trycket är oförändrade. Då är volymen proportionell mot temperaturen i kelvin: \\(V_2=V_1T_2/T_1\\).</p><p>Dubbel volym kräver dubbel temperatur i kelvin.</p>\\[T_2=2\\cdot283{,}15=566{,}30\\,\\mathrm K\\]\\[t_2=566{,}30-273{,}15=293{,}15\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(293\\,{}^\\circ\\mathrm C\\).</p><p><strong>d)</strong></p><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\).</p><p>Gasmängden och trycket är oförändrade. Då är volymen proportionell mot temperaturen i kelvin: \\(V_2=V_1T_2/T_1\\).</p><p>En ökning med 60 % ger volymfaktorn 1,60.</p>\\[T_2=1{,}60\\cdot293{,}15=469{,}04\\,\\mathrm K\\]\\[t_2=469{,}04-273{,}15=195{,}89\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(196\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "6.514",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      41.2561983471,
-      15.3684210526,
-      293,
-      195.8
+      41.2606361007848,
+      15.3603366649132,
+      293.15,
+      195.89
     ],
     "tolerans": [
-      0.619,
-      0.371,
-      4.39,
-      2.94
+      0.05,
+      0.05,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -153949,13 +153996,13 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p>",
+    "spelIntro": "<p>Gasmängden och trycket är konstanta.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En gas har volymen 52 cm³ vid 90 °C. Bestäm volymen vid 15 °C.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>En gas har volymen 52 cm³ vid 90 °C. Bestäm volymen vid 15 °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=52\\cdot\\dfrac{288}{363}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) cm³</p></div>",
+        "fraga": "En gas har volymen 52 cm³ vid 90 °C. Bestäm volymen vid 15 °C.<p>Svara i cm³ med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden och trycket är konstanta.</p><p>En gas har volymen 52 cm³ vid 90 °C. Bestäm volymen vid 15 °C.</p><p>Svara i cm³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=90+273{,}15=363{,}15\\,\\mathrm K\\), \\(T_2=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>Gasmängden och trycket är oförändrade. Då är volymen proportionell mot temperaturen i kelvin: \\(V_2=V_1T_2/T_1\\).</p>\\[V_2=52\\cdot\\frac{288{,}15}{363{,}15}\\,\\mathrm{cm^3}\\]<p><strong>Svar:</strong> \\(41{,}3\\,\\mathrm{cm³}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{V}{T}\\) är konstant.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -153964,9 +154011,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "60 cm³ gas vid 12 °C värms till 85 °C. Hur mycket ökar volymen?",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>60 cm³ gas vid 12 °C värms till 85 °C. Hur mycket ökar volymen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta V=60\\left(\\dfrac{358}{285}-1\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15{,}4\\) cm³</p></div>",
+        "fraga": "60 cm³ gas vid 12 °C värms till 85 °C. Hur mycket ökar volymen?<p>Svara i cm³ med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden och trycket är konstanta.</p><p>60 cm³ gas vid 12 °C värms till 85 °C. Hur mycket ökar volymen?</p><p>Svara i cm³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=12+273{,}15=285{,}15\\,\\mathrm K\\), \\(T_2=85+273{,}15=358{,}15\\,\\mathrm K\\).</p><p>Gasmängden och trycket är oförändrade. Då är volymen proportionell mot temperaturen i kelvin: \\(V_2=V_1T_2/T_1\\).</p>\\[V_2=60\\cdot\\frac{358{,}15}{285{,}15}\\approx75{,}3603\\,\\mathrm{cm^3}\\]<p>Ökningen är slutvolymen minus startvolymen.</p>\\[\\Delta V=60\\left(\\frac{358{,}15}{285{,}15}-1\\right)\\,\\mathrm{cm^3}\\]<p><strong>Svar:</strong> \\(15{,}4\\,\\mathrm{cm³}\\).</p></div>",
         "ledtrad": "<p>Beräkna den nya volymen först.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -153975,9 +154022,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=2\\cdot283=566\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(293\\) °C</p></div>",
+        "fraga": "Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?<p>Svara i °C med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden och trycket är konstanta.</p><p>Till vilken temperatur (°C) måste en gas på 10,0 °C värmas för att volymen ska fördubblas?</p><p>Svara i °C med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\).</p><p>Gasmängden och trycket är oförändrade. Då är volymen proportionell mot temperaturen i kelvin: \\(V_2=V_1T_2/T_1\\).</p><p>Dubbel volym kräver dubbel temperatur i kelvin.</p>\\[T_2=2\\cdot283{,}15=566{,}30\\,\\mathrm K\\]\\[t_2=566{,}30-273{,}15=293{,}15\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(293\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>\\(V\\propto T\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -153986,9 +154033,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket är konstant.</p><p>Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=1{,}600\\cdot293=469\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(196\\) °C</p></div>",
+        "fraga": "Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?<p>Svara i °C med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden och trycket är konstanta.</p><p>Till vilken temperatur (°C) ska en gas på 20,0 °C värmas för att volymen ska öka med 60,0 %?</p><p>Svara i °C med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\).</p><p>Gasmängden och trycket är oförändrade. Då är volymen proportionell mot temperaturen i kelvin: \\(V_2=V_1T_2/T_1\\).</p><p>En ökning med 60 % ger volymfaktorn 1,60.</p>\\[T_2=1{,}60\\cdot293{,}15=469{,}04\\,\\mathrm K\\]\\[t_2=469{,}04-273{,}15=195{,}89\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(196\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>\\(V\\propto T\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154000,7 +154047,13 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      41.2561983471074,
+      15.3684210526316,
+      293.0,
+      195.8
+    ]
   },
   {
     "kap": 6,
@@ -154008,15 +154061,15 @@ window.BANK = [
     "niva": "E",
     "typ": "gasbehållare vid brand",
     "poang": "(1/0/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gasbehållare har trycket 6,4 MPa vid 20 °C. Bestäm trycket om den värms till 250 °C.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=6{,}4\\cdot\\dfrac{523}{293}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{7}\\) Pa</p></div>",
+    "t": "<p>En lufttät behållare med konstant volym har det absoluta trycket 6,4 MPa vid 20 °C. Bestäm trycket om den värms till 250 °C.</p><p>Svara i Pa med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\), \\(T_2=250+273{,}15=523{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=6{,}4\\cdot10^6\\cdot\\frac{523{,}15}{293{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(1{,}14\\cdot10^{7}\\,\\mathrm{Pa}\\).</p></div>",
     "id": "6.515",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 11423890.784982935,
-    "tolerans": 510000.0,
+    "rättSvar": 11421320.1432714,
+    "tolerans": 50000.0,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -154027,7 +154080,8 @@ window.BANK = [
     "svarEnhet": "Pa",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 11423890.7849829
   },
   {
     "kap": 6,
@@ -154062,15 +154116,15 @@ window.BANK = [
     "niva": "E",
     "typ": "temperatur för dubbelt tryck",
     "poang": "(1/0/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En dosa med luft (20,0 °C, 1,00 atm) värms vid konstant volym. Vid vilken temperatur (°C) har trycket fördubblats?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=2\\cdot293=586\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(313\\) °C</p></div>",
+    "t": "<p>En dosa med luft (20,0 °C, 1,00 atm) värms utan att luft läcker ut och utan att volymen ändras. Vid vilken temperatur (°C) har trycket fördubblats?</p><p>Svara i °C med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p><p>Dubbelt tryck kräver dubbel temperatur i kelvin.</p>\\[T_2=2\\cdot293{,}15=586{,}30\\,\\mathrm K\\]\\[t_2=586{,}30-273{,}15=313{,}15\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(313\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "6.517",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 313,
-    "tolerans": 4.69,
+    "rättSvar": 313.15,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -154081,7 +154135,8 @@ window.BANK = [
     "svarEnhet": "°C",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 313.0
   },
   {
     "kap": 6,
@@ -154117,20 +154172,20 @@ window.BANK = [
     "niva": "A",
     "typ": "bildäck och temperatur",
     "poang": "(0/2/1)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><ol type=\"a\"><li>Det totala trycket var 275 kPa vid 8 °C och är 310 kPa efter körning. Bestäm temperaturen i °C.</li><li>Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=281\\cdot\\dfrac{310}{275}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Totalt: \\(371{,}3\\cdot\\dfrac{278}{323}=319{,}6\\) kPa.</p></div><div class=\"facit-stycke\"><p>Övertryck: \\(319{,}6-101{,}3\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}18\\cdot10^{5}\\) Pa</p></li></ol></div>",
+    "t": "<p>Däcket är lufttätt och har konstant volym.</p><ol type=\"a\"><li>Det absoluta trycket var 275 kPa vid 8 °C och är 310 kPa efter körning. Bestäm temperaturen i °C.<p>Svara i °C med tre värdesiffror.</p></li><li>Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.<p>Svara i Pa med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=8+273{,}15=281{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[T_2=281{,}15\\cdot\\frac{310}{275}\\approx316{,}933\\,\\mathrm K\\]\\[t_2=T_2-273{,}15\\approx43{,}783\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(43{,}8\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=50+273{,}15=323{,}15\\,\\mathrm K\\), \\(T_2=5+273{,}15=278{,}15\\,\\mathrm K\\).</p><p>Gaslagen använder absolut tryck. Starttrycket är därför \\(270+101{,}3=371{,}3\\,\\mathrm{kPa}\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_{2,\\mathrm{abs}}=371{,}3\\cdot\\frac{278{,}15}{323{,}15}\\approx319{,}595\\,\\mathrm{kPa}\\]<p>Tryckmätaren visar övertrycket, alltså trycket minus lufttrycket utanför.</p>\\[p_{2,\\mathrm{över}}=(p_{2,\\mathrm{abs}}-101{,}3)\\cdot1000\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(2{,}18\\cdot10^{5}\\,\\mathrm{Pa}\\).</p></div>",
     "id": "6.519",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      43.7636363636,
-      218270.89783281734
+      43.7827272727273,
+      218294.909484759
     ],
     "tolerans": [
-      0.656,
-      3270.0
+      0.05,
+      500.0
     ],
     "självrättning": true,
     "formaga": [
@@ -154151,13 +154206,13 @@ window.BANK = [
       "Pa"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p>",
+    "spelIntro": "<p>Däcket är lufttätt och har konstant volym.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Det totala trycket var 275 kPa vid 8 °C och är 310 kPa efter körning. Bestäm temperaturen i °C.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><p>Det totala trycket var 275 kPa vid 8 °C och är 310 kPa efter körning. Bestäm temperaturen i °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=281\\cdot\\dfrac{310}{275}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\) °C</p></div>",
+        "fraga": "Det absoluta trycket var 275 kPa vid 8 °C och är 310 kPa efter körning. Bestäm temperaturen i °C.<p>Svara i °C med tre värdesiffror.</p>",
+        "t": "<p>Däcket är lufttätt och har konstant volym.</p><p>Det absoluta trycket var 275 kPa vid 8 °C och är 310 kPa efter körning. Bestäm temperaturen i °C.</p><p>Svara i °C med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=8+273{,}15=281{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[T_2=281{,}15\\cdot\\frac{310}{275}\\approx316{,}933\\,\\mathrm K\\]\\[t_2=T_2-273{,}15\\approx43{,}783\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(43{,}8\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p}{T}\\) är konstant.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154166,9 +154221,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Volymen i däcket antas konstant.</p><p>Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Totalt: \\(371{,}3\\cdot\\dfrac{278}{323}=319{,}6\\) kPa.</p></div><div class=\"facit-stycke\"><p>Övertryck: \\(319{,}6-101{,}3\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}18\\cdot10^{5}\\) Pa</p></div>",
+        "fraga": "Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.<p>Svara i Pa med tre värdesiffror.</p>",
+        "t": "<p>Däcket är lufttätt och har konstant volym.</p><p>Övertrycket är 270 kPa vid 50,0 °C. Bestäm övertrycket vid 5,00 °C. Lufttrycket är 101,3 kPa.</p><p>Svara i Pa med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=50+273{,}15=323{,}15\\,\\mathrm K\\), \\(T_2=5+273{,}15=278{,}15\\,\\mathrm K\\).</p><p>Gaslagen använder absolut tryck. Starttrycket är därför \\(270+101{,}3=371{,}3\\,\\mathrm{kPa}\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_{2,\\mathrm{abs}}=371{,}3\\cdot\\frac{278{,}15}{323{,}15}\\approx319{,}595\\,\\mathrm{kPa}\\]<p>Tryckmätaren visar övertrycket, alltså trycket minus lufttrycket utanför.</p>\\[p_{2,\\mathrm{över}}=(p_{2,\\mathrm{abs}}-101{,}3)\\cdot1000\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(2{,}18\\cdot10^{5}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>Gaslagen gäller det totala trycket.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -154180,7 +154235,11 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      43.7636363636364,
+      218270.897832817
+    ]
   },
   {
     "kap": 6,
@@ -154188,15 +154247,15 @@ window.BANK = [
     "niva": "C",
     "typ": "kabintryck och temperatur",
     "poang": "(0/1/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Temperaturen i en flygplanskabin höjs från 18 °C till 24 °C med samma volym och mängd luft. Hur många procent ökar trycket?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{297}{291}=1{,}021\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}1\\) %</p></div>",
+    "t": "<p>Temperaturen i en flygplanskabin höjs från 18 °C till 24 °C med samma volym och mängd luft. Hur många procent ökar trycket?</p><p>Svara i % med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=18+273{,}15=291{,}15\\,\\mathrm K\\), \\(T_2=24+273{,}15=297{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[\\frac{p_2-p_1}{p_1}\\cdot100=\\left(\\frac{297{,}15}{291{,}15}-1\\right)\\cdot100\\,\\%\\]<p><strong>Svar:</strong> \\(2{,}06\\,\\%\\).</p></div>",
     "id": "6.520",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.0618556701030855,
-    "tolerans": 0.051,
+    "rättSvar": 2.0607934054611,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -154208,7 +154267,8 @@ window.BANK = [
     "svarEnhet": "%",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 2.06185567010309
   },
   {
     "kap": 6,
@@ -154216,15 +154276,15 @@ window.BANK = [
     "niva": "C",
     "typ": "glasballong tål begränsat övertryck",
     "poang": "(0/1/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En glasballong försluts vid 18,0 °C och 1 015 mbar. Den tål ett övertryck på högst 450 mbar. Till vilken temperatur (°C) får den högst värmas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Högsta totaltryck 1 465 mbar.</p></div><div class=\"facit-stycke\"><p>\\(T=291\\cdot\\dfrac{1\\,465}{1\\,015}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(147\\) °C</p></div>",
+    "t": "<p>En glasballong försluts vid 18,0 °C och 1 015 mbar. Volymen och gasmängden är konstanta. Lufttrycket utanför är hela tiden 1 015 mbar. Den tål ett övertryck på högst 450 mbar. Till vilken temperatur (°C) får den högst värmas?</p><p>Svara i °C med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=18+273{,}15=291{,}15\\,\\mathrm K\\).</p><p>Det största absoluta trycket är \\(1015+450=1465\\,\\mathrm{mbar}\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[T_2=291{,}15\\cdot\\frac{1465}{1015}\\approx420{,}231\\,\\mathrm K\\]\\[t_2=T_2-273{,}15\\approx147{,}081\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(147\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "6.521",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 147.014778325,
-    "tolerans": 2.21,
+    "rättSvar": 147.081280788177,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -154236,7 +154296,8 @@ window.BANK = [
     "svarEnhet": "°C",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 147.014778325123
   },
   {
     "kap": 6,
@@ -154244,15 +154305,15 @@ window.BANK = [
     "niva": "C",
     "typ": "dykartub i kallt vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En dykartub fylldes till 204 atm vid 29 °C. På djupet visar den 191 atm (nästan ingen luft använd). Bestäm vattnets temperatur i °C.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=302\\cdot\\dfrac{191}{204}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}8\\) °C</p></div>",
+    "t": "<p>En lufttät dykflaska med konstant volym har det absoluta trycket 204 atm vid 29 °C. Senare har trycket sjunkit till 191 atm. Bestäm gasens temperatur i °C.</p><p>Svara i °C med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=29+273{,}15=302{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[T_2=302{,}15\\cdot\\frac{191}{204}\\approx282{,}895\\,\\mathrm K\\]\\[t_2=T_2-273{,}15\\approx9{,}745\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(9{,}75\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "6.522",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 9.75490196078431,
-    "tolerans": 0.6,
+    "rättSvar": 9.74534313725491,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -154264,7 +154325,8 @@ window.BANK = [
     "svarEnhet": "°C",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 9.75490196078431
   },
   {
     "kap": 6,
@@ -154272,15 +154334,15 @@ window.BANK = [
     "niva": "C",
     "typ": "tryckökning mellan ammoniak och kokande vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En glaskula med helium flyttas från flytande ammoniak (−33 °C) till kokande vatten (100 °C). Hur många procent ökar trycket?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{373}{240}=1{,}554\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(55\\) %</p></div>",
+    "t": "<p>En lufttät glaskula med helium har konstant volym. Den flyttas från flytande ammoniak (−33 °C) till kokande vatten (100 °C). Hur många procent ökar trycket?</p><p>Svara i % med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=-33+273{,}15=240{,}15\\,\\mathrm K\\), \\(T_2=100+273{,}15=373{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[\\frac{p_2-p_1}{p_1}\\cdot100=\\left(\\frac{373{,}15}{240{,}15}-1\\right)\\cdot100\\,\\%\\]<p><strong>Svar:</strong> \\(55{,}4\\,\\%\\).</p></div>",
     "id": "6.523",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 55.41666666666667,
-    "tolerans": 0.831,
+    "rättSvar": 55.3820528836144,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -154291,7 +154353,8 @@ window.BANK = [
     "svarEnhet": "%",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 55.4166666666667
   },
   {
     "kap": 6,
@@ -154327,15 +154390,15 @@ window.BANK = [
     "niva": "A",
     "typ": "säkerhetsventil öppnas",
     "poang": "(0/1/1)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En sluten behållare innehåller luft (101,3 kPa, 15 °C). Behållarens runda säkerhetsventil (diameter 1,20 cm) öppnar när nettokraften från gasen överstiger 8,0 N. Trycket utanför är 101,3 kPa. Vid vilken temperatur (°C) öppnar den? Volymen är konstant.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta p=\\dfrac{8{,}0}{\\pi\\cdot0{,}0060^2}=70{,}7\\) kPa.</p></div><div class=\"facit-stycke\"><p>\\(T=288\\cdot\\dfrac{172{,}0}{101{,}3}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(216\\) °C</p></div>",
+    "t": "<p>En sluten behållare innehåller luft (101,3 kPa, 15 °C). Behållarens runda säkerhetsventil (diameter 1,20 cm) öppnar när nettokraften från gasen når 8,0 N. Trycket utanför är 101,3 kPa. Vid vilken temperatur (°C) öppnar den? Volymen är konstant.</p><p>Svara i °C med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>Ventilens radie är \\(1{,}20/2=0{,}600\\,\\mathrm{cm}=0{,}00600\\,\\mathrm m\\). Tryckskillnaden ger nettokraften.</p>\\[\\Delta p=\\frac FA=\\frac8{\\pi\\cdot0{,}00600^2}\\approx70735{,}5\\,\\mathrm{Pa}\\]\\[p_2=101300+\\Delta p\\approx172035{,}5\\,\\mathrm{Pa}\\]<p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[T_2=288{,}15\\cdot\\frac{p_2}{101300}\\]\\[t_2=T_2-273{,}15\\approx216{,}209\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(216\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "6.525",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 216.103975476,
-    "tolerans": 6.1,
+    "rättSvar": 216.208717130326,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -154346,7 +154409,8 @@ window.BANK = [
     "svarEnhet": "°C",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 216.103975476432
   },
   {
     "kap": 6,
@@ -154354,15 +154418,15 @@ window.BANK = [
     "niva": "A",
     "typ": "uppvärmd kubisk låda",
     "poang": "(0/1/1)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En kubisk låda (volym \\(6{,}15\\cdot10^{-2}\\) m³) med luft vid 101,3 kPa och 15 °C försluts och värms till 165 °C. Hur stor nettokraft verkar på en sida? Bortse från att lådan expanderar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=101{,}3\\cdot\\dfrac{438}{288}\\],</div></div><div class=\"facit-stycke\"><p>\\(\\Delta p=p-101{,}3\\) kPa.</p></div><div class=\"facit-stycke\"><p>Sidans area: \\(V^{2/3}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\Delta p\\cdot A\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\,220\\) N</p></div>",
+    "t": "<p>En kubisk låda (volym \\(6{,}15\\cdot10^{-2}\\) m³) med luft vid 101,3 kPa och 15 °C försluts och värms till 165 °C. Lufttrycket utanför är hela tiden 101,3 kPa. Hur stor utåtriktad nettokraft verkar på en sida? Bortse från att lådan expanderar.</p><p>Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\), \\(T_2=165+273{,}15=438{,}15\\,\\mathrm K\\).</p><p>En sida i en kub har arean \\(A=V^{2/3}=0{,}0615^{2/3}\\,\\mathrm{m^2}\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_2=101300\\cdot\\frac{438{,}15}{288{,}15}\\,\\mathrm{Pa}\\]<p>Nettokraften beror på skillnaden mellan trycket inuti och utanför.</p>\\[F=(p_2-101300)\\cdot0{,}0615^{2/3}\\,\\mathrm N\\]<p><strong>Svar:</strong> \\(8{,}22\\cdot10^{3}\\,\\mathrm{N}\\).</p></div>",
     "id": "6.526",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 8220.374950428726,
-    "tolerans": 123.0,
+    "rättSvar": 8216.09573390066,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -154373,7 +154437,8 @@ window.BANK = [
     "svarEnhet": "N",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 8220.37495042873
   },
   {
     "kap": 6,
@@ -154381,15 +154446,15 @@ window.BANK = [
     "niva": "E",
     "typ": "luft i lungorna värms",
     "poang": "(1/0/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Du andas in 2,5 liter luft vid −5 °C. Hur stor volym har luften när den värmts till 37 °C vid samma tryck?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=2{,}5\\cdot\\dfrac{310}{268}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) l</p></div>",
+    "t": "<p>Du andas in 2,5 liter luft vid −5 °C. Hur stor volym har luften när den värmts till 37 °C vid samma tryck?</p><p>Svara i l med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=-5+273{,}15=268{,}15\\,\\mathrm K\\), \\(T_2=37+273{,}15=310{,}15\\,\\mathrm K\\).</p><p>Gasmängden och trycket är oförändrade. Då är volymen proportionell mot temperaturen i kelvin: \\(V_2=V_1T_2/T_1\\).</p>\\[V_2=2{,}5\\cdot\\frac{310{,}15}{268{,}15}\\,\\mathrm{liter}\\]<p><strong>Svar:</strong> \\(2{,}89\\,\\mathrm{l}\\).</p></div>",
     "id": "6.527",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.89179104478,
-    "tolerans": 0.0434,
+    "rättSvar": 2.89157188140966,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -154400,7 +154465,8 @@ window.BANK = [
     "svarEnhet": "l",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 2.89179104477612
   },
   {
     "kap": 6,
@@ -154408,15 +154474,15 @@ window.BANK = [
     "niva": "C",
     "typ": "syltburk med undertryck",
     "poang": "(0/1/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luften under locket på en syltburk hade 101,3 kPa vid 85 °C. Vid öppningen är temperaturen 22 °C och lufttrycket 101,3 kPa. Hur stor kraft krävs minst för att öppna locket (diameter 8,0 cm)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(p=101{,}3\\cdot\\dfrac{295}{358}=83{,}5\\) kPa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=(101{,}3-83{,}5)\\cdot10^3\\cdot\\pi\\cdot0{,}040^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(90\\) N</p></div>",
+    "t": "<p>En lufttät syltburk kyls utan att luftens volym ändras. Luften under locket på en syltburk hade 101,3 kPa vid 85 °C. Vid öppningen är temperaturen 22 °C och lufttrycket 101,3 kPa. Hur stor uppåtriktad kraft behövs för att övervinna tryckskillnaden på locket (diameter 8,0 cm)?</p><p>Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=85+273{,}15=358{,}15\\,\\mathrm K\\), \\(T_2=22+273{,}15=295{,}15\\,\\mathrm K\\).</p><p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[p_{\\mathrm{in}}=101300\\cdot\\frac{295{,}15}{358{,}15}\\,\\mathrm{Pa}\\]<p>Lockets radie är 0,040 m. Tryckskillnaden håller locket nedåt.</p>\\[F=(101300-p_{\\mathrm{in}})\\pi\\cdot0{,}040^2\\,\\mathrm N\\]<p><strong>Svar:</strong> \\(89{,}6\\,\\mathrm{N}\\).</p></div>",
     "id": "6.528",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 89.605944831,
-    "tolerans": 2.35,
+    "rättSvar": 89.5684161650468,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -154428,7 +154494,8 @@ window.BANK = [
     "svarEnhet": "N",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 89.6059448310378
   },
   {
     "kap": 6,
@@ -154464,24 +154531,24 @@ window.BANK = [
     "niva": "C",
     "typ": "allmänna gaslagen med tre storheter",
     "poang": "(0/4/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>En gas har 120 cm³ vid 10 °C och 1 013 mbar. Bestäm volymen vid 65,0 °C och 1 380 mbar.</li><li>En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.</li><li>Luft (54,0 liter, 16,0 °C, 2,20 atm) komprimeras till 35,5 liter och värms till 48,0 °C. Bestäm trycket i atm.</li><li>En gas har 2,40 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 2,60 atm och 45,0 °C.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=120\\cdot\\dfrac{1\\,013}{1\\,380}\\cdot\\dfrac{338}{283}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(105\\) cm³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=1{,}0\\cdot10^5\\cdot\\dfrac{1{,}2}{0{,}60}\\cdot\\dfrac{500}{300}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}3\\cdot10^{5}\\) Pa</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=2{,}20\\cdot\\dfrac{54{,}0}{35{,}5}\\cdot\\dfrac{321}{289}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}72\\) atm</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=2{,}40\\cdot\\dfrac{1{,}00}{2{,}60}\\cdot\\dfrac{318}{273}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\) m³</p></li></ol></div>",
+    "t": "<ol type=\"a\"><li>En gas har 120 cm³ vid 10 °C och 1 013 mbar. Bestäm volymen vid 65,0 °C och 1 380 mbar.<p>Svara i cm³ med tre värdesiffror.</p></li><li>En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.<p>Svara i Pa med tre värdesiffror.</p></li><li>Luft (54,0 liter, 16,0 °C, 2,20 atm) komprimeras till 35,5 liter och värms till 48,0 °C. Bestäm trycket i atm.<p>Svara i atm med tre värdesiffror.</p></li><li>En gas har 2,40 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 2,60 atm och 45,0 °C.<p>Svara i m³ med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\), \\(T_2=65+273{,}15=338{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=120\\cdot\\frac{1013}{1380}\\cdot\\frac{338{,}15}{283{,}15}\\,\\mathrm{cm^3}\\]<p><strong>Svar:</strong> \\(105\\,\\mathrm{cm³}\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=27+273{,}15=300{,}15\\,\\mathrm K\\), \\(T_2=227+273{,}15=500{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[p_2=10^5\\cdot\\frac{1{,}2}{0{,}60}\\cdot\\frac{500{,}15}{300{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(3{,}33\\cdot10^{5}\\,\\mathrm{Pa}\\).</p><p><strong>c)</strong></p><p>Temperaturerna i kelvin är \\(T_1=16+273{,}15=289{,}15\\,\\mathrm K\\), \\(T_2=48+273{,}15=321{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[p_2=2{,}20\\cdot\\frac{54{,}0}{35{,}5}\\cdot\\frac{321{,}15}{289{,}15}\\,\\mathrm{atm}\\]<p><strong>Svar:</strong> \\(3{,}72\\,\\mathrm{atm}\\).</p><p><strong>d)</strong></p><p>Temperaturerna i kelvin är \\(T_1=0+273{,}15=273{,}15\\,\\mathrm K\\), \\(T_2=45+273{,}15=318{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=2{,}40\\cdot\\frac{1{,}00}{2{,}60}\\cdot\\frac{318{,}15}{273{,}15}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(1{,}08\\,\\mathrm{m³}\\).</p></div>",
     "id": "6.530",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      105.206329697,
-      333333.3333333333,
-      3.71702324675,
-      1.07523245985
+      105.19726063156,
+      333266.699983342,
+      3.71683102244802,
+      1.07514890381447
     ],
     "tolerans": [
-      1.58,
-      5100.0,
-      0.0558,
-      0.0161
+      0.5,
+      500.0,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -154507,13 +154574,13 @@ window.BANK = [
       "m³"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En gas har 120 cm³ vid 10 °C och 1 013 mbar. Bestäm volymen vid 65,0 °C och 1 380 mbar.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har 120 cm³ vid 10 °C och 1 013 mbar. Bestäm volymen vid 65,0 °C och 1 380 mbar.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=120\\cdot\\dfrac{1\\,013}{1\\,380}\\cdot\\dfrac{338}{283}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(105\\) cm³</p></div>",
+        "fraga": "En gas har 120 cm³ vid 10 °C och 1 013 mbar. Bestäm volymen vid 65,0 °C och 1 380 mbar.<p>Svara i cm³ med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden är oförändrad. Alla angivna tryck är absoluta.</p><p>En gas har 120 cm³ vid 10 °C och 1 013 mbar. Bestäm volymen vid 65,0 °C och 1 380 mbar.</p><p>Svara i cm³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\), \\(T_2=65+273{,}15=338{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=120\\cdot\\frac{1013}{1380}\\cdot\\frac{338{,}15}{283{,}15}\\,\\mathrm{cm^3}\\]<p><strong>Svar:</strong> \\(105\\,\\mathrm{cm³}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154522,9 +154589,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=1{,}0\\cdot10^5\\cdot\\dfrac{1{,}2}{0{,}60}\\cdot\\dfrac{500}{300}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}3\\cdot10^{5}\\) Pa</p></div>",
+        "fraga": "En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.<p>Svara i Pa med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden är oförändrad. Alla angivna tryck är absoluta.</p><p>En gas (1,2 m³, \\(1{,}0\\cdot10^5\\) Pa, 27 °C) komprimeras till 0,60 m³ och värms till 227 °C. Bestäm trycket.</p><p>Svara i Pa med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=27+273{,}15=300{,}15\\,\\mathrm K\\), \\(T_2=227+273{,}15=500{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[p_2=10^5\\cdot\\frac{1{,}2}{0{,}60}\\cdot\\frac{500{,}15}{300{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(3{,}33\\cdot10^{5}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154533,9 +154600,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Luft (54,0 liter, 16,0 °C, 2,20 atm) komprimeras till 35,5 liter och värms till 48,0 °C. Bestäm trycket i atm.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (54,0 liter, 16,0 °C, 2,20 atm) komprimeras till 35,5 liter och värms till 48,0 °C. Bestäm trycket i atm.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=2{,}20\\cdot\\dfrac{54{,}0}{35{,}5}\\cdot\\dfrac{321}{289}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}72\\) atm</p></div>",
+        "fraga": "Luft (54,0 liter, 16,0 °C, 2,20 atm) komprimeras till 35,5 liter och värms till 48,0 °C. Bestäm trycket i atm.<p>Svara i atm med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden är oförändrad. Alla angivna tryck är absoluta.</p><p>Luft (54,0 liter, 16,0 °C, 2,20 atm) komprimeras till 35,5 liter och värms till 48,0 °C. Bestäm trycket i atm.</p><p>Svara i atm med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=16+273{,}15=289{,}15\\,\\mathrm K\\), \\(T_2=48+273{,}15=321{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[p_2=2{,}20\\cdot\\frac{54{,}0}{35{,}5}\\cdot\\frac{321{,}15}{289{,}15}\\,\\mathrm{atm}\\]<p><strong>Svar:</strong> \\(3{,}72\\,\\mathrm{atm}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154544,9 +154611,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En gas har 2,40 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 2,60 atm och 45,0 °C.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har 2,40 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 2,60 atm och 45,0 °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=2{,}40\\cdot\\dfrac{1{,}00}{2{,}60}\\cdot\\dfrac{318}{273}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\) m³</p></div>",
+        "fraga": "En gas har 2,40 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 2,60 atm och 45,0 °C.<p>Svara i m³ med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden är oförändrad. Alla angivna tryck är absoluta.</p><p>En gas har 2,40 m³ vid 0 °C och 1,00 atm. Bestäm volymen vid 2,60 atm och 45,0 °C.</p><p>Svara i m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=0+273{,}15=273{,}15\\,\\mathrm K\\), \\(T_2=45+273{,}15=318{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=2{,}40\\cdot\\frac{1{,}00}{2{,}60}\\cdot\\frac{318{,}15}{273{,}15}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(1{,}08\\,\\mathrm{m³}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154558,7 +154625,13 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__allmanna_gaslagen",
     "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      105.206329697342,
+      333333.333333333,
+      3.71702324674692,
+      1.07523245984784
+    ]
   },
   {
     "kap": 6,
@@ -154566,20 +154639,20 @@ window.BANK = [
     "niva": "C",
     "typ": "temperatur vid kompression i motor",
     "poang": "(0/2/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>Luft (25 °C) i en cylinder komprimeras så att volymen minskar med 88 % och trycket ökar 18 gånger. Bestäm temperaturen i kelvin.</li><li>Luft (17 °C, 100 kPa) pressas ihop till 1/8 av volymen och trycket blir 3,5 MPa. Bestäm temperaturen i kelvin.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=298\\cdot0{,}12\\cdot18\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(644\\) K</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=290\\cdot\\dfrac18\\cdot35\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,269\\) K</p></li></ol></div>",
+    "t": "<ol type=\"a\"><li>Luft (25 °C) i en cylinder komprimeras så att volymen minskar med 88 % och trycket ökar 18 gånger. Bestäm temperaturen i kelvin.<p>Svara i K med tre värdesiffror.</p></li><li>Luft (17 °C, 100 kPa) pressas ihop till 1/8 av volymen och trycket blir 3,5 MPa. Bestäm temperaturen i kelvin.<p>Svara i K med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=25+273{,}15=298{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p><p>Efter minskningen återstår 12 % av volymen. Trycket blir 18 gånger så stort.</p>\\[T_2=T_1\\frac{p_2V_2}{p_1V_1}=298{,}15\\cdot18\\cdot0{,}12\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(644\\,\\mathrm{K}\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=17+273{,}15=290{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p><p>Omvandla 3,5 MPa till 3500 kPa. Tryckfaktorn är 35 och volymfaktorn är 1/8.</p>\\[T_2=290{,}15\\cdot35\\cdot\\frac18\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(1{,}27\\cdot10^{3}\\,\\mathrm{K}\\).</p></div>",
     "id": "6.531",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      643.68,
-      1268.75
+      644.004,
+      1269.40625
     ],
     "tolerans": [
-      9.66,
-      49.7
+      0.5,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -154600,13 +154673,13 @@ window.BANK = [
       "K"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Luft (25 °C) i en cylinder komprimeras så att volymen minskar med 88 % och trycket ökar 18 gånger. Bestäm temperaturen i kelvin.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (25 °C) i en cylinder komprimeras så att volymen minskar med 88 % och trycket ökar 18 gånger. Bestäm temperaturen i kelvin.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=298\\cdot0{,}12\\cdot18\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(644\\) K</p></div>",
+        "fraga": "Luft (25 °C) i en cylinder komprimeras så att volymen minskar med 88 % och trycket ökar 18 gånger. Bestäm temperaturen i kelvin.<p>Svara i K med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden är oförändrad. Alla angivna tryck är absoluta.</p><p>Luft (25 °C) i en cylinder komprimeras så att volymen minskar med 88 % och trycket ökar 18 gånger. Bestäm temperaturen i kelvin.</p><p>Svara i K med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=25+273{,}15=298{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p><p>Efter minskningen återstår 12 % av volymen. Trycket blir 18 gånger så stort.</p>\\[T_2=T_1\\frac{p_2V_2}{p_1V_1}=298{,}15\\cdot18\\cdot0{,}12\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(644\\,\\mathrm{K}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154615,9 +154688,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Luft (17 °C, 100 kPa) pressas ihop till 1/8 av volymen och trycket blir 3,5 MPa. Bestäm temperaturen i kelvin.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Luft (17 °C, 100 kPa) pressas ihop till 1/8 av volymen och trycket blir 3,5 MPa. Bestäm temperaturen i kelvin.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=290\\cdot\\dfrac18\\cdot35\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,269\\) K</p></div>",
+        "fraga": "Luft (17 °C, 100 kPa) pressas ihop till 1/8 av volymen och trycket blir 3,5 MPa. Bestäm temperaturen i kelvin.<p>Svara i K med tre värdesiffror.</p>",
+        "t": "<p>Gasmängden är oförändrad. Alla angivna tryck är absoluta.</p><p>Luft (17 °C, 100 kPa) pressas ihop till 1/8 av volymen och trycket blir 3,5 MPa. Bestäm temperaturen i kelvin.</p><p>Svara i K med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=17+273{,}15=290{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p><p>Omvandla 3,5 MPa till 3500 kPa. Tryckfaktorn är 35 och volymfaktorn är 1/8.</p>\\[T_2=290{,}15\\cdot35\\cdot\\frac18\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(1{,}27\\cdot10^{3}\\,\\mathrm{K}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -154629,7 +154702,11 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__allmanna_gaslagen",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      643.68,
+      1268.75
+    ]
   },
   {
     "kap": 6,
@@ -154637,15 +154714,15 @@ window.BANK = [
     "niva": "C",
     "typ": "väderballong på hög höjd",
     "poang": "(0/1/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En vätgasballong har volymen 5,0 m³ vid 27 °C och \\(1{,}0\\cdot10^5\\) Pa. Vilken volym borde den ha på 40 km höjd, där trycket är 330 Pa och temperaturen −13 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=5{,}0\\cdot\\dfrac{1{,}0\\cdot10^5}{330}\\cdot\\dfrac{260}{300}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,313\\) m³</p></div>",
+    "t": "<p>Gasmängden är oförändrad. Alla angivna tryck är absoluta.</p><p>En vätgasballong har volymen 5,0 m³ vid 27 °C och \\(1{,}0\\cdot10^5\\) Pa. Ballongen är mjuk och har samma tryck som omgivningen. Vilken volym ger gaslagen på 40 km höjd, där trycket är 330 Pa och temperaturen −13 °C?</p><p>Svara i m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=27+273{,}15=300{,}15\\,\\mathrm K\\), \\(T_2=-13+273{,}15=260{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=5{,}0\\cdot\\frac{100000}{330}\\cdot\\frac{260{,}15}{300{,}15}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(1{,}31\\cdot10^{3}\\,\\mathrm{m³}\\).</p></div>",
     "id": "6.532",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 1313.1313131313132,
-    "tolerans": 51.0,
+    "rättSvar": 1313.23227275251,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -154657,7 +154734,8 @@ window.BANK = [
     "svarEnhet": "m³",
     "familjNyckel": "gaslagen__allmanna_gaslagen",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 1313.13131313131
   },
   {
     "kap": 6,
@@ -154665,15 +154743,15 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck i stigande väderballong",
     "poang": "(1/0/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En väderballong växer från 4,0 m³ till 12 m³ samtidigt som temperaturen sjunker från 20 °C till −10 °C. Trycket var 101,3 kPa från början. Bestäm det nya trycket.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=101{,}3\\cdot\\dfrac{4{,}0}{12}\\cdot\\dfrac{263}{293}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,309\\) Pa</p></div>",
+    "t": "<p>Gasmängden är oförändrad. Alla angivna tryck är absoluta.</p><p>En väderballong växer från 4,0 m³ till 12 m³ samtidigt som temperaturen sjunker från 20 °C till −10 °C. Trycket var 101,3 kPa från början. Bestäm det nya trycket.</p><p>Svara i Pa med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\), \\(T_2=-10+273{,}15=263{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[p_2=101300\\cdot\\frac4{12}\\cdot\\frac{263{,}15}{293{,}15}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(3{,}03\\cdot10^{4}\\,\\mathrm{Pa}\\).</p></div>",
     "id": "6.533",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 30309.328782707616,
-    "tolerans": 510.0,
+    "rättSvar": 30311.0978452442,
+    "tolerans": 50.0,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -154684,7 +154762,8 @@ window.BANK = [
     "svarEnhet": "Pa",
     "familjNyckel": "gaslagen__allmanna_gaslagen",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 30309.3287827076
   },
   {
     "kap": 6,
@@ -154692,15 +154771,15 @@ window.BANK = [
     "niva": "E",
     "typ": "temperatur ur kvoter",
     "poang": "(1/0/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>En gas har volymen \\(V\\), trycket \\(p\\) och temperaturen 15 °C. Bestäm temperaturen i kelvin när volymen är \\(2{,}4V\\) och trycket \\(0{,}15p\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=288\\cdot2{,}4\\cdot0{,}15\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(104\\) K</p></div>",
+    "t": "<p>Gasmängden är oförändrad. Alla angivna tryck är absoluta.</p><p>En gas har volymen \\(V\\), trycket \\(p\\) och temperaturen 15 °C. Bestäm temperaturen i kelvin när volymen är \\(2{,}4V\\) och trycket \\(0{,}15p\\).</p><p>Svara i K med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p><p>Tryck och volym förändras med faktorerna 0,15 och 2,4.</p>\\[T_2=T_1\\frac{p_2V_2}{p_1V_1}=288{,}15\\cdot0{,}15\\cdot2{,}4\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(104\\,\\mathrm{K}\\).</p></div>",
     "id": "6.534",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 103.68,
-    "tolerans": 1.55,
+    "rättSvar": 103.734,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -154711,7 +154790,8 @@ window.BANK = [
     "svarEnhet": "K",
     "familjNyckel": "gaslagen__allmanna_gaslagen",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 103.68
   },
   {
     "kap": 6,
@@ -154975,22 +155055,22 @@ window.BANK = [
     "niva": "A",
     "typ": "stigande luftbubblor som värms",
     "poang": "(0/3/2)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><ol type=\"a\"><li>En bubbla (2,00 cm³) stiger från 15,0 m djup (8,0 °C) till ytan (22,0 °C). Bestäm volymen vid ytan.</li><li>En bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.</li><li>En bubbla har 1,00 cm³ vid botten (6,5 °C) och 4,2 cm³ vid ytan (20,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=2{,}00\\cdot\\dfrac{101{,}3+147{,}3}{101{,}3}\\cdot\\dfrac{295}{281}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}15\\) cm³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{V_2}{V_1}=\\dfrac{101{,}3+785{,}6}{101{,}3}\\cdot\\dfrac{291}{277}\\],</div></div><div class=\"facit-stycke\"><p>\\(d=1{,}00\\sqrt[3]{V_2/V_1}\\) mm.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00210\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(p_1=101\\cdot4{,}2\\cdot\\dfrac{279{,}5}{293{,}5}=404{,}0\\) kPa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{(404{,}0-101)\\cdot10^3}{1\\,000\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30{,}9\\) m</p></li></ol></div>",
+    "t": "<p>Gas stannar kvar i bubblan och trycket i bubblan är lika med vattnets tryck. I a) och b) är lufttrycket vid ytan 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><ol type=\"a\"><li>En bubbla (2,00 cm³) stiger från 15,0 m djup (8,0 °C) till ytan (22,0 °C). Bestäm volymen vid ytan.<p>Svara i cm³ med tre värdesiffror.</p></li><li>En klotformad bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.<p>Svara i m med tre värdesiffror.</p></li><li>En bubbla har 1,00 cm³ vid botten (6,5 °C) och 4,2 cm³ vid ytan (20,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?<p>Svara i m med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=8+273{,}15=281{,}15\\,\\mathrm K\\), \\(T_2=22+273{,}15=295{,}15\\,\\mathrm K\\).</p><p>Trycket på 15 m djup är \\(p_1=101300+1000\\cdot9{,}82\\cdot15=248600\\,\\mathrm{Pa}\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=2{,}00\\cdot\\frac{248600}{101300}\\cdot\\frac{295{,}15}{281{,}15}\\,\\mathrm{cm^3}\\]<p><strong>Svar:</strong> \\(5{,}15\\,\\mathrm{cm³}\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=4+273{,}15=277{,}15\\,\\mathrm K\\), \\(T_2=18+273{,}15=291{,}15\\,\\mathrm K\\).</p><p>Trycket på 80 m djup är \\(p_1=101300+1000\\cdot9{,}82\\cdot80=886900\\,\\mathrm{Pa}\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[\\frac{V_2}{V_1}=\\frac{886900}{101300}\\cdot\\frac{291{,}15}{277{,}15}\\]<p>För en klotformad bubbla är volymen proportionell mot diametern i kubik. Därför blir diameterfaktorn volymfaktorns kubikrot.</p>\\[d_2=0{,}00100\\sqrt[3]{V_2/V_1}\\,\\mathrm m\\]<p><strong>Svar:</strong> \\(0{,}00210\\,\\mathrm{m}\\).</p><p><strong>c)</strong></p><p>Temperaturerna i kelvin är \\(T_1=6{,}5+273{,}15=279{,}65\\,\\mathrm K\\), \\(T_2=20{,}5+273{,}15=293{,}65\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[p_1=101000\\cdot4{,}2\\cdot\\frac{279{,}65}{293{,}65}\\,\\mathrm{Pa}\\]<p>Skillnaden mot lufttrycket är vattnets tryck. Använd \\(p_1-p_0=\\rho gh\\).</p>\\[h=\\frac{p_1-101000}{1000\\cdot9{,}82}\\,\\mathrm m\\]<p><strong>Svar:</strong> \\(30{,}9\\,\\mathrm{m}\\).</p></div>",
     "id": "6.539",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Allmänna gaslagen",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5.1527298149,
-      0.0020952031731673176,
-      30.8518928446
+      5.1525993491335,
+      0.00209518498788362,
+      30.852945388871
     ],
     "tolerans": [
-      0.0773,
-      3.14e-05,
-      0.463
+      0.005,
+      5e-06,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -155014,13 +155094,13 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p>",
+    "spelIntro": "<p>Gas stannar kvar i bubblan och trycket i bubblan är lika med vattnets tryck. I a) och b) är lufttrycket vid ytan 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En bubbla (2,00 cm³) stiger från 15,0 m djup (8,0 °C) till ytan (22,0 °C). Bestäm volymen vid ytan.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla (2,00 cm³) stiger från 15,0 m djup (8,0 °C) till ytan (22,0 °C). Bestäm volymen vid ytan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=2{,}00\\cdot\\dfrac{101{,}3+147{,}3}{101{,}3}\\cdot\\dfrac{295}{281}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}15\\) cm³</p></div>",
+        "fraga": "En bubbla (2,00 cm³) stiger från 15,0 m djup (8,0 °C) till ytan (22,0 °C). Bestäm volymen vid ytan.<p>Svara i cm³ med tre värdesiffror.</p>",
+        "t": "<p>Gas stannar kvar i bubblan och trycket i bubblan är lika med vattnets tryck. Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla (2,00 cm³) stiger från 15,0 m djup (8,0 °C) till ytan (22,0 °C). Bestäm volymen vid ytan.</p><p>Svara i cm³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=8+273{,}15=281{,}15\\,\\mathrm K\\), \\(T_2=22+273{,}15=295{,}15\\,\\mathrm K\\).</p><p>Trycket på 15 m djup är \\(p_1=101300+1000\\cdot9{,}82\\cdot15=248600\\,\\mathrm{Pa}\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[V_2=2{,}00\\cdot\\frac{248600}{101300}\\cdot\\frac{295{,}15}{281{,}15}\\,\\mathrm{cm^3}\\]<p><strong>Svar:</strong> \\(5{,}15\\,\\mathrm{cm³}\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155029,9 +155109,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{V_2}{V_1}=\\dfrac{101{,}3+785{,}6}{101{,}3}\\cdot\\dfrac{291}{277}\\],</div></div><div class=\"facit-stycke\"><p>\\(d=1{,}00\\sqrt[3]{V_2/V_1}\\) mm.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00210\\) m</p></div>",
+        "fraga": "En klotformad bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.<p>Svara i m med tre värdesiffror.</p>",
+        "t": "<p>Gas stannar kvar i bubblan och trycket i bubblan är lika med vattnets tryck. Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En klotformad bubbla (diameter 1,00 mm) stiger från 80,0 m djup (4,0 °C) till ytan (18 °C). Bestäm diametern vid ytan.</p><p>Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=4+273{,}15=277{,}15\\,\\mathrm K\\), \\(T_2=18+273{,}15=291{,}15\\,\\mathrm K\\).</p><p>Trycket på 80 m djup är \\(p_1=101300+1000\\cdot9{,}82\\cdot80=886900\\,\\mathrm{Pa}\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[\\frac{V_2}{V_1}=\\frac{886900}{101300}\\cdot\\frac{291{,}15}{277{,}15}\\]<p>För en klotformad bubbla är volymen proportionell mot diametern i kubik. Därför blir diameterfaktorn volymfaktorns kubikrot.</p>\\[d_2=0{,}00100\\sqrt[3]{V_2/V_1}\\,\\mathrm m\\]<p><strong>Svar:</strong> \\(0{,}00210\\,\\mathrm{m}\\).</p></div>",
         "ledtrad": "<p>Diametern växer med kubikroten ur volymen.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -155040,9 +155120,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En bubbla har 1,00 cm³ vid botten (6,5 °C) och 4,2 cm³ vid ytan (20,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla har 1,00 cm³ vid botten (6,5 °C) och 4,2 cm³ vid ytan (20,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(p_1=101\\cdot4{,}2\\cdot\\dfrac{279{,}5}{293{,}5}=404{,}0\\) kPa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{(404{,}0-101)\\cdot10^3}{1\\,000\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30{,}9\\) m</p></div>",
+        "fraga": "En bubbla har 1,00 cm³ vid botten (6,5 °C) och 4,2 cm³ vid ytan (20,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?<p>Svara i m med tre värdesiffror.</p>",
+        "t": "<p>Gas stannar kvar i bubblan och trycket i bubblan är lika med vattnets tryck. Använd \\(g=9{,}82\\) m/s² och vattnets densitet 1 000 kg/m³.</p><p>En bubbla har 1,00 cm³ vid botten (6,5 °C) och 4,2 cm³ vid ytan (20,5 °C). Lufttrycket är 101 kPa. Hur djup är sjön?</p><p>Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=6{,}5+273{,}15=279{,}65\\,\\mathrm K\\), \\(T_2=20{,}5+273{,}15=293{,}65\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>\\[p_1=101000\\cdot4{,}2\\cdot\\frac{279{,}65}{293{,}65}\\,\\mathrm{Pa}\\]<p>Skillnaden mot lufttrycket är vattnets tryck. Använd \\(p_1-p_0=\\rho gh\\).</p>\\[h=\\frac{p_1-101000}{1000\\cdot9{,}82}\\,\\mathrm m\\]<p><strong>Svar:</strong> \\(30{,}9\\,\\mathrm{m}\\).</p></div>",
         "ledtrad": "<p>Bestäm trycket vid botten först.</p>",
         "niva": "A",
         "poang": "(0/1/1)",
@@ -155054,7 +155134,12 @@ window.BANK = [
     "traningsniva": 4,
     "familjNyckel": "gaslagen__allmanna_gaslagen",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      5.15272981489744,
+      0.00209520317316732,
+      30.8518928446275
+    ]
   },
   {
     "kap": 6,
@@ -155062,15 +155147,15 @@ window.BANK = [
     "niva": "C",
     "typ": "heliumflaskans massa",
     "poang": "(0/1/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En heliumflaska (3,00 liter, 2,8 kg tom) fylls till trycket 2,0 MPa vid 15 °C. Helium har molmassan 4,0 g/mol. Hur mycket väger den fulla flaskan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(n=\\dfrac{2{,}0\\cdot10^6\\cdot3{,}00\\cdot10^{-3}}{8{,}314\\cdot288}=2{,}51\\) mol, alltså 10,0 g helium.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}81\\) kg</p></div>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>En heliumflaska (3,00 liter, 2,8 kg tom) fylls till det absoluta trycket 2,0 MPa vid 15 °C. Helium har molmassan 4,0 g/mol. Hur mycket väger den fulla flaskan?</p><p>Svara i kg med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>Gaslagen ger antalet mol helium. Omvandla 3,00 liter till 0,00300 m³ och molmassan till 0,0040 kg/mol.</p>\\[n=\\frac{pV}{RT}=\\frac{2{,}0\\cdot10^6\\cdot0{,}00300}{8{,}314\\cdot288{,}15}\\,\\mathrm{mol}\\]<p>Flaskans totala massa är den tomma flaskans massa plus gasens massa.</p>\\[m_{\\mathrm{tot}}=2{,}8+n\\cdot0{,}0040\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(2{,}81\\,\\mathrm{kg}\\).</p></div>",
     "id": "6.540",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.81002325395,
-    "tolerans": 0.004,
+    "rättSvar": 2.81001803622196,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -155082,7 +155167,8 @@ window.BANK = [
     "svarEnhet": "kg",
     "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 2.81002325394916
   },
   {
     "kap": 6,
@@ -155090,15 +155176,15 @@ window.BANK = [
     "niva": "A",
     "typ": "tråd mellan två kolvar",
     "poang": "(0/1/1)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Två lättrörliga kolvar (area 25 cm² var) i en cylinder hålls ihop av en tråd som tål 40 N. Gasen mellan dem har från början omgivningens tryck 101 kPa och temperaturen 18 °C, och volymen är konstant. Vid vilken temperatur (°C) brister tråden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta p=\\dfrac{40}{25\\cdot10^{-4}}=16\\) kPa.</p></div><div class=\"facit-stycke\"><p>\\(T=291\\cdot\\dfrac{117}{101}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(64\\) °C</p></div>",
+    "t": "<p>Två lättrörliga kolvar (area 25 cm² var) i en cylinder hålls ihop av en tråd som tål 40 N. Gasen mellan dem har från början omgivningens tryck 101 kPa och temperaturen 18 °C, och volymen och gasmängden är konstanta. Lufttrycket utanför är hela tiden 101 kPa. Vid vilken temperatur (°C) brister tråden?</p><p>Svara i °C med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=18+273{,}15=291{,}15\\,\\mathrm K\\).</p><p>På varje kolv balanserar trådkraften nettokraften från tryckskillnaden. Kraften ska därför inte dubbleras.</p>\\[\\Delta p=\\frac FA=\\frac{40}{25\\cdot10^{-4}}=16000\\,\\mathrm{Pa}\\]\\[p_2=101000+16000=117000\\,\\mathrm{Pa}\\]<p>Gasmängden och volymen är oförändrade. Då är trycket proportionellt mot temperaturen i kelvin: \\(p_2=p_1T_2/T_1\\).</p>\\[T_2=291{,}15\\cdot\\frac{117000}{101000}\\]\\[t_2=T_2-273{,}15\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(64{,}1\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "6.541",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Tryck, volym och temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 64.099009901,
-    "tolerans": 0.96,
+    "rättSvar": 64.1227722772277,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -155109,7 +155195,8 @@ window.BANK = [
     "svarEnhet": "°C",
     "familjNyckel": "gaslagen__tryck_volym_och_temperatur",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": 64.0990099009901
   },
   {
     "kap": 6,
@@ -155144,20 +155231,20 @@ window.BANK = [
     "niva": "C",
     "typ": "helium i behållare",
     "poang": "(1/1/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 12,00 mol helium vid 15,0 °C och 40,0 kPa.</p><ol type=\"a\"><li>Bestäm volymen.</li><li>Volymen halveras och trycket blir 110 kPa. Bestäm temperaturen i °C.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\dfrac{12{,}00\\cdot8{,}314\\cdot288}{40{,}0\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}718\\) m³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=288\\cdot\\dfrac12\\cdot\\dfrac{110}{40{,}0}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(123\\) °C</p></li></ol></div>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>En behållare har 12,00 mol helium vid 15,0 °C och det absoluta trycket 40,0 kPa.</p><ol type=\"a\"><li>Bestäm volymen.<p>Svara i m³ med tre värdesiffror.</p></li><li>Gasmängden är oförändrad. Volymen halveras och trycket blir 110 kPa. Bestäm temperaturen i °C.<p>Svara i °C med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>Omvandla trycket till 40000 Pa. Gaslagen ger volymen.</p>\\[V_1=\\frac{nRT_1}{p_1}=\\frac{12{,}00\\cdot8{,}314\\cdot288{,}15}{40000}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(0{,}719\\,\\mathrm{m³}\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p><p>Volymen halveras, så \\(V_2/V_1=1/2\\). Antalet mol behövs inte för temperaturkvoten.</p>\\[T_2=288{,}15\\cdot\\frac{110}{40}\\cdot\\frac12=396{,}20625\\,\\mathrm K\\]\\[t_2=396{,}20625-273{,}15=123{,}05625\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(123\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "6.543",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.7183296,
-      123.0
+      0.71870373,
+      123.05625
     ],
     "tolerans": [
-      0.0108,
-      1.85
+      0.0005,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -155177,13 +155264,13 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 12,00 mol helium vid 15,0 °C och 40,0 kPa.</p>",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>En behållare har 12,00 mol helium vid 15,0 °C och det absoluta trycket 40,0 kPa.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm volymen.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 12,00 mol helium vid 15,0 °C och 40,0 kPa.</p><p>Bestäm volymen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\dfrac{12{,}00\\cdot8{,}314\\cdot288}{40{,}0\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}718\\) m³</p></div>",
+        "fraga": "Bestäm volymen.<p>Svara i m³ med tre värdesiffror.</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>En behållare har 12,00 mol helium vid 15,0 °C och det absoluta trycket 40,0 kPa.</p><p>Bestäm volymen.</p><p>Svara i m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>Omvandla trycket till 40000 Pa. Gaslagen ger volymen.</p>\\[V_1=\\frac{nRT_1}{p_1}=\\frac{12{,}00\\cdot8{,}314\\cdot288{,}15}{40000}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(0{,}719\\,\\mathrm{m³}\\).</p></div>",
         "ledtrad": "<p>\\(pV=nRT\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -155192,9 +155279,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Volymen halveras och trycket blir 110 kPa. Bestäm temperaturen i °C.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare har 12,00 mol helium vid 15,0 °C och 40,0 kPa.</p><p>Volymen halveras och trycket blir 110 kPa. Bestäm temperaturen i °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=288\\cdot\\dfrac12\\cdot\\dfrac{110}{40{,}0}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(123\\) °C</p></div>",
+        "fraga": "Gasmängden är oförändrad. Volymen halveras och trycket blir 110 kPa. Bestäm temperaturen i °C.<p>Svara i °C med tre värdesiffror.</p>",
+        "t": "<p>En behållare har helium vid 15,0 °C och det absoluta trycket 40,0 kPa.</p><p>Gasmängden är oförändrad. Volymen halveras och trycket blir 110 kPa. Bestäm temperaturen i °C.</p><p>Svara i °C med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\).</p><p>Gasmängden är oförändrad. Därför gäller \\(p_1V_1/T_1=p_2V_2/T_2\\).</p><p>Volymen halveras, så \\(V_2/V_1=1/2\\). Antalet mol behövs inte för temperaturkvoten.</p>\\[T_2=288{,}15\\cdot\\frac{110}{40}\\cdot\\frac12=396{,}20625\\,\\mathrm K\\]\\[t_2=396{,}20625-273{,}15=123{,}05625\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(123\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>\\(\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\) med \\(T\\) i kelvin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155206,7 +155293,11 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      0.7183296,
+      123.0
+    ]
   },
   {
     "kap": 6,
@@ -155214,22 +155305,22 @@ window.BANK = [
     "niva": "C",
     "typ": "kvävgas i tank",
     "poang": "(2/1/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><ol type=\"a\"><li>Hur många mol är det?</li><li>Bestäm tankens volym.</li><li>Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Molmassan 28 g/mol betyder att varje mol kvävgas har massan 28 g. Omvandla gasmassan till samma enhet: 24,0 kg = 24 000 g.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac mM=\\frac{24000}{28}\\approx857{,}14\\,\\mathrm{mol}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 857 mol.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\dfrac{857\\cdot8{,}314\\cdot283}{101{,}3\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}9\\) m³</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=101{,}3\\cdot\\dfrac{54{,}0}{24{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}28\\cdot10^{5}\\) Pa</p></div></div></div>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><ol type=\"a\"><li>Hur många mol kvävgas är det?<p>Svara i mol med tre värdesiffror.</p></li><li>Bestäm tankens volym.<p>Svara i m³ med tre värdesiffror.</p></li><li>Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur och oförändrad tankvolym. Bestäm trycket.<p>Svara i Pa med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Molmassan 28 g/mol betyder att varje mol kvävgas har massan 28 g. Omvandla gasmassan till samma enhet: 24,0 kg = 24 000 g.</p>\\[n=\\frac mM=\\frac{24000}{28}\\approx857{,}14\\,\\mathrm{mol}\\]<p class=\"facit-svar\"><strong>Svar:</strong> Cirka 857 mol.</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\).</p><p>Omvandla molmassan till 0,028 kg/mol och räkna antalet mol innan volymen beräknas.</p>\\[n=\\frac mM=\\frac{24{,}0}{0{,}028}\\,\\mathrm{mol}\\]\\[V=\\frac{nRT}{p}\\]\\[V=\\frac{n\\cdot8{,}314\\cdot283{,}15}{101300}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(19{,}9\\,\\mathrm{m³}\\).</p><p><strong>c)</strong></p>\\[p=101{,}3\\cdot\\dfrac{54{,}0}{24{,}0}\\].<p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}28\\cdot10^{5}\\) Pa</p></div>",
     "id": "6.544",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      857.142857143,
-      19.9085770695,
+      857.142857142857,
+      19.9191293188549,
       227925.0
     ],
     "tolerans": [
-      12.9,
-      0.299,
-      3420.0
+      0.5,
+      0.05,
+      500.0
     ],
     "självrättning": true,
     "formaga": [
@@ -155252,13 +155343,13 @@ window.BANK = [
       "Pa"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p>",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många mol kvävgas är det?",
-        "t": "<p>Kvävgasens massa är 24,0 kg. Molmassan är 28 g/mol.</p><p>Hur många mol kvävgas är det?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Molmassan 28 g/mol betyder att varje mol kvävgas har massan 28 g. Omvandla gasmassan till samma enhet: 24,0 kg = 24 000 g.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac mM=\\frac{24000}{28}\\approx857{,}14\\,\\mathrm{mol}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 857 mol.</p></div></div>",
+        "fraga": "Hur många mol kvävgas är det?<p>Svara i mol med tre värdesiffror.</p>",
+        "t": "<p>Kvävgasens massa är 24,0 kg. Molmassan är 28 g/mol.</p><p>Hur många mol kvävgas är det?</p><p>Svara i mol med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Molmassan 28 g/mol betyder att varje mol kvävgas har massan 28 g. Omvandla gasmassan till samma enhet: 24,0 kg = 24 000 g.</p>\\[n=\\frac mM=\\frac{24000}{28}\\approx857{,}14\\,\\mathrm{mol}\\]<p class=\"facit-svar\"><strong>Svar:</strong> Cirka 857 mol.</p></div>",
         "ledtrad": "<p>\\(n=\\dfrac mM\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -155267,20 +155358,20 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm tankens volym.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p>Det är 857 mol.<p>Bestäm tankens volym.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\dfrac{857\\cdot8{,}314\\cdot283}{101{,}3\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}9\\) m³</p></div>",
+        "fraga": "Bestäm tankens volym.<p>Svara i m³ med tre värdesiffror.</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><p>Bestäm tankens volym.</p><p>Svara i m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=10+273{,}15=283{,}15\\,\\mathrm K\\).</p><p>Omvandla molmassan till 0,028 kg/mol och räkna antalet mol innan volymen beräknas.</p>\\[n=\\frac mM=\\frac{24{,}0}{0{,}028}\\,\\mathrm{mol}\\]\\[V=\\frac{nRT}{p}\\]\\[V=\\frac{n\\cdot8{,}314\\cdot283{,}15}{101300}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(19{,}9\\,\\mathrm{m³}\\).</p></div>",
         "ledtrad": "<p>\\(pV=nRT\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><p>Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur. Bestäm trycket.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=101{,}3\\cdot\\dfrac{54{,}0}{24{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}28\\cdot10^{5}\\) Pa</p></div>",
+        "fraga": "Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur och oförändrad tankvolym. Bestäm trycket.<p>Svara i Pa med tre värdesiffror.</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>24,0 kg kvävgas (28 g/mol) stängs in i en tank vid 10 °C och 101,3 kPa.</p><p>Ytterligare 30,0 kg kvävgas pressas in vid samma temperatur och oförändrad tankvolym. Bestäm trycket.</p><p>Svara i Pa med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[p=101{,}3\\cdot\\dfrac{54{,}0}{24{,}0}\\].<p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}28\\cdot10^{5}\\) Pa</p></div>",
         "ledtrad": "<p>Trycket är proportionellt mot mängden gas.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155292,7 +155383,12 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      null,
+      19.9085770695247,
+      null
+    ]
   },
   {
     "kap": 6,
@@ -155300,22 +155396,22 @@ window.BANK = [
     "niva": "C",
     "typ": "ideala gaslagen",
     "poang": "(0/3/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>En behållare (12,0 liter) med 6,0 mol helium har trycket 380 kPa. Bestäm temperaturen i °C.</li><li>3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.</li><li>0,450 kg syrgas (32 g/mol) har trycket 0,120 MPa och temperaturen 12,0 °C. Bestäm volymen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=\\dfrac{380\\cdot10^3\\cdot0{,}0120}{6{,}0\\cdot8{,}314}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-182\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=\\dfrac{3{,}00\\cdot8{,}314\\cdot153}{2{,}00\\cdot10^{-3}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\dfrac{(450/32)\\cdot8{,}314\\cdot285}{0{,}120\\cdot10^6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}28\\) m³</p></li></ol></div>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><ol type=\"a\"><li>En behållare (12,0 liter) med 6,0 mol helium har det absoluta trycket 380 kPa. Bestäm temperaturen i °C.<p>Svara i °C med tre värdesiffror.</p></li><li>3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.<p>Svara i Pa med tre värdesiffror.</p></li><li>0,450 kg syrgas (32 g/mol) har det absoluta trycket 0,120 MPa och temperaturen 12,0 °C. Bestäm volymen.<p>Svara i m³ med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 12,0 liter till 0,0120 m³. Gaslagen ger temperaturen i kelvin.</p>\\[T=\\frac{pV}{nR}=\\frac{380000\\cdot0{,}0120}{6{,}0\\cdot8{,}314}\\approx91{,}4121\\,\\mathrm K\\]\\[t=T-273{,}15\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(-182\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=-120+273{,}15=153{,}15\\,\\mathrm K\\).</p><p>Volymen 2,00 liter är 0,00200 m³. Gaslagen ger trycket.</p>\\[p=\\frac{nRT}{V}=\\frac{3{,}00\\cdot8{,}314\\cdot153{,}15}{0{,}00200}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(1{,}91\\cdot10^{6}\\,\\mathrm{Pa}\\).</p><p><strong>c)</strong></p><p>Temperaturerna i kelvin är \\(T_1=12+273{,}15=285{,}15\\,\\mathrm K\\).</p><p>Molmassan är 0,032 kg/mol. Börja med antalet mol.</p>\\[n=\\frac{0{,}450}{0{,}032}=14{,}0625\\,\\mathrm{mol}\\]\\[V=\\frac{nRT}{p}=\\frac{14{,}0625\\cdot8{,}314\\cdot285{,}15}{120000}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(0{,}278\\,\\mathrm{m³}\\).</p></div>",
     "id": "6.545",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -181.587923984,
-      1908063.0,
-      0.277674609375
+      -181.737923983642,
+      1909933.65,
+      0.27782075390625
     ],
     "tolerans": [
-      2.73,
-      51000.0,
-      0.00417
+      0.5,
+      5000.0,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -155338,13 +155434,13 @@ window.BANK = [
       "m³"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p>",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). </p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En behållare (12,0 liter) med 6,0 mol helium har trycket 380 kPa. Bestäm temperaturen i °C.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>En behållare (12,0 liter) med 6,0 mol helium har trycket 380 kPa. Bestäm temperaturen i °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T=\\dfrac{380\\cdot10^3\\cdot0{,}0120}{6{,}0\\cdot8{,}314}\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-182\\) °C</p></div>",
+        "fraga": "En behållare (12,0 liter) med 6,0 mol helium har det absoluta trycket 380 kPa. Bestäm temperaturen i °C.<p>Svara i °C med tre värdesiffror.</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>En behållare (12,0 liter) med 6,0 mol helium har det absoluta trycket 380 kPa. Bestäm temperaturen i °C.</p><p>Svara i °C med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 12,0 liter till 0,0120 m³. Gaslagen ger temperaturen i kelvin.</p>\\[T=\\frac{pV}{nR}=\\frac{380000\\cdot0{,}0120}{6{,}0\\cdot8{,}314}\\approx91{,}4121\\,\\mathrm K\\]\\[t=T-273{,}15\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(-182\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>\\(pV=nRT\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155353,9 +155449,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=\\dfrac{3{,}00\\cdot8{,}314\\cdot153}{2{,}00\\cdot10^{-3}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) Pa</p></div>",
+        "fraga": "3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.<p>Svara i Pa med tre värdesiffror.</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>3,00 mol gas vid −120 °C finns i en behållare på 2,00 liter. Bestäm trycket.</p><p>Svara i Pa med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=-120+273{,}15=153{,}15\\,\\mathrm K\\).</p><p>Volymen 2,00 liter är 0,00200 m³. Gaslagen ger trycket.</p>\\[p=\\frac{nRT}{V}=\\frac{3{,}00\\cdot8{,}314\\cdot153{,}15}{0{,}00200}\\,\\mathrm{Pa}\\]<p><strong>Svar:</strong> \\(1{,}91\\cdot10^{6}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(pV=nRT\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155364,9 +155460,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "0,450 kg syrgas (32 g/mol) har trycket 0,120 MPa och temperaturen 12,0 °C. Bestäm volymen.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>0,450 kg syrgas (32 g/mol) har trycket 0,120 MPa och temperaturen 12,0 °C. Bestäm volymen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\dfrac{(450/32)\\cdot8{,}314\\cdot285}{0{,}120\\cdot10^6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}28\\) m³</p></div>",
+        "fraga": "0,450 kg syrgas (32 g/mol) har det absoluta trycket 0,120 MPa och temperaturen 12,0 °C. Bestäm volymen.<p>Svara i m³ med tre värdesiffror.</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>0,450 kg syrgas (32 g/mol) har det absoluta trycket 0,120 MPa och temperaturen 12,0 °C. Bestäm volymen.</p><p>Svara i m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=12+273{,}15=285{,}15\\,\\mathrm K\\).</p><p>Molmassan är 0,032 kg/mol. Börja med antalet mol.</p>\\[n=\\frac{0{,}450}{0{,}032}=14{,}0625\\,\\mathrm{mol}\\]\\[V=\\frac{nRT}{p}=\\frac{14{,}0625\\cdot8{,}314\\cdot285{,}15}{120000}\\,\\mathrm{m^3}\\]<p><strong>Svar:</strong> \\(0{,}278\\,\\mathrm{m³}\\).</p></div>",
         "ledtrad": "<p>\\(n=\\dfrac mM\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155378,7 +155474,12 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      -181.587923983642,
+      1908063.0,
+      0.277674609375
+    ]
   },
   {
     "kap": 6,
@@ -155386,22 +155487,22 @@ window.BANK = [
     "niva": "C",
     "typ": "luftens densitet",
     "poang": "(0/3/0)",
-    "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><ol type=\"a\"><li>Bestäm luftens densitet vid −15 °C.</li><li>Bestäm luftens densitet vid 30 °C.</li><li>Hur mycket väger luften i ett hus (950 m³) vid 20 °C?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{pM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot258}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}37\\) kg/m³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot303}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}17\\) kg/m³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{pVM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot950\\cdot0{,}029}{8{,}314\\cdot293}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,146\\) kg</p></li></ol></div>",
+    "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>Luft har molmassan 29 g/mol och det absoluta trycket är 101,3 kPa.</p><ol type=\"a\"><li>Bestäm luftens densitet vid −15 °C.<p>Svara i kg/m³ med tre värdesiffror.</p></li><li>Bestäm luftens densitet vid 30 °C.<p>Svara i kg/m³ med tre värdesiffror.</p></li><li>Hur mycket väger luften i ett hus (950 m³) vid 20 °C?<p>Svara i kg med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=-15+273{,}15=258{,}15\\,\\mathrm K\\).</p><p>Molmassan är 0,029 kg/mol. Med \\(n=m/M\\) i gaslagen fås \\(pV=(m/M)RT\\). Dela med volymen och lös ut densiteten \\(\\rho=m/V\\).</p>\\[\\rho=\\frac{pM}{RT}=\\frac{101300\\cdot0{,}029}{8{,}314\\cdot258{,}15}\\,\\mathrm{kg/m^3}\\]<p><strong>Svar:</strong> \\(1{,}37\\,\\mathrm{kg/m³}\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=30+273{,}15=303{,}15\\,\\mathrm K\\).</p><p>Molmassan är 0,029 kg/mol. Med \\(n=m/M\\) i gaslagen fås \\(pV=(m/M)RT\\). Dela med volymen och lös ut densiteten \\(\\rho=m/V\\).</p>\\[\\rho=\\frac{pM}{RT}=\\frac{101300\\cdot0{,}029}{8{,}314\\cdot303{,}15}\\,\\mathrm{kg/m^3}\\]<p><strong>Svar:</strong> \\(1{,}17\\,\\mathrm{kg/m³}\\).</p><p><strong>c)</strong></p><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\).</p><p>Gaslagen ger antalet mol luft och molmassan ger dess massa.</p>\\[n=\\frac{pV}{RT}=\\frac{101300\\cdot950}{8{,}314\\cdot293{,}15}\\]\\[m=nM=n\\cdot0{,}029\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(1{,}15\\cdot10^{3}\\,\\mathrm{kg}\\).</p></div>",
     "id": "6.546",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.36954944774,
-      1.1661510149090446,
-      1145.6538213
+      1.36875366072997,
+      1.16557399807831,
+      1145.06760921565
     ],
     "tolerans": [
-      0.0206,
-      0.0175,
-      39.7
+      0.005,
+      0.005,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -155425,13 +155526,13 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p>",
+    "spelIntro": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>Luft har molmassan 29 g/mol och det absoluta trycket är 101,3 kPa.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm luftens densitet vid −15 °C.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><p>Bestäm luftens densitet vid −15 °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{pM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot258}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}37\\) kg/m³</p></div>",
+        "fraga": "Bestäm luftens densitet vid −15 °C.<p>Svara i kg/m³ med tre värdesiffror.</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>Luft har molmassan 29 g/mol och det absoluta trycket är 101,3 kPa.</p><p>Bestäm luftens densitet vid −15 °C.</p><p>Svara i kg/m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=-15+273{,}15=258{,}15\\,\\mathrm K\\).</p><p>Molmassan är 0,029 kg/mol. Med \\(n=m/M\\) i gaslagen fås \\(pV=(m/M)RT\\). Dela med volymen och lös ut densiteten \\(\\rho=m/V\\).</p>\\[\\rho=\\frac{pM}{RT}=\\frac{101300\\cdot0{,}029}{8{,}314\\cdot258{,}15}\\,\\mathrm{kg/m^3}\\]<p><strong>Svar:</strong> \\(1{,}37\\,\\mathrm{kg/m³}\\).</p></div>",
         "ledtrad": "<p>\\(\\rho=\\dfrac{pM}{RT}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155440,9 +155541,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm luftens densitet vid 30 °C.",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><p>Bestäm luftens densitet vid 30 °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{101{,}3\\cdot10^3\\cdot0{,}029}{8{,}314\\cdot303}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}17\\) kg/m³</p></div>",
+        "fraga": "Bestäm luftens densitet vid 30 °C.<p>Svara i kg/m³ med tre värdesiffror.</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>Luft har molmassan 29 g/mol och det absoluta trycket är 101,3 kPa.</p><p>Bestäm luftens densitet vid 30 °C.</p><p>Svara i kg/m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=30+273{,}15=303{,}15\\,\\mathrm K\\).</p><p>Molmassan är 0,029 kg/mol. Med \\(n=m/M\\) i gaslagen fås \\(pV=(m/M)RT\\). Dela med volymen och lös ut densiteten \\(\\rho=m/V\\).</p>\\[\\rho=\\frac{pM}{RT}=\\frac{101300\\cdot0{,}029}{8{,}314\\cdot303{,}15}\\,\\mathrm{kg/m^3}\\]<p><strong>Svar:</strong> \\(1{,}17\\,\\mathrm{kg/m³}\\).</p></div>",
         "ledtrad": "<p>\\(\\rho=\\dfrac{pM}{RT}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155451,9 +155552,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket väger luften i ett hus (950 m³) vid 20 °C?",
-        "t": "<p>\\(R=8{,}314\\) J/(mol·K). Räkna med \\(T=t+273\\) K.</p><p>Luft har molmassan 29 g/mol och trycket är 101,3 kPa.</p><p>Hur mycket väger luften i ett hus (950 m³) vid 20 °C?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{pVM}{RT}=\\dfrac{101{,}3\\cdot10^3\\cdot950\\cdot0{,}029}{8{,}314\\cdot293}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,146\\) kg</p></div>",
+        "fraga": "Hur mycket väger luften i ett hus (950 m³) vid 20 °C?<p>Svara i kg med tre värdesiffror.</p>",
+        "t": "<p>\\(R=8{,}314\\) J/(mol·K). </p><p>Luft har molmassan 29 g/mol och det absoluta trycket är 101,3 kPa.</p><p>Hur mycket väger luften i ett hus (950 m³) vid 20 °C?</p><p>Svara i kg med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=20+273{,}15=293{,}15\\,\\mathrm K\\).</p><p>Gaslagen ger antalet mol luft och molmassan ger dess massa.</p>\\[n=\\frac{pV}{RT}=\\frac{101300\\cdot950}{8{,}314\\cdot293{,}15}\\]\\[m=nM=n\\cdot0{,}029\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(1{,}15\\cdot10^{3}\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>\\(m=nM\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155465,7 +155566,12 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      1.36954944774202,
+      1.16615101490904,
+      1145.65382130228
+    ]
   },
   {
     "kap": 6,
@@ -155473,22 +155579,22 @@ window.BANK = [
     "niva": "C",
     "typ": "antal molekyler",
     "poang": "(0/3/0)",
-    "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p><ol type=\"a\"><li>Hur många luftmolekyler finns i ett rum (6,0 m × 3,0 m × 2,5 m) vid 101,3 kPa och 22 °C?</li><li>I rymden finns ungefär 1 atom per cm³ och temperaturen är 3 K. Bestäm trycket.</li><li>En tank (1,0 m³, 273 K) släpper ut luft tills trycket sjunkit från 20,0 atm till 15,0 atm (1 atm = 101,3 kPa). Hur många molekyler släpptes ut?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{pV}{kT}=\\dfrac{101{,}3\\cdot10^3\\cdot45}{1{,}381\\cdot10^{-23}\\cdot295}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{27}\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=\\dfrac NV kT=10^6\\cdot1{,}381\\cdot10^{-23}\\cdot3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}1\\cdot10^{-17}\\) Pa</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta N=\\dfrac{\\Delta p\\,V}{kT}=\\dfrac{5{,}0\\cdot101{,}3\\cdot10^3\\cdot1{,}0}{1{,}381\\cdot10^{-23}\\cdot273}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{26}\\)</p></li></ol></div>",
+    "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. </p><ol type=\"a\"><li>Hur många luftmolekyler finns i ett rum (6,0 m × 3,0 m × 2,5 m) vid 101,3 kPa och 22 °C?<p>Svara med tre värdesiffror.</p></li><li>I rymden finns ungefär 1 atom per cm³ och temperaturen är 3 K. Bestäm trycket.<p>Svara i Pa med tre värdesiffror.</p></li><li>En tank (1,0 m³, 273 K) släpper ut luft tills trycket sjunkit från 20,0 atm till 15,0 atm (1 atm = 101,3 kPa). Hur många molekyler släpptes ut?<p>Svara med tre värdesiffror.</p></li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=22+273{,}15=295{,}15\\,\\mathrm K\\).</p><p>Rummets volym är \\(6{,}0\\cdot3{,}0\\cdot2{,}5=45\\,\\mathrm{m^3}\\). Gaslagen skriven med antal molekyler är \\(pV=NkT\\).</p>\\[N=\\frac{pV}{kT}=\\frac{101300\\cdot45}{1{,}381\\cdot10^{-23}\\cdot295{,}15}\\]<p><strong>Svar:</strong> \\(1{,}12\\cdot10^{27}\\).</p><p><strong>b)</strong></p><p>En atom per cm³ är \\(10^6\\) atomer per m³. Gaslagen med antal partiklar ger</p>\\[\\begin{gathered}p=\\frac NV kT\\\\=10^6\\cdot1{,}381\\cdot10^{-23}\\cdot3\\\\=4{,}143\\cdot10^{-17}\\,\\mathrm{Pa}.\\end{gathered}\\]<p><strong>Svar:</strong> \\(4{,}14\\cdot10^{-17}\\,\\mathrm{Pa}\\).</p><p><strong>c)</strong></p><p>Trycket minskar med \\(20{,}0-15{,}0=5{,}0\\) atm, alltså \\(5{,}0\\cdot101300=506500\\) Pa. Volymen och temperaturen är konstanta. Gaslagen ger därför det antal molekyler som har lämnat:</p>\\[\\Delta N=\\frac{\\Delta p\\,V}{kT}\\]\\[\\Delta N=\\frac{506500\\cdot1{,}0}{1{,}381\\cdot10^{-23}\\cdot273}\\approx1{,}343\\cdot10^{26}.\\]<p><strong>Svar:</strong> \\(1{,}34\\cdot10^{26}\\) molekyler.</p></div>",
     "id": "6.547",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.1189386222216768e+27,
+      1.11836995953039e+27,
       4.143e-17,
-      1.3434550002254563e+26
+      1.34345500022546e+26
     ],
     "tolerans": [
-      5.1e+25,
-      6.21e-19,
-      5.1e+24
+      5e+24,
+      5e-20,
+      5e+23
     ],
     "självrättning": true,
     "formaga": [
@@ -155511,13 +155617,13 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p>",
+    "spelIntro": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. </p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många luftmolekyler finns i ett rum (6,0 m × 3,0 m × 2,5 m) vid 101,3 kPa och 22 °C?",
-        "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p><p>Hur många luftmolekyler finns i ett rum (6,0 m × 3,0 m × 2,5 m) vid 101,3 kPa och 22 °C?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{pV}{kT}=\\dfrac{101{,}3\\cdot10^3\\cdot45}{1{,}381\\cdot10^{-23}\\cdot295}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{27}\\)</p></div>",
+        "fraga": "Hur många luftmolekyler finns i ett rum (6,0 m × 3,0 m × 2,5 m) vid 101,3 kPa och 22 °C?<p>Svara med tre värdesiffror.</p>",
+        "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. </p><p>Hur många luftmolekyler finns i ett rum (6,0 m × 3,0 m × 2,5 m) vid 101,3 kPa och 22 °C?</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=22+273{,}15=295{,}15\\,\\mathrm K\\).</p><p>Rummets volym är \\(6{,}0\\cdot3{,}0\\cdot2{,}5=45\\,\\mathrm{m^3}\\). Gaslagen skriven med antal molekyler är \\(pV=NkT\\).</p>\\[N=\\frac{pV}{kT}=\\frac{101300\\cdot45}{1{,}381\\cdot10^{-23}\\cdot295{,}15}\\]<p><strong>Svar:</strong> \\(1{,}12\\cdot10^{27}\\).</p></div>",
         "ledtrad": "<p>\\(pV=NkT\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155526,9 +155632,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "I rymden finns ungefär 1 atom per cm³ och temperaturen är 3 K. Bestäm trycket.",
-        "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p><p>I rymden finns ungefär 1 atom per cm³ och temperaturen är 3 K. Bestäm trycket.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=\\dfrac NV kT=10^6\\cdot1{,}381\\cdot10^{-23}\\cdot3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}1\\cdot10^{-17}\\) Pa</p></div>",
+        "fraga": "I rymden finns ungefär 1 atom per cm³ och temperaturen är 3 K. Bestäm trycket.<p>Svara i Pa med tre värdesiffror.</p>",
+        "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. </p><p>I rymden finns ungefär 1 atom per cm³ och temperaturen är 3 K. Bestäm trycket.</p><p>Svara i Pa med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En atom per cm³ är \\(10^6\\) atomer per m³. Gaslagen med antal partiklar ger</p>\\[\\begin{gathered}p=\\frac NV kT\\\\=10^6\\cdot1{,}381\\cdot10^{-23}\\cdot3\\\\=4{,}143\\cdot10^{-17}\\,\\mathrm{Pa}.\\end{gathered}\\]<p><strong>Svar:</strong> \\(4{,}14\\cdot10^{-17}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>1 cm³ = \\(10^{-6}\\) m³.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155537,9 +155643,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En tank (1,0 m³, 273 K) släpper ut luft tills trycket sjunkit från 20,0 atm till 15,0 atm (1 atm = 101,3 kPa). Hur många molekyler släpptes ut?",
-        "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. Räkna med \\(T=t+273\\) K.</p><p>En tank (1,0 m³, 273 K) släpper ut luft tills trycket sjunkit från 20,0 atm till 15,0 atm (1 atm = 101,3 kPa). Hur många molekyler släpptes ut?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta N=\\dfrac{\\Delta p\\,V}{kT}=\\dfrac{5{,}0\\cdot101{,}3\\cdot10^3\\cdot1{,}0}{1{,}381\\cdot10^{-23}\\cdot273}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{26}\\)</p></div>",
+        "fraga": "En tank (1,0 m³, 273 K) släpper ut luft tills trycket sjunkit från 20,0 atm till 15,0 atm (1 atm = 101,3 kPa). Hur många molekyler släpptes ut?<p>Svara med tre värdesiffror.</p>",
+        "t": "<p>Boltzmanns konstant är \\(k=1{,}381\\cdot10^{-23}\\) J/K. </p><p>En tank (1,0 m³, 273 K) släpper ut luft tills trycket sjunkit från 20,0 atm till 15,0 atm (1 atm = 101,3 kPa). Hur många molekyler släpptes ut?</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Trycket minskar med \\(20{,}0-15{,}0=5{,}0\\) atm, alltså \\(5{,}0\\cdot101300=506500\\) Pa. Volymen och temperaturen är konstanta. Gaslagen ger därför det antal molekyler som har lämnat:</p>\\[\\Delta N=\\frac{\\Delta p\\,V}{kT}\\]\\[\\Delta N=\\frac{506500\\cdot1{,}0}{1{,}381\\cdot10^{-23}\\cdot273}\\approx1{,}343\\cdot10^{26}.\\]<p><strong>Svar:</strong> \\(1{,}34\\cdot10^{26}\\) molekyler.</p></div>",
         "ledtrad": "<p>\\(pV=NkT\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155551,7 +155657,12 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      1.11893862222168e+27,
+      null,
+      null
+    ]
   },
   {
     "kap": 6,
@@ -155559,20 +155670,20 @@ window.BANK = [
     "niva": "C",
     "typ": "luft som lämnar uppvärmt utrymme",
     "poang": "(0/2/0)",
-    "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket och volymen är oförändrade. Hur många procent av luftmolekylerna lämnar</p><ol type=\"a\"><li>ett hus när temperaturen höjs från 16,0 °C till 20,0 °C?</li><li>ett bildäck (230 kPa) som värms från 15,0 °C till 38,0 °C om trycket ska behållas?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(n\\propto\\dfrac1T\\): \\(1-\\dfrac{289}{293}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}37\\) %</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1-\\dfrac{288}{311}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}40\\) %</p></li></ol></div>",
+    "t": "<p>Volymen är konstant. Luft släpps ut så att trycket förblir konstant.</p><ol type=\"a\"><li>Hur många procent av luftmolekylerna lämnar ett hus när temperaturen höjs från 16,0 °C till 20,0 °C? Svara i % med tre värdesiffror.</li><li>Hur många procent av luftmolekylerna lämnar ett bildäck när temperaturen höjs från 15,0 °C till 38,0 °C? Svara i % med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturerna i kelvin är \\(T_1=16+273{,}15=289{,}15\\,\\mathrm K\\), \\(T_2=20+273{,}15=293{,}15\\,\\mathrm K\\).</p><p>Gaslagen \\(pV=nRT\\) ger att antalet mol är omvänt proportionellt mot temperaturen i kelvin när tryck och volym hålls konstanta.</p>\\[\\frac{n_2}{n_1}=\\frac{T_1}{T_2}=\\frac{289{,}15}{293{,}15}\\]<p>Andelen som lämnar är ett minus andelen som finns kvar.</p>\\[\\left(1-\\frac{T_1}{T_2}\\right)\\cdot100\\,\\%\\]<p><strong>Svar:</strong> \\(1{,}36\\,\\%\\).</p><p><strong>b)</strong></p><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\), \\(T_2=38+273{,}15=311{,}15\\,\\mathrm K\\).</p><p>Gaslagen \\(pV=nRT\\) ger att antalet mol är omvänt proportionellt mot temperaturen i kelvin när tryck och volym hålls konstanta.</p>\\[\\frac{n_2}{n_1}=\\frac{T_1}{T_2}=\\frac{288{,}15}{311{,}15}\\]<p>Andelen som lämnar är ett minus andelen som finns kvar.</p>\\[\\left(1-\\frac{T_1}{T_2}\\right)\\cdot100\\,\\%\\]<p><strong>Svar:</strong> \\(7{,}39\\,\\%\\).</p></div>",
     "id": "6.548",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ideala gaslagen och gasmängd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.3651877133105783,
-      7.395498392282962
+      1.36448916936722,
+      7.39193315121324
     ],
     "tolerans": [
-      0.0205,
-      0.111
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -155593,13 +155704,13 @@ window.BANK = [
       "%"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket och volymen är oförändrade. Hur många procent av luftmolekylerna lämnar</p>",
+    "spelIntro": "<p>Volymen är konstant. Luft släpps ut så att trycket förblir konstant.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "ett hus när temperaturen höjs från 16,0 °C till 20,0 °C?",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket och volymen är oförändrade. Hur många procent av luftmolekylerna lämnar</p><p>ett hus när temperaturen höjs från 16,0 °C till 20,0 °C?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(n\\propto\\dfrac1T\\): \\(1-\\dfrac{289}{293}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}37\\) %</p></div>",
+        "fraga": "Hur många procent av luftmolekylerna lämnar ett hus när temperaturen höjs från 16,0 °C till 20,0 °C? Svara i % med tre värdesiffror.",
+        "t": "<p>Volymen är konstant. Luft släpps ut så att trycket förblir konstant.</p><p>Hur många procent av luftmolekylerna lämnar ett hus när temperaturen höjs från 16,0 °C till 20,0 °C? Svara i % med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=16+273{,}15=289{,}15\\,\\mathrm K\\), \\(T_2=20+273{,}15=293{,}15\\,\\mathrm K\\).</p><p>Gaslagen \\(pV=nRT\\) ger att antalet mol är omvänt proportionellt mot temperaturen i kelvin när tryck och volym hålls konstanta.</p>\\[\\frac{n_2}{n_1}=\\frac{T_1}{T_2}=\\frac{289{,}15}{293{,}15}\\]<p>Andelen som lämnar är ett minus andelen som finns kvar.</p>\\[\\left(1-\\frac{T_1}{T_2}\\right)\\cdot100\\,\\%\\]<p><strong>Svar:</strong> \\(1{,}36\\,\\%\\).</p></div>",
         "ledtrad": "<p>\\(nT\\) är konstant.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155608,9 +155719,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "ett bildäck (230 kPa) som värms från 15,0 °C till 38,0 °C om trycket ska behållas?",
-        "t": "<p>Räkna med \\(T=t+273\\) K.</p><p>Trycket och volymen är oförändrade. Hur många procent av luftmolekylerna lämnar</p><p>ett bildäck (230 kPa) som värms från 15,0 °C till 38,0 °C om trycket ska behållas?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1-\\dfrac{288}{311}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}40\\) %</p></div>",
+        "fraga": "Hur många procent av luftmolekylerna lämnar ett bildäck när temperaturen höjs från 15,0 °C till 38,0 °C? Svara i % med tre värdesiffror.",
+        "t": "<p>Volymen är konstant. Luft släpps ut så att trycket förblir konstant.</p><p>Hur många procent av luftmolekylerna lämnar ett bildäck när temperaturen höjs från 15,0 °C till 38,0 °C? Svara i % med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturerna i kelvin är \\(T_1=15+273{,}15=288{,}15\\,\\mathrm K\\), \\(T_2=38+273{,}15=311{,}15\\,\\mathrm K\\).</p><p>Gaslagen \\(pV=nRT\\) ger att antalet mol är omvänt proportionellt mot temperaturen i kelvin när tryck och volym hålls konstanta.</p>\\[\\frac{n_2}{n_1}=\\frac{T_1}{T_2}=\\frac{288{,}15}{311{,}15}\\]<p>Andelen som lämnar är ett minus andelen som finns kvar.</p>\\[\\left(1-\\frac{T_1}{T_2}\\right)\\cdot100\\,\\%\\]<p><strong>Svar:</strong> \\(7{,}39\\,\\%\\).</p></div>",
         "ledtrad": "<p>\\(nT\\) är konstant.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -155622,7 +155733,11 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "gaslagen__ideala_gaslagen_och_gasmangd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "rättSvar273": [
+      1.36518771331058,
+      7.39549839228296
+    ]
   },
   {
     "id": "3.280",

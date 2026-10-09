@@ -311,3 +311,33 @@ test('Mato1:s reviderade tangent, exponentialfunktion och integral har korrekta 
  assert.deepEqual(plain(cards('2.254').map(q=>q.rättSvar)),['6e^(2x)+5e^(-x)',11]);
  assert.deepEqual(plain(cards('2.309').map(q=>q.rättSvar)),[9,'y=9x-16']);
 });
+
+test('Namngivna fysikstorheter behåller ordning och etiketter efter delning',()=>{
+ const fy1=bank('uppgifter.js');
+ for(const [id,index,labels,answers] of [
+  ['8.49',1,['200 Ω','400 Ω'],[3,6]],
+  ['8.103',1,['R₁','R₂'],[4,8]],
+  ['8.117',1,['Laddaren','Batteriet','Resistorn'],[1.4,1.2,.2]],
+  ['8.144',2,['A','B'],[10,0]],
+  ['8.149',2,['Pluspol','Minuspol'],[4,-8]],
+  ['8.150',3,['A','B','C'],[0,-5,-12]],
+ ]){
+  const part=c.expandGameTask(fy1.find(q=>q.id===id))[index];
+  assert.deepEqual(plain(part.rättSvar),answers,id);
+  assert.deepEqual(plain(part.svarEtiketter),labels,id);
+  assert.equal(c.answerLayout(part).ordnad,true,id);
+  assert.equal(c.answerLayout(part).n,answers.length,id);
+ }
+ // Övriga rotmängder ska fortsätta godta valfri ordning.
+ assert.equal(cards('2.374')[0].svarsstruktur,'mängd');
+});
+
+test('Elastisk stöt definieras av rörelseenergin utan ett andra sant alternativ',()=>{
+ const q=bank('uppgifter.js').find(q=>q.id==='5.364');
+ const correct=q.alternativ.filter(a=>a.ratt);
+ assert.equal(correct.length,1);
+ assert.match(correct[0].txt,/rörelseenergin/);
+ assert.ok(!q.alternativ.some(a=>!a.ratt&&a.txt==='Rörelsemängden bevaras.'));
+ assert.match(q.alternativ[3].txt,/Varje boll/);
+ assert.match(q.alternativ[3].kommentar,/sammanlagda/);
+});

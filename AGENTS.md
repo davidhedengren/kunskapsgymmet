@@ -19,3 +19,7 @@ uppdatera regressionstesterna. Ta inte bort eller försvaga tester för att döl
 ett återkommande fel. Kopiera inte bankfiler innan båda repona jämförts.
 
 Nya felmönster dokumenteras i masterrepons register, inte i en separat konkurrerande kopia.
+
+Fysik får alltid använda miniräknare enligt användarbeslut 2026-10-09.
+Använd `miniräknare:true` även för fysikens enkla begreppskort. Beslutet
+finns i masterrepots `agent/PEDAGOGISKA_REGLER.md`; nivå bedöms separat.

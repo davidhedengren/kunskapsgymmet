@@ -73389,7 +73389,7 @@ window.BANK = [
     "ledtrad": "<p>Skilj mellan ett föremåls temperatur, värmeflödet från handen och tiden tills hela föremålet har värmts.</p>",
     "traningsniva": 1,
     "spel": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "typ": "värmeledning och temperaturkänsla",
     "svarstyp": "alternativ",
@@ -77740,8 +77740,8 @@ window.BANK = [
     "omr": "laddning",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett föremål har fått 3,0·10¹³ extra elektroner. En elektron har laddningen −1,602·10⁻¹⁹ C.</p>\n<p>Vilken laddning har föremålet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett överskott av elektroner ger negativ laddning.</p><div class=\"facit-matte\">\\[Q=n(-e)\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in antalet elektroner.</p><div class=\"facit-matte\">\\[Q=(3{,}0\\cdot10^{13})(-1{,}602\\cdot10^{-19})=-4{,}806\\cdot10^{-6}\\ \\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Föremålets laddning är \\(-4{,}8\\ \\mu\\mathrm C\\).</p></div>",
+    "t": "<p>Ett oladdat föremål får 3,0·10¹³ extra elektroner. En elektron har laddningen −1,602·10⁻¹⁹ C.</p><p>Vilken laddning får föremålet?</p>",
+    "s": "<div class=\"facit-v2\"><p>Elektroner är negativt laddade. Multiplicera deras antal med en elektrons laddning.</p><p>\\[Q=3{,}0\\cdot10^{13}\\cdot(-1{,}602\\cdot10^{-19})\\]</p><p>\\[Q=-4{,}806\\cdot10^{-6}\\ \\mathrm C\\]</p><p>Eftersom \\(1\\ \\mu\\mathrm C=10^{-6}\\ \\mathrm C\\) är laddningen cirka <strong>−4,8 µC</strong>.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "procedur"
@@ -77770,8 +77770,8 @@ window.BANK = [
     "niva": "E",
     "typ": "tecken på laddning vid elektronöverskott",
     "poang": "(1/0/0)",
-    "t": "<p>Ett neutralt föremål får extra elektroner. Vilket tecken får föremålets nettoladdning?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektroner är negativt laddade.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett överskott av elektroner ger därför negativ nettoladdning.</p></div></div></div>",
+    "t": "<p>Ett oladdat föremål får extra elektroner. Vilket tecken får föremålets laddning?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Elektroner har negativ laddning. När föremålet får extra elektroner blir det <strong>negativt laddat</strong>.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "begrepp"
@@ -77783,17 +77783,17 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>Vilket tecken har en elektrons laddning?</p>",
     "alternativ": [
       {
         "txt": "Negativ.",
         "ratt": true,
-        "kommentar": "Extra elektroner ger negativ nettoladdning."
+        "kommentar": "Extra elektroner ger negativ laddning."
       },
       {
         "txt": "Positiv.",
         "ratt": false,
-        "kommentar": "Positiv nettoladdning uppstår vid elektronunderskott."
+        "kommentar": "Positiv laddning uppstår vid för få elektroner."
       },
       {
         "txt": "Alltid noll.",
@@ -79136,8 +79136,8 @@ window.BANK = [
     "niva": "E",
     "typ": "tecken på laddning vid elektronunderskott",
     "poang": "(1/0/0)",
-    "t": "<p>Ett neutralt föremål förlorar några elektroner. Vilket tecken får nettoladdningen?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När elektroner lämnar föremålet finns ett underskott av negativ laddning.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Nettoladdningen blir positiv.</p></div></div></div>",
+    "t": "<p>Ett oladdat föremål förlorar några elektroner. Vilket tecken får laddningen?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Elektroner har negativ laddning. När elektroner lämnar föremålet finns mer positiv än negativ laddning kvar. Föremålet blir <strong>positivt laddat</strong>.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "begrepp"
@@ -79149,22 +79149,22 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>Vilket tecken har en elektrons laddning?</p>",
     "alternativ": [
       {
         "txt": "Positiv.",
         "ratt": true,
-        "kommentar": "Elektronunderskott ger positiv nettoladdning."
+        "kommentar": "Elektronunderskott ger positiv laddning."
       },
       {
         "txt": "Negativ.",
         "ratt": false,
-        "kommentar": "Negativ nettoladdning kräver elektronöverskott."
+        "kommentar": "Negativ laddning kräver extra elektroner."
       },
       {
         "txt": "Noll.",
         "ratt": false,
-        "kommentar": "Föremålet har förlorat laddningsbärare."
+        "kommentar": "Föremålet har förlorat elektroner."
       },
       {
         "txt": "Det går aldrig att avgöra.",
@@ -79343,8 +79343,8 @@ window.BANK = [
     "niva": "E",
     "typ": "antal elektroner från positiv nettoladdning",
     "poang": "(1/0/0)",
-    "t": "<p>Ett föremål har nettoladdningen \\(+3{,}2\\ \\mathrm{nC}\\). Hur många elektroner har avlägsnats?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet elementarladdningar fås genom att dividera laddningens belopp med elementarladdningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{3{,}2\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx2{,}0\\cdot10^{10}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^{10}\\) elektroner.</p></div>",
+    "t": "<p>Ett föremål har laddningen +3,2 nC. Hur många elektroner saknas jämfört med när föremålet var oladdat?</p><p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p>",
+    "s": "<div class=\"facit-v2\"><p>Positiv laddning betyder att elektroner saknas. 3,2 nC är \\(3{,}2\\cdot10^{-9}\\ \\mathrm C\\). Dela laddningen med en elektrons laddningsbelopp.</p><p>\\[n=\\frac{3{,}2\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx2{,}0\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(2{,}0\\cdot10^{10}\\) elektroner saknas.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "procedur"
@@ -79356,9 +79356,9 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Varje extra eller saknad elektron ändrar laddningen med 1,602·10⁻¹⁹ C. Tänk också på laddningens tecken.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": null,
+    "svarEnhet": "elektroner",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -79444,8 +79444,8 @@ window.BANK = [
     "niva": "E",
     "typ": "nettolladdning från antal extra elektroner",
     "poang": "(1/0/0)",
-    "t": "<p>Ett föremål får \\(1{,}0\\cdot10^{10}\\) extra elektroner. Bestäm nettoladdningen i nC.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje extra elektron bidrar med en negativ elementarladdning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=-Ne=-1{,}0\\cdot10^{10}\\cdot1{,}602\\cdot10^{-19}\\approx-1{,}60\\ \\mathrm{nC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1{,}60\\ \\mathrm{nC}\\).</p></div>",
+    "t": "<p>Ett oladdat föremål får \\(1{,}0\\cdot10^{10}\\) extra elektroner. Bestäm föremålets laddning i nC.</p><p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p>",
+    "s": "<div class=\"facit-v2\"><p>Extra elektroner ger negativ laddning.</p><p>\\[Q=1{,}0\\cdot10^{10}\\cdot(-1{,}602\\cdot10^{-19})\\]</p><p>\\[Q=-1{,}602\\cdot10^{-9}\\ \\mathrm C\\]</p><p>Eftersom \\(1\\ \\mathrm{nC}=10^{-9}\\ \\mathrm C\\) blir svaret cirka <strong>−1,6 nC</strong>.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "procedur"
@@ -79457,7 +79457,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Varje extra eller saknad elektron ändrar laddningen med 1,602·10⁻¹⁹ C. Tänk också på laddningens tecken.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "nC",
     "traningsniva": 2,
@@ -79473,17 +79473,18 @@ window.BANK = [
     "omr": "laddning",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En ballong gnids mot håret och får laddningen −8,0 nC.</p>\n<ol><li>Hur många överskottselektroner har ballongen fått?</li><li>Var kom de ifrån?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd elementarladdningens belopp.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{|Q|}{e}=\\frac{8{,}0\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}=4{,}99\\cdot10^{10}\\]</div></div><div class=\"facit-stycke\"><p>Minustecknet visar att ballongen har ett elektronöverskott.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronerna har överförts från håret till ballongen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Håret får därför lika stor positiv nettoladdning.</p></div><div class=\"facit-stycke\"><p>Den totala laddningen bevaras; den flyttas mellan materialen.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ballongen har fått cirka \\(5{,}0\\cdot10^{10}\\) överskottselektroner från håret.</p></div>",
+    "t": "<p>En oladdad ballong gnids mot håret och får laddningen −8,0 nC.</p><p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p><p>a) Hur många extra elektroner har ballongen fått?</p><p>b) Varifrån kom de extra elektronerna på ballongen?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p></div><div class=\"facit-v2\"><p>Den negativa laddningen visar att ballongen har fått extra elektroner. 8,0 nC är \\(8{,}0\\cdot10^{-9}\\ \\mathrm C\\).</p><p>\\[n=\\frac{8{,}0\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx5{,}0\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(5{,}0\\cdot10^{10}\\) extra elektroner.</p></div><div class=\"facit-v2\"><p><strong>b)</strong></p></div><div class=\"facit-v2\"><p>Elektroner har flyttats <strong>från håret till ballongen</strong>. Ballongen blir negativt laddad när den får elektroner. Laddning har flyttats, inte skapats.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__laddning_och_antal_elektroner",
     "svarstyp": "flera_delar",
     "rättSvar": [
       50000000000,
-      null
+      "Elektroner har flyttats från håret till ballongen."
     ],
     "tolerans": [
       750000000,
@@ -79491,14 +79492,14 @@ window.BANK = [
     ],
     "självrättning": [
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       null
     ],
     "svarEnhet": [
-      null,
+      "elektroner",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -79508,23 +79509,49 @@ window.BANK = [
     ],
     "ledtrad": "<p>Använd elementarladdningens belopp. En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En ballong gnids mot håret och får laddningen −8,0 nC.</p>",
+    "spelIntro": "<p>En oladdad ballong gnids mot håret och får laddningen −8,0 nC.</p><p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många överskottselektroner har ballongen fått?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd elementarladdningens belopp.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{|Q|}{e}=\\frac{8{,}0\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}=4{,}99\\cdot10^{10}\\]</div></div><div class=\"facit-stycke\"><p>Minustecknet visar att ballongen har ett elektronöverskott.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}99\\cdot10^{10}\\).</p></div>",
-        "ledtrad": "<p>Använd elementarladdningens belopp. En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
+        "fraga": "Hur många extra elektroner har ballongen fått?",
+        "s": "<div class=\"facit-v2\"><p>Den negativa laddningen visar att ballongen har fått extra elektroner. 8,0 nC är \\(8{,}0\\cdot10^{-9}\\ \\mathrm C\\).</p><p>\\[n=\\frac{8{,}0\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx5{,}0\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(5{,}0\\cdot10^{10}\\) extra elektroner.</p></div>",
+        "ledtrad": "<p>Varje extra eller saknad elektron ändrar laddningen med 1,602·10⁻¹⁹ C. Tänk också på laddningens tecken.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Var kom de ifrån?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronerna har överförts från håret till ballongen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Håret får därför lika stor positiv nettoladdning.</p></div><div class=\"facit-stycke\"><p>Den totala laddningen bevaras; den flyttas mellan materialen.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Använd elementarladdningens belopp. En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
+        "fraga": "Varifrån kom de extra elektronerna på ballongen?",
+        "s": "<div class=\"facit-v2\"><p>Elektroner har flyttats <strong>från håret till ballongen</strong>. Ballongen blir negativt laddad när den får elektroner. Laddning har flyttats, inte skapats.</p></div>",
+        "ledtrad": "<p>Vilka två material gnids mot varandra?</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "alternativ": [
+          {
+            "txt": "Elektroner har flyttats från håret till ballongen.",
+            "ratt": true,
+            "kommentar": "Elektronerna är de laddningar som kan flyttas vid gnidning."
+          },
+          {
+            "txt": "Protoner har flyttats från ballongen till håret.",
+            "ratt": false,
+            "kommentar": "Protonerna sitter fast i atomkärnorna."
+          },
+          {
+            "txt": "Neutroner har flyttats till ballongen.",
+            "ratt": false,
+            "kommentar": "Neutroner är oladdade."
+          },
+          {
+            "txt": "Ny negativ laddning har skapats i ballongen.",
+            "ratt": false,
+            "kommentar": "Laddning skapas inte. Den flyttas."
+          }
+        ]
       }
     ],
     "geogebra": false,
@@ -79532,7 +79559,10 @@ window.BANK = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false
+    ],
     "familjTidigare": [
       "Laddning och antal elektroner"
     ]
@@ -79544,8 +79574,8 @@ window.BANK = [
     "niva": "E",
     "typ": "laddningens bevarande",
     "poang": "(1/0/0)",
-    "t": "<p>Två från början neutrala föremål gnids mot varandra. Det ena får laddningen \\(+5\\ \\mathrm{nC}\\). Vilken laddning får det andra om ingen laddning lämnar systemet?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den totala laddningen bevaras.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Om det ena föremålet blir +5 nC måste det andra bli −5 nC.</p></div></div></div>",
+    "t": "<p>Två oladdade föremål gnids mot varandra. Laddning flyttas bara mellan föremålen. Det ena får laddningen +5 nC.</p><p>Vilken laddning får det andra?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Den sammanlagda laddningen var noll från början och är fortfarande noll. När det ena föremålet får +5 nC måste det andra få <strong>−5 nC</strong>.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "begrepp"
@@ -79557,7 +79587,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>Vilken var föremålens sammanlagda laddning från början?</p>",
     "alternativ": [
       {
         "txt": "−5 nC",
@@ -79567,17 +79597,17 @@ window.BANK = [
       {
         "txt": "+5 nC",
         "ratt": false,
-        "kommentar": "Då skulle systemets totala laddning bli +10 nC."
+        "kommentar": "Då skulle föremålens sammanlagda laddning bli +10 nC."
       },
       {
         "txt": "0 nC",
         "ratt": false,
-        "kommentar": "Då skulle total laddning inte bevaras."
+        "kommentar": "Då skulle den sammanlagda laddningen inte bevaras."
       },
       {
         "txt": "−10 nC",
         "ratt": false,
-        "kommentar": "Beloppen måste vara lika stora när systemet började neutralt."
+        "kommentar": "Laddningarna måste vara lika stora med motsatta tecken, eftersom båda föremålen var oladdade från början."
       }
     ],
     "traningsniva": 1,
@@ -80343,8 +80373,8 @@ window.BANK = [
     "niva": "E",
     "typ": "attraktion eller repulsion",
     "poang": "(1/0/0)",
-    "t": "<p>Två små kulor har båda positiv laddning. Hur verkar de elektriska krafterna mellan kulorna?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningar med samma tecken repellerar varandra.</p></div></div></div>",
+    "t": "<p>Två små kulor har båda positiv laddning.</p><p>Hur påverkar de varandra?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Kulorna har samma tecken på laddningarna. Därför <strong>stöter de bort varandra</strong>. Båda kulorna påverkas av lika stora krafter åt motsatta håll.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "begrepp"
@@ -80356,17 +80386,17 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>Har kulorna samma eller olika tecken på laddningarna?</p>",
     "alternativ": [
       {
-        "txt": "Krafterna är repellerande.",
+        "txt": "Kulorna stöter bort varandra.",
         "ratt": true,
-        "kommentar": "Lika laddningstecken repellerar."
+        "kommentar": "Kulor med samma tecken på laddningen stöter bort varandra."
       },
       {
-        "txt": "Krafterna är attraherande.",
+        "txt": "Kulorna dras mot varandra.",
         "ratt": false,
-        "kommentar": "Attraktion fås för olika laddningstecken."
+        "kommentar": "Kulor med olika tecken på laddningen dras mot varandra."
       },
       {
         "txt": "Ingen kraft verkar.",
@@ -80442,8 +80472,8 @@ window.BANK = [
     "niva": "E",
     "typ": "attraktion eller repulsion för olika tecken",
     "poang": "(1/0/0)",
-    "t": "<p>Två små kulor har laddningarna \\(+q\\) och \\(-q\\). Hur verkar de elektriska krafterna mellan kulorna?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningar med olika tecken attraherar varandra.</p></div></div></div>",
+    "t": "<p>Två små kulor har lika stora laddningar, den ena positiv och den andra negativ.</p><p>Hur påverkar de varandra?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Kulorna har olika tecken på laddningarna. Därför <strong>dras de mot varandra</strong>. Båda kulorna påverkas av lika stora krafter åt motsatta håll.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "begrepp"
@@ -80455,17 +80485,17 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>Har kulorna samma eller olika tecken på laddningarna?</p>",
     "alternativ": [
       {
-        "txt": "Krafterna är attraherande.",
+        "txt": "Kulorna dras mot varandra.",
         "ratt": true,
-        "kommentar": "Olika laddningstecken attraherar."
+        "kommentar": "Kulor med olika tecken på laddningen dras mot varandra."
       },
       {
-        "txt": "Krafterna är repellerande.",
+        "txt": "Kulorna stöter bort varandra.",
         "ratt": false,
-        "kommentar": "Repulsion gäller lika tecken."
+        "kommentar": "Kulor med samma tecken på laddningen stöter bort varandra."
       },
       {
         "txt": "Kraften är noll eftersom beloppen är lika.",
@@ -80491,8 +80521,8 @@ window.BANK = [
     "omr": "laddning",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p>\n<ol><li>En plastkula har laddats upp så att den har 12 000 fler elektroner än vad den brukar. Vilken laddning har plastkulan?</li>\n<li>En annan plastkula har laddningen −2,5 nC. Hur många överskottselektroner har den?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Extra elektroner ger negativ nettoladdning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=-ne=-(1{,}20\\cdot10^4)(1{,}602\\cdot10^{-19})=-1{,}922\\cdot10^{-15}\\ \\mathrm C\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet överskottselektroner är laddningsbeloppet delat med elementarladdningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{|Q|}{e}=\\frac{2{,}5\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}=1{,}56\\cdot10^{10}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Laddningen är \\(-1{,}9\\cdot10^{-15}\\ \\mathrm C\\), och \\(-2{,}5\\ \\mathrm{nC}\\) motsvarar cirka \\(1{,}6\\cdot10^{10}\\) överskottselektroner.</p></div>",
+    "t": "<p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p><p>a) En oladdad plastkula får 12 000 extra elektroner. Vilken laddning får kulan?</p><p>b) En annan plastkula har laddningen −2,5 nC. Hur många extra elektroner motsvarar det?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p></div><div class=\"facit-v2\"><p>Varje extra elektron ger kulan negativ laddning.</p><p>\\[Q=12\\,000\\cdot(-1{,}602\\cdot10^{-19})\\]</p><p>\\[Q=-1{,}9224\\cdot10^{-15}\\ \\mathrm C\\]</p><p><strong>Svar:</strong> Cirka \\(-1{,}92\\cdot10^{-15}\\ \\mathrm C\\).</p></div><div class=\"facit-v2\"><p><strong>b)</strong></p></div><div class=\"facit-v2\"><p>Den negativa laddningen betyder att kulan har extra elektroner. 2,5 nC är \\(2{,}5\\cdot10^{-9}\\ \\mathrm C\\).</p><p>\\[n=\\frac{2{,}5\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx1{,}6\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(1{,}6\\cdot10^{10}\\) extra elektroner.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "procedur"
@@ -80500,24 +80530,24 @@ window.BANK = [
     "familjNyckel": "laddning__laddning_och_antal_elektroner",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -1.922e-15,
-      null
+      -1.9224e-15,
+      15605493133.583021
     ],
     "tolerans": [
-      5.766e-17,
-      null
+      3e-17,
+      400000000.0
     ],
     "självrättning": [
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "C",
-      null
+      "elektroner"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -80530,19 +80560,23 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En plastkula har laddats upp så att den har 12 000 fler elektroner än vad den brukar. Vilken laddning har plastkulan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Extra elektroner ger negativ nettoladdning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=-ne=-(1{,}20\\cdot10^4)(1{,}602\\cdot10^{-19})=-1{,}922\\cdot10^{-15}\\ \\mathrm C\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1{,}922\\cdot10^{-15}\\ \\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Extra elektroner ger negativ nettoladdning. En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
+        "fraga": "En oladdad plastkula får 12 000 extra elektroner. Vilken laddning får kulan?",
+        "s": "<div class=\"facit-v2\"><p>Varje extra elektron ger kulan negativ laddning.</p><p>\\[Q=12\\,000\\cdot(-1{,}602\\cdot10^{-19})\\]</p><p>\\[Q=-1{,}9224\\cdot10^{-15}\\ \\mathrm C\\]</p><p><strong>Svar:</strong> Cirka \\(-1{,}92\\cdot10^{-15}\\ \\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Varje extra eller saknad elektron ändrar laddningen med 1,602·10⁻¹⁹ C. Tänk också på laddningens tecken.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "En annan plastkula har laddningen −2,5 nC. Hur många överskottselektroner har den?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet överskottselektroner är laddningsbeloppet delat med elementarladdningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{|Q|}{e}=\\frac{2{,}5\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}=1{,}56\\cdot10^{10}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}56\\cdot10^{10}\\).</p></div>",
-        "ledtrad": "<p>Extra elektroner ger negativ nettoladdning. En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
+        "fraga": "En annan plastkula har laddningen −2,5 nC. Hur många extra elektroner motsvarar det?",
+        "s": "<div class=\"facit-v2\"><p>Den negativa laddningen betyder att kulan har extra elektroner. 2,5 nC är \\(2{,}5\\cdot10^{-9}\\ \\mathrm C\\).</p><p>\\[n=\\frac{2{,}5\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx1{,}6\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(1{,}6\\cdot10^{10}\\) extra elektroner.</p></div>",
+        "ledtrad": "<p>Varje extra eller saknad elektron ändrar laddningen med 1,602·10⁻¹⁹ C. Tänk också på laddningens tecken.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
@@ -80550,7 +80584,7 @@ window.BANK = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Laddning och antal elektroner"
     ]
@@ -82662,10 +82696,10 @@ window.BANK = [
     "id": "8.56",
     "kap": 8,
     "omr": "laddning",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En atom är uppbyggd av tre olika sorters partiklar.</p>\n<ol><li>Vilka partiklar består en atom av, och vilka laddningar har de?</li>\n<li>Varför är en vanlig atom oladdad?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Atomkärnan innehåller protoner med laddningen \\(+e\\) och neutroner med laddningen 0.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Utanför kärnan finns elektroner med laddningen \\(-e\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[e=1{,}602\\cdot10^{-19}\\ \\mathrm C\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En vanlig neutral atom har lika många protoner som elektroner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Deras laddningar är lika stora men har motsatta tecken och tar därför ut varandra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=Ne-N e=0\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Atomen består av protoner \\(+e\\), neutroner \\(0\\) och elektroner \\(−e\\). Den är neutral när antalet protoner och elektroner är lika.</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En atom är uppbyggd av tre olika sorters partiklar.</p><p>a) Vilka tre sorters partiklar består en atom av, och vilka laddningar har de?</p><p>b) En atom har lika många protoner som elektroner. Förklara varför atomen är oladdad.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p></div><div class=\"facit-v2\"><p><strong>Protoner</strong> är positivt laddade, <strong>elektroner</strong> är negativt laddade och <strong>neutroner</strong> är oladdade. En protons laddning och en elektrons laddning är lika stora men har motsatta tecken.</p></div><div class=\"facit-v2\"><p><strong>b)</strong></p></div><div class=\"facit-v2\"><p>Varje protons positiva laddning tar ut en elektrons negativa laddning. Eftersom det finns lika många av båda blir den sammanlagda laddningen noll. <strong>Atomen är oladdad.</strong> Neutronerna bidrar inte med någon laddning.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "begrepp",
@@ -82676,28 +82710,32 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Atomkärnan innehåller protoner med laddningen \\(+e\\) och neutroner med laddningen 0. Utanför kärnan finns elektroner med laddningen \\(-e\\).</p>",
+    "ledtrad": "<p>Tänk på vilka partiklar som finns i kärnan och vilka som finns utanför.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En atom är uppbyggd av tre olika sorters partiklar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilka partiklar består en atom av, och vilka laddningar har de?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Atomkärnan innehåller protoner med laddningen \\(+e\\) och neutroner med laddningen 0.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Utanför kärnan finns elektroner med laddningen \\(-e\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[e=1{,}602\\cdot10^{-19}\\ \\mathrm C\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}602\\cdot10^{-19}\\ \\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Atomkärnan innehåller protoner med laddningen \\(+e\\) och neutroner med laddningen 0. Utanför kärnan finns elektroner med laddningen \\(-e\\).</p>",
-        "niva": "C"
+        "fraga": "Vilka tre sorters partiklar består en atom av, och vilka laddningar har de?",
+        "s": "<div class=\"facit-v2\"><p><strong>Protoner</strong> är positivt laddade, <strong>elektroner</strong> är negativt laddade och <strong>neutroner</strong> är oladdade. En protons laddning och en elektrons laddning är lika stora men har motsatta tecken.</p></div>",
+        "ledtrad": "<p>Tänk på partiklarna i och utanför atomkärnan.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
       },
       {
         "etikett": "b",
-        "fraga": "Varför är en vanlig atom oladdad?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En vanlig neutral atom har lika många protoner som elektroner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Deras laddningar är lika stora men har motsatta tecken och tar därför ut varandra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=Ne-N e=0\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\).</p></div>",
-        "ledtrad": "<p>Atomkärnan innehåller protoner med laddningen \\(+e\\) och neutroner med laddningen 0. Utanför kärnan finns elektroner med laddningen \\(-e\\).</p>",
-        "niva": "C"
+        "fraga": "En atom har lika många protoner som elektroner. Förklara varför atomen är oladdad.",
+        "s": "<div class=\"facit-v2\"><p>Varje protons positiva laddning tar ut en elektrons negativa laddning. Eftersom det finns lika många av båda blir den sammanlagda laddningen noll. <strong>Atomen är oladdad.</strong> Neutronerna bidrar inte med någon laddning.</p></div>",
+        "ledtrad": "<p>Jämför storleken och tecknet på protonens och elektronens laddning.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -92712,14 +92750,14 @@ window.BANK = [
     "id": "8.315",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "E",
     "typ": "laddningsbevarande vid kontakt mellan identiska ledare",
-    "poang": "(0/1/2)",
-    "t": "<p>En metallkula har nettoladdningen \\(+6{,}0\\,\\mu\\mathrm C\\). Den berör en identisk neutral metallkula långt från andra laddningar och kulorna separeras sedan. Hur stor laddning får vardera kulan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Total laddning bevaras.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Identiska ledande kulor får samma potential och delar därför den totala laddningen lika.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q_1=q_2=\\frac{6{,}0\\,\\mu C}{2}=3{,}0\\,\\mu C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\,\\mu\\mathrm C\\) på vardera kulan.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En metallkula har laddningen +6,0 µC. Den får nudda en likadan oladdad metallkula. Kulorna delar lika på laddningen och flyttas sedan isär.</p><p>Vilken laddning får varje kula?</p>",
+    "s": "<div class=\"facit-v2\"><p>Kulornas sammanlagda laddning är +6,0 µC. Den delas lika mellan två kulor.</p><p>\\[Q=\\frac{6{,}0}{2}=3{,}0\\ \\mu\\mathrm C\\]</p><p><strong>Svar:</strong> Varje kula får +3,0 µC.</p></div>",
     "familj": "Ledare, influens och laddningsutjämning",
     "formaga": [
-      "resonemang",
+      "procedur",
       "begrepp"
     ],
     "familjNyckel": "laddning__laddning_och_antal_elektroner",
@@ -92729,10 +92767,10 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd både laddningsbevarande och att identiska kulor blir symmetriska efter kontakt.</p>",
+    "ledtrad": "<p>Den sammanlagda laddningen ändras inte. Hur delas den mellan två likadana kulor?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µC",
-    "traningsniva": 4,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
@@ -103939,8 +103977,8 @@ window.BANK = [
     "omr": "laddning",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett föremål har laddningen \\(+4{,}8\\ \\mathrm{nC}\\).</p><p>Hur många elektroner har avlägsnats från föremålet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Positiv laddning betyder underskott av elektroner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna antalet med \\(n=Q/e\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(3{,}0\\cdot10^{10}\\) elektroner har avlägsnats.</p></div>",
+    "t": "<p>Ett föremål har laddningen +4,8 nC. Hur många elektroner behöver tillföras för att föremålet ska bli oladdat?</p><p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p>",
+    "s": "<div class=\"facit-v2\"><p>För att föremålet ska bli oladdat behöver den positiva laddningen tas ut av negativ laddning från elektroner. 4,8 nC är \\(4{,}8\\cdot10^{-9}\\ \\mathrm C\\).</p><p>\\[n=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(3{,}0\\cdot10^{10}\\) elektroner behöver tillföras.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "procedur",
@@ -103955,7 +103993,7 @@ window.BANK = [
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "elektroner",
-    "ledtrad": "<p>Positiv laddning betyder underskott av elektroner. Beräkna antalet med \\(n=Q/e\\).</p>",
+    "ledtrad": "<p>Vilket tecken har den laddning som behövs för att göra föremålet oladdat? En elektron har laddningen −1,602·10⁻¹⁹ C.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -104001,8 +104039,8 @@ window.BANK = [
     "omr": "laddning",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En plaststav får \\(5{,}0\\cdot10^{12}\\) extra elektroner.</p><p>Bestäm stavens laddning i nC.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Extra elektroner ger negativ laddning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=-ne=-(5{,}0\\cdot10^{12})(1{,}602\\cdot10^{-19})=-8{,}01\\cdot10^{-7}\\ \\mathrm C=-801\\ \\mathrm{nC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-801\\ \\mathrm{nC}\\).</p></div>",
+    "t": "<p>En oladdad plaststav får \\(5{,}0\\cdot10^{12}\\) extra elektroner.</p><p>Bestäm stavens laddning i nC.</p><p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p>",
+    "s": "<div class=\"facit-v2\"><p>Extra elektroner ger negativ laddning.</p><p>\\[Q=5{,}0\\cdot10^{12}\\cdot(-1{,}602\\cdot10^{-19})\\]</p><p>\\[Q=-8{,}01\\cdot10^{-7}\\ \\mathrm C\\]</p><p>En nanocoulomb är \\(10^{-9}\\ \\mathrm C\\). Därför blir laddningen −801 nC, eller cirka <strong>−800 nC</strong> med två värdesiffror.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "procedur"
@@ -104016,7 +104054,7 @@ window.BANK = [
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "nC",
-    "ledtrad": "<p>Extra elektroner ger negativ laddning. En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
+    "ledtrad": "<p>Varje extra eller saknad elektron ändrar laddningen med 1,602·10⁻¹⁹ C. Tänk också på laddningens tecken.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -107085,10 +107123,10 @@ window.BANK = [
     "id": "8.181",
     "kap": 8,
     "omr": "laddning",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Två från början neutrala föremål gnids mot varandra. Det ena får laddningen \\(+6{,}4\\ \\mathrm{nC}\\).</p><p>Hur många elektroner har flyttats mellan föremålen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddning bevaras.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Storleken på den överförda laddningen är 6,4 nC.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet elektroner fås av \\(n=|Q|/e\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{6{,}4\\cdot10^{-9}}{1{,}60\\cdot10^{-19}}=4{,}0\\cdot10^{10}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^{10}\\) elektroner.</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Två från början neutrala föremål gnids mot varandra. Det ena får laddningen \\(+6{,}4\\ \\mathrm{nC}\\).</p><p>Hur många elektroner har flyttats mellan föremålen?</p><p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p>",
+    "s": "<div class=\"facit-v2\"><p>Föremålet som blir positivt har lämnat ifrån sig elektroner. Den laddning som har flyttats är 6,4 nC, alltså \\(6{,}4\\cdot10^{-9}\\ \\mathrm C\\).</p><p>\\[n=\\frac{6{,}4\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx4{,}0\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(4{,}0\\cdot10^{10}\\) elektroner har flyttats till det andra föremålet.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "begrepp",
@@ -107103,8 +107141,8 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "svarEnhet": "elektroner",
-    "ledtrad": "<p>Skriv upp givna storheter med enheter och markera den storhet du söker. Vilket samband kopplar ihop dem utan extra okända?</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Varje extra eller saknad elektron ändrar laddningen med 1,602·10⁻¹⁹ C. Tänk också på laddningens tecken.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -107147,9 +107185,9 @@ window.BANK = [
     "id": "8.182",
     "kap": 8,
     "omr": "laddning",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett litet metallföremål har laddningen \\(-1{,}28\\ \\mu\\mathrm C\\). Hälften av överskottselektronerna avlägsnas.</p><p>Vilken laddning har föremålet därefter, i \\(\\mu\\mathrm C\\)?</p>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett litet metallföremål har laddningen \\(-1{,}28\\ \\mu\\mathrm C\\). Hälften av de extra elektronerna tas bort.</p><p>Vilken laddning har föremålet därefter, i \\(\\mu\\mathrm C\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När hälften av överskottselektronerna tas bort halveras den negativa laddningens storlek.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_2=\\frac{-1{,}28}{2}=-0{,}64\\ \\mu\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}64\\ \\mu\\mathrm C\\).</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
@@ -107165,8 +107203,8 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "svarEnhet": "µC",
-    "ledtrad": "<p>När hälften av överskottselektronerna tas bort halveras den negativa laddningens storlek.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Laddningens storlek beror på hur många extra elektroner som finns kvar.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -111024,7 +111062,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Större specifik värmekapacitet betyder mindre temperaturändring för samma massa och energi.</p>",
     "traningsniva": 1,
@@ -111069,7 +111107,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
     "traningsniva": 1,
@@ -111143,7 +111181,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
     "traningsniva": 1,
@@ -113300,7 +113338,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilket begrepp används när gas blir vätska?</p>",
     "traningsniva": 1,
@@ -113344,7 +113382,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilket begrepp används när vätska blir fast?</p>",
     "traningsniva": 1,
@@ -113506,7 +113544,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Används energin till temperaturökning eller till att bilda ånga?</p>",
     "traningsniva": 1,
@@ -113550,7 +113588,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Jämför energin för samma massa vid smältning och frysning.</p>",
     "traningsniva": 1,
@@ -150118,7 +150156,7 @@ window.BANK = [
     "spel": true,
     "svarEnhet": "Pa",
     "svarFormat": "numeriskt",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familjTidigare": [
       "Vätsketryck från djup"
@@ -150146,7 +150184,7 @@ window.BANK = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familjTidigare": [
       "Jämföra vätsketryck"
@@ -165686,7 +165724,7 @@ window.BANK = [
     "typ": "lika laddningar repellerar",
     "poang": "(1/0/0)",
     "t": "<p>Två ballonger har gnidits mot samma tröja och har båda fått negativ laddning. De hängs upp bredvid varandra i trådar.</p><p>Hur påverkar ballongerna varandra?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda ballongerna har negativ laddning.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Lika laddningar stöter bort varandra, så trådarna glider isär.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De stöter bort varandra.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Båda ballongerna är negativt laddade. Föremål med samma tecken på laddningen <strong>stöter bort varandra</strong>. Ballongerna rör sig därför bort från varandra.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "begrepp"
@@ -165699,7 +165737,7 @@ window.BANK = [
       {
         "txt": "De stöter bort varandra.",
         "ratt": true,
-        "kommentar": "Lika laddningar repellerar varandra."
+        "kommentar": "Ballongerna har samma tecken på laddningen och stöter bort varandra."
       },
       {
         "txt": "De dras mot varandra.",
@@ -165793,17 +165831,18 @@ window.BANK = [
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "elektroner"
   },
   {
     "id": "8.374",
     "kap": 8,
     "omr": "laddning",
-    "niva": "C",
+    "niva": "E",
     "typ": "laddningens kvantisering",
-    "poang": "(0/1/0)",
+    "poang": "(2/0/0)",
     "t": "<p>En elev påstår att hon har mätt laddningen 2,4·10⁻¹⁹ C på ett litet dammkorn. Elementarladdningen är 1,6·10⁻¹⁹ C.</p><p>Vilken slutsats är rimlig?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">All laddning på ett föremål är ett heltal gånger elementarladdningen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">2,4/1,6 = 1,5, vilket inte är ett heltal, så värdet kan inte stämma.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mätningen är troligen fel.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Jämför laddningen med en elektrons laddningsbelopp.</p><p>\\[\\frac{2{,}4\\cdot10^{-19}}{1{,}6\\cdot10^{-19}}=1{,}5\\]</p><p>Ett föremål kan inte sakna en och en halv elektron. Därför kan värdet inte vara dammkornets exakta laddning. <strong>Mätresultatet är osäkert.</strong></p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "begrepp",
@@ -165815,19 +165854,19 @@ window.BANK = [
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Mätningen är troligen fel, eftersom laddningen inte är en heltalsmultipel av elementarladdningen.",
+        "txt": "Mätningen är osäker: laddningen måste motsvara ett helt antal elektroner.",
         "ratt": true,
         "kommentar": "2,4/1,6 = 1,5, och ett halvt antal elektroner går inte."
       },
       {
-        "txt": "Dammkornet har 1,5 extra elektroner.",
+        "txt": "Dammkornet saknar 1,5 elektroner.",
         "ratt": false,
         "kommentar": "Antalet elektroner måste vara ett heltal."
       },
       {
         "txt": "Mätningen kan stämma eftersom små korn kan ha vilken laddning som helst.",
         "ratt": false,
-        "kommentar": "Laddning är kvantiserad."
+        "kommentar": "Elektroner kan inte delas i halvor."
       },
       {
         "txt": "Dammkornet består av halva atomer.",
@@ -165835,8 +165874,8 @@ window.BANK = [
         "kommentar": "Det förklarar inte laddningen."
       }
     ],
-    "ledtrad": "<p>Dela laddningen med elementarladdningen. Vilket antal elektroner skulle det motsvara?</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Hur många elektroner skulle den uppmätta laddningen motsvara?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -165849,8 +165888,8 @@ window.BANK = [
     "niva": "E",
     "typ": "laddning från elektronöverskott",
     "poang": "(1/0/0)",
-    "t": "<p>En plastlinjal gnids mot en ulltröja och får 2,5·10¹⁰ extra elektroner. Elementarladdningen är 1,602·10⁻¹⁹ C.</p><p>Bestäm linjalens laddning i nanocoulomb. Ange svaret med tecken.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningen är antalet elektroner gånger elektronens laddning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=-2{,}5\\cdot10^{10}\\cdot1{,}602\\cdot10^{-19}\\approx-4{,}0\\cdot10^{-9}\\ \\mathrm C=-4{,}0\\ \\mathrm{nC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4{,}0\\ \\mathrm{nC}\\).</p></div>",
+    "t": "<p>En oladdad plastlinjal gnids mot en ulltröja och får 2,5·10¹⁰ extra elektroner. En elektron har laddningen −1,602·10⁻¹⁹ C.</p><p>Bestäm linjalens laddning i nC.</p>",
+    "s": "<div class=\"facit-v2\"><p>Elektronerna ger linjalen negativ laddning.</p><p>\\[Q=2{,}5\\cdot10^{10}\\cdot(-1{,}602\\cdot10^{-19})\\]</p><p>\\[Q=-4{,}005\\cdot10^{-9}\\ \\mathrm C\\]</p><p>Eftersom \\(1\\ \\mathrm{nC}=10^{-9}\\ \\mathrm C\\) blir laddningen cirka <strong>−4,0 nC</strong>.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "procedur"
@@ -165908,7 +165947,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Vilken partikel kan lämna föremålet?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -165918,10 +165957,10 @@ window.BANK = [
     "id": "8.391",
     "kap": 8,
     "omr": "laddning",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>En liten metallkula har laddningen \\(-4{,}8\\) nC. Den får nudda en identisk oladdad metallkula, och laddningen fördelas lika mellan kulorna.</p><p><strong>a)</strong> Hur många extra elektroner hade den första kulan från början?</p><p><strong>b)</strong> Hur många elektroner gick över till den andra kulan?</p><p>Svara i grundpotensform med två värdesiffror. Elementarladdningen är \\(1{,}602\\cdot10^{-19}\\) C.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p><strong>a)</strong> \\(n=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\) elektroner.</p></div><div class=\"facit-stycke\"><p><strong>b)</strong> Efteråt har varje kula \\(-2{,}4\\) nC.</p></div><div class=\"facit-stycke\"><p>Hälften av elektronöverskottet har flyttat: \\(1{,}5\\cdot10^{10}\\) elektroner.</p></div><div class=\"facit-stycke\"><p>Det är bara elektroner som flyttar sig i en metall.</p></div><div class=\"facit-stycke\"><p>De positiva atomkärnorna sitter kvar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) cirka \\(3{,}0\\cdot10^{10}\\) &nbsp; b) cirka \\(1{,}5\\cdot10^{10}\\)</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En metallkula har laddningen −4,8 nC. Den får nudda en likadan oladdad metallkula. Laddningen fördelas lika mellan kulorna. Elementarladdningen är 1,602·10⁻¹⁹ C.</p><p>a) Hur många extra elektroner hade den första kulan från början?</p><p>b) Hur många elektroner flyttas till den andra kulan?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p></div><div class=\"facit-v2\"><p>Minustecknet betyder att den första kulan har extra elektroner. 4,8 nC är \\(4{,}8\\cdot10^{-9}\\ \\mathrm C\\).</p><p>\\[n=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(3{,}0\\cdot10^{10}\\) extra elektroner.</p></div><div class=\"facit-v2\"><p><strong>b)</strong></p></div><div class=\"facit-v2\"><p>Kulorna delar lika på den sammanlagda laddningen −4,8 nC. Varje kula får −2,4 nC. Den andra kulan var oladdad och har alltså fått 2,4 nC negativ laddning.</p><p>\\[n=\\frac{2{,}4\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx1{,}5\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(1{,}5\\cdot10^{10}\\) elektroner flyttas från den första till den andra kulan.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "procedur",
@@ -165929,10 +165968,13 @@ window.BANK = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Hur många elementarladdningar ryms i 4,8 nC? Hur stor laddning har varje kula efteråt?</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -165944,20 +165986,53 @@ window.BANK = [
       300000000.0
     ],
     "svarEtiketter": [
-      "a)",
-      "b)"
+      "a",
+      "b"
     ],
     "svarsstruktur": "ordnad",
-    "typ": "antal elektroner vid laddningsfördelning"
+    "typ": "antal elektroner vid laddningsfördelning",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En metallkula har laddningen −4,8 nC. Den får nudda en likadan oladdad metallkula. Laddningen fördelas lika mellan kulorna. Elementarladdningen är 1,602·10⁻¹⁹ C.</p>",
+    "svarEnhet": [
+      "elektroner",
+      "elektroner"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "manuellKomplettering": false,
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många extra elektroner hade den första kulan från början?",
+        "s": "<div class=\"facit-v2\"><p>Minustecknet betyder att den första kulan har extra elektroner. 4,8 nC är \\(4{,}8\\cdot10^{-9}\\ \\mathrm C\\).</p><p>\\[n=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(3{,}0\\cdot10^{10}\\) extra elektroner.</p></div>",
+        "ledtrad": "<p>Varje extra eller saknad elektron ändrar laddningen med 1,602·10⁻¹⁹ C. Tänk också på laddningens tecken.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många elektroner flyttas till den andra kulan?",
+        "s": "<div class=\"facit-v2\"><p>Kulorna delar lika på den sammanlagda laddningen −4,8 nC. Varje kula får −2,4 nC. Den andra kulan var oladdad och har alltså fått 2,4 nC negativ laddning.</p><p>\\[n=\\frac{2{,}4\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx1{,}5\\cdot10^{10}\\]</p><p><strong>Svar:</strong> Cirka \\(1{,}5\\cdot10^{10}\\) elektroner flyttas från den första till den andra kulan.</p></div>",
+        "ledtrad": "<p>Hur stor laddning får den andra kulan när kulorna delar lika?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "8.394",
     "kap": 8,
     "omr": "laddning",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Hur många elektroner motsvarar laddningen \\(-1{,}0\\) C? Svara i grundpotensform med tre värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{1{,}0}{1{,}602\\cdot10^{-19}}\\approx6{,}24\\cdot10^{18}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(6{,}24\\cdot10^{18}\\) elektroner</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett föremål har laddningen −1,0 C. Hur många extra elektroner motsvarar det? Ange svaret med tre värdesiffror.</p><p>Elementarladdningen är 1,602·10⁻¹⁹ C.</p>",
+    "s": "<div class=\"facit-v2\"><p>Minustecknet visar att det finns extra elektroner. Dela laddningens storlek med en elektrons laddningsbelopp.</p><p>\\[n=\\frac{1{,}0}{1{,}602\\cdot10^{-19}}\\approx6{,}24\\cdot10^{18}\\]</p><p><strong>Svar:</strong> Cirka \\(6{,}24\\cdot10^{18}\\) extra elektroner.</p></div>",
     "familj": "Laddning och elementarladdning",
     "formaga": [
       "procedur"
@@ -165965,14 +166040,16 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Dela laddningen med elementarladdningen.</p>",
+    "ledtrad": "<p>Varje extra eller saknad elektron ändrar laddningen med 1,602·10⁻¹⁹ C. Tänk också på laddningens tecken.</p>",
     "spel": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 6242197253433209000,
     "tolerans": 1e+16,
-    "typ": "antal elektroner i en coulomb"
+    "typ": "antal elektroner i en coulomb",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "elektroner"
   },
   {
     "kap": 8,
@@ -165981,7 +166058,7 @@ window.BANK = [
     "typ": "antal elektroner som tas bort",
     "poang": "(1/0/0)",
     "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Ett föremål har laddningen −2,0 µC. Hur många elektroner måste tas bort för att laddningen ska bli +3,0 µC?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ändringen är 5,0 µC: \\(n=\\dfrac{5{,}0\\cdot10^{-6}}{1{,}602\\cdot10^{-19}}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}1\\cdot10^{13}\\) </p></div>",
+    "s": "<div class=\"facit-v2\"><p>När elektroner tas bort blir laddningen mer positiv. Den behöver ändras från −2,0 µC till +3,0 µC.</p><p>\\[\\Delta Q=3{,}0-(-2{,}0)=5{,}0\\ \\mu\\mathrm C\\]</p><p>Det är \\(5{,}0\\cdot10^{-6}\\ \\mathrm C\\). Dela förändringen med en elektrons laddningsbelopp.</p><p>\\[n=\\frac{5{,}0\\cdot10^{-6}}{1{,}602\\cdot10^{-19}}\\approx3{,}1\\cdot10^{13}\\]</p><p><strong>Svar:</strong> Cirka \\(3{,}1\\cdot10^{13}\\) elektroner måste tas bort.</p></div>",
     "id": "8.475",
     "miniräknare": true,
     "geogebra": false,
@@ -165999,7 +166076,8 @@ window.BANK = [
     "traningsniva": 2,
     "familjNyckel": "laddning__laddning_och_elementarladdning",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "elektroner"
   },
   {
     "id": "8.377",
@@ -174898,11 +174976,11 @@ window.BANK = [
     "id": "8.387",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "laddningsdelning i två steg",
-    "poang": "(0/1/0)",
-    "t": "<p>Tre identiska metallkulor A, B och C sitter på isolerande stativ. A har laddningen +12 nC och B och C är oladdade. A förs i kontakt med B och skiljs, sedan förs B i kontakt med C och skiljs.</p><p>Bestäm laddningen på C. Svara i nC.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Identiska ledare delar laddningen lika vid kontakt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A,B:\\ \\tfrac{12+0}{2}=6\\ \\mathrm{nC}\\qquad B,C:\\ \\tfrac{6+0}{2}=3\\ \\mathrm{nC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(+3\\ \\mathrm{nC}\\).</p></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Tre likadana metallkulor A, B och C står på stativ som inte leder ström. A har laddningen +12 nC. B och C är oladdade.</p><p>Först får A nudda B. Kulorna flyttas sedan isär. Därefter får B nudda C och även de flyttas isär. Varje gång delar de två kulorna lika på laddningen.</p><p>Vilken laddning har C till sist?</p>",
+    "s": "<div class=\"facit-v2\"><p>När A nuddar B delar de lika på +12 nC. B får:</p><p>\\[Q_B=\\frac{12}{2}=6\\ \\mathrm{nC}\\]</p><p>A flyttas bort. B och den oladdade kulan C delar sedan på B:s +6 nC:</p><p>\\[Q_C=\\frac{6}{2}=3\\ \\mathrm{nC}\\]</p><p><strong>Svar:</strong> C får +3 nC. A har +6 nC och B har +3 nC kvar, så laddningarna är tillsammans fortfarande +12 nC.</p></div>",
     "familj": "Ledare, influens och laddningsutjämning",
     "formaga": [
       "procedur"
@@ -174912,8 +174990,8 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Följ kontakterna i tur och ordning. Vad händer med laddningen när två identiska kulor nuddar?</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -174928,7 +175006,7 @@ window.BANK = [
     "typ": "influens på pappersbit",
     "poang": "(1/0/0)",
     "t": "<p>En kam som laddats negativt drar till sig små oladdade pappersbitar.</p><p>Hur kan en oladdad pappersbit dras mot kammen?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den negativa kammen påverkar laddningarna i papperet så att den närmaste sidan blir positiv och den bortre negativ.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den positiva sidan är närmare och attraheras starkare än den negativa stöts bort.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Influens: den närmaste sidan blir positiv.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Kammen får positiva och negativa laddningar i papperet att förskjutas lite. Positiv laddning hamnar närmare den negativa kammen och negativ laddning längre bort. Den närmare positiva laddningen dras mot kammen starkare än den bortre negativa laddningen stöts bort. <strong>Papperet dras därför mot kammen, trots att det fortfarande är oladdat totalt.</strong></p></div>",
     "familj": "Ledare, influens och laddningsutjämning",
     "formaga": [
       "begrepp",
@@ -174942,7 +175020,7 @@ window.BANK = [
       {
         "txt": "Laddningarna i papperet förskjuts så att sidan närmast kammen blir svagt positiv.",
         "ratt": true,
-        "kommentar": "Attraktionen till den närmare sidan blir större än repulsionen från den bortre."
+        "kommentar": "Den närmare positiva laddningen dras mot kammen starkare än den bortre negativa laddningen stöts bort."
       },
       {
         "txt": "Kammen ger papperet negativ laddning innan de rör vid varandra.",
@@ -174971,11 +175049,11 @@ window.BANK = [
     "id": "8.389",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "laddning på ledares yta",
-    "poang": "(0/1/0)",
-    "t": "<p>En ihålig metallkula laddas med ett överskott av elektroner.</p><p>Var hamnar överskottsladdningen?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I en ledare kan elektronerna röra sig fritt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De stöter bort varandra och fördelar sig så långt ifrån varandra som möjligt, alltså på den yttre ytan.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> På den yttre ytan.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En metallkula är ihålig och tom inuti. Den får extra elektroner.</p><p>Var finns de extra elektronerna när laddningen har fördelats?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Elektroner kan flytta sig i metallen och stöter bort varandra. När laddningen har fördelats finns de extra elektronerna på <strong>kulans yttre yta</strong>. De samlas inte där de kom in och finns inte i det tomma hålrummet.</p></div>",
     "familj": "Ledare, influens och laddningsutjämning",
     "formaga": [
       "begrepp",
@@ -175008,7 +175086,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Laddningarna kan röra sig fritt och stöter bort varandra. Hur långt ifrån varandra kan de komma?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -177251,5 +177329,845 @@ window.BANK = [
       }
     ],
     "familjNyckel": "newton3__tredje_lagen_och_rorelse"
+  },
+  {
+    "id": "8.495",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Laddning från partikelantal",
+    "t": "<p>En jon har 11 protoner och 10 elektroner.</p><p>Vilken laddning har jonen?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Tio protoners positiva laddningar tar ut de tio elektronernas negativa laddningar. En protons positiva laddning blir kvar. <strong>Jonen har laddningen +e.</strong></p></div>",
+    "familj": "Laddning från partikelantal",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "+e, lika stor som en protons laddning.",
+        "ratt": true,
+        "kommentar": "Det finns en proton mer än elektroner."
+      },
+      {
+        "txt": "−e, lika stor som en elektrons laddning.",
+        "ratt": false,
+        "kommentar": "Det är protonerna, inte elektronerna, som är fler."
+      },
+      {
+        "txt": "0, jonen är oladdad.",
+        "ratt": false,
+        "kommentar": "Då skulle det behövas lika många protoner och elektroner."
+      },
+      {
+        "txt": "+11e.",
+        "ratt": false,
+        "kommentar": "Även de tio elektronernas negativa laddningar måste räknas med."
+      }
+    ],
+    "ledtrad": "<p>Jämför antalet positiva och negativa partiklar.</p>"
+  },
+  {
+    "id": "8.496",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Elektronantal och neutralitet",
+    "t": "<p>En jon har 8 protoner och 10 elektroner.</p><p>Hur många elektroner måste tas bort för att jonen ska bli oladdad?</p>",
+    "s": "<div class=\"facit-v2\"><p>För att vara oladdad behöver jonen lika många elektroner som protoner, alltså 8 elektroner. Den har 10.</p><p>\\[10-8=2\\]</p><p><strong>Svar:</strong> 2 elektroner måste tas bort.</p></div>",
+    "familj": "Elektronantal och neutralitet",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "elektroner",
+    "ledtrad": "<p>Hur många elektroner behövs för att ta ut protonernas laddning?</p>"
+  },
+  {
+    "id": "8.497",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Neutralitet och neutroner",
+    "t": "<p>Ett föremål innehåller lika många protoner som elektroner och dessutom många neutroner.</p><p>Är föremålet laddat?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Protonernas och elektronernas laddningar tar ut varandra. Neutroner är oladdade och ändrar inte detta. <strong>Föremålet är oladdat.</strong></p></div>",
+    "familj": "Neutralitet och neutroner",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Nej, det är oladdat.",
+        "ratt": true,
+        "kommentar": "Lika många protoner och elektroner ger sammanlagt noll laddning."
+      },
+      {
+        "txt": "Ja, det är positivt laddat.",
+        "ratt": false,
+        "kommentar": "Neutroner bidrar inte med positiv laddning."
+      },
+      {
+        "txt": "Ja, det är negativt laddat.",
+        "ratt": false,
+        "kommentar": "Neutroner bidrar inte med negativ laddning."
+      },
+      {
+        "txt": "Det beror på hur många neutroner det finns.",
+        "ratt": false,
+        "kommentar": "Neutronerna ändrar inte föremålets laddning."
+      }
+    ],
+    "ledtrad": "<p>Vilka av partiklarna har elektrisk laddning?</p>"
+  },
+  {
+    "id": "8.498",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Urladdning genom jordning",
+    "t": "<p>En negativt laddad metallkula kopplas till jorden med en metalltråd. Kulan blir oladdad.</p><p>Åt vilket håll flyttas elektroner?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Den negativt laddade kulan har extra elektroner. När de lämnar kulan genom metalltråden blir den oladdad. <strong>Elektroner flyttas från kulan till jorden.</strong></p></div>",
+    "familj": "Urladdning genom jordning",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Från kulan till jorden.",
+        "ratt": true,
+        "kommentar": "De extra elektronerna lämnar kulan."
+      },
+      {
+        "txt": "Från jorden till kulan.",
+        "ratt": false,
+        "kommentar": "Då skulle kulan få ännu fler extra elektroner."
+      },
+      {
+        "txt": "Inga elektroner flyttas.",
+        "ratt": false,
+        "kommentar": "Kulan kan inte bli oladdad utan att dess elektronantal ändras."
+      },
+      {
+        "txt": "Elektronerna försvinner inne i kulan.",
+        "ratt": false,
+        "kommentar": "Elektronerna försvinner inte utan flyttas genom tråden."
+      }
+    ],
+    "ledtrad": "<p>Vad betyder det att kulan är negativt laddad?</p>"
+  },
+  {
+    "id": "8.499",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Lika fördelning av laddning",
+    "t": "<p>Två likadana metallkulor har laddningarna +8,0 nC och 0 nC. De får nudda varandra och delar lika på laddningen.</p><p>Vilken laddning har varje kula efteråt?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den sammanlagda laddningen är +8,0 nC. Den fördelas lika mellan två kulor.</p><p>\\[Q=\\frac{8{,}0}{2}=4{,}0\\ \\mathrm{nC}\\]</p><p><strong>Svar:</strong> Varje kula får +4,0 nC.</p></div>",
+    "familj": "Lika fördelning av laddning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "nC",
+    "ledtrad": "<p>Laddningen försvinner inte. Hur delas den mellan två kulor?</p>"
+  },
+  {
+    "id": "8.500",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Bevarad laddning mellan laddade föremål",
+    "t": "<p>Två föremål har laddningarna +6,0 nC och −2,0 nC. Elektroner flyttas mellan dem. Det första föremålet får då laddningen +1,0 nC.</p><p>Vilken laddning får det andra föremålet?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den sammanlagda laddningen ändras inte när elektroner flyttas mellan föremålen. Från början är den:</p><p>\\[Q_{\\text{tot}}=6{,}0+(-2{,}0)=4{,}0\\ \\mathrm{nC}\\]</p><p>Efteråt har det första föremålet +1,0 nC. Resten finns på det andra:</p><p>\\[Q_2=4{,}0-1{,}0=3{,}0\\ \\mathrm{nC}\\]</p><p><strong>Svar:</strong> Det andra föremålet får +3,0 nC.</p></div>",
+    "familj": "Bevarad laddning mellan laddade föremål",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "nC",
+    "ledtrad": "<p>Jämför den sammanlagda laddningen före och efter.</p>"
+  },
+  {
+    "id": "8.501",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Kraftriktning i en figur",
+    "t": "<p>Figuren visar en positiv kula A och en negativ kula B. Pilarna ska visa de elektriska krafterna mellan kulorna.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 145\" role=\"img\" aria-label=\"Positiv kula till vänster och negativ kula till höger. Båda kraftpilarna pekar åt höger.\" style=\"width:100%;max-width:360px;background:#f4f7fb;border-radius:12px\"><circle cx=\"65\" cy=\"70\" r=\"23\" fill=\"#fff\" stroke=\"#18364f\" stroke-width=\"2\"/><circle cx=\"245\" cy=\"70\" r=\"23\" fill=\"#fff\" stroke=\"#18364f\" stroke-width=\"2\"/><g fill=\"#18364f\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\"><text x=\"65\" y=\"78\">+</text><text x=\"245\" y=\"78\">−</text></g><g stroke=\"#006d83\" stroke-width=\"3\"><path d=\"M92 70 H155 M155 70 L143 63 M155 70 L143 77\" fill=\"none\"/><path d=\"M272 70 H335 M335 70 L323 63 M335 70 L323 77\" fill=\"none\"/></g><g fill=\"#18364f\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\"><text x=\"65\" y=\"120\">Kula A</text><text x=\"245\" y=\"120\">Kula B</text></g></svg><p>Vad behöver ändras i figuren?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Kulorna har olika tecken på laddningen och dras därför mot varandra. Kraften på A ska peka åt höger, mot B. Kraften på B ska peka åt vänster, mot A. <strong>Pilen vid B ska vändas.</strong></p></div>",
+    "familj": "Kraftriktning i en figur",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Vänd pilen vid B.",
+        "ratt": true,
+        "kommentar": "Kraften på B ska peka mot A, alltså åt vänster."
+      },
+      {
+        "txt": "Vänd pilen vid A.",
+        "ratt": false,
+        "kommentar": "Kraften på A pekar redan mot B."
+      },
+      {
+        "txt": "Vänd båda pilarna.",
+        "ratt": false,
+        "kommentar": "Då skulle kulan A felaktigt tryckas bort från B."
+      },
+      {
+        "txt": "Ingen ändring behövs.",
+        "ratt": false,
+        "kommentar": "Krafterna mellan kulorna ska peka åt motsatta håll."
+      }
+    ],
+    "ledtrad": "<p>Kulorna har olika tecken på laddningen. Dras de mot varandra eller stöter de bort varandra?</p>"
+  },
+  {
+    "id": "8.502",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Sammanlagd och enskild laddning",
+    "t": "<p>Tre små droppar har laddningarna +3 nC, −5 nC och +2 nC.</p><p>Vilket påstående är rätt?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Den sammanlagda laddningen är 3 − 5 + 2 = 0 nC. Men varje droppe har fortfarande en egen laddning som inte är noll. <strong>Dropparna är laddade, trots att deras sammanlagda laddning är noll.</strong></p></div>",
+    "familj": "Sammanlagd och enskild laddning",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Varje droppe är laddad, men deras sammanlagda laddning är noll.",
+        "ratt": true,
+        "kommentar": "Laddningarna tar ut varandra i summan, inte på varje droppe."
+      },
+      {
+        "txt": "Alla tre dropparna är oladdade.",
+        "ratt": false,
+        "kommentar": "Varje droppe har en egen laddning som inte är noll."
+      },
+      {
+        "txt": "Den sammanlagda laddningen är negativ eftersom −5 nC är störst.",
+        "ratt": false,
+        "kommentar": "De positiva laddningarna är tillsammans +5 nC."
+      },
+      {
+        "txt": "Dropparnas laddningar försvinner när man lägger ihop talen.",
+        "ratt": false,
+        "kommentar": "Att summera laddningar är inte samma sak som att flytta elektroner mellan dropparna."
+      }
+    ],
+    "ledtrad": "<p>Räkna den sammanlagda laddningen. Är det samma sak som laddningen på varje droppe?</p>"
+  },
+  {
+    "id": "8.503",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Influens i en metallkula",
+    "t": "<p>En negativt laddad stav hålls nära en oladdad metallkula utan att röra den. Kulan är inte kopplad till jorden.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 170\" role=\"img\" aria-label=\"Negativt laddad stav nära en oladdad metallkula. De rör inte vid varandra.\" style=\"width:100%;max-width:360px;background:#f4f7fb;border-radius:12px\"><rect x=\"45\" y=\"20\" width=\"30\" height=\"100\" rx=\"6\" fill=\"#fff\" stroke=\"#18364f\" stroke-width=\"2\"/><circle cx=\"225\" cy=\"75\" r=\"45\" fill=\"#fff\" stroke=\"#18364f\" stroke-width=\"2\"/><g fill=\"#18364f\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\"><text x=\"60\" y=\"47\">−</text><text x=\"60\" y=\"78\">−</text><text x=\"60\" y=\"109\">−</text></g><g fill=\"#18364f\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\"><text x=\"60\" y=\"150\">Stav</text><text x=\"225\" y=\"150\">Metallkula</text></g></svg><p>Vad händer med elektronerna i kulan?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Den negativa staven stöter bort elektronerna i kulan. De flyttar sig mot sidan längst från staven. <strong>Sidan närmast staven får färre elektroner och blir positivt laddad.</strong> Den bortre sidan blir negativt laddad. Ingen elektron har lämnat eller kommit till kulan, så kulans sammanlagda laddning är fortfarande noll. Den här omfördelningen kallas <strong>influens</strong>.</p></div>",
+    "familj": "Influens i en metallkula",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "De flyttar sig mot sidan längst från staven.",
+        "ratt": true,
+        "kommentar": "Elektronerna stöts bort av den negativa staven."
+      },
+      {
+        "txt": "De flyttar sig mot sidan närmast staven.",
+        "ratt": false,
+        "kommentar": "Negativa laddningar stöter bort varandra."
+      },
+      {
+        "txt": "De flyttar sig från staven till kulan.",
+        "ratt": false,
+        "kommentar": "Staven rör inte kulan och inga elektroner överförs här."
+      },
+      {
+        "txt": "De försvinner så att hela kulan blir positiv.",
+        "ratt": false,
+        "kommentar": "Elektronerna flyttas inom kulan men lämnar den inte."
+      }
+    ],
+    "ledtrad": "<p>Vilken kraft verkar mellan stavens negativa laddning och kulans elektroner?</p>"
+  },
+  {
+    "id": "8.504",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Tolkningsförsök med två laddningstecken",
+    "t": "<p>Små pappersbitar dras till en negativt laddad stav utan att röra den. De dras också till en positivt laddad stav.</p><p>Vad visar det om pappersbitarna?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Att pappersbitarna dras till en laddad stav betyder inte att de själva måste vara laddade. En stav kan förskjuta positiva och negativa laddningar lite i oladdat papper. Laddningen med motsatt tecken hamnar närmare staven och dras dit starkare än den bortre laddningen stöts bort. <strong>Pappersbitarna kan alltså vara oladdade och ändå dras till båda stavarna.</strong></p></div>",
+    "familj": "Tolkningsförsök med två laddningstecken",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "De kan vara oladdade och ändå dras till båda stavarna.",
+        "ratt": true,
+        "kommentar": "Laddningarna kan förskjutas i oladdat papper så att det dras mot staven."
+      },
+      {
+        "txt": "De måste vara positivt laddade.",
+        "ratt": false,
+        "kommentar": "Attraktion till den negativa staven bevisar inte att papperet har positiv laddning."
+      },
+      {
+        "txt": "De måste vara negativt laddade.",
+        "ratt": false,
+        "kommentar": "Attraktion till den positiva staven bevisar inte att papperet har negativ laddning."
+      },
+      {
+        "txt": "De måste skapa nya elektroner varje gång en stav närmar sig.",
+        "ratt": false,
+        "kommentar": "Ingen ny laddning behöver skapas. Befintliga laddningar förskjuts."
+      }
+    ],
+    "ledtrad": "<p>Kan en laddad stav påverka hur laddningarna är fördelade i oladdat papper?</p>"
+  },
+  {
+    "id": "8.505",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Laddning genom influens och separation",
+    "t": "<p>Två oladdade metallkulor A och B nuddar varandra. En negativt laddad stav hålls nära A utan att röra någon kula.</p><p>Med staven kvar flyttas B bort från A. Sedan tas staven bort.</p><p>Vilka laddningar har kulorna till sist?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Den negativa staven stöter bort elektroner från A till B medan kulorna nuddar varandra. A får därför färre elektroner och B får extra elektroner. När kulorna skiljs åt kan elektronerna inte flytta tillbaka. <strong>A blir positivt laddad och B negativt laddad.</strong> Deras laddningar är lika stora med motsatta tecken eftersom kulorna tillsammans var oladdade från början.</p></div>",
+    "familj": "Laddning genom influens och separation",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "A är positiv och B är negativ.",
+        "ratt": true,
+        "kommentar": "Elektroner har flyttats från A till B och kulorna skiljs åt innan staven tas bort."
+      },
+      {
+        "txt": "A är negativ och B är positiv.",
+        "ratt": false,
+        "kommentar": "Den negativa staven stöter elektroner bort från A, mot B."
+      },
+      {
+        "txt": "Båda är oladdade.",
+        "ratt": false,
+        "kommentar": "Elektronerna kan inte flytta tillbaka när kulorna redan har skilts åt."
+      },
+      {
+        "txt": "Båda är negativt laddade.",
+        "ratt": false,
+        "kommentar": "Staven tillför inga elektroner. Kulornas sammanlagda laddning är fortfarande noll."
+      }
+    ],
+    "ledtrad": "<p>Åt vilket håll stöts elektronerna medan kulorna fortfarande nuddar varandra?</p>"
+  },
+  {
+    "id": "8.506",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "typ": "Influens med jordning",
+    "t": "<p>En oladdad metallkula kopplas till jorden med en metalltråd. En negativt laddad stav förs nära kulan utan att röra den.</p><p>Först tas metalltråden bort medan staven hålls kvar. Sedan tas staven bort.</p><p>Vilken laddning har kulan till sist?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Den negativa staven stöter bort elektroner från kulan. Eftersom kulan är kopplad till jorden kan elektroner lämna kulan genom tråden. När tråden tas bort kan de inte komma tillbaka. När även staven tas bort har kulan fortfarande färre elektroner än från början. <strong>Kulan är positivt laddad.</strong> Om staven hade tagits bort medan tråden var kvar skulle elektroner kunna komma tillbaka och göra kulan oladdad.</p></div>",
+    "familj": "Influens med jordning",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Positiv laddning.",
+        "ratt": true,
+        "kommentar": "Elektroner lämnar kulan och jordförbindelsen bryts innan staven tas bort."
+      },
+      {
+        "txt": "Negativ laddning.",
+        "ratt": false,
+        "kommentar": "Den negativa staven stöter bort elektroner. Den tillför inga till kulan."
+      },
+      {
+        "txt": "Ingen laddning.",
+        "ratt": false,
+        "kommentar": "Elektronerna kan inte komma tillbaka genom tråden eftersom den har tagits bort."
+      },
+      {
+        "txt": "Det beror bara på kulans massa.",
+        "ratt": false,
+        "kommentar": "Massan avgör inte vad som händer med elektronerna i detta förlopp."
+      }
+    ],
+    "ledtrad": "<p>Vad kan elektronerna göra medan tråden till jorden finns kvar? Vad ändras när tråden tas bort?</p>"
+  },
+  {
+    "id": "8.507",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Planera ett försök med Coulombs lag",
+    "t": "<p>I ett försök påverkar två små laddade kulor varandra med kraften 0,80 mN när avståndet mellan deras mittpunkter är 10 cm. Laddningarna ändras inte.</p><p>Kraften får vara högst 0,20 mN. Vilket är det minsta avståndet mellan kulornas mittpunkter?</p>",
+    "s": "<div class=\"facit-v2\"><p>Kraften behöver minska till en fjärdedel:</p><p>\\[\\frac{0{,}20}{0{,}80}=\\frac14\\]</p><p>Enligt Coulombs lag beror kraften på avståndet i kvadrat. Dubbelt avstånd ger därför en fjärdedel så stor kraft.</p><p>\\[r=2\\cdot10=20\\ \\mathrm{cm}\\]</p><p><strong>Svar:</strong> Avståndet måste vara minst 20 cm.</p></div>",
+    "familj": "Planera ett försök med Coulombs lag",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm",
+    "ledtrad": "<p>Hur ändras kraften när avståndet fördubblas?</p>"
+  },
+  {
+    "id": "8.508",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Tolka mätdata för elektrisk kraft",
+    "t": "<p>En elev mäter kraften mellan två små laddade kulor. Laddningarna ändras inte.</p><table><thead><tr><th>Avstånd (cm)</th><th>Kraft (mN)</th></tr></thead><tbody><tr><td>10</td><td>0,16</td></tr><tr><td>20</td><td>0,04</td></tr><tr><td>40</td><td>0,01</td></tr></tbody></table><p>Vilket samband visar mätvärdena?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>När avståndet ökar från 10 till 20 cm minskar kraften från 0,16 till 0,04 mN, alltså till en fjärdedel. Samma sak sker från 20 till 40 cm. <strong>Dubbelt avstånd ger en fjärdedel så stor kraft.</strong> Det stämmer med Coulombs lag, där avståndet står i kvadrat i nämnaren.</p></div>",
+    "familj": "Tolka mätdata för elektrisk kraft",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Dubbelt avstånd ger en fjärdedel så stor kraft.",
+        "ratt": true,
+        "kommentar": "Både 0,04/0,16 och 0,01/0,04 är 1/4."
+      },
+      {
+        "txt": "Dubbelt avstånd ger hälften så stor kraft.",
+        "ratt": false,
+        "kommentar": "Hälften av 0,16 är 0,08, inte 0,04."
+      },
+      {
+        "txt": "Kraften är oberoende av avståndet.",
+        "ratt": false,
+        "kommentar": "Kraften minskar tydligt i tabellen."
+      },
+      {
+        "txt": "Dubbelt avstånd ger dubbelt så stor kraft.",
+        "ratt": false,
+        "kommentar": "Kraften minskar i stället för att öka."
+      }
+    ],
+    "ledtrad": "<p>Jämför två rader åt gången. Hur ändras avståndet och kraften?</p>"
+  },
+  {
+    "id": "8.509",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Två förändringar i Coulombs lag",
+    "t": "<p>Två små laddade kulor påverkar varandra med kraften F. Den ena kulans laddning görs fyra gånger så stor. Samtidigt fördubblas avståndet mellan kulorna. Den andra kulans laddning ändras inte.</p><p>Hur stor blir kraften?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Fyra gånger så stor laddning på den ena kulan ger fyra gånger så stor kraft. Dubbelt avstånd ger en fjärdedel så stor kraft. Förändringarna tar ut varandra:</p><p>\\[F_{\\text{ny}}=\\frac{4}{2^2}F=F\\]</p><p><strong>Svar:</strong> Kraftens storlek är oförändrad.</p></div>",
+    "familj": "Två förändringar i Coulombs lag",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "F, alltså oförändrad.",
+        "ratt": true,
+        "kommentar": "Faktorn 4 från laddningen tar ut faktorn 1/4 från avståndet."
+      },
+      {
+        "txt": "2F.",
+        "ratt": false,
+        "kommentar": "Avståndet står i kvadrat, så det räcker inte att dela med 2."
+      },
+      {
+        "txt": "4F.",
+        "ratt": false,
+        "kommentar": "Även det större avståndet måste räknas med."
+      },
+      {
+        "txt": "F/4.",
+        "ratt": false,
+        "kommentar": "Laddningen har också blivit fyra gånger så stor."
+      }
+    ],
+    "ledtrad": "<p>Undersök först varje förändring för sig.</p>"
+  },
+  {
+    "id": "8.510",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Bedöma ett påstående om ömsesidiga krafter",
+    "t": "<p>Två små kulor har laddningarna +1 nC och +9 nC. Elin säger: ”Kulan med störst laddning påverkar den andra med störst kraft.”</p><p>Stämmer det?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Krafterna mellan två föremål är lika stora och riktade åt motsatta håll. I Coulombs lag ingår samma produkt av laddningarna för båda kulorna. <strong>Ingen av kulorna påverkar den andra med större kraft.</strong> Kulorna stöter bort varandra eftersom båda är positivt laddade.</p></div>",
+    "familj": "Bedöma ett påstående om ömsesidiga krafter",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Nej, krafterna på kulorna är lika stora.",
+        "ratt": true,
+        "kommentar": "Kulorna påverkar varandra med lika stora krafter åt motsatta håll."
+      },
+      {
+        "txt": "Ja, den större laddningen ger nio gånger så stor kraft på den andra kulan.",
+        "ratt": false,
+        "kommentar": "Båda laddningarna ingår i samma produkt för båda krafterna."
+      },
+      {
+        "txt": "Ja, den större laddningen ger tre gånger så stor kraft på den andra kulan.",
+        "ratt": false,
+        "kommentar": "Krafterna är lika stora oavsett vilket förhållande laddningarna har."
+      },
+      {
+        "txt": "Nej, bara den mindre laddningen påverkas.",
+        "ratt": false,
+        "kommentar": "Båda kulorna påverkas av en elektrisk kraft."
+      }
+    ],
+    "ledtrad": "<p>Jämför kraften från A på B med kraften från B på A.</p>"
+  },
+  {
+    "id": "8.511",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Riktning från två elektriska krafter",
+    "t": "<p>Tre små laddade kulor hålls på plats som i figuren. A och B är positivt laddade, C är negativt laddad. Laddningarna är lika stora och avstånden A–B och B–C är lika.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 180\" role=\"img\" aria-label=\"Tre laddningar på en linje: A plus q, B plus q och C minus q. Avståndet från A till B är lika stort som från B till C.\" style=\"width:100%;max-width:390px;background:#f4f7fb;border-radius:12px\"><g stroke=\"#18364f\" stroke-width=\"2\" fill=\"#fff\"><circle cx=\"60\" cy=\"90\" r=\"22\"/><circle cx=\"195\" cy=\"90\" r=\"22\"/><circle cx=\"330\" cy=\"90\" r=\"22\"/></g><g fill=\"#18364f\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\"><text x=\"60\" y=\"96\">+q</text><text x=\"195\" y=\"96\">+q</text><text x=\"330\" y=\"96\">−q</text><text x=\"60\" y=\"145\">A</text><text x=\"195\" y=\"145\">B</text><text x=\"330\" y=\"145\">C</text><text x=\"128\" y=\"35\">r</text><text x=\"263\" y=\"35\">r</text></g><g stroke=\"#18364f\" stroke-width=\"1.5\"><path d=\"M60 45 H195 M60 40 V50 M195 40 V50 M195 45 H330 M330 40 V50\" fill=\"none\"/></g></svg><p>Åt vilket håll verkar den sammanlagda elektriska kraften på B?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>A stöter bort B, så kraften från A på B pekar åt höger. C drar till sig B, så även kraften från C på B pekar åt höger. <strong>Den sammanlagda kraften på B pekar åt höger.</strong> Lika stora krafter tar bara ut varandra om de pekar åt motsatta håll.</p></div>",
+    "familj": "Riktning från två elektriska krafter",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Åt höger.",
+        "ratt": true,
+        "kommentar": "Båda krafterna på B pekar åt höger."
+      },
+      {
+        "txt": "Åt vänster.",
+        "ratt": false,
+        "kommentar": "A stöter B åt höger och C drar B åt höger."
+      },
+      {
+        "txt": "Kraften är noll.",
+        "ratt": false,
+        "kommentar": "Krafterna är lika stora men pekar åt samma håll."
+      },
+      {
+        "txt": "Uppåt.",
+        "ratt": false,
+        "kommentar": "Alla tre kulorna ligger på samma vågräta linje."
+      }
+    ],
+    "ledtrad": "<p>Undersök kraften från A och kraften från C var för sig.</p>"
+  },
+  {
+    "id": "8.512",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Hitta ett enhetsfel i Coulombs lag",
+    "t": "<p>Två små kulor har laddningarna +2,0 µC och −3,0 µC. Avståndet mellan deras mittpunkter är 20 cm. En elev räknar kraftens storlek så här:</p>\\[F=k\\frac{(2{,}0\\cdot10^{-6})(3{,}0\\cdot10^{-6})}{20^2}\\]<p>Konstanten k anges i N·m²/C². Vad behöver rättas i beräkningen?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Laddningarna har redan omvandlats från µC till C. Avståndet måste också vara i rätt enhet: 20 cm är 0,20 m. <strong>20² ska därför ersättas med 0,20² i nämnaren.</strong> När kraftens storlek beräknas används laddningarnas positiva belopp, så minustecknet på den andra laddningen ska inte sättas in.</p></div>",
+    "familj": "Hitta ett enhetsfel i Coulombs lag",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Byt 20² mot 0,20².",
+        "ratt": true,
+        "kommentar": "Avståndet måste anges i meter när k anges i N·m²/C²."
+      },
+      {
+        "txt": "Byt 10⁻⁶ mot 10⁻⁹ för båda laddningarna.",
+        "ratt": false,
+        "kommentar": "Mikrocoulomb motsvarar 10⁻⁶ C. 10⁻⁹ gäller nanocoulomb."
+      },
+      {
+        "txt": "Ta bort kvadraten på avståndet.",
+        "ratt": false,
+        "kommentar": "Avståndet står i kvadrat i Coulombs lag."
+      },
+      {
+        "txt": "Lägg till ett minustecken så att kraftens storlek blir negativ.",
+        "ratt": false,
+        "kommentar": "En krafts storlek kan inte vara negativ. Tecknen avgör i stället riktningen."
+      }
+    ],
+    "ledtrad": "<p>Vilken längdenhet kräver den angivna enheten på k?</p>"
+  },
+  {
+    "id": "8.513",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Jämföra laddningsprodukter",
+    "t": "<p>I försök A har två små kulor laddningarna +2 nC och +8 nC. I försök B har kulorna +4 nC och +4 nC. Avståndet mellan kulornas mittpunkter är lika stort i båda försöken.</p><p>I vilket försök är den elektriska kraften störst?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Vid samma avstånd bestäms kraftens storlek av produkten av laddningarna. För försök A är produkten 2·8 = 16. För försök B är den 4·4 = 16. <strong>Kraften är lika stor i båda försöken.</strong> Det räcker alltså inte att jämföra bara den största laddningen.</p></div>",
+    "familj": "Jämföra laddningsprodukter",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Kraften är lika stor i båda.",
+        "ratt": true,
+        "kommentar": "Produkterna 2·8 och 4·4 är lika stora."
+      },
+      {
+        "txt": "I försök A, eftersom 8 nC är den största laddningen.",
+        "ratt": false,
+        "kommentar": "Även den andra laddningen påverkar kraften."
+      },
+      {
+        "txt": "I försök B, eftersom laddningarna är lika stora.",
+        "ratt": false,
+        "kommentar": "Det är produkten av laddningarna som avgör kraften, inte om de är lika."
+      },
+      {
+        "txt": "Kraften är noll i båda försöken.",
+        "ratt": false,
+        "kommentar": "Två positivt laddade kulor stöter bort varandra."
+      }
+    ],
+    "ledtrad": "<p>Vilken kombination av laddningarna ingår i Coulombs lag?</p>"
+  },
+  {
+    "id": "8.514",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "typ": "Skilja på kraftens storlek och riktning",
+    "t": "<p>Två små positivt laddade kulor stöter bort varandra med kraften F. Den ena kulans laddning byts från +q till −3q. Den andra laddningen och avståndet ändras inte.</p><p>Hur påverkar kulorna varandra nu?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Laddningarna har nu olika tecken, så kulorna dras mot varandra. Den ändrade laddningens storlek har blivit tre gånger så stor. Enligt Coulombs lag blir då även kraftens storlek tre gånger så stor. <strong>Kulorna dras mot varandra med kraften 3F.</strong></p></div>",
+    "familj": "Skilja på kraftens storlek och riktning",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "De dras mot varandra med kraften 3F.",
+        "ratt": true,
+        "kommentar": "Olika tecken ger attraktion och tre gånger så stor laddning ger tre gånger så stor kraft."
+      },
+      {
+        "txt": "De stöter bort varandra med kraften 3F.",
+        "ratt": false,
+        "kommentar": "Laddningarnas olika tecken gör att de dras mot varandra."
+      },
+      {
+        "txt": "De dras mot varandra med kraften 9F.",
+        "ratt": false,
+        "kommentar": "Det är bara en laddning som tredubblas. Laddningen står inte i kvadrat här."
+      },
+      {
+        "txt": "Kraftens storlek och riktning är oförändrade.",
+        "ratt": false,
+        "kommentar": "Både tecknet och storleken på den ena laddningen har ändrats."
+      }
+    ],
+    "ledtrad": "<p>Vad avgör om kulorna dras mot varandra? Vad avgör kraftens storlek?</p>"
   }
 ];

@@ -18,7 +18,7 @@ const root=path.join(__dirname,'..'),id=n=>'00000000-0000-0000-0000-'+String(n).
   const comment='Volymen är 6,23 liter. <b>Detta är vanlig text.</b>';
   for(const user of [null,3,5]){await uid(user);check((await rpc('kg_felrapport_granska',['fy1','6.338','ignorerad',comment])).code,'larare_kravs');check((await rpc('kg_felrapport_granskningssvar')).code,'larare_kravs');}
   await uid(1);
-  check((await rpc('kg_felrapport_granska',['fy1','6.338','atgardad','   '])).code,'kommentar');
+  check((await rows("select nullif(btrim('   '),'') as blank"))[0].blank,null);
   check((await rpc('kg_felrapport_granska',['fy1','6.338','atgardad','x'.repeat(1001)])).code,'kommentar');
   check((await rpc('kg_felrapport_granska',['fy1','6.338','oppen',comment])).code,'status');
   check((await rpc('kg_felrapport_granska',['fy1','9999','ignorerad',comment])).code,'ingen_rapport');
@@ -50,9 +50,15 @@ const root=path.join(__dirname,'..'),id=n=>'00000000-0000-0000-0000-'+String(n).
   await uid(1);await assert.rejects(rpc('kg_felrapport_granska',['fy1','rollback','atgardad','Testa återställning']),/audit failure/);checks++;
   check((await rows("select atgardad,granskningskommentar from kg_felrapport where uppgift='rollback'"))[0],{atgardad:false,granskningskommentar:null});
   await uid(4);
+  await db.query('insert into kg_felrapport(kurs,uppgift,anvandare) values($1,$2,$3)',['fy1','utan-kommentar',id(4)]);
+  await uid(1);check((await rpc('kg_felrapport_granska',['fy1','utan-kommentar','ignorerad','   '])).ok,true);
+  check((await rows("select granskningskommentar,atgardad,ignorerad from kg_felrapport where uppgift='utan-kommentar'"))[0],{granskningskommentar:null,atgardad:true,ignorerad:true});
+  check((await rpc('kg_felrapport_granska',['fy1','5.55','atgardad',null,true])).ok,true);
+  check((await rows("select granskningskommentar from kg_felrapport where uppgift='5.55'"))[0].granskningskommentar,null);
+  await uid(4);
   // Verifiera funktionen med faktiska databasroller, inte enbart huvudrollen.
   await db.exec('grant usage on schema public,auth to authenticated;set role authenticated;');
-  check((await rpc('kg_mina_felrapporter')).length,2);
+  check((await rpc('kg_mina_felrapporter')).length,3);
   await assert.rejects(db.query('select * from public.kg_felrapport'),/permission denied/);checks++;
   await uid(3);check((await rpc('kg_felrapport_granska',['fy1','5.55','atgardad','Otillåtet'])).code,'larare_kravs');
   await db.exec('reset role;set role anon;');

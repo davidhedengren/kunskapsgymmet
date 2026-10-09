@@ -2128,30 +2128,25 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .fellogg{display:flex;flex-direction:column;gap:7px;margin-top:14px}
 .fellogg .kursrad{font-family:var(--mono);font-size:10px;letter-spacing:.13em;
   text-transform:uppercase;color:var(--ink3);margin-top:10px}
-.felpost{display:flex;align-items:center;gap:11px;padding:10px 12px;border-radius:14px;
-  border:1px solid var(--hair);background:var(--surface2)}
+.felpost{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,.65fr);gap:16px;padding:12px;border-radius:14px;border:1px solid var(--hair);background:var(--surface2)}
 .felpost.klar{opacity:.85}
-.felpost{flex-wrap:wrap}
-.fel-loggsvar{flex-basis:100%;grid-column:1 / -1}
+.felpost-info{display:flex;flex-direction:column;align-items:flex-start;gap:8px;min-width:0}
+.felpost .nr{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--ink)}
+.felpost .txt{font-size:12px;color:var(--ink2);overflow-wrap:anywhere}
+.felpost .txt em{font-style:normal;color:var(--ink3)}
+.felpost .antal{font-size:11px;color:var(--warn)}
+.felpost-edit{min-width:0}
+.felpost-edit label{display:block;font-size:11px;color:var(--ink2);margin-bottom:6px}
+.felpost-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.felpost .knapp{font-size:11px;font-weight:650;color:var(--ink3);border:1px solid var(--hair);border-radius:9px;padding:6px 9px;background:var(--surface)}
+.felpost .knapp:hover{color:var(--good);border-color:var(--good)}
+.felpost .knapp:disabled{opacity:.5;cursor:wait}
+.felrad-fel{font-size:12px;color:var(--warn);overflow-wrap:anywhere;margin:8px 0 0}
 .fel-svar{margin-top:10px;padding:12px;background:var(--surface2);border-radius:12px;font-size:13px}
 .fel-svar p{white-space:pre-wrap;overflow-wrap:anywhere;margin:6px 0 0;color:var(--ink2)}
-.fel-svar-label{display:block;margin:14px 0 8px;font-size:13px;font-weight:650}
-.fel-svar-input{display:block;width:100%;box-sizing:border-box;border:1px solid var(--hair);border-radius:12px;padding:12px;background:var(--surface2);color:var(--ink);font:inherit;resize:vertical}
-#felgranskning-fel{color:var(--warn)}
+.fel-svar-input{display:block;width:100%;box-sizing:border-box;border:1px solid var(--hair);border-radius:10px;padding:10px;background:var(--surface);color:var(--ink);font:inherit;font-size:12px;resize:vertical}
 #mina-felrapporter-lista{max-height:60dvh;overflow:auto}
-@media(max-width:600px){
-  #fellogg .felpost{display:grid;grid-template-columns:auto minmax(0,1fr) auto}
-  #fellogg .felpost .knapp{grid-column:1}
-  #fellogg .felpost .knapp.avfard,#fellogg .felpost .admin-rapportstatus{grid-column:2 / -1}
-}
-.felpost .nr{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--ink)}
-.felpost .txt{flex:1;min-width:0;font-size:12px;color:var(--ink2)}
-.felpost .txt em{font-style:normal;color:var(--ink3)}
-.felpost .antal{font-size:11px;font-weight:700;color:var(--warn);white-space:nowrap}
-.felpost .knapp{font-size:11px;font-weight:650;color:var(--ink3);border:1px solid var(--hair);
-  border-radius:9px;padding:5px 8px;background:var(--surface)}
-.felpost .knapp:hover{color:var(--good);border-color:color-mix(in srgb,var(--good) 40%,var(--hair))}
-.felpost .knapp.avfard:hover{color:var(--ink2);border-color:var(--hair2)}
+@media(max-width:650px){.felpost{grid-template-columns:minmax(0,1fr)}}
 
 /* ── Adminöversikt ───────────────────────────────────────────────────── */
 .admin-summering{display:grid;grid-template-columns:repeat(auto-fit,minmax(126px,1fr));gap:8px;margin:4px 0 16px}
@@ -3498,7 +3493,8 @@ function sbHeaders(auth){
 function sparaSession(s){
   if(session?.user?.id!==s?.user?.id){
     document.getElementById('mina-felrapporter')?.remove();
-    document.getElementById('felgranskning')?.remove();
+    felloggUtkast.clear();felloggSparar.clear();felloggFel.clear();
+    stangFellogg();
   }
   session=s;
   if(typeof state!=="undefined") state.minKlass=undefined;
@@ -11339,13 +11335,16 @@ function felloggStatus(r){
   return r.atgardad?"avslutad":"oppen";
 }
 let felloggData=[];
+const felloggUtkast=new Map();
+const felloggSparar=new Map();
+const felloggFel=new Map();
 let felloggVisaKlara=false;
 async function oppnaFelrapportLogg(){
   document.getElementById("kontomeny")?.remove();
   stangFellogg();
   const el=document.createElement("div");
   el.className="modal"; el.id="fellogg";
-  el.innerHTML=`<div class="modal-kort" style="width:min(720px,100%)" role="dialog" aria-modal="true"
+  el.innerHTML=`<div class="modal-kort" style="width:min(1050px,100%)" role="dialog" aria-modal="true"
       aria-label="Felrapporter">
       <div class="modal-topp">
         <div><div class="lbl">Lärarvy</div><h2>Felrapporterade uppgifter</h2></div>
@@ -11383,11 +11382,15 @@ async function ritaFellogg(){
   catch(e){ host.innerHTML=`<p class="modal-text">${esc(e.message)}</p>`; return; }
   if(!felloggVisaKlara){ felOppnaAntal=felloggData.length; uppdateraFelNotis(); }
   else uppdateraFelAntal();
+  ritaFelloggRader();
+}
+function ritaFelloggRader(){
+  const host=document.getElementById('felloggkropp');if(!host)return;
   if(!felloggData.length){
     host.innerHTML=`<p class="modal-text">Inga öppna felrapporter just nu.</p>`; return;
   }
   let html="", kurs=null;
-  felloggData.forEach(r=>{
+  felloggData.forEach((r,index)=>{
     if(r.kurs!==kurs){
       kurs=r.kurs;
       html+=`<div class="kursrad">${esc(COURSES[kurs]?.name||kurs)}</div>`;
@@ -11397,34 +11400,48 @@ async function ritaFellogg(){
     const kd=felDelaKommentarer(r.kommentarer);
     const komm=[...kd.larare.map(p=>"Lärare "+felPostText(p,false)),
       ...kd.elev.map(p=>(p.namn?"Elev ":"")+felPostText(p,false))].slice(0,4).join(" | ");
-    html+=`<div class="felpost${avslutad?" klar":""}">
-      <span class="nr">#${esc(r.uppgift)}</span>
-      <span class="txt">${taggar?esc(taggar):"<em>ingen tagg</em>"}${
-        komm?` · ${esc(komm)}`:""}${r.spar?` · ${esc(r.spar)}`:""}</span>
-      <span class="antal" title="${r.senast?"Senast rapporterad "+esc(kgAdminTid(r.senast)):""}">${r.antal}×${r.senast?`<small style="display:block;font-weight:400;opacity:.7">${esc(kgAdminTid(r.senast))}</small>`:""}</span>
-      ${avslutad?`<span class="admin-rapportstatus ${status}">${esc(kgAdminStatusText(status))}</span>${["atgardad","ignorerad"].includes(status)?`<button class="knapp" onclick="oppnaFelGranskning('${esc(r.kurs)}','${esc(r.uppgift)}','${status}')">Kommentera</button>`:""}`:`<button class="knapp" onclick="markeraFelAtgardad('${esc(r.kurs)}','${esc(r.uppgift)}')"
-        title="Uppgiften var fel och är rättad. Eleverna som rapporterat får ${FEL_BONUS_XP} XP.">Åtgärdad</button>
-      <button class="knapp avfard" onclick="ignoreraFel('${esc(r.kurs)}','${esc(r.uppgift)}')"
-        title="Uppgiften är granskad och var korrekt. Avslutar rapporten utan felrapportsbonus.">Granskad – inget fel</button>`}
-      ${r.granskningskommentar?`<div class="fel-loggsvar">${felKommentarHtml(r.granskningskommentar)}</div>`:""}
+    const nyckel=JSON.stringify([r.kurs,r.uppgift,r.deluppgift||'',status]);
+    const sparar=felloggSparar.has(nyckel);
+    const feltext=felloggFel.get(nyckel)||'';
+    const kommentar=felloggUtkast.has(nyckel)?felloggUtkast.get(nyckel):(r.granskningskommentar||'');
+    const kanSpara=!avslutad || ['atgardad','ignorerad'].includes(status);
+    html+=`<div class="felpost${avslutad?' klar':''}" data-fel-index="${index}" data-fel-nyckel="${esc(nyckel)}">
+      <div class="felpost-info"><span class="nr">#${esc(r.uppgift)}${r.deluppgift?` ${esc(r.deluppgift)})`:''}</span>
+        <span class="txt">${taggar?esc(taggar):'<em>ingen tagg</em>'}${komm?` · ${esc(komm)}`:''}${r.spar?` · ${esc(r.spar)}`:''}</span>
+        <span class="antal">${r.antal}×${r.senast?` · ${esc(kgAdminTid(r.senast))}`:''}</span>
+        ${avslutad?`<span class="admin-rapportstatus ${status}">${esc(kgAdminStatusText(status))}</span>`:''}
+      </div>
+      ${kanSpara?`<div class="felpost-edit">
+        <label for="felkommentar-rad-${index}">Kommentar till eleven (valfri)</label>
+        <textarea id="felkommentar-rad-${index}" class="fel-svar-input" rows="2" maxlength="1000"
+          data-utkast="${esc(nyckel)}" ${sparar?'disabled':''} placeholder="Skriv en kort förklaring om du vill.">${esc(kommentar)}</textarea>
+        <div class="felpost-actions">${avslutad?`<button class="knapp" ${sparar?'disabled':''} onclick="sparaFelGranskning(${index},'${status}')">Spara kommentar</button>`:
+          `<button class="knapp" ${sparar?'disabled':''} onclick="sparaFelGranskning(${index},'atgardad')" title="Ett fel har rättats.">Åtgärdad</button>
+           <button class="knapp avfard" ${sparar?'disabled':''} onclick="sparaFelGranskning(${index},'ignorerad')" title="Uppgiften var korrekt. Ingen felrapportsbonus delas ut.">Granskad – inget fel</button>`}</div>
+        <p class="felrad-fel" role="alert" ${feltext?'':'hidden'}>${esc(feltext)}</p>
+      </div>`:felKommentarHtml(r.granskningskommentar)}
     </div>`;
   });
   host.innerHTML=html;
+  host.querySelectorAll('textarea[data-utkast]').forEach(input=>input.addEventListener('input',()=>felloggUtkast.set(input.dataset.utkast,input.value)));
 }
 function markeraFelAtgardad(kurs,uppgift){
-  oppnaFelGranskning(kurs,uppgift,"atgardad");
+  return sparaFelGranskning(felloggData.findIndex(r=>r.kurs===kurs && r.uppgift===uppgift),"atgardad");
 }
 function ignoreraFel(kurs,uppgift){
-  oppnaFelGranskning(kurs,uppgift,"ignorerad");
+  return sparaFelGranskning(felloggData.findIndex(r=>r.kurs===kurs && r.uppgift===uppgift),"ignorerad");
 }
 async function felKommentarRpc(namn,params={}){
-  if(!session) throw new Error("Logga in för att läsa och skriva återkoppling.");
+  const uid=session?.user?.id;
+  if(!uid || !await giltigSession() || session?.user?.id!==uid) throw new Error("Logga in för att läsa och skriva återkoppling.");
   const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/"+namn,{
     method:"POST",headers:sbHeaders(true),body:JSON.stringify(params)
   });
-  if(r.status===404) throw new Error("Återkoppling på felrapporter är inte aktiverad ännu.");
-  if(!r.ok) throw new Error("Återkopplingen kunde inte sparas eller hämtas. Försök igen.");
-  const d=await r.json();
+  const d=await r.json().catch(()=>null);
+  if(r.status===401) throw new Error("Din inloggning har gått ut. Logga in igen och försök spara.");
+  if(r.status===404 || d?.code==='PGRST202') throw new Error("Återkoppling på felrapporter är inte aktiverad. Uppdatera Supabase med SQL-filen för felrapportkommentarer.");
+  if(r.status===403) throw new Error("Kontot saknar behörighet att läsa eller spara återkopplingen.");
+  if(!r.ok) throw new Error("Återkopplingen kunde inte sparas eller hämtas"+(d?.code?" ("+String(d.code).slice(0,30)+")":"")+". Försök igen.");
   if(d?.ok===false){
     const text={larare_kravs:"Endast admin och godkända lärare kan granska rapporter.",
       kommentar:"Skriv en kommentar på högst 1000 tecken.",
@@ -11436,47 +11453,39 @@ async function felKommentarRpc(namn,params={}){
 function felKommentarHtml(text){
   return text?`<div class="fel-svar"><b>Kommentar från granskningen</b><p>${esc(text)}</p></div>`:"";
 }
-function oppnaFelGranskning(kurs,uppgift,status){
-  if(!["atgardad","ignorerad"].includes(status)) return;
-  stangFelGranskning();
-  const rad=felloggData.find(x=>x.kurs===kurs && x.uppgift===uppgift);
-  const el=document.createElement("div");el.id="felgranskning";el.className="modal";
-  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-labelledby="felgranskning-rubrik">
-    <div class="modal-topp"><div><div class="lbl">${esc(COURSES[kurs]?.name||kurs)} · #${esc(uppgift)}</div>
-      <h2 id="felgranskning-rubrik">${esc(kgAdminStatusText(status))}</h2></div>
-      <button class="iconbtn" onclick="stangFelGranskning()" aria-label="Stäng">✕</button></div>
-    <p class="modal-text">${status==="ignorerad"?"Uppgiften var korrekt och behövde inte rättas. Ingen felrapportsbonus delas ut.":"Ett fel i uppgiften har rättats."}</p>
-    <label class="fel-svar-label" for="felgranskningskommentar">Kommentar till den som rapporterat</label>
-    <textarea id="felgranskningskommentar" class="fel-svar-input" maxlength="1000" rows="5"
-      placeholder="Förklara kort vad du har kontrollerat eller rättat.">${esc(rad?.granskningskommentar||"")}</textarea>
-    <p class="modal-text">Kommentaren visas för alla inloggade elever som omfattas av den här granskningen av #${esc(uppgift)}.</p>
-    <p id="felgranskning-fel" class="modal-text" role="alert" hidden></p>
-    <div class="modal-fot"><button class="btn" onclick="stangFelGranskning()">Avbryt</button><span class="spacer"></span>
-      <button class="btn primary" id="felgranskning-spara">Spara granskning</button></div></div>`;
-  el.dataset.kurs=kurs;el.dataset.uppgift=uppgift;el.dataset.status=status;
-  el.dataset.redigera=rad && felloggStatus(rad)!=="oppen"?"1":"0";
-  document.body.appendChild(el);
-  el.querySelector('#felgranskning-spara').addEventListener('click',sparaFelGranskning);
-  el.addEventListener('click',e=>{if(e.target===el)stangFelGranskning();});
-  requestAnimationFrame(()=>{el.classList.add('visa');el.querySelector('textarea').focus();});
-}
-function stangFelGranskning(){
-  const el=document.getElementById('felgranskning');
-  if(el?.dataset.sparar==='1') return;
-  el?.remove();
-}
-async function sparaFelGranskning(){
-  const el=document.getElementById('felgranskning');if(!el || el.dataset.sparar==='1')return;
-  const kommentar=el.querySelector('textarea').value.trim(),fel=el.querySelector('#felgranskning-fel');
-  if(!kommentar || kommentar.length>1000){fel.textContent="Skriv en kort kommentar innan du sparar.";fel.hidden=false;return;}
-  el.dataset.sparar='1';el.querySelector('#felgranskning-spara').disabled=true;fel.hidden=true;
+async function sparaFelGranskning(index,status){
+  const row=document.querySelector(`#felloggkropp [data-fel-index="${index}"]`),r=felloggData[index];
+  if(!row || !r || row.dataset.sparar==='1' || !['atgardad','ignorerad'].includes(status))return;
+  const input=row.querySelector('textarea'),fel=row.querySelector('.felrad-fel');
+  const nyckel=row.dataset.felNyckel,token={},uid=session?.user?.id;
+  if(felloggSparar.has(nyckel))return;
+  const kommentar=input.value.trim(),redigera=felloggStatus(r)!=='oppen';
+  if(kommentar.length>1000){fel.textContent='Kommentaren får vara högst 1000 tecken.';fel.hidden=false;return;}
+  const kurs=r.kurs,uppgift=r.uppgift;
+  felloggSparar.set(nyckel,token);felloggFel.delete(nyckel);
+  row.dataset.sparar='1';row.querySelectorAll('button').forEach(k=>k.disabled=true);input.disabled=true;fel.hidden=true;
   try{
-    await felKommentarRpc('kg_felrapport_granska',{p_kurs:el.dataset.kurs,p_uppgift:el.dataset.uppgift,
-      p_status:el.dataset.status,p_kommentar:kommentar,p_redigera:el.dataset.redigera==='1'});
-    el.dataset.sparar='0';stangFelGranskning();
-    toast('Granskningen och kommentaren är sparade.');await ritaFellogg();
-  }catch(e){fel.textContent=e.message;fel.hidden=false;}
-  finally{el.dataset.sparar='0';const k=el.querySelector('#felgranskning-spara');if(k)k.disabled=false;}
+    await felKommentarRpc('kg_felrapport_granska',{p_kurs:kurs,p_uppgift:uppgift,p_status:status,
+      p_kommentar:kommentar||null,p_redigera:redigera});
+    if(uid!==session?.user?.id)return;
+    felloggUtkast.delete(input.dataset.utkast);
+    // Behåll den sparade raden och kommentaren synliga så att nästa rapport
+    // kan hanteras utan nytt fönster eller omladdning av andra utkast.
+    r.atgardad=true;r.ignorerad=status==='ignorerad';r.status=status;r.granskningskommentar=kommentar||null;
+    ritaFelloggRader();uppdateraFelAntal();
+    toast(redigera?'Kommentaren är sparad.':'Granskningen är sparad.');
+  }catch(e){
+    if(uid!==session?.user?.id)return;
+    felloggFel.set(nyckel,e.message);
+    const current=[...document.querySelectorAll('[data-fel-nyckel]')].find(x=>x.dataset.felNyckel===nyckel);
+    const error=current?.querySelector('.felrad-fel');if(error){error.textContent=e.message;error.hidden=false;}
+  }finally{
+    if(felloggSparar.get(nyckel)===token){
+      felloggSparar.delete(nyckel);
+      const current=[...document.querySelectorAll('[data-fel-nyckel]')].find(x=>x.dataset.felNyckel===nyckel);
+      if(current){current.dataset.sparar='0';current.querySelectorAll('button').forEach(k=>k.disabled=false);current.querySelector('textarea').disabled=false;}
+    }
+  }
 }
 async function felKompletteraGranskningssvar(lista){
   try{
@@ -11514,7 +11523,7 @@ async function laddaMinaFelrapporter(){
       <div class="admin-report-topp"><b>${esc(COURSES[r.kurs]?.name||r.kurs)} · #${esc(r.uppgift)}${r.deluppgift?` ${esc(r.deluppgift)})`:""}</b>
       <span class="admin-rapportstatus ${esc(r.status)}">${esc(kgAdminStatusText(r.status))}</span></div>
       ${r.granskad?`<p class="modal-text">Granskad ${esc(kgAdminTid(r.granskad))}</p>`:""}
-      ${felKommentarHtml(r.kommentar) || `<p class="modal-text">${r.status==='oppen'?"Rapporten väntar på granskning.":"Ingen kommentar har lämnats till den här rapporten."}</p>`}
+      ${felKommentarHtml(r.kommentar) || (r.status==='oppen'?'<p class="modal-text">Rapporten väntar på granskning.</p>':'')}
       </div>`).join(''):'<p class="modal-text">Du har inga felrapporter kopplade till ditt konto.</p>';
   }catch(e){host.innerHTML=`<p class="modal-text" role="alert">${esc(e.message)}</p>`;}
 }

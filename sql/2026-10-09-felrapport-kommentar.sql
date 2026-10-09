@@ -12,7 +12,7 @@ create or replace function public.kg_felrapport_granska(
   p_kurs text, p_uppgift text, p_status text, p_kommentar text, p_redigera boolean default false
 ) returns jsonb language plpgsql security definer set search_path = '' as $$
 declare
-  uid uuid := auth.uid(); kommentar text := btrim(coalesce(p_kommentar,''));
+  uid uuid := auth.uid(); kommentar text := nullif(btrim(coalesce(p_kommentar,'')),'');
   antal integer; har_oppna boolean;
 begin
   if uid is null or not (coalesce(public.kg_ar_admin(),false)
@@ -22,7 +22,7 @@ begin
   if p_status is null or p_status not in ('atgardad','ignorerad') then
     return jsonb_build_object('ok',false,'code','status');
   end if;
-  if char_length(kommentar) not between 1 and 1000 then
+  if char_length(kommentar)>1000 then
     return jsonb_build_object('ok',false,'code','kommentar');
   end if;
   -- Lås hela gruppen. Samtidiga granskare kan inte skriva olika beslut i samma
